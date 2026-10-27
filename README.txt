@@ -17,7 +17,7 @@ INSTALAÇÃO
 Instruções completas em kit/PTBR_Patch/README.txt.
 
 O QUE TEM NESTE REPOSITÓRIO
-kit/PTBR_Patch/          instalador, script Python e os arquivos de dados traduzidos
+kit/PTBR_Patch/          instalador, script Python, arquivos de dados e jars traduzidos
 kit/packaging/make_kit.py   monta o kit e o zip a partir do build
 units/                   textos originais (.en.json) e traduções (.pt.json), em blocos
 tools/sstr.py            extrai os textos do jogo, valida as traduções e gera o build
@@ -25,7 +25,7 @@ tools/qa.py, setpt.py    verificação e edição das traduções
 tools/VerifyJars.java    testa se as classes dos jars traduzidos carregam
 GLOSSARIO.txt            termos usados na tradução
 
-Os dois jars do jogo traduzidos (starfarer_obf.jar e starfarer.api.jar) não estão neste repositório, porque são arquivos do jogo. Eles estão no pacote do Drive.
+A pasta kit/PTBR_Patch/localization inclui os dois jars do jogo traduzidos (starfarer_obf.jar e starfarer.api.jar), com os textos de interface que ficam dentro do código. Você também pode baixar este repositório como zip (botão Code > Download ZIP) e usar a pasta kit/PTBR_Patch como o pacote do Drive.
 
 COMO CONTRIBUIR
 Encontrou um erro? Abra uma issue com o texto em inglês, o texto em português e onde ele aparece no jogo.

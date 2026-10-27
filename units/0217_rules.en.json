@@ -1,0 +1,176 @@
+{
+ "chunk": 217,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "$name fills your bridge tactical display, a spatter of hollowed icons representing dead targets. The last one blinks out, and with that your mission parameters are fulfilled.\r\n\r\nWith a simple wave of your hand the tactical display collapses and winks out. The holomatrix snows and reforms a navigational overview, your $shipOrFleet holding station in the very center.",
+   "ctx": "data/campaign/rules.csv taboBombardmentFinished [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"Your bombardment of $entity.tabo_marketName will not go unanswered,\" the $rank says boldly. \"Now prepare yourself for battle!\"",
+   "ctx": "data/campaign/rules.csv TABOPatrolHail1 [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"You will be judged in the next life for unleashing such destruction on $entity.tabo_marketName,\" the $rank says, hands clasped together in furious piety. \"Now may Providence guide my hand as I bring you justice in this life!\"",
+   "ctx": "data/campaign/rules.csv TABOPatrolHailLuddic [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"Foul servant of Moloch!\" the Pather shouts, \"Providence smiles upon me for my Path brings me to you, and I wield Ludd's righteous hammer to smash and scatter your fleet!\"",
+   "ctx": "data/campaign/rules.csv TABOPatrolHailLuddicPath [text]"
+  },
+  {
+   "i": 5,
+   "en": "The Tri-Tachyon $rank looks like $heOrShe has smelled something foul. \"This... this wanton destruction of Company property is a direct attack on our bottom line. I assure you, you pirate, you brigand, you will be repaid twice over in kind!\"",
+   "ctx": "data/campaign/rules.csv TABOPatrolHailTriTachyon [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"You crossed the boss,\" the pirate snarls. \"You blew up stuff that belongs to the boss. Did you think you could get away with it? No one crosses the boss and lives.\"",
+   "ctx": "data/campaign/rules.csv TABOPatrolHailPirates [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"I've acquired the latest $seco_faction facility defense security codes. They could provide a significant edge in a ground operation.\"",
+   "ctx": "data/campaign/rules.csv secoBlurb [text]"
+  },
+  {
+   "i": 8,
+   "en": "At the bar, a shifty $seco_manOrWoman fiddling with a cybermod jack gives you a grim but significant look before turning away.",
+   "ctx": "data/campaign/rules.csv secoBlurbBar [text]"
+  },
+  {
+   "i": 9,
+   "en": "You pretend to read the menu as the $seco_manOrWoman puts the jack down and explains that $seco_heOrShe saw your $shipOrFleet come in. \"You look like someone who might find a use for the latest $seco_faction facility security codes,\" $seco_heOrShe says with a wink.\r\n\r\n\"They'd change all the codes once you pulled this trick, of course but breaching the security system at the right moment... \" $HeOrShe trails off, leaving you to complete the thought: it would give you a significant one-time advantage in a ground operation. \"And you'd have to use them soon,\" $heOrShe says with a shrug, \"These codes get rotated, oh, maybe once a month. Depending.\"\r\n\r\nThe $seco_manOrWoman explains that the price is $seco_price credits, significantly more than the drink you were eying.",
+   "ctx": "data/campaign/rules.csv secoOfferTextBar [text]"
+  },
+  {
+   "i": 10,
+   "en": "$HeOrShe nods $hisOrHer head conspiratorially, \"You see, a 'friend' acquired some $seco_faction security codes that'll give you the upper hand in any one ground operation - obviously they'll change the codes once they're used. I could let them go for $seco_price credits. Have to cover my 'friend's risks and of course include a reasonable resellers fee.\" The codes will be good for $seco_days days.",
+   "ctx": "data/campaign/rules.csv secoOfferTextContact [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"We don't know how you got our codes,\" the $theFactionLong $personRank says, seething, \"But I find such subterfuge a personal affront to my honor as a warrior. My orders are simply to hunt you down and destroy you, but know that I consider this a duel between an officer and an unscrupulous coward.\"\r\n\r\n\"Prepare your $shipOrFleet for combat, captain,\" $heOrShe spits. \"Let us see how you do in a fair fight.\"",
+   "ctx": "data/campaign/rules.csv SECOPatrolHail [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"I built a foolproof plan to steal a military ship from a hangar in local orbit. The buyer fell through, so I could sell you the info you'd need to pull the job off yourself.\"",
+   "ctx": "data/campaign/rules.csv hijackBlurb [text]"
+  },
+  {
+   "i": 13,
+   "en": "A tough-looking $hijack_manOrWoman in a powered armor undersuit downs acrid liquor, intimidating anyone who comes too close with a feral stare.",
+   "ctx": "data/campaign/rules.csv hijackBlurbBar [text]"
+  },
+  {
+   "i": 14,
+   "en": "You approach, maintaining your cool despite the withering stare. The $hijack_manOrWoman laughs at your composure and welcomes you to sit with a gust of eye-watering liquor fumes. \"I like you,\" $heOrShe exclaims to the entire bar, which ignores the shout, \"You're not a scared little dirtworm!\"\r\n\r\nYour new best friend is full of boasts and brags, and you're surprised to discover that $heOrShe is sharper than $heOrShe looks as $heOrShe slips pointed questions about your background and capabilities into $hisOrHer braggadocio.\r\n\r\nAdopting a lower voice, but keeping $hisOrHer eyes scanning the room, $heOrShe says, \"I'll level, captain. You can handle your flux, I respect that. I'm wondering if you want to get in on a job with me.\" $HeOrShe smiles, showing off a full set of titanium teeth. \"Wanna know more?\"",
+   "ctx": "data/campaign/rules.csv hijackOfferTextBar [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"There's a $hijack_hull $hijack_designation collecting space dust in a lightly guarded orbital hangar. I made a plan to jack the ship. My original sponsor got cold feet. Dirtworm, like I said. It'd be a waste not to do the job after all that work, yeah? I just don't got any use for a starship.\"\r\n\r\n\"I've got schematics of the hangar, the security codes, the guards' schedule, everything. I'll even come along on the operation so you know it's on the up-and-up.\"\r\n\r\n\"My price is $hijack_price credits, non-negotiable. And you'll need to provide at least $hijack_marines marines for this to work cleanly. I don't expect active resistance, but all the guards gotta be covered to ensure no one tries to be a hero. You in?\"",
+   "ctx": "data/campaign/rules.csv hijackOfferTextBar2 [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"This $hijack_hull $hijack_designation is just collecting space-dust in a lightly guarded orbital hangar. Probably some kind of requisitions mixup. I've got a schematic of the hangar, the security codes, the guards' schedule, and I'll even come along on the operation so you know it's on the up-and-up.\"\r\n\r\n\"My price is $hijack_price credits, non-negotiable. And you'll need to provide at least $hijack_marines marines for the plan to work. I don't expect much active resistance, but all of the guards will need to be covered to ensure that no one gets any ideas. What do you think?\"",
+   "ctx": "data/campaign/rules.csv hijackOfferTextContact [text]"
+  },
+  {
+   "i": 17,
+   "en": "The $hijack_manOrWoman taps a few buttons on $hijack_hisOrHer battered TriPad so you can see the schematics. \"A real burner, aye?\"",
+   "ctx": "data/campaign/rules.csv hijackBarLookAtFreighter [text]"
+  },
+  {
+   "i": 18,
+   "en": "$personName taps a few buttons to pull up a shared holodisplay of the ship schematics. \"Have a look,\" $heOrShe says.",
+   "ctx": "data/campaign/rules.csv hijackLookAtFreighter [text]"
+  },
+  {
+   "i": 19,
+   "en": "You don't have sufficient marines to carry out this operation.",
+   "ctx": "data/campaign/rules.csv HijackNotEnoughMarines [text]"
+  },
+  {
+   "i": 20,
+   "en": "It is simple enough to sneak two teams into the orbital hangar on shuttles disguised as civilian logistics drones. An unlucky micrometeorite impact ensures that the rudimentary comms module is out of commission, then an input error by 'someone' with full security access resets the hangar power systems, disabling internal sensors and the centuries-outdated door locks.\r\n\r\nYour team of hand-picked marines catches the guards completely by surprise.",
+   "ctx": "data/campaign/rules.csv hijackOperation1 [text]"
+  },
+  {
+   "i": 21,
+   "en": "You watch on the holofeed as $personName grins through $hisOrHer faceplate and pulls the manual docking release $himOrHerself. Your new ship floats free from the hangar clamps, its new skeleton crew stowing sidearms and taking bridge consoles as main power comes online.",
+   "ctx": "data/campaign/rules.csv hijackOperation2 [text]"
+  },
+  {
+   "i": 22,
+   "en": "You return to the bar and share a glass of that noxious spirit that $personName is so fond of to celebrate. \r\n\r\n\"That was fun, captain! I'd steal another ship with you anyday you like,\" $heOrShe says loud enough for everyone nearby to hear, though they're wise enough to pretend they didn't.",
+   "ctx": "data/campaign/rules.csv hijackOperation3Bar [text]"
+  },
+  {
+   "i": 23,
+   "en": "After the newly-liberated ship joins your fleet, you review the after-action report with $personName.\r\n\r\n\"All according to plan.\" $HeOrShe smiles like an old pirate, \"We'll have to do this again someday.\"",
+   "ctx": "data/campaign/rules.csv hijackOperation3NotBar [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"I would like to discuss the unnecessary incarceration of a certain individual and what might be done to resolve the situation.\"",
+   "ctx": "data/campaign/rules.csv jabrBlurb1 [text]"
+  },
+  {
+   "i": 25,
+   "en": "From a shadowy corner, a $jabr_manOrWoman smoking a burning narcotic stick catches your eye.",
+   "ctx": "data/campaign/rules.csv jabrBlurbBar1 [text]"
+  },
+  {
+   "i": 26,
+   "en": "The $jabr_manOrWoman looks you over as you approach. After a moment, $jabr_heOrShe seems satisfied and slides a cheap datapad across the table. It displays a personnel file and the schematics of a secure facility.\r\n\r\nIn a quiet voice $jabr_heOrShe explains, \"I need an extract of the subject from, ah, unjust confinement $jabr_marketOnOrAt $jabr_marketName, $jabr_dist light-years away. My benefactor offers a payment of $jabr_reward credits to secure the subject's liberation.\" The $jabr_manOrWoman awaits your reply, eyes visible only as two constellations of reflected light.\r\n\r\nYou skim the schematics; they're thorough. You estimate that around $jabr_marines marines would be required to carry off this operation. Assaulting $jabr_marketFactionArticle $jabr_marketFaction prison could also have an impact on your reputation; measures can be taken to reduce identifiability, but they can't completely avert official suspicion.",
+   "ctx": "data/campaign/rules.csv jabrOfferTextBar1 [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"I would simply like you to extract the subject from confinement on $jabr_marketOnOrAt $jabr_marketName, located $jabr_dist light-years away. Doing it quietly would be preferable, but sometimes these matters escape our control. Try not to offend the $jabr_marketFaction too much; it would draw unwanted attention. Once you liberate the subject, you will receive $jabr_reward credits to your accounts.\"\r\n\r\n\"I suspect that they're expecting a break attempt, so I acquired this.\" $HeOrShe taps at a TriPad and your corresponding system receives detailed reports on the troop deployments and infiltration defenses of $jabr_marketName. A quick review suggests that you'd need around $jabr_marines marines to carry off the operation.",
+   "ctx": "data/campaign/rules.csv jabrOfferTextContact1 [text]"
+  },
+  {
+   "i": 28,
+   "en": "The target is disheveled, and looks to have gone some time without sleep. They have one of those perfectly ordinary faces; just another tech, clerk, or laborer that passes by on the transport tube. All that trouble, for this?\r\n\r\n\"Thank you captain,\" they give a wan smile as your guards lead them to a secure compartment, \"I'm expected home now, I'm sure.\"",
+   "ctx": "data/campaign/rules.csv jabrRaidFinished1 [text]"
+  },
+  {
+   "i": 29,
+   "en": "You approach the smiling patron, who turns and keeps their eyes firmly locked at a menu display on the wall while a somewhat fanciful concoction appears on the bar.\r\n\r\n\"There are so many options, $playerName,\" they say deliberately. \"Not everyone wants the same thing. Some disagree quite strongly, but are too polite to say so out loud.\" Eyes flicker to the door, then to a holodisplay of some news item about the leading political cadre of $jabr_marketName.\r\n\r\n\"Perhaps you'd like what I'm having?\" They take a long sip, \"It comes at quite a price because there are others who want it very, very much as well. $jabr_storyCost credits.\"",
+   "ctx": "data/campaign/rules.csv jabrBarEventSel [text]"
+  },
+  {
+   "i": 30,
+   "en": "You hail the bartender, point, and order 'one of those'.\r\n\r\nThe patron's smile returns. \"How embarrassing for our friends up there.\" A nod to the holodisplay.\r\n\r\nYou exchange cryptokeys to facilitate secure comms, and coordinate a pick-up point. The timeline is short, delivery is promised before the next workshift begins, and you are almost as surprised as the prisoner looks as they are shoved out of a shadowy maintenance hatch toward you, hands still tied. The patron leans through and gives you a nod before resealing the hatch.\r\n\r\nYou move quickly to leave before the civic observation net flags your identities.",
+   "ctx": "data/campaign/rules.csv jabr_barStoryOptionFromBar [text]"
+  },
+  {
+   "i": 31,
+   "en": "Your TriPad chimes, notifying you that your chief security officer has handed off the prisoner, now free. Perhaps.",
+   "ctx": "data/campaign/rules.csv jabrMissionReturn1 [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"I need a package delivered. The destination must be kept a secret. Simple.\"",
+   "ctx": "data/campaign/rules.csv ddroBlurb1 [text]"
+  },
+  {
+   "i": 33,
+   "en": "At the end of the bar, a rakish $ddro_manOrWoman is met by a variety of low-life characters who scurry away again almost immediately. Giving orders, perhaps.",
+   "ctx": "data/campaign/rules.csv ddroBlurbBar1 [text]"
+  },
+  {
+   "i": 34,
+   "en": "The $ddro_manOrWoman watches your approach. \"You want in on the business, that right?\" $heOrShe says, amused at your audacity.\r\n\r\n\"Let me give you a job so easy that any rad-addled spacer could manage it. But,\" $heOrShe shrugs regretfully, \"It's a real shame how many of 'em just can't follow instructions and end up getting tossed out an airlock.\" $HeOrShe laughs like this is a good joke.\r\n\r\n\"Deliver the item to the specified location in $ddro_systemName, $ddro_dist light-years away.\" $HeOrShe flips a TriPad out of $hisOrHer coat. The display shows $ddro_aOrAnThing. \"This is it. The reward is $ddro_reward credits. Don't be seen making the drop, and don't tell anyone about it.\"",
+   "ctx": "data/campaign/rules.csv ddroOfferTextBar1 [text]"
+  }
+ ]
+}

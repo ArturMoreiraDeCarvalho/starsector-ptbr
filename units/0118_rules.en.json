@@ -1,0 +1,191 @@
+{
+ "chunk": 118,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "His demeanor freezes into an icy mask, and a hand reaches for his comms-cutoff.\r\n\r\n\"Don't talk to me.\"\r\n\r\nThe link terminates.",
+   "ctx": "data/campaign/rules.csv LKEmazDKYaribayEnd [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"Bornanew, huh,\" $personName says, growing bored. \"Sounds like a Luddie. I'd say check the public directory, but I guess he'd be one of those that thinks it's 'the book of Moloch', right?\"\r\n\r\n\"Look... Captain $playerLastName was it? I have enough problems with keeping the Luddics under control as it is. If you want to find one, ask one.\"\r\n\r\n$HeOrShe turns away to look at another screen, clearly finished with the conversation. ",
+   "ctx": "data/campaign/rules.csv LKEmazAdminAskBornanew1 [text]"
+  },
+  {
+   "i": 3,
+   "en": "His eyebrows go up. \"Horus Yaribay sent you? Here?\"\r\n\r\n\"Gens Kato is looking after Mazalot. Trying to build something here in spite of interfactional meddling. The Yaribays should know that, and you should know better than to interfere.\"\r\n\r\nHe snorts, \"At least, you should have been quiet about it.\"",
+   "ctx": "data/campaign/rules.csv LKEmazAdminTryYaribay [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"I'm very busy. Have a bright burn away from here.\"\r\n\r\nThe comms snap off.",
+   "ctx": "data/campaign/rules.csv LKEmazAdminYariBye [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"Bornanew, huh,\" $personName says. \"Sounds like a Luddie. I'd say check the public directory, but I guess he'd be one of those that thinks it's 'the book of Moloch', right?\"\r\n\r\n\"Look... Captain $playerLastName? I can see you're signed up with the League, so I want to help you. But I have enough problems keeping the Luddics under control as it is.\"",
+   "ctx": "data/campaign/rules.csv LKEmazAdminAskBornanew1b [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"You really want to go there?\" $HeOrShe looks at you for a moment, then shakes $hisOrHer head when you fail to desist.\r\n\r\n\"Well. Fine. There's a man, Nile Virens. He's some kind of strong-man in the Path. I swear he's behind half the bombings in the systems, but I can't peg anything on him. You know, legally. So if I touch him, it'll set off the Luddies and we all know what happened last time.\"\r\n\r\nYou note, now, that $personName looks seriously stressed out. $HeOrShe could probably use more sleep. And fewer stimulants.",
+   "ctx": "data/campaign/rules.csv LKEmazAdminAskBornanewPL1 [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"He's got... a stronghold, I guess I'd call it. Fortified bunker on the surface. Well, a network of them hidden in the Luddic communities and quarters. I'll send you what I've got on him.\"\r\n\r\n\"There's also a comms ID, though,\" $heOrShe makes a little snort, \"He doesn't pick up when 'Servants of Moloch' come calling.\"\r\n\r\n\"Captain.\" $HeOrShe fixes you with $hisOrHer bloodshot eyes. \"Please. Don't do anything stupid. Like I said, the Luddies are touchy, and there are more of them than there are us.\"",
+   "ctx": "data/campaign/rules.csv LKEmazAdminAskBornanewPL2 [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"Good, ... good,\" he says, uncertainly.\r\n\r\nIt looks like he's considering telling you more dire warnings, but he says nothing as he cuts the comms.",
+   "ctx": "data/campaign/rules.csv LKEmazAdminAskBornanewDKend1 [text]"
+  },
+  {
+   "i": 9,
+   "en": "What looks like an expression of terrible regret, poorly hidden, crosses Dardan Kato's face. \r\n\r\nBut he says nothing as he cuts the comms.",
+   "ctx": "data/campaign/rules.csv LKEmazAdminAskBornanewDKend2 [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"And,\" $heOrShe spares a glance back at the comms, \"Don't stir up any trouble. $personLastName out.\"\r\n\r\nThe comms cut.",
+   "ctx": "data/campaign/rules.csv LKEmazAdminAskBornanew3 [text]"
+  },
+  {
+   "i": 11,
+   "en": "$PersonName looks at you incredulously, then lets out a bitter laugh.\r\n\r\n\"Are you, now. Great,\" $heOrShe rolls $hisOrHer eyes, \"just what I need: a vigilante. Or a merc?\"\r\n\r\n\"Look, either way about it, I am telling you - ordering you - to not go stirring up trouble with the Luddies. The last thing I need on my watch is another 'incident' to give them an excuse to cause more trouble.\"\r\n\r\n$HeOrShe gives you a look of immense skepticism. \"We done?\"",
+   "ctx": "data/campaign/rules.csv LKEmazAdminAskPath1 [text]"
+  },
+  {
+   "i": 12,
+   "en": "$HeOrShe glances down at a datapad, then back at you. \"Oh. You're the one who's been asking around about the Luddie, aren't you.\"",
+   "ctx": "data/campaign/rules.csv LKEmazalotAskAdminBugged [text]"
+  },
+  {
+   "i": 13,
+   "en": "$HeOrShe sighs heavily, and drops $hisOrHer TriPad onto $hisOrHer desk. \r\n\r\n\"No. And if you insist on poking around for your lost Luddie, just don't cause any trouble. That's an order, a command.\" $HeOrShe picks the TriPad back up, \"Whatever it is I'm supposed to be doing around here for the glory of the Mazalot Unificiation Authority.\"",
+   "ctx": "data/campaign/rules.csv LKEmazAdminAskBugA [text]"
+  },
+  {
+   "i": 14,
+   "en": "$HeOrShe rolls $hisOrHer eyes. \"No? It's what they are.\"\r\n\r\n\"Anyway, I don't know where your Luddie is, so don't bother asking. Those people give me enough trouble as it is, and the last thing I need is another 'incident' to stir up the mob\"",
+   "ctx": "data/campaign/rules.csv LKEmazAdminAskBugB [text]"
+  },
+  {
+   "i": 15,
+   "en": "$HeOrShe rolls $hisOrHer eyes. \"Wonderful. I will definitely make an effort to remember your preferred form of address.\"",
+   "ctx": "data/campaign/rules.csv LKEmazAdminAskBugC [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"Speaking of- I'm very busy. Have a bright burn away from here, spacer.\"\r\n\r\nThe comms snap off.",
+   "ctx": "data/campaign/rules.csv LKEmazAdminAskBugBye [text]"
+  },
+  {
+   "i": 17,
+   "en": "The line blinks a standby message for several minutes. There is no acknowledgement of your comms request.",
+   "ctx": "data/campaign/rules.csv LKEmazAdminWontTalk [text]"
+  },
+  {
+   "i": 18,
+   "en": "You watch Dardan Kato's face stiffen; emotions - anger, annoyance, fear - erupt and crystalize.\r\n\r\n\"The Church.\" The words escape from his mouth like an inconvenient prisoner he'd rather everyone forgot. \"Here.\"",
+   "ctx": "data/campaign/rules.csv LKEmazAdminTellChurch [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"No, you're not,\" he snaps. \"You're not here. You're not welcome here. And we're not having this conversation.\"\r\n\r\nThe comms-link abruptly terminates.",
+   "ctx": "data/campaign/rules.csv LKEmazAdminTellChurch1 [text]"
+  },
+  {
+   "i": 20,
+   "en": "You ask around about someone who might have connections with the Path, keeping your language indirect. \r\n\r\nSpacers know that following local planetary rules and regulations is only really a game to be kept up, so you are only politely rebuffed and, in turn, politely turn down unwanted counter-offers about irrelevant opportunities.\r\n\r\nFinally, you hit upon someone who seems to give the right responses. You slide over an \"extra\" drink you were given to start the procedure off on the right foot.",
+   "ctx": "data/campaign/rules.csv LKEaskMazalotBarStart [text]"
+  },
+  {
+   "i": 21,
+   "en": "You ask around about someone who might have connections with the Path, keeping your language indirect. You have developed a sense of wariness after the whole incident with the Mammonite on Chalcedon.\r\n\r\nSpacers know that following local planetary rules and regulations is only really a game to be kept up, so you are only politely rebuffed and, in turn, can politely turn down unwanted counter-offers about some irrelevant opportunity or other.\r\n\r\nFinally, you hit upon someone who exudes restrained competence. You slide over an \"extra\" drink you were given, to start the procedure off on the right foot.",
+   "ctx": "data/campaign/rules.csv LKEaskMazalotBarStartB [text]"
+  },
+  {
+   "i": 22,
+   "en": "He nods, and deliberately lifts your drink, holds it up toward you in a subtle toast, then takes a sip.\r\n\r\n\"You may not be as lost as you think,\" he says. \"I'm in information technology. Less the tech, more the sales, you know? Distribution of... useful information.\"\r\n\r\nHe makes a show of examining the drink you gave him. \"This is nice to wet your throat. But I got a mighty thirst.\"",
+   "ctx": "data/campaign/rules.csv LKEaskMazalotBar2 [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"1,000 credits and I will put you in contact with the Luddic Path,\" he says to confirm the substance of the deal, and pokes a datapad from under his sleeve for your transfer confirmation.",
+   "ctx": "data/campaign/rules.csv LKEaskMazalotBarOffer1k [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"3,000 credits and I will put you in contact with the Luddic Path\" he says to confirm the substance of the deal, and holds out a datapad for your transfer.",
+   "ctx": "data/campaign/rules.csv LKEaskMazalotBarOffer3k [text]"
+  },
+  {
+   "i": 25,
+   "en": "You touch the datapad and its screen flashes to a badge of the Mazalot Unification Authority Municipal Security. The agent gives you a little smile.\r\n\r\n\"Captain $playerName, by the power of the Mazalot Unification Authority, you are charged with criminal conspiracy under the Interstellar Terrorism Statute of-\" \r\n\r\nHe drones on in legalese, relishing the act.\r\n\r\nYou consider your options: you suspect reprisals for dodging out of this entrapment scheme will be token at best - it feels like a credit-rustling op to scam naive spacers more than any kind of serious investigation.",
+   "ctx": "data/campaign/rules.csv lkeMazBarAgent [text]"
+  },
+  {
+   "i": 26,
+   "en": "The agent freezes mid-speech, and looks at you. You've already got your TriPad out, credentials displayed. He quickly taps at a datapad, looking between it and yours. Hoping, perhaps, that these aren't what you claim they are.\r\n\r\n\"Captain.\" The datapad is tucked away, the agent standing up straight, the insincere smile off his face. \"I'm afraid there's been a misunderstanding. Gens Yaribay is a respected operator which the MUA, naturally, welcomes within the local commercial volume. If MuniSec can be of any assistance in your, ah, business...\"",
+   "ctx": "data/campaign/rules.csv lkeMazBarAgentRespYaribay [text]"
+  },
+  {
+   "i": 27,
+   "en": "The agent freezes mid-speech, looks at you - yes, you mean it - then quickly taps at a datapad, looking between it and you.\r\n\r\n\"Captain.\" The datapad is tucked away, the agent standing up straight, the smile wiped off his face. \"I'm afraid there's been a misunderstanding. The MUA, naturally, fully supports the League Fleet,\" his eyes meet yours, and he makes a comradely nod, \"-and the commissioned privateers who bolster our forces.\"\r\n\r\n\"On behalf of Mazalot MuniSec, allow me to render any required assistance with, ah, Fleet operations...\"",
+   "ctx": "data/campaign/rules.csv lkeMazBarAgentRespLeague [text]"
+  },
+  {
+   "i": 28,
+   "en": "Before long, you've got the dossier on one Nile Virens, local Pather strongman, transferred to your datapad. Contact info, addresses, and a patchy bio. Operates compounds in all the major Luddic population centers. Effectively runs the Path on Mazalot.\r\n\r\n\"You need to watch out for that one,\" the agent stows his datapad and stands. \"Slippery customer, he is. Can't nail him on one thing or another, always some young Luddie will come to confess in his place.\" The agent looks at you with comradely bonhomie, \"Glad they finally called in the big guns. You gonna...\" he makes a finger pistol motion, and winks.\r\n\r\n\"Not that you could tell me, I suppose.\"",
+   "ctx": "data/campaign/rules.csv lkeMazBarAgentHelp1 [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"Yeah? Well good for Ludd.\" The agent holds up his datapad, which blinks a flash at you for a quick holo to register your 'crime'.\r\n\r\n\"Maybe you can pay your fine with all those tithes you Luddies collect from little old grannies. And it is,\" another couple taps, \"5,000 credits.\"",
+   "ctx": "data/campaign/rules.csv lkeMazBarAgentRespArchcurate [text]"
+  },
+  {
+   "i": 30,
+   "en": "The agent freezes, hunched over the datapad with the spurious 'fine' transaction request blinking. His eyes stare unblinking at you, expression grim. Deciding if you're serious.",
+   "ctx": "data/campaign/rules.csv lkeMazBarAgentKatoThreat [text]"
+  },
+  {
+   "i": 31,
+   "en": "Heads turn. The party at a neighboring table does a double-take and decides now is a good time to pay the tab.\r\n\r\nThe agent fixes you with his eyes, and smirks coldly. \"I see what you're trying. The Church doesn't run this polity, the League does.\"\r\n\r\nHe stares unblinking at you. Assessing.",
+   "ctx": "data/campaign/rules.csv lkeMazBarAgentLoud [text]"
+  },
+  {
+   "i": 32,
+   "en": "You stared down the Excubitor Orbis of Hesperus. A munisec officer from Mazalot? He's nothing. A bilge-roach before the Dragon of Orion.",
+   "ctx": "data/campaign/rules.csv lkeMazBarFineEyeContactEO1 [text]"
+  },
+  {
+   "i": 33,
+   "en": "Your gaze sears like plasma, it tears the munisec bully apart like a graviton beam cannon flashing across the blood-and-ash flecked volume of space battle; you've seen things he wouldn't believe. Unimaginable vastnesses, vacuum most terrible and cruel.",
+   "ctx": "data/campaign/rules.csv lkeMazBarFineEyeContactEO2 [text]"
+  },
+  {
+   "i": 34,
+   "en": "He drops his eyes to his silly parking-warden's datapad. Bashfully, he tucks it into a pocket while mumbling something about a misunderstanding, and shuffles away.\r\n\r\nYou stand alone.",
+   "ctx": "data/campaign/rules.csv lkeMazBarFineEyeContactEO3 [text]"
+  },
+  {
+   "i": 35,
+   "en": "His eyes stare with the dumb authority of a machine set to an aggression routine. There is no human connection, no empathy. You can only imagine this as the look given by a gamma AI stripped of its theory of mind in some dim Tri-Tachyon blacksite.\r\n\r\n\"The fine,\" he says, \"Is 5,000 credits.\"",
+   "ctx": "data/campaign/rules.csv lkeMazBarFineEyeContact [text]"
+  },
+  {
+   "i": 36,
+   "en": "You pay the fine.\r\n\r\n\"Stay safe, citizen.\" The MUA agent produces a perfunctory forge-duplicated smile, \"This place is crawling with terrorist sympathizers.\"\r\n\r\nHe leaves.",
+   "ctx": "data/campaign/rules.csv lkeMazBarFine5k [text]"
+  },
+  {
+   "i": 37,
+   "en": "The official datapad disappears and a different, somewhat more battered one appears in its place. A credits transfer request awaits your confirmation.\r\n\r\n\"You may pay your, ah, fine right here. I understand that you've expressed remorse for the breach of law, so I'll make sure this incident doesn't appear on your record.\"\r\n\r\nHe winks.",
+   "ctx": "data/campaign/rules.csv lkeMazBarAgentRespBribe [text]"
+  }
+ ]
+}

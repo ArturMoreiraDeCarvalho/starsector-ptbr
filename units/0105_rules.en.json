@@ -1,0 +1,156 @@
+{
+ "chunk": 105,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "The face of Gilead bears startlingly green continents and glittering blue oceans. First seeded by sporeships, the terraforming contract was granted by the Domain colonial authorities to the Eridani Utopia Terraforming megacorporation. Their vast machines tamed the world, and just as the project was on the cusp of fruition, Ludd came. From a certain perspective, the followers of Ludd stole the world to create their own vision of paradise: a rustic garden-wilderness. Despite the hypocrisy, or perhaps for it, Gilead is a gem of the Persean Sector.",
+   "ctx": "data/campaign/rules.csv lppGileadShrineVisitAgainEndB3 [text]"
+  },
+  {
+   "i": 2,
+   "en": "The face of Gilead is filled with green continents, seeded with Earth-life by sporeship and climate-stabilized by Eridani-Utopia's vast terraforming machines. Then Ludd came and the Faithful turned the world into a rustic garden-wilderness of astounding richness; it is a gem of the Persean Sector.",
+   "ctx": "data/campaign/rules.csv lppGileadShrineVisitAgainEndB4 [text]"
+  },
+  {
+   "i": 3,
+   "en": "The face of Gilead is filled with green continents, seeded with Earth-life by sporeship and climate-stabilized by Eridani Utopia's vast terraforming machines. Then Ludd came and turned the world into a rustic garden-wilderness of astounding richness; it is a gem of the Persean Sector.",
+   "ctx": "data/campaign/rules.csv lppGileadShrineVisitAgainEndB5 [text]"
+  },
+  {
+   "i": 4,
+   "en": "Your shuttle receives a ping from traffic control: permission to descend.",
+   "ctx": "data/campaign/rules.csv lppGileadShrineVisitAgainEndC [text]"
+  },
+  {
+   "i": 5,
+   "en": "One such stony-faced attendant, flanked by Knights of Ludd in gleaming powered armor, meets your shuttle on the pad.\r\n\r\n\"We do not welcome those who have done what you have done, Captain $playerName,\" the attendant says. \"Please leave now.\"\r\n\r\nThey appear unyielding and perhaps even consider standing up to you a righteous test of their devotion.",
+   "ctx": "data/campaign/rules.csv lppGileadShrineStartHubTextB [text]"
+  },
+  {
+   "i": 6,
+   "en": "Deorbiting to the surface of Gilead is strictly overseen by the Knights of Ludd; your shuttle must queue behind a not insignificant flotilla of lumbering transports and haulers filled with approved industrial goods.\r\n\r\nAs your shuttle inserts into a holding orbit, an override comes in from traffic control. Your pilot forwards the nav instructions to you for approval: immediate permission to descend on a non-standard route to a site which is not the usual pilgrimage transport complex. Instead, you are being directed to a pad serving a sprawling monastic compound.\r\n\r\nThe local datasphere, such as it is, is not forthcoming on details.",
+   "ctx": "data/campaign/rules.csv lppGileadShrineJaspisRetryA [text]"
+  },
+  {
+   "i": 7,
+   "en": "Deorbiting to the surface of Gilead is strictly overseen by the Knights of Ludd; your shuttle must queue behind a not insignificant flotilla of lumbering transports and haulers filled with approved industrial goods.\r\n\r\nAs your shuttle inserts into a holding orbit, an override comes in from traffic control. Your pilot forwards the nav instructions to you for approval: immediate permission to descend on a non-standard route to a site which is not the usual pilgrimage transport complex. Instead, you are being directed to a pad serving a sprawling monastic compound.\r\n\r\nThe local datasphere, such as it is, is not forthcoming on details. You can only assume that Archcurate Jaspis is insisting on meeting with you.",
+   "ctx": "data/campaign/rules.csv lppGileadShrineJaspisRetryB [text]"
+  },
+  {
+   "i": 8,
+   "en": "You order the pilot to abort your descent rather than follow the unusual nav plan. There is no objection from traffic control or any kind of follow-up comms request as you return to your $shipOrFleet.",
+   "ctx": "data/campaign/rules.csv lppGileadShrineStartEndingAbort [text]"
+  },
+  {
+   "i": 9,
+   "en": "You return to your shuttle, taking a final breath of air rich with the exhalations of both the greenery and the mass of humanity.\r\n\r\nAs your pilot swaps take-off pings with traffic control, they pause at an unusual set of nav instructions which are forwarded to your (now retrieved) datapad: you are being directed to a landing which serves a huge monastic complex, some sort of Church administrative center.\r\n\r\nThe local datasphere is not forthcoming on details. It's difficult to say if this is a security measure or pious neglect.",
+   "ctx": "data/campaign/rules.csv lppGileadMissionEndLeaveAttempt [text]"
+  },
+  {
+   "i": 10,
+   "en": "You order the pilot to follow the original ascent rather than follow the unusual navigation instructions.\r\n\r\nThere is no objection from traffic control or any kind of follow-up comms request as you return to your $shipOrFleet.",
+   "ctx": "data/campaign/rules.csv lppGileadShrineStartEndingAbortB [text]"
+  },
+  {
+   "i": 11,
+   "en": "At the landing pad, you are met by a solemn Luddic Knight. A Knight Initiate stands a few paces behind, trying to match the ease and calm of their superior.\r\n\r\n\"Captain $PlayerName,\" the Knight says, \"Let me speak welcome on behalf of the Church of Galactic Redemption. I extend to you an invitation from the Reverend Archcurate Jaspis to meet and share refreshment.\"\r\n\r\nThe Knight stands aside, motioning with gauntlet to invite you to walk toward the administrative structures.",
+   "ctx": "data/campaign/rules.csv lppEnding1 [text]"
+  },
+  {
+   "i": 12,
+   "en": "At the landing pad, you are met by a solemn Luddic Knight. A Knight Initiate stands a few paces behind, trying to match the ease and calm of their superior.\r\n\r\n\"Captain $PlayerName,\" the Knight says, \"Let me once again speak welcome on behalf of the Church of Galactic Redemption. I extend to you an invitation from the Reverend Archcurate Jaspis to meet and share refreshment.\"\r\n\r\nThe knight stands aside, motioning with gauntlet to invite you to walk toward the administrative structures.",
+   "ctx": "data/campaign/rules.csv lppEnding1redux [text]"
+  },
+  {
+   "i": 13,
+   "en": "One such stony-faced attendant meets your shuttle on the pad and, wasting no time, firmly but politely inquires about your business here.",
+   "ctx": "data/campaign/rules.csv lppGileadShrineStartHubTextA [text]"
+  },
+  {
+   "i": 14,
+   "en": "The attendant dutifully explains that the shrine commemorates the holy site where Ludd first stepped onto Gilead and was brought prostrate, to the shock of non-believers, to kiss the earth itself, so overcome was Ludd by the rapturous touch of Divinity.\r\n\r\nLudd's influence spread by its own evident virtue, the attendant explains, and the industrial terraforming machines were brought down and flowers bloomed in the rubble. There is no mention of strikes, global storms, sabotage, apocalyptic flooding and heatwaves, or corporate terror squads in this narrative. Nor does the attendant mention that, technically, an entire planet owned by the Eridani Utopia Terraforming megacorporation was illegally occupied by a radical cult. Rather, the unbelievers wept as Ludd revealed their sins and told them forgiveness was within reach on this garden-world.\r\n\r\nIt is an appealing morality tale delivered earnestly.",
+   "ctx": "data/campaign/rules.csv lppGileadShrineInfo1 [text]"
+  },
+  {
+   "i": 15,
+   "en": "The attendant nods, explaining that you must leave your guards behind because this is a place of peace, and all are equal on the Pilgrim's Path. \r\n\r\nThe request is an implied request for keeping up appearances: a couple of your guards, unarmed and trained for situations requiring this degree of subtlety, attend to your safety as per matter of course. You note other unusually small parties of \"pilgrims\", plainly but clearly wealthy by their cut and carriage, led by their own shrine-attendants and accompanied by unusually muscled 'distant cousins'.\r\n\r\nNonetheless, the crowds filing out of the transport complex, on a wide highway of beaten earth and cobble, are enormous. Those that cannot walk are carried; no powered transport is provided.",
+   "ctx": "data/campaign/rules.csv lppGileadShrineVisit1 [text]"
+  },
+  {
+   "i": 16,
+   "en": "The path of the pilgrims leads up a slope covered in trees more enormous than any you've seen before. Though small in scale compared to the celestial phenomena that is your daily bread, their living architecture forms a natural cathedral.\r\n\r\nDispassionate Knights of Ludd watch as attendants shuttle you through a cordoned path in an arc through a final grove of mighty sequoia-analogs atop the promontory at the terminus of the ridge - it is a temple, struts and spars intertwined with the trees. Golden sunlight filters through heavy branches, and as the breeze lifts a whispering chorus of foliage, you catch an earthy scent over the mass of humanity surrounding you.",
+   "ctx": "data/campaign/rules.csv lppGileadShrineVisit2 [text]"
+  },
+  {
+   "i": 17,
+   "en": "You have only a brief moment before the high altar of living wood. Small tokens and offerings are piled high amongst low, cheap candles.",
+   "ctx": "data/campaign/rules.csv lppGileadShrineVisit3 [text]"
+  },
+  {
+   "i": 18,
+   "en": "Thinking quickly, you place Brother Cotton's small book on the pile of offerings. It settles into the scrimshaw, trinkets, and cheap photo-prints like it belongs there.",
+   "ctx": "data/campaign/rules.csv lppGileadShrineVisit4BookOffer [text]"
+  },
+  {
+   "i": 19,
+   "en": "And in a moment, it passes.\r\n\r\nIt is hot, and you are in a large and sweaty crowd full of pilgrims all wrapped up away from you, lost in their own worship.\r\n\r\nThe attendants do their best to herd the masses along the main pathway. You must push through groups calling and crying and singing and praying.",
+   "ctx": "data/campaign/rules.csv lppGileadShrineVisit4 [text]"
+  },
+  {
+   "i": 20,
+   "en": "You return to your shuttle, taking a final breath of air rich with the exhalations of greenery.\r\n\r\nThe flight in your return shuttle is uneventful.",
+   "ctx": "data/campaign/rules.csv lppGileadShrineEarlyLeave [text]"
+  },
+  {
+   "i": 21,
+   "en": "One such stony-faced attendant meets your shuttle on the pad and with a double-glance at a discreet datapad, rapidly stowed in voluminous robes, invites you to follow them.\r\n\r\n\"I am blessed, captain $PlayerName,\" the attendant says, \"to invite you to complete the Pilgrim's Path on this day.\"",
+   "ctx": "data/campaign/rules.csv lppGileadShrineStartHubTextA0 [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"The faithful must know to keep watch for what is coming,\" the attendant says with a strange look, then almost - but not quite - smiles.\r\n\r\n\"I mean not to sound so arcane; it is merely that our Church has endured hard times, and may yet again.\"",
+   "ctx": "data/campaign/rules.csv lppGileadPilgrimageEndHowKnow [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"I pray that they do not,\" the attendant says. \"We prepare for if they do.\"",
+   "ctx": "data/campaign/rules.csv lppGileadPilgrimageEndHowKnow2 [text]"
+  },
+  {
+   "i": 24,
+   "en": "It is a smaller path you are led down; not the highway of humanity for the main shrine, this is a smaller, secondary shrine in the lee of a crag dominated by the immense forest.\r\n\r\nPilgrims are offered tea, and water, and ritual washing. The air is filled with sweat, incense, and the scent of pine. A thrum of odd chanting distorted by the breeze lifts and wanes by the whims of the air currents.\r\n\r\nYou see shrine curates blessing pilgrims. Soon it is your turn. ",
+   "ctx": "data/campaign/rules.csv lppGileadPilgrimageEnd1 [text]"
+  },
+  {
+   "i": 25,
+   "en": "The curate casts scented drops and says the words, though it is almost a blur. It is strange to have come so far, for this.",
+   "ctx": "data/campaign/rules.csv lppGileadShrineLeaveEnd [text]"
+  },
+  {
+   "i": 26,
+   "en": "All around you see despair and decadence in equal measure channelled into the elaborate rituals of the Luddic Church. Made safe, made convenient; an insulating layer that allows people to live without truly walking Ludd's Path.\r\n\r\nIt is easy to forget here in the proud edifice of the Church that Ludd held a hammer, too, and was unafraid to use it without hesitation in the face of evil.",
+   "ctx": "data/campaign/rules.csv lppGileadShrineLeaveEndPather [text]"
+  },
+  {
+   "i": 27,
+   "en": "Around you flows a river of faith and ritual. Your fellow pilgrims have chosen their purpose to pursue, that of Ludd's message. In the collective hardship of life in the Persean Sector, as in the collective hardship of the pilgrimage, they find a kind of peace and meaning that is absent in the hollow left by the Collapse.",
+   "ctx": "data/campaign/rules.csv lppGileadShrineLeaveEndFaithful [text]"
+  },
+  {
+   "i": 28,
+   "en": "Around you people put on the motions of pilgrimage and ritual, play-acting the forms of great meaning for their prophet Ludd. It is almost unbelievable what has been built on the intentionally obfuscated rantings of one rabble-rouser. It is impossible to know what Ludd would made of all this.\r\n\r\nThe Church, of course, makes a good show of pretending to, and it prospers for it.",
+   "ctx": "data/campaign/rules.csv lppGileadShrineLeaveEndCynical [text]"
+  },
+  {
+   "i": 29,
+   "en": "Around you flows a river of pilgrims. They've invested such meaning into the journey they've made, supposedly in the path of their prophet Ludd. It is almost unbelievable how much has been built on the words of one obscure figure who managed to be blessed by circumstance with great charisma and a moment to bend the arc of history.\r\n\r\nWhat would the - certainly - long-dead Ludd make of what's become of all of it?",
+   "ctx": "data/campaign/rules.csv lppGileadShrineLeaveEndAtheistic [text]"
+  },
+  {
+   "i": 30,
+   "en": "Around you a river of pilgrims flows. They've found meaning in the journey they've made between the shrines, following the path of their prophet Ludd. It is almost unbelievable how much has been built on the words of one person who, blessed or cursed by circumstance, bent the arc of history across the face of the Domain and the Collapse.\r\n\r\nLooking upon the crowds, the pointed arches, the trees beyond- What would Ludd make of this?",
+   "ctx": "data/campaign/rules.csv lppGileadShrineLeaveEndSecular [text]"
+  }
+ ]
+}

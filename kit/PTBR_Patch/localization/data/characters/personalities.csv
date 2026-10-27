@@ -1,0 +1,6 @@
+id,name,desc,bravery,CAPTURE,PATROL,INTERCEPT,ASSAULT,DEFEND,STRIKE,HARASS,FIRE_SUPPORT,CARRIER_GROUP,CIVILIAN_CRAFT,STRIKE_FORCE,LIGHT_ESCORT,DESTROYER_ESCORT
+timid,Tímido,"Em combate, este oficial tentará evitar confrontos diretos sempre que possível, mesmo que esteja no comando de uma nave de combate.",5,0.5,0.5,0.1,0,1,0,0,3,3,3,1,1,1
+cautious,Cauteloso,"Em combate, este oficial preferirá manter-se fora do alcance inimigo, avançando apenas ocasionalmente quando for superado em alcance pelo inimigo.",5,1,0.7,0.3,0.3,2,0.3,0.3,2,2,2,1,1,1
+steady,Firme,"Em combate, este oficial adotará uma abordagem equilibrada, com táticas adequadas à situação atual.",5,1,1,1,1,1,1,1,1,1,1,1,1,1
+aggressive,Agressivo,"Em combate, este oficial preferirá engajar a uma distância que permita o uso de todas as armas de sua nave, pilotará naves civis como se fossem naves de combate e empregará de forma agressiva quaisquer caças sob seu comando.",5,1.5,1,2,2,0.5,2,2,0.5,0.5,0.5,1,0.5,0.5
+reckless,Imprudente,"Em combate, este oficial é agressivo além da conta, muitas vezes desconsiderando por completo a segurança de sua nave na tentativa de engajar o inimigo.",5,1.5,1,2,2,0.5,2,2,0.5,0.5,0.5,1,0.5,0.5

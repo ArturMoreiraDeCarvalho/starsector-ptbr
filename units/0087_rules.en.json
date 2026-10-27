@@ -1,0 +1,326 @@
+{
+ "chunk": 87,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "    - Use an Active Sensor Burst to increase sensor range\\n    - Use an Interdiction Pulse to increase burn level\\n    - Lasts for a certain number of light-years traveled\\n    - Larger increase when used near the Abyssal Light",
+   "ctx": "abyssalLightBeginAgain: AddTextSmall \"    - Use an Active Sensor Burst to increase sensor range\\n    - Use an Interdiction Pulse to increase bur"
+  },
+  {
+   "i": 2,
+   "en": "Analyzed Shrouded Substrate",
+   "ctx": "shroudedSubstrateBegin: SetStoryOption shroudedSubstrateBegin 1 analyzeSubstrate technology \"Analyzed Shrouded Substrate\""
+  },
+  {
+   "i": 3,
+   "en": "No Shrouded Substrate available.",
+   "ctx": "CheckPlayerHasNoSubstrate: SetTooltip substrate_selectWeapons \"No Shrouded Substrate available.\""
+  },
+  {
+   "i": 4,
+   "en": "literally demonic",
+   "ctx": "ShroudedHullmodItemRCMantle6: Highlight \"literally demonic\""
+  },
+  {
+   "i": 5,
+   "en": "Acquired derelict structure samples",
+   "ctx": "gsVambraceSample: AddTextSmall \"Acquired derelict structure samples\" highlight"
+  },
+  {
+   "i": 6,
+   "en": "Acquired wormhole calibration data for nearby stable location",
+   "ctx": "limboWormholeCacheBegin2: AddTextSmall \"Acquired wormhole calibration data for nearby stable location\" highlight"
+  },
+  {
+   "i": 7,
+   "en": "Requires a stable location in the system.",
+   "ctx": "GHCheckCanDeploy: SetTooltip gh_deployGate \"Requires a stable location in the system.\""
+  },
+  {
+   "i": 8,
+   "en": "DEPLOY?",
+   "ctx": "gh_deployGateSel: Highlight \"DEPLOY?\""
+  },
+  {
+   "i": 9,
+   "en": "transponder turned off",
+   "ctx": "marketPostOpenNoTrade: Highlight  \"transponder turned off\""
+  },
+  {
+   "i": 10,
+   "en": "turning off your transponder",
+   "ctx": "marketPostOpenNoTradeOffOpen: Highlight  \"turning off your transponder\""
+  },
+  {
+   "i": 11,
+   "en": "Your need to turn on your transponder to engage in legitimate trade, or to come in undetected to trade on the black market.",
+   "ctx": "marketPostOpenToOffPatrols: AddText \"Your need to turn on your transponder to engage in legitimate trade, or to come in undetected to trade on the b"
+  },
+  {
+   "i": 12,
+   "en": "Full repairs require $global.repairSupplyCost supplies. $player.supplies supplies are available.",
+   "ctx": "marketAddOptionRepair1: SetTooltip marketRepair \"Full repairs require $global.repairSupplyCost supplies. $player.supplies supplies are available"
+  },
+  {
+   "i": 13,
+   "en": "Your $shipOrFleet does not require any repairs.",
+   "ctx": "marketAddOptionRepair2: SetTooltip marketRepair \"Your $shipOrFleet does not require any repairs.\""
+  },
+  {
+   "i": 14,
+   "en": "Full repairs require $repairSupplyCost supplies. Only $supplies supplies are available.",
+   "ctx": "marketAddOptionRepair3: SetTooltip marketRepair \"Full repairs require $repairSupplyCost supplies. Only $supplies supplies are available.\""
+  },
+  {
+   "i": 15,
+   "en": "   Director of Special Acquisitions Zunya Glamor-Rotanev",
+   "ctx": "TTmarketWeirdModsOutro: AddTextSmall \"   Director of Special Acquisitions Zunya Glamor-Rotanev\""
+  },
+  {
+   "i": 16,
+   "en": "   Suite 1000, Skyarco II Executive Annex",
+   "ctx": "TTmarketWeirdModsOutro: AddTextSmall \"   Suite 1000, Skyarco II Executive Annex\""
+  },
+  {
+   "i": 17,
+   "en": "   Xanadu Geodivision",
+   "ctx": "TTmarketWeirdModsOutro: AddTextSmall \"   Xanadu Geodivision\""
+  },
+  {
+   "i": 18,
+   "en": "   Eochu Bres, Hybrasil system",
+   "ctx": "TTmarketWeirdModsOutro: AddTextSmall \"   Eochu Bres, Hybrasil system\""
+  },
+  {
+   "i": 19,
+   "en": "   Persean Sector",
+   "ctx": "TTmarketWeirdModsOutro: AddTextSmall \"   Persean Sector\""
+  },
+  {
+   "i": 20,
+   "en": "Received invitation to speak with VP Glamor-Rotanev on Hybrasil",
+   "ctx": "TTmarketWeirdModsOutro: AddTextSmall \"Received invitation to speak with VP Glamor-Rotanev on Hybrasil\" highlight"
+  },
+  {
+   "i": 21,
+   "en": "Hostility due to use of unusual modifications",
+   "ctx": "CGRmarketWeirdOutro: AddTextSmall \"Hostility due to use of unusual modifications\" bad"
+  },
+  {
+   "i": 22,
+   "en": "Church of Galactic Redemption commission revoked",
+   "ctx": "CGRmarketWeirdOutroCom: AddTextSmall \"Church of Galactic Redemption commission revoked\" bad"
+  },
+  {
+   "i": 23,
+   "en": "Excommunicated from the Church of Galactic Redemption",
+   "ctx": "CGRmarketWeirdOutroFaith: AddTextSmall \"Excommunicated from the Church of Galactic Redemption\" bad"
+  },
+  {
+   "i": 24,
+   "en": "Director of Special Acquisitions Zunya Glamor-Rotanev",
+   "ctx": "TTpatrolWeirdMods6: AddTextSmall \"Director of Special Acquisitions Zunya Glamor-Rotanev\""
+  },
+  {
+   "i": 25,
+   "en": "Suite 1000, Skyarco II Executive Annex",
+   "ctx": "TTpatrolWeirdMods6: AddTextSmall \"Suite 1000, Skyarco II Executive Annex\""
+  },
+  {
+   "i": 26,
+   "en": "Xanadu Geodivision",
+   "ctx": "TTpatrolWeirdMods6: AddTextSmall \"Xanadu Geodivision\""
+  },
+  {
+   "i": 27,
+   "en": "Eochu Bres, Hybrasil system",
+   "ctx": "TTpatrolWeirdMods6: AddTextSmall \"Eochu Bres, Hybrasil system\""
+  },
+  {
+   "i": 28,
+   "en": "Persean Sector",
+   "ctx": "TTpatrolWeirdMods6: AddTextSmall \"Persean Sector\""
+  },
+  {
+   "i": 29,
+   "en": "You're being hailed by the $faction $otherShipOrFleet.",
+   "ctx": "LPTitheCheck: AddText \"You're being hailed by the $faction $otherShipOrFleet.\" $faction.baseColor"
+  },
+  {
+   "i": 30,
+   "en": "The connection is cut before you have a chance to respond.",
+   "ctx": "payMegaTitheConfirmSel: AddText \"The connection is cut before you have a chance to respond.\""
+  },
+  {
+   "i": 31,
+   "en": "The port concourse is filled with trader starcraft of every size. Speculators crowd offloading ship captains with deals and peddlers call out to crew, holding wares and projecting personal ad-holos.",
+   "ctx": "flavorTextMarketGeneric: AddText \"The port concourse is filled with trader starcraft of every size. Speculators crowd offloading ship captains wi"
+  },
+  {
+   "i": 32,
+   "en": "The humble port concourse is filled with small freighters and freelancers down or up on their luck, identifiable by the shine or grime of ship armor and volume of cargo on-loading. A handful of speculators who all seem to know each other crowd offloading ship captains as they arrive while peddlers call out to crew, holding wares and projecting personal ad-holos.",
+   "ctx": "flavorTextMarketGenericSmall: AddText \"The humble port concourse is filled with small freighters and freelancers down or up on their luck, identifiabl"
+  },
+  {
+   "i": 33,
+   "en": "The port concourse holds only a strew of trader starcraft. A few fidgety-looking speculators seek offloading ship captains with deals. Most peddlers seem to have scurried off - and in a hurry, judging from the detritus, though a few enterprising merchants still do business. The local constabulary appears to have deployed patrols of power-armor units while security drones buzz conspicuously overhead.",
+   "ctx": "flavorTextMarketGenericUnstable: AddText \"The port concourse holds only a strew of trader starcraft. A few fidgety-looking speculators seek offloading sh"
+  },
+  {
+   "i": 34,
+   "en": "The port concourse contains only a few ships, and half of those look like warcraft. Armed gangs of crew huddle around each spacecraft, guarding on- and off-loading cargo. A few brave speculators seem to hurry between spaces which offer what they imagine will provide cover as security drones buzz overhead in a rush to some incident or another.",
+   "ctx": "flavorTextMarketGenericVeryUnstable: AddText \"The port concourse contains only a few ships, and half of those look like warcraft. Armed gangs of crew huddle "
+  },
+  {
+   "i": 35,
+   "en": "The port concourse is filled with a few scarred hulls underlit by the flicker of ID-chips being lasered off cargo containers. Armed pirate crews huddle around their ships, glaring and posturing challenges at rival crews.The entire facility look more poorly-maintained than usual with suspicious scorches and stains marring several bulkheads. Heavies of the portboss stare coolly, ready to use their weapons.",
+   "ctx": "flavorTextMarketPirateUnstable: AddText \"The port concourse is filled with a few scarred hulls underlit by the flicker of ID-chips being lasered off car"
+  },
+  {
+   "i": 36,
+   "en": "Only one or two brightly-hulled pirate vessels are docked on the port concourse and their point-defense turrets track your shuttle - a clear provocation. A swaggering lieutenant of the portboss approaches, flanked by armed thugs. His request for a bribe is interrupted by muted gunshots; he smiles at your reaction and you quickly realize that he's either high or drunk. The air smells of smoke and high-energy ionization.",
+   "ctx": "flavorTextMarketPirateVeryUnstable: AddText \"Only one or two brightly-hulled pirate vessels are docked on the port concourse and their point-defense turrets"
+  },
+  {
+   "i": 37,
+   "en": "The port concourse is filled with trader starcraft of every size and shape. Speculators crowd offloading ship captains with deals and peddlers call out to crew, holding wares and projecting personal ad-holos. Groups of League Navy spacers and officers are identifiable by their standard uniforms and proclivity for holding formation even when off-duty. Meanwhile, the local constabulary is dressed in obstinate dissimilarity from that of any other League world, though they maintain a universal poise of authority and watchfulness. League emblems are displayed on a few municipal active-surfaces as a bit of an afterthought.",
+   "ctx": "flavorTextMarketPerseanLeague: AddText \"The port concourse is filled with trader starcraft of every size and shape. Speculators crowd offloading ship c"
+  },
+  {
+   "i": 38,
+   "en": "Shabby trader starcraft huddle along the port concourse alongside scarred Pather raiders, dominating in bright livery. Luddic merchants await meetings with offloading ship captains. Peddlers offer street food and handcrafts to spacer crew while monks pray quietly over begging-bowls. A handful of ranters harangue outsiders under the assured gaze of righteous Pather militants.",
+   "ctx": "flavorTextMarketLuddicPath: AddText \"Shabby trader starcraft huddle along the port concourse alongside scarred Pather raiders, dominating in bright "
+  },
+  {
+   "i": 39,
+   "en": "Open display of technological vice not strictly necessary for duty and survival is not tolerated here. As such, one quickly learns not to display cybernetic mods and flashy gadgets. The lack of holoprojectors gives the feeling of an ancient history edutainment sim.",
+   "ctx": "flavorTextMarketLuddicPath: AddText \"Open display of technological vice not strictly necessary for duty and survival is not tolerated here. As such,"
+  },
+  {
+   "i": 40,
+   "en": "A Tri-Tachyon franchise official welcomes you and offers to update your PDA with the latest Company rates for the local commodity market.",
+   "ctx": "flavorTextMarketTriTachyon: AddText \"A Tri-Tachyon franchise official welcomes you and offers to update your PDA with the latest Company rates for t"
+  },
+  {
+   "i": 41,
+   "en": "The port concourse is filled with scarred hulls underlit by the flicker of ID-chips being lasered off cargo containers. Pirate crews swagger in packs, sizing each other up, while their captains cut deals in smoky back rooms. Flunkies of the portboss look on with weapons unslung.",
+   "ctx": "flavorTextMarketPirates: AddText \"The port concourse is filled with scarred hulls underlit by the flicker of ID-chips being lasered off cargo con"
+  },
+  {
+   "i": 42,
+   "en": "Hegemony patrol skiffs slip between looming bulk freighters and the pitted hulls of fighting-traders that fill the port concourse. Offloading ship captains are met crisply by a Hegemony logistics officer, cleared, then released to the crowds of traders, arms merchants, and commodity speculators.",
+   "ctx": "flavorTextMarketHegemony: AddText \"Hegemony patrol skiffs slip between looming bulk freighters and the pitted hulls of fighting-traders that fill "
+  },
+  {
+   "i": 43,
+   "en": "The fiery phoenix of the Hegemony is projected onto a convenient bulkhead, the local Navy recruitment center's comms ID scrolling around the flickering stars of the Domain - 'See the Sector, Serve With Honor, Restore the Human Domain'.",
+   "ctx": "flavorTextMarketHegemony: AddText \"The fiery phoenix of the Hegemony is projected onto a convenient bulkhead, the local Navy recruitment center's "
+  },
+  {
+   "i": 44,
+   "en": "The port concourse is filled with trader starcraft of every size. Luddic merchants in muted dress await meetings with offloading ship captains. Peddlers offer street food and hand-crafts to spacer crew while monks pray quietly over begging-bowls. Knights in handspun robes of Luddic green, CP-carbines slung, escort away the occasional ranter determined to harangue outsiders who openly flaunt gadgets and cyber-mods. The Church is practical; such sins are tolerated in the trader's district.",
+   "ctx": "flavorTextMarketLuddicChurch: AddText \"The port concourse is filled with trader starcraft of every size. Luddic merchants in muted dress await meeting"
+  },
+  {
+   "i": 45,
+   "en": "Pirate vessels dock alongside equally battered warships sprayed with the revolutionary slogans of the Antis. The offloading bays mix the metallic tang of vacuum with strained life support and unwashed humanity. Cargo is inspected - and occasionally expropriated - by Section-leaders flanked by guards eyeing down the offloading spacer crew.",
+   "ctx": "flavorTextMarketPirateUmbra: AddText \"Pirate vessels dock alongside equally battered warships sprayed with the revolutionary slogans of the Antis. Th"
+  },
+  {
+   "i": 46,
+   "en": "The cavernous landing bays dwarf the few starcraft docked; sensors detect EM whispers from echelons of hidden, sleeping autoturrets, suggesting firepower far in excess of that necessary to ensure the good behavior of the few merchants, mercenaries, and rich eccentrics visiting the cryosanctum. An official meets offloading captains, extending the standard catalogue of cryosleep packages before escorting them to the visitors lounge.",
+   "ctx": "flavorTextMarketCryosanctum: AddText \"The cavernous landing bays dwarf the few starcraft docked; sensors detect EM whispers from echelons of hidden, "
+  },
+  {
+   "i": 47,
+   "en": "You land at a location arranged via coded transmission. At first all seems quiet, but eventually figures in camo-suits, bearing weapons, emerge from hidden passages. They are suspicious and their manner terse. After some reassurances, a trade manifest is accepted and negotiations allowed to begin.",
+   "ctx": "flavorTextMarketDecivilized: AddText \"You land at a location arranged via coded transmission. At first all seems quiet, but eventually figures in cam"
+  },
+  {
+   "i": 48,
+   "en": "The port concourse is filled with a mix of trader ships and military craft. Offloading ship captains are processed by a dour Diktat logistics officer before being allowed to proceed. Traders in dull suits, loyalty pins displayed on each collar, quietly pass a datapad loaded with cargo manifests amongst themselves.",
+   "ctx": "flavorTextMarketDiktat: AddText \"The port concourse is filled with a mix of trader ships and military craft. Offloading ship captains are proces"
+  },
+  {
+   "i": 49,
+   "en": "A holoprojector displays a larger-than-life image of Admiral Andrada, the Lion of Sindria, flanked by Diktat banners waving in simulated wind. His commanding gaze is cast toward a ventilation duct.",
+   "ctx": "flavorTextMarketDiktat: AddText \"A holoprojector displays a larger-than-life image of Admiral Andrada, the Lion of Sindria, flanked by Diktat ba"
+  },
+  {
+   "i": 50,
+   "en": "You land on a free pad in the port segment of the giant tracked city-train that worms forever over the broken plains of Cruor. Upon disembarkation, the scarred decking shifts and rolls almost imperceptibly. A grim-faced Diktat officer flanked by guards takes your credentials and interrogates you about each of the standard information fields as if you were guilty of something, perhaps everything.",
+   "ctx": "flavorTextMarketDiktatCruor: AddText \"You land on a free pad in the port segment of the giant tracked city-train that worms forever over the broken p"
+  },
+  {
+   "i": 51,
+   "en": "Diktat banners jostle limply over the port concourse as other captains endure similar treatment. You wonder idly at the dirty, open-top cages installed at each receiving-bay.",
+   "ctx": "flavorTextMarketDiktatCruor: AddText \"Diktat banners jostle limply over the port concourse as other captains endure similar treatment. You wonder idl"
+  },
+  {
+   "i": 52,
+   "en": "Your shuttle lands on a maintenance pad in a utility segment of one of the tracked city-trains that forever crawls over the broken plains of Cruor. The scarred deck shifts and rolls for a tense few minutes, then a locked hatch unbolts to allow your entry. Whatever ruse, favor, or deception you called upon to gain entry has worked.",
+   "ctx": "flavorTextMarketDiktatCruorSneak: AddText \"Your shuttle lands on a maintenance pad in a utility segment of one of the tracked city-trains that forever cra"
+  },
+  {
+   "i": 53,
+   "en": "You and your entourage make your way through a maze of access conduits to emerge into a public corridor. You're greeted by peeling Sindrian Diktat propaganda decals and strange looks from a few subdued off-shift workers.",
+   "ctx": "flavorTextMarketDiktatCruorSneak: AddText \"You and your entourage make your way through a maze of access conduits to emerge into a public corridor. You're"
+  },
+  {
+   "i": 54,
+   "en": "The main port of Volturn is built on a flotilla of huge burned-looking barges wallowing in oily water. The smell of ozone and salt assaults you as you disembark. Offloading ship captains are processed by a dour Diktat logistics officer before being allowed to proceed to the public concourse. Traders in dull suits, Diktat pins dutifully displayed on the collar, pass around a datapad loaded with cargo manifests.",
+   "ctx": "flavorTextMarketDiktatVolturn: AddText \"The main port of Volturn is built on a flotilla of huge burned-looking barges wallowing in oily water. The smel"
+  },
+  {
+   "i": 55,
+   "en": "A flickering holoprojector displays a larger-than-life image of Admiral Andrada, the Lion of Sindria, flanked by Sindrian Diktat banners that could be waving in the sea wind. His commanding gaze is cast toward the gull-analogs circling above.",
+   "ctx": "flavorTextMarketDiktatVolturn: AddText \"A flickering holoprojector displays a larger-than-life image of Admiral Andrada, the Lion of Sindria, flanked b"
+  },
+  {
+   "i": 56,
+   "en": "Your shuttle lands on an unsteady barge in the dirty backwater of one of the floating slums surrounding a half-submerged processing plant. The smell of ozone, salt, and human waste assaults you as soon as you disembark. The crumbling deck-tiles below you shift and roll off-phase with nearby structures, their vents and masts all askew. This effect, combined with the stench, is singularly nauseating. You hope that whatever ruse, favor, or deception you called upon to make this landing will prove worthwhile.",
+   "ctx": "flavorTextMarketDiktatVolturnSneak: AddText \"Your shuttle lands on an unsteady barge in the dirty backwater of one of the floating slums surrounding a half-"
+  },
+  {
+   "i": 57,
+   "en": "Your quartermaster coordinates records of all crew appointments, armament stores, and trade goods. These reports are kept up-to-date and made available through your TriPad.",
+   "ctx": "flavorTextCargoPlaceholder: AddText \"Your quartermaster coordinates records of all crew appointments, armament stores, and trade goods. These report"
+  },
+  {
+   "i": 58,
+   "en": "Your space-ops crew, armed with laser cutters and skeletal cargo skiffs, maneuver to disabled hulks and search them for useful commodities, armaments, and valuables.",
+   "ctx": "flavorTextSalvagePlaceholder: AddText \"Your space-ops crew, armed with laser cutters and skeletal cargo skiffs, maneuver to disabled hulks and search "
+  },
+  {
+   "i": 59,
+   "en": "The port concourse is dark and empty but for a few looted hulks. The atmosphere reads out as thin, but there is sufficient power from hardened passive collectors to run basic life support and storage functions.",
+   "ctx": "flavorTextAbandonedStation: AddText \"The port concourse is dark and empty but for a few looted hulks. The atmosphere reads out as thin, but there is"
+  },
+  {
+   "i": 60,
+   "en": "The scan will compute the value of your fleets and the goods it's carrying, and a toll will be assessed.\\n\\nIf your $shipOrFleet is carrying illegal goods, there's a chance these will be detected. The chance is lower if you're also carrying legal goods, and if your relationship with the faction is positive. If contraband is detected, it will be confiscated, and a fine will be assessed.",
+   "ctx": "customsInspectionConvStart: SetTooltip ciAgree \"The scan will compute the value of your fleets and the goods it's carrying, and a toll will be asses"
+  },
+  {
+   "i": 61,
+   "en": "Scanning...",
+   "ctx": "customsInspectionAgree: Wait $global.ciWait 0.5 $global.ciFinished $global.ciInterrupted $global.ciInProgress \"Scanning...\""
+  },
+  {
+   "i": 62,
+   "en": "The Wolf-class is a sleek and deadly combat frigate with middling logistical stats.\\n\\nBest used near civilization, or with the support of other ships with better capacity for carrying fuel and supplies.",
+   "ctx": "ngcWolfStart: SetTooltip ngcWolf \"The Wolf-class is a sleek and deadly combat frigate with middling logistical stats.\\n\\nBest used nea"
+  },
+  {
+   "i": 63,
+   "en": "The Wayfarer is an ungainly vessel with an excellent capacity for carrying cargo, fuel, and crew.\\n\\nIts combat ability is limited, but not to be discounted - designed to operate on the fringes of civilization, this freighter is quite capable of defending itself.",
+   "ctx": "ngcWayfarerStart: SetTooltip ngcWayfarer \"The Wayfarer is an ungainly vessel with an excellent capacity for carrying cargo, fuel, and crew"
+  },
+  {
+   "i": 64,
+   "en": "A group of ships capable of performing salvage operations on the fringes of the Sector, and defending itself against most of the threats found there.\\n\\nIncludes a tanker for increased fuel capacity and exploration range, and sufficient cargo capacity to carry the salvage back to the Core Worlds.",
+   "ctx": "ngcExplorerStart: SetTooltip ngcExplorer \"A group of ships capable of performing salvage operations on the fringes of the Sector, and defe"
+  }
+ ]
+}

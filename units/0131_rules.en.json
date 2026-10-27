@@ -1,0 +1,206 @@
+{
+ "chunk": 131,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"Precisely my reaction upon first hearing word of this unique artifact!\" Menes beams, more than a little pleased that someone appreciates his trinket.\r\n\r\n\"Setting aside its purely religious significance,\" he gives a glance at Bornanew, \"it represents a, a heralding of the changing tides of history! The ebbing influence of the Domain-era megacorporations, the rising of what some call - not my words of course, sir Knight - an atavistic populism. Truly, it is this small piece of the vastness of the story of Humanity which called to me when it was first described to me...\"\r\n\r\nMenes seems prepared to continue this for quite some time.",
+   "ctx": "data/campaign/rules.csv BFFImpRaid2 [text]"
+  },
+  {
+   "i": 2,
+   "en": "Menes is blathering on about something or other while Bornanew pretends to listen.",
+   "ctx": "data/campaign/rules.csv BFFIraidGoBackOverride [text]"
+  },
+  {
+   "i": 3,
+   "en": "This isn't working. It's a good thing you prepared a backup plan.\r\n\r\nYou'll simply call in a marine raid while keeping Menes distracted. You give a grim nod to Bornanew and with only a small pause he follows your lead, asking Menes an insightful question about another item in his collection.",
+   "ctx": "data/campaign/rules.csv BFFImpBuyerCallRaid [text]"
+  },
+  {
+   "i": 4,
+   "en": "You glance at your comms. Everything has been planned ahead of time, and care taken to hide tactical teams among the general population of offworld crew taking a bit of shore-leave. Signal discipline has been unerring.\r\n\r\nThe coded response, hidden in routine status reports, shows all teams are prepped and ready to move.",
+   "ctx": "data/campaign/rules.csv BFFIpartyBeginRaid [text]"
+  },
+  {
+   "i": 5,
+   "en": "Menes is describing another of his expensive acquisitions when the lights cut out.\r\n\r\nA moment passes in absolute darkness, the crushing weight of silence falling as the ventilation whirs to a stop. This is the terrible abyss of spacers' death; a reminder that you exist by the whim of machines caught in deadly vacuum, in a precarious balance of temperature and artificial atmosphere.\r\n\r\nThe subdued red emergency lighting strips flicker to life. Menes produces a nervous smile, \"I'm sure it's just, um, a glitch.\" He mumbles something into his cuff, then gives it a confused shake.\r\n\r\nComms down. By the plan.",
+   "ctx": "data/campaign/rules.csv BFFIattendPartyRaidFinishedA [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"It's probably- I'm certain- I, I,\" Menes stutters, \"The power will come back soon. Those rad-addled Olinadu contractors,\" he attempts a nervous laugh.\r\n\r\nYou feel the dull thuds, nearly subsonic, through the armored mass of the vault. Breaching charges for the first layer of defense. You know the big one will come soon, and where.\r\n\r\nMenes is in a growing panic.",
+   "ctx": "data/campaign/rules.csv BFFIapRaidOutro1 [text]"
+  },
+  {
+   "i": 7,
+   "en": "When the marines finally breach the vault proper, it is with overwhelming force of sound and light. No unprotected human can withstand this assault on the senses; you are blinded, shocked, and rendered immobile. All you can do is cling to the kernel of self at the center of a storm of pain.\r\n\r\n* * *\r\n\r\nThe return is slow, an awakening from a terrible and drugged sleep to emergency medical personnel and Menes' somewhat tardy security teams in their gleaming armor.\r\n\r\nYou and Bornanew leave the compound among the other victims. Bandaged, bruised, head aching, ears ringing.",
+   "ctx": "data/campaign/rules.csv BFFIapRaidOutro2 [text]"
+  },
+  {
+   "i": 8,
+   "en": "Hours later, after a series of transfers to obscure your movements from the heightened official surveillance, you step back onto your own shuttle - and the attentions of your personal medical team.\r\n\r\nA chime on your TriPad confirms that the operation was a success. A holo of the simple work-glove that human beings fought and died over rotates mockingly. \r\n\r\n\"Evidence,\" Bornanew says, tired but alert. His eyes are alarmingly bloodshot. \"The seed of schism and war. Now whence did this come?\"",
+   "ctx": "data/campaign/rules.csv BFFIapRaidOutro3 [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"No,\" he manages a smile for just a moment. \"I would suppose not.\"\r\n\r\nHe looks back down at the holo.",
+   "ctx": "data/campaign/rules.csv BFFIapRaidOutro4a [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"A Pather agent,\" he says conclusively.\r\n\r\n\"We spoke briefly,\" he says. \"In the aftermath. He insisted the medical team check him. Wasn't hurt.\" \r\n\r\nBornanew takes a deep breath, wincing. \"But he slipped up. Heretical theology. Devil in the details. You can tell where one learned the Word, or, rather, a corruption of the Word, from the details.\"\r\n\r\n\"He may be connected, but first we should ask the glove.\" He looks back down at the holo.",
+   "ctx": "data/campaign/rules.csv BFFIapRaidOutro4b [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"A nanoforge engineer could tell us much of this object,\" he says. \"Who made it. When, and where. By the truths found in the false glove, we may judge answers we receive from those we... ask.\" His last word is muted by the shuttle's maneuverings.\r\n\r\n\"The Church's nanoforge is on Asher. Canaan system. The techs there will submit to the authority I bear. Our inquiry will be secret.\"\r\n\r\nHe pauses, and looks away. \"So far as anything is, in the Church.\"",
+   "ctx": "data/campaign/rules.csv BFFIapRaidOutro5 [text]"
+  },
+  {
+   "i": 12,
+   "en": "Bornanew nods agreement.\r\n\r\nThe shuttle approaches your flagship and prepares to dock.",
+   "ctx": "data/campaign/rules.csv BFFIapRaidOutro6 [text]"
+  },
+  {
+   "i": 13,
+   "en": "Your comms officer intercepts you on the way to the medbay looking determined but apologetic.\r\n\r\n\"$PlayerSirOrMadam. The local security authority has issued a blanket order for all fleets to stay in orbit pending an investigation into an, ah, attack against the demarch of Olinadu.\"",
+   "ctx": "data/campaign/rules.csv BFFIapRaidOutro7 [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"Affirmative, $playerSirOrMadam,\" they reply. \"However we can assume that the present higher state of alert will detect the $shipOrFleet's de-orbit burn.\"",
+   "ctx": "data/campaign/rules.csv BFFIapRaidOutro8 [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"$PlayerSirOrMadam.\" They salute and step back so the med tech can finish waving a scanner - the high-pitched hum just inside your hearing - in search of broken bones. $global.jethroName undergoes a similar procedure in the next bay.\r\n\r\nBefore the hour you are discharged with a smart stimpack strapped to your side, under your uniform jacket, to control the pain and keep you alert.\r\n\r\nYou're not out yet. You can easily see that the local authorities don't discover Menes' trinket if your $shipOrFleet is searched, but that search would waste valuable time and disrupt operations.",
+   "ctx": "data/campaign/rules.csv BFFIapRaidOutro9 [text]"
+  },
+  {
+   "i": 16,
+   "en": "It takes longer than before to open the link. Menes' image flickers into being.\r\n\r\n\"Oh, Captain $playerName.\" He sets down a glass. \"Have you quite completed your assessment of the... item?\"",
+   "ctx": "data/campaign/rules.csv BFFImenesPostPartyBought [text]"
+  },
+  {
+   "i": 17,
+   "en": "It takes longer than before to open the link. Menes' image flickers into being.\r\n\r\n\"Captain $playerName,\" he pauses, looking down. \"Don't let me delay your... assessment. I've entrusted you with quite a treasure.\"",
+   "ctx": "data/campaign/rules.csv BFFImenesPostPartyBoughtAgain [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"Indeed? I suppose an object of such quality and... value,\" he emphasizes the word, \"requires very careful examination.\" \r\n\r\nHe pauses, glancing down for a moment.\r\n\r\n\"I... I should hate to delay you. Though I am in no rush for the full payment of course, ha-ha.\" He laugh is unconvincing.",
+   "ctx": "data/campaign/rules.csv BFFImenesPostPartyBoughtOpt2 [text]"
+  },
+  {
+   "i": 19,
+   "en": "It takes longer than before to open the link.\r\n\r\nMenes' image flickers into pseudoreality and is still but for the occasional wave of algorithmic correction.\r\n\r\n\"Captain, oh captain,\" he says finally, his voice more brittle than before. There are dark circles under his eyes. \"Things have not been well.\"",
+   "ctx": "data/campaign/rules.csv BFFImenesPostPartyTalk [text]"
+  },
+  {
+   "i": 20,
+   "en": "A joyless smirk flits over his face. \r\n\r\n\"But you were not. The raiders were careful, very careful. Careful.\" He stares at you for a long moment, breathing heavily. Into his drink, perhaps? ",
+   "ctx": "data/campaign/rules.csv BFFImenesPPraidA1 [text]"
+  },
+  {
+   "i": 21,
+   "en": "A troubled look crosses his face. \r\n\r\n\"Your concern is...\" he looks away, and the moment draws longer. He's breathing heavily. Into his drink, perhaps? ",
+   "ctx": "data/campaign/rules.csv BFFImenesPPgenericB1 [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"So you heard,\" his eyebrows raise. A spark of suspicion. \r\n\r\n\"The glove is not the point, my dear captain.\" He frowns. \"My sanctuary was violated. My things stolen. My... friends assaulted.\" He stares at you for a long moment, breathing heavily. Into his drink, perhaps? ",
+   "ctx": "data/campaign/rules.csv BFFImenesPPraidC1 [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"So you heard,\" his eyebrows raise. A spark of suspicion. \r\n\r\n\"The glove is not the point, my dear captain.\" He frowns. \"My sanctuary was violated. My things stolen.\" He stares at you for a long moment, breathing heavily. Into his drink, perhaps? ",
+   "ctx": "data/campaign/rules.csv BFFImenesPPgenericC1 [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"No!\" he says too-loudly, and upon realizing it, corrects himself, \"No. Now is good. We must speak, you and I.\"\r\n\r\nMenes is breathing heavily. Into his drink, perhaps.",
+   "ctx": "data/campaign/rules.csv BFFImenesPPgenericD1 [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"My security chief suspects an inside job. Betrayal, captain, is what that means.\"",
+   "ctx": "data/campaign/rules.csv BFFImenesPPinsideJob [text]"
+  },
+  {
+   "i": 26,
+   "en": "He watches you, looking more sad than anything. Then shakes his head.",
+   "ctx": "data/campaign/rules.csv BFFImenesPPinsideJob2a [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"Ha, yes. So it could be.\" He doesn't sound convinced, but carries on. \"Betrayal in another form, perhaps?\"",
+   "ctx": "data/campaign/rules.csv BFFImenesPPinsideJob2b [text]"
+  },
+  {
+   "i": 28,
+   "en": "His eyes go wide, and his arm grabs at the side of his desk, pulling him to a more formal sitting position.",
+   "ctx": "data/campaign/rules.csv BFFImenesPPinsideJob2c [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"What do you know of Ulmus Pond?\" he asks fiercely.",
+   "ctx": "data/campaign/rules.csv BFFImenesPPaskUlmus [text]"
+  },
+  {
+   "i": 30,
+   "en": "A long pause. \"Have you heard from Ulmus?\" he asks. \"Ulmus Pond. You recall him, surely.\"",
+   "ctx": "data/campaign/rules.csv BFFImenesPPinsideJob3b [text]"
+  },
+  {
+   "i": 31,
+   "en": "Menes is uncharacteristically quiet for a long moment.\r\n\r\n\"I see,\" he says, looking away. \"Tell me if you find him. I have... questions.\"\r\n\r\nHis face is blank, his eyes watery. The silence stretches long.",
+   "ctx": "data/campaign/rules.csv BFFImcHubResponseA1 [text]"
+  },
+  {
+   "i": 32,
+   "en": "Menes says nothing for a long moment. It is unsettlingly uncharacteristic of him.\r\n\r\nFinally, he sighs, and looks away. \"And he did. I suppose you've confirmed his story.\"",
+   "ctx": "data/campaign/rules.csv BFFImcHubResponseC [text]"
+  },
+  {
+   "i": 33,
+   "en": "You explain the crimes of Ulmus Pond, and his fate.\r\n\r\nMenes is uncharacteristically quiet when you finish.\r\n\r\n\"I see,\" he says, looking away. His face is blank, his eyes watery.\r\n\r\nThe silence stretches long.",
+   "ctx": "data/campaign/rules.csv BFFImcHubResponseFate [text]"
+  },
+  {
+   "i": 34,
+   "en": "Bornanew places the glove carefully into a clear-sided containment vessel, the kind used by salvors to take biological samples. Illuminated by the vessel's interior glowstrips, the glove seems to be held in a reliquary shining with holy light.\r\n\r\n\"Mere evidence,\" Bornanew says, seeing your look. \"Now the question is, where did this come from?\"",
+   "ctx": "data/campaign/rules.csv BFFIpartyOutro1 [text]"
+  },
+  {
+   "i": 35,
+   "en": "At last you find yourself back in your shuttle.\r\n\r\nBornanew sets a drinking bulb of cold water in your hand, then places a clear-sided containment vessel, the kind used by salvors to take biological samples, in the seat next to you. Illuminated by the vessel's interior embedded glowstrips, the glove seems to be held in a reliquary shining with holy light.\r\n\r\n\"Physical evidence,\" Bornanew says, seeing your look. \"Nothing more.\"",
+   "ctx": "data/campaign/rules.csv BFFIpartyOutro1buyer [text]"
+  },
+  {
+   "i": 36,
+   "en": "You place the glove into a clear-sided containment vessel, the kind used by salvors to take biological samples. Illuminated by the vessel's interior embedded glowstrips, the glove seems to be held in a reliquary shining with holy light.\r\n\r\n\"Mere evidence,\" Bornanew says, seeing your look. \"Now the question is, where did this come from?\"",
+   "ctx": "data/campaign/rules.csv BFFIpartyOutro1horus [text]"
+  },
+  {
+   "i": 37,
+   "en": "Bornanew places the glove carefully into a clear-sided containment vessel, the kind used by salvors to take biological samples. Illuminated by the vessel's interior embedded glowstrips, the glove seems to be held in a reliquary shining with holy light.\r\n\r\n\"Mere evidence,\" Bornanew says, seeing your look. \"Now the question is, where did this come from?\"",
+   "ctx": "data/campaign/rules.csv BFFIpartyOutro1horus2 [text]"
+  },
+  {
+   "i": 38,
+   "en": "Bornanew raises an eyebrow at you. \"I wouldn't suppose, no.\"\r\n\r\nHe looks back to the glove in its containment vessel. \"The glove might answer our questions, however.\"",
+   "ctx": "data/campaign/rules.csv BFFIpartyOutro2a [text]"
+  },
+  {
+   "i": 39,
+   "en": "\"He's a Pather agent,\" Bornanew says as if it were the most obvious thing in the world. He meets your look.\r\n\r\n\"We spoke briefly,\" he explains. \"The circumstantial evidence is convincing enough, but it was his heretical understanding of theology which I found truly damning.\"\r\n\r\n\"He may be connected, but first we should ask the glove.\" He looks back down at the glove in its containment vessel.",
+   "ctx": "data/campaign/rules.csv BFFIpartyOutro2b [text]"
+  },
+  {
+   "i": 40,
+   "en": "\"He's a Pather agent,\" Bornanew says as if it were the most obvious thing in the world. He meets your look.\r\n\r\n\"We spoke briefly,\" he explains. \"The circumstantial evidence is convincing enough, but it was his heretical understanding of theology which I found truly damning.\"\r\n\r\n\"He's also a liar. So.\" He looks down at the glove once more.",
+   "ctx": "data/campaign/rules.csv BFFIpartyOutro2c [text]"
+  }
+ ]
+}

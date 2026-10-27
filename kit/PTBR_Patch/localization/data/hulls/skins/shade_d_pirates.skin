@@ -1,0 +1,22 @@
+{
+	"baseHullId":"shade",
+	"skinHullId":"shade_d_pirates",
+	"hullName":"Shade (P)",
+	"descriptionId":"shade",
+	"descriptionPrefix":"Após a Segunda Guerra das IAs, muitas plantas corrompidas tornaram-se disponíveis, obtidas por resgatadores dispostos a arriscar os sistemas estelares abandonados pela Tri-Tachyon. Muitas delas foram vendidas a elementos inescrupulosos, como traficantes do mercado negro e piratas, que prontamente as colocaram de volta em serviço, produzindo naves de baixa qualidade, mas capazes de combate.",
+	"tags":["pirate_bp"],
+	"tech":"Pirata",
+	"fleetPoints":8,
+	"ordnancePoints":35,
+	"baseValueMult":.8,
+	"suppliesToRecover":6,
+	"suppliesPerMonth":6,
+	"spriteName":"graphics/ships/shade/shade_d_pirates.png",
+	"removeWeaponSlots":["WS 003", "WS 005"], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	#"builtInMods":["unstable_coils","degraded_engines","faulty_grid"],
+	"builtInWeapons":{
+    },
+}

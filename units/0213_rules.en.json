@@ -1,0 +1,186 @@
+{
+ "chunk": 213,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "The Knight gives a stiff, small bow. \"Providence guide us.\"",
+   "ctx": "data/campaign/rules.csv LOCRLoffloadToKnights2harsh [text]"
+  },
+  {
+   "i": 2,
+   "en": "The Knight doesn't quite sigh, and says, \"You've familiar with the Road to Hell, $playerSirOrMadam?\"\r\n\r\n\"Ancient aphorisms aside, I promise to you that we shall provide justice and Ludd's teaching shall provide mercy. Anything less would breach the oath I've sworn.\"",
+   "ctx": "data/campaign/rules.csv LOCRLoffloadToKnights2mercy [text]"
+  },
+  {
+   "i": 3,
+   "en": "The matter resolves to a simple business of logistics, which both your subordinates and the Knights' gang of shockingly young and clean-cut novices handle with aplomb.",
+   "ctx": "data/campaign/rules.csv LOCRLoffloadToKnights3 [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"An archcurate of the Church approached me. It seems that they require the services of a space captain with experience travelling outside the core worlds...\"",
+   "ctx": "data/campaign/rules.csv locrlfBlurb [text]"
+  },
+  {
+   "i": 5,
+   "en": "A $locrlf_manOrWoman seems to be examining incoming spacer captains and taking notes on a TriPad poorly hidden in a handweave scarf.",
+   "ctx": "data/campaign/rules.csv locrlfBlurbBar [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"Oh!\" $locrlf_HeOrShe jumps a bit as you speak. \"You again. Have you reconsidered?\"\r\n\r\n$locrlf_HeOrShe lowers $locrlf_hisOrHer voice, \"It is a delicate matter, of course. This archcurate wants this stray flock of heretics found, and for some reason is not relying upon the Knight Inquisitors.\" $locrlf_HeOrShe sighs, \"It is not my business to speculate on the doings of the Church, of course.\"\r\n\r\n\"Regardless, the heretics bought a transport and burned out into the fringe. They were last seen by a scavenger who reported the sighting to... well, one of the Faithful, anyway. Now if you find them and return to me with conclusive data on what happened to them, I shall give you the Church's reward of $locrlf_rewardAmount credits.\"",
+   "ctx": "data/campaign/rules.csv locrlfOfferTextBarAgain [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Oh!\" $locrlf_HeOrShe jumps a bit as you speak. \"You again. Have you reconsidered?\"\r\n\r\n$locrlf_HeOrShe lowers $locrlf_hisOrHer voice, \"It is a delicate matter, of course. This archcurate wants this stray flock of heretics found, and for some reason is not relying upon the Knight Inquisitors.\" $locrlf_HeOrShe sighs, \"It is not my business to speculate on the doings of the Church, of course.\"\r\n\r\n\"Regardless, the heretics bought a transport and burned out into the fringe. They were last seen by a scavenger who reported the sighting to... well, one of the Faithful, anyway. Now if you find them and return to me with conclusive data on what happened to them, I shall give you the Church's reward of $locrlf_rewardAmountHigher credits.\"",
+   "ctx": "data/campaign/rules.csv locrlfOfferTextBarAgainB [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"Oh!\" $locrlf_HeOrShe jumps a bit as you speak, then looks you up and down. \"Yes, you seem like you would be quite fitting.\"\r\n\r\n\"I have,\" $locrlf_heOrShe drops $locrlf_hisOrHer voice, \"a delicate matter to discuss. An archcurate - who I shall not name - made it known to me that a flock of believers was led astray by a false and heretical self-proclaimed prophet.\"\r\n\r\n$locrlf_HisOrHer eyes are wide with alarm, \"Of course I would imagine this the business of the Knights, and I should be pleased to let their inquisitors deal with heretics as is their wont. But... well, it is not my place to speculate.\"",
+   "ctx": "data/campaign/rules.csv locrlfOfferTextBar [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"These heretics pooled money and bought an old transport, then they left for some fringe system to 'begin anew'. Possibly they're all dead. Forgive me; with Ludd, for all that I know. Nonetheless, a non-believing scavenger was the last to spot them, apparently burning toward... a particular system.\"\r\n\r\n$locrlf_HeOrShe reveals $locrlf_hisOrHer cheap datapad.\r\n\r\n\"Will you find them? For the Church? Find out what came of them. Bring news back to me, and then I will report to, to the archcurate. I've been provided with funds for the operation, $locrlf_rewardAmount credits. They are yours after you bring back conclusive data on the fate of the heretics.\"",
+   "ctx": "data/campaign/rules.csv locrlfOfferTextBar2 [text]"
+  },
+  {
+   "i": 10,
+   "en": "A wave of guilt, quickly suppressed, crosses $hisOrHer face.\r\n\r\n\"Y-yes, well. It is my place to take a perfectly reasonable broker's fee. Currying talent is honest work, despite what the Ruralist hardliners preach.\"\r\n\r\n$locrlf_HeOrShe taps $locrlf_hisOrHer hand on the bartop impatiently.\r\n\r\n\"It's just as well, then. You've made your point. Let's make the payment $locrlf_rewardAmountHigher credits, if that's what it takes.\"",
+   "ctx": "data/campaign/rules.csv locrlfOfferBarCynicalRewardAsk [text]"
+  },
+  {
+   "i": 11,
+   "en": "$locrlf_personName gives you nav coordinates to $locrlf_systemName, $locrlf_hisOrHer comms ID, and the hull ID of the heretics' transport, the 'CGR Light of Exultation'.",
+   "ctx": "data/campaign/rules.csv locrlfOfferBarAcceptFirst [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"As I said, I was approached by an archcurate. I shall not name them, by their request, but it was made known to me that a flock of believers has been led astray by a false and heretical self-proclaimed prophet.\"\r\n\r\n\"I know,\" $heOrShe sighs. \"I too would imagine this the business of the Knights of Ludd, and I would be pleased to let their inquisitors deal with heretics as is their wont. But for some reason the Church wants to handle this on their own and it is not my place to speculate why that may be.\"",
+   "ctx": "data/campaign/rules.csv locrlfOfferTextContact [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"These false-believers, heretics, pooled money and bought an old transport, then left for some fringe system to 'begin anew', whatever that means. Possibly they're all dead - forgive me, or with Ludd for all that I know. Nonetheless, a non-believing scavenger was the last to spot them burning toward a particular system.\"\r\n\r\n\"Will you find them? For the Church?\"\r\n\r\n\"Discover what came of them. Bring news back to me, and then I will report to the archcurate. I've been provided with funds for the operation, $locrlf_rewardAmount credits. It's yours after you bring back news of the heretics.\"",
+   "ctx": "data/campaign/rules.csv locrlfOfferTextContact2 [text]"
+  },
+  {
+   "i": 14,
+   "en": "A wave of guilt, quickly suppressed, crosses $hisOrHer face.\r\n\r\n\"Y-yes, well. It is my place to take a perfectly reasonable broker's fee. Currying talent is honest work, despite what the Ruralist hardliners preach.\"\r\n\r\n$HeOrShe taps $hisOrHer fingers on $hisOrHer comms unit impatiently. \"But yes, it's just as well. You've made your point, captain. Let's make the payment $locrlf_rewardAmountHigher credits, if that's what it takes.\"",
+   "ctx": "data/campaign/rules.csv locrlfOfferCynicalRewardAsk [text]"
+  },
+  {
+   "i": 15,
+   "en": "$HeOrShe gives you the nav coordinates of $locrlf_systemName and hull ID for the heretics' transport, the 'CGR Light of Exultation'.",
+   "ctx": "data/campaign/rules.csv locrlfOfferAcceptFirst [text]"
+  },
+  {
+   "i": 16,
+   "en": "$HeOrShe nods along as you explain how you found the heretics dead in their 'promised land', led astray and to their doom, if not damnation. $PersonName doesn't look particularly upset.\r\n\r\n\"Such is the fate of those who would spit on the Church of Galactic Redemption,\" $heOrShe says, then goes quiet. Perhaps pondering the fate of heretics who managed to avoid the Knight Inquisitors.",
+   "ctx": "data/campaign/rules.csv locrlfReturnStartLie [text]"
+  },
+  {
+   "i": 17,
+   "en": "$PersonName nods along as you explain how you found the heretics, not looking particularly interested.",
+   "ctx": "data/campaign/rules.csv locrlfReturnStart [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"Thank you, $playerSirOrMadam,\" $heOrShe says. \"I shall bring the archcurate your report posthaste. Please accept your reward, as promised.\"",
+   "ctx": "data/campaign/rules.csv locrlfReturnStart2A [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"Thank you, $playerSirOrMadam,\" $heOrShe says. \"I shall bring the archcurate your report posthaste. Please accept your generous reward.\"\r\n\r\n\"I shall tell the archcurate that your fee was higher than expected,\" $personName mumbles to $himOrHerself.",
+   "ctx": "data/campaign/rules.csv locrlfReturnStart2B [text]"
+  },
+  {
+   "i": 20,
+   "en": "Now, of course, there's the matter of the heretics.",
+   "ctx": "data/campaign/rules.csv locrlfReturnHubOptsA [text]"
+  },
+  {
+   "i": 21,
+   "en": "Now, of course, there's the matter of the former heretics.",
+   "ctx": "data/campaign/rules.csv locrlfReturnHubOptsC [text]"
+  },
+  {
+   "i": 22,
+   "en": "$personName's eyes go wide.\r\n\r\n\"What!? You brought them here?\" $HeOrShe covers $hisOrHer face with $hisOrHer hands and makes a noise too pained to be a sigh.\r\n\r\n\"By Ludd's hammer, that wasn't the job! I... I didn't know anything about this. I'll specifically say I told you to report back with just confirmation of their position and status.\"",
+   "ctx": "data/campaign/rules.csv locrlfToldReturningHereticsChurch [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"As for you- take those heretics somewhere else! Or at least wait until I've made my report to offload them. I want nothing to do with them, this isn't my fault!\"\r\n\r\nThe signal cuts, leaving you with an ancient comms software fallback-pattern.",
+   "ctx": "data/campaign/rules.csv locrlfToldReturningHereticsChurch2 [text]"
+  },
+  {
+   "i": 24,
+   "en": "$personName's eyes go wide.\r\n\r\n\"What? The... Path? And you brought them here!? What by Ludd's hammer possessed you to do such a thing?\"",
+   "ctx": "data/campaign/rules.csv locrlfToldReturningHereticsPath [text]"
+  },
+  {
+   "i": 25,
+   "en": "$HeOrShe waves $hisOrHer hands as if this might make the situation go away. \"No. No, you didn't tell me this. I know nothing; I'll report to the archcurate that you found the heretics, and what happens from there is your - their - business. Good-day!\"\r\n\r\nThe signal cuts, leaving you with an ancient comms software fallback-pattern.",
+   "ctx": "data/campaign/rules.csv locrlfToldReturningHereticsPath2 [text]"
+  },
+  {
+   "i": 26,
+   "en": "$personName sighs, deeply, as if you've brought $hisOrHer rather more trouble than the signed up for. Because you have.\r\n\r\n\"I cannot imagine what, by Ludd's hammer, compelled you to bring the heretics here. So here's what we're going to do.\"\r\n\r\n\"I,\" $heOrShe pauses, giving you a stern look, \"I know nothing about them. You delivered your news to me, now I shall tell the archcurate that's all you told me. You will dispose of those faithless ingrates however you see fit, and I'll have had nothing to do with it, good-day.\"\r\n\r\nThe comms cut out.",
+   "ctx": "data/campaign/rules.csv locrlfToldReturningHereticsImportant [text]"
+  },
+  {
+   "i": 27,
+   "en": "A $lpt_manOrWoman in finely made Luddic pilgrimage robes seems to be speaking to various ship captains.",
+   "ctx": "data/campaign/rules.csv lptBlurbBar1 [text]"
+  },
+  {
+   "i": 28,
+   "en": "A $manOrWoman in the ragged robes of a Luddic pilgrim seems to be approaching ship captains only to be turned away.",
+   "ctx": "data/campaign/rules.csv lptBlurbBar2 [text]"
+  },
+  {
+   "i": 29,
+   "en": "You approach the pilgrim, who smiles and puts $lpt_hisOrHer hands together. From $lpt_hisOrHer confident disposition and quality clothing it is clear that $lpt_heOrShe comes from wealth somewhat at odds with Ludd's ascetic reputation.\r\n\r\n\"Blessed day. Captain, I presume?\" $lpt_heOrShe says. \"I wish to arrange transport for myself and my party to the shrine of $lpt_entityName in the $lpt_systemName. I can, of course, provide payment. Would $lpt_reward credits be worth a journey of $lpt_dist lightyears?\"",
+   "ctx": "data/campaign/rules.csv lptOfferTextBarRich [text]"
+  },
+  {
+   "i": 30,
+   "en": "You approach the pilgrim. Finally seeing someone who looks like they want to talk, $lpt_heOrShe produces a crooked smile and puts $lpt_hisOrHer calloused hands together.\r\n\r\n\"May Ludd bless you, $playerSirOrMadam,\" $lpt_heOrShe says, bowing. \"I beg of you for passage for myself and a small party to the shrine of $lpt_entityName. We are but poor pilgrims and cannot pay, so we beg this as charity from you.\"  \r\n\r\n\"Perhaps you are already traveling to the $lpt_systemName? The shrine would be but a short detour.\" $lpt_HeOrShe looks up at you hopefully. \"We will cause no trouble, and will pray for Providence to bless you with prosperity and health.\"",
+   "ctx": "data/campaign/rules.csv lptOfferTextBarPoor [text]"
+  },
+  {
+   "i": 31,
+   "en": "You have your purser make arrangements, with instructions to keep the pilgrims from interfering in $shipOrFleet operations.",
+   "ctx": "data/campaign/rules.csv lptPostAccept [text]"
+  },
+  {
+   "i": 32,
+   "en": "Your purser reports that the pilgrims you picked up on $lpt_sourceName to transport to the local Luddic shrine have been offloaded to a civilian shuttle. ",
+   "ctx": "data/campaign/rules.csv LPTcheckCompletionContGeneric [text]"
+  },
+  {
+   "i": 33,
+   "en": "Your purser reports that the pilgrims you picked up from $lpt_sourceName have been offloaded to a private shuttle and are on their way to the local Luddic shrine. Their payment has forwarded to your accounts.",
+   "ctx": "data/campaign/rules.csv LPTcheckCompletionContRich [text]"
+  },
+  {
+   "i": 34,
+   "en": "The leader of the pilgrims you have transported from $lpt_sourceName insists on having the 'excellent captain' see $lpt_hisOrHer group off.\r\n\r\n\"You should visit the shrine, captain,\" $lpt_heOrShe insists. \"I was once an unbeliever; the experience is quite transformational.\"\r\n\r\n\"Of course, I understand that this is a journey you must choose to undertake for yourself.\" $lpt_HeOrShe flashes a perfect smile and makes a pious gesture, then offloads to a private shuttle $lpt_heOrShe has hired to transport $lpt_himOrHer and $lpt_hisOrHer party to the shrine.",
+   "ctx": "data/campaign/rules.csv LPTcheckCompletionContRichOneOff [text]"
+  },
+  {
+   "i": 35,
+   "en": "You receive report that the pilgrims you transported here from $lpt_sourceName have been offloaded to a civilian shuttle dedicated to charitable service for Faithful of humble means.\r\n\r\nWhether you like it or not, they promised to pray for you for your act of charity.",
+   "ctx": "data/campaign/rules.csv LPTcheckCompletionContPoor [text]"
+  },
+  {
+   "i": 36,
+   "en": "The leader of the pilgrims you have transported from $lpt_sourceName insists on having the 'excellent captain' see $lpt_hisOrHer group off. \"You should see the shrine, captain,\" $lpt_heOrShe insists. \"I was once an unbeliever; the experience is quite transformational.\"\r\n\r\n$lpt_HeOrShe flashes a perfect smile, \"Of course, I understand that this is a journey one must choose for oneself.\" $lpt_HeOrShe makes a pious gesture, then offloads to a private shuttle $lpt_heOrShe has hired to transport $lpt_himOrHer and $lpt_hisOrHer party to the shrine.",
+   "ctx": "data/campaign/rules.csv LPTcheckNonMarketContRichOneOff [text]"
+  }
+ ]
+}

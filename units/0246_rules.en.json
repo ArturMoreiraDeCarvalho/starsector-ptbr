@@ -1,0 +1,166 @@
+{
+ "chunk": 246,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"Ingrate,\" Reynard Hannan spits the word. \"My League remembers barbarism, bloody-minded fickleness, oathbreaking and lies. We remember Mairaath.\"\r\n\r\n\"One day,\" his eyes go cold as the space between the stars, \"You might be only dust. Annihilated, forgotten. You could be nothing but a dreary footnote in the glorious history of the League, a minor embarrassment to Gens Hannan.\"\r\n\r\n\"Picture it,\" he says softly. \"After such words, that would be your fate.\"",
+   "ctx": "data/campaign/rules.csv PLLeaveThreatsB2 [text]"
+  },
+  {
+   "i": 2,
+   "en": "Reynard closes his eyes for a moment, \"You've made a series of terrible errors, $playerName,\" he says, voice filled with mock-sorrow. \"You had such potential. To be part of something greater; to build something lasting, something beautiful.\"\r\n\r\nThe calm breaks, \"Churl!\" he shouts, eyes afire. \"You're nothing but a barbarian, good for nothing but chaos! I'll grind your fleets to dust! I'll raze your industry to the ground! Your treasures will become as so much slag; your people scattered to the vacuum to pollute some other world, or die in the vacuum.\"\r\n\r\n\"When we come for you,\" his eyes are filled with hate, \"We will come with fire.\"",
+   "ctx": "data/campaign/rules.csv PLLeaveThreatsC2 [text]"
+  },
+  {
+   "i": 3,
+   "en": "Reynard closes his eyes for a moment, \"You've made a series of terrible errors, $playerName,\" he says, voice filled with mock-sorrow. \"You had such potential. To be part of something greater; to build something lasting, something beautiful.\"\r\n\r\n\"Again and again you chose chaos. A barbarian-led rogue polity like yours... will never be allowed to rejoin the League.\"\r\n\r\n\"Don't worry about another blockade, captain,\" he spits the low title, his eyes shining like the frost of a cryopod. \"Someday, we will come for you. And when we come, we will come with fire.\"",
+   "ctx": "data/campaign/rules.csv PLLeaveThreatsD2 [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"Ah. That's what I thought,\" Reynard says with false grace. \"It sounds just like the sort of boorish faux pas you would make.\" ",
+   "ctx": "data/campaign/rules.csv PLLeaveNeverMind2 [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"I see, I see,\" $heOrShe puts $hisOrHer hands together, considering $hisOrHer next words.\r\n\r\n\"There's an official process. Find a sponsor, send a delegation to meet the League Council, a question period, a vote.\" $HisOrHer eyes turn to you now, somehow meeting yours through the comms. \"But what you're going to want to do is talk to Reynard Hannan. Nothing will move through the League Council unless Gens Hannan allows it.\" $HisOrHer eyes turn away again, and $heOrShe gives a small shrug.\r\n\r\n\"Welcome to Kazeron.\"",
+   "ctx": "data/campaign/rules.csv notRH_joinLeagueSel [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"Oh? If you're facing bankruptcy, I could have a word with some investors. As a personal favor, of course.\" He oozes noblesse oblige, reflecting on your situation.\r\n\r\nThen a reasonable yet concerned look comes over him. \"I understand now - you wish to avoid appearing as though you must beg. Perhaps my people could set up some kind of arrears system? Quietly, of course. No outsiders need know of your troubles.\"\r\n\r\nHe smiles.",
+   "ctx": "data/campaign/rules.csv rh_stopPayingSel [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Of course; I assumed you had misspoken.\" He looks casually aside, taking in what is no doubt a spectacular view. \r\n\r\n\"It is the sort of thing you might do, and which I, of course, forgive.\"",
+   "ctx": "data/campaign/rules.csv rh_abortNoPaySel [text]"
+  },
+  {
+   "i": 8,
+   "en": "Reynard's eyebrows raise by perhaps half a centimeter at your display.\r\n\r\n\"You could have been a client of greatness.\" He leans back, expression very cold. \"It saddens me to find that you are either more a fool than I imagined, or that you do not fully comprehend the consequences of crossing Gens Hannan.\"\r\n\r\n\"Now I shall have to make a... demonstration of you.\"",
+   "ctx": "data/campaign/rules.csv rh_confirmNoPaySel [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"Poor thing.\" Reynard smiles sadly, the facade of forgiveness written across his face. \"I hope you've learned your lesson.\"\r\n\r\nHe drops the expression for steely indifference. \"Understand full and well that you're only going to get this one chance to cross me and return.\"",
+   "ctx": "data/campaign/rules.csv rh_restartPaymentsSel [text]"
+  },
+  {
+   "i": 10,
+   "en": "Reynard sighs, rolling his eyes.",
+   "ctx": "data/campaign/rules.csv rh_abortPayAgainSel [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"Treasure my forgiveness, captain. It is a rare and precious gift.\" He stares down, somehow, through the comms; imperious.\r\n\r\n\"Uphold your end of our arrangement, or your earlier problems will seem like a walk in the parks of Gilead.\"",
+   "ctx": "data/campaign/rules.csv rh_confirmPayAgainSel [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"Recall my words, captain. You had one chance for forgiveness,\" he says grimly, \"and you wasted it.\"\r\n\r\n\"Do not recall to me your betrayal.\"",
+   "ctx": "data/campaign/rules.csv rh_restartPaymentsRefuse1 [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"There is a stain on you, captain,\" he says gravely. \"It is the reek of one who does not keep their word. Lies I can forgive as mere intrigue... but to betray an oath?\"\r\n\r\nHis head shakes, slowly. \"Worse than dishonorable, it is uncivilized. You're a barbarian, captain. You cannot be a part of the world I've built.\"\r\n\r\n\"Don't misunderstand me,\" he stops, and fixing his gaze on you. \"Barbarians have their use, nonetheless.\"",
+   "ctx": "data/campaign/rules.csv rh_restartPaymentsRefuse2 [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"Your little scrap of a colony - what was it called? I forget - is not a member of the Persean League, captain. What need have I to be patron to barbarians?\"\r\n\r\nHe sighs, looking away. \"I grant that mercs like you have their uses. But it always feels like one must sanitize after such transactions.\"",
+   "ctx": "data/campaign/rules.csv rh_restartPaymentsRefuse3 [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"No.\"\r\n\r\nReynard leans back, hands coming together in front of him. His lack of explanation is quite intentional, and it feels like acknowledging it would concede him a minor victory.",
+   "ctx": "data/campaign/rules.csv rh_restartPaymentsRefuse4 [text]"
+  },
+  {
+   "i": 16,
+   "en": "The connection flashes valid, and the merc captain appears before you, hands steepled.\r\n\r\n\"$playerName.\" $HeOrShe has an open, neutral expression. \"When you become a client of the gens, you make an agreement.  If you fail to uphold your end of that agreement, I am paid to make you into an example of what happens to people who do not respect Gens Hannan.\"\r\n\r\n$HeOrShe waits a moment, then adds apologetically, \"The terms of my contract require that I tell you this. I will be attacking you now, I suggest you order combat stations.\" $HeOrShe reaches for the comms cut-off.",
+   "ctx": "data/campaign/rules.csv GensHannanMachinationsHail [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"Contact acknowledged,\" the merc stares at you, dead-eyed.\r\n\r\n\"We're in the middle of contract operations, don't waste my time.\"",
+   "ctx": "data/campaign/rules.csv triTachCommerceRaiderComms [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"Contact acknowledged,\" the merc stares at you, sweaty and dead-eyed.\r\n\r\n\"We're in the middle of a contract operation. Set to disengage from your $shipOrFleet in three, two...\"",
+   "ctx": "data/campaign/rules.csv triTachCommerceRaiderCommsWeaker [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"Greetings, independent $shipOrFleet,\" the $post says. \"Please be advised to keep course clear of this detachment as we may perform navigational maneuvers.\"\r\n\r\n\"If you have business matters to discuss, please contact Operations Command.\"\r\n\r\n\"And on behalf of Tactistar,\" $heOrShe adds, \"I would like to wish you a very safe day.\"",
+   "ctx": "data/campaign/rules.csv ttma_detachmentCommsNotHostile [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"Acknowledging contact with hostile $shipOrFleet,\" the $post says grimly.\r\n\r\n\"Be advised that the operating protocols of this detachment do not preclude hostile action against your $shipOrFleet,\" $heOrShe says. It's a jurisprudent threat, but one nonetheless implied.",
+   "ctx": "data/campaign/rules.csv ttma_detachmentCommsHostile [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"Tactistar Operational Command Fleet acknowledging,\" the $post looks to a display, \"$ShipOrFleet of Captain $playerName.\"\r\n\r\n$HeOrShe raises $hisOrHer eyebrows, \"I will note, for your benefit, that your ident is included within our operational contract. Now I don't make a habit of discussing contractual fulfillment details with the, ah, target. But.\"\r\n\r\nThe Tactistar $post stops before making you some kind of offer - this would presumably be against the terms of $hisOrHer contract - but $heOrShe does look like $heOrShe expects some kind of offer.",
+   "ctx": "data/campaign/rules.csv TTMACommandGreeting1 [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"Tactistar Operational Command Fleet acknowledging,\" the $post looks to a display, \"$ShipOrFleet of Captain $playerName.\"\r\n\r\n$HeOrShe raises $hisOrHer eyebrows, \"Your profile is included within the scope of our contract. I am forbidden from discussing contract details with, ah, project success targets. But be advised that Tactistar will pursue hostile action against you and your $shipOrFleet for the duration of our private operational bond.\"\r\n\r\nThe Tactistar $post is all business, cold as the void; you're just a project goal to $himOrHer.",
+   "ctx": "data/campaign/rules.csv TTMACommandGreeting2 [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"Captain, captain!\" $HeOrShe shakes $hisOrHer head in a pretense of shock, \"My word is my bond. Besides, Tactistar holds a contract! A contract which includes a generous signing payment.\"\r\n\r\n\"Where would we be if mercenaries could simply sell their services to the highest bidder, with no regard for such concepts as honor and, after a fashion, morality?\" $HeOrShe gestures vaguely, \"Just imagine the sort of world we would live in.\"\r\n\r\n$HeOrShe looks off into space for a few seconds, as if lost in a daydream. $HeOrShe turns back to face you, expression perfectly earnest. \"No, your offer simply will not do.\"",
+   "ctx": "data/campaign/rules.csv ttma_offerBribe1Sel [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"I would be pleased to accept your offer on behalf of the Tactistar Space Security Corporation,\" the $post beams.\r\n\r\n$HeOrShe waves a hand, \"We have people who can sort out the details, but provisionally we'll substitute a few of the ident tokens in the standard form and proceed from there. In fact, we could begin shifting operational assets immediately... upon payment in full.\"",
+   "ctx": "data/campaign/rules.csv ttma_offerBribe2Sel [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"Pleasure doing business with you, Captain $playerName. Now, if you don't mind, I have orders to transmit.\"\r\n\r\n$HeOrShe smiles and reaches for the comms shutoff, then pulls back, remembering something.\r\n\r\n\"And on behalf of Tactistar,\" $heOrShe says, \"I would like to wish you a very safe day.\"",
+   "ctx": "data/campaign/rules.csv ttma_bribeConfirmSel [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"$PlayerName, is it? Ah- ah ah,\" $heOrShe makes a strange stuttering sound. You're not sure if it's a laugh, or vacuum-damaged lungs. \r\n\r\n\"Consider me s-so delighted to meet our s-source of plunder.\" The $post sits there with an odd smile, eyes large. $HeOrShe seems content to simply look at you.",
+   "ctx": "data/campaign/rules.csv TTCRBountyHunterWolfpack [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"Oh- ah ah, is that s-so?\" $HeOrShe looks almost hurt, eyes twitching as they access an implanted interface.\r\n\r\n\"N-no, there is-is nothing here about the bounty being canceled. My ah ah employer would never make this kind of error.\"\r\n\r\n\"S-so s-sorry captain, you will s-still have to s... die.\"\r\n\r\n$HisOrHer eyes move in an odd half-arc, presumably disabling safety locks on combat systems, judging by your tactical officer's reaction in your peripheral vision.",
+   "ctx": "data/campaign/rules.csv ttcrBH_butSelWolfpack [text]"
+  },
+  {
+   "i": 28,
+   "en": "The link flickers and stabilizes, mostly.\r\n\r\n$HeOrShe stares at you for a moment, expressionless. Then speaks. \"I'm afraid that conversation will serve no purpose here, $PlayerName.\"\r\n\r\nAn audio-visual warble lingers, never quite caught by the comms software. ",
+   "ctx": "data/campaign/rules.csv TTCRBountyHunterPhase [text]"
+  },
+  {
+   "i": 29,
+   "en": "Only $hisOrHer eyes move, a reptilian flicker to an auxiliary display, then back to you. It occurs to you that they haven't yet blinked.\r\n\r\n\"Your words are irrelevant. Only a recall order coded with the keys I've exchanged with my Tri-Tachyon contact would suffice. Failing that, the contract stands.\"\r\n\r\nA wash of distortion ripples across the display.\r\n\r\n\"Terminating comms,\" $heOrShe says.",
+   "ctx": "data/campaign/rules.csv ttcrBH_butSelPhase [text]"
+  },
+  {
+   "i": 30,
+   "en": "The comms crackle slowly into a stable link.\r\n\r\n\"Blessed day, my friend!\" $HeOrShe smiles widely, then reconsiders. \"But perhaps not so much for you?\"\r\n\r\nThe $post rustles around in some junk on $hisOrHer console, out of sight of the comms, then examines a beat-up datapad. \"Knew it! By the holy stars in Ludd's commode, it's $playerName!\" \r\n\r\n\"Shall we pray together before getting on with it?\"",
+   "ctx": "data/campaign/rules.csv TTCRBountyHunterDerelict [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"Oh then I must be the High Hegemon!\" $HeOrShe laughs. \"But, forgive me, forgive me - it's a virtue, you know; forgiveness,\" $heOrShe says. \"I'll check.\"\r\n\r\nThe $post turns and shouts, \"Peregrine, anything in the comms log about a contract recall?\"\r\n\r\n$HeOrShe looks back at the comms for a quick second to give you a skeptical smirk, then seems to listen carefully. There's some kind of shouted reply, impossible to make out through the crackle of the comms hardware.",
+   "ctx": "data/campaign/rules.csv ttcrBH_butSelDerelict [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"Bad news.\"\r\n\r\n$HeOrShe shrugs, \"For you, anyway. I'll say a prayer once it's over, and I'll make it quick. Why, by next shift you'll be sipping tea with Ludd and the holy Pneuma! I'm almost jealous.\"\r\n\r\n$HeOrShe stretches, then sits back upright. \"Let's to it, shall we?\" ",
+   "ctx": "data/campaign/rules.csv ttcrBH_butSelDerelict2 [text]"
+  }
+ ]
+}

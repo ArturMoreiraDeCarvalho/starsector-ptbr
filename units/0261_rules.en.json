@@ -1,0 +1,131 @@
+{
+ "chunk": 261,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "You join the crew at the table to their uproarious delight, patrons shoving over to make room.",
+   "ctx": "data/campaign/rules.csv BarHighRepEventJoin1 [text]"
+  },
+  {
+   "i": 2,
+   "en": "You leap up onto a table and are handed a drink, which you raise high to a new round of cheers.\r\n\r\n\"Speech, speech!\" the crowd chants, and you make a show of reluctance before giving in to their demands.",
+   "ctx": "data/campaign/rules.csv BarHighRepEventSpeech0 [text]"
+  },
+  {
+   "i": 3,
+   "en": "You share a few flattering quips and a story about some prominent local officials, earning quiet, cheers, or laughter at the appropriate moments.\r\n\r\nSome of the stories might even be true. Or not. What's important is the connections you're making - or pretending you already made - with the local power-players.",
+   "ctx": "data/campaign/rules.csv BarHRESpeechA [text]"
+  },
+  {
+   "i": 4,
+   "en": "You share a few flattering quips and a story about some prominent local officials, earning quiet, cheers, or laughter at the appropriate moments.\r\n\r\nYou shift the monologue toward a light-hearted review of each of the Luddic shrines you visited, earning tense laughter, but you manage to turn what at first appeared to be subversive implications into a heartfelt conclusion which results in earnest applause from spacer and Faithful alike.\r\n\r\nSome of the stories might even be true. Or not. What's important is the connections you're making - or pretending you already made - with the local power-players.",
+   "ctx": "data/campaign/rules.csv BarHRESpeechAchurch [text]"
+  },
+  {
+   "i": 5,
+   "en": "You share a few flattering quips and a story about some prominent local officials, earning quiet, cheers, or laughter at the appropriate moments.\r\n\r\nYou transition into an anecdote about drinking tea with Brother Livewell Cotton and the bar goes quiet indeed - one particular spacer at the front goes pale and makes to look for the closest exit. You pivot, reassuring the spacer with the finer points of tea etiquette, prompting laughter and earning the fearful spacer good-natured ribbing from their drinking companions. \r\n\r\nSome of the stories might even be true. Or not. What's important is the connections you're making - or pretending you already made - with the local power-players.",
+   "ctx": "data/campaign/rules.csv BarHRESpeechApath [text]"
+  },
+  {
+   "i": 6,
+   "en": "You share a few flattering quips and a story about some prominent local Tri-Tachyon figures, earning moments of quiet, cheers, or laughter at the appropriate moments. A joke suggesting that Artemisia Sun is an AI core lands particularly well with the crowd despite earning you a deadly look from a finely-dressed executive sitting alone near the back of the room.  \r\n\r\nSome of the stories might even be true. Or not. What's important is the connections you're making - or pretending you already made - with the local power-players.",
+   "ctx": "data/campaign/rules.csv BarHRESpeechAtritachyon [text]"
+  },
+  {
+   "i": 7,
+   "en": "You share a few flattering quips and a story about some prominent gens and officials, earning quiet, cheers, or laughter at the appropriate moments.\r\n\r\nYour impression of Reynard Hannon's accent draws particular divisions between his supporters and detractors in the crowd, but you manage to defuse the tension with a well-timed joke, transforming scowls into self-deprecating smiles.\r\n\r\nSome of the stories might even be true. Or not. What's important is the connections you're making - or pretending you already made - with the local power-players.",
+   "ctx": "data/campaign/rules.csv BarHRESpeechAleague [text]"
+  },
+  {
+   "i": 8,
+   "en": "You share a few flattering quips and a story about some prominent local Hegemony officials, earning quiet, cheers, or laughter at the appropriate moments. A pack of cadets in the corner is especially taken with an aside about meeting High Hegemon Daud.\r\n\r\nSome of the stories might even be true. Or not. What's important is the connections you're making - or pretending you already made - with the local power-players.",
+   "ctx": "data/campaign/rules.csv BarHRESpeechAhegemony [text]"
+  },
+  {
+   "i": 9,
+   "en": "You share a few off-color quips and a story involving some of the more prominent local pirates, earning quiet or cheers at the appropriate moments.\r\n\r\nA hush falls over the bar as you recall your meeting with Kanta herself; you manage to break the tension with an unflattering aside about her 'doctor', Cydonia, prompting laughter and pounding of tables.\r\n\r\nSome of the stories might even be true. Or not. What's important is the connections you're making - or pretending you already made - with the local power-players.",
+   "ctx": "data/campaign/rules.csv BarHRESpeechApirates [text]"
+  },
+  {
+   "i": 10,
+   "en": "You speak about the hard-working spacers that make everything you've done possible, sharing a story of daring, danger, and victory. Moments of quiet, cheers, or laughter come at the appropriate moments as you connect the experiences of your crew with the individuals at the tables around you.\r\n\r\nSome time later, in a quiet corner, the bartender hands you a tall glass of cool water with a nod.\r\n\r\nYour personnel officer pings your datapad with a surprised message about a number of enthusiastic, and slightly drunk, spacers choosing to sign on to your $shipOrFleet while waiving the usual contract signing bonus.",
+   "ctx": "data/campaign/rules.csv BarHRESpeechB [text]"
+  },
+  {
+   "i": 11,
+   "en": "You start slow, and quiet, forcing the crowd to quiet themselves and one another to hear you.\r\n\r\nHaving caught their attention, you lay it on about the dangers and trials you have faced - how is it possible you're here, alive, to tell the tale? Through laughter, cheers, and hushed moments you speak of your deeds to the rapt audience and, in a roaring conclusion, somehow connect it all to the greater glory of $theMarketFaction, to applause from the entire bar. \r\n\r\nSomehow you're the hero of the day, though only a handful here knew it when you first walked in.",
+   "ctx": "data/campaign/rules.csv BarHRESpeechC [text]"
+  },
+  {
+   "i": 12,
+   "en": "You start slow, and quiet, forcing the crowd to quiet themselves and one another to hear you.\r\n\r\nHaving caught their attention, you lay it on about the dangers and trials you have faced - how is it possible you're here, alive, to tell the tale? Through laughter, cheers, and hushed moments you speak of your deeds to the rapt audience and, in a roaring conclusion, somehow connect it all to the proudly independent polities and spacers, to applause from the entire bar. \r\n\r\nSomehow you're the hero of the day, though only a handful here knew it when you first walked in.",
+   "ctx": "data/campaign/rules.csv BarHRESpeechCindie [text]"
+  },
+  {
+   "i": 13,
+   "en": "You start slow, and quiet, forcing the crowd to quiet themselves and one another to hear you.\r\n\r\nHaving caught their attention, you lay it on about the dangers and trials you have faced - how is it possible you're here, alive, to tell the tale? Through laughter, cheers, and hushed moments you speak of your deeds to the rapt audience and, in a roaring conclusion, somehow connect it all to the fierce and free pirates of the Persean Sector, to applause from the entire bar. \r\n\r\nSomehow you're the hero of the day, though only a handful here knew it when you first walked in.",
+   "ctx": "data/campaign/rules.csv BarHRESpeechCpirates [text]"
+  },
+  {
+   "i": 14,
+   "en": "You quietly inquire about what the group is drinking to, setting off laughter and good cheer. You're handed a drink, and as you sip, hear several versions of your latest exploits, each more unlikely than the last. \r\n\r\nYou do your best to correct the worst exaggerations, but the consensus has clearly formed that you're playing it down.",
+   "ctx": "data/campaign/rules.csv BarHREHumble1 [text]"
+  },
+  {
+   "i": 15,
+   "en": "With the round complete, you make your apologies to much good-natured booing, and tactfully make for a dark corner to recover your thoughts and take in the bar- the bartender, with a nod, ensures you have a tall glass of cold water at hand.\r\n\r\nRefreshed, and having quieted things down, you have a chance at last to look around.",
+   "ctx": "data/campaign/rules.csv BarHREHumble2 [text]"
+  },
+  {
+   "i": 16,
+   "en": "Smiling, you try to calm this table. Unfortunately, this just feeds their enthusiasm. Crews sitting at more tables turn to look, patrons whispering to one another and pointing, and others raising their voices to call out.\r\n\r\nIt's going to be very difficult to find any contacts here with all this attention.",
+   "ctx": "data/campaign/rules.csv BarHRE0calm [text]"
+  },
+  {
+   "i": 17,
+   "en": "You give a stern nod, the very face of stoicism.\r\n\r\nYour example triggers a rush of somewhat tipsy salutes and over-exuberant return nods. More drink is spilled in this process, but at least they've quieted down.",
+   "ctx": "data/campaign/rules.csv BarHRE0nod [text]"
+  },
+  {
+   "i": 18,
+   "en": "You give a sedate wave of acknowledgement, turn right around, and walk out of the bar.\r\n\r\nThe cheers and shouts, only growing louder, are muffled as you step into the outside corridor.",
+   "ctx": "data/campaign/rules.csv BarHRE0leave [text]"
+  },
+  {
+   "i": 19,
+   "en": "Some time later, in a quiet corner, the bartender hands you a tall glass of cool water with a nod.\r\n\r\nRefreshed, and things having quieted down, you have a chance at last to look around.",
+   "ctx": "data/campaign/rules.csv BarHREtransitionOut [text]"
+  },
+  {
+   "i": 20,
+   "en": "Refreshed, and things having quieted down, you have a chance at last to look around.",
+   "ctx": "data/campaign/rules.csv BarHREtransitionOutB [text]"
+  },
+  {
+   "i": 21,
+   "en": "A patron does a double-take, and with recognition comes a look of intense hatred.\r\n\r\n\"You!\" The shout cuts through the clatter and noise of the bar like a shot. The burly spacer stands, and readies a meaty fist...\r\n\r\nOnly to be thrown back onto a table with a smash of glassware by one of your bodyguards - generally discreet, but paid well to take initiative at times like these.",
+   "ctx": "data/campaign/rules.csv BarLREstart2 [text]"
+  },
+  {
+   "i": 22,
+   "en": "The chaos begins to spread outward, crew and locals alike staring, and those drunkest and angriest standing.\r\n\r\nYou hear your name spoken like a curse, and a makeshift missile shatters on the support column behind you.\r\n\r\nYour bodyguards form a human wall to cover your path toward the exit. Stumbling outside, you can hear the alarms which signal the rapid approach of local MuniSec. There'll be no quiet business done in this bar for the shift, that much is clear.",
+   "ctx": "data/campaign/rules.csv BarLRE1 [text]"
+  },
+  {
+   "i": 23,
+   "en": "The chaos spreads outward, crew and locals alike staring, and those drunkest and angriest standing. One pulls a knife, which prompts a pirate three tables down to draw a gun, at which point your instinct to find cover kicks in.\r\n\r\nYou hear your name shouted like a curse, and an already broken vidscreen on the support column behind you explodes into burning plastic fragments, the soft-round from a boarding pistol putting it well out of its misery.\r\n\r\nYour bodyguards respond with controlled bursts from energy weapons set to low-power, giving cover to your withdrawal. Smoke, screams, and flashes of discharge fill the bar. Stumbling outside, you see passers-by clearing out as fast as they can. A noodle stand cook gives you a frightened look as they duck behind armored shutters. There'll be no quiet business done in this bar for the shift, that much is clear.",
+   "ctx": "data/campaign/rules.csv BarLRE1pirates [text]"
+  },
+  {
+   "i": 24,
+   "en": "The chaos spreads outward, crew and locals alike staring, and those drunkest - clearly, this bar doesn't only serve tea and small-beer - and angriest standing.\r\n\r\nYou hear your name called like a curse, and a makeshift missile smashes against a samovar behind you. It tips, slowly, and falls to the ground with a crash. A small wave of hot water washes over your boots, and a cloud of steam envelopes you.\r\n\r\nYour bodyguards form a human wall to cover your path toward the exit. Stumbling outside, you can hear the bells which signal the rapid approach of Path anti-vice enforcers. There'll be no quiet business done in this bar for the rest of the shift, that much is clear.",
+   "ctx": "data/campaign/rules.csv BarLRE1pather [text]"
+  },
+  {
+   "i": 25,
+   "en": "The chaos begins to spread outward, crew and locals alike staring, and those drunkest and angriest standing.\r\n\r\nYou hear your name spoken like a curse, and a makeshift missile shatters on the support column behind you. A pack of cadets rushes the exit, eager to avoid a potential military discipline for involvement in a bar brawl.\r\n\r\nYour bodyguards form a human wall to cover your withdrawal. Stumbling outside, you hear the buzz of riot control drones which signals the rapid approach of gendarmerie. There'll be no quiet business done in this bar for the rest of the shift, that much is clear.",
+   "ctx": "data/campaign/rules.csv BarLRE1hegemony [text]"
+  }
+ ]
+}

@@ -1,0 +1,141 @@
+{
+ "chunk": 172,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "Baird speaks, her attention divided \"If this... Captain, I suspect that you will have to search for a non-standard hyperspace access point to find the Tri-Tachyon black site. Retrace the route of the Hamatsu from Hybrasil to $gaPZ_relaySystem.\" \r\n\r\nFace illuminated by a newly-summoned display, Baird says \"Go now, captain,\" and disconnects the comms.",
+   "ctx": "data/campaign/rules.csv gaPZ_tellBairdMods2 [text]"
+  },
+  {
+   "i": 2,
+   "en": "You upload your salvage team's report and tell Baird about finding the Tri-Tachyon base site which was cleared and intentionally hidden.\r\n\r\nThe provost nods, glancing through your data. \"This fits with what we know of Tri-Tachyon operations. My predecessor, Tomas Kallichore, assisted the Company with-,\" she looks at you carefully, \"-at least one instance of such a black site. The Galatia Academy put its name on resupply missions, presenting them as deep space survey expeditions. The Hegemony never acknowledged this in their persecution of the Galatia Academy, though they obviously knew of it. Or know, now, with the records from Kallichore's Archive.\" ",
+   "ctx": "data/campaign/rules.csv gaPZ_tellBairdRuins1 [text]"
+  },
+  {
+   "i": 3,
+   "en": "Baird squeezes her eyes shut and adjusts her spectacles, looking vexed. By the missteps of the former provost, perhaps.\r\n\r\nShe turns back to you and says, \"And, clearly, someone in Tri-Tachyon is up to the same old trick. Perhaps they moved their base after the Hegemony investigation of this institution. Perhaps they anticipated a Hegemony response.\"\r\n\r\n\"Enough speculation,\" Baird says after a moment's thought.",
+   "ctx": "data/campaign/rules.csv gaPZ_tellBairdRuins2 [text]"
+  },
+  {
+   "i": 4,
+   "en": "Coureuse listens carefully to your recounting of the search for Kelise Astraia, of speaking with Callisto Ibrahim, and the strange Hamatsu hyperdrive modifications.\r\n\r\n\"Interesting,\" says Coureuse as the upload is completed. \r\n\r\nThe engineering diagrams of the Hamatsu flicker back and forth across her face as she scrolls through the specs. \"This confirms a few theories we've been working on. And my thesis advisor- um, well if I'm not mistaken-\" she freezes the display on a page of equations, \"Ah! See right here? They used our work. I wonder how Tri-Tachyon got this. Provost Kallichore, I expect.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_tellCoureuseMods [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"Yes!\" Coureuse looks surprised and pleased, \"It's all rather over-engineered when a simple software patch will do. It's fascinating to see how they've applied these principles to, ah, the hardware application. Experimentation and instrumental aspects of research were never my strong point,\" Coureuse admits. \"I was into theory. Now that I'm back at the Academy, with the resources Baird is giving me...\"",
+   "ctx": "data/campaign/rules.csv gaPZ_tellCoureuseMods2 [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"Right. This ship, the Hamatsu. They went through all the trouble to modify the hyperdrive. That tells me that it went somewhere specific,\" Coureuse looks at you intensely, \"If you found out where they used this, some special jump-point associated with a nascent gravity well that's... special, somehow. Unique? Hyperspatially-speaking?\" Coureuse looks off somewhere, thinking again. \"Perhaps not unique, but special.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_tellCoureuseMods3 [text]"
+  },
+  {
+   "i": 7,
+   "en": "She puts down her datapad and stares into the distance, \"How would such a phenomenon occur naturally? Gravitational slingshot of a planet that formed near a hyperspace-accessible primary launched away from its primary? I'd have to check with Astrometrics if...\" Coureuse realizes you're still on the comms-call, \"Oh, captain! My apologies. I think we're all done? I have a lot of- I need to talk to the rest of the team,\" she waves a hand, trying to express something inexpressible, \"... Ideas. Bye.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_tellCoureuseMods4 [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"$playername. Why are you still here? Follow Kelise Astraia, follow the Hamatsu. Find out what Tri-Tachyon was up to at this 'Alpha Site' then return here,\" Baird removes her spectacles in an uncharacteristic display.\r\n\r\n\"Understand, captain, that you are not a subtle implement. You are gaining something of a reputation. I concede that your abilities and accomplishments are impressive.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_bairdHurryUp [text]"
+  },
+  {
+   "i": 9,
+   "en": "She leans forward, her eyes falling into shadow, \"And you've impressed many of the powerful factions of the Sector. In your wake there follows a small army of spies, informants, and opportunists. They will catch up to you.\"\r\n\r\nProvost Baird leans back again, and replaces her spectacles, \"Grand designs are coming together, captain. We will change the world.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_bairdHurryUp2 [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"You are ordered to undergo a standard safety scan of the,\" the Hegemony $personRank's eyes flick down to read something, \"-the $zigguratShipName, as authorized under the Interstellar Transit Accords of cycle 81.\"\r\n\r\n$PersonRank $personLastName looks directly at you again, and without expression says \"We wish to avoid any accidents due to allowing transit of an unproven class of ship hull through Hegemony space.\"\r\n\r\nImpressive composure for such a bald-faced lie.",
+   "ctx": "data/campaign/rules.csv gaPZHegemonyEncounterStandard [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"Good day, captain,\" the Hegemony $personRank says crisply. \"A hull class of extraordinarily non-standard provenance was recently detected in your fleet by long-range sensors.\"",
+   "ctx": "data/campaign/rules.csv gaPZHegemonyEncounterNoZig [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"Good day, captain,\" the Hegemony $personRank says crisply. \"Our sensors detect a ship hull class of non-standard provenance.\" ",
+   "ctx": "data/campaign/rules.csv gaPZHegemonyEncounterOnlyZig [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"Although advancement of industry and innovation is within the interests of the Hegemony and restoration of the Domain,\" $heOrShe speaks almost automatically, as if from a bureaucrat's script \"Certain oversight and limitations are necessary for the safety of all. Let this be notice that the Ministry of Technology Standards declares its intent to reassure the Domain-successor commonwealth of the Hegemony by ensuring compliance of your so-called Ziggurat-class hull with the terms of the cycle 194 Treaty of Crom Cruach,\" $hisOrHer eyes look up at yours, \"which concluded the Second AI War\"\r\n\r\nThe Hegemony $personRank concludes without emotion, \"Consider this a warning.\" $HeOrShe then cuts the comms without saying so much as 'burn bright'.",
+   "ctx": "data/campaign/rules.csv gaPZHegemonyEncounterInitialCont [text]"
+  },
+  {
+   "i": 14,
+   "en": "Using some excuse, you stall the Hegemony $personRank for a couple minutes to consult with your bridge crew.\r\n\r\n\"This is not... quite standard, but technically they can demand a scan without a tariff violation warrant,\" your sensors officer explains.\"I'd heard of this clause used before, but mostly to set off transports suspected of moving Pather infiltrators and the like. They don't get full run of the ship, just the, um, primary features: main airlock, cargo bay, reactor, hyperdrive. To ensure hull integrity and make sure your reactor isn't going to blow. Theoretically.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_heg1 [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"I don't think that argument would stand up in court. Um, in a civilian court anyway. But if you deny them, they'll take it out some other way. Probably.\"\r\n\r\nSo the Hegemony wants to do a sweep of the Ziggurat-class hull's major systems. You can have internal security keep their scan team away from anything related to the Mote systems. Possibly the goal is simple harassment. Possibly they'll use non-standard scanners to try to get a read on the Ziggurat-class's capabilities.\r\n\r\n\"What do we do, captain?\" your sensors officer asks.",
+   "ctx": "data/campaign/rules.csv gaPZ_heg2 [text]"
+  },
+  {
+   "i": 16,
+   "en": "You take the comm-link with the Hegemony $personRank off hold, and explain that you bear a commission from the Hegemony. You fight for the same cause, you hold the same loyalties. If the Hegemony wishes to access your technology, let them ask properly. \r\n\r\nLet them act as officers and speak to your face, not bureaucrats hiding their motives behind old regulations.\r\n\r\nBy the end of your speech, you find $personRank $personName nodding along with you.",
+   "ctx": "data/campaign/rules.csv gaPZ_hegHub1 [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"I agree with you captain. Fully,\" $heOrShe says, \"This underhanded skulduggery is beneath the dignity of our long tradition of service. Nonetheless, captain, I have orders I need to technically fulfill. Let the scan team on board then I shall immediately recall them. They won't even bring their equipment.\"\r\n\r\n\"Just give me what I need to uphold the letter of my orders, and I will make it clear that the spirit behind them is unbecoming of a Hegemony officer.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_hegHub1a [text]"
+  },
+  {
+   "i": 18,
+   "en": "Your tactical officer deactivates your PD envelope to allow the scan team's shuttle to dock, and you watch on a display feed as the Hegemony technicians step into the airlock, swipe something on a datapad, then step back into their shuttle.\r\n\r\n\"Thank you for your cooperation in this investigation, captain. You're all clear to go.\" $PersonRank $personName manages a small, ironic smile, and says \"For the Domain,\" before signing off the comm link.",
+   "ctx": "data/campaign/rules.csv gaPZ_hegHub1b [text]"
+  },
+  {
+   "i": 19,
+   "en": "The Hegemony $personRank sighs, and rubs $hisOrHer forehead as if this is giving $himOrHer a tremendous headache. \"I'm trying to work with you, captain. But I won't risk my career for you.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_hegHub1c [text]"
+  },
+  {
+   "i": 20,
+   "en": "The Hegemony $personRank gruffly accepts your delayed reply, and the scan proceeds with all the tedium you've come to expect from a process carried out by the Hegemony when the bureaucracy wants you to know that they will take all the time in the world, just waiting for you to make a wrong move.\r\n\r\nYou don't make a wrong move. Your internal security is firm in denying access beyond the remit of the inspections purview, and the scan team - obviously ordered to test your boundaries - stands down and sticks to the plan.",
+   "ctx": "data/campaign/rules.csv gaPZ_hegHub2 [text]"
+  },
+  {
+   "i": 21,
+   "en": "After several agonizing hours, the scan team returns to their shuttle.\r\n\r\n\"You're free to go, captain,\" says the Hegemony $personRank. The comm link closes with a brief flash of the crest of the Hegemony Navy and not so much as a thank-you.",
+   "ctx": "data/campaign/rules.csv gaPZ_hegHub2a [text]"
+  },
+  {
+   "i": 22,
+   "en": "It takes a full three seconds for your denial to register a response on the Hegemony $personRank's face. This comes in the form of a slight turn of the head, and a slight furrow of the brow.\r\n\r\n\"Note in the official log,\" $heOrShe says, \"that Captain $playerName has refused our order to undergo a standard safety scan as per the Interstellar Transit Accords of cycle 81.\"\r\n\r\n$PersonRank $personName then says \"You are free to go,\" and the comm link closes with a brief flash of the crest of the Hegemony Navy.",
+   "ctx": "data/campaign/rules.csv gaPZ_hegHub3 [text]"
+  },
+  {
+   "i": 23,
+   "en": "You give the order for the $zigguratShipName to shift into phase-space, dumping passive flux into extra dimensions via whatever strange principle the Mote Inducers influence. Such a maneuver is only possible outside of combat as it requires most systems, including life support, to be operated at only the barely survivable minimum.",
+   "ctx": "data/campaign/rules.csv gaPZ_hegHubVanish [text]"
+  },
+  {
+   "i": 24,
+   "en": "A look of irritation and distress crosses the Hegemony $personRank's face.\r\n\r\n\"This is not a game, Captain $playerName. I want you to order that ship out of phase so that we may proceed with the scan. Immediately!\"\r\n\r\n$HeOrShe takes a deep breath, and says in a lower voice, \"We can wait you out. A ship can't stay phased for more than a few minutes.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_hegHubVanish1 [text]"
+  },
+  {
+   "i": 25,
+   "en": "The Hegemony $personRank is both right and wrong. The Ziggurat-class cannot remain in phase space like this forever. But it can last a while, far longer than most phase-hulls. And you know that the Hegemony $personRank has no idea of the extent of its capabilities.\r\n\r\nAfter nearly an hour, the Hegemony $personRank re-opens the comm channel.",
+   "ctx": "data/campaign/rules.csv gaPZ_hegHubVanish2 [text]"
+  },
+  {
+   "i": 26,
+   "en": "$HeOrShe looks agitated, \"You, you cannot simply disappear and expect the Hegemony to go away, Captain $playerName. I know the ship is still out there,\" a worried twitch of $hisOrHer eyes upward tells you $heOrShe probably has no idea where the ship is. \"We will be watching you. Very closely.\"\r\n\r\nThe comm link closes with a brief flash of the crest of the Hegemony Navy.",
+   "ctx": "data/campaign/rules.csv gaPZ_hegHubVanish3 [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"Good shift, captain,\" the Tri-Tachyon $rank says crisply. \"You possess property belonging to the Tri-Tachyon Corporation and I have come to recover it. Surrender the Ziggurat-class TTS Xenorphica to me at once.\"\r\n\r\n$HeOrShe locks you with an unblinking gaze, awaiting your response.",
+   "ctx": "data/campaign/rules.csv gaPZTriTachEncounterStandard [text]"
+  }
+ ]
+}

@@ -1,0 +1,231 @@
+{
+ "chunk": 239,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"My apologies, captain. I have specific orders not to interfere with your activities, and,\" $heOrShe double-checks a datapad, \"It seems I am to, um, render assistance insofar as it does not compromise my mission.\"\r\n\r\n\"Ah, there was one more thing,\" the merc rubs $hisOrHer brow. \"Oh yes. You should visit the Ragnar Complex, in the Valhalla system. Great opportunities for someone like... you.\" $HeOrShe pauses, eyes fixed and unblinking to ensure that you got the message.\r\n\r\nThat accomplished, $heOrShe transitions to a thin smile, as if this business was concluded to everyone's satisfaction. \"Bright burns,\" $heOrShe says.",
+   "ctx": "data/campaign/rules.csv sdtuMercGreetingGotDebrisHeg2b [text]"
+  },
+  {
+   "i": 2,
+   "en": "As you begin to speak, the link has already been terminated.",
+   "ctx": "data/campaign/rules.csv sdtuMercSeeRao [text]"
+  },
+  {
+   "i": 3,
+   "en": "He wastes no time with greetings or posturing.\r\n\r\n\"I would not be so naive to ask you to delete your copy of this data,\" Macario says with inhuman calm. \"I'm sure your people are quite capable of creating a thorough charade of compliance.\"",
+   "ctx": "data/campaign/rules.csv sdtuMacarioNewsEnd [text]"
+  },
+  {
+   "i": 4,
+   "en": "Macario stares unblinking. \"Have I so underestimated you?\"",
+   "ctx": "data/campaign/rules.csv sdtuNewsEndWhat [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"Andrada, of course.\" Macario simply raises an eyebrow, \"I thought that was obvious.\"",
+   "ctx": "data/campaign/rules.csv sdtuNewsEndWho [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"On so few the future hangs, captain,\" Macario says hollowly, unblinking.",
+   "ctx": "data/campaign/rules.csv sdtuNewsEndHeirs [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Tragic,\" Macario says automatically. \"Isn't it.\"",
+   "ctx": "data/campaign/rules.csv sdtuNewsEndOnlySix [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"You wound me with the accusation, captain,\" Macario says with a hint of cold amusement.",
+   "ctx": "data/campaign/rules.csv sdtuNewsEndYourDoing [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"Naturally,\" Macario says, taking a moment to tap at a datapad.",
+   "ctx": "data/campaign/rules.csv sdtuNewsEndSale [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"There will come a time soon when decisions must be made, dear captain,\" he takes a moment to tap at a datapad.\r\n\r\n\"I trust you have gained some appreciation for my... generous leadership style.\"",
+   "ctx": "data/campaign/rules.csv sdtuNewsEndOptions [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"Did I?\" He chuckles. \"Mercenary to the end eh? I'll have arrangements made.\"\r\n\r\n\"I am so pleased that you value what I can provide. This will be important, and soon.\"",
+   "ctx": "data/campaign/rules.csv sdtuNewsEndHull [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"Power, of course. I'm just like you.\"\r\n\r\n He slowly rubs his hands together, watching.\r\n\r\n\"Don't bother denying it.\"",
+   "ctx": "data/campaign/rules.csv sdtuNewsEndLoyal [text]"
+  },
+  {
+   "i": 13,
+   "en": "His eyes open wide, \"Don't you see it, captain? I have no need to emblazon my face upon history! Merely... \" he grows quiet, \"Mm, to direct it. Correct it. Trim the loose ends which hold us back, tie us down.\"\r\n\r\n\"That is all captain,\" he says, re-asserting a mask of calm. \"For now. I'm sure we shall speak again soon.\"\r\n\r\nThe comms cut to the crest of the Sindrian Diktat internal security ministry.",
+   "ctx": "data/campaign/rules.csv sdtuReturnNewsEnd [text]"
+  },
+  {
+   "i": 14,
+   "en": "The old man looks like a hermit who's been living out in the wastes for countless cycles. His robes are dusty, his skin creased and tanned.\r\n\r\nHe smiles mysteriously as you approach, and you can see he is accompanied by a mop-haired kid, a youth of not yet 20 cycles.\r\n\r\n\"I have a feeling that you're not the captain we're looking for,\" he says amiably. \"Your $shipOrFleet is far too large. We seek simple transport, not a warfleet.\"\r\n\r\nWith that, he puts his hands together and gives a nod, almost a bow.",
+   "ctx": "data/campaign/rules.csv anhCantinaAskStartCap [text]"
+  },
+  {
+   "i": 15,
+   "en": "The old man looks like a hermit who's been living out in the wastes for countless cycles. His robes are dusty, his skin creased and tanned.\r\n\r\nHe smiles mysteriously as you approach, and speaks both to you and the mop-haired kid, more a youth of not yet 20 cycles.\r\n\r\n\"I have a good feeling about this one.\"",
+   "ctx": "data/campaign/rules.csv anhCantinaAskStart [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"You are quite correct, captain,\" the old man says. \"You shall be paid 10,000 credits upon arrival in Volturn, in the Askonia system. It is as you say: we should like to avoid any patrols or inspections.\"",
+   "ctx": "data/campaign/rules.csv anhCantinaTransport [text]"
+  },
+  {
+   "i": 17,
+   "en": "The youth starts to speak, \"Because he's a- \" and the old man lifts a finger in warning, shutting the kid up.\r\n\r\n\"Just some old history that most people have forgotten by now. It is best that you not ask, I think.\"",
+   "ctx": "data/campaign/rules.csv anhCantinaAuthorities [text]"
+  },
+  {
+   "i": 18,
+   "en": "The old man makes a show of exchanging a glance with the kid, who looks worried. \"I don't think we look like terrorists, do you?\"",
+   "ctx": "data/campaign/rules.csv anhCantinaKnowMore [text]"
+  },
+  {
+   "i": 19,
+   "en": "The old man's smile returns, like he expected you to say this.",
+   "ctx": "data/campaign/rules.csv anhCantinaDontLookTerrorists [text]"
+  },
+  {
+   "i": 20,
+   "en": "The old man nods like he expected this. The kid looks offended, \"We could buy an old ship for that much! I bet I could get it working in no time, then we just-\" the old man raises a hand to quiet him.\r\n\r\n\"I can offer you 17,000 credits upon arrival,\" he says calmly, \"and no more.\"\r\n\r\nThe kid crosses his arms and sulks.",
+   "ctx": "data/campaign/rules.csv anhCantinaChargeMore [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"They led you to me, did they not?\" he says, as if it means anything.\r\n\r\nThe kid gets a look of awe, eating this line up like ancient wisdom.",
+   "ctx": "data/campaign/rules.csv anhCantinaFeelings [text]"
+  },
+  {
+   "i": 22,
+   "en": "The old man says nothing, the hint of a smile on his lips. The kid looks back and forth between you and the old man, waiting to see what will happen next.",
+   "ctx": "data/campaign/rules.csv anhCantinaFeelings2 [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"You don't need to worry about our little friend here,\" the old man says.",
+   "ctx": "data/campaign/rules.csv anhCantinaRobot [text]"
+  },
+  {
+   "i": 24,
+   "en": "The old man nods, satisfied.",
+   "ctx": "data/campaign/rules.csv anhCantinaRobot1 [text]"
+  },
+  {
+   "i": 25,
+   "en": "The kid finds his tongue. \"Of course it's safe! We bought it from some scavengers and then I took it apart and put it back together myself.\" \r\n\r\nIt sounds like he's been holding back an outburst this whole time.\r\n\r\n\"I can fix anything!\" he adds.",
+   "ctx": "data/campaign/rules.csv anhCantinaRobot2 [text]"
+  },
+  {
+   "i": 26,
+   "en": "This sets the kid off. \r\n\r\n\"I'm not just some dune-farmer,\" the youth says, raising his voice, \"I'm a great pilot just like-\" the old man reaches out and touches him on the shoulder. The kid takes the hint.\r\n\r\n\"What my young friend means to say is that we have another task in mind.\"",
+   "ctx": "data/campaign/rules.csv anhCantinaRobot3 [text]"
+  },
+  {
+   "i": 27,
+   "en": "The youth is taken aback by this respect granted to him by a space captain. He looks like he's actually thinking about it. \"I can't, I mean thank you, but I'm a great pilot just like-\" the old man reaches out, holding him back. \r\n\r\n\"What my young friend means to say is that his destiny lies elsewhere.\"\r\n",
+   "ctx": "data/campaign/rules.csv anhCantinaRobot4 [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"A simple run to Volturn. You'll be paid and then you can forget all about us,\" the old man says, his mysterious smile returning.",
+   "ctx": "data/campaign/rules.csv anhCantinaRobot5 [text]"
+  },
+  {
+   "i": 29,
+   "en": "The anger and disappointment on the kid's face is palpable. The old man puts a hand on his shoulder, with just a small motion diverting the rush of youthful emotion.\r\n\r\nAs you step away, you overhear the old man speaking softly, \"There is another...\"",
+   "ctx": "data/campaign/rules.csv anhCantinaDeny [text]"
+  },
+  {
+   "i": 30,
+   "en": "You make arrangements for the old man, the youth, and their robot to be shuttled to your $shipOrFleet.\r\n\r\nThey don't seem especially dangerous. Surely no one in the Hegemony or Sindrian Diktat is putting much effort into tracking their movements.",
+   "ctx": "data/campaign/rules.csv anhCantinaAccept [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"Captain,\" the Sindrian Diktat officers says in a level tone, \"We have reason to believe that you carry a terrorist known to the Sindrian Security Directorate.\"\r\n\r\n$HeOrShe barely lifts a finger, and a supplementary data package is transmitted to you. Your comms officer attaches the contents to a secondary display: it's the old man from Asharu. Much younger in this looping holo, wearing the military uniform of some minor polity instead of robes.\r\n\r\n\"It would expedite my investigation if this individual found his way to my flagship.\" $HeOrShe smiles the coldest, smallest smile in the Sector.",
+   "ctx": "data/campaign/rules.csv anhDiktatPatrolGreeting [text]"
+  },
+  {
+   "i": 32,
+   "en": "The Diktat officer gives the barest nod. Your comms officer takes this as a cue to freeze the transmission.",
+   "ctx": "data/campaign/rules.csv anhDiktatPatrolStall [text]"
+  },
+  {
+   "i": 33,
+   "en": "In a briefing room, the old man watches the holo of his younger self with a wistful smile. The kid is there, looking terrified. Their robot beeps and performs some kind of idling cycle.",
+   "ctx": "data/campaign/rules.csv anhDiktatPatrolStall2 [text]"
+  },
+  {
+   "i": 34,
+   "en": "Unfortunately the kid speaks up. \"Wow, is that you? I knew it! You were part of-\" The old man holds up a hand to stop the outburst. He closes his eyes.",
+   "ctx": "data/campaign/rules.csv anhDiktatPatrolStall30 [text]"
+  },
+  {
+   "i": 35,
+   "en": "\"Now there's a man I have not seen in a long, long time,\" he says quietly. \"By now, even I was starting to think he might be dead.\"\r\n\r\nHe looks to you now, a glimmer of that younger self appearing in his face. \"Give me over to them, captain. The boy must go to Volturn without me. He will be safe if they have me.\"\r\n\r\nThe kid is aghast. \"No!\" he shouts, \"They'll kill you!\"",
+   "ctx": "data/campaign/rules.csv anhDiktatPatrolStall3 [text]"
+  },
+  {
+   "i": 36,
+   "en": "The old man looks more tired than surprised. \r\n\r\nThe kid shouts, \"Great! You can fight 'em off with your $shipOrFleet! I can help at the gunnery station, I'm a great shot. I promise I'll be careful and-\"\r\n\r\nYou and the old man exchange a look. \"Come, young one,\" the old man says, taking the youth by the shoulder. \"We must let the good captain get to work.\"",
+   "ctx": "data/campaign/rules.csv anhDiktatPatrolStall3No [text]"
+  },
+  {
+   "i": 37,
+   "en": "\"What!?\" the kid shouts, \"You can't do that. You have to fight! You have a $shipOrFleet! You're just going to let those Diktat goons order you around?\" He lunges at you, and is bodily intercepted by the arm of one of your guards. After a yelp and a moment of struggle, the kid folds to an electrostun rod.\r\n\r\nThe old man does not give the commotion even a glance. Instead, his eyes are steady on yours. Looking deeply for something.\r\n\r\n\"He has so much to learn, $playerName.\" He looks thoughtful, \"Fate may surprise us yet.\"",
+   "ctx": "data/campaign/rules.csv anhDiktatPatrolStall3Yes [text]"
+  },
+  {
+   "i": 38,
+   "en": "\"What!?\" the kid shouts, \"You can't do that! You're just-\" he lunges at you, and is bodily intercepted by the arm of one of your guards. After a yelp and a moment of struggle, the kid folds to an electrostun rod.\r\n\r\nThe old man does not give the commotion even a glance. Instead, his eyes are steady on yours. Looking deeply for something.\r\n\r\n\"So this is how you choose, $playerName.\" He looks thoughtful, \"Fate may surprise us yet.\"",
+   "ctx": "data/campaign/rules.csv anhDiktatPatrolStall3All [text]"
+  },
+  {
+   "i": 39,
+   "en": "The Diktat officer looks less patient now, the polite smile barely a memory. \r\n\r\n\"Captain,\" $heOrShe says in full knowledge of your lies, and knowing you know $heOrShe knows, \"I trust you've thoroughly reviewed your passenger manifest.\"",
+   "ctx": "data/campaign/rules.csv anhDiktatPatrolGreetingAgain [text]"
+  },
+  {
+   "i": 40,
+   "en": "The smile disappears, like it barely existed. \r\n\r\n\"I see.\"\r\n\r\nThe Diktat officer turns away, motioning to $hisOrHer bridge crew, \"In the name of the Supreme Executor I order you to power down your systems and prepare to be boarded,\" then looks back over $hisOrHer shoulder, and adds \"Our search will be... thorough.\"",
+   "ctx": "data/campaign/rules.csv anhDiktatPatrolRights [text]"
+  },
+  {
+   "i": 41,
+   "en": "The Diktat troopers sent to search your fleet seem more interested in bullying your crew and breaking delicate machinery than performing a legitimate search.\r\n\r\nYour passengers are easily hidden, but you can tell by the expression on your engineering chief's face that serious damage has been done.",
+   "ctx": "data/campaign/rules.csv anhDiktatPatrolSearch [text]"
+  },
+  {
+   "i": 42,
+   "en": "\"All glory to the Lion of Sindria,\" $personRank $personLastName with a final smirk before severing the comm-link.",
+   "ctx": "data/campaign/rules.csv anhDiktatPatrolSearch2 [text]"
+  },
+  {
+   "i": 43,
+   "en": "\"Then,\" $heOrShe seems to find pleasure in $hisOrHer words for the first time, \"You are resisting a lawful search performed under the authority of the Supreme Executor. A hostile act of terrorism against our dear Sindrian Diktat.\"",
+   "ctx": "data/campaign/rules.csv anhDiktatPatrolNope [text]"
+  },
+  {
+   "i": 44,
+   "en": "\"Transporting sand farmers,\" the Diktat officer repeats, \"For charity.\"\r\n\r\nMore than a hint of disbelief slips out at the final word.",
+   "ctx": "data/campaign/rules.csv anhDiktatPatrolBluff [text]"
+  },
+  {
+   "i": 45,
+   "en": "Then anger cracks across $hisOrHer face, \"That is the most preposterous lie I've ever-\" \r\n\r\nA ping from the other bridge comes across the comms, interrupting the beginning of $hisOrHer tirade. The Diktat officer gives you a killing look then exchanges quiet words with some underlings; your comms officer gives you a tentative nod.",
+   "ctx": "data/campaign/rules.csv anhDiktatPatrolBluff1 [text]"
+  }
+ ]
+}

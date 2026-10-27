@@ -1,0 +1,166 @@
+{
+ "chunk": 130,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "One set of hangar bay doors dutifully open, and your shuttle descends through the glowing atmo-field. Such gadgetry is an ostentatious addition to a personal residence, but it avoids the bother of visitors (and their shuttles) having to undergo pressure-cycling.\r\n\r\nAn enthusiastic Menes is already approaching your shuttle's access ramp as it sets itself down and signals the all-clear.\r\n\r\nHorus Yaribay puts out his hand in a 'you first' gesture.",
+   "ctx": "data/campaign/rules.csv BFFIapHorus2 [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"Captain $playerName - with your Knight of Ludd! Let me welcome you both to my humble...\"\r\n\r\nAs Menes sees Horus step off the shuttle his face contorts through a fascinating sequence of expressions before settling into an alarmed rictus of welcome.\r\n\r\n\"C-cousin Horus. What an unexpected surprise!\"\r\n\r\nMenes' eyes, watery with a minor aspect of terror, dart to yours then away before the accusation fully solidifies.",
+   "ctx": "data/campaign/rules.csv BFFIapHorus3 [text]"
+  },
+  {
+   "i": 3,
+   "en": "Horus' smile in return is cool as he steps forward to the offered hands with only one of his own. \"Menes. Where has the last cycle gone? It feels as though your inaugural flight to Olinadu was just yesterday.\"\r\n\r\nMenes manages to respond with an obliging laugh.\r\n\r\nBornanew, quite forgotten, follows you and the Yaribays.",
+   "ctx": "data/campaign/rules.csv BFFIapHorus4 [text]"
+  },
+  {
+   "i": 4,
+   "en": "Menes leads your party past gilded statues guarding the portal to the main complex; the forms are evocative of splashes of molten gold frozen by happenstance into sensual humanoid figures.\r\n\r\nYou watch as Horus, lean and intense as some small predator, endures the patter from Menes, a man of more generous form and character. Menes plays down the 'frontier quality' of renovations, the poor selection of artworks, the difficulty of accessing the best artists and engineering firms to contribute to his home in 'all but exile'.\r\n\r\nOccasionally a robotic or human servitor appears to offer drinks or nibbles, and you've a growing feeling that Menes has picked up a glass from one only to place it back on the tray of another without ever taking a sip.\r\n\r\nA fresh glass in hand, Menes tentatively leads Horus into what can only be his prize entertaining space.",
+   "ctx": "data/campaign/rules.csv BFFIapHorus5 [text]"
+  },
+  {
+   "i": 5,
+   "en": "The space is at once cavernous and intimate; the sightlines and carved, wrought, or woven details calculated to replicate a feeling of cozy warmth like the den of some thoughtful patron of art, history, and literature.\r\n\r\nA double handful of well-dressed remoras mill about, interrupting their conversations to turn as Menes enters. They look to be a collection of industrialists, financiers, distant gens-relatives, and at least one officer from atop the local military detachment who appears a little worse for his drink.",
+   "ctx": "data/campaign/rules.csv BFFIapHorus6 [text]"
+  },
+  {
+   "i": 6,
+   "en": "Most start to give a politic nod and wave of acknowledgement at Menes' entrance, but stop and stare as they recognize Horus at his side. Few eyes linger on you and Bornanew, who steps apart as though he were a mere assistant or servitor.\r\n\r\nOne skinny man in a finely embroidered suit is not put off by Horus' entrance, and rushes to greet your party, eyes agog mostly at the gens patriarch, but sparing a glance at least for the newest additions to Menes' collection.",
+   "ctx": "data/campaign/rules.csv BFFIapHorus7 [text]"
+  },
+  {
+   "i": 7,
+   "en": "He nearly trips over himself to speak. \"The great Horus Yaribay! Your reputation precedes you, if half of what-\"\r\n\r\nHorus holds up a hand, silencing the man, and turns aside. \"Menes, what is this?\"\r\n\r\n\"Ha- ha, ah, this is Ulmus Pond,\" Menes replies quickly, his drinkless off-hand waving to shoo Pond away. \"Ulmus, not now. Perhaps see that Captain $playerLastName's Luddic friend here has a fresh drink? Thank-you.\"\r\n\r\n\"Now, cousin Horus, I must offer a thousand apologies.\" Menes himself turns, also cutting Pond out of the conversation. \"Had you signalled ahead we could have arranged for a proper reception...\"",
+   "ctx": "data/campaign/rules.csv BFFIapHorus8 [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"Never mind that,\" Horus says, looking around with a displeased curl to his lip. His gaze slips over Pond like he's nothing.\r\n\r\nUlmus Pond, for his part, hides the evil look that crossed his face in that moment to slink after Bornanew.",
+   "ctx": "data/campaign/rules.csv BFFIapHorus9 [text]"
+  },
+  {
+   "i": 9,
+   "en": "Horus snaps his fingers, summoning a tray, and selects something effervescent. He takes a slow sip, not allowing his expression to display any sort of pleasure in the act. It seems to him more like a necessary palate-cleanser.\r\n\r\n\"Show it to me,\" he says to Menes. An order.",
+   "ctx": "data/campaign/rules.csv BFFIapHorus9b [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"Captain $playerLastName shall attend,\" Horus adds quietly. \"So that we might fully resolve this matter.\"\r\n\r\n\"Of course, cousin, of course!\" Menes, sweating, puts on a fragile grin in order to distribute reassuring nods to his extended entourage.\r\n\r\nMenes leads you and Horus into his inner sanctum, flashing a grimace as he operates a series of obtrusive and, to your eyes, largely ornamental biometric checks.",
+   "ctx": "data/campaign/rules.csv BFFIapHorus10 [text]"
+  },
+  {
+   "i": 11,
+   "en": "The air cools by a degree, perhaps two, the armored mass of the walls felt as a dullness through your feet. The subdued lighting, drapery, and framing of the space suggest the interior of a bank vault or a shrine, though not to the praise of any Luddic virtue.\r\n\r\nQuite the contrary, depending on one's outlook.",
+   "ctx": "data/campaign/rules.csv BFFIapHorus11 [text]"
+  },
+  {
+   "i": 12,
+   "en": "On a pedestal of carved wood, in a spot of light like holy revelation, a single glove is upthrust. Its fingers appear frozen in the midst of beginning to curl back toward a relaxed state after giving you a little wave.\r\n\r\nAfter an appropriate pause, Menes speaks up, hopeful. \"What do you think, cousin?\"",
+   "ctx": "data/campaign/rules.csv BFFIapHorus12 [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"What's this supposed to be,\" says Horus, deadpan.\r\n\r\nMenes clears his throat, then begins in a low, dramatic voice, \"The glove worn by Ludd when stepping upon the sacred Earth of Gilead. Ludd removed the glove and kissed the ground, according to the Luddic's religion.\"",
+   "ctx": "data/campaign/rules.csv BFFIapHorus13 [text]"
+  },
+  {
+   "i": 14,
+   "en": "Menes looks shocked.\r\n\r\nHorus gives you a look of his own. \"Of course it is,\" he says. \"And here I thought only a Luddie would be foolish enough to believe in this sort of thing.\"\r\n\r\n\"Cousin!\" Menes exclaims, appalled.\r\n\r\n\"Do not 'cousin' me!\" Horus shouts, now, after an icy restraint held for so long.\r\n\r\n\"Remember how I saved you last time? The promises you made? And here, you've wasted stars-know how many credits on more nonsense, a bomb waiting to explode under the gens!\"",
+   "ctx": "data/campaign/rules.csv BFFIapHorus14 [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"What would Reynard Hannan do if he knew what you were up to here, do you think?\"\r\n\r\nMenes shakes his head, speechless.\r\n\r\n\"He would loose the Church on us! And their bloody-minded Pathers! Think, think for once, 'cousin'.\" Horus spits the word poisonously. \"Think of anyone in the Sector aside from yourself. Think of your gens!\"\r\n\r\n\"The Chu- Path?\" Menes sputters pathetically. \"If Captain $playerLastName said it's a fake, it shouldn't be-\"\r\n\r\n\"Oh, so now it's a fake?\" Horus cuts him off. \"Enough! Here is what will happen.\"",
+   "ctx": "data/campaign/rules.csv BFFIapHorus15 [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"Captain $playerLastName and $playerHisOrHer pet Knight of Ludd shall take possession of the damnable trinket. Immediately. As a sign of good faith to our Luddic 'friends' in the Church of Galactic Redemption.\"\r\n\r\nHe gives you a look, \"See that they appreciate what I've done for them.\"\r\n\r\nBack to Menes. \"From now on I am taking personal control of your accounts. No frivolities without approval from my office.\"\r\n\r\nMenes begins to make a sound of objection but is cut off as Horus raises a single finger. A Reaper torpedo, armed and ready to launch into the unshielded breach.\r\n\r\n\"You and I,\" Horus says, \"Shall continue our conversation in private.\" He doesn't turn to you again. \"Captain, if you would kindly?\"",
+   "ctx": "data/campaign/rules.csv BFFIapHorus16 [text]"
+  },
+  {
+   "i": 17,
+   "en": "Despite knowing what it is - or, rather, isn't - it feels almost like sacrilege to simply reach over to touch this object of such presumed expense and such evident disgrace. A vessel assigned such power and import, faith and violence, despite its reified deceit.\r\n\r\nIt is the glowing prize at the center of this temple, this shrine to the ego of Menes Yaribay bought with the lucre of the Kazeronian empire, fueled by faith and blood from over two hundred cycles since someone who took the name Ludd did something, probably, half-remembered then gilded in glorious myth on a planet named Gilead.",
+   "ctx": "data/campaign/rules.csv BFFIapHorus17 [text]"
+  },
+  {
+   "i": 18,
+   "en": "The quiet of the air circulation looms. Horus clears his throat.",
+   "ctx": "data/campaign/rules.csv BFFIapHorus18 [text]"
+  },
+  {
+   "i": 19,
+   "en": "As you touch it, a piercing alarm shatters the stillness of the treasury. Menes' hand slaps his other wrist with surprising speed. He raises it to his mouth to mumble a stand-down order to his security.\r\n\r\nThe alarm stops, leaving a painful echo in your ears.",
+   "ctx": "data/campaign/rules.csv BFFIapHorus19 [text]"
+  },
+  {
+   "i": 20,
+   "en": "The cousins of Gens Yaribay watch you leave.\r\n\r\nHorus' eyes are black. Menes's are red with betrayal.",
+   "ctx": "data/campaign/rules.csv BFFIapHorus20a [text]"
+  },
+  {
+   "i": 21,
+   "en": "The cousins of Gens Yaribay watch you leave.\r\n\r\nHorus' eyes are cool, unblinking. Menes' are red with betrayal.",
+   "ctx": "data/campaign/rules.csv BFFIapHorus20b [text]"
+  },
+  {
+   "i": 22,
+   "en": "Everyone turns and the conversation goes silent as you return to the main room. Alone.\r\n\r\nYou spot Bornanew, cornered by the man Ulmus Pond whose voice rings out for two words over-loudly as he realizes the fact of your entrance a moment later than the others.\r\n\r\nHis eyes are huge and bulging, like a fish.",
+   "ctx": "data/campaign/rules.csv BFFIapHorus21a [text]"
+  },
+  {
+   "i": 23,
+   "en": "Everyone turns to stare at you as the conversation goes silent the instant you return to the main room. Alone.\r\n\r\nYou spot Bornanew, cornered by the man Ulmus Pond whose voice rings out for two words over-loudly because he realized the fact of your entrance a moment later than everyone else. His eyes are huge and bulging, like a fish.\r\n\r\nThey seem to widen even more as Pond sees that you are simply holding Menes' prize relic. Bornanew, even, struggles to maintain his composure as he realizes what you have in your hands.",
+   "ctx": "data/campaign/rules.csv BFFIapHorus21b [text]"
+  },
+  {
+   "i": 24,
+   "en": "Pond gapes, enhancing the piscine effect.\r\n\r\nBornanew places an untouched drink of something fizzy and golden into Pond's hand, then walks with you back toward the shuttle bay.\r\n\r\n\"I presume you have... it?\" he asks quietly, eyes forward.",
+   "ctx": "data/campaign/rules.csv BFFIapHorus22 [text]"
+  },
+  {
+   "i": 25,
+   "en": "Pond gapes at you, furthering the piscine effect.\r\n\r\nBornanew places an untouched drink of something fizzy and golden into Pond's hand, then walks with you back to the shuttle bay.\r\n\r\n\"I think, perhaps,\" he says quietly, eyes forward, \"that you should have put the glove somewhere out of sight.\"",
+   "ctx": "data/campaign/rules.csv BFFIapHorus22b [text]"
+  },
+  {
+   "i": 26,
+   "en": "He accepts the glove, a little surprised, quickly placing it within some hidden pocket of his robes.",
+   "ctx": "data/campaign/rules.csv BFFIapHorus23a [text]"
+  },
+  {
+   "i": 27,
+   "en": "He simply nods, placing his hands together. He doesn't do anything more, but you swear he's praying.",
+   "ctx": "data/campaign/rules.csv BFFIapHorus23b [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"I did,\" he says ruefully.",
+   "ctx": "data/campaign/rules.csv BFFIapHorus23c [text]"
+  },
+  {
+   "i": 29,
+   "en": "He accepts the glove, taking only a split second to suppress his look of shock. Bornanew quickly disappears the glove to some hidden pocket of his robes.\r\n\r\n\"I think, perhaps,\" he says in a whisper, \"that should have remained hidden.\"",
+   "ctx": "data/campaign/rules.csv BFFIapHorus23e [text]"
+  },
+  {
+   "i": 30,
+   "en": "Bornanew spares you a single rueful look.",
+   "ctx": "data/campaign/rules.csv BFFIapHorus23g [text]"
+  },
+  {
+   "i": 31,
+   "en": "On a pedestal of carved wood, in a spot of light like holy revelation, a single glove is upthrust. Its fingers appear frozen in the midst of just starting to curl back toward a relaxed state after giving you a little wave.",
+   "ctx": "data/campaign/rules.csv BFFImpRaidStart [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"Not any glove,\" Menes says with more than a hint of vexation.\r\n\r\nHe begins again in a reverent whisper, \"The glove worn by Ludd upon stepping upon the sacred Earth of Gilead. Ludd removed the glove and kissed the ground, according to the Luddic religion. Isn't that right, sir Knight? And this... is it.\"\r\n\r\nBornanew looks at you, his eyebrows rising. \"Could it be?\" he asks, allowing some melodrama to enter his voice.",
+   "ctx": "data/campaign/rules.csv BFFImpRaid1 [text]"
+  }
+ ]
+}

@@ -1,0 +1,251 @@
+{
+ "chunk": 202,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "A woman in the uniform of a Hegemony commander appears, already looking at Sang with suspicion.\r\n \r\n\"Lieutenant Sang, was it?\" Without shifting her focus she tosses a cocktail napkin at him. \"I see you've been welcoming a new arrival to my family's celebration.\"\r\n\r\nAs Sang fails to catch the napkin you can almost see his bully's instincts grappling with the new social dynamic in play.\r\n\r\nShe nods politely to you. \"Commander Neriene Rao. And if I recall correctly, you are Captain $playerName?\"",
+   "ctx": "data/campaign/rules.csv soeIntroNeriene1drink [text]"
+  },
+  {
+   "i": 2,
+   "en": "A woman in the uniform of a Hegemony commander appears, taking the center of attention, and speaks with a voice lifted to the crowd of onlookers.\r\n\r\n\"Lieutenant Sang, was it? I see you've been welcoming a new arrival to my family's celebration with your usual charm.\"\r\n\r\nA polite wave of laughter from the onlookers breaks the tension. They start to turn back to their conversations. You can see Caspian's face turning red as his bully's instincts grapple with the new social dynamic.\r\n\r\nShe nods politely to you. \"Commander Neriene Rao. If I recall correctly, you are... captain $playerName?\"",
+   "ctx": "data/campaign/rules.csv soeIntroNeriene1punch [text]"
+  },
+  {
+   "i": 3,
+   "en": "A woman in the uniform of a Hegemony commander appears, already looking at Sang with suspicion.\r\n \r\n\"Lieutenant Sang, was it?\" she says, projecting her voice. \"I see you've been welcoming a new arrival to my family's celebration.\"\r\n\r\nYou can almost see his bully's instincts grappling with the new social dynamic in play.\r\n\r\nShe nods politely to you. \"Commander Neriene Rao. If I recall correctly, you are... captain $playerName?\"",
+   "ctx": "data/campaign/rules.csv soeIntroNeriene1 [text]"
+  },
+  {
+   "i": 4,
+   "en": "Neriene faces you, cutting Caspian out of the conversation.\r\n\r\nYou watch in your peripheral vision as he realizes what's been done. He scuttles back toward his minions. The joking is over. They look at you now with sneering hostility.",
+   "ctx": "data/campaign/rules.csv soeIntroNeriene2 [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"That boy,\" she says, \"is a weak-willed fool who believes that he must tear down others to build up himself.\" \r\n\r\nShe looks you over, \"And it would seem that he chose a poor target this time around. And even had he not, I expect someone would have to shoot down his little game before he made much more of a scene.\"\r\n\r\nShe sighs, \"There's the family name to think of, after all.\"",
+   "ctx": "data/campaign/rules.csv soeIntroNeriene3 [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"Caspian Sang is a fool and he deserved that,\" she says with a hint of smile. \"There are times I wish I'd done the same. But,\" Neriene looks around, \"There's the family name to think of.\"",
+   "ctx": "data/campaign/rules.csv soeIntroNeriene3drink [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Caspian Sang is a fool and he deserved that,\" she says with a frown, \"But striking an officer won't endear you to the others. It's also technically illegal, but if you follow my lead nothing should come of it. Sang is not the sort to endure well the shame of filing such a report.\"\r\n\r\n\"Besides,\" she says, looking around, \"It might offend the family.\"",
+   "ctx": "data/campaign/rules.csv soeIntroNeriene3punch [text]"
+  },
+  {
+   "i": 8,
+   "en": "She catches your eyes for a moment, then looks back toward the crowd. \"Because... I thought it might be interesting.\"\r\n\r\n\"Anyway, the family has a reputation for a rebellious streak and I'd be remiss not to uphold it.\"",
+   "ctx": "data/campaign/rules.csv soeNerieneAskWhyCover [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"Yes. Yes, we are. Absurd, isn't it?\" She looks a little sheepish, \"I mean, it's home. But this, this palace? In the face of everything going on out there?\"\r\n\r\nShe looks up, past the mirrorset illuminating the grand windows of the ballroom. \"We're supposed to be rebuilding the Domain, aren't we?\"\r\n\r\n\"Maybe we are,\" she adds darkly.",
+   "ctx": "data/campaign/rules.csv soeNerieneAskEstate [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"Oh yes, Granduncle Orcus.\" She smiles, revisiting some old memory.\r\n\r\n\"No one can believe he got away with everything he's gotten away with. But if, like him, you've got the dumb luck to walk out of disaster alive again and again - and better yet, you deliver victory in the darkest days of war - they'll let you get away with anything.\"\r\n\r\nShe considers a moment, then adds, \"Almost anything. It's gone to his head a bit though, I think.\"",
+   "ctx": "data/campaign/rules.csv soeNerieneAskOrcus [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"Look at them,\" she says. \"All these fancy people puffing each other up, all smiles and high ideals in public. Once they're behind closed doors, it'll be plotting and backstabbing and spreading rumors.\"\r\n\r\n\"I could never stand how two-faced it all is. Grandmother says to take it personally is childish, that it's just how politics is done.\" She twitches as if to cast off a bit of dirt.",
+   "ctx": "data/campaign/rules.csv soeNerieneNotExcited [text]"
+  },
+  {
+   "i": 12,
+   "en": "As Neriene begins to reply, you find the crowds in the ballroom withdrawing toward the sides of the room. During your exchange with Sang, you must have missed some announcement because the live band at the end of the great hall is beginning to play a waltz.\r\n\r\nDancers partner up from the edge of the floor. You catch a glimpse of Sang and his flunkies keeping an eye on you, still held off by the force of Neriene's presence.\r\n\r\nYou look at her for some kind of cue. She looks at you expectantly.",
+   "ctx": "data/campaign/rules.csv soeDanceStarting1b [text]"
+  },
+  {
+   "i": 13,
+   "en": "Neriene of House Rao nods and takes your hand. You find yourself pulled toward the center of the dance floor with the inevitability of a singularity's gravity well. ",
+   "ctx": "data/campaign/rules.csv soeDanceStarting2a [text]"
+  },
+  {
+   "i": 14,
+   "en": "Neriene of House Rao takes your hand and pulls you toward the center of the dance floor with the inevitability of a singularity's gravity well. ",
+   "ctx": "data/campaign/rules.csv soeDanceStarting2b [text]"
+  },
+  {
+   "i": 15,
+   "en": "Neriene of House Rao gives you a skeptical look. \"Are you at least willing to try?\"",
+   "ctx": "data/campaign/rules.csv soeDanceStarting2c [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"Then I'll show you,\" she says, taking your hand. You find yourself pulled toward the center of the dance floor with the inevitability of a singularity's gravity well. ",
+   "ctx": "data/campaign/rules.csv soeDanceStarting2cYes [text]"
+  },
+  {
+   "i": 17,
+   "en": "Neriene of House Rao gives you a skeptical look. \"There's one in your hand. But you're going to have to put it down if we're going to dance.\"\r\n\r\nShe snaps her fingers and instantly a servitor appears with a tray to take your drink.",
+   "ctx": "data/campaign/rules.csv soeDanceStarting2d [text]"
+  },
+  {
+   "i": 18,
+   "en": "She gives you a skeptical look. \"Are you feeling well, $playerSirOrMadam?\"",
+   "ctx": "data/campaign/rules.csv soeDanceStarting2g [text]"
+  },
+  {
+   "i": 19,
+   "en": "She gives you a skeptical look. \"Are you stalling, $playerSirOrMadam? This does not befit your reputation.\"",
+   "ctx": "data/campaign/rules.csv soeDanceStarting2e [text]"
+  },
+  {
+   "i": 20,
+   "en": "Her skeptical look takes a turn toward withering.",
+   "ctx": "data/campaign/rules.csv soeDanceStarting2f [text]"
+  },
+  {
+   "i": 21,
+   "en": "You turn and find your way toward the edge of the room, leaving a bemused Neriene of House Rao on the dance floor.",
+   "ctx": "data/campaign/rules.csv soeDanceEscape1 [text]"
+  },
+  {
+   "i": 22,
+   "en": "Jeers and laughter come from the direction of Sang's minions, but they're ignored easily enough as you turn your back on the ballroom.\r\n\r\nYou have no doubt that you'll be the butt of their jokes all night.\r\n\r\nA quick inquiry with one of the uniformed staff allows you access to a discreet servants' access lift and back to your shuttle's pad with a minimum of fuss.",
+   "ctx": "data/campaign/rules.csv soeDanceEscape2 [text]"
+  },
+  {
+   "i": 23,
+   "en": "The staff is efficient; your entourage is summoned without requiring your intervention, though they seem to have been interrupted in the middle of a meal, wiping hands and one guard popping an anti-inebriant.\r\n\r\nYour shuttle is prepped and ready to leave.",
+   "ctx": "data/campaign/rules.csv soeDanceEscape3 [text]"
+  },
+  {
+   "i": 24,
+   "en": "Your shuttle rejoins your $shipOrFleet above $entityName.",
+   "ctx": "data/campaign/rules.csv soeDanceEscapeEnd [text]"
+  },
+  {
+   "i": 25,
+   "en": "You are slow to follow at first, not being accustomed to ballroom dancing with the elite of Eventide, but Neriene is patient and accommodating, providing instructions on the local customs in a low voice. She is, you suspect, a commander able to embolden green crews toward good performance under pressure.",
+   "ctx": "data/campaign/rules.csv soeDanceRound1a [text]"
+  },
+  {
+   "i": 26,
+   "en": "She is quick to follow, though you suspect not accustomed to that role. Nor is ballroom dancing with the Hegemony elite of Eventide much in your wheelhouse, but Neriene provides a few suggestions pursuant to the local customs in a low voice. She is, you suspect, a commander able to embolden green crews toward good performance under pressure.",
+   "ctx": "data/campaign/rules.csv soeDanceRound1b [text]"
+  },
+  {
+   "i": 27,
+   "en": "Before long, you find yourselves caught up in the rhythm of the movements and for a short moment you manage to forget about petty bullies and factional politics.",
+   "ctx": "data/campaign/rules.csv soeDanceRound2 [text]"
+  },
+  {
+   "i": 28,
+   "en": "The next song begins, and inertia takes you.\r\n\r\n\"So,\" says Neriene over your shoulder. \"You know who I am, why I'm here.\" A step, a turn.\r\n\r\n\"Why are you here, captain? I know it's not for Caspian Sang.\"",
+   "ctx": "data/campaign/rules.csv soeDanceRound3 [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"Then I must apologize for disappointing you,\" she says with a wry smile.",
+   "ctx": "data/campaign/rules.csv soeDanceRound3important [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"Good,\" she says with a smile, \"Because I'm finally starting to enjoy myself.\"",
+   "ctx": "data/campaign/rules.csv soeDanceRound3party [text]"
+  },
+  {
+   "i": 31,
+   "en": "She frowns, \"Though I agree with the sentiment, it's not him you need to worry about.\"",
+   "ctx": "data/campaign/rules.csv soeDanceRound3sang [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"Then it's fate,\" she says with a wry smile, \"Somehow I didn't take you for a romantic.\"",
+   "ctx": "data/campaign/rules.csv soeDanceRound3felt [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"A barefaced lie,\" she says with a smile, \"But it's a nice thought.\"",
+   "ctx": "data/campaign/rules.csv soeDanceRound3you [text]"
+  },
+  {
+   "i": 34,
+   "en": "You see Neriene's eyes focus on something behind you, and her expression goes hard as she pulls away from you.",
+   "ctx": "data/campaign/rules.csv soeDanceRound4 [text]"
+  },
+  {
+   "i": 35,
+   "en": "\"Oh $playerName!\"\r\n\r\nYou know that nasal tone all too well, now, and slowly turn to see Caspian Sang and his entourage behind a thick-necked lieutenant.",
+   "ctx": "data/campaign/rules.csv soeDanceRound5 [text]"
+  },
+  {
+   "i": 36,
+   "en": "The new lieutenant ignores Sang entirely. \"Neriene,\" he says. \"What's this then, slumming with frontier trash?\"\r\n\r\n\"Magnus Cardona,\" she whispers to you, \"A real piece of-\"",
+   "ctx": "data/campaign/rules.csv soeDanceRound6 [text]"
+  },
+  {
+   "i": 37,
+   "en": "Sang calls out, \"Let the auxiliary-captain speak!\"\r\n\r\nCardona shoots Sang a look that shuts him up, then turns his dead-eyed stare to you. \"I'm to understand that this frontier barbarian impugned the honor of a Hegemony officer tonight.\"\r\n\r\nThe dance has stopped, the band finally having got the hint. All eyes are on you.",
+   "ctx": "data/campaign/rules.csv soeDuelIntro1a [text]"
+  },
+  {
+   "i": 38,
+   "en": "Cardona calls out, \"I'm to understand that this frontier barbarian assaulted the honor of a Hegemony officer tonight.\"\r\n\r\nThe dance has stopped, the band finally having got the hint. All eyes are on you.",
+   "ctx": "data/campaign/rules.csv soeDuelIntro1b [text]"
+  },
+  {
+   "i": 39,
+   "en": "\"He's irrelevant. You attacked the uniform, and for that,\" Cardona loosens his sword, \"I challenge you to honorable combat.\"\r\n\r\nSang grins from behind him, relishing the moment.",
+   "ctx": "data/campaign/rules.csv soeDuelIntroCaspian [text]"
+  },
+  {
+   "i": 40,
+   "en": "\"You. $playerName. You attacked the uniform, and for that,\" Cardona loosens his sword, \"I challenge you to honorable combat.\"\r\n\r\nSang grins from behind him, relishing this moment.",
+   "ctx": "data/campaign/rules.csv soeDuelIntroDrink [text]"
+  },
+  {
+   "i": 41,
+   "en": "Cardona nods. \"Prepare yourself.\"",
+   "ctx": "data/campaign/rules.csv soeDuelAccept [text]"
+  },
+  {
+   "i": 42,
+   "en": "You catch a glimpse of Sang's panic before Cardona steps forward, putting himself between you and Sang. \"It is I who have challenged you. Answer me now!\"",
+   "ctx": "data/campaign/rules.csv soeDuelScared [text]"
+  },
+  {
+   "i": 43,
+   "en": "\"I'm afraid so,\" Neriene says. \"Technically.\"",
+   "ctx": "data/campaign/rules.csv soeDuelLegal [text]"
+  },
+  {
+   "i": 44,
+   "en": "\"On Eventide we have the courage to fight face to face,\" Cardona says.\r\n\r\n\"Now answer my challenge!\"",
+   "ctx": "data/campaign/rules.csv soeDuelSpace [text]"
+  },
+  {
+   "i": 45,
+   "en": "\"Then you prove that you don't belong here among us,\" Cardona sneers.\r\n\r\n\"You've the thin frontier blood of thieves and failures. Crawl away now, barbarian, and be thankful the Hegemony came to save your kind when you proved unable to rule yourself.\"",
+   "ctx": "data/campaign/rules.csv soeDuelNo [text]"
+  },
+  {
+   "i": 46,
+   "en": "This prompts a few snickers and a guffaw from the crowd. Cardona looks furiously to each side, then straight at you.\r\n\r\n\"Answer my challenge,\" he shouts, \"And do it now!\"",
+   "ctx": "data/campaign/rules.csv soeDuelWhoBarbarian [text]"
+  },
+  {
+   "i": 47,
+   "en": "Neriene follows you. \"Good,\" she says to you under her breath.",
+   "ctx": "data/campaign/rules.csv soeDuelNoLeave2 [text]"
+  },
+  {
+   "i": 48,
+   "en": "Your acceptance washes across the crowd, waking them as if from a stupor. Their murmuring fills the hall. Cardona, Sang, and the rest gather and begin walking toward a tall set of doors at one end of the ballroom. Others join them, mostly officers, mostly young men.\r\n\r\n\"Grandmother!\" Neriene calls out; you follow her pleading look to a stately woman overseeing the entire affair. \"Put a stop to this, there's no need for bloodshed on this night.\"",
+   "ctx": "data/campaign/rules.csv soeDuelPrepare [text]"
+  },
+  {
+   "i": 49,
+   "en": "You recognize Augusta Rao from the news holos. Her head pitches almost imperceptibly - a denial - before she turns her back and moves away, pulling in her wake a retinue of ministers and aristocrats.",
+   "ctx": "data/campaign/rules.csv soeDuelPrepare2 [text]"
+  }
+ ]
+}

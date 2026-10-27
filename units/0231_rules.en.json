@@ -1,0 +1,221 @@
+{
+ "chunk": 231,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "You brush the leg of your uniform as if clearing it of imagined dust, loosing the protective clasp that keeps the sword from drifting out of its scabbard. You tense your muscles, ready to draw steel in a single motion.",
+   "ctx": "data/campaign/rules.csv sdtuRamSafehouseReactionD6 [text]"
+  },
+  {
+   "i": 2,
+   "en": "You whisper the codeword under your breath as Ram rants.\r\n\r\nNothing. You tap your earpiece, making as if you are scratching your ear, and it gives the tiny buzz denoting signal disconnection.\r\n\r\nThere must be some kind of active interference. This secure comms rig is outrageously overrated for even moderately fortified military defenses. Ram must be running a highly sophisticated automated counter-signal unit. Would it alert him to your attempt at comms?\r\n\r\nHis disposition, though agitated, seems unchanged.",
+   "ctx": "data/campaign/rules.csv sdtuRamSafehouseReactionE [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"Next, Guard High Deputy Executor Horacio Caden. By the decree of Diktat, he holds the second-in-command rank to the Supreme Executor, and leads the Lion's Guard which is sworn to protect the person of Philip Andrada and the integrity of his political and spiritual vision.\"\r\n\r\nRam clenches his jaw; anger now showing through. \"Caden has clearly failed. He is a dogmatic simpleton, repeating the words of the Lion without feeling them, knowing them! They do not BURN in his heart as they do in ours!\" \r\n\r\nCaptain Ram is almost shouting toward the ceiling. Perhaps addressing Caden and the other misguided followers of the Sindrian Diktat.",
+   "ctx": "data/campaign/rules.csv sdtuRamSafehouse5 [text]"
+  },
+  {
+   "i": 4,
+   "en": "There's a muffled thump.\r\n\r\nRam's goon dropping something? But the weight of the door suggests it would take a great deal more force to make a sound which could be heard in this room.\r\n\r\n\"... Which brings me to Chief High Inspector-General Dolos Macario,\" Ram continues, almost spitting, \"Head of the internal security services of which I am of course a part. Never was there a more...\" \r\n\r\nRam pauses in his tirade, lifting a hand to his ear. He turns to you with a confused look. ",
+   "ctx": "data/campaign/rules.csv sdtuRamSafehouse6 [text]"
+  },
+  {
+   "i": 5,
+   "en": "The door flies open in a flash, the thud of a shockwave buffets you back a half-step, ears ringing.\r\n\r\nBlurred shadows burst in, targeting lasers flickering, firearms covering you and Ram. Through the settling cloud of dust steps a man in a long black coat over a perfect black uniform.\r\n\r\nRam gapes, hands raised; now, mercifully, at a loss for words.",
+   "ctx": "data/campaign/rules.csv sdtuRamSafehouse7 [text]"
+  },
+  {
+   "i": 6,
+   "en": "The pistol in the man's hand barks once.\r\n\r\nYannick Ram falls to the ground, dead.",
+   "ctx": "data/campaign/rules.csv sdtuRamSafehouse8 [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Captain $playerName,\" says Dolos Macario, head of the Sindrian Diktat internal security ministry, in-person.\r\n\r\nThe Spider of Sindria, they call him, who lurks in the Lion's shadow and strings up his enemies, extracts their secrets, and makes them suffer before they are 'disappeared'.\r\n\r\nMacario's weapon is aimed at you, now. \r\n\r\n\"What an awkward first meeting.\" He glances down, then looks back up, smiling like a corpse. \"My humblest apologies.\"",
+   "ctx": "data/campaign/rules.csv sdtuRamSafehouse9 [text]"
+  },
+  {
+   "i": 8,
+   "en": "Macario looks at you reasonably, \"In that we are agreed.\"",
+   "ctx": "data/campaign/rules.csv sdtuRamSafehouse9checkRevA1 [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"Justice?\" Macario raises his eyebrows, \"How interesting.\"",
+   "ctx": "data/campaign/rules.csv sdtuRamSafehouse9checkRevA2 [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"Then it seems that I owe you a death,\" Macario says, nodding reasonably. \"That I can provide.\"",
+   "ctx": "data/campaign/rules.csv sdtuRamSafehouse9checkRevA3 [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"But first,\" he dips his pistol once toward the floor. \"Would you be so good?\"\r\n\r\nAs you hesitate, he says \"The grenades. All of them. Six, I believe.\"",
+   "ctx": "data/campaign/rules.csv sdtuRamSafehouse10wepCheckA [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"But first,\" he dips his pistol once toward the floor. \"Would you be so good?\"\r\n\r\nAs you hesitate, he says \"Your clever little pistol. Drop it.\"",
+   "ctx": "data/campaign/rules.csv sdtuRamSafehouse10wepCheckB [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"But first,\" he dips his pistol once toward the floor. \"Would you be so good?\"\r\n\r\nAs you hesitate, he says, enunciating sharply, \"The knife.\"",
+   "ctx": "data/campaign/rules.csv sdtuRamSafehouse10wepCheckC [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"But first,\" he dips his pistol once toward the floor. \"Would you be so good?\"\r\n\r\nAs you hesitate, he says \"The spray capsules in your cuffs. All of them. Keep them pointed toward the ground.\"",
+   "ctx": "data/campaign/rules.csv sdtuRamSafehouse10wepCheckD [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"But first,\" he dips his pistol once toward the floor. \"Would you be so good?\"\r\n\r\nAs you hesitate, he says \"The monomolecular wire. I admire your verve, but let us be civilized about this.\"",
+   "ctx": "data/campaign/rules.csv sdtuRamSafehouse10wepCheckE [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"But first,\" he dips his pistol once toward your scabbard, \"Your clasp is loose.\"\r\n\r\nAs you hesitate, he says \"The sword of an officer must be kept secure, yes? Mustn't have an accident, nor draw such a blade in haste.\"",
+   "ctx": "data/campaign/rules.csv sdtuRamSafehouse10wepCheckF [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"I would expect you would know this, considering your misadventure on Eventide,\" he says with mock-concern. \"But let us not open old wounds.\"",
+   "ctx": "data/campaign/rules.csv sdtuRamSafehouse10wepCheckF1 [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"We need not repeat your little adventure on Eventide here, yes? You will find that we have a much more modern attitudes in Askonia.\" ",
+   "ctx": "data/campaign/rules.csv sdtuRamSafehouse10wepCheckF2 [text]"
+  },
+  {
+   "i": 19,
+   "en": "Macario's eyes flick to lead yours to Ram's corpse on the floor. The blood is pooling.",
+   "ctx": "data/campaign/rules.csv sdtuRamSafehouse10wepCheckF3 [text]"
+  },
+  {
+   "i": 20,
+   "en": "The squad's targeting lasers hold steady on you.",
+   "ctx": "data/campaign/rules.csv sdtuRamSafehouse10wepCheck2 [text]"
+  },
+  {
+   "i": 21,
+   "en": "You whisper the codeword under your breath.\r\n\r\nNothing.\r\n\r\nMacario sighs expressively, pistol steady on your center of mass. \"Your squad is detained. Some of them, anyway. Now, shall we have a civilized discussion?\"",
+   "ctx": "data/campaign/rules.csv sdtuRamMacarioMarineTry [text]"
+  },
+  {
+   "i": 22,
+   "en": "He holsters his pistol and, stepping over Ram's cooling body, draws a chair from the table. \"Let us sit for a moment. All this excitement... I would very much like to have a chat with you.\"",
+   "ctx": "data/campaign/rules.csv sdtuRamSafehouse10 [text]"
+  },
+  {
+   "i": 23,
+   "en": "Macario gives his soldiers a dismissive little wave. You expect that they'll be at the ready nearby.",
+   "ctx": "data/campaign/rules.csv sdtuRamSafehouse10-2 [text]"
+  },
+  {
+   "i": 24,
+   "en": "You stand. Macario ignores this, giving his soldiers a dismissive little wave. You expect that they'll be at the ready nearby.",
+   "ctx": "data/campaign/rules.csv sdtuRamSafehouse10-3 [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"Captain Ram was a traitor and has met the end which all traitors deserve,\" Macario leans back in the cheap folding chair, looking thoughtful. \r\n\r\n\"I am embarrassed to admit that he was also - in the broad strokes - correct in his assessment of current state of our dear Sindrian Diktat. And his plan is a reasonable one.\"\r\n\r\n\"I have decided to enact it, with your cooperation.\"",
+   "ctx": "data/campaign/rules.csv sdtuRamSafehouse11 [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"Of course not,\" Macario says, almost annoyed at the idea.\r\n\r\n\"Authority flows from power,\" he explains. \"After I secure the future of the Diktat, the only traitors will be those who oppose me.\"",
+   "ctx": "data/campaign/rules.csv sdtuMacIntroYouTraitor [text]"
+  },
+  {
+   "i": 27,
+   "en": "Macario smiles thinly.\r\n\r\n\"The plan is simple enough. In light of the Supreme Executor's upcoming... transition, we must root out treason and corruption at the highest level - by which I mean, of course, those arms of the state which project violent force: the navy, in the person of Oxana Hyder, and the Lion's Guard, in the person of Horacio Caden.\"\r\n\r\n\"I, of course, see to the reliability of my own ministry,\" his eyes flick to indicate Ram's corpse.\r\n\r\n\"Once the means of force are purged of traitors, they shall burn out the rot that has taken root in this Great Project: the so-called Volturnian resistance and the double-blight of Nortia and Umbra in rebellion. Once our power-base in Askonia is consolidated, the Diktat may turn its gaze outward.\"",
+   "ctx": "data/campaign/rules.csv sdtuMacIntroWhatPlan [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"You didn't get to your position without knowing the meaning of ambition, captain.\" Macario pins you with ice-cold eyes, \"You of all people know full well that ambitions will be attacked on all sides by lesser men, whether from brutish ignorance or degenerate ideologies.\"\r\n\r\n\"The Sector is in turmoil. Imagine if its might and resources were focused by the vision of a man with... ambition.\"",
+   "ctx": "data/campaign/rules.csv sdtuMacIntroGazeOut [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"That question is no longer relevant,\" Macario's look hardens. \"The question now is of who is prepared to carry on in his name.\"\r\n\r\nYou can only conclude that there is a power vacuum in the space Andrada should be. There's been no public announcement of death or illness, but the Sindrian Diktat keeps very tight control on its information sphere - and never shows signs of weakness.",
+   "ctx": "data/campaign/rules.csv sdtuMacIntroAndradaKnow [text]"
+  },
+  {
+   "i": 30,
+   "en": "Macario, unblinking, looks just a little bit delighted at your question.\r\n\r\n\"Someone must be. Philip knew this, in his time.\"",
+   "ctx": "data/campaign/rules.csv sdtuMacIntroAndradaAmbition [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"Influence, credits, advanced spacecraft hulls, experimental weapons...\"\r\n\r\nMacario spreads his hands wide, a river of generosity, then takes a moment to whisper into his cuff.\r\n\r\n\"That is a taste to ensure that I have your attention for the remainder of our conversation.\"\r\n\r\nWithin seconds, your personal comms ping a surprised response from your quartermaster.",
+   "ctx": "data/campaign/rules.csv sdtuMacIntroForMe [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"Do my ears deceive, dear captain?\" Macario says with mock disappointment.\r\n\r\n\"I beg of you, let us finish our nice conversation. Then we may think things over, mm?\"",
+   "ctx": "data/campaign/rules.csv sdtuMacIntroAnswerNo [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"Liar,\" Macario says gleefully. \"And utterly perfect! You demonstrate precisely the bold duplicity I require.\"",
+   "ctx": "data/campaign/rules.csv sdtuMacIntroAnswerCourseLie [text]"
+  },
+  {
+   "i": 34,
+   "en": "\"Fascinating,\" Macario says, perhaps to himself. \"But would you die to serve the Diktat? No, no, don't speak. It is far too personal a question.\"\r\n\r\n\"Besides,\" he adds, \"I require that you live. Which is why you do.\" He makes a ghastly smile.",
+   "ctx": "data/campaign/rules.csv sdtuMacIntroAnswerCourseTrue [text]"
+  },
+  {
+   "i": 35,
+   "en": "\"An interesting question, captain.\"",
+   "ctx": "data/campaign/rules.csv sdtuMacIntroWhyHelp [text]"
+  },
+  {
+   "i": 36,
+   "en": "\"As the bearer of a commission of the Sindrian Diktat, you are already pledged to the grand vision of the Supreme Executor!\"\r\n\r\n\"Hyder and Caden are more apt to trust you,\" Macario says, his tongue flicking around his teeth, \"-and believe you; that they share whatever motives sleep in their hearts. Which we will discover.\"",
+   "ctx": "data/campaign/rules.csv sdtuMacReasonDiktatCom [text]"
+  },
+  {
+   "i": 37,
+   "en": "\"You are viewed as a friend of the Sindrian Diktat, particularly among those of any consequence: the officers, the officials, and of course the party.\"\r\n\r\n\"Hyder and Caden are more apt to trust you,\" Macario says, his tongue flicking around his teeth, \"-and believe you; that they share whatever motives sleep in their hearts. Which we will discover.\"",
+   "ctx": "data/campaign/rules.csv sdtuMacReasonDiktatFriend [text]"
+  },
+  {
+   "i": 38,
+   "en": "\"You are considered suspect among those of consequence in the Sindrian Diktat; the officers, the bureaucrats, the party members.\"\r\n\r\n\"As an outsider, a provocateur, you are expected to hold outrageous political opinions which provides you with credibility to those of traitorous intent.\"",
+   "ctx": "data/campaign/rules.csv sdtuMacReasonDiktatSus [text]"
+  },
+  {
+   "i": 39,
+   "en": "\"You are hated among those of consequence in the Sindrian Diktat! You are to be shot on sight. Why, I should turn you in myself,\" Macario grins with genuine humor.\r\n\r\n\"But don't you see? As an outsider, a comrade of terrorists and traitors, you are my perfect friend: you will be trusted by internal enemies with traitorous intent.\"",
+   "ctx": "data/campaign/rules.csv sdtuMacReasonDiktatEnemy [text]"
+  },
+  {
+   "i": 40,
+   "en": "\"It was your work with the Galatia Academy, for Provost Baird, that first drew my interest.\" Macario seems delighted to tell you about this.\r\n\r\n\"Baird found in you an excellent...\" he hesitates, searching for a different word, \"-partner. An excellent and capable partner working toward great things for the Sector.\"\r\n\r\n\"Ah, that I might pry Baird's secrets away from the Hegemony,\" he adds quietly. \"One day, one day.\"",
+   "ctx": "data/campaign/rules.csv sdtuMacReasonGalatia [text]"
+  },
+  {
+   "i": 41,
+   "en": "\"You are a rising independent power. Such shifts, even small, have a way of upsetting the balance kept so carefully these past cycles.\"\r\n\r\n\"Do you understand how you instill fear into strategic planners? Your motives are... erratic. You could do anything. It's perfect.\"",
+   "ctx": "data/campaign/rules.csv sdtuMacReasonColonial [text]"
+  },
+  {
+   "i": 42,
+   "en": "\"It was your appearance of devotion to that quaint religion that drew my attention. You, of all people, becoming a pilgrim?\"\r\n\r\nMacario nearly giggles at the thought. \"It's a splendid ruse. So absurd that I could not even believe it until I had it confirmed. No one will suspect you! They'll think you're a mush-headed Luddic out to balance the scales on your imagined soul!\"",
+   "ctx": "data/campaign/rules.csv sdtuMacReasonLuddic1 [text]"
+  },
+  {
+   "i": 43,
+   "en": "\"It was your appearance of devotion to that quaint religion that drew my attention. You, of all people, a mere Luddic?\"\r\n\r\nMacario nearly giggles at the thought. \"It's a splendid ruse. Simply splendid, captain. So absurd that I could not even believe it until I had it confirmed. No one will suspect you! They'll think you're a mush-headed Luddic out to balance the scales on your imagined soul!\"",
+   "ctx": "data/campaign/rules.csv sdtuMacReasonLuddic2 [text]"
+  }
+ ]
+}

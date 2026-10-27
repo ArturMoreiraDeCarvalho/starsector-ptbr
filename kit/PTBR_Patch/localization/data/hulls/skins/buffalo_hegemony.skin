@@ -1,0 +1,19 @@
+{
+	"baseHullId":"buffalo",
+	"skinHullId":"buffalo_hegemony",
+	"hullName":"Buffalo (A)",
+	"baseValueMult":1.5,
+	#"ordnancePoints":28,
+	"descriptionId":"buffalo",  # optional
+	"descriptionPrefix":"Este navio está na lista auxiliar da Hegemonia e, por isso, seus sistemas foram atualizados para o padrão militar, com um cronograma rigoroso de manutenção imposto, na expectativa de que possa ser colocado em serviço militar durante emergências.",
+	"tags":["heg_aux_bp"],
+	"tech":"Hegemonia",
+	"spriteName":"graphics/ships/buffalo/buffalo_hegemony.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	#"removeBuiltInMods":["civgrade"], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":["militarized_subsystems"],
+	"builtInWeapons":{
+    },
+}

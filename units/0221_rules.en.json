@@ -1,0 +1,301 @@
+{
+ "chunk": 221,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"Regardless,\" he claps his hands together. \"The seasonal ball is a lovely time to visit Eventide, and I recall such occasions at House Rao fondly. Setting aside the unpleasantness, I'm sure there was some proper revelry.\"",
+   "ctx": "data/campaign/rules.csv raoNerieneSelWonA2 [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"And impressively so, I hear. Not from Neriene, of course.\" He smirks. Though there's a touch of... sadness? He speaks before you're certain.\r\n\r\n\"Though mind, captain, those were no mere 'thugs'. The Cardonas hold a grudge, and one of their own sits on the Strategic Assembly.\"",
+   "ctx": "data/campaign/rules.csv raoNerieneSelWonC [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"It could,\" Rao concedes. \"Though they're a faction known to have little favor from Baikal.\" His eyes dart to you, \"The High Hegemon of course. Nonetheless, he must make concessions from time to time...\"\r\n\r\nHe pauses, thoughtful. \"Say what you will of Baikal. He won't do it lightly, but he knows when to sacrifice a pawn.\"",
+   "ctx": "data/campaign/rules.csv raoNerieneSelWonC2a [text]"
+  },
+  {
+   "i": 4,
+   "en": "He waits a moment, his look grim. As if he might say more. But he holds back, quite deliberately.",
+   "ctx": "data/campaign/rules.csv raoNerieneSelWonC2a2a [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"Someone easily spent when the cost is dear,\" he says. \"They are not generally aware of their status.\"\r\n\r\nHe waits out the moment, his look grim. As if he might say more. But he holds back, quite deliberately.",
+   "ctx": "data/campaign/rules.csv raoNerieneSelWonC2a2b [text]"
+  },
+  {
+   "i": 6,
+   "en": "Rao seems to examine you. \"I have always found that putting an enemy out of mind is like walking into an ambush of your own making.\"\r\n\r\nHe shrugs, \"But perhaps you'll be lucky.\" He gets a sly look. \"I was.\"",
+   "ctx": "data/campaign/rules.csv raoNerieneSelWonC2b [text]"
+  },
+  {
+   "i": 7,
+   "en": "He nods. \"To be true, it was Augusta who should never have allowed that to happen. The seasonal ball is a lovely time to visit Eventide, and I recall such occasions at House Rao fondly. Setting aside the unpleasantness, I'm sure there was some proper revelry.\"",
+   "ctx": "data/campaign/rules.csv raoNerieneSelWonC3a [text]"
+  },
+  {
+   "i": 8,
+   "en": "He laughs. \"Even with Augusta doing her best to spoil it, I recall such times at House Rao fondly. Setting aside the unpleasantness, I'm sure there was some proper revelry.\"",
+   "ctx": "data/campaign/rules.csv raoNerieneSelWonC3b [text]"
+  },
+  {
+   "i": 9,
+   "en": "Orcus Rao shakes his head. \"It's clear you're of your own mind. So let us speak of other matters.\"",
+   "ctx": "data/campaign/rules.csv raoNerieneSelWonC3c [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"You have? Neriene made no mention.\" He leans forward. \"How interesting. It is something of a lost art outside of the more traditional families of Eventide.\"\r\n\r\n\"Tell me, do you prefer the Hadi-style hilt or the Andreas?",
+   "ctx": "data/campaign/rules.csv raoNerieneSelWonD [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"The Hadi is a fine choice, and my own in fact,\" he says, pleased. \"Now let me tell you...\"",
+   "ctx": "data/campaign/rules.csv raoNerieneSelWonDa [text]"
+  },
+  {
+   "i": 12,
+   "en": "He gives a laugh. \"I daresay, $playerSirOrMadam, I am not the least bit surprised to hear you say that. Let me tell you...\"",
+   "ctx": "data/campaign/rules.csv raoNerieneSelWonDb [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"How unusual!\" He looks perplexed, and intrigued.\r\n\r\n\"I've only ever met one, maybe two, who shared your preference, but let me tell you...\" ",
+   "ctx": "data/campaign/rules.csv raoNerieneSelWonDc [text]"
+  },
+  {
+   "i": 14,
+   "en": "* * *\r\n\r\nYou proceed to have a lengthy discussion on the finer points of hardware and technique with Orcus Rao.\r\n\r\nHe is more than an enthusiast, showing great depths of knowledge and obvious practical experience on the subject. Your own perspective is a worthy match for his, and you find that you have more to agree than disagree about. \r\n\r\nIt is satisfying to meet a mind as sharp as Rao's on a favored subject. The feeling is mutual, you can tell. ",
+   "ctx": "data/campaign/rules.csv raoNerieneSelWonD2 [text]"
+  },
+  {
+   "i": 15,
+   "en": "After some time, your talk lulls. Admiral Rao speaks, idly, \"How ever did we get here?\"",
+   "ctx": "data/campaign/rules.csv raoNerieneSelWonD3 [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"Of course,\" he says with a sigh.",
+   "ctx": "data/campaign/rules.csv raoNerieneSelWonD4 [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"You have? Neriene made no mention of this.\" He leans forward. \"How interesting; it is something of a lost art outside the traditional families of Eventide.\"\r\n\r\n\"Tell me, do you prefer the Hadi-style hilt or the Andreas?",
+   "ctx": "data/campaign/rules.csv #400 [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"To your credit, captain, I'm sure,\" he says. \"Though it is a mark on the Rao name that it came to that. Augusta let things get out of hand.\"\r\n\r\nOrcus Rao sighs, and looking distant, says \"I cannot apologize for her, as she's never sought my council in the matter of 'her' house.\"",
+   "ctx": "data/campaign/rules.csv raoNerieneSelLeftA [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"Still. I recall such times at House Rao fondly. Setting aside the unpleasantness, I'm sure there was some proper revelry.\"",
+   "ctx": "data/campaign/rules.csv raoNerieneSelLeftAz2 [text]"
+  },
+  {
+   "i": 20,
+   "en": "He pauses. \"At least, that is how Neriene described it.\"\r\n\r\nHe's watching you closely.",
+   "ctx": "data/campaign/rules.csv raoNerieneSelLeftA2a [text]"
+  },
+  {
+   "i": 21,
+   "en": "He pauses a moment. \"Though Neriene doesn't quite see it that way. She had... some words.\"",
+   "ctx": "data/campaign/rules.csv raoNerieneSelLeftA2b [text]"
+  },
+  {
+   "i": 22,
+   "en": "He pauses a moment. \"And about you- Neriene was not entirely forthcoming. She had... words.\"",
+   "ctx": "data/campaign/rules.csv raoNerieneSelLeftA2bb [text]"
+  },
+  {
+   "i": 23,
+   "en": "He pauses. \"At least, that is how Neriene described it.\"",
+   "ctx": "data/campaign/rules.csv raoNerieneSelLeftA2c [text]"
+  },
+  {
+   "i": 24,
+   "en": "He half-shrugs, his expression charitable despite the fact that he appears to agree with your words.\r\n\r\n\"I heard that certain young men were keen to provoke you to a confrontation. It is a mark upon the House of Rao that it was allowed to go as far as it did.\"",
+   "ctx": "data/campaign/rules.csv raoNerieneSelLeftB [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"Oh, I assure you it was a wasted gesture. Neriene Rao can handle herself- with the blade, or without.\" He looks away, smiling. It quickly fades.",
+   "ctx": "data/campaign/rules.csv raoNerieneSelLeftC [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"We do.\" Wrinkles form at his eyes as Orcus Rao doesn't quite smile.\r\n\r\n\"Such traditions are necessarily arbitrary. The question falls to whether one chooses to excel within its terms... or without. The swordplay of Eventide is no different.\"",
+   "ctx": "data/campaign/rules.csv raoNerieneSelLeftD [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"They were... colorful. You did not make an enemy, I think, but you certainly did not make a friend.\"\r\n\r\n\"Anyway,\" he waves dismissively.\r\n\r\n\"Her mind is her business. Let us speak of other matters.\"",
+   "ctx": "data/campaign/rules.csv raoNerieneConvOut0 [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"Indeed it is not,\" he says, waving the thought away.",
+   "ctx": "data/campaign/rules.csv raoNerieneConvOut1 [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"She did,\" he says, holding you with a look for a long moment. Then says, \"Her mind is her business, of course.\"",
+   "ctx": "data/campaign/rules.csv raoNerieneConvOut2 [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"Neriene was a talent. Her rebellion by way of abandoning the art...\" He looks away.\r\n\r\n\"It struck true,\" he says quietly, putting a hand on his chest. \"Anyway, you don't need an old man like me to tell you what to think. Her mind is her own business.\"",
+   "ctx": "data/campaign/rules.csv raoNerieneConvOut3 [text]"
+  },
+  {
+   "i": 31,
+   "en": "He is quiet for a moment, eyes on you. \"A thought occurs...\"",
+   "ctx": "data/campaign/rules.csv raoNerieneConvOutPitchCheckA [text]"
+  },
+  {
+   "i": 32,
+   "en": "He folds his hands together. \"Let us speak of other things.\"",
+   "ctx": "data/campaign/rules.csv raoNerieneConvOutPitchCheckB [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"Is that so,\" he says, nonchalant. \"I wonder why they would have said that.\"",
+   "ctx": "data/campaign/rules.csv raoAskDiktatMerc2 [text]"
+  },
+  {
+   "i": 34,
+   "en": "He raises an eyebrow, his affect still casual.\r\n\r\n\"If I had hired this mercenary, I imagine I'd be pretty upset at how easily they gave up the identity of their employer. It's a good thing the Hegemony has an official policy forbidding the employ of mercs.\"",
+   "ctx": "data/campaign/rules.csv raoAskDiktatMerc3 [text]"
+  },
+  {
+   "i": 35,
+   "en": "\"Really?\" Admiral Rao, leaning forward, puts on a look of concern.\r\n\r\nHe speaks officiously. \"As a patriotic citizen, I'm sure you'll have reported all such lapses of policy so that official action may be taken.\"\r\n\r\nThe pose holds for a moment, then half a smile cracks through.",
+   "ctx": "data/campaign/rules.csv raoAskDiktatMerc4a [text]"
+  },
+  {
+   "i": 36,
+   "en": "He shrugs, holding his ironic half-smile in place. Behind it his eyes are cold, very cold.",
+   "ctx": "data/campaign/rules.csv raoAskDiktatMerc4d [text]"
+  },
+  {
+   "i": 37,
+   "en": "\"Then I bid you a good day, captain.\"\r\n\r\nRao flicks the comms cut-off.",
+   "ctx": "data/campaign/rules.csv raoAskDiktatMerc4dout [text]"
+  },
+  {
+   "i": 38,
+   "en": "\"Hmm.\" Rao looks you over. Is that a twinkle of amusement?\r\n\r\n\"Why?\"\r\n\r\nHe leaves the silence for you to fill.",
+   "ctx": "data/campaign/rules.csv raoAskDiktatMerc4b [text]"
+  },
+  {
+   "i": 39,
+   "en": "He nods, eyes closed. \"I will, I was, and I do.\" His eyes open, and he says \"That's not all, though.\"",
+   "ctx": "data/campaign/rules.csv raoAskDiktatMerc5merc [text]"
+  },
+  {
+   "i": 40,
+   "en": "He stares at you, a puzzled look on his face. \"You're a believer, then. Huh.\" Rao rubs his chin.",
+   "ctx": "data/campaign/rules.csv raoAskDiktatMerc5order [text]"
+  },
+  {
+   "i": 41,
+   "en": "He nods, watching you. \"Got the fire, I see. Good.\"",
+   "ctx": "data/campaign/rules.csv raoAskDiktatMerc5human [text]"
+  },
+  {
+   "i": 42,
+   "en": "\"Huh. Met Standfast, did you? I like her.\"",
+   "ctx": "data/campaign/rules.csv raoAskDiktatMerc5faith [text]"
+  },
+  {
+   "i": 43,
+   "en": "\"Huh,\" he looks aside. \"Met Standfast, did you? I like her.\"\r\n\r\nRao makes a sly smile. \"It's you who's been giving her some big guns, hasn't it.\"",
+   "ctx": "data/campaign/rules.csv raoAskDiktatMerc5faithGuns [text]"
+  },
+  {
+   "i": 44,
+   "en": "\"Is your loyalty so contingent? I suppose that is true for many, perhaps most- and almost all are loathe to admit it. How brave, then, to admit it.\" His tone is rhetorical, and rather more sardonic than earnest.\r\n\r\nRao looks to you again. \"Nonetheless, I agree with your assessment of the enemy.\"",
+   "ctx": "data/campaign/rules.csv raoAskDiktatMerc5cynical [text]"
+  },
+  {
+   "i": 45,
+   "en": "\"Maybe he's an admirer of my talent?\"\r\n\r\n\"Speaking of interests.\" Rao's posture improves dramatically, and now he adopts the posture of the admiral he is. \"I'm interested in why you're having such intimate conversations with Dolos Macario.\"",
+   "ctx": "data/campaign/rules.csv raoAskDiktatDolos2 [text]"
+  },
+  {
+   "i": 46,
+   "en": "\"So you just... went along?\"\r\n\r\nHe shakes his head, looking perplexed.",
+   "ctx": "data/campaign/rules.csv RaoAskDiktatDolosOptsAsel [text]"
+  },
+  {
+   "i": 47,
+   "en": "\"Really?\" He looks legitimately perplexed. \"An outsider with no connection to the ruling clique or official ideology swoops in and claims executive control based on... what, force alone?\"\r\n\r\nRao taps his chin, considering. \"I see where you got the idea, of course. But warfleets aside, you do lack connections with certain factions of the local elite. And you've not benefited from 20 cycles of the Hegemony propaganda machine building you up as the savior of human civilization.\"",
+   "ctx": "data/campaign/rules.csv RaoAskDiktatDolosOptsEsel [text]"
+  },
+  {
+   "i": 48,
+   "en": "\"No.\" He shakes his head. \"I don't think so.\"\r\n\r\n\"If you were lucky you could be another Loke or Leonis. But they never built anything, they only destroyed. And how they died...\"\r\n\r\nRao gives you a look- is that how you want to end up?",
+   "ctx": "data/campaign/rules.csv RaoAskDiktatDolosOptsE2 [text]"
+  },
+  {
+   "i": 49,
+   "en": "\"Then you will have no answers in return,\" he says.",
+   "ctx": "data/campaign/rules.csv RaoAskDiktatDolosOptsFsel [text]"
+  },
+  {
+   "i": 50,
+   "en": "\"You've got promise, captain, that's true. But,\" he takes on an avuncular tone, \"I don't think you've got enough experience to handle what I've got in mind.\"\r\n\r\n\"Put yourself out there, take on some jobs. We may speak again on this later.\"\r\n\r\nHis tone makes it clear that the issue is settled. For now.",
+   "ctx": "data/campaign/rules.csv RaoPitchTestTooSoon [text]"
+  },
+  {
+   "i": 51,
+   "en": "\"You've got promise, captain.\" He pauses. \"And I believe you have the experience to handle what I've got in mind.\"",
+   "ctx": "data/campaign/rules.csv RaoPitchTestSDTU [text]"
+  },
+  {
+   "i": 52,
+   "en": "\"You've got promise, captain. You know how to slip out of a trap. You know how to use any means available to win.\"\r\n\r\nHe pauses. \"It speaks well for what I have in mind.\"\"",
+   "ctx": "data/campaign/rules.csv RaoPitchTestGAKAbluff [text]"
+  },
+  {
+   "i": 53,
+   "en": "\"You've got promise, captain. Especially if your captaining is anything like your swordplay. You spilled blood for honor in personal combat. That is more than most can say.\"\r\n\r\nHe pauses. \"It speaks well for you, for what I have in mind.\"",
+   "ctx": "data/campaign/rules.csv RaoPitchTestSwords [text]"
+  },
+  {
+   "i": 54,
+   "en": "\"You've got promise, captain. You were brave enough to take up the sword with full knowledge of the art, fight... and lose. Your blood was spilled for honor in personal combat. That is more than most can say.\"\r\n\r\nHe pauses. \"It speaks well for you, for what I have in mind.\"",
+   "ctx": "data/campaign/rules.csv RaoPitchTestSwords2 [text]"
+  },
+  {
+   "i": 55,
+   "en": "\"You've found lucrative employment of a sort with the Tri-Tachyon corporation, however.\"\r\n\r\nHe leans back. \"We could discuss this matter again if that situation were to change.\"",
+   "ctx": "data/campaign/rules.csv RaoPitchTriTachyonCom [text]"
+  },
+  {
+   "i": 56,
+   "en": "\"Huh.\" He chews on his lip.\r\n\r\n\"Why not ask your boss, Dolos Macario, for a job? I'm sure he's got some dissidents to space.\"",
+   "ctx": "data/campaign/rules.csv RaoPitchDiktatCom [text]"
+  },
+  {
+   "i": 57,
+   "en": "\"He calls himself the 'The Spider of Sindria', but that's not right,\" Rao says. \"He's a self-satisfied little worm that's chewed his way into the rotten heart of the Sindrian Diktat. You should meet him.\"\r\n\r\nRao's smile is cold.\r\n\r\n\"Go. Meet him. Go on, now.\" He makes a shoo motion, then slaps the comms cut-off.",
+   "ctx": "data/campaign/rules.csv RaoPitchDiktatCom3a [text]"
+  },
+  {
+   "i": 58,
+   "en": "\"Correct,\" he says icily.\r\n\r\nHe makes a shoo motion. \"Off with you.\"\r\n\r\nThe comms cut.",
+   "ctx": "data/campaign/rules.csv RaoPitchDiktatCom3b [text]"
+  },
+  {
+   "i": 59,
+   "en": "\"You're not like me,\" he says. \"I was a mercenary, yes. But that was not all I was. And it is not all I am.\"\r\n\r\n\"I am a Rao,\" his voice is full and strong. \"I am an officer of the Hegemony Navy despite the best efforts of a few among us who love rules and uniforms more than they love the service and the cause.\"\r\n\r\nHe sits back down, a piercing and newly earnest look fixed on you.",
+   "ctx": "data/campaign/rules.csv RaoPitchDiktatCom3c [text]"
+  }
+ ]
+}

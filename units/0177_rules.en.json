@@ -1,0 +1,196 @@
+{
+ "chunk": 177,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"Sorry captain, I need to get back to work. We put together a new hyperwave rig- they're waiting for me in the test chamber. Good luck.\"",
+   "ctx": "data/campaign/rules.csv gaATGgetScannerMoreOptionEnd [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"Yes, do I know you?\" Horus Yaribay asks impatiently, his attention clearly elsewhere. \"Have we business?\"",
+   "ctx": "data/campaign/rules.csv gaATGcontactYaribayStart [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"Ah, it comes to be now. A recent member, are you not?\"\r\n\r\nHis expression is pleasant, though reserved.\r\n\r\n\"Allow me to wish you welcome to the Persean League. Do you come to me regarding some matter to be raised in the League Council?\"",
+   "ctx": "data/campaign/rules.csv gaATG_contactYaribay1PL [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"Ah, it comes to me now. A recent member, are you not?\"\r\n\r\nThen he frowns.\r\n\r\n\"And I recall now, you had some involvement in... you are an associate of my cousin Menes, I believe.\"",
+   "ctx": "data/campaign/rules.csv gaATG_contactYaribay1PL_didBFFI [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"Passing. I see.\" He re-examines you. \"To your credit.\"\r\n\r\n\"Allow me to wish you welcome to the Persean League. Do you come to me regarding some matter to be raised in the League Council?\"",
+   "ctx": "data/campaign/rules.csv gaATG_contactYaribay1PL_didBFFI2 [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"Of course.\" He blinks.\r\n\r\nHorus quite intentionally leaves it at that. No apology, no thanks.",
+   "ctx": "data/campaign/rules.csv gaATG_contactYaribay1PL_didBFFI3 [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Provost... Oh.\" His face falls.\r\n\r\n\"This must be about... I mean, tell me, whatever is this about?\" \r\n\r\nYou've got his attention now.",
+   "ctx": "data/campaign/rules.csv gaATGcontactYaribay1 [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"What?\" he says, incredulous. \"The High Hegemon? Why should- oh, the... situation. I see.\"\r\n\r\nAh, now there's that look of resignation you've come to expect from those being blackmailed by the provost. \r\n\r\n\"Yes, of course. Provost Baird,\" he says. \"I expect she's provided you with a message for me?\"",
+   "ctx": "data/campaign/rules.csv gaATGcontactYaribay2a [text]"
+  },
+  {
+   "i": 9,
+   "en": "He thinks about it.\r\n\r\nThat look of resignation you've come to know from those being blackmailed by the provost comes across his face, and you know it's already worked.\r\n\r\n\"Send it,\" he says softly.",
+   "ctx": "data/campaign/rules.csv gaATGcontactYaribay2b [text]"
+  },
+  {
+   "i": 10,
+   "en": "The comm line clicks to a holding pattern displaying the crest of Gens Yaribay, an elegant piscine motif echoing the Persean League's colors.\r\n\r\nYou watch Kazeron commodity futures scroll through the bottom of the display. After a couple of minutes catching up on bulk non-ferrous projections, the comm display chimes.\r\n\r\nHorus reappears, looking somewhat more collected. \"Captain. $playerName, was it? Yes of course. Provost Baird explained her proposal and I do believe that we may arrive at a mutually beneficial arrangement.\"",
+   "ctx": "data/campaign/rules.csv gaATGcontactYaribay3 [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"You shall receive Yaribay diplomatic credentials,\" he says.\r\n\r\n\"Mind yourself well with these, captain. If you were to commit some untoward scheme using the good name of Gens Yaribay, we would declare the cryptokey stolen. And then, well, it need not be said that any decent authority would treat with you... appropriately.\"\r\n\r\nHorus clears his throat, keen to move on from the topic.",
+   "ctx": "data/campaign/rules.csv gaATGcontactYaribay4 [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"Naturally.\" He looks around uncomfortably. \"I trust Baird's... good judgment. Naturally.\"\r\n\r\n\"Now, I know not what ruse the provost is pursuing. But if indeed you establish a line of communication directly and privately to the High Hegemon,\" a small smile appears on Horus' face, \"That would be splendid.\" \r\n\r\n\"For my half of this arrangement requires the delivery of comms encryption codes to our friend Baikal Daud. One mustn't have COMINT snooping on important negotiations, yes? So do see that done.\"",
+   "ctx": "data/campaign/rules.csv gaATGcontactYaribay5 [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"He'd be a fool not to,\" Horus says.\r\n\r\n\"We offer a peaceful solution to the League-Hegemony conflict that would profit all. Daud may be hive-scum, but he's clever. Practical. To pull himself out of that hole on Chicomoztoc he must be a man who understands the compromises one must make to survive.\"\r\n\r\n\"In fact, I admire the man,\" says Horus Yaribay, seeming to surprise himself. \"Despite his beginnings. I believe he will accept a compromise that allows us to keep what makes our League great. What does it matter the flag we live under?\"",
+   "ctx": "data/campaign/rules.csv gaATGcontactYaribayA1 [text]"
+  },
+  {
+   "i": 14,
+   "en": "Horus smiles. \"Excellent. I thank you.\"",
+   "ctx": "data/campaign/rules.csv gaATGcontactYaribayA2 [text]"
+  },
+  {
+   "i": 15,
+   "en": "Horus looks aside, considering. \"I suppose. But the masses can be swayed. They are fickle. And, ultimately, they will do what they must.\"",
+   "ctx": "data/campaign/rules.csv gaATGcontactYaribayA3 [text]"
+  },
+  {
+   "i": 16,
+   "en": "Horus narrows his eyes. \"Indeed. And by necessity. The permission of the elite is essential for peaceful political change. I need not justify my position to you; the argument is one of practicality, and it stands self-evident.\"",
+   "ctx": "data/campaign/rules.csv gaATGcontactYaribayA4 [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"Assimilation of the League worlds is Hegemony policy and an obvious condition of their reconstruction of the Domain, to say nothing of the foundation of their claim to legitimacy.\"\r\n\r\nHorus looks to the side, and you get the sense that he is repeating an argument he has made many times before, \"Publicly the Hegemony's demand is 'unconditional'. How can they ask that, after Mayasura? They must compromise.\"\r\n\r\n\"But I understand their position. They maintain a hard face to buoy support from the masses and lower officers. And,\" he shakes his head once, \"The Luddic Church, in its way.\"",
+   "ctx": "data/campaign/rules.csv gaATGcontactYaribayB1 [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"The top leaders of the Hegemony, particularly High Hegemon Baikal Daud must see things more clearly than they let on. They understand that they must hold the banner high and speak of iron resolve to the bloody end - right up until the moment they can present their people with a great victory: peaceful reconciliation. Victory without war. Imagine!\"\r\n\r\nHe looks suddenly self-conscious. \"I apologize, captain. My eldest does tell me I have a way of carrying on, and it is not untrue.\"",
+   "ctx": "data/campaign/rules.csv gaATGcontactYaribayB2 [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"Perhaps not. Not yet among the great gens of Kazeron, where it matters. Gens Hannan would have us head an empire, another Sindria. Meanwhile Gens Kato attempts to build bridges with the other League worlds. While I respect their accomplishments, they take anti-Luddic sentiment down to the level of rabble-rousing fanaticism.\"\r\n\r\n\"Besides, what other world in the League can match the might of Kazeron? Our stable of allies is anemic. Were it to come to total war, stars forbid, I think the Hegemony would prevail.\" He looks troubled, \"And then the jackals would tear our vulnerable worlds apart. I fear the Persean Sector could not recover from a second Collapse.\"\r\n\r\n\"This is the only way. I hope you agree, captain.\"",
+   "ctx": "data/campaign/rules.csv gaATGcontactYaribayC1 [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"You can't stand on the line forever, captain,\" he says. \"Someday you'll have to choose.\"",
+   "ctx": "data/campaign/rules.csv gaATGcontactYaribayC2 [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"I'm glad to hear that, captain,\" he says. \"Maybe you can do some good- beginning with High Hegemon Daud.\"",
+   "ctx": "data/campaign/rules.csv gaATGcontactYaribayC3 [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"I am sorry to hear that, captain,\" he says. \"I hope whatever comes of your mission, whatever it is, it changes your mind on the matter.\"",
+   "ctx": "data/campaign/rules.csv gaATGcontactYaribayC4 [text]"
+  },
+  {
+   "i": 23,
+   "en": "The comms display resolves, and the League officer speaks without bothering to greet you.\r\n\r\n\"I am $rank $personName of the Persean League Navy. My orders are to facilitate a conversation.\" $HeOrShe looks annoyed, \"With you.\" $HeOrShe obviously considers this task to be beneath $hisOrHer rank.\r\n\r\n\"Hold while my comms officer reroutes the link.\"\r\n\r\nThe Persean League crest flashes for a second, then another officer appears.",
+   "ctx": "data/campaign/rules.csv gaATGsiyavongFleetOpenComm [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"Captain $playerName. I am Lieutenant Finlay Siyavong of the Persean League Fleet Intelligence Service. It is so very interesting to finally meet you,\" he says with a chuckle.\r\n\r\n\"You have a peculiar way of placing yourself at the center of fascinating events.\"",
+   "ctx": "data/campaign/rules.csv gaATGsiyavongQuestioningStartA [text]"
+  },
+  {
+   "i": 25,
+   "en": "Once more, it is Finlay Siyavong of the Persean League Fleet Intelligence Service. \r\n\r\n\"Captain $playername. A pleasure, as always. And let me say- I can't help but admire your ability to place yourself at the center of fascinating events.\"",
+   "ctx": "data/campaign/rules.csv gaATGsiyavongQuestioningStartB [text]"
+  },
+  {
+   "i": 26,
+   "en": "Once again it is Finlay Siyavong of the Persean League Fleet Intelligence Service. \r\n\r\n\"Captain $playername,\" he says flatly, \"Your ability to place yourself at the center of fascinating events is remarkable.\"",
+   "ctx": "data/campaign/rules.csv gaATGsiyavongQuestioningStartC [text]"
+  },
+  {
+   "i": 27,
+   "en": "Once more, it is Finlay Siyavong of the Persean League Fleet Intelligence Service. \r\n\r\n\"Captain $playername,\" he says, \"Your ability to place yourself at the center of fascinating events is remarkable as always.\"",
+   "ctx": "data/campaign/rules.csv gaATGsiyavongQuestioningStartD [text]"
+  },
+  {
+   "i": 28,
+   "en": "Siyavong's smile grows as you resist his inquiry. \r\n\r\n\"Of course not, Captain $playerName. That is why I am having a simple conversation with you, and - if you'll let me - I will ask nicely.\"\r\n",
+   "ctx": "data/campaign/rules.csv gaATGsiyavongQuestioning2 [text]"
+  },
+  {
+   "i": 29,
+   "en": "He folds his hands politely.\r\n\r\n\"I understand that you had a conversation with Horus Yaribay recently. He's an important man. Or, more accurately, Gens Yaribay is an important family. It must have been an interesting chat. I was wondering if you might assist my understanding of why that is so.\"",
+   "ctx": "data/campaign/rules.csv gaATGsiyavongQuestioning3 [text]"
+  },
+  {
+   "i": 30,
+   "en": "Siyavong's smile seems frozen in place. \"A pity,\" he says, the smile fading. \"My curiosity shall remain unsated; its only fare? Bitter disappointment.\"\r\n\r\nHe sighs, and looks down for a moment, then back up, his spirits seemingly renewed.",
+   "ctx": "data/campaign/rules.csv gaATGsiyavongQuestioning4 [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"It's funny,\" he says, \"Because despite their cosmopolitan affect, the Yaribays tend to use their own close gen-family as envoys.\" \r\n\r\nSiyavong appears to think it over, then says \"It must be your unique abilities and,\" he extends a hand toward you, \"I would be remiss to neglect accounting for your not insignificant personal charm.\"\r\n\r\n\"But there must be more to it. The fact of your recent and recurring employment by the Galatia Academy keeps coming to mind. I simply cannot understand why.\"",
+   "ctx": "data/campaign/rules.csv gaATGsiyavongQuestioning5 [text]"
+  },
+  {
+   "i": 32,
+   "en": "Siyavong's smile doesn't reach his eyes. \"Then I'm sure you'll forgive me for indulging my overactive imagination, captain. I will make sure to double-check my sources before bothering you again with such a trifle.\"",
+   "ctx": "data/campaign/rules.csv gaATGsiyavongQuestioning6 [text]"
+  },
+  {
+   "i": 33,
+   "en": "Siyavong's smile doesn't reach his eyes this time.\r\n\r\n\"I will indeed. And closely, by your worthy advice. I daresay, I respect your consideration for the good of the Persean League.\"\r\n\r\n\"So!\" He claps his hands together, \"I've taken too much of your time already.\"",
+   "ctx": "data/campaign/rules.csv gaATGsiyavongQuestioning7 [text]"
+  },
+  {
+   "i": 34,
+   "en": "Siyavong freezes for just a moment at your admission. \r\n\r\nThen he starts to nod, breaking back into a smile. \"Ah captain, my captain. Truly,\" he says with overwrought magnanimity, \"You are a patriot of the League, channeling valuable intel about this gross conspiracy. Treasonous politics among the Kazeron gens, forbidden science in the black of space, the High Hegemon himself?\"\r\n\r\n\"It's all connected,\" he whispers with a wink, then leans back. \"But how does the secret Tri-Tachyon AI-god fit into this? Is it opposed by a motley cadre of heroic but tragically doomed Luddic crusaders?\"\r\n\r\n\"No need to answer all at once captain, though I know you are more than willing.\"",
+   "ctx": "data/campaign/rules.csv gaATGsiyavongQuestioning8 [text]"
+  },
+  {
+   "i": 35,
+   "en": "\"More the credit to us then,\" Siyavong says, looking at you skeptically.\r\n\r\n\"If this is truly how you feel, then I hope we may enjoy similarly fruitful conversations at a future meeting. Perhaps we can all be more forthright when the time is right. But- until then.\" ",
+   "ctx": "data/campaign/rules.csv gaATGsiyavongQuestioning8c-1 [text]"
+  },
+  {
+   "i": 36,
+   "en": "\"To be perfectly forthright with you, captain, I did not see you as the type,\" Siyavong says.\r\n\r\n\"But life is full of little surprises, is it not? I'm sure, if that is how you really feel, we shall speak again before long. Until then.\"",
+   "ctx": "data/campaign/rules.csv gaATGsiyavongQuestioning8c-2 [text]"
+  },
+  {
+   "i": 37,
+   "en": "\"I see. Of course.\" his eyes flick over and up. Not quite an eye-roll.\r\n\r\nHe raises his hands, \"But I have used too much of your time already, I'm sure. You've been, ah, quite illuminating. So.\"",
+   "ctx": "data/campaign/rules.csv gaATGsiyavongQuestioning8a [text]"
+  },
+  {
+   "i": 38,
+   "en": "\"But of course I am,\" he says, intent. \"I take everything you do very seriously, captain. I watch your actions to see what you do not do, and listen carefully to the words you speak that I might hear what you do not say.\"\r\n\r\n\"This has been a valuable conversation to me.\" He picks up his datapad and taps it on his console conclusively.",
+   "ctx": "data/campaign/rules.csv gaATGsiyavongQuestioning8b [text]"
+  }
+ ]
+}

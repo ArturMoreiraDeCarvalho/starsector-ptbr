@@ -1,0 +1,186 @@
+{
+ "chunk": 109,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "Curate Sacraria Standfast coolly acknowledges your presence. She is armed with a small pistol, politely holstered but with the clasp impolitely loosed.\r\n\r\nShe is equal parts perplexed and annoyed when you request to see the shrine, but she draws back the dusty curtains for you and stands aside.\r\n\r\nThe shrine looks as abandoned as ever in this back room. Rows of unlit candles are arrayed around the wooden centerpiece carved with images of Ludd's travails. The place is illuminated only by dim shafts of light let in by grimy portholes.",
+   "ctx": "data/campaign/rules.csv lppVolturnShrineRevisitSD2 [text]"
+  },
+  {
+   "i": 2,
+   "en": "The shrine is empty, the receiving hall pocked and scorched by weapon-fire. Rusty pools of dank water on the floor mingle with suspicious rusty stains. It smells of salt and rot and smoke in here.",
+   "ctx": "data/campaign/rules.csv lppVolturnShrineRevisitRazed [text]"
+  },
+  {
+   "i": 3,
+   "en": "A shard from a familiar teapot crunches beneath your boot.",
+   "ctx": "data/campaign/rules.csv lppVolturnShrineRazedTea [text]"
+  },
+  {
+   "i": 4,
+   "en": "Your shuttle descends toward the surface of Killa, following the landing beacon to the site of the shrine. A careless scattering of wrecked hulls and cold transport rovers form the graveyard of a long-past slaughter..\r\n\r\nYou follow the dusty footsteps of previous pilgrims to a humble airlock set into an escarpment of crumbling regolith.",
+   "ctx": "data/campaign/rules.csv lppShrineKillaVisitAgainStart [text]"
+  },
+  {
+   "i": 5,
+   "en": "Your shuttle descends toward the surface of Killa, following the landing beacon to an ancient lava-sea peppered with craters.\r\n\r\nTactical systems log the brief ping of targeting radar but the signature suggests a handheld system too crude to pose a threat to your countermeasures.\r\n\r\nThe landing site is far from any obvious ruins or landmarks. There's just a smear of crumbling temporary habs and cold, broken transports.",
+   "ctx": "data/campaign/rules.csv lppKillaVisitStart [text]"
+  },
+  {
+   "i": 6,
+   "en": "Your shuttle comes to a rest on the landing pad, easing softly into the microgravity. \r\n\r\nThe wreckage and debris is not so chaotic as it seemed from orbit. A swarm of dusty footprints lead toward an airlock buried in an escarpment some distance away.\r\n\r\nIt appears that others have been using this site in the cycles since the war's devastation.",
+   "ctx": "data/campaign/rules.csv lppKillaVisitStart2 [text]"
+  },
+  {
+   "i": 7,
+   "en": "Your sensors officer performs an active scan of the area from your $shipOrFleet as you wait on the landing pad. Your datapad barely flickers as one of the powerful beams sweeps your position.",
+   "ctx": "data/campaign/rules.csv lppKillaVisitStart2Scan [text]"
+  },
+  {
+   "i": 8,
+   "en": "Your datapad pings as the results come in.\r\n\r\nThere are low-density voids beneath the surface; artificial density patterns. Caves or bunkers or tunnels. Ferric and non-ferric metals, some EM activity, some radioactivity. It reads about as standard as any report you've seen involving the smear and scatter of ruined human civilization across the Persean Sector.\r\n\r\nThe trail of footprints beckons you toward what looks like an airlock embedded in a nearby escarpment.",
+   "ctx": "data/campaign/rules.csv lppKillaVisitStart2Scan2 [text]"
+  },
+  {
+   "i": 9,
+   "en": "Your shuttle returns to your $shipOrFleet in orbit.",
+   "ctx": "data/campaign/rules.csv lppKillaVisitStart2Leave [text]"
+  },
+  {
+   "i": 10,
+   "en": "You follow the path laid by others to the airlock. The manual controls allow you to pull it open to reveal a yawning black hole.",
+   "ctx": "data/campaign/rules.csv lppKillaVisitStart2Follow [text]"
+  },
+  {
+   "i": 11,
+   "en": "There is no interior atmosphere, at least none to speak of. Ghostly veils of dust flex and twist in the electrostatic fields of the shrine, strong enough to overcome the low gravity of this world to hang in the near-vacuum.\r\n\r\nInstructions are given by some unnamed Luddic priest who recites his words into crude repeaters awoken by your activity:\r\n\r\n\"Come only in peace. Let rest the dead. We pray now in the words revealed to Ludd... \"",
+   "ctx": "data/campaign/rules.csv lppKillaOssuary1 [text]"
+  },
+  {
+   "i": 12,
+   "en": "The ossuary is built from buried hulls, roughly welded in a chaotic but not artless architecture. No surface is quite level, and the original - faded, crumbling - icons and lettering belie forgotten functions. \"Crew quarters\", \"attachment point\", \"purge before cycling\".\r\n\r\nIn the gloom you begin to make out empty sockets, rib-cages, countless femurs and spines. They cluster in recesses, corners, in stowage spaces with hatches removed.\r\n\r\nYou realize that the dust in the air comes from the bodies, the bones, slowly crumbling around you.",
+   "ctx": "data/campaign/rules.csv lppKillaOssuary2 [text]"
+  },
+  {
+   "i": 13,
+   "en": "The unknown priest's words fill the radio-channels, made warbly and tinny by the low power of the repeaters.\r\n\r\n\"...fell from orbit like burning leaves / caught by wind and wailing / lifebreath stolen from mother and child...\"\r\n\r\nA dead suit's indicators blink from gray-black to green. It steps toward you.",
+   "ctx": "data/campaign/rules.csv lppKillaOssuary3 [text]"
+  },
+  {
+   "i": 14,
+   "en": "You instinctively pull back, hand on your sidearm.\r\n\r\nThe figure pauses, adjusts something on its battered suit, and the helmet switches on its self-illumination. Its hands sign a channel ID, which you flick to.\r\n\r\n\"We have few visitors,\" says the same voice as the broadcast prayers, rough with age and disuse.\r\n\r\nSo this is what passes for the local Curate Sacraria.",
+   "ctx": "data/campaign/rules.csv lppKillaOssuary4 [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"You are within it, the sacred space,\" the curate sacraria spreads his arms, \"Witness the get of wrath.\"\r\n\r\nHe turns and moves, as if expecting you to follow.",
+   "ctx": "data/campaign/rules.csv lppKillaOssuarySeeShrine [text]"
+  },
+  {
+   "i": 16,
+   "en": "For a long pause the hollow eyes in that dark suit-helmet examine you. The curate looks, if anything, tired, in his tired old suit.\r\n\r\nHe turns and moves, as if expecting you to follow.",
+   "ctx": "data/campaign/rules.csv lppKillaOssuarySpooky [text]"
+  },
+  {
+   "i": 17,
+   "en": "The curate makes a sound in his throat; acknowledgement. You catch a glimpse of sad, dark eyes. \"Then you walk with me. Come. A dark path. Company is welcome.\"\r\n\r\nHe turns and walks without hesitation into the folds of ruin.",
+   "ctx": "data/campaign/rules.csv lppKillaOssuaryWalkPilgrim [text]"
+  },
+  {
+   "i": 18,
+   "en": "The hollow eyes of the curate squint, unmoving for a moment. \"No,\" he says in a voice warmed only little over interstellar medium. \"The dead are numberless,\" the suit sags.\r\n\r\nThen. with a grunt, he turns and walks as if expecting you to follow.",
+   "ctx": "data/campaign/rules.csv lppKillaOssuaryThousands [text]"
+  },
+  {
+   "i": 19,
+   "en": "Moving deeper, between rooms and hulls, you witness galleries of the dead, bones and skulls carefully and artfully piled. You catch a glimpse now and then of pilgrims in ones and twos by their active vacsuit indicators. The curate leaves them to their contemplations.",
+   "ctx": "data/campaign/rules.csv lppKillaOssuaryBridge [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"They are forgotten,\" the curate says, his gaze passing across the bones. Taking stock, somehow. \"But I will not forget them. And all who visit here, they will help me remember that those who died may live eternal.\"\r\n\r\nHe fixes you now with a suddenly-piercing gaze, \"You will help?\"",
+   "ctx": "data/campaign/rules.csv lppKillaOssuarySeeShrine2 [text]"
+  },
+  {
+   "i": 21,
+   "en": "The curate sacraria stops before a pedestal, a bouquet of spines topped by fragments of skull. You see the glint of a cranial implant among the shards. The curate carefully lifts a fragment, trailing gold wire.\r\n\r\n\"Death comes for all. Every warlord, High Hegemon, CEO, spacer. Every prophet, every thief, every friend.\" \r\n\r\nHe looks at you with suddenly-piercing eyes, \"Even you star-farer, fleet-captain. Death will come.\"",
+   "ctx": "data/campaign/rules.csv lppKillaOssuarySpooky2 [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"They are forgotten,\" he says, \"All forgotten, turned to dust by war. But I will remember that they once were. It is all I have to give.\"\r\n\r\nThe curate's suit helmet bobs at you, \"And you will remember too, now.\"\r\n\r\n\"And then they shall live eternal. You understand?\"",
+   "ctx": "data/campaign/rules.csv lppKillaOssuaryWalkPilgrim2 [text]"
+  },
+  {
+   "i": 23,
+   "en": "He stops and fixes you with a suddenly piercing gaze. \"The bodies, the bodies can be counted. Dust and bones.\"\r\n\r\n\"But not the dead. Their love, their life. No number remembers that.\" A pause. \"You understand?\"",
+   "ctx": "data/campaign/rules.csv lppKillaOssuaryThousands2 [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"Yes,\" the curate says, and brings a hand down to squeeze your shoulder, \"Yes,\" he says again, and you can hear the smile in his voice.\r\n\r\nThen, without a word, he disappears into some shadowy corridor.",
+   "ctx": "data/campaign/rules.csv lppKillaOssuaryOutHappy [text]"
+  },
+  {
+   "i": 25,
+   "en": "The curate thinks for a moment, then comes to a conclusion. \"You will,\" he says, and brings a hand down to squeeze your shoulder, \"Yes,\" he says again, and you can hear the start of a smile in his voice.\r\n\r\nThen, without a word, he disappears into some shadowy corridor.",
+   "ctx": "data/campaign/rules.csv lppKillaOssuaryOutMiddling [text]"
+  },
+  {
+   "i": 26,
+   "en": "The curate simply looks at you, then, you think, shakes his head. \"Contemplate,\" he says finally.\r\n\r\nWith that said, and nothing else, he disappears into some shadowy corridor.",
+   "ctx": "data/campaign/rules.csv lppKillaOssuaryOutSad [text]"
+  },
+  {
+   "i": 27,
+   "en": "You are left among the dead. The webs of ash hanging in the air twitch and flow as movement elsewhere in the labyrinth triggers minor fluctuations in the standing electrostatic charge.",
+   "ctx": "data/campaign/rules.csv lppKillaOssuaryOutDone [text]"
+  },
+  {
+   "i": 28,
+   "en": "You stay a while in the ossuary of Killa.\r\n\r\nThe hollow eyes keep silent vigil. Stacks and wings and arches and forests of human bone adorn every surface.\r\n\r\nThe dust-flux pulses slowly, like the breath of a titanic creature.",
+   "ctx": "data/campaign/rules.csv lppKillaOssuaryWait [text]"
+  },
+  {
+   "i": 29,
+   "en": "Veils of dust slowly flex and twist in the electrostatic fields of the shrine, strong enough to overcome the low gravity of this world to hang in the near-vacuum.\r\n\r\nInstructions are given by some unnamed Luddic priest who recites their words into crude repeaters awoken by your activity:\r\n\r\n\"Come only in peace. Let rest the dead. We pray now in the words revealed to Ludd... \"",
+   "ctx": "data/campaign/rules.csv lppKillaShrineVisitAgain1 [text]"
+  },
+  {
+   "i": 30,
+   "en": "In the gloom you begin to make out empty sockets, rib-cages, countless femurs and spines. They cluster in recesses, corners, in stowage spaces, their hatches removed.\r\n\r\nRecorded verse haunt the comms channels.\r\n\r\n\"... cities fall from orbit like burning leaves / caught by the wind and wailing / life's breath pulled from mother and child...\"",
+   "ctx": "data/campaign/rules.csv lppKillaShrineVisitAgain2 [text]"
+  },
+  {
+   "i": 31,
+   "en": "Wandering the halls, you eventually encounter the curate sacraria of the ossuary. He is, as before, a man of few words, and greets you with only a nod and the ghost of a sad smile.\r\n\r\nYou are left among the dead. The webs of ash hanging in the air twitch and flow as movement elsewhere in the labyrinth trigger minor fluctuations in the standing electrostatic charge.",
+   "ctx": "data/campaign/rules.csv lppKillaShrineVisitAgain3 [text]"
+  },
+  {
+   "i": 32,
+   "en": "You leave the dead in their tombs within the battered crust of the lifeless moon below.\r\n\r\nThe flight in your return shuttle is uneventful.",
+   "ctx": "data/campaign/rules.csv lppKillaShrineLeaveStart [text]"
+  },
+  {
+   "i": 33,
+   "en": "The concourse is in chaos. A crowd of protestors in Luddic greens has formed a human barrier across the main entrance. Surrounding them are angry spacers, officers and crew alike, waiting to enter the commercial promenade or return to their ships.\r\n\r\nA small contingent of local MuniSec holds the shouting crowds apart - barely.",
+   "ctx": "data/campaign/rules.csv lppJangalaShrineProtestDev [text]"
+  },
+  {
+   "i": 34,
+   "en": "You recognize the Hegemony $post, $name speaking orders into a small comms unit. $HeOrShe notices you, and nods you over.\r\n\r\n\"Luddics protesting the planet-side burns,\" $heOrShe explains. \"Get these every other week due to the pilgrims. They consider it a sort of rite of passage.\" \r\n\r\n$HeOrShe one-arm shrugs to suggest that $heOrShe doesn't find the matter worth getting too upset over, then speaks another string of tactical jargon into $hisOrHer comms.",
+   "ctx": "data/campaign/rules.csv lppJangalaShrineProtestStart2 [text]"
+  },
+  {
+   "i": 35,
+   "en": "You wait. The crowd grows, and grows less patient - a minority jeers and shouts, a few spacers start throwing trash. The Luddics perform their chant-prayer, calling for an end to the orbital burns, arms locked. From fights breaking out, it is clear that there is much support for the Luddic cause outside of the overt protestors.\r\n\r\nIt feels near a boiling point when heads start to turn and you see a dark regiment of lightly armored troopers deploy from columns into a wedge. Security drones hum overhead, targeting lasers and ID-cams flickering.",
+   "ctx": "data/campaign/rules.csv lppJangalaProtestWait [text]"
+  },
+  {
+   "i": 36,
+   "en": "A steady advance breaks the protest line apart, shock-prods rise and fall to silence shouts and screams. It is difficult to see through the pacification gas, but you can make out drones deploying restraint foam on struggling forms. The Luddics' fists, signs, and even hammers are useless against the power-armored gendarmerie.\r\n\r\n\"You may pass safely, citizen,\" a drone buzzes at you in a pleasant voice.\r\n\r\nStepping toward the main promenade, you turn to find that you've left a diminishing trail of blood-spots. A scuff or two of your heel on the deck plate takes care of the problem.",
+   "ctx": "data/campaign/rules.csv lppJangalaProtestWait2 [text]"
+  }
+ ]
+}

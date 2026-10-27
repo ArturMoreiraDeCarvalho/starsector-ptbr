@@ -1,0 +1,856 @@
+{
+ "chunk": 22,
+ "cat": "jar",
+ "items": [
+  {
+   "i": 1,
+   "en": "Repair your ships at the station's dockyard",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/OrbitalStationInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 2,
+   "en": "Trade, or hire personnel",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/OrbitalStationInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 3,
+   "en": "Transfer cargo or personnel",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/OrbitalStationInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 4,
+   "en": "Transfer ships to or from this station",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/OrbitalStationInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 5,
+   "en": " exhibits fluctuations indicative of recent antimatter application.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/PlanetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 6,
+   "en": "\"Destroy it!\"",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/PlanetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 7,
+   "en": "\"No... I will keep it.\"",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/PlanetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 8,
+   "en": "'s hyperfield, creating a stable location",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/PlanetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 9,
+   "en": "At your command the planetkiller, locked in its cradle, is boosted toward the very center of the black hole, up and over the plane of the accretion disc.\n\nWith a flash only a little more than noise in the sensor telemetry, it is gone.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/PlanetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 10,
+   "en": "Consider inducing a resonance cascade in the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/PlanetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 11,
+   "en": "Created additional stable location in ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/PlanetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 12,
+   "en": "Dump the planetkiller weapon into the black hole",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/PlanetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 13,
+   "en": "Normally, this procedure can only be performed in a star system without any stable locations. However, your chief engineer suggests an unorthodox workaround.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/PlanetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 14,
+   "en": "Picked up unusual readings from abyssal black hole",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/PlanetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 15,
+   "en": "Preparations are made, and you give the go-ahead. A few tense minutes later, the chief engineer reports success. The resulting stable location won't last for millennia, like naturally-occurring ones - but it'll do for your purposes.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/PlanetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 16,
+   "en": "Proceed with the operation",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/PlanetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 17,
+   "en": "The procedure requires spreading prodigious amounts of antimatter ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/PlanetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 18,
+   "en": "This procedure can not performed in a star system that already has numerous stable locations.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/PlanetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 19,
+   "en": "You do not have the necessary resources to carry out this procedure.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/PlanetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 20,
+   "en": "Your officers respond promptly to the order, and move to the task with all alacrity. There is an edge to their call-and-response, however, as if they cannot help but acknowledge the deep sense of the gravity in this act.\n\"Package ready to drop, captain,\" your ops chief says. \"On your order.\"",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/PlanetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 21,
+   "en": "Your sensors officer detects no more unusual energy patterns from the inner rim of the accretion disc, just noise, as mindless as the background radiation of the cosmos itself.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/PlanetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 22,
+   "en": "Your sensors officer hesitates, then calls for your attention. \"Captain, there's a... pattern. From the black hole. Or, rather,\" they pause, looking almost embarrassed. \"-The energy radiated by the accretion disc.\n\nThey pull a collated sensor output map into the primary holo. \"It's almost a signal. See, if we chart these fluctuations in energy output over time...\n\nYou see it now, an orderly series. Not quite a sequence of prime numbers, unless you jig the math. Statistically this is nearly impossible. Possible explanations are as unlikely: a series of planets - large moons? - with specific mass-ratio relationships, all pulled into the accretion disc at just such an angle, like an intentional message... or orderly annihilation of a constructed planetary system at a scale beyond the wildest dreams of the most bloody-minded war-planners of the Domain.\n\nIt can't be known. The pattern disappears as quickly as it arose.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/PlanetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 23,
+   "en": "according to calculations far beyond the ability of anything on the right side of the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/PlanetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 24,
+   "en": "black hole",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/PlanetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 25,
+   "en": "event horizon",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/PlanetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 26,
+   "en": "in the star's corona",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/PlanetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 27,
+   "en": "near the event horizon",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/PlanetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 28,
+   "en": "star",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/PlanetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 29,
+   "en": "star's corona",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/PlanetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 30,
+   "en": "treaty that ended the Second AI War.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/PlanetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 31,
+   "en": "Adding another ship of the same type would increase it to %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/RepairGantry.class"
+  },
+  {
+   "i": 32,
+   "en": "Each additional ship with a salvage gantry provides diminishing returns. The higher the highest recovery bonus from a single ship in the fleet, the later diminishing returns kick in.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/RepairGantry.class"
+  },
+  {
+   "i": 33,
+   "en": "Removing this ship would decrease it to %s. Adding another ship of the same type would increase it to %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/RepairGantry.class"
+  },
+  {
+   "i": 34,
+   "en": "The fleetwide post-battle salvage bonus is %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/RepairGantry.class"
+  },
+  {
+   "i": 35,
+   "en": "The total resource recovery bonus for your fleet is %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/RepairGantry.class"
+  },
+  {
+   "i": 36,
+   "en": "This ship's combat readiness is below %s and the gantry can not be utilized. Bringing this ship into readiness would increase the fleetwide bonus to %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/RepairGantry.class"
+  },
+  {
+   "i": 37,
+   "en": ", adding a failsafe option to exit dialog.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/RuleBasedInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 38,
+   "en": "ERROR: no rule found for option ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/RuleBasedInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 39,
+   "en": "Exit dialog",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/RuleBasedInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 40,
+   "en": "Note: this may break any mission interaction in the current dialog, it's recommended that you reload an earlier save if you use this option.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/RuleBasedInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 41,
+   "en": "recommended that you reload an earlier save",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/RuleBasedInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 42,
+   "en": "      %s sensor range for all same-faction fleets in system",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/SensorArrayEntityPlugin.class"
+  },
+  {
+   "i": 43,
+   "en": "      Generating false readings",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/SensorArrayEntityPlugin.class"
+  },
+  {
+   "i": 44,
+   "en": "%s sensor range for in-system fleets",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/SensorArrayEntityPlugin.class"
+  },
+  {
+   "i": 45,
+   "en": "Makeshift sensor array",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/SensorArrayEntityPlugin.class"
+  },
+  {
+   "i": 46,
+   "en": "Sensor array",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/SensorArrayEntityPlugin.class"
+  },
+  {
+   "i": 47,
+   "en": "This one, however, does not appear to be transmitting a sensor telemetry broadcast. The cause of its lack of function is unknown.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/SensorArrayEntityPlugin.class"
+  },
+  {
+   "i": 48,
+   "en": "You have a hack running on this sensor array.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/SensorArrayEntityPlugin.class"
+  },
+  {
+   "i": 49,
+   "en": "investigating anomalous sensor reading",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/SensorArrayEntityPlugin.class"
+  },
+  {
+   "i": 50,
+   "en": "Can only stabilize colonies with at least %s points of recent unrest.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/StabilizeMarketPluginImpl.class"
+  },
+  {
+   "i": 51,
+   "en": "During the course of this tutorial, the only available option is to reload the last save.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/StandardRespawnDialogPluginImpl.class"
+  },
+  {
+   "i": 52,
+   "en": "Normally, if this happens you and your remaining crew will spend some time \"behind the scenes\" assembling a smaller fleet of recovered ships.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/StandardRespawnDialogPluginImpl.class"
+  },
+  {
+   "i": 53,
+   "en": "Your fleet has been defeated!",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/StandardRespawnDialogPluginImpl.class"
+  },
+  {
+   "i": 54,
+   "en": "Planet size",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/SurveyPluginImpl.class"
+  },
+  {
+   "i": 55,
+   "en": " left)",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/TempImmigrationModifier.class"
+  },
+  {
+   "i": 56,
+   "en": "    - Danger level: ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/WarningBeaconEntityPlugin.class"
+  },
+  {
+   "i": 57,
+   "en": " - High",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/WarningBeaconEntityPlugin.class"
+  },
+  {
+   "i": 58,
+   "en": " - Low",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/WarningBeaconEntityPlugin.class"
+  },
+  {
+   "i": 59,
+   "en": " - Medium",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/WarningBeaconEntityPlugin.class"
+  },
+  {
+   "i": 60,
+   "en": "high",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/WarningBeaconEntityPlugin.class"
+  },
+  {
+   "i": 61,
+   "en": "low",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/WarningBeaconEntityPlugin.class"
+  },
+  {
+   "i": 62,
+   "en": "medium",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/WarningBeaconEntityPlugin.class"
+  },
+  {
+   "i": 63,
+   "en": "Disables the following abilities while active:",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/BaseDurationAbility.class"
+  },
+  {
+   "i": 64,
+   "en": "Expand tooltip to view conflicting abilities",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/BaseDurationAbility.class"
+  },
+  {
+   "i": 65,
+   "en": "Interrupts the following abilities when activated:",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/BaseToggleAbility.class"
+  },
+  {
+   "i": 66,
+   "en": "By long-standing convention, the fleet in distress is expected to meet any responders at the innermost jump-point inside a star system.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/DistressCallAbility.class"
+  },
+  {
+   "i": 67,
+   "en": "Can not be used in hyperspace.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/DistressCallAbility.class"
+  },
+  {
+   "i": 68,
+   "en": "Can not be used in star systems deep within abyssal hyperspace.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/DistressCallAbility.class"
+  },
+  {
+   "i": 69,
+   "en": "IS In All Circumstances",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/DistressCallAbility.class"
+  },
+  {
+   "i": 70,
+   "en": "May be used by a stranded fleet to punch a distress signal through to hyperspace, asking nearby fleets to bring aid in the form of fuel and supplies. Help may take many days to arrive, if it arrives at all, and taking advantage of it will result in a progressively higher reduction in standing with the responders.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/DistressCallAbility.class"
+  },
+  {
+   "i": 71,
+   "en": "The signal is non-directional and carries no data, and is therefore not useful for calling for help in a tactical situation.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/DistressCallAbility.class"
+  },
+  {
+   "i": 72,
+   "en": "innermost jump-point",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/DistressCallAbility.class"
+  },
+  {
+   "i": 73,
+   "en": "approaching your fleet",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/DistressCallResponseAssignmentAI.class"
+  },
+  {
+   "i": 74,
+   "en": "      ... and several other ships",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/DurationAbilityWithCost2.class"
+  },
+  {
+   "i": 75,
+   "en": " Prevents combat readiness recovery while active.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/DurationAbilityWithCost2.class"
+  },
+  {
+   "i": 76,
+   "en": " activation",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/DurationAbilityWithCost2.class"
+  },
+  {
+   "i": 77,
+   "en": " suffers damage from ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/DurationAbilityWithCost2.class"
+  },
+  {
+   "i": 78,
+   "en": " worth of fuel and reduces the combat readiness ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/DurationAbilityWithCost2.class"
+  },
+  {
+   "i": 79,
+   "en": " worth of fuel.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/DurationAbilityWithCost2.class"
+  },
+  {
+   "i": 80,
+   "en": "Consumes %s fuel and reduces the combat readiness of all ships, costing up to %s supplies to recover.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/DurationAbilityWithCost2.class"
+  },
+  {
+   "i": 81,
+   "en": "Consumes %s fuel.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/DurationAbilityWithCost2.class"
+  },
+  {
+   "i": 82,
+   "en": "Consumes %s light ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/DurationAbilityWithCost2.class"
+  },
+  {
+   "i": 83,
+   "en": "Not enough fuel.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/DurationAbilityWithCost2.class"
+  },
+  {
+   "i": 84,
+   "en": "Reduces the combat readiness of all ships by %s of a combat deployment.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/DurationAbilityWithCost2.class"
+  },
+  {
+   "i": 85,
+   "en": "Reduces the combat readiness of all ships, costing up to %s supplies to recover.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/DurationAbilityWithCost2.class"
+  },
+  {
+   "i": 86,
+   "en": "Ships with insufficient combat readiness may suffer damage when the ability is activated.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/DurationAbilityWithCost2.class"
+  },
+  {
+   "i": 87,
+   "en": "Some ships don't have enough combat readiness and may suffer damage if the ability is activated:",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/DurationAbilityWithCost2.class"
+  },
+  {
+   "i": 88,
+   "en": "may suffer damage",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/DurationAbilityWithCost2.class"
+  },
+  {
+   "i": 89,
+   "en": "of all ships by %s of a combat deployment.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/DurationAbilityWithCost2.class"
+  },
+  {
+   "i": 90,
+   "en": "year's",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/DurationAbilityWithCost2.class"
+  },
+  {
+   "i": 91,
+   "en": "years'",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/DurationAbilityWithCost2.class"
+  },
+  {
+   "i": 92,
+   "en": " suffers damage from Emergency Burn activation",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/EmergencyBurnAbility.class"
+  },
+  {
+   "i": 93,
+   "en": "Consumes %s fuel and prevents combat readiness recovery while active.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/EmergencyBurnAbility.class"
+  },
+  {
+   "i": 94,
+   "en": "Consumes %s fuel and reduces the combat readiness of all ships, costing up to %s supplies to recover. Also prevents combat readiness recovery while active.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/EmergencyBurnAbility.class"
+  },
+  {
+   "i": 95,
+   "en": "Emergency Burn",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/EmergencyBurnAbility.class"
+  },
+  {
+   "i": 96,
+   "en": "Emergency burn",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/EmergencyBurnAbility.class"
+  },
+  {
+   "i": 97,
+   "en": "Increases the maximum burn level by %s. Reduces sensor range by %s and increases the range at which the fleet can be detected by %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/EmergencyBurnAbility.class"
+  },
+  {
+   "i": 98,
+   "en": "Prevents combat readiness recovery while active.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/EmergencyBurnAbility.class"
+  },
+  {
+   "i": 99,
+   "en": "Some ships don't have enough combat readiness to safely initiate an emergency burn and may suffer damage if the ability is activated:",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/EmergencyBurnAbility.class"
+  },
+  {
+   "i": 100,
+   "en": "of all ships by %s of a combat deployment. ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/EmergencyBurnAbility.class"
+  },
+  {
+   "i": 101,
+   "en": " suffers damage from Transverse Jump activation",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/FractureJumpAbility.class"
+  },
+  {
+   "i": 102,
+   "en": "Can not be used right now.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/FractureJumpAbility.class"
+  },
+  {
+   "i": 103,
+   "en": "Jump into hyperspace without the use of a jump-point, or jump into a star system across the hyperspace boundary near a nascent gravity well, emerging near the entity corresponding to the gravity well.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/FractureJumpAbility.class"
+  },
+  {
+   "i": 104,
+   "en": "Jumping into a star system is free.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/FractureJumpAbility.class"
+  },
+  {
+   "i": 105,
+   "en": "Jumping into hyperspace consumes %s fuel and slightly reduces the combat readiness of all ships, costing up to %s supplies to recover. Jumping into a star system is free.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/FractureJumpAbility.class"
+  },
+  {
+   "i": 106,
+   "en": "Jumping into hyperspace consumes %s fuel. Jumping into a star system is free.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/FractureJumpAbility.class"
+  },
+  {
+   "i": 107,
+   "en": "Jumping into hyperspace consumes %s light ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/FractureJumpAbility.class"
+  },
+  {
+   "i": 108,
+   "en": "Must be near a nascent gravity well.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/FractureJumpAbility.class"
+  },
+  {
+   "i": 109,
+   "en": "Some ships don't have enough combat readiness to safely initiate a transverse jump and may suffer damage if the ability is activated:",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/FractureJumpAbility.class"
+  },
+  {
+   "i": 110,
+   "en": "Transverse Jump",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/FractureJumpAbility.class"
+  },
+  {
+   "i": 111,
+   "en": "Transverse jump",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/FractureJumpAbility.class"
+  },
+  {
+   "i": 112,
+   "en": "Extreme burn level",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/GenerateSlipsurgeAbility$SlipsurgeEffectScript.class"
+  },
+  {
+   "i": 113,
+   "en": " hole",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/GenerateSlipsurgeAbility.class"
+  },
+  {
+   "i": 114,
+   "en": "A stronger surge can allow the fleet to rapidly travel up to %s light-years. Attempting to %s during the transit will decelerate the fleet quickly. Fleet sensor range is reduced by %s during the transit.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/GenerateSlipsurgeAbility.class"
+  },
+  {
+   "i": 115,
+   "en": "Black holes, neutron stars",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/GenerateSlipsurgeAbility.class"
+  },
+  {
+   "i": 116,
+   "en": "Can only be used in hyperspace.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/GenerateSlipsurgeAbility.class"
+  },
+  {
+   "i": 117,
+   "en": "Dwarf stars",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/GenerateSlipsurgeAbility.class"
+  },
+  {
+   "i": 118,
+   "en": "Entering slipsurge",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/GenerateSlipsurgeAbility.class"
+  },
+  {
+   "i": 119,
+   "en": "Giant stars",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/GenerateSlipsurgeAbility.class"
+  },
+  {
+   "i": 120,
+   "en": "Largely ineffective inside abyssal hyperspace.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/GenerateSlipsurgeAbility.class"
+  },
+  {
+   "i": 121,
+   "en": "Must be near a gravity well.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/GenerateSlipsurgeAbility.class"
+  },
+  {
+   "i": 122,
+   "en": "Must be near a powerful gravity well.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/GenerateSlipsurgeAbility.class"
+  },
+  {
+   "i": 123,
+   "en": "Overload and modulate the fleet's drive field to induce an extremely powerful, short-duration slipstream flowing away from the nearest gravity well, its strength ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/GenerateSlipsurgeAbility.class"
+  },
+  {
+   "i": 124,
+   "en": "Smaller stars / stellar objects",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/GenerateSlipsurgeAbility.class"
+  },
+  {
+   "i": 125,
+   "en": "Sol-like stars",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/GenerateSlipsurgeAbility.class"
+  },
+  {
+   "i": 126,
+   "en": "Stellar object type",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/GenerateSlipsurgeAbility.class"
+  },
+  {
+   "i": 127,
+   "en": "Supergiant stars",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/GenerateSlipsurgeAbility.class"
+  },
+  {
+   "i": 128,
+   "en": "Surge strength",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/GenerateSlipsurgeAbility.class"
+  },
+  {
+   "i": 129,
+   "en": "Very high",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/GenerateSlipsurgeAbility.class"
+  },
+  {
+   "i": 130,
+   "en": "Very low",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/GenerateSlipsurgeAbility.class"
+  },
+  {
+   "i": 131,
+   "en": "and availability ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/GenerateSlipsurgeAbility.class"
+  },
+  {
+   "i": 132,
+   "en": "based on the stellar object's mass, density, and some other poorly-understood factors. ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/GenerateSlipsurgeAbility.class"
+  },
+  {
+   "i": 133,
+   "en": "brown",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/GenerateSlipsurgeAbility.class"
+  },
+  {
+   "i": 134,
+   "en": "dwarf",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/GenerateSlipsurgeAbility.class"
+  },
+  {
+   "i": 135,
+   "en": "move slowly",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/GenerateSlipsurgeAbility.class"
+  },
+  {
+   "i": 136,
+   "en": "neutron",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/GenerateSlipsurgeAbility.class"
+  },
+  {
+   "i": 137,
+   "en": "supergiant",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/GenerateSlipsurgeAbility.class"
+  },
+  {
+   "i": 138,
+   "en": " (off)",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/GoDarkAbility.class"
+  },
+  {
+   "i": 139,
+   "en": " (on)",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/GoDarkAbility.class"
+  },
+  {
+   "i": 140,
+   "en": "*A fleet is considered slow-moving at a burn level of half that of its slowest ship.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/GoDarkAbility.class"
+  },
+  {
+   "i": 141,
+   "en": "Going dark",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/GoDarkAbility.class"
+  },
+  {
+   "i": 142,
+   "en": "Turns off all non-essential systems, reducing the range at which the fleet can be detected by %s and forcing the fleet to %s*.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/GoDarkAbility.class"
+  },
+  {
+   "i": 143,
+   "en": " per day.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/GraviticScanAbility.class"
+  },
+  {
+   "i": 144,
+   "en": "Cannot activate while inside slipstream.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/GraviticScanAbility.class"
+  },
+  {
+   "i": 145,
+   "en": "Gravimetric scan",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/GraviticScanAbility.class"
+  },
+  {
+   "i": 146,
+   "en": "High-emission sources such as stars, planets, jump-points, or space stations produce constant streams. Average sources produce periodic bursts. Low-emission sources produce occasional bursts.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/GraviticScanAbility.class"
+  },
+  {
+   "i": 147,
+   "en": "Increases the range at which the fleet can be detected by %s and consumes %s ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/GraviticScanAbility.class"
+  },
+  {
+   "i": 148,
+   "en": "Increases the range at which the fleet can be detected by %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/GraviticScanAbility.class"
+  },
+  {
+   "i": 149,
+   "en": "Neutrino detector activated",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/GraviticScanAbility.class"
+  },
+  {
+   "i": 150,
+   "en": "Normal space",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/GraviticScanAbility.class"
+  },
+  {
+   "i": 151,
+   "en": "Notoriously unreliable and almost guaranteed to produce numerous false readings.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/GraviticScanAbility.class"
+  },
+  {
+   "i": 152,
+   "en": "Out of ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/GraviticScanAbility.class"
+  },
+  {
+   "i": 153,
+   "en": "Reconfigures the fleet's drive field to act as a neutrino detector, allowing detection of human-made artifacts - and occasionally fleets - at extreme ranges. ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/GraviticScanAbility.class"
+  },
+  {
+   "i": 154,
+   "en": "Reliably detects the presence of slipstreams out to a range of %s light-years. Except for abyssal areas, the background noise levels are such that it is unable to detect any other neutrino sources. When the fleet is traversing a slipstream, the detector is overwhelmed and shuts down.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/GraviticScanAbility.class"
+  },
+  {
+   "i": 155,
+   "en": "A successful interdict is considered a hostile act, though not on the same level as open warfare.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/InterdictionPulseAbility.class"
+  },
+  {
+   "i": 156,
+   "en": "Base range of %s* units, increased by half your fleet's sensor strength, for a total of %s units. While the pulse is charging, the range at which the fleet can be detected will gradually increase by up to %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/InterdictionPulseAbility.class"
+  },
+  {
+   "i": 157,
+   "en": "Interdict avoided!",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/InterdictionPulseAbility.class"
+  },
+  {
+   "i": 158,
+   "en": "Interdict! (",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/InterdictionPulseAbility.class"
+  },
+  {
+   "i": 159,
+   "en": "Interdiction Pulse",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/InterdictionPulseAbility.class"
+  },
+  {
+   "i": 160,
+   "en": "Interdiction pulse",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/InterdictionPulseAbility.class"
+  },
+  {
+   "i": 161,
+   "en": "Slows* the fleet and uses its active sensor network to charge and release a powerful energy pulse that can disrupt the drive fields of nearby fleets.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/InterdictionPulseAbility.class"
+  },
+  {
+   "i": 162,
+   "en": "Sustained Burn",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/InterdictionPulseAbility.class"
+  },
+  {
+   "i": 163,
+   "en": "The disruption interrupts any movement-related abilities (such as %s or %s) and prevents their use for some time afterwards. Also interrupts charging interdiction pulses.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/InterdictionPulseAbility.class"
+  },
+  {
+   "i": 164,
+   "en": "The disruption lasts for %s seconds, modified by %s second for every %s points of difference in the fleets' sensor strengths.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/InterdictionPulseAbility.class"
+  },
+  {
+   "i": 165,
+   "en": "Coordinate the fleet's active sensor network to scan all the planets in the system and identify the most promising candidate for a full survey operation.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/RemoteSurveyAbility.class"
+  },
+  {
+   "i": 166,
+   "en": "Increases the range at which the fleet can be detected by %s* units and brings the fleet to a near-stop as drives are powered down to reduce interference.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/RemoteSurveyAbility.class"
+  },
+  {
+   "i": 167,
+   "en": "No suitable planets in the star system.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/RemoteSurveyAbility.class"
+  },
+  {
+   "i": 168,
+   "en": "Remote survey",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/RemoteSurveyAbility.class"
+  },
+  {
+   "i": 169,
+   "en": "Remote survey already performed in this star system.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/RemoteSurveyAbility.class"
+  },
+  {
+   "i": 170,
+   "en": "An emergency maneuver when performed inside a slipstream, reversing drive field polarity",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/ReversePolarityToggle.class"
+  }
+ ]
+}

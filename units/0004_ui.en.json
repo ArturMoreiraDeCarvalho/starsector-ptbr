@@ -1,0 +1,111 @@
+{
+ "chunk": 4,
+ "cat": "ui",
+ "items": [
+  {
+   "i": 1,
+   "en": "Mothball",
+   "ctx": "data/strings/tooltips.json fleetScreen.tooltipMothball.title"
+  },
+  {
+   "i": 2,
+   "en": "Mothballed %ss can't be used in combat or repaired, and do not provide any fuel, cargo, or personnel capacity.\\n\\nMothballing a ship will reduce its combat readiness to zero; restoring it will require time and supplies.",
+   "ctx": "data/strings/tooltips.json fleetScreen.tooltipMothball.body"
+  },
+  {
+   "i": 3,
+   "en": "Mothballed %ss can't be used in combat or repaired, and do not provide any fuel, cargo, or personnel capacity.\\n\\nRestoring this ship's combat readiness after unmothballing it will consume %s supplies over %s day(s).",
+   "ctx": "data/strings/tooltips.json fleetScreen.tooltipUnmothball.body"
+  },
+  {
+   "i": 4,
+   "en": "Scuttle",
+   "ctx": "data/strings/tooltips.json fleetScreen.tooltipScuttle.title"
+  },
+  {
+   "i": 5,
+   "en": "Strip this %s of anything useful, gaining %d supplies, %d fuel, and %d heavy machinery.",
+   "ctx": "data/strings/tooltips.json fleetScreen.tooltipScuttle.body"
+  },
+  {
+   "i": 6,
+   "en": "Suspend Repairs & Recovery",
+   "ctx": "data/strings/tooltips.json fleetScreen.tooltipSuspendRepairs.title"
+  },
+  {
+   "i": 7,
+   "en": "Prevents this %s from performing repairs or recovering combat readiness. Full repairs and CR recovery will consume approximately %s supplies over %s days if allowed to proceed.",
+   "ctx": "data/strings/tooltips.json fleetScreen.tooltipSuspendRepairs.body"
+  },
+  {
+   "i": 8,
+   "en": "Prevents this %s from performing repairs or recovering combat readiness. This %s does not currently require repairs or CR recovery.",
+   "ctx": "data/strings/tooltips.json fleetScreen.tooltipSuspendRepairsNotNeeded.body"
+  },
+  {
+   "i": 9,
+   "en": "Refit",
+   "ctx": "data/strings/tooltips.json fleetScreen.tooltipRefit.title"
+  },
+  {
+   "i": 10,
+   "en": "Change the weapons and hullmods equipped on this ship.",
+   "ctx": "data/strings/tooltips.json fleetScreen.tooltipRefit.body"
+  },
+  {
+   "i": 11,
+   "en": "Logistical Priority",
+   "ctx": "data/strings/tooltips.json fleetScreen.tooltipLogisticalPriority.title"
+  },
+  {
+   "i": 12,
+   "en": "%ss with logistical priority get first pick of crew and supplies available for repairs.",
+   "ctx": "data/strings/tooltips.json fleetScreen.tooltipLogisticalPriority.body"
+  },
+  {
+   "i": 13,
+   "en": "Elite",
+   "ctx": "data/strings/tooltips.json fleetScreen.tooltipCrewElite.title"
+  },
+  {
+   "i": 14,
+   "en": "Crew this %s with the best personnel available.",
+   "ctx": "data/strings/tooltips.json fleetScreen.tooltipCrewElite.body"
+  },
+  {
+   "i": 15,
+   "en": "Veteran",
+   "ctx": "data/strings/tooltips.json fleetScreen.tooltipCrewVeteran.title"
+  },
+  {
+   "i": 16,
+   "en": "Crew this %s with only veteran crew and below, if possible.",
+   "ctx": "data/strings/tooltips.json fleetScreen.tooltipCrewVeteran.body"
+  },
+  {
+   "i": 17,
+   "en": "Regular",
+   "ctx": "data/strings/tooltips.json fleetScreen.tooltipCrewRegular.title"
+  },
+  {
+   "i": 18,
+   "en": "Crew this %s with only regular crew and below, if possible.",
+   "ctx": "data/strings/tooltips.json fleetScreen.tooltipCrewRegular.body"
+  },
+  {
+   "i": 19,
+   "en": "Green",
+   "ctx": "data/strings/tooltips.json fleetScreen.tooltipCrewGreen.title"
+  },
+  {
+   "i": 20,
+   "en": "Crew this %s only with green crew, if possible.",
+   "ctx": "data/strings/tooltips.json fleetScreen.tooltipCrewGreen.body"
+  },
+  {
+   "i": 21,
+   "en": "Crew fraction on this %s.",
+   "ctx": "data/strings/tooltips.json fleetScreen.tooltipCrewBar.body"
+  }
+ ]
+}

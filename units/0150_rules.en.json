@@ -1,0 +1,126 @@
+{
+ "chunk": 150,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"Ah, I knew you were as intelligent as you look,\" he winks\r\n\r\n\"Yes, the academy is renewing itself! After that embarrassing incident with Provost Kallichore, the Academy has come under new leadership- bold leadership. To the new provost, Anahita Baird!\" He raises his glass in a toast. You discover that you're holding a glass of something as well.",
+   "ctx": "data/campaign/rules.csv goToGA_barEvent1b [text]"
+  },
+  {
+   "i": 2,
+   "en": "You raise your glass, and the senior academician enthusiastically hits it with their own, then downs the drink.",
+   "ctx": "data/campaign/rules.csv goToGA_barEvent2a [text]"
+  },
+  {
+   "i": 3,
+   "en": "You set the glass down, giving the academician a skeptical look. He shrugs, and downs his own drink without your accompaniment.",
+   "ctx": "data/campaign/rules.csv goToGA_barEvent2b [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"To fresh blood, my enemies slaughtered and their lands conquered. Isn't that right? I mean this in purely metaphorical terms, of course, but I daresay the Hegemony purge has cleared out the old guard and opened up some opportunities. Which brings me to you.\"\r\n\r\nA hand lands on your shoulder, somewhat intrusively.\r\n\r\n\"The new provost asked me to find someone like you, and now I've found you. Come to the Galatia Academy- in the Galatia system of course, but you don't need me to tell you that, ha-ha. Meet with Provost Baird.\"",
+   "ctx": "data/campaign/rules.csv goToGA_barEvent3 [text]"
+  },
+  {
+   "i": 5,
+   "en": "His face turns serious for a moment, \"She has a vision for the future, captain. And in times as extraordinary as these, she might just realize it. Hear what she has to say. Keep an open mind.\"\r\n\r\nHis tone lightens again, and $heOrShe glances at the officers he was previously carousing with. \"Now if you would pardon me, I do believe that I owe a round for my new friends. I shall see you around the Galatia Academy soon, I'm sure.\"",
+   "ctx": "data/campaign/rules.csv goToGA_barEvent4 [text]"
+  },
+  {
+   "i": 6,
+   "en": "The academy agent makes a quiet request through their personal comms then gives you a patient look.\r\n\r\n\"The new provost is very, very busy. New administration after the, um, recent unpleasantness, you know? This could take some time. Days, weeks sometimes. You might want to leave your comms ID with me and come back in-\"\r\n\r\nThe comms unit chimes softly.\r\n\r\n\"Yes? ... Really? I mean, yes, we’ll come up immediately.\" The agent turns to you, \"Provost Baird will see you. Right now. Please follow me, captain.\"",
+   "ctx": "data/campaign/rules.csv gaRequestMeeting [text]"
+  },
+  {
+   "i": 7,
+   "en": "You are led through a discreet secure-access door to a series of passages that bypass the public concourses. A travel-lift activates at the academy agent’s presence and you step inside at the agent's encouraging nod.\r\n\r\nThe lift pod is wrapped by diamond-matrix through which you can see the canyon-like sweep of plazas pass by, filled with crowds of students, academics, and technicians. Raising your gaze, you see that the pod is approaching a tiered substructure which seems to hang over the curve of the station interior. The pod slows and you shuffle to adjust to the local grav-effect field gradient.\r\n\r\nYou must be near the core of Galatia Station.",
+   "ctx": "data/campaign/rules.csv gaRequestMeeting1 [text]"
+  },
+  {
+   "i": 8,
+   "en": "A guard wearing a mirrored faceplate dismisses the junior agent and ushers you to an antechamber filled with small groups waiting to meet with the provost. They have perfect hair and perfect skin unmarred by the radiation and burns that mark a spacer. Those cybernetics you can spot are consciously stylish adornments rather than crude augments. Many have brought their young progeny with them. The stench of wealth and influence is palpable.\r\n\r\nHeads turn as you are led past all of them toward a set of large doors inlaid with wood from what looks like real trees. You feel their glares on you like point defense fire on heavy armor.",
+   "ctx": "data/campaign/rules.csv gaRequestMeeting2 [text]"
+  },
+  {
+   "i": 9,
+   "en": "You enter the office and the doors close silently behind you. Provost Anahita Baird turns to acknowledge your entrance while concluding a call via her desk tablet. \r\n\r\nAncient wooden shelves for real, paper books gleam darkly in subdued light emanating tastefully from nowhere. The shelves are only half-stocked from crates scattered around the office. A brass orrery of the Galatia system adorns a plinth in the midst of a seating cluster. Parchments mounted behind the provost’s desk display intimidating intellectual rankings, their seals of authenticity glowing softly.\r\n\r\n\"I apologize for the mess,\" she says, having noted your examination. \"I've only just moved office.\"",
+   "ctx": "data/campaign/rules.csv gaRequestMeeting3 [text]"
+  },
+  {
+   "i": 10,
+   "en": "Before you speak she raises a hand.\r\n\r\n\"You're not here to set up a donation. Why then? Because it is very much in my interest to know about the up-and-coming mercenary captain who is capable of reversing the unfortunate situation created by my ambitious but incautious predecessor.\"\r\n\r\nA pause.\r\n\r\n\"This institution is not devoted to purely theoretical work,\" she forms a cradle with her hands, as if to hold an idea as she explains it, \"For what use is knowledge if it does not give us the power, and wisdom, to change the world for the better?\"\r\n\r\nShe leaves the question hanging in the air for a moment.",
+   "ctx": "data/campaign/rules.csv gaRequestMeeting4noTutorial [text]"
+  },
+  {
+   "i": 11,
+   "en": "Before you speak she raises a hand.\r\n\r\n\"You're not here to set up a donation. Why then? Because it is very much in my interest to know about the up-and-coming mercenary captain who corrected the unfortunate situation created by my ambitious but incautious predecessor.\"\r\n\r\nA pause.\r\n\r\n\"This institution is not devoted to purely theoretical work,\" she forms a cradle with her hands, as if to hold an idea as she explains it, \"For what use is knowledge if it does not give us the power, and wisdom, to change the world for the better?\"\r\n\r\nShe leaves the question hanging in the air for a moment.",
+   "ctx": "data/campaign/rules.csv gaRequestMeeting4 [text]"
+  },
+  {
+   "i": 12,
+   "en": "Provost Baird cuts you off as you begin to speak, \"The question was rhetorical, captain.\"",
+   "ctx": "data/campaign/rules.csv gaRequestMeeting4a [text]"
+  },
+  {
+   "i": 13,
+   "en": "She brings her hands apart. \"The Galatia Academy could make use of someone like you. Someone capable, discreet,\" and here she pauses, a tactic for emphasis she appears to employ often,  \"And very well paid. I do not wish to make the same mistake as my predecessor. If one wants work done properly, appropriate incentive must be provided.\" \r\n\r\nShe leans back and looks to you, done speaking. For real, this time. Probably.",
+   "ctx": "data/campaign/rules.csv gaRequestMeeting5 [text]"
+  },
+  {
+   "i": 14,
+   "en": "You manage to surprise Provost Baird. She is silent for several confused seconds, processing your statement.\r\n\r\n\"I see,\" she says finally, \"Um. Talk to my assistant about that. He'll make the arrangements.\" The provost shakes her head once as if to clear the idea from her mind. \r\n\r\n\"Now, where were we.\"",
+   "ctx": "data/campaign/rules.csv gaMeetingScholarship [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"The Hegemony saddled us with that as a disciplinary measure,\" the provost explains levelly. \"Had they seized our assets directly, it would be a clear violation of their principle of non-intervention in matters pertaining to the politics of the Galatia Academy. They'd look little better than pirates.\"\r\n\r\n\"Instead, as his last act in the office of provost, they had my predecessor Tomas Kallichore sign a range of burdensome contracts before he was removed to a Hegemony oubliette.\"\r\n\r\nBaird smiles wryly, as if admiring the move. \"Much to your benefit.\"",
+   "ctx": "data/campaign/rules.csv gaMeetingStipend [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"I shall put you in contact with Academician Alviss Sebestyen. He will be my liaison with you. You will receive a few mundane tasks from various departments in the Academy so that we may build a working rapport and provide you with the funds required to bring your fleet up to my standards.\" \r\n\r\nShe looks over her spectacles at you, \"Most of all I require evidence of trust. I intend to remain provost here for a long time, and productive relationships are built on trust.\"\r\n\r\n\"We will speak again before long, I'm sure.\" She looks out the dimmed windows at the great halls of the Galatia Academy. \"You cannot imagine what we shall accomplish.\" \r\n\r\nShe smiles now. Not for you, but for herself.",
+   "ctx": "data/campaign/rules.csv gaMeetingAccept [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"I see.\" \r\n\r\nThe provost's tone seems to suggest that you've answered her question incorrectly. \"There are other visionary space captains out there, I’m sure, who would be interested in extremely profitable work. Nonetheless, consider my offer carefully. Perhaps after some thought you will see just how reasonable it is.\"\r\n\r\nShe turns away, to her desk console, and activates some display which casts cool light over her face. \"After you have time to properly consider my offer, contact my assistant, Academician Sebestyen. Someone will give you his comms ID.\"\r\n\r\nShe taps at her console. \"Good day, captain.\"",
+   "ctx": "data/campaign/rules.csv gaMeetingDecline [text]"
+  },
+  {
+   "i": 18,
+   "en": "An academy agent quietly escorts you back to the landing promenade. You get the impression that they've been ordered not to ask you questions despite their obvious curiosity.\r\n\r\nA party of new inductees led by another agent gawk up at the station structure, at you, and at the passing academicians who, serious-faced, appear to be entirely consumed by an esoteric debate.",
+   "ctx": "data/campaign/rules.csv gaMeetingEnd [text]"
+  },
+  {
+   "i": 19,
+   "en": "After a short wait, your connection request is accepted by an automated responder.\r\n\r\n\"You've reached the offices of Provost Anahita Baird. To secure a number in the appointment queue, please inquire with your administrative contact. This call will be terminated in three seconds.\"\r\n\r\nThe machine is true to its word.",
+   "ctx": "data/campaign/rules.csv bairdGreetingGoAway [text]"
+  },
+  {
+   "i": 20,
+   "en": "Your connection is accepted immediately. An assistant appears, and they seem to recognize you without the need for introduction. \"Just a moment $PlayerSirOrMadam, the Provost will be with you shortly.\"\r\n\r\nAfter a short wait, the comms open to Provost Baird in her office. She takes just a moment to finish with some work on another holoscreen then turns to you. \r\n\r\n\"Ah, $playerName. What brings you to me at this hour?\"",
+   "ctx": "data/campaign/rules.csv bairdDefaultGreeting [text]"
+  },
+  {
+   "i": 21,
+   "en": "Your connection is accepted immediately. A junior assistant appears, and they recognize you without the need for introduction. \"Just a moment $PlayerSirOrMadam $playerName,\" and the display flicks to a holding pattern displaying the crest of the Galatia Academy. \r\n\r\nThe junior assistant re-appears. \"I'm very sorry, but the Provost requests your physical presence for a meeting as soon as possible.\" Two taps on a datapad, and they continue, \"A landing slot has been set aside for your arrival, $PlayerSirOrMadam. I'm sure we will be delighted to see you shortly. Please have a wonderful day.\"\r\n\r\nWith that, and you having not spoken a word, the line goes dark.",
+   "ctx": "data/campaign/rules.csv bairdIntroGreeting [text]"
+  },
+  {
+   "i": 22,
+   "en": "You find a junior academy agent pacing in the landing bay reception lounge. As soon as you enter, they spot you with a look of relief and walk quickly to meet you.\r\n\r\n\"Captain $playerLastName! Thank you for coming. The provost will see you immediately. If you would just follow me this way, thank you...\"",
+   "ctx": "data/campaign/rules.csv gaBairdShuttleOptionSel [text]"
+  },
+  {
+   "i": 23,
+   "en": "The junior agent leads you through a series of back hallways and secure lifts toward the administrative suite occupied by Provost Baird at the core of the station. \r\n\r\nYou are led past diamond-matrix windows through which you can see vistas of the curving internal canyons of Galatia Academy Station. The light dims, and you approach the waiting room of the office of the provost. It is filled with representatives of the most well-connected of the Persean Sector, whose eyes focus on you, the interloper, like the beam array of a Paladin PD system.\r\n\r\nThe self-assured march of the junior agent seems to project the impression that you're performing some adjutant role - your presence is immediately ignored.",
+   "ctx": "data/campaign/rules.csv bairdIntro1 [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"Ah, Captain $playerName.\" Provost Anahita Baird taps something away on her desk interface and turns to address you.\r\n\r\n\"I am pleased that you've come to meet with me. And for all the work you've done for my project already.\"\r\n\r\nShe lowers her head just a degree, \"You didn't think I'd be wasting your time with make-work, did you?\" She considers this for a moment, \"Well, there was some. Noise had to be introduced to the system to ensure that an outside observer would not immediately identify you as my agent.\"",
+   "ctx": "data/campaign/rules.csv bairdIntro2 [text]"
+  }
+ ]
+}

@@ -1,0 +1,551 @@
+{
+ "chunk": 1,
+ "cat": "ui",
+ "items": [
+  {
+   "i": 1,
+   "en": "The $faction $fleetOrShip maneuvers to remain supported by the station, allowing your fleet to disengage. However, your forces are likely to be harried as they pull back.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.initialWithStationVsLargeFleet"
+  },
+  {
+   "i": 2,
+   "en": "The $faction $fleetOrShip maneuvers to prevent you from disengaging easily.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.initialAggressive"
+  },
+  {
+   "i": 3,
+   "en": "The $faction $fleetOrShip is attempting to disengage.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.initialDisengage"
+  },
+  {
+   "i": 4,
+   "en": "The $faction $fleetOrShip carefully maintains its distance, keeping ready to disengage in the event of hostilities.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.initialCareful"
+  },
+  {
+   "i": 5,
+   "en": "The $faction $fleetOrShip assumes a neutral posture.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.initialNeutral"
+  },
+  {
+   "i": 6,
+   "en": "The $faction $fleetOrShip seems ready to fight despite being faced with superior forces, but isn't likely to press the issue.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.initialHoldVsStrongerEnemy"
+  },
+  {
+   "i": 7,
+   "en": "The $enemyFactionAndTheirAllies maneuver to prevent you from disengaging easily.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.initialAggressiveSide"
+  },
+  {
+   "i": 8,
+   "en": "The $enemyFactionAndTheirAllies are attempting to disengage.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.initialDisengageSide"
+  },
+  {
+   "i": 9,
+   "en": "The $enemyFactionAndTheirAllies carefully maintain their distance, keeping ready to disengage in the event of hostilities.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.initialCarefulSide"
+  },
+  {
+   "i": 10,
+   "en": "The $enemyFactionAndTheirAllies assume a neutral posture.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.initialNeutralSide"
+  },
+  {
+   "i": 11,
+   "en": "The $enemyFactionAndTheirAllies seem ready to fight despite being faced with superior forces, but aren't likely to press the issue.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.initialHoldVsStrongerEnemySide"
+  },
+  {
+   "i": 12,
+   "en": "It's aware of your identity due to your $playerFleetOrShip's transponder being turned on.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.initialKnows"
+  },
+  {
+   "i": 13,
+   "en": "Indications are that it's aware of your identity, despite your $playerFleetOrShip's transponder being turned off, likely due to having seen you recently.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.initialKnowsTOff"
+  },
+  {
+   "i": 14,
+   "en": "Despite your $playerFleetOrShip's transponder being turned off, it appears to be aware of your identity - likely due to the presence of notable ships in your fleet.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.initialKnowsUnique"
+  },
+  {
+   "i": 15,
+   "en": "It does not appear to be certain of your identity. Any hostilities will have a reduced impact on your reputation.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.initialDoesntKnow"
+  },
+  {
+   "i": 16,
+   "en": "They're aware of your identity due to your $playerFleetOrShip's transponder being turned on.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.initialKnowsSide"
+  },
+  {
+   "i": 17,
+   "en": "Indications are that they're aware of your identity, despite your $playerFleetOrShip's transponder being turned off, likely due to having seen you recently.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.initialKnowsTOffSide"
+  },
+  {
+   "i": 18,
+   "en": "They do not appear to be certain of your identity. Any hostilities will have a reduced impact on your reputation.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.initialDoesntKnowSide"
+  },
+  {
+   "i": 19,
+   "en": "$yourForcesWereOrYourSideWas defeated in the last engagement.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.battleDefeat"
+  },
+  {
+   "i": 20,
+   "en": "$yourForcesWereOrYourSideWas utterly defeated in the last engagement.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.battleTotalDefeat"
+  },
+  {
+   "i": 21,
+   "en": "$yourForcesWereOrYourSideWas victorious in the last engagement.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.battleVictory"
+  },
+  {
+   "i": 22,
+   "en": "$yourForcesWereOrYourSideWas able to gain a complete victory in the last engagement.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.battleTotalVictory"
+  },
+  {
+   "i": 23,
+   "en": "All of your ships were destroyed in the last engagement.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.battleFleetLost"
+  },
+  {
+   "i": 24,
+   "en": "There were significant friendly fire incidents over the course of the encounter.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.friendlyFireRepLoss"
+  },
+  {
+   "i": 25,
+   "en": "Your forces engage in pursuit, as ordered.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.pursuitAutoresolve"
+  },
+  {
+   "i": 26,
+   "en": "The retreating enemy forces were able to disengage without losing any ships.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.pursuitVictoryNoLosses"
+  },
+  {
+   "i": 27,
+   "en": "The retreating enemy forces were able to disengage, but not without taking losses.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.pursuitVictoryLosses"
+  },
+  {
+   "i": 28,
+   "en": "No enemy ships managed to escape.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.pursuitTotalVictory"
+  },
+  {
+   "i": 29,
+   "en": "The enemy forces were able to turn the tables and hand your forces a defeat.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.pursuitDefeat"
+  },
+  {
+   "i": 30,
+   "en": "In a surprising turn of events, the retreating enemy forces were able to turn the tables and obtain a crushing victory.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.pursuitTotalDefeat"
+  },
+  {
+   "i": 31,
+   "en": "$yourForcesWereOrYourSideWas able to disengage from the enemy.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.escapeDefeat"
+  },
+  {
+   "i": 32,
+   "en": "None of your side's ships managed to escape.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.escapeTotalDefeat"
+  },
+  {
+   "i": 33,
+   "en": "$yourForcesWereOrYourSideWas able to turn the tables on the pursuing enemy and hand them a defeat.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.escapeVictory"
+  },
+  {
+   "i": 34,
+   "en": "$yourForcesWereOrYourSideWas able to turn the tables on the pursuing enemy and crushed them utterly.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.escapeTotalVictory"
+  },
+  {
+   "i": 35,
+   "en": "The ships on both sides have been reduced to so much scrap metal.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.engagementMutualDestruction"
+  },
+  {
+   "i": 36,
+   "en": "But, not all is lost. You take command of the $boardableShipName, organizing repair teams and focusing on regaining basic propulsion and life support. Your efforts are successful, and several hours later, you're able to get underway.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.mutualDestructionRepairs"
+  },
+  {
+   "i": 37,
+   "en": "The enemy forces harass your ships as they retreat, causing much disruption, but ultimately do not force a battle.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.enemyHarass"
+  },
+  {
+   "i": 38,
+   "en": "The enemy ships are unable to offer pursuit, allowing your forces to withdraw without further incident.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.enemyUnableToPursue"
+  },
+  {
+   "i": 39,
+   "en": "The enemy ships make no move to pursue, allowing your forces to withdraw without further incident.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.enemyDecidesNotToPursue"
+  },
+  {
+   "i": 40,
+   "en": "The enemy fleet pursues your forces.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.enemyPursuit"
+  },
+  {
+   "i": 41,
+   "en": "$yourForcesWereOrYourSideWas able to recover some combat readiness as they control the battlespace and the engagement was limited.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.playerRecovery"
+  },
+  {
+   "i": 42,
+   "en": "The enemy forces are able to recover some combat readiness as they control the battlespace and the engagement was limited.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.enemyRecovery"
+  },
+  {
+   "i": 43,
+   "en": "Both sides are able to recover some combat readiness as they stand down after a limited and chaotic engagement.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.bothRecovery"
+  },
+  {
+   "i": 44,
+   "en": "The opposing fleet is able to disengage cleanly as your forces are unable to offer pursuit.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.enemyCleanDisengage"
+  },
+  {
+   "i": 45,
+   "en": "The opposing fleet is able to disengage cleanly as the forces on your side are unable to offer pursuit.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.enemyCleanDisengageSide"
+  },
+  {
+   "i": 46,
+   "en": "It looks like the opposing fleet will be able disengage without your being able to force a fight.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.playerUnableToPursue"
+  },
+  {
+   "i": 47,
+   "en": "None of your ships are in any shape to offer pursuit.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.playerUnableToPursueNoReadyShips"
+  },
+  {
+   "i": 48,
+   "en": "Your ships are focused on regaining combat readiness and are unable to offer pursuit.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.playerUnableToPursueStoodDown"
+  },
+  {
+   "i": 49,
+   "en": "Despite retreating from the last engagement, your forces have disrupted the enemy, and can disengage without being pursued.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.playerDisruptedEnemy"
+  },
+  {
+   "i": 50,
+   "en": "Despite being victorious in the last engagement, your forces have suffered sufficient losses to be unable to offer pursuit as the enemy disengages.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.enemyDisruptedPlayer"
+  },
+  {
+   "i": 51,
+   "en": "Despite being victorious in the last engagement, the forces on your side have suffered sufficient losses to be unable to offer pursuit as the enemy disengages.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.enemyDisruptedPlayerSide"
+  },
+  {
+   "i": 52,
+   "en": "After a tactical victory, your forces have an opportunity to cleanly disengage from the enemy.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.cleanDisengageOpportunity"
+  },
+  {
+   "i": 53,
+   "en": "Your fleet is too large to be able to disengage easily. Engaging the enemy and destroying, disabling, or forcing enough of their ships to retreat will allow your fleet to disengage without being pursued.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.playerTooLargeToDisengage"
+  },
+  {
+   "i": 54,
+   "en": "too large to be able to disengage",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.highlightTooLarge"
+  },
+  {
+   "i": 55,
+   "en": "disengage without being pursued",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.highlightDisengage"
+  },
+  {
+   "i": 56,
+   "en": "unable to offer pursuit",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.highlightDisruptedPlayer"
+  },
+  {
+   "i": 57,
+   "en": "cleanly disengage from the enemy",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.highlightCleanDisengage"
+  },
+  {
+   "i": 58,
+   "en": "Your ships make no move to pursue, allowing the enemy forces to withdraw without further incident.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.playerLetGo"
+  },
+  {
+   "i": 59,
+   "en": "Your forces harass the enemy ships as they retreat, causing much disruption, but ultimately do not force a battle.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.playerHarass"
+  },
+  {
+   "i": 60,
+   "en": "Your order a series of maneuvers that leave the enemy commander with progressively fewer and fewer options.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.engageForce"
+  },
+  {
+   "i": 61,
+   "en": "The opposing fleet tries to disengage, but they won't be able to get away without a fight.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.engagePursuit"
+  },
+  {
+   "i": 62,
+   "en": "The opposing fleet moves in to join battle.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.engageMutual"
+  },
+  {
+   "i": 63,
+   "en": "Your forces pursue the enemy and manage to close in enough to force battle.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.pursue"
+  },
+  {
+   "i": 64,
+   "en": "The $faction $fleetOrShip maneuvers for another engagement.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.postBattleAggressive"
+  },
+  {
+   "i": 65,
+   "en": "The $faction $fleetOrShip maneuvers to disengage.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.postBattleDisengage"
+  },
+  {
+   "i": 66,
+   "en": "The $enemyFactionAndTheirAllies maneuver for another engagement.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.postBattleAggressiveSide"
+  },
+  {
+   "i": 67,
+   "en": "The $enemyFactionAndTheirAllies maneuver to disengage.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.postBattleDisengageSide"
+  },
+  {
+   "i": 68,
+   "en": "You cut the comm link and consider the tactical options available.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.cutComm"
+  },
+  {
+   "i": 69,
+   "en": "The salvage crews were able to restore basic systems on $repairedShipList.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.repairReport"
+  },
+  {
+   "i": 70,
+   "en": "Preliminary reports indicate $crewLost crew and $marinesLost marines were lost during the last engagement.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.casualtyReport"
+  },
+  {
+   "i": 71,
+   "en": "After the battle, $crewRecovered crew and $marinesRecovered marines were rescued from lifepods and intact compartments in the wrecks.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.recoveryReport"
+  },
+  {
+   "i": 72,
+   "en": "Your forces are preparing to begin salvage operations, when suddenly an enemy ship's systems come back online. A quick scan picks up $numLifeSigns lifesign(s) on board.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.enemyShipBoardable"
+  },
+  {
+   "i": 73,
+   "en": "Your forces engage the enemy ship, and a few well-placed shots quickly neutralize it.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.engageBoardableDisabled"
+  },
+  {
+   "i": 74,
+   "en": "Your forces engage the enemy ship. A huge explosion blanks out the viewscreens shortly after a few shots impact its damaged hull, and all that's left when visuals come back online is a slowly expanding ball of debris.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.engageBoardableDestroyed"
+  },
+  {
+   "i": 75,
+   "en": "Your forces move to engage the enemy ship, but its crew is able to bring the drive field back online at the last moment and it manages to get away.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.engageBoardableEscaped"
+  },
+  {
+   "i": 76,
+   "en": "Your forces stand down and let the enemy ship get away.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.letBoardableGo"
+  },
+  {
+   "i": 77,
+   "en": "On receiving its orders, $boardingTaskForceShips moves in to approach the enemy ship.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.boardingTaskForceSelectedOneShip"
+  },
+  {
+   "i": 78,
+   "en": "On receiving their orders, $boardingTaskForceShips move in to approach the enemy ship.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.boardingTaskForceSelectedMultiple"
+  },
+  {
+   "i": 79,
+   "en": "A hard dock with the enemy hull is established and the assault teams quickly override the security systems on airlocks and blast temporary access points in weakened sections of the hull.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.boardingApproachDock"
+  },
+  {
+   "i": 80,
+   "en": "Assault teams are launched from about a kilometer out and approach the hull in waves, using personal propulsion systems to brake on the final approach. The defenders have an opportunity to fire on the landing forces with impunity until enough teams land to push inside the hull.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.boardingApproachLaunch"
+  },
+  {
+   "i": 81,
+   "en": "As your assault teams start to overcome resistance inside the enemy ship, it self-destructs. Most of the men and women in the boarding party are killed by the explosion.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.boardingOutcomeSelfDestruct"
+  },
+  {
+   "i": 82,
+   "en": "The $boardingTaskForceShipName is destroyed.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.boardingOutcomeShipLost"
+  },
+  {
+   "i": 83,
+   "en": "The $boardingTaskForceShipName is seriously damaged.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.boardingOutcomeShipDamaged"
+  },
+  {
+   "i": 84,
+   "en": "The entire task force docked with the enemy ship is destroyed.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.boardingOutcomeTaskForceLost"
+  },
+  {
+   "i": 85,
+   "en": "Some of the ships docked with the enemy ship when it exploded are destroyed, while the rest take serious damage.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.boardingOutcomeTaskForceLostPartial"
+  },
+  {
+   "i": 86,
+   "en": "Fortunately, none of the ships in the task force are destroyed.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.boardingOutcomeTaskForceDamaged"
+  },
+  {
+   "i": 87,
+   "en": "After overcoming all organized resistance and sweeping every compartment, the commander of the boarding party reports the enemy ship secured and ready to accept a prize crew.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.boardingOutcomeSuccess"
+  },
+  {
+   "i": 88,
+   "en": "After overcoming all organized resistance and sweeping every compartment, the commander of the boarding party reports the enemy ship secured. Unfortunately, collateral damage from the fighting has crippled core ship systems beyond repair.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.boardingOutcomeTooDamaged"
+  },
+  {
+   "i": 89,
+   "en": "The entrenched enemy forces are able to hold back your assault teams long enough to finish engine repairs and get away.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.boardingOutcomeEscape"
+  },
+  {
+   "i": 90,
+   "en": "At the last moment, the enemy ship regains propulsion and is able to alter its trajectory enough to avoid most of the incoming attackers, gaining enough time to get away. After a recovery effort, $boardingCrewLost crew and $boardingMarinesLost marine(s) remain unaccounted for.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.boardingCleanEscapeMissedLaunch"
+  },
+  {
+   "i": 91,
+   "en": "You have no marines available to conduct boarding operations. Somewhat unhelpfully, an automated system chimes in with a projection that a boarding operation would have zero chance of success.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.boardingNoMarines"
+  },
+  {
+   "i": 92,
+   "en": "You have $marines marine(s) available. According to simulations run by a gamma-level AI, a boarding operation would have a $boardingSuccessChance chance of success.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.boardingProjection"
+  },
+  {
+   "i": 93,
+   "en": "An after-action assessment indicates $boardingMarinesLost marine(s) lost during the fighting.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.boardingCasualtyReport"
+  },
+  {
+   "i": 94,
+   "en": "The crew of one of your disabled ships has effected enough repairs for critical systems to come back online. If it's able to regain propulsion, it might be able to rejoin your fleet.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.friendlyShipBoardable"
+  },
+  {
+   "i": 95,
+   "en": "Unfortunately, enemy ships close in and fire a few well-placed shots to eliminate any chance of that.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.engageFriendlyBoardableDisabled"
+  },
+  {
+   "i": 96,
+   "en": "Unfortunately, enemy ships close in and fire on it before further repairs could be completed. A stray shot must have collapsed the reactor containment field - the ship explodes, leaving behind a slowly expanding field of debris.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.engageFriendlyBoardableDestroyed"
+  },
+  {
+   "i": 97,
+   "en": "Before the enemy can close in, engine repairs are completed and the ship gets away to rejoin your fleet.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.engageFriendlyBoardableEscaped"
+  },
+  {
+   "i": 98,
+   "en": "The enemy forces stand down and let the ship complete its repairs and limp away to rejoin your fleet.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.engageFriendlyBoardableLetGo"
+  },
+  {
+   "i": 99,
+   "en": "You take command of the $boardableShipName, quickly organizing repair teams. If it's able to regain propulsion, you might be able to get away.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.lastFriendlyShipRepairs"
+  },
+  {
+   "i": 100,
+   "en": "Before the enemy can close in, engine repairs are completed and you're able to get away!",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.lastFriendlyBoardableEscaped"
+  },
+  {
+   "i": 101,
+   "en": "The enemy forces stand down and let your ship complete repairs and limp away.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.lastFriendlyBoardableLetGo"
+  },
+  {
+   "i": 102,
+   "en": "The last thing you remember is the sudden burst of acceleration as the escape pod you're in tears away from your doomed ship.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.finalOutcomeNoShipsLeft"
+  },
+  {
+   "i": 103,
+   "en": "Salvage crews are able to recover $creditsLooted credit(s) from CPU cores still active in the wreckage.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.creditsLootedReport"
+  },
+  {
+   "i": 104,
+   "en": "You transfer command to $flagship for the upcoming engagement.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.selectedFlagship"
+  },
+  {
+   "i": 105,
+   "en": "There's no salvage to be had.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.noSalvageReport"
+  },
+  {
+   "i": 106,
+   "en": "Your $playerFleetOrShip does not participate in salvage operations due to its limited contributions throughout the encounter.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.noSalvageReportPlayerDidNothing"
+  },
+  {
+   "i": 107,
+   "en": "Your $playerFleetOrShip is able to participate in salvage operations due to its contributions throughout the encounter.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.salvageReportPlayer"
+  },
+  {
+   "i": 108,
+   "en": "Your order $crashMothballList to power down all combat systems to avoid the risk of malfunctions during battle. The ship's crew directs all available resources to keep the engines running as smoothly as possible.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.crashMothballSelectedOneShip"
+  },
+  {
+   "i": 109,
+   "en": "Your order $crashMothballList to power down all combat systems to avoid the risk of malfunctions during battle. The ship's crews direct all available resources to keep the engines running as smoothly as possible.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.crashMothballSelectedMultiple"
+  }
+ ]
+}

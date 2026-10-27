@@ -1,0 +1,166 @@
+{
+ "chunk": 230,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"You survived,\" Ram says, with the barest hint of ruthless delight. \"You are a survivor, yes? Stronger now for overcoming. In the words of the Supreme Executor, 'Pain's gift is clarity.'\"\r\n\r\n\"You see, I was merely acting my part in the grand tower of authority necessary to maintain order. If it were not me in the uniform that day, it would have been another.\" Ram leans in, an odd gleam to his eyes now apparent. \"Don't you see? It is bigger than me or you. Hold your animal instinct in check, and listen.\"\r\n\r\n\"The Sindrian Diktat is drifting, leaderless. Do you imagine Andrada is really in command? With the ministries fallen to infighting and self-serving corruption? He would never allow it. He would sooner die than let his vision come to this! Something must be done!\"",
+   "ctx": "data/campaign/rules.csv sdtuRamRespThugsBeat [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"Precisely,\" Ram leans in, an odd gleam to his eyes now apparent.\r\n\r\n\"It has become a hateful thing, hasn't it? It is nothing like the early days, when strong men pure of spirit knew what needed to be done. The course of state has strayed! It is obvious that Supreme Executor Andrada is no longer at the helm, that he no longer truly leads us. It is tragic, isn't it? A great man reduced to this by declining health and bad advisors. It is obvious but unsaid that the ministries have fallen to in-fighting and self-serving corruption.\"\r\n\r\n\"The great tower of authority, that great man which once gave order to the world... it is all crumbling. Something must be done!\"",
+   "ctx": "data/campaign/rules.csv sdtuRamRespHateSD [text]"
+  },
+  {
+   "i": 3,
+   "en": "He takes a deep breath with closed eyes, then looks on you with renewed vigor. \"And you. You are an outsider, you are the perfect wedge for my plan to alter the course of history.\"\r\n\r\nHe holds a hand up to stop your reply.\r\n\r\n\"No, not yet. We must speak in the flesh,\" he taps something, and your comm-link receives coordinates- an address on Volturn. \"There is a safehouse under my personal authority. OpSec will be assured.\"\r\n\r\n$Rank Ram gives a quick nod and signs off.",
+   "ctx": "data/campaign/rules.csv sdtuRamAndThen1 [text]"
+  },
+  {
+   "i": 4,
+   "en": "He wants to set up some kind of secret meeting. It could not be a more perfect opportunity for revenge. \r\n\r\nYour mind races with possibilities- a hidden weapon to cover the kinetic element, a secret holorec rig to record whatever treason or blackmail or scheme he has planned. It would not be so difficult to have a small squad of your most elite marines ready to move at an invisible signal.",
+   "ctx": "data/campaign/rules.csv sdtuRamWrapA [text]"
+  },
+  {
+   "i": 5,
+   "en": "He wants to set up some kind of secret meeting. It is unclear whether his actions are legal within the Diktat, and unclear what power-play between competing ministries this might represent.\r\n\r\nYou would do well to have a hidden weapon, and a holorec rig to record whatever treason, blackmail, or other scheme Ram might be planning. It would not even be difficult to have a squad of elite marines ready to move at an invisible signal.",
+   "ctx": "data/campaign/rules.csv sdtuRamWrapB [text]"
+  },
+  {
+   "i": 6,
+   "en": "You consider your options for this encounter.",
+   "ctx": "data/campaign/rules.csv sdtuRamStartMission [text]"
+  },
+  {
+   "i": 7,
+   "en": "You inspect the shuttle that will take you to the surface of Volturn. Your tech officer, armorer, personal guards, and pilot attend.",
+   "ctx": "data/campaign/rules.csv sdtuRamPrepareHub [text]"
+  },
+  {
+   "i": 8,
+   "en": "Your armorer has a set of immaculate metal cases brought to the hangar for your inspection. Each is opened in turn, displaying an impressive variety of hand weapons. Matte black predominates; there are tiny plastic bombs, a spectrum of pistols, ceramic knives with powered or unpowered blades, a series of chemical sprays in hidden capsules, and even a false fingertip containing a monomolecular cutting filament.\r\n\r\nWhat would Ram never expect?",
+   "ctx": "data/campaign/rules.csv sdtuRamPrepWeaponSel [text]"
+  },
+  {
+   "i": 9,
+   "en": "Your armorer walks you through the process of activating as well as deactivating the grenades, and familiarizes you with their timing and throw-weight. You conceal a half-dozen of them about your uniform.\r\n\r\nThe infernal little things pack a devilish punch.",
+   "ctx": "data/campaign/rules.csv sdtuRamPrepWeaponGren2 [text]"
+  },
+  {
+   "i": 10,
+   "en": "Your armorer ensures the pistol is unloaded, then hands it and two cellmags to you. It's a little shadow of a thing, and darker still, the armorer explains, on most personal scanners.\r\n\r\nYou load the pistol, ensure its status is green and safety is locked, then conceal it on your person. It weighs barely anything, but can punch a fist-sized hole through flesh without breaching standard bulkheads.",
+   "ctx": "data/campaign/rules.csv sdtuRamPrepWeaponPistol2 [text]"
+  },
+  {
+   "i": 11,
+   "en": "Your armorer demonstrates activating the knife; the blade blurs slightly and you hear the keening of a small insect at the edge of your hearing. This knife, when active, could slice a new opening into your shuttle.\r\n\r\nYour armorer deactivates it, then expertly flips the knife around to offer you the handle. You conceal it on your person. ",
+   "ctx": "data/campaign/rules.csv sdtuRamPrepWeaponKnife2 [text]"
+  },
+  {
+   "i": 12,
+   "en": "Your armorer affixes the sprays inside your uniform cuffs - they would pass for subtle fabric-stiffening clips - and, with safeties on, demonstrates the motion required to activate the spray.\r\n\r\nWith a mere flick of the hand and a demon's exhalation you could ensure the rapid loss of consciousness or death of a small cluster of adult humans within a range of a few meters. The poisons would then react with self-contained nanotech pseudo-proteins to dissolve into a wisp of molecules which could be plausibly found on any imperfectly maintained spacefaring vessel.",
+   "ctx": "data/campaign/rules.csv sdtuRamPrepWeaponSpray2 [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"Ah,\" your armorer can't help but smile, \"A classic.\"\r\n\r\nThey affix the false-fingertip to your hand, allowing it a moment to match the color and texture of your finger, then demonstrate how to unspool the weighted tip into a deadly filament which you can use like an molecule-width cutting garrote, or swing in a severing arc.",
+   "ctx": "data/campaign/rules.csv sdtuRamPrepWeaponWire2 [text]"
+  },
+  {
+   "i": 14,
+   "en": "Your ops chief lifts an eyebrow but manages to hide their smile. Your armorer merely nods compliance, then begins securing the miniature arsenal.",
+   "ctx": "data/campaign/rules.csv sdtuRamPrepWeaponNone2 [text]"
+  },
+  {
+   "i": 15,
+   "en": "Your armorer lifts an eyebrow then gives a quiet order via hand-comms. Within the minute, a crewmember brings your sword, handing it off to your armorer who then offers the flat to you using two hands, as is correct.\r\n\r\nYou secure the scabbard to your belt in the style of the conservative elements of the Hegemony officer corps. The weight of hand-forged steel is reassuring.",
+   "ctx": "data/campaign/rules.csv sdtuRamPrepWeaponSword2 [text]"
+  },
+  {
+   "i": 16,
+   "en": "Your technology officer proudly offers you a small case.\r\n\r\nThe holorec unit is a whisper of transmitter wire visible only when it catches the light, fine as a hair, and a couple small dermal patches to be placed around your face and head. Even without the passive-camo system active, it is difficult to see the individual components of the rec unit without knowing what to look for.",
+   "ctx": "data/campaign/rules.csv sdtuRamPrepWireSel [text]"
+  },
+  {
+   "i": 17,
+   "en": "You order a half-dozen of your most experienced marines to don stealth-op gear.\r\n\r\nTheir outer suits shimmer and rustle, and six sleek black marines in light armor transform before you into a group of civilian technicians wearing vague impressions of vac-safety gear and overalls.\r\n\r\nYou have to but whisper the code-phrase and they will perform a rapid assault - through airlock and bulkhead if necessary - to secure your position.",
+   "ctx": "data/campaign/rules.csv sdtuRamPrepMarinesSel [text]"
+  },
+  {
+   "i": 18,
+   "en": "With a flash of the Sindrian Diktat's crest, the shuttle receives navigation instructions from orbital traffic control. The whorls of storms and rivers of clouds hang before you, over the shining Volturnian sea. Closer, you begin to make out the lights of floating habitats, sprawling farm envelopes, and transient mining platforms.",
+   "ctx": "data/campaign/rules.csv sdtuRamSafehouse0 [text]"
+  },
+  {
+   "i": 19,
+   "en": "The shuttle hits atmo with a barely perceptible change in the craft's harmonics.\r\n\r\nAs the surface grows closer, the glittering lights and reflections of artificial structures resolve into a sprinkling of garbage; plumes of smoke from processing plants, oil-slicks from extraction platforms, a spew of jetsam trailing from the overcrowded habs.\r\n\r\nThe current regime has allowed the industrial conglomerates to self-regulate provided they are politically reliable.",
+   "ctx": "data/campaign/rules.csv sdtuRamSafehouse1 [text]"
+  },
+  {
+   "i": 20,
+   "en": "Ram's safehouse is in a logistics and warehousing complex attached to the spur of one such industrial cluster.\r\n\r\nThe air is thick with the sweet stench of petrochem.",
+   "ctx": "data/campaign/rules.csv sdtuRamSafehouse2 [text]"
+  },
+  {
+   "i": 21,
+   "en": "Your disguised marine squad fans out, passing plausibly  for workers on a shift-break snacking on nutrition bars and igniting narcosticks.",
+   "ctx": "data/campaign/rules.csv sdtuRamSafehouse2wire [text]"
+  },
+  {
+   "i": 22,
+   "en": "A quick glance at your datapad shows your perspective in perfect miniature; the holorec unit is working perfectly. ",
+   "ctx": "data/campaign/rules.csv sdtuRamSafehouse2marines [text]"
+  },
+  {
+   "i": 23,
+   "en": "A plainclothes INTSEC goon - obvious from their demeanor - opens the door, looks you over disapprovingly, and relieves you of your holstered sidearm before leading you down metal stairs to a dark inner room below the street level.\r\n\r\nYannick Ram sits at a cheap conference table, dismissing the goon with a wave. The door thuds shut behind you, its weight suggesting armor or shielding.\r\n\r\n\"Captain, captain. I am so pleased that you have joined me. We have much to discuss, much to do,\" Ram stands with a chilly smile.",
+   "ctx": "data/campaign/rules.csv sdtuRamSafehouse3 [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"Simply put, the plan - and my fellow patriots are in agreement - is to test and provoke the leaders of the Sindrian Diktat's three arms of power. They will either prove their loyalty to the vision of the Supreme Executor, Lion of Sindria, Philip Andrada, or they will show themselves to be corrupt cowards and traitors who must be executed to ensure the purity of the Great Cause.\"\r\n\r\n\"First, the navy. While the Grand Star Marshal is nominally in charge, he lies half-conscious in a clinic on Sindria. The Supreme Executor should have replaced him a cycle ago, but,\" Ram pauses significantly, \"has not.\"\r\n\r\n\"In his place, Deputy Star Marshal Oxana Hyder commands the Askonia System Defense Armada. She is... unimaginative, and I suspect she regrets leaving the Hegemony behind during the Battle of Salus.\"",
+   "ctx": "data/campaign/rules.csv sdtuRamSafehouse4 [text]"
+  },
+  {
+   "i": 25,
+   "en": "Your eyes dart around, looking for something useful. The table itself is light metal and plastic, as are the folding chairs. Their mass is insufficient for a bludgeon.\r\n\r\nThe lighting is provided by a few rapidly degrading peel-off glowstrips; useless. In the shadows of the room your eyes catch on some liquid storage barrels - water? - and  a few hand-cargo containers. Padded, with rounded corners for zero-G safety.\r\n\r\nRam has a sidearm on his belt. It would take him but a moment to draw it. Or if he came closer to you...",
+   "ctx": "data/campaign/rules.csv sdtuRamSafehouseReactionB [text]"
+  },
+  {
+   "i": 26,
+   "en": "With Ram distracted by pacing and ranting, you take a peek at your datapad. The holorec rig reads all-green, but the signal seems to be rapidly degrading. There must be some kind of interference- an automated counter-signal unit in the safehouse? \r\n\r\nWill Ram be alerted if you keep transmitting?",
+   "ctx": "data/campaign/rules.csv sdtuRamSafehouseReactionC [text]"
+  },
+  {
+   "i": 27,
+   "en": "With a light touch you feel the comforting mass of your weapon of choice. Ram sees nothing, distracted by his own monologue.",
+   "ctx": "data/campaign/rules.csv sdtuRamSafehouseReactionD [text]"
+  },
+  {
+   "i": 28,
+   "en": "You slip one of the grenades into your hand and hold it in place with your thumb.",
+   "ctx": "data/campaign/rules.csv sdtuRamSafehouseReactionD1 [text]"
+  },
+  {
+   "i": 29,
+   "en": "You slip the tiny pistol out of its hiding place by pretending to stretch your shoulders. You have it in your lap now, covered by your crossed hand.",
+   "ctx": "data/campaign/rules.csv sdtuRamSafehouseReactionD2 [text]"
+  },
+  {
+   "i": 30,
+   "en": "You slip the vibroknife out of its hiding place by pretending to stretch. Now it is hidden in the cuff of your uniform, read to draw and activate.",
+   "ctx": "data/campaign/rules.csv sdtuRamSafehouseReactionD3 [text]"
+  },
+  {
+   "i": 31,
+   "en": "You pull the cuffs of your uniform straighter, ensuring the deadly spray will hit your intended target, and flex your wrist in anticipation of deployment.",
+   "ctx": "data/campaign/rules.csv sdtuRamSafehouseReactionD4 [text]"
+  },
+  {
+   "i": 32,
+   "en": "You rub your hands together, twisting the false fingertip just so. It is ready to deploy the deadly monomolecular wire with a flick of your hand.",
+   "ctx": "data/campaign/rules.csv sdtuRamSafehouseReactionD5 [text]"
+  }
+ ]
+}

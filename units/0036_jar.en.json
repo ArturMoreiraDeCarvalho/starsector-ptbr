@@ -1,0 +1,1161 @@
+{
+ "chunk": 36,
+ "cat": "jar",
+ "items": [
+  {
+   "i": 1,
+   "en": " not currently hostile. A bombardment is a major enough hostile action that it can't be concealed, ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 2,
+   "en": " not currently hostile. Your fleet's transponder is off, and carrying out a raid ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 3,
+   "en": " not currently hostile. Your fleet's transponder is on, and carrying out a raid ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 4,
+   "en": " operations are already disrupted, and a raid will have ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 5,
+   "en": " operations for at least %s days.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 6,
+   "en": " raid",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 7,
+   "en": " raid effectiveness.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 8,
+   "en": " reduced by %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 9,
+   "en": "A bombardment requires %s fuel. You have %s fuel.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 10,
+   "en": "A saturation bombardment of a colony this size will destroy it utterly.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 11,
+   "en": "A saturation bombardment will destabilize the colony, reduce its population, and disrupt all operations for a long time.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 12,
+   "en": "A tactical bombardment will destabilize the colony, and will also disrupt the following military targets for approximately %s days:",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 13,
+   "en": "After careful consideration, there do not appear to be any targets likely to yield anything of value.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 14,
+   "en": "Aid the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 15,
+   "en": "Aid the attacking forces",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 16,
+   "en": "Aid the defenders",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 17,
+   "en": "All defenses must be defeated to make a bombardment possible.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 18,
+   "en": "All operations disrupted.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 19,
+   "en": "All operations disrupted. Colony size reduced to %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 20,
+   "en": "An atrocity of this scale can not be hidden, and will make the following factions hostile:",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 21,
+   "en": "An atrocity of this scale can not be hidden, but any factions that would be dismayed by such actions are already hostile to you.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 22,
+   "en": "An orbital station",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 23,
+   "en": "Are you sure you want to engage in open hostilities?",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 24,
+   "en": "Consider an orbital bombardment of ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 25,
+   "en": "Danger level of objectives",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 26,
+   "en": "Defending ships are present in sufficient strength to prevent any hostile action until they are dealt with.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 27,
+   "en": "Defending ships are present, but not in sufficient strength to want to give battle or prevent any hostile action you might take.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 28,
+   "en": "Designate raid objectives",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 29,
+   "en": "Disrupt the operations of a specific industry or facility",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 30,
+   "en": "Effective ground defense strength: %s",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 31,
+   "en": "Engage the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 32,
+   "en": "Engage the defenders",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 33,
+   "en": "Expected resistance",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 34,
+   "en": "Fleet capability for ground support",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 35,
+   "en": "Forces held in reserve",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 36,
+   "en": "High raid effectiveness",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 37,
+   "en": "Increased defender preparedness",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 38,
+   "en": "Launch a raid against ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 39,
+   "en": "Launch bombardment",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 40,
+   "en": "Launch raid",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 41,
+   "en": "Low raid effectiveness",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 42,
+   "en": "Make special efforts to keep your preparations secret, then proceed",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 43,
+   "en": "Marines on board",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 44,
+   "en": "Military operations disrupted.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 45,
+   "en": "Multiple factions that are not currently hostile will become hostile if you carry out the bombardment. Are you sure?",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 46,
+   "en": "Operation difficulty: %s",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 47,
+   "en": "Pick through the spoils",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 48,
+   "en": "Prepare a saturation bombardment",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 49,
+   "en": "Prepare a tactical bombardment",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 50,
+   "en": "Projected raid effectiveness: %s",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 51,
+   "en": "Raid strength: %s",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 52,
+   "en": "Recently bombarded",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 53,
+   "en": "Recently raided",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 54,
+   "en": "Saturation bombardment",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 55,
+   "en": "Secretly raided ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 56,
+   "en": "Select raid objectives",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 57,
+   "en": "Specialized fleet bombardment capability",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 58,
+   "en": "Spoils",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 59,
+   "en": "Stability of ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 60,
+   "en": "Starship fuel can be easily destabilized, unlocking the destructive potential of the antimatter it contains. Ground defenses can counter a bombardment, though in practice it only means that more fuel is required to achieve the same result.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 61,
+   "en": "Suffer no penalty to your standing with ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 62,
+   "en": "Tactical bombardment",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 63,
+   "en": "The Luddic insurgency acquired unusually heavy weaponry somehow",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 64,
+   "en": "The attackers are in disarray and not currently attempting to engage the station.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 65,
+   "en": "The bombardment requires %s fuel. You have %s fuel.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 66,
+   "en": "The colony has no orbital station or nearby fleets to defend it.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 67,
+   "en": "The defenders are refusing to give battle to defend the colony.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 68,
+   "en": "The defending ships present are, with the support of the station, sufficient to prevent raiding as well.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 69,
+   "en": "The ground defenses are too strong for your forces to be able to cause long-term disruption.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 70,
+   "en": "The lack of consistent pay over the last few months has caused discontent among your crew. A number take this opportunity to leave your employment.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 71,
+   "en": "The presence of enemy fleets that are willing to offer battle makes a raid impossible.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 72,
+   "en": "There are defending ships present, but they are currently involved in a battle, and you could take advantage of the distraction to launch a raid.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 73,
+   "en": "There are no defenders to engage.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 74,
+   "en": "There are no industries or facilities present that could be disrupted by a raid.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 75,
+   "en": "There are no nearby fleets to defend the colony.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 76,
+   "en": "Try to acquire valuables, such as commodities or blueprints, or achieve other objectives",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 77,
+   "en": "Will not help if forced to turn your transponder on by patrols arriving to investigate the raid.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 78,
+   "en": "You do not have the forces to carry out an effective raid to acquire valuables or achieve other objectives.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 79,
+   "en": "You do not have the forces to carry out an effective raid.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 80,
+   "en": "You forces have suffered casualties during the raid.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 81,
+   "en": "You're unable to join this battle.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 82,
+   "en": "Your forces are ready to go, awaiting your final confirmation.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 83,
+   "en": "Your forces have not suffered any casualties.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 84,
+   "en": "Your forces will be able to organize another raid within a day or so.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 85,
+   "en": "Your ground forces commander estimates that given the relative force strengths,  the raid should disrupt all ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 86,
+   "en": "hostile action, aside from a quick raid, unless it is dealt with.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 87,
+   "en": "reduced effect.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 88,
+   "en": "regardless of transponder status.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 89,
+   "en": "will only result in a minor penalty to your standing.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 90,
+   "en": "will result in open hostilities.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  },
+  {
+   "i": 91,
+   "en": "Change caused by destruction of ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/Objectives$1.class"
+  },
+  {
+   "i": 92,
+   "en": "Deploying and activating a wormhole anchor, turning it into an active terminus, will consume %s fuel. Your fleet is carrying %s fuel.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/Objectives$2.class"
+  },
+  {
+   "i": 93,
+   "en": "Once the operation is completed, the wormhole will take about half a cycle to stablize,before it can be used.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/Objectives$2.class"
+  },
+  {
+   "i": 94,
+   "en": "Usually, the wormhole will take about a cycle to stablize, but you have calibration data that will allow it to be used immediately.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/Objectives$2.class"
+  },
+  {
+   "i": 95,
+   "en": "half a cycle",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/Objectives$2.class"
+  },
+  {
+   "i": 96,
+   "en": " is not claimed by any faction.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/Objectives.class"
+  },
+  {
+   "i": 97,
+   "en": " is under %s control.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/Objectives.class"
+  },
+  {
+   "i": 98,
+   "en": " is under your control.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/Objectives.class"
+  },
+  {
+   "i": 99,
+   "en": " under your control ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/Objectives.class"
+  },
+  {
+   "i": 100,
+   "en": "Another one in this star system would have no effect beyond providing redundancy in case this one is lost.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/Objectives.class"
+  },
+  {
+   "i": 101,
+   "en": "Potential salvage",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/Objectives.class"
+  },
+  {
+   "i": 102,
+   "en": "Proceed with construction?",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/Objectives.class"
+  },
+  {
+   "i": 103,
+   "en": "Proceed with neutrino burst?",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/Objectives.class"
+  },
+  {
+   "i": 104,
+   "en": "Proceed with salvage operation?",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/Objectives.class"
+  },
+  {
+   "i": 105,
+   "en": "Select wormhole anchor to deploy",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/Objectives.class"
+  },
+  {
+   "i": 106,
+   "en": "There's already ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/Objectives.class"
+  },
+  {
+   "i": 107,
+   "en": "You do not have the necessary resources to build this structure.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/Objectives.class"
+  },
+  {
+   "i": 108,
+   "en": "You've recently acquired topographic data within %s light-years of your current location, and a neutrino burst here will not meaningfully contribute to your understanding of hyperspace topology. It will, however, still reveal all nearby slipstreams.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/Objectives.class"
+  },
+  {
+   "i": 109,
+   "en": "beyond providing redundancy if one is lost.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/Objectives.class"
+  },
+  {
+   "i": 110,
+   "en": "in this star system. Another one would have no effect ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/Objectives.class"
+  },
+  {
+   "i": 111,
+   "en": "will not meaningfully contribute",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/Objectives.class"
+  },
+  {
+   "i": 112,
+   "en": "your",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/Objectives.class"
+  },
+  {
+   "i": 113,
+   "en": ", drifting through space.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/PrintWreckDescription.class"
+  },
+  {
+   "i": 114,
+   "en": "A derelict ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/PrintWreckDescription.class"
+  },
+  {
+   "i": 115,
+   "en": "A derelict ship, drifting through space.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/PrintWreckDescription.class"
+  },
+  {
+   "i": 116,
+   "en": "It is ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/PrintWreckDescription.class"
+  },
+  {
+   "i": 117,
+   "en": "battered",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/PrintWreckDescription.class"
+  },
+  {
+   "i": 118,
+   "en": "heavily damaged",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/PrintWreckDescription.class"
+  },
+  {
+   "i": 119,
+   "en": "in good condition",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/PrintWreckDescription.class"
+  },
+  {
+   "i": 120,
+   "en": "nearly undamaged",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/PrintWreckDescription.class"
+  },
+  {
+   "i": 121,
+   "en": "showing signs of damage",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/PrintWreckDescription.class"
+  },
+  {
+   "i": 122,
+   "en": "though determining whether it's recoverable or not will require closer examination.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/PrintWreckDescription.class"
+  },
+  {
+   "i": 123,
+   "en": "Engage the automated defenses",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/SalvageDefenderInteraction.class"
+  },
+  {
+   "i": 124,
+   "en": "Re-engage the automated defenses",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/SalvageDefenderInteraction.class"
+  },
+  {
+   "i": 125,
+   "en": " Long-range scans indicate it's likely something of value could be found inside.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/SalvageEntity.class"
+  },
+  {
+   "i": 126,
+   "en": " Long-range scans indicate it's possible something of value could be found inside.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/SalvageEntity.class"
+  },
+  {
+   "i": 127,
+   "en": " Long-range scans indicate it's unlikely anything of much value would be found inside.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/SalvageEntity.class"
+  },
+  {
+   "i": 128,
+   "en": " crew and ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/SalvageEntity.class"
+  },
+  {
+   "i": 129,
+   "en": " crew.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/SalvageEntity.class"
+  },
+  {
+   "i": 130,
+   "en": " heavy machinery.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/SalvageEntity.class"
+  },
+  {
+   "i": 131,
+   "en": "An accident during the operation has resulted in the loss of ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/SalvageEntity.class"
+  },
+  {
+   "i": 132,
+   "en": "Base effectiveness",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/SalvageEntity.class"
+  },
+  {
+   "i": 133,
+   "en": "Crew & machinery: required (available)",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/SalvageEntity.class"
+  },
+  {
+   "i": 134,
+   "en": "Debris field density",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/SalvageEntity.class"
+  },
+  {
+   "i": 135,
+   "en": "Fleetwide salvaging capability",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/SalvageEntity.class"
+  },
+  {
+   "i": 136,
+   "en": "Operations conclude with nothing of value found.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/SalvageEntity.class"
+  },
+  {
+   "i": 137,
+   "en": "Recent salvage operation",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/SalvageEntity.class"
+  },
+  {
+   "i": 138,
+   "en": "Resource recovery effectiveness: %s",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/SalvageEntity.class"
+  },
+  {
+   "i": 139,
+   "en": "Salvaging skill",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/SalvageEntity.class"
+  },
+  {
+   "i": 140,
+   "en": "Scavenging effectiveness: %s",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/SalvageEntity.class"
+  },
+  {
+   "i": 141,
+   "en": "The density of the debris field affects both the amount of resources and the number of rare items found.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/SalvageEntity.class"
+  },
+  {
+   "i": 142,
+   "en": "The field appears stable and will not drift apart any time soon.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/SalvageEntity.class"
+  },
+  {
+   "i": 143,
+   "en": "The field is unstable, but should not drift apart for ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/SalvageEntity.class"
+  },
+  {
+   "i": 144,
+   "en": "The recovery effectiveness does not affect the chance of finding rare and valuable items.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/SalvageEntity.class"
+  },
+  {
+   "i": 145,
+   "en": "The salvage that remains is extremely difficult to get to, and there's %s risk involved in running a salvage operation.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/SalvageEntity.class"
+  },
+  {
+   "i": 146,
+   "en": "There are indications of some easy pickings to be had, and the risk of an accident during a salvage operation is low.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/SalvageEntity.class"
+  },
+  {
+   "i": 147,
+   "en": "There are indications that what salvage is to be had may not be easy to get to, and there's %s risk involved in running a salvage operation.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/SalvageEntity.class"
+  },
+  {
+   "i": 148,
+   "en": "You receive a preliminary assessment of a potential salvage operation from the exploration crews.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/SalvageEntity.class"
+  },
+  {
+   "i": 149,
+   "en": "Your fleet also has a %s bonus to the amount of fuel recovered, and a %s bonus to the number of rare items found.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/SalvageEntity.class"
+  },
+  {
+   "i": 150,
+   "en": "Your fleet also has a %s bonus to the amount of fuel recovered.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/SalvageEntity.class"
+  },
+  {
+   "i": 151,
+   "en": "Your fleet also has a %s bonus to the number of rare items found.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/SalvageEntity.class"
+  },
+  {
+   "i": 152,
+   "en": "possible",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/SalvageEntity.class"
+  },
+  {
+   "i": 153,
+   "en": "significant",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/SalvageEntity.class"
+  },
+  {
+   "i": 154,
+   "en": "unlikely",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/SalvageEntity.class"
+  },
+  {
+   "i": 155,
+   "en": "Automated Defenses",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/SalvageGenFromSeed.class"
+  },
+  {
+   "i": 156,
+   "en": "If you turn in the selected items, you will receive a %s bounty and your standing with ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/ZGRTurnIn$1.class"
+  },
+  {
+   "i": 157,
+   "en": "Select items to turn in",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/ZGRTurnIn.class"
+  },
+  {
+   "i": 158,
+   "en": "Your salvage crews find a likely-looking safe, but it's unfortunately empty.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/BlueprintSpecial.class"
+  },
+  {
+   "i": 159,
+   "en": "Your salvage crews find a well-hidden safe. After an EMP pulse and some delicate work with a plasma cutter, the safe yields its contents.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/BlueprintSpecial.class"
+  },
+  {
+   "i": 160,
+   "en": " dwarf",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/BreadcrumbSpecial.class"
+  },
+  {
+   "i": 161,
+   "en": " giant",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/BreadcrumbSpecial.class"
+  },
+  {
+   "i": 162,
+   "en": " primary star ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/BreadcrumbSpecial.class"
+  },
+  {
+   "i": 163,
+   "en": " star",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/BreadcrumbSpecial.class"
+  },
+  {
+   "i": 164,
+   "en": " supergiant",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/BreadcrumbSpecial.class"
+  },
+  {
+   "i": 165,
+   "en": " with unexplored ruins",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/BreadcrumbSpecial.class"
+  },
+  {
+   "i": 166,
+   "en": "Based on the information, it's likely the ship is small, a frigate or a destroyer at the largest.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/BreadcrumbSpecial.class"
+  },
+  {
+   "i": 167,
+   "en": "The $shortName's memory banks are partially accessible, and ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/BreadcrumbSpecial.class"
+  },
+  {
+   "i": 168,
+   "en": "The vessel is likely to be at least cruiser-sized.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/BreadcrumbSpecial.class"
+  },
+  {
+   "i": 169,
+   "en": "While exploring $aOrAn $nameInText, your crews found a partially accessible memory bank containing information that indicates ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/BreadcrumbSpecial.class"
+  },
+  {
+   "i": 170,
+   "en": "Your salvage crews find a functional memory bank in the debris. It contains information indicating that ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/BreadcrumbSpecial.class"
+  },
+  {
+   "i": 171,
+   "en": "a binary star system ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/BreadcrumbSpecial.class"
+  },
+  {
+   "i": 172,
+   "en": "a black hole system ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/BreadcrumbSpecial.class"
+  },
+  {
+   "i": 173,
+   "en": "a nebula ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/BreadcrumbSpecial.class"
+  },
+  {
+   "i": 174,
+   "en": "a ring system",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/BreadcrumbSpecial.class"
+  },
+  {
+   "i": 175,
+   "en": "a system with ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/BreadcrumbSpecial.class"
+  },
+  {
+   "i": 176,
+   "en": "a system with a ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/BreadcrumbSpecial.class"
+  },
+  {
+   "i": 177,
+   "en": "a trinary star system ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/BreadcrumbSpecial.class"
+  },
+  {
+   "i": 178,
+   "en": "an accretion disk",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/BreadcrumbSpecial.class"
+  },
+  {
+   "i": 179,
+   "en": "an asteroid belt",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/BreadcrumbSpecial.class"
+  },
+  {
+   "i": 180,
+   "en": "an asteroid field",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/BreadcrumbSpecial.class"
+  },
+  {
+   "i": 181,
+   "en": "an unknown location",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/BreadcrumbSpecial.class"
+  },
+  {
+   "i": 182,
+   "en": "contain information indicating that ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/BreadcrumbSpecial.class"
+  },
+  {
+   "i": 183,
+   "en": "in the heart of ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/BreadcrumbSpecial.class"
+  },
+  {
+   "i": 184,
+   "en": "in the outer reaches of ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/BreadcrumbSpecial.class"
+  },
+  {
+   "i": 185,
+   "en": "located in ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/BreadcrumbSpecial.class"
+  },
+  {
+   "i": 186,
+   "en": "located in the heart of ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/BreadcrumbSpecial.class"
+  },
+  {
+   "i": 187,
+   "en": "located in the outer reaches of ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/BreadcrumbSpecial.class"
+  },
+  {
+   "i": 188,
+   "en": "located inside ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/BreadcrumbSpecial.class"
+  },
+  {
+   "i": 189,
+   "en": "located on the outskirts of ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/BreadcrumbSpecial.class"
+  },
+  {
+   "i": 190,
+   "en": "located some distance away from the center of ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/BreadcrumbSpecial.class"
+  },
+  {
+   "i": 191,
+   "en": "orbiting a jump-point in ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/BreadcrumbSpecial.class"
+  },
+  {
+   "i": 192,
+   "en": "some distance away from the center of ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/BreadcrumbSpecial.class"
+  },
+  {
+   "i": 193,
+   "en": " indicates ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/CargoManifestSpecial.class"
+  },
+  {
+   "i": 194,
+   "en": "A cargo manifest found by the salvage crews ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/CargoManifestSpecial.class"
+  },
+  {
+   "i": 195,
+   "en": "likely to be found if proper salvage operations are conducted.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/CargoManifestSpecial.class"
+  },
+  {
+   "i": 196,
+   "en": "searching through the debris",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/CargoManifestSpecial.class"
+  },
+  {
+   "i": 197,
+   "en": "sent to the $shortName",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/CargoManifestSpecial.class"
+  },
+  {
+   "i": 198,
+   "en": "sent to the surface",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/CargoManifestSpecial.class"
+  },
+  {
+   "i": 199,
+   "en": "the presence of a quantity of ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/CargoManifestSpecial.class"
+  },
+  {
+   "i": 200,
+   "en": " nearby",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/DomainSurveyDerelictSpecial.class"
+  },
+  {
+   "i": 201,
+   "en": "It was last seen by this $shortName ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/DomainSurveyDerelictSpecial.class"
+  },
+  {
+   "i": 202,
+   "en": "The $shortName's memory banks have been scrubbed clean by hard radiation, and the systems are largely inert and non-functional.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/DomainSurveyDerelictSpecial.class"
+  },
+  {
+   "i": 203,
+   "en": "While exploring $aOrAn $nameInText, your crews found partially accessible memory banks that ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/DomainSurveyDerelictSpecial.class"
+  },
+  {
+   "i": 204,
+   "en": "a black hole",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/DomainSurveyDerelictSpecial.class"
+  },
+  {
+   "i": 205,
+   "en": "a blue star",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/DomainSurveyDerelictSpecial.class"
+  },
+  {
+   "i": 206,
+   "en": "a dim star",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/DomainSurveyDerelictSpecial.class"
+  },
+  {
+   "i": 207,
+   "en": "a neutron star",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/DomainSurveyDerelictSpecial.class"
+  },
+  {
+   "i": 208,
+   "en": "a red star",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/DomainSurveyDerelictSpecial.class"
+  },
+  {
+   "i": 209,
+   "en": "a star of unknown type",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/DomainSurveyDerelictSpecial.class"
+  },
+  {
+   "i": 210,
+   "en": "a yellow star",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/DomainSurveyDerelictSpecial.class"
+  },
+  {
+   "i": 211,
+   "en": "an orange star",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/DomainSurveyDerelictSpecial.class"
+  },
+  {
+   "i": 212,
+   "en": "contain information pointing to the location of a ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/DomainSurveyDerelictSpecial.class"
+  },
+  {
+   "i": 213,
+   "en": "in a binary star system ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/DomainSurveyDerelictSpecial.class"
+  },
+  {
+   "i": 214,
+   "en": "in a nearby binary star system",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/DomainSurveyDerelictSpecial.class"
+  },
+  {
+   "i": 215,
+   "en": "in a nearby trinary star system",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/DomainSurveyDerelictSpecial.class"
+  },
+  {
+   "i": 216,
+   "en": "in a trinary star system ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/DomainSurveyDerelictSpecial.class"
+  },
+  {
+   "i": 217,
+   "en": "in an unknown location nearby",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/DomainSurveyDerelictSpecial.class"
+  },
+  {
+   "i": 218,
+   "en": "in hyperspace nearby",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/DomainSurveyDerelictSpecial.class"
+  },
+  {
+   "i": 219,
+   "en": "in this system",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/DomainSurveyDerelictSpecial.class"
+  },
+  {
+   "i": 220,
+   "en": "inside a nearby nebula",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/DomainSurveyDerelictSpecial.class"
+  },
+  {
+   "i": 221,
+   "en": "inside a nebula ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/DomainSurveyDerelictSpecial.class"
+  },
+  {
+   "i": 222,
+   "en": "inside this nebula",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/DomainSurveyDerelictSpecial.class"
+  },
+  {
+   "i": 223,
+   "en": " could be restored to basic functionality.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/ShipRecoverySpecial.class"
+  },
+  {
+   "i": 224,
+   "en": " is now part of your fleet.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/ShipRecoverySpecial.class"
+  },
+  {
+   "i": 225,
+   "en": " that could be restored to basic functionality.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/ShipRecoverySpecial.class"
+  },
+  {
+   "i": 226,
+   "en": " the $shortName. ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/ShipRecoverySpecial.class"
+  },
+  {
+   "i": 227,
+   "en": "\"Commander, looks like we might be able to pull this off, though I'll say you're not going to find what I'm going to do in any manual. And it wouldn't pass any inspection, but then again we're not in the Hegemony fleet. It'll fly, though.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/ShipRecoverySpecial.class"
+  },
+  {
+   "i": 228,
+   "en": "\"Commander, looks like we might be able to pull this off, though I'll say you're not going to find what I'm going to do in any manual. And it wouldn't pass any inspection, but then again we're not in the Hegemony fleet. These ships can be made to fly again, though.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/ShipRecoverySpecial.class"
+  },
+  {
+   "i": 229,
+   "en": "\"I'll need to consider my options.\"",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/ShipRecoverySpecial.class"
+  },
+  {
+   "i": 230,
+   "en": "<name unknown>",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/ShipRecoverySpecial.class"
+  },
+  {
+   "i": 231,
+   "en": "A crack engineering team sent to the wreck reports successfully preparing it for recovery.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/ShipRecoverySpecial.class"
+  }
+ ]
+}

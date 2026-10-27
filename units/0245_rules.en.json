@@ -1,0 +1,161 @@
+{
+ "chunk": 245,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"You are already commissioned with the League,\" he says approvingly. \"This would do much to ease the membership process.\"",
+   "ctx": "data/campaign/rules.csv plReynardHannanCommissionPL [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"You presently hold a $otherCommissionFaction commission,\" he says, frowning. \"A problem, but not insurmountable. Resign that commission and commit to the Persean League as part of the membership agreement.\"\r\n\r\n\"Certain members of the council may object, perhaps loudly. But they'll merely be seeking concessions.\" Reynard gives a small smile, \"Routine matters, easily managed.\"",
+   "ctx": "data/campaign/rules.csv plReynardHannanCommissionOther [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"You hold no major faction's commission,\" he says, eyes focused on a subtle interface implant. \"Considering your... activities, you will need to commit to a Persean League commission as a part of the membership agreement; a standard arrangement.\"",
+   "ctx": "data/campaign/rules.csv plReynardHannanCommissionNone [text]"
+  },
+  {
+   "i": 4,
+   "en": "You explain that your main objection is the cost of the membership dues; paying for League membership simply won't do.\r\n\r\nAs you speak, Reynard's face is a display of muted conflict between skepticism and impatience.\r\n\r\nThis is going to take some industrial-grade convincing.",
+   "ctx": "data/campaign/rules.csv rh_betterDealSel [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"Well,\" Reynard's tone contains just a hint of impatience. \"The standard terms of Persean League membership stand, as I've explained.\"\r\n\r\nYou must hold a Persean League commission. You will be required to pay $plDuesPercent of gross colony income in dues. In turn, the Persean League will provide you with political protection from the meddling major factions use to bully minor polities such as the Hegemony AI inspections. League development programs for new member-polities should increase colony accessibility by around 10%.",
+   "ctx": "data/campaign/rules.csv rh_goBackSel [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"Oh, that was you?\" Reynard's facade of carefree loftiness looks increasingly brittle.\r\n\r\n\"The forges will provide, no doubt. No doubt... \" His expression slackens as he ponders something. Then he quirks his lip, a sneer like a cornered wolf. \"The League Council will respect your demonstration, no doubt about it.\"\r\n\r\n\"I must admit you're not only clever, but lucky,\" he says, trying his best to concede very little. \"You've proven that to my satisfaction. Admirable qualities in... an associate.\"",
+   "ctx": "data/campaign/rules.csv rh_defeatedSDF [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"An unfortunate business.\" He puts on an almost regretful look, \"And a waste of key resources. Naturally, I had to appear to follow the voice of the League Council on that matter.\"\r\n\r\n\"You've founded a powerful polity.\" His hands open wide, generous. \"I could see that from the start, of course. But what's important is that you proved it to the entire council. We can use this.\"\r\n\r\nHe smiles, conceding nothing.",
+   "ctx": "data/campaign/rules.csv rh_defeatedBlockadeSel [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"It is the relationships formed between the tiers of our civilization, the flow of loyalty and favor, that ties our interests together and benefits us all,\" Reynard muses. \r\n\r\nHe closes his eyes for a moment, holding his hands together against his chest, \"I would be honored to offer patronage to you on such terms.\"\r\n\r\n\"We'll have to spin this arrangement to the public, somehow, of course. Some lesser polity inevitably cries 'bribery' - such a crude word - in order to leverage unearned influence.\"",
+   "ctx": "data/campaign/rules.csv rh_hannanBribeSel [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"It is the relationships formed between the tiers of our civilization, the flow of loyalty and favor, that ties our interests together and benefits us all,\" Reynard muses. \r\n\r\nHe closes his eyes for a moment as he holds and slowly releases a deep breath. They open suddenly. \"Your reputation, however, precedes you, $playerName. You've made a habit of breaking your word, and I cannot offer my patronage to someone with no honor.\"\r\n\r\n\"I mean no insult, of course,\" he says, magnanimous in his own way. \"People of your, ah, ruthless quality have their use. Just not like this.\"",
+   "ctx": "data/campaign/rules.csv rh_hannanBribeSelUntrustworthy [text]"
+  },
+  {
+   "i": 10,
+   "en": "A strained grimace appears on Reynard Hannan's face, showing new wrinkles where they aren't meant to appear.\r\n\r\n\"The... rumors, unfortunately, are true. An ugly business, the details of which we need not revisit.\" His impressive jawline clenches tightly for a moment.\r\n\r\n\"For your part in quietly returning the forge of Kazeron to its former glory, I would personally ensure that the League Council fully appreciates your... patriotism.\"",
+   "ctx": "data/campaign/rules.csv rh_nanoforgeSel [text]"
+  },
+  {
+   "i": 11,
+   "en": "Reynard is outwardly amenable, but not convinced. You feel that it will take one more strong argument to win this negotiation.",
+   "ctx": "data/campaign/rules.csv PLCheckArgumentsEnoughA [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"I must admit, you've surprised me, $playerName,\" he says, \"and I surprise myself when I speak - as Prime Demarchon - that the League council will agree to waive the usual dues owed by member polities of the Persean League.\"\r\n\r\nReynard Hannan summons a glowing politician's smile, looking for all the worlds as if this was his plan all along.",
+   "ctx": "data/campaign/rules.csv rh_continueToGoodDealSel [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"I must admit, you've surprised me, $playerName,\" he says, \"and I surprise myself when I speak - as Prime Demarchon - that the League council will agree to waive the usual dues owed by member polities of the Persean League.\"\r\n\r\nReynard Hannan makes a strained attempt at an appeasing smile. It appears that his negotiations do not usually go so well for the other party.",
+   "ctx": "data/campaign/rules.csv rh_continueToGoodDealSelWeary [text]"
+  },
+  {
+   "i": 14,
+   "en": "With a few taps of the comms interface, you exchange secure credit-transfer codes.",
+   "ctx": "data/campaign/rules.csv rh_handleHannanPaymentDetails [text]"
+  },
+  {
+   "i": 15,
+   "en": "You have your comms officer fire off a resignation order for your previous commission - an impersonal act sure to annoy and offend.",
+   "ctx": "data/campaign/rules.csv rh_handleCommissionNoOther [text]"
+  },
+  {
+   "i": 16,
+   "en": "You give the order for your quartermaster to release the Pristine Nanoforge into Kazeronian custody. The receiving officer is, unsurprisingly, a mid-level Hannan gensfolk.",
+   "ctx": "data/campaign/rules.csv rh_giveNanoforge [text]"
+  },
+  {
+   "i": 17,
+   "en": "Meanwhile, you skim and certify the executive summary of the Persean League commission credentials.",
+   "ctx": "data/campaign/rules.csv rh_handleCommission [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"As Prime Demarchon, I attest that $player.theFactionName meets the membership requirements set out by the constitution of the Persean League. As the lead executive, your personal authorization of petition for membership is provisionally recognized and passed.\" He makes a conciliatory gesture, \"The council must officially vote approval, of course. But I shall see to that formality.\"\r\n\r\n\"Let me be the first, then, to welcome you to the Persean League, $playerName. Together we will build a worthy future for the Persean Sector and, one day, the galaxy itself.\"\r\n\r\nReynard Hannan smiles widely, flashing perfect teeth - nearly; his canines are slightly more prominent than ideal. An affectation of style, surely.",
+   "ctx": "data/campaign/rules.csv rh_joinLeague1 [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"Acknowledged,\" $heOrShe says, seemingly frozen.\r\n\r\nAt a loss for words, $heOrShe reaches for the comms cut-off.",
+   "ctx": "data/campaign/rules.csv re_leaveConfirmSel1 [text]"
+  },
+  {
+   "i": 20,
+   "en": "The Prime Demarchon's face is frozen in a mask of contempt.\r\n\r\nHe reaches for the comms cut-off without another word.",
+   "ctx": "data/campaign/rules.csv re_leaveConfirmSel1rh [text]"
+  },
+  {
+   "i": 21,
+   "en": "The Prime Demarchon's face is frozen in a mask of contempt but for the barest twitch- and in it, somehow, the promise of revenge whether by nuclear fire or the cold of space.\r\n\r\nHe reaches for the comms cut-off without another word.",
+   "ctx": "data/campaign/rules.csv re_leaveConfirmSel2rh [text]"
+  },
+  {
+   "i": 22,
+   "en": "The League $post's eyes go wide.\r\n\r\n\"$playerName. That is... this is a shock. You must understand that withdrawal from the League is permanent and irreversible. Though of course, technically any member polity may leave, as they wish. We all have that freedom. That's why we're the League.\"\r\n\r\n$HeOrShe shifts uncomfortably. \"I urge you to reconsider. Think of your people! I won't... your words won't leave my office.\"",
+   "ctx": "data/campaign/rules.csv PLLeaveGoodDealWarningA [text]"
+  },
+  {
+   "i": 23,
+   "en": "The League $post's eyes go wide.\r\n\r\n\"$playerName. That is... this is a shock. You must understand that withdrawal from the League is permanent and irreversible. Though of course, technically, any member polity may leave as they wish. We all have that freedom.\"\r\n\r\n$HeOrShe shifts uncomfortably, then speaks more quietly. \"...Technically. But one hears things. You have an arrangement with Gens Hannan, is that correct? You cannot break a client agreement with a gens of Kazeron! It simply isn't done; why, you'll end up... an outcast, a bandit, a pariah. I urge you to reconsider. Think of your people!\"",
+   "ctx": "data/campaign/rules.csv PLLeaveGoodDealWarningB [text]"
+  },
+  {
+   "i": 24,
+   "en": "The League $post's eyes narrow. \"Think of what you're saying, $playerName.\"\r\n\r\n\"Yes, while you technically have the right to withdraw from the League at any time - we all do - it simply isn't done. The council will take this poorly, to say nothing of the Prime Demarchon.\"\r\n\r\n$HeOrShe sighs, exasperated. \"Let me speak plainly so that you may understand: your industries will be razed, your fleets reduced to scrap. One does not simply walk away from the Persean League.\"",
+   "ctx": "data/campaign/rules.csv PLLeaveThreatsA [text]"
+  },
+  {
+   "i": 25,
+   "en": "The League $post's eyes narrow. \"Think of what you're saying, $playerName.\"\r\n\r\n\"Yes, while you technically have the right to withdraw from the League at any time - we all do - it simply isn't done. The council will take this poorly, to say nothing of the Prime Demarchon.\"\r\n\r\n$HeOrShe sighs, exasperated. \"Let me speak plainly so that you may understand: you will harried, captain. And yes, a captain is all you'll be in the end. It may take cycles, but if you do this, you will make... such enemies.\"",
+   "ctx": "data/campaign/rules.csv PLLeaveThreatsB [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"Don't be an ingrate,\" the Persean League $post flushes with anger. \"You had a second chance! No one gets a second chance!\" \r\n\r\n\"Let me spell out for you the consequence of your barbarous words: your industries? They'll be razed to slag. Your people? Killed, and scattered to the stars to die in vacuum, or in the mines of some backwater gravity well.\"\r\n\r\n\"You'll never be allowed back into the League. You'll be scorned as an oathbreaker, a barbarian; an enemy of the free people of the League. Think on that.\"",
+   "ctx": "data/campaign/rules.csv PLLeaveThreatsC [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"Don't be an ingrate,\" the Persean League $post flushes with anger. \"You had a second chance! No one gets a second chance!\" \r\n\r\n\"The League remembers such betrayal. We never forgot Mairaath, and never will,\" with its present capacity reduced, $heOrShe must fall back to the old scars and grudges of the League. \"Even if it takes a hundred cycles, there will be a reckoning.\"\r\n\r\n\"And you'll never be allowed back into the League. You'll be scorned as an oathbreaker, a barbarian; an enemy of the free people of the League. Think on that.\"",
+   "ctx": "data/campaign/rules.csv PLLeaveThreatsD [text]"
+  },
+  {
+   "i": 28,
+   "en": "$HeOrShe eyes you for a long moment.\r\n\r\n\"Don't throw such words around so thoughtlessly in the future, $playerName. In the League, your word means something.\"",
+   "ctx": "data/campaign/rules.csv PLLeaveNeverMind [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"These words come as a surprise, $playerName,\" Reynard Hannan says calmly. \"Would you throw away what we have built together so needlessly and so thoughtlessly?\"\r\n \r\nYou detect the anger boiling, deeply. \"You had such potential.\"\r\n\r\nHe pulls back suddenly, turning away with a dismissive flick. \"Tell me now that you misspoke. I will allow myself to forget your slip of the tongue.\"",
+   "ctx": "data/campaign/rules.csv PLLeaveGoodDealWarningA2 [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"These words come as a surprise, $playerName,\" Reynard Hannan says calmly. \"Would you violate the promise you made to me, and to Gens Hannan, so thoughtlessly? I imagined we would prosper together; build a new Persean Sector... together.\"\r\n \r\nYou detect the anger boiling, deeply. \"I never took you for an oathbreaker,\" he says soft, and deadly.\r\n\r\nHe pulls back suddenly, turning away with a dismissive flick. \"Tell me now that you misspoke. I will allow myself to forget your slip of the tongue.\"",
+   "ctx": "data/campaign/rules.csv PLLeaveGoodDealWarningB2 [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"Ingrate,\" Reynard Hannan spits the word. \"I would see my League punish your barbarism, your bloody-minded fickleness, your oathbreaking.\"\r\n\r\n\"I would see your fleets smashed; your legacy burned to ash,\" he hisses, eyes afire. \"Picture it, captain. You would be nothing but a dreary footnote in the history of the League, and minor embarrassment to Gens Hannan.\"\r\n\r\n\"If... you said such words, that would be your fate.\" He speaks very softly now, \"Total annihilation.\"",
+   "ctx": "data/campaign/rules.csv PLLeaveThreatsA2 [text]"
+  }
+ ]
+}

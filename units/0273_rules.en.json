@@ -1,0 +1,1146 @@
+{
+ "chunk": 273,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"I've seen things you wouldn't believe. Attack ships on fire off the Orion-Perseus abyss...\"",
+   "ctx": "BFFImeetMenes2"
+  },
+  {
+   "i": 2,
+   "en": "\"May I bring a guest?\"",
+   "ctx": "BFFImeetMenes3"
+  },
+  {
+   "i": 3,
+   "en": "\"A hardened criminal who changed his name and became a Knight of Ludd.\"\r",
+   "ctx": "BFFImeetMenes3guest"
+  },
+  {
+   "i": 4,
+   "en": "\"A man who broke his Knightly vows only to hide among terrorists and become a hermit.\"\r",
+   "ctx": "BFFImeetMenes3guest"
+  },
+  {
+   "i": 5,
+   "en": "\"A Knight who lost his way - but never his faith - now seeking absolution by way of epic quest.\"",
+   "ctx": "BFFImeetMenes3guest"
+  },
+  {
+   "i": 6,
+   "en": "\"We'll meet you before long, I'm sure.\"",
+   "ctx": "BFFImeetMenesEnd"
+  },
+  {
+   "i": 7,
+   "en": "\"Relax, $global.jethroName. We're just making you more exciting for Menes.\"\r",
+   "ctx": "BFFImeetMenesBornanew3"
+  },
+  {
+   "i": 8,
+   "en": "\"You knew what this would entail. Think of the good it will accomplish.\"",
+   "ctx": "BFFImeetMenesBornanew3"
+  },
+  {
+   "i": 9,
+   "en": "\"We should steal the glove.\"",
+   "ctx": "BFFImmBornStealOpt"
+  },
+  {
+   "i": 10,
+   "en": "\"Let's discuss the heist option again.\"",
+   "ctx": "BFFImmBornStealOptAgain"
+  },
+  {
+   "i": 11,
+   "en": "\"I'll pretend to be a collector looking to buy a unique item.\"",
+   "ctx": "BFFImmBornBuyerOpt"
+  },
+  {
+   "i": 12,
+   "en": "\"I could pretend to have a relic to sell. Any ideas?\"",
+   "ctx": "BFFImmBornBuyerOptB"
+  },
+  {
+   "i": 13,
+   "en": "\"Let's discuss me posing as a buyer again.\"",
+   "ctx": "BFFImmBornBuyerOptAgain"
+  },
+  {
+   "i": 14,
+   "en": "\"I should invite Horus Yaribay to this 'gathering'.\"",
+   "ctx": "BFFImmBornInviteHorusOpt"
+  },
+  {
+   "i": 15,
+   "en": "\"Let's discuss inviting Horus Yaribay to this party.\"",
+   "ctx": "BFFImmBornInviteHorusOptAgain"
+  },
+  {
+   "i": 16,
+   "en": "\"I'll simply send my marines in to seize the relic.\"",
+   "ctx": "BFFImmBornRaidOpt"
+  },
+  {
+   "i": 17,
+   "en": "\"Let's discuss the raid option again.\"",
+   "ctx": "BFFImmBornRaidOptAgain"
+  },
+  {
+   "i": 18,
+   "en": "\"He wants to appease the Hegemony. And Luddics are a significant demographic...\"",
+   "ctx": "BFFImeetMenesBornOptInviteHsel"
+  },
+  {
+   "i": 19,
+   "en": "\"Then it's decided. I'll speak with Horus first.\"\r",
+   "ctx": "BFFImeetMenesOptInviteHtalk1"
+  },
+  {
+   "i": 20,
+   "en": "\"Let's discuss other options.\"",
+   "ctx": "BFFImeetMenesOptInviteHtalk1"
+  },
+  {
+   "i": 21,
+   "en": "\"I often find the direct approach the most effective.\"\r",
+   "ctx": "BFFImmBornOptStealFirst"
+  },
+  {
+   "i": 22,
+   "en": "\"Don't tell me you've never stolen before, $global.jethroName.\"\r",
+   "ctx": "BFFImmBornOptStealFirst"
+  },
+  {
+   "i": 23,
+   "en": "\"Then I'll steal it. You can just show up and be yourself.\"",
+   "ctx": "BFFImeetMenesBornOptSteal2a"
+  },
+  {
+   "i": 24,
+   "en": "\"No one gets hurt. And it's a fake which they stole from your people in the first place.\"\r",
+   "ctx": "BFFImeetMenesBornOptSteal3"
+  },
+  {
+   "i": 25,
+   "en": "\"I could send a marine raid in to steal it so we don't have to.\"\r",
+   "ctx": "BFFImeetMenesBornOptSteal3"
+  },
+  {
+   "i": 26,
+   "en": "\"I could threaten to bombard the planet until Menes surrenders the relic.\"\r",
+   "ctx": "BFFImeetMenesBornOptSteal3"
+  },
+  {
+   "i": 27,
+   "en": "\"Fine. Let's think of something else.\"",
+   "ctx": "BFFImeetMenesBornOptSteal3"
+  },
+  {
+   "i": 28,
+   "en": "\"Then it's decided. I'll have tools, it'll be fine.\"\r",
+   "ctx": "BFFImmStealOptEnd"
+  },
+  {
+   "i": 29,
+   "en": "\"Let's discuss other options before deciding.\"",
+   "ctx": "BFFImmStealOptEnd"
+  },
+  {
+   "i": 30,
+   "en": "\"I've got the tools and the intel. I'll steal that glove.\"\r",
+   "ctx": "BFFImmBornOptStealAgainB"
+  },
+  {
+   "i": 31,
+   "en": "\"It's decided. I'll steal that glove.\"\r",
+   "ctx": "BFFImmBornOptStealAgain"
+  },
+  {
+   "i": 32,
+   "en": "\"It could be expensive, however.\"",
+   "ctx": "BFFImmBornBuyerOptSel"
+  },
+  {
+   "i": 33,
+   "en": "\"What if I was?\"",
+   "ctx": "BFFImmBornBuyerOptBSel"
+  },
+  {
+   "i": 34,
+   "en": "\"Buy the relic from Menes? That could be expensive.\"",
+   "ctx": "BFFImmBornBuyerOpt2"
+  },
+  {
+   "i": 35,
+   "en": "\"Are you... proposing that I cheat Menes Yaribay?\"",
+   "ctx": "BFFImmBornBuyerOptHubPayPlan"
+  },
+  {
+   "i": 36,
+   "en": "\"If the Church isn't paying... you're asking me to pay.\"",
+   "ctx": "BFFImmBornBuyerOptHubA"
+  },
+  {
+   "i": 37,
+   "en": "\"I am not exactly overflowing with credits at the moment.\"",
+   "ctx": "BFFImmBornBuyerOptHubB"
+  },
+  {
+   "i": 38,
+   "en": "\"I may be rich, but you intend to destroy the glove, right?\"",
+   "ctx": "BFFImmBornBuyerOptHubB2"
+  },
+  {
+   "i": 39,
+   "en": "\"It sounds like we should just steal the glove.\"",
+   "ctx": "BFFImmBornBuyerOptHubBalt"
+  },
+  {
+   "i": 40,
+   "en": "\"I may not have credits, but I do operate an independent colony...\"",
+   "ctx": "BFFImmBornBuyerOptHubC"
+  },
+  {
+   "i": 41,
+   "en": "\"I may not have credits, but I am a member of the Persean League...\"",
+   "ctx": "BFFImmBornBuyerOptHubD"
+  },
+  {
+   "i": 42,
+   "en": "\"I do happen to know someone extremely rich. Rayan Arroyo.\"",
+   "ctx": "BFFImmBornBuyerOptHubE"
+  },
+  {
+   "i": 43,
+   "en": "\"Let's do it. I'll pretend that I want to buy a 'genuine' relic.\"",
+   "ctx": "BFFImmBornBuyerOptHubF2"
+  },
+  {
+   "i": 44,
+   "en": "\"Let's discuss other options first.\"",
+   "ctx": "BFFImmBornBuyerOptHubG"
+  },
+  {
+   "i": 45,
+   "en": "\"Not likely.\"\r",
+   "ctx": "BFFImmBornArroyo"
+  },
+  {
+   "i": 46,
+   "en": "\"Absolutely not.\"\r",
+   "ctx": "BFFImmBornArroyo"
+  },
+  {
+   "i": 47,
+   "en": "\"No.\"\r",
+   "ctx": "BFFImmBornArroyo"
+  },
+  {
+   "i": 48,
+   "en": "\"He'd hate everything about this scheme.\"",
+   "ctx": "BFFImmBornArroyo"
+  },
+  {
+   "i": 49,
+   "en": "\"I'm just surprised. It's a good idea, $global.jethroName.\"\r",
+   "ctx": "BFFImmBornBuyerCheat"
+  },
+  {
+   "i": 50,
+   "en": "\"I too.\"\r",
+   "ctx": "BFFImmBornBuyerCheat"
+  },
+  {
+   "i": 51,
+   "en": "\"I too.\" (lie)",
+   "ctx": "BFFImmBornBuyerCheat"
+  },
+  {
+   "i": 52,
+   "en": "\"Does not a Knight use violence to stop from greater violence?\"",
+   "ctx": "BFFImmBornRaidOptSel"
+  },
+  {
+   "i": 53,
+   "en": "\"Exactly. Like Ludd, righteous with hammer and sword in hand!\"",
+   "ctx": "BFFImmBornOptRaid2"
+  },
+  {
+   "i": 54,
+   "en": "\"It is necessary. I shall make the arrangements.\"\r",
+   "ctx": "BFFImmBornOptRaid4d"
+  },
+  {
+   "i": 55,
+   "en": "\"Yes? What is it?\"",
+   "ctx": "BFFImmBornDoSteal2"
+  },
+  {
+   "i": 56,
+   "en": "\"Aren't you opposed to theft? You swore an oath.\"",
+   "ctx": "BFFImmBornDoStealHubA"
+  },
+  {
+   "i": 57,
+   "en": "\"It's a pretty good plan. And I have the tools.\"",
+   "ctx": "BFFImmBornDoStealHubB"
+  },
+  {
+   "i": 58,
+   "en": "\"I, too, have my faith. Is that nothing?\"",
+   "ctx": "BFFImmBornDoStealHubC"
+  },
+  {
+   "i": 59,
+   "en": "\"Tell me what your plan is.\"",
+   "ctx": "BFFImmBornDoStealHubD"
+  },
+  {
+   "i": 60,
+   "en": "\"You're not going to let this go, are you.\"",
+   "ctx": "BFFImmBornDoStealHubE"
+  },
+  {
+   "i": 61,
+   "en": "\"If you insist, then.\"",
+   "ctx": "BFFImmBornDoStealHubF"
+  },
+  {
+   "i": 62,
+   "en": "\"I'd like to discuss a matter involving Menes Yaribay.\"",
+   "ctx": "BFFItalkHorusParty"
+  },
+  {
+   "i": 63,
+   "en": "\"He might spark a religious conflict that could tear the Sector apart.\"",
+   "ctx": "BFFItalkHorusPartyOptA"
+  },
+  {
+   "i": 64,
+   "en": "\"He bought a sacred Luddic relic for his personal collection.\"",
+   "ctx": "BFFItalkHorusPartyOptB"
+  },
+  {
+   "i": 65,
+   "en": "\"How do you get on with Menes? Not well?\"",
+   "ctx": "BFFItalkHorusPartyOptC"
+  },
+  {
+   "i": 66,
+   "en": "\"Oh, they know. They hired me to... handle it.\"",
+   "ctx": "BFFItalkHorusPartyOptBsel"
+  },
+  {
+   "i": 67,
+   "en": "\"Menes invited me to some kind of party to view this relic.\"",
+   "ctx": "BFFItalkHorusPartyTheyKnow"
+  },
+  {
+   "i": 68,
+   "en": "Say nothing.\r",
+   "ctx": "BFFItalkHorusPartyInvite"
+  },
+  {
+   "i": 69,
+   "en": "\"Again?\"\r",
+   "ctx": "BFFItalkHorusPartyInvite"
+  },
+  {
+   "i": 70,
+   "en": "\"You need to keep better track of your cousin's schemes, huh.\"",
+   "ctx": "BFFItalkHorusPartyInvite"
+  },
+  {
+   "i": 71,
+   "en": "Accept Menes Yaribay's invitation and shuttle to his complex",
+   "ctx": "BFFIattendPartyStartOption"
+  },
+  {
+   "i": 72,
+   "en": "Meet Menes Yaribay",
+   "ctx": "BFFIattendPartyIntro3"
+  },
+  {
+   "i": 73,
+   "en": "\"This is $global.jethroName.\"\r",
+   "ctx": "BFFIattendParty1"
+  },
+  {
+   "i": 74,
+   "en": "\"Jethro Bornanew, a novice of the Knights of Ludd.\"",
+   "ctx": "BFFIattendParty1"
+  },
+  {
+   "i": 75,
+   "en": "\"Pleased to meet you...?\"\r",
+   "ctx": "BFFIattendPartyHub1Intro4"
+  },
+  {
+   "i": 76,
+   "en": "\"No need to be prickly, $global.jethroName, the man is being friendly.\"",
+   "ctx": "BFFIattendPartyHub1Intro4"
+  },
+  {
+   "i": 77,
+   "en": "\"Charmed, I'm sure.\"",
+   "ctx": "BFFIattendPartyHub1optA"
+  },
+  {
+   "i": 78,
+   "en": "\"Everyone, you say? Does that include the Luddic Path?\"",
+   "ctx": "BFFIattendPartyHub1optB"
+  },
+  {
+   "i": 79,
+   "en": "\"So, Ulmus was it? How do you know $global.jethroName?\"",
+   "ctx": "BFFIattendPartyHub1optC"
+  },
+  {
+   "i": 80,
+   "en": "\"Anything, you say? We'll have to talk later, Mister Pond.\"",
+   "ctx": "BFFIattendPartyHub1optD"
+  },
+  {
+   "i": 81,
+   "en": "\"Menes, I believe you had something special to show me?\"",
+   "ctx": "BFFIattendPartyHub1optE"
+  },
+  {
+   "i": 82,
+   "en": "\"I'm certain this party will be absolutely unforgettable.\"",
+   "ctx": "BFFIattendPartyHub1optF"
+  },
+  {
+   "i": 83,
+   "en": "Allow Menes to pull you along",
+   "ctx": "BFFIattendPartyHub1Out1"
+  },
+  {
+   "i": 84,
+   "en": "Enter the vault",
+   "ctx": "BFFIattendPartyHub1Out2"
+  },
+  {
+   "i": 85,
+   "en": "Wait a bit\r",
+   "ctx": "BFFImenesPartySteal4"
+  },
+  {
+   "i": 86,
+   "en": "\"He's overwhelmed... you must understand, Menes.\"",
+   "ctx": "BFFImenesPartySteal4"
+  },
+  {
+   "i": 87,
+   "en": "\"Menes. We should let him be for a moment, don't you think? Menes?\"",
+   "ctx": "BFFImenesPartySteal6"
+  },
+  {
+   "i": 88,
+   "en": "Gently pull Menes' away and ask about other items in the collection",
+   "ctx": "BFFImenesPartySteal7"
+  },
+  {
+   "i": 89,
+   "en": "\"Astounding. Makes one think how we would handle the Cold Passage. Menes?\"\r",
+   "ctx": "BFFImenesPartySteal8"
+  },
+  {
+   "i": 90,
+   "en": "\"Incredible. What would it take to persuade you to hold a tasting? Menes?\"\r",
+   "ctx": "BFFImenesPartySteal8"
+  },
+  {
+   "i": 91,
+   "en": "\"Fascinating. Do you think Leonis shot anyone with this, Menes?\"\r",
+   "ctx": "BFFImenesPartySteal8"
+  },
+  {
+   "i": 92,
+   "en": "\"Intriguing. I wonder if I might find more such xenolife on the fringe. Menes?\"",
+   "ctx": "BFFImenesPartySteal8"
+  },
+  {
+   "i": 93,
+   "en": "Smile and nod",
+   "ctx": "BFFImenesPartySteal9a"
+  },
+  {
+   "i": 94,
+   "en": "Follow Menes",
+   "ctx": "BFFImenesPartySteal10"
+  },
+  {
+   "i": 95,
+   "en": "\"$global.jethroName! Restrain yourself, man!\"\r",
+   "ctx": "BFFImenesPartySteal11"
+  },
+  {
+   "i": 96,
+   "en": "\"He's only touched it, no need for-\"",
+   "ctx": "BFFImenesPartySteal11"
+  },
+  {
+   "i": 97,
+   "en": "(whisper) \"This'll make a great story.\"",
+   "ctx": "BFFImenesPartySteal13"
+  },
+  {
+   "i": 98,
+   "en": "Try to remain standing",
+   "ctx": "BFFImenesPartySteal14b"
+  },
+  {
+   "i": 99,
+   "en": "\"What in Ludd's seven hells was that?\"\r",
+   "ctx": "BFFImenesPartySteal16"
+  },
+  {
+   "i": 100,
+   "en": "\"What went wrong?\"",
+   "ctx": "BFFImenesPartySteal16"
+  },
+  {
+   "i": 101,
+   "en": "\"You had a fake glove? This whole time?\"\r",
+   "ctx": "BFFImenesPartySteal17c"
+  },
+  {
+   "i": 102,
+   "en": "\"Good work, $global.jethroName. Great work, in fact.\"\r",
+   "ctx": "BFFImenesPartySteal17c"
+  },
+  {
+   "i": 103,
+   "en": "\"Next time, be sure to let me in on your plan.\"\r",
+   "ctx": "BFFImenesPartySteal17c"
+  },
+  {
+   "i": 104,
+   "en": "\"... Praise Ludd.\"",
+   "ctx": "BFFImenesPartySteal17c"
+  },
+  {
+   "i": 105,
+   "en": "\"Well I'm impressed, Menes. A relic from a pivotal moment of the Sector's history!\"",
+   "ctx": "BFFImpBuyer1"
+  },
+  {
+   "i": 106,
+   "en": "\"I, too, feel its call. Would you consider selling the piece?\"",
+   "ctx": "BFFImpBuyer2"
+  },
+  {
+   "i": 107,
+   "en": "\"The Knight has a point, Menes. I couldn't make an offer without verification.\"",
+   "ctx": "BFFImpBuyer3b"
+  },
+  {
+   "i": 108,
+   "en": "\"Let's discuss veracity. I need... reassurance.\" ",
+   "ctx": "BFFImpBuyerHubOptA"
+  },
+  {
+   "i": 109,
+   "en": "\"Considering my offer, I require full confidence in the item.\"",
+   "ctx": "BFFImpBuyerHubOptAagain"
+  },
+  {
+   "i": 110,
+   "en": "\"Let's discuss credits. Would a half-million open the question of a sale?\"",
+   "ctx": "BFFImpBuyerHubOptB"
+  },
+  {
+   "i": 111,
+   "en": "\"Let's discuss credits. Would 700k open the question of a sale?\"",
+   "ctx": "BFFImpBuyerHubOptC"
+  },
+  {
+   "i": 112,
+   "en": "\"Let's not waste time. One million credits.\"",
+   "ctx": "BFFImpBuyerHubOptD"
+  },
+  {
+   "i": 113,
+   "en": "\"Outrageous. I couldn't imagine it's worth more than 800,000.\"\r",
+   "ctx": "BFFImpBuyerOffer700k"
+  },
+  {
+   "i": 114,
+   "en": "\"I'll consider a million. But only if it's real.\"",
+   "ctx": "BFFImpBuyerOffer700k"
+  },
+  {
+   "i": 115,
+   "en": "\"You're practically a saint. Now the matter of veracity...\"",
+   "ctx": "BFFImpBuyerOffer800kdemarch"
+  },
+  {
+   "i": 116,
+   "en": "\"Who sold you the glove?\"",
+   "ctx": "BFFImpBuyerHub2OptA"
+  },
+  {
+   "i": 117,
+   "en": "\"Ulmus Pond sold you the glove, didn't he.\"",
+   "ctx": "BFFImpBuyerHub2OptB"
+  },
+  {
+   "i": 118,
+   "en": "\"I'll need to have the glove tested.\"",
+   "ctx": "BFFImpBuyerHub2OptC"
+  },
+  {
+   "i": 119,
+   "en": "\"That wouldn't be quite sufficient...\"",
+   "ctx": "BFFImpBuyerNeedTested"
+  },
+  {
+   "i": 120,
+   "en": "\"Precisely. Well put, $global.jethroName.\"",
+   "ctx": "BFFImpBuyerNeedTested2"
+  },
+  {
+   "i": 121,
+   "en": "\"I'll provide a quarter deposit, right now, of 200,000 credits.\"",
+   "ctx": "BFFImpBuyerHub3OptA800k"
+  },
+  {
+   "i": 122,
+   "en": "\"I'll provide a quarter deposit, right now, of 225,000 credits.\"",
+   "ctx": "BFFImpBuyerHub3OptA900k"
+  },
+  {
+   "i": 123,
+   "en": "\"I'll provide a quarter deposit, right now, of 250,000 credits.\"",
+   "ctx": "BFFImpBuyerHub3OptA1m"
+  },
+  {
+   "i": 124,
+   "en": "\"Surely my status as a fellow demarch of the League means something.\"",
+   "ctx": "BFFImpBuyerHub3OptB"
+  },
+  {
+   "i": 125,
+   "en": "\"It may not be part of the League, but as a fellow executive of an independent colony...\"",
+   "ctx": "BFFImpBuyerHub3OptBv2"
+  },
+  {
+   "i": 126,
+   "en": "\"My commissioned status with the Persean League must count for something.\"",
+   "ctx": "BFFImpBuyerHub3OptC"
+  },
+  {
+   "i": 127,
+   "en": "\"Your cousin Horus Yaribay trusted me with his diplomatic credentials...\"",
+   "ctx": "BFFImpBuyerHub3OptD"
+  },
+  {
+   "i": 128,
+   "en": "\"$global.jethroName, will you explain why this is necessary?\"",
+   "ctx": "BFFImpBuyerHub3OptE"
+  },
+  {
+   "i": 129,
+   "en": "\"I have a financial backer, Rayan Arroyo...\" (lie)",
+   "ctx": "BFFImpBuyerHub3OptF"
+  },
+  {
+   "i": 130,
+   "en": "\"In fact, the Church is backing my purchase.\" (lie)",
+   "ctx": "BFFImpBuyerHub3OptG"
+  },
+  {
+   "i": 131,
+   "en": "\"Sorry, more spacer humor. The Church truly is backing my bid.\" (commit)",
+   "ctx": "BFFImpBuyerHub3OptGagain"
+  },
+  {
+   "i": 132,
+   "en": "\"Absolutely. I wasn't supposed to tell, but it's why I'm here.\" (commit)\r",
+   "ctx": "BFFImpBuyerConChurch1"
+  },
+  {
+   "i": 133,
+   "en": "\"No, no, just a little joke. My apologies.\" (back off)",
+   "ctx": "BFFImpBuyerConChurch1"
+  },
+  {
+   "i": 134,
+   "en": "\"It does?\"",
+   "ctx": "BFFImpBuyerHub3Sum4out"
+  },
+  {
+   "i": 135,
+   "en": "\"What's your read on Pond?\"\r",
+   "ctx": "BFFImpBuyerOutro1"
+  },
+  {
+   "i": 136,
+   "en": "\"$global.jethroName. $global.jethroName, can you finish my drink? I can't.\"",
+   "ctx": "BFFImpBuyerOutro1"
+  },
+  {
+   "i": 137,
+   "en": "Shuttle down with Horus Yaribay to Menes' compound.",
+   "ctx": "BFFIapHorusStartOption"
+  },
+  {
+   "i": 138,
+   "en": "Watch the fallout",
+   "ctx": "BFFIapHorus8"
+  },
+  {
+   "i": 139,
+   "en": "\"And it's almost certainly a fake.\"",
+   "ctx": "BFFIapHorus13"
+  },
+  {
+   "i": 140,
+   "en": "Keep your mouth shut, for now",
+   "ctx": "BFFIapHorus14"
+  },
+  {
+   "i": 141,
+   "en": "Take the glove",
+   "ctx": "BFFIapHorus16"
+  },
+  {
+   "i": 142,
+   "en": "Just take the glove already\r",
+   "ctx": "BFFIapHorus17"
+  },
+  {
+   "i": 143,
+   "en": "Hesitate",
+   "ctx": "BFFIapHorus17"
+  },
+  {
+   "i": 144,
+   "en": "Tuck the glove into a pocket\r",
+   "ctx": "BFFIapHorus19"
+  },
+  {
+   "i": 145,
+   "en": "Carry it openly back to the party",
+   "ctx": "BFFIapHorus19"
+  },
+  {
+   "i": 146,
+   "en": "Make your way back to the party to find Bornanew and leave",
+   "ctx": "BFFIapHorus20a"
+  },
+  {
+   "i": 147,
+   "en": "Make your way back to the party to find Bornanew",
+   "ctx": "BFFIapHorus20b"
+  },
+  {
+   "i": 148,
+   "en": "\"Hello $global.jethroName. I think we should go now.\"",
+   "ctx": "BFFIapHorus21a"
+  },
+  {
+   "i": 149,
+   "en": "\"Yup. Have a look for yourself.\" (give him the glove)\r",
+   "ctx": "BFFIapHorus22"
+  },
+  {
+   "i": 150,
+   "en": "\"I do. Did you see their faces, $global.jethroName?\"",
+   "ctx": "BFFIapHorus22"
+  },
+  {
+   "i": 151,
+   "en": "\"Here, you take it.\"\r",
+   "ctx": "BFFIapHorus22b"
+  },
+  {
+   "i": 152,
+   "en": "\"Perhaps you're right.\"\r",
+   "ctx": "BFFIapHorus22b"
+  },
+  {
+   "i": 153,
+   "en": "\"Maybe. But did you see their faces, $global.jethroName?\"",
+   "ctx": "BFFIapHorus22b"
+  },
+  {
+   "i": 154,
+   "en": "\"Don't worry. Menes is going to be on his best good behavior from here on out.\"",
+   "ctx": "BFFIapHorus23e"
+  },
+  {
+   "i": 155,
+   "en": "\"I'm impressed, Menes. A relic from a pivotal moment of the Sector's history!\"\r",
+   "ctx": "BFFImpRaid1"
+  },
+  {
+   "i": 156,
+   "en": "Call in the raid",
+   "ctx": "BFFImpRaid1"
+  },
+  {
+   "i": 157,
+   "en": "\"Perhaps, Menes, we should take cover...\"",
+   "ctx": "BFFIapRaidOutro1"
+  },
+  {
+   "i": 158,
+   "en": "\"I don't suppose we could ask Menes.\"\r",
+   "ctx": "BFFIapRaidOutro3"
+  },
+  {
+   "i": 159,
+   "en": "\"What did you make of that Ulmus Pond?\"",
+   "ctx": "BFFIapRaidOutro3"
+  },
+  {
+   "i": 160,
+   "en": "\"We should confirm our hard evidence before Menes puts the pieces together here.\"",
+   "ctx": "BFFIapRaidOutro5"
+  },
+  {
+   "i": 161,
+   "en": "\"We're not registered with traffic control, correct?\"",
+   "ctx": "BFFIapRaidOutro7"
+  },
+  {
+   "i": 162,
+   "en": "\"Then we'd better go fast when we go.\"",
+   "ctx": "BFFIapRaidOutro8"
+  },
+  {
+   "i": 163,
+   "en": "Break orbit",
+   "ctx": "BFFIapRaidOutro9"
+  },
+  {
+   "i": 164,
+   "en": "\"I'm still consulting with experts. Top experts.\"",
+   "ctx": "BFFImenesPostPartyBoughtOpt"
+  },
+  {
+   "i": 165,
+   "en": "\"I was nearly killed at your 'party', Menes. We were both there.\"",
+   "ctx": "BFFImenesPPtalkOptA"
+  },
+  {
+   "i": 166,
+   "en": "\"I'm truly sorry to hear that. I wanted to check in...\"",
+   "ctx": "BFFImenesPPtalkOptB"
+  },
+  {
+   "i": 167,
+   "en": "\"Is this about losing the... relic?\"",
+   "ctx": "BFFImenesPPtalkOptC"
+  },
+  {
+   "i": 168,
+   "en": "\"Perhaps I should comms another time...\"",
+   "ctx": "BFFImenesPPtalkOptD"
+  },
+  {
+   "i": 169,
+   "en": "\"You wouldn't happen to know where I could find Ulmus Pond, would you?\"",
+   "ctx": "BFFImenesPPtalkOptE"
+  },
+  {
+   "i": 170,
+   "en": "(gasp and look shocked)\r",
+   "ctx": "BFFImenesPPinsideJob"
+  },
+  {
+   "i": 171,
+   "en": "\"Your chief could be covering for their own massive security failure.\"\r",
+   "ctx": "BFFImenesPPinsideJob"
+  },
+  {
+   "i": 172,
+   "en": "\"Now that you mention it, that Ulmus Pond seemed a little off...\"",
+   "ctx": "BFFImenesPPinsideJob"
+  },
+  {
+   "i": 173,
+   "en": "\"I haven't seen him since your party.\"",
+   "ctx": "BFFImenesPPpondOptA"
+  },
+  {
+   "i": 174,
+   "en": "\"I haven't seen him since your party.\" (lie)",
+   "ctx": "BFFImenesPPpondOptAlie"
+  },
+  {
+   "i": 175,
+   "en": "\"He's dead. On Chalcedon. A Pather called Sedge shot him.\" ",
+   "ctx": "BFFImenesPPpondOptB"
+  },
+  {
+   "i": 176,
+   "en": "\"I caught him. He promised to confess everything to you.\"",
+   "ctx": "BFFImenesPPpondOptC"
+  },
+  {
+   "i": 177,
+   "en": "\"I caught him on Chalcedon. He sold you a fake relic. The Knights hold him now.\"",
+   "ctx": "BFFImenesPPpondOptD"
+  },
+  {
+   "i": 178,
+   "en": "\"I caught him on Chalcedon. He sold you a fake relic. The Path has him now.\"",
+   "ctx": "BFFImenesPPpondOptE"
+  },
+  {
+   "i": 179,
+   "en": "\"Of course. I'll, um, let you go now.\" (Cut the link)",
+   "ctx": "BFFImcHubResponseA1"
+  },
+  {
+   "i": 180,
+   "en": "\"I'll do that. And I'll, um, let you go now.\" (Cut the link)",
+   "ctx": "BFFImcHubResponseA2"
+  },
+  {
+   "i": 181,
+   "en": "\"I'll... let you go now.\" (Cut the comm link)",
+   "ctx": "BFFImcHubResponseFate"
+  },
+  {
+   "i": 182,
+   "en": "\"What did you make of that Ulmus Pond?\"\r",
+   "ctx": "BFFIpartyOutro1"
+  },
+  {
+   "i": 183,
+   "en": "\"I don't suppose we could ask Menes.\"",
+   "ctx": "BFFIpartyOutro1"
+  },
+  {
+   "i": 184,
+   "en": "\"Thanks. What did you make of that Ulmus Pond?\"\r",
+   "ctx": "BFFIpartyOutro1buyer"
+  },
+  {
+   "i": 185,
+   "en": "\"I feel like we've worn out our welcome here anyway.\"",
+   "ctx": "BFFIpartyOutro3horus"
+  },
+  {
+   "i": 186,
+   "en": "\"We should confirm our hard evidence before Menes starts asking questions.\"",
+   "ctx": "BFFIpartyOutro3buyer"
+  },
+  {
+   "i": 187,
+   "en": "Use Bornanew's authority to meet with a nanoforge engineer ",
+   "ctx": "BFFItalkToEngineerOpt"
+  },
+  {
+   "i": 188,
+   "en": "\"I need an object analyzed. Very closely.\"",
+   "ctx": "BFFItalkToEngineer1"
+  },
+  {
+   "i": 189,
+   "en": "Shuttle to the engineer's laboratory",
+   "ctx": "BFFItalkToEngineer2"
+  },
+  {
+   "i": 190,
+   "en": "Watch closely",
+   "ctx": "BFFItalkToEngineer5"
+  },
+  {
+   "i": 191,
+   "en": "\"What's this tell us?\"",
+   "ctx": "BFFItalkToEngineer6"
+  },
+  {
+   "i": 192,
+   "en": "\"Which are?\"",
+   "ctx": "BFFItalkToEngineer7"
+  },
+  {
+   "i": 193,
+   "en": "\"What forge made this? Where's it from?\"",
+   "ctx": "BFFItalkToEngineer8"
+  },
+  {
+   "i": 194,
+   "en": "\"So you can match the 'drift' to the forge.\"",
+   "ctx": "BFFItalkToEngineer9"
+  },
+  {
+   "i": 195,
+   "en": "\"Can drift be obscured, faked?\"\r",
+   "ctx": "BFFItalkToEngineer10"
+  },
+  {
+   "i": 196,
+   "en": "\"So it's not a known forge.\"",
+   "ctx": "BFFItalkToEngineer10"
+  },
+  {
+   "i": 197,
+   "en": "\"Can drift be obscured, faked?\"",
+   "ctx": "BFFItalkToEngineer11c"
+  },
+  {
+   "i": 198,
+   "en": "\"Anything else?\"",
+   "ctx": "BFFItalkToEngineer11e"
+  },
+  {
+   "i": 199,
+   "en": "DEV set player.ethosCynical to 2",
+   "ctx": "BFFItalkToEngineer12optDev1"
+  },
+  {
+   "i": 200,
+   "en": "DEV set player.ethosMercenary to 2",
+   "ctx": "BFFItalkToEngineer12optDev2"
+  },
+  {
+   "i": 201,
+   "en": "\"$global.jethroName?\"",
+   "ctx": "BFFItalkToEngineer12optC"
+  },
+  {
+   "i": 202,
+   "en": "\"Uh...\"",
+   "ctx": "BFFItalkToEngineer12optA"
+  },
+  {
+   "i": 203,
+   "en": "\"Of course.\" (pay)",
+   "ctx": "BFFItalkToEngineer12optB"
+  },
+  {
+   "i": 204,
+   "en": "\"You serve the Church. Is this not corruption, $jethroName?\"",
+   "ctx": "BFFItalkToEngineer12optD"
+  },
+  {
+   "i": 205,
+   "en": "\"Out with it, $global.jethroName.\"",
+   "ctx": "BFFItalkToEngineer13corruption2"
+  },
+  {
+   "i": 206,
+   "en": "\"Guess we're going back to Olinadu.\"",
+   "ctx": "BFFItpostEngJethroTalk2"
+  },
+  {
+   "i": 207,
+   "en": "\"I'll handle it. I can be very discreet.\"",
+   "ctx": "BFFItpostEngJethroTalk3"
+  },
+  {
+   "i": 208,
+   "en": "\"I'll handle it. I can be very persuasive.\"",
+   "ctx": "BFFItpostEngJethroTalk3didRaid"
+  },
+  {
+   "i": 209,
+   "en": "Open the comm link",
+   "ctx": "BFFIulmusPondGreeting"
+  },
+  {
+   "i": 210,
+   "en": "\"You're sure. How do you know this?\"",
+   "ctx": "BFFIulmusPondNotHere"
+  },
+  {
+   "i": 211,
+   "en": "\"Your oath. Of course.\"",
+   "ctx": "BFFIulmusPondNotHere2"
+  },
+  {
+   "i": 212,
+   "en": "\"Does an innocent man run?\"\r",
+   "ctx": "BFFIulmusPondNotHere3"
+  },
+  {
+   "i": 213,
+   "en": "\"Then we follow.\"",
+   "ctx": "BFFIulmusPondNotHere3"
+  },
+  {
+   "i": 214,
+   "en": "\"Nav, set a course.\"",
+   "ctx": "BFFIupNotHereConvOptA"
+  },
+  {
+   "i": 215,
+   "en": "\"What's Ulmus Pond's role? What does finding him do for us?\"",
+   "ctx": "BFFIupNotHereConvOptB"
+  },
+  {
+   "i": 216,
+   "en": "\"What if these are pirates, or a major faction misleading us?\"",
+   "ctx": "BFFIupNotHereConvOptC"
+  },
+  {
+   "i": 217,
+   "en": "\"Before we act, let us speak of your Knights' 'sources'.\"",
+   "ctx": "BFFIupNotHereConvOptD"
+  },
+  {
+   "i": 218,
+   "en": "\"Could your queries have revealed our intentions?\"",
+   "ctx": "BFFIupNotHereConvOptE"
+  },
+  {
+   "i": 219,
+   "en": "\"If we're quick, we won't need to pray.\" (cut the link)",
+   "ctx": "BFFIulmusPondNotHereOut"
+  },
+  {
+   "i": 220,
+   "en": "Find where Ulmus Pond is hiding",
+   "ctx": "BFFIulmusStartOption"
+  },
+  {
+   "i": 221,
+   "en": "\"Tactical, prep a shuttle. Let's have a chat with Ulmus Pond.\"",
+   "ctx": "BFFIulmusPrestart2"
+  },
+  {
+   "i": 222,
+   "en": "\"I'll be the bad guy.\"\r",
+   "ctx": "BFFIulmusPrestart3"
+  },
+  {
+   "i": 223,
+   "en": "\"You be the bad guy.\"",
+   "ctx": "BFFIulmusPrestart3"
+  },
+  {
+   "i": 224,
+   "en": "\"I'm ready.\"\r",
+   "ctx": "BFFIulmusStart2a"
+  },
+  {
+   "i": 225,
+   "en": "\"You're sure he's here?\"",
+   "ctx": "BFFIulmusStart2a"
+  },
+  {
+   "i": 226,
+   "en": "\"Don't you forget it.\"\r",
+   "ctx": "BFFIulmusStart2b"
+  },
+  {
+   "i": 227,
+   "en": "Find a way upstairs",
+   "ctx": "BFFIulmusStart4"
+  },
+  {
+   "i": 228,
+   "en": "\"More than worried. He suspects you, Pond. We're going to get answers.\"\r",
+   "ctx": "BFFIulmusTalkPcBad"
+  }
+ ]
+}

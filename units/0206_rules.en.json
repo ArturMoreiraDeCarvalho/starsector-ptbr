@@ -1,0 +1,166 @@
+{
+ "chunk": 206,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"I require a steady supply of $cpm_needed units of $cpm_commodityName from a colonial administrator who is willing to ensure reliability by any means necessary.\"\r\n\r\n\"Any.\" $HeOrShe pounds $hisOrHer glass on the table to emphasize the point. \r\n\r\n\"My organization would expect a first delivery within $cpm_missionCycles cycles. Once established, I would arrange for monthly payments of $cpm_monthlyPayment credits over $cpm_contractCycles cycles, for a total of $cpm_totalPayment credits.\"\r\n\r\n$HeOrShe pours two glasses from the bottle. \"If you agree, I will accept you on your word.\" $HeOrShe produces a chilling smile and motions toward the glasses. \"This partnership could prove to be very profitable, $playerName.\" ",
+   "ctx": "data/campaign/rules.csv cpmOfferTextBarUW2 [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"I require a steady supply of $cpm_needed units of $cpm_commodityName from a colonial administrator who is willing to ensure reliability by any means necessary. My organization would expect your operation to be set up within $cpm_missionCycles cycles. Once established, I would make monthly payments to you of $cpm_monthlyPayment credits. These would continue for $cpm_contractCycles cycles, for a total of $cpm_totalPayment credits.\"\r\n\r\n\"If you agree, I will accept you on your word,\" $heOrShe says. \"We make a good team, $playerName. Who would dare stand against such a partnership?\" $HeOrShe produces a chilling smile.",
+   "ctx": "data/campaign/rules.csv cpmOfferTextContactUW [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"Captain $playerName.\" The pirate $personRank looks almost apologetic on the comm display. \"This is about the big $cpm_commodityName transport operation you're involved in. An anonymous competitor wants to send a message. Not to you, of course. You'll be dead. To the individual who hired you. I just figured I should let you know why out of professional courtesy.\"\r\n\r\n\"I mean, it's not all bad news,\" $heOrShe shrugs, \"I'm going to be paid very, very well. Enough to retire somewhere nice.\" $HeOrShe sighs wistfully, then interrupts $himOrHerself to raise a scolding finger, \"Paid on completion, mind you. So don't even think of trying to buy me off.\"",
+   "ctx": "data/campaign/rules.csv CPMPirateHail [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"I have a few nanoforge slots opening up due to a canceled order. You could arrange for a custom production job; ships, weapons, you name it.\"",
+   "ctx": "data/campaign/rules.csv cpcBlurb1 [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"Due to a shift in strategic outlook, the navy has been left with some canceled nanoforge production slots- and a hole to fill in the budget. We could arrange a custom order of military-grade products, provided you cover the fees.\"",
+   "ctx": "data/campaign/rules.csv cpcBlurb2 [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"Some, ah, friends of mine have procured access to a supply of military-grade ships and weapons. I could cut you in on a deal.\"",
+   "ctx": "data/campaign/rules.csv cpcBlurb4 [text]"
+  },
+  {
+   "i": 7,
+   "en": "A well-dressed $cpc_manOrWoman seems to be arguing with a TriPad about a canceled nanoforge order and the need to fill some production slots as soon as possible.",
+   "ctx": "data/campaign/rules.csv cpcBlurbBar1 [text]"
+  },
+  {
+   "i": 8,
+   "en": "At a private table, a $cpc_manOrWoman in uniform complains to another patron about how the ordnance department left them with unfilled nanoforge production slots- and a hole in the budget.",
+   "ctx": "data/campaign/rules.csv cpcBlurbBar2 [text]"
+  },
+  {
+   "i": 9,
+   "en": "In a smoky booth flanked by bodyguards sits a $cpc_manOrWoman who you recognize as a notorious black market arms dealer.",
+   "ctx": "data/campaign/rules.csv cpcBlurbBar4 [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"The slots are valid for up to $cpc_maxCapacity credits worth of industrial production capacity, and I'll let you use them for a very reasonable $cpc_costPercent of base cost. You would have to provide your own blueprints, of course.\"\r\n\r\n$HeOrShe gives you a million-credit smile and says, \"It's a good opportunity, captain.\"",
+   "ctx": "data/campaign/rules.csv cpcOfferTextContact1 [text]"
+  },
+  {
+   "i": 11,
+   "en": "As you approach, the well-dressed $manOrWoman abruptly concludes their comms-call, and sensing your approach, looks you over with an assessor's eye.\r\n\r\n\"Captain, I presume,\" $heOrShe says, offering the next seat. \"And I presume you overheard my conversation so let me waste no time in laying out terms.\"\r\n\r\n\"You have needs; starships, weapons, and so on. I can provide access to $cpc_maxCapacity credits worth of nanoforge production and I'm willing to input your orders at $cpc_costPercent of base cost. You would have to provide your own blueprints, of course.\"",
+   "ctx": "data/campaign/rules.csv cpcOfferTextBar1 [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"I'm not here to make a sales pitch, captain, so I shall simply state the terms then let you decide. $cpc_maxCapacity credits worth of military-grade nanoforge production at $cpc_costPercent of base cost with delivery of product within $cpc_days days. You can take the slots and provide your own blueprints, or we can input the order under my authority, in which case you would use mine. One or the other.\"",
+   "ctx": "data/campaign/rules.csv cpcOfferTextContact2 [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"The other patron shakes their head and stands as you approach, making a civilian attempt at a salute as they leave.\r\n\r\nThe $personRank rolls $hisOrHer eyes then offers you a place at the table. \"You're interested in the production slots, captain\" $heOrShe says without greeting.\r\n\r\n\"It's beneath my dignity to make a sales pitch, so I shall simply state the terms. $cpc_maxCapacity credits worth of military-grade nanoforge production at $cpc_costPercent of base cost. Delivery of product within $cpc_days days. You can take the slots and provide your own blueprints, or we can input the order under my authority, in which case you would use mine. One or the other.\"",
+   "ctx": "data/campaign/rules.csv cpcOfferTextBar2 [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"My supplier can provide access to custom production of up to $cpc_maxCapacity credits worth of rare ships and weapons of great interest to a collector such as yourself. Discretion doesn't come cheap of course, and there's the matter of finders' fees and certain bureaucrats to... \" $heOrShe pauses, considering, \"...encourage to mind their other duties, let's say. Oh, and delivery of product is guaranteed within $cpc_days days.\"\r\n\r\n\"I can get you a good deal here - let's call it a mere $cpc_costPercent of base cost. Just say the word and I can give you a little manifest we've put together.\"",
+   "ctx": "data/campaign/rules.csv cpcOfferTextContact4 [text]"
+  },
+  {
+   "i": 15,
+   "en": "As you approach, the bodyguards' attention focuses like the sweep of a capship targeting array- the arms dealer stands them down with a flick of $hisOrHer hand.\r\n\r\n\"You must know who I am, and I know why you're here,\" $heOrShe says. \"Let us talk, like friends.\" The arms dealer leans in, and a privacy field blurs around the booth, muffling outside sound. The smoke of a trendy drug-stick starts to fill the bubble due to dampened atmospheric motion.\r\n \r\n\"I can supply custom construction of up to $cpc_maxCapacity credits worth of rare ships and weapons, at a very reasonable $cpc_costPercent of base cost. I guarantee delivery of product within $cpc_days days, and absolute discretion.\"\r\n\r\n$HeOrShe slides a battered TriPad over the table, \"It never hurt to look.\" ",
+   "ctx": "data/campaign/rules.csv cpcOfferTextBar4 [text]"
+  },
+  {
+   "i": 16,
+   "en": "As you approach, the  $manOrWoman slams down a datapad just a bit too abruptly and produces a long, drawn-out sigh of frustration.\r\n\r\n\"Idiots,\" $heOrShe mutters.",
+   "ctx": "data/campaign/rules.csv cpcOfferTextBarCoilGun [text]"
+  },
+  {
+   "i": 17,
+   "en": "$HeOrShe looks up. \"Always, with these people.\"",
+   "ctx": "data/campaign/rules.csv cpcOfferTextBarCoilGun1a [text]"
+  },
+  {
+   "i": 18,
+   "en": "$HeOrShe manages an insincere smile at your remark.",
+   "ctx": "data/campaign/rules.csv cpcOfferTextBarCoilGun1b [text]"
+  },
+  {
+   "i": 19,
+   "en": "A deep breath, and then the rant comes out.\r\n\r\n\"It's a coilgun! You can see the coils! Some absolute idiot Domain procurement committee asked for a magnetically-accelerated slug cannon and slapped the name 'railgun' on the thing when they were delivered a coilgun. It's a simple fix, but now we're stuck with this... scientifically, physically, totally inaccurate name. Forever!\"\r\n\r\n\"I swear, this is why the Gate System failed. Know-nothing bureaucrats who wouldn't correct a simple error because they don't think it's important. But. This. Is. Important.\"\r\n\r\nThese last words are punctuated by $hisOrHer finger striking the table like metallic slugs accelerated by a series of magnetic coils.",
+   "ctx": "data/campaign/rules.csv cpcOfferTextBarCoilGun1c [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"Coil!\" one hand slaps down on the table, \"Rail!\" the other, on the other side. \"Circle! Line! It's not difficult!\" $HeOrShe is shouting now, earning looks from across the bar.\r\n\r\n\"Apart from, yes yes, certain classes of hybrid, alternative and exotic design-classes, it is as clear as night and day! Am I not right?!\" $HeOrShe fixes you with $hisOrHer eyes bright with righteous anger.",
+   "ctx": "data/campaign/rules.csv cpcOfferTextBarCoilGun2 [text]"
+  },
+  {
+   "i": 21,
+   "en": "$HeOrShe gives you a look, then retrieves and unlocks $hisOrHer datapad. It seems undamaged.",
+   "ctx": "data/campaign/rules.csv cpcOfferTextBarCoilGun3a [text]"
+  },
+  {
+   "i": 22,
+   "en": "$HeOrShe nods heartily to a fellow appreciator of the important things in life then retrieves $hisOrHer datapad. It seems undamaged.",
+   "ctx": "data/campaign/rules.csv cpcOfferTextBarCoilGun3b [text]"
+  },
+  {
+   "i": 23,
+   "en": "$HeOrShe shakes $hisOrHer head at the ignorance of the world, then retrieves and unlocks $hisOrHer datapad. It seems undamaged.",
+   "ctx": "data/campaign/rules.csv cpcOfferTextBarCoilGun3c [text]"
+  },
+  {
+   "i": 24,
+   "en": "The arms dealer taps a command and a privacy field blurs the rest of the bar, muffling its murmur.\r\n \r\n\"Right. I can supply custom construction of up to $cpc_maxCapacity credits worth of rare ships and weapons, at a very reasonable $cpc_costPercent of base cost. I guarantee delivery of product within $cpc_days days, and absolute discretion.\" $HeOrShe glances up to give you a hard look, \"I'm also very exacting about technical details.\"\r\n\r\n$HeOrShe sighs one more time, some degree of tension leaving $hisOrHer body, then slides the battered datapad over, \"See if there is anything to your taste.\"",
+   "ctx": "data/campaign/rules.csv cpcOfferTextBarCoilGun4 [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"The local pirates have been getting out of hand and it's cutting into profits. We're willing to offer special incentives if you could hunt some down.\"\r\nOR\r\n\"There's been an increase in local pirate activity and I'm unsatisfied with the official response. I've decided to offer a special bounty to trusted individuals who can assist with this problem.\"\r\nOR\r\n\"The pirates have established a base nearby and their raids are simply bad for business. I could extend special bounty terms if you help us contain them.\"",
+   "ctx": "data/campaign/rules.csv psbBlurb [text]"
+  },
+  {
+   "i": 26,
+   "en": "A $psb_manOrWoman is motioning to a news feed, haranguing an officer in the local navy patrol uniform about the increased pirate raids.",
+   "ctx": "data/campaign/rules.csv psbBlurbBar [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"The terms are this,\" $heOrShe says, \"A bounty shall be paid for destruction of pirate fleets in or near $psb_systemName, $psb_dist light-years away. The base rate is $psb_baseBounty credits per frigate destroyed or disabled, on an increasing scale for larger hulls - please review addendum A in the terms I've forwarded. The period of the bounty shall last for $psb_days days.\"\r\n \r\n$HeOrShe pauses, some dark emotion crossing $hisOrHer face before $heOrShe re-asserts the usual professional bearing, \"I would be pleased to see you stamp them out, captain.\"",
+   "ctx": "data/campaign/rules.csv psbOfferTextContact [text]"
+  },
+  {
+   "i": 28,
+   "en": "You catch the attention of the $psb_manOrWoman so angered by pirate activity- a notable figure in intra-system commerce, a simple $personRank, $heOrShe explains, who is \"-disappointed by the lack of decisive action. It makes one think these patrols are more interested in tariff-enforcement than fighting pirates!\" \r\n\r\nYou nod and put on an appearance of shared concern as the rant winds down, the $manOrWoman's attention fully focused on you now.\r\n\r\nThe patrol officer gives you a thankful look and, taking their drink, scurries toward a quiet end of the bar.",
+   "ctx": "data/campaign/rules.csv psbOfferTextBar [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"You're a starship captain, yes? I'll tell you what we've been thinking,\" $personName says, sitting you down.\r\n\r\n\"Along with a few concerned associates, I've put together a fund for a bounty on all pirate fleets in or near the $psb_systemName, $psb_dist light-years away. It'd start at $psb_baseBounty credits per frigate with more payout for larger hulls. Running this bounty for $psb_days days should send a strong message to these pirates, and,\" $heOrShe tries to see where the patrol officer went, speaking louder, \"-Teach those tariff-grabbers how to deal with pirates!\"\r\n\r\n\"What do you say, captain?\"",
+   "ctx": "data/campaign/rules.csv psbOfferTextBar2 [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"I have a surplus $sShip_hullSize available. Military-grade hull, good quality. Interested?\"",
+   "ctx": "data/campaign/rules.csv sShipBlurb [text]"
+  },
+  {
+   "i": 31,
+   "en": "A military officer wearing the insignia of $sShip_rankAOrAn $sShip_rank sits alone at a private table, frowning at a datapad displaying hull specs, drink untouched.",
+   "ctx": "data/campaign/rules.csv sShipBlurbBar [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"Please, sit. Captain I presume?\" $HeOrShe nods confidently at your assent, \"Perfect. Order something. Let's talk.\"\r\n\r\n$HeOrShe slides the datapad toward you, \"We have a surplus $sShip_hullClass $sShip_hullSize in dock. Perfectly good ship, honorable service record. It'd be a damned shame to simply scrap it.\" \r\n\r\n$HeOrShe meets your eyes with a steady gaze, officer to officer. \"I could make it yours for $sShip_price credits.\"",
+   "ctx": "data/campaign/rules.csv sShipOfferTextBar [text]"
+  }
+ ]
+}

@@ -1,0 +1,1216 @@
+{
+ "chunk": 269,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"Oh... isn't that nice.\" She smiles. \"You must be very successful.\"",
+   "ctx": "data/campaign/rules.csv adonyaNotFleet [text]"
+  },
+  {
+   "i": 2,
+   "en": "You explain that you found Scylla on Laicalle Habitat and helped her initiate a very important project at the Galatia Academy.",
+   "ctx": "data/campaign/rules.csv adonyaTell [text]"
+  },
+  {
+   "i": 3,
+   "en": "With Zal's assistance, Scylla helped Provost Baird develop a method to open the Gate System.\r\n\r\nIt was a high-pressure project, and dangerous. Not for her, of course. Her job was on the theory and numbers side. Adonya nods, an extra wrinkle of concern on her forehead.\r\n\r\nIt didn't quite work out as expected, you explain, however you did manage to make history by using the so-called Janus Device to traverse the Gates, the first such trip in over 200 cycles. And it was made possible through Elissa Zal's engineering based on theoretical developments by Academician Scylla Coureuse.",
+   "ctx": "data/campaign/rules.csv adonyaTell2 [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"Oh!\" Adonya lights up at your words. \"I'm so happy she found Elissa again, what a nice girl. A little strange, though. Always up to something. But that's my Scylla.\"\r\n\r\n\"I think she gets her taste from me,\" Adonya says in a  conspiratorial half-whisper.\r\n\r\n\"You should have met her father! You'd have liked him, I think. Stars above, he could be a troublemaker. But he was fun,\" she nods to herself.",
+   "ctx": "data/campaign/rules.csv adonyaTell3 [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"Oh, okay,\" she says.",
+   "ctx": "data/campaign/rules.csv adonyaTell4a [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"Oh, okay,\" she says, unconcerned.",
+   "ctx": "data/campaign/rules.csv adonyaTell4b [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Oh,\" she says, apparently unconcerned. \"Good luck.\"",
+   "ctx": "data/campaign/rules.csv adonyaTell4c [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"Thank you for stopping by, captain. I know you must be very busy and an old woman's worries are probably the last thing on your mind, but it was good of you to take the time.\"\r\n\r\nShe pauses for a moment. \"If you find her, tell her she could send comms more often. I do so love hearing from her.\"",
+   "ctx": "data/campaign/rules.csv adonyaTell5 [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"Of course,\" she says. \"Scylla is a good daughter.\"\r\n\r\n\"Sometimes it's a long time between them, and I get worried.\" She glances back toward her holotainment unit. \"It'd be nice if she came for a visit.\"",
+   "ctx": "data/campaign/rules.csv adonyaMoreHolos [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"Now you be careful out there,\" she says. \"I know you're young, but you're not immortal. And I heard on the holo all about these terrible pirates who...\"\r\n\r\nHer impression of what happens between the Fringe and Core is somehow both ridiculously exaggerated and entirely insufficient. The holo-networks of Fikenhild are famously more entertaining than informative.\r\n\r\nEventually you manage to extract yourself from the comms-link.",
+   "ctx": "data/campaign/rules.csv adonyaOut [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"I know, dear, you already mentioned it,\" she says.",
+   "ctx": "data/campaign/rules.csv adonyaImportantToFind [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"Of course it is,\" she says, humoring you. \"It's always the fate of the worlds with Scylla, isn't it?\"\r\n\r\n\"I know this is all very important to you, captain.\" Her voice takes on a more incisive tone. \"But if she's hiding from someone, if she's hiding from you, I'm sure it's for a good reason. And like I told Mister Siyavong when he came by, I don't know where my daughter or Elissa are - and I wouldn't tell him if I did.\"\r\n\r\nShe crosses her arms.",
+   "ctx": "data/campaign/rules.csv adonyaImportantToFind2 [text]"
+  },
+  {
+   "i": 13,
+   "en": "Fly through the Gate",
+   "ctx": "gateFlyThroughOpt"
+  },
+  {
+   "i": 14,
+   "en": "Travel through the Gate",
+   "ctx": "gateUseOpt"
+  },
+  {
+   "i": 15,
+   "en": "Scan the Gate",
+   "ctx": "gateScanOpt"
+  },
+  {
+   "i": 16,
+   "en": ">> (dev) Turn ON \"allow player to scan gates\"",
+   "ctx": "devGateCanScanOn"
+  },
+  {
+   "i": 17,
+   "en": ">> (dev) Turn OFF \"allow player to scan gates\"",
+   "ctx": "devGateCanScanOff"
+  },
+  {
+   "i": 18,
+   "en": ">> (dev) Turn ON \"gates active\"",
+   "ctx": "devGatesActiveOn"
+  },
+  {
+   "i": 19,
+   "en": ">> (dev) Turn OFF \"gates active\"",
+   "ctx": "devGatesActiveOff"
+  },
+  {
+   "i": 20,
+   "en": ">> (dev) Turn ON \"player can use gates\"",
+   "ctx": "devGatesPlayerCanUseOn"
+  },
+  {
+   "i": 21,
+   "en": ">> (dev) Turn OFF \"player can use gates\"",
+   "ctx": "devGatesPlayerCanUseOff"
+  },
+  {
+   "i": 22,
+   "en": ">> (dev) Explode the gate",
+   "ctx": "devGatesExplode"
+  },
+  {
+   "i": 23,
+   "en": "\"Sensors, what are we looking at?\"",
+   "ctx": "abyssalLight_whatOpt"
+  },
+  {
+   "i": 24,
+   "en": "\"Ops. Is there a problem?\"",
+   "ctx": "abyssalLight_opsOpt"
+  },
+  {
+   "i": 25,
+   "en": "\"Understood, I'll be mindful. Thank you chief.\"\r",
+   "ctx": "abyssalLightAskOps"
+  },
+  {
+   "i": 26,
+   "en": "\"Such superstition has no place on my bridge, is that understood?\"",
+   "ctx": "abyssalLightAskOps"
+  },
+  {
+   "i": 27,
+   "en": "Order a sensor sweep, full power, focused on the anomalous drive-bubble penetrations\r",
+   "ctx": "abyssalLight_dwellerContSel"
+  },
+  {
+   "i": 28,
+   "en": "Wait\r",
+   "ctx": "abyssalLight_dwellerContSel"
+  },
+  {
+   "i": 29,
+   "en": "\"Go to maximum emission control! EMCON zero-zero alpha, immediate execute.\"",
+   "ctx": "abyssalLight_dwellerContSel"
+  },
+  {
+   "i": 30,
+   "en": "\"So. What is it?\"\r",
+   "ctx": "shroudedSubstrateBegin"
+  },
+  {
+   "i": 31,
+   "en": "\"So... what is it?\"",
+   "ctx": "shroudedSubstrateOptA"
+  },
+  {
+   "i": 32,
+   "en": "\"The Galatia Academy would be interested, I think.\"",
+   "ctx": "shroudedSubstrateOptGA"
+  },
+  {
+   "i": 33,
+   "en": "\"Is it valuable?\"",
+   "ctx": "shroudedSubstrateOptB"
+  },
+  {
+   "i": 34,
+   "en": "\"Is it useful?\"",
+   "ctx": "shroudedSubstrateOptC"
+  },
+  {
+   "i": 35,
+   "en": "\"Can it be destroyed?\"",
+   "ctx": "shroudedSubstrateOptD"
+  },
+  {
+   "i": 36,
+   "en": "\"Can it be weaponized?\"",
+   "ctx": "shroudedSubstrateOptE"
+  },
+  {
+   "i": 37,
+   "en": "\"Show me what you can do.\"",
+   "ctx": "shroudedSubstrateOptF"
+  },
+  {
+   "i": 38,
+   "en": "\"Like the Galatia Academy.\"\r",
+   "ctx": "shroudedSubstrateOptSelA"
+  },
+  {
+   "i": 39,
+   "en": "\"Like Tri-Tachyon.\"",
+   "ctx": "shroudedSubstrateOptSelA"
+  },
+  {
+   "i": 40,
+   "en": "\"Although?\"",
+   "ctx": "shroudedSubstrateOptSelAga"
+  },
+  {
+   "i": 41,
+   "en": "\"Tri-Tachyon then.\"",
+   "ctx": "shroudedSubstrateOptSelAga2"
+  },
+  {
+   "i": 42,
+   "en": "\"What exactly do 'they' say?\"\r",
+   "ctx": "shroudedSubstrateOptSelAtt"
+  },
+  {
+   "i": 43,
+   "en": "\"Who is this 'they'?\"",
+   "ctx": "shroudedSubstrateOptSelAtt"
+  },
+  {
+   "i": 44,
+   "en": "Select weapons to assemble\r",
+   "ctx": "shroudedSubstrateOptSelF"
+  },
+  {
+   "i": 45,
+   "en": "\"Prove it. I want a full proposal and testing schedule by end-of-shift.\"",
+   "ctx": "ShroudedHullmodItemRCMantle4a"
+  },
+  {
+   "i": 46,
+   "en": "\"As you were.\"",
+   "ctx": "ShroudedHullmodItemRCMantle6"
+  },
+  {
+   "i": 47,
+   "en": "\"Submit a combined report. We'll proceed - theoretically.\"",
+   "ctx": "ShroudedHullmodItemRCTH4"
+  },
+  {
+   "i": 48,
+   "en": "\"A weapon with infinite range, you say?\"",
+   "ctx": "ShroudedHullmodItemRCL3"
+  },
+  {
+   "i": 49,
+   "en": "\"Have a proposal for me by end-of-shift.\"",
+   "ctx": "ShroudedHullmodItemRCL5"
+  },
+  {
+   "i": 50,
+   "en": "\"Sensors, report.\"",
+   "ctx": "abyssalGasGiantTurbulence"
+  },
+  {
+   "i": 51,
+   "en": "\"All stations at ready. Sensors, call alert if there's any change.\"\r",
+   "ctx": "abyssalGasGiantTurbulence3"
+  },
+  {
+   "i": 52,
+   "en": "\"I don't like it either. Nav, get us out of here.\"",
+   "ctx": "abyssalGasGiantTurbulence3"
+  },
+  {
+   "i": 53,
+   "en": "\"What is it, chief?\"",
+   "ctx": "abyssalPlanetoidMiningOp"
+  },
+  {
+   "i": 54,
+   "en": "Explore\r",
+   "ctx": "GS_AI_CORES_open"
+  },
+  {
+   "i": 55,
+   "en": "Assess the ship's salvage value\r",
+   "ctx": "GS_AI_CORES_cont2Sel"
+  },
+  {
+   "i": 56,
+   "en": "Try to find out what Tri-Tachyon was looking for out here",
+   "ctx": "GS_ZGR_MERC_cont3SelA"
+  },
+  {
+   "i": 57,
+   "en": "Try to find records of what the mercenaries may have found",
+   "ctx": "GS_ZGR_MERC_cont3SelB"
+  },
+  {
+   "i": 58,
+   "en": "Investigate the results",
+   "ctx": "GS_ZGR_MERC_cont4Sel"
+  },
+  {
+   "i": 59,
+   "en": "\"Report.\"",
+   "ctx": "GS_ACADEMY_cont2Sel"
+  },
+  {
+   "i": 60,
+   "en": "\"So there's nothing?\"",
+   "ctx": "GS_ACADEMY_cont2Selb"
+  },
+  {
+   "i": 61,
+   "en": "Find out what happened to the expedition",
+   "ctx": "GS_ACADEMY_cont3Sel"
+  },
+  {
+   "i": 62,
+   "en": "Hit 'continue'",
+   "ctx": "GS_ACADEMY_cont5Sel"
+  },
+  {
+   "i": 63,
+   "en": "Run a detailed scan",
+   "ctx": "gsVambOptHubA"
+  },
+  {
+   "i": 64,
+   "en": "Send salvors in for a closer look",
+   "ctx": "gsVambOptHubB"
+  },
+  {
+   "i": 65,
+   "en": "Take samples for Oya Tanaica, the nanoforge engineer on Asher",
+   "ctx": "gsVambOptHubC"
+  },
+  {
+   "i": 66,
+   "en": "\"Tech, what are we looking at here?\"",
+   "ctx": "gsVambraceSalvors2"
+  },
+  {
+   "i": 67,
+   "en": "\"Why is it here?\"",
+   "ctx": "gsVambraceSalvors3"
+  },
+  {
+   "i": 68,
+   "en": "DEV talk to nanoforge engineer about samples\r",
+   "ctx": "DEVnanoforgeEngineerOption"
+  },
+  {
+   "i": 69,
+   "en": "DEV do BFFI_TALK_TO_ENGINEER convo (janky)",
+   "ctx": "DEVnanoforgeEngineerOption"
+  },
+  {
+   "i": 70,
+   "en": "\"I'd like you to look at a material sample. I'll pay.\"",
+   "ctx": "oyaTanaicaAskSampleOption"
+  },
+  {
+   "i": 71,
+   "en": "\"A piece of modular armor found in the Abyss.\"",
+   "ctx": "oyaTanaicaAskSampleVambraceOpt"
+  },
+  {
+   "i": 72,
+   "en": "\"Never mind.\"",
+   "ctx": "oyaTanaicaAskSampleBack"
+  },
+  {
+   "i": 73,
+   "en": "Shuttle down with the armor sample\r",
+   "ctx": "oyaTanaicaAskSampleVambrace"
+  },
+  {
+   "i": 74,
+   "en": "\"A planetoid in the Abyss. Some nameless rock.\"",
+   "ctx": "oyaTanaicaVambrace0"
+  },
+  {
+   "i": 75,
+   "en": "Pay 10,000 credits\r",
+   "ctx": "oyaTanaicaVambrace1"
+  },
+  {
+   "i": 76,
+   "en": "\"It's a piece of armor. I'll take it and go.\"",
+   "ctx": "oyaTanaicaVambrace1"
+  },
+  {
+   "i": 77,
+   "en": "\"What's weird?\"",
+   "ctx": "oyaTanaicaVambrace3"
+  },
+  {
+   "i": 78,
+   "en": "\"Is it?\"\r",
+   "ctx": "oyaTanaicaVambrace4"
+  },
+  {
+   "i": 79,
+   "en": "\"Definitely. Wow. Look at that. The... ah...\"",
+   "ctx": "oyaTanaicaVambrace4"
+  },
+  {
+   "i": 80,
+   "en": "\"You like drawing this out for maximum drama, don't you.\"\r",
+   "ctx": "oyaTanaicaVambrace5-2"
+  },
+  {
+   "i": 81,
+   "en": "\"So what makes it strange?\"",
+   "ctx": "oyaTanaicaVambrace5-2"
+  },
+  {
+   "i": 82,
+   "en": "\"So? A hacked pirate forge will strip out the FRM.\"",
+   "ctx": "oyaTanaicaVambrace6a"
+  },
+  {
+   "i": 83,
+   "en": "\"Some rock. Why can't it have been legally forged with no FRM?\"",
+   "ctx": "oyaTanaicaVambrace7"
+  },
+  {
+   "i": 84,
+   "en": "\"I'll consider it. If I find out more\"",
+   "ctx": "oyaTanaicaVambrace10optsA"
+  },
+  {
+   "i": 85,
+   "en": "\"I'll consider your request.\"\r",
+   "ctx": "oyaTanaicaVambrace10optsB"
+  },
+  {
+   "i": 86,
+   "en": "\"Have you heard of the Onslaught mk.I?\"",
+   "ctx": "oyaTanaicaVambrace10optsB"
+  },
+  {
+   "i": 87,
+   "en": "\"Really.\"",
+   "ctx": "oyaTanaicaVambraceOneslaught2a"
+  },
+  {
+   "i": 88,
+   "en": "\"Really. I have one in orbit.\"",
+   "ctx": "oyaTanaicaVambraceOneslaught2b"
+  },
+  {
+   "i": 89,
+   "en": "\"Nav, report.\"",
+   "ctx": "StrandedInDeepSpaceStart"
+  },
+  {
+   "i": 90,
+   "en": "\"Meeting, now. My cabin.\"",
+   "ctx": "StrandedInDeepSpace0"
+  },
+  {
+   "i": 91,
+   "en": "\"What is your proposal, senior technician?\"",
+   "ctx": "StrandedInDeepSpace1"
+  },
+  {
+   "i": 92,
+   "en": "\"Will it work?\"\r",
+   "ctx": "StrandedInDeepSpace2"
+  },
+  {
+   "i": 93,
+   "en": "\"What are the risks?\"\r",
+   "ctx": "StrandedInDeepSpace2"
+  },
+  {
+   "i": 94,
+   "en": "\"Make the modifications and prepare to jump.\"",
+   "ctx": "StrandedInDeepSpace2"
+  },
+  {
+   "i": 95,
+   "en": "Return to your command",
+   "ctx": "StrandedInDeepSpace3c"
+  },
+  {
+   "i": 96,
+   "en": "Examine the find\r",
+   "ctx": "limboWormholeCacheBegin2"
+  },
+  {
+   "i": 97,
+   "en": "Just leave",
+   "ctx": "limboWormholeCacheBegin2"
+  },
+  {
+   "i": 98,
+   "en": "Order salvage teams to perform an assessment\r",
+   "ctx": "gateHaulerStart1"
+  },
+  {
+   "i": 99,
+   "en": "Have your chief engineer review a plan to reactivate the Hauler\r",
+   "ctx": "gateHaulerStart2"
+  },
+  {
+   "i": 100,
+   "en": "\"Tell me what happened here.\"",
+   "ctx": "gh_exploreSel"
+  },
+  {
+   "i": 101,
+   "en": "\"But no one showed up.\"",
+   "ctx": "gh_exploreSel2"
+  },
+  {
+   "i": 102,
+   "en": "\"Tell me how to turn this thing back on. I want numbers, chief.\"\r",
+   "ctx": "gh_exploreSel4"
+  },
+  {
+   "i": 103,
+   "en": "\"What are the risks of reactivation?\"\r",
+   "ctx": "gh_exploreSel4"
+  },
+  {
+   "i": 104,
+   "en": "\"Proceed with activation.\"",
+   "ctx": "GateHaulerActivationActivate"
+  },
+  {
+   "i": 105,
+   "en": "Select a destination for the Gate Hauler\r",
+   "ctx": "gateHaulerStart4"
+  },
+  {
+   "i": 106,
+   "en": "Initiate Gate deployment\r",
+   "ctx": "gateHaulerStart4"
+  },
+  {
+   "i": 107,
+   "en": "DEPLOY\r",
+   "ctx": "gh_deployGateSel"
+  },
+  {
+   "i": 108,
+   "en": "Disconnect and leave",
+   "ctx": "gh_deployGateSel"
+  },
+  {
+   "i": 109,
+   "en": "Perform a survey",
+   "ctx": "surveyAddOptionPerform"
+  },
+  {
+   "i": 110,
+   "en": "Establish a colony",
+   "ctx": "surveyAddOptionPerformedAlready"
+  },
+  {
+   "i": 111,
+   "en": "Open the comm directory",
+   "ctx": "marketAddOptionCommDir"
+  },
+  {
+   "i": 112,
+   "en": "Trade goods or hire crew [I], buy or sell ships [F], or refit [R]",
+   "ctx": "marketOptTradeMulti"
+  },
+  {
+   "i": 113,
+   "en": "Inspect the cargo storage areas",
+   "ctx": "orbitalStorageInteractionCargo1"
+  },
+  {
+   "i": 114,
+   "en": "Inspect the starship docks",
+   "ctx": "orbitalStorageInteractionFleet1"
+  },
+  {
+   "i": 115,
+   "en": "Transfer cargo",
+   "ctx": "orbitalStorageInteractionCargo2"
+  },
+  {
+   "i": 116,
+   "en": "Transfer ships",
+   "ctx": "orbitalStorageInteractionFleet2"
+  },
+  {
+   "i": 117,
+   "en": "Use the local facilities to refit your $shipOrFleet",
+   "ctx": "orbitalStorageInteractionRefit"
+  },
+  {
+   "i": 118,
+   "en": "Manage the colony",
+   "ctx": "marketOptTradeMulti3"
+  },
+  {
+   "i": 119,
+   "en": "View colony info",
+   "ctx": "marketOptTradeMulti4"
+  },
+  {
+   "i": 120,
+   "en": "Take a shuttle down to visit a dockside bar",
+   "ctx": "marketOptBar"
+  },
+  {
+   "i": 121,
+   "en": "Consider your military options",
+   "ctx": "marketOptHostile"
+  },
+  {
+   "i": 122,
+   "en": "Repair your ships at the dockyard",
+   "ctx": "marketAddOptionRepair1"
+  },
+  {
+   "i": 123,
+   "en": "\"Put them through.\"",
+   "ctx": "TTmarketPostWeirdHullmods5"
+  },
+  {
+   "i": 124,
+   "en": "\"Thank you. May I dock?\"\r",
+   "ctx": "TTmarketPostWeirdHMbegin"
+  },
+  {
+   "i": 125,
+   "en": "\"What's this about?\"\r",
+   "ctx": "TTmarketPostWeirdHMbegin"
+  },
+  {
+   "i": 126,
+   "en": "\"Is this about a bribe? Just tell me how much.\"",
+   "ctx": "TTmarketPostWeirdHMbegin"
+  },
+  {
+   "i": 127,
+   "en": "\"Oh?\"\r",
+   "ctx": "TTmarketWeirdMods2"
+  },
+  {
+   "i": 128,
+   "en": "\"Is there going to be some kind of trouble?\"",
+   "ctx": "TTmarketWeirdMods2"
+  },
+  {
+   "i": 129,
+   "en": "\"The Onslaught Mk.I would do that, wouldn't it.\"\r",
+   "ctx": "TTmarketWeirdMods2OMKI"
+  },
+  {
+   "i": 130,
+   "en": "\"I'd be delighted to meet the Director.\"\r",
+   "ctx": "TTmarketWeirdMods5"
+  },
+  {
+   "i": 131,
+   "en": "\"Sounds pretty important.\"\r",
+   "ctx": "TTmarketWeirdMods5"
+  },
+  {
+   "i": 132,
+   "en": "\"What's this, uh, Zunya person do?\"",
+   "ctx": "TTmarketWeirdMods5"
+  },
+  {
+   "i": 133,
+   "en": "\"Thank you. I'll be sure to mention your name to the Director.\"\r",
+   "ctx": "TTmarketWeirdModsOutro"
+  },
+  {
+   "i": 134,
+   "en": "\"I don't believe you told me what 'special acquisitions' entails...\"",
+   "ctx": "TTmarketWeirdModsOutro"
+  },
+  {
+   "i": 135,
+   "en": "Cut the link",
+   "ctx": "TTmarketWeirdModsOutro2a"
+  },
+  {
+   "i": 136,
+   "en": "Cut the link and take evasive action",
+   "ctx": "CGRmarketWeirdOutro"
+  },
+  {
+   "i": 137,
+   "en": "\"Is there a problem, $post?\"",
+   "ctx": "CGRpatrolWeirdMods0unknown"
+  },
+  {
+   "i": 138,
+   "en": "\"Is it my... unique modifications you object to?\"\r",
+   "ctx": "CGRpatrolWeirdMods1"
+  },
+  {
+   "i": 139,
+   "en": "\"There seems to be some kind of misunderstanding.\"\r",
+   "ctx": "CGRpatrolWeirdMods1"
+  },
+  {
+   "i": 140,
+   "en": "\"What exactly do your sensors suggest?\"",
+   "ctx": "CGRpatrolWeirdMods1"
+  },
+  {
+   "i": 141,
+   "en": "\"I am commissioned by the Church!\"",
+   "ctx": "CGRpatrolWeirdModsOpt3a"
+  },
+  {
+   "i": 142,
+   "en": "\"Hold your condemnation for a moment, for I share your Faith.\"",
+   "ctx": "CGRpatrolWeirdModsOpt3b"
+  },
+  {
+   "i": 143,
+   "en": "\"Let's discuss this before jumping to conclusions...\"",
+   "ctx": "CGRpatrolWeirdModsOpt3c"
+  },
+  {
+   "i": 144,
+   "en": "\"Perhaps we come to an 'arrangement'? Just name a price...\"",
+   "ctx": "CGRpatrolWeirdModsOpt3d"
+  },
+  {
+   "i": 145,
+   "en": "\"This is an irrational outburst, $post.\"",
+   "ctx": "CGRpatrolWeirdModsOpt3e"
+  },
+  {
+   "i": 146,
+   "en": "\"Is this about a tithe?\"",
+   "ctx": "PathFleetWeirdMods0tithe"
+  },
+  {
+   "i": 147,
+   "en": "\"Is there a problem?\"",
+   "ctx": "PathFleetWeirdMods0unknown"
+  },
+  {
+   "i": 148,
+   "en": "\"Hold a moment, let us talk this through.\"\r",
+   "ctx": "PathFleetWeirdMods1"
+  },
+  {
+   "i": 149,
+   "en": "\"You should calm down before doing something you'll regret.\"\r",
+   "ctx": "PathFleetWeirdMods1"
+  },
+  {
+   "i": 150,
+   "en": "\"Funny way to ask for a bribe, but let's talk credits...\"\r",
+   "ctx": "PathFleetWeirdMods1"
+  },
+  {
+   "i": 151,
+   "en": "\"Enough of this. Battle stations!\" (cut comms)",
+   "ctx": "PathFleetWeirdMods1"
+  },
+  {
+   "i": 152,
+   "en": "Turn your transponder on\r",
+   "ctx": "greetingDefaultTOffNormal"
+  },
+  {
+   "i": 153,
+   "en": "\"Thank you. Is everything alright?\"\r",
+   "ctx": "TTpatrolWeirdMods0"
+  },
+  {
+   "i": 154,
+   "en": "\"Is there some kind of problem, $post?\"\r",
+   "ctx": "TTpatrolWeirdMods0"
+  },
+  {
+   "i": 155,
+   "en": "\"Is that right? How interesting.\"\r",
+   "ctx": "TTpatrolWeirdMods2"
+  },
+  {
+   "i": 156,
+   "en": "\"Do you like them?\"\r",
+   "ctx": "TTpatrolWeirdMods2"
+  },
+  {
+   "i": 157,
+   "en": "\"Is this about the Onslaught Mk.I?\"\r",
+   "ctx": "TTpatrolWeirdMods2OMKI"
+  },
+  {
+   "i": 158,
+   "en": "\"There's a reward, you say?\"",
+   "ctx": "TTpatrolWeirdMods5optA"
+  },
+  {
+   "i": 159,
+   "en": "\"Tell me, what does 'special acquisitions' entail?\"",
+   "ctx": "TTpatrolWeirdMods5optB"
+  },
+  {
+   "i": 160,
+   "en": "\"Thanks. I think.\"",
+   "ctx": "TTpatrolWeirdMods6"
+  },
+  {
+   "i": 161,
+   "en": "\"Perhaps a larger tithe could inspire a broader arrangement.\"",
+   "ctx": "LPTitheHasColonies"
+  },
+  {
+   "i": 162,
+   "en": "Pay the tithe",
+   "ctx": "LPTitheNormal"
+  },
+  {
+   "i": 163,
+   "en": "Pay the agreed-upon amount\r",
+   "ctx": "payMegaTitheSel"
+  },
+  {
+   "i": 164,
+   "en": "\"Perhaps we could share a more permanent - and bountiful - Path together?\"\r",
+   "ctx": "payMegaTitheSel"
+  },
+  {
+   "i": 165,
+   "en": "\"I'll need to consider this.\" (stall)",
+   "ctx": "payMegaTitheSel"
+  },
+  {
+   "i": 166,
+   "en": "Inform the pirate that you are working for the Warlord Kanta",
+   "ctx": "gaVIPWorkingForKanta"
+  },
+  {
+   "i": 167,
+   "en": "Select cargo to surrender\r",
+   "ctx": "piratesDemandCargo"
+  },
+  {
+   "i": 168,
+   "en": "Allow the scan to proceed\r",
+   "ctx": "customsInspectionConvStart"
+  },
+  {
+   "i": 169,
+   "en": "\"I don't think so.\"",
+   "ctx": "customsInspectionConvStart"
+  },
+  {
+   "i": 170,
+   "en": "Pay the toll ($tollAmount credits)",
+   "ctx": "customsInspectionPayToll"
+  },
+  {
+   "i": 171,
+   "en": "Surrender illegal goods; pay the toll and fine ($tollAmount credits)",
+   "ctx": "customsInspectionPayTollAndFine"
+  },
+  {
+   "i": 172,
+   "en": "Explain that you can't afford to pay",
+   "ctx": "customsInspectionCantAffordToll"
+  },
+  {
+   "i": 173,
+   "en": "Refuse to pay",
+   "ctx": "customsInspectionRefuseToll"
+  },
+  {
+   "i": 174,
+   "en": "Refuse to cooperate",
+   "ctx": "customsInspectionRefuseFine"
+  },
+  {
+   "i": 175,
+   "en": "\"Yes, of course.\"\r",
+   "ctx": "optionCantAffordFine"
+  },
+  {
+   "i": 176,
+   "en": ">>(dev) quick start",
+   "ctx": "initNewGameChoicesDev"
+  },
+  {
+   "i": 177,
+   "en": ">>(dev) quick start custom no time pass",
+   "ctx": "initNewGameChoicesDev2"
+  },
+  {
+   "i": 178,
+   "en": "A bounty hunter, commanding a Wolf-class frigate",
+   "ctx": "ngcWolfStart"
+  },
+  {
+   "i": 179,
+   "en": "A scavenger, commanding a Wayfarer-class combat freighter",
+   "ctx": "ngcWayfarerStart"
+  },
+  {
+   "i": 180,
+   "en": "An explorer, leading a salvage expedition from aboard an Apogee-class cruiser (faster start)",
+   "ctx": "ngcExplorerStart"
+  },
+  {
+   "i": 181,
+   "en": "A mercenary, leading a small force from aboard a Hammerhead-class destroyer (faster start)",
+   "ctx": "ngcMercStart"
+  },
+  {
+   "i": 182,
+   "en": "A freelancer, doing whatever jobs you've been able to find (randomized start)",
+   "ctx": "ngcRandomStart"
+  },
+  {
+   "i": 183,
+   "en": "\"A spacer. A broken-down shuttle. A lifelong debt.\" (very hard)",
+   "ctx": "ngcSpacerStart"
+  },
+  {
+   "i": 184,
+   "en": "A Kite-class shuttle, under the command of an experienced subordinate\r",
+   "ctx": "ngcPickSecondShip"
+  },
+  {
+   "i": 185,
+   "en": "A Shepherd class drone tender, with a cargo of heavy machinery",
+   "ctx": "ngcPickSecondShip"
+  },
+  {
+   "i": 186,
+   "en": "Normal\r",
+   "ctx": "ngcDifficulty"
+  },
+  {
+   "i": 187,
+   "en": "Easy",
+   "ctx": "ngcDifficulty"
+  },
+  {
+   "i": 188,
+   "en": "Start with tutorial!",
+   "ctx": "ngcWithTutorial"
+  },
+  {
+   "i": 189,
+   "en": "Skip it",
+   "ctx": "ngcSkipTutorial"
+  },
+  {
+   "i": 190,
+   "en": "$mh_openOptionText",
+   "ctx": "addMHubOption"
+  },
+  {
+   "i": 191,
+   "en": "\"I'll need to think about it.\"",
+   "ctx": "addMhubCloseOption"
+  },
+  {
+   "i": 192,
+   "en": "Accept the comm request\r",
+   "ctx": "playerOptionsVSContactingNPC"
+  },
+  {
+   "i": 193,
+   "en": "Ignore it",
+   "ctx": "playerOptionsVSContactingNPC"
+  },
+  {
+   "i": 194,
+   "en": "Yes\r",
+   "ctx": "convTMStart"
+  },
+  {
+   "i": 195,
+   "en": "Deliver the $mpm_commodityName",
+   "ctx": "mpm_hasEnoughOption"
+  },
+  {
+   "i": 196,
+   "en": "Hand over the $mpm_commodityName",
+   "ctx": "mpm_handOverPirateOption"
+  },
+  {
+   "i": 197,
+   "en": "Explain that you don't have the $mpm_commodityName",
+   "ctx": "mpm_notEnoughPirateOption"
+  },
+  {
+   "i": 198,
+   "en": "Refuse",
+   "ctx": "mpm_refusePirateOption"
+  },
+  {
+   "i": 199,
+   "en": "\"Depends. What can you do?\"",
+   "ctx": "ome_askSkills"
+  },
+  {
+   "i": 200,
+   "en": "Offer to hire $himOrHer",
+   "ctx": "ome_askHire"
+  },
+  {
+   "i": 201,
+   "en": "Ask $himOrHer about the contract terms",
+   "ctx": "ome_askHireMerc"
+  },
+  {
+   "i": 202,
+   "en": "\"I can't hire on any more officers at the moment.\"",
+   "ctx": "ome_cantHire"
+  },
+  {
+   "i": 203,
+   "en": "\"I can't hire on any more administrators at the moment.\"",
+   "ctx": "ome_cantHireAdmin"
+  },
+  {
+   "i": 204,
+   "en": "\"Sounds good.\"\r",
+   "ctx": "ome_hireOptionsNormal"
+  },
+  {
+   "i": 205,
+   "en": "\"I've changed my mind.\"",
+   "ctx": "ome_hireOptionsNormal"
+  },
+  {
+   "i": 206,
+   "en": "Accept the terms\r",
+   "ctx": "ome_hireOptionsNormalMerc"
+  },
+  {
+   "i": 207,
+   "en": "\"I'll need to think about this.\"",
+   "ctx": "ome_hireOptionsNormalMerc"
+  },
+  {
+   "i": 208,
+   "en": "\"I can't afford that at the moment.\"",
+   "ctx": "ome_hireOptionsCantAfford"
+  },
+  {
+   "i": 209,
+   "en": "Turn the transponder on and comply\r",
+   "ctx": "tOffPatrolOpenComm"
+  },
+  {
+   "i": 210,
+   "en": "Talk your way out of it\r",
+   "ctx": "tOffPatrolOpenComm"
+  },
+  {
+   "i": 211,
+   "en": "Refuse and cut the comm link",
+   "ctx": "tOffPatrolOpenComm"
+  },
+  {
+   "i": 212,
+   "en": "Allow the scan\r",
+   "ctx": "tOffPatrolOpenCommTOn"
+  },
+  {
+   "i": 213,
+   "en": "tOff_notFirstTimeCont:Continue\r",
+   "ctx": "tOffPatrolOpenCommNotFirstTime"
+  },
+  {
+   "i": 214,
+   "en": "Comply and prepare for an inspection\r",
+   "ctx": "tOffCargoScanBoarding1"
+  },
+  {
+   "i": 215,
+   "en": "Surrender the contraband and cut the comm link\r",
+   "ctx": "tOffCargoScanContraband"
+  },
+  {
+   "i": 216,
+   "en": "\"I understand running a thorough investigation can be expensive...\"\r",
+   "ctx": "ise_offerBribe"
+  },
+  {
+   "i": 217,
+   "en": "Offer a \"donation\" of $ise_bribeAmountDGS credits\r",
+   "ctx": "ise_offerBribeSel"
+  },
+  {
+   "i": 218,
+   "en": "\"I just want to make sure you have the resources for a thorough investigation...\"\r",
+   "ctx": "igr_greetingTOff"
+  },
+  {
+   "i": 219,
+   "en": "Offer a \"donation\" of $igr_bribeAmountDGS credits\r",
+   "ctx": "igr_offerBribeSel"
+  },
+  {
+   "i": 220,
+   "en": "$salvageLeaveText",
+   "ctx": "sal_defaultLeave1"
+  },
+  {
+   "i": 221,
+   "en": "Explore",
+   "ctx": "sal_explore"
+  },
+  {
+   "i": 222,
+   "en": "Assess",
+   "ctx": "sal_assess"
+  },
+  {
+   "i": 223,
+   "en": "Begin salvage operations",
+   "ctx": "sal_optionSalvageEnabled"
+  },
+  {
+   "i": 224,
+   "en": "Consider whether special measures might be taken to recover this ship",
+   "ctx": "sal_forceRecoveryOpt"
+  },
+  {
+   "i": 225,
+   "en": "Give the order to fire\r",
+   "ctx": "sal_demolishOptionSelected"
+  },
+  {
+   "i": 226,
+   "en": "Examine pod contents",
+   "ctx": "pods_open"
+  },
+  {
+   "i": 227,
+   "en": "Put the pods into a stable orbit",
+   "ctx": "pods_stabilize"
+  },
+  {
+   "i": 228,
+   "en": "Blast the locks open",
+   "ctx": "pods_break"
+  },
+  {
+   "i": 229,
+   "en": "Transmit the keycode and examine the contents",
+   "ctx": "pods_unlock"
+  },
+  {
+   "i": 230,
+   "en": "Proceed\r",
+   "ctx": "pods_stabilizeSel"
+  },
+  {
+   "i": 231,
+   "en": "Why not. Look over to the young missionary.\r",
+   "ctx": "lppHookStartAgain"
+  },
+  {
+   "i": 232,
+   "en": "Keep walking",
+   "ctx": "lppHookStartAgain"
+  },
+  {
+   "i": 233,
+   "en": "\"Thank you, but I'm already familiar with your religion.\"",
+   "ctx": "lppHookResponsePolite"
+  },
+  {
+   "i": 234,
+   "en": "\"I'd like to learn more about your faith.\"",
+   "ctx": "lppHookResponseLearn"
+  },
+  {
+   "i": 235,
+   "en": "\"I have felt myself drawn to the Path.\"",
+   "ctx": "lppHookResponseYesAnd"
+  },
+  {
+   "i": 236,
+   "en": "\"I'm a strong supporter of AI rights.\"",
+   "ctx": "lppHookResponseTroll"
+  },
+  {
+   "i": 237,
+   "en": "\"Not interested. Bye.\" ",
+   "ctx": "lppHookResponseNope"
+  },
+  {
+   "i": 238,
+   "en": "\"I was simply curious about the shrine.\"\r",
+   "ctx": "lppHookPolite"
+  },
+  {
+   "i": 239,
+   "en": "\"I... may have some spiritual questions.\"\r",
+   "ctx": "lppHookPolite"
+  },
+  {
+   "i": 240,
+   "en": "\"You misunderstand; I already walk the Path.\"\r",
+   "ctx": "lppHookPolite"
+  },
+  {
+   "i": 241,
+   "en": "\"No. What good is a religion that hates technology?\"\r",
+   "ctx": "lppHookPolite"
+  },
+  {
+   "i": 242,
+   "en": "\"Sorry, but I'm busy. Very busy. Good-bye.\"",
+   "ctx": "lppHookPolite"
+  }
+ ]
+}

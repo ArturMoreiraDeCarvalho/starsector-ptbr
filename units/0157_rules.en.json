@@ -1,0 +1,186 @@
+{
+ "chunk": 157,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "You review Baird's list of Coureuse's associates on Fikenhild. \r\n\r\nBione Lata is tagged as 'childhood friend', and lives in an exurb community. \r\n\r\nPerhaps she knows something more of Scylla Coureuse's personal connections from her early life. At the very least any other agent following similar leads would have had to have contacted Bione.",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildVisit_stageB [text]"
+  },
+  {
+   "i": 2,
+   "en": "You review Baird's list of Coureuse's associates on Fikenhild. \r\n\r\nCavin Pharoh's file has an attached file about an event at some kind of art co-op operated by undercity radicals.\r\n\r\nHe seems like the sort that is used to hiding from the authorities. Maybe he, or someone he knows, is helping Coureuse. You scroll through some holos of what passes for artwork in Cavin's association, and judging by the content, you feel that local MuniSec probably has Cavin on a list.",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildVisit_stageC [text]"
+  },
+  {
+   "i": 3,
+   "en": "You review Baird's list of Coureuse's associates. It looks like you've cleared the best hits. And besides, you've got a strong new lead to follow up on.",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildVisit_over [text]"
+  },
+  {
+   "i": 4,
+   "en": "You stand for a moment at the transport hub, considering your options.",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildHub [text]"
+  },
+  {
+   "i": 5,
+   "en": "On your way back to the shuttle you review the information given to you by Baird as well as your own notes. Interrogating civilians is not your usual method - perhaps investigating the probes that Scylla, or someone close to her, may still be using in the $gaFC_starName system will reveal more concrete results.\r\n\r\nYou recall that Provost Baird asked you to inform her if you decided to change your approach to the matter of Scylla Coureuse.",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildLeaveEarly [text]"
+  },
+  {
+   "i": 6,
+   "en": "You return to your shuttle, considering what you've learned. The answer you seek feels very close now.\r\n\r\nYou stop yourself from tapping at your datapad impatiently; the comm directory will always be there.",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildLeaveDone [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Coureuse?\" $HeOrShe gives you a skeptical look. \"I believe you discussed this individual with our station commander already.\"\r\n\r\n\"The prime navarch's resolution has my full support, captain. We'll have to leave the matter at that.\"",
+   "ctx": "data/campaign/rules.csv gaFCfikenhildBotherAdminAlready [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"Coureuse?\" $HeOrShe gives you a skeptical look. \"I believe you discussed this individual with the administration already.\"\r\n\r\n\"Their resolution has my full support, captain. We'll have to leave the matter at that.\"",
+   "ctx": "data/campaign/rules.csv gaFCfikenhildBotherStatComAlready [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"I don't have any associates by that name.\" $HeOrShe sounds irritated.\r\n\r\n\"I'm answering your call because facilitating interstellar trade with independent operators is within my purview. If you're simply looking for a comms ID, I suggest you query a public search terminal.\"\r\n\r\n\"Now. Do you have any real business to discuss?\"",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildBotherAdmin [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"Right. I don't know who that is.\" $HeOrShe sounds annoyed. \"I'm not a comm directory.\"\r\n\r\n\"I am here to coordinate Persean League civil and military assets to ensure the safety and security of Fikenhild and the local system. If you have business to discuss relating to these matters, I would be delighted to assist you.\" \r\n\r\n$HeOrShe doesn't sound particularly delighted, but your diplomatic intuition suggests it would be best not to point this out.",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildBotherStatCom [text]"
+  },
+  {
+   "i": 11,
+   "en": "$HeOrShe blinks, taken aback. \"$PlayerSirOrMadam.\" \r\n\r\nYou hear the tap of keys and a quick glance aside.\r\n\r\n\"My apologies. I was... your admittance to the League is quite recent. My congratulations.\"\r\n\r\n$HisOrHer voice doesn't quite have the warmth of enthusiasm $hisOrHer words would require to stand on their own.",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildBotherVIPoptAsel [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"As I'm sure you know, demarchon, there are certain procedures we have to follow. This is a League citizen on a League world? No outstanding warrant, no Fleet orders, no Council authorization?\"\r\n\r\n\"If the King had given an order, I'd know about it. So.\" $HeOrShe spreads $hisOrHer hands. \"I want to help you, but my office cannot do so unless we follow correct procedure. I'm sorry.\"\r\n\r\nThe $post looks aside. \"Unless...\"",
+   "ctx": "data/campaign/rules.csv gaFCfikenhildBotherVIPoptAsel2 [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"Fleet Intelligence has more leeway in these matters. Post-Mairaath reforms and all that. I'm not saying it should be done lightly, but...\"\r\n\r\n$HeOrShe looks at you. \"Is it important?\"",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildBotherVIPoptA3 [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"Alright.\" $personName nods slowly, meeting your gaze.\r\n\r\n\"I'll have a word with... a contact. Then it'll be in his hands. That's the best I can do, demarchon.\"",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildBotherVIPoptA4yes [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"Alright.\" $personName nods, meeting your gaze.\r\n\r\n\"I appreciate your candor and judgement. Good luck with... whatever you're trying to sort out.\"",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildBotherVIPoptA4no [text]"
+  },
+  {
+   "i": 16,
+   "en": "$HeOrShe nods, and $hisOrHer expression settles into familiar bureaucratic impatience.",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildBotherVIPoptCsel [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"A joker, huh.\" $HeOrShe narrows $hisOrHer eyes. \"You know that interfering with my duties is a civil offense? Lucky for you, you're not worth the bother of prosecution.\"\r\n\r\n\"In the meantime, here's a punchline.\"\r\n\r\nThe comms cut rather abruptly.",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildBotherVIPoptDsel [text]"
+  },
+  {
+   "i": 18,
+   "en": "$HeOrShe blinks. \"Captain.\"\r\n\r\nYou hear the tap of keys and a quick glance aside.\r\n\r\n\"Yes, I confirm that.\" $HeOrShe produces a brief, unenthusiastic smile.\r\n\r\n\"However I am forbidden to provide you with information on a League citizen on a League world without proper authorization, due cause, or an order from the King or the Prime Demarchon.\" $HeOrShe spreads $hisOrHer hands. \"I want to help you, but procedure must be followed.\"",
+   "ctx": "data/campaign/rules.csv gaFCfikenhildBotherVIPoptPLcom [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"Is that a ship?\" $HeOrShe looks aside and taps at a control surface. \"I don't see an registration for a 'Scylla Coureuse', though sometimes the interfactional databases take some time to update...\"\r\n\r\nMore tapping.",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildBotherPM2 [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"Oh.\" $HeOrShe turns back to face you.\r\n\r\n\"$SirOrMadam, I'm a portmaster. That's a bit out of my purview unless you bear a warrant from munisec. Or maybe the King. But it doesn't matter because I've never heard of... what'd you say the name was? Core something?\"",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildBotherPM3 [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"Glad I could help,\" $heOrShe says without a trace of sarcasm.",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildBotherPM4a [text]"
+  },
+  {
+   "i": 22,
+   "en": "$HeOrShe shrugs.\r\n\r\n\"Anything else?\"",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildBotherPM4b [text]"
+  },
+  {
+   "i": 23,
+   "en": "$HeOrShe blinks, then turns back to reading something.\r\n\r\nAfter a moment $heOrShe glances at you.\r\n\r\n\"Did you have a question?\"",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildBotherQM2 [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"Much better.\" $HeOrShe puts down a TriPad and gives you $hisOrHer full attention. \"If you want to ask a question, ask the question. Don't make me feel like I'm doing you a favor, stars above.\"\r\n\r\nA pause.\r\n\r\n\"No. And No.\"",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildBotherQM3 [text]"
+  },
+  {
+   "i": 25,
+   "en": "$HeOrShe shrugs and picks the TriPad back up.",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildBotherQM4a [text]"
+  },
+  {
+   "i": 26,
+   "en": "$HeOrShe shrugs and picks the TriPad back up without acknowledging your tone.",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildBotherQM4b [text]"
+  },
+  {
+   "i": 27,
+   "en": "You ask around about the missing academician, buying moderately priced drinks to lubricate the flow of information. This is a spacer bar, and though spacers try to look out for one another you're finding little in the way of leads, mostly just shrugs and apologies.\r\n\r\nOne graying space dog accepts your drink and says, \"Academician eh? If you're digging into the trouble that went down in Galatia not-too-long ago, I suggest you make well clear. Heggie boots came down hard and fast. Noodling with the jump-points is one thing, but what I hear is there was some business with one of them AIs behind it. Masterminding, like.\"",
+   "ctx": "data/campaign/rules.csv gaFCAskAroundFikenhildBar1 [text]"
+  },
+  {
+   "i": 28,
+   "en": "The spacer winks, takes a deep drink, and speaks more quietly. \"Aye, you see if they can close down the jump-points, all they gotta do is open the Gates right up and pow!\"\r\n\r\nA fist slams down on the table, rattling a couple empties.\r\n\r\n\"The invasion fleet! The one they've been settin' fer last two hun'erd cycles. See, it all adds up - them Ludd figure disappears, the exact moment them Gates go shut-down? You see what it means?\"",
+   "ctx": "data/campaign/rules.csv gaFCAskAroundFikenhildBar2 [text]"
+  },
+  {
+   "i": 29,
+   "en": "The spacer takes another deep drink, continuing, \"In-deed. Timings too perfect, ya'see? What, what with Ludd starting up the whole lot with them-all, preaching that we should throw our technologies away. Don't you see?\"\r\n\r\nThe spacer looks around a little unsteadily, then lowers their head to speak almost in a whisper.\r\n\r\n\"They was preparing us. For the invasion. We shut down them factories and ships and weapons and factories,\" a finger spins, showing you the whole terrible cycle of betrayal. \"Ya'see? Because you- if you look close, they say Ludd was never caught on holovid, but I seen things. Ludd was one of 'em. A cyborg-AI-robot whats'it. And there're others. Left behind to be leading us astray. You know whaddit means?\"",
+   "ctx": "data/campaign/rules.csv gaFCAskAroundFikenhildBar3 [text]"
+  },
+  {
+   "i": 30,
+   "en": "The spacer takes another swig, emptying the glass, then looks to you expectantly.",
+   "ctx": "data/campaign/rules.csv gaFCAskAroundFikenhildBar4 [text]"
+  },
+  {
+   "i": 31,
+   "en": "The bartender notices you and rolls their eyes, \"Oh you're getting a real story I bet,\" then turns to the spacer. \"You! I told you, no credits, no drink. I won't have you bumming around disturbing paying customers with more of your crazy stories. Out!\"\r\n\r\nThe graying spacer gives you an apologetic smile, salutes, and slips unsteadily away.",
+   "ctx": "data/campaign/rules.csv gaFCAskAroundFikenhildBar5 [text]"
+  },
+  {
+   "i": 32,
+   "en": "You stand for a moment taking in the bewildering signage of the Kay-arco transport matrix before you shrug and allow your TriPad to select the best route to the home of Adonya Coureuse. \r\n\r\nCyclopean arcology substructure flashes by as you ride the primary ring tube to a far segment of the metroplex; a small passenger lift fills with the smell of sweat and machine oil of a shift of undersea laborers returning home; glimpses of the towering arms of Kay-arco flash by, glittering with thousands of windows.  ",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildAdonya1 [text]"
+  },
+  {
+   "i": 33,
+   "en": "You find yourself guided through the heart of a residential stack, through a quiet plaza filled with retirees and well-tended foliage, then before you is the door of Adonya Coureuse.\r\n\r\nYou press the door chime, and barely get out your excuse for the visit before being invited in.\r\n\r\nAdonya is more than pleased to have a visitor and, despite your protests, has a cup of tea cooling in your hand before you quite know what's happening.",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildAdonya2 [text]"
+  },
+  {
+   "i": 34,
+   "en": "You have only to bring up her daughter to get Adonya talking. \"The girl is too clever for her own good. Just like her father.\" Adonya shakes her head at an old memory, but speaks of Scylla with pride. \"The man who visited last time said that was all the questions they had, didn't they find anything? ... But look at you!\" She admires your uniform, \"Are you also from Fleet?\"\r\n\r\nYou manage to avoid answering that question; Adonya has a holo-feed of the King of Westernesse holding court set to half-volume and switches effortlessly between commenting on the proceedings and questioning you about personal matters: you hedge on your precise age, admit to operating a space $shipOrFleet, and leave your marital status vague. She doesn't seem to mind your non-answers.\r\n\r\nFinally you get the chance to ask a question of your own.",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildAdonya3 [text]"
+  },
+  {
+   "i": 35,
+   "en": "Adonya continues watching some scandal involving the King of Westernesse. \"That man from League Fleet- or was it MuniSec? Oh, you people can never get your records straight. It's that new king- so impressive at first, but if you only play to locals, the bigwigs on Kazeron will take you by the so-and-so, that's what I say. Give this scandal another week and everyone will say 'Adonya, you were right about everything.'\r\n\r\n\"Anyway, what was his name, Finlay something? He left a comms chip in case I had more questions. And I called, but it was an automated response, can you believe that? So I threw it away. Let him apologize in person.\" She smiles, \"I like you much better.\" \r\n\r\nYou nod agreeably. An agent named Finlay. Probably working for the Persean League's intelligence service. Interesting.",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildAdonyaA [text]"
+  },
+  {
+   "i": 36,
+   "en": "You wait for a lull in the noise and ask your question a little louder than intended. Adonya gives you a corrective look before turning back to her holovid. The King of Westernesse is haranguing a panel of aquanomists.\r\n\r\n\"It's political, isn't it?\" Adonya says after a moment. \"Scylla finally found real trouble. I always told her that Cavin boy was bad news, but she'd say it was 'just art stuff'. I may be her mother, but I'm not stupid.\" She gestures intensely at the holovid, a splash of tea exiting her cup, \"That's a capering twit if ever there was one, but at least no one is dying in some fool street fight.\"\r\n\r\nShe sighs, \"If only Scylla had settled down with Elissa. You can be content making a ripple instead of a splash. I told her father that once, and he had the sense to listen.\"",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildAdonyaB [text]"
+  }
+ ]
+}

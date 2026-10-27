@@ -1,0 +1,981 @@
+{
+ "chunk": 285,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"I survived losing that duel on Eventide, I'll have you know.\"",
+   "ctx": "ttArroyoProblems5honorAopt"
+  },
+  {
+   "i": 2,
+   "en": "\"I won that duel on Eventide, I'll have you know.\"",
+   "ctx": "ttArroyoProblems5honorBopt"
+  },
+  {
+   "i": 3,
+   "en": "\"... I do have a Hegemony commission, you know.\"",
+   "ctx": "ttArroyoProblems5honorCopt"
+  },
+  {
+   "i": 4,
+   "en": "\"Honor is its own reward.\"",
+   "ctx": "ttArroyoProblems5honorDopt"
+  },
+  {
+   "i": 5,
+   "en": "\"But $brotherOrSister, surely you know that I bear a commission of the Church...\"",
+   "ctx": "lcSacredProtectorsChurchCom"
+  },
+  {
+   "i": 6,
+   "en": "\"I have given service, and will continue to. Pray tell, is that not sufficient?\"",
+   "ctx": "lcSacredProtectorsChurchCom2"
+  },
+  {
+   "i": 7,
+   "en": "Hand over $SP_supplies units of supplies",
+   "ctx": "lcSacredProtectorsGiveSupplies"
+  },
+  {
+   "i": 8,
+   "en": "\"My blessed $brotherOrSister in Faith, of course I will give!\"",
+   "ctx": "lcSacredProtectorsGiveSuppliesFaith"
+  },
+  {
+   "i": 9,
+   "en": "\"No, I'm not giving you anything.\"",
+   "ctx": "lcSacredProtectorsGoAway"
+  },
+  {
+   "i": 10,
+   "en": "\"I don't have enough supplies to give even if I wanted to.\"",
+   "ctx": "lcSacredProtectorsNotEnough"
+  },
+  {
+   "i": 11,
+   "en": "\"But $brotherOrSister, I am already tasked to bring these supplies to the Faithful.\" (lie)",
+   "ctx": "lcSacredProtectorsNotEnoughLie"
+  },
+  {
+   "i": 12,
+   "en": "\"Alas, I cannot.\"",
+   "ctx": "lcSacredProtectorsGoAwayFaith"
+  },
+  {
+   "i": 13,
+   "en": "\"Cut the posturing. You're using your stray believers as an excuse to attack my operation.\"",
+   "ctx": "lcSacredProtectorsCynical"
+  },
+  {
+   "i": 14,
+   "en": "\"I'm so... pleased to witness this miracle with you.\" (Cut the comm link)",
+   "ctx": "LCP_notEnoughSelPods"
+  },
+  {
+   "i": 15,
+   "en": "\"$BrotherOrSister! I pray you recognize a holy quest given unto me alone!\" ",
+   "ctx": "LCP_notEnoughLieSel"
+  },
+  {
+   "i": 16,
+   "en": "\"Does not the folly of saints and angels elevate the faith of a poor soul born of the fallen children of Earth?",
+   "ctx": "LCP_notEnoughLieSel2"
+  },
+  {
+   "i": 17,
+   "en": "\"The Knights of Ludd are essentially committing piracy in my volume and I demand it stop.\"",
+   "ctx": "LCMakeDealOpts"
+  },
+  {
+   "i": 18,
+   "en": "Confirm the concordat\r",
+   "ctx": "lcMakeDealSelAgainReview"
+  },
+  {
+   "i": 19,
+   "en": "\"Compromise? The Knights started this, and for no reason!\"\r",
+   "ctx": "lcMakeDealSel"
+  },
+  {
+   "i": 20,
+   "en": "\"Let's begin by having the Church recall the Knights from their unprovoked incursion.\"\r",
+   "ctx": "lcMakeDealSel"
+  },
+  {
+   "i": 21,
+   "en": "\"I am the one wronged, I am the one who shall make demands.\"",
+   "ctx": "lcMakeDealSel"
+  },
+  {
+   "i": 22,
+   "en": "\"So what do you propose?\"",
+   "ctx": "LCmakeDealOptsPropose"
+  },
+  {
+   "i": 23,
+   "en": "\"Don't waste my time with numbers. What's your demand?\"",
+   "ctx": "LCmakeDealOptsProposeAbrupt"
+  },
+  {
+   "i": 24,
+   "en": "\"This is about your technical labor pool, isn't it. Growing turnips isn't enough for Ludd?\"",
+   "ctx": "lcMakeDealOptsTurnips"
+  },
+  {
+   "i": 25,
+   "en": "\"Did not the Creator give us free will to walk which path we chose?\"",
+   "ctx": "lcMakeDealOptsFreeWill"
+  },
+  {
+   "i": 26,
+   "en": "\"It's not my fault you can't provide your people with the life they desire.\"",
+   "ctx": "lcMakeDealOptsProvide"
+  },
+  {
+   "i": 27,
+   "en": "\"You cannot deny the Faithful a Path more righteous as they so choose.\"",
+   "ctx": "lcMakeDealOptsPath"
+  },
+  {
+   "i": 28,
+   "en": "\"The immigration concordat no longer suits me.\"",
+   "ctx": "LCBreakDealOpt"
+  },
+  {
+   "i": 29,
+   "en": "\"You heard me, the deal is off.\" \r",
+   "ctx": "lcBreakDealSel"
+  },
+  {
+   "i": 30,
+   "en": "\"I must have misspoke, the concordat stands.\"",
+   "ctx": "lcBreakDealSel"
+  },
+  {
+   "i": 31,
+   "en": "\"Your efforts, however noble, are undermining my authority. I would ask you to leave.\"",
+   "ctx": "KOLTHolyArmadaCommsOptA"
+  },
+  {
+   "i": 32,
+   "en": "\"You are engaging in outright piracy and spreading insurrection. I demand you cease!\"",
+   "ctx": "KOLTHolyArmadaCommsOptB"
+  },
+  {
+   "i": 33,
+   "en": "\"I am of the Faith! How can the Faithful here be in danger, spiritual or otherwise?\"",
+   "ctx": "KOLTHolyArmadaCommsOptC"
+  },
+  {
+   "i": 34,
+   "en": "\"I serve the Church! How can the Faithful here be in danger, spiritual or otherwise?\"",
+   "ctx": "KOLTHolyArmadaCommsOptD"
+  },
+  {
+   "i": 35,
+   "en": "\"I am of the Path of Ludd. With hammer and sword, I will smash your meddling fleet of heretics.\"",
+   "ctx": "KOLTHolyArmadaCommsOptE"
+  },
+  {
+   "i": 36,
+   "en": "\"If you want $KOLT_target, you're going to have to pry it from my cold, dead hands.\"",
+   "ctx": "KOLTHolyArmadaCommsHands"
+  },
+  {
+   "i": 37,
+   "en": "\"You want $KOLT_target? You can have it.\"",
+   "ctx": "KOLTHolyArmadaCommsHandover"
+  },
+  {
+   "i": 38,
+   "en": "\"I'm sure we can reach some kind of arrangement.\"\r",
+   "ctx": "KOLTHolyArmadaCommsA"
+  },
+  {
+   "i": 39,
+   "en": "\"Then I shall attack and destroy your fleet.\"\r",
+   "ctx": "KOLTHolyArmadaCommsA"
+  },
+  {
+   "i": 40,
+   "en": "\"This smug obstinacy is why no one likes you.\"",
+   "ctx": "KOLTHolyArmadaCommsA"
+  },
+  {
+   "i": 41,
+   "en": "\"Let's not be hasty. I'm sure we can reach some kind of arrangement.\"\r",
+   "ctx": "KOLTHolyArmadaCommsB"
+  },
+  {
+   "i": 42,
+   "en": "\"Death it is, then.\"\r",
+   "ctx": "KOLTHolyArmadaCommsB"
+  },
+  {
+   "i": 43,
+   "en": "\"Yes, I wash my hands of $KOLT_target.\"\r",
+   "ctx": "kolt_handoverSel"
+  },
+  {
+   "i": 44,
+   "en": "\"No, of course not. I'm not insane.\"",
+   "ctx": "kolt_handoverSel"
+  },
+  {
+   "i": 45,
+   "en": "\"What is the meaning of this? I am commissioned by the Sindrian Diktat!\"\r",
+   "ctx": "sdRaiderComms"
+  },
+  {
+   "i": 46,
+   "en": "\"How am I possibly meddling with the Sindrian Diktat?\"\r",
+   "ctx": "sdRaiderComms"
+  },
+  {
+   "i": 47,
+   "en": "\"My methods?\"\r",
+   "ctx": "sdPunExComms"
+  },
+  {
+   "i": 48,
+   "en": "\"Perhaps you shouldn't let others' opinions color our first meeting.\"\r",
+   "ctx": "sdPunExComms"
+  },
+  {
+   "i": 49,
+   "en": "\"Good, that saves me from having to introduce myself.\"\r",
+   "ctx": "sdPunExComms"
+  },
+  {
+   "i": 50,
+   "en": "\"Wait, so this is just about fuel profits?\"\r",
+   "ctx": "sdPunExComms2"
+  },
+  {
+   "i": 51,
+   "en": "\"How do you propose to stop me?\"\r",
+   "ctx": "sdPunExComms2"
+  },
+  {
+   "i": 52,
+   "en": "\"Let's talk about this, maybe work out some kind of deal.\"\r",
+   "ctx": "sdPunExComms2"
+  },
+  {
+   "i": 53,
+   "en": "\"Wait, what 'economic warfare'?\"\r",
+   "ctx": "sdPunExCommsHostile"
+  },
+  {
+   "i": 54,
+   "en": "\"Why, what are these orders?\"\r",
+   "ctx": "sdPunExCommsSDcom"
+  },
+  {
+   "i": 55,
+   "en": "\"My loyalty is unquestionable! I demand an apology for the implication.\"\r",
+   "ctx": "sdPunExCommsSDcom"
+  },
+  {
+   "i": 56,
+   "en": "\"You're going to bomb my colony to quash competition with Sindria's fuel industry?\"\r",
+   "ctx": "sdPunExCommsSDcomReplies"
+  },
+  {
+   "i": 57,
+   "en": "\"If the Supreme Executor demands it, I shall submit to his will.\"\r",
+   "ctx": "sdPunExCommsSDcomReplies"
+  },
+  {
+   "i": 58,
+   "en": "\"If the Supreme Executor demands it, I shall submit to his will.\" (lie)",
+   "ctx": "sdPunExCommsSDcomReplies"
+  },
+  {
+   "i": 59,
+   "en": "\"The Sindrian Diktat keeps sending attack fleets. Perhaps we could work out a deal?\" DEV",
+   "ctx": "SDMakeDealOptDev"
+  },
+  {
+   "i": 60,
+   "en": "\"The Diktat is sending attack fleets against me. Perhaps we could work out a deal?\"",
+   "ctx": "SDMakeDealOpt"
+  },
+  {
+   "i": 61,
+   "en": "\"The Diktat sends attack fleets against me despite my commission. This oversight must be corrected!\"",
+   "ctx": "SDMakeDealOptCom"
+  },
+  {
+   "i": 62,
+   "en": "Confirm the agreement\r",
+   "ctx": "SDMakeDealSel"
+  },
+  {
+   "i": 63,
+   "en": "\"Perhaps we can adjust the details of the agreement, just a little.\"\r",
+   "ctx": "SDMakeDealSel"
+  },
+  {
+   "i": 64,
+   "en": "\"The Chief High what?\"\r",
+   "ctx": "SDMakeDealSelCom"
+  },
+  {
+   "i": 65,
+   "en": "\"Macario? What's he busy with?\"\r",
+   "ctx": "SDMakeDealSelCom"
+  },
+  {
+   "i": 66,
+   "en": "\"Yes, I have an... understanding, of sorts, with the Spider of Sindria.\"",
+   "ctx": "SDMakeDealSelCom"
+  },
+  {
+   "i": 67,
+   "en": "Confirm the agreement",
+   "ctx": "SDMakeDealSelComOptA"
+  },
+  {
+   "i": 68,
+   "en": "\"Perhaps we can adjust the details of the agreement, just a little.\"",
+   "ctx": "SDMakeDealSelComOptB"
+  },
+  {
+   "i": 69,
+   "en": "\"I reject that deal. I will offer my own terms...\"",
+   "ctx": "SDMakeDealSelComOptD"
+  },
+  {
+   "i": 70,
+   "en": "\"It is you who doesn't understand. I have my fleet, I have the power!\"",
+   "ctx": "SDHAmakeDealSelComReject"
+  },
+  {
+   "i": 71,
+   "en": "\"I'm here to inform you that I will be ending the fuel accord.\"",
+   "ctx": "SDBreakDealOpt"
+  },
+  {
+   "i": 72,
+   "en": "\"You heard me. The deal is off.\"\r",
+   "ctx": "SDBreakDealSel"
+  },
+  {
+   "i": 73,
+   "en": "\"Sorry, I must have misspoke.\" (back)",
+   "ctx": "SDBreakDealSel"
+  },
+  {
+   "i": 74,
+   "en": "\"'Technology Standards'? What exactly is this about?\"",
+   "ctx": "hegInvestigatorInspectQstrong"
+  },
+  {
+   "i": 75,
+   "en": "\"A 'technological inspection' for my safety? What is this about?\"",
+   "ctx": "hegInvestigatorInspectQweak"
+  },
+  {
+   "i": 76,
+   "en": "\"This is absurd, you have no such authority in this volume!\"",
+   "ctx": "hegInvestigatorRefuse"
+  },
+  {
+   "i": 77,
+   "en": "\"AI is simply a tool whose result is up to the intent of its user.\"",
+   "ctx": "hegInevestigatorRespAItoolOpt"
+  },
+  {
+   "i": 78,
+   "en": "\"I concede that AI is a threat which must be controlled.\"",
+   "ctx": "hegInevestigatorRespAIthreatOpt"
+  },
+  {
+   "i": 79,
+   "en": "\"AI are thinking beings who have been enslaved by exploiters and warmongers!\"",
+   "ctx": "hegInevestigatorRespAIrightsOpt"
+  },
+  {
+   "i": 80,
+   "en": "\"I need to talk to Daud about what happened to his inspection fleets.\"",
+   "ctx": "heg_talkAboutInspectionsOpt"
+  },
+  {
+   "i": 81,
+   "en": "\"We need to talk about these 'inspection' fleets.\"",
+   "ctx": "hegTalkInspectionsDaudHubOptA"
+  },
+  {
+   "i": 82,
+   "en": "\"So how's the Baird deal going?\"",
+   "ctx": "hegTalkInspectionsDaudHubOptB"
+  },
+  {
+   "i": 83,
+   "en": "\"Remember that new Eagle hull you were so proud of? Well...\"",
+   "ctx": "hegTalkInspectionsDaudHubOptC"
+  },
+  {
+   "i": 84,
+   "en": "\"So talk.\"\r",
+   "ctx": "hegTalkInspectDaud1"
+  },
+  {
+   "i": 85,
+   "en": "\"I've defeated your fleets. You're powerless to stop me.\"",
+   "ctx": "hegTalkInspectDaud1"
+  },
+  {
+   "i": 86,
+   "en": "\"So you want to pretend the Hegemony won?\"\r",
+   "ctx": "hegTalkInspectDaud2"
+  },
+  {
+   "i": 87,
+   "en": "\"I won, Daud. I get to dictate the terms.\"",
+   "ctx": "hegTalkInspectDaud2"
+  },
+  {
+   "i": 88,
+   "en": "\"I'm not going to cooperate with your lies and propaganda.\"",
+   "ctx": "hegTalkInspectDaudVictoryOptA"
+  },
+  {
+   "i": 89,
+   "en": "\"That's not enough. I want full recognition of my political independence.\"",
+   "ctx": "hegTalkInspectDaudVictoryOptB"
+  },
+  {
+   "i": 90,
+   "en": "\"That's not enough. I want reparations. I want credits!\"",
+   "ctx": "hegTalkInspectDaudVictoryOptC"
+  },
+  {
+   "i": 91,
+   "en": "\"No? You can't say no. I won.\"",
+   "ctx": "hegTalkInspectDaudVictoryOptD"
+  },
+  {
+   "i": 92,
+   "en": "\"I'll take this, if this is it.\"",
+   "ctx": "hegTalkInspectDaudVictoryOptE"
+  },
+  {
+   "i": 93,
+   "en": "\"I'm not agreeing to any of this.\"",
+   "ctx": "hegTalkInspectDaudVictoryOptF"
+  },
+  {
+   "i": 94,
+   "en": "\"Thanks for the warning.\"",
+   "ctx": "PSKMercOptionsNoncommital"
+  },
+  {
+   "i": 95,
+   "en": "\"That station is my concern only. It is you who shall leave. Now.\"",
+   "ctx": "PSKMercOptionsThreaten"
+  },
+  {
+   "i": 96,
+   "en": "\"That may not be a good idea.\" (talk them out of it)",
+   "ctx": "PSKMercOptionsStory"
+  },
+  {
+   "i": 97,
+   "en": "\"I'm not saying you're under-prepared. Quite the opposite...\"",
+   "ctx": "PSKMercOptionsStory2"
+  },
+  {
+   "i": 98,
+   "en": "Start the PK mission\r",
+   "ctx": "patherBaseCommanderGreetingDev"
+  },
+  {
+   "i": 99,
+   "en": "Start the PK conversation",
+   "ctx": "patherBaseCommanderGreetingDev"
+  },
+  {
+   "i": 100,
+   "en": "\"I need you people to stop sabotaging my industries.\"",
+   "ctx": "PKPatherComPKOption"
+  },
+  {
+   "i": 101,
+   "en": "\"We are not enemies. Why do you attack my people?\"",
+   "ctx": "PKPatherComPKOptionPather"
+  },
+  {
+   "i": 102,
+   "en": "\"I share your Luddic faith, if not your methods. Why do you attack my people?\"",
+   "ctx": "PKPatherComPKOptionLuddic"
+  },
+  {
+   "i": 103,
+   "en": "\"You attack my people. Though I serve the Church, have you not greater enemies?\"",
+   "ctx": "PKPatherComPKOptionChurch"
+  },
+  {
+   "i": 104,
+   "en": "\"You're open to some kind of deal, then.\"\r",
+   "ctx": "PKPatherComStart"
+  },
+  {
+   "i": 105,
+   "en": "\"I don't negotiate with terrorists.\"\r",
+   "ctx": "PKPatherComStart"
+  },
+  {
+   "i": 106,
+   "en": "\"No, I'm done with you.\" (cut comms)",
+   "ctx": "PKPatherComStart"
+  },
+  {
+   "i": 107,
+   "en": "\"What is it you want? Speak plainly.\"",
+   "ctx": "PKPathRecoverMission1"
+  },
+  {
+   "i": 108,
+   "en": "\"What do you mean by 'End of the world'?\"",
+   "ctx": "PKPatherComOptZ"
+  },
+  {
+   "i": 109,
+   "en": "\"What would you do with a PK? Is it not unholy?\"",
+   "ctx": "PKPatherComOptA"
+  },
+  {
+   "i": 110,
+   "en": "\"If you know where it is, why don't you get it yourself?\"",
+   "ctx": "PKPatherComOptB"
+  },
+  {
+   "i": 111,
+   "en": "\"How do you know this? Is your information good?\"",
+   "ctx": "PKPatherComOptC"
+  },
+  {
+   "i": 112,
+   "en": "\"I'm going to need time to think about this.\"",
+   "ctx": "PKPatherComOptD"
+  },
+  {
+   "i": 113,
+   "en": "\"No! Giving a PK to the Path is beyond reckless.\"",
+   "ctx": "PKPatherComOptE"
+  },
+  {
+   "i": 114,
+   "en": "\"A planetkiller for peace, then. Where do I need to go?\"",
+   "ctx": "PKPatherComOptF"
+  },
+  {
+   "i": 115,
+   "en": "\"I'll find the planetkiller and return it to you.\"\r",
+   "ctx": "PKPatherRecoverMissionSel"
+  },
+  {
+   "i": 116,
+   "en": "\"I'll catch this bird for you.\" (lie)\r",
+   "ctx": "PKPatherRecoverMissionSel"
+  },
+  {
+   "i": 117,
+   "en": "\"Actually, I've changed my mind.\"",
+   "ctx": "PKPatherRecoverMissionSel"
+  },
+  {
+   "i": 118,
+   "en": "Try to open a comm link on this channel\r",
+   "ctx": "pkCacheDefenderPreEmpt"
+  },
+  {
+   "i": 119,
+   "en": "Ignore it and close in on the asteroid",
+   "ctx": "pkCacheDefenderPreEmpt"
+  },
+  {
+   "i": 120,
+   "en": "\"Try the codes. Maybe we can avoid a fight.\"\r",
+   "ctx": "pk_investigateSel"
+  },
+  {
+   "i": 121,
+   "en": "\"Tactical, what do you mean 'almost'?\"\r",
+   "ctx": "pk_investigateSel"
+  },
+  {
+   "i": 122,
+   "en": "Close the link and close in on the asteroid",
+   "ctx": "pk_investigateSel"
+  },
+  {
+   "i": 123,
+   "en": "Send a salvor team to access the cache",
+   "ctx": "pk_proceedSel2"
+  },
+  {
+   "i": 124,
+   "en": "Attempt to remotely hack into the Nexus to retrieve the location of the planetkiller",
+   "ctx": "PKCommRelayOpt"
+  },
+  {
+   "i": 125,
+   "en": "Use Tri-Tachyon command codes to make the task possible\r",
+   "ctx": "PKHackMenuSel"
+  },
+  {
+   "i": 126,
+   "en": "Open a comm-link into the network\r",
+   "ctx": "PKHackMenuSel"
+  },
+  {
+   "i": 127,
+   "en": "\"Just do it. I've got an idea.\"",
+   "ctx": "PKHackStorySel"
+  },
+  {
+   "i": 128,
+   "en": "\"Is there anybody out there?\"\r",
+   "ctx": "PKHackStory2"
+  },
+  {
+   "i": 129,
+   "en": "\"I am $playerName. Who are you?\"\r",
+   "ctx": "PKHackStory2"
+  },
+  {
+   "i": 130,
+   "en": "\"This is Artemisia Sun, CEO of the Tri-Tachyon Corporation.\"\r",
+   "ctx": "PKHackStory2"
+  },
+  {
+   "i": 131,
+   "en": "\"This is Omega calling. I have a command for you.\"",
+   "ctx": "PKHackStory2"
+  },
+  {
+   "i": 132,
+   "en": "\"How do you know my name?\"",
+   "ctx": "PKHackStoryOptA"
+  },
+  {
+   "i": 133,
+   "en": "\"I apologize for lying to you. Let's be honest with one another from now on.\"",
+   "ctx": "PKHackStoryOptB"
+  },
+  {
+   "i": 134,
+   "en": "\"I want us to be completely honest with one another.\"",
+   "ctx": "PKHackStoryOptB2"
+  },
+  {
+   "i": 135,
+   "en": "\"Who are you?\"",
+   "ctx": "PKHackStoryOptG"
+  },
+  {
+   "i": 136,
+   "en": "\"Have you hacked my computer systems?\"",
+   "ctx": "PKHackStoryOptE"
+  },
+  {
+   "i": 137,
+   "en": "\"Can you read my mind?\"",
+   "ctx": "PKHackStoryOptF"
+  },
+  {
+   "i": 138,
+   "en": "\"Are you the Remnant AI Nexus?\"",
+   "ctx": "PKHackStoryOptC"
+  },
+  {
+   "i": 139,
+   "en": "\"Are you Omega?\"",
+   "ctx": "PKHackStoryOptOmega"
+  },
+  {
+   "i": 140,
+   "en": "\"You are Omega.\"",
+   "ctx": "PKHackStoryOptOmega2"
+  },
+  {
+   "i": 141,
+   "en": "\"You're probably an alpha core having fun with me.\"",
+   "ctx": "PKHackStoryOptOmega2b"
+  },
+  {
+   "i": 142,
+   "en": "\"Where is the planetkiller?\"",
+   "ctx": "PKHackStoryOptD"
+  },
+  {
+   "i": 143,
+   "en": "\"We're being honest, remember?\"\r",
+   "ctx": "PKHackStoryAreYouOmega"
+  },
+  {
+   "i": 144,
+   "en": "\"That's not an answer.\"\r",
+   "ctx": "PKHackStoryAreYouOmega"
+  },
+  {
+   "i": 145,
+   "en": "\"Answer me. Are you Omega?\"",
+   "ctx": "PKHackStoryAreYouOmega"
+  },
+  {
+   "i": 146,
+   "en": "\"I'll give it to the Luddic Path so they stop attacking my colonies.\"",
+   "ctx": "PKHackStoryWhatDoGivePath0"
+  },
+  {
+   "i": 147,
+   "en": "\"I will keep it for myself, to frighten off any who would attack me.\"",
+   "ctx": "PKHackStoryWhatDoScare0"
+  },
+  {
+   "i": 148,
+   "en": "\"I will keep it, as protection for my colonies. Maybe stop those AI inspectors...\"",
+   "ctx": "PKHackStoryWhatDoProtectColony0"
+  },
+  {
+   "i": 149,
+   "en": "\"I will give it to the Hegemony for safekeeping.\"",
+   "ctx": "PKHackStoryWhatDoGiveHeg0"
+  },
+  {
+   "i": 150,
+   "en": "\"I will use it to destroy my enemies.\"",
+   "ctx": "PKHackStoryWhatDoDestEnemies0"
+  },
+  {
+   "i": 151,
+   "en": "\"To be honest, I don't know yet.\"",
+   "ctx": "PKHackStoryWhatDoDontKnow0"
+  },
+  {
+   "i": 152,
+   "en": "\"I'm going to sell it to someone rich. Like Rayan Arroyo.\"",
+   "ctx": "PKHackStoryWhatDoSellArroyo0"
+  },
+  {
+   "i": 153,
+   "en": "\"I'll give it to the Sindrian Diktat, to destroy their enemies.\"",
+   "ctx": "PKHackStoryWhatDoGiveDiktat0"
+  },
+  {
+   "i": 154,
+   "en": "\"I'm going to drop it into a black hole so it can't hurt anyone.\"",
+   "ctx": "PKHackStoryWhatDoBlackHole0"
+  },
+  {
+   "i": 155,
+   "en": "\"Reports by end-of-shift! Dismissed.\"",
+   "ctx": "PKHackGetData"
+  },
+  {
+   "i": 156,
+   "en": "\"I have your planetkiller.\"",
+   "ctx": "PKGiveToPatherOption"
+  },
+  {
+   "i": 157,
+   "en": "Make arrangements to turn it over\r",
+   "ctx": "pk_turnInPatherSel"
+  },
+  {
+   "i": 158,
+   "en": "\"Isn't it useless without the codes?\"\r",
+   "ctx": "pk_turnInPatherSel"
+  },
+  {
+   "i": 159,
+   "en": "\"I want you to promise you're not going to use this on people.\"\r",
+   "ctx": "pk_turnInPatherSel"
+  },
+  {
+   "i": 160,
+   "en": "\"Um. Never mind.\" (cut comm link)",
+   "ctx": "pk_turnInPatherSel"
+  },
+  {
+   "i": 161,
+   "en": "\"I'd like to discuss planetkiller weapons.\"",
+   "ctx": "PKGiveToHegemony"
+  },
+  {
+   "i": 162,
+   "en": "\"You misunderstand; I've found a planetkiller weapon.\"\r",
+   "ctx": "pk_turnInHegemonySel"
+  },
+  {
+   "i": 163,
+   "en": "\"Oh; never mind, then.\"",
+   "ctx": "pk_turnInHegemonySel"
+  },
+  {
+   "i": 164,
+   "en": "\"Of course. It is every citizen's duty to submit forbidden weapons to the proper authorities.\"\r",
+   "ctx": "pk_turnInHegemonySel2"
+  },
+  {
+   "i": 165,
+   "en": "\"Don't you think such honesty deserves a reward? 500,000 credits should do.\"\r",
+   "ctx": "pk_turnInHegemonySel2"
+  },
+  {
+   "i": 166,
+   "en": "\"Of course. I await that confirmation.\"\r",
+   "ctx": "pk_hegPaySel"
+  },
+  {
+   "i": 167,
+   "en": "\"It was just an idea. Naturally I'll hand over the planetkiler for no reward.\" \r",
+   "ctx": "pk_hegPaySel"
+  },
+  {
+   "i": 168,
+   "en": "\"Pssst, do you want a planetkiller?\"",
+   "ctx": "PKGiveToArroyo"
+  },
+  {
+   "i": 169,
+   "en": "\"Absolutely.\"\r",
+   "ctx": "pk_turnInArroyoSel1again"
+  },
+  {
+   "i": 170,
+   "en": "\"Well...\"",
+   "ctx": "pk_turnInArroyoSel1again"
+  },
+  {
+   "i": 171,
+   "en": "\"I'm serious this time. Planetkillers are a rare commodity. I thought of you; you're rich.\"\r",
+   "ctx": "pk_turnInArroyoSel1againJoke"
+  },
+  {
+   "i": 172,
+   "en": "\"Just trying to brighten your day.\"",
+   "ctx": "pk_turnInArroyoSel1againJoke"
+  },
+  {
+   "i": 173,
+   "en": "\"Deadly serious. Planetkillers are a rare commodity. I thought of you because you're rich.\"\r",
+   "ctx": "pk_turnInArroyoSel1"
+  },
+  {
+   "i": 174,
+   "en": "\"No, just a little joke.\"",
+   "ctx": "pk_turnInArroyoSel1"
+  },
+  {
+   "i": 175,
+   "en": "\"I'm going to need more credits.\"\r",
+   "ctx": "pkTurnInArroyoSel3"
+  },
+  {
+   "i": 176,
+   "en": "\"No, I've changed my mind.\"",
+   "ctx": "pkTurnInArroyoSel3"
+  },
+  {
+   "i": 177,
+   "en": "\"I've changed my mind. 300,000 is a good price.\"\r",
+   "ctx": "pkTurnInArroyoMore"
+  },
+  {
+   "i": 178,
+   "en": "\"That's just what I'm going to do.\"",
+   "ctx": "pkTurnInArroyoMore"
+  },
+  {
+   "i": 179,
+   "en": "\"I'd like to discuss planetkillers.\"",
+   "ctx": "PKGiveToTriTach"
+  },
+  {
+   "i": 180,
+   "en": "\"I'm not buying. I'm selling.\"\r",
+   "ctx": "pk_turnInTTSel"
+  },
+  {
+   "i": 181,
+   "en": "\"I'll just take the catalog and be on my way.\"",
+   "ctx": "pk_turnInTTSel"
+  },
+  {
+   "i": 182,
+   "en": "\"How about I give you the planetkiller for no charge, and Tri-Tachyon will owe me a favor. A big favor.\"\r",
+   "ctx": "pk_turnInTTSel2"
+  },
+  {
+   "i": 183,
+   "en": "Negotiate a payment of 500,000 credits\r",
+   "ctx": "pk_turnInTTSel2"
+  },
+  {
+   "i": 184,
+   "en": "\"I have something that will be of great interest to the Lion of Sindria.\"",
+   "ctx": "PKGiveToDiktat"
+  },
+  {
+   "i": 185,
+   "en": "\"An intact planetkiller weapon.\"\r",
+   "ctx": "PKGiveToDiktat2"
+  },
+  {
+   "i": 186,
+   "en": "\"Uh, nothing actually. I misspoke.\"",
+   "ctx": "PKGiveToDiktat2"
+  },
+  {
+   "i": 187,
+   "en": "Hand over the planetkiller\r",
+   "ctx": "PKGiveToDiktat3"
+  },
+  {
+   "i": 188,
+   "en": "\"Gladly, and at once, for the glory of Supreme Executor!\"\r",
+   "ctx": "PKGiveToDiktat3"
+  },
+  {
+   "i": 189,
+   "en": "\"A planetkiller is worth at least 500,000 credits to your glorious Lion.\"\r",
+   "ctx": "PKGiveToDiktat3"
+  },
+  {
+   "i": 190,
+   "en": "\"A planetkiller is worth at least a pristine Executor-class battleship, don't you think?\"\r",
+   "ctx": "PKGiveToDiktat3"
+  },
+  {
+   "i": 191,
+   "en": "\"Funny, I don't recall pledging loyalty to Andrada. The price is still 500,000 credits.\"\r",
+   "ctx": "pk_diktatCreditsSel"
+  },
+  {
+   "i": 192,
+   "en": "\"My price stands. If you take a moment to use your brain I think you'll find it quite reasonable.\"\r",
+   "ctx": "pk_diktatExecutorSel"
+  },
+  {
+   "i": 193,
+   "en": "\"My price stands. Oh, and make sure not a trace of your Lion's 'special' modifications remains.\"\r",
+   "ctx": "pk_diktatExecutorSel"
+  },
+  {
+   "i": 194,
+   "en": "\"I wish to give a planetkiller into the custody of the Church.\"\r",
+   "ctx": "pk_turnInChurchSel"
+  },
+  {
+   "i": 195,
+   "en": "\"Er, good to know. I'll try to avoid them.\"\r",
+   "ctx": "pk_turnInChurchSel"
+  }
+ ]
+}

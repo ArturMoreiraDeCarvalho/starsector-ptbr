@@ -1,0 +1,216 @@
+{
+ "chunk": 287,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"Right. It worked. And gave me coordinates for something in the Abyss.\"\r",
+   "ctx": "gaDHOvisitElekAltIntroPayment"
+  },
+  {
+   "i": 2,
+   "en": "\"MY discovery. And we'll talk about payment if you want any part in it.\"",
+   "ctx": "gaDHOvisitElekAltIntroPayment"
+  },
+  {
+   "i": 3,
+   "en": "Transfer the data recovered from the sensor array",
+   "ctx": "gaDHOvisitElekAltIntroPayment2a"
+  },
+  {
+   "i": 4,
+   "en": "\"No, this is business. Your freelancer failed. Now I can do the job- if you pay.\"\r",
+   "ctx": "gaDHOvisitElekAltIntroPayment2b"
+  },
+  {
+   "i": 5,
+   "en": "Transfer the data recovered from the sensor array\r",
+   "ctx": "gaDHOvisitElekAltIntroBusiness"
+  },
+  {
+   "i": 6,
+   "en": "\"That's not enough. Make it 100k.\"",
+   "ctx": "gaDHOvisitElekAltIntroBusiness"
+  },
+  {
+   "i": 7,
+   "en": "\"100k or I walk.\"",
+   "ctx": "gaDHOvisitElekAltIntroBusiness100k"
+  },
+  {
+   "i": 8,
+   "en": "\"What is it? What were you looking for?\"",
+   "ctx": "gaDHOvisitElekAltTransferData"
+  },
+  {
+   "i": 9,
+   "en": "\"Now the payment, please.\"",
+   "ctx": "gaDHOvisitElekAltTransferDataB"
+  },
+  {
+   "i": 10,
+   "en": "\"So what is it? What were you looking for?\"",
+   "ctx": "gaDHOvisitElekAltTransferDataB2"
+  },
+  {
+   "i": 11,
+   "en": "\"Valuable, you say? Yes, we should discuss payment.\"",
+   "ctx": "gaDHOvisitElekAltIntro4"
+  },
+  {
+   "i": 12,
+   "en": "\"So what is at those coordinates in the Abyss?",
+   "ctx": "gaDHOvisitElekAltAskHubOptA"
+  },
+  {
+   "i": 13,
+   "en": "\"So about payment...\"",
+   "ctx": "gaDHOvisitElekAltAskHubOptB"
+  },
+  {
+   "i": 14,
+   "en": "\"I accept your offer.\"\r",
+   "ctx": "gaDHOvisitElekAltAboutThatPayment"
+  },
+  {
+   "i": 15,
+   "en": "\"More like 100k, due to hazard. I made it, unlike your freelancer.\"\r",
+   "ctx": "gaDHOvisitElekAltAboutThatPayment"
+  },
+  {
+   "i": 16,
+   "en": "\"I will forgo payment. Advancement of knowledge is wealth enough.\"\r",
+   "ctx": "gaDHOvisitElekAltAboutThatPayment"
+  },
+  {
+   "i": 17,
+   "en": "\"I will forgo payment. Advancement of knowledge is wealth enough.\" (lie)",
+   "ctx": "gaDHOvisitElekAltAboutThatPayment"
+  },
+  {
+   "i": 18,
+   "en": "\"So, what does the data mean?\"",
+   "ctx": "gaDHOvisitElekAltPaymentOutA"
+  },
+  {
+   "i": 19,
+   "en": "\"My people say it's pointing at a rock in the Abyss. Something happened there.\"",
+   "ctx": "gaDHOvisitElekAltWrapup0"
+  },
+  {
+   "i": 20,
+   "en": "\"If you don't know what, then why? Why this array data? Why these coordinates?\"",
+   "ctx": "gaDHOvisitElekAltWrapup1"
+  },
+  {
+   "i": 21,
+   "en": "\"Who is your patron? If they're so wealthy, I'm sure I've heard of them.\"\r",
+   "ctx": "gaDHOvisitElekAltWrapup2"
+  },
+  {
+   "i": 22,
+   "en": "\"Are you sure your patron is only interested in pure discovery?\"",
+   "ctx": "gaDHOvisitElekAltWrapup2"
+  },
+  {
+   "i": 23,
+   "en": "\"I shall say nothing, of course.\"\r",
+   "ctx": "gaDHOvisitElekAltWrapup3z"
+  },
+  {
+   "i": 24,
+   "en": "\"Tri-Tachyon is backing your project?\"",
+   "ctx": "gaDHOvisitElekAltWrapup3z"
+  },
+  {
+   "i": 25,
+   "en": "\"Are you sure you can't tell me?\" ",
+   "ctx": "gaDHOvisitElekAltWrapup3a"
+  },
+  {
+   "i": 26,
+   "en": "\"I feel they are a kindred spirit. Indeed, are not we three all?\"",
+   "ctx": "gaDHOvisitElekAltWrapup3b"
+  },
+  {
+   "i": 27,
+   "en": "\"I shall say nothing, of course.\" (lie)\r",
+   "ctx": "gaDHOvisitElekAltWrapupTT2b"
+  },
+  {
+   "i": 28,
+   "en": "\"I shall say nothing, of course.\"",
+   "ctx": "gaDHOvisitElekAltWrapupTT2b"
+  },
+  {
+   "i": 29,
+   "en": "Leave him to his musing",
+   "ctx": "gaDHOvisitElekAltEnd"
+  },
+  {
+   "i": 30,
+   "en": "\"I haven't actually gone to the rogue planet yet.\"",
+   "ctx": "gaDHOtalkElekGoToLocation"
+  },
+  {
+   "i": 31,
+   "en": "DEV make Adonya visible in comm directory",
+   "ctx": "devAdonyaVisOption"
+  },
+  {
+   "i": 32,
+   "en": "\"I'm calling about your daughter, Scylla.\"",
+   "ctx": "adonyaAboutScyllaOpt"
+  },
+  {
+   "i": 33,
+   "en": "\"Comms more often? She's been in contact? But you said...\"",
+   "ctx": "adonyaOptMoreHolos"
+  },
+  {
+   "i": 34,
+   "en": "\"I don't think I've emphasized how important it is for me to find Scylla and Elissa.\"",
+   "ctx": "adonyaOptImportantToFind"
+  },
+  {
+   "i": 35,
+   "en": "\"It's extremely important. The fate of the Persean Sector is at stake!\"",
+   "ctx": "adonyaOptImportantToFind2"
+  },
+  {
+   "i": 36,
+   "en": "\"I'm not from Fleet, ma'am. I run an independent operation.\"",
+   "ctx": "adonyaOptNotFleet"
+  },
+  {
+   "i": 37,
+   "en": "\"I found Scylla on Laicaille Habitat, then...\" (explain)",
+   "ctx": "adonyaOptTell"
+  },
+  {
+   "i": 38,
+   "en": "\"Wonderful. Well, I shouldn't take any more of your time...\"",
+   "ctx": "adonyaMoreHolosOutA"
+  },
+  {
+   "i": 39,
+   "en": "\"I need to get back to my $shipOrFleet. Goodbye.\"",
+   "ctx": "adonyaMoreHolosOutB"
+  },
+  {
+   "i": 40,
+   "en": "\"And, um, that's all there is to tell.\"\r",
+   "ctx": "adonyaTell3"
+  },
+  {
+   "i": 41,
+   "en": "\"And then Scylla and Zal disappeared. I don't know where to.\"\r",
+   "ctx": "adonyaTell3"
+  },
+  {
+   "i": 42,
+   "en": "\"Then they disappeared together. I'm trying to find them.\"",
+   "ctx": "adonyaTell3"
+  }
+ ]
+}

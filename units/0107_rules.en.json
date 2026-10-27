@@ -1,0 +1,196 @@
+{
+ "chunk": 107,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "She turns to a small side-shelf, opens a wooden box, and takes out a delicate, desiccated leaf.\r\n\r\n\"Do you know Ludd's Parable of the Kudzu?\" She carefully opens Cotton's book, places the leaf within, closes it, and pushes it toward you.\r\n\r\nShe leans forward, then says in a harsh whisper, \"Take it to him. We will speak of this later.\"",
+   "ctx": "data/campaign/rules.csv lppJaspisHammerFallBook2 [text]"
+  },
+  {
+   "i": 2,
+   "en": "The Archcurate carefully puts her hands together, not unlike a position of prayer.\r\n\r\n\"Captain. Allow me to put the matter to you directly.\"",
+   "ctx": "data/campaign/rules.csv lppJaspisWrapUp1 [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"My hammer is,\" she nods in your direction, acknowledging something, \"a humbler thing by far than yourself. But he requires aid in his quest, and for that you might well serve.\"",
+   "ctx": "data/campaign/rules.csv lppJaspisWrapUp2a [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"My agent is a novice of the Knights of Ludd. He was assigned to my office in order to achieve his Knighthood. He infiltrated a cell of heretical militants affiliated with the ill-named Luddic Path. I have not heard from him in some time.\" \r\n\r\nHer voice, usually somewhere between confident and sardonic, almost breaks on these last few words. ",
+   "ctx": "data/campaign/rules.csv lppJaspisWrapUp2b [text]"
+  },
+  {
+   "i": 5,
+   "en": "She proceeds, pointedly ignoring your statement.",
+   "ctx": "data/campaign/rules.csv lppJaspisWrapUp3a [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"If you accept this task from my office, my assistant will provide you with identity files to aid you in finding my agent. You will also be given a modest retainer to fund your efforts, and more if... when you find him.\"\r\n\r\n\"You need not answer now. Pray on the matter. Or 'ponder' if that is how you would name it.\"\r\n\r\nShe turns back to the book she had open when you entered. \"May Providence favor you with a blessed path; I pray it returns to me with an answer in the affirmative.\"",
+   "ctx": "data/campaign/rules.csv lppJaspisWrapUp3 [text]"
+  },
+  {
+   "i": 7,
+   "en": "She hrums in acknowledgement, attention focused elsewhere now, opening her book with one hand and placing the other upon its open face.",
+   "ctx": "data/campaign/rules.csv lppJaspisWrapUp4a [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"With such haste?\" she says, \"You need not play-act enthusiasm to impress me. My opinion has always held that decisions of great import should be given ample time to steep.\"\r\n\r\n\"Gift me now with silence,\" she says as she opens her book with one hand and places the other upon its open face.",
+   "ctx": "data/campaign/rules.csv lppJaspisWrapUp4b [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"Your posturing is best held within, captain.\" \r\n\r\nShe opens her book with one hand and places the other upon its open face, \"Then diffused through meditation,\" she says.\r\n\r\nAfter a moment she adds, \"Unless self-flagellation is your preferred expression of zeal. I judge not.\"",
+   "ctx": "data/campaign/rules.csv lppJaspisWrapUp4c [text]"
+  },
+  {
+   "i": 10,
+   "en": "You leave Archcurate Jaspis to her book.\r\n\r\nA soft-spoken attendant in robes makes an incongruous datapad appear and coordinates transfer of the Archcurate's comms ID - at least, for her office - then passes you off to the blank-faced Knight Ailanthus to escort you to your waiting shuttle. \r\n\r\nYour return to orbit is uneventful.",
+   "ctx": "data/campaign/rules.csv lppJaspisWrapUp5 [text]"
+  },
+  {
+   "i": 11,
+   "en": "With the flash of official iconography, instructions are returned from the orbital navigation service which attempts to track the innumerable human-made artifacts of the Volturnian sea - floating habitats, sprawling farm envelopes, transient mining platforms, and even ancient-style seafaring vessels.\r\n\r\nYour shuttle pierces the atmosphere in a long descent arc, politely slowing to under the speed of sound as it approaches a bank of thick fog illuminated by Askonia's primary. What at first looks like an ethereal castle is revealed by proximity to be a dismal, jostling accretion of barges parasited to a retired extraction rig.",
+   "ctx": "data/campaign/rules.csv lppVolturnVisit [text]"
+  },
+  {
+   "i": 12,
+   "en": "The shifty official meets your shuttle on the landing pad. Behind him, you spot temporary weapon emplacements and shield modules stamped with the crest of the Sindrian Diktat. Pale conscripts in battered armor eye you warily while they suck down narcotic smoke.\r\n\r\n\"At attention!\" the official screams to the conscripts as he comes to greet you.",
+   "ctx": "data/campaign/rules.csv lppVolturnVisitDidBribe [text]"
+  },
+  {
+   "i": 13,
+   "en": "You note, as you endure obsequious smalltalk, that the conscripts' equipment is as shabby and ill-maintained as your first visit. The official, however, appears to be wearing a stylish new suit not quite close enough to the official Lion's Guard uniform to attract official reprimand.\r\n\r\nPast the checkpoint, you step through the heavy doors to the receiving hall of the shrine. Its emptiness is a welcome change of company.",
+   "ctx": "data/campaign/rules.csv lppVolturnVisitDidBribe2 [text]"
+  },
+  {
+   "i": 14,
+   "en": "The shifty official meets your shuttle on the landing pad. Behind him, you spot temporary weapon emplacements and shield modules stamped with the crest of the Sindrian Diktat. Pale conscripts in battered armor eye you warily while they suck down narcotic smoke.\r\n\r\n\"At attention!\" the official screams to the conscripts as he comes to greet you, \"This is an officer of the Supreme Executor's space auxiliary!\"\r\n\r\nYou endure obsequious smalltalk as he escorts you through the checkpoint and to the heavy doors leading toward the shrine.",
+   "ctx": "data/campaign/rules.csv lppVolturnVisitUsedCommission [text]"
+  },
+  {
+   "i": 15,
+   "en": "The shifty official meets your shuttle on the landing pad. Behind him, you spot temporary weapon emplacements and shield modules stamped with the crest of the Sindrian Diktat. Pale conscripts in battered armor eye you warily while they suck down narcotic smoke.\r\n\r\n\"At attention!\" the official screams to the conscripts as he comes to greet you. \"I haven't told,\" he whispers, drawing too close. \"And if you need anything, anything, to root out these Luddie terrorists....\" he leaves it unsaid, looking for approval in your eyes. \r\n\r\nYou endure obsequious smalltalk as he escorts you through the checkpoint and to the heavy doors leading toward the shrine.",
+   "ctx": "data/campaign/rules.csv lppVolturnRevisitLied [text]"
+  },
+  {
+   "i": 16,
+   "en": "A shifty official meets your shuttle on the landing pad. Behind him, you spot temporary weapon emplacements and shield modules stamped with the crest of the Sindrian Diktat. Pale conscripts in battered armor eye you warily while they suck down narcotic smoke.\r\n\r\nThe official produces a trembling facsimile of a smile and looks you up and down. \r\n\r\n\"A, a pilgrim are you?\" he asks unconvincingly. \"I'm afraid the shrine is closed today. And tomorrow. Security concerns. The situation has been... unstable.\"",
+   "ctx": "data/campaign/rules.csv lppVolturnFirstVisit2Diktat [text]"
+  },
+  {
+   "i": 17,
+   "en": "You return to your shuttle, taking a final breath of sea-air, the stink of rotten material that's encrusted itself on these platforms still in your nostrils.\r\n\r\nThe flight in your return shuttle is uneventful.",
+   "ctx": "data/campaign/rules.csv lppVolturnOfficialEarlyLeave [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"I see,\" the official says, arms crossed. \"It pains me to inform you that a visit is... quite impossible.\"\r\n\r\nYou reflect that he doesn't sound particularly pained, and it appears to be quite possible if he just let you walk through the doors.",
+   "ctx": "data/campaign/rules.csv lppVolturnOfficialVisit [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"Hrm,\" the official rubs his hands together, \"Your devotion to that quaint religion is not in doubt. It is simply that, ah, the Supreme Executor must be... reassured of the loyalty of the more, more... Luddic members of his empire before he allows them to return here.\"\r\n\r\nThe official's eyes are moist, but not from any compassion you can sense, \"He yearns to allow free worship, but each time the Lion allows his compassion to guide his judgment it is, is abused.\" The official opens his hands apologetically.",
+   "ctx": "data/campaign/rules.csv lppVolturnOfficialDevout1 [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"Indeed,\" the official says, shaking his head with something unlike sadness.",
+   "ctx": "data/campaign/rules.csv lppVolturnOfficialDevout1respect [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"Precisely!\" the official says, nodding agreement for you.",
+   "ctx": "data/campaign/rules.csv lppVolturnOfficialDevout1collective0 [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"Yes, of course!\" the official says, nodding.",
+   "ctx": "data/campaign/rules.csv lppVolturnOfficialDevout1agree [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"Perhaps it may seem that way,\" the official says, appearing to examine you for subversive elements. \"But it's for the best.\"",
+   "ctx": "data/campaign/rules.csv lppVolturnOfficialDevout1disagree [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"A community must learn, learn together to respect the vision of the Supreme Executor. And once they do, they can rest assured that his glorious plan may proceed- to the benefit of all!\"",
+   "ctx": "data/campaign/rules.csv lppVolturnOfficialDevout1collective [text]"
+  },
+  {
+   "i": 25,
+   "en": "You lean in closer, hardening your expression. The official, confused but intrigued, follows your cue and leans in.\r\n\r\nYou demand, on his life, to know if he is a true follower of Admiral Philip Andrada, Supreme Executor; The Lion of Sindria; the leader of a great movement to purge degeneration from the system while constructing a new, proud Persean people to populate the Sector.\r\n\r\n\"Y-yes, of course,\" he says, trembling.\r\n\r\nThen he must let you, a secret agent of the Lion's Guard, perform your mission.\r\n\r\n\"I'll have to... to confirm...\" He starts fumbling for his datapad.",
+   "ctx": "data/campaign/rules.csv lppVolturnOfficialLie1 [text]"
+  },
+  {
+   "i": 26,
+   "en": "You put a hand out and firmly lower his datapad while maintaining eye contact.\r\n\r\n\"That would inform the traitors who have infiltrated,\" you spit at his feet, \"-what passes for local security. I should have you shot.\"",
+   "ctx": "data/campaign/rules.csv lppVolturnOfficialLie1b [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"I am loyal, I am loyal!\" he shouts, sweat rolling down his face, \"I swear it!\"\r\n\r\nHe nearly sobs, suppresses the response, then asks in a small voice, \"Is this... a test? Who sent...\" ",
+   "ctx": "data/campaign/rules.csv lppVolturnOfficialLie1c [text]"
+  },
+  {
+   "i": 28,
+   "en": "The official pales, then whispers \"The Supreme-\" \r\n\r\nYou cut him off by raising a finger.\r\n\r\nHe nods vigorously, flinging sweat. Blind loyalty fills his eyes.\r\n\r\n\"Yes. Yes, of course. You need to access... but of course. Taking care of the Luddic problem, the terrorists and- I knew it, I knew there was a plan! I'll tell no one. You can count on me.\"",
+   "ctx": "data/campaign/rules.csv lppVolturnOfficialLie2 [text]"
+  },
+  {
+   "i": 29,
+   "en": "The official nods, smooths out his uniform, then turns to the conscripts. \"At attention!\" he screams, sending them into a flurry of activity, dropping narcotic-sticks and grabbing for firearms.\r\n\r\nHe then marches proudly toward the shrine entrance, halts with a clack of boot-heel, and pivots - all in passable parade form.",
+   "ctx": "data/campaign/rules.csv lppVolturnOfficialLie3 [text]"
+  },
+  {
+   "i": 30,
+   "en": "A datapad appears in the official's hand and he looks, squinting, between you and it several times.\r\n\r\n\"M-my humblest apologies, $playerSirOrMadam,\" the official stutters, \"I should have been notified, made preparations,\" he looks around scattershot until his gaze catches on the conscripts.",
+   "ctx": "data/campaign/rules.csv lppVolturnOfficialCommission1 [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"At attention!\" he screams, setting off a flurry of activity, dropping narco-sticks and firearms raised at salute.\r\n\r\n\"Please, please,\" the official says, leading you past the now at-attention conscripts and through the checkpoint. As you pass, the official speaks loudly about the respect due to an officer, whether merely in the municipal guard or fighting in the auxiliary fleets.",
+   "ctx": "data/campaign/rules.csv lppVolturnOfficialCommission2 [text]"
+  },
+  {
+   "i": 32,
+   "en": "A datapad appears in the official's hand and he looks, squinting to get a read on you. Are you a plant from internal security, a terrorist infiltrator? The options weigh on his face against his greed.\r\n\r\nIt's no contest.",
+   "ctx": "data/campaign/rules.csv lppVolturnOfficialBribe1 [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"Oh, oh oh, it is so difficult. The terrorists strike without warning, at women and children and... oh, I am thankful for the Lion. A lesser man would simply bombard this planet into submission, but the Supreme Executor? These are his children, and he is like a father. But even a father only has s-so many resources at his disposal... why, if we had the credits to purchase better armor for our brave young soldiers,\" he indicates the smoking conscripts, now having a spitting contest off the side of the landing platform.\r\n\r\n\"Imagine how their mothers would feel if they were hurt by a terrorist bomb...\"",
+   "ctx": "data/campaign/rules.csv lppVolturnOfficialBribe2 [text]"
+  },
+  {
+   "i": 34,
+   "en": "\"5,000 credits,\" the official shoots back.",
+   "ctx": "data/campaign/rules.csv lppVolturnOfficialBribe2offer1k [text]"
+  },
+  {
+   "i": 35,
+   "en": "\"It's a deal,\" the official says, excreting a wet smile, offering his datapad for your payment confirmation.",
+   "ctx": "data/campaign/rules.csv lppVolturnOfficialBribe2offer5k [text]"
+  },
+  {
+   "i": 36,
+   "en": "His datapad disappears into his coat. \"Responding to such c-comments is beneath my dignity,\" the official says with little enthusiasm.",
+   "ctx": "data/campaign/rules.csv lppVolturnOfficialBribe2naw [text]"
+  },
+  {
+   "i": 37,
+   "en": "With the bribe transferred, the official nods and leads you through the security checkpoint while making obsequious smalltalk.\r\n\r\n\"At attention!\" he screams, setting the conscripts into a flurry of activity, dropping narcotic-sticks and grabbing firearms.",
+   "ctx": "data/campaign/rules.csv lppVolturnOfficialBribe3 [text]"
+  },
+  {
+   "i": 38,
+   "en": "Satisfied, the official gives a wave and the thrum of heavy motors winding up preludes the doors of the shrine cracking open just enough to allow your entrance.",
+   "ctx": "data/campaign/rules.csv lppVolturnShrineFirstVisit1 [text]"
+  }
+ ]
+}

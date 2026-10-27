@@ -1,0 +1,636 @@
+{
+ "chunk": 88,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "A small but highly combat-capable task force geared towards bounty-hunting.\\n\\nIncludes a small tanker to extend its operating range somewhat.",
+   "ctx": "ngcMercStart: SetTooltip ngcMerc \"A small but highly combat-capable task force geared towards bounty-hunting.\\n\\nIncludes a small tank"
+  },
+  {
+   "i": 2,
+   "en": "A randomized collection of ships, slightly weaker overall than either of the \\\"faster start\\\" options, but roughly in the same category.",
+   "ctx": "ngcRandomStart: SetTooltip ngcRandom \"A randomized collection of ships, slightly weaker overall than either of the \\\"faster start\\\" opti"
+  },
+  {
+   "i": 3,
+   "en": "A non-combat shuttle, a general lack of resources, and a debt that must be paid. Very difficult start, only intended as a challenge for the starfarer that's seen it all.",
+   "ctx": "ngcSpacerStart: SetTooltip ngcSpacer \"A non-combat shuttle, a general lack of resources, and a debt that must be paid. Very difficult st"
+  },
+  {
+   "i": 4,
+   "en": "Acquired level 1 officer",
+   "ctx": "ngcMercPicked: AddTextSmall \"Acquired level 1 officer\" good"
+  },
+  {
+   "i": 5,
+   "en": "level 1 officer",
+   "ctx": "ngcMercPicked: SetTextHighlights \"level 1 officer\""
+  },
+  {
+   "i": 6,
+   "en": "The Kite-class is a light and nimble ship with limited armament.\\n\\nNot capable of doing much damage itself, it is however capable of being a persistent distraction, especially in the hands of an officer with the right set of defensive skills.",
+   "ctx": "ngcPickSecondShip: SetTooltip ngcKite \"The Kite-class is a light and nimble ship with limited armament.\\n\\nNot capable of doing much damage"
+  },
+  {
+   "i": 7,
+   "en": "The Shepherd is not a combat ship, being both slow and fragile, although its drones are capable of providing decent support to another ship.\\n\\nIts true value, however, lies in a generous cargo hold and numerous salvaging-and-surveying-oriented hull features.\\n\\nIts cargo of heavy machinery is also useful in running salvage and surveying operations.",
+   "ctx": "ngcPickSecondShip: SetTooltip ngcShepherd \"The Shepherd is not a combat ship, being both slow and fragile, although its drones are capable "
+  },
+  {
+   "i": 8,
+   "en": "- Your ships take 25% less damage\\n- Sensor range increased by 500 units\\n- Salvage increased by 50%",
+   "ctx": "ngcDifficulty: SetTooltip ngcEasy \"- Your ships take 25% less damage\\n- Sensor range increased by 500 units\\n- Salvage increased by 50%"
+  },
+  {
+   "i": 9,
+   "en": "Default settings balanced for a challenging experience.",
+   "ctx": "ngcDifficulty: SetTooltip ngcNormal \"Default settings balanced for a challenging experience.\""
+  },
+  {
+   "i": 10,
+   "en": "Start with a tutorial mission that introduces the high-level campaign mechanics and active abilities.",
+   "ctx": "ngcWithTutorial: SetTooltip ngcTutorial \"Start with a tutorial mission that introduces the high-level campaign mechanics and active abili"
+  },
+  {
+   "i": 11,
+   "en": "Skip the tutorial. Will give you roughly the same starting conditions as finishing the tutorial normally would.",
+   "ctx": "ngcSkipTutorial: SetTooltip ngcSkip \"Skip the tutorial. Will give you roughly the same starting conditions as finishing the tutorial norm"
+  },
+  {
+   "i": 12,
+   "en": "Need to start at least one game with the tutorial in order to be able to skip it.",
+   "ctx": "ngcSkipTutorialNoSkip: SetTooltip ngcSkip \"Need to start at least one game with the tutorial in order to be able to skip it.\""
+  },
+  {
+   "i": 13,
+   "en": "Establishing connection...",
+   "ctx": "convDefault: AddText \"Establishing connection...\" buttonText"
+  },
+  {
+   "i": 14,
+   "en": "transponder off",
+   "ctx": "generic_refuseToDealKnownInhospitable: Highlight  \"transponder off\""
+  },
+  {
+   "i": 15,
+   "en": "turning your transponder off",
+   "ctx": "mpm_greetingNeedTOff: Highlight  \"turning your transponder off\""
+  },
+  {
+   "i": 16,
+   "en": "\\\"Excellent. Thank you for your efforts.\\\"",
+   "ctx": "mpm_hasEnoughOptionSelected: AddText \"\\\"Excellent. Thank you for your efforts.\\\"\""
+  },
+  {
+   "i": 17,
+   "en": "\\\"Excellent. Thank you for your efforts. As agreed, I'm also adding on a bonus for prompt delivery.\\\"",
+   "ctx": "mpm_hasEnoughOptionSelectedBonus: AddText \"\\\"Excellent. Thank you for your efforts. As agreed, I'm also adding on a bonus for prompt delivery.\\\"\""
+  },
+  {
+   "i": 18,
+   "en": "Lost $mpm_quantity $mpm_commodityName",
+   "ctx": "mpm_handOverOptionSel: AddText \"Lost $mpm_quantity $mpm_commodityName\" textEnemyColor"
+  },
+  {
+   "i": 19,
+   "en": "\\\"Glad you could be made to see reason. Now, get out of here before I change my mind.\\\"",
+   "ctx": "mpm_handOverOptionSel: AddText \"\\\"Glad you could be made to see reason. Now, get out of here before I change my mind.\\\"\""
+  },
+  {
+   "i": 20,
+   "en": "You ask $personName some questions to establish where $hisOrHer skills lie.",
+   "ctx": "ome_askSkillsSel: AddText \"You ask $personName some questions to establish where $hisOrHer skills lie.\""
+  },
+  {
+   "i": 21,
+   "en": "You ask $personName some questions to establish where $hisOrHer skills lie. It quickly becomes apparent that $heOrShe has no special talents, but is nonetheless a capable administrator, whose services can be had for a very reasonable fee.",
+   "ctx": "ome_askSkillsSelNoSkillAdmin: AddText \"You ask $personName some questions to establish where $hisOrHer skills lie. It quickly becomes apparent that $h"
+  },
+  {
+   "i": 22,
+   "en": "\\\"I'll expect a $ome_hiringBonus credit hiring bonus, and afterwards a starting salary of $ome_salary credits per month. Once the initial transfer is complete, I can be ready to board within the hour.\\\"",
+   "ctx": "ome_askHireSel: AddText \"\\\"I'll expect a $ome_hiringBonus credit hiring bonus, and afterwards a starting salary of $ome_salary credits p"
+  },
+  {
+   "i": 23,
+   "en": "You have $player.creditsStr credits available.",
+   "ctx": "ome_askHireSel: AddText \"You have $player.creditsStr credits available.\""
+  },
+  {
+   "i": 24,
+   "en": "\\\"The typical contract length is $mercContractDurStr days, with some allowances for when we get back to port. Can be terminated early by either party, and so on - the standard stuff. When it's up, we can talk about extending it if both parties are agreeable.\\n\\nI'll expect a $ome_hiringBonus credit hiring bonus, and a salary of $ome_salary credits per month. Once the initial transfer is complete, I can be ready to board within the hour.\\\"",
+   "ctx": "ome_askHireSelMerc: AddText \"\\\"The typical contract length is $mercContractDurStr days, with some allowances for when we get back to port. C"
+  },
+  {
+   "i": 25,
+   "en": "You have $player.creditsStr credits available.\\n\\nThis officer is a highly professional mercenary and does not count against the normal officer limit.",
+   "ctx": "ome_askHireSelMerc: AddText \"You have $player.creditsStr credits available.\\n\\nThis officer is a highly professional mercenary and does not "
+  },
+  {
+   "i": 26,
+   "en": "\\\"I'll expect a $ome_hiringBonus credit hiring bonus, and afterwards a salary of $ome_salary credits per month. Once the initial transfer is complete, I will await my assignment at your pleasure.\\\"",
+   "ctx": "ome_askHireSelAdmin: AddText \"\\\"I'll expect a $ome_hiringBonus credit hiring bonus, and afterwards a salary of $ome_salary credits per month."
+  },
+  {
+   "i": 27,
+   "en": "Hired mercenary officer",
+   "ctx": "ome_hireOptionsNormalMerc: SetStoryOption ome_hireYes 1 hireMerc ui_char_spent_story_point_leadership \"Hired mercenary officer\""
+  },
+  {
+   "i": 28,
+   "en": "You cut the comm link after exchanging a few pleasantries.",
+   "ctx": "ome_hireYesSel: AddText \"You cut the comm link after exchanging a few pleasantries.\""
+  },
+  {
+   "i": 29,
+   "en": "\\\"Running with the transponder off in $faction space is against the law. You're hereby ordered to turn your transponder on, identify yourself immediately, and submit to a cargo scan for contraband.\\\"",
+   "ctx": "tOffPatrolOpenComm: AddText \"\\\"Running with the transponder off in $faction space is against the law. You're hereby ordered to turn your tra"
+  },
+  {
+   "i": 30,
+   "en": "Talked your way out of a cargo scan",
+   "ctx": "tOffPatrolOpenComm: SetStoryOption avoid_scan 1 avoidCargoScan ui_char_spent_story_point \"Talked your way out of a cargo scan\""
+  },
+  {
+   "i": 31,
+   "en": "\\\"Unknown $shipOrFleet, identify yourself! Running with the transponder off in $faction space is against the law. You're hereby ordered to turn your transponder on and submit to a cargo scan.\\\"",
+   "ctx": "tOffPatrolOpenCommUnknown: AddText \"\\\"Unknown $shipOrFleet, identify yourself! Running with the transponder off in $faction space is against the la"
+  },
+  {
+   "i": 32,
+   "en": "\\\"Running with the transponder off in $faction space is against the law. Don't think you can just turn it back on and avoid our attention - you're hereby ordered to submit to a cargo scan.\\\"",
+   "ctx": "tOffPatrolOpenCommTOn: AddText \"\\\"Running with the transponder off in $faction space is against the law. Don't think you can just turn it back "
+  },
+  {
+   "i": 33,
+   "en": "\\\"I told you last time to keep your transponder on.\\\"",
+   "ctx": "tOffPatrolOpenCommNotFirstTime: AddText\"\\\"I told you last time to keep your transponder on.\\\"\""
+  },
+  {
+   "i": 34,
+   "en": "The comm link is cut before you have a chance to respond.",
+   "ctx": "tOffPatrolOpenCommNotFirstTime: AddText \"The comm link is cut before you have a chance to respond.\""
+  },
+  {
+   "i": 35,
+   "en": "After a brief wait, the $faction $otherFleetName transmits the scan results.",
+   "ctx": "tOffCargoScan: AddText \"After a brief wait, the $faction $otherFleetName transmits the scan results.\""
+  },
+  {
+   "i": 36,
+   "en": "\\\"Attention: your fleet matches the profile of a suspected smuggler posted by $marketName authorities. You're hereby ordered to submit to a cargo scan.\\\"",
+   "ctx": "cargoScanFirstComms: AddText \"\\\"Attention: your fleet matches the profile of a suspected smuggler posted by $marketName authorities. You're h"
+  },
+  {
+   "i": 37,
+   "en": "Lost $ise_bribeAmountDGS credits",
+   "ctx": "ise_offerBribeAmountSel: AddText \"Lost $ise_bribeAmountDGS credits\" textEnemyColor"
+  },
+  {
+   "i": 38,
+   "en": "\\\"Thank you, citizen. I'm sure my investigation will reach a proper conclusion in due time.\\\"",
+   "ctx": "ise_offerBribeAmountSel: AddText \"\\\"Thank you, citizen. I'm sure my investigation will reach a proper conclusion in due time.\\\"\""
+  },
+  {
+   "i": 39,
+   "en": "Lost $igr_bribeAmountDGS credits",
+   "ctx": "igr_offerBribeAmountSel: AddText \"Lost $igr_bribeAmountDGS credits\" textEnemyColor"
+  },
+  {
+   "i": 40,
+   "en": "This ship is not easily recoverable, but it would be very useful in the upcoming fight against the miner forces guarding the jump-point.",
+   "ctx": "sal_tutorial_storyPointUse1: AddText \"This ship is not easily recoverable, but it would be very useful in the upcoming fight against the miner forces"
+  },
+  {
+   "i": 41,
+   "en": "You can use a story point to make a ship recoverable. Do this now, by selecting the appropriate option after exploring the derelict.",
+   "ctx": "sal_tutorial_storyPointUse1: AddText \"You can use a story point to make a ship recoverable. Do this now, by selecting the appropriate option after ex"
+  },
+  {
+   "i": 42,
+   "en": "appropriate option",
+   "ctx": "sal_tutorial_storyPointUse1: SetTextHighlights \"appropriate option\""
+  },
+  {
+   "i": 43,
+   "en": "There is a bit of a stir on your bridge. Your tactical officer re-queries sensors about the derelict ship, \\\"Did we not observe this ship perform independent maneuvers mere hours ago?\\\"",
+   "ctx": "sal_wreckDetailsFromGhost: AddText \"There is a bit of a stir on your bridge. Your tactical officer re-queries sensors about the derelict ship, \\\"Di"
+  },
+  {
+   "i": 44,
+   "en": "Your sensors officer takes longer than usual to respond, speaking very carefully. \\\"With respect. Readings taken in hyperspace are intrinsically imprecise. Our euclidean display framework is only a... an interpretation by our best expert systems.\\\" They wave toward the current readings. \\\"It was clearly just a blip.\\\" They nod without making eye contact with tactical. \\\"A hyperspace blip. Yes.\\\"",
+   "ctx": "sal_wreckDetailsFromGhost: AddText \"Your sensors officer takes longer than usual to respond, speaking very carefully. \\\"With respect. Readings take"
+  },
+  {
+   "i": 45,
+   "en": "Can not be done in hyperspace.",
+   "ctx": "pods_stabilizeDisable: SetTooltip podsStabilize \"Can not be done in hyperspace.\""
+  },
+  {
+   "i": 46,
+   "en": "The pods are already in a fairly stable orbit and further efforts will not yield meaningful results.",
+   "ctx": "pods_stabilizeDisableDidAlready: SetTooltip podsStabilize \"The pods are already in a fairly stable orbit and further efforts will not yield meaningful re"
+  },
+  {
+   "i": 47,
+   "en": "You're unlikely to be able to find the current area of space in the future, and stabilizing the cargo pods makes little sense.",
+   "ctx": "pods_stabilizeTempLoc: SetTooltip podsStabilize \"You're unlikely to be able to find the current area of space in the future, and stabilizing th"
+  },
+  {
+   "i": 48,
+   "en": "Stabilization will put the pods on a predictable orbit for an additional $stabilizeDays days. Adding or removing any cargo afterwards will destabilize the orbit.",
+   "ctx": "pods_stabilizeSel: AddText \"Stabilization will put the pods on a predictable orbit for an additional $stabilizeDays days. Adding or removin"
+  },
+  {
+   "i": 49,
+   "en": "will destabilize the orbit",
+   "ctx": "pods_stabilizeSel: SetTextHighlights $stabilizeDays \"will destabilize the orbit\""
+  },
+  {
+   "i": 50,
+   "en": "The landing bay is filled with parties of Luddic pilgrims, many dressed in traditional handweave, meeting with subcurates. An attendant looks you over suspiciously and inquires about what business you have coming here.",
+   "ctx": "lppBeholderOpenDialog: AddText \"The landing bay is filled with parties of Luddic pilgrims, many dressed in traditional handweave, meeting with "
+  },
+  {
+   "i": 51,
+   "en": "A subcurate accepts your offering with prayer and thanks.",
+   "ctx": "lppBeholderShrineGiveOffering: AddText \"A subcurate accepts your offering with prayer and thanks.\""
+  },
+  {
+   "i": 52,
+   "en": "Received comms ID for Sophronia Jaspis",
+   "ctx": "lppJaspisWrapUp5: AddTextSmall \"Received comms ID for Sophronia Jaspis\" highlight"
+  },
+  {
+   "i": 53,
+   "en": "Told official on Volturn that you were on a secret mission from the Supreme Executor to access the Luddic Shrine",
+   "ctx": "lppVolturnOfficialResponseLie: SetStoryOption lpp_volturnOfficialLie1 general \"Told official on Volturn that you were on a secret mission from the Supr"
+  },
+  {
+   "i": 54,
+   "en": "Jangala xenolife: heavy exposure",
+   "ctx": "lppJangalaOutsideMaskOff2: AddTextSmall \"Jangala xenolife: heavy exposure\" highlight"
+  },
+  {
+   "i": 55,
+   "en": "Jangala xenolife: light exposure",
+   "ctx": "lppJangalaOutsideMaskOn3: AddTextSmall \"Jangala xenolife: light exposure\" highlight"
+  },
+  {
+   "i": 56,
+   "en": "You have been declared unwelcome by the Knights of Ludd. The heavy batteries of Hesperus track your $shipOrFleet, discouraging casual visitation.",
+   "ctx": "lppHesperusShrineOptionCheck: SetTooltip lpp_hesperusVisitStart \"You have been declared unwelcome by the Knights of Ludd. The heavy batteries of Hespe"
+  },
+  {
+   "i": 57,
+   "en": "You order the shuttle to stand down. It looks like Excubitor Oak is serious about making you wait seven days before you can access the shrine of Hesperus.",
+   "ctx": "lppHesperusShrineWaitCancelShuttle: AddText \"You order the shuttle to stand down. It looks like Excubitor Oak is serious about making you wait seven days be"
+  },
+  {
+   "i": 58,
+   "en": "You order the shuttle to stand down. It looks like Excubitor Oak is serious about denying you access to the shrine of Hesperus until you 'seek redemption', whatever that means.",
+   "ctx": "lppHesperusShrineDeniedCancelShuttle: AddText \"You order the shuttle to stand down. It looks like Excubitor Oak is serious about denying you access to the shr"
+  },
+  {
+   "i": 59,
+   "en": "You order the shuttle to stand down. Who knows what these Luddics are on about this time.",
+   "ctx": "lppHesperusShrineFirstTime1c: AddText \"You order the shuttle to stand down. Who knows what these Luddics are on about this time.\""
+  },
+  {
+   "i": 60,
+   "en": "Requires a non-civilian capital ship in your fleet.",
+   "ctx": "lppHesperusExcubitorThreatCheck: SetTooltip lpp_hesperusExcubitorForce \"Requires a non-civilian capital ship in your fleet.\""
+  },
+  {
+   "i": 61,
+   "en": "You have waited the seven days the Excubitor Orbis demanded.",
+   "ctx": "lppExcubitorResponseSevenDaysA: AddText \"You have waited the seven days the Excubitor Orbis demanded.\""
+  },
+  {
+   "i": 62,
+   "en": "You have not yet waited the seven days the Excubitor Orbis demanded. You suspect that he will not be open-minded about negotiating this delay.",
+   "ctx": "lppExcubitorResponseSevenDaysB: AddText \"You have not yet waited the seven days the Excubitor Orbis demanded. You suspect that he will not be open-minde"
+  },
+  {
+   "i": 63,
+   "en": "Find someone bribable in local traffic control",
+   "ctx": "lppHesperusBarEventAddA: AddBarEvent lpp_hesperusShrine_barEvent \"Find someone bribable in local traffic control\" \"A motley crowd of distinctly n"
+  },
+  {
+   "i": 64,
+   "en": "A motley crowd of distinctly non-Luddic spacer officers drink and talk. They can't all be honest traders. One of them might know how to sneak a shuttle past traffic control...",
+   "ctx": "lppHesperusBarEventAddA: AddBarEvent lpp_hesperusShrine_barEvent \"Find someone bribable in local traffic control\" \"A motley crowd of distinctly n"
+  },
+  {
+   "i": 65,
+   "en": "A robed subcurate shuffles to meet you. \\\"Blessings upon you. Your arrival was... unexpected,\\\" they say. \\\"But no matter. All who come in good faith are welcome to worship at this shrine.\\\"",
+   "ctx": "lppHesperusShrineOptionSnuckIn: AddText \"A robed subcurate shuffles to meet you. \\\"Blessings upon you. Your arrival was... unexpected,\\\" they say. \\\"But"
+  },
+  {
+   "i": 66,
+   "en": "A robed subcurate shuffles to meet you. \\\"Blessings upon you. Your arrival... ah, we expected a larger party of pilgrims,\\\" they say, \\\"But no matter; the faith of one is the faith of all.\\\"",
+   "ctx": "lppHesperusShrineOptionBribedIn: AddText \"A robed subcurate shuffles to meet you. \\\"Blessings upon you. Your arrival... ah, we expected a larger party of"
+  },
+  {
+   "i": 67,
+   "en": "Jethro Bornanew",
+   "ctx": "lkeJaspisStart: SetTextHighlights \"Jethro Bornanew\""
+  },
+  {
+   "i": 68,
+   "en": "Received Jethro Bornanew identity file",
+   "ctx": "lkeJaspisStart2: AddTextSmall \"Received Jethro Bornanew identity file\" highlight"
+  },
+  {
+   "i": 69,
+   "en": "Convinced Pathers on Chalcedon that you're not who they think you are",
+   "ctx": "lkeChalcedonVIPoptsHostile5: SetStoryOption lke_chalcedonVIPoptHostileSP 1 lkeChalcedonVIPnonhostile general \"Convinced Pathers on Chalcedon that you"
+  },
+  {
+   "i": 70,
+   "en": "Requires over 250 marines.",
+   "ctx": "lkeChalcedonCheckThreatRaid: SetTooltip lke_chalcedonVIPoptHostileC \"Requires over 250 marines.\""
+  },
+  {
+   "i": 71,
+   "en": "Wrestling Sedge",
+   "ctx": "LKEchalcedonThreatGo3: SetTextHighlights \"Wrestling Sedge\""
+  },
+  {
+   "i": 72,
+   "en": "Received address of spacer bar on Chalcedon",
+   "ctx": "LKEchalcedonThreatSedge2: AddTextSmall \"Received address of spacer bar on Chalcedon\" highlight"
+  },
+  {
+   "i": 73,
+   "en": "Find someone well-connected to bribe for information on Bornanew",
+   "ctx": "lkeAskChalcedonBarPrompt: AddBarEvent LKEchalcedon_barEvent \"Find someone well-connected to bribe for information on Bornanew\" \"There are many her"
+  },
+  {
+   "i": 74,
+   "en": "There are many here who make 'arrangements' between Pathers and the black market merchants, mercenaries, and bounty hunters who might have difficulty openly dealing with them. Perhaps one can get your information on Jethro Bornanew.",
+   "ctx": "lkeAskChalcedonBarPrompt: AddBarEvent LKEchalcedon_barEvent \"Find someone well-connected to bribe for information on Bornanew\" \"There are many her"
+  },
+  {
+   "i": 75,
+   "en": "You have $player.creditsStrC available.",
+   "ctx": "lkeChalcedonAskBarRespC: AddText \"You have $player.creditsStrC available.\""
+  },
+  {
+   "i": 76,
+   "en": "2,000 credits",
+   "ctx": "lkeChalcedonBarBribeWalk: SetTextHighlights \"2,000 credits\""
+  },
+  {
+   "i": 77,
+   "en": "Claimed to be working for Brother Cotton to avoid Pather fleet sent to stop you from finding Bornanew",
+   "ctx": "lkePatherFleetRespK: SetStoryOption lke_patherFleetSP 1 lke_patherFleetSP general \"Claimed to be working for Brother Cotton to avoid Pather f"
+  },
+  {
+   "i": 78,
+   "en": "Received location of Jethro Bornanew",
+   "ctx": "LKEmazTest3a: AddTextSmall \"Received location of Jethro Bornanew\" highlight"
+  },
+  {
+   "i": 79,
+   "en": "Received comms ID for Nile Virens",
+   "ctx": "LKEmazalotPMquietly: AddTextSmall \"Received comms ID for Nile Virens\" highlight"
+  },
+  {
+   "i": 80,
+   "en": "Received tactical data for Nile Virens compounds",
+   "ctx": "LKEmazalotPMquietly: AddTextSmall \"Received tactical data for Nile Virens compounds\" highlight"
+  },
+  {
+   "i": 81,
+   "en": "Nile Virens",
+   "ctx": "LKEmazQMTryYaribayA3: Highlight \"Nile Virens\""
+  },
+  {
+   "i": 82,
+   "en": "There are those who make 'arrangements' between Pathers and the black marketeers and mercs who might have difficulty openly dealing with them. Perhaps one can provide a lead on Bornanew.",
+   "ctx": "LKEaskMazalotBarPrompt: AddBarEvent LKEmazalot_barEvent \"Find someone well-connected to bribe for information on Bornanew\" \"There are those who "
+  },
+  {
+   "i": 83,
+   "en": "Told local security officer on Mazalot that you're Finlay Siyavong and on a secret mission",
+   "ctx": "lkeMazBarAgentOptSiyavong: SetStoryOption lke_mazBarAgentRespSiyavong general \"Told local security officer on Mazalot that you're Finlay Siyavong a"
+  },
+  {
+   "i": 84,
+   "en": "Requires over 400 marines.",
+   "ctx": "lkeMazalotVirensCheckThreatRaid: SetTooltip lke_virensThreatenWithMarines \"Requires over 400 marines.\""
+  },
+  {
+   "i": 85,
+   "en": "A nearby hostile fleet is tracking your movements, making a raid absolutely inadvisable.",
+   "ctx": "lkeDisableVirensRaidIfNeeded: SetTooltip lkeVirensRaidStart \"A nearby hostile fleet is tracking your movements, making a raid absolutely inadvisable.\""
+  },
+  {
+   "i": 86,
+   "en": "Raid Viren's Pather strongholds",
+   "ctx": "lkeVirensRaidStart: AddRaidObjective genericIcon \"Raid Viren's Pather strongholds\" HIGH 3000 LKEVirensRaidFinishedA true"
+  },
+  {
+   "i": 87,
+   "en": "Extracted prisoners from Nile Virens compounds",
+   "ctx": "lkeVirensRaidFinishedB: AddTextSmall \"Extracted prisoners from Nile Virens compounds\" highlight"
+  },
+  {
+   "i": 88,
+   "en": "Requires at least 6 marines.",
+   "ctx": "LKEbornanewPrepMarinesOff: SetTooltip lke_prepMarines \"Requires at least 6 marines.\""
+  },
+  {
+   "i": 89,
+   "en": "Church",
+   "ctx": "BFINaskConflicts: SetTextHighlights \"Persean League\" \"Church\""
+  },
+  {
+   "i": 90,
+   "en": "Kanta",
+   "ctx": "BFINaskConflicts2: SetTextHighlights \"Luddic Path\" \"Kanta\""
+  },
+  {
+   "i": 91,
+   "en": "Menes Yaribay",
+   "ctx": "BFFIonBoardYarbStart: Highlight \"Menes Yaribay\""
+  },
+  {
+   "i": 92,
+   "en": "Olinadu",
+   "ctx": "BFFIonBoardYarb3: Highlight \"Olinadu\""
+  },
+  {
+   "i": 93,
+   "en": "It's a waste of money, $global.jethroName.",
+   "ctx": "BFFImmBornBuyerOptHubB2: SetTooltip bffi_mmBornBuyerPoor \"It's a waste of money, $global.jethroName.\""
+  },
+  {
+   "i": 94,
+   "en": "Owning a colony would demonstrate capital investment that might be leveraged in business dealings.",
+   "ctx": "BFFImmBornBuyerOptHubC: SetTooltip bffi_mmBornBuyerColony \"Owning a colony would demonstrate capital investment that might be leveraged in busin"
+  },
+  {
+   "i": 95,
+   "en": "Menes Yaribay is more likely to trust the word - and credit - of someone who is technically a fellow demarch of the Persean League.",
+   "ctx": "BFFImmBornBuyerOptHubD: SetTooltip bffi_mmBornBuyerLeague \"Menes Yaribay is more likely to trust the word - and credit - of someone who is techn"
+  },
+  {
+   "i": 96,
+   "en": "Requires at least 500,000 credits or an alternate means of establishing your legitimacy.",
+   "ctx": "BFFImmBornBuyerOptHubFno: SetTooltip bffi_mmBornBuyerColony \"Requires at least 500,000 credits or an alternate means of establishing your legitima"
+  },
+  {
+   "i": 97,
+   "en": "500,000 credits",
+   "ctx": "BFFImmBornBuyerOptHubFno: SetTooltipHighlights \"500,000 credits\" \"alternate means\""
+  },
+  {
+   "i": 98,
+   "en": "alternate means",
+   "ctx": "BFFImmBornBuyerOptHubFno: SetTooltipHighlights \"500,000 credits\" \"alternate means\""
+  },
+  {
+   "i": 99,
+   "en": "100 marines",
+   "ctx": "BFFImmBornDoRaid2: SetTextHighlights \"100 marines\" \"transponder off\""
+  },
+  {
+   "i": 100,
+   "en": "You must approach Olinadu with your transponder off in order to sneak marines into position.",
+   "ctx": "BFFIapStartOptionRaidCheck1: SetTooltip bffi_attendPartyIntro1 \"You must approach Olinadu with your transponder off in order to sneak marines into po"
+  },
+  {
+   "i": 101,
+   "en": "You need at least 100 marines in order to execute the raid on Menes Yaribay's compound.",
+   "ctx": "BFFIapStartOptionRaidCheck2: SetTooltip bffi_attendPartyIntro1 \"You need at least 100 marines in order to execute the raid on Menes Yaribay's compoun"
+  },
+  {
+   "i": 102,
+   "en": "Acquired the false relic",
+   "ctx": "BFFImenesPartySteal17c: AddTextSmall \"Acquired the false relic\" highlight"
+  },
+  {
+   "i": 103,
+   "en": "Told Menes Yaribay that Rayan Arroyo is financing your purchase of the fake relic",
+   "ctx": "BFFImpBuyerHub3OptF: SetStoryOption bffi_mpBuyerConArroyo 1 bffi_conArroyo ui_char_spent_story_point \"Told Menes Yaribay that Rayan Arroyo is"
+  },
+  {
+   "i": 104,
+   "en": "You can see Bornanew watching you as you consider your next words. He doesn't look pleased.",
+   "ctx": "BFFImpBuyerHub3OptGagain: SetTooltip bffi_mpBuyerConChurchA \"You can see Bornanew watching you as you consider your next words. He doesn't look pl"
+  },
+  {
+   "i": 105,
+   "en": "Take the relic from Menes' compound",
+   "ctx": "BFFIpartyBeginRaid: AddRaidObjective genericIcon \"Take the relic from Menes' compound\" MEDIUM 3000 BFFIattendPartyRaidFinishedA true"
+  },
+  {
+   "i": 106,
+   "en": "Extracted the fake relic from collection of Menes Yaribay",
+   "ctx": "BFFIapRaidOutro3: AddTextSmall \"Extracted the fake relic from collection of Menes Yaribay\" highlight"
+  },
+  {
+   "i": 107,
+   "en": "It may be cynical, but she's got a clever hustle and it'd be a shame to spoil it.",
+   "ctx": "BFFItalkToEngineer12optCheck1: SetTooltip bffi_talkToEngineer13corruption \"It may be cynical, but she's got a clever hustle and it'd be a shame to spoi"
+  },
+  {
+   "i": 108,
+   "en": "You can easily understand that she's just trying to make some extra money. You're a mercenary too, as it serves you, and it'd be a shame to spoil a good hustle.",
+   "ctx": "BFFItalkToEngineer12optCheck2: SetTooltip bffi_talkToEngineer13corruption \"You can easily understand that she's just trying to make some extra money. Y"
+  },
+  {
+   "i": 109,
+   "en": "Due to his criminal background, $global.jethroName must be familiar with the art of intimidation. He would perform the role well.",
+   "ctx": "BFFIulmusPrestart3: SetTooltip bffi_ulmusPondYouBad \"Due to his criminal background, $global.jethroName must be familiar with the art of int"
+  },
+  {
+   "i": 110,
+   "en": "In consideration of his criminal background, you don't want to put $global.jethroName back into playing a role he's worked so hard to leave behind.",
+   "ctx": "BFFIulmusPrestart3: SetTooltip bffi_ulmusPondMeBad \"In consideration of his criminal background, you don't want to put $global.jethroName ba"
+  },
+  {
+   "i": 111,
+   "en": "Ulmus Pond is shot",
+   "ctx": "BFFIulmusSedge3: AddTextSmall \"Ulmus Pond is shot\" highlight"
+  },
+  {
+   "i": 112,
+   "en": "Jethro Bornanew is shot",
+   "ctx": "BFFIulmusSedge4: AddTextSmall \"Jethro Bornanew is shot\" highlight"
+  },
+  {
+   "i": 113,
+   "en": "Killed Wrestling Sedge",
+   "ctx": "BFFIulmusSedge5: AddTextSmall \"Killed Wrestling Sedge\" highlight"
+  },
+  {
+   "i": 114,
+   "en": "Convinced leader of Pather station to give up nanoforge and data on their mole on Tartessus",
+   "ctx": "BFFIpsRuseNiceOption: SetStoryOption bffi_stationTalkRuseNice 1 bffi_patherStationRuse general \"Convinced leader of Pather station to give up "
+  },
+  {
+   "i": 115,
+   "en": "Requires you to have made a certain longstanding arrangement with the Luddic Path.",
+   "ctx": "BFFIpsRuseNiceFoptCheck: SetTooltip bffi_psRuseNiceF \"Requires you to have made a certain longstanding arrangement with the Luddic Path.\""
+  },
+  {
+   "i": 116,
+   "en": "Requires 50,000 credits.",
+   "ctx": "BFFIpsRuseNiceAoptCheck: SetTooltip bffi_psRuseNiceA \"Requires 50,000 credits.\""
+  },
+  {
+   "i": 117,
+   "en": "Promised to pay 50,000 credits if the Pather agrees to your terms.",
+   "ctx": "BFFIpsRuseNiceA: AddTextSmall \"Promised to pay 50,000 credits if the Pather agrees to your terms.\" highlight"
+  },
+  {
+   "i": 118,
+   "en": "Requires that you've demonstrated a dedication to the faith of the Luddic Church.",
+   "ctx": "BFFIpsRuseNiceBoptCheck: SetTooltip bffi_psRuseNiceB \"Requires that you've demonstrated a dedication to the faith of the Luddic Church.\""
+  },
+  {
+   "i": 119,
+   "en": "Requires a proven dedication to the Luddic Path.",
+   "ctx": "BFFIpsRuseNiceCoptCheck: SetTooltip bffi_psRuseNiceC \"Requires a proven dedication to the Luddic Path.\""
+  },
+  {
+   "i": 120,
+   "en": "Requires a history of merciful acts.",
+   "ctx": "BFFIpsRuseNiceDoptCheck: SetTooltip bffi_psRuseNiceD \"Requires a history of merciful acts.\""
+  },
+  {
+   "i": 121,
+   "en": "Requires a humanitarian reputation.",
+   "ctx": "BFFIpsRuseNiceEoptCheck: SetTooltip bffi_psRuseNiceE \"Requires a humanitarian reputation.\""
+  },
+  {
+   "i": 122,
+   "en": "This threat requires a non-civilian capital ship in your fleet.",
+   "ctx": "BFFIpsRuseMeanAoptCheck: SetTooltip bffi_psRuseMeanA \"This threat requires a non-civilian capital ship in your fleet.\""
+  },
+  {
+   "i": 123,
+   "en": "The conviction of a truly cold-blooded killer might have the right effect...",
+   "ctx": "BFFIpsRuseMeanBoptCheck: SetTooltip bffi_psRuseMeanB \"The conviction of a truly cold-blooded killer might have the right effect...\""
+  },
+  {
+   "i": 124,
+   "en": "Requires a reputation for ruthless acts.",
+   "ctx": "BFFIpsRuseMeanCoptCheck: SetTooltip bffi_psRuseMeanC \"Requires a reputation for ruthless acts.\""
+  },
+  {
+   "i": 125,
+   "en": "You'll only be believed if you've acted as a tireless enemy of the Luddic Path.",
+   "ctx": "BFFIpsRuseMeanDoptCheck: SetTooltip bffi_psRuseMeanD \"You'll only be believed if you've acted as a tireless enemy of the Luddic Path.\""
+  },
+  {
+   "i": 126,
+   "en": "Requires a history of exceptionally mercenary choices.",
+   "ctx": "BFFIpsRuseMeanEoptCheck: SetTooltip bffi_psRuseMeanE \"Requires a history of exceptionally mercenary choices.\""
+  }
+ ]
+}

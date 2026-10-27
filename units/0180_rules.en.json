@@ -1,0 +1,176 @@
+{
+ "chunk": 180,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "Someone from the Luddic fleet has noticed you and is hailing.\r\n\r\nBefore you can respond, your sensors officer calls your attention. \"The Luddic fleet is in poor repair. Some of their hyperdrives are causing a lot of interference, even in low-power mode. They're why we can't scan the nearby Gate.\"",
+   "ctx": "data/campaign/rules.csv gaATGluddicScanFleet [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"Blessings upon you, space traveler,\" the Luddic $rank says. \"Have you come to join our holy vigil? There is room here for all. And provided you share, we shall share alike.\"",
+   "ctx": "data/campaign/rules.csv gaATGluddicScanHubOptionsA [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"Oh,\" the Luddic $rank says, \"It is you again. Please, respect the blessed peace we have built here. There is room here for all, and we have little worth taking.\"",
+   "ctx": "data/campaign/rules.csv gaATGluddicScanHubOptionsB [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"Blessed $playerName! May the light of Ludd guide you always. Thanks to your assistance, we are continuing our holy vigil.\"\r\n\r\n\"I'm sure the Prophet Returned will come soon,\" $heOrShe says and smiles radiantly.",
+   "ctx": "data/campaign/rules.csv gaATGluddicScanHubOptionsC [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"You haven't heard? I am blessed to deliver you the good word!\" \r\n\r\n\"We await the return of Ludd! Blessed Sister Fear-not, our spiritual leader, was given a vision by the grace of cosmic pneuma that Ludd would return here from unearthly exile, to this very spot, after many cycles spent in spiritual battle for the soul of humanity.\"\r\n\r\n\"We await with joyous hearts and hymns upon our lips. Won't you join us?\"",
+   "ctx": "data/campaign/rules.csv gaATGluddicScan1 [text]"
+  },
+  {
+   "i": 6,
+   "en": "$HeOrShe nods with understanding. \"Nonetheless, captain, the path of Ludd's blessing is always before us. You may surprise yourself to find that you have been walking with Ludd all along.\"",
+   "ctx": "data/campaign/rules.csv gaATGluddicScan11 [text]"
+  },
+  {
+   "i": 7,
+   "en": "$HeOrShe nods with acceptance, and says \"Perhaps in time.\"",
+   "ctx": "data/campaign/rules.csv gaATGluddicScan12 [text]"
+  },
+  {
+   "i": 8,
+   "en": "$HeOrShe nods with understanding, and says \"Look inward, my child. One day you may understand.\"",
+   "ctx": "data/campaign/rules.csv gaATGluddicScan13 [text]"
+  },
+  {
+   "i": 9,
+   "en": "$HeOrShe shakes $hisOrHer head, smiles beatifically, and explains, \"We are maintaining a holy vigil. We cannot simply... move. Our devotion was foreseen, that Holy Ludd may return to us and guide us.\"\r\n\r\n\"We would not,\" even the thought seems a little upsetting to the Luddic $rank, \"Abandon the Prophet Returned!\"",
+   "ctx": "data/campaign/rules.csv gaATGluddicScan2 [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"Devotion is not a thing to be turned off and back on again like a datapad,\" $heOrShe says, with priestly concern but infinite patience for your withered spiritual understanding.\r\n\r\n\"That's not how it works. What you ask is impossible.\"",
+   "ctx": "data/campaign/rules.csv gaATGluddicScan21 [text]"
+  },
+  {
+   "i": 11,
+   "en": "$HeOrShe shakes $hisOrHer head sadly. \"Devotion cannot be bought and sold. Besides, we have no need of credits. The Prophet Returned will provide us with spiritual riches beyond all imagination. There will be no poor and no rich where we shall be led on the blessed Path of Ludd.\"",
+   "ctx": "data/campaign/rules.csv gaATGluddicScan22 [text]"
+  },
+  {
+   "i": 12,
+   "en": "The Luddic $rank turns $hisOrHer head and says \"You misunderstand, enjoyment is irrelevant to-\" \r\n\r\nYou terminate the comms before the deluded Luddic can condescend further.",
+   "ctx": "data/campaign/rules.csv gaATGluddicScan23 [text]"
+  },
+  {
+   "i": 13,
+   "en": "You explain that you have done much for the Faithful, and many works for the Church. You invite the Luddic $rank to ask among $hisOrHer flock, they will testify to this fact, you are certain.\r\n\r\nThe vigil cannot be held at all times, you explain, because surely the faithful must sleep and otherwise attend to material concerns. Ludd was no stranger to the suffering and the poor, Ludd walked among the worlds and felt their suffering. Ludd did not tell the downtrodden to ignore their wants, despite the wretchedness of the world.",
+   "ctx": "data/campaign/rules.csv gaATGluddicScan3 [text]"
+  },
+  {
+   "i": 14,
+   "en": "The Luddic $rank nods as you speak, and says \"I admit, our ships are old and of poor repair. It would alleviate much suffering if you... provided 50 units of supplies in the spirit of charity. And if, as you say, a vigil could be maintained for the short period required for your, ah, scan?\"\r\n\r\nYou nod piously. This is not for your own self-glory; not at all. Supplies for the weary, and a scan to ensure the safety at all. It is not unreasonable, it is not unfaithful.\r\n\r\n\"I would accept this proposal, captain,\" $heOrShe says finally.",
+   "ctx": "data/campaign/rules.csv gaATGluddicScan31 [text]"
+  },
+  {
+   "i": 15,
+   "en": "Perhaps, you explain, that in the spirit of charity you - with assistance from the Luddic $rank of course - could perform a safety scan upon this Gate using a device you have on your flagship. You propose that it could be considered a ritual of cleansing.\r\n\r\nThis would also provide $hisOrHer followers an opportunity to make repairs to their faltering ships. The Prophet Returned would not want this flock to be lost to hull breaches and life support failure, surely.",
+   "ctx": "data/campaign/rules.csv gaATGluddicScan4 [text]"
+  },
+  {
+   "i": 16,
+   "en": "$HeOrShe nods as you speak, and speaks hesitantly, \"I admit, our ships are old and of poor repair. It would alleviate much suffering if you provided 50 supplies... in the spirit of charity, of course. And if, as you say, a vigil could be maintained for the short period required for this, ah, cleansing?\"\r\n\r\nYou nod piously. This is not for your own self-glory; not at all. Supplies for the weary, and a scan to ensure the safety of all. It is not unreasonable, it is not unfaithful. You just need to ensure everything appears absolutely above-board for the Luddic $rank.",
+   "ctx": "data/campaign/rules.csv gaATGluddicScan41 [text]"
+  },
+  {
+   "i": 17,
+   "en": "$HeOrShe nods as you speak, and says hesitantly \"I admit, our ships are old and of poor repair. It would alleviate much suffering if you provided 50 supplies... in the spirit of charity, of course. And if, as you say, a vigil could be maintained for the short period required for your, ah, cleansing?\"\r\n\r\nYou nod piously. As a commissioned militant of the Church of Galactic Redemption, these heretics (for that is what they are) are wary of your authority, but more trusting than they would be with an outsider when it comes to handling delicate matters of religion.",
+   "ctx": "data/campaign/rules.csv gaATGluddicScan41b [text]"
+  },
+  {
+   "i": 18,
+   "en": "$HeOrShe nods as you speak, and says hesitantly \"I admit, our ships are old and of poor repair. It would alleviate much suffering if you provided 50 supplies... in the spirit of charity, of course. And if, as you say, a vigil could be maintained for the short period required for your, ah, cleansing?\"\r\n\r\nYou nod piously. These walkers of a, perhaps, slightly heretical path nonetheless view you as close to one of their own. After all, you have made pilgrimage to the shrines, just as many of them have. They trust you far more than the average spacer when it comes to a delicate matter of religion.",
+   "ctx": "data/campaign/rules.csv gaATGluddicScan41c [text]"
+  },
+  {
+   "i": 19,
+   "en": "You dispatch a shuttle to retrieve the Luddic $rank and a small circle of advisors. As they board, you invite them to a viewing lounge where they can maintain their vigil during your operation. Your ops chief coordinates the transfer of supplies, and even begrudgingly allows a few cargo drones to be borrowed to help maneuver some desperately malfunctioning ships from the Luddic fleet. \r\n\r\nOne by one, their engines ignite, drive manifolds sending ripples throughout the local hyperspace medium. The ships of the faithful crawl slowly from the vicinity of the gate.",
+   "ctx": "data/campaign/rules.csv gaATGluddicScan32 [text]"
+  },
+  {
+   "i": 20,
+   "en": "Shock plays across $hisOrHer face, \"Truly, you would do this terrible thing?\" $heOrShe asks. \"It would be slaughter. We are civilians, with few weapons.\"",
+   "ctx": "data/campaign/rules.csv gaATGluddicScan5 [text]"
+  },
+  {
+   "i": 21,
+   "en": "After a moment's hesitation your tactical officer complies. Furious energies are channeled into capacitors, navigation armor retracted from ports and tubes, and a network of targeting radar, lidar, and more esoteric systems flicker to life.\r\n\r\nThe Luddic $rank looks faint, and mutters something to an underling.",
+   "ctx": "data/campaign/rules.csv gaATGluddicScan51 [text]"
+  },
+  {
+   "i": 22,
+   "en": "The ships of the faithful start to crawl away, leaving a few stragglers. Tension builds as you wait - will these be martyrs to the vigil, those willing to stare down your beams and guns and missiles and give their lives?",
+   "ctx": "data/campaign/rules.csv gaATGluddicScan52 [text]"
+  },
+  {
+   "i": 23,
+   "en": "One by one, old engines sputter and alight, and finally the last of the stragglers trail the mass of the vigil ships.\r\n\r\nStone-faced, your bridge crew awaits your next order.",
+   "ctx": "data/campaign/rules.csv gaATGluddicScan53 [text]"
+  },
+  {
+   "i": 24,
+   "en": "A silent ring of adamantine material, derelict of a former age.\r\n\r\nYou query the status of the Gate scanning package and your sensors officer gives you a quick head-shake. Their station interface is spotted with amber warning messages.\r\n\r\n\"Captain, that pirate fleet is... it looks like they're pulsing their drive bubble. The Gate scanner can't make a lock with all that interference.\"",
+   "ctx": "data/campaign/rules.csv gaATGpirateScanGate [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"Yer want the Gate, yeh?\" the pirate $rank mumbles while chewing on something. \"Well it's mine. So then yer'll have to pay me and mine some tasty nice credits.\"\r\n\r\nThe pirate smiles crookedly, showing off pieces of $hisOrHer last snack and some diamond incisors which you're sure were very impressive to some hive gang.\r\n\r\n\"Give me $gaATG_pirateScanCost credits, then yer can have at yon Gate and do yer businesses.\"",
+   "ctx": "data/campaign/rules.csv gaATGpirateScanFleetHello [text]"
+  },
+  {
+   "i": 26,
+   "en": "You order the credits transferred and note their arrival by the big, crudely-modified smile the pirate produces.\r\n\r\n\"Have yer at it, good cap'n!\" $heOrShe shouts, then mashes $hisOrHer control console. The comm-link fails to terminate on the first try, but the second jab gets it, and you are relieved of the pirate's virtual presence.",
+   "ctx": "data/campaign/rules.csv gaATGpirateScanPay [text]"
+  },
+  {
+   "i": 27,
+   "en": "The pirate looks confused and possibly a little upset. \r\n\r\n\"Wha?\" $heOrShe says through another bite from an emergency combat ration bar.",
+   "ctx": "data/campaign/rules.csv gaATGpirateScanReason [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"Just don't yer be doing that without buying me a drink first, ha-ha-ha,\" the pirate turns to laugh at $hisOrHer crew, who obediently join in.\r\n\r\n$HeOrShe turns back, \"So will yer be paying me to burn out, or?\"",
+   "ctx": "data/campaign/rules.csv gaATGpirateScanReason2 [text]"
+  },
+  {
+   "i": 29,
+   "en": "Painstakingly, you walk the pirate step by step through an argument for a universal ethics of collective betterment with the particular application of allowing you to perform your scan gratis. It is a gamble, you admit - and the pirate understands gambling, enthusiastically - but one in which we all bet for potential wins from the universe itself.\r\n\r\nThis analogy bears more fruit, and you manage to advance a narrative throughline of cheating the house, where the pot to be won is the corpus of hyperspace physics knowledge and the house is the natural world itself. A crude approach, you reflect, but you're willing to compromise holistic fidelity to hurry the conversation along.\r\n\r\nYou prompt the pirate: \"So by allowing me access to this Gate...\"",
+   "ctx": "data/campaign/rules.csv gaATGpirateScanReason3 [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"I, I-\" the pirate speaks hesitatingly, \"...make richer... both of us. More.\" ",
+   "ctx": "data/campaign/rules.csv gaATGpirateScanReason4 [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"Okay.\" The pirate sits back, tired. \"We will go now. So yer better come back and pay me lots more credits in, uh, a cycle? Or we'll make you eat laser.\"",
+   "ctx": "data/campaign/rules.csv gaATGpirateScanReason5 [text]"
+  },
+  {
+   "i": 32,
+   "en": "As the comms-link is terminated, the pirate fleet powers down weapons and turns away from the Gate.\r\n\r\nYour attempt to instill a new ethos seems to have failed, but you judge it unlikely that this particular pirate captain will last long enough to attempt to collect what they think you're offering in a cycle anyway. And, more important, the Gate is clear of their drive-field interference.",
+   "ctx": "data/campaign/rules.csv gaATGpirateScanReason6 [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"Yer'll get it now!\" the pirate shouts, and turns to $hisOrHer crew \"Make for combat!\"\r\n\r\nThe link flickers and terminates as the pirate's electronic warfare matrix comes online.",
+   "ctx": "data/campaign/rules.csv gaATG_pirateScanThreaten1 [text]"
+  },
+  {
+   "i": 34,
+   "en": "An Apogee-class derelict drifts nearby the Gate. This isn't a Gate-hulk, one of the dead ships left from the chaos of the collapse. The damage is much more recent; the hull still retains heat from normal ship operation.\r\n\r\nYour sensors officer sweeps the hulk, feeding you status updates. There don't seem to be signs of hasty cuts to cargo bay doors, as Pirates and sometimes Pathers are wont to make. Might mean something, might mean nothing.",
+   "ctx": "data/campaign/rules.csv gaATGgateScanDerelictWreckOpen [text]"
+  }
+ ]
+}

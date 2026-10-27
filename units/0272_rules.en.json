@@ -1,0 +1,1191 @@
+{
+ "chunk": 272,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "Consider a lie to answer with...",
+   "ctx": "LKEvirensAskWhyKillSedgeTruOpts"
+  },
+  {
+   "i": 2,
+   "en": "\"He would have killed me without hesitation, given the chance.\" (lie)\r",
+   "ctx": "LKEvirensAskWhyKillSedgeLieOpts"
+  },
+  {
+   "i": 3,
+   "en": "\"I didn't like him. That's why.\" (lie)\r",
+   "ctx": "LKEvirensAskWhyKillSedgeLieOpts"
+  },
+  {
+   "i": 4,
+   "en": "\"His anti-technological terrorism is a threat to the future of the Persean Sector.\" (lie)\r",
+   "ctx": "LKEvirensAskWhyKillSedgeLieOpts"
+  },
+  {
+   "i": 5,
+   "en": "\"He was a brute who ruled through terror.\" (lie)\r",
+   "ctx": "LKEvirensAskWhyKillSedgeLieOpts"
+  },
+  {
+   "i": 6,
+   "en": "\"Because he's a Pather. It's what all Pathers deserve.\" (lie)\r",
+   "ctx": "LKEvirensAskWhyKillSedgeLieOpts"
+  },
+  {
+   "i": 7,
+   "en": "\"His manner and actions pollute the purity of the Path.\" (lie)\r",
+   "ctx": "LKEvirensAskWhyKillSedgeLieOpts"
+  },
+  {
+   "i": 8,
+   "en": "Consider telling the truth, instead...",
+   "ctx": "LKEvirensAskWhyKillSedgeLieOpts"
+  },
+  {
+   "i": 9,
+   "en": "\"So are you thinking about killing me?\"\r",
+   "ctx": "LKEvirensKillSedgeKilledMe"
+  },
+  {
+   "i": 10,
+   "en": "Speak of other things",
+   "ctx": "LKEvirensKillSedgeKilledMe"
+  },
+  {
+   "i": 11,
+   "en": "\"I'm glad we cleared that up.\"",
+   "ctx": "LKEvirensKillSedgeKilledMe2b"
+  },
+  {
+   "i": 12,
+   "en": "\"I'm not sure yet.\"\r",
+   "ctx": "LKEvirensKillSedgeAntiAntiTech"
+  },
+  {
+   "i": 13,
+   "en": "\"In due time.\"\r",
+   "ctx": "LKEvirensKillSedgeAntiAntiTech"
+  },
+  {
+   "i": 14,
+   "en": "\"No. You seem different.\"",
+   "ctx": "LKEvirensKillSedgeAntiAntiTech"
+  },
+  {
+   "i": 15,
+   "en": "\"He was a murderer. The world is better off without him.\"\r",
+   "ctx": "LKEvirensKillSedgeBrute"
+  },
+  {
+   "i": 16,
+   "en": "\"How can you criticize me while Pathers raid and kill?\"\r",
+   "ctx": "LKEvirensKillSedgeBrute"
+  },
+  {
+   "i": 17,
+   "en": "\"That's rich coming from a Pather. Remember Mairaath?\"\r",
+   "ctx": "LKEvirensKillSedgeBrute"
+  },
+  {
+   "i": 18,
+   "en": "\"I am not responsible for what others choose.\"\r",
+   "ctx": "LKEvirensKillSedgeBrute2B"
+  },
+  {
+   "i": 19,
+   "en": "\"And they will die too, if they choose murder and terrorism.\"\r",
+   "ctx": "LKEvirensKillSedgeBrute2B"
+  },
+  {
+   "i": 20,
+   "en": "\"You can't simply dismiss Mairaath, and what the Path did there.\"\r",
+   "ctx": "LKEvirensKillSedgeBrute2C"
+  },
+  {
+   "i": 21,
+   "en": "\"So be it.\"\r",
+   "ctx": "LKEvirensKillSedgePurity"
+  },
+  {
+   "i": 22,
+   "en": "\"Not so much once a few are made example of.\"\r",
+   "ctx": "LKEvirensKillSedgePurity"
+  },
+  {
+   "i": 23,
+   "en": "\"Will you tell me where he is?\"\r",
+   "ctx": "LKEvirensLookingBornanew"
+  },
+  {
+   "i": 24,
+   "en": "Let it hang; he knows what you want",
+   "ctx": "LKEvirensLookingBornanew"
+  },
+  {
+   "i": 25,
+   "en": "\"Archcurate Jaspis wants him back. To serve her. To serve the Church.\"\r",
+   "ctx": "LKEvirensLookingBornanew2"
+  },
+  {
+   "i": 26,
+   "en": "\"Whatever his mission was, it's over. The archcurate is... worried about him.\"\r",
+   "ctx": "LKEvirensLookingBornanew2"
+  },
+  {
+   "i": 27,
+   "en": "\"Well, I don't get paid if I don't return with him. Or his body.\"",
+   "ctx": "LKEvirensLookingBornanew2"
+  },
+  {
+   "i": 28,
+   "en": "\"My apologies. It's just spacer humor.\"",
+   "ctx": "LKEvirensIntentionsChumor"
+  },
+  {
+   "i": 29,
+   "en": "\"It's a job. I'm simply being realistic.\"",
+   "ctx": "LKEvirensIntentionsCjob"
+  },
+  {
+   "i": 30,
+   "en": "\"I don't negotiate with terrorists. My fleet is in orbit.\"",
+   "ctx": "lkeVirensThreatenFleetOpt"
+  },
+  {
+   "i": 31,
+   "en": "\"I have a battalion of marines in orbit. Make this easy on yourself.\"",
+   "ctx": "lkeVirensThreatenMarinesOpt"
+  },
+  {
+   "i": 32,
+   "en": "\"And why is that.\"",
+   "ctx": "LKEvirensThreatenWithMarines"
+  },
+  {
+   "i": 33,
+   "en": "\"That wasn't so hard, was it.\"",
+   "ctx": "LKEvirensEndingOptI"
+  },
+  {
+   "i": 34,
+   "en": "\"Why help the Church? Are you not of a... wayward sect?\"",
+   "ctx": "LKEvirensEndingOptA"
+  },
+  {
+   "i": 35,
+   "en": "\"How does this serve the Path, for me to find Bornanew for the Church?\"",
+   "ctx": "LKEvirensEndingOptB"
+  },
+  {
+   "i": 36,
+   "en": "\"That's it? Nothing about 'the Path'?\"",
+   "ctx": "LKEvirensEndingOptC"
+  },
+  {
+   "i": 37,
+   "en": "\"Why would you, a Pather, help me with this?\"",
+   "ctx": "LKEvirensEndingOptD"
+  },
+  {
+   "i": 38,
+   "en": "\"You have my thanks; may a path of peace lay before you.\"",
+   "ctx": "LKEvirensEndingOptE"
+  },
+  {
+   "i": 39,
+   "en": "\"Just like that? Is this some kind of trap?\"",
+   "ctx": "LKEvirensEndingOptF"
+  },
+  {
+   "i": 40,
+   "en": "\"One more thing- I need to find Brother Cotton.\"",
+   "ctx": "LKEvirensEndingOptG"
+  },
+  {
+   "i": 41,
+   "en": "\"Thank you. And for the tea.\"",
+   "ctx": "LKEvirensEndingOptH"
+  },
+  {
+   "i": 42,
+   "en": "\"Do you have a problem with Cotton?\"\r",
+   "ctx": "LKEvirensEndingOptGResp1"
+  },
+  {
+   "i": 43,
+   "en": "\"'Will not' help me, you mean.\"\r",
+   "ctx": "LKEvirensEndingOptGResp1"
+  },
+  {
+   "i": 44,
+   "en": "\"Well, thank you anyway. And for the tea.\"",
+   "ctx": "LKEvirensEndingOptGResp1"
+  },
+  {
+   "i": 45,
+   "en": "Prepare a raid on Virens' compounds to extract Jethro Bornanew",
+   "ctx": "lkeRaidVirens"
+  },
+  {
+   "i": 46,
+   "en": "Go to the brig",
+   "ctx": "lkeVirensRaidFinishedB"
+  },
+  {
+   "i": 47,
+   "en": "\"I'm looking for Jethro Bornanew.\"",
+   "ctx": "lkeVirensRaidOptionA"
+  },
+  {
+   "i": 48,
+   "en": "\"Who told you I'm looking for Jethro Bornanew.\"",
+   "ctx": "lkeVirensRaidOptionA2"
+  },
+  {
+   "i": 49,
+   "en": "\"So where is he?\"",
+   "ctx": "lkeVirensRaidOptionD"
+  },
+  {
+   "i": 50,
+   "en": "\"Guard, get this man some tea.\"",
+   "ctx": "lkeVirensRaidOptionB"
+  },
+  {
+   "i": 51,
+   "en": "Have a sip of tea",
+   "ctx": "lkeVirensRaidOptionB2"
+  },
+  {
+   "i": 52,
+   "en": "\"It looks like I just walked all over your 'path', huh.\"",
+   "ctx": "lkeVirensRaidOptionC"
+  },
+  {
+   "i": 53,
+   "en": "\"So you're not going to call me a servant of Moloch? Spawn of Mammon?\"",
+   "ctx": "lkeVirensRaidOptionE"
+  },
+  {
+   "i": 54,
+   "en": "\"You don't sound like much of a Pather.\"",
+   "ctx": "lkeVirensRaidOptionF"
+  },
+  {
+   "i": 55,
+   "en": "\"Do you know Brother Cotton?\"",
+   "ctx": "lkeVirensRaidOptionG"
+  },
+  {
+   "i": 56,
+   "en": "\"I need to speak with Brother Cotton. To give him a message.\"",
+   "ctx": "lkeVirensRaidOptionG2"
+  },
+  {
+   "i": 57,
+   "en": "\"Send him a message. Tell him I need to meet with him.\"",
+   "ctx": "lkeVirensRaidOptionG3"
+  },
+  {
+   "i": 58,
+   "en": "Pour the tea.\r",
+   "ctx": "LKEvirensRaidGetTea"
+  },
+  {
+   "i": 59,
+   "en": "Let him pour.\r",
+   "ctx": "LKEvirensRaidGetTea"
+  },
+  {
+   "i": 60,
+   "en": "\"Guard, remove those cuffs.\"",
+   "ctx": "LKEvirensRaidGetTea"
+  },
+  {
+   "i": 61,
+   "en": "\"He met with Sedge.\"\r",
+   "ctx": "LKEvirensRaidJethro2"
+  },
+  {
+   "i": 62,
+   "en": "Let him tell it",
+   "ctx": "LKEvirensRaidJethro2"
+  },
+  {
+   "i": 63,
+   "en": "\"Agreed. Bornanew for your freedom.\" (truth)\r",
+   "ctx": "LKEvirensRaidJethro5"
+  },
+  {
+   "i": 64,
+   "en": "\"Agreed. Bornanew for your freedom.\" (lie)",
+   "ctx": "LKEvirensRaidJethro5"
+  },
+  {
+   "i": 65,
+   "en": "\"Guard, uncuff him.\"",
+   "ctx": "LKEvirensRaidJethroFreeA"
+  },
+  {
+   "i": 66,
+   "en": "\"Guard, get a datapad.\"\r",
+   "ctx": "LKEvirensRaidJethroFreeB"
+  },
+  {
+   "i": 67,
+   "en": "Pull out your personal datapad",
+   "ctx": "LKEvirensRaidJethroFreeB"
+  },
+  {
+   "i": 68,
+   "en": "\"Guard, take Virens to a shuttle.\"\r",
+   "ctx": "LKEvirensRaidJethroFree3a"
+  },
+  {
+   "i": 69,
+   "en": "\"For a Pather, you turn remarkably easily.\"\r",
+   "ctx": "LKEvirensRaidJethroFree3a"
+  },
+  {
+   "i": 70,
+   "en": "\"That wasn't so hard.\"",
+   "ctx": "LKEvirensRaidJethroFree3a"
+  },
+  {
+   "i": 71,
+   "en": "Shoot him\r",
+   "ctx": "LKEvirensRaidJethroLie2"
+  },
+  {
+   "i": 72,
+   "en": "\"You're going free... into the custody of the MUA. Guard, take Virens to a shuttle.\"\r",
+   "ctx": "LKEvirensRaidJethroLie2"
+  },
+  {
+   "i": 73,
+   "en": "Reconsider your lie",
+   "ctx": "LKEvirensRaidJethroLie2"
+  },
+  {
+   "i": 74,
+   "en": "\"That wasn't so hard.\"\r",
+   "ctx": "LKEvirensRaidJethroLie2c"
+  },
+  {
+   "i": 75,
+   "en": "No. Draw your sidearm and shoot him.",
+   "ctx": "LKEvirensRaidJethroLie2c"
+  },
+  {
+   "i": 76,
+   "en": "\"What's so funny?\"\r",
+   "ctx": "LKEvirensRaidJethroLie2b"
+  },
+  {
+   "i": 77,
+   "en": "Let him speak\r",
+   "ctx": "LKEvirensRaidJethroLie2b1"
+  },
+  {
+   "i": 78,
+   "en": "\"I shall await the day.\"",
+   "ctx": "LKEvirensRaidJethroLie2b2"
+  },
+  {
+   "i": 79,
+   "en": "Take a shuttle to Bornanew's coordinates",
+   "ctx": "LKEbornanewVisitOption"
+  },
+  {
+   "i": 80,
+   "en": "Take the shuttle to the surface\r",
+   "ctx": "LKEbornanewVisitPlan"
+  },
+  {
+   "i": 81,
+   "en": "Order a scan of Bornanew's coordinates\r",
+   "ctx": "LKEbornanewVisitPlan"
+  },
+  {
+   "i": 82,
+   "en": "Bring a squad of marines as backup\r",
+   "ctx": "LKEbornanewVisitPlan"
+  },
+  {
+   "i": 83,
+   "en": "Scrub the launch and consider your options",
+   "ctx": "LKEbornanewVisitPlan"
+  },
+  {
+   "i": 84,
+   "en": "Approach the grove",
+   "ctx": "LKEbornanewShuttleDown3"
+  },
+  {
+   "i": 85,
+   "en": "\"Jethro Bornanew, I presume.\"",
+   "ctx": "LKEjethroOptionA"
+  },
+  {
+   "i": 86,
+   "en": "\"Did you lose someone?\"",
+   "ctx": "LKEjethroOptionB"
+  },
+  {
+   "i": 87,
+   "en": "\"I'm taking you back to Gilead.\"",
+   "ctx": "LKEjethroOptionC"
+  },
+  {
+   "i": 88,
+   "en": "\"Come on then, let's go.\" (leave)",
+   "ctx": "LKEjethroOptionD"
+  },
+  {
+   "i": 89,
+   "en": "\"Can I call you 'Jeff'?\"",
+   "ctx": "LKEjethroOptionF"
+  },
+  {
+   "i": 90,
+   "en": "\"What happened with infiltrating the Path? You had a mission.\"",
+   "ctx": "LKEjethroOptionMission"
+  },
+  {
+   "i": 91,
+   "en": "\"Why does Jaspis want you back so badly?",
+   "ctx": "LKEjethroOptionJaspis"
+  },
+  {
+   "i": 92,
+   "en": "\"Is that your farm?\"",
+   "ctx": "LKEjethroOptionFarm"
+  },
+  {
+   "i": 93,
+   "en": "\"If you like, I can have found you dead here.\"",
+   "ctx": "LKEjethroOptionDead"
+  },
+  {
+   "i": 94,
+   "en": "\"Wait- what was that about the 'song of angels'?\"",
+   "ctx": "LKEjethroOptionAngels"
+  },
+  {
+   "i": 95,
+   "en": "\"Ludd was thus blessed.\"",
+   "ctx": "LKEjethroAngelsTalkA1"
+  },
+  {
+   "i": 96,
+   "en": "\"It sounds like a neurological issue.\"",
+   "ctx": "LKEjethroAngelsTalkA2"
+  },
+  {
+   "i": 97,
+   "en": "\"I see.\"",
+   "ctx": "LKEjethroAngelsTalkA3"
+  },
+  {
+   "i": 98,
+   "en": "\"There was a time I heard... distant music. Like a choir.\"",
+   "ctx": "LKEjethroAngelsTalkB"
+  },
+  {
+   "i": 99,
+   "en": "\"I have heard... distant music. Like a choir. Wasn't in telemetry.\"",
+   "ctx": "LKEjethroAngelsTalkB2"
+  },
+  {
+   "i": 100,
+   "en": "\"It's been said that Brother Livewell Cotton hears music. 'A choir of angels', those were the words.\"",
+   "ctx": "LKEjethroAngelsTalkC"
+  },
+  {
+   "i": 101,
+   "en": "\"Brother Livewell Cotton told me he has heard music. A 'choir of angels', he said.\"",
+   "ctx": "LKEjethroAngelsTalkD"
+  },
+  {
+   "i": 102,
+   "en": "\"I heard the music when we encountered a strange ship. It used exotic technologies unknown to even the Domain.\"",
+   "ctx": "LKEjethroAngelsTalkB2a"
+  },
+  {
+   "i": 103,
+   "en": "\"I heard the music when we scanned the Gates, the Domain Gates, using a new method.\"",
+   "ctx": "LKEjethroAngelsTalkB2b"
+  },
+  {
+   "i": 104,
+   "en": "\"That ship, the Ziggurat, is in orbit. In my fleet.\"",
+   "ctx": "LKEjethroAngelsTalkTellZigOrbit"
+  },
+  {
+   "i": 105,
+   "en": "\"What am I supposed to do with a 'fearful omen'?\"",
+   "ctx": "LKEjethroAngelsTalkTellZigOmen"
+  },
+  {
+   "i": 106,
+   "en": "\"Walk the Path of Light? That doesn't help.\" ",
+   "ctx": "LKEjethroAngelsTalkTellZigPoL1"
+  },
+  {
+   "i": 107,
+   "en": "\"I will try to walk the path of light. When the time comes.\"",
+   "ctx": "LKEjethroAngelsTalkTellZigPoL2"
+  },
+  {
+   "i": 108,
+   "en": "\"'Path of light'? Brother Cotton told me the same thing.\"",
+   "ctx": "LKEjethroAngelsTalkTellZigPoL3"
+  },
+  {
+   "i": 109,
+   "en": "\"Let us speak of other things.\"",
+   "ctx": "LKEjethroAngelsTalkOut2"
+  },
+  {
+   "i": 110,
+   "en": "\"Never mind. It's not important now.\"",
+   "ctx": "LKEjethroAngelsTalkB2c"
+  },
+  {
+   "i": 111,
+   "en": "\"I have traversed the Gates. A lesser crossing, but I have the technology.\"\r",
+   "ctx": "LKEjethroAngelsTalkTellGatesA"
+  },
+  {
+   "i": 112,
+   "en": "\"The Gates are a gift, Bornanew. We should use them.\"\r",
+   "ctx": "LKEjethroAngelsTalkTellGatesA"
+  },
+  {
+   "i": 113,
+   "en": "\"The Gates are dangerous. They must be studied carefully.\"\r",
+   "ctx": "LKEjethroAngelsTalkTellGatesA"
+  },
+  {
+   "i": 114,
+   "en": "\"Just as well, because I intend to avoid them.\"\r",
+   "ctx": "LKEjethroAngelsTalkTellGatesA"
+  },
+  {
+   "i": 115,
+   "en": "\"Just as well, because I intend to avoid them.\" (lie)",
+   "ctx": "LKEjethroAngelsTalkTellGatesA"
+  },
+  {
+   "i": 116,
+   "en": "\"Jeff it is. More efficient.\"\r",
+   "ctx": "LKEjethroJeff"
+  },
+  {
+   "i": 117,
+   "en": "\"Jeff it is. It's less... you know.\"\r",
+   "ctx": "LKEjethroJeff"
+  },
+  {
+   "i": 118,
+   "en": "\"I'm not being serious. Your name is Jethro.\"",
+   "ctx": "LKEjethroJeff"
+  },
+  {
+   "i": 119,
+   "en": "\"Sedge?\"\r",
+   "ctx": "LKEjethroWhat"
+  },
+  {
+   "i": 120,
+   "en": "\"Sedge? Don't worry, I killed him.\"",
+   "ctx": "LKEjethroWhat"
+  },
+  {
+   "i": 121,
+   "en": "\"Sedge.\"",
+   "ctx": "LKEjethroWhatToldShot"
+  },
+  {
+   "i": 122,
+   "en": "\"Don't worry, I killed Sedge.\"\r",
+   "ctx": "LKEjethroWhat2a"
+  },
+  {
+   "i": 123,
+   "en": "\"The deed is done. Or not done, in your case. Let it go.\"\r",
+   "ctx": "LKEjethroWhat2a"
+  },
+  {
+   "i": 124,
+   "en": "\"But you're not him. That's why Jaspis wants you back.\"\r",
+   "ctx": "LKEjethroWhat2a"
+  },
+  {
+   "i": 125,
+   "en": "\"You'll have to learn to be a lot less squeamish if you're to be a Knight.\"",
+   "ctx": "LKEjethroWhat2a"
+  },
+  {
+   "i": 126,
+   "en": "\"Aren't you a Knight Initiate? How can you be so squeamish?\"\r",
+   "ctx": "LKEjethroWhat2b"
+  },
+  {
+   "i": 127,
+   "en": "\"Don't worry about it.\"\r",
+   "ctx": "LKEjethroWhat2b"
+  },
+  {
+   "i": 128,
+   "en": "\"You could try 'thank you'.\"",
+   "ctx": "LKEjethroWhat2b"
+  },
+  {
+   "i": 129,
+   "en": "\"Look, this one was on me. Don't worry about it.\"\r",
+   "ctx": "LKEjethroWhatSedgeKilledA"
+  },
+  {
+   "i": 130,
+   "en": "\"See? This is why you're the man for whatever Jaspis is up to.\"\r",
+   "ctx": "LKEjethroWhatSedgeKilledA"
+  },
+  {
+   "i": 131,
+   "en": "\"It gets easier with practice.\"",
+   "ctx": "LKEjethroWhatSedgeKilledA"
+  },
+  {
+   "i": 132,
+   "en": "\"You're worrying about it. I told you not to.\"\r",
+   "ctx": "LKEjethroWhatSedgeKilledB"
+  },
+  {
+   "i": 133,
+   "en": "\"... You're welcome.\"\r",
+   "ctx": "LKEjethroWhatSedgeKilledC"
+  },
+  {
+   "i": 134,
+   "en": "\"But you're just one person.\"",
+   "ctx": "LKEjethroWhyOptA"
+  },
+  {
+   "i": 135,
+   "en": "\"People died for me to find you.\"",
+   "ctx": "LKEjethroWhyOptB"
+  },
+  {
+   "i": 136,
+   "en": "\"I shot a man to find you.\"",
+   "ctx": "LKEjethroWhyOptC"
+  },
+  {
+   "i": 137,
+   "en": "\"No one else seems to think much of you.\"",
+   "ctx": "LKEjethroWhyOptD"
+  },
+  {
+   "i": 138,
+   "en": "\"She's getting a bit old.\"",
+   "ctx": "LKEjethroWhyOptE"
+  },
+  {
+   "i": 139,
+   "en": "\"That's not important now. I have a mission to complete.\"\r",
+   "ctx": "LKEjethroWhyOptBResp"
+  },
+  {
+   "i": 140,
+   "en": "\"Yes. In conflicts between the powerful, that's how it works.\"\r",
+   "ctx": "LKEjethroWhyOptBResp"
+  },
+  {
+   "i": 141,
+   "en": "\"No. I may have overreacted.\"",
+   "ctx": "LKEjethroWhyOptBResp"
+  },
+  {
+   "i": 142,
+   "en": "\"An admirable cause.\"\r",
+   "ctx": "LKEjethroWhyOptEResp"
+  },
+  {
+   "i": 143,
+   "en": "\"A hopeless dream.\"\r",
+   "ctx": "LKEjethroWhyOptEResp"
+  },
+  {
+   "i": 144,
+   "en": "Say nothing.",
+   "ctx": "LKEjethroWhyOptEResp"
+  },
+  {
+   "i": 145,
+   "en": "\"Feeling okay?\"\r",
+   "ctx": "LKEjethroDeadHopeless"
+  },
+  {
+   "i": 146,
+   "en": "Give him a moment\r",
+   "ctx": "LKEjethroDeadHopeless"
+  },
+  {
+   "i": 147,
+   "en": "\"Don't die for real on me, now.\"",
+   "ctx": "LKEjethroDeadHopeless"
+  },
+  {
+   "i": 148,
+   "en": "\"Yes. Just say the word.\"\r",
+   "ctx": "LKEjethroDead2"
+  },
+  {
+   "i": 149,
+   "en": "\"Of course. I just need a body to substitute.\" (look pointedly at the graves)\r",
+   "ctx": "LKEjethroDead2"
+  },
+  {
+   "i": 150,
+   "en": "\"I'm afraid I cannot. The Archcurate gave me a mission and I intend to complete it.\"",
+   "ctx": "LKEjethroDead2"
+  },
+  {
+   "i": 151,
+   "en": "\"No. You must live for yourself now.\"\r",
+   "ctx": "LKEjethroDeadOut1"
+  },
+  {
+   "i": 152,
+   "en": "\"You should. It will help. She was... emotional.\"",
+   "ctx": "LKEjethroDeadOut1"
+  },
+  {
+   "i": 153,
+   "en": "\"It is. Burn bright, burn long.\" (leave)\r",
+   "ctx": "LKEjethroDeadOut3"
+  },
+  {
+   "i": 154,
+   "en": "\"It is. Blessed be your path.\" (leave)\r",
+   "ctx": "LKEjethroDeadOut3"
+  },
+  {
+   "i": 155,
+   "en": "\"It is. Keep your head down.\" (leave)",
+   "ctx": "LKEjethroDeadOut3"
+  },
+  {
+   "i": 156,
+   "en": "And about the body...",
+   "ctx": "LKEjethroDeadOut3c"
+  },
+  {
+   "i": 157,
+   "en": "\"I found Bornanew.\"",
+   "ctx": "LKEreturnToGileadDeadJaspisOpt"
+  },
+  {
+   "i": 158,
+   "en": "\"I have his body for you.\" (lie)\r",
+   "ctx": "LKEreturnToGileadDeadJaspis2"
+  },
+  {
+   "i": 159,
+   "en": "\"I told him I would tell you he is dead.\"",
+   "ctx": "LKEreturnToGileadDeadJaspis2"
+  },
+  {
+   "i": 160,
+   "en": "\"Mine.\"\r",
+   "ctx": "LKEreturnToGileadDeadJaspis5"
+  },
+  {
+   "i": 161,
+   "en": "\"His.\"\r",
+   "ctx": "LKEreturnToGileadDeadJaspis5"
+  },
+  {
+   "i": 162,
+   "en": "\"It doesn't matter.\"",
+   "ctx": "LKEreturnToGileadDeadJaspis5"
+  },
+  {
+   "i": 163,
+   "en": "\"I gave you the truth. Is that not enough?\"\r",
+   "ctx": "LKEreturnToGileadDeadJaspis6"
+  },
+  {
+   "i": 164,
+   "en": "\"I accept that failure because I have freed a man.\"\r",
+   "ctx": "LKEreturnToGileadDeadJaspis6"
+  },
+  {
+   "i": 165,
+   "en": "\"Do you want me to go kidnap him?\"\r",
+   "ctx": "LKEreturnToGileadDeadJaspis6"
+  },
+  {
+   "i": 166,
+   "en": "\"Would it make you happy if I shot Bornanew and brought back his body?\"",
+   "ctx": "LKEreturnToGileadDeadJaspis6"
+  },
+  {
+   "i": 167,
+   "en": "\"I found Bornanew. He's here, with my $shipOrFleet.\"",
+   "ctx": "LKEreturnToGileadJaspisOption"
+  },
+  {
+   "i": 168,
+   "en": "Take a shuttle with Bornanew to the surface",
+   "ctx": "LKEreturnToGileadShuttle"
+  },
+  {
+   "i": 169,
+   "en": "Let him watch\r",
+   "ctx": "LKEendingStart"
+  },
+  {
+   "i": 170,
+   "en": "\"It's no Mazalot, is it.\"\r",
+   "ctx": "LKEendingStart"
+  },
+  {
+   "i": 171,
+   "en": "\"How are you doing, $global.jethroName?\"",
+   "ctx": "LKEendingStart"
+  },
+  {
+   "i": 172,
+   "en": "\"Good luck, $global.jethroName.\"\r",
+   "ctx": "LKEendingJaspis2"
+  },
+  {
+   "i": 173,
+   "en": "\"Not yet.\"\r",
+   "ctx": "lkeJaspisGreeting"
+  },
+  {
+   "i": 174,
+   "en": "Start from the beginning of BFIN as if LKE etc are done.\r",
+   "ctx": "BFINdevMenu"
+  },
+  {
+   "i": 175,
+   "en": "Player killed Sedge during LKE (earlier)\r",
+   "ctx": "BFINdevMenu"
+  },
+  {
+   "i": 176,
+   "en": "Player killed Sedge during BFFI (later)\r",
+   "ctx": "BFINdevMenu"
+  },
+  {
+   "i": 177,
+   "en": "make Bornanew bad\r",
+   "ctx": "BFINdevMenu"
+  },
+  {
+   "i": 178,
+   "en": "Start BFFI from INVESTIGATE_PATHER_STATION\r",
+   "ctx": "BFINdevMenu"
+  },
+  {
+   "i": 179,
+   "en": "Start BFFI from ARREST_THE_CURATE\r",
+   "ctx": "BFINdevMenu"
+  },
+  {
+   "i": 180,
+   "en": "DEV make it so PC knows Horus Yaribay\r",
+   "ctx": "BFINdevMenu"
+  },
+  {
+   "i": 181,
+   "en": "DEV make it so PC knows Horus... and abused his trust\r",
+   "ctx": "BFINdevMenu"
+  },
+  {
+   "i": 182,
+   "en": "\"A call from Jeff? Of course, put him through.\"",
+   "ctx": "BFINstartOptA"
+  },
+  {
+   "i": 183,
+   "en": "Accept the link from Bornanew",
+   "ctx": "BFINstartOptB"
+  },
+  {
+   "i": 184,
+   "en": "\"What do you ask?\"",
+   "ctx": "BFINstart2"
+  },
+  {
+   "i": 185,
+   "en": "\"There's been a theft?\"\r",
+   "ctx": "BFINstart3"
+  },
+  {
+   "i": 186,
+   "en": "\"Did this collector not make a large enough tithe?\"",
+   "ctx": "BFINstart3"
+  },
+  {
+   "i": 187,
+   "en": "\"So it's a fake. No problem.\"\r",
+   "ctx": "BFINstart3a"
+  },
+  {
+   "i": 188,
+   "en": "\"And this is embarrassing to the Church?\"",
+   "ctx": "BFINstart3a"
+  },
+  {
+   "i": 189,
+   "en": "\"Remind me, there was mention of payment...\"",
+   "ctx": "BFINconvOptRemindReward"
+  },
+  {
+   "i": 190,
+   "en": "\"Before I agree, I need to know of potential factional conflicts.\"",
+   "ctx": "BFINconvOptFactions"
+  },
+  {
+   "i": 191,
+   "en": "\"Now that I've agreed, I need to know of any potential factional conflicts.\"",
+   "ctx": "BFINconvOptFactions2"
+  },
+  {
+   "i": 192,
+   "en": "\"It sounds like you don't consider this object to be a legitimate holy relic.\"",
+   "ctx": "BFINconvOptDontConsider"
+  },
+  {
+   "i": 193,
+   "en": "\"Just how much penance are they going to make you do?\"",
+   "ctx": "BFINconvOptD"
+  },
+  {
+   "i": 194,
+   "en": "\"Tell me of your penance.\"",
+   "ctx": "BFINconvOptE"
+  },
+  {
+   "i": 195,
+   "en": "\"I accept. I shall assist you in your, uh, quest.\"",
+   "ctx": "BFINconvOptAccept"
+  },
+  {
+   "i": 196,
+   "en": "Arrange a shuttle for Bornanew and close the comms",
+   "ctx": "BFINconvOptAcceptOut"
+  },
+  {
+   "i": 197,
+   "en": "\"I will take my time to consider your request, $global.jethroName.\"",
+   "ctx": "BFINconvOptNotNow"
+  },
+  {
+   "i": 198,
+   "en": "\"I will take more time to consider your request, $global.jethroName.\"",
+   "ctx": "BFINconvOptNotNow3"
+  },
+  {
+   "i": 199,
+   "en": "Make some excuse and close the comms.",
+   "ctx": "BFINconvOptNotNow2"
+  },
+  {
+   "i": 200,
+   "en": "\"About the matter of your fake relic...\"",
+   "ctx": "BFINcontactBornanew"
+  },
+  {
+   "i": 201,
+   "en": "\"I've ordered an officer's stateroom cleared for you.\"\r",
+   "ctx": "BFFIshuttleBornanew2"
+  },
+  {
+   "i": 202,
+   "en": "\"You'll be given a berth, like any member of the crew.\"\r",
+   "ctx": "BFFIshuttleBornanew2"
+  },
+  {
+   "i": 203,
+   "en": "\"You'll be given a berth, like any member of the crew. Penance is penance.\"",
+   "ctx": "BFFIshuttleBornanew2"
+  },
+  {
+   "i": 204,
+   "en": "\"A private workspace will allow you to best perform your duties.\"\r",
+   "ctx": "BFFIonBoardingStateroom"
+  },
+  {
+   "i": 205,
+   "en": "\"Nonsense. You're my guest and I'll treat you as such.\"\r",
+   "ctx": "BFFIonBoardingStateroom"
+  },
+  {
+   "i": 206,
+   "en": "\"If you wish, you will be given a crew-berth.\"",
+   "ctx": "BFFIonBoardingStateroom"
+  },
+  {
+   "i": 207,
+   "en": "Explain this to $global.jethroName",
+   "ctx": "BFFIonBoardYarbRespA"
+  },
+  {
+   "i": 208,
+   "en": "Explain everything to $global.jethroName\r",
+   "ctx": "BFFIonBoardYarbRespB"
+  },
+  {
+   "i": 209,
+   "en": "Explain, but leave out the abuse of credentials part",
+   "ctx": "BFFIonBoardYarbRespB"
+  },
+  {
+   "i": 210,
+   "en": "\"Yes, I've heard of the Yaribays.\"",
+   "ctx": "BFFIonBoardYarbRespD"
+  },
+  {
+   "i": 211,
+   "en": "\"My, uh, thoughts exactly.\"",
+   "ctx": "BFFIonBoardYarb2knowEm"
+  },
+  {
+   "i": 212,
+   "en": "\"You've done your research. Tell me about Menes Yaribay himself.\"",
+   "ctx": "BFFIonBoardMenesOpt1"
+  },
+  {
+   "i": 213,
+   "en": "\"How did a Kazeron aristocrat get put in charge of Olinadu?\"",
+   "ctx": "BFFIonBoardMenesOpt2"
+  },
+  {
+   "i": 214,
+   "en": "\"Tell me more about the relic at the center of this. What is it?\"",
+   "ctx": "BFFIonBoardMenesOpt3"
+  },
+  {
+   "i": 215,
+   "en": "\"Wait, why's the real glove on Tartessus if Ludd removed it on Gilead?\"",
+   "ctx": "BFFIonBoardMenesOpt4"
+  },
+  {
+   "i": 216,
+   "en": "\"What's the plan? Ask Menes nicely for the glove?\"",
+   "ctx": "BFFIonBoardMenesOpt5"
+  },
+  {
+   "i": 217,
+   "en": "\"Kumari Kandam? You were on Chalcedon. With the Path.\"",
+   "ctx": "BFFIonBoardMenesOptYou"
+  },
+  {
+   "i": 218,
+   "en": "\"And you don't think it's real? The original, I mean.\"\r",
+   "ctx": "BFFIonBoardAskRelic"
+  },
+  {
+   "i": 219,
+   "en": "\"Seems like a lot to get worked up about.\"\r",
+   "ctx": "BFFIonBoardAskRelic"
+  },
+  {
+   "i": 220,
+   "en": "\"What's Ludd going to do with two right-hand gloves?\"",
+   "ctx": "BFFIonBoardAskRelic"
+  },
+  {
+   "i": 221,
+   "en": "\"Let's try to focus on the matter, ah, at hand.\"\r",
+   "ctx": "BFFIonBoardAskRelic4"
+  },
+  {
+   "i": 222,
+   "en": "\"No need to apologize. I can't help but agree.\"\r",
+   "ctx": "BFFIonBoardAskRelic4"
+  },
+  {
+   "i": 223,
+   "en": "\"But magic isn't real. So what harm is focusing on a glove, fake relic or not?\"",
+   "ctx": "BFFIonBoardAskRelic4"
+  },
+  {
+   "i": 224,
+   "en": "\"But you think he might listen to someone like me.\"\r",
+   "ctx": "BFFIonBoardAskPlan1"
+  },
+  {
+   "i": 225,
+   "en": "\"We could offer to buy it.\"\r",
+   "ctx": "BFFIonBoardAskPlan1"
+  },
+  {
+   "i": 226,
+   "en": "\"We could steal it.\"\r",
+   "ctx": "BFFIonBoardAskPlan1"
+  },
+  {
+   "i": 227,
+   "en": "\"I could talk to Horus Yaribay. He leads his gens, presumably.\"",
+   "ctx": "BFFIonBoardAskPlan1"
+  },
+  {
+   "i": 228,
+   "en": "\"To Olinadu, then.\"\r",
+   "ctx": "BFFIonBoardEnd"
+  },
+  {
+   "i": 229,
+   "en": "\"My repute?\"",
+   "ctx": "BFFIonBoardEnd"
+  },
+  {
+   "i": 230,
+   "en": "\"Just one problem- the League wants me shot on sight.\"",
+   "ctx": "BFFIonBoardEndHostilePL1"
+  },
+  {
+   "i": 231,
+   "en": "\"It won't be a problem.\"\r",
+   "ctx": "BFFIonBoardEndHostilePL2"
+  },
+  {
+   "i": 232,
+   "en": "\"It might be a problem.\"\r",
+   "ctx": "BFFIonBoardEndHostilePL2"
+  },
+  {
+   "i": 233,
+   "en": "\"'Roguish charm', huh?\"",
+   "ctx": "BFFIonBoardEndHostilePL2"
+  },
+  {
+   "i": 234,
+   "en": "\"To Olinadu, then.\"",
+   "ctx": "BFFIonBoardEndHostilePL3c"
+  },
+  {
+   "i": 235,
+   "en": "\"I understand that you're a collector of interesting objects.\"",
+   "ctx": "BFFImeetMenesStart"
+  },
+  {
+   "i": 236,
+   "en": "\"What I've experienced in the depths of the starry sea would drive lesser minds to madness.\"\r",
+   "ctx": "BFFImeetMenes2"
+  },
+  {
+   "i": 237,
+   "en": "\"I took my ship to reach the stars.... but I've gone much, much farther than that.\"\r",
+   "ctx": "BFFImeetMenes2"
+  }
+ ]
+}

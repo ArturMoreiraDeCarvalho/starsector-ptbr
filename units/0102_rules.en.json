@@ -1,0 +1,281 @@
+{
+ "chunk": 102,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "After a short wait, your connection request is accepted.\r\n\r\n\"Why, what a delicious little $shipOrFleet you have there captain. What brings you to my humble orbit?\"",
+   "ctx": "data/campaign/rules.csv convDefaultGreetingVillain [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"Anything else I can do for you?\"\r\nOR\r\n\"Oh, it's you. Did you forget something?\"\r\nOR\r\n$HeOrShe looks up, \"Oh, hello again.\"",
+   "ctx": "data/campaign/rules.csv convDefaultGreeting2 [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"Yes? I expect there's something more you need, isn't there.\"",
+   "ctx": "data/campaign/rules.csv convDefaultGreeting2aristo [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"$PlayerSirOrMadam, yes.\" $HeOrShe gives you a glance. \"What else do you require?\"",
+   "ctx": "data/campaign/rules.csv convDefaultGreeting2official [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"Yes, what is it?\" $HeOrShe says. \"I should be charging by the minute.\"",
+   "ctx": "data/campaign/rules.csv convDefaultGreeting2business [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"Oh, you've returned?\" $HeOrShe puts on a look of false concern. \"And so soon; I dare not ask.\"",
+   "ctx": "data/campaign/rules.csv convDefaultGreeting2villain [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Acknowledged. This is $personLastName,\" $heOrShe barks. \"Go ahead.\"",
+   "ctx": "data/campaign/rules.csv convDefaultGreeting2soldier [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"Good day, again,\" $heOrShe says. \"Pray tell your purpose.\"",
+   "ctx": "data/campaign/rules.csv convDefaultGreeting2faithful [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"Your path returns,\" $heOrShe says. \"Pray tell your purpose.\"",
+   "ctx": "data/campaign/rules.csv convDefaultGreeting2pather [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"Hail again, $personLastName. What's your need?\"",
+   "ctx": "data/campaign/rules.csv convDefaultGreeting2spacer [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"You again?\" $HeOrShe gives you a quick glance. \"Yes, yes, I'm here. What is it now?\"",
+   "ctx": "data/campaign/rules.csv convDefaultGreeting2scientist [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"Hello? Uh, you know, never mind. Wrong comms ID.\"",
+   "ctx": "data/campaign/rules.csv convDefaultGreetingActive [text]"
+  },
+  {
+   "i": 13,
+   "en": "You cut the comm link.",
+   "ctx": "data/campaign/rules.csv convEnd [text]"
+  },
+  {
+   "i": 14,
+   "en": "As you get near $entityName, you get an incoming comm request.",
+   "ctx": "data/campaign/rules.csv playerOptionsVSContactingNPC [text]"
+  },
+  {
+   "i": 15,
+   "en": "You decline the comms request and continue on your way.",
+   "ctx": "data/campaign/rules.csv npcCommsDecline [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"Do you want to complete the mission successfully?\"",
+   "ctx": "data/campaign/rules.csv convTMStart [text]"
+  },
+  {
+   "i": 17,
+   "en": "You accept the comm request.\r\n\r\n\"Do you want to complete the mission successfully?\"",
+   "ctx": "data/campaign/rules.csv convTMStartNPCInitiated [text]"
+  },
+  {
+   "i": 18,
+   "en": "After a short wait, your connection request is accepted. $personName looks at you for a while before speaking.\r\n\r\n\"And why would someone on the wrong side of $marketName's authorities want to get in touch with me?\"\r\n\r\nYou consider that perhaps coming back with your transponder off and without attracting any undue attention might be a better approach.",
+   "ctx": "data/campaign/rules.csv generic_refuseToDealKnownInhospitable [text]"
+  },
+  {
+   "i": 19,
+   "en": "After a short wait, your connection request is accepted.\r\n\r\n\"What? A shipment of $mpm_commodityName? I'm afraid I wouldn't know anyone interested in that sort of thing.\"\r\n\r\nOn the balance of things, perhaps waltzing into port without you turning your transponder off in order to get in touch with an underworld figure, wasn't the best idea you've ever had.",
+   "ctx": "data/campaign/rules.csv mpm_greetingNeedTOff [text]"
+  },
+  {
+   "i": 20,
+   "en": "After a short wait, your connection request is accepted.\r\n\r\n\"Greetings! I've been waiting for this $mpm_commodityName shipment.\"",
+   "ctx": "data/campaign/rules.csv mpm_greetingEnough [text]"
+  },
+  {
+   "i": 21,
+   "en": "After a short wait, your connection request is accepted.\r\n\r\n\"Greetings! I've been waiting for this $mpm_commodityName shipment. ... and I see that you don't have it yet. Well, you still have some time.\"",
+   "ctx": "data/campaign/rules.csv mpm_greetingNotEnough [text]"
+  },
+  {
+   "i": 22,
+   "en": "After a short wait, your connection request is accepted.\r\n\r\n\"So, I hear you've got the stuff.\"",
+   "ctx": "data/campaign/rules.csv mpm_greetingEnoughIllegal [text]"
+  },
+  {
+   "i": 23,
+   "en": "After a short wait, your connection request is accepted.\r\n\r\n\"You haven't got the stuff, so why are we even talking?\"",
+   "ctx": "data/campaign/rules.csv mpm_greetingNotEnoughIllegal [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"Greetings! I've been waiting for this $mpm_commodityName shipment.\"",
+   "ctx": "data/campaign/rules.csv mpm_greetingActiveEnough [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"Greetings! I've been waiting for this $mpm_commodityName shipment. ... and I see that you don't have it yet. Well, you still have some time.\"",
+   "ctx": "data/campaign/rules.csv mpm_greetingActiveNotEnough [text]"
+  },
+  {
+   "i": 26,
+   "en": "The pirate $personRank looks up from $hisOrHer console.\r\n\r\n\"Well, now. Just hand over the $mpm_commodityName shipment we both know you've got in your cargo holds, and I'll let you be on your way.\"",
+   "ctx": "data/campaign/rules.csv mpm_pirateOpenComms [text]"
+  },
+  {
+   "i": 27,
+   "en": "The comm link is cut before you have a chance to offer much of an explanation.",
+   "ctx": "data/campaign/rules.csv mpm_notEnoughPirateOptionSel [text]"
+  },
+  {
+   "i": 28,
+   "en": "The comm link is cut before you have a chance to say much of anything else.",
+   "ctx": "data/campaign/rules.csv mpm_refuseOptionSel [text]"
+  },
+  {
+   "i": 29,
+   "en": "After a short wait, your connection request is accepted.\r\n\r\n$personName looks you over appraisingly.\r\n\r\n\"Heard you might be looking to take on some help.\"",
+   "ctx": "data/campaign/rules.csv ome_greeting [text]"
+  },
+  {
+   "i": 30,
+   "en": "Your connection request is accepted promptly.\r\n\r\n$personName looks you over appraisingly. You get the feeling that $heOrShe could probably guess your credit balance to the nearest hundred-count.\r\n\r\n\"If you're looking for an experienced freelance officer - on a strictly temporary basis - I'm looking to take on a client. My asking rate is high, but you'd be losing money trusting one of your ships to someone with less experience.\"\r\nOR\r\nYour comms request is promptly accepted.\r\n\r\n$personName looks you over for a moment then nods as if you've passed some kind of test.\r\n\r\n\"If you are looking to hire an experienced combat officer on a limited-time contract, then you've come to the right place. I think you will find my terms reasonable.  Excellence does not come cheap.\"",
+   "ctx": "data/campaign/rules.csv ome_greetingMerc [text]"
+  },
+  {
+   "i": 31,
+   "en": "Your connection request is accepted after an extended delay.\r\n\r\n$personName looks you over with barely concealed suspicion.\r\n\r\n\"You have a bit of a reputation in the, ah, freelancing community. But I do need the credits. So: if you need the services of a better ship's captain than you probably deserve, here's your chance. I will, of course, have to charge a premium for the risk entailed by your engagement.\"\r\nOR\r\nThe comms link opens after a significant delay.\r\n\r\n$personName looks you over with a flicker of disapproval.\r\n\r\n\"I've heard of you, $playerName, and despite your... mixed reputation, I am willing to deal. After all,\" $heOrShe takes a philosophical tone, \"I wouldn't be a mercenary if the offer of enough credits didn't turn my head against my better judgment.\"\r\n\r\n\"Now impress me.\"",
+   "ctx": "data/campaign/rules.csv ome_greetingMercPlayerWasJerk [text]"
+  },
+  {
+   "i": 32,
+   "en": "You input the connection request. The standby signal persists for so long you are about to ask comms to check their equipment - and the channel opens. \r\n\r\n$personName looks you over with barely concealed hostility.\r\n\r\n\"Your reputation precedes you, $playerName. Frankly, I don't need your credits. And I don't want to see your face.\"\r\n\r\n$HeOrShe pauses for a moment. \r\n\r\n\"Safe travels.\"\r\n\r\n$HeOrShe cuts the comm link.\r\nOR\r\nThe commlink blinks on standby for a near eternity. Your comms officer indicates that it is indeed working correctly and shrugs. You are about to order the request canceled when the connection opens.\r\n\r\n$personName looks to you in mock surprise. \"I'm so sorry for the delay, it's just that I've heard all the stories about $playerName, and I couldn't believe it was really you. Contacting me! What luck.\"\r\n\r\nYou begin to sense an air of sarcasm as $heOrShe continues, \"... Because now I get to tell everyone that I got the chance to tell you to suck vacuum!\"\r\n\r\nThe link is hard-cut while $personName is performing a rude-gesture. Your comms officer keeps a stony face toward their console as they clear the screen. ",
+   "ctx": "data/campaign/rules.csv ome_greetingMercPlayerWasJerkReject [text]"
+  },
+  {
+   "i": 33,
+   "en": "After a short wait, your connection request is accepted.\r\n\r\n$personName looks you over in eager appraisal.\r\n\r\n\"Word is you might be getting into the colony business. If so, I might be of some help - you will find that my credentials are impeccable.\"",
+   "ctx": "data/campaign/rules.csv ome_greetingAdmin [text]"
+  },
+  {
+   "i": 34,
+   "en": "You cut the comm link after exchanging a few hollow pleasantries.",
+   "ctx": "data/campaign/rules.csv ome_hireNoSelJerk [text]"
+  },
+  {
+   "i": 35,
+   "en": "You look around the bridge. The junior officers are all remarkably busy, with no-one even glancing in your direction.",
+   "ctx": "data/campaign/rules.csv ome_hireNoSel2 [text]"
+  },
+  {
+   "i": 36,
+   "en": "You manage to convince the patrol commander that $heOrShe would get in trouble with $hisOrHer superiors if $heOrShe pressed the issue.\r\nOR\r\nThe patrol commander appears to have a venal streak a mile wide, and some vague promises of favors owed and eventual compensation convince $himOrHer to look the other way.",
+   "ctx": "data/campaign/rules.csv scanTalkYourWayOut [text]"
+  },
+  {
+   "i": 37,
+   "en": "You issue an order to activate the transponder and wait for the cargo scan to finish.",
+   "ctx": "data/campaign/rules.csv tOffComply [text]"
+  },
+  {
+   "i": 38,
+   "en": "You wait for the cargo scan to finish.",
+   "ctx": "data/campaign/rules.csv tOffComply2 [text]"
+  },
+  {
+   "i": 39,
+   "en": "However, instead of proceeding with the scan, the $faction $fleetName shuts down comms and powers up combat systems.",
+   "ctx": "data/campaign/rules.csv tOffCargoScanHostile [text]"
+  },
+  {
+   "i": 40,
+   "en": "The $faction $personRank pauses and looks off-screen.\r\n\r\n\"But what about these cargo pods, which, let me check - why, they do contain illegal cargo. Not yours, are they? No? Excellent. We'll be confiscating the contents, then.\"",
+   "ctx": "data/campaign/rules.csv tOffCargoScanPods [text]"
+  },
+  {
+   "i": 41,
+   "en": "$PersonRank $personName looks vaguely displeased.\r\n\r\n\"If I catch you running with the transponder off again, you won't get off so easily.\"\r\n\r\nThe comm link is cut before you have a chance to respond.",
+   "ctx": "data/campaign/rules.csv tOffCargoScanClean [text]"
+  },
+  {
+   "i": 42,
+   "en": "The scan finds no overt contraband, but there is enough suspicion of your involvement in black market activities that the patrol commander is not appeased by this.\r\n\r\n\"Prepare to receive a boarding party. We'll be conducting a very thorough, hands-on inspection.\"\r\n\r\nYou consider it very likely the inspectors will do some small - but just borderline excusable - damage to the combat worthiness of your ships during the course of this \"thorough\" inspection.",
+   "ctx": "data/campaign/rules.csv tOffCargoScanBoarding1 [text]"
+  },
+  {
+   "i": 43,
+   "en": "As you'd half-expected, several of your ships report minor but painful losses of operational capability. Fortunately, the inspectors seemed to be more interested in causing \"accidental\" damage than looking for actual contraband, so no objectionable cargo was found.",
+   "ctx": "data/campaign/rules.csv tOffCargoScanBoarding2 [text]"
+  },
+  {
+   "i": 44,
+   "en": "\"Well, well. Just as I suspected, we've got a smuggler here. Per standard $faction procedure, you're required to eject the contraband into space, for pickup or incineration at the discretion of the patrol commander.\"\r\n\r\n$PersonRank $personLastName looks rather pleased, and you suspect that \"pickup\" rather than \"incineration\" might be the order of the day.",
+   "ctx": "data/campaign/rules.csv tOffCargoScanContraband [text]"
+  },
+  {
+   "i": 45,
+   "en": "$PersonRank $personName looks vaguely displeased.\r\n\r\n\"Well, everything looks clean this time.\"\r\n\r\nThe comm link is cut before you have a chance to respond.",
+   "ctx": "data/campaign/rules.csv cargoScanClean [text]"
+  },
+  {
+   "i": 46,
+   "en": "After a short wait, your connection request is accepted.\r\n\r\n$personName looks at you suspiciously.\r\n\r\n\"As I'm sure you're aware, I'm currently conducting a highly sensitive investigation, and have no time for idle chatter.\"\r\n\r\nYou get the feeling that you might get further if you came into port without broadcasting your identity by turning off your transponder.",
+   "ctx": "data/campaign/rules.csv ise_greetingTOn [text]"
+  },
+  {
+   "i": 47,
+   "en": "After a short wait, your connection request is accepted.\r\n\r\n$personName looks at you for a moment or two before speaking.\r\n\r\n\"As I'm sure you're aware, I'm currently conducting a highly sensitive investigation.\"",
+   "ctx": "data/campaign/rules.csv ise_greetingTOff [text]"
+  },
+  {
+   "i": 48,
+   "en": "After a short wait, your connection request is rejected.",
+   "ctx": "data/campaign/rules.csv ise_greetingPaid [text]"
+  },
+  {
+   "i": 49,
+   "en": "\"I'm so glad to meet someone who understands the issues.\r\n\r\nHaving proper funding - say, an extra $ise_bribeAmountDGS credits - would ensure that this investigation could reach a speedy and satisfactory conclusion.\"",
+   "ctx": "data/campaign/rules.csv ise_offerBribeSel [text]"
+  },
+  {
+   "i": 50,
+   "en": "\"Your interest in the matter is duly noted, but it doesn't sound like you're really ready to help me resolve this misunderstanding. Something more like, oh, $ise_bribeAmountDGS credits? That could facilitate a proper investigation.\"\r\n\r\n\"Now I have fascinating reports about you to read over, so come back when you're serious.\"",
+   "ctx": "data/campaign/rules.csv ise_offerBribeSelNotEnough [text]"
+  },
+  {
+   "i": 51,
+   "en": "After a short wait, your connection request is accepted.\r\n\r\n$personName looks at you suspiciously.\r\n\r\n\"As I'm sure you're aware, I'm currently conducting a highly sensitive investigation, and have no time for idle chatter. Certainly not with someone that's known to be a person of interest.\"\r\n\r\nThe slight emphasis on \"known\" gives you the feeling that you might get further if you came into port without broadcasting your identity by turning off your transponder.",
+   "ctx": "data/campaign/rules.csv igr_greetingTOn [text]"
+  },
+  {
+   "i": 52,
+   "en": "\"I'm so glad to meet someone who understands the difficulties involved.\r\n\r\nHaving proper funding - say, an extra $igr_bribeAmountDGS credits - would ensure that this investigation could reach a speedy and satisfactory conclusion.\"",
+   "ctx": "data/campaign/rules.csv igr_offerBribeSel [text]"
+  },
+  {
+   "i": 53,
+   "en": "\"Your concern is noted, citizen, but $thePersonFaction is providing me with all the resources I need.\"",
+   "ctx": "data/campaign/rules.csv igr_offerBribeRejectedSel [text]"
+  },
+  {
+   "i": 54,
+   "en": "\"Your interest in the matter is duly noted, but it doesn't sound like you're really ready to help me resolve this misunderstanding. Something more like, oh, $ise_bribeAmountDGS credits? That could facilitate a proper investigation.\" \r\n\r\n\"Now I have some fascinating reports about you to review, so come back when you're serious.\"",
+   "ctx": "data/campaign/rules.csv igr_offerBribeSelNotEnough [text]"
+  },
+  {
+   "i": 55,
+   "en": "$personName hesitates and switches to a more secure channel before speaking.\r\n\r\n\"I'm telling you this because I don't want you to think that I haven't been looking out for you. There's considerable pressure from the top for this investigation to reach certain conclusions.\r\n\r\nShould there be another $personFaction investigation into your ties with any other factions, I don't think you'll be able to influence the outcome.\"",
+   "ctx": "data/campaign/rules.csv igr_offerBribeAccepedEndWarning [text]"
+  }
+ ]
+}

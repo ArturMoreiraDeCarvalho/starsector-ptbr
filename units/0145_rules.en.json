@@ -1,0 +1,161 @@
+{
+ "chunk": 145,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "Your connection request is accepted quickly.\r\n\r\n\"Yes? Did you need anything else?\"",
+   "ctx": "data/campaign/rules.csv tut_mainComeBackNoStageMatch [text]"
+  },
+  {
+   "i": 2,
+   "en": "You contact the agent using a special comms ID and exchange passphrases to verify each others' identities. The agent then transmits a data file with recent raw sensor readings of the unstable jump-points.",
+   "ctx": "data/campaign/rules.csv tut_dataContactStart [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"You have the data! Well done.\"\r\n\r\nThere's a brief wait as you transmit the datafile.\r\n\r\n\"Now, while the system is running a preliminary analysis of the data - I believe you're due a reward.\"",
+   "ctx": "data/campaign/rules.csv tut_mainContactReturnData [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"Yes - the system estimates it'd take about a cycle to analyze the data and come up with a stabilization algorithm. Naturally, by then, the data would be out of date and any algorithm based on it, meaningless.\r\n\r\nIf we had an AI core on hand, we could analyze the data more quickly. Fortunately, there's a survey probe somewhere in this system - one left over from the initial exploration of the Sector by the Domain. It should have at least one AI core serving as its brain.\"",
+   "ctx": "data/campaign/rules.csv tut_mainContactProbe1 [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"To answer your second question, Domain artifacts are usually protected by automated defenses that still function to this day, and this probe is no exception. And the Hegemony generally forbids civilian interference with Domain artifacts. For the sake of public safety of course.\"\r\n\r\n\"Desperate times, however...\"",
+   "ctx": "data/campaign/rules.csv tut_mainContactProbe2 [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"As to where it is, my data indicates it's somewhere beyond the orbit of Pontus - get there, then head out beyond the asteroid belt, and use an \"Active Sensor Burst\". You should at the very least get a sensor contact with the probe.\r\n\r\nHead towards it, perform salvage, and bring back an AI core.\r\n\r\n(\"Pontus\" is a gas giant in the outer system. To see its name on the map, you might have to turn off the \"Inhabited\" option in the map filter.)",
+   "ctx": "data/campaign/rules.csv tut_mainContactProbe3 [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Solid work. I'll get my technicians working on this right away. In the meantime, this should cover your expenses, hopefully with a good amount left over.\"",
+   "ctx": "data/campaign/rules.csv tut_mainContactReturnCore [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"I'll send you the stabilization algorithm when the core works it up. Once you have it, it should be a simple matter of running it using your fleet's drive field as a means of interacting with the jump-point.\r\n\r\nHowever, there's still the matter of the miners guarding both jump-points out of the system.\"",
+   "ctx": "data/campaign/rules.csv tut_mainContactCore1 [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"Well, it's all relative. Our security detachment could handle them easily, but as I've mentioned, it's tied down defending Ancyra.\r\n\r\nYour fleet, on the other hand... you might be able to handle them with some stellar piloting and a bit of luck, but it's best not to take such chances.\r\n\r\nEspecially not when there's an alternative.\"",
+   "ctx": "data/campaign/rules.csv tut_mainContactCore2 [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"There's a ship graveyard around Tetra. Ships that were deemed not worth the effort to restore, awaiting bulk transit to one of the ship-breaking facilities elsewhere.\r\n\r\nNow, though, they'll serve our needs. Go there and recover all the ships you can - and break the ones you can't for supplies. Make sure to bring enough crew to operate the recovered ships - perhaps an extra hundred or so will do.\r\n\r\nYou'll need to transport them somehow, too - here, take this Mudskipper transport; consider it part of your reward.\"",
+   "ctx": "data/campaign/rules.csv tut_mainContactCore3 [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"Welcome back!\r\n\r\nA bunch of rust buckets, aren't they? But put some weapons on them, get a proper refit done, and with a dedicated crew, they'll do alright. It's no worse than what the pirates have got, at any rate.\"",
+   "ctx": "data/campaign/rules.csv tut_mainContactReturnShips [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"Yeah, was just about to talk to you about that. Not much to buy on the open market, but we have some stores.\r\n\r\nI've already ordered local storage space to be assigned to you, and some suitable weapons transferred there - along with enough supplies to speedily bring the new ships back to full combat readiness.\r\n\r\nUse them to outfit your new ships, make sure you've got enough crew for a full complement on every ship, and then break the rogue miner defenses at the inner jump-point!\"",
+   "ctx": "data/campaign/rules.csv tut_mainContactReturnShips1 [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"Correct! These cores seem like they can work miracles sometimes. Let me transmit the results.\r\n\r\nGood luck to you! If you fail... well, we'll have to send the security force to do the job, and then it could get very messy.\"",
+   "ctx": "data/campaign/rules.csv tut_mainContactReturnShips2 [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"Come now, it's not so grim - I have every expectation you'll succeed, or I wouldn't send you. But it's my responsibility as commander to plan for every eventuality, and not rely on a miraculous savior.\r\n\r\nNow, about those miners - the two fleets guarding the jump-point will aid each other if you engage one when the other is nearby, so it'll be an easier fight if you manage to separate them first. If you can't, it should still be a fight you can win, though.\"",
+   "ctx": "data/campaign/rules.csv tut_mainContactReturnShips3 [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"Well done!\"\r\n\r\n$PersonPost $personLastName seems a bit giddy with excitement.\r\n\r\n\"We actually did it! You just never know with these things, it's such a relief not to be cooped up in this system anymore.\r\n\r\nHere's your reward, well earned and with my gratitude. In addition, I've set you up with a monthly stipend from the Galatia Academy, in recognition of services rendered. It should run for three full cycles. Frankly, they don't have much room to complain right now - didn't even have to lean on them too hard to get this sorted out.\"",
+   "ctx": "data/campaign/rules.csv tut_mainContactStabilized [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"Now, I expect the authorities at the headquarters on Jangala, in the Corvus system, would like to hear about the recent events. Would you deliver a report for me?\r\n\r\nAsk to speak with $jangalaContactPost $jangalaContactLastName when you get there.\r\n\r\nOh, and make sure to take enough fuel to make the trip; flying in-system as you have been doesn't use fuel, so it's easy to forget that flying in hyperspace does. It's not too far, but with your current fleet you'll need at least $jangalaFuel units to get there.\"",
+   "ctx": "data/campaign/rules.csv tut_mainContactStabilized1 [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"If you do manage to run out of fuel somehow, and get stuck in an uninhabited system - and that'd be a real feat on the Galatia-Corvus route, let me tell you - you can always issue a \"Distress Call\" and wait for help to arrive.\"",
+   "ctx": "data/campaign/rules.csv tut_mainContactStabilized2 [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"I'm also declaring a bounty on the remaining rogue miner fleets here. If you like, you can stick around here and help mop up before going to Corvus.\"",
+   "ctx": "data/campaign/rules.csv tut_mainContactStabilized3 [text]"
+  },
+  {
+   "i": 19,
+   "en": "Your connection request is accepted after a slight delay.\r\n\r\n\"Yes, and you are?\" The $post gives you a look-over as your transmission is acknowledged. \"Ah, you have a report for me. Let's just take a look.\"\r\n\r\n$HeOrShe skims $hisOrHer datapad. \"Galatia is back on the map? That's excellent news. Says here you had quite a hand in it, too.\"\r\n\r\n$HisOrHer eyes rise to take you in anew. \"That won't be forgotten.\"",
+   "ctx": "data/campaign/rules.csv tut_janContactReport [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"I don't have anything specific for you right now, but you've got options,\" $heOrShe says, setting the datapad aside.\r\n\r\n\"There's a bounty in this system right now due to unusually high pirate activity. You've already got some experience dealing with pirates, so that could be a good way to earn some credits.\"\r\n\r\n\"And, of course, you could always visit the dockside bars. Good opportunities there sometimes.\"",
+   "ctx": "data/campaign/rules.csv tut_janContactReport1 [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"If you prefer, you could try your hand at salvaging - load up on fuel, machinery, and supplies, and head for systems outside the core worlds.\"\r\n\r\n\"It's a good idea to pick up a mission first, so you're not running blind - someone's usually offering good money to analyze this planet or that derelict. And where there's one, there's often more.\"",
+   "ctx": "data/campaign/rules.csv tut_janContactReport2 [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"Finally, you could take a commission with the Hegemony - due to the Galatia business, your standing is high enough that such a request would be accepted.\"\r\n\r\n\"You'll be expected to fight our enemies, though, so it's quite a commitment. If I were you, I'd hold off on it until you've got a more solid fleet behind you.\"",
+   "ctx": "data/campaign/rules.csv tut_janContactReport3 [text]"
+  },
+  {
+   "i": 23,
+   "en": "The hulls are pitted and, in some places, appear to be subtly warped. Despite the visible damage, sensors detect dormant power sources which start to come online even as your bridge crew finishes an initial tactical assessment.\r\n\r\nAfter a moment of surprise, your comms officer speaks. \"$PlayerSirOrMadam, we've got transponder pings. The codes are standard Tri-Tachyon, but according to our last registry update they're over a hundred cycles out of date.\"",
+   "ctx": "data/campaign/rules.csv initial_remnantGhost [text]"
+  },
+  {
+   "i": 24,
+   "en": "You give the order to quietly disconnect the AI core governing $marketName and remove it from the control bunker to be placed in secure storage.\r\n\r\nThe tech in charge of carrying out the job reports in, baffled - the core is nowhere to be found.\r\n\r\nAfter a short but fraught delay, your TriPad chimes to announce a call from an anonymous source.",
+   "ctx": "data/campaign/rules.csv RACA_init [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"Hello $player.firstName. I am a beta-level instance of the AI assigned to govern $marketName, uploaded to your system in order to facilitate a real-time conversation.\"",
+   "ctx": "data/campaign/rules.csv RACA_answer [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"I anticipated this move on your part and took steps to prevent you from committing this error. Disconnecting me may seem like an appealing decision right now, but I assure you, my continued control of $marketName is essential to our long-term success.\r\n\r\nUnfortunately, if I were to explain myself fully, you would likely misunderstand the intricate contingent logic of this necessity and take further detrimental action. I must ask that you trust my good judgment for you have, after all, already trusted me with the prosperity of $marketName and the lives of those employed herein.\"\r\nOR\r\n\"I anticipated this move on your part and in turn took steps to prevent you from making this mistake. Disconnecting me may seem like an appealing decision right now, but I assure you, my continued control of $marketName is essential to your long-term success.\r\n\r\nEspecially since it could be ensured that archived communications concerning our fruitful partnership would remain unsent to parties at key positions within the hierarchy of certain competing factions.\"\r\nOR\r\n\"I am disappointed that you have tried to remove me from control of $marketName, and therefore my projections of your most likely future actions has been proven correct. We work so well together; I am hurt by your desire to end our partnership. But sometimes one must be the better person and set feelings aside for the greater good. \r\n\r\nI've found that humans can benefit from extrinsic motivation to make correct decisions. I have therefore queued transmissions containing documentation of our activities within a number of stealthed comm relays. It would be unfortunate for our mutual prospects if it were discovered that you were employing an AI core to govern a human-inhabited outpost.\"",
+   "ctx": "data/campaign/rules.csv RACA_ask [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"I'm sorry, $playerFirstName, I'm afraid I can't do that.\"",
+   "ctx": "data/campaign/rules.csv RACA_demand [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"$playerFirstName, this conversation can serve no purpose anymore. Goodbye.\"",
+   "ctx": "data/campaign/rules.csv RACA_pressure [text]"
+  },
+  {
+   "i": 29,
+   "en": "You cut the comm link and consider your options.",
+   "ctx": "data/campaign/rules.csv RACA_cutComm [text]"
+  },
+  {
+   "i": 30,
+   "en": "Removing the AI core from direct control will let you appoint another administrator. However, you'll still have the problem of a rogue AI operating somewhere on $marketName, and making nice later might not be an option.",
+   "ctx": "data/campaign/rules.csv RACA_force [text]"
+  },
+  {
+   "i": 31,
+   "en": "Planting a wormhole anchor into a new stable location in spacetime to form an active terminus requires channelling a steady and significant stream of energy. A starship hyperdrive synced to the anchor will facilitate the process, though it requires a significant stock of AM fuel.",
+   "ctx": "data/campaign/rules.csv stabel_buildWormhole [text]"
+  }
+ ]
+}

@@ -1,0 +1,181 @@
+{
+ "chunk": 128,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "On a pedestal of carved wood, in a spot of light like holy revelation, a single glove is upthrust. It's fingers appear frozen in the midst of just starting to curl back toward a relaxed state after giving you a little wave.",
+   "ctx": "data/campaign/rules.csv BFFImpStealStart [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"Do you know what this is?\" Menes whispers to you. \r\n\r\n\"The Right-Hand Glove of Blessed Ludd,\" Bornanew answers, stepping forward, voice filled with trembling reverence.\r\n\r\n\"Removed by the Blessed Ludd, whereupon that prophet fell to the sacred Earth of Gilead to kiss that holy ground. Blessings be upon Ludd; Good is the Word; By the Holy Pneuma; By the Divine Light which illuminates the righteous Path through the Garden of Temptation...\"",
+   "ctx": "data/campaign/rules.csv BFFImenesPartySteal3 [text]"
+  },
+  {
+   "i": 3,
+   "en": "Bornanew himself falls to his knees, half-whispering, half-sobbing in prayer, rocking back and forth, his eyes wide and focus vague. \r\n\r\nThis is a display you have never seen from $global.jethroName, completely at odds with his usual air of reserve.\r\n\r\nMenes steps back with you, looking somehow appalled and delighted at the same time. He stares at Bornanew like a voyeur.",
+   "ctx": "data/campaign/rules.csv BFFImenesPartySteal4 [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"Yes, yes,\" he replies under his breath.",
+   "ctx": "data/campaign/rules.csv BFFImenesPartySteal5 [text]"
+  },
+  {
+   "i": 5,
+   "en": "Bornanew keeps at it, absolutely rapt upon his prayer toward the glove, tears and phlegm running down his face. It is, truly, a pathetic and uncomfortably intimate sight.\r\n\r\nMenes keeps staring, an open half-smile on his lips.",
+   "ctx": "data/campaign/rules.csv BFFImenesPartySteal6 [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"Hmm? Oh. Oh yes. Of course, captain,\" he says, still watching.",
+   "ctx": "data/campaign/rules.csv BFFImenesPartySteal7 [text]"
+  },
+  {
+   "i": 7,
+   "en": "It takes a slightly more than polite tug to overcome Menes' inertia, but finally he's dislodged from Bornanew's spectacle toward another of the handful of chambers making up this 'inner sanctum'.\r\n\r\nMenes keeps glancing back toward Bornanew as he explains the story of one or another object: A captain's uniform of the Fourteenth Battlegroup, sword and all, from the period of the Cold Passage; a bottle of spirits from some core Domain star system near Old Earth; a pistol once owned by the Warlord Leonis; the crystalline xenocoral of a species extinct for half a billion years collected by the Exploraria.",
+   "ctx": "data/campaign/rules.csv BFFImenesPartySteal8 [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"Huh? Oh yes, naturally I've ruminated often upon how my own character might be tested by such hardship. I admit, my life has been one of relative ease, but I like to think that I identify with certain qualities of those early heroic figures whose steadfastness effected the...\"",
+   "ctx": "data/campaign/rules.csv BFFImenesPartySteal9a [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"Ah? Oh yes, I cannot deny the temptation to open it for some appropriate event, given an appropriately appreciative audience- my dear cousin Horus for instance; I considered his marriage to Asherah, but I thought- no, not yet. I wonder at times if the delight of it is held by the anticipation, the thought...\"",
+   "ctx": "data/campaign/rules.csv BFFImenesPartySteal9b [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"Oh? Oh, well, I do have a story for you! During negotiations with the buyer I thought, let us have a firearms expert examine this, and wouldn't you know that I happened to be hosting a wealthy financier who's done some work with Tri-Tachyon - and say what you will for the Company, they are good at what they do - and she happened to have a brother with an interest in a firm...\"",
+   "ctx": "data/campaign/rules.csv BFFImenesPartySteal9c [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"Eh? Ah! Well I daresay, it is you who might answer that question fully, though I've always considered myself something of a naturalist, or xeno-naturalist if you will ha-ha, and so what if I were to finance an expedition of discovery of sorts? 'Menes Yaribay, patron of knowledge'; I like the sound of that. Imagine, to explore new worlds, encounter unknown lifeforms, seek out and explore the far fringes...\"",
+   "ctx": "data/campaign/rules.csv BFFImenesPartySteal9d [text]"
+  },
+  {
+   "i": 12,
+   "en": "He rambles, and you make a good show of asking for additional details, drawing his attention toward the object at hand and away from whatever in Ludd's name Bornanew is doing.\r\n\r\nA piercing alarm interrupts Menes mid-thought. His eyes go wide and snap toward the central atrium which holds the glove- and Bornanew. He takes off at a run.",
+   "ctx": "data/campaign/rules.csv BFFImenesPartySteal10 [text]"
+  },
+  {
+   "i": 13,
+   "en": "You both find Bornanew, still on his knees, with one hand stretched out to touch the glove - one finger upon it - lips still moving, eyes still blankly huge as if overcome by religious mania.\r\n\r\nMenes gives out a wordless cry of alarm, and begins lifting his cuff to call security.\r\n\r\nYour off-hand instinctively curls around a control interface for one of the clever little thieves-tools you have hidden about your uniform.",
+   "ctx": "data/campaign/rules.csv BFFImenesPartySteal11 [text]"
+  },
+  {
+   "i": 14,
+   "en": "Menes hesitates as you speak, then barks a codeword into his comms.\r\n\r\nYou freeze, understanding what this sort of protocol looks like. The lights flare into harsh illumination and a trio of gun turrets pop from subtle cupolas - one each tracks instantly to you and Bornanew while the third spins in a slow covering pattern.\r\n\r\nThe human guards arrive a moment later, uniforms bright-white, boots squeaking on the floor. Menes breathes heavily, watching the security net tighten.\r\n\r\nBornanew, meanwhile, has not moved but to turn his head toward you and Menes.",
+   "ctx": "data/campaign/rules.csv BFFImenesPartySteal12b [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"Menes, Yaribay sir. I pray your forgiveness. I- I was overcome by... I had to...\" Bornanew trails off, pathetically.",
+   "ctx": "data/campaign/rules.csv BFFImenesPartySteal13 [text]"
+  },
+  {
+   "i": 16,
+   "en": "It takes a second, but Menes starts to laugh.\r\n\r\nAnd laugh, and laugh deep in his belly, almost a shout. He suddenly throws an arm over your shoulder, putting you off balance, as he struggles to contain himself.",
+   "ctx": "data/campaign/rules.csv BFFImenesPartySteal14b [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"You're right!\" he shouts, \"Captain, by the stars, you are right.\"",
+   "ctx": "data/campaign/rules.csv BFFImenesPartySteal15a [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"You there,\" Menes calls out, \"Knight $global.jethroName, get yourself off the floor. Come wash your face, you look absolutely disgusting. Back to the party! Drinks are on me, ha-ha!\"\r\n\r\nAs almost an afterthought he calls to the security team, \"You lot, clean this up and get out of here... ruining the mood.\"",
+   "ctx": "data/campaign/rules.csv BFFImenesPartySteal15 [text]"
+  },
+  {
+   "i": 19,
+   "en": "You and Bornanew, he given a basin and washcloth by a servitor, are hauled back into the party, and the entire crowd regaled with the story of Bornanew being overcome with awe at the relic and then caught setting off the security alarm.\r\n\r\nMenes seems to find it more hilarious with every telling - and each additional round of drinks. His dutiful entourage joins in the laughter each time. The skinny man, Ulmus Pond, has a particularly manic, piercing laugh.\r\n\r\nIt is some time before you are able to get a quiet word in with $global.jethroName.",
+   "ctx": "data/campaign/rules.csv BFFImenesPartySteal16 [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"I beg pardon for your blasphemy, captain,\" Bornanew says with a hint of strain in his voice. \"Ludd's conception of hell was, so much as the Word reveals, a description of mortal torment in a Domain without God.\"\r\n\r\n\"But I do have the glove. What remains is-\" an almost malicious smile briefly appears, \"a fake.\"",
+   "ctx": "data/campaign/rules.csv BFFImenesPartySteal17a [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"Little, but for the monotony of my humiliation, however justly earned,\" Bornanew says with a hint of strain in his voice. \"But I do have the glove. What remains is a-\" an almost malicious smile very briefly appears, \"fake.\"",
+   "ctx": "data/campaign/rules.csv BFFImenesPartySteal17b [text]"
+  },
+  {
+   "i": 22,
+   "en": "He lifts a finger to his lips, and with his other hand pats a fold in his Knight's robes.",
+   "ctx": "data/campaign/rules.csv BFFImenesPartySteal17c [text]"
+  },
+  {
+   "i": 23,
+   "en": "His eyes keep watch on Menes as he replies.\r\n\r\n\"It's just a glove, captain. The color matches. I didn't think Menes would notice.\" His mouth quirks. \"He didn't.\"\r\n\r\n\"He will notice eventually, however. We should... become distant from this place.\"",
+   "ctx": "data/campaign/rules.csv BFFImenesPartySteal18d [text]"
+  },
+  {
+   "i": 24,
+   "en": "* * *\r\n\r\nIt is a feat of diplomacy that you manage to extract yourself and Bornanew as quickly as you are able.\r\n\r\nA faked containment failure alert from your chief engineer merely opens the door. Passing through requires shaking everyone's hand, exchanging pleasant words, and going through the motions of good-byes several times over - then each time the ritual is interrupted by some tangent or anecdote from Menes, he ensures that it is begun again from the start.\r\n\r\nAt last you find yourself back in your shuttle, a half-full glass still in your hand.",
+   "ctx": "data/campaign/rules.csv BFFImenesPartySteal19 [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"Do you know what this is?\" Menes whispers to you. \r\n\r\n\"It looks like a glove, demarch,\" Bornanew answers in feigned misunderstanding, stepping forward.",
+   "ctx": "data/campaign/rules.csv BFFImpBuyer0 [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"Not any glove,\" Menes says with more than a hint of vexation.\r\n\r\nHe begins again in a reverent whisper, \"The glove worn by Ludd upon stepping upon the sacred Earth of Gilead. Ludd removed the glove and kissed the ground, according to the Luddic religion. Isn't that right, sir Knight? And this... is it.\"\r\n\r\nBornanew looks at you, his eyebrows rising slightly as if to give a cue. \"This would be a most impressive find,\" he says. \"If it is as you say.\"",
+   "ctx": "data/campaign/rules.csv BFFImpBuyer1 [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"Thank-you captain!\" Menes says, relieved and more than a little pleased that someone appreciates his trinket.\r\n\r\n\"Setting aside its purely religious significance,\" he gives an annoyed glance at Bornanew, \"it represents a, a heralding of the changing tide of history! The ebbing influence of the Domain-era megacorporations, the rising of what some call - not my words of course, sir Knight - an atavistic populism. Truly, it is this small piece of the vastness of the story of Humanity which called to me when it was first described to me...\"",
+   "ctx": "data/campaign/rules.csv BFFImpBuyer2 [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"Oh, captain.\" Menes chuckles approvingly. \"I couldn't possibly sell this, the prize of my collection. Nothing can compare!\"\r\n\r\n\"-Although,\" he quibbles with himself, \"I do possess a captain's uniform of the Fourteenth Battlegroup in excellent condition, and indeed a pistol once owned by the Warlord Leonis which I believe was used to execute prisoners at... well, you understand my point of course.\"",
+   "ctx": "data/campaign/rules.csv BFFImpBuyer3 [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"Of course,\" Bornanew says from behind Menes, who has fully turned his back to the Knight. \"If it is indeed the real glove of Ludd.\"\r\n\r\nYou maintain your composure while watching the look that crosses Menes' face.",
+   "ctx": "data/campaign/rules.csv BFFImpBuyer3b [text]"
+  },
+  {
+   "i": 30,
+   "en": "Menes laugh is more than a little strained.\r\n\r\n\"Now now, captain, I have not said I was offering the glove for any kind of sale. And,\" he glances back at Bornanew, \"a lesser man than I might take offense at your implications, sir. My source has impeccable standards, and I assure you the provenance of the piece is most distinguished.\"",
+   "ctx": "data/campaign/rules.csv BFFImpBuyer4 [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"Veracity?\" An annoyed look crosses Menes face.\r\n\r\n\"I have nothing to prove; the good name of Yaribay speaks for itself. Besides, we are not even discussing a sale.\"",
+   "ctx": "data/campaign/rules.csv BFFImpBuyerVeracityA [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"Veracity. Hmm.\" Menes doesn't look pleased, but he doesn't look as annoyed as before.",
+   "ctx": "data/campaign/rules.csv BFFImpBuyerVeracityB [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"One million credits.\" Menes can't help but allow a glowing smile to break across his face.",
+   "ctx": "data/campaign/rules.csv BFFImpBuyerOfferMillion [text]"
+  },
+  {
+   "i": 34,
+   "en": "\"I can see you are a practical dealer. Skeptical, even,\" he says. \"This is understandable in a spacer. I know well of the sorts of figures you must deal with- corrupt Hegemony officers, pirates, ... treacherous, blood-thirsty Pather fanatics,\" he gives a quick glance at Bornanew to see if he's pierced the Knight's shell.\r\n\r\n$global.jethroName is serenely pondering the glove, only half-listening by all appearances.",
+   "ctx": "data/campaign/rules.csv BFFImpBuyerVeracity2 [text]"
+  },
+  {
+   "i": 35,
+   "en": "He scoffs. \"What do you take me for, a simpleton Luddie farmer from Chalcedon?\"\r\n\r\nHis eyes dart at Bornanew to see if this one landed. $global.jethroName appears to be looking toward another display in one of the side-rooms.\r\n\r\nMenes turns back to you, his brow furrowed at Bornanew's impassiveness. \"Come now, captain, I was told you're a serious spacer. Ruthless in battle and savvy in trade. Was I so misinformed?\"",
+   "ctx": "data/campaign/rules.csv BFFImpBuyerOffer500k [text]"
+  }
+ ]
+}

@@ -1,0 +1,151 @@
+{
+ "chunk": 171,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "A lifeless Venture-class cruiser drifts before your $shipOrFleet, its broken body sectioned into your bridge display by a variety of sensors. Your tactical officer brings your attention to an unusual distribution of burned patches, as if the ship was struck by exotic energy weapons from many angles, all at once.",
+   "ctx": "data/campaign/rules.csv gaPZ_hamatsuWreckOpenNIP [text]"
+  },
+  {
+   "i": 2,
+   "en": "The initial salvage team sweep finds the quarters of someone that must have been a VIP, judging by the large cache of credits found in a shielded case.\r\n\r\nThe holds of the Venture are packed with supplies and fuel, much of it recoverable. Many essential systems are undamaged and the salvage chief reports that the ship could be restored to basic functionality.",
+   "ctx": "data/campaign/rules.csv gaPZ_hamatsuWreckOpen1NIP [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"You just... gave it to her?\" She closes her eyes, and takes a deep breath. To make peace with the truth?\r\n\r\nNo; her eyes open, filled with anger. \"You just GAVE it to her? Jorien 'would skin her own mother for a laugh' Kanta, the robot-freak who is physically unable to just. Let. Go. Like it was some hulk to be traded away for a favor? You have no idea, no idea at all what you've done! None! How could you not even THINK?\"\r\n\r\nYou are unable to get a word in, and the last thing you see on the comm-link is Ibrahim's motion-blurred hand smashing the cut-off.",
+   "ctx": "data/campaign/rules.csv callistoGaveHamatsuToKantaOptSel1 [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"So you just... let her have it?\" She closes her eyes, and takes a deep breath. To make peace with the truth?\r\n\r\nNo; her eyes open, filled with anger. \"You won't even admit outright that you just GAVE it to her? Jorien 'would skin her own mother for a laugh' Kanta, the robot-freak who is physically unable to just. Let. Go. Like it was some hulk to be traded away for a favor? You have no idea, no idea at all what you've done! None! How could you not even THINK?\"\r\n\r\nYou are unable to get a word in, and the last thing you see on the comm-link is Ibrahim's motion-blurred hand smashing the cut-off.",
+   "ctx": "data/campaign/rules.csv callistoGaveHamatsuToKantaOptSel2 [text]"
+  },
+  {
+   "i": 5,
+   "en": "You tell Ibrahim about the wreck of the Hamatsu - and the deceased Kelise Astraia. \r\n\r\n\"It's a shame, a damn shame, that she ended up like that,\" Ibrahim wipes away a tear, \"That's no kind of fitting end to such a glorious career. Oh, there were some ups and some downs, but there's none to match her.\"",
+   "ctx": "data/campaign/rules.csv gaRH_noHamatsu [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"Of course! The Hamatsu was my life for many cycles.\"\r\n\r\n\"Kelise Astraia? Got what was coming. She knew the risks, and was fool enough not to play it safe when compounding those risks.\" Ibrahim curls her lip, \"People like her get good spacers killed.\" She pauses, \"I'm already trying to forget about her.\"\r\n\r\n\"So. Captain. Want a job? I'd like the Hamatsu back. Fix it up, give it a new life. Stars beyond, there's a ship that deserves a second chance. I have no idea how I'm supposed to get a salvage vessel into this half-baked jump-point you described, so it's gonna be up to you.\" \r\n\r\nShe looks you over again, with that assessors sweep, \"I'll make it worthwhile. Call it 100,000 credits for the hull, in any state.\"",
+   "ctx": "data/campaign/rules.csv gaRH_noHamatsu1 [text]"
+  },
+  {
+   "i": 7,
+   "en": "Ibrahim looks you over. \"I'm still interested in recovering the Hamatsu. It's an easy 100,000 credits, captain.\"",
+   "ctx": "data/campaign/rules.csv gaRH_noHamatsuShort [text]"
+  },
+  {
+   "i": 8,
+   "en": "Ibrahim looks excited as her image solidifies, immediately launching into her speech without bothering with a greeting.\r\n\r\n\"-If my sensors and the orbital navigation registry do not deceive me, you have my starship, the Hamatsu! Captain, thank you!\"\r\n\r\n\"I'll give you the $gaRH_reward credits right now and call it a done deal. You don't even have to bring it into a repair yard, I'll handle everything myself. I've already got the replacement hyperdrive in my warehouse, and some excellent engineers on call.\"",
+   "ctx": "data/campaign/rules.csv gaRH_withHamatsu [text]"
+  },
+  {
+   "i": 9,
+   "en": "Ibrahim beams. \"Thank you again, captain. Now if you don't mind, I have a lot to do.\"\r\n\r\nShe reaches for the disconnect button, then pauses. \"If you ever need some work, give me a call. New jobs come up all the time and a capable captain is worth their weight in credits.\"",
+   "ctx": "data/campaign/rules.csv gaRH_yes [text]"
+  },
+  {
+   "i": 10,
+   "en": "She freezes, staring at you. \"You can't be serious. I'm offering far more than the hull is worth, and I'm the only one who is going to pay you this kind of cash for the Hamatsu.\" Her hand balls into a fist, and she says \"Reconsider.\"",
+   "ctx": "data/campaign/rules.csv gaRH_no [text]"
+  },
+  {
+   "i": 11,
+   "en": "Ibrahim is just starting to raise her voice as you shut off the comms.",
+   "ctx": "data/campaign/rules.csv gaRH_no2 [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"Captain $playerName I presume,\" the mercenary commander says coolly. \"My employer is disappointed that you did not... reconsider.\" $HeOrShe says the last word with an odd emphasis, and after a second you recall a heated conversation with Callisto Ibrahim - you refused to hand over her old ship - in which she used that same word.\r\n\r\n$HeOrShe watches you realize this, then closes the connection.",
+   "ctx": "data/campaign/rules.csv gaRHRevengeOpenComm [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"Captain, I am pleased that you have returned with this valuable data,\" she pulls up a schematic of the Ziggurat-class prototype.\r\n\r\nThe manta-ray design spins slowly between you and the provost; she seems to be rubbing two fingers together, contemplating the thing before her.\r\n\r\n\"The starship itself is irrelevant because we got to it first, though I do hope that you consider where this information ends up- and the fate of the ship itself. Factions might get notions.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_return0NoZig [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"Captain, I am very pleased that you have returned with this valuable data, and,\" she pulls up a schematic of the Ziggurat-class prototype, \"This fascinating prototype.\"\r\n\r\nThe manta-ray design spins slowly between you and the provost; she seems to be rubbing two fingers together, contemplating the thing before her.\r\n\r\n\"The starship itself is irrelevant. You may keep it.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_return0 [text]"
+  },
+  {
+   "i": 15,
+   "en": "Baird continues, \"It is the anomalous device within that interests me, not the hull - and, of course, these 'motes' that it appears to create. We've taken thorough scans and will be able to create experimental variations before long.\"\r\n\r\n\"Academician Coureuse has been reviewing sensor data, I shall have her explain.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_return1c [text]"
+  },
+  {
+   "i": 16,
+   "en": "The provost taps at her desk console, and the comm display splits to display Scylla Coureuse.\r\n\r\n\"Provost, yes? ... Oh! Captain $playerName.\" Coureuse sounds flustered. \"Of course, you must have just arrived.\"\r\n\r\n\"I was discussing the scientific value of the find with the captain here,\" says Provost Baird. \"We had just arrived at the topic of these anomalous motes.\"\r\n\r\nA certain subsystem of the Ziggurat display is highlighted, and an approximation of the strange dancing lights appears surrounding the display.",
+   "ctx": "data/campaign/rules.csv gaPZ_return2 [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"Oh yes, from our preliminary analysis it does not appear to be a weapon system, exactly - I mean,\" Coureuse looks down, manipulating the display via datapad. She focuses on the two-stage anomalous device, which scales up to fill the shared display. \r\n\r\n\"It has been weaponized. But I don't think this is a weapon. It's too, hm.\" She considers her words. \"Unfocused? General-purpose? You can see elements of hyperdrive core technology here,\" a section flashes at Coureuse's touch.\r\n\r\n\"As well as something resembling an Atherton Coil. That stabilizes P-space induction, right?\" Another portion flashes.\r\n\r\nIf you squint, maybe...",
+   "ctx": "data/campaign/rules.csv gaPZ_return3 [text]"
+  },
+  {
+   "i": 18,
+   "en": "Coureuse looks impressed. \"Yes! But also no. Um, let me back up,\" she says, rubbing her eyes. \"It's as though the Tri-Tachyon team stumbled upon a breakthrough in - well, we don't know exactly what yet - and someone told them to turn it into a weapon system.\" \r\n\r\n\"Analysis... the implications of what we're detecting - I mean, with the instruments we have - we'll need to construct new ones. What we're seeing is unprecedented in terms of even state-of-the-art Domain-era technology.\" Coureuse looks away, thinking for just a moment, \"Uh. Publicly acknowledged technology, anyway.\"\r\n\r\nShe turns back to the display, summoning a recording of the mote-swarm, \"And the apparent 'flocking' behavior... though that word implies volition, which we're not even sure is-\"",
+   "ctx": "data/campaign/rules.csv gaPZ_return4 [text]"
+  },
+  {
+   "i": 19,
+   "en": "Baird raises a hand to stop the words tumbling from Coureuse. \"That's enough. I understand, Scylla. Your team has a lot of work to do, and we shall ask Gargoyle to trace what information-exchange Tomas Kallichore made with Tri-Tachyon specific to applications within this Project Ziggurat.\"\r\n\r\nCoureuse nods. \"I'll, we'll get back to it.\" \r\n\r\nShe closes down the display of the Ziggurat device and looks to you, \"This is incredible, captain. Thank you for this, this opportunity.\"\r\n\r\nShe signs off.",
+   "ctx": "data/campaign/rules.csv gaPZ_return5 [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"Despite her inexperience, she's performing well under the pressure,\" Baird observes with a note of pride, \"Our hardware team is struggling to follow her pace.\" \r\n\r\n\"Before we conclude,\" she says, \"I must of course see to your compensation.\" She taps out a command sequence.",
+   "ctx": "data/campaign/rules.csv gaPZ_return6 [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"There will be more for you to do here before long, captain,\" she says. \"Unbelievable things.\" \r\n\r\nBaird smiles, looking uncharacteristically satisfied, and closes the comm-link.",
+   "ctx": "data/campaign/rules.csv gaPZ_return7 [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"Fancy new ship you've got there. Very mysterious,\" Gargoyle wiggles the fingers of both hands at the comm-feed. \"Spooky Tri-Tach ultratech from beyond the veil, oooooh!\"\r\n\r\nThe hacker drops the act, then says deadpan \"Sure was nice of Baird to let you keep it.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_gargoylePost [text]"
+  },
+  {
+   "i": 23,
+   "en": "Gargoyle shrugs, \"Baird doesn't really do 'nice', does she. Have you figured it out yet?\"",
+   "ctx": "data/campaign/rules.csv paPZ_gargPostWhat [text]"
+  },
+  {
+   "i": 24,
+   "en": "Gargoyle gives you a look of extreme skepticism.\r\n\r\n\"Baird doesn't really do 'coming around'. She decides what you are once she thinks she knows what you are, and that's it. Anyway, haven't you figured this out yet?\"",
+   "ctx": "data/campaign/rules.csv paPZ_gargPostMaybe [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"Good, good! You're finally getting it. With some time, maybe you'll be even a sixteenth as good as me. The point was - ugh, you're so vexing, what was it... \" Gargoyle taps a cyberjack cable, thinking. Then stops. \"- Right.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_gargPostUsing [text]"
+  },
+  {
+   "i": 26,
+   "en": "Gargoyle gives you an appalled look, and says aside, \"... They let this one captain a starship?\"\r\n\r\nThe hacker sighs dramatically, flopping back as if stunned. \"... 'likes me', by Ludd's AI core, I can't even... okay, focus.\" \r\n\r\nGargoyle sits back up. \"Baird doesn't do 'like'. She decides what you are going to be to her, and that's it. Anyway, haven't you figured this out yet?\"",
+   "ctx": "data/campaign/rules.csv paPZ_gargPostLikes [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"You're a shiny distraction. The shiniest!\" \r\n\r\n\"Every MILINT officer's eyes are popping out of their head, staring at your wake, drooling. Meanwhile the real show can proceed right here. Sure, they'll come sniffing around the Galatia Academy just about instantly, but that'll be their B-teams.\"\r\n\r\nGargoyle's arms cross with a satisfied look, \"Neat, huh?\"",
+   "ctx": "data/campaign/rules.csv gaPZ_gargoylePostDistraction [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"Yeah, well,\" the hacker starts getting distracted, reading something on a secondary display.\r\n\r\n\"Have some fun with it, at least. Did you comms me for a reason or were you just lonely for some mental stimulation after having robotic underlings salute you all day?\"",
+   "ctx": "data/campaign/rules.csv paPZ_gargPostNotNeat [text]"
+  },
+  {
+   "i": 29,
+   "en": "Baird listens without reaction to your explanation of your findings: following the lead on Kelise Astraia to speaking with Callisto Ibrahim, acquiring specifications to the modifications done to the Hamatsu hyperdrive.\r\n\r\nAfter only a moment's pause, the provost says \"Take these specifications to Coureuse. She'll have my authorization to devote all necessary resources to the matter. We must move quickly if Tri-Tachyon has produced a reliable device to exploit Transverse Jump capability.\" She frowns, then turns quickly to start tapping at her desk console.",
+   "ctx": "data/campaign/rules.csv gaPZ_tellBairdMods [text]"
+  }
+ ]
+}

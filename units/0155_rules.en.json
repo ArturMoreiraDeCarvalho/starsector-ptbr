@@ -1,0 +1,141 @@
+{
+ "chunk": 155,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "You follow Provost Baird into her office, and the doors close with a notable absence of sound. She motions you to a seat in front of her desk as she unlocks the interface.\r\n\r\n\"Captain, allow me to properly compensate you for your good work.\" She taps a command and your personal datapad pings in response. \"I trust this will help cover certain of your expenses.\"\r\n\r\nYour personal datapad pings; incoming funds transfer.",
+   "ctx": "data/campaign/rules.csv gaKAReturnToAcademy8NoCoureuse [text]"
+  },
+  {
+   "i": 2,
+   "en": "Now Baird's interface pings; an incoming signal. \"Ah, good,\" Baird says, and slides a datapad over for your inspection.\r\n\r\nIt is a detailed progress report on Gargoyle's activities, including time-tables for decrypting the Kallichore Archive.\r\n\r\n\"Sebestyen is more capable than he appears. He is both persistent and meticulous, as you can see.\"",
+   "ctx": "data/campaign/rules.csv gaKAReturnToAcademy8b [text]"
+  },
+  {
+   "i": 3,
+   "en": "She motions at the datapad, \"We should have the Archive decrypted in about a week. The value of this research data is enormous, of course, but we still require the means to put theory to practice. And that means is Coureuse. \"\r\n\r\n\"Hers is not a unique genius, mind you,\" Baird says, with an almost uncharacteristic lack of certainty. \"We could find other candidates to lead the research team, but the study and training... no, my timescale is too short. We need Scylla Coureuse.\"",
+   "ctx": "data/campaign/rules.csv gaKAReturnToAcademy9a [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"Find her, captain,\" Baird says, \"And quickly.\" She turns away, dismissing you. \"We shall speak more about what I am building toward another time.\"\r\n\r\nYou feel the doors open soundlessly behind you, and you sense the presence of mirror-masked guards like a slight increase in ambient static electricity. Time to go.",
+   "ctx": "data/campaign/rules.csv gaKAReturnToAcademy10a [text]"
+  },
+  {
+   "i": 5,
+   "en": "As you enter Baird's office, you notice Scylla Coureuse waiting in the sitting area. She nods in greeting as she folds up a portable workstation.\r\n\r\n\"Ah, Scylla. Good. Give me just a moment.\" Baird moves behind her desk, unlocks the interface, and taps in a command.\r\n\r\n\"Captain, allow me to properly compensate you for your good work,\" Baird says. \"I trust this will help cover certain of your expenses.\"",
+   "ctx": "data/campaign/rules.csv gaKAReturnToAcademy8Coureuse [text]"
+  },
+  {
+   "i": 6,
+   "en": "She turns back to her desk interface and taps a few more keys, activating a holoprojector. A detailed progress report on Gargoyle's activities flickers into being, including time-tables for decrypting the Kallichore Archive.\r\n\r\nBaird motions at the display, \"Sebestyen is more capable than he appears. He is both persistent and meticulous.\"\r\n\r\nCoureuse speaks up, \"He's been very helpful in getting my new team set up.\"",
+   "ctx": "data/campaign/rules.csv gaKAReturnToAcademy8CourB [text]"
+  },
+  {
+   "i": 7,
+   "en": "Bairds nods in acknowledgement, and Coureuse continues, \"It looks like we should have the Archive fully decrypted in about a week. Depending on what we get sooner, I may be able to restart my, ah, previous avenues of research.\"\r\n\r\nCoureuse looks to you, \"The Galatia jump-point experiment,\" she says, giving name to her previous project. \"That's not how I wanted to do it. But Provost Tomas, he said the timetable was too-\"\r\n\r\nBaird interrupts, \"You don't need to explain yourself, academician. The captain understands that you will take all reasonable precautions when we reach the experimentation stage. In fact, they will be instrumental in carrying out these experiments.\"",
+   "ctx": "data/campaign/rules.csv gaKAReturnToAcademy9b [text]"
+  },
+  {
+   "i": 8,
+   "en": "Provost Baird pauses and turns to you, examining your reaction to what both she and Coureuse have said. \"You must be wondering what this is all for, captain.\"",
+   "ctx": "data/campaign/rules.csv gaKAReturnToAcademy10b [text]"
+  },
+  {
+   "i": 9,
+   "en": "She proceeds without regard for your response.",
+   "ctx": "data/campaign/rules.csv gaKAReturnToAcademy11b2 [text]"
+  },
+  {
+   "i": 10,
+   "en": "She proceeds without regard for your non-response.",
+   "ctx": "data/campaign/rules.csv gaKAReturnToAcademy11b3 [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"This is about opening up the galaxy again, captain. Yes, you see it now: the Gates. It was always about the Gates.\" \r\n\r\nBaird taps a datapad and the holoprojector flickers a 3D hyphae map into existence. You recognize the image- a map of the Domain-era gate network within the Persean Sector. A dense spot in one prominent lobe contains what you know as the Core Worlds.\r\n\r\n\"Or, more precisely, what the Gates can do,\" Baird says.",
+   "ctx": "data/campaign/rules.csv gaKAReturnToAcademy11b [text]"
+  },
+  {
+   "i": 12,
+   "en": "Coureuse speaks up, now, \"It's about freedom! What the Domain used to dominate humanity, well, we can escape from this small, cruel world. We still live in their shadow, I mean- the Hegemony of course. But even Tri-Tachyon and the Luddics, they're all reactions to the power the Domain had. No one has truly escaped.\" \r\n\r\nScylla Coureuse looks up at the slowly spinning gate network, \"But maybe we can. All of us.\"",
+   "ctx": "data/campaign/rules.csv gaKAReturnToAcademy12b [text]"
+  },
+  {
+   "i": 13,
+   "en": "You notice that Baird has watched Coureuse without emotion through this speech. At its conclusion, the provost speaks to you in a tone of commanding finality, \"Come back in a week or so, captain. My people need time to work. And you've earned a break. But keep your head down, the factions are restless after the job you pulled in Aztlan.\"\r\n\r\nBaird turns to her desk console, expressions moving across her face as she appears to skim messages. \"That is all, captain. And Scylla.\"",
+   "ctx": "data/campaign/rules.csv gaKAReturnToAcademy13b [text]"
+  },
+  {
+   "i": 14,
+   "en": "Baird turns from her desk display and looks through you, \"There is no 'technology', captain. Merely possibilities. And vast though those possibilities may be, they are yet mere possibilities.\"\r\n\r\nShe turns away again, dismissing you. \"We shall speak of this later.\"\r\n\r\nCoureuse gives you a sympathetic look as she packs up her portable workstation.\r\n\r\nYou feel the doors open soundlessly behind you, and the mirror-masked guards' presence like a slight increase in static electricity. Time to go.",
+   "ctx": "data/campaign/rules.csv gaKAReturnToAcademyIntentions [text]"
+  },
+  {
+   "i": 15,
+   "en": "Arroyo looks even less pleased to see you after this statement.\r\n\r\n\"I see,\" he says.\r\n\r\nHe raises a gold-ringed finger, \"Don't tell me a single word. It's Gargoyle. I know very well that I don't want to know what that absurd vandal is planning. I'll pay the bills that show up, that's the deal.\" He grimaces, \"And I'll forward my invoice to Provost Baird so that ivory-tower puppetmaster can appreciate how much she's wringing me for.\"\r\n\r\n\"Now get off my comms.\"\r\n\r\nHe terminates the connection.",
+   "ctx": "data/campaign/rules.csv GAKARayanArroyo_expensesSel [text]"
+  },
+  {
+   "i": 16,
+   "en": "You enter the ID, hand hovering over a glowing 'confirm' sigil. Your comms officer nods, ready to respond to whatever surprises Gargoyle thinks would be amusing to send through the link this time.\r\n\r\nThe display resolves from a mesmerizing fractal battleground to a familiar face grinning impishly at you. \"Oh $playerFirstName, are you having trouble finding Nova Maxios? Let me help, I'll send you a copy of Baby's First Star Chart.\" \r\n\r\nYour TriPad chimes softly.\r\n\r\n\"Go on, read it. Find 'M is for Magec'. You can figure it out! I believe in you.\" Gargoyle turns away and waves you off as your comms seem to disconnect of its own accord.",
+   "ctx": "data/campaign/rules.csv GAKAGargoyleGreeting_GET_HACK_HARDWARE [text]"
+  },
+  {
+   "i": 17,
+   "en": "You enter the ID, hand hovering over a glowing 'confirm' sigil. Your comms officer nods, ready to respond to whatever surprises Gargoyle thinks would be amusing to send through the link this time.\r\n\r\nThe display resolves without incident to a familiar face grinning impishly. \"Ah, Captain $playerFirstName! You must have forgotten my simple instructions.\"\r\n\r\nGargoyle counts off fingers, \"Step one, collect the device. You did that, hurray! Step two, install it on the Aztlan Relay in - pay attention now, maybe get your scowly comms officer to take a memo - in the Aztlan system. Step three, come back to me for your precious data archive.\" \r\n\r\nThe hacker waves the remaining two fingers at you in a rude gesture. \"And that's how it's done. Bye bye, busy now.\"\r\n\r\nYour comms disconnect seemingly of their own accord.",
+   "ctx": "data/campaign/rules.csv GAKAGargoyleGreeting_INSTALL_HACK [text]"
+  },
+  {
+   "i": 18,
+   "en": "Provost Baird listens patiently as you explain. When you are finished, she waits a moment, then says crisply \"I do not need to know your every move, captain, provided that you carry out your ultimate objective. If this 'Gargoyle' is the one I've heard so much about, then we have a good chance of acquiring the Kallichore Archive.\"\r\n\r\n\"Your course of action is obvious: help the hacker do it by whatever means are necessary, at whatever cost is required.\" She adopts the tone of a disappointed teacher, \"Surely you don't need me to tell you this.\"",
+   "ctx": "data/campaign/rules.csv GAKABairdGreeting_GET_HACK_HARDWARE_Sel [text]"
+  },
+  {
+   "i": 19,
+   "en": "Provost Baird listens patiently as you explain. When you are finished, she waits a moment, then says crisply \"I do not need to know your every move, captain, provided you carry out your ultimate objective.\"\r\n\r\n\"Your course of action is obvious: help this 'Gargoyle' by whatever means are necessary, at whatever cost is required.\" Baird turns to her desk display, scanning for her next appointment. A dismissal. \r\n\r\nYou reach to disconnect the comms when she adds, \"Do have a copy of the specifications of this hack device sent to my office. I am intrigued.\"",
+   "ctx": "data/campaign/rules.csv GAKABairdGreeting_INSTALL_HACK_Sel [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"You installed this hack device, and did not get the decrypted Kallichore Archive from Gargoyle before returning here?\" Baird pulls off her spectacles and stands, her usual cool quite broken, and shouts: \"Go now! Get the archive before someone else does! Why are you waiting, go!\"",
+   "ctx": "data/campaign/rules.csv GAKABairdGreeting_RETREIVE_ARCHIVE_Sel [text]"
+  },
+  {
+   "i": 21,
+   "en": "She looks at you for a moment then sighs.\r\n\r\n\"You know she'll probably listen to this, right? Well, she knows how I feel, and I'm not going to pretend I believe otherwise. I don't like a lot about what she does and how she does it.\"\r\n\r\n\"Say what you will about the provost, she's... effective. It's better than any alternative I've seen so far.\"",
+   "ctx": "data/campaign/rules.csv gaKACoureuseBairdOptSel [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"I don't know,\" she says, \"Making weapons for the Hegemony? Sector collapse to pre-hyperdrive levels? Torturing AI shards for Tri-Tach? I couldn't do that. I don't even know what the Luddics would make of me.\"\r\n\r\nCoureuse gives a laugh, \"Put me in a nunnery, probably. Might not be so bad.\"",
+   "ctx": "data/campaign/rules.csv gaKACoureuseBairdOptSel2 [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"Cavin.\" She just pauses for a moment, looking up and elsewhere. Then she smiles a little, and shakes her head.\r\n\r\n\"No, he wouldn't. He'd get on with Baird like a hull breach, that's for sure. Um. Why do you ask?\"",
+   "ctx": "data/campaign/rules.csv gaKACoureuseAskAbtCavin1 [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"Ah,\" she lets out an awkward laugh. \"I see. He has a way of making an impression, doesn't he. That's why he was so... um.\"\r\n\r\nShe shakes her head once, then looks at you brightly; a facade pulled over whatever her true feelings are. \"Well, captain,\" she says, \"I'm not still there in that art collective, am I?\"",
+   "ctx": "data/campaign/rules.csv gaKACoureuseAskAbtCavinA [text]"
+  },
+  {
+   "i": 25,
+   "en": "The moment draws out. \"Um,\" she looks away, then rapidly taps on her lab-interface, flooding the view with holographic data-tables. \"I really must be getting back to work. Good-bye.\"\r\n\r\nThe feed flickers and a generic Galatia Academy holding signal appears.",
+   "ctx": "data/campaign/rules.csv gaKACoureuseAskAbtCavinA2 [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"Unreliable... I mean, yes, he was that,\" she admits. \"He just has different priorities than most people. He doesn't really align with, well, institutions. It's what made him so... well, he was exciting, that's for sure.\" She looks down for a moment, \"But at some point... if you're not his priority, when it's really important, well, that's the end of that.\"\r\n\r\n\"Um,\" she blinks several times, like waking up from a dream. \"I really should get back to work.\" Coureuse rapidly taps on several interfaces, flooding the view with holographic data-tables. \"Good-bye captain.\"\r\n\r\nThe feed flickers and a generic Galatia Academy holding signal appears.",
+   "ctx": "data/campaign/rules.csv gaKACoureuseAskAbtCavinB [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"I don't mind. That was all a few cycles ago, anyway.\" \r\n\r\nA pause, then she says, \"It is actually kind of nice to hear that he's still, well, being Cavin.\"",
+   "ctx": "data/campaign/rules.csv gaKACoureuseAskAbtCavinC [text]"
+  }
+ ]
+}

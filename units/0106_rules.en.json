@@ -1,0 +1,196 @@
+{
+ "chunk": 106,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "You return to the shaded halls of the transport complex.",
+   "ctx": "data/campaign/rules.csv lppGileadShrineLeave1 [text]"
+  },
+  {
+   "i": 2,
+   "en": "You enter the shaded halls of the transport complex and move toward your shuttle's landing pad.\r\n\r\nOne of the shrine attendants intercepts you and, with a quick glance at a discreet datapad (swiftly tucked back into voluminous robes), invites you to follow them.\r\n\r\n\"I am blessed, Captain $PlayerName,\" the attendant says, \"to invite you to complete the Pilgrim's Path on this day.\"",
+   "ctx": "data/campaign/rules.csv lppGileadShrineLeaveDoEnding [text]"
+  },
+  {
+   "i": 3,
+   "en": "The Knight simply makes a small bow in acknowledgement of your description of the Archurate. You suppose they're being politic.",
+   "ctx": "data/campaign/rules.csv lppEnding1KnightInsist [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"I know not. It is my duty to extend this hospitality on behalf of the Reverend Archcurate,\" the Knight says, then with a thought adds, \"You are accused of no heresy, or secular crime. Your safety is my duty.\" ",
+   "ctx": "data/campaign/rules.csv lppEnding1KnightWhat [text]"
+  },
+  {
+   "i": 5,
+   "en": "The Knight's eyebrows shoot up in surprise. With a blink the Knight recovers composure, and says \"Y... es. Of course. This is a request, not a demand. Although. The Reverend Archcurate.\" A moment's pause. \"She suggested that I insist, if necessary.\" \r\n\r\nBeneath the solemnity, the Knight's look pleads for you to not put them in the awkward situation of denying the Archcurate. \r\n\r\nYou mentally review your model of the Church hierarchy: the Archcurate Conclave is the crown of the Church, meeting or sending representatives to perform the rulings that determine the highest matters; interpreting the canon of Ludd, sanctification, holy law, excommunication. If the Church has rulers, this Archcurate is among them.",
+   "ctx": "data/campaign/rules.csv lppEnding1KnightDecline [text]"
+  },
+  {
+   "i": 6,
+   "en": "You leave the Knight to ponder how to deliver your rejection to the Archcurate.\r\n\r\nYour shuttle ascends from the green world. There is no objection from traffic control or any kind of follow-up comms request as you return to your $shipOrFleet.",
+   "ctx": "data/campaign/rules.csv lppEndingAbort2 [text]"
+  },
+  {
+   "i": 7,
+   "en": "You are led by the Knight through gardens and the soaring arcades of Luddic Church architecture: half-remembered dreams of gothic cathedrals given flight by the material science of the Domain. It might be thought impertinent to mention this aspect of the construction, of course.\r\n\r\nThe Knight-Initiate follows behind, footsteps echoing between arched portals, over slate tiles flecked with glittering pyrite like stars in the night.",
+   "ctx": "data/campaign/rules.csv lppEnding2 [text]"
+  },
+  {
+   "i": 8,
+   "en": "The Knight looks back at you, half-cape fluttering over carefully secured weaponry, with an expression that yours is a stupid question. The tone of the reply is firmly neutral, however.\r\n\r\n\"No, captain. The Reverend Archcurate requested a meeting with you specifically.\"",
+   "ctx": "data/campaign/rules.csv lppEnding2AskPilgrim [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"I know not, captain, and could not say,\" the Knight says crisply, eyes forward.",
+   "ctx": "data/campaign/rules.csv lppEnding2AskWhy [text]"
+  },
+  {
+   "i": 10,
+   "en": "You pass through wooden doors and halls carpeted in designs of foliage and fauna, presumably of Old Earth: a fawn, a whale; hawks and dragons circling in a blue sky wreathed with leaves of ivy, oak, and palm.\r\n\r\nThe Archcurate's office appears relatively austere at first glance, but as your eyes adjust, hand-carved wooden paneling emerges, their faces packed with small plants and figures both human and animal. The room is situated to overlook a private atrium-garden. A shaft of sunlight illuminates flowers and catches the softly trickling drops of a fountain.",
+   "ctx": "data/campaign/rules.csv lppEnding3 [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"Your Excellency,\" the Knight calls out too loudly for the space, and bows to the figure within.\r\n\r\nThe Archcurate Jaspis turns toward you, closing a thick book.\r\n\r\n\"Come before me, captain,\" she says. \"I would share with you a pot of tea, and my hospitality. Knight Ailanthus, you have my thanks and may leave us be.\"\r\n\r\nA metal carafe with a long handle steams on a heating element, a pot and two simple cups beside.",
+   "ctx": "data/campaign/rules.csv lppEnding4 [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"Water then, if it please you.\" Her hand opens to indicate a pitcher in the corner, her gaze fixed somewhere past you.",
+   "ctx": "data/campaign/rules.csv lppEnding4b [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"It is a ritual of welcome, captain,\" she says as if to a small child, then adds with unexpected acid, \"You needn't drink the bedamned tea, or the water, but by Ludd's good grace, accept a gift given.\"",
+   "ctx": "data/campaign/rules.csv lppEnding4c [text]"
+  },
+  {
+   "i": 14,
+   "en": "She scoffs. \"Oh, so after right and truly blundering the greeting I laid before you, now you are the master of Church affairs? Even I can see plain how you've made such an impression on the ecumene.\"",
+   "ctx": "data/campaign/rules.csv lppEnding4d [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"As charming of wit and tongue as hearsay suggested, you must enliven celebration and negotiation in equal part. Even now I find my own self contemplating the necessity of bothering to show hospitality at all.\"",
+   "ctx": "data/campaign/rules.csv lppEnding4e [text]"
+  },
+  {
+   "i": 16,
+   "en": "She grabs the long handle of the carafe. \"Drink the tea or not. I shall now make it,\" she says, and gaze still unfocused, fills the teapot.\r\n\r\nShe is quite blind, you realize.",
+   "ctx": "data/campaign/rules.csv lppEnding4makeTea [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"Then I share with you water drawn from the well of my home, and my hospitality with it,\" she says, all part of the ritual. She gets up and retrieves the pitcher of water, placing it next to the tea pot. \r\n\r\nHer gaze is still unfocused. She is quite blind, you realize, as she  takes the handle of the carafe of boiling water, and without looking, fills the teapot.",
+   "ctx": "data/campaign/rules.csv lppEnding4water [text]"
+  },
+  {
+   "i": 18,
+   "en": "She takes the handle of the carafe of boiling water, and without looking, gaze still unfocused, fills the teapot.\r\n\r\nShe is quite blind, you realize.",
+   "ctx": "data/campaign/rules.csv lppEnding5 [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"That even I can see,\" she says without hesitation. \"We both bear burdens with the grace the Creator saw fit to provide; for one, I give thanks that I was not made a boor.\"\r\n\r\nShe returns the carafe to the heating element, centering it perfectly.",
+   "ctx": "data/campaign/rules.csv lppEnding5blindAsk [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"Have water, if you will. My tea will be but a moment.\"",
+   "ctx": "data/campaign/rules.csv lppEnding5waterCheck1a [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"Let us give the tea a moment, child.\"",
+   "ctx": "data/campaign/rules.csv lppEnding5waterCheck1b [text]"
+  },
+  {
+   "i": 22,
+   "en": "You pour yourself some water and have a sip. It is cold, and it is good. \r\n\r\nIt is almost disturbingly unlike the water from your own ship, purified from cometary ice, generally, and infused with certain standard additives.",
+   "ctx": "data/campaign/rules.csv lpp5Ending5drinkWater [text]"
+  },
+  {
+   "i": 23,
+   "en": "She smiles thinly.",
+   "ctx": "data/campaign/rules.csv lppEnding6 [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"You made pilgrimage to the holy shrines of Ludd, you have made affinity with the Church and held compassion for the Faithful.\" She picks up a teacup and idly taps the side.\r\n\r\n\"'In my right hand I hold the hammer as my left is open for you to take.'\" She says, quoting the Book of Ludd. \"The hammer has place alongside the heart.\"",
+   "ctx": "data/campaign/rules.csv lppEnding7faithful [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"You made pilgrimage to the holy shrines of Ludd. A taxing act to which the Faithful aspire. Yet you also take pain to keep distance from the Church, to hold nothing holy.\" She picks up a teacup and taps its side idly.\r\n\r\n\"I have not received you here to admonish or proselytize. If a struggle bedevils your soul, or if it is deaf to the songs of Creation, then that matter is for your own prayer and meditation.\"",
+   "ctx": "data/campaign/rules.csv lppEnding7secular [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"You made pilgrimage to the holy shrines of Ludd, and yet you treat the Church with face dark and averted, speaking cutting words with false jocularity. You are bereft of affinity for the nicety of manners without suffering the years to earn that exalted state.\" She picks up a teacup and taps its side idly. \r\n\r\n\"A question sits restless in my mind: is your inclination a life of misjudgment led by directionless passion?\"",
+   "ctx": "data/campaign/rules.csv lppEnding7jerk [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"The militancy of your zeal has its admirers among the Faithful, but there is question that you are overquick to raise the hammer of wrath when the righteous path is oft led by the heart, and humbly so.\" \r\n\r\nShe picks up a teacup and taps its side idly.\r\n\r\n\"And yet, 'In my right hand I hold the hammer as my left is open for you to take.'\" She says, quoting the Book of Ludd. \"The hammer has a place.\"",
+   "ctx": "data/campaign/rules.csv lppEnding7pather [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"The office I am entrusted to has need for the service of an actor of means and ability.\"\r\n\r\nMore quietly, her voice gone low and rough, \"A hammer.\"\r\n\r\nThe Archcurate places her teacup back on the desk, exactly where it was before, then pours tea into her cup, and then into yours.",
+   "ctx": "data/campaign/rules.csv lppEnding8 [text]"
+  },
+  {
+   "i": 29,
+   "en": "She either ignored or forgot your desire for water instead of tea. You strongly suspect it is the former.",
+   "ctx": "data/campaign/rules.csv lppEnding8water [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"It is,\" she says simply. \"Let that be the end of it for now.\"",
+   "ctx": "data/campaign/rules.csv lppJaspisCotton2 [text]"
+  },
+  {
+   "i": 31,
+   "en": "She smiles sardonically. \"You have met the Knights. You know full well that in all matters they will break rather than bend and name such waste 'sacrifice'.\"\r\n\r\n\"I should not speak so broadly however. There is one who was sent to me to serve for his noviceship. He is the one I want you to find.\"",
+   "ctx": "data/campaign/rules.csv lppJaspisKnights [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"Do you insult or laud me, I wonder,\" she says. \"Anahita Baird is a powerful woman, intelligent and proud. She also makes herself habit of knocking upon the doors of demons.\" She sits back, cradling her teacup.\r\n\r\n\"Or I should say, rather, she sends others to knock in her place.\" The Archcurate waves a hand dismissively, \"I hold not your work for her against your character. If I may return your Janus-faced compliment: what you have done for Baird may even prove more your suitability for what is in my mind.\"",
+   "ctx": "data/campaign/rules.csv lppJaspisBaird1 [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"No. My hammer is,\" she nods in your direction, \"a humbler being by far than you. But he requires aid in his quest, and for that you might well serve.\"\r\n\r\nShe sips some tea, \"Do understand that I speak not entirely of war and wrath. A hammer may strike subtly, even quietly, if aimed with skill, wisdom, and piety.\"",
+   "ctx": "data/campaign/rules.csv lppJaspisWhatDo [text]"
+  },
+  {
+   "i": 34,
+   "en": "\"The Faith has many enemies, both within and without the Church,\" she says slowly. \"Some know what evil they do; others do not. They must be set right.\"\r\n\r\n\"I would labor to do good as Ludd taught us, and by all means available, as Ludd also taught us. In doing good, I serve this office. And to greater purpose, I serve the vision Ludd handed down to us.\"",
+   "ctx": "data/campaign/rules.csv lppJaspisWhatGoal [text]"
+  },
+  {
+   "i": 35,
+   "en": "She takes a leisurely moment to sip her tea.\r\n\r\n\"You will of course be paid. The coffers of the Church are not so abundant as Tri-Tachyon's plunder, but if these credits may service a righteous path, let us not cast them aside.\"\r\n\r\n\"Such acts are for saints.\" She smiles a little, \"Not for those such as you and I.\"",
+   "ctx": "data/campaign/rules.csv lppJaspisJobOffer [text]"
+  },
+  {
+   "i": 36,
+   "en": "\"The Church,\" she says, \"might reward such zealousness.\"\r\n\r\nA wry smile appears, \"Would one place faith in the machinery of offices, of rules and letters and who-serves-whom? I pray that we do not grow our own demon in Ludd's good name.\"\r\n\r\n\"Worry not.\" She leans back, \"My advanced age allows me to say such things that could have a novice excommunicated.\"",
+   "ctx": "data/campaign/rules.csv lppJaspisBlessedService [text]"
+  },
+  {
+   "i": 37,
+   "en": "\"I understand full well that you wish untempered wrath let loose in the cause of holy justice, captain.\"\r\n\r\nHer blind eyes seem fixed on you.\r\n\r\n\"Let me provide you a channel for your river of tears and blood. Otherwise the products of all that suffering might be spilled directionless, wasted.\"",
+   "ctx": "data/campaign/rules.csv lppJaspisHammerFall [text]"
+  },
+  {
+   "i": 38,
+   "en": "The Archcurate reaches under her desk then places a book on the pitted surface. It is the holy book of Ludd given to you by Brother Cotton; you had left it as an offering at the shrine, amongst a mountain of trinkets.\r\n\r\nThat she has it here, and knows you put it there, suggests much about the capabilities of the Church and the attention being paid to you.\r\n\r\n\"I understand full well that you wish untempered wrath let loose to wreak holy justice, captain.\" Her blind eyes seem fixed on you. \"At least, you have communed with one who does.\"",
+   "ctx": "data/campaign/rules.csv lppJaspisHammerFallBook [text]"
+  }
+ ]
+}

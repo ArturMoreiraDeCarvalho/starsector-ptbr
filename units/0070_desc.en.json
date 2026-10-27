@@ -1,0 +1,96 @@
+{
+ "chunk": 70,
+ "cat": "desc",
+ "items": [
+  {
+   "i": 1,
+   "en": "This dumb-fire rocket was ubiquitous in the Persean Sector pre-Collapse due to civilian applications pioneered by asteroid miners. The go-to strike weapon of the desperately under-equipped, the Hammer is most often employed by poor independent militias, Pirates, and especially the Luddic Path. This has led to the mildly blasphemous alternative name for the weapon, \"Ludd's Hammer\".",
+   "ctx": "data/strings/descriptions.csv hammer/WEAPON [text1]"
+  },
+  {
+   "i": 2,
+   "en": "This dumb-fire rocket was ubiquitous in the pre-Collapse Persean Sector due to applications pioneered by asteroid miners. The go-to strike weapon of the desperately under-equipped, the Hammer is often employed by poor independent militias, Pirates, and particularly the Luddic Path. This has led to the mildly blasphemous alternative name for the weapon, \"Ludd's Hammer\".",
+   "ctx": "data/strings/descriptions.csv hammer_single/WEAPON [text1]"
+  },
+  {
+   "i": 3,
+   "en": "This dumb-fire rocket was ubiquitous in the pre-Collapse Persean Sector due to applications pioneered by asteroid miners. The go-to strike weapon of the desperately under-equipped, the Hammer is often employed by poor independent militias, Pirates, and particularly the Luddic Path. This has led to the mildly blasphemous alternative name for the weapon, \"Ludd's Hammer\".\r\n\r\nThe Hammer Barrage mount provides a stirring example of the expedience of quantity.",
+   "ctx": "data/strings/descriptions.csv hammerrack/WEAPON [text1]"
+  },
+  {
+   "i": 4,
+   "en": "This dumb-fire rocket was ubiquitous in the pre-Collapse Persean Sector due to applications pioneered by asteroid miners. The go-to strike weapon of the desperately under-equipped, the Hammer is often employed by poor independent militias, Pirates, and particularly the Luddic Path. This has led to the mildly blasphemous alternative name for the weapon, \"Ludd's Hammer\".\r\n\r\nThis particular three-shot mount earned its name when some clever spacer figured out how to modify the civilian rack-cycler into a hull-jarring one-two-three salvo. The modification spread through the Sector seemingly overnight.",
+   "ctx": "data/strings/descriptions.csv jackhammer/WEAPON [text1]"
+  },
+  {
+   "i": 5,
+   "en": "Medium-range anti-shield missiles intended to be used in the opening round of a combat encounter to disable the shields of an unwary opponent, opening up an opportunity for high-damage anti-armor projectiles to be deployed in the immediate aftermath of the Squall salvo.\r\n\r\nInterchangeable missile pods were designed to allow for ease of rapid reloading of the impressive 20-shot Squall salvo, but the high mass of the pods and finicky mechanicals of the missile autoloaders make the process unwieldy and the timing falls somewhat below the original Domain Armada specifications. Nonetheless, the Squall is a terrifying weapon system when deployed against shield-reliant combatants as it forces a captain with insufficient point defense system to deactivate their shields or submit to high shield flux which may lead to overload. ",
+   "ctx": "data/strings/descriptions.csv squall/WEAPON [text1]"
+  },
+  {
+   "i": 6,
+   "en": "A large, short range guided missile system designed to launch large numbers of projectiles to overwhelm and cripple enemy fighter squadrons in a single salvo. The Locust can be used against larger targets, but will have little relative effect unless shields and armor are already breached.\r\n\r\nThe Locust launches bursts of thirty small missiles per salvo. Robust, low-power individual tracking systems are coordinated by a distributed swarm intelligence system to enable excellent tracking of targets, while chemical microthrusters provide maneuverability for a short time. Tried and true targeting algorithms based on the old standby Swarmer missile systems allow Locusts to miss only rarely. The Locust has rightly earned a place in the nightmares of fighter pilots.",
+   "ctx": "data/strings/descriptions.csv locust/WEAPON [text1]"
+  },
+  {
+   "i": 7,
+   "en": "A fixed architecture nanforge system which allows rapid conversion of pre-formulated feedstock into missile ammunition during battle. The flux output of this process is tremendous so it is not advisable to engage the integrated missile nanoforge system while taking fire.",
+   "ctx": "data/strings/descriptions.csv forgevats/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 8,
+   "en": "A fixed architecture nanforge system which allows rapid conversion of pre-formulated feedstock into missile ammunition during battle.",
+   "ctx": "data/strings/descriptions.csv forgevats_station/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 9,
+   "en": "A passenger liner from a more civilized era, the Mbaye-Gogol 440 \"Starliner\" was built to travel between the systems of the Domain in speed and comfort. The Starliner features private first-class cabins, two classes of food service, a zero-G theater, and even a small landing/launch bay for exclusive use by executive-class passengers. (Being a civilian ship there are, of course, no facilities for fighter repair and rearmament).\r\n\r\nThe Starliner is equipped with a forward shield to ensure passenger safety and protect the hull from routine abrasion. Refitted for the current realities of the Sector, this ship class is routinely equipped with all-band anti-missile flare launchers as well as a number of gun turrets; this serves not only to evoke a sense of adventure, but discourage casual piracy while justifying a \"munitions surcharge\" on each ticket sale.",
+   "ctx": "data/strings/descriptions.csv starliner/SHIP [text1]"
+  },
+  {
+   "i": 10,
+   "en": "The voluminous but ungainly hull of the Mbaye-Gogol 430 \"Nebula\" does little to enhance the romance of interstellar travel but it does ensure a respectable passenger and cargo capacity for a ship of its class. Indeed, the Nebula has slowly come to dominate mid-tier passenger service since the muted reception of its first line of production.\r\n\r\nThe Nebula is equipped with a forward-facing shield to enhance the safety of passengers and extend the hull plating's maintenance schedule. And the Sector being what it is, several ballistic turrets and anti-missile all-band flare launchers have been mounted at fortuitous locations to assure paying passengers that their well-being is a top priority of the operator.",
+   "ctx": "data/strings/descriptions.csv nebula/SHIP [text1]"
+  },
+  {
+   "i": 11,
+   "en": "Most commonly used as interplanetary ferry, the Mudskipper is indeed interstellar-capable. The ship has no built-in shield generator so must rely on its durable - for a civilian craft - armor to protect passengers and cargo. There is little hope for the Mudskipper in combat, but it is generally equipped with a rear-facing turret to foil attacks by the ever-popular Salamander missile.\r\n\r\nFirst produced as the \"Pegasus\"-class but due to a trademark claim was reverted to its model code in official documentation. Operators quickly anointed the MGA-220 model with the name \"Mudskipper\" and the name stuck. This tough little ship has been a mainstay in backwater civilian transport for centuries, and although not pretty, the rugged construction simplifies maintenance and generous bay doors allow for great versatility. To this point, the Mudskipper's image in the public mind was cemented by a somewhat unlikely holovid sequence featuring a Mudskipper transporting a herd of bovids to a picturesque arid-terraform.",
+   "ctx": "data/strings/descriptions.csv mudskipper/SHIP [text1]"
+  },
+  {
+   "i": 12,
+   "en": "The Scarab is a rare, experimental hull developed by the Tri-Tachyon corporation. Only a limited run of prototypes has been produced.\r\n\r\nGross causality violating technology was banned by the Domain, and this ban is now upheld by Hegemony doctrine - with Luddic support. Nonetheless, it is the handful of fringe-examples of this technology which form the foundation for interstellar human civilization from the old Gate system (depending on one's theory of its operation) to common FTL hyperspace travel and communication. Tri-Tachyon has always pushed the bleeding edge of these technologies - and of the law - by spearheading development of phase technology. The Scarab's uniquely hull-integrated prototype \"Temporal Shell\" system is no exception. \r\n\r\nSo it is not so much that the Scarab manipulates time as it avoids the normal rate of consequence of the local frame of reference. The effect, as upsetting to Luddic theologians as it is to laymen, is to seemingly slow time for the outside world. Of course one must avoid stating it thus in earshot of the applied temporal physicists who deal in such miracles to avoid a tedious correction of terminology. ",
+   "ctx": "data/strings/descriptions.csv scarab/SHIP [text1]"
+  },
+  {
+   "i": 13,
+   "en": "A solid heavy combat frigate, the Centurion can be counted upon to fill and hold gaps in the line of battle, as per the Domain-era doctrine practiced by the successor-state of the XIV Battlegroup.\r\n\r\nThe Centurion is valued for its versatility due to an abundance of hybrid weapon slots and an integrated Damper Field that allows it to shrug off the fearsome firepower it is sure to face in combat.",
+   "ctx": "data/strings/descriptions.csv centurion/SHIP [text1]"
+  },
+  {
+   "i": 14,
+   "en": "With respectable armor and armament for a heavy frigate, the Wayfarer does not cut close the ruthless economy that would suit it for bulk trade on the dedicated lanes where safety is guaranteed by civilized locale (or, at least, an armed escort). No, the Wayfarer is a starship for the lonely runs on the frontier, between worlds where the tough law of necessity reigns, where brigands roam, and the crossed arcs of one's own gun turrets are the best comfort to be found in the cold reach of space. ",
+   "ctx": "data/strings/descriptions.csv wayfarer/SHIP [text1]"
+  },
+  {
+   "i": 15,
+   "en": "Built for improved firepower, this enhanced version of the Ion Cannon delivers an electromagnetic pulse (EMP) which can quickly disable enemy systems and engines, dealing heavy damage and arcing to modules near the points of impact.\r\n\r\nThe Ion Pulser's nonstandard gain medium projects highly-ionized baryonic matter in a coherent bolt via one of three rotating linear accelerator apparati. When the ion bolt impacts the target it creates a localized magnetic field which plays havoc with all manner of electronics, including sensors, fuel igniters, targeting modules, computers, etc. The weapon also fuses certain circuits, and can mildly strain shield generators, thus it does negligible amount of permanent damage. Rarely the only weapon type fitted on ships.",
+   "ctx": "data/strings/descriptions.csv ionpulser/WEAPON [text1]"
+  },
+  {
+   "i": 16,
+   "en": "A long-range support weapon, the Ion Beam is able to fire more and more disruptive EMP arcs through shields as the target's hard flux levels go up - at a hefty flux cost for the firing ship.\r\n\r\nAfter delivery of the Ion Pulser to the Chernabog Proving Grounds, firing tests and tactical simulations concluded that the weapon system was unsuitable for the role described in the original bid won by Bhilai Exospace. A heavy penalty was deducted from the delivery fee and engineers sent back to produce a charged energy weapon with sufficient range to be mounted on combat platforms expected to be placed behind rather than on the front line of combat. Six months later, they delivered the Ion Beam.\r\n\r\nThe long range Ion Beam employs a cutting-edge gain pattern best understood as a form of diffracted geometry projected into normal space. Difficult to manufacture, this unique construction nonetheless enables long-range projection of highly-ionized baryonic matter in a coherent beam known to play havoc with all manner of electronics, including sensors, fuel igniters, targeting modules, computers, etc., though it does negligible permanent damage. Operated against a high-flux target, the Ion Beam may occasionally build up a charge that will arc past energy shields entirely as the buildup of charged particles interferes with the shield diffusion cycle.",
+   "ctx": "data/strings/descriptions.csv ionbeam/WEAPON [text1]"
+  },
+  {
+   "i": 17,
+   "en": "This class of carrier was commissioned during the same period of carrier-centric Domain naval doctrine as the ubiquitous Talon fighter. armored to withstand the fury of battle alongside the Onslaught, the Mora was nonetheless decommissioned en masse as doctrine shifted to favor heavier guns and capital ships flanked by line-cruisers. \r\n\r\nDemilitarized hulls were sold and converted into mobile industrial platforms for use on the frontiers of the Domain. The rugged and eminently adaptable Mora was a common sight in long-range surveying, mining, construction, drone handling, and use as mobile drydocks. Some hulls were even half-buried on alien worlds and used as armored power-stations and workshops to form the core of new settlements.\r\n\r\nAfter the Collapse, Mora hulls were re-militarized almost suspiciously rapidly by factions that did not possess dedicated fleet carriers. Today they are an anvil upon which many an unwary Pirate warlord is broken.",
+   "ctx": "data/strings/descriptions.csv mora/SHIP [text1]"
+  },
+  {
+   "i": 18,
+   "en": "A river of rock, dust, and gas spirals ever inward toward annihilation.",
+   "ctx": "data/strings/descriptions.csv accretion/TERRAIN [text1]"
+  }
+ ]
+}

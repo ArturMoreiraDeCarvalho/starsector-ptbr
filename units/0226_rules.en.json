@@ -1,0 +1,206 @@
+{
+ "chunk": 226,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "Your shuttle descends into the young atmosphere of Eochu Bres, through towering battlements of clouds. A spray of rain darkens your viewport for a moment before it is wiped clean by the heat and speed of your descent.\r\n\r\nThe flight path immediately deviates from the general approach corridor which had started ticking off minor use-fees from the Tri-Tachyon owned flight control: general volume access fee, priority flight lane fee, service fee, customer satisfaction insurance charge, advertisement bypass fee.\r\n\r\nThe notifications self-delete, their fees automatically refunded, as the towering central arcologies of Xanadu emerge from the mist.",
+   "ctx": "data/campaign/rules.csv ZGRfirstVisitStart [text]"
+  },
+  {
+   "i": 2,
+   "en": "Jagged mountain peaks ring the horizon. Gleaming monoliths glitter, spears of capital upthrust through the glowering flesh of the world. Skyarco II grows before you, prismatic.\r\n\r\nYour shuttle alights on a landing pad held at some distance from the facade by an airy support rib. It looks impossibly thin, but on touch down feels as solid as a coherent M-type asteroid.",
+   "ctx": "data/campaign/rules.csv ZGRfirstVisitIntro1 [text]"
+  },
+  {
+   "i": 3,
+   "en": "You step onto a perfectly dry pad. A shimmer as wind drives a burst of rain into the atmo-field betrays the artifice of this pocket of calm.\r\n\r\nYou are invited inside by an obsequious corporate usher.",
+   "ctx": "data/campaign/rules.csv ZGRfirstVisitIntro2 [text]"
+  },
+  {
+   "i": 4,
+   "en": "The architecture of Skyarco II's interior and its integrated art-installations are titanic in scale and inhuman in affect. Your attention is subtly drawn toward geometric motifs suggestive of a mathematical intricacy which would reward close study with nothing less than delight, and...\r\n\r\n\"It was designed by an Artificial Intelligence,\" the cheerful secretary behind the reception desk informs you, breaking the trance. \"Before the ban imposed by the Hegemony, of course.\" \r\n\r\n\"The piece is explicitly referent-free to reflect the pure universe of interstellar markets which invite every new partner to participate in Tri-Tachyon's enterprise!\"",
+   "ctx": "data/campaign/rules.csv ZGRfirstVisitIntro3 [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"It is, isn't it?\" the secretary agrees cheerfully.",
+   "ctx": "data/campaign/rules.csv ZGRfirstVisitIntro3b [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"Of course, $playerSirOrMadam,\" the secretary says with a smile. \"The Director asked that you head right in.\"\r\n\r\nThe lighting of the richly furnished entryway - is that a mercury fountain? - warms slightly, inviting you to proceed.",
+   "ctx": "data/campaign/rules.csv ZGRfirstVisitIntro4 [text]"
+  },
+  {
+   "i": 7,
+   "en": "A plane of glass - diamond-matrix, naturally - stretches in both directions to the edge of your peripheral vision, its extent blocked only by a set of cyclopean interior columns. Misty mountains and towering arcologies wreathed in rain clouds hang in the vista beyond.\r\n\r\nBefore you, a figure sits - now stands - behind a monolithic desk stark as a planetoid scraped bare by pulsar beam.\r\n\r\nThe Director of \"Special Acquisitions\".\r\n\r\nA hand raises, open, to invite you to sit. A seat appears.",
+   "ctx": "data/campaign/rules.csv ZGRfirstVisitIntro5 [text]"
+  },
+  {
+   "i": 8,
+   "en": "Glamor-Rotanev remains standing to match.",
+   "ctx": "data/campaign/rules.csv ZGRfirstVisitIntro6stand [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"Captain $playerName. I offer vast wealth in exchange for your unique facility in navigating exceptional scenarios.\"\r\n\r\nShe blinks once. Her gaze is fixed on you, but you can't help but feel it is slightly vague, apparently attentive but not present in spirit. The look of a cyber-aug.\r\n\r\nHer tech must be absolutely top-of-the-line, of course.",
+   "ctx": "data/campaign/rules.csv ZGRfirstVisitIntro6 [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"Fitting to your talents, I think,\" she says. \"Allow me to iterate your accomplishments briefly so that you know where we stand.\"",
+   "ctx": "data/campaign/rules.csv ZGRfirstVisit7a [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"Risk of annihilation,\" she answers placidly. \"For which you'll be appropriately compensated.\"\r\n\r\n\"Allow me to iterate your accomplishments briefly so that you know I do not make my offer without consideration.\"",
+   "ctx": "data/campaign/rules.csv ZGRfirstVisit7b [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"The demand for my time is great, thus its premium.\"\r\n\r\nHer lip quirks; not quite worth a smile.\r\n\r\n\"You must appreciate what I've already invested in you. Further to that point: allow me to iterate your accomplishments briefly so that you know where we stand.\"",
+   "ctx": "data/campaign/rules.csv ZGRfirstVisit7c [text]"
+  },
+  {
+   "i": 13,
+   "en": "The intimation of a smile flits over her expression, though her eyes remain chillingly distant.",
+   "ctx": "data/campaign/rules.csv ZGRfirstVisit9a [text]"
+  },
+  {
+   "i": 14,
+   "en": "She gives you a curt look, but no comment.",
+   "ctx": "data/campaign/rules.csv ZGRfirstVisit9b [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"You're proving useful to Provost Baird - an admirable figure generally - yet one who stubbornly ties herself to the Hegemony bureaucracy.\"\r\n\r\n\"If it weren't for Kallichore's blundering...\" Her eyes grow distant - more distant - for a moment, then return to their usual unblinking detachment.\r\n\r\n\"Here at Tri-Tachyon, we put the highest value in unrestrained R&D. Especially its dividends.\" She smiles coyly. \"So, I think, do you.\"",
+   "ctx": "data/campaign/rules.csv ZGRacknowledgeGA1 [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"You've proven useful to Provost Baird. And your accomplishment with the Gates...\"\r\n\r\nShe puts her hands together, not quite a single clap for all you've done. Her politely mechanical smile contains some bitterness, you sense.\r\n\r\n\"I admire Baird, truly I do. Her ability to overcome Hegemony stone-walling, and herding those academics with their notions... sadly, though, it appears as though her grip was too tight. Pity to lose top talent.\"\r\n\r\nThe bitterness, you see, has left Glamor-Rotanev's smile to be replaced with something more carnivorous.\r\n\r\n\"Our R&D is cutting-edge, eminently practical, and there's very little risk of runaways. Our results might match your ambitions, I think.\" ",
+   "ctx": "data/campaign/rules.csv ZGRacknowledgeGA2 [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"Your interest in matters of the Luddics has been noted. Even working with, perhaps for, an archcurate. I can only assume it's a charity case for one so evidently practical as yourself. Am I wrong? You don't actually believe in that stuff, surely.\"\r\n\r\nShe looks cooly astonished at the thought, inviting your denial.",
+   "ctx": "data/campaign/rules.csv ZGRacknowledgeChurch1 [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"We see you've taken up an interest with the Luddi- pardon me, with the Church of Galactic Redemption. I can only assume it's a charity case for one so otherwise practical as yourself. Am I wrong? You don't actually believe in that stuff, surely.\"\r\n\r\nShe looks cooly astonished at the thought, inviting your denial.",
+   "ctx": "data/campaign/rules.csv ZGRacknowledgeChurch2 [text]"
+  },
+  {
+   "i": 19,
+   "en": "If her look could become any colder without freezing the local atmo, it would.\r\n\r\n\"An interest in your business is my business if we are to do business. I shall repeat the point for emphasis: it is important that I know where we stand.\" Her hands, neatly folded, gently draw apart and close. Not clenched into fists, but...\r\n\r\n\"Do you believe?\"",
+   "ctx": "data/campaign/rules.csv ZGRackChurchOptNotBusiness [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"I see,\" she says as if she quite distinctly doesn't.\r\n\r\nHer head tilts very slightly, perplexed.",
+   "ctx": "data/campaign/rules.csv ZGRackChurchOptYes [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"How interesting,\" she says.\r\n\r\nHer head tilts very slightly, perplexed.",
+   "ctx": "data/campaign/rules.csv ZGRackChurchOptYesNotChurch [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"How admirable,\" she says with no attempt to inject sincerity into her words. It is a dismissal; she pauses for but a moment then proceeds.",
+   "ctx": "data/campaign/rules.csv ZGRackChurchOptHumanist [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"How unexpected,\" she says, curious.\r\n\r\n\"I suppose one must concede that the Church is not without some wealth and not without need for services unclouded by... fanatic enthusiasm. I suppose you've found something of a niche market for yourself. However limited.\"",
+   "ctx": "data/campaign/rules.csv ZGRackChurchOptMercenary [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"Of course.\" A cool smile. \"I wanted to hear you say it.\"\r\n\r\nHer eyes seem suddenly more engaged - focused and examining you intently, distantly. Like you're a lab experiment pinned to a dissection table.",
+   "ctx": "data/campaign/rules.csv ZGRackChurchOptAbsurdLie [text]"
+  },
+  {
+   "i": 25,
+   "en": "A cool smile. \"Of course. I just wanted to hear you say it.\" She pauses for a moment, then proceeds.",
+   "ctx": "data/campaign/rules.csv ZGRackChurchOptAbsurd [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"We've noticed that Mr. Macario - apologies,\" she laughs like a wind chime, \"'The Chief High Inspector' has taken you for one of his pawns.\"\r\n\r\n\"You and I both know you're more and better than that. I believe your innovative perspective could be worth more than his entire tin-pot slum-bully's secret budget of bribes and favors.\"\r\n\r\nHer eyebrows lift precisely. \"Do you?\"",
+   "ctx": "data/campaign/rules.csv ZGRacknowledgeDiktat [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"We've noticed that Mr. Macario - apologies,\" she laughs like a wind chime, \"'The Chief High Inspector' has taken you for one of his pawns.\"\r\n\r\n\"You and I both know you're more than that. Better than that. And I believe your innovative perspective could be worth more than his entire tin-pot slum-bully's secret budget of bribes and favors. That silly little battleship he gave you? A child's toy compared to what I offer.\"\r\n\r\nShe brushes one hand off with the other. ",
+   "ctx": "data/campaign/rules.csv ZGRacknowledgeDiktatB [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"I must applaud your patriotism - the Hegemony, the restoration of the Domain!\r\n\r\nShe makes as if to clap, daintily, but stops her hands before they meet. Then turns her expression toward something far more cynical.\r\n\r\n\"You may earn the favor of that stubborn 'Old Man Daud'. But is that enough? Surely you tire of that paltry government stipend, the endless regulation? It must stifle your ambition. You must yearn for a truly dynamic enterprise. One in which someone like yourself can change the Sector...\"",
+   "ctx": "data/campaign/rules.csv ZGRacknowledgeHegemony [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"You've a League commission. They see value in you, but not so much that they've invited you to share power as a member,\" she says. \r\n\r\n\"Why play the mercenary for below-market rates? You're better than that, I think.\"",
+   "ctx": "data/campaign/rules.csv ZGRacknowledgeLeague [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"You've a League commission. They see value in you,\" she looks down, and aside, placing a hand on the empty expanse of her enormous desk.\r\n\r\n\"But not enough to invite you to become a full member of the League, despite your colonial enterprise.\" She makes a small sound, halfways between pity and disappointment.\r\n\r\n\"Consider what you will gain from being a partner rather than a subject.\"",
+   "ctx": "data/campaign/rules.csv ZGRacknowledgeLeagueB [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"You're a member of the League. A junior member, however. Perhaps not in name, but... tell me, do the gens respect you as a peer?\"\r\n\r\n\"Or are you just another vassal to their little empire? Consider your future, captain, and how you might truly achieve greatness.\"\r\n\r\nHer eyes narrow. \"As a partner rather than a subject.\"",
+   "ctx": "data/campaign/rules.csv ZGRacknowledgeLeagueC [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"Tell me the truth, are you content to be a mere lackey of our mutual friend Reynard Hannan? He drains you like a leech from atop his so-called League. Let me give you a taste of real business, of real credits.\"\r\n\r\nHer eyes narrow. \"As a partner rather than a subject.\"",
+   "ctx": "data/campaign/rules.csv ZGRacknowledgeLeagueD [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"Tell me, how is Rayan Arroyo? I've always admired his entrepreneurial spirit, but.\" She forms a little smile that might have been apologetic if it weren't so condescending.\r\n\r\n\"He doesn't have the killer instinct required for senior leadership. Isn't that funny? But we do need people like him.\"\r\n\r\n\"And we need people like you. Go-getters, achievers; builders and destroyers. And what we need, we at Tri-Tachyon pay for. Only the best.\"",
+   "ctx": "data/campaign/rules.csv ZGRacknowledgeArroyo [text]"
+  },
+  {
+   "i": 34,
+   "en": "\"You cut a deal with the Company after some... assertive negotiations. To our mutual benefit. I applaud your audacity.\"\r\n\r\nHer teeth glisten.\r\n\r\n\"Such fierce initiative is exactly what Tri-Tachyon needs.\"",
+   "ctx": "data/campaign/rules.csv ZGRacknowledgeTTDeal [text]"
+  },
+  {
+   "i": 35,
+   "en": "\"You've had a taste of working for the Company. A mundane commission, mercenary fare. Boilerplate. Busywork. We'd have automated all that sort of thing long ago, of course, if not for-\" \r\n\r\nShe pulls her gaze back down, \"Well, I digress. I believe you're capable of more, so much more. Think of this as the next step.\"",
+   "ctx": "data/campaign/rules.csv ZGRacknowledgeTTcom [text]"
+  },
+  {
+   "i": 36,
+   "en": "\"You're not only an explorer, you're a builder - founding a new colony!\"\r\n\r\n\"It is bold of you to strike out despite the anti-innovation measures sure to fall upon you from the major factions,\" she says. \"I suspect you'll benefit from an injection of capital. For the builder must also ensure that their prosperity cannot be simply seized by the small-minded takers.\"",
+   "ctx": "data/campaign/rules.csv ZGRacknowledgeColony [text]"
+  },
+  {
+   "i": 37,
+   "en": "\"I believe that's enough of that, captain,\" she says stonily.",
+   "ctx": "data/campaign/rules.csv ZGRacknowledgeDone [text]"
+  },
+  {
+   "i": 38,
+   "en": "Her expression is blank for a moment.\r\n\r\n\"On second thought, I feel no need to justify myself,\" she says stonily.",
+   "ctx": "data/campaign/rules.csv ZGRacknowledgeDoneNone [text]"
+  },
+  {
+   "i": 39,
+   "en": "\"Now allow me to explain the shape of our partnership.\"",
+   "ctx": "data/campaign/rules.csv ZGRstartPitch0 [text]"
+  },
+  {
+   "i": 40,
+   "en": "\"Whatever your other, lesser accomplishments, there is one in particular which is why you are here. You found something very old in the Abyss. Something known to history as the Onslaught Mk.I, which is of interest to me.\"",
+   "ctx": "data/campaign/rules.csv ZGRstartPitch0OMKI [text]"
+  }
+ ]
+}

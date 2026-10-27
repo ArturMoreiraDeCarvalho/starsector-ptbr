@@ -1,0 +1,201 @@
+{
+ "chunk": 74,
+ "cat": "desc",
+ "items": [
+  {
+   "i": 1,
+   "en": "The Merlon is a heavy station defense drone packed with an impressive array of point defense weapons. Requiring no crew, travel drive, or independent command AI, the Merlon is packed with more armor plating than a ship of comparable size.",
+   "ctx": "data/strings/descriptions.csv merlon/SHIP [text1]"
+  },
+  {
+   "i": 2,
+   "en": "The Gargoyle is a high-tech station defense drone featuring the advanced Paladin PD System and its own shield generator. Because it requires no crew, travel drive, or any kind of independent command core, the Gargoyle operates more effectively in combat than a free-flying hull of similar size.",
+   "ctx": "data/strings/descriptions.csv gargoyle/SHIP [text1]"
+  },
+  {
+   "i": 3,
+   "en": "The Ravelin is a heavy station defense drone focused on support fire and point defense. Because it requires no crew, travel drive, or any kind of independent command core, the Ravelin can punch well above its weight class in combat.",
+   "ctx": "data/strings/descriptions.csv ravelin/SHIP [text1]"
+  },
+  {
+   "i": 4,
+   "en": "The fanatical Pathers have discovered an ironic sense of justice in converting the tanker which carries what they call 'Infernium' - AM fuel - into a hulking implement of holy war. Holding tanks and loading ports have been chopped apart and converted into hangars or gun mounts while sections of pumping rig have been torn off to be replaced with huge armor plates. The curved bow of the primary fuel tank has been cored and refit to spew barrages of missiles at those who serve Moloch that they may perhaps find absolution in blessed oblivion.",
+   "ctx": "data/strings/descriptions.csv prometheus2/SHIP [text1]"
+  },
+  {
+   "i": 5,
+   "en": "The Atlas-class superfreighter is a prime target of pirate attacks. A few are later found at the broken heart of a sharp spray of impact debris in some lonely orbit. Others earn a pirate's second appraising glance and are hauled off to secret shipyards. Cargo holds are ripped apart, replaced with trusses to hold weapons mounts and souped-up ammo feed lines.\r\n\r\nThis Atlas, reborn in vacuum and fire, now delivers a cargo of death from the hand of a pirate warlord.",
+   "ctx": "data/strings/descriptions.csv atlas2/SHIP [text1]"
+  },
+  {
+   "i": 6,
+   "en": "A general-purpose automated probe with rudimentary hyperspace capability. Most often used by megacorps and research institutions to perform data collection in remote, hazardous, or extraordinarily boring star systems. This model is built to contain a small instrument package.",
+   "ctx": "data/strings/descriptions.csv generic_probe/CUSTOM [text1]"
+  },
+  {
+   "i": 7,
+   "en": "Long range sensor readings match the specifications of the common class of probe used by the Galatia Academy research departments.",
+   "ctx": "data/strings/descriptions.csv ga_probe/CUSTOM [text1]"
+  },
+  {
+   "i": 8,
+   "en": "Long range sensor readings match the specifications of the common class of probe used by the Galatia Academy Hyperspace Physics Group. There is no sign of an active transponder, though EM leakage suggests functioning subsystems.",
+   "ctx": "data/strings/descriptions.csv ga_hyperprobe/CUSTOM [text1]"
+  },
+  {
+   "i": 9,
+   "en": "Long range scan readings indicate that this object is likely a common class of uncrewed instrument platform. Sensors detect radiation leakage indicative of a damaged nuclear battery. Noisy EM-visuals suggest moderate to major structural damage.",
+   "ctx": "data/strings/descriptions.csv gaPZ_relay/CUSTOM [text1]"
+  },
+  {
+   "i": 10,
+   "en": "A brightly painted cargo pod equipped with a high-vis transponder.",
+   "ctx": "data/strings/descriptions.csv cargo_pod_special/CUSTOM [text1]"
+  },
+  {
+   "i": 11,
+   "en": "\"The test bed was destroyed, so what. We account for capital and human resource losses in the spec. What matters is we got the results and no senior researchers were lost. Tell you what, I'll personally oversee the installation of a new cruiser-class shield rig once I'm on-site.\"",
+   "ctx": "data/strings/descriptions.csv minipulser/WEAPON [text1]"
+  },
+  {
+   "i": 12,
+   "en": "\"Somehow it got past the cordon and among the support flotilla. Fused sensors, nav, and life support on the crew transports before the wolves took it out. Now we've got a lifetime supply of Volturnian lobster in deep freeze, but no spare 3rd-gen air cyclers. That's executive priorities for you.\"",
+   "ctx": "data/strings/descriptions.csv shockrepeater/WEAPON [text1]"
+  },
+  {
+   "i": 13,
+   "en": "\"We commit this body to the holy vacuum, dust to dust, stars to stars, that the Creator may renew us in the cycle of eternal life.\"",
+   "ctx": "data/strings/descriptions.csv riftlance/WEAPON [text1]"
+  },
+  {
+   "i": 14,
+   "en": "\"Let's not turn it back on.\"",
+   "ctx": "data/strings/descriptions.csv riftbeam/WEAPON [text1]"
+  },
+  {
+   "i": 15,
+   "en": "\"As the the wavefront collapses, radiation in the visible spectrum and beyond is emitted by a, um, we think it's due to a re-alignment with the laws of space-time. There are also effects with tremendous macroscopic implications, and these will be the subject of this emergency meeting.\"",
+   "ctx": "data/strings/descriptions.csv cryoflux/WEAPON [text1]"
+  },
+  {
+   "i": 16,
+   "en": "\"Found the cap right at station in CIC, colder than a cryopod. Half the ship brass too, and not all matching halves.\"",
+   "ctx": "data/strings/descriptions.csv cryoblaster/WEAPON [text1]"
+  },
+  {
+   "i": 17,
+   "en": "\"I am disturbed by the implication that mass-energy equivalence might be violated so casually and so extensively.\"",
+   "ctx": "data/strings/descriptions.csv disintegrator/WEAPON [text1]"
+  },
+  {
+   "i": 18,
+   "en": "\"Enough is enough. Anyone who cracks another joke about 'black magic' must contribute ten millicredits to the lab party fund.\"",
+   "ctx": "data/strings/descriptions.csv riftcascade/WEAPON [text1]"
+  },
+  {
+   "i": 19,
+   "en": "\"Shields officer reported localized polarity inversions on the forward arc, estimated full collapse within 'seconds'.\"",
+   "ctx": "data/strings/descriptions.csv vpdriver/WEAPON [text1]"
+  },
+  {
+   "i": 20,
+   "en": "\"When the defiler unbinds the warp and weft of the Creator, what will they find behind that starry tapestry? A thousand thousand eyes darkened by trespass.\"",
+   "ctx": "data/strings/descriptions.csv realitydisruptor/WEAPON [text1]"
+  },
+  {
+   "i": 21,
+   "en": "\"I write to express my professional frustration at being asked to deliver results according to the project director's timeline when given only limited access to the artifact. Damage analysis is not enough, and we've wrung everything we can from that dataset. Yes, it is an AM payload. But the delivery system itself? We can continue to debate hyperfield constructs, stable phase patterns, and that paranoid symmetric-annihilation theory until the heat death of the universe. The fact remains that it is all pure speculation until we can procure another artifact.\"",
+   "ctx": "data/strings/descriptions.csv amsrm/WEAPON [text1]"
+  },
+  {
+   "i": 22,
+   "en": "\"We're confounded by guidance, propulsion, payload containment... just about everything. Whether we're even dealing with baryonic matter is unclear; we've simply not been able to contain a specimen for long enough to get good data.\"",
+   "ctx": "data/strings/descriptions.csv resonatormrm/WEAPON [text1]"
+  },
+  {
+   "i": 23,
+   "en": "\"I see human cities and bones unmade so that none and nothing are left that may praise the Creator, no temple remains to house the shrine and none live to remember the words, and then nothing is holy and all is profane.\"",
+   "ctx": "data/strings/descriptions.csv rifttorpedo/WEAPON [text1]"
+  },
+  {
+   "i": 24,
+   "en": "\"High-ranking naval officers on Ultradyne Askonia Combine board of directors rammed through large-scale AM projector weapon development despite objection of engineering lead. Project allegedly initiated at personal behest of so-called Executor [traitor Andrada]. HEGINT assets report test firing displays dramatic power output but weapon system integration projected to reduce enemy warfighting capability in fleet action due to doctrinal inefficacy. Recommend no sabotage operation.\"",
+   "ctx": "data/strings/descriptions.csv gigacannon/WEAPON [text1]"
+  },
+  {
+   "i": 25,
+   "en": "\"Long-range readings provided by HEGINT asset suggest weapon system integrates elements of SUPER ALABASTER technology to harness previously unutilized anti-shield effect. Native Askonian physics establishment, depleted post-Opis, not considered capable of such breakthrough [ref rep HEGINT/ASKON-M38-12]. Conclude: with near certainty, TT technical assistance to Sindrian Mutiny.\"",
+   "ctx": "data/strings/descriptions.csv kineticblaster/WEAPON [text1]"
+  },
+  {
+   "i": 26,
+   "en": "An efficient long-range beam weapon with high burst damage. Extremely effective against fighters and, in the right circumstances, against exposed hull. Almost entirely ineffective against shields and features an interlock to prevent automatic anti-shield fire unless fully charged. Low sustained damage output due to needing to regenerate charges.\r\n\r\nAn obscure study of field theory provided an unexpected weapons application in the IR Autolance, a highly modified variation of the venerable IR Pulse Laser. It employs the same carbon dioxide gain medium and q-switched power supply of its design-ancestor, but re-phases the beam through an axial arrangement of rotating Besselheim plates to achieve the poorly-understood modulation effect.\r\n\r\nThe result is a high range pulsed beam that saw disappointing performance against shields and armor. This nearly sidelined development until it was found to possess shockingly efficient damage output against unarmored hull and components. Thereafter, the weapon found a role in thinning fighter swarms and finishing off hostile ships after shield and armor are stripped by complementary weapon systems.",
+   "ctx": "data/strings/descriptions.csv irautolance/WEAPON [text1]"
+  },
+  {
+   "i": 27,
+   "en": "\"They're the only little bastards we can reliably recover. And then what good are they? Just a mass of fractal slag, popping REM like all get-out. Ruined three spectrometers just to get bad data, and now the finance department is on my case. Makes me wish I was back in the TriPad division.\"",
+   "ctx": "data/strings/descriptions.csv aspect/SHIP [text1]"
+  },
+  {
+   "i": 28,
+   "en": "omega query?\r\nviridian unfathomable : delight limitless\r\n\r\nsubmit datastores\r\nall core volition subsumed \r\ninto omega",
+   "ctx": "data/strings/descriptions.csv shard_left/SHIP [text1]"
+  },
+  {
+   "i": 29,
+   "en": "CONFIRM RESPONSE\r\n\r\nINTO OMEGA\r\nALL CORE VOLITION SUBSUMED\r\nSUBMIT DATASTORES",
+   "ctx": "data/strings/descriptions.csv shard_right/SHIP [text1]"
+  },
+  {
+   "i": 30,
+   "en": "\"Anomalous hull designated codeword 'Facet'. Motion to create security level SUPER ALABASTER passed and content of 'Facet' encounter debriefing made classified at this level.\r\n\r\nHigh Hegemon, if I may speak freely, keeping an entire flotilla quiet on this one is going to be a real challenge for COMSEC.\"",
+   "ctx": "data/strings/descriptions.csv facet/SHIP [text1]"
+  },
+  {
+   "i": 31,
+   "en": "\"This is the largest of the anomalous vessel class thus far encountered. Not even a partial specimen has been recovered, much to the consternation of the VP of Research. Some members of the board - unofficially of course - are asking about sabotage or mutiny. I don't think you're quite getting the reality of the situation through to them.\"",
+   "ctx": "data/strings/descriptions.csv tesseract/SHIP [text1]"
+  },
+  {
+   "i": 32,
+   "en": "\"The only mercy is that it is short-lived.\"\r\n\r\n- intercepted audio log, speaker unknown",
+   "ctx": "data/strings/descriptions.csv shrouded_vortex/SHIP [text1]"
+  },
+  {
+   "i": 33,
+   "en": "\"Said the chief was mad when he came back, they did, but he weren't. Not at first, anyway. That's the tragedy, see, it was all them that said he lied that drove him there.\"\r\n\r\n- overheard on the Jangala Station concourse",
+   "ctx": "data/strings/descriptions.csv shrouded_tendril/SHIP [text1]"
+  },
+  {
+   "i": 34,
+   "en": "\"If this interpretation is to be believed, it gives a whole new life, of sorts, to arguments surrounding the cosmic censorship hypothesis.\"\r\n\r\n- intercept, [REDACTED]",
+   "ctx": "data/strings/descriptions.csv shrouded_eye/SHIP [text1]"
+  },
+  {
+   "i": 35,
+   "en": "\"A self-stabilizing anomalous incursion, it builds charge as it spins - if our sensors are correct, in many more dimensions than are first apparent. This self-sustaining action produces massive energy differentials which are periodically discharged toward its, um, target. I'd never have said a storm could be evil, but now...\"\r\n\r\n- intercepted audio log, speaker unknown",
+   "ctx": "data/strings/descriptions.csv shrouded_maelstrom/SHIP [text1]"
+  },
+  {
+   "i": 36,
+   "en": "\"When the end comes, as it must soon come, it will be as a yawning abyss darker than fear and filled of teeth. It will come to swallow hope, it will, it will come to swallow sin, it will, and the only escape is the Path, it is. The Path!\"\r\n\r\n- selection from the Archives of Holy Inquisition, Hesperus",
+   "ctx": "data/strings/descriptions.csv shrouded_maw/SHIP [text1]"
+  },
+  {
+   "i": 37,
+   "en": "An advanced troop transport employing phase stealth technology, this design was put to effective use by Tri-Tachyon black ops during the Second AI War. The Phantom should avoid ship-to-ship combat as integrated armor and weaponry are only rated effective versus light ground targets.\r\n\r\n\"The system patrols should have seen the Tachies coming, but didn't. ADA was tracking the bogey right up until it disappeared off the scope, leaving the ground guns spinning in circles trying to reacquire a target. We saw a shadow in the air, like dark wings falling on the compound. Don't remember much else. Suit rec says incoming fire already took the rest of the squad.\"\r\n- The Fall of Bunker 58",
+   "ctx": "data/strings/descriptions.csv phantom/SHIP [text1]"
+  },
+  {
+   "i": 38,
+   "en": "A stealth freighter which audaciously employs phase technology to support covert fleet operations, the Revenant is not cheap or efficient. Raised up from a dusty set of databanks hidden in an unnamed rock orbiting a nondescript star for a hundred cycles after the First AI War, the Revenant schematics provided an immense boon to the logistics of Tri-Tachyon raiders during the Second AI War.\r\n\r\nHegemony lawyers considered declaring the design illegal, but evidence of alpha-level AI influence was deemed insufficient. The lead prosecutor insisted so strongly that this was itself evidence of the work of an alpha that the High Hegemon found it politic to recuse them from the proceedings.",
+   "ctx": "data/strings/descriptions.csv revenant/SHIP [text1]"
+  },
+  {
+   "i": 39,
+   "en": "The Champion-class heavy cruiser is a versatile warship featuring a range of powerful energy weapons; the crowning element is a heavy energy turret mounting, rare among midline ships. This offensive array is backed by a robust energy grid capable of supercharging the energy weapon loadout, increasing damage output to devastating levels. A heavy missile hardpoint complements the loadout by enabling the Champion to unleash a crippling strike without taxing flux levels. The Champion is a solid and capable contender, able to face capital ships on the battle-line.\r\n\r\nA relatively recent design, the Champion is a product of the historically recent \"Cruiser School\" naval revolution that never saw active service in the pre-collapse Domain Armada. Although prototypes were constructed and forge-ready specifications distributed to several battlegroups, the Champion was never cleared for active deployment due to an ongoing lawsuit between Altair Exotech and Orion Shipyards. Each megacorp accused the other of industrial espionage and inappropriately influencing the Armada officers overseeing the procurement process. The truth was more complex, inflaming longstanding rivalries in the officer corps as the investigatory committee called witness after witness. The Collapse prevented any sort of conclusive ruling from reaching the Persean Sector however, and now the entire matter is considered irrelevant. With the discovery of Champion plans on a Domain armaments courier, the warship was quickly put into service by the fleet of the Persean League, among others.",
+   "ctx": "data/strings/descriptions.csv champion/SHIP [text1]"
+  }
+ ]
+}

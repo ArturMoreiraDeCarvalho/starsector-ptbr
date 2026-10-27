@@ -1,0 +1,1076 @@
+{
+ "chunk": 25,
+ "cat": "jar",
+ "items": [
+  {
+   "i": 1,
+   "en": " commission",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/FactionCommissionIntel$1.class"
+  },
+  {
+   "i": 2,
+   "en": "Your monthly stipend for holding a ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/FactionCommissionIntel$1.class"
+  },
+  {
+   "i": 3,
+   "en": " - Accepted",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/FactionCommissionIntel.class"
+  },
+  {
+   "i": 4,
+   "en": " - Annulled",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/FactionCommissionIntel.class"
+  },
+  {
+   "i": 5,
+   "en": " - Resigned",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/FactionCommissionIntel.class"
+  },
+  {
+   "i": 6,
+   "en": " Commission",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/FactionCommissionIntel.class"
+  },
+  {
+   "i": 7,
+   "en": " due to your standing falling too low.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/FactionCommissionIntel.class"
+  },
+  {
+   "i": 8,
+   "en": "%s base bounty per hostile frigate",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/FactionCommissionIntel.class"
+  },
+  {
+   "i": 9,
+   "en": "%s base reward per frigate",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/FactionCommissionIntel.class"
+  },
+  {
+   "i": 10,
+   "en": "%s monthly stipend",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/FactionCommissionIntel.class"
+  },
+  {
+   "i": 11,
+   "en": "%s share based on damage dealt",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/FactionCommissionIntel.class"
+  },
+  {
+   "i": 12,
+   "en": "Most recent bounty:",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/FactionCommissionIntel.class"
+  },
+  {
+   "i": 13,
+   "en": "Resign commission",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/FactionCommissionIntel.class"
+  },
+  {
+   "i": 14,
+   "en": "The combat bounty payment depends on the number and size of ships destroyed.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/FactionCommissionIntel.class"
+  },
+  {
+   "i": 15,
+   "en": "You can not resign your commission while polities under your control are members of the League.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/FactionCommissionIntel.class"
+  },
+  {
+   "i": 16,
+   "en": "You've accepted a %s commission.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/FactionCommissionIntel.class"
+  },
+  {
+   "i": 17,
+   "en": "You've resigned your commission with ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/FactionCommissionIntel.class"
+  },
+  {
+   "i": 18,
+   "en": "Your commission was annulled by ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/FactionCommissionIntel.class"
+  },
+  {
+   "i": 19,
+   "en": " (Ended)",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/FactionHostilityIntel.class"
+  },
+  {
+   "i": 20,
+   "en": " Ended",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/FactionHostilityIntel.class"
+  },
+  {
+   "i": 21,
+   "en": " has recently ended.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/FactionHostilityIntel.class"
+  },
+  {
+   "i": 22,
+   "en": " have broken out into open conflict.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/FactionHostilityIntel.class"
+  },
+  {
+   "i": 23,
+   "en": "Ending hostilities: %s <-> %s",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/FactionHostilityIntel.class"
+  },
+  {
+   "i": 24,
+   "en": "Hostilities",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/FactionHostilityIntel.class"
+  },
+  {
+   "i": 25,
+   "en": "Making factions hostile: %s <-> %s",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/FactionHostilityIntel.class"
+  },
+  {
+   "i": 26,
+   "en": "Open conflict between ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/FactionHostilityIntel.class"
+  },
+  {
+   "i": 27,
+   "en": "Simmering tensions between ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/FactionHostilityIntel.class"
+  },
+  {
+   "i": 28,
+   "en": "A bounty hunter was recently hired to eliminate you",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/GensHannanMachinations.class"
+  },
+  {
+   "i": 29,
+   "en": "Gens Hannan Machinations",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/GensHannanMachinations.class"
+  },
+  {
+   "i": 30,
+   "en": "It's likely that at some point this work will become less of a priority, but for now, their agents go about ruining your reputation with commendable vigor and discretion.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/GensHannanMachinations.class"
+  },
+  {
+   "i": 31,
+   "en": "Persean League",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/GensHannanMachinations.class"
+  },
+  {
+   "i": 32,
+   "en": "Recent events",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/GensHannanMachinations.class"
+  },
+  {
+   "i": 33,
+   "en": "There is no hope of reconciliation, and the gloves are off. There is a possibility of your being brought into active hostility with the League, and of bounty hunters being hired and equipped for the job.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/GensHannanMachinations.class"
+  },
+  {
+   "i": 34,
+   "en": "You are not considered trustworthy enough for Gens Hannan to deal with again, and these actions are in the way of setting an example for others.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/GensHannanMachinations.class"
+  },
+  {
+   "i": 35,
+   "en": "You may be able to negotiate an end to this by going to Kazeron and speaking with Reynard Hannan.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/GensHannanMachinations.class"
+  },
+  {
+   "i": 36,
+   "en": "You sources indicate that the further action by Gens Hannan is unlikely at this time.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/GensHannanMachinations.class"
+  },
+  {
+   "i": 37,
+   "en": "You've gone back on a deal with Gens Hannan, and they work behind the scenesto damage your standing with the Persean League, and worse.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/GensHannanMachinations.class"
+  },
+  {
+   "i": 38,
+   "en": "active hostility with the League",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/GensHannanMachinations.class"
+  },
+  {
+   "i": 39,
+   "en": "bounty hunters",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/GensHannanMachinations.class"
+  },
+  {
+   "i": 40,
+   "en": "speaking with Reynard Hannan",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/GensHannanMachinations.class"
+  },
+  {
+   "i": 41,
+   "en": "End the agreement",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/LuddicChurchImmigrationDeal.class"
+  },
+  {
+   "i": 42,
+   "en": "Ended",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/LuddicChurchImmigrationDeal.class"
+  },
+  {
+   "i": 43,
+   "en": "Knights of Ludd",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/LuddicChurchImmigrationDeal.class"
+  },
+  {
+   "i": 44,
+   "en": "Luddic Church",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/LuddicChurchImmigrationDeal.class"
+  },
+  {
+   "i": 45,
+   "en": "Luddic Church Immigration Controls",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/LuddicChurchImmigrationDeal.class"
+  },
+  {
+   "i": 46,
+   "en": "You are no longer abiding by your agreement with the Luddic Church.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/LuddicChurchImmigrationDeal.class"
+  },
+  {
+   "i": 47,
+   "en": "You can end this agreement, but taking this action would hurt your standing with the %s, and there would be no possibility of re-negotiating a similar agreement after demonstrating such faithlessness.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/LuddicChurchImmigrationDeal.class"
+  },
+  {
+   "i": 48,
+   "en": "You can end this agreement, but there would be no possibility of re-negotiating a similar agreement after demonstrating such faithlessness.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/LuddicChurchImmigrationDeal.class"
+  },
+  {
+   "i": 49,
+   "en": "You've made an agreement with the Luddic Church, curtailing excessive immigration from their worlds. In exchange, the Knights of Ludd \"protector\" fleets no longer operate in your volume.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/LuddicChurchImmigrationDeal.class"
+  },
+  {
+   "i": 50,
+   "en": "New intel (%s)",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/NewMessagesIntel.class"
+  },
+  {
+   "i": 51,
+   "en": "Monthly dues for keeping your Persean League membership in good standing.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PerseanLeagueMembership$1.class"
+  },
+  {
+   "i": 52,
+   "en": " drastic action against your colonies.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PerseanLeagueMembership.class"
+  },
+  {
+   "i": 53,
+   "en": " harassing your interests in the near future.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PerseanLeagueMembership.class"
+  },
+  {
+   "i": 54,
+   "en": " will likely refrain ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PerseanLeagueMembership.class"
+  },
+  {
+   "i": 55,
+   "en": " will likely start ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PerseanLeagueMembership.class"
+  },
+  {
+   "i": 56,
+   "en": " will likely take",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PerseanLeagueMembership.class"
+  },
+  {
+   "i": 57,
+   "en": "%s per month",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PerseanLeagueMembership.class"
+  },
+  {
+   "i": 58,
+   "en": "Accepted",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PerseanLeagueMembership.class"
+  },
+  {
+   "i": 59,
+   "en": "Annulled",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PerseanLeagueMembership.class"
+  },
+  {
+   "i": 60,
+   "en": "Due to being new members of the League, your colonies enjoy an increased flow of trade, resulting in a %s accessibility bonus.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PerseanLeagueMembership.class"
+  },
+  {
+   "i": 61,
+   "en": "End League membership",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PerseanLeagueMembership.class"
+  },
+  {
+   "i": 62,
+   "en": "Expired",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PerseanLeagueMembership.class"
+  },
+  {
+   "i": 63,
+   "en": "Gens Hannan will not be pleased",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PerseanLeagueMembership.class"
+  },
+  {
+   "i": 64,
+   "en": "Gens Hannan will not be pleased. While they are unlikely to be unable to obtain your outright explulsion from the League, their influence is significant and will likely be used to continually undermine your standing. ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PerseanLeagueMembership.class"
+  },
+  {
+   "i": 65,
+   "en": "Given your history, it is likely that you would not be allowed to rejoin the League at any point in the future.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PerseanLeagueMembership.class"
+  },
+  {
+   "i": 66,
+   "en": "However, Gens Hannan will not be pleased with their payments being stopped.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PerseanLeagueMembership.class"
+  },
+  {
+   "i": 67,
+   "en": "If you leave, ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PerseanLeagueMembership.class"
+  },
+  {
+   "i": 68,
+   "en": "Part of your arrangement involves unofficial payments directly to the accounts of House Hannan, as payment for facilitating this agreement.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PerseanLeagueMembership.class"
+  },
+  {
+   "i": 69,
+   "en": "Persean League Membership",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PerseanLeagueMembership.class"
+  },
+  {
+   "i": 70,
+   "en": "Persean League membership dues",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PerseanLeagueMembership.class"
+  },
+  {
+   "i": 71,
+   "en": "Renege on the payments",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PerseanLeagueMembership.class"
+  },
+  {
+   "i": 72,
+   "en": "You are paying membership dues to the League.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PerseanLeagueMembership.class"
+  },
+  {
+   "i": 73,
+   "en": "You will also lose Reynard Hannan as a contact.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PerseanLeagueMembership.class"
+  },
+  {
+   "i": 74,
+   "en": "You've joined the Persean League, though it's whispered that you only did so to avoid harassment, and your membership dues are nothing more than protection payments. However, the League still supports you politically, which for example makes it untenable for the Hegemony to insist on AI inspections in your space.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PerseanLeagueMembership.class"
+  },
+  {
+   "i": 75,
+   "en": "You've negotiated a good membership deal from a position of strength. If you leave, you will not be allowed to rejoin, but the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PerseanLeagueMembership.class"
+  },
+  {
+   "i": 76,
+   "en": "You've negotiated a good membership deal from a position of strength. The League will support you politically, which for example makes it untenable for the Hegemony to insist on AI inspections in your space.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PerseanLeagueMembership.class"
+  },
+  {
+   "i": 77,
+   "en": "Your League membership is contingent on maintaining an active Persean League commission. If you resign it, or if it is annulled for any reason, your membership will end as well.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PerseanLeagueMembership.class"
+  },
+  {
+   "i": 78,
+   "en": "Your agreement with the League is no longer in force.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PerseanLeagueMembership.class"
+  },
+  {
+   "i": 79,
+   "en": "continually undermine your standing",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PerseanLeagueMembership.class"
+  },
+  {
+   "i": 80,
+   "en": "drastic action",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PerseanLeagueMembership.class"
+  },
+  {
+   "i": 81,
+   "en": "from harassing your interests.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PerseanLeagueMembership.class"
+  },
+  {
+   "i": 82,
+   "en": "lose Reynard Hannan",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PerseanLeagueMembership.class"
+  },
+  {
+   "i": 83,
+   "en": "will not be allowed to rejoin",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PerseanLeagueMembership.class"
+  },
+  {
+   "i": 84,
+   "en": "would not be allowed to rejoin",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PerseanLeagueMembership.class"
+  },
+  {
+   "i": 85,
+   "en": " Fleet",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PersonBountyIntel.class"
+  },
+  {
+   "i": 86,
+   "en": " command.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PersonBountyIntel.class"
+  },
+  {
+   "i": 87,
+   "en": " posted a bounty for bringing ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PersonBountyIntel.class"
+  },
+  {
+   "i": 88,
+   "en": " rumored to be ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PersonBountyIntel.class"
+  },
+  {
+   "i": 89,
+   "en": "%s reward, %s ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PersonBountyIntel.class"
+  },
+  {
+   "i": 90,
+   "en": ", to justice.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PersonBountyIntel.class"
+  },
+  {
+   "i": 91,
+   "en": "Bounty Completed - ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PersonBountyIntel.class"
+  },
+  {
+   "i": 92,
+   "en": "Bounty Ended - ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PersonBountyIntel.class"
+  },
+  {
+   "i": 93,
+   "en": "Ending bounty on %s by %s",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PersonBountyIntel.class"
+  },
+  {
+   "i": 94,
+   "en": "He is",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PersonBountyIntel.class"
+  },
+  {
+   "i": 95,
+   "en": "Not paying bounty or improving rep with faction [%s]",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PersonBountyIntel.class"
+  },
+  {
+   "i": 96,
+   "en": "Not paying bounty, but improving rep with faction [%s]",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PersonBountyIntel.class"
+  },
+  {
+   "i": 97,
+   "en": "Paying bounty of %d from faction [%s]",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PersonBountyIntel.class"
+  },
+  {
+   "i": 98,
+   "en": "Personal Bounty",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PersonBountyIntel.class"
+  },
+  {
+   "i": 99,
+   "en": "Personal Bounty - ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PersonBountyIntel.class"
+  },
+  {
+   "i": 100,
+   "en": "She is",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PersonBountyIntel.class"
+  },
+  {
+   "i": 101,
+   "en": "Starting person bounty by faction [%s] for person %s",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PersonBountyIntel.class"
+  },
+  {
+   "i": 102,
+   "en": "The bounty posting also contains partial intel on some of the ships under ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PersonBountyIntel.class"
+  },
+  {
+   "i": 103,
+   "en": "The bounty posting also contains partial intel on the ships under ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PersonBountyIntel.class"
+  },
+  {
+   "i": 104,
+   "en": "The intel assessment notes the fleet may contain several other ships of lesser significance.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PersonBountyIntel.class"
+  },
+  {
+   "i": 105,
+   "en": "The intel assessment notes the fleet may contain upwards of %s other ships of lesser significance.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PersonBountyIntel.class"
+  },
+  {
+   "i": 106,
+   "en": "This bounty is no longer on offer.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PersonBountyIntel.class"
+  },
+  {
+   "i": 107,
+   "en": "You have successfully completed this bounty, but received no credit reward because of your standing with ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PersonBountyIntel.class"
+  },
+  {
+   "i": 108,
+   "en": "You have successfully completed this bounty, but received no reward because of your standing with ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PersonBountyIntel.class"
+  },
+  {
+   "i": 109,
+   "en": "You have successfully completed this bounty.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PersonBountyIntel.class"
+  },
+  {
+   "i": 110,
+   "en": "a deserter",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PersonBountyIntel.class"
+  },
+  {
+   "i": 111,
+   "en": "a notorious pirate",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PersonBountyIntel.class"
+  },
+  {
+   "i": 112,
+   "en": "hiding out in",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PersonBountyIntel.class"
+  },
+  {
+   "i": 113,
+   "en": "hiding out near",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PersonBountyIntel.class"
+  },
+  {
+   "i": 114,
+   "en": "located in",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PersonBountyIntel.class"
+  },
+  {
+   "i": 115,
+   "en": "orbiting",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PersonBountyIntel.class"
+  },
+  {
+   "i": 116,
+   "en": "remaining",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PersonBountyIntel.class"
+  },
+  {
+   "i": 117,
+   "en": " is affiliated with the local underworld and will require clandestine delivery, ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/ProcurementMissionIntel.class"
+  },
+  {
+   "i": 118,
+   "en": " is hostile towards you, and you'll need ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/ProcurementMissionIntel.class"
+  },
+  {
+   "i": 119,
+   "en": " no longer exists as a functional polity.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/ProcurementMissionIntel.class"
+  },
+  {
+   "i": 120,
+   "en": " to complete the delivery.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/ProcurementMissionIntel.class"
+  },
+  {
+   "i": 121,
+   "en": "%s units required at ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/ProcurementMissionIntel.class"
+  },
+  {
+   "i": 122,
+   "en": "Contact ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/ProcurementMissionIntel.class"
+  },
+  {
+   "i": 123,
+   "en": "However, ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/ProcurementMissionIntel.class"
+  },
+  {
+   "i": 124,
+   "en": "Procurement",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/ProcurementMissionIntel.class"
+  },
+  {
+   "i": 125,
+   "en": "Procurement - ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/ProcurementMissionIntel.class"
+  },
+  {
+   "i": 126,
+   "en": "Procurement Contract",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/ProcurementMissionIntel.class"
+  },
+  {
+   "i": 127,
+   "en": "Seeing remote price data requires being within range of a functional comm relay.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/ProcurementMissionIntel.class"
+  },
+  {
+   "i": 128,
+   "en": "Show commodity info",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/ProcurementMissionIntel.class"
+  },
+  {
+   "i": 129,
+   "en": "This procurement contract offers a price of %s per unit of ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/ProcurementMissionIntel.class"
+  },
+  {
+   "i": 130,
+   "en": "View commodity info",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/ProcurementMissionIntel.class"
+  },
+  {
+   "i": 131,
+   "en": "You have failed this contract because ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/ProcurementMissionIntel.class"
+  },
+  {
+   "i": 132,
+   "en": "contract",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/ProcurementMissionIntel.class"
+  },
+  {
+   "i": 133,
+   "en": "has posted a procurement contract for a quantity of ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/ProcurementMissionIntel.class"
+  },
+  {
+   "i": 134,
+   "en": "operating with the knowledge of the local authorities and the delivery may be made openly.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/ProcurementMissionIntel.class"
+  },
+  {
+   "i": 135,
+   "en": "operating with the knowledge of the local authorities. ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/ProcurementMissionIntel.class"
+  },
+  {
+   "i": 136,
+   "en": "to sneak into port without attracting notice in order to complete the delivery.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/ProcurementMissionIntel.class"
+  },
+  {
+   "i": 137,
+   "en": "which may attract the interest of local authorities.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/ProcurementMissionIntel.class"
+  },
+  {
+   "i": 138,
+   "en": " (Elite)",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PromoteOfficerIntel.class"
+  },
+  {
+   "i": 139,
+   "en": " recently and is worthy of consideration for ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PromoteOfficerIntel.class"
+  },
+  {
+   "i": 140,
+   "en": ", has distinguished ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PromoteOfficerIntel.class"
+  },
+  {
+   "i": 141,
+   "en": "A junior officer, ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PromoteOfficerIntel.class"
+  },
+  {
+   "i": 142,
+   "en": "Are you sure? This action can not be undone.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PromoteOfficerIntel.class"
+  },
+  {
+   "i": 143,
+   "en": "Disregard",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PromoteOfficerIntel.class"
+  },
+  {
+   "i": 144,
+   "en": "Officer Promotion Candidate",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PromoteOfficerIntel.class"
+  },
+  {
+   "i": 145,
+   "en": "Officers already under your command: %s %s %s",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PromoteOfficerIntel.class"
+  },
+  {
+   "i": 146,
+   "en": "Personality: %s",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PromoteOfficerIntel.class"
+  },
+  {
+   "i": 147,
+   "en": "Promote to ship command",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PromoteOfficerIntel.class"
+  },
+  {
+   "i": 148,
+   "en": "Promoted promising junior officer to ship command",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PromoteOfficerIntel.class"
+  },
+  {
+   "i": 149,
+   "en": "Skill: ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PromoteOfficerIntel.class"
+  },
+  {
+   "i": 150,
+   "en": "This opportunity will be available for %s more ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PromoteOfficerIntel.class"
+  },
+  {
+   "i": 151,
+   "en": "the command of a ship.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/PromoteOfficerIntel.class"
+  },
+  {
+   "i": 152,
+   "en": "Fees paid to the Sindrian Diktat in exchange for their refraining from interfering in your fuel production business. From orbit.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/SindrianDiktatFuelDeal$1.class"
+  },
+  {
+   "i": 153,
+   "en": "Sindrian Diktat",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/SindrianDiktatFuelDeal.class"
+  },
+  {
+   "i": 154,
+   "en": "Sindrian Diktat Fuel Accord",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/SindrianDiktatFuelDeal.class"
+  },
+  {
+   "i": 155,
+   "en": "Sindrian Diktat fuel accord fees",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/SindrianDiktatFuelDeal.class"
+  },
+  {
+   "i": 156,
+   "en": "The terms of the agreement are so onerous that your reputation at large would not suffer for unilaterally breaking it, though your standing with the Sindrian Diktat specifically would of course be affected.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/SindrianDiktatFuelDeal.class"
+  },
+  {
+   "i": 157,
+   "en": "You are no longer abiding by your agreement with the Sindrian Diktat.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/SindrianDiktatFuelDeal.class"
+  },
+  {
+   "i": 158,
+   "en": "You can end this agreement, but there would be no possibility of re-negotiating a similar one in the future.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/SindrianDiktatFuelDeal.class"
+  },
+  {
+   "i": 159,
+   "en": "You've made an agreement with the Sindrian Diktat, paying a sizeable fee, %s of your gross fuel exports, in exchange for them not bombarding your fuel production facilities from orbit.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/SindrianDiktatFuelDeal.class"
+  },
+  {
+   "i": 160,
+   "en": " have posted a reward for completing a full survey of ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/SurveyPlanetMissionIntel.class"
+  },
+  {
+   "i": 161,
+   "en": ", faction: ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/SurveyPlanetMissionIntel.class"
+  },
+  {
+   "i": 162,
+   "en": "Survey ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/SurveyPlanetMissionIntel.class"
+  },
+  {
+   "i": 163,
+   "en": " currently hostile to:",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/SystemBountyIntel.class"
+  },
+  {
+   "i": 164,
+   "en": " have banded together and posted a modest but long-term bounty on all ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/SystemBountyIntel.class"
+  },
+  {
+   "i": 165,
+   "en": " have posted a bounty on all hostile fleets ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/SystemBountyIntel.class"
+  },
+  {
+   "i": 166,
+   "en": " may also improve.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/SystemBountyIntel.class"
+  },
+  {
+   "i": 167,
+   "en": " not currently hostile to any major factions.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/SystemBountyIntel.class"
+  },
+  {
+   "i": 168,
+   "en": "%s authorities ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/SystemBountyIntel.class"
+  },
+  {
+   "i": 169,
+   "en": "%s commercial concerns ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/SystemBountyIntel.class"
+  },
+  {
+   "i": 170,
+   "en": "Ending bounty at market [%s]",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/SystemBountyIntel.class"
+  },
+  {
+   "i": 171,
+   "en": "Likely triggered by %s activity.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/SystemBountyIntel.class"
+  },
+  {
+   "i": 172,
+   "en": "Payment depends on the number and size of ships destroyed. Standing with ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/SystemBountyIntel.class"
+  },
+  {
+   "i": 173,
+   "en": "Starting bounty at market [%s], %d credits per frigate",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/SystemBountyIntel.class"
+  },
+  {
+   "i": 174,
+   "en": "System Bounty",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/SystemBountyIntel.class"
+  },
+  {
+   "i": 175,
+   "en": "System Bounty - ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/SystemBountyIntel.class"
+  },
+  {
+   "i": 176,
+   "en": "The bounty stipulates that trade fleets are an exception - attacking them will not result in a reward, regardless of their faction.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/SystemBountyIntel.class"
+  },
+  {
+   "i": 177,
+   "en": "Triggered by the presence of Commerce on one of your colonies in-system, and by the level of hostile activity.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/SystemBountyIntel.class"
+  },
+  {
+   "i": 178,
+   "en": "hostile fleets ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/SystemBountyIntel.class"
+  },
+  {
+   "i": 179,
+   "en": "in or near the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/SystemBountyIntel.class"
+  },
+  {
+   "i": 180,
+   "en": "near ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/SystemBountyIntel.class"
+  },
+  {
+   "i": 181,
+   "en": " colonies receive %s accessibility",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/TriTachyonDeal.class"
+  },
+  {
+   "i": 182,
+   "en": "A partnership with the %s that allows you to leverage your combined market power for mutual benefit.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/TriTachyonDeal.class"
+  },
+  {
+   "i": 183,
+   "en": "Dissolved",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/TriTachyonDeal.class"
+  },
+  {
+   "i": 184,
+   "en": "Each partner's accessibility bonus is based on the total size of the colonies of the other partner.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/TriTachyonDeal.class"
+  },
+  {
+   "i": 185,
+   "en": "End the partnership",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/TriTachyonDeal.class"
+  },
+  {
+   "i": 186,
+   "en": "Strategic partnership with ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/TriTachyonDeal.class"
+  },
+  {
+   "i": 187,
+   "en": "The contract is carefully worded to survive even in the face of open hostilities, and is, from a legal perspective, perpetually binding.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/TriTachyonDeal.class"
+  },
+  {
+   "i": 188,
+   "en": "Tri-Tachyon Strategic Partnership",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/TriTachyonDeal.class"
+  },
+  {
+   "i": 189,
+   "en": "You can decide to end this partnership unilaterally, but taking this action would hurt your standing with %s, and there would be no possibility of re-negotiating a similar deal after displaying such a lack of respect for your contractual obligations.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/TriTachyonDeal.class"
+  },
+  {
+   "i": 190,
+   "en": "You can of course decide to end this partnership unilaterally, but there would be no possibility of re-negotiating a similar deal after displaying such a lack of respect for your contractual obligations.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/TriTachyonDeal.class"
+  },
+  {
+   "i": 191,
+   "en": "Your agreement with the Tri-Tachyon Corporation is no longer in force.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/TriTachyonDeal.class"
+  },
+  {
+   "i": 192,
+   "en": "The total price is %s. You have %s available.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/BaseGetCommodityBarEvent.class"
+  },
+  {
+   "i": 193,
+   "en": "You don't have enough credits.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/BaseGetCommodityBarEvent.class"
+  },
+  {
+   "i": 194,
+   "en": "Your fleet's cargo holds are currently full.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/BaseGetCommodityBarEvent.class"
+  },
+  {
+   "i": 195,
+   "en": "Your fleet's crew berths are currently full.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/BaseGetCommodityBarEvent.class"
+  },
+  {
+   "i": 196,
+   "en": "Your fleet's crew quarters can accommodate an additional %s personnel.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/BaseGetCommodityBarEvent.class"
+  },
+  {
+   "i": 197,
+   "en": "Your fleet's fuel tanks are currently full.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/BaseGetCommodityBarEvent.class"
+  },
+  {
+   "i": 198,
+   "en": "Your fleet's fuel tanks can hold an additional %s units of fuel.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/BaseGetCommodityBarEvent.class"
+  },
+  {
+   "i": 199,
+   "en": "Your fleet's holds can accommodate an additional %s units of cargo.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/BaseGetCommodityBarEvent.class"
+  },
+  {
+   "i": 200,
+   "en": " goes on to explain that %s per unit would be necessary for ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/CorruptPLClerkSuppliesBarEvent.class"
+  },
+  {
+   "i": 201,
+   "en": " in the port authority uniform is discreetely trying to catch your eye.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/CorruptPLClerkSuppliesBarEvent.class"
+  },
+  {
+   "i": 202,
+   "en": " looks around, then back at you,",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/CorruptPLClerkSuppliesBarEvent.class"
+  },
+  {
+   "i": 203,
+   "en": " says.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/CorruptPLClerkSuppliesBarEvent.class"
+  },
+  {
+   "i": 204,
+   "en": " to the TriAnon account provided",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/CorruptPLClerkSuppliesBarEvent.class"
+  },
+  {
+   "i": 205,
+   "en": " trouble, \"Think of it as a commission,\" ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/CorruptPLClerkSuppliesBarEvent.class"
+  },
+  {
+   "i": 206,
+   "en": " with a sly smile. \"Strictly off-the-books, of course. This job does allow me to, ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/CorruptPLClerkSuppliesBarEvent.class"
+  },
+  {
+   "i": 207,
+   "en": "Accept and transfer ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/CorruptPLClerkSuppliesBarEvent.class"
+  },
+  {
+   "i": 208,
+   "en": "Decline, explaining that you don't wish to meddle in League affairs",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/CorruptPLClerkSuppliesBarEvent.class"
+  },
+  {
+   "i": 209,
+   "en": "Even a generous stock of %s supplies might go missing. \"It's earmarked, of course, ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/CorruptPLClerkSuppliesBarEvent.class"
+  },
+  {
+   "i": 210,
+   "en": "Talk to the port authority official",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/CorruptPLClerkSuppliesBarEvent.class"
+  },
+  {
+   "i": 211,
+   "en": "The port clerk speaks broadly about how cargo goes missing all the time. ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/CorruptPLClerkSuppliesBarEvent.class"
+  },
+  {
+   "i": 212,
+   "en": "They can afford replacements on the open market, surely.\" ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/CorruptPLClerkSuppliesBarEvent.class"
+  },
+  {
+   "i": 213,
+   "en": "You leave the bar to find a message ping on your TriPad from the local port authority. It seems you've left %s of your supplies in cargo bay twelve, and the bay needs to be cleared out by the end of the next work-shift.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/CorruptPLClerkSuppliesBarEvent.class"
+  },
+  {
+   "i": 214,
+   "en": "You relent and sit with the port clerk who smiles and offers to buy you a drink. \"I'm familiar with your cargo manifest, of course, and thought you might be interested in an opportunity.\" ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/CorruptPLClerkSuppliesBarEvent.class"
+  }
+ ]
+}

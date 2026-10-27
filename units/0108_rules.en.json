@@ -1,0 +1,211 @@
+{
+ "chunk": 108,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "The receiving hall is empty of pilgrims, and mostly dark. Hand-sewn banners hang limply, their bright colors muted in the gloom. Benches and tables lay empty.\r\n\r\nYou spot a light through a small doorway. The humble office of the curate sacraria, and within, an old woman asleep behind a pot of tea, still steaming, set out on the desk.",
+   "ctx": "data/campaign/rules.csv lppVolturnShrineFirstVisit2 [text]"
+  },
+  {
+   "i": 2,
+   "en": "As you step in, she opens her eyes and after getting a good look, withdraws a pistol from where she held it under her mantle of hand-weave and places it in a holster.\r\n\r\n\"I could hardly shoot someone trying to be so polite about sneaking up on an old woman,\" she says, examining your uniform.",
+   "ctx": "data/campaign/rules.csv lppVolturnShrineFirstVisit3a [text]"
+  },
+  {
+   "i": 3,
+   "en": "She sighs at your outburst and opens her eyes - she seems too composed to have been truly sleeping - then withdraws the pistol which was held under her hand-weave and places it in a holster.\r\n\r\n\"I can hardly shoot you for interrupting the nap I wasn't having, now can I,\" she says.",
+   "ctx": "data/campaign/rules.csv lppVolturnShrineFirstVisit3b [text]"
+  },
+  {
+   "i": 4,
+   "en": "As you step to the desk and pour a cup, she lets her eyes open and withdraws a pistol from her hand-weave. \r\n\r\nThis she places in a holster.\r\n\r\n\"I'll hardly shoot you for being presumptuous over a cup of tea. So yes, do help yourself.\"",
+   "ctx": "data/campaign/rules.csv lppVolturnShrineFirstVisit3c [text]"
+  },
+  {
+   "i": 5,
+   "en": "She smiles as she withdraws the pistol she was holding beneath her hand-weave, opens her eyes, then places the pistol in a holster.\r\n\r\n\"Observant. If you're a goon, then I must say you're a higher grade than the usual. How may I serve?\"",
+   "ctx": "data/campaign/rules.csv lppVolturnShrineFirstVisit3d [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"It's just a pistol,\" she says. \"It's not that heavy.\"",
+   "ctx": "data/campaign/rules.csv lppVolturnCurateAskArmed [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"You could,\" she admits, holding your gaze. \"Do it or don't, I'm too old to dance around implied threats.\"\r\n\r\nFor the first time, she sips her tea. \"I could be having that nap.\"",
+   "ctx": "data/campaign/rules.csv lppVolturnCurateSDReport [text]"
+  },
+  {
+   "i": 8,
+   "en": "She looks at you for a long moment.\r\n\r\n\"No, officer. I am armed only to protect the shrine from looters and terrorists. You know how times are. The authority of the Supreme Executor is... stretched thin.\"\r\n\r\nYou detect more than a hint of disapproval in her eyes, but she knows when not to speak her mind.",
+   "ctx": "data/campaign/rules.csv lppVolturnCurateAskInsurgencySD [text]"
+  },
+  {
+   "i": 9,
+   "en": "She looks at you for a long moment.\r\n\r\n\"A long time ago, before... many things, the-one-who-would-be Ludd was hunted by the authorities of the Domain. They had electronic eyes everywhere, and hidden ears. But their multitude of small demons did not find the-one-who-would-be, who was hidden among friends and fellow travelers.\"\r\n\r\n\"And do you know why?\"",
+   "ctx": "data/campaign/rules.csv lppVolturnCurateAskInsurgency [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"OPSEC,\" she says, kicking a table-leg, setting the tea-set clattering. \"Ludd got betrayed in the end, of course, but what can you do? All good things and so on.\"\r\n\r\nLetting out a sigh, she continues in a voice of spirited obedience: \"No, officer, I've never heard of this insurgency. Sounds awful.\"",
+   "ctx": "data/campaign/rules.csv lppVolturnCurateAskInsurgency2 [text]"
+  },
+  {
+   "i": 11,
+   "en": "She raises an eyebrow. \"I could arrange a blessing if that's what you want.\"\r\n\r\nShe dips two fingers in a cup of tea and flings the droplets at you. \"Blessed be this pilgrim before me, may they find grace on Ludd's path. May Providence be merciful in hardship, and if not, let them bow their head in humble prayer to their Creator, who made the stars all around, begging forgiveness for their sins, and for guidance on their path.\"\r\n\r\n\"There,\" she drops a hand on the table. \"You're blessed.\"",
+   "ctx": "data/campaign/rules.csv lppVolturnCurateAskBlessing [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"I suppose I could arrange a blessing,\" she says slowly. \r\n\r\n\"But the shrine is closed, didn't you hear? It would feel,\" she pretends to search for the words, \"Disloyal.\"\r\n\r\nThe woman shrugs, open handed.",
+   "ctx": "data/campaign/rules.csv lppVolturnCurateAskBlessingSD [text]"
+  },
+  {
+   "i": 13,
+   "en": "The tea is rich with umami. Less vegetal, more briney.\r\n\r\n\"A humble local variety,\" the woman says. \"Tartessian Brown is hard to come by, what with the occupation.\"",
+   "ctx": "data/campaign/rules.csv lppVolturnCurateDrinkTea [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"Then,\" she says, \"I am here to show you to it.\" \r\n\r\n\"Simon?\" she says to someone behind you, \"You may also put your gun away.\"\r\n\r\nYou turn to look and Simon does as she asks, giving you an apologetic little half-salute. The curate smiles, and with open hands shows you the way to the inner shrine.",
+   "ctx": "data/campaign/rules.csv lppVolturnCurateAskSeeShrine [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"Then,\" she says, \"I am here to show you to it.\" \r\n\r\n\"Simon?\" she says to someone behind you, \"You may also stow your weapon.\"\r\n\r\nYou turn to look and Simon does as she asks, giving you an apologetic little half-salute. The curate smiles, and with open hands shows you the way to the inner shrine.",
+   "ctx": "data/campaign/rules.csv lppVolturnCurateAskPilgrim [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"A pilgrim? You?\" She looks perplexed.",
+   "ctx": "data/campaign/rules.csv lppVolturnCurateAskPilgrimSD [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"It is my understanding,\" she says, \"That the musings of your Supreme Executor broadly contradict the precepts of the Church of Galactic Redemption - and the teachings of Ludd in particular.\"  ",
+   "ctx": "data/campaign/rules.csv lppVolturnCurateAskSeeShrineSD [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"Of course not,\" she says. \"Not my job.\"",
+   "ctx": "data/campaign/rules.csv lppVolturnCurateSeeShrineSDlecture [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"Interesting,\" she lies. \"You'll have to tell me more after appreciating the shrine.\"",
+   "ctx": "data/campaign/rules.csv lppVolturnCurateSeeShrineSDlearn [text]"
+  },
+  {
+   "i": 20,
+   "en": "The curate smiles superficially, then with open hands shows you the way to the inner shrine.",
+   "ctx": "data/campaign/rules.csv lppVolturnCurateSeeShrineSDjustDoIt [text]"
+  },
+  {
+   "i": 21,
+   "en": "The curate leads you to the back of an entry hall and pulls back a heavy curtain. The metal rings attaching it to a rail above clatter, dropping flakes of rust.\r\n\r\nPerhaps this is a shrine of humility?\r\n\r\nIt is a small thing set in the back of a back room, rows of candles are arrayed around the wooden centerpiece carved with images of Ludd's travails. The candles are all dead, but the place is illuminated by dim shafts of light let in by grimy portholes.\r\n\r\n\"We do not have many visitors, you see,\" the curate says.",
+   "ctx": "data/campaign/rules.csv lppVolturnShrineFirstVisit4SD [text]"
+  },
+  {
+   "i": 22,
+   "en": "She looks around, as if for the first time. \"It is, isn't it.\"\r\n\r\n\"Appropriate, though. Reminds us of our place on this world.\"",
+   "ctx": "data/campaign/rules.csv lppVolturnCurateSDhumble [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"Oh?\" She raises an eyebrow at you. \"Oh, alright. Lying is a sin, and redemption must begin somewhere.\"\r\n\r\nShe raises her chin and looks at you. \"The shrine has been all but stomped out by your Sindrian Diktat. Soldiers and MuniSec harass pilgrims and arrest the faithful, then steal our tithes.\"\r\n\r\n\"As long as they leave the shrine untouched, however, the Church is willing to turn the other cheek.\"",
+   "ctx": "data/campaign/rules.csv lppVolturnCurateSDcriticism [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"My faith is not the Church,\" she says fiercely. \"And they can defrock and excommunicate me for that if they like, it would change nothing here.\"",
+   "ctx": "data/campaign/rules.csv lppVolturnCurateSDcriticism2 [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"This,\" she indicates the decrepit shrine around her, \"Is the compromise. As dictated by your Executor.\"\r\n\r\n\"Any further, then we shall have left the path of Ludd's teachings entirely. So here I remain.\"",
+   "ctx": "data/campaign/rules.csv lppVolturnCurateSDcompromise [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"There's a suggestion,\" she says with false cheer. \"We could put one of those holo portraits of Andrada right... here,\" she waves a hand at the center of the shrine. \"Really focus our prayers, do some good.\"",
+   "ctx": "data/campaign/rules.csv lppVolturnCurateSDaccepted [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"I will consider your position once I can put that same question to those of my flock that were sent to Cruor,\" she says.\r\n\r\n\"Until you can give them back,\" her eyes are bright with tears, \"I will do as I do.\"",
+   "ctx": "data/campaign/rules.csv lppVolturnCurateSDstubborn [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"You... do that,\" the curate says haltingly, not looking at you.\r\n\r\n\"Now please go.\"",
+   "ctx": "data/campaign/rules.csv lppVolturnCurateSDstubborn2 [text]"
+  },
+  {
+   "i": 29,
+   "en": "Not quite an hour later, you find yourself at the bottom of the sea, in the Luddic shrine of Volturn. It is a creaking and unnervingly humid inspection module at the end of a modified extraction stack; a metal proboscis thrust into the depths of Volturn.\r\n\r\nIt is also filled with guns, explosives, grenades, cellmags. Crates and racks are piled high, making the small space more cramped. A small shrine is set in an open space under a round diamond-matrix viewport which holds back a titanic mass of water. A few candles struggle to maintain even a decent flicker among the ranks of their dead comrades.\r\n\r\nThere are pilgrims here, of a sort. Their unwashed bodies smell of sweat and smoke, they speak and pray quietly. The curate sacraria re-lights a candle from one that is burning, and offers one for you to do the same.",
+   "ctx": "data/campaign/rules.csv lppVolturnShrineFirstVisit4 [text]"
+  },
+  {
+   "i": 30,
+   "en": "The curate frowns. \"What troubles you about it?\"",
+   "ctx": "data/campaign/rules.csv lppVolturnCurateTroubling [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"No. Not at all.\" She gives you a look of some disgust. \"I am a curate of the Church of Galactic Redemption. What I do and what they do are very different. I hope, I truly hope, you can see that.\"\r\n\r\nHer gaze turns to the weapons, \"I admit, there has been... contact. Each day is a test. I pray we do not stray too far from Ludd.\"",
+   "ctx": "data/campaign/rules.csv lppVolturnCurateLuddicPath [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"The book does tell us 'Blessed are the peacemakers', yet,\" the curate looks at you with hard eyes, \"Peace does not make itself.\"\r\n\r\n\"Ludd was no war-maker, but Ludd knew when to fight. By self-sacrifice, by martyrdom, did not Ludd deliver victory?\"\r\n\r\nShe waves a hand dismissively. \"This is rhetoric to you, perhaps. But to me, it is more simple: I will not let more of my flock be taken to the mines of Cruor as sacrifice to some tin-pot Lucifer.\"",
+   "ctx": "data/campaign/rules.csv lppVolturnCurateTroublingShrine [text]"
+  },
+  {
+   "i": 33,
+   "en": "A smile doubles the wrinkles on her face. \"I believe we understand one another.\"",
+   "ctx": "data/campaign/rules.csv lppVolturnCurateTroublingHeavier [text]"
+  },
+  {
+   "i": 34,
+   "en": "\"I've made a believer of you,\" the curate smiles. \"Good.\"",
+   "ctx": "data/campaign/rules.csv lppVolturnCurateConfirmed [text]"
+  },
+  {
+   "i": 35,
+   "en": "\"The Church is not one mind, but the body of many brought together in council,\" she says. \"Some support our work here with zeal, and some are content merely to pray.\"\r\n\r\nA dark look comes over her, \"I, however, pray that the united face of the Church might not turn from witnessing our suffering. Ludd wept unblinking, it is said; that the Fathers and Mothers of our Church would do the same.\"",
+   "ctx": "data/campaign/rules.csv lppVolturnCurateChurchThink [text]"
+  },
+  {
+   "i": 36,
+   "en": "\"So the torch is passed,\" the curate says. \"Light of flame, light of faith.\"\r\n\r\nShe gives you a sly look, \"Or it's just a candle.\"",
+   "ctx": "data/campaign/rules.csv lppVolturnCurateLightTheCandle [text]"
+  },
+  {
+   "i": 37,
+   "en": "\"The Pneuma lives in these words.\"\r\n\r\nShe is staring sadly, you think, at the candles before you.",
+   "ctx": "data/campaign/rules.csv lppVolturnCurateNotJustCandle [text]"
+  },
+  {
+   "i": 38,
+   "en": "For once, she does not answer.\r\n\r\nShe is staring sadly, you think, at the candles before you.",
+   "ctx": "data/campaign/rules.csv lppVolturnCurateIsJustCandle [text]"
+  },
+  {
+   "i": 39,
+   "en": "Specks float on blue-black like stars in space in the light cast out into the crushing depths. It is an almost unsettling wrongness from a familiar image. Motes of something or other flick to and fro.\r\n\r\n\"Life prevails even here, under unthinkable oppression,\" the curate says. \"Let us be thankful, too, for the ingenuity granted to us by Providence,\" she taps the pressure hull, which resounds dully. \"See? We do not hate all technology.\"",
+   "ctx": "data/campaign/rules.csv lppVolturnShrineWindow [text]"
+  },
+  {
+   "i": 40,
+   "en": "Curate Sacraria Standfast greets you with tea inside the echoing receiving hall before escorting you down to the inner shrine.\r\n\r\nYou enter the creaking, humid inspection module at the end of a modified extraction stack where the shrine is housed, against all reason. Crates and racks of weapons and ammunition are piled high, crowding the pilgrims/insurgents. Their unwashed bodies smell of sweat and smoke. They speak and pray quietly. \r\n\r\nThe small shrine's centerpiece is set in an open space under a round diamond-matrix window holding back the crushing depths of the sea. A few candles flicker among the ranks of their dead comrades. As before, the curate sacraria re-lights a candle from one that is burning, and offers one for you to do the same.",
+   "ctx": "data/campaign/rules.csv lppVolturnShrineRevisit2 [text]"
+  },
+  {
+   "i": 41,
+   "en": "You light the candle from one that still burns, bringing one of its companions back to life and carrying on its flame.",
+   "ctx": "data/campaign/rules.csv lppVolturnShrineRevisitCandle [text]"
+  }
+ ]
+}

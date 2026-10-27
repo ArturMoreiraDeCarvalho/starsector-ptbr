@@ -1,0 +1,116 @@
+{
+ "chunk": 189,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "You signal your comms officer to transmit the coordinates. Some cache of data of interest to a bunch of academics isn’t worth this trouble.\r\n\r\n\"Transmission received, captain,\" says the pirate with a smile. \"It’s been a...\"",
+   "ctx": "data/campaign/rules.csv gaDataGiveCoordsSel [text]"
+  },
+  {
+   "i": 2,
+   "en": "You signal your comms officer to transmit a copy of the data. It’s not like the Galatia Academy explicitly requested exclusivity, right? As long as this gets the pirates off your back so you can complete your mission, there's no harm done.\r\n\r\n\"Transmission received, captain,\" says the pirate with a smile. \"It’s been a pleasure...\"\r\n\r\nYou hit the end transmission button a little harder than necessary before the pirate finishes speaking.",
+   "ctx": "data/campaign/rules.csv gaDataGiveDataCopySel [text]"
+  },
+  {
+   "i": 3,
+   "en": "You explain to the pirate captain that some compensation is required. After all, you traveled all the way out here to provide them with $transmitNoun - good, honest work. $HeOrShe is obviously a practical $manOrWoman of business who knows how to negotiate a beneficial deal for all involved.\r\n\r\nAfter some back and forth, threats and flattery, and not a few lies and boasts, the pirate captain proposes a 'fair compensation' of $gaData_piratePayment credits.",
+   "ctx": "data/campaign/rules.csv gaDataGiveDataNegotiate2 [text]"
+  },
+  {
+   "i": 4,
+   "en": "You cut the transmission, having betrayed the spirit of your agreement with the Academy. You consider whether or not to ignore the sinking feeling of guilt that's set up home in your stomach. Still, they'll be none the wiser, and you've got extra credits in your account.",
+   "ctx": "data/campaign/rules.csv gaDataGiveDataNegotiateAcceptData [text]"
+  },
+  {
+   "i": 5,
+   "en": "You cut the transmission, relieved at being able to salvage something out of the situation. Those academics should have warned you there was likely to be competition!",
+   "ctx": "data/campaign/rules.csv gaDataGiveDataNegotiateAcceptCoords [text]"
+  },
+  {
+   "i": 6,
+   "en": "You cut the transmission and order the bridge crew to prepare for an engagement. Your tactical officer reports the pirate ships are accelerating to attack speed.",
+   "ctx": "data/campaign/rules.csv gaDataDeclinePirateOffer [text]"
+  },
+  {
+   "i": 7,
+   "en": "You sigh impatiently and, with seeming embarrassment for the pirate captain's error, you say \"You weren't informed of the change in plans, were you.\"\r\n\r\nYou explain that they were intended all along as a support force- more of a supply convoy, really- for your fleet which was to carry out the actual mission. It was all quite clear when you were meeting with the Tri-Tachyon executive in charge of the operation. There must have been some kind of slip-up in communication.",
+   "ctx": "data/campaign/rules.csv gaDataBluff [text]"
+  },
+  {
+   "i": 8,
+   "en": "The pirate captain stumbles on $hisOrHer words, confused by the confidence of your bluff. You remind $himOrHer that while Tri-Tachyon pays excellent bonuses for work performed to specifications, they have been known to take rather extreme punitive measures against those who break contracts and endanger important investments.\r\n\r\nYou stick to your story, creating believable details on the fly, and manage to take $himOrHer in completely.\r\n\r\n\"I, yes, ... you!,\" the pirate captain gestures angrily at some underling, \"Get the fuel and supplies transferred NOW.\" $HeOrShe turns back to the display, sulking \"Please, just don’t tell the boss about this.\"",
+   "ctx": "data/campaign/rules.csv gaDataBluff1 [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"The $gaDA_department team has requested retrieval of an object of scientific interest from a derelict ship near $gaDA_starName.\"",
+   "ctx": "data/campaign/rules.csv gaDABlurb [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"The $gaDA_department team needs you to pop on over to the $gaDA_systemName, that’s $gaDA_dist light-years away, to retrieve, um,\" he squints at a datapad, \"'$gaDA_widget' from a derelict ship.\"\r\n\r\n\"I guess it’s in the ship? Or maybe the cargo? It says here they have a pretty good idea of exactly where it is within the hull itself, anyway. This should be simple, right?\"\r\n\r\nHe pauses briefly. \"Oh, the payment! Once you return the $gaDA_widgetNoArticle to the Academy, the finance office will pay you $gaDA_reward credits.\"",
+   "ctx": "data/campaign/rules.csv gaDAMissionTextBasic [text]"
+  },
+  {
+   "i": 11,
+   "en": "Academician Sebestyen's eyes go wide as he reads over the datapad, then he quickly looks back to you. \r\n\r\nHe puts on a bright smile. \"This will be simple, they know exactly where to find the, um,\" $heOrShe looks back to the datapad, brow creased, \"'$gaDA_widgetNoArticle' in the target’s hull. Just send a salvage crew, get the thing, and off you go! And that’s in the $gaDA_systemName, just $gaDA_dist light-years, there and back with,” a few taps on a different datapad, \"around $gaDA_fuel units of fuel for your fleet.\" The academician shifts uncomfortably, as if $heOrShe doesn’t want to deliver bad news.",
+   "ctx": "data/campaign/rules.csv gaDAMissionTextRemnants [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"And. Well, the last expedition they sent. Um. The last transmission said something about 'hostile AI warships'. Maybe.\" $HeOrShe drops $hisOrHer voice, \"We're not supposed to talk about it. Officially, I mean. But it could be ... maybe dangerous? That’s why this one pays more than usual - $gaDA_reward credits. You can handle it, right?\" Academician $personLastName resumes $hisOrHer previous volume \"- And everything will be fine! Just get in, retrieve the object, and return it to the Academy.\"",
+   "ctx": "data/campaign/rules.csv gaDAMissionTextRemnants2 [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"Oh, you found that thing the $gaDA_department Department was so worried about, um- '$gaDA_widget', of course.\"\r\n\r\n$HeOrShe rolls $hisOrHer eyes, \"You wouldn't believe how bothersome they've been about it. This is wonderful, I'll get your payment transferred immediately.\"\r\nOR\r\nAcademician $personLastName glances between the two datapads he's holding, one in each hand.\r\n\r\n\"Captain, you have no idea how worried $gaDA_department was about this, um.\" He considers for a moment, \"'$gaDA_widget', that's what it was! They'll be absolutely delighted when I let them know you found it!\"\r\n\r\n\"First though, I'll let the finance office know to release your payment.\" ",
+   "ctx": "data/campaign/rules.csv gaDAMissionReturn [text]"
+  },
+  {
+   "i": 14,
+   "en": "Your $shipOrFleet makes a pass by the derelict, allowing your sensors officer to give it a cursory scan. Identity of target is verified positive, but with hostiles nearby you can't safely run a deep scan or dispatch salvage teams to investigate and find $gaDA_widget.",
+   "ctx": "data/campaign/rules.csv gaDADerelictHostilesNear [text]"
+  },
+  {
+   "i": 15,
+   "en": "Your $shipOrFleet intercepts the derelict. Your sensors officer runs a full-spectrum active scan, noting outgassing and signs of residual heat. This is a fresh hulk, as derelicts go. You order telemetry logged to the mission report file for the Academy; they love extra data, and it'll prove you've done the job.\r\n\r\nYour operations chief oversees the dispatch of salvage teams as they perform a clean, efficient breach and survey of the hulk. The mission target is missing from its position in the experiment team's project spec, but a young, green spacer follows signs of elevated radiation and soon discovers the $gaDA_widgetNoArticle in a secondary lab space.\r\n\r\nYour ops chief meets your eyes and gives a gruff nod. Success. The target is packaged and extracted in record time; all that remains is to return it to the Galatia Academy.",
+   "ctx": "data/campaign/rules.csv gaDADerelictBasic1 [text]"
+  },
+  {
+   "i": 16,
+   "en": "Your $shipOrFleet intercepts the derelict. Your sensors officer runs a deep active-scan, noting rad-hot volumes and structure damage. This is a fresh, warm hulk, as derelicts go. Your ops chief sees the look you are about to give and orders the salvage teams to bring extra work-drones for the hot sectors.\r\n\r\nYou follow the sweep of salvage teams through the hulk, flicking through display feeds of dead passageways clouded by ghostly debris. The mission target is exactly where it was supposed to be, but you suspect the glaze of carbon-silica on the facing wall was not an intended byproduct of the experiment. The $gaDA_widgetNoArticle appears to be largely intact.\r\n\r\nYour ops chief personally oversees packaging and extraction of the target. All that remains is to return it to the Galatia Academy.",
+   "ctx": "data/campaign/rules.csv gaDADerelictBasic2 [text]"
+  },
+  {
+   "i": 17,
+   "en": "As you approach the derelict your sensors officer points out signs that you're not the first to visit. Outgassing and debris around the target’s hull match the profile of a recent salvage operation.\r\n\r\n\"More like a smash and grab,\" growls your ops chief. Whoever got here first was not a professional judging by the slipshod breaching cuts and tangle of discarded equipment.\r\n\r\nYou send out a salvage team, and they perform a sweep with cautious efficiency. Your mission target is missing, but they do find something unexpected: a leaky suit crudely bolted to a bulkhead, occupant unconscious. The victim of some punishment, evidently. They’re cut free then placed in a quarantined bulkhead while a medic attempts to revive them.",
+   "ctx": "data/campaign/rules.csv gaDADerelictPiratesTookItStart [text]"
+  },
+  {
+   "i": 18,
+   "en": "The victim is thankful and eager to talk- and definitely a pirate. You watch through a holofeed as a story comes out about being left behind due to a perceived transgression which, \"-the others got talking and decided just 'cause they didn't like me much that I was the one to blame. I didn't do a thing to deserve it!\"\r\n\r\nAll of your questions are answered at the cost of only breathable air, a hot meal, and a bulb of spirits.\r\n\r\nIt becomes clear that these pirates knew something special was on the derelict and came here looking for it. They were also caching supplies nearby, so it's likely they'll head there before trying to sell their treasure. If your fleet travels at high speed, you might just catch the pirates before they get away.",
+   "ctx": "data/campaign/rules.csv gaDADerelictContPirates [text]"
+  },
+  {
+   "i": 19,
+   "en": "All that remains is what is to be done with the unfortunate pirate who seems grateful and claims to have been wronged, but is any pirate out here really innocent? Could they be a security risk?",
+   "ctx": "data/campaign/rules.csv gaDADerelictContPirates2 [text]"
+  },
+  {
+   "i": 20,
+   "en": "You approach the derelict. Your sensors officer quickly points out signs that you're not the first to have found it: Outgassing and debris around the target’s hull match the profile of a recent salvage operation. \"... And they were professionals,\" growls your ops chief with more than a hint of respect. Whoever got here first made efficient breaching cuts at key access points, leaving only a neat net of lines secured to borer-pitons favored by deep-space salvage rats.\r\n\r\nYou send out a salvage team knowing what they'll find, and they perform their sweep with cautious efficiency. Your mission target is missing; you order the team's telemetry and holo feeds to be attached to the mission file as proof that you performed this job for the Academy to the best of your ability.",
+   "ctx": "data/campaign/rules.csv gaDADerelictScavengerStart [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"Captain.\" Your operations chief calls attention to an active screen displaying the residual heat around the breaching cuts. \"They're still hot. We might be able to catch the scavengers who made these cuts.\"\r\n\r\nYour mind races, putting a plan together. If you burn fast toward the closest jump-point - their logical destination, possibly after spending more time in-system - you might just catch the scavengers before they jump for hyperspace. Perhaps they can be persuaded to give up the piece you're looking for.",
+   "ctx": "data/campaign/rules.csv gaDADerelictScavengerCont [text]"
+  },
+  {
+   "i": 22,
+   "en": "The bridge crew is muted; they fear the alien power of the Remnants of the First AI War. You'll want to pull off this operation quickly, before you set off some half-functioning threat algorithm in unseen watchers.\r\n\r\nYour operations chief dispatches salvage teams. They perform an efficient breach and survey of the hulk. Battle damage and agrav failure has made a riotous mess of the internal volumes, but your experienced crews have dealt with this situation on countless occasions. They spread out, setting temporary cargo nets to contain and sort the slowly drifting clouds of salvage. Using search parameters based on the specs provided by the Galatia Academy experiment team, the $gaDA_widgetNoArticle is located and secured.\r\n\r\nThe chief notes the mission time elapsed and gives a gruff word of approval over the comms. The teams return, nervous but in good spirits, with their treasure in tow. You need not linger in this place.",
+   "ctx": "data/campaign/rules.csv gaDADerelictRemnantStart [text]"
+  }
+ ]
+}

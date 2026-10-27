@@ -1,0 +1,206 @@
+{
+ "chunk": 141,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "The Pather plot is foiled, perhaps, for now.\r\n\r\nCedra Keepfaith, a murderer before a score of witnesses, was stripped of her rank before the set of the sun by Archcurate Bywater of the Cathedral of Holy Exodus.\r\n\r\nThe Knight-Inquisitors will pursue their brand of justice against her, you are assured.\r\n\r\nBornanew's quest is over.",
+   "ctx": "data/campaign/rules.csv BFFIarrestOutroDead3 [text]"
+  },
+  {
+   "i": 2,
+   "en": "The expression of the Excubitor Orbis does not change. Nonetheless, a coldness seems to have come over him, as if transformed into a statue.\r\n\r\nThe moment draws out and you think he might not respond, then he speaks. \"She is expected.\"\r\n\r\nHe remains stone-faced.",
+   "ctx": "data/campaign/rules.csv BFFIdeliverOakResp [text]"
+  },
+  {
+   "i": 3,
+   "en": "The expression of the Excubitor Orbis does not change. Nonetheless, a coldness seems to have come over him, as if transformed into a statue.\r\n\r\nThe moment draws out and you think he might not respond, then he speaks. \"He is expected.\"\r\n\r\nHe remains stone-faced.",
+   "ctx": "data/campaign/rules.csv BFFIdeliverOakRespNoKF [text]"
+  },
+  {
+   "i": 4,
+   "en": "The expression of the Excubitor Orbis does not change. Nonetheless, a coldness seems to have come over him, as if transformed into a statue.\r\n\r\nThe moment draws out and you think he might not respond, then he speaks. \"Bring him.\"\r\n\r\nHe remains stone-faced.",
+   "ctx": "data/campaign/rules.csv BFFIdeliverOakRespBornDead [text]"
+  },
+  {
+   "i": 5,
+   "en": "The expression of the Excubitor Orbis does not change. Nonetheless, a coldness seems to have come over him, as if transformed into a statue.\r\n\r\nThe moment draws out and you think he might not respond, then he speaks. \"Bring them both.\"\r\n\r\nHe remains stone-faced.",
+   "ctx": "data/campaign/rules.csv BFFIdeliverOakRespBornDeadB [text]"
+  },
+  {
+   "i": 6,
+   "en": "The Excubitor Orbis seems uninclined to make further conversation, so you close the link and order your comms officer to handle the details while a shuttle is prepared.",
+   "ctx": "data/campaign/rules.csv BFFIdeliverOakResp2 [text]"
+  },
+  {
+   "i": 7,
+   "en": "Your officers make arrangements with the local authorities, requesting permission and receiving a flight path to shuttle down to one of the Knights' facilities on the surface of Hesperus.",
+   "ctx": "data/campaign/rules.csv BFFIdeliverToOakStart [text]"
+  },
+  {
+   "i": 8,
+   "en": "Bornanew joins you on the shuttle, his expression closed.",
+   "ctx": "data/campaign/rules.csv BFFIdeliverToOakJustBorn [text]"
+  },
+  {
+   "i": 9,
+   "en": "Bornanew joins you on the shuttle. A muted and restrained Cedra Keepfaith is brought, as well.",
+   "ctx": "data/campaign/rules.csv BFFIdeliverToOakBornAndKeep [text]"
+  },
+  {
+   "i": 10,
+   "en": "The simple spacer's coffin holding Bornanew's body is loaded onto the shuttle. One of the spacers briefly puts their hands together, head bowed, after setting it down. A small sign of Luddic devotion.",
+   "ctx": "data/campaign/rules.csv BFFIdeliverToOakJustBody [text]"
+  },
+  {
+   "i": 11,
+   "en": "A muted Cedra Keepfaith is led aboard by your guards. She does not look at the simple spacer coffin which holds Bornanew's body.",
+   "ctx": "data/campaign/rules.csv BFFIdeliverToOakBodyAndKeep [text]"
+  },
+  {
+   "i": 12,
+   "en": "Your shuttle approaches an almost floral arrangement of pads set in the midst of a former mine pit.\r\n\r\nHeavy doors open from the rockface inviting your landing party into the dimly lit hangar beyond.\r\n\r\nA score of armored Knights march forth - like small, segmented dolls compared with the scale of the door, but as you approach you note their height. They must be the tallest farm-fed children of Gilead and Tartessus, all aclad in polished white armor, half-capes slack in the near-vacuum.\r\n\r\nThey turn precisely aside, weapons held vertical. ",
+   "ctx": "data/campaign/rules.csv BFFIdeliverToOak2 [text]"
+  },
+  {
+   "i": 13,
+   "en": "You enter, the guards reverse their process, and the hangar is pressurized. \r\n\r\nA far door cracks open, casting a long wedge of light. Spots snap on, converted shuttles and fightercraft loom in all corners.\r\n\r\nThe Excubitor Orbis enters. \r\n\r\nGideon Oak is a brick of a man, squat but powerful. Perhaps the product of a forgotten high-G world. He is accompanied by a weedy clerk.",
+   "ctx": "data/campaign/rules.csv BFFIdeliverToOak3 [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"Captain $playerName,\" the Excubitor Orbis nods, his voice gravelly.\r\n\r\nHis dark eyes take in the spacer's coffin carried by your entourage. You turn to give them a nod, and they set the coffin on the floor of the hangar.  \r\n\r\n\"Novice Bornanew,\" he says.",
+   "ctx": "data/campaign/rules.csv BFFIdeliverToOakBodyCheckA [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"Captain $playerName,\" the Excubitor Orbis nods, his voice gravelly.\r\n\r\nHis dark eyes take in the spacer's coffin carried by your entourage. You turn to give them a nod, and they set the coffin on the floor of the hangar.  \r\n\r\n\"Novice Bornanew,\" he says.\r\n\r\nHe seems to be ignoring Keepfaith entirely. For now.",
+   "ctx": "data/campaign/rules.csv BFFIdeliverToOakBodyCheckB [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"Captain $playerName,\" the Excubitor Orbis nods, his voice gravelly.\r\n\r\nHis dark eyes take in Knight-Novice Bornanew beside you. He wears a light vac suit and bears his small satchel of possessions in one hand and the sample case with the false relic glove in the other. He insisted that he needed no help with it.\r\n\r\n\"Novice Bornanew,\" Oak says.",
+   "ctx": "data/campaign/rules.csv BFFIdeliverToOakBodyCheckC [text]"
+  },
+  {
+   "i": 17,
+   "en": "Gideon Oak shifts his stony gaze to you.\r\n\r\n\"Tell me how,\" he says.",
+   "ctx": "data/campaign/rules.csv BFFIdeliverToOakBody1 [text]"
+  },
+  {
+   "i": 18,
+   "en": "Keepfaith inhales as if she might speak, some righteous outburst, but falters. Her eyes fall back toward the ground.\r\n\r\nThe Excubitor Orbis takes in your comment, his face impassive as the stone this hangar was blasted from. His clerk's eyes are downcast.",
+   "ctx": "data/campaign/rules.csv BFFIdeliverToOakBody1howAkeep [text]"
+  },
+  {
+   "i": 19,
+   "en": "Is that a twitch of impatience on the impassive face of the Excubitor Orbis? But truly, the read is in his clerk; she almost cringes at the insufficiency of your answer.\r\n\r\nOak lets out a slow breath.\r\n\r\n\"So be it,\" he says, looking away as if you're no longer worth his time.",
+   "ctx": "data/campaign/rules.csv BFFIdeliverToOakBody1howBkeep [text]"
+  },
+  {
+   "i": 20,
+   "en": "The Excubitor Orbis takes in your comment, his face impassive as the stone this hangar was blasted from.\r\n\r\nHis clerk's eyes are downcast.",
+   "ctx": "data/campaign/rules.csv BFFIdeliverToOakBody1howA [text]"
+  },
+  {
+   "i": 21,
+   "en": "Is that a twitch of impatience on the impassive face of the Excubitor Orbis? But truly, the read is in his clerk; she almost cringes at the insufficiency of your answer.\r\n\r\nOak lets out a slow breath, and looks away from you as if your words are worth nothing to him. He makes a subtle movement with his hand.",
+   "ctx": "data/campaign/rules.csv BFFIdeliverToOakBody1howB [text]"
+  },
+  {
+   "i": 22,
+   "en": "Is that a twitch of impatience on the impassive face of the Excubitor Orbis? But truly, the read is in his clerk; she almost cringes at the insufficiency of your answer.\r\n\r\nOak lets out a slow breath. \"So be it,\" he says, looking away, as if you're not worth his time.",
+   "ctx": "data/campaign/rules.csv BFFIdeliverToOakBody1howC [text]"
+  },
+  {
+   "i": 23,
+   "en": "A quartet of armored Knights take this as their cue to approach Bornanew's coffin. Together, without needing a signal, they lift as one and bear him toward the door at the far end of the hangar. Their silhouettes make long shadows in the wedge of warm light.",
+   "ctx": "data/campaign/rules.csv BFFIdeliverToOakBody2 [text]"
+  },
+  {
+   "i": 24,
+   "en": "The stony gaze of Gideon Oak then turns slowly toward the prisoner in a simple e-suit and bound by hand-restraints - a bit of symbolism more than security measure  - flanked by your guards.\r\n\r\n\"Keepfaith,\" he says.\r\n\r\nShe inhales as if she might speak, some righteous outburst, but falters. Her eyes fall toward the ground.",
+   "ctx": "data/campaign/rules.csv BFFIdeliverToOakKeepfaithCheckA [text]"
+  },
+  {
+   "i": 25,
+   "en": "The stony gaze of Gideon Oak turns slowly toward the prisoner in a simple temp suit with hand-restraints - a bit of symbolism more than security measure  - flanked by your guards.\r\n\r\n\"Keepfaith,\" he says.\r\n\r\nShe inhales as if she might speak, some righteous outburst, but falters. Her eyes fall toward the ground.",
+   "ctx": "data/campaign/rules.csv BFFIdeliverToOakKeepfaithCheckA2 [text]"
+  },
+  {
+   "i": 26,
+   "en": "Oak lets out a slow breath.\r\n\r\nHe makes a subtle movement with his hand, and a pair of the huge, armored guards step to Keepfaith.\r\n\r\nFaceless in their armor, they take her away.",
+   "ctx": "data/campaign/rules.csv BFFIdeliverToOakKeepfaith1 [text]"
+  },
+  {
+   "i": 27,
+   "en": "You are left with Oak, his clerk, and Bornanew.\r\n\r\n\"The glove,\" says the Excubitor Orbis.",
+   "ctx": "data/campaign/rules.csv BFFIdeliverToOakKeepfaith2a [text]"
+  },
+  {
+   "i": 28,
+   "en": "You are left with Oak, his clerk, and the coffin of Bornanew.\r\n\r\n\"And the glove,\" says the Excubitor Orbis.",
+   "ctx": "data/campaign/rules.csv BFFIdeliverToOakKeepfaith2b [text]"
+  },
+  {
+   "i": 29,
+   "en": "The Excubitor Orbis had never stopped watching you. \"Your theory. Tartessus,\" he prompts $global.jethroName.\r\n\r\nBornanew takes a step forward. \"Excubitor Orbis. We tracked the source of the false relic to a nanoforge operated by heretics of the so-called Luddic Path. A station on the far fringe, in the $bffi_patherStationSystem.\"",
+   "ctx": "data/campaign/rules.csv BFFIdeliverToOakKeepfaithCheckC [text]"
+  },
+  {
+   "i": 30,
+   "en": "He glances at you. \"Captain $playerName procured datastores from the station, and the forge, before destroying both. I found communications involving the Subcurate Cedra Keepfaith in the Cathedral of Holy Exodus. I confronted her directly. She interfered with Knight-Captain Larix's weapon and I... was shot.\"\r\n\r\nOak's eyes narrow, which is enough to prompt silence. Oak's clerk looks between him and Bornanew curiously, but she also holds her tongue.\r\n\r\n\"Keepfaith fled and has not been found,\" Bornanew continues. \"The Reverend Archcurate Bywater, of the Cathedral of Holy Exodus, saw fit to strip her of the station of Subcurate in absentia.\"",
+   "ctx": "data/campaign/rules.csv BFFIdeliverKeepfaithExplainEscaped2 [text]"
+  },
+  {
+   "i": 31,
+   "en": "The Excubitor Orbis had never stopped watching you. \"Your theory. Tartessus,\" he prompts $global.jethroName.\r\n\r\nBornanew steps forward. \"I tracked the source of the false relic to a nanoforge operated by Pather heretics. A godless hive of a station on the far fringe, in the $bffi_patherStationSystem.\"",
+   "ctx": "data/campaign/rules.csv BFFIdeliverToOakKeepfaithCheckCbb [text]"
+  },
+  {
+   "i": 32,
+   "en": "He doesn't look at you, but speaks directly. \"Captain $playerName seized datastores from the station, and the forge, before destroying both. I discovered communications involving a traitor, the Subcurate Cedra Keepfaith of the Cathedral of Holy Exodus. I confronted her directly with her crime. She interfered with Knight-Captain Larix's weapon and shot me.\"\r\n\r\nOak's eyes narrow. Oak's clerk looks between him and Bornanew curiously, but she also holds her tongue.",
+   "ctx": "data/campaign/rules.csv BFFIdeliverKeepfaithExplainEscaped2bb [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"The traitor fled and the Knights posted to Tartessus have not found her,\" Bornanew continues, criticism obvious in his tone. \"The Reverend Archcurate Bywater, of the Cathedral of Holy Exodus, saw fit to strip Keepfaith of the station of Subcurate in absentia. Nonetheless, she has thus far escaped punishment. If you simply order the Inquisitors to-\"\r\n\r\nGideon Oak raises a hand, almost a parody of the gesture frozen in the glove that started this all. Bornanew silences himself with obvious reluctance.",
+   "ctx": "data/campaign/rules.csv BFFIdeliverKeepfaithExplainEscaped2bb2 [text]"
+  },
+  {
+   "i": 34,
+   "en": "Oak's clerk finally speaks up, glancing down at her notebook then at the Excubitor Orbis, then you.\r\n\r\n\"The subcur... the accused, Cedra Keepfaith, is in the custody of our order. She is... with the Inquisitors now.\"\r\n\r\nShe folds her notebook away. The Excubitor Orbis does not change his expression.",
+   "ctx": "data/campaign/rules.csv BFFIdeliverToOakKeepfaithCheckD [text]"
+  },
+  {
+   "i": 35,
+   "en": "Oak's clerk finally speaks up, glancing down at her notebook then at the Excubitor Orbis, then you.\r\n\r\n\"The subcur... the accused, Cedra Keepfaith, has been added to watchlists throughout the ecumene. The Heretic-finders of the Inquisition have taken responsibility for the situation.\"\r\n\r\nShe folds her notebook away. The Excubitor Orbis does not change his expression.",
+   "ctx": "data/campaign/rules.csv BFFIdeliverToOakKeepfaithCheckD2 [text]"
+  },
+  {
+   "i": 36,
+   "en": "The Excubitor Orbis had never stopped watching you. \"Your theory. Tartessus,\" he prompts $global.jethroName.\r\n\r\nBornanew steps forward. \"We tracked the source of the false relic to a nanoforge operated by heretics of the so-called Luddic Path. A station on the far fringe, in the $bffi_patherStationSystem.\"",
+   "ctx": "data/campaign/rules.csv BFFIdeliverToOakKeepfaithCheckB [text]"
+  },
+  {
+   "i": 37,
+   "en": "He glances at you. \"The station, and the nanoforge, were annihilated. We did not find evidence of a mole in the Cathedral of Holy Exodus. Humbly, sir, if you would allow-\"\r\n\r\nOak's eyes narrow, which is enough to prompt silence. Oak's clerk looks between him and Bornanew curiously, but she also holds her tongue.",
+   "ctx": "data/campaign/rules.csv BFFIdeliverToOakKeepfaithCheckB2 [text]"
+  },
+  {
+   "i": 38,
+   "en": "He does not look at you, but continues. \"We destroyed the station and the nanoforge. We have not found additional evidence of the mole in the Cathedral of Holy Exodus. The Inquisition should simply declare-\"\r\n\r\nOak's eyes narrow, which is enough to prompt silence, though $global.jethroName bridles to contain himself. Oak's clerk looks between the Excubitor Orbis and Bornanew curiously, and she too holds her tongue.",
+   "ctx": "data/campaign/rules.csv BFFIdeliverToOakKeepfaithCheckB2bb [text]"
+  },
+  {
+   "i": 39,
+   "en": "Bornanew bows, then places the sample container he was carrying on the hangar floor.\r\n\r\nWithout rush or flourish, he unlatches the cover and withdraws it to reveal the false relic, the upthrust work-glove which was never touched by Ludd.",
+   "ctx": "data/campaign/rules.csv BFFIdeliverGloveCheckBornAlive [text]"
+  },
+  {
+   "i": 40,
+   "en": "Bornanew does not bow, but matches Oak's glare as he places the sample container onto the hangar floor.\r\n\r\nWithout rush or flourish, he unlatches the cover and withdraws it to reveal the false relic, the upthrust work-glove which was never touched by Ludd.",
+   "ctx": "data/campaign/rules.csv BFFIdeliverGloveCheckBornAliveBB [text]"
+  }
+ ]
+}

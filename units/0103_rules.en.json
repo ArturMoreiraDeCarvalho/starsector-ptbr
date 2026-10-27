@@ -1,0 +1,246 @@
+{
+ "chunk": 103,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "The grim expanse of the remnant battlestation fills your viewscreen. A bridge officer re-scales the tactical target display so that its entire mass can be seen at once. \r\n\r\nA relic from the First AI War, the station nonetheless appears to be fully armed and operational.\r\n\r\nThe combat analysis system churns for a few seconds and then beeps angrily instead of producing the usual range of tactical recommendations.",
+   "ctx": "data/campaign/rules.csv remnantStationFleetOpenDefault [text]"
+  },
+  {
+   "i": 2,
+   "en": "The grim expanse of the Remnant battlestation fills your viewscreen. A bridge officer re-scales the tactical target display so that its entire mass can be seen at once. \r\n\r\nA relic from the First AI War, the station's long arc gapes with empty sockets where weapons platforms and citadels were once present. Despite the obvious damage, the station is armed and operational.\r\n\r\nThe combat analysis system churns for a few seconds and then beeps angrily instead of producing the usual range of tactical recommendations.",
+   "ctx": "data/campaign/rules.csv remnantStationFleetOpenDamaged [text]"
+  },
+  {
+   "i": 3,
+   "en": "Your $shipOrFleet approaches $aOrAn $nameInText left from the initial Domain exploration of the Sector.",
+   "ctx": "data/campaign/rules.csv sal_derelictDefault [text]"
+  },
+  {
+   "i": 4,
+   "en": "Your $shipOrFleet assumes a stable orbit relative to the debris field.",
+   "ctx": "data/campaign/rules.csv sal_scavengeDebris [text]"
+  },
+  {
+   "i": 5,
+   "en": "A nearby hostile fleet is tracking your movements, making exploration impossible.",
+   "ctx": "data/campaign/rules.csv sal_hostileNearby [text]"
+  },
+  {
+   "i": 6,
+   "en": "Pitted by small impacts, the probe's hull displays iridescence typical of fearsome radiation scarring. Though this probe's manufacture could well date to a thousand cycles ago, some systems are still nominally active.",
+   "ctx": "data/campaign/rules.csv sal_probeDetails [text]"
+  },
+  {
+   "i": 7,
+   "en": "The ancient Domain-era automated survey ship has been ravaged by centuries of exposure to charged particles and high velocity impacts of interstellar dust. Some systems still appear to be nominally active.",
+   "ctx": "data/campaign/rules.csv sal_surveyShipDetails [text]"
+  },
+  {
+   "i": 8,
+   "en": "The vast bulk of the automated exploration mothership is burned and battered by centuries of service to the Domain, a drifting forgotten hulk, though sensors indicate that some systems are still nominally active.",
+   "ctx": "data/campaign/rules.csv sal_mothershipDetails [text]"
+  },
+  {
+   "i": 9,
+   "en": "The form matches the general pattern of Domain-era mining station designs, but with absolutely no provisions made for human occupation. No hab ring, no life support module, no shuttle receiving bays.\r\n\r\nInstead, inactive drone rigs cluster around the ring-trusses. Ore receiving bays lay dark; an agglomeration of zero-G fabricators sprouts from the central spire over the tiers of darkened hangars and warehouses.\r\n\r\nDespite the darkened exterior, sensors reports a mix of minor energy readings and the gentle ticking of particles which suggest a stock of concentrated transplutonics.",
+   "ctx": "data/campaign/rules.csv sal_limboMiningStation [text]"
+  },
+  {
+   "i": 10,
+   "en": "Sensor returns indicate unusually short-lived charged particles near the derelict. Density distribution in the internal structure has also changed from patterns extrapolated from your previous encounters with Domain-era exploration vessels, as if internal masses have been removed or intentionally redistributed.",
+   "ctx": "data/campaign/rules.csv sal_derelictDefConstructionInfo [text]"
+  },
+  {
+   "i": 11,
+   "en": "As your $shipOrFleet moves in closer, new energy signatures are detected near the $shortName.",
+   "ctx": "data/campaign/rules.csv sal_printDefaultDefenders [text]"
+  },
+  {
+   "i": 12,
+   "en": "As your $shipOrFleet moves in closer, new energy signatures are detected near a larger piece of debris.",
+   "ctx": "data/campaign/rules.csv sal_printDebrisDefenders [text]"
+  },
+  {
+   "i": 13,
+   "en": "As your $shipOrFleet moves in closer, several energy signatures are detected coming online inside the probe's hold.",
+   "ctx": "data/campaign/rules.csv sal_triggerProbeDefenders [text]"
+  },
+  {
+   "i": 14,
+   "en": "As your $shipOrFleet moves in closer, multiple energy signatures are detected coming online from various points on and within the flayed hull of the survey ship.",
+   "ctx": "data/campaign/rules.csv sal_triggerSurveyShipDefenders [text]"
+  },
+  {
+   "i": 15,
+   "en": "As your $shipOrFleet moves in closer, numerous strong energy signatures are detected coming online inside the darkened work-bays of the mothership's vast hulk. Your sensors also detect several weapon emplacements powering up on the mothership itself.",
+   "ctx": "data/campaign/rules.csv sal_triggerMothershipDefendersBoth [text]"
+  },
+  {
+   "i": 16,
+   "en": "As your $shipOrFleet moves in closer, numerous strong energy signatures are detected coming online inside the darkened work-bays of the mothership's vast hulk.",
+   "ctx": "data/campaign/rules.csv sal_triggerMothershipDefendersOnlyDrones [text]"
+  },
+  {
+   "i": 17,
+   "en": "As your $shipOrFleet moves in closer, your sensors detect several weapon emplacements powering up in darkened crevasses on the mothership's vast hulk.",
+   "ctx": "data/campaign/rules.csv sal_triggerMothershipDefendersOnlyItself [text]"
+  },
+  {
+   "i": 18,
+   "en": "Your $shipOrFleet finishes its approach to the $nameInText without further incident.",
+   "ctx": "data/campaign/rules.csv sal_continuePostDefenders [text]"
+  },
+  {
+   "i": 19,
+   "en": "As your $shipOrFleet finishes mopping up the automated defenses, a weak hyperwave ping is detected coming from the $shortName. It's unclear if this is random noise from a dying subsystem or some kind of encrypted signal.\r\n\r\nYour $shipOrFleet finishes its approach to the $nameInText without further incident.",
+   "ctx": "data/campaign/rules.csv sal_continuePostDefendersDerelict [text]"
+  },
+  {
+   "i": 20,
+   "en": "Salvage crews set targeting beacons at key points in the structure.",
+   "ctx": "data/campaign/rules.csv sal_demolishOptionSelected [text]"
+  },
+  {
+   "i": 21,
+   "en": "Unfortunately, the pods were wired to explode unless the correct authorization code was given, and the cargo is destroyed in its entirety.",
+   "ctx": "data/campaign/rules.csv pods_breakOption2 [text]"
+  },
+  {
+   "i": 22,
+   "en": "You notice a young novice watching you. As you accidentally meet their eyes, their smile widens; target acquired. They approach, keen on proselytization to a spacer captain.\r\n\r\nThese enthusiastic missionaries are a common enough affliction of spacedocks, so you are not unprepared. As they first draw breath to speak, you seize the initiative and say-",
+   "ctx": "data/campaign/rules.csv lppHookStart [text]"
+  },
+  {
+   "i": 23,
+   "en": "Without making eye contact, you notice one of those youthful proselytizing types attempting to engage with the occasional hard-case spacer. If you wanted to chat, you'd only have to give the subtlest sign and they'd be filling your ears with hymns of Ludd.\r\n\r\nBehind, a humbly yet splendidly robed shadow lurks in a candle-lit alcove. The shrine's Curate, you must assume.",
+   "ctx": "data/campaign/rules.csv lppHookStartAgain [text]"
+  },
+  {
+   "i": 24,
+   "en": "As you meet their eyes, their smile widens; target acquired. They approach, keen to recite the unabridged Sacred Texts of Ludd to you.\r\n\r\nThey first draw breath to speak and you seize the initiative to say-",
+   "ctx": "data/campaign/rules.csv lppHookStartAgain2 [text]"
+  },
+  {
+   "i": 25,
+   "en": "Their mouth shuts, attack-routine shunting to another approach pattern in response to your spoiling feint, then opens again. \r\n\r\n\"If-\" they begin, but you've already turned away.\r\n",
+   "ctx": "data/campaign/rules.csv lppHookNope [text]"
+  },
+  {
+   "i": 26,
+   "en": "Your polite rebuff only kindles their pious urge to engage. \r\n\r\n\"So you've already heard the Good News,\" the novice says eagerly. \"Blessed are you in the eyes of Ludd, already and truly. Do you count yourself among the Faithful or has a sense of spiritual longing brought you to this shrine?\"",
+   "ctx": "data/campaign/rules.csv lppHookPolite [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"Oh! Pardon my presumption, $playerBrotherOrSister. May... may I pray with you for a safe journey through the holy vacuum?\" \r\n\r\nThe novice perhaps asked this rhetorically, for they're already clasping their hands, eyes closed, and calling for submission before divine providence that you may navigate holy Creation to better serve in carrying out Ludd's teachings, and so on.",
+   "ctx": "data/campaign/rules.csv lppHookWalkAlready [text]"
+  },
+  {
+   "i": 28,
+   "en": "You join the novice in prayer, repeating the words as best you can with hands clasped. At first it feels silly to partake in this naive ritual led by a cloistered child of the Church. It is like a lamb leading the lion. \r\n\r\nAnd yet.\r\n\r\nPerhaps there is value in the unblushing faith held by such an innocent.\r\n\r\nWhen the prayer finishes, the novice beams a bright smile at you. Behind, you notice that the shrine's Curate Sacraria - the priest of highest authority here - has been watching your exchange from a candle-lit alcove.",
+   "ctx": "data/campaign/rules.csv lppHookJoinPrayer [text]"
+  },
+  {
+   "i": 29,
+   "en": "You keep quiet and let the youth rattle on while you get in a good eye-roll. \r\n\r\nLetting out a sigh, you happen to spot the shrine's Curate Sacraria, the priest of highest authority here, watching your interaction from a candle-lit alcove. They make eye contact and raise an eyebrow.",
+   "ctx": "data/campaign/rules.csv lppHookPretendPrayer [text]"
+  },
+  {
+   "i": 30,
+   "en": "You politely hold your hands together and mumble something prayer-like, taking a moment to appreciate the poetry of the quoted scripture despite the naive delivery.\r\n\r\nWhen the prayer finishes, the novice beams a bright smile at you. Behind them, you notice that the shrine's Curate Sacraria - the priest of highest authority here - has been watching your exchange from a candle-lit alcove.",
+   "ctx": "data/campaign/rules.csv lppHookPretendPolite [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"Wonderful! Blessed already are those whose spirit of reason calls them to the Church.\"\r\n\r\nThis is everything they could have hoped for, everything they've been training for. You're given an earful and more about sin, forgiveness, redemption, and the spiritual salve of a simple life. Lots about walking a path and stories about how all sorts of people were impressed with things Ludd said and did.\r\n\r\nThe novice winds down, and, noticing your endurance flagging, says \"May... may I pray with you for a safe journey through the holy vacuum?\"",
+   "ctx": "data/campaign/rules.csv lppHookLearn [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"Oh, praise Ludd!\" the novice exclaims, \"That you would be so drawn to spiritual salvation, $playerBrotherOrSister. May... may I pray with you for a safe journey through the holy vacuum?\"",
+   "ctx": "data/campaign/rules.csv lppHookYesAnd [text]"
+  },
+  {
+   "i": 33,
+   "en": "This stops the novice short with a look just this side of panic. It is as if hearing you blaspheme so might sully their own faith. You notice their hands unconsciously motion a sign of contrition.\r\n\r\n\"Ah, that is not- pardon me, I mean to say, 'Blessed are the ignorant', so Ludd said, 'that they might be led on their first steps toward the path to righteousness.' And I believe that, t-truly,\" the novice stammers.\r\n\r\nYou see movement now, from the candle-lit alcove behind the novice.",
+   "ctx": "data/campaign/rules.csv lppHookTroll [text]"
+  },
+  {
+   "i": 34,
+   "en": "The novice seems to brighten up at this. \"It's actually a misunderstanding that the teachings of Ludd are anti-technological, after all...\" They see the look on your face at the threat of another scripture reading. \r\n\r\n\"Ahem. In other words, we believe the problem with advanced technology is not necessarily intrinsic. Well, some technologies are abhorrent- planet-killers, mind-interfacing, crass immortality. Anyway, the six industrial sins are committed when the human spirit is corrupted by technology used without virtue.\"",
+   "ctx": "data/campaign/rules.csv lppHookAntiTech1 [text]"
+  },
+  {
+   "i": 35,
+   "en": "Point made, they nod emphatically. \"You fly a space-ship, right? There are many good reasons to do this. To deliver charity, to unite families, to feed the hungry...\"\r\n\r\nThe novice rattles off some extremely optimistic scenarios, and you're forced to concede - to yourself - that it's not unlikely that some of these causes have been inadvertently served in the course of your career.",
+   "ctx": "data/campaign/rules.csv lppHookAntiTech2 [text]"
+  },
+  {
+   "i": 36,
+   "en": "\"Wait,\" says the novice, \"I-\"\r\n\r\nAnd you're gone.",
+   "ctx": "data/campaign/rules.csv lppHookLeaveA [text]"
+  },
+  {
+   "i": 37,
+   "en": "\"Oh,\" says the novice, \"I-\"\r\n\r\nAnd you're gone.",
+   "ctx": "data/campaign/rules.csv lppHookLeaveB [text]"
+  },
+  {
+   "i": 38,
+   "en": "As if on cue - or perhaps because they were hovering nearby the whole time - the curate of the shrine steps up to you and the novice.",
+   "ctx": "data/campaign/rules.csv lppHookCurateStart [text]"
+  },
+  {
+   "i": 39,
+   "en": "\"That's quite enough, my child,\" they say with iron concealed beneath soft words, \"Perhaps you should undertake a prayer of contrition in the chapel while I speak with the captain.\"\r\n\r\nAbashed, the novice bows and flees. The curate turns to you, face worn with lines of more than just patience.",
+   "ctx": "data/campaign/rules.csv lppHookCurateStartIntroA [text]"
+  },
+  {
+   "i": 40,
+   "en": "\"Ah, the blessed faith of the young,\" the curate dismisses the novice with a nod. \"Forthright and, I'm afraid, tactless.\"\r\n\r\n\"My name is $personName, and I am entrusted with the care of this shrine. I felt called to personally welcome you, captain.\"",
+   "ctx": "data/campaign/rules.csv lppHookCurateStartIntroB [text]"
+  },
+  {
+   "i": 41,
+   "en": "\"You are welcome here,\" the curate calls to you as you go. \"Always.\"",
+   "ctx": "data/campaign/rules.csv lppHookCurateNope [text]"
+  },
+  {
+   "i": 42,
+   "en": "The curate smiles. \"You have my welcome whether you have come for faith or not.\"",
+   "ctx": "data/campaign/rules.csv lppHookCurateThanks1 [text]"
+  },
+  {
+   "i": 43,
+   "en": "\"Perhaps your interest here is purely secular?\" The curate smiles a little, then says \"You have my welcome whether you come with faith or not.\"",
+   "ctx": "data/campaign/rules.csv lppHookCurateThanks [text]"
+  },
+  {
+   "i": 44,
+   "en": "\"Forgive them their youth,\" the curate says with a sad smile. \"We live it but once.\"",
+   "ctx": "data/campaign/rules.csv lppHookCurateAdult [text]"
+  },
+  {
+   "i": 45,
+   "en": "The curate smiles a little. \"You speak already as if you walk among the Faithful. But as Ludd said, 'The truth of words is revealed by where stands the speaker.'\"",
+   "ctx": "data/campaign/rules.csv lppHookCurateBlessing [text]"
+  },
+  {
+   "i": 46,
+   "en": "\"Yes.\" The curate smiles a little, \"Yes, I do. You have caught me out from atop a world-weary wall built around your soul.\"",
+   "ctx": "data/campaign/rules.csv lppHookCurateUseLine [text]"
+  },
+  {
+   "i": 47,
+   "en": "The curate smiles a little. Is $heOrShe hiding something behind $hisOrHer display of piety?",
+   "ctx": "data/campaign/rules.csv lppHookCurateCalled [text]"
+  },
+  {
+   "i": 48,
+   "en": "\"It is my calling to serve the pilgrims who come here.\" \r\n\r\nA pause, then, \"And also those who are not pilgrims.\" $HeOrShe looks expectantly at you, $hisOrHer silence asking which one you are - pilgrim or not?",
+   "ctx": "data/campaign/rules.csv lppHookCurateSegue [text]"
+  }
+ ]
+}

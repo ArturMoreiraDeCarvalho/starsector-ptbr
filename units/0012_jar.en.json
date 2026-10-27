@@ -1,0 +1,1256 @@
+{
+ "chunk": 12,
+ "cat": "jar",
+ "items": [
+  {
+   "i": 1,
+   "en": "Search results",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/codex2/CodexDialog.class"
+  },
+  {
+   "i": 2,
+   "en": " (seconds)",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/codex2/oOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.class"
+  },
+  {
+   "i": 3,
+   "en": "Active duration",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/codex2/oOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.class"
+  },
+  {
+   "i": 4,
+   "en": "Active flux venting disabled while active",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/codex2/oOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.class"
+  },
+  {
+   "i": 5,
+   "en": "Base flux / second",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/codex2/oOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.class"
+  },
+  {
+   "i": 6,
+   "en": "Base flux / use",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/codex2/oOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.class"
+  },
+  {
+   "i": 7,
+   "en": "Can be toggled off",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/codex2/oOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.class"
+  },
+  {
+   "i": 8,
+   "en": "Combat readiness / use",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/codex2/oOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.class"
+  },
+  {
+   "i": 9,
+   "en": "Cooldown",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/codex2/oOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.class"
+  },
+  {
+   "i": 10,
+   "en": "Flux / second, of base rate",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/codex2/oOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.class"
+  },
+  {
+   "i": 11,
+   "en": "Flux / use",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/codex2/oOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.class"
+  },
+  {
+   "i": 12,
+   "en": "Generates hard flux",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/codex2/oOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.class"
+  },
+  {
+   "i": 13,
+   "en": "Maneuvering thrusters disabled while active",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/codex2/oOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.class"
+  },
+  {
+   "i": 14,
+   "en": "Max charges",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/codex2/oOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.class"
+  },
+  {
+   "i": 15,
+   "en": "Minimal",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/codex2/oOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.class"
+  },
+  {
+   "i": 16,
+   "en": "No flux dissipation while active",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/codex2/oOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.class"
+  },
+  {
+   "i": 17,
+   "en": "No hard flux dissipation while active",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/codex2/oOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.class"
+  },
+  {
+   "i": 18,
+   "en": "Requires zero flux boost to activate",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/codex2/oOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.class"
+  },
+  {
+   "i": 19,
+   "en": "Reuse delay",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/codex2/oOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.class"
+  },
+  {
+   "i": 20,
+   "en": "Seconds / recharge",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/codex2/oOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.class"
+  },
+  {
+   "i": 21,
+   "en": "Shields disabled while active",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/codex2/oOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.class"
+  },
+  {
+   "i": 22,
+   "en": "System data",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/codex2/oOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.class"
+  },
+  {
+   "i": 23,
+   "en": "Weapons disabled while active",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/codex2/oOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.class"
+  },
+  {
+   "i": 24,
+   "en": "Command Shuttle",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/B.class"
+  },
+  {
+   "i": 25,
+   "en": "Standard",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/B.class"
+  },
+  {
+   "i": 26,
+   "en": "Captured",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/CombatFleetManager.class"
+  },
+  {
+   "i": 27,
+   "en": "Deployed",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/CombatFleetManager.class"
+  },
+  {
+   "i": 28,
+   "en": "Destroyed",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/CombatFleetManager.class"
+  },
+  {
+   "i": 29,
+   "en": "Disabled",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/CombatFleetManager.class"
+  },
+  {
+   "i": 30,
+   "en": "In Reserve",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/CombatFleetManager.class"
+  },
+  {
+   "i": 31,
+   "en": "Incoming vessels: ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/CombatFleetManager.class"
+  },
+  {
+   "i": 32,
+   "en": "Not found",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/CombatFleetManager.class"
+  },
+  {
+   "i": 33,
+   "en": "Retreated",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/CombatFleetManager.class"
+  },
+  {
+   "i": 34,
+   "en": " again to unpause.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/CombatState.class"
+  },
+  {
+   "i": 35,
+   "en": ", Sleep time: ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/CombatState.class"
+  },
+  {
+   "i": 36,
+   "en": "Applying random damage to enemy ships",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/CombatState.class"
+  },
+  {
+   "i": 37,
+   "en": "Are you sure?\n\nOrdering a full assault will cancel all existing assignments and make your ships engage the enemy forces more aggressively, potentially exposing them to greater danger.\n\nCreating a new assignment (other than \"Eliminate\" or \"Fighter Strike\") will cancel this order; toggling it off directly uses a command point.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/CombatState.class"
+  },
+  {
+   "i": 38,
+   "en": "Autopilot disabled.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/CombatState.class"
+  },
+  {
+   "i": 39,
+   "en": "Autopilot enabled. Any attempt at manual ship control will disable it.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/CombatState.class"
+  },
+  {
+   "i": 40,
+   "en": "Camera: free pan",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/CombatState.class"
+  },
+  {
+   "i": 41,
+   "en": "Camera: locked on ship",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/CombatState.class"
+  },
+  {
+   "i": 42,
+   "en": "Camera: standard",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/CombatState.class"
+  },
+  {
+   "i": 43,
+   "en": "Order a full retreat?\n\nAll ships not already retreating will be issued a \"Retreat\" order. You will not be able to deploy reinforcements or give any more orders.\n\nYour flagship can retreat from the battlefield by reaching the bottom edge of the map.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/CombatState.class"
+  },
+  {
+   "i": 44,
+   "en": "Order a full retreat?\n\nAll ships not already retreating will be issued a \"Retreat\" order. You will not be able to deploy reinforcements or give any more orders.\n\nYour flagship can retreat from the battlefield by reaching the top edge of the map.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/CombatState.class"
+  },
+  {
+   "i": 45,
+   "en": "Order your flagship to retreat? You will be able to transfer command to another ship.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/CombatState.class"
+  },
+  {
+   "i": 46,
+   "en": "Paused. Press ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/CombatState.class"
+  },
+  {
+   "i": 47,
+   "en": "Retreat!",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/CombatState.class"
+  },
+  {
+   "i": 48,
+   "en": "Ship is not combat-ready, controls are locked.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/CombatState.class"
+  },
+  {
+   "i": 49,
+   "en": "Station autopilot enabled and may not be disengaged.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/CombatState.class"
+  },
+  {
+   "i": 50,
+   "en": "Tail time: ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/CombatState.class"
+  },
+  {
+   "i": 51,
+   "en": "The enemy fleet is defeated. Press ESCAPE to end the battle at any time.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/CombatState.class"
+  },
+  {
+   "i": 52,
+   "en": "Claim Victory",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/E.class"
+  },
+  {
+   "i": 53,
+   "en": "End Battle",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/E.class"
+  },
+  {
+   "i": 54,
+   "en": "End Mission",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/E.class"
+  },
+  {
+   "i": 55,
+   "en": "End Simulation",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/E.class"
+  },
+  {
+   "i": 56,
+   "en": "Exit Campaign",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/E.class"
+  },
+  {
+   "i": 57,
+   "en": "Exit Game",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/E.class"
+  },
+  {
+   "i": 58,
+   "en": "Exit the game?\n\nYour current progress will not be saved.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/E.class"
+  },
+  {
+   "i": 59,
+   "en": "Exit the simulation?",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/E.class"
+  },
+  {
+   "i": 60,
+   "en": "Finish the battle as a victory? (dev-mode-only)",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/E.class"
+  },
+  {
+   "i": 61,
+   "en": "Go back to the main menu?\n\nYour current progress will not be saved.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/E.class"
+  },
+  {
+   "i": 62,
+   "en": "Surrender and and go back to main menu?",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/E.class"
+  },
+  {
+   "i": 63,
+   "en": "The enemy is defeated.\n\nLeaving now will allow any remaining ships to retreat unhindered. Proceed?",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/E.class"
+  },
+  {
+   "i": 64,
+   "en": "  Score: %d%%",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/Object/String.class"
+  },
+  {
+   "i": 65,
+   "en": "A good number of enemy ships escape, but their fleet is hardly unscathed.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/Object/String.class"
+  },
+  {
+   "i": 66,
+   "en": "A good number of your ships manage to escape.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/Object/String.class"
+  },
+  {
+   "i": 67,
+   "en": "A large portion of the enemy forces escapes.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/Object/String.class"
+  },
+  {
+   "i": 68,
+   "en": "Bitterly Contested Defeat",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/Object/String.class"
+  },
+  {
+   "i": 69,
+   "en": "Costly Victory",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/Object/String.class"
+  },
+  {
+   "i": 70,
+   "en": "Crushing Defeat!",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/Object/String.class"
+  },
+  {
+   "i": 71,
+   "en": "Crushing Failure!",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/Object/String.class"
+  },
+  {
+   "i": 72,
+   "en": "Hard-fought Defeat",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/Object/String.class"
+  },
+  {
+   "i": 73,
+   "en": "Inconclusive",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/Object/String.class"
+  },
+  {
+   "i": 74,
+   "en": "Major Defeat!",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/Object/String.class"
+  },
+  {
+   "i": 75,
+   "en": "Major Failure!",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/Object/String.class"
+  },
+  {
+   "i": 76,
+   "en": "Major Victory!",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/Object/String.class"
+  },
+  {
+   "i": 77,
+   "en": "Many of your ships are captured, but a fair number escape.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/Object/String.class"
+  },
+  {
+   "i": 78,
+   "en": "Many of your ships are captured, but a few do escape.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/Object/String.class"
+  },
+  {
+   "i": 79,
+   "en": "Minor Defeat",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/Object/String.class"
+  },
+  {
+   "i": 80,
+   "en": "Minor Engagement",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/Object/String.class"
+  },
+  {
+   "i": 81,
+   "en": "Minor Setback",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/Object/String.class"
+  },
+  {
+   "i": 82,
+   "en": "Minor Victory",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/Object/String.class"
+  },
+  {
+   "i": 83,
+   "en": "Most of the enemy forces escape.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/Object/String.class"
+  },
+  {
+   "i": 84,
+   "en": "Most of your fleet is able to get to safety.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/Object/String.class"
+  },
+  {
+   "i": 85,
+   "en": "Pyrrhic Victory",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/Object/String.class"
+  },
+  {
+   "i": 86,
+   "en": "Significant Defeat!",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/Object/String.class"
+  },
+  {
+   "i": 87,
+   "en": "Significant Failure!",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/Object/String.class"
+  },
+  {
+   "i": 88,
+   "en": "Significant Setback",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/Object/String.class"
+  },
+  {
+   "i": 89,
+   "en": "Significant Victory!",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/Object/String.class"
+  },
+  {
+   "i": 90,
+   "en": "Some of your forces escape, but at great cost.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/Object/String.class"
+  },
+  {
+   "i": 91,
+   "en": "The enemy forces make a clean getaway,",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/Object/String.class"
+  },
+  {
+   "i": 92,
+   "en": "Total Victory!",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/Object/String.class"
+  },
+  {
+   "i": 93,
+   "en": "Your forces achieve a minor tactical victory.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/Object/String.class"
+  },
+  {
+   "i": 94,
+   "en": "Your forces are battered, but victorious.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/Object/String.class"
+  },
+  {
+   "i": 95,
+   "en": "Your forces are crushed.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/Object/String.class"
+  },
+  {
+   "i": 96,
+   "en": "Your forces are defeated in a evenly fought battle.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/Object/String.class"
+  },
+  {
+   "i": 97,
+   "en": "Your forces are defeated, but the enemy can hardly call the result a victory.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/Object/String.class"
+  },
+  {
+   "i": 98,
+   "en": "Your forces are defeated.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/Object/String.class"
+  },
+  {
+   "i": 99,
+   "en": "Your forces are soundly defeated.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/Object/String.class"
+  },
+  {
+   "i": 100,
+   "en": "Your forces defeat the enemy.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/Object/String.class"
+  },
+  {
+   "i": 101,
+   "en": "Your forces make a clean getaway.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/Object/String.class"
+  },
+  {
+   "i": 102,
+   "en": "Your forces quit the battlespace before the engagement is over.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/Object/String.class"
+  },
+  {
+   "i": 103,
+   "en": "Your forces rout the enemy.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/Object/String.class"
+  },
+  {
+   "i": 104,
+   "en": "Your forces soundly defeat the enemy.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/Object/String.class"
+  },
+  {
+   "i": 105,
+   "en": "Your forces suffer a minor tactical defeat.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/Object/String.class"
+  },
+  {
+   "i": 106,
+   "en": "Your forces win... but at what cost?",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/Object/String.class"
+  },
+  {
+   "i": 107,
+   "en": "Tutorial ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/Object/oOOO.class"
+  },
+  {
+   "i": 108,
+   "en": "Your forces rout the enemy.  Score: 76%",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/Object/oOOO.class"
+  },
+  {
+   "i": 109,
+   "en": "Waypoint ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/entities/BattlefieldWaypoint.class"
+  },
+  {
+   "i": 110,
+   "en": " Disabled!",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/entities/Ship.class"
+  },
+  {
+   "i": 111,
+   "en": " reports combat readiness will start decreasing soon.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/entities/Ship.class"
+  },
+  {
+   "i": 112,
+   "en": " reports danger of critical malfunctions due to low combat readiness.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/entities/Ship.class"
+  },
+  {
+   "i": 113,
+   "en": " reports danger of malfunctions due to low combat readiness.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/entities/Ship.class"
+  },
+  {
+   "i": 114,
+   "en": "A friendly %s-class vessel has been destroyed",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/entities/Ship.class"
+  },
+  {
+   "i": 115,
+   "en": "A friendly %s-class vessel has taken heavy damage",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/entities/Ship.class"
+  },
+  {
+   "i": 116,
+   "en": "A hostile %s-class vessel has been destroyed",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/entities/Ship.class"
+  },
+  {
+   "i": 117,
+   "en": "Shield Malfunction!",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/entities/Ship.class"
+  },
+  {
+   "i": 118,
+   "en": "The \"%s\", a friendly %s-class vessel, has taken heavy damage",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/entities/Ship.class"
+  },
+  {
+   "i": 119,
+   "en": "The %s, a friendly %s-class vessel, has been destroyed",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/entities/Ship.class"
+  },
+  {
+   "i": 120,
+   "en": "The %s, a hostile %s-class vessel, has been destroyed",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/entities/Ship.class"
+  },
+  {
+   "i": 121,
+   "en": "Your flagship is in danger of suffering critical malfunctions due to low combat readiness.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/entities/Ship.class"
+  },
+  {
+   "i": 122,
+   "en": "Your flagship is in danger of suffering malfunctions due to low combat readiness.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/entities/Ship.class"
+  },
+  {
+   "i": 123,
+   "en": "Your flagship's combat readiness will start decreasing soon due to extended deployment.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/entities/Ship.class"
+  },
+  {
+   "i": 124,
+   "en": " Disabled",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/entities/ship/A/String.class"
+  },
+  {
+   "i": 125,
+   "en": " Malfunction",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/entities/ship/A/String.class"
+  },
+  {
+   "i": 126,
+   "en": " Online",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/entities/ship/A/String.class"
+  },
+  {
+   "i": 127,
+   "en": "Critical Malfunction!",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/entities/ship/A/String.class"
+  },
+  {
+   "i": 128,
+   "en": "Overload!",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/entities/ship/D.class"
+  },
+  {
+   "i": 129,
+   "en": "Engine Malfunction!",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/entities/ship/null.class"
+  },
+  {
+   "i": 130,
+   "en": "Engines Online",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/entities/ship/null.class"
+  },
+  {
+   "i": 131,
+   "en": "Flameout!",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/entities/ship/null.class"
+  },
+  {
+   "i": 132,
+   "en": "cr",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/new/H.class"
+  },
+  {
+   "i": 133,
+   "en": " (+1 CP)",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/new/J.class"
+  },
+  {
+   "i": 134,
+   "en": "Assignments",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/new/J.class"
+  },
+  {
+   "i": 135,
+   "en": "Direct Orders",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/new/J.class"
+  },
+  {
+   "i": 136,
+   "en": "Task %s not valid for object of type %s",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/new/J.class"
+  },
+  {
+   "i": 137,
+   "en": "Waypoints are used to assign tasks to your fleet.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/new/J.class"
+  },
+  {
+   "i": 138,
+   "en": "command points: +1",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/new/J.class"
+  },
+  {
+   "i": 139,
+   "en": "command points: +2",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/new/J.class"
+  },
+  {
+   "i": 140,
+   "en": "fleet points: +10",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/new/J.class"
+  },
+  {
+   "i": 141,
+   "en": "fleet points: +30",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/new/J.class"
+  },
+  {
+   "i": 142,
+   "en": "no bonus to fighters",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/new/J.class"
+  },
+  {
+   "i": 143,
+   "en": "no bonus to frigates",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/new/J.class"
+  },
+  {
+   "i": 144,
+   "en": "reveal area: 5000",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/new/J.class"
+  },
+  {
+   "i": 145,
+   "en": "ship maneuverability: +25%",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/new/J.class"
+  },
+  {
+   "i": 146,
+   "en": "ship top speed: +25",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/new/J.class"
+  },
+  {
+   "i": 147,
+   "en": "ship weapon range: +25%",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/new/J.class"
+  },
+  {
+   "i": 148,
+   "en": "Orders:",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/new/K.class"
+  },
+  {
+   "i": 149,
+   "en": " to unpause.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/new/OoOO.class"
+  },
+  {
+   "i": 150,
+   "en": "Click on an icon to assign the ship to a task",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/new/OoOO.class"
+  },
+  {
+   "i": 151,
+   "en": "free assign",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/new/interface$o.class"
+  },
+  {
+   "i": 152,
+   "en": " Wing",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/private.class"
+  },
+  {
+   "i": 153,
+   "en": "Attack ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/private.class"
+  },
+  {
+   "i": 154,
+   "en": "Capture ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/private.class"
+  },
+  {
+   "i": 155,
+   "en": "Defend ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/private.class"
+  },
+  {
+   "i": 156,
+   "en": "Defend location",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/private.class"
+  },
+  {
+   "i": 157,
+   "en": "Move to destination",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/private.class"
+  },
+  {
+   "i": 158,
+   "en": "Retreat",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/private.class"
+  },
+  {
+   "i": 159,
+   "en": "Return to carrier (",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/private.class"
+  },
+  {
+   "i": 160,
+   "en": "Search & Destroy",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/private.class"
+  },
+  {
+   "i": 161,
+   "en": "EMITTER ACTIVE",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/systems/D.class"
+  },
+  {
+   "i": 162,
+   "en": " effect",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/systems/F.class"
+  },
+  {
+   "i": 163,
+   "en": "cloak disabled",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/systems/F.class"
+  },
+  {
+   "i": 164,
+   "en": "maneuvering jets disabled",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/systems/F.class"
+  },
+  {
+   "i": 165,
+   "en": "no flux dissipation",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/systems/F.class"
+  },
+  {
+   "i": 166,
+   "en": "no hard flux dissipation",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/systems/F.class"
+  },
+  {
+   "i": 167,
+   "en": "requires zero flux boost",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/systems/F.class"
+  },
+  {
+   "i": 168,
+   "en": "shields disabled",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/systems/F.class"
+  },
+  {
+   "i": 169,
+   "en": "special disabled",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/systems/F.class"
+  },
+  {
+   "i": 170,
+   "en": "thruster controls locked",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/systems/F.class"
+  },
+  {
+   "i": 171,
+   "en": "venting disabled",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/systems/F.class"
+  },
+  {
+   "i": 172,
+   "en": "weapon systems disabled",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/systems/F.class"
+  },
+  {
+   "i": 173,
+   "en": " weapons",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/systems/if.class"
+  },
+  {
+   "i": 174,
+   "en": "no weapons to reload",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/systems/if.class"
+  },
+  {
+   "i": 175,
+   "en": "reloading ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/systems/if.class"
+  },
+  {
+   "i": 176,
+   "en": " deployed",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/systems/oO0O.class"
+  },
+  {
+   "i": 177,
+   "en": "1 deployed",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/systems/oO0O.class"
+  },
+  {
+   "i": 178,
+   "en": "all drones recalled",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/systems/oO0O.class"
+  },
+  {
+   "i": 179,
+   "en": "deploying drones",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/systems/oO0O.class"
+  },
+  {
+   "i": 180,
+   "en": "free roam",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/systems/oO0O.class"
+  },
+  {
+   "i": 181,
+   "en": "in holding pattern",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/systems/oO0O.class"
+  },
+  {
+   "i": 182,
+   "en": "launching drone",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/systems/oO0O.class"
+  },
+  {
+   "i": 183,
+   "en": "no drones left",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/systems/oO0O.class"
+  },
+  {
+   "i": 184,
+   "en": "recalling",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/systems/oO0O.class"
+  },
+  {
+   "i": 185,
+   "en": "Allied forces are now in a full retreat!",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/tasks/CombatTaskManager.class"
+  },
+  {
+   "i": 186,
+   "en": "Your fleet is in a full retreat! No further orders will be carried out.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/combat/tasks/CombatTaskManager.class"
+  },
+  {
+   "i": 187,
+   "en": " to acquire detailed starcharts",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/A.class"
+  },
+  {
+   "i": 188,
+   "en": "Cleared laid-in course",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/A.class"
+  },
+  {
+   "i": 189,
+   "en": "Go to system map",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/A.class"
+  },
+  {
+   "i": 190,
+   "en": "Invalid destination",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/A.class"
+  },
+  {
+   "i": 191,
+   "en": "Show colony info",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/A.class"
+  },
+  {
+   "i": 192,
+   "en": "Show nebula info",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/A.class"
+  },
+  {
+   "i": 193,
+   "en": "Show planet info",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/A.class"
+  },
+  {
+   "i": 194,
+   "en": "Show star info",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/A.class"
+  },
+  {
+   "i": 195,
+   "en": "Show station info",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/A.class"
+  },
+  {
+   "i": 196,
+   "en": "Show system info",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/A.class"
+  },
+  {
+   "i": 197,
+   "en": "Visit the ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/A.class"
+  },
+  {
+   "i": 198,
+   "en": "Sector",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/G.class"
+  },
+  {
+   "i": 199,
+   "en": "%d light years",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/I.class"
+  },
+  {
+   "i": 200,
+   "en": "ly / day",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/I.class"
+  },
+  {
+   "i": 201,
+   "en": "ly range",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/I.class"
+  },
+  {
+   "i": 202,
+   "en": " - Yours",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/J.class"
+  },
+  {
+   "i": 203,
+   "en": "Days",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/O0Oo.class"
+  },
+  {
+   "i": 204,
+   "en": "Distance",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/O0Oo.class"
+  },
+  {
+   "i": 205,
+   "en": "Fuel",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/O0Oo.class"
+  },
+  {
+   "i": 206,
+   "en": "Unable to find course to ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/O0Oo.class"
+  },
+  {
+   "i": 207,
+   "en": "Unidentified contact",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/O0Oo.class"
+  },
+  {
+   "i": 208,
+   "en": "Unidentified entity",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/O0Oo.class"
+  },
+  {
+   "i": 209,
+   "en": "Unidentified fleet",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/O0Oo.class"
+  },
+  {
+   "i": 210,
+   "en": "Waypoint",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/O0Oo.class"
+  },
+  {
+   "i": 211,
+   "en": "cancel",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/O0Oo.class"
+  },
+  {
+   "i": 212,
+   "en": "course laid in for",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/O0Oo.class"
+  },
+  {
+   "i": 213,
+   "en": "nav error",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/O0Oo.class"
+  },
+  {
+   "i": 214,
+   "en": "resume course",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/O0Oo.class"
+  },
+  {
+   "i": 215,
+   "en": "via",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/O0Oo.class"
+  },
+  {
+   "i": 216,
+   "en": " (military)",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/OoOO.class"
+  },
+  {
+   "i": 217,
+   "en": "Fully surveyed",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/OoOO.class"
+  },
+  {
+   "i": 218,
+   "en": "Has unexplored ruins",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/OoOO.class"
+  },
+  {
+   "i": 219,
+   "en": "Preliminary survey completed",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/OoOO.class"
+  },
+  {
+   "i": 220,
+   "en": "Required to survey",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/OoOO.class"
+  },
+  {
+   "i": 221,
+   "en": "Unsurveyed",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/OoOO.class"
+  },
+  {
+   "i": 222,
+   "en": "orbital station",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/OoOO.class"
+  },
+  {
+   "i": 223,
+   "en": " remaining",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/OoOo.class"
+  },
+  {
+   "i": 224,
+   "en": "Calibrating: %s ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/OoOo.class"
+  },
+  {
+   "i": 225,
+   "en": "Show a \"real-space\" view of the sector.\n\nNebula color indicates the age of stars inside. (Blue: young, purple: average, yellow: old.)",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/R$1.class"
+  },
+  {
+   "i": 226,
+   "en": "Show the names of stars, planets, orbital stations, and other similar points of interest.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/R$2.class"
+  },
+  {
+   "i": 227,
+   "en": "Show the names of constellations and other high-level sector features.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/R$3.class"
+  },
+  {
+   "i": 228,
+   "en": "Show only the names of star systems and planets known to be inhabited.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/R$4.class"
+  },
+  {
+   "i": 229,
+   "en": "All planets fully surveyed",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/R$5.class"
+  },
+  {
+   "i": 230,
+   "en": "Fully surveyed planet",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/R$5.class"
+  },
+  {
+   "i": 231,
+   "en": "Planets:",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/R$5.class"
+  },
+  {
+   "i": 232,
+   "en": "Preliminary planet survey performed",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/R$5.class"
+  },
+  {
+   "i": 233,
+   "en": "Preliminary planet surveys performed",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/R$5.class"
+  },
+  {
+   "i": 234,
+   "en": "Show how much information you have about specific star systems or planets.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/R$5.class"
+  },
+  {
+   "i": 235,
+   "en": "Some planets unsurveyed",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/R$5.class"
+  },
+  {
+   "i": 236,
+   "en": "Star systems:",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/R$5.class"
+  },
+  {
+   "i": 237,
+   "en": "Unsurveyed planet",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/R$5.class"
+  },
+  {
+   "i": 238,
+   "en": "Unvisited star system",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/R$5.class"
+  },
+  {
+   "i": 239,
+   "en": "Show the maximum hyperspace range of your fleet based on the amount of fuel it's carrying.\n\nGoing beyond half the range means you'll need to refuel to be able to return.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/R$6.class"
+  },
+  {
+   "i": 240,
+   "en": "Constellations",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/R.class"
+  },
+  {
+   "i": 241,
+   "en": "Exploration",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/R.class"
+  },
+  {
+   "i": 242,
+   "en": "Fuel range",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/R.class"
+  },
+  {
+   "i": 243,
+   "en": "Inhabited",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/R.class"
+  },
+  {
+   "i": 244,
+   "en": "Missions",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/R.class"
+  },
+  {
+   "i": 245,
+   "en": "Names",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/R.class"
+  },
+  {
+   "i": 246,
+   "en": "Show fuel range",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/R.class"
+  },
+  {
+   "i": 247,
+   "en": "Starscape",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/R.class"
+  },
+  {
+   "i": 248,
+   "en": "Location marker.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/Y.class"
+  },
+  {
+   "i": 249,
+   "en": "show intel",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/Y.class"
+  },
+  {
+   "i": 250,
+   "en": "Days (at base burn level)",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/Z$1.class"
+  }
+ ]
+}

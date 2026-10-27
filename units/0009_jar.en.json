@@ -1,0 +1,1256 @@
+{
+ "chunk": 9,
+ "cat": "jar",
+ "items": [
+  {
+   "i": 1,
+   "en": "In demand and available, but beyond shipping capacity.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog$3.class"
+  },
+  {
+   "i": 2,
+   "en": "In demand, but not available from this source.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog$3.class"
+  },
+  {
+   "i": 3,
+   "en": "Potential source of commodity.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog$3.class"
+  },
+  {
+   "i": 4,
+   "en": "Shows units of the commodity that might be used to satisfy demand. Markets prefer a supplier that can satisfy more of their demand.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog$3.class"
+  },
+  {
+   "i": 5,
+   "en": " - Commodities",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 6,
+   "en": " - competition for exporting ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 7,
+   "en": " - current and alternate sources of ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 8,
+   "en": " - current and possible ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 9,
+   "en": " at ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 10,
+   "en": " being produced",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 11,
+   "en": " compares to other options. ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 12,
+   "en": " compares to the market's other options as a source of ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 13,
+   "en": " currently bring in %s per month, before overhead.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 14,
+   "en": " does not produce any ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 15,
+   "en": " exports",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 16,
+   "en": " exports from ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 17,
+   "en": " for another market.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 18,
+   "en": " is ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 19,
+   "en": " is already the current supplier.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 20,
+   "en": " is not currently exporting any ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 21,
+   "en": " is ranked at least tenth",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 22,
+   "en": " of ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 23,
+   "en": " on ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 24,
+   "en": " on the list of preferred ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 25,
+   "en": " suppliers ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 26,
+   "en": " were the best supplier of ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 27,
+   "en": ", which could be exported if ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 28,
+   "en": "A market chooses a single source to get its supply of a commodity. Should that source go away or become less desirable, the next best source will be used. In order of importance, a market will prefer a supplier that:\n\n- can satisfy more of the demand\n- is local to the market\n- has higher accessibility from the market\n",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 29,
+   "en": "Alternate suppliers",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 30,
+   "en": "Competing exporters",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 31,
+   "en": "Faction",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 32,
+   "en": "Faction that controls this market. Markets prefer same-faction markets as sources of supply.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 33,
+   "en": "Hide 0-income exports",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 34,
+   "en": "How ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 35,
+   "en": "How this source of ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 36,
+   "en": "Market name or \"local production\"; \"current\" after the name indicates that it's the current supplier.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 37,
+   "en": "Market name; \"current\" after the name indicates that ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 38,
+   "en": "Market size.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 39,
+   "en": "Monthly income from this export. Current exports in yellow, potential exports in dim yellow. Potential smuggling profits shown in red when market is not a free port.\n\nExports to markets of the same faction do not generate income.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 40,
+   "en": "No income - not an export.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 41,
+   "en": "No potential exports where ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 42,
+   "en": "No potential profitable exports where ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 43,
+   "en": "No potential suppliers",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 44,
+   "en": "Only show current exports",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 45,
+   "en": "Potential export to...",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 46,
+   "en": "Potential exports",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 47,
+   "en": "Potential supplier",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 48,
+   "en": "Quantity",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 49,
+   "en": "Rank",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 50,
+   "en": "Select a market to display its location on the map",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 51,
+   "en": "Select a market to show its sources of ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 52,
+   "en": "Select potential importer to view their current suppliers",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 53,
+   "en": "The supplier ranked first is the best available option and is the one currently being used.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 54,
+   "en": "There ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 55,
+   "en": "below tenth",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 56,
+   "en": "eighth",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 57,
+   "en": "fifth",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 58,
+   "en": "first",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 59,
+   "en": "for ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 60,
+   "en": "fourth",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 61,
+   "en": "is",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 62,
+   "en": "ninth",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 63,
+   "en": "second",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 64,
+   "en": "seventh",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 65,
+   "en": "sixth",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 66,
+   "en": "tenth",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 67,
+   "en": "third",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 68,
+   "en": "unit",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 69,
+   "en": "unit is",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 70,
+   "en": "units",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 71,
+   "en": "units are",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class"
+  },
+  {
+   "i": 72,
+   "en": "Back",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityOverviewPanel.class"
+  },
+  {
+   "i": 73,
+   "en": "Click on commodity icons for detailed information",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityOverviewPanel.class"
+  },
+  {
+   "i": 74,
+   "en": "In circulation & excess stockpiles",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityOverviewPanel.class"
+  },
+  {
+   "i": 75,
+   "en": "Incoming",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityOverviewPanel.class"
+  },
+  {
+   "i": 76,
+   "en": "No significant incoming",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityOverviewPanel.class"
+  },
+  {
+   "i": 77,
+   "en": "None in circulation last month",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityOverviewPanel.class"
+  },
+  {
+   "i": 78,
+   "en": "Outgoing",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityOverviewPanel.class"
+  },
+  {
+   "i": 79,
+   "en": "Commodities",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityPanel.class"
+  },
+  {
+   "i": 80,
+   "en": "Demand",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityRowV2.class"
+  },
+  {
+   "i": 81,
+   "en": "Exported to",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityRowV2.class"
+  },
+  {
+   "i": 82,
+   "en": "Imported from",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityRowV2.class"
+  },
+  {
+   "i": 83,
+   "en": "Production",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityRowV2.class"
+  },
+  {
+   "i": 84,
+   "en": " and controls %s of the global market share.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityTooltipFactory$1.class"
+  },
+  {
+   "i": 85,
+   "en": " and controls %s of the global market share. ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityTooltipFactory$1.class"
+  },
+  {
+   "i": 86,
+   "en": " and controls %s of the global market share. Exports bring in %s per month.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityTooltipFactory$1.class"
+  },
+  {
+   "i": 87,
+   "en": " bring in no income.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityTooltipFactory$1.class"
+  },
+  {
+   "i": 88,
+   "en": " controls %s of the export market share for ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityTooltipFactory$1.class"
+  },
+  {
+   "i": 89,
+   "en": " is exporting %s ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityTooltipFactory$1.class"
+  },
+  {
+   "i": 90,
+   "en": " is profitably exporting %s ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityTooltipFactory$1.class"
+  },
+  {
+   "i": 91,
+   "en": "Click to view global market info",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityTooltipFactory$1.class"
+  },
+  {
+   "i": 92,
+   "en": "Deficit - in demand, but not available. Higher prices.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityTooltipFactory$1.class"
+  },
+  {
+   "i": 93,
+   "en": "Demand met through imports from outside the faction.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityTooltipFactory$1.class"
+  },
+  {
+   "i": 94,
+   "en": "Demand met through in-faction imports.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityTooltipFactory$1.class"
+  },
+  {
+   "i": 95,
+   "en": "Demand met through local production.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityTooltipFactory$1.class"
+  },
+  {
+   "i": 96,
+   "en": "Excess - available, but not in demand or exported. Lower prices.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityTooltipFactory$1.class"
+  },
+  {
+   "i": 97,
+   "en": "Exports",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityTooltipFactory$1.class"
+  },
+  {
+   "i": 98,
+   "en": "Exports are reduced by %s due to insufficient accessibility.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityTooltipFactory$1.class"
+  },
+  {
+   "i": 99,
+   "en": "Exports of ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityTooltipFactory$1.class"
+  },
+  {
+   "i": 100,
+   "en": "Imported or available through one-time trade or events.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityTooltipFactory$1.class"
+  },
+  {
+   "i": 101,
+   "en": "Increasing production and colony accessibility will both increase the export market share and income.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityTooltipFactory$1.class"
+  },
+  {
+   "i": 102,
+   "en": "Legend",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityTooltipFactory$1.class"
+  },
+  {
+   "i": 103,
+   "en": "Must be in range of a comm relay to view global market info",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityTooltipFactory$1.class"
+  },
+  {
+   "i": 104,
+   "en": "No local production to export.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityTooltipFactory$1.class"
+  },
+  {
+   "i": 105,
+   "en": "Only the highest local source of supply is used. Imports and smuggling can only increase the units available up to the highest number of units produced at another colony.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityTooltipFactory$1.class"
+  },
+  {
+   "i": 106,
+   "en": "Press %s to go back",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityTooltipFactory$1.class"
+  },
+  {
+   "i": 107,
+   "en": "Press %s to show legend",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityTooltipFactory$1.class"
+  },
+  {
+   "i": 108,
+   "en": "Production used for local demand or exports.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityTooltipFactory$1.class"
+  },
+  {
+   "i": 109,
+   "en": "Production, imports, and demand",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityTooltipFactory$1.class"
+  },
+  {
+   "i": 110,
+   "en": "Smuggled or produced by an illegal enterprise. No income from exports.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityTooltipFactory$1.class"
+  },
+  {
+   "i": 111,
+   "en": "This trade brings in no income due to being underground.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityTooltipFactory$1.class"
+  },
+  {
+   "i": 112,
+   "en": "Needed by ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityTooltipFactory$o.class"
+  },
+  {
+   "i": 113,
+   "en": "Produced by ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityTooltipFactory$o.class"
+  },
+  {
+   "i": 114,
+   "en": "    Demand",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/EconomyOverviewPanel.class"
+  },
+  {
+   "i": 115,
+   "en": "    Exports",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/EconomyOverviewPanel.class"
+  },
+  {
+   "i": 116,
+   "en": "    Imports",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/EconomyOverviewPanel.class"
+  },
+  {
+   "i": 117,
+   "en": "    No significant demand",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/EconomyOverviewPanel.class"
+  },
+  {
+   "i": 118,
+   "en": "    No significant exports",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/EconomyOverviewPanel.class"
+  },
+  {
+   "i": 119,
+   "en": "    No significant imports",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/EconomyOverviewPanel.class"
+  },
+  {
+   "i": 120,
+   "en": "    No significant production",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/EconomyOverviewPanel.class"
+  },
+  {
+   "i": 121,
+   "en": "    Production",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/EconomyOverviewPanel.class"
+  },
+  {
+   "i": 122,
+   "en": " units due to local overstocking",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/EconomyOverviewPanel.class"
+  },
+  {
+   "i": 123,
+   "en": " units in circulation, some may be for sale on the black market",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/EconomyOverviewPanel.class"
+  },
+  {
+   "i": 124,
+   "en": " units in reserve, available for sale",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/EconomyOverviewPanel.class"
+  },
+  {
+   "i": 125,
+   "en": " units last month",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/EconomyOverviewPanel.class"
+  },
+  {
+   "i": 126,
+   "en": " units per month",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/EconomyOverviewPanel.class"
+  },
+  {
+   "i": 127,
+   "en": " units per month at current consumption rate",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/EconomyOverviewPanel.class"
+  },
+  {
+   "i": 128,
+   "en": " units, available for sale",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/EconomyOverviewPanel.class"
+  },
+  {
+   "i": 129,
+   "en": " units, illegal on the open market",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/EconomyOverviewPanel.class"
+  },
+  {
+   "i": 130,
+   "en": "Click on a commodity icon for detailed information",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/EconomyOverviewPanel.class"
+  },
+  {
+   "i": 131,
+   "en": "Commodities in circulation & excess stockpiles",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/EconomyOverviewPanel.class"
+  },
+  {
+   "i": 132,
+   "en": "Economic overview",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/EconomyOverviewPanel.class"
+  },
+  {
+   "i": 133,
+   "en": "No commodities in circulation last month",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/EconomyOverviewPanel.class"
+  },
+  {
+   "i": 134,
+   "en": "consuming ~",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/EconomyOverviewPanel.class"
+  },
+  {
+   "i": 135,
+   "en": "excess stockpiles of ~",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/EconomyOverviewPanel.class"
+  },
+  {
+   "i": 136,
+   "en": "exported ~",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/EconomyOverviewPanel.class"
+  },
+  {
+   "i": 137,
+   "en": "imported ~",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/EconomyOverviewPanel.class"
+  },
+  {
+   "i": 138,
+   "en": "met demand of ~",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/EconomyOverviewPanel.class"
+  },
+  {
+   "i": 139,
+   "en": "producing ~",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/EconomyOverviewPanel.class"
+  },
+  {
+   "i": 140,
+   "en": "production reduced by ~",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/EconomyOverviewPanel.class"
+  },
+  {
+   "i": 141,
+   "en": "smuggled in ~",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/EconomyOverviewPanel.class"
+  },
+  {
+   "i": 142,
+   "en": "smuggled out ~",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/EconomyOverviewPanel.class"
+  },
+  {
+   "i": 143,
+   "en": "unmet demand of ~",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/EconomyOverviewPanel.class"
+  },
+  {
+   "i": 144,
+   "en": "Empty",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/ExistingIndustryPickerDialog.class"
+  },
+  {
+   "i": 145,
+   "en": "Industry/structure",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/ExistingIndustryPickerDialog.class"
+  },
+  {
+   "i": 146,
+   "en": "Forces available to be assigned. Higher raid effectiveness allows more objectives to be targeted with a single raid. One marine unit is available for every %s raid effectiveness. The current raid effectiveness is %s and %s marine units are available.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/GroundRaidTargetPickerDialog$1.class"
+  },
+  {
+   "i": 147,
+   "en": "Holding some forces in reserve will reduce the casualties suffered by your marines by %s per unit, but the reserves will not directly contribute to achieving any objectives.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/GroundRaidTargetPickerDialog$1.class"
+  },
+  {
+   "i": 148,
+   "en": "Left-click on an objective to assign forces, right-click to unassign. Control or shift click to assign/unassign all forces to/from an objective.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/GroundRaidTargetPickerDialog$1.class"
+  },
+  {
+   "i": 149,
+   "en": " in your fleet and the projected casualties ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/GroundRaidTargetPickerDialog$2.class"
+  },
+  {
+   "i": 150,
+   "en": ". Actual losses taken are ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/GroundRaidTargetPickerDialog$2.class"
+  },
+  {
+   "i": 151,
+   "en": "No objectives currently designated.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/GroundRaidTargetPickerDialog$2.class"
+  },
+  {
+   "i": 152,
+   "en": "Projected casualties: %s",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/GroundRaidTargetPickerDialog$2.class"
+  },
+  {
+   "i": 153,
+   "en": "Projected marine casualties if the raid is carried out. Depends on the danger level of the designated objectives, as well as on other factors. Leaving some forces in reserve reduces the overall casualties.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/GroundRaidTargetPickerDialog$2.class"
+  },
+  {
+   "i": 154,
+   "en": "You have %s ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/GroundRaidTargetPickerDialog$2.class"
+  },
+  {
+   "i": 155,
+   "en": "in this operation are %s ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/GroundRaidTargetPickerDialog$2.class"
+  },
+  {
+   "i": 156,
+   "en": "likely to vary substantially.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/GroundRaidTargetPickerDialog$2.class"
+  },
+  {
+   "i": 157,
+   "en": "marine",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/GroundRaidTargetPickerDialog$2.class"
+  },
+  {
+   "i": 158,
+   "en": "marines",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/GroundRaidTargetPickerDialog$2.class"
+  },
+  {
+   "i": 159,
+   "en": "Projected total value of all spoils from the raid. The value of some objectives, such as blueprints, is difficult to estimate due to the high variance possible. These kinds of objectives are not included in this value.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/GroundRaidTargetPickerDialog$3.class"
+  },
+  {
+   "i": 160,
+   "en": "Deficit. Less available, higher danger level.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/GroundRaidTargetPickerDialog$4.class"
+  },
+  {
+   "i": 161,
+   "en": "Excess stockpiles. More available, lower danger level.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/GroundRaidTargetPickerDialog$4.class"
+  },
+  {
+   "i": 162,
+   "en": "Imported by the colony. Average quantity available, standard danger level.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/GroundRaidTargetPickerDialog$4.class"
+  },
+  {
+   "i": 163,
+   "en": "Name or description of objective.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/GroundRaidTargetPickerDialog$4.class"
+  },
+  {
+   "i": 164,
+   "en": "Name or description of objective. For commodities, also indicates its availability.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/GroundRaidTargetPickerDialog$4.class"
+  },
+  {
+   "i": 165,
+   "en": "Produced by the colony. Average quantity available, lower danger level.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/GroundRaidTargetPickerDialog$4.class"
+  },
+  {
+   "i": 166,
+   "en": "Marine units assigned to objective.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/GroundRaidTargetPickerDialog$5.class"
+  },
+  {
+   "i": 167,
+   "en": "Marine units required to achieve objective.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/GroundRaidTargetPickerDialog$5.class"
+  },
+  {
+   "i": 168,
+   "en": "Number of marine units assigned to the objective. Some objectives require a fixed number of marine units to be achieved.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/GroundRaidTargetPickerDialog$5.class"
+  },
+  {
+   "i": 169,
+   "en": "Approximate credit value of spoils for each marine unit assigned to the objective. For objectives that require a fixed number of marine units, the total approximate value.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/GroundRaidTargetPickerDialog.class"
+  },
+  {
+   "i": 170,
+   "en": "Approximate quantity for each marine unit assigned to the objective. Can also be a credit value, and, for objectives that require a fixed number of marine units, the total approximate quantity.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/GroundRaidTargetPickerDialog.class"
+  },
+  {
+   "i": 171,
+   "en": "Assigned forces",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/GroundRaidTargetPickerDialog.class"
+  },
+  {
+   "i": 172,
+   "en": "Available cargo space",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/GroundRaidTargetPickerDialog.class"
+  },
+  {
+   "i": 173,
+   "en": "Available forces:   ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/GroundRaidTargetPickerDialog.class"
+  },
+  {
+   "i": 174,
+   "en": "Available fuel space",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/GroundRaidTargetPickerDialog.class"
+  },
+  {
+   "i": 175,
+   "en": "Danger",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/GroundRaidTargetPickerDialog.class"
+  },
+  {
+   "i": 176,
+   "en": "Danger level your marines will face to achieve this objective. Higher danger level increases casualties.\n\nCasualties are also affected by other factors; hover over the \"Projected marine casualties\" for details.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/GroundRaidTargetPickerDialog.class"
+  },
+  {
+   "i": 177,
+   "en": "Disrupted?",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/GroundRaidTargetPickerDialog.class"
+  },
+  {
+   "i": 178,
+   "en": "Disruption days",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/GroundRaidTargetPickerDialog.class"
+  },
+  {
+   "i": 179,
+   "en": "How many additional days the target will be disrupted for, given the number of marine units currently assigned. Already-disrupted targets suffer less disruption from continued raids.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/GroundRaidTargetPickerDialog.class"
+  },
+  {
+   "i": 180,
+   "en": "How many days the target is already disrupted for. Already-disrupted targets suffer less disruption from continued raids.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/GroundRaidTargetPickerDialog.class"
+  },
+  {
+   "i": 181,
+   "en": "Impact",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/GroundRaidTargetPickerDialog.class"
+  },
+  {
+   "i": 182,
+   "en": "No possible objectives",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/GroundRaidTargetPickerDialog.class"
+  },
+  {
+   "i": 183,
+   "en": "Objective",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/GroundRaidTargetPickerDialog.class"
+  },
+  {
+   "i": 184,
+   "en": "Projected marine casualties",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/GroundRaidTargetPickerDialog.class"
+  },
+  {
+   "i": 185,
+   "en": "Projected spoils value",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/GroundRaidTargetPickerDialog.class"
+  },
+  {
+   "i": 186,
+   "en": "Raid effectiveness",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/GroundRaidTargetPickerDialog.class"
+  },
+  {
+   "i": 187,
+   "en": "Shows the impact of achieving this objective with the assigned number of marine units. Generally shows the temporary deficit that will be caused by raiding a specific commodity.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/GroundRaidTargetPickerDialog.class"
+  },
+  {
+   "i": 188,
+   "en": "Source of the item or commodity, usually an industry or structure at the colony.\n\nSome sources increase the danger level of the operation, for example raiding a military base for supplies is more dangerous than getting the same supplies from a spaceport.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/GroundRaidTargetPickerDialog.class"
+  },
+  {
+   "i": 189,
+   "en": "Value",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/GroundRaidTargetPickerDialog.class"
+  },
+  {
+   "i": 190,
+   "en": "Last cycle",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/I.class"
+  },
+  {
+   "i": 191,
+   "en": "Last month",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/I.class"
+  },
+  {
+   "i": 192,
+   "en": "Credits available.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/IndustryListPanel$2.class"
+  },
+  {
+   "i": 193,
+   "en": " (queued)",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/IndustryListPanel$3.class"
+  },
+  {
+   "i": 194,
+   "en": " (upgrading to ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/IndustryListPanel$3.class"
+  },
+  {
+   "i": 195,
+   "en": "Base industries",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/IndustryListPanel$3.class"
+  },
+  {
+   "i": 196,
+   "en": "Colony size",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/IndustryListPanel$3.class"
+  },
+  {
+   "i": 197,
+   "en": "Industries on %s:",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/IndustryListPanel$3.class"
+  },
+  {
+   "i": 198,
+   "en": "Maximum number of industries, based on the size of a colony and other factors.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/IndustryListPanel$3.class"
+  },
+  {
+   "i": 199,
+   "en": "Structures such as spaceports or orbital stations do not count against this limit. Colonies that exceed this limit for any reason have their stability reduced by %s.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/IndustryListPanel$3.class"
+  },
+  {
+   "i": 200,
+   "en": "Maximum number of industries reached.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/IndustryListPanel$4.class"
+  },
+  {
+   "i": 201,
+   "en": "   Add industry or structure...",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/IndustryListPanel.class"
+  },
+  {
+   "i": 202,
+   "en": "Spent %s",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/IndustryListPanel.class"
+  },
+  {
+   "i": 203,
+   "en": "Actual upkeep cost, in credits per month, after taking into account the planet's hazard rating.\n\nThe upkeep cost will go up as the market gets larger.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/IndustryPickerDialog.class"
+  },
+  {
+   "i": 204,
+   "en": "Base upkeep",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/IndustryPickerDialog.class"
+  },
+  {
+   "i": 205,
+   "en": "Base upkeep cost, in credits per month, without taking into account the planet's hazard rating.\n\nThe upkeep cost will go up as the market gets larger.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/IndustryPickerDialog.class"
+  },
+  {
+   "i": 206,
+   "en": "Build",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/IndustryPickerDialog.class"
+  },
+  {
+   "i": 207,
+   "en": "Build time",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/IndustryPickerDialog.class"
+  },
+  {
+   "i": 208,
+   "en": "Build time, in days. Until the industry or structure finishes construction, it will not provide any of its benefits, but any demand for commodities starts immediately.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/IndustryPickerDialog.class"
+  },
+  {
+   "i": 209,
+   "en": "Go back",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/IndustryPickerDialog.class"
+  },
+  {
+   "i": 210,
+   "en": "Name of the industry or structure.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/IndustryPickerDialog.class"
+  },
+  {
+   "i": 211,
+   "en": "No industries or structures available",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/IndustryPickerDialog.class"
+  },
+  {
+   "i": 212,
+   "en": "No industries or structures for this category",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/IndustryPickerDialog.class"
+  },
+  {
+   "i": 213,
+   "en": "One-time cost to begin construction, in credits.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/IndustryPickerDialog.class"
+  },
+  {
+   "i": 214,
+   "en": "Whether it's an industry or a structure. The number of industries at a colony is limited, based on its size.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/IndustryPickerDialog.class"
+  },
+  {
+   "i": 215,
+   "en": "Bought for (credits)",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/M.class"
+  },
+  {
+   "i": 216,
+   "en": "Demand class",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/M.class"
+  },
+  {
+   "i": 217,
+   "en": "Illegal",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/M.class"
+  },
+  {
+   "i": 218,
+   "en": "Legal",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/M.class"
+  },
+  {
+   "i": 219,
+   "en": "Market of origin",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/M.class"
+  },
+  {
+   "i": 220,
+   "en": "Open market status",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/M.class"
+  },
+  {
+   "i": 221,
+   "en": "Sold for (credits)",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/M.class"
+  },
+  {
+   "i": 222,
+   "en": "System of origin",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/M.class"
+  },
+  {
+   "i": 223,
+   "en": "This is an exotic commodity, and is in higher demand further away from its market of origin.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/M.class"
+  },
+  {
+   "i": 224,
+   "en": "- Multiplier for income from exports (%s to %s)",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/NearbyMarketDialog$1.class"
+  },
+  {
+   "i": 225,
+   "en": "How easy it is for the listed market to trade with a colony established at this location, assuming it has a spaceport.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/NearbyMarketDialog$1.class"
+  },
+  {
+   "i": 226,
+   "en": "How easy it is for the listed market to trade with the current market.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/NearbyMarketDialog$1.class"
+  },
+  {
+   "i": 227,
+   "en": "How easy it is for the listed market to trade with this colony.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/NearbyMarketDialog$1.class"
+  },
+  {
+   "i": 228,
+   "en": "Distance, in light-years.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/NearbyMarketDialog.class"
+  },
+  {
+   "i": 229,
+   "en": "Market",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/NearbyMarketDialog.class"
+  },
+  {
+   "i": 230,
+   "en": "Market name and faction.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/NearbyMarketDialog.class"
+  },
+  {
+   "i": 231,
+   "en": "No accessible colonies",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/NearbyMarketDialog.class"
+  },
+  {
+   "i": 232,
+   "en": "at this location",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/NearbyMarketDialog.class"
+  },
+  {
+   "i": 233,
+   "en": "No AI core currently assigned",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/O0O0$oo.class"
+  },
+  {
+   "i": 234,
+   "en": "In local resources",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/O0O0.class"
+  },
+  {
+   "i": 235,
+   "en": "In storage",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/O0O0.class"
+  },
+  {
+   "i": 236,
+   "en": "In your cargo holds",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/O0O0.class"
+  },
+  {
+   "i": 237,
+   "en": "No AI cores available",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/O0O0.class"
+  },
+  {
+   "i": 238,
+   "en": "No AI cores available in storage",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/O0O0.class"
+  },
+  {
+   "i": 239,
+   "en": "Select AI core to assign to ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/O0O0.class"
+  },
+  {
+   "i": 240,
+   "en": "Unassign AI Core",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/O0O0.class"
+  },
+  {
+   "i": 241,
+   "en": "Able to counter up to the penalty from recent unrest, minus one, at a cost of %s per point.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/O0Oo.class"
+  },
+  {
+   "i": 242,
+   "en": "Colony stabilized",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/O0Oo.class"
+  },
+  {
+   "i": 243,
+   "en": "Credits available",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/O0Oo.class"
+  },
+  {
+   "i": 244,
+   "en": "Stability restored",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/O0Oo.class"
+  },
+  {
+   "i": 245,
+   "en": "Total cost",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/O0Oo.class"
+  },
+  {
+   "i": 246,
+   "en": "% of demand can not be met by local supply",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/OoO0.class"
+  },
+  {
+   "i": 247,
+   "en": "% of demand met by imports",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/OoO0.class"
+  },
+  {
+   "i": 248,
+   "en": "% of demand met by local supply and stockpiles",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/OoO0.class"
+  },
+  {
+   "i": 249,
+   "en": "% of demand not met",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/OoO0.class"
+  },
+  {
+   "i": 250,
+   "en": "% of local demand not met due to being exported",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/OoO0.class"
+  }
+ ]
+}

@@ -1,0 +1,1091 @@
+{
+ "chunk": 89,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "Destroyed evidence of the Pather mole",
+   "ctx": "BFFIpatherStationDefeated: AddTextSmall \"Destroyed evidence of the Pather mole\" highlight"
+  },
+  {
+   "i": 2,
+   "en": "Destroyed nanoforge",
+   "ctx": "BFFIpatherStationDefeated: AddTextSmall \"Destroyed nanoforge\" highlight"
+  },
+  {
+   "i": 3,
+   "en": "A nearby hostile fleet is tracking your movements, making a raid impossible.",
+   "ctx": "BFFIdisableStationRaidOption: SetTooltip bffi_stationRaidStart \"A nearby hostile fleet is tracking your movements, making a raid impossible.\""
+  },
+  {
+   "i": 4,
+   "en": "Capture datastores then destroy the nanoforge",
+   "ctx": "BFFIpatherStationRaidStart: AddRaidObjective genericIcon \"Capture datastores then destroy the nanoforge\" HIGH 3000 BFFIpatherStationRaidFinished tru"
+  },
+  {
+   "i": 5,
+   "en": "Extracted datacores",
+   "ctx": "BFFIpatherStationRaidOutro2: AddTextSmall \"Extracted datacores\" highlight"
+  },
+  {
+   "i": 6,
+   "en": "Additional false relics destroyed",
+   "ctx": "BFFIpsDestroyed6: AddTextSmall \"Additional false relics destroyed\" highlight"
+  },
+  {
+   "i": 7,
+   "en": "Bornanew is shot",
+   "ctx": "BFFIarrestShotBorn0: AddTextSmall \"Bornanew is shot\" highlight"
+  },
+  {
+   "i": 8,
+   "en": "Bornanew is dead",
+   "ctx": "BFFIarrestShotBornDeadCaught: AddTextSmall \"Bornanew is dead\" highlight"
+  },
+  {
+   "i": 9,
+   "en": "You are shot",
+   "ctx": "BFFIarrestShotShove0: AddTextSmall \"You are shot\" highlight"
+  },
+  {
+   "i": 10,
+   "en": "Bornanew's body delivered to the Luddic Knights",
+   "ctx": "BFFIdeliverToOakBody2: AddTextSmall \"Bornanew's body delivered to the Luddic Knights\" highlight"
+  },
+  {
+   "i": 11,
+   "en": "False relic destroyed",
+   "ctx": "BFFIdeliverGloveCheck2: AddTextSmall \"False relic destroyed\" highlight"
+  },
+  {
+   "i": 12,
+   "en": "You do not have any AI cores in your possession.",
+   "ctx": "aiCores_disableTurnInOption: SetTooltip aiCores_startTurnIn \"You do not have any AI cores in your possession.\""
+  },
+  {
+   "i": 13,
+   "en": "You're being hailed.",
+   "ctx": "dstr_normalStart: AddText \"You're being hailed.\" $faction.baseColor"
+  },
+  {
+   "i": 14,
+   "en": "\\\"Thank the stars you showed up!",
+   "ctx": "dstr_openComms: AddText \"\\\"Thank the stars you showed up!\""
+  },
+  {
+   "i": 15,
+   "en": "Our tanker had an accident and we don't have enough fuel left to get back to the core worlds. We need $entity.distressFuel fuel and will gladly pay you $entity.distressCredits credits for it - a handsome markup, I might add.\\\"",
+   "ctx": "dstr_openComms: AddText \"Our tanker had an accident and we don't have enough fuel left to get back to the core worlds. We need $entity.d"
+  },
+  {
+   "i": 16,
+   "en": "\\\"Praise to providence and Ludd! You have come for us!",
+   "ctx": "dstr_openCommsLuddic: AddText \"\\\"Praise to providence and Ludd! You have come for us!\""
+  },
+  {
+   "i": 17,
+   "en": "Our tanker had an accident and we don't have enough fuel left to get back to the core worlds. We need $entity.distressFuel fuel and will gladly pay you $entity.distressCredits credits for it - a charitable markup, I might add.\\\"",
+   "ctx": "dstr_openCommsLuddic: AddText \"Our tanker had an accident and we don't have enough fuel left to get back to the core worlds. We need $entity.d"
+  },
+  {
+   "i": 18,
+   "en": "\\\"You're back!",
+   "ctx": "dstr_openCommsRepeat: AddText \"\\\"You're back!\""
+  },
+  {
+   "i": 19,
+   "en": "You haven't come into more fuel, have you? We need $entity.distressFuel fuel and will gladly pay $entity.distressCredits credits for it.\\\"",
+   "ctx": "dstr_openCommsRepeat: AddText \"You haven't come into more fuel, have you? We need $entity.distressFuel fuel and will gladly pay $entity.distre"
+  },
+  {
+   "i": 20,
+   "en": "Your $shipOrFleet does not have room to take on any more crew.",
+   "ctx": "dstr_updateCrewOption: SetTooltip dstrCrew \"Your $shipOrFleet does not have room to take on any more crew.\""
+  },
+  {
+   "i": 21,
+   "en": "\\\"Thank you! I owe you one.\\\"",
+   "ctx": "dstr_sellFuel: AddText \"\\\"Thank you! I owe you one.\\\"\""
+  },
+  {
+   "i": 22,
+   "en": "\\\"My thanks, and blessing of Ludd be upon you!\\\"",
+   "ctx": "dstr_sellFuelLuddic: AddText \"\\\"My thanks, and blessing of Ludd be upon you!\\\"\""
+  },
+  {
+   "i": 23,
+   "en": "\\\"Don't get me wrong, we'll take the fuel. But taking some of my crew first was a dirty trick.\\\"",
+   "ctx": "dstr_sellFuelTookCrew: AddText \"\\\"Don't get me wrong, we'll take the fuel. But taking some of my crew first was a dirty trick.\\\"\""
+  },
+  {
+   "i": 24,
+   "en": "\\\"Thank you! I won't forget this, and I'll make sure others know you can be counted on.\\\"",
+   "ctx": "dstr_giveFuel: AddText \"\\\"Thank you! I won't forget this, and I'll make sure others know you can be counted on.\\\"\""
+  },
+  {
+   "i": 25,
+   "en": "\\\"First you take some of my crew, then you give me free fuel? It'd be a dirty trick if you *sold* the fuel, but you're giving it away for free. I'm not ashamed to admit, I don't understand your thought process - but... thank you? I guess?\\\"",
+   "ctx": "dstr_giveFuelTookCrew: AddText \"\\\"First you take some of my crew, then you give me free fuel? It'd be a dirty trick if you *sold* the fuel, but"
+  },
+  {
+   "i": 26,
+   "en": "\\\"Thanks for your help. We'll see what we can do over here.\\\"",
+   "ctx": "dstr_acceptCrewSel: AddText \"\\\"Thanks for your help. We'll see what we can do over here.\\\"\""
+  },
+  {
+   "i": 27,
+   "en": "\\\"Glad you could see reason. Helping a fellow traveler is only what's right, after all.\\\"",
+   "ctx": "dstr_scaredSel: AddText \"\\\"Glad you could see reason. Helping a fellow traveler is only what's right, after all.\\\"\""
+  },
+  {
+   "i": 28,
+   "en": "The comm link is cut while you're still contemplating the audacity of that statement, and your own dwindling fuel reserves.",
+   "ctx": "dstr_scaredSel: AddText \"The comm link is cut while you're still contemplating the audacity of that statement, and your own dwindling fu"
+  },
+  {
+   "i": 29,
+   "en": "Not enough credits to offer to pay a reasonable, non-insulting amount.",
+   "ctx": "dcall_paymentOptionsUpdate: SetTooltip dcallPay \"Not enough credits to offer to pay a reasonable, non-insulting amount.\""
+  },
+  {
+   "i": 30,
+   "en": "\\\"Go Dark\\\"",
+   "ctx": "tut_mainGetDataGoDark: SetTextHighlights \"\\\"Go Dark\\\"\""
+  },
+  {
+   "i": 31,
+   "en": "\\\"Emergency Burn\\\"",
+   "ctx": "tut_mainGetDataEBurn: SetTextHighlights \"\\\"Emergency Burn\\\"\""
+  },
+  {
+   "i": 32,
+   "en": "There's a chime in the background, and $heOrShe looks concerned.",
+   "ctx": "tut_mainContactReturnData: AddText \"There's a chime in the background, and $heOrShe looks concerned.\""
+  },
+  {
+   "i": 33,
+   "en": "\\\"Active Sensor Burst\\\"",
+   "ctx": "tut_mainContactProbe3: SetTextHighlights \"\\\"Active Sensor Burst\\\"\""
+  },
+  {
+   "i": 34,
+   "en": "\\\"Distress Call\\\"",
+   "ctx": "tut_mainContactStabilized2: SetTextHighlights \"\\\"Distress Call\\\"\""
+  },
+  {
+   "i": 35,
+   "en": "This sensor array has been overloaded recently, and it will take its self-repair nanomechs some time until this operation can be attempted.",
+   "ctx": "cob_neutrinoBurstOptDisable: SetTooltip COB_burst \"This sensor array has been overloaded recently, and it will take its self-repair nanomechs some ti"
+  },
+  {
+   "i": 36,
+   "en": "You do not have the necessary resources to reactivate the $shortName.",
+   "ctx": "cob_disableActivateOnly: AddText \"You do not have the necessary resources to reactivate the $shortName.\""
+  },
+  {
+   "i": 37,
+   "en": "would not meaningfully contribute",
+   "ctx": "scavBuyHTDataSel2: Highlight $ht_dataCost $ht_dataRange \"would not meaningfully contribute\""
+  },
+  {
+   "i": 38,
+   "en": "You don't have enough credits to pay back the loan.",
+   "ctx": "ttli_disablePayOpt: SetTooltip ttli_payLoan \"You don't have enough credits to pay back the loan.\""
+  },
+  {
+   "i": 39,
+   "en": "You see the Tri-Tachyon investor, $hisOrHer face an emotionless mask. \\\"How unfortunate.\\\" $HeOrShe looks thoughtful for a moment, and continues, \\\"I won't waste time enumerating the reprisals you shall face.\\\" The recording cuts off.",
+   "ctx": "ttli_noRepaymentMessage: AddText \"You see the Tri-Tachyon investor, $hisOrHer face an emotionless mask. \\\"How unfortunate.\\\" $HeOrShe looks thoug"
+  },
+  {
+   "i": 40,
+   "en": "You recall the name immediately, as well as the ageless face of the Tri-Tachyon investor that appears on your screen. \\\"I'm disappointed\\\" is all $heOrShe says before the recording ends.",
+   "ctx": "ttli_noRepaymentMessageMajor: AddText \"You recall the name immediately, as well as the ageless face of the Tri-Tachyon investor that appears on your s"
+  },
+  {
+   "i": 41,
+   "en": "hypershunt tap",
+   "ctx": "cTap_printEffect: SetTextHighlights 10 1 \"hypershunt tap\""
+  },
+  {
+   "i": 42,
+   "en": "Extended mercenary officer's contract",
+   "ctx": "mercs_leavingOptions: SetStoryOption mercs_convince 1 convinceMerc ui_char_spent_story_point_leadership \"Extended mercenary officer's contract"
+  },
+  {
+   "i": 43,
+   "en": "Unfortunately, you've only got $psi_playerCredits on hand.",
+   "ctx": "psi_disableIfCanNotPay: AddText \"Unfortunately, you've only got $psi_playerCredits on hand.\""
+  },
+  {
+   "i": 44,
+   "en": "Detailed scan of unknown vessel acquired",
+   "ctx": "zig_encounterDesc1: AddTextSmall \"Detailed scan of unknown vessel acquired\" highlight"
+  },
+  {
+   "i": 45,
+   "en": "Recovered Alpha Site Journal",
+   "ctx": "zig_alphaSiteExplore1b: AddTextSmall \"Recovered Alpha Site Journal\" highlight"
+  },
+  {
+   "i": 46,
+   "en": "Ancyra",
+   "ctx": "gaOpenDialogDuringTutorialStart: SetTextHighlights \"Ancyra\""
+  },
+  {
+   "i": 47,
+   "en": "Take the lieutenant up on that offer of a pint",
+   "ctx": "gaMeetHegLieutenantOnCoatl: AddBarEvent coatlOfficer_barEvent \"Take the lieutenant up on that offer of a pint\" \"At the bar you see the lieutenant yo"
+  },
+  {
+   "i": 48,
+   "en": "At the bar you see the lieutenant you met at the Galatia Academy. You recall that he offered to buy you a pint if you ever made it to Coatl.",
+   "ctx": "gaMeetHegLieutenantOnCoatl: AddBarEvent coatlOfficer_barEvent \"Take the lieutenant up on that offer of a pint\" \"At the bar you see the lieutenant yo"
+  },
+  {
+   "i": 49,
+   "en": "Talk to the lieutenant who called out about Galatia",
+   "ctx": "gaMeetHegLieutenantOnCoatlB: AddBarEvent coatlOfficer_barEvent \"Talk to the lieutenant who called out about Galatia\" \"From the bar a Hegemony lieuten"
+  },
+  {
+   "i": 50,
+   "en": "From the bar a Hegemony lieutenant gives a friendly wave and calls out something about the incident in the Galatia System.",
+   "ctx": "gaMeetHegLieutenantOnCoatlB: AddBarEvent coatlOfficer_barEvent \"Talk to the lieutenant who called out about Galatia\" \"From the bar a Hegemony lieuten"
+  },
+  {
+   "i": 51,
+   "en": "Talk to the distinguished academician",
+   "ctx": "goToTheGABarEventOption: AddBarEvent goToGA_barEvent \"Talk to the distinguished academician\" \"A distinguished, uniformed academician seems to be "
+  },
+  {
+   "i": 52,
+   "en": "A distinguished, uniformed academician seems to be holding court with a handful of successful-looking ship officers.",
+   "ctx": "goToTheGABarEventOption: AddBarEvent goToGA_barEvent \"Talk to the distinguished academician\" \"A distinguished, uniformed academician seems to be "
+  },
+  {
+   "i": 53,
+   "en": "re-open the Gates",
+   "ctx": "bairdIntro_whatSel: Highlight \"re-open the Gates\""
+  },
+  {
+   "i": 54,
+   "en": "Kallichore's secret archive",
+   "ctx": "bairdIntro7: Highlight \"Kallichore's secret archive\""
+  },
+  {
+   "i": 55,
+   "en": "Scylla Coureuse",
+   "ctx": "bairdIntro7: Highlight \"Scylla Coureuse\""
+  },
+  {
+   "i": 56,
+   "en": "Received comms ID for Rayan Arroyo",
+   "ctx": "bairdIntroArchive1: AddTextSmall \"Received comms ID for Rayan Arroyo\" highlight"
+  },
+  {
+   "i": 57,
+   "en": "Received nav data for $gaFC_starName",
+   "ctx": "bairdIntroScylla2: AddTextSmall \"Received nav data for $gaFC_starName\" highlight"
+  },
+  {
+   "i": 58,
+   "en": "Received comms ID for Gargoyle",
+   "ctx": "gaKAArroyoVisit4: AddTextSmall \"Received comms ID for Gargoyle\" highlight"
+  },
+  {
+   "i": 59,
+   "en": "Kallichore Archive",
+   "ctx": "gaKAGargoyleExplain: Highlight \"Kallichore Archive\""
+  },
+  {
+   "i": 60,
+   "en": "Nova Maxios",
+   "ctx": "gaKAGargoyleCont5: Highlight \"Nova Maxios\""
+  },
+  {
+   "i": 61,
+   "en": "Received location data for Nova Maxios pick-up",
+   "ctx": "gaKAGargoyleCont7: AddTextSmall \"Received location data for Nova Maxios pick-up\" highlight"
+  },
+  {
+   "i": 62,
+   "en": "Convinced Hegemony patrol you're not involved the Tech Ministry hack",
+   "ctx": "gaKAPatrol1: SetStoryOption gaKA_patrolLie general \"Convinced Hegemony patrol you're not involved the Tech Ministry hack\""
+  },
+  {
+   "i": 63,
+   "en": "Adonya Coureuse",
+   "ctx": "gaFCFikenhildVisit_stageA: Highlight \"Adonya Coureuse\""
+  },
+  {
+   "i": 64,
+   "en": "Bione Lata",
+   "ctx": "gaFCFikenhildVisit_stageB: Highlight \"Bione Lata\""
+  },
+  {
+   "i": 65,
+   "en": "Cavin Pharoh",
+   "ctx": "gaFCFikenhildVisit_stageC: Highlight \"Cavin Pharoh\""
+  },
+  {
+   "i": 66,
+   "en": "Unofficially contacted an official about Scylla Coureuse",
+   "ctx": "gaFCFikenhildBotherVIPoptA4yes: AddTextSmall \"Unofficially contacted an official about Scylla Coureuse\" highlight"
+  },
+  {
+   "i": 67,
+   "en": "Ask around about Scylla Coureuse",
+   "ctx": "gaFCAskAroundFikenhildBarStart: AddBarEvent gaFCfikenhild_barEvent \"Ask around about Scylla Coureuse\" \"It's a shot in the dark, but you could try asking"
+  },
+  {
+   "i": 68,
+   "en": "It's a shot in the dark, but you could try asking if anyone here knows Scylla Coureuse.",
+   "ctx": "gaFCAskAroundFikenhildBarStart: AddBarEvent gaFCfikenhild_barEvent \"Ask around about Scylla Coureuse\" \"It's a shot in the dark, but you could try asking"
+  },
+  {
+   "i": 69,
+   "en": "Elissa Zal",
+   "ctx": "gaFCFikenhildAdonyaB2: Highlight \"Elissa Zal\""
+  },
+  {
+   "i": 70,
+   "en": "Received comms ID for Finlay Siyavong",
+   "ctx": "gaFCFikenhildBioneB2: AddTextSmall \"Received comms ID for Finlay Siyavong\" highlight"
+  },
+  {
+   "i": 71,
+   "en": "Received comms ID for Elissa Zal",
+   "ctx": "gaFCFikenhildCavinB2: AddTextSmall \"Received comms ID for Elissa Zal\" highlight"
+  },
+  {
+   "i": 72,
+   "en": "Found 1 of 3 probes",
+   "ctx": "gaFCProbe1Investigation3: AddTextSmall \"Found 1 of 3 probes\" highlight"
+  },
+  {
+   "i": 73,
+   "en": "Found 2 of 3 probes",
+   "ctx": "gaFCProbe2InvestigationStart: AddTextSmall \"Found 2 of 3 probes\" highlight"
+  },
+  {
+   "i": 74,
+   "en": "Found 3 of 3 probes",
+   "ctx": "gaFCProbe3InvestigationStart: AddTextSmall \"Found 3 of 3 probes\" highlight"
+  },
+  {
+   "i": 75,
+   "en": "Detected ejection of cargo pod",
+   "ctx": "gaFCScavengerWait3: AddTextSmall \"Detected ejection of cargo pod\" highlight"
+  },
+  {
+   "i": 76,
+   "en": "Bluffed Pather ambush to scare them away",
+   "ctx": "gaFCPatherAmbushGreeting: SetStoryOption gaFC_patherAmbushBluff1 general \"Bluffed Pather ambush to scare them away\""
+  },
+  {
+   "i": 77,
+   "en": "Received data on Persean League intelligence operations on Laicaille Habitat",
+   "ctx": "gaFC_kapteynBossInfoDump3: AddTextSmall \"Received data on Persean League intelligence operations on Laicaille Habitat\" highlight"
+  },
+  {
+   "i": 78,
+   "en": "It's a shot in the dark, but you could try asking if anyone here knows anything about Scylla Coureuse.",
+   "ctx": "gaFCAskAroundLaicailleBarStart: AddBarEvent gaFCLaicaille_barEvent \"Ask around about Scylla Coureuse\" \"It's a shot in the dark, but you could try asking"
+  },
+  {
+   "i": 79,
+   "en": "Ask the technicians what's going on",
+   "ctx": "gaFCAskAroundLaicailleBarStartB: AddBarEvent gaFCLaicaille_barEvent2 \"Ask the technicians what's going on\" \"A couple technicians are griping about strang"
+  },
+  {
+   "i": 80,
+   "en": "A couple technicians are griping about strange transmissions interfering with nav transponders.",
+   "ctx": "gaFCAskAroundLaicailleBarStartB: AddBarEvent gaFCLaicaille_barEvent2 \"Ask the technicians what's going on\" \"A couple technicians are griping about strang"
+  },
+  {
+   "i": 81,
+   "en": "Kelise Astraia",
+   "ctx": "gaPZIntro7: Highlight \"Kelise Astraia\""
+  },
+  {
+   "i": 82,
+   "en": "Received fake comms archive'",
+   "ctx": "gaPZAskArroyoKelise1: AddTextSmall \"Received fake comms archive'\" highlight"
+  },
+  {
+   "i": 83,
+   "en": "Negotiated payment for Arroyo's fake blackmail material",
+   "ctx": "GAPZSellFakesOpts3: SetStoryOption gaPZSellFakes3 general \"Negotiated payment for Arroyo's fake blackmail material\""
+  },
+  {
+   "i": 84,
+   "en": "Hamatsu",
+   "ctx": "gaPZ_returnArroyo1: Highlight \"Hamatsu\""
+  },
+  {
+   "i": 85,
+   "en": "Callisto Ibrahim",
+   "ctx": "gaPZ_returnArroyo3: Highlight \"Callisto Ibrahim\""
+  },
+  {
+   "i": 86,
+   "en": "Ask around about Kelise Astraia",
+   "ctx": "gaPZKeliseBarEventAdd: AddBarEvent gaPZ_keliseBarEvent \"Ask around about Kelise Astraia\" \"\""
+  },
+  {
+   "i": 87,
+   "en": "Can not give away the only ship in your fleet.",
+   "ctx": "gaRH_checkHamatsuIsOnlyShip: SetTooltip gaRH_yes \"Can not give away the only ship in your fleet.\""
+  },
+  {
+   "i": 88,
+   "en": "Hid the Ziggurat from a Hegemony patrol",
+   "ctx": "GAPZHegHub4: SetStoryOption gaPZ_hegHubVanish general \"Hid the Ziggurat from a Hegemony patrol\""
+  },
+  {
+   "i": 89,
+   "en": "Hid the Ziggurat from a Lion's Guard patrol",
+   "ctx": "GAPZDiktatHub4: SetStoryOption gaPZ_diktatVanish general \"Hid the Ziggurat from a Lion's Guard patrol\""
+  },
+  {
+   "i": 90,
+   "en": "A shift-worker in a utilitarian jumpsuit, a few burns and patches, approaches the bar besides you. They never meet your eye. \\\"Someone would like to talk with you.\\\" It's almost a mutter; difficult to make out \\\"Set you on the right... path. If you please, follow me.\\\"",
+   "ctx": "gaPZ_cotton: AddText \"A shift-worker in a utilitarian jumpsuit, a few burns and patches, approaches the bar besides you. They never m"
+  },
+  {
+   "i": 91,
+   "en": "Received Brother Cotton's Book of Ludd",
+   "ctx": "gaPZ_cottonLight: AddTextSmall \"Received Brother Cotton's Book of Ludd\" highlight"
+  },
+  {
+   "i": 92,
+   "en": "Horus Yaribay",
+   "ctx": "gaATGIntroGotIt: Highlight \"Horus Yaribay\""
+  },
+  {
+   "i": 93,
+   "en": "Gate scanner",
+   "ctx": "gaATGIntroWrap1: Highlight \"Gate scanner\""
+  },
+  {
+   "i": 94,
+   "en": "scan six different Gates",
+   "ctx": "gaATGgetScanner4: Highlight \"scan six different Gates\""
+  },
+  {
+   "i": 95,
+   "en": "Received Gate scanning device",
+   "ctx": "gaATGgetScanner5: AddTextSmall \"Received Gate scanning device\" highlight"
+  },
+  {
+   "i": 96,
+   "en": "Received Gens Yaribay diplomatic credentials",
+   "ctx": "gaATGcontactYaribay4: AddTextSmall \"Received Gens Yaribay diplomatic credentials\" highlight"
+  },
+  {
+   "i": 97,
+   "en": "Received Gens Yaribay comm codes for Daud",
+   "ctx": "gaATGcontactYaribay5: AddTextSmall \"Received Gens Yaribay comm codes for Daud\" highlight"
+  },
+  {
+   "i": 98,
+   "en": "Delivered Gens Yaribay comm codes to Daud",
+   "ctx": "gaATGdaudMeetingHubA1: AddTextSmall \"Delivered Gens Yaribay comm codes to Daud\" highlight"
+  },
+  {
+   "i": 99,
+   "en": "Convinced Hegemony fleet to let you scan a Gate for them",
+   "ctx": "gaATGhegFleetStory3: SetStoryOption gaATG_hegFleetStory4 general \"Convinced Hegemony fleet to let you scan a Gate for them\""
+  },
+  {
+   "i": 100,
+   "en": "Gate scan data transmitted to Hegemony fleet",
+   "ctx": "gaATGhegFleetScanTransmit3: AddTextSmall \"Gate scan data transmitted to Hegemony fleet\" highlight"
+  },
+  {
+   "i": 101,
+   "en": "Received Gate scan data",
+   "ctx": "gaATGttScanFleet2accept: AddTextSmall \"Received Gate scan data\" highlight"
+  },
+  {
+   "i": 102,
+   "en": "Convinced an obscure Luddic sect holding vigil at a Gate to let you scan it",
+   "ctx": "gaATGluddicScan41: SetStoryOption gaATG_luddicScan32 general \"Convinced an obscure Luddic sect holding vigil at a Gate to let you scan it\""
+  },
+  {
+   "i": 103,
+   "en": "You do not have enough supplies.",
+   "ctx": "gaATGluddicScanSupplyCheck: SetTooltip gaATG_luddicScan32  \"You do not have enough supplies.\""
+  },
+  {
+   "i": 104,
+   "en": "Convinced Pirate to let you scan a Gate they laid claim to",
+   "ctx": "gaATGpirateScanReason2: SetStoryOption gaATG_pirateScanReason3 general \"Convinced Pirate to let you scan a Gate they laid claim to\""
+  },
+  {
+   "i": 105,
+   "en": "Received Prototype Janus Device",
+   "ctx": "gaATGjanusPrototype4: AddTextSmall \"Received Prototype Janus Device\" highlight"
+  },
+  {
+   "i": 106,
+   "en": "Received Kanta gang digital token",
+   "ctx": "gaATGzalMissionHubD2: AddTextSmall \"Received Kanta gang digital token\" highlight"
+  },
+  {
+   "i": 107,
+   "en": "A nearby hostile fleet is tracking your movements, making a station assault impossible.",
+   "ctx": "gaATGdisableKantaRaidIfNeeded: SetTooltip gaATG_kantasDenRaidStart \"A nearby hostile fleet is tracking your movements, making a station assault impossi"
+  },
+  {
+   "i": 108,
+   "en": "Extract Elissa Zal from Kanta's Den",
+   "ctx": "gaATGkantasDenRaidStart: AddRaidObjective genericIcon \"Extract Elissa Zal from Kanta's Den\" EXTREME 5000 GAATGkantaRaidFinishedA true"
+  },
+  {
+   "i": 109,
+   "en": "Rescued Elissa Zal",
+   "ctx": "gaATGkantaRaidFinishedB: AddTextSmall \"Rescued Elissa Zal\" highlight"
+  },
+  {
+   "i": 110,
+   "en": "Extract Clone Loke from Epiphany",
+   "ctx": "gaATGcottonRaidStart: AddRaidObjective genericIcon \"Extract Clone Loke from Epiphany\" EXTREME 5000 GAATGcottonRaidFinishedA true"
+  },
+  {
+   "i": 111,
+   "en": "Acquired clone Loke",
+   "ctx": "gaATGcottonRaidFinishedB: AddTextSmall \"Acquired clone Loke\" highlight"
+  },
+  {
+   "i": 112,
+   "en": "A nearby hostile fleet is tracking your movements, making a viable ground assault impossible.",
+   "ctx": "gaATGdisableCottonRaidIfNeeded: SetTooltip gaATG_cottonRaidStart \"A nearby hostile fleet is tracking your movements, making a viable ground assault impo"
+  },
+  {
+   "i": 113,
+   "en": "Ask around about Brother Cotton",
+   "ctx": "gaATGAskEpiphanyBarPrompt: AddBarEvent gaATGEpiphany_barEvent \"Ask around about Brother Cotton\" \"You could try asking if anyone knows anything abou"
+  },
+  {
+   "i": 114,
+   "en": "You could try asking if anyone knows anything about Brother Cotton.",
+   "ctx": "gaATGAskEpiphanyBarPrompt: AddBarEvent gaATGEpiphany_barEvent \"Ask around about Brother Cotton\" \"You could try asking if anyone knows anything abou"
+  },
+  {
+   "i": 115,
+   "en": "The proprietor catches your eye as you enter the bar, sets down a glass, and nervously approaches you.",
+   "ctx": "gaATGmeetCottonStart: AddText \"The proprietor catches your eye as you enter the bar, sets down a glass, and nervously approaches you.\""
+  },
+  {
+   "i": 116,
+   "en": "\\\"Hear me, I beg,\\\" she says. \\\"I've nothing to do with him or his people. You... you can\\'t refuse them here, captain.\\\"",
+   "ctx": "gaATGmeetCottonStart: AddText \"\\\"Hear me, I beg,\\\" she says. \\\"I've nothing to do with him or his people. You... you can\\'t refuse them here, "
+  },
+  {
+   "i": 117,
+   "en": "She glances unconsciously toward a table with some heavies wearing the uniform of one of the mining guilds. They're watching you both, very closely. \\\"The back room. He's waiting. I- I saw nothing today.\\\"",
+   "ctx": "gaATGmeetCottonStart: AddText \"She glances unconsciously toward a table with some heavies wearing the uniform of one of the mining guilds. The"
+  },
+  {
+   "i": 118,
+   "en": "Go to the backgroom and meet Brother Cotton.",
+   "ctx": "gaATGmeetCottonAvoid: AddBarEvent gaATG_meetCottonStart2 \"Go to the backgroom and meet Brother Cotton.\" \"The Pather heavies watch you openly a"
+  },
+  {
+   "i": 119,
+   "en": "The Pather heavies watch you openly and obviously, full cups of tea going cold between them.",
+   "ctx": "gaATGmeetCottonAvoid: AddBarEvent gaATG_meetCottonStart2 \"Go to the backgroom and meet Brother Cotton.\" \"The Pather heavies watch you openly a"
+  },
+  {
+   "i": 120,
+   "en": "'Rescued' Elissa Zal",
+   "ctx": "gaATGreturnLokeZal3: AddTextSmall \"'Rescued' Elissa Zal\" highlight"
+  },
+  {
+   "i": 121,
+   "en": "Spaced clone Loke",
+   "ctx": "gaATGreturnLokeAirlock1a: AddTextSmall \"Spaced clone Loke\" highlight"
+  },
+  {
+   "i": 122,
+   "en": "Janus Device temporarily installed",
+   "ctx": "gaATGMagecGateJanus: AddTextSmall \"Janus Device temporarily installed\" highlight"
+  },
+  {
+   "i": 123,
+   "en": "Acquired Janus Device",
+   "ctx": "gaATGconclusion: AddTextSmall \"Acquired Janus Device\" highlight"
+  },
+  {
+   "i": 124,
+   "en": "Inquire about available jobs",
+   "ctx": "asebOpenMHOptionText: SetOptionText mh_open \"Inquire about available jobs\""
+  },
+  {
+   "i": 125,
+   "en": "$player.credits credits",
+   "ctx": "asebScholarshipPitch: Highlight \"100,000\" \"$player.credits credits\""
+  },
+  {
+   "i": 126,
+   "en": "Requires at least 100,000 credits.",
+   "ctx": "asebScholarshipCredCheck1: SetTooltip bffi_mmBornBuyerColony \"Requires at least 100,000 credits.\""
+  },
+  {
+   "i": 127,
+   "en": "Requires at least 200,000 credits.",
+   "ctx": "asebScholarshipCredCheck2: SetTooltip bffi_mmBornBuyerColony \"Requires at least 200,000 credits.\""
+  },
+  {
+   "i": 128,
+   "en": "200,000 credits",
+   "ctx": "asebScholarshipCredCheck2: SetTooltipHighlights \"200,000 credits\""
+  },
+  {
+   "i": 129,
+   "en": "Requires at least 500,000 credits.",
+   "ctx": "asebScholarshipCredCheck3: SetTooltip bffi_mmBornBuyerColony \"Requires at least 500,000 credits.\""
+  },
+  {
+   "i": 130,
+   "en": "Established a small scholarship trust at the Galatia Academy",
+   "ctx": "asebScholarshipOutroA: AddTextSmall \"Established a small scholarship trust at the Galatia Academy\" highlight"
+  },
+  {
+   "i": 131,
+   "en": "Established a scholarship trust at the Galatia Academy",
+   "ctx": "asebScholarshipOutroB: AddTextSmall \"Established a scholarship trust at the Galatia Academy\" highlight"
+  },
+  {
+   "i": 132,
+   "en": "Established a large scholarship trust at the Galatia Academy",
+   "ctx": "asebScholarshipOutroC: AddTextSmall \"Established a large scholarship trust at the Galatia Academy\" highlight"
+  },
+  {
+   "i": 133,
+   "en": "Target: $gaData_planetName",
+   "ctx": "gaDataMissionTextBasicOrPirates: Call $global.gaData_ref showMap \"Target: $gaData_planetName\""
+  },
+  {
+   "i": 134,
+   "en": "Requires 10 supplies. You have $player.supplies supplies.",
+   "ctx": "gaDataNotEnoughSuppliesForDistraction: SetTooltip gaData_getAvoidCombat \"Requires 10 supplies. You have $player.supplies supplies.\""
+  },
+  {
+   "i": 135,
+   "en": "Retrieve the data from the $gaData_target",
+   "ctx": "gaDataDecivInteractionRaidOptions: AddRaidObjective gaData \"Retrieve the data from the $gaData_target\" LOW 5000 GADataRaidFinished true"
+  },
+  {
+   "i": 136,
+   "en": "Created a distraction to retrieve data for the Galatia Academy without bloodshed",
+   "ctx": "gaDataDecivInteractionRaidOptions: SetStoryOption gaData_getAvoidCombat 1 gaData_avoidCombat general \"Created a distraction to retrieve data for the Galati"
+  },
+  {
+   "i": 137,
+   "en": "these coordinates",
+   "ctx": "gaDataPirateConvBeforeGotData: $transmitNoun = \"these coordinates\" 0"
+  },
+  {
+   "i": 138,
+   "en": "Bluffed pirates into giving you supplies and fuel",
+   "ctx": "gaDataPirateConvBeforeGotData: SetStoryOption gaData_bluff 1 gaData_bluff general \"Bluffed pirates into giving you supplies and fuel\""
+  },
+  {
+   "i": 139,
+   "en": "this data",
+   "ctx": "gaDataPirateConvAfterGotData: $transmitNoun = \"this data\" 0"
+  },
+  {
+   "i": 140,
+   "en": "retrieving data from the ruins",
+   "ctx": "gaDataGiveCoordsSel: MakeOtherFleetDoThing $gaData_planetId 2 \"retrieving data from the ruins\" true"
+  },
+  {
+   "i": 141,
+   "en": "Target: $gaDA_systemName",
+   "ctx": "gaDAMissionTextBasic: Call $global.gaDA_ref showMap \"Target: $gaDA_systemName\""
+  },
+  {
+   "i": 142,
+   "en": "Pretended to know Kanta to retrieve $gaDA_widget from pirates",
+   "ctx": "gaDAPirateOpenComm: SetStoryOption gaDA_kantaSentMe 1 gaDA_kantaSentMe general \"Pretended to know Kanta to retrieve $gaDA_widget from pirate"
+  },
+  {
+   "i": 143,
+   "en": "Lied to retrieve $gaDA_widget from scavengers",
+   "ctx": "gaDAScavOpenComm: SetStoryOption gaDA_scavBluff 1 gaDA_scavBluff general \"Lied to retrieve $gaDA_widget from scavengers\""
+  },
+  {
+   "i": 144,
+   "en": "Target: $gaCO_systemName",
+   "ctx": "gaCOMissionTextBasic: Call $global.gaCO_ref showMap \"Target: $gaCO_systemName\""
+  },
+  {
+   "i": 145,
+   "en": "Convinced Pather captain you were one of them",
+   "ctx": "gaCOPatherOpenComm: SetStoryOption gaCO_convince 1 gaCO_convince general \"Convinced Pather captain you were one of them\""
+  },
+  {
+   "i": 146,
+   "en": "Target: $gaProbe_systemName",
+   "ctx": "gaProbeMissionTextBasic1: Call $global.gaProbe_ref showMap \"Target: $gaProbe_systemName\""
+  },
+  {
+   "i": 147,
+   "en": "Confronted a scavenger to retrieve an instrument package they took",
+   "ctx": "gaProbeScavCommBefore: SetStoryOption gaProbe_confront 1 gaProbe_confront general \"Confronted a scavenger to retrieve an instrument package the"
+  },
+  {
+   "i": 148,
+   "en": "Destination: $gaVIP_marketName",
+   "ctx": "gaVIPBlurbMissionTextBasic: Call $global.gaVIP_ref showMap \"Destination: $gaVIP_marketName\""
+  },
+  {
+   "i": 149,
+   "en": "Convinced pirate kidnapper you were working for Kanta",
+   "ctx": "gaVIPPirateOpenComm: SetStoryOption gaVIP_pirateBluff 1 gaVIP_pirateBluff general \"Convinced pirate kidnapper you were working for Kanta\""
+  },
+  {
+   "i": 150,
+   "en": "Tricked mercenary looking to kidnap Kanta's relative",
+   "ctx": "gaVIPMercOption6: SetStoryOption gaVIP_mercSendFake 1 gaVIP_mercSendFake general \"Tricked mercenary looking to kidnap Kanta's relative\""
+  },
+  {
+   "i": 151,
+   "en": "Tricked mercenary sent by Kanta to eliminate you",
+   "ctx": "gaVIPRevengeStoryNotWeaker: SetStoryOption gaVIP_revTrick 1 gaVIP_revTrick general \"Tricked mercenary sent by Kanta to eliminate you\""
+  },
+  {
+   "i": 152,
+   "en": "Destination: $gaOp_planetName",
+   "ctx": "gaOpMissionText: Call $global.gaOp_ref showMap \"Destination: $gaOp_planetName\""
+  },
+  {
+   "i": 153,
+   "en": "constructing a small spacecraft, fit to carry a single AI core via hyperspace to parts unknown",
+   "ctx": "gaOpPlanetRogueAIProject0: $gaOp_bizarreProjectStr = \"constructing a small spacecraft, fit to carry a single AI core via hyperspace to parts unknow"
+  },
+  {
+   "i": 154,
+   "en": "a series of seemingly arbitrary human behavior experiments- the subjects are the outpost's staff, forced to participate by the AI's total control over all habitat systems",
+   "ctx": "gaOpPlanetRogueAIProject1: $gaOp_bizarreProjectStr = \"a series of seemingly arbitrary human behavior experiments- the subjects are the outpost's st"
+  },
+  {
+   "i": 155,
+   "en": "constructing some kind of bizarre transmitter which operates on no principles known to the research staff",
+   "ctx": "gaOpPlanetRogueAIProject2: $gaOp_bizarreProjectStr = \"constructing some kind of bizarre transmitter which operates on no principles known to the re"
+  },
+  {
+   "i": 156,
+   "en": "staging a series of elaborate, tedious dramas authored by the AI core itself. The research staff is forced to participate due to the AI's total control of all habitat systems",
+   "ctx": "gaOpPlanetRogueAIProject3: $gaOp_bizarreProjectStr = \"staging a series of elaborate, tedious dramas authored by the AI core itself. The research st"
+  },
+  {
+   "i": 157,
+   "en": "cataloguing anomalous neutrino emissions from numerous points within the Persean Sector volume; they can't be from human or even known natural sources according to the latest sector-wide surveys",
+   "ctx": "gaOpPlanetRogueAIProject4: $gaOp_bizarreProjectStr = \"cataloguing anomalous neutrino emissions from numerous points within the Persean Sector volum"
+  },
+  {
+   "i": 158,
+   "en": "what can only be described as an obsessively designed shrine or sculpture, with no apparent practical function. The AI has extremely specific standards and forces human compliance with its total control over the life support system",
+   "ctx": "gaOpPlanetRogueAIProject5: $gaOp_bizarreProjectStr = \"what can only be described as an obsessively designed shrine or sculpture, with no apparent p"
+  },
+  {
+   "i": 159,
+   "en": "a haphazard regional survey involving comprehensive subsurface acoustic scans. \\\"It's looking for something. We don't know what. And we don't know what will happen to us if it finds what it's looking for\\\"",
+   "ctx": "gaOpPlanetRogueAIProject6: $gaOp_bizarreProjectStr = \"a haphazard regional survey involving comprehensive subsurface acoustic scans. \\\"It's looking"
+  },
+  {
+   "i": 160,
+   "en": "Requires at least 5 marines.",
+   "ctx": "gaOpPlanetRogueAICanNotRaid: SetTooltip gaOp_raid \"Requires at least 5 marines.\""
+  },
+  {
+   "i": 161,
+   "en": "Convinced rogue AI core to surrender",
+   "ctx": "gaOpPlanetRogueAINegotiate3: SetStoryOption gaOp_negConvince general \"Convinced rogue AI core to surrender\""
+  },
+  {
+   "i": 162,
+   "en": "Target: $gaBA_marketName",
+   "ctx": "gaBAMissionTextPirate1: Call $global.gaBA_ref showMap \"Target: $gaBA_marketName\""
+  },
+  {
+   "i": 163,
+   "en": "Bluffed Pather to get $gaBA_aOrAnItem more cheaply",
+   "ctx": "GABAPatherMainOptions: SetStoryOption gaBA_bluffPather general \"Bluffed Pather to get $gaBA_aOrAnItem more cheaply\""
+  },
+  {
+   "i": 164,
+   "en": "Recover $gaBA_item from $gaBA_contactName",
+   "ctx": "GABAPatherMainOptions: AddRaidObjective genericIcon \"Recover $gaBA_item from $gaBA_contactName\" MINIMAL 2000 GABARaidFinished true"
+  },
+  {
+   "i": 165,
+   "en": "A nearby hostile fleet is tracking your movements, making a ground operation impossible.",
+   "ctx": "gaBADisableRaidIfNeeded: SetTooltip gaBA_preRaid \"A nearby hostile fleet is tracking your movements, making a ground operation impossible.\""
+  },
+  {
+   "i": 166,
+   "en": "Bluffed pirate to get $gaBA_aOrAnItem more cheaply",
+   "ctx": "GABAPirateMainOptions: SetStoryOption gaBA_bluffPirate general \"Bluffed pirate to get $gaBA_aOrAnItem more cheaply\""
+  },
+  {
+   "i": 167,
+   "en": "Bluffed pirate to keep $entity.pwi_item",
+   "ctx": "pwiOpenComm: SetStoryOption pwi_bluff general \"Bluffed pirate to keep $entity.pwi_item\""
+  },
+  {
+   "i": 168,
+   "en": "Bluffed Pather to keep $entity.pwi2_item",
+   "ctx": "pwi2OpenComm: SetStoryOption pwi2_bluff general \"Bluffed Pather to keep $entity.pwi2_item\""
+  },
+  {
+   "i": 169,
+   "en": "Target: $gaRR_marketName",
+   "ctx": "gaRRMissionTextPirate3: Call $global.gaRR_ref showMap \"Target: $gaRR_marketName\""
+  },
+  {
+   "i": 170,
+   "en": "Talked Knight of Ludd into releasing researcher without a ransom",
+   "ctx": "gaRRChurchGreeting2: SetStoryOption gaRR_negotiateChurch general \"Talked Knight of Ludd into releasing researcher without a ransom\""
+  },
+  {
+   "i": 171,
+   "en": "Bluffed pirate kidnapper to ransom researcher more cheaply",
+   "ctx": "GARRPirateMainOptions: SetStoryOption gaRR_bluffPirate general \"Bluffed pirate kidnapper to ransom researcher more cheaply\""
+  },
+  {
+   "i": 172,
+   "en": "Rescue kidnapped researcher from $gaRR_contactName",
+   "ctx": "GARRPirateMainOptions: AddRaidObjective genericIcon \"Rescue kidnapped researcher from $gaRR_contactName\" MINIMAL 2000 GARRRaidFinishedPirate tr"
+  },
+  {
+   "i": 173,
+   "en": "Target: $gaTJ_planetName",
+   "ctx": "gaTJMissionText4: Call $global.gaTJ_ref showMap \"Target: $gaTJ_planetName\""
+  },
+  {
+   "i": 174,
+   "en": "Your sensors officer reminds you that you have previously discovered a Galatia Academy instrument package orbiting this planet. A transmission promises a cash reward for its return to the academy.",
+   "ctx": "gaIntro2surveyOpenAgainText: AddText \"Your sensors officer reminds you that you have previously discovered a Galatia Academy instrument package orbit"
+  },
+  {
+   "i": 175,
+   "en": "An instrument package orbiting this planet is sending a weak transmission promising a cash reward for its return to the Galatia Academy.",
+   "ctx": "gaIntro2surveyOpenAgain2: AddText \"An instrument package orbiting this planet is sending a weak transmission promising a cash reward for its retur"
+  },
+  {
+   "i": 176,
+   "en": "Acquired Galatia Academy data core",
+   "ctx": "gaIntro2retrieval: AddTextSmall \"Acquired Galatia Academy data core\" highlight"
+  },
+  {
+   "i": 177,
+   "en": "\\\"Now, where were we...\\\" Elek says.",
+   "ctx": "gaIntro2returnElekReward: AddText \"\\\"Now, where were we...\\\" Elek says.\""
+  },
+  {
+   "i": 178,
+   "en": "Called upon sword combat training while dueling on Eventide",
+   "ctx": "soeDuelPrepResponseStudied: SetStoryOption soe_duelPrepStudied 1 soe_duelPrepStudied combat \"Called upon sword combat training while dueling on Even"
+  },
+  {
+   "i": 179,
+   "en": "Revealed sword combat training",
+   "ctx": "soeDuelPrepStudied: AddTextSmall \"Revealed sword combat training\" highlight"
+  },
+  {
+   "i": 180,
+   "en": "your transponder turned off",
+   "ctx": "genericGreetingNeedTOff: Highlight  \"your transponder turned off\""
+  },
+  {
+   "i": 181,
+   "en": "Destination: $cheapCom_marketName",
+   "ctx": "cheapComTextRemote: Call $cheapCom_ref showMap \"Destination: $cheapCom_marketName\""
+  },
+  {
+   "i": 182,
+   "en": "Destination: $proCom_marketName",
+   "ctx": "proComTextRemote: Call $proCom_ref showMap \"Destination: $proCom_marketName\""
+  },
+  {
+   "i": 183,
+   "en": "Target: $dcom_marketName",
+   "ctx": "dcomOfferTextBar2: Call $dcom_ref showMap \"Target: $dcom_marketName\""
+  },
+  {
+   "i": 184,
+   "en": "Raid designated warehouse",
+   "ctx": "dcomOpenMarket: AddRaidObjective genericIcon \"Raid designated warehouse\" $dcom_danger 5000 DCOMRaidFinished"
+  },
+  {
+   "i": 185,
+   "en": "Target: $psb_systemNameShort",
+   "ctx": "psbOfferTextContact: Call $psb_ref showMap \"Target: $psb_systemNameShort\""
+  },
+  {
+   "i": 186,
+   "en": "Target: $ssat_marketName",
+   "ctx": "ssatOfferTextBar2: Call $ssat_ref showMap \"Target: $ssat_marketName\""
+  },
+  {
+   "i": 187,
+   "en": "Target: $extr_marketName",
+   "ctx": "extrOfferTextBar1: Call $extr_ref showMap \"Target: $extr_marketName\""
+  },
+  {
+   "i": 188,
+   "en": "Pathers",
+   "ctx": "extrOfferTextContact3: Highlight \"Pathers\" $extr_reward $extr_marines"
+  },
+  {
+   "i": 189,
+   "en": "Perform extraction operation",
+   "ctx": "extrOpenMarket1: AddRaidObjective genericIcon \"Perform extraction operation\" $extr_danger 3000 extrRaidFinished"
+  },
+  {
+   "i": 190,
+   "en": "Negotiated a peaceful handover of the target",
+   "ctx": "extr_barPickUp: SetStoryOption extr_storyOption general \"Negotiated a peaceful handover of the target\""
+  },
+  {
+   "i": 191,
+   "en": "flagged for your attention",
+   "ctx": "LOCRMremoveBecauseColony: Highlight \"flagged for your attention\""
+  },
+  {
+   "i": 192,
+   "en": "Lost miners rescued",
+   "ctx": "LOCRMremoveBecauseColony2: AddTextSmall \"Lost miners rescued\" highlight"
+  },
+  {
+   "i": 193,
+   "en": "Rescued abandoned miners",
+   "ctx": "LOCRMremoveBecauseColony2: AddPopGrowth 3 90 \"Rescued abandoned miners\""
+  },
+  {
+   "i": 194,
+   "en": "136 crew berths",
+   "ctx": "LOCRMcontact2: Highlight \"136 crew berths\" \"12 units of heavy machinery\""
+  },
+  {
+   "i": 195,
+   "en": "12 units of heavy machinery",
+   "ctx": "LOCRMcontact2: Highlight \"136 crew berths\" \"12 units of heavy machinery\""
+  },
+  {
+   "i": 196,
+   "en": "You don't have enough crew accomodations to transport the miners. ($player.crewRoomStr of 136 required)",
+   "ctx": "LOCRMofferTransportCrewCheck: SetTooltip locrm_myColony \"You don't have enough crew accomodations to transport the miners. ($player.crewRoomStr of 136"
+  },
+  {
+   "i": 197,
+   "en": "Requires that you have at least one colony.",
+   "ctx": "LOCRMofferTransportColonyCheck: SetTooltip locrm_myColony \"Requires that you have at least one colony.\""
+  },
+  {
+   "i": 198,
+   "en": "12 units",
+   "ctx": "LOCRMaskPayment: Highlight \"136 crew berths\" \"Heavy Machinery\" \"12 units\""
+  },
+  {
+   "i": 199,
+   "en": "ultra-rich ore",
+   "ctx": "LOCRMsurveyOre: Highlight \"ultra-rich ore\""
+  },
+  {
+   "i": 200,
+   "en": "plentiful volatiles",
+   "ctx": "LOCRMsurveyVolatiles: Highlight \"plentiful volatiles\""
+  },
+  {
+   "i": 201,
+   "en": "plentiful organics",
+   "ctx": "LOCRMsurveyOrganics: Highlight \"plentiful organics\""
+  },
+  {
+   "i": 202,
+   "en": "ultra-rich rare ore",
+   "ctx": "LOCRMsurveyRareOre: Highlight \"ultra-rich rare ore\""
+  },
+  {
+   "i": 203,
+   "en": "offloading the miners you rescued",
+   "ctx": "LOCRMoffloadMiners: Highlight \"offloading the miners you rescued\""
+  },
+  {
+   "i": 204,
+   "en": "suitable for resettlement of the rescued miners",
+   "ctx": "LOCRMoffloadMinersOwnColony: Highlight \"suitable for resettlement of the rescued miners\""
+  },
+  {
+   "i": 205,
+   "en": "Marooned pirates rescued",
+   "ctx": "LOCRPremoveBecauseColony2: AddTextSmall \"Marooned pirates rescued\" highlight"
+  },
+  {
+   "i": 206,
+   "en": "Rescued maroooned pirates",
+   "ctx": "LOCRPremoveBecauseColony2: AddPopGrowth 2 90 \"Rescued maroooned pirates\""
+  },
+  {
+   "i": 207,
+   "en": "You don't have enough marines to take on the pirates. ($player.marines of 3 required)",
+   "ctx": "LOCRPraidCheck: SetTooltip locrp_raidStart \"You don't have enough marines to take on the pirates. ($player.marines of 3 required)\""
+  },
+  {
+   "i": 208,
+   "en": "$player.marines of 3",
+   "ctx": "LOCRPraidCheck: SetTooltipHighlights locrp_raidStart \"$player.marines of 3\""
+  },
+  {
+   "i": 209,
+   "en": "54 crew berths",
+   "ctx": "LOCRPofferTransportSpace: Highlight \"54 crew berths\""
+  },
+  {
+   "i": 210,
+   "en": "You don't have enough crew accomodations to transport the miners. ($player.crewRoomStr of 54 required)",
+   "ctx": "LOCRPofferTransportCheckA: SetTooltip locrp_transportShuttle \"You don't have enough crew accomodations to transport the miners. ($player.crewRoomSt"
+  },
+  {
+   "i": 211,
+   "en": "By packing the pirates into the brig, makeshift or otherwise, they won't take up valuable crew berths.",
+   "ctx": "LOCRPofferTransportCheckC: SetTooltip locrm_transportLie \"By packing the pirates into the brig, makeshift or otherwise, they won't take up valuable"
+  },
+  {
+   "i": 212,
+   "en": "Took marooned pirate crew prisoner",
+   "ctx": "LOCRPtransportLie: AddTextSmall \"Took marooned pirate crew prisoner\""
+  },
+  {
+   "i": 213,
+   "en": "Capture the marooned pirates",
+   "ctx": "LOCRPraidStart: AddRaidObjective genericIcon \"Capture the marooned pirates\" MINIMAL 3 LOCRPraidFinishedA true"
+  },
+  {
+   "i": 214,
+   "en": "Took pirate prisoners",
+   "ctx": "LOCRPraidFinishedB: AddTextSmall \"Took pirate prisoners\" highlight"
+  },
+  {
+   "i": 215,
+   "en": "offload the formerly marooned pirates",
+   "ctx": "LOCRPoffloadPirates: Highlight \"offload the formerly marooned pirates\""
+  },
+  {
+   "i": 216,
+   "en": "Luddic heretics rescued",
+   "ctx": "LOCRLremoveBecauseColonyA2: AddTextSmall \"Luddic heretics rescued\" highlight"
+  },
+  {
+   "i": 217,
+   "en": "Rescued Luddic heretics",
+   "ctx": "LOCRLremoveBecauseColonyA2: AddPopGrowth 5 90 \"Rescued Luddic heretics\""
+  }
+ ]
+}

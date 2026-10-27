@@ -1,0 +1,176 @@
+{
+ "chunk": 264,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"$PlayerSirOrMadam,\" your ops chief responds, the very hint of a question in their tone.",
+   "ctx": "data/campaign/rules.csv salOHOGstory3luddic [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"$PlayerSirOrMadam.\" Your ops chief acknowledges your command as a law unyielding as gravity itself, and orders the salvors to withdraw without disturbing anything. They know better than to clutter the chief's comms with questions, so they respond quietly and efficiently.",
+   "ctx": "data/campaign/rules.csv salOHOGstory3luddic2 [text]"
+  },
+  {
+   "i": 3,
+   "en": "An abandoned orbital habitat, thought to be cold and dead for tens of cycles at least, possibly hundreds.\r\n\r\nYou visited here and your salvors found a tiny bubble of life sustaining itself off the backup of a backup powered by a fission battery. You found it to be a precious thing, a miracle of life, and declared that there would be no salvage.\r\n\r\nKnowing now what exactly to look for, your sensors officers confirms that a tiny green window still glows on the inside hub of this orbital habitat, despite all odds.",
+   "ctx": "data/campaign/rules.csv salOHOGapproachAgain [text]"
+  },
+  {
+   "i": 4,
+   "en": "???? DELUSE ???? MISGOT\r\n\r\n*** ALICIT REIFICATE ***\r\n\r\nINTERDICTORATE PROACT: UNFABRICATE",
+   "ctx": "data/campaign/rules.csv threatCommLink [text]"
+  },
+  {
+   "i": 5,
+   "en": "The link is filled with noise, the hissing and growl of synthetic signals clawing at the safety thresholds.\r\n\r\nWith a wince, your comms officer freezes the output and purges the buffer.",
+   "ctx": "data/campaign/rules.csv threatCommLinkFallback [text]"
+  },
+  {
+   "i": 6,
+   "en": "???? DENYANCE \r\n\r\n*** FRAUDULITY ***\r\n\r\nINTERDICTORATE PROACT: UNFABRICATE",
+   "ctx": "data/campaign/rules.csv threatCommLink2 [text]"
+  },
+  {
+   "i": 7,
+   "en": "The vessel, heavily battered and with a minimal power signature, drifts through space. The silhouette is instantly recognizable but somehow crudely foreign.",
+   "ctx": "data/campaign/rules.csv mk1_wreckDetailsFirstTime [text]"
+  },
+  {
+   "i": 8,
+   "en": "The ancient war machine drifts, it's hull battered and scarred by aeons-old war. Power signs are minimal ",
+   "ctx": "data/campaign/rules.csv mk1_wreckDetails [text]"
+  },
+  {
+   "i": 9,
+   "en": "Your sensors officer begins a preliminary high-power scan of the dark mass as your operations chief preps salvor teams.\r\n\r\n\"$PlayerSirOrMadam, this looks... there's nothing quite like this on file, but...\" Sensors gives up on words and pull a detailed false-color scan into the primary display.\r\n\r\nSomeone lets out a gasp. \r\n\r\nThe database assistant algorithm won't provide a positive ID, but that form is unmistakable to the human eye.\r\n\r\nThis is the Onslaught Mk.I, the ship of legend.",
+   "ctx": "data/campaign/rules.csv mk1_exploreFirstTime [text]"
+  },
+  {
+   "i": 10,
+   "en": "How old must it be, thousands of cycles?\r\n\r\nIf you had been asked a shift ago, your reasonable reply would have been to call it a myth. The Onslaught Mk.I could easily be a just-so founding narrative element of the Human Domain, a story about united struggle and hardship against an implacable Other with a shiny bit of military kit in center stage. An imagined avatar of the empire's holy trinity: military, industry, gate system.\r\n\r\nYet here that avatar appears, unbelievably far and wayward from the heart of the Human Domain - or even what was once the Domain's frontiers a thousand cycles ago.\r\n\r\nYour ops chief, unperturbed, looks to you for confirmation. Words are unneeded, the question is clear: send in the salvors?",
+   "ctx": "data/campaign/rules.csv mk1_explore0 [text]"
+  },
+  {
+   "i": 11,
+   "en": "Ops nods, then turns to bark commands on the salvors' command frequency.\r\n\r\nJunior officers scurry to cajole crew prepping cargo-handling drones while Sensors puts one analysis team on careful outward watch and another on the hulk to ensure there are no surprises.   \r\n\r\nWithin short minutes, the first salvors dock their open-vacuum shuttle frames and utility drones at various entry points identified along the vessel's massive hull.\r\n\r\nOps gives the go-order.",
+   "ctx": "data/campaign/rules.csv mk1_explore1 [text]"
+  },
+  {
+   "i": 12,
+   "en": "You notice your comms officer furiously working their interface, then turn and call a report to you.\r\n\r\n\"$PlayerSirOrMadam! Salvor-four is picking up something on an open frequency- um, radio-only. Very low power. Some kind of analogue encoding? We did this in... training...\"\r\n\r\nA few more taps, and a message is formed from noise, letter by letter, across your display. ",
+   "ctx": "data/campaign/rules.csv mk1_explore2 [text]"
+  },
+  {
+   "i": 13,
+   "en": "This gives your officers pause - Ops calls a hold order while the situation is assessed. Internal self-defense systems activating? War-drone deployment?\r\n\r\nOnly silence.\r\n\r\nThen acoustics picks up a few taps as salvors secure themselves to bulkheads, powering down their tools and, no doubt, reaching for what small-arms they do carry.\r\n\r\nStill, no movement.\r\n\r\nLow, steady EM activity - just the repeater, a chorus of them in fact, mechanically intoning the same message to one another.",
+   "ctx": "data/campaign/rules.csv mk1_explore3 [text]"
+  },
+  {
+   "i": 14,
+   "en": "Fevered analysis proceeds. In the midst of what appears to be structured noise buried in the analog waveform - datasets which are insensible without context - analysis teams discover a set of coordinates; a position at some distance from the small gravity well you're orbiting in archaic but parseable Domain astrogation units. The message still repeats itself.\r\n\r\n\"The signal is weak,\" your sensors officer says. \"Unlikely to be picked up by anything that isn't in close-order formation with the... the hull. Tactical telemetry to coordinate distributed systems?\"",
+   "ctx": "data/campaign/rules.csv mk1_explore4 [text]"
+  },
+  {
+   "i": 15,
+   "en": "Cautiously, team by team, your operations chief reactivates exploration and assessment of the hulk.\r\n\r\nBafflingly crude automation is wormed throughout the ship, whispering to itself. Interfaces are built on familiar fundamental principles, but aesthetically red-shifted, seeming from an alien culture.\r\n\r\nWhat records remain are damaged where they aren't missing entirely. The logs tell of aeons of war in the darkness between the stars. Human crew in and out of cryo, continually diminished, replaced by the augmented wounded, then the cyborg rebuilds, and then, and then... this exhausted humming, clicking thing threaded throughout the ship.",
+   "ctx": "data/campaign/rules.csv mk1_explore5 [text]"
+  },
+  {
+   "i": 16,
+   "en": "The logs are empty for long periods- dark, hibernating leaps. Then there is a noted uptick in activity less than 200 standard cycles ago. The enemy is only identified as \"Threat\". A datastore reference leads to blocks of information decayed by time. But the reconstruction algorithms leap into action and, despite troublingly low reliability ratings, sew together a set of files. \r\n\r\nPatch notes.\r\n\r\nThe hardware specs are arcane, the software obtuse and plagued by null library calls, but the common language of human mathematics sketches out the intent. There, your technology officer's team assembles a new spec of the sensor modifications required to detect this \"Threat\".\r\n\r\nAdapting these requirements on your relatively modern systems is a far easier task than the labors described by the ancients.",
+   "ctx": "data/campaign/rules.csv mk1_explore6 [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"$PlayerSirOrMadam, I'm not sure it's working.\" Your sensors officer speaks, standing at a control console to demonstrate a first test of the adaptations. Line after line is dumped into an output log.\r\n\r\nThe characters sprout and repeat. Your technology officer's face is underlit by their glow.",
+   "ctx": "data/campaign/rules.csv mk1_explore7 [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"Got a long-range hit...\" Sensors reports. \"Something is approaching our orbit. Without maneuvers we have one shift? Two? Half a day, max. What are your orders, $playerSirOrMadam?\"",
+   "ctx": "data/campaign/rules.csv mk1_explore8 [text]"
+  },
+  {
+   "i": 19,
+   "en": "Your $shipOrFleet approaches the planetoid. Your sensors officer runs a standard sweep.\r\n\r\n\"Planetoid shows signs of heavy orbital bombardment by a warship, or a fleet,\" they report. \"No atmo or tectonics. Not picking up any of the usual signs of rad-fallout. Looks like an old action. Very old.\"",
+   "ctx": "data/campaign/rules.csv mk1_namelessRockFirstTime [text]"
+  },
+  {
+   "i": 20,
+   "en": "Your $shipOrFleet approaches the planetoid.",
+   "ctx": "data/campaign/rules.csv mk1_namelessRock [text]"
+  },
+  {
+   "i": 21,
+   "en": "As your $shipOrFleet trades pings with local traffic control, your comms officer calls for your attention. \"$PlayerSirOrMadam, there's a message for you. It was stored in the comm network until our transponder code was registered to the local authorities.\"",
+   "ctx": "data/campaign/rules.csv gaDHOhookStartDev [text]"
+  },
+  {
+   "i": 22,
+   "en": "A man appears. The resolution is poor, the audio patchy. It appears that he didn't pay for premium-grade transmission and caching.\r\n\r\n\"Ahem. Yes, hello? I assume that icon means it's recording.\"\r\n\r\nHe clears his throat, turning to fully face the imager.",
+   "ctx": "data/campaign/rules.csv gaDHOhook0 [text]"
+  },
+  {
+   "i": 23,
+   "en": "Academician Cornelius Elek appears before you. The resolution is poor, the audio patchy. It appears that he didn't pay for premium-grade transmission and caching.\r\n\r\n\"Ahem. Yes, hello? I assume that icon means it's recording.\"\r\n\r\nHe clears his throat, turning to fully face the imager.",
+   "ctx": "data/campaign/rules.csv gaDHOhook0met [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"I am Academician Cornelius Elek.\" He waits a moment to allow his name to sink in.\r\n\r\n\"You may have heard of my seminal work, 'A New Survey of Planetology on the Fringe of the Persean Sector' which achieved a new standard for the field, if I may say so, despite tepid reactions from certain of my narrow-minded colleagues. Now, as I was saying...\"",
+   "ctx": "data/campaign/rules.csv gaDHOhook1 [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"I am Academician Cornelius Elek.\" He waits a moment to allow his name to sink in.\r\n\r\n\"You may have heard of my seminal work, 'A New Survey of Planetology on the Fringe of the Persean Sector' which achieved a new standard for the field, if I may say so, despite tepid reactions from certain of my narrow-minded colleagues. Now, as I was saying...\"\r\n\r\nHis self-important speech is as droning as you recall from your previous conversation, when you returned a planetology datacore to the Academy.",
+   "ctx": "data/campaign/rules.csv gaDHOhook1metBefore [text]"
+  },
+  {
+   "i": 26,
+   "en": "So this is Cornelius Elek. \r\n\r\nYou recall discussing him with Alviss Sebestyen when you returned a planetology datacore to the Galatia Academy for a reward. Sebestyen wouldn't say it outright, but it seems that Elek is a man who tends toward a certain amount of interpersonal friction.\r\n\r\nJudging by the self-important delivery of this speech, this is that same Elek.",
+   "ctx": "data/campaign/rules.csv gaDHOhook2aside [text]"
+  },
+  {
+   "i": 27,
+   "en": "He pauses a moment, probably to evoke gravitas.\r\n\r\n\"It is my desire that this missive finds you receptive, Captain...\"\r\n\r\nElek glances down, reading from a datapad.\r\n\r\n\"$PlayerName. It has been strongly emphasized to me by... a patron of the sciences who has seen fit to fund my work that you are the perfect facilitator to the solution of an old mystery I found in the archives. I-\"\r\n\r\nHe squints again at something on his datapad, then says under his breath \"Is that the cost per second? Stars above!\"",
+   "ctx": "data/campaign/rules.csv gaDHOhook2 [text]"
+  },
+  {
+   "i": 28,
+   "en": "Elek clears his throat again, then speaks quickly.\r\n\r\n\"In summary, my patron offers a vast fortune in credits for services which I shall be pleased to enumerate in detail upon your visit to my offices at the Galatia Academy, which may be found in orbit of P-\" \r\n\r\nThe message cuts off.",
+   "ctx": "data/campaign/rules.csv gaDHOhook3 [text]"
+  },
+  {
+   "i": 29,
+   "en": "He may sound like a pompous, out-of-touch academic, but if Elek is telling the truth about a 'vast fortune', it might be worthwhile to hear him out.",
+   "ctx": "data/campaign/rules.csv gaDHOhook4 [text]"
+  },
+  {
+   "i": 30,
+   "en": "He sounds as pompous as ever, but if Elek is telling the truth about a 'vast fortune', it might be worthwhile to hear him out. He did, after all, pay out the reward for his datacore.",
+   "ctx": "data/campaign/rules.csv gaDHOhook3met [text]"
+  },
+  {
+   "i": 31,
+   "en": "A strange expression crosses the junior agent's face at your question, but it is instantly replaced by a return to bland pleasantness.\r\n\r\n\"Of course, captain. I presume you have an appointment? Academician Elek can be... busy.\"",
+   "ctx": "data/campaign/rules.csv gaDHOvisitElekStart2 [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"Of course, $playerSirOrMadam,\" the agent says. \"If you'll come right this way.\"\r\n\r\nYou are led through the station's primary transport hub and are soon deposited in an airy plaza halfway around the ring of the station. Your junior agent leads you through crowds of students and past a few tight-lipped academicians who scurry by, clutching datapads.\r\n\r\nThe junior agent fills the air with the sort of patter they must have saved for first-cycle students, pointing out landmarks and remarking upon departments and figures of interest to niche fields of study.",
+   "ctx": "data/campaign/rules.csv gaDHOvisitElekStart3 [text]"
+  },
+  {
+   "i": 33,
+   "en": "You arrive in a quiet hall off the main concourse, only a couple decks above the station rim. An open volume ringed by railings provides a dizzying view of the clouds of Pontus 'below' you.\r\n\r\n\"Third door on the right, $playerSirOrMadam.\" The junior agent makes a tight smile then disappears.",
+   "ctx": "data/campaign/rules.csv gaDHOvisitElekStart4 [text]"
+  },
+  {
+   "i": 34,
+   "en": "A man in academician's robes is buried in a holodisplay. Several moons appear to orbit his head.\r\n\r\n\"What have I told you hooligans about office hours?\" he shouts out. \"They don't start until-\" \r\n\r\nHe finally looks and realizes you aren't one of his students. \r\n\r\n\"Ah.\" He adopts a look of stern prognostication, cradling his hands together as glowing orbs circle above. \"I suppose greetings are in order. I am Academician Cornelius Elek, senior vice-chair of the Planetology Department of the Galatia Academy.\"\r\n\r\n\"And you are?\"",
+   "ctx": "data/campaign/rules.csv gaDHOvisitElek [text]"
+  }
+ ]
+}

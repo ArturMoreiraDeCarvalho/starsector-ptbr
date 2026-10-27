@@ -1,0 +1,161 @@
+{
+ "chunk": 166,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "The archon's eyes find the package of krill paste tucked under one of your arms ('Sub-Kay brand, blue-bar special). $HeOrShe raises an eyebrow but makes no comment.",
+   "ctx": "data/campaign/rules.csv gaFCLaicaileVisitStartAlamangYes [text]"
+  },
+  {
+   "i": 2,
+   "en": "Archon $personLastName speaks a quiet word into $hisOrHer commband and a small squad of diversely equipped Laicaille militia appears. \r\n\r\n\"Captain, let's go see that safehouse,\" $heOrShe says, and turns to lead your party toward a station transport shaft.",
+   "ctx": "data/campaign/rules.csv gaFCLaicailleVisit1 [text]"
+  },
+  {
+   "i": 3,
+   "en": "The safehouse is a low-rent commercial warehouse in a medium-security volume of this station ring. The thin bulkheads leave you just within earshot of the thudding bass of the twilit entertainment concourse a couple sections over. \r\n\r\nAs a score of officials and station militia approach the entrance of the safehouse - a standard cargo lock - a trio of lounging League agents leap to their feet.",
+   "ctx": "data/campaign/rules.csv gaFCLaicailleVisit2 [text]"
+  },
+  {
+   "i": 4,
+   "en": "The station archon strides forward, and channeling the resentment you stoked, harangues the League agents for endangering the station, stomping on the rights of League citizenry, and above all gross incompetence. \r\n\r\nThe young Kazeronian agent in command wipes a drop of sweat from their forehead, \"Archon, we've got this. League security demands-\"\r\n\r\n\"No, you don't got this. This operation is riddled with leaks,\" the archon glances briefly at you, \"And your meltdown of an operation is a direct threat to our security. Laicaille Habitat is exerting its sovereign rights in this matter as of now, with the full support of the executive council.\"",
+   "ctx": "data/campaign/rules.csv gaFCLaicailleVisit3 [text]"
+  },
+  {
+   "i": 5,
+   "en": "The League agent lowers their wavering pistol, and at that, the flanking agents lose the strength of their composure. \r\n\r\nThe archon takes the agent's pistol, checks the safety, then shoves the agent away, leading you to the airlock. The control panel gives way to executive override codes, and the archon motions for you to pass through the armored doorway.",
+   "ctx": "data/campaign/rules.csv gaFCLaicailleVisit4 [text]"
+  },
+  {
+   "i": 6,
+   "en": "A woman stands before you, holding a datapad, looking quizzically at the newcomers.\r\n\r\nYou look around the dark space, taking in the shadowy equipment racks, humming machines, and cargo crates. A small zero-G style hab pod in the corner must be her domestic space.",
+   "ctx": "data/campaign/rules.csv gaFCLaicailleVisit4b [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Yes. That's me,\" she says cautiously. \"And... Archon $personLastName. This is unexpected. To what do I owe the honor?\"\r\n\r\nThe archon nods toward you, \"Captain $playerName. Who has a way of poking around in other people's business. Now it's your turn.\"",
+   "ctx": "data/campaign/rules.csv gaFCLaicailleVisit5 [text]"
+  },
+  {
+   "i": 8,
+   "en": "Coureuse spots the package of krill paste under your arm. \"Is that... Sub-Kay blue-bar? Where- how did you-\"",
+   "ctx": "data/campaign/rules.csv gaFCLaicailleVisit5Alamang [text]"
+  },
+  {
+   "i": 9,
+   "en": "Coureuse breaks into a smile of genuine joy.\r\n\r\n\"Of course! We always talked about how bad it smelled, but nothing is as good.\" She takes it, almost caressing the plastic while lost in some memory. She returns to herself with a start, \"Oh, I'm sorry, just. Old times.\" She puts the package on a workbench, \"Please, explain. Why are you here?\"",
+   "ctx": "data/campaign/rules.csv gaFCLaicailleVisit5Alamang2 [text]"
+  },
+  {
+   "i": 10,
+   "en": "Archon $personLastName eyes you, a nonverbal inquiry about whether $heOrShe is intruding, and concludes that $heOrShe is.\r\n\r\n\"I'll let you two speak privately. Citizen Coureuse, I am informing you that you are now under the direct protection of the Laicaille Executive Council. We shall ensure your safety on this station, and,\" $heOrShe casts a glance back at the League agents, \"And ensure your right to freedom of movement as per the Persean League Charter.\" \r\n\r\nAs if just remembering its existence, the archon slips the League agent's pistol into $hisOrHer belt, nods, and steps toward the ongoing shouting match back in the airlock.  \r\n\r\n\"Baird wants me back, doesn't she.\" Coureuse crosses her arms.",
+   "ctx": "data/campaign/rules.csv gaFCLaicailleVisit6 [text]"
+  },
+  {
+   "i": 11,
+   "en": "You pass the datapad to Coureuse, and she takes it to a chair set at a workstation a few meters away, activating a privacy field that dulls the sound and blurs her image.",
+   "ctx": "data/campaign/rules.csv gaFCLaicailleVisit7 [text]"
+  },
+  {
+   "i": 12,
+   "en": "You hear muffled speech, Baird's tone is unmistakable. The indistinct outline of Coureuse is still, listening. Then, when Baird's speech ends, it slumps in the chair as if all will had been drained away.",
+   "ctx": "data/campaign/rules.csv gaFCLaicailleVisit8 [text]"
+  },
+  {
+   "i": 13,
+   "en": "You turn to examine the workshop: racks of sub-AI processing cores sleep in coolant cradles, festooned with wires. An agrav-equipped overhead winch holds a machine casing in safety locks above a macroassembler with its modular components exposed. The workbench nearby holds several multipurpose engineering arms hovering over some device, its innards arranged like an exploded engineering diagram.",
+   "ctx": "data/campaign/rules.csv gaFCLaicailleVisit8b [text]"
+  },
+  {
+   "i": 14,
+   "en": "A couple minutes later, the privacy field collapses and Coureuse emerges. She looks tired.\r\n\r\nShe hands the datapad back to you, and says \"I'll come with you.\"",
+   "ctx": "data/campaign/rules.csv gaFCLaicailleVisit9 [text]"
+  },
+  {
+   "i": 15,
+   "en": "Coureuse looks at you with eyes hardened, and gives an ironic half-smile. \"Baird always gets her way, didn't you know?\"",
+   "ctx": "data/campaign/rules.csv gaFCLaicailleVisit10 [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"Okay. But I need-\" Coureuse looks over her workbenches, computing array, and projects in various states of completion, \"My, um, things.\"\r\n\r\nYou inform her that you have a special team that's well practiced in moving delicate scientific equipment. In fact, you'll introduce her to your ops chief to make arrangements right now...",
+   "ctx": "data/campaign/rules.csv gaFCLaicailleEnd1 [text]"
+  },
+  {
+   "i": 17,
+   "en": "Within the hour, with the full cooperation of the Laicaille Executive Council and the station quartermaster, you have Scylla Coureuse and her equipment packed and transported to your $shipOrFleet. \r\n\r\nNext stop, Galatia Academy Station. Baird always gets her way.",
+   "ctx": "data/campaign/rules.csv gaFCLaicailleEnd2 [text]"
+  },
+  {
+   "i": 18,
+   "en": "The image of Provost Anahita Baird appears.\r\n\r\n\"Captain, it is good to see you return, finally. Bring her by shuttle,\" she says, \"Directly to this docking port,\" a chime signals the receipt of navigation instructions and docking codes. \"I'll meet you there.\" \r\n\r\nThe comm line shuts off.",
+   "ctx": "data/campaign/rules.csv gaFCReturnToAcademy1 [text]"
+  },
+  {
+   "i": 19,
+   "en": "You step off the shuttle, thrusters clicking as they cool, followed by Scylla Coureuse. The scientist was quiet on the brief shuttle ride which has returned her to Galatia Academy Station after her time in hiding.\r\n\r\nAs promised, Provost Baird is waiting with a small group of masked guards and senior advisors. Academician Sebestyen waves as your gaze drifts over him.\r\n\r\n\"It is so good to have you back with us, Scylla,\" says Baird.",
+   "ctx": "data/campaign/rules.csv gaFCReturnToAcademy2 [text]"
+  },
+  {
+   "i": 20,
+   "en": "Sebestyen smiles widely as you wave back. Baird is intent on Coureuse, and makes no acknowledgement.",
+   "ctx": "data/campaign/rules.csv gaFCReturnToAcademy3a [text]"
+  },
+  {
+   "i": 21,
+   "en": "Coureuse nods to Baird's words, though occupies herself with examining the reception lounge. \"It hasn't changed much,\" she says.\r\n\r\nSomething in this doesn't please the provost, you think. \r\n\r\n\"Well,\" says Baird, \"I believe you'll find that quite a lot has changed. Academician Alviss Sebestyen, please come forward- thank you. I understand that you knew Scylla back- \" at his vigorous nod, she says \"Yes, of course.\"",
+   "ctx": "data/campaign/rules.csv gaFCReturnToAcademy3 [text]"
+  },
+  {
+   "i": 22,
+   "en": "Sebestyen begins to welcome Coureuse, shaking her hand, and asking about her trip. Coureuse raises an eyebrow at the question, and Baird interrupts, \"There will be time for that later, Alviss. Please show the newly reinstated Academician Coureuse to her quarters - then show her the new laboratory.\" \r\n\r\nBaird pauses, seeming to examine Coureuse for a response, but Scylla simply bows her head slightly in acknowledgement without meeting Baird's eyes.\r\n\r\n\"Scylla, I hope you can thrive here. Again. Please go with Alviss. And... keep an open mind,\" Baird says.",
+   "ctx": "data/campaign/rules.csv gaFCReturnToAcademy4 [text]"
+  },
+  {
+   "i": 23,
+   "en": "With a sigh, Baird turns from them to you.\r\n\r\n\"Captain. Thank you for finding her and bringing her home,\" the provost watches the two leave the receiving lounge, starting to chat, Coureuse finally starting to smile. \"With Scylla, we can begin it all again.\" \r\n\r\nBaird holds up a hand to indicate an adjoining transport pod, \"Let us remove to a more suitable setting for the continuation of our discussion.\"",
+   "ctx": "data/campaign/rules.csv gaFCReturnToAcademy5 [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"Some among their ranks, yes,\" a hint of smile forms on Baird's face, \"But others can see that this is the best way forward. The League can't pull the best and brightest from the entire Sector. The Galatia Academy can. They don't have the theoretical research and experimentation infrastructure we do. It's all practical matters with their Fleet Armamentarium; weapons, warships, heavy industry, and doling out contracts to gens-allies.\"\r\n\r\n\"Furthermore, subfactions within the League could not call an open vote on a matter so delicate as this. We merely resolved their political questions by other means,\" the provost tips her head toward you, acknowledging your role.",
+   "ctx": "data/campaign/rules.csv  gaFCReturnHubLeague [text]"
+  },
+  {
+   "i": 25,
+   "en": "Baird looks at you for a long moment. You think you see something new. Something almost like emotional pain.\r\n\r\n\"Scylla never appreciated the gifts I... the academy offered her. It's how she was raised, perhaps. Her insubordination was indulged. Became habitual. But with time, when she sees what we accomplish, maybe her higher sense of rationality will win out. I know she is capable of it.\"\r\n\r\nBaird turns, staring forward, and sets her jaw.",
+   "ctx": "data/campaign/rules.csv  gaFCReturnHubScylla [text]"
+  },
+  {
+   "i": 26,
+   "en": "Through the silence, you can almost hear Baird thinking.\r\n\r\nThe transport pod hisses to a halt, and you feel the subtle shift of agrav fields. You step off and note that this seems to be a back entrance which allows Baird to avoid the waiting room full of important people unused to being told to wait.",
+   "ctx": "data/campaign/rules.csv gaFCReturnHubNothing [text]"
+  },
+  {
+   "i": 27,
+   "en": "You follow Provost Baird into her office, and the doors close with a notable absence of sound. She motions you to a seat in front of her desk.\r\n\r\n\"First,\" she says, \"you ought to be compensated for your fine work recovering a valuable asset.\"\r\n\r\nBaird unlocks her desk interface and enters some commands; your personal datapad pings in response.",
+   "ctx": "data/campaign/rules.csv gaFCReturnToAcademy7a [text]"
+  },
+  {
+   "i": 28,
+   "en": "Baird taps at her interface, her face illuminated by a moving image. \"She seems to be settling in,\" she says, watching.\r\n\r\nA holo projects into the space above her desk: a surveillance feed of a gleaming new physics laboratory. Scylla Coureuse is being introduced by Sebestyen to various academicians, judging by their formal dress, and technicians in various states of protective garb. They look young and eager to begin work.",
+   "ctx": "data/campaign/rules.csv gaFCReturnToAcademy7a2 [text]"
+  },
+  {
+   "i": 29,
+   "en": "She motions at the image, \"We'll rebuild what we can from Coureuse's independent work and what she can recall, but without the Kallichore Archive, it would be... inconvenient to recapture certain data sets.\"\r\n\r\nBaird looks up, at the proverbial sky, \"I expect that the Hegemony Ministry of Technology Standards has installed very particular forms of surveillance in place around the Galatia system to avoid being caught flat-footed by another 'little accident'. We dare not interfere directly, lest we give them another excuse to meddle.\"",
+   "ctx": "data/campaign/rules.csv gaFCReturnToAcademy8a [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"Acquire the Kallichore Archive, captain,\" Baird says, \"And quickly.\" She turns away, dismissing you. \"It would be premature to speak too much about what I am building toward, but a magnificent breakthrough is growing closer.\"\r\n\r\nYou feel the doors open soundlessly behind you, and the mirror-masked guards presence like a slight rise in ambient static electricity. Time to go.",
+   "ctx": "data/campaign/rules.csv gaFCReturnToAcademy9a [text]"
+  },
+  {
+   "i": 31,
+   "en": "As you enter Baird's office, you notice that Gargoyle is in the sitting area, heels resting on the common table. The hacker casually closes a holodisplay, \"Oh, so good of everyone to join me. I was getting awfully bored, I thought I might read some files, but you got here just as I was getting started...\"\r\n\r\nAlthough she shows no outward change in expression, you get the familiar feeling of potent apprehension and clarity which fills your gut when a high-powered starship weapon is armed to fire. Provost Baird speaks with firm authority, \"An amusing prank, I'm sure. Now remove your feet from there before I have you removed from my office again.\"\r\n\r\n\"Yes'm,\" Gargoyle mutters sullenly, dropping boots to the floor.",
+   "ctx": "data/campaign/rules.csv gaFCReturnToAcademy7b [text]"
+  }
+ ]
+}

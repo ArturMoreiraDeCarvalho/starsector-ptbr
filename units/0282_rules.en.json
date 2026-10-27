@@ -1,0 +1,1186 @@
+{
+ "chunk": 282,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"So her plan was to get those mercs killed?\"",
+   "ctx": "ArroyoAskAboutZGR2optC"
+  },
+  {
+   "i": 2,
+   "en": "\"I had no idea you were such a humanitarian.\"",
+   "ctx": "ArroyoAskAboutZGR2optA"
+  },
+  {
+   "i": 3,
+   "en": "\"Surely you can use this against her.\"",
+   "ctx": "ArroyoAskAboutZGR2optD"
+  },
+  {
+   "i": 4,
+   "en": "\"So her plan is to get me killed?\"",
+   "ctx": "ArroyoAskAboutZGR2optB"
+  },
+  {
+   "i": 5,
+   "en": "\"We'll just have to find out.\"\r",
+   "ctx": "ArroyoAskAboutZGR4"
+  },
+  {
+   "i": 6,
+   "en": "\"Thank you for your warning.\"\r",
+   "ctx": "ArroyoAskAboutZGR4"
+  },
+  {
+   "i": 7,
+   "en": "\"She wants me to find something called the 'Threat'.\"",
+   "ctx": "ArroyoAskAboutZGR4"
+  },
+  {
+   "i": 8,
+   "en": "\"I'm going to find out.\"\r",
+   "ctx": "ArroyoAskAboutZGR4b"
+  },
+  {
+   "i": 9,
+   "en": "\"I'll stay away.\" (lie)\r",
+   "ctx": "ArroyoAskAboutZGR4b"
+  },
+  {
+   "i": 10,
+   "en": "\"...Thanks for the warning.\"",
+   "ctx": "ArroyoAskAboutZGR4b"
+  },
+  {
+   "i": 11,
+   "en": "\"What are the first two?\"\r",
+   "ctx": "ArroyoAskAboutZGR5c"
+  },
+  {
+   "i": 12,
+   "en": "Let it go",
+   "ctx": "ArroyoAskAboutZGR5c"
+  },
+  {
+   "i": 13,
+   "en": "DEV give some special junk and set encountered weirdness",
+   "ctx": "ZGRdevGive"
+  },
+  {
+   "i": 14,
+   "en": "\"I understand you've been funding Cornelius Elek. Giving him ideas.\"",
+   "ctx": "ZGRpostGADHOconfrontOpt"
+  },
+  {
+   "i": 15,
+   "en": "\"An Academician Elek said something funny- that he was being funded by Tri-Tachyon.\"",
+   "ctx": "ZGRtalkPostGADHOimplyOpt"
+  },
+  {
+   "i": 16,
+   "en": "\"Academician Elek. You funded his research. And directed it.\"",
+   "ctx": "ZGRtalkPostGADHOreturnOpt"
+  },
+  {
+   "i": 17,
+   "en": "\"He was looking into an old sensor array. It found the Onslaught Mk.I.\"",
+   "ctx": "ZGRpostGADHOconfrontStart"
+  },
+  {
+   "i": 18,
+   "en": "\"Yes. I thought you might be involved.\"",
+   "ctx": "ZGRpostGADHOimplyStart"
+  },
+  {
+   "i": 19,
+   "en": "\"Because you're Tri-Tachyon's Director of 'Special Acquisitions'.\"",
+   "ctx": "ZGRpostGADHOimply2"
+  },
+  {
+   "i": 20,
+   "en": "\"Elek prefers his science abstract and very far away, I think.\"",
+   "ctx": "ZGRpostGADHOelekHubOptA"
+  },
+  {
+   "i": 21,
+   "en": "\"You prompted him. How did you know what that sensor array found?\"",
+   "ctx": "ZGRpostGADHOelekHubOptB"
+  },
+  {
+   "i": 22,
+   "en": "\"Do you want to buy the Onslaught Mk.I from me?\"",
+   "ctx": "ZGRpostGADHOelekHubOptC"
+  },
+  {
+   "i": 23,
+   "en": "\"I've been thinking about your offer concerning the Onslaught Mk.I.\"",
+   "ctx": "ZGRpostGADHOelekHubOptD"
+  },
+  {
+   "i": 24,
+   "en": "\"So was the payoff worth the investment?\"\r",
+   "ctx": "ZGRpostGADHOelekPrefer"
+  },
+  {
+   "i": 25,
+   "en": "\"That's a cold way to put it. He's a human being, even if he's.. him.\"",
+   "ctx": "ZGRpostGADHOelekPrefer"
+  },
+  {
+   "i": 26,
+   "en": "\"My position is one million credits.\"\r",
+   "ctx": "ZGRomkiScanOfferRedux"
+  },
+  {
+   "i": 27,
+   "en": "\"Let's discuss this later.\"",
+   "ctx": "ZGRomkiScanOfferRedux"
+  },
+  {
+   "i": 28,
+   "en": "\"I found... many things. And an Onslaught Mk.I.\"\r",
+   "ctx": "ZGRgreetingPostWeirdAll"
+  },
+  {
+   "i": 29,
+   "en": "\"Nope, nothing yet.\" (lie)",
+   "ctx": "ZGRgreetingPostWeirdAll"
+  },
+  {
+   "i": 30,
+   "en": "\"Yes, I have an Onslaught Mk.I.\"\r",
+   "ctx": "ZGRgreetingPostWeirdThreatOMKI"
+  },
+  {
+   "i": 31,
+   "en": "\"I did find something, yes.\"\r",
+   "ctx": "ZGRgreetingPostWeirdThreatOMKIb"
+  },
+  {
+   "i": 32,
+   "en": "\"I believe I found what you're looking for. And more.\"\r",
+   "ctx": "ZGRgreetingPostWeirdBoth"
+  },
+  {
+   "i": 33,
+   "en": "\"I believe I've found what you're looking for.\"\r",
+   "ctx": "ZGRgreetingPostWeirdThreat"
+  },
+  {
+   "i": 34,
+   "en": "\"I found something... hostile. In the Abyss.\"\r",
+   "ctx": "ZGRgreetingPostWeirdDweller"
+  },
+  {
+   "i": 35,
+   "en": "\"And I am eager to be paid. You got me.\"\r",
+   "ctx": "ZGRpostWeirdNothingLie"
+  },
+  {
+   "i": 36,
+   "en": "Close the link",
+   "ctx": "ZGRpostWeirdNothingLie"
+  },
+  {
+   "i": 37,
+   "en": "\"What I found was... hostile. And Inhuman.\"\r",
+   "ctx": "ZGRpostWeirdNothingLieOMKI"
+  },
+  {
+   "i": 38,
+   "en": "\"No. But you already know that, don't you.\"",
+   "ctx": "ZGRpostWeirdNothingDweller"
+  },
+  {
+   "i": 39,
+   "en": "\"I've found some 'interesting' specimens for you...\"",
+   "ctx": "ZGRtechReturn"
+  },
+  {
+   "i": 40,
+   "en": "\"I have more 'interesting' specimens for you...\"",
+   "ctx": "ZGRtechReturnAgain"
+  },
+  {
+   "i": 41,
+   "en": "\"Why? Are you going to make me an offer for it?\"",
+   "ctx": "ZGRtechPlayerOMKIbother"
+  },
+  {
+   "i": 42,
+   "en": "\"I've considered your offer. One million credits for access and scanning of the Mk.I.\"",
+   "ctx": "ZGRtechPlayerHasOptionOMKIagain"
+  },
+  {
+   "i": 43,
+   "en": "Select specimens to turn in",
+   "ctx": "ZGRtechPlayerHasOption"
+  },
+  {
+   "i": 44,
+   "en": "\"I have nothing for you right now.\"",
+   "ctx": "ZGRtechNeverMindOption"
+  },
+  {
+   "i": 45,
+   "en": "\"I have questions about the 'specimens' I've sold you...\"",
+   "ctx": "ZGRaskQuestions"
+  },
+  {
+   "i": 46,
+   "en": "\"What are you going to do with the 'Threat' artifacts?\"",
+   "ctx": "ZGRthreatTechAskThreatDoOpt"
+  },
+  {
+   "i": 47,
+   "en": "\"Does exploitating this technology not risk another AI War?\"",
+   "ctx": "ZGRthreatTechAskThreatAIwarOpt"
+  },
+  {
+   "i": 48,
+   "en": "\"Do you know what the 'Threat' are, or where they came from?\"",
+   "ctx": "ZGRthreatTechAskThreatAreOpt"
+  },
+  {
+   "i": 49,
+   "en": "\"So the 'Threat' are not alive, not intelligent?\"",
+   "ctx": "ZGRthreatTechAskThreatAliveOpt"
+  },
+  {
+   "i": 50,
+   "en": "\"The 'other' specimens- what do you intend to do with them?\"",
+   "ctx": "ZGRmonsterTechAskMonsterDoOpt"
+  },
+  {
+   "i": 51,
+   "en": "\"Do you know what these 'other' specimens... are?\"",
+   "ctx": "ZGRmonsterTechAskMonsterAreOpt"
+  },
+  {
+   "i": 52,
+   "en": "\"That's all I wanted to ask.\"",
+   "ctx": "ZGRthreatTechAskDone"
+  },
+  {
+   "i": 53,
+   "en": "\"Actually, never mind.\"",
+   "ctx": "ZGRthreatTechAskNM"
+  },
+  {
+   "i": 54,
+   "en": "\"Yes, I'd like to hear her proposal.\"\r",
+   "ctx": "ZGRpreFirstVisitGreeting"
+  },
+  {
+   "i": 55,
+   "en": "Take a shuttle to visit Director of Special Acquisitions Glamor-Rotanev\r",
+   "ctx": "ZGRpreVisitResp1"
+  },
+  {
+   "i": 56,
+   "en": "Take a shuttle to visit Director of Special Acquisitions Glamor-Rotanev",
+   "ctx": "ZGRfirstVisitOption"
+  },
+  {
+   "i": 57,
+   "en": "\"I'm here to see Director Glamor-Rotenev.\"\r",
+   "ctx": "ZGRfirstVisitIntro3"
+  },
+  {
+   "i": 58,
+   "en": "\"Isn't that nice.\"",
+   "ctx": "ZGRfirstVisitIntro3"
+  },
+  {
+   "i": 59,
+   "en": "Enter the office of the Director of Special Acquisitions",
+   "ctx": "ZGRfirstVisitIntro4"
+  },
+  {
+   "i": 60,
+   "en": "\"I'll hear you out. What's the proposal?\"\r",
+   "ctx": "ZGRfirstVisitIntro6"
+  },
+  {
+   "i": 61,
+   "en": "\"What's the catch?\"\r",
+   "ctx": "ZGRfirstVisitIntro6"
+  },
+  {
+   "i": 62,
+   "en": "\"Directly to business, huh? No small-talk?\"",
+   "ctx": "ZGRfirstVisitIntro6"
+  },
+  {
+   "i": 63,
+   "en": "\"Been spying on me?\"\r",
+   "ctx": "ZGRfirstVisit8"
+  },
+  {
+   "i": 64,
+   "en": "\"My favorite subject, please proceed.\"",
+   "ctx": "ZGRfirstVisit8"
+  },
+  {
+   "i": 65,
+   "en": "\"I don't see how that's your business.\"",
+   "ctx": "ZGRacknowledgeChurchOpsA"
+  },
+  {
+   "i": 66,
+   "en": "\"I don't think about it. Like you said, I'm practical.\"",
+   "ctx": "ZGRacknowledgeChurchOpsA2"
+  },
+  {
+   "i": 67,
+   "en": "\"I do. I stand for the Church and the Church with me.\"",
+   "ctx": "ZGRacknowledgeChurchOpsB"
+  },
+  {
+   "i": 68,
+   "en": "\"I do believe, but not as does the Church. I follow Ludd's Word.\"",
+   "ctx": "ZGRacknowledgeChurchOpsC"
+  },
+  {
+   "i": 69,
+   "en": "\"Not as such. My interest is humanitarian.\"",
+   "ctx": "ZGRacknowledgeChurchOpsD"
+  },
+  {
+   "i": 70,
+   "en": "\"No, my interest is purely mercenary.\"",
+   "ctx": "ZGRacknowledgeChurchOpsE"
+  },
+  {
+   "i": 71,
+   "en": "\"Of course not, that's an absurd question. You should know better.\"",
+   "ctx": "ZGRacknowledgeChurchOpsF"
+  },
+  {
+   "i": 72,
+   "en": "\"Of course not, that's an absurd question. You should know better.\" (lie)",
+   "ctx": "ZGRacknowledgeChurchOpsG"
+  },
+  {
+   "i": 73,
+   "en": "\"I'm listening.\"",
+   "ctx": "ZGRstartPitch0OMKIout"
+  },
+  {
+   "i": 74,
+   "en": "\"Returns, you say. That sounds like a lot of credits.\"\r",
+   "ctx": "ZGRstartPitch2optsA"
+  },
+  {
+   "i": 75,
+   "en": "\"Exploration and new technology are of interest to me.\"\r",
+   "ctx": "ZGRstartPitch2optsA"
+  },
+  {
+   "i": 76,
+   "en": "\"You speak of meddling in things which should be left alone.\"",
+   "ctx": "ZGRstartPitch2optsA"
+  },
+  {
+   "i": 77,
+   "en": "\"I found some mercs in the Abyss who appeared to regret their deal with you.\"\r",
+   "ctx": "ZGRstartPitch2optsB"
+  },
+  {
+   "i": 78,
+   "en": "\"Exploration and new technology is of interest to me.\"\r",
+   "ctx": "ZGRstartPitch2optsB"
+  },
+  {
+   "i": 79,
+   "en": "\"They used rather stronger language to express the sentiment.\"\r",
+   "ctx": "ZGRstartPitch3z"
+  },
+  {
+   "i": 80,
+   "en": "\"They came to a poor end. I should like to avoid that for myself.\"",
+   "ctx": "ZGRstartPitch3z"
+  },
+  {
+   "i": 81,
+   "en": "\"That's one way of looking at it.\"\r",
+   "ctx": "ZGRstartPitch3zA"
+  },
+  {
+   "i": 82,
+   "en": "\"It's dangerous out there. Very dangerous.\"",
+   "ctx": "ZGRstartPitch3zA"
+  },
+  {
+   "i": 83,
+   "en": "\"No.\" (lie)\r",
+   "ctx": "ZGRstartPitch3c"
+  },
+  {
+   "i": 84,
+   "en": "\"Yes. I'd be a fool if I did not fear what's out there.\"\r",
+   "ctx": "ZGRstartPitch3c"
+  },
+  {
+   "i": 85,
+   "en": "\"Yes. Which is why I require adequate compensation.\"",
+   "ctx": "ZGRstartPitch3c"
+  },
+  {
+   "i": 86,
+   "en": "\"You haven't said exactly what I'm looking for. Salvage?\"",
+   "ctx": "ZGRstartPitch4b"
+  },
+  {
+   "i": 87,
+   "en": "\"Is this about remnants of the AI War fleets?\"\r",
+   "ctx": "ZGRstartPitch5"
+  },
+  {
+   "i": 88,
+   "en": "\"Is it aliens?\"\r",
+   "ctx": "ZGRstartPitch5"
+  },
+  {
+   "i": 89,
+   "en": "\"Yes, but you haven't said what.\"",
+   "ctx": "ZGRstartPitch5"
+  },
+  {
+   "i": 90,
+   "en": "\"You know a lot about what I've been doing.\"",
+   "ctx": "ZGRstartPitch8OMKIknow"
+  },
+  {
+   "i": 91,
+   "en": "\"You've been prompting Elek. How'd you know where to make him look?\"",
+   "ctx": "ZGRstartPitch8elek"
+  },
+  {
+   "i": 92,
+   "en": "\"...You want to buy the Onslaught Mk.I from me?\"",
+   "ctx": "ZGRstartPitch8OMKIbuy"
+  },
+  {
+   "i": 93,
+   "en": "\"But what IS it?\"",
+   "ctx": "ZGRstartPitch8respA"
+  },
+  {
+   "i": 94,
+   "en": "\"How will I know when I find it?\"",
+   "ctx": "ZGRstartPitch8respB"
+  },
+  {
+   "i": 95,
+   "en": "\"I've seen them. Ancient, automated warfleets deep in the Abyss.\"",
+   "ctx": "ZGRstartPitch8respC"
+  },
+  {
+   "i": 96,
+   "en": "\"I've encountered... entities in the Abyss. Non-material, high energy. Hostile.\"",
+   "ctx": "ZGRstartPitch8respD"
+  },
+  {
+   "i": 97,
+   "en": "\"I've seen ancient warfleets deep in the abyss. And... non-material hostile entities.\"",
+   "ctx": "ZGRstartPitch8respE"
+  },
+  {
+   "i": 98,
+   "en": "\"I've never encountered such a thing.\" (lie)",
+   "ctx": "ZGRstartPitch8respF"
+  },
+  {
+   "i": 99,
+   "en": "\"You can't detect them, can you. That's what you want.\"",
+   "ctx": "ZGRmakePitch9OMKIbuy"
+  },
+  {
+   "i": 100,
+   "en": "\"The Threat. They're all but invisible to you.\"",
+   "ctx": "ZGRmakePitch9OMKIbuy2"
+  },
+  {
+   "i": 101,
+   "en": "\"One million credits.\"\r",
+   "ctx": "ZGRmakePitch9OMKIbuy3"
+  },
+  {
+   "i": 102,
+   "en": "\"Tri-Tachyon's Director of Special Acquisitions can afford a mere million credits. I accept.\"\r",
+   "ctx": "ZGRmakePitch9OMKIbuy4mil"
+  },
+  {
+   "i": 103,
+   "en": "Make the arrangements",
+   "ctx": "ZGRmakePitch9OMKIbuy4mil2"
+  },
+  {
+   "i": 104,
+   "en": "\"I accept.\"\r",
+   "ctx": "ZGRmakePitch9OMKIbuy4later"
+  },
+  {
+   "i": 105,
+   "en": "\"Perhaps another time.\"",
+   "ctx": "ZGRmakePitch9OMKIbuy4later"
+  },
+  {
+   "i": 106,
+   "en": "\"So there was another expedition before me?\"",
+   "ctx": "ZGRmakePitch9OMKIscan1"
+  },
+  {
+   "i": 107,
+   "en": "\"So you knew what you were asking for. Was there another expedition before me?\"",
+   "ctx": "ZGRstartPitch9both3"
+  },
+  {
+   "i": 108,
+   "en": "\"So you knew what you were asking for. Was there another expedition that succeeded?\"",
+   "ctx": "ZGRstartPitch9both3z"
+  },
+  {
+   "i": 109,
+   "en": "\"So you know what it is. Was there another expedition before me?\"",
+   "ctx": "ZGRstartPitch9threat3"
+  },
+  {
+   "i": 110,
+   "en": "\"So you know what it is. Was there another expedition that succeeded?\"",
+   "ctx": "ZGRstartPitch9threat3z"
+  },
+  {
+   "i": 111,
+   "en": "\"'Previous'? Was there another expedition before me?\"",
+   "ctx": "ZGRstartPitch9dweller3"
+  },
+  {
+   "i": 112,
+   "en": "\"'Previous'? Was there another expedition that succeeded before me?\"",
+   "ctx": "ZGRstartPitch9dweller3z"
+  },
+  {
+   "i": 113,
+   "en": "\"You said 'compare'. Was there another expedition before me?\"",
+   "ctx": "ZGRstartPitch9No"
+  },
+  {
+   "i": 114,
+   "en": "\"You said 'compare'. Was there another expedition that succeeded before me?\"",
+   "ctx": "ZGRstartPitch9Noz"
+  },
+  {
+   "i": 115,
+   "en": "\"You say 'when'. Was there another expedition before me?\"",
+   "ctx": "ZGRstartPitch9lie"
+  },
+  {
+   "i": 116,
+   "en": "\"You say 'when'. Was there another expedition that succeeded before me?\"",
+   "ctx": "ZGRstartPitch9liez"
+  },
+  {
+   "i": 117,
+   "en": "\"Like the who? Was there another expedition before me?\"",
+   "ctx": "ZGRstartPitch10"
+  },
+  {
+   "i": 118,
+   "en": "\"Like the who? Was there another expedition that succeeded before me?\"",
+   "ctx": "ZGRstartPitch10z"
+  },
+  {
+   "i": 119,
+   "en": "\"What are you offering to pay me. Specifically.\"",
+   "ctx": "ZGRstartPitchEndRewardInfo"
+  },
+  {
+   "i": 120,
+   "en": "\"I could use fuel. Lots of fuel. And tankers to carry it.\"",
+   "ctx": "ZGRstartPitchEndRequestFuel"
+  },
+  {
+   "i": 121,
+   "en": "\"I'm going to need supplies. And a freighter to carry them.\"",
+   "ctx": "ZGRstartPitchEndRequestSup"
+  },
+  {
+   "i": 122,
+   "en": "\"I believe we've come to an arrangement.\"",
+   "ctx": "ZGRstartPitchEndOutroOpt"
+  },
+  {
+   "i": 123,
+   "en": "\"I'll consider your offer.\"",
+   "ctx": "ZGRstartPitchEndOutroOptB"
+  },
+  {
+   "i": 124,
+   "en": "\"I've considered your offer. One million credits for scan and samples from the Onslaught Mk.I. Agreed?\"",
+   "ctx": "ZGRstartPitchEndOutroOptOMKIscan"
+  },
+  {
+   "i": 125,
+   "en": "\"And what's your business?\"\r",
+   "ctx": "GRBHbarStart2"
+  },
+  {
+   "i": 126,
+   "en": "\"Always pleased to meet a fan. Did you want a holo with me?\"\r",
+   "ctx": "GRBHbarStart2"
+  },
+  {
+   "i": 127,
+   "en": "\"Excuse me, I have important business to attend to.\"\r",
+   "ctx": "GRBHbarStart2"
+  },
+  {
+   "i": 128,
+   "en": "\"Excuse me, I have important drinking to attend to.\"",
+   "ctx": "GRBHbarStart2"
+  },
+  {
+   "i": 129,
+   "en": "Examine it",
+   "ctx": "GRBHstartResp2"
+  },
+  {
+   "i": 130,
+   "en": "\"Thanks. I think.\"\r",
+   "ctx": "GRBHexamine"
+  },
+  {
+   "i": 131,
+   "en": "\"I take it you're not Director Glamor-Rotanev?\"\r",
+   "ctx": "GRBHexamine"
+  },
+  {
+   "i": 132,
+   "en": "\"What's this for?\"",
+   "ctx": "GRBHexamine"
+  },
+  {
+   "i": 133,
+   "en": "Pocket the card and look back to the bar",
+   "ctx": "GRBHoutro1"
+  },
+  {
+   "i": 134,
+   "en": "\"I need to fix my reputation with the Tri-Tachyon Corporation.\"",
+   "ctx": "ttContactBribeRepPreLock"
+  },
+  {
+   "i": 135,
+   "en": "\"Great. Transferring credits now.\"\r",
+   "ctx": "ttContactBribeRep500kOffer"
+  },
+  {
+   "i": 136,
+   "en": "\"One million, let's do it.\"\r",
+   "ctx": "ttContactBribeRep1mOffer"
+  },
+  {
+   "i": 137,
+   "en": "\"Yes, yes. How much?\"",
+   "ctx": "ttContactBribeRep10mIntro"
+  },
+  {
+   "i": 138,
+   "en": "\"Make it happen. Transferring now.\"\r",
+   "ctx": "ttContactBribeRep10mOffer"
+  },
+  {
+   "i": 139,
+   "en": "\"That seems outrageously expensive.\"\r",
+   "ctx": "ttContactBribeRep10mOffer"
+  },
+  {
+   "i": 140,
+   "en": "\"I want to talk to Andrada.\"",
+   "ctx": "defaultAndradaOfficeReplies1"
+  },
+  {
+   "i": 141,
+   "en": "\"I wish to petition the glorious Supreme Executor Admiral Andrada.\"",
+   "ctx": "defaultAndradaOfficeReplies2"
+  },
+  {
+   "i": 142,
+   "en": "\"Aren't you supposed to ask how you can help me?\"",
+   "ctx": "defaultAndradaOfficeReplies3"
+  },
+  {
+   "i": 143,
+   "en": "\"I don't know. Tell me how I serve the glory of the Lion's vision.\"",
+   "ctx": "defaultAndradaOfficeReplies4"
+  },
+  {
+   "i": 144,
+   "en": "\"Uh, thanks.\"\r",
+   "ctx": "andradaOfficeBook"
+  },
+  {
+   "i": 145,
+   "en": "\"I'll be sure to study it. Constantly.\"",
+   "ctx": "andradaOfficeBook"
+  },
+  {
+   "i": 146,
+   "en": "Keep cool",
+   "ctx": "sdBarRaid1"
+  },
+  {
+   "i": 147,
+   "en": "Watch\r",
+   "ctx": "sdBarRaid2"
+  },
+  {
+   "i": 148,
+   "en": "Don't look",
+   "ctx": "sdBarRaid2"
+  },
+  {
+   "i": 149,
+   "en": "\"This is barbaric.\"\r",
+   "ctx": "sdBarRaid3"
+  },
+  {
+   "i": 150,
+   "en": "\"Thank you for your service, sir.\"\r",
+   "ctx": "sdBarRaid3"
+  },
+  {
+   "i": 151,
+   "en": "\"Thank you for your service, sir.\" (sarcastic)\r",
+   "ctx": "sdBarRaid3"
+  },
+  {
+   "i": 152,
+   "en": "Close your eyes and cover your vitals",
+   "ctx": "sdBarRaid2barbaric"
+  },
+  {
+   "i": 153,
+   "en": "Just get back to your ship\r",
+   "ctx": "sdBarRaidBeating"
+  },
+  {
+   "i": 154,
+   "en": "Swear that you will have revenge\r",
+   "ctx": "sdBarRaidBeating"
+  },
+  {
+   "i": 155,
+   "en": "Admit that you had it coming",
+   "ctx": "sdBarRaidBeating"
+  },
+  {
+   "i": 156,
+   "en": "DEV open SD test menu",
+   "ctx": "sdOpenDevOptions"
+  },
+  {
+   "i": 157,
+   "en": "start The Usurpers mission",
+   "ctx": "sdDevOptionHubA"
+  },
+  {
+   "i": 158,
+   "en": "set The Usurpers mission as completed",
+   "ctx": "sdDevOptionHubB"
+  },
+  {
+   "i": 159,
+   "en": "set player told Caden they back him",
+   "ctx": "sdDevOptionHubC"
+  },
+  {
+   "i": 160,
+   "en": "set player enraged Caden",
+   "ctx": "sdDevOptionHubD"
+  },
+  {
+   "i": 161,
+   "en": "start Ram's bar raid (for SDTU)",
+   "ctx": "sdDevOptionHubE"
+  },
+  {
+   "i": 162,
+   "en": "return to previous dialog",
+   "ctx": "sdDevOptionHubOut"
+  },
+  {
+   "i": 163,
+   "en": "\"As bearer of a Sindrian Diktat commission, it is my duty to help.\"",
+   "ctx": "sdtuRamProposalResponse1"
+  },
+  {
+   "i": 164,
+   "en": "\"What could you possibly want from me?\"",
+   "ctx": "sdtuRamProposalResponse2"
+  },
+  {
+   "i": 165,
+   "en": "\"Do you remember me? I remember you.\"",
+   "ctx": "sdtuRamProposalResponse3"
+  },
+  {
+   "i": 166,
+   "en": "\"You had your thugs beat me. Now you want my help?\"",
+   "ctx": "sdtuRamProposalResponse4"
+  },
+  {
+   "i": 167,
+   "en": "\"I hate the Sindrian Diktat. I don't want to save it.\"",
+   "ctx": "sdtuRamProposalResponse5"
+  },
+  {
+   "i": 168,
+   "en": "\"I'm in. Where do we start?\"",
+   "ctx": "sdtuRamProposalResponse6"
+  },
+  {
+   "i": 169,
+   "en": "Prepare a shuttle to Yannick Ram's safehouse",
+   "ctx": "sdtuVolturnMeetRamOption"
+  },
+  {
+   "i": 170,
+   "en": "Board the shuttle and fly to Ram's Safehouse",
+   "ctx": "sdtuRamPrepDone"
+  },
+  {
+   "i": 171,
+   "en": "Prepare a concealable weapon",
+   "ctx": "sdtuRamPrepWeapon"
+  },
+  {
+   "i": 172,
+   "en": "Equip a secret holorecorder rig",
+   "ctx": "sdtuRamPrepWire"
+  },
+  {
+   "i": 173,
+   "en": "Bring a squad of marines as backup",
+   "ctx": "sdtuRamPrepMarines"
+  },
+  {
+   "i": 174,
+   "en": "On second thought, cancel the flight for now",
+   "ctx": "sdtuRamPrepAbort"
+  },
+  {
+   "i": 175,
+   "en": "A clutch of small plastic grenades",
+   "ctx": "sdtuRamPrepWeaponGren1"
+  },
+  {
+   "i": 176,
+   "en": "A matte-black polycarbonate pistol",
+   "ctx": "sdtuRamPrepWeaponPistol1"
+  },
+  {
+   "i": 177,
+   "en": "A vicious ceramic vibroknife",
+   "ctx": "sdtuRamPrepWeaponKnife1"
+  },
+  {
+   "i": 178,
+   "en": "A tiny capsule of spray-poison",
+   "ctx": "sdtuRamPrepWeaponSpray1"
+  },
+  {
+   "i": 179,
+   "en": "The monomolecular wire",
+   "ctx": "sdtuRamPrepWeaponWire1"
+  },
+  {
+   "i": 180,
+   "en": "No weapon; you don't need one",
+   "ctx": "sdtuRamPrepWeaponNone1"
+  },
+  {
+   "i": 181,
+   "en": "The sword of an officer, like you used on Eventide",
+   "ctx": "sdtuRamPrepWeaponSword1a"
+  },
+  {
+   "i": 182,
+   "en": "Step inside the safehouse",
+   "ctx": "sdtuRamSafehouse2"
+  },
+  {
+   "i": 183,
+   "en": "Play it cool for now; let him talk more",
+   "ctx": "sdtuRamSafehouseReaction0"
+  },
+  {
+   "i": 184,
+   "en": "Let him keep talking for a moment",
+   "ctx": "sdtuRamSafehouseReaction0b"
+  },
+  {
+   "i": 185,
+   "en": "Enough of this; prepare your weapon",
+   "ctx": "sdtuRamSafehouseReaction1"
+  },
+  {
+   "i": 186,
+   "en": "Let him talk; make sure the holorec is getting everything",
+   "ctx": "sdtuRamSafehouseReaction2"
+  },
+  {
+   "i": 187,
+   "en": "Prepare your weapon while he's distracted with himself",
+   "ctx": "sdtuRamSafehouseReaction3"
+  },
+  {
+   "i": 188,
+   "en": "See if you can find a makeshift weapon while he's distracted",
+   "ctx": "sdtuRamMakeshift0"
+  },
+  {
+   "i": 189,
+   "en": "Call in the marine squad",
+   "ctx": "sdtuRamSafehouseReaction4"
+  },
+  {
+   "i": 190,
+   "en": "Keep transmitting; more blackmail material means more leverage\r",
+   "ctx": "sdtuRamSafehouseReactionC"
+  },
+  {
+   "i": 191,
+   "en": "Turn off transmission; record to hard memory to not set off an alert",
+   "ctx": "sdtuRamSafehouseReactionC"
+  },
+  {
+   "i": 192,
+   "en": "\"He earned this.\"\r",
+   "ctx": "sdtuRamMacarioResponseA"
+  },
+  {
+   "i": 193,
+   "en": "\"He was mine to kill. For justice.\"\r",
+   "ctx": "sdtuRamMacarioResponseA"
+  },
+  {
+   "i": 194,
+   "en": "\"He was mine to kill. For revenge.\"\r",
+   "ctx": "sdtuRamMacarioResponseA"
+  },
+  {
+   "i": 195,
+   "en": "Call your marine squad with the subvocal keyphrase",
+   "ctx": "sdtuRamMacarioWeaponDropOpt1"
+  },
+  {
+   "i": 196,
+   "en": "Drop your weapons",
+   "ctx": "sdtuRamMacarioWeaponDropOpt2s"
+  },
+  {
+   "i": 197,
+   "en": "Drop your weapon",
+   "ctx": "sdtuRamMacarioWeaponDropOpt2"
+  },
+  {
+   "i": 198,
+   "en": "Secure your scabbard's clasp",
+   "ctx": "sdtuRamMacarioWeaponDropOpt3"
+  },
+  {
+   "i": 199,
+   "en": "\"I get it. What do you want done? Hypothetically.\"",
+   "ctx": "sdtuMacrioIntroHubG"
+  },
+  {
+   "i": 200,
+   "en": "\"Why would you put such trust in me?\"",
+   "ctx": "sdtuMacrioIntroHubCa"
+  },
+  {
+   "i": 201,
+   "en": "\"Why would I ever want to help you?\"",
+   "ctx": "sdtuMacrioIntroHubCb"
+  },
+  {
+   "i": 202,
+   "en": "\"What plan? Ram spoke of treason.\"",
+   "ctx": "sdtuMacrioIntroHubAfriendly"
+  },
+  {
+   "i": 203,
+   "en": "\"What plan? He was rambling.\"",
+   "ctx": "sdtuMacrioIntroHubAneutral"
+  },
+  {
+   "i": 204,
+   "en": "\"What plan? That unhinged ranting?\"",
+   "ctx": "sdtuMacrioIntroHubAhostile"
+  },
+  {
+   "i": 205,
+   "en": "\"What do you mean by 'turn its gaze outward'?\"",
+   "ctx": "sdtuMacrioIntroHubA2"
+  },
+  {
+   "i": 206,
+   "en": "\"Does Andrada know about this plan?\"",
+   "ctx": "sdtuMacrioIntroHubA3"
+  },
+  {
+   "i": 207,
+   "en": "\"Doesn't this conspiracy make you the traitor?\"",
+   "ctx": "sdtuMacrioIntroHubA4"
+  },
+  {
+   "i": 208,
+   "en": "\"Are you a man with... ambition?\"",
+   "ctx": "sdtuMacrioIntroHubA5"
+  },
+  {
+   "i": 209,
+   "en": "\"The answer is 'no'.\"",
+   "ctx": "sdtuMacrioIntroHubD"
+  },
+  {
+   "i": 210,
+   "en": "\"Of course. I live to serve the Sindrian Diktat.\" (lie)",
+   "ctx": "sdtuMacrioIntroHubE"
+  },
+  {
+   "i": 211,
+   "en": "\"Of course. I live to serve the Sindrian Diktat.\"",
+   "ctx": "sdtuMacrioIntroHubF"
+  },
+  {
+   "i": 212,
+   "en": "\"I'll... see what I can do.\"",
+   "ctx": "sdtuSafehouseWrapHubOpt0"
+  },
+  {
+   "i": 213,
+   "en": "\"Why don't I just talk to her?\"",
+   "ctx": "sdtuSafehouseWrapHubOpt1"
+  },
+  {
+   "i": 214,
+   "en": "\"Why don't you just talk to her about all of this?\"",
+   "ctx": "sdtuSafehouseWrapHubOpt2"
+  },
+  {
+   "i": 215,
+   "en": "\"If she is engaging in treason, technically, why not eliminate her now?\"",
+   "ctx": "sdtuSafehouseWrapHubOpt3"
+  },
+  {
+   "i": 216,
+   "en": "\"How would killing her subordinate possibly make Hyder trust me?\"",
+   "ctx": "sdtuSafehouseWrapHubOpt4"
+  },
+  {
+   "i": 217,
+   "en": "\"I don't want to do this.\"",
+   "ctx": "sdtuSafehouseWrapHubOpt5"
+  },
+  {
+   "i": 218,
+   "en": "\"You are under arrest by order of Chief High Inspector Dolos Macario.\"",
+   "ctx": "sdtuTraitorPatrolOptionConfront"
+  },
+  {
+   "i": 219,
+   "en": "\"Bad news. You've been sold out by Dolos Macario.\"",
+   "ctx": "sdtuTraitorPatrolOptionConfront2"
+  },
+  {
+   "i": 220,
+   "en": "\"I'm here - again - to arrest order from Chief High Inspector Dolos Macario.\"",
+   "ctx": "sdtuPatrolAgainSaidArrest"
+  },
+  {
+   "i": 221,
+   "en": "Transmit the arrest warrant provided by Macario",
+   "ctx": "sdtuPatrolOptionWarrant"
+  },
+  {
+   "i": 222,
+   "en": "\"Do the right thing and surrender yourself without a fight.\"",
+   "ctx": "sdtuPatrolOptionSurrenderAsk"
+  },
+  {
+   "i": 223,
+   "en": "\"Surrender now, or I will attack.\"",
+   "ctx": "sdtuPatrolOptionSurrenderDemand"
+  },
+  {
+   "i": 224,
+   "en": "Convince $hisOrHer crew to turn $himOrHer over without a fight",
+   "ctx": "sdtuPatrolOptionMutiny"
+  },
+  {
+   "i": 225,
+   "en": "\"I can help you out of this... for a price.\"",
+   "ctx": "sdtuPatrolOptionHelpYou"
+  },
+  {
+   "i": 226,
+   "en": "\"Oops, wrong comms-ID. I need to go now.\"",
+   "ctx": "sdtuPatrolOptionOops"
+  },
+  {
+   "i": 227,
+   "en": "Open the comm-link",
+   "ctx": "sdtuPatrolForAPrice"
+  },
+  {
+   "i": 228,
+   "en": "\"It is you who is the traitor, and I have documents to prove it!\"\r",
+   "ctx": "sdtuPatrolForAPrice2"
+  },
+  {
+   "i": 229,
+   "en": "\"Lieutenant, is it? You're welcome for the promotion.\"\r",
+   "ctx": "sdtuPatrolForAPrice2"
+  },
+  {
+   "i": 230,
+   "en": "Cut the comm link.",
+   "ctx": "sdtuPatrolForAPrice2"
+  },
+  {
+   "i": 231,
+   "en": "\"I'm sure loyalty won't go unnoticed, lieutenant.\"\r",
+   "ctx": "sdtuPatrolConvinceMutiny2"
+  },
+  {
+   "i": 232,
+   "en": "\"Uh, death to traitors to you, too.\"",
+   "ctx": "sdtuPatrolConvinceMutiny2"
+  },
+  {
+   "i": 233,
+   "en": "Release the Sindrian Diktat officer you promised to help escape",
+   "ctx": "sdtuReleaseOfficerOption"
+  },
+  {
+   "i": 234,
+   "en": "\"That fleet was smuggling weapons. Macario calls it treason.\"",
+   "ctx": "SDTUHyderTalkRound1Option1a"
+  },
+  {
+   "i": 235,
+   "en": "\"That officer was smuggling weapons. Macario calls it 'treason'.\"",
+   "ctx": "SDTUHyderTalkRound1Option1b"
+  },
+  {
+   "i": 236,
+   "en": "\"The truth is that this is Macario's scheme to test your loyalty.\"",
+   "ctx": "SDTUHyderTalkRound1Option2"
+  }
+ ]
+}

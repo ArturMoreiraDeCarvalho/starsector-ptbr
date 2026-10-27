@@ -1,0 +1,276 @@
+{
+ "chunk": 224,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "Horus nods, his hands held relaxed together in front of him.",
+   "ctx": "data/campaign/rules.csv HYaribayAskReynardBackOpt [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"His ability, and the success that follows from great ability, are not difficult to perceive,\" he says.\r\n\r\n\"Gens Hannan PR sees to that, of course,\" Horus adds with an ironic smile. \"Every victory of the League is Reynard's; every setback, another's mistake... which he is gracious enough to forgive, of course, in public.\"",
+   "ctx": "data/campaign/rules.csv HYaribayAskReynardRespA [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"True though that may be, his accomplishments are notable and do much to justify much,\" he pauses on the word, \"of his presumption.\"",
+   "ctx": "data/campaign/rules.csv HYaribayAskReynardRespB [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"Gens Hannan is powerful,\" he says, \"and Reynard a man who knows well how to wield power.\"\r\n\r\n\"I respect his station and ability, though he and I agree on few matters of politics.\"",
+   "ctx": "data/campaign/rules.csv HYaribayAskReynardRespC [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"It is not as if he must ask my permission,\" Horus says.\r\n\r\nHe smiles quickly, as if to disarm what might be perceived as the slip of a politic facade.",
+   "ctx": "data/campaign/rules.csv HYaribayAskReynardRespD [text]"
+  },
+  {
+   "i": 6,
+   "en": "Horus Yaribay set to visible",
+   "ctx": "data/campaign/rules.csv DevHYaribayUnhideOptionSel [text]"
+  },
+  {
+   "i": 7,
+   "en": "The comms connect to a holding pattern, the crest of Gens Yaribay. And wait.\r\n\r\nIt soon becomes clear that Menes Yaribay is ignoring your request.",
+   "ctx": "data/campaign/rules.csv MenesYaribayIgnoresYouBecause [text]"
+  },
+  {
+   "i": 8,
+   "en": "The comms connect to a holding pattern, the crest of Gens Yaribay. And wait.\r\n\r\nMenes Yaribay is not acknowledging your request at this time.",
+   "ctx": "data/campaign/rules.csv MenesYaribayIgnoresYouTemp [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"$PlayerSirOrMadam,\" your comms officer calls your attention. \"Port authority is... they were acting strangely. Contact's mood shifted after the $shipOrFleet was identified.\"\r\n\r\nComms look up from their console. \"I think we've been quietly flagged by the authorities for some reason.\"",
+   "ctx": "data/campaign/rules.csv MenesPettyRevenge [text]"
+  },
+  {
+   "i": 10,
+   "en": "The comms connects instantly, forwarding your link to a holding pattern. After a minute, an excruciatingly perfect-looking secretary answers.\r\n\r\n\"Office of Gens Hannan. How may I assist you?\"",
+   "ctx": "data/campaign/rules.csv RHannanGreeting [text]"
+  },
+  {
+   "i": 11,
+   "en": "A polite, but ever-so-slightly condescending smile appears on the secretary's face.\r\n\r\n\"I'm sorry, but the Prime Demarchon is busy right now. Would you like to leave a message?\"",
+   "ctx": "data/campaign/rules.csv RHannanRejected [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"Of course, $playerName. One moment please.\"\r\n\r\nThe secretary switches your link back to a holding pattern, the crest of the office of Prime Demarchon entwined with that of Gens Hannan.",
+   "ctx": "data/campaign/rules.csv RHannanGreetingReal [text]"
+  },
+  {
+   "i": 13,
+   "en": "After a few minutes the secretary reappears.\r\n\r\n\"I'm sorry,\" they say, smiling. \"But the Prime Demarchon is unavailable. Would you like to leave a message?\"",
+   "ctx": "data/campaign/rules.csv RHannanGreetingRealGAFCnope [text]"
+  },
+  {
+   "i": 14,
+   "en": "After a few minutes, Reynard Hannan himself appears before you, effortlessly regal.\r\n\r\n\"$PlayerName,\" he says. ",
+   "ctx": "data/campaign/rules.csv RHannanGreetingReal2 [text]"
+  },
+  {
+   "i": 15,
+   "en": "After a few minutes, Reynard Hannan himself appears before you. He regards you with casual regality.\r\n\r\n\"$playerName,\" he says. \"Welcome to Kazeron.\"",
+   "ctx": "data/campaign/rules.csv RHannanGreetingReal2first [text]"
+  },
+  {
+   "i": 16,
+   "en": "The secretary nods attentively, hands unmoving. Accessing some kind of implant?\r\n\r\n\"Wonderful. I'll let the Prime Demarchon know as soon as he's available.\"",
+   "ctx": "data/campaign/rules.csv RHannanSecretaryMessageResp1 [text]"
+  },
+  {
+   "i": 17,
+   "en": "The secretary nods attentively, again.\r\n\r\n\"Fantastic. I'll inform the Prime Demarchon as soon as he's free.\"",
+   "ctx": "data/campaign/rules.csv RHannanSecretaryMessageResp2 [text]"
+  },
+  {
+   "i": 18,
+   "en": "Ever pleasant and responsive, the secretary nods with that hint of a smile.\r\n\r\n\"Of course, thank you $playerSirOrMadam. I'm sure the Prime Demarchon will contact you as soon as he's able.\"",
+   "ctx": "data/campaign/rules.csv RHannanSecretaryMessageResp3 [text]"
+  },
+  {
+   "i": 19,
+   "en": "The secretary nods pleasantly, as usual, repeating assurances that the Prime Demarchon will respond as soon as he can.\r\n\r\nYou have a growing feeling that you are not being taken seriously.",
+   "ctx": "data/campaign/rules.csv RHannanSecretaryMessageResp5 [text]"
+  },
+  {
+   "i": 20,
+   "en": "The secretary nods pleasantly, as usual, repeating assurances that the Prime Demarchon will respond as soon as he can.",
+   "ctx": "data/campaign/rules.csv RHannanSecretaryMessageResp4 [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"The League has an obligation to protect all free peoples of the Persean Sector, captain.\" Reynard speaks with the bland moral superiority of a consummate politician. \"It is our very purpose to secure universal freedom.\"\r\n\r\nThen, he allows that persona fall away.\r\n\r\n\"Of course you don't believe that, do you.\"",
+   "ctx": "data/campaign/rules.csv RHannanWhyHarassing1 [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"We might just be able to work together, captain.\" He smiles indulgently, then adds softly \"And yet I do believe. If I tell you only one truth, it is that I do believe.\"",
+   "ctx": "data/campaign/rules.csv RHannanWhyHarassingReact1a [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"You and I both, captain,\" he says coldly. \"It is simply your convenience to judge to unpracticed ideals from the outside.\"\r\n\r\n\"The League, captain, is everything! It is everything to me, to Gens Hannan. Our excellence blossoms within the freedom of the League. I have earned the fruit and I have built them to towering heights - look upon proud Kazeron. No mere backwater, it is a barycenter of power!\" \r\n\r\nReynard pauses, looking away for a moment. \"What have you built, captain? Do not speak to me of ideals; show me.\"",
+   "ctx": "data/campaign/rules.csv RHannanWhyHarassingReact1b [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"And what is freedom to you?\" he says, suddenly intense. \"You. An outsider, a barbarian at the gates, at the head of a warfleet threatening this precious thing we have built. Who are you to speak of freedom?\"\r\n\r\n\"My freedom,\" he hits the table with two fingers, \"I have given it for my world and for my Gens; look upon proud Kazeron! I have earned everything you see before you. The League gave me that freedom, and the League has prospered for it!\"\r\n\r\nReynard pauses, taking a breath and allowing a brittle calm to re-settle. \"Do not speak of ideals. Show me.\"",
+   "ctx": "data/campaign/rules.csv RHannanWhyHarassingReact1c [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"The Persean Sector is precariously balanced. If your part in it fell to the wrong side of that balance...\"\r\n\r\nHe closes his eyes for a moment, shaking his head delicately.\r\n\r\nThe Prime Demarchon looks to you. \"Consider this an assertive recommendation to join the League.\"",
+   "ctx": "data/campaign/rules.csv RHannanWhyHarassing2 [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"Duly,\" he says with a smirk.",
+   "ctx": "data/campaign/rules.csv RHannanWhyHarassingReact2a [text]"
+  },
+  {
+   "i": 27,
+   "en": "A glimmer of mirth enters his eyes.\r\n\r\n\"I would savor your attempt.\"",
+   "ctx": "data/campaign/rules.csv RHannanWhyHarassingReact2b [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"Pure hearts are for martyrs and poets, I'm afraid. Considering your pocket empire,\" he says with a smirk, \"I don't take you for either.\"",
+   "ctx": "data/campaign/rules.csv RHannanWhyHarassingReact2c [text]"
+  },
+  {
+   "i": 29,
+   "en": "Reynard puts a finger to his lips, his face tilting downward in thought for a moment. \"I'm afraid I don't recall any messages,\" he says with an appropriately generous air of apology... tempered by the merest hint of dismissal.\r\n\r\n\"What did you wish to discuss?\"",
+   "ctx": "data/campaign/rules.csv RHannanMsgFollowupHub [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"Captain.\" Reynard gives you a pitying look.\r\n\r\nHis message is clear: You should know better than to ask. And in asking, you've wasted both his time and your own.\r\n\r\nBut more importantly, his.",
+   "ctx": "data/campaign/rules.csv RHannanMsgDoYouEven [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"Did you,\" he says rather than asks, making it clear that he did not receive any message. And if he did, he wouldn't have troubled to remember it.",
+   "ctx": "data/campaign/rules.csv RHannanMsgFollowJoinLeague [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"If you are looking for a job, then I suggest you go find a spacer bar and 'ask around'.\"\r\n\r\nHe dances his fingers at these last words, like he's discussing something far, far beneath his interest.",
+   "ctx": "data/campaign/rules.csv RHannanMsgFollowOfferServices [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"I-\" he begins, then manages to just suppress a yawn.\r\n\r\n\"You must forgive me, captain. The League Council sessions can run late.\" He resettles himself, adjusting his overcoat back into carelessly perfect disarray.\r\n\r\n\"Pardon my forgetfulness, did you have a matter of pressing concern to discuss?\"",
+   "ctx": "data/campaign/rules.csv RHannanMsgFollowDiscussFuture [text]"
+  },
+  {
+   "i": 34,
+   "en": "Reynard begins to yawn loudly again, interrupting your explanation.\r\n\r\nHe halts suddenly in the middle of the act - for it is an act - to give you an impatient look.\r\n\r\n\"As I've explained, captain,\" that lowly title used as reprimand, \"I don't wish to discuss such matters with you.\"",
+   "ctx": "data/campaign/rules.csv RHannanMsgFollowDiscussFuture2 [text]"
+  },
+  {
+   "i": 35,
+   "en": "\"Are you going to tell me that Horus Yaribay is attempting to conspire with High Hegemon Baikal Daud?\"",
+   "ctx": "data/campaign/rules.csv RHannanMsgFollowHorusYaribay [text]"
+  },
+  {
+   "i": 36,
+   "en": "\"I am touched by your concern, captain,\" Reynard says with too-practiced warmth. \"But trust that I have a handle on the intrigues of my good friend Horus.\"",
+   "ctx": "data/campaign/rules.csv RHannanMsgFollowHorusYaribayA [text]"
+  },
+  {
+   "i": 37,
+   "en": "\"I am touched by your concern, captain,\" Reynard says, as if indulging a bright student. \"But you may trust that I have a handle on the intrigues of my good friend Horus.\"",
+   "ctx": "data/campaign/rules.csv RHannanMsgFollowHorusYaribayB [text]"
+  },
+  {
+   "i": 38,
+   "en": "\"I'm sure it is,\" Reynard says easily, as if indulging a bright student. \"Which is why I have several intelligence networks keeping an eye on the intrigues of my good friend Horus.\"",
+   "ctx": "data/campaign/rules.csv RHannanMsgFollowHorusYaribayC [text]"
+  },
+  {
+   "i": 39,
+   "en": "He spreads his hands, ever-generous of spirit. \"You need not give me his cryptokey or anything so gauche. It would hurt Horus to be so betrayed.\"",
+   "ctx": "data/campaign/rules.csv RHannanMsgFollowHorusYaribayD [text]"
+  },
+  {
+   "i": 40,
+   "en": "After an interminable wait watching volatiles futures scroll past the crest of the Tri-Tachyon corporation, the comm-link connects you with a perfectly coiffed junior secretary from the office of CEO Artemisia Sun.\r\n\r\n\"The Tri-Tachyon Corporation welcomes you to Eochu Bres. How can we help you today?\" \r\n\r\nNo human would be this cheerful. You realize that this is some kind of sub-delta holo-simulacrum interface.",
+   "ctx": "data/campaign/rules.csv defaultSunGreeting [text]"
+  },
+  {
+   "i": 41,
+   "en": "\"I'm sorry, captain.\" The sim produces a brilliant smile which conveys just enough guilt and self-doubt that you feel yourself feeling - no, you catch yourself. The sim has no emotions.\r\n\r\n\"I'm afraid I can't do that,\" it says pleasantly. Behind its words you sense a wall of cold machine intelligence. You could beg for days and the sim would not budge a centimeter.",
+   "ctx": "data/campaign/rules.csv sunOfficeTalk [text]"
+  },
+  {
+   "i": 42,
+   "en": "Your comms connect. The animated logo of some Tri-Tachyon sub-department makes half of a rotation before the call is answered. \r\n\r\n\"Arroyo here. Who's talking?\" Rayan Arroyo looks you over disapprovingly, as if examining a luxury starship hull for scratches.\r\nOR\r\n\"This better be good.\" Rayan Arroyo looks you over disapprovingly, \"Remind me to take you shopping for a proper suit. I know a guy who can do wonders.\"\r\nOR\r\n\"Arroyo. Make it quick.\" Rayan Arroyo appraises you, with a frown. \"Oh. You. What is it this time?",
+   "ctx": "data/campaign/rules.csv RayanArroyoDefaultGreeting [text]"
+  },
+  {
+   "i": 43,
+   "en": "\"The Director of Special Acquisitions.\"\r\n\r\nHis eyes narrow.\r\n\r\n\"What'd you get into? You didn't agree to anything she offered, did you?\"",
+   "ctx": "data/campaign/rules.csv RayanArroyoAskAboutZGR1 [text]"
+  },
+  {
+   "i": 44,
+   "en": "\"You did, didn't you.\" He glares. Then makes an exasperated sigh.",
+   "ctx": "data/campaign/rules.csv ArroyoAskAboutZGRoptAresp [text]"
+  },
+  {
+   "i": 45,
+   "en": "He glares at you for a moment. Then sighs, looking away.",
+   "ctx": "data/campaign/rules.csv ArroyoAskAboutZGRoptArespB [text]"
+  },
+  {
+   "i": 46,
+   "en": "\"Of course!\" Arroyo says with a laugh. \"Oh, that's our Zunya alright.\"\r\n\r\nHe takes a deep breath and rubs his forehead, suddenly somber. \"Let me tell you about her.\"",
+   "ctx": "data/campaign/rules.csv ArroyoAskAboutZGRoptEresp [text]"
+  },
+  {
+   "i": 47,
+   "en": "\"She would,\" he says.\r\n\r\n\"What I know is that business is about people. Business is deals, and people make deals. I'm a people person. That's why I'm looking out for you, $playerFirstName. Remember that.\"\r\n\r\nThen makes an exasperated sigh.\r\n\r\n\"Now. Glamor-Rotanev,\" he frowns and puts his hands together.",
+   "ctx": "data/campaign/rules.csv ArroyoAskAboutZGRoptBresp [text]"
+  },
+  {
+   "i": 48,
+   "en": "He glares at you for a moment. Then sighs, exasperated.",
+   "ctx": "data/campaign/rules.csv ArroyoAskAboutZGRoptCresp [text]"
+  },
+  {
+   "i": 49,
+   "en": "\"No, you can't just back out of this,\" he says with a glare. \"You need to know who you're dealing with.\"\r\n\r\nHe pauses for moment, considering you.\r\n\r\nThen sighs, exasperated.",
+   "ctx": "data/campaign/rules.csv ArroyoAskAboutZGRoptDresp [text]"
+  },
+  {
+   "i": 50,
+   "en": "\"What she believes is that if she makes a show of how much she doesn't care about anything, anyone, it'll look like she's the most ruthless and focused executive in the Company. Just see how much she's willing to destroy to succeed! There must be something to it, right?\"\r\n\r\nHe sits back, fists clenched. \"It's a waste of capital! Human resources, too. Do you know how expensive it is to train good techs, competent management? Of course loyalty can be bought, but then her performance gets attached to the Company brand and makes buying it more expensive for the rest of us. So now I'm paying higher labor premiums? To boost HER career?\"",
+   "ctx": "data/campaign/rules.csv ArroyoAskAboutZGR2 [text]"
+  },
+  {
+   "i": 51,
+   "en": "He gives you a look.\r\n\r\n\"Don't even start.\"",
+   "ctx": "data/campaign/rules.csv ArroyoAskAboutZGR3a [text]"
+  },
+  {
+   "i": 52,
+   "en": "\"Probably not.\" He gives you a look.\r\n\r\n\"But she'll use your death if she finds a way to make it useful. And she will.\"",
+   "ctx": "data/campaign/rules.csv ArroyoAskAboutZGR3b [text]"
+  },
+  {
+   "i": 53,
+   "en": "\"Probably not.\" He gives you a look.\r\n\r\n\"But she'll use their death if she finds a way to make it useful to her. And she will.\"",
+   "ctx": "data/campaign/rules.csv ArroyoAskAboutZGR3c [text]"
+  },
+  {
+   "i": 54,
+   "en": "He gives you a look.\r\n\r\n\"We'll see.\"",
+   "ctx": "data/campaign/rules.csv ArroyoAskAboutZGR3d [text]"
+  }
+ ]
+}

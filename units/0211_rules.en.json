@@ -1,0 +1,191 @@
+{
+ "chunk": 211,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "The pirate barks a laugh, then stops suddenly.\r\n\r\n\"You serious?\" $HeOrShe shakes $hisOrHer head, \"No, no. We're free spirits, you see. In prison, our uh human essence wouldn't have a chance to, uh, flourish.\"\r\n\r\n\"Better to be stuck on a rock then stuck IN a rock with a Heggie watching you at all your personal businesses, right? That's what I think.\"",
+   "ctx": "data/campaign/rules.csv LOCRPofferToPrison [text]"
+  },
+  {
+   "i": 2,
+   "en": "Understanding crosses the pirates face, and $hisOrHer expression closes, hostile.\r\n\r\n\"Yeah? You and what army.\"",
+   "ctx": "data/campaign/rules.csv LOCRPofferToPrison2 [text]"
+  },
+  {
+   "i": 3,
+   "en": "$HeOrShe raises $hisOrHer hands, \"Not me making threats, captain. We're just honest folk looking for a way home.\"",
+   "ctx": "data/campaign/rules.csv LOCRPofferToPrisonRaidCancel [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"Eh,\" $HeOrShe rubs $hisOrHer chin. \"Beats sitting on this rock 'til we turn blue.\"",
+   "ctx": "data/campaign/rules.csv LOCRPofferWork [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"Seeing as how you're all, ah, a Luddic Faithful. And with respect, $playerBrotherOrSister - and I ask only on behalf of a handful of my less spiritually illuminated comrades - would we have to be doing praying all official like? And living piously or whatnot?\"",
+   "ctx": "data/campaign/rules.csv LOCRPofferWorkLuddic [text]"
+  },
+  {
+   "i": 6,
+   "en": "$HeOrShe lets out a long sigh. \"Well, then we'll be on blessed good behavior like a pack of curates then, we will.\"",
+   "ctx": "data/campaign/rules.csv LOCRPofferWorkLuddicPrayA [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Glad to hear it!\" $HeOrShe lets out a sigh of relief, \"Very forward-thinking you are, and uh, blessing of good ol' Ludd on you and what-like.\"",
+   "ctx": "data/campaign/rules.csv LOCRPofferWorkLuddicNo [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"If you're offering transport, you are... we'd need 54 crew berths to take what's left of the gang. Though if we're just countin' real flesh-and-blood arms and legs, they'd only count for forty or so,\" the pirate laughs grimly.\r\n\r\n\"We're experienced crew, spacers one and all that can work our way home. You'll not have a more loyal pack of rogues!\"",
+   "ctx": "data/campaign/rules.csv LOCRPofferTransportSpace [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"If you're offering work, you are... we'd need 54 crew berths to take what's left of the gang. Though if we're just countin' real flesh-and-blood arms and legs, they'd only count for forty or so,\" the pirate laughs grimly.\r\n\r\n\"We're experienced crew, spacers one and all. You'll not have a more loyal pack of rogues!\"",
+   "ctx": "data/campaign/rules.csv LOCRPofferWorkSpace [text]"
+  },
+  {
+   "i": 10,
+   "en": "You send shuttles down - and have marines ready to escort the pirates to the brig for safekeeping.\r\n\r\nThrough a security feed, you watch as the shocked pirates step aboard your $shipOrFleet only to be restrained and escorted, shouting and cursing, to overcrowded cells.\r\n\r\nTheir trip back to the core worlds won't be pleasant or comfortable, but they won't take up any valuable crew berths.\r\n\r\nNext step: find a figure of sufficient authority to reward you with a collective bounty for this mass arrest.",
+   "ctx": "data/campaign/rules.csv LOCRPtransportLie [text]"
+  },
+  {
+   "i": 11,
+   "en": "You order shuttles sent to retrieve the pirates.\r\n\r\nThe former pirates are distributed widely among work crews and their communications tagged by your security chief. A close watch will be kept to ensure there's no mutinous scheme afoot, and that the pirates do indeed work their fare back to an appropriate spaceport.",
+   "ctx": "data/campaign/rules.csv LOCRPtransportShuttle [text]"
+  },
+  {
+   "i": 12,
+   "en": "You order shuttles sent to retrieve the pirates.\r\n\r\nThe former pirates are distributed widely among work crews and their communications tagged by your security officer. A close watch will be kept to ensure they are integrated into your $shipOrFleet and aren't planning to run any mutinous schemes.\r\n\r\nAfter the first shift, your security officer reports that although the pirates are not adapting to their circumstances without incident, they seem genuinely enthusiastic about the prospect of food, pay, and interesting work.",
+   "ctx": "data/campaign/rules.csv LOCRPtransportShuttleWork [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"Oh. Um.\" The pirate smiles nervously, \"Perhaps you'll salvage something, maybe let someone know, or... make some room?\" $heOrShe asks hopefully.\r\n\r\n\"That last one- just a joke! Nothing like a joke to pass the long days. Long... long, days,\" $heOrShe trails off.",
+   "ctx": "data/campaign/rules.csv LOCRPtransportNoRoom [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"Oh. Um.\" The pirate smiles nervously, \"Don't let me get in the way of a good think, captain. You've got us at the bottom of a gravwell, we're at your mercy.\"",
+   "ctx": "data/campaign/rules.csv LOCRPtransportReconsider [text]"
+  },
+  {
+   "i": 15,
+   "en": "You convene your officers to plan a raid to capture the pirates so that they might be brought to justice and, it is safe to assume, result in an appropriate bounty payout.\r\n\r\nThe pirates are few in number and woefully undersupplied.",
+   "ctx": "data/campaign/rules.csv LOCRPraidStart [text]"
+  },
+  {
+   "i": 16,
+   "en": "Your officers were conservative in planning, crafting an imaginative tactical scenario which assumed the pirates possess all sorts of armaments and preparation which, in the end, they did not: anti-armor capability, a drone recon network, sentry turrets, field fortifications, and finally an EW-proof ghost gun ambush.\r\n\r\nIn the end, the operation is a simple matter of cutting the lights then punching through flimsy shelter walls to stun-round those few pirates with live firearms detected and flagged by the marines' personal combat radar.\r\n\r\nThey missed the hand-made bomb, however.",
+   "ctx": "data/campaign/rules.csv LOCRPraidFinishedA [text]"
+  },
+  {
+   "i": 17,
+   "en": "The pirate leader is justifiably defeated-looking, ashamed at being taken so easily despite the circumstances.\r\n\r\nThe pirates are removed to the $shipOrFleet brigs, packed closer than even the minimal comforts of the lowest crewmember's berth.",
+   "ctx": "data/campaign/rules.csv LOCRPraidFinishedB [text]"
+  },
+  {
+   "i": 18,
+   "en": "You call for a halt to the raid and consider your options.\r\n\r\nIf nothing else, the pirate leader must be sweating in the e-shelter down on the surface. Wondering what you're planning, waiting for the flash and bang of a hostile breach.",
+   "ctx": "data/campaign/rules.csv LOCRPraidCancel [text]"
+  },
+  {
+   "i": 19,
+   "en": "You've arrived at a suitably lawless starport to offload the formerly marooned pirates you rescued. ",
+   "ctx": "data/campaign/rules.csv LOCRPoffloadPirates [text]"
+  },
+  {
+   "i": 20,
+   "en": "You've arrived at the next suitably lawless starport to offload the formerly marooned pirates you rescued.",
+   "ctx": "data/campaign/rules.csv LOCRPoffloadPiratesNext [text]"
+  },
+  {
+   "i": 21,
+   "en": "There's grumbling from the pirates, but they accept your promise that the next port will be their last stop.",
+   "ctx": "data/campaign/rules.csv LOCRPoffloadPiratesNo [text]"
+  },
+  {
+   "i": 22,
+   "en": "The pirate crew cheers as they are off-boarded, shouting boasts and singing an off-color song about the variety of substances they plan to abuse. Others, grim-faced, mutter grisly plans to revenge themselves upon Fenius and his crew. \r\n\r\nA handful of pirates wish to remain in your employment, offering to forgo the usual signing bonus due to your generosity. Those who have approval from both your security chief and their section leaders are allowed to remain.",
+   "ctx": "data/campaign/rules.csv LOCRPoffloadPirates2 [text]"
+  },
+  {
+   "i": 23,
+   "en": "You've arrived at a suitably lawless starport to offload the formerly marooned pirates you rescued. They are eager to go, as they've found that Luddic discipline is a poor fit for their swashbuckling lifestyle.",
+   "ctx": "data/campaign/rules.csv LOCRPoffloadPiratesLuddic [text]"
+  },
+  {
+   "i": 24,
+   "en": "Once they're a safe distance from the ramps of the shuttles, the pirates cheer in relief from the discipline you imposed, shouting and singing about the various substances they plan to abuse. Others mutter grisly plans to revenge themselves upon Fenius and his crew.\r\n\r\nA single member of the pirates, having become quite taken with Luddism, wishes to remain in your employment. They forgo the usual signing bonus due to your charity and, with approval from both your security chief and their section leader, are allowed to remain.",
+   "ctx": "data/campaign/rules.csv LOCRPoffloadPiratesLuddic2 [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"Just what I need, more pirates to dispose of,\" $Post $personLastName says with a frown. \"I trust you have some kind of evidence for their crimes? No, don't answer that. I'll have a subordinate handle the whole mess.\"\r\n\r\n$HeOrShe has you wait as your comms are transferred to a security officer.",
+   "ctx": "data/campaign/rules.csv LOCRPimprisonPirates [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"Ah, yet another pack of spacer criminals, sinners one and all.\" $Post $personLastName says with a frown. \"Ludd forgive me, but I am thankful that I am not required to display saintly mercy in such matters. I'll have a subordinate handle the mess.\"\r\n\r\n$HeOrShe has you wait as your comms are transferred to a security officer.",
+   "ctx": "data/campaign/rules.csv LOCRPimprisonPiratesFaithful [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"You bring me a pack of desperate sinners, captain. Just what am I to do with them?\" $Post $personLastName's frown slowly evaporates. \"With hammer and sword, I'm sure we'll think of something appropriate. I'll have a subordinate handle the whole mess.\"\r\n\r\n$HeOrShe has you wait as your comms are transferred to a security officer.",
+   "ctx": "data/campaign/rules.csv LOCRPimprisonPiratesPather [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"Oh, delightful; another disgusting herd of space trash come to smear grime on everything they don't steal.\" $Post $personLastName frowns dramatically, \"Well, we know how to treat the criminal element here, trust me on that. I'll have my subordinate handle the mess.\"\r\n\r\n$HeOrShe has you wait as your comms are transferred to a security officer.",
+   "ctx": "data/campaign/rules.csv LOCRPimprisonPiratesAristo [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"Pirates, you say?\" $Post $personLastName considers the matter with a frown. \"It is a small thing, but removing this lot from the spaceways should increase profitability by a fraction of a percent, and every percent counts. I'll transfer you to someone who can make the correct arrangements.\"\r\n\r\n$HeOrShe has you wait as your comms are forwarded to a security officer.",
+   "ctx": "data/campaign/rules.csv LOCRPimprisonPiratesBusiness [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"Pirates? How... inefficient,\" $Post $personLastName says, distracted. \"I'm sure I have someone who can handle them for you.\"\r\n\r\n$HeOrShe has you wait as your comms are transferred to a security officer.",
+   "ctx": "data/campaign/rules.csv LOCRPimprisonPiratesScientist [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"You're just handing me a crew of pirates?\" $Post $personLastName smiles wickedly. \"Don't you worry, captain, I know how to take care of these sorts of things. Don't you worry one little bit. I'll have a subordinate, ah, handle the matter.\" $HeOrShe winks, suggesting some secretive means that you don't quite follow.\r\n\r\nBefore you can inquire, $heOrShe has your comms transferred to a security officer bearing a blank face and a dramatic scar.",
+   "ctx": "data/campaign/rules.csv LOCRPimprisonPiratesVillain [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"Eh, it's a shame to see a good crew gone bad,\" $Post $personLastName says with a frown. \"Well, send 'em over and I'll have someone process the lot.\"\r\n\r\n$HeOrShe has your comms transferred to a security officer who makes the arrangements.",
+   "ctx": "data/campaign/rules.csv LOCRPimprisonPiratesSpacer [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"Pirates,\" $Post $personLastName says with a vicious frown. \"Chaos and insubordination follow piracy. Always, captain. Always.\" $HeOrShe taps $hisOrHer comms interface, \"I'll have a subordinate handle the matter.\"\r\n\r\nYour  comms are swiftly transferred to a security officer who makes the arrangements.",
+   "ctx": "data/campaign/rules.csv LOCRPimprisonPiratesSoldier [text]"
+  },
+  {
+   "i": 34,
+   "en": "You assign your own subordinate in turn to coordinate the transfer of the pirates, their spirits much diminished by the time spent in your brig, to the local authorities.\r\n\r\nThe local bureaucracy alternates between impatient and bored with the entire proceeding.\r\n\r\nNonetheless, you manage to rid yourself of the entire crew in exchange for a modest reward. A not insignificant number of these individuals have criminal records, and a subset of those crimes fall under the jurisdiction of interfactional anti-piracy agreements which include a protocol to automatically pay out standing bounties.",
+   "ctx": "data/campaign/rules.csv LOCRPimprisonPirates2 [text]"
+  },
+  {
+   "i": 35,
+   "en": "A small community of heretical Luddics was rescued from a remote village on the surface of $name.\r\n\r\nRescuers describe the Luddics as repentant and half-starved, their agricultural efforts having failed due to poor preparation. They now seem intent upon rejoining the Church of Galactic Redemption. Given basic necessities by your administration, they have been released to haunt the landing facilities, seeking work as crew or charity transport back to the core worlds.\r\n\r\nColonial MuniSec will monitor the group for radical Pather activity.",
+   "ctx": "data/campaign/rules.csv LOCRLremoveBecauseColonyA2 [text]"
+  },
+  {
+   "i": 36,
+   "en": "The community of heretical Luddics living in a remote village on the surface of $name has been rescued by a local emergency response team.\r\n\r\nThe Luddics are described as repentant and half-starved due to their failing agricultural efforts and now seem intent upon rejoining the Church of Galactic Redemption. Given basic necessities by your administration, they have been released to haunt the landing facilities, seeking work as crew or charitable transport back to the core worlds.\r\n\r\nColonial MuniSec will monitor the group for radical Pather activity.",
+   "ctx": "data/campaign/rules.csv LOCRLremoveBecauseColonyB2 [text]"
+  },
+  {
+   "i": 37,
+   "en": "Your comms officer calls for your attention, \"$PlayerSirOrMadam, we're getting a comms request from the surface. It's a weak signal.\"\r\n\r\nSensors takes over the report, \"Picking up a small power source, large central structure. Earthworks. Not military; some kind of... art? Ceremonial? Underground habitation, and... fields. An attempt at farming.\"\r\n\r\n\"There's no colony here on the charts, $playerSirOrMadam. Not pre or post-Collapse.\"",
+   "ctx": "data/campaign/rules.csv LOCRLstart [text]"
+  }
+ ]
+}

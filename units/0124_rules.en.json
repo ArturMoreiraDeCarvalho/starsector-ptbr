@@ -1,0 +1,241 @@
+{
+ "chunk": 124,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "You speak first with some kind of secretary who politely persuades you to wait patiently.\r\n\r\nAfter a short time, the image of the Archcurate Jaspis appears. She makes little effort to look toward comms feed as she putters around her office.\r\n\r\n\"It is good to hear from you, captain,\" she says. \"Have you found Novice Bornanew?\"",
+   "ctx": "data/campaign/rules.csv lkeJaspisGreeting [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"Then I shall pray that Providence sees fit to give you a path both short and safe.\"",
+   "ctx": "data/campaign/rules.csv lkeJaspisGreetingNotYet [text]"
+  },
+  {
+   "i": 3,
+   "en": "As your officers perform routine approach procedures, Comms signals for your attention.\r\n\r\n\"$PlayerSirOrMadam, there is an incoming link using a Knights of Ludd signifier. A... Jethro Bornanew wishes to speak with you. Just a novice of the Knights, it looks like.\"",
+   "ctx": "data/campaign/rules.csv BFINdevStart [text]"
+  },
+  {
+   "i": 4,
+   "en": "DEV set that player killed Wrestling Sedge BEFORE the BFFI mission",
+   "ctx": "data/campaign/rules.csv BFINdevSetPlayerKilledSedgeEarlier [text]"
+  },
+  {
+   "i": 5,
+   "en": "DEV set PC killed Wrestling Sedge during Ulmus Pond encounter AND Bornanew got shot",
+   "ctx": "data/campaign/rules.csv BFINdevSetPlayerKilledSedgeLater [text]"
+  },
+  {
+   "i": 6,
+   "en": "DEV made Bornanew a bad boy",
+   "ctx": "data/campaign/rules.csv BFINdevSetBornanewBadBoy [text]"
+  },
+  {
+   "i": 7,
+   "en": "DEV starting BFFI at INVESTIGATE_PATHER_STATION stage",
+   "ctx": "data/campaign/rules.csv BFINdevSetStartStation [text]"
+  },
+  {
+   "i": 8,
+   "en": "DEV starting BFFI at ARREST_THE_CURATE stage",
+   "ctx": "data/campaign/rules.csv BFINdevSetStartCedra [text]"
+  },
+  {
+   "i": 9,
+   "en": "DEV Set player to have working relationship with Horus Yaribay.",
+   "ctx": "data/campaign/rules.csv BFINdevForceKnowHorus [text]"
+  },
+  {
+   "i": 10,
+   "en": "DEV Set player to have working relationship with Horus Yaribay... and to have abused the Yaribay credentials.",
+   "ctx": "data/campaign/rules.csv BFINdevForceKnowHorusB [text]"
+  },
+  {
+   "i": 11,
+   "en": "As your officers perform routine approach procedures, Comms signals for your attention.\r\n\r\n\"$PlayerSirOrMadam, there's an incoming link using a Knights of Ludd signifier. A Jethro Bornanew wishes to speak with you. Just a novice, it looks like.\"",
+   "ctx": "data/campaign/rules.csv BFINstart0 [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"Captain $playerName. I do not forget your assistance.\" He makes a crooked smile.\r\n\r\nThe link is poor-quality; his voice is hollowed, lacking the warmth you remember.\r\n\r\n\"I would ask, beg if I must, for your service once more.\"",
+   "ctx": "data/campaign/rules.csv BFINstart2 [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"What I ask, it is a part of the penance I must serve.\" He raises a hand, as if to stop your objections, \"I do also believe it will also serve a spiritual and intrinsic good.\" \r\n\r\n\"And,\" he clears his throat, \"for your assistance, a substantial reward of credits has been authorized by the Reverend Archcurate Jaspis.\"\r\n\r\n\"The service...\" He releases a breath. \"An object considered holy by some in the mother Church has appeared in the possession of a wealthy collector.\"",
+   "ctx": "data/campaign/rules.csv BFINstart3 [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"No,\" he says, looking up. \"That would have been simple. This object, this 'relic', is by all appearances still untouched on Tartessus, in the archives of the Cathedral of Holy Exodus.\"\r\n\r\n\"The curates of the archive were in some panic at word that they had lost a holy relic. They checked very, very carefully. I too have personally confirmed that it remains in their keeping.\"",
+   "ctx": "data/campaign/rules.csv BFINstart3a [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"Ah,\" he gives a weary smile. \"The collector is quite secular, and has no relationship with the Church.\"",
+   "ctx": "data/campaign/rules.csv BFINstart3b [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"But it could be,\" $global.jethroName says hesitantly. \"It raises... questions.\"\r\n\r\n\"And those may become a problem. It is a complex situation and potentially dangerous.\" ",
+   "ctx": "data/campaign/rules.csv BFINstart4a [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"It could be,\" $global.jethroName says. \"This collector has not been silent about his new acquisition.\"\r\n\r\n\"Naturally, the Church does not approve. At the same time, mere disapproval is no reason to cause a diplomatic incident, to say nothing of... well, it is a complex situation. And potentially dangerous.\" ",
+   "ctx": "data/campaign/rules.csv BFINstart4b [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"If you choose to assist me,\" he says, \"then I shall share with you what, ah, 'intel' I have managed to piece together.\"\r\n\r\nHe looks almost embarrassed for a moment, then forces himself proceed. \"Credits, yes. I have also been instructed to offer a payment of 50,000 credits when - if - you join my investigation, and an additional 50,000 credits upon completion of my quest.\"\r\n\r\n\"If it is possible.\" He sighs, \"And that I cannot promise.\"",
+   "ctx": "data/campaign/rules.csv BFINstart5 [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"Truly?\" He sighs, deflated at this revelation. \"The arighting of one errant novice cannot be worth that sum.\"",
+   "ctx": "data/campaign/rules.csv BFINpaidYou [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"My apologies,\" he says, opening a battered notebook. \"I am unused to this sort of, of bookkeeping.\"\r\n\r\n\"Yes, 50,000 upfront, and another 50,000 credits upon resolution. It is hoped that the false artifact might be removed from consideration, one way or another.\"\r\n\r\nHe gives you a questioning look. \"Without causing an interfactional incident, that is.\"",
+   "ctx": "data/campaign/rules.csv BFINaskCredits [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"Of course,\" he says, opening a battered notebook. \"The Church anticipates expenses. Well,\" he grimaces, \"Reverend Archcurate Jaspis does.\"\r\n\r\n\"Yes, 50,000 upfront, and another 50,000 credits upon satisfactory resolution. It is hoped that the false artifact might be removed from consideration, one way or another.\"\r\n\r\nHe gives you a questioning look. \"Without causing an interfactional incident, that is.\"",
+   "ctx": "data/campaign/rules.csv BFINremindReward [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"This is only the beginning, I am certain,\" he says with resigned humor. \"Violation of Knightly vows is no small falsity, and I am uncertain even that I am truly meant to 'solve' this task set before me.\"\r\n\r\nHe pauses, then speaks more quietly, \"I fear that my failure might be intended to chasten Jaspis. The Reverend Archcurate, I mean.\" He looks upward, and lets out a sigh. \"She has put altogether too much faith in me.\"",
+   "ctx": "data/campaign/rules.csv BFINhowPenance [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"It is... trying,\" he says. \"I am not, I am sure, meant to 'solve' this quest set before me to my violation of Knightly vows. Remorse, contrition... those I give freely, and wholly.\"\r\n\r\nHe speaks more quietly, \"I speculate that my failure and disgrace is being arranged to humble the influence of the Reverend Archcurate Jaspis.\" He shakes his head, \"She has put altogether too much faith into me.\"",
+   "ctx": "data/campaign/rules.csv BFINhowPenanceLuddic [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"A reasonable concern.\" Bornanew rubs his chin. \"First and without doubt, a notable member of a Persean League gens is involved.\" \r\n\r\n\"The rest are deduction and speculation.\" He starts counting off fingers, \"The Cathedral of Holy Exodus has much to lose if corruption is revealed in their house; I suspect an insider or an infiltrator.\"\r\n\r\nNext finger, \"Within the greater Church, there is a loosely organized sect who, ah, back the theological legitimacy of relics. They would doubtless have forceful opinions on the subject of a duplicate relic, and that in secular hands.\"",
+   "ctx": "data/campaign/rules.csv BFINaskConflicts [text]"
+  },
+  {
+   "i": 25,
+   "en": "Another finger, \"The Luddic Path has much to gain from discord within the Church, and they have proximity to... the problem.\"\r\n\r\nNext finger, \"Though it is possible that the criminal underworld has found a means of profit here, possibly Kanta's organization. The pirate queen has an especial taste for desecration, though has demonstrated no particular hatred for the Church beyond her habitual misanthropy.\" He lets his hands fall.\r\n\r\n\"Beyond that, I grasp for tenuous threads, captain.\"",
+   "ctx": "data/campaign/rules.csv BFINaskConflicts2 [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"Um. It is so obvious?\" Bornanew almost looks guilty. Almost.\r\n\r\n\"The Reverend Archcurate did say that my feelings on the subject are... not easily veiled.\"\r\n\r\n\"This investigation requires discretion.\" He brings his hands together. \"I shall be mindful of my disposition.\"",
+   "ctx": "data/campaign/rules.csv BFINdontConsider [text]"
+  },
+  {
+   "i": 27,
+   "en": "Bornanew puts his hands together, and lowers his head for a moment.\r\n\r\n\"I thank you for that, captain. In the meantime, I will do what research and inquiries I can with the resources I am provided.\"\r\n\r\n\"If you wish to assist my quest, then come to Gilead. The Knights have provided me an entry in the comms directory in order to further my penance.\"",
+   "ctx": "data/campaign/rules.csv BFINnotNow [text]"
+  },
+  {
+   "i": 28,
+   "en": "Bornanew puts his hands together, and lowers his head.\r\n\r\n\"I understand. If you change your mind, come to Gilead. The Knights have provided me an entry in the comms directory in order to further my penance.\"",
+   "ctx": "data/campaign/rules.csv BFINnotNow2 [text]"
+  },
+  {
+   "i": 29,
+   "en": "Bornanew puts his hands together, and lowers his head.\r\n\r\n\"I thank you for that, captain. In the meantime, I will do what research and inquiries I can with the resources I am provided.\"\r\n\r\n\"If you wish to assist me in my quest, contact me here on Gilead. The Knights have provided me an entry in the comms directory in order to further my penance.\"",
+   "ctx": "data/campaign/rules.csv BFINnotNowGilead [text]"
+  },
+  {
+   "i": 30,
+   "en": "Bornanew puts his hands together, and lowers his head for a moment.\r\n\r\n\"I understand. If you change your mind, return here, to Gilead. The Knights have provided me an entry in the comms directory in order to further my penance.\"",
+   "ctx": "data/campaign/rules.csv BFINnotNow2Gilead [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"Yes, it is still an ongoing concern,\" he says. \"Have you given my request more thought?\"",
+   "ctx": "data/campaign/rules.csv BFINrepriseStart [text]"
+  },
+  {
+   "i": 32,
+   "en": "Bornanew looks almost surprised at your words. He does not pray, or thank Providence. He simply looks directly at you through the waver of the comm-link.\r\n\r\n\"Thank you, captain. Against all odds, you've cast a light upon my path toward redemption.\"\r\n\r\nPerhaps apologetic for the moment of earnestness, he quickly adds, \"I am prepared to leave when you are ready for me. I shall await word of your shuttle.\"",
+   "ctx": "data/campaign/rules.csv BFFIaccept1 [text]"
+  },
+  {
+   "i": 33,
+   "en": "Traffic control is mercifully efficient when arranging transport for a Knight of Ludd.",
+   "ctx": "data/campaign/rules.csv BFFIshuttleBornanew [text]"
+  },
+  {
+   "i": 34,
+   "en": "Before long, Novice Bornanew steps aboard your flagship carrying only a small satchel of his possessions.\r\n\r\nYour TriPad pings acknowledgement of a funds transfer from the Church of Galactic Redemption.",
+   "ctx": "data/campaign/rules.csv BFFIshuttleBornanew2 [text]"
+  },
+  {
+   "i": 35,
+   "en": "\"You have my thanks, captain,\" he says. \"That will serve my needs most adequately.\"",
+   "ctx": "data/campaign/rules.csv BFFIonBoardingBerth [text]"
+  },
+  {
+   "i": 36,
+   "en": "\"Of course, captain,\" he says. \"That will serve my needs most adequately.\"",
+   "ctx": "data/campaign/rules.csv BFFIonBoardingBerthPenance [text]"
+  },
+  {
+   "i": 37,
+   "en": "\"Such extravagance is not necessary for a mere novice, captain,\" he says uncomfortably.",
+   "ctx": "data/campaign/rules.csv BFFIonBoardingStateroom [text]"
+  },
+  {
+   "i": 38,
+   "en": "Bornanew nods, not quite a bow. \"You are right, of course.\"",
+   "ctx": "data/campaign/rules.csv BFFIonBoardingRespWork [text]"
+  },
+  {
+   "i": 39,
+   "en": "Bornanew nods, not quite a bow. \"My apologies, I did not intend to spurn your hospitality. It is a virtue.\"",
+   "ctx": "data/campaign/rules.csv BFFIonBoardingRespHosp [text]"
+  },
+  {
+   "i": 40,
+   "en": "\"If you would, please,\" Bornanew says with a nod that isn't quite a bow. \"It would be most appropriate for my service of penance.\"",
+   "ctx": "data/campaign/rules.csv BFFIonBoardingRespDowngrade [text]"
+  },
+  {
+   "i": 41,
+   "en": "You have Bornanew's luggage taken to his quarters by a couple crew who clearly expected heavier lifting, then have him meet you in a debriefing room to plan your next move.",
+   "ctx": "data/campaign/rules.csv BFFIonBoard2 [text]"
+  },
+  {
+   "i": 42,
+   "en": "Novice Bornanew speaks from the head of the table on which he has placed a paper notebook. He seems disinclined to use the shared workspace of the holo visualization suite; you're not even sure he brought a datapad.\r\n\r\n\"...collector who now possesses this duplicate relic is a man by the name Menes Yaribay, a minor member of Gens Yaribay of Kazeron,\" he looks to you for a sign of recognition.",
+   "ctx": "data/campaign/rules.csv BFFIonBoardYarbStart [text]"
+  },
+  {
+   "i": 43,
+   "en": "Of course you know the Yaribays. You were given Horus Yaribay's diplomatic credentials to arrange a meeting with High Hegemon Daud.\r\n\r\nHorus Yaribay might owe you a favor, depending on how he views the situation.",
+   "ctx": "data/campaign/rules.csv BFFIonBoardYarbRespA [text]"
+  },
+  {
+   "i": 44,
+   "en": "Of course you know the Yaribays. You were given Horus Yaribay's diplomatic credentials to arrange a meeting with High Hegemon Daud and have, on at least one occasion, used those credentials to call a favor on account of Gens Yaribay's prestige.\r\n\r\nHopefully he didn't find out.",
+   "ctx": "data/campaign/rules.csv BFFIonBoardYarbRespB [text]"
+  },
+  {
+   "i": 45,
+   "en": "Of course you know the Yaribays. You were given Horus Yaribay's diplomatic credentials to arrange a meeting with High Hegemon Daud. During that meeting, you handed over the key required for an encrypted channel between Horus Yaribay and Baikal Daud.\r\n\r\nHorus Yaribay might owe you a favor, depending on how he views the situation.",
+   "ctx": "data/campaign/rules.csv BFFIonBoardYarbRespC [text]"
+  },
+  {
+   "i": 46,
+   "en": "You know of Gens Yaribay of Kazeron, one of the three dominant ruling family-corporations. Theirs is most inclined toward rapprochement with the Hegemony, focusing less on heavy military industry and more on interfactional ventures.",
+   "ctx": "data/campaign/rules.csv BFFIonBoardYarbRespD [text]"
+  },
+  {
+   "i": 47,
+   "en": "Bornanew looks concerned as you describe your dealings. \"Your conscience, your soul, is between you and- well, I am not your judge or confessor.\"\r\n\r\n\"From a practical standpoint, I would advise caution in asking too much of Horus of Gens Yaribay, to his face or behind it. He may know but choose not to act on your transgression.\"",
+   "ctx": "data/campaign/rules.csv BFFIonBoardYarbRespBconfess [text]"
+  }
+ ]
+}

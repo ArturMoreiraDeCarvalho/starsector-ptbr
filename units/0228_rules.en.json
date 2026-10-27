@@ -1,0 +1,226 @@
+{
+ "chunk": 228,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"Return with something useful,\" she says, turning her back to you to look upon the vista of mountaintops and shining arcologies growing like crystals from the slums of Eochu Bres.\r\n\r\n\"And I'll make you glitter.\"",
+   "ctx": "data/campaign/rules.csv ZGRstartPitch12 [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"Return with more finds,\" she says, turning her back to you to look upon the vista of mountaintops and shining arcologies growing like crystals from the slums of Eochu Bres.\r\n\r\n\"And I'll make you glitter.\"",
+   "ctx": "data/campaign/rules.csv ZGRstartPitch12didSale [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"Credits. Next question.\"",
+   "ctx": "data/campaign/rules.csv ZGRstartPitchRewardInfo [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"Done.\" She speaks without turning.\r\n\r\nYour TriPad pings a notification from your purser.",
+   "ctx": "data/campaign/rules.csv ZGRstartPitchEndRequestFuel2 [text]"
+  },
+  {
+   "i": 5,
+   "en": "She looks at you over her shoulder.\r\n\r\n\"You'll find that my charity is a shallow well, captain. I will trust in your boundless initiative,\" $personLastName says.",
+   "ctx": "data/campaign/rules.csv ZGRstartPitchEndRequestFuel2no [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"Can't let you starve on the road to glory, can we.\" She speaks without turning.\r\n\r\nYour TriPad pings a notification from your purser.",
+   "ctx": "data/campaign/rules.csv ZGRstartPitchEndRequestSup2 [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"You'll find that my charity is a shallow well, captain. I shall trust your initiative on this matter,\" $personLastName says, rocking on her heels impatiently.",
+   "ctx": "data/campaign/rules.csv ZGRstartPitchEndRequestSup2no [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"You'll get no better,\" she says, her tone a dismissal.\r\n\r\n* * *\r\n\r\nYou expect the Director will shed no tears if you and your crew perish. But she has a reputation for rewarding success and effective, if shadowy, investment and development.\r\n\r\nAnd for brutally cutting underperforming elements.\r\n\r\nYou could make good money and powerful connections. Or die in the Abyss, screaming to yourself in a darkness blacker than space.",
+   "ctx": "data/campaign/rules.csv ZGRstartPitchOutroB [text]"
+  },
+  {
+   "i": 9,
+   "en": "* * *\r\n\r\nYou expect the Director will shed no tears if you and your crew perish. But she has a reputation for effective, if shadowy, investment and development.\r\n\r\nAnd for brutally cutting underperforming elements while rewarding success.\r\n\r\nYou could make good money and powerful connections. Or die in the Abyss, screaming to yourself in a darkness blacker than space.",
+   "ctx": "data/campaign/rules.csv ZGRstartPitchOutro [text]"
+  },
+  {
+   "i": 10,
+   "en": "As you enter, an impeccably dressed young-appearing man lounging at the bar stands and approaches with an easy, open expression. His eyes literally twinkle - subtle cybernetics - as he greets you.\r\n\r\n\"Captain $playerName, I cannot express how happy I am to connect.\" His handshake lingers a moment too long.",
+   "ctx": "data/campaign/rules.csv GRBHbarStart2 [text]"
+  },
+  {
+   "i": 11,
+   "en": "His perfect eyebrows lift. \"Just this,\" he says.",
+   "ctx": "data/campaign/rules.csv GRBHstartRespA [text]"
+  },
+  {
+   "i": 12,
+   "en": "He laughs beautifully, perfect teeth flashing.",
+   "ctx": "data/campaign/rules.csv GRBHstartRespB [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"Naturally,\" he says, perfect teeth flashing. \"I won't delay you a millisec- here.\"",
+   "ctx": "data/campaign/rules.csv GRBHstartRespC [text]"
+  },
+  {
+   "i": 14,
+   "en": "It takes a moment for you to realize that you are holding a card. Placed through some sleight-of-hand, no doubt.",
+   "ctx": "data/campaign/rules.csv GRBHstartResp2 [text]"
+  },
+  {
+   "i": 15,
+   "en": "The subtle, off-white material has a luxurious heft. An embossed Tri-Tachyon crest is just visible through the barely translucent polyply stock.\r\n\r\nThis is an affectation of the business class dating all the way back to Terran prehistory called a 'business-card', a sort of analog commlink ID data-packet. It reads:",
+   "ctx": "data/campaign/rules.csv GRBHexamine [text]"
+  },
+  {
+   "i": 16,
+   "en": "He laughs beautifully.\r\n\r\n\"Most welcome. You're holding the opportunity of a lifetime,\" he says with a wink. \"I recommend you have a chat with Director Glamor-Rotanev. At your earliest convenience, of course.\"",
+   "ctx": "data/campaign/rules.csv GRBHexamineA [text]"
+  },
+  {
+   "i": 17,
+   "en": "He laughs beautifully.\r\n\r\n\"Oh, oh no,\" he says, almost bashful. \"You're holding the opportunity of a lifetime. I recommend you have a chat with Director Glamor-Rotanev. At your earliest convenience, of course.\"",
+   "ctx": "data/campaign/rules.csv GRBHexamineB [text]"
+  },
+  {
+   "i": 18,
+   "en": "He laughs beautifully.\r\n\r\n\"You're holding the opportunity of a lifetime,\" he says with a wink. \"I recommend you have a chat with Director Glamor-Rotanev. At your earliest convenience, of course.\"",
+   "ctx": "data/campaign/rules.csv GRBHexamineC [text]"
+  },
+  {
+   "i": 19,
+   "en": "He laughs beautifully, again.\r\n\r\n\"Most welcome. You're holding the opportunity of a lifetime,\" he says with a wink. \"I recommend you have a chat with Director Glamor-Rotanev. At your earliest convenience, of course.\"",
+   "ctx": "data/campaign/rules.csv GRBHexamineAagain [text]"
+  },
+  {
+   "i": 20,
+   "en": "He laughs beautifully, again.\r\n\r\n\"Oh, oh no,\" he says, almost bashful. \"You're holding the opportunity of a lifetime. I recommend you have a chat with Director Glamor-Rotanev. At your earliest convenience, of course.\"",
+   "ctx": "data/campaign/rules.csv GRBHexamineBagain [text]"
+  },
+  {
+   "i": 21,
+   "en": "He laughs beautifully, again.\r\n\r\n\"You're holding the opportunity of a lifetime,\" he says with a wink. \"I recommend you have a chat with Director Glamor-Rotanev. At your earliest convenience, of course.\"",
+   "ctx": "data/campaign/rules.csv GRBHexamineCagain [text]"
+  },
+  {
+   "i": 22,
+   "en": "He puts his hands together with a soft clap, and does something not quite like a bow.\r\n\r\n\"My task here is concluded. Enjoy yourself. Tonight's tab shall be on Mz. Glamor-Rotanev.\"\r\n\r\nHe turns, and exits the bar, leaving you with the 'business-card'.",
+   "ctx": "data/campaign/rules.csv GRBHoutro1 [text]"
+  },
+  {
+   "i": 23,
+   "en": "$HeOrShe gives you a skeptical look, then speaks. \"Here's the problem, champ. You've got a commission with $theOtherCommissionFaction. And they're at war with the Tri-Tachyon Corporation.\"\r\n\r\n\"You want to get out of fighting and back to doing business?\" $HeOrShe spreads $hisOrHer hands. \"Resign the commission, that's my advice.\"\r\n\r\n\"And by the way, talking to you isn't going to do wonders for my reputation on the inside. I hope your encryption is good.\"",
+   "ctx": "data/campaign/rules.csv ttContactBribeRepIntroButWar [text]"
+  },
+  {
+   "i": 24,
+   "en": "$HeOrShe gives you a skeptical look, then speaks. \"Here's the problem: You've got a commission with $theOtherCommissionFaction. And they're at war with the Tri-Tachyon Corporation.\"\r\n\r\n\"You want to get out of fighting and back to doing business?\" $HeOrShe spreads $hisOrHer hands. \"Resign the commission, that's my advice.\"\r\n\r\n\"And by the way, talking to you isn't going to do wonders for my reputation with my contacts in The Company. I hope your encryption is good.\"",
+   "ctx": "data/campaign/rules.csv ttContactBribeRepIntroButWarNotTT [text]"
+  },
+  {
+   "i": 25,
+   "en": "$HeOrShe doesn't quite snort dismissively, but it's close.\r\n\r\n\"You're in quite a hole. Tri-Tachyon will want compensation for damages. And while the Company isn't sentimental, I don't have to be an insider to understand that you've offended some key executives.\"\r\n\r\n$HeOrShe considers this for a moment, \"They will have to be paid off. Credits soothe most wounds... if you have enough credits.\"",
+   "ctx": "data/campaign/rules.csv ttContactBribeRepIntroNotTT [text]"
+  },
+  {
+   "i": 26,
+   "en": "$HeOrShe doesn't quite snort dismissively, but it's close.\r\n\r\n\"You're in quite a hole. Tri-Tachyon will want compensation for damages. And while the Company isn't sentimental, you've offended a lot of people.\"\r\n\r\n$HeOrShe considers this for a moment, \"They will have to be paid off. Credits soothe most wounds... if you have enough credits.\"",
+   "ctx": "data/campaign/rules.csv ttContactBribeRepIntro [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"I can probably do it for 500,000 credits. No one is going to be your friend, but this gets your foot in the door so you can patch things up.\"",
+   "ctx": "data/campaign/rules.csv ttContactBribeRep500kOffer [text]"
+  },
+  {
+   "i": 28,
+   "en": "$HeOrShe nods. You can see $heOrShe has that grim look one gets when they have to make a lot of uncomfortable comms calls.\r\n\r\n\"Now I've got work to do, starting with comming some local contacts. Be on your best behavior, $playerName, and we can make this work.\"",
+   "ctx": "data/campaign/rules.csv ttContactBribeRep500kAccept [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"You've been difficult before, $playerName,\" $heOrShe shakes $hisOrHer head. \"It can't be done for less than 1,000,000 credits.\"",
+   "ctx": "data/campaign/rules.csv ttContactBribeRep1mOffer [text]"
+  },
+  {
+   "i": 30,
+   "en": "$HeOrShe nods. You can see $heOrShe has that grim look one gets when they have to make a lot of uncomfortable comms calls.\r\n\r\n\"I've got a lot of work to do, and a lot of credits to throw around, starting with some local contacts. Be on your very best behavior, $playerName. I don't want to do this again.\"",
+   "ctx": "data/campaign/rules.csv ttContactBribeRep1mAccept [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"I don't know why I still talk to you,\" $heOrShe muses. \"You've made a very expensive enemy in Tri-Tachyon again and again. And now you return, begging forgiveness? It will take a fortune in bribes. You understand this, don't you?\"",
+   "ctx": "data/campaign/rules.csv ttContactBribeRep10mIntro [text]"
+  },
+  {
+   "i": 32,
+   "en": "$HeOrShe sighs deeply, leaning back and, rubbing $hisOrHer face with $hisOrHer hands. Finally, $heOrShe gets back up to face the holo-feed.\r\n\r\n\"10,000,000 credits. Count those zeroes carefully, captain.\"",
+   "ctx": "data/campaign/rules.csv ttContactBribeRep10mOffer [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"Does it? Good!\" $heOrShe says spitefully.\r\n\r\n\"You've been an outrage! It's going to be very expensive! Deal with the consequences!\"",
+   "ctx": "data/campaign/rules.csv ttContactBribeRep10mOutrageous [text]"
+  },
+  {
+   "i": 34,
+   "en": "\"So,\" $heOrShe looks grim. \"We're really doing this.\" $HeOrShe looks away, up at nothing. \r\n\r\n\"You should have bought a planet to go live on for the rest of your life. It'd probably be cheaper. And I wouldn't have to pull some strings that I'd rather avoid.\"\r\n\r\n$HisOrHer gaze returns to the holo-feed. \"But here we are. Now I'm going to go spend a fortune to make people tolerate you. Don't screw it up.\"\r\n\r\nThe comm-link terminates.",
+   "ctx": "data/campaign/rules.csv ttContactBribeRep10mAccept [text]"
+  },
+  {
+   "i": 35,
+   "en": "\"No,\" $heOrShe says abruptly. \"I've put myself out there for you... too much. The credits are good, but... I can't believe I'm saying this,\" $heOrShe closes $hisOrHer eyes.\r\n\r\n\"Credits are not enough,\" $heOrShe admits, then locks you with a fierce look.\r\n\r\n\"You've made a complete meltdown of... everything! Again and again! You're absolutely radioactive! I'm not doing it, I'm not sticking my neck out for you. No number of credits can change my mind. This discussion is over.\"\r\n\r\n$PersonName terminates the comm-link.",
+   "ctx": "data/campaign/rules.csv ttContactBribeRepNope [text]"
+  },
+  {
+   "i": 36,
+   "en": "\"I'm simply presenting you with an option,\" $heOrShe says, all business. \"Let me know if you reconsider.\"",
+   "ctx": "data/campaign/rules.csv ttContactBribeRepDecline [text]"
+  },
+  {
+   "i": 37,
+   "en": "She frowns and looks you over, assessing.\r\n\r\n\"Hello, this is Callisto Ibrahim of Ibrahim Interstellar Transport and Salvage.\"",
+   "ctx": "data/campaign/rules.csv defaultCallistoGreeting [text]"
+  },
+  {
+   "i": 38,
+   "en": "The link waits, drops connection, then re-tries. The comms don't seem to be working correctly.\r\n\r\nOr Ibrahim has keyed your id to an auto-disconnect.",
+   "ctx": "data/campaign/rules.csv ibrahimGreetingGaveKantaHamatsu [text]"
+  },
+  {
+   "i": 39,
+   "en": "After an interminable wait watching Sindrian Diktat propaganda montages, the comm-link connects you with a stiff-looking junior officer in the uniform of the Lion's Guard, Andrada's personal ideologically-disciplined military order.\r\n\r\n\"Victory to the Lion of Sindria!\" $heOrShe greets you with alarming enthusiasm. \"How shall you serve the Supreme Executor's vision?\" \r\n\r\nYou feel somewhat put on the spot by this demand.",
+   "ctx": "data/campaign/rules.csv defaultAndradaGreeting [text]"
+  },
+  {
+   "i": 40,
+   "en": "$Rank $PersonName's face tightens a little, somehow.\r\n\r\n\"You do not simply speak with,\" $heOrShe takes on a corrective tone, \"the Supreme Executor, the Lion of Sindria, Admiral Philip Andrada.\"\r\n\r\nA pause for breath, then $heOrShe continues, \"And I would warn you to show proper deference to the greatness of the man.\"",
+   "ctx": "data/campaign/rules.csv andradaOfficeSpeak [text]"
+  },
+  {
+   "i": 41,
+   "en": "$Rank $PersonName nods, just a little.\r\n\r\n\"As you surely realize, the Lion of Sindria receives countless petitions from his loyal followers. I shall log your request.\"",
+   "ctx": "data/campaign/rules.csv andradaOfficeSpeak2 [text]"
+  },
+  {
+   "i": 42,
+   "en": "You notice a small eye-twitch.\r\n\r\n\"The office of the Supreme Executor does not provide handouts. It is the strong who find themselves drawn to the glorious vision of Supreme Executor Admiral Philip Andrada, and who, through his Movement, shall return civilization to the Persean Sector and then the former Domain.\" \r\n\r\n$HeOrShe looks up, you presume at a portrait of Andrada. \"It is only, ONLY through service to his unique and glorious vision for a new humanity that excellence may be achieved.\"\r\n\r\n$HisOrHer gaze lowers toward you, now. \"The only question you must answer is: how do you fit into that vision?\" $HisOrHer eyes narrow, \"Or will you find yourself among the dregs of history?\"",
+   "ctx": "data/campaign/rules.csv andradaOfficeServe [text]"
+  },
+  {
+   "i": 43,
+   "en": "$Rank $PersonName nods dutifully, and something similar to but distinct from pleasure crosses $hisOrHer face.\r\n\r\n\"Submission to Supreme Executor Admiral Philip Andrada's glorious new vision for the future is the first step. Let me send you some literature...\"",
+   "ctx": "data/campaign/rules.csv andradaOfficeServe2 [text]"
+  },
+  {
+   "i": 44,
+   "en": "\"This will be your starting place; a short book of wisdom assembled from the musings of the Lion of Sindria. Citizens of the Sindrian Diktat, followers of the Glorious Vision, find that these words may uplift them in all aspects of daily life.\"\r\n\r\n$HeOrShe leans in, \"Personally, I like to read a few lines before sleep and upon waking. I find it focuses my mind and aligns my will with the necessity of the Movement.\r\n\r\nReturning to $hisOrHer former posture, $heOrShe continues, \"Serve the interests of the Sindrian Diktat. You may be so lucky that a place for you may be found in our Movement - find an administrator and they may assist you in taking on a commission in service of the Supreme Executor.\"",
+   "ctx": "data/campaign/rules.csv andradaOfficeBook [text]"
+  }
+ ]
+}

@@ -1,0 +1,146 @@
+{
+ "chunk": 247,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": " $HeOrShe isn't even taken aback. \"For a large enough bounty, of course!\"\r\n\r\n\"I have a family, $playerBrotherOrSister. A very large family. And think of the good works! Mammon's lucre does much to soothe such suffering.\"\r\n\r\n$PersonName puts $hisOrHer hands together piously, \"I think - no, I have faith! - Ludd will understand.\" $HeOrShe closes $hisOrHer eyes to mutter a prayer through a beatific smile.",
+   "ctx": "data/campaign/rules.csv ttcrBH_butSelDerelictFaith [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"I'm sorry,\" $Post $personLastName says, \"but you appear to be engaged in a state of overt hostility with the Tri-Tachyon Corporation.\"\r\n\r\n\"Corporate guidelines expressly forbid official negotiation with polities, corporations, and entities which are actively engaged in destructive acts against Company property and human resources.\" \r\n\r\n$HeOrShe produces an insincere smile.",
+   "ctx": "data/campaign/rules.csv ttMakeDealOptSelNoHostile [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"Really?\" Arroyo's tone is irritated. \"You're in the middle of a declared open war with Tri-Tachyon and you expect them to listen to some clever little deal I bring to them on your behalf?\" \r\n\r\n\"Star above,\" he shakes his head almost disbelieving. \"The PR hit alone...\" ",
+   "ctx": "data/campaign/rules.csv ttMakeDealOptSelNoHostileArroyo [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"Really?\" Arroyo looks irritated. \"First things first: you don't call me 'Rayan'.\"\r\n\r\n\"Second, how can you possibly believe it would be that simple? You're in the middle of a declared open war with Tri-Tachyon. They aren't going to simply cut a deal with you through me.\" \r\n\r\nHe shakes his head. \"Just imagine. The PR would be terrible.\"",
+   "ctx": "data/campaign/rules.csv ttMakeDealOptSelNoHostileArroyoContact [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"I'm sorry,\" $Post $personLastName says, \"I'm afraid I can't help you with that request. I must also inform you that Company guidelines require that I report this conversation to my superior; I'm sure they will... take care of you.\"\r\n\r\n$HeOrShe produces an insincere smile.",
+   "ctx": "data/campaign/rules.csv ttMakeDealOptSelNoContact [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"No,\" he says.\r\n\r\nArroyo doesn't quite smile, but seems somehow satisfied with himself.",
+   "ctx": "data/campaign/rules.csv ttMakeDealOptSelNoContactArroyo [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Ah,\" $HeOrShe begins. \"Your proposal is intriguing. The trouble is...  hmm.\" $HeOrShe thinks for a moment.\r\n\r\n\"I'd like to help you, I really would. However it is my sincerely held belief that bringing this proposal to my superiors is substantially more likely to impede my career than promote it.\"\r\n\r\n\"I'm sure you both understand and empathize with my predicament.\" $HeOrShe shrugs as if apologizing.",
+   "ctx": "data/campaign/rules.csv ttMakeDealOptSelNoUnimportant [text]"
+  },
+  {
+   "i": 8,
+   "en": "You explain your perspective on the situation, and the Tri-Tachyon $Post nods along, nothing seeming to come as a surprise.\r\n\r\n\"I see you, I hear you, and I believe that together we can solve this misunderstanding,\" $heOrShe says, voice warmed by client-relations protocol training. $HeOrShe shifts to an apologetic look, \"Of course I wouldn't want you to think that I was behind any of this. Tri-Tachyon is a big believer in healthy internal competition, and some executives become... overenthusiastic.\" $HeOrShe shakes her head, \"Terribly misjudged and disrespectful of the business relationship you and I have built together.\" \r\n\r\n$HisOrHer contenance shifts seamlessly to negotiation-mode, \"So if you'll allow me to walk you through a modest proposal...\"",
+   "ctx": "data/campaign/rules.csv ttMakeDealOptSelContact [text]"
+  },
+  {
+   "i": 9,
+   "en": "You explain your perspective on the situation. The Tri-Tachyon $Post looks, if anything, more and more skeptical.\r\n\r\n\"What we have is a bit of a 'trust gap'. You've broken some very important agreements made with various parties. This complicates the pitch. But I do believe that we can downplay this misunderstanding,\" $heOrShe explains, voice warmed by client-relations protocol training.\r\n\r\n\"The Tri-Tachyon corporation has working experience with post-crisis PR difficulties, and I suspect that certain executives could be persuaded to come to an understanding about your past actions.\" $HeOrShe smiles brightly. \"After all, one of our core values is 'thinking outside the box'.\"\r\n\r\n$HisOrHer contenance shifts seamlessly to negotiation-mode, \"So if you'll allow me to walk you through a modest proposal...\"",
+   "ctx": "data/campaign/rules.csv ttMakeDealOptSelContactLowTrust [text]"
+  },
+  {
+   "i": 10,
+   "en": "$PersonName reviews a package of terms. Data-sharing of certain nav charts and commodity futures projections, mutual safety protocols for trade fleets, shared field and in-dock servicing arrangements. What it amounts to is increased accessibility for your colonies' trade based on market size- and, proportionally, for Tri-Tachyon as well. \r\n\r\n\"'Cartel' is such an unpleasant word,\" $heOrShe says. \"I prefer - and Marketing agrees with this - to think of our proposal to you as a strategic partnership which will enhance Tri-Tachyon shareholder value, increase customer satisfaction, and,\" $heOrShe smiles hungrily, \"make us both a lot of credits.\"",
+   "ctx": "data/campaign/rules.csv ttMakeDealOptSelContact2 [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"It's been a pleasure doing business with you, $playerName. I'm glad we can profitably put all of that unpleasantness behind us.\"",
+   "ctx": "data/campaign/rules.csv ttMakeDealOptSelContactConfirm [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"Hm,\" Arroyo leans back, thoughtful.\r\n\r\n\"First,\" he says. \"You don't call me 'Rayan'.\"\r\n\r\nHe drums his fingers on his onyx desk, thinking. \"There may be a way to make this work,\" he says speculatively. \"Tri-Tachyon believes in internal competition, and if the reports I'm reading are any indication, the senior execs behind your 'friction' have somewhat overplayed their hand. The Financial Predictor section is seeing a lot of red coming up despite their best efforts to cover it up, and that means blood will spill.\"\r\n\r\n\"Figuratively, of course.\" A fierce smile begins to grow on Rayan's face. \"Unless... well, let's talk details.\"",
+   "ctx": "data/campaign/rules.csv ttMakeDealOptSelContactArroyo [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"First order of business,\" Arroyo says. \"You don't call me 'Rayan'.\"\r\n\r\n\"Second, you must think pretty highly of yourself to think you've got a chance after the agreements you've broken.\" He drums his fingers on his onyx desk, considering your reputation perhaps, then stops.\r\n\r\n\"There may be a way to play this,\" he says. \"Tri-Tachyon believes in internal competition, and if the reports I'm reading are any indication, the senior execs behind your 'friction' have somewhat overplayed their hand. The Financial Predictor array is seeing a lot of red coming up despite their best efforts to cover it up, and that means blood will spill.\"\r\n\r\n\"Figuratively, of course.\" A fierce smile begins to grow on Rayan's face. \"Unless... well, let's talk details.\"",
+   "ctx": "data/campaign/rules.csv ttMakeDealOptSelContactArroyoLowTrust [text]"
+  },
+  {
+   "i": 14,
+   "en": "Arroyo pulls up a shared document context and rapidly assembles a package of terms to present to his contacts at the highest levels of Tri-Tachyon: Data-sharing of certain nav charts and commodity futures projections, mutual safety protocols for trade fleets, shared field and in-dock servicing arrangements. \r\n\r\nWhat it amounts to is increased accessibility for your colonies' proportional to their market size. And, in turn, proportional gains to Tri-Tachyon's trade access.\r\n\r\n\"It's not exactly a cartel, but it's a good first step,\" Rayan says. \"You both gain opportunities and, of course,\" his smile returns, \"I get my percentage for arranging the deal while cutting down a few upjumped vac-heads in the executive corps. Win-win-win.\"\r\n\r\nHe leans back, admiring his work. \"It's a good deal, $playerName. I suggest you take it.\"",
+   "ctx": "data/campaign/rules.csv ttMakeDealOptSelContactArroyo2 [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"Smart move,\" he says as you upload your encrypted signature to confirm the terms.\r\n\r\n\"Now I've got some calls to make. Get out of here and stay out of trouble. You can thank me when the credits start rolling in.\"",
+   "ctx": "data/campaign/rules.csv ttMakeDealOptSelContactArroyoConfirm [text]"
+  },
+  {
+   "i": 16,
+   "en": "$HeOrShe smiles automatically.\r\n\r\n\"Tri-Tachyon holds the philosophy that engaging in healthy - even hearty - competition in the field of interstellar commerce is in the best interests of both our customers and investors. We're very sorry for any inconvenience you may have suffered.\"\r\n\r\n$HeOrShe drops the smile. \"Though I must emphasize that any condolence I offer is purely in the interest of generalized emotional support and should not be taken as a legally binding admission of guilt to any activities deemed illegal under the Persean Sector Commercial Standards Accord. Due to the nature of your implied accusation, company protocol does not allow me to engage in further discussion of the matter.\"\r\n\r\n\"Tri-Tachyon,\" the smile comes back, \"would like to wish you a safe and profitable day.\"\r\n\r\nThe comms cut.",
+   "ctx": "data/campaign/rules.csv ttVIPCounterRaidingSel0 [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"I should charge you for this sort of thing,\" Arroyo says. \"Expert advice; consulting fee, executive rate. Hm,\" he ponders for a moment.\r\n\r\n\"Senior executive rate.\"\r\n\r\nThen he sighs and looks away - perhaps at the splendid view from his private chalet in the mountains of Eochu Bres. ",
+   "ctx": "data/campaign/rules.csv ttArroyoProblemsSel0 [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"I wonder, sometimes. Most problems, I solve them by ordering an underling, a contractor, to go do what they do. They take the credits and disappear. Maybe it's solved, maybe they hide the most overt consequences. Whatever - it becomes not my problem. It's easy.\"\r\n\r\n\"Then you come along.\"",
+   "ctx": "data/campaign/rules.csv ttArroyoProblemsSel1 [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"Shut up,\" he says.\r\n\r\n\"You bring problems into my life. Annoying problems produced by your own blundering bloody-mindedness. You're vexing. You vex me. It's almost...\"\r\n\r\nHe trails off, lost of his usual bluster.",
+   "ctx": "data/campaign/rules.csv ttArroyoProblemsSel2 [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"Fun,\" he says at last.",
+   "ctx": "data/campaign/rules.csv ttArroyoProblemsSel2zFun [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"Here's what you're going to do.\" He speaks loudly now, looking directly through the comms.\r\n\r\n\"This is a negotiation, you understand? Tri-Tachyon is making an assertive opening bid, they're saying 'Don't try to compete with us, you'll lose. Just give up.' If you want to be taken seriously, you must reply aggressively, you understand? Tell them that it is unprofitable to compete with YOU.\"\r\n\r\nHe slaps his hands down on his desk for emphasis, the clap of a starship reactor breach slamming against shields and inertial compensators. A bomb in the heart of a spaceport fuel hub set by a covert raid-squad.",
+   "ctx": "data/campaign/rules.csv ttArroyoProblemsSel3 [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"Tri-Tachyon doesn't want war, they want a deal. They don't hold grudges, they don't care about ideology, or beliefs, or ethics. The Company is as happy to sell to the Church as the Diktat, and the Hegemony after two major wars, for all that those matter. In the end, it's about profits.\"\r\n\r\n\"So you must learn what negotiating is. You're not in this to destroy the Company; you can't. You don't want to remove their path to de-escalation. Show them that sponsoring attacks on you is a poor investment, but don't make it a PR disaster - it must be a covert fight. Transponder off, you hear me? Burn their fleets, burn their facilities, and always make sure they can say it wasn't you. Give them an out, and that out will be cutting a nice deal with you.\"\r\n\r\n\"Win-win.\"\r\n\r\nHe pauses to look accusingly at you. \"Are my words getting into your brain or has it been floating around in space too long? Do you understand win-win?\"",
+   "ctx": "data/campaign/rules.csv ttArroyoProblemsSel4 [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"Exactly.\" He grins.\r\n\r\n\"Now don't tell anyone I told you any of that. If you play this right, I could make a killing on the clean-up...\"\r\n\r\nHe strokes his beard and consults a datapad.",
+   "ctx": "data/campaign/rules.csv ttArroyoProblems5winWin [text]"
+  },
+  {
+   "i": 24,
+   "en": "Arroyo narrows his eyes at your lie.\r\n\r\n\"I'm not telling you to like it,\" he says. \"I'm telling you how to get it done. Play this right and we can both make a killing.\"\r\n\r\nA pause, then he smirks. \"You know what I mean.\"",
+   "ctx": "data/campaign/rules.csv ttArroyoProblems5winWinLie [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"Hopeless,\" he says, rolling his eyes.\r\n\r\n\"Might as well join the Hegemony officer corps and take up knife fighting. They love getting themselves killed over fool-notions.\"",
+   "ctx": "data/campaign/rules.csv ttArroyoProblems5honor [text]"
+  },
+  {
+   "i": 26,
+   "en": "Arroyo puts his hands over his face, leans back, and exhales deeply. It looks like he has a splitting headache.\r\n\r\n\"Well done,\" he says, his voice muffled. He sounds fairly insincere.",
+   "ctx": "data/campaign/rules.csv ttArroyoProblems5honorA [text]"
+  },
+  {
+   "i": 27,
+   "en": "Arroyo puts his hands over his face, leans back, and exhales deeply. It looks like he has a splitting headache.\r\n\r\n\"Good job,\" he says, his voice muffled. He sounds fairly insincere.",
+   "ctx": "data/campaign/rules.csv ttArroyoProblems5honorB [text]"
+  },
+  {
+   "i": 28,
+   "en": "Arroyo puts his hands over his face, leans back, and exhales deeply. It looks like he has a splitting headache.\r\n\r\n\"Don't remind me,\" he says, his voice muffled.",
+   "ctx": "data/campaign/rules.csv ttArroyoProblems5honorC [text]"
+  }
+ ]
+}

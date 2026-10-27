@@ -1,0 +1,126 @@
+{
+ "chunk": 192,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"So.\" You generally expect a pleading look at the end of the spiel, not the start.\r\n\r\n\"You're a professional. A space captain. Highly skilled! Leadership, command, initiative! These are all essential, because it's dangerous out there. Even if, uh. Well, $gaProbe_department needs the instrument package from a probe sent to the $gaProbe_starName system recovered. It's $gaProbe_dist light-years away. And I know what you're thinking, you're not a packet-minder who fetches packages.\"\r\n\r\n\"But this is science!\" Sebestyen slams his datapad down, surprising himself. \"It's important! It can save the Sector from a fall into, into, some kind of new dark age!\"\r\n\r\n\"Plus,\" he says, calming down now, \"the bursar has authorized payment of $gaProbe_reward credits.\"",
+   "ctx": "data/campaign/rules.csv gaProbeMissionTextBasic2 [text]"
+  },
+  {
+   "i": 2,
+   "en": "Your $shipOrFleet approaches the probe, finding it exactly where Academician Sebestyen's specifications told you it would be. \r\n\r\n\"Small power source, active,\" your sensors officer reports. \"No debris. Nav ping returns normal. Everything looks clean, $playerSirOrMadam.\"\r\n\r\nThe salvage team maneuvers to the probe and you watch the displays flare as a few clean cuts are made through the probe hull. Within minutes the job is done and the salvage team returned with the Academy's instrument package in tow.",
+   "ctx": "data/campaign/rules.csv gaProbeObjectInteractionBasic [text]"
+  },
+  {
+   "i": 3,
+   "en": "Your $shipOrFleet approaches the probe, finding it exactly where Academician Sebestyen's specifications told you it would be. \r\n\r\n\"$PlayerSirOrMadam,\" your sensors officer's tone tells you that it is not good news, \"The probe shell is empty. However...\" \r\n\r\nThe main bridge display lights up, showing temperature readings on cut-marks; a small spray of debris whose trajectory can be reversed to a point; slowly dissipating clouds of close-maneuvering propellant. The story these signs tell is clear: a scavenger was here, and very recently.\r\n\r\nYour nav officer speaks up, \"$PlayerSirOrMadam, if we burn now for the closest jump-point, we might be able to catch them.\"",
+   "ctx": "data/campaign/rules.csv gaProbeObjectInteractionScavenger [text]"
+  },
+  {
+   "i": 4,
+   "en": "Your $shipOrFleet approaches the probe, finding it exactly where Academician Sebestyen's mission specs told you it would be. What is odd, however, are the derelict ships and debris field surrounding the probe's position.\r\n\r\nSensor sweeps confirm that the derelicts are indeed derelict and that they are recent; well within the probe's mission operation period. You order all stations to alert, and order further active scans of the entire volume with all telemetry logged to the mission file.",
+   "ctx": "data/campaign/rules.csv gaProbeObjectInteractionBlewUp [text]"
+  },
+  {
+   "i": 5,
+   "en": "Reports come in from your bridge crew; sensors, tactical, and ops- a small fleet seems to have been torn apart by highly energetic discharge. Weapons fire? Maybe. But maybe not. Did two groups of scavengers fight over right-of-recovery? Did one fleet turn on itself? It does happen.\r\n\r\nDid the probe defend itself with some Domain-era ultratech?\r\n\r\n\"$PlayerSirOrMadam,\" your ops chief draws your attention from the reports spread across your display, \"I recommend we pull the $shipOrFleet back to safe distance before EVA.\"",
+   "ctx": "data/campaign/rules.csv gaProbeObjectInteractionBlewUp1 [text]"
+  },
+  {
+   "i": 6,
+   "en": "The salvage team maneuvers from a trio of carrier drones toward the probe, calling and confirming their approach as you follow their progress. Static crackles in waves across the feed displays on the bridge. Interference from the probe, probably.\r\n\r\n\"Report contact.\" The salvage team coordinates readings with your ops chief. Lines are secured to the probe's hull and equipment deployed.\r\n\r\n\"Torch ready, making the cut.\" Another wave of static. \r\n\r\nYour ops chief exchanges an expressionless look with you as the salvage team breaches the probe casing.",
+   "ctx": "data/campaign/rules.csv gaProbeObjectInteractionBlewUp2 [text]"
+  },
+  {
+   "i": 7,
+   "en": "Your sensors officer cuts in suddenly, \"Advise ops, we see neutrino surge in target. Geometric rise, eight-k tick period.\" \r\n\r\nYour ops chief zooms a display into a holo of the instrument package, panning rapidly through a series of highlighted subsystems and annotated conduits. The chief overrides comms to give a precise set of technical instructions in short authoritative barks, receiving confirms as each step is carried out. \"Execute.\" \r\n\r\nThe comms roar with white noise, and the over-shoulder display feed flares to static.",
+   "ctx": "data/campaign/rules.csv gaProbeObjectInteractionBlewUp3 [text]"
+  },
+  {
+   "i": 8,
+   "en": "The noise recedes. \"Report confirm.\" \r\n\r\nThe over-shoulder display feed re-focuses on the salvage team amid a small cloud of expanding volatiles. One figure is applying sealant to another as a damaged cutting torch drifts on an equipment line. \"Report blue-five minor suit damage. Integrity good.\"\r\n\r\nThe after-action report draws an unclear picture. The instrument package was building up some kind of energy discharge only to be interrupted when your salvors cut off main power. Damage was minimal. Nonetheless, you consider that the Galatia Academy could have given some - or indeed any - warning of this possibility. You make a note to bring up the matter of a hazard bonus with Academician Sebestyen.",
+   "ctx": "data/campaign/rules.csv gaProbeObjectInteractionBlewUp4 [text]"
+  },
+  {
+   "i": 9,
+   "en": "Your $shipOrFleet approaches the probe, finding it roughly where Sebestyen's specifications told you it should be. \r\n\r\n\"No power source detected. Mass lower than expected. No debris. Nav ping- no response,\" your sensors officer reports. \"Probe hull looks intact, captain.\" \r\n\r\nThe salvage team maneuvers toward the probe and you watch the displays flare as a few clean cuts open the casing. Confused chatter fills the comms.\r\n\r\n\"Zero that loose talk,\" barks your ops chief. \"EVA team lead, report!\"",
+   "ctx": "data/campaign/rules.csv gaProbeObjectInteractionMissing [text]"
+  },
+  {
+   "i": 10,
+   "en": "Over comms, the report comes in, \"It's empty, Chief. Conduits sheared off cleanly. No instrument package. Nothing.\"\r\n\r\nLater, after the salvage team returns, you review their findings with your bridge crew. It appears as though a perfect sphere has been scooped from the center of the probe, taking most of the Galatia Academy's precious instrument package with it.\r\n\r\nTheories are proposed. Black hole. Aliens; this prompts a round of polite laughter. Your tech officer steps up and explains that it is theoretically possible to bulk phase-shift matter at a distance, though the process was never considered economical even in the later cycles of the Domain. Your operations chief looks skeptical of the entire notion.",
+   "ctx": "data/campaign/rules.csv gaProbeObjectInteractionMissing1 [text]"
+  },
+  {
+   "i": 11,
+   "en": "Whatever did this, it means you don't have an instrument package to return to the Galatia Academy. You order all telemetry and holo-feed from the encounter attached to the encrypted mission file. The academicians love data, the more the better. This should be enough to demonstrate that you did your job to the letter. Maybe the mystery at the heart of it will distract them long enough for you to get paid.",
+   "ctx": "data/campaign/rules.csv gaProbeObjectInteractionMissing2 [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"Wonderful! I've just confirmed that the $gaProbe_department team has received the instrument package and they're, oh. Um. I mean, they are very... happy? And um, they wanted me to... thank you for ensuring that it is almost completely intact.\" \r\n\r\nSebestyen has that look of trying to avoid telling the full story here. Probably best to let him off the hook with this one. He clears his throat to fill the growing silence as you maintain a strictly professional expression. \"I've confirmed with the finance office and your payment should be released now.\"\r\nOR\r\n\"Hello captain, I just got the news!\" Sebestyen pauses a moment, as if expecting you to know exactly what he's talking about. \"Um, from Logistics? They just received the instrument package from your $shipOrFleet. For $gaProbe_department?\"\r\n\r\nYou nod to acknowledge the transfer of material as per your mission requirements. \r\n\r\n\"Um, good job. No, great job! The finance department should release payment immediately.\" He seems a little disappointed that you aren't as excited as he is, but he shrugs and soldiers on.",
+   "ctx": "data/campaign/rules.csv gaProbeMissionReturn [text]"
+  },
+  {
+   "i": 13,
+   "en": "Sebestyen lights up as the comms channel opens, \"Captain, hello! Logistics just received the instrument package, and even despite minor damage they've decided... um, is something the matter?\"",
+   "ctx": "data/campaign/rules.csv gaProbeMissionReturnHazard [text]"
+  },
+  {
+   "i": 14,
+   "en": "He clears his throat as you maintain a strictly professional expression, and continues \"I've confirmed with the finance office and your payment should be released now. Great work!\"",
+   "ctx": "data/campaign/rules.csv gaProbeMissionReturnHazardNothing [text]"
+  },
+  {
+   "i": 15,
+   "en": "You explain that the instrument package in the probe turned out to be exceptionally dangerous and that, as a professional, you expect to be informed of the possibility of such danger. A hazard bonus added to mission payment seems like a fair compromise in this case, with the amount proportionate to the danger faced. \r\n\r\nTo emphasize your request, you tap a key and transmit documentation of the blasted derelicts surrounding the probe; and the spinning debris- if you look closely, is that... no, don't look too closely.\r\n\r\nAcademician Sebestyen looks queasy. \"Um. Pardon me captain; just a moment.\"",
+   "ctx": "data/campaign/rules.csv gaProbeMissionReturnHazardBonus [text]"
+  },
+  {
+   "i": 16,
+   "en": "A few minutes later Sebestyen re-activates the on-hold comms line. Out of professional courtesy you stop drumming your fingers on the console.\r\n\r\n\"I'm very, very, very sorry about the whole situation, captain,\" he stammers, \"I um, had a quick chat with finance and they've agreed to add a fifty percent, um, hazard bonus? To your payment. So that makes it $gaProbe_reward credits. I really, really hope you choose to continue to work with us.\"",
+   "ctx": "data/campaign/rules.csv gaProbeMissionReturnHazardBonus1 [text]"
+  },
+  {
+   "i": 17,
+   "en": "Sebestyen looks up from a datapad as the comms open. \"Captain! Back so soon? I thought you were, ah- \" He trails off at your look.\r\n\r\nYou explain the situation surrounding the probe's missing instrument package to the academician.\r\n\r\n\"Fascinating! Ooh, it's even better than I ever expected.\" He claps his hands once in excitement, \"I can't wait to see what the $gaProbe_department group makes of this. Um. If it's okay I'll just forward this file to them now-\"",
+   "ctx": "data/campaign/rules.csv gaProbeMissionReturnMissing [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"Oh yes, of course,\" he says. \"Payment first, then the data transfer.\"\r\n\r\nSebestyen taps at a display and you note the ping of incoming funds on your personal TriPad.",
+   "ctx": "data/campaign/rules.csv gaProbeMissionReturnMissing1 [text]"
+  },
+  {
+   "i": 19,
+   "en": "The comms channel buzzes and crackles to reveal the Pather commander. $HeOrShe is not quite what you expected; it is not burning zeal you see in their eyes, but something else.\r\n\r\n\"Captain. By the stars, I come to you on the path of peace.\" $HisOrHer voice rasps with what you recognize as vacuum damage. \r\n\r\n\"Beware yon spore of Moloch. Some evil science is at work here in that probe, it has unleashed power beyond... beyond all reckoning. It took many of my fellow walkers. Spilled their life into the holy void. I warn you now, leave this cursed place.\"",
+   "ctx": "data/campaign/rules.csv gaProbePatherOpenComm [text]"
+  },
+  {
+   "i": 20,
+   "en": "In the spirit of the sacred peace with which they approach, you ask the Pather if they could use fuel and supplies to aid their survival.\r\n\r\n$HeOrShe is confused by your charity, and you see a look of hostility on $hisOrHer face for a moment. But it breaks into genuine gratitude. \"We- yes, we would accept your aid in sacred peace. If you could spare $patherFuel units of fuel and $patherSupplies units of supplies, it would allow us to return to... to home.\"",
+   "ctx": "data/campaign/rules.csv gaProbeOfferAid [text]"
+  },
+  {
+   "i": 21,
+   "en": "You have $player.fuel fuel and $player.supplies supplies.",
+   "ctx": "data/campaign/rules.csv gaProbeOfferAidCanDoIt [text]"
+  },
+  {
+   "i": 22,
+   "en": "You only have $player.fuel fuel and $player.supplies supplies - not enough to provide meaningful help.",
+   "ctx": "data/campaign/rules.csv gaProbeOfferAidNotEnough [text]"
+  },
+  {
+   "i": 23,
+   "en": "You order your logistics officer to dispatch the requested fuel and supplies by cargo drone.\r\n\r\nThe Pather leader awkwardly thanks you, and says \"May the stars show you Ludd's path, captain... $playerName. I will not forget this.\" \r\n\r\nThe comms link closes with a crackle of static.",
+   "ctx": "data/campaign/rules.csv gaProbeGiveAid [text]"
+  },
+  {
+   "i": 24,
+   "en": "As you tell $himOrHer of your decision to deny them aid, you see the Pather's eyes harden. This is once more the familiar face of the Luddic Path.\r\n\r\n\"Then the only mercy left to us is the Creator's holy void,\" $heOrShe says bitterly. \"May the stars guide you to... to Ludd's path. Someday.\" The Pather turns away and the comms link cuts to static.",
+   "ctx": "data/campaign/rules.csv gaProbeDenyAid [text]"
+  }
+ ]
+}

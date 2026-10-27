@@ -1,0 +1,106 @@
+# Glossário e regras da tradução PT-BR (Starsector 0.98a)
+
+Fluxo de trabalho: `python -X utf8 tools\sstr.py status` → `show N` → escrever `units\NNNN_cat.pt.json`
+({"i": "tradução"}) → `validate` → `build` → `verifyjar` → `install.ps1`.
+
+## Regras
+- NÃO traduzir nomes de naves nem de armas (Onslaught, Hammerhead, Heavy Mauler, Tachyon Lance...). Nomes de
+  naves dentro de texto ficam em inglês: "a Onslaught", "um Hammerhead". Prefixos ISS/HSS/TTS ficam.
+- Manter intactos: `$variaveis`, `%s %d %%`, `{...}`, `\n`, `\"`, quebras de linha, linhas "OR" do rules.csv.
+- Nomes próprios de pessoas, planetas e sistemas ficam (Jangala, Askonia, Chico). Nomes descritivos traduzem
+  ("Jangala Station" → "Estação Jangala", "Corvus Gate" → "Portão de Corvus").
+- Tratamento: "você". Tom literário, natural, sem tradução palavra-por-palavra.
+- Strings curtas de UI: manter curtas (espaço limitado).
+
+## Termos
+| EN | PT |
+|---|---|
+| flux / hard flux / soft flux | fluxo / fluxo rígido / fluxo brando |
+| overload / vent | sobrecarga / ventilar (ventilação) |
+| Combat Readiness (CR) | prontidão de combate (CR) |
+| Ordnance Points (OP) | pontos de artilharia (OP) |
+| Deployment Points (DP) | pontos de mobilização (DP) |
+| peak performance time | tempo de desempenho máximo |
+| hull / armor / shields | casco / blindagem / escudos |
+| hullmod / hull mod | modificação / modificação de casco |
+| built-in / S-mod / D-mod | embutido / S-mod / D-mod |
+| phase / phase cloak / phase ship | fase / manto de fase / nave de fase |
+| ship system | sistema da nave |
+| supplies / fuel / crew / marines | suprimentos / combustível / tripulação / fuzileiros |
+| heavy machinery / heavy armaments | maquinário pesado / armamento pesado |
+| credits / story points | créditos / pontos de história |
+| frigate / destroyer / cruiser / capital ship | fragata / destróier / cruzador / nave capital |
+| fighter / bomber / interceptor / wing / carrier | caça / bombardeiro / interceptador / ala / porta-caças |
+| station / battlestation / star fortress | estação / estação de batalha / fortaleza estelar |
+| fleet / flagship / mothball | frota / nau capitânia / desativar (naves desativadas) |
+| salvage / derelict / wreck | resgate (resgatar) / abandonado(a) / destroços |
+| Hegemony | Hegemonia |
+| Tri-Tachyon | Tri-Tachyon |
+| Sindrian Diktat | Diktat Sindriano |
+| Persean League | Liga Perseana |
+| Luddic Church / Luddic Path / Pather | Igreja Luddita / Caminho Luddita / Caminhante |
+| Knights of Ludd | Cavaleiros de Ludd |
+| Independent / Pirates | Independentes / Piratas |
+| Remnant / Omega / Threat | Remanescentes / Omega / Ameaça |
+| Domain (of Man) | Domínio (do Homem) |
+| Persean Sector / the Sector | Setor Perseano / o Setor |
+| the Collapse / AI Wars | o Colapso / Guerras de IA |
+| hyperspace / jump-point / gate | hiperespaço / ponto de salto / portão |
+| comm relay / sensor array / nav buoy | retransmissor de comunicação / conjunto de sensores / boia de navegação |
+| transponder | transponder |
+| sustained burn / emergency burn / go dark | propulsão sustentada / propulsão de emergência / modo furtivo |
+| interdiction pulse / active sensor burst | pulso de interdição / pulso de sensor ativo |
+| burn level | nível de propulsão |
+| AI core (gamma/beta/alpha) | núcleo de IA (gama/beta/alfa) |
+| blueprint | planta |
+| officer / administrator / contact | oficial / administrador / contato |
+| skill / aptitude / elite | habilidade / aptidão / elite |
+| timid/cautious/steady/aggressive/reckless | tímido/cauteloso/firme/agressivo/imprudente |
+| colony / market / industry / structure | colônia / mercado / indústria / estrutura |
+| stability / accessibility / hazard rating | estabilidade / acessibilidade / nível de risco |
+| commission | comissão |
+| bounty / intel | recompensa / informações (aba Intel = Inteligência) |
+| raid / bombard / invade | incursão / bombardeio / invasão |
+| Kinetic / High Explosive / Energy / Fragmentation | Cinético / Alto Explosivo / Energia / Fragmentação |
+| Ballistic / Missile / Energy (slots) | Balístico / Míssil / Energia |
+| Small / Medium / Large | Pequeno / Médio / Grande |
+| Low Tech / Midline / High Tech | Baixa Tecnologia / Linha Média / Alta Tecnologia |
+| beam / projectile / point defense (PD) | feixe / projétil / defesa de ponto (PD) |
+| Vengeful/Hostile/Inhospitable/Suspicious/Neutral/Favorable/Welcoming/Friendly/Cooperative | Vingativo/Hostil/Inóspito/Desconfiado/Neutro/Favorável/Acolhedor/Amigável/Cooperativo |
+| Persean Chronicles / Spacer's Manual | — / Manual do Espaçonauta |
+| Codex | Códex |
+
+== Decisões acrescentadas durante a tradução (blocos 0196+) ==
+Jogador: 'captain' dirigido ao jogador = Comandante. 'auxiliary-captain' / 'captain-auxiliary' = Comandante-auxiliar. $PlayerSirOrMadam = Comandante (sem variável).
+Patentes: Lieutenant = Tenente. Commander (NPC) = Comandante. Provost = Reitor (masc.) / Reitora (fem.). Baird = Reitora. Kallichore = Reitor.
+House X = Casa X (Casa Rao, Casa Sang). Old Earth = Velha Terra. Domain = Domínio. Hegemony = Hegemonia. Legion = Legião. Fourteenth Battlegroup = Décimo Quarto Grupo de Batalha.
+mirrorset = conjunto de espelhos. servitor = servidor (servidor humano). agrav mantido em inglês. Fabrique Orbitale mantido. ICE mantido.
+Gênero desconhecido de NPC: Academician = acadêmico (masc. genérico), sem pronome quando possível.
+Variáveis de gênero acrescentadas ao GENDER_VARS em tools\sstr.py: $garr_onorat, $gatj_heorshe, $gatj_hisorher, $gatj_himorher, $cheapcom_manorwoman, $procom_manorwoman, $cheapcom_marketonorat, $procom_marketonorat.
+Linhas OR: EN ⏎OR⏎ vira \nOR\n na PT, com a mesma contagem e ordem de opções.
+Pontuação colada após variável: não colar quando o EN tem espaço. Ponto colado só se o EN também colar.
+Estilo: aye = Sim; burn bright = Brilhe forte; all systems go = Todos os sistemas em ordem; green across the board = Verde em tudo; commodity = commodities.
+
+== Fechamento da tradução (blocos 0196 a 0287) ==
+Gêneros assumidos (usados em todo o texto):
+- Feminino: Jaspis, Scylla Coureuse, Baird (Reitora), Zunya Glamor-Rotanev (Diretora), Kanta, Hyder, Imoinu, Cedra Keepfaith, Adonya, Oya Tanaica.
+- Masculino: Loke, Kallichore (Reitor), Siyavong, Elek, Alviss Sebestyen, Caden, Macario, Andrada, Ram, Dardan Kato, Cavin Pharoh, Reynard Hannan, Nile Virens, Sedge, Bornanew, Menes Yaribay.
+- Neutro ou evitado: Gargoyle, Elissa Zal, Rayan Arroyo, Daud.
+- Curate Sacraria (santuário Luddita) = Curadora Sacraria, com "a sacerdotisa".
+- Variáveis de gênero ($heOrShe, $hisOrHer, $playerSirOrMadam etc.) foram omitidas no PT. Reescrever sem pronome, com "essa pessoa", "o oficial" ou substantivo.
+
+Termos fixados nesta etapa:
+- Ship name Onslaught: artigo feminino ("a Onslaught", "da Onslaught", "na Onslaught"). Nunca "o Onslaught".
+- Sensor array: "conjunto de sensores" (nunca "matriz de sensores").
+- Demarchon (título da Liga Perseana): "Demarchon" em todos os usos. Prime Demarchon = "Primeiro Demarchon". Substitui o antigo "demarca".
+- Active Sensor Burst: "Pulso de Sensor Ativo".
+- The Abyss = "o Abismo". The Fringe = "a Fronteira". Galatia Academy = "Academia Galatia". Academician = "acadêmico" ou "acadêmica".
+- Loading stage N = "Carregando estágio N". Com exceção: "Carregando estágio N (exceção)".
+- Market type labels: Co = Cia., Corp = Corp., Cosmopol = Cosmópolis, Imperium = Império, Megacorp = Megacorporação.
+
+Mantidos em inglês por decisão:
+- Linhas DEV e de teste (menus, "set ...", "give me ...").
+- Bloco 0085_txt, itens 1 a 9 (strings de teste e nomes de armas).
+- Nomes de naves, armas e classes (Onslaught Mk.I, Hammerhead, Heavy Mauler, Tachyon Lance etc.).
+- Marcações de sintaxe (COLOR, ICON, IMAGE, RELATED, CURRENT_CATEGORY, END, RESET) e tokens de regras (affirm //, query, CASE, INTERRUPT, SILENT, NO_VERIFY, ACCEPT, waiting, END).
+- Fontes: futura, ursula, arial13, arial14 .fnt não têm glifos acentuados. Acentos ficam sem correção.

@@ -1,0 +1,126 @@
+{
+ "chunk": 151,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"Which brings us to the subject I wish to discuss. Please, make yourself comfortable.\"\r\n\r\nBaird motions to a set of seats around a table carved from the root structure of some great tree. Hand-carved by the looks of it. The work of Luddic artisans. \r\n\r\n\"They do fine work,\" she says, \"Whatever their misplaced devotion.\"\r\n\r\nShe clasps her hands together, turning to business. \"You've proven you can be trusted. So now I ask that you take a more active role in my great work.\"",
+   "ctx": "data/campaign/rules.csv bairdIntro3 [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"Saving the Persean Sector.\" She is content to let the words hang in the air for a moment.\r\n\r\n\"I don't ask that you like me and I won't make a sanctimonious appeal to emotion. What I ask is that you recognize, rationally, that I am pursuing a course of action unburdened by factional demands. Indeed, this will be the foremost effort to ensure the survival of our civilization from utter collapse.\"\r\n\r\n\"We will not be saved by a retreat to homesteads on fragile balls of rock, nor by an arms race which throws precious resources into the fires of interfactional squabbling. We have to reach beyond the known, develop theories that shatter all that has come before, and apply radical new technologies to ensure our survival. We must reach further and higher than the Domain ever dared!\" As she speaks, she raises her eyes up toward some abstraction. \r\n\r\nThis, you think, is something she believes in.",
+   "ctx": "data/campaign/rules.csv bairdIntro4 [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"You have proven yourself to be... capable,\" she says.\r\n\r\n\"These people,\" she waves a hand to indicate the Galatia Academy, \"are very good at very specific things over which they have obsessed all their lives. But they've kept themselves too long in the ivory tower. They're soft. The world is out there,\" her voice rises, \"And we must change it.\"\r\n\r\nShe lowers her voice again, speaking directly to you, \"And that is why I need you.\"",
+   "ctx": "data/campaign/rules.csv bairdIntroHubWhyMe [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"I imagine your self-interest would provide sufficient motivation. As you well know, we pay in cash. The prospect of the continuity of technological civilization is an added benefit, is it not?\"\r\n\r\n\"Unless,\" she pauses, then looks at you over her AR-spex, speaking evenly \"I've gravely misjudged you, and your heart is set on liquidating your fleet, donating the proceeds to charity, and taking up with a flagellant order on Hesperus... no, I've got it- you've been doing a lot of reading; well, watching dark-channel holovids mostly- and have half a mind to enlist as a political enforcer smashing teeth in for the 1000-cycle reign of the 'Lion of Sindria'. Did I get it right?\"\r\n\r\nYour shields hold firm under the broadside of sarcasm deployed by the Provost.",
+   "ctx": "data/campaign/rules.csv bairdIntroHubWhyShould [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"Indeed.\" She leans back, interpreting your response as a stand-down.",
+   "ctx": "data/campaign/rules.csv bairdIntroHubWillSee [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"Your tasks will not be so simple from here on out. I expect you to self-adapt to circumstances in pursuit of the objectives I lay out. And.\" \r\n\r\nShe pauses for a moment, considering, before continuing in a tone colder than before, \"No matter what you have to do, as long as you pursue the mission goal, I will see that you are rewarded. Securing the future is worth... everything.\"",
+   "ctx": "data/campaign/rules.csv bairdIntroHubTellMeMore [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Of course not.\"\r\n\r\nShe puts on a smile that isn't entirely friendly.\r\n\r\n\"And I would never ask it of you. This is exactly why I want to give you so much leeway- so you can do this your way. The right way. You've shown that it works; I cannot deny the evidence in front of my eyes.\"",
+   "ctx": "data/campaign/rules.csv bairdIntro_moralitySel [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"Of course you are.\"\r\n\r\nShe smiles, and you almost believe it.\r\n\r\n\"That's why I asked you to help: the ability to set your feelings aside and view the situation objectively. You know what it takes to lead and to prevail. I've seen it.\"",
+   "ctx": "data/campaign/rules.csv bairdIntro_safeguardSel [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"Ah, the skeptic; of course. As an intellectual, I respect that you don't simply accept my demands due to my authority. I wouldn't have called you here if I wanted an obsequious minion to leap at my every request. I already have those.\" \r\n\r\n\"To your question: you would miss out on the opportunity of your life.\"\r\n\r\nShe speaks almost casually, like it doesn't matter what you think. But there's an edge to her voice that suggests she does care, very much. \"Whatever your feelings, first hear what I have to say and then consider - rationally - what is best. I am confident that you will discover that our interests align.\"\r\n\r\n\"So. Hear me out.\"",
+   "ctx": "data/campaign/rules.csv bairdIntro_whatIfSel [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"My predecessor, Provost Tomas Kallichore, led a series of misguided hyperspace manipulation experiments. Ah, how to put it in layman's terms?\"\r\n\r\nBaird looks troubled to have to do this, sighs, then speaks: \"Captain. Your ships fly through hyperspace with special engines. The Gate network of the Domain was similar, but also very different. Kallichore thought there might be a way to use starship hyperdrives to re-open the Gates.\"\r\n\r\n\"Obviously it went terribly wrong, and the Galatia system was cut off from hyperspace when the jump-points were disrupted beyond usability. Though we hear some yahoo found a way to cross unstable jump-points; an act well beyond irresponsible considering the chance of a cascading resonance event- ah, I apologize. That is irrelevant.\"",
+   "ctx": "data/campaign/rules.csv bairdIntro_whatSel [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"What matters is that once the mess was finally cleared up, the Hegemony descended on the Galatia Academy with a technological inspection fleet. They tore the place apart, arrested the heads of the hyperphysics department and several labs, and of course took Provost Kallichore in for questioning.\" \r\n\r\nShe turns away. \"And, with little delay, sentencing.\" \r\n\r\n\"He was a fool, and too trusting,\" Baird says with contempt. \"We lost good people and good research. Scientific breakthroughs are built on the development of theory and, yes, even negative results.\"",
+   "ctx": "data/campaign/rules.csv bairdIntro6 [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"I need you to recover Kallichore's secret archive. We need his data from that experiment, and all the others that led up to it. The Hegemony will have kept it. They keep everything. Evidence, you see.\"\r\n\r\n\"We shall also need Academician Scylla Coureuse. She was a hyperspace physics researcher, the keystone of the theory team behind the jump-point experiments. The Hegemony, small-minded as they are, only arrested team leaders in the first sweep. They didn't understand that the underlying theory being tested was largely written by one particular academician who was... not suitable for leadership.\"\r\n\r\n\"I need you to find her.\"",
+   "ctx": "data/campaign/rules.csv bairdIntro7 [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"Following the aftermath of the Galatia Experiment, the Hegemony technological inspectors seized everything, all of our records and data.\"\r\n\r\n\"The most direct approach would involve accessing the data vaults of the Ministry of Technology Standards. They're who you might call the 'AI Inspectors', and they serve that role, among others, for the Hegemony. It would not be trivial.\" An amused look crosses her face. \"But their security has been breached before...\"\r\n\r\n\"I have an old... acquaintance who has been climbing the Tri-Tachyon executive ladder. His name is Rayan Arroyo, and he is based out of Eochu Bres. He may be compelled to assist us with a human asset on this front. I'll forward you the contact information.\" She taps for a moment on her desk-interface.",
+   "ctx": "data/campaign/rules.csv bairdIntroArchive1 [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"Let us say that Arroyo's future career opportunities are on the line,\" she says.\r\n\r\n\"Mention me to him,\" she says. \"If you are firm but discreet, I believe you will find him more than willing to assist.\"",
+   "ctx": "data/campaign/rules.csv bairdIntroArchive2 [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"Not at all. I,\" she says this with emphasis. \"I was simply attentive when a certain Tri-Tachyon executive compromised corporate security to advance his career over a rival.\"\r\n\r\n\"He understands the value of the deal he made and he has come out ahead compared to the alternative. You will find him quite cooperative.\"",
+   "ctx": "data/campaign/rules.csv bairdIntro_archive2aSel [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"He compromised corporate security to advance his career over a rival. He understands the value of the deal he made with me.\"\r\n\r\nShe almost smiles.\r\n\r\n\"You will find him quite cooperative once you get past his inflated sense of self-importance.\"",
+   "ctx": "data/campaign/rules.csv bairdIntro_archive2bSel [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"As for the prodigy of Galatia...\" Baird trails off.\r\n\r\nIs that regret? The look quickly disappears.",
+   "ctx": "data/campaign/rules.csv bairdIntroScyllaSel [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"Coureuse was always an odd fit. Brilliant, yes, but she had a way of being distracted with involvement in, hmm, antagonistic subcultures.\" Baird waves a hand, dismissing the matter as sociological fluff. \"Perhaps the Hegemony crackdown cured her of that childish affectation.\"\r\n\r\n\"Her family and, presumably, friends,\" you wonder for a moment if Baird has any of those, \"-are from Fikenhild, in the Westernesse system. You could start there.\" ",
+   "ctx": "data/campaign/rules.csv bairdIntroScylla1 [text]"
+  },
+  {
+   "i": 19,
+   "en": "Baird thinks for a moment. \"If you are observed looking for Coureuse, you may be contacted by others who are looking for her. That could be useful. You could cut a deal, get some leads.\"\r\n\r\n\"Alternatively, her department was operating experimental packages in the $gaFC_starName system. We have detected some ongoing telemetry that suggests these instruments are still in use, though it isn't clear by whom.\" She taps her desk interface, \"I've sent you the coordinates.\"\r\n\r\nThe provost looks at you over her spectacles. \"How do you want to handle this, captain? Are you a diplomat or an explorer? Do you want to find the probes in the $gaFC_starName system or talk your way through this on Fikenhild?\" ",
+   "ctx": "data/campaign/rules.csv bairdIntroScylla2 [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"Your status in the Persean League could be useful. Officials might be willing to assist you. The League intelligence apparatus might even provide assistance.\" She gives you a knowing look. \"If they think they're working for the benefit of the League, that is.\" \r\n\r\n\"Alternatively, her department was operating experimental packages in the $gaFC_starName system. We have detected some ongoing telemetry that suggests these instruments are still in use, though it isn't clear by whom.\" She taps her desk interface, \"I've sent you the coordinates.\"\r\n\r\nThe provost looks at you over her spectacles. \"How do you want to handle this, captain? Are you a diplomat or an explorer? Do you want to find the probes in the $gaFC_starName system or talk your way through this on Fikenhild?\" ",
+   "ctx": "data/campaign/rules.csv bairdIntroScylla2PL [text]"
+  },
+  {
+   "i": 21,
+   "en": "Baird nods, \"Of course. You are, at heart, a... an adventurer, shall we say, aren't you.\"\r\n\r\n\"If you want to change your approach, you must let me know so that I can ensure you have all the information you require.\"",
+   "ctx": "data/campaign/rules.csv bairdIntroScylla2choiceA [text]"
+  },
+  {
+   "i": 22,
+   "en": "Baird nods, \"I thought so. There's no problem you don't believe you can talk your way through, is there.\"\r\n\r\n\"If you want to change your approach, you must let me know so that I can ensure you have all the information you require.\"",
+   "ctx": "data/campaign/rules.csv bairdIntroScylla2choiceB [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"When you do find Scylla Coureuse, I expect her to be unwilling to cooperate. I have provided you with an encrypted message. It is an, ah, a personal appeal from myself to her,\" she says.\r\n\r\n\"It should prove persuasive.\"",
+   "ctx": "data/campaign/rules.csv bairdIntroScylla3 [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"You need not be so conspiratorial, captain,\" Baird admonishes, \"Not everything is cloak and dagger, blackmail and bribes.\"\r\n\r\n\"Our wayward academician has avoided all contact with the Galatia Academy since the Hegemony arrested her colleagues. I appreciate the rational response to a campaign of scientific suppression, but now she is needed for the role she was always meant to play.\"",
+   "ctx": "data/campaign/rules.csv bairdIntroScylla4a [text]"
+  }
+ ]
+}

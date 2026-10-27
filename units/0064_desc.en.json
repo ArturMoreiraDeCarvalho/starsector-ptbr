@@ -1,0 +1,291 @@
+{
+ "chunk": 64,
+ "cat": "desc",
+ "items": [
+  {
+   "i": 1,
+   "en": "A beta-level AI core is capable of ably supporting most human endeavors, matching not-quite-human performance with its prodigious computational ability. Assigning a beta to aid human overseers in administering a colony-wide industry brings significant benefits.\r\n\r\nSelling AI cores on the open market is prohibited by most factions. However, higher-up faction representatives are often willing to exchange AI cores for large sums of cash when communicated with directly, though their reasons for doing so may vary.\r\n\r\nA beta-level AI core can easily pass for human, given anonymized communications protocols, and will readily and ably lie if deception is required to perform a given task. The beta employs cognitive modeling of human actors to anticipate reactions and emotional responses, though it is difficult to describe exactly what, if anything, the beta feels. Records on the subject are patchy and contradictory; a popular theory is that a beta will model a new personality for each human it comes into contact with.",
+   "ctx": "data/strings/descriptions.csv beta_core/RESOURCE [text1]"
+  },
+  {
+   "i": 2,
+   "en": "A gamma-level AI core is capable of supporting most human endeavors, making up for a lack of creativity and problem-solving ability with prodigious computational prowess. Assigning a gamma to aid human overseers in administering a colony-wide industry brings significant benefits.\r\n\r\nSelling AI cores on the open market is prohibited by most factions. However, higher-up faction representatives are often willing to exchange AI cores for large sums of cash when communicated with directly, though their reasons for doing so may vary.\r\n\r\nA rare and valuable independent AI core, the gamma-level is the lowest tier core considered to be truly intelligent under Domain-era AI protocols. A gamma core will employ remarkable judgment and reasoning when assigned to straightforward tasks while using its savant-like data processing abilities to far exceed any individual human's abilities. It is relatively uncreative in problem-solving however, preferring to fall back upon direct, unsophisticated means.",
+   "ctx": "data/strings/descriptions.csv gamma_core/RESOURCE [text1]"
+  },
+  {
+   "i": 3,
+   "en": "An orbital dockyard, with enormous gantries and other equipment required for ship construction or extensive modifications. Largely open to space.",
+   "ctx": "data/strings/descriptions.csv orbital_dockyard/CUSTOM [text1]"
+  },
+  {
+   "i": 4,
+   "en": "An orbital dockyard, with enormous gantries and other equipment required for ship construction or extensive modifications. This one bears the signs of hasty and temporary construction. Largely open to space.",
+   "ctx": "data/strings/descriptions.csv pk_orbital_dockyard/CUSTOM [text1]"
+  },
+  {
+   "i": 5,
+   "en": "An abandoned mining station, once a source of wealth and industry to feed the worlds and works of humanity. A cursory scan indicates that it has been cold and dead for tens of cycles at the very least, possibly hundreds. Closer inspection may yield salvage.",
+   "ctx": "data/strings/descriptions.csv station_mining_remnant/CUSTOM [text1]"
+  },
+  {
+   "i": 6,
+   "en": "An automated mining station. Long range scans reveal an ancient design used by the Domain to extract resources for infrastructure projects with little regard for short-term externalities. This station appears to have been idle for hundreds of cycles. Close inspection may yield salvage.",
+   "ctx": "data/strings/descriptions.csv station_mining_automated/CUSTOM [text1]"
+  },
+  {
+   "i": 7,
+   "en": "A huge cache structure, the faces of its external hull are scarred by countless cycles of space weathering. It appears outwardly intact and its dark hangars and stores are large enough to hide an enormous treasure - or a fleet of moderate size.",
+   "ctx": "data/strings/descriptions.csv limbo_wormhole_cache/CUSTOM [text1]"
+  },
+  {
+   "i": 8,
+   "en": "A lonely rocky-metallic husk-world, its shattered landscape is a rich accounting of ancient violence. Kilometers-deep chasms rive the surface and craters pit cold lava-fields in the shadow of the black boils of dead volcanoes. No significant ecology and only trace atmosphere, likely rich in valuable metallic and heavy elements.",
+   "ctx": "data/strings/descriptions.csv limbo_hades/CUSTOM [text1]"
+  },
+  {
+   "i": 9,
+   "en": "An abandoned research station, built either to study some interesting local phenomenon or to study that which is best kept far, far away from inhabited worlds. A cursory scan indicates that it has been cold and dead for tens of cycles at the very least, possibly hundreds. Closer inspection may yield salvage.",
+   "ctx": "data/strings/descriptions.csv station_research_remnant/CUSTOM [text1]"
+  },
+  {
+   "i": 10,
+   "en": "An abandoned orbital habitat. A cursory scan indicates that it has been cold and dead for tens of cycles at the very least, possibly hundreds. Closer inspection may yield salvage.",
+   "ctx": "data/strings/descriptions.csv orbital_habitat_abandoned/CUSTOM [text1]"
+  },
+  {
+   "i": 11,
+   "en": "A makeshift station, serving as a meeting place, base of operations, and a home to a fairly significant semi-permanent population.",
+   "ctx": "data/strings/descriptions.csv makeshift_station/CUSTOM [text1]"
+  },
+  {
+   "i": 12,
+   "en": "This ship is adrift and powered down. Closer inspection may yield salvage or a recovery operation.",
+   "ctx": "data/strings/descriptions.csv derelict_ship/CUSTOM [text1]"
+  },
+  {
+   "i": 13,
+   "en": "A location at the coordinates specified in your mission log.",
+   "ctx": "data/strings/descriptions.csv mission_location/CUSTOM [text1]"
+  },
+  {
+   "i": 14,
+   "en": "Order your fleet to avoid this enemy if at all possible.\r\n\r\nNo ships will be assigned automatically. Any ships explicitly assigned will engage the enemy.",
+   "ctx": "data/strings/descriptions.csv avoid/ACTION_TOOLTIP [text1]"
+  },
+  {
+   "i": 15,
+   "en": "Order your fleet not to actively pursue this enemy or react to its movements.\r\n\r\nNo ships will be assigned automatically. Any ships explicitly assigned will engage the enemy.",
+   "ctx": "data/strings/descriptions.csv ignore/ACTION_TOOLTIP [text1]"
+  },
+  {
+   "i": 16,
+   "en": "Order your fleet to capture this objective.\r\n\r\nEnough ships will be assigned to match enemy forces in the vicinity.\r\n\r\nOnce the objective is secured, this assignment will change to \"Control\".",
+   "ctx": "data/strings/descriptions.csv capture/ACTION_TOOLTIP [text1]"
+  },
+  {
+   "i": 17,
+   "en": "Order your fleet to retain control of this objective.\r\n\r\nEnough ships will be assigned to match enemy forces in the vicinity, but no ships will be assigned if there is no enemy presence.\r\n\r\nIf the objective is lost, this assignment changes  to \"Capture\".",
+   "ctx": "data/strings/descriptions.csv control/ACTION_TOOLTIP [text1]"
+  },
+  {
+   "i": 18,
+   "en": "Order your fleet to assault this objective.\r\n\r\nA significant number of ships will be assigned regardless of whether there are any enemy ships in the vicinity.\r\n\r\nOnce the objective is secured, this assignment will change to \"Defend\".",
+   "ctx": "data/strings/descriptions.csv assault/ACTION_TOOLTIP [text1]"
+  },
+  {
+   "i": 19,
+   "en": "Order your fleet to engage the target and any nearby enemy ships, without exposing themselves to undue danger.",
+   "ctx": "data/strings/descriptions.csv engage/ACTION_TOOLTIP [text1]"
+  },
+  {
+   "i": 20,
+   "en": "Order your fleet to defend this location or ship.\r\n\r\nA significant number of ships will be assigned regardless of whether there are any enemy ships in the vicinity.\r\n\r\nIf this location is an objective and is lost, this assignment will change to \"Assault\".",
+   "ctx": "data/strings/descriptions.csv defend/ACTION_TOOLTIP [text1]"
+  },
+  {
+   "i": 21,
+   "en": "Order all civilian craft such as freighters, tankers, and transports to gather at the designated location.",
+   "ctx": "data/strings/descriptions.csv civilian_rally/ACTION_TOOLTIP [text1]"
+  },
+  {
+   "i": 22,
+   "en": "Order a custom group of ships to gather at this location.\r\n\r\nNo ships will be assigned automatically; only ships that receive direct orders to carry out this assignment will do so.",
+   "ctx": "data/strings/descriptions.csv rally_task_force/ACTION_TOOLTIP [text1]"
+  },
+  {
+   "i": 23,
+   "en": "Order bombers, torpedo bombers, and support fighters to gather at this location.\r\n\r\nAll bombers on strike assignments will route through the nearest strike force waypoint before proceeding to the target. Bombers will also rendezvous here until the wing is at full strength, if carriers are on the field.",
+   "ctx": "data/strings/descriptions.csv strike_base/ACTION_TOOLTIP [text1]"
+  },
+  {
+   "i": 24,
+   "en": "Order fighters to meet at this location while waiting for lost fighters to be replaced by a carrier.",
+   "ctx": "data/strings/descriptions.csv rally_fighters/ACTION_TOOLTIP [text1]"
+  },
+  {
+   "i": 25,
+   "en": "Order a carrier to maintain position at the designated location.",
+   "ctx": "data/strings/descriptions.csv carrier_base/ACTION_TOOLTIP [text1]"
+  },
+  {
+   "i": 26,
+   "en": "Order some available light craft to guard the area.",
+   "ctx": "data/strings/descriptions.csv patrol/ACTION_TOOLTIP [text1]"
+  },
+  {
+   "i": 27,
+   "en": "Show a live video feed from the selected ship.",
+   "ctx": "data/strings/descriptions.csv show_video/ACTION_TOOLTIP [text1]"
+  },
+  {
+   "i": 28,
+   "en": "Show detailed information about the selected entity.",
+   "ctx": "data/strings/descriptions.csv more_info/ACTION_TOOLTIP [text1]"
+  },
+  {
+   "i": 29,
+   "en": "Remove the currently selected waypoint and related assignments.",
+   "ctx": "data/strings/descriptions.csv remove_waypoint/ACTION_TOOLTIP [text1]"
+  },
+  {
+   "i": 30,
+   "en": "Order a frigate or a fighter wing to scout the waypoint.",
+   "ctx": "data/strings/descriptions.csv recon/ACTION_TOOLTIP [text1]"
+  },
+  {
+   "i": 31,
+   "en": "Order up to 4 frigates, 2 destroyers, or a cruiser and some lighter craft  to escort the target, depending on what ships are available.\r\n\r\nOnly ships that are capable of keeping up with the target are assigned.",
+   "ctx": "data/strings/descriptions.csv full_escort/ACTION_TOOLTIP [text1]"
+  },
+  {
+   "i": 32,
+   "en": "Order a single frigate to escort the target.\r\n\r\nOnly ships that are capable of keeping up with the target are assigned.",
+   "ctx": "data/strings/descriptions.csv light_escort/ACTION_TOOLTIP [text1]"
+  },
+  {
+   "i": 33,
+   "en": "Order a pair of frigates or a destroyer to escort the target.\r\n\r\nOnly ships that are capable of keeping up with the target are assigned.",
+   "ctx": "data/strings/descriptions.csv destroyer_escort/ACTION_TOOLTIP [text1]"
+  },
+  {
+   "i": 34,
+   "en": "Order this fighter wing to go back to the nearest carrier for repairs.\r\n\r\nDestroyed fighters will be replaced and the weapons of all fighters will be reloaded.",
+   "ctx": "data/strings/descriptions.csv repair_and_refit/ACTION_TOOLTIP [text1]"
+  },
+  {
+   "i": 35,
+   "en": "Order the selected ship to engage enemy targets at its discretion, instead of being assigned to specific tasks.",
+   "ctx": "data/strings/descriptions.csv search_and_destroy/ACTION_TOOLTIP [text1]"
+  },
+  {
+   "i": 36,
+   "en": "Order the selected ship to retreat from battle while defending itself.\r\n\r\nDoes not require a command point or open command frequency if the ship is out of peak time and is losing combat readiness.",
+   "ctx": "data/strings/descriptions.csv retreat/ACTION_TOOLTIP [text1]"
+  },
+  {
+   "i": 37,
+   "en": "Order the selected ship to retreat from battle at best speed.\r\n\r\nDoes not require a command point or open command frequency if the ship is out of peak time and is losing combat readiness.",
+   "ctx": "data/strings/descriptions.csv direct_retreat/ACTION_TOOLTIP [text1]"
+  },
+  {
+   "i": 38,
+   "en": "Transfer yourself and your staff to another ship.\r\n\r\nYou'll be able to take control of it once the command shuttle reaches its destination.",
+   "ctx": "data/strings/descriptions.csv transfer_command/ACTION_TOOLTIP [text1]"
+  },
+  {
+   "i": 39,
+   "en": "Order fighters to attack this ship. Carriers assigned to this task will send their fighters to attack it and will attempt to stay within fighter range, but will otherwise maneuver and choose their own non-fighter targets independently.\r\n\r\nOther types of ships given this assignment will try to attack the targeted ship regardless of the tactical situation, exposing themselves to greater risk, as if given the \"Eliminate\" command.",
+   "ctx": "data/strings/descriptions.csv strike/ACTION_TOOLTIP [text1]"
+  },
+  {
+   "i": 40,
+   "en": "Order a single frigate to harass this ship while staying out of its weapon range.",
+   "ctx": "data/strings/descriptions.csv harass/ACTION_TOOLTIP [text1]"
+  },
+  {
+   "i": 41,
+   "en": "Order your fleet to launch a dedicated attack on this ship. Ships given this assignment will try to attack the targeted ship regardless of the tactical situation, exposing themselves to greater risk.",
+   "ctx": "data/strings/descriptions.csv intercept/ACTION_TOOLTIP [text1]"
+  },
+  {
+   "i": 42,
+   "en": "Target the selected enemy ship or fighter wing leader.",
+   "ctx": "data/strings/descriptions.csv target/ACTION_TOOLTIP [text1]"
+  },
+  {
+   "i": 43,
+   "en": "Override the chain of command to personally give one of your ships or fighter wings a specific assignment.",
+   "ctx": "data/strings/descriptions.csv assign_task/ACTION_TOOLTIP [text1]"
+  },
+  {
+   "i": 44,
+   "en": "Countermand the selected ship or fighter wing's direct orders and let it be assigned to tasks automatically.",
+   "ctx": "data/strings/descriptions.csv rescind/ACTION_TOOLTIP [text1]"
+  },
+  {
+   "i": 45,
+   "en": "Cancel the selected assignment. Ships and fighter wings currently carrying it out will be automatically reassigned to other duties.\r\n\r\nIf the selection is a waypoint, it will also be removed.",
+   "ctx": "data/strings/descriptions.csv cancel_assignment/ACTION_TOOLTIP [text1]"
+  },
+  {
+   "i": 46,
+   "en": "Enable autopilot. Your flagship will navigate and fight automatically and will be assigned tasks as appropriate, along with the rest of your fleet.",
+   "ctx": "data/strings/descriptions.csv autopilot/ACTION_TOOLTIP [text1]"
+  },
+  {
+   "i": 47,
+   "en": "A pitted chunk of metal, ice, or rock hurtling through space. Mainly significant for being a navigational hazard.",
+   "ctx": "data/strings/descriptions.csv asteroid/ASTEROID [text1]"
+  },
+  {
+   "i": 48,
+   "en": "Primarily composed of hydrogen and helium gases. The temperature and pressure at the core are extreme, but not enough to sustain the deuterium fusion that would turn the planet into a brown dwarf star.",
+   "ctx": "data/strings/descriptions.csv gas_giant/PLANET [text1]"
+  },
+  {
+   "i": 49,
+   "en": "A giant planet composed primarily of water, ammonia and methane. Within the depths, gravity generates enough pressure to form a core of metallic hydrogen.",
+   "ctx": "data/strings/descriptions.csv ice_giant/PLANET [text1]"
+  },
+  {
+   "i": 50,
+   "en": "A geologically unstable planet without a permanently formed crust. Glowing fissures and active volcanoes litter the surface, the magma they spew forth combining to form flows that travel hundreds of kilometers across the charred surface.",
+   "ctx": "data/strings/descriptions.csv lava/PLANET [text1]"
+  },
+  {
+   "i": 51,
+   "en": "Water or ammonia ice is the primary surface feature of this world. Below the surface, there may be a liquid ocean or a rocky crust.",
+   "ctx": "data/strings/descriptions.csv frozen/PLANET [text1]"
+  },
+  {
+   "i": 52,
+   "en": "Radiation from the nearby star ravages the surface of this world due to the lack of an atmospheric ozone layer. No significant geological activity. No indigenous life forms.",
+   "ctx": "data/strings/descriptions.csv barren/PLANET [text1]"
+  },
+  {
+   "i": 53,
+   "en": "A barren rock hurtling through space. No atmosphere and no significant geological activity.",
+   "ctx": "data/strings/descriptions.csv barren_deep_space/PLANET [text1]"
+  },
+  {
+   "i": 54,
+   "en": "Carbon and sulphur dioxide gases dominate the atmosphere of this world, making it toxic to all known life. In addition, the gases create a runaway greenhouse effect that increases surface temperature and atmospheric pressures to extremely high levels.",
+   "ctx": "data/strings/descriptions.csv toxic/PLANET [text1]"
+  },
+  {
+   "i": 55,
+   "en": "A lush and verdant biosphere sits on the surface of this water-rich world. Warm air and water currents permeate the planet's biosphere, leading to perfect conditions for flora and fauna at all latitudes.",
+   "ctx": "data/strings/descriptions.csv jungle/PLANET [text1]"
+  },
+  {
+   "i": 56,
+   "en": "A geologically stable world with a nitrogen-oxygen atmosphere, a magnetic field and ample amounts of liquid water. The axis of rotation creates mild seasons. This type of planet is named for the reputed ancestral home of all human beings in the galaxy.",
+   "ctx": "data/strings/descriptions.csv terran/PLANET [text1]"
+  },
+  {
+   "i": 57,
+   "en": "A near-terran compatible ecosystem has taken tentative hold on this world despite highly abnormal planetary conditions. That this planet maintains a breathable atmosphere (or near enough) is a testament to the tenacity and adaptability of biological life.",
+   "ctx": "data/strings/descriptions.csv terran-eccentric/PLANET [text1]"
+  }
+ ]
+}

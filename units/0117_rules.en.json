@@ -1,0 +1,201 @@
+{
+ "chunk": 117,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"You too must pray on this, $playerBrotherOrSister,\" $heOrShe says with genuine concern. \"It is a narrow Path we tread, and easily lost by those who pervert the teachings of Ludd and name their heresy Truth.\"\r\n\r\n\"Let me speak truth to you; I wish not to battle you. The strength of the Faithful is wasted when we fight amongst ourselves; and the devil-spawn of the Domain laugh as they watch. They think we're misguided fools, you know.\"",
+   "ctx": "data/campaign/rules.csv LKEpatherFleetServeFaith [text]"
+  },
+  {
+   "i": 2,
+   "en": "$HeOrShe stares hard into your eyes, at least the holo-image of them, then brings $hisOrHer hands together. \"May Providence show me the way; by the stars and the pneuma and the revelation.\"\r\n\r\nAfter a moment, $personName opens $hisOrHer eyes. \r\n\r\n\"Let me speak plainly now: I shall trust your Path. Wherever it leads you, remember what we fight for.\"",
+   "ctx": "data/campaign/rules.csv LKEpatherFleetServeFaithA1 [text]"
+  },
+  {
+   "i": 3,
+   "en": "$HisOrHer eyes go hard. \"It is as I fear. The false Church has corrupted you. It was said that the Adversary would cloak their lies in the sacrament, and here it is before me.\"\r\n\r\n\"May God's holy vacuum purify you,\" $heOrShe hisses.",
+   "ctx": "data/campaign/rules.csv LKEpatherFleetServeFaithB1 [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"You must pray on this, $playerBrotherOrSister,\" $heOrShe says with genuine concern. \"It is a narrow and perilous Path we tread, beset by the false teachings of the Church on one side, and by the devil-spawn of the Domain on the other.\"\r\n\r\n$HeOrShe sighs, and brings $hisOrHer hands together. \"May Providence show me the way; by the stars and the pneuma and the revelation.\"",
+   "ctx": "data/campaign/rules.csv LKEpatherFleetServePath [text]"
+  },
+  {
+   "i": 5,
+   "en": "After a moment, $personName opens $hisOrHer eyes. \r\n\r\n\"Let me speak plainly now: I shall trust your Path. Wherever it leads you, remember what we fight for.\"",
+   "ctx": "data/campaign/rules.csv LKEpatherFleetServePath2 [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"Brother Cotton spoke to you?\" $HisOrHer eyes narrow.\r\n",
+   "ctx": "data/campaign/rules.csv LKEpatherFleetSPOpt [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Would that we could indeed,\" $heOrShe says, perhaps thinking to some slight or misstep $heOrShe observed in the fellow Faithful. \r\n\r\n\"It is said that Brother Cotton hears the song of the angels, the whisper of pneuma itself. It is not for human ears, they say.\" $HeOrShe looks away wistfully, \"He is like a prophet of old; touched by the divine.\" \r\n\r\nAware of how this sounds, $heOrShe quickly adds, \"Not like Ludd, of course. The Word, that is another matter. What I mean to say is that, truly, it must be blessedly glorious.\"",
+   "ctx": "data/campaign/rules.csv LKEpatherFleetSPOpt2 [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"Truly! Oh, I am overcome- forgive me, I must pray.\"\r\n\r\nPutting $hisOrHer hands together, the Pather goes on for some time about how wonderful Brother Cotton is, and how we should all follow his example and be so blessed.\r\n\r\nAnd so on; you put your hands together and mumble something to keep up the act. Soon enough, the show is over, and persuade the Pather that $heOrShe may close the comms without yet another blessing.",
+   "ctx": "data/campaign/rules.csv LKEpatherFleetSPOpt3 [text]"
+  },
+  {
+   "i": 9,
+   "en": "You see $personName wince at the mention of 'Luddies'. $HeOrShe takes a moment. Composing diplomatic words, perhaps.\r\n\r\n\"It cannot be denied. I pray that he would not be so casual with his scorn. It is... unseemly. If the Mazalot Unification Authority is to be seen as serious about its purpose...\"\r\n\r\n\"Um,\" $heOrShe is momentarily self-conscious, \"But this is no time to talk politics. So. Are you having any trouble with commercial logistics on Mazalot?\"",
+   "ctx": "data/campaign/rules.csv LKEmazalotAskPMdardan [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"Ah,\" $heOrShe reads something off a datapad. \"Captain $playerName? May your time on Mazalot be one of blessed peace.\"",
+   "ctx": "data/campaign/rules.csv LKEmazalotAskPortmasterPath [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"Is there anything else I can help you with?\"",
+   "ctx": "data/campaign/rules.csv LKEmazalotAskPortmasterPath2 [text]"
+  },
+  {
+   "i": 12,
+   "en": "$HeOrShe gives you a hard look.\r\n\r\n\"The Luddic Path, you say. 'May be involved'? Look, I can see where you're going and I don't believe it is a good idea.\"\r\n\r\n$personLastName sighs. \"The security forces are occupied with hunting the most extreme militants already and, say what you will, but they have a... sense of professionalism about it. They know to respect most of us Faithful. Usually.\"",
+   "ctx": "data/campaign/rules.csv LKEmazalotAskPortmasterLP [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"Gens Yaribay?\" $HeOrShe sits up straight, \"I, er, yes of course.\"\r\n\r\nAfter a pause, as if $heOrShe was expecting more from you, $heOrShe adds quietly, \"It was my understanding that gens Kato was ah, most involved with the situation here on Mazalot?\"",
+   "ctx": "data/campaign/rules.csv LKEmazalotAskPMYaribay [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"Well, er,\" $heOrShe seems to be gauging whether your question was figurative or literal, then goes with the safe answer.\r\n\r\n\"It depends a lot on who you ask, er, $playerSirOrMadam. If I was asking the administrator here, Dardan Kato, I would... not emphasize my connection with gens Yaribay.\"",
+   "ctx": "data/campaign/rules.csv LKEmazalotAskPMYaribayA1 [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"I understand completely, $playerSirOrMadam,\" $heOrShe gets that blank-faced look of someone who intends to obey your inquiries to the letter - and no further. \"You'll be the first to know if I hear anything about a Jeffery Bornanew.\"",
+   "ctx": "data/campaign/rules.csv LKEmazalotAskPMYaribayB1 [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"Jethro. Of course,\" $heOrShe says smoothly. \"I'll write it down so I remember.\"\r\n\r\nYou hear tapping at a datapad.\r\n\r\n\"Will you be needing anything else from the port authority today, captain?\"",
+   "ctx": "data/campaign/rules.csv LKEmazalotAskPMYaribayB2 [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"I'm not sure I understand,\" $heOrShe says smoothly. \"My office will do everything it can to facilitate your commercial activities within the Mazalot Unification Authority's sphere of interest, as well as the nearby League trade-lanes.\"\r\n\r\nYou hear tapping at a datapad.\r\n\r\n\"Will you be needing anything else from the port authority today, captain?\"",
+   "ctx": "data/campaign/rules.csv LKEmazalotAskPMYaribayB3 [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"Yes,\" $heOrShe looks relieved. \"My office is happy to assist in facilitating commerce within the sphere of the Mazalot Unification Authority and associated League-regulated space lanes.\"",
+   "ctx": "data/campaign/rules.csv LKEmazalotAskPMresp5Opt [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"I am sorry,\" $heOrShe says, something shifting in $hisOrHer demeanor, \"But I cannot help you.\"\r\n\r\n$HeOrShe looks like $heOrShe might say more, but instead says \"I pray your visit to Mazalot is peaceful, captain,\" before cutting the comm-link.",
+   "ctx": "data/campaign/rules.csv LKEmazalotAskPMresp1Opt [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"Oh, blessed void,\" $heOrShe looks upset.\r\n\r\n\"The Church should not... it is not my place to say what the Church should or should not do, particularly if a Reverend Archcurate ordered it, but... you haven't told anyone in the MUA about Church involvement, right?\" \r\n\r\n$HisOrHer eyes shift away from the feed, seeing some unfortunate vision, \"I can only imagine what Administrator Kato would say if he found out.\"",
+   "ctx": "data/campaign/rules.csv LKEmazalotAskPMchurch [text]"
+  },
+  {
+   "i": 21,
+   "en": "$PersonName looks at you for a long time before $heOrShe relents. \"You would have my thanks for not mentioning who gave you this information.\"\r\n\r\n\"It is common knowledge that Luddic Path activity on Mazalot goes through a man named Nile Virens. The MUA has never got enough evidence to convict him of anything. And if they did, there would be another uprising, anyway. Virens... takes care of people. Charity, of a sort.\"\r\n\r\n\"Virens owns a series of compounds located in a few of the larger Luddic-majority settlements, and several in the former-frontiers. He does have a public comms ID, though I can't say whether he'll speak with you.\"",
+   "ctx": "data/campaign/rules.csv LKEmazalotPMquietly [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"Thank Providence,\" $heOrShe lets out a breath. \"And thank you. The last thing Mazalot needs - the Faithful and the rest, both - is another crackdown. Or an uprising.\" \r\n\r\n\"Little difference,\" $heOrShe muses idly, \"One always leads to the other.\"\r\n\r\n\"But um, where were we? My office is happy to assist in facilitating commerce within the sphere of the MUA and associated League-regulated space lanes.\"",
+   "ctx": "data/campaign/rules.csv LKEmazalotPMwontTell [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"Gens Yaribay?\" $HeOrShe immediately sits up straighter. \"Yes, $playerSirOrMadam, how can I help?\"\r\n\r\n$HeOrShe glances around, then leans a little closer to the comms, \"If the administrator finds out you're working for Yaribay, well. He'll make your life difficult. Just so you know. I got nothing against them personally. Even think they're the way to go, right? Peace with the Hegemony? I'll take that over war any shift of the week.\"",
+   "ctx": "data/campaign/rules.csv LKEmazQMTryYaribay [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"Okay. Look though- I don't want to start any trouble, and you gotta remember I didn't tell you any of this. I'm only sticking my neck out because... I'm just doing my part. You'll mention that to the Yaribays?\"",
+   "ctx": "data/campaign/rules.csv LKEmazQMTryYaribayA [text]"
+  },
+  {
+   "i": 25,
+   "en": "$PersonName smiles obediently.",
+   "ctx": "data/campaign/rules.csv LKEmazQMTryYaribayA1 [text]"
+  },
+  {
+   "i": 26,
+   "en": "$PersonName looks disappointed, but says \"I understand, $playerSirOrMadam.\"",
+   "ctx": "data/campaign/rules.csv LKEmazQMTryYaribayA2 [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"Everyone knows the Path comes through here. They say, don't touch that crate? You don't touch that crate. Gotta be careful or they make sure you remember who runs things. And who's that? Nile Virens.\"",
+   "ctx": "data/campaign/rules.csv LKEmazQMTryYaribayA3 [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"Virens is the Path on Mazalot. It all goes through him. He's got compounds on the surface. Sometimes we make shipments. I'll give you the locations.\" $HeOrShe taps at a datapad. \"The Authority can't nail him down on any of this. Or won't. Too scared.\"\r\n\r\n\"But you're not,\" $heOrShe looks at you, eyes gleaming. \"Not too scared I mean, right? Hope you find your man. And if Virens goes down a peg or two? Wouldn't mind a bit.\"",
+   "ctx": "data/campaign/rules.csv LKEmazQMTryYaribayA3b [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"Don't mention it, $playerSirOrMadam,\" $personName says almost bashfully.",
+   "ctx": "data/campaign/rules.csv LKEmazQMTryYaribayA4 [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"Er,\" $heOrShe says, looking confused for a moment before deciding to play along. \"Of course, $playerSirOrMadam. I heard nothing.\"",
+   "ctx": "data/campaign/rules.csv LKEmazQMTryYaribayForget [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"Jethro?\" $HeOrShe thinks for a moment. \"Don't know 'em, sorry. I'm more in logistics and requisition, so if you have a question about that...\"\r\n\r\n$HeOrShe looks hopeful that you'll stop asking questions.",
+   "ctx": "data/campaign/rules.csv LKEmazalotAskQMBornanew [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"The Luddic... Ah.\" $HeOrShe glances around self-consciously.\r\n\r\n\"Look, I don't mess with those types. The Unification Authority put 'em on the terrorist list. You know what the punishment is for 'aiding and abetting'? Ain't worth it.\"",
+   "ctx": "data/campaign/rules.csv LKEmazalotAskQMPath [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"You so do, so do,\" $heOrShe says.\r\n\r\n\"Look, word of advice. If a mudboot comes all sneaky to you, and they make an offer - big number credits - just say, no way, not interested. Probably an Authority agent or could be FleetSec. Testing loyalty, is what that is. I mean sure, there's Pathers sneaking through all the time, but how do you know?\"\r\n\r\n$HeOrShe shrugs, \"If the MUA questioned every Luddic who spoke against the polity, they'd have to arrest half the planet. It'd be another uprising! No one wants that.\"",
+   "ctx": "data/campaign/rules.csv LKEmazalotAskQMPath2a [text]"
+  },
+  {
+   "i": 34,
+   "en": "\"Oh, come on.\" $HeOrShe shakes $hisOrHer head in consternation.\r\n\r\n\"I'm just talking. It's just words. Ask anyone. Some mudboot will come all sneaking-like and say they're making an offer. Big-number credits. I tell them no way, not interested, I don't need that trouble. Even odds it's an Authority agent. Or FleetSec, could be. Testing loyalty, is what it is.\"\r\n\r\n\"And if the MUA questioned every Luddic who spoke up against the polity, they'd have to arrest half the planet. It'd be another uprising! No one wants that.\"",
+   "ctx": "data/campaign/rules.csv LKEmazalotAskQMPath2b [text]"
+  },
+  {
+   "i": 35,
+   "en": "$HeOrShe is paying more attention to a datapad than the comms. \"Perhaps we can resolve this quickly?\"",
+   "ctx": "data/campaign/rules.csv LKEmazalotAskAdministrator0 [text]"
+  },
+  {
+   "i": 36,
+   "en": "Suddenly, you have his full attention. \"Yes, obviously.\" \r\n\r\nHis entire tone has changed into a cloud of blackest suspicion tinged with playful competition.\r\n\r\nA pause as he considers you, then says, \"Gens Yaribay isn't stupid enough to just... ask... for my cooperation. I am not sure yet about you.\"",
+   "ctx": "data/campaign/rules.csv LKEmazDKTellAboutYaribay [text]"
+  },
+  {
+   "i": 37,
+   "en": "Dardan Kato bursts out laughing. It's a desperate, on-edge sort of break; too many stimulants, you suspect.\r\n\r\nHe takes a minute to settle down.\r\n\r\n\"Oh, thank you,\" he wipes away a tear, \"I needed that. What a shift it's been- and then, ah, such patriotism! - Yaribay you said?\" He shakes his head, \"What a gift. I shall thank them for this excellent jape.\"",
+   "ctx": "data/campaign/rules.csv LKEmazDKYaribayAppeal [text]"
+  },
+  {
+   "i": 38,
+   "en": "\"Somehow,\" Dardan Kato says, \"I am not prepared to have some Yaribay slug ooze around my volume on a vague suggestion of concessions. I have enough problems without the meddling of some debutante.\"",
+   "ctx": "data/campaign/rules.csv LKEmazDKYaribayConcession [text]"
+  },
+  {
+   "i": 39,
+   "en": "\"Ha!\" Dardan Kato's laugh is mirthless. \"By Gens Kato accounts, Yaribay owes us a lot more than 'one', and I'm not going to provide one of their minions with an opening based solely on... on what? The good name of gens Yaribay?\"",
+   "ctx": "data/campaign/rules.csv LKEmazDKYaribayYouTell [text]"
+  }
+ ]
+}

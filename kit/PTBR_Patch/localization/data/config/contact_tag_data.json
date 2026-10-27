@@ -1,0 +1,33 @@
+{
+	"military":{
+		"name":"Militar",
+		#"color":"buttonShortcut",
+		#"putFirst":true,
+		"sort":10,
+	},
+	"trade":{
+		"name":"Comércio",
+		#"color":"buttonShortcut",
+		#"putFirst":true,
+		"sort":20,
+	},
+	"underworld":{
+		"name":"Submundo",
+		#"color":"buttonShortcut",
+		#"putFirst":true,
+		"sort":30,
+	},
+	"science":{
+		"name":"Ciência",
+		"putFirst":true,
+		"sort":40,
+	},
+	"pather":{
+		"name":"Caminhante",
+		"putFirst":true,
+		"sort":50,
+	},
+}
+
+
+

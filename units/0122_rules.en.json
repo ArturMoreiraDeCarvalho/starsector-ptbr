@@ -1,0 +1,311 @@
+{
+ "chunk": 122,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "He simply stares at you as if this isn't worth a response.",
+   "ctx": "data/campaign/rules.csv LKEvirensRaidJethroEndThanks [text]"
+  },
+  {
+   "i": 2,
+   "en": "He sighs impatiently. \"Your vision is narrow, I'm afraid. And I shall not be the man to correct it.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensRaidJethroNotSoBad [text]"
+  },
+  {
+   "i": 3,
+   "en": "He crosses his arms. \"I am no use to my people dead.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensRaidJethroForAPather [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"Wait!\" Virens tries to stand, \"We had a deal.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensRaidJethroLie2 [text]"
+  },
+  {
+   "i": 5,
+   "en": "He sees your weapon and relaxes. Like he understands what you're doing, and accepts it.\r\n\r\nIt's over in a moment.",
+   "ctx": "data/campaign/rules.csv LKEvirensRaidJethroLie2a [text]"
+  },
+  {
+   "i": 6,
+   "en": "It might be useful to have a Pather that understands both your power and your mercy.",
+   "ctx": "data/campaign/rules.csv LKEvirensRaidJethroLie2c [text]"
+  },
+  {
+   "i": 7,
+   "en": "He looks confused for a moment, and then suppresses a smile.",
+   "ctx": "data/campaign/rules.csv LKEvirensRaidJethroLie2b [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"I apologize, captain. I should not make light of your mercy.\" \r\n\r\nHe clears his throat, \"It is a strange Path that I have been given. That is all.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensRaidJethroLie2b1b [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"I apologize, captain. I should not make light of your mercy.\"\r\n\r\nHe pauses, then \"But as your guest... the MUA cannot charge me, and cannot hold me. It would cause such chaos. They will release me.\"\r\n\r\n\"But it doesn't end there.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensRaidJethroLie2b1 [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"I will thank them for their mercy; they will extend the hand of compromise. You'll be the great enemy, they the peacemakers.\"\r\n\r\nHe looks apologetic, \"It won't happen for sure, but when Providence provides, those who truly love God leap to seize it. By the end of this, it is I who might be thanking you.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensRaidJethroLie2b2 [text]"
+  },
+  {
+   "i": 11,
+   "en": "Virens is escorted to a shuttle with orders that he handed over to the highest ranking officer of the MUA that can be found. He'll be their problem now.\r\n\r\nYou return to your command center.",
+   "ctx": "data/campaign/rules.csv LKEvirensRaidJethroLieMUA [text]"
+  },
+  {
+   "i": 12,
+   "en": "Virens is escorted to a shuttle with orders that he be released on the landing pad of wherever they happen to end up. He can figure it out from there; you're certain of it.\r\n\r\nYou return to your command center.",
+   "ctx": "data/campaign/rules.csv LKEvirensRaidJethroFreeEnd3 [text]"
+  },
+  {
+   "i": 13,
+   "en": "You leave the brig and return to your command center.",
+   "ctx": "data/campaign/rules.csv LKEvirensRaidFinished3 [text]"
+  },
+  {
+   "i": 14,
+   "en": "Your sensors officer and analysis team perform a thorough scan of the coordinates given to you by Nile Virens.\r\n\r\nThe location is a lightly populated, poorly developed rural zone on the far fringe of one of the more unremarkable Luddic-majority settlements. The land is nearly barren and bereft of valuable mineral deposits.\r\n\r\nOrbital imaging shows a small, struggling farmstead close to the coordinates given. An individual human appears to be present, though it would require observation over a greater time period to fully establish an accurate count of inhabitants. There are also what appear to be a collection of burial sites near the farmstead.\r\n\r\n\"At least,\" your sensors officer reports, \"that's what it appears to be. Weapons, people; many things can be hidden. Especially with the interference caused by this magnetic field...\"",
+   "ctx": "data/campaign/rules.csv LKEbornanewVisitScan2 [text]"
+  },
+  {
+   "i": 15,
+   "en": "You order a shuttle prepared for descent to the coordinates provided to you by Nile Virens.",
+   "ctx": "data/campaign/rules.csv LKEbornanewVisitPlan [text]"
+  },
+  {
+   "i": 16,
+   "en": "You order a half-dozen of your most experienced marines to don surface warfare stealth-op gear.\r\n\r\nTheir outer suits shimmer and rustle, and six sleek black marines in light armor transform before you into a dusty haze, like a fiery, killing wind of divine vengeance out of some ancient Luddic myth.\r\n\r\nYou have to but whisper the code-phrase and they will perform a rapid assault to secure your position from most forms of military equipment available on Mazalot.",
+   "ctx": "data/campaign/rules.csv LKEbornanewPrepMarines [text]"
+  },
+  {
+   "i": 17,
+   "en": "The spectra of charged particles interacting with Mazalot's atmosphere flare and break like ocean waves.\r\n\r\nYour shuttle's descent is smooth, your pilot interfacing with the lackadaisical local traffic control and receiving only token objection to landing near a Luddic-majority settlement.\r\n\r\n\"Near\" is a relative term, of course; you're well over the horizon from all but a half-dozen of the prefab hab units that have been dragged out here and modified by their inhabitants. Half of those appear to be abandoned, the surrounding fields rippled with dust.",
+   "ctx": "data/campaign/rules.csv LKEbornanewShuttleDown [text]"
+  },
+  {
+   "i": 18,
+   "en": "Your shuttle lands, kicking up a cloud that wafts outward in a diminishing wave over a desolation of erratic boulders and ashy-looking trees.",
+   "ctx": "data/campaign/rules.csv LKEbornanewShuttleDown2 [text]"
+  },
+  {
+   "i": 19,
+   "en": "Your shuttle lands, and in a blur your marine squad fans out into the surrounding plain, a desolation of erratic boulders and ashy-looking trees.",
+   "ctx": "data/campaign/rules.csv LKEbornanewShuttleDown2b [text]"
+  },
+  {
+   "i": 20,
+   "en": "Before you is a modified prefab hab. A corroded, leaking irrigation system shudders unsteadily as it tends to an unhealthy-looking garden grid. The adjacent crop field is quite dead.\r\n\r\nOn the flight in, the shuttle sensors tagged a living human figure in the sheltered grove nearby.",
+   "ctx": "data/campaign/rules.csv LKEbornanewShuttleDown3 [text]"
+  },
+  {
+   "i": 21,
+   "en": "You follow a path toward the grove. Protected from the parching winds by a low rise, it seems that the trees planted here collect almost enough moisture to survive.\r\n\r\nA new run of ceramolith pipe follows the trail to the grove. Like someone wanted to water the trees.",
+   "ctx": "data/campaign/rules.csv LKEbornanewShuttle4a [text]"
+  },
+  {
+   "i": 22,
+   "en": "You follow a path toward the grove. Sheltered from the dry winds by a low rise, it seems that the trees planted here collect almost enough moisture to survive. But not quite.\r\n\r\nYour marines whisper tactical call-and-response in your ear. \"$PlayerSirOrMadam,\" the squad leader addresses you personally, \"Target ID confirmed; visual match with Bornanew. Appears unarmed.\"",
+   "ctx": "data/campaign/rules.csv LKEbornanewShuttle4b [text]"
+  },
+  {
+   "i": 23,
+   "en": "The shade of the grove is speckled by light filtering through thin leaves.\r\n\r\nYou find a large man in a long, dusty hooded coat, almost a robe. His back is to you.\r\n\r\nThere are a handful of Luddic grave-markers here; brightly painted with natural pigments. These look well maintained. \r\n\r\nThe man's head is bowed, his hands clasped in prayer.",
+   "ctx": "data/campaign/rules.csv LKEbornanewShuttle5 [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"Oh, um.\" He looks at you to see if you're really asking this, now. You are.\r\n\r\n\"There are... writings around Ludd. From the early disciplines, recorded later. They tend to be heavily, ah, corrected toward the Church's rulings in accordance with Ludd's wishes. Or what is known of them. Others, unofficial copies, have been created by con-artists and heretics to prove their own schemes and cults. These, the Knights purge. Some are kept as examples. For teaching; heretic-finding.\"\r\n\r\nHe shakes his head, \"Anyway. The song of angels.\"",
+   "ctx": "data/campaign/rules.csv LKEjethroAngels [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"To put it crudely, in some accounts it is said that God spoke to the Prophet Ludd through... through singing only Ludd could hear.\"",
+   "ctx": "data/campaign/rules.csv LKEjethroAngels2 [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"To be so blessed must be a burden beyond all knowing,\" Bornanew says grimly.",
+   "ctx": "data/campaign/rules.csv LKEjethroAngelsTalkA1-1 [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"It could,\" Bornanew says, and looks to you. \"Where between madness and the divine stands a prophet?\"\r\n\r\n\"-On uneasy ground,\" he finishes; quoting something with a hint of a smile.",
+   "ctx": "data/campaign/rules.csv LKEjethroAngelsTalkA2-1 [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"It is not the time for theology,\" Bornanew says agreeably.",
+   "ctx": "data/campaign/rules.csv LKEjethroAngelsTalkA3-1 [text]"
+  },
+  {
+   "i": 29,
+   "en": "He raises an eyebrow at you.",
+   "ctx": "data/campaign/rules.csv LKEjethroAngelsTalkB1 [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"I apologize,\" he says. \"After you came all this way, I have only the words of a novice to offer you. No great secrets or wisdom.\"",
+   "ctx": "data/campaign/rules.csv LKEjethroAngelsPOLa [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"I pray for your strength,\" he says.",
+   "ctx": "data/campaign/rules.csv LKEjethroAngelsPOLb [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"Truly?\" Bornanew shakes his head, \"Now it is I who is tested by a fearful omen.\"",
+   "ctx": "data/campaign/rules.csv LKEjethroAngelsPOLc [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"That sounds like a fearful omen,\" Bornanew says earnestly.",
+   "ctx": "data/campaign/rules.csv LKEjethroAngelsTalkTellZig [text]"
+  },
+  {
+   "i": 34,
+   "en": "Almost unconsciously he looks up to the sky, and says \"Ludd's grace preserve us.\"",
+   "ctx": "data/campaign/rules.csv LKEjethroAngelsTalkTellZigOrbit2 [text]"
+  },
+  {
+   "i": 35,
+   "en": "He lets out a sigh.\r\n\r\n\"Reason as well as life are gifts of the Creator. We are tested by confrontation with divine mystery. We must decide if we follow the highest path, or merely the most convenient.\"\r\n\r\nHe speaks more quietly, \"It is a test. When the time comes, will you walk the path of light?\"",
+   "ctx": "data/campaign/rules.csv LKEjethroAngelsTalkOmen [text]"
+  },
+  {
+   "i": 36,
+   "en": "\"The doctrine of the Church tells us the Gates are a product of technological sin. I'm sure you know this,\" Bornanew says, watching you carefully. \"Ludd's words, as far as we know them, do not put it quite so simply.\"",
+   "ctx": "data/campaign/rules.csv LKEjethroAngelsTalkTellGates [text]"
+  },
+  {
+   "i": 37,
+   "en": "\"Then I beg Providence save us,\" Bornanew almost whispers. \"I know not what door you have opened.\"",
+   "ctx": "data/campaign/rules.csv LKEjethroAngelsTalkTellGatesA2 [text]"
+  },
+  {
+   "i": 38,
+   "en": "\"I admit, captain, that I cannot but look upon this gift with suspicion when the bones of the Domain lie moldering around us.\"",
+   "ctx": "data/campaign/rules.csv LKEjethroAngelsTalkTellGatesB-A [text]"
+  },
+  {
+   "i": 39,
+   "en": "\"One must be careful around great and terrible works such as the Gates. Even your science suggests that observation may change both subject and observer.\"",
+   "ctx": "data/campaign/rules.csv LKEjethroAngelsTalkTellGatesB-B [text]"
+  },
+  {
+   "i": 40,
+   "en": "\"Just as well, then. But I suspect few of the great factions share your intent.\"",
+   "ctx": "data/campaign/rules.csv LKEjethroAngelsTalkTellGatesB-C [text]"
+  },
+  {
+   "i": 41,
+   "en": "\"Just as well, then,\" Bornanew says, as if you've both just agreed to not discuss something. \"I suspect the great factions will do little to avoid them.\"",
+   "ctx": "data/campaign/rules.csv LKEjethroAngelsTalkTellGatesB-D [text]"
+  },
+  {
+   "i": 42,
+   "en": "\"Of course. It is not now the time for theology,\" Bornanew says, watching you carefully.",
+   "ctx": "data/campaign/rules.csv LKEjethroAngelsTalkOut [text]"
+  },
+  {
+   "i": 43,
+   "en": "\"He would not be the first to make that claim,\" Bornanew says. \"Nor the last, I am sure. God save us if Cotton were a prophet.\"",
+   "ctx": "data/campaign/rules.csv LKEjethroAngelsTalkD1 [text]"
+  },
+  {
+   "i": 44,
+   "en": "He unclasps his hands and turns to you. \"Yes. I am Jethro Bornanew.\"",
+   "ctx": "data/campaign/rules.csv LKEjethroA [text]"
+  },
+  {
+   "i": 45,
+   "en": "He unclasps his hands and turns to you. \"No,\" he says. He glances back at the graves. \"This farm - what's left of it - they built it. So I was told.\"",
+   "ctx": "data/campaign/rules.csv LKEjethroB [text]"
+  },
+  {
+   "i": 46,
+   "en": "\"No,\" he says, looking at the graves. \"I never met them. Not when they were alive, I mean.\"\r\n\r\n\"This farm - what's left of it - they built it. So I was told.\"",
+   "ctx": "data/campaign/rules.csv LKEjethroBb [text]"
+  },
+  {
+   "i": 47,
+   "en": "He unclasps his hands and turns to you, a hint of concern on his face. \"I see. The Reverend Archcurate. Of course.\"",
+   "ctx": "data/campaign/rules.csv LKEjethroC [text]"
+  },
+  {
+   "i": 48,
+   "en": "He unclasps his hands and turns to you. \"Of course.\"",
+   "ctx": "data/campaign/rules.csv LKEjethroCc [text]"
+  },
+  {
+   "i": 49,
+   "en": "He unclasps his hands and turns to you, a hint of concern on his face. \"I see. Jaspis, of course.\"",
+   "ctx": "data/campaign/rules.csv LKEjethroCb [text]"
+  },
+  {
+   "i": 50,
+   "en": "He looks over your uniform, then past you toward the ridgeline. \"You came a long way. Captain, I assume?\"",
+   "ctx": "data/campaign/rules.csv LKEjethroIntroA [text]"
+  },
+  {
+   "i": 51,
+   "en": "He looks over your uniform, then past you toward the ridgeline.\r\n\r\n\"You came a long way. And you brought warriors.\" He turns back to the graves, \"I've counted two, so far.\"",
+   "ctx": "data/campaign/rules.csv LKEjethroIntroB [text]"
+  },
+  {
+   "i": 52,
+   "en": "\"It is.\" He looks down at the graves. \"It was.\"\r\n\r\n\"I've discovered that I'm a poor farmer, captain. It seems like everything withers at my touch.\"",
+   "ctx": "data/campaign/rules.csv LKEjethroFarm [text]"
+  },
+  {
+   "i": 53,
+   "en": "He gives you a strange look. \"If you really want to, I suppose.\"",
+   "ctx": "data/campaign/rules.csv LKEjethroJeff [text]"
+  },
+  {
+   "i": 54,
+   "en": "\"Less Luddic, you mean,\" he says with a smirk. \"I understand.\"",
+   "ctx": "data/campaign/rules.csv LKEjethroJeffA [text]"
+  },
+  {
+   "i": 55,
+   "en": "\"Less Luddic,\" he says with a smirk. \"I understand.\"",
+   "ctx": "data/campaign/rules.csv LKEjethroJeffB [text]"
+  },
+  {
+   "i": 56,
+   "en": "\"Ah,\" he smiles awkwardly. \r\n\r\n\"I apologize. This is all... not a shock, exactly. A rather large turn on the path that I have found to be my life, I suppose. It is a lot to reflect upon, now that it is happening.\"",
+   "ctx": "data/campaign/rules.csv LKEjethroJeffC [text]"
+  },
+  {
+   "i": 57,
+   "en": "\"I failed,\" he says.\r\n\r\nAfter a moment, he speaks again, \"And I confess, I wanted to fail. After meeting the recruiter on Chalcedon...\" Bornanew shakes his head.",
+   "ctx": "data/campaign/rules.csv LKEjethroWhat [text]"
+  },
+  {
+   "i": 58,
+   "en": "\"I failed,\" he says.\r\n\r\nAfter a moment, he speaks again, \"And I confess, I wanted to fail. After meeting the recruiter on Chalcedon...\"\r\n\r\nBornanew shakes his head.",
+   "ctx": "data/campaign/rules.csv LKEjethroWhatToldShot [text]"
+  },
+  {
+   "i": 59,
+   "en": "\"Yes,\" he looks surprised, \"That was his name. I did not like the man. I did not like the things I would have to do to make him like me.\"\r\n\r\nBornanew looks away, \"He seemed to be someone I might have been if I had lived a different life. Walked a different path.\"",
+   "ctx": "data/campaign/rules.csv LKEjethroWhat2a [text]"
+  },
+  {
+   "i": 60,
+   "en": "\"You- what?\" He looks you in the eyes, to confirm that you are telling the truth. He quickly discovers that you are.\r\n\r\n\"I have no words,\" he says, shaking his head.",
+   "ctx": "data/campaign/rules.csv LKEjethroWhat2b [text]"
+  },
+  {
+   "i": 61,
+   "en": "\"I might not be when I get back,\" he admits.\r\n\r\n\"But you're right. It is probable that a Knight will be called upon to kill to defend the Faith. It is what I agreed to, what I swore I would learn.\"",
+   "ctx": "data/campaign/rules.csv LKEjethroWhatSedgeKilledA [text]"
+  }
+ ]
+}

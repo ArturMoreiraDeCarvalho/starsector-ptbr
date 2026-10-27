@@ -1,0 +1,251 @@
+{
+ "chunk": 97,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"Ha-ha, that won't be necessary. At all,\" $heOrShe says quickly. \"Thank you captain.\" \r\n\r\n\"Let me welcome you once again, the Tri-Tachyon Corporation will be pleased to enjoy your business partnership during your stay, I'm sure.\"\r\n\r\n\"Keep it in the black, captain.\"",
+   "ctx": "data/campaign/rules.csv TTmarketWeirdModsOutro2aX [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"Welcome once again, the Tri-Tachyon Corporation will be pleased to enjoy your business partnership during your stay.\"\r\n\r\n\"Keep it in the black, captain.\"",
+   "ctx": "data/campaign/rules.csv TTmarketWeirdModsOutro2bX [text]"
+  },
+  {
+   "i": 3,
+   "en": "$HeOrShe quickly cuts the link before you can ask any more questions.",
+   "ctx": "data/campaign/rules.csv TTmarketWeirdModsOutro2c [text]"
+  },
+  {
+   "i": 4,
+   "en": "Your comms officer calls for your attention.\r\n\r\n\"$PlayerSirOrMadam. There's an incoming comms request, marked urgent, from the portwatcher. They want to speak with you personally.\"",
+   "ctx": "data/campaign/rules.csv CGRmarketWeirdHullmods4 [text]"
+  },
+  {
+   "i": 5,
+   "en": "The $post looks like they've seen a ghost.\r\n\r\n\"Captain $playerLastName, by the grace of holy Ludd and all that is blessed, what unholy creation have you brought here? What have you done to your $shipOrFleet?\"\r\n\r\nThe questions are rhetorical, judging by the chimes and pings from your tactical officer's console- targeting alerts from defense batteries.",
+   "ctx": "data/campaign/rules.csv CGRmarketWeird1 [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"The curates technologia have already passed judgement on your... your unholy combination of human craft and demonic 'technology',\" $heOrShe says.\r\n\r\n\"Go now from this place and never return! Take your technological abominations and be accursed in the eyes of God and the Church. You are henceforth an abomination to be destroyed on sight!\"\r\n\r\n$HeOrShe clasps $hisOrHer hands together, mumbling some prayer.",
+   "ctx": "data/campaign/rules.csv CGRmarketWeirdOutro [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"The curates technologia have already passed judgement on your... your unholy combination of human craft and demonic 'technology',\" $heOrShe says. \"Your commission is revoked.\"\r\n\r\n\"Go now from this place and never return! Take your technological abominations and be accursed in the eyes of God and the Church. You are henceforth an abomination to be destroyed on sight!\"\r\n\r\n$HeOrShe clasps $hisOrHer hands together, mumbling some prayer.",
+   "ctx": "data/campaign/rules.csv CGRmarketWeirdOutroCom [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"The curates technologia have already passed judgement on your... your unholy combination of human craft and demonic 'technology',\" $heOrShe says. \"You are excommunicated, declared outlaw and enemy of the Faith.\"\r\n\r\n\"Go now from this place and never return! Take your technological abominations and be accursed in the eyes of God and the Church. You are henceforth an abomination to be destroyed on sight!\"\r\n\r\n$HeOrShe clasps $hisOrHer hands together, mumbling some prayer.",
+   "ctx": "data/campaign/rules.csv CGRmarketWeirdOutroFaith [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"The curates technologia have already passed judgement on your... your unholy combination of human craft and demonic 'technology',\" $heOrShe says. \"Your commission is revoked. You are excommunicated, declared outlaw and enemy of the Faith.\"\r\n\r\n\"Go now from this place and never return! Take your technological abominations and be accursed in the eyes of God and the Church. You are henceforth an abomination to be destroyed on sight!\"\r\n\r\n$HeOrShe clasps $hisOrHer hands together, mumbling some prayer.",
+   "ctx": "data/campaign/rules.csv CGRmarketWeirdOutroComFaith [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"The blessing of Ludd be upon-\" The $post's eyes go suddenly wide at a red flash from a secondary display.\r\n\r\n\"By the holy pneuma,\" $heOrShe gasps.",
+   "ctx": "data/campaign/rules.csv CGRpatrolWeirdMods0unknown [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"An abomination, a devil-$shipOrFleet from Hell itself is before us! We pray to Providence to pass this test which has been given unto our unworthy-\"\r\n\r\nThe $post's words are for $hisOrHer crew, not you, and the link shudders into static. The last image you see are hands clasped in prayer.",
+   "ctx": "data/campaign/rules.csv CGRpatrolWeirdModsUnknownEnd [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"What by blessed Ludd's holy right glove have you done to your $shipOrFleet? Is that the cursed work of Moloch my eyes do perceive in your $shipOrFleet?\"\r\n\r\n$HeOrShe looks over $hisOrHer shoulder, \"Summon the subcurate technologia! For immediate consultation!\"\r\n\r\nThe $post turns back to you. \"You have but a moment to explain what my sensors suggest, captain.\" ",
+   "ctx": "data/campaign/rules.csv CGRpatrolWeirdMods1 [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"Unique mod-\" $HeOrShe sputters.\r\n\r\n\"It is devilry! You've joined human craft with abomination. It is an unholy thing!\"  $HeOrShe makes some kind of hurry-up hand signal over $hisOrHer shoulder.\r\n\r\n\"You condemn your soul to the abyss. And you condemn yourself as mortal enemy to the Church and accursed in the eyes of God and all who hold faith.\" $HisOrHer expression is grim.\r\n\r\nThe $post turns and exchanges a few words with someone you can't see.",
+   "ctx": "data/campaign/rules.csv CGRpatrolWeirdMods2a [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"Methinks there is not, $playerSirOrMadam, and you merely dissemble with a devil's tongue to gain advantage.\" $HeOrShe makes some kind of hurry-up hand signal over $hisOrHer shoulder.\r\n\r\n\"Judgement shall be pronounced ere long upon what my heart fears.\"\r\n\r\nThe $post turns and exchanges a few words with someone you can't see.",
+   "ctx": "data/campaign/rules.csv CGRpatrolWeirdMods2b [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"Overt devilry. You've combined human craft with abomination.\" $HeOrShe makes some kind of hurry-up hand signal over $hisOrHer shoulder.\r\n\r\n\"By this unholy 'technology' you condemn your soul to the abyss. And you condemn yourself as mortal enemy to the Church, accursed in the eyes of God and all who hold faith!\"\r\n\r\nThe $post turns and exchanges a few words with someone you can't see.",
+   "ctx": "data/campaign/rules.csv CGRpatrolWeirdMods2c [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"You're certain?\" $heOrShe asks. $HisOrHer face has gone pale, as if $heOrShe has been informed that $heOrShe has been condemned.\r\n\r\nThe briefest flash of emotions: pain, fear, outrage, sadness, acceptance. The eyes that turn back to the comm-link are that of an enemy across battle-lines.",
+   "ctx": "data/campaign/rules.csv CGRpatrolWeirdMods3 [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"You are no longer,\" $heOrShe says.",
+   "ctx": "data/campaign/rules.csv CGRpatrolWeirdModsOpt3aSel [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"I abjure your heresy ,\" $heOrShe says.",
+   "ctx": "data/campaign/rules.csv CGRpatrolWeirdModsOpt3bSel [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"Corruptor, mammonite!\" $heOrShe spits.",
+   "ctx": "data/campaign/rules.csv CGRpatrolWeirdModsOpt3dSel [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"There is no negotiation with evil, no compromise.\" The $post's words are for $hisOrHer crew, not you.\r\n\r\nThe link shudders into static, the last image is of hands clasped in a brief prayer.",
+   "ctx": "data/campaign/rules.csv CGRpatrolWeirdModsEnd3 [text]"
+  },
+  {
+   "i": 21,
+   "en": "Your comms officer calls for your attention.\r\n\r\n\"$PlayerSirOrMadam. There's an incoming comms request, marked urgent, from the station commander. They want to speak with you personally.\"",
+   "ctx": "data/campaign/rules.csv PathMarketWeirdHullmods4station [text]"
+  },
+  {
+   "i": 22,
+   "en": "The link flickers open and the conversation begins poorly.\r\n\r\n\"Befouler, defiler, sinful spite-God! Demoniac!\"\r\n\r\nThe look of rage and religious mania pulls the $post's face into a devilish mask as $heOrShe shouts.",
+   "ctx": "data/campaign/rules.csv PathMarketWeird1 [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"What work-of-Moloch $shipOrFleet appears in our skies? What unholy combination of human craft and... and abomination? You are to be destroyed on sight, accursed by God and all who are faithful!\"\r\n\r\n$HeOrShe desperately clasps $hisOrHer hands together and prays. \"Blessed Ludd, give me strength when the evil one appears...\"\r\n\r\nTargeting alerts chime from your tactical officer's console.",
+   "ctx": "data/campaign/rules.csv PathMarketWeird2 [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"Servant of Moloch! Redemption is not- is not...\"\r\n\r\nThe Pather's eyes go wide at a red flash from a secondary display.\r\n\r\n\"By Ludd's hells, it is...\" $HeOrShe returns to stare, horrified, through the comm-link. $HisOrHer face is full of terror... and hatred.\r\nOR\r\n\"Submit and repent! Your use of sinful technologies may- may...\"\r\n\r\nThe Pather's eyes go wide at a red flash from a secondary display.\r\n\r\n\"By the blessed stars is that...\" $HisOrHer eyes return to the comm-link, fixed with horror... and hatred.",
+   "ctx": "data/campaign/rules.csv PathFleetWeirdMods0tithe [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"May the Path be r-\" The $post's eyes go suddenly wide at a red flash from a secondary display.\r\n\r\n\"Blessed Ludd!\" $heOrShe gasps.",
+   "ctx": "data/campaign/rules.csv PathFleetWeirdMods0unknown [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"May the Path be r-\" The $post's eyes go suddenly wide at a red flash from a secondary display.\r\n\r\nThey return to the comm-link, fixed with fear... and hatred.",
+   "ctx": "data/campaign/rules.csv PathFleetWeirdMods0 [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"Befouler, defiler, sinful spite-God! Demoniac!\" The look of rage and religious mania pulls the $post's face into a devilish mask as $heOrShe shouts.\r\n\r\n\"What work-of-Moloch $shipOrFleet is this? What unholy combination of human craft and abomination? You are to be destroyed on sight, accursed by God and all who follow the Path of our faith!\"\r\n\r\nTargeting alerts chime from your tactical officer's console.\r\nOR\r\n\"You accursed meddler, servant of Moloch! What unnatural work have you wrought in the shadow so far from the Path?\"\r\n\r\nTargeting alerts chime from your tactical officer's console.\r\n\r\n\"I name you abomination, adversary, god-spite! It is my holy duty to destroy your infernal $shipOrFleet,\" $heOrShe shouts, flecks of spittle flashing in the holo. \"-And you as well before you slither back into the abyss whence you spawned!\"",
+   "ctx": "data/campaign/rules.csv PathFleetWeirdMods1 [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"Before me I saw evil incarnate, and I stood strong...\" The $Post's words are for $hisOrHer crew, not you.\r\n\r\nThe link shudders into static, the last image is of hands clasped in a brief prayer.",
+   "ctx": "data/campaign/rules.csv PathFleetWeirdModsEnd4 [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"Before me I saw evil incarnate, and-\"\r\n\r\nThe Pather's words are lost in static as you hit the comms-cutoff.",
+   "ctx": "data/campaign/rules.csv PathFleetWeirdModsEnd4b [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"May the Path be r-\" The $post's eyes go suddenly wide at a red flash from a secondary display.\r\n\r\nThey return to the comm-link, fixed with fear... and hatred.\r\nOR\r\n\"May the Path be r-\" The $post's eyes go suddenly wide at a red flash from a secondary display.\r\n\r\n\"Blessed Ludd!\" $heOrShe gasps.",
+   "ctx": "data/campaign/rules.csv PathFleetWeirdModsAgainStart [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"Before me I saw evil incarnate, and I stood strong...\" The Pather's words are for $hisOrHer crew, not you.\r\n\r\nThe link shudders into static, the last image is of hands clasped in a brief prayer.\r\nOR\r\n\"Before me I saw evil incarnate, and-\"\r\n\r\nThe Pather's words are lost in static as you hit the comms-cutoff.",
+   "ctx": "data/campaign/rules.csv PathFleetWeirdModsAgain2 [text]"
+  },
+  {
+   "i": 32,
+   "en": "Thanks to your efforts, the food shortage is now over before it had a chance to cause much chaos. $marketName's long-term stability is unaffected by the shortage.",
+   "ctx": "data/campaign/rules.csv marketPostOpenFSEPlayerFast [text]"
+  },
+  {
+   "i": 33,
+   "en": "Thanks to your efforts, the food shortage is now over. Its impact on $marketName's stability is reduced.",
+   "ctx": "data/campaign/rules.csv marketPostOpenFSEPlayer [text]"
+  },
+  {
+   "i": 34,
+   "en": "Thanks to your illicit efforts, the food shortage is now over. Since much of the food you've delivered went through channels of questionable legality, there's not much hope - or, indeed, desire - for official recognition.",
+   "ctx": "data/campaign/rules.csv marketPostOpenFSEPlayerBlack [text]"
+  },
+  {
+   "i": 35,
+   "en": "Thanks in part to your efforts, the recent food shortage is over. Your standing with $theMarketFaction should improve slightly.",
+   "ctx": "data/campaign/rules.csv marketPostOpenFSEMixedIndirect [text]"
+  },
+  {
+   "i": 36,
+   "en": "Tapping into the comm network for local news, you learn that there was a recent food shortage. Though the shortage is now over, the local situation is still somewhat destabilized.",
+   "ctx": "data/campaign/rules.csv marketPostOpenFSENonPlayer [text]"
+  },
+  {
+   "i": 37,
+   "en": "Tapping into the comm network for local news, you learn that there was a recent and protracted food shortage. Though the shortage is now over, the local situation is still highly destabilized.",
+   "ctx": "data/campaign/rules.csv marketPostOpenFSEExpired [text]"
+  },
+  {
+   "i": 38,
+   "en": "You try to establish a comm link, but get only static.",
+   "ctx": "data/campaign/rules.csv greetingNoComms [text]"
+  },
+  {
+   "i": 39,
+   "en": "$PersonRank $personName looks aggravated. \"If you want to talk, identify yourself first.\"",
+   "ctx": "data/campaign/rules.csv greetingDefaultTOffNormal [text]"
+  },
+  {
+   "i": 40,
+   "en": "$PersonRank $personName looks concerned. \"If you want to talk, identify yourself first.\"",
+   "ctx": "data/campaign/rules.csv greetingDefaultTOffWeaker [text]"
+  },
+  {
+   "i": 41,
+   "en": "You issue an order to activate the transponder and re-open the comm link.",
+   "ctx": "data/campaign/rules.csv greetingDefaultTurnOnT [text]"
+  },
+  {
+   "i": 42,
+   "en": "\"Acknowledging receipt of AIS code. Good to see you, $playerName.\"",
+   "ctx": "data/campaign/rules.csv greetingDefaultFriendly [text]"
+  },
+  {
+   "i": 43,
+   "en": "\"Hostile $shipOrFleet, be advised: we've already dispatched a distress call to a nearby patrol, and it should arrive shortly.\"",
+   "ctx": "data/campaign/rules.csv greetingDefaultHostileWeaker [text]"
+  },
+  {
+   "i": 44,
+   "en": "The enemy $personRank looks grim but defiant. \"We will fight you to the last,\" $heOrShe says.\r\nOR\r\n\"Damn, we're in a tight spot.\" $PersonRank $personName suddenly notices the line is open and shuts it off.",
+   "ctx": "data/campaign/rules.csv greetingDefaultHostileWeakerDefiant [text]"
+  },
+  {
+   "i": 45,
+   "en": "It appears the enemy $personRank doesn't seem to feel the need to talk to you, as your comm requests go unanswered.",
+   "ctx": "data/campaign/rules.csv greetingDefaultHostileStronger [text]"
+  },
+  {
+   "i": 46,
+   "en": "\"You have been scanned and identified. It's probably best for both our peace of mind if you keep your distance.\"",
+   "ctx": "data/campaign/rules.csv greetingDefaultNeutral [text]"
+  },
+  {
+   "i": 47,
+   "en": "\"You have been scanned and,\" $heOrShe blinks at $hisOrHer screen, then says almost - but not quite - under $hisOrHer breath, \"$playerName. The butcher.\" \r\n\r\n$HeOrShe straightens $hisOrHer back, \"It'd be best if you kept your distance. We, we are armed.\"\r\nOR\r\nAs the comms resolve, $rank $personLastName looks at you with recognition and alarm.\r\n\r\n\"It's... you. The things you've done, I can't believe-\" $heOrShe clears $hisOrHer throat uncomfortably, \"What is it you want?\"",
+   "ctx": "data/campaign/rules.csv greetingDefaultInfamous [text]"
+  },
+  {
+   "i": 48,
+   "en": "\"Ah, Captain $playerName.\" $HeOrShe looks uncomfortable. \"Your reputation... precedes you. Let us conclude our business quickly then go our own ways.\"",
+   "ctx": "data/campaign/rules.csv greetingDefaultInfamousFriendly [text]"
+  },
+  {
+   "i": 49,
+   "en": "\"Acknowledging receipt of your codes, moving to a secure channel.\" A flicker of a phoenix icon and static, then: \"Yes? All is well I trust? Glad to hear it, citizen. Over and out.\"\r\nOR\r\n\"Your $shipOrFleet has been scanned and identified, everything is in order. Burn bright, citizen.\"\r\nOR\r\n\"Scanned and identified. You're flying pretty, citizen. Clean jumps and high burn.\" $PersonRank $personName signs off with a flash of the gold phoenix.",
+   "ctx": "data/campaign/rules.csv greetingHegemonyFriendly [text]"
+  }
+ ]
+}

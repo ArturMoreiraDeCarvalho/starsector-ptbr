@@ -1,0 +1,381 @@
+{
+ "chunk": 43,
+ "cat": "data",
+ "items": [
+  {
+   "i": 1,
+   "en": "$Market has a substantial base of low-technology, labour-intensive light industry. Increases demand for simple organic fuels and materials, provides an inefficient albeit charmingly hand-crafted supply of domestic goods.",
+   "ctx": "data/campaign/market_conditions.csv cottage_industry [desc]"
+  },
+  {
+   "i": 2,
+   "en": "$Market is run much like a garrison or a large spaceship, with a rigid official command structure. This improves stability, but does require some personnel to see to internal security matters.",
+   "ctx": "data/campaign/market_conditions.csv outpost [desc]"
+  },
+  {
+   "i": 3,
+   "en": "A network of hidden mines provides $market security from meddlesome outsiders. Improves stability.",
+   "ctx": "data/campaign/market_conditions.csv stealth_minefields [desc]"
+  },
+  {
+   "i": 4,
+   "en": "A major center of administration, security, and logistics. Improves stability.",
+   "ctx": "data/campaign/market_conditions.csv regional_capital [desc]"
+  },
+  {
+   "i": 5,
+   "en": "The local port authority imposes almost no regulation on what cargo is traded. Immigration controls are likewise relaxed, resulting in a greater in-flow of people, albeit sometimes of a more questionable character. This may cause other factions to view this colony with distrust.",
+   "ctx": "data/campaign/market_conditions.csv free_market [desc]"
+  },
+  {
+   "i": 6,
+   "en": "Officially, immigration to $market is not allowed. In practice, this results in slowing overall immigration significantly, and creating room for certain kinds of criminals to operate.",
+   "ctx": "data/campaign/market_conditions.csv closed_immigration [desc]"
+  },
+  {
+   "i": 7,
+   "en": "A barren planet, the surface of $market can not support organic life as we know it, and farming is impossible outside of sealed artificial ecosystems.",
+   "ctx": "data/campaign/market_conditions.csv uninhabitable [desc]"
+  },
+  {
+   "i": 8,
+   "en": "$Market's average temperature is far below the freezing point of water and some common terran atmospheric gases fall as snow. The drifts and glaciers of light, volatile elements may be harvested.",
+   "ctx": "data/campaign/market_conditions.csv ice [desc]"
+  },
+  {
+   "i": 9,
+   "en": "$Market: desert planet. A xerophile biosphere maintains an atmosphere breathable with only a light mask. Farming is nearly impossible.",
+   "ctx": "data/campaign/market_conditions.csv desert [desc]"
+  },
+  {
+   "i": 10,
+   "en": "$Market is covered by vast, dry plains and wastes. Water is uncommon and large-scale farming is difficult.",
+   "ctx": "data/campaign/market_conditions.csv arid [desc]"
+  },
+  {
+   "i": 11,
+   "en": "The climate of $market is hospitable but farming is limited largely to aquaculture and highly specialized infrastructure is required for any development of habitats and industry.",
+   "ctx": "data/campaign/market_conditions.csv water [desc]"
+  },
+  {
+   "i": 12,
+   "en": "$Market is a wet, warm jungle world covered in riotous vegetation and exotic lifeforms, making farming and maintaining permanent infrastructure difficult.",
+   "ctx": "data/campaign/market_conditions.csv jungle [desc]"
+  },
+  {
+   "i": 13,
+   "en": "$Market is as close to Old Earth's condition as can be found in the Sector, providing ideal conditions for farming and settlement.",
+   "ctx": "data/campaign/market_conditions.csv terran [desc]"
+  },
+  {
+   "i": 14,
+   "en": "Inhospitable and unforgiving, outside conditions on $market are barely survivable to a human with an air mask and protective equipment, though certain engineered terraforming lichens find it tolerable enough.",
+   "ctx": "data/campaign/market_conditions.csv barren_marginal [desc]"
+  },
+  {
+   "i": 15,
+   "en": "Tidally locked to its primary, or near enough, $market is a terraformed world with days the length of seasons. Day/night temperature variation is accordingly harsh even to engineered terran life. Islands of 'civilized' mild biomes are maintained through judicious use of solar shades and mirrors. ",
+   "ctx": "data/campaign/market_conditions.csv twilight [desc]"
+  },
+  {
+   "i": 16,
+   "en": "Terraforming has brought terran life to $market but the world remains as cold as the deepest of Earth's ice ages. Though millions of square kilometers are covered in glacier, there are also taiga provinces and rolling steppe where warmer conditions prevail.",
+   "ctx": "data/campaign/market_conditions.csv tundra [desc]"
+  },
+  {
+   "i": 17,
+   "en": "A world frozen beyond deepest chill, methane snow falls on mountains of water-ice and volcanos erupt with ammonia. Stellar radiation breaks down the volatiles to form an atmosphere of light gases such as nitrogen and oxygen while hydrogen is whisked into space. ",
+   "ctx": "data/campaign/market_conditions.csv cryovolcanic [desc]"
+  },
+  {
+   "i": 18,
+   "en": "$Market is a dumping-ground for dissidents, rebels, free-thinkers, artists, and other troublemakers. Increases demand for weapons and marines to police the rabble. Increases availability of crew due to emigration.",
+   "ctx": "data/campaign/market_conditions.csv dissident [desc]"
+  },
+  {
+   "i": 19,
+   "en": "$Market is a center of military command and logistical operation for the ruling polity. Increases market stability.\r\n\r\nIncreases the quality and number of officers in $market's fleets.",
+   "ctx": "data/campaign/market_conditions.csv headquarters [desc]"
+  },
+  {
+   "i": 20,
+   "en": "Sealed-biosphere agricultural production facilities which allow farming in orbit or on the surface of inhospitable worlds. Requires crew to operate, organic growth medium, and heavy machinery for upkeep.",
+   "ctx": "data/campaign/market_conditions.csv hydroponics_complex [desc]"
+  },
+  {
+   "i": 21,
+   "en": "Only tens of people live here permanently.",
+   "ctx": "data/campaign/market_conditions.csv population_1 [desc]"
+  },
+  {
+   "i": 22,
+   "en": "Mere hundreds of people populate $marketName.",
+   "ctx": "data/campaign/market_conditions.csv population_2 [desc]"
+  },
+  {
+   "i": 23,
+   "en": "Thousands of people call $marketName home.",
+   "ctx": "data/campaign/market_conditions.csv population_3 [desc]"
+  },
+  {
+   "i": 24,
+   "en": "Tens of thousands of people live on $marketName.",
+   "ctx": "data/campaign/market_conditions.csv population_4 [desc]"
+  },
+  {
+   "i": 25,
+   "en": "$MarketName is home to hundreds of thousands of people.",
+   "ctx": "data/campaign/market_conditions.csv population_5 [desc]"
+  },
+  {
+   "i": 26,
+   "en": "The population of $marketName is in the millions.",
+   "ctx": "data/campaign/market_conditions.csv population_6 [desc]"
+  },
+  {
+   "i": 27,
+   "en": "$MarketName is a world of tens of millions.",
+   "ctx": "data/campaign/market_conditions.csv population_7 [desc]"
+  },
+  {
+   "i": 28,
+   "en": "$MarketName is one of the few worlds in the Sector with a population of hundreds of millions.",
+   "ctx": "data/campaign/market_conditions.csv population_8 [desc]"
+  },
+  {
+   "i": 29,
+   "en": "A precious refuge for humanity in a dangerous galaxy, $marketName is home to billions of souls.",
+   "ctx": "data/campaign/market_conditions.csv population_9 [desc]"
+  },
+  {
+   "i": 30,
+   "en": "$MarketName is a dominant population center in the Sector, a rival to Old Earth as home to tens of billions of humans.",
+   "ctx": "data/campaign/market_conditions.csv population_10 [desc]"
+  },
+  {
+   "i": 31,
+   "en": "There's a temporary lack of available food on $market.\r\n- Stability reduced by $stabilityPenalty\r\n- Approximately $neededFood units of food needed to end shortage\r\n- Food prices increased due to lowered food supply\r\n- Increased reputation and experience from selling food",
+   "ctx": "data/campaign/market_conditions.csv event_food_shortage [desc]"
+  },
+  {
+   "i": 32,
+   "en": "$Market has recently experienced tumultous events with a lingering effect on stability.",
+   "ctx": "data/campaign/market_conditions.csv recent_unrest [desc]"
+  },
+  {
+   "i": 33,
+   "en": "Trade fleets going to or from $market are taking significant losses. Piracy or war are most likely to blame.\r\n\r\nThe following commodities are affected:\r\n$commoditySummary",
+   "ctx": "data/campaign/market_conditions.csv event_trade_disruption [desc]"
+  },
+  {
+   "i": 34,
+   "en": "$market is experiencing a high volume of smuggling activity.\r\n\r\n- Stability reduced by $smugglingPenalty",
+   "ctx": "data/campaign/market_conditions.csv event_smuggling [desc]"
+  },
+  {
+   "i": 35,
+   "en": "There is a rogue AI core operating on or near $market. Its long-term plans and ambitions, beyond its own survival, are unknown.\r\n\r\nAt a minimum, the need to be on guard against its possible actions makes day-to-day operations less efficient and creates fertile ground for alarming rumours.",
+   "ctx": "data/campaign/market_conditions.csv rogue_ai_core [desc]"
+  },
+  {
+   "i": 36,
+   "en": "Hidden condition to track when the core becomes un-removable. Does not need an icon.",
+   "ctx": "data/campaign/market_conditions.csv ai_core_admin [desc]"
+  },
+  {
+   "i": 37,
+   "en": "There have been signs that pirates are targeting shipping and colonies in this system - from port inspectors being pressured to turn a blind eye, to inconsistencies in cargo manifests, to other increased criminal activity.\r\n\r\nThe pirates most likely have a base somewhere relatively nearby.",
+   "ctx": "data/campaign/market_conditions.csv pirate_activity [desc]"
+  },
+  {
+   "i": 38,
+   "en": "This colony is experiencing a respite from the depredations of piracy otherwise so common in the Sector.",
+   "ctx": "data/campaign/market_conditions.csv piracy_respite [desc]"
+  },
+  {
+   "i": 39,
+   "en": "The system that this colony is in is experiencing a blockade, and regular trade shipping is suffering from harassment or worse. The effects will continue until the blockading force leaves or is soundly defeated.",
+   "ctx": "data/campaign/market_conditions.csv blockaded [desc]"
+  },
+  {
+   "i": 40,
+   "en": "Hidden condition; does not need icon.",
+   "ctx": "data/campaign/market_conditions.csv comm_relay [desc]"
+  },
+  {
+   "i": 41,
+   "en": "Human beings can survive unprotected exposure to the surface conditions of $market.",
+   "ctx": "data/campaign/market_conditions.csv habitable [desc]"
+  },
+  {
+   "i": 42,
+   "en": "This world was only lightly touched by the great project of the Domain before the collapse. Only scattered, broken domes remain, perchance holding lost caches of valuable materials.",
+   "ctx": "data/campaign/market_conditions.csv ruins_scattered [desc]"
+  },
+  {
+   "i": 43,
+   "en": "Widespread ruins, blips from radiation sources, and the distinctive burred radar-ping of foamed cerametal structures can be found across $market, evidence of a small but concerted colonization effort dating to the late expansion period of the Domain.",
+   "ctx": "data/campaign/market_conditions.csv ruins_widespread [desc]"
+  },
+  {
+   "i": 44,
+   "en": "Ruined cities can be found across the surface of $market, spilling from their broken hearts pitted roadways and crumbling magrail lines to the skeletons of factories, aquaponics domes, and comm-towers.",
+   "ctx": "data/campaign/market_conditions.csv ruins_extensive [desc]"
+  },
+  {
+   "i": 45,
+   "en": "$Market is covered in vast ruins; cities, factories, mines, farms, homes. The dead are in dread abundance, entwined with salvageable materials, goods, tools, and weapons. This world is a tomb for the hubris of the Domain's project of galactic colonization and hegemony. ",
+   "ctx": "data/campaign/market_conditions.csv ruins_vast [desc]"
+  },
+  {
+   "i": 46,
+   "en": "The low temperatures found on $market necessitate specialized equipment to perform normal operations, complicating life support and infrastructure.",
+   "ctx": "data/campaign/market_conditions.csv cold [desc]"
+  },
+  {
+   "i": 47,
+   "en": "Extreme cold necessitates specialized equipment and protocol to perform operations safely on $market, complicating logistics, life support, and infrastructure.",
+   "ctx": "data/campaign/market_conditions.csv very_cold [desc]"
+  },
+  {
+   "i": 48,
+   "en": "The high temperature conditions of $market necessitate specialized equipment to perform normal operations, complicating life support and infrastructure.",
+   "ctx": "data/campaign/market_conditions.csv hot [desc]"
+  },
+  {
+   "i": 49,
+   "en": "Extreme heat necessitates specialized equipment and protocol to safely operate on $market, seriously complicating logistics, life support, and long-term stability of infrastructure.",
+   "ctx": "data/campaign/market_conditions.csv very_hot [desc]"
+  },
+  {
+   "i": 50,
+   "en": "The surface of $market is unstable and prone to violent quakes. Any structures require special reinforcement and any excavation will involve a great deal of risk.",
+   "ctx": "data/campaign/market_conditions.csv tectonic_activity [desc]"
+  },
+  {
+   "i": 51,
+   "en": "$market's crust roils chaotically with extreme quakes and cataclysmic volcanism events. Any operations will require exceptional care and use of many-times redundant warning systems so that the worst dangers can be avoided. Construction on this world can only ever be considered semi-permanent.",
+   "ctx": "data/campaign/market_conditions.csv extreme_tectonic_activity [desc]"
+  },
+  {
+   "i": 52,
+   "en": "No appreciable atmosphere exists on $market. Its surface is exposed to the hard weathering of space, a steady drizzle of radiation and micrometeorites.",
+   "ctx": "data/campaign/market_conditions.csv no_atmosphere [desc]"
+  },
+  {
+   "i": 53,
+   "en": "A rarefied atmosphere clings determinedly to $market's surface.",
+   "ctx": "data/campaign/market_conditions.csv thin_atmosphere [desc]"
+  },
+  {
+   "i": 54,
+   "en": "The atmosphere of $market is exceptionally toxic and corrosive, abrading unprotected surfaces and requiring the hermetic sealing of any inhabited spaces.",
+   "ctx": "data/campaign/market_conditions.csv toxic_atmosphere [desc]"
+  },
+  {
+   "i": 55,
+   "en": "The surface of $market is shrouded in a thick atmosphere, turbulent vortices at its crown and a cloying soup at its lowest foothold. Sensors are impaired, and operations must be made with care.",
+   "ctx": "data/campaign/market_conditions.csv dense_atmosphere [desc]"
+  },
+  {
+   "i": 56,
+   "en": "The climate of $market is welcoming and docile; a light mist greets each sunrise before retreating into soft clouds that glow appealingly at every sunset.",
+   "ctx": "data/campaign/market_conditions.csv mild_climate [desc]"
+  },
+  {
+   "i": 57,
+   "en": "Violent storms bristling lightning rage across the skies of $market. Though a sublime beauty from orbit, this produces harsh surface conditions making transportation and habitation highly inconvenient.",
+   "ctx": "data/campaign/market_conditions.csv extreme_weather [desc]"
+  },
+  {
+   "i": 58,
+   "en": "Gravity is exceptionally low, though significantly above zero-g, on the surface of $market. Workflow and operation of (relatively) heavy machinery is complicated by the non-standard procedures required to deal with altered conditions of friction, weight, and pressure dynamics.",
+   "ctx": "data/campaign/market_conditions.csv low_gravity [desc]"
+  },
+  {
+   "i": 59,
+   "en": "The force of gravity on the surface of $market is crushingly high. Humans require powered exoskeletons for regular movement and find even basic actions exhausting. Continual habitation is grueling at best. All operations take place with a heightened danger of falls and - if specialized engineering is not performed with adequete paranoia - structural collapse.",
+   "ctx": "data/campaign/market_conditions.csv high_gravity [desc]"
+  },
+  {
+   "i": 60,
+   "en": "The surface of $market is ravaged by radiation. Any living being must be confined to a shielded habitat to live for long here. Unhardened circuits and nanoscale materials or machinery will also rapidly fail in these harsh conditions.",
+   "ctx": "data/campaign/market_conditions.csv irradiated [desc]"
+  },
+  {
+   "i": 61,
+   "en": "The biosphere of $market is deadly to unprotected human beings. While the conditions are fascinating to biological scientists, surface technicians are hampered by strict quarantine protocols when carrying out routine tasks.",
+   "ctx": "data/campaign/market_conditions.csv inimical_biosphere [desc]"
+  },
+  {
+   "i": 62,
+   "en": "This is an ocean world with no substantial solid surface to land, walk, or build upon. Operations are complicated by the need for specialized training and equipment.",
+   "ctx": "data/campaign/market_conditions.csv water_surface [desc]"
+  },
+  {
+   "i": 63,
+   "en": "The light of $market's primary only provides feeble illumination and energy to this world.",
+   "ctx": "data/campaign/market_conditions.csv poor_light [desc]"
+  },
+  {
+   "i": 64,
+   "en": "The surface of $market is dark and full of shadow, receiving effectively zero illumination from its primary.",
+   "ctx": "data/campaign/market_conditions.csv dark [desc]"
+  },
+  {
+   "i": 65,
+   "en": "This world is bombarded at an appalling rate by regular meteor-showers. Any human inhabitant, however temporary, must keep a wary eye skyward. Any permanent installations would be best buried deep and well fortified.",
+   "ctx": "data/campaign/market_conditions.csv meteor_impacts [desc]"
+  },
+  {
+   "i": 66,
+   "en": "Human industry has left this world filled with dioxins, sulphur compounds, ash, and the steady ticking of decaying radioactive dust. Scraps of plastic cling to shards of foam-metal, the sky tuned to a dead channel.",
+   "ctx": "data/campaign/market_conditions.csv pollution [desc]"
+  },
+  {
+   "i": 67,
+   "en": "A few sparse ore deposits exist here, but they are more of academic than industrial interest for their extraction is barely economical.",
+   "ctx": "data/campaign/market_conditions.csv ore_sparse [desc]"
+  },
+  {
+   "i": 68,
+   "en": "$Market contains moderate ore deposits that, under the right economic conditions, could be profitably exploited.",
+   "ctx": "data/campaign/market_conditions.csv ore_moderate [desc]"
+  },
+  {
+   "i": 69,
+   "en": "Abundant, widespread, and profitably extractable ore deposits can be found on $market.",
+   "ctx": "data/campaign/market_conditions.csv ore_abundant [desc]"
+  },
+  {
+   "i": 70,
+   "en": "Rich mineral deposits form a thick lattice within the crust of $market but require an ambitious industrialist to exploit them for fabulous profit.",
+   "ctx": "data/campaign/market_conditions.csv ore_rich [desc]"
+  },
+  {
+   "i": 71,
+   "en": "Mineral wealth exists on $market, Midas-touched beyond the wildest fantasies of the legendary mining megacorps of the Domain era.",
+   "ctx": "data/campaign/market_conditions.csv ore_ultrarich [desc]"
+  },
+  {
+   "i": 72,
+   "en": "A few sparse transplutonic ore deposits exist here, but they are more of academic than industrial interest for their extraction is barely economical.",
+   "ctx": "data/campaign/market_conditions.csv rare_ore_sparse [desc]"
+  },
+  {
+   "i": 73,
+   "en": "$Market contains modest transplutonic deposits that, with sustained industry and investment, could be profitably tapped.",
+   "ctx": "data/campaign/market_conditions.csv rare_ore_moderate [desc]"
+  },
+  {
+   "i": 74,
+   "en": "Abundant transplutonic deposits lay within the crust of $market, enough to fuel the ambitions of any worthwhile warlord or magnate.",
+   "ctx": "data/campaign/market_conditions.csv rare_ore_abundant [desc]"
+  },
+  {
+   "i": 75,
+   "en": "Thick bands of transplutonics spread with glorious profusion through the crust of $market, promising great and potent power to they who would but reach out and take them.",
+   "ctx": "data/campaign/market_conditions.csv rare_ore_rich [desc]"
+  }
+ ]
+}

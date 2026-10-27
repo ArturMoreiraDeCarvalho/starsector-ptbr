@@ -1,0 +1,121 @@
+{
+ "chunk": 57,
+ "cat": "desc",
+ "items": [
+  {
+   "i": 1,
+   "en": "Medium range, high payload guided missile pod. Devastating against ships with downed shields.\r\n\r\nAn externally mounted pod replaces the more common missile racks and allows multiple missiles to be fired almost simultaneously. An autoloader extracts, arms and primes the next salvo of missiles after a short wait.\r\n\r\nThese medium range missiles are identical to the ones fired from single or triple racks, and are a great way to finish off a ship with downed shields. An excellent propulsion system delivers a large warhead to the target at sublight speeds. Sacrificing maneuverability for speed and warhead size, the medium range missile is one of the highest yield non strike weapons employed in the sector. One hit is almost fatal to frigate-sized ships.\r\n",
+   "ctx": "data/strings/descriptions.csv harpoonpod/WEAPON [text1]"
+  },
+  {
+   "i": 2,
+   "en": "Medium range, high payload guided missile. Devastating against ships with downed shields.\r\n\r\nAn excellent propulsion system delivers a large warhead to the target at sublight speeds. Sacrificing maneuverability for speed and warhead size, the medium range missile is one of the highest yield non strike weapons employed in the sector. One hit is almost fatal to frigate-sized ships.\r\n\r\nThis mount can only launch one missile at a time, and carries a single replacement in a combat-rated magazine recessed into the hull.",
+   "ctx": "data/strings/descriptions.csv harpoon_single/WEAPON [text1]"
+  },
+  {
+   "i": 3,
+   "en": "Fires a 2nd-stage spread of high-velocity kinetic penetrators when in range. Heavy damage to shields, and massive EMP damage when impacting on enemy hull or armor. Difficult to stop with PD.\r\n\r\nSabot-class class missiles are short-range, two-stage KE weapons. A guided missile first stage projects a secondary assembly to within striking distance of a shielded target. The on-board targeting computer then ignites the propellant for a KE penetrator. This 'sabot', as it is commonly called, is typically a narrow, laterally stabilized projectile manufactured from an ultra dense material such as depleted uranium.\r\n\r\nExcellent at bringing down enemy shields and causing an overload. Standard ship armor is spaced and thus the sabot deals more manageable damage if shields are lowered in time to receive the impact on armor.\r\n\r\nThis weapon system features a firing rack that houses multiple missiles.",
+   "ctx": "data/strings/descriptions.csv sabot/WEAPON [text1]"
+  },
+  {
+   "i": 4,
+   "en": "Fires a 2nd-stage spread of high-velocity kinetic penetrators when in range. Heavy damage to shields, and massive EMP damage when impacting on enemy hull or armor. Difficult to stop with PD.\r\n\r\nThe pod replaces the more common missile racks and allows multiple missiles to be fired almost simultaneously. An autoloader extracts, arms and primes the next salvo of missiles after a short delay.\r\n\r\nSabot-class class missiles are short-range, two-stage KE weapons. A guided missile first stage projects a secondary assembly to within striking distance of a shielded target. The on-board targeting computer then ignites the propellant for a KE penetrator. This 'sabot', as it is commonly called, is typically a narrow, laterally stabilized projectile manufactured from an ultra dense material such as depleted uranium.\r\n\r\nExcellent at bringing down enemy shields and causing an overload. Standard ship armor is spaced and thus the sabot deals more manageable damage if shields are lowered in time to receive the impact on armor.\r\n\r\nThis weapon system features a firing rack that houses multiple missiles.",
+   "ctx": "data/strings/descriptions.csv sabotpod/WEAPON [text1]"
+  },
+  {
+   "i": 5,
+   "en": "Fires a 2nd-stage spread of high-velocity kinetic penetrators when in range. Heavy damage to shields, and massive EMP damage when impacting on enemy hull or armor. Difficult to stop with PD.\r\n\r\nSabot-class class missiles are short-range, two-stage KE weapons. A guided missile first stage projects a secondary assembly to within striking distance of a shielded target. The on-board targeting computer then ignites the propellant for a KE penetrator. This 'sabot', as it is commonly called, is typically a narrow, laterally stabilized projectile manufactured from an ultra dense material such as depleted uranium.\r\n\r\nExcellent at bringing down enemy shields and causing an overload. Standard ship armor is spaced and thus the sabot deals more manageable damage if shields are lowered in time to receive the impact on armor.\r\n\r\nThis mount can only launch one missile at a time, and carries a single replacement in a combat-rated magazine recessed into the hull.",
+   "ctx": "data/strings/descriptions.csv sabot_single/WEAPON [text1]"
+  },
+  {
+   "i": 6,
+   "en": "Fires a 2nd-stage spread of high-velocity kinetic penetrators when in range. Heavy damage to shields, and massive EMP damage when impacting on enemy hull or armor. Difficult to stop with PD.\r\n\r\nSabot-class class missiles are short-range, two-stage KE weapons. A guided missile first stage projects a secondary assembly to within striking distance of a shielded target. The on-board targeting computer then ignites the propellant for a KE penetrator. This 'sabot', as it is commonly called, is typically a narrow, laterally stabilized projectile manufactured from an ultra dense material such as depleted uranium.\r\n\r\nExcellent at bringing down enemy shields and causing an overload. Standard ship armor is spaced and thus the sabot deals more manageable damage if shields are lowered in time to receive the impact on armor.\r\n\r\nThis mount only carries a single missile.",
+   "ctx": "data/strings/descriptions.csv sabot_fighter/WEAPON [text1]"
+  },
+  {
+   "i": 7,
+   "en": "A heavily armored and fast missile with good guidance and a small, specialized anti-armor warhead.",
+   "ctx": "data/strings/descriptions.csv breach/WEAPON [text1]"
+  },
+  {
+   "i": 8,
+   "en": "A two-stage missile suited for long-range support by backline combat ships. The second stage has a higher top speed, giving it a better chance of defeating point-defense systems.\r\n\r\nA technologically mature weapon system, the Pilum-class missile is the obvious choice for long-range strikes by cautious captains. The warhead consists of a device capable of causing spot failures in active shields, and an EMP generator to deliver a modest punch through these gaps. Neither device is particularly effective due to the constraints imposed by the missile's outsized fuel tanks.\r\n\r\nA combat-rated autoloader system ensures continued, if modest, usefulness in protracted engagements.",
+   "ctx": "data/strings/descriptions.csv pilum/WEAPON [text1]"
+  },
+  {
+   "i": 9,
+   "en": "A two-stage missile suited for long-range support by backline combat ships. The second stage has a higher top speed, giving it a better chance of defeating point-defense systems. The \"catapult\" launch system produces a higher concentration of fire.\r\n\r\nA technologically mature weapon system, the Pilum-class missile is the obvious choice for long-range strikes by cautious captains. The warhead consists of a device capable of causing spot failures in active shields, and an EMP generator to deliver a modest punch through these gaps. Neither device is particularly effective due to the constraints imposed by the missile's outsized fuel tanks.\r\n\r\nA combat-rated autoloader system ensures continued, if modest, usefulness in protracted engagements.",
+   "ctx": "data/strings/descriptions.csv pilum_large/WEAPON [text1]"
+  },
+  {
+   "i": 10,
+   "en": "Deploys low-velocity proximity charges with an impressive blast radius and ability to shrug off point-defense fire. Especially devastating against fighters, but also effective vs armored targets.",
+   "ctx": "data/strings/descriptions.csv phasecl/WEAPON [text1]"
+  },
+  {
+   "i": 11,
+   "en": "Deploys low-velocity proximity charges with an impressive blast radius. Especially devastating against fighters, but also effective vs armored targets.",
+   "ctx": "data/strings/descriptions.csv phasecl_bomber/WEAPON [text1]"
+  },
+  {
+   "i": 12,
+   "en": "This simple but powerful weapon system consists of a launch tube and a magazine usually carrying a handful of standard Reaper-class torpedoes.",
+   "ctx": "data/strings/descriptions.csv typhoon/WEAPON [text1]"
+  },
+  {
+   "i": 13,
+   "en": "Dual launcher system capable of launching a torpedo barrage. Devastating to slow ships that can't move out of the way in time.\r\n\r\nA very large weapon system, the Cyclone-class launcher is listed as having two large torpedo tubes with an internal magazine. The fire control system is linked and fires two Reaper-class torpedoes in tandem. An automatic loader prepares the next salvo from the magazine in seconds.",
+   "ctx": "data/strings/descriptions.csv cyclone/WEAPON [text1]"
+  },
+  {
+   "i": 14,
+   "en": "Launches a missile that splits into multiple warheads on closing with the target. Especially devastating to enemies with their shields down.\r\n\r\nHurricane Turrets are a late-Expansion Epoch weapon designed to launch a self-propelled, multiple missile delivery projector pod. A targeting computer programs the pod with a hit solution as it is released. The swarm of small missiles released is dangerous to all ship types. missiles feature a shaped charge warhead making them more effective versus enemy armor. These characteristics make the Hurricane a kill-weapon, usually only fired by gunnery officers with orders to destroy their crippled targets utterly.",
+   "ctx": "data/strings/descriptions.csv hurricane/WEAPON [text1]"
+  },
+  {
+   "i": 15,
+   "en": "Cheap utility laser hardwired for missile and fighter defense. Long-ranged, but hampered by its low power output.\r\n\r\nA Mk I mining laser features a fluoride gas gain medium refitted for combat. The micro-asteroid targeting package has been repurposed to track and target incoming missiles. Mostly useless for anything larger or armored targets. Has a built-in 670nm tracker beam.",
+   "ctx": "data/strings/descriptions.csv mininglaser/WEAPON [text1]"
+  },
+  {
+   "i": 16,
+   "en": "Small laser designed for missile and fighter defense, with great tracking capability, decent damage and very short range.\r\n\r\nSimplicity, reliability and low flux costs characterize this ubiquitous point-defense weapon. The laser is built around a carbon dioxide gain medium combined with a short range marker beam. A simple one stage lens assembly with no moving parts permits the weapon to operate for extended periods without maintenance procedures. Low damage has prompted the creation of the \"Pray [it's a] Dud\" Laser backronym.",
+   "ctx": "data/strings/descriptions.csv pdlaser/WEAPON [text1]"
+  },
+  {
+   "i": 17,
+   "en": "Standard combat laser, useful at medium to long-ranges. A very flexible weapon, especially effective against unshielded targets.\r\n\r\nThe workhorse of beam weapons in the sector, the tactical laser is often used because of its low maintenance cost, versatility and ease of construction. Features a standard carbon dioxide gain medium, a 530nm marker beam and three lens assemblies. A good support weapon for small craft, especially in prolonged engagements.",
+   "ctx": "data/strings/descriptions.csv taclaser/WEAPON [text1]"
+  },
+  {
+   "i": 18,
+   "en": "A medium range energy cannon that delivers an electromagnetic pulse (EMP) and can quickly disable enemy systems/engines. May arc to modules near the point of impact.\r\n\r\nThe Ion Cannon's nonstandard gain medium projects highly-ionized baryonic matter in a coherent bolt. When the ion bolt impacts the target it creates a localized magnetic field which plays havoc with all manner of electronics, including sensors, fuel igniters, targeting modules, computers, etc. The weapon also fuses certain circuits, and can mildly strain shield generators, thus it does negligible amount of permanent damage. Rarely the only weapon type fitted on ships.",
+   "ctx": "data/strings/descriptions.csv ioncannon/WEAPON [text1]"
+  },
+  {
+   "i": 19,
+   "en": "A slow-firing, medium range energy cannon that delivers an electromagnetic pulse (EMP) and can quickly disable enemy systems/engines. May arc to modules near the point of impact.",
+   "ctx": "data/strings/descriptions.csv ioncannon_fighter/WEAPON [text1]"
+  },
+  {
+   "i": 20,
+   "en": "A flux-efficient infrared pulse laser which fires bolts of energy at medium range. An excellent weapon for prolonged bursts of fire.\r\n\r\nThis weapon is identical to most combat lasers with a carbon dioxide gain medium fired at eleven microns. A q-switched power supply permits ablation of the target which makes the weapon much more effective than a conventional beam, at the cost of much higher power consumption. Most often used on fighters or frigates, where the low range of the weapon can be offset by the maneuverability of the fitted craft.",
+   "ctx": "data/strings/descriptions.csv irpulse/WEAPON [text1]"
+  },
+  {
+   "i": 21,
+   "en": "A slow-firing, flux-efficient infrared pulse laser which fires bolts of energy at medium range. An excellent weapon for prolonged bursts of fire.",
+   "ctx": "data/strings/descriptions.csv irpulse_fighter/WEAPON [text1]"
+  },
+  {
+   "i": 22,
+   "en": "Medium range energy weapon, effective at neutralizing missile and fighter threats. Can be fired for extended periods, but the damage is subpar.\r\n\r\nAn additional lens assembly eliminates self-diffusing particles from a standard carbon dioxide beam fired at a wavelength of eleven microns. The extended range permits the otherwise low wattage to have a greater impact on the targets. Particularly useful in destroying missiles headed for a shielded target - a standard point defense laser generally doesn't have the range to extend far enough past the defensive shields of the ship it is supposed to protect.",
+   "ctx": "data/strings/descriptions.csv lrpdlaser/WEAPON [text1]"
+  },
+  {
+   "i": 23,
+   "en": "Features a built-in capacitor that lets the weapon fire several bursts in quick succession if allowed to fully recharge. Excellent vs missiles and fighters.\r\n\r\nThe burst point defense laser is a further refinement of standard PD beam weapons. The q-switched gain medium is pulse pumped, ensuring that the power delivered to the titanium-doped sapphire gain medium peaks at a predefined interval. The result is a weapon that fires once every couple of seconds and is extremely effective for its small size. Power consumption is small enough that even some fighter craft power cores can handle the firing load.",
+   "ctx": "data/strings/descriptions.csv pdburst/WEAPON [text1]"
+  }
+ ]
+}

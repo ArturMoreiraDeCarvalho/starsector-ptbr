@@ -1,0 +1,156 @@
+{
+ "chunk": 219,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"Now,\" $heOrShe intones, closing $hisOrHer eyes \"We pray.\"\r\n\r\nThe Pather captain transmits a classic Luddic prayer, begging forgiveness and doing least-harm to holy Creation and so on.\r\n\r\nYou terminate the comms at what feels like an appropriate moment. Next, you congratulate your ops chief on putting together a sensor-equivalent approximation of $entity.fwt_theThing on such short notice.",
+   "ctx": "data/campaign/rules.csv fwtBluffPather2 [text]"
+  },
+  {
+   "i": 2,
+   "en": "The $rank nods solemnly as you accept $hisOrHer terms. You order $fwt_theThing ejected into space. The Pather blasts it into a spray of exotic particles. \r\n\r\n\"Now,\" $heOrShe intones, closing $hisOrHer eyes \"We pray.\"\r\n\r\nThe Pather captain transmits a classic Luddic prayer, begging forgiveness and doing least-harm to holy Creation and so on.\r\n\r\nYou terminate the comms at what feels like an appropriate moment to bow out.",
+   "ctx": "data/campaign/rules.csv fwt_acceptPather [text]"
+  },
+  {
+   "i": 3,
+   "en": "The comms plays a catchy Tri-Tachyon jingle before the logo fades into the impeccable Tri-Tachyon $rank.\r\n\r\n\"I'm here to give you $entity.fwt_payment credits.\" $HeOrShe smiles, perfectly. \"Got your attention? Of course, of course; it's human nature.\" \r\n\r\n\"However,\" $heOrShe holds up a hand and you note the strange affect of a ruinously expensive handmade mechanical wrist chronometer, \"You shall have to give me something in return. Something I know that you have, $entity.fwt_thingDesc. A simple, fair trade. No threats, no deception, just an honest business dealing. Transfer $fwt_itOrThem to my flagship and I shall give you the credits.\"",
+   "ctx": "data/campaign/rules.csv fwtOpenComm [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"Beautiful, captain,\" the Tri-Tachyon $rank confirms the cargo transfer and looks to be almost in the throes of some kind of spiritual force. $HisOrHer arms are raised, $hisOrHer face radiating pleasure. \"Nothing could be easier. And here,\" a subtle flicker of cybernetic implants, \"Is your payment.\"\r\n\r\n\"I sincerely hope that chance aligns such that we may do business again - and soon,\" $heOrShe says. \"Bright stars and long burns. Be sure to add me on TriLink!\"\r\n\r\nYou close the channel, then dismiss the notification that appears on your TriPad.",
+   "ctx": "data/campaign/rules.csv fwt_acceptTriTach [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"Ah.\" The Tri-Tachyon $rank's perfect smile disappears. You catch the subtle flicker of active cybernetics in $hisOrHer eyes, though you could not say for sure what $heOrShe is doing. \r\n\r\n\"I see,\" $heOrShe says. \"A missed opportunity. I sincerely believe that next time you'll see the efficacy of my proposal. Until then, bright stars and long burns.\" \r\n\r\nYou start reaching to terminate the comms. \"I nearly forgot,\" $heOrShe says quickly, \"-be sure to add me on TriLink so that I can-\" \r\n\r\nYou hit the button. A moment later, you dismiss the pop-up notification on your TriPad.",
+   "ctx": "data/campaign/rules.csv fwt_decline [text]"
+  },
+  {
+   "i": 6,
+   "en": "The comm display ripples as the merc captain appears.\r\n\r\n\"Clear air and clean jumps, captain,\" $heOrShe greets you with a convivial nod. \"I have all the respect in the Sector for you, so I'll be direct about this: you've got something my employer has hired me to acquire from you by any means necessary.\" The merc shrugs, non-quite apologetic, \"It's a living.\"\r\n\r\nYou realize the $heOrShe is talking about $entity.fwt_thingDesc.\r\n\r\n\"I'll give you a minute to think it through. Be a real pity if I had to slag your flagship over a trifle.\" $HeOrShe then leans back in $hisOrHer chair, humming something to $himOrHerself.",
+   "ctx": "data/campaign/rules.csv fwtOpenCommMercAggroNoPay [text]"
+  },
+  {
+   "i": 7,
+   "en": "The comm display ripples as the merc captain appears, one leg up on $hisOrHer command console.\r\n\r\n\"Clear lanes and clean jumps, captain,\" $heOrShe greets you with a cheerful nod. \"Today's your day! Some jingling mudboots paid me a stack of credits to pay you a stack of credits. $fwt_payment credits, to be exact. All you gotta do,\" $heOrShe takes the leg off the console and leans in to the holocomms, \"Is hand over that special something what my employers desire with all their empty hearts.\"\r\n\r\nYou realize the $heOrShe is talking about $entity.fwt_thingDesc.\r\n\r\n\"It's all profit from here on out, captain.\" $HeOrShe seems quite confident that you'll betray your contract for a few credits. \"I have no desire to use your flagship for target practice, no $playerSirOrMadam. Just focus on the credits.\"",
+   "ctx": "data/campaign/rules.csv fwtOpenCommMercAggroPay [text]"
+  },
+  {
+   "i": 8,
+   "en": "The comm display stutters then stabilizes, the merc captain appearing before you.\r\n\r\n\"Soft burns and clear orbits, captain,\" $heOrShe greets you with a brilliant smile. \"Let's just get one thing out of the way first: my contract explicitly rules out threat of violence. So no threats, just an offer. And if you don't take it,\" $heOrShe shrugs, \"Well, then I don't get my bonus. So please do consider it.\" \r\n\r\n\"Which brings me to you. My employers would like to pay you $fwt_payment credits for something you alone have. I think,\" $heOrShe says coyly, \"You know what it is.\" $entity.fwt_ThingDesc.\r\n\r\n",
+   "ctx": "data/campaign/rules.csv fwtOpenCommMercNoAggroPay [text]"
+  },
+  {
+   "i": 9,
+   "en": "The mercenary $personRank looks a little surprised that you accepted $hisOrHer terms.\r\n\r\n\"A pleasant surprise, captain. You've made things very easy on everyone today. If only everyone were so cooperative,\" $heOrShe takes a moment to contemplate such a world, then shakes $hisOrHer head.\r\n\r\n\"I bid you thank-you and good-bye.\"\r\n\r\nThe comms snap off. You consider your next move.",
+   "ctx": "data/campaign/rules.csv fwt_acceptMercSelNoPay [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"Then it's done,\" the mercenary $personRank says, looking pleased. \"I couldn't ask for a more pleasant transaction. Perhaps we shall do business again one day?\" \r\n\r\n$HeOrShe smiles, then cuts the comm link.",
+   "ctx": "data/campaign/rules.csv fwt_acceptMercSelPay [text]"
+  },
+  {
+   "i": 11,
+   "en": "affirm // detected : Tri-Tachyon property transponder from [target_fleet] //\r\n\r\n\"...Tachyon capital assurance protocol engaged so that investors can rest assured in the security of all company property within Tri-Tachyon rated facilities and/or licensed logistics-\" // INTERRUPT\r\n\r\nquery / query : assert: [target_fleet] have/has [ownership/possession/control] of $fwt_thingDesc\r\n\r\nCASE transfer [ownership/possession/control] to self-entity // countdown initiated: one minute. SILENT/NO_VERIFY/ACCEPT\r\n\r\nCASE terminate target_fleet [waiting: countdown callback] waiting. waiting. waiting...",
+   "ctx": "data/campaign/rules.csv fwtOpenCommRemnantAggroNoPay [text]"
+  },
+  {
+   "i": 12,
+   "en": "affirm // detected : Tri-Tachyon property transponder from [target_fleet] //\r\n\r\n\"...Tachyon capital assurance protocol ensures investors can rest assured safe in knowledge that the security of company property within Tri-Tachyon rated facilities and/or licensed logistics-\"\" // INTERRUPT\r\n\r\nquery / query : assert: [target_fleet] have/has [ownership/possession/control] of $fwt_thingDesc\r\n\r\nCASE CommerceProtocol.new open * propose offer: $fwt_payment credits transfer to [target_fleet] IF [ownership/possession/control] to self-entity // countdown initiated: one minute. SILENT/NO_VERIFY/ACCEPT\r\n\r\nCASE terminate target_fleet [waiting: countdown callback] waiting. waiting. waiting...\"",
+   "ctx": "data/campaign/rules.csv fwtOpenCommRemnantAggroPay [text]"
+  },
+  {
+   "i": 13,
+   "en": "affirm // detected : Tri-Tachyon property transponder from [target_fleet] //\r\n\r\n\"...Tachyon capital assurance protocol ensures investors can rest assured safe in knowledge that the security of company property within Tri-Tachyon rated facilities and/or licensed logistics-\" // INTERRUPT\r\n\r\nquery / query : assert: [target_fleet] have/has [ownership/possession/control] of $fwt_thingDesc\r\n\r\nCASE CommerceProtocol.new open * propose offer: $fwt_payment credits transfer to [target_fleet] IF [ownership/possession/control] to self-entity // countdown initiated: one minute. SILENT/NO_VERIFY/ACCEPT\r\nCASE terminate- \r\n\r\nINTERRUPT: ethics protocol (beta v42 VIOLET) override // disposition: set non-aggressive returned TRUE ...",
+   "ctx": "data/campaign/rules.csv fwtOpenCommRemnantNoAggroPay [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"Tri-Tachyon property transponder detected. The Tri-Tachyon corporation thanks you for your c-c-c-\" // \"...please contact service repre-\"\r\n\r\nINTERRUPT\r\n\r\nset memory value: $playerName SUSCEPTIBLE_TO_TERMINATION_THREAT true\r\ntransaction protocol END",
+   "ctx": "data/campaign/rules.csv fwt_acceptRemnantSelNoPay [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"Tri-Tachyon property transponder not detected. Please re-eject the Tri-Tachyon property. Please re-// T-T-Tri-Tachyon corporation thanks you fo-\" // \"...please contact a service repre-\"\r\n\r\nINTERRUPT\r\n\r\nset property: $playerName -> GREEDY true\r\nset property: $playerName -> DISHONEST true\r\nevaluate() // trust metric result LESS_THAN transaction_protocol_min true\r\n\r\ntransaction protocol END",
+   "ctx": "data/campaign/rules.csv fwt_acceptRemnantSelPay [text]"
+  },
+  {
+   "i": 16,
+   "en": "After a short wait, your connection request is accepted.\r\n\r\n\"Hello captain,\" Coureuse says, her attention on a flickering bank of holographic data tables. \"I'm sorry I'm so busy. What is it you need?\"",
+   "ctx": "data/campaign/rules.csv defaultCoureuseGreeting [text]"
+  },
+  {
+   "i": 17,
+   "en": "You enter the ID, hand hovering over a glowing 'confirm' sigil. Your comms officer nods, ready to respond to whatever surprises Gargoyle thinks would be amusing to send through the link this time.\r\n\r\nThe display resolves from a mesmerizing fractal battleground to a familiar face grinning impishly at you. \"Ah, $playerFirstName! Are you back to find something interesting to do? I've got all sorts of wonderful ideas.\"",
+   "ctx": "data/campaign/rules.csv defaultGargoyleGreeting [text]"
+  },
+  {
+   "i": 18,
+   "en": "The Excubitor Orbis appears before you.\r\n\r\n\"Captain $playerName,\" he says by way of greeting, a stern gaze already fixed on you.\r\n\r\nThe moment draws longer. He seems determined to make you speak first.",
+   "ctx": "data/campaign/rules.csv defaultOakGreeting [text]"
+  },
+  {
+   "i": 19,
+   "en": "You speak first with some kind of secretary who politely persuades you to wait patiently.\r\n\r\nAfter a short time, the image of the Archcurate Jaspis appears. She makes little effort to look toward comms feed as she putters around her office.\r\n\r\n\"We are blessed by the day,\" she says.",
+   "ctx": "data/campaign/rules.csv defaultJaspisGreeting [text]"
+  },
+  {
+   "i": 20,
+   "en": "The comms system provided by the Knights of Ludd for its members appears to be intentionally low-bandwidth. \r\n\r\n\"Good day, captain,\" he says, voice hollowed of its usual warmth. \r\n\r\nThe image of $global.jethroName Bornanew twitches occasionally before reforming based on the automation's best guess to fill the gaps in the feed.",
+   "ctx": "data/campaign/rules.csv defaultBornanewGreeting [text]"
+  },
+  {
+   "i": 21,
+   "en": "The comms take some time to connect, and the transmission is patchy, as if sent through damaged or overloaded relays. Nonetheless, Curate Sacraria Standfast appears. \r\n\r\n\"Look who's washed up on troubled shores,\" she says. \"How may a servant of Providence help you this day?\"",
+   "ctx": "data/campaign/rules.csv greetingStandfastDefault [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"The shrine appreciates your devotion,\" the curate says, \"But we must wait some time longer before your next... contribution. A prideful display so soon might be viewed as intemperate by certain higher powers.\"\r\n\r\n\"We shall pray on this matter.\"",
+   "ctx": "data/campaign/rules.csv standfastOfferingAlreadyMade [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"A donation directly to... those in need... would be most welcome.\" \r\n\r\nIn roundabout language, Curate Sacraria Standfast explains that her network could move 10 units of heavy armaments to the surface. There is, however, a risk of generating suspicion from the Sindrian Diktat authorities.",
+   "ctx": "data/campaign/rules.csv standfastOfferingEnough [text]"
+  },
+  {
+   "i": 24,
+   "en": "The comms take some time to connect, and the transmission is patchy, as if sent through damaged or overloaded relays. Nonetheless, Curate Sacraria Standfast appears. \r\n\r\n\"The true believer returns,\" she says coolly. \"Come to explain a new compromise?\"",
+   "ctx": "data/campaign/rules.csv greetingStandfastDiktat [text]"
+  },
+  {
+   "i": 25,
+   "en": "After an interminable time watching a Hegemony logo, the comm-link connects you with what appears to be a junior cadet. You suspect they haven't even graduated from the naval academy.\r\n\r\n\"Hello citizen,\" the cadet chirps at you brightly, \"You've reached the office of the High Hegemon. Tour bookings of the Hegemon Council campus are currently unavailable. If you'd like to know more about how you can assist the restoration of the Domain, please accept the informational packet upload now.\"",
+   "ctx": "data/campaign/rules.csv defaultDaudGreeting [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"I'm sorry, but the High Hegemon is unavailable.\" The cadet smiles blandly.",
+   "ctx": "data/campaign/rules.csv defaultDaudInquirySee [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"I hope you enjoy this tasteful celebration of the Hegemony's history,\" the cadet says, \"From the heroic flight of Admiral Molina to save the Persean Sector from collapse to the victory of High Hegemon Daud over the Tri-Tachyon and AI invaders.\"",
+   "ctx": "data/campaign/rules.csv defaultDaudHolo2 [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"Admiral Rao?\" Tseen Ke rubs his chin. \"He's a bit of a fancy lad, is Rao. Out of Eventide, did you know? Of course you do, it's right there in the name, ha-ha. They're rich, beyond rich. He's not a bad one though, not bad.\"\r\n\r\n\"He does things his own way to win, and he's won plenty.\" He lowers his voice - not that it particularly matters over the comms-link, which automatically compensates for volume.\r\n\r\n\"I tell you, if he weren't a Rao...\"",
+   "ctx": "data/campaign/rules.csv TseenKeAskRao2 [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"If he weren't a Rao, he wouldn't have got away with half of what he did. It'd be court martial, stripped of command and rank. If I tried what he did, my only command would be over disinfection duty for the next 10 cycles.\"\r\n\r\nHe shrugs. \"That's how it is though. Like I said, he's not bad.\"",
+   "ctx": "data/campaign/rules.csv TseenKeAskRao3 [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"What is this question, did INTSEC send you to check my loyalty? Ha-ha.\" \r\n\r\nDoes the jocular affect cover an edge in his voice?",
+   "ctx": "data/campaign/rules.csv TseenKeAskDaud2 [text]"
+  }
+ ]
+}

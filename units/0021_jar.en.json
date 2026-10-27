@@ -1,0 +1,1256 @@
+{
+ "chunk": 21,
+ "cat": "jar",
+ "items": [
+  {
+   "i": 1,
+   "en": "In a human captain, its traits might be considered reckless. In a machine, they're terrifying.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/BaseAICoreOfficerPluginImpl.class"
+  },
+  {
+   "i": 2,
+   "en": "In combat, the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/BaseAICoreOfficerPluginImpl.class"
+  },
+  {
+   "i": 3,
+   "en": "Personality: fearless",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/BaseAICoreOfficerPluginImpl.class"
+  },
+  {
+   "i": 4,
+   "en": "Disrupted by factory reset",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/BaseCampaignObjectivePlugin.class"
+  },
+  {
+   "i": 5,
+   "en": "Hacked",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/BaseCampaignObjectivePlugin.class"
+  },
+  {
+   "i": 6,
+   "en": "Fighting srength of %s: %f",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/BattleAutoresolverPluginImpl$FleetAutoresolveData.class"
+  },
+  {
+   "i": 7,
+   "en": "%40s: disabled",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/BattleAutoresolverPluginImpl.class"
+  },
+  {
+   "i": 8,
+   "en": "%40s: heavy damage",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/BattleAutoresolverPluginImpl.class"
+  },
+  {
+   "i": 9,
+   "en": "%40s: light damage",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/BattleAutoresolverPluginImpl.class"
+  },
+  {
+   "i": 10,
+   "en": "%40s: medium damage",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/BattleAutoresolverPluginImpl.class"
+  },
+  {
+   "i": 11,
+   "en": "%40s: unscathed",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/BattleAutoresolverPluginImpl.class"
+  },
+  {
+   "i": 12,
+   "en": "%s can outrun other fleet",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/BattleAutoresolverPluginImpl.class"
+  },
+  {
+   "i": 13,
+   "en": "%s wants to disengage",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/BattleAutoresolverPluginImpl.class"
+  },
+  {
+   "i": 14,
+   "en": "%s won engagement",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/BattleAutoresolverPluginImpl.class"
+  },
+  {
+   "i": 15,
+   "en": "Fleet member [%s] from fleet [%s] with hull id [%s] and variant id [%s] in location [%s] has [%s] module statuses but only [%s] modules",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/BattleAutoresolverPluginImpl.class"
+  },
+  {
+   "i": 16,
+   "en": "Cargo Pods",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CargoPodsEntityPlugin.class"
+  },
+  {
+   "i": 17,
+   "en": "Cryo Pods",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CargoPodsEntityPlugin.class"
+  },
+  {
+   "i": 18,
+   "en": "      %s stability for same-faction colonies in system",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CommRelayEntityPlugin.class"
+  },
+  {
+   "i": 19,
+   "en": "%s stability for in-system colonies",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CommRelayEntityPlugin.class"
+  },
+  {
+   "i": 20,
+   "en": "%s stability for same-faction colonies in-system",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CommRelayEntityPlugin.class"
+  },
+  {
+   "i": 21,
+   "en": "Comm sniffer installed",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CommRelayEntityPlugin.class"
+  },
+  {
+   "i": 22,
+   "en": "This one, however, is not connected to the Sector-wide network and is not emitting the hyperwave radiation typically indicative of relay operation. The cause of its lack of function is unknown.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CommRelayEntityPlugin.class"
+  },
+  {
+   "i": 23,
+   "en": "You have a comm sniffer running on this relay.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CommRelayEntityPlugin.class"
+  },
+  {
+   "i": 24,
+   "en": "Your skills have been reset to accomodate the new skill system. Skill and story points have been refunded.\n\nOfficer, administrator, and AI core skills have been adjusted for the new system.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreLifecyclePluginImpl$1.class"
+  },
+  {
+   "i": 25,
+   "en": "    - Currently at %s",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreReputationPlugin.class"
+  },
+  {
+   "i": 26,
+   "en": " by this.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreReputationPlugin.class"
+  },
+  {
+   "i": 27,
+   "en": " by your recent actions",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreReputationPlugin.class"
+  },
+  {
+   "i": 28,
+   "en": " is %s",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreReputationPlugin.class"
+  },
+  {
+   "i": 29,
+   "en": " not affected",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreReputationPlugin.class"
+  },
+  {
+   "i": 30,
+   "en": " standing with ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreReputationPlugin.class"
+  },
+  {
+   "i": 31,
+   "en": ", currently at ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreReputationPlugin.class"
+  },
+  {
+   "i": 32,
+   "en": ", is already well-established and is not affected by your recent actions",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreReputationPlugin.class"
+  },
+  {
+   "i": 33,
+   "en": "Current standing with ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreReputationPlugin.class"
+  },
+  {
+   "i": 34,
+   "en": "Currently at %s",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreReputationPlugin.class"
+  },
+  {
+   "i": 35,
+   "en": "Relationship with ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreReputationPlugin.class"
+  },
+  {
+   "i": 36,
+   "en": "Requires %s ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreReputationPlugin.class"
+  },
+  {
+   "i": 37,
+   "en": "Your relationship with ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreReputationPlugin.class"
+  },
+  {
+   "i": 38,
+   "en": "improved by ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreReputationPlugin.class"
+  },
+  {
+   "i": 39,
+   "en": "not affected",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreReputationPlugin.class"
+  },
+  {
+   "i": 40,
+   "en": "or better",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreReputationPlugin.class"
+  },
+  {
+   "i": 41,
+   "en": "or worse",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreReputationPlugin.class"
+  },
+  {
+   "i": 42,
+   "en": "reduced by ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreReputationPlugin.class"
+  },
+  {
+   "i": 43,
+   "en": " star system",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreRuleTokenReplacementGeneratorImpl.class"
+  },
+  {
+   "i": 44,
+   "en": "Brother",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreRuleTokenReplacementGeneratorImpl.class"
+  },
+  {
+   "i": 45,
+   "en": "He",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreRuleTokenReplacementGeneratorImpl.class"
+  },
+  {
+   "i": 46,
+   "en": "Her",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreRuleTokenReplacementGeneratorImpl.class"
+  },
+  {
+   "i": 47,
+   "en": "Herself",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreRuleTokenReplacementGeneratorImpl.class"
+  },
+  {
+   "i": 48,
+   "en": "Him",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreRuleTokenReplacementGeneratorImpl.class"
+  },
+  {
+   "i": 49,
+   "en": "Himself",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreRuleTokenReplacementGeneratorImpl.class"
+  },
+  {
+   "i": 50,
+   "en": "His",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreRuleTokenReplacementGeneratorImpl.class"
+  },
+  {
+   "i": 51,
+   "en": "Ma'am",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreRuleTokenReplacementGeneratorImpl.class"
+  },
+  {
+   "i": 52,
+   "en": "Man",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreRuleTokenReplacementGeneratorImpl.class"
+  },
+  {
+   "i": 53,
+   "en": "She",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreRuleTokenReplacementGeneratorImpl.class"
+  },
+  {
+   "i": 54,
+   "en": "Sir",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreRuleTokenReplacementGeneratorImpl.class"
+  },
+  {
+   "i": 55,
+   "en": "Sister",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreRuleTokenReplacementGeneratorImpl.class"
+  },
+  {
+   "i": 56,
+   "en": "Walker",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreRuleTokenReplacementGeneratorImpl.class"
+  },
+  {
+   "i": 57,
+   "en": "Woman",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreRuleTokenReplacementGeneratorImpl.class"
+  },
+  {
+   "i": 58,
+   "en": "brother",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreRuleTokenReplacementGeneratorImpl.class"
+  },
+  {
+   "i": 59,
+   "en": "herself",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreRuleTokenReplacementGeneratorImpl.class"
+  },
+  {
+   "i": 60,
+   "en": "himself",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreRuleTokenReplacementGeneratorImpl.class"
+  },
+  {
+   "i": 61,
+   "en": "ma'am",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreRuleTokenReplacementGeneratorImpl.class"
+  },
+  {
+   "i": 62,
+   "en": "sir",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreRuleTokenReplacementGeneratorImpl.class"
+  },
+  {
+   "i": 63,
+   "en": "sister",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreRuleTokenReplacementGeneratorImpl.class"
+  },
+  {
+   "i": 64,
+   "en": "walker",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreRuleTokenReplacementGeneratorImpl.class"
+  },
+  {
+   "i": 65,
+   "en": " (unassigned)",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreScript.class"
+  },
+  {
+   "i": 66,
+   "en": "Administrators",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreScript.class"
+  },
+  {
+   "i": 67,
+   "en": "Crew payroll",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreScript.class"
+  },
+  {
+   "i": 68,
+   "en": "Custom production orders",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreScript.class"
+  },
+  {
+   "i": 69,
+   "en": "Hazard pay",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreScript.class"
+  },
+  {
+   "i": 70,
+   "en": "Heavy Industry - Custom Production",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreScript.class"
+  },
+  {
+   "i": 71,
+   "en": "Marine payroll",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreScript.class"
+  },
+  {
+   "i": 72,
+   "en": "Monthly expenses: ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreScript.class"
+  },
+  {
+   "i": 73,
+   "en": "Monthly income: ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreScript.class"
+  },
+  {
+   "i": 74,
+   "en": "New planet data: ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreScript.class"
+  },
+  {
+   "i": 75,
+   "en": "Officer payroll",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreScript.class"
+  },
+  {
+   "i": 76,
+   "en": "Weapons & fighter LPCs for produced ships",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreScript.class"
+  },
+  {
+   "i": 77,
+   "en": "ships & cargo",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/CoreScript.class"
+  },
+  {
+   "i": 78,
+   "en": "Damaged by explosion",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/ExplosionEntityPlugin.class"
+  },
+  {
+   "i": 79,
+   "en": "Your fleet suffers damage from being caught in an explosion",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/ExplosionEntityPlugin.class"
+  },
+  {
+   "i": 80,
+   "en": "%s officers and ship commanders.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FactionPersonalityPickerPluginImpl.class"
+  },
+  {
+   "i": 81,
+   "en": "A mix of %s and %s officers and ship commanders.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FactionPersonalityPickerPluginImpl.class"
+  },
+  {
+   "i": 82,
+   "en": "aggressive",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FactionPersonalityPickerPluginImpl.class"
+  },
+  {
+   "i": 83,
+   "en": "reckless",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FactionPersonalityPickerPluginImpl.class"
+  },
+  {
+   "i": 84,
+   "en": "Post engagement recovery",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetEncounterContext.class"
+  },
+  {
+   "i": 85,
+   "en": "deployed in combat",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetEncounterContext.class"
+  },
+  {
+   "i": 86,
+   "en": "deployed replacement chassis in combat",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetEncounterContext.class"
+  },
+  {
+   "i": 87,
+   "en": "disabled in combat",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetEncounterContext.class"
+  },
+  {
+   "i": 88,
+   "en": "extended deployment",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetEncounterContext.class"
+  },
+  {
+   "i": 89,
+   "en": "from losing s-modded ships",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetEncounterContext.class"
+  },
+  {
+   "i": 90,
+   "en": "harried while disengaging",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetEncounterContext.class"
+  },
+  {
+   "i": 91,
+   "en": "hull damage sustained",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetEncounterContext.class"
+  },
+  {
+   "i": 92,
+   "en": "missile weapons used in combat",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetEncounterContext.class"
+  },
+  {
+   "i": 93,
+   "en": "retreated from lost engagement",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetEncounterContext.class"
+  },
+  {
+   "i": 94,
+   "en": "weapon and engine damage sustained",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetEncounterContext.class"
+  },
+  {
+   "i": 95,
+   "en": "wing deployed in combat",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetEncounterContext.class"
+  },
+  {
+   "i": 96,
+   "en": " (full effect)",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl$6.class"
+  },
+  {
+   "i": 97,
+   "en": " (partial effect)",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl$6.class"
+  },
+  {
+   "i": 98,
+   "en": " performed emergency repairs",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl$6.class"
+  },
+  {
+   "i": 99,
+   "en": "Emergency repairs",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl$6.class"
+  },
+  {
+   "i": 100,
+   "en": "The repairs will affect:",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl$6.class"
+  },
+  {
+   "i": 101,
+   "en": "Will bring up to %s deployment points worth of ships up to approximately %s combat readiness and %s hull integrity. Starts with the flagship and then goes on to officer-controlled ships, in the order they are placed in the fleet. Does not affect other ships.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl$6.class"
+  },
+  {
+   "i": 102,
+   "en": " and a fighter wing",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 103,
+   "en": " and several fighter wings",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 104,
+   "en": " and the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 105,
+   "en": " and their allies",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 106,
+   "en": " during the battle ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 107,
+   "en": " forces",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 108,
+   "en": " not currently hostile, and you have been positively identified. Are you sure you want to engage in hostilities with one of their fleets?",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 109,
+   "en": " not currently hostile, and you have been positively identified. Are you sure you want to engage one of their fleets?",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 110,
+   "en": ", and a fighter wing",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 111,
+   "en": ", and several fighter wings",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 112,
+   "en": ", and the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 113,
+   "en": ", with allies",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 114,
+   "en": ": joining the enemy.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 115,
+   "en": ": supporting the enemy.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 116,
+   "en": ": supporting the opposing side.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 117,
+   "en": ": supporting your forces.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 118,
+   "en": "Accept the comm request",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 119,
+   "en": "Additional XP due to overall battle difficulty: %s",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 120,
+   "en": "Allied forces",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 121,
+   "en": "Allows your fleet to disengage without being pursued.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 122,
+   "en": "Attempt to disengage",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 123,
+   "en": "Brings your flagship and a few officer-controlled ships back up to reasonable combat readiness and repairs some hull damage.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 124,
+   "en": "Consider ship recovery",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 125,
+   "en": "Continue into battle",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 126,
+   "en": "Crash-mothball some of your ships to prevent malfunctions",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 127,
+   "en": "Cut the comm link",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 128,
+   "en": "Disabled ships from your fleet are available for recovery",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 129,
+   "en": "Disabled ships from your fleet are available for recovery.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 130,
+   "en": "Disabled ships from your fleet are available for recovery.\n\nIf you proceed without recovering them, they will be lost permanently.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 131,
+   "en": "Disengage",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 132,
+   "en": "Disengage by executing a series of special maneuvers",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 133,
+   "en": "Failed to join battle; shouldn't happen.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 134,
+   "en": "Harry their retreat",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 135,
+   "en": "Join the battle",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 136,
+   "en": "Join the disengage attempt",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 137,
+   "en": "Join the engagement",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 138,
+   "en": "Join the pursuit",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 139,
+   "en": "Let them go",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 140,
+   "en": "Maneuver to force a pitched battle",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 141,
+   "en": "Maneuvered to disengage from ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 142,
+   "en": "Maneuvered to force pitched battle with ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 143,
+   "en": "Move in to engage",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 144,
+   "en": "Open a comm link",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 145,
+   "en": "Order your second-in-command to handle it",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 146,
+   "en": "Outmaneuver the opposing fleet, forcing them to fight you head on.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 147,
+   "en": "Perform a salvage operation, then leave",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 148,
+   "en": "Perform limited emergency repairs",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 149,
+   "en": "Performed emergency repairs when facing ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 150,
+   "en": "Pick through the wreckage",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 151,
+   "en": "Proceed",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 152,
+   "en": "Pursue them",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 153,
+   "en": "Salvaged",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 154,
+   "en": "Select craft to crash-mothball",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 155,
+   "en": "Select craft to send in pursuit",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 156,
+   "en": "Select flagship for this engagement",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 157,
+   "en": "Take command of the action",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 158,
+   "en": "The salvage chief reports that ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 159,
+   "en": "Transfer command for this engagement",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 160,
+   "en": "You try to establish a comm link, but only get static.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 161,
+   "en": "Your forces were",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 162,
+   "en": "Your side was",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 163,
+   "en": "a fighter wing",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 164,
+   "en": "a ship disabled",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 165,
+   "en": "can be restored to basic functionalty. Recovering ships instead of breaking ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 166,
+   "en": "mission",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 167,
+   "en": "opposing",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 168,
+   "en": "several fighter wings",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 169,
+   "en": "several ships disabled or destroyed",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 170,
+   "en": "them for salvage will greatly reduce the salvage gained from these ships.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 171,
+   "en": "Active",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/GateEntityPlugin.class"
+  },
+  {
+   "i": 172,
+   "en": "Active Gate",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/GateEntityPlugin.class"
+  },
+  {
+   "i": 173,
+   "en": "Scanned",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/GateEntityPlugin.class"
+  },
+  {
+   "i": 174,
+   "en": "This gate is active.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/GateEntityPlugin.class"
+  },
+  {
+   "i": 175,
+   "en": "You've scanned this gate.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/GateEntityPlugin.class"
+  },
+  {
+   "i": 176,
+   "en": "Gate Explosion",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/GateExplosionScript.class"
+  },
+  {
+   "i": 177,
+   "en": "conducting an inspection",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/HassleNPCScript$HassleParams.class"
+  },
+  {
+   "i": 178,
+   "en": "standing by for inspection",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/HassleNPCScript$HassleParams.class"
+  },
+  {
+   "i": 179,
+   "en": "Vindictive inspection",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/HassleNPCScript.class"
+  },
+  {
+   "i": 180,
+   "en": " are likely to give you trouble over the fact, if you're spotted.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/JumpPointInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 181,
+   "en": " are unlikely to raise the issue.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/JumpPointInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 182,
+   "en": " fuel.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/JumpPointInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 183,
+   "en": " fuel. You have no fuel.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/JumpPointInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 184,
+   "en": " fuel. You only have ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/JumpPointInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 185,
+   "en": " to let your fleet pass through will cost ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/JumpPointInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 186,
+   "en": "(Can always be used in dev mode)",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/JumpPointInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 187,
+   "en": "A disposable probe sends back a microburst of information: forces near the exit are assesed likely hostile and a possible threat to your fleet.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/JumpPointInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 188,
+   "en": "Abort the jump",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/JumpPointInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 189,
+   "en": "Abort the operation",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/JumpPointInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 190,
+   "en": "Activating this ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/JumpPointInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 191,
+   "en": "Confirm your orders",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/JumpPointInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 192,
+   "en": "Initiate a transit to ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/JumpPointInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 193,
+   "en": "Jump, keeping the transponder off",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/JumpPointInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 194,
+   "en": "Order a jump to ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/JumpPointInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 195,
+   "en": "Shut down the wormhole and retrieve the anchor",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/JumpPointInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 196,
+   "en": "Stabilize the jump-point",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/JumpPointInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 197,
+   "en": "The jump-point exhibits fluctuations characteristic of drive field activity ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/JumpPointInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 198,
+   "en": "The jump-point should be stable enough to use within a day or so.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/JumpPointInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 199,
+   "en": "The nav computer pings the wormhole terminus, establishing a data connection through drive-field fluctuations. In under a minute, and only a moment of unease as the agrav self-correction settles, the process is complete. Your primary interface unveils a list of possible destinations.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/JumpPointInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 200,
+   "en": "This jump-point is stabilizing and should be usable within a day at the most.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/JumpPointInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 201,
+   "en": "This jump-point is stabilizing but will not be usable for some time.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/JumpPointInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 202,
+   "en": "This jump-point is unstable and can not be used.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/JumpPointInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 203,
+   "en": "This will shut down the wormhole and free up the stable point for other uses.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/JumpPointInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 204,
+   "en": "This wormhole is not connected to any other termini and is effectively unusable.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/JumpPointInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 205,
+   "en": "This wormhole is stabilizing and will become usable within %s ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/JumpPointInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 206,
+   "en": "Turn the transponder on and then jump",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/JumpPointInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 207,
+   "en": "Turning the transponder on now would reveal your hostile actions to",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/JumpPointInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 208,
+   "en": "Until it restabilizes, hyperspace is only accessible via Transverse Jump.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/JumpPointInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 209,
+   "en": "Using a wormhole requires a wormhole scanner.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/JumpPointInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 210,
+   "en": "Warning!",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/JumpPointInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 211,
+   "en": "You give the order. Before long, your ops chief confirms that the wormhole anchor has been stowed in a secure hold on your flagship.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/JumpPointInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 212,
+   "en": "You load the stabilization algorithm into your jump program and the drive field goes through a series of esoteric fluctuations, their resonance gradually cancelling out the instability in this jump-point.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/JumpPointInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 213,
+   "en": "Your fleet approaches the wormhole.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/JumpPointInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 214,
+   "en": "Your transponder is off, and patrols in the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/JumpPointInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 215,
+   "en": "Your transponder is off, but any patrols in the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/JumpPointInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 216,
+   "en": "a short distance away from the exit",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/JumpPointInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 217,
+   "en": "extremely close to the exit",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/JumpPointInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 218,
+   "en": "hostile",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/JumpPointInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 219,
+   "en": "jump-point",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/JumpPointInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 220,
+   "en": "threat",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/JumpPointInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 221,
+   "en": "wormhole",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/JumpPointInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 222,
+   "en": "A total of %s worth of production effort has been put into projects that have not yet been completed.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/MonthlyReportNodeTooltipCreator.class"
+  },
+  {
+   "i": 223,
+   "en": "Approximately %s ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/MonthlyReportNodeTooltipCreator.class"
+  },
+  {
+   "i": 224,
+   "en": "Colony-related income and expenses.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/MonthlyReportNodeTooltipCreator.class"
+  },
+  {
+   "i": 225,
+   "en": "Each administrator receives a salary that depends on their skills. When not assigned to govern a colony, their salary is reduced to %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/MonthlyReportNodeTooltipCreator.class"
+  },
+  {
+   "i": 226,
+   "en": "Each crew member receives a monthly salary of %s credits.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/MonthlyReportNodeTooltipCreator.class"
+  },
+  {
+   "i": 227,
+   "en": "Each marine receives a monthly salary of %s credits.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/MonthlyReportNodeTooltipCreator.class"
+  },
+  {
+   "i": 228,
+   "en": "Each officer receives a base salary of %s credits per month, plus %s credits per officer level.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/MonthlyReportNodeTooltipCreator.class"
+  },
+  {
+   "i": 229,
+   "en": "Equipment",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/MonthlyReportNodeTooltipCreator.class"
+  },
+  {
+   "i": 230,
+   "en": "Expenses incurred due to the need to restock local stockpiles to replace the resources drawn by your fleet.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/MonthlyReportNodeTooltipCreator.class"
+  },
+  {
+   "i": 231,
+   "en": "Expenses incurred due to the use of local stockpiles to counter shortages.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/MonthlyReportNodeTooltipCreator.class"
+  },
+  {
+   "i": 232,
+   "en": "Fees and expenses incurred by storing crew or materiel at a location. Includes rent, security, and other such.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/MonthlyReportNodeTooltipCreator.class"
+  },
+  {
+   "i": 233,
+   "en": "Fleet-related income and expenses.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/MonthlyReportNodeTooltipCreator.class"
+  },
+  {
+   "i": 234,
+   "en": "Income from out-of-faction exports by this outpost or colony. Smuggling and in-faction exports do not produce income.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/MonthlyReportNodeTooltipCreator.class"
+  },
+  {
+   "i": 235,
+   "en": "Ships",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/MonthlyReportNodeTooltipCreator.class"
+  },
+  {
+   "i": 236,
+   "en": "Storage at a colony under your control does not incur any fees.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/MonthlyReportNodeTooltipCreator.class"
+  },
+  {
+   "i": 237,
+   "en": "The monthly expenses are generally %s of the base value of what's in storage.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/MonthlyReportNodeTooltipCreator.class"
+  },
+  {
+   "i": 238,
+   "en": "Total spent on hazard pay and related growth incentives at the colony during the previous month.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/MonthlyReportNodeTooltipCreator.class"
+  },
+  {
+   "i": 239,
+   "en": "Unpaid debt carried over from last month.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/MonthlyReportNodeTooltipCreator.class"
+  },
+  {
+   "i": 240,
+   "en": "Upkeep and income from industries and structures located at the outpost or colony.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/MonthlyReportNodeTooltipCreator.class"
+  },
+  {
+   "i": 241,
+   "en": "Weapons and fighter LPCs installed on produced ships.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/MonthlyReportNodeTooltipCreator.class"
+  },
+  {
+   "i": 242,
+   "en": "      %s burn level for all same-faction fleets in system",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/NavBuoyEntityPlugin.class"
+  },
+  {
+   "i": 243,
+   "en": "      Auto-calibrating after factory reset; non-functional",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/NavBuoyEntityPlugin.class"
+  },
+  {
+   "i": 244,
+   "en": "%s burn level for in-system fleets",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/NavBuoyEntityPlugin.class"
+  },
+  {
+   "i": 245,
+   "en": "Makeshift nav buoy",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/NavBuoyEntityPlugin.class"
+  },
+  {
+   "i": 246,
+   "en": "Nav buoy",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/NavBuoyEntityPlugin.class"
+  },
+  {
+   "i": 247,
+   "en": "This one, however, does not appear to be transmitting a navigation telemetry broadcast. The cause of its lack of function is unknown.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/NavBuoyEntityPlugin.class"
+  },
+  {
+   "i": 248,
+   "en": "You have a hack running on this nav buoy.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/NavBuoyEntityPlugin.class"
+  },
+  {
+   "i": 249,
+   "en": "Buy or sell ships",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/OrbitalStationInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 250,
+   "en": "Make use of the dockyard's refitting facilities",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/OrbitalStationInteractionDialogPluginImpl.class"
+  }
+ ]
+}

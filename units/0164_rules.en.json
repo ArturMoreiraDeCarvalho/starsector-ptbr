@@ -1,0 +1,186 @@
+{
+ "chunk": 164,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"Um. Look.\" $gaFC_KBAHeOrShe goes into damage control mode, \"Like I said, I don't mess with Pathers. I found their operation, but I didn't dig. I didn't charge you that much, see? You've got the bodyguards and heavily armed $shipOrFleet, I'm just some thawed-out space-meat trying to make a living.\"\r\n\r\n$gaFC_KBAHeOrShe takes a deep breath, then says \"Look, I'm sorry it's not better info. But I'm not going there. Maybe if you ask around you can get their attention - they have a goal, they won't just pop you in a corridor and attract unnecessary attention. Find out how they're communicating with home base, maybe. These Pathers, they're all recent. They've got to be coordinating with leadership somehow.\"\r\n\r\n\"Now please.\" $gaFC_KBAHeOrShe finishes the drink in one big gulp, \"Good-bye and good luck.\" $gaFC_KBAHeOrShe stands, and makes for an exit.",
+   "ctx": "data/campaign/rules.csv gaFCKapteynBarBribe1 [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"I don't know anyone by the name. If this query does not concern station business, I'm going to become very disappointed, captain,\" $heOrShe glances at a readout, \"Whoever you are.\"",
+   "ctx": "data/campaign/rules.csv gaFCLaicailleCommanderBother2 [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"I don't know anyone by the name. If this query does not concern station business then...\" $HeOrShe glances at a readout. \"Demarchon.\"\r\n\r\n$HisOrHer tone becomes somewhat more respectful. \"$PlayerSirOrMadam. This is Laicaille. We try to handle our own business and not get involved in yours.\"",
+   "ctx": "data/campaign/rules.csv gaFCLaicailleCommanderBother2PL [text]"
+  },
+  {
+   "i": 4,
+   "en": "The $post holds up $hisOrHer hand to stop you before you can even lay the groundwork.\r\n\r\n\"A wonderful story, I'm sure. Unfortunately I am very busy looking after the safety of this station and the surrounding volume. Between Pathers, pirates, and imaginative independent operators, the few resources given to me by the League are stretched very thin indeed. If you want to help, pay your tariffs, keep your transponder on, and stay out of trouble, thank-you captain.\"\r\n\r\nThere is barely a moment between the end of $hisOrHer speech and termination of the comms link.",
+   "ctx": "data/campaign/rules.csv gaFCLaicailleCommanderBother3 [text]"
+  },
+  {
+   "i": 5,
+   "en": "The $post holds up $hisOrHer hand, stopping you before you begin. \"Please, demarchon.\"\r\n\r\n\"Unfortunately I am very busy looking after the safety of this station and the surrounding volume. Between Pathers, pirates, and imaginative independent operators, the few resources given to me by the League are stretched thin.\"\r\n\r\nA pause. Then, giving you a apologetic look $heOrShe says, \"If you want to make an official inquiry... talk to the archon. You'll find them in the comm directory.\"",
+   "ctx": "data/campaign/rules.csv gaFCLaicailleCommanderBother3PL [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"Hmm, no ship by that name has come through recently,\" $heOrShe taps at a console.\r\n\r\n\"No, I'm afraid not. I don't believe I can help you find your lost ship, captain.\"",
+   "ctx": "data/campaign/rules.csv gaFCLaicailleNavarchBother2 [text]"
+  },
+  {
+   "i": 7,
+   "en": "$HeOrShe looks up at you. \"Ah, of course. You'll want to query the station's public comm directory. Good day, citizen. Stay vigilant!\"\r\n\r\nBefore you can respond, the comm link terminates and you find yourself staring at the crest of the Persean League Fleet.",
+   "ctx": "data/campaign/rules.csv gaFCLaicailleNavarchBother3 [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"Oh, is that right? What is it, more black boxes to deliver to a 'need-to-know' location, and you need me to override station protocol?\"\r\n\r\n\"Written orders.\" $HeOrShe swipes with $hisOrHer hand to underline the point. \"No exceptions. I told you people this before. If anything goes wrong during intra-station transport of Ludd-knows-what you people are stowing away in your secret warehouse, it'll be my head in the airlock.\"",
+   "ctx": "data/campaign/rules.csv gaFCLaicailleQuartermasterBother2 [text]"
+  },
+  {
+   "i": 9,
+   "en": "The $post looks at you almost apologetically. Almost.\r\n\r\n\"Not with that crew, huh? Good. You should have received customs and tariff forms automatically. Did you have some other business with my office?\"",
+   "ctx": "data/campaign/rules.csv gaFCLaicailleQuartermasterBother3 [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"No exceptions,\" $HeOrShe says pointedly, then shuts off $hisOrHer end of the link, leaving you staring at the crest of Laicaille Habitat.",
+   "ctx": "data/campaign/rules.csv gaFCLaicailleQuartermasterBother4 [text]"
+  },
+  {
+   "i": 11,
+   "en": "Your connection request stalls on the archon's symbol of office, returning only generic out-of-office text.",
+   "ctx": "data/campaign/rules.csv gaFCArchonContactAfter [text]"
+  },
+  {
+   "i": 12,
+   "en": "Set the following:\r\nplayer.isLeagueMember = true\r\nplayer.didWhyPLharassingTalk = true\r\nplayer.metReynardHannan = true\r\nplayer.payingHouseHannan = true\r\nplayer.toldReynardVoteHimOut = true\r\nplayer.toldReynardHeWastesHumanLife = true\r\nplayer.hasGoodPLMembershipDeal = true",
+   "ctx": "data/campaign/rules.csv gaFCArchonSearchHubOptionDEV2 [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"Demarchon.\" $HisOrHer eyes are fixed on you now. \r\n\r\n\"Look. I respect your office, and the ideals of the League, the true ideals...\" $HeOrShe trails off with a sigh. \"I've heard that line before, is what I am saying.\"\r\n\r\n$PersonName takes a deep breath.\r\n\r\n\"Laicaille Habitat is not a large polity, nor a powerful one. And we've got lots of problems. Pirates, Pathers... meddling gens sniffing around for weakness to exploit. From where I'm sitting, I don't know what makes you any different. Perhaps you're working for them.\"",
+   "ctx": "data/campaign/rules.csv gaFCarchonAskDemarchon [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"Demarchon,\" $heOrShe says. \"This again.\"\r\n\r\n\"You may have fine words for me, but words don't keep Laicaille Habitat free.\"",
+   "ctx": "data/campaign/rules.csv gaFCarchonAskDemarchonAgain [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"With all due respect to your office, demarchon, we discussed this,\" $heOrShe says.\r\n\r\n\"If you need help, I suggest you ask the great Reynard Hannan. I'm sure he'll drop everything to assist the demarchon of a 'minor polity'.\"\r\n\r\n\"I have... a meeting.\" $HeOrShe looks aside. \"Burn bright.\"",
+   "ctx": "data/campaign/rules.csv gaFCarchonAskDemarchonAgainNo [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"Let's,\" $heOrShe says.",
+   "ctx": "data/campaign/rules.csv gaFCarchonAskDemOptsOutsel [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"I recall that, now.\" $HeOrShe shakes $hisOrHer head. \"To my shame, Laicaille voted approval of the measure. Gens Hannan... well, we could not refuse. Our vote might not have much weight, but it symbolized the 'support of the minor polities of the League'.\" \r\n\r\n\"Minor polities!\" The archon clenches $hisOrHer jaw then goes silent, a look of consternation settled on $hisOrHer face.\r\n\r\n\"I would make it up to you,\" $heOrShe says. \"And to ourselves. Anything to stick it in Reynard Hannan's eye just once.\"",
+   "ctx": "data/campaign/rules.csv gaFCarchonAskDemOptsBsel [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"Once, personally,\" $heOrShe says, guardedly. \"I've attended the League Council, of course.\"",
+   "ctx": "data/campaign/rules.csv gaFCarchonAskDemOptsCsel [text]"
+  },
+  {
+   "i": 19,
+   "en": "$HeOrShe frowns.\r\n\r\n\"Maybe we're even less alike than I thought.\"\r\n\r\n$HisOrHer eyes glide away, not wanting to confront something. You, perhaps. Maybe something else.\r\n\r\n\"I have... a meeting. Burn bright, captain.\"\r\n\r\nA listless arm shifts, and the comms cut out.",
+   "ctx": "data/campaign/rules.csv gaFCarchonAskDemOptsCsel2b [text]"
+  },
+  {
+   "i": 20,
+   "en": "$HeOrShe smiles.\r\n\r\n\"Maybe we're more alike than I thought, demarchon.\"",
+   "ctx": "data/campaign/rules.csv gaFCarchonAskDemOptsCsel2 [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"I- I suppose. If you like.\" $HeOrShe sounds confused.",
+   "ctx": "data/campaign/rules.csv gaFCarchBack [text]"
+  },
+  {
+   "i": 22,
+   "en": "$HisOrHer smile fades into something more melancholic.\r\n\r\n\"You say the right words, demarchon. Like many a supposed friend of Laicaille, of the 'minor' polities of the League.\" $HeOrShe pauses. \"But do our interests align? When the storm grows hot, will you abandon us?\"\r\n\r\n$HeOrShe shrugs gently.\r\n\r\n\"I don't think there's anything else to say.\"",
+   "ctx": "data/campaign/rules.csv gaFCarchPLwillYouHelp [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"Unbelievable,\" $heOrShe says, shaking $hisOrHer head.\r\n\r\n$HeOrShe stops, and gives you a look. Somehow more determined than you've seen. \"But that's Reynard, isn't it. That's Gens Hannan. Every gens. That's all of them. Blood-sucking parasites, all of them.\"",
+   "ctx": "data/campaign/rules.csv gaFCarchExtortionReynard [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"Hah!\"\r\n\r\n$HeOrShe shakes $hisOrHer head, a grim smile on $hisOrHer face. It slowly fades.\r\n\r\nAfter a quiet moment, $heOrShe says, \"You know what? Yes. Yes I would. He'd make me pay, he'd make Laicaille pay. But it'd be worth it to see him lose for once.\"",
+   "ctx": "data/campaign/rules.csv gaFCarchVoteOutReynard [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"And you're right!\" $HeOrShe slams $hisOrHer console, almost shouting.\r\n\r\n\"He doesn't care about anything outside of his precious gens. We're only important for him to get what he wants!\"",
+   "ctx": "data/campaign/rules.csv gaFCarchCynicalReynard [text]"
+  },
+  {
+   "i": 26,
+   "en": "$HeOrShe pauses for a long moment, looking at you.\r\n\r\n\"I heard about that. Hardly believed it. Someone taking Reynard Hannan down a notch? Couldn't happen. Man is invincible.\"\r\n\r\n\"So we all thought,\" $heOrShe says quietly. ",
+   "ctx": "data/campaign/rules.csv gaFCarchBeatReynard [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"Hm,\" $heOrShe rubs $hisOrHer chin. \"About our Scylla Coureuse problem.\"\r\n\r\n\"I need an excuse. Some exceptional reason to intervene. Evidence of... some risk, some misstep involving Coureuse. A leak in their operation. Can you give me one?\"",
+   "ctx": "data/campaign/rules.csv gaFCarchPLexcuse [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"Yes,\" $heOrShe says. \"I need a reason to intervene. Evidence of some misstep I can hold against the Kazeron operation on my station. Can you give me one?\"",
+   "ctx": "data/campaign/rules.csv gaFCarchPLexcuseAgain [text]"
+  },
+  {
+   "i": 29,
+   "en": "You explain to Archon $personLastName that you intercepted comm logs which reveal that a cell of Pather terrorists has infiltrated Laicaille Habitat under false identities to track down Scylla Coureuse. They know about the League intelligence safehouse and they have requested reinforcements to finish the job.\r\n\r\nAs the archon reads your uploaded log analysis, $heOrShe pales. \"Siyavong told me they'd run a tight operation- no screwups. And now there are Pathers crawling around my station?\"",
+   "ctx": "data/campaign/rules.csv gaFCArchonPLtellPathers [text]"
+  },
+  {
+   "i": 30,
+   "en": "As you upload salvage logs, you explain to Archon $personLastName that you discovered a secret hypercommunication relay in the derelict Groombridge Habitat that's been sending periodic transmissions to a repeater close to Laicaille Habitat. And it, in turn, has been receiving transmissions from an array of probes around a distant star. And this array was compromised by a scavenger on the far end, and...\r\n\r\nThe archon goes pale, \"-so pirates, or even Pathers, could be...\"\r\n\r\nYou nod.\r\n\r\nThe archon shakes $hisOrHer head, \"They said there'd be no wild experiments! Everyone remembers Galatia.\"",
+   "ctx": "data/campaign/rules.csv gaFCArchonPLtellRelay [text]"
+  },
+  {
+   "i": 31,
+   "en": "As you upload sensor readings and the scans recorded by rad-hardened drones, you explain to Archon $personLastName that you discovered a secret hypercommunication relay in the derelict Groombridge Habitat and it's been sending periodic transmissions to a repeater close to Laicaille Habitat. Someone has been talking without using official channels...\r\n\r\nThe archon goes pale, \"I was told that, that it'd all be above-board. If they're keeping secrets from me, there's no telling what they could be doing...\"\r\n\r\nYou nod.\r\n\r\nThe archon looks grim. \"They said there'd be no wild experiments! Everyone remembers Galatia.\"",
+   "ctx": "data/campaign/rules.csv gaFCArchonPLtellRelay2 [text]"
+  },
+  {
+   "i": 32,
+   "en": "You explain to Archon $personLastName that you have full documentation of the org chart, budget, and watch schedule of a League Fleet intel operation on Laicaille. There's even a line-item for a safehouse, and it aligns suspiciously with the cessation of a Fleet Intel search for Scylla Coureuse.\r\n\r\nYou forward the documents you received to drive the point home that you got everything on this sloppy operation by throwing a few credits around in-system. You hint at what a Pather cell could do with this information; the Persean League doesn't seem to be taking Laicaille Habitat's security very seriously.\r\n\r\nThe archon clenches $hisOrHer jaw. \"I was given assurances...\" ",
+   "ctx": "data/campaign/rules.csv gaFCArchonPLtellIntel [text]"
+  },
+  {
+   "i": 33,
+   "en": "You explain that you have a communication intercept sent by Cavin Pharoh - a dangerous radical agitator on Fikenhild - to Scylla Coureuse. On Laicaille.\r\n\r\nIf Fleet Intel knows about this, then what's their game? And if Fleet Intel doesn't know about this, then that's even worse, isn't it?\r\n\r\nThe archon looks grim at this prospect.\r\n\r\nAs you forward the fake intercept, the archon finally finds $hisOrHer words. \"They told me everyone would be quiet, no trouble, no games...\"",
+   "ctx": "data/campaign/rules.csv gaFCArchonPLtellCavin [text]"
+  },
+  {
+   "i": 34,
+   "en": "\"Laicaille is free and proud! And by the stars, that means something to the so-called 'minor' polities of the Persean League,\" $heOrShe nods significantly to you. \"-even if Gens Hannan doesn't respect it.\"\r\n\r\n\"They say 'don't ask questions', they say 'League defense' and 'need to know' and 'we've got a handle on it'. It's been a mess from start. And Laicaille is to shoulder all the risk?\"\r\n\r\nArchon $personLastName takes several deep breaths, then meets your gaze.\r\n\r\n\"I've been letting those Kazeronian spies push me around. Push Laicaille around. Lord it over us with their 'security clearance' dross.\"",
+   "ctx": "data/campaign/rules.csv gaFCArchonPLconclude1 [text]"
+  },
+  {
+   "i": 35,
+   "en": "The archon's voice steadies with a cold rage that's been building for many cycles. \"We're better than that. We'll show them who Laicaille really belongs to - not a bunch of Kazeron gens babies tracking dirt onto our fine station.\"",
+   "ctx": "data/campaign/rules.csv gaFCArchonPLconclue2 [text]"
+  },
+  {
+   "i": 36,
+   "en": "\"Oh?\" The archon's eyes flick off to one side then back to you.\r\n\r\n\"I don't think I've heard of her,\" $heOrShe says, asserting a placid tone of bureaucratic impatience. \"You know there's a public comm directory for this sort of thing, captain.\"",
+   "ctx": "data/campaign/rules.csv gaFCArchonAskCoureuse [text]"
+  }
+ ]
+}

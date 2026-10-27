@@ -1,0 +1,161 @@
+{
+ "chunk": 207,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"It's a $sShip_hullClass $sShip_hullSize in good condition. I could find another buyer, but I wanted to make the offer to you first- $sShip_price credits for the ship.\"",
+   "ctx": "data/campaign/rules.csv sShipOfferTextContact [text]"
+  },
+  {
+   "i": 2,
+   "en": "You pull the datapad closer and scroll through the specs.",
+   "ctx": "data/campaign/rules.csv sShipBarLookAtFreighter [text]"
+  },
+  {
+   "i": 3,
+   "en": "$personName taps a few keys to summon the ship specifications for your examination.",
+   "ctx": "data/campaign/rules.csv sShipLookAtFreighter [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"Fleet intel has requested discreet deployment of an observation package to $ssat_marketName orbit. You could fulfill the mission parameters.\"\r\nOR\r\n\"Strategic observation assets are imperative; we need a small observation package deployed directly to $ssat_marketName orbit.\"",
+   "ctx": "data/campaign/rules.csv ssatBlurb [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"I would like a small satellite deployed to orbit around $ssat_marketName. Just to keep an eye on things.\"\r\nOR\r\n\"I am in need of watchful eyes on $ssat_marketName - deploying a small spy satellite should be sufficient.\"",
+   "ctx": "data/campaign/rules.csv ssatBlurbUW [text]"
+  },
+  {
+   "i": 6,
+   "en": "From a shadowy booth a conspicuously nondescript $ssat_manOrWoman sitting with perfect posture catches your eye and gives what might be a small nod.",
+   "ctx": "data/campaign/rules.csv ssatBlurbBar [text]"
+  },
+  {
+   "i": 7,
+   "en": "From a shadowy booth a conspicuously nondescript $ssat_manOrWoman nursing a drink in a booth catches your eye and gives what might be a small nod.",
+   "ctx": "data/campaign/rules.csv ssatBlurbBarUW [text]"
+  },
+  {
+   "i": 8,
+   "en": "Although without insignia or uniform you instantly tag the $manOrWoman as military. It's the boots. They can never give up the mil-spec boots. \r\n\r\n\"Captain $playerName,\" $heOrShe says, \"You are known to my organization as a capable and discreet operative. I am authorized to propose a simple mission for you to carry out. Payment would consist of $ssat_reward credits upon completion.\"",
+   "ctx": "data/campaign/rules.csv ssatOfferTextBar [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"As for the operation,\" $heOrShe continues, as if briefing a cadet, \"Enter a standard orbit of $ssat_marketName, in the $ssat_systemName. Then deploy the spy satellite package; it is critical that no patrols be tracking your fleet at this stage. Once deployed, the spysat has stealth capabilities which make detection unlikely.\"\r\n\r\n\"Simple. Of course my organization could not risk carrying out this mission with flagged vessels. That is why we have come to you. Do you accept?\"",
+   "ctx": "data/campaign/rules.csv ssatOfferTextBar2 [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"The mission: enter a standard orbit of $ssat_marketName in the $ssat_systemName. Then deploy the spy satellite package while unobserved. I repeat, it is critical that no patrols be tracking your fleet at this stage. Once deployed, the spysat has stealth capabilities which make detection unlikely.\"\r\n\r\n\"Simple. Your reward for mission completion would be $ssat_reward credits. Of course my organization could not risk carrying out this mission with flagged vessels. That is why we have come to you. Do you accept?\"",
+   "ctx": "data/campaign/rules.csv ssatOfferTextContact [text]"
+  },
+  {
+   "i": 11,
+   "en": "Despite the anonymous work-suit, you note the fine tracery of unnatural scars and insolent swagger that suggest this $manOrWoman is connected to organized crime.\r\n\r\n$HeOrShe flicks some ash from a smoldering stim-stick onto the table, then offers a seat with the same hand, the smoke tracing an arc in the air.\r\n\r\n\"I need eyes on $ssat_marketName, in the $ssat_systemName. Word is you're quiet and can get jobs done.\" A drag from the stim-stick. \"I can't afford being caught there, even in orbit. Got a bit of a record.\" You see a smile by the glint off $hisOrHer teeth.\r\n\r\n\"I'll provide the spysat package. Make sure no patrols are on your tail when you deploy it in orbit. Easy as robbing a Luddie pilgrim, yeah? Pay is $ssat_reward credits. You in?\"",
+   "ctx": "data/campaign/rules.csv ssatOfferTextBarUW [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"Like I said, I need eyes on $ssat_marketName, in the $ssat_systemName. I'd do it myself, but it'd be inconvenient to be caught there, even in orbit. Got a bit of a record.\" \r\n\r\n$personName smiles like a predator, a little too proud. Probably best not to inquire.\r\n\r\n\"I'll provide the spysat package. Make sure no patrols are on your tail when you deploy it in orbit. Easy as robbing a Luddie pilgrimage. Pay is $ssat_reward credits. You in?\"",
+   "ctx": "data/campaign/rules.csv ssatOfferTextContactUW [text]"
+  },
+  {
+   "i": 13,
+   "en": "Your $shipOrFleet was recently detected - or is currently being tracked by - a nearby fleet, making a covert spysat deployment impossible.",
+   "ctx": "data/campaign/rules.csv ssatPrintHostilesText [text]"
+  },
+  {
+   "i": 14,
+   "en": "Your nav officer reports that your $shipOrFleet has arrived at the coordinates provided by $ssat_personName. The spysat is ready for deployment.\r\n\r\nThe go-button flashes softly on your command interface.",
+   "ctx": "data/campaign/rules.csv ssatObjectInteraction [text]"
+  },
+  {
+   "i": 15,
+   "en": "The bay doors open, and the spysat is released from its cradle. You watch the display feed as built-in maneuvering thrusters puff softly, guiding it away from your flagship. The image flickers.\r\n\r\nYour sensors officer looks up in alarm, \"$PlayerSirOrMadam, I don't have a track on the sat. It's just... gone.\"",
+   "ctx": "data/campaign/rules.csv ssatObjectScan [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"Command has assigned me a somewhat atypical extraction mission. Due to, ah, public-political implications, it is best performed by a mixed-capability independent unit such as yours.\"",
+   "ctx": "data/campaign/rules.csv extrBlurb1 [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"Command has given me an unconventional extraction mission; a mixed-capability unit with experience interacting with, ah, non-aligned militants may be most appropriate for the situation.\"",
+   "ctx": "data/campaign/rules.csv extrBlurb2 [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"Command has given me a sensitive mission. Your independent, mixed-capability unit would be best suited to carrying it out due to... religious elements.\"",
+   "ctx": "data/campaign/rules.csv extrBlurb3 [text]"
+  },
+  {
+   "i": 19,
+   "en": "A nervous cadet holding a drink approaches you, \"Um, captain. My uh- I mean, the $extr_manOrWoman over there wants a word.\" The cadet glances at a dark corner of the bar.",
+   "ctx": "data/campaign/rules.csv extrBlurbBar1 [text]"
+  },
+  {
+   "i": 20,
+   "en": "The $manOrWoman sits in the dark. $HeOrShe is dressed as a common tech, but speaks as though $heOrShe holds, or has held, command.\r\n\r\n\"Captain $playerName,\" $heOrShe says. \"My superiors recognize that your unique talents could serve our faction.\" There is no drink on the table, and no invitation to sit. \"We need an agent extracted from $extr_marketFactionArticle $extr_marketFaction colony $extr_marketOnOrAt $extr_marketName. A flagged taskforce cannot do this due to... political considerations. Our offer is $extr_reward credits.\"\r\n\r\n\"The oppo may be expecting you. We have intel on their defenses,\" the $manOrWoman places a datapad on the table for your inspection.\r\n\r\nYou quickly review the contents and estimate that you'd need around $extr_marines marines to carry off the operation.",
+   "ctx": "data/campaign/rules.csv extrOfferTextBar1 [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"Captain $playerName,\" $heOrShe says. \"As I said, we need the agent extracted from $extr_marketName. Command has authorized a payment of $extr_reward credits for a successful mission.\"\r\n\r\n\"The oppo may be expecting you. I suggest you go in quiet because, as you know, it's $extr_marketFactionArticle $extr_marketFaction colony. The situation is enough of a mess as it is.\" \r\n\r\n$HeOrShe pauses a moment. Some hidden frustration? \"We do, however, have a fair piece of intel on their defensive capabilities,\" $personLastName says, fingers moving rapidly to transfer a datafile for your inspection - a detailed tactical report.\r\n\r\nYou quickly review the contents and estimate that you'd need around $extr_marines marines to carry off the operation.",
+   "ctx": "data/campaign/rules.csv extrOfferTextContact1 [text]"
+  },
+  {
+   "i": 22,
+   "en": "The $manOrWoman sits in the dark at a table with no drink. $HeOrShe is dressed as a common tech, but speaks as though $heOrShe holds, or has held, command.\r\n\r\n\"Captain $playerName,\" $heOrShe says. \"One of our top agents infiltrated the retinue of a pirate warlord $extr_marketOnOrAt $extr_marketName. They have been apprehended. Extraction by any means is now our mission objective, though political considerations make use of the flagged navy in this operation... awkward. Our offer to you is $extr_reward credits for successful return of our agent.\"\r\n\r\n\"The pirates will be expecting you, but we have intel on their defenses,\" the $manOrWoman places a datapad on the table.\r\n\r\nYou quickly review the contents and estimate that around $extr_marines marines are needed to execute the operation.",
+   "ctx": "data/campaign/rules.csv extrOfferTextBar2 [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"One of our agents infiltrated the retinue of a pirate warlord $extr_marketOnOrAt $extr_marketName. We know that they have been apprehended. Extraction by any means necessary is now our mission objective, and I believe you are best suited to carry out this mission.\" $HeOrShe sighs, \"We cannot use the flagged navy in this operation due to... politics. So we come to you. Retrieve the agent and we will pay you $extr_reward credits.\"\r\n\r\nWith a few taps at $hisOrHer console you receive an incoming data stream, \"Intel on the pirates' defenses. We won't be sending you in blind, at least.\"\r\n\r\nYou quickly review the intel and estimate that you'd need around $extr_marines marines to carry off this operation.",
+   "ctx": "data/campaign/rules.csv extrOfferTextContact2 [text]"
+  },
+  {
+   "i": 24,
+   "en": "The $manOrWoman sits in the dark at a table with no drink. $HeOrShe is dressed as a common tech, but speaks as though $heOrShe holds, or has held, command.\r\n\r\n\"Captain $playerName,\" $heOrShe says. \"One of our top agents infiltrated a militant Luddic sect $extr_marketOnOrAt $extr_marketName. They have been apprehended. Extraction by any means is now our mission objective, though religious considerations make use of the flagged navy in this operation... awkward. Our offer to you is $extr_reward credits for successful return of our agent.\"\r\n\r\n\"The Pathers will be expecting you, but we have intel on their defenses,\" the $manOrWoman places a datapad on the table.\r\n\r\nYou quickly review the contents and estimate that around $extr_marines marines are needed to execute the operation.",
+   "ctx": "data/campaign/rules.csv extrOfferTextBar3 [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"One of our agents infiltrated a militant Luddic sect $extr_marketOnOrAt $extr_marketName.\" $HeOrShe meets your eyes, \"Yes, Pathers. We know our agent was apprehended. Extraction by any means necessary is now our mission objective, and I believe you are best suited to carry out this mission.\" $HeOrShe sighs, \"We cannot use the flagged navy in this operation due to... religious considerations. So we come to you. Retrieve the agent and we will pay you $extr_reward credits.\"\r\n\r\nWith a few taps at $hisOrHer console you receive an incoming data stream, \"Intel on the Pathers' defenses. We won't be sending you in blind, at least.\"\r\n\r\nYou quickly review the intel and estimate that you'd need around $extr_marines marines to carry off this operation.",
+   "ctx": "data/campaign/rules.csv extrOfferTextContact3 [text]"
+  },
+  {
+   "i": 26,
+   "en": "You feel a twitch through the agrav plates as the assault shuttle docks. You nod your approval to the medic and marines escorting the rescued agent - they return a salute. The agent is too dazed to recognize you as their savior. \r\n\r\nNo matter.",
+   "ctx": "data/campaign/rules.csv extrRaidFinished1 [text]"
+  },
+  {
+   "i": 27,
+   "en": "The extracted agent, bloodied but alive, is escorted to secure quarters by a medic and two guards. \r\n\r\nCurses and impotent oaths of vengeance come in over the comms. You nod to your comms officer, who terminates the open channel.",
+   "ctx": "data/campaign/rules.csv extrRaidFinished2 [text]"
+  },
+  {
+   "i": 28,
+   "en": "The extracted agent, exhausted, alive, and in need of a long shower is escorted to secure quarters by a medic and two guards. \r\n\r\nCurses and impotent oaths of vengeance come in over the comms. You nod to your comms officer, who terminates the open channel.",
+   "ctx": "data/campaign/rules.csv extrRaidFinished3 [text]"
+  },
+  {
+   "i": 29,
+   "en": "The shuttle makes its final approach to the port district, the pilot overseeing small pings of attitude thrusters.\r\n\r\nYour comm link chimes. An incoming request appears - an encrypted voice-only connection from source unknown.",
+   "ctx": "data/campaign/rules.csv extr_barIntercept [text]"
+  },
+  {
+   "i": 30,
+   "en": "You accept the comm request. A voice crackles from the staticy display of your TriPad.\r\n\r\n\"Captain $playerName. I know why you're really here. I believe you and I can resolve this situation personally, though I must remain anonymous due to political considerations.\"\r\n\r\n\"I recognize that your capability to employ deadly force is not insignificant. I wish to propose a path of least bloodshed.\"\r\n\r\n\"You will have to trust me, captain. And, naturally, I cannot simply give you what you want; it will come at the price of $extr_storyCost credits. I hope you find this an acceptable compromise, given the alternative.\"",
+   "ctx": "data/campaign/rules.csv extr_barPickUp [text]"
+  },
+  {
+   "i": 31,
+   "en": "The voice provides you with a numbered burner account for the credits transfer. \r\n\r\n\"Excellent, captain,\" the anonymized  voice says, \"I confirm receipt of your payment. From this point it'll take only a short time for the arrangements to be made.\"\r\n\r\nThe voice gives you instructions to head to a particular bar, $extr_barName, near the concourse. \"Goodbye, Captain $playerName,\" it says one last time.\r\n\r\nWith the sinking feeling that your target - and credits -might be further away from you with each passing minute, you enter the bar.",
+   "ctx": "data/campaign/rules.csv extr_barStoryOption1 [text]"
+  }
+ ]
+}

@@ -1,0 +1,161 @@
+{
+ "chunk": 94,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"Spectra and mass returns are consistent with original armor composition from our, ah, matching specimen,\" your sensors officer reports. \"No active power systems, no atmo, no habitable volumes. Temperature approaching background.\"\r\n\r\nThey look over their shoulder at you. \"It's dead, and it's been dead for a very long time.\"\r\n\r\nSensors gives you an apologetic look. \"Conditions are strange out here, $playerSirOrMadam. We'll need a closer look to find out more.\"",
+   "ctx": "data/campaign/rules.csv gsVambraceExplore1b [text]"
+  },
+  {
+   "i": 2,
+   "en": "You give the word.\r\n\r\nYour operations chief nods, then barks out deployment orders to the waiting salvor teams.\r\n\r\nThe investigation proceeds smoothly. The derelict structure and its attendant debris are truly cold and dead. Such battle-damage is familiar to your salvors, and this survey even easier due to the apparent lack of live munitions and none of the usual frozen or fried vacuum-desiccated remains.\r\n\r\nSensing a laxity in the crews, your ops chief growls admonitions over the general comms then orders a more detailed adherence to procedure.",
+   "ctx": "data/campaign/rules.csv gsVambraceSalvors1 [text]"
+  },
+  {
+   "i": 3,
+   "en": "As reports and scans come in, a picture emerges - both a detailed holographic mapping and an understanding of what this structure is.\r\n\r\nIt is a piece of modular armor with structural attachment points, flux vent ports, and even an auxiliary sensor network, though no internal power sources.\r\n\r\nThe engineering is all recognizable as related to Domain standards, but as if from a crude half-foreign culture. Power connectors, for instance, are robustly built but oddly shaped and accompanied by an odd drift in signage iconography. It's nothing your salvors can't understand or adapt, but it is technology unlike even the oldest nanofabricated hulls and hardware designs used in the Persean Sector.",
+   "ctx": "data/campaign/rules.csv gsVambraceSalvors2 [text]"
+  },
+  {
+   "i": 4,
+   "en": "Your technology officer jumps at your words; they were apparently quite lost in thought.\r\n\r\n\"Um, $playerSirOrMadam. If I had to... in short, it's...\" \r\n\r\nYour ops chief maintains an even expression, pointedly unreactive to this stuttering.\r\n\r\n\"It's ancient,\" Tech finally settles on a word. \"It can only be a product of the Early Domain.\"",
+   "ctx": "data/campaign/rules.csv gsVambraceSalvors3 [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"Judging by the battle damage...\" Your technology officer looks back at the specs, struggling. \"There was a battle.\"\r\n\r\nA look of concern grows. \"It has been here for a long time, but from the debris cloud... the conditions are strange enough, but I would speculate that this is not an untouched site. It's nothing like salvagers or scrappers, they've got distinctive patterns. I couldn't say who, or what, but I suspect the site has been disturbed, or moved.\"\r\n\r\n\"If only it had datacores, buffers, something to analyze!\" Tech looks at your ops chief, who gives a single shake of their head.",
+   "ctx": "data/campaign/rules.csv gsVambraceSalvors4 [text]"
+  },
+  {
+   "i": 6,
+   "en": "You give the word.\r\n\r\nYour operations chief nods, then barks out deployment orders to the waiting salvor teams.\r\n\r\nThe investigation proceeds smoothly. The structure and its attendant debris are truly cold and dead. Such battle-damage is familiar to your salvors, and this survey even easier due to the apparent lack of live munitions and none of the usual frozen or fried vacuum-desiccated remains.\r\n\r\nSensing a laxity in the crews, your ops chief growls admonitions over the general comms then orders a more detailed adherence to procedure.",
+   "ctx": "data/campaign/rules.csv gsVambraceSalvors1b [text]"
+  },
+  {
+   "i": 7,
+   "en": "Reports and scans come in, a detailed holographic mapping forms in your primary display, and all data confirms with certainty that this is an Onslaught Mk.I vambrace.\r\n\r\nThe modular armor features structural attachment points, flux vent ports, and even an auxiliary sensor network, though no internal power sources.\r\n\r\nThe engineering is all recognizable as related to Domain standards, but as if from a crude half-foreign culture. Power connectors, for instance, are robustly built but oddly shaped and accompanied by an odd drift in signage iconography. Your salvors have understood and adapted to these oddities before. Nonetheless, it is technology unlike even the oldest nanofabricated hulls and hardware designs used in the Persean Sector.",
+   "ctx": "data/campaign/rules.csv gsVambraceSalvors2b [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"Judging by the battle damage...\" Your technology officer looks back at the specs, struggling. \"There was a battle.\"\r\n\r\nA look of concern grows. \"It has been here for a long time, but from the debris cloud... and just one vambrace, abandoned here? The conditions are strange enough, but I would speculate that this is not an untouched site. It doesn't look like salvagers or scrappers, they've got distinctive patterns. I couldn't say who, or what, but I suspect the site has been disturbed. Or moved.\"\r\n\r\n\"If only it had datacores, buffers, something to analyze!\" Tech looks at your ops chief, who gives a single shake of their head.",
+   "ctx": "data/campaign/rules.csv gsVambraceSalvors3b [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"Hmm,\" she gives you a renewed look of interest. \"You're the one who had the glove. Right.\" \r\n\r\n\"Well you had me at 'pay', captain. Come on down and we'll have a look at... what did you say you had?\"",
+   "ctx": "data/campaign/rules.csv oyaTanaicaAskSampleResp [text]"
+  },
+  {
+   "i": 10,
+   "en": "She shrugs. \"It's your credits.\"",
+   "ctx": "data/campaign/rules.csv oyaTanaicaAskSampleBack2 [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"The Abyss?\" Her eyes widen. \"You're braver than you look. Or stupider.\"\r\n\r\n\"Anyway, come on down. I'll feed some excuse to traffic control.\"",
+   "ctx": "data/campaign/rules.csv oyaTanaicaAskSampleVambrace [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"Alright.\"\r\n\r\nShe glances aside, not bothering to hide that she's checking the time.",
+   "ctx": "data/campaign/rules.csv oyaTanaicaAskNeverMind [text]"
+  },
+  {
+   "i": 13,
+   "en": "Descending to Asher, you glance out the viewport of your shuttle.\r\n\r\nStars disappear from the black tapestry of space as it begins to glow with a deep violet-blue before sinking into dim, ruddy brown.\r\n\r\nThe thick clouds of suspended fines are whipped away by the shuttle's flight through cold winds, and the shadow is replaced by the generalized sandy murk of Asher.",
+   "ctx": "data/campaign/rules.csv oyaTanaicaAskSampleShuttle [text]"
+  },
+  {
+   "i": 14,
+   "en": "* * *\r\n\r\n\"Doesn't look like much, does it,\" says Senior Engineer Tanaica as she takes the sample from you - a block of armor composite, edges rough from the salvors' plasma cutters.\r\n\r\nShe places the sample onto a shelf which retracts into the towering white casing of the analysis suite. Transparent panes reveal the machine's arcane inner workings.\r\n\r\n\"You found it in the Abyss, you said?\"\r\n\r\nA containment shield drops over the sample port with a satisfying clunk.",
+   "ctx": "data/campaign/rules.csv oyaTanaicaVambrace0 [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"Most of 'em are, aren't they.\"\r\n\r\nShe manipulates the controls, evacuating the atmo from the sample container. Then she stops to look at you.\r\n\r\n\"If this is just a chunk of starship armor, I can tell you that for free. Saves you 10,000 credits.\"\r\n\r\n\"But if you want me to look real close and do some professional speculation,\" she holds out her datapad, ready to receive payment.",
+   "ctx": "data/campaign/rules.csv oyaTanaicaVambrace1 [text]"
+  },
+  {
+   "i": 16,
+   "en": "She shrugs, and reverses the sample insertion procedure. \r\n\r\nSenior Engineer Tanaica sends you on your way back to orbit with no more farewell than a succinct \"Right then.\"",
+   "ctx": "data/campaign/rules.csv oyaTanaicaVambraceEarlyOut [text]"
+  },
+  {
+   "i": 17,
+   "en": "Your TriPad pings confirmation, and hers responds cheerfully.\r\n\r\n\"Right then,\" she says, equally cheerful.\r\n\r\nTanaica's datapad disappears as she turns back to the controls. A loud humming grows - it feels almost ticklish in your teeth for a moment as she adjusts power levels.\r\n\r\nDisplays bloom with readouts, cheerful greens abounding. A holo of the sample flickers into being.",
+   "ctx": "data/campaign/rules.csv oyaTanaicaVambrace2 [text]"
+  },
+  {
+   "i": 18,
+   "en": "The machine's hum drops an octave, and loses some of its urgency.\r\n\r\n\"Huh,\" she says. She wears a look of blank unease.\r\n\r\n\"Weird.\"",
+   "ctx": "data/campaign/rules.csv oyaTanaicaVambrace3 [text]"
+  },
+  {
+   "i": 19,
+   "en": "Tanaica manipulates her controls and a small cutaway pulls out of the rough block of armor. It scales to fill the volume of the holo.\r\n\r\nAnother segmentation of scale iterates, then another as Tanaica brings the resolution to the nearly-atomic. Patterns of false colour flash highlighting pseudo-crystals, various regular - and irregular - structures, as well as flaws.\r\n\r\n\"It's the damnedest thing, isn't it,\" she says, attention focused on the display.",
+   "ctx": "data/campaign/rules.csv oyaTanaicaVambrace4 [text]"
+  },
+  {
+   "i": 20,
+   "en": "She turns to look at you, raising an eyebrow.",
+   "ctx": "data/campaign/rules.csv oyaTanaicaVambrace5a [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"Sorry, cap,\" she says. \"I should be thinking out loud, you paid good credits for this after all.\"\r\n\r\nShe licks her lips, then releases a breath.",
+   "ctx": "data/campaign/rules.csv oyaTanaicaVambrace5-1 [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"It's nanoforged. Obvious stuff, look at that drift,\" she taps something and a distortion in the material structure becomes exaggerated.\r\n\r\n\"Crude, relatively speaking. Modern forges won't do it like this. Hm. 'Modern' meaning anything from the last thousand cycles. Seems like you found a genuine museum piece. Not unheard of 'course. Scavengers pull in bits of old sporeships and Explorarium junk often enough. Saw a bit of cryosleeper scanned when I was in training. Fascinating stuff.\"\r\n\r\nShe taps not the controls, but the casing of the analysis suite. \"So it's old, but that's not what's strange.\"",
+   "ctx": "data/campaign/rules.csv oyaTanaicaVambrace5-2 [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"Ha!\" She smiles, if uneasily. \"Got me. It's boring as dirt here in Luddie-land, gotta make my own fun.\"\r\n\r\n\"Still, this really is interesting... There's no embedded fabrication-rights!\"\r\n\r\nShe looks at you significantly, as if this means something important.",
+   "ctx": "data/campaign/rules.csv oyaTanaicaVambrace6a [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"There are no embedded fabrication-rights!\"\r\n\r\nShe looks at you as if this means something important, and you're supposed to respond.",
+   "ctx": "data/campaign/rules.csv oyaTanaicaVambrace6b [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"Sure. And they've been churning out garbage for 200 cycles. But what we see here is that this was made by a very old, very large forge. Probably top of the line for the time. And your sample has been exposed to space for a long, long time. And no FRM.\"\r\n\r\n\"Haven't seen this before.\" She rubs her fingers together, thinking. \"Either someone was running a starsystem polity-level illicit forge a couple thousand cycles ago and you found the results, or... hm, you found something really weird.\"\r\n\r\nShe turns to you. \"Where'd you find this? Some rock in the Abyss?\"",
+   "ctx": "data/campaign/rules.csv oyaTanaicaVambrace7 [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"That's... that'd be insane. The whole point of the Domain was to control this stuff! Well,\" she concedes to herself, \"Maybe the Gate Network was point number one.\"\r\n\r\n\"But regulating the nanoforges would have been two. Maybe three. Definitely important. Everything is stamped and tracked, that way you know who made what, where it ends up, when to collect forge-taxes, and who to blame when things go wrong.\"\r\n\r\n\"It was...\" She shakes her hands at the analysis suite in an odd gesture, emphasizing the size of the concept. \"It was the basis for interstellar civilization itself!\"",
+   "ctx": "data/campaign/rules.csv oyaTanaicaVambrace8 [text]"
+  },
+  {
+   "i": 27,
+   "en": "She takes a deep breath, looking self-conscious at her own outburst, then busies herself with flicking at some controls; the machine slows its hum to a dull whine and then a sudden unsettling absence of a background noise you weren't even conscious of hearing.\r\n\r\n\"Some rebel polity in the Domain-era I guess? Maybe they had some frontier-freedom notions before the Domain Armada re-stomped them into compliance. I'd pay good credits myself to learn how in Ludd's seven hells it ended up on some rock in the Abyss!\"\r\n\r\nShe catches herself, then grins. \"Uh, not that I wouldn't appreciate that answer for free if you happen to solve it.\"",
+   "ctx": "data/campaign/rules.csv oyaTanaicaVambrace9 [text]"
+  },
+  {
+   "i": 28,
+   "en": "The sample emerges, and - more gingerly, now - Senior Engineer Tanaica pulls on some gloves and places it back in your sample container.\r\n\r\n\"You find some interesting stuff out there if you don't mind me saying so, captain.\"\r\n\r\nShe nods approvingly. \"Thank you for the subsidy. I'll be sure to enjoy myself once I wrap up this miserable Asher contract.\"",
+   "ctx": "data/campaign/rules.csv oyaTanaicaVambrace11 [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"Oh sure,\" she says.\r\n\r\nThe sample emerges, and - more gingerly, now - Senior Engineer Tanaica pulls on some gloves and places it back in your sample container.\r\n\r\n\"Wait.\" She looks at the sample container. \"Really?\"",
+   "ctx": "data/campaign/rules.csv oyaTanaicaVambraceOneslaught1 [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"Wow.\" She hands the sample container back to you.",
+   "ctx": "data/campaign/rules.csv oyaTanaica_vambraceOneslaught3a [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"Wow. Guess that explains why the newscasts have been so boring today. Luddics, right?\" She hands the sample container back to you.",
+   "ctx": "data/campaign/rules.csv oyaTanaica_vambraceOneslaught3b [text]"
+  }
+ ]
+}

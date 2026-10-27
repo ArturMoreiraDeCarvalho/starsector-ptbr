@@ -1,0 +1,1256 @@
+{
+ "chunk": 28,
+ "cat": "jar",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"Welcome! I've got something here that I think you'll find very interesting. Your actions over the past several cycles have caused quite a stir in certain corners, and I took it upon myself to look into your history, as it were. Here, let me transfer the synopsis.\"",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/historian/HistorianBarEvent.class"
+  },
+  {
+   "i": 2,
+   "en": "\"Welcome, welcome, please sit! I'm sure you're wondering why I called you over.\"\n\n",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/historian/HistorianBarEvent.class"
+  },
+  {
+   "i": 3,
+   "en": "'s face for just a moment before ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/historian/HistorianBarEvent.class"
+  },
+  {
+   "i": 4,
+   "en": "... something interesting, but not of immediate import",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/historian/HistorianBarEvent.class"
+  },
+  {
+   "i": 5,
+   "en": "A weary expression passes over the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/historian/HistorianBarEvent.class"
+  },
+  {
+   "i": 6,
+   "en": "An old ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/historian/HistorianBarEvent.class"
+  },
+  {
+   "i": 7,
+   "en": "End the conversation",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/historian/HistorianBarEvent.class"
+  },
+  {
+   "i": 8,
+   "en": "Go over to the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/historian/HistorianBarEvent.class"
+  },
+  {
+   "i": 9,
+   "en": "I think we can help each other, you and I. See, I have the information,\" ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/historian/HistorianBarEvent.class"
+  },
+  {
+   "i": 10,
+   "en": "The historian tells you about...",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/historian/HistorianBarEvent.class"
+  },
+  {
+   "i": 11,
+   "en": "You spend a couple minutes sharing drinks and conversing about recent goings-on in the Sector. Before long you get down to business.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/historian/HistorianBarEvent.class"
+  },
+  {
+   "i": 12,
+   "en": "You thank ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/historian/HistorianBarEvent.class"
+  },
+  {
+   "i": 13,
+   "en": "Your TriPad chimes softly; a new program is ready to be installed.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/historian/HistorianBarEvent.class"
+  },
+  {
+   "i": 14,
+   "en": "know for sure where I'll end up in a couple of months.\"",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/historian/HistorianBarEvent.class"
+  },
+  {
+   "i": 15,
+   "en": "leafing through what looks like a genuine hardcopy paper book. As you walk by, ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/historian/HistorianBarEvent.class"
+  },
+  {
+   "i": 16,
+   "en": "Ship Blueprint",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/historian/ShipBlueprintOffer.class"
+  },
+  {
+   "i": 17,
+   "en": " - Recovered",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/historian/SpecialItemOffer.class"
+  },
+  {
+   "i": 18,
+   "en": " Location",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/historian/SpecialItemOffer.class"
+  },
+  {
+   "i": 19,
+   "en": "... the possible location of an item (",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/historian/SpecialItemOffer.class"
+  },
+  {
+   "i": 20,
+   "en": " Base",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathBaseIntel.class"
+  },
+  {
+   "i": 21,
+   "en": " Base - ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathBaseIntel.class"
+  },
+  {
+   "i": 22,
+   "en": " Base - Abandoned",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathBaseIntel.class"
+  },
+  {
+   "i": 23,
+   "en": " Base - Bounty Completed",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathBaseIntel.class"
+  },
+  {
+   "i": 24,
+   "en": " Base - Bounty Expired",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathBaseIntel.class"
+  },
+  {
+   "i": 25,
+   "en": " Base - Bounty Posted",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathBaseIntel.class"
+  },
+  {
+   "i": 26,
+   "en": " Base - Destroyed",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathBaseIntel.class"
+  },
+  {
+   "i": 27,
+   "en": " Base - Discovered",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathBaseIntel.class"
+  },
+  {
+   "i": 28,
+   "en": " Base - Exact Location Unknown",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathBaseIntel.class"
+  },
+  {
+   "i": 29,
+   "en": " established a base in the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathBaseIntel.class"
+  },
+  {
+   "i": 30,
+   "en": " posted a bounty for the destruction of this base.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathBaseIntel.class"
+  },
+  {
+   "i": 31,
+   "en": "Asylum",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathBaseIntel.class"
+  },
+  {
+   "i": 32,
+   "en": "Atonement",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathBaseIntel.class"
+  },
+  {
+   "i": 33,
+   "en": "Bounty faction: ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathBaseIntel.class"
+  },
+  {
+   "i": 34,
+   "en": "Brought in by smugglers",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathBaseIntel.class"
+  },
+  {
+   "i": 35,
+   "en": "Citadel",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathBaseIntel.class"
+  },
+  {
+   "i": 36,
+   "en": "Cleansing",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathBaseIntel.class"
+  },
+  {
+   "i": 37,
+   "en": "Development level",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathBaseIntel.class"
+  },
+  {
+   "i": 38,
+   "en": "Devotion",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathBaseIntel.class"
+  },
+  {
+   "i": 39,
+   "en": "Hammer",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathBaseIntel.class"
+  },
+  {
+   "i": 40,
+   "en": "Harbor",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathBaseIntel.class"
+  },
+  {
+   "i": 41,
+   "en": "Haven",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathBaseIntel.class"
+  },
+  {
+   "i": 42,
+   "en": "Hold",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathBaseIntel.class"
+  },
+  {
+   "i": 43,
+   "en": "It has extremely well-developed defensive capabilities and is protected by a large number of fleets.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathBaseIntel.class"
+  },
+  {
+   "i": 44,
+   "en": "It has well-developed defensive capabilities and is protected by a large number of fleets.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathBaseIntel.class"
+  },
+  {
+   "i": 45,
+   "en": "It is rumored that this base is no longer operational.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathBaseIntel.class"
+  },
+  {
+   "i": 46,
+   "en": "Locus",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathBaseIntel.class"
+  },
+  {
+   "i": 47,
+   "en": "Luddic Path Base",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathBaseIntel.class"
+  },
+  {
+   "i": 48,
+   "en": "Nexus",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathBaseIntel.class"
+  },
+  {
+   "i": 49,
+   "en": "Oblation",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathBaseIntel.class"
+  },
+  {
+   "i": 50,
+   "en": "Offering",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathBaseIntel.class"
+  },
+  {
+   "i": 51,
+   "en": "Principle",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathBaseIntel.class"
+  },
+  {
+   "i": 52,
+   "en": "Refuge",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathBaseIntel.class"
+  },
+  {
+   "i": 53,
+   "en": "Sacrement",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathBaseIntel.class"
+  },
+  {
+   "i": 54,
+   "en": "Safehold",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathBaseIntel.class"
+  },
+  {
+   "i": 55,
+   "en": "Sanctuary",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathBaseIntel.class"
+  },
+  {
+   "i": 56,
+   "en": "Sanctum",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathBaseIntel.class"
+  },
+  {
+   "i": 57,
+   "en": "Shadow",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathBaseIntel.class"
+  },
+  {
+   "i": 58,
+   "en": "Shelter",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathBaseIntel.class"
+  },
+  {
+   "i": 59,
+   "en": "Terminus",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathBaseIntel.class"
+  },
+  {
+   "i": 60,
+   "en": "The base serves to provide material support to active Pather cells on nearby colonies, enabling them ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathBaseIntel.class"
+  },
+  {
+   "i": 61,
+   "en": "This base is known to be providing support to active Pather cells at the following colonies:",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathBaseIntel.class"
+  },
+  {
+   "i": 62,
+   "en": "You do not know of any active pather cells this base might be providing support to.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathBaseIntel.class"
+  },
+  {
+   "i": 63,
+   "en": "You have destroyed this base.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathBaseIntel.class"
+  },
+  {
+   "i": 64,
+   "en": "You have not yet discovered the exact location or capabilities of this base.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathBaseIntel.class"
+  },
+  {
+   "i": 65,
+   "en": "to cause widespread damage and destruction.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathBaseIntel.class"
+  },
+  {
+   "i": 66,
+   "en": "Active Luddic Path cells",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathCells.class"
+  },
+  {
+   "i": 67,
+   "en": " - Active",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathCellsIntel.class"
+  },
+  {
+   "i": 68,
+   "en": " - Disrupted",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathCellsIntel.class"
+  },
+  {
+   "i": 69,
+   "en": " - Dissolved",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathCellsIntel.class"
+  },
+  {
+   "i": 70,
+   "en": " - Incident",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathCellsIntel.class"
+  },
+  {
+   "i": 71,
+   "en": " - Incident Averted",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathCellsIntel.class"
+  },
+  {
+   "i": 72,
+   "en": " - Sleeper",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathCellsIntel.class"
+  },
+  {
+   "i": 73,
+   "en": " and detonated it. The colony has been effectively destroyed.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathCellsIntel.class"
+  },
+  {
+   "i": 74,
+   "en": " have been dissolved.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathCellsIntel.class"
+  },
+  {
+   "i": 75,
+   "en": " is providing support to these cells.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathCellsIntel.class"
+  },
+  {
+   "i": 76,
+   "en": " operations disrupted for %s ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathCellsIntel.class"
+  },
+  {
+   "i": 77,
+   "en": " operations for %s ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathCellsIntel.class"
+  },
+  {
+   "i": 78,
+   "en": " operations was averted by the local security forces.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathCellsIntel.class"
+  },
+  {
+   "i": 79,
+   "en": " sabotage",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathCellsIntel.class"
+  },
+  {
+   "i": 80,
+   "en": ", but the local security forces were able to locate and disarm it, thereby ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathCellsIntel.class"
+  },
+  {
+   "i": 81,
+   "en": ", provided another base exists.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathCellsIntel.class"
+  },
+  {
+   "i": 82,
+   "en": "AI core administrator (%s)",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathCellsIntel.class"
+  },
+  {
+   "i": 83,
+   "en": "An attempted act of sabotage against ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathCellsIntel.class"
+  },
+  {
+   "i": 84,
+   "en": "Colony destroyed by planetbuster",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathCellsIntel.class"
+  },
+  {
+   "i": 85,
+   "en": "However, the base supporting these cells is no longer operational. It is projected that establishing a new support network will take at least %s ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathCellsIntel.class"
+  },
+  {
+   "i": 86,
+   "en": "If the base is destroyed, it will take some time to organize support from another base, and both ground and fleet operations will be disrupted.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathCellsIntel.class"
+  },
+  {
+   "i": 87,
+   "en": "If they succeed, the colony will effectively be destroyed.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathCellsIntel.class"
+  },
+  {
+   "i": 88,
+   "en": "Incident averted by local security forces",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathCellsIntel.class"
+  },
+  {
+   "i": 89,
+   "en": "Luddic Path Cells",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathCellsIntel.class"
+  },
+  {
+   "i": 90,
+   "en": "Multiple planned attacks against various industrial, military, and civilian targets  were averted by the local security forces.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathCellsIntel.class"
+  },
+  {
+   "i": 91,
+   "en": "No impact on operations due to lack of material support.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathCellsIntel.class"
+  },
+  {
+   "i": 92,
+   "en": "No perceptible impact on operations as of yet.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathCellsIntel.class"
+  },
+  {
+   "i": 93,
+   "en": "Pather interest",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathCellsIntel.class"
+  },
+  {
+   "i": 94,
+   "en": "Stability reduced by %s",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathCellsIntel.class"
+  },
+  {
+   "i": 95,
+   "en": "Suspected AI core administrator (%s)",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathCellsIntel.class"
+  },
+  {
+   "i": 96,
+   "en": "The Pather base at the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathCellsIntel.class"
+  },
+  {
+   "i": 97,
+   "en": "The Pather cells ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathCellsIntel.class"
+  },
+  {
+   "i": 98,
+   "en": "The Pather cells have conducted a successful act of sabotage, disrupting ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathCellsIntel.class"
+  },
+  {
+   "i": 99,
+   "en": "The Pather cells have conducted low-level attacks on various industrial, military, and civilian targets, reducing stability by %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathCellsIntel.class"
+  },
+  {
+   "i": 100,
+   "en": "The Pather cells have smuggled a planetbuster onto ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathCellsIntel.class"
+  },
+  {
+   "i": 101,
+   "en": "The Pathers have not made any significant moves, but are apparently preparing to do so if whatever activity they object to - industrial development, or the suspected use of AI cores, and other such - continues.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathCellsIntel.class"
+  },
+  {
+   "i": 102,
+   "en": "The following activity is attracting Pather interest, whether due to AI core use or the inherent nature of the industry:",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathCellsIntel.class"
+  },
+  {
+   "i": 103,
+   "en": "There are active Luddic Path cells ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathCellsIntel.class"
+  },
+  {
+   "i": 104,
+   "en": "There are indications that sleeper Luddic Path cells are being organized ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathCellsIntel.class"
+  },
+  {
+   "i": 105,
+   "en": "There are indications that the Pather cells are preparing to sneak a planetbuster onto ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathCellsIntel.class"
+  },
+  {
+   "i": 106,
+   "en": "They are engaged in planning acts of terror and industrial sabotage, but are unlikely to carry them off unless the overal level of hostile activity in the system provides sufficient cover. The cells also provide intel to Pather fleets operating in-system.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathCellsIntel.class"
+  },
+  {
+   "i": 107,
+   "en": "You defeated a Luddic Path armada sent against you, and they are now more reluctant to take active measures against your colonies.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathCellsIntel.class"
+  },
+  {
+   "i": 108,
+   "en": "You do not know the location of the Pather base providing support to these cells.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathCellsIntel.class"
+  },
+  {
+   "i": 109,
+   "en": "saving the colony.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathCellsIntel.class"
+  },
+  {
+   "i": 110,
+   "en": "%s stability, %s accessibility.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateActivity.class"
+  },
+  {
+   "i": 111,
+   "en": "Pirate activity",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateActivity.class"
+  },
+  {
+   "i": 112,
+   "en": " - Over",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateActivityIntel.class"
+  },
+  {
+   "i": 113,
+   "en": " in the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateActivityIntel.class"
+  },
+  {
+   "i": 114,
+   "en": "Colonies affected",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateActivityIntel.class"
+  },
+  {
+   "i": 115,
+   "en": "Pirate Activity",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateActivityIntel.class"
+  },
+  {
+   "i": 116,
+   "en": "Pirates have been targeting colonies and shipping in the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateActivityIntel.class"
+  },
+  {
+   "i": 117,
+   "en": "The location of the pirate base is unknown, but it's likely to be somewhere nearby.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateActivityIntel.class"
+  },
+  {
+   "i": 118,
+   "en": "The location of the pirate base is unknown, but there are indications that it's quite distant.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateActivityIntel.class"
+  },
+  {
+   "i": 119,
+   "en": "The pirates are based out of ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateActivityIntel.class"
+  },
+  {
+   "i": 120,
+   "en": "Agreement",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateBaseIntel.class"
+  },
+  {
+   "i": 121,
+   "en": "Agreement broken",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateBaseIntel.class"
+  },
+  {
+   "i": 122,
+   "en": "Agreement dissolved",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateBaseIntel.class"
+  },
+  {
+   "i": 123,
+   "en": "Agreement made with base commander",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateBaseIntel.class"
+  },
+  {
+   "i": 124,
+   "en": "Astrome",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateBaseIntel.class"
+  },
+  {
+   "i": 125,
+   "en": "Barrage",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateBaseIntel.class"
+  },
+  {
+   "i": 126,
+   "en": "Briganderie",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateBaseIntel.class"
+  },
+  {
+   "i": 127,
+   "en": "Brought in by raiders",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateBaseIntel.class"
+  },
+  {
+   "i": 128,
+   "en": "Camp",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateBaseIntel.class"
+  },
+  {
+   "i": 129,
+   "en": "Corsairie",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateBaseIntel.class"
+  },
+  {
+   "i": 130,
+   "en": "Cover",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateBaseIntel.class"
+  },
+  {
+   "i": 131,
+   "en": "Den",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateBaseIntel.class"
+  },
+  {
+   "i": 132,
+   "en": "Depot",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateBaseIntel.class"
+  },
+  {
+   "i": 133,
+   "en": "Donjon",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateBaseIntel.class"
+  },
+  {
+   "i": 134,
+   "en": "Fort",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateBaseIntel.class"
+  },
+  {
+   "i": 135,
+   "en": "Free Orbit",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateBaseIntel.class"
+  },
+  {
+   "i": 136,
+   "en": "Freehaven",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateBaseIntel.class"
+  },
+  {
+   "i": 137,
+   "en": "Freehold",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateBaseIntel.class"
+  },
+  {
+   "i": 138,
+   "en": "Freeport",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateBaseIntel.class"
+  },
+  {
+   "i": 139,
+   "en": "Galastat",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateBaseIntel.class"
+  },
+  {
+   "i": 140,
+   "en": "Garrison",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateBaseIntel.class"
+  },
+  {
+   "i": 141,
+   "en": "Hideaway",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateBaseIntel.class"
+  },
+  {
+   "i": 142,
+   "en": "Hideout",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateBaseIntel.class"
+  },
+  {
+   "i": 143,
+   "en": "It has fairly well-developed defensive capabilities and is protected by a considerable number of fleets.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateBaseIntel.class"
+  },
+  {
+   "i": 144,
+   "en": "It has limited defensive capabilities and is protected by a few fleets.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateBaseIntel.class"
+  },
+  {
+   "i": 145,
+   "en": "It has limited defensive capabilities and is protected by a small number of fleets.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateBaseIntel.class"
+  },
+  {
+   "i": 146,
+   "en": "It has very well-developed defensive capabilities and is protected by a large number of fleets.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateBaseIntel.class"
+  },
+  {
+   "i": 147,
+   "en": "It has very well-developed defensive capabilities and is protected by a large number of fleets. Both the base and the fleets have elite-level equipment, at least by pirate standards.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateBaseIntel.class"
+  },
+  {
+   "i": 148,
+   "en": "Lair",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateBaseIntel.class"
+  },
+  {
+   "i": 149,
+   "en": "Main",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateBaseIntel.class"
+  },
+  {
+   "i": 150,
+   "en": "Mine Depot",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateBaseIntel.class"
+  },
+  {
+   "i": 151,
+   "en": "Orbit",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateBaseIntel.class"
+  },
+  {
+   "i": 152,
+   "en": "Pirate Base",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateBaseIntel.class"
+  },
+  {
+   "i": 153,
+   "en": "Pirates operating from this base have been targeting the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateBaseIntel.class"
+  },
+  {
+   "i": 154,
+   "en": "Platform",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateBaseIntel.class"
+  },
+  {
+   "i": 155,
+   "en": "Port",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateBaseIntel.class"
+  },
+  {
+   "i": 156,
+   "en": "Post",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateBaseIntel.class"
+  },
+  {
+   "i": 157,
+   "en": "Presidio",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateBaseIntel.class"
+  },
+  {
+   "i": 158,
+   "en": "Prison",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateBaseIntel.class"
+  },
+  {
+   "i": 159,
+   "en": "Refinery",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateBaseIntel.class"
+  },
+  {
+   "i": 160,
+   "en": "Spacedock",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateBaseIntel.class"
+  },
+  {
+   "i": 161,
+   "en": "Stardock",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateBaseIntel.class"
+  },
+  {
+   "i": 162,
+   "en": "Starhold",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateBaseIntel.class"
+  },
+  {
+   "i": 163,
+   "en": "Starport",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateBaseIntel.class"
+  },
+  {
+   "i": 164,
+   "en": "Terminal",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateBaseIntel.class"
+  },
+  {
+   "i": 165,
+   "en": "Tertiary",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateBaseIntel.class"
+  },
+  {
+   "i": 166,
+   "en": "The base serves as a staging ground for raids against nearby colonies.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateBaseIntel.class"
+  },
+  {
+   "i": 167,
+   "en": "Tortuga",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateBaseIntel.class"
+  },
+  {
+   "i": 168,
+   "en": "Ward",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateBaseIntel.class"
+  },
+  {
+   "i": 169,
+   "en": "Warsat",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateBaseIntel.class"
+  },
+  {
+   "i": 170,
+   "en": "You have an %s with the base commander, and fleets from this base do not, as a rule, harass your colonies or shipping. The protection payment is %s of the gross income of all of your affected colonies, which amounts to %s per month at their current level of income.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateBaseIntel.class"
+  },
+  {
+   "i": 171,
+   "en": "agreement",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bases/PirateBaseIntel.class"
+  },
+  {
+   "i": 172,
+   "en": "Can not delete or suspend contact at this time.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/contacts/ContactIntel$1.class"
+  },
+  {
+   "i": 173,
+   "en": "If suspended, this contact will not offer you missions and will not count against the maximum number of contacts. You will be able to re-develop this contact at any time.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/contacts/ContactIntel$3.class"
+  },
+  {
+   "i": 174,
+   "en": "The importance of this person in whatever hierarchy or social structure they belong to. A more highly placed or connected individual will have more difficult - and more profitable - missions and opportunities to offer.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/contacts/ContactIntel$4.class"
+  },
+  {
+   "i": 175,
+   "en": "It takes about a month for changes in priority status to take full effect.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/contacts/ContactIntel$5.class"
+  },
+  {
+   "i": 176,
+   "en": "The more priority contacts you have, the less the impact there is on each individual contact.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/contacts/ContactIntel$5.class"
+  },
+  {
+   "i": 177,
+   "en": "Whether cultivating a relationship with this contact is a priority for you. Priority contacts will have more missions available, and the missions will be of a higher quality.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/contacts/ContactIntel$5.class"
+  },
+  {
+   "i": 178,
+   "en": "Developing contacts above the maximum requires a story point for each additional contact.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/contacts/ContactIntel$6.class"
+  },
+  {
+   "i": 179,
+   "en": " and can be found ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/contacts/ContactIntel.class"
+  },
+  {
+   "i": 180,
+   "en": " decivilized",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/contacts/ContactIntel.class"
+  },
+  {
+   "i": 181,
+   "en": " is currently suspended.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/contacts/ContactIntel.class"
+  },
+  {
+   "i": 182,
+   "en": " left to develop",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/contacts/ContactIntel.class"
+  },
+  {
+   "i": 183,
+   "en": " was ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/contacts/ContactIntel.class"
+  },
+  {
+   "i": 184,
+   "en": " will periodically ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/contacts/ContactIntel.class"
+  },
+  {
+   "i": 185,
+   "en": ", a colony controlled by ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/contacts/ContactIntel.class"
+  },
+  {
+   "i": 186,
+   "en": ", a size %s colony controlled by ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/contacts/ContactIntel.class"
+  },
+  {
+   "i": 187,
+   "en": "Active contacts: %s %s %s",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/contacts/ContactIntel.class"
+  },
+  {
+   "i": 188,
+   "en": "Are you sure? Deleting a contact can not be undone.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/contacts/ContactIntel.class"
+  },
+  {
+   "i": 189,
+   "en": "Are you sure? Deleting a contact can not be undone. To stop receiving missions from a contact, but not lose them permanently, you can \"suspend\" the contact instead.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/contacts/ContactIntel.class"
+  },
+  {
+   "i": 190,
+   "en": "Are you sure? Deleting a potential contact can not be undone.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/contacts/ContactIntel.class"
+  },
+  {
+   "i": 191,
+   "en": "Contact: ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/contacts/ContactIntel.class"
+  },
+  {
+   "i": 192,
+   "en": "Delete contact",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/contacts/ContactIntel.class"
+  },
+  {
+   "i": 193,
+   "en": "Develop a relationship with this contact?",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/contacts/ContactIntel.class"
+  },
+  {
+   "i": 194,
+   "en": "Develop contact",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/contacts/ContactIntel.class"
+  },
+  {
+   "i": 195,
+   "en": "Developed additional contact (",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/contacts/ContactIntel.class"
+  },
+  {
+   "i": 196,
+   "en": "If this contact is developed, ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/contacts/ContactIntel.class"
+  },
+  {
+   "i": 197,
+   "en": "Importance reduced to: %s",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/contacts/ContactIntel.class"
+  },
+  {
+   "i": 198,
+   "en": "Importance: %s",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/contacts/ContactIntel.class"
+  },
+  {
+   "i": 199,
+   "en": "Last visited: %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/contacts/ContactIntel.class"
+  },
+  {
+   "i": 200,
+   "en": "Lost Contact: ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/contacts/ContactIntel.class"
+  },
+  {
+   "i": 201,
+   "en": "Potential Contact: ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/contacts/ContactIntel.class"
+  },
+  {
+   "i": 202,
+   "en": "Priority Contact: ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/contacts/ContactIntel.class"
+  },
+  {
+   "i": 203,
+   "en": "Priority contact",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/contacts/ContactIntel.class"
+  },
+  {
+   "i": 204,
+   "en": "Relocated to ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/contacts/ContactIntel.class"
+  },
+  {
+   "i": 205,
+   "en": "Resume contact",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/contacts/ContactIntel.class"
+  },
+  {
+   "i": 206,
+   "en": "Suspend contact",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/contacts/ContactIntel.class"
+  },
+  {
+   "i": 207,
+   "en": "Suspended Contact: ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/contacts/ContactIntel.class"
+  },
+  {
+   "i": 208,
+   "en": "Suspended contact (",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/contacts/ContactIntel.class"
+  },
+  {
+   "i": 209,
+   "en": "The opportunity to develop this contact will be available for %s more ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/contacts/ContactIntel.class"
+  },
+  {
+   "i": 210,
+   "en": "This colony has decivilized, and you've since lost contact with ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/contacts/ContactIntel.class"
+  },
+  {
+   "i": 211,
+   "en": "Type: ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/contacts/ContactIntel.class"
+  },
+  {
+   "i": 212,
+   "en": "You've lost this contact.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/contacts/ContactIntel.class"
+  },
+  {
+   "i": 213,
+   "en": "Your contact with ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/contacts/ContactIntel.class"
+  },
+  {
+   "i": 214,
+   "en": "access to better opportunities.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/contacts/ContactIntel.class"
+  },
+  {
+   "i": 215,
+   "en": "decivilized",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/contacts/ContactIntel.class"
+  },
+  {
+   "i": 216,
+   "en": "have work for you. As the relationship improves, you may gain ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/contacts/ContactIntel.class"
+  },
+  {
+   "i": 217,
+   "en": " - Decivilized",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/deciv/DecivIntel.class"
+  },
+  {
+   "i": 218,
+   "en": " - Destroyed",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/deciv/DecivIntel.class"
+  },
+  {
+   "i": 219,
+   "en": " - Deterioration",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/deciv/DecivIntel.class"
+  },
+  {
+   "i": 220,
+   "en": ", a colony belonging to ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/deciv/DecivIntel.class"
+  },
+  {
+   "i": 221,
+   "en": ", a colony formerly belonging to ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/deciv/DecivIntel.class"
+  },
+  {
+   "i": 222,
+   "en": ", has become decivilized. ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/deciv/DecivIntel.class"
+  },
+  {
+   "i": 223,
+   "en": ", has been destroyed.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/deciv/DecivIntel.class"
+  },
+  {
+   "i": 224,
+   "en": ", have taken a turn for the worse. Unless the colony ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/deciv/DecivIntel.class"
+  },
+  {
+   "i": 225,
+   "en": "Central authority has collapsed completely and irreversibly, with the remaining ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/deciv/DecivIntel.class"
+  },
+  {
+   "i": 226,
+   "en": "Conditions at ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/deciv/DecivIntel.class"
+  },
+  {
+   "i": 227,
+   "en": "Decivilized ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/deciv/DecivIntel.class"
+  },
+  {
+   "i": 228,
+   "en": "is stabilized in some way, it's likely to decivilize and be lost completely in the near future.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/deciv/DecivIntel.class"
+  },
+  {
+   "i": 229,
+   "en": "population scrambling to survive.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/deciv/DecivIntel.class"
+  },
+  {
+   "i": 230,
+   "en": "Event progress is influenced by various factors. Some of these apply over time, and some only apply once. As the event progresses, different stages and outcomes may unfold.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/BaseEventIntel$1.class"
+  },
+  {
+   "i": 231,
+   "en": "Event progress: %s out of %s points.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/BaseEventIntel$1.class"
+  },
+  {
+   "i": 232,
+   "en": "Projected monthly progress: %s points.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/BaseEventIntel$1.class"
+  },
+  {
+   "i": 233,
+   "en": "Something might occur when event progress reaches %s points. What that is, if anything, will be determined when event progress reaches %s points.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/BaseEventIntel$2.class"
+  },
+  {
+   "i": 234,
+   "en": "This event is not repeatable.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/BaseEventIntel$2.class"
+  },
+  {
+   "i": 235,
+   "en": "This event is repeatable.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/BaseEventIntel$2.class"
+  },
+  {
+   "i": 236,
+   "en": " is triggered, event progress will be reset to a lower value afterwards.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/BaseEventIntel$EventStageData.class"
+  },
+  {
+   "i": 237,
+   "en": " is triggered, event progress will be reset to a much lower value afterwards.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/BaseEventIntel$EventStageData.class"
+  },
+  {
+   "i": 238,
+   "en": " is triggered, event progress will be reset to between %s and %s points.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/BaseEventIntel$EventStageData.class"
+  },
+  {
+   "i": 239,
+   "en": " will be averted if event progress is reduced to %s points or below.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/BaseEventIntel$EventStageData.class"
+  },
+  {
+   "i": 240,
+   "en": " will be averted if event progress is reduced to %s points or below. ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/BaseEventIntel$EventStageData.class"
+  },
+  {
+   "i": 241,
+   "en": " will be averted if:",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/BaseEventIntel$EventStageData.class"
+  },
+  {
+   "i": 242,
+   "en": "Event progress is reduced to %s points or below",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/BaseEventIntel$EventStageData.class"
+  },
+  {
+   "i": 243,
+   "en": "If this ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/BaseEventIntel$EventStageData.class"
+  },
+  {
+   "i": 244,
+   "en": "Requires %s points of event progress.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/BaseEventIntel$EventStageData.class"
+  },
+  {
+   "i": 245,
+   "en": "Monthly factors",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/BaseEventIntel.class"
+  },
+  {
+   "i": 246,
+   "en": "One-time factors",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/BaseEventIntel.class"
+  },
+  {
+   "i": 247,
+   "en": "Progress",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/BaseEventIntel.class"
+  },
+  {
+   "i": 248,
+   "en": "Recent one-time factors",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/BaseEventIntel.class"
+  },
+  {
+   "i": 249,
+   "en": "    - %s income from fuel exports",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/DiktatFuelBonusScript.class"
+  },
+  {
+   "i": 250,
+   "en": "Fuel export bonus lost",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/DiktatFuelBonusScript.class"
+  }
+ ]
+}

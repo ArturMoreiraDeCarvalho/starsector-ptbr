@@ -1,0 +1,206 @@
+{
+ "chunk": 147,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "A weathered brute from the local vice squad stares rudely as you pass, but does not stop you as you enter the door. They want you to know that they could shut the place down at any time - but an illicit teahouse-bar is a useful conduit with the commerce required to carry out holy war. Inside it is dim, the ceiling low, and the crowd packed. The stench of drug fumes and cheap liquor competes with bodies that disdain modern enzyme soaps.",
+   "ctx": "data/campaign/rules.csv bar_descLuddicPath [text]"
+  },
+  {
+   "i": 2,
+   "en": "The Tri-Tachyon investor appears on your comm-screen and recognizes you immediately.\r\n\r\n\"Why, hello again, $playerName,\" $heOrShe says. \"I trust your ventures have been profitable?\"",
+   "ctx": "data/campaign/rules.csv ttli_greetingSoon [text]"
+  },
+  {
+   "i": 3,
+   "en": "Your Tri-Tachyon creditor appears on the comms and speaks immediately. \"How lovely, you're still alive. I would be so pleased if you would transfer the $ttli_repaymentAmount we agreed upon as repayment.\"\r\n",
+   "ctx": "data/campaign/rules.csv ttli_greetingLater [text]"
+  },
+  {
+   "i": 4,
+   "en": "The Tri-Tachyon investor appears on your comm-screen, hands folded, looking as if $heOrShe was expecting you.",
+   "ctx": "data/campaign/rules.csv ttli_greetingSoonMajor [text]"
+  },
+  {
+   "i": 5,
+   "en": "The Tri-Tachyon investor appears on the comms, looking amused about something. $HeOrShe begins to say something, thinks better of it with a small laugh, and makes a small motion for you to speak up.",
+   "ctx": "data/campaign/rules.csv ttli_greetingLaterMajor [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"A pleasure doing business with you,\" $heOrShe says with a toothy smile, and signs off with no further smalltalk. You break the connection on the spinning Tri-Tachyon logo.",
+   "ctx": "data/campaign/rules.csv ttli_payLoanResp [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"We should do this again sometime,\" $heOrShe says, \"it was quite diverting.\" And the connection is dead.",
+   "ctx": "data/campaign/rules.csv ttli_payLoanRespMajor [text]"
+  },
+  {
+   "i": 8,
+   "en": "$HeOrShe frowns in a passable emulation of human disappointment. \"I'm so sorry to hear that. But,\" $heOrShe smiles again, \"we can make an opportunity of this.\"\r\n\r\nYour payment deadline is extended by $ttli_extensionDays days and the owed amount increased to $ttli_repaymentAmount. The Tri-Tachyon \"investor\" explains also, before cutting the connection, that certain actions must be taken \"to emphasize how seriously I take our business relationship.\"\r\n\r\nYou consider that you may have to watch your back from now on.",
+   "ctx": "data/campaign/rules.csv ttli_extendLoanText [text]"
+  },
+  {
+   "i": 9,
+   "en": "$HeOrShe frowns perfectly, then looks off to the side, talking as if to $himOrHerself, \"Perhaps the motivation has been insufficient. How shall we solve this?\" The investor continues, saying that $heOrShe anticipated this situation and magnanimously explains that your payment deadline is extended by $ttli_extensionDays days and the owed amount increased to $ttli_repaymentAmount. \"By the way, additional incentives shall be entertained,\" $heOrShe says with a strange smile before closing the link.\r\n\r\nYou consider that you may have to watch your back.",
+   "ctx": "data/campaign/rules.csv ttli_extendLoanTextMajor [text]"
+  },
+  {
+   "i": 10,
+   "en": "$HisOrHer face transforms immediately to an emotionless mask. \"I see. How unfortunate.\" $HeOrShe looks thoughtful for a moment, and continues, \"I won't waste time enumerating the reprisals you shall face.\" With a cold smile, $heOrShe says \"It's just good business.\"\r\n\r\nThe comm-link snaps dead.",
+   "ctx": "data/campaign/rules.csv ttli_notPayingText [text]"
+  },
+  {
+   "i": 11,
+   "en": "$HeOrShe tilts $hisOrHer head only slightly, a slight wrinkle appearing on $hisOrHer brow. \"Goodbye,\" $heOrShe says. The comm-link snaps dead.",
+   "ctx": "data/campaign/rules.csv ttli_notPayingTextMajor [text]"
+  },
+  {
+   "i": 12,
+   "en": "You hurriedly cut the comm link, feeling no small amount of embarrassment.",
+   "ctx": "data/campaign/rules.csv ttli_endNeverMind [text]"
+  },
+  {
+   "i": 13,
+   "en": "As your $shipOrFleet links up with the local comm-net, you get an alert indicating a priority message has been delivered to your queue.",
+   "ctx": "data/campaign/rules.csv ttli_noRepaymentNextMarketOpen [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"You-know-who sends $entity.ttli_hisOrHer regards,\" the bounty hunter snarls.\r\n\r\nThe comm link goes dead in a crackle of static.",
+   "ctx": "data/campaign/rules.csv ttli_bountyHunterText [text]"
+  },
+  {
+   "i": 15,
+   "en": "Your $shipOrFleet arrives at the coordinates provided by the scientist $saic_marketOnOrAt $saic_marketName, and just as $saic_heOrShe said, there is an impressive bounty of Domain-era goods and technology in nearly pristine condition. And in the middle of it all your salvage crew reports a cargo case bearing a Tri-Tachyon logo. It's emitting a bizarre, dynamic magnetic field extending two meters beyond the casing.\r\n\r\nIt's amazing that no one found this cache before, but then the long-range sensors did read it as a worthless debris cloud at first. The question is now, do you close the AI core into the shielded crate and send it off from your next port stop, or do you keep it for yourself? That scientist was surely no one important.",
+   "ctx": "data/campaign/rules.csv saic_initialText [text]"
+  },
+  {
+   "i": 16,
+   "en": "The shielded crate shuts with the sound of powered bolts sliding home. It sends off a one-time coded hyperwave burst. Confirmation, you suppose. It would have been good of that scientist to warn you about this little trick; hopefully no pirates - or anything else - was listening nearby.",
+   "ctx": "data/campaign/rules.csv saic_giveCoreSel [text]"
+  },
+  {
+   "i": 17,
+   "en": "You open the Tri-Tachyon case and retrieve a single Alpha Core. It pulses with activity, and your smile is underlit by the cold, alien thoughts of the core. You order the scientist's shielded crate tossed out the airlock. If you want something done in this world, you'd best do it yourself.",
+   "ctx": "data/campaign/rules.csv saic_takeCoreSel [text]"
+  },
+  {
+   "i": 18,
+   "en": "The long-haul cryosystems were built to last for centuries of interstellar travel so it's no surprise that most of the pod-support machinery reads as functional. While safe sleeper revival is beyond the capability of your fleet, a colony established within 10 light-years of this location could benefit from a huge influx in population if it built facilities to awaken long-haul sleepers.\r\n\r\nYour executive officer cautions that it's unknown whether having sleepers make up a large percentage of a colony's population would cause any physical or psychological issues down the line.",
+   "ctx": "data/campaign/rules.csv cryo_infoText [text]"
+  },
+  {
+   "i": 19,
+   "en": "As your $shipOrFleet moves into a close holding orbit, an executive summary of the hypershunt's specifications is helpfully presented by your TriPad's pseudo-AI assistant.\r\n\r\nThe bridge sounds an alert as several previously undifferentiated shapes detach themselves from the superstructure and smoothly accelerate towards your fleet just as you finish reading, \"-and for reasons of safety, automated defense drones are no longer a standard feature.\"\r\n\r\nYour tactical officer waves for your attention, \"We're close enough to the magfield generated by the megastructure that the anticipated combat volume should be unaffected by the star's corona. Mostly. However,\" they examine their console, \"The hostiles, they're... unknown profile. Incoming fast.\" They are starting to look concerned, and in a brittle voice say, \"This might be something new, captain.\"",
+   "ctx": "data/campaign/rules.csv cTap_defenderDesc [text]"
+  },
+  {
+   "i": 20,
+   "en": "Salvage crews board the structure at key points and soon reports come in of extensive wear and damage. It is difficult to assess the entire structure in detail, but it is clear that it is not operable in its current state.\r\n\r\nHowever, as with most mega-scale Domain technology from the late pre-Collapse era, the $nameInText features fantastic self-repair capabilities which requires only sufficient resources to be made available.",
+   "ctx": "data/campaign/rules.csv cTap_infoText [text]"
+  },
+  {
+   "i": 21,
+   "en": "This structure appears to be fully functional.",
+   "ctx": "data/campaign/rules.csv cTap_infoTextRepaired [text]"
+  },
+  {
+   "i": 22,
+   "en": "This structure is currently undergoing automated self-repair which should be completed in short order.",
+   "ctx": "data/campaign/rules.csv cTap_infoTextBeingRepaired [text]"
+  },
+  {
+   "i": 23,
+   "en": "Your TriPad chimes in with a helpful analysis: if brought online, this structure allows a colony within 10 light-years to establish 1 additional industry, provided it has a hypershunt tap installed and can maintain a healthy supply of transplutonics.\r\n\r\nAncient schematics in the TriPad's memory indicate a particular cargo area dedicated to storing these \"taps\", but salvage crews report that it is empty.\r\n\r\nThat Tri-Tachyon would have this information so readily available in their standard orbital works expert system database gives you just a moment of pause.",
+   "ctx": "data/campaign/rules.csv cTap_printEffect [text]"
+  },
+  {
+   "i": 24,
+   "en": "Your crews finish offloading the raw materials and you send an activation signal to the structure's distributed repair nodes.\r\n\r\nThere's barely any reaction at first, just a smattering of previously undetected relays pinging one another through the superstructure. Your science officer assures you that the repair rate will increase exponentially, pulling up a display showing the relay pings expanding outward and the energy transmission curve steadily rising. After only minutes, despite little visual change, the overall heat output on sensors has increased dramatically. Whatever is quickening in the heart of this celestial machine...  \r\n\r\n\"Captain,\" your science officer interrupts your thoughts hesitantly, \"We may wish to pull the fleet back by a hundred klicks or so.\" You nod and give the order.\r\n\r\nThe $nameInText should be online in short order.",
+   "ctx": "data/campaign/rules.csv cTapRepairInitText [text]"
+  },
+  {
+   "i": 25,
+   "en": "As your $shipOrFleet docks at $entity.name, you receive a high-priority call from one of the mercenary officers in your employment.",
+   "ctx": "data/campaign/rules.csv mercs_leavingInitial [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"Greetings, commander! My contracted time is up, and I'd like to think we've both benefited from the arrangement.\r\n\r\nNow, I think I'll have a go at spending all the credits I've earned - little chance to do that cooped up on a ship in the middle of nowhere, is there?\"",
+   "ctx": "data/campaign/rules.csv mercs_checkLeaving [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"Ah, commander.\" $HeOrShe has put on a slightly pained expression, but is clearly willing to power through an uncomfortable conversation.\r\n\r\n\"Please accept my condolences for your current state of financial insolvency.\r\n\r\nAs per the conditions set out in our agreement, I now have the option to terminate our contract - an option that I am choosing to exercise.\"",
+   "ctx": "data/campaign/rules.csv mercs_checkLeavingInDebt [text]"
+  },
+  {
+   "i": 28,
+   "en": "With a charismatic display of appeal to $hisOrHer ambition and ego, along with the implication - not promise - that good fortune is just around the corner, you're able to convince $himOrHer to sign an extension to the contract.",
+   "ctx": "data/campaign/rules.csv mercs_convincedOpt [text]"
+  },
+  {
+   "i": 29,
+   "en": "You accept $hisOrHer decision professionally and, after exchanging a few pleasantries, cut the comm link.",
+   "ctx": "data/campaign/rules.csv mercs_letGoOpt [text]"
+  },
+  {
+   "i": 30,
+   "en": "The mercenary seems none too pleased by the dressing-down, as evidenced by $himOrHer cutting the connection while you were in the middle of a particularly scathing analysis of $hisOrHer ancestry.",
+   "ctx": "data/campaign/rules.csv mercs_letGoOptJerk [text]"
+  },
+  {
+   "i": 31,
+   "en": "You're unable to complete your delivery contract at this time.",
+   "ctx": "data/campaign/rules.csv delivery_completedButNoDocking [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"$entity.dmi_name sends $entity.dmi_hisOrHer regards,\" the $entity.dmi_hunter snarls. \"If you don't remember $entity.dmi_himOrHer, perhaps you remember a shipment of $entity.dmi_commodity that you were entrusted with.\"\r\n\r\nThe comm link goes dead in a crackle of static.",
+   "ctx": "data/campaign/rules.csv dmi_bountyHunterText [text]"
+  },
+  {
+   "i": 33,
+   "en": "$personName looks you over. You look back, and even via the comms it looks like $personFirstName has had higher-quality repair work done than their spacer crew comrade. $HeOrShe almost looks natural. \"So,\" $heOrShe says, \"You know the story.\" $HeOrShe sighs, and says aside \"If only that old crust of a spacer would keep their mouth shut... \"\r\n\r\n\"Still, it's no sweat off my back where you go finding trouble. And you wouldn't be the first who's come sniffing after me, I'll warn you of that for free. How much is the location of this planet worth to you?\"",
+   "ctx": "data/campaign/rules.csv psi_pilotGreeting [text]"
+  },
+  {
+   "i": 34,
+   "en": "\"So. You're back. Ready to talk credits?\"",
+   "ctx": "data/campaign/rules.csv psi_pilotGreetingTalkedTo [text]"
+  },
+  {
+   "i": 35,
+   "en": "You haggle with $himOrHer over price, making the point that there is - allegedly - some hostile force at this red planet, and further, $heOrShe has already sold the information to someone else. \"Yes, yes,\" $heOrShe says, \"But I know you space-captains. You just love a mystery. You'll never let it lie. Like we should have.\" \r\n\r\nEventually you work out a figure of $psi_credits for the pilot's information.",
+   "ctx": "data/campaign/rules.csv psi_pilotBarter [text]"
+  },
+  {
+   "i": 36,
+   "en": "You initiate the credits transfer and receive the coordinates in response. \"Nice knowing you.\"\r\n\r\n$personName doesn't give you time to respond before ending the transmission. ",
+   "ctx": "data/campaign/rules.csv psi_payPilot [text]"
+  },
+  {
+   "i": 37,
+   "en": "Your $shipOrFleet approaches $entityName.\r\n\r\nThe sensors are having difficulty evaluating the tenuous megastructure enveloping its entire surface. Your sensors officer takes the initiative and applies some exotic parameters to the interferometer feed; inputs go green and a few seconds later the sub-AI tentatively identifies a stable planetary-scale energy field with highly unusual properties.",
+   "ctx": "data/campaign/rules.csv psi_redPlanetOpenDialog [text]"
+  },
+  {
+   "i": 38,
+   "en": "As your $shipOrFleet moves in closer, sensors detect multiple contacts rising up from the murky red depths.",
+   "ctx": "data/campaign/rules.csv psi_defenderDesc [text]"
+  },
+  {
+   "i": 39,
+   "en": "Your $shipOrFleet finishes its approach to $entityName without further incident.",
+   "ctx": "data/campaign/rules.csv psi_continuePostDefenders [text]"
+  },
+  {
+   "i": 40,
+   "en": "Further scans reveal that the energy field is not entirely uniform - perhaps owing to a running-down power source - and your bridge crew is able to pick up a distress beacon transmitting from the surface.\r\n\r\nThe transmission is set on repeat and garbled in ways that are indicative of aging equipment. You make out enough to gather that part of a research team was stranded here - at a secret Tri-Tachyon research facility - after the fully automated defenses over-weighed certain executive security contingency orders in the wake of one of the AI Wars and decided it was now imperative to shoot down any craft attempting to leave the planet.",
+   "ctx": "data/campaign/rules.csv psi_beatDefenders [text]"
+  }
+ ]
+}

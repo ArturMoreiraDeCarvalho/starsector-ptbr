@@ -1,0 +1,726 @@
+{
+ "chunk": 48,
+ "cat": "data",
+ "items": [
+  {
+   "i": 1,
+   "en": "Increases the rate at which replacement fragments are launched by %s.",
+   "ctx": "data/hullmods/hull_mods.csv secondary_fabricator [desc]"
+  },
+  {
+   "i": 2,
+   "en": "Increases the maximum number of fragments in the ship's fragment swarm by %s.",
+   "ctx": "data/hullmods/hull_mods.csv fragment_coordinator [desc]"
+  },
+  {
+   "i": 3,
+   "en": "Adds Shrouded Dweller visuals and any custom mechanics. Not visible to the player.",
+   "ctx": "data/hullmods/hull_mods.csv dweller_hullmod [desc]"
+  },
+  {
+   "i": 4,
+   "en": "The ship will attempt to recoil (hopefully) away from danger when taking substantial hull damage.\r\n\r\nCrew casualties in combat are increased by %s.",
+   "ctx": "data/hullmods/hull_mods.csv shrouded_mantle [desc]"
+  },
+  {
+   "i": 5,
+   "en": "<created by script>",
+   "ctx": "data/hullmods/hull_mods.csv shrouded_thunderhead [desc]"
+  },
+  {
+   "i": 6,
+   "en": "This ship is a survivor of the original 14th Domain Battlegroup which founded the Hegemony. It is a prime specimen of the Domain Navy's \"decisive battle\" doctrine, particularly exhibited by a series of radical structural modifications (performed with pre-Collapse industrial methods) which allow the mounting of heavier armor plating by a flat increase of %s standard units, with only a %s reduction in speed and maneuverability. Exceptionally well-tuned energy systems increase flux throughput and capacity by %s over standard examples of this hull.",
+   "ctx": "data/hullmods/hull_mods.csv fourteenth [desc]"
+  },
+  {
+   "i": 7,
+   "en": "This ship is - or was - on the Hegemony auxiliary list. Uparmour kits applied at Hegemony Naval yards resulting in no loss of performance for a %s/%s/%s/%s increase in armor strength, depending on hull size. Core power systems have been upgraded to military standards resulting in a %s improvement in overall handling, %s increase in flux capacity, a %s increase in flux dissipation, and an increase of maximum burn level by %s.",
+   "ctx": "data/hullmods/hull_mods.csv heg_militarized [desc]"
+  },
+  {
+   "i": 8,
+   "en": "This ship's armor has taken major and irreparable damage at some point in the past, or suffered from major errors in the manufacturing process. Armor rating reduced by %s.\r\n\r\nSupply cost to recover from deployment reduced by %s.",
+   "ctx": "data/hullmods/hull_mods.csv comp_armor [desc]"
+  },
+  {
+   "i": 9,
+   "en": "This ship's hull has taken major and irreparable damage at some point in the past, or suffered from major errors in the manufacturing process. Hull integrity reduced by %s.\r\n\r\nSupply cost to recover from deployment reduced by %s.",
+   "ctx": "data/hullmods/hull_mods.csv comp_hull [desc]"
+  },
+  {
+   "i": 10,
+   "en": "Whether due to battle damage, manufacturing defects, or cycles of poor maintenance, this ship's engines are suffering from permanently degraded combat performance. \r\n\r\nTop speed and maneuverability in combat reduced by %s.\r\n\r\nSupply cost to recover from deployment reduced by %s.",
+   "ctx": "data/hullmods/hull_mods.csv degraded_engines [desc]"
+  },
+  {
+   "i": 11,
+   "en": "Whether due to battle damage, manufacturing defects, or cycles of poor maintenance, this ship's drive field is suffering from permanently degraded performance. \r\n\r\nMaximum burn level decreased by %s. Sensor profile increased by %s.\r\n\r\nSupply cost to recover from deployment reduced by %s.",
+   "ctx": "data/hullmods/hull_mods.csv degraded_drive_field [desc]"
+  },
+  {
+   "i": 12,
+   "en": "Whether due to battle damage, manufacturing defects, or cycles of poor maintenance, this ship's power grid will never be capable of achieving peak performance.\r\n\r\nFlux capacity reduced by %s. Flux dissipation rate reduced by %s. Sensor profile increased by %s.\r\n\r\nSupply cost to recover from deployment reduced by %s.",
+   "ctx": "data/hullmods/hull_mods.csv faulty_grid [desc]"
+  },
+  {
+   "i": 13,
+   "en": "The phase coils on this ship are impossible to calibrate properly due to subtle flaws. Reduces the phase-time bonus by %s, reduces the peak performance time by %s, and increases the rate at which combat readiness degrades by %s.\r\n\r\nSupply cost to recover from deployment reduced by %s.",
+   "ctx": "data/hullmods/hull_mods.csv unstable_coils [desc]"
+  },
+  {
+   "i": 14,
+   "en": "This ship's hull has likely taken extreme damage in the past, possibly to the point of breaking apart. Armor rating reduced by %s, hull integrity reduced by %s.\r\n\r\nSupply cost to recover from deployment reduced by %s.",
+   "ctx": "data/hullmods/hull_mods.csv comp_structure [desc]"
+  },
+  {
+   "i": 15,
+   "en": "The ship's sensor array is damaged past any repair short of a complete hull overhaul. Weapon range in combat reduced by %s. Sensor strength reduced by %s.\r\n\r\nSupply cost to recover from deployment reduced by %s.",
+   "ctx": "data/hullmods/hull_mods.csv glitched_sensors [desc]"
+  },
+  {
+   "i": 16,
+   "en": "The comm system has suffered serious damage, making punching through battlefield jamming even more of a challenge. Fighter engagement range reduced by %s.\r\n\r\nSupply cost to recover from deployment reduced by %s.",
+   "ctx": "data/hullmods/hull_mods.csv malfunctioning_comms [desc]"
+  },
+  {
+   "i": 17,
+   "en": "The manufactory that produces fighter chassis is unreliable, and most components have minor defects. Fighter speed reduced by %s, and damage taken increased by %s.\r\n\r\nSupply cost to recover from deployment reduced by %s.",
+   "ctx": "data/hullmods/hull_mods.csv defective_manufactory [desc]"
+  },
+  {
+   "i": 18,
+   "en": "The flight decks on this ship have taken major damage and seriously interfere with normal operation. Time to launch replacement fighters is increased by %s.\r\n\r\nSupply cost to recover from deployment reduced by %s.",
+   "ctx": "data/hullmods/hull_mods.csv damaged_deck [desc]"
+  },
+  {
+   "i": 19,
+   "en": "A widespread loss of redundant components reduces peak operating time by %s, and increases the rate at which combat readiness degrades by %s.\r\n\r\nSupply cost to recover from deployment reduced by %s.",
+   "ctx": "data/hullmods/hull_mods.csv fragile_subsystems [desc]"
+  },
+  {
+   "i": 20,
+   "en": "The storage capacity of this ship is significantly degraded. Crew, cargo, and fuel capacity reduced by %s.\r\n\r\nSupply cost to recover from deployment reduced by %s.",
+   "ctx": "data/hullmods/hull_mods.csv comp_storage [desc]"
+  },
+  {
+   "i": 21,
+   "en": "Increases the monthly maintenance supply cost by %s. Increases minimum crew required by %s. Decreases maximum combat readiness by %s.\r\n\r\nSupply cost to recover from deployment reduced by %s.",
+   "ctx": "data/hullmods/hull_mods.csv increased_maintenance [desc]"
+  },
+  {
+   "i": 22,
+   "en": "Increases fuel use by %s and decreases the zero-flux boost by %s su/second.\r\n\r\nSupply cost to recover from deployment reduced by %s.",
+   "ctx": "data/hullmods/hull_mods.csv erratic_injector [desc]"
+  },
+  {
+   "i": 23,
+   "en": "Increases minimum crew required by %s and decreases maximum combat readiness by %s.\r\n\r\nSupply cost to recover from deployment reduced by %s.",
+   "ctx": "data/hullmods/hull_mods.csv faulty_auto [desc]"
+  },
+  {
+   "i": 24,
+   "en": "Reduces weapon turn rate by %s and increases recoil by %s.\r\n\r\nSupply cost to recover from deployment reduced by %s.",
+   "ctx": "data/hullmods/hull_mods.csv damaged_mounts [desc]"
+  },
+  {
+   "i": 25,
+   "en": "Decreases maximum crew capacity by %s, and maximum combat readiness by %s.\r\n\r\nSupply cost to recover from deployment reduced by %s.",
+   "ctx": "data/hullmods/hull_mods.csv degraded_life_support [desc]"
+  },
+  {
+   "i": 26,
+   "en": "Increases the amount of damage taken by shields by %s.\r\n\r\nSupply cost to recover from deployment reduced by %s.",
+   "ctx": "data/hullmods/hull_mods.csv degraded_shields [desc]"
+  },
+  {
+   "i": 27,
+   "en": "Some of the original weapon mounts on this ship have been damaged beyond repair and can no longer be used.",
+   "ctx": "data/hullmods/hull_mods.csv destroyed_mounts [desc]"
+  },
+  {
+   "i": 28,
+   "en": "This hull's systems have been drastically modified from spec, likely without certified engineering oversight. Its systems appear to work correctly under routine conditions, but have a significant chance of critical malfunction when stressed.",
+   "ctx": "data/hullmods/hull_mods.csv ill_advised [desc]"
+  },
+  {
+   "i": 29,
+   "en": "Increases shield turn rate and extension speed.",
+   "ctx": "data/hullmods/hull_mods.csv advancedshieldemitter [short]"
+  },
+  {
+   "i": 30,
+   "en": "Reduces impact of hard flux level on top speed while phased.",
+   "ctx": "data/hullmods/hull_mods.csv adaptive_coils [short]"
+  },
+  {
+   "i": 31,
+   "en": "Increases beam weapon range.",
+   "ctx": "data/hullmods/hull_mods.csv advancedoptics [short]"
+  },
+  {
+   "i": 32,
+   "en": "Increases turret turn rate.",
+   "ctx": "data/hullmods/hull_mods.csv turretgyros [short]"
+  },
+  {
+   "i": 33,
+   "en": "Makes weapons harder to disable, reduces recoil.",
+   "ctx": "data/hullmods/hull_mods.csv armoredweapons [short]"
+  },
+  {
+   "i": 34,
+   "en": "Increases hull integrity, armor, and flux capacity.",
+   "ctx": "data/hullmods/hull_mods.csv assault_package [short]"
+  },
+  {
+   "i": 35,
+   "en": "Increases weapon repair rate in combat.",
+   "ctx": "data/hullmods/hull_mods.csv autorepair [short]"
+  },
+  {
+   "i": 36,
+   "en": "Increases maneuverability.",
+   "ctx": "data/hullmods/hull_mods.csv auxiliarythrusters [short]"
+  },
+  {
+   "i": 37,
+   "en": "Increases base range of small and medium weapons in ballisic slots.",
+   "ctx": "data/hullmods/hull_mods.csv ballistic_rangefinder [short]"
+  },
+  {
+   "i": 38,
+   "en": "Increases hull integrity, reduces crew casualties.",
+   "ctx": "data/hullmods/hull_mods.csv blast_doors [short]"
+  },
+  {
+   "i": 39,
+   "en": "Improvised fighter bay for non-carriers.",
+   "ctx": "data/hullmods/hull_mods.csv converted_hangar [short]"
+  },
+  {
+   "i": 40,
+   "en": "Converts built-in fighter bays into improvised cargo holds.",
+   "ctx": "data/hullmods/hull_mods.csv converted_fighterbay [short]"
+  },
+  {
+   "i": 41,
+   "en": "Increases weapon range, more so for larger ships.",
+   "ctx": "data/hullmods/hull_mods.csv dedicated_targeting_core [short]"
+  },
+  {
+   "i": 42,
+   "en": "Increases fighter PD damage, reduces fighter roam range to zero.",
+   "ctx": "data/hullmods/hull_mods.csv defensive_targeting_array [short]"
+  },
+  {
+   "i": 43,
+   "en": "Improves missile speed and guidance, reduces effect of enemy Electronic Warfare.",
+   "ctx": "data/hullmods/hull_mods.csv eccm [short]"
+  },
+  {
+   "i": 44,
+   "en": "Increases ship's ECM rating.",
+   "ctx": "data/hullmods/hull_mods.csv ecm [short]"
+  },
+  {
+   "i": 45,
+   "en": "Increases maneuverability, top speed, and weapon range when near larger friendly ship.",
+   "ctx": "data/hullmods/hull_mods.csv escort_package [short]"
+  },
+  {
+   "i": 46,
+   "en": "Improves fighter replacement rate, increases crew requirements.",
+   "ctx": "data/hullmods/hull_mods.csv expanded_deck_crew [short]"
+  },
+  {
+   "i": 47,
+   "en": "Increases ammo/charges for ballistic and energy weapons.",
+   "ctx": "data/hullmods/hull_mods.csv magazines [short]"
+  },
+  {
+   "i": 48,
+   "en": "Increases missile weapon ammo.",
+   "ctx": "data/hullmods/hull_mods.csv missleracks [short]"
+  },
+  {
+   "i": 49,
+   "en": "Increases maximum shield arc.",
+   "ctx": "data/hullmods/hull_mods.csv extendedshieldemitter [short]"
+  },
+  {
+   "i": 50,
+   "en": "Increases flux capacity.",
+   "ctx": "data/hullmods/hull_mods.csv fluxcoil [short]"
+  },
+  {
+   "i": 51,
+   "en": "Increases flux dissipation.",
+   "ctx": "data/hullmods/hull_mods.csv fluxdistributor [short]"
+  },
+  {
+   "i": 52,
+   "en": "Removes shields, increases armor.",
+   "ctx": "data/hullmods/hull_mods.csv shield_shunt [short]"
+  },
+  {
+   "i": 53,
+   "en": "Installs basic shields on shieldless ship. Reduces top speed.",
+   "ctx": "data/hullmods/hull_mods.csv frontshield [short]"
+  },
+  {
+   "i": 54,
+   "en": "Reloads missile weapons in small missile mounts",
+   "ctx": "data/hullmods/hull_mods.csv missile_autoloader [short]"
+  },
+  {
+   "i": 55,
+   "en": "Reduces damage taken by shields.",
+   "ctx": "data/hullmods/hull_mods.csv hardenedshieldemitter [short]"
+  },
+  {
+   "i": 56,
+   "en": "Increases peak time, CR degrades more slowly.",
+   "ctx": "data/hullmods/hull_mods.csv hardened_subsystems [short]"
+  },
+  {
+   "i": 57,
+   "en": "Increases armor.",
+   "ctx": "data/hullmods/hull_mods.csv heavyarmor [short]"
+  },
+  {
+   "i": 58,
+   "en": "Reduces beam range; beams deal more damage and apply hard flux to shields.",
+   "ctx": "data/hullmods/hull_mods.csv high_scatter_amp [short]"
+  },
+  {
+   "i": 59,
+   "en": "PD ignores decoy flares, improved target leading, more damage to missiles.",
+   "ctx": "data/hullmods/hull_mods.csv pointdefenseai [short]"
+  },
+  {
+   "i": 60,
+   "en": "Increases top speed of deployed ships.",
+   "ctx": "data/hullmods/hull_mods.csv nav_relay [short]"
+  },
+  {
+   "i": 61,
+   "en": "Allows rapid switching between ships, resets system cooldown and adds a charge.",
+   "ctx": "data/hullmods/hull_mods.csv neural_interface [short]"
+  },
+  {
+   "i": 62,
+   "en": "Specialized Neural Interface for automated ships.",
+   "ctx": "data/hullmods/hull_mods.csv neural_integrator [short]"
+  },
+  {
+   "i": 63,
+   "en": "Converts omni shield to front, extends arc.",
+   "ctx": "data/hullmods/hull_mods.csv frontemitter [short]"
+  },
+  {
+   "i": 64,
+   "en": "Converts front shield to omni, reduces arc.",
+   "ctx": "data/hullmods/hull_mods.csv adaptiveshields [short]"
+  },
+  {
+   "i": 65,
+   "en": "Increases command point recovery rate when on flagship.",
+   "ctx": "data/hullmods/hull_mods.csv operations_center [short]"
+  },
+  {
+   "i": 66,
+   "en": "Increases flux dissipation and weapon recharge while phased, emergency dive maneuver.",
+   "ctx": "data/hullmods/hull_mods.csv phase_anchor [short]"
+  },
+  {
+   "i": 67,
+   "en": "Reduces fighter pilot casualties.",
+   "ctx": "data/hullmods/hull_mods.csv recovery_shuttles [short]"
+  },
+  {
+   "i": 68,
+   "en": "Increases hull integrity; ship almost always recoverable if lost.",
+   "ctx": "data/hullmods/hull_mods.csv reinforcedhull [short]"
+  },
+  {
+   "i": 69,
+   "en": "Reduces EMP damage taken, improves venting speed.",
+   "ctx": "data/hullmods/hull_mods.csv fluxbreakers [short]"
+  },
+  {
+   "i": 70,
+   "en": "Drastic improvement in performance, much lower peak time.",
+   "ctx": "data/hullmods/hull_mods.csv safetyoverrides [short]"
+  },
+  {
+   "i": 71,
+   "en": "Reduces flux upkeep for shields.",
+   "ctx": "data/hullmods/hull_mods.csv stabilizedshieldemitter [short]"
+  },
+  {
+   "i": 72,
+   "en": "Increases speed, reduces weapon range.",
+   "ctx": "data/hullmods/hull_mods.csv unstable_injector [short]"
+  },
+  {
+   "i": 73,
+   "en": "Increases crew capacity.",
+   "ctx": "data/hullmods/hull_mods.csv additional_berthing [short]"
+  },
+  {
+   "i": 74,
+   "en": "Increases maximum burn level.",
+   "ctx": "data/hullmods/hull_mods.csv augmentedengines [short]"
+  },
+  {
+   "i": 75,
+   "en": "Increases fuel capacity.",
+   "ctx": "data/hullmods/hull_mods.csv auxiliary_fuel_tanks [short]"
+  },
+  {
+   "i": 76,
+   "en": "Reduces ongoing costs and enables more deployments.",
+   "ctx": "data/hullmods/hull_mods.csv efficiency_overhaul [short]"
+  },
+  {
+   "i": 77,
+   "en": "Increases cargo capacity.",
+   "ctx": "data/hullmods/hull_mods.csv expanded_cargo_holds [short]"
+  },
+  {
+   "i": 78,
+   "en": "Increases fleet's sensor range.",
+   "ctx": "data/hullmods/hull_mods.csv hiressensors [short]"
+  },
+  {
+   "i": 79,
+   "en": "Makes engines harder to disable, lowers sensor profile.",
+   "ctx": "data/hullmods/hull_mods.csv insulatedengine [short]"
+  },
+  {
+   "i": 80,
+   "en": "Removes sensor penalties, increases maximum burn level, increases crew required.",
+   "ctx": "data/hullmods/hull_mods.csv militarized_subsystems [short]"
+  },
+  {
+   "i": 81,
+   "en": "Reduces effect of being in corona and energy damage taken.",
+   "ctx": "data/hullmods/hull_mods.csv solar_shielding [short]"
+  },
+  {
+   "i": 82,
+   "en": "Reduces resource requirements for surveying.",
+   "ctx": "data/hullmods/hull_mods.csv surveying_equipment [short]"
+  },
+  {
+   "i": 83,
+   "en": "Flux/hard flux dissipation bonus as modules are lost.",
+   "ctx": "data/hullmods/hull_mods.csv shared_flux_sink [short]"
+  },
+  {
+   "i": 84,
+   "en": "Launches fresh wing once per combat and replenishes the replacement rate.",
+   "ctx": "data/hullmods/hull_mods.csv bdeck [short]"
+  },
+  {
+   "i": 85,
+   "en": "Fighter replacement rate does not go down.",
+   "ctx": "data/hullmods/hull_mods.csv chassis_storage [short]"
+  },
+  {
+   "i": 86,
+   "en": "Forces shield to stay on. Hidden, doesn't need description or icon.",
+   "ctx": "data/hullmods/hull_mods.csv shield_always_on [short]"
+  },
+  {
+   "i": 87,
+   "en": "Periodically reloads all missile weapons.",
+   "ctx": "data/hullmods/hull_mods.csv missile_reload [short]"
+  },
+  {
+   "i": 88,
+   "en": "Improves chance to avoid detection of contraband.",
+   "ctx": "data/hullmods/hull_mods.csv shielded_holds [short]"
+  },
+  {
+   "i": 89,
+   "en": "Increases resources gained from salvage.",
+   "ctx": "data/hullmods/hull_mods.csv repair_gantry [short]"
+  },
+  {
+   "i": 90,
+   "en": "Reduces fleetwide sensor profile.",
+   "ctx": "data/hullmods/hull_mods.csv phasefield [short]"
+  },
+  {
+   "i": 91,
+   "en": "Allows dissipation of hard flux while shields are up.",
+   "ctx": "data/hullmods/hull_mods.csv fluxshunt [short]"
+  },
+  {
+   "i": 92,
+   "en": "Increases sensor profile, reduces sensor strength.",
+   "ctx": "data/hullmods/hull_mods.csv civgrade [short]"
+  },
+  {
+   "i": 93,
+   "en": "Increases maintenance cost.",
+   "ctx": "data/hullmods/hull_mods.csv high_maintenance [short]"
+  },
+  {
+   "i": 94,
+   "en": "Increases base range of non-beam energy weapons.",
+   "ctx": "data/hullmods/hull_mods.csv coherer [short]"
+  },
+  {
+   "i": 95,
+   "en": "Reduces missile and ballistic weapon range, and flux dissipation / capacity.",
+   "ctx": "data/hullmods/hull_mods.csv design_compromises [short]"
+  },
+  {
+   "i": 96,
+   "en": "Increases burn level of another ship.",
+   "ctx": "data/hullmods/hull_mods.csv tow_cable [short]"
+  },
+  {
+   "i": 97,
+   "en": "Reduces fleetwide fuel use.",
+   "ctx": "data/hullmods/hull_mods.csv drive_field_stabilizer [short]"
+  },
+  {
+   "i": 98,
+   "en": "Improves effectiveness of raids.",
+   "ctx": "data/hullmods/hull_mods.csv ground_support [short]"
+  },
+  {
+   "i": 99,
+   "en": "Increases CR decay rate after peak time runs out.",
+   "ctx": "data/hullmods/hull_mods.csv delicate [short]"
+  },
+  {
+   "i": 100,
+   "en": "Reduces ordnance point cost of large ballistic weapons.",
+   "ctx": "data/hullmods/hull_mods.csv hbi [short]"
+  },
+  {
+   "i": 101,
+   "en": "Increases the effect of Converted Hangar and removes its penalties.",
+   "ctx": "data/hullmods/hull_mods.csv vast_hangar [short]"
+  },
+  {
+   "i": 102,
+   "en": "Reduces impact of d-mods; ship almost always recoverable if lost.",
+   "ctx": "data/hullmods/hull_mods.csv rugged [short]"
+  },
+  {
+   "i": 103,
+   "en": "Does not require and can not support crew.",
+   "ctx": "data/hullmods/hull_mods.csv automated [short]"
+  },
+  {
+   "i": 104,
+   "en": "Greatly extends non-missile weapon range.",
+   "ctx": "data/hullmods/hull_mods.csv advancedcore [short]"
+  },
+  {
+   "i": 105,
+   "en": "Greatly reduces phase cloak cooldown.",
+   "ctx": "data/hullmods/hull_mods.csv ex_phase_coils [short]"
+  },
+  {
+   "i": 106,
+   "en": "Launches more powerful high-frequency motes.",
+   "ctx": "data/hullmods/hull_mods.csv high_frequency_attractor [short]"
+  },
+  {
+   "i": 107,
+   "en": "Reduces damage reduction by armor.",
+   "ctx": "data/hullmods/hull_mods.csv ablative_armor [short]"
+  },
+  {
+   "i": 108,
+   "en": "Increases weapon durability and reduces EMP damage taken.",
+   "ctx": "data/hullmods/hull_mods.csv distributed_fire_control [short]"
+  },
+  {
+   "i": 109,
+   "en": "Pair of improvised fighter bays.",
+   "ctx": "data/hullmods/hull_mods.csv converted_bay [short]"
+  },
+  {
+   "i": 110,
+   "en": "Reduces the ship's performance.",
+   "ctx": "data/hullmods/hull_mods.csv andrada_mods [short]"
+  },
+  {
+   "i": 111,
+   "en": "A swarm of Threat fragments roils around the ship.",
+   "ctx": "data/hullmods/hull_mods.csv fragment_swarm [short]"
+  },
+  {
+   "i": 112,
+   "en": "Increases the fragment replacement rate.",
+   "ctx": "data/hullmods/hull_mods.csv secondary_fabricator [short]"
+  },
+  {
+   "i": 113,
+   "en": "Increases the size of the fragment swarm around the ship.",
+   "ctx": "data/hullmods/hull_mods.csv fragment_coordinator [short]"
+  },
+  {
+   "i": 114,
+   "en": "The ship recoils away from damage.",
+   "ctx": "data/hullmods/hull_mods.csv shrouded_mantle [short]"
+  },
+  {
+   "i": 115,
+   "en": "The ship fires Rift Lightning bolts at recent targets of its weapons.",
+   "ctx": "data/hullmods/hull_mods.csv shrouded_thunderhead [short]"
+  },
+  {
+   "i": 116,
+   "en": "The Lens automatically focuses on nearby targets, dealing damage in an area.",
+   "ctx": "data/hullmods/hull_mods.csv shrouded_lens [short]"
+  },
+  {
+   "i": 117,
+   "en": "Increases maintenance cost and crew requirements, decreases maximum combat readiness.",
+   "ctx": "data/hullmods/hull_mods.csv increased_maintenance [short]"
+  },
+  {
+   "i": 118,
+   "en": "Increases fuel use and decreases the zero-flux boost.",
+   "ctx": "data/hullmods/hull_mods.csv erratic_injector [short]"
+  },
+  {
+   "i": 119,
+   "en": "Increases minimum crew required, decreases maximum combat readiness.",
+   "ctx": "data/hullmods/hull_mods.csv faulty_auto [short]"
+  },
+  {
+   "i": 120,
+   "en": "Reduces weapon turn rate and increases recoil.",
+   "ctx": "data/hullmods/hull_mods.csv damaged_mounts [short]"
+  },
+  {
+   "i": 121,
+   "en": "Decreases maximum crew capacity and combat readiness.",
+   "ctx": "data/hullmods/hull_mods.csv degraded_life_support [short]"
+  },
+  {
+   "i": 122,
+   "en": "Increases damage taken by shields.",
+   "ctx": "data/hullmods/hull_mods.csv degraded_shields [short]"
+  },
+  {
+   "i": 123,
+   "en": "Increases the shield's turn rate and raise rate by an additional %s.",
+   "ctx": "data/hullmods/hull_mods.csv advancedshieldemitter [sModDesc]"
+  },
+  {
+   "i": 124,
+   "en": "Increases damage to missiles and fighters by %s. Increases damage to smaller ships by %s per size class of difference.",
+   "ctx": "data/hullmods/hull_mods.csv turretgyros [sModDesc]"
+  },
+  {
+   "i": 125,
+   "en": "Increases the rate of fire of all non-missile weapons by %s.",
+   "ctx": "data/hullmods/hull_mods.csv armoredweapons [sModDesc]"
+  },
+  {
+   "i": 126,
+   "en": "Reduces repair time to %s, and reduces overload duration by %s.",
+   "ctx": "data/hullmods/hull_mods.csv autorepair [sModDesc]"
+  },
+  {
+   "i": 127,
+   "en": "Increases the 0-flux speed boost by %s, and %s the 0-flux turn rate bonus.",
+   "ctx": "data/hullmods/hull_mods.csv auxiliarythrusters [sModDesc]"
+  },
+  {
+   "i": 128,
+   "en": "Increases the crew casualty reduction to %s.",
+   "ctx": "data/hullmods/hull_mods.csv blast_doors [sModDesc]"
+  },
+  {
+   "i": 129,
+   "en": "Increases the rate at which the fighter replacement rate recovers by %s for cruisers, and by %s for capital ships. No added effect for destroyers.",
+   "ctx": "data/hullmods/hull_mods.csv converted_hangar [sModDesc]"
+  },
+  {
+   "i": 130,
+   "en": "Monthly maintenance cost reduced by %s per fighter bay.",
+   "ctx": "data/hullmods/hull_mods.csv converted_fighterbay [sModDesc]"
+  },
+  {
+   "i": 131,
+   "en": "Increases the range bonus to %s for cruisers and %s for capital ships.",
+   "ctx": "data/hullmods/hull_mods.csv dedicated_targeting_core [sModDesc]"
+  },
+  {
+   "i": 132,
+   "en": "Extends range of ballistic and energy weapons of the ship's fighters by %s units.",
+   "ctx": "data/hullmods/hull_mods.csv defensive_targeting_array [sModDesc]"
+  },
+  {
+   "i": 133,
+   "en": "Fully negates the weapon range reduction, and makes the ship's missiles always ignore flares.",
+   "ctx": "data/hullmods/hull_mods.csv eccm [sModDesc]"
+  },
+  {
+   "i": 134,
+   "en": "Destroyers: reduces the amount of damage taken by shields by %s. No added effect for cruisers.",
+   "ctx": "data/hullmods/hull_mods.csv escort_package [sModDesc]"
+  },
+  {
+   "i": 135,
+   "en": "Increases the ammo/charge regeneration rate for ballistic and energy weapons by %s.",
+   "ctx": "data/hullmods/hull_mods.csv magazines [sModDesc]"
+  },
+  {
+   "i": 136,
+   "en": "Reduces the rate of fire of missile weapons by %s.",
+   "ctx": "data/hullmods/hull_mods.csv missleracks [sModDesc]"
+  },
+  {
+   "i": 137,
+   "en": "Increases the shield's coverage by an additional %s degrees.",
+   "ctx": "data/hullmods/hull_mods.csv extendedshieldemitter [sModDesc]"
+  },
+  {
+   "i": 138,
+   "en": "Increases flux capacity by a further %s/%s/%s/%s, making the coil as efficient as adding capacitors.",
+   "ctx": "data/hullmods/hull_mods.csv fluxcoil [sModDesc]"
+  },
+  {
+   "i": 139,
+   "en": "Increases flux dissipation by a further %s/%s/%s/%s, making the distributor as efficient as adding vents.",
+   "ctx": "data/hullmods/hull_mods.csv fluxdistributor [sModDesc]"
+  },
+  {
+   "i": 140,
+   "en": "Increases the ship's armor by an additional %s.",
+   "ctx": "data/hullmods/hull_mods.csv shield_shunt [sModDesc]"
+  },
+  {
+   "i": 141,
+   "en": "Increases the post-reload cooldown to %s seconds.",
+   "ctx": "data/hullmods/hull_mods.csv missile_autoloader [sModDesc]"
+  },
+  {
+   "i": 142,
+   "en": "Reduces the ship's maneuverability by %s.",
+   "ctx": "data/hullmods/hull_mods.csv heavyarmor [sModDesc]"
+  },
+  {
+   "i": 143,
+   "en": "Increases beam weapon damage by an additional %s.",
+   "ctx": "data/hullmods/hull_mods.csv high_scatter_amp [sModDesc]"
+  },
+  {
+   "i": 144,
+   "en": "All small non-missile, non-strike weapons are classified as \"point-defense\", automatically target missiles, and are affected by point-defense stat modifiers.",
+   "ctx": "data/hullmods/hull_mods.csv pointdefenseai [sModDesc]"
+  }
+ ]
+}

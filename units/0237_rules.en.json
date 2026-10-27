@@ -1,0 +1,191 @@
+{
+ "chunk": 237,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"The agent you gave to Macario belongs under MY authority. And if they weren't, they would be by my decree in the name of the Supreme Executor.\"\r\n\r\nCaden stops, and looks directly into the comms. \"Your ignorance of the correct chain of authority is contemptible, scandalous, and approaches treason. I shall ponder upon an appropriate punishment to be administered at my will.\"\r\n\r\nHe pauses, looking satisfied with himself for this threat.",
+   "ctx": "data/campaign/rules.csv sdtuCadenAgentMacarioSecondLie3b [text]"
+  },
+  {
+   "i": 2,
+   "en": "Caden goes deathly still.\r\n\r\n\"I don't believe I heard you correctly, spacer,\" he says quietly.",
+   "ctx": "data/campaign/rules.csv sdtuCadenConfrontAndrada [text]"
+  },
+  {
+   "i": 3,
+   "en": "Was it worth it to see that shade of red on Caden's face? Perhaps not. \r\n\r\nBut it felt good.\r\n\r\nYou have little time to relish it, however.",
+   "ctx": "data/campaign/rules.csv sdtuCadenTooFar [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"Glory to the Supreme Executor and his Sindrian Diktat! Death to traitors!\" he shouts.\r\n\r\nYou hear a muted repetition of Caden's last words, presumably from his bridge officers.\r\n\r\nCaden turns back to you, \"Your dutiful loyalty in purging a traitor from our glorious state will surely be rewarded. ...After the dictation-of-justice and public execution, of course.\"",
+   "ctx": "data/campaign/rules.csv sdtuCadenAgentTransfer [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"So,\" Caden's eyes narrow on you.\r\n\r\n\"How does the Chief High Inspector-General of the Sindrian Diktat come to trust a spacer with such an essential matter of internal security?\"\r\n\r\nHere it comes. Time to work your angle.",
+   "ctx": "data/campaign/rules.csv sdtuCadenAgentAsks [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"Oh?\" Caden makes a show of chuckling, rolls his eyes at this conspiratorial talk for his bridge crew, then activates a privacy field around his command station.\r\n\r\nHe drops the expression.\r\n\r\n\"My loyalty to the vision of Philip Andrada is beyond reproach. I am his right hand. If what you say is true, spacer, then what exactly is Macario playing at?\"",
+   "ctx": "data/campaign/rules.csv sdtuCadenMacLoyalty1 [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Oh?\" Caden makes a show of chuckling, rolls his eyes at this conspiratorial talk for his bridge crew, then activates a privacy field around his command station.\r\n\r\nHe drops the expression.\r\n\r\n\"Macario has sworn loyalty to the Supreme Executor. I have his personal assurances on matters of... the future. Speak plainly, spacer. What are you playing at?\"",
+   "ctx": "data/campaign/rules.csv sdtuCadenMacControl1 [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"Me? A Puppet?\" Caden forces out a painful-sounding laugh.\r\n\r\n\"That spider has been cooped up too long in his torture-bunker. Too far from the martial leadership that produces men of quality,\" Caden thumps his chest, setting medals jingling.",
+   "ctx": "data/campaign/rules.csv sdtuCadenMacPuppet1 [text]"
+  },
+  {
+   "i": 9,
+   "en": "You explain Macario's words describing Caden as liking to 'play dress-up and have parades' you can see the color rising again in his face.\r\n\r\n\"I shall... let him talk as he wishes. Let him show his true nature,\" Caden says with cold anticipation. \"He will scheme his way into his own trap, and his downfall will be all the more satisfying.\"\r\n\r\nHe nods to himself, perhaps pondering how he will deal with Macario.",
+   "ctx": "data/campaign/rules.csv sdtuCadenMacPuppet2a [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"Yes. Absolutely.\" Caden slams one fist into the other, for emphasis.",
+   "ctx": "data/campaign/rules.csv sdtuCadenMacPuppet2b [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"I shall... let him talk as he wishes. Let him show his true nature,\" Caden says coldly. \"Better that all recognize who he is now, so that his downfall will be all the more satisfying.\"",
+   "ctx": "data/campaign/rules.csv sdtuCadenMacPuppet2 [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"Oxana Hyder? The ruler of the Sindrian Diktat?\" Caden forces out a painful-sounding laugh.\r\n\r\n\"Unthinkable. If not for her obvious skill and faultless record, she would be subject to investigation for subversion. Her commitment to the Andradan ideology is lackluster at the best of times.\"",
+   "ctx": "data/campaign/rules.csv sdtuCadenMacHyder [text]"
+  },
+  {
+   "i": 13,
+   "en": "You watch the thoughts ooze through Caden's head.\r\n\r\n\"Which... would be exactly why Macario would select her as his puppet. She possesses a mere handful of subjective beliefs that could be twisted by a man used to operating within the disorderly mindset of criminal degenerates...\"\r\n\r\n\"It is preposterous,\" he shakes his head once, medals set a-jingle, disturbed by the notion that such forces would align against him. One can't help but suspect his dismissal of the idea is for show.",
+   "ctx": "data/campaign/rules.csv sdtuCadenMacHyder2 [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"Good. That I expect at the very least.\"",
+   "ctx": "data/campaign/rules.csv sdtuCadenMacSimply1 [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"Dolos Macario is a strange man to rely on you. Such an... unreliable element.\"\r\n\r\nCaden waves a hand dismissively, \"No offense intended of course. As an outsider you do not undergo the discipline and spiritual cleansing induced by total submission to transcendent Andradan ideology. I feel it would be more appropriate for matters within the Sindrian Diktat to be settled by true followers of the Great Movement, not decadent itinerants.\"\r\n\r\n\"Mark my words, spacer: When I reign, the slack shall be tightened. You would do well to study the teachings of the Supreme Executor, for they map the future of the Persean Sector - and indeed the galaxy.\"",
+   "ctx": "data/campaign/rules.csv sdtuCadenMacFreelancer1 [text]"
+  },
+  {
+   "i": 16,
+   "en": "He ignores or fails to perceive your tone.",
+   "ctx": "data/campaign/rules.csv sdtuCadenExecRepliesB2a [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"Splendid! There may yet be a position for you in the future of our Great Movement.\"",
+   "ctx": "data/campaign/rules.csv sdtuCadenExecRepliesB2 [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"Of course!\" Caden's eyes twitch, like he's trying to determine whether your comment contains subversive elements.",
+   "ctx": "data/campaign/rules.csv sdtuCadenExecReplies1 [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"Your ignorance is pitiable, spacer, so I shall correct it: in our great tower of authority Philip Andrada sits at the apex.\" He raises a hand, fingers pinched, as if showing you a model.\r\n\r\n\"Beneath him is the Guard High Deputy Executor - myself - at the head of the personal guard of Philip Andrada, sworn to protect him in body and spirit; to uphold his transcendent Andradan ideology; to purge traitors and their degenerate thoughts from the universe.\"\r\n\r\n\"I am, of course, the natural successor when the tragic day comes that Andrada passes into the infinite. He shall live immortal in our hearts, our minds, and our glorious empire!\"",
+   "ctx": "data/campaign/rules.csv sdtuCadenExecReplies2a [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"Oh?\" Caden makes a show of chuckling, rolls his eyes at this conspiratorial talk for his bridge crew, then activates a privacy field around his command station. He drops the expressions.\r\n\r\n\"And you are Macario's tool? Why admit it now? Spacers are all degenerate opportunists. Unreliable. Greedy. Cowardly.\" He snorts dismissively. \"Speak!\" ",
+   "ctx": "data/campaign/rules.csv sdtuCadenAgentManipulate2 [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"A correction is required, spacer: it is the Sindrian Diktat's navy under command of Grand Star Marshal Baldr Charlton. He is a venerated officer and fiercely loyal follower of the Supreme Executor.\"",
+   "ctx": "data/campaign/rules.csv sdtuCadenAskSupplies1 [text]"
+  },
+  {
+   "i": 22,
+   "en": "Caden paces, enjoying another chance to lecture you.\r\n\r\n\"Few of the Grand Star Marshal's many virtues apply to Vice Star Marshal Hyder, however. She does not burn with passion for the Andradan ideology as is fitting for senior officers in our glorious Sindrian Diktat.\"\r\n\r\n\"You see, from time to time the state requires a bitter medicine which kills the weak so that the strong may more fully thrive. Powers must be tipped toward a vigorous and stable future! The Supreme Executor saw sickness in the Hegemony, and that is exactly why he compelled the birth of a new order from the dying of the old!\"",
+   "ctx": "data/campaign/rules.csv sdtuCadenAskSupplies1b [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"Now.\" He halts, and turns.\r\n\r\n\"Mind your open talk, spacer.\" There's a threat in his tone.\r\n\r\n\"It could be considered support of terrorism, anti-Andradan sedition, and spreading malicious rumors to undermine legitimate authority. If,\" a smug smile grows, \"I were to judge it so.\"",
+   "ctx": "data/campaign/rules.csv sdtuCadenAskSupplies2 [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"No?\" Caden asks, annoyed. \"What nonsense. Who else even exists?\"",
+   "ctx": "data/campaign/rules.csv sdtuCadenHyderBackWarn1 [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"You sound like Macario's more paranoid ramblings.\"\r\n\r\nHe flicks imagined dust from his uniform. \"Hyder is a small woman of small vision. She sees only housekeeping of numbers and petty rules. The Lion's Guard under my command is invincible: outfitted with the best equipment and leadership inspired by Andradan principles; there is no finer fleet in the Sector. If it came to a contest of main-force...\" \r\n\r\nHe pauses, and perhaps the calculus of what it would mean for the Diktat to expend its own navy on a civil war sinks in.\r\n\r\n\"It won't come to that,\" he concludes with an air of confidence.",
+   "ctx": "data/campaign/rules.csv sdtuCadenHyderExec1 [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"Hm,\" Caden looks worried, almost. \"He is quite insistent about his loyalty to the vision of the Supreme Executor, and to myself personally.\"\r\n\r\nHe looks down, brow furrowed. \"But Macario has played larger tricks before. He was born a liar. Did you know he came from a Luddic family?\" \r\n\r\nCaden smiles cruelly, \"Oh yes. Of course, he had no faith. Never has and never will. And at the Battle of Salus he was a mere intelligence analyst, a junior officer! I suspect he's never accepted that Andrada did not truly favor him, and never completely trusted him.\"\r\n\r\n\"A web of intrigue is nothing compared to the might of a full warfleet. When the time comes, Dolos might realize this.\" Caden nods, satisfied at his own reasoning.",
+   "ctx": "data/campaign/rules.csv sdtuCadenHyderBacksMac1 [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"Naturally, I do not need the assistance of outsiders like yourself. But.\"\r\n\r\nHe looks slightly up and to the side - a practiced pose to emphasize his retreating jawline. \"It is the sign of good intuition to align yourself with the Great Movement, to pledge yourself toward a cause which, though you are ignorant of its particulars, shines with the genius of Philip Andrada. Study well his writings and you may begin to understand the glorious future which awaits.\" ",
+   "ctx": "data/campaign/rules.csv sdtuCadenPledgeVsMacarioText [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"Glory to the Sindrian Diktat! Victory to the Lion of Sindria!\" Caden says fervently.",
+   "ctx": "data/campaign/rules.csv sdtuCadenTalkEnd [text]"
+  },
+  {
+   "i": 29,
+   "en": "After a short wait, Macario appears before you. He looks hungry. \r\n\r\n\"What an interesting time you must have had on Umbra, but never mind that- tell me, captain, what was your impression of Horacio Caden?\"\r\n\r\nHe adopts a superficially eager and receptive look. Then raises a finger, \"Ah, before I forget,\" and taps a datapad.",
+   "ctx": "data/campaign/rules.csv sdtuMacarioPostCadenGreeting [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"Splendid. Excellent.\" Macario's tone doesn't match his words, as if he's disappointed.",
+   "ctx": "data/campaign/rules.csv sdtuPostCadenTrust [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"Hyder?\" Macario barks out a single laugh and rocks back in his seat.\r\n\r\n\"And he believed it? Ah, but of course he did, of course he did.\"",
+   "ctx": "data/campaign/rules.csv sdtuPostCadenToldHyderSE [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"You?\" Macario barks out a single laugh. \"A spontaneous display of false loyalty! I'm sure he enjoyed it. Well done, captain.\"",
+   "ctx": "data/campaign/rules.csv sdtuPostCadenToldSupportSE [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"No?\" Macario goes very still. \"And why not?\"\r\n\r\nThis isn't what he wanted to hear.",
+   "ctx": "data/campaign/rules.csv sdtuPostCadenNoTrust [text]"
+  },
+  {
+   "i": 34,
+   "en": "\"She has, has she,\" he says, displeased. But not at you.\r\n\r\n\"If she does intend to back Caden, as you've suggested previously, then this new alliance might be a problem.\" Macario leans back, hands rubbing together, thinking aloud.\r\n\r\n\"A new story needs to appear. Caden loves stories - particularly about himself. Something to drive them apart...\"",
+   "ctx": "data/campaign/rules.csv sdtu_postCadenHydCadLieA [text]"
+  },
+  {
+   "i": 35,
+   "en": "\"She has, has she,\" he says, displeased. Possibly at you.\r\n\r\n\"You have previously suggested that Hyder intended to back my own ascension. This... development, it feels strange to me. Hyder is anything but mercurial.\" \r\n\r\nHis cold eyes are locked on yours, somehow, through the comms.",
+   "ctx": "data/campaign/rules.csv sdtu_postCadenHydCadLieB [text]"
+  },
+  {
+   "i": 36,
+   "en": "\"She has, has she,\" he says, displeased. Possibly at you.\r\n\r\n\"If, as you've previously suggested, Hyder intends to make a grab for power, then bringing Caden in would be an obvious move to secure the backing of the Lion's Guard.\"\r\n\r\n\"However,\" his cold eyes lock on you, somehow, through the comms. \"Caden would never back Hyder over himself. And Hyder is incapable of the deception required to turn Caden, even if she desired to arrange some monumental act of treachery.\"\r\n\r\n\"Something. Does not fit.\"",
+   "ctx": "data/campaign/rules.csv sdtu_postCadenHydCadLieC [text]"
+  },
+  {
+   "i": 37,
+   "en": "\"She has, has she,\" he says, displeased. Possibly at you.\r\n\r\n\"If, as you've previously suggested, Hyder intends to defect to the Hegemony, then turning Caden against me would be an obvious move to maximize chaos.\"\r\n\r\n\"However,\" his cold eyes lock on you, somehow, through the comms. \"If Hyder betrayed the Diktat, then Caden would be driven to me. The play doesn't add up; even Hyder, obstinate as she is, can see that. Even Hegemony intelligence - or Rao, if he indeed is overseeing counter-Diktat operations - could see that.\"\r\n\r\n\"Something. Does not fit.\"",
+   "ctx": "data/campaign/rules.csv sdtu_postCadenHydCadLieD [text]"
+  }
+ ]
+}

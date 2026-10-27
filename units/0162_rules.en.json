@@ -1,0 +1,176 @@
+{
+ "chunk": 162,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"Oh, well now.\" The scavenger smiles, \"Time is money, isn't it? And at faster than light speeds, my account books start doing funny things, ha-ha. I'm sure we could get some more of the crew checking cargo pods if there was some incentive... let's say $gaFC_bribeCost credits.\"",
+   "ctx": "data/campaign/rules.csv gaFCScavengerBribe1 [text]"
+  },
+  {
+   "i": 2,
+   "en": "You authorize the credits transfer and can pin-point the moment it arrives because a wide smile breaks over the scavenger captain's face.\r\n\r\n\"Glad we could do business, captain. I've ordered my quartermaster to eject the cargo pod in question, so it's all yours,\" the scavenger says magnanimously. \r\n\r\n\"Burn bright captain, I'm sure we'll meet again!\" $HeOrShe closes the comms before you can comment on the uncannily speedy 'discovery' of the Galatia Academy probe.",
+   "ctx": "data/campaign/rules.csv gaFCScavengerBribe2 [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"I- ah, I see.\" The scavenger taps at a console and appears to think for about a second. \r\n\r\n\"Oh, would you look at that, we did find something with Galatia Academy markings. Must have slipped my mind.\"\r\n\r\n$HeOrShe looks at you accusingly, \"Would've returned it once it was identified properly. You could have asked nicely. We gotta look out for each other out here, remember? Otherwise we're no better than pirates or the boot-licking Heggies.\"",
+   "ctx": "data/campaign/rules.csv gaFCScavengerThreaten1 [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"I've ordered my quartermaster to eject the cargo pod, so it's all yours,\" the scavenger says testily. \"Burn bright captain... into an asteroid, for all I care.\"\r\n\r\nThe comms are abruptly disconnected.",
+   "ctx": "data/campaign/rules.csv gaFCScavengerThreaten2 [text]"
+  },
+  {
+   "i": 5,
+   "en": "A salvage team quickly secures the target in your hold for your technology team to investigate.",
+   "ctx": "data/campaign/rules.csv gaFCStolenProbePodStart [text]"
+  },
+  {
+   "i": 6,
+   "en": "Tech works quickly, and reports that they've established a connection with the probe instrument chassis.",
+   "ctx": "data/campaign/rules.csv gaFCStolenProbePodStartOption1 [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Hyperwave analysis is not a merely linear process,\" your tech officer explains. \"We will need one more data set to complete the... hmm, well it isn't triangulation, but you can think of it like that if it helps. Um.\"\r\n\r\nThey clear their throat. \"Captain. $PlayerSirOrMadam.\" \r\n\r\nYou dismiss them to return to their work. Two probes down, one to go.",
+   "ctx": "data/campaign/rules.csv gaFCStolenProbePodStartOption2 [text]"
+  },
+  {
+   "i": 8,
+   "en": "The schematics of the third probe float before you in the briefing room.\r\n\r\n\"Our tinkerer has been at work,\" your tech officer explains, highlighting the ghostly specs of a highly modified miniature hyperdrive core, \"Here we see much the same setup as previous examples, but they've made a few improvements,\" tangles of inscrutably annotated component icons are highlighted, \"Here, and here. A bizarre collection of parts from a variety of sources. Some are even officially restricted miltech.\"",
+   "ctx": "data/campaign/rules.csv gaFCStolenProbePodStartOption3 [text]"
+  },
+  {
+   "i": 9,
+   "en": "The comms crackle to life, and the Pather captain stands defiant before you.\r\n\r\n\"The desecrators return! You are a slave to Moloch, an addict to the knowledge denied you. You return here to tend your evil workings. And you dare,\" the Pather shouts in a frenzy now, \"You dare to knock at the door of the Creator! Who are you, Galatian?\"\r\n\r\n$HeOrShe does not wait for a reply, \"In the light of the dying fires of your starships- only there will we seek peace.\"",
+   "ctx": "data/campaign/rules.csv gaFCPatherAmbushGreeting [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"The time for talk ended with Ludd's life! Show now your hollow faith, Molochian! \r\n\r\nThe comms shut off in a flurry of electronic warfare alerts.",
+   "ctx": "data/campaign/rules.csv gaFCPatherAmbushTalk [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"And you see before you the completion of his greatest work!\" You shout and posture like an operatic villain, \"A weapon more beautiful in its blasphemy than any before seen!\" \r\n\r\nYou grow quiet and menacing, leaning in to the comms pickup and nearly growling, \"We call it the 'Soul Eater', and it does just what you think- splits the purity of our material body from the soul given to you by your Creator. It transforms your Creator's so-called gift of human life - human servitude! - into a life of faithless meat-machines.\" ",
+   "ctx": "data/campaign/rules.csv gaFCPatherAmbushBluff1 [text]"
+  },
+  {
+   "i": 12,
+   "en": "You allow a slow smile to cross your face, \"You see, with no soul, there is no good, no evil, no faith, no sin. We have found true freedom.\"\r\n\r\n\"And soon you will join us. Then, you will see too with eyes unclouded by 'faith'.\"\r\n\r\n\"Prepare the weapon!\", you stand and shout to your tactical officer, who simply gapes at you. \"Set power to maximum,\" you wink, hoping they pick up on it \"- so we can tear the souls from all human beings within three light-minutes of our position!\"",
+   "ctx": "data/campaign/rules.csv gaFCPatherAmbushBluff2 [text]"
+  },
+  {
+   "i": 13,
+   "en": "You continue to rant as your bridge officers finally arrive at the idea of charging shields and drive fields in a resonance that looks impressive to standard sensors but will amount to nothing.\r\n\r\nThe Pather captain gives panicked orders to retreat then makes a sign of prayer as sweat quivers on $hisOrHer brow. Finally someone on the Pather bridge thinks to turn the comms off, ending the sad display.",
+   "ctx": "data/campaign/rules.csv gaFCPatherAmbushBluff3 [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"Um. Captain, $playerSirOrMadam,\" your tactical officer reports, \"They've reversed course.\"\r\n\r\nYou nod, and smooth out your uniform.",
+   "ctx": "data/campaign/rules.csv gaFCPatherAmbushBluffEnd [text]"
+  },
+  {
+   "i": 15,
+   "en": "The comms open.\r\n\r\n\"Captain $playerName,\" the mercenary captain speaks flatly, hands steepled before $himOrHer. \"You have information which my employer would like you to share with them. Exclusively.\"\r\n\r\nThen $heOrShe waits, perfectly content to let the silence grow.",
+   "ctx": "data/campaign/rules.csv gaFCIsirahMercGreeting [text]"
+  },
+  {
+   "i": 16,
+   "en": "$HeOrShe raises $hisOrHer eyebrows. \"I think you know perfectly well. You came here to find something,\" a small smile, \"Or someone.\"\r\n\r\n\"You appear to be traveling with purposeful intent after investigative activity at your last stop. My employer believes that you found what you were looking for and would like you to share that information under exclusive terms.\"",
+   "ctx": "data/campaign/rules.csv gaFCIsirahMercWhatInfo [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"Yes, let's. My employer has authorized me to pay you $gaFC_sellOutPrice credits for the transfer of the information you possess which is relevant to the current location of Scylla Coureuse.\"",
+   "ctx": "data/campaign/rules.csv gaFCIsirahMercLetsDeal [text]"
+  },
+  {
+   "i": 18,
+   "en": "You accede to the terms and oversee transfer of the records of your investigation into the current location of Scylla Coureuse - the Isirah System. The mercenary is terse but comprehensive in $hisOrHer oversight of the proceeding, which is soon concluded.\r\n\r\n\"I shall authorize the credits transfer immediately. My employer will find this acceptable. Our business is complete, captain.\"\r\n\r\nThe comms signal is terminated by the mercenary.",
+   "ctx": "data/campaign/rules.csv gaFCIsirahMercAcceptDeal [text]"
+  },
+  {
+   "i": 19,
+   "en": "The merc stares at you, then says \"I see. That's quite impossible.\"",
+   "ctx": "data/campaign/rules.csv gaFCIsirahMercOtherDeal [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"No,\" $heOrShe says.",
+   "ctx": "data/campaign/rules.csv gaFCIsirahMercOtherDeal1 [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"Captain, there are things money simply can't buy.\"\r\n\r\nIs that a hint of some expression on the merc's face? It is difficult to tell.\r\n\r\n\"Let me put it like this,\" $heOrShe says. \"If you were in a position to purchase my services, you would not be in the position you are in. Therefore, your proposal is quite impossible.\"",
+   "ctx": "data/campaign/rules.csv gaFCIsirahMercOtherDeal2 [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"Oh,\" the merc tilts $hisOrHer head a few degrees to one side. \"Did I make a threat?\"",
+   "ctx": "data/campaign/rules.csv gaFCIsirahMercRespondThreats [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"My employer.\" The merc crosses $hisOrHer arms.\r\n\r\n\"-Who is interested in exclusive access to your information. Who also... has a passion for discretion, so you need not worry about your reputation if you sold out your own employer.\" $HeOrShe considers. \"Much.\"",
+   "ctx": "data/campaign/rules.csv gaFCIsirahMercWhoWorkFor [text]"
+  },
+  {
+   "i": 24,
+   "en": "After your reply, the mercenary sits unmoving for a full ten seconds.\r\n\r\nThen $heOrShe closes $hisOrHer eyes and nods $hisOrHer head. \"I see.\"\r\n\r\nThe merc opens $hisOrHer eyes again, and looks at you again, unblinking. \"How disappointing. Good shift, captain.\"",
+   "ctx": "data/campaign/rules.csv gaFCIsirahMercGetNothing [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"That's it,\" $heOrShe says, then pauses, unblinking.\r\n\r\n\"Until next time, captain,\" the mercenary says finally. $HeOrShe shuts the comms link on you; static devolves to black.",
+   "ctx": "data/campaign/rules.csv gaFCIsirahMercGetNothing2 [text]"
+  },
+  {
+   "i": 26,
+   "en": "Provost Baird looks over her spectacles at you, \"But you have not made contact yet. Because if you had, that is what you would be telling me.\"\r\n\r\nShe sighs, and raises her eyes briefly to the firmament, such as it is. \"Very well...\"\r\n\r\n\"If your information can be trusted, it may be effective to simply confront the local authorities with that knowledge and see what you might ascertain.\" She's gone into full lecture mode. \"Bluff, perhaps. Competing authorities in-system might have knowledge of the activities of their counterparts; intel and counter-intel. Those less scrupulous might be bribed - and before you ask, I believe we've paid you quite enough already to carry out this mission one way or another without another creative entry for the bursar's office.\"",
+   "ctx": "data/campaign/rules.csv gaFCTellBairdIsirah1 [text]"
+  },
+  {
+   "i": 27,
+   "en": "Pacing, she turns from the bay windows illuminating her office, \"On the other hand, you might adopt an even less direct approach. Certain low-lifes and radicals, even Luddic Pathists, may follow in the wake of Coureuse. Or be looking for her themselves. I'm confident that you can handle such scum.\"\r\n\r\nShe stops, and faces you, \"Not every problem can be solved with direct application of force,\" a slight smile appears, \"All knowledge, perhaps, is the result of this human frustration. Now, go. You will be rewarded once I am in contact with Scylla Coureuse.\"",
+   "ctx": "data/campaign/rules.csv gaFCTellBairdIsirah2 [text]"
+  },
+  {
+   "i": 28,
+   "en": "With only one piece of evidence that Coureuse is at Laicaille Habitat you're not absolutely certain it would not be dismissed as merely circumstantial if you attempted to leverage it against the authorities.\r\n\r\nYou need to find one more piece of corroborating evidence.",
+   "ctx": "data/campaign/rules.csv gaFCSearchIsirahSummaryComms2 [text]"
+  },
+  {
+   "i": 29,
+   "en": "With multiple pieces of evidence, you feel confident that you have sufficient leverage to confront authorities at Laicaille Habitat about Scylla Coureuse.\r\n\r\nIt is time to talk to the archon of Laicaille Habitat.",
+   "ctx": "data/campaign/rules.csv gaFCSearchIsirahSummaryComms3 [text]"
+  },
+  {
+   "i": 30,
+   "en": "You assemble your senior officers to discuss the matter of the Coureuse-related hypercomms directed at the Isirah System. A preliminary scan of the Groombridge Habitat rotates slowly in the holoprojector's display. \r\n\r\n\"Theoretically,\" your nav officer says, \"A hyperspace-interacting field could be pulsed only periodically. It'd be impossible to detect unless we caught it at the right moment. And we don't know the schedule.\"",
+   "ctx": "data/campaign/rules.csv gaFCGroombridgeSearch1 [text]"
+  },
+  {
+   "i": 31,
+   "en": "Comms speaks up, \"The same principle could be applied to the intra-system relay. Data could be cached, then pulsed to a habitat, ship, another relay...\" \r\n\r\nYour ops chief speaks, \"-And that reactor shootin' rads like it is, no one would look too close. Or hang around long. Only way to search is,\" a thoughtful pause, \"Rad-armored drones. One-way trip. If a relay is in there, it'll have a damn strong rad-shield.\"",
+   "ctx": "data/campaign/rules.csv gaFCGroombridgeSearch2 [text]"
+  },
+  {
+   "i": 32,
+   "en": "Your bridge crew exchanges looks - their captain is giving another one of those orders - while your ops chief leans back, deep in thought.",
+   "ctx": "data/campaign/rules.csv gaFCGroombridgeSearch3 [text]"
+  },
+  {
+   "i": 33,
+   "en": "At the turn of the next shift the armored drones are prepared, and your ops chief oversees their deployment. You follow their progress through the projection of Groombridge Habitat, filling in fuzzy volumes - shielded from your scans or too radioactive to get a good read - with sharp details. An anomalous shielded mass is found soon enough in a damaged work bay in close proximity to the deadly core of the station.  \r\n\r\nTech and comms begin discussing how to breach and hack the relay; your ops chief growls an interruption, \"If I were them, I'd rig it to blow if it got looked at funny.\" The other officers go quiet.\r\n\r\nSensors speaks up, \"We just have to intercept an in-system signal, right? Assuming it's tightcast, we could deploy a, um, cloud of detectors.\" Your ops chief looks at your sensors officer and sighs.\r\n",
+   "ctx": "data/campaign/rules.csv gaFCGroombridgeSearch4 [text]"
+  },
+  {
+   "i": 34,
+   "en": "Within hours of establishing a makeshift detection cloud, the relay sends a comms squirt. The whiff of an outbound signal is projected by your navigator on your flagship bridge main holodisplay, the line points toward Laicaille Habitat. Not quite, but close enough. Maybe a relay in a close orbit.\r\n\r\n\"We just have to follow the path of the beam,\" your comms officer comments.",
+   "ctx": "data/campaign/rules.csv gaFCGroombridgeSearch5 [text]"
+  }
+ ]
+}

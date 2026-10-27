@@ -1,0 +1,176 @@
+{
+ "chunk": 210,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"Gotta get by,\" $heOrShe shrugs. \"But first, we need to get back to the core worlds. If... you could help us.\"",
+   "ctx": "data/campaign/rules.csv LOCRMaskWhoLeftYouBack [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"Aye, this place is a real find!\" $HeOrShe speaks with obvious pride.\r\n\r\n\"By the Domain standard rating these are classified as ultra-rich ore deposits.\"\r\n\r\n\"With a proper mine site, and equipment, and... well, you could feed refineries across half the core. Unfortunately the bloodsuckers took off with the full survey data, but if you ran your own, you'd see for yourself what a bounty we've got here. All yours, as far as I'm concerned.\"",
+   "ctx": "data/campaign/rules.csv LOCRMsurveyOre [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"Aye, this place is a real find!\" $HeOrShe speaks with obvious pride.\r\n\r\n\"By the Domain standard rating these are classified as plentiful volatiles deposits.\"\r\n\r\n\"With a proper extraction operation you could feed half the fuel production of the core! Imagine. Unfortunately the bloodsuckers took off with the full survey data, but if you ran your own, you'd see for yourself what a bounty you've got here. And it's all yours, as far as I'm concerned.\"",
+   "ctx": "data/campaign/rules.csv LOCRMsurveyVolatiles [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"Aye, this place is a real find!\" $HeOrShe speaks with obvious pride.\r\n\r\n\"By the Domain standard rating these are classified as plentiful organics deposits.\"\r\n\r\n\"Set down a drill-rig almost anywhere and you'll hit high-purity take! Unfortunately the bloodsuckers took off with the full survey data, but if you ran your own, you'd see for yourself what a bounty you've got here. And it's all yours, as far as I'm concerned.\"",
+   "ctx": "data/campaign/rules.csv LOCRMsurveyOrganics [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"Aye, this place is a real find!\" $HeOrShe speaks with obvious pride.\r\n\r\n\"By the Domain standard rating these are classified as ultra-rich rare ore deposits.\"\r\n\r\n\"With a proper operation, you could feed half the refineries of the core worlds. Unfortunately the bloodsuckers took off with the full survey data, but if you ran your own, you'd see for yourself what a bounty you've got here. All yours, as far as I'm concerned.\"",
+   "ctx": "data/campaign/rules.csv LOCRMsurveyRareOre [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"Truly?\" The miner $post grins. \"If you've got paying jobs we'd be fools not to take them.\"\r\n\r\n\"I'll get everyone organized down here, and have the heavy machinery packed up for you within a shift! Ah, it'll be good to get back to work.\"",
+   "ctx": "data/campaign/rules.csv LOCRMofferMyColony [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Splendid.\" The miner $post grins.\r\n\r\n\"I'll get everyone organized down here, and have the heavy machinery packed up for you within a shift! Ah, it'll be good to get back to work.\"",
+   "ctx": "data/campaign/rules.csv LOCRMofferTransport [text]"
+  },
+  {
+   "i": 8,
+   "en": "You have your officers make arrangements. The miners, eager to escape from the monotony of their temporary worksite, board your $shipOrFleet along with all the general-purpose heavy equipment that could be recovered.",
+   "ctx": "data/campaign/rules.csv LOCRMofferTransport2 [text]"
+  },
+  {
+   "i": 9,
+   "en": "You've arrived at a colony suitable for offloading the miners you rescued from the fringe survey site.",
+   "ctx": "data/campaign/rules.csv LOCRMoffloadMiners [text]"
+  },
+  {
+   "i": 10,
+   "en": "As promised, you offload the abandoned mining crew you rescued from the fringe. They smile and give thanks to you and your officers as they leave.\r\n\r\nNearly a third of the crew choose to stay on, forgoing the usual signing bonus. It seems that they are finding spacefaring - and regular wages - to their taste.",
+   "ctx": "data/campaign/rules.csv LOCRMoffloadMiners2 [text]"
+  },
+  {
+   "i": 11,
+   "en": "You've arrived at a colony under your administration suitable for resettlement of the rescued miners.",
+   "ctx": "data/campaign/rules.csv LOCRMoffloadMinersOwnColony [text]"
+  },
+  {
+   "i": 12,
+   "en": "As promised, you offload the mining crew you rescued from the fringe survey site. They smile and give thanks to you and your officers as they leave to find gainful employment in your colony. With recommendations based on work ethic and good behavior, it is likely they will do well here.\r\n\r\nNearly a third of the crew choose to stay on your rolls, forgoing the usual signing bonus. It appears that they find the adventure of spacefaring to their taste.",
+   "ctx": "data/campaign/rules.csv LOCRMoffloadMinersOwnColony2 [text]"
+  },
+  {
+   "i": 13,
+   "en": "A small crew of stranded pirates was rescued from emergency shelters near a wrecked spacecraft in a remote province on the surface of $name.\r\n\r\nStanding bounties on those pirates with sufficiently concerning criminal records have been distributed to the rescuers. The rest have been released to haunt the landing facilities, seeking menial jobs between opportunities to sign with newly arrived ships.\r\n\r\nColonial MuniSec is monitoring the situation.",
+   "ctx": "data/campaign/rules.csv LOCRPremoveBecauseColony2 [text]"
+  },
+  {
+   "i": 14,
+   "en": "Upon entering orbit, your comms officer reports \"$PlayerSirOrMadam, we're getting a signal. Point of origin from a wreck on the surface.\" \r\n\r\nSensors takes over the report, \"Scan indicates debris spread and... a crater. Looks hot; radioactive. Disabled ship hull nearby. Looks like they got hit from orbit. And... survivors. Nearby, in emergency shelters.\"",
+   "ctx": "data/campaign/rules.csv LOCRPstart [text]"
+  },
+  {
+   "i": 15,
+   "en": "Your comms officer reports that the communication signal from the surface is still active.\r\n\r\nSensors indicate the radioactive crater as well as a disabled ship remain. Emergency shelters with an active power source are set up nearby.",
+   "ctx": "data/campaign/rules.csv LOCRPstartAgain [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"-ta sky if you don't answer, and burn Fenius to the bone! Rads and...\" The $manOrWoman's face resolves mid-curse, and freezes in shock. \r\n\r\n\"It worked! I told ya,\" $heOrShe shouts to someone behind $himOrHer, \"It's a $shipOrFleet burnin' above, a real one!\"\r\n\r\n$HeOrShe turns back, \"You gotta get us off this rock! We're running low on supplies, and before long we'll have to be growing our own food in the dirt like.. like mud-loving Luddies!\"",
+   "ctx": "data/campaign/rules.csv LOCRPcontact1 [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"Captain $playerName, my good friend!\" The pirate puts on $hisOrHer best smile. \"We're so glad you've come back. Perhaps you've considered ah, transporting us off this rock?\"",
+   "ctx": "data/campaign/rules.csv LOCRPcontact1again [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"Captain $playerName, my good friend!\" The pirate puts on $hisOrHer best smile. \"We're so glad you've come back. Perhaps you've had time to reconsider ah, transporting us off this rock?\"",
+   "ctx": "data/campaign/rules.csv LOCRPcontact1againTransport [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"The rad-blasted betrayer Fenius left us here! Told us he knew where Old Marlowe buried a stash. Stash o' lies, more like,\" $heOrShe spits voluminously, and hatefully.\r\n\r\n\"Took all the ships and what little loot... er, cargo, that is. Legitimate salvage and digging equipment! That's us, legitimate salvors done in by a bad lot and left here to die in the dirt. Like, like Luddie worms!\"\r\n\r\nThe $manOrWoman looks pained, \"It's no way for a spacer to die, down here. Take us up, captain. We'll be good to ya.\"",
+   "ctx": "data/campaign/rules.csv LOCRPwhyAreYouHere [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"Ah, Ormon Fenius. Fenius the Outcast, he's called. The slimiest piece of trash that ever oozed from the mud of...\"\r\n\r\n$HeOrShe pauses, thoughtfully. \"Come to think of it, I dunno where he's from. Somewhere awful where everyone lies, cheats, and steals from one another, probably.\"\r\n\r\nAt this, $heOrShe looks around, \"'Course there's properly done lying, cheating, and stealing. Quite acceptable, using one's own wits to win a prize through clever work,\" $heOrShe thumps $hisOrHer chest, \"That's my trade, it is! Cleverness and craft. Not like Fenius.\"  ",
+   "ctx": "data/campaign/rules.csv LOCRPwhoIsFenius [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"Fenius, why he'll lie, cheat, and steal for anything, from anyone. The man has no honor! And, and,\" the pirate is getting worked up, standing to shout, \"He's no fun!\"\r\n\r\nNo fun. The worst of crimes.\r\n\r\nThe pirate sits, calming down. \"He let us land so we could get Marlowe's stash, then blasted our ships from orbit and took off. One reactor went critical, the other... well, just failed. But the previous, ah, owner of my ship thought to have survival equipment. So here we are.\"",
+   "ctx": "data/campaign/rules.csv LOCRPwhoIsFenius2 [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"Ah, Old Marlowe!\" The pirate gets almost misty eyed, \"Now there was a pirate. He could drink! Oh, how he drank. And fight! Bloodthirsty, he was, would shoot you in the front, back, side - any direction he could get. Whatever it took to win.\"\r\n\r\n\"Well, he weren't exactly a nice man. And when he gambled, he cheated. Oh, how he cheated! A sight to see, I tell you. Anyway, eventually he cheated the wrong mark and,\" $heOrShe makes a gun-shape with $hisOrHer hand and motions firing it, making a wet noise. $HeOrShe uses the other hand to indicate a generous volume of splatter from the exit wound, if you're interpreting the body language correctly.",
+   "ctx": "data/campaign/rules.csv LOCRPwhoIsMarlowe [text]"
+  },
+  {
+   "i": 23,
+   "en": "The pirate grins, glad for an appreciative audience.",
+   "ctx": "data/campaign/rules.csv LOCRPwhoIsMarlowe2a [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"Marlowe was rich, see. Big rich, real rich. But no one's found his stash. Thought we might 'cause I was stupid enough to trust Fenius, despite his reputation...\"\r\n\r\n$HeOrShe slumps down, now that the excitement of Marlowe's story is over. \"So here we are.\"",
+   "ctx": "data/campaign/rules.csv LOCRPwhoIsMarlowe2 [text]"
+  },
+  {
+   "i": 25,
+   "en": "The pirate looks at you for a long moment.\r\n\r\n\"Can't promise I can find him, can't promise he really knows where Marlowe's loot is. Fenius is a slippery worm, he is.\"\r\n\r\n\"But if you get me and my crew off this rock and into a nice safe pirate port, then I'll help you. I'll help you 'cause I could use some revenging on Fenius,\" $heOrShe curls $hisOrHer hands into fists and knocks them together. \"We'll find him, then you can wring him for information and wring him hard.\"",
+   "ctx": "data/campaign/rules.csv LOCRPofferForFenius [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"'Course you will, captain, 'course you will.\" The pirate nods obediently. \"But I know Fenius, and he ain't spilling the truth unless you make it hurt. Just helping you with my knowledge, I am. I know my place.\"",
+   "ctx": "data/campaign/rules.csv LOCRPofferForFeniusB [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"Can't,\" $heOrShe shrugs. \"But you've got me, an honest pirate, at the bottom of a big ol' gravwell, so I've not got much to negotiate with.\"",
+   "ctx": "data/campaign/rules.csv LOCRPofferForFeniusC [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"As you will, captain, as you will. \"",
+   "ctx": "data/campaign/rules.csv LOCRPofferForFeniusD [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"Aye, surely,\" the pirate leader backtracks nervously. \"I read you green and clear, 'Luddic faithful'.\"\r\n\r\nThe $manOrWoman nods enthusiastically, \"Can't say I haven't prayed a bit meself from time to time,\" then over $hisOrHer shoulder \"Isn't that right? You saw me prayin' that time.\" \r\n\r\nThe pirate turns back to you, \"We all agree, um, my fellow $playerBrotherOrSister. Now, can you take us aboard? We're good spacers, can work our way.\"",
+   "ctx": "data/campaign/rules.csv LOCRPnotLuddies [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"No!\" $HeOrShe shouts defensively. \"No no, never... \" $heOrShe appears to be trying to gauge your reaction through the fits of the poor comm link.\r\n\r\n\"...Yes. Maybe? A little, from time to time, perhaps. Desperate times, these are, aren't they? We think of ourselves more as rogues of the fringe. Corsairs, if you will. Good, honest folk driven to low means to make ends meet. Sounds better when you say it like that, don't it?\"\r\n\r\n\"And even if we are pirates, know that I'm being honest with ya. Counts for something, don't it?\" ",
+   "ctx": "data/campaign/rules.csv LOCRPareYouPirates [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"Surely we are, captain!\" $HeOrShe grins.",
+   "ctx": "data/campaign/rules.csv LOCRPareYouPiratesHonest [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"Well,\" $heOrShe draws this out, leaning back.\r\n\r\n\"If you're demanding only the strictest sort of definition, why then I suppose we couldn't rightly object to that choice nomenclature on the, what's it, empirical grounds, now could we.\"",
+   "ctx": "data/campaign/rules.csv LOCRPareYouPiratesAre [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"I didn't say we weren't, but...\" $heOrShe pauses a moment, in furious thought, before deciding that you're constructing a fiction for $himOrHer to play along with. For whose benefit? Your own crew, perhaps.\r\n\r\n\"Aye. Aye, that's right. Not pirates, as you will.\" The pirate nods emphatically, and gives a wink.",
+   "ctx": "data/campaign/rules.csv LOCRPareYouPiratesNot [text]"
+  },
+  {
+   "i": 34,
+   "en": "\"Treasure? Oh, Old Marlowe's stash?\" The pirate snorts dismissively. \"Weren't no thing. Not here, anyway.\" \r\n\r\n\"We come out all this way, the rad-addled betrayer claiming all the while he knows where Marlowe left his riches, this very planet. We go down to the spot with our diggers ready and have a look and then, and then!\" $HeOrShe claps $hisOrHer hands together with a smack.\r\n\r\n\"Gunned in the back, we are! Hit from orbit with our shields down.\" The pirate waves an arm around, \"Reactor breach on the one ship, blew half away the other. Real mess, had to scrub bits of my mates off my vac suit, I did.\"",
+   "ctx": "data/campaign/rules.csv LOCRPaskTreasure [text]"
+  }
+ ]
+}

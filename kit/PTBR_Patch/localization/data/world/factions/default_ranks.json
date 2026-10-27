@@ -1,0 +1,145 @@
+{
+	"ranks":{
+		"factionLeader":{"name":"Alto Comandante"},
+		"houseLeader":{"name":"Patriarca da Casa"},
+		"houseLeaderMale":{"name":"Patriarca da Casa"},
+		"houseLeaderFemale":{"name":"Matriarca da Casa"},
+	
+		"spaceSailor":{"name":"Espaçonauta"},
+		"spaceChief":{"name":"Chefe"},
+		"spaceEnsign":{"name":"Guarda-marinha"},
+		"spaceLieutenant":{"name":"Tenente"},
+		"spaceCommander":{"name":"Comandante"},
+		"spaceCaptain":{"name":"Capitão"},
+		"spaceAdmiral":{"name":"Almirante"},
+		"spaceMarshal":{"name":"Marechal Estelar"},
+		
+		"groundPrivate":{"name":"Soldado"},
+		"groundSergeant":{"name":"Sargento"},
+		"groundLieutenant":{"name":"Tenente"},
+		"groundCaptain":{"name":"Capitão"},
+		"groundMajor":{"name":"Grave"},
+		"groundColonel":{"name":"Coronel"},
+		"groundGeneral":{"name":"Geral"},
+		
+		"knightCaptain":{"name":"Cavaleiro-Capitão"},
+		
+		"chiefHighInspector":{"name":"Inspetor-Chefe Superior"},
+		"deputyStarMarshal":{"name":"Marechal Estelar Adjunto"},
+		"guardHighDeputyExecutor":{"name":"Executor Adjunto Supremo da Guarda"},
+		
+		"citizen":{"name":"Cidadão"},
+		"executive":{"name":"Executivo"},
+		"seniorExecutive":{"name":"Executivo Sênior"},
+		"agent":{"name":"Agente"},
+		"specialAgent":{"name":"Agente Especial"},
+		
+		"pilot":{"name":"Piloto"},
+		"unknown":{name:"Desconhecido"},
+		
+		"brother":{name:"Irmão"},
+		"sister":{name:"Irmã"},
+		"father":{name:"Pai"},
+		"mother":{name:"Mãe"},
+		"elder":{name:"Ancião"},
+		"aristocrat":{name:"Aristocrata"},
+		"terrorist":{name:"Terrorista"},
+		"freedomFighter":{name:"Combatente da Liberdade"},
+		"clone":{name:"Clone"},
+		
+	},
+	
+	"posts":{
+		"factionLeader":{"name":"Alto Comandante"},
+	
+		"patrolCommander":{"name":"Comandante de Patrulha"},
+		"fleetCommander":{"name":"Comandante de Frota"},
+		
+		"baseCommander":{"name":"Comandante de Base"},
+		"stationCommander":{"name":"Comandante de Estação"},
+		"outpostCommander":{"name":"Comandante de Posto Avançado"},
+		"portmaster":{"name":"Chefe do Porto"},
+		
+		"intelligenceDirector":{"name":"Diretor de Inteligência"},
+		"guardLeader":{"name":"Diretor de Forças Especiais"},
+		
+		"supplyOfficer":{"name":"Intendente"},
+		"supplyManager":{"name":"Gerente de Suprimentos"},
+		"medicalSupplier":{"name":"Fornecedor Médico"},
+		
+		"administrator":{"name":"Administrador"},
+		"militaryAdministrator":{"name":"Governador Militar"},
+		"freeAdmin":{"name":"Administrador Autônomo"},
+		
+		"guildMaster":{"name":"Mestre da Guilda"},
+		"communeLeader":{"name":"Líder da Comuna"},
+		"executive":{"name":"Executivo"},
+		"seniorExecutive":{"name":"Executivo Sênior"},
+		"minorCriminal":{"name":"Criminoso de pequeno porte"},
+		"criminal":{"name":"Criminoso"},
+		"spacer":{"name":"Espaçonauta"},
+		
+		"genericMilitary":{"name":"Comandante"},
+		"marineSquadLeader":{"name":"Sargento"},
+		
+		"trader":{"name":"Comerciante"},
+		"merchant":{"name":"Mercador"},
+		"investor":{"name":"Investidor"},
+		"commodities_agent":{"name":"Agente de Commodities"},
+		"entrepreneur":{"name":"Empreendedor"},
+		"nanoforge_engineer":{"name":"Engenheiro de Nanoforja"},
+		
+		"shady":{"name":"Personagem suspeito"},
+		"gangster":{"name":"Gângster"},
+		"smuggler":{"name":"Contrabandistas"},
+		"fence":{"name":"Receptador"},
+		"armsDealer":{"name":"Traficante de Armas"},
+		
+		
+		"citizen":{"name":"Cidadão"},
+		"boss":{"name":"Chefe"},
+		"crewBoss":{"name":"Chefe de Tripulação"},
+		
+		"mercenary":{"name":"Oficial mercenário"},
+		"officer":{"name":"Oficial"},
+		"officer_for_hire":{"name":"Oficial (disponível para contratação)"}, 
+		
+		"investigator":{"name":"Investigador-Chefe"},
+		"agent":{"name":"Agente"},
+		"specialAgent":{"name":"Agente Especial"},
+		
+		"provost":{name:"Reitor"},
+		"academician":{name:"Acadêmico"},
+		
+		"securityChief":{name:"Chefe de Segurança"},
+		"doctor":{name:"Doutor"},
+		"hacker":{name:"Hacker"},
+		"hermit":{name:"Eremita"},
+		"pensioner":{name:"Aposentado"},
+		"activist":{name:"Ativista"},
+		"scientist":{name:"Cientista"},
+		"terrorist":{name:"Terrorista"},
+		"warlord":{name:"Senhor da Guerra"},
+		"unknown":{name:"Desconhecido"},
+		"aristocrat":{name:"Aristocrata"},
+		
+		"curate":{name:"Curador"},
+		"synodSubcurate":{name:"Subcurador do Sínodo"},
+		"subcurate":{name:"Subcurador"},
+		"archcurate":{name:"Arcicurado"},
+		"heretic":{name:"Herege"},
+		"shrinePriest":{name:"Curador Sacraria"},
+		"excubitorOrbis":{"name":"Excubitor Orbis"},
+		"initiate":{"name":"Iniciado"},
+		"novice":{"name":"Noviço"},
+		"pilgrim":{"name":"Peregrino"},
+		
+	},
+}
+
+
+
+
+
+
+

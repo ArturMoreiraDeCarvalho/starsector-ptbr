@@ -1,0 +1,23 @@
+{
+	"baseHullId":"manticore",
+	"skinHullId":"manticore_luddic_path",
+	"hullName":"Manticore (LP)",
+	"descriptionId":"manticore",
+	"descriptionPrefix":"Fanáticos do Caminho Luddita modificaram grosseiramente esta nave, sobrecarregando os motores e os sistemas de energia e substituindo a montagem de torre balística original por um lançador de mísseis maciço, para executar melhor ataques alfa ousados contra naves capitais e cruzadores.",
+	"tags":["rare_bp"],
+	"tech":"Caminho Luddita",
+	"suppliesToRecover":14,
+	"suppliesPerMonth":14,
+	"spriteName":"graphics/ships/manticore/manticore_pather.png",
+	"removeWeaponSlots":[],
+	"weaponSlotChanges":{
+		"WS 000":{"type": "MISSILE"},
+		"WS 004":{"type": "BALLISTIC"},
+		"WS 005":{"type": "BALLISTIC"},
+	},
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":["ballistic_rangefinder"], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":["safetyoverrides","ill_advised"],
+    },    
+}

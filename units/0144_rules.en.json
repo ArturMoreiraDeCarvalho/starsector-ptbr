@@ -1,0 +1,266 @@
+{
+ "chunk": 144,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"Are you worthy? Will you pledge your life to the Sindrian Diktat?\"",
+   "ctx": "data/campaign/rules.csv CMSNTextSuitedPart2_sindrian_diktat [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"Glory to the Lion of Sindria! You will be forged anew in the great conflict of this new age of Andradan supremacy!\"",
+   "ctx": "data/campaign/rules.csv CMSNTextWelcomePart1_sindrian_diktat [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"Andradan Diktat party membership is required and automatic upon acceptance of commission, of course. Your dues will be waived in light of your service to the Movement. I'll have the relevant ideological holo links forwarded to your TriPad for study.\"\r\n\r\n\"Is there anything else you need?\"",
+   "ctx": "data/campaign/rules.csv CMSNTextWelcomePart2_sindrian_diktat [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"Indeed, not all are strong enough to uphold the values of the Sindrian Diktat. We are warriors, you know, fighting for an age of renewed glory for the human race. The strong will be forged in this final conflict while the dross is swept aside, mere dust in the great river of history. \r\n\r\nIf you are fit for service, all that remains is your choice of which side you will ultimately take. Think on that.\"",
+   "ctx": "data/campaign/rules.csv CMSNTextChangeMind_sindrian_diktat [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"I hope this is not some kind of joke. Loyalty is the highest ideal of the Sindrian Diktat, as well you know. The Lion does not tolerate those who lack an iron conviction to our great movement.\"",
+   "ctx": "data/campaign/rules.csv CMSNResignAskToConfirm_sindrian_diktat [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"I see all too clearly now that you have not the spine for our great work.\r\n\r\nBegone from my comms, traitor. I shall report this to party intelligence immediately.\"",
+   "ctx": "data/campaign/rules.csv CMSNResignConfirmed_sindrian_diktat [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"I will be lenient and ... not ... report this serious error of judgment. I'm taking this risk because I still believe you can be a part of this great work we have been called upon to perform.\r\n\r\nStep carefully.\"",
+   "ctx": "data/campaign/rules.csv CMSNResignCancelled_sindrian_diktat [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"A fascinating offer. Why, if one of the major factions caught you with these, they might just seize them outright. Tell you what - I'll do you a favor and give you a good price.\"",
+   "ctx": "data/campaign/rules.csv aiCores_turnInOptionSelGeneric [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"You were right to bring these to me. I shall contact the Knight Commander to take possession of these abominations so that they may be properly cleansed.\"",
+   "ctx": "data/campaign/rules.csv aiCores_turnInOptionSelLuddic [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"We don't generally like the public to be aware that these exist, citizen, but the Hegemony is treaty-bound to take possession of any such objects and ensure they're destroyed.\"",
+   "ctx": "data/campaign/rules.csv aiCores_turnInOptionSelHegemony [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"A dangerous catch you have there - there's no telling what could happen if one got into the hands of terrorists. I ... that is, we, are sure to be rewarded by the Lion for surrendering this to Diktat Intelligence straightaway.\"\r\nOR\r\n\"It's a good thing you came directly to me; a less understanding officer might have you arrested for transporting material deemed a threat to the interests of the Sindrian Cause. Your loyalty shall be rewarded.\"",
+   "ctx": "data/campaign/rules.csv aiCores_turnInOptionSelDiktat [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"You hold quite the object of fascination there, though you are surely aware that you lack the expertise and capital necessary to exploit its full potential. The Tri-Tachyon Corporation would be more than pleased to offer you a fair market price for your goods.\"",
+   "ctx": "data/campaign/rules.csv aiCores_turnInOptionSelTriTachyon [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"An excellent find, citizen. The polity of Kazeron, and of course the Persean League as a whole, will recognize and reward your fulfillment of patriotic duty in assisting in finding these dangerous objects.\"",
+   "ctx": "data/campaign/rules.csv aiCores_turnInOptionSelPerseanKazeron [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"An excellent find, citizen. We can't allow factions that would seek to impose their tyranny over our Sector to accumulate these dangerous objects.\"",
+   "ctx": "data/campaign/rules.csv aiCores_turnInOptionSelPerseanNotKazeron [text]"
+  },
+  {
+   "i": 15,
+   "en": "$PersonRank $personLastName thanks you and the conversation moves on to other matters.",
+   "ctx": "data/campaign/rules.csv aiCores_turnInResponseDefault [text]"
+  },
+  {
+   "i": 16,
+   "en": "$PersonRank $personLastName thanks you on behalf of the Hegemony Council and the conversation moves on to other matters.",
+   "ctx": "data/campaign/rules.csv aiCores_turnInResponseHegemony [text]"
+  },
+  {
+   "i": 17,
+   "en": "$PersonRank $personLastName says a quick prayer and thanks you on behalf of the Church.",
+   "ctx": "data/campaign/rules.csv aiCores_turnInResponseLuddicChurch [text]"
+  },
+  {
+   "i": 18,
+   "en": "$PersonRank $personLastName salutes in an energetic display of loyalty to the Sindrian Cause before allowing you to turn to other matters.",
+   "ctx": "data/campaign/rules.csv aiCores_turnInResponseDiktat [text]"
+  },
+  {
+   "i": 19,
+   "en": "$personName smiles like a carnivorous animal you saw in a holodoc once.  \"It's a deal.\"",
+   "ctx": "data/campaign/rules.csv aiCores_turnInResponseTriTachyon [text]"
+  },
+  {
+   "i": 20,
+   "en": "$PersonRank $personLastName verifies the transfer before moving the conversation to other matters.",
+   "ctx": "data/campaign/rules.csv aiCores_turnInResponseLeagueKazeron [text]"
+  },
+  {
+   "i": 21,
+   "en": "$PersonRank $personLastName thanks you for your devotion to the cause of an independent Persean Sector.",
+   "ctx": "data/campaign/rules.csv aiCores_turnInResponseLeagueOther [text]"
+  },
+  {
+   "i": 22,
+   "en": "You have $player.fuel fuel available.",
+   "ctx": "data/campaign/rules.csv dstr_showEnoughFuel [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"What, you want to steal some of my crew under the guise of offering to 'help'? I don't think so!\r\n\r\nYou're obligated to render what aid you can, so - how about that fuel?\"",
+   "ctx": "data/campaign/rules.csv dstr_takeCrewNo [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"That's a tough choice to make, but if the alternative is leaving some crew behind in cryopods to hopefully return for later...\"\r\n\r\n$HeOrShe pauses, thinking things through.\r\n\r\n\"Let me see... will you take on $entity.distressCrewTakeOn crew? That should be within your $shipOrFleet's personnel capacity.\r\n\r\nIt won't let us scuttle enough ships to reduce fuel consumption and be able to strike for the core worlds, but at least they'll be safe.\"",
+   "ctx": "data/campaign/rules.csv dstr_takeCrewNotEnoughRoom [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"That's a tough choice to make, but if the alternative is leaving some crew behind in cryopods to hopefully return for later...\"\r\n\r\n$HeOrShe pauses, clearly thinking things through.\r\n\r\n\"With fewer crew to support, we can scuttle some of our ships.\r\n\r\nThat'll get us some anti-matter from reactor cores, and with fewer ships, what fuel we have will go farther. We just might be able to make it back.\r\n\r\nLet me see... will you take on $entity.distressCrewTakeOn crew? That should be within your $shipOrFleet's capacity.\"",
+   "ctx": "data/campaign/rules.csv dstr_takeCrewEnoughRoom [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"Any chance of selling us that fuel, then?\"",
+   "ctx": "data/campaign/rules.csv dstr_rejectCrewSel [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"We'll just have to make do somehow, then. I expect you'll let others know of our plight.\"\r\n\r\nThe comm link is cut rather abruptly.",
+   "ctx": "data/campaign/rules.csv dstr_denySel [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"Is that so? I think we'll just have to open up your fuel tanks and make sure. Because our sensors certainly show otherwise.\"",
+   "ctx": "data/campaign/rules.csv dstr_denyTurnHostileSel [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"Alright then, we'll do it the hard way.\"\r\n\r\nThe comm link is cut before you have a chance to respond.",
+   "ctx": "data/campaign/rules.csv dstr_defiantSel [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"Oh, it's you. I've heard about you. You're on your own.\"\r\nOR\r\n\"You?\" $HeOrShe laughs without mirth then cuts the comm sharply. ",
+   "ctx": "data/campaign/rules.csv dcall_openCommsInhospitable [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"Must be a relief we showed instead of some pirates, eh?\r\n\r\nNow, what was it you needed?\"",
+   "ctx": "data/campaign/rules.csv dcall_openComms [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"Need some help after all, do you?\"",
+   "ctx": "data/campaign/rules.csv dcall_openCommsRepeat [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"Is that so? Well, I guess we'll hang around here for a bit and wait for who did.\"\r\n\r\nYou get the feeling $heOrShe has some doubts about what you've said.",
+   "ctx": "data/campaign/rules.csv dcall_neverMindSel [text]"
+  },
+  {
+   "i": 34,
+   "en": "\"Well, at least you owned up to it. Still, a distress call is not something to send out lightly.\"\r\nOR\r\n$HeOrShe frowns, and says \"Careful, you don't want to earn yourself ... a reputation. It's dangerous out here.\"",
+   "ctx": "data/campaign/rules.csv dcall_mistakeSel [text]"
+  },
+  {
+   "i": 35,
+   "en": "\"But... my scans show you've got plenty of fuel and supplies. I don't appreciate my time being wasted like this.\"\r\n\r\nThe comm link is cut before you have a chance to respond.",
+   "ctx": "data/campaign/rules.csv dcall_helpSelNoNeed [text]"
+  },
+  {
+   "i": 36,
+   "en": "\"I can see the cargo pods you've dumped overboard, you know.  I'm not blind. And my sensors indicate the presence of fuel or supplies in those.\r\n\r\nI can understand trying to scam a fellow spacer. It's the sheer incompetence of the attempt that's so insulting.\"\r\n\r\nThe comm link is cut before you have a chance to respond.",
+   "ctx": "data/campaign/rules.csv dcall_helpSelScam [text]"
+  },
+  {
+   "i": 37,
+   "en": "\"Happy to help a stranded spacer. Do try not to make a habit of getting in trouble, though.\"",
+   "ctx": "data/campaign/rules.csv dcall_helpSel [text]"
+  },
+  {
+   "i": 38,
+   "en": "\"You're getting a bit of a reputation for getting yourself in trouble, you know. Try to be more careful in the future.\"",
+   "ctx": "data/campaign/rules.csv dcall_helpSel1 [text]"
+  },
+  {
+   "i": 39,
+   "en": "\"I'll help you for the sake of your crew. One can't help but think you're being dangerously irresponsible, if you keep needing to be bailed out like this.\"",
+   "ctx": "data/campaign/rules.csv dcall_helpSel2 [text]"
+  },
+  {
+   "i": 40,
+   "en": "\"Take this - I don't think it's enough, but it's all we have to spare.\"",
+   "ctx": "data/campaign/rules.csv dcall_helpSel4 [text]"
+  },
+  {
+   "i": 41,
+   "en": "\"What we can spare doesn't look like it'll be enough, but you should be thankful to get anything at all considering the number of times you've had to call for help recently.\"",
+   "ctx": "data/campaign/rules.csv dcall_helpSel5 [text]"
+  },
+  {
+   "i": 42,
+   "en": "\"Thanks, much appreciated. That'll go a long way to offset our costs.\"",
+   "ctx": "data/campaign/rules.csv dcall_paySel [text]"
+  },
+  {
+   "i": 43,
+   "en": "\"Yeah, if you could afford to pay your own way, you probably wouldn't be in this situation in the first place, would you?\"",
+   "ctx": "data/campaign/rules.csv dcall_thankSel [text]"
+  },
+  {
+   "i": 44,
+   "en": "Your connection request is accepted surprisingly quickly, given that a $personRank has many responsibilities.\r\n\r\n\"Ah, you've come - excellent! As you're well aware, recently... well, I suppose we can skip that part.\"",
+   "ctx": "data/campaign/rules.csv tut_mainContactBegin [text]"
+  },
+  {
+   "i": 45,
+   "en": "\"A team from the Galatia Academy has been running experiments on the dormant gate in this system, trying to connect it back to the Domain's gate network.\r\n\r\nPromising experiments, or so they thought - until an energy pulse we expected would get a response from the gate destabilized the jump-points leading into the system, cutting us off from the rest of the Sector.\r\n\r\nIt's rather like how the Sector is cut off from the Domain, writ small- the stars have a sense of irony, do they not?\"",
+   "ctx": "data/campaign/rules.csv tut_mainBackground1 [text]"
+  },
+  {
+   "i": 46,
+   "en": "\"The miners of Derinkuyu Station, which is also located in this system and was operating near a subsistence level, were hit the hardest. They turned to piracy, intercepting one of the last food shipments to come in - out of desperation, no doubt, but there were deaths, and they've put themselves well outside the law.\r\n\r\nTheir leaders know that if the jump-points are stabilized and the system is once again part of the Sector, they can look forward to a life sentence at a penal colony at absolute best.\"",
+   "ctx": "data/campaign/rules.csv tut_mainGetDataInfo1 [text]"
+  },
+  {
+   "i": 47,
+   "en": "\"The miners-turned-pirate are guarding the jump-points, preventing us from gathering recent readings and coming up with a way to stabilize them.\r\n\r\nWe do have a security detachment that could handle their forces, but they're tied up defending Ancyra.\r\n\r\nThe pirates are too much for you to take on, but fortunately you don't have to. We've got an agent on Derinkuyu Station who was able to gain access to recent sensor readings from the ships guarding the jump-points, but they have not been able to get to a long-range comm array to send the data to us.\r\n\r\nThat's where you come in - head to Derinkuyu and retrieve the data from our agent, then return here.\"",
+   "ctx": "data/campaign/rules.csv tut_mainGetDataInfo2 [text]"
+  },
+  {
+   "i": 48,
+   "en": "\"Why not? I'm not exactly spoiled for choice, and you've shown some ability to handle ... difficulties.\r\n\r\nIt's not going to be a milk run, that's for sure.\"",
+   "ctx": "data/campaign/rules.csv tut_mainGetDataWhyMe [text]"
+  },
+  {
+   "i": 49,
+   "en": "\"Ah, a mercenary. Some credits, naturally, with more along the way - and if all goes to plan, we'll be able to reconnect with the rest of the Sector, such as it is.\"",
+   "ctx": "data/campaign/rules.csv tut_mainGetDataWhatsInIt [text]"
+  },
+  {
+   "i": 50,
+   "en": "\"First off, make sure to turn off your transponder once you undock. I've instructed the security detachment not to give you any trouble about that.\r\n\r\nIf you're lucky, the pirates may even think you're one of their own and let you approach Derinkuyu without any trouble. Still, it makes sense to \"Go Dark\" as you get closer, to make sure they can't get too good a reading on your fleet. You can also approach along the asteroid belt - that'll give you almost perfect cover, as long as you're moving slowly.\"",
+   "ctx": "data/campaign/rules.csv tut_mainGetDataGoDark [text]"
+  },
+  {
+   "i": 51,
+   "en": "\"Then you're in trouble - activate \"Emergency Burn\" to get out of there, lose them, and then come back around to try again.\r\n\r\nDon't e-burn unless you really need to, though. It's hard on the ships, and will cost you more supplies to recover from. Eats up a good chunk of fuel, too.\"",
+   "ctx": "data/campaign/rules.csv tut_mainGetDataEBurn [text]"
+  },
+  {
+   "i": 52,
+   "en": "\"Excellent. Thank you for being willing to help - come back when you've got the data. Good luck!\"",
+   "ctx": "data/campaign/rules.csv tut_mainGetDataAccept [text]"
+  }
+ ]
+}

@@ -1,0 +1,456 @@
+{
+ "chunk": 17,
+ "cat": "jar",
+ "items": [
+  {
+   "i": 1,
+   "en": "You can press %s to open and close the map, and %s to pause and unpause. To pan your view, right-click on an empty spot on the map and drag.\n\nYou can also see what your ships are doing by clicking on them and then selecting \"Show Video Feed\" from the context menu.\n\n<highlight>With the map open, select your interceptor wing and click \"Show Video Feed\" to follow along as it captures the Comm Relay.</highlight>",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/oOOO/F.class"
+  },
+  {
+   "i": 2,
+   "en": "Welcome to the fleet command tutorial.\n\nAt the start of a battle, you will want to deploy some of your ships. To do so, click on ship icons to mark them for deployment and then press the \"Deploy\" button.\n\nDeploying ships requires fleet points. Right now, you only have a few points, so go ahead and <highlight>deploy just the Wasp interceptor wing after dismissing this dialog.</highlight>",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/oOOO/G.class"
+  },
+  {
+   "i": 3,
+   "en": "Now that you've got more ships on the field, let's go take another objective. <highlight>There's a Sensor Array nearby - switch back to the map by pressing %s and order its capture. Remember to unpause the game afterwards by pressing %s, as switching to the map automatically pauses it.</highlight>\n\nNote that as Fleet Commander, you're giving the assignment to your whole fleet and not to a specific ship. Your subordinates will work out the details of which ships get which assignments.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/oOOO/O0OO.class"
+  },
+  {
+   "i": 4,
+   "en": "Well done! Now you've got more fleet points to play with (and an extra couple of command points from that Comm Relay, too), and it's time to deploy the rest of your fleet.\n\n<highlight>Go back to the map by pressing %s and click the \"Reinforcements\" button in the upper right corner of the screen, then deploy all of the remaining ships.</highlight>",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/oOOO/o0OO.class"
+  },
+  {
+   "i": 5,
+   "en": "Your flagship will enter the battlefield shortly. You can pilot it directly when the map is closed and give orders to other ships in your fleet when the map is open (remember, press %s to toggle the map).\n\nYou can also toggle the autopilot by pressing %s. It's useful when you want your flagship to fight while you're looking at the map, but do not want to pause the game.\n\n<highlight>Now, turn off the map and fly around for a bit. Remember to press %s to unpause, if needed.</highlight>",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/oOOO/o0OO.class"
+  },
+  {
+   "i": 6,
+   "en": "Congratulations, you've completed the Starfarer fleet command tutorial!\n\n<highlight>Press Escape to go back to the main menu</highlight>, and use your newfound skills in some missions.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/oOOO/oOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.class"
+  },
+  {
+   "i": 7,
+   "en": "We're almost done.\n\nYou can transfer your command to another ship during the battle. This is particularly useful if your flagship is disabled, or if you just want to start the battle in a faster ship, but then switch over to a heavier one in the later stages.\n\nTo try it, let's transfer command to the Gemini. <highlight>Click on the Gemini and select \"Transfer Command\" from the context menu.</highlight>",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/oOOO/oOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.class"
+  },
+  {
+   "i": 8,
+   "en": "Accelerated",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super$35.class"
+  },
+  {
+   "i": 9,
+   "en": "%s to turn on your shields.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super$8.class"
+  },
+  {
+   "i": 10,
+   "en": " to turn off your shields and let the flux dissipate.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 11,
+   "en": "%s to turn on your shields again and let the enemy keep firing at you.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 12,
+   "en": "(By the way - you can pause and unpause the game at any time by pressing ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 13,
+   "en": "(So, even if you're not taking any damage on the shields, keeping them off will let you put out more firepower.)",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 14,
+   "en": "As you can see, it's not good - when flux maxes out from shield hits, your ship overloads.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 15,
+   "en": "Congratulations! You've completed the basic combat tutorial.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 16,
+   "en": "Each ship also has a special system - an active ability it can perform. For the Hammerhead, it's an Accelerated Ammo Feeder that greatly increases the rate of fire for ballistic weapons.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 17,
+   "en": "Fire your Assault Chainguns (group 1) for a bit and watch how they build up flux, then continue when you're ready.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 18,
+   "en": "Firing most weapons (except for missiles) generates flux. Your ship has a limited flux capacity, and managing what you use it on is key to survival. You can see your current flux level on the info display in the lower left corner of the screen.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 19,
+   "en": "Flux gained from firing weapons is called soft flux, and can dissipate while the shields are up.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 20,
+   "en": "Flux gained when shields absorb damage is called hard flux and only dissipates while the shields are off - so, you can't keep shields up indefinitely while taking damage.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 21,
+   "en": "Fortunately, you can set any weapon group on autofire, making the weapons identify and attack targets on their own.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 22,
+   "en": "Good. As you can see, you've now been flanked by a pair of Lasher-class frigates.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 23,
+   "en": "Good. Now, let's see what happens if you keep your shields on under fire for too long.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 24,
+   "en": "Guided missiles require a target. By default, they'll lock on to the enemy nearest to your cursor when you fire.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 25,
+   "en": "Hover over the enemy ship and press %s to target it.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 26,
+   "en": "It'd be nice to shoot these down - we've got some point-defense lasers just for that. But, it's almost impossible to manually target all the incoming missiles.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 27,
+   "en": "Just sit tight and let them get a few volleys off.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 28,
+   "en": "Let's try strafing - hold down %s and press %s or %s to circle around the enemy ship. You'll also need to use %s and %s to manage the distance.\n\nContinue when you feel comfortable with it.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 29,
+   "en": "Moving the mouse around pans your view. You can also use the mouse wheel to zoom in and out.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 30,
+   "en": "Note how the lasers switch to attacking the missiles as soon as they're launched - point defense weapons will prioritize targeting missiles.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 31,
+   "en": "Now that the ship is no longer overloaded, flux is back to dissipating at a normal rate.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 32,
+   "en": "Now, let's see how the shields hold up under fire.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 33,
+   "en": "Now, onto weapons.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 34,
+   "en": "Press %s and %s to turn, %s and %s to accelerate forward or back, and hold %s to bring your ship to a halt. Give this a try, and press \"Continue\" when you've got the hang of it.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 35,
+   "en": "Press %s to activate the Accelerated Ammo Feeder and fire the Assault Chainguns (group 1) to see its effect.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 36,
+   "en": "Press %s to enable autofire for the point-defense lasers in group 3. Make sure you have a different group selected - selecting an autofiring group will result in a manual override of its controls.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 37,
+   "en": "Press %s to vent flux.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 38,
+   "en": "Regular weapons will not target missiles automatically.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 39,
+   "en": "Shields generate flux continuously while they're up, and generate even more flux every time they absorb damage.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 40,
+   "en": "Ships can also strafe sideways.\n\nThis is particularly useful if you want to move while keeping your front-facing weapons pointed at your target.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 41,
+   "en": "Some ship systems have limited uses, some generate flux, some have a cooldown - and some use a combination of those.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 42,
+   "en": "The Accelerated Ammo Feeder must cool down before it can be used again.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 43,
+   "en": "The Hammerhead has front-facing shields, but some ships have omni-directional shields that can rotate to face threats from any direction.\n\n%s to turn on your shields.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 44,
+   "en": "The Hammerhead's weapons are organized in three groups. Press %s, %s, and %s to switch between groups, and %s to fire the selected group.\n\nGive this a try, and continue when you're ready.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 45,
+   "en": "The enemy ship has stopped firing, but your flux level still isn't going down!",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 46,
+   "en": "The flux from firing these dissipates almost as quickly as it's generated. Different ships and ship loadouts dissipate flux at different rates, and so can support varying amounts of weapons effectively.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 47,
+   "en": "The notch on the flux bar indicates your hard flux level.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 48,
+   "en": "There's now an enemy ship - an Enforcer-class destroyer - at your 12 o'clock. Its weapon and maneuvering systems are disabled.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 49,
+   "en": "They're going to start launching missiles at you. Fortunately, these missiles aren't very effective vs well-armored ships.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 50,
+   "en": "Wait for the overload to end.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 51,
+   "en": "Welcome to the Starsector combat tutorial. This part will go over the combat basics.\n\nLet's get started!",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 52,
+   "en": "While the ship is overloaded, it can't fire or raise shields, dissipates flux very slowly, but can still maneuver normally.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 53,
+   "en": "While venting, your ship can't fire or use shields, so you generally only want to do it when it's safe.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 54,
+   "en": "You can also lock onto a specific enemy to ensure missiles go after it, and to see more information about it.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 55,
+   "en": "You can also vent flux to dissipate it at double the normal rate.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 56,
+   "en": "You can press %s again to clear the target.\n\nNow, onto defenses - most ships use shields to defend against incoming damage.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 57,
+   "en": "Your flagship for this tutorial is a Hammerhead class destroyer. First things first - let's learn how to get it moving.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 58,
+   "en": "Your ship will turn towards your mouse pointer while you strafe, so keep the cursor on top of the target.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 59,
+   "en": "dissipates",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 60,
+   "en": "flux|flux capacity|flux level",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 61,
+   "en": "hard flux",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 62,
+   "en": "overloads",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 63,
+   "en": "shields",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 64,
+   "en": "vent",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 65,
+   "en": "|front|omni",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/super.class"
+  },
+  {
+   "i": 66,
+   "en": "Deploy",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/void$1.class"
+  },
+  {
+   "i": 67,
+   "en": " to re-open the command UI, if necessary (and don't forget to unpause!)",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/void.class"
+  },
+  {
+   "i": 68,
+   "en": " will show a quick video feed that only lasts for as long as the key is held down.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/void.class"
+  },
+  {
+   "i": 69,
+   "en": "(If you only have one ship, it's deployed automatically.)",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/void.class"
+  },
+  {
+   "i": 70,
+   "en": "(To pan the view around, right-click and drag, or move the mouse to the edge of the screen. You can toggle the command UI on and off by pressing ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/void.class"
+  },
+  {
+   "i": 71,
+   "en": ") and wait for your ships to secure the objectives.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/void.class"
+  },
+  {
+   "i": 72,
+   "en": ", but don't do this yet.)",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/void.class"
+  },
+  {
+   "i": 73,
+   "en": "... and press the \"Transfer Command\" button, then wait for the shuttle pod to take you to the new flagship.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/void.class"
+  },
+  {
+   "i": 74,
+   "en": "... and right-click on the Comm Relay.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/void.class"
+  },
+  {
+   "i": 75,
+   "en": "... and select \"Avoid\" from the list of available assignments.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/void.class"
+  },
+  {
+   "i": 76,
+   "en": "... and select \"Capture\" from the list of available assignments.\n\nYou can also use the keyboard shortcut displayed on the button.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/void.class"
+  },
+  {
+   "i": 77,
+   "en": "... and select \"Eliminate\" from the list of available assignments.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/void.class"
+  },
+  {
+   "i": 78,
+   "en": "A nearby frigate is automatically assigned to the task - that's what the arrow on the map indicates.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/void.class"
+  },
+  {
+   "i": 79,
+   "en": "An assignment appropriate to your selection, and what you right-clicked on, was created - in this case, another \"Capture\". You can also assign specific ships to existing assignments by selecting them and right-clicking on the assignment.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/void.class"
+  },
+  {
+   "i": 80,
+   "en": "At the start of a battle, you have to decide what ships to deploy. Recovering after a deployment costs supplies, so you usually don't want to just deploy everything.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/void.class"
+  },
+  {
+   "i": 81,
+   "en": "Capture",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/void.class"
+  },
+  {
+   "i": 82,
+   "en": "Congratulations! You've completed the fleet command tutorial. Feel free to experiment with other assignments to explore the tactical options they offer, and see if you can win this battle.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/void.class"
+  },
+  {
+   "i": 83,
+   "en": "Creating an assignment costs a command point, but also opens the command channel. While it's open, giving orders is free.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/void.class"
+  },
+  {
+   "i": 84,
+   "en": "ESCAPE",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/void.class"
+  },
+  {
+   "i": 85,
+   "en": "Enemy ships in sight!\n\nLet's give a couple of orders to make the battle go smoothly for your side.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/void.class"
+  },
+  {
+   "i": 86,
+   "en": "Excellent. Some enemies are arriving in the battlespace - you should encounter them shortly!\n\nThe tutorial will resume once both enemy ships are in sight.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/void.class"
+  },
+  {
+   "i": 87,
+   "en": "Go ahead, try it out - press the \"Show Video Feed\" button.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/void.class"
+  },
+  {
+   "i": 88,
+   "en": "Good. Now, let's create some assignments for our ships to carry out.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/void.class"
+  },
+  {
+   "i": 89,
+   "en": "Good. Now, let's order our ships to focus on the enemy destroyer.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/void.class"
+  },
+  {
+   "i": 90,
+   "en": "Good. Some of the the ships in your fleet will now engage the enemy destroyer, and the rest will try to hold the objectives, with all avoiding the enemy cruiser.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/tutorial/void.class"
+  }
+ ]
+}

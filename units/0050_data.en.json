@@ -1,0 +1,1256 @@
+{
+ "chunk": 50,
+ "cat": "data",
+ "items": [
+  {
+   "i": 1,
+   "en": "Fires an EMP arc at the target and opens a rift that deals damage in an area around the point of impact. The arc may miss depending on exactly where the weapon is pointing, and can pass over friendly ships.",
+   "ctx": "data/weapons/weapon_data.csv rift_lightning [customPrimary]"
+  },
+  {
+   "i": 2,
+   "en": "Produces explosions that deal up to 100 points of energy damage to all nearby targets, including the one being hit by the beam.",
+   "ctx": "data/weapons/weapon_data.csv abyssal_glare [customPrimary]"
+  },
+  {
+   "i": 3,
+   "en": "Fires at the nearest target close to the weapon's current facing. Able to target phased ships. Always hits and targets weapons and engines on ships. Hits on hull or armor cause weapon and engine repairs to take %s longer for %s seconds.",
+   "ctx": "data/weapons/weapon_data.csv inimical_emanation [customPrimary]"
+  },
+  {
+   "i": 4,
+   "en": "Launches a Shrouded Vortex, which will try to seek out and batter nearby targets and will eventually explode, dealing up to 2000 points of energy damage in an area.",
+   "ctx": "data/weapons/weapon_data.csv vortex_launcher [customPrimary]"
+  },
+  {
+   "i": 5,
+   "en": "Each shell has a proximity fuse and deals damage over a wide area when it explodes.\r\n\r\nWill target missiles if no other targets are in range.",
+   "ctx": "data/weapons/weapon_data.csv heavy_adjudicator [customPrimary]"
+  },
+  {
+   "i": 6,
+   "en": "100 | fragmentation",
+   "ctx": "data/weapons/weapon_data.csv guardian [customPrimaryHL]"
+  },
+  {
+   "i": 7,
+   "en": "Fragment Swarm|50|4",
+   "ctx": "data/weapons/weapon_data.csv swarm_launcher [customPrimaryHL]"
+  },
+  {
+   "i": 8,
+   "en": "Fragment Swarm|10",
+   "ctx": "data/weapons/weapon_data.csv seeker_fragment [customPrimaryHL]"
+  },
+  {
+   "i": 9,
+   "en": "Fragment Swarm|5|100",
+   "ctx": "data/weapons/weapon_data.csv kinetic_fragments [customPrimaryHL]"
+  },
+  {
+   "i": 10,
+   "en": "Fragment Swarm|1",
+   "ctx": "data/weapons/weapon_data.csv unstable_fragment [customPrimaryHL]"
+  },
+  {
+   "i": 11,
+   "en": "Fragment Swarm|6|50|no damage",
+   "ctx": "data/weapons/weapon_data.csv devouring_swarm [customPrimaryHL]"
+  },
+  {
+   "i": 12,
+   "en": "100 | energy",
+   "ctx": "data/weapons/weapon_data.csv abyssal_glare [customPrimaryHL]"
+  },
+  {
+   "i": 13,
+   "en": "Shrouded Vortex | 2000 | energy",
+   "ctx": "data/weapons/weapon_data.csv vortex_launcher [customPrimaryHL]"
+  },
+  {
+   "i": 14,
+   "en": "Gravitic effects slow and push target off-course. The effect is minor and is most noticeable vs fighters and missiles.",
+   "ctx": "data/weapons/weapon_data.csv gravitonbeam [customAncillary]"
+  },
+  {
+   "i": 15,
+   "en": "This weapon can not be fired manually and will always launch swarms as soon as it is possible to do so.",
+   "ctx": "data/weapons/weapon_data.csv swarm_launcher [customAncillary]"
+  },
+  {
+   "i": 16,
+   "en": "A swarm of fragments attacks the target, eating through its armor and dismantling the hull once it's exposed, creating new fragments that return to the launching ship's swarm.",
+   "ctx": "data/weapons/weapon_data.csv devouring_swarm [customAncillary]"
+  },
+  {
+   "i": 17,
+   "en": "A poorly understood property inherent to space-time inhibits the formation of more than 10 total active rifts for all weapons on the battlefield. This limitation does not apply to the Shrouded Dweller.",
+   "ctx": "data/weapons/weapon_data.csv assaying_rift [customAncillary]"
+  },
+  {
+   "i": 18,
+   "en": "Sensor Jammer",
+   "ctx": "data/config/battle_objectives.json sensor_array.name"
+  },
+  {
+   "i": 19,
+   "en": "Comm Relay",
+   "ctx": "data/config/battle_objectives.json comm_relay.name"
+  },
+  {
+   "i": 20,
+   "en": "Underworld",
+   "ctx": "data/config/contact_tag_data.json underworld.name"
+  },
+  {
+   "i": 21,
+   "en": "Science",
+   "ctx": "data/config/contact_tag_data.json science.name"
+  },
+  {
+   "i": 22,
+   "en": "Pather",
+   "ctx": "data/config/contact_tag_data.json pather.name"
+  },
+  {
+   "i": 23,
+   "en": "comm relay",
+   "ctx": "data/config/custom_entities.json comm_relay.nameInText"
+  },
+  {
+   "i": 24,
+   "en": "relay",
+   "ctx": "data/config/custom_entities.json comm_relay.shortName"
+  },
+  {
+   "i": 25,
+   "en": "nav buoy",
+   "ctx": "data/config/custom_entities.json nav_buoy.nameInText"
+  },
+  {
+   "i": 26,
+   "en": "buoy",
+   "ctx": "data/config/custom_entities.json nav_buoy.shortName"
+  },
+  {
+   "i": 27,
+   "en": "Sensor Array",
+   "ctx": "data/config/custom_entities.json sensor_array.defaultName"
+  },
+  {
+   "i": 28,
+   "en": "sensor array",
+   "ctx": "data/config/custom_entities.json sensor_array.nameInText"
+  },
+  {
+   "i": 29,
+   "en": "array",
+   "ctx": "data/config/custom_entities.json sensor_array.shortName"
+  },
+  {
+   "i": 30,
+   "en": "Makeshift Comm Relay",
+   "ctx": "data/config/custom_entities.json comm_relay_makeshift.defaultName"
+  },
+  {
+   "i": 31,
+   "en": "Makeshift Nav Buoy",
+   "ctx": "data/config/custom_entities.json nav_buoy_makeshift.defaultName"
+  },
+  {
+   "i": 32,
+   "en": "Makeshift Sensor Array",
+   "ctx": "data/config/custom_entities.json sensor_array_makeshift.defaultName"
+  },
+  {
+   "i": 33,
+   "en": "Stable Location",
+   "ctx": "data/config/custom_entities.json stable_location.defaultName"
+  },
+  {
+   "i": 34,
+   "en": "stable location",
+   "ctx": "data/config/custom_entities.json stable_location.nameInText"
+  },
+  {
+   "i": 35,
+   "en": "Target Location",
+   "ctx": "data/config/custom_entities.json mission_location.defaultName"
+  },
+  {
+   "i": 36,
+   "en": "target location",
+   "ctx": "data/config/custom_entities.json mission_location.nameInText"
+  },
+  {
+   "i": 37,
+   "en": "Cargo Pod",
+   "ctx": "data/config/custom_entities.json cargo_pod_special.defaultName"
+  },
+  {
+   "i": 38,
+   "en": "cargo pod",
+   "ctx": "data/config/custom_entities.json cargo_pod_special.nameInText"
+  },
+  {
+   "i": 39,
+   "en": "Probe",
+   "ctx": "data/config/custom_entities.json generic_probe.defaultName"
+  },
+  {
+   "i": 40,
+   "en": "probe",
+   "ctx": "data/config/custom_entities.json generic_probe.nameInText"
+  },
+  {
+   "i": 41,
+   "en": "derelict structure",
+   "ctx": "data/config/custom_entities.json derelict_vambrace.nameInText"
+  },
+  {
+   "i": 42,
+   "en": "Side Station",
+   "ctx": "data/config/custom_entities.json test_station.defaultName"
+  },
+  {
+   "i": 43,
+   "en": "Inactive Gate",
+   "ctx": "data/config/custom_entities.json inactive_gate.defaultName"
+  },
+  {
+   "i": 44,
+   "en": "inactive gate",
+   "ctx": "data/config/custom_entities.json inactive_gate.nameInText"
+  },
+  {
+   "i": 45,
+   "en": "Derelict Sporeship Station",
+   "ctx": "data/config/custom_entities.json station_sporeship_derelict.defaultName"
+  },
+  {
+   "i": 46,
+   "en": "Stellar Mirror",
+   "ctx": "data/config/custom_entities.json stellar_mirror.defaultName"
+  },
+  {
+   "i": 47,
+   "en": "Stellar Shade",
+   "ctx": "data/config/custom_entities.json stellar_shade.defaultName"
+  },
+  {
+   "i": 48,
+   "en": "Galatia Academy Station",
+   "ctx": "data/config/custom_entities.json station_galatia.defaultName"
+  },
+  {
+   "i": 49,
+   "en": "Orbital Dockyard",
+   "ctx": "data/config/custom_entities.json orbital_dockyard.defaultName"
+  },
+  {
+   "i": 50,
+   "en": "Habitat",
+   "ctx": "data/config/custom_entities.json orbital_junk.defaultName"
+  },
+  {
+   "i": 51,
+   "en": "Atlantian Cloud",
+   "ctx": "data/config/custom_entities.json atlantic_label.defaultName"
+  },
+  {
+   "i": 52,
+   "en": "The League Worlds",
+   "ctx": "data/config/custom_entities.json persean_label.defaultName"
+  },
+  {
+   "i": 53,
+   "en": "The Wastes of Zin",
+   "ctx": "data/config/custom_entities.json zin_label.defaultName"
+  },
+  {
+   "i": 54,
+   "en": "Orion-Perseus Abyss",
+   "ctx": "data/config/custom_entities.json opabyss_label.defaultName"
+  },
+  {
+   "i": 55,
+   "en": "Telmun Molecular Cloud",
+   "ctx": "data/config/custom_entities.json telmun_label.defaultName"
+  },
+  {
+   "i": 56,
+   "en": "Cathedral Nebula",
+   "ctx": "data/config/custom_entities.json cathedral_label.defaultName"
+  },
+  {
+   "i": 57,
+   "en": "The Core Worlds",
+   "ctx": "data/config/custom_entities.json core_label.defaultName"
+  },
+  {
+   "i": 58,
+   "en": "<constellation label>",
+   "ctx": "data/config/custom_entities.json base_constellation_label.defaultName"
+  },
+  {
+   "i": 59,
+   "en": "Domain-era Probe",
+   "ctx": "data/config/custom_entities.json derelict_probe.defaultName"
+  },
+  {
+   "i": 60,
+   "en": "Domain-era probe",
+   "ctx": "data/config/custom_entities.json derelict_probe.nameInText"
+  },
+  {
+   "i": 61,
+   "en": "Domain-era Survey Ship",
+   "ctx": "data/config/custom_entities.json derelict_survey_ship.defaultName"
+  },
+  {
+   "i": 62,
+   "en": "Domain-era survey ship",
+   "ctx": "data/config/custom_entities.json derelict_survey_ship.nameInText"
+  },
+  {
+   "i": 63,
+   "en": "survey ship",
+   "ctx": "data/config/custom_entities.json derelict_survey_ship.shortName"
+  },
+  {
+   "i": 64,
+   "en": "Domain-era Mothership",
+   "ctx": "data/config/custom_entities.json derelict_mothership.defaultName"
+  },
+  {
+   "i": 65,
+   "en": "Domain-era mothership",
+   "ctx": "data/config/custom_entities.json derelict_mothership.nameInText"
+  },
+  {
+   "i": 66,
+   "en": "mothership",
+   "ctx": "data/config/custom_entities.json derelict_mothership.shortName"
+  },
+  {
+   "i": 67,
+   "en": "Domain-era Cryosleeper",
+   "ctx": "data/config/custom_entities.json derelict_cryosleeper.defaultName"
+  },
+  {
+   "i": 68,
+   "en": "Domain-era cryosleeper",
+   "ctx": "data/config/custom_entities.json derelict_cryosleeper.nameInText"
+  },
+  {
+   "i": 69,
+   "en": "cryosleeper",
+   "ctx": "data/config/custom_entities.json derelict_cryosleeper.shortName"
+  },
+  {
+   "i": 70,
+   "en": "Domain-era Gate Hauler",
+   "ctx": "data/config/custom_entities.json derelict_gatehauler.defaultName"
+  },
+  {
+   "i": 71,
+   "en": "gate hauler",
+   "ctx": "data/config/custom_entities.json derelict_gatehauler.shortName"
+  },
+  {
+   "i": 72,
+   "en": "Coronal Hypershunt",
+   "ctx": "data/config/custom_entities.json coronal_tap.defaultName"
+  },
+  {
+   "i": 73,
+   "en": "coronal hypershunt",
+   "ctx": "data/config/custom_entities.json coronal_tap.nameInText"
+  },
+  {
+   "i": 74,
+   "en": "debris field",
+   "ctx": "data/config/custom_entities.json debris_field_shared.nameInText"
+  },
+  {
+   "i": 75,
+   "en": "debris",
+   "ctx": "data/config/custom_entities.json debris_field_shared.shortName"
+  },
+  {
+   "i": 76,
+   "en": "Derelict Ship",
+   "ctx": "data/config/custom_entities.json wreck.defaultName"
+  },
+  {
+   "i": 77,
+   "en": "derelict ship",
+   "ctx": "data/config/custom_entities.json wreck.nameInText"
+  },
+  {
+   "i": 78,
+   "en": "Hidden Cache",
+   "ctx": "data/config/custom_entities.json hidden_cache.defaultName"
+  },
+  {
+   "i": 79,
+   "en": "hidden cache",
+   "ctx": "data/config/custom_entities.json hidden_cache.nameInText"
+  },
+  {
+   "i": 80,
+   "en": "Supply Cache",
+   "ctx": "data/config/custom_entities.json supply_cache.defaultName"
+  },
+  {
+   "i": 81,
+   "en": "supply cache",
+   "ctx": "data/config/custom_entities.json supply_cache.nameInText"
+  },
+  {
+   "i": 82,
+   "en": "Weapons Cache",
+   "ctx": "data/config/custom_entities.json weapons_cache.defaultName"
+  },
+  {
+   "i": 83,
+   "en": "weapons cache",
+   "ctx": "data/config/custom_entities.json weapons_cache.nameInText"
+  },
+  {
+   "i": 84,
+   "en": "Equipment Cache",
+   "ctx": "data/config/custom_entities.json equipment_cache.defaultName"
+  },
+  {
+   "i": 85,
+   "en": "equipment cache",
+   "ctx": "data/config/custom_entities.json equipment_cache.nameInText"
+  },
+  {
+   "i": 86,
+   "en": "Cache",
+   "ctx": "data/config/custom_entities.json large_cache.defaultName"
+  },
+  {
+   "i": 87,
+   "en": "cache",
+   "ctx": "data/config/custom_entities.json large_cache.nameInText"
+  },
+  {
+   "i": 88,
+   "en": "technology cache",
+   "ctx": "data/config/custom_entities.json technology_cache.nameInText"
+  },
+  {
+   "i": 89,
+   "en": "Heavily Shielded Cache",
+   "ctx": "data/config/custom_entities.json alpha_site_weapons_cache.defaultName"
+  },
+  {
+   "i": 90,
+   "en": "shielded cache",
+   "ctx": "data/config/custom_entities.json alpha_site_weapons_cache.nameInText"
+  },
+  {
+   "i": 91,
+   "en": "Minor Supply Cache",
+   "ctx": "data/config/custom_entities.json supply_cache_small.defaultName"
+  },
+  {
+   "i": 92,
+   "en": "minor supply cache",
+   "ctx": "data/config/custom_entities.json supply_cache_small.nameInText"
+  },
+  {
+   "i": 93,
+   "en": "Minor Weapons Cache",
+   "ctx": "data/config/custom_entities.json weapons_cache_small.defaultName"
+  },
+  {
+   "i": 94,
+   "en": "minor weapons cache",
+   "ctx": "data/config/custom_entities.json weapons_cache_small.nameInText"
+  },
+  {
+   "i": 95,
+   "en": "Minor Equipment Cache",
+   "ctx": "data/config/custom_entities.json equipment_cache_small.defaultName"
+  },
+  {
+   "i": 96,
+   "en": "minor equipment cache",
+   "ctx": "data/config/custom_entities.json equipment_cache_small.nameInText"
+  },
+  {
+   "i": 97,
+   "en": "Mining Station",
+   "ctx": "data/config/custom_entities.json station_mining.defaultName"
+  },
+  {
+   "i": 98,
+   "en": "mining station",
+   "ctx": "data/config/custom_entities.json station_mining.nameInText"
+  },
+  {
+   "i": 99,
+   "en": "Research Station",
+   "ctx": "data/config/custom_entities.json station_research.defaultName"
+  },
+  {
+   "i": 100,
+   "en": "research station",
+   "ctx": "data/config/custom_entities.json station_research.nameInText"
+  },
+  {
+   "i": 101,
+   "en": "Orbital Habitat",
+   "ctx": "data/config/custom_entities.json orbital_habitat.defaultName"
+  },
+  {
+   "i": 102,
+   "en": "orbital habitat",
+   "ctx": "data/config/custom_entities.json orbital_habitat.nameInText"
+  },
+  {
+   "i": 103,
+   "en": "cargo pods",
+   "ctx": "data/config/custom_entities.json cargo_pods.nameInText"
+  },
+  {
+   "i": 104,
+   "en": "Fusion Lamp",
+   "ctx": "data/config/custom_entities.json fusion_lamp.defaultName"
+  },
+  {
+   "i": 105,
+   "en": "Explosion",
+   "ctx": "data/config/custom_entities.json explosion.defaultName"
+  },
+  {
+   "i": 106,
+   "en": "sensor ghost",
+   "ctx": "data/config/custom_entities.json sensor_ghost.nameInText"
+  },
+  {
+   "i": 107,
+   "en": "Nebula (Old)",
+   "ctx": "data/config/planets.json nebula_center_old.name"
+  },
+  {
+   "i": 108,
+   "en": "Nebula (Young)",
+   "ctx": "data/config/planets.json nebula_center_young.name"
+  },
+  {
+   "i": 109,
+   "en": "Neutron Star",
+   "ctx": "data/config/planets.json star_neutron.name"
+  },
+  {
+   "i": 110,
+   "en": "Black Hole",
+   "ctx": "data/config/planets.json black_hole.name"
+  },
+  {
+   "i": 111,
+   "en": "Yellow Star",
+   "ctx": "data/config/planets.json star_yellow.name"
+  },
+  {
+   "i": 112,
+   "en": "White Dwarf",
+   "ctx": "data/config/planets.json star_white.name"
+  },
+  {
+   "i": 113,
+   "en": "Blue Giant",
+   "ctx": "data/config/planets.json star_blue_giant.name"
+  },
+  {
+   "i": 114,
+   "en": "Blue Supergiant",
+   "ctx": "data/config/planets.json star_blue_supergiant.name"
+  },
+  {
+   "i": 115,
+   "en": "Orange Star",
+   "ctx": "data/config/planets.json star_orange.name"
+  },
+  {
+   "i": 116,
+   "en": "Orange Giant",
+   "ctx": "data/config/planets.json star_orange_giant.name"
+  },
+  {
+   "i": 117,
+   "en": "Red Supergiant",
+   "ctx": "data/config/planets.json star_red_supergiant.name"
+  },
+  {
+   "i": 118,
+   "en": "Red Giant",
+   "ctx": "data/config/planets.json star_red_giant.name"
+  },
+  {
+   "i": 119,
+   "en": "Red Dwarf",
+   "ctx": "data/config/planets.json star_red_dwarf.name"
+  },
+  {
+   "i": 120,
+   "en": "Brown Dwarf",
+   "ctx": "data/config/planets.json star_browndwarf.name"
+  },
+  {
+   "i": 121,
+   "en": "Gas Giant",
+   "ctx": "data/config/planets.json gas_giant.name"
+  },
+  {
+   "i": 122,
+   "en": "Ice Giant",
+   "ctx": "data/config/planets.json ice_giant.name"
+  },
+  {
+   "i": 123,
+   "en": "Volcanic",
+   "ctx": "data/config/planets.json lava.name"
+  },
+  {
+   "i": 124,
+   "en": "Frozen",
+   "ctx": "data/config/planets.json frozen.name"
+  },
+  {
+   "i": 125,
+   "en": "Barren",
+   "ctx": "data/config/planets.json barren.name"
+  },
+  {
+   "i": 126,
+   "en": "Toxic",
+   "ctx": "data/config/planets.json toxic.name"
+  },
+  {
+   "i": 127,
+   "en": "Jungle",
+   "ctx": "data/config/planets.json jungle.name"
+  },
+  {
+   "i": 128,
+   "en": "Terran",
+   "ctx": "data/config/planets.json terran.name"
+  },
+  {
+   "i": 129,
+   "en": "Desert",
+   "ctx": "data/config/planets.json desert.name"
+  },
+  {
+   "i": 130,
+   "en": "Arid",
+   "ctx": "data/config/planets.json arid.name"
+  },
+  {
+   "i": 131,
+   "en": "Cryovolcanic",
+   "ctx": "data/config/planets.json cryovolcanic.name"
+  },
+  {
+   "i": 132,
+   "en": "Rocky Metallic",
+   "ctx": "data/config/planets.json rocky_metallic.name"
+  },
+  {
+   "i": 133,
+   "en": "Rocky Unstable",
+   "ctx": "data/config/planets.json rocky_unstable.name"
+  },
+  {
+   "i": 134,
+   "en": "Water",
+   "ctx": "data/config/planets.json water.name"
+  },
+  {
+   "i": 135,
+   "en": "Rocky Ice",
+   "ctx": "data/config/planets.json rocky_ice.name"
+  },
+  {
+   "i": 136,
+   "en": "Barren-Bombarded",
+   "ctx": "data/config/planets.json barren-bombarded.name"
+  },
+  {
+   "i": 137,
+   "en": "Tundra",
+   "ctx": "data/config/planets.json tundra.name"
+  },
+  {
+   "i": 138,
+   "en": "Barren-Desert",
+   "ctx": "data/config/planets.json barren-desert.name"
+  },
+  {
+   "i": 139,
+   "en": "Terran Eccentric",
+   "ctx": "data/config/planets.json terran-eccentric.name"
+  },
+  {
+   "i": 140,
+   "en": "XIV Battlegroup",
+   "ctx": "data/config/settings.json designTypeColors"
+  },
+  {
+   "i": 141,
+   "en": "Bhilai Astra",
+   "ctx": "data/config/settings.json designTypeColors"
+  },
+  {
+   "i": 142,
+   "en": "New",
+   "ctx": "data/config/tag_data.json New.name"
+  },
+  {
+   "i": 143,
+   "en": "Important",
+   "ctx": "data/config/tag_data.json Important.name"
+  },
+  {
+   "i": 144,
+   "en": "Story",
+   "ctx": "data/config/tag_data.json Story.name"
+  },
+  {
+   "i": 145,
+   "en": "Major events",
+   "ctx": "data/config/tag_data.json Major events.name"
+  },
+  {
+   "i": 146,
+   "en": "Colony threats",
+   "ctx": "data/config/tag_data.json Colony threats.name"
+  },
+  {
+   "i": 147,
+   "en": "Fleet log",
+   "ctx": "data/config/tag_data.json Fleet log.name"
+  },
+  {
+   "i": 148,
+   "en": "Luddic shrines",
+   "ctx": "data/config/tag_data.json Luddic shrines.name"
+  },
+  {
+   "i": 149,
+   "en": "Mercantile Convoy",
+   "ctx": "data/world/factions/default_fleet_type_names.json trade"
+  },
+  {
+   "i": 150,
+   "en": "Liner Convoy",
+   "ctx": "data/world/factions/default_fleet_type_names.json tradeLiner"
+  },
+  {
+   "i": 151,
+   "en": "Smuggler",
+   "ctx": "data/world/factions/default_fleet_type_names.json tradeSmuggler"
+  },
+  {
+   "i": 152,
+   "en": "Trader",
+   "ctx": "data/world/factions/default_fleet_type_names.json smallTrader"
+  },
+  {
+   "i": 153,
+   "en": "Fast Picket",
+   "ctx": "data/world/factions/default_fleet_type_names.json patrolSmall"
+  },
+  {
+   "i": 154,
+   "en": "Detachment",
+   "ctx": "data/world/factions/default_fleet_type_names.json patrolLarge"
+  },
+  {
+   "i": 155,
+   "en": "Enforcer",
+   "ctx": "data/world/factions/default_fleet_type_names.json leagueEnforcer"
+  },
+  {
+   "i": 156,
+   "en": "Grand Armada",
+   "ctx": "data/world/factions/default_fleet_type_names.json leagueArmada"
+  },
+  {
+   "i": 157,
+   "en": "Supply Fleet",
+   "ctx": "data/world/factions/default_fleet_type_names.json supplyFleet"
+  },
+  {
+   "i": 158,
+   "en": "Commerce Raiders",
+   "ctx": "data/world/factions/default_fleet_type_names.json commerceRaiders"
+  },
+  {
+   "i": 159,
+   "en": "Raider",
+   "ctx": "data/world/factions/default_fleet_type_names.json raider"
+  },
+  {
+   "i": 160,
+   "en": "Sacred Protectors",
+   "ctx": "data/world/factions/default_fleet_type_names.json sacredProtectors"
+  },
+  {
+   "i": 161,
+   "en": "Investigators",
+   "ctx": "data/world/factions/default_fleet_type_names.json investigators"
+  },
+  {
+   "i": 162,
+   "en": "Inspection Fleet",
+   "ctx": "data/world/factions/default_fleet_type_names.json inspectionFleet"
+  },
+  {
+   "i": 163,
+   "en": "Task Force",
+   "ctx": "data/world/factions/default_fleet_type_names.json taskForce"
+  },
+  {
+   "i": 164,
+   "en": "Prospector",
+   "ctx": "data/world/factions/default_fleet_type_names.json scavengerSmall"
+  },
+  {
+   "i": 165,
+   "en": "Scavenger",
+   "ctx": "data/world/factions/default_fleet_type_names.json scavengerMedium"
+  },
+  {
+   "i": 166,
+   "en": "Salvage Fleet",
+   "ctx": "data/world/factions/default_fleet_type_names.json scavengerLarge"
+  },
+  {
+   "i": 167,
+   "en": "Relief Convoy",
+   "ctx": "data/world/factions/default_fleet_type_names.json foodReliefFleet"
+  },
+  {
+   "i": 168,
+   "en": "Luddic Pilgrims",
+   "ctx": "data/world/factions/default_fleet_type_names.json shrinePilgrims"
+  },
+  {
+   "i": 169,
+   "en": "Academy Shuttle Service",
+   "ctx": "data/world/factions/default_fleet_type_names.json academyFleet"
+  },
+  {
+   "i": 170,
+   "en": "Mercenary Scout",
+   "ctx": "data/world/factions/default_fleet_type_names.json mercScout"
+  },
+  {
+   "i": 171,
+   "en": "Bounty Hunter",
+   "ctx": "data/world/factions/default_fleet_type_names.json mercBountyHunter"
+  },
+  {
+   "i": 172,
+   "en": "Privateer",
+   "ctx": "data/world/factions/default_fleet_type_names.json mercPrivateer"
+  },
+  {
+   "i": 173,
+   "en": "Mercenary Patrol",
+   "ctx": "data/world/factions/default_fleet_type_names.json mercPatrol"
+  },
+  {
+   "i": 174,
+   "en": "Mercenary Company",
+   "ctx": "data/world/factions/default_fleet_type_names.json mercArmada"
+  },
+  {
+   "i": 175,
+   "en": "High Commander",
+   "ctx": "data/world/factions/default_ranks.json ranks.factionLeader.name"
+  },
+  {
+   "i": 176,
+   "en": "House Parriarch",
+   "ctx": "data/world/factions/default_ranks.json ranks.houseLeader.name"
+  },
+  {
+   "i": 177,
+   "en": "House Patriarch",
+   "ctx": "data/world/factions/default_ranks.json ranks.houseLeaderMale.name"
+  },
+  {
+   "i": 178,
+   "en": "House Matriarch",
+   "ctx": "data/world/factions/default_ranks.json ranks.houseLeaderFemale.name"
+  },
+  {
+   "i": 179,
+   "en": "Spacer",
+   "ctx": "data/world/factions/default_ranks.json ranks.spaceSailor.name"
+  },
+  {
+   "i": 180,
+   "en": "Chief",
+   "ctx": "data/world/factions/default_ranks.json ranks.spaceChief.name"
+  },
+  {
+   "i": 181,
+   "en": "Ensign",
+   "ctx": "data/world/factions/default_ranks.json ranks.spaceEnsign.name"
+  },
+  {
+   "i": 182,
+   "en": "Lieutenant",
+   "ctx": "data/world/factions/default_ranks.json ranks.spaceLieutenant.name"
+  },
+  {
+   "i": 183,
+   "en": "Commander",
+   "ctx": "data/world/factions/default_ranks.json ranks.spaceCommander.name"
+  },
+  {
+   "i": 184,
+   "en": "Admiral",
+   "ctx": "data/world/factions/default_ranks.json ranks.spaceAdmiral.name"
+  },
+  {
+   "i": 185,
+   "en": "Space Marshal",
+   "ctx": "data/world/factions/default_ranks.json ranks.spaceMarshal.name"
+  },
+  {
+   "i": 186,
+   "en": "Private",
+   "ctx": "data/world/factions/default_ranks.json ranks.groundPrivate.name"
+  },
+  {
+   "i": 187,
+   "en": "Sergeant",
+   "ctx": "data/world/factions/default_ranks.json ranks.groundSergeant.name"
+  },
+  {
+   "i": 188,
+   "en": "Colonel",
+   "ctx": "data/world/factions/default_ranks.json ranks.groundColonel.name"
+  },
+  {
+   "i": 189,
+   "en": "Knight-Captain",
+   "ctx": "data/world/factions/default_ranks.json ranks.knightCaptain.name"
+  },
+  {
+   "i": 190,
+   "en": "Chief High Inspector",
+   "ctx": "data/world/factions/default_ranks.json ranks.chiefHighInspector.name"
+  },
+  {
+   "i": 191,
+   "en": "Deputy Star Marshal",
+   "ctx": "data/world/factions/default_ranks.json ranks.deputyStarMarshal.name"
+  },
+  {
+   "i": 192,
+   "en": "Guard High Deputy Executor",
+   "ctx": "data/world/factions/default_ranks.json ranks.guardHighDeputyExecutor.name"
+  },
+  {
+   "i": 193,
+   "en": "Citizen",
+   "ctx": "data/world/factions/default_ranks.json ranks.citizen.name"
+  },
+  {
+   "i": 194,
+   "en": "Executive",
+   "ctx": "data/world/factions/default_ranks.json ranks.executive.name"
+  },
+  {
+   "i": 195,
+   "en": "Senior Executive",
+   "ctx": "data/world/factions/default_ranks.json ranks.seniorExecutive.name"
+  },
+  {
+   "i": 196,
+   "en": "Agent",
+   "ctx": "data/world/factions/default_ranks.json ranks.agent.name"
+  },
+  {
+   "i": 197,
+   "en": "Special Agent",
+   "ctx": "data/world/factions/default_ranks.json ranks.specialAgent.name"
+  },
+  {
+   "i": 198,
+   "en": "Pilot",
+   "ctx": "data/world/factions/default_ranks.json ranks.pilot.name"
+  },
+  {
+   "i": 199,
+   "en": "Father",
+   "ctx": "data/world/factions/default_ranks.json ranks.father.name"
+  },
+  {
+   "i": 200,
+   "en": "Mother",
+   "ctx": "data/world/factions/default_ranks.json ranks.mother.name"
+  },
+  {
+   "i": 201,
+   "en": "Elder",
+   "ctx": "data/world/factions/default_ranks.json ranks.elder.name"
+  },
+  {
+   "i": 202,
+   "en": "Aristocrat",
+   "ctx": "data/world/factions/default_ranks.json ranks.aristocrat.name"
+  },
+  {
+   "i": 203,
+   "en": "Terrorist",
+   "ctx": "data/world/factions/default_ranks.json ranks.terrorist.name"
+  },
+  {
+   "i": 204,
+   "en": "Freedom Fighter",
+   "ctx": "data/world/factions/default_ranks.json ranks.freedomFighter.name"
+  },
+  {
+   "i": 205,
+   "en": "Clone",
+   "ctx": "data/world/factions/default_ranks.json ranks.clone.name"
+  },
+  {
+   "i": 206,
+   "en": "Patrol Commander",
+   "ctx": "data/world/factions/default_ranks.json posts.patrolCommander.name"
+  },
+  {
+   "i": 207,
+   "en": "Fleet Commander",
+   "ctx": "data/world/factions/default_ranks.json posts.fleetCommander.name"
+  },
+  {
+   "i": 208,
+   "en": "Base Commander",
+   "ctx": "data/world/factions/default_ranks.json posts.baseCommander.name"
+  },
+  {
+   "i": 209,
+   "en": "Station Commander",
+   "ctx": "data/world/factions/default_ranks.json posts.stationCommander.name"
+  },
+  {
+   "i": 210,
+   "en": "Outpost Commander",
+   "ctx": "data/world/factions/default_ranks.json posts.outpostCommander.name"
+  },
+  {
+   "i": 211,
+   "en": "Portmaster",
+   "ctx": "data/world/factions/default_ranks.json posts.portmaster.name"
+  },
+  {
+   "i": 212,
+   "en": "Director of Intelligence",
+   "ctx": "data/world/factions/default_ranks.json posts.intelligenceDirector.name"
+  },
+  {
+   "i": 213,
+   "en": "Director of Special Forces",
+   "ctx": "data/world/factions/default_ranks.json posts.guardLeader.name"
+  },
+  {
+   "i": 214,
+   "en": "Quartermaster",
+   "ctx": "data/world/factions/default_ranks.json posts.supplyOfficer.name"
+  },
+  {
+   "i": 215,
+   "en": "Supply Manager",
+   "ctx": "data/world/factions/default_ranks.json posts.supplyManager.name"
+  },
+  {
+   "i": 216,
+   "en": "Medical Supplier",
+   "ctx": "data/world/factions/default_ranks.json posts.medicalSupplier.name"
+  },
+  {
+   "i": 217,
+   "en": "Military Governor",
+   "ctx": "data/world/factions/default_ranks.json posts.militaryAdministrator.name"
+  },
+  {
+   "i": 218,
+   "en": "Freelance Administrator",
+   "ctx": "data/world/factions/default_ranks.json posts.freeAdmin.name"
+  },
+  {
+   "i": 219,
+   "en": "Guildmaster",
+   "ctx": "data/world/factions/default_ranks.json posts.guildMaster.name"
+  },
+  {
+   "i": 220,
+   "en": "Commune Leader",
+   "ctx": "data/world/factions/default_ranks.json posts.communeLeader.name"
+  },
+  {
+   "i": 221,
+   "en": "Small-time Criminal",
+   "ctx": "data/world/factions/default_ranks.json posts.minorCriminal.name"
+  },
+  {
+   "i": 222,
+   "en": "Criminal",
+   "ctx": "data/world/factions/default_ranks.json posts.criminal.name"
+  },
+  {
+   "i": 223,
+   "en": "Merchant",
+   "ctx": "data/world/factions/default_ranks.json posts.merchant.name"
+  },
+  {
+   "i": 224,
+   "en": "Investor",
+   "ctx": "data/world/factions/default_ranks.json posts.investor.name"
+  },
+  {
+   "i": 225,
+   "en": "Commodities Agent",
+   "ctx": "data/world/factions/default_ranks.json posts.commodities_agent.name"
+  },
+  {
+   "i": 226,
+   "en": "Entrepreneur",
+   "ctx": "data/world/factions/default_ranks.json posts.entrepreneur.name"
+  },
+  {
+   "i": 227,
+   "en": "Nanoforge Engineer",
+   "ctx": "data/world/factions/default_ranks.json posts.nanoforge_engineer.name"
+  },
+  {
+   "i": 228,
+   "en": "Shady Character",
+   "ctx": "data/world/factions/default_ranks.json posts.shady.name"
+  },
+  {
+   "i": 229,
+   "en": "Gangster",
+   "ctx": "data/world/factions/default_ranks.json posts.gangster.name"
+  },
+  {
+   "i": 230,
+   "en": "Fence",
+   "ctx": "data/world/factions/default_ranks.json posts.fence.name"
+  },
+  {
+   "i": 231,
+   "en": "Arms Dealer",
+   "ctx": "data/world/factions/default_ranks.json posts.armsDealer.name"
+  },
+  {
+   "i": 232,
+   "en": "Boss",
+   "ctx": "data/world/factions/default_ranks.json posts.boss.name"
+  },
+  {
+   "i": 233,
+   "en": "Crew Boss",
+   "ctx": "data/world/factions/default_ranks.json posts.crewBoss.name"
+  },
+  {
+   "i": 234,
+   "en": "Mercenary Officer",
+   "ctx": "data/world/factions/default_ranks.json posts.mercenary.name"
+  },
+  {
+   "i": 235,
+   "en": "Officer",
+   "ctx": "data/world/factions/default_ranks.json posts.officer.name"
+  },
+  {
+   "i": 236,
+   "en": "Officer (available for hire)",
+   "ctx": "data/world/factions/default_ranks.json posts.officer_for_hire.name"
+  },
+  {
+   "i": 237,
+   "en": "Chief Investigator",
+   "ctx": "data/world/factions/default_ranks.json posts.investigator.name"
+  },
+  {
+   "i": 238,
+   "en": "Provost",
+   "ctx": "data/world/factions/default_ranks.json posts.provost.name"
+  },
+  {
+   "i": 239,
+   "en": "Academician",
+   "ctx": "data/world/factions/default_ranks.json posts.academician.name"
+  },
+  {
+   "i": 240,
+   "en": "Security Chief",
+   "ctx": "data/world/factions/default_ranks.json posts.securityChief.name"
+  },
+  {
+   "i": 241,
+   "en": "Doctor",
+   "ctx": "data/world/factions/default_ranks.json posts.doctor.name"
+  },
+  {
+   "i": 242,
+   "en": "Hacker",
+   "ctx": "data/world/factions/default_ranks.json posts.hacker.name"
+  },
+  {
+   "i": 243,
+   "en": "Hermit",
+   "ctx": "data/world/factions/default_ranks.json posts.hermit.name"
+  },
+  {
+   "i": 244,
+   "en": "Pensioner",
+   "ctx": "data/world/factions/default_ranks.json posts.pensioner.name"
+  },
+  {
+   "i": 245,
+   "en": "Activist",
+   "ctx": "data/world/factions/default_ranks.json posts.activist.name"
+  },
+  {
+   "i": 246,
+   "en": "Scientist",
+   "ctx": "data/world/factions/default_ranks.json posts.scientist.name"
+  },
+  {
+   "i": 247,
+   "en": "Warlord",
+   "ctx": "data/world/factions/default_ranks.json posts.warlord.name"
+  },
+  {
+   "i": 248,
+   "en": "Curate",
+   "ctx": "data/world/factions/default_ranks.json posts.curate.name"
+  },
+  {
+   "i": 249,
+   "en": "Synod Subcurate",
+   "ctx": "data/world/factions/default_ranks.json posts.synodSubcurate.name"
+  },
+  {
+   "i": 250,
+   "en": "Subcurate",
+   "ctx": "data/world/factions/default_ranks.json posts.subcurate.name"
+  }
+ ]
+}

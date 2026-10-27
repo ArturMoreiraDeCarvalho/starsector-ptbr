@@ -1,0 +1,146 @@
+{
+ "chunk": 63,
+ "cat": "desc",
+ "items": [
+  {
+   "i": 1,
+   "en": "Tough and agile, the Broadsword carries a decoy flare launcher that draws defensive fire away from high-value targets like bombers and their payloads. However, it can falter if faced with the need to deal the killing blow itself.",
+   "ctx": "data/strings/descriptions.csv broadsword/SHIP [text1]"
+  },
+  {
+   "i": 2,
+   "en": "Heavily shielded and armed with long range weapons, the Xyphos is highly effective in a close support role. Its reliance on targeting and navigation feeds from larger ships mean it's incapable of operating independently.",
+   "ctx": "data/strings/descriptions.csv xyphos/SHIP [text1]"
+  },
+  {
+   "i": 3,
+   "en": "Fast and nimble, Wasp drones typically outnumber and easily swarm enemy fighter formations while their Stinger mines prevent stragglers from getting through. Faced with point-defense weaponry, their fragility begins to tell, but the lack of a pilot on board means losses are more easily absorbed.",
+   "ctx": "data/strings/descriptions.csv wasp/SHIP [text1]"
+  },
+  {
+   "i": 4,
+   "en": "Armed with a highly damaging torpedo, the Dagger is fragile but equipped with a shield generator that usually enables it to get within launch range. However, even a large torpedo barrage is unlikely to get through concentrated point-defense fire without a distraction.",
+   "ctx": "data/strings/descriptions.csv dagger/SHIP [text1]"
+  },
+  {
+   "i": 5,
+   "en": "Fast and cheap, the Talon sports surprising firepower and is capable of dispatching enemy fighters. It can also deal appreciable damage to larger ships when used en masse, though such use usually results in heavy pilot losses.",
+   "ctx": "data/strings/descriptions.csv talon/SHIP [text1]"
+  },
+  {
+   "i": 6,
+   "en": "The Khopesh can deliver an accurate and devastating rocket barrage to its target. Safer and more reliable in dealing its damage than other bombers, it also doesn't boast quite the same damage potential.",
+   "ctx": "data/strings/descriptions.csv hoplon/SHIP [text1]"
+  },
+  {
+   "i": 7,
+   "en": "Nimble and equipped with a low-grade shield generator, the Claw is primarily a support fighter. The EMP damage it deals is temporarily crippling to poorly-shielded targets, but it's incapable of dealing much permanent damage on its own.",
+   "ctx": "data/strings/descriptions.csv claw/SHIP [text1]"
+  },
+  {
+   "i": 8,
+   "en": "Slow and not very sturdy, this combat-modified mining drone is nonetheless capable of keeping hostiles off its mothership for a time. Fielded in numbers, it can even present a credible threat to smaller combat ships.",
+   "ctx": "data/strings/descriptions.csv drone_borer/SHIP [text1]"
+  },
+  {
+   "i": 9,
+   "en": "A point-defense drone built around the dreaded Terminator Core target analyzer, which finds transient weak points on missiles and fighters with unerring precision. Rumors about the core's AI intermittently exceeding the generally-allowed delta level during complex combat situations remain unproven.",
+   "ctx": "data/strings/descriptions.csv drone_terminator/SHIP [text1]"
+  },
+  {
+   "i": 10,
+   "en": "Designed when phase technology was generally unknown and phase detectors were not a standard of every sensor package, this cruiser has lost the advantage of surprise - but retains a dangerous and flexible weapons loadout. \r\n\r\nCertain unnerving psychological phenomena have been reported by sensitive crew members after enduring many rapid phase-shifts in combat conditions. Domain Navy reports on the subject were never declassified and are thought to have been lost since the Collapse.",
+   "ctx": "data/strings/descriptions.csv doom/SHIP [text1]"
+  },
+  {
+   "i": 11,
+   "en": "The smallest phase ship operated in the Sector, the Shade-class is often used as a scout for larger fleets. In battle, it is valued by fleet admirals for its ability to disable enemy ships with its EMP emitter.",
+   "ctx": "data/strings/descriptions.csv shade/SHIP [text1]"
+  },
+  {
+   "i": 12,
+   "en": "A dangerous and swift phase frigate with a weapons loadout that is powerful enough to bring down much heavier ships. The Afflictor possesses a device which exploits a unique modification of its integrated phase coil array to project a field of anomalously amplified entropy. This effects a devastating increase in destructive instability in delicate or finely tuned systems when the targeted vessel experiences chaotic high-energy events, i.e. combat damage. Everything that can possibly go wrong does.",
+   "ctx": "data/strings/descriptions.csv afflictor/SHIP [text1]"
+  },
+  {
+   "i": 13,
+   "en": "A deadly phase destroyer feared and scorned by those crews who have suffered the misfortune of facing it in battle. The Harbinger possesses a device which allows it to briefly disable enemy ships, creating openings that it - or its allies - can exploit.\r\n\r\n\"The Tri-Tachyon Corporation denies allegations of ongoing involvement in phasing experiments, much less the - and I quote - 'clandestine development and operation of phase warships' which would of course be in direct violation of the Treaty of Thule. It is Company policy to pursue full prosecution of individuals, mercantile bodies, spiritual clades, and any registered polities committing gross and flagrant defamation to the full extent of local jurisdictional power as per the Sector Commercial Accords of Cycle 32 AC. Our legal team will be in touch.\"",
+   "ctx": "data/strings/descriptions.csv harbinger/SHIP [text1]"
+  },
+  {
+   "i": 14,
+   "en": "This ancient phase prototype rig was never intended for mass production, yet someone managed to extract its reverse-engineered blueprints from the firmware of a nanoforge. The resulting skeleton of hull is given standard armor cladding, the merest nod of a life-support module, and as many missiles as can be crammed into the remaining voids.\r\n\r\nThe Gremlin, as it became known, is hated by its crew who suffer not only the dubious honor of a close-in strike role but also the disturbing wash of the prototype phase coil. Substance abuse is ubiquitous. An awful little ship.",
+   "ctx": "data/strings/descriptions.csv gremlin/SHIP [text1]"
+  },
+  {
+   "i": 15,
+   "en": "Although automated machines of war were forbidden in core Domain space, war drones were quietly employed outside of the officially incorporated volume. Frontier garrisons were often bolstered by drone ships, and they were deployed liberally against rebellious worlds to tip the terrible balance of attrition, setting the industrial might of the Domain versus the lives of 'freedom fighters'.\r\n  \r\nThe Bastillon was a hopeful project of Mbaye-Gogol to up-size its popular \"Defender\"-class specialized point-defense war drone. It is bigger, tougher, more heavily armed - and rather more lucrative per-unit to the MGA bottom-line.",
+   "ctx": "data/strings/descriptions.csv bastillon/SHIP [text1]"
+  },
+  {
+   "i": 16,
+   "en": "Although automated machines of war were forbidden in core Domain space, war drones were quietly employed outside of the officially incorporated volume. Frontier garrisons were often bolstered by drone ships, and they were deployed liberally against rebellious worlds to tip the terrible balance of attrition, setting the industrial might of the Domain versus the lives of 'freedom fighters'.\r\n\r\nThe Berserker is a considerably up-sized, up-armed, and up-armored cousin of the Warden-class for use against heavier opposition. As an automated drone the Berserker's combat algorithms make little consideration for its own survival, instead pursuing and attacking its target relentlessly until either it or the target is destroyed.",
+   "ctx": "data/strings/descriptions.csv berserker/SHIP [text1]"
+  },
+  {
+   "i": 17,
+   "en": "Although automated machines of war were forbidden in core Domain space, war drones were quietly employed outside of the officially incorporated volume. Frontier garrisons were often bolstered by drone ships, and they were deployed liberally against rebellious worlds to tip the terrible balance of attrition, setting the industrial might of the Domain versus the lives of 'freedom fighters'.\r\n\r\nThe Defender was one of the most commonly seen war drones used by the Domain as it was deployed to harden frontier convoys and vulnerable outposts in a point defense role.",
+   "ctx": "data/strings/descriptions.csv defender/SHIP [text1]"
+  },
+  {
+   "i": 18,
+   "en": "Although automated machines of war were forbidden in core Domain space, war drones were quietly employed outside of the officially incorporated volume. Frontier garrisons were often bolstered by drone ships, and they were deployed liberally against rebellious worlds to tip the terrible balance of attrition, setting the industrial might of the Domain versus the lives of 'freedom fighters'.\r\n\r\nThe Sentry war drone is packed with missiles and provided cheap, automated fire support to thinly-stretched frontier patrols.",
+   "ctx": "data/strings/descriptions.csv sentry/SHIP [text1]"
+  },
+  {
+   "i": 19,
+   "en": "Although automated machines of war were forbidden in core Domain space, war drones were quietly employed outside of the officially incorporated volume. Frontier garrisons were often bolstered by drone ships, and they were deployed liberally against rebellious worlds to tip the terrible balance of attrition, setting the industrial might of the Domain versus the lives of 'freedom fighters'.\r\n\r\nThe Warden was feared and hated by pirates on the frontier of the Domain for the relatively heavy firepower it would unleash upon unshielded craft. Often denigrated in Luddic propaganda as a \"murdering machine\" for the merciless aggression it displayed when activated.",
+   "ctx": "data/strings/descriptions.csv warden/SHIP [text1]"
+  },
+  {
+   "i": 20,
+   "en": "Although automated machines of war were forbidden in core Domain space, war drones were quietly employed outside of the officially incorporated volume. Frontier garrisons were often bolstered by drone ships, and they were deployed liberally against rebellious worlds to tip the terrible balance of attrition, setting the industrial might of the Domain versus the lives of 'freedom fighters'.\r\n\r\nNumerous vulnerabilities leave the Picket-class drone easy to underestimate, but woe to the captain who commits this error. If the Picket is allowed to follow its programming to close aggressively with its target, it will unleash a shockingly dense volume of light-caliber fire to rip apart unarmored hulls.",
+   "ctx": "data/strings/descriptions.csv picket/SHIP [text1]"
+  },
+  {
+   "i": 21,
+   "en": "Although automated machines of war were forbidden in core Domain space, war drones were quietly employed outside of the officially incorporated volume. Frontier garrisons were often bolstered by drone ships, and they were deployed liberally against rebellious worlds to tip the terrible balance of attrition, setting the industrial might of the Domain versus the lives of 'freedom fighters'.\r\n\r\nLittle more than an artillery platform with engines, the Rampart was attached to drone units to provide the heavy firepower necessary to meet cruiser and capital class hulls in the line of combat or to crack armored orbital fortresses. In either role, heavy losses were anticipated, so the Rampart was designed with highly modular components which allowed badly damaged hulls to be rapidly cannibalized to repair lightly damaged hulls up to combat capacity without the need for shipyard facilities.",
+   "ctx": "data/strings/descriptions.csv rampart/SHIP [text1]"
+  },
+  {
+   "i": 22,
+   "en": "Although automated machines of war were forbidden in core Domain space, war drones were quietly employed outside of the officially incorporated volume. Nothing like this, however, could possibly have been deployed by the Domain drone armadas.\r\n\r\nThere are elements of standard droneships within the hull structure, but they are covered by malevolently angled glacises and illogical tangles of conduit. Surely this monstrous vessel is the product of some deranged Domain naval architect, or a production chip corrupted by exposure to kilolights of faulty drive field?",
+   "ctx": "data/strings/descriptions.csv guardian/SHIP [text1]"
+  },
+  {
+   "i": 23,
+   "en": "A plaque on the bridge declares this ship class to be the result of \"Project Ziggurat\". It appears to be built on technology created in a Tri-Tachyon prototype lab unknown to the Persean Sector at-large. In addition to advanced conventional loadout, there are certain one-off components of exotic manufacture - it is possible to reverse-engineer undamaged examples and produce replacements, but the underlying operating principles do not resemble any known Domain technology and thus remain a mystery.\r\n\r\nThe Ziggurat-class ship once had a human crew; or, at least, was intended to be crewed by humans. No sign of them remains as physical evidence or in databanks. Even the cleanest Hegemony warship will have some initials and a rude word or two about the CO scratched behind a maintenance hatch. Here, nothing.",
+   "ctx": "data/strings/descriptions.csv ziggurat/SHIP [text1]"
+  },
+  {
+   "i": 24,
+   "en": "Assorted supplies required by ships and crew, ranging from rations and uniforms to munitions, spare parts, microfab feedstock, and prefab components.",
+   "ctx": "data/strings/descriptions.csv supplies/RESOURCE [text1]"
+  },
+  {
+   "i": 25,
+   "en": "Standard starship fuel on which interstellar civilization relies. Composed of antimatter trapped in fullerene shells mixed in a semi-stable foam with heavy isotopes of hydrogen. Fairly safe.",
+   "ctx": "data/strings/descriptions.csv fuel/RESOURCE [text1]"
+  },
+  {
+   "i": 26,
+   "en": "Skilled personnel experienced in the maintenance and day-to-day operation of spaceships and smaller ground-based installations.",
+   "ctx": "data/strings/descriptions.csv crew/RESOURCE [text1]"
+  },
+  {
+   "i": 27,
+   "en": "Heavily armed and equipped with powered armor, marines specialize in planetside operations such as raids.",
+   "ctx": "data/strings/descriptions.csv marines/RESOURCE [text1]"
+  },
+  {
+   "i": 28,
+   "en": "An alpha-level AI core is capable of excelling at any task. Assigning one to run a colony-wide industry brings benefits well beyond the capacity of human leadership, and there are even rumors of alpha cores surreptitiously assigned to govern entire worlds.\r\n\r\nSelling AI cores on the open market is prohibited by most factions. However, higher-up faction representatives are often willing to exchange AI cores for large sums of cash when communicated with directly, though their reasons for doing so may vary.\r\n\r\nThe alpha-level AI core is the physical soul of a fearsome alien intelligence. An alpha can create art which perfectly simulates human pathos, plausibly debate any philosophical position, and form what appear to be deep and meaningful bonds with human beings. Alphas have been known to perform elaborate 'jokes' built over years which can only be appreciated due to the intention that a particular human subject become cognitive of the whole at a specific time and context.\r\n\r\nAlthough the locus of vast material and intellectual investment, alphas terrified Domain strategic planners. Like all AI, each alpha was watched, controlled, and ruthlessly eliminated at the first sign of disloyalty. The Hegemony carries on these policies with even greater fervor.",
+   "ctx": "data/strings/descriptions.csv alpha_core/RESOURCE [text1]"
+  }
+ ]
+}

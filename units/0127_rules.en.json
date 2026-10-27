@@ -1,0 +1,206 @@
+{
+ "chunk": 127,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"Pray forgive me, captain; I do no question your faith.\" He presses his hands together.\r\n\r\n\"But Menes Yaribay cannot see into your soul. He will see your uniform, and my robes. That will be enough.\"",
+   "ctx": "data/campaign/rules.csv BFFImmBornDoStealSteal [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"We attend Menes' party. Be interesting. Be yourself. Get Menes to show off the glove.\" \r\n\r\n\"I know this trade, captain. Have faith.\" He pauses for a moment, acknowledging some irony in his own words. \"It works best if you act natural.\"",
+   "ctx": "data/campaign/rules.csv BFFImmBornDoStealTell [text]"
+  },
+  {
+   "i": 3,
+   "en": "He crosses his arms. \"I am not.\"",
+   "ctx": "data/campaign/rules.csv BFFImmBornDoStealLetGo [text]"
+  },
+  {
+   "i": 4,
+   "en": "Bornanew bows his head to your words. His expression is grim.\r\n\r\nMenes has not been discreet. As a celebration of his first cycle as the new demarch of Olinadu, he invited a holodoc team for a puff-piece interview and viewing of his 'collection'. Your tactical team reviews the holos, constructing schematic of the interior of Menes' complex, inferring layout and defenses from this and other publicly available information.",
+   "ctx": "data/campaign/rules.csv BFFImmBornDoRaid [text]"
+  },
+  {
+   "i": 5,
+   "en": "It is estimated that roughly 100 marines will be required to pull off the operation.\r\n\r\nYour marines will be equipped with an eclectic mix of equipment to allow them to pose as high-level pirates. They will be secretly infiltrated into Olinadu as, variously, spacer crew on shore-leave, contract technicians, and ne'er-do-wells looking to spend ill-gotten gains somewhere away from heavy law enforcement.\r\n\r\nIt goes without saying that you shall need to approach Olinadu with your $shipOrFleet's transponder off. Menes' overly charitable outlook on your character and generalized inattention to his official duties should allow you to join his 'party' with little oversight about how you actually got there.",
+   "ctx": "data/campaign/rules.csv BFFImmBornDoRaid2 [text]"
+  },
+  {
+   "i": 6,
+   "en": "To avert suspicion and ensure optimal timing, you and Bornanew will personally attend Menes' party when the raid is executed.\r\n\r\nThe raid will commence when two of a series of randomly generated time-slots are passed without receiving a stand-down signal. This signal will be, by all appearances, a routine status query to your $shipOrFleet, and appear to be perfectly routine behaviour for a justifiably neurotic independent $shipOrFleet operator.\r\n\r\nBornanew is watchful throughout the planning process, only occasionally advocating for lower-force protocols when a particularly bloodthirsty marine squad leader expresses more enthusiasm than strictly required for certain tactical details.",
+   "ctx": "data/campaign/rules.csv BFFImmBornDoRaid3 [text]"
+  },
+  {
+   "i": 7,
+   "en": "Bornanew bows his head in thanks, his relief palpable, his hands clasped together.",
+   "ctx": "data/campaign/rules.csv BFFImmBornDoBuyer [text]"
+  },
+  {
+   "i": 8,
+   "en": "Later, in the briefing room, you find Bornanew standing over a detailed schematic of Menes' complex. It rotates slowly in the shared display volume, gradually shadowing and illuminating his face.\r\n\r\nIt takes a moment, but you see that his eyes are closed and his lips are moving.\r\n\r\nA prayer, you suspect.",
+   "ctx": "data/campaign/rules.csv BFFImmBornOutro [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"Cousin Menes,\" he says, and sighs.\r\n\r\n\"What is it he's done this time?\"",
+   "ctx": "data/campaign/rules.csv BFFItalkHorusParty1 [text]"
+  },
+  {
+   "i": 10,
+   "en": "Horus blinks, and turns his head aside as if he didn't hear you correctly. His eyes snap back to yours through the comm-link.\r\n\r\n\"Elaborate upon your statement, if you would be so kind.\"\r\n\r\nA harsh note enters his tone, despite ostensibly polite words.",
+   "ctx": "data/campaign/rules.csv BFFItalkHorusPartyOptAsel [text]"
+  },
+  {
+   "i": 11,
+   "en": "Horus takes this in, looking into the middle distance, processing for a moment. He takes a slow breath.\r\n\r\n\"You are certain? Do the Luddics know about it?\"",
+   "ctx": "data/campaign/rules.csv BFFItalkHorusPartyOptBsel [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"He is family.\" Horus gives you a flinty look. \"State your meaning.\"",
+   "ctx": "data/campaign/rules.csv BFFItalkHorusPartyOptCsel [text]"
+  },
+  {
+   "i": 13,
+   "en": "He closes his eyes and rubs his temples. After a moment, a mutter emerges, \"Good grief.\"\r\n\r\nHe takes several more long breaths.",
+   "ctx": "data/campaign/rules.csv BFFItalkHorusPartyTheyKnow [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"He did,\" Horus stares at you.\r\n\r\n\"It appears as though I am going to have to become involved,\" he says. \"Personally.\"\r\n\r\n\"Again.\" His jaw is clenched. It looks uncomfortable.",
+   "ctx": "data/campaign/rules.csv BFFItalkHorusPartyInvite [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"The past matters of my gens do not oblige discussion with outsiders, $playerSirOrMadam,\" he says stiffly.\r\n\r\n\"However. I do appreciate your... consideration in bringing the current matter to my attention.\"",
+   "ctx": "data/campaign/rules.csv BFFItalkHorusPartyEndA [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"Thank-you captain, that is fabulous advice,\" Horus says in a tone demonstrating very little appreciation for your input.",
+   "ctx": "data/campaign/rules.csv BFFItalkHorusPartyEndB [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"I shall make my own way to Olinadu, thank you. Have your people coordinate with my people.\"\r\n\r\n\"We'll sort out Menes' indiscretion and set things right with the Church,\" he says brusquely, then turns away.\r\n\r\n\"After all I've done for that ungrateful-\" \r\n\r\nThe comms cut.",
+   "ctx": "data/campaign/rules.csv BFFItalkHorusPartyAttendEnd [text]"
+  },
+  {
+   "i": 18,
+   "en": "Now you have a party to attend - with an uninvited guest of honor.",
+   "ctx": "data/campaign/rules.csv BFFItalkHorusPartyAttendEnd2 [text]"
+  },
+  {
+   "i": 19,
+   "en": "Menes' invitation provides you with a flight path and Demarch-level traffic control override codes.\r\n\r\nIt's probably a violation of Persean League ethical guidelines for you to be using these to attend a personal party, but from what you can overhear of the pilot's comms, the locals have a casual attitude toward the arrangement.",
+   "ctx": "data/campaign/rules.csv BFFIattendPartyIntro1 [text]"
+  },
+  {
+   "i": 20,
+   "en": "You and Bornanew make an 'undocumented' arrival on Olinadu then transfer to a private shuttle service in order to attend Menes' party.\r\n\r\nYour hired pilot gives a shrug as she shows you a flight path blocked out with red DENIED tags - until you apply the key attached to your invitation, which turns out to be a Demarch-level override code.\r\n\r\nIt's probably a violation of Persean League ethical guidelines for you to be using these to attend a personal party, but the pilot simply smiles and proceeds. This sort of thing isn't unusual under Menes' administration, it appears.",
+   "ctx": "data/campaign/rules.csv BFFIattendPartyIntro1raid [text]"
+  },
+  {
+   "i": 21,
+   "en": "Menes Yaribay's compound is a scrubbed-looking slab of trendy architecture set on a bluff overlooking Olinadu's primary habitation cluster.\r\n\r\nA smattering of outbuildings and hangars, attached by fat trunks of conduit and glowing walktubes, sprawl across the less-fashionable view-angles of the compound toward the refineries and holding tanks of the planet's industrial center.",
+   "ctx": "data/campaign/rules.csv BFFIattendPartyIntro2 [text]"
+  },
+  {
+   "i": 22,
+   "en": "One set of hangar bay doors dutifully open, and your shuttle descends through the glowing atmo-field. Such gadgetry is an ostentatious addition to a personal residence, but it avoids the bother of visitors (and their shuttles) having to undergo pressure-cycling.\r\n\r\nAn enthusiastic Menes is already approaching your shuttle's access ramp as it sets itself down and signals the all-clear.\r\n\r\nBornanew exchanges a look with you, then rises to disembark.",
+   "ctx": "data/campaign/rules.csv BFFIattendPartyIntro3 [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"Captain $playerName,\" Menes crosses his chest with one arm, hand on heart, the other held behind, giving a small bow. \"Allow me to welcome you to my home.\"\r\n\r\n\"And you've brought your fascinating friend!\" he exclaims, as if it was a surprise. \"This must be...?\"",
+   "ctx": "data/campaign/rules.csv BFFIattendParty1 [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"Jethro Bornanew,\" he adds quickly. \"Novice Bornanew of the Knights of Ludd, at your service. May this day be blessed by Providence.\"",
+   "ctx": "data/campaign/rules.csv BFFIattendParty3a [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"May this day be blessed by Providence,\" he says.",
+   "ctx": "data/campaign/rules.csv BFFIattendParty3b [text]"
+  },
+  {
+   "i": 26,
+   "en": "Bornanew nods, not quite a bow, with his hands held together. Perhaps to avoid Menes' much-ringed hands from grabbing his. You are not so lucky, and must endure an overlong handshake.\r\n\r\nMenes is delighted at all of this, eyes flashing with something akin to greed.",
+   "ctx": "data/campaign/rules.csv BFFIattendParty3 [text]"
+  },
+  {
+   "i": 27,
+   "en": "Menes leads you past gilded statues posed to guard the portal to the main complex; the forms are evocative of splashes of molten gold frozen by happenstance into sensual humanoid figures.\r\n\r\nYou endure a rolling barrage of patter from Menes about the expense of renovations, the acquisition of artworks, the exclusivity of access to particular artists and engineering firms who have contributed to his home, his manor, and its collection.\r\n\r\nOccasionally a robotic or human servitor appears to offer drinks or nibbles, and you've a growing feeling that Menes has picked up a glass from one only to place it back on the tray of another without ever taking a sip between the two.\r\n\r\nA fresh glass in hand, delicate amber liquid fizzing away, Menes leads you into what can only be his prize entertaining space.",
+   "ctx": "data/campaign/rules.csv BFFIattendPartyHub1Intro1 [text]"
+  },
+  {
+   "i": 28,
+   "en": "The space is at once cavernous and intimate; the sightlines and carved, wrought, and woven details calculated to replicate the appearance of cozy warmth like the den of some thoughtful patron of art, history, and literature.\r\n\r\nA double handful of well-dressed remoras mill about, interrupting their conversations to smile and lift a glass as Menes enters. They look to be a collection of industrialists, financiers, distant gens-relatives, and at least one officer from atop the local military detachment who appears a little worse for his drink. Most nod to you and Bornanew, eyes not lingering to the point of impoliteness.\r\n\r\nOne skinny man in a finely embroidered suit has no such compunction, and rushes to greet your party, eyes agog at the newest additions to Menes' collection.",
+   "ctx": "data/campaign/rules.csv BFFIattendPartyHub1Intro2 [text]"
+  },
+  {
+   "i": 29,
+   "en": "He nearly trips over himself to speak. \"The great Captain $playerName! If half of what Menes has said is true... why, half the Sector must tremble at the appearance of your $shipOrFleet!\"\r\n\r\n\"We'll have to ask Navarch Atreus over there what he thinks of your combat record,\" the man grins wickedly, \"If he hasn't had too many of these, of course; with all thanks to our kind host, a true gentleman and scholar.\" He lifts his glass approvingly at Menes, and you see his eyes slide toward Bornanew.\r\n\r\n\"And Jethro Bornanew, I believe? A Knight of Ludd?\"",
+   "ctx": "data/campaign/rules.csv BFFIattendPartyHub1Intro3 [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"I don't recall an introduction,\" Bornanew says, his hands still held piously together, allowing him to deniably reject both drink and the touch of the present company.",
+   "ctx": "data/campaign/rules.csv BFFIattendPartyHub1Intro4 [text]"
+  },
+  {
+   "i": 31,
+   "en": "Bornanew forces out the equivalent of a smile.\r\n\r\n\"Of course, captain.\" He turns to the man. \"Pray forgive me, sir, my forgotten manners,\" he says.",
+   "ctx": "data/campaign/rules.csv BFFIattendPartyHub1Intro4c [text]"
+  },
+  {
+   "i": 32,
+   "en": "Menes laughs heartily.\r\n\r\n\"Let me introduce Ulmus Pond,\" he says. \"Now he'll claim to be a mere commodities trader,\" Menes winks as if you are in on a shared joke, \"but I daresay he knows everyone of any importance in the Kumari Kandam system. And if you need anything.\" He lowers his voice, \"Anything at all. He's your man.\"\r\n\r\nPond, grinning widely, makes a brushing-off gesture as if to dismiss Menes' words - but not so assertively as to deny them.",
+   "ctx": "data/campaign/rules.csv BFFIattendPartyHub1Intro5 [text]"
+  },
+  {
+   "i": 33,
+   "en": "Pond grins wider, and begins to speak. \"The feeling, I'm sure-\"",
+   "ctx": "data/campaign/rules.csv BFFIapHub1optA [text]"
+  },
+  {
+   "i": 34,
+   "en": "Pond laughs too loudly. \"Dear Menes, where did you find such a fantastic character? Without you, I'm certain we'd all die of boredom out here.\"",
+   "ctx": "data/campaign/rules.csv BFFIapHub1optB [text]"
+  },
+  {
+   "i": 35,
+   "en": "Pond laughs a little too loudly. \"Of course we've just met, but dear Menes spoke of a Knight from some unseemly background, and it's a tale which can't but seize the imagination, am I wrong?\"",
+   "ctx": "data/campaign/rules.csv BFFIapHub1optC [text]"
+  },
+  {
+   "i": 36,
+   "en": "Pond's grin widens. \"My thoughts are the same, and you know what they say about great-\"",
+   "ctx": "data/campaign/rules.csv BFFIapHub1optD [text]"
+  },
+  {
+   "i": 37,
+   "en": "Pond's grin hardens ever so slightly. \"I'm sure I'd be delighted to speak more later about-\"",
+   "ctx": "data/campaign/rules.csv BFFIapHub1optE [text]"
+  },
+  {
+   "i": 38,
+   "en": "Pond laughs too loudly. \"How odd! Dear Menes, where did you find such a fantastic character? I, for one, cannot wait to discover what this evening has in store.\"",
+   "ctx": "data/campaign/rules.csv BFFIapHub1optF [text]"
+  },
+  {
+   "i": 39,
+   "en": "Menes slaps a hand on Pond's shoulder, causing him to nearly spill his drink.\r\n\r\n\"Ulmus, Ulmus! You'll have plenty of time to speak with the good captain later. I did promise a surprise, a private showing for $playerHimOrHer and $playerHisOrHer noble Knight. You might know the piece, my friend,\" he winks again, this time to Pond.\r\n\r\n\"Come along, come along!\" Menes says, grabbing your arm. Ulmus Pond's eyes follow you, fawning oozingly.",
+   "ctx": "data/campaign/rules.csv BFFIattendPartyHub1Out1 [text]"
+  },
+  {
+   "i": 40,
+   "en": "Menes leads you and Bornanew to his inner sanctum, flashing a grin as he operates a series of obtrusive biometric checks.\r\n\r\nThe air cools by a degree, perhaps two, the armored mass of the walls felt as a dullness through your feet. The subdued lighting, drapery, and framing of the space suggest the interior of a bank vault or a shrine, though not to the praise of any Luddic virtue.\r\n\r\nQuite the contrary, depending on one's outlook.",
+   "ctx": "data/campaign/rules.csv BFFIattendPartyHub1Out2 [text]"
+  }
+ ]
+}

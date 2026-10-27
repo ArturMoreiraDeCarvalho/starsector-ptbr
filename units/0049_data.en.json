@@ -1,0 +1,1256 @@
+{
+ "chunk": 49,
+ "cat": "data",
+ "items": [
+  {
+   "i": 1,
+   "en": "Transfers from the ship are always instant, regardless of the deployment point total.",
+   "ctx": "data/hullmods/hull_mods.csv neural_interface [sModDesc]"
+  },
+  {
+   "i": 2,
+   "en": "Reduces the amount of damage taken by shields by %s.",
+   "ctx": "data/hullmods/hull_mods.csv frontemitter [sModDesc]"
+  },
+  {
+   "i": 3,
+   "en": "Negates the shield arc penalty.",
+   "ctx": "data/hullmods/hull_mods.csv adaptiveshields [sModDesc]"
+  },
+  {
+   "i": 4,
+   "en": "Increases the fighter pilot casualty reduction to %s.",
+   "ctx": "data/hullmods/hull_mods.csv recovery_shuttles [sModDesc]"
+  },
+  {
+   "i": 5,
+   "en": "Increases the flux dissipation rate while venting by a further %s.",
+   "ctx": "data/hullmods/hull_mods.csv fluxbreakers [sModDesc]"
+  },
+  {
+   "i": 6,
+   "en": "Converts %s of the hard flux damage taken by shields to soft flux.",
+   "ctx": "data/hullmods/hull_mods.csv stabilizedshieldemitter [sModDesc]"
+  },
+  {
+   "i": 7,
+   "en": "Doubles the crew capacity increase and, for civilian hulls, negates the maintenance cost increase.",
+   "ctx": "data/hullmods/hull_mods.csv additional_berthing [sModDesc]"
+  },
+  {
+   "i": 8,
+   "en": "Increases maximum burn level by a further %s.",
+   "ctx": "data/hullmods/hull_mods.csv augmentedengines [sModDesc]"
+  },
+  {
+   "i": 9,
+   "en": "Doubles the fuel capacity increase and, for civilian hulls, negates the maintenance cost increase.",
+   "ctx": "data/hullmods/hull_mods.csv auxiliary_fuel_tanks [sModDesc]"
+  },
+  {
+   "i": 10,
+   "en": "Reduces maintenance cost, fuel use, and minimum crew requirement by a further %s.",
+   "ctx": "data/hullmods/hull_mods.csv efficiency_overhaul [sModDesc]"
+  },
+  {
+   "i": 11,
+   "en": "Doubles the cargo capacity increase and, for civilian hulls, negates the maintenance cost increase.",
+   "ctx": "data/hullmods/hull_mods.csv expanded_cargo_holds [sModDesc]"
+  },
+  {
+   "i": 12,
+   "en": "Increases the ship's in-combat vision range by %s/%s/%s/%s, based on hull size.",
+   "ctx": "data/hullmods/hull_mods.csv hiressensors [sModDesc]"
+  },
+  {
+   "i": 13,
+   "en": "Increases engine durability by a further %s, and Increases the sensor profile reduction to %s.",
+   "ctx": "data/hullmods/hull_mods.csv insulatedengine [sModDesc]"
+  },
+  {
+   "i": 14,
+   "en": "Negates the increased crew requirements.",
+   "ctx": "data/hullmods/hull_mods.csv militarized_subsystems [sModDesc]"
+  },
+  {
+   "i": 15,
+   "en": "Increases the protection from solar coronae and similar hazards to %s.",
+   "ctx": "data/hullmods/hull_mods.csv solar_shielding [sModDesc]"
+  },
+  {
+   "i": 16,
+   "en": "Increases the survey cost reduction by %s.",
+   "ctx": "data/hullmods/hull_mods.csv surveying_equipment [sModDesc]"
+  },
+  {
+   "i": 17,
+   "en": "Reduces maximum combat readiness by %s and increases the maintenance cost by %s.",
+   "ctx": "data/hullmods/hull_mods.csv fragment_swarm [sModDesc]"
+  },
+  {
+   "i": 18,
+   "en": "Increases the fragment replacement rate by a further %s.",
+   "ctx": "data/hullmods/hull_mods.csv secondary_fabricator [sModDesc]"
+  },
+  {
+   "i": 19,
+   "en": "Increases the size of the fragment swarm by a further %s.",
+   "ctx": "data/hullmods/hull_mods.csv fragment_coordinator [sModDesc]"
+  },
+  {
+   "i": 20,
+   "en": "The ship benefits from %s of the healing provided by Hungering Rift.",
+   "ctx": "data/hullmods/hull_mods.csv shrouded_mantle [sModDesc]"
+  },
+  {
+   "i": 21,
+   "en": "Shields",
+   "ctx": "hullmod UI filter tag"
+  },
+  {
+   "i": 22,
+   "en": "Engines",
+   "ctx": "hullmod UI filter tag"
+  },
+  {
+   "i": 23,
+   "en": "Requires Dock",
+   "ctx": "hullmod UI filter tag"
+  },
+  {
+   "i": 24,
+   "en": "Support",
+   "ctx": "hullmod UI filter tag"
+  },
+  {
+   "i": 25,
+   "en": "Drone",
+   "ctx": "data/hulls/ship_data.csv merlon [designation]"
+  },
+  {
+   "i": 26,
+   "en": "Aspect",
+   "ctx": "data/hulls/ship_data.csv aspect [designation]"
+  },
+  {
+   "i": 27,
+   "en": "Shrouded Vortex",
+   "ctx": "data/hulls/ship_data.csv shrouded_vortex [designation]"
+  },
+  {
+   "i": 28,
+   "en": "Shrouded Ejecta",
+   "ctx": "data/hulls/ship_data.csv shrouded_ejecta [designation]"
+  },
+  {
+   "i": 29,
+   "en": "Combat Freighter",
+   "ctx": "data/hulls/ship_data.csv hound [designation]"
+  },
+  {
+   "i": 30,
+   "en": "Heavy Frigate",
+   "ctx": "data/hulls/ship_data.csv vanguard [designation]"
+  },
+  {
+   "i": 31,
+   "en": "Advanced Gunship",
+   "ctx": "data/hulls/ship_data.csv hyperion [designation]"
+  },
+  {
+   "i": 32,
+   "en": "Shuttle",
+   "ctx": "data/hulls/ship_data.csv mercury [designation]"
+  },
+  {
+   "i": 33,
+   "en": "Gunship",
+   "ctx": "data/hulls/ship_data.csv brawler [designation]"
+  },
+  {
+   "i": 34,
+   "en": "Tanker",
+   "ctx": "data/hulls/ship_data.csv dram [designation]"
+  },
+  {
+   "i": 35,
+   "en": "Phase Frigate",
+   "ctx": "data/hulls/ship_data.csv afflictor [designation]"
+  },
+  {
+   "i": 36,
+   "en": "Tug",
+   "ctx": "data/hulls/ship_data.csv ox [designation]"
+  },
+  {
+   "i": 37,
+   "en": "Drone Tender",
+   "ctx": "data/hulls/ship_data.csv shepherd [designation]"
+  },
+  {
+   "i": 38,
+   "en": "Civilian Transport",
+   "ctx": "data/hulls/ship_data.csv mudskipper [designation]"
+  },
+  {
+   "i": 39,
+   "en": "Droneship",
+   "ctx": "data/hulls/ship_data.csv lumen [designation]"
+  },
+  {
+   "i": 40,
+   "en": "Sinistral Shard",
+   "ctx": "data/hulls/ship_data.csv shard_left [designation]"
+  },
+  {
+   "i": 41,
+   "en": "Dextral Shard",
+   "ctx": "data/hulls/ship_data.csv shard_right [designation]"
+  },
+  {
+   "i": 42,
+   "en": "Skirmish Unit",
+   "ctx": "data/hulls/ship_data.csv skirmish_unit [designation]"
+  },
+  {
+   "i": 43,
+   "en": "Light Carrier",
+   "ctx": "data/hulls/ship_data.csv condor [designation]"
+  },
+  {
+   "i": 44,
+   "en": "Freighter",
+   "ctx": "data/hulls/ship_data.csv buffalo [designation]"
+  },
+  {
+   "i": 45,
+   "en": "Troop Transport",
+   "ctx": "data/hulls/ship_data.csv valkyrie [designation]"
+  },
+  {
+   "i": 46,
+   "en": "Phase Transport",
+   "ctx": "data/hulls/ship_data.csv phantom [designation]"
+  },
+  {
+   "i": 47,
+   "en": "Salvage Rig",
+   "ctx": "data/hulls/ship_data.csv crig [designation]"
+  },
+  {
+   "i": 48,
+   "en": "Phase Destroyer",
+   "ctx": "data/hulls/ship_data.csv harbinger [designation]"
+  },
+  {
+   "i": 49,
+   "en": "Droneship Carrier",
+   "ctx": "data/hulls/ship_data.csv scintilla [designation]"
+  },
+  {
+   "i": 50,
+   "en": "Light Destroyer",
+   "ctx": "data/hulls/ship_data.csv shrike [designation]"
+  },
+  {
+   "i": 51,
+   "en": "Facet",
+   "ctx": "data/hulls/ship_data.csv facet [designation]"
+  },
+  {
+   "i": 52,
+   "en": "Overseer Unit",
+   "ctx": "data/hulls/ship_data.csv overseer_unit [designation]"
+  },
+  {
+   "i": 53,
+   "en": "Assault Unit",
+   "ctx": "data/hulls/ship_data.csv assault_unit [designation]"
+  },
+  {
+   "i": 54,
+   "en": "Shrouded Tendril",
+   "ctx": "data/hulls/ship_data.csv shrouded_tendril [designation]"
+  },
+  {
+   "i": 55,
+   "en": "Light Cruiser",
+   "ctx": "data/hulls/ship_data.csv falcon [designation]"
+  },
+  {
+   "i": 56,
+   "en": "Heavy Cruiser",
+   "ctx": "data/hulls/ship_data.csv champion [designation]"
+  },
+  {
+   "i": 57,
+   "en": "Fast Cruiser",
+   "ctx": "data/hulls/ship_data.csv eradicator [designation]"
+  },
+  {
+   "i": 58,
+   "en": "Phase Cruiser",
+   "ctx": "data/hulls/ship_data.csv doom [designation]"
+  },
+  {
+   "i": 59,
+   "en": "Fast Carrier",
+   "ctx": "data/hulls/ship_data.csv heron [designation]"
+  },
+  {
+   "i": 60,
+   "en": "Missile Cruiser",
+   "ctx": "data/hulls/ship_data.csv gryphon [designation]"
+  },
+  {
+   "i": 61,
+   "en": "Heavy Freighter",
+   "ctx": "data/hulls/ship_data.csv colossus [designation]"
+  },
+  {
+   "i": 62,
+   "en": "Modified Freighter",
+   "ctx": "data/hulls/ship_data.csv colossus2 [designation]"
+  },
+  {
+   "i": 63,
+   "en": "Phase Tender",
+   "ctx": "data/hulls/ship_data.csv revenant [designation]"
+  },
+  {
+   "i": 64,
+   "en": "Droneship Cruiser",
+   "ctx": "data/hulls/ship_data.csv brilliant [designation]"
+  },
+  {
+   "i": 65,
+   "en": "Heavy Droneship",
+   "ctx": "data/hulls/ship_data.csv apex [designation]"
+  },
+  {
+   "i": 66,
+   "en": "Experimental Cruiser",
+   "ctx": "data/hulls/ship_data.csv anubis [designation]"
+  },
+  {
+   "i": 67,
+   "en": "Tesseract",
+   "ctx": "data/hulls/ship_data.csv tesseract [designation]"
+  },
+  {
+   "i": 68,
+   "en": "Hive Unit",
+   "ctx": "data/hulls/ship_data.csv hive_unit [designation]"
+  },
+  {
+   "i": 69,
+   "en": "Line Unit",
+   "ctx": "data/hulls/ship_data.csv standoff_unit [designation]"
+  },
+  {
+   "i": 70,
+   "en": "Shrouded Eye",
+   "ctx": "data/hulls/ship_data.csv shrouded_eye [designation]"
+  },
+  {
+   "i": 71,
+   "en": "Shrouded Maelstrom",
+   "ctx": "data/hulls/ship_data.csv shrouded_maelstrom [designation]"
+  },
+  {
+   "i": 72,
+   "en": "Battleship",
+   "ctx": "data/hulls/ship_data.csv onslaught [designation]"
+  },
+  {
+   "i": 73,
+   "en": "Superfreighter",
+   "ctx": "data/hulls/ship_data.csv atlas [designation]"
+  },
+  {
+   "i": 74,
+   "en": "Modified Superfreighter",
+   "ctx": "data/hulls/ship_data.csv atlas2 [designation]"
+  },
+  {
+   "i": 75,
+   "en": "Battlecruiser",
+   "ctx": "data/hulls/ship_data.csv conquest [designation]"
+  },
+  {
+   "i": 76,
+   "en": "Modified Tanker",
+   "ctx": "data/hulls/ship_data.csv prometheus2 [designation]"
+  },
+  {
+   "i": 77,
+   "en": "Battlecarrier",
+   "ctx": "data/hulls/ship_data.csv legion [designation]"
+  },
+  {
+   "i": 78,
+   "en": "Drone Battleship",
+   "ctx": "data/hulls/ship_data.csv guardian [designation]"
+  },
+  {
+   "i": 79,
+   "en": "Phase Vessel",
+   "ctx": "data/hulls/ship_data.csv ziggurat [designation]"
+  },
+  {
+   "i": 80,
+   "en": "Dreadnought",
+   "ctx": "data/hulls/ship_data.csv invictus [designation]"
+  },
+  {
+   "i": 81,
+   "en": "Drone Battlecruiser",
+   "ctx": "data/hulls/ship_data.csv nova [designation]"
+  },
+  {
+   "i": 82,
+   "en": "Fabricator Unit",
+   "ctx": "data/hulls/ship_data.csv fabricator_unit [designation]"
+  },
+  {
+   "i": 83,
+   "en": "Shrouded Maw",
+   "ctx": "data/hulls/ship_data.csv shrouded_maw [designation]"
+  },
+  {
+   "i": 84,
+   "en": "Pod",
+   "ctx": "data/hulls/ship_data.csv shuttlepod [designation]"
+  },
+  {
+   "i": 85,
+   "en": "Small Orbital Station",
+   "ctx": "data/hulls/ship_data.csv station_small [designation]"
+  },
+  {
+   "i": 86,
+   "en": "Domain-era Survey Mothership",
+   "ctx": "data/hulls/ship_data.csv station_derelict_survey_mothership [designation]"
+  },
+  {
+   "i": 87,
+   "en": "Battlestation",
+   "ctx": "data/hulls/ship_data.csv station2 [designation]"
+  },
+  {
+   "i": 88,
+   "en": "Star Fortress",
+   "ctx": "data/hulls/ship_data.csv station3 [designation]"
+  },
+  {
+   "i": 89,
+   "en": "PD Bastion 1",
+   "ctx": "data/hulls/ship_data.csv module_bastion_pd1 [designation]"
+  },
+  {
+   "i": 90,
+   "en": "Station Armour",
+   "ctx": "data/hulls/ship_data.csv module_armour1 [designation]"
+  },
+  {
+   "i": 91,
+   "en": "Station Structural Spur",
+   "ctx": "data/hulls/ship_data.csv module_blocker1 [designation]"
+  },
+  {
+   "i": 92,
+   "en": "Station Extension",
+   "ctx": "data/hulls/ship_data.csv module_decor_midline1 [designation]"
+  },
+  {
+   "i": 93,
+   "en": "Weapons Platform",
+   "ctx": "data/hulls/ship_data.csv platform1 [designation]"
+  },
+  {
+   "i": 94,
+   "en": "Heavy Combat Module",
+   "ctx": "data/hulls/ship_data.csv module_large1_lowtech [designation]"
+  },
+  {
+   "i": 95,
+   "en": "Heavy Support Module",
+   "ctx": "data/hulls/ship_data.csv module_large2_lowtech [designation]"
+  },
+  {
+   "i": 96,
+   "en": "PD Bastion",
+   "ctx": "data/hulls/ship_data.csv module_bastion1_lowtech [designation]"
+  },
+  {
+   "i": 97,
+   "en": "Heavy Citadel",
+   "ctx": "data/hulls/ship_data.csv module_citadel1_lowtech [designation]"
+  },
+  {
+   "i": 98,
+   "en": "Heavy Broadside Module",
+   "ctx": "data/hulls/ship_data.csv module_midline_broadside [designation]"
+  },
+  {
+   "i": 99,
+   "en": "Heavy Station Battery",
+   "ctx": "data/hulls/ship_data.csv module_midline_citadel [designation]"
+  },
+  {
+   "i": 100,
+   "en": "Light Support Module",
+   "ctx": "data/hulls/ship_data.csv module_midline_bastion [designation]"
+  },
+  {
+   "i": 101,
+   "en": "Shield Module",
+   "ctx": "data/hulls/ship_data.csv module_hightech_shield [designation]"
+  },
+  {
+   "i": 102,
+   "en": "Hangar Module",
+   "ctx": "data/hulls/ship_data.csv module_hightech_hangar [designation]"
+  },
+  {
+   "i": 103,
+   "en": "Station Battery",
+   "ctx": "data/hulls/ship_data.csv module_hightech_attack [designation]"
+  },
+  {
+   "i": 104,
+   "en": "Gun Pod, Small",
+   "ctx": "data/hulls/ship_data.csv derelict_mothership_pod_s_right [designation]"
+  },
+  {
+   "i": 105,
+   "en": "Gun Pod, Medium",
+   "ctx": "data/hulls/ship_data.csv derelict_mothership_pod_m_right [designation]"
+  },
+  {
+   "i": 106,
+   "en": "Gun Pod, Rear",
+   "ctx": "data/hulls/ship_data.csv derelict_mothership_pod_engine_left [designation]"
+  },
+  {
+   "i": 107,
+   "en": "Bow Shield Module",
+   "ctx": "data/hulls/ship_data.csv derelict_mothership_bow_module [designation]"
+  },
+  {
+   "i": 108,
+   "en": "Bow Sensor Mast",
+   "ctx": "data/hulls/ship_data.csv derelict_mothership_sensor_mast [designation]"
+  },
+  {
+   "i": 109,
+   "en": "Remnant Station",
+   "ctx": "data/hulls/ship_data.csv remnant_station1 [designation]"
+  },
+  {
+   "i": 110,
+   "en": "Remnant Station Armour",
+   "ctx": "data/hulls/ship_data.csv remnant_armour1 [designation]"
+  },
+  {
+   "i": 111,
+   "en": "Remnant Weapon Platform",
+   "ctx": "data/hulls/ship_data.csv remnant_weapon_platform1 [designation]"
+  },
+  {
+   "i": 112,
+   "en": "Remnant Station Citadel",
+   "ctx": "data/hulls/ship_data.csv remnant_shield1 [designation]"
+  },
+  {
+   "i": 113,
+   "en": "Remnant Station Hangar",
+   "ctx": "data/hulls/ship_data.csv remnant_hangar1 [designation]"
+  },
+  {
+   "i": 114,
+   "en": "Vambrace Module",
+   "ctx": "data/hulls/ship_data.csv module_onslaught_armor_left [designation]"
+  },
+  {
+   "i": 115,
+   "en": "Low Tech",
+   "ctx": "data/hulls/ship_data.csv talon [tech/manufacturer]"
+  },
+  {
+   "i": 116,
+   "en": "High Tech",
+   "ctx": "data/hulls/ship_data.csv dagger [tech/manufacturer]"
+  },
+  {
+   "i": 117,
+   "en": "Midline",
+   "ctx": "data/hulls/ship_data.csv gladius [tech/manufacturer]"
+  },
+  {
+   "i": 118,
+   "en": "Explorarium",
+   "ctx": "data/hulls/ship_data.csv warden [tech/manufacturer]"
+  },
+  {
+   "i": 119,
+   "en": "Pirate",
+   "ctx": "data/hulls/ship_data.csv colossus3 [tech/manufacturer]"
+  },
+  {
+   "i": 120,
+   "en": "Not available (drone)",
+   "ctx": "data/hulls/ship_data.csv drone_pd [logistics n/a reason]"
+  },
+  {
+   "i": 121,
+   "en": "Not available",
+   "ctx": "data/hulls/ship_data.csv shrouded_vortex [logistics n/a reason]"
+  },
+  {
+   "i": 122,
+   "en": "Heavy Fighter",
+   "ctx": "data/hulls/wing_data.csv broadsword_wing [role desc]"
+  },
+  {
+   "i": 123,
+   "en": "Heavy Interceptor",
+   "ctx": "data/hulls/wing_data.csv gladius_wing [role desc]"
+  },
+  {
+   "i": 124,
+   "en": "Interceptor Drone",
+   "ctx": "data/hulls/wing_data.csv wasp_wing [role desc]"
+  },
+  {
+   "i": 125,
+   "en": "Strike Drone",
+   "ctx": "data/hulls/wing_data.csv flash_wing [role desc]"
+  },
+  {
+   "i": 126,
+   "en": "Fighter Drone",
+   "ctx": "data/hulls/wing_data.csv lux_wing [role desc]"
+  },
+  {
+   "i": 127,
+   "en": "Transience",
+   "ctx": "data/hulls/wing_data.csv aspect_shock_wing [role desc]"
+  },
+  {
+   "i": 128,
+   "en": "Fragments",
+   "ctx": "data/hulls/wing_data.csv attack_swarm_wing [role desc]"
+  },
+  {
+   "i": 129,
+   "en": "Flare Launcher",
+   "ctx": "data/shipsystems/ship_systems.csv flarelauncher [name]"
+  },
+  {
+   "i": 130,
+   "en": "Canister Flak",
+   "ctx": "data/shipsystems/ship_systems.csv canister_flak [name]"
+  },
+  {
+   "i": 131,
+   "en": "Decoy Flare Launcher",
+   "ctx": "data/shipsystems/ship_systems.csv flarelauncher_fighter [name]"
+  },
+  {
+   "i": 132,
+   "en": "Decoy Flare Launcher (Single)",
+   "ctx": "data/shipsystems/ship_systems.csv flarelauncher_single [name]"
+  },
+  {
+   "i": 133,
+   "en": "Active Flare Launcher",
+   "ctx": "data/shipsystems/ship_systems.csv flarelauncher_active [name]"
+  },
+  {
+   "i": 134,
+   "en": "Burn Drive",
+   "ctx": "data/shipsystems/ship_systems.csv burndrive [name]"
+  },
+  {
+   "i": 135,
+   "en": "Combat Burn",
+   "ctx": "data/shipsystems/ship_systems.csv combat_burn [name]"
+  },
+  {
+   "i": 136,
+   "en": "Plasma Burn",
+   "ctx": "data/shipsystems/ship_systems.csv microburn [name]"
+  },
+  {
+   "i": 137,
+   "en": "Microburn",
+   "ctx": "data/shipsystems/ship_systems.csv microburn_omega [name]"
+  },
+  {
+   "i": 138,
+   "en": "Maneuvering Jets",
+   "ctx": "data/shipsystems/ship_systems.csv maneuveringjets [name]"
+  },
+  {
+   "i": 139,
+   "en": "Dynamic Stabilizer",
+   "ctx": "data/shipsystems/ship_systems.csv dynamic_stabilizer [name]"
+  },
+  {
+   "i": 140,
+   "en": "Infernium Injector",
+   "ctx": "data/shipsystems/ship_systems.csv inferniuminjector [name]"
+  },
+  {
+   "i": 141,
+   "en": "Fast Missile Racks",
+   "ctx": "data/shipsystems/ship_systems.csv fastmissileracks [name]"
+  },
+  {
+   "i": 142,
+   "en": "Fortress Shield",
+   "ctx": "data/shipsystems/ship_systems.csv fortressshield [name]"
+  },
+  {
+   "i": 143,
+   "en": "High Energy Focus",
+   "ctx": "data/shipsystems/ship_systems.csv highenergyfocus [name]"
+  },
+  {
+   "i": 144,
+   "en": "Phase Teleporter",
+   "ctx": "data/shipsystems/ship_systems.csv phaseteleporter [name]"
+  },
+  {
+   "i": 145,
+   "en": "Phase Skimmer",
+   "ctx": "data/shipsystems/ship_systems.csv displacer [name]"
+  },
+  {
+   "i": 146,
+   "en": "Point Defense Drones",
+   "ctx": "data/shipsystems/ship_systems.csv drone_pd [name]"
+  },
+  {
+   "i": 147,
+   "en": "Borer Drones",
+   "ctx": "data/shipsystems/ship_systems.csv drone_borer [name]"
+  },
+  {
+   "i": 148,
+   "en": "Sensor Drones",
+   "ctx": "data/shipsystems/ship_systems.csv drone_sensor [name]"
+  },
+  {
+   "i": 149,
+   "en": "Terminator Drone",
+   "ctx": "data/shipsystems/ship_systems.csv drone_terminator [name]"
+  },
+  {
+   "i": 150,
+   "en": "Accelerated Ammo Feeder",
+   "ctx": "data/shipsystems/ship_systems.csv ammofeed [name]"
+  },
+  {
+   "i": 151,
+   "en": "Lidar Array",
+   "ctx": "data/shipsystems/ship_systems.csv lidararray [name]"
+  },
+  {
+   "i": 152,
+   "en": "EMP Emitter",
+   "ctx": "data/shipsystems/ship_systems.csv emp [name]"
+  },
+  {
+   "i": 153,
+   "en": "Damper Field",
+   "ctx": "data/shipsystems/ship_systems.csv damper [name]"
+  },
+  {
+   "i": 154,
+   "en": "Entropy Damper",
+   "ctx": "data/shipsystems/ship_systems.csv damper_omega [name]"
+  },
+  {
+   "i": 155,
+   "en": "Temporal Shell",
+   "ctx": "data/shipsystems/ship_systems.csv temporalshell [name]"
+  },
+  {
+   "i": 156,
+   "en": "Quantum Disruptor",
+   "ctx": "data/shipsystems/ship_systems.csv acausaldisruptor [name]"
+  },
+  {
+   "i": 157,
+   "en": "Entropy Amplifier",
+   "ctx": "data/shipsystems/ship_systems.csv entropyamplifier [name]"
+  },
+  {
+   "i": 158,
+   "en": "Interdictor Array",
+   "ctx": "data/shipsystems/ship_systems.csv interdictor [name]"
+  },
+  {
+   "i": 159,
+   "en": "Mine Strike",
+   "ctx": "data/shipsystems/ship_systems.csv mine_strike [name]"
+  },
+  {
+   "i": 160,
+   "en": "Cryoflux Transducer",
+   "ctx": "data/shipsystems/ship_systems.csv cryoflux [name]"
+  },
+  {
+   "i": 161,
+   "en": "Reserve Deployment",
+   "ctx": "data/shipsystems/ship_systems.csv reservewing [name]"
+  },
+  {
+   "i": 162,
+   "en": "Targeting Feed",
+   "ctx": "data/shipsystems/ship_systems.csv targetingfeed [name]"
+  },
+  {
+   "i": 163,
+   "en": "Recall Device",
+   "ctx": "data/shipsystems/ship_systems.csv recalldevice [name]"
+  },
+  {
+   "i": 164,
+   "en": "Plasma Jets",
+   "ctx": "data/shipsystems/ship_systems.csv plasmajets [name]"
+  },
+  {
+   "i": 165,
+   "en": "Orion Device",
+   "ctx": "data/shipsystems/ship_systems.csv orion_device [name]"
+  },
+  {
+   "i": 166,
+   "en": "Nova Burst",
+   "ctx": "data/shipsystems/ship_systems.csv nova_burst [name]"
+  },
+  {
+   "i": 167,
+   "en": "Energy Conversion",
+   "ctx": "data/shipsystems/ship_systems.csv energy_conversion [name]"
+  },
+  {
+   "i": 168,
+   "en": "Chiral Figment",
+   "ctx": "data/shipsystems/ship_systems.csv chiral_figment [name]"
+  },
+  {
+   "i": 169,
+   "en": "Phase Skimmer (Drone)",
+   "ctx": "data/shipsystems/ship_systems.csv skimmer_drone [name]"
+  },
+  {
+   "i": 170,
+   "en": "Degraded Phase Skimmer",
+   "ctx": "data/shipsystems/ship_systems.csv displacer_degraded [name]"
+  },
+  {
+   "i": 171,
+   "en": "Full Burn",
+   "ctx": "data/shipsystems/ship_systems.csv traveldrive [name]"
+  },
+  {
+   "i": 172,
+   "en": "Heavy Missile Autoforge",
+   "ctx": "data/shipsystems/ship_systems.csv forgevats_station [name]"
+  },
+  {
+   "i": 173,
+   "en": "Merlon Drones",
+   "ctx": "data/shipsystems/ship_systems.csv drone_station_lt [name]"
+  },
+  {
+   "i": 174,
+   "en": "Ravelin Drones",
+   "ctx": "data/shipsystems/ship_systems.csv drone_station_mid [name]"
+  },
+  {
+   "i": 175,
+   "en": "Gargoyle Drones",
+   "ctx": "data/shipsystems/ship_systems.csv drone_station_high [name]"
+  },
+  {
+   "i": 176,
+   "en": "Mote Attractor",
+   "ctx": "data/shipsystems/ship_systems.csv mote_control [name]"
+  },
+  {
+   "i": 177,
+   "en": "Termination Sequence",
+   "ctx": "data/shipsystems/ship_systems.csv drone_strike [name]"
+  },
+  {
+   "i": 178,
+   "en": "Energy Lash",
+   "ctx": "data/shipsystems/ship_systems.csv energy_lash [name]"
+  },
+  {
+   "i": 179,
+   "en": "Displacer",
+   "ctx": "data/shipsystems/ship_systems.csv displacer_threat [name]"
+  },
+  {
+   "i": 180,
+   "en": "Incursion Mode",
+   "ctx": "data/shipsystems/ship_systems.csv incursion_mode [name]"
+  },
+  {
+   "i": 181,
+   "en": "Extraction Protocol",
+   "ctx": "data/shipsystems/ship_systems.csv extraction_protocol [name]"
+  },
+  {
+   "i": 182,
+   "en": "Fragment Volley",
+   "ctx": "data/shipsystems/ship_systems.csv fragment_volley [name]"
+  },
+  {
+   "i": 183,
+   "en": "Construction Swarm",
+   "ctx": "data/shipsystems/ship_systems.csv construction_swarm [name]"
+  },
+  {
+   "i": 184,
+   "en": "Convulsive Lunge",
+   "ctx": "data/shipsystems/ship_systems.csv convulsive_lunge [name]"
+  },
+  {
+   "i": 185,
+   "en": "Darkened Gaze",
+   "ctx": "data/shipsystems/ship_systems.csv darkened_gaze [name]"
+  },
+  {
+   "i": 186,
+   "en": "Tenebrous Expulsion",
+   "ctx": "data/shipsystems/ship_systems.csv tenebrous_expulsion [name]"
+  },
+  {
+   "i": 187,
+   "en": "Lion's Guard",
+   "ctx": "data/weapons/weapon_data.csv kineticblaster [tech/manufacturer]"
+  },
+  {
+   "i": 188,
+   "en": "Anti Armor",
+   "ctx": "data/weapons/weapon_data.csv lightmortar [primaryRoleStr]"
+  },
+  {
+   "i": 189,
+   "en": "Anti Shield",
+   "ctx": "data/weapons/weapon_data.csv lightac [primaryRoleStr]"
+  },
+  {
+   "i": 190,
+   "en": "Anti Fighter (Fighter)",
+   "ctx": "data/weapons/weapon_data.csv fragbomb [primaryRoleStr]"
+  },
+  {
+   "i": 191,
+   "en": "Strike",
+   "ctx": "data/weapons/weapon_data.csv clusterbomb [primaryRoleStr]"
+  },
+  {
+   "i": 192,
+   "en": "Point Defense (Area)",
+   "ctx": "data/weapons/weapon_data.csv flak [primaryRoleStr]"
+  },
+  {
+   "i": 193,
+   "en": "Anti Fighter (Area)",
+   "ctx": "data/weapons/weapon_data.csv devastator [primaryRoleStr]"
+  },
+  {
+   "i": 194,
+   "en": "Torpedo",
+   "ctx": "data/weapons/weapon_data.csv reaper [primaryRoleStr]"
+  },
+  {
+   "i": 195,
+   "en": "Anti Small Craft",
+   "ctx": "data/weapons/weapon_data.csv swarmer [primaryRoleStr]"
+  },
+  {
+   "i": 196,
+   "en": "Anti Small Craft (Fighter)",
+   "ctx": "data/weapons/weapon_data.csv swarmer_fighter [primaryRoleStr]"
+  },
+  {
+   "i": 197,
+   "en": "Anti Armor (Fighter)",
+   "ctx": "data/weapons/weapon_data.csv annihilator_fighter [primaryRoleStr]"
+  },
+  {
+   "i": 198,
+   "en": "Anti Engine",
+   "ctx": "data/weapons/weapon_data.csv heatseeker [primaryRoleStr]"
+  },
+  {
+   "i": 199,
+   "en": "Finisher",
+   "ctx": "data/weapons/weapon_data.csv harpoon [primaryRoleStr]"
+  },
+  {
+   "i": 200,
+   "en": "Anti Shield (Fighter)",
+   "ctx": "data/weapons/weapon_data.csv sabot_fighter [primaryRoleStr]"
+  },
+  {
+   "i": 201,
+   "en": "Assault / Finisher",
+   "ctx": "data/weapons/weapon_data.csv gorgon [primaryRoleStr]"
+  },
+  {
+   "i": 202,
+   "en": "Suppression",
+   "ctx": "data/weapons/weapon_data.csv gazer [primaryRoleStr]"
+  },
+  {
+   "i": 203,
+   "en": "Pressure",
+   "ctx": "data/weapons/weapon_data.csv annihilatorpod [primaryRoleStr]"
+  },
+  {
+   "i": 204,
+   "en": "Long Range Support",
+   "ctx": "data/weapons/weapon_data.csv pilum [primaryRoleStr]"
+  },
+  {
+   "i": 205,
+   "en": "Pressure / Anti Fighter",
+   "ctx": "data/weapons/weapon_data.csv phasecl [primaryRoleStr]"
+  },
+  {
+   "i": 206,
+   "en": "Strike (Fighter)",
+   "ctx": "data/weapons/weapon_data.csv phasecl_bomber [primaryRoleStr]"
+  },
+  {
+   "i": 207,
+   "en": "Suppression (Fighter)",
+   "ctx": "data/weapons/weapon_data.csv ioncannon_fighter [primaryRoleStr]"
+  },
+  {
+   "i": 208,
+   "en": "General (Fighter)",
+   "ctx": "data/weapons/weapon_data.csv irpulse_fighter [primaryRoleStr]"
+  },
+  {
+   "i": 209,
+   "en": "Point Defense (Fighter)",
+   "ctx": "data/weapons/weapon_data.csv pdburst_fighter [primaryRoleStr]"
+  },
+  {
+   "i": 210,
+   "en": "Guided Torpedo",
+   "ctx": "data/weapons/weapon_data.csv rifttorpedo [primaryRoleStr]"
+  },
+  {
+   "i": 211,
+   "en": "Anti Shield Torpedo",
+   "ctx": "data/weapons/weapon_data.csv neutron_torpedo [primaryRoleStr]"
+  },
+  {
+   "i": 212,
+   "en": "Suppression / Point Defense",
+   "ctx": "data/weapons/weapon_data.csv inimical_emanation [primaryRoleStr]"
+  },
+  {
+   "i": 213,
+   "en": "Anti Armor (Area)",
+   "ctx": "data/weapons/weapon_data.csv heavy_adjudicator [primaryRoleStr]"
+  },
+  {
+   "i": 214,
+   "en": "Extremely Fast",
+   "ctx": "data/weapons/weapon_data.csv amsrm [speedStr]"
+  },
+  {
+   "i": 215,
+   "en": "Limited",
+   "ctx": "data/weapons/weapon_data.csv neutron_torpedo [trackingStr]"
+  },
+  {
+   "i": 216,
+   "en": "Spread Pattern",
+   "ctx": "data/weapons/weapon_data.csv disintegrator [accuracyStr]"
+  },
+  {
+   "i": 217,
+   "en": "Each shell has a fuse set to explode at a random distance, resulting in a barrage that's increasingly more deadly at closer ranges.\r\n\r\nWill target missiles if no other targets are in range.",
+   "ctx": "data/weapons/weapon_data.csv devastator [customPrimary]"
+  },
+  {
+   "i": 218,
+   "en": "Each missile deals an additional %s damage to armor. This damage is not reduced by armor.",
+   "ctx": "data/weapons/weapon_data.csv breach [customPrimary]"
+  },
+  {
+   "i": 219,
+   "en": "Submunition hits on hull or armor have a %s chance to arc to weapons and engines, dealing %s EMP damage.",
+   "ctx": "data/weapons/weapon_data.csv sabot [customPrimary]"
+  },
+  {
+   "i": 220,
+   "en": "The missile fires a high-powered laser when it gets near the target, dealing approximately %s energy damage in a short burst. This damage is affected by missile damage modifiers and not energy weapon ones.",
+   "ctx": "data/weapons/weapon_data.csv gorgon [customPrimary]"
+  },
+  {
+   "i": 221,
+   "en": "The missile fires a graviton beam at the target, dealing approximately %s kinetic damage over the course of %s seconds. This damage is affected by missile damage modifiers and not energy weapon ones.",
+   "ctx": "data/weapons/weapon_data.csv gazer [customPrimary]"
+  },
+  {
+   "i": 222,
+   "en": "Each missile fires a high-powered laser when it gets near the target, dealing approximately %s energy damage in a short burst. This damage is affected by missile damage modifiers and not energy weapon ones.",
+   "ctx": "data/weapons/weapon_data.csv gorgonpod [customPrimary]"
+  },
+  {
+   "i": 223,
+   "en": "Each missile fires a graviton beam at the target, dealing approximately %s kinetic damage over the course of %s seconds. This damage is affected by missile damage modifiers and not energy weapon ones.",
+   "ctx": "data/weapons/weapon_data.csv gazerpod [customPrimary]"
+  },
+  {
+   "i": 224,
+   "en": "Second-stage hits on shields have a chance to arc through to weapons and engines, dealing %s EMP damage. The chance to pierce the shields is based on the target's hard flux level.",
+   "ctx": "data/weapons/weapon_data.csv pilum [customPrimary]"
+  },
+  {
+   "i": 225,
+   "en": "Not affected by missile speed, acceleration, and flight time modifiers.",
+   "ctx": "data/weapons/weapon_data.csv phasecl [customPrimary]"
+  },
+  {
+   "i": 226,
+   "en": "A booster system accelerates the torpedo to its top speed before it leaves the launch tube.",
+   "ctx": "data/weapons/weapon_data.csv cyclone [customPrimary]"
+  },
+  {
+   "i": 227,
+   "en": "The missile splits into %s submunitions which try to flank the target. Each one then fires a high-powered laser dealing approximately %s energy damage in a short burst. This damage is affected by missile damage modifiers and not energy weapon ones.",
+   "ctx": "data/weapons/weapon_data.csv hydra [customPrimary]"
+  },
+  {
+   "i": 228,
+   "en": "Unguided after a brief initial aiming stage. When impacting shields, a resonator unit activates to increase the base damage by %s.",
+   "ctx": "data/weapons/weapon_data.csv squall [customPrimary]"
+  },
+  {
+   "i": 229,
+   "en": "Hits on hull or armor have a %s chance to arc to weapons and engines, dealing extra damage equal to the original hit.",
+   "ctx": "data/weapons/weapon_data.csv ioncannon [customPrimary]"
+  },
+  {
+   "i": 230,
+   "en": "Disrupts the target's shields, increasing all shield damage taken by %s for one full-power graviton beam, %s for two, and %s for three or more hitting the shields at the same time.",
+   "ctx": "data/weapons/weapon_data.csv gravitonbeam [customPrimary]"
+  },
+  {
+   "i": 231,
+   "en": "Each bolt deals an additional %s damage to armor. This damage is not reduced by armor.",
+   "ctx": "data/weapons/weapon_data.csv miningblaster [customPrimary]"
+  },
+  {
+   "i": 232,
+   "en": "Hits on hull or armor periodically arc to weapons and engines, dealing extra EMP and energy damage. Hits on shields have a chance to generate a shield-penetrating arc based on the target's hard flux level.",
+   "ctx": "data/weapons/weapon_data.csv ionbeam [customPrimary]"
+  },
+  {
+   "i": 233,
+   "en": "The targeting system is incapable of tracking fighters when on local/automatic control.",
+   "ctx": "data/weapons/weapon_data.csv plasma [customPrimary]"
+  },
+  {
+   "i": 234,
+   "en": "When all sub-beams impact a target in close proximity to each other, the spalling effect produces an explosion that deals up to 100 points of fragmentation damage to other nearby targets.",
+   "ctx": "data/weapons/weapon_data.csv guardian [customPrimary]"
+  },
+  {
+   "i": 235,
+   "en": "Hits on hull or armor frequently arc to weapons and engines, dealing extra EMP and energy damage. Hits on shields have a chance to generate a shield-penetrating arc based on the target's hard flux level.",
+   "ctx": "data/weapons/weapon_data.csv tachyonlance [customPrimary]"
+  },
+  {
+   "i": 236,
+   "en": "Fires an EMP arc at the nearest target close to the weapon's current facing. The arc always hits.",
+   "ctx": "data/weapons/weapon_data.csv shockrepeater [customPrimary]"
+  },
+  {
+   "i": 237,
+   "en": "Creates space-time rifts along the beam length, targeted at nearby enemy missiles and fighters. Each rift deals up to %s energy damage to nearby targets.",
+   "ctx": "data/weapons/weapon_data.csv riftbeam [customPrimary]"
+  },
+  {
+   "i": 238,
+   "en": "Each shot deals an additional 1000 damage to armor over 10 seconds. This damage is not reduced by armor.",
+   "ctx": "data/weapons/weapon_data.csv disintegrator [customPrimary]"
+  },
+  {
+   "i": 239,
+   "en": "Creates space-time rifts on impact. More rifts are spawned when the beam is fired at short range. Each rift deals between %s and %s energy damage to nearby targets, with successive rifts dealing more damage.",
+   "ctx": "data/weapons/weapon_data.csv riftcascade [customPrimary]"
+  },
+  {
+   "i": 240,
+   "en": "Shots may lose cohesion and dissolve. %s of the shots reach half the maximum range and %s of the shots reach full range.",
+   "ctx": "data/weapons/weapon_data.csv vpdriver [customPrimary]"
+  },
+  {
+   "i": 241,
+   "en": "Projectile fires EMP arcs at nearby enemy targets while traveling. The damage shown is for the EMP arcs, the projectile itself does not deal damage and will pass over ships. Weapon and engine repairs take %s longer for %s seconds on affected ships.",
+   "ctx": "data/weapons/weapon_data.csv realitydisruptor [customPrimary]"
+  },
+  {
+   "i": 242,
+   "en": "Requires the %s hullmod and uses %s fragments per swarm launched. Can control up to %s swarms concurrently, but will wait to launch new swarms until the existing ones are depleted.",
+   "ctx": "data/weapons/weapon_data.csv swarm_launcher [customPrimary]"
+  },
+  {
+   "i": 243,
+   "en": "Requires the %s hullmod and uses %s fragments per shot.",
+   "ctx": "data/weapons/weapon_data.csv seeker_fragment [customPrimary]"
+  },
+  {
+   "i": 244,
+   "en": "Requires the %s hullmod and uses %s fragments per shot. Secondary fragments deal %s kinetic damage per impact.",
+   "ctx": "data/weapons/weapon_data.csv kinetic_fragments [customPrimary]"
+  },
+  {
+   "i": 245,
+   "en": "Requires the %s hullmod and uses %s fragment per shot. Unguided after a brief initial aiming stage.",
+   "ctx": "data/weapons/weapon_data.csv unstable_fragment [customPrimary]"
+  },
+  {
+   "i": 246,
+   "en": "Requires the %s hullmod and at least %s fragments per shot. Deals no damage vs shields.",
+   "ctx": "data/weapons/weapon_data.csv devouring_swarm [customPrimary]"
+  },
+  {
+   "i": 247,
+   "en": "Requires the %s hullmod and at least %s active fragments. Fires a barrage of EMP arcs at nearby targets. The arcs always hit.",
+   "ctx": "data/weapons/weapon_data.csv voltaic_discharge [customPrimary]"
+  },
+  {
+   "i": 248,
+   "en": "Hits on hull or armor generate a large number of EMP arcs. Hits on shields have a chance to generate shield-penetrating EMP arcs based on the target's hard flux level.",
+   "ctx": "data/weapons/weapon_data.csv voltaic_cannon [customPrimary]"
+  },
+  {
+   "i": 249,
+   "en": "Deals %s damage to shields, despite not being a beam weapon.",
+   "ctx": "data/weapons/weapon_data.csv voidblaster [customPrimary]"
+  },
+  {
+   "i": 250,
+   "en": "When impacting hull or armor, heals one of the Shrouded Dweller projections on the battlefield for 1000 points.",
+   "ctx": "data/weapons/weapon_data.csv assaying_rift [customPrimary]"
+  }
+ ]
+}

@@ -1,0 +1,176 @@
+{
+ "chunk": 193,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "You cut the transmission and order the bridge crew to power up combat systems. Your tactical officer reports the Pather ships are accelerating to attack speed - choosing a death in battle over slowly expiring in the void.",
+   "ctx": "data/campaign/rules.csv gaProbeAttackNow [text]"
+  },
+  {
+   "i": 2,
+   "en": "Your sensors officer reports that an ejected cargo pod floating in a spray of post-battle debris contains a hulless instrument chassis that matches the specs from the Galatia Academy hyperspace research group which Coureuse was a part of.",
+   "ctx": "data/campaign/rules.csv gaProbeScavengerDefeated [text]"
+  },
+  {
+   "i": 3,
+   "en": "The comms link crackles with static, then clears to an image of the scavenger captain. \r\n\r\n\"Greetings fellow starfarer,\" $heOrShe says. \"What brings you out here? Can't say we've found much worth salvaging lately, ha-ha.\"\r\n\r\nSomething seems a little off. It doesn't feel like pirates this time. What is it?",
+   "ctx": "data/campaign/rules.csv gaProbeScavCommBefore [text]"
+  },
+  {
+   "i": 4,
+   "en": "$HeOrShe looks shocked. \"I... \" $heOrShe swallows. With a dry throat; you can tell. \"The package? I mean, what probe? Dammit.\"\r\n\r\nThe pretense drops under your withering stare. \"It's ours fair and square,\" $heOrShe stammers, \"Right of salvage. We all know how it works.\"",
+   "ctx": "data/campaign/rules.csv gaProbeConfront [text]"
+  },
+  {
+   "i": 5,
+   "en": "You explain that, as every scavenger knows, an uncrewed probe with an operational transponder is not legal salvage. And the Galatia Academy is a very well connected institution. And the Academy has been known to be rather litigious when it comes to their research equipment. \r\n\r\nGuilt is written across the captain's face. \"We just... we were going to-\"",
+   "ctx": "data/campaign/rules.csv gaProbeConfront1 [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"Yes, of course.\" $HeOrShe turns to an underling and says something that isn't quite picked up by the comms. \"It'll be in-transit in just a moment, captain.\"\r\n\r\n$HeOrShe mumbles an abashed farewell platitude and signs off just as your logistics officer reports an incoming cargo drone.",
+   "ctx": "data/campaign/rules.csv gaProbeConfront2 [text]"
+  },
+  {
+   "i": 7,
+   "en": "The comms link crackles with static, then clears to an image of the scavenger captain. \r\n\r\n\"Greetings fellow starfarer,\" $heOrShe says. \"What brings you out here? Can't say we've found much worth salvaging lately, ha-ha.\"",
+   "ctx": "data/campaign/rules.csv gaProbeScavCommAfter [text]"
+  },
+  {
+   "i": 8,
+   "en": "$HeOrShe looks shocked. \"I... \" $heOrShe swallows. With a dry throat; you can tell. \"The package? I mean, what probe? Dammit.\"\r\n\r\nThe pretense drops under your withering stare, replaced with defiance. \"It's ours fair and square. Right of salvage. We all know how it works.\"",
+   "ctx": "data/campaign/rules.csv gaProbeConfrontAfter [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"Well.\" $HeOrShe glances to one side, as if someone over there might have a better answer than the truth.",
+   "ctx": "data/campaign/rules.csv gaProbeConfrontAfter1 [text]"
+  },
+  {
+   "i": 10,
+   "en": "You explain that, as every scavenger knows, an uncrewed probe with an operational transponder is not legal salvage. And that the Galatia Academy is a very well connected institution. And that the Academy is extremely litigious when it comes to meddling with their research equipment.\r\n\r\nGuilt is written across the captain's face. $HeOrShe stammers \"We just... we were going to-\"",
+   "ctx": "data/campaign/rules.csv gaProbeConfrontAfter2 [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"Yes. Of course.\" \r\n\r\nDefeated, $heOrShe turns to an underling and says something that isn't quite picked up by the comms. \"It'll be in-transit in just a moment, captain.\"\r\n\r\n$HeOrShe mumbles an abashed fare-well platitude and signs off just as your logistics officer reports an incoming cargo drone.",
+   "ctx": "data/campaign/rules.csv gaProbeConfrontAfter3 [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"A student from an influential family requires priority transport to $gaVIP_marketName in the $gaVIP_starName system within a short timeframe.\"",
+   "ctx": "data/campaign/rules.csv gaVIPBlurb [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"The Academy provides secure and, and discreet transport to the very, very important students who attend. These are often rich or famous families you know, and there have been...\" Sebestyen looks like he's trying not to look concerned. \"Threats? Maybe. You never know. So.\" \r\n\r\nHe taps a datapad on his desk a couple times before deciding he should just plow ahead.\r\n\r\n\"This student is the $gaVIP_subjectRelation of $gaVIP_VIPName - that's the $gaVIP_VIPPost of $gaVIP_marketName, did you know? How exciting! Ah, and they require priority transport to $gaVIP_marketName in the $gaVIP_starName system for $gaVIP_event within $gaVIP_timeLimit days. We've been authorized an honorarium of... \", Sebestyen checks another datapad, \"$gaVIP_reward credits. That's pretty good for an easy trip through the Core Worlds, right?\"",
+   "ctx": "data/campaign/rules.csv gaVIPBlurbMissionTextBasic [text]"
+  },
+  {
+   "i": 14,
+   "en": "He goes a shade paler. \"Oh um. You know. Threats.\" \r\n\r\nYou wait for him to elaborate. He gives in almost instantly.\r\n\r\n\"There are a lot of very bad people out there that say all kinds of things about important people and their, er, relations. And possibly, specifically, targeting a $gaVIP_subjectRelation of said family. They're usually not serious. Usually.\"\r\n\r\n\"...So are you still interested?\"",
+   "ctx": "data/campaign/rules.csv gaVIPBlurbMissionTextBasicThreats [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"Oh.\" Sebestyen looks again at the datapad in his hands. \"Oh! My.\"\r\n\r\nThe academician seems to realize what this mission entails, suddenly. \"That's ... that Kanta, isn't it? Oh. Wow, well yes. The Academy guarantees discretion and security to every family that entrusts us with their young students, no matter who. Whom, I mean.\"\r\n\r\nSebestyen puts on a serious look into the middle distance, \"I am proud that we stand for the principles of education and knowledge, no matter where you, or anyone, comes from!\"",
+   "ctx": "data/campaign/rules.csv gaVIPBlurbMissionTextKanta [text]"
+  },
+  {
+   "i": 16,
+   "en": "He shakes his head and turns back to the datapad, \"Where was- right, so the $gaVIP_subjectRelation of $gaVIP_kantaRelationFirstName Kanta - I wonder how closely they're related to the... Uh, never mind- they're a somebody at Kanta's Den. That will be priority transport to Kanta's Den in the Magec system within $gaVIP_timeLimit days. We've authorized an honorarium of, oh that's more than usual fee! $gaVIP_reward. Good, right?\"\r\n\r\n\"Just-\" he looks over his shoulder, then says quietly, \"-be careful around those people, okay?\"",
+   "ctx": "data/campaign/rules.csv gaVIPBlurbMissionTextKanta2 [text]"
+  },
+  {
+   "i": 17,
+   "en": "They've been expecting you. Upon entering the traffic controlled volume of $gaVIP_marketName, you receive an incoming comms transmission from the offices of $gaVIP_VIPName. You arrange a dropoff point for $gaVIP_VIPhisOrHer $gaVIP_subjectRelation.\r\n\r\nBefore stepping off the transport, the young student turns back toward you and speaks.",
+   "ctx": "data/campaign/rules.csv gaVIP_checkCompletion [text]"
+  },
+  {
+   "i": 18,
+   "en": "You're unable to complete the VIP delivery right now.",
+   "ctx": "data/campaign/rules.csv gaVIP_completedButNoDocking [text]"
+  },
+  {
+   "i": 19,
+   "en": "They've been expecting you. What passes for traffic control provides you a course past a field of stealth mines to enter the volume of $gaVIP_marketName. Soon you receive an incoming comms transmission from a grim boss of the Kanta dynasty, instructing you to make a drop-off for their $gaVIP_subjectRelation.\r\n\r\nBefore stepping off the transport, the young student turns back toward you and speaks.",
+   "ctx": "data/campaign/rules.csv gaVIP_checkCompletionKanta [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"The trip home was interminable. I don't understand at all why I should be confined to quarters during a hyperspace storm alert. Still, I believe I've learned something. Like, you know, about myself? Thank you, captain.\"",
+   "ctx": "data/campaign/rules.csv GAVIPStudentComment1 [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"Travelling with you was the most terrifying experience of my life and I hope to never return to space again.\" A loud sigh. \"But I suppose I'll have to. If I do, I hope you're the captain on my next trip.\"",
+   "ctx": "data/campaign/rules.csv GAVIPStudentComment2 [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"That was amazing! Wow, I mean, that was really living, you know? I'm going to drop out of the Academy and become the captain of my own fleet...\" their eyes fill with an alarming gleam of admiration, \"Just like you.\"",
+   "ctx": "data/campaign/rules.csv GAVIPStudentComment3 [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"Space is awful, how can you stand it? And the crew,\" they glance at some off-boarding spacers with disgust. \"It's a good thing that lot has you to lead them and set a good example. Imagine if they were in charge! Ha- haha.\"",
+   "ctx": "data/campaign/rules.csv GAVIPStudentComment4 [text]"
+  },
+  {
+   "i": 24,
+   "en": "The pirate captain saunters into view as the comms line flickers to clarity.\r\n\r\n\"Captain! Are you in such a hurry?\" $heOrShe says theatrically. \"Let us talk a moment about a small matter.\" $HeOrShe leans in, and you can almost smell the acrid sweat and vacuum-burn. \"We are here to take your very special little passenger.\"\r\n\r\n$HeOrShe smiles carnivorously.\r\n\r\n\"No one will be hurt, it's a simple kidnap and ransom job. We are civilized folk, after all. It's not worth dyin' and killin' over some aristo's fancy spawn eh?\"",
+   "ctx": "data/campaign/rules.csv gaVIPPirateOpenComm [text]"
+  },
+  {
+   "i": 25,
+   "en": "The pirate captain gives you a philosophical frown when you refuse $hisOrHer terms.\r\n\r\n\"It is to be expected,\" $heOrShe says, \"We each have a role to play in this great drama.\" $HeOrShe turns away from you, \"Charge the guns and set the engines to full burn!\" $HeOrShe turns back to you with a wild grin on $hisOrHer face, \"My good captain, I shall meet you in Ludd's blackest hell!\"\r\n\r\nThe comms are cut as the pirate fleet moves to engage.",
+   "ctx": "data/campaign/rules.csv gaVIPPirateRefuse [text]"
+  },
+  {
+   "i": 26,
+   "en": "The pirate grins with merciless glee. \"Excellent, wonderful! You couldn't have made a better decision, my good captain. I am so pleased we could come to an agreement.\"\r\n\r\nAs arrangements are made to surrender the VIP passenger to the pirate fleet, you consider how best to break the bad news to the Galatia Academy. The Persean Sector is a dangerous place, you reflect, so perhaps they will be understanding.",
+   "ctx": "data/campaign/rules.csv gaVIPPirateAgree [text]"
+  },
+  {
+   "i": 27,
+   "en": "The pirate gives you a scandalized look, then lets out a hearty laugh.\r\n\r\n\"Captain! I had no idea,\" $heOrShe says, \"Your heart is so black; I am smitten, truly. Of course I agree to your terms. The sheer audacity! You would truly sell out your little sop to me?\"",
+   "ctx": "data/campaign/rules.csv gaVIPPirateDemandPayment [text]"
+  },
+  {
+   "i": 28,
+   "en": "The pirate laughs again, shaking $hisOrHer head. $HeOrShe waves an arm at an underling, \"The credits; see to it that my good friend here is paid their silver.\"\r\n\r\nThe credits come in, and you arrange for a very confused VIP passenger to be transferred via escape pod to the pirate fleet. As you refresh your credit account balance on your personal TriPad you consider the lie you'll have to use to cover for this little incident. The Academy won't be happy no matter what, so it's all down to damage control.",
+   "ctx": "data/campaign/rules.csv gaVIPPirateDemandPaymentConfirm [text]"
+  },
+  {
+   "i": 29,
+   "en": "The pirate looks betrayed and inhales, presumably to say something overwrought in response to your bold-faced turnaround, but you cut the comms before they can speak.\r\n\r\nYou order tactical to high alert. From here, it's fight or flight.",
+   "ctx": "data/campaign/rules.csv gaVIPPirateDemandPaymentNo [text]"
+  },
+  {
+   "i": 30,
+   "en": "The pirate reels at this notion as if struck by a Hellbore shell.\r\n\r\nYou use the moment to calmly explain how you are transporting one of the Warlord Kanta's own precious kin-folk, and it'd really be for the best if everything possible was done to facilitate the success of your mission.",
+   "ctx": "data/campaign/rules.csv gaVIPPirateBluff [text]"
+  },
+  {
+   "i": 31,
+   "en": "The bravado and theater evaporate like sunward frost. \r\n\r\n\"Y-yes, of course. Captain.\" $HeOrShe struggles to regain some of $hisOrHer previous composure, \"I do apologize. Profoundly. For the delay I've caused. Please,\" $heOrShe sweeps $hisOrHer arm in a broad gesture, \"Do be on your way, and give my closest and warmest regards to t-the Warlord.\"\r\n\r\nYou snap the comms link off while the pirate is still attempting an awkward half-bow.",
+   "ctx": "data/campaign/rules.csv gaVIPPirateBluff1 [text]"
+  },
+  {
+   "i": 32,
+   "en": "The mercenary captain stands unmoving before you as the comms link opens. \r\n\r\n\"Captain $playerName I presume,\" $heOrShe says. \"I have reason to believe that you are transporting an individual associated with the notorious Kanta pirate gang. I have been authorized by $gaVIP_theMercFaction to apprehend this individual for questioning. Please surrender the passenger to my custody immediately.\"",
+   "ctx": "data/campaign/rules.csv gaVIPMercOpenComm [text]"
+  },
+  {
+   "i": 33,
+   "en": "The mercenary's eyes flick off to one side and $hisOrHer jaw clenches. $HeOrShe obviously doesn't like being questioned.\r\n\r\n\"It's irrelevant. They are an associate of the Kanta pirate gang and are required for questioning. The Kantas are behind countless murders and terroristic acts, as you well know.\"",
+   "ctx": "data/campaign/rules.csv gaVIPMercOption1Sel [text]"
+  },
+  {
+   "i": 34,
+   "en": "The mercenary crosses $hisOrHer arms and you see the muscles under $hisOrHer uniform flinch unconsciously.\r\n\r\n\"By the authority invested in me by $gaVIP_theMercFaction as per the terms of the letter of marque issued to me, I am authorized to act in their interest. Why would you protect the associate of known criminals, captain?\"",
+   "ctx": "data/campaign/rules.csv gaVIPMercOption2Sel [text]"
+  }
+ ]
+}

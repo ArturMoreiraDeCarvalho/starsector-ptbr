@@ -1,0 +1,221 @@
+{
+ "chunk": 113,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "The thought disrupts his expectations, and you can see it in his sudden squint. He looks around, making sure no subcurate is watching, then leans closer.\r\n\r\n\"What like ...the Path?\" he whispers in horrified fascination, \"Do you know Brother Cotton?\"",
+   "ctx": "data/campaign/rules.csv lppHesperusInitiateReplyPather [text]"
+  },
+  {
+   "i": 2,
+   "en": "The initiate's eyes are wide; he's clearly impressed. \"Don't tell anyone, but... I mean, you have to admit what Cotton has done is cunning and brave. The... the Creator gave him gifts, and he uses them.\"",
+   "ctx": "data/campaign/rules.csv lppHesperusInitiateCottonMaybe [text]"
+  },
+  {
+   "i": 3,
+   "en": "The initiate's eyes are wide; he's clearly impressed. \"Don't tell anyone, but... I would like to meet him too. Maybe join him.\" \r\n\r\nHe glances guiltily toward the shrine-attendants. \"Maybe.\"",
+   "ctx": "data/campaign/rules.csv lppHesperusInitiateMetCottonYes [text]"
+  },
+  {
+   "i": 4,
+   "en": "The initiate's eyes are wide; he's clearly impressed. \"Don't tell anyone, but... I would like to meet him. Hear what he had to say. Maybe join up.\"",
+   "ctx": "data/campaign/rules.csv lppHesperusInitiateNotMetCottonYes [text]"
+  },
+  {
+   "i": 5,
+   "en": "The initiate's eyes are wide; he's clearly impressed. And troubled. \r\n\r\n\"But... the things he does, I mean,\" the young man visibly struggles between what he feels and what he has been told. \"Maybe he goes too far, but at least he tries, you know?\"",
+   "ctx": "data/campaign/rules.csv lppHesperusInitiateMetCottonNo [text]"
+  },
+  {
+   "i": 6,
+   "en": "The initiate nods in response, but is unsure now of your outlook.\r\n\r\n\"I mean, say what you will about Cotton,\" he glances guiltily toward the shrine attendants, \"He fights for what he believes. At least.\"",
+   "ctx": "data/campaign/rules.csv lppHesperusInitiateNotMetCottonNo [text]"
+  },
+  {
+   "i": 7,
+   "en": "A troubled look passes over his face. \"The Knights, sometimes it seems like they are more interested in making rules for the sake of rules instead of fighting evil.\"\r\n\r\nWith a sigh, the initiate returns his gaze toward the radioactive martyrs.",
+   "ctx": "data/campaign/rules.csv lppHesperusInitiateCottonOut [text]"
+  },
+  {
+   "i": 8,
+   "en": "He nods brusquely, then returns his gaze to the lead coffins. \"I'm supposed to contemplate their sacrifice. Horrible way to die, like that. You're a,\" he glances at your garb again, \"spacer, right? Ever seen that happen to anyone?\" ",
+   "ctx": "data/campaign/rules.csv lppHesperusInitiateContinue1 [text]"
+  },
+  {
+   "i": 9,
+   "en": "He stares at you for a moment, then slowly returns his gaze to the radioactive martyrs.",
+   "ctx": "data/campaign/rules.csv lppHesperusInitiateContinue2a [text]"
+  },
+  {
+   "i": 10,
+   "en": "He nods, satisfied with the belief that it is he who will shield people like you from such horrors, then returns his gaze to the radioactive martyrs.",
+   "ctx": "data/campaign/rules.csv lppHesperusInitiateContinue2b [text]"
+  },
+  {
+   "i": 11,
+   "en": "Subdued chanting, warped by the strange geometry of this cultic industrial space, blends with the air-cyclers. The candles burn clean and bright, gleaming off the multitude of bladed facets adorning every surface of the shrine's interior, a monument to sacral bloodshed.",
+   "ctx": "data/campaign/rules.csv lppHesperusShrineWrapUp [text]"
+  },
+  {
+   "i": 12,
+   "en": "At your request, the attending subcurate leads you through a brief ceremonial hand-washing, then down the gallery floored by welded armored plates. Niches along the walls are occupied by empty helmets.",
+   "ctx": "data/campaign/rules.csv lppHesperusShrineDoVisitAgain [text]"
+  },
+  {
+   "i": 13,
+   "en": "The shrine is a grand tomb set in an enormous airshaft. The industrial viscera has been transformed into a baroque sculpture of thousands of edged weapons aligned like feathers of a wing, rays of gleaming serrated metal boldly thrust in killing arcs through the vast space.\r\n\r\nIn the middle, surrounded by a galaxy of flickering candles, lie the lead-lined caskets of a squad of martyred Knights. The manner of their deaths, the subcurate explains in reverent whispers, left their bodies unidentifiable and infused with radioactive material which would kill a direct observer even to this day.",
+   "ctx": "data/campaign/rules.csv lppHesperusShrineDoVisitAgain2 [text]"
+  },
+  {
+   "i": 14,
+   "en": "Subdued chanting, warped by the strange geometry of this cultic industrial space, blends with the air-cyclers. The candles burn clean and bright, gleaming off the multitude of bladed facets adorning every surface of the shrine's interior, a monument to sacral bloodshed.\r\n\r\nYou are left in a prayer-niche to contemplate the horror.",
+   "ctx": "data/campaign/rules.csv lppHesperusShrineDoVisitAgain3 [text]"
+  },
+  {
+   "i": 15,
+   "en": "The Archcurate stops what she's doing, holds her hands together, and looks roughly toward the comm-feed.\r\n\r\n\"Yes?\"",
+   "ctx": "data/campaign/rules.csv lkeJaspisInfoHub [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"I did,\" she says. \"25,000 credits upon your pledge, 50,000 credits upon the novice's return to me.\"",
+   "ctx": "data/campaign/rules.csv lkeJaspisInfoAsk1reply [text]"
+  },
+  {
+   "i": 17,
+   "en": "This gives the Archcurate pause. \r\n\r\n\"I pray that you will find him, and I have faith that Providence will provide your path. If you are thwarted, then I shall accept the records of your investigation in exchange for just compensation.\"\r\n\r\n\"And... if the worst came to pass, I would have his body receive a proper burial among the Knights.\" The old woman deflates a little, you can see, at the thought.",
+   "ctx": "data/campaign/rules.csv lkeJaspisInfoAsk2reply [text]"
+  },
+  {
+   "i": 18,
+   "en": "She considers her words as she sips something - tea, you suppose.\r\n\r\n\"He went amongst the wrathful and ill-led heretics of the so-called Luddic Path. If my understanding of your accomplishments is correct, then you have a full and fair idea of what you may face.\"\r\n\r\n\"Battle. In the void and upon the earth, entered through iniquitous trickery.\" She nods to herself, \"That is how they fight. I would not ask you to walk amongst them if I did not think you were capable of matching their wickedness.\"",
+   "ctx": "data/campaign/rules.csv lkeJaspisInfoAsk3reply [text]"
+  },
+  {
+   "i": 19,
+   "en": "She closes her eyes and bows her head, hands held together. You would swear she is saying a quiet prayer.\r\n\r\nHer blind eyes open, and she looks at you across the comm-link.\r\n\r\n\"His name is Jethro Bornanew,\" she says.",
+   "ctx": "data/campaign/rules.csv lkeJaspisStart [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"He is a late-initiated Novice of the Luddic Knights. My assistant will provide you with an identity file.\"\r\n\r\n\"Novice Bornanew has infiltrated a cell of heretical militants affiliated with the so-called Luddic Path. I have not heard from him in some time.\"\r\n\r\n\"It's been far too long,\" she adds quietly.",
+   "ctx": "data/campaign/rules.csv lkeJaspisStart2 [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"Chalcedon, in the Kumari Kandam system. He was to join some inner circle of the Path; he was to meet with a leader, or some manner of recruiter. Nothing have I heard since.\"\r\n\r\nFor a moment the Archcurate looks upward, and her lips move soundlessly, before she returns to face you.",
+   "ctx": "data/campaign/rules.csv lkeJaspisStart3 [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"If heretics must die to secure his release,\" she says, \"then do what must be done. Their blood will be washed away by that of the innocent, the seas and rivers that these 'Pathers' have spilled in the course of their heretical crusade. God will be your judge.\"",
+   "ctx": "data/campaign/rules.csv lkeJaspisStart4 [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"You will be paid, of course. My office shall provide you an advance of 25,000 credits, with an additional 50,000 credits upon... resolution.\"",
+   "ctx": "data/campaign/rules.csv lkeJaspisStart4credits [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"Mm,\" she thinks for a moment before proceeding. \"He was to pose as a man broken and lost, looking for a cause to illuminate his path. This would require little play-acting on Jethro's part.\" \r\n\r\n\"He would join a particular branch of the Luddic Path and prove himself by his aptitude and charm to make association with centermost leaders. He would send information to us, receive orders in return, and perform certain acts to influence the heretics' decisions.\"",
+   "ctx": "data/campaign/rules.csv lkeJaspisStartHisMission [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"Yes,\" the Archcurate says. \"He is a good man, and so driven, who would take on this heavy burden to ease suffering and combat wrathful heresy.\"",
+   "ctx": "data/campaign/rules.csv lkeJaspisStartHisMission1 [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"No,\" the Archcurate says without hesitation. \"He is a good man, and so driven.\"",
+   "ctx": "data/campaign/rules.csv lkeJaspisStartHisMission2 [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"I mustn't and I shan't,\" she says fiercely. \"And that will be the end of it.\"",
+   "ctx": "data/campaign/rules.csv lkeJaspisStartHisMission3 [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"That he may,\" she says softly.",
+   "ctx": "data/campaign/rules.csv lkeJaspisStartHisMission4 [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"His is a gentle soul, though rough-treated. He was in the House of Penitents when his case was brought before me, some years ago.\" The Archcurate turns slightly, as if taking in a vision from memory. \"Prison, you would call it.\"\r\n\r\n\"It is my duty, more than simply charity, to review petitions of absolution as my schedule permits. I found in Jethro a bright mind, contrite and eager to learn anew. His crimes were not so great, and his part due more to his desire to please his associates than some inborn malice. I made his repentance my cause for a time, and by its end, he took on a new name, and he asked... how could he serve.\"\r\n",
+   "ctx": "data/campaign/rules.csv lkeJaspisStartBornanew [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"There was need for someone of his... experience. I sent him to train with the Knights, whereupon he became an initiate, and upon achieving the rank of novice he was assigned back to my Office of Archcuratorship to earn his knighthood through the service I required of him.\"\r\n\r\n\"I confess,\" she says quietly, \"I fear that I have again spent the life of a good man. It is my pride-,\" Jaspis gives a bitter little laugh. \"Perhaps it truly blinds me.\"",
+   "ctx": "data/campaign/rules.csv lkeJaspisStartBornanew2 [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"No. But the specter of his death weighs upon me as if it were already so.\"\r\n\r\nShe sighs. \"I am old, captain, and perhaps I have borne this office too long. Let us speak of finding Bornanew, not of my guilt.\"",
+   "ctx": "data/campaign/rules.csv lkeJaspisStartBornanew3 [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"Yes.\" She sighs, \"I am old, captain, and perhaps I have borne this office too long. Let us speak of Bornanew now, not of my guilt.\"",
+   "ctx": "data/campaign/rules.csv lkeJaspisStartBornanew4 [text]"
+  },
+  {
+   "i": 33,
+   "en": "Her expression tightens, multiplying the wrinkles on her face. \"This I cannot deny.\"\r\n\r\n\"These heretics have vexed me for more years than you've lived; they have read Ludd's words through a glass, darkly, and they have seen a fearful vision. A dear and now departed fellow-walker said that it is a vision I have too-long contemplated.\"\r\n\r\nShe raises her hands, palms upward, \"God shall weigh my soul,\" one hand drops. \"I shall accept that judgment.\"",
+   "ctx": "data/campaign/rules.csv lkeJaspisStartBlood1 [text]"
+  },
+  {
+   "i": 34,
+   "en": "You would swear that she gives you a hard look with her blind eyes.\r\n\r\n\"I cannot answer wholly yes or no,\" she says. \"At one point, it might have been. Now I am not so sure.\"",
+   "ctx": "data/campaign/rules.csv lkeJaspisStartCotton [text]"
+  },
+  {
+   "i": 35,
+   "en": "\"If that devil appears,\" she says, \"then give him his due.\"",
+   "ctx": "data/campaign/rules.csv lkeJaspisStartCottonB2 [text]"
+  },
+  {
+   "i": 36,
+   "en": "\"I pray that you do. May a friendly star light your Path.\"\r\n\r\nArchcurate Jaspis signs off, and a shy novice opens the line to transfer your advance payment. They say a quiet \"Blessed be your day,\" before closing the link.",
+   "ctx": "data/campaign/rules.csv lkeJaspisStartEnd1 [text]"
+  },
+  {
+   "i": 37,
+   "en": "The comms flicker and stabilize, displaying the $personPost before you.",
+   "ctx": "data/campaign/rules.csv lkeChalcedonPWgreetRaid [text]"
+  },
+  {
+   "i": 38,
+   "en": "The comms fuzz and flickers before finally stabilizing into the $personPost before you.",
+   "ctx": "data/campaign/rules.csv lkeChalcedonQMgreetRaid [text]"
+  },
+  {
+   "i": 39,
+   "en": "The comms connection snaps into sync unusually quickly, displaying the $personPost before you.",
+   "ctx": "data/campaign/rules.csv lkeChalcedonAdminGreet [text]"
+  },
+  {
+   "i": 40,
+   "en": "The comm-link flickers, but fails to connect. It seems like you're being ignored, for now.",
+   "ctx": "data/campaign/rules.csv lkeChalcedonPWignore [text]"
+  },
+  {
+   "i": 41,
+   "en": "\"Blessed...\" $heOrShe goes silent, mouth open, and blinks. \"$PlayerName.\"\r\n\r\n\"You dare show your face here after attacking the Faithful on Jangala? You, you who have the blood of innocents on your hands!\"\r\nOR\r\n$HeOrShe puts $hisOrHer hands together. \"Providence provides,\" and trails off as $heOrShe looks up at you.\r\n\r\n\"Captain $PlayerName,\" $hisOrHer mouth twists, like it speaks a curse. \"You. The brute of Jangala. You who crush the Faithful who ask only to pray in a holy place. Your presence is an offense.\"",
+   "ctx": "data/campaign/rules.csv lkeChalcedonGreetJangalaCrush [text]"
+  },
+  {
+   "i": 42,
+   "en": "\"Blessed...\" $heOrShe goes silent, mouth open, and blinks. \"$PlayerName.\"\r\n\r\n\"You dare show your face here after raiding Epiphany? You, you who have the blood of innocents on your hands? I have prayed long for your destruction.\"\r\nOR\r\n$HeOrShe puts $hisOrHer hands together. \"Providence provides,\" and trails off as $heOrShe looks up at you.\r\n\r\n\"Captain $PlayerName,\" $hisOrHer mouth twists, like it speaks a curse. \"The brutish invader, desecrator of Epiphany! You who assault the Faithful and steal away those who gave their heart to Ludd at the behest of that blood-soaked pirate queen. Your face is an offense to my eyes.\"",
+   "ctx": "data/campaign/rules.csv lkeChalcedonGreetLokeRaid [text]"
+  },
+  {
+   "i": 43,
+   "en": "\"Captain,\" the voice of your comms officer quietly speaks in your ear, \"They've sent some kind of signal out. Nearby Pather fleets will be alerted to our position.\"\r\n\r\nYou acknowledge the report and turn your attention back to the seething Pather on the comms link.",
+   "ctx": "data/campaign/rules.csv lkeChalcedonGreetAlert [text]"
+  }
+ ]
+}

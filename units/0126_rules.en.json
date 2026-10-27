@@ -1,0 +1,266 @@
+{
+ "chunk": 126,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "Menes, still grinning and rattling on about his plans, sends you credentials to allow the docking of a shuttle at his private complex on the surface of Olinadu.",
+   "ctx": "data/campaign/rules.csv BFFImeetMenesEnd [text]"
+  },
+  {
+   "i": 2,
+   "en": "You close the comms, then summon Bornanew to a briefing room to discuss the next phase of the plan.",
+   "ctx": "data/campaign/rules.csv BFFImeetMenesBornanew [text]"
+  },
+  {
+   "i": 3,
+   "en": "Bornanew's head is lowered as he enters, carrying his paper notebook as well as an off-brand datapad.\r\n\r\nThe notebook slaps onto the table a little harder than would be considered strictly polite.",
+   "ctx": "data/campaign/rules.csv BFFImeetMenesBornanew1b [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"-I'd hardly describe myself as a 'hardened' criminal, and although technically a Knight of Ludd, I'm merely a novice - and one in poor standing at that.\"",
+   "ctx": "data/campaign/rules.csv BFFImeetMenesBornanew2a [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"I think it is uncharitable to the point of slander to describe the people of Mazalot as 'terrorists' so easily. And although it was a remote farming community, I was hardly hermit, to say nothing of-\" He stops mid-rebuttal and looks up.",
+   "ctx": "data/campaign/rules.csv BFFImeetMenesBornanew2b [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"Although technically a Knight of Ludd, I'm merely a novice - and one in poor standing at that. As for this 'epic quest' you describe, it's more of-\" He stops speaking and looks up at you.",
+   "ctx": "data/campaign/rules.csv BFFImeetMenesBornanew2c [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Yes,\" he sighs. \"A barefaced ruse, I understand.\"",
+   "ctx": "data/campaign/rules.csv BFFImeetMenesBornanew4a [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"Yes,\" he sighs. \"I shall hold that thought as dearest comfort.\"",
+   "ctx": "data/campaign/rules.csv BFFImeetMenesBornanew4b [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"Nevertheless, that went well. Very well.\"",
+   "ctx": "data/campaign/rules.csv BFFImeetMenesBornanew5 [text]"
+  },
+  {
+   "i": 10,
+   "en": "Bornanew nods, putting his hand back on his book as if drawing knowledge from it.\r\nOR\r\n\"Of course, captain,\" Bornanew says.\r\nOR\r\nBornanew looks down at his notebook and turns a page, then turns it back. \"Of course, yes.\"",
+   "ctx": "data/campaign/rules.csv BFFImeetMenesOptInviteHtalkBack [text]"
+  },
+  {
+   "i": 11,
+   "en": "Bornanew looks at you for a long moment.\r\n\r\n\"Do you think Horus Yaribay will help?\"",
+   "ctx": "data/campaign/rules.csv BFFImeetMenesBornOptInviteHsel [text]"
+  },
+  {
+   "i": 12,
+   "en": "He nods as you lay out your reasoning. The Hegemony wants a stable Luddic population. Horus wants a stable Hegemony in order to negotiate a peaceful settlement.\r\n\r\n\"If Horus intervenes to defuse the situation before a greater conflict is fomented... Horus the peace-maker...\" Bornanew drums his fingers on his notebook.\r\n\r\n\"Which is exactly what he wants to be, if what you say is true. This could be over quickly. And quietly.\" He closes his eyes and holds his hands together as if saying a quiet prayer.",
+   "ctx": "data/campaign/rules.csv BFFImeetMenesOptInviteHtalk1 [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"If you can persuade Horus to intervene in the situation before it gets out of hand-\" Bornanew sighs loudly, catching himself. \"Forgive my choice of word; jocularity is not my intent.\"\r\n\r\nHe begins again, \"If Horus sees it in his interest to force Menes to surrender the glove - and its source - then all might be resolved peaceably.\"",
+   "ctx": "data/campaign/rules.csv BFFImmBornInviteHorusAgain [text]"
+  },
+  {
+   "i": 14,
+   "en": "You can tell he doesn't like the idea.\r\n\r\n\"That seems... it would be a blunt approach,\" he says. \"And risky.\"",
+   "ctx": "data/campaign/rules.csv BFFImmBornOptStealFirst [text]"
+  },
+  {
+   "i": 15,
+   "en": "He looks at you, and you see that he knows he has no argument for you.\r\n\r\nBornanew sighs. \"Nonetheless, theft is a sin. And I did swear a sacred oath that I would never steal again.\"",
+   "ctx": "data/campaign/rules.csv BFFImeetMenesBornOptSteal2a [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"Yes, I- That's not-\"\r\n\r\nHe exhales sharply. \"Not only is theft a sin. I did also swear a sacred oath that I would never steal again.\"",
+   "ctx": "data/campaign/rules.csv BFFImeetMenesBornOptSteal2b [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"But I, I-\" he stutters to a halt. \"I suppose, in the strictest sense this is... captain, I do not like it. Is there no alternative?\"",
+   "ctx": "data/campaign/rules.csv BFFImeetMenesBornOptSteal3 [text]"
+  },
+  {
+   "i": 18,
+   "en": "Bornanew nods, still looking displeased.",
+   "ctx": "data/campaign/rules.csv BFFImeetMenesBornOptSteal4a [text]"
+  },
+  {
+   "i": 19,
+   "en": "Bornanew gives you a distraught look.",
+   "ctx": "data/campaign/rules.csv BFFImeetMenesBornOptSteal4b [text]"
+  },
+  {
+   "i": 20,
+   "en": "Bornanew gives you a distraught look.\r\n\r\n\"I pray that is merely a joke in poor taste.\"",
+   "ctx": "data/campaign/rules.csv BFFImeetMenesBornOptSteal4c [text]"
+  },
+  {
+   "i": 21,
+   "en": "Bornanew nods, still looking a bit as though he's eaten something foul.",
+   "ctx": "data/campaign/rules.csv BFFImeetMenesBornOptSteal4d [text]"
+  },
+  {
+   "i": 22,
+   "en": "Your tactical officer has already spearheaded an effort to discreetly collect what public information is available on Menes Yaribay's compound. Sensors has arranged passive scans to correlate with on-record plans of the structure. Comms found a PR puff-piece holo in which Menes gives a personal tour of part of his 'collection'.  \r\n\r\nAll you really need to do is get yourself invited into the inner sanctum.",
+   "ctx": "data/campaign/rules.csv BFFImmStealOptEnd [text]"
+  },
+  {
+   "i": 23,
+   "en": "A holo of the complex spins in ghostly form in the shared visual workspace.\r\n\r\nYour tools are multitude. All you really need to do is get yourself invited into the inner sanctum.",
+   "ctx": "data/campaign/rules.csv BFFImmBornOptStealAgain [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"A snoop?\" Bornanew asks, \"Is this some sort of hack? Would that even be possible? One presumes that the administrator of a Persean League polity can afford the best computer security.\"",
+   "ctx": "data/campaign/rules.csv BFFImeetMenesBornanewOptDsel [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"Well. Menes likes you,\" he says. \"He likes people who are rich and exciting, and important. He wants you to like him. He wants to be associated with people who are like what he imagines you are.\"\r\n\r\n\"Offering to buy his 'relic'... he would like that, I think.\"",
+   "ctx": "data/campaign/rules.csv BFFImmBornBuyerOptSel [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"To what end? We want Menes to reveal from whom he acquired the duplicate.\" He taps his notebook, thinking. Then looks back at you.\r\n\r\n\"What if you were a buyer.\"",
+   "ctx": "data/campaign/rules.csv BFFImmBornBuyerOptBSel [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"Menes likes you,\" he says. \"He likes people who are rich and exciting. He wants you to like him. I suspect he could be persuaded to reveal his source. Or, if not, we could discover it if we had possession of the false relic...\"",
+   "ctx": "data/campaign/rules.csv BFFImmBornBuyerOpt2 [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"It could be,\" he says. \"And before you ask, the Church will not approve additional funding. The Reverend Archcurate herself has spent her covert budget too freely on my case already.\"",
+   "ctx": "data/campaign/rules.csv BFFImmBornBuyerOpt3 [text]"
+  },
+  {
+   "i": 29,
+   "en": "Bornanew looks up. \"Do you think he would assist us in this matter?\"",
+   "ctx": "data/campaign/rules.csv BFFImmBornArroyo [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"I see,\" he says. \"Perhaps we should consider a different option.\"",
+   "ctx": "data/campaign/rules.csv BFFImmBornArroyoA [text]"
+  },
+  {
+   "i": 31,
+   "en": "You can see the inner conflict on Bornanew's face.\r\n\r\nHe knows he is asking far, far too much. But he wants to. If he had the credits, he would give them to the cause of the Church without a second thought. But he is a Knight of Ludd, sworn to poverty but for the allowance granted to him by his order - or by the indulgence of the Reverend Archcurate Jaspis.\r\n\r\nHe sees that you see all of this. And, knowing that words can only do harm, he makes the barest movement toward a shrug. A way of saying, you know who I am; what I am; what I need ask. Your choice is yours.",
+   "ctx": "data/campaign/rules.csv BFFImmBornBuyerChurch [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"That is a problem,\" Bornanew admits.\r\n\r\n\"I don't believe Menes will take an offer seriously unless you demonstrate that you possess immense wealth. A half million credits, at least. To be safe.\" He taps his book, \"Though if you could talk him into accepting payment in the form of installments, you'd only have to pay a fraction of the full price to take possession of the glove...\"",
+   "ctx": "data/campaign/rules.csv BFFImmBornBuyerPoor [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"Yes,\" Bornanew admits.\r\n\r\n\"I don't believe Menes will take an offer seriously unless you can demonstrate that you possess immense wealth. A half million credits, at least. To be safe.\" He taps his book, \"Though if you could talk him into accepting payment in the form of installments, you might only have to pay a fraction of the full price to take possession...\"",
+   "ctx": "data/campaign/rules.csv BFFImmBornBuyerDestroy [text]"
+  },
+  {
+   "i": 34,
+   "en": "\"That's true,\" Bornanew says. \"You might be able to talk Menes into accepting payment in the form of smaller installments. Then if we can resolve the entire matter of the glove quickly, perhaps you would only have to pay the initial deposit...\"",
+   "ctx": "data/campaign/rules.csv BFFImmBornBuyerColony [text]"
+  },
+  {
+   "i": 35,
+   "en": "\"An excellent point,\" Bornanew says, looking hopeful.\r\n\r\n\"This gives you exceptional credibility with Menes -- after all, you're a fellow demarch! I would wonder if you couldn't defer payment entirely, or convince him to accept a small percentage as a deposit to be paid later. And then if we resolve the matter of the glove quickly...\"",
+   "ctx": "data/campaign/rules.csv BFFImmBornBuyerLeague [text]"
+  },
+  {
+   "i": 36,
+   "en": "\"I'm, uh...\" Bornanew turns red.\r\n\r\n\"I... in the due course of investigation... if - no, not if - when we prove that the glove is a fake we demonstrate that the deal was made on invalid terms. But we need the glove first for physical evidence. It's... yes, it does involve a conscious deception... please don't look at me like that, captain,\" he says, almost indignant.\r\n\r\n\"It doesn't involve any killing, at least. I do pray it won't come to that.\"",
+   "ctx": "data/campaign/rules.csv BFFImmBornBuyerCheat [text]"
+  },
+  {
+   "i": 37,
+   "en": "He sighs. \"I beg you spare me praise in this particular instance.\"",
+   "ctx": "data/campaign/rules.csv BFFImmBornBuyerCheatA [text]"
+  },
+  {
+   "i": 38,
+   "en": "He presses his hands together and nods.",
+   "ctx": "data/campaign/rules.csv BFFImmBornBuyerCheatB [text]"
+  },
+  {
+   "i": 39,
+   "en": "He presses his hands together, though gives you a brief, suspicious look.",
+   "ctx": "data/campaign/rules.csv BFFImmBornBuyerCheatC [text]"
+  },
+  {
+   "i": 40,
+   "en": "\"If you have the credits,\" Bornanew says, \"Or if you can leverage existing assets and status, perhaps you can simply buy the glove from Menes.\"",
+   "ctx": "data/campaign/rules.csv BFFImmBornBuyerOptSelAgain [text]"
+  },
+  {
+   "i": 41,
+   "en": "\"Captain, I must remind you that an interfactional incident must be avoided.\" He says this more evenly than you might have expected.\r\n\r\nBornanew looks down at this notebook, then up, \"And I myself pray,\" he says in a low and quiet voice, \"that I might avoid the shedding of innocent blood in this, this which is meant to be part of my act of penance.\"",
+   "ctx": "data/campaign/rules.csv BFFImmBornRaidOptSel [text]"
+  },
+  {
+   "i": 42,
+   "en": "\"Ah,\" Bornanew meets your eyes knowingly. \"I see where the arc of your rhetoric leads, and I cannot deny its endpoint. A Knight of Ludd does employ violence.\"\r\n\r\n\"'To protect the faith, to protect the faithful...'\" He is quoting something - his oath?",
+   "ctx": "data/campaign/rules.csv BFFImmBornOptRaid2 [text]"
+  },
+  {
+   "i": 43,
+   "en": "\"Yes, well. The sword is a symbol, an image, captain. Imagine waving a sword around in this age.\" He shakes his head.",
+   "ctx": "data/campaign/rules.csv BFFImmBornOptRaid3 [text]"
+  },
+  {
+   "i": 44,
+   "en": "You think to yourself that this isn't the time to bring up your experience at the Rao compound on Eventide.",
+   "ctx": "data/campaign/rules.csv BFFImmBornOptRaid4a [text]"
+  },
+  {
+   "i": 45,
+   "en": "\"Nonetheless, if you insist, then I shall be forced to concede,\" Bornanew says.\r\n\r\n\"If we... if you can execute a raid; if you can do it without implicating the Church; if seizing this fake relic quickly and quietly will lead us to its maker and thereafter to a swift conclusion of the whole matter... then maybe the Church can avoid schism and disaster.\"\r\n\r\n\"If, and only if, it is necessary,\" he concludes.",
+   "ctx": "data/campaign/rules.csv BFFImmBornOptRaid4d [text]"
+  },
+  {
+   "i": 46,
+   "en": "Bornanew frowns.\r\n\r\n\"If this raid can be executed without implicating the Church, and if seizing this false relic quickly and quietly will lead us to its maker and a swift conclusion to the whole matter... then it may be a worthwhile path.\"",
+   "ctx": "data/campaign/rules.csv BFFImmBornOptRaidAgain [text]"
+  },
+  {
+   "i": 47,
+   "en": "\"To Kazeron.\" He smiles easily as he pockets his notebook, then says \"I've never been.\"",
+   "ctx": "data/campaign/rules.csv BFFImmBornDoInviteHorus [text]"
+  },
+  {
+   "i": 48,
+   "en": "Sometimes acquiring something is as simple as taking it.\r\n\r\nBoth you and Bornanew - who is unenthusiastic, but professional throughout - are outfitted with an inconspicuous set of tools: a sheet-diamond rated cutter, EM glitcher, lockbreakers.\r\n\r\nBornanew sets aside some of the bulkier accoutrement with a shake of his head.",
+   "ctx": "data/campaign/rules.csv BFFImmBornDoSteal [text]"
+  },
+  {
+   "i": 49,
+   "en": "Your tech officer installs a schematic of Menes' complex and a suite of scramblers on your datapad, a remote interfacer is hidden inside a fashionable stylus.\r\n\r\nYou perform the operation of various gadgets with your armorer, and review the choreography of the heist with your tactical officer. It is not a perfect plan, but with a combination of initiative, redundancy, and exceptional access...\r\n\r\nBornanew is standing very still, his fist against his jaw.",
+   "ctx": "data/campaign/rules.csv BFFImmBornDoSteal2 [text]"
+  },
+  {
+   "i": 50,
+   "en": "\"It won't work,\" he says.\r\n\r\n\"With all due respect, your tactician is no thief. And neither are you. It must be me.\"",
+   "ctx": "data/campaign/rules.csv BFFImmBornDoSteal3 [text]"
+  },
+  {
+   "i": 51,
+   "en": "\"I am. I did,\" he says. \"But more necessary than my conscience is our success. I shall bear my burden.\"",
+   "ctx": "data/campaign/rules.csv BFFImmBornDoSteal4 [text]"
+  },
+  {
+   "i": 52,
+   "en": "\"Why should Menes leave you alone with the relic, or at all?\" He looks over at you. \r\n\r\n\"I am a Knight of Ludd, devoted and taciturn. I shall simply... display the power of my faith.\"",
+   "ctx": "data/campaign/rules.csv BFFImmBornDoSteal5 [text]"
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "chunk": 60,
+ "cat": "desc",
+ "items": [
+  {
+   "i": 1,
+   "en": "A huge piece of applique armor to be mounted on the right flank of the Onslaught Mk.I, allowing the ship to wade through impossibly heavy to fire focus on its primary target. The modular design was originally intended to minimize shipyard downtime.",
+   "ctx": "data/strings/descriptions.csv module_onslaught_armor_right/SHIP [text1]"
+  },
+  {
+   "i": 2,
+   "en": "A huge, long-range flak cannon. The Heavy Adjudicator must be built into the hull of the Onslaught Mk.I due to the extreme bulk of the ammunition feed and recoil systems. Fills space with an astounding storm of shrapnel at great range - any fighter, missile, or armor-stripped ship is doomed if it finds itself within this zone of death.\r\n\r\nThe question remains, what purpose was such a dedicated weapon designed for before the rise of mobile forge-compatible strike fighter doctrine?",
+   "ctx": "data/strings/descriptions.csv heavy_adjudicator/WEAPON [text1]"
+  },
+  {
+   "i": 3,
+   "en": "A venerable design, the Onslaught-class battleships were first created to serve the Domain Armada long ago, before the development of advanced strike weapons, modern energy weapons, and shield systems. \r\n\r\nWhen first launched from orbital dock, their firepower and burst-speed surely intimidated entire systems. Some even say that they were built to combat non-humans in a long forgotten war. Much later, Orion Shipyards engineers made modifications to the blueprints to include a shield system, upgraded the hyperdrive, and reduced the required crew complement through automation and iterative engineering. Even though more advanced blueprints are available, the Onslaught remains the easiest to manufacture due to the brutal simplicity of its systems. \r\n\r\nA ship designed without shields in mind, built to be able to withstand a heavy barrage of enemy fire and strike back while protecting its crew is much loved by its officers and crew. And strike back it can; the Onslaught's unmatched ballistic potential can devastate entire fleets in minutes, its only drawback a logistical dependency on ammunition. \r\n\r\nOnslaught crews are proud to serve in the class which forms the backbone of the Hegemony Navy.",
+   "ctx": "data/strings/descriptions.csv onslaught/SHIP [text1]"
+  },
+  {
+   "i": 4,
+   "en": "A technologically advanced capital ship, the Astral-class carrier projects vast firepower through its numerous squadrons of strike craft.\r\n\r\nThe Astral-class hull is thought to have been the epitome of carrier design during the late Domain in the cycles just prior to the Collapse. The hull is filled with integrated automation, sub-AI cores, and maintenance drones using advanced military algorithms to multiply combat efficiency. Defensive armament typically consists of point defense turrets backed by long-range missiles intended to maintain pressure on hostiles in order to avoid a close-in fight.\r\n\r\nThe true power of an Astral lies in the unprecedented flexibility of its fighter complement. Nearly any enemy ship can quickly be dispatched by the coordinated launch of a wing of nimble interceptors, strike bombers, or support fighters. Automated facilities ensure that returning squadrons are quickly repaired, rearmed, and replaced behind the safety of the enormous X-35 shield emitter array. Per doctrine, the Astral carrier is never deployed alone because its light armor is vulnerable if the X-35 is forced down. The Astral, accompanied by a swarm of escorts, is best placed as the heart of a carrier task force which can subjugate entire planets and blockade enormous volumes of space.\r\n\r\nAmong the most technologically advanced capital ships operated in the contemporary Persean Sector, few Astrals serve in the Hegemony Navy due to the high technological requirements - and security concerns. Senior Corporate Officers of Tri-Tachyon and a few rare, extraordinarily wealthy private admirals sometimes make the Astral their flagship.",
+   "ctx": "data/strings/descriptions.csv astral/SHIP [text1]"
+  },
+  {
+   "i": 5,
+   "en": "The Atlas-class ships are large space-borne cargo platforms with an FTL drive and a few defensive systems. Hundreds of containers can be latched on to the hull and carried with ease by this behemoth. \r\n\r\nTypically used to efficiently resupply entire outposts, the Atlas is ill suited to the small and fast trade runs that are the mainstay of commerce in the sector. Their slow speed and large size always tempt uninvited guests, ranging from curious gawkers come to see the hulking colossus, to scavenging pirates aiming to disable a container's magneto-gravitic fastener, to Pather fanatics bent on destroying it all. Nonetheless, the Hegemony makes wide use of them, especially to offload biomass from farming worlds on a seasonal basis. For this purpose, the Hegemony assembles large Atlas convoys; these are protected by military cruisers that ensure that the lifeline of Hegemony citizens is kept safe.\r\n\r\nThe captaincy of an Atlas is a rare punishment for the able, an uneven mixture of soul-numbing boredom and abject terror, being the results of normal trade runs and pirate attacks, respectively.",
+   "ctx": "data/strings/descriptions.csv atlas/SHIP [text1]"
+  },
+  {
+   "i": 6,
+   "en": "The Conquest-class battlecruiser is the embodiment of concentrated firepower. Developed in the period just preceding the popularization of fighter craft, the class emphasizes firepower and speed over armor protection.\r\n\r\nSpace Naval tacticians of the day were confident that new weapons systems would always outperform armor and shields and thus were the key to winning an engagement. So why not build a ship for speed and power? Give it the armor protection of a cruiser, but arm it with the best weapons available to any ship, and have it remain faster than any of those lumbering behemoths of the line. The Conquest is a good example of these concepts put into a hull. Many other advanced technologies were incorporated into the design, including weapon mounts designed for a circling engagement. This maneuver requires greater navigational skill while serving to provide more tactical options to the commanding officers. \r\n\r\nFortune favors the bold, the ancients said. This class of ships does indeed favor the bold captain, willing to risk everything for the thrill of victory.",
+   "ctx": "data/strings/descriptions.csv conquest/SHIP [text1]"
+  },
+  {
+   "i": 7,
+   "en": "The pinnacle of the Domain's battleship designs, though perhaps less the result of military necessity and more of the ambitions of certain senior strategic staff of the Domain Navy - with considerable backing from the Tri-Tachyon corporation, among other major contractors.\r\n\r\nNo ship can outlast or outgun the Paragon-class, a true Leviathan of a bygone epoch.",
+   "ctx": "data/strings/descriptions.csv paragon/SHIP [text1]"
+  },
+  {
+   "i": 8,
+   "en": "The asymmetric, spheroid design belies the power of this battlecruiser. The base hull presents a loadout which favors heavy energy weapons and mobility-focus. A two-wing hangar capacity complements tactical options.\r\n\r\nThe Odyssey was considered a boondoggle of a design by the Domain Naval Procurement Committee with numerous objections raised: no single tactical focus, the officer boardrooms are too large, the energy grid uses only premium components, and the fittings are too expensive. Despite several rounds of eye-watering budget overruns and rumblings of a bribery scandal, the production contract was only denied before final prototype trials. Never keen to pass up a profitable opportunity, Altair Exotech licensed the Odyssey class to several frontier development corporations, including Eridani-Utopia, to provide admirably armed mobile survey headquarters and operation platforms. It is for this role in the megacorporate exploitation of the frontiers that the otherwise rare Odyssey-class found its way to the Persean Sector.",
+   "ctx": "data/strings/descriptions.csv odyssey/SHIP [text1]"
+  },
+  {
+   "i": 9,
+   "en": "Ponderous and menacing, the Dominator-class is one of the most widespread system defense cruisers in Hegemony space. \r\n\r\nWhile not the most technologically advanced hull, it relies on a plethora of ballistic hardpoints to accomplish its mission, which is more often than not defending orbital installations and vital points of intra-system trade routes. A poor shield emitter which is difficult to manage and thus, rarely engaged, gives way to an almost impregnable interlocking armor belt system making the Dominator safe from most weapons. Even strike craft cannot overcome the hail of projectiles that can be launched to intercept their payloads. This hull proves that tried and true military engineering is difficult to overcome by new ideas and technologies, especially when in the hands of tough, determined crews and experienced officers.\r\n\r\nDependable, durable, and a constant presence in home space around civilized worlds and outposts, the Dominator is perhaps most hated and feared by pirates and law-breaking corporate agents. ",
+   "ctx": "data/strings/descriptions.csv dominator/SHIP [text1]"
+  },
+  {
+   "i": 10,
+   "en": "The Aurora-class cruiser is a technological marvel, uncommon among contemporary warfleets. Among the fastest and most maneuverable cruisers in the Sector, it is also one of the safest provided its unusually efficient shield generator is sensibly employed while avoiding flanking attacks.\r\n\r\nOne can only wonder what the Domain Armada could accomplish with a fleet of these sleek, asymmetric, and eminently effective vessels. The shields are backed up by hyper-advanced flux dissipation systems installed throughout the hull, giving the Aurora a deep flux pool.\r\n\r\nMost blueprints required to manufacture Aurora-class ships are closely guarded corporate secrets, but a few have also seen service in Tri-Tachyon fleets and, rarely, may be found in the fleets of enterprising mercenary captains.",
+   "ctx": "data/strings/descriptions.csv aurora/SHIP [text1]"
+  },
+  {
+   "i": 11,
+   "en": "The Apogee-class vessel is an effective mix of advanced scientific and military technologies, perfect for long-range exploration of hostile space. \r\n\r\nThe class features an asymmetric design with a large forward section, usually outfitted with long-range tech scanners. Apogee captains are used to operating alone and tend to be an independent, self-reliant lot. \r\n\r\nThe ship can hold its own in one-on-one engagements by smart use of its powerful shield emitter and strong engines. However, its armor rating makes it seem somewhat fragile on paper, and thus it is rarely part of big fleet actions.\r\n\r\nThe high construction costs typically mean that only affluent tech mining consortiums can afford an Apogee-class vessel that is fully outfitted for an aggressive exploratory role.",
+   "ctx": "data/strings/descriptions.csv apogee/SHIP [text1]"
+  },
+  {
+   "i": 12,
+   "en": "Tough, dependable and not overly expensive, Venture-class cruisers are usually purchased by private corporations for escort duty or refitted by small non-aligned worlds for system defense.\r\n\r\nThe Venture-class ships are perhaps the most widely used civilian cruisers in the Sector. The blueprints for the Venture are widely available and can often be secured with little trouble. \r\n\r\nWhen used by small corporations, the ship is usually the pride of the fleet and is used to underpin vital operations. Due to its ubiquity, the vessel also serves with quite a few pirate outfits, where it sometimes fills the role of command ship.",
+   "ctx": "data/strings/descriptions.csv venture/SHIP [text1]"
+  },
+  {
+   "i": 13,
+   "en": "Eagle-class cruisers are often found at the core of military fleets headed for battle. It is not hard to see why: A strong overall profile, with a robust engine, the Eagle's deadly weapons package is a threat to all enemies.\r\n\r\nThe Eagle can deliver a strong tactical punch to enemy formations. Its numerous turret and hardpoint emplacements make it very dangerous to smaller foes. Decent armor and a strong shield emitter let it hold space while outnumbered, or even when faced with the rare larger ship. \r\n\r\nThese strengths are somewhat countered by strike craft - an Eagle captain must always watch their scopes for an approaching strike squadron, since their ship will be easily crippled by multiple hits from modern strike weapons. \r\n\r\nThe embodiment of the sleek and powerful space cruiser from the time of the Domain, the Eagle-class ships are a beautiful reminder of the technological and aesthetic achievements of humanity's past. ",
+   "ctx": "data/strings/descriptions.csv eagle/SHIP [text1]"
+  },
+  {
+   "i": 14,
+   "en": "Often called the Eagle cruiser's little brother, the Falcon-class cruiser sacrifices armor for speed, neatly filling the light cruiser role in military fleets throughout the Sector. \r\n\r\nThe \"light\" designation does not indicate a significant reduction in firepower, however, making the Falcon a valuable tactical asset to any fleet. The ship is easily able to fill a wide variety of roles, from close support to assault, given the proper configuration. \r\n\r\nThe Falcon's top notch engines give it the ability to quickly disengage from battle should its defenses be pressed to a critical point.\r\n\r\nSwift and elegant, Falcon-class cruisers are often found as lead elements in larger fleet formations, or deployed to reinforce anti-pirate convoys.",
+   "ctx": "data/strings/descriptions.csv falcon/SHIP [text1]"
+  }
+ ]
+}

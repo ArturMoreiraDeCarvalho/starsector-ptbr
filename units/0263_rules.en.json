@@ -1,0 +1,126 @@
+{
+ "chunk": 263,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "Your salvors fan out through the station, discovering makeshift barricades around the access tubes to the executive and security modules. There's interior combat damage caused by handheld weapons, many of which appear to have been adapted from mining tools. A strike turned deadly.\r\n\r\nThe security forces employed riot-suppression armaments at first, then rapidly escalated to their cache of \"vac-safe\" weapons intended for boarding and infantry action within ship hulls or station modules. \r\n\r\nThe miners appear to have responded by up-armoring standard haz suits, adding breastplates worked from mining drones' blast panels, slotted visors cut from rolls of nuke-rated anti-spall sheeting, and much other imaginative makeshift panoply.",
+   "ctx": "data/campaign/rules.csv salSMDSstart [text]"
+  },
+  {
+   "i": 2,
+   "en": "With the tides turning against them once more, security forces fought a break-out action toward central life support.\r\n\r\nSuccessful, they choked off atmo and water to those modules held by the strikers. This won the fight, if the heavily armored but nonetheless desiccated corpses floating through the corridors have anything to say about it, but the war was still lost.\r\n\r\nThe station appears to have been abandoned as-is, too much of a scandal to reactivate or, perhaps, merely a write-off.",
+   "ctx": "data/campaign/rules.csv salSMDSstory1 [text]"
+  },
+  {
+   "i": 3,
+   "en": "Your salvors discover that comms and anti-collision weapon emplacements have been deliberately destroyed by careful strikes.\r\n\r\nCloser examination shows evidence that a pirate ship docked - the brutal hull markings and garish paint job of the gutted hulk are a giveaway - but was completely disabled in the cargo bay by some kind of makeshift explosive adapted from on-hand mining equipment.\r\n\r\nTheir plundering mothership destroyed, the remaining pirates - operating a handful of light frigates and a wing of fighters - appear to have taken out their anger by strafing the station's hab modules and life support before going on their way.\r\n\r\nThe few miners who survived the immediate attack were doomed to a slow death.",
+   "ctx": "data/campaign/rules.csv salSMPAstart [text]"
+  },
+  {
+   "i": 4,
+   "en": "Your salvors proceed with a routine ingress, by-the-book under the suspicious eyes of your ops chief.\r\n\r\nAn atmo sample of a trapped pocket - a tedious checklist task - pull up bright orange and green on the shared display: extreme biohazard. The salvor working the derelict almost drops the sampler-drill in surprise; Ops barks sharp orders, reiterating the hazardous environment recovery ingress checklist with effortless recall.",
+   "ctx": "data/campaign/rules.csv salSRBWstart [text]"
+  },
+  {
+   "i": 5,
+   "en": "It's an unusual reading, but not dangerous if containment procedures are followed to the letter.",
+   "ctx": "data/campaign/rules.csv salSRBWstartA [text]"
+  },
+  {
+   "i": 6,
+   "en": "It's an unusual reading, and you recall the harsh words Ops gave you after returning to your $shipOrFleet after you exposed yourself to the xenolife of Jangala, albeit wearing a mask.\r\n\r\nYou also remember...",
+   "ctx": "data/campaign/rules.csv salSRBWstartB [text]"
+  },
+  {
+   "i": 7,
+   "en": "It's an unusual reading, and you'll never forget the dressing-down Ops gave you after returning to your $shipOrFleet after you exposed yourself to the xenolife of Jangala without even the benefit of a mask.\r\n\r\nYou also remember...",
+   "ctx": "data/campaign/rules.csv salSRBWstartC [text]"
+  },
+  {
+   "i": 8,
+   "en": "Your ops chief also remembers, it seems, for they meet your eye just briefly as they give orders for the savlor teams to adjust dispositions in response to this discovery.",
+   "ctx": "data/campaign/rules.csv salSRBWopsRespA [text]"
+  },
+  {
+   "i": 9,
+   "en": "Your ops chief also remembers, it seems, for they meet your eye just briefly as they give orders for the savlor teams to adjust dispositions in response to this discovery. As you recall, Ops didn't even smile. They never joke about procedure.\r\n\r\nNever.",
+   "ctx": "data/campaign/rules.csv salSRBWopsRespC [text]"
+  },
+  {
+   "i": 10,
+   "en": "One particular module of this research station appears to have been a bioweapons laboratory. The lab is - rather, was - hermetically sealed, and contains the ruins of state-of-the-art containment and decontamination facilities.\r\n\r\nNaturally, something went terribly wrong. \r\n\r\nAnd as your techies analyze telemetry and what raw surveillance buffers the salvors on-station are able to transmit back to your $shipOrFleet, the disaster begins to look distinctly unnatural.",
+   "ctx": "data/campaign/rules.csv salSRBWstory1 [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"Sabotage,\" your ops chief mutters darkly.\r\n\r\nThe patchy surveillance shows a rapid spread of violent, painful demise beginning in atmospheric processing and spreading outward at the speed of fresh air through atmo conduits, tripping the broad-spectrum biohazard sensors one by one as the agent suffused through the station. But no alarm sounded for human ears.\r\n\r\nYour salvage chief orders all remaining pockets of atmo purged, and strict quarantine procedures followed.\r\n\r\nThe bioweapons lab's computer core destroyed itself with a small bomb when a timed dead man's switch was not reset, so nothing of salable value remains, if indeed a buyer could be found for whatever biochemical horror was conjured here.",
+   "ctx": "data/campaign/rules.csv salSRBWstory2 [text]"
+  },
+  {
+   "i": 12,
+   "en": "Salvor teams cut through fused locks and infiltrate the station. They find researchers, administrators, technicians down to the lowliest access-tunnel scrubber at their work-stations, or near enough. Quite dead, however. And even those who remained in pockets of viable atmo are surprisingly undecayed.\r\n\r\nTheir end was not pleasant, but it appears to have at least been very, very quick.\r\n\r\nYour salvors and tech teams assemble evidence to reconstruct the event: a massive radiation pulse centered on Experiment Module B, which, judging from the gap between the ruins of Modules A and C, was almost entirely vaporized by the event.",
+   "ctx": "data/campaign/rules.csv salSRRSstart [text]"
+  },
+  {
+   "i": 13,
+   "en": "Your tech officer shakes their head, showing characteristic frustration at having their curiosity unfulfilled.\r\n\r\nNo relevant monitoring and computer system from Module B survived, and the general practice of this station appears to have involved heavy siloing of information even up to the level of the executive command section, so it's impossible to say what exactly the research being pursued involved or, indeed, whether the event was an accident or something more sinister.\r\n\r\nWhatever it was, at least it happened a long time ago.",
+   "ctx": "data/campaign/rules.csv salSRRSstory1 [text]"
+  },
+  {
+   "i": 14,
+   "en": "Although superficially intact, salvor teams soon find evidence of light weapons fire and the resulting carnage, thankfully long desiccated, decayed, and/or frozen depending on the run-down time of life support in any particular sector. \r\n\r\nThe seemingly random spread and directionlessness of the violence suggests that the security systems of this station turned on its occupants all at once. The catastrophic results were not helped by the unusually strong internal security measures: hidden autoturrets set to kill, powered lockdown curtains which indiscriminately scissored obstructions, and nests of mobile suppression drones which could traverse small conduits and air ducts to find and \"neutralize\" any survivors.\r\n\r\nThankfully, the last of these measures has long run out of power.",
+   "ctx": "data/campaign/rules.csv salSRSFstart [text]"
+  },
+  {
+   "i": 15,
+   "en": "Despite the station's reactor being run down, and the power network itself highly degraded, your salvors are understandably paranoid. Your Ops Chief is more than satisfied to use their fear to emphasize the necessity of strict and systematic recovery protocols in this - and indeed every - recovery operation.\r\n\r\nTry as they might to piece something together from station logs, it remains unclear to your tech team what precisely used the chief administrator's executive access codes to turn the security systems inward. ",
+   "ctx": "data/campaign/rules.csv salSRSFstory1 [text]"
+  },
+  {
+   "i": 16,
+   "en": "A precise decapitation strike appears to have targeted the command and control module of this station, likely a clutch of military-grade torpedoes unleashed at close range by an unsuspected vessel.\r\n\r\nSecurity systems were tight and highly hierarchical; once the central C&C went down, automatic lockdown procedures trapped the occupants of the station in their sections - habitation, labs, research, recreation, life support, cargo handling, storage, engineering, cooling, and so on.\r\n\r\nNow each is a locked tomb preserving evidence of the final hours, sometimes days, of the occupants.",
+   "ctx": "data/campaign/rules.csv salSRDSstart [text]"
+  },
+  {
+   "i": 17,
+   "en": "Your salvor teams do not tarry to ponder the fate of these unfortunate souls, each miserable in its own way, as they cut through the lockdown doors to assess valuables.",
+   "ctx": "data/campaign/rules.csv salSRDSstory1 [text]"
+  },
+  {
+   "i": 18,
+   "en": "Upon entry, your salvors discover first one, then many of the same portrait adorning the interior sections of the hab. Smashed busts line the primary reception concourse. Above all stood a statue of the selfsame likeness churned out of a simple rock-foam fabricator, polished, and gilded; it now lies face-planted into the deckplates, the gilding half-stripped.\r\n\r\nAll bear the face of a strong-jawed man who looks down upon the empty halls and dead plazas of the hab, his gaze fatherly; stern, and proud. And in all cases defaced: the nose smashed off, crude words painted or, more often, burnt across his image.\r\n\r\nEven his name, whatever it was, has been erased from every databank by a spitefully determined noise-wipe virus.",
+   "ctx": "data/campaign/rules.csv salOHOZstart [text]"
+  },
+  {
+   "i": 19,
+   "en": "Exploring further, the salvor teams discover the remains of a palace dominating an entire section of the hab.\r\n\r\nOnce a vast construction, now just two blackened support legs remain amidst the rubble of its shattered visage. Parklands, now reduced to lone and level ash, follow the curve of the habitat's shell.\r\n\r\nWhoever the man was, he was first exalted and then hated in equal measure.",
+   "ctx": "data/campaign/rules.csv salOHOZstory1 [text]"
+  },
+  {
+   "i": 20,
+   "en": "A close approach by salvor teams shows a heat source, and glint of artificial light. An anomalous pocket of operational life-support, the emergency subsection backup of a backup somehow running for tens, hundreds of cycles? It is unlikely.\r\n\r\nYour officers always perform the standard transponder pings at the start of a salvage operation; it is part of the ritual of legal salvage (though records of legality are fabricated easily enough, when required, and doing a good job of it is a sign of respect appreciated by customs officers across the Persean Sector).\r\n\r\nIt would be awkward to stumble into some hermit's cell, ideologue's oubliette, or pirate holdfast unannounced, so your comms officer takes charge of a new signalling attempt with a full range of communication protocols, from an overpowered standard holo-link to mere radio, laser staccato, and even an esoteric grav-pulse relay.",
+   "ctx": "data/campaign/rules.csv salOHOGstart [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"No, $playerSirOrMadam,\" Comms replies. \"Nothing. With your permission, I've got an idea...\"\r\n\r\nAn acoustic inducer-transponder, normally used in mining surveys, is tenderly attached to the hab's structure by a discreet remote probe. It thuds out a code, and detects only a tiny, noisy, rhythmic vibration in return. Something tapping on the hullplate with slow, clock-like regularity.\r\n\r\nIt doesn't change.",
+   "ctx": "data/campaign/rules.csv salOHOGstory1 [text]"
+  },
+  {
+   "i": 22,
+   "en": "Your Ops chief oversees a careful breach of the habitat, wary both for traps and the need to not disrupt the surviving bubble of life-support. Survivors make salvage rights more complex, but they're generally thankful enough for rescue to come to a profitable accommodation.\r\n\r\nSalvors attach temporary bubble-locks around the entry points, inflate them with the ubiquitous portable atmo units, and perform a cold-cut on sealed emergency doors. Slow and safe. Ops nods, satisfied with the work proceeding on the shared display.",
+   "ctx": "data/campaign/rules.csv salOHOGstory2 [text]"
+  },
+  {
+   "i": 23,
+   "en": "A spot of green-yellow brightness at the end of a foggy corridor; the image stabilizer kicks in, cancelling the jerky hop-step of the lead salvor's micro-g movement.\r\n\r\nA tiny garden grows wild within this celestial tomb. Some kind of fissile backup battery has survived, clicking away the decay of heavy elements to heat and light a tiny bubble of life. Moisture condenses in a murky lens of slush on a hubward window, then falls slowly in huge drops through the micro-g of the habitat's spin, past the glowplates, toward the mosses and molds and tiny flowers growing on the warm heaps of droppings and husks of vermin.\r\n\r\nOn a life-giving terran world, this would be nothing more than a dank pit. Here, it is a miracle.",
+   "ctx": "data/campaign/rules.csv salOHOGstory3 [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"$PlayerSirOrMadam.\" Your ops chief acknowledges your command and begins ordering the dance of surveying, inventorying, extraction, and transport.",
+   "ctx": "data/campaign/rules.csv salOHOGstory3secular [text]"
+  }
+ ]
+}

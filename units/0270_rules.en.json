@@ -1,0 +1,1256 @@
+{
+ "chunk": 270,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "Pretend to join the novice in prayer\r",
+   "ctx": "lppHookWalkAlready"
+  },
+  {
+   "i": 2,
+   "en": "Join the novice in prayer\r",
+   "ctx": "lppHookWalkAlready"
+  },
+  {
+   "i": 3,
+   "en": "Politely pretend to join the novice in prayer\r",
+   "ctx": "lppHookWalkAlready"
+  },
+  {
+   "i": 4,
+   "en": "Take this opportunity to sneak away",
+   "ctx": "lppHookWalkAlready"
+  },
+  {
+   "i": 5,
+   "en": "Just walk away\r",
+   "ctx": "lppHookLearn"
+  },
+  {
+   "i": 6,
+   "en": "Just walk away",
+   "ctx": "lppHookYesAnd"
+  },
+  {
+   "i": 7,
+   "en": "\"I'm not a pilgrim, I just wanted to see the shrine.\"",
+   "ctx": "lppHookCurateResponse0"
+  },
+  {
+   "i": 8,
+   "en": "\"Thank you. It's very nice.\"",
+   "ctx": "lppHookCurateResponse1"
+  },
+  {
+   "i": 9,
+   "en": "\"What do you mean 'called'?\"",
+   "ctx": "lppHookCurateResponse2"
+  },
+  {
+   "i": 10,
+   "en": "\"Blessings be, curate.\"",
+   "ctx": "lppHookCurateResponse4"
+  },
+  {
+   "i": 11,
+   "en": "\"I bet you use that line with everyone.\"",
+   "ctx": "lppHookCurateResponse5"
+  },
+  {
+   "i": 12,
+   "en": "\"It's good to finally talk to an adult.\"",
+   "ctx": "lppHookCurateResponse6"
+  },
+  {
+   "i": 13,
+   "en": "\"Tell me about this place.\"",
+   "ctx": "lppHookCurateResponseB1"
+  },
+  {
+   "i": 14,
+   "en": "\"I am just visiting.\"",
+   "ctx": "lppHookCurateResponseB5"
+  },
+  {
+   "i": 15,
+   "en": "\"I would like to consider myself a pilgrim.\" ",
+   "ctx": "lppHookCurateResponseB2"
+  },
+  {
+   "i": 16,
+   "en": "\"How do you know I'm not a pilgrim?\"",
+   "ctx": "lppHookCurateResponseB3"
+  },
+  {
+   "i": 17,
+   "en": "\"Thank you; my interest is purely secular.\"",
+   "ctx": "lppHookCurateResponseB4"
+  },
+  {
+   "i": 18,
+   "en": "\"How many shrines are there?\"\r",
+   "ctx": "lppHookCurateInfoDump"
+  },
+  {
+   "i": 19,
+   "en": "\"One could make a few credits transporting pilgrims between shrines...\"\r",
+   "ctx": "lppHookCurateInfoDump"
+  },
+  {
+   "i": 20,
+   "en": "\"It could be charitable to transport pilgrims between shrines...\"\r",
+   "ctx": "lppHookCurateInfoDump"
+  },
+  {
+   "i": 21,
+   "en": "\"I would like to visit the shrines.\"\r",
+   "ctx": "lppHookCurateInfoDump"
+  },
+  {
+   "i": 22,
+   "en": "\"Fascinating. Well, I'll be off.\"",
+   "ctx": "lppHookCurateInfoDump"
+  },
+  {
+   "i": 23,
+   "en": "\"I would make a pilgrimage to each of the shrines.\"\r",
+   "ctx": "lppHookCurateHowManyA"
+  },
+  {
+   "i": 24,
+   "en": "Show $himOrHer how to do it",
+   "ctx": "lppHookCurateFascinating"
+  },
+  {
+   "i": 25,
+   "en": "\"By the way, do you know one Brother Livewell Cotton?\"\r",
+   "ctx": "lppHookCurateUpload2"
+  },
+  {
+   "i": 26,
+   "en": "Say your good-byes and leave\r",
+   "ctx": "lppHookCurateUpload2"
+  },
+  {
+   "i": 27,
+   "en": "\"I'm sure this will be interesting, curate.\"\r",
+   "ctx": "lppHookCurateUpload2"
+  },
+  {
+   "i": 28,
+   "en": "\"No, thank you. Now I have a journey to begin.\"\r",
+   "ctx": "lppHookCurateUpload2"
+  },
+  {
+   "i": 29,
+   "en": "\"Now I know where to avoid. Good-day.\"\r",
+   "ctx": "lppHookCurateUpload2"
+  },
+  {
+   "i": 30,
+   "en": "\"Not Moloch nor Mammon shall lead me astray.\"",
+   "ctx": "lppHookCurateUpload2"
+  },
+  {
+   "i": 31,
+   "en": "\"I'm looking for him.\"\r",
+   "ctx": "lppHookCurateCottonAsk"
+  },
+  {
+   "i": 32,
+   "en": "\"I wish to join him.\"\r",
+   "ctx": "lppHookCurateCottonAsk"
+  },
+  {
+   "i": 33,
+   "en": "\"I am going to kill him.\"\r",
+   "ctx": "lppHookCurateCottonAsk"
+  },
+  {
+   "i": 34,
+   "en": "\"I'd rather not say.\"",
+   "ctx": "lppHookCurateCottonAsk"
+  },
+  {
+   "i": 35,
+   "en": "\"I would talk to him.\"\r",
+   "ctx": "lppHookCurateCottonLooking"
+  },
+  {
+   "i": 36,
+   "en": "Say your good-byes and leave",
+   "ctx": "lppHookCurateCottonWontSay"
+  },
+  {
+   "i": 37,
+   "en": "\"Why not?\"\r",
+   "ctx": "lppHookCurateCottonKill"
+  },
+  {
+   "i": 38,
+   "en": "\"By broadside or sidearm, I can ensure finality.\"\r",
+   "ctx": "lppHookCurateCottonKill"
+  },
+  {
+   "i": 39,
+   "en": "Visit the shrine\r",
+   "ctx": "lppBeholderShrineMainOptions"
+  },
+  {
+   "i": 40,
+   "en": "Make an offering\r",
+   "ctx": "lppBeholderShrineMainOptions"
+  },
+  {
+   "i": 41,
+   "en": "Return to your $shipOrFleet",
+   "ctx": "lppBeholderShrineMainOptions"
+  },
+  {
+   "i": 42,
+   "en": "Give 10 supplies\r",
+   "ctx": "lppBeholderShrineOfferingEnough"
+  },
+  {
+   "i": 43,
+   "en": "Add Faithful playerAttitude",
+   "ctx": "lppGileadMissionEndDevA"
+  },
+  {
+   "i": 44,
+   "en": "Add Agnostic playerAttitude",
+   "ctx": "lppGileadMissionEndDevB"
+  },
+  {
+   "i": 45,
+   "en": "Add Atheistic playerAttitude",
+   "ctx": "lppGileadMissionEndDevC"
+  },
+  {
+   "i": 46,
+   "en": "Add Cynical playerAttitude",
+   "ctx": "lppGileadMissionEndDevD"
+  },
+  {
+   "i": 47,
+   "en": "Add Pather playerAttitude",
+   "ctx": "lppGileadMissionEndDevE"
+  },
+  {
+   "i": 48,
+   "en": "Player put Cotton's holy book on shrine to true",
+   "ctx": "lppGileadMissionEndDevF"
+  },
+  {
+   "i": 49,
+   "en": "Set player metBaird true",
+   "ctx": "lppGileadMissionEndDevG"
+  },
+  {
+   "i": 50,
+   "en": "Join the pilgrims visiting the Luddic shrine",
+   "ctx": "lppGileadShrineVisitOption"
+  },
+  {
+   "i": 51,
+   "en": "Shuttle down to complete the pilgrimage",
+   "ctx": "lppGileadPilgrimageEndOption"
+  },
+  {
+   "i": 52,
+   "en": "Follow the route\r",
+   "ctx": "lppGileadShrineJaspisRetryA"
+  },
+  {
+   "i": 53,
+   "en": "Return to your $shipOrFleet instead",
+   "ctx": "lppGileadShrineJaspisRetryA"
+  },
+  {
+   "i": 54,
+   "en": "Walk with the Knight\r",
+   "ctx": "lppEnding1"
+  },
+  {
+   "i": 55,
+   "en": "\"Am I allowed to decline?\"\r",
+   "ctx": "lppEnding1"
+  },
+  {
+   "i": 56,
+   "en": "\"I decline the invitation.\"",
+   "ctx": "lppEnding1"
+  },
+  {
+   "i": 57,
+   "en": "\"Jaspis is insistent, isn't she.\"\r",
+   "ctx": "lppEnding1redux"
+  },
+  {
+   "i": 58,
+   "en": "Visit the shrine",
+   "ctx": "lppGileadShrineStartHubResponse1"
+  },
+  {
+   "i": 59,
+   "en": "Ask about the shrine",
+   "ctx": "lppGileadShrineStartHubResponse2"
+  },
+  {
+   "i": 60,
+   "en": "Walk the path",
+   "ctx": "lppGileadShrineVisit1"
+  },
+  {
+   "i": 61,
+   "en": "Approach the shrine",
+   "ctx": "lppGileadShrineVisit2"
+  },
+  {
+   "i": 62,
+   "en": "Offer Brother Cotton's copy of the Book of Ludd\r",
+   "ctx": "lppGileadShrineVisit3bookCheck1"
+  },
+  {
+   "i": 63,
+   "en": "Continue\r",
+   "ctx": "lppGileadShrineStartHubTextA0"
+  },
+  {
+   "i": 64,
+   "en": "\"How do you know of this?\"",
+   "ctx": "lppGileadShrineStartHubTextA0"
+  },
+  {
+   "i": 65,
+   "en": "\"You think hard times will come?\"",
+   "ctx": "lppGileadPilgrimageEndHowKnow"
+  },
+  {
+   "i": 66,
+   "en": "Leave the shrine",
+   "ctx": "lppGileadShrineLeave0"
+  },
+  {
+   "i": 67,
+   "en": "\"I've changed my mind. Lead on.\"\r",
+   "ctx": "lppEnding1KnightDecline"
+  },
+  {
+   "i": 68,
+   "en": "Return to your shuttle",
+   "ctx": "lppEnding1KnightDecline"
+  },
+  {
+   "i": 69,
+   "en": "Say nothing\r",
+   "ctx": "lppEnding2"
+  },
+  {
+   "i": 70,
+   "en": "\"Does every successful pilgrim get to meet the Archcurate?\"\r",
+   "ctx": "lppEnding2"
+  },
+  {
+   "i": 71,
+   "en": "\"Why am I receiving this treatment?\"",
+   "ctx": "lppEnding2"
+  },
+  {
+   "i": 72,
+   "en": "Sit and have some tea\r",
+   "ctx": "lppEnding4"
+  },
+  {
+   "i": 73,
+   "en": "\"I do not want tea.\"",
+   "ctx": "lppEnding4"
+  },
+  {
+   "i": 74,
+   "en": "\"Water will do.\"\r",
+   "ctx": "lppEnding4b"
+  },
+  {
+   "i": 75,
+   "en": "\"You wanted to see me. I'm here. Let's get to the point.\"",
+   "ctx": "lppEnding4b"
+  },
+  {
+   "i": 76,
+   "en": "\"... Tea it is.\"\r",
+   "ctx": "lppEnding4c"
+  },
+  {
+   "i": 77,
+   "en": "\"I don't believe an Archcurate should speak like that.\"\r",
+   "ctx": "lppEnding4c"
+  },
+  {
+   "i": 78,
+   "en": "\"It is my policy not to owe anyone anything.\"",
+   "ctx": "lppEnding4c"
+  },
+  {
+   "i": 79,
+   "en": "\"Why did you invite me here?\" ",
+   "ctx": "lppEnding5blindOpt1"
+  },
+  {
+   "i": 80,
+   "en": "\"You're blind.\"",
+   "ctx": "lppEnding5blindOpt2"
+  },
+  {
+   "i": 81,
+   "en": "Drink some water",
+   "ctx": "lppEnding5blindOpt3"
+  },
+  {
+   "i": 82,
+   "en": "Let the tea steep",
+   "ctx": "lppEnding5blindOpt4"
+  },
+  {
+   "i": 83,
+   "en": "\"So you want me to be your 'hammer'?\"",
+   "ctx": "lppEndingJaspisHub1"
+  },
+  {
+   "i": 84,
+   "en": "\"I mean what do you want? What is your goal?\"",
+   "ctx": "lppEndingJaspisHub1b"
+  },
+  {
+   "i": 85,
+   "en": "\"Don't you have the Knights of Ludd for this?\"",
+   "ctx": "lppEndingJaspisHub2"
+  },
+  {
+   "i": 86,
+   "en": "\"You remind me of Provost Baird.\"",
+   "ctx": "lppEndingJaspisHub3"
+  },
+  {
+   "i": 87,
+   "en": "\"I'm not sure you appreciate how hard the Hammer must fall.\"",
+   "ctx": "lppEndingJaspisHub6"
+  },
+  {
+   "i": 88,
+   "en": "\"I would be blessed to be of service to the Church.\"",
+   "ctx": "lppEndingJaspisHub5"
+  },
+  {
+   "i": 89,
+   "en": "\"A job offer. I should have known\"",
+   "ctx": "lppEndingJaspisHub7"
+  },
+  {
+   "i": 90,
+   "en": "\"Your message for Brother Cotton is a leaf?\"",
+   "ctx": "lppEndingJaspisHub9"
+  },
+  {
+   "i": 91,
+   "en": "\"He is important to you.\"",
+   "ctx": "lppJaspisWrapUp2b"
+  },
+  {
+   "i": 92,
+   "en": "\"I'll think about it.\"\r",
+   "ctx": "lppJaspisWrapUp3"
+  },
+  {
+   "i": 93,
+   "en": "\"I have already decided.\"\r",
+   "ctx": "lppJaspisWrapUp3"
+  },
+  {
+   "i": 94,
+   "en": "\"Do not expect me to run errands for the Church.\"",
+   "ctx": "lppJaspisWrapUp3"
+  },
+  {
+   "i": 95,
+   "en": "Take a shuttle to visit the Luddic shrine",
+   "ctx": "lppVolturnShrineOption"
+  },
+  {
+   "i": 96,
+   "en": "\"I would like to visit the shrine.\"",
+   "ctx": "lppVolturnOfficialResponseVisit"
+  },
+  {
+   "i": 97,
+   "en": "\"I must visit the shrine. I'm quite devout.\"",
+   "ctx": "lppVolturnOfficialResponseDevout"
+  },
+  {
+   "i": 98,
+   "en": "\"Perhaps a donation to local security forces will help?\"",
+   "ctx": "lppVolturnOfficialResponseBribe"
+  },
+  {
+   "i": 99,
+   "en": "Explain that you are commissioned by the Sindrian Diktat",
+   "ctx": "lppVolturnOfficialResponseCommission"
+  },
+  {
+   "i": 100,
+   "en": "Explain that you are on a secret mission from the Supreme Executor (lie)",
+   "ctx": "lppVolturnOfficialResponseLie"
+  },
+  {
+   "i": 101,
+   "en": "\"That's heavy-handed oppression.\"\r",
+   "ctx": "lppVolturnOfficialDevout1"
+  },
+  {
+   "i": 102,
+   "en": "\"If only these people would respect law and order.\"\r",
+   "ctx": "lppVolturnOfficialDevout1"
+  },
+  {
+   "i": 103,
+   "en": "\"So it's collective punishment.\"\r",
+   "ctx": "lppVolturnOfficialDevout1"
+  },
+  {
+   "i": 104,
+   "en": "\"Yes, that makes sense.\"",
+   "ctx": "lppVolturnOfficialDevout1"
+  },
+  {
+   "i": 105,
+   "en": "\"That would be a terrible error.\"",
+   "ctx": "lppVolturnOfficialLie1"
+  },
+  {
+   "i": 106,
+   "en": "Loosen your sidearm",
+   "ctx": "lppVolturnOfficialLie1b"
+  },
+  {
+   "i": 107,
+   "en": "\"From the top. The very top. Essential mission. Need-to-know.\"",
+   "ctx": "lppVolturnOfficialLie1c"
+  },
+  {
+   "i": 108,
+   "en": "\"Would 1,000 credits be enough?\"\r",
+   "ctx": "lppVolturnOfficialBribe2"
+  },
+  {
+   "i": 109,
+   "en": "\"Heartbroken, I'm sure. I'll be leaving now.\"",
+   "ctx": "lppVolturnOfficialBribe2"
+  },
+  {
+   "i": 110,
+   "en": "\"5k, Done.\"\r",
+   "ctx": "lppVolturnOfficialBribe2offer1k"
+  },
+  {
+   "i": 111,
+   "en": "\"I can do 2,000, no more.\"\r",
+   "ctx": "lppVolturnOfficialBribe2offer1k"
+  },
+  {
+   "i": 112,
+   "en": "\"What are you feeding those kids, Volturnian lobster?\"",
+   "ctx": "lppVolturnOfficialBribe2offer1k"
+  },
+  {
+   "i": 113,
+   "en": "Confirm the bribe",
+   "ctx": "lppVolturnOfficialBribe2offer5k"
+  },
+  {
+   "i": 114,
+   "en": "Walk through the doors",
+   "ctx": "lppVolturnShrineFirstVisit1"
+  },
+  {
+   "i": 115,
+   "en": "Cough, scuff your boot; wake her up unobtrusively\r",
+   "ctx": "lppVolturnShrineFirstVisit2"
+  },
+  {
+   "i": 116,
+   "en": "\"Hello! I'd like the see the shrine!\"\r",
+   "ctx": "lppVolturnShrineFirstVisit2"
+  },
+  {
+   "i": 117,
+   "en": "Pour yourself some tea\r",
+   "ctx": "lppVolturnShrineFirstVisit2"
+  },
+  {
+   "i": 118,
+   "en": "\"If the tea is that hot, you can't really be asleep.\"",
+   "ctx": "lppVolturnShrineFirstVisit2"
+  },
+  {
+   "i": 119,
+   "en": "\"You seem heavily armed for a curate.\"",
+   "ctx": "lppVolturnCurateResponses1a"
+  },
+  {
+   "i": 120,
+   "en": "\"I mean, are you part of the Volturn insurgency?\"",
+   "ctx": "lppVolturnCurateResponses1b"
+  },
+  {
+   "i": 121,
+   "en": "\"Are you a member of the Volturn insurgency?\"",
+   "ctx": "lppVolturnCurateResponses1b2"
+  },
+  {
+   "i": 122,
+   "en": "\"Shouldn't you be talking about blessings?\"",
+   "ctx": "lppVolturnCurateResponses1c"
+  },
+  {
+   "i": 123,
+   "en": "Drink the tea",
+   "ctx": "lppVolturnCurateResponses1d"
+  },
+  {
+   "i": 124,
+   "en": "\"I'm here to see the shrine.\"",
+   "ctx": "lppVolturnCurateResponses1e"
+  },
+  {
+   "i": 125,
+   "en": "\"I am a pilgrim come for the shrine.\"",
+   "ctx": "lppVolturnCurateResponses1f"
+  },
+  {
+   "i": 126,
+   "en": "\"I could report you for threatening a commissioned officer of the Sindrian Diktat.\"",
+   "ctx": "lppVolturnCurateResponses1g"
+  },
+  {
+   "i": 127,
+   "en": "\"Thanks, I think.\"",
+   "ctx": "lppVolturnCurateAskBlessing"
+  },
+  {
+   "i": 128,
+   "en": "\"Just show me the shrine.\"\r",
+   "ctx": "lppVolturnCurateAskSeeShrineSD"
+  },
+  {
+   "i": 129,
+   "en": "\"There is common ground. An emphasis on tradition and family.\"\r",
+   "ctx": "lppVolturnCurateAskSeeShrineSD"
+  },
+  {
+   "i": 130,
+   "en": "\"I'm not here for a lecture on theology.\"",
+   "ctx": "lppVolturnCurateAskSeeShrineSD"
+  },
+  {
+   "i": 131,
+   "en": "\"This is a bit disappointing.\"",
+   "ctx": "lppVolturnCurateResponses2SDa"
+  },
+  {
+   "i": 132,
+   "en": "\"It's... nice. Humble.\"",
+   "ctx": "lppVolturnCurateResponses2SDa2"
+  },
+  {
+   "i": 133,
+   "en": "\"I sense a note of criticism in your tone.\"",
+   "ctx": "lppVolturnCurateResponses2SDb"
+  },
+  {
+   "i": 134,
+   "en": "\"Why do you insist on being so stubborn and backward? I'm trying to help.\"",
+   "ctx": "lppVolturnCurateResponses2SDc"
+  },
+  {
+   "i": 135,
+   "en": "\"If you accepted the Supreme Executor, it wouldn't have to be like this.\"",
+   "ctx": "lppVolturnCurateResponses2SDd"
+  },
+  {
+   "i": 136,
+   "en": "\"If the Church has abandoned you, why stay?\"",
+   "ctx": "lppVolturnCurateResponses2SDd2"
+  },
+  {
+   "i": 137,
+   "en": "\"A compromise, then. Private prayer, public support for the Executor.\"",
+   "ctx": "lppVolturnCurateResponses2SDe"
+  },
+  {
+   "i": 138,
+   "en": "\"This seems to confirm your part in the insurgency.\"",
+   "ctx": "lppVolturnCurateResponses2a"
+  },
+  {
+   "i": 139,
+   "en": "\"This is a... troubling arsenal.\"",
+   "ctx": "lppVolturnCurateResponses2b"
+  },
+  {
+   "i": 140,
+   "en": "\"Are you part of the Luddic Path?\"",
+   "ctx": "lppVolturnCurateResponses2c"
+  },
+  {
+   "i": 141,
+   "en": "\"What does the Church think of your part in this insurgency?\"",
+   "ctx": "lppVolturnCurateResponses2d"
+  },
+  {
+   "i": 142,
+   "en": "Light the candle",
+   "ctx": "lppVolturnCurateResponses2e"
+  },
+  {
+   "i": 143,
+   "en": "\"It is not just a candle.\"",
+   "ctx": "lppVolturnCurateResponses2f"
+  },
+  {
+   "i": 144,
+   "en": "\"It is just a candle.\"",
+   "ctx": "lppVolturnCurateResponses2fb"
+  },
+  {
+   "i": 145,
+   "en": "Look out the window for a moment",
+   "ctx": "lppVolturnCurateResponses2g"
+  },
+  {
+   "i": 146,
+   "en": "\"The violence. Is this not a religion of peace?\"\r",
+   "ctx": "lppVolturnCurateTroubling"
+  },
+  {
+   "i": 147,
+   "en": "\"This is a shrine. Is it not a sacred place?\"\r",
+   "ctx": "lppVolturnCurateTroubling"
+  },
+  {
+   "i": 148,
+   "en": "\"Lack of heavy weapons. How will you fight armored targets?\"",
+   "ctx": "lppVolturnCurateTroubling"
+  },
+  {
+   "i": 149,
+   "en": "Light a candle\r",
+   "ctx": "lppVolturnShrineRevisit2"
+  },
+  {
+   "i": 150,
+   "en": "Take a shuttle to the Luddic Church beacon",
+   "ctx": "lppShrineKillaVisitOption"
+  },
+  {
+   "i": 151,
+   "en": "Take a shuttle to the Luddic shrine",
+   "ctx": "lppShrineKillaVisitOptionAgain"
+  },
+  {
+   "i": 152,
+   "en": "Enter the airlock",
+   "ctx": "lppShrineKillaVisitAgainStart"
+  },
+  {
+   "i": 153,
+   "en": "Follow the footprints\r",
+   "ctx": "lppKillaVisitStart2"
+  },
+  {
+   "i": 154,
+   "en": "Request an active scan of the area\r",
+   "ctx": "lppKillaVisitStart2"
+  },
+  {
+   "i": 155,
+   "en": "Step inside",
+   "ctx": "lppKillaVisitStart2Follow"
+  },
+  {
+   "i": 156,
+   "en": "Look around",
+   "ctx": "lppKillaOssuary1"
+  },
+  {
+   "i": 157,
+   "en": "\"I've come to see the shrine.\"\r",
+   "ctx": "lppKillaOssuary4"
+  },
+  {
+   "i": 158,
+   "en": "\"I walk the Pilgrim's Path.\"\r",
+   "ctx": "lppKillaOssuary4"
+  },
+  {
+   "i": 159,
+   "en": "\"There must be thousands of the dead here.\"\r",
+   "ctx": "lppKillaOssuary4"
+  },
+  {
+   "i": 160,
+   "en": "\"What's with the spooky show?\"",
+   "ctx": "lppKillaOssuary4"
+  },
+  {
+   "i": 161,
+   "en": "Follow",
+   "ctx": "lppKillaOssuarySeeShrine"
+  },
+  {
+   "i": 162,
+   "en": "\"I will help remember.\"\r",
+   "ctx": "lppKillaOssuarySeeShrine2"
+  },
+  {
+   "i": 163,
+   "en": "\"I will... try.\"\r",
+   "ctx": "lppKillaOssuarySeeShrine2"
+  },
+  {
+   "i": 164,
+   "en": "\"I will fight to avenge them.\"",
+   "ctx": "lppKillaOssuarySeeShrine2"
+  },
+  {
+   "i": 165,
+   "en": "\"That remains to be seen.\"\r",
+   "ctx": "lppKillaOssuarySpooky2"
+  },
+  {
+   "i": 166,
+   "en": "\"Not for me.\"\r",
+   "ctx": "lppKillaOssuarySpooky2"
+  },
+  {
+   "i": 167,
+   "en": "\"Is that some kind of threat?\"",
+   "ctx": "lppKillaOssuarySpooky2"
+  },
+  {
+   "i": 168,
+   "en": "\"I think so.\"\r",
+   "ctx": "lppKillaOssuaryWalkPilgrim2"
+  },
+  {
+   "i": 169,
+   "en": "\"I don't understand.\"\r",
+   "ctx": "lppKillaOssuaryWalkPilgrim2"
+  },
+  {
+   "i": 170,
+   "en": "\"They will never be forgotten.\"\r",
+   "ctx": "lppKillaOssuaryWalkPilgrim2"
+  },
+  {
+   "i": 171,
+   "en": "\"Their human experience is unquantifiable.\"",
+   "ctx": "lppKillaOssuaryThousands2"
+  },
+  {
+   "i": 172,
+   "en": "Stay a while\r",
+   "ctx": "lppKillaOssuaryOutDone"
+  },
+  {
+   "i": 173,
+   "en": "DEV check out the Luddic protest",
+   "ctx": "lppJangalaShrineProtestDevStart"
+  },
+  {
+   "i": 174,
+   "en": "\"Pilgrims? Is there some kind of shrine here?\"",
+   "ctx": "lppJangalaProtestRespInfo"
+  },
+  {
+   "i": 175,
+   "en": "Use your commission with the Hegemony to pass",
+   "ctx": "lppJangalaProtestRespHeg"
+  },
+  {
+   "i": 176,
+   "en": "Use your standing with the Church to pass",
+   "ctx": "lppJangalaProtestRespChurch"
+  },
+  {
+   "i": 177,
+   "en": "Wait for the authorities to clear the protest",
+   "ctx": "lppJangalaProtestRespWait"
+  },
+  {
+   "i": 178,
+   "en": "Join the protestors, help them take a stand",
+   "ctx": "lppJangalaProtestRespJoin"
+  },
+  {
+   "i": 179,
+   "en": "Offer your marines to help clear the protest",
+   "ctx": "lppJangalaProtestRespMarinesHelp"
+  },
+  {
+   "i": 180,
+   "en": "Use your marines to muscle through right now",
+   "ctx": "lppJangalaProtestRespMarines"
+  },
+  {
+   "i": 181,
+   "en": "Wait",
+   "ctx": "lppJangalaProtestWait"
+  },
+  {
+   "i": 182,
+   "en": "\"Agreed. I'll give the order.\"\r",
+   "ctx": "lppJangalaProtestMarinesHelpHeg"
+  },
+  {
+   "i": 183,
+   "en": "\"On second thought, I'll let you handle this.\"",
+   "ctx": "lppJangalaProtestMarinesHelpHeg"
+  },
+  {
+   "i": 184,
+   "en": "Accept\r",
+   "ctx": "lppJangalaProtestInfoHegCom"
+  },
+  {
+   "i": 185,
+   "en": "\"Thanks, but I'll wait.\"",
+   "ctx": "lppJangalaProtestInfoHegCom"
+  },
+  {
+   "i": 186,
+   "en": "Despite being a non-believer, you support their rights\r",
+   "ctx": "lppJangalaProtestJoin2"
+  },
+  {
+   "i": 187,
+   "en": "This shared experience brings you all closer to Ludd\r",
+   "ctx": "lppJangalaProtestJoin2"
+  },
+  {
+   "i": 188,
+   "en": "In due time, the heretics will pay for these beatings ten-fold\r",
+   "ctx": "lppJangalaProtestJoin2"
+  },
+  {
+   "i": 189,
+   "en": "You just wanted to feel what it was like to lose a fight\r",
+   "ctx": "lppJangalaProtestJoin2"
+  },
+  {
+   "i": 190,
+   "en": "Enter the shrine complex",
+   "ctx": "lppJangalaVisitAgain"
+  },
+  {
+   "i": 191,
+   "en": "Look up the long term effects of the spores",
+   "ctx": "lppJangalaFirstVisit2"
+  },
+  {
+   "i": 192,
+   "en": "That's enough, shut it off\r",
+   "ctx": "lppJangalaFirstVisit2b"
+  },
+  {
+   "i": 193,
+   "en": "Look at the pictures",
+   "ctx": "lppJangalaFirstVisit2b"
+  },
+  {
+   "i": 194,
+   "en": "\"I'd like to visit the shrine.\"\r",
+   "ctx": "lppJangalaShrineDesc2Revisit"
+  },
+  {
+   "i": 195,
+   "en": "\"I wish to visit the shrine. Outside.\"\r",
+   "ctx": "lppJangalaShrineDesc2Revisit"
+  },
+  {
+   "i": 196,
+   "en": "\"This seems like a... difficult place to maintain a shrine.\"",
+   "ctx": "lppJangalaAttendantRespA"
+  },
+  {
+   "i": 197,
+   "en": "\"This seems like a terrible place to put a shrine.\"",
+   "ctx": "lppJangalaAttendantRespB"
+  },
+  {
+   "i": 198,
+   "en": "\"That seems foolish.\"\r",
+   "ctx": "lppJangalaShrineDifficult"
+  },
+  {
+   "i": 199,
+   "en": "\"I hear some pilgrims go outside unprotected.\"\r",
+   "ctx": "lppJangalaShrineDifficult"
+  },
+  {
+   "i": 200,
+   "en": "\"I am no sightseer, but I do want to undertake this experience.\"\r",
+   "ctx": "lppJangalaattendantUnprotected"
+  },
+  {
+   "i": 201,
+   "en": "\"I am no sightseer. I wish to test my faith.\"\r",
+   "ctx": "lppJangalaattendantUnprotected"
+  },
+  {
+   "i": 202,
+   "en": "\"Don't worry, I have no intention of going out there.\"",
+   "ctx": "lppJangalaattendantUnprotected"
+  },
+  {
+   "i": 203,
+   "en": "\"I mean the outside. The real shrine.\"\r",
+   "ctx": "lppJangalaattendantVisit"
+  },
+  {
+   "i": 204,
+   "en": "Leave instead",
+   "ctx": "lppJangalaattendantVisit"
+  },
+  {
+   "i": 205,
+   "en": "\"On second thought, show me the interior shrine.\"\r",
+   "ctx": "lppJangalaattendantOutsideChoice"
+  },
+  {
+   "i": 206,
+   "en": "\"Yes. I wish to go outside.\"\r",
+   "ctx": "lppJangalaattendantOutsideChoice"
+  },
+  {
+   "i": 207,
+   "en": "Follow the curate",
+   "ctx": "lppJangalaattendantVisitOutsideC2"
+  },
+  {
+   "i": 208,
+   "en": "Return to the reception hall",
+   "ctx": "lppJangalaVisitShrine2"
+  },
+  {
+   "i": 209,
+   "en": "Take off your mask. Have faith.\r",
+   "ctx": "lppJangalaVisitOutside2"
+  },
+  {
+   "i": 210,
+   "en": "Keep it on, you're not an idiot.",
+   "ctx": "lppJangalaVisitOutside2"
+  },
+  {
+   "i": 211,
+   "en": "Join them",
+   "ctx": "lppJangalaOutsideMaskOff"
+  },
+  {
+   "i": 212,
+   "en": "Return to the complex interior",
+   "ctx": "lppJangalaOutsideMaskOff2"
+  },
+  {
+   "i": 213,
+   "en": "Return to the interior of the complex",
+   "ctx": "lppJangalaShrineVisitAgainOutside"
+  },
+  {
+   "i": 214,
+   "en": "Secretly take a shuttle to visit the Luddic shrine",
+   "ctx": "lppHesperusShrineVisitSneak"
+  },
+  {
+   "i": 215,
+   "en": "\"Nav, try again.\"\r",
+   "ctx": "lppHesperusShrineFirstTime1"
+  },
+  {
+   "i": 216,
+   "en": "Request to speak with someone in authority\r",
+   "ctx": "lppHesperusShrineFirstTime1"
+  },
+  {
+   "i": 217,
+   "en": "Cancel your visit",
+   "ctx": "lppHesperusShrineFirstTime1"
+  },
+  {
+   "i": 218,
+   "en": "\"Get me the Excubitor Orbis on comms.\"\r",
+   "ctx": "lppHesperusShrineVisitNoWait"
+  },
+  {
+   "i": 219,
+   "en": "Cancel the flight",
+   "ctx": "lppHesperusShrineVisitNoWait"
+  },
+  {
+   "i": 220,
+   "en": "\"Why was my travel request denied?\"\r",
+   "ctx": "lppHesperusShrineFirstTime3"
+  },
+  {
+   "i": 221,
+   "en": "\"I demand to know why my request was denied!\"\r",
+   "ctx": "lppHesperusShrineFirstTime3"
+  },
+  {
+   "i": 222,
+   "en": "\"Is there a problem, Excubitor?\"\r",
+   "ctx": "lppHesperusShrineFirstTime3"
+  },
+  {
+   "i": 223,
+   "en": "Wait it out\r",
+   "ctx": "lppHesperusShrineFirstTime3"
+  },
+  {
+   "i": 224,
+   "en": "Keep strong. Keep silent.",
+   "ctx": "lppHesperusExcubitorWait1"
+  },
+  {
+   "i": 225,
+   "en": "Listen carefully... ",
+   "ctx": "lppHesperusExcubitorWait2"
+  },
+  {
+   "i": 226,
+   "en": "\"So I need to convince you that I am not a risk?\"\r",
+   "ctx": "lppHesperusExcubitorDenied1"
+  },
+  {
+   "i": 227,
+   "en": "\"Are you accusing me of criminal intent?\"\r",
+   "ctx": "lppHesperusExcubitorDenied1"
+  },
+  {
+   "i": 228,
+   "en": "\"Just tell me how many credits I need to 'tithe'.\"\r",
+   "ctx": "lppHesperusExcubitorDenied1"
+  },
+  {
+   "i": 229,
+   "en": "\"With my fleet, how can you stop me?\"",
+   "ctx": "lppHesperusExcubitorDenied1"
+  },
+  {
+   "i": 230,
+   "en": "\"How about we talk about redemption now.\"\r",
+   "ctx": "lppHesperusExcubitorDenyAccess"
+  },
+  {
+   "i": 231,
+   "en": "\"Wait, that's it?\"\r",
+   "ctx": "lppHesperusExcubitorEndAllow"
+  },
+  {
+   "i": 232,
+   "en": "\"Thank you, Excubitor Orbis.\"\r",
+   "ctx": "lppHesperusExcubitorEndAllow"
+  },
+  {
+   "i": 233,
+   "en": "\"Why make me wait?\"\r",
+   "ctx": "lppHesperusExcubitorEndAllowWait"
+  },
+  {
+   "i": 234,
+   "en": "\"And upon you, Excubitor Orbis.\"\r",
+   "ctx": "lppHesperusExcubitorEndAllowWait"
+  },
+  {
+   "i": 235,
+   "en": "\"I have come to ask for permission to visit the shrine.\"",
+   "ctx": "lppExcubitorResponseAsk"
+  },
+  {
+   "i": 236,
+   "en": "\"Why are you denying me access to the shrine?\"",
+   "ctx": "lppExcubitorResponseWhy"
+  },
+  {
+   "i": 237,
+   "en": "\"I have waited seven days.\"",
+   "ctx": "lppExcubitorResponseSevenDays"
+  },
+  {
+   "i": 238,
+   "en": "\"You told me to find redemption...\"",
+   "ctx": "lppExcubitorResponseRedemption"
+  },
+  {
+   "i": 239,
+   "en": "\"What about the time I've already waited?\"\r",
+   "ctx": "lppExcubitorDenyAccessWait"
+  },
+  {
+   "i": 240,
+   "en": "\"And how's that going?\"\r",
+   "ctx": "lppExcubitorWhyDeny2"
+  },
+  {
+   "i": 241,
+   "en": "\"I await your decision.\"",
+   "ctx": "lppExcubitorWhyDeny2"
+  },
+  {
+   "i": 242,
+   "en": "\"Thank you.\"\r",
+   "ctx": "lppExcubitorRedemptionCheckYes"
+  },
+  {
+   "i": 243,
+   "en": "Feel out the possibility of a bribe",
+   "ctx": "lppHesperusBarEventSel"
+  },
+  {
+   "i": 244,
+   "en": "Pay the bribe\r",
+   "ctx": "lppHesperusBarEventSel2"
+  },
+  {
+   "i": 245,
+   "en": "Go back to the bar",
+   "ctx": "lppHesperusBarEventSel2"
+  },
+  {
+   "i": 246,
+   "en": "Ask to visit the shrine",
+   "ctx": "lppHesperusShrineOptionVisit"
+  },
+  {
+   "i": 247,
+   "en": "Leave now",
+   "ctx": "lppHesperusShrineOptionLeave"
+  },
+  {
+   "i": 248,
+   "en": "\"I came here to perhaps find that out.\"",
+   "ctx": "lppHesperusInitiateResponseAgnostic"
+  },
+  {
+   "i": 249,
+   "en": "\"I am here only to see what is to be seen.\"",
+   "ctx": "lppHesperusInitiateResponseAtheistic"
+  },
+  {
+   "i": 250,
+   "en": "\"Despite appearances, I am a pilgrim, young knight.\"",
+   "ctx": "lppHesperusInitiateResponseFaithful"
+  }
+ ]
+}

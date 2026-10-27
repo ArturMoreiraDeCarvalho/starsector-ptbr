@@ -1,0 +1,131 @@
+{
+ "chunk": 72,
+ "cat": "desc",
+ "items": [
+  {
+   "i": 1,
+   "en": "Once a quiet mining colony, Epiphany was selected for settlement by the heretical leader of an obscure Luddic cult. After quite some scandal and a single violent death, the cult was ended, though a population sympathetic to Luddic beliefs lived on. Epiphany's civilian government was toppled by Pathers during a burst of enthusiasm during the Second AI War. With the grudging cooperation of the old natives its facilities are now used for Pather stockpiles and training.",
+   "ctx": "data/strings/descriptions.csv planet_epiphany/CUSTOM [text1]"
+  },
+  {
+   "i": 2,
+   "en": "Kumari Aru is a rare specimen - a gas giant which hosts xenolife in its bottomless ocean of clouds. Of only academic interest to early Domain surveyors, early research was poorly funded and managed to only describe the bare fundamentals of Kumarian life's biochemistry. As post-collapse Luddic influence waxed, the Luddic believers who consider this planet to be a holy site now only allow limited, passive study.",
+   "ctx": "data/strings/descriptions.csv planet_kumari_aru/CUSTOM [text1]"
+  },
+  {
+   "i": 3,
+   "en": "Originally a research platform established by the Domain Explorarium, funding was only ever a trickle in light of little hope for practical knowledge to be gained from study of Kumarian xenolife. Post-collapse, administration was usurped by a particularly inspired Luddic curate-errant and the station turned into a site of holy pilgrimage for Luddic believers. Only a handful of approved scholars are allowed aboard now, though there are few enough of those in this troubled age.",
+   "ctx": "data/strings/descriptions.csv station_beholder/CUSTOM [text1]"
+  },
+  {
+   "i": 4,
+   "en": "An abortive liberation movement saw the wisdom of aligning the local polity with the Persean League after the example of Beholder Station, thus Olinadu finds itself a leading producer of volatiles for the League markets despite its small population.",
+   "ctx": "data/strings/descriptions.csv planet_olinadu/CUSTOM [text1]"
+  },
+  {
+   "i": 5,
+   "en": "An underpaid mercenary company decided to exploit the political chaos following the Second AI war by taking control of Kanni, a megacorp resource-extraction outfit on a harsh and remote world. This mining outpost turned pirate base has been controlled by a revolving committee of brigands ever since.",
+   "ctx": "data/strings/descriptions.csv planet_kanni/CUSTOM [text1]"
+  },
+  {
+   "i": 6,
+   "en": "Just another space habitat in the path of Warlord Leonis' conquests, Laicaille was seen, conquered, then left in the grip of a loyal lieutenant. That short-lived rule was overturned by an admitted less fearsome pirate king with backing from the Armada of Kazeron during a Persean League border conflict with the Luddic Church. This king was brought into the Persean League and Laicaille rapidly legitimized to justify League presence in-system. ",
+   "ctx": "data/strings/descriptions.csv station_laicaille/CUSTOM [text1]"
+  },
+  {
+   "i": 7,
+   "en": "This sprawling zero-g industrial station was built to-spec to serve the needs of the Eridani-Utopia Corporation and modified heavily in the cycles since. The station was taken by the warlord Leonis in the blazing conquests of cycle 47 and has remained in the hands of one or another pirate leader for much of recent history.",
+   "ctx": "data/strings/descriptions.csv station_kapteyn/CUSTOM [text1]"
+  },
+  {
+   "i": 8,
+   "en": "Swept up by the warlord Leonis in the conquests of cycle 47, the fantastically corrupt lieutenant left in place made a habit of throwing aggrieved local leaders out the airlock. Within three cycles, anyone with exceptional wealth, skill, or sense had left, and major station systems were failing entirely. Groombridge Habitat was since stripped of anything of value that could be put in a cargo hold, then abandoned.",
+   "ctx": "data/strings/descriptions.csv station_groombridge/CUSTOM [text1]"
+  },
+  {
+   "i": 9,
+   "en": "This abandoned spacedock has been utterly cored by heavy weapons fire. The only detectable activity here comes from the decay of high-radiation ash fused to the station's hull.",
+   "ctx": "data/strings/descriptions.csv station_tiataxet_spacedock/CUSTOM [text1]"
+  },
+  {
+   "i": 10,
+   "en": "An abandoned shipyard. Its skeletal assembly docks lie empty. Judging by the recent markings of light weapons fire on tactically insignificant hull sections, the station appears to have been used for target practice.",
+   "ctx": "data/strings/descriptions.csv station_chalcedon/CUSTOM [text1]"
+  },
+  {
+   "i": 11,
+   "en": "Seeded with Earth life by an early sporeship, Chalcedon bloomed green for the first human arrivals, but soon proved itself a harsh home. Primitive native xenolife - theorized to descend from impact-diaspora from Kumari Aru, or vice versa - persists in curious unicellular-equivalent forms in obscure ecological niches. The surface is regularly pounded by massive storm cells on an endless seasonal rampage. This churn provides a rich medium for plant growth, but only that flora which grows rapidly in the calm between storms can survive outside of the rare zone protected by quirks of topology; Human colonists are ever huddled in awe and fear.",
+   "ctx": "data/strings/descriptions.csv planet_chalcedon/CUSTOM [text1]"
+  },
+  {
+   "i": 12,
+   "en": "An autonomous AI fighter, the Spark is a tough and an agile interceptor. With no need to protect a human pilot, the chassis instead cradles a miniaturized shield generator.",
+   "ctx": "data/strings/descriptions.csv spark/SHIP [text1]"
+  },
+  {
+   "i": 13,
+   "en": "An autonomous AI heavy fighter, the Lux is armed with an IR laser and a flare system designed to confuse opposing point defense systems. Best used to open a path for strikes against heavy targets.",
+   "ctx": "data/strings/descriptions.csv lux/SHIP [text1]"
+  },
+  {
+   "i": 14,
+   "en": "An autonomous AI fighter-bomber, the Flash carries an advanced phase proximity charge payload which employs the principles of the phase cloak to destructive ends.",
+   "ctx": "data/strings/descriptions.csv flash/SHIP [text1]"
+  },
+  {
+   "i": 15,
+   "en": "A remnant of the autonomous AI fleets developed by the Tri-Tachyon Corporation. Illegal under Domain (and Hegemony) law, and an abomination to the Church of Galactic Redemption, the First AI War saw these creations purged from the Sector. At least that is how the official histories tell it.\r\n\r\nThe Lumen is a fast, multi-purpose frigate best suited to harassment of opposing targets using whichever of its many tools is most appropriate. The Lumen's AI core was noted for its ability to create a debilitating frustration effect in human captains beyond what its combat specifications would suggest possible.",
+   "ctx": "data/strings/descriptions.csv lumen/SHIP [text1]"
+  },
+  {
+   "i": 16,
+   "en": "A remnant of the autonomous AI fleets developed by the Tri-Tachyon Corporation. Illegal under Domain (and Hegemony) law, and an abomination to the Church of Galactic Redemption, the First AI War saw these creations purged from the Sector. At least that is how the official histories tell it.\r\n\r\nThe Glimmer provides long-range support fire from its array of energy weapons, keeping up flux-pressure on opposing forces.\r\n",
+   "ctx": "data/strings/descriptions.csv glimmer/SHIP [text1]"
+  },
+  {
+   "i": 17,
+   "en": "A remnant of the autonomous AI fleets developed by the Tri-Tachyon Corporation. Illegal under Domain (and Hegemony) law, and an abomination to the Church of Galactic Redemption, the First AI War saw these creations purged from the Sector. At least that is how the official histories tell it.\r\n\r\nThe Fulgent is a heavily armed destroyer which earns its place in the line of battle, for when the Fulgent AI identifies a weakness, it uses exceptional maneuverability to strike with inhuman mercilessness.",
+   "ctx": "data/strings/descriptions.csv fulgent/SHIP [text1]"
+  },
+  {
+   "i": 18,
+   "en": "A remnant of the autonomous AI fleets developed by the Tri-Tachyon Corporation. Illegal under Domain (and Hegemony) law, and an abomination to the Church of Galactic Redemption, the First AI War saw these creations purged from the Sector. At least that is how the official histories tell it.\r\n\r\nThe Scintilla light carrier is able to deploy two wings of drone fighters in combat. Although only able to mount light beam weapons, the Scintilla may bear a formidable missile loadout. ",
+   "ctx": "data/strings/descriptions.csv scintilla/SHIP [text1]"
+  },
+  {
+   "i": 19,
+   "en": "A remnant of the autonomous AI fleets developed by the Tri-Tachyon Corporation. Illegal under Domain (and Hegemony) law, and an abomination to the Church of Galactic Redemption, the First AI War saw these creations purged from the Sector. So the official histories say.\r\n\r\nLeaked internal memos criticize the Apex for compromising core combat principles to act as a marketing platform for advanced combat systems. These include the Tri-Tachyon 'Energy Bolt Coherer' - speculated to employ a quirk of shield physics to increase the range of non-beam energy weapons, which the Apex may mount in abundance - and dual Terminator Drone autoforge units. The Terminator systems' sub-AI certification was pending when made entirely moot by certain subsequent historical catastrophes, including but not limited to the First AI War.",
+   "ctx": "data/strings/descriptions.csv apex/SHIP [text1]"
+  },
+  {
+   "i": 20,
+   "en": "A remnant of the autonomous AI fleets developed by the Tri-Tachyon Corporation. Illegal under Domain (and Hegemony) law, and an abomination to the Church of Galactic Redemption, the First AI War saw these creations purged from the Sector. At least that is how the official histories tell it.\r\n\r\nTypical of high-end TriTachyon products, the Brilliant-class cruiser spares no excess in mounting the most advanced suite of energy weaponry possible. Typical of autonomous ships, there are no concessions made for human life support or even bodily access. Repairs are carried out by a swarm semi-intelligent utility drones which travel via zero-atmosphere conduits wormed through the ship's mass.",
+   "ctx": "data/strings/descriptions.csv brilliant/SHIP [text1]"
+  },
+  {
+   "i": 21,
+   "en": "A remnant of the autonomous AI fleets developed by the Tri-Tachyon Corporation. Illegal under Domain (and Hegemony) law, and an abomination to the Church of Galactic Redemption, the First AI War saw these creations purged from the Sector. So the official histories say.\r\n\r\nThe Radiant battleship was an outrageous blue-sky design created by some naval architecture unit given special indulgence by a Tri-Tach VP's bloated grandiosity. Both the official and existing unofficial histories of the First AI War never mention this class of ship ever being produced because an integrated phase skimmer could never be stable on a ship of such size. Surely it would explode into an infinity of curiously whorled short-lived child-dimensions upon initiation of the first skip. \r\n\r\nNonetheless, here it is.",
+   "ctx": "data/strings/descriptions.csv radiant/SHIP [text1]"
+  },
+  {
+   "i": 22,
+   "en": "A remnant of the autonomous AI fleets developed by the Tri-Tachyon Corporation. Illegal under Domain (and Hegemony) law, and an abomination to the Church of Galactic Redemption, the First AI War saw these creations purged from the Sector. At least that is how the official histories tell it.\r\n\r\nThis is a fully armed and operational autonomous AI battlestation. Stations such as this acted as fuel and supply depot, robotic factory, command nexus, and weapon platform in support of AI fleets operating on a strategic level. The \"Declaration of Victory\" speech given by the High Hegemon following the First AI War stated that all AI battlestations had been destroyed.",
+   "ctx": "data/strings/descriptions.csv remnant_station2/SHIP [text1]"
+  },
+  {
+   "i": 23,
+   "en": "The Colossus is a sturdy and venerable hull well-suited to conditions in the post-Collapse Sector, albeit possessing primitive accommodations and limited defensive armament.\r\n\r\nBefore it was outmatched by the brutal economic efficiency of the Atlas superfreighter, the Colossus heavy freighter formed the core of Domain frontier supply fleets. Thicker than strictly necessary hull plating provides protection against cosmic hazards both natural and human.",
+   "ctx": "data/strings/descriptions.csv colossus/SHIP [text1]"
+  },
+  {
+   "i": 24,
+   "en": "This is a Colossus hull modified by the militant faithful of the Luddic Path into a fearsome strike-cruiser. The cargo decks are collapsed and re-welded to greatly thicken the effective armor of the hull while additional turrets have been planted along the hull. At the bow, a large weapon mount capable of launching spreads of Hammer-class torpedoes has been permanently affixed. The standard engines and power grid have been haphazardly modified to allow for short overpowered burns in combat conditions, causing a massive loss of overall systems reliability.\r\n\r\nThe Colossus heavy freighter formed the core of Domain frontier supply fleets before it was outmatched by the brutal economic efficiency of the Atlas superfreighter. Thicker than strictly necessary hull plating provides protection against cosmic hazards both natural and human.",
+   "ctx": "data/strings/descriptions.csv colossus2/SHIP [text1]"
+  },
+  {
+   "i": 25,
+   "en": "The Colossus was first adapted for war by Pather militants, but enterprising pirates soon followed their lead. A similarly haphazard process sees most cargo decks collapsed and re-welded to form thick armor dotted with numerous weapons emplacements. The primary cargo bay was left open, however, and converted into an ersatz fighter launch bay with the addition of a micro civilian forge-vat intended for the manufacture of machine parts hacked to accept fighter LPC chips. The forge is poorly integrated with the hull's base power system, resulting in unreliable overall performance.\r\n\r\nThe Colossus heavy freighter formed the core of Domain frontier supply fleets before it was outmatched by the brutal economic efficiency of the Atlas superfreighter. Thicker than strictly necessary hull plating provides protection against cosmic hazards both natural and human.",
+   "ctx": "data/strings/descriptions.csv colossus3/SHIP [text1]"
+  }
+ ]
+}

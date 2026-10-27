@@ -1,0 +1,1256 @@
+{
+ "chunk": 32,
+ "cat": "jar",
+ "items": [
+  {
+   "i": 1,
+   "en": " is preparing for a voyage and will soon depart for ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/misc/TradeFleetDepartureIntel.class"
+  },
+  {
+   "i": 2,
+   "en": " let you know that ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/misc/TradeFleetDepartureIntel.class"
+  },
+  {
+   "i": 3,
+   "en": " the fleet will carry ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/misc/TradeFleetDepartureIntel.class"
+  },
+  {
+   "i": 4,
+   "en": "Fleet launched",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/misc/TradeFleetDepartureIntel.class"
+  },
+  {
+   "i": 5,
+   "en": "It's noteworthy because it's carrying a large quantity of ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/misc/TradeFleetDepartureIntel.class"
+  },
+  {
+   "i": 6,
+   "en": "It's noteworthy because it's carrying a large quantity of valuable ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/misc/TradeFleetDepartureIntel.class"
+  },
+  {
+   "i": 7,
+   "en": "It's noteworthy because it's carrying valuable ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/misc/TradeFleetDepartureIntel.class"
+  },
+  {
+   "i": 8,
+   "en": "On the outward trip to ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/misc/TradeFleetDepartureIntel.class"
+  },
+  {
+   "i": 9,
+   "en": "On the trip back to ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/misc/TradeFleetDepartureIntel.class"
+  },
+  {
+   "i": 10,
+   "en": "Recently launched",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/misc/TradeFleetDepartureIntel.class"
+  },
+  {
+   "i": 11,
+   "en": "Smugglers often operate in a gray legal and moral area. Thus, if one comes to an unfortunate end - as so often happens in their line of work - it's unlikely to cause a unified response from whatever faction or organization they're nominally affiliated with.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/misc/TradeFleetDepartureIntel.class"
+  },
+  {
+   "i": 12,
+   "en": "The fleet will carry nothing of note on the trip back to ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/misc/TradeFleetDepartureIntel.class"
+  },
+  {
+   "i": 13,
+   "en": "The fleet will carry nothing of note on the trip to ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/misc/TradeFleetDepartureIntel.class"
+  },
+  {
+   "i": 14,
+   "en": "Trade Fleet",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/misc/TradeFleetDepartureIntel.class"
+  },
+  {
+   "i": 15,
+   "en": "Trade Fleet Departure",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/misc/TradeFleetDepartureIntel.class"
+  },
+  {
+   "i": 16,
+   "en": "Your contacts ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/misc/TradeFleetDepartureIntel.class"
+  },
+  {
+   "i": 17,
+   "en": "goods",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/misc/TradeFleetDepartureIntel.class"
+  },
+  {
+   "i": 18,
+   "en": "goods and materiel",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/misc/TradeFleetDepartureIntel.class"
+  },
+  {
+   "i": 19,
+   "en": "materiel",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/misc/TradeFleetDepartureIntel.class"
+  },
+  {
+   "i": 20,
+   "en": "until departure",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/misc/TradeFleetDepartureIntel.class"
+  },
+  {
+   "i": 21,
+   "en": ", warning of dangers that presumably lie within.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/misc/WarningBeaconIntel.class"
+  },
+  {
+   "i": 22,
+   "en": "Danger level: ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/misc/WarningBeaconIntel.class"
+  },
+  {
+   "i": 23,
+   "en": "This beacon is located near the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/misc/WarningBeaconIntel.class"
+  },
+  {
+   "i": 24,
+   "en": "Warning Beacon",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/misc/WarningBeaconIntel.class"
+  },
+  {
+   "i": 25,
+   "en": " until stabilized",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/misc/WormholeIntel.class"
+  },
+  {
+   "i": 26,
+   "en": "Deployed: ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/misc/WormholeIntel.class"
+  },
+  {
+   "i": 27,
+   "en": " operations for %s days.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PEActionStage.class"
+  },
+  {
+   "i": 28,
+   "en": " were sufficient to prevent bombardment.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PEActionStage.class"
+  },
+  {
+   "i": 29,
+   "en": ", destroying the colony outright.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PEActionStage.class"
+  },
+  {
+   "i": 30,
+   "en": "The expedition forces are currently in-system.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PEActionStage.class"
+  },
+  {
+   "i": 31,
+   "en": "The expedition has been aborted.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PEActionStage.class"
+  },
+  {
+   "i": 32,
+   "en": "The expeditionary force has been defeated by the defenders of ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PEActionStage.class"
+  },
+  {
+   "i": 33,
+   "en": "The expeditionary force has disrupted ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PEActionStage.class"
+  },
+  {
+   "i": 34,
+   "en": "The expeditionary force has failed.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PEActionStage.class"
+  },
+  {
+   "i": 35,
+   "en": "The expeditionary force has succeeded.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PEActionStage.class"
+  },
+  {
+   "i": 36,
+   "en": "The expeditionary force has successfully bombarded ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PEActionStage.class"
+  },
+  {
+   "i": 37,
+   "en": "The ground defenses of ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PEActionStage.class"
+  },
+  {
+   "i": 38,
+   "en": "The raiding forces have been repelled by the ground defenses of ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PEActionStage.class"
+  },
+  {
+   "i": 39,
+   "en": "bombarding ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PEActionStage.class"
+  },
+  {
+   "i": 40,
+   "en": "moving in to bombard ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PEActionStage.class"
+  },
+  {
+   "i": 41,
+   "en": "moving in to raid ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PEActionStage.class"
+  },
+  {
+   "i": 42,
+   "en": "raiding ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PEActionStage.class"
+  },
+  {
+   "i": 43,
+   "en": "The expeditionary force has failed to successfully assemble at the rendezvous point.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PEAssembleStage.class"
+  },
+  {
+   "i": 44,
+   "en": "The expeditionary force is currently assembling at an unknown location.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PEAssembleStage.class"
+  },
+  {
+   "i": 45,
+   "en": "The expeditionary force is currently assembling in the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PEAssembleStage.class"
+  },
+  {
+   "i": 46,
+   "en": " by %s points.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PEAvertInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 47,
+   "en": " does not suffer.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PEAvertInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 48,
+   "en": " officials to stall out this kind of an operation.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PEAvertInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 49,
+   "en": " punitive expedition",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PEAvertInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 50,
+   "en": "A total of %s should be enough to get the job done, and will also ensure that your standing with ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PEAvertInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 51,
+   "en": "Allocate sufficient funds for bribes and other means of disrupting the planning",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PEAvertInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 52,
+   "en": "Calling in these favors will reduce your standing with ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PEAvertInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 53,
+   "en": "Issued bribe to avert ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PEAvertInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 54,
+   "en": "Standing not high enough.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PEAvertInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 55,
+   "en": "Sufficient funding allocated to proper official and unofficial actors should ensure that the expedition does not go beyond the planning stages.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PEAvertInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 56,
+   "en": "Take the necessary actions",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PEAvertInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 57,
+   "en": "The operation is still in the planning stages, and you have several options at your disposal to ensure it never gets off the ground.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PEAvertInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 58,
+   "en": "Use your connections to disrupt the planning",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PEAvertInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 59,
+   "en": "You can use your connections to pull a few strings and ensure the operation never gets beyond the planning stages.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PEAvertInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 60,
+   "en": "You do not have sufficient connections with ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PEAvertInteractionDialogPluginImpl.class"
+  },
+  {
+   "i": 61,
+   "en": "The expeditionary force",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PEOrganizeStage.class"
+  },
+  {
+   "i": 62,
+   "en": "expedition",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PEOrganizeStage.class"
+  },
+  {
+   "i": 63,
+   "en": "The expeditionary force has failed to successfully reach the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PETravelStage.class"
+  },
+  {
+   "i": 64,
+   "en": "The expeditionary force is currently travelling to the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PETravelStage.class"
+  },
+  {
+   "i": 65,
+   "en": " - Averted",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PunitiveExpeditionIntel.class"
+  },
+  {
+   "i": 66,
+   "en": " Expedition",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PunitiveExpeditionIntel.class"
+  },
+  {
+   "i": 67,
+   "en": " disrupted for %s days",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PunitiveExpeditionIntel.class"
+  },
+  {
+   "i": 68,
+   "en": " expeditionary force, projected to be comprised of ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PunitiveExpeditionIntel.class"
+  },
+  {
+   "i": 69,
+   "en": " targeting %s with a ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PunitiveExpeditionIntel.class"
+  },
+  {
+   "i": 70,
+   "en": " targeting %s with an expeditionary force. ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PunitiveExpeditionIntel.class"
+  },
+  {
+   "i": 71,
+   "en": " to disrupt its operations",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PunitiveExpeditionIntel.class"
+  },
+  {
+   "i": 72,
+   "en": "%s destroyed by bombardment",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PunitiveExpeditionIntel.class"
+  },
+  {
+   "i": 73,
+   "en": "Avert",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PunitiveExpeditionIntel.class"
+  },
+  {
+   "i": 74,
+   "en": "Bombardment of %s failed",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PunitiveExpeditionIntel.class"
+  },
+  {
+   "i": 75,
+   "en": "Bombardment of %s successful",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PunitiveExpeditionIntel.class"
+  },
+  {
+   "i": 76,
+   "en": "Currently in-system",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PunitiveExpeditionIntel.class"
+  },
+  {
+   "i": 77,
+   "en": "Expedition aborted",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PunitiveExpeditionIntel.class"
+  },
+  {
+   "i": 78,
+   "en": "Expedition planning disrupted",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PunitiveExpeditionIntel.class"
+  },
+  {
+   "i": 79,
+   "en": "Expeditionary force defeated",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PunitiveExpeditionIntel.class"
+  },
+  {
+   "i": 80,
+   "en": "Goal: %s",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PunitiveExpeditionIntel.class"
+  },
+  {
+   "i": 81,
+   "en": "Its likely goal is ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PunitiveExpeditionIntel.class"
+  },
+  {
+   "i": 82,
+   "en": "Raid of %s failed",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PunitiveExpeditionIntel.class"
+  },
+  {
+   "i": 83,
+   "en": "The primary reason for the expedition is the colony being established in space claimed by ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PunitiveExpeditionIntel.class"
+  },
+  {
+   "i": 84,
+   "en": "The primary reason for the expedition is the colony's \"free port\" status, and the concomitant export of illegal goods alongside it being a haven for various undesirables.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PunitiveExpeditionIntel.class"
+  },
+  {
+   "i": 85,
+   "en": "The primary reason for the expedition is the colony's market share in the exports of ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PunitiveExpeditionIntel.class"
+  },
+  {
+   "i": 86,
+   "en": "This operation is being carried without an open declaration of war. Defeating the expeditionary force will only result in a small reputation reduction with ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PunitiveExpeditionIntel.class"
+  },
+  {
+   "i": 87,
+   "en": "a saturation bombardment of the colony",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PunitiveExpeditionIntel.class"
+  },
+  {
+   "i": 88,
+   "en": "disrupting the colony's ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PunitiveExpeditionIntel.class"
+  },
+  {
+   "i": 89,
+   "en": "expedition's",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PunitiveExpeditionIntel.class"
+  },
+  {
+   "i": 90,
+   "en": "raiding the colony's ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PunitiveExpeditionIntel.class"
+  },
+  {
+   "i": 91,
+   "en": "saturation bombardment",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PunitiveExpeditionIntel.class"
+  },
+  {
+   "i": 92,
+   "en": "saturation bombardment of the colony",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/punitive/PunitiveExpeditionIntel.class"
+  },
+  {
+   "i": 93,
+   "en": "The raid is currently assembling at an unknown location.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/raid/AssembleStage.class"
+  },
+  {
+   "i": 94,
+   "en": "The raid is currently assembling in the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/raid/AssembleStage.class"
+  },
+  {
+   "i": 95,
+   "en": "The raiding forces have failed to successfully assemble at the rendezvous point. The raid is now over.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/raid/AssembleStage.class"
+  },
+  {
+   "i": 96,
+   "en": " has been disrupted in the planning stages and will not happen.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/raid/OrganizeStage.class"
+  },
+  {
+   "i": 97,
+   "en": " is currently being planned ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/raid/OrganizeStage.class"
+  },
+  {
+   "i": 98,
+   "en": " is currently in the planning stages. ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/raid/OrganizeStage.class"
+  },
+  {
+   "i": 99,
+   "en": " should begin assembling in %s ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/raid/OrganizeStage.class"
+  },
+  {
+   "i": 100,
+   "en": " should begin assembling shortly.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/raid/OrganizeStage.class"
+  },
+  {
+   "i": 101,
+   "en": "The raiding forces",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/raid/OrganizeStage.class"
+  },
+  {
+   "i": 102,
+   "en": ". The raid is now over.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/raid/PirateRaidActionStage.class"
+  },
+  {
+   "i": 103,
+   "en": "The raiding forces are currently operating in the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/raid/PirateRaidActionStage.class"
+  },
+  {
+   "i": 104,
+   "en": "The raiding forces have been defeated by the defenders of the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/raid/PirateRaidActionStage.class"
+  },
+  {
+   "i": 105,
+   "en": "The raiding forces have been successful in raiding the following colonies:",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/raid/PirateRaidActionStage.class"
+  },
+  {
+   "i": 106,
+   "en": "preparing for raid",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/raid/PirateRaidActionStage.class"
+  },
+  {
+   "i": 107,
+   "en": " Raid",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/raid/RaidIntel.class"
+  },
+  {
+   "i": 108,
+   "en": " and likely comprised of ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/raid/RaidIntel.class"
+  },
+  {
+   "i": 109,
+   "en": " conducting a raid of the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/raid/RaidIntel.class"
+  },
+  {
+   "i": 110,
+   "en": " has failed",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/raid/RaidIntel.class"
+  },
+  {
+   "i": 111,
+   "en": " have been raided",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/raid/RaidIntel.class"
+  },
+  {
+   "i": 112,
+   "en": " is likely to be defeated in orbit",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/raid/RaidIntel.class"
+  },
+  {
+   "i": 113,
+   "en": " is likely to be largely repelled by the ground defences",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/raid/RaidIntel.class"
+  },
+  {
+   "i": 114,
+   "en": " is likely to be successful",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/raid/RaidIntel.class"
+  },
+  {
+   "i": 115,
+   "en": " large fleet, or several smaller ones",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/raid/RaidIntel.class"
+  },
+  {
+   "i": 116,
+   "en": " outcome is uncertain",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/raid/RaidIntel.class"
+  },
+  {
+   "i": 117,
+   "en": " space forces are %s ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/raid/RaidIntel.class"
+  },
+  {
+   "i": 118,
+   "en": " space forces are %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/raid/RaidIntel.class"
+  },
+  {
+   "i": 119,
+   "en": " space forces are %s. ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/raid/RaidIntel.class"
+  },
+  {
+   "i": 120,
+   "en": ". The raiding forces are ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/raid/RaidIntel.class"
+  },
+  {
+   "i": 121,
+   "en": "Colonies in the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/raid/RaidIntel.class"
+  },
+  {
+   "i": 122,
+   "en": "Compared to the defenses of ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/raid/RaidIntel.class"
+  },
+  {
+   "i": 123,
+   "en": "Compared to the defenses, the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/raid/RaidIntel.class"
+  },
+  {
+   "i": 124,
+   "en": "Considering orbital defenses (if any), the following colonies are at risk from the raid:",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/raid/RaidIntel.class"
+  },
+  {
+   "i": 125,
+   "en": "However, all colonies should be safe from the raid, owing to their orbital defenses.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/raid/RaidIntel.class"
+  },
+  {
+   "i": 126,
+   "en": "Raid",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/raid/RaidIntel.class"
+  },
+  {
+   "i": 127,
+   "en": "Target: ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/raid/RaidIntel.class"
+  },
+  {
+   "i": 128,
+   "en": "The bombardment is likely to be countered by the ground defences",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/raid/RaidIntel.class"
+  },
+  {
+   "i": 129,
+   "en": "The bombardment is likely to be successful",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/raid/RaidIntel.class"
+  },
+  {
+   "i": 130,
+   "en": "The bombardment's outcome is uncertain",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/raid/RaidIntel.class"
+  },
+  {
+   "i": 131,
+   "en": "The raid on the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/raid/RaidIntel.class"
+  },
+  {
+   "i": 132,
+   "en": "The raiding forces are evenly matched with fleets defending the system.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/raid/RaidIntel.class"
+  },
+  {
+   "i": 133,
+   "en": "The raiding forces are superior to the fleets defending the system.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/raid/RaidIntel.class"
+  },
+  {
+   "i": 134,
+   "en": "The raiding forces should be outmatched by fleets defending the system. In the absence of other factors, the raid is unlikely to find success.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/raid/RaidIntel.class"
+  },
+  {
+   "i": 135,
+   "en": "There are no colonies for the raid to target in the system.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/raid/RaidIntel.class"
+  },
+  {
+   "i": 136,
+   "en": "and its ground forces are %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/raid/RaidIntel.class"
+  },
+  {
+   "i": 137,
+   "en": "projected to be ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/raid/RaidIntel.class"
+  },
+  {
+   "i": 138,
+   "en": "The raid is over, and the fleets involved are returning to their home bases.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/raid/ReturnStage.class"
+  },
+  {
+   "i": 139,
+   "en": "The raiding forces are currently travelling to the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/raid/TravelStage.class"
+  },
+  {
+   "i": 140,
+   "en": "The raiding forces have failed to successfully reach the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/raid/TravelStage.class"
+  },
+  {
+   "i": 141,
+   "en": "A Favor for Kanta",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/AFavorForKanta.class"
+  },
+  {
+   "i": 142,
+   "en": "Kanta's Protection lost",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/AFavorForKanta.class"
+  },
+  {
+   "i": 143,
+   "en": "Perform a tactical bombardment of",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/AFavorForKanta.class"
+  },
+  {
+   "i": 144,
+   "en": "Tactically bombard ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/AFavorForKanta.class"
+  },
+  {
+   "i": 145,
+   "en": "Deliver the mysterious old man, the kid, and their robot to Volturn in the Askonia system. Avoid patrols; they may be wanted by the authorities.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/ANewHope.class"
+  },
+  {
+   "i": 146,
+   "en": "Go to Volturn in the Askonia system",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/ANewHope.class"
+  },
+  {
+   "i": 147,
+   "en": "Passage To Volturn",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/ANewHope.class"
+  },
+  {
+   "i": 148,
+   "en": " days.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/AngryVIPTransport.class"
+  },
+  {
+   "i": 149,
+   "en": " is to arrive within ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/AngryVIPTransport.class"
+  },
+  {
+   "i": 150,
+   "en": "Angry VIP Transport",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/AngryVIPTransport.class"
+  },
+  {
+   "i": 151,
+   "en": "The VIP has made it clear that ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/AngryVIPTransport.class"
+  },
+  {
+   "i": 152,
+   "en": "Transport an angry, yet wealthy, VIP to ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/AngryVIPTransport.class"
+  },
+  {
+   "i": 153,
+   "en": "Disrupt ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/BaseDisruptIndustry.class"
+  },
+  {
+   "i": 154,
+   "en": " Intel",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/BlueprintIntel.class"
+  },
+  {
+   "i": 155,
+   "en": " Item",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/BlueprintIntel.class"
+  },
+  {
+   "i": 156,
+   "en": " item",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/BlueprintIntel.class"
+  },
+  {
+   "i": 157,
+   "en": " to be found somewhere in the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/BlueprintIntel.class"
+  },
+  {
+   "i": 158,
+   "en": "Invalid Item",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/BlueprintIntel.class"
+  },
+  {
+   "i": 159,
+   "en": "There is ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/BlueprintIntel.class"
+  },
+  {
+   "i": 160,
+   "en": "acted on",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/BlueprintIntel.class"
+  },
+  {
+   "i": 161,
+   "en": "an Invalid Item",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/BlueprintIntel.class"
+  },
+  {
+   "i": 162,
+   "en": "exploring system",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/BlueprintIntel.class"
+  },
+  {
+   "i": 163,
+   "en": "intel",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/BlueprintIntel.class"
+  },
+  {
+   "i": 164,
+   "en": "scanning local volume",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/BlueprintIntel.class"
+  },
+  {
+   "i": 165,
+   "en": " Pickup",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/CheapCommodityMission.class"
+  },
+  {
+   "i": 166,
+   "en": " and contact ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/CheapCommodityMission.class"
+  },
+  {
+   "i": 167,
+   "en": " to arrange pickup",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/CheapCommodityMission.class"
+  },
+  {
+   "i": 168,
+   "en": " to pick up %s units of ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/CheapCommodityMission.class"
+  },
+  {
+   "i": 169,
+   "en": "Go to ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/CheapCommodityMission.class"
+  },
+  {
+   "i": 170,
+   "en": "for %s per unit, or %s total.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/CheapCommodityMission.class"
+  },
+  {
+   "i": 171,
+   "en": " Production",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/CommodityProductionMission.class"
+  },
+  {
+   "i": 172,
+   "en": "As long these terms are met, you will receive %s per month over %s cycles for a total payout of %s, assuming there is no interruption in production.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/CommodityProductionMission.class"
+  },
+  {
+   "i": 173,
+   "en": "Months remaining: %s",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/CommodityProductionMission.class"
+  },
+  {
+   "i": 174,
+   "en": "Once these terms are met, you will receive %s per month for the next %s cycles, for a total of %s, as long as production is maintained.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/CommodityProductionMission.class"
+  },
+  {
+   "i": 175,
+   "en": "Produce at least %s units of ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/CommodityProductionMission.class"
+  },
+  {
+   "i": 176,
+   "en": "Receiving %s per month",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/CommodityProductionMission.class"
+  },
+  {
+   "i": 177,
+   "en": "Terms of contract met",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/CommodityProductionMission.class"
+  },
+  {
+   "i": 178,
+   "en": "Terms of contract not met",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/CommodityProductionMission.class"
+  },
+  {
+   "i": 179,
+   "en": "The contract is completed.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/CommodityProductionMission.class"
+  },
+  {
+   "i": 180,
+   "en": "You are currently meeting the terms of the contract.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/CommodityProductionMission.class"
+  },
+  {
+   "i": 181,
+   "en": "You are not currently meeting the terms of the contract.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/CommodityProductionMission.class"
+  },
+  {
+   "i": 182,
+   "en": "You will need to survey a suitable planet and establish a colony to complete this mission.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/CommodityProductionMission.class"
+  },
+  {
+   "i": 183,
+   "en": "You've met the initial terms of the contract to produce %s units of ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/CommodityProductionMission.class"
+  },
+  {
+   "i": 184,
+   "en": "a colony",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/CommodityProductionMission.class"
+  },
+  {
+   "i": 185,
+   "en": "a colony under your control.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/CommodityProductionMission.class"
+  },
+  {
+   "i": 186,
+   "en": " in %s ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/CustomProductionContract.class"
+  },
+  {
+   "i": 187,
+   "en": "Custom Production Order",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/CustomProductionContract.class"
+  },
+  {
+   "i": 188,
+   "en": "Delivered to %s",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/CustomProductionContract.class"
+  },
+  {
+   "i": 189,
+   "en": "Order manifest",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/CustomProductionContract.class"
+  },
+  {
+   "i": 190,
+   "en": "Ship weapons and fighters:",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/CustomProductionContract.class"
+  },
+  {
+   "i": 191,
+   "en": "The order was delivered to storage ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/CustomProductionContract.class"
+  },
+  {
+   "i": 192,
+   "en": "The order will be delivered to storage ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/CustomProductionContract.class"
+  },
+  {
+   "i": 193,
+   "en": "This order will not be completed because %s has decivilized.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/CustomProductionContract.class"
+  },
+  {
+   "i": 194,
+   "en": "You've learned that this order will not be completed.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/CustomProductionContract.class"
+  },
+  {
+   "i": 195,
+   "en": "information concerning the activities of known arms dealer, ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/CustomProductionContract.class"
+  },
+  {
+   "i": 196,
+   "en": "information regarding the arms dealer",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/CustomProductionContract.class"
+  },
+  {
+   "i": 197,
+   "en": "until delivery",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/CustomProductionContract.class"
+  },
+  {
+   "i": 198,
+   "en": " given to you by ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/DeadDropMission.class"
+  },
+  {
+   "i": 199,
+   "en": " to specified location in the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/DeadDropMission.class"
+  },
+  {
+   "i": 200,
+   "en": " to the dead drop location at the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/DeadDropMission.class"
+  },
+  {
+   "i": 201,
+   "en": "Dead Drop",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/DeadDropMission.class"
+  },
+  {
+   "i": 202,
+   "en": "Deliver ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/DeadDropMission.class"
+  },
+  {
+   "i": 203,
+   "en": "a battered Hegemony officer's pistol",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/DeadDropMission.class"
+  },
+  {
+   "i": 204,
+   "en": "a biosample in sealed cylinder",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/DeadDropMission.class"
+  },
+  {
+   "i": 205,
+   "en": "a black Volturnian lobster shell",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/DeadDropMission.class"
+  },
+  {
+   "i": 206,
+   "en": "a captain's safe cut from its bulkhead",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/DeadDropMission.class"
+  },
+  {
+   "i": 207,
+   "en": "a cloudy, damaged data crystal",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/DeadDropMission.class"
+  },
+  {
+   "i": 208,
+   "en": "a delicate crane made of folded paper",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/DeadDropMission.class"
+  },
+  {
+   "i": 209,
+   "en": "a glowing blue crystal in a sealed tube",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/DeadDropMission.class"
+  },
+  {
+   "i": 210,
+   "en": "a gravimatic trap holding some kind of glowing mote",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/DeadDropMission.class"
+  },
+  {
+   "i": 211,
+   "en": "a hardcopy book made of paper",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/DeadDropMission.class"
+  },
+  {
+   "i": 212,
+   "en": "a large brilliant-cut diamond",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/DeadDropMission.class"
+  },
+  {
+   "i": 213,
+   "en": "a peculiar vial of blood",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/DeadDropMission.class"
+  },
+  {
+   "i": 214,
+   "en": "a powdered substance in a triple-sealed container",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/DeadDropMission.class"
+  },
+  {
+   "i": 215,
+   "en": "a rad-shielded salvors' TriPad",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/DeadDropMission.class"
+  },
+  {
+   "i": 216,
+   "en": "a scratched golden ring",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/DeadDropMission.class"
+  },
+  {
+   "i": 217,
+   "en": "a sewing kit with strangely curved needles",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/DeadDropMission.class"
+  },
+  {
+   "i": 218,
+   "en": "a single rose in a miniaturized stasis field",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/DeadDropMission.class"
+  },
+  {
+   "i": 219,
+   "en": "a single vacuum-desiccated finger",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/DeadDropMission.class"
+  },
+  {
+   "i": 220,
+   "en": "a small EM-shielded safe",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/DeadDropMission.class"
+  },
+  {
+   "i": 221,
+   "en": "a small packet of seeds embossed with a Luddic sigil",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/DeadDropMission.class"
+  },
+  {
+   "i": 222,
+   "en": "a tiny unicorn pendant",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/DeadDropMission.class"
+  },
+  {
+   "i": 223,
+   "en": "an aged, twisted piece of wood",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/DeadDropMission.class"
+  },
+  {
+   "i": 224,
+   "en": "an apparently inert data chip",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/DeadDropMission.class"
+  },
+  {
+   "i": 225,
+   "en": "an irradiated bulkhead in a shielded crate",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/DeadDropMission.class"
+  },
+  {
+   "i": 226,
+   "en": "specified coordinates in the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/DeadDropMission.class"
+  },
+  {
+   "i": 227,
+   "en": "the dead drop coordinates",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/DeadDropMission.class"
+  },
+  {
+   "i": 228,
+   "en": "the dead drop coordinates given to you by ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/DeadDropMission.class"
+  },
+  {
+   "i": 229,
+   "en": "they",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/DeadDropMission.class"
+  },
+  {
+   "i": 230,
+   "en": " by raiding their warehouse ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/DisruptCompetitorMission.class"
+  },
+  {
+   "i": 231,
+   "en": "Disrupt Competitor",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/DisruptCompetitorMission.class"
+  },
+  {
+   "i": 232,
+   "en": "Disrupt a competitor of ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/DisruptCompetitorMission.class"
+  },
+  {
+   "i": 233,
+   "en": "Raid warehouse ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/DisruptCompetitorMission.class"
+  },
+  {
+   "i": 234,
+   "en": " %s base.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/ExtractionMission.class"
+  },
+  {
+   "i": 235,
+   "en": "Combat Extraction",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/ExtractionMission.class"
+  },
+  {
+   "i": 236,
+   "en": "Extract agent from ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/ExtractionMission.class"
+  },
+  {
+   "i": 237,
+   "en": "Extract agent located ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/ExtractionMission.class"
+  },
+  {
+   "i": 238,
+   "en": "The target location is ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/ExtractionMission.class"
+  },
+  {
+   "i": 239,
+   "en": "The target location is a size %s colony controlled by ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/ExtractionMission.class"
+  },
+  {
+   "i": 240,
+   "en": "Hand-me-down Freighter",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/HandMeDownFreighter.class"
+  },
+  {
+   "i": 241,
+   "en": "Hijacking",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/HijackingMission.class"
+  },
+  {
+   "i": 242,
+   "en": "Break target out of confinement ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/JailbreakMission.class"
+  },
+  {
+   "i": 243,
+   "en": "Conduct jailbreak ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/JailbreakMission.class"
+  },
+  {
+   "i": 244,
+   "en": "Jailbreak",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/JailbreakMission.class"
+  },
+  {
+   "i": 245,
+   "en": "the escapee",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/JailbreakMission.class"
+  },
+  {
+   "i": 246,
+   "en": "the escapee from ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/JailbreakMission.class"
+  },
+  {
+   "i": 247,
+   "en": "Luddic Pilgrim Transport",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/LuddicPilgrimTransport.class"
+  },
+  {
+   "i": 248,
+   "en": "The pilgrims will expect to arrive at the shrine within ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/LuddicPilgrimTransport.class"
+  },
+  {
+   "i": 249,
+   "en": "Transport a small party of Luddic pilgrims to ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/LuddicPilgrimTransport.class"
+  },
+  {
+   "i": 250,
+   "en": "Mercs On The Run",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/missions/MercsOnTheRun.class"
+  }
+ ]
+}

@@ -1,0 +1,151 @@
+{
+ "chunk": 165,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"This again.\" The archon's eyes flick off to one side then back to you.\r\n\r\n\"Like I told you before, there's a public comm directory. This is outside the purview of my office.\"",
+   "ctx": "data/campaign/rules.csv gaFCArchonAskCoureuseAgain [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"Um. Yes, actually. Recent events in the Galatia system, right? Dangerous what the Academy got up to, and while they deserve reprimand, the Hegemony reacted with typical overreach.\" A note of indignation enters $hisOrHer speech.\r\n\r\n\"The Persean League filed a complaint in the Interfactional Dispute Council, did you hear? We don't expect much to come of it, but someone has to say something, right?\"\r\n\r\nThe archon examines you for a moment then says \"Why do you ask?\"",
+   "ctx": "data/campaign/rules.csv gaFCArchonAskGalatia [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"Of course not,\" $heOrShe says curtly, \"I'm kept informed of all major industrial and research projects in this system. And the pirates, \" the last word spoken with a tone of some annoyance, \"They aren't capable of anything truly catastrophic. Unless another warlord shows up, but that's why we pay our share to the Persean League Armamentarium.\"\r\n\r\nThe archon sits up straighter, \"So I assure you captain, you have nothing to worry about while doing business on Laicaille Habitat.\"",
+   "ctx": "data/campaign/rules.csv gaFCArchonAskGalatia2 [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"Glad to be of service,\" $heOrShe says sharply.",
+   "ctx": "data/campaign/rules.csv gaFCArchonSearchRestEasy [text]"
+  },
+  {
+   "i": 5,
+   "en": "$HeOrShe is looking nervous. \"I don't know what you're talking about, captain. Without some kind of evidence of...  Um. Look, I have another appointment. Good day, captain.\"\r\n\r\nThe archon hits a button and dumps you back to a holding pattern bearing the spinning crest of Laicaille Habitat's executive council.\r\n\r\nThe archon is hiding something, but you won't get it out of $himOrHer without some kind of compelling evidence.",
+   "ctx": "data/campaign/rules.csv gaFCArchonConfrontFail [text]"
+  },
+  {
+   "i": 6,
+   "en": "The archon freezes up, stammering \"I'm uh, of course I- \"",
+   "ctx": "data/campaign/rules.csv gaFCArchonConfrontStart [text]"
+  },
+  {
+   "i": 7,
+   "en": "Now is the time to drive it home. What inconvenient truth will you reveal to the archon?",
+   "ctx": "data/campaign/rules.csv gaFCArchonConfrontOption0 [text]"
+  },
+  {
+   "i": 8,
+   "en": "With only one piece of evidence to support your claim, it would be premature to make your revelation. You need to make sure that the archon cannot deny your accusation by finding another piece of evidence.",
+   "ctx": "data/campaign/rules.csv gaFCArchonConfrontOption0b [text]"
+  },
+  {
+   "i": 9,
+   "en": "You explain to Archon $personLastName that you intercepted comm logs that reveal that a cell of Pather terrorists has infiltrated Laicaille Habitat under false identities to track down Scylla Coureuse. They know about the League intelligence safehouse and they have requested reinforcements to finish the job.\r\n\r\nAs the archon reads your uploaded log analysis, $heOrShe pales and stares wide-eyed at your revelation. \"We're just a small polity. Siyavong told me no one would ever know. And now there are Pathers crawling in the Ludd-cursed walls?\"",
+   "ctx": "data/campaign/rules.csv gaFCArchonTellPathers [text]"
+  },
+  {
+   "i": 10,
+   "en": "As you upload salvage logs, you explain to Archon $personLastName what they show - that you discovered a secret hypercommunication relay in the derelict Groombridge Habitat that's been sending periodic transmissions to a repeater close to Laicaille Habitat. And it, in turn, has been receiving transmissions from an array of probes around a distant star. And this array was compromised by a scavenger on the far end, and...\r\n\r\nThe archon goes pale, \"-so pirates, or even Pathers, could be...\"\r\n\r\nYou nod.\r\n\r\nThe archon shakes $hisOrHer head, \"H-how could this happen. They said there'd be no wild experiments!\"",
+   "ctx": "data/campaign/rules.csv gaFCArchonTellRelay [text]"
+  },
+  {
+   "i": 11,
+   "en": "As you upload sensor readings and the scans recorded by rad-hardened drones, you explain to Archon $personLastName what they show - that you discovered a secret hypercommunication relay in the derelict Groombridge Habitat and it's been sending periodic transmissions to a repeater close to Laicaille Habitat. Someone has been talking without using official channels...\r\n\r\nThe archon goes pale, \"I was told that, that it'd all be above-board. If they're keeping secrets from me, there's no telling what they could be doing...\"\r\n\r\nYou nod.\r\n\r\nThe archon shakes $hisOrHer head, \"H-how could this happen. They said there'd be no wild experiments!\"",
+   "ctx": "data/campaign/rules.csv gaFCArchonTellRelay2 [text]"
+  },
+  {
+   "i": 12,
+   "en": "You explain to Archon $personLastName that you have full documentation of the org chart, budget, and watch schedule of a League Fleet intel operation on Laicaille. There's even a line-item for a safehouse, and it all aligns suspiciously close to the cessation of a Fleet Intel search for Scylla Coureuse.\r\n\r\nYou forward the documents you received to drive the point home that you got everything on this sloppy operation by throwing a few credits around in-system. You hint at what a Pather cell could do with this information; the Persean League doesn't seem to be taking Laicaille Habitat's security very seriously.\r\n\r\nThe archon clenches $hisOrHer jaw and says under $hisOrHer breath \"They assured me there'd be no problems, they promised...\"",
+   "ctx": "data/campaign/rules.csv gaFCArchonTellIntel [text]"
+  },
+  {
+   "i": 13,
+   "en": "You explain that you have a communication intercept sent by Cavin Pharoh - a dangerous radical agitator on Fikenhild - to Scylla Coureuse. On Laicaille.\r\n\r\nIf Fleet Intel knows about this, then what's their game? The archon looks grim at this prospect. And if Fleet Intel doesn't know about this, then that's even worse, isn't it?\r\n\r\nAs you forward the fake intercept, the archon finally finds $hisOrHer words. \"They told me everyone would be quiet, no trouble, no games...\"",
+   "ctx": "data/campaign/rules.csv gaFCArchonTellCavin [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"I'm under strict orders to... I mean, to keep intelligence matters of the Persean League... policy secrets...\" \r\n\r\nArchon $personLastName sounds defeated. ",
+   "ctx": "data/campaign/rules.csv gaFCArchonLetMeSeeHer [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"It's not like that at all,\" the archon sputters. \"Laicaille is free and proud! Small, yes, but strategically important. And not tied up in the nepotistic gens politics of Kazeron.\" $HisOrHer face starts turning red, \"They don't understand! Out here we have to work for a living. We face risks those fools can't imagine. What kind of deal is this 'league' if they won't wipe out that pack of pirates holed up in Kapteyn that've been hounding us for... for cycles! And the fleet taxes!\" \r\n\r\nArchon $personLastName closes $hisOrHer eyes and takes several deep breaths, then meets your gaze with a new determination.\r\n\r\n\"You know what. You're right.\"",
+   "ctx": "data/campaign/rules.csv gaFCArchonLetMeSeeHerGoad [text]"
+  },
+  {
+   "i": 16,
+   "en": "The archon's voice steadies with a cold rage that's been building for many cycles, it seems. \"It's time to show them who Laicaille belongs to- and it's not a bunch of Kazeron gens-babies tracking dirt onto our fine station.\"",
+   "ctx": "data/campaign/rules.csv gaFCArchonLetMeSeeHerGoad2 [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"Look, we value our freedom here as much as- no, we value it more than those tin-pot plutocrats from Kazeron,\" the archon sputters. \"Laicaille is free and proud! And by the stars, that means something here, even if you don't see it, and-\" $HisOrHer face starts turning red, \"they say 'don't ask questions', they say 'League defense' and 'need to know' and 'we've got a handle on it'. Do they? With this whole mess set to explode?\"\r\n\r\nArchon $personLastName closes $hisOrHer eyes and takes several deep breaths, then meets your gaze and says, \"You're right. I've been letting those Kazeronian spies push me around. Push Laicaille around. Lord it over us with their 'security clearance' dross. I've... let down what it means to be Laicaillian.\"",
+   "ctx": "data/campaign/rules.csv gaFCArchonLetMeSeeHerAppeal [text]"
+  },
+  {
+   "i": 18,
+   "en": "The archon's voice steadies with a cold rage that's been building for many cycles, \"But we're better than that. We need to show them who Laicaille really belongs to - not a bunch of Kazeron gens babies tracking dirt onto our fine station.\"",
+   "ctx": "data/campaign/rules.csv gaFCArchonLetMeSeeHerAppeal2 [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"Wait,\" says the archon, still upset, \"You're just going to drop the matter? No, I don't believe it. What's your angle, $playerName? Who are you working for? Westernesse media, one of those stupid holovid programs? Or is this another Kazeron psy-op, playing with those back-water rubes from Laicaille?\" $HeOrShe takes a couple deep breaths and steadies $himOrHerself.\r\n\r\n\"Alright Captain $playerName, if that's really who you are. It's not 'fair enough' that I'm willing to cover for some game those upstart Kazeron spies want to play. There's nothing fair about it, nothing fair about how we've been pushed around and manipulated. Laicaille Habitat is free and proud! We don't stand for secret police and secret prisoners and all the old rot from the Domain-era.\"",
+   "ctx": "data/campaign/rules.csv gaFCArchonLetMeSeeHerAvoid [text]"
+  },
+  {
+   "i": 20,
+   "en": "The archon's voice steadies with a cold rage that's been building for many cycles, it seems. \"I'm going to show you and whoever you represent who Laicaille really belongs to - and it's not a bunch of Kazeron gens-babies tracking dirt onto our fine station.\"",
+   "ctx": "data/campaign/rules.csv gaFCArchonLetMeSeeHerAvoid2 [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"Captain. Take a shuttle. Meet me at the executive docking ring. Let's go see this Scylla Coureuse.\"\r\n\r\nThe archon doesn't await your reply before $heOrShe pounds the comms disconnect. You're left staring at the spinning crest of Laicaille Habitat's executive council.",
+   "ctx": "data/campaign/rules.csv gaFCArchonSuccessEnd [text]"
+  },
+  {
+   "i": 22,
+   "en": "You could run a snoop algorithm through the message cache to find \"Scylla Coureuse\" and related keywords. Only recent messages and unencrypted stores will be accessible, but there may be useful intel, and the process is nondestructive.",
+   "ctx": "data/campaign/rules.csv gaFC_relayObjectInteraction [text]"
+  },
+  {
+   "i": 23,
+   "en": "Your $shipOrFleet was recently detected - or is currently being tracked by - a nearby fleet, making a covert hack impossible.",
+   "ctx": "data/campaign/rules.csv gaFC_relayPrintHostilesText [text]"
+  },
+  {
+   "i": 24,
+   "en": "A two-spacer team rides a work drone to the relay and makes a quick hull cut to access a hard data connection. Within a minute, the snoop algorithm is set loose, the hull re-sealed, and the ops team returns.\r\n\r\nNow you wait for it to do its work.",
+   "ctx": "data/campaign/rules.csv gaFC_relayInstallHack0 [text]"
+  },
+  {
+   "i": 25,
+   "en": "After a tense hour or so, your comms officer informs you that the snoop is complete. A team of officers and specialists proficient in techops, infosec, and comms has been analyzing the snoop's data as it has come in, and have already prepared a preliminary report.\r\n\r\n\"The team is still finishing the detailed analysis and decrypting what we can,\" your comms officer reports, \"But we've got a pretty good idea of the big picture.\"",
+   "ctx": "data/campaign/rules.csv gaFC_relayInstallHack1 [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"It looks like most major factions and a few freelancers and underworld agents have been showing an anomalous level of activity in the Isirah system. There are plausible explanations for this of course, but what tipped us off was some sloppy infosec by a Pather infiltrator.\"\r\n\r\nHere, your comms officer pulls up a communication ID and a League ID summary.",
+   "ctx": "data/campaign/rules.csv gaFC_relayInstallHack2 [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"Jensen Gallegos. All the signs of a Pather infiltrator. The ID doesn't hold up to scrutiny as you can see... er, yes captain. The big picture,\" they flip through some irrelevant data logs then focus again on a series of messages sent as text, \"They slipped up here, mentioning Coureuse by name, though misspelled. That led us to discover a simple code system used by what appears to be a cell of Pathers operating on Laicaille Habitat.\"\r\n\r\nThe League ID of not-Jensen Gallegos is joined by a handful more IDs with annotated discrepancies and errors.",
+   "ctx": "data/campaign/rules.csv gaFC_relayInstallHack3 [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"Lots of communication, both text and holo. They think Coureuse is on Laicaille Habitat, but they can't get close to her, and they don't think their identities will hold up to a security check. Which is correct,\" your comms officer says with a touch of pride. \"It sounds like they're asking home base to call in some big guns, whatever that might be. Or whoever.\"\r\n\r\nThe full report will be completed within the shift, but you know what you need to know: Laicaille Habitat.",
+   "ctx": "data/campaign/rules.csv gaFC_relayInstallHack4 [text]"
+  },
+  {
+   "i": 29,
+   "en": "You step off your shuttle to meet the grim-faced Archon $personLastName and $hisOrHer entourage. You are introduced to the other six members of the Laicaille Executive Council; the archon assures you of their full support, though a surreptitious eye roll by one of the council members in the back suggests that the archon's enthusiasm is not shared by all.",
+   "ctx": "data/campaign/rules.csv gaFCLaicaileVisitStartText [text]"
+  }
+ ]
+}

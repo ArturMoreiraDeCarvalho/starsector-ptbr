@@ -1,0 +1,1016 @@
+{
+ "chunk": 42,
+ "cat": "data",
+ "items": [
+  {
+   "i": 1,
+   "en": "Transponder",
+   "ctx": "data/campaign/abilities.csv transponder [name]"
+  },
+  {
+   "i": 2,
+   "en": "Scavenge",
+   "ctx": "data/campaign/abilities.csv scavenge [name]"
+  },
+  {
+   "i": 3,
+   "en": "Neutrino Detector",
+   "ctx": "data/campaign/abilities.csv gravitic_scan [name]"
+  },
+  {
+   "i": 4,
+   "en": "Remote Survey",
+   "ctx": "data/campaign/abilities.csv remote_survey [name]"
+  },
+  {
+   "i": 5,
+   "en": "Broadcast your identity; required for legal trade.",
+   "ctx": "data/campaign/abilities.csv transponder [desc]"
+  },
+  {
+   "i": 6,
+   "en": "Reduce sensor profile at the cost of burn level.",
+   "ctx": "data/campaign/abilities.csv go_dark [desc]"
+  },
+  {
+   "i": 7,
+   "en": "Stop and increase detection range, fleet is more detectable.",
+   "ctx": "data/campaign/abilities.csv sensor_burst [desc]"
+  },
+  {
+   "i": 8,
+   "en": "Briefly boost burn level at the cost of fuel and combat readiness.",
+   "ctx": "data/campaign/abilities.csv emergency_burn [desc]"
+  },
+  {
+   "i": 9,
+   "en": "Boost burn level at the cost of acceleration and wind-up time.",
+   "ctx": "data/campaign/abilities.csv sustained_burn [desc]"
+  },
+  {
+   "i": 10,
+   "en": "Slow down another fleet heading towards the source of the pulse.",
+   "ctx": "data/campaign/abilities.csv interdiction_pulse [desc]"
+  },
+  {
+   "i": 11,
+   "en": "Pick through a debris field for anything of value.",
+   "ctx": "data/campaign/abilities.csv scavenge [desc]"
+  },
+  {
+   "i": 12,
+   "en": "Detect in-system entities at very long range; unreliable with false readings.",
+   "ctx": "data/campaign/abilities.csv gravitic_scan [desc]"
+  },
+  {
+   "i": 13,
+   "en": "Jump into a system through a nascent gravity well, or directly into hyperspace.",
+   "ctx": "data/campaign/abilities.csv fracture_jump [desc]"
+  },
+  {
+   "i": 14,
+   "en": "Identify the most promising survey target in the system.",
+   "ctx": "data/campaign/abilities.csv remote_survey [desc]"
+  },
+  {
+   "i": 15,
+   "en": "Issue a distress call.",
+   "ctx": "data/campaign/abilities.csv distress_call [desc]"
+  },
+  {
+   "i": 16,
+   "en": "Adjust drive field to travel in the opposite direction in slipstreams.",
+   "ctx": "data/campaign/abilities.csv reverse_polarity [desc]"
+  },
+  {
+   "i": 17,
+   "en": "Create a powerful short-lived slipstream useful for rapid travel.",
+   "ctx": "data/campaign/abilities.csv generate_slipsurge [desc]"
+  },
+  {
+   "i": 18,
+   "en": "Food",
+   "ctx": "data/campaign/commodities.csv food [name]"
+  },
+  {
+   "i": 19,
+   "en": "Transplutonic Ore",
+   "ctx": "data/campaign/commodities.csv rare_ore [name]"
+  },
+  {
+   "i": 20,
+   "en": "Metals",
+   "ctx": "data/campaign/commodities.csv metals [name]"
+  },
+  {
+   "i": 21,
+   "en": "Transplutonics",
+   "ctx": "data/campaign/commodities.csv rare_metals [name]"
+  },
+  {
+   "i": 22,
+   "en": "Heavy Machinery",
+   "ctx": "data/campaign/commodities.csv heavy_machinery [name]"
+  },
+  {
+   "i": 23,
+   "en": "Domestic Goods",
+   "ctx": "data/campaign/commodities.csv domestic_goods [name]"
+  },
+  {
+   "i": 24,
+   "en": "Harvested Organs",
+   "ctx": "data/campaign/commodities.csv organs [name]"
+  },
+  {
+   "i": 25,
+   "en": "Recreational Drugs",
+   "ctx": "data/campaign/commodities.csv drugs [name]"
+  },
+  {
+   "i": 26,
+   "en": "Heavy Armaments",
+   "ctx": "data/campaign/commodities.csv hand_weapons [name]"
+  },
+  {
+   "i": 27,
+   "en": "Luxury Goods",
+   "ctx": "data/campaign/commodities.csv luxury_goods [name]"
+  },
+  {
+   "i": 28,
+   "en": "Volturnian Lobster",
+   "ctx": "data/campaign/commodities.csv lobster [name]"
+  },
+  {
+   "i": 29,
+   "en": "Ship Hulls & Weapons",
+   "ctx": "data/campaign/commodities.csv ships [name]"
+  },
+  {
+   "i": 30,
+   "en": "AI Cores",
+   "ctx": "data/campaign/commodities.csv ai_cores [name]"
+  },
+  {
+   "i": 31,
+   "en": "Beta Core",
+   "ctx": "data/campaign/commodities.csv beta_core [name]"
+  },
+  {
+   "i": 32,
+   "en": "Gamma Core",
+   "ctx": "data/campaign/commodities.csv gamma_core [name]"
+  },
+  {
+   "i": 33,
+   "en": "Omega Core",
+   "ctx": "data/campaign/commodities.csv omega_core [name]"
+  },
+  {
+   "i": 34,
+   "en": "Survey Data",
+   "ctx": "data/campaign/commodities.csv survey_data [name]"
+  },
+  {
+   "i": 35,
+   "en": "Class I Survey Data",
+   "ctx": "data/campaign/commodities.csv survey_data_1 [name]"
+  },
+  {
+   "i": 36,
+   "en": "Class II Survey Data",
+   "ctx": "data/campaign/commodities.csv survey_data_2 [name]"
+  },
+  {
+   "i": 37,
+   "en": "Class III Survey Data",
+   "ctx": "data/campaign/commodities.csv survey_data_3 [name]"
+  },
+  {
+   "i": 38,
+   "en": "Class IV Survey Data",
+   "ctx": "data/campaign/commodities.csv survey_data_4 [name]"
+  },
+  {
+   "i": 39,
+   "en": "Class V Survey Data",
+   "ctx": "data/campaign/commodities.csv survey_data_5 [name]"
+  },
+  {
+   "i": 40,
+   "en": "Ship Equipment",
+   "ctx": "data/campaign/commodities.csv ship_weapons [name]"
+  },
+  {
+   "i": 41,
+   "en": "Population & Infrastructure",
+   "ctx": "data/campaign/industries.csv population [name]"
+  },
+  {
+   "i": 42,
+   "en": "Farming",
+   "ctx": "data/campaign/industries.csv farming [name]"
+  },
+  {
+   "i": 43,
+   "en": "Aquaculture",
+   "ctx": "data/campaign/industries.csv aquaculture [name]"
+  },
+  {
+   "i": 44,
+   "en": "Mining",
+   "ctx": "data/campaign/industries.csv mining [name]"
+  },
+  {
+   "i": 45,
+   "en": "Tech-Mining",
+   "ctx": "data/campaign/industries.csv techmining [name]"
+  },
+  {
+   "i": 46,
+   "en": "Refining",
+   "ctx": "data/campaign/industries.csv refining [name]"
+  },
+  {
+   "i": 47,
+   "en": "Spaceport",
+   "ctx": "data/campaign/industries.csv spaceport [name]"
+  },
+  {
+   "i": 48,
+   "en": "Megaport",
+   "ctx": "data/campaign/industries.csv megaport [name]"
+  },
+  {
+   "i": 49,
+   "en": "Light Industry",
+   "ctx": "data/campaign/industries.csv lightindustry [name]"
+  },
+  {
+   "i": 50,
+   "en": "Orbital Works",
+   "ctx": "data/campaign/industries.csv orbitalworks [name]"
+  },
+  {
+   "i": 51,
+   "en": "Fuel Production",
+   "ctx": "data/campaign/industries.csv fuelprod [name]"
+  },
+  {
+   "i": 52,
+   "en": "Commerce",
+   "ctx": "data/campaign/industries.csv commerce [name]"
+  },
+  {
+   "i": 53,
+   "en": "Orbital Station",
+   "ctx": "data/campaign/industries.csv station_base [name]"
+  },
+  {
+   "i": 54,
+   "en": "Orbital Station - Low Tech",
+   "ctx": "data/campaign/industries.csv orbitalstation [name]"
+  },
+  {
+   "i": 55,
+   "en": "Battlestation - Low Tech",
+   "ctx": "data/campaign/industries.csv battlestation [name]"
+  },
+  {
+   "i": 56,
+   "en": "Star Fortress - Low Tech",
+   "ctx": "data/campaign/industries.csv starfortress [name]"
+  },
+  {
+   "i": 57,
+   "en": "Orbital Station - Midline",
+   "ctx": "data/campaign/industries.csv orbitalstation_mid [name]"
+  },
+  {
+   "i": 58,
+   "en": "Battlestation - Midline",
+   "ctx": "data/campaign/industries.csv battlestation_mid [name]"
+  },
+  {
+   "i": 59,
+   "en": "Star Fortress - Midline",
+   "ctx": "data/campaign/industries.csv starfortress_mid [name]"
+  },
+  {
+   "i": 60,
+   "en": "Orbital Station - High Tech",
+   "ctx": "data/campaign/industries.csv orbitalstation_high [name]"
+  },
+  {
+   "i": 61,
+   "en": "Battlestation - High Tech",
+   "ctx": "data/campaign/industries.csv battlestation_high [name]"
+  },
+  {
+   "i": 62,
+   "en": "Star Fortress - High Tech",
+   "ctx": "data/campaign/industries.csv starfortress_high [name]"
+  },
+  {
+   "i": 63,
+   "en": "Heavy Batteries",
+   "ctx": "data/campaign/industries.csv heavybatteries [name]"
+  },
+  {
+   "i": 64,
+   "en": "Lion's Guard HQ",
+   "ctx": "data/campaign/industries.csv lionsguard [name]"
+  },
+  {
+   "i": 65,
+   "en": "Planetary Shield",
+   "ctx": "data/campaign/industries.csv planetaryshield [name]"
+  },
+  {
+   "i": 66,
+   "en": "Waystation",
+   "ctx": "data/campaign/industries.csv waystation [name]"
+  },
+  {
+   "i": 67,
+   "en": "Cryosanctum",
+   "ctx": "data/campaign/industries.csv cryosanctum [name]"
+  },
+  {
+   "i": 68,
+   "en": "Cryorevival Facility",
+   "ctx": "data/campaign/industries.csv cryorevival [name]"
+  },
+  {
+   "i": 69,
+   "en": "The basic infrastructure required to support a given population, from rickety orbital hab-modules to megacities and everything between.",
+   "ctx": "data/campaign/industries.csv population [desc]"
+  },
+  {
+   "i": 70,
+   "en": "Agriculture is a trade and technology as old as civilization itself; for thousands of cycles Humanity has harnessed the power of natural, modified, and artificial biological machines for sustenance. So it has always been, so it shall be so long as humans are human.",
+   "ctx": "data/campaign/industries.csv farming [desc]"
+  },
+  {
+   "i": 71,
+   "en": "Farming on a water world requires a significant initial investment in bioengineering suitable species, but once the process takes off, algae farms and fisheries can be operated by the population without requiring much in the way of specialized training or equipment.",
+   "ctx": "data/campaign/industries.csv aquaculture [desc]"
+  },
+  {
+   "i": 72,
+   "en": "Metal and metalloid ores, organics, and volatile compounds all require heavy equipment, special infrastructure, and a skilled workforce to extract. The harsh work attracts a certain type, and an administration that's not willing to look the other way now and again may find itself running short of willing personnel.",
+   "ctx": "data/campaign/industries.csv mining [desc]"
+  },
+  {
+   "i": 73,
+   "en": "Techmining is the motley art of recovering valuable artifacts from Domain ruins. Requires special tools to deal with unique hazards and expert judgement to know where to look for a good haul of baubles. The oldest techminers are a strange lot, clutching luck-charms and refusing to work without their rituals.",
+   "ctx": "data/campaign/industries.csv techmining [desc]"
+  },
+  {
+   "i": 74,
+   "en": "Smelting plants here convert ores and transplutonic ores into metals and transplutonics, respectively. Teleoperated robotics are used to handle the most dangerous tasks, usually.",
+   "ctx": "data/campaign/industries.csv refining [desc]"
+  },
+  {
+   "i": 75,
+   "en": "Facilities for loading and unloading cargo and performing basic starship repairs. A colony without a spaceport is virtually inaccessible to interstellar trade.",
+   "ctx": "data/campaign/industries.csv spaceport [desc]"
+  },
+  {
+   "i": 76,
+   "en": "A vast starport where the stars can touch the dirt. Regimented lander gantries and armoured fuel tanks are laced together by access-roads and short-haul cargo trams feeding a sprawl of warehouse districts and logistics terminals, all making the colony vastly more accessible.",
+   "ctx": "data/campaign/industries.csv megaport [desc]"
+  },
+  {
+   "i": 77,
+   "en": "Produces domestic and luxury goods. One of the few industries relatively unaffected by the Collapse due to its low-tech nature.",
+   "ctx": "data/campaign/industries.csv lightindustry [desc]"
+  },
+  {
+   "i": 78,
+   "en": "Centralized manufacturing infrastructure for production of heavy industrial equipment, supplies, and weapons. Also capable of producing barely-spaceworthy starships; a nanoforge can be installed to improve production quality.",
+   "ctx": "data/campaign/industries.csv heavyindustry [desc]"
+  },
+  {
+   "i": 79,
+   "en": "Centralized manufacturing infrastructure for production of heavy industrial equipment, supplies, and weapons. Also capable of producing barely-spaceworthy starships; a nanoforge can be installed to improve production quality.\n\nUpgraded with an orbital component that further facilitates ship construction, resulting in fewer manufacturing defects.",
+   "ctx": "data/campaign/industries.csv orbitalworks [desc]"
+  },
+  {
+   "i": 80,
+   "en": "This facility produces starship fuel, the life-blood of interstellar civilization. Lacking Domain-tech components, fuel production is a laborious and slow process.",
+   "ctx": "data/campaign/industries.csv fuelprod [desc]"
+  },
+  {
+   "i": 81,
+   "en": "Regulations, grants, and infrastructure to encourage thriving independent trade. Greatly reduces the degree of direct control the administration has over the colony.",
+   "ctx": "data/campaign/industries.csv commerce [desc]"
+  },
+  {
+   "i": 82,
+   "en": "A space station that is capable of supporting friendly fleets near $marketName and must be reduced before a bombardment can be attempted.\n\nSeveral variations are available, with differences generally being in tactical approaches rather than overall strength.",
+   "ctx": "data/campaign/industries.csv station_base [desc]"
+  },
+  {
+   "i": 83,
+   "en": "A low-tech space station, featuring heavy armor and medium firepower.\n\nMust be reduced before a bombardment can be attempted.",
+   "ctx": "data/campaign/industries.csv orbitalstation [desc]"
+  },
+  {
+   "i": 84,
+   "en": "A space station, augmented with a heavy bastion and point-defense citadels.\n\nMust be reduced before a bombardment can be attempted.",
+   "ctx": "data/campaign/industries.csv battlestation [desc]"
+  },
+  {
+   "i": 85,
+   "en": "An up-armored battlestation, featuring Merlon-class defense drones and an extensive minefield.\n\nMust be reduced before a bombardment can be attempted.",
+   "ctx": "data/campaign/industries.csv starfortress [desc]"
+  },
+  {
+   "i": 86,
+   "en": "A midline space station, featuring heavy firepower on one side and rapid axial rotation.\n\nMust be reduced before a bombardment can be attempted.",
+   "ctx": "data/campaign/industries.csv orbitalstation_mid [desc]"
+  },
+  {
+   "i": 87,
+   "en": "A space station, augmented with missile support modules.\n\nMust be reduced before a bombardment can be attempted.",
+   "ctx": "data/campaign/industries.csv battlestation_mid [desc]"
+  },
+  {
+   "i": 88,
+   "en": "An up-armored battlestation, featuring Ravelin-class defense drones and an extensive minefield.\n\nMust be reduced before a bombardment can be attempted.",
+   "ctx": "data/campaign/industries.csv starfortress_mid [desc]"
+  },
+  {
+   "i": 89,
+   "en": "A high-tech space station, featuring heavy rotating shields, a fighter complement, and medium firepower.\n\nMust be reduced before a bombardment can be attempted.",
+   "ctx": "data/campaign/industries.csv orbitalstation_high [desc]"
+  },
+  {
+   "i": 90,
+   "en": "A space station, augmented with a defensive citadel featuring heavy firepower.\n\nMust be reduced before a bombardment can be attempted.",
+   "ctx": "data/campaign/industries.csv battlestation_high [desc]"
+  },
+  {
+   "i": 91,
+   "en": "An up-armored battlestation, featuring Gargoyle-class defense drones and long-range targeted mine teleporters.\n\nMust be reduced before a bombardment can be attempted.",
+   "ctx": "data/campaign/industries.csv starfortress_high [desc]"
+  },
+  {
+   "i": 92,
+   "en": "A dispersed, semi-autonomous network of small, hidden weapon installations which makes the prospect of a direct ground assault and even simple raids extremely costly to the attacker. Only overwhelming orbital bombardment or massively disproportionate active screening can suppress these defenses.",
+   "ctx": "data/campaign/industries.csv grounddefenses [desc]"
+  },
+  {
+   "i": 93,
+   "en": "Armoured subsurface batteries supplement a dispersed network of small, hidden weapon installations. Ground-based batteries are capable of truly awesome firepower, though it only manifests by making ground operations more difficult, as no starship captain would be foolish enough to get within their firing envelopes.",
+   "ctx": "data/campaign/industries.csv heavybatteries [desc]"
+  },
+  {
+   "i": 94,
+   "en": "The requisite hangars, maintenance bays, command/control center, barracks, and logistics operations required to project force throughout a star system. Once established, militarized patrols will hunt pirates and protect friendly convoys.",
+   "ctx": "data/campaign/industries.csv patrolhq [desc]"
+  },
+  {
+   "i": 95,
+   "en": "These facilities enable force projection between star systems. Any such military undertaking is a massive logistical operation requiring coordination of dozens, perhaps hundreds of star ships and thousands of officers, crew, and soldiers.",
+   "ctx": "data/campaign/industries.csv militarybase [desc]"
+  },
+  {
+   "i": 96,
+   "en": "Transtellar empire is possible only through an exceptional corps of officers and bureaucrats given authority over the resources of entire star systems. An established high command allows military operations to be organized and executed across the Sector.",
+   "ctx": "data/campaign/industries.csv highcommand [desc]"
+  },
+  {
+   "i": 97,
+   "en": "Headquarters of the feared personal guard of Phillip \"The Lion of Sindria\" Andrada. Boasting superb training and access to the best equipment credits can buy, the fanatical loyalty of the Guard is maintained through a system of perks and incentives that both elevate and isolate the Guard from the Diktat's regular military.",
+   "ctx": "data/campaign/industries.csv lionsguard [desc]"
+  },
+  {
+   "i": 98,
+   "en": "An envelope of charged plasma seeded with exotic virtual particles producing effects which disrupt the combat effectiveness of long-range bombardment and even incursion by small vessels. The planetary shield can be continually charged and controlled by a central source and presents a formidable obstacle to any form of ground assault.",
+   "ctx": "data/campaign/industries.csv planetaryshield [desc]"
+  },
+  {
+   "i": 99,
+   "en": "A supply and maintenance depot for interstellar fleets. Increases a colony's accessibility.",
+   "ctx": "data/campaign/industries.csv waystation [desc]"
+  },
+  {
+   "i": 100,
+   "en": "An enormous tomb-like vault built to store those who choose to risk cryosleep to pass this time of troubles to wake in what will presumably be a more civilized age. The cryopods themselves are insignificant in size compared to the many-times redundant support infrastructure, massive automated security systems and anti-ship batteries, all housed in a branching subsurface fortress-labyrinth.",
+   "ctx": "data/campaign/industries.csv cryosanctum [desc]"
+  },
+  {
+   "i": 101,
+   "en": "The necessary facilities for the mass revival and assimilation of the passengers of a Domain-era cryosleeper. Greatly increases population growth.",
+   "ctx": "data/campaign/industries.csv cryorevival [desc]"
+  },
+  {
+   "i": 102,
+   "en": "Urbanized Polity",
+   "ctx": "data/campaign/market_conditions.csv urbanized_polity [name]"
+  },
+  {
+   "i": 103,
+   "en": "Industrial Polity",
+   "ctx": "data/campaign/market_conditions.csv industrial_polity [name]"
+  },
+  {
+   "i": 104,
+   "en": "Rural Polity",
+   "ctx": "data/campaign/market_conditions.csv rural_polity [name]"
+  },
+  {
+   "i": 105,
+   "en": "Large Refugee Population",
+   "ctx": "data/campaign/market_conditions.csv large_refugee_population [name]"
+  },
+  {
+   "i": 106,
+   "en": "Volturnian Lobster Pens",
+   "ctx": "data/campaign/market_conditions.csv volturnian_lobster_pens [name]"
+  },
+  {
+   "i": 107,
+   "en": "Vice Demand",
+   "ctx": "data/campaign/market_conditions.csv vice_demand [name]"
+  },
+  {
+   "i": 108,
+   "en": "Organized Crime",
+   "ctx": "data/campaign/market_conditions.csv organized_crime [name]"
+  },
+  {
+   "i": 109,
+   "en": "Frontier",
+   "ctx": "data/campaign/market_conditions.csv frontier [name]"
+  },
+  {
+   "i": 110,
+   "en": "Shipbreaking Center",
+   "ctx": "data/campaign/market_conditions.csv shipbreaking_center [name]"
+  },
+  {
+   "i": 111,
+   "en": "Trade Center",
+   "ctx": "data/campaign/market_conditions.csv trade_center [name]"
+  },
+  {
+   "i": 112,
+   "en": "Decivilized",
+   "ctx": "data/campaign/market_conditions.csv decivilized [name]"
+  },
+  {
+   "i": 113,
+   "en": "Decivilized Subpopulation",
+   "ctx": "data/campaign/market_conditions.csv decivilized_subpop [name]"
+  },
+  {
+   "i": 114,
+   "en": "Abandoned Station",
+   "ctx": "data/campaign/market_conditions.csv abandoned_station [name]"
+  },
+  {
+   "i": 115,
+   "en": "Cottage Industry",
+   "ctx": "data/campaign/market_conditions.csv cottage_industry [name]"
+  },
+  {
+   "i": 116,
+   "en": "Stealth Minefields",
+   "ctx": "data/campaign/market_conditions.csv stealth_minefields [name]"
+  },
+  {
+   "i": 117,
+   "en": "Regional Capital",
+   "ctx": "data/campaign/market_conditions.csv regional_capital [name]"
+  },
+  {
+   "i": 118,
+   "en": "Closed Immigration",
+   "ctx": "data/campaign/market_conditions.csv closed_immigration [name]"
+  },
+  {
+   "i": 119,
+   "en": "Uninhabitable World",
+   "ctx": "data/campaign/market_conditions.csv uninhabitable [name]"
+  },
+  {
+   "i": 120,
+   "en": "Ice World",
+   "ctx": "data/campaign/market_conditions.csv ice [name]"
+  },
+  {
+   "i": 121,
+   "en": "Desert World",
+   "ctx": "data/campaign/market_conditions.csv desert [name]"
+  },
+  {
+   "i": 122,
+   "en": "Arid World",
+   "ctx": "data/campaign/market_conditions.csv arid [name]"
+  },
+  {
+   "i": 123,
+   "en": "Water World",
+   "ctx": "data/campaign/market_conditions.csv water [name]"
+  },
+  {
+   "i": 124,
+   "en": "Jungle World",
+   "ctx": "data/campaign/market_conditions.csv jungle [name]"
+  },
+  {
+   "i": 125,
+   "en": "Terran World",
+   "ctx": "data/campaign/market_conditions.csv terran [name]"
+  },
+  {
+   "i": 126,
+   "en": "Barren-marginal World",
+   "ctx": "data/campaign/market_conditions.csv barren_marginal [name]"
+  },
+  {
+   "i": 127,
+   "en": "Twilight World",
+   "ctx": "data/campaign/market_conditions.csv twilight [name]"
+  },
+  {
+   "i": 128,
+   "en": "Tundra World",
+   "ctx": "data/campaign/market_conditions.csv tundra [name]"
+  },
+  {
+   "i": 129,
+   "en": "Cryovolcanic World",
+   "ctx": "data/campaign/market_conditions.csv cryovolcanic [name]"
+  },
+  {
+   "i": 130,
+   "en": "Dissident Population",
+   "ctx": "data/campaign/market_conditions.csv dissident [name]"
+  },
+  {
+   "i": 131,
+   "en": "Hydroponics Complex",
+   "ctx": "data/campaign/market_conditions.csv hydroponics_complex [name]"
+  },
+  {
+   "i": 132,
+   "en": "Population",
+   "ctx": "data/campaign/market_conditions.csv population_1 [name]"
+  },
+  {
+   "i": 133,
+   "en": "Food Shortage",
+   "ctx": "data/campaign/market_conditions.csv event_food_shortage [name]"
+  },
+  {
+   "i": 134,
+   "en": "Recent Unrest",
+   "ctx": "data/campaign/market_conditions.csv recent_unrest [name]"
+  },
+  {
+   "i": 135,
+   "en": "Trade Disruption",
+   "ctx": "data/campaign/market_conditions.csv event_trade_disruption [name]"
+  },
+  {
+   "i": 136,
+   "en": "Smuggling",
+   "ctx": "data/campaign/market_conditions.csv event_smuggling [name]"
+  },
+  {
+   "i": 137,
+   "en": "Rogue AI Core",
+   "ctx": "data/campaign/market_conditions.csv rogue_ai_core [name]"
+  },
+  {
+   "i": 138,
+   "en": "AI Core Admin (hidden)",
+   "ctx": "data/campaign/market_conditions.csv ai_core_admin [name]"
+  },
+  {
+   "i": 139,
+   "en": "Hostile Activity",
+   "ctx": "data/campaign/market_conditions.csv hostile_activity [name]"
+  },
+  {
+   "i": 140,
+   "en": "Piracy Respite",
+   "ctx": "data/campaign/market_conditions.csv piracy_respite [name]"
+  },
+  {
+   "i": 141,
+   "en": "Blockaded",
+   "ctx": "data/campaign/market_conditions.csv blockaded [name]"
+  },
+  {
+   "i": 142,
+   "en": "Comm Relay (hidden)",
+   "ctx": "data/campaign/market_conditions.csv comm_relay [name]"
+  },
+  {
+   "i": 143,
+   "en": "Scattered Ruins",
+   "ctx": "data/campaign/market_conditions.csv ruins_scattered [name]"
+  },
+  {
+   "i": 144,
+   "en": "Widespread Ruins",
+   "ctx": "data/campaign/market_conditions.csv ruins_widespread [name]"
+  },
+  {
+   "i": 145,
+   "en": "Extensive Ruins",
+   "ctx": "data/campaign/market_conditions.csv ruins_extensive [name]"
+  },
+  {
+   "i": 146,
+   "en": "Vast Ruins",
+   "ctx": "data/campaign/market_conditions.csv ruins_vast [name]"
+  },
+  {
+   "i": 147,
+   "en": "Extreme Cold",
+   "ctx": "data/campaign/market_conditions.csv very_cold [name]"
+  },
+  {
+   "i": 148,
+   "en": "Hot",
+   "ctx": "data/campaign/market_conditions.csv hot [name]"
+  },
+  {
+   "i": 149,
+   "en": "Extreme Heat",
+   "ctx": "data/campaign/market_conditions.csv very_hot [name]"
+  },
+  {
+   "i": 150,
+   "en": "Tectonic Activity",
+   "ctx": "data/campaign/market_conditions.csv tectonic_activity [name]"
+  },
+  {
+   "i": 151,
+   "en": "Extreme Tectonic Activtity",
+   "ctx": "data/campaign/market_conditions.csv extreme_tectonic_activity [name]"
+  },
+  {
+   "i": 152,
+   "en": "No Atmosphere",
+   "ctx": "data/campaign/market_conditions.csv no_atmosphere [name]"
+  },
+  {
+   "i": 153,
+   "en": "Thin Atmosphere",
+   "ctx": "data/campaign/market_conditions.csv thin_atmosphere [name]"
+  },
+  {
+   "i": 154,
+   "en": "Toxic Atmosphere",
+   "ctx": "data/campaign/market_conditions.csv toxic_atmosphere [name]"
+  },
+  {
+   "i": 155,
+   "en": "Dense Atmosphere",
+   "ctx": "data/campaign/market_conditions.csv dense_atmosphere [name]"
+  },
+  {
+   "i": 156,
+   "en": "Mild Climate",
+   "ctx": "data/campaign/market_conditions.csv mild_climate [name]"
+  },
+  {
+   "i": 157,
+   "en": "Extreme Weather",
+   "ctx": "data/campaign/market_conditions.csv extreme_weather [name]"
+  },
+  {
+   "i": 158,
+   "en": "Low Gravity",
+   "ctx": "data/campaign/market_conditions.csv low_gravity [name]"
+  },
+  {
+   "i": 159,
+   "en": "High Gravity",
+   "ctx": "data/campaign/market_conditions.csv high_gravity [name]"
+  },
+  {
+   "i": 160,
+   "en": "Irradiated",
+   "ctx": "data/campaign/market_conditions.csv irradiated [name]"
+  },
+  {
+   "i": 161,
+   "en": "Inimical Biosphere",
+   "ctx": "data/campaign/market_conditions.csv inimical_biosphere [name]"
+  },
+  {
+   "i": 162,
+   "en": "Water-covered Surface",
+   "ctx": "data/campaign/market_conditions.csv water_surface [name]"
+  },
+  {
+   "i": 163,
+   "en": "Poor Light",
+   "ctx": "data/campaign/market_conditions.csv poor_light [name]"
+  },
+  {
+   "i": 164,
+   "en": "Darkness",
+   "ctx": "data/campaign/market_conditions.csv dark [name]"
+  },
+  {
+   "i": 165,
+   "en": "Meteor Impacts",
+   "ctx": "data/campaign/market_conditions.csv meteor_impacts [name]"
+  },
+  {
+   "i": 166,
+   "en": "Pollution",
+   "ctx": "data/campaign/market_conditions.csv pollution [name]"
+  },
+  {
+   "i": 167,
+   "en": "Sparse Ore Deposits",
+   "ctx": "data/campaign/market_conditions.csv ore_sparse [name]"
+  },
+  {
+   "i": 168,
+   "en": "Moderate Ore Deposits",
+   "ctx": "data/campaign/market_conditions.csv ore_moderate [name]"
+  },
+  {
+   "i": 169,
+   "en": "Abundant Ore Deposits",
+   "ctx": "data/campaign/market_conditions.csv ore_abundant [name]"
+  },
+  {
+   "i": 170,
+   "en": "Rich Ore Deposits",
+   "ctx": "data/campaign/market_conditions.csv ore_rich [name]"
+  },
+  {
+   "i": 171,
+   "en": "Ultrarich Ore Deposits",
+   "ctx": "data/campaign/market_conditions.csv ore_ultrarich [name]"
+  },
+  {
+   "i": 172,
+   "en": "Sparse Rare Ore Deposits",
+   "ctx": "data/campaign/market_conditions.csv rare_ore_sparse [name]"
+  },
+  {
+   "i": 173,
+   "en": "Moderate Rare Ore Deposits",
+   "ctx": "data/campaign/market_conditions.csv rare_ore_moderate [name]"
+  },
+  {
+   "i": 174,
+   "en": "Abundant Rare Ore Deposits",
+   "ctx": "data/campaign/market_conditions.csv rare_ore_abundant [name]"
+  },
+  {
+   "i": 175,
+   "en": "Rich Rare Ore Deposits",
+   "ctx": "data/campaign/market_conditions.csv rare_ore_rich [name]"
+  },
+  {
+   "i": 176,
+   "en": "Ultrarich Rare Ore Deposits",
+   "ctx": "data/campaign/market_conditions.csv rare_ore_ultrarich [name]"
+  },
+  {
+   "i": 177,
+   "en": "Trace Volatiles",
+   "ctx": "data/campaign/market_conditions.csv volatiles_trace [name]"
+  },
+  {
+   "i": 178,
+   "en": "Diffuse Volatiles",
+   "ctx": "data/campaign/market_conditions.csv volatiles_diffuse [name]"
+  },
+  {
+   "i": 179,
+   "en": "Abundant Volatiles",
+   "ctx": "data/campaign/market_conditions.csv volatiles_abundant [name]"
+  },
+  {
+   "i": 180,
+   "en": "Plentiful Volatiles",
+   "ctx": "data/campaign/market_conditions.csv volatiles_plentiful [name]"
+  },
+  {
+   "i": 181,
+   "en": "Trace Organics",
+   "ctx": "data/campaign/market_conditions.csv organics_trace [name]"
+  },
+  {
+   "i": 182,
+   "en": "Common Organics",
+   "ctx": "data/campaign/market_conditions.csv organics_common [name]"
+  },
+  {
+   "i": 183,
+   "en": "Abundant Organics",
+   "ctx": "data/campaign/market_conditions.csv organics_abundant [name]"
+  },
+  {
+   "i": 184,
+   "en": "Plentiful Organics",
+   "ctx": "data/campaign/market_conditions.csv organics_plentiful [name]"
+  },
+  {
+   "i": 185,
+   "en": "Poor Farmland",
+   "ctx": "data/campaign/market_conditions.csv farmland_poor [name]"
+  },
+  {
+   "i": 186,
+   "en": "Adequate Farmland",
+   "ctx": "data/campaign/market_conditions.csv farmland_adequate [name]"
+  },
+  {
+   "i": 187,
+   "en": "Rich Farmland",
+   "ctx": "data/campaign/market_conditions.csv farmland_rich [name]"
+  },
+  {
+   "i": 188,
+   "en": "Bountiful Farmland",
+   "ctx": "data/campaign/market_conditions.csv farmland_bountiful [name]"
+  },
+  {
+   "i": 189,
+   "en": "Orbital Solar Array",
+   "ctx": "data/campaign/market_conditions.csv solar_array [name]"
+  },
+  {
+   "i": 190,
+   "en": "A dense and cosmopolitan center of population, people of all walks of life live, work, and die in the stacked hab-complexes, commercial concourses, and modular workshops.",
+   "ctx": "data/campaign/market_conditions.csv urbanized_polity [desc]"
+  },
+  {
+   "i": 191,
+   "en": "A bustling industrial center. The policies of the local government encourage thriving industry, at the expense of all other concerns.",
+   "ctx": "data/campaign/market_conditions.csv industrial_polity [desc]"
+  },
+  {
+   "i": 192,
+   "en": "A sparsely populated polity of homesteads and insular townships. In these troubled times, outsiders are generally treated with suspicion.",
+   "ctx": "data/campaign/market_conditions.csv rural_polity [desc]"
+  },
+  {
+   "i": 193,
+   "en": "Desperate refugees fleeing some disaster have ended up here. Refugees live at the bottom of society with little opportunity for betterment, straining domestic infrastructure living in tense semi-legal status. Reduced overall production. More prospective crew members are likely to be found among those trying to escape the squalid living conditions.",
+   "ctx": "data/campaign/market_conditions.csv large_refugee_population [desc]"
+  },
+  {
+   "i": 194,
+   "en": "A mix of several Old Earth species and a little imagination produced this creature which grows wild in the crushing depths of Volturn's sea-floor. The flavor is said to be exceptional.",
+   "ctx": "data/campaign/market_conditions.csv volturnian_lobster_pens [desc]"
+  },
+  {
+   "i": 195,
+   "en": "The demand for vice goods is unusually high here.",
+   "ctx": "data/campaign/market_conditions.csv vice_demand [desc]"
+  },
+  {
+   "i": 196,
+   "en": "Criminal activity produces drugs and harvested organs. Increases demand for hand weapons (by both various crime bosses and local citizenry) and marines (by the local authorities).",
+   "ctx": "data/campaign/market_conditions.csv organized_crime [desc]"
+  },
+  {
+   "i": 197,
+   "en": "Far from the cosmopolitan centers of population, mere survival, self-reliance, and only-the-necessities are the rules of the frontier. Increased demand for weapons and supplies, reduced demand for luxury goods.",
+   "ctx": "data/campaign/market_conditions.csv frontier [desc]"
+  },
+  {
+   "i": 198,
+   "en": "A major center of shipbreaking in this region of the Sector, hulks are consigned to scrapping here by the navies of major factions and many other clients from among the Sector core worlds.",
+   "ctx": "data/campaign/market_conditions.csv shipbreaking_center [desc]"
+  },
+  {
+   "i": 199,
+   "en": "A major center of trade, merchant vessels from across the Sector dock here expecting to find a buyer for their goods- and to find something to buy in turn for a nice profit.",
+   "ctx": "data/campaign/market_conditions.csv trade_center [desc]"
+  },
+  {
+   "i": 200,
+   "en": "There is no stable ruling polity here. Civilization is collapsed and current population is effectively unknown, though groups of survivors, bandits, and looters can be detected.",
+   "ctx": "data/campaign/market_conditions.csv decivilized [desc]"
+  },
+  {
+   "i": 201,
+   "en": "Civilization has been brought back to parts of $market, often at the point of a gauss rifle. However, an effectively unknown population of survivors, bandits, and looters still remains on the fringes.",
+   "ctx": "data/campaign/market_conditions.csv decivilized_subpop [desc]"
+  },
+  {
+   "i": 202,
+   "en": "This station is abandoned.",
+   "ctx": "data/campaign/market_conditions.csv abandoned_station [desc]"
+  }
+ ]
+}

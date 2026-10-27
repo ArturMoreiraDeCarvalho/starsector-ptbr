@@ -1,0 +1,191 @@
+{
+ "chunk": 119,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "As the transfer chimes complete, the officer makes a perfectly insincere smile.\r\n\r\n\"Stay safe, citizen,\" he says.",
+   "ctx": "data/campaign/rules.csv lkeMazBarAgentRespBribe2 [text]"
+  },
+  {
+   "i": 2,
+   "en": "Confusion, then a sneer grows on his face.\r\n\r\n\"Don't get smart with me, spacer - you don't want to catch me in a bad mood.\" ",
+   "ctx": "data/campaign/rules.csv lkeMazBarAgentRespBribe3 [text]"
+  },
+  {
+   "i": 3,
+   "en": "His sneer fades. You wouldn't be so stupid, his look says, would you? You give a little nod; yes, you would. You've done far stupider and walked away intact.\r\n\r\nBefore long, you've got the dossier on one Nile Virens, local Pather strongman, transferred to your datapad. Contact info, addresses, and a patchy bio. Operates compounds in all the major Luddic population centers. Runs the Path, such as it is, on Mazalot.\r\n\r\n\"You deserve each other,\" the officer grumbles as he makes his exit.",
+   "ctx": "data/campaign/rules.csv lkeMazBarAgentRespBribe4 [text]"
+  },
+  {
+   "i": 4,
+   "en": "A solid blow sends the security officer toppling back into a table which obediently flips, spilling glassware and tipsy spacers across the bar.\r\n\r\nThe MuniSec undercovers that were watching you the whole time from the bar leap to their feet, drawing stun prods. \r\n\r\nYou manage to avoid them thanks to the shouting, chaos, and your bodyguards' admirable job of running interference without appearing to be associated with you.",
+   "ctx": "data/campaign/rules.csv lkeMazBarAgentRespPunch [text]"
+  },
+  {
+   "i": 5,
+   "en": "As you slip out of the bar, leaving the sound of breaking glass and shouting behind, you reflect that the MuniSec goons were definitely running holo-rec, so it's not a clean getaway. \r\n\r\nBut it's also probably not worth the real authorities making too much a fuss about, either. You wouldn't be the first spacer to run from a brawl, not on Mazalot, not anywhere, and allowances must be made for the commerce your type brings to these worlds.\r\n\r\nSomeone will remember, however.",
+   "ctx": "data/campaign/rules.csv lkeMazBarAgentRespPunch2 [text]"
+  },
+  {
+   "i": 6,
+   "en": "This cop is local munisec, and a corrupt bottom-feeder at that. You know that such a bully is easily bullied if they believe you're higher-ranking. And the Persean League Fleet Intelligence Service is an elite among the League, filled with Gens-heirs.\r\n\r\n\"Officer.\" You affect the aristocratic accent of Kazeron and its self-assured authority, \"Think very carefully before you respond.\"",
+   "ctx": "data/campaign/rules.csv lkeMazBarAgentRespSiyavong [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"I didn't want to come to this Luddie-infested backwater of a failed terraforming experiment to hunt Pathers, but Intel smelled rot. Do you know what that means? - Don't answer. We have heard reports - disturbing reports - about the accounts of the Mazalot Unification Authority Municipal Security branch.\"\r\n\r\nThe officer is on his back heel, sweating. Nearby tables are carefully pretending not to listen to your tirade.\r\n\r\n\"'Riddled with Pather credits' is what I've heard. And as you well know per the League's Interstellar Terrorism Statute - which you so helpfully quoted for me - that means that central oversight is empowered to intervene in local affairs.\"",
+   "ctx": "data/campaign/rules.csv lkeMazBarAgentRespSiyavong2 [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"Do you know what that means? Do not respond, officer, I am not finished.\"\r\n\r\nYou continue the dress-down, describing the various powers that the central League executive can hammer down upon members found to be involved in abetting terrorism - Mairaath's millions dead were fresh in the minds of the composers of the League's constitution, and the powers enumerated to stop a repeat of the event are far-reaching indeed.\r\n\r\nIt is, you reflect, a good thing you paid attention to League history.",
+   "ctx": "data/campaign/rules.csv lkeMazBarAgentRespSiyavong3 [text]"
+  },
+  {
+   "i": 9,
+   "en": "Before long, you have the munisec officer silent and near-tears across from you in a booth while you browse local security reports on their datapad using their own login.\r\n\r\nYou find exactly what you need - Nile Virens, local Pather strongman. Operates compounds in all the major Luddic population centers.\r\n\r\nAfter transferring the information to your own TriPad you toss the officer's datapad across the table. He is too slow to catch it, and it clatters to the ground.",
+   "ctx": "data/campaign/rules.csv lkeMazBarAgentRespSiyavong4 [text]"
+  },
+  {
+   "i": 10,
+   "en": "The agent's eyes light up at this, and their mouth opens to speak more - but you've already turned away.",
+   "ctx": "data/campaign/rules.csv LKEaskMazalotBarEndC [text]"
+  },
+  {
+   "i": 11,
+   "en": "Your comms officer pings you unexpectedly.\r\n\r\n\"$PlayerSirOrMadam. I received an unusual communication which- I thought it should be brought to your attention.\"",
+   "ctx": "data/campaign/rules.csv LKEmazalotFreebieAdvance0 [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"$PlayerSirOrMadam. Someone who claims to work for a man named 'Virens' commed to invite you to a meeting. I did not... at first think to bring it to your attention until the details could be verified.\"\r\n\r\n\"Well, ah,\" they twitch nervously. \"We verified the details.\"",
+   "ctx": "data/campaign/rules.csv LKEmazalotFreebieAdvance1 [text]"
+  },
+  {
+   "i": 13,
+   "en": "And indeed, as your comms officer explains, it turns out that one Nile Virens figures prominently in Mazalot as the leader (alleged) of the local branch of the Luddic Path, though none of the mainstream media or data outlets state this apparently unspoken-by-agreement fact. Virens legally runs a number of charities; Pather fronts (allegedly), and owns properties in most of the significant Luddic-majority settlements on Mazalot.\r\n\r\nIt's not difficult to read between the lines. Just dangerous.\r\n\r\nUnless you are someone who employs top-credit bodyguards and operates a private battlefleet.",
+   "ctx": "data/campaign/rules.csv LKEmazalotFreebieAdvance2 [text]"
+  },
+  {
+   "i": 14,
+   "en": "It's almost shocking that Virens hasn't been arrested already, but his status is a political minefield for the Mazalot Unification Authority. To crack down might instigate another uprising. To not crack down allows Pather influence to simmer just under the boiling point.\r\n\r\nAnd now, Nile Virens has invited you for tea.\r\n\r\nYour officers, of course, have rapidly assembled a tactical report on Virens' holdings for your review.",
+   "ctx": "data/campaign/rules.csv LKEmazalotFreebieAdvance3 [text]"
+  },
+  {
+   "i": 15,
+   "en": "You execute the command to open comms for Nile Virens. Your interface links to the MUA network, its motto blinking for a moment - something about \"diversity of belief and good order\" - then forwards through a series of ancient off-the-forge low-power relays displaying embedded logos of the long-dead megacorp that once claimed ownership of the hardware.\r\n\r\nYour request hangs in the limbo, request bouncing between nodes on the Mazalot network.\r\n\r\nNile Virens isn't answering.",
+   "ctx": "data/campaign/rules.csv lkeVirensCommGreeting [text]"
+  },
+  {
+   "i": 16,
+   "en": "Your comms officer replies with an appropriately professional level of enthusiasm to the tedious task. In the meantime, you turn to certain routine obligations of running a $shipOrFleet.",
+   "ctx": "data/campaign/rules.csv lkeVirensCommsFirstWait [text]"
+  },
+  {
+   "i": 17,
+   "en": "Mere minutes later, your comms officer pings you with an update.\r\n\r\nNile Virens never activated the comms; it seems that he \"doesn't use comms\". But someone who claimed to be an associate did respond, finally, and has relayed an invitation...",
+   "ctx": "data/campaign/rules.csv lkeVirensComms2 [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"Um,\" your comms officer is caught off guard. \"Yes, $playerSirOrMadam, he has. For tea.\"\r\n\r\nYou consider your options.",
+   "ctx": "data/campaign/rules.csv lkeVirensComms3 [text]"
+  },
+  {
+   "i": 19,
+   "en": "It is possible that word of your killing of Sedge has made its way to Virens, whether he uses comms or not. You imagine that he may take a dim view of your action on Chalcedon.",
+   "ctx": "data/campaign/rules.csv lkeVirensCommsSedgeAside [text]"
+  },
+  {
+   "i": 20,
+   "en": "From the shuttle you admire the atmospheric display resulting from Mazalot's strong magnetic field; spectra flare and break like ocean waves.\r\n\r\nYour shuttle is unaffected aside from extra cleanup processing required by the comms and nav systems. \r\n\r\nYou land on the outskirts of some Luddic-majority town in what passes for a spaceport: a field of baked gray dust. A long row of sheds might be traffic control, warehouses, or a barn for all you know.",
+   "ctx": "data/campaign/rules.csv LKEshuttleToVirens1 [text]"
+  },
+  {
+   "i": 21,
+   "en": "A pair of militants wearing dust masks meet you. They're armed, but not conspicuously so.\r\n\r\nThey lead you through a town of sun-baked brick and slowly corroding salvage. Bright paint and lush gardens manage, just, to stave off a sense of apocalyptic decay.\r\n\r\nSoon, you find yourself before a large compound with doors of etched metal. The militants are met by another pair, similarly armed. The most senior among them lowers his mask.",
+   "ctx": "data/campaign/rules.csv LKEshuttleToVirens2 [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"$PlayerName. Blessed peace this day. Please, $playerSirOrMadam, follow me.\"",
+   "ctx": "data/campaign/rules.csv LKEshuttleToVirens2b [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"$PlayerName. Blessed peace,\" he says, and hesitates. \r\n\r\n\"Please. Your weapon.\" He indicates your sidearm.",
+   "ctx": "data/campaign/rules.csv LKEshuttleToVirens2a [text]"
+  },
+  {
+   "i": 24,
+   "en": "The lead guard accepts it with both hands, giving a little bow, then tucks it into a holster on the front of his webbing. \r\n\r\nA place of honor? Or at least a visible demonstration that he's going to keep a close eye on your gun.",
+   "ctx": "data/campaign/rules.csv LKEvirensGunCheckA [text]"
+  },
+  {
+   "i": 25,
+   "en": "The guards glance nervously at one another. Someone mutters something at the edge of your hearing.\r\n\r\nThe leader gives a hiss and they shut up.\r\n\r\n\"Please, if you would,\" he says. \"You are a guest of Brother Virens. He guarantees your safety on this world.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensGunCheckB [text]"
+  },
+  {
+   "i": 26,
+   "en": "The guards glance nervously at one another, muttering. The leader gives a hiss and they shut up.\r\n\r\n\"Please, if you would,\" he says. \"You are a guest of Brother Virens. You will not be touched on this world.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensGunCheckC [text]"
+  },
+  {
+   "i": 27,
+   "en": "The leader almost looks sad for a moment, then something shifts in his eyes and his expression is left dull but alert.\r\n\r\n\"Then you will not meet with Brother Virens,\" he says. \"We shall return to your shuttle.\"\r\n\r\nThe other guards are tense.",
+   "ctx": "data/campaign/rules.csv LKEvirensGunCheckD [text]"
+  },
+  {
+   "i": 28,
+   "en": "Virens' militants escort you back through town. You see clearly now how the population avoids your route, and how you haven't, in fact, seen any MUA personnel. Anywhere.",
+   "ctx": "data/campaign/rules.csv LKEvirensGunCheckE [text]"
+  },
+  {
+   "i": 29,
+   "en": "You return to your $shipOrFleet without having met Virens.\r\n\r\nIt seems that he will only meet you if you are totally defanged. Perhaps he does not believe that your marines could 'invite' him to meet you.",
+   "ctx": "data/campaign/rules.csv LKEvirensEarlyExit1 [text]"
+  },
+  {
+   "i": 30,
+   "en": "The lead guard does a quick one-two knock on the doors and they swing open. \r\n\r\nThe air is cool, the walls hung with cloth woven in bright patterns; wooden furniture prevails. A clean, earthy scent hangs in the air. You are overcome by a sense of ancient wealth - entirely underwhelming compared to the palaces of Eventide or a Tri-Tachyon executive's chateau, but here, you can tell that every object, every surface, has been transformed by the hand and muscle of human beings alone.\r\n\r\nYou are led up stairs - wooden, creaking unsettlingly - to a room overlooking an interior courtyard garden. The silhouette of a man stirs at your presence.",
+   "ctx": "data/campaign/rules.csv LKEshuttleToVirens3 [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"Blessed peace upon you,\" the man says, turning toward you. \"I am Nile Virens. I invite you to sit with me.\"\r\n\r\nA finely-carved table is set with a tea set, simple in form and painted with delicate natural motifs.",
+   "ctx": "data/campaign/rules.csv LKEvirensStart [text]"
+  },
+  {
+   "i": 32,
+   "en": "You are gaining a sense for the quality of tea by the scent hanging in the air after boiling water is freshly poured.\r\n\r\nThis is a fine blend.",
+   "ctx": "data/campaign/rules.csv LKEvirensStart0a [text]"
+  },
+  {
+   "i": 33,
+   "en": "With all this dealing with Luddics, you realize that you're starting to develop a sense for the quality of tea by the scent hanging in the air after boiling water is freshly poured.\r\n\r\nThis is the good stuff.",
+   "ctx": "data/campaign/rules.csv LKEvirensStart0b [text]"
+  },
+  {
+   "i": 34,
+   "en": "You sit, and Virens pours two cups, then motions for you to choose your pick of the two.\r\n\r\nAfter you do, he holds the cup up for a moment and inhales the steam.",
+   "ctx": "data/campaign/rules.csv LKEvirensStartA [text]"
+  },
+  {
+   "i": 35,
+   "en": "A frown begins in his brow but fails to materialize on his mouth.\r\n\r\n\"I respect that you shall do as you wish, $playerSirOrMadam,\" he says, and pours a cup for himself. \"My invitation stands, and you have my hospitality regardless.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensStartB [text]"
+  },
+  {
+   "i": 36,
+   "en": "Virens acknowledges your act with a nod, and raises his cup to you before sipping some tea.",
+   "ctx": "data/campaign/rules.csv LKEvirensSitForTea [text]"
+  },
+  {
+   "i": 37,
+   "en": "\"If I didn't bring you in now, it seems you'd ask everyone in the system about Jethro Bornanew, about the Luddic Path, and ultimately, about me.\" \r\n\r\n\"You are blessedly persistent,\" he smiles indulgently. \"Dangerously persistent, if left to your devices, I suspect. Others would ask why you're asking. The MUA would ask why you're asking. Too much of this asking, asking, asking. It upsets delicate things.\"\r\n\r\nAs he speaks, he reaches out and almost, but not quite, touches the fine teapot. He seems to realize what he is doing and pulls back.",
+   "ctx": "data/campaign/rules.csv LKEvirensWhyInvite [text]"
+  }
+ ]
+}

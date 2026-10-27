@@ -1,0 +1,161 @@
+{
+ "chunk": 184,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "Sporadic gunfire rattles through the corridors of Kanta's Den for a long time after your marines pull out.",
+   "ctx": "data/campaign/rules.csv gaATGkantaRaidFinishedB [text]"
+  },
+  {
+   "i": 2,
+   "en": "You meet a tired-looked Zal in an assault shuttle bay.\r\n\r\n\"I suppose I should thank you, captain,\" she says, wiping a thin dusting of carbon ash from her face.\r\n\r\n\"What a glorious wreck your invasion has made of everything. At least we saved the-\" she looks sharply at a pair of marines hauling a sealed case behind her, \"Careful with that! It's going to save us all.\"\r\n\r\nYour adjutant interrupts, \"Captain, we have a problem.\"",
+   "ctx": "data/campaign/rules.csv gaATGkantaRaidFinished2 [text]"
+  },
+  {
+   "i": 3,
+   "en": "You're filled in via comms as you rush back to the bridge.\r\n\r\nKanta's comms are still offline, but she seems to have independent control of the stealth mine system. Tactical reports an envelope of mines closing around your $shipOrFleet. Some are simple rocks with hidden warheads and neutral gas thrusters, others have been loitering in phase-space for Ludd-knows how long. There are more than PD can possibly handle.",
+   "ctx": "data/campaign/rules.csv gaATGkantaRaidFinished3 [text]"
+  },
+  {
+   "i": 4,
+   "en": "Tactical sweats at your inquiry, \"Sir-\"\r\n\r\nZal appears behind you, held back by a couple guards. \"Captain! Please listen- the stealth mines are on their own network. You have to get her to deactivate them.\"\r\n\r\nShe pauses for just a moment, then says \"You have something Kanta values more than taking revenge on you. Or me.\"",
+   "ctx": "data/campaign/rules.csv gaATGkantaRaidFinished4a [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"Sir,\" your officer says, \"Ah-\"\r\n\r\nZal appears behind you, held back by a couple guards. \"Captain! Please listen- Kanta had me working on a new generation of the stealth mines. I've got the codes to blow them, which might give us a chance.\"\r\n\r\n\"Just let me access a wide-array comms station and I'll do it.\"",
+   "ctx": "data/campaign/rules.csv gaATGkantaRaidFinished4b [text]"
+  },
+  {
+   "i": 6,
+   "en": "Zal shoves aside your comms officer, who looks only somewhat offended, and starts furiously tapping at the controls. Within moments, a careless handful of novas blink across the tactical display.\r\n\r\n\"I hate how the interface whites out when that happens,\" your tactical officer grumbles, then reports \"Captain, the stealth mines are cleared enough for us to disengage.\"",
+   "ctx": "data/campaign/rules.csv gaATGkantaRaidFinished4b2 [text]"
+  },
+  {
+   "i": 7,
+   "en": "You hold up your hand, interrupting the pirate captain mid-threat. This seems to catch $himOrHer off guard.\r\n\r\nYou use the moment to calmly explain that you have personally been given a mission by Warlord Kanta to return her pet Loke-clone to her. It would be in their best interests if they did everything possible to facilitate the success of your mission. Imagine what Kanta would think if she heard you had been distracted from carrying out her will.",
+   "ctx": "data/campaign/rules.csv gaATGWorkingForKanta1 [text]"
+  },
+  {
+   "i": 8,
+   "en": "The pirate looks as though $heOrShe has been struck by a Tachyon Lance. \r\n\r\n\"Y-yes, captain. Of course.\" $HeOrShe struggles to regain $hisOrHer composure, \"Please, accept my profound apologies, profoundly, for the delay. I welcome you to be on your way and g-give my best regards to the Warlord.\"\r\n\r\nYou snap the comms link off while the pirate is still attempting an awkward half-bow.",
+   "ctx": "data/campaign/rules.csv gaATGWorkingForKanta2 [text]"
+  },
+  {
+   "i": 9,
+   "en": "As you speak, Baird doesn't look tremendously impressed by Coureuse and Gargoyle's plan.\r\n\r\n\"Stupid. But bold, I admit,\" the provost says finally. \"Sometimes the direct route is the best. Like Alexander at Telmessos, yes? Just don't start too many fires on the way, please. You will soon be needed for important work; real work. I don't want you starting some kind of war when we're so close to the culmination of all I've been working toward.\"",
+   "ctx": "data/campaign/rules.csv gaATGtellBairdAboutKantaPlan2 [text]"
+  },
+  {
+   "i": 10,
+   "en": "The provost looks perplexed. \"Kanta made a clone of the Warlord Loke, the very man to whom she once swore fealty? How perverse.\"\r\n\r\nBaird dismisses this with a wave. \"As a rule, I don't find it productive to dwell upon the psychology of insane pirates. Do it, or don't. Above all be on guard. The so-called Warlord Kanta achieved her place in the world through treachery and brutality in equal measure. I doubt she's changed her habits.\"\r\n\r\nProvost Baird stares out her office window, over the academy interior. \"The future we're building will have little place for her kind.\"",
+   "ctx": "data/campaign/rules.csv gaATGtellBairdAboutFindingLoke2 [text]"
+  },
+  {
+   "i": 11,
+   "en": "You have arranged a meeting with Brother Cotton in a spacer bar on the surface.",
+   "ctx": "data/campaign/rules.csv gaATGmeetingIsSetUpWithCotton [text]"
+  },
+  {
+   "i": 12,
+   "en": "You have arranged a meeting with Brother Cotton in a spacer bar on the surface, but you need to approach Epiphany with your transponder off to sneak a shuttle past what passes for the traffic authority.",
+   "ctx": "data/campaign/rules.csv gaATGneedTransponderOffToMeet [text]"
+  },
+  {
+   "i": 13,
+   "en": "You convene your senior officers to discuss the option of seizing the Loke clone from Brother Cotton's forces. SIGINT is spotty due to Pathers' low-tech operations and HUMINT nearly impossible due to their fanaticism. Nonetheless, your officers have identified several possible fortified compounds connected with Cotton's sect. \r\n\r\nAny attack on Cotton will be viewed by Pathers as an attack on all. Once the shooting starts you anticipate security forces to activate planet-wide, so this has to be a quick operation. Hitting Cotton's strongholds all at once in a surprise raid will require many marine squads, but it will ensure the greatest odds of finding the Loke clone.",
+   "ctx": "data/campaign/rules.csv gaATGcottonRaidStart [text]"
+  },
+  {
+   "i": 14,
+   "en": "The main bridge is a hive of activity, with additional officers brought in to coordinate the assaults by tactical teams on the strongholds of Cotton's Pathers. A volley of quick orbital strikes from your $shipOrFleet disrupt power and communications, leaving planetside comms-chatter a confused staticky buzz of automated alerts and hand-equipment operators speaking in code.\r\n\r\nYour part is simple now: let the marines do their work while you provide orbital cover for the extraction shuttles.\r\n\r\nDisplays flicker with vidfeed, a live order-of-battle chart ticks off nodes as casualties tick up. You watch, and wait for your raiders to return.",
+   "ctx": "data/campaign/rules.csv gaATGcottonRaidFinishedA [text]"
+  },
+  {
+   "i": 15,
+   "en": "You meet the successful extraction team in the shuttle bay. The smell of vacuum and combat fills your nose: burnt, acrid, and metallic.",
+   "ctx": "data/campaign/rules.csv gaATGcottonRaidFinishedB [text]"
+  },
+  {
+   "i": 16,
+   "en": "A couple marines in power armor undersuits escort Clone Loke into your custody. He looks around curiously. Seeing you, he stops, makes a bland, lopsided smile, and says \"Ludd blesses you, friend.\"\r\n\r\nYou have him escorted to the brig for safekeeping.\r\n\r\nYour personal comms starts buzzing; scattered planetary defenses are starting to activate. Tactical reports a tentative radar sweep from some kind of ground battery.",
+   "ctx": "data/campaign/rules.csv gaATGcottonRaidFinishedContinue  [text]"
+  },
+  {
+   "i": 17,
+   "en": "$personLastName raises an eyebrow. \"Begging sweet Ludd's forgiveness, spacer, but if I did know such a good man, I would be wary of letting his name escape my lips too easily.\"\r\n\r\n\"Condemn not the ignorant for they know not their error, as the book says, but Grace of the Path, protect me - and you - from inquiries best not made lest a terrible swift hammer full upon us.\" $HeOrShe smiles nervously.\r\n\r\n\"Let us speak of other things,\" $heOrShe says. \"The weather! Unpleasant lately, no?\"",
+   "ctx": "data/campaign/rules.csv gaATGEpiphanyAskGuest [text]"
+  },
+  {
+   "i": 18,
+   "en": "$personLastName raises an eyebrow. \"Begging sweet Ludd's forgiveness, my fellow $playerBrotherOrSister, but if I did know such a good man, I would be wary of letting his name escape my lips too easily.\"\r\n\r\n\"But we're all pilgrims of the faith here, are we not?\" $HeOrShe lets the hint of a smile appear, enjoying the chance to tease at hidden knowledge. \"A pilgrim like you should visit a more worldly shrine. Come down port-side. There is a teahouse where the outworlders and Mammonites gather. There you will find your answer.\"\r\n\r\nThe spacer bar, in other words. As much as a teahouse-speakeasy can pass for a decent bar in this place.",
+   "ctx": "data/campaign/rules.csv gaATGEpiphanyAskGuestFaith [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"Ah ha-ha,\" $heOrShe laughs nervously. \"Would that I could help you, friend, would that I could help you. Alas, I have no notion of such a thing and besides, what need have I for credits when devotion to the Creator nourishes my soul and keeps me tight to the Path?\"\r\n\r\n\"I shall surely pray for you, captain, that the hammer, when it comes, falls softly,\" $heOrShe says. \"Would you look at the hour? I must adjourn to see to my prayers. Until our paths cross again, blessings upon you.\"\r\n\r\n$HeOrShe cuts the comm link on you somewhat abruptly, leaving you with a staticky holding pattern.",
+   "ctx": "data/campaign/rules.csv gaATGEpiphanyAskCredits [text]"
+  },
+  {
+   "i": 20,
+   "en": "$Post $personLastName looks at you carefully before responding.\r\n\r\n\"I might recall hearing of a man by this name once. I would not know where he would be, or what he has done of late. And if I did, I would not tell. But if I were to leave a message with a friend who may have a friend who might be that man...\"\r\n\r\n$HeOrShe looks up to the stars and sighs. \"It is not my Path to judge what business you might have, begging all the forgiveness of Providence.\"",
+   "ctx": "data/campaign/rules.csv gaATGEpiphanyAskCotton [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"Might be,\" $heOrShe says nervously. \"Come down port-side. There's a teahouse where the outworlders gather, where the guardians of virtue watch vigilantly for the influence of Moloch and Mammon.\"\r\n\r\nThe spacer bar, in other words. As much as a teahouse-speakeasy can pass for a decent bar in this place.",
+   "ctx": "data/campaign/rules.csv gaATGEpiphanyAskCotton2 [text]"
+  },
+  {
+   "i": 22,
+   "en": "$HeOrShe nods, not meeting your eye. \"Then it shall be. Blessings upon you captain.\"",
+   "ctx": "data/campaign/rules.csv gaATGEpiphanyAskCottonAccept [text]"
+  },
+  {
+   "i": 23,
+   "en": "$HeOrShe nods, meeting your eyes. \"Then it shall be. Blessings upon you, $playerBrotherOrSister.\"",
+   "ctx": "data/campaign/rules.csv gaATGEpiphanyAskCottonAcceptB [text]"
+  },
+  {
+   "i": 24,
+   "en": "$HeOrShe nods, not meeting your eye. \"Perhaps your path will take you far from here. Captain.\"",
+   "ctx": "data/campaign/rules.csv gaATGEpiphanyAskCottonDecline [text]"
+  },
+  {
+   "i": 25,
+   "en": "$HeOrShe nods, meeting your eyes. \"Perhaps, $playerBrotherOrSister, your Path does not yet meet with that of the good man.\"",
+   "ctx": "data/campaign/rules.csv gaATGEpiphanyAskCottonDeclineB [text]"
+  },
+  {
+   "i": 26,
+   "en": "You begin with the time-honored conversation-starter of buying strangers a round 'to celebrate a good haul'. \r\n\r\nIt is a hard sell here; off-worlders drink their vices furtively to maintain a thin veneer of Luddic deniability. You focus instead on the unbelieving Epiphany natives who regularly work with starfarers. Casually inquiring about import-export business opportunities, understood by all to be a roundabout pitch for a smuggling job, you ask, by the way, have you heard of a 'Brother Cotton'?\r\n\r\nInvoking this name kills conversations like an EMP. One table mumbles excuses and leaves their untouched drinks, fearful that you're an informer, an enormous fool, or both.",
+   "ctx": "data/campaign/rules.csv gaATGAskEpiphanyBarStart [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"Watch yourself, speaking that name,\" one old ore-pusher tells you, taking a long draw from your gifted drink. \"I know folk who crossed him and they ended up dead. He's got eyes and ears everywhere. Clever enough to bend the tech-bans to his advantage, ya'know. Most true believers? Cowards pulling a con or got their brains adrift - not him though, no; he's made the Path his own and knows how to use it.\"\r\n\r\n\"Welp,\" he finishes the drink with one long gulp, \"This'll be you then,\" and scuttles off just as a trio of burly thugs in mining guild uniforms approach.",
+   "ctx": "data/campaign/rules.csv gaATGAskEpiphanyBar1 [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"We reject the gilt bribery of Mammon,\" says one of the heavies, spitting at your feet. The others look similarly uninterested in your offer. \r\n\r\n\"What's our brother's good name doing in the mouth of this heretic?\" the first one says to the others, \"Might be we have to remove it ourselves.\"",
+   "ctx": "data/campaign/rules.csv gaATGAskEpiphanyBarA1 [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"What's Brother Cotton's good name doing in the mouth of this heretic?\" the biggest one says to the others, \"Might be we have to remove it ourselves.\"",
+   "ctx": "data/campaign/rules.csv gaATGAskEpiphanyBarB1 [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"Speak not the prophet's name, unbeliever,\" the thug on the right hisses.",
+   "ctx": "data/campaign/rules.csv gaATGepiphanyBarPeace1 [text]"
+  },
+  {
+   "i": 31,
+   "en": "One of the heavies puts an arm out to stop you, prompting your guards - unobtrusively hovering in the shadows - to step forward, ready to draw weapons.\r\n\r\nThe moment seems to freeze- the proprietor stops polishing a glass, the conversation two tables over goes quiet, and fearful eyes all turn toward the confrontation.",
+   "ctx": "data/campaign/rules.csv gaATGAskEpiphanyBarC1 [text]"
+  }
+ ]
+}

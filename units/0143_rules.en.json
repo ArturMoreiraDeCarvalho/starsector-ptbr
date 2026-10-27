@@ -1,0 +1,201 @@
+{
+ "chunk": 143,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"Indeed, not everyone is called to walk this path, beset as it is by violence, temptation, and hardship. Be not shamed to find a humbler path toward the spiritual love the Blessed Ludd has brought to our unworthy souls.   \r\n\r\nLet me set aside the glorious and terrible to ask if there is anything else I can do for you?\"",
+   "ctx": "data/campaign/rules.csv CMSNTextChangeMind_luddic [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"Are you sure, child of Earth? The Church of Galactic Redemption is the worldly expression of Ludd's holy teachings, the only path to salvation not only of your own soul, but the means by which all humanity may raise itself from the scourge of collective sin.\r\n\r\nI cannot sit in judgment of your soul; the spiritual consequence of your choice is between you and the Divine. But the faithful are but women and men of these fallen worlds, and they may see in you one who has turned their back on the path of the Blessed Ludd. You would be scorned by the Faithful.\"",
+   "ctx": "data/campaign/rules.csv CMSNResignAskToConfirm_luddic [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"I can see there's no changing your mind. Be wary of the path you tread, but remember that Ludd loved even those who were betrayers in that final day.\"",
+   "ctx": "data/campaign/rules.csv CMSNResignConfirmed_luddic [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"A wise choice. Our spirits are tested in this work we do, and sometimes our faith falters. But remember always that the light of Ludd illuminates the righteous path, however dim it may seem in times of great difficulty.\"",
+   "ctx": "data/campaign/rules.csv CMSNResignCancelled_luddic [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"Is this some kind of joke, citizen? If you are who you are claiming to be, you'd be on several top-level Ministry wanted lists. In fact, I'm going to have to report this entire conversation to Hegemony COMSEC.\"",
+   "ctx": "data/campaign/rules.csv CMSNTextRejectHostile_hegemony [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"You're already commissioned by $theOtherCommissionFaction. I don't know if loyalty means anything to you, citizen, but it is a core pillar of our values. You would have to resign that commission before you'd even be considered for commission as an Auxiliary by the Hegemony.\"",
+   "ctx": "data/campaign/rules.csv CMSNTextHasOther_hegemony [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"You do not meet the criteria for receiving a commission, citizen.\"",
+   "ctx": "data/campaign/rules.csv CMSNTextUnsuited_hegemony [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"Hmm, Fleet Intelligence has been watching you for some time it seems, and it says here that you clear the checks.\r\n\r\nAccepting a commission with the Hegemony is a serious matter, citizen. You will be required to fight enemies of the Hegemony and assist in upholding law and order where the official apparatus cannot reach. Above all, you will dedicate yourself to fighting for the restoration of the Domain over human space.\r\n\r\nI must inform you that you have the right to resign your commission at any time. And while there have been honorable circumstances for resignation in the past, between us, let me add that doing so would be considered highly suspicious by Fleet Intelligence, to say nothing of what the loyal Hegemony officer corps would think.",
+   "ctx": "data/campaign/rules.csv CMSNTextSuitedPart1_hegemony [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"By the power invested in me by the office of the High Hegemon, I offer you commission as Auxiliary to the Hegemony Navy. Do you wish to sign on?\"",
+   "ctx": "data/campaign/rules.csv CMSNTextSuitedPart2_hegemony [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"Is there anything else I can do for you, citizen?\"",
+   "ctx": "data/campaign/rules.csv CMSNTextWelcomePart2_hegemony [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"Yes, not everyone has the strength of character to uphold the values of the Hegemony to the standards that are required. The Sector has need of merchants and shuttle pilots, after all. Those are also honorable careers in their own small way.\r\n\r\nAnything else I can do for you?\"",
+   "ctx": "data/campaign/rules.csv CMSNTextChangeMind_hegemony [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"Do you affirm to that, citizen, and agree that your recorded affirmation stand as record of your commitment? The Hegemony needs people it can rely on, and if you were to let us down it would not soon be forgotten.\"",
+   "ctx": "data/campaign/rules.csv CMSNResignAskToConfirm_hegemony [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"I see. At least you were brave enough to tender your resignation in person.\"",
+   "ctx": "data/campaign/rules.csv CMSNResignConfirmed_hegemony [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"A good decision. Despite what dissident agitprop may claim, the Hegemony does not ask blind obedience. It takes courage to first question then choose to reaffirm a commitment. We can use people like you in this troubled age.\"",
+   "ctx": "data/campaign/rules.csv CMSNResignCancelled_hegemony [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"I'm surprised you initiated comms,\" $heOrShe says, taken aback. \"More than a handful of high-level directors have put personal bounties on a verified holo of your destruction.\"\r\n\r\n\"A bit of free advice: get your ugly face off my comm-link and e-burn away from here immediately.\"",
+   "ctx": "data/campaign/rules.csv CMSNTextRejectHostile_tritachyon [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"You're already commissioned by $theOtherCommissionFaction,\" the $post says crisply.\r\n\r\n\"Due to the nature of the standard Tri-Tachyon non-compete agreement, you would be required to resign that commission before you could sign on with Tri-Tachyon. Please return when your outstanding obligations are dissolved.\"",
+   "ctx": "data/campaign/rules.csv CMSNTextHasOther_tritachyon [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"I'm afraid that our human capital department reports that you simply don't meet the standards we expect from commissioned contractors at this time.\"",
+   "ctx": "data/campaign/rules.csv CMSNTextUnsuited_tritachyon [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"Hmm, yes, your resume is impressive. Our human capital department has been watching you for some time now.\r\n\r\nNow understand that signing this commission contract with the Tri-Tachyon Corporation (and associated subsidiary incorporations) is a serious commitment. You will undertake that risk involved in fighting Company-designated belligerents be they pirates, anti-market agitators, or various state entities which engage in illegitimate search and seizure of Company property.\r\n\r\nYou'll be able to resign your commission at any time without financial penalty; generous terms indeed in my opinion. Were you to do so, that would mean you would be ... how to put it, thrown to the sharks? Competition in the Company is fierce, my friend, and if you withdraw from its legal protection, then we can't be responsible for what happens.\"",
+   "ctx": "data/campaign/rules.csv CMSNTextSuitedPart1_tritachyon [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"So, still want to sign? A fingerprint on the notification that just appeared on your TriPad would be sufficient.\"",
+   "ctx": "data/campaign/rules.csv CMSNTextSuitedPart2_tritachyon [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"Excellent! Let me be the first to welcome you to the Company. \r\n\r\nAnd, ah, would you mind if I added you on TriLink? I'm always looking to network with rising stars.\"",
+   "ctx": "data/campaign/rules.csv CMSNTextWelcomePart1_tritachyon [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"Is there anything else I can do for you now that you're a Valued Team Member?\"",
+   "ctx": "data/campaign/rules.csv CMSNTextWelcomePart2_tritachyon [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"Ah, you're shopping around to see who gives the best offer. Am I right? Sensible. A standard Tri-Tachyon NDA applies to the details we've discussed, naturally.\r\n\r\nAnything else I can do for you today?\"",
+   "ctx": "data/campaign/rules.csv CMSNTextChangeMind_tritachyon [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"Are you sure? You'll be missing fantastic opportunities to advance your career; Tri-Tachyon rewards those who reward themselves, after all. And need I remind you there are those in the Company that might see this as a sign of... weakness.\"",
+   "ctx": "data/campaign/rules.csv CMSNResignAskToConfirm_tritachyon [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"I can see there's no changing your mind. Someone gave you a better offer, didn't they. No, don't say anything. I understand completely.\r\n\r\nIf they're paying that well, don't forget me if an opening comes up. In the meantime, I'd recommend you steer clear of Tri-Tachyon space for a while.\"",
+   "ctx": "data/campaign/rules.csv CMSNResignConfirmed_tritachyon [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"A wise choice. Tri-Tachyon respects Valued Team Members who are willing to negotiate to maintain and, dare I say it, advance their position.\"",
+   "ctx": "data/campaign/rules.csv CMSNResignCancelled_tritachyon [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"Is this some kind of joke? The one thing the League worlds can agree on is that you're a menace to the Sector. I will absolutely alert Combined Fleet Intelligence about this contact.\"",
+   "ctx": "data/campaign/rules.csv CMSNTextRejectHostile_persean [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"It seems you're already commissioned by $theOtherCommissionFaction. The League is built upon a respect for the independence of its constituents - or potential constituents - so accepting your service would be a breach of protocol. You'll have to resign that commission before signing on with the League.\"",
+   "ctx": "data/campaign/rules.csv CMSNTextHasOther_persean [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"I'm sorry, but it says here that you don't meet our criteria. We only commission those who have a proven record of upholding League interests and values.\"",
+   "ctx": "data/campaign/rules.csv CMSNTextUnsuited_persean [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"Hmm, yes, you are in good standing and none of the League world databases have tagged you with veto.\r\n\r\nAccepting a commission from the Persean League is a serious matter. You must learn and uphold the Eight Imperatives of the League charter; you will be required to fight those who would try to force their hegemony upon the free worlds of the Persean Sector; you will take part in a new future for humanity in all its forms, free from central domination by any one polity yet acting in concert toward mutual betterment. It is a noble ideal, my friend, and much to live up to.\r\n\r\nFor the sake of formality I shall inform you that you do have the right to resign your commission at any time. After resignation, the League would have no legal means to protect you from, shall we say, personal repercussions imposed by constituent members that may feel slighted. Just so you know.\"",
+   "ctx": "data/campaign/rules.csv CMSNTextSuitedPart1_persean [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"So, how about it? The test on the Eight Imperatives is really just a formality, and although a League member can submit a commission veto for up to a cycle after signing, this only rarely happens. Do you accept?\"",
+   "ctx": "data/campaign/rules.csv CMSNTextSuitedPart2_persean [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"Excellent! On behalf of the free worlds of the Sector, I welcome you to the Persean League.\"",
+   "ctx": "data/campaign/rules.csv CMSNTextWelcomePart1_persean [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"Yes, I understand. It is dangerous work, and it requires exceptional character to uphold the ideals of the League. There is no shame in turning down this commitment; after all it is for your freedom to make this decision that we fight.\r\n\r\nIs there anything else I can do for you?\"",
+   "ctx": "data/campaign/rules.csv CMSNTextChangeMind_persean [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"Are you certain? The League needs people like you it can rely on to uphold our principles. Although within your rights, if you leave now, less magnanimous constituents of the League may be suspicious or even vindictive at such a perceived betrayal of loyalty.\"",
+   "ctx": "data/campaign/rules.csv CMSNResignAskToConfirm_persean [text]"
+  },
+  {
+   "i": 34,
+   "en": "\"I can see there's no changing your mind. On behalf of the League, I thank you for the service you have performed to this date and your courtesy in tendering your resignation in person.\r\n\r\nNow if you don't mind, there are a handful of forms I need to fill out to finalize this process.\"",
+   "ctx": "data/campaign/rules.csv CMSNResignConfirmed_persean [text]"
+  },
+  {
+   "i": 35,
+   "en": "\"I'm glad to hear you've changed your mind. The League can use people like you.\"",
+   "ctx": "data/campaign/rules.csv CMSNResignCancelled_persean [text]"
+  },
+  {
+   "i": 36,
+   "en": "\"Is this some kind of joke? If you are the terrorist you say you are, there's an execution order for you signed by the Lion himself. I shall have to report this communication to my superior officer immediately.\"",
+   "ctx": "data/campaign/rules.csv CMSNTextRejectHostile_sindrian_diktat [text]"
+  },
+  {
+   "i": 37,
+   "en": "\"The Sindrian Diktat honors loyalty, and you've come here like a guileless mercenary bearing another faction's flag. You would have to resign your commission with $theOtherCommissionFaction before you could even be considered to be commissioned into our movement.\"",
+   "ctx": "data/campaign/rules.csv CMSNTextHasOther_sindrian_diktat [text]"
+  },
+  {
+   "i": 38,
+   "en": "\"You are not fit to perform service for the Diktat. We only accept candidates that prove their strength and above all their passion for the admiral's great movement.\"",
+   "ctx": "data/campaign/rules.csv CMSNTextUnsuited_sindrian_diktat [text]"
+  },
+  {
+   "i": 39,
+   "en": "\"Hmm, we've had our eye on you for some time it seems. This intelligence summary makes it clear that you're a suitable candidate for commission into the Sindrian Diktat's volunteer force.\r\n\r\nAccepting a commission into our glorious movement is a serious matter. You must pledge unwavering loyalty to our leader, Supreme Executor Admiral Andrada, and the Sindrian Diktat he commands. You will fight our enemies, cleanse the Sector of the corrupt old order, and usher in a new age for our people. If you are lucky, you may even attain the glory of giving your life for the great cause.\r\n\r\nNow it is technically possible to resign the Diktat commission, but this would reveal a deep betrayal of sacred loyalty. I pledged my blood to the Lion, and I would expect the same from you.",
+   "ctx": "data/campaign/rules.csv CMSNTextSuitedPart1_sindrian_diktat [text]"
+  }
+ ]
+}

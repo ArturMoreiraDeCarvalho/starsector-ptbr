@@ -1,0 +1,116 @@
+{
+ "chunk": 149,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "Your $shipOrFleet goes into orbit around the radiation-ravaged rock known as \"Alpha Site\".\r\n\r\nThe navigation satellite which once identified this celestial body is now gone; a few taps to your display shows you the small impact crater it left when it hit the surface, a bright smudge in a plain of rad-decayed regolith. In the absence of an atmosphere, it's likely the crater will last longer than the satellite ever did, by many millions of cycles.\r\n\r\nOn a whim, you pull up the recording of your first visit here.",
+   "ctx": "data/campaign/rules.csv zig_alphaSiteAlreadyExploredNoSat [text]"
+  },
+  {
+   "i": 2,
+   "en": "After extensive preparation (and reiteration of the hazard pay policy) a volunteer salvor team is sent down on a heavily-shielded shuttle.\r\n\r\nThey land near what appears to be the main entrance and report ingress to the facility without difficulty. On a display projected into your flagship's bridge, you watch as a hardsuited salvor brushes past the clouded-over sensor unit of a defense turret; it collapses into itself at a mere touch. Anything exposed to the merciless sky is slowly crumbling on the chemical level; it appears that all groundside security systems have been destroyed by radiation. ",
+   "ctx": "data/campaign/rules.csv zig_alphaSiteExplore1 [text]"
+  },
+  {
+   "i": 3,
+   "en": "The interior of the facility has been breached, leaving it unpressurized. While the structure's bulk provides some protection, the delicate computer systems are fried beyond repair. No data is recoverable. \r\n\r\nWith no chance of an easy find, the team spreads out for the remaining rad-safe duration to document the facility and see if anything useful can be inferred from the ruin. While exploring, one salvor enters the quarters of a high-ranking member of the facility staff and discovers the journal, a physical book bound in natural materials, of its presumably deceased occupant.",
+   "ctx": "data/campaign/rules.csv zig_alphaSiteExplore1b [text]"
+  },
+  {
+   "i": 4,
+   "en": "You examine the journal in the quarantine bay.\r\n\r\nThe fine leather cover is discolored, but you can make out the embossed gold leaf Tri-Tachyon logo. Your salvage team has already scanned the text without opening the delicate pages of the book. The data has been placed in a secure cache for your review. ",
+   "ctx": "data/campaign/rules.csv zig_alphaSiteExplore2 [text]"
+  },
+  {
+   "i": 5,
+   "en": "Scrolling the virtual pages, you find that the journal appears to hold the private thoughts of the chief technology officer of this facility.\r\n\r\nIt begins with vague complaints of being ordered to disregard safety protocols during tests, and frustration with demands made by Kelise Astraia. From what you understand, this is an effort to establish a hardcopy trail in case of the blame-shifting and record-altering which is common practice for high-ranking Tri-Tachyon executives involved in failed projects.\r\n\r\nConcerns about \"going outside\" feature prominently in the entries. Understandable, given the surface conditions, but the increasingly intense obsessiveness of the writing seems to reflect a growing phobia on the part of the author.",
+   "ctx": "data/campaign/rules.csv zig_alphaSiteExplore2b [text]"
+  },
+  {
+   "i": 6,
+   "en": "The remainder of the journal is difficult to read; most of the pages are torn or defaced, leaving a patchy, noisy scan in your display. Little of what's readable is coherent.\r\n\r\nAt the very end, there's one line, written in a clear, strong hand. \"They sing to me. Everything will be alright.\"",
+   "ctx": "data/campaign/rules.csv zig_alphaSiteExplore3 [text]"
+  },
+  {
+   "i": 7,
+   "en": "The connection request hangs for some time then a wave of holo-noise flickers through the main display before generating a series of error codes. Your comms officer works their console in consternation. \r\n\r\nThe soft sounds of the error notifications align just so, almost forming a melody you must have heard somewhere once. Or perhaps not. You return your attention to your command. No time for daydreaming.",
+   "ctx": "data/campaign/rules.csv zig_commsOpen [text]"
+  },
+  {
+   "i": 8,
+   "en": "As you approach the stark torus-hulls of Galatia Academy Station, navigation's request to the automated docking queue is unexpectedly denied by a Hegemony-coded comm response.\r\n\r\nOdd that the Hegemony Navy is controlling the docking procedures of an independent station.\r\n\r\nYour primary bridge display tags a matrix of light anti-ship batteries tracking your progress. Your tactical officer calls for your attention then pulls up a sub-display with a closer view: a Valkyrie-class troop transport and its escorts are emplaced across the primary landing bay. They clearly don’t want visitors.\r\n\r\nYou should report to Ancyra to find out what’s going on.",
+   "ctx": "data/campaign/rules.csv gaOpenDialogDuringTutorialStart [text]"
+  },
+  {
+   "i": 9,
+   "en": "As you approach the stark white torus-hulls of Galatia Academy Station, your request to the automated docking queue is denied. The codes are Hegemony. After a moment, the comms link opens to a Hegemony sigil. Encryption kicks in, and your viewscreen cuts to a harried-looking Hegemony lieutenant using a handheld comms unit.  \r\n\r\n\"Apologies, captain. The Academy is closed during the, uh, crisis. I have to ask you to leave immediately.\" \r\n\r\nAn adjutant leans into frame and whispers something in his ear.\r\n\r\n\"Oh, you’re the freelancer my CO on Ancyra got to help us out?\" $HeOrShe relaxes $hisOrHer tone, \"I'm Lieutenant Tseen Ke. We're carrying out the investigation into who screwed up here while you take care of the problem out there. I wish you luck, captain, because if you don't solve this it's going to get ugly.”",
+   "ctx": "data/campaign/rules.csv gaOpenDialogDuringTutorial [text]"
+  },
+  {
+   "i": 10,
+   "en": "$HeOrShe considers whether to answer your question.\r\n\r\n\"I suppose you're technically in the chain of command as an auxiliary. Right. We arrested the provost of the academy on a screenful of charges- endangering space infrastructure, negligence of habitability protocols, gross conspiracy to manipulate unauthorized technologies; it goes on.\" \r\n\r\n\"And by Old Earth,\" you note $hisOrHer jaw clenching unconsciously, \"He's earned it.\"",
+   "ctx": "data/campaign/rules.csv gaDuringTutorialMoreInfo1 [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"We were briefed about the experiment. It was only supposed to cause a minor increase in comms noise, maybe some odd readings near the jump-points. Nothing like this! Obviously something more was going on, something big enough that the provost had to know about it, and-\"\r\n\r\nThe lieutenant's adjutant whispers in $hisOrHer ear again. If you're not mistaken, there is shouting in the background, barely picked up by the lieutenant's handheld comm unit.\r\n\r\n\"The mob grows restless,\" the lieutenant says with a joyless smile. $HeOrShe barks some orders to someone; the holo feed jostles and flickers with static as they begin to move. \"We'll chat later, captain. I'll buy you a pint on Coatl Station someday if you can get us out of this mess.\"",
+   "ctx": "data/campaign/rules.csv gaDuringTutorialMoreInfo2 [text]"
+  },
+  {
+   "i": 12,
+   "en": "As you approach the stark white torus-hulls of Galatia Academy Station, your request to the automated docking queue is denied. After a moment, the comms link opens to show lieutenant $personName, who looks like $heOrShe could use some R&R. \r\n\r\n\"Captain. You're back? I'm sorry but we've got the academy on complete lockdown - strict orders - until the, uh, present crisis is resolved. That means no one enters and no one leaves. If you have any business with my chain of command you should speak with my CO on Ancyra.\"\r\n\r\nAn adjutant leans into frame and whispers something to $himOrHer.\r\n\r\n\"I have to go.\" The lieutenant sighs. \"Between you and me, these academicians? Always questions, never following directions, and disagreeing with absolutely anything anyone says. I hope you fix the mess out there soon.\"",
+   "ctx": "data/campaign/rules.csv gaOpenDialogDuringTutorialAgain [text]"
+  },
+  {
+   "i": 13,
+   "en": "You start to introduce yourself, but before you get two words out Lieutenant Tseen Ke interrupts, \"Captain $playerName! Of course, how could I forget? What an operation,\" he rolls his eyes in mock-exasperation - dealing with academicians, right?\r\n\r\nHe buys you that pint - and a couple more - as he relieves those memories. \"We got 'im, you know,\" he says, \"Kallichore. That's his name. Was the boss of the academy who approved that mad science experiment, almost doomed everyone in the system, can you believe that?\"",
+   "ctx": "data/campaign/rules.csv gaMeetHegLieutenantOnCoatlSel [text]"
+  },
+  {
+   "i": 14,
+   "en": "You start to introduce yourself, but before you can get out two words the lieutenant interrupts, \"Captain $playerName! Of course, how could I forget? What an operation,\" he rolls his eyes in mock-exasperation.\r\n\r\n\"I'm Caliban Tseen Ke. I was on the Galatia Academy station arresting the irresponsible parties,\" he lets out a laugh, \"while you cleaned up the mess those eggheads made of the jump-points.\"\r\n\r\nHe buys you a pint - and a couple more - as he relieves those memories. \"We got 'im, you know,\" he says, \"Kallichore. That's his name. Was the boss of the academy who approved that mad science experiment. Almost doomed everyone in the system, can you believe that?\"",
+   "ctx": "data/campaign/rules.csv gaMeetHegLieutenantOnCoatlSelB [text]"
+  },
+  {
+   "i": 15,
+   "en": "The lieutenant is silent for a moment, looking at you.\r\n\r\nThen he bursts out laughing, and slaps your back. \"Hey I like you, $playerName. If you ever find yourself back around Coatl, look me up. The navy contracts out some odd jobs; you never know what might come up.\"\r\n\r\nHe suppresses a belch and stands, \"Duty calls,\" then stumbles toward the lavatories.",
+   "ctx": "data/campaign/rules.csv gaMeetHegLtCoatl4 [text]"
+  },
+  {
+   "i": 16,
+   "en": "The stark white hull of Galatia Academy Station crawls past in a slow, magisterial rotation; the ivory torus looms before you.\r\n\r\nYour request to the docking queue is approved. Your comms officer helpfully mutes the chirpy, automated vid-feed presenting a bowdlerized history of the Galatia Academy and its role in providing education and research to the Persean Sector while remaining above political influence.\r\n\r\nThe landing promenade is filled with modest civilian transports, a few high-end personal craft, and, at the far end, a row of freighters offloading supplies. A junior academy agent greets you in a landing lounge with promotional paraphernalia in hand.",
+   "ctx": "data/campaign/rules.csv gaDefaultDescription [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"Greetings, captain. Perhaps you are an alumni? Have you considered donating to a scholarship trust with the Academy?\"",
+   "ctx": "data/campaign/rules.csv gaScholarshipPitch [text]"
+  },
+  {
+   "i": 18,
+   "en": "The agent smiles brightly. \"Have you given some thought to setting up that scholarship fund with the Academy?\"",
+   "ctx": "data/campaign/rules.csv gaScholarshipPitchRepeat [text]"
+  },
+  {
+   "i": 19,
+   "en": "You connect to the academy's comm directory and browse the public and otherwise known listings.",
+   "ctx": "data/campaign/rules.csv gaOpenCommDirSel [text]"
+  },
+  {
+   "i": 20,
+   "en": "The agent launches into a polished spiel, \"The Academy was founded pre-collapse, a humble institution of research and higher education on the grand frontier of the Domain. The dual foci were practical matters in fields from applied terraforming to engineering sciences and more theoretical pursuits, including study of local astrophysics and xenobiology. The Collapse of course, changed everything, and in the following cycles... \"\r\n\r\nYour eyes wander over the people coming and going. Groups of energetic youth display earnest association with various subcultures by modifying their standard Academy uniforms- knockoff hivescum holo tags, ironic Luddic weave, Hegemony officer coats done up in off-code colors and patterns, ill-fitted spacer rigging. A few proper academicians in pale coats study their datapads or walk swiftly in small groups to meetings and lectures.",
+   "ctx": "data/campaign/rules.csv gaInfoDump [text]"
+  },
+  {
+   "i": 21,
+   "en": "As you approach, he looks over and says \"Captain $playerName! Don't look so surprised, you've got a fascinating reputation to, shall we say, movers and shakers the Sector over.\" \r\n\r\nHe dismisses the other officers with a promise to join them in a moment, then catches your eye, \"Dilettantes. Compared to yourself, I mean. I trust you've heard of the academy's new provost?\"",
+   "ctx": "data/campaign/rules.csv goToGA_barEvent [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"My apologies,\" he grins apologetically, \"We ivory-tower academics get so lost in our own world. Everything revolves around the next paper, the next conference.\"\r\n\r\nThe senior academician waves an arm to dismiss all of that.\r\n\r\n\"The new provost. After that embarrassing incident with Provost Kallichore, the Academy has come under new leadership- bold leadership. To the new provost, Anahita Baird!\" He raises his glass in a toast.\r\n\r\nYou discover that you're holding a glass of something as well.",
+   "ctx": "data/campaign/rules.csv goToGA_barEvent1a [text]"
+  }
+ ]
+}

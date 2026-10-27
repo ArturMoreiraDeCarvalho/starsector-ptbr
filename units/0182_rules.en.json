@@ -1,0 +1,176 @@
+{
+ "chunk": 182,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "Baird cuts in, \"Not exactly. Thank you for your attention to detail, Scylla, but if I may summarize: at this level of energy input, a temporary link should be created between two Gates.\"\r\n\r\nThe provost gets a distant look, \"Then, with sufficient energy in stable resonance injected into the entire Gate system...\"",
+   "ctx": "data/campaign/rules.csv gaATGjanusPrototype2 [text]"
+  },
+  {
+   "i": 2,
+   "en": "This time, Coureuse interrupts, \"But the data! It shows that the system, the resonance, it is fundamentally chaotic! There are clearly some other, some factors... we're seeing results the model doesn't account for, and at higher magnitudes the results could be, be-\" She searches for words, some way to bind chaos and destruction into quantified language.\r\n\r\n\"That's enough, academician,\" Baird says forcefully. \"The captain is a highly skilled professional and doesn't need to hear all of this to do their job.\"",
+   "ctx": "data/campaign/rules.csv gaATGjanusPrototype3 [text]"
+  },
+  {
+   "i": 3,
+   "en": "Baird turns to you, leaving Coureuse cowed, \"Academician Coureuse will return to work refining the details as more data is gathered. As a great man once said, 'Technological advance is an inherently iterative process.'\"\r\n\r\n\"Captain,\" she says, \"The first prototype Janus Device is being transferred to your $shipOrFleet. Test it on a Gate manifold you have scanned. Record everything with your sensor suite and the modified instruments we have provided. This may be the most important experiment in the history of the Persean Sector.\"",
+   "ctx": "data/campaign/rules.csv gaATGjanusPrototype4 [text]"
+  },
+  {
+   "i": 4,
+   "en": "Coureuse speaks up one last time, \"Just, just don't use it in an inhabited system. Like the incident when Kallichore... the Hegemony... it wouldn't be good.\"\r\n\r\n\"Thank you,\" Baird says acidly, \"For the reminder. Academician.\"\r\n\r\nThe provost turns to you now, \"Obviously we shall not repeat my predecessor's mistake. Test this somewhere quiet.\" She turns from the holodisplay, a dismissal \"I await your results, captain.\" \r\n\r\nBaird terminates the comms.",
+   "ctx": "data/campaign/rules.csv gaATGjanusPrototype5 [text]"
+  },
+  {
+   "i": 5,
+   "en": "Several emotions cross Coureuse's face all at once.\r\n\r\n\"Um. Captain. All science is...\" She sighs, \"No, I can't do this.\"",
+   "ctx": "data/campaign/rules.csv gaATGaskSCJanusPrototype1 [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"Look. The provost told me what to tell you and not tell you. She was very clear about her objections to my... attitude. About questioning her leadership. And here I am, at the Galatia Academy. The Hegemony still has a warrant out for my arrest. To say nothing of the League, or, Ludd help me, the Pathers.\"\r\n\r\n\"She's got me,\" Coureuse says.\r\n\r\nShe takes another deep breath before looking back into the holodisplay.",
+   "ctx": "data/campaign/rules.csv gaATGaskSCJanusPrototype2 [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"I wouldn't send you out with this prototype if I thought for sure it was a, a, a deathtrap or something. That's all I can say.\"\r\n\r\nShe looks down and reaches to terminate the comm link, hesitates. \"And um, good luck?\"",
+   "ctx": "data/campaign/rules.csv gaATGaskSCJanusPrototype3 [text]"
+  },
+  {
+   "i": 8,
+   "en": "The comm link request blinks its awaiting response message for over a minute before it returns REQUEST DENIED. \r\n\r\nEither Coureuse isn't in the mood to talk, or someone isn't letting her talk.",
+   "ctx": "data/campaign/rules.csv gaATGtalkToCoureuseBlocked [text]"
+  },
+  {
+   "i": 9,
+   "en": "A silent ring of adamantine material, derelict of a former age.\r\n\r\nYou activate your command interface and tap over to the Janus Device prototype controls. After a barely discernible pause, an alert appears.\r\n\r\nUNKNOWN GATE SIGNATURE, SCAN REQUIRED\r\n\r\nThe Gate awaits, as cold as a tomb.",
+   "ctx": "data/campaign/rules.csv gaATGgateJanusNeedScan [text]"
+  },
+  {
+   "i": 10,
+   "en": "You hold your breath and lower your finger. Nothing happens. You look down at the splash of red text on your command interface.\r\n\r\nFUNCTION TERMINATED: DETECTED IN-SYSTEM HYPERCOMMUNICATION ACTIVITY INDICATIVE OF POPULATION CENTER // probably no one will see this abort case but want to make sure no one does something stupid -sc",
+   "ctx": "data/campaign/rules.csv gaATGgateJanusUseInhabited [text]"
+  },
+  {
+   "i": 11,
+   "en": "You know immediately that something is wrong. The hyperspace manifold display lights up with garish colors in violent whorls and jags, the representation's color-key glitching out on parameters beyond any anticipated scale. You hear a discordant tone - the hyperspace storm alarm, weirdly sounded here in normal space. \r\nAnd something else.\r\n\r\nEchoing somewhere which exists only in your mind; like a wail of pain.\r\n\r\nYour sensors officer shouts a warning, \"Wavefront approaching!\"",
+   "ctx": "data/campaign/rules.csv gaATGgateJanusUseResult [text]"
+  },
+  {
+   "i": 12,
+   "en": "The station comms connect to the office of the provost with no delay and your navigation officer forwards the link to your command interface. She was waiting.\r\n\r\n\"Tell me what happened.\" Baird's tone is cold as vacuum. Coureuse is already on the link, looking paler than usual.\r\n\r\nYou get the distinct feeling that the provost knows very well what happened.",
+   "ctx": "data/campaign/rules.csv gaATGreturnAfterJanusFail [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"Yes, an accident,\" Baird says with a derisive snort. \"The prototype failed. Nearly catastrophically. A negative result, however dramatic, is still a useful data point... which can be used to correct our errors.\"",
+   "ctx": "data/campaign/rules.csv gaATGreturnAfterJanusFail2a [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"But you weren't. You're a survivor, captain, which is why you're ideal for this work. Besides,\" she says too-casually, \"Making history is a dangerous career choice. The one you chose.\"",
+   "ctx": "data/campaign/rules.csv gaATGreturnAfterJanusFail2b [text]"
+  },
+  {
+   "i": 15,
+   "en": "Baird narrows her eyes at this. \"Plan B is we recalibrate the device using the data you've gained from the experiment. Then we try again.\" \r\n\r\nCoureuse begins to speak, then thinks better of it. She looks ill at the thought.",
+   "ctx": "data/campaign/rules.csv gaATGreturnAfterJanusFail2c [text]"
+  },
+  {
+   "i": 16,
+   "en": "Baird turns to Coureuse, \"Academician. When will the next iteration of the prototype be completed?\"",
+   "ctx": "data/campaign/rules.csv gaATGreturnAfterJanusFail3 [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"I don't-\" she starts, \"We need more time.\"\r\n\r\n\"Academician-\" Baird begins, a warning.\r\n\r\nCoureuse interrupts, \"I'm a theoretician, not an engineer! This isn't a matter of just fitting pipes or, or aligning agrav plates. What we're doing is completely new and, and our engineering process is primitive. We're scientists trying to assemble the equivalent of, of, of a new hyperdrive in a teaching workshop! Not only are the facilities insufficient, the project application falls outside my expertise!\"\r\n\r\nBaird visibly calms herself, but beneath her collected facade something seethes.",
+   "ctx": "data/campaign/rules.csv gaATGreturnAfterJanusFail4 [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"You do realize,\" the provost says, \"That I am holding several Hegemony ministries at bay? They're rearing to storm and purge the Galatia Academy. Again. All I have on my side are the good graces of 'the hive-scum hegemon' Baikal Daud. And that, THAT is only held up by the Sector-shattering promise of what the results of this project could mean. If I don't get results, the lucky ones will live out their days in some oubliette near the core of Coatl.\"\r\n\r\n\"I'm sorry you're having trouble,\" she says without a trace of apology, \"But I am accommodating the conditions circumstances have provided.\" ",
+   "ctx": "data/campaign/rules.csv gaATGreturnAfterJanusFail5 [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"You do realize,\" the provost says, \"That I am holding several Hegemony ministries at bay? They're rearing to storm and purge the Galatia Academy. Again. All I have on my side are the good graces of 'the hive-scum hegemon' Baikal Daud. And that, THAT is only held up by the Sector-shattering promise of what the results of this project could mean. If I don't get results, the lucky ones will live out their days in some oubliette near the core of Coatl.\"\r\n\r\nHer icy glare shifts to you for a moment, \"At least the captain here had the good sense to perform the failed experiment in a remote system.\"\r\n\r\n\"I'm sorry you're having trouble,\" she says without a trace of apology, \"But I am accommodating the conditions circumstances have provided.\" ",
+   "ctx": "data/campaign/rules.csv gaATGreturnAfterJanusFail5b [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"So by all means Scylla, take your time,\" Baird finishes with icy sarcasm.\r\n\r\nCoureuse starts, like she wants to speak.\r\n\r\n\"What,\" Baird says, \"Is it.\"\r\n\r\n\"I need Elissa Zal,\" Coureuse says quietly. ",
+   "ctx": "data/campaign/rules.csv gaATGreturnAfterJanusFail6 [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"Who.\" says Baird, her patience for excuses at an end.\r\n\r\n\"A... friend. An engineer. The best hardware wizard I know- I've ever known. Except she's, um, in trouble. It's a long story, but when we knew each other back on Westernesse there was-\"",
+   "ctx": "data/campaign/rules.csv gaATGreturnAfterJanusFail6b [text]"
+  },
+  {
+   "i": 22,
+   "en": "Baird interrupts the backstory, \"Captain $playerName. Get Coureuse's 'friend' if she thinks that'll help.\"\r\n\r\n\"Do whatever it takes,\" she says. \"Bribe, blackmail, kill. I do not care. Be smart and be quiet about it. If we get a new prototype before you find this 'Elissa Zal' character, we'll try that route. If not, carry on. I don't want to know the details because I do not care.\"",
+   "ctx": "data/campaign/rules.csv gaATGreturnAfterJanusFail7 [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"Academician Scylla Coureuse.\" The provost's withering attention shifts like a pulsar beam.\r\n\r\n\"I don't want to hear a single non-actionable complaint until you have a new Janus prototype ready to deploy. Captain $playerName will run any of your little errands.\" \r\n\r\n\"Now,\" the provost concludes, \"I have a meeting with a very prickly Hegemony inspector and we're both going to pretend that we know nothing about what just happened out there. Both of you get off my comms.\"\r\n\r\nThe link terminates.",
+   "ctx": "data/campaign/rules.csv gaATGreturnAfterJanusFail8 [text]"
+  },
+  {
+   "i": 24,
+   "en": "Coureuse appears on the comms display. \"Um. Captain $playerName. Hello.\"\r\n\r\nShe takes a deep breath. \"Thank you for contacting me. I'm sorry about... everything. Provost Baird. The failed experiment. I should never have gone ahead with it when I wasn't absolutely certain of your safety.\"",
+   "ctx": "data/campaign/rules.csv gaATGzalMissionStart [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"Yeah, that's one word for it,\" she says, and sighs.",
+   "ctx": "data/campaign/rules.csv gaATGzalMissionStart1 [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"Yes. You did. But I should have been more careful.\"",
+   "ctx": "data/campaign/rules.csv gaATGzalMissionStart2 [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"It won't happen again,\" she says earnestly. \"I promise.\"",
+   "ctx": "data/campaign/rules.csv gaATGzalMissionStart3 [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"I- I suppose I do, captain. I can't put all the blame on the provost. I did choose to follow her orders.\"",
+   "ctx": "data/campaign/rules.csv gaATGzalMissionStart4 [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"Okay,\" she says awkwardly. ",
+   "ctx": "data/campaign/rules.csv gaATGzalMissionStart5 [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"Um.\" Coureuse shakes her head, and takes a deep breath. \"So about finding Elissa Zal. I think we need Gargoyle in on this conversation. Let me, uh.\" She taps at her datapad.",
+   "ctx": "data/campaign/rules.csv gaATGzalMissionStart6 [text]"
+  },
+  {
+   "i": 31,
+   "en": "Gargoyle appears in a flash. \"Scylla, girl! Where have you been? The goons won't let me into the lab anymore so I snuck in when they were changing shifts. Your bright but stylistically sedated friends told me you were in some kind of important meeting, so I thought, how important could it be if I wasn't invited? So I had to ask Alviss what was going on, can you believe it? You know how he is, all stammering and trying so so hard not to lie or say anything against the old witch, and-\"\r\n\r\nThe hacker pauses, taking in Coureuse's demeanor - and yours. \"Oh. This is about the experiment and the exploding, isn't it. Queen B wasn't happy about that, huh.\"",
+   "ctx": "data/campaign/rules.csv gaATGzalMissionStart7 [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"Yes,\" says Coureuse. \"Um. I mean, no. She wasn't happy. But what's important now is that we find Elissa-\"\r\n\r\n\"-Zal?\" Gargoyle interrupts, looking pleased.\r\n\r\n\"I- yes. You know her?\" Coureuse looks confused.",
+   "ctx": "data/campaign/rules.csv gaATGzalMissionStart8 [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"Oh yes, but please, please, I must apologize,\" Gargoyle says magnanimously, \"I've interrupted your story. Go on, I don't want to spoil anything too soon.\" \r\n\r\n\"Um,\" Coureuse recovers her composure, \"Okay, yes, so I've... actually been in contact with Elissa off and on. Maybe uh, the captain here knows about that. The problem with Elissa is, well. She's being held sorta-prisoner by Kanta.\"\r\n\r\nGargoyle nods enthusiastically at this revelation.",
+   "ctx": "data/campaign/rules.csv gaATGzalMissionStart9 [text]"
+  },
+  {
+   "i": 34,
+   "en": "\"Well. She's allowed some contact with the outside world. Privileges? Um, obviously I guess, due to our ... arrangements. But that's all been through Kanta's organization, and then through whatever pirates owe the Kantas a favor. When Elissa says 'drop this instrument package in this orbit', if Kanta is behind her, it gets done.\"\r\n\r\n\"Elissa can sneak some things past Kanta's people. Her work is beyond them by a long shot,\" Coureuse smiles with pride at this, \"But it's risky. And getting riskier. Kanta is a bit, um,\" she flutters her hands trying to figure out how to express it. \"Her reactor is a bit leaky?\"",
+   "ctx": "data/campaign/rules.csv gaATGzalMissionHubA [text]"
+  }
+ ]
+}

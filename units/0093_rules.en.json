@@ -1,0 +1,156 @@
+{
+ "chunk": 93,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"THEY FOLLOW\" was scraped onto the decking with a multitool. Low oxygen psychosis is not unheard of under such catastrophic conditions.\r\n\r\nWhat exactly it was this shield was supposed to keep out - or in - is unclear.",
+   "ctx": "data/campaign/rules.csv GS_TRI_TACHYON_cont3Sel [text]"
+  },
+  {
+   "i": 2,
+   "en": "Your salvors perform an orderly breach under the supervision of your ops chief, identifying and disabling several custom-rigged defensive measures.",
+   "ctx": "data/campaign/rules.csv GS_ADVENTURERS_cont1Sel [text]"
+  },
+  {
+   "i": 3,
+   "en": "One salvor is overly hasty and skips a step in the measured protocols that made the reputation of your ops chief.\r\n\r\nThis earns the consequences of a custom-rigged defensive measure hidden in the access panel for the cargo bay override.",
+   "ctx": "data/campaign/rules.csv GS_ADVENTURERS_cont1SelBoom [text]"
+  },
+  {
+   "i": 4,
+   "en": "Your ops chief growls, bullying the remaining salvors into paranoid compliance. Several more explosives and panel overloads are disarmed before hull access is cleared.",
+   "ctx": "data/campaign/rules.csv GS_ADVENTURERS_contBoomSel [text]"
+  },
+  {
+   "i": 5,
+   "en": "This is a ship of mercenary-adventurers crewed by a colorful mix of distinct personalities from worlds representative of a broad swath of the Persean Sector.\r\n\r\nThe captain was a former officer who found himself on the losing side of minor rebellion out of the Persean League. The pilot, a racer-turned-smuggler recovered from stim addiction. Former Diktat gone renegade, present at the massacre of... scion of an Eventide officer family, overbearing mother, disowned after... the engineer, the armorer, the navigator... all irrelevant details. You skim the report faster.\r\n\r\nYou can't imagine how they managed to work together. It doesn't matter; they're all dead now.",
+   "ctx": "data/campaign/rules.csv GS_ADVENTURERS_cont2Sel [text]"
+  },
+  {
+   "i": 6,
+   "en": "You watch the salvage teams via vid-feed as their rig and attendant drone swarm approach the derelict.\r\n\r\nDetails from long-range optical scans are confirmed: beneath a patina of space-weathering, the hull still bears a corporate registration and the crest of the Chartery of Opis, a polity annihilated during the Askonia Crisis of cycle 181.",
+   "ctx": "data/campaign/rules.csv GS_OPIS_cont1Sel [text]"
+  },
+  {
+   "i": 7,
+   "en": "The only body found aboard is the former captain, sitting at his command console, desiccated eyes fixed ahead at the suffocating nothingness of deep space.\r\n\r\nBehind the CIC, in the armored computer center, there is a Tri-Tachyon manufactured AI core interface. Just sitting there unassuming out in the open, a perfectly casual commercial hardware installation. This dates the ship back further, to before the AI Wars.\r\n\r\nNo core lies in the cradle, however. Perhaps it was taken when the ship was abandoned.",
+   "ctx": "data/campaign/rules.csv GS_OPIS_cont2Sel [text]"
+  },
+  {
+   "i": 8,
+   "en": "Your tech officer oversees an attempt to read the logs, to find some hint of what happened and why - but the memory banks have all been cleared by a repeating wipe program that continued until backup power faded.\r\n\r\nA full forensic-archeological investigation might reveal answers, but you have neither the time nor equipment for such indulgence.",
+   "ctx": "data/campaign/rules.csv GS_OPIS_cont3Sel [text]"
+  },
+  {
+   "i": 9,
+   "en": "As your salvor teams breach the hull, they discover tell-tale signs of a pirate crew: prominently-displayed hand weapons, decor as bold and brutal as it is unsophisticated - skulls and blood-red predominate, and signs of lackadaisical maintenance performed on the less interesting ship systems.\r\n\r\nIt is not a tomb-ship, however. \r\n\r\nBy numbers, most of the crew appears to have escaped before leaving the hull derelict. A few unfortunate victims of personal violence - or parts of them - appear to have been left behind from some kind of internal conflict. The cycles since were not kind to what remained as the life support systems slowly failed.",
+   "ctx": "data/campaign/rules.csv GS_PIRATES_cont1Sel [text]"
+  },
+  {
+   "i": 10,
+   "en": "A cursory trawl of what logs the senior officers bothered to keep suggests that this ship was part of a small pirate flotilla tracking a well-supplied independent expedition working its way through the outer fringe. That expedition spotted the pirates, then burned rapidly toward the Abyss. The pirates followed and soon lost their prey in the stultifying darkness.\r\n\r\nWith supplies and fuel dwindling and no certainty of a 'hostile resupply', the pirate leadership began to argue, and then to scrap hulls while consolidating crew onto the remaining ships - at the barrel of a gun, as necessary.\r\n\r\nThere wasn't quite enough room for everyone, it appears.",
+   "ctx": "data/campaign/rules.csv GS_PIRATES_cont2Sel [text]"
+  },
+  {
+   "i": 11,
+   "en": "As your salvors approach, some kind of proximity sensor is triggered - a faint comms transmission begins. The power system is clearly degraded and running down, causing the transmission to sputter and warble.\r\n\r\nIt's a repeating recording, not an active feed. Your comms officer does their best to clean it up, and forwards it to your command console.\r\n\r\nA face appears, presumably the unfortunate ship's captain, his expression twisted by an appalling mixture of privation and hatred.",
+   "ctx": "data/campaign/rules.csv GS_ZGR_MERC_cont1Sel [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"...Zunya, if you ever see this, know that my last wish and curse is that you burn, and burn slowly in the radiation of a leaking reactor. I hope your eyes boil, and your blood sublimes into the vacuum as your dying body is thrown into space by the others you've betrayed. You're as heartless as-\"",
+   "ctx": "data/campaign/rules.csv GS_ZGR_MERC_cont2Sel [text]"
+  },
+  {
+   "i": 13,
+   "en": "He goes on to describe various torments deserved due to the poor character of someone called Zunya Glamor-Rotanev. By context clues you presume her to be some kind of high ranking Tri-Tachyon executive who commissioned him to carry out a failed expedition.",
+   "ctx": "data/campaign/rules.csv GS_ZGR_MERC_cont3SelA [text]"
+  },
+  {
+   "i": 14,
+   "en": "He goes on to describe various torments deserved due to the poor character of Director of Special Acquisitions Zunya Glamor-Rotanev. It seems unlikely that she would be interested in a recording of the transmission.",
+   "ctx": "data/campaign/rules.csv GS_ZGR_MERC_cont3SelB [text]"
+  },
+  {
+   "i": 15,
+   "en": "Your ops chief gives the order, and salvage teams move to prioritize the recovery of datacores and sensor buffers.\r\n\r\nThey are efficient in their work, and soon their relays hum with recovered data. Tiny packet drones shuttle recovered hardware between the wreck and your $shipOrFleet.",
+   "ctx": "data/campaign/rules.csv GS_ZGR_MERC_cont4Sel [text]"
+  },
+  {
+   "i": 16,
+   "en": "Your tech officer is only frustrated by the results, however. The datacores have been wiped, memory overwritten thousands of times with hateful messages directed at Glamor-Rotanev. If these mercs found anything, if their logs had any clues, it's all been erased. If there was anything esoteric in their cargo holds, it's been dumped.\r\n\r\n\"It's all just scrap, $playerSirOrMadam,\" your tech officer reports, disappointed. Your ops chief grunts neutral acknowledgement; it's always scrap to them.",
+   "ctx": "data/campaign/rules.csv GS_ZGR_MERC_cont5Sel [text]"
+  },
+  {
+   "i": 17,
+   "en": "This hull is damaged, but through the scars of impacts and stripped armor your sensors officer recognizes the crest of the Galatia Academy. This expedition was lightly and inconspicuously armed, enough to discourage casual piracy while not offending the official neutrality of the Academy.\r\n\r\nPerhaps this was not enough.\r\n\r\nSalvage repeaters - a common feature of high-risk Academy probes and expeditions which promise a reward for return of data - are all dead. Manually disabled, overloaded and fused or even smashed with hand-tools, from the looks of it. Clearly someone did not want them transmitting their message, or any message, in this place.",
+   "ctx": "data/campaign/rules.csv GS_ACADEMY_cont1Sel [text]"
+  },
+  {
+   "i": 18,
+   "en": "The expedition's equipment is not the best money can buy, but the sensor suites and detector arrays were obviously lovingly modified and maintained - what's left of them, anyway. They're torn apart, twisted and burnt into jagged black filaments.\r\n\r\nShielded datacores are recovered by salvor teams and returned for analysis in a signal-quarantined vault kept for this purpose. It does not take long for your tech officer to report results.",
+   "ctx": "data/campaign/rules.csv GS_ACADEMY_cont2Sel [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"Judging from logs and fabrication tags, the expedition dates to circa cycle 176,\" your tech officer says. \"This was the flagship of a small flotilla. The rest were... lost.\"\r\n\r\n\"Someone... tried to erase all records. Forge-reset.\"",
+   "ctx": "data/campaign/rules.csv GS_ACADEMY_cont2Selb [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"Not quite,\" your tech officer suppresses a sly grin.\r\n\r\nThere's simple deletion and there's systemic erasure done to ensure that data recovery is effectively impossible. Whoever did this was not proficient enough to do the latter.",
+   "ctx": "data/campaign/rules.csv GS_ACADEMY_cont3Sel [text]"
+  },
+  {
+   "i": 21,
+   "en": "Datastreams are painstakingly recovered, the high-interest combat logs prioritized by your techs. The data is lossy, and the gaps must be filled by algorithms which, used improperly, have a reputation for confidently asserting false results.\r\n\r\nNonetheless.\r\n\r\nYou see the black of the abyss, and the cluster of lights and icons signifying the Galatia Expedition's flotilla. The view is highly abstract, a reconstruction of a visualization necessary in not only hyperspace but the uncertain depths of the Abyss.\r\n\r\nYou speed the stream forward to the point where everything goes wrong.",
+   "ctx": "data/campaign/rules.csv GS_ACADEMY_cont4Sel [text]"
+  },
+  {
+   "i": 22,
+   "en": "The fleet approaches an Abyssal Light. A glow in the simulated display, a foggy illumination which somehow captures the cold and solipsistic loneliness of the veil beyond deep space.\r\n\r\nThe flagship comms hum with excited academicians eager to finally perform their experiments after long weeks of boredom.",
+   "ctx": "data/campaign/rules.csv GS_ACADEMY_cont4SelB [text]"
+  },
+  {
+   "i": 23,
+   "en": "The flotilla's hyperspace bubble ripples, then strains under an impossible force. Anomalous sensor readings are tagged, then...\r\n\r\nAn error pops up from your own software. \r\nEXTREME UNRELIABILITY. Output may not reflect accurate reconstruction of data. Continue?",
+   "ctx": "data/campaign/rules.csv GS_ACADEMY_cont5Sel [text]"
+  },
+  {
+   "i": 24,
+   "en": "The display is full of red icons, jagged warnings vectoring toward elements of the flotilla.\r\n\r\nThe chief Academician orders a full sensor burst, max power, using the integrated suite of the entire flotilla. There is a flash as EM surges; and gravimetrics pulse, hyperwave doppler, Atherton resonators...\r\n\r\nAnother error.\r\nINTERRUPT: INSUFFICIENT DATA. Continue to next viable reconstruction?",
+   "ctx": "data/campaign/rules.csv GS_ACADEMY_cont6Sel [text]"
+  },
+  {
+   "i": 25,
+   "en": "The feed is degraded, patchy. The flotilla is gone; only the flagship remains, panicked voices on ship comms, in retreat from its previous course. The timeline show a halting record of desperate damage repairs and the crews' slow realization that they cannot make it back to civilized space.\r\n\r\nIt is a death-spiral known and feared by all spacer crews.\r\n\r\nSystems break down, fuel and supplies dwindle. Morale breaks down. Then discipline. It unravels faster than usual with so many civilians.\r\n\r\nYou shut it off.",
+   "ctx": "data/campaign/rules.csv GS_ACADEMY_cont7Sel [text]"
+  },
+  {
+   "i": 26,
+   "en": "A starship-sized metal structure spins slowly before your $shipOrFleet. It is no ship, but a regular form of asymmetric proportions with a trough-like interior. It appears to have sustained tremendous battle-damage on its convex face, which is riven with gaping holes.\r\n\r\nA cloud of debris, presumably from the structure, hangs in the blackness like flies around a corpse.",
+   "ctx": "data/campaign/rules.csv gsVambOptHubDescriptionA [text]"
+  },
+  {
+   "i": 27,
+   "en": "A starship-sized metal structure spins slowly before your $shipOrFleet. It is no ship, but a modular armor section from the Onslaught Mk.I which your sensors officer readily matches to your records despite the tremendous battle-damage.\r\n\r\nSmaller pieces of debris, presumably from the structure, hang in the blackness like flies around a corpse.",
+   "ctx": "data/campaign/rules.csv gsVambOptHubDescriptionB [text]"
+  },
+  {
+   "i": 28,
+   "en": "A starship-sized metal structure spins slowly before your $shipOrFleet. It is no ship, but a modular armor section which, despite tremendous battle-damage, matches the armored vambrace of the Onslaught Mk.I.\r\n\r\nYour sensors officer builds a scan of the structure from your $shipOrFleet's sensor suite then overlays it onto the 'arm' of your own Onslaught Mk.I. The visual match is obvious despite the violence which has torn and warped the structure.\r\n\r\nSmaller pieces of debris, presumably from the vambrace, hang in the blackness like flies around a corpse.",
+   "ctx": "data/campaign/rules.csv gsVambOptHubDescriptionC [text]"
+  },
+  {
+   "i": 29,
+   "en": "You order material samples taken from representative sections of the structure. It is possible that something more might be learned about its provenance.",
+   "ctx": "data/campaign/rules.csv gsVambraceSample [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"Spectra and mass returns are consistent, mostly, with ship armor,\" your sensors officer reports. \"No active power systems, no atmo, no habitable volumes. Temperature approaching background.\"\r\n\r\nThey look over their shoulder at you. \"It's dead. And it's been dead for a very long time.\"\r\n\r\nSensors gives you an apologetic look. \"Conditions are strange out here, $playerSirOrMadam. We'll need a closer look to find out more.\"",
+   "ctx": "data/campaign/rules.csv gsVambraceExplore1 [text]"
+  }
+ ]
+}

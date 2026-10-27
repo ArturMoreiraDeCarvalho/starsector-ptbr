@@ -1,0 +1,141 @@
+{
+ "chunk": 176,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"Our hands are tied.\" Baird looks up, as if defying some overbearing god.\r\n\r\n\"Tomas Kallichore played Tri-Tachyon and the Hegemony off each other. It was a delicate balance and he lost control. The Hegemony was forced to act and I was forced to step forward to clean up his mess.\"\r\n\r\n\"It is clear that a side had to be chosen, so I have chosen the Hegemony. They are a known quantity whereas Tri-Tachyon is mercurial - and their indiscreet abuse of AI core technology threatens to open Pandora's Box for a third time.\"\r\n\r\n\"To this end, I must assure High Hegemon Daud that the Galatia Academy has his interests in mind as we push toward the next breakthrough. I need you to make direct contact with the top executive of the Hegemony.\"",
+   "ctx": "data/campaign/rules.csv gaATGIntro5 [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"Presumably we can reassert most of the terms of the agreement Provost Tomas Kallichore had previously promised and subsequently failed to deliver to High Hegemon Daud. With,\" is the provost gritting her teeth?, \"Additional provisions and information-sharing due to Kallichore's squandering of that trust.\"\r\n\r\n\"Daud needs to know that there won't be any more dramatic, destructive public experiments on his watch.\"",
+   "ctx": "data/campaign/rules.csv gaATGIntro6 [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"Of course not,\" Baird says curtly.\r\n\r\n\"The High Hegemon does not simply speak with people like you. Besides, imagine what the Luddics would think if you went to Daud's office saying 'the Galatia Academy wants to talk to you about firing up Moloch's grand experiment again'. He'd be a fool to rattle that nest of small-minded millennialists.\"\r\n\r\n\"What you're going to do is get diplomatic credentials from a highly-placed Persean League VIP. Your cover story is you're acting as an envoy between the Yaribay faction of Kazeron and the Hegemony.\"",
+   "ctx": "data/campaign/rules.csv gaATGIntro7 [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"You are a member of the Persean League in good standing, are you not,\" she says. \"I trust you're familiar with the political situation.\"",
+   "ctx": "data/campaign/rules.csv gaATGIntro7leagueMember [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"A demarchon.\" Baird speaks the title with dismissive amusement.\r\n\r\n\"It is the gens that control Kazeron - and half the member-worlds, besides. And Kazeron is the League.\" \r\n\r\n\"If you do not bear accreditation in the name of Hannan, Yaribay, or Kato then you're not going to be taken seriously.\"",
+   "ctx": "data/campaign/rules.csv gaATGintroAskMePL [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"A major player in Persean League internal politics. Gens Yaribay is one of the big three Kazeron dynastic family-corporations, and they favor a... let's call it a 'compromise' which would see the Persean League unite with the Hegemony.\"\r\n\r\nBaird removes her spectacles for a moment, \"League-Hegemony reconciliation...\"\r\n\r\nShe shakes her head incredulously. \"What is important is that the Hegemony - and the Church - will accept an envoy bearing Yaribay diplomatic credentials having a private talk with High Hegemon Daud.\"",
+   "ctx": "data/campaign/rules.csv gaATGIntroAsk1 [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"My 'take' is that they're the only one out of the three gens of Kazeron who favor a... let's call it a 'compromise' which seeks to unite the Persean League with the Hegemony.\"\r\n\r\nBaird removes her spectacles for a moment, \"League-Hegemony reconciliation...\"\r\n\r\nShe shakes her head incredulously. \"What is important is that the Hegemony - and the Church - will accept an envoy bearing Yaribay diplomatic credentials having a private talk with High Hegemon Daud.\"",
+   "ctx": "data/campaign/rules.csv gaATGIntroAsk1PL [text]"
+  },
+  {
+   "i": 8,
+   "en": "Baird smiles coolly.\r\n\r\n\"Horus Yaribay's eldest attends the Galatia Academy. There was an incident. There usually are when the children of unimaginable wealth go out into the world. They're unaccustomed to boundaries. Imagine the shame: the scion of Gens Yaribay facing expulsion,\" says the provost. \"Unthinkable; it'd be a bigger scandal than that Kato child trying to play revolution on Umbra.\"\r\n\r\n\"I'll provide you with a message for Horus Yaribay. Tell him we want to use him as cover to whisper in Hegemon Daud's ear. Horus also wants his eldest child to graduate with distinction from this prestigious academy,\" Baird holds her hands up in mock-innocence, \"Whatever is to be done?\"",
+   "ctx": "data/campaign/rules.csv gaATGIntroAsk2 [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"The Hegemony, for all its posturing about loyalty and honor,\" Baird smirks, \"is an old collection of infighting factions and ministries. Their internal conflicts are all by the book, of course. Usually. But the book, as our Luddic friends can attest, tells a different story depending on who is doing the reading.\"\r\n\r\n\"Let me be blunt, captain. Many in the Hegemony would see me - and you - imprisoned or executed for what we've done. The Luddic Church hardliners pray to make an example of the Academy again, and there are enough Faithful in Hegemony ranks that keeping their secrets from the Church is difficult. Kallichore made the mistake of providing his enemies with an excuse. Now hostile eyes watch for another slip-up.\"\r\n\r\n\"I happen to know that Baikal Daud is open-minded about my great project, though he cannot act openly. He is, after all, the High Hegemon.\"",
+   "ctx": "data/campaign/rules.csv gaATGIntroAsk3 [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"Go to Kazeron, in the Thule system,\" Baird says. \"Remind Horus Yaribay of how he and I stand.\"\r\n\r\n\"Then, when you meet High Hegemon Daud, tell him that the rewards of the Galatia Academy's research will be exclusive this time. I'll provide you the documents to give him.\"",
+   "ctx": "data/campaign/rules.csv gaATGIntroGotIt [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"Go to Kazeron,\" Baird says. \"Remind your fellow League demarchon Horus Yaribay of how he and I stand.\"\r\n\r\n\"Then, when you meet High Hegemon Daud, tell him that the rewards of the Galatia Academy's research will be exclusive this time. I'll provide you the documents to give him.\"",
+   "ctx": "data/campaign/rules.csv gaATGIntroGotItPL [text]"
+  },
+  {
+   "i": 12,
+   "en": "The provost turns from you, to look out the diamond-matrix windows of her office. \"Once the High Hegemon's cooperation is settled, we can proceed to the active experimentation stage.\" \r\n\r\nYou can tell she's smiling now, as if she can't help herself, \"Coureuse's team is putting the finishing touches on a Gate scanner. We'll need more data, and we need you to collect it. Go and speak with her about this. Do whatever she requires.\"",
+   "ctx": "data/campaign/rules.csv gaATGIntroWrap1 [text]"
+  },
+  {
+   "i": 13,
+   "en": "You understand well enough by now that this is your cue to leave, and on cue you feel the doors open behind you. The mirror-masked guard awaits.",
+   "ctx": "data/campaign/rules.csv gaATGIntroWrap2 [text]"
+  },
+  {
+   "i": 14,
+   "en": "The comm image stabilizes on Coureuse in her laboratory-office, surrounded by holographic projections of data tables.\r\n\r\n\"Oh,\" she says, looking up, \"Captain $playerName. Yes, ah, Provost Baird said I'm to fill you in on the new development.\"\r\n\r\nShe sweeps away several displays-worth of work; arcane glyphs and diagrams collapse into unobtrusive icons.",
+   "ctx": "data/campaign/rules.csv gaATGgetScannerStart [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"First,\" she says, \"this is a prototype device. I told the provost that we're only part-way through the test procedures - we've been using the Galatia Gate as a test case - but I suppose if we make ongoing calibrations and update the firmware via hypercomm...\"\r\n\r\nCoureuse mumbles to herself as she starts tapping out a new checklist.",
+   "ctx": "data/campaign/rules.csv gaATGgetScannerStart2 [text]"
+  },
+  {
+   "i": 16,
+   "en": "She looks abashed. \"I'm not doing a very good job of this, am I. Teaching was never- sorry, let me answer your question.\"",
+   "ctx": "data/campaign/rules.csv gaATGgetScanner1a [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"Oh!\" She looks up, \"I'm so sorry captain. There's just so much going on, that I...\"",
+   "ctx": "data/campaign/rules.csv gaATGgetScanner1b [text]"
+  },
+  {
+   "i": 18,
+   "en": "Coureuse takes a breath, centering herself.\r\n\r\n\"This prototype can interact with the Gate manifold itself. It is my supposition that the Gate network is not so much collapsed as it is... folded up. It's there, but inaccessible. Maybe. We'll need to test certain properties, and,\" she looks at an ancillary display, catches herself, and turns back to you.",
+   "ctx": "data/campaign/rules.csv gaATGgetScanner2a [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"It was your scan of the Mote induction device from the Ziggurat hull that opened the door. It showed us...\" She pauses, then her voice rises with excitement. \"Such unimaginable things!\"\r\n\r\n\"Or,\" she catches her enthusiasm with a skeptical look. \"What it showed was highly improbable within the current body of accepted theory. There are entirely new subfields of hyperspace physics out there, in there, whatever - just waiting for first observation!\"",
+   "ctx": "data/campaign/rules.csv gaATGgetScanner2b [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"Right, of course. We're transferring the Gate scanner to your $shipOrFleet now. I'll give you the rundown on the operation.\"\r\n\r\nCoureuse pulls up a new shared holo display, a wireframe depiction of a Domain-era Gate.\r\n\r\nAn icon standing off about three diameters from the ring itself seems to represent your flagship. You recognize a diffuse bubble around it as the influence of a drive field.",
+   "ctx": "data/campaign/rules.csv gaATGgetScanner3 [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"You'll have to be stationed fairly close to the Gate. And you must ensure that there are no active drive fields within the Gate diameter itself.\"\r\n\r\nShe focuses back on the display, \"Once you're in place, execute the precoded instructions. The data will encrypt itself and be sent back to me when you're in range of a hypercomm relay.\"\r\n\r\n\"We'll need to calibrate the hyperdimensional transform of course, so you'll need to scan six different Gates. We've already scanned the Galatia Gate, so it has to be six other Gates. Then comes the next step.\"",
+   "ctx": "data/campaign/rules.csv gaATGgetScanner4 [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"...Provost Baird said I shouldn't talk about it,\" Coureuse says. \"But seeing as how you're in the line of fire...\"\r\n\r\nWithout thinking, she glances away, then speaks quietly. \"We've been calling it the Janus Device. I admit, it's premature to give it a name, but when the hyperphysics team gets excited...\" She shrugs helplessly. \"There's no stopping them.\"\r\n\r\n\"It's just-\" Coureuse notices a blinking display, \"The equipment transfer is complete, captain. You're good to go.\"",
+   "ctx": "data/campaign/rules.csv gaATGgetScanner5 [text]"
+  },
+  {
+   "i": 23,
+   "en": "She sighs unhappily. Coureuse looks more tired than you've ever seen.\r\n\r\n\"The team is eager and- and I appreciate their work. But my strength is theory, not hardware applications. It's... it's all so clumsy. And our fabrication equipment! The techs try their best, but the provost expects the world and more. She wants to push the schedule faster. It's simply too fast! I need time to refine the math, to run more equipment tests, to get top of the line components-\" Coureuse stifles a yawn. \"And get some sleep.\"\r\n\r\nShe looks away, \"If Elissa was here, this would all be so simple.\"",
+   "ctx": "data/campaign/rules.csv gaATGgetScannerMore [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"Someone I know. Knew. A friend, or- anyway, her name is Elissa Zal. We did... work. Together. A long time ago. She's a genius with hardware. But um, I made some mistakes, and...\" She trails off as she realizes she doesn't want to continue. \r\n\r\nOne of her many displays pops an alert which chimes urgently. Coureuse snaps out of it, and dismisses the alert.",
+   "ctx": "data/campaign/rules.csv gaATGgetScannerMoreOptionA1 [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"Um,\" Coureuse looks at you like she's thinking; to trust you, to hide something? \r\n\r\n\"Yes. I mean at first yes. Things became complex. She got in a lot of trouble. And I don't want to make it any worse.\"\r\n\r\nOne of her many displays pops an alert which chimes urgently.",
+   "ctx": "data/campaign/rules.csv gaATGgetScannerMoreOptionB2 [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"Um,\" Coureuse looks at you like she's thinking; to trust you, to hide something? \"Not exactly. I mean yes, she is and is. Or was. But she got in a lot of trouble. Not with Cavin; after that. Worse. And I don't want to make it even worse.\"\r\n\r\nOne of her many displays pops an alert which chimes urgently.",
+   "ctx": "data/campaign/rules.csv gaATGgetScannerMoreOptionC3 [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"Yes, the very one.\" Coureuse smiles, \"That was kind of you.\"\r\n\r\nShe sighs, \"I can't talk about it, really. Something happened a long time ago, and I wish it hadn't gone the way it did. You know? And then Elissa got in a lot of trouble. But she found a way to... to contact me. So we can talk. And we have been.\" Coureuse goes quiet and looks at you as if deciding whether to hide something or to trust you. \r\n\r\nOne of her many displays pops an alert which chimes urgently, breaking the spell.",
+   "ctx": "data/campaign/rules.csv gaATGgetScannerMoreOptionD4 [text]"
+  }
+ ]
+}

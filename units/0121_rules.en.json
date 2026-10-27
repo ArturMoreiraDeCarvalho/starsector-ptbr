@@ -1,0 +1,231 @@
+{
+ "chunk": 121,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "He shakes his head at the implied accusation. \"It is not.\"\r\n\r\n\"You know little of the Path, spacer. The Path provides something that nothing else will. Not Kazeron, not the Hegemony, certainly not the Mazalot Unification Authority.\"\r\n\r\nHe sets his teacup down firmly, rattling the ceramic. There is a sad fervor in his eyes you did not see before. \"Ludd's message shines bright in the dark of space, and in the shadow beneath the boot of power. Not even the Church can contain it.\"\r\n\r\nHe stands, and takes a deep breath. Then smooths his fine clothing. \"Go in peace,\" he says.",
+   "ctx": "data/campaign/rules.csv LKEvirensEndingOptFResp1 [text]"
+  },
+  {
+   "i": 2,
+   "en": "Virens' expression cools noticeably.\r\n\r\n\"Do you,\" he says; not a question. \"With that, I cannot help you.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensEndingOptGResp1 [text]"
+  },
+  {
+   "i": 3,
+   "en": "He stands, and smooths his fine clothing, letting out a deep breath. \r\n\r\n\"I will not speak of Cotton. Not here, not now.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensEndingOptGResp2a [text]"
+  },
+  {
+   "i": 4,
+   "en": "He stands, and smooths his fine clothing, letting out a deep breath. \r\n\r\n\"If you would drink a bitter tea, then I 'will not',\" he emphasizes your words, \"stop you.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensEndingOptGResp2b [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"The Path is not all one thing, spacer, nor is the Church. Remember that.\" He turns back to you - and pauses halfway to catch your eye - before facing the courtyard.\r\n\r\n\"My man Fearnot will see you out.\"",
+   "ctx": "data/campaign/rules.csv lke_virensEndingOptGResp3a [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"The Path is not all one thing, spacer, nor is the Church. Remember that.\" He turns back to look into the courtyard.\r\n\r\n\"My man Fearnot will see you out.\"",
+   "ctx": "data/campaign/rules.csv lke_virensEndingOptGResp3b [text]"
+  },
+  {
+   "i": 7,
+   "en": "He stands to see you off, \"The Path is not all one thing, spacer, nor is the Church. Remember that.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensEndingOptHResp1 [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"No. Often, the cowards way is not. I pray that I am no fool in this.\" Virens stands, his body tense, his manner clear in seeing you gone as soon as possible.\r\n\r\n\"My man Fearnot will see you out.\"",
+   "ctx": "data/campaign/rules.csv LIKEvirensEndingOptIResp1 [text]"
+  },
+  {
+   "i": 9,
+   "en": "Virens' lead guard brings you back to the entry hall, where a secretary meets you and uses a scratched datapad to provide you with coordinates to a location on the surface of Mazalot.\r\n\r\nYour side arm is returned, and you are accompanied back to your shuttle; the population keeps a wary distance. They know who you met, and know better than to interfere.",
+   "ctx": "data/campaign/rules.csv LKEvirensEndingOut1b [text]"
+  },
+  {
+   "i": 10,
+   "en": "Virens' lead guard brings you back to the entry hall, where a secretary meets you and uses a scratched datapad to provide you with coordinates to a location on the surface of Mazalot.\r\n\r\nThen you are accompanied back to your shuttle; the population keeps a wary distance. They know who you met, and know better than to interfere.",
+   "ctx": "data/campaign/rules.csv LKEvirensEndingOut1 [text]"
+  },
+  {
+   "i": 11,
+   "en": "You convene your senior officers to discuss an extraction scenario for Jethro Bornanew, presumably employed or taken hostage by Nile Virens. \r\n\r\nIt is impossible to completely avoid the MUA's defense network, although even cursory scans show that it is deployed to counter internal uprisings rather than external raids. Persean League casualties can be minimized, but certain sensor stations and defensive batteries will have to be disabled to open the way for a clean assault on Virens' bases.\r\n\r\nThe Pathers are another problem entirely: separate infiltration squads must simultaneously breach secure compounds located in densely populated settlements. Casual use of heavy weaponry among civilians would attract unwanted interference both in the immediate operation and your future activities. You must strike everywhere swiftly, unerringly, and with a light touch.",
+   "ctx": "data/campaign/rules.csv lkeVirensRaidStart [text]"
+  },
+  {
+   "i": 12,
+   "en": "You oversee the raid from your bridge, your $shipOrFleet providing EW cover and sporadic fire support for the breaching drones and marine shuttles.\r\n\r\nThe raid hinges on mere minutes of chaos, comms throughout the hemisphere crackling with static and only tightbeam relays able to pierce the rain of EM scatter amid clouds of chaff and disruption. Casualty reports roll in, displays on your bridge bleeding to fill the space with a bloody glow.\r\n\r\nIn the confusion, more than one team reports success. This can be sorted out later. As quickly as they landed, your forces perform an orderly withdrawal, laying covering fire while hauling casualties and prisoners.",
+   "ctx": "data/campaign/rules.csv lkeVirensRaidFinishedA [text]"
+  },
+  {
+   "i": 13,
+   "en": "Multiple prisoners have been taken and returned to your $shipOrFleet. None matches the admittedly crude biometric data you have on Jethro Bornanew.\r\n\r\nNile Virens himself, however, awaits you in a cell.",
+   "ctx": "data/campaign/rules.csv lkeVirensRaidFinishedB [text]"
+  },
+  {
+   "i": 14,
+   "en": "More than anything, Nile Virens looks tired. Not surprised; he seems to have been expecting you. But tired.\r\n\r\nHis fine suit, hand sewn from the looks of it, is ripped and dirty. A medic has applied some derm patches; you've already been briefed on his status. Minor lacerations, contusions; nothing serious.",
+   "ctx": "data/campaign/rules.csv lkeVirensRaidFinished2 [text]"
+  },
+  {
+   "i": 15,
+   "en": "A quiet minute passes while some tea is retrieved. Virens stares at you, and you at him.\r\n\r\nThe guard sets a pot, and two cups down. Virens lifts his hands - bound in a restraint cuff - to the table.",
+   "ctx": "data/campaign/rules.csv LKEvirensRaidGetTea [text]"
+  },
+  {
+   "i": 16,
+   "en": "Virens closes his eyes for a long moment, like this is making him even more tired.\r\n\r\n\"You. You did. You asked everyone on Mazalot where to find Jethro Bornanew.\"\r\n\r\nHe opens his eyes again. \"When the captain of an independent $shipOrFleet comes to Mazalot and asks for someone, I hear of it. Especially after they've done the same thing on Chalcedon.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensRaidWhoTold [text]"
+  },
+  {
+   "i": 17,
+   "en": "He smirks wearily.\r\n\r\n\"Yes,\" he says, \"I can see that all too well, Captain $playerName. You appear to believe that I have him stashed away somewhere.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensRaidJethro [text]"
+  },
+  {
+   "i": 18,
+   "en": "He smirks, though his eyes remain fixed on yours with... yes, that looks like rage long-suppressed, held in a little ball; a spark to light fires for years and years.\r\n\r\n\"Captain $playerName. I can see that you are not unaccustomed to the use of force. I am not so young a man as I was and have found I have little patience for theater when it comes to matters of... business.\"\r\n\r\n\"You want Jethro Bornanew. You believe that I have him working for me, or I've kidnapped him for some purpose.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensRaidWalked [text]"
+  },
+  {
+   "i": 19,
+   "en": "You pour tea in the two cups.\r\n\r\n\"Blessed peace upon us,\" Virens says, his voice thick with irony. \"I accept your hospitality, and the welcome of your home.\"",
+   "ctx": "data/campaign/rules.csv lkeVirensRaidTeaA [text]"
+  },
+  {
+   "i": 20,
+   "en": "He lifts his cuffed hands to awkwardly pour tea in the two cups, one after the other.\r\n\r\n\"Blessed peace upon us,\" Virens says, his voice thick with irony. \"I offer my hospitality, and the welcome of my home: Mazalot, world of dust.\"",
+   "ctx": "data/campaign/rules.csv lkeVirensRaidTeaBcuffed [text]"
+  },
+  {
+   "i": 21,
+   "en": "He lifts his injured hands to pour tea in the two cups, one after the other. He spills only a little.\r\n\r\n\"Blessed peace upon us,\" Virens says, his voice thick with irony. \"I offer my hospitality, and the welcome of my home: Mazalot, world of dust.\"",
+   "ctx": "data/campaign/rules.csv lkeVirensRaidTeaBuncuffed [text]"
+  },
+  {
+   "i": 22,
+   "en": "The guard moves to Virens, holds the cuffs, and gives a nod to the guard watching through the surveillance feed. A remote command unlocks the cuffs. The guard pulls the cuffs away. Virens wrists are deeply bruised.\r\n\r\nHe rubs them, eyes still fixed on you.",
+   "ctx": "data/campaign/rules.csv lkeVirensRaidTeaC [text]"
+  },
+  {
+   "i": 23,
+   "en": "He uses the cuffs to shove one teacup toward you, and takes the other in his hands and lifts it, a splash escaping onto the table.",
+   "ctx": "data/campaign/rules.csv lkeVirensRaidTeaDrinkCuffed [text]"
+  },
+  {
+   "i": 24,
+   "en": "Virens picks up his teacup. His grip is unsteady, and he splashes some tea onto his hand and the table.",
+   "ctx": "data/campaign/rules.csv lkeVirensRaidTeaDrinkUncuffed [text]"
+  },
+  {
+   "i": 25,
+   "en": "He blows on the tea and takes a sip. ",
+   "ctx": "data/campaign/rules.csv lkeVirensRaidTeaDrinkOut [text]"
+  },
+  {
+   "i": 26,
+   "en": "The tea is very hot, and not very good. Some concoction of genmod yeasts grown in a vat spinning around some Persean world or other.\r\n\r\nVirens matches your action and shows no sign of noticing the quality of the tea.",
+   "ctx": "data/campaign/rules.csv lkeVirensRaidTeaDrinkSip [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"No.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensRaidToBusiness [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"I see no need to perform for you, captain.\"\r\n\r\nHe sighs, \"You want Jethro Bornanew, I want to return to my home. Let us speak of business.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensRaidNotPather [text]"
+  },
+  {
+   "i": 29,
+   "en": "This he didn't expect. He looks at you, searching, now.\r\n\r\n\"I know of him,\" he says. \"I would not say I know him. If you are looking for him, I will not be of much use. We... follow different Paths.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensRaidCotton [text]"
+  },
+  {
+   "i": 30,
+   "en": "Virens shrugs awkwardly, the cuffs restraining his movement.\r\n\r\n\"As I said, Livewell Cotton is no associate of mine, nor am I a packet-carrier. I have ways of sending him messages, and I can do so if that is what you demand.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensRaidCotton2a [text]"
+  },
+  {
+   "i": 31,
+   "en": "Virens shrugs.\r\n\r\n\"As I said, Livewell Cotton is no associate of mine. Nor am I a packet-carrier. I do have ways of sending him messages, and I can do so if that is what you demand.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensRaidCotton2b [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"It shall bring me great pleasure to do so,\" Virens says, the bilious undercurrent impossible to miss, \"upon my return to what is left of my home.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensRaidCotton3 [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"I believe I can answer your questions,\" Virens says, \"If you would allow me to explain the situation.\"\r\n\r\nHe clears his throat, ending in an uncomfortable cough, then begins. \"Bornanew came to this world asking about the Luddic Path. He had asked similar questions on Chalcedon.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensRaidJethro2 [text]"
+  },
+  {
+   "i": 34,
+   "en": "He raises an eyebrow. \"Yes. He met with Sedge. I did not know this when he came here, but it was soon confirmed by my people.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensRaidJethro2a [text]"
+  },
+  {
+   "i": 35,
+   "en": "He raises an eyebrow. \"Yes. He met with Sedge. The man you shot in the back, in a teahouse catering to spacers.\"\r\n\r\nVirens doesn't seem to infuse his last words with any particular judgment.",
+   "ctx": "data/campaign/rules.csv LKEvirensRaidJethro2b [text]"
+  },
+  {
+   "i": 36,
+   "en": "He raises an eyebrow. \"Yes. He met with Sedge. The man you... saw dead in the alley behind a teahouse catering to spacers.\"\r\n\r\nVirens doesn't seem to infuse his last words with any particular judgment.",
+   "ctx": "data/campaign/rules.csv LKEvirensRaidJethro2c [text]"
+  },
+  {
+   "i": 37,
+   "en": "\"I invited Bornanew for tea.\" He pauses, \"You could learn much from the hospitality of the Luddic Faithful.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensRaidJethro3a [text]"
+  },
+  {
+   "i": 38,
+   "en": "\"I invited Bornanew for tea.\" He pauses, \"My hospitality was not quite like yours. We do things differently among the Faithful.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensRaidJethro3b [text]"
+  },
+  {
+   "i": 39,
+   "en": "\"I invited Bornanew for tea.\" He pauses, \"Much like you have invited me, though I must confess that my 'invitation' was gentler by far.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensRaidJethro3c [text]"
+  },
+  {
+   "i": 40,
+   "en": "\"Anyway; we spoke. He told me why he came to Mazalot - the real reason - and who sent him.\" He gives you a moment to take that in. \"I did not offer him employment in any respect. Nor, as it happens, did he want it.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensRaidJethro4 [text]"
+  },
+  {
+   "i": 41,
+   "en": "\"We come now to the crux of our dealing, captain. I know where Bornanew went next. I am willing to tell you, provided you give me my freedom.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensRaidJethro5 [text]"
+  },
+  {
+   "i": 42,
+   "en": "In response, Virens drops his cuffed hands on the table with a clunk. He looks to you expectantly.",
+   "ctx": "data/campaign/rules.csv LKEvirensRaidJethroFreeA [text]"
+  },
+  {
+   "i": 43,
+   "en": "He nods slowly, watching your face.\r\n\r\nHe rubs his bruised wrists. \"I don't know the coordinates by heart. I shall need a datapad and a standard map of Mazalot.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensRaidJethroFreeB [text]"
+  },
+  {
+   "i": 44,
+   "en": "You tell him he'll go free, and he is a fool to trust you.",
+   "ctx": "data/campaign/rules.csv LKEvirensRaidJethroLie [text]"
+  },
+  {
+   "i": 45,
+   "en": "He takes the datapad and manipulates the digital map with skill born of familiarity.\r\n\r\nAfter but a moment, he pushes the datapad back across the table to you. A marker has been set on a blur outside of a minor settlement in the southern hemisphere; some homestead. The Luddic settlers did not see fit to submit their names to the Mazalot Unification Authority's survey, so it is named only by a code assigned by a software interpreter.\r\n\r\n\"That is where he went after we spoke. My watchers in the transport hub have not seen him leave the municipality,\" he shrugs at this; there are other modes of transport, of course.\r\n\r\n\"You should speak with Bornanew.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensRaidJethroFree2b [text]"
+  }
+ ]
+}

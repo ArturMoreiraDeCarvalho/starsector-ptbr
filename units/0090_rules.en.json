@@ -1,0 +1,886 @@
+{
+ "chunk": 90,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "It appears that you have found the Church's lost heretics.",
+   "ctx": "LOCRLFmissionFound: AddText \"It appears that you have found the Church's lost heretics.\""
+  },
+  {
+   "i": 2,
+   "en": "Why should the Church claim new recruits ripe for the light of the Luddic Path?",
+   "ctx": "LOCRLFmissionBringNewsMaybe: SetTooltip locrlf_bringNewsPath \"Why should the Church claim new recruits ripe for the light of the Luddic Path?\""
+  },
+  {
+   "i": 3,
+   "en": "Perhaps these heretics' faith may be turned to a truer path; the Luddic Path",
+   "ctx": "LOCRLsayLuddicOpt: SetTooltip locrl_sayPather \"Perhaps these heretics' faith may be turned to a truer path; the Luddic Path\""
+  },
+  {
+   "i": 4,
+   "en": "Perhaps these souls can be saved by returning them to the embrace of the Church of Galactic Redemption",
+   "ctx": "LOCRLsayChurchOpt: SetTooltip locrl_sayChurch \"Perhaps these souls can be saved by returning them to the embrace of the Church of Galactic "
+  },
+  {
+   "i": 5,
+   "en": "You do not have room for an additional 198 crew.",
+   "ctx": "LOCRLhubOfferTransportCheckOpt: SetTooltip locrl_offerTransport \"You do not have room for an additional 198 crew.\""
+  },
+  {
+   "i": 6,
+   "en": "Judge, or forgive. What would Ludd do?",
+   "ctx": "LOCRLjudgeOptionLast: SetTooltip locrl_judgeOptB \"Judge, or forgive. What would Ludd do?\""
+  },
+  {
+   "i": 7,
+   "en": "Typical Luddie fools. No common sense at all.",
+   "ctx": "LOCRLjudgeOptionLast: SetTooltip locrl_judgeOptC \"Typical Luddie fools. No common sense at all.\""
+  },
+  {
+   "i": 8,
+   "en": "The true Luddic Path would never have allowed them to stray.",
+   "ctx": "LOCRLjudgeOptionLast: SetTooltip locrl_judgeOptD \"The true Luddic Path would never have allowed them to stray.\""
+  },
+  {
+   "i": 9,
+   "en": "Maybe a little pleasure. It feels good to be right. $HeOrShe doesn't need to know that.",
+   "ctx": "LOCRLjudgeOptionLast: SetTooltip locrl_judgeOptE \"Maybe a little pleasure. It feels good to be right. $HeOrShe doesn't need to know that.\""
+  },
+  {
+   "i": 10,
+   "en": "It always comes down to relying on someone willing to pull a trigger, doesn't it.",
+   "ctx": "LOCRLjudgeOptionLast: SetTooltip locrl_judgeOptF \"It always comes down to relying on someone willing to pull a trigger, doesn't it.\""
+  },
+  {
+   "i": 11,
+   "en": "suitable for offloading the Luddic heretics",
+   "ctx": "LOCRLoffloadToChurch: Highlight \"suitable for offloading the Luddic heretics\""
+  },
+  {
+   "i": 12,
+   "en": "You're cynical enough to see through the performance of piety these so-called 'Faithful' put on. In the end, all that matters are credits and power.",
+   "ctx": "locrlfOfferTextBarAgain: SetTooltip locrlf_offerBarCynicalRewardAsk \"You're cynical enough to see through the performance of piety these so-calle"
+  },
+  {
+   "i": 13,
+   "en": "Target: $locrlf_marketName",
+   "ctx": "locrlfOfferTextBarAgain: Call $locrlf_ref showMap \"Target: $locrlf_marketName\""
+  },
+  {
+   "i": 14,
+   "en": "You're cynical enough to see through the piety of the 'Faithful'. It's always about credits in the end.",
+   "ctx": "locrlfOfferTextBar2: SetTooltip locrlf_offerBarCynicalRewardAsk \"You're cynical enough to see through the piety of the 'Faithful'. It's alway"
+  },
+  {
+   "i": 15,
+   "en": "Target: $locrlf_systemName",
+   "ctx": "locrlfOfferTextBar2: Call $locrlf_ref showMap \"Target: $locrlf_systemName\""
+  },
+  {
+   "i": 16,
+   "en": "Destination: $lpt_entityName",
+   "ctx": "lptOfferTextBarRich: Call $lpt_ref showMap \"Destination: $lpt_entityName\""
+  },
+  {
+   "i": 17,
+   "en": "Destination: $avipt_marketName",
+   "ctx": "AVIPTtextBar2: Call $avipt_ref showMap \"Destination: $avipt_marketName\""
+  },
+  {
+   "i": 18,
+   "en": "Requires at least $motr_numberOfMarines free crew berths.",
+   "ctx": "MOTRcrewCheck: SetTooltip motr_accept \"Requires at least $motr_numberOfMarines free crew berths.\""
+  },
+  {
+   "i": 19,
+   "en": "Target: $rdsm_planetName",
+   "ctx": "rdsmOfferTextContact: Call $global.rdsm_ref showMap \"Target: $rdsm_planetName\""
+  },
+  {
+   "i": 20,
+   "en": "Retrieve the data from the $rdsm_target",
+   "ctx": "rdsmDecivInteractionRaidOptions: AddRaidObjective rdsm \"Retrieve the data from the $rdsm_target\" LOW 5000 rdsmraidFinished true"
+  },
+  {
+   "i": 21,
+   "en": "Created a distraction to swap the datacore without bloodshed",
+   "ctx": "rdsmDecivInteractionRaidOptions: SetStoryOption rdsm_getAvoidCombat 1 rdsm_avoidCombat general \"Created a distraction to swap the datacore without bloods"
+  },
+  {
+   "i": 22,
+   "en": "Acquired $rdsm_megacorpName datacore",
+   "ctx": "rdsmFinishedRaid: AddTextSmall \"Acquired $rdsm_megacorpName datacore\" highlight"
+  },
+  {
+   "i": 23,
+   "en": "Transferred datacore",
+   "ctx": "rdsmreturnToContact2: AddTextSmall \"Transferred datacore\" highlight"
+  },
+  {
+   "i": 24,
+   "en": "Target: $rsom_planetName",
+   "ctx": "RSOMofferTextContact: Call $global.rsom_ref showMap \"Target: $rsom_planetName\""
+  },
+  {
+   "i": 25,
+   "en": "Received IFF codes for rival smuggler's outpost",
+   "ctx": "RSOMfakeAccept: AddTextSmall \"Received IFF codes for rival smuggler's outpost\" highlight"
+  },
+  {
+   "i": 26,
+   "en": "Plunder the outpost",
+   "ctx": "rsomRaidOptions: AddRaidObjective smuggledPlunder \"Plunder the outpost\" LOW 5000 rsomRaidFinished true"
+  },
+  {
+   "i": 27,
+   "en": "Talked your way into, and out of, a secret smuggler's outpost and took all their cargo",
+   "ctx": "rsomRaidOptions: SetStoryOption rsom_getAvoidCombat 1 rsom_avoidCombat general \"Talked your way into, and out of, a secret smuggler's out"
+  },
+  {
+   "i": 28,
+   "en": "Plundered outpost",
+   "ctx": "rsomDidRaidOutro: AddTextSmall \"Plundered outpost\" highlight"
+  },
+  {
+   "i": 29,
+   "en": "Destination: $smug_marketName",
+   "ctx": "smugOfferTextBar: Call $smug_ref showMap \"Destination: $smug_marketName\""
+  },
+  {
+   "i": 30,
+   "en": "coming in with your transponder turned off",
+   "ctx": "smug_checkCompletionNotSneaking: Highlight \"coming in with your transponder turned off\" \"without attracting the attention of patrols\""
+  },
+  {
+   "i": 31,
+   "en": "without attracting the attention of patrols",
+   "ctx": "smug_checkCompletionNotSneaking: Highlight \"coming in with your transponder turned off\" \"without attracting the attention of patrols\""
+  },
+  {
+   "i": 32,
+   "en": "Target: $dhi_marketName",
+   "ctx": "dhiOfferTextBar: Call $dhi_ref showMap \"Target: $dhi_marketName\""
+  },
+  {
+   "i": 33,
+   "en": "Target: $dsp_marketName",
+   "ctx": "dspOfferTextBar3: Call $dsp_ref showMap \"Target: $dsp_marketName\""
+  },
+  {
+   "i": 34,
+   "en": "Target: $tabo_marketName",
+   "ctx": "taboOfferTextBar: Call $tabo_ref showMap \"Target: $tabo_marketName\""
+  },
+  {
+   "i": 35,
+   "en": "Target: $jabr_marketName",
+   "ctx": "jabrOfferTextBar1: Call $jabr_ref showMap \"Target: $jabr_marketName\""
+  },
+  {
+   "i": 36,
+   "en": "Conduct jailbreak operation",
+   "ctx": "jabrOpenMarket1: AddRaidObjective genericIcon \"Conduct jailbreak operation\" $jabr_danger 3000 JABRRaidFinished"
+  },
+  {
+   "i": 37,
+   "en": "Talk to the patron who ordered 'The Prisoner'",
+   "ctx": "jabrBarEventAdd: AddBarEvent jabr_barEvent \"Talk to the patron who ordered 'The Prisoner'\" \"A patron loudly orders something called 'The "
+  },
+  {
+   "i": 38,
+   "en": "A patron loudly orders something called 'The Prisoner' and beams a smile at you.",
+   "ctx": "jabrBarEventAdd: AddBarEvent jabr_barEvent \"Talk to the patron who ordered 'The Prisoner'\" \"A patron loudly orders something called 'The "
+  },
+  {
+   "i": 39,
+   "en": "Negotiate release of the prisoner with the betrayer",
+   "ctx": "jabrBarEventSel: SetStoryOption jabr_storyOptionBar general \"Negotiate release of the prisoner with the betrayer\""
+  },
+  {
+   "i": 40,
+   "en": "Destination: $ddro_systemName",
+   "ctx": "ddroOfferTextBar1: Call $ddro_ref showMap \"Destination: $ddro_systemName\""
+  },
+  {
+   "i": 41,
+   "en": "Bluffed pirate to keep $entity.fwt_thing",
+   "ctx": "fwtOpenCommPirates: SetStoryOption fwt_bluffPirate general \"Bluffed pirate to keep $entity.fwt_thing\""
+  },
+  {
+   "i": 42,
+   "en": "Bluffed Pather to keep $entity.fwt_thing",
+   "ctx": "fwtOpenCommPatherAggroNoPay: SetStoryOption fwt_bluffPather general \"Bluffed Pather to keep $entity.fwt_thing\""
+  },
+  {
+   "i": 43,
+   "en": "You do not have 10 units of heavy armaments for a covert shipment.",
+   "ctx": "standfastResponseOfferArms: SetTooltip standfastMakeOffering \"You do not have 10 units of heavy armaments for a covert shipment.\""
+  },
+  {
+   "i": 44,
+   "en": "Offer 10 units of heavy armaments to the Volturn insurgency.",
+   "ctx": "standfastOfferingOptionCheck: SetTooltip standfastMakeOffering \"Offer 10 units of heavy armaments to the Volturn insurgency.\""
+  },
+  {
+   "i": 45,
+   "en": "heavy armaments",
+   "ctx": "standfastOfferingEnough: SetTextHighlights \"10\" \"heavy armaments\""
+  },
+  {
+   "i": 46,
+   "en": "The arrangements are made, and Steadfast offers her prayers and well-wishes, promising that your gifts will be put to righteous purpose.",
+   "ctx": "standfastGiveOffering: AddText \"The arrangements are made, and Steadfast offers her prayers and well-wishes, promising that your gifts will be "
+  },
+  {
+   "i": 47,
+   "en": "Automated traffic monitoring flags suspicious cargo transfer",
+   "ctx": "standfastGiveOffering: AddTextSmall \"Automated traffic monitoring flags suspicious cargo transfer\" highlight"
+  },
+  {
+   "i": 48,
+   "en": "Received Hegemony 150th anniversary holo experience",
+   "ctx": "defaultDaudHolo2: AddTextSmall \"Received Hegemony 150th anniversary holo experience\" highlight"
+  },
+  {
+   "i": 49,
+   "en": "It's all about the money.",
+   "ctx": "raoAskDiktatMerc3: SetTooltip rao_askDiktatMerc4c \"It's all about the money.\""
+  },
+  {
+   "i": 50,
+   "en": "Your $shipOrFleet maintains its position near $entityName.",
+   "ctx": "gaATGkantasDenHostileOverride1: AddText \"Your $shipOrFleet maintains its position near $entityName.\""
+  },
+  {
+   "i": 51,
+   "en": "The armored asteroid-station bristles with weapons, targeting arrays active and hungry. Small warships flit about like hornets, and the comms channels are flooded with the screech of electronic warfare.",
+   "ctx": "gaATGkantasDenHostileOverride1: AddText \"The armored asteroid-station bristles with weapons, targeting arrays active and hungry. Small warships flit abo"
+  },
+  {
+   "i": 52,
+   "en": "Doing any kind of business here will not be possible until things calm down.",
+   "ctx": "gaATGkantasDenHostileOverride1: AddText \"Doing any kind of business here will not be possible until things calm down.\""
+  },
+  {
+   "i": 53,
+   "en": "Requires that the Onslaught Mk.I is in your fleet.",
+   "ctx": "ZGRomkiScanOfferOptCheck: SetTooltip ZGR_OMKIscanOfferRedux \"Requires that the Onslaught Mk.I is in your fleet.\""
+  },
+  {
+   "i": 54,
+   "en": "You do not have any 'interesting' specimens in your possession.",
+   "ctx": "ZGRtechReturnDisable: SetTooltip zgr_techReturn \"You do not have any 'interesting' specimens in your possession.\""
+  },
+  {
+   "i": 55,
+   "en": "You do not have the Onslaught Mk.I with you.",
+   "ctx": "ZGRtechPlayerHasOptionOMKIcheck: SetTooltip zgr_makePitch9OMKIbuy \"You do not have the Onslaught Mk.I with you.\""
+  },
+  {
+   "i": 56,
+   "en": "You have been flagged as a hostile by Tri-Tachyon automated defenses and would be gunned down upon approach.",
+   "ctx": "ZGRfirstVisitOptionCheck: SetTooltip ZGR_visitOptDirect \"You have been flagged as a hostile by Tri-Tachyon automated defenses and would be gunned "
+  },
+  {
+   "i": 57,
+   "en": "Onslaught Mk.I",
+   "ctx": "ZGRstartPitch0OMKI: Highlight \"Onslaught Mk.I\""
+  },
+  {
+   "i": 58,
+   "en": "You don't have the Onslaught Mk.I in your fleet.",
+   "ctx": "ZGRmakePitch9OMKIbuy4milCheck: SetTooltip zgr_makePitch9OMKIbuy4mil2 \"You don't have the Onslaught Mk.I in your fleet.\""
+  },
+  {
+   "i": 59,
+   "en": "Allowed Tri-Tachyon to scan and sample Onslaught Mk.I",
+   "ctx": "ZGRmakePitch9OMKIscan0: AddTextSmall \"Allowed Tri-Tachyon to scan and sample Onslaught Mk.I\" highlight"
+  },
+  {
+   "i": 60,
+   "en": "Transferred 'Threat' encounter data",
+   "ctx": "ZGRmakePitch9both2: AddTextSmall \"Transferred 'Threat' encounter data\" highlight"
+  },
+  {
+   "i": 61,
+   "en": "Transferred anomalous encounter data",
+   "ctx": "ZGRmakePitch9both2: AddTextSmall \"Transferred anomalous encounter data\" highlight"
+  },
+  {
+   "i": 62,
+   "en": "\\\"Interesting,\\\" she says, and releases a breath. \\\"Yes. This is what I am looking for... and more.\\\"",
+   "ctx": "ZGRstartPitch9both3: AddText \"\\\"Interesting,\\\" she says, and releases a breath. \\\"Yes. This is what I am looking for... and more.\\\"\""
+  },
+  {
+   "i": 63,
+   "en": "  Director of Special Acquisitions Zunya Glamor-Rotanev",
+   "ctx": "GRBHexamine: AddTextSmall \"  Director of Special Acquisitions Zunya Glamor-Rotanev\""
+  },
+  {
+   "i": 64,
+   "en": "  Suite 1000, Skyarco II Executive Annex",
+   "ctx": "GRBHexamine: AddTextSmall \"  Suite 1000, Skyarco II Executive Annex\""
+  },
+  {
+   "i": 65,
+   "en": "  Xanadu Geodivision",
+   "ctx": "GRBHexamine: AddTextSmall \"  Xanadu Geodivision\""
+  },
+  {
+   "i": 66,
+   "en": "  Eochu Bres, Hybrasil system",
+   "ctx": "GRBHexamine: AddTextSmall \"  Eochu Bres, Hybrasil system\""
+  },
+  {
+   "i": 67,
+   "en": "  Persean Sector",
+   "ctx": "GRBHexamine: AddTextSmall \"  Persean Sector\""
+  },
+  {
+   "i": 68,
+   "en": "Only available if relations with Tri-Tachyon are hostile or worse.",
+   "ctx": "ttContactBribeRepCheck: SetTooltip ttContact_bribeRep \"Only available if relations with Tri-Tachyon are hostile or worse.\""
+  },
+  {
+   "i": 69,
+   "en": "Received \\\"Quotations from the Supreme Executor\\\"",
+   "ctx": "andradaOfficeServe2: AddTextSmall \"Received \\\"Quotations from the Supreme Executor\\\"\" highlight"
+  },
+  {
+   "i": 70,
+   "en": "Oxana Hyder",
+   "ctx": "sdtuRamSafehouse4: SetTextHighlights \"Oxana Hyder\""
+  },
+  {
+   "i": 71,
+   "en": "Horacio Caden",
+   "ctx": "sdtuRamSafehouse5: SetTextHighlights \"Horacio Caden\""
+  },
+  {
+   "i": 72,
+   "en": "Dolos Macario",
+   "ctx": "sdtuRamSafehouse6: SetTextHighlights \"Dolos Macario\""
+  },
+  {
+   "i": 73,
+   "en": "Convinced 'treasonous' Sindrian Diktat patrol to mutiny and hand over their commander",
+   "ctx": "sdtuPatrolOptionMutiny: SetStoryOption sdtu_patrolConvinceMutiny general \"Convinced 'treasonous' Sindrian Diktat patrol to mutiny and hand over "
+  },
+  {
+   "i": 74,
+   "en": "Appeal to the patriotism - and fear - of the crew to capture this officer without a fight.",
+   "ctx": "sdtuPatrolOptionMutiny: SetTooltip sdtu_patrolConvinceMutiny \"Appeal to the patriotism - and fear - of the crew to capture this officer without "
+  },
+  {
+   "i": 75,
+   "en": "Convinced 'treasonous' Sindrian Diktat patrol commander to pay you to help them escape from Macario",
+   "ctx": "sdtuPatrolOptionHelpYou: SetStoryOption sdtu_patrolForAPrice general \"Convinced 'treasonous' Sindrian Diktat patrol commander to pay you to help "
+  },
+  {
+   "i": 76,
+   "en": "Convince $PersonName to pay you 10,000 credits. You will drop $himOrHer off at a neutral system and report that $heOrShe was killed in combat.",
+   "ctx": "sdtuPatrolOptionHelpYou: SetTooltip sdtu_patrolForAPrice \"Convince $PersonName to pay you 10,000 credits. You will drop $himOrHer off at a neutra"
+  },
+  {
+   "i": 77,
+   "en": "10,000 credits",
+   "ctx": "sdtuPatrolOptionHelpYou: SetTooltipHighlights \"10,000 credits\""
+  },
+  {
+   "i": 78,
+   "en": "Arrested the 'traitor'",
+   "ctx": "sdtuTraitorPatrolDefeated: AddTextSmall \"Arrested the 'traitor'\" highlight"
+  },
+  {
+   "i": 79,
+   "en": "He unfolds his hands in a show of magnanimity, \\\"Do go on.\\\"",
+   "ctx": "sdtuMacarioPostHyderGreeting: AddText \"He unfolds his hands in a show of magnanimity, \\\"Do go on.\\\"\""
+  },
+  {
+   "i": 80,
+   "en": "'Traitor' officer transferred to Sindrian Diktat INTSEC custody",
+   "ctx": "sdtuPostHyderPrisonerRespA: AddTextSmall \"'Traitor' officer transferred to Sindrian Diktat INTSEC custody\" highlight"
+  },
+  {
+   "i": 81,
+   "en": "Received file on Lion's Guard double agent on Umbra",
+   "ctx": "sdtuPostHyderMission2: AddTextSmall \"Received file on Lion's Guard double agent on Umbra\" highlight"
+  },
+  {
+   "i": 82,
+   "en": "Capture the Lion's Guard double agent",
+   "ctx": "sdtuUmbraRaidStart: AddRaidObjective genericIcon \"Capture the Lion's Guard double agent\" HIGH 3000 SDTUUmbraRaidFinishedA true"
+  },
+  {
+   "i": 83,
+   "en": "Lion's Guard double agent extracted successfully",
+   "ctx": "sdtuUmbraRaidFinishedB: AddTextSmall \"Lion's Guard double agent extracted successfully\" highlight"
+  },
+  {
+   "i": 84,
+   "en": "Tricked a leader on Umbra into handing over Caden's agent without a fight",
+   "ctx": "sdtuUmbraAdmin: SetStoryOption sdtu_umbraTrickVIP general \"Tricked a leader on Umbra into handing over Caden's agent without a fight\""
+  },
+  {
+   "i": 85,
+   "en": "Imoinu Kato has almost certainly warned $himOrHer about you.",
+   "ctx": "sdtuUmbraImoinuWarning: SetTooltip sdtu_umbraAskAgent \"Imoinu Kato has almost certainly warned $himOrHer about you.\""
+  },
+  {
+   "i": 86,
+   "en": "Imoinu is unlikely to respond well to this subject.",
+   "ctx": "sdtuUmbraImoinuWarningHerself: SetTooltip sdtu_umbraAskAgent \"Imoinu is unlikely to respond well to this subject.\""
+  },
+  {
+   "i": 87,
+   "en": "Maybe you can ensure the agent lives through this...",
+   "ctx": "sdtuUmbraAskAgentQM4: SetTooltip  sdtu_umbraImoinuAgent4 \"Maybe you can ensure the agent lives through this...\""
+  },
+  {
+   "i": 88,
+   "en": "Why risk the mission for one double agent?",
+   "ctx": "sdtuUmbraAskAgentQM4: SetTooltip sdtu_umbraImoinuAgent4lie \"Why risk the mission for one double agent?\""
+  },
+  {
+   "i": 89,
+   "en": "Blamed Macario for your lack of an agent to give up to Caden",
+   "ctx": "sdtuCadenAgentMacarioSecondLie3b: AddTextSmall \"Blamed Macario for your lack of an agent to give up to Caden\" highlight"
+  },
+  {
+   "i": 90,
+   "en": "Lion's Guard double agent transferred to Caden's fleet",
+   "ctx": "sdtuCadenAgentTransfer: AddTextSmall \"Lion's Guard double agent transferred to Caden's fleet\" highlight"
+  },
+  {
+   "i": 91,
+   "en": "fringe jump-point",
+   "ctx": "sdtuPostCadenInt2: SetTextHighlights \"fringe jump-point\""
+  },
+  {
+   "i": 92,
+   "en": "Received secret transponder frequency",
+   "ctx": "sdtuPostCadenInt2: AddTextSmall \"Received secret transponder frequency\" highlight"
+  },
+  {
+   "i": 93,
+   "en": "See what the old man wants",
+   "ctx": "anhCantinaStartInBar: AddBarEvent anh_cantinaAsk \"See what the old man wants\" \"You see an old man followed by a kid and a chunky robot trying "
+  },
+  {
+   "i": 94,
+   "en": "You see an old man followed by a kid and a chunky robot trying to talk to some of the seedier-looking space captains.",
+   "ctx": "anhCantinaStartInBar: AddBarEvent anh_cantinaAsk \"See what the old man wants\" \"You see an old man followed by a kid and a chunky robot trying "
+  },
+  {
+   "i": 95,
+   "en": "Volturn",
+   "ctx": "anhCantinaTransport: Call $global.anh_ref showMap \"Volturn\""
+  },
+  {
+   "i": 96,
+   "en": "Bluffed Sindrian Diktat patrol about charitably transporting sand farmers from Asharu",
+   "ctx": "anhDiktatPatrolGreeting: SetStoryOption anh_diktatPatrolBluff general \"Bluffed Sindrian Diktat patrol about charitably transporting sand farmers "
+  },
+  {
+   "i": 97,
+   "en": "Vindictive search",
+   "ctx": "anhDiktatPatrolSearch: ApplyCRDamage $entity.fleetPoints 0.4 3 \"Vindictive search\""
+  },
+  {
+   "i": 98,
+   "en": "Delivered possible Volturnian Resistance member to the Sindrian Diktat",
+   "ctx": "anhDiktatPatrolMixedEnd: AddTextSmall \"Delivered possible Volturnian Resistance member to the Sindrian Diktat\" highlight"
+  },
+  {
+   "i": 99,
+   "en": "Delivered possible Volturnian Resistance members to the Sindrian Diktat",
+   "ctx": "anhDiktatPatrolQuestEnd: AddTextSmall \"Delivered possible Volturnian Resistance members to the Sindrian Diktat\" highlight"
+  },
+  {
+   "i": 100,
+   "en": "Delivered reinforcements to the Volturnian Resistance?",
+   "ctx": "anhRewardHigh: AddTextSmall \"Delivered reinforcements to the Volturnian Resistance?\" highlight"
+  },
+  {
+   "i": 101,
+   "en": "Can only donate to the ARC every 30 days.",
+   "ctx": "ImoinuKatoUmbraSupportedCheck: SetTooltip imoinuUmbra_offerHelp \"Can only donate to the ARC every 30 days.\""
+  },
+  {
+   "i": 102,
+   "en": "Cavin Pharoh seems like the sort of person who would want to help Imoinu Kato.",
+   "ctx": "ImoinuUmbraGoOptA: SetTooltip imoinuUmbra_goCavin \"Cavin Pharoh seems like the sort of person who would want to help Imoinu Kato.\""
+  },
+  {
+   "i": 103,
+   "en": "You don't have time to deal with this sniveling gens-baby's personal crusade.",
+   "ctx": "ImoinuUmbraGoOptH: SetTooltip imoinuUmbra_goStay \"You don't have time to deal with this sniveling gens-baby's personal crusade.\""
+  },
+  {
+   "i": 104,
+   "en": "Received Imoinu Kato's cryptokey to give to Gargoyle",
+   "ctx": "imoinuUmbraGoGargoyle2: AddTextSmall \"Received Imoinu Kato's cryptokey to give to Gargoyle\" highlight"
+  },
+  {
+   "i": 105,
+   "en": "Requires 10 units of heavy armaments.",
+   "ctx": "imoinuUmbraOfferHelp: SetTooltip imoinuUmbra_offerHelpWeapons \"Requires 10 units of heavy armaments.\""
+  },
+  {
+   "i": 106,
+   "en": "Requires 20,000 credits.",
+   "ctx": "imoinuUmbraOfferHelp: SetTooltip imoinuUmbra_offerHelpCredits \"Requires 20,000 credits.\""
+  },
+  {
+   "i": 107,
+   "en": "Requires 100 units of supplies.",
+   "ctx": "imoinuUmbraOfferHelp: SetTooltip imoinuUmbra_offerHelpSupplies \"Requires 100 units of supplies.\""
+  },
+  {
+   "i": 108,
+   "en": "Requires 25,000 credits.",
+   "ctx": "imoinuUmbraOfferHelpCheckCredits: SetTooltip imoinuUmbra_offerHelpCredits \"Requires 25,000 credits.\""
+  },
+  {
+   "i": 109,
+   "en": "Offered Kanta a favor of her choosing in exchange for her protection",
+   "ctx": "kpFavor: SetStoryOption kpGiftFavor general \"Offered Kanta a favor of her choosing in exchange for her protection\""
+  },
+  {
+   "i": 110,
+   "en": "Target: $affk_marketName",
+   "ctx": "KantaFavorCourierHail2: Call $global.affk_ref showMap \"Target: $affk_marketName\""
+  },
+  {
+   "i": 111,
+   "en": "Talked your way into a protection agreement with a pirate base commander",
+   "ctx": "pirateSKGreetingUntrustedBad: SetStoryOption psk_discussBusinessStory 1 makeDealWithPirateBase ui_char_spent_story_point \"Talked your way into a prote"
+  },
+  {
+   "i": 112,
+   "en": "10% of the gross income",
+   "ctx": "pirateStationKingBusinessSel: Highlight \"10% of the gross income\""
+  },
+  {
+   "i": 113,
+   "en": "Persean League inspection",
+   "ctx": "plEnforcerComplySel: ApplyCRDamage $entity.fleetPoints 0.2 1 \"Persean League inspection\""
+  },
+  {
+   "i": 114,
+   "en": "You can go to Kazeron to negotiate League membership and an end to the blockade.",
+   "ctx": "plArmadaComms: ShowMapMarker kazeron Kazeron \"You can go to Kazeron to negotiate League membership and an end to the blockade.\""
+  },
+  {
+   "i": 115,
+   "en": "Joining the Persean League requires at least a size 5 colony, or a size 4 colony and at least 3 colonies total, and also requires never having committed any atrocities against the Persean League",
+   "ctx": "plReynardHannanJoinSelNo: AddTextSmall \"Joining the Persean League requires at least a size 5 colony, or a size 4 colony and at least 3 colonies t"
+  },
+  {
+   "i": 116,
+   "en": "Joining the Persean League requires at least a size 5 colony, or a size 4 and a size 3 colony, and also requires never having committed any atrocities against the Persean League",
+   "ctx": "plReynardHannanJoinSelNoDev: AddTextSmall \"Joining the Persean League requires at least a size 5 colony, or a size 4 and a size 3 colony, and also re"
+  },
+  {
+   "i": 117,
+   "en": "pristine nanoforge",
+   "ctx": "PLDealArgumentsHannanNanoforge: Highlight \"pristine nanoforge\""
+  },
+  {
+   "i": 118,
+   "en": "waive the usual dues",
+   "ctx": "rh_continueToGoodDealSel: Highlight \"waive the usual dues\""
+  },
+  {
+   "i": 119,
+   "en": "never be allowed back",
+   "ctx": "PLLeaveThreatsC: Highlight \"never be allowed back\""
+  },
+  {
+   "i": 120,
+   "en": "will never be allowed to rejoin",
+   "ctx": "PLLeaveThreatsC2: Highlight \"will never be allowed to rejoin\""
+  },
+  {
+   "i": 121,
+   "en": "Requires a known contact",
+   "ctx": "ttMakeDealOptSelNoContact: AddTextSmall \"Requires a known contact\" bad"
+  },
+  {
+   "i": 122,
+   "en": "Contact must have high importance",
+   "ctx": "ttMakeDealOptSelNoUnimportant: AddTextSmall \"Contact must have high importance\" bad"
+  },
+  {
+   "i": 123,
+   "en": "Discuss possible solutions to Tri-Tachyon sending mercenaries to harass your colonies and fleets.",
+   "ctx": "ttVIPCounterRaiding: SetTooltip ttTriTachProblems \"Discuss possible solutions to Tri-Tachyon sending mercenaries to harass your colonies and "
+  },
+  {
+   "i": 124,
+   "en": "Have you not given enough, and will you not give again - and more?",
+   "ctx": "lcSacredProtectorsChurchCom: SetTooltip LCP_butHaveCom \"Have you not given enough, and will you not give again - and more?\""
+  },
+  {
+   "i": 125,
+   "en": "Hand over $SP_supplies units of supplies.",
+   "ctx": "lcSacredProtectorsGiveSuppliesFaith: SetTooltip LCP_comply \"Hand over $SP_supplies units of supplies.\""
+  },
+  {
+   "i": 126,
+   "en": "$SP_supplies units",
+   "ctx": "lcSacredProtectorsGiveSuppliesFaith: SetTooltipHighlights LCP_comply \"$SP_supplies units\""
+  },
+  {
+   "i": 127,
+   "en": "Talked your way out of tithing supplies to the Knights of Ludd",
+   "ctx": "lcSacredProtectorsNotEnoughLie: SetStoryOption LCP_notEnoughLie general \"Talked your way out of tithing supplies to the Knights of Ludd\""
+  },
+  {
+   "i": 128,
+   "en": "The Knights of Ludd will stop their interference. Removes benefits of Luddic Majority for your colonies. Luddic Majority may be lost upon colony growth.",
+   "ctx": "lcMakeDealSelAgainReview: SetTooltip lcDealConfirm \"The Knights of Ludd will stop their interference. Removes benefits of Luddic Majority for your"
+  },
+  {
+   "i": 129,
+   "en": "Removes benefits of Luddic Majority on your colonies",
+   "ctx": "lcMakeDealSelAgainReview: AddTextSmall \"Removes benefits of Luddic Majority on your colonies\" highlight"
+  },
+  {
+   "i": 130,
+   "en": "Earmarks 50% of your fuel export gross profits for the Diktat",
+   "ctx": "SDMakeDealSel: AddTextSmall \"Earmarks 50% of your fuel export gross profits for the Diktat\" highlight"
+  },
+  {
+   "i": 131,
+   "en": "Sindrian Diktat commission lost",
+   "ctx": "SDHAmakeDealSelComReject2: AddTextSmall \"Sindrian Diktat commission lost\" bad"
+  },
+  {
+   "i": 132,
+   "en": "Hegemony investigation",
+   "ctx": "hegInvestigatorComplySelWk: ApplyCRDamage $entity.fleetPoints 0.1 1 \"Hegemony investigation\""
+  },
+  {
+   "i": 133,
+   "en": "Talked a bounty hunter out of attacking a pirate base you had an agreement with",
+   "ctx": "PSKMercOptionsStory: SetStoryOption pskMerc_story ui_char_spent_story_point \"Talked a bounty hunter out of attacking a pirate base you had an"
+  },
+  {
+   "i": 134,
+   "en": "Hacked into a remnant Nexus using a nearby comm relay",
+   "ctx": "PKHackMenuSel: SetStoryOption pk_hackStory technology \"Hacked into a remnant Nexus using a nearby comm relay\""
+  },
+  {
+   "i": 135,
+   "en": "Requires a Tri-Tachyon commission.",
+   "ctx": "PKRelayCheckTTCommission: SetTooltip pk_hack \"Requires a Tri-Tachyon commission.\""
+  },
+  {
+   "i": 136,
+   "en": "Acquired location of planetkiller",
+   "ctx": "PKHackGetData: AddTextSmall \"Acquired location of planetkiller\" highlight"
+  },
+  {
+   "i": 137,
+   "en": "Received Tri-Tachyon weapons catalog with holo-experience",
+   "ctx": "pkTurnInTTCatalog: AddTextSmall \"Received Tri-Tachyon weapons catalog with holo-experience\" highlight"
+  },
+  {
+   "i": 138,
+   "en": "one week",
+   "ctx": "pk_executorInsistSel2: Highlight \"one week\""
+  },
+  {
+   "i": 139,
+   "en": "Discovered Sentinel Gantries",
+   "ctx": "PKSentinelDockyardFollowupA: AddTextSmall \"Discovered Sentinel Gantries\" highlight"
+  },
+  {
+   "i": 140,
+   "en": "Discovered use of AI warships by XIV flotilla",
+   "ctx": "PK14thDefeated: AddTextSmall \"Discovered use of AI warships by XIV flotilla\" highlight"
+  },
+  {
+   "i": 141,
+   "en": "Encountered automated XIV fleet",
+   "ctx": "DevPKSentinelOptSetSawFleet: AddTextSmall \"Encountered automated XIV fleet\" highlight"
+  },
+  {
+   "i": 142,
+   "en": "Lost colony on Sentinel discovered",
+   "ctx": "pkSentinel0: AddTextSmall \"Lost colony on Sentinel discovered\" highlight"
+  },
+  {
+   "i": 143,
+   "en": "Requires that your $shipOrFleet have more than 200 crew.",
+   "ctx": "pkSentinelHubLeaveCrewCheck: SetTooltip pk_sentinelLeaveCrew \"Requires that your $shipOrFleet have more than 200 crew.\""
+  },
+  {
+   "i": 144,
+   "en": "Local nets report that the administrator has ordered the spacer bars closed for the next shift due to a minor riot.",
+   "ctx": "BarLREend: SetTooltip marketVisitBar \"Local nets report that the administrator has ordered the spacer bars closed for the next shif"
+  },
+  {
+   "i": 145,
+   "en": "Comms chatter indicates that the portboss has ordered bars closed to outsiders for the next shift due to a minor riot. The form of public punishment which instigators will endure is a topic of much speculation.",
+   "ctx": "BarLREendPirate: SetTooltip marketVisitBar \"Comms chatter indicates that the portboss has ordered bars closed to outsiders for the next s"
+  },
+  {
+   "i": 146,
+   "en": "Comms chatter indicates that the local Pather militants have closed all bars catering to spacers for the next shift in response to a minor riot.",
+   "ctx": "BarLREendPather: SetTooltip marketVisitBar \"Comms chatter indicates that the local Pather militants have closed all bars catering to spac"
+  },
+  {
+   "i": 147,
+   "en": "You must wait another $daysLeft days before you may be allocated emergency supplies due to your $faction commission.",
+   "ctx": "bqfsAskForSuppliesOptAgainCheck: SetTooltip bqfs_askForSupplies \"You must wait another $daysLeft days before you may be allocated emergency supplies due "
+  },
+  {
+   "i": 148,
+   "en": "$daysLeft days",
+   "ctx": "bqfsAskForSuppliesOptAgainCheck: SetTooltipHighlights bqfs_askForSupplies \"$daysLeft days\" \"$faction\""
+  },
+  {
+   "i": 149,
+   "en": "The $post will only provide supplies to a $shipOrFleet in need and bearing a $faction commission.",
+   "ctx": "bqfsAskForSuppliesOptAgainCheck2: SetTooltip bqfs_askForSupplies \"The $post will only provide supplies to a $shipOrFleet in need and bearing a $faction co"
+  },
+  {
+   "i": 150,
+   "en": "'... and all that is good can be found there.' - Sacred Texts of Ludd",
+   "ctx": "salOHOGstory3resp1: SetTooltip salOHOG_story3luddic \"'... and all that is good can be found there.' - Sacred Texts of Ludd\""
+  },
+  {
+   "i": 151,
+   "en": "Sensor calibration data acquired",
+   "ctx": "mk1_explore6: AddTextSmall \"Sensor calibration data acquired\" highlight"
+  },
+  {
+   "i": 152,
+   "en": "\\\"I think it's working.\\\" Their words are almost a whisper.",
+   "ctx": "mk1_explore7: AddText \"\\\"I think it's working.\\\" Their words are almost a whisper.\""
+  },
+  {
+   "i": 153,
+   "en": "message for you",
+   "ctx": "gaDHOhookStartDev: Highlight \"message for you\""
+  },
+  {
+   "i": 154,
+   "en": "vast fortune",
+   "ctx": "gaDHOhook3: Highlight \"vast fortune\" highlight"
+  },
+  {
+   "i": 155,
+   "en": "Zunya Glamor-Rotanev",
+   "ctx": "gaDHOvisitElekAskPatron3: Highlight \"Zunya Glamor-Rotanev\""
+  },
+  {
+   "i": 156,
+   "en": "Acquired data extraction hardware package",
+   "ctx": "gaDHOvisitElekAccept: AddTextSmall \"Acquired data extraction hardware package\" highlight"
+  },
+  {
+   "i": 157,
+   "en": "acquired data extraction hardware package",
+   "ctx": "gaDHOvisitElekAgainAccept: AddTextSmall \"acquired data extraction hardware package\" highlight"
+  },
+  {
+   "i": 158,
+   "en": "Acquired coordinates for Nameless Rock",
+   "ctx": "gaDHOarray5: AddTextSmall \"Acquired coordinates for Nameless Rock\" highlight"
+  },
+  {
+   "i": 159,
+   "en": "Emphasizing the danger of your discovery will impress him - and impress upon him the importance of hazard pay.",
+   "ctx": "gaDHOendingStartOptsA: SetTooltip gaDHO_endingFoundFirst \"Emphasizing the danger of your discovery will impress him - and impress upon him the "
+  },
+  {
+   "i": 160,
+   "en": "Knowledge comes first. Elek will appreciate that, surely.",
+   "ctx": "gaDHOendingStartOptsB: SetTooltip gaDHO_endingDataFirst \"Knowledge comes first. Elek will appreciate that, surely.\""
+  },
+  {
+   "i": 161,
+   "en": "Elek has a way of forgetting the importance of credits.",
+   "ctx": "gaDHOendingStartOptsC: SetTooltip gaDHO_endingRewardFirst \"Elek has a way of forgetting the importance of credits.\""
+  },
+  {
+   "i": 162,
+   "en": "Transmitted exploration data to Academician Elek",
+   "ctx": "gaDHOendingDataFirst: AddTextSmall \"Transmitted exploration data to Academician Elek\" highlight"
+  },
+  {
+   "i": 163,
+   "en": "A routine scan shows that this sensor array has been modified.",
+   "ctx": "gaDHOjustFoundArrayStart: AddText \"A routine scan shows that this sensor array has been modified.\""
+  },
+  {
+   "i": 164,
+   "en": "Acquired coordinates for rogue planet in the Abyss",
+   "ctx": "gaDHOjustFoundArray5: AddTextSmall \"Acquired coordinates for rogue planet in the Abyss\" highlight"
+  },
+  {
+   "i": 165,
+   "en": "The hard evidence is sure to make an impression on Elek.",
+   "ctx": "gaDHOabyssEndStartOptsB2: SetTooltip gaDHO_endingDataFirst \"The hard evidence is sure to make an impression on Elek.\""
+  },
+  {
+   "i": 166,
+   "en": "Make sure you get paid first, for all your bother.",
+   "ctx": "gaDHOabyssEndStartOptsC: SetTooltip gaDHO_abyssEndRewardFirst \"Make sure you get paid first, for all your bother.\""
+  },
+  {
+   "i": 167,
+   "en": "traverse the Gates",
+   "ctx": "adonyaTell2: Highlight \"traverse the Gates\""
+  },
+  {
+   "i": 168,
+   "en": "An autonomous warning beacon has been left emitting a distorted wail between official channels. Whatever message it was meant to convey has been corrupted.",
+   "ctx": "data/campaign/rules.csv beaconOpenDialog [text]"
+  },
+  {
+   "i": 169,
+   "en": "This autonomous warning beacon emits a looping message.\r\n\r\n\"DANGER: This star system is known to contain potentially active autonomous weapon systems. Access to this system by unauthorized parties is forbidden by Hegemony Navy diktat 224.34.\"",
+   "ctx": "data/campaign/rules.csv beaconOpenDialogRemnantsDestroyed [text]"
+  },
+  {
+   "i": 170,
+   "en": "This autonomous warning beacon emits a looping message.\r\n\r\n\"This world is corrupted by technological sin and its abomination stands testament to the result of straying from the path of virtue. Trespass is forbidden. Any who scorn this warning shall become both corrupt of body and outlaw by the holy justice enforced by this order of the Knights of Ludd.\"",
+   "ctx": "data/campaign/rules.csv beaconOpenDialogDaedaleon [text]"
+  },
+  {
+   "i": 171,
+   "en": "A silent ring of adamantine material, derelict of a former age.\r\n\r\nThe Gate is inert.",
+   "ctx": "data/campaign/rules.csv gateOpenDialog [text]"
+  },
+  {
+   "i": 172,
+   "en": "Before you vast and potent hangs an adamantine ring, derelict of a former age.\r\n\r\nYou have scanned this Gate and discovered the rhythm of the secret heart of the thing, hidden in a slip of space. Using the Janus Device to create a bridge to another Gate requires a massive quantity of fuel. The more distant the target, the more fuel is required.\r\n\r\nThe Janus Device operates by transferring enormous amounts of peculiarly phased energy via a lead ship's hyperdrive field to stabilize a direct gate-to-gate connection.",
+   "ctx": "data/campaign/rules.csv gateOpenDialogActive [text]"
+  },
+  {
+   "i": 173,
+   "en": "Before you vast and potent hangs an adamantine ring, derelict of a former age.\r\n\r\nYou have scanned this Gate and discovered the rhythm of the secret heart of the thing, hidden in a slip of space. Using the Janus Device to create a bridge to another Gate requires a massive quantity of fuel. The more distant the target, the more fuel is required.\r\n\r\nYou must integrate the Janus Device into your fleet to use the Gate.",
+   "ctx": "data/campaign/rules.csv gateOpenDialogActiveCanNotUse [text]"
+  },
+  {
+   "i": 174,
+   "en": "A silent ring of adamantine material, derelict of a former age.\r\n\r\nYour sensors officer nods to your cue. Your command interface lights up. 'EXECUTE SCAN' blinks expectantly. The Gate awaits, as cold as a tomb.",
+   "ctx": "data/campaign/rules.csv gateOpenDialogCanScan1 [text]"
+  },
+  {
+   "i": 175,
+   "en": "A silent ring of adamantine material, derelict of a former age.\r\n\r\nYou have scanned this Gate and discovered the rhythm of the secret heart of the thing, hidden in a slip of space.",
+   "ctx": "data/campaign/rules.csv gateOpenDialogCanScan1a [text]"
+  },
+  {
+   "i": 176,
+   "en": "A silent ring of adamantine material, derelict of a former age.\r\n\r\nYour sensors officer nods to you; the hyperwave scanner is ready. The words 'EXECUTE SCAN' blink expectantly in your command interface.\r\n\r\nYou will need a scan of this Gate to be able to use it, with the Janus Device, as an access or egress point from the Gate network.",
+   "ctx": "data/campaign/rules.csv gateOpenDialogCanScan2 [text]"
+  }
+ ]
+}

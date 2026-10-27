@@ -1,0 +1,166 @@
+{
+ "chunk": 244,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "$Post $personLastName's expression cools to just a touch off cryosleep.\r\n\r\n\"You must think me a fool, $playerName. Do you tell the same story to every League patrol in the hope of getting let off easy?\"\r\n\r\n$HeOrShe fixes you with a glare as $heOrShe addresses someone off-image, \"Lieutenant, have the boarding parties prepared. We're going to be extra thorough with this one.\"",
+   "ctx": "data/campaign/rules.csv plEnforcerJoinLeagueGoodSel2 [text]"
+  },
+  {
+   "i": 2,
+   "en": "$Post $personLastName's expression cools.\r\n\r\n\"Indeed. While you consider the benefits of confederation, I still have a job to do.\" $HeOrShe addresses someone off-image, \"Lieutenant, have the boarding parties prepared.\"",
+   "ctx": "data/campaign/rules.csv plEnforcerJoinLeagueWaffleSel [text]"
+  },
+  {
+   "i": 3,
+   "en": "What was almost an accommodating expression on $Post $personLastName's face turns instantly to a frown.\r\n\r\n$HeOrShe addresses someone off-image while fixing you with a cool glare, \"Lieutenant, have the boarding parties prepared. Be thorough; we've got a troublemaker.\"",
+   "ctx": "data/campaign/rules.csv plEnforcerJoinLeagueBadSel [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"Perhaps they haven't yet filed the report with command,\" $heOrShe says, airily. \"With so many bandits and smugglers, there's little time to catch up with the bureaucracy.\"\r\n\r\n\"So I'm sure you'll understand that I must proceed with the inspection.\" A chilly hint of a smile, a challenge, grows on $hisOrHer face. \"Standard procedure.\"",
+   "ctx": "data/campaign/rules.csv plEnforcerAgainSel [text]"
+  },
+  {
+   "i": 5,
+   "en": "The comms crackle, forming an image.\r\n\r\n\"Captain $playerName,\" the Persean League $post stares at you with undisguised hostility. \"You were once one of us. You believed in building a new sector together.\" $HisOrHer voice drops, \"I wonder, though, did you ever believe or was it always a trick. What could you have gained that is worth such a betrayal of our ideals?\"\r\n\r\n$HeOrShe pauses for half a breath, then instead of admonishing you further taps the comms cutoff.\r\nOR\r\nThe comms form an image, and crackling into focus.\r\n\r\n\"To think you were once part of the League,\" $heOrShe shakes $hisOrHer head in disgust. \"You've chosen barbarism, so we shall deal with you in the only language you know: brute force.\"\r\n\r\n$HeOrShe makes an abrupt sign to cut the comms.",
+   "ctx": "data/campaign/rules.csv plPunExComms [text]"
+  },
+  {
+   "i": 6,
+   "en": "The comms snap into clarity.\r\n\r\n\"There's really no reason for me to speak to you, of course,\" the Persean League $post says. \"I suppose I wanted to be able to say that I looked upon your face before I was forced to use violence in the service of the League.\" $HeOrShe leans closer, \"Because unlike you, I believe in honor and dignity.\"\r\n\r\n$HeOrShe jabs the cutoff before you can respond.\r\nOR\r\nThe comms snap into clarity.\r\n\r\n\"You've proven yourself an oathbreaker twice over,\" the Persean League $post says, derision plain in $hisOrHer voice. $HeOrShe turns to address $hisOrHer own crew and officers, \"Witness the fate of an upstart bandit who assaults the principles of the League!\"\r\n\r\n$HisOrHer hand drops, signaling the comms cutoff before you can reply.",
+   "ctx": "data/campaign/rules.csv plPunExComms2 [text]"
+  },
+  {
+   "i": 7,
+   "en": "The comms hang for a moment on the crest of the League then snap to a slightly unready looking $post.\r\n\r\n\"Independent $shipOrFleet cap- er, colonial leader. Please accept greetings on behalf of the Persean League - and my personal assurance that we seek only to secure our shared rights and freedoms.\"\r\n\r\nAn uncomfortable pause, then \"I've not been authorized to negotiate on behalf of this League operation. You will have to speak with the Prime Navarch of the Grand Armada.\"\r\n\r\n$HeOrShe moves to hit the comms shut-off.",
+   "ctx": "data/campaign/rules.csv plBlockaderComms [text]"
+  },
+  {
+   "i": 8,
+   "en": "The comms hang for a moment on the crest of the League then snaps to a stately-looking League $Post.\r\n\r\n\"Independent colonial leader, Captain $PlayerName. Greetings from the Persean League.\" The hint of a smile forms on $hisOrHer face.\r\n\r\n\"You may be wondering why we are here. And in such force.\"",
+   "ctx": "data/campaign/rules.csv plArmadaComms [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"Gladly. It is the aim of the Persean League to form a confederation which upholds the rights and freedoms of each member polity.\" \r\n\r\n$HeOrShe raises $hisOrHer eyes up toward some ideal form which exists in an imagined space. \"Together, united in strength, we stand against tin-pot tyrants, fanatics, and mega-corps alike.\" \r\n\r\n$Post $personLastName drops $hisOrHer gaze back to your image. \"Otherwise, independent polities get peeled away and... eaten. Devoured directly less often in recent cycles, but eaten away from the inside nonetheless by infiltration and corruption.\"",
+   "ctx": "data/campaign/rules.csv PLArmadaWhyBlockade [text]"
+  },
+  {
+   "i": 10,
+   "en": "The hint of a smile fades.\r\n\r\n\"I'm here to do you a favor, $playerName. And your people. Remember Mairaath. Remember Opis. It's only together, united, that we have a chance to stand against tin-pot tyrants, fanatics, and mega-corps.\" \r\n\r\n\"Independents who raise their heads too high? They get burned. Our strength is what stops them. The League is the best of all futures, one worth fighting for.\"",
+   "ctx": "data/campaign/rules.csv PLArmadaWhyBlockadeDemand [text]"
+  },
+  {
+   "i": 11,
+   "en": "The hint of smile disappears like a wisp of vapor in a star's low orbit.\r\n\r\n\"I'm here to do you a favor, captain,\" $heOrShe uses the minor fleet-officer title like a slur. \"Mairaath. Opis,\" $heOrShe spits the words with anger.\r\n\r\n\"Independents who raise their heads too high? They get burned by the tyrant remains of dead empires or their pet fanatics. And the only thing stopping that from happening again is our combined strength.\"",
+   "ctx": "data/campaign/rules.csv PLArmadaWhyBlockadeStrongarm [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"If it weren't us here, it'd be another faction. And they would not possess our... restraint.\"\r\n\r\n$HeOrShe leans in. \"Come to Kazeron. Tell Gens Hannan I sent you, and I think Reynard Hannan himself will talk to you. Join us, and this goes away. You have everything to gain. Prosperity, protection, and freedom.\"",
+   "ctx": "data/campaign/rules.csv PLArmadaWhy2 [text]"
+  },
+  {
+   "i": 13,
+   "en": "A thin, perfunctory smile appears. \"A blockade can't be switched on and off like a light,\" $heOrShe says.\r\n\r\n\"It is my belief, and that of the League Council, that it would be most productive if you were to make the first gesture of goodwill.\"",
+   "ctx": "data/campaign/rules.csv PLArmadaLiftBlockade [text]"
+  },
+  {
+   "i": 14,
+   "en": "$Post $personLastName sits patiently as you speak.\r\n\r\n\"Very imaginative, captain,\" $heOrShe says once you finish. \"You've made your position quite clear.\"",
+   "ctx": "data/campaign/rules.csv PLArmadaStickIt [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"This,\" the $post paces, hands behind $hisOrHer back, \"is a standard commerce protection operation performed by an interstellar confederation of peace-seeking polities which are, collectively, recognized by interfactional treaty.\"\r\n\r\n$HeOrShe turns to face the comms. \"Are you such an entity? Or are you an upstart whose treasures are simply floating in space, waiting to be plucked?\"",
+   "ctx": "data/campaign/rules.csv PLArmadaThisIsPiracy [text]"
+  },
+  {
+   "i": 16,
+   "en": "$HeOrShe nods.",
+   "ctx": "data/campaign/rules.csv PLArmadaThisIsPiracy2a [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"Freedom and rights exist within civilization,\" $hisOrHer tone grows impatient; this is a lecture.\r\n\r\n\"It is a social construction. We've come to a point where you may choose to be part of our society, or you may embrace the consequences of barbarism.\"",
+   "ctx": "data/campaign/rules.csv PLArmadaThisIsPiracy2b [text]"
+  },
+  {
+   "i": 18,
+   "en": "$HeOrShe rolls $hisOrHer eyes. \"How nice for you,\" $heOrShe spits.\r\n\r\n\"Let me explain the sector, captain -- and it's a mere captain you'll remain if you don't understand this -- freedom and rights exist within civilization; a social construct. You may choose to be part of our society, or you may embrace the consequences of barbarism.\"",
+   "ctx": "data/campaign/rules.csv PLArmadaThisIsPiracy2c [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"Very well,\" $heOrShe says with a nod.\r\n\r\n\"You have our... request. Now open fire or negotiate with Kazeron.\"\r\n\r\nThe $post waves a dismissing hand at some adjutant, and the comms blink to the crest of the Persean League.",
+   "ctx": "data/campaign/rules.csv PLArmadaThisIsPiracy2d [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"Be realistic, captain. Sooner or later, you're going to have to make a deal with someone more powerful than yourself,\" $heOrShe sighs.\r\n\r\n\"You could do far worse than Reynard Hannan.\"",
+   "ctx": "data/campaign/rules.csv PLArmadaIdealisticNo [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"I'm glad you see it that way, captain- or shall it be Demarchon $playerLastName?\"\r\n\r\n$HeOrShe breaks into a genuine, albeit fleeting smile. \"Soon, I'm sure, when you've joined the League. Give my regards to Reynard.\"",
+   "ctx": "data/campaign/rules.csv PLArmadaIdealisticYes [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"A cynical outlook,\" $heOrShe says, giving you a curious look through the link. \"But we can work with it.\"\r\n\r\n$HeOrShe breaks into a fleeting, but genuine smile. \"Soon, I'm sure, I'll be calling you by 'Archon'. Give my regards to Reynard.\"\r\n\r\n\"Now. Have the good grace to withdraw your fleet; I still have my orders, you understand.\"",
+   "ctx": "data/campaign/rules.csv PLArmadaCynicalYes [text]"
+  },
+  {
+   "i": 23,
+   "en": "He laughs as if at some private joke then moves to close the comm link. And pauses.\r\n\r\n\"Oh, you were serious?\" He starts to shake his head, suppressing a smile. But not quite succeeding, because he wants you to see it. \"That's even better.\"\r\n\r\nHe completes the motion, leaving you to contemplate the choices which led you to this moment with the crest of Gens Hannan wrapped in the sigil of the office of Prime Demarchon.",
+   "ctx": "data/campaign/rules.csv plReynardHannanJoinSelNo [text]"
+  },
+  {
+   "i": 24,
+   "en": "He laughs as if at some private joke then moves to close the comm link. And pauses.\r\n\r\n\"Oh, you were serious?\" He starts to shake his head, suppressing a smile. But not quite succeeding; and only because he wants you to see it. \"That's even better.\"\r\n\r\nHe completes the motion, leaving you with the crest of Gens Hannan wrapped in the sigil of the office of Prime Demarchon to contemplate the choices which led you to this moment.",
+   "ctx": "data/campaign/rules.csv plReynardHannanJoinSelNoDev [text]"
+  },
+  {
+   "i": 25,
+   "en": "Reynard Hannan looks at you blanky, drool starting to drip from the side of his mouth. He speaks in a robotic monotone, \"Of course, $playerName. I would be so... pleased... to help you.\"",
+   "ctx": "data/campaign/rules.csv plReynardHannanJoinSelYesDev [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"My hands are tied, $playerName. The League Council, the representative body of all the free peoples of the League, demanded a show of force.\"\r\n\r\n\"I hope,\" he drops his voice, \"You'll learn an important lesson from this.\"\r\n\r\n\"Speak to me when the operation is concluded,\" he says, all business now. \"Good day.\"",
+   "ctx": "data/campaign/rules.csv plReynardHannanJoinSelNoPunEx [text]"
+  },
+  {
+   "i": 27,
+   "en": "A single perfect eyebrow raises a centimeter.\r\n\r\n\"You had not heard?\" He shakes his head ever so slightly, a concession to the notion that he ought to express regret.\r\n\r\n\"You will,\" he says, reaching for the comms cut-off.",
+   "ctx": "data/campaign/rules.csv plReynardHannanJoinSelNoPunExAsk [text]"
+  },
+  {
+   "i": 28,
+   "en": "Reynard lips move into a small, cold smile, as if indulging a joke made in very poor taste.\r\n\r\n\"Your word is nothing, $playerName; a wisp of a forgotten memory, lost between the stars. And you come to me and bark like a lap-hound, begging but not understanding.\"\r\n\r\nIf his look didn't contain such contempt, you'd think he was pitying you.",
+   "ctx": "data/campaign/rules.csv plReynardHannanJoinSelNoTooMany [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"Do you remember what we had, $playerName?\" Reynard looks dreamily away, \"A shared vision, my patronage, a future. Together.\"\r\n\r\nHe turns an icy gaze back on you, like the target-lock of a directed energy submunition. \"Do you remember throwing that away, like so much effluent?\"\r\n\r\n\"I remember.\" His expression is very still.",
+   "ctx": "data/campaign/rules.csv plReynardHannanJoinSelNo2 [text]"
+  },
+  {
+   "i": 30,
+   "en": "Reynard Hannan looks on you approvingly. \"The details are endless, but you need only be concerned with the highest level of the arrangement. It is not complex.\"",
+   "ctx": "data/campaign/rules.csv plReynardHannanJoinSelYes [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"The details are endless, but you need only be concerned with the highest level of the arrangement. It is not complex.\"\r\n\r\nReynard Hannan smiles coldly. \"And I believe you wished to 'vote me out'? Maybe you'll get your chance.\"",
+   "ctx": "data/campaign/rules.csv plReynardHannanJoinSelYesVote [text]"
+  },
+  {
+   "i": 32,
+   "en": "He explains that you must hold a League commission, and pay $plDuesPercent of gross colony income in dues. In turn, the Persean League will provide you with political protection from the sort of meddling major factions use to bully minor polities; Hegemony AI inspections, for instance. You will benefit from various League development programs for new member-polities which should increase colony accessibility by around 10%.\r\n\r\n\"Provide the League with dues and commercial access and you will be free to run your affairs as you wish,\" he concludes. \"Barring certain extremes which would embarrass the League, naturally.\" He gives you a look of self-aware pedantry, \"But any leader with sense knows how to keep their internal affairs... internal.\"",
+   "ctx": "data/campaign/rules.csv plReynardHannanJoinSelYes2 [text]"
+  }
+ ]
+}

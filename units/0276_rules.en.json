@@ -1,0 +1,1236 @@
+{
+ "chunk": 276,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "Just act extremely conspicuous for anyone watching",
+   "ctx": "gaFCFikenhildCavinHubResponse5"
+  },
+  {
+   "i": 2,
+   "en": "\"I just want to help Scylla.\"",
+   "ctx": "gaFCFikenhildCavinCHub1"
+  },
+  {
+   "i": 3,
+   "en": "\"Just making our friend Finlay's work more interesting.\"",
+   "ctx": "gaFCFikenhildCavinCHub2"
+  },
+  {
+   "i": 4,
+   "en": "\"I'm looking for Elissa Zal. I think she can help Scylla.\"",
+   "ctx": "gaFCFikenhildCavinCHub3"
+  },
+  {
+   "i": 5,
+   "en": "\"Agent Finlay, right?\"",
+   "ctx": "gaFCFikenhildCavinLeave3Option1"
+  },
+  {
+   "i": 6,
+   "en": "\"You don't sound like Cavin Pharoh. Or his friend.\"",
+   "ctx": "gaFCFikenhildCavinLeave3Option3"
+  },
+  {
+   "i": 7,
+   "en": "Return to the transit hub",
+   "ctx": "gaFCFikenhildCavinLeaveEnd"
+  },
+  {
+   "i": 8,
+   "en": "\"A League Agent named Siyavong told me where Scylla is.\"\r",
+   "ctx": "gaFCZalFirstGreeting_INVESTIGATE_FIKENHILD2"
+  },
+  {
+   "i": 9,
+   "en": "\"Cavin seemed to think that you know where Scylla is.\"\r",
+   "ctx": "gaFCZalFirstGreeting_INVESTIGATE_FIKENHILD2"
+  },
+  {
+   "i": 10,
+   "en": "\"You have a very interesting comms system.\"",
+   "ctx": "gaFCZalFirstGreeting_INVESTIGATE_FIKENHILD2"
+  },
+  {
+   "i": 11,
+   "en": "Have your quartermaster buy some krill paste\r",
+   "ctx": "gaFCZalRecording4"
+  },
+  {
+   "i": 12,
+   "en": "Don't bother.",
+   "ctx": "gaFCZalRecording4"
+  },
+  {
+   "i": 13,
+   "en": "\"I think I made a convincing argument.\"\r",
+   "ctx": "gaFCZalLookingForScylla"
+  },
+  {
+   "i": 14,
+   "en": "\"Because I'm not working for MuniSec or Fleet.\"\r",
+   "ctx": "gaFCZalLookingForScylla"
+  },
+  {
+   "i": 15,
+   "en": "\"It must have been my raw charisma.\"\r",
+   "ctx": "gaFCZalLookingForScylla"
+  },
+  {
+   "i": 16,
+   "en": "\"Neither do I. But he did.\"",
+   "ctx": "gaFCZalLookingForScylla"
+  },
+  {
+   "i": 17,
+   "en": "\"Is this how you communicate with Scylla?\"\r",
+   "ctx": "gaFCZalInterestingComms"
+  },
+  {
+   "i": 18,
+   "en": "\"Does Scylla use this to carry on with her research?\"\r",
+   "ctx": "gaFCZalInterestingComms"
+  },
+  {
+   "i": 19,
+   "en": "\"Am I talking to a human or a simulated persona?\"",
+   "ctx": "gaFCZalInterestingComms"
+  },
+  {
+   "i": 20,
+   "en": "\"The what of who?\"\r",
+   "ctx": "gaFCZalDontSeeWhy2"
+  },
+  {
+   "i": 21,
+   "en": "\"Warlord Leonis - you mean the Isirah system.\"",
+   "ctx": "gaFCZalDontSeeWhy2"
+  },
+  {
+   "i": 22,
+   "en": "\"'Isirah system' and a block of krill paste, that's all I get?\"",
+   "ctx": "gaFCZalAlamang"
+  },
+  {
+   "i": 23,
+   "en": "Disconnect the comms",
+   "ctx": "gaFCZalAllYouGet"
+  },
+  {
+   "i": 24,
+   "en": "\"What is it exactly that you do?\"",
+   "ctx": "GAFCSiyavongFikenhildHubAopt1"
+  },
+  {
+   "i": 25,
+   "en": "\"It took you long enough to contact me.\"",
+   "ctx": "GAFCSiyavongFikenhildHubAopt2"
+  },
+  {
+   "i": 26,
+   "en": "\"Where is Scylla Coureuse?\"",
+   "ctx": "GAFCSiyavongFikenhildHubAopt3"
+  },
+  {
+   "i": 27,
+   "en": "\"I want to help Scylla.\"",
+   "ctx": "GAFCSiyavongFikenhildHubB1"
+  },
+  {
+   "i": 28,
+   "en": "\"I can't disclose the reason. I intend to find her with or without your help.\"",
+   "ctx": "GAFCSiyavongFikenhildHubB2"
+  },
+  {
+   "i": 29,
+   "en": "\"Other people seem to think she's important.\"",
+   "ctx": "GAFCSiyavongFikenhildHubB3"
+  },
+  {
+   "i": 30,
+   "en": "\"I'm helping Provost Anahita Baird with some kind of secret project.\"\r",
+   "ctx": "GAFCSiyavongFikenhildHubB4"
+  },
+  {
+   "i": 31,
+   "en": "\"I can put you in contact with Elissa Zal.\"",
+   "ctx": "GAFCSiyavongFikenhildHubB5"
+  },
+  {
+   "i": 32,
+   "en": "\"As a demarchon of the League, you work for me. Remember?\"",
+   "ctx": "GAFCSiyavongFikenhildHubB6"
+  },
+  {
+   "i": 33,
+   "en": "\"I'm quite serious.\"\r",
+   "ctx": "GAFCSiyavongFikenhildHelp"
+  },
+  {
+   "i": 34,
+   "en": "\"I am... from a certain point of view.\"\r",
+   "ctx": "GAFCSiyavongFikenhildHelp"
+  },
+  {
+   "i": 35,
+   "en": "\"No, but it seems like what people like to hear.\"\r",
+   "ctx": "GAFCSiyavongFikenhildHelp"
+  },
+  {
+   "i": 36,
+   "en": "\"Obviously not.\"\r",
+   "ctx": "GAFCSiyavongFikenhildHelp"
+  },
+  {
+   "i": 37,
+   "en": "\"You're just telling me where she is?\"\r",
+   "ctx": "GAFCSiyavongFikenhildSortOf2"
+  },
+  {
+   "i": 38,
+   "en": "\"How do you know about Baird?\"",
+   "ctx": "GAFCSiyavongFikenhildSortOf2"
+  },
+  {
+   "i": 39,
+   "en": "\"And what is that?\"",
+   "ctx": "GAFCSiyavongFikenhildBaird"
+  },
+  {
+   "i": 40,
+   "en": "Transmit the comms ID of Elissa Zal\r",
+   "ctx": "GAFCSiyavongFikenhildContactZal"
+  },
+  {
+   "i": 41,
+   "en": "\"And that's what makes the League great. Do go on.\"\r",
+   "ctx": "GAFCSiyavongMeLeague"
+  },
+  {
+   "i": 42,
+   "en": "\"That's the right attitude. So where's Coureuse?\"",
+   "ctx": "GAFCSiyavongMeLeague"
+  },
+  {
+   "i": 43,
+   "en": "\"You're just telling me where she is?\"",
+   "ctx": "GAFCSiyavongFikenhildRevealOpt2"
+  },
+  {
+   "i": 44,
+   "en": "\"What is your endgame here? Why help me?\"",
+   "ctx": "GAFCSiyavongFikenhildRevealOpt3"
+  },
+  {
+   "i": 45,
+   "en": "\"Wait, I have more questions.\"\r",
+   "ctx": "GAFCFikenhildSiyavongWrapUp"
+  },
+  {
+   "i": 46,
+   "en": "\"I have questions about Scylla Coureuse.\"",
+   "ctx": "GAFCSiyavongStonewallGreetOption1"
+  },
+  {
+   "i": 47,
+   "en": "\"Why are you pretending you don't know me?",
+   "ctx": "GAFCSiyavongStonewallOption1"
+  },
+  {
+   "i": 48,
+   "en": "\"Okay. I see how it is.\"",
+   "ctx": "GAFCSiyavongStonewallOption2"
+  },
+  {
+   "i": 49,
+   "en": "\"Scylla. Coureuse. Remember? You told me where to find her.\"",
+   "ctx": "GAFCSiyavongStonewallOption3"
+  },
+  {
+   "i": 50,
+   "en": "\"Academician Coureuse. You questioned people who know her.\"",
+   "ctx": "GAFCSiyavongStonewallOption4"
+  },
+  {
+   "i": 51,
+   "en": "\"As a demarchon of the Persean League, I demand you answer me.\"",
+   "ctx": "GAFCSiyavongStonewallOption5"
+  },
+  {
+   "i": 52,
+   "en": "Investigate the probe\r",
+   "ctx": "gaFCProbeObjectInteractionFirst"
+  },
+  {
+   "i": 53,
+   "en": "Get a sitrep from the tech team",
+   "ctx": "gaFCProbe1InvestigationStart"
+  },
+  {
+   "i": 54,
+   "en": "\"So who's it talking to? Where are they?\"",
+   "ctx": "gaFCProbe1Investigation2"
+  },
+  {
+   "i": 55,
+   "en": "\"Fascinating. Conclusions?\"",
+   "ctx": "gaFCProbe3InvestigationStart2"
+  },
+  {
+   "i": 56,
+   "en": "\"What would this receiver look like?\"",
+   "ctx": "gaFCProbeInvestigaitonWrapUp1"
+  },
+  {
+   "i": 57,
+   "en": "\"Did you happen to find a probe belonging to the Galatia Academy?\"\r",
+   "ctx": "gaFCScavengerGreeting"
+  },
+  {
+   "i": 58,
+   "en": "\"I have all the time in the world.\"\r",
+   "ctx": "gaFCScavengerAsk"
+  },
+  {
+   "i": 59,
+   "en": "\"Perhaps a 'donation' could help speed things along.\"\r",
+   "ctx": "gaFCScavengerAsk"
+  },
+  {
+   "i": 60,
+   "en": "\"I'm authorized to recover Academy property- by force, if necessary.\"",
+   "ctx": "gaFCScavengerAsk"
+  },
+  {
+   "i": 61,
+   "en": "\"I'll transfer those credits to speed things along.\" (bribe)\r",
+   "ctx": "gaFCScavengerBribe1"
+  },
+  {
+   "i": 62,
+   "en": "\"Actually, I have all the time in the world.\" (wait)\r",
+   "ctx": "gaFCScavengerBribe1"
+  },
+  {
+   "i": 63,
+   "en": "\"Don't test me. I will use force to recover Galatia Academy property if necessary.\"",
+   "ctx": "gaFCScavengerBribe1"
+  },
+  {
+   "i": 64,
+   "en": "\"Conclusions?\"",
+   "ctx": "gaFCStolenProbePodStartOption3"
+  },
+  {
+   "i": 65,
+   "en": "\"Let's talk about this.\"\r",
+   "ctx": "gaFCPatherAmbushGreeting"
+  },
+  {
+   "i": 66,
+   "en": "\"You're right, I do serve Moloch...\" (bluff)\r",
+   "ctx": "gaFCPatherAmbushGreeting"
+  },
+  {
+   "i": 67,
+   "en": "\"What information is that?\"",
+   "ctx": "gaFCIsirahMercHubOption1"
+  },
+  {
+   "i": 68,
+   "en": "\"Let's talk about making a deal.\"",
+   "ctx": "gaFCIsirahMercHubOption2"
+  },
+  {
+   "i": 69,
+   "en": "\"Who exactly is this employer?\"",
+   "ctx": "gaFCIsirahMercHubOption3"
+  },
+  {
+   "i": 70,
+   "en": "\"I don't respond well to threats.\"",
+   "ctx": "gaFCIsirahMercHubOption4"
+  },
+  {
+   "i": 71,
+   "en": "\"You'll get nothing from me.\"",
+   "ctx": "gaFCIsirahMercHubOption5"
+  },
+  {
+   "i": 72,
+   "en": "Decline the deal\r",
+   "ctx": "gaFCIsirahMercLetsDeal"
+  },
+  {
+   "i": 73,
+   "en": "Accept the deal\r",
+   "ctx": "gaFCIsirahMercLetsDeal"
+  },
+  {
+   "i": 74,
+   "en": "\"No, I mean how much will it cost for you to forget that I exist?\"",
+   "ctx": "gaFCIsirahMercLetsDeal"
+  },
+  {
+   "i": 75,
+   "en": "\"Not even for 50,000 credits?\"\r",
+   "ctx": "gaFCIsirahMercOtherDeal"
+  },
+  {
+   "i": 76,
+   "en": "\"Let's talk about something else...\"\r",
+   "ctx": "gaFCIsirahMercOtherDeal"
+  },
+  {
+   "i": 77,
+   "en": "\"Let's talk about you bribing me, then.\"",
+   "ctx": "gaFCIsirahMercOtherDeal"
+  },
+  {
+   "i": 78,
+   "en": "\"How about 100,000 credits?\"\r",
+   "ctx": "gaFCIsirahMercOtherDeal1"
+  },
+  {
+   "i": 79,
+   "en": "\"Let's talk about you bribing me, then.\"\r",
+   "ctx": "gaFCIsirahMercOtherDeal2"
+  },
+  {
+   "i": 80,
+   "en": "\"Then you'll get nothing from me.\"",
+   "ctx": "gaFCIsirahMercOtherDeal2"
+  },
+  {
+   "i": 81,
+   "en": "\"That's it? You're just going to leave?\"\r",
+   "ctx": "gaFCIsirahMercGetNothing"
+  },
+  {
+   "i": 82,
+   "en": "Tell Baird that Coureuse is in the Isirah system",
+   "ctx": "gaFCBaird_SEARCH_ISIRAH"
+  },
+  {
+   "i": 83,
+   "en": "Search the station for a makeshift hypercomm receiver\r",
+   "ctx": "gaFCGroombridgeSearchStart"
+  },
+  {
+   "i": 84,
+   "en": "\"Then you know what to look for. Make it happen.\"",
+   "ctx": "gaFCGroombridgeSearch2"
+  },
+  {
+   "i": 85,
+   "en": "\"Do it.\"",
+   "ctx": "gaFCGroombridgeSearch4"
+  },
+  {
+   "i": 86,
+   "en": "Search the station for the source of the mysterious signals\r",
+   "ctx": "gaFCGroombridgeSearchBStart"
+  },
+  {
+   "i": 87,
+   "en": "\"If there was a hypercomm relay here, how would we find it?\"",
+   "ctx": "gaFCGroombridgeSearchB1"
+  },
+  {
+   "i": 88,
+   "en": "\"Make it so.\"",
+   "ctx": "gaFCGroombridgeSearchB3"
+  },
+  {
+   "i": 89,
+   "en": "\"I'm looking for someone called Scylla Coureuse.\"",
+   "ctx": "gaFCKapteynBotherAdministrator"
+  },
+  {
+   "i": 90,
+   "en": "\"Let's talk about credits.\"\r",
+   "ctx": "gaFCKapteynBossBother1"
+  },
+  {
+   "i": 91,
+   "en": "\"I'm one of you, you can work with me. I've got a reputation.\"\r",
+   "ctx": "gaFCKapteynBossBother1"
+  },
+  {
+   "i": 92,
+   "en": "\"Because uh, Warlord Kanta said so?\"\r",
+   "ctx": "gaFCKapteynBossBother1"
+  },
+  {
+   "i": 93,
+   "en": "\"Let's talk about Scylla Coureuse again, instead.\"",
+   "ctx": "gaFCKapteynBossBribeStart"
+  },
+  {
+   "i": 94,
+   "en": "\"You can count on it, friend.\"",
+   "ctx": "gaFCKapteynBossAppealSuccess2"
+  },
+  {
+   "i": 95,
+   "en": "\"I do like to keep informed.\"",
+   "ctx": "gaFC_kapteynBossInfoDump3"
+  },
+  {
+   "i": 96,
+   "en": "\"Wait, are you some kind of Pather?\"",
+   "ctx": "gaFCAskLaicailleBar1Option1"
+  },
+  {
+   "i": 97,
+   "en": "\"What do you think it is?\"",
+   "ctx": "gaFCAskAroundLaicailleBar2"
+  },
+  {
+   "i": 98,
+   "en": "\"Please, go on.\"\r",
+   "ctx": "gaFCAskAroundLaicailleBar3"
+  },
+  {
+   "i": 99,
+   "en": "\"I don't need any ghost stories. Enjoy your drinks.\" (leave)",
+   "ctx": "gaFCAskAroundLaicailleBar3"
+  },
+  {
+   "i": 100,
+   "en": "\"How do you know the interference is coming from Groombridge?\"",
+   "ctx": "gaFCAskAroundLaicailleBar4"
+  },
+  {
+   "i": 101,
+   "en": "\"I thought you said it wasn't a natural source.\"",
+   "ctx": "gaFCAskAroundLaicailleBar5"
+  },
+  {
+   "i": 102,
+   "en": "\"And what business is that?\"",
+   "ctx": "gaFCAskAroundKapteynBar1"
+  },
+  {
+   "i": 103,
+   "en": "\"Then I've come to the right person.\"\r",
+   "ctx": "gaFCAskAroundKapteynBar2"
+  },
+  {
+   "i": 104,
+   "en": "\"Not interested. See you around.\"",
+   "ctx": "gaFCAskAroundKapteynBar2"
+  },
+  {
+   "i": 105,
+   "en": "\"I already talked to the boss of Kapteyn and got the information.\"",
+   "ctx": "gaFCAskAroundKapteynBar4Option1"
+  },
+  {
+   "i": 106,
+   "en": "\"Doesn't that cut you out of the loop? What about your profit?\"",
+   "ctx": "gaFCAskAroundKapteynBar4Option2"
+  },
+  {
+   "i": 107,
+   "en": "\"Thanks for the tip. Enjoy your drink.\"",
+   "ctx": "gaFCAskAroundKapteynBar4Option3"
+  },
+  {
+   "i": 108,
+   "en": "\"I still need more on Coureuse. Can you help?\"\r",
+   "ctx": "gaFCAskAroundKapteynBarKnow"
+  },
+  {
+   "i": 109,
+   "en": "\"Thanks. Enjoy your drink.\"",
+   "ctx": "gaFCAskAroundKapteynBarKnow"
+  },
+  {
+   "i": 110,
+   "en": "Pay the credits\r",
+   "ctx": "gaFCAskAroundKapteynBarMore"
+  },
+  {
+   "i": 111,
+   "en": "\"I'll figure it out myself. Enjoy your drink.\"",
+   "ctx": "gaFCAskAroundKapteynBarMore"
+  },
+  {
+   "i": 112,
+   "en": "\"Do you have proof? Documentation?\"",
+   "ctx": "gaFCKapteynBarBribe"
+  },
+  {
+   "i": 113,
+   "en": "\"This is very important.\" (explain)\r",
+   "ctx": "gaFCLaicailleCommanderBother2"
+  },
+  {
+   "i": 114,
+   "en": "\"No, I'm not looking for a ship. She's a person.\"\r",
+   "ctx": "gaFCLaicailleNavarchBother2"
+  },
+  {
+   "i": 115,
+   "en": "\"Um. Thank you for your time.\"",
+   "ctx": "gaFCLaicailleNavarchBother2"
+  },
+  {
+   "i": 116,
+   "en": "\"I'm looking for a Scylla Coureuse.\"",
+   "ctx": "gaFCLaicailleQuartermasterBother"
+  },
+  {
+   "i": 117,
+   "en": "\"Right, of course. I'll be back with those.\"\r",
+   "ctx": "gaFCLaicailleQuartermasterBother2"
+  },
+  {
+   "i": 118,
+   "en": "\"Wait, what's this about a secret warehouse?\"\r",
+   "ctx": "gaFCLaicailleQuartermasterBother2"
+  },
+  {
+   "i": 119,
+   "en": "\"I'm going to have to insist!\" (bluff)",
+   "ctx": "gaFCLaicailleQuartermasterBother2"
+  },
+  {
+   "i": 120,
+   "en": "\"I'm a fellow demarchon of the League. We need to work together.\"",
+   "ctx": "gaFCArchonSearchHubOptionPL"
+  },
+  {
+   "i": 121,
+   "en": "\"Do you know anything about the Galatia incident?\"",
+   "ctx": "gaFCArchonSearchHubOption2"
+  },
+  {
+   "i": 122,
+   "en": "\"I know Coureuse is on this station and I can prove it.\"",
+   "ctx": "gaFCArchonSearchHubOption3"
+  },
+  {
+   "i": 123,
+   "en": "\"Archon. Let's talk about Coureuse, and the evidence you require...\"",
+   "ctx": "gaFCArchonSearchHubOption4"
+  },
+  {
+   "i": 124,
+   "en": "DEV set various PL flags",
+   "ctx": "gaFCArchonSearchHubOptionDEV"
+  },
+  {
+   "i": 125,
+   "en": "\"Have you ever met Reynard Hannan?\"",
+   "ctx": "gaFCarchonAskDemarchonOptsC"
+  },
+  {
+   "i": 126,
+   "en": "\"I understand. The Persean League blockaded my colonies to force me to join.\"",
+   "ctx": "gaFCarchonAskDemarchonOptsB"
+  },
+  {
+   "i": 127,
+   "en": "\"I'm sorry you feel that way. Let's discuss something else.\"",
+   "ctx": "gaFCarchonAskDemarchonOptsBack"
+  },
+  {
+   "i": 128,
+   "en": "\"And is he not the most proud, insufferable bully you've ever met?\"\r",
+   "ctx": "gaFCarchonAskDemOptsCsel"
+  },
+  {
+   "i": 129,
+   "en": "\"Don't you want to be like him? His success, his power?\"",
+   "ctx": "gaFCarchonAskDemOptsCsel"
+  },
+  {
+   "i": 130,
+   "en": "\"He's extorting me for League membership. Payments directly to Gens Hannan.\"",
+   "ctx": "gaFCarchonAskDemarchonOptsA"
+  },
+  {
+   "i": 131,
+   "en": "\"I told Reynard I'd join the League to vote him out of office. Would you help?\"",
+   "ctx": "gaFCarchonAskDemChubOptA"
+  },
+  {
+   "i": 132,
+   "en": "\"I told Reynard to his face that his disregard for human life is unbelievably cynical.\"",
+   "ctx": "gaFCarchonAskDemChubOptB"
+  },
+  {
+   "i": 133,
+   "en": "\"I beat Reynard at his own game. I joined the League, but on my terms.\"",
+   "ctx": "gaFCarchonAskDemChubOptC"
+  },
+  {
+   "i": 134,
+   "en": "\"So will you help me?\"",
+   "ctx": "gaFCarchonAskDemChubOptD"
+  },
+  {
+   "i": 135,
+   "en": "\"I guess that's our lot. Shall we discuss something else?\"",
+   "ctx": "gaFCarchonAskDemChubOptE"
+  },
+  {
+   "i": 136,
+   "en": "Tell the archon about the Pather cell operating on Laicaille",
+   "ctx": "gaFCArchonPLexcuseOptA"
+  },
+  {
+   "i": 137,
+   "en": "Tell the archon about the secret hypercomms relay on Groombridge station",
+   "ctx": "gaFCArchonPLexcuseOptB"
+  },
+  {
+   "i": 138,
+   "en": "Tell the archon how easily you discovered information on the intel operation on Laicaille",
+   "ctx": "gaFCArchonPLexcuseOptC"
+  },
+  {
+   "i": 139,
+   "en": "Tell the archon about the 'comm intercepts' to Laicaille from a 'radical agitator' on Fikenhild",
+   "ctx": "gaFCArchonPLexcuseOptD"
+  },
+  {
+   "i": 140,
+   "en": "\"I'll come back when I have something for you.\"",
+   "ctx": "gaFCArchonPLexcuseOptOut"
+  },
+  {
+   "i": 141,
+   "en": "\"And I can prove it.\"",
+   "ctx": "gaFCArchonAskCoureuseAgainB"
+  },
+  {
+   "i": 142,
+   "en": "\"I'm looking for Scylla Coureuse. She was involved.\"\r",
+   "ctx": "gaFCArchonAskGalatia"
+  },
+  {
+   "i": 143,
+   "en": "\"Do you think something like that could happen here?\"\r",
+   "ctx": "gaFCArchonAskGalatia"
+  },
+  {
+   "i": 144,
+   "en": "\"I have proof that Scylla Coureuse is on this station.\"",
+   "ctx": "gaFCArchonAskGalOption1"
+  },
+  {
+   "i": 145,
+   "en": "\"Good to know. I'll rest easy.\"",
+   "ctx": "gaFCArchonAskGalOption2"
+  },
+  {
+   "i": 146,
+   "en": "\"What if Coureuse is on this station - right now?\"",
+   "ctx": "gaFCArchonAskGalOption3"
+  },
+  {
+   "i": 147,
+   "en": "\"I'll be back when I can prove it.\"",
+   "ctx": "gaFCArchonConfrontOption0b"
+  },
+  {
+   "i": 148,
+   "en": "Tell the Archon about the Pather cell operating here",
+   "ctx": "gaFCArchonConfrontOption1"
+  },
+  {
+   "i": 149,
+   "en": "Tell the Archon about the secret hypercomms relay on Groombridge station",
+   "ctx": "gaFCArchonConfrontOption2"
+  },
+  {
+   "i": 150,
+   "en": "Tell the Archon that you know about the League's intel operation here",
+   "ctx": "gaFCArchonConfrontOption3"
+  },
+  {
+   "i": 151,
+   "en": "Tell the Archon about the comm intercepts to here from a radical on Fikenhild",
+   "ctx": "gaFCArchonConfrontOption4"
+  },
+  {
+   "i": 152,
+   "en": "\"Let me see Coureuse. You don't owe the Persean League anything.\"",
+   "ctx": "gaFCArchonConfrontOptionWrap"
+  },
+  {
+   "i": 153,
+   "en": "\"Orders from Kazeron? I can see who really runs Laicaille.\"\r",
+   "ctx": "gaFCArchonLetMeSeeHer"
+  },
+  {
+   "i": 154,
+   "en": "\"She is a free citizen of the League. Does that mean nothing?\"\r",
+   "ctx": "gaFCArchonLetMeSeeHer"
+  },
+  {
+   "i": 155,
+   "en": "\"Fair enough. Sorry for prying.\"",
+   "ctx": "gaFCArchonLetMeSeeHer"
+  },
+  {
+   "i": 156,
+   "en": "\"I am?\"",
+   "ctx": "gaFCArchonLetMeSeeHerGoad"
+  },
+  {
+   "i": 157,
+   "en": "\"You don't?\"",
+   "ctx": "gaFCArchonLetMeSeeHerAvoid"
+  },
+  {
+   "i": 158,
+   "en": "Install and run the snoop algorithm",
+   "ctx": "gaFC_relayObjectInteraction"
+  },
+  {
+   "i": 159,
+   "en": "\"Which is?\"",
+   "ctx": "gaFC_relayInstallHack1"
+  },
+  {
+   "i": 160,
+   "en": "\"Who am I looking at?\"",
+   "ctx": "gaFC_relayInstallHack2"
+  },
+  {
+   "i": 161,
+   "en": "Meet the Archon and visit the safehouse of Scylla Coureuse",
+   "ctx": "gaFCLaicaileVisitOption"
+  },
+  {
+   "i": 162,
+   "en": "Follow the archon",
+   "ctx": "gaFCLaicailleVisit1"
+  },
+  {
+   "i": 163,
+   "en": "Watch what happens",
+   "ctx": "gaFCLaicailleVisit2"
+  },
+  {
+   "i": 164,
+   "en": "\"Scylla Coureuse, I presume.\"",
+   "ctx": "gaFCLaicailleVisit4b"
+  },
+  {
+   "i": 165,
+   "en": "\"A gift from Elissa.\"",
+   "ctx": "gaFCLaicailleVisit5Alamang"
+  },
+  {
+   "i": 166,
+   "en": "\"I have a message for you.\"",
+   "ctx": "gaFCLaicailleVisit5Alamang2"
+  },
+  {
+   "i": 167,
+   "en": "Give her Baird's message on your datapad",
+   "ctx": "gaFCLaicailleVisit6"
+  },
+  {
+   "i": 168,
+   "en": "\"Great. Let's go.\"\r",
+   "ctx": "gaFCLaicailleVisit9"
+  },
+  {
+   "i": 169,
+   "en": "\"What did Baird say?\"\r",
+   "ctx": "gaFCLaicailleVisit9"
+  },
+  {
+   "i": 170,
+   "en": "\"Well. Let's go, then.\"\r",
+   "ctx": "gaFCLaicailleVisit10"
+  },
+  {
+   "i": 171,
+   "en": "Open a channel",
+   "ctx": "gaFCReturnToAcademy"
+  },
+  {
+   "i": 172,
+   "en": "Pretend you didn't see\r",
+   "ctx": "gaFCReturnToAcademy2"
+  },
+  {
+   "i": 173,
+   "en": "Wave back to Sebestyen",
+   "ctx": "gaFCReturnToAcademy2"
+  },
+  {
+   "i": 174,
+   "en": "Board the transport pod",
+   "ctx": "gaFCReturnToAcademy5"
+  },
+  {
+   "i": 175,
+   "en": "\"I don't think the Persean League will be happy to lose Coureuse.\"",
+   "ctx": "gaFCReturnTransportHubA"
+  },
+  {
+   "i": 176,
+   "en": "\"She doesn't like you, does she.\"",
+   "ctx": "gaFCReturnTransportHubB"
+  },
+  {
+   "i": 177,
+   "en": "\"Are you... watching my accounts?\"",
+   "ctx": "gaFCReturnToAcademy7b2"
+  },
+  {
+   "i": 178,
+   "en": "\"You're obviously trying to re-open the Gates.\"\r",
+   "ctx": "gaFCReturnToAcademy11b"
+  },
+  {
+   "i": 179,
+   "en": "\"What happened? Weren't you the archon of Laicaille?\"",
+   "ctx": "postGAFCretiredArchon"
+  },
+  {
+   "i": 180,
+   "en": "\"This seems unjust. Is there anything I can do?\"\r",
+   "ctx": "postGAFCretiredArchon1"
+  },
+  {
+   "i": 181,
+   "en": "\"Are they going to come after me next?\"\r",
+   "ctx": "postGAFCretiredArchon1"
+  },
+  {
+   "i": 182,
+   "en": "\"My condolences. I must be on my way.\" (cut comm link)",
+   "ctx": "postGAFCretiredArchon1"
+  },
+  {
+   "i": 183,
+   "en": "\"This is unjust. Is there anything I can do?\"\r",
+   "ctx": "postGAFCretiredArchonPL1"
+  },
+  {
+   "i": 184,
+   "en": "\"You look familiar...\"",
+   "ctx": "postGAFCNewArchonC"
+  },
+  {
+   "i": 185,
+   "en": "\"Aren't you a little young for an archon?\"",
+   "ctx": "postGAFCNewArchonB"
+  },
+  {
+   "i": 186,
+   "en": "\"You're new. What happened to the old archon?\"",
+   "ctx": "postGAFCNewArchon"
+  },
+  {
+   "i": 187,
+   "en": "\"If you don't like it here, why don't you resign?\"\r",
+   "ctx": "postGAFCNewArchon1"
+  },
+  {
+   "i": 188,
+   "en": "\"This post must be a terrible burden. Thank you for your service.\" (sarcastic)\r",
+   "ctx": "postGAFCNewArchon2opts"
+  },
+  {
+   "i": 189,
+   "en": "\"This post must be a terrible burden. Thank you for your service.\"\r",
+   "ctx": "postGAFCNewArchon2opts"
+  },
+  {
+   "i": 190,
+   "en": "\"Interesting. Well, keep up the good work.\" (leave)",
+   "ctx": "postGAFCNewArchon2opts"
+  },
+  {
+   "i": 191,
+   "en": "\"Demarchon. Not captain. I lead a member-polity in the League.\"\r",
+   "ctx": "postGAFCNewArchon2optsPL"
+  },
+  {
+   "i": 192,
+   "en": "\"This must be terrible for you. Thank you for your service.\" (sarcastic)\r",
+   "ctx": "postGAFCNewArchon2optsPL"
+  },
+  {
+   "i": 193,
+   "en": "\"This must be terrible for you. Thank you for your service.\"\r",
+   "ctx": "postGAFCNewArchon2optsPL"
+  },
+  {
+   "i": 194,
+   "en": "Inform the agent that the Provost is expecting you for a meeting",
+   "ctx": "gaPZIntroMeetBairdOption"
+  },
+  {
+   "i": 195,
+   "en": "\"However?\"",
+   "ctx": "gaPZIntro5"
+  },
+  {
+   "i": 196,
+   "en": "\"Do you have any other leads?\"",
+   "ctx": "PZIntroHub1a"
+  },
+  {
+   "i": 197,
+   "en": "\"Do you have any idea what this research was for?\"",
+   "ctx": "PZIntroHub1b"
+  },
+  {
+   "i": 198,
+   "en": "\"Gargoyle, do you have more information?\"",
+   "ctx": "PZIntroHub1c"
+  },
+  {
+   "i": 199,
+   "en": "\"I've got everything I need.\"",
+   "ctx": "PZIntroHub1d"
+  },
+  {
+   "i": 200,
+   "en": "\"Can you help me find Kelise Astraia?\"",
+   "ctx": "gaPZAskGargoyleKelise"
+  },
+  {
+   "i": 201,
+   "en": "\"What was that you were saying about 'Project Ziggurat'?\"",
+   "ctx": "gaPZAskGargoyleZig"
+  },
+  {
+   "i": 202,
+   "en": "\"Good. So you can help?\"",
+   "ctx": "gaPZAskGargoyleKeliseSel"
+  },
+  {
+   "i": 203,
+   "en": "\"I'll be honest, that was a little underwhelming.\"",
+   "ctx": "gaPZAskGargoyleKeliseSel1"
+  },
+  {
+   "i": 204,
+   "en": "\"I would like to hear about what you found, Gargoyle.\"\r",
+   "ctx": "paPZ_gargZigSel"
+  },
+  {
+   "i": 205,
+   "en": "\"If you just want to whine about it, I can be on my way.\"\r",
+   "ctx": "paPZ_gargZigSel"
+  },
+  {
+   "i": 206,
+   "en": "Just wait",
+   "ctx": "paPZ_gargZigSel"
+  },
+  {
+   "i": 207,
+   "en": "\"I value your expertise.\"\r",
+   "ctx": "paPZ_gargZigLikeSel"
+  },
+  {
+   "i": 208,
+   "en": "Keep waiting",
+   "ctx": "paPZ_gargZigWaitSel"
+  },
+  {
+   "i": 209,
+   "en": "\"You've given me a lot to think about.\"",
+   "ctx": "paPZ_gargZigStory2"
+  },
+  {
+   "i": 210,
+   "en": "Ask for help getting info on Kelise Astraia",
+   "ctx": "gaPZAskArroyoKelise"
+  },
+  {
+   "i": 211,
+   "en": "\"What kind of favor?\"",
+   "ctx": "gaPZAskArroyoKeliseSel"
+  },
+  {
+   "i": 212,
+   "en": "\"You want my help to run a convoluted disinformation campaign.\"\r",
+   "ctx": "gaPZAskArroyoKelise1"
+  },
+  {
+   "i": 213,
+   "en": "\"But you did take part in the conspiracy.\"\r",
+   "ctx": "gaPZAskArroyoKelise1"
+  },
+  {
+   "i": 214,
+   "en": "\"Why are you leaking evidence against yourself?\"",
+   "ctx": "gaPZAskArroyoKelise1"
+  },
+  {
+   "i": 215,
+   "en": "\"Sure.\"\r",
+   "ctx": "gaPZ_arroyoAskKelise2"
+  },
+  {
+   "i": 216,
+   "en": "\"No. But I'll do it if you want.\"\r",
+   "ctx": "gaPZ_arroyoAskKelise2"
+  },
+  {
+   "i": 217,
+   "en": "\"This seems unlikely to work.\"",
+   "ctx": "gaPZ_arroyoAskKelise2"
+  },
+  {
+   "i": 218,
+   "en": "\"How about some credits to help this job along?\"\r",
+   "ctx": "GAPZArroyoKelise3"
+  },
+  {
+   "i": 219,
+   "en": "Offer to sell Arroyo's fake blackmail material",
+   "ctx": "gaPZSellBlackmailOptionA"
+  },
+  {
+   "i": 220,
+   "en": "\"Brave words for someone without a warfleet behind them.\"",
+   "ctx": "GAPZSellFakesOpts1"
+  },
+  {
+   "i": 221,
+   "en": "\"Oh no. Anything but that. Transmitting now.\"",
+   "ctx": "GAPZSellFakesOpts2"
+  },
+  {
+   "i": 222,
+   "en": "Insist on payment",
+   "ctx": "GAPZSellFakesOpts3"
+  },
+  {
+   "i": 223,
+   "en": "\"You're going to pay me $gaPZ_paymentForCommFakes credits.\"",
+   "ctx": "gaPZSellFakes1"
+  },
+  {
+   "i": 224,
+   "en": "\"Transferring data now.\"",
+   "ctx": "gaPZSellFakes1a"
+  },
+  {
+   "i": 225,
+   "en": "\"Can you tell me more about the Hamatsu?\"",
+   "ctx": "gaPZ_returnArroyo1"
+  },
+  {
+   "i": 226,
+   "en": "\"But what?\"",
+   "ctx": "gaPZ_returnArroyo2"
+  },
+  {
+   "i": 227,
+   "en": "Ask about Kelise Astraia\r",
+   "ctx": "gaPZTalkCulannAdmin"
+  },
+  {
+   "i": 228,
+   "en": "\"We're just networking, right? Let me add you on Tri-link... \"\r",
+   "ctx": "gaPZ_adminAstraia1"
+  },
+  {
+   "i": 229,
+   "en": "\"Perhaps a generous finder's fee would smooth things along?\"\r",
+   "ctx": "gaPZ_adminAstraia1"
+  },
+  {
+   "i": 230,
+   "en": "Make an excuse and close the comm link",
+   "ctx": "gaPZ_adminAstraia1"
+  },
+  {
+   "i": 231,
+   "en": "\"Of course. And this fee would come to... ?\"\r",
+   "ctx": "gaPZ_adminAstraia2a"
+  },
+  {
+   "i": 232,
+   "en": "\"All things considered, you don't think... \" (negotiate)\r",
+   "ctx": "gaPZ_adminAstraia3a"
+  },
+  {
+   "i": 233,
+   "en": "Make some excuse and close the comm link",
+   "ctx": "gaPZ_adminAstraia3a"
+  },
+  {
+   "i": 234,
+   "en": "\"Do I know you?\"\r",
+   "ctx": "gaPZKnightOpenComm"
+  },
+  {
+   "i": 235,
+   "en": "\"I wish to repent and follow the Path of Ludd.\"\r",
+   "ctx": "gaPZKnightOpenComm"
+  },
+  {
+   "i": 236,
+   "en": "\"Shields up!\" (end)",
+   "ctx": "gaPZKnightOpenComm"
+  },
+  {
+   "i": 237,
+   "en": "\"Perhaps half that amount would be sufficient?\"\r",
+   "ctx": "gaPZ_rkFollowPath"
+  },
+  {
+   "i": 238,
+   "en": "Transfer the tithe\r",
+   "ctx": "gaPZ_rkFollowPath"
+  },
+  {
+   "i": 239,
+   "en": "\"No deal. Shields up!\" (end)",
+   "ctx": "gaPZ_rkFollowPath"
+  },
+  {
+   "i": 240,
+   "en": "Ask about the Hamatsu\r",
+   "ctx": "gaPZCallistoTalk"
+  },
+  {
+   "i": 241,
+   "en": "\"It is.\"\r",
+   "ctx": "gaPZ_calHamatsu"
+  },
+  {
+   "i": 242,
+   "en": "\"How'd you know?\"",
+   "ctx": "gaPZ_calHamatsu"
+  },
+  {
+   "i": 243,
+   "en": "\"...You don't sound very quiet.\"",
+   "ctx": "gaPZ_calHamatsu1b"
+  },
+  {
+   "i": 244,
+   "en": "\"I need to find out where Kelise Astraia went.\"",
+   "ctx": "gaPZ_calHamatsu2"
+  },
+  {
+   "i": 245,
+   "en": "\"I'll find it.\"\r",
+   "ctx": "gaPZ_calHamatsu4"
+  },
+  {
+   "i": 246,
+   "en": "\"I can't make any promises.\" \r",
+   "ctx": "gaPZ_calHamatsu4"
+  }
+ ]
+}

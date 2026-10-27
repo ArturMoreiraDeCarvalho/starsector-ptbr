@@ -1,0 +1,161 @@
+{
+ "chunk": 161,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"Don't worry about it. You have a rogue scientist to track down, and on behalf of the Fleet Intelligence Service, I have nothing to say to you on the subject. Nor have we ever met; I don't know you, you don't know me.\"\r\n\r\nAgent Siyavong claps his hands together, \"I believe we are finished. What is it you people say- 'burn bright', captain?\"",
+   "ctx": "data/campaign/rules.csv GAFCFikenhildSiyavongWrapUp [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"Don't worry about it. You have a rogue scientist to track down, and on behalf of the Persean League Fleet Intelligence Service, I've said nothing to you on the subject.\"\r\n\r\nHe taps his nose. \"Our meeting was purely a matter of routine internal affairs. Nothing out of the ordinary with the FIS coordinating on perfectly standard information-sharing with the executive representative of a member polity, don't you agree?\"\r\n\r\nAgent Siyavong claps his hands together, \"I believe we are finished. What is it you people say- 'burn bright', captain-demarchon?\"",
+   "ctx": "data/campaign/rules.csv GAFCFikenhildSiyavongWrapUpMem [text]"
+  },
+  {
+   "i": 3,
+   "en": "Finlay shakes his head, still smiling. The comms line disconnects abruptly.",
+   "ctx": "data/campaign/rules.csv GAFCFikenhildSiyavongWrapUp2 [text]"
+  },
+  {
+   "i": 4,
+   "en": "The comms link holds for a few moments on an understated Persean League insignia motion graphic before connecting.\r\n\r\n\"Greetings, I am Lieutenant Finlay Siyavong with the Persean League Fleet Intelligence Service,\" Siyavong says. \"How may I be of assistance?\"",
+   "ctx": "data/campaign/rules.csv GAFCSiyavongStonewallGreeting [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"I'm sorry $playerSirOrMadam, but no one by that name works in this office. I recommend that you inquire at a public directory.\"",
+   "ctx": "data/campaign/rules.csv GAFCSiyavongStoneWallScylla [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"$PlayerSirOrMadam, I have only the utmost respect for your office as executive leader of $player.theFactionName, a member polity of the Persean League in good standing. If you wish to officially coordinate on matters relating to intelligence concerning an individual of interest with the Persean League Fleet Intelligence Service, I must direct you toward the official channels.\"\r\n\r\nSiyavong's simulation of polite, bureaucratic non-helpfulness is immaculate. He's stonewalling.\r\n\r\nHe pauses for a significant moment, then adds \"It would be highly irregular if I were to discuss potentially classified matters outside of official channels.\"",
+   "ctx": "data/campaign/rules.csv GAFCSiyavongStonewall1mem [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"I'm afraid I don't know what you're talking about.\"\r\n\r\nSiyavong watches you with an impeccable simulation of polite, bureaucratic confusion.\r\n\r\n\"If you would like to report a crime in interfactional space, or a crime in the local polity involving non-citizens of this League member-state, I can forward you to the appropriate contact.\"\r\n\r\nNo matter what you try, he's stonewalling. And he's good at it.",
+   "ctx": "data/campaign/rules.csv GAFCSiyavongStonewall1 [text]"
+  },
+  {
+   "i": 8,
+   "en": "A common class of probe used for research, surveying, and surveillance. There is no active transponder, but your comms officer's active ping returns an ID-packet bearing codes for the Galatia Academy.\r\n\r\nEM leakage suggests functioning subsystems, perhaps collecting telemetry for some esoteric research project.",
+   "ctx": "data/campaign/rules.csv gaFCProbeSwitched [text]"
+  },
+  {
+   "i": 9,
+   "en": "A nearby hostile fleet is tracking your movements, preventing you from sending an EVA team to examine the probe.",
+   "ctx": "data/campaign/rules.csv gaFCProbePrintHostilesText [text]"
+  },
+  {
+   "i": 10,
+   "en": "Your $shipOrFleet approaches the probe. It is not transmitting an active transponder ID, but when your comms officer performs a direct ping, the return identifies the probe as property of the Galatia Academy. This is followed by a block of legal language threatening fines and alluding to unspecified dangers inherent in tampering with said property. \r\n\r\nYou suspect that these mere words, a ghost of an EM pulse sent across cold vacuum, would dissuade few of the outer systems scavengers you've crossed paths with.",
+   "ctx": "data/campaign/rules.csv gaFCProbeObjectInteractionFirst [text]"
+  },
+  {
+   "i": 11,
+   "en": "Your $shipOrFleet approaches the probe. Your comms officer performs an active transponder request and identifies the probe as property of the Galatia Academy with a serial number matching equipment assigned to Coureuse's hyperspace physics group.",
+   "ctx": "data/campaign/rules.csv gaFCProbeObjectInteraction [text]"
+  },
+  {
+   "i": 12,
+   "en": "Your $shipOrFleet approaches the probe. It is not transmitting an active transponder ID, and when your comms officer performs a direct transponder ping there is no return.\r\n\r\nA scan reveals unusually low mass according to the probe's specs. You order a salvage crew to deploy and investigate - carefully. ",
+   "ctx": "data/campaign/rules.csv gaFCProbeInteractionStartEmpty [text]"
+  },
+  {
+   "i": 13,
+   "en": "The salvors operate a maintenance drone to make cuts in the hull at a standard access point. After the flash of plasma goes dark, the drone swivels its spotlights to reveal... nothing.\r\n\r\nThe probe hull is empty aside from dangling rough-cut ends of conduits. Someone has completely cleaned out the internal hardware chassis.\r\n\r\n\"It wasn't long ago,\" your sensors officer reports. \"Radar sweep for debris spread from intrusion incident shows minimal spread. Whoever did this, they're probably still in-system.\"\r\n\r\nIn system. With the probe hardware you need.",
+   "ctx": "data/campaign/rules.csv gaFCProbeEmpty1 [text]"
+  },
+  {
+   "i": 14,
+   "en": "The salvors operate a maintenance drone to make cuts in the hull at a standard access point. After the flash of plasma goes dark, the drone swivels its spotlights to reveal... nothing.\r\n\r\nThe probe hull is empty aside from dangling rough-cut ends of conduits. Someone has completely cleaned out the internal hardware chassis.\r\n\r\n\"Radar sweep for debris spread from intrusion incident shows minimal spread,\" your sensors officer reports. \"Very recent. Must be the casing of the probe those scavengers looted.\"\r\n\r\nThen there's nothing more to do here.",
+   "ctx": "data/campaign/rules.csv gaFCProbeEmpty1Dropped [text]"
+  },
+  {
+   "i": 15,
+   "en": "A salvage crew is dispatched under your operations chief's watchful eye. Using codes provided by Provost Baird, the team opens the probe to install a short-range relay which allows your technicians full reign of the probe's data environment.\r\n\r\nTech reports feed active; the probe's hull is sealed with a few quick bursts of a plasma torch. Your ops chief recalls the salvage crew.",
+   "ctx": "data/campaign/rules.csv gaFCProbe1InvestigationStart [text]"
+  },
+  {
+   "i": 16,
+   "en": "You meet your tech officer in a briefing room. They've already unfolded a portable workstation and connected a holoprojector to present findings.\r\n\r\nThe probe contains a cluster of redundant cores grouped into a small network; a holo-cloud of connected glyphs rotates slowly: navigation and stationholding thrusters; power supply and thermostability; rad sensors and civ-grade field emitters.\r\n\r\nTech finishes the overview, then with a sly smile sets half the icons aside and upscales the remaining, revealing sub-icons identifying particular research project packages. \"Now here's the good stuff,\" they say.\r\n\r\nYellow warning glyphs denote packages that do not follow the Galatia Academy specs you have on-file.",
+   "ctx": "data/campaign/rules.csv gaFCProbe1Investigation1 [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"What's most interesting is... this one,\" Tech says, bringing an unknown package into focus. \"There's a modified hyperdrive core in there, the kind a very small starship might use.\" \r\n\r\nWith a few key presses and a wave, the component icon explodes out into something like a glowing circuit diagram embedded in the shadow of the probe's schematics.\r\n\r\n\"It's like a hyperwave comms relay on combat stims.\" A tone of admiration emerges, \"Beautiful work. No idea how they stabilize pulse strength on such cheap hardware.\"",
+   "ctx": "data/campaign/rules.csv gaFCProbe1Investigation2 [text]"
+  },
+  {
+   "i": 18,
+   "en": "Tech blinks, as if this was hardly a consideration in the light of such interesting engineering. \"Um. It's not precisely a question of 'where' when we're speaking of hyperspace... \"\r\n\r\nYou give the withering look which prompts what your underlings refer to behind your back as an 'executive summary'.\r\n\r\n\"What I mean to say is, we'll need to interface with a couple more probes like this to be able to pinpoint the transmission target within hyperspectral... we need to find two more probes. Then we'll know. $PlayerSirOrMadam.\"\r\n\r\nOne down, two to go.",
+   "ctx": "data/campaign/rules.csv gaFCProbe1Investigation3 [text]"
+  },
+  {
+   "i": 19,
+   "en": "All crews perform their job with exemplary efficiency; your salvage team reports that an interface was successfully installed, and they've handed off control to your tech team who are already investigating the probe remotely. \r\n\r\n\"Hyperwave analysis is not a merely linear process,\" your tech officer explains. \"We will need one more data set to complete the... hmm, well it isn't triangulation, but you can think of it like that if it helps. Um.\"\r\n\r\nThey clear their throat. \"Captain. $PlayerSirOrMadam.\" \r\n\r\nYou dismiss them to return to their work. Two down, one to go.",
+   "ctx": "data/campaign/rules.csv gaFCProbe2InvestigationStart [text]"
+  },
+  {
+   "i": 20,
+   "en": "This is the third time undertaking this operation so your crews know exactly what to do, and do it quickly.\r\n\r\nThe schematics of the third probe float before you in the briefing room.\r\n\r\n\"Our tinkerer has been at work,\" your tech officer explains, highlighting the ghostly specs of a highly modified miniature hyperdrive core, \"Here we see much the same setup as previous examples, but they've made a few improvements.\"",
+   "ctx": "data/campaign/rules.csv gaFCProbe3InvestigationStart [text]"
+  },
+  {
+   "i": 21,
+   "en": "Tangles of inscrutably annotated component icons are highlighted.\r\n\r\n\"You can see here, and here. A collection of parts from a... a variety of sources.\" Tech skims through the holo-model, rapt.\r\n\r\n\"Some of this is officially restricted Hegemony miltech. And see here? This might be a piece of Tri-Tachyon black hardware...\"",
+   "ctx": "data/campaign/rules.csv gaFCProbe3InvestigationStart2 [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"Um,\" the tech notices a certain time-sensitive implication in your voice. \"This is good. Very good. We got a much more accurate read for the meta-array, which, um.\" Frantic tapping at a TriPad. \r\n\r\n\"It looks like... an orbit somewhere in the Isirah system. Whoever is running these things, that's where their receiver is.\"",
+   "ctx": "data/campaign/rules.csv gaFCProbeInvestigaitonWrapUp1 [text]"
+  },
+  {
+   "i": 23,
+   "en": "Your tech officer thinks for a moment.\r\n\r\n\"It wouldn't be as large as a normal comm array. There's very clever miniaturization here - fragile, yes, if stealth is the goal... Whoever built this used scavenged parts. Wild variety of sources. Maybe pirate? But more sophisticated than any pirate work I've seen.\"",
+   "ctx": "data/campaign/rules.csv gaFCProbeInvestigaitonWrapUp2 [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"The receiver would show up as a neutrino source, just like any starship drive or civilian reactor. The hyperwave effects would be - well, it couldn't be placed somewhere populated, that's for sure. So this hyperwave comm relay would then tightbeam to the final receiver, whoever was listening, presumably. If we found the relay, we would know whoever is at the other end of this thing is nearby.\"\r\n\r\nStable orbit, neutrino source, uninhabited. The Isirah system.",
+   "ctx": "data/campaign/rules.csv gaFCProbeInvestigaitonWrapUp3 [text]"
+  },
+  {
+   "i": 25,
+   "en": "Your sensors officer reports that an ejected cargo pod floating in a spray of post-battle debris contains something that matches the mission target specifications.",
+   "ctx": "data/campaign/rules.csv gaFCScavengerDefeated [text]"
+  },
+  {
+   "i": 26,
+   "en": "The scavenger captain flickers into your comm display.\r\n\r\n\"Greetings. Pardon my presumption, but I hope all is well? It's a long way back to the core worlds my friend, and we must look after one another.\"",
+   "ctx": "data/campaign/rules.csv gaFCScavengerGreeting [text]"
+  },
+  {
+   "i": 27,
+   "en": "The scavenger captain is ignoring your comm request.",
+   "ctx": "data/campaign/rules.csv gaFCScavengerGreetingLeaving [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"Ah...\" The scavenger looks aside to avoid your gaze. \"One finds all sorts of things out here and I, I couldn't really say if we did or not. I'd uh, have to have my assessor check the logs.\"\r\n\r\n$HeOrShe shrugs with one shoulder, \"Might take a while.\"",
+   "ctx": "data/campaign/rules.csv gaFCScavengerAsk [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"Very well, captain. We have to do some minor repairs anyway. I'll be sure to forward your concern to my assessor who, I assure you, is doing their utmost to find your, ah, missing property.\"\r\n\r\nThe scavenger switches the feed to a generic holding signal.\r\n\r\nYou order your navigator to maintain position relative to the scavenger fleet, and to keep an eye out for any funny business.",
+   "ctx": "data/campaign/rules.csv gaFCScavengerWait [text]"
+  },
+  {
+   "i": 30,
+   "en": "It doesn't take long.\r\n\r\nYour comms officer interrupts your reverie. \"Captain! Something in the scavenger flagship cargo hold just emitted a short range comms pulse. Seen this before, profile fits a Pather op. Maybe pirates.\"\r\n\r\nA breath later, the comms hold signal switches to the distraught face of the scavenger captain.",
+   "ctx": "data/campaign/rules.csv gaFCScavengerWait2 [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"You didn't tell us it was trapped!\" $heOrShe shouts in panic, \"You should have said something, you should have- no, we need to get out of here. I'm ejecting the damn thing. Tell them I don't have it!\"\r\n\r\nThe comms snap off.\r\n\r\nYour tactical officer reports that the scavenger fleet is powering up engines.",
+   "ctx": "data/campaign/rules.csv gaFCScavengerWait3 [text]"
+  }
+ ]
+}

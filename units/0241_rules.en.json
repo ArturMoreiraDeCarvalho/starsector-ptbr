@@ -1,0 +1,246 @@
+{
+ "chunk": 241,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"It is,\" she nods. \"And I'm glad you can see that, despite the... difficulties.\"",
+   "ctx": "data/campaign/rules.csv ImoinuKatoUmbraSalute1 [text]"
+  },
+  {
+   "i": 2,
+   "en": "She opens her mouth, then pauses, and closes it.\r\n\r\n\"Yes. That's... fair.\"",
+   "ctx": "data/campaign/rules.csv ImoinuKatoUmbraSalute2b [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"The ARC navy is... it's mostly opportunistic pirates. A few have good ideology, but most...\" She sighs. \"It's not easy.\"\r\n\r\n\"The United Front is united more by bickering and infighting than solidarity. The Charterists are eternally fundraising, keeping all the credits for running their tours and parties instead of fighting. The Volturnian Self Defense Covenant puts up a real fight, but they're held back from true revolutionary consciousness by the reactionary elements of Luddic ideology. So all they can do is bleed out into that ocean of theirs...\"",
+   "ctx": "data/campaign/rules.csv ImoinuKatoUmbraSalute2a [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"No...\" She shakes her head.\r\n\r\n\"On Kazeron, the gens are too dominant. The moment I stepped off the shuttle they'd have some doctor declare me insane and lock me up in an estate dome on the dark side of Draugr so I stop 'embarrassing our gens'.\"",
+   "ctx": "data/campaign/rules.csv ImoinuUmbraGoKazeron [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"Yeah, maybe.\" She sounds entirely unenthusiastic.\r\n\r\n\"The Luddics either get upset or preachy if you try to explain proper revolutionary consciousness to them. Don't get me wrong, they've got good people, but...\"\r\n\r\nShe shakes her head. \"I'd go crazy. Or they would.\"\r\n\r\n\"Don't get me wrong though, the ARC has a network on Volturn too, of course. We're not as strong as the VSDC, but we're fighting too! The problem is supplies, funding...\"",
+   "ctx": "data/campaign/rules.csv ImoinuUmbraGoVolturn [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"I see now.\" Her eyes narrow.\r\n\r\n\"Tell me, how much did my grandmother pay you to come admonish me? You can tell her she's wasted her credits. Again.\"",
+   "ctx": "data/campaign/rules.csv ImoinuKantoUmbraDoomed1 [text]"
+  },
+  {
+   "i": 7,
+   "en": "Her eyes narrow.\r\n\r\n\"'A doomed cause'? And you claim to be a deep-cover agent who is part of the ARC.\"\r\n\r\n\"I think you're a liar,\" she says.\r\n\r\n\"A hired killer for execs and admirals, a profiteer selling drugs to the masses with one hand and harvesting black market organs with the other.\"",
+   "ctx": "data/campaign/rules.csv ImoinuKantoUmbraDoomed1ARClie [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"Die in vacuum.\" She slams the cut-off.",
+   "ctx": "data/campaign/rules.csv ImoinuKantoUmbraDoomed1ARClie2 [text]"
+  },
+  {
+   "i": 9,
+   "en": "Her eyes narrow.\r\n\r\n\"A distinctly backhanded compliment. Tell me, are you another freelancer hired by my grandmother to come admonish me? Tell her she's wasted her credits.\"",
+   "ctx": "data/campaign/rules.csv ImoinuKantoUmbraNoble1 [text]"
+  },
+  {
+   "i": 10,
+   "en": "She considers your reply. \"Huh.\"\r\n\r\n\"For once, I don't think you're lying.\" Imoinu looks away for a moment. Her resolve hardens again. \"Whatever.\"\r\n\r\n\"And what are you really? A hired killer for execs and admirals? Profiteer from the organs harvested from the desperate masses? Go suck vacuum.\"\r\n\r\nShe slams the cut-off.",
+   "ctx": "data/campaign/rules.csv ImoinuKantoUmbraMother1liar [text]"
+  },
+  {
+   "i": 11,
+   "en": "She considers your reply. \"Huh.\"\r\n\r\n\"So you're not working for her.\" Imoinu looks away for a moment.\r\n\r\n\"Yeah, she wants me back to be a good gens-heir. Says I'm shaming the family. And if I am? Good. They deserve it for what's been done in the name of Gens Kato.\"",
+   "ctx": "data/campaign/rules.csv ImoinuKantoUmbraMother1 [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"Whatever.\" She scowls. \"At least I chose to make some good from my position!\"\r\n\r\n\"What have you ever done? Acted the hired killer for execs and admirals? Profited from the organs harvested from the desperate masses?\"\r\n\r\n\"I don't need your lectures.\" She slams the cut-off.",
+   "ctx": "data/campaign/rules.csv ImoinuKantoUmbraRich1 [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"I haven't heard the name.\"\r\n\r\nShe leans forward, \"Is he an organizer? An arms dealer? A mercenary, a terrorist?\"",
+   "ctx": "data/campaign/rules.csv imoinuUmbraGoCavin [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"Um.\"\r\n\r\nImoinu gives you a look of re-assessment, the sort that seems to ask if the subject has all of their reactor plating installed correctly, so to speak.\r\n\r\n\"Thanks,\" she manages. \"I uh, I'll... look him up. If I need an artist.\"",
+   "ctx": "data/campaign/rules.csv imoinuUmbraGoCavin2a [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"Um.\" Imoinu gives you a look of re-assessment, the sort that asks, 'Is this person crazy?'\r\n\r\n\"Uh. Thanks. I'll... look him up if I need somewhere to stay on Westernesse.\"",
+   "ctx": "data/campaign/rules.csv imoinuUmbraGoCavin2b [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"Is that the same Gargoyle who did the hack of the Prime Demarchon's All-League Holo Address in '02?\"\r\n\r\nShe looks at you skeptically.\r\n\r\n\"There are a lot of so-called hackers out there claiming to be 'the' Gargoyle.\"",
+   "ctx": "data/campaign/rules.csv imoinuUmbraGoGargoyle [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"Huh. Let's call it a 'maybe', then. Good enough for a try- if what you say is true.\" \r\n\r\nShe reaches over and taps at an interface.\r\n\r\n\"If you get this cryptokey to your Gargoyle, we can see if they're the real deal. And if they're willing to help.\"",
+   "ctx": "data/campaign/rules.csv imoinuUmbraGoGargoyle2 [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"We'll see.\" She nods, then pauses.\r\n\r\n\"Thank you,\" she says awkwardly.",
+   "ctx": "data/campaign/rules.csv imoinuUmbraGoGargoyle3a [text]"
+  },
+  {
+   "i": 19,
+   "en": "She gives you a funny look.",
+   "ctx": "data/campaign/rules.csv imoinuUmbraGoGargoyle3b [text]"
+  },
+  {
+   "i": 20,
+   "en": "She gives you a funny look.\r\n\r\n\"Thanks?\"",
+   "ctx": "data/campaign/rules.csv imoinuUmbraGoGargoyle3c [text]"
+  },
+  {
+   "i": 21,
+   "en": "A long pause, then she speaks.\r\n\r\n\"I'll keep that in mind.\"",
+   "ctx": "data/campaign/rules.csv imoinuUmbraGoOfferPassage [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"An old man and a kid?\" She looks confused, mostly at your implied expectation that she would know what you're talking about.\r\n\r\n\"I haven't heard anything about that. I couldn't say if they were important, or...\"",
+   "ctx": "data/campaign/rules.csv imoinuUmbraGoVolturnBoth [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"Look. I'm sure the local ARC cells will take them in if they have a contact.\"",
+   "ctx": "data/campaign/rules.csv imoinuUmbraGoVolturnBoth2 [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"A kid and a robot?\" She makes a face. \"I don't see how that's helpful.\"",
+   "ctx": "data/campaign/rules.csv imoinuUmbraGoVolturnKid [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"I mean.\" Realizing her dismissiveness, she attempts a more conciliatory tone. \"I'm sure if this kid is dedicated to the cause, they'll figure out how to join the ARC.\"",
+   "ctx": "data/campaign/rules.csv imoinuUmbraGoVolturnKid2 [text]"
+  },
+  {
+   "i": 26,
+   "en": "She doesn't look terribly impressed.",
+   "ctx": "data/campaign/rules.csv imoinuUmbraGoBack [text]"
+  },
+  {
+   "i": 27,
+   "en": "She nods.",
+   "ctx": "data/campaign/rules.csv imoinuUmbraGoBackB [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"Whatever.\" She scowls. \"I didn't even ask for your help!\"\r\n\r\n\"And what have you ever done? Acted the hired killer for execs and admirals? Profited from the organs harvested from the desperate masses?\"\r\n\r\n\"I don't need your lecture.\" She slams the cut-off.",
+   "ctx": "data/campaign/rules.csv imoinuUmbraGoStay [text]"
+  },
+  {
+   "i": 29,
+   "en": "Imoinu holds up a hand.\r\n\r\n\"I understand that you're trying to help, but building a revolutionary movement is more than just collecting completely random people.\"\r\n\r\n\"Well,\" she reconsiders, \"It's a part of it, I guess. But I don't need you for that. Well-\"\r\n\r\nShe lets out an exasperated breath.",
+   "ctx": "data/campaign/rules.csv ImoinuUmbraNotHelpful  [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"If you want to bring volunteers to the ARC and the United Front, that is helpful and I appreciate your contribution to the struggle. But you don't need to tell me about every stray you picked up on your way to Askonia.\"\r\n\r\n\"If you have credits, supplies, heavy weapons, or recruits... yes, we'll accept them gladly and with thanks. That's how you can help.\"",
+   "ctx": "data/campaign/rules.csv ImoinuUmbraNotHelpful2 [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"I thank you for your offer, captain, but I'm still distributing your previous support. It takes about a month to get everything where it needs to go.\"\r\n\r\nShe pauses, hesitant. Then explains, the frustration clear in her expression.\r\n\r\n\"The problem is if we stockpile too much materiel, credits, supplies... they start to 'get lost'. We work with a large number of individuals who are not... as ideologically committed to the ARC, to the uprising, as we should hope.\"",
+   "ctx": "data/campaign/rules.csv imoinuUmbraOfferHelpTooSoon [text]"
+  },
+  {
+   "i": 32,
+   "en": "She perks up. \"Yes. Absolutely.\"\r\nOR\r\n\"It would be much appreciated,\" she says.",
+   "ctx": "data/campaign/rules.csv imoinuUmbraOfferHelp [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"Thank you $playerName,\" she says. \"These credits will go toward ARC ships and munitions.\"",
+   "ctx": "data/campaign/rules.csv imoinuUmbraOfferHelpCredits [text]"
+  },
+  {
+   "i": 34,
+   "en": "\"Thank you, $playerName,\" she says. \"I'll ensure these supplies get to ships carrying out ARC missions.\"",
+   "ctx": "data/campaign/rules.csv imoinuUmbraOfferHelpSupplies [text]"
+  },
+  {
+   "i": 35,
+   "en": "\"Thank you, $playerName. We've been desperate for heavy weapons and these'll allow us to hit back.\" A vicious smile grows, \"And hard.\" ",
+   "ctx": "data/campaign/rules.csv imoinuUmbraOfferHelpWeapons [text]"
+  },
+  {
+   "i": 36,
+   "en": "\"Sure,\" she says.",
+   "ctx": "data/campaign/rules.csv imoinuUmbraOfferHelpBack [text]"
+  },
+  {
+   "i": 37,
+   "en": "Cydonia nods stiff-necked, the tiniest insinuation of a bow, then addresses you.\r\n\r\n\"See now how Captain $playerName crawls before her worshipfulness!\" He turns slowly, projecting his piercing voice to all corners. \"Safe under the protection of the merciless Warlord Kanta; safe like a little fetus in a birthing tank. See how those prosper who appease her desires!\"\r\n\r\nHe spins back toward you. \"Besides supplicating yourself before our queen of blood,\" he hisses, \"Why have you come?\"",
+   "ctx": "data/campaign/rules.csv kpAudienceHasProtection [text]"
+  },
+  {
+   "i": 38,
+   "en": "Cydonia shakes his head slowly, arms crossed, looking down at you with showy disapproval.\r\n\r\nHe gives a shrill shout, \"See this wretched worm before you!\" Turning slowly to address all the court, he berates you. \"This blind simpleton, this ungrateful fool. What madness compelled $playerName to throw off Kanta's gift of protection, given so dearly?\"\r\n\r\nThe crowd boos and jeers, calling for your blood to spill on the agrav plates, or to boil away in the vacuum as merciless as their queen. Cydonia looks pleased with himself. Kanta sits, impassive, respirators hissing like serpents coiled to strike.",
+   "ctx": "data/campaign/rules.csv kpAudienceHadProtection [text]"
+  },
+  {
+   "i": 39,
+   "en": "Cydonia nods stiff-necked, the tiniest hint of a bow, then addresses you before the entire court.\r\n\r\n\"You've come crawling to her worshipfulness,\" he turns, projecting his piercing voice to all corners. \"The mighty Warlord Kanta; the predator of the Persean Sector; the font of violence from which we quench our thirst for glory,\" then spins back toward you.\r\n\r\n\"Why are YOU here? Could you not protect your own outposts? Perhaps,\" he drops to almost a whisper, \"it is something else.\"",
+   "ctx": "data/campaign/rules.csv kpAudience1 [text]"
+  },
+  {
+   "i": 40,
+   "en": "\"Captain $playerName! It is clear to me that you believe that all you do, from one end of the Sector to the other, is done in Kanta's name already!\"\r\n\r\n\"Did you not claim to be working for our dear warlord?\" The small man strains and sweats as he accuses you, \"Did not her fear-inspiring name cross your lips... without her permission? Do you presume, captain, to know the will of our mighty-\"\r\n\r\nWith the sound of grating metal, Cydonia's tirade is cut off. The Warlord Kanta stands up on armored mechanical legs. There's a thrashing, banging sound.",
+   "ctx": "data/campaign/rules.csv kpAudience1Bluffs [text]"
+  },
+  {
+   "i": 41,
+   "en": "Laughter. That's what it is. Kanta's laughter like autocannon shell-cases dropping from an ejection port. Metal on metal, industrialized murder.\r\n\r\n\"Your presumption amuses us,\" Kanta's amplified voice booms out over the court, drowning out all else. \"So eager to serve us, are you? Then we will make use of you.\"\r\n\r\nCydonia's mouth is a flat, twitching line.",
+   "ctx": "data/campaign/rules.csv kpAudience1Bluffs2 [text]"
+  },
+  {
+   "i": 42,
+   "en": "\"You dare return here $playerName!\" shouts the strange doctor. \"You stole Zal from us! Her clever little tinkerer, her asset, her prize.\" \r\n\r\nHe seethes, almost hyperventilating, \"H-how dare you!\"",
+   "ctx": "data/campaign/rules.csv kpAudience1StoleZal [text]"
+  },
+  {
+   "i": 43,
+   "en": "\"You dare return here $playerName!\" shouts the strange doctor, \"After attacking the citadel of our warlord! Her home, her family! You stole Zal from us! Her clever little tinkerer, her asset, her prize.\" \r\n\r\nHe seethes, almost hyperventilating, \"H-how dare you!\"",
+   "ctx": "data/campaign/rules.csv kpAudience1StoleZalRaid [text]"
+  },
+  {
+   "i": 44,
+   "en": "The court murmurs, heavy boots shuffle; you hear the distinct click-clank of a heavy kinetic round being chambered; it is inadvisable weapons handling practice within a sealed environment at the best of times. There is hatred among the pirates, you see, and Cydonia is stirring it against you.",
+   "ctx": "data/campaign/rules.csv kpAudience1StoleZal2 [text]"
+  },
+  {
+   "i": 45,
+   "en": "Kanta's gauntlet slams against the side of her throne, crashing through the murmur of the court like thunder. Again she slams the throne, then once more, leaving only a painful echo.\r\n\r\nWarlord Kanta speaks, like the voice of a heavy combat walker if it could speak, harmonics buzzing through your bones, \"What tribute have you brought us? What gift will sate us?\"\r\n\r\nCydonia leans in close, acidic breath wafting over you, \"The warlord's protection is not easily gained. Do not offend her with unworthy dross,\" he hisses.",
+   "ctx": "data/campaign/rules.csv kpAudience2 [text]"
+  },
+  {
+   "i": 46,
+   "en": "\"Paltry, plebeian, pathetic,\" Cydonia hisses at you, \"A beggar's sum, unworthy of the mighty Kanta!\" he shouts, spittle flying.\r\n\r\nThe court shouts and jeers at your pitiable offer.",
+   "ctx": "data/campaign/rules.csv kp100k_Sel [text]"
+  },
+  {
+   "i": 47,
+   "en": "\"Hm,\" the doctor ponders, then looks to Kanta, whose obsidian gaze acknowledges him.\r\n\r\n\"One million credits,\" says Cydonia with an unusual affect, then adds \"Dull, very dull. But a queenly sum nonetheless.\"",
+   "ctx": "data/campaign/rules.csv kp1milSel [text]"
+  },
+  {
+   "i": 48,
+   "en": "\"A thousand units of Andrada's best, how...\" the doctor pauses, quickly glancing to the black eyes of Kanta for confirmation. \r\n\r\n\"...delightful,\" Cydonia concludes as if he was going to say it all along. \"It will bring pleasure to our warlord-queen to vex Andrada's customs ministry with the mystery of how so many of his cold-blooded spawn slithered from his grasp.\"\r\n\r\nFor her part, Kanta nods, apparently satisfied, though it is impossible to know through her mask of a face.",
+   "ctx": "data/campaign/rules.csv kpLobsterSel [text]"
+  }
+ ]
+}

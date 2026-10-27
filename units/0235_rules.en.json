@@ -1,0 +1,151 @@
+{
+ "chunk": 235,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"No!\" he exclaims, \"And the Hegemony would have her?\"\r\n\r\n\"This must be Rao's work.\" He starts rubbing his hands together furiously, \"It fits, it fits. He possesses a low cunning honed during his criminal upbringing.\"\r\n\r\nHe looks up at you, his hands stopping their frenetic activity as if he just realized you could see it. \"I admire Daud, of course. To accomplish so much, arisen from the parasite class to the top of command? It is truly incredible.\"\r\n\r\nHis hands start up again, his gaze wandering. \"There is... much to do, much to think about...\"",
+   "ctx": "data/campaign/rules.csv sdtuPostHyderLieWantsToDefect [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"I must admit that you've underwhelmed me, captain.\" Macario leans back, hands held together, eyes on you. \"Perhaps, stars forgive my manners, but perhaps you have not been entirely forthright?\"\r\n\r\n\"I would so hate for the potential of our little collaboration to, how to put it... there's a Luddic expression, 'die on the vine' I believe? Now there's an image.\" He smiles charmlessly.\r\n\r\n\"Speaking of, let me provide you another opportunity to demonstrate your worth.\" He pauses a moment, then adds in a not-quite-threatening tone, \"I'm sure by the end you'll agree that I can be very forgiving.\"",
+   "ctx": "data/campaign/rules.csv sdtuPostHyderUsefulnessCheckA [text]"
+  },
+  {
+   "i": 3,
+   "en": "He pauses, and seems to notice his own hands grasping one another, like they're trying to strangle each other. He lets them fall to the desk in a deliberate motion. \r\n\r\n\"That was of mild interest. Confirming, I suppose, other sources,\" he leans back. \"Ah, the rote work of intelligence gathering. It can't all end with a single, dramatic gunshot, eh?\"\r\n\r\n\"Lucky for you, however, that's exactly what I've lined up with you in mind.\" He catches himself, amused, \"No, no, not for you. One of Caden's agents on Umbra. I shall explain.\"",
+   "ctx": "data/campaign/rules.csv sdtuPostHyderUsefulnessCheckB [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"To tell the truth,\" Macario pauses to suppress a strange sound, like a hiccup, \"you've been very illuminating.\" \r\n\r\nHe leans back, hands grasping one another. \"You could make a reasonable agent, were you more discreet.\" He smiles hollowly. \"Far more discreet.\"\r\n\r\n\"Happily, I have just the thing, just the thing. The level of discretion is up to you; you'll find that I supervise with a light hand, contrary to the lies told about me. If you need to raze a few habs from orbit to extract an agent, why, then I accept your professional judgment. But let me explain...\"",
+   "ctx": "data/campaign/rules.csv sdtuPostHyderUsefulnessCheckC [text]"
+  },
+  {
+   "i": 5,
+   "en": "Macario taps an unseen datapad.\r\n\r\n\"The Lion's Guard has its own intelligence section, of course. Wild about strong-jawed young men enforcing correct ideology and demonstrations of loyalty,\" he adopts a patiently patronizing tone. \"Light on tradecraft.\"\r\n\r\n\"Sadly, one of Caden's agents on Umbra has been working for the insurrectionists from the beginning,\" he says. \"Take the agent by force. Once Caden calms down, he will... approve of you cleaning up this embarrassment, you'll see. Just let him think he's in charge, that's all it takes.\"",
+   "ctx": "data/campaign/rules.csv sdtuPostHyderMission2 [text]"
+  },
+  {
+   "i": 6,
+   "en": "Macario smiles mirthlessly. \"You'll get along splendidly provided you can pretend your greatest aspiration is to lick Andrada's boots.\"",
+   "ctx": "data/campaign/rules.csv sdtuPostHyderMission2a [text]"
+  },
+  {
+   "i": 7,
+   "en": "Macario smiles mirthlessly. \"You're not without hope, captain.\"\r\n\r\n\"Now go nab that agent for the pompous clown. You'll get along splendidly with Caden provided you pretend that licking boots is your greatest aspiration.\"",
+   "ctx": "data/campaign/rules.csv sdtuPostHyderMission2b [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"Indeed!\" Macario says, wide-eyed. \"Imagine wasting years on such a hopeless cause! Then everything is undone because you were compromised by,\" he smiles with actual pleasure, dropping his voice into mock disappointment, \"a friend.\"\r\n\r\n\"Oh, I shouldn't pay such attention to such small things. It is one of my few character flaws. But I do so enjoy the drama which plays between the lines of - and I'll be the first to admit - terribly dry intelligence reports. I do miss the old days, sometimes,\" he sighs.\r\n\r\n\"There was so much more time to conduct business... personally.\"",
+   "ctx": "data/campaign/rules.csv sdtuPostHyderMission2c [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"Off you go now.\" He stretches, straightens his uniform, then hits the comms cut-off without another word.",
+   "ctx": "data/campaign/rules.csv sdtuMacarioPostHyderEnd [text]"
+  },
+  {
+   "i": 10,
+   "en": "After a short wait, Macario's image appears.\r\n\r\n\"Captain, captain, captain,\" he smirks. \"I eagerly await the results of your discussion with my good friend the Guard High Deputy Executor.\"\r\n\r\n\"Until then?\" He says this like it's a question, but it isn't. He's already killed the link.",
+   "ctx": "data/campaign/rules.csv sdtuMacarioPostHyderRetalk [text]"
+  },
+  {
+   "i": 11,
+   "en": "Macario's file is highly detailed. It's clear that Sindrian Diktat intelligence has had sources embedded in both the Umbran ARC/Anti-affiliated insurrectionists as well as the Lion's Guard for quite some time.\r\n\r\nThe double-agent's key locations are clearly described, though their schedule is erratic. A clean capture will involve multiple simultaneous strikes at insurrectionist bunkers, at which point the op will definitely go hot. \r\n\r\nSometimes a job simply requires making a bit of a mess.",
+   "ctx": "data/campaign/rules.csv sdtuUmbraRaidStart [text]"
+  },
+  {
+   "i": 12,
+   "en": "You oversee the raid from your bridge; your cadre of merc officers who have collectively seen every side of every major Persean conflict of the last 50 cycles run tactical command.\r\n\r\nEach squad is set up like a surgery, cool and precise. Then, all at once, hell is unleashed: breaching charges churn storms of dust and debris lit into strobing clouds of fire by weapon discharge. Sub-AIs build ghostly visualizations with milliradar, updating threat-tags in real-time for each marine's combat display.\r\n\r\nThe target is flagged off bone structure scanned by combat sensors and matched to Macario's file. The agent is bagged and restrained for extraction with only minor injuries.",
+   "ctx": "data/campaign/rules.csv sdtuUmbraRaidFinishedA [text]"
+  },
+  {
+   "i": 13,
+   "en": "Your marine squads withdraw, leaving broken bulkheads, blaring alarms, and sporadic return-fire. The Umbran militia forces are still mobilizing and the port only now going into lockdown as the last marine shuttle lifts, jets kicking up volatile snow and dust to mix with leaking colonial atmo.\r\n\r\nThe double-agent is in the brig, attended to by medics. Broken bones, and lesser injuries. Par for the course.",
+   "ctx": "data/campaign/rules.csv sdtuUmbraRaidFinishedB [text]"
+  },
+  {
+   "i": 14,
+   "en": "A pause as she takes in your image. \"You again? Get lost.\"\r\n\r\nShe slams the cut-off.",
+   "ctx": "data/campaign/rules.csv sdtuUmbraImoinu3b [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"An agent?\" $HeOrShe looks suspicious, \"If you know anything about a Sindie spy on Umbra, tell me now and I'll have 'em before a revolutionary tribunal before the day is out.\"",
+   "ctx": "data/campaign/rules.csv sdtuUmbraAskAgent [text]"
+  },
+  {
+   "i": 16,
+   "en": "$HeOrShe is taken aback. \"An agent? Here? I... I don't know what you're talking about. I mostly handle logistics.\"",
+   "ctx": "data/campaign/rules.csv sdtuUmbraAskAgentQM [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"An agent. Here?\" A look of concern grows on her face.\r\n\r\n\"I can't say I'm surprised. If you have definitive intel about a Diktat spy on Umbra, then tell me. We'll assemble a revolutionary tribunal to sort this out.\"",
+   "ctx": "data/campaign/rules.csv sdtuUmbraAskAgentQM2 [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"Wait, what? You just said...\"\r\n\r\n$HeOrShe gives you a funny look.",
+   "ctx": "data/campaign/rules.csv sdtuUmbraAskAgentQMback [text]"
+  },
+  {
+   "i": 19,
+   "en": "You explain that to get into Dolos Macario's trust, such as it is, you need to 'capture' an agent who Horacio Caden thinks is working for the Lion's Guard but has actually been working for the resistance. \r\n\r\nAs an asset, they're already useless because Macario knows about their betrayal of the Sindrian Diktat. Their last act as an operative can be to help you 'prove' your dedication to the Spider's schemes.\r\n\r\nIt will be risky, but it should be possible for this agent to slip out of a death sentence by taking advantage of inter-service rivalry in the Sindrian Diktat.\r\n\r\nImoinu is silent, with a look of grave concern, as you explain.",
+   "ctx": "data/campaign/rules.csv sdtuUmbraAskAgentQM3 [text]"
+  },
+  {
+   "i": 20,
+   "en": "She looks down, and sighs. Taking a moment to process.\r\n\r\nThen looks back up. Her expression is resolute.\r\n\r\n\"You're right. We can make this work.\"",
+   "ctx": "data/campaign/rules.csv sdtuUmbraAskAgentQM4 [text]"
+  },
+  {
+   "i": 21,
+   "en": "Arrangements are made, the agent - the strong-jawed image of the perfect Lion's Guard recruit - is briefed, then quietly transferred to your $shipOrFleet in a volatiles tank modified for smuggling human passengers.\r\n\r\n\"I hope you know what you're doing,\" Imoinu says.",
+   "ctx": "data/campaign/rules.csv sdtuUmbraAskAgentQM5 [text]"
+  },
+  {
+   "i": 22,
+   "en": "$HeOrShe is taken aback at first, then does a double take at a secondary display. \r\n\r\n\"Wait, aren't you working for the Sindies? You've got some real jets coming and talking to me direct and admitting it.\" $HeOrShe turns aside, \"Gonna have a real talk with traffic control... \"\r\n\r\nThen $heOrShe furiously taps something into a comm-interface. Self-satisfied, $heOrShe says \"I've put out an alert. Might want to go running back to hide behind daddy Andrada.\"",
+   "ctx": "data/campaign/rules.csv sdtuUmbraAskAgentSD [text]"
+  },
+  {
+   "i": 23,
+   "en": "You explain that an agent who Horacio Caden thinks is working for the Lion's Guard, and who the resistance thinks is working for them, is in fact working for a separate branch of Sindrian Diktat intelligence entirely - under Dolos Macario's command. \r\n\r\nA triple agent, in other words. How else would you have such detailed inside information 'stolen' directly from Macario's INTSEC database?\r\n\r\nIt's a complex story, but you begin to see your suggested truth sink in to $personName.\r\n\r\n\"You mean to tell me they've been working against the uprising the whole time,\" she says, her outrage growing. \"How do you have this information?\"",
+   "ctx": "data/campaign/rules.csv sdtuUmbraTrickVIPimoinu [text]"
+  },
+  {
+   "i": 24,
+   "en": "You explain that an agent who Horacio Caden thinks is working for the Lion's Guard, and who the resistance thinks is working for them, is in fact working for a separate branch of Sindrian Diktat intelligence entirely - under Dolos Macario's command. \r\n\r\nA triple agent, in other words. How else would you have such detailed inside information 'stolen' directly from Macario's INTSEC database?\r\n\r\nIt's a complex story, but you begin to see your suggested truth sink in to $personName.\r\n\r\n\"You mean to tell me they've been working against the uprising the whole time,\" she says, her outrage growing. \"You've helped us before, captain... and now this.\"",
+   "ctx": "data/campaign/rules.csv sdtuUmbraTrickVIPimoinuB [text]"
+  },
+  {
+   "i": 25,
+   "en": "She doesn't look pleased with the idea.\r\n\r\n\"We usually deal with traitors internally,\" she says. \"And quickly.\"\r\n\r\n\"But considering your past contributions to the uprising, I think the revolutionary tribunal could be persuaded of the efficacy of giving you custody of the traitor.\"\r\n\r\nHer chin raises, \"For the United Front.\"",
+   "ctx": "data/campaign/rules.csv sdtuUmbraTrickVIPimoinuB2 [text]"
+  },
+  {
+   "i": 26,
+   "en": "You explain that an agent who Horacio Caden thinks is working for the Lion's Guard, and who the resistance thinks is working for them, is in fact working for a separate branch of Sindrian Diktat intelligence entirely - under Dolos Macario's command. \r\n\r\nA triple agent, in other words. How else would you have such detailed inside information 'stolen' directly from Macario's INTSEC database?\r\n\r\nIt's a complex story. And $personName is not buying it.",
+   "ctx": "data/campaign/rules.csv sdtuUmbraTrickVIPwarned [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"You're a liar.\" $HeOrShe looks at you suspiciously.\r\n\r\n\"Imoinu warned me about you. And your lies. I don't know who you're working for, or who you think you're working for, but I'm thinking this conversation is done.\"\r\n\r\n$HeOrShe hits the cut-off.",
+   "ctx": "data/campaign/rules.csv sdtuUmbraTrickVIPwarned2 [text]"
+  },
+  {
+   "i": 28,
+   "en": "You explain that an agent who Horacio Caden thinks is working for the Lion's Guard, and who the resistance thinks is working for them, is in fact working for a separate branch of Sindrian Diktat intelligence entirely - under Dolos Macario's command. \r\n\r\nA triple agent, in other words. How else would you have such detailed inside information 'stolen' directly from Macario's INTSEC database?\r\n\r\nIt's a complex story, but you begin to see your suggested truth sink in to $personName.\r\n\r\n\"So... they've been working for the Sindies that whole time,\" $heOrShe says, shocked. \"But how did you get this information? Who do you work for?\"",
+   "ctx": "data/campaign/rules.csv sdtuUmbraTrickVIP [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"I will,\" $heOrShe says, then mutes the feed for a moment, turning to a secondary display.\r\n\r\nYou watch one side of a short conversation play out, and $heOrShe turns back to you, $hisOrHer expression much friendlier.\r\n\r\n\"I'm sorry for that, captain. Imoinu swears you're a friend of the United Front of the Askonian Resistance who has made valuable material contributions to the cause.\" $HeOrShe nods respectfully, \"Then let me say that I'm proud to call you a comrade.\"",
+   "ctx": "data/campaign/rules.csv sdtuUmbraTrickVIPOptionZsel [text]"
+  }
+ ]
+}

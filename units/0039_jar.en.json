@@ -1,0 +1,936 @@
+{
+ "chunk": 39,
+ "cat": "jar",
+ "items": [
+  {
+   "i": 1,
+   "en": "Suspicion level: very high",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/submarkets/BlackMarketPlugin.class"
+  },
+  {
+   "i": 2,
+   "en": "A portion of the resources produced by the colony will be made available here. These resources can be extracted from the colony's economy for a cost equal to %s of their base value. This cost will be deducted at the end of the month.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/submarkets/LocalResourcesSubmarketPlugin.class"
+  },
+  {
+   "i": 3,
+   "en": "Can only store resources",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/submarkets/LocalResourcesSubmarketPlugin.class"
+  },
+  {
+   "i": 4,
+   "en": "End of month",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/submarkets/LocalResourcesSubmarketPlugin.class"
+  },
+  {
+   "i": 5,
+   "en": "Local resource stockpiles (",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/submarkets/LocalResourcesSubmarketPlugin.class"
+  },
+  {
+   "i": 6,
+   "en": "No stockpiling.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/submarkets/LocalResourcesSubmarketPlugin.class"
+  },
+  {
+   "i": 7,
+   "en": "Now",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/submarkets/LocalResourcesSubmarketPlugin.class"
+  },
+  {
+   "i": 8,
+   "en": "Stockpiled per month",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/submarkets/LocalResourcesSubmarketPlugin.class"
+  },
+  {
+   "i": 9,
+   "en": "Stockpiles are limited to %s the monthly rate.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/submarkets/LocalResourcesSubmarketPlugin.class"
+  },
+  {
+   "i": 10,
+   "en": "These resources can also be used to counter temporary shortages, for a cost equal to %s of their base value. If additional resources are placed here, they will be used as well, at no cost.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/submarkets/LocalResourcesSubmarketPlugin.class"
+  },
+  {
+   "i": 11,
+   "en": " - commission",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/submarkets/MilitarySubmarketPlugin.class"
+  },
+  {
+   "i": 12,
+   "en": "Illegal to trade in ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/submarkets/MilitarySubmarketPlugin.class"
+  },
+  {
+   "i": 13,
+   "en": "Military",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/submarkets/MilitarySubmarketPlugin.class"
+  },
+  {
+   "i": 14,
+   "en": "Req: ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/submarkets/MilitarySubmarketPlugin.class"
+  },
+  {
+   "i": 15,
+   "en": "Requires: proper docking authorization",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/submarkets/MilitarySubmarketPlugin.class"
+  },
+  {
+   "i": 16,
+   "en": "Requires: proper docking authorization (transponder on)",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/submarkets/OpenMarketPlugin.class"
+  },
+  {
+   "i": 17,
+   "en": " credits, which you can't afford.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/submarkets/StoragePlugin.class"
+  },
+  {
+   "i": 18,
+   "en": " credits.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/submarkets/StoragePlugin.class"
+  },
+  {
+   "i": 19,
+   "en": "Cargo in storage",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/submarkets/StoragePlugin.class"
+  },
+  {
+   "i": 20,
+   "en": "Gaining access to storage at this colony requires a one-time fee of ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/submarkets/StoragePlugin.class"
+  },
+  {
+   "i": 21,
+   "en": "Illegal to put into storage here",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/submarkets/StoragePlugin.class"
+  },
+  {
+   "i": 22,
+   "en": "Monthly fees and expenses (%s of base value of stored items):",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/submarkets/StoragePlugin.class"
+  },
+  {
+   "i": 23,
+   "en": "Monthly fees and expenses are equal to %s of base value of the stored items.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/submarkets/StoragePlugin.class"
+  },
+  {
+   "i": 24,
+   "en": "Pay",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/submarkets/StoragePlugin.class"
+  },
+  {
+   "i": 25,
+   "en": "Requires a one-time access fee of %s, and a monthly fee equal to %s of the base value of the items in storage.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/submarkets/StoragePlugin.class"
+  },
+  {
+   "i": 26,
+   "en": "Ships in storage",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/submarkets/StoragePlugin.class"
+  },
+  {
+   "i": 27,
+   "en": "*Press and hold %s to stop; combine with holding the left mouse button down to move slowly. A slow-moving fleet moves at a burn level of half that of its slowest ship.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/AsteroidBeltTerrainPlugin.class"
+  },
+  {
+   "i": 28,
+   "en": "Chance of asteroid impacts that briefly knock the fleet off course and may occasionally impact ships directly, dealing moderate damage.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/AsteroidBeltTerrainPlugin.class"
+  },
+  {
+   "i": 29,
+   "en": "Hiding inside ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/AsteroidBeltTerrainPlugin.class"
+  },
+  {
+   "i": 30,
+   "en": "Numerous asteroids present on the battlefield. Large enough to be an in-combat navigational hazard.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/AsteroidBeltTerrainPlugin.class"
+  },
+  {
+   "i": 31,
+   "en": "Reduces the range at which stationary or slow-moving* fleets inside it can be detected by %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/AsteroidBeltTerrainPlugin.class"
+  },
+  {
+   "i": 32,
+   "en": "Smaller fleets are usually able to avoid the heavier impacts, and slow-moving fleets do not risk impacts at all.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/AsteroidBeltTerrainPlugin.class"
+  },
+  {
+   "i": 33,
+   "en": "Travel",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/AsteroidBeltTerrainPlugin.class"
+  },
+  {
+   "i": 34,
+   "en": "slow-moving",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/AsteroidBeltTerrainPlugin.class"
+  },
+  {
+   "i": 35,
+   "en": "Asteroid Field",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/AsteroidFieldTerrainPlugin.class"
+  },
+  {
+   "i": 36,
+   "en": " suffers damage from an asteroid impact",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/AsteroidImpact.class"
+  },
+  {
+   "i": 37,
+   "en": "Asteroid impact",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/AsteroidImpact.class"
+  },
+  {
+   "i": 38,
+   "en": "Asteroid impact on drive bubble",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/AsteroidImpact.class"
+  },
+  {
+   "i": 39,
+   "en": "*Press and hold %s to stop; combine with holding the left mouse button down to move slowly.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/DebrisFieldTerrainPlugin.class"
+  },
+  {
+   "i": 40,
+   "en": "Debris Field",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/DebrisFieldTerrainPlugin.class"
+  },
+  {
+   "i": 41,
+   "en": "Hiding inside debris field",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/DebrisFieldTerrainPlugin.class"
+  },
+  {
+   "i": 42,
+   "en": "Scavenging through the debris for anything useful is possible, but can be dangerous for the crew and equipment involved.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/DebrisFieldTerrainPlugin.class"
+  },
+  {
+   "i": 43,
+   "en": "This particular field appears stable and is unlikely to drift apart any time soon.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/DebrisFieldTerrainPlugin.class"
+  },
+  {
+   "i": 44,
+   "en": "This particular field is unstable, but should not drift apart for ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/DebrisFieldTerrainPlugin.class"
+  },
+  {
+   "i": 45,
+   "en": "Event Horizon",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/EventHorizonPlugin.class"
+  },
+  {
+   "i": 46,
+   "en": "Reduces the combat readiness of all ships near the event horizon at a steady pace.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/EventHorizonPlugin.class"
+  },
+  {
+   "i": 47,
+   "en": "Reduces the peak performance time of ships and increases the rate of combat readiness degradation in protracted engagements.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/EventHorizonPlugin.class"
+  },
+  {
+   "i": 48,
+   "en": "The drive field is also disrupted, making getting away from the event horizon more difficult.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/EventHorizonPlugin.class"
+  },
+  {
+   "i": 49,
+   "en": " damage from the storm",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/HyperspaceTerrainPlugin.class"
+  },
+  {
+   "i": 50,
+   "en": "\"Slow-moving\" fleets do not attract storm strikes.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/HyperspaceTerrainPlugin.class"
+  },
+  {
+   "i": 51,
+   "en": "*1 light-year = 2000 units = 1 map grid cell",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/HyperspaceTerrainPlugin.class"
+  },
+  {
+   "i": 52,
+   "en": "Being caught in a storm causes storm strikes to damage ships and reduce their combat readiness. Larger fleets attract more damaging strikes.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/HyperspaceTerrainPlugin.class"
+  },
+  {
+   "i": 53,
+   "en": "Hyperspace (Abyssal)",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/HyperspaceTerrainPlugin.class"
+  },
+  {
+   "i": 54,
+   "en": "Hyperspace (Deep)",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/HyperspaceTerrainPlugin.class"
+  },
+  {
+   "i": 55,
+   "en": "Hyperspace (Storm)",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/HyperspaceTerrainPlugin.class"
+  },
+  {
+   "i": 56,
+   "en": "Hyperspace storm strike",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/HyperspaceTerrainPlugin.class"
+  },
+  {
+   "i": 57,
+   "en": "Hyperspace storms",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/HyperspaceTerrainPlugin.class"
+  },
+  {
+   "i": 58,
+   "en": "In abyssal hyperspace",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/HyperspaceTerrainPlugin.class"
+  },
+  {
+   "i": 59,
+   "en": "In addition, storm strikes toss the fleet's drive bubble about with great violence, often causing a loss of control. Some commanders are known to use these to gain additional speed, and to save fuel - a practice known as \"storm riding\".",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/HyperspaceTerrainPlugin.class"
+  },
+  {
+   "i": 60,
+   "en": "In deep hyperspace",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/HyperspaceTerrainPlugin.class"
+  },
+  {
+   "i": 61,
+   "en": "In deep hyperspace (storm)",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/HyperspaceTerrainPlugin.class"
+  },
+  {
+   "i": 62,
+   "en": "No combat effects.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/HyperspaceTerrainPlugin.class"
+  },
+  {
+   "i": 63,
+   "en": "Reduces the range at which fleets inside can be detected by %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/HyperspaceTerrainPlugin.class"
+  },
+  {
+   "i": 64,
+   "en": "Reduces the sensor range and sensor profile of fleets inside it by %s. Also reduces the maximum burn level by %s. The reduction is gradual and based on the \"depth\" the fleet has reached.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/HyperspaceTerrainPlugin.class"
+  },
+  {
+   "i": 65,
+   "en": "Reduces the speed of fleets inside by up to %s. Larger fleets are slowed down more.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/HyperspaceTerrainPlugin.class"
+  },
+  {
+   "i": 66,
+   "en": "Reduces top speed of ships by up to %s, and the top speed and range of missiles by up to %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/HyperspaceTerrainPlugin.class"
+  },
+  {
+   "i": 67,
+   "en": "Skill in navigation is of limited use, and only provides %s of its normal benefit in countering the maximum burn penalty.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/HyperspaceTerrainPlugin.class"
+  },
+  {
+   "i": 68,
+   "en": "Skill in navigation is of little use, and does not provide its normal benefit in countering terrain-specific maximum burn penalties.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/HyperspaceTerrainPlugin.class"
+  },
+  {
+   "i": 69,
+   "en": "Traveling through hyperspace consumes fuel based on the distance travelled. Your fleet requires %s fuel per light-year.*",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/HyperspaceTerrainPlugin.class"
+  },
+  {
+   "i": 70,
+   "en": "Your fleet's speed is reduced by %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/HyperspaceTerrainPlugin.class"
+  },
+  {
+   "i": 71,
+   "en": "avoids",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/HyperspaceTerrainPlugin.class"
+  },
+  {
+   "i": 72,
+   "en": "suffers",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/HyperspaceTerrainPlugin.class"
+  },
+  {
+   "i": 73,
+   "en": "Inside magnetic storm",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/MagneticFieldTerrainPlugin.class"
+  },
+  {
+   "i": 74,
+   "en": "Inside strong magnetic field",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/MagneticFieldTerrainPlugin.class"
+  },
+  {
+   "i": 75,
+   "en": "Magnetic Field",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/MagneticFieldTerrainPlugin.class"
+  },
+  {
+   "i": 76,
+   "en": "Magnetic Storm",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/MagneticFieldTerrainPlugin.class"
+  },
+  {
+   "i": 77,
+   "en": "The magnetic storm also blinds the sensors of a fleet within, reducing their range by %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/MagneticFieldTerrainPlugin.class"
+  },
+  {
+   "i": 78,
+   "en": "Inside nebula",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/NebulaTerrainPlugin.class"
+  },
+  {
+   "i": 79,
+   "en": "Numerous patches of nebula present on the battlefield, but the medium is not dense enough to affect ships moving at combat speeds.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/NebulaTerrainPlugin.class"
+  },
+  {
+   "i": 80,
+   "en": "Reduces the travel speed of fleets inside by up to %s. Larger fleets are slowed down more.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/NebulaTerrainPlugin.class"
+  },
+  {
+   "i": 81,
+   "en": "Pulsar Beam",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/PulsarBeamTerrainPlugin.class"
+  },
+  {
+   "i": 82,
+   "en": "Pulsar beam effect",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/PulsarBeamTerrainPlugin.class"
+  },
+  {
+   "i": 83,
+   "en": "Reduces the combat readiness of all ships caught in the pulsar beam at a rapid pace, and blows the fleet off-course.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/PulsarBeamTerrainPlugin.class"
+  },
+  {
+   "i": 84,
+   "en": "The magnitude of the effect drops off rapidly with distance from the source.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/PulsarBeamTerrainPlugin.class"
+  },
+  {
+   "i": 85,
+   "en": "Hiding inside ring system",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/RingSystemTerrainPlugin.class"
+  },
+  {
+   "i": 86,
+   "en": "Numerous small bodies that make up the ring system present on the battlefield. Not large enough to be an in-combat navigational hazard.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/RingSystemTerrainPlugin.class"
+  },
+  {
+   "i": 87,
+   "en": "Does not stack with other similar terrain effects.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/SlipstreamTerrainPlugin.class"
+  },
+  {
+   "i": 88,
+   "en": "In slipstream",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/SlipstreamTerrainPlugin.class"
+  },
+  {
+   "i": 89,
+   "en": "Reduces the range at which fleets inside it can be detected by %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/SlipstreamTerrainPlugin.class"
+  },
+  {
+   "i": 90,
+   "en": "Slipstream",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/SlipstreamTerrainPlugin.class"
+  },
+  {
+   "i": 91,
+   "en": "Inside ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/SpatialAnomalyTerrainPlugin.class"
+  },
+  {
+   "i": 92,
+   "en": "Ion Storm",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/StarCoronaAkaMainyuTerrainPlugin.class"
+  },
+  {
+   "i": 93,
+   "en": "The intense heat and radiation reduce the combat readiness of all ships in the magnetotail at a steady pace.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/StarCoronaAkaMainyuTerrainPlugin.class"
+  },
+  {
+   "i": 94,
+   "en": "The ionized gas being ejected from the atmosphere makes the planet difficult to approach.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/StarCoronaAkaMainyuTerrainPlugin.class"
+  },
+  {
+   "i": 95,
+   "en": "Coronal Jet",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/StarCoronaJetTerrainPlugin.class"
+  },
+  {
+   "i": 96,
+   "en": "Corona",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/StarCoronaTerrainPlugin.class"
+  },
+  {
+   "i": 97,
+   "en": "Occasional solar flare activity takes these effects to even more dangerous levels.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/StarCoronaTerrainPlugin.class"
+  },
+  {
+   "i": 98,
+   "en": "Reduces the combat readiness of all ships in the corona at a steady pace.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/StarCoronaTerrainPlugin.class"
+  },
+  {
+   "i": 99,
+   "en": "Solar Flare",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/StarCoronaTerrainPlugin.class"
+  },
+  {
+   "i": 100,
+   "en": "Solar flare effect",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/StarCoronaTerrainPlugin.class"
+  },
+  {
+   "i": 101,
+   "en": "Star corona effect",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/StarCoronaTerrainPlugin.class"
+  },
+  {
+   "i": 102,
+   "en": "The heavy solar wind also makes the star difficult to approach.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/StarCoronaTerrainPlugin.class"
+  },
+  {
+   "i": 103,
+   "en": "In wavefront",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/WavefrontTerrainPlugin.class"
+  },
+  {
+   "i": 104,
+   "en": "Wavefront",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/terrain/WavefrontTerrainPlugin.class"
+  },
+  {
+   "i": 105,
+   "en": " and select ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/CampaignTutorialScript.class"
+  },
+  {
+   "i": 106,
+   "en": "\"Lay in Course\"",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/CampaignTutorialScript.class"
+  },
+  {
+   "i": 107,
+   "en": "%s, then press %s to close the map",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/CampaignTutorialScript.class"
+  },
+  {
+   "i": 108,
+   "en": "- Click on ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/CampaignTutorialScript.class"
+  },
+  {
+   "i": 109,
+   "en": "- Move up into the debris field",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/CampaignTutorialScript.class"
+  },
+  {
+   "i": 110,
+   "en": "- Press %s to engage sustained burn",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/CampaignTutorialScript.class"
+  },
+  {
+   "i": 111,
+   "en": "- Press %s to open the character tab and consider your options",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/CampaignTutorialScript.class"
+  },
+  {
+   "i": 112,
+   "en": "- Press %s to open the intel tab, and select the mission",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/CampaignTutorialScript.class"
+  },
+  {
+   "i": 113,
+   "en": "- Press %s to open the map on the mission target",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/CampaignTutorialScript.class"
+  },
+  {
+   "i": 114,
+   "en": "- Press %s to quick-save and advance the tutorial",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/CampaignTutorialScript.class"
+  },
+  {
+   "i": 115,
+   "en": "- Press %s to quick-save, if you like",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/CampaignTutorialScript.class"
+  },
+  {
+   "i": 116,
+   "en": "- Press %s to start scavenging",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/CampaignTutorialScript.class"
+  },
+  {
+   "i": 117,
+   "en": "- Press %s twice to turn on the transponder",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/CampaignTutorialScript.class"
+  },
+  {
+   "i": 118,
+   "en": "- Press and hold %s to move slowly through the asteroid belt",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/CampaignTutorialScript.class"
+  },
+  {
+   "i": 119,
+   "en": "- Wait for the pirates to approach, then engage and defeat them!",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/CampaignTutorialScript.class"
+  },
+  {
+   "i": 120,
+   "en": "Please follow the instructions near the bottom of the screen and quicksave to advance the tutorial.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/CampaignTutorialScript.class"
+  },
+  {
+   "i": 121,
+   "en": "Rogue Miner",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/CampaignTutorialScript.class"
+  },
+  {
+   "i": 122,
+   "en": "Security Detachment",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/CampaignTutorialScript.class"
+  },
+  {
+   "i": 123,
+   "en": "A monthly stipend of %s from the Galatian Academy, for the aid you've recently rendered.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/GalatianAcademyStipend.class"
+  },
+  {
+   "i": 124,
+   "en": "Stipend from Galatia Academy",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/GalatianAcademyStipend.class"
+  },
+  {
+   "i": 125,
+   "en": "This month's payment was the last.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/GalatianAcademyStipend.class"
+  },
+  {
+   "i": 126,
+   "en": "You should continue receiving the stipend for another %s months.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/GalatianAcademyStipend.class"
+  },
+  {
+   "i": 127,
+   "en": "Rogue Miner Force",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/RogueMinerMiscFleetManager.class"
+  },
+  {
+   "i": 128,
+   "en": "heading to",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/RogueMinerMiscFleetManager.class"
+  },
+  {
+   "i": 129,
+   "en": "- Press %s to quick-save",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/SaveNagScript.class"
+  },
+  {
+   "i": 130,
+   "en": "An obligation from your past",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/SpacerObligation.class"
+  },
+  {
+   "i": 131,
+   "en": "You never talk about it.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/SpacerObligation.class"
+  },
+  {
+   "i": 132,
+   "en": "A slow-moving fleet avoids this danger. Press and hold %s to move slowly, until you're through the asteroid belt.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialGoSlowDialogPluginImpl.class"
+  },
+  {
+   "i": 133,
+   "en": "If you go through at full speed, there's a chance your fleet may be knocked off course, and some of your ships might even suffer damage from asteroid impacts.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialGoSlowDialogPluginImpl.class"
+  },
+  {
+   "i": 134,
+   "en": "The danger is low, however - especially since the belt is thin, and you're only going across it - so you could also get away with just going full speed.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialGoSlowDialogPluginImpl.class"
+  },
+  {
+   "i": 135,
+   "en": "You're coming up on an asteroid belt!",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialGoSlowDialogPluginImpl.class"
+  },
+  {
+   "i": 136,
+   "en": " as soon as possible.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialLayInCourseDialogPluginImpl.class"
+  },
+  {
+   "i": 137,
+   "en": "\"Show on map\"",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialLayInCourseDialogPluginImpl.class"
+  },
+  {
+   "i": 138,
+   "en": ". You don't need to do this to travel, ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialLayInCourseDialogPluginImpl.class"
+  },
+  {
+   "i": 139,
+   "en": "After dismissing this dialog, press %s to open the intel screen to view the details of the message you've just received.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialLayInCourseDialogPluginImpl.class"
+  },
+  {
+   "i": 140,
+   "en": "Let's lay in a course for ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialLayInCourseDialogPluginImpl.class"
+  },
+  {
+   "i": 141,
+   "en": "Once you get to Ancyra, open the comm directory to contact ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialLayInCourseDialogPluginImpl.class"
+  },
+  {
+   "i": 142,
+   "en": "Select the message and click on the %s button to open the map centered directly on Ancyra. Then, left-click-and-hold on the planet, and select %s from the menu that pops up. Alternatively, you can just right-click on Ancyra.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialLayInCourseDialogPluginImpl.class"
+  },
+  {
+   "i": 143,
+   "en": "Shortly after dispatching the pirates, you receive a tight-beam communication from the system's main inhabited world, ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialLayInCourseDialogPluginImpl.class"
+  },
+  {
+   "i": 144,
+   "en": "The message is brief and asks you to travel there and contact ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialLayInCourseDialogPluginImpl.class"
+  },
+  {
+   "i": 145,
+   "en": "You could also press %s to open the map and locate Ancyra manually.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialLayInCourseDialogPluginImpl.class"
+  },
+  {
+   "i": 146,
+   "en": "but it helps keep track of where you're going and how long it'll take to get there.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialLayInCourseDialogPluginImpl.class"
+  },
+  {
+   "i": 147,
+   "en": " points as you gain experience; these can be used to ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialLevelUpDialogPluginImpl.class"
+  },
+  {
+   "i": 148,
+   "en": "Press %s to open the character tab and consider your options. You don't have to actually spend the points now if you don't want to.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialLevelUpDialogPluginImpl.class"
+  },
+  {
+   "i": 149,
+   "en": "Skill points are used to learn skills. Skills are arranged in four aptitudes - Combat, Leadership, Technology, and Industry. Each aptitude has a number of tiers, you advance to the higher tiers by picking skills from the lower ones.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialLevelUpDialogPluginImpl.class"
+  },
+  {
+   "i": 150,
+   "en": "Skills that affect your piloted ship - all Combat skills, and a few skills in other aptitudes - can be made \"elite\" at the cost of a ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialLevelUpDialogPluginImpl.class"
+  },
+  {
+   "i": 151,
+   "en": "The maximum level you can reach is %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialLevelUpDialogPluginImpl.class"
+  },
+  {
+   "i": 152,
+   "en": "You also gain ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialLevelUpDialogPluginImpl.class"
+  },
+  {
+   "i": 153,
+   "en": "You gain %s skill point with each level-up, and an additional point at the start of the campaign.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialLevelUpDialogPluginImpl.class"
+  },
+  {
+   "i": 154,
+   "en": "You've gained a level!",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialLevelUpDialogPluginImpl.class"
+  },
+  {
+   "i": 155,
+   "en": "take exceptional actions - to \"make your own story\", in a way. The tutorial will introduce ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialLevelUpDialogPluginImpl.class"
+  },
+  {
+   "i": 156,
+   "en": "using these a bit later.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialLevelUpDialogPluginImpl.class"
+  },
+  {
+   "i": 157,
+   "en": "\n\nAlso: you'll need to re-dock with your transponder turned on to take advantage of Ancyra's facilities.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialMissionEvent.class"
+  },
+  {
+   "i": 158,
+   "en": "\"Storage\"",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialMissionEvent.class"
+  },
+  {
+   "i": 159,
+   "en": "\"autofit\"",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialMissionEvent.class"
+  },
+  {
+   "i": 160,
+   "en": "(Once this conversation is over, press %s to open the refit screen. After selecting a specific ship, you can press %s to %s - pick a desired loadout, and the ship will be automatically refitted to match it, using what weapons are available.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialMissionEvent.class"
+  },
+  {
+   "i": 161,
+   "en": "Deliver Report to Jangala",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialMissionEvent.class"
+  },
+  {
+   "i": 162,
+   "en": "Deliver Report to Jangala - completed",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialMissionEvent.class"
+  },
+  {
+   "i": 163,
+   "en": "In addition, you now have access to local storage at Ancyra, and some weapons and supplies have been placed there. To access it, click on the \"Storage\" button in the trade screen.)",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialMissionEvent.class"
+  },
+  {
+   "i": 164,
+   "en": "Stabilize the Jump-points",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialMissionEvent.class"
+  },
+  {
+   "i": 165,
+   "en": " and retrieve data",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialMissionIntel.class"
+  },
+  {
+   "i": 166,
+   "en": " at Ancyra",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialMissionIntel.class"
+  },
+  {
+   "i": 167,
+   "en": " at Ancyra for help with outfitting the recovered ships with weapons.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialMissionIntel.class"
+  },
+  {
+   "i": 168,
+   "en": " at Derinkuyu Mining Station ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialMissionIntel.class"
+  },
+  {
+   "i": 169,
+   "en": " at Jangala",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialMissionIntel.class"
+  },
+  {
+   "i": 170,
+   "en": " at Jangala.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialMissionIntel.class"
+  },
+  {
+   "i": 171,
+   "en": " has tasked you with delivering a report ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialMissionIntel.class"
+  },
+  {
+   "i": 172,
+   "en": " to deliver the AI core.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialMissionIntel.class"
+  },
+  {
+   "i": 173,
+   "en": " to deliver the jump-point data.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialMissionIntel.class"
+  },
+  {
+   "i": 174,
+   "en": " with the ships",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialMissionIntel.class"
+  },
+  {
+   "i": 175,
+   "en": "Analyzing the jump-point data requires an AI Core.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialMissionIntel.class"
+  },
+  {
+   "i": 176,
+   "en": "Approach the probe and salvage it to recover the gamma core.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialMissionIntel.class"
+  },
+  {
+   "i": 177,
+   "en": "Bring extra crew to man the recovered ships, and extra supplies to  help restore their combat readiness.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialMissionIntel.class"
+  },
+  {
+   "i": 178,
+   "en": "Completed",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialMissionIntel.class"
+  },
+  {
+   "i": 179,
+   "en": "Contact must be made with the transponder off as the miners of Derinkuyu have turned pirate and your fleet will be attacked otherwise.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialMissionIntel.class"
+  },
+  {
+   "i": 180,
+   "en": "Deliver AI core to ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialMissionIntel.class"
+  },
+  {
+   "i": 181,
+   "en": "Deliver data to ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialMissionIntel.class"
+  },
+  {
+   "i": 182,
+   "en": "Deliver report to ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialMissionIntel.class"
+  },
+  {
+   "i": 183,
+   "en": "Galatia's connection with hyperspace has been restored, and trade fleets are once again able to enter and leave the system.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialMissionIntel.class"
+  },
+  {
+   "i": 184,
+   "en": "Go Dark",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialMissionIntel.class"
+  },
+  {
+   "i": 185,
+   "en": "Go to Pontus, head out towards the asteroid belt, and then use an %s to locate the probe. ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialMissionIntel.class"
+  },
+  {
+   "i": 186,
+   "en": "Go to the ship graveyard around Tetra and recover as many ships as possible.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialMissionIntel.class"
+  }
+ ]
+}

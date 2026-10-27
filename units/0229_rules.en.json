@@ -1,0 +1,201 @@
+{
+ "chunk": 229,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"Excellent,\" $heOrShe says with a decisive nod.",
+   "ctx": "data/campaign/rules.csv andradaOfficeBook1 [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"It is you who will thank me, in time,\" $heOrShe says without irony.",
+   "ctx": "data/campaign/rules.csv andradaOfficeBook2 [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"Serve the interests of the Sindrian Diktat,\" $heOrShe says without hesitation. \r\n\r\n\"You may find yourself, through submission to the Glorious Vision of our Movement, in a position to serve the Sindrian Diktat. Speak with an administrator and they may assist you in taking on a commission.\"",
+   "ctx": "data/campaign/rules.csv andradaOfficeServe2gotBook [text]"
+  },
+  {
+   "i": 4,
+   "en": "Deputy Star Marshal Hyder appears, her face impassive. \"Contact identified, maintain course,\" she speaks to another bridge officer before turning to comms.\r\n\r\n\"Independent fleet, hear me: stay clear of our operational volume and you will not be fired upon.\"\r\n\r\n\"Hyder out.\"\r\n\r\nThe comms snap off before you have a chance to speak.",
+   "ctx": "data/campaign/rules.csv defaultHyderGreeting [text]"
+  },
+  {
+   "i": 5,
+   "en": "Deputy Star Marshal Hyder appears, her face impassive. \"Hostile identified, prepare battlestations,\" she speaks to another bridge officer before turning to comms.\r\n\r\n\"Independent fleet, hear me: your opportunity for honorable surrender has passed. Prepare to be destroyed in battle.\"\r\n\r\n\"Hyder out.\" The comms snap off before you have a chance to speak.",
+   "ctx": "data/campaign/rules.csv defaultHyderGreetingHostile [text]"
+  },
+  {
+   "i": 6,
+   "en": "Deputy Star Marshal Hyder appears, her face impassive. \"Independent fleet,\" she says, not acknowledging your previous contact, \"Hear me: stay clear of our operational volume and you will not be fired upon.\"\r\n\r\n\"Hyder out.\"\r\n\r\nThe comms snap off before you have a chance to speak.",
+   "ctx": "data/campaign/rules.csv postSDTUHyderGreeting [text]"
+  },
+  {
+   "i": 7,
+   "en": "Deputy Star Marshal Hyder appears. \"Captain,\" she says, impassive but respectful. \"Please stay clear of our operational volume.\" \r\n\r\nAnd pause, then \"We have nothing further to discuss at this time. Hyder out.\"\r\n\r\nThe comms snap off before you have a chance to speak.",
+   "ctx": "data/campaign/rules.csv postSDTUHyderGreetingTrust [text]"
+  },
+  {
+   "i": 8,
+   "en": "Guard High Deputy Executor Caden appears; he barely looks at the comms.\r\n\r\n\"Independent fleet: maintain distance and you will not be fired upon. Hear and obey,\" Caden declares.\r\n\r\n\"Final victory to the Supreme Executor!\" Caden shouts with genuine enthusiasm.",
+   "ctx": "data/campaign/rules.csv defaultCadenGreetingPreSDTU [text]"
+  },
+  {
+   "i": 9,
+   "en": "Guard High Deputy Executor Caden doesn't even bother to open to comms; instead, a blank-faced Sindrian Diktat officer appears, and speaks.\r\n\r\n\"Minor independent fleet: maintain distance and you will not be fired upon. Glory to the Sindrian Diktat!\" \r\n\r\nAnd with that, the comms-line snaps off.",
+   "ctx": "data/campaign/rules.csv defaultCadenGreetPreSDTUWeakPlayer [text]"
+  },
+  {
+   "i": 10,
+   "en": "Guard High Deputy Executor Caden appears, face red, eyes staring with blank hatred.\r\n\r\n\"You shall be extinguished by the might of the Lion's Guard!\" he shouts. \"Glory to the Sindrian Diktat, eternal victory to the Supreme Executor!\"\r\n\r\nThe comms snap off without waiting for your reply.",
+   "ctx": "data/campaign/rules.csv defaultCadenGreetHostile [text]"
+  },
+  {
+   "i": 11,
+   "en": "The image of Guard High Deputy Executor Caden appears. He is not even looking at the comms-feed.\r\n\r\n\"Independent fleet: maintain distance and you will not be fired upon. Hear and obey,\" Caden declares, taking a breath.\r\n\r\n\"Final victory to the Supreme Executor!\" he shouts.",
+   "ctx": "data/campaign/rules.csv defaultCadenGreetPostSDTU [text]"
+  },
+  {
+   "i": 12,
+   "en": "Guard High Deputy Executor Caden doesn't even bother to open the comms; instead, a blank-faced Sindrian Diktat officer appears.\r\n\r\n\"Minor independent fleet: maintain distance and you will not be fired upon. Glory to the Sindrian Diktat!\" \r\n\r\nWithout waiting for a reply, the connection is terminated.",
+   "ctx": "data/campaign/rules.csv defaultCadenGreetPostSDTUWeakPlayer [text]"
+  },
+  {
+   "i": 13,
+   "en": "Guard High Deputy Executor Caden appears before you. \"Glory to the Sindrian Diktat, captain!\" he booms enthusiastically. \"It stirs the heart to see another proud follower of the Supreme Executor's vision upholding the Great Cause.\" \r\n\r\nHe blinks, perhaps realizing that he doesn't actually have anything to say to you. \"Stay strong and stay vigilant - as Supreme Executor Andrada taught us. Glory to the Sindrian Diktat!\" \r\n\r\nWithout waiting for a reply, the connection is terminated.",
+   "ctx": "data/campaign/rules.csv defaultCadenGreetPostSDTUcommission [text]"
+  },
+  {
+   "i": 14,
+   "en": "Guard High Deputy Executor Caden appears before you. \"Ah, Captain $playerName. Glory to the Sindrian Diktat!\" he booms enthusiastically. \"It stirs the heart to see a loyal follower of the Supreme Executor's vision, and,\" he leans in, \"One who will stand with me when the time comes, when strength and loyalty will be required to secure the future of the Persean Sector.\"\r\n\r\nHe leans back, satisfied. \"Stay strong and vigilant - as Supreme Executor Andrada taught us. Glory to the Sindrian Diktat!\" \r\n\r\nWithout waiting for a reply, the connection is terminated.",
+   "ctx": "data/campaign/rules.csv defaultCadenGreetPostSDTUbacker [text]"
+  },
+  {
+   "i": 15,
+   "en": "Dolos Macario, the Spider of Sindria, appears before you. He looks bored.\r\n\r\n\"Captain, o captain,\" he greets you, his tone bored. \"Not yet.\" He winks and hits the shut-off.\r\n\r\nThe crest of the Sindrian Diktat internal security ministry slowly turns. ",
+   "ctx": "data/campaign/rules.csv postSDTUMacarioGreeting [text]"
+  },
+  {
+   "i": 16,
+   "en": "As you start to take in the clientele, the lights flicker. The sundry holos and screens fuzz and go blank as EM interference scrambles their inputs. ",
+   "ctx": "data/campaign/rules.csv sdBarRaid0 [text]"
+  },
+  {
+   "i": 17,
+   "en": "With a series of bangs, troopers in light combat frames burst through every entrance, shouting amplified orders, waving vicious little guns. \r\n\r\nRandom INTSEC raid; you know enough to appear calm and keep your hands away from your sidearm.\r\n\r\nEach patron is scanned and, in-turn, their fate is revealed by a subtle movement of the lead INTSEC officer signaling whether they are to be left alone or arrested. Most are spared.",
+   "ctx": "data/campaign/rules.csv sdBarRaid1 [text]"
+  },
+  {
+   "i": 18,
+   "en": "One group of spacers appears to believe they have something to hide. As the officer approaches, they break into action. One manages to half-draw a concealed weapon but is hit with the crack of an electrostun/restraint-foam round. The convulsing body crashes through a table, sending pieces of broken glass up in glittering parabolae.\r\n\r\nThe rest of the party are restrained and beaten, the drumming of clubs on flesh eventually overtaking the cries of pain and outrage. Outsiders look on in horror; the staff and locals have a glazed, unfocused expression; it is safest to see nothing.",
+   "ctx": "data/campaign/rules.csv sdBarRaid2 [text]"
+  },
+  {
+   "i": 19,
+   "en": "The Diktat Internal Security officer walks slowly on a tangent to you, examining each of your bodyguards from their feet to their weapons before shifting his gaze to you. You stare for a moment into dark eyes.",
+   "ctx": "data/campaign/rules.csv sdBarRaid3 [text]"
+  },
+  {
+   "i": 20,
+   "en": "His eyes narrow and flick down to his scanner.",
+   "ctx": "data/campaign/rules.csv sdBarRaid2nothing [text]"
+  },
+  {
+   "i": 21,
+   "en": "He says nothing, just stares at you for a moment as if a chair tried to start a conversation. ",
+   "ctx": "data/campaign/rules.csv sdBarRaid2thanks [text]"
+  },
+  {
+   "i": 22,
+   "en": "He responds with the automatic phrase, \"The Movement is its own reward,\" if not with warmth, then at least the comfort that his internal IFF has slotted you into a non-hostile category. ",
+   "ctx": "data/campaign/rules.csv sdBarRaid2thanksNice [text]"
+  },
+  {
+   "i": 23,
+   "en": "He says nothing, just stares at you for a moment. His off-hand twitches significantly and your world explodes with light and pain.",
+   "ctx": "data/campaign/rules.csv sdBarRaid2barbaric [text]"
+  },
+  {
+   "i": 24,
+   "en": "You find yourself slumped against a rattling air vent in a minor offshoot of the commercial concourse. One of your guards, bleeding and appallingly bruised, applies a dermal patch to your neck and your consciousness acknowledges the ocean of pain receding like a tide, leaving a loose hollowness in your chest and numbing cold in your limbs.\r\n\r\nINTSEC simply wanted to send a message, it appears. Nothing more, nothing less.",
+   "ctx": "data/campaign/rules.csv sdBarRaidBeating [text]"
+  },
+  {
+   "i": 25,
+   "en": "It would almost be more reassuring to feel the pain. Without it, you feel empty. And tired.\r\n\r\nWith the help of your guards, you slowly make your way back to your ship.",
+   "ctx": "data/campaign/rules.csv sdBarRaidBeatingTreatment [text]"
+  },
+  {
+   "i": 26,
+   "en": "You focus on the INTSEC officer's face, using your physical pain to sear it into your memory. \r\n\r\nOne day, you swear, he will receive justice.",
+   "ctx": "data/campaign/rules.csv sdBarRaidBeatingRevenge [text]"
+  },
+  {
+   "i": 27,
+   "en": "You reflect that this is simply how power works. When challenged, it must prove itself or the illusion evaporates.",
+   "ctx": "data/campaign/rules.csv sdBarRaidBeatingHadItComing [text]"
+  },
+  {
+   "i": 28,
+   "en": "The INTSEC officer gives a small nod to the guards, then moves on with arbitrary authority to the next spacer captain, who is given a similar treatment.\r\n\r\nApparently this means you're free to go. There will be no more business to be done at this bar for the rest of the shift. Even the corridors outside are strangely quiet, the populace recognizing the tell of a crackdown.",
+   "ctx": "data/campaign/rules.csv sdBarRaidEnd [text]"
+  },
+  {
+   "i": 29,
+   "en": "Your comms officer calls for your attention, \"Captain, we have incoming from... um, an official channel. No ID provided.\" They forward the link to your personal interface.",
+   "ctx": "data/campaign/rules.csv sdtuStartDev2 [text]"
+  },
+  {
+   "i": 30,
+   "en": "A Sindrian Diktat officer appears. You first recognize the uniform of the internal security ministry; the secret police. Then you recognize his face.",
+   "ctx": "data/campaign/rules.csv sdtuStartInfo0 [text]"
+  },
+  {
+   "i": 31,
+   "en": "You were at a spacer bar, not too long ago. This officer led a raid, and his security troops beat some jumpy spacers near to death, and arrested others.\r\n\r\nWhat game is he playing by contacting you like this? Does he even remember you?\r\n\r\nHe must.",
+   "ctx": "data/campaign/rules.csv sdtuStartInfo1a [text]"
+  },
+  {
+   "i": 32,
+   "en": "You were at a spacer bar, not too long ago. This officer led a raid, and his security troops beat some jumpy spacers near to death, and arrested others. You told him what you thought of his actions, and for that he had you beaten.",
+   "ctx": "data/campaign/rules.csv sdtuStartInfo1b [text]"
+  },
+  {
+   "i": 33,
+   "en": "And you swore that revenge would be yours. Now might be your chance, if you play this right. But what's his game here, why is he approaching you?",
+   "ctx": "data/campaign/rules.csv sdtuStartInfo2a [text]"
+  },
+  {
+   "i": 34,
+   "en": "And you understood that he was simply exercising the power he had, as he must from his position. Now he's back. What game is he playing? Does he even remember you?\r\n\r\nHe must.",
+   "ctx": "data/campaign/rules.csv sdtuStartInfo2b [text]"
+  },
+  {
+   "i": 35,
+   "en": "You returned to your ship where some fine med-tech did its work. Now he's back. What game is he playing? Does he even remember you?\r\n\r\nHe must.",
+   "ctx": "data/campaign/rules.csv sdtuStartInfo2c [text]"
+  },
+  {
+   "i": 36,
+   "en": "\"Greetings Captain $playerName,\" says $Rank Ram with detached authority. \"I've been following your career for some time. You are, mm, quite ideally placed.\"\r\n\r\n\"I need you to help me save the Sindrian Diktat.\" He produces a painful-looking smile at this, and looks like he expects you to return it.",
+   "ctx": "data/campaign/rules.csv sdtuRamProposal1 [text]"
+  },
+  {
+   "i": 37,
+   "en": "\"Yes, yes,\" Ram leans in, an odd gleam to his eyes now apparent. \r\n\r\n\"You see clearly that Philip Andrada's vision has been corrupted from the glorious early days. The ministries have fallen to infighting and corruption; our fleets are bloated with incompetents, our factories run by degenerate plunderers. The martial virtues which defined our once-glorious Diktat have been lost - we must reclaim them.\"\r\n\r\n\"The Supreme Executor is not himself, and may already be dead. We see holos, but who can say if they are true? Corrupt advisors are exploiting the situation for their own benefit, so it is up to us - the front-line officers loyal to the Movement, who know blood and sweat - to save the Diktat!\"",
+   "ctx": "data/campaign/rules.csv sdtuRamRespCommission [text]"
+  },
+  {
+   "i": 38,
+   "en": "\"The Sindrian Diktat has strayed from its course,\" says Ram, leaning in, an odd gleam to his eyes now apparent. \r\n\r\n\"The Supreme Executor is no longer at the helm of the ship of state; holos appear with his image, yes, but they can be faked. It is obvious that the ministries have fallen to in-fighting and self-serving corruption, our warfleets given to profit-driven bloat.\"\r\n\r\n\"Without the true vision of the Supreme Executor, the center cannot hold. Corrupt advisors rule now, and are influenced by shadowy forces funded by our enemies. Something must be done!\"",
+   "ctx": "data/campaign/rules.csv sdtuRamRespWhatWant [text]"
+  },
+  {
+   "i": 39,
+   "en": "\"I knew who you were before entering that bar, yes,\" Ram says with a self-satisfied smirk. \r\n\r\n\"I am not merely a uniform. I follow orders, yes, but I have been watching the way of things for a long time. I have been speaking with like-minded officers loyal to the Andradan Movement, who know the blood and sweat of our struggle.\"\r\n\r\nRam leans in, an odd gleam to his eyes now apparent. \"It is obvious that the Sindrian Diktat has fallen to rot. Do you imagine Andrada is truly in command? With the ministries fallen to self-serving infighting? He would never allow it. Things have changed since the old days. He would sooner die than let his vision come to this... this degeneracy! Something must be done!\"",
+   "ctx": "data/campaign/rules.csv sdtuRamRespRemember [text]"
+  }
+ ]
+}

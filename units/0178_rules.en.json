@@ -1,0 +1,156 @@
+{
+ "chunk": 178,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "He looks genuinely perplexed. \"Um, how interesting. Not a life philosophy I myself adhere to, of course, but there are many ways in the world. I suppose.\" He looks down at his datapad awkwardly. \"That, ah, is everything then. So.\"",
+   "ctx": "data/campaign/rules.csv gaATGsiyavongQuestioning8d [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"A good day to you captain,\" Siyavong says, \"And what is it you people say? 'Burn bright', yes.\" \r\n\r\nHe terminates the commlink.",
+   "ctx": "data/campaign/rules.csv gaATGsiyavongQuestioningEnd [text]"
+  },
+  {
+   "i": 3,
+   "en": "The state-change across the cadet's face as they realize you aren't some tourist is instantaneous. \r\n\r\n\"Affirmative $playerSirOrMadam,\" their tone is military-crisp.\r\n\r\n\"Received and thank-you $playerSirOrMadam. I will confirm with OPSCOMM. An officer will speak to you shortly. Please maintain link. This comms out.\"\r\n\r\nThe display flickers back to the crest of the Hegemony.",
+   "ctx": "data/campaign/rules.csv gaATGdaudMeetingSetup1 [text]"
+  },
+  {
+   "i": 4,
+   "en": "In moments, the crest disappears and you speak with a real officer, some kind of secretary to the High Hegemon. They begin efficiently verifying your credentials, then pause.\r\n\r\n\"Captain $playerName?\" Finally they seem to look at you and realize who you are, \"Of course, I should have realized that you bear a commission. Our records indicate that you have done much good in service of the Hegemony, and much to prove the value of the High Hegemon's auxiliary policy.\"\r\n\r\n\"You're lucky.\" The officer turns back to their display, tapping away. \"It will be your great honor to meet with the man himself. Please do forgive the ad-hoc nature of the arrangement; the High Hegemon is a very busy man.\"",
+   "ctx": "data/campaign/rules.csv gaATGdaudMeetingSetupCommission [text]"
+  },
+  {
+   "i": 5,
+   "en": "In moments, the crest disappears and you speak with a real officer, some kind of secretary to the High Hegemon who verifies your credentials and schedules you for a brief face-to-face meeting with Baikal Daud.\r\n\r\n\"Captain... Captain $playerName, I see. Yes, we can fit you in. The High Hegemon is a very busy man, but he has expressed an interest in your matter. Please forgive the ad hoc arrangement. I assure you that it is necessary.\"",
+   "ctx": "data/campaign/rules.csv gaATGdaudMeetingSetupNeutral [text]"
+  },
+  {
+   "i": 6,
+   "en": "In moments, the crest disappears and you speak with a real officer, some kind of secretary to the High Hegemon. They don't look pleased.\r\n\r\n\"$PlayerName.\" A tap, tap at the desk console. \"Your record does little to recommend you. But. The High Hegemon will not turn away an accredited envoy from gens Yaribay.\"\r\n\r\n\"In the interest of diplomacy, we will set aside your record while you carry out your duties in service of the Yaribays. When you meet the High Hegemon, you will bring no sidearm. You will be searched. You will be expected to obey all reasonable requests or be ejected from Hegemony space.\" \r\n\r\nThe officer-secretary pauses a moment, just looking at you. \"We'll be watching,\" they say, \"very closely,\" before turning back to the desk console.",
+   "ctx": "data/campaign/rules.csv gaATGdaudMeetingSetupUnwelcome [text]"
+  },
+  {
+   "i": 7,
+   "en": "Before you know it, you have a time, a place, and a visitor passkey to present. A public map database search confirms that you have been asked to arrive at some kind of naval shipyard in orbit of Chicomoztoc.\r\n\r\nThe officer-secretary did not take time to explain the purpose of meeting at this odd venue.",
+   "ctx": "data/campaign/rules.csv gaATGdaudMeetingSetupEnd [text]"
+  },
+  {
+   "i": 8,
+   "en": "Your shuttle approaches the naval shipyard in Chicomoztoc orbit. The planet spins below you like a murky brown ocean.\r\n\r\nA Hegemony patrol pings your shuttle as the superstructure of the naval dockyard grows like the ribs of some genemod leviathan. The visitor passkey satisfies the patrol's inquiry, and they maneuver toward the next transport on approach.\r\n\r\nThe landing bay still bears the faded logo of Bhilai Astra Group, a Domain-era manufacturer of heavy weapons and a key supplier to the 200th Legion. It looks like a post-Collapse fragment of the corporation has taken over this asset and now contracts exclusively to the Hegemony Navy.",
+   "ctx": "data/campaign/rules.csv gaATGdaudMeeting1 [text]"
+  },
+  {
+   "i": 9,
+   "en": "The bay is crowded with transports, military and civilian. Some high-roller has even landed a shimmering S-type Kite, much to the annoyance of the ground crews. A young ensign checks your pass with their datapad then leads you and your bodyguards past the crowd of civilian officials and media drones.\r\n\r\nYou arrive at a checkpoint still setting up for civilian access. The ensign indicates your guards, \"They will have to wait here. And, ah, captain, $playerSirOrMadam. You will have to leave your sidearm with the armorer.\"",
+   "ctx": "data/campaign/rules.csv gaATGdaudMeeting2 [text]"
+  },
+  {
+   "i": 10,
+   "en": "The armorer hands it to another man, not in uniform. You look him over: military bearing, subtle cybernetic augments, civilian clothing with the subtle bulk of light personal armor.\r\n\r\n\"Rivas. High Hegemon Daud's chief of security,\" the ensign tells you.",
+   "ctx": "data/campaign/rules.csv gaATGdaudMeeting3 [text]"
+  },
+  {
+   "i": 11,
+   "en": "Rivas handles your sidearm as if it were his own. With a light touch he slips the cellmag out, checks its status, then reloads it. He hands the weapon back to you.\r\n\r\n\"Captain,\" he says. \"It is the High Hegemon's opinion that if you have earned yourself a Hegemony commission, you may bear your weapon in his presence.\"",
+   "ctx": "data/campaign/rules.csv gaATGdaudMeeting3a [text]"
+  },
+  {
+   "i": 12,
+   "en": "Rivas examines your sidearm as if it were his own. With a light touch, he removes the cellmag and passes it to the armorer. He returns your unloaded weapon to you.\r\n\r\n\"Captain,\" he says, and with a word gives you permission to re-holster your sidearm.",
+   "ctx": "data/campaign/rules.csv gaATGdaudMeeting3b [text]"
+  },
+  {
+   "i": 13,
+   "en": "Rivas examines your sidearm as if it was a bomb. With the lightest touch, he has the cellmag and casing removed, handing both to the attending armorer. He stares you down at you for a long minute. \r\n\r\n\"Captain $playerName,\" he says finally, as if identifying you in a perp lineup.",
+   "ctx": "data/campaign/rules.csv gaATGdaudMeeting3c [text]"
+  },
+  {
+   "i": 14,
+   "en": "Rivas turns to the ensign and says \"I shall escort the captain to see the High Hegemon.\" \r\n\r\nThe ensign begins to salute but catches themself - Rivas is not military, at least not now - then simply nods, \"Sir,\" before turning back to the landing bay.",
+   "ctx": "data/campaign/rules.csv gaATGdaudMeeting4 [text]"
+  },
+  {
+   "i": 15,
+   "en": "Rivas leads you past a half dozen checkpoints set through the guts of the shipyard. At each checkpoint you both submit to a flicker of biometric scan, then a guard nods to Rivas and allows you both passage.\r\n\r\nFinally you enter a utilitarian vestibule. Emergency vac-suit lockers, fire suppression equipment, and safety notices line the walls. A diamond-matrix pane separates this compartment from the enclosed space-dock visible beyond - a perfect, new Eagle-class hull looms, and a gantry hangs toward its bow, festooned with ribbons and a Hegemony banner.",
+   "ctx": "data/campaign/rules.csv gaATGdaudMeeting5 [text]"
+  },
+  {
+   "i": 16,
+   "en": "Rivas steps to the side, his bulk revealing High Hegemon Baikal Daud sitting on a simple folding stool, his splendid uniform coat hanging from a rack, fussed over by a stylist and an advisor.\r\n\r\nDaud looks at you impassively then, without breaking eye contact, commands his entourage: \"Give us the room. Five minutes.\" \r\n\r\nThey leave, then Rivas follows after meeting your eyes one last time.",
+   "ctx": "data/campaign/rules.csv gaATGdaudMeeting6 [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"Captain $playerName,\" he says, and stands, indeed a smaller man than you expected. ",
+   "ctx": "data/campaign/rules.csv gaATGdaudMeeting7a [text]"
+  },
+  {
+   "i": 18,
+   "en": "He smirks, and stands. \"They angle the holos like that. Say it's for image.\"",
+   "ctx": "data/campaign/rules.csv gaATGdaudMeeting7b [text]"
+  },
+  {
+   "i": 19,
+   "en": "His voice holds a deep authority, however, and though you've heard it in holo-casts, with just a few words in-person you can feel why - and how - he leads the Hegemony.  \r\n\r\nDaud taps his datapad, activating a privacy field that dulls the ambient murmur of the shipyard's ventilation.\r\n\r\n\"How's Provost Anahita Baird's project going?\" he asks, \"Bridged any Gates?\"",
+   "ctx": "data/campaign/rules.csv gaATGdaudMeeting8 [text]"
+  },
+  {
+   "i": 20,
+   "en": "His voice holds a deep authority, however, and though you've heard it in holo-casts, with just a few words in-person you can feel why - and how - he leads the Hegemony.  \r\n\r\nDaud taps his datapad, activating a privacy field that dulls the ambient murmur of the shipyard's ventilation.\r\n\r\n\"Ground rules,\" he says. \"There's nothing to discuss about your pet colonial project. We're not here for that.\"\r\n\r\n\"Let's talk about Provost Baird,\" he says, lightening his tone only the barest detectable quantum. \"Bridged any Gates yet?\"",
+   "ctx": "data/campaign/rules.csv gaATGdaudMeeting8a [text]"
+  },
+  {
+   "i": 21,
+   "en": "He ignores you, lifting a bottle of spirits from out of a small box - baijiu from Eventide. It looks expensive. \r\n\r\n\"This is for the newest member of the Hegemony Navy. Eagle-class. After I crack this over hull 0451, it will become the 'Enduring Hope'. How's that for a name?\" He pauses, waiting for your answer.",
+   "ctx": "data/campaign/rules.csv gaATGdaudMeeting9c [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"I know,\" he says, and lifts a bottle of spirits from out of a small box - baijiu from Eventide. It looks expensive. \r\n\r\n\"This is for the newest member of the Hegemony Navy. Eagle-class. After I crack this over hull 0451, it will become the 'Enduring Hope'. How's that for a name?\" He pauses, waiting for your answer.",
+   "ctx": "data/campaign/rules.csv gaATGdaudMeeting9 [text]"
+  },
+  {
+   "i": 23,
+   "en": "Daud raises an eyebrow. \"Huh. Didn't expect an idealist.\"\r\n\r\nHe reverses and hefts the bottle, like a practice swing, and smiles. \"Here's to hope then.\"",
+   "ctx": "data/campaign/rules.csv gaATGdaudMeeting10a [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"I get it,\" Daud says. \"The name is for the Hegemony. All the people in it. The Propaganda Ministry has a list of these they come up with. It's not really intended for you.\"\r\n\r\nDaud considers something, frowning, \"Or me. And yet...\" \r\n\r\nHe reverses and hefts the bottle ironically, like a practice swing.",
+   "ctx": "data/campaign/rules.csv gaATGdaudMeeting10b [text]"
+  },
+  {
+   "i": 25,
+   "en": "Daud doesn't move, just thinks for a moment. \"No, not a poet. A thug, a heavy. A warrior perhaps? Is that what Anahita Baird thinks you are?\"\r\n\r\nHe reverses and hefts the bottle, like a practice swing.\r\n\r\n\"Maybe she'll be in for a surprise,\" he says with a shrug.",
+   "ctx": "data/campaign/rules.csv gaATGdaudMeeting10c [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"Probably,\" he says with a frown. \"The name is for the Hegemony. All the people, you know. The Propaganda Ministry has a list of these things. It's not really intended for you.\" Daud considers, \"Or me. And yet...\" \r\n\r\nHe reverses and hefts the bottle, like a practice swing. \"Here's to hope,\" he says ironically.",
+   "ctx": "data/campaign/rules.csv gaATGdaudMeeting10d [text]"
+  },
+  {
+   "i": 27,
+   "en": "Daud sets the bottle down.\r\n\r\n\"You're here to tell me our new provost wants to renew the old deal. She'll have to make additional concessions, isn't that right? I suppose you'll want to provide me with the details.\"\r\n\r\nHe taps his datapad, opening a channel for you to upload the relevant material Baird provided.",
+   "ctx": "data/campaign/rules.csv gaATGdaudMeeting11 [text]"
+  },
+  {
+   "i": 28,
+   "en": "As you complete the connection with your datapad, Daud speaks. \"What we did to Kallichore was justice. He risked the entire Galatia system, hundreds of thousands of citizens. That might be just one subsector of just one metroplex down there,\" he waves vaguely in the direction of Chicomoztoc.\r\n\r\n\"But,\" his voice hardens, \"I will not allow any 'grand experiments' that endanger these people. I expect Baird realizes that any misstep will be met with the overwhelming force of the Hegemony navy.\"\r\n\r\n\"She's not stupid,\" he says thoughtfully, looking at the cruiser through the diamond-matrix pane, \"But ambition can make a fool of anyone.\"\r\n\r\nHe turns fully toward you, \"Do you trust Baird?\"",
+   "ctx": "data/campaign/rules.csv gaATGdaudMeeting12 [text]"
+  },
+  {
+   "i": 29,
+   "en": "Daud looks you over. \"You'll lead an interesting path, I'm sure,\" he says skeptically. \"By now you must know that Baird does not truly know the meaning of loyalty. Not really, and yet...\" he puts a hand to his chest, \"Here too am I. Hearing her out. So I will not think too poorly of you for your unlikely devotion.\"\r\n\r\n\"Tell Baird I accept,\" he says.",
+   "ctx": "data/campaign/rules.csv gaATGdaudMeeting13a [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"Don't wait too long. The captain must make the judgment and give the order whether or not they have all the information they need. It is scientists who have the luxury of gathering data forever, asking questions and never quite giving answers, only theories.\" \r\n\r\nHe nods at you, \"And you, captain, are no scientist.\"\r\n\r\n\"Tell Baird I accept,\" he says.",
+   "ctx": "data/campaign/rules.csv gaATGdaudMeeting13b [text]"
+  }
+ ]
+}

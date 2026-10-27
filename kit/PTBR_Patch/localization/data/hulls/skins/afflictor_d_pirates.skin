@@ -1,0 +1,21 @@
+{
+	"baseHullId":"afflictor",
+	"skinHullId":"afflictor_d_pirates",
+	"hullName":"Afflictor (P)",
+	"descriptionId":"afflictor",
+	"descriptionPrefix":"Após a Segunda Guerra das IAs, muitas plantas corrompidas tornaram-se disponíveis, obtidas por resgatadores dispostos a arriscar os sistemas estelares abandonados pela Tri-Tachyon. Muitas delas foram vendidas a elementos inescrupulosos, como traficantes do mercado negro e piratas, que prontamente as colocaram de volta em serviço, produzindo naves de baixa qualidade, mas capazes de combate.",
+	"tags":["pirate_bp"],
+	"tech":"Pirata",
+	"fleetPoints":12,
+	"ordnancePoints":40,
+	"baseValueMult":.8,
+	"suppliesToRecover":9,
+	"suppliesPerMonth":9,
+	"spriteName":"graphics/ships/afflictor/afflictor_d_pirates.png",
+	"removeWeaponSlots":["WS 001", "WS 004"], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInWeapons":{
+    },
+}

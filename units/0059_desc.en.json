@@ -1,0 +1,96 @@
+{
+ "chunk": 59,
+ "cat": "desc",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"In response to missile threats or, as we discovered, the approach of a strike-fighter squadron, certain elements or 'fragments' of the standing swarm began radiating exponentially increasing waste-heat. This was the initiating sign, as post-encounter telemetry analysis revealed, of self-destructive power core overload. These 'hot' elements use maneuvering thrusters to intercept the approaching squadron and detonate. The force of multiple micro-fusion reactors overloading and the resulting debris was quite sufficient to tear through light spacecraft armor.\"\r\n\r\n\"A tactical algorithm patch will be issued so that such behavior may be tagged as soon as it is detected by combat-integrated sensor suites.\"",
+   "ctx": "data/strings/descriptions.csv unstable_fragment/WEAPON [text1]"
+  },
+  {
+   "i": 2,
+   "en": "\"Swarming tactics ensure a percentage of attack elements penetrate target's active defensive screen. Surviving elements use their momentum to... attach, or adhere, onto the hull. Semi-autonomous tools and manipulators - one can hardly call them weapons - are deployed to dismantle bulkheads, conduits, ship systems. Recovered materials are passed back to breach sites and on to... they resembled cargo-packet drones, which attempted to return to the mothership with their spoils.\"\r\n\r\n\"Although the machines do not target human crew, those with cybernetic augments - common among spacers and, of course, Company employees and officers - were... harvested. We found it necessary to assign marines to the damage control teams.\"",
+   "ctx": "data/strings/descriptions.csv devouring_swarm/WEAPON [text1]"
+  },
+  {
+   "i": 3,
+   "en": "\"We'll zoom in and... note the distinctive structure of the arc source. Recommend use of shields and EM-hardening when matching features are identified; an updated tactical dataset is attached to this report.\"\r\n\r\n\"Operation proceeded as a strong magnetic field was detected in a member of the standing swarm... before the probe was destroyed, it mapped field lines stretching far beyond the supporting swarm element. As you can see in this final image before the telemetry cut out - let's step back by one frame, before the EM white-out...\"",
+   "ctx": "data/strings/descriptions.csv voltaic_discharge/WEAPON [text1]"
+  },
+  {
+   "i": 4,
+   "en": "\"[Returning results / abbreviated: true] from 'SPECIAL REVIEW of Research and Development of Ultradense-Matter (Exotic) Munition Delivery System'...\"\r\n\r\n\"While this committee concedes that the contractor has demonstrated the means to contain and control a neutronium payload under laboratory conditions - backed by astronomical taxpayer expense, I might add - it has not now, or ever, proven feasibility of battlefield deployment. This committee recommends that funding be withdrawn and- [raised voices, unparseable] and that further applied technological permits in this field be denied to the Tri-Tachyon Corporation pending a full audit of project expenses...\"",
+   "ctx": "data/strings/descriptions.csv neutron_torpedo/WEAPON [text1]"
+  },
+  {
+   "i": 5,
+   "en": "\"[Best match: 'Light Mass Driver weapon system (obsolete)'  / abbreviated: true / show partial match: true / warnings: Variant contains unlicensed modifications. Variant displays unregistered production ID. Variant may be in violation of Domain Technological Safety Standards.]\r\n\r\n\"...which fires a dense, partly ferrous hypervelocity projectile which delivers a respectable kinetic payload for its class.\"\r\n\r\n\"...is a militarized version of the Stencor civilian Mk.III Linear Catapult favored by frontier mining combines. Earned a poor reputation due to accidents caused by unlicensed nanofactured copies.",
+   "ctx": "data/strings/descriptions.csv light_mass_driver/WEAPON [text1]"
+  },
+  {
+   "i": 6,
+   "en": "\"[Best match: 'Heavy Mass Driver weapon system (obsolete)'  / abbreviated: true / show partial match: true / warnings: Variant contains unlicensed modifications. Variant displays unregistered production ID. Variant may be in violation of Domain Technological Safety Standards.]\r\n\r\n\"...which fires a heavy payload of ultradense material with ferromagnetic sheath. The hypervelocity projectiles of the Heavy Mass Driver have been found to be particularly effective at overloading shield-emitters.\"\r\n\r\n\"...is a militarized version of the corporation's heavy civilian model widely employed in terraforming applications. The weapon system was found to be used by anti-Domain 'bandits' on heavy warships and in defensive installations [See also: > Second Uridim Unrest]. Stencor Corporation investigated... found not liable for leak of weapon designs.\"",
+   "ctx": "data/strings/descriptions.csv heavy_mass_driver/WEAPON [text1]"
+  },
+  {
+   "i": 7,
+   "en": "\"[Best match: 'Quadcoil weapon system (obsolete)'  / abbreviated: true / show partial match: true / warnings: Variant contains unlicensed modifications. Variant displays unregistered production ID. Variant may be in violation of Domain Technological Safety Standards.]\r\n\r\n\"The Stencor Corporation quad-mount militarized mass driver is a redesign based on its civilian line of linear catapults. The old solid-composite impactor munition was replaced in this application with a new class of magnetically-propelled SAPHE munitions designed to specifications dictated by the Armada Procurement Council. The Quadcoil added a high velocity ballistic anti-armor weapon system to the Armada's arsenal -- at least to the few battlegroups that could draw upon the initially limited production runs.\"\r\n\r\n\"As the Stencor Corporation failed to meet original quotas, it buckled under pressure to transfer the procurement contract to Orion Shipyards. Stencor later claimed damages from Orion due to the leak of license files to blackweb forge-pirates. [See also: > Stencor, armament scandal, > Stencor, bankruptcy and dissolution]\"",
+   "ctx": "data/strings/descriptions.csv neoferric_quadcoil/WEAPON [text1]"
+  },
+  {
+   "i": 8,
+   "en": "\"Hell's own ball-lightning. Some kinda self-stabilizing plasma shell containing a monopole quasiparticle? That's what the tech said. Well, it was as highly charged as any EMP payload I've ever encountered in combat, however it keeps together over such long range...\"\r\n\r\n\"The strike knocked out the flagship's primary weapons, and most PD. Fried half the data buffers too. A good thing we stream sensors output to hardened cores on the regular, because that's my ticket out of this baleful business. When we get back, I'm taking my share early. Then retirement.\"",
+   "ctx": "data/strings/descriptions.csv voltaic_cannon/WEAPON [text1]"
+  },
+  {
+   "i": 9,
+   "en": "\"The spacetime shearing effect appears to propagate at near, but not exactly, local speed of light. Still working on that one, ruled out sensor miscalibration. Can't speculate at theoretical range; limiting effective factor is the ability to focus within normal space. Damage to unhardened targets is dramatic. I'll have to write up the official report later, we have so much new data coming in... Not sure how the bots could have cooked this one up on their own. Zunya is going to love it.\"",
+   "ctx": "data/strings/descriptions.csv voidblaster/WEAPON [text1]"
+  },
+  {
+   "i": 10,
+   "en": "Closest match found to archive entry for \"Iklwa\"-class frigate, 54.38% confidence. Querying database... \"Agile and, once Armada doctrine matured to the new conditions of the Aquila Brigands' Rebellion, the ubiquitous Iklwa formed the- DOMAIN INFOSEC VIOLATION THRESHOLD WARNING ALERT\r\n// datastream resetting...\r\n\r\n-costly embarrassment at Van Maanen's Star was only the proverbial last rod before criticality. Public outrage at all levels led to the opening of investigation into senior- ERROR // -shall not back down, we shall never withdraw. From the Belt of Orion to the Polaris Frontier, from- FATAL ACCESS ERROR // \r\n\r\nThis TriPad is not authorized to provide additional description for the requested product ID. Please upgrade your data permission level in compliance with Domain Information Security Standards.",
+   "ctx": "data/strings/descriptions.csv skirmish_unit/SHIP [text1]"
+  },
+  {
+   "i": 11,
+   "en": "Closest match found to archive entry for \"Fulgurite\"-class frontier support cruiser, 53.03% confidence. Querying database... \"A standout of Orion Shipyards design in the post-'Emerald Age' exodus, this frontier-rated utility platform featured a spinal-mount microwave emitter modulated for orbit-to- DOMAIN INFOSEC VIOLATION THRESHOLD WARNING\r\n// datastream resetting...\r\n\r\n-and she said \"Let the forges bloom in our Human Domain; so be crowned in the wealth and glory of a thousand stars!\" Although the quote is attributed to- ERROR // -the Terran Core to the Sadr Region, our battlegroups stand ready to protect our way of life, our very existence!\" FATAL ACCESS ERROR //\r\n\r\nThis TriPad is not authorized to provide additional description for the requested product ID. Please upgrade your data permission level in compliance with Domain Information Security Standards.",
+   "ctx": "data/strings/descriptions.csv overseer_unit/SHIP [text1]"
+  },
+  {
+   "i": 12,
+   "en": "Closest match found to archive entry for \"Erebid\"-class destroyer (recategorized), 43.87% confidence. Querying database... \"Armada leadership, most of whom escaped direct prosecution via the 'Grey Wave' which saw nearly four hundred senior officers resign fro- DOMAIN INFOSEC VIOLATION THRESHOLD WARNING\r\n// datastream resetting...\r\n\r\n-of the Interstellar Quality and Design Assurance Reforms - a series of acts passed over an energetic dozen cycles by the representative body of the Human Domain and only so-called by later historians - which build the legal basis for sweeping enforcement of fabrication rights management (henceforth- FATAL ACCESS ERROR //\r\n\r\nThis TriPad is not authorized to provide additional description for the requested product ID. Please upgrade your data permission level in compliance with Domain Information Security Standards.",
+   "ctx": "data/strings/descriptions.csv assault_unit/SHIP [text1]"
+  },
+  {
+   "i": 13,
+   "en": "IDENTIFICATION ERROR: Target matches no known class of ship in the Domain registry or historical reference. Submit data for temporary entry? Processing. ERROR // DOMAIN INFOSEC VIOLATION THRESHOLD WARNING\r\n// retry?\r\n Processing. ERROR // DOMAIN INFOSEC VIOLATION THRESHOLD WARNING\r\n// retry?\r\n Processing. ERROR // DOMAIN INFOSEC VIOLATION THRESHOLD WARNING\r\n// process failed.\r\n\r\nIMMEDIATELY contact DOMAIN INFOSEC to review compliance with Domain Information Security Standards.",
+   "ctx": "data/strings/descriptions.csv hive_unit/SHIP [text1]"
+  },
+  {
+   "i": 14,
+   "en": "Closest match found to archive entry for \"Kardakes\"-class hull, 32.11% confidence. Querying database... \"Firstly intended to replace the Hathoda-class orbital siege-capable heavy ballistic weapons platform, then considered a capital-class warship in its own right before the 4th Domain Armada Revised Schema reclassification order, the Kardakes was first deployed to battle conditions during the retaking of the Eridani Insurrec- DOMAIN INFOSEC VIOLATION THRESHOLD WARNING\r\n// datastream resetting...\r\n\r\n-aking technology of 'signatures' embedded at the nanochemical level by the nanoforge itself with only minimal effects on overall structural in- FATAL ACCESS ERROR // \r\n\r\nThis TriPad is not authorized to provide additional description for the requested product ID. Please upgrade your data permission level in compliance with Domain Information Security Standards.",
+   "ctx": "data/strings/descriptions.csv standoff_unit/SHIP [text1]"
+  },
+  {
+   "i": 15,
+   "en": "Closest match found to archive entry for \"Ilmari\"-class mobile fabricator hull, 60.33% confidence. Querying... \"Despite the megadeath incident at Hipparcos during the 3rd cycle of the 204th assembly, this author argues that it was an act of human error bordering on malfeasance rather than automation which accounts for- DOMAIN INFOSEC VIOLATION THRESHOLD WARNING\r\n// datastream resetting... \r\n\r\n-ide frontier manufacturing base to leapfrog development in systems newly added to the Gate Network, particu- FATAL ACCESS ERROR //\r\n\r\nThis TriPad is not authorized to provide additional description for the requested product ID. Please upgrade your data permission level in compliance with Domain Information Security Standards.",
+   "ctx": "data/strings/descriptions.csv fabricator_unit/SHIP [text1]"
+  },
+  {
+   "i": 16,
+   "en": "\"Between intercept telemetry and salvage we are forced to conclude that there is no fixed designation, no identity, to individual swarm elements. They are defined by function alone.\"\r\n\r\n\"Components, sub-components, even larger structures perform interchangeable roles between fragments yet each piece demonstrates a unique form which is adapted in-situ to the parent assembly. It's... the nightmare of some mad engineer.\"",
+   "ctx": "data/strings/descriptions.csv attack_swarm/SHIP [text1]"
+  },
+  {
+   "i": 17,
+   "en": "This is the venerable design, the forerunner, the progenitor: the Onslaught Mk.I battleship. Its lines are strange, even atavistic, to modern eyes. It was created to serve the Domain Armada long ago against some existential threat long forgotten, shrouded by the mists of time and propaganda. \r\n\r\nIt is not without modifications: the fuel capacity has been increased and the primitive integrated hyperdrive optimized. No shield system; this ship instead mounts two huge applique armor modules. These are intended to be removed for repair after taking battle damage and replaced with spares kept in the logistics train. A bafflingly robust form of electromechanical automation has been installed throughout all major subsystems.\r\n\r\nThe brutal power of the Onslaught-class wielded by the Human Domain for thousands of cycles is obvious even in this, its primitive form.",
+   "ctx": "data/strings/descriptions.csv onslaught_mk1/SHIP [text1]"
+  },
+  {
+   "i": 18,
+   "en": "A huge piece of applique armor to be mounted on the left flank of the Onslaught Mk.I, allowing the ship to wade through impossibly heavy fire to focus on its primary target. The modular design was originally intended to minimize shipyard downtime.",
+   "ctx": "data/strings/descriptions.csv module_onslaught_armor_left/SHIP [text1]"
+  }
+ ]
+}

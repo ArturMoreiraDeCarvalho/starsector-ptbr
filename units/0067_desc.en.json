@@ -1,0 +1,196 @@
+{
+ "chunk": 67,
+ "cat": "desc",
+ "items": [
+  {
+   "i": 1,
+   "en": "This Hegemony logistics center supplies fleets capable of projecting power throughout the strategically vital Arcadia system. The utilitarian grace and sweeping rings of its core construction date from before the Collapse when the station was a volatiles siphoning facility. Later, crude weapons pods and armored nodules assembled from hulks destined for Agreus were added in response to the risk of surprise raids against this vital concentration of materiel.",
+   "ctx": "data/strings/descriptions.csv station_arcadia/CUSTOM [text1]"
+  },
+  {
+   "i": 2,
+   "en": "A Domain-era orbital fusion lamp, capable of providing ample light and heat to a planet.",
+   "ctx": "data/strings/descriptions.csv fusion_lamp/CUSTOM [text1]"
+  },
+  {
+   "i": 3,
+   "en": "A transient energetic concentration of unknown origin found only in abyssal hyperspace.",
+   "ctx": "data/strings/descriptions.csv abyssal_light/CUSTOM [text1]"
+  },
+  {
+   "i": 4,
+   "en": "Various food products, preserved and packaged for export. Guaranteed shelf-life of no fewer than five Domain-standard years.",
+   "ctx": "data/strings/descriptions.csv food/RESOURCE [text1]"
+  },
+  {
+   "i": 5,
+   "en": "Bulk complex carbon-based molecules and derivatives thereof with applications in plastics, fuels, solvents, polymers, food products, biotech, life support, and a vast array of other necessities.",
+   "ctx": "data/strings/descriptions.csv organics/RESOURCE [text1]"
+  },
+  {
+   "i": 6,
+   "en": "Rare isotopes of lighter elements - such as deuterium - with critical applications in fuel production and other advanced industrial processes.",
+   "ctx": "data/strings/descriptions.csv volatiles/RESOURCE [text1]"
+  },
+  {
+   "i": 7,
+   "en": "Includes ores of both ferrous and common non-ferrous metals. Must be refined to be of use to industry.   ",
+   "ctx": "data/strings/descriptions.csv ore/RESOURCE [text1]"
+  },
+  {
+   "i": 8,
+   "en": "Unprocessed heavy elements that may include rare earths, actinides, and more exotic minerals essential to advanced industrial and research applications.",
+   "ctx": "data/strings/descriptions.csv rare_ore/RESOURCE [text1]"
+  },
+  {
+   "i": 9,
+   "en": "Refined forms of both ferrous and common non-ferrous metals used in most construction and goods production. Ingots follow traditional Domain standards.",
+   "ctx": "data/strings/descriptions.csv metals/RESOURCE [text1]"
+  },
+  {
+   "i": 10,
+   "en": "Refined heavy elements, including common actinides and other, heavier, exotics essential to high-energy systems and advanced research applications.",
+   "ctx": "data/strings/descriptions.csv rare_metals/RESOURCE [text1]"
+  },
+  {
+   "i": 11,
+   "en": "Various standardized modules for manipulating matter on an industrial scale. They accept manual input, most common design template formats, or can be slaved to network control.",
+   "ctx": "data/strings/descriptions.csv heavy_machinery/RESOURCE [text1]"
+  },
+  {
+   "i": 12,
+   "en": "These are the mass-produced clothing, gadgets, wares, and goods that have enabled people to live a comfortable life since the establishment of industrialized spacefaring civilization.",
+   "ctx": "data/strings/descriptions.csv domestic_goods/RESOURCE [text1]"
+  },
+  {
+   "i": 13,
+   "en": "Organ replacement is a well-established practice but the materials are delicate and growing them a fickle process. There’s always a market in healthy organs and always a source if one doesn’t ask too many questions.",
+   "ctx": "data/strings/descriptions.csv organs/RESOURCE [text1]"
+  },
+  {
+   "i": 14,
+   "en": "Banned on some worlds, the \"chemical arts\" include a dizzying array of products sought by those seeking a bit of fun, expanded consciousness, or simply an escape from their miserable lives.",
+   "ctx": "data/strings/descriptions.csv drugs/RESOURCE [text1]"
+  },
+  {
+   "i": 15,
+   "en": "Armaments ranging from heavy squad-level weapons to mechs, tanks, and hovercraft. Private use is banned on most worlds. Largely disassembled and not suitable for use in quick raids.",
+   "ctx": "data/strings/descriptions.csv hand_weapons/RESOURCE [text1]"
+  },
+  {
+   "i": 16,
+   "en": "The elite of any world of the Sector desire precious things, rare and well-made by actual human artisans.",
+   "ctx": "data/strings/descriptions.csv luxury_goods/RESOURCE [text1]"
+  },
+  {
+   "i": 17,
+   "en": "Constructed from wood grown naturally on planets and made by hand-tools according to methods passed from master to apprentice, Luddic furniture is a rare and highly prestigious possession in the Sector.",
+   "ctx": "data/strings/descriptions.csv luddic_furniture/RESOURCE [text1]"
+  },
+  {
+   "i": 18,
+   "en": "Low-tier and often technically defective - \"export grade\" - ship hulls and armaments which are sufficient to equip mercantile convoys and form basic system defense patrols. High-volume trade in top tier starship materiel is virtually non-existent across faction lines.",
+   "ctx": "data/strings/descriptions.csv ships/RESOURCE [text1]"
+  },
+  {
+   "i": 19,
+   "en": "A geologically unstable moon due to proximity to the gas giant Yggdrasil, tidal forces endlessly heat and churn the innards of Nidhogg. Fissures and volcanoes dot the surface and the lava they spew flows for many kilometers across the charred crust.",
+   "ctx": "data/strings/descriptions.csv planet_nidhogg/CUSTOM [text1]"
+  },
+  {
+   "i": 20,
+   "en": "A lifeless and barren rocky-silicate moon with a wisp of atmosphere that incandesces faintly when struck by Yggdrasil’s radiation belts.",
+   "ctx": "data/strings/descriptions.csv planet_ratatosk/CUSTOM [text1]"
+  },
+  {
+   "i": 21,
+   "en": "Water and ammonia ice form the immense rifts and chaotically furrowed plains of this world. Below the surface, small pockets of lifeless liquid ocean are trapped between the ice and a crust made of rocky silicates. Most of the sprinkling of domed cities remain abandoned since the Collapse, though recent Hegemony strategic policy has encouraged re-industrialization and settlement, especially by Hegemony veterans.",
+   "ctx": "data/strings/descriptions.csv planet_raesvelg/CUSTOM [text1]"
+  },
+  {
+   "i": 22,
+   "en": "Drifts of nitrogen and methane ice form most of the crust over a rocky silicate/ice mantle which pierces the cowl of this frozen moon. The Hegemony once granted Tri-Tachyon a license for exclusive development, consisting primarily of a sprawling processing plant for volatiles siphoned from Niflheim and the requisite support infrastructure. Rumors abound that it's all the cover story for a secret research facility performing science deemed illegal under Domain law, but inspectors sent in times of Tri-Tachyon cooperation have never included anything untoward in their reports.",
+   "ctx": "data/strings/descriptions.csv planet_skathi/CUSTOM [text1]"
+  },
+  {
+   "i": 23,
+   "en": "The boneyard of the Hegemony; in addition to the garrison stationed here to support system patrols and a fleet-in-being to discourage League incursions, the Ragnar complex stores ship hulks awaiting refurbishing or the haul to Arcadia for ship-breaking, a task generally contracted to friendly megacorps. The station is traditionally commanded by an aging senior officer sent to quietly live out their mediocrity.",
+   "ctx": "data/strings/descriptions.csv station_ragnar/CUSTOM [text1]"
+  },
+  {
+   "i": 24,
+   "en": "The product of a Tri-Tachyon initiative to modify the common gas-giant \"mine\" which siphons gases using the Ouyang Process which, although energy-hungry, becomes self-sustaining once a steady pull of heavy isotopes is attained. From Niflheim a particularly heavy mix of volatiles can be drawn, and these are processed on the moon of Skathi into countless useful forms.",
+   "ctx": "data/strings/descriptions.csv station_mimir/CUSTOM [text1]"
+  },
+  {
+   "i": 25,
+   "en": "A small terrestrial planet, Maxios was once the cosmopolitan hub of the system. Now spotted with ruins and impacts both ancient and fresh, the crumbling orbital defense system provides only intermittent coverage. The polity has effectively collapsed and the current population is unknown. Looters and survivors clash occasionally, the weapons-blink and electromagnetic noise of low-level combat sputtering like a gas giant’s electrical storms.",
+   "ctx": "data/strings/descriptions.csv planet_maxios/CUSTOM [text1]"
+  },
+  {
+   "i": 26,
+   "en": "Anomalously close to its parent star, this gas giant probably formed in the outer system and later migrated inward due to a chance encounter with some rogue cosmic mass. Primarily composed of hydrogen and helium gases, the temperature and pressure at the core are extreme. ",
+   "ctx": "data/strings/descriptions.csv hot_gas_giant/CUSTOM [text1]"
+  },
+  {
+   "i": 27,
+   "en": "Seat of the local branch of the Luddic Church and economic center of the system. The quiet cosmopolitan centers of Tartessus housing the Eos Exodus Curia are clustered around calm, warm seas. The world's population is dominated by Luddic practitioners of various sects and, while large, is mostly rural and agrarian, eking out a generally devout existence through subsistence farming and export of handcrafts.",
+   "ctx": "data/strings/descriptions.csv planet_tartessus/CUSTOM [text1]"
+  },
+  {
+   "i": 28,
+   "en": "A dwarf-planet from the outer system captured in the L4 of Tartessus, clouds of volatiles evaporate from the battered surface of this world. The weathered infrastructure left from the initial colonization of the system has been re-settled by a lively population of out-of-system nonbelievers and dissidents exiled from Tartessus. The spaceport itself operates under a military administration sponsored by the Knights of Ludd, who collect tithes from commercial activity.",
+   "ctx": "data/strings/descriptions.csv planet_baetis/CUSTOM [text1]"
+  },
+  {
+   "i": 29,
+   "en": "Site of a former research base operated by the Tri-Tachyon Corporation, a massive containment failure released a highly energetic and seemingly self-sustaining process or object which melted into the crust leaving a plume of strange radiation which spews exotic particles to this day. The moon is abandoned of all human activity but for a network of orbiting hazard beacons maintained by the Knights of Ludd.",
+   "ctx": "data/strings/descriptions.csv planet_daedaleon/CUSTOM [text1]"
+  },
+  {
+   "i": 30,
+   "en": "An ice-world with a thin, cold atmosphere, industrial terraforming of the planet was halted around the time of the Luddic takeover of the Eos Exodus system. Virtue may be found in hardship and the Knights embrace this hardship in the martial monastic communities scattered on the surface of Hesperus. Limited organics mining is permitted with contracts awarded exclusively to the Faithful. The administration of Ceyx and Hesperus is shared in the office of a single Presbyter Orbis.",
+   "ctx": "data/strings/descriptions.csv planet_hesperus/CUSTOM [text1]"
+  },
+  {
+   "i": 31,
+   "en": "A captured dwarf planet which holds the largest concentration of military facilities in the Eos Exodus system. The Knights have appropriated and extended vast subsurface ship facilities, armories, barracks, and all the training, administration, and housing facilities one would expect of the home of the Luddic Armada. The administration of Ceyx and Hesperus is shared in the office of a single Presbyter Orbis.",
+   "ctx": "data/strings/descriptions.csv planet_ceyx/CUSTOM [text1]"
+  },
+  {
+   "i": 32,
+   "en": "A hot gas giant world in close orbit of Magec; composed mostly of hydrogen and helium gases, the temperature and pressure at the core are extreme. Due to proximity to its primary, the outer layers of Chaxiraxi are continually heated and stripped away in long plumes of shimmering ionized particles. Gas-skimmers occasionally deploy the airy wings of magfield collectors to harvest these light volatiles.",
+   "ctx": "data/strings/descriptions.csv planet_chaxiraxi/CUSTOM [text1]"
+  },
+  {
+   "i": 33,
+   "en": "Once a major hub of harvesting operations in the Disk, the station was swarmed by refugees from the Maxios collapse and this hub of processing facilities was turned into a civilian habitat. Through desperate tenacity and hard-earned know-how, the refugees built not only a new civil society but an orbital works supporting scattered asteroid mines and independent surveyors.",
+   "ctx": "data/strings/descriptions.csv station_new_maxios/CUSTOM [text1]"
+  },
+  {
+   "i": 34,
+   "en": "This station is a center of mercenary recruitment and a commercial interface with unsavory elements. A Tri-Tachyon task force took over the station some decades ago with a plausible-looking deed and a definitively persuasive warfleet. Thereafter, a TT-certified trade port and starship dock were organized for use by Company fleets. Those who refused to pay the new rents were evicted; client satisfaction is now rumored to exceed 90 percent.",
+   "ctx": "data/strings/descriptions.csv station_tse_enterprise/CUSTOM [text1]"
+  },
+  {
+   "i": 35,
+   "en": "This asteroid habitat was taken by a wildly ambitious Domain logistics officer, Colonel Kanta, during the collapse of the Maxios Charter polity not long after the fall of the Gates. She subsequently joined with the Domain successor-state Hegemony only to betray them to cut a deal with the Warlord Onesimos Loke during his invasion of the Persean Sector. After Loke was defeated, Kanta took the title of warlord for herself.\r\n\r\nThe station is protected by a cloud of stealth-mines and crude firebases. Kanta herself, now rumored to be nearly two hundred years old in waking time, heads a minor pirate dynasty and still holds tight personal control over 'the family business'.",
+   "ctx": "data/strings/descriptions.csv station_kantas_den/CUSTOM [text1]"
+  },
+  {
+   "i": 36,
+   "en": "An enormous space station which can host shipyards, habitats, factories, or large stockpiles of weapons and supplies. These platforms allow humanity to project military and industrial power throughout known space.",
+   "ctx": "data/strings/descriptions.csv orbital_station_default/CUSTOM [text1]"
+  },
+  {
+   "i": 37,
+   "en": "The Ko Combine r450 \"Shepherd\" sets the standard for civilian drone tenders with unmatched reliability, low cost, and internal volume given to crew comfort. A wildly popular combat modification package has been assembled by various survivalist and pirate groups, the \"HK\" mod, which consists of specifications to up-armor the hull for combat and supercharge factory-spec systems for greater burst speed and weapon function. Even modified, the Shepherd is fragile, so as in civilian life it relies on a swarm of “Borer” utility drones to do its work.\r\n\r\nThe \"Borer\" is built on a hardy, maneuverable semi-autonomous drone chassis with shielding suitable for hazardous operations in which high radiation or physical impacts may be expected. Commonly used in mining applications, they have also found use in salvage, ordnance disposal, and even fission meltdown clean-up. The HK mod package gives specifications for altering the primary cutting beam's focus and patches the rudimentary AI with crude tactical algorithms pirated from obsolete Domain Colonial Garrison drone software. Appendices of the mod package recommend caution when employing HK-modified drones in non-combat situations.",
+   "ctx": "data/strings/descriptions.csv shepherd/SHIP [text1]"
+  },
+  {
+   "i": 38,
+   "en": "Inspired by the martyrdom of a figure known as 'Ludd' during the fall of the Domain, the Church of Galactic Redemption is a hierarchical church with highly syncretic dogma formed from a core of Abrahamic texts and apocrypha along with Domain-era reaction against perceived corruption, depravity, hedonism, and transhuman abomination. The Church offers a vision of life lived more simply, of agrarian virtue and humanistic values and prayer against the violence and technological alienation that's torn the Sector apart in the years since the Fall.",
+   "ctx": "data/strings/descriptions.csv luddic_church/FACTION [text1]"
+  }
+ ]
+}

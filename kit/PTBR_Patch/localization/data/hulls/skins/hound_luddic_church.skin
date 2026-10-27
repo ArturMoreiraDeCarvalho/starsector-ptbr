@@ -1,0 +1,17 @@
+{
+	"baseHullId":"hound",
+	"skinHullId":"hound_luddic_church",
+	"hullName":"Hound (LC)",
+	"descriptionId":"hound",
+	"spriteName":"graphics/ships/hound/hound_luddic_church.png",
+	"descriptionPrefix":"Esta nave recebeu as marcações da Igreja Luddita. As modificações nos sistemas são, de resto, superficiais.",
+	"tags":["LC_bp"],
+	"tech":"Igreja Luddita",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":[],
+	"builtInWeapons":{
+    },
+}

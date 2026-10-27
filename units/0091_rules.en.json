@@ -1,0 +1,146 @@
+{
+ "chunk": 91,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "You order your $shipOrFleet to traverse the dead gateway. Your bridge crew is especially quiet during the passage.\r\n\r\nNothing happens.",
+   "ctx": "data/campaign/rules.csv gateFlyThrough [text]"
+  },
+  {
+   "i": 2,
+   "en": "Your command display is overlaid with a representation of the hyperspace manifold surrounding the Gate. It is calm and cool, devoid of drive-wakes.\r\n\r\nAs the scan begins you watch a line of disruption flare between the icon representing your flagship and the icon representing the Gate. Spirals and ripples spill out in non-Newtonian waves, surging from a point at the center of the Gate. No, it's not a point - a circle, a sphere, a torus and inverted funnel; then some other form that makes you squeeze your eyes shut. You hear faint music from far away.\r\n\r\n\"Captain?\" Your sensors officer is looking at you, \"The scan is complete.\" You realize it's the second time they said this, and you gesture as if you were simply lost in thought.",
+   "ctx": "data/campaign/rules.csv gateScanSelFirstTime [text]"
+  },
+  {
+   "i": 3,
+   "en": "Your command display shows a representation of the hyperspace manifold. It is calm and cool.\r\n\r\nThe scan begins, a line of disruption flaring between your flagship and the Gate. Spirals and ripples spill and surge in non-Newtonian bursts from a point at the center of the Gate. No, not a point - a circle, a sphere, a torus and inverted funnel; then some geometry that does not parse.\r\n\r\nYou hear the faint music.\r\n\r\n\"Captain,\" your sensors officer reports, \"The scan is complete.\"",
+   "ctx": "data/campaign/rules.csv gateScanSelDuringMission [text]"
+  },
+  {
+   "i": 4,
+   "en": "Your command display shows the hyperspace manifold. It is calm and cool.\r\n\r\nThe scanning beam flares in the hyperdimensional display. Spirals and ripples spill in bursts from the Gate, surging into inconceivable geometry. You hear a wisp of faint music.\r\n\r\n\"Captain,\" your sensors officer reports, \"The scan is complete.\"",
+   "ctx": "data/campaign/rules.csv gateScanSel [text]"
+  },
+  {
+   "i": 5,
+   "en": "You personally see off the party of Luddic faithful who maintained vigil from your flagship. Their fleet is returning; their collective devotion uninterrupted.\r\n\r\n\"Blessings of Ludd upon you, captain,\" says their leader. \"I shall speak well of you to the Prophet Returned.\"\r\n\r\nYou know to nod in acceptance without raising any theological questions, and give a polite wave as their shuttle leaves the bay.",
+   "ctx": "data/campaign/rules.csv gaATGgateScanSummaryLuddic2 [text]"
+  },
+  {
+   "i": 6,
+   "en": "A cold light fills the viewscreen, stark against the utter darkness of the hyperspace abyss. It seems to pulse, shifting dimmer and then brighter, following no discernable pattern. It does not flicker like a flame, nor like a failing comms signal, but like... something at the edge of your consciousness. It is...\r\n\r\nYou find you are able to anticipate the rhythm, more seen than heard, the dancing light filling your vision...\r\n\r\nA polite cough from your sensors officer brings you back to the present. \"$PlayerSirOrMadam?\"",
+   "ctx": "data/campaign/rules.csv abyssalLightBegin [text]"
+  },
+  {
+   "i": 7,
+   "en": "The cold light fills the viewscreen, stark against the abyss. The subtle pulse of the light begs for attention, but gives no promise of comfort.\r\n\r\nYou give your head half a shake, centering your attention on your bridge officers to give your next order.",
+   "ctx": "data/campaign/rules.csv abyssalLightBeginAgain [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"It's an abyssal light, $playerSirOrMadam.\"\r\n\r\nYour sensors officer quickly realizes that this statement is as obvious as it is unilluminating.\r\n\r\n\"And. We don't know exactly what it... is. There's fragmentary pre-Collapse data. Some academicians speculate that it might be a spontaneous buildup of dark energy, maybe, around a temporary hyperspace quasistructure, a sort of knot in higher dimensions that alters the physical effects of... whatever it is.\"\r\n\r\nYou catch your ops chief making the spacer hand-sign for 'all seals confirmed safe', a sort of ward against evil.",
+   "ctx": "data/campaign/rules.csv abyssalLight_whatSel [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"They're not known, um, to be dangerous,\" your sensors officer continues, tapping at the console. \"The drive field should keep us safe.\"\r\n\r\n\"It does appear to be highly unstable. They always are, and they're difficult to properly scan. I think if we tried an active scan or fired off an interdiction pulse it would collapse; the resulting discharge might allow us to chart local hyperspace topography.\"",
+   "ctx": "data/campaign/rules.csv abyssalLight_whatSel2 [text]"
+  },
+  {
+   "i": 10,
+   "en": "Your ops chief, normally unflappable, almost flinches.\r\n\r\n\"$PlayerSirOrMadam. No, $playerSirOrMadam.\"\r\n\r\nYou let the silence linger, letting ops know that denial is not enough of an answer.\r\n\r\n\"Captain.\" Ops looks at you directly. \"It's said to be... bad luck to meddle with things this deep in hyperspace.\" Ops stands up straighter, \"I've no technical opinion; I raise the point only as a matter of crew morale. Mere dockside superstition, I'm sure.\"",
+   "ctx": "data/campaign/rules.csv abyssalLightAskOps [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"$PlayerSirOrMadam,\" your ops chief says, then turns back to the main display, determined to make nothing more of it.",
+   "ctx": "data/campaign/rules.csv abyssalLightAskOpsOutA [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"Understood, $playerSirOrMadam.\" Your ops chief turns back to the main display, determined to make nothing more of it.",
+   "ctx": "data/campaign/rules.csv abyssalLightAskOpsOutB [text]"
+  },
+  {
+   "i": 13,
+   "en": "Cold light fills the primary display, stark against the abyss. The subtle pulse begs for your attention yet offers no promise of comfort.\r\n\r\nAfter a moment you consciously pull your eyes from the pitiless sight, centering your attention on your bridge officers to give your next order.",
+   "ctx": "data/campaign/rules.csv abyssalLightDwellerBegin [text]"
+  },
+  {
+   "i": 14,
+   "en": "Cold light begins to grow in the primary display. A subtle pulse begs for your attention.\r\n\r\n\"Captain, I-\" It's your navigation officer, who glances at sensors and receives a nod. \"The light is moving. Coming closer.\"\r\n\r\nYou consciously pull your eyes from that comfortless light - diminished but not bereft of its call through even the meager medium of the primary display.\r\n\r\nIt's come to you.",
+   "ctx": "data/campaign/rules.csv abyssalLightDwellerNonLight [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"$PlayerSirOrMadam!\" Your sensors officer's voice is strained. \"Picking up - from the light - they came from out of nowhere!\" \r\n\r\nNavigation interrupts, \"$ShipOrFleet drive bubble in the red, instability increasing... holding... alert to multiple penetrations. N-space fissures detected inside the volume.\"\r\n\r\nA pause as the bridge crew takes in the eruption of alerts on their displays. Tactical takes initiative and activates the combat alarm to send all crew to battle stations. Frantic activity from all posts, chatter between the stations coordinating response.\r\n\r\nSensors calls over the low din: \"It's homing in on our active sensor emissions.\"",
+   "ctx": "data/campaign/rules.csv abyssalLight_dwellerContSel [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"Aye $playerSirOrMadam! Executing.\" Sensors barks, then deftly executes a series of overrides. \r\n\r\nYour $shipOrFleet status is up on the central display - shield bubble an unsteady amber, incursions of N-space fissures marked in garish red. A blink of white as active sensors trigger and-\r\n\r\n-pressure on the drive bubble spikes, an amber flash, a cacophony of alarms...\r\n\r\n* * *\r\n\r\nA hidden blackness waiting, lurking, jolts awake. Tendrils lunge eagerly, hungrily, through fissures in the dark behind the night.",
+   "ctx": "data/campaign/rules.csv abyssalLight_maxSensorsSel [text]"
+  },
+  {
+   "i": 17,
+   "en": "At your command, the unperceived chorus of a multitude of ship systems and machinery dies down with a deepening sigh into muted quietude.\r\n\r\nAll that remains is the breath and bodies of your bridge crew, a strange assertion of your shared humanity. \r\n\r\nBackup e-lighting, simple chemical things, provide an eerie glow. A series of dimly pulsing commands illuminate your executive interface - a flock of ardent subsystems ready to awaken from minimum operation at your touch.\r\n\r\n* * *\r\n\r\nA hidden blackness feels the brush of a shadow. Less than a morsel, unworthy of wakefulness. By some analog of distributed instinct a few listless tendrils explore this disturbance, this ripple in the darkness behind the night.",
+   "ctx": "data/campaign/rules.csv abyssalLight_emConSel [text]"
+  },
+  {
+   "i": 18,
+   "en": "You wait.\r\n\r\nAlarms are reset, battle restraints engaged. Activity on the bridge gradually quiets as all officers, crew, and systems reach a state of readiness, even anticipation - fight or flight.\r\n\r\nThe incursions crawl closer to the center of your display volume, expanding unwaveringly and intentionally. \r\n\r\nAll eyes are on command interfaces, and all attention is on your next order.",
+   "ctx": "data/campaign/rules.csv abyssalLight_dwellerWaitSel [text]"
+  },
+  {
+   "i": 19,
+   "en": "You join your technology officer and engineering chief in a small briefing room overlooking the shop bay dedicated to what has been euphemistically dubbed \"special salvage\".\r\n\r\nHaz-suited technicians attend to the containment machinery, stepping over coils of tube and wire. A mess of makeshift components were pulled from the common microforge libraries then torn apart and re-engineered to operate in this unusual, even extraordinary, application.\r\n\r\nEngineering wears a frown, tapping a TriPad as they observe the ongoing work. Tech can barely contain their excitement. \r\n\r\n\"$PlayerSirOrMadam,\" they say in unison at your arrival.",
+   "ctx": "data/campaign/rules.csv shroudedSubstrateBegin [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"Exotic matter!\" Tech exclaims.\r\n\r\nEngineering interrupts. \"Another way of saying 'we don't know what it is', and 'it doesn't act how physics says it should'.\" \r\n\r\nYour technology officer begins again, enthusiasm tempered - somewhat. \"Obviously, I was about to- $playerSirOrMadam,\" Tech turns to face only you, perhaps to curb further interruptions. \"Analysis is preliminary and proceeding,\" a quick glimpse at the frowning engineering chief, \"carefully.\"",
+   "ctx": "data/campaign/rules.csv shroudedSubstrateBegin2 [text]"
+  },
+  {
+   "i": 21,
+   "en": "Your engineering chief makes a show of looking to Tech expectantly, mouth quite intentionally shut. It appears they've had this argument already.\r\n\r\n\"As, um.\" Tech passes a look of consternation back toward your chief engineer.\r\n\r\n\"In truth, I could not say, exactly. And unfortunately we're not equipped to perform a full scientific investigation. Clearly it is a part of, or a product of the, the... hostile force which we bested. But to know what it IS... you'd need a full science team and laboratory facilities to even begin to approach the right questions, to say nothing of answers...\"",
+   "ctx": "data/campaign/rules.csv shroudedSubstrateOptSelA [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"Yes, exactly.\" Tech nods. \"Although...\"",
+   "ctx": "data/campaign/rules.csv shroudedSubstrateOptSelAga [text]"
+  },
+  {
+   "i": 23,
+   "en": "Your engineering chief answers. \"Yes, there's nothing like this in the public archives. The Galatia Academy is supposed to be neutral. But as you know, $playerSirOrMadam, the Hegemony will reach in to put its hands on the controls, so to speak, if it sees something it doesn't like. The Hegemony doesn't like disruption. And this...\"\r\n\r\nA hand is extended to indicate the contents of the workbay.\r\n\r\nTech nods agreement, \"The Ministry of Technology Standards would surely seize such specimens. I could not say what they would do with them, but we would not see them ever again. That much is certain.\"",
+   "ctx": "data/campaign/rules.csv shroudedSubstrateOptSelAga2 [text]"
+  },
+  {
+   "i": 24,
+   "en": "Tech nods, \"Yes, their facilities would be more than able to perform this research. And,\" a smile, \"they are likely to pay very well, if what they say is true.\"",
+   "ctx": "data/campaign/rules.csv shroudedSubstrateOptSelAtt [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"The Company pays very well indeed for unique specimens,\" Tech explains. \"Artifacts; Domain tech, xenobiology. Anything unknown to the present Persean Sector, anything strange which might demonstrate uncommon principles or serve an unexpected use.\"",
+   "ctx": "data/campaign/rules.csv shroudedSubstrateOptSelAttA [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"Independent salvors, scavengers, fringe surveyors,\" Tech explains.\r\n\r\n\"Those sorts of people who might find artifacts, specimens; Domain tech, xenobiology. Anything unknown to the present Persean Sector, anything strange which might demonstrate uncommon principles or serve unexpected use. Tri-Tachyon makes it known that great rewards will be paid if they are brought 'examples of special interest'.\"",
+   "ctx": "data/campaign/rules.csv shroudedSubstrateOptSelAttB [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"Extremely,\" Tech answers, exchanging a look with your chief engineer. \"If the energy output ratio scales as projected...\"\r\n\r\n\"It's dangerous,\" Engineering says. \"It's almost too easy to build a weapon with this 'substrate'. Imagine if the Pathers-\"\r\n\r\n\"-Yes, yes, another Mairaath,\" Tech interrupts. \"As with any applied technology, sufficiently powerful, it could... $playerSirOrMadam. To answer your query, yes, extremely valuable.\"",
+   "ctx": "data/campaign/rules.csv shroudedSubstrateOptSelB [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"Very,\" your technology officer exchanges another look with Engineering. \"In my professional opinion.\"\r\n\r\n\"When stabilized, and... provoked, it appears to create energy from... somewhere else. Or transform it, enhance it. The gain is spectacular.\"\r\n\r\nYour chief engineer steps forward. \"That test with the laser-cutter would have blown a hole through the hull if,\" a glance at Tech, \"if we were not following protocol by using a blast-plate backing in the test zone.\"\r\n\r\n\"Look, I did concede you were correct to-\" Tech catches your expression and shuts up, putting on a deferential look.",
+   "ctx": "data/campaign/rules.csv shroudedSubstrateOptSelC [text]"
+  }
+ ]
+}

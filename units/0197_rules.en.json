@@ -1,0 +1,136 @@
+{
+ "chunk": 197,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "The pirate's face freezes in a somewhat forced, you think, smile as $heOrShe glances at someone off-screen and gives a little shake of the head.\r\n\r\n\"Oh, you're simply wonderful, captain! And you're right,\" $heOrShe says, sweating now, \"You're bringing such business to our humble end of this Sector we all share, and I can appreciate that. The ransom credits? A formality- you understand, I can't simply give the package away. Imagine what my other customers would think! A token amount is all I ask, to maintain appearances. $gaBA_costVeryLow credits would prove to all that you don't need charity, then you can be on your way. I need to make some space in my warehouse anyway.\"",
+   "ctx": "data/campaign/rules.csv gaBAPirateThreaten [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"Wonderful!\" $heOrShe says, looking relieved. \"My people will arrange for a cargo transfer at once. Ah- look at the time. I must be going. Pleasure's all mine I'm sure.\" \r\n\r\nThe line cuts off abruptly, and mere moments later your logistics officer reports a shipping pickup ping from the local traders' concourse. A neatly packaged crate bearing a logo for the Galatia Academy- and only a few minor indentations from stray shrapnel- is soon on board your flagship. ",
+   "ctx": "data/campaign/rules.csv gaBAPirateAccept2 [text]"
+  },
+  {
+   "i": 3,
+   "en": "You laugh, as though the pirate has told a hilarious joke. $HeOrShe looks confused at first, but in moments can't help but join in - if there's a joke, it seems that $heOrShe simply can't stand to not be one of those who is in on it.\r\n\r\nWiping away a tear, you compliment the audacity of raising the price so blatantly, and observe that you would expect no less from a successful professional. Particularly when dealing with spineless academics, who wouldn't know how to make a deal even if they had an equation that explained it for them.",
+   "ctx": "data/campaign/rules.csv gaBAPirateBluff [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"We, of course, are different animals,\" you explain as you smile ruthlessly back at the pirate.\r\n\r\n$HeOrShe quickly comes around to the idea that you're an up-and-coming force, and if they want to stay relevant they're going to have to foster a good working relationship to ensure... viability.\r\n\r\nThe first step toward a brighter future is, naturally, reducing the proposed ransom to something more reasonable, like $gaBA_costVeryLow credits. It's important that money exchanges hands to signal a willingness to do business, but to ask too much would be a poor investment \"In our future as business partners,\" you explain.",
+   "ctx": "data/campaign/rules.csv gaBAPirateBluff1 [text]"
+  },
+  {
+   "i": 5,
+   "en": "You order the much smaller payment of $gaBA_costVeryLow credits transferred to the bewildered pirate boss. Your logistics officer gets the ping from the local merchants' concourse for a crate ready for pick-up, and the technology package for the Galatia Academy is soon on board your flagship.\r\n\r\n\"I'm, uh, I thank you for this opportunity, captain,\" the pirate says, now unsure of $himOrHerself. \"I'm... sure taking a bit of a loss here will pay off. In the end.\"",
+   "ctx": "data/campaign/rules.csv gaBAPirateBluff2 [text]"
+  },
+  {
+   "i": 6,
+   "en": "You terminate the signal. The flakey comms line glitches and fades to black.",
+   "ctx": "data/campaign/rules.csv gaBAPirateBluff3c [text]"
+  },
+  {
+   "i": 7,
+   "en": "Sebestyen points excitedly at a datapad in his hand, \"Captain! I've just got word from Logistics that your crew has delivered the $gaBA_item - intact! They're going to be so excited in $gaBA_department, they never expected to get it back.\"",
+   "ctx": "data/campaign/rules.csv gaBAMissionReturn [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"Ah, uh, captain.\" Sebestyen stammers awkwardly at you for a moment.\r\n\r\n\"The, um, bursar's office contacted me. And um, they're taking back the credits allocated to you for the purchase payment for the $global.gaBA_failedItem. They tell me that the situation has been resolved by... alternative means?\"",
+   "ctx": "data/campaign/rules.csv gaBAMissionReturnPlayerOwes [text]"
+  },
+  {
+   "i": 9,
+   "en": "The comms-link crackles to life and the pirate captain swaggers before you. \"Greetings, star-farer. A little bird told me you have something very valuable to some people who think they're smarter than the rest of us.\" \r\n\r\n$HeOrShe pretends to be pondering deeply, \"Now, 'way I see it is, are you gonna make the smart decision to give us this pretty trinket, or are you gonna suck vacuum after I blow your $shipOrFleet out of the sky? Think, now.\"",
+   "ctx": "data/campaign/rules.csv pwiOpenComm [text]"
+  },
+  {
+   "i": 10,
+   "en": "Your stare bores into the pirate like twin tachyon lances, and you say \"No. It belongs to Warlord Kanta.\"\r\n\r\nThe blood drains from the pirate captain's face. \"She... but... stars and blood. Captain, please accept my apologies. I would never impede our, our patron and better and- please, accept a token of $entity.pwi_credits credits for the delay.\"\r\n\r\n$HeOrShe is almost pleading now, \"And, and perhaps there's no need to mention this little incident, yes?\"",
+   "ctx": "data/campaign/rules.csv pwiBluff [text]"
+  },
+  {
+   "i": 11,
+   "en": "The pirate nods grimly, staring into the middle distance as if contemplating some horror that will be performed upon $himOrHer for crossing the will of Kanta. You take this cue to terminate the comms and roll your eyes at the whole obsequious performance.",
+   "ctx": "data/campaign/rules.csv pwiBluff1 [text]"
+  },
+  {
+   "i": 12,
+   "en": "The Pirate captain looks more than a little surprised that you accepted $hisOrHer terms. $HeOrShe confirms that you have ejected the technology package via a battered datapad, and looks a bit- let down, perhaps. But also a little relieved.\r\n\r\n\"Well. So you're just giving it to me? I guess- good, uh... \" $HeOrShe seems unsure of what to say at this point, and just goes with the first thing that comes to mind. \"So let that be a lesson to ya. Don't no one can mess with the fearsome pirate $personName!\" \r\n\r\nThe comms snap off. You roll your eyes and consider your next move.",
+   "ctx": "data/campaign/rules.csv pwi_accept [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"O, what is this- a servant of Moloch before me?\" says the Pather in sing-song cadence, \"Repent, repent and eject this daemonic technological horror you carry to do evil in far stars!\"\r\n\r\n\"Yes, we know what you have. And we will destroy it, either in your cargo hold, or in Holy Vacuum. Choose now.\"",
+   "ctx": "data/campaign/rules.csv pwi2OpenComm [text]"
+  },
+  {
+   "i": 14,
+   "en": "You put on a look of grave concern, “$BrotherOrSister, I fear you have misunderstood the situation completely. I walk the Path, as you do, but I?\" You lower your voice to a whisper, \"In the shadow.\"\r\n\r\nConfusion grows on the Pather's face as $heOrShe tries to process your meaning.\r\n\r\n\"Remember Mairaath,\" you growl like a prophet-hermit of Old Earth, your head lowered but not bowed, your eyes burning with holy vengeance. \"There are works in motion among the inner circles of our organization that you cannot conceive. You will leave me to my mission, but first-\"",
+   "ctx": "data/campaign/rules.csv pwi2Bluff [text]"
+  },
+  {
+   "i": 15,
+   "en": "You clasp hands together dramatically, and recite as if to the congregation: \"I pray for you, $brotherOrSister, to follow my lead on this Path given to us by Holy Ludd.\"\r\n\r\nYou lead a classic Luddic prayer without missing a word, then dismiss the Pather captain from the comms-line. After you close the channel, you stop a moment to find your bridge crew looking at you with a combination of awe and confusion.",
+   "ctx": "data/campaign/rules.csv pwi2Bluff1 [text]"
+  },
+  {
+   "i": 16,
+   "en": "The Pather captain looks more than a little surprised that you accepted $hisOrHer terms. $HeOrShe confirms that you have ejected the technology package via a battered datapad, and looks a bit- let down, perhaps. But also relieved.\r\n\r\n\"Now,\" $heOrShe intones, \"together we pray.\"\r\n\r\nThe Pather captain leads you through a classic Luddic prayer, begging forgiveness and doing least-harm to holy Creation. You make a show of mumbling along because it seems to make the Pather happy. $HeOrShe seems content with your effort.",
+   "ctx": "data/campaign/rules.csv pwi2_accept [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"It is a long path to redemption,\" the Pather captain tells you, finally, \"And this is but the first step in your atonement. Blessings of Ludd be upon you, star-farer.\"\r\n\r\nYou cut the comms, roll your eyes, and consider your next move.",
+   "ctx": "data/campaign/rules.csv pwi2_accept1 [text]"
+  },
+  {
+   "i": 18,
+   "en": "The comms-link plays a catchy Tri-Tachyon jingle before the logo fades to show the finely-dressed Tri-Tachyon captain before you.\r\n\r\n\"Greetings, star-farer. Might I interest you in a little business proposal?\" $HeOrShe holds up a hand covered in tastefully minimalist yet glittering rings, \"Now I know you are carrying a very particular technological device in your cargo hold. Who's to say if it went missing before you even got here?\" \r\n\r\n$HeOrShe smiles, perfectly.  \r\n\r\n\"Let me offer you $entity.ttwi_credits credits to transfer it to my ship, and we'll all go home enriched.\"",
+   "ctx": "data/campaign/rules.csv ttwiOpenComm [text]"
+  },
+  {
+   "i": 19,
+   "en": "The Tri-Tach captain's face lights up, \"Wonderful- let me transfer the credits immediately.\" A tap on the latest model TriPad, and you hear the soft tone of incoming credits. At your signal, your logistics officer oversees the transfer of the technology package via cargo drone.\r\n\r\n\"I am certain that we will have even more fruitful dealings in the future, aren't you?\" $heOrShe says. \"For now, captain, I bid you safe travels. Be sure to add me on TriLink when you receive my request, yes?\"\r\n\r\nYou close the channel, then dismiss the notification on your TriPad without reading it.",
+   "ctx": "data/campaign/rules.csv ttwi_accept [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"Ah. Well then.\" The Tri-Tach captain displays $hisOrHer disappointment in $hisOrHer face - but not so much as to be unseemly. A sadly missed opportunity, $heOrShe seems to say with a small gesture.\r\n\r\n\"I'm sure we can do business again in the future,\" $heOrShe says. \"For now, captain, I bid you safe travels. Be sure to add me on TriLink when you receive my request, yes?\"\r\n\r\nYou close the channel, then dismiss the notification on your TriPad without reading it.",
+   "ctx": "data/campaign/rules.csv ttwi_decline [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"A key academician from $gaRR_department was, um, kidnapped while performing research by pirates based out of $gaRR_marketName and, well, we need someone to retrieve them now that a ransom has been negotiated.\"\r\n",
+   "ctx": "data/campaign/rules.csv gaRRBlurbPirate [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"A key academician from $gaRR_department was, um, imprisoned by the Luddic Church on $gaRR_marketName for performing... research. We need someone to pay the, uh, tithe so they can be released.\"",
+   "ctx": "data/campaign/rules.csv gaRRBlurbChurch [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"Um, what happened is Academician $gaRR_researcherName from $gaRR_department was on a research mission outside the core worlds and was... kidnapped by pirates.\"\r\n\r\n\"It's so dangerous out there\", Sebestyen looks upset at the thought, \"pirates, space battles, cannibals, meteorites...\" he shudders. \"Just awful, awful.\"",
+   "ctx": "data/campaign/rules.csv gaRRMissionTextPirate [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"Oh. I read about it. There was a, a desperate situation, outside the core. Nothing was ever really proven, depending on which report you're going by, but it's more likely the records were destroyed. The way it goes is the crew ran out of supplies, and the captain...\" \r\n\r\nThe Academician realizes with a start that he's become rather sidetracked. He picks up his datapad and squints, \"Uh, where was I?\"",
+   "ctx": "data/campaign/rules.csv gaRRMissionTextPirateCannibals [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"Right, yes. Pirates.\" He clears his throat, and looks down to read his datapad.\r\n\r\n\"Academician $gaRR_researcherName was taken by them. They know that the Galatia Academy looks after its own,\" he looks only slightly relieved by this, \"and will pay a reasonable ransom. In this case they're demanding $gaRR_costNormal credits, which we'll release to you so you can pay the pirates' contact. Um, and their name is $gaRR_contactName, and they can be found $gaRR_onOrAt $gaRR_marketName.\" \r\n\r\n\"We'll give you their comm code so all you have to do is sneak into the port somehow, contact $gaRR_contactName, pay the ransom, then return Academician $gaRR_researcherName here to the Galatia Academy for an honorarium of $gaRR_reward credits.\"",
+   "ctx": "data/campaign/rules.csv gaRRMissionTextPirate1 [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"Um.\" This flusters Sebestyen, \"Oh, stars. I, let me check.\" \r\n\r\nJudging by the sudden illumination of his face, Sebestyen has pulled up a thick block of legal text, which he proceeds to scroll rapidly for a minute or so, speed-reading legal clauses.\r\n\r\n\"Well, technically,\" he smiles brightly, \"the funds are released to you as 'working capital appropriated to hiree' - that's you - 'pursuant to recovering deliverables listed in addendum A'. So it looks like you would keep the extra funds if you complete the job without using them. Hopefully not by, um. Um.\" he looks queasy, and closes his eyes, and takes a deep breath.",
+   "ctx": "data/campaign/rules.csv gaRRMissionTextPirate2 [text]"
+  }
+ ]
+}

@@ -1,0 +1,176 @@
+{
+ "chunk": 256,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "Thankful for your own openness, Commander Skiron seems pleased to share the story of her settlement.\r\n\r\n\"We are descended from the crews of a Hegemony flotilla active during the Great AI War. The ah, the First AI War, as you call it,\" Skiron explains. \"None of the original crew survive, for it has been over 100 cycles since planetfall. We have maintained continuity of command,\" she touches the crest attached to her 'uniform', \"As per Hegemony cut-off protocols. The Protocols are survival.\"\r\n\r\n(\"The Protocols are Life,\" they say together behind her.)",
+   "ctx": "data/campaign/rules.csv PKSentinelAskWhereFromTrust [text]"
+  },
+  {
+   "i": 2,
+   "en": "Moving delicately away from the subject of Protocols, you inquire about the details of the lost crews' survival.\r\n\r\nSkiron tells of building infrastructure to survive the elements, of assembling a crude industrial and bioproductive base using survival manuals, scrapped materials, and the simple nanoforges they could adapt from the remains of their fleet. Their story is one of remarkable endurance and adaptability, the grist of countless genre holodramas.\r\n\r\nYou get the feeling, however, that Skiron is holding something back.",
+   "ctx": "data/campaign/rules.csv PKSentinelAskWhereFromTrust2 [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"Yes, of course,\" she nods. \"They are the regulations which we adhere to. They ensure continuity of the mission. We have followed the Protocols for many-\" she looks back at her retinue, who have started mumbling something prayer-like, and gives a brief wave of admonition. They go quiet, and Skiron turns back to you.\r\n\r\n\"-For over one hundred cycles. We have followed the manuals and re-taught the training of our ancestors. We follow the orders left for us to carry out. Until we receive orders otherwise, this is as it must be.\"\r\n\r\n(Behind her, you hear a chorus of reverent \"Ayes\" in affirmation.)",
+   "ctx": "data/campaign/rules.csv PKSentinelAskProtocols [text]"
+  },
+  {
+   "i": 4,
+   "en": "Skiron's face goes into a blank just-following-orders expression you know very well.\r\n\r\n\"Protocol forbids me from discussing strategic matters in a time of war. I would need authorization. We must re-establish contact with Command.\"\r\n\r\n(\"Command is Salvation,\" they say together, behind her.)",
+   "ctx": "data/campaign/rules.csv PKSentinelAskAboutStarships [text]"
+  },
+  {
+   "i": 5,
+   "en": "Skiron's face goes into a blank just-following-orders expression you know very well.\r\n\r\n\"Protocol forbids me from discussing strategic matters in a time of war. I would need authorization from Command.\"\r\n\r\n(\"Command is salvation,\" they say together, behind her.)\r\n\r\n\"But,\" she pauses, looking troubled. \"I will say this much: we faced great danger. You should be watchful.\" ",
+   "ctx": "data/campaign/rules.csv PKSentinelAskAboutStarshipsTrust [text]"
+  },
+  {
+   "i": 6,
+   "en": "Skiron's face automatically moves toward a blank expression of denial, but relaxes as she catches herself. \r\n\r\n\"The Protocols forbid me from discussing strategic matters without authorization from Command,\" she says, \"But as a commissioned auxiliary, I should give you the sitrep.\"\r\n\r\nShe takes a deep breath, then begins. \"Our orders were to destroy a staging point for the Tri-Tachyon AI warfleets, a vast automated station. The last intel said it was under construction, but...\"",
+   "ctx": "data/campaign/rules.csv PKSentinelAskAboutStarshipsHeg [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Yes. And accompanied by an armada of AI warships. Our ancestors disengaged, but most of their logistical ships were lost.\"\r\n\r\n\"Their fleet could not return to the Core Worlds, so one small detachment was sent back with the remaining fuel and news of the defeat. It appears that they were intercepted.\"\r\n\r\n\"Our ancestors found the closest habitable world, called Sentinel in the old surveys. We settled here, with what salvage could be spared.\"",
+   "ctx": "data/campaign/rules.csv PKSentinelAskAboutStarshipsHeg2 [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"You observe well,\" Skiron admits.\r\n\r\n\"I should say no more until I receive orders from Command, as I'm sure you understand, $playerSirOrMadam.\"",
+   "ctx": "data/campaign/rules.csv PKSentinelAskAboutStarshipsHeg3 [text]"
+  },
+  {
+   "i": 9,
+   "en": "Skiron exchanges a quick look of incomprehension with her lieutenants. \"It is our duty to stand by our post until we receive new orders from Command.\"\r\n\r\n(\"Duty is Life,\" they mutter behind her.)",
+   "ctx": "data/campaign/rules.csv PKSentinelStayHere [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"It is our duty,\" the Skiron exchanges a glance with her lieutenants. \"Until we receive orders otherwise. Although...\"\r\n\r\nShe deliberates for a moment with her advisors, then turns back to you. \"Assuming medical technology is available in the Core Worlds, we would send some of our number with, um, advanced conditions for treatment. Command will make arrangements for their well-being, I am certain.\"\r\n\r\n\"And,\" after an awkward pause, \"appropriate payment will be made to you as well, I am sure.\"",
+   "ctx": "data/campaign/rules.csv PKSentinelStayHereTrust [text]"
+  },
+  {
+   "i": 11,
+   "en": "You send off a quick order to your purser to coordinate intake of certain medical cases from the colony of Sentinel.\r\n\r\nTheir suffering due to gaps in technological access and the harsh environment are, upon review, appalling. Like something out of a grim historical holo about Old Earth - or a scene of the underclass on one of the poorer Core worlds.",
+   "ctx": "data/campaign/rules.csv PKSentinelTakeMedicalCases [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"A staging point for the salvage required to construct our settlement,\" Skiron says with a blank-faced orders-following look. \r\n\r\nYou're familiar with the expression. When a subordinate wishes to conceal information without technically lying, they might answer with only and exactly what was asked.",
+   "ctx": "data/campaign/rules.csv PKSentinelConfrontGantry [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"Yes. Our ancestors constructed a temporary dockyard to perform the salvage and staging required to construct our settlement,\" Skiron says, her face and tone the image of just-following-orders. \r\n\r\nYou're familiar with the expression. When a subordinate wishes to conceal information without technically lying, they might answer with only and exactly what was asked.",
+   "ctx": "data/campaign/rules.csv PKSentinelConfrontGantryTrust [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"Yes. Our ancestors constructed a temporary dockyard to perform the salvage and staging required to construct our settlement,\" Skiron says, then pauses. \"And adapting the remaining war-fighting elements of the fleet.\"",
+   "ctx": "data/campaign/rules.csv PKSentinelConfrontGantryHegCom [text]"
+  },
+  {
+   "i": 15,
+   "en": "No word about the rest of the fleet, however.",
+   "ctx": "data/campaign/rules.csv PKSentinelConfrontGantryOutA [text]"
+  },
+  {
+   "i": 16,
+   "en": "No word about adapting the fleet into an autonomous fighting force loyal to the Hegemony.",
+   "ctx": "data/campaign/rules.csv PKSentinelConfrontGantryOutB [text]"
+  },
+  {
+   "i": 17,
+   "en": "No word about adapting the fleet into an autonomous fighting force loyal to the Hegemony, using AI cores to command warships- just like Tri-Tachyon.",
+   "ctx": "data/campaign/rules.csv PKSentinelConfrontGantryOutB2 [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"I have nothing to say on the subject, $playerSirOrMadam,\" she says, face stiff with denial.",
+   "ctx": "data/campaign/rules.csv PKSentinelConfrontPK [text]"
+  },
+  {
+   "i": 19,
+   "en": "Her eyes go wide, but Skiron manages to control her voice. \"I cannot speak to that, $playerSirOrMadam,\" she says, face stiff.",
+   "ctx": "data/campaign/rules.csv PKSentinelConfrontPKTrust [text]"
+  },
+  {
+   "i": 20,
+   "en": "Skiron's eyes go wide, though she manages to control her voice. \"Ah,\" she says. \"I truly cannot speak more of... that. The Protocols.\"\r\n\r\n\"But if,\" she looks almost pleading, attempting to divert her mind around the demands of the all-important Protocols, \"-If a loyal citizen of the Hegemony, commissioned or otherwise, recovered a weapon of mass destruction, then they should return it to Hegemony authorities for safekeeping with all haste and secrecy.\" ",
+   "ctx": "data/campaign/rules.csv PKSentinelConfrontPKHegCom [text]"
+  },
+  {
+   "i": 21,
+   "en": "A long sigh, then she adds feebly, \"I speak hypothetically, of course.\"\r\n\r\nHer lieutenants are tense behind her, pretending they don't know what they now know.",
+   "ctx": "data/campaign/rules.csv PKSentinelConfrontPKHegCom2 [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"I will not confirm or deny any fact or inference you may suggest, $playerSirOrMadam,\" Skiron says. \"I suggest we speak of other matters.\"",
+   "ctx": "data/campaign/rules.csv PKSentinelConfrontAIFleet [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"I can not confirm or deny any fact or inference you may suggest, $playerSirOrMadam,\" Skiron says. \"As you can see, we do not have spacefaring capabilities here, and I am forbidden from discussing even historical operations until such a time as they have been declassified by Command.\"\r\n\r\nShe crosses her arms. \"I suggest we speak of other matters.\"",
+   "ctx": "data/campaign/rules.csv PKSentinelConfrontAIFleetTrust [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"Captain,\" Skiron says, leaning forward, adopting a low, comradely tone. \"You are a leader, and an auxiliary of the Hegemony Navy. You understand the necessities of command. Of initiative. I do not know the Core worlds, but I do know of living here, on the Far Fringe.\"\r\n\r\nShe takes a breath, holds it, and lets it go. \"Whatever was done by those that came before, I trust that they were dutiful and served their mission. If they, if we, if I have anything to answer for, it is my duty to stand before Command and answer for it.\"",
+   "ctx": "data/campaign/rules.csv PKSentinelConfrontAIFleetHegCom [text]"
+  },
+  {
+   "i": 25,
+   "en": "She raises her voice, addressing everyone present. \"And so I shall. As commander, I take full responsibility for the execution of our Mission, and shall proceed until Command says otherwise - or I die in the line of duty.\"\r\n\r\n(\"Command is Salvation!\" they say behind her, forcefully, affirming their loyalty to Skiron and to the mission. Whatever it is.)",
+   "ctx": "data/campaign/rules.csv PKSentinelConfrontAIFleetHegCom2 [text]"
+  },
+  {
+   "i": 26,
+   "en": "Skiron looks at you for a long time, motionless. Her guards' tense, and shuffle uneasily, though keep their weapons slung. Her lieutenants maintain carefully neutral expressions.\r\n\r\nShe closes her eyes and takes a deep breath, apparently coming to a decision.",
+   "ctx": "data/campaign/rules.csv PKSentinelConfrontFoundFleetAI [text]"
+  },
+  {
+   "i": 27,
+   "en": "Skiron stands, and her lieutenants rush to follow her lead, forming an unsteady echelon behind her.\r\n\r\n\"Our time for conversation is at an end, captain. We thank you for your visit.\"\r\n\r\nHer guards step forward.",
+   "ctx": "data/campaign/rules.csv PKSentinelConfrontFoundFleetAI2 [text]"
+  },
+  {
+   "i": 28,
+   "en": "Skiron stands, and her lieutenants rush to follow her lead, forming an unsteady echelon behind her.\r\n\r\nHer guards step forward.\r\n\r\n\"Clear the room,\" she says. \"The captain and I shall remain.\"",
+   "ctx": "data/campaign/rules.csv PKSentinelConfrontFoundFleetAIB [text]"
+  },
+  {
+   "i": 29,
+   "en": "Everyone files out without a word. A few of Skiron's people give you odd looks.\r\n\r\nWhen the heavy door is shut softly behind you, Skiron lets out a sigh and sits. Then looks at you, chin in hand.\r\n\r\n\"I am uncertain of what you hope to gain. You of all people must understand the need to maintain discipline.\"",
+   "ctx": "data/campaign/rules.csv PKSentinelConfrontFoundFleetAIB2 [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"War sows a deadly crop,\" Skiron says, turning her eyes to one of the Hegemony crests etched into a battered hull-plate. \"And conscripts the innocent to die, and makes unfeeling machines of humanity.\"\r\n\r\n\"Whatever was done in the past, you are alive, and so are we.\"",
+   "ctx": "data/campaign/rules.csv PKSentinelConfrontAIRespA2 [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"An admirable principle in the abstract, captain,\" she says. \"I wonder if you grant it to your crew as eagerly as to yourself.\"\r\n\r\n\"But enough hypotheticals,\" Skiron gives you a hard look. \"I shall respect your principles so long as you respect our need to maintain discipline. This is not a soft world. We prioritize survival over your fine ideals because the alternative was death.\"\r\n\r\nShe turns her eyes to the largest Hegemony crest, etched into a hull plate removed from some XIV Battlegroup hull. \"Take your truth to the Core worlds and let Command be our judge.\"\r\n\r\n\"I believe our conversation is concluded.\"",
+   "ctx": "data/campaign/rules.csv PKSentinelConfrontAIRespB2 [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"I am glad to hear it,\" Skiron says. \"Though you certainly chose an awkward opportunity to exclaim such devotion, captain.\"\r\n\r\n\"Regardless, it is Command that will judge us - and our ancestors - for what we have accomplished and for what we have failed.\"\r\n\r\nShe looks at one of the huge XIV Battlegroup crests etched into scarred hullplate. \"I believe we each know where we stand. I thank you for coming here.\"",
+   "ctx": "data/campaign/rules.csv PKSentinelConfrontAIRespC2 [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"I must admit, captain, I expected you to be more devoted to a higher cause. Perhaps the standards for auxiliaries have dropped in the past hundred cycles.\"\r\n\r\n\"Nonetheless. Weapons are tools, and by extension, so are those that wield them. Would the Persean Hegemony turn from a useful tool? No.\" She gives you a meaningful look, as if to admit that she isn't speaking only of mercenaries.\r\n\r\n\"We have no credits here, if that is what you are asking,\" she continues. \"Command will see to your bill after you report our position. And now that we know where we each stand, I believe that our conversation is concluded.\"",
+   "ctx": "data/campaign/rules.csv PKSentinelConfrontAIRespD2 [text]"
+  },
+  {
+   "i": 34,
+   "en": "She looks at you. \"I should think you would be unsurprised to find that military concerns of the Persean Hegemony dictate a higher law than that of civilians. Concern for abstract hypocrisies? Such worries are for soft worlds.\"\r\n\r\n\"To your point, it is Command that shall judge us - and our ancestors - for what we have accomplished and for what we have failed.\"\r\n\r\nShe looks at one of the huge XIV Battlegroup crests etched into a scarred hullplate. \"I believe we each know where we stand. I thank you for coming here.",
+   "ctx": "data/campaign/rules.csv PKSentinelConfrontAIRespE2 [text]"
+  }
+ ]
+}

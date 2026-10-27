@@ -1,0 +1,406 @@
+{
+ "chunk": 77,
+ "cat": "desc",
+ "items": [
+  {
+   "i": 1,
+   "en": "An armored engine pod with its own power-flux subsystem and a small complement of mining and impactor defense turrets. Built to ensure that the mothership may operate even under the most hostile conditions across countless cycles.",
+   "ctx": "data/strings/descriptions.csv derelict_mothership_pod_engine_left/SHIP [text1]"
+  },
+  {
+   "i": 2,
+   "en": "A small gun-pod with its own backup reactor and flux grid. The turrets are generally dedicated to impactor defense.",
+   "ctx": "data/strings/descriptions.csv derelict_mothership_pod_s_right/SHIP [text1]"
+  },
+  {
+   "i": 3,
+   "en": "A gun-pod which usually mounts a medium-class mining blaster so that the mothership can more efficiently harvest material necessary to produce additional exploration probes.",
+   "ctx": "data/strings/descriptions.csv derelict_mothership_pod_m_right/SHIP [text1]"
+  },
+  {
+   "i": 4,
+   "en": "A gun-pod with a light complement of anti-impactor weapons and, usually, a medium-class mining blaster so that the mothership can more efficiently harvest material to produce additional exploration probes.",
+   "ctx": "data/strings/descriptions.csv derelict_mothership_pod_m_left/SHIP [text1]"
+  },
+  {
+   "i": 5,
+   "en": "An exploration mothership bow sensor mast which mounts a respectable suite of anti-impactor turrets as well as a mining blaster to assist in material harvesting in support of the long-term mission of long-range survey. Firepower is light and mostly utilitarian, though it will discourage casual pirate-scavengers.",
+   "ctx": "data/strings/descriptions.csv derelict_mothership_sensor_mast/SHIP [text1]"
+  },
+  {
+   "i": 6,
+   "en": "An armor module featuring high-tech nanoforged material technology. Seamless integration of peculiarly aesthetic macro-to-nanoscale fractal quasicrystal morphology suggests AI design.",
+   "ctx": "data/strings/descriptions.csv remnant_armour3/SHIP [text1]"
+  },
+  {
+   "i": 7,
+   "en": "A projecting advanced weapons platform of AI design. No internal life-support volumes; open-vacuum access tubes for maintenance drones are too small for human technicians. Features seamless integration of peculiarly aesthetic macro-to-nanoscale fractal quasicrystal morphology.",
+   "ctx": "data/strings/descriptions.csv remnant_weapon_platform1/SHIP [text1]"
+  },
+  {
+   "i": 8,
+   "en": "An advanced, AI-designed defense module utilizing a powerful shield and mounting dual Paladin PD turrets which will tear apart missiles and fighters alike with inhuman efficiency. Features seamless integration of peculiarly aesthetic macro-to-nanoscale fractal quasicrystal morphology.",
+   "ctx": "data/strings/descriptions.csv remnant_shield2/SHIP [text1]"
+  },
+  {
+   "i": 9,
+   "en": "An advanced, AI-designed support fighter hangar. Internal fighter repair and maintenance volumes are kept in near-vacuum and optimized to inhuman levels of efficiency due to lack of life support and safety requirements. PD coverage is modest; defensive turrets discourage strike fighters and opportunistic frigates. Armor features seamless integration of peculiarly aesthetic macro-to-nanoscale fractal quasicrystal morphology.",
+   "ctx": "data/strings/descriptions.csv remnant_hangar1/SHIP [text1]"
+  },
+  {
+   "i": 10,
+   "en": "An advanced, AI-design firepower support weapon platform. Features dedicated combat generators and independent flux grid capable of powering primary large energy weapon battery and secondary medium-class energy turrets. Lack of life support requirements or habitable internal volumes enhances combat efficiency. Armor features seamless integration of peculiarly aesthetic macro-to-nanoscale fractal quasicrystal morphology.",
+   "ctx": "data/strings/descriptions.csv remnant_weapon_platform2/SHIP [text1]"
+  },
+  {
+   "i": 11,
+   "en": "A starship-sized structure of regular angular, geometric forms, albeit battle-damaged. It appears to consist largely of ferric alloys and has no active internal power source.",
+   "ctx": "data/strings/descriptions.csv derelict_vambrace/CUSTOM [text1]"
+  },
+  {
+   "i": 12,
+   "en": "A rare, experimental prototype developed by the Tri-Tachyon Corporation, the Anubis-class hull has nearly full arc-coverage from three large energy turrets integrated into a controversial new flux grid. This 'new paradigm of flux management' is said to be directly interfaced with temporal manipulation technology of unknown provenance. Additional armament includes front-facing universal hardpoints and a fighter bay. The Anubis was unable to fulfill a robust multi-role tactical function due to poor flux performance so it is usually relegated to escort functions where, surprisingly, it excels.\r\n\r\nThe Anubis Project steering committee, keen to win support from as many departments as possible, drew upon new applications seeking customer validation from an exceptionally wide range of Tri-Tachyon's suite of breakthrough technologies. The project was then split into parallel operations at a handful of company black-sites to maximize security (and minimize oversight), leading to certain understandable late-stage compromises. It was hoped that the multi-functional product would cover more user-segments than one with more limited focus through a rough roll-out period. Then widespread field testing would surely enable rapid iteration which would lead, ultimately, to product maturity well ahead of conventional timelines.\r\n\r\nThis was not to be. Executive infighting led to a particularly dynamic org chart during the following financial cycle.",
+   "ctx": "data/strings/descriptions.csv anubis/SHIP [text1]"
+  },
+  {
+   "i": 13,
+   "en": "\"If our particle accelerators could do that, it'd be like peeking into the mind of God.\"",
+   "ctx": "data/strings/descriptions.csv pseudoparticle_jet/WEAPON [text1]"
+  },
+  {
+   "i": 14,
+   "en": "\"And so did wrath fall like a thunderbolt, and the blow was felt by all of the Faithful, and by all of the unbelievers in the firmament. All then were a-murmur, near and far, and all did say 'Did you not hear a great shout of anger?'. But none could name its word, nor repeat it.\"",
+   "ctx": "data/strings/descriptions.csv rift_lightning/WEAPON [text1]"
+  },
+  {
+   "i": 15,
+   "en": "\"A gamma ray burst preceded the discharge of unprecedented stream of... we must admit, EM sensors could not penetrate the plasma sheath and the gravimetric suite could not be calibrated under... yes, of course. My apologies. The physics team speculates ejecta is a stream of near-c charged matter-antimatter pseudoparticles annihilating in-situ in a... controlled, or perhaps semi-stable vortex. The baryonic asymmetry is unusual, to say the least.\"",
+   "ctx": "data/strings/descriptions.csv abyssal_glare/WEAPON [text1]"
+  },
+  {
+   "i": 16,
+   "en": "\"The inverted ratio of baryogenesis - or shall we say antibaryogenesis - is among the more provocative qualities of the device. However, one suspects that management will be disinclined to appreciate the implications in light of the assessed firepower.\"",
+   "ctx": "data/strings/descriptions.csv inimical_emanation/WEAPON [text1]"
+  },
+  {
+   "i": 17,
+   "en": "\"Sin feeds upon sin, evil feeds upon evil, ever fattening upon itself until nought of the soul remains.\"",
+   "ctx": "data/strings/descriptions.csv assaying_rift/WEAPON [text1]"
+  },
+  {
+   "i": 18,
+   "en": "\"All command and tactical officers at risk of directly observing the phenomenon shall be required to perform their duties with a non-observing partner. When - not if - mesmerization manifests, the non-observing partner shall immediately execute remote display deactivation. This order stands until techops completes the automatic interrupt patch.\"",
+   "ctx": "data/strings/descriptions.csv vortex_launcher/WEAPON [text1]"
+  },
+  {
+   "i": 19,
+   "en": "- SEALED HOLO REPORT to be submitted to the Director of Special Acquisitions ONLY",
+   "ctx": "data/strings/descriptions.csv swarm_launcher/WEAPON [text2]"
+  },
+  {
+   "i": 20,
+   "en": "- Domain Armada Procurement, APRC-3 proceedings // CLASSIFIED GALENA (historical)",
+   "ctx": "data/strings/descriptions.csv neutron_torpedo/WEAPON [text2]"
+  },
+  {
+   "i": 21,
+   "en": "- Results compiled from 'The Authorized Encyclopedia of Early Weapon Systems of the Domain Armada, 43rd edition'",
+   "ctx": "data/strings/descriptions.csv light_mass_driver/WEAPON [text2]"
+  },
+  {
+   "i": 22,
+   "en": "- Unknown, audio log found in outer fringe",
+   "ctx": "data/strings/descriptions.csv voltaic_cannon/WEAPON [text2]"
+  },
+  {
+   "i": 23,
+   "en": "Tough and dependable, the Venture is usually fitted with a good missile complement but lacks the sustained damage output needed to do well in prolonged engagements. A built-in mining drone bay provides additional defenses - a particularly good thing because the civilian-grade power generators make the shields easy to overwhelm.",
+   "ctx": "data/strings/descriptions.csv venture/SHIP [text2]"
+  },
+  {
+   "i": 24,
+   "en": "Agile for a cruiser, the Eagle is difficult to flank and has impressive and focused frontal firepower.",
+   "ctx": "data/strings/descriptions.csv eagle/SHIP [text2]"
+  },
+  {
+   "i": 25,
+   "en": "This light cruiser features mobility that puts smaller ships to shame, but its firepower is somewhat lacking. However, the Falcon can still face down smaller ships due to its cruiser-grade power generators and armor plating.",
+   "ctx": "data/strings/descriptions.csv falcon/SHIP [text2]"
+  },
+  {
+   "i": 26,
+   "en": "Control",
+   "ctx": "data/strings/descriptions.csv control/ACTION_TOOLTIP [text2]"
+  },
+  {
+   "i": 27,
+   "en": "Rally Civilian Craft",
+   "ctx": "data/strings/descriptions.csv civilian_rally/ACTION_TOOLTIP [text2]"
+  },
+  {
+   "i": 28,
+   "en": "Rally Task Force",
+   "ctx": "data/strings/descriptions.csv rally_task_force/ACTION_TOOLTIP [text2]"
+  },
+  {
+   "i": 29,
+   "en": "Rally Strike Force",
+   "ctx": "data/strings/descriptions.csv strike_base/ACTION_TOOLTIP [text2]"
+  },
+  {
+   "i": 30,
+   "en": "Fighter Rendezvous",
+   "ctx": "data/strings/descriptions.csv rally_fighters/ACTION_TOOLTIP [text2]"
+  },
+  {
+   "i": 31,
+   "en": "Rally Carrier",
+   "ctx": "data/strings/descriptions.csv carrier_base/ACTION_TOOLTIP [text2]"
+  },
+  {
+   "i": 32,
+   "en": "More Info",
+   "ctx": "data/strings/descriptions.csv more_info/ACTION_TOOLTIP [text2]"
+  },
+  {
+   "i": 33,
+   "en": "Remove Waypoint",
+   "ctx": "data/strings/descriptions.csv remove_waypoint/ACTION_TOOLTIP [text2]"
+  },
+  {
+   "i": 34,
+   "en": "Recon",
+   "ctx": "data/strings/descriptions.csv recon/ACTION_TOOLTIP [text2]"
+  },
+  {
+   "i": 35,
+   "en": "Heavy Escort",
+   "ctx": "data/strings/descriptions.csv full_escort/ACTION_TOOLTIP [text2]"
+  },
+  {
+   "i": 36,
+   "en": "Light Escort",
+   "ctx": "data/strings/descriptions.csv light_escort/ACTION_TOOLTIP [text2]"
+  },
+  {
+   "i": 37,
+   "en": "Medium Escort",
+   "ctx": "data/strings/descriptions.csv destroyer_escort/ACTION_TOOLTIP [text2]"
+  },
+  {
+   "i": 38,
+   "en": "Repair & Refit",
+   "ctx": "data/strings/descriptions.csv repair_and_refit/ACTION_TOOLTIP [text2]"
+  },
+  {
+   "i": 39,
+   "en": "Fighter Strike",
+   "ctx": "data/strings/descriptions.csv strike/ACTION_TOOLTIP [text2]"
+  },
+  {
+   "i": 40,
+   "en": "Set as Target",
+   "ctx": "data/strings/descriptions.csv target/ACTION_TOOLTIP [text2]"
+  },
+  {
+   "i": 41,
+   "en": "Assign Task...",
+   "ctx": "data/strings/descriptions.csv assign_task/ACTION_TOOLTIP [text2]"
+  },
+  {
+   "i": 42,
+   "en": "Rescind Orders",
+   "ctx": "data/strings/descriptions.csv rescind/ACTION_TOOLTIP [text2]"
+  },
+  {
+   "i": 43,
+   "en": "Cancel Assignment",
+   "ctx": "data/strings/descriptions.csv cancel_assignment/ACTION_TOOLTIP [text2]"
+  },
+  {
+   "i": 44,
+   "en": "Toggle Autopilot",
+   "ctx": "data/strings/descriptions.csv autopilot/ACTION_TOOLTIP [text2]"
+  },
+  {
+   "i": 45,
+   "en": "Offensive",
+   "ctx": "data/strings/descriptions.csv entropyamplifier/SHIP_SYSTEM [text2]"
+  },
+  {
+   "i": 46,
+   "en": "Defensive",
+   "ctx": "data/strings/descriptions.csv damper/SHIP_SYSTEM [text2]"
+  },
+  {
+   "i": 47,
+   "en": "Movement",
+   "ctx": "data/strings/descriptions.csv burndrive/SHIP_SYSTEM [text2]"
+  },
+  {
+   "i": 48,
+   "en": "Drones (high tech)",
+   "ctx": "data/strings/descriptions.csv drone_pd/SHIP_SYSTEM [text2]"
+  },
+  {
+   "i": 49,
+   "en": "Drones (midline)",
+   "ctx": "data/strings/descriptions.csv drone_pd_x2/SHIP_SYSTEM [text2]"
+  },
+  {
+   "i": 50,
+   "en": "Drones (low tech)",
+   "ctx": "data/strings/descriptions.csv drone_borer/SHIP_SYSTEM [text2]"
+  },
+  {
+   "i": 51,
+   "en": "Drone (attack)",
+   "ctx": "data/strings/descriptions.csv drone_terminator/SHIP_SYSTEM [text2]"
+  },
+  {
+   "i": 52,
+   "en": "Defensive.",
+   "ctx": "data/strings/descriptions.csv tenebrous_expulsion/SHIP_SYSTEM [text2]"
+  },
+  {
+   "i": 53,
+   "en": "- K. Astraia, recovered from Kallichore Archive",
+   "ctx": "data/strings/descriptions.csv minipulser/WEAPON [text2]"
+  },
+  {
+   "i": 54,
+   "en": "- Tri-Tachyon Morale Assurance intercept, appended to employee termination report",
+   "ctx": "data/strings/descriptions.csv shockrepeater/WEAPON [text2]"
+  },
+  {
+   "i": 55,
+   "en": "-  Luddic funereal prayer, traditional",
+   "ctx": "data/strings/descriptions.csv riftlance/WEAPON [text2]"
+  },
+  {
+   "i": 56,
+   "en": "- Sarosh Freeman, senior technician",
+   "ctx": "data/strings/descriptions.csv riftbeam/WEAPON [text2]"
+  },
+  {
+   "i": 57,
+   "en": "- Unknown researcher, recovered logs from Alpha Site",
+   "ctx": "data/strings/descriptions.csv cryoflux/WEAPON [text2]"
+  },
+  {
+   "i": 58,
+   "en": "- Salvor verbal report, hyperspace recovery of ISS Augusta",
+   "ctx": "data/strings/descriptions.csv cryoblaster/WEAPON [text2]"
+  },
+  {
+   "i": 59,
+   "en": "- Unsigned report sent from Alpha Site to K. Astraia",
+   "ctx": "data/strings/descriptions.csv disintegrator/WEAPON [text2]"
+  },
+  {
+   "i": 60,
+   "en": "- Memo recovered from Alpha Site lab complex",
+   "ctx": "data/strings/descriptions.csv riftcascade/WEAPON [text2]"
+  },
+  {
+   "i": 61,
+   "en": "- AAR, first encounter at Isir, [REDACTED] expedition",
+   "ctx": "data/strings/descriptions.csv vpdriver/WEAPON [text2]"
+  },
+  {
+   "i": 62,
+   "en": "- The Book of Ludd, Visions 7:4",
+   "ctx": "data/strings/descriptions.csv realitydisruptor/WEAPON [text2]"
+  },
+  {
+   "i": 63,
+   "en": "- Tri-Tachyon employee 38940855",
+   "ctx": "data/strings/descriptions.csv amsrm/WEAPON [text2]"
+  },
+  {
+   "i": 64,
+   "en": "- The Book of Ludd, Visions 7:12",
+   "ctx": "data/strings/descriptions.csv rifttorpedo/WEAPON [text2]"
+  },
+  {
+   "i": 65,
+   "en": "- classified report to the High Hegemon",
+   "ctx": "data/strings/descriptions.csv gigacannon/WEAPON [text2]"
+  },
+  {
+   "i": 66,
+   "en": "The AI administrator control bunker was secured from the threat contained within as well as the multitude of threat vectors without.\r\n\r\nAbove all the entire operation was kept absolutely secret; a handsomely compensated human actor was hired to perform as the 'face' for the AI core's decision-making.",
+   "ctx": "data/strings/descriptions.csv ai_core_uninstall/GALLERY [text2]"
+  },
+  {
+   "i": 67,
+   "en": "A rust-bucket Hound came in last shift. Cargo of low-grade ore. I crewed with a Hound 20 cycles ago, I know the logs don't add up - their last run wouldn't have even paid for the fuel. And I know where the shielded holds are. Broke my heart how young the cap was though, a poor kid out of Mozzy. Just like I was. If I bust 'em, I kill their one chance to get out. So I didn't.\r\n\r\nDelete log entry.",
+   "ctx": "data/strings/descriptions.csv hound_hangar/GALLERY [text2]"
+  },
+  {
+   "i": 68,
+   "en": "\"All the big contracts go to the toadies kneeling at the feet of the high-and-mighty. Call them approved vendors, Gens-clients, logistical auxilliaries, Faithful traders. It's all the same.\"\r\n\r\n\"It's about us outsiders being kept out, pushed into smuggling and black markets, squeezed by patrols on one side, pirates on the other.\"",
+   "ctx": "data/strings/descriptions.csv cargo_loading/GALLERY [text2]"
+  },
+  {
+   "i": 69,
+   "en": "\"Is there no place left unmarked by the leavings of Moloch, fouled by skin of plastic, and bones of alloy, and scales of ceramic?\"\r\n\r\n\"Is there no place left which may be made sacred and given unto the glory of the Creator alone?\"",
+   "ctx": "data/strings/descriptions.csv space_wreckage/GALLERY [text2]"
+  },
+  {
+   "i": 70,
+   "en": "Purposeful habitation of barren worlds has been long considered one of the signs of true civilization alongside interstellar travel and fusion of the atom. A being confined to its gravity well might as well be an infant in the cradle, a mere animal without awareness or control over its destiny.",
+   "ctx": "data/strings/descriptions.csv vacuum_colony/GALLERY [text2]"
+  },
+  {
+   "i": 71,
+   "en": "The flaw went back to the forging. An error, a misalignment in the pseudocrystal, a mistake that spiralled outward - just enough. A standard quality control scan would have seen it, but it'd be tagged low-risk. It was a hundred cycles of hard use, sharp maneuvers, the hasty repairs, the delayed inspections, the lost records that made the compartment a death-trap.",
+   "ctx": "data/strings/descriptions.csv hull_breach/GALLERY [text2]"
+  },
+  {
+   "i": 72,
+   "en": "There are places where a balance is found between the dance of celestial bodies, some mingling of qualities ineffable to all but those absolutely devoted to esoteric physics.\r\n\r\nIt is there we pierce the veil into the great and stormy sea beyond the stars.",
+   "ctx": "data/strings/descriptions.csv jump_point_normal/GALLERY [text2]"
+  },
+  {
+   "i": 73,
+   "en": "Now our contracts up, holds full and ready /\r\nHoo-rah for we jump now t'ward the core /\r\nWe'll burn bright, bright long and steady",
+   "ctx": "data/strings/descriptions.csv jump_point_hyper/GALLERY [text2]"
+  },
+  {
+   "i": 74,
+   "en": "Go in there not knowing exactly where you're coming out?\r\n\r\nThat's how you end up a bit of glitter indistinguishable from cosmic background radiation.",
+   "ctx": "data/strings/descriptions.csv jump_point_wormhole/GALLERY [text2]"
+  },
+  {
+   "i": 75,
+   "en": "\"He risked the entire Galatia system, hundreds of thousands of citizens. That might be just one subsector of a metroplex down there,\" he waved vaguely in the direction of Chicomoztoc. \"But,\" his voice hardened, \"I will not allow any 'grand experiments' that endanger these people.\"",
+   "ctx": "data/strings/descriptions.csv city_from_above/GALLERY [text2]"
+  },
+  {
+   "i": 76,
+   "en": "An ancient sporeship encountered Cibola in a cooler and wetter age than its equilibrium, placing it within the ship's colonization parameters. Later Domain explorers found a dying world populated by a small, backward, and desperate civilization clinging to survival.",
+   "ctx": "data/strings/descriptions.csv desert_moons_ruins/GALLERY [text2]"
+  },
+  {
+   "i": 77,
+   "en": "\"You think the inertial dampers will protect you during a combat maneuver? If it isn't stowed, it's a missile primed to core you and the next three crew coming up the access shaft. I want this shameful display cleaned up before the end of the shift.\"",
+   "ctx": "data/strings/descriptions.csv quartermaster/GALLERY [text2]"
+  },
+  {
+   "i": 78,
+   "en": "This communication platform used long lost Domain-era technology yet remained essential to civilized life in the Persean Sector. The rapidly pulsing hyperwaves suitable for FTL data transmission have been shown to damage DNA so these relays were always stationed well away from habitats.",
+   "ctx": "data/strings/descriptions.csv comm_relay/GALLERY [text2]"
+  },
+  {
+   "i": 79,
+   "en": "The colonization program dictated construction around key gravity wells of orbital infrastructure which included repair docks, industrial nanoforges, comms hubs, terraforming depots, armories, research laboratories, and habitation for defrosted cryosleepers.\r\n\r\nMuch remains. More still is as broken and dead as the Human Domain's avaricious dreams.",
+   "ctx": "data/strings/descriptions.csv abandoned_station/GALLERY [text2]"
+  },
+  {
+   "i": 80,
+   "en": "\"There's ghosties in the old orbitals- don't you laugh, dirt-boot. It's true. I've seen 'em... or less seen 'em than felt 'em. They got signs. Static on the comms when you're in deep. Valves that come loose when you're not a-lookin'. Tools that hain't where you secured 'em. Great tombs they are, and properly ought be left sleepin' cold.\"",
+   "ctx": "data/strings/descriptions.csv abandoned_station2/GALLERY [text2]"
+  }
+ ]
+}

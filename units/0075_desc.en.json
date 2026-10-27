@@ -1,0 +1,101 @@
+{
+ "chunk": 75,
+ "cat": "desc",
+ "items": [
+  {
+   "i": 1,
+   "en": "A fast-attack high-tech light cruiser, the Fury is designed to choose when and where it strikes to inflict maximum effect upon the enemy. The specialized inbuilt plasma 'microburn' system allows the Fury to make small dashes at high speed to catch unwary opponents off-guard.\r\n\r\nThe Fury-class is the Shrike-classes big sibling, a product of the same design team asked to fulfill slightly updated requirements, including resolution of the longstanding hull corrosion issue without, it was hoped, introducing any new problems. This was largely successful (once the chaos of several indignant resignations was sorted out).\r\n\r\nDismissed by heavy-armor-ballistic-firepower traditionalists as 'just another small-bore glass cannon', the Fury has nonetheless proven quite dangerous in the hands of quick-thinking fleet commanders.",
+   "ctx": "data/strings/descriptions.csv fury/SHIP [text1]"
+  },
+  {
+   "i": 2,
+   "en": "An ancient and tough heavy frigate featuring robust construction, a combat burn drive, and no modern shields. Instead, the Vanguard is equipped with an integrated Damper Field of archaic design but tuned to modern standards. This allows the Vanguard to allocate 100% of flux buildup to weapon systems, leaving defense to its heavy armor enhanced by the obscure physics of resonant field-dampening.\r\n\r\nThis design is old enough to be contemporary with early models of the Onslaught battleship, though unlike that illustrious pillar of the Domain Navy the Vanguard was retired from service long before the collapse of the Gate network. In the post-Collapse chaos it was a chance discovery by an enterprising arms dealer that saw relatively complete schematics of the Vanguard-class heavy frigate lifted from an overlooked museum exhibit. The atavistic and aggressive design opens an unexpected niche for the Vanguard in modern fleets - with the added advantage that all essential components have been declassified for ages, and are of simple make; even repair of catastrophic damage is relatively straightforward.",
+   "ctx": "data/strings/descriptions.csv vanguard/SHIP [text1]"
+  },
+  {
+   "i": 3,
+   "en": "The Manticore is loved by frontier officers for its ability to rapidly bring firepower to bear in small engagements and loathed by Domain strategic planners for interfering with the orderly schema of official fleet doctrine. The Manticore's oversized primary weapon mount and built-in rangefinder are a gunner's dream but allow this destroyer to easily overextend itself in battle. That, operators argue, is what the canister flak system is for - and stripping the paint off your allied ships, as the old joke goes. \r\n\r\nA healthy respect for intimidating firepower in a small package see this design continue in the service of fleets of the Persean Sector. When the opportunity presents itself, pirates are particularly keen to recover a Manticore hull and apply blood-red livery to their overgunned prize.",
+   "ctx": "data/strings/descriptions.csv manticore/SHIP [text1]"
+  },
+  {
+   "i": 4,
+   "en": "A resilient design often overlooked by history, the Eradicator-class fast cruiser features powerful dual engine nacelles that allow it to deliver uncompromising firepower and a powerful missile barrage to the weakest point of the enemy battleline - or come to the rescue of valuable assets that have found themselves tactically exposed.\r\n\r\nBack in the long cycles of the Domain, a chance accident during a fleet demonstration set one of an Eradicator's engine nacelles into shutdown and the other into overdrive, putting the ship into a terrible spin only stopped by a heroic effort from the engineering crew. Worse than the injuries and casualties suffered was the ship class becoming the laughingstock of a significant portion of the Domain hypermedia sphere. To save face the admiralty quietly assigned all of the Eradicators to frontier duty, far from the fickle attentions of the core sector budget committees. It would take a generation and several difficult fringe rebellion mop-up operations before a new fast-cruiser class model was requested by the Domain Navy to replace the Eradicator's role in front-line battlefleets.",
+   "ctx": "data/strings/descriptions.csv eradicator/SHIP [text1]"
+  },
+  {
+   "i": 5,
+   "en": "The largest and most prominent shrine of the Luddic faith, the Shrine of Gilead is most closely associated with the prophet Ludd's physical presence and influence in the Persean Sector.\r\n\r\nPilgrims walk where Ludd walked, though the world is much changed from Ludd's day. A deep forest, carefully gardened over more than a hundred cycles, has replaced the towering industrial terraforming machines that once surrounded the shrine complex. Protected by the Knights and shepherded by Church, the shrine is intended to be a physical representation of Ludd's vision.",
+   "ctx": "data/strings/descriptions.csv shrine_gilead/CUSTOM [text1]"
+  },
+  {
+   "i": 6,
+   "en": "Dedicated to those whose life has been torn away by wrath and war, the Shrine of Killa is grim, desolate, and half-forgotten even by the faithful of the Church.",
+   "ctx": "data/strings/descriptions.csv shrine_killa/CUSTOM [text1]"
+  },
+  {
+   "i": 7,
+   "en": "The Shrine of Volturn has fallen upon hard times under the Sindrian Diktat's occupation. Few pilgrims risk arrest and harassment by the secret police, and few remember the sacred place dedicated to a delicate balance - now, perhaps, upset - of invading Earth life's effects on once pristine worlds.",
+   "ctx": "data/strings/descriptions.csv shrine_volturn/CUSTOM [text1]"
+  },
+  {
+   "i": 8,
+   "en": "Subject of much controversy (and not a few lurid horror-holos), the Shrine of Jangala observes the glory and wonder of the xeno-jungles of Jangala. Particularly devoted pilgrims are known to expose themselves to the xenolife, an uncomfortable practice under the best conditions, and potentially deadly.\r\n\r\nDespite the destructive power of the orbital burns, Jangala's flora grows inexorably, filling every gap and seam with alien tendrils, to displace human attempts to domesticate the planet.",
+   "ctx": "data/strings/descriptions.csv shrine_jangala/CUSTOM [text1]"
+  },
+  {
+   "i": 9,
+   "en": "The Knights of Ludd claim the Shrine of Hesperus as their own; it is dedicated to the struggle and death of the many martyrs that follow in Ludd's path.",
+   "ctx": "data/strings/descriptions.csv shrine_hesperus/CUSTOM [text1]"
+  },
+  {
+   "i": 10,
+   "en": "The Beholder Station Shrine is dedicated to contemplation of the stunning diversity of life which can be found in even the harshest environments of Creation. Below the station's orbit, Kumari Aru's bands of clouds and huge storm systems shroud a rich ecosystem unique to this gas giant.  \r\n\r\nA small few scholars who meet Church approval are allowed to study of Kumarian xenolife here, though active sampling missions and energetic sensor sweeps have been forbidden for many cycles in order to not disturb the delicate balance of life.",
+   "ctx": "data/strings/descriptions.csv shrine_beholder/CUSTOM [text1]"
+  },
+  {
+   "i": 11,
+   "en": "The Gorgon was designed as a lightweight delivery system for an energy strike fired from unexpected attack vectors calculated to initiate beyond the range of the heaviest anticipated PD coverage. A solid DEM packing reliable burst attack power.",
+   "ctx": "data/strings/descriptions.csv gorgon/WEAPON [text1]"
+  },
+  {
+   "i": 12,
+   "en": "The Gorgon was designed as a lightweight delivery system for an energy strike fired from unexpected attack vectors calculated to initiate beyond the range of the heaviest anticipated PD coverage. A solid DEM packing reliable burst attack power.\r\n\r\nThis pod-based autoloader allows more missiles to be delivered on-target over the course of a combat encounter, but requires a larger mount-point. ",
+   "ctx": "data/strings/descriptions.csv gorgonpod/WEAPON [text1]"
+  },
+  {
+   "i": 13,
+   "en": "The Gazer DEM forces a cruel choice upon targeted vessels, particularly those with a shallow flux pool - raise shields and build excess flux while raked by the Gazer's graviton beam, or drop shields and open oneself to more direct attack.\r\n\r\nReception of the Gazer is as split: some commanders consider this an elegant weapon from a more civilized age, others, a design which compromises raw firepower for finicky guidance and targeting systems.",
+   "ctx": "data/strings/descriptions.csv gazer/WEAPON [text1]"
+  },
+  {
+   "i": 14,
+   "en": "The Gazer DEM forces a cruel choice upon targeted vessels, particularly those with a shallow flux pool - raise shields and build excess flux while raked by the Gazer's graviton beam, or drop shields and open oneself to more direct attack.\r\n\r\nReception of the Gazer is as split: some commanders consider this an elegant weapon from a more civilized age, others, a design which compromises raw firepower for finicky guidance and targeting systems.\r\n\r\nThis pod-based autoloader allows more missiles to be delivered on-target over the course of a combat encounter, but requires a larger mount-point. ",
+   "ctx": "data/strings/descriptions.csv gazerpod/WEAPON [text1]"
+  },
+  {
+   "i": 15,
+   "en": "Anticipating two, even three, moves ahead in the strike and riposte of combat systems design, the Dragonfire was created to anticipate increasingly sophisticated anti-missile defense solutions. The concept is simple: use an enriched AM-catalyzed nuclear warhead to pump a focused plasma beam, delivering destructive energy without worry of point defense interception. The results were spectacular.\r\n\r\nImplementation proved complex. Drawing upon Domain ONYX-rated physics research bloated the security bureaucracy of manufacture such that the project was deemed unprofitable. Domain bureaucracy is not a concern post-Collapse, of course.",
+   "ctx": "data/strings/descriptions.csv dragon/WEAPON [text1]"
+  },
+  {
+   "i": 16,
+   "en": "The Dragonfire was created to anticipate increasingly sophisticated anti-missile defense solutions. The concept is simple: use an enriched AM-catalyzed nuclear warhead to pump a plasma beam, delivering energy without leaving an opening for PD interception. The results were spectacular.\r\n\r\nImplementation proved complex. Drawing upon Domain ONYX-rated physics research bloated the security bureaucracy of manufacture such that the project was deemed unprofitable. Domain bureaucracy is not a concern post-Collapse, of course.\r\n\r\nThe Dragonfire pod is an enlarged version of the standard mount and loading system of the Dragonfire DEM, fit for large and lavishly outfitted warships.",
+   "ctx": "data/strings/descriptions.csv dragonpod/WEAPON [text1]"
+  },
+  {
+   "i": 17,
+   "en": "The Hydra weapon system launches a clutch of semi-independently maneuverable DEM platforms from a single device. The submunitions maneuver to flank the primary shield of the target - assumed to be directed toward the threat of the attacker - and only then unleash beamfire.\r\n\r\nThe downsides of smaller payload and increased travel time - inviting point defense interception - are generally considered to be outweighed when the Hydra is combined with a suite of complementary weapon systems to overwhelm both the tactical flexibility and physical defenses of the targeted vessel.",
+   "ctx": "data/strings/descriptions.csv hydra/WEAPON [text1]"
+  },
+  {
+   "i": 18,
+   "en": "A remnant of the autonomous AI fleets developed by the Tri-Tachyon Corporation. Illegal under Domain (and Hegemony) law, and an abomination to the Church of Galactic Redemption, the First AI War saw these creations purged from the Sector. So the official histories say.\r\n\r\nAlthough operationalized in the Retribution design, the Orion Drive was never popular with crew or naval architects due to the great strain each jolt the propulsion system inflicted upon flesh and hardware. The Nova overcomes such limitations by dispensing with human crew altogether. The Orion Drive design thus freed from most burdensome constraints, every aspect could be upgraded to higher power levels using cutting-edge weapons technology and advanced solid-state Tri-Tachyon-designed components. The result is an AI-operated battlecruiser capable of fearsome speed and firepower.",
+   "ctx": "data/strings/descriptions.csv nova/SHIP [text1]"
+  },
+  {
+   "i": 19,
+   "en": "A design dating to the first explosive expansion of the Domain, this gargantuan mass of armor and all-big-guns was the gauntleted fist that smashed all opposition, spreading hegemony by fear and force over all of spacefaring humanity that was worth conquering.\r\n\r\nThe steady march of military technology left the hull outdated, however. Its armor design was incompatible with early shield generators, its minimum crew complement staggering, and targeting systems unsophisticated. Modernized replacements were soon developed and the Onslaught-class, among others, was churned out by the great Domain forges. \r\n\r\nAn age passed. And, as if by Providence, an expedition sent by the Knights of Ludd discovered an uncorrupted museum archive on a murdered world. A council of inquisitors weighed whether to destroy the Domain-era knowledge, holding a fiery - and secret - debate over the line between sin and virtue, between righteous craft and corrupting technology. An unusually open-minded senior knight-inquisitor examined the contents in detail and persuaded the council to defer the destruction order indefinitely. \r\n\r\nThis hull was christened \"Invictus\", a testament to the impossibly heavy armor and vast mass of this absurd cathedral of war. No proper navy would field this monstrosity, but the Church and its Knights can count on a bounty of faithful volunteer-militants to crew the huge munition feeders and crude targeting stations.",
+   "ctx": "data/strings/descriptions.csv invictus/SHIP [text1]"
+  }
+ ]
+}

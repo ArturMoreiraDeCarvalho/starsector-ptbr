@@ -1,0 +1,106 @@
+{
+ "chunk": 55,
+ "cat": "desc",
+ "items": [
+  {
+   "i": 1,
+   "en": "A category of ancient low-cost, readily available rapid fire weapons which have been used effectively versus missiles and fighters at short range throughout the history of space combat. Nearly useless against properly armored targets.\r\n\r\nDue to ease of manufacture and modification, hundreds of variants exist. Any of these weapons which rapid-fire chemically propelled inert projectiles - easily churned out by even a crude autoforge - under a certain caliber are classified as light ship-mounted machine guns. The mechanisms which drive the actions of these weapons vary considerably. \r\n\r\nPopular with small civilian craft due to low cost. The dense core of projectiles are often jacketed with harder metal to assist feed operation and penetration. These weapon systems deliver a surprisingly large amount of kinetic energy at close-range despite their primitive design.",
+   "ctx": "data/strings/descriptions.csv lightmg/WEAPON [text1]"
+  },
+  {
+   "i": 2,
+   "en": "An upgraded, twin barrel version of the venerable light machine gun. Not especially effective against well-armored targets, but has excelled in an anti-missile and fighter role since the dawn of human space combat.\r\n\r\nThis is a dual mount of the same rapid fire, inert, low-caliber chemical projectile weapon known to every pilot and armorer in the Sector. An excellent point defense mount, which excels in both a missile interdiction and anti-fighter role. \r\n\r\nThe large amount of kinetic energy delivered to shield systems of enemy craft at close-range typically causes emitter overload, a tactical option often overlooked by inexperienced captains.",
+   "ctx": "data/strings/descriptions.csv lightdualmg/WEAPON [text1]"
+  },
+  {
+   "i": 3,
+   "en": "An antiquated weapon that launches anti-armor rounds at a low rate of fire, muzzle velocity, and range. Low flux buildup is the lone saving grace.\r\n\r\nThe weapon blueprints for Light Mortars were not intended for spacecraft at all, but an ingenious modification to the breech loading mechanism permits installation and use outside an atmospheric environment. In combat, the Light Mortar performs poorly against swiftly moving or shielded targets due to its terrible mount rotation and rate of fire. Nonetheless, it is often used to train novice gunnery officers in the finer points of space ballistics tactics and nomenclature.\r\n\r\nCommonly fitted on private yachts and solo interplanetary vehicles due to low mass and cost.",
+   "ctx": "data/strings/descriptions.csv lightmortar/WEAPON [text1]"
+  },
+  {
+   "i": 4,
+   "en": "An antiquated weapon that fires larger anti-armor rounds at a somewhat higher rate of fire than its smaller cousin. Projectile speed is low and effective range is short. Low flux buildup is the lone saving grace.\r\n\r\nThe Heavy Mortar was originally designed for use in planetary surface combat. Ostensibly intended for cracking military fortifications, it saw far more use in urban bombardment. The robust internal mechanisms permit installation and use outside an atmospheric environment with only minor adjustments, notably replacement of the automatic rangefinder/targeting module. When employed against large, unshielded, and slow-moving targets, the heavy mortar can prove most effective.",
+   "ctx": "data/strings/descriptions.csv heavymortar/WEAPON [text1]"
+  },
+  {
+   "i": 5,
+   "en": "A rapid fire ballistic point-defense weapon system especially devastating to missiles and fighters at near point-blank range. Accuracy degrades sharply during prolonged bursts of fire. \r\n\r\nThis multi-barrel weapon platform is built around an advanced timing mechanism most commonly manufactured by Hegemony-authorized nanoforges. Rounds are typically tipped with depleted uranium and are non explosive. Multiple barrels enable an extremely high rate of fire, though at a high flux cost.",
+   "ctx": "data/strings/descriptions.csv vulcan/WEAPON [text1]"
+  },
+  {
+   "i": 6,
+   "en": "A small caliber autocannon with a good range for such a light chassis. Designed to counter enemy shields and especially effective against the weaker generators used in smaller hulls.\r\n\r\nFeatures high velocity kinetic rounds which provide excellent fire support weapon for smaller craft. Poor mount turn rate due to a complex autoloader and liquid cooling make the Light Autocannon a poor choice for defense against fighters and missiles.",
+   "ctx": "data/strings/descriptions.csv lightac/WEAPON [text1]"
+  },
+  {
+   "i": 7,
+   "en": "A double barreled version of the Light Autocannon. An excellent weapon for close-range support, and quite effective at bringing shields down, it suffers from a shorter effective range due to high recoil.\r\n\r\nAn ingenious mechanical design prevents ejection ports from being jammed while expelling twice as many spent shell casings as the standard Light Autocannon chassis. Like the single barrel version, this weapon system fires high velocity rounds designed to punch through enemy shields. Autoloader and liquid cooling systems are otherwise identical to the single barrel version.",
+   "ctx": "data/strings/descriptions.csv lightdualac/WEAPON [text1]"
+  },
+  {
+   "i": 8,
+   "en": "A small caliber cannon designed for close-range fights, excellent against armor and with a superb fire rate.\r\n\r\nSmall caliber cannon designed to fire high-explosive rounds. Design of the coolant systems and autoloader emphasizes safety and prevention of cook-off potentially caused by high flux levels. Favored by destroyer captains that have something to prove.",
+   "ctx": "data/strings/descriptions.csv lightag/WEAPON [text1]"
+  },
+  {
+   "i": 9,
+   "en": "Releases a cluster of free-floating bomblets that retain the momentum of the launching craft. The bomblets are equipped with a proximity fuse.\r\n\r\nA Frag Bomb projector fires Mark VI fragmentation bomblets from three tubes. Unguided and without a propulsion system, the bomblets rely on a friend-or-foe targeting system. Their vast numbers allow them to cover a wide swath of space, effectively creating a Point Defense barrier in that location, albeit for a limited time. When the proximity fuse is triggered by an enemy craft, the bomblet will detonate, achieving similar effects to those of flak weapons.",
+   "ctx": "data/strings/descriptions.csv fragbomb/WEAPON [text1]"
+  },
+  {
+   "i": 10,
+   "en": "Releases a cluster of free-floating, high-explosive bomblets. More effective versus unshielded and slow-moving targets.\r\n\r\nA Cluster Bomb projector is equipped with three tubes designed to fire dozens of Mark II Explosively Formed Penetrator bomblets. The bomblets are unguided and have no propulsion system, relying on the initial momentum of the strike craft to engage the target. They are equipped with a friend-or-foe targeting scanner, and will only detonate when impacting an appropriate target. The shaped charge explosive is highly effective versus unshielded targets. The sheer number of bomblets that can be deployed by this weapon system is staggering, and as such it makes the Cluster Bomb a useful area denial weapon.",
+   "ctx": "data/strings/descriptions.csv clusterbomb/WEAPON [text1]"
+  },
+  {
+   "i": 11,
+   "en": "A tried and tested weapon system, the bomb bay holds multiple warheads that rely on the velocity of the launching craft to reach their target.\r\n\r\nEach bomb bay is equipped with several non guided high-explosive Comp-X bombs that can be released one at a time. The bombs have no propulsion system and are dependent on the velocity of the launching craft to carry them to target (i.e., dive bombing).  Atmospheric shielding intrinsic to the design also gives the bombs a high time-to-live in a hostile point-defense environment.",
+   "ctx": "data/strings/descriptions.csv bomb/WEAPON [text1]"
+  },
+  {
+   "i": 12,
+   "en": "Fires bursts of small flechettes at a high rate of fire. The volume of fire can quickly overwhelm shield projectors, but is generally ineffective against armor.\r\n\r\nA Light Needler is a small-bore flechette gun, designed to fire caseless ammunition. Features an impressive feed system which can deliver hundreds of \"needles\" per second. There is no need for an ejector system, and the saved space is used to provide additional cooling units, vastly enhancing the rate of fire. \r\n\r\nDomain Naval doctrine holds that the weapon is to be used on enemy shields at long-range, but in a pinch, gunnery officers will train their Needlers on enemy fighter wings and long-range missile threats.",
+   "ctx": "data/strings/descriptions.csv lightneedler/WEAPON [text1]"
+  },
+  {
+   "i": 13,
+   "en": "A high-tech improvement of the Autocannon, the railgun fires accurate, medium-range slugs. Like the AC, it excels at overwhelming enemy shield generators.\r\n\r\nA miniaturized version of the Gauss Cannon, the railgun relies on a strong magnetic field to fire shells at high velocities. The accuracy and range are excellent, and the turret is able to rotate quickly while not firing. \r\n\r\nThe railgun is preferred to the Autocannon by gunnery officers that have ample flux capacity at their disposal.",
+   "ctx": "data/strings/descriptions.csv railgun/WEAPON [text1]"
+  },
+  {
+   "i": 14,
+   "en": "A rotary cannon generously engineered to provide for great ease of operation and reliability. Weapons officers across the professional navies of the Persean Sector, meanwhile, curse the Thumper for rewarding poor maintenance habits. \r\n\r\nShreds enemy missiles and fighters with an overwhelming hail of small payload, medium velocity fragmentation rounds. Although flux-efficient, this weapon system has little effect against armor and shields.",
+   "ctx": "data/strings/descriptions.csv shredder/WEAPON [text1]"
+  },
+  {
+   "i": 15,
+   "en": "A defensive weapon system that fires shrapnel-filled shells equipped with a proximity fuse for maximum effect against fighters and missiles.\r\n\r\nThe rising prominence of small, cheap fighter craft, especially in the strike role, led to a wider deployment of this weapons system in the heady days pre-Collapse. Fires ballistic rounds fitted with a proximity fuse. The resulting explosion sends a hail of flechettes in a wide volume with a respectable kill radius versus standard targets. Newer models feature a fire control system hardwired into a Mark VI Predictor.",
+   "ctx": "data/strings/descriptions.csv flak/WEAPON [text1]"
+  },
+  {
+   "i": 16,
+   "en": "A larger cousin of the ubiquitous rapid-fire machine gun category of weapons, the Heavy MG is effective against both small and medium-sized targets.\r\n\r\nA workhorse of patrol craft across the Sector, this weapons system features reliable blowback firing mechanism said to date back to the days of Old Earth. Safety features include a positive cook-off safety for open bolt clearing and double ram prevention. The weapon is typically mounted on a relatively massive base to help absorb recoil during prolonged bursts of fire. Calibers vary within a moderate range and ammunition is easily fabricated by standard forges. \r\n\r\nThe heavier projectiles do not shatter upon impact like lighter ammunition and present a credible threat to frigate-class vessels. Extremely accurate, though slower-firing than a vulcan cannon. Excels in a point-defense role.",
+   "ctx": "data/strings/descriptions.csv heavymg/WEAPON [text1]"
+  },
+  {
+   "i": 17,
+   "en": "An antiquated weapon design with high per-shot damage for its size. The kinetic shells are especially effective versus enemy shields.\r\n\r\nHeavier patrol craft at the time of the Collapse were mostly fitted with the Arbalest Mk I weapons platform; this likely explains why the Arbalest is claimed to be among the most scavenged ship weapon systems in the Sector. The primitive cooling system and a lack of an autoejector hamper rate of fire and reliability. \r\n\r\nThe only redeeming feature is the ubiquity of blueprints for the arbalest round, which is effective at bringing down enemy shields. The effectiveness of the shells is poorly understood, and is suspected to lie in the unintended electromagnetic properties of the shell jackets.",
+   "ctx": "data/strings/descriptions.csv arbalest/WEAPON [text1]"
+  },
+  {
+   "i": 18,
+   "en": "An upgraded, viciously effective dual mount of the Flak Cannon. Nicknamed \"The Widowmaker\" for its ability to tear apart incoming fighters.\r\n\r\nJust like the standard flak cannon, this weapon devastates smaller fighter and missile targets, though it fires two proximity fuse fitted rounds. Shaped dispersal ensures dual detonation and a higher kill radius. Fighter craft are rarely intentionally launched against ships fitted with the Dual Flak for obvious reasons. Excellent rate of fire and turret turn rate.",
+   "ctx": "data/strings/descriptions.csv dualflak/WEAPON [text1]"
+  },
+  {
+   "i": 19,
+   "en": "The GA-X Industries Mk. II chaingun excels at close-range fighting, where accuracy is less important than overall damage and volume of fire.\r\n\r\nA 'melee' captain's favorite tool, the Assault Chaingun delivers high-explosive shaped charge rounds on target at a fearsome rate. Features powered feed and ejector systems and an advanced nano-cooling unit built right into the barrel. \r\n\r\nThe only drawback is a heavier turret profile which, coupled with the lack of the accompanying governor blueprint, is typically mounted on incompatible rotators giving rise to unexpectedly low turret rotation speeds.",
+   "ctx": "data/strings/descriptions.csv chaingun/WEAPON [text1]"
+  },
+  {
+   "i": 20,
+   "en": "An advanced weapon system designed to punch through armor plating at long-range. Has a low sustained rate of fire but high per-burst damage.\r\n\r\nThe heavy mauler is a brutal weapon designed to engage targets at medium to long-range. At its core, the weapon is an autocannon with a nano-cooling system and an external ejection port. However, unlike normal autocannons, the heavy mauler is distinguished by an antimatter barrel charger fed by trivial amounts of standard starship fuel.\r\n\r\nWhen leaving the firing chamber, each shell ogive is charged with a field of antiprotons which hover 10-20 nanometers to the fore of the shell, stabilized by a baryon coating. On impact with a target, this antiproton \"sheath\" loses structural integrity and the resulting reaction does further damage. Given the fact that shells already deliver impressive destructive force to the target, the combined reaction makes the heavy mauler particularly effective versus armored targets.",
+   "ctx": "data/strings/descriptions.csv heavymauler/WEAPON [text1]"
+  }
+ ]
+}

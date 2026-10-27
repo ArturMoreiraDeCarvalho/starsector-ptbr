@@ -1,0 +1,1578 @@
+{
+	"base_campaign_objective":{
+		"defaultRadius":75, # used if radius<0 in addCustomEntity()
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":true,
+		"nameFontScale":1,
+		"nameAngle":0,
+		"nameColor":[70,200,255,255],
+		"nameShadowColor":[0,0,0,255],
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"renderCircleIndicator":true,
+		"renderCircleIndicatorSelectionFlash":true,
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+	},
+	"comm_relay":{
+		"baseId":"base_campaign_objective",
+		"defaultName":"Retransmissor de Comunicação", # used if name=null in addCustomEntity()
+		"nameInText":"retransmissor de comunicação",
+		"shortName":"retransmissor",
+		"icon":"graphics/icons/relay.png",
+		"iconWidth":24,
+		"iconHeight":24,
+		"sprite":"graphics/ships/com_relay.png",
+		"spriteWidth":89,
+		"spriteHeight":48,
+		"customDescriptionId":"comm_relay",
+		"interactionImage":"graphics/illustrations/comm_relay.jpg",
+		"tags":["comm_relay", "neutrino_high", "objective"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+		"pluginClass":"com.fs.starfarer.api.impl.campaign.CommRelayEntityPlugin",
+	},
+	"nav_buoy":{
+		"baseId":"base_campaign_objective",
+		"defaultName":"Boia de navegação", # used if name=null in addCustomEntity()
+		"nameInText":"boia de navegação",
+		"shortName":"boia",
+		"icon":"graphics/icons/nav_buoy.png",
+		"iconWidth":24,
+		"iconHeight":24,
+		"sprite":"graphics/ships/nav_buoy.png",
+		"spriteWidth":64,
+		"spriteHeight":64,
+		"customDescriptionId":"nav_buoy",
+		"interactionImage":"graphics/illustrations/nav_buoy.jpg",
+		"tags":["nav_buoy", "neutrino_high", "objective"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+		"pluginClass":"com.fs.starfarer.api.impl.campaign.NavBuoyEntityPlugin",
+	},
+	"sensor_array":{
+		"baseId":"base_campaign_objective",
+		"defaultName":"Conjunto de Sensores", # used if name=null in addCustomEntity()
+		"nameInText":"conjunto de sensores",
+		"shortName":"conjunto",
+		"icon":"graphics/icons/sensor_array.png",
+		"iconWidth":24,
+		"iconHeight":24,
+		"sprite":"graphics/ships/sensor_array.png",
+		"spriteWidth":86,
+		"spriteHeight":86,
+		"customDescriptionId":"sensor_array",
+		"interactionImage":"graphics/illustrations/sensor_array.jpg",
+		"tags":["sensor_array", "neutrino_high", "objective"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+		"pluginClass":"com.fs.starfarer.api.impl.campaign.SensorArrayEntityPlugin",
+	},
+	"comm_relay_makeshift":{
+		"baseId":"comm_relay",
+		"defaultName":"Retransmissor de Comunicação Improvisado",
+		"icon":"graphics/icons/relay_makeshift.png",
+		"customDescriptionId":"comm_relay_makeshift",
+		"sprite":"graphics/ships/com_relay_makeshift.png",
+		"spriteWidth":89,
+		"spriteHeight":48,
+		"tags":["comm_relay", "neutrino_high", "objective", "makeshift"],
+	},
+	"nav_buoy_makeshift":{
+		"baseId":"nav_buoy",
+		"defaultName":"Boia de Navegação Improvisada",
+		"icon":"graphics/icons/nav_buoy_makeshift.png",
+		"customDescriptionId":"nav_buoy_makeshift",
+		"sprite":"graphics/ships/nav_buoy_makeshift.png",
+		"spriteWidth":64,
+		"spriteHeight":64,
+		"tags":["nav_buoy", "neutrino_high", "objective", "makeshift"],
+	},
+	"sensor_array_makeshift":{
+		"baseId":"sensor_array",
+		"defaultName":"Conjunto de Sensores Improvisado",
+		"icon":"graphics/icons/sensor_array_makeshift.png",
+		"customDescriptionId":"sensor_array_makeshift",
+		"interactionImage":"graphics/illustrations/sensor_array_makeshift.jpg",
+		"sprite":"graphics/ships/sensor_array_makeshift.png",
+		"spriteWidth":86,
+		"spriteHeight":86,
+		"tags":["sensor_array", "neutrino_high", "objective", "makeshift"],
+	},
+	
+	"stable_location":{
+		"baseId":"base_campaign_objective",
+		"defaultName":"Local Estável", # used if name=null in addCustomEntity()
+		"nameInText":"local estável",
+		"shortName":"local estável",
+		"aOrAn":"a",
+		"isOrAre":"é",
+		"customDescriptionId":"stable_location",
+		"interactionImage":"graphics/illustrations/free_orbit.jpg",
+		"icon":"graphics/icons/stable_location.png",
+		"iconWidth":30,
+		"iconHeight":30,
+		"tags":["has_interaction_dialog", "stable_location"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+	},
+
+	"mission_location":{
+		"defaultRadius":25, # used if radius<0 in addCustomEntity()
+		"icon":"graphics/icons/mission_location.png",
+		#"icon":"graphics/icons/mission_location2.png",
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"renderCircleIndicator":true,
+		"renderCircleIndicatorSelectionFlash":true,
+		"defaultName":"Local-Alvo", # used if name=null in addCustomEntity()
+		"nameInText":"local-alvo",
+		"shortName":"local-alvo",
+		"aOrAn":"a",
+		"isOrAre":"é",
+		"customDescriptionId":"mission_location",
+		"interactionImage":"graphics/illustrations/free_orbit.jpg",
+		"tags":["has_interaction_dialog", "mission_location"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+	},
+	"cargo_pod_special":{
+		"defaultName":"Módulo de Carga", # used if name=null in addCustomEntity()
+		"nameInText":"módulo de carga",
+		"shortName":"módulo de carga",
+		"aOrAn":"a",
+		"isOrAre":"é",
+		"defaultRadius":24, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"cargo_pod_special",
+		"interactionImage":"graphics/illustrations/cargo_pod_drift.jpg",
+		"icon":"graphics/icons/cache1.png",
+		"iconWidth":16,
+		"iconHeight":16,
+		"sprite":"graphics/stations/cargo_pod_special.png",
+		"spriteWidth":16,
+		"spriteHeight":16,
+		"renderShadow":true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["has_interaction_dialog", "neutrino", "salvage_music"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+		"renderCircleIndicator":true,
+		"renderCircleIndicatorSelectionFlash":true,
+	},
+	"generic_probe":{
+		"defaultName":"Sonda", # used if name=null in addCustomEntity()
+		"nameInText":"sonda",
+		"shortName":"sonda",
+		"aOrAn":"a",
+		"isOrAre":"é",
+		"detectionRange":2000, # must be >0 for discoverable/discoveryXP to be used
+		"discoverable":true,
+		"discoveryXP":500,		
+		"defaultRadius":25, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"generic_probe",
+		"interactionImage":"graphics/illustrations/generic_probe.jpg",
+		"icon":"graphics/icons/generic_probe_icon.png",
+		"iconWidth":16,
+		"iconHeight":16,
+		"sprite":"graphics/stations/probe.png",
+		"spriteWidth":36,
+		"spriteHeight":36,
+		"renderShadow":true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["has_interaction_dialog", "neutrino"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+		"renderCircleIndicator":true,
+		"renderCircleIndicatorSelectionFlash":true,
+	},
+	"derelict_vambrace":{
+		"defaultName":"Estrutura abandonada", # used if name=null in addCustomEntity()
+		"nameInText":"estrutura abandonada",
+		"shortName":"estrutura abandonada",
+		"aOrAn":"a",
+		"isOrAre":"é",
+		"detectionRange":2500, # must be >0 for discoverable/discoveryXP to be used
+		"discoverable":true,
+		"discoveryXP":1000,		
+		"defaultRadius":30, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"derelict_vambrace",
+		"interactionImage":"graphics/illustrations/space_wreckage.jpg",
+		"icon":"graphics/icons/derelict.png",
+		"iconWidth":32,
+		"iconHeight":32,
+		"sprite":"graphics/stations/vambrace1.png",
+		"spriteWidth":40,
+		"spriteHeight":40,
+		"renderShadow":true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["has_interaction_dialog",],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+		"renderCircleIndicator":true,
+		"renderCircleIndicatorSelectionFlash":true,
+	},
+		
+	"generic_probe_active":{
+		"defaultName":"Sonda", # used if name=null in addCustomEntity()
+		"nameInText":"sonda",
+		"shortName":"sonda",
+		"aOrAn":"a",
+		"isOrAre":"é",
+		#"detectionRange":2000, # must be >0 for discoverable/discoveryXP to be used
+		#"discoverable":true,
+		#"discoveryXP":500,		
+		"defaultRadius":25, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"generic_probe",
+		"interactionImage":"graphics/illustrations/generic_probe.jpg",
+		"icon":"graphics/icons/generic_probe_icon.png",
+		"iconWidth":16,
+		"iconHeight":16,
+		"sprite":"graphics/stations/probe.png",
+		"spriteWidth":36,
+		"spriteHeight":36,
+		"renderShadow":true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":[],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+		"renderCircleIndicator":false,
+		"renderCircleIndicatorSelectionFlash":true,
+		"pluginClass":"com.fs.starfarer.api.impl.campaign.entities.GenericProbeEntityPlugin",
+	},	
+	
+	"test_station":{
+		"defaultName":"Estação Lateral", # used if name=null in addCustomEntity()
+		"defaultRadius":100, # used if radius<0 in addCustomEntity()
+		"icon":"graphics/icons/station0.png",
+		"iconWidth":20,
+		"iconHeight":20,
+		"sprite":"graphics/stations/station_side02.png",
+		"spriteWidth":80,
+		"spriteHeight":80,
+		"renderShadow":false,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleIconWithZoom":true,
+		"customDescriptionId":"test_station",
+		"tags":["station", "neutrino"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+	},
+	
+	"inactive_gate":{
+		"defaultName":"Portão Inativo", # used if name=null in addCustomEntity()
+		"nameInText":"portão inativo",
+		"aOrAn":"um",
+		"defaultRadius":120, # used if radius<0 in addCustomEntity()
+		"interactionImage":"graphics/illustrations/dead_gate.jpg",
+		"icon":"graphics/icons/gate0.png",
+		"iconWidth":20,
+		"iconHeight":20,
+		"sprite":"graphics/stations/gate.png",
+		"spriteWidth":192,
+		"spriteHeight":192,
+		#"sprite":"graphics/ships/com_relay.png",
+		#"spriteWidth":178,
+		#"spriteHeight":96,
+		"renderShadow":true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":true,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"nameColor":[70,200,255,255],
+		"nameShadowColor":[0,0,0,255],
+		#"renderCircleIndicator":false,
+		"renderCircleIndicator":true,
+		"renderCircleIndicatorSelectionFlash":true,
+		"customDescriptionId":"inactive_gate",
+		"tags":["gate", "neutrino"],
+		"layers":[STATIONS, BELOW_STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+		"pluginClass":"com.fs.starfarer.api.impl.campaign.GateEntityPlugin",
+	},
+	
+	"station_jangala_type":{
+		"defaultName":"Estação Lateral", # used if name=null in addCustomEntity()
+		"defaultRadius":90, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"orbital_station_default",
+		"interactionImage":"graphics/illustrations/jangala_station.jpg",
+		"icon":"graphics/icons/station0.png",
+		"iconWidth":24,
+		"iconHeight":24,
+		"sprite":"graphics/stations/station_jangala2.png",
+		"spriteWidth":120,
+		"spriteHeight":120,
+		"renderShadow":false, #true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["station"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+	},
+	
+	"station_sporeship_derelict":{
+		"defaultName":"Estação Esporonave Abandonada", # used if name=null in addCustomEntity()
+		"defaultRadius":70, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"orbital_station_default",
+		"interactionImage":"graphics/illustrations/abandoned_station3.jpg",
+		"icon":"graphics/icons/station0.png",
+		"iconWidth":20,
+		"iconHeight":20,
+		"sprite":"graphics/stations/station_sporeship_derelict.png",
+		"spriteWidth":90,
+		"spriteHeight":90,
+		"renderShadow":true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["station"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+	},
+
+	"stellar_mirror":{
+		"defaultName":"Espelho Estelar", # used if name=null in addCustomEntity()
+		"defaultRadius":36, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"stellar_mirror",
+		"interactionImage":"graphics/illustrations/orbital_mirror.jpg",
+		"icon":"graphics/icons/mirror2.png",
+		"iconWidth":12,
+		"iconHeight":12,
+		"sprite":"graphics/stations/stellar_mirror.png",
+		"spriteWidth":50,
+		"spriteHeight":50,
+		"renderShadow":false,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["stellar_mirror","has_interaction_dialog", "neutrino"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+		#"renderCircleIndicator":false,
+		"renderCircleIndicator":true,
+		"renderCircleIndicatorSelectionFlash":true,
+	},
+	
+	"stellar_shade":{
+		"defaultName":"Sombreador Estelar", # used if name=null in addCustomEntity()
+		"defaultRadius":36, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"stellar_shade",
+		"interactionImage":"graphics/illustrations/orbital_shade.jpg",
+		"icon":"graphics/icons/mirror.png",
+		"iconWidth":12,
+		"iconHeight":12,
+		"sprite":"graphics/stations/stellar_shade.png",
+		"spriteWidth":50,
+		"spriteHeight":50,
+		"renderShadow":true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["stellar_shade","has_interaction_dialog", "neutrino"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+		"renderCircleIndicator":true,
+		"renderCircleIndicatorSelectionFlash":true,
+	},
+
+	"station_side00":{
+		"defaultName":"Estação Lateral", # used if name=null in addCustomEntity()
+		"defaultRadius":50, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"orbital_station_default",
+		"interactionImage":"graphics/illustrations/orbital.jpg",
+		"icon":"graphics/icons/station0.png",
+		"iconWidth":20,
+		"iconHeight":20,
+		"sprite":"graphics/stations/station_side00.png",
+		"spriteWidth":80,
+		"spriteHeight":80,
+		"renderShadow":true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["station"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+	},
+	
+	"station_galatia":{
+		"defaultName":"Estação da Academia Galatia", # used if name=null in addCustomEntity()
+		"defaultRadius":50, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"station_galatia_academy",
+		"interactionImage":"graphics/illustrations/corporate_lobby.jpg",
+		"icon":"graphics/icons/station0.png",
+		"iconWidth":20,
+		"iconHeight":20,
+		"sprite":"graphics/stations/station_galatia.png",
+		"spriteWidth":80,
+		"spriteHeight":80,
+		"renderShadow":true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["station"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+	},
+	
+	"station_side02":{
+		"defaultName":"Estação Lateral", # used if name=null in addCustomEntity()
+		"defaultRadius":50, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"orbital_station_default",
+		"interactionImage":"graphics/illustrations/orbital.jpg",
+		"icon":"graphics/icons/station0.png",
+		"iconWidth":20,
+		"iconHeight":20,
+		"sprite":"graphics/stations/station_side02.png",
+		"spriteWidth":80,
+		"spriteHeight":80,
+		"renderShadow":true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["station"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+	},
+	
+	"station_side03":{
+		"defaultName":"Estação Lateral", # used if name=null in addCustomEntity()
+		"defaultRadius":50, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"orbital_station_default",
+		"interactionImage":"graphics/illustrations/orbital.jpg",
+		"icon":"graphics/icons/station0.png",
+		"iconWidth":16,
+		"iconHeight":16,
+		"sprite":"graphics/stations/station_side03.png",
+		"spriteWidth":30,
+		"spriteHeight":30,
+		"renderShadow":true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["station"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+	},
+	
+	"station_side04":{
+		"defaultName":"Estação Lateral", # used if name=null in addCustomEntity()
+		"defaultRadius":50, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"orbital_station_default",
+		"interactionImage":"graphics/illustrations/orbital.jpg",
+		"icon":"graphics/icons/station0.png",
+		"iconWidth":20,
+		"iconHeight":20,
+		"sprite":"graphics/stations/station_side04.png",
+		"spriteWidth":60,
+		"spriteHeight":60,
+		"renderShadow":true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["station"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+	},
+	
+	"station_side05":{
+		"defaultName":"Estação Lateral", # used if name=null in addCustomEntity()
+		"defaultRadius":35, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"orbital_station_default",
+		"interactionImage":"graphics/illustrations/orbital.jpg",
+		"icon":"graphics/icons/station0.png",
+		"iconWidth":20,
+		"iconHeight":20,
+		"sprite":"graphics/stations/station_side05.png",
+		"spriteWidth":40,
+		"spriteHeight":40,
+		"renderShadow":true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["station"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+	},
+	
+	"station_mining00":{
+		"defaultName":"Estação Lateral", # used if name=null in addCustomEntity()
+		"defaultRadius":45, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"orbital_station_default",
+		"interactionImage":"graphics/illustrations/orbital_construction.jpg",
+		"icon":"graphics/icons/station0.png",
+		"iconWidth":20,
+		"iconHeight":20,
+		"sprite":"graphics/stations/station_mining00.png",
+		"spriteWidth":40,
+		"spriteHeight":40,
+		"renderShadow":true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["station"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+	},
+	
+	"station_side07":{
+		"defaultName":"Estação Lateral", # used if name=null in addCustomEntity()
+		"defaultRadius":50, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"orbital_station_default",
+		"interactionImage":"graphics/illustrations/orbital.jpg",
+		"icon":"graphics/icons/station0.png",
+		"iconWidth":22,
+		"iconHeight":22,
+		"sprite":"graphics/stations/station_side07.png",
+		"spriteWidth":44,
+		"spriteHeight":44,
+		"renderShadow":true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["station"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+	},
+	
+	"station_side06":{
+		"defaultName":"Estação Lateral", # used if name=null in addCustomEntity()
+		"defaultRadius":50, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"orbital_station_default",
+		"interactionImage":"graphics/illustrations/orbital.jpg",
+		"icon":"graphics/icons/station0.png",
+		"iconWidth":24,
+		"iconHeight":24,
+		"sprite":"graphics/stations/station_side06.png",
+		"spriteWidth":60,
+		"spriteHeight":60,
+		"renderShadow":true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["station"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+	},
+	
+	"orbital_dockyard":{
+		"defaultName":"Doca Orbital", # used if name=null in addCustomEntity()
+		"defaultRadius":50, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"orbital_dockyard",
+		"interactionImage":"graphics/illustrations/orbital_construction.jpg",
+		"icon":"graphics/icons/station0.png",
+		"iconWidth":24,
+		"iconHeight":24,
+		"sprite":"graphics/stations/station_side06.png",
+		"spriteWidth":60,
+		"spriteHeight":60,
+		"renderShadow":true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["station"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+	},
+	
+	"station_pirate_type":{
+		"defaultName":"Estação Lateral", # used if name=null in addCustomEntity()
+		"defaultRadius":40, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"orbital_station_default",
+		"interactionImage":"graphics/illustrations/orbital_construction.jpg",
+		"icon":"graphics/icons/station0.png",
+		"iconWidth":20,
+		"iconHeight":20,
+		"sprite":"graphics/stations/station_side05.png",
+		"spriteWidth":45,
+		"spriteHeight":45,
+		"renderShadow":true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["station"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+	},
+	
+	"station_built_from_industry":{
+		"defaultName":"Estação Orbital", # used if name=null in addCustomEntity()
+		"defaultRadius":65, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"orbital_station_default",
+		#"interactionImage":"graphics/illustrations/jangala_station.jpg",
+		"icon":"graphics/icons/station0.png",
+		"iconWidth":24,
+		"iconHeight":24,
+		"renderShadow":true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["station"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+	},
+	
+	"orbital_junk":{
+		"defaultName":"Habitat", # used if name=null in addCustomEntity()
+		"defaultRadius":0, # used if radius<0 in addCustomEntity()
+		"sheet":"graphics/stations/ministations_sheet00.png",
+		"sheetCellSize":32,
+		"renderShadow":true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":false,
+		"showNameOnMap":false,
+		"interactable":false,
+		"tags":["orbital_junk"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+	},
+
+	"atlantic_label":{
+		"defaultName":"Nuvem Atlantiana", # used if name=null in addCustomEntity()
+		"showInCampaign":false,
+		"showIconOnMap":false,
+		"showNameOnMap":true,
+		"nameFont":"graphics/fonts/insignia25LTaa.fnt",
+		"nameFontScale":1.1f,
+		"nameAngle":-16,
+		"nameColor":[200,215,255,120],
+		"nameShadowColor":[0,0,0,120], 
+		"scaleNameWithZoom":true,
+	},
+	
+	"persean_label":{
+		"defaultName":"Os Mundos da Liga", # used if name=null in addCustomEntity()
+		"showInCampaign":false,
+		"showIconOnMap":false,
+		"showNameOnMap":true,
+		"nameFont":"graphics/fonts/insignia25LTaa.fnt",
+		"nameFontScale":1.2f,
+		"nameAngle":-8,
+		"nameColor":[255,235,200,110],
+		"nameShadowColor":[0,0,0,110], 
+		"scaleNameWithZoom":true,
+	},
+
+	"luddic_label":{
+		"defaultName":"Caminho do Peregrino", # used if name=null in addCustomEntity()
+		"showInCampaign":false,
+		"showIconOnMap":false,
+		"showNameOnMap":true,
+		"nameFont":"graphics/fonts/insignia25LTaa.fnt",
+		"nameFontScale":1.5f,
+		"nameAngle":10,
+		"nameColor":[200,255,210,130],
+		"nameShadowColor":[0,0,0,130], 
+		"scaleNameWithZoom":true,
+	},
+	
+	"zin_label":{
+		"defaultName":"Os Desertos de Zin", # used if name=null in addCustomEntity()
+		"showInCampaign":false,
+		"showIconOnMap":false,
+		"showNameOnMap":true,
+		"nameFont":"graphics/fonts/insignia25LTaa.fnt",
+		"nameFontScale":1.0f,
+		"nameAngle":4,
+		"nameColor":[235,150,255,127],
+		"nameShadowColor":[0,0,0,110], 
+		"scaleNameWithZoom":true,
+	},
+
+	"opabyss_label":{
+		"defaultName":"Abismo Órion-Perseu", # used if name=null in addCustomEntity()
+		"showInCampaign":false,
+		"showIconOnMap":false,
+		"showNameOnMap":true,
+		"nameFont":"graphics/fonts/insignia25LTaa.fnt",
+		"nameFontScale":6,
+		"nameAngle":-14,
+		"nameColor":[70,100,220,170],
+		"nameShadowColor":[0,0,0,170],
+		"scaleNameWithZoom":true,
+	},
+
+	"telmun_label":{
+		"defaultName":"Nuvem Molecular Telmun", # used if name=null in addCustomEntity()
+		"showInCampaign":false,
+		"showIconOnMap":false,
+		"showNameOnMap":true,
+		"nameFont":"graphics/fonts/insignia25LTaa.fnt",
+		"nameFontScale":1.3f,
+		"nameAngle":-10,
+		"nameColor":[255,255,255,80],
+		"nameShadowColor":[0,0,0,75],
+		"scaleNameWithZoom":true,
+	},
+	
+	"cathedral_label":{
+		"defaultName":"Nebulosa da Catedral", # used if name=null in addCustomEntity()
+		"showInCampaign":false,
+		"showIconOnMap":false,
+		"showNameOnMap":true,
+		"nameFont":"graphics/fonts/insignia25LTaa.fnt",
+		"nameFontScale":0.7f,
+		"nameAngle":-14,
+		"nameColor":[255,255,255,90],
+		"nameShadowColor":[0,0,0,75],
+		"scaleNameWithZoom":true,
+	},
+	
+	"core_label":{
+		"defaultName":"Os Mundos do Núcleo", # used if name=null in addCustomEntity()
+		"showInCampaign":false,
+		"showIconOnMap":false,
+		"showNameOnMap":true,
+		"nameFont":"graphics/fonts/insignia25LTaa.fnt",
+		"nameFontScale":8,
+		"nameAngle":0,
+		"nameColor":[105,115,125,255],
+		"nameShadowColor":[0,0,0,255],
+		"scaleNameWithZoom":true,
+	},
+	
+	"base_constellation_label":{
+		"defaultName":"<rótulo de constelação>", # used if name=null in addCustomEntity()
+		"showInCampaign":false,
+		"showIconOnMap":false,
+		"showNameOnMap":true,
+		"nameFont":"graphics/fonts/insignia25LTaa.fnt",
+		"nameFontScale":1,
+		"nameAngle":0,
+		"nameColor":[255,255,255,255],
+		"nameShadowColor":[0,0,0,75],
+		"scaleNameWithZoom":false,
+	},
+	
+	"base_intel_icon":{
+		"defaultName":"",
+		"showInCampaign":false,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+	},
+
+
+
+
+	# procgen-related salvage things
+	
+	"derelict_probe":{
+		"defaultName":"Sonda da era do Domínio", # used if name=null in addCustomEntity()
+		"nameInText":"sonda da era do Domínio",
+		"shortName":"sonda",
+		"aOrAn":"a",
+		"isOrAre":"é",
+		"defaultRadius":35, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"derelict_probe",
+		"interactionImage":"graphics/illustrations/space_wreckage.jpg",
+		"icon":"graphics/icons/derelict.png",
+		"iconWidth":22,
+		"iconHeight":22,
+		"sprite":"graphics/stations/survey_probe.png",
+		"spriteWidth":40,
+		"spriteHeight":40,
+		"renderShadow":true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["has_interaction_dialog", "salvageable", "neutrino"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+		"renderCircleIndicator":true,
+		"renderCircleIndicatorSelectionFlash":true,
+	},
+
+
+	"derelict_survey_ship":{
+		"defaultName":"Nave de Levantamento da era do Domínio", # used if name=null in addCustomEntity()
+		"nameInText":"nave de levantamento da era do Domínio",
+		"shortName":"nave de levantamento",
+		"aOrAn":"a",
+		"isOrAre":"é",
+		"defaultRadius":47, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"derelict_surveyship",
+		"interactionImage":"graphics/illustrations/space_wreckage.jpg",
+		"icon":"graphics/icons/derelict.png",
+		"iconWidth":27,
+		"iconHeight":27,
+		"sprite":"graphics/stations/survey_ship.png",
+		"spriteWidth":60,
+		"spriteHeight":60,
+		"renderShadow":true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["has_interaction_dialog", "salvageable", "neutrino"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+		"renderCircleIndicator":true,
+		"renderCircleIndicatorSelectionFlash":true,
+	},
+	
+	"derelict_mothership":{
+		"defaultName":"Nave-Mãe da era do Domínio", # used if name=null in addCustomEntity()
+		"nameInText":"nave-mãe da era do Domínio",
+		"shortName":"nave-mãe",
+		"aOrAn":"a",
+		"isOrAre":"é",
+		"defaultRadius":67, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"derelict_mothership",
+		"interactionImage":"graphics/illustrations/space_wreckage.jpg",
+		"icon":"graphics/icons/derelict.png",
+		"iconWidth":32,
+		"iconHeight":32,
+		"sprite":"graphics/stations/survey_mothership.png",
+		"spriteWidth":90,
+		"spriteHeight":90,
+		"renderShadow":true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["has_interaction_dialog", "salvageable", "neutrino_high"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+		"renderCircleIndicator":true,
+		"renderCircleIndicatorSelectionFlash":true,
+	},
+	
+	"derelict_cryosleeper":{
+		"defaultName":"Criossono da era do Domínio", # used if name=null in addCustomEntity()
+		"nameInText":"criossono da era do Domínio",
+		"shortName":"criossono",
+		"aOrAn":"a",
+		"isOrAre":"é",
+		"defaultRadius":96, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"derelict_cryosleeper",
+		"interactionImage":"graphics/illustrations/cryosleeper_interior.jpg",
+		"icon":"graphics/icons/cryosleeper.png",
+		"iconWidth":32,
+		"iconHeight":32,
+		"sprite":"graphics/stations/cryosleeper.png",
+		"spriteWidth":108,
+		"spriteHeight":108,
+		"renderShadow":true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["has_interaction_dialog", "salvageable", "neutrino_high", "cryosleeper", "not_random_mission_target"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+		"renderCircleIndicator":true,
+		"renderCircleIndicatorSelectionFlash":true,
+		"pluginClass":"com.fs.starfarer.api.impl.campaign.CryosleeperEntityPlugin",
+	},
+	
+	"derelict_gatehauler":{
+		"defaultName":"Transportador de Portão da era do Domínio", # used if name=null in addCustomEntity()
+		"nameInText":"Transportador de Portão da era do Domínio",
+		"shortName":"transportador de portão",
+		"aOrAn":"a",
+		"isOrAre":"é",
+		"defaultRadius":150, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"derelict_gatehauler",
+		"interactionImage":"graphics/illustrations/gate_hauler1.jpg",
+		"icon":"graphics/icons/gate_hauler2.png",
+		"iconWidth":32,
+		"iconHeight":32,
+		"sprite":"graphics/stations/gate_hauler.png",
+		"spriteWidth":152,
+		"spriteHeight":256,
+		"renderShadow":true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["has_interaction_dialog", "salvageable", "neutrino_high", "not_random_mission_target"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+		"renderCircleIndicator":true,
+		"renderCircleIndicatorSelectionFlash":true,
+		"pluginClass":"com.fs.starfarer.api.impl.campaign.entities.GateHaulerEntityPlugin",
+	},	
+	
+	"coronal_tap":{
+		"defaultName":"Hipershunt Coronal", # used if name=null in addCustomEntity()
+		"nameInText":"hipershunt coronal",
+		"shortName":"hipershunt coronal",
+		"aOrAn":"a",
+		"isOrAre":"é",
+		"defaultRadius":150, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"coronal_tap",
+		"interactionImage":"graphics/illustrations/coronal_tap2.jpg",
+		"icon":"graphics/icons/coronal_shunt.png",
+		"iconWidth":32,
+		"iconHeight":32,
+		"sprite":"graphics/stations/coronal_shunt2.png",
+		"spriteWidth":240,
+		"spriteHeight":240,
+		"renderShadow":true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["has_interaction_dialog", "salvageable", "neutrino_high", "coronal_tap", "protects_from_corona_in_battle", "not_random_mission_target"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+		"renderCircleIndicator":true,
+		"renderCircleIndicatorSelectionFlash":true,
+		#"pluginClass":"com.fs.starfarer.api.impl.campaign.BaseCustomEntityPlugin",
+	},	
+	
+	
+	# not actually added to campaign engine
+	# only used as "scavenge debris field" dialog's interaction target
+	"debris_field_shared":{
+		"defaultName":"Campo de Destroços", # used if name=null in addCustomEntity()
+		"nameInText":"campo de destroços",
+		"shortName":"destroços",
+		"aOrAn":"a",
+		"isOrAre":"é",
+		"customDescriptionId":"debris_field_shared",
+		"interactionImage":"graphics/illustrations/space_wreckage.jpg",
+		"tags":["has_interaction_dialog", "salvageable", "neutrino_low"],
+	},
+	
+	
+	"wreck":{
+		"defaultName":"Nave Abandonada", # used if name=null in addCustomEntity()
+		"defaultRadius":20, # used if radius<0 in addCustomEntity()
+		"nameInText":"nave abandonada",
+		"shortName":"nave",
+		"aOrAn":"a",
+		"isOrAre":"é",
+		"showInCampaign":true,
+		"scaleIconSizeBasedOnDefaultRadius":false,
+		"showIconOnMap":true,
+		"scaleIconWithZoom":true,
+		"iconWidth":20,
+		"iconHeight":20,
+		"icon":"graphics/icons/derelict.png",
+		"customDescriptionId":"derelict_ship",
+		"interactionImage":"graphics/illustrations/space_wreckage.jpg",
+		"layers":[TERRAIN_7A],
+		"tags":["has_interaction_dialog", "salvageable", "neutrino_low"],
+		"pluginClass":"com.fs.starfarer.api.impl.campaign.DerelictShipEntityPlugin",
+	},
+	
+	"hidden_cache":{
+		"defaultName":"Depósito Oculto", # used if name=null in addCustomEntity()
+		"defaultRadius":35, # used if radius<0 in addCustomEntity()
+		"nameInText":"depósito oculto",
+		"shortName":"depósito oculto",
+		"aOrAn":"a",
+		"isOrAre":"é",
+		"showInCampaign":true,
+		"scaleIconSizeBasedOnDefaultRadius":false,
+		"showIconOnMap":true,
+		"scaleIconWithZoom":true,
+		"iconWidth":20,
+		"iconHeight":20,
+		"icon":"graphics/icons/cache0.png",
+		"customDescriptionId":"hidden_cache",
+		"interactionImage":"graphics/illustrations/cargo_pod_drift.jpg",
+		"layers":[TERRAIN_7A],
+		"tags":["has_interaction_dialog", "salvageable", "neutrino_low"],
+		"pluginClass":"com.fs.starfarer.api.impl.campaign.HiddenCacheEntityPlugin",
+	},
+	
+	
+	"supply_cache":{
+		"defaultName":"Depósito de Suprimentos", # used if name=null in addCustomEntity()
+		"defaultRadius":35, # used if radius<0 in addCustomEntity()
+		"nameInText":"depósito de suprimentos",
+		"shortName":"depósito de suprimentos",
+		"aOrAn":"a",
+		"isOrAre":"é",
+		"showInCampaign":true,
+		"scaleIconSizeBasedOnDefaultRadius":false,
+		"showIconOnMap":true,
+		"scaleIconWithZoom":true,
+		"iconWidth":20,
+		"iconHeight":20,
+		"icon":"graphics/icons/cache0.png",
+		"customDescriptionId":"supply_cache",
+		"interactionImage":"graphics/illustrations/cache_large.jpg",
+		"layers":[TERRAIN_7A],
+		"tags":["has_interaction_dialog", "salvageable", "neutrino"],
+		"pluginClass":"com.fs.starfarer.api.impl.campaign.SupplyCacheEntityPlugin",
+	},
+	
+	"weapons_cache":{
+		"baseId":"supply_cache",
+		"defaultName":"Depósito de Armas",
+		"defaultRadius":35, 
+		"nameInText":"depósito de armas",
+		"shortName":"depósito de armas",
+		"customDescriptionId":"weapon_cache",
+	},
+	
+	"weapons_cache_remnant":{
+		"baseId":"weapons_cache",
+	},
+	
+	"weapons_cache_low":{
+		"baseId":"weapons_cache",
+	},
+	
+	"weapons_cache_high":{
+		"baseId":"weapons_cache",
+	},
+	
+	"equipment_cache":{
+		"baseId":"supply_cache",
+		"aOrAn":"um",
+		"defaultName":"Depósito de Equipamentos",
+		"defaultRadius":35, 
+		"nameInText":"depósito de equipamentos",
+		"shortName":"depósito de equipamentos",
+	},
+	
+	# a cache that's a single large structure rather than a collection of containers etc
+	# set up as a salvage entity but has no salvage by default, meant to use different
+	# salage specs for particular cases 
+	"large_cache":{
+		"baseId":"supply_cache",
+		"aOrAn":"a",
+		# needs to be cache so that an override name ending in Cache does not result in a weird tooltip
+		# E.G. if this said "Large Cache" and the name was set to "Mothballed Equipment Cache"
+		# The tooltip would show Mothballed Equipment Cache (Large Cache)
+		# But if the name ends with what's in this field, the parenthetical will be omitted.
+		"defaultName":"Depósito",
+		"defaultRadius":35, 
+		"nameInText":"depósito",
+		"shortName":"depósito",
+		"iconWidth":20,
+		"iconHeight":20,
+		"icon":"graphics/icons/cache0.png",
+		"interactionImage":"graphics/illustrations/cache_large.jpg",
+		"sprite":"graphics/stations/large_cache.png",
+		"spriteWidth":40,
+		"spriteHeight":40,
+		"pluginClass":"",
+	},
+	
+	"technology_cache":{
+		"baseId":"supply_cache",
+		"defaultName":"Depósito de Tecnologia",
+		"defaultRadius":35, 
+		"nameInText":"depósito de tecnologia",
+		"shortName":"depósito de tecnologia",
+	},
+	
+	"alpha_site_weapons_cache":{
+		"baseId":"supply_cache",
+		"defaultName":"Depósito Fortemente Blindado",
+		"defaultRadius":35, 
+		"nameInText":"depósito blindado",
+		"shortName":"depósito",
+		"tags":["has_interaction_dialog", "salvageable", "neutrino_high"],
+	},
+	
+	"supply_cache_small":{
+		"baseId":"supply_cache",
+		"defaultName":"Pequeno Depósito de Suprimentos",
+		"defaultRadius":25, 
+		"nameInText":"pequeno depósito de suprimentos",
+		"shortName":"depósito de suprimentos",
+	},
+	
+	"weapons_cache_small":{
+		"baseId":"supply_cache",
+		"defaultName":"Pequeno Depósito de Armas",
+		"defaultRadius":25, 
+		"nameInText":"pequeno depósito de armas",
+		"shortName":"depósito de armas",
+		"customDescriptionId":"weapon_cache",
+	},
+	
+	"weapons_cache_small_remnant":{
+		"baseId":"weapons_cache_small",
+	},	
+	
+	"weapons_cache_small_low":{
+		"baseId":"weapons_cache_small",
+	},
+	
+	"weapons_cache_small_high":{
+		"baseId":"weapons_cache_small",
+	},
+	
+	"equipment_cache_small":{
+		"baseId":"supply_cache",
+		"defaultName":"Pequeno Depósito de Equipamentos",
+		"defaultRadius":25, 
+		"nameInText":"pequeno depósito de equipamentos",
+		"shortName":"depósito de equipamentos",
+	},
+	
+	"station_mining":{
+		"defaultName":"Estação de Mineração", # used if name=null in addCustomEntity()
+		"defaultRadius":45, # used if radius<0 in addCustomEntity()
+		"nameInText":"estação de mineração",
+		"shortName":"estação",
+		"customDescriptionId":"station_mining_remnant",
+		"interactionImage":"graphics/illustrations/orbital_construction.jpg",
+		"icon":"graphics/icons/station_mining_broken.png",
+		"iconWidth":20,
+		"iconHeight":20,
+		"sprite":"graphics/stations/station_mining00.png",
+		"spriteWidth":40,
+		"spriteHeight":40,
+		"renderShadow":true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["has_interaction_dialog", "salvageable", "neutrino"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+	},
+	
+	"station_research":{
+		"defaultName":"Estação de Pesquisa", # used if name=null in addCustomEntity()
+		"defaultRadius":45, # used if radius<0 in addCustomEntity()
+		"nameInText":"estação de pesquisa",
+		"shortName":"estação",
+		"customDescriptionId":"station_research_remnant",
+		"interactionImage":"graphics/illustrations/orbital_construction.jpg",
+		"icon":"graphics/icons/station_research_broken.png",
+		"iconWidth":20,
+		"iconHeight":20,
+		"sprite":"graphics/stations/station_side00.png",
+		"spriteWidth":40,
+		"spriteHeight":40,
+		"renderShadow":true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["has_interaction_dialog", "salvageable", "neutrino"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+	},
+	
+	"orbital_habitat":{
+		"defaultName":"Habitat Orbital", # used if name=null in addCustomEntity()
+		"defaultRadius":45, # used if radius<0 in addCustomEntity()
+		"aOrAn":"um",
+		"nameInText":"habitat orbital",
+		"shortName":"habitat orbital",
+		"customDescriptionId":"orbital_habitat_abandoned",
+		"interactionImage":"graphics/illustrations/orbital_construction.jpg",
+		"icon":"graphics/icons/station_habitat_broken.png",
+		"iconWidth":20,
+		"iconHeight":20,
+		"sprite":"graphics/stations/station_side06.png",
+		"spriteWidth":40,
+		"spriteHeight":40,
+		"renderShadow":true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["has_interaction_dialog", "salvageable", "neutrino"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+	},
+	
+	"station_mining_remnant":{
+		"baseId":"station_mining",
+	},
+	"station_research_remnant":{
+		"baseId":"station_research",
+	},	
+	"orbital_habitat_remnant":{
+		"baseId":"orbital_habitat",
+	},
+	"makeshift_station":{
+		"baseId":"orbital_habitat",
+		"customDescriptionId":"makeshift_station",
+		"icon":"graphics/icons/station0.png",
+		"interactionImage":"graphics/illustrations/pirate_station.jpg",
+		"tags":["has_interaction_dialog", "neutrino", "station", "use_station_visual"],
+	},
+
+
+	"cargo_pods":{
+		"defaultName":"Cápsulas de carga", # used if name=null in addCustomEntity()
+		"defaultRadius":20, # used if radius<0 in addCustomEntity()
+		"nameInText":"módulos de carga",
+		"shortName":"módulos de carga",
+		"aOrAn":"a",
+		"isOrAre":"são",
+		"showInCampaign":true,
+		"scaleIconSizeBasedOnDefaultRadius":false,
+		"showIconOnMap":true,
+		"scaleIconWithZoom":true,
+		"iconWidth":20,
+		"iconHeight":20,
+		"icon":"graphics/icons/cargo_pod0.png",
+		"customDescriptionId":"cargo_pods",
+		"interactionImage":"graphics/illustrations/cargo_pod_drift.jpg",
+		"layers":[TERRAIN_7A],
+		"tags":["has_interaction_dialog", "neutrino", "salvage_music"],
+		"pluginClass":"com.fs.starfarer.api.impl.campaign.CargoPodsEntityPlugin",
+	},
+
+
+	"warning_beacon":{
+		"defaultName":"Farol de alerta", # used if name=null in addCustomEntity()
+		"defaultRadius":40, # used if radius<0 in addCustomEntity()
+		"detectionRange":3000, # must be >0 for discoverable/discoveryXP to be used
+		"discoverable":true,
+		"discoveryXP":500,
+		"icon":"graphics/icons/warning_beacon.png",
+		"iconColor":[255,100,0,255],
+		"iconWidth":24,
+		"iconHeight":24,
+		"spriteWidth":64,
+		"spriteHeight":64,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"scaleIconWithZoom":true,
+		"customDescriptionId":"warning_beacon",
+		"interactionImage":"graphics/illustrations/comm_relay.jpg",
+		"tags":["has_interaction_dialog", "warning_beacon", "neutrino_high"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+		"pluginClass":"com.fs.starfarer.api.impl.campaign.WarningBeaconEntityPlugin",
+	},
+	
+	"fusion_lamp":{
+		"defaultName":"Lâmpada de Fusão", # used if name=null in addCustomEntity()
+		"defaultRadius":40, # used if radius<0 in addCustomEntity()
+		#"detectionRange":3000, # must be >0 for discoverable/discoveryXP to be used
+		#"discoverable":true,
+		#"discoveryXP":500,
+		#"icon":"graphics/icons/warning_beacon.png",
+		#"iconColor":[255,165,100,255],
+		#"iconWidth":24,
+		#"iconHeight":24,
+		#"spriteWidth":64,
+		#"spriteHeight":64,
+		"showInCampaign":true,
+		"showIconOnMap":false,
+		"scaleIconWithZoom":true,
+		"customDescriptionId":"fusion_lamp",
+		"renderCircleIndicator":false,
+		"interactionImage":"graphics/illustrations/fusion_lamp.jpg",
+		"tags":["has_interaction_dialog", "neutrino_high"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+		"pluginClass":"com.fs.starfarer.api.impl.campaign.FusionLampEntityPlugin",
+	},
+	
+	"explosion":{
+		"defaultName":"Explosão", # used if name=null in addCustomEntity()
+		"defaultRadius":0, # used if radius<0 in addCustomEntity()
+		"showInCampaign":true,
+		"showIconOnMap":false,
+		"renderCircleIndicator":false,
+		"tags":["expires"],
+		"layers":[ABOVE], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+		"pluginClass":"com.fs.starfarer.api.impl.campaign.ExplosionEntityPlugin",
+	},
+	
+	
+	# New station stuff which uses techlevels. Will clean up old stuff once this is all happy. -D
+	# lowtech stations
+	"station_lowtech1":{
+		"defaultName":"Estação Orbital", # used if name=null in addCustomEntity()
+		"defaultRadius":60, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"orbital_station_default",
+		"interactionImage":"graphics/illustrations/orbital.jpg",
+		"icon":"graphics/icons/station1.png",
+		"iconWidth":24,
+		"iconHeight":24,
+		"sprite":"graphics/stations/station_lowtech1.png",
+		"spriteWidth":66,
+		"spriteHeight":80,
+		"renderShadow":true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["station"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+	},
+	"station_lowtech2":{
+		"defaultName":"Estação de Batalha", # used if name=null in addCustomEntity()
+		"defaultRadius":80, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"orbital_station_default",
+		"interactionImage":"graphics/illustrations/orbital.jpg",
+		"icon":"graphics/icons/station2.png",
+		"iconWidth":24,
+		"iconHeight":24,
+		"sprite":"graphics/stations/station_lowtech2.png",
+		"spriteWidth":85,
+		"spriteHeight":85,
+		"renderShadow":true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["station"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+	},
+	"station_lowtech3":{
+		"defaultName":"Fortaleza Estelar", # used if name=null in addCustomEntity()
+		"defaultRadius":110, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"orbital_station_default",
+		"interactionImage":"graphics/illustrations/orbital.jpg",
+		"icon":"graphics/icons/station3.png",
+		"iconWidth":26,
+		"iconHeight":26,
+		"sprite":"graphics/stations/station_lowtech3.png",
+		"spriteWidth":120,
+		"spriteHeight":125,
+		"renderShadow":true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["station"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+	},
+	# midline stations 
+	"station_midline1":{
+		"defaultName":"Estação Orbital", # used if name=null in addCustomEntity()
+		"defaultRadius":60, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"orbital_station_default",
+		"interactionImage":"graphics/illustrations/orbital.jpg",
+		"icon":"graphics/icons/station1.png",
+		"iconWidth":24,
+		"iconHeight":24,
+		"sprite":"graphics/stations/station_midline1.png",
+		"spriteWidth":66,
+		"spriteHeight":80,
+		"renderShadow":true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["station"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+	},
+	"station_midline2":{
+		"defaultName":"Estação de Batalha", # used if name=null in addCustomEntity()
+		"defaultRadius":90, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"orbital_station_default",
+		"interactionImage":"graphics/illustrations/orbital.jpg",
+		"icon":"graphics/icons/station2.png",
+		"iconWidth":26,
+		"iconHeight":26,
+		"sprite":"graphics/stations/station_midline2.png",
+		"spriteWidth":85,
+		"spriteHeight":85,
+		"renderShadow":true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["station"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+	},
+	"station_midline3":{
+		"defaultName":"Fortaleza Estelar", # used if name=null in addCustomEntity()
+		"defaultRadius":110, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"orbital_station_default",
+		"interactionImage":"graphics/illustrations/orbital.jpg",
+		"icon":"graphics/icons/station3.png",
+		"iconWidth":28,
+		"iconHeight":28,
+		"sprite":"graphics/stations/station_midline3.png",
+		"spriteWidth":120,
+		"spriteHeight":125,
+		"renderShadow":true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["station"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+	},
+	
+	# hightech stations
+	"station_hightech1":{
+		"defaultName":"Estação Orbital", # used if name=null in addCustomEntity()
+		"defaultRadius":50, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"orbital_station_default",
+		"interactionImage":"graphics/illustrations/orbital.jpg",
+		"icon":"graphics/icons/station1.png",
+		"iconWidth":24,
+		"iconHeight":24,
+		"sprite":"graphics/stations/station_hightech1.png",
+		"spriteWidth":66,
+		"spriteHeight":80,
+		"renderShadow":true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["station"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+	},
+	"station_hightech2":{
+		"defaultName":"Estação de Batalha", # used if name=null in addCustomEntity()
+		"defaultRadius":70, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"orbital_station_default",
+		"interactionImage":"graphics/illustrations/orbital.jpg",
+		"icon":"graphics/icons/station2.png",
+		"iconWidth":26,
+		"iconHeight":26,
+		"sprite":"graphics/stations/station_hightech2.png",
+		"spriteWidth":110,
+		"spriteHeight":90,
+		"renderShadow":true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["station"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+	},
+	"station_hightech3":{
+		"defaultName":"Fortaleza Estelar", # used if name=null in addCustomEntity()
+		"defaultRadius":100, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"orbital_station_default",
+		"interactionImage":"graphics/illustrations/orbital.jpg",
+		"icon":"graphics/icons/station3.png",
+		"iconWidth":28,
+		"iconHeight":28,
+		"sprite":"graphics/stations/station_hightech3.png",
+		"spriteWidth":120,
+		"spriteHeight":125,
+		"renderShadow":true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["station"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+	},
+	"sensor_ghost":{
+		"defaultName":"Entidade Não Identificada", # used if name=null in addCustomEntity()
+		"nameInText":"fantasma de sensor",
+		"shortName":"fantasma de sensor",
+		"aOrAn":"a",
+		"isOrAre":"é",
+		"detectionRange":1000, # must be >0 for discoverable/discoveryXP to be used
+		"discoverable":true,
+		"discoveryXP":0,		
+		"defaultRadius":25, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"sensor_ghost", # should be unused since it'll always be unidentified
+		"iconWidth":16,
+		"iconHeight":16,
+		#"sprite":"graphics/stations/probe.png",
+		#"spriteWidth":36,
+		#"spriteHeight":36,
+		"renderShadow":false,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["ghost"],
+		"layers":[FLEETS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+		"renderCircleIndicator":false,
+		"renderCircleIndicatorSelectionFlash":false,
+	},
+	
+	"abyssal_light":{
+		"defaultName":"Luz Abissal", # used if name=null in addCustomEntity()
+		"defaultRadius":45, # used if radius<0 in addCustomEntity()
+		"detectionRange":0, # set in plugin code
+		"showInCampaign":true,
+		"icon":"graphics/icons/abyssal_light.png",
+		"iconWidth":18,
+		"iconHeight":18,
+		"customDescriptionId":"abyssal_light",
+		"renderCircleIndicator":false,
+		"interactionImage":"graphics/illustrations/abyssal_light.jpg",
+		"tags":["has_interaction_dialog", "neutrino_high"],
+		"layers":[STATIONS, TERRAIN_8], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+		"pluginClass":"com.fs.starfarer.api.impl.campaign.AbyssalLightEntityPlugin",
+	},
+}
+
+

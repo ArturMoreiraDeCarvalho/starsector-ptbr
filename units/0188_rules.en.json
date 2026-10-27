@@ -1,0 +1,171 @@
+{
+ "chunk": 188,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"What a wonderful idea, captain!\" Sebestyen starts tapping away at his terminal, pulling up forms.\r\n\r\n\"I feel, um, personally,\" he says, \"that giving a chance to the brilliant up-and-coming minds of the next generation is perhaps the noblest thing someone of means can do to contribute to, to you know. Our future?\"\r\n\r\nHe clears his throat.\r\n\r\n\"So, it's only really worth doing if we can put at least 100,000 credits into a trust...\" He watches through the link to see how you react.\r\n\r\nYou have $player.credits credits available.",
+   "ctx": "data/campaign/rules.csv asebScholarshipPitch [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"Of course, I'm more than happy to discuss a scholarship.\" Sebestyen starts tapping away at his terminal, pulling up the required forms.\r\n\r\n\"You have the chance to provide real opportunities to the up-and-coming minds of the next generation, a truly noble cause!\"\r\n\r\nHe clears his throat. \"So, um. It's only really worth doing if we can put at least 100,000 credits into a trust...\"\r\n\r\nYou have $player.credits credits available.",
+   "ctx": "data/campaign/rules.csv asebScholarshipPitchAgainSel [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"Wonderful!\" Sebestyen says, unable to suppress  his smile. \"I'll just fill this out for you...\"",
+   "ctx": "data/campaign/rules.csv asebScholarship100k [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"Fantastic!\" Sebestyen beams a smile at you. \"That's so, so... you're a very generous captain, um, captain. This will do so much to provide for our students who don't come from families of means...\"",
+   "ctx": "data/campaign/rules.csv asebScholarship200k [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"I, I, I-\" Sebestyen gapes, at a loss for words at your generosity.\r\n\r\nYou patiently allow him a few moments to recover, because he needs them.\r\n\r\n\"I, of course, yes, absolutely captain. Wow! This is incredible! I don't know what to say.\" He looks around, smiling, and a bit dazed.",
+   "ctx": "data/campaign/rules.csv asebScholarship500k [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"Ah, I- of course, yes.\" Sebestyen taps a key, closing the work he already started. \"If you change your mind, just let me know at any time.\"",
+   "ctx": "data/campaign/rules.csv asebScholarshipBack [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Oh!\" He looks at his terminal for a moment. \"You have an opportunity to, um, is there some particular cause you would like to promote through your scholarship trust? As the patron, it's up to you.\"",
+   "ctx": "data/campaign/rules.csv asebScholarshipCause [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"Oh, that's very good of you! ...Which I said, uh, already.\"\r\n\r\nHe's nearly flailing his hands. \"But, that is, I myself benefitted from just such a scholarship, so I know how it is to be... to be given this chance, and, um. Sorry captain, I uh,\" his voice cracks and he wipes his eyes. \r\n\r\n\"Must be... something in the atmo system. Sorry, um,\" he taps at his terminal, with a sniffle. \"There. All set.\"",
+   "ctx": "data/campaign/rules.csv asebScholarshipCauseAsel [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"Oh, adventurous! I would expect nothing less from a dashing spacer captain,\" he says happily, tapping away at his terminal. \"Nothing easier. Um, except all the exploration work of course. Very difficult. And, oh, possibly dangerous. But you know what I... uh, what I mean is, you're all set!\"\r\n\r\nHe smiles.",
+   "ctx": "data/campaign/rules.csv asebScholarshipCauseBsel [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"Oh, um, interesting,\" he says. \"We're going to have to, um. You understand that the Hegemony has certain...\" He coughs once, a transparent excuse to not finish his sentence.\r\n\r\n\"It all comes down to the wording, don't worry.\" He taps away at the terminal for a minute. \"There. That should make everyone happy.\" He smiles.",
+   "ctx": "data/campaign/rules.csv asebScholarshipCauseCsel [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"Luddic? Oh yes, of course. I just-\" He flashes an awkward smile, then drops it after he realizes it's not clear why he should be smiling so much.\r\n\r\n\"It's, that's just... unexpected. We can just, uh, there you go,\" he says, tapping at his terminal.",
+   "ctx": "data/campaign/rules.csv asebScholarshipCauseEsel [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"Oh! Um.\" Sebestyen's expression flutters away from... something. You can see him making a conscious effort to present a blandly pleasant countenance.\r\n\r\n\"What an interesting idea,\" he coughs, and clears his throat. \"I'll just... there, it's done.\"",
+   "ctx": "data/campaign/rules.csv asebScholarshipCauseFsel [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"Oh,\" he hides his disappointment well. \"Um, of course. An interesting choice. I'll just... there. We're all set.\"\r\n\r\nHe forces a smile.",
+   "ctx": "data/campaign/rules.csv asebScholarshipCauseGsel [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"On behalf of the Galatia Academy,\" Sebestyen says, \"-its faculty, students, and um, administrators, I wish to offer you my heartfelt thanks for your contribution to the future of humanity.\"",
+   "ctx": "data/campaign/rules.csv asebScholarshipOutroA [text]"
+  },
+  {
+   "i": 15,
+   "en": "After a short wait, your connection request is accepted.",
+   "ctx": "data/campaign/rules.csv genericContactMissionReturn1 [text]"
+  },
+  {
+   "i": 16,
+   "en": "Academician Sebestyen taps at a datapad. \"Let me look at what we’ve got lined up for you today... Oh.\" He puts down the datapad and looks to you, confused. \r\n\r\n\"It's, the, um, Provost Baird wants to speak with you,\" he says. He picks up the datapad again, examines it, and puts it down.\r\n\r\n\"In person. Um. As soon as possible.\"",
+   "ctx": "data/campaign/rules.csv asebAskedForWorkBairdTalk [text]"
+  },
+  {
+   "i": 17,
+   "en": "Academician Sebestyen taps at a datapad. \"Let me look at- Oh.\" He puts down the datapad.\r\n\r\n\"I'm sorry captain, you're blocked out of everything until you meet with Provost Baird. I'm, um. She can be... well, you should hear her out at least, right?\"\r\n\r\n\"Um.\" He clears his throat. \"I guess that's everything for now?\"",
+   "ctx": "data/campaign/rules.csv asebAskedForWorkBairdTalk2 [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"Oh no, that's quite impossible. I mean, she's ah- that is, I literally can't give you anything until the provost enables your contract code again.\" Sebestyen holds up his datapad which practically glows with a string of bright DENIED codes. \"See?\"\r\n\r\n\"So. Um. A landing slot has been cleared for whenever you're ready.\"",
+   "ctx": "data/campaign/rules.csv asebHowAboutAMission [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"Ah,\" says Sebestyen. You can tell instantly that he has some kind of bad news. \"... Captain $playerName,\" he says, then fakes a small cough to delay the inevitable. \r\n\r\n\"It is good to see you. Um. It's always good to see you. The provost, however,\" he coughs again, then leans close. \"She's, um, put a... hold on your contract code.\" He turns his datapad for you to see; it's lit up with bright DENIED alerts.\r\n\r\n\"So.\" He taps his fingers on the console. \"Everything is going well for you?\"",
+   "ctx": "data/campaign/rules.csv asebNoMoreMissions [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"The $gaData_department team has turned up records of a data cache on $gaData_planetName in the $gaData_systemName system; they just need someone to go find it and transmit the contents back to the Academy.\"",
+   "ctx": "data/campaign/rules.csv gaDataBlurb [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"So this is an easy one, right? All you have to do is get to $gaData_planetName, in the $gaData_systemName system, which is,\" $heOrShe checks a different datapad, \"about $gaData_dist light-years away. We'll provide the exact coordinates of the $gaData_target you need to, um, access. Then once you're back in hypercomm range, send the encrypted contents back to the Academy and the finance office will pay you $gaData_reward credits.“",
+   "ctx": "data/campaign/rules.csv gaDataMissionTextBasicOrPirates [text]"
+  },
+  {
+   "i": 22,
+   "en": "Academician Sebestyen makes a series of small, odd noises as $heOrShe reads from his datapad. \"Ooh no. Oh. Hmm. Okay.\"\r\n\r\nHe turns to you, closes his eyes to brace for a moment, then puts on an impressive smile before proceeding. \"So this won't be a problem right? I mean, we have the exact coordinates of the $gaData_target for you. On $gaData_planetName, in the $gaData_systemName system, which is $gaData_dist light-years away. You get in, you get out, and once you're in hypercomm range, just send the encrypted contents back to the Academy and the finance office will pay you $gaData_reward credits. No problem!\"",
+   "ctx": "data/campaign/rules.csv gaDataMissionTextRemnants [text]"
+  },
+  {
+   "i": 23,
+   "en": "A longish pause, which is unusual for Academician $personLastName, who has a way of filling uncomfortable gaps in conversation.\r\n\r\n\"But. We’re not supposed to talk about it. But. If you recall all those rumors around the First AI War... well, you can ask in the Persean Studies department maybe? But there is a, um, possibility, maybe, that you will encounter certain, um,\" $heOrShe looks down to check the exact phrasing, \"'autonomous weapon systems'. It says it might be quite dangerous, which is why this pays more than usual. I'm sure it's nothing, right? Ha-ha. You'll be fine?\"",
+   "ctx": "data/campaign/rules.csv gaDataMissionTextRemnants2 [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"Right. Uh. So once you get to $gaData_planetName in the $gaData_systemName system, about $gaData_dist light-years away, you’ll go to the exact coordinates of the $gaData_target. That's where things might be a little, um, complicated.\"\r\n\r\n$HeOrShe pauses and you watch the process of $himOrHer considering how to phrase $hisOrHer next words. \"There are reports of ah, a 'decivilized' population. Probably? They don't have weapons that can take on a spaceship but it says here they have,\" $heOrShe taps at another datapad, \"a lot of handheld weapons. And they're ... fairly hostile. Usually. So, you should definitely bring,\" yet another datapad, \"around $gaData_marinesReq or so marines. Just in case. I mean, hopefully no one gets shot right? Statistically speaking, um. The data suggests that only low casualties are a possibility?\"\r\n\r\n$HeOrShe looks a little ill at the thought, but recovers quickly, \"Once you’re back in hypercomms range, just send the encrypted contents back to the Academy and the finance office will pay you $gaData_reward credits. Easy!\"",
+   "ctx": "data/campaign/rules.csv gaDataMissionTextDeciv [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"Yes, so you’ll need to go to $gaData_planetName in the $gaData_systemName system, which is $gaData_dist light-years away. We’ll provide the exact coordinates of the $gaData_target you need to, um, access. And oh, oh, this is really important,\" $heOrShe taps a key, switching the display to a stellar diagram that appears to be exploding in two arcs on opposite poles.\r\n\r\nAcademician $personLastName explains, \"$gaData_pulsarName is a pulsar, so you’ll have to be very, very careful. I’m so jealous! Rapidly spinning jets of high energy charged particles, oh, it’s a once-in-a-lifetime sight. I mean, that’s what I hear from the Astrometrics people,\" $heOrShe sighs. \"So, um, hopefully your shields are up to spec?\"\r\n\r\n$HeOrShe continues, \"Once you’re back in hypercomms range, send the encrypted contents back to the Academy and the finance office will pay you $gaData_reward credits.\"",
+   "ctx": "data/campaign/rules.csv gaDataMissionTextPulsar [text]"
+  },
+  {
+   "i": 26,
+   "en": "A scan of the coordinates provided by Academician Sebestyen shows the location is long deserted. Your sensors officer tentatively identifies the $gaData_target on the readout. It appears to be in relatively good shape.",
+   "ctx": "data/campaign/rules.csv gaDataStandardPlanetInteraction [text]"
+  },
+  {
+   "i": 27,
+   "en": "A scan of the coordinates provided by Academician Sebestyen shows signs of human presence. There's evidence of recent handheld weapons fire and the use of small-scale explosives, though thankfully it appears the $gaData_target has escaped any serious damage.\r\n\r\nStill, it looks like recovering the data will require some shooting.",
+   "ctx": "data/campaign/rules.csv gaDataDecivInteractionRaid [text]"
+  },
+  {
+   "i": 28,
+   "en": "Your marines provide security while a small salvage team accesses the $gaData_target and extracts the specified data cores.",
+   "ctx": "data/campaign/rules.csv gaDataFinishedRaid [text]"
+  },
+  {
+   "i": 29,
+   "en": "You send down a small salvage team. They access the $gaData_target and extract the specified data cores without undue difficulty.",
+   "ctx": "data/campaign/rules.csv gaDataPlanetGetData [text]"
+  },
+  {
+   "i": 30,
+   "en": "You order some cargo crates loaded with supplies and just enough solid-prop boosters to survive a landing. Once these are deployed and attracting a suitable amount of attention, a small salvage team accesses the $gaData_target and extracts the specified data cores.\r\n\r\nThe team has to leave quickly, but fortunately - aside from a few small-arms burns on the extraction shuttle - there's no harm done.",
+   "ctx": "data/campaign/rules.csv gaDataPlanetGetDataDistraction [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"Eyh there cap'n. Good work finding the target! We all admire your cleverness,\" $heOrShe turns over $hisOrHer shoulder to address $hisOrHer crew, \"Don’t we, ya vac-hogs?\"\r\n\r\nYou hear, quietly, the pirate bridge crew giving a round of \"Aye!\"s amid hooting and applause.",
+   "ctx": "data/campaign/rules.csv gaDataPirateOpenComm [text]"
+  },
+  {
+   "i": 32,
+   "en": "The pirate leader turns back to the display. \"Now if you don't mind, we'll be takin' those coordinates from you and doing some of the good, honest work that the rich-man is paying us for.\"",
+   "ctx": "data/campaign/rules.csv gaDataPirateConvBeforeGotData [text]"
+  },
+  {
+   "i": 33,
+   "en": "The pirate leader turns back to the display. \"Now if you don’t mind, we'll be takin' a copy of that data from you back to the rich-man who's paying us. Transmit now, if you'd be so kind. Or do we gotta come over and cut the memory core from that fancy flagship you're flying?\"",
+   "ctx": "data/campaign/rules.csv gaDataPirateConvAfterGotData [text]"
+  }
+ ]
+}

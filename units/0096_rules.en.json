@@ -1,0 +1,256 @@
+{
+ "chunk": 96,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"The Gate Haulers were built for reliability,\" your chief engineer explains. \"Every fail state reverts to a lower-energy safe mode; the backups of backups have backups. Even intentionally sabotaging a Hauler would involve extreme effort.\"\r\n\r\nYour tech officer taps at a datapad with a vexed look, but raises no objection.\r\n\r\nA silence descends. There is no need to put it into words: the arrival of a Gate Hauler in the Persean Sector would be momentous.",
+   "ctx": "data/campaign/rules.csv gh_activateRisksSel [text]"
+  },
+  {
+   "i": 2,
+   "en": "Your chief engineer starts nodding and tapping at their TriPad, mumbling over technical figures.\r\n\r\nAn interactive display appears in your executive interface, and with a few manipulations, the chief has a materials schedule prepared for your review.",
+   "ctx": "data/campaign/rules.csv gh_activateCheckSel [text]"
+  },
+  {
+   "i": 3,
+   "en": "Your operations chief oversees the transfer of transplutonics. Streams of cargo drones feed the unimaginably huge bulk of the Hauler; it seems strange that so little can move so much so far.\r\n\r\nWith only a little coaxing, the Gate Hauler's automation churns into something like machine-awareness; sensors reports power surges throughout the hull as ancient conduits and machines self-test - some failing. Long-dormant self-repair drones begin to seethe like vermin.\r\n\r\nAnd, slowly, your $shipOrFleet's various sensors feel the growing power of the machine. Magnetic fields shudder, neutrinos begin to spill forth in earnest from reactions deep in the mass of the beast; gravitic fluctuations from the warp-pylons flutter, and your own drive bubble compensates.\r\n\r\nIt will take about a day, engineering reports, and then the Gate Hauler will be ready to receive navigational input.",
+   "ctx": "data/campaign/rules.csv gh_activateSel [text]"
+  },
+  {
+   "i": 4,
+   "en": "Your $shipOrFleet approaches $entityName.\r\n\r\nEnergy surges throughout the vast hull as ancient conduits and machines self-test - some failing. Long-dormant self-repair drones seethe like vermin.\r\n\r\nYour sensors officer's console lights up with incoming reports. Magnetic fields shudder and stabilize through test patterns, a growing stream - a river, a torrent - of neutrinos spill from reactions deep in the mass of the beast. Your $shipOrFleet's drive bubble compensates for gravitic fluctuations as space-time is tested.\r\n\r\nThe Gate Hauler is still awakening.",
+   "ctx": "data/campaign/rules.csv gateHaulerStart3 [text]"
+  },
+  {
+   "i": 5,
+   "en": "Your $shipOrFleet approaches $entityName.\r\n\r\nThe titanic ship lays potent before you, ancient but powerful drive fields thrumming through the membrane of spacetime. You can almost feel it through the agrav's self-correction, the drone of a god-machine. Almost.\r\n\r\nOnce provided with a destination, the Gate Hauler will travel through normal space - a Gate cannot be moved through hyperspace. The Hauler will travel faster than lightspeed, thankfully, due to its venerable Alcubierre drive. Indeed, the Hauler will quickly accelerate to an apparent normal-space speed which your $shipOrFleet cannot match with its relatively tiny in-system drives. The journey will still take quite some time, due to travelling significantly slower than standard hyperspace permits.\r\n\r\nAfter it has arrived at the target destination, you may give the order to deploy the Gate to an unoccupied stable location.",
+   "ctx": "data/campaign/rules.csv gateHaulerStart4 [text]"
+  },
+  {
+   "i": 6,
+   "en": "Your $shipOrFleet approaches $entityName.\r\n\r\nWhile in transit, what's left of the electronic brain - distributed, multiply redundant, well-shielded - is utterly focused on its goal. There is no realistic prospect of altering the course of the gargantuan ship and, indeed, when it is in its acceleration phase, of keeping up with it as it picks up speed in normal-space.",
+   "ctx": "data/campaign/rules.csv gateHaulerStart5 [text]"
+  },
+  {
+   "i": 7,
+   "en": "The Gate Hauler rests in space, a potent mass jealously cradling its legendary cargo. It awaits final confirmation to deploy the Gate.\r\n\r\nAs it happens, the go-code requests telemetry from the Gate Hauler's launch as a pass-key. After several tense seconds, the re-launch telemetry appears to be accepted as valid input, and executive access is granted to your command console.  \r\n\r\nFunctionality is limited: Gate deployment can only be targeted broadly at a star system or roughly equivalent celestial structure. The Hauler's programming allows for no fine control and will select its own stable location. The process is irreversible and the order can not be countermanded once given. After deployment, the Gate Hauler will automatically dismantle itself, presumably to become feedstock for the next glorious expansion of the Domain's frontier.\r\n\r\nA single word blinks on your command interface. DEPLOY?",
+   "ctx": "data/campaign/rules.csv gh_deployGateSel [text]"
+  },
+  {
+   "i": 8,
+   "en": "You give the command.\r\n\r\nThe Leviathan awakens from its slumber one last time to perform the purpose for which it was built an aeon ago. Astride history, you feel its flow shift inexorably beneath you.",
+   "ctx": "data/campaign/rules.csv gh_deployConfirmSel [text]"
+  },
+  {
+   "i": 9,
+   "en": "Your $shipOrFleet approaches $entityName.",
+   "ctx": "data/campaign/rules.csv surveyStar [text]"
+  },
+  {
+   "i": 10,
+   "en": "Your $shipOrFleet approaches $entityName.\r\n\r\n$marketName is in chaos, with what's left of the population scrambling to survive by any means possible. Your sensors pick up some intermittent small-arms fire. The collapse of all authority is complete and irreversible, though a new colony can still be established atop the wreckage of the old.",
+   "ctx": "data/campaign/rules.csv surveyOpenDeciv [text]"
+  },
+  {
+   "i": 11,
+   "en": "You have full survey data for this planet.",
+   "ctx": "data/campaign/rules.csv surveyPrintFullData [text]"
+  },
+  {
+   "i": 12,
+   "en": "A nearby hostile fleet is tracking your movements, making running a survey operation impossible.",
+   "ctx": "data/campaign/rules.csv surveyPrintHostilesText [text]"
+  },
+  {
+   "i": 13,
+   "en": "This system is cut off from hyperspace and the jump-points are unstable. The crew, and even officers, are muted; on-edge. You judge it unlikely that any amount of hazard pay could overcome the near-superstitious fear spacers have of being stranded in a system like this.\r\n\r\nEstablishing a colony here is not an option.",
+   "ctx": "data/campaign/rules.csv surveySystemIsCutOffCanNotColonize [text]"
+  },
+  {
+   "i": 14,
+   "en": "A nearby hostile fleet is tracking your movements, making establishing a colony impossible.",
+   "ctx": "data/campaign/rules.csv surveyPrintHostilesTextEstColony [text]"
+  },
+  {
+   "i": 15,
+   "en": "Your $shipOrFleet enters low orbit around $entityName.",
+   "ctx": "data/campaign/rules.csv surveyOptionPerformSurvey [text]"
+  },
+  {
+   "i": 16,
+   "en": "Your $shipOrFleet finishes offloading crew, supplies, and machinery $onOrAt $marketName, and the crew soon busy themselves erecting temporary shelter and basic infrastructure.",
+   "ctx": "data/campaign/rules.csv marketOpenAfterEstablishOutpost [text]"
+  },
+  {
+   "i": 17,
+   "en": "You leave the bar and take a shuttle back to your $shipOrFleet.",
+   "ctx": "data/campaign/rules.csv marketReturnFromBar [text]"
+  },
+  {
+   "i": 18,
+   "en": "Your $shipOrFleet transmits identification codes via the transponder and you are soon granted docking clearance.",
+   "ctx": "data/campaign/rules.csv marketPostOpenDefault [text]"
+  },
+  {
+   "i": 19,
+   "en": "Your $shipOrFleet transmits identification codes via the transponder and you are soon granted a slot in a parking orbit.",
+   "ctx": "data/campaign/rules.csv marketPostOpenGilead [text]"
+  },
+  {
+   "i": 20,
+   "en": "$TheFactionLong $factionIsOrAre $relAdjective towards you, and the port authority refuses your request for docking clearance after you identify yourself.\r\n\r\nYou might be able to establish contact with underground parties if you come in with the transponder turned off.",
+   "ctx": "data/campaign/rules.csv marketPostOpenNoTrade [text]"
+  },
+  {
+   "i": 21,
+   "en": "Your recent actions around $marketName have generated a lot of local interest, and simply coming in with the transponder off is no longer sufficient to go unnoticed. Judging from the current level of comm chatter and news reports, you estimate it'll take $playerHostileTimeoutStr until the commotion dies down.",
+   "ctx": "data/campaign/rules.csv marketPostOpenNoTradeHostile [text]"
+  },
+  {
+   "i": 22,
+   "en": "Your recent actions around $marketName have generated a lot of local interest, and engaging in open business is impossible. Judging from the current level of comm chatter and news reports, you estimate it'll take $playerHostileTimeoutStr until the commotion dies down.",
+   "ctx": "data/campaign/rules.csv marketPostOpenNoTradeHostileTOn [text]"
+  },
+  {
+   "i": 23,
+   "en": "$TheFactionLong $factionIsOrAre $relAdjective towards you, and the port authority refuses your request for docking clearance after you identify yourself.\r\n\r\nThe refusal is rather perfunctory and you get the impression that turning off your transponder to prevent identification might yield better results.",
+   "ctx": "data/campaign/rules.csv marketPostOpenNoTradeOffOpen [text]"
+  },
+  {
+   "i": 24,
+   "en": "Your $shipOrFleet goes into orbit around $marketName, ignoring requests from the $faction port authority to identify yourself.\r\n\r\nAt least one $faction patrol is tracking your movements, and no underground parties are willing to run the risk of doing business.",
+   "ctx": "data/campaign/rules.csv marketPostOpenToOffPatrols [text]"
+  },
+  {
+   "i": 25,
+   "en": "Your $shipOrFleet goes into orbit around $marketName.\r\n\r\nAt least one $faction patrol is tracking your movements, and the port authority refuses your request for docking clearance until the matter is resolved.",
+   "ctx": "data/campaign/rules.csv marketPostOpenSought [text]"
+  },
+  {
+   "i": 26,
+   "en": "Your $shipOrFleet goes into orbit around $marketName. The local port authority seems to take no issue with your explanation for why your transponder, regrettably, can't be turned on.",
+   "ctx": "data/campaign/rules.csv marketPostOpenToOffIsFine [text]"
+  },
+  {
+   "i": 27,
+   "en": "Your $shipOrFleet goes into orbit around $marketName.",
+   "ctx": "data/campaign/rules.csv marketPostOpenPlayerOwnerd [text]"
+  },
+  {
+   "i": 28,
+   "en": "Your $shipOrFleet goes into orbit around $marketName, ignoring requests from $theFaction port authority to identify yourself.\r\n\r\nNo $faction patrols seem to be aware of you just yet, and you have a window of opportunity for doing business with parties untroubled by your lack of docking clearance.",
+   "ctx": "data/campaign/rules.csv marketPostOpenToOffSneak [text]"
+  },
+  {
+   "i": 29,
+   "en": "You establish a linkup with the port authority's cargo management system and browse the inventory.",
+   "ctx": "data/campaign/rules.csv marketOptionTradeCargo [text]"
+  },
+  {
+   "i": 30,
+   "en": "You establish a linkup with the dockyard and see what's available.",
+   "ctx": "data/campaign/rules.csv marketOptionTradeShips [text]"
+  },
+  {
+   "i": 31,
+   "en": "You establish a linkup with the dockyard and transmit your $shipOrFleet status.",
+   "ctx": "data/campaign/rules.csv marketOptionRefit [text]"
+  },
+  {
+   "i": 32,
+   "en": "Your $shipOrFleet undergoes full repairs and is restored to maximum combat readiness, at the cost of $global.repairSupplyCost supplies.",
+   "ctx": "data/campaign/rules.csv marketOptionRepairAll [text]"
+  },
+  {
+   "i": 33,
+   "en": "You connect to the local comm directory and browse the public and otherwise known listings.",
+   "ctx": "data/campaign/rules.csv marketOptionCommDir [text]"
+  },
+  {
+   "i": 34,
+   "en": "Your comms officer calls for your attention.\r\n\r\n\"$PlayerSirOrMadam. There's an incoming comms request, marked urgent, from the portmaster. They want to speak with you personally.\"",
+   "ctx": "data/campaign/rules.csv TTmarketPostWeirdHullmods5 [text]"
+  },
+  {
+   "i": 35,
+   "en": "Your comms officer forwards the link to your personal interface and with a flicker the $post appears before you.\r\n\r\n\"Captain.\" $HisOrHer eyes dart to another display, \"... $playerLastName. I would like to personally welcome you to $marketName.\"\r\n\r\nTheir too-quick smile comes across as nervous.",
+   "ctx": "data/campaign/rules.csv TTmarketPostWeirdHMbegin [text]"
+  },
+  {
+   "i": 36,
+   "en": "\"Ha-ha. Of course, of course. But before- just one little thing. Not a problem, just a...\"\r\n\r\n$HeOrShe pauses, then begins again.",
+   "ctx": "data/campaign/rules.csv TTmarketWeirdMods1a [text]"
+  },
+  {
+   "i": 37,
+   "en": "\"Ha-ha. Well... it's not a problem. Well. Not really a- it's just...\"\r\n\r\n$HeOrShe licks $hisOrHer lips, then begins again.",
+   "ctx": "data/campaign/rules.csv TTmarketWeirdMods1b [text]"
+  },
+  {
+   "i": 38,
+   "en": "\"Ha-ha. Of course not, nothing of the sort. You're very funny.\"\r\n\r\n$HeOrShe pauses, then begins again.",
+   "ctx": "data/campaign/rules.csv TTmarketWeirdMods1c [text]"
+  },
+  {
+   "i": 39,
+   "en": "\"You see, we couldn't help but notice certain... unique features of your $shipOrFleet. It's unusual... very unusual.\"\r\n\r\n\"Look,\" $heOrShe blinks rapidly, \"You tripped something in the Welcome Analysis Algorithm and I've got a directive I've never seen before.\"",
+   "ctx": "data/campaign/rules.csv TTmarketWeirdMods2 [text]"
+  },
+  {
+   "i": 40,
+   "en": "\"We couldn't help but notice a certain... unique hull in your $shipOrFleet. It's unusual... very unusual.\"\r\n\r\n$HeOrShe leans in, \"Is it really what I think it is? Stars beyond, I...\"\r\n\r\nAn impatient chime prompts $himOrHer. \r\n\r\n\"Ah,\" $heOrShe clears $hisOrHer throat. \"You tripped something in the Welcome Analysis Algorithm and I've got a directive I've never seen before.\"",
+   "ctx": "data/campaign/rules.csv TTmarketWeirdMods2OMKI [text]"
+  },
+  {
+   "i": 41,
+   "en": "\"Yes.\"",
+   "ctx": "data/campaign/rules.csv TTmarketWeirdMods3a [text]"
+  },
+  {
+   "i": 42,
+   "en": "\"N- no, I don't think so,\" $heOrShe says unreassuringly.",
+   "ctx": "data/campaign/rules.csv TTmarketWeirdMods3b [text]"
+  },
+  {
+   "i": 43,
+   "en": "\"I- yes,\" $heOrShe says, wide-eyed. \"I suppose it would,\" ",
+   "ctx": "data/campaign/rules.csv TTmarketWeirdMods3c [text]"
+  },
+  {
+   "i": 44,
+   "en": "$HeOrShe looks down at the TriPad in $hisOrHer hands.\r\n\r\n\"Tri-Tachyon's Director of Special Acquisitions, Zunya Glamor-Rotanev, would like to invite you to a meeting. On Eochu Bres.\"\r\n\r\n$HisOrHer eyes raise back up to the comm-link, to stare into your own. \"At your earliest convenience.\"\r\n\r\n$HeOrShe looks to see that you understand what this means.",
+   "ctx": "data/campaign/rules.csv TTmarketWeirdMods4 [text]"
+  },
+  {
+   "i": 45,
+   "en": "$HeOrShe looks down at the TriPad in $hisOrHer hands.\r\n\r\n\"Tri-Tachyon's Director of Special Acquisitions, Zunya Glamor-Rotanev, would like to invite you to a meeting. On Eochu Bres. Her office.\"\r\n\r\n$HisOrHer eyes raise back up to the comm-link, to stare into your own. \"At your earliest convenience.\"\r\n\r\n$HeOrShe looks to see that you understand what this means.",
+   "ctx": "data/campaign/rules.csv TTmarketWeirdMods4eochuBres [text]"
+  },
+  {
+   "i": 46,
+   "en": "The $post stares at you for a moment.\r\n\r\n\"You-\" $HeOrShe looks taken aback. \"You're aware of... never mind. Forget I said anything. Transmitting the address now.\"\r\n\r\n$HeOrShe taps $hisOrHer TriPad.",
+   "ctx": "data/campaign/rules.csv TTmarketWeirdMods6a [text]"
+  },
+  {
+   "i": 47,
+   "en": "The $post stares at you for a moment.\r\n\r\n\"Yes, she-\" $HeOrShe looks taken aback. \"You're aware of... never mind. Forget I said anything. Transmitting the address now.\"\r\n\r\n$HeOrShe taps $hisOrHer TriPad.",
+   "ctx": "data/campaign/rules.csv TTmarketWeirdMods6b [text]"
+  },
+  {
+   "i": 48,
+   "en": "The $post stares at you for a moment.\r\n\r\n\"You don't-\" $HeOrShe looks taken aback. \"You're aware of... Special Acquisitions? Never mind. Forget I said anything. Transmitting the address now.\"\r\n\r\n$HeOrShe taps $hisOrHer TriPad.",
+   "ctx": "data/campaign/rules.csv TTmarketWeirdMods6c [text]"
+  },
+  {
+   "i": 49,
+   "en": "\"Ha-ha, that won't be necessary. At all,\" $heOrShe says quickly. \"Thank you captain.\" \r\n\r\n\"Let me welcome you once again to the port of $marketName, the Tri-Tachyon Corporation will be pleased to enjoy your business partnership during your stay, I'm sure.\"\r\n\r\n\"Keep it in the black, captain.\"\r\n\r\n$HeOrShe smiles unconvincingly and cuts the link.",
+   "ctx": "data/campaign/rules.csv TTmarketWeirdModsOutro2a [text]"
+  },
+  {
+   "i": 50,
+   "en": "\"Welcome once again to the port of $marketName, the Tri-Tachyon Corporation will be pleased to enjoy your business partnership during your stay.\"\r\n\r\n\"Keep it in the black, captain.\"\r\n\r\n$HeOrShe smiles unconvincingly, pretending $heOrShe didn't hear your implied question, then cuts the link.",
+   "ctx": "data/campaign/rules.csv TTmarketWeirdModsOutro2b [text]"
+  }
+ ]
+}

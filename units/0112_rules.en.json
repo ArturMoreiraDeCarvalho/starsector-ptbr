@@ -1,0 +1,201 @@
+{
+ "chunk": 112,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "You almost jump as the Excubitor Orbis speaks, pulling you back to the moment.\r\n\r\n\"You possess patience,\" he says. A new wrinkle appears beside his mouth; what passes for a smile among the Knights of Ludd, you suppose.\r\n\r\n\"I did not expect it of you.\"\r\n\r\nYou've won. Is this victory? It is an uncomfortable feeling.",
+   "ctx": "data/campaign/rules.csv lppHesperusExcubitorWait3 [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"I ordered your landing request denied,\" he states plainly. \"The protection of this world is my duty.\"\r\n\r\n\"I find that those with a history of exceptional acts oft test the charity of Providence by taking exceptional risks.\"",
+   "ctx": "data/campaign/rules.csv lppHesperusExcubitorDenied1 [text]"
+  },
+  {
+   "i": 3,
+   "en": "That wrinkle again, the Sector's smallest smile. \r\n\r\n\"Spend not your time in this life on folly; even our youngest initiate could see that you wear risk like a badge. The secular procedures at hand are only part of my purview,\" he says.\r\n\r\n\"At present I am more concerned with your spirit.\"",
+   "ctx": "data/campaign/rules.csv lppHesperusExcubitorRisk [text]"
+  },
+  {
+   "i": 4,
+   "en": "That wrinkle again, the Sector's smallest smile. \r\n\r\n\"Yes, I am quite certain that you have committed many crimes. Secular justice is only part of my purview however,\" he says gravely.\r\n\r\n\"Today I am more concerned with your spirit.\"",
+   "ctx": "data/campaign/rules.csv lppHesperusExcubitorCrime [text]"
+  },
+  {
+   "i": 5,
+   "en": "That wrinkle again, the Sector's smallest smile.\r\n\r\n\"How debased is our devotion that you would think saying those words would open the path before you.\"\r\n\r\n\"And,\" he continues, \"How debased is your spiritual being that you would think to indulge it.\"",
+   "ctx": "data/campaign/rules.csv lppHesperusExcubitorBribe [text]"
+  },
+  {
+   "i": 6,
+   "en": "He drops a heavy hand like a gavel on his desk. \"I am uninterested in more words. Listen well now, for I speak my judgment on this matter.\"",
+   "ctx": "data/campaign/rules.csv lppHesperusExcubitorJudge1 [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Your reputation is suspect, captain. I cannot in good conscience allow you access to our shrine,\" the Excubitor Orbis says. \"Find yourself redemption. If you manage to find some degree of it, then we may discuss the matter again.\"\r\n\r\n\"Seek virtue, captain,\" he says by way of farewell.",
+   "ctx": "data/campaign/rules.csv lppHesperusExcubitorDenyAccess [text]"
+  },
+  {
+   "i": 8,
+   "en": "A long pause.\r\n\r\n\"I shall order traffic control to give you permission to land, captain,\" the Excubitor Orbis says finally. \"May your spirit find that for which it searches.\"",
+   "ctx": "data/campaign/rules.csv lppHesperusExcubitorEndAllow [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"I shall review your request in seven days,\" the Excubitor Orbis says. \"If that is enough for Creation, it will be enough for you to learn patience.\" \r\n\r\nThat wrinkle again.\r\n\r\n\"Blessings be, captain.\"",
+   "ctx": "data/campaign/rules.csv lppHesperusExcubitorEndAllowWait [text]"
+  },
+  {
+   "i": 10,
+   "en": "You try to speak but he's already terminated his end of the link.",
+   "ctx": "data/campaign/rules.csv lppHesperusExcubitorAllowEndCutoff [text]"
+  },
+  {
+   "i": 11,
+   "en": "He nods acknowledgement, nothing more, then terminates his end of the commlink.",
+   "ctx": "data/campaign/rules.csv lppHesperusExcubitorAllowEndNice [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"Yes,\" he says, and the wrinkle of the smallest smile in the Persean Sector appears by his mouth.\r\n\r\nA long pause.\r\n\r\n\"I shall order traffic control to give you permission to land, captain,\" the Excubitor Orbis says finally. \"May your spirit find that for which it searches.\"",
+   "ctx": "data/campaign/rules.csv lppExcubitorDidWait [text]"
+  },
+  {
+   "i": 13,
+   "en": "A long pause.\r\n\r\nExcubitor Orbis Oak sighs. \"I shall review your request in seven days,\" he says, \"Starting from now.\"\r\n\r\nHe lifts a stylus and scratches something on a sheet of nondigital medium, his gaze now elsewhere. \"Remember that Patience is the child of Humility.\"\r\n\r\n\"Blessings be, captain,\" he finishes.",
+   "ctx": "data/campaign/rules.csv lppExcubitorDenyAccessWait [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"Because I have judged it so,\" he says, his tone of long-held authority which suggests that this is all that is required to settle the matter.",
+   "ctx": "data/campaign/rules.csv lppExcubitorWhyDenyFallback [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"Because you are an unacceptable risk; you choose sin after sin, and your bestrayed path will lead to sin sixfold once again.\"\r\n\r\n\"Ludd declared that none are beyond redemption,\" he says, \"So I give thanks that it is the all-forgiving Creator who is to judge your soul, not I.\"",
+   "ctx": "data/campaign/rules.csv lppExcubitorWhyDenyB1 [text]"
+  },
+  {
+   "i": 16,
+   "en": "His dark eyes examine yours via the comm-link for a long moment before he speaks.\r\n\r\n\"Firstly, so that you may improve yourself,\" he says. \"The virtue of patience is oft spake but little held.\"\r\n\r\n\"Secondly, for the general betterment. All who live and pass here benefit by orderly and virtuous conduct. Even I in my own self become bettered for upholding discipline in good faith.\"",
+   "ctx": "data/campaign/rules.csv lppExcubitorWhyDeny1 [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"Thirdly and directly - because I shall not lie even by omission to your honest inquiry - it provides my staff with time to investigate your background and character. To determine as best we can your intentions.\"\r\n\r\nThere it is: a background check. Do the Knights actually use paper records? Is that why it takes so long? Incredible.",
+   "ctx": "data/campaign/rules.csv lppExcubitorWhyDeny2 [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"Poorly,\" he says.",
+   "ctx": "data/campaign/rules.csv lppExcubitorWhyDenyHowGoingB [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"Well enough,\" he says begrudgingly. \"Despite your impetuous disposition.\"",
+   "ctx": "data/campaign/rules.csv lppExcubitorWhyDenyHowGoingC [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"Yes,\" he says, his frown deepening.\r\n\r\n\"And I see no indication that you have found it.\"",
+   "ctx": "data/campaign/rules.csv lppExcubitorRedemptionCheckNo [text]"
+  },
+  {
+   "i": 21,
+   "en": "You work your way through the spacers, buying drinks and talking shop. Dropping some good-natured but pointed complaints about the humorless Church-operated customs regime gets you on the right path, and soon enough you find yourself in a smoky escape shaft behind the bar talking to a tech in the local port bureaucracy.",
+   "ctx": "data/campaign/rules.csv lppHesperusBarEventSel [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"People like us, just gotta keep our heads down. Pray in public, yeah, live your own life on the quiet, you know?\" \r\n\r\nThey take a drag from a black market drug stick. \"Say what you will about the Excubitor Orbis, at least he takes mercy and forgiveness as seriously as he takes all those other 'knightly virtues'.\"\r\n\r\nBetween complaints about Luddic society you get the understanding that for 2,000 credits an unauthorized shuttle flight to the shrine of Hesperus could be tagged by a helpful nonbeliever as a regular pilgrim transport.",
+   "ctx": "data/campaign/rules.csv lppHesperusBarEventSel2 [text]"
+  },
+  {
+   "i": 23,
+   "en": "You make the arrangements and transfer the credits.\r\n\r\nTrue to their word, the nonbeliever tags your shuttle with the ID for a regular pilgrim transport service.\r\n\r\nYour shuttle begins its descent to the cold and unforgiving surface of Hesperus.",
+   "ctx": "data/campaign/rules.csv lppHesperusShrineSneakBribeReturn [text]"
+  },
+  {
+   "i": 24,
+   "en": "A well-timed plume of radiation from nearby Daedaleon gives your shuttle cover to sneak through the local traffic control's sensor net.\r\n\r\nYour shuttle begins its descent to the cold and unforgiving surface of Hesperus.",
+   "ctx": "data/campaign/rules.csv lppHesperusShrineVisitFirst1sneak [text]"
+  },
+  {
+   "i": 25,
+   "en": "Traffic control gives you its blessing, so to speak, and your shuttle begins its descent to the cold and unforgiving surface of Hesperus.",
+   "ctx": "data/campaign/rules.csv lppHesperusShrineVisitFirst1 [text]"
+  },
+  {
+   "i": 26,
+   "en": "The planet is riven by glaciers like a network of scars on the battered hide of a fossilized monster.\r\n\r\nThe flight path takes your shuttle into a great canyon of canyons filled with a chaos of ice and stone. The shuttle banks into an off-branch; the ridges of dark rock loom larger.\r\n\r\nNow and again you spot the crumbling remains of industry, and among them the occasional lights of a Knight-chartered enterprise or monastic community.",
+   "ctx": "data/campaign/rules.csv lppHesperusShrineVisitFirst2 [text]"
+  },
+  {
+   "i": 27,
+   "en": "Around one last turn of the canyon, the shrine complex appears, a bright spire of habitats, towers, and masts rising from the misty remains of a titanic atmospheric processing plant.\r\n\r\nYour trained eye spots the likely positions of heavy weapon emplacements: too-clean cliff-faces at convenient angles, the suspiciously level floors of certain hanging valleys.",
+   "ctx": "data/campaign/rules.csv lppHesperusShrineVisitFirst3 [text]"
+  },
+  {
+   "i": 28,
+   "en": "The landing bay antechamber is a baroque gothic-militant display of post-industrial salvage. Dead suits of power armor stand at attention, weapons proudly displayed. Glowing between rivet-encrusted arches are scenes of battle and martyrdom done up in mosaic panes formed of fractured gems; structural diamond and colorful lenses recovered from mining lasers or reactor inspection ports.\r\n\r\nThe gallery is filled with parties of Luddic pilgrims dressed in traditional handweave meeting with shrine attendants.",
+   "ctx": "data/campaign/rules.csv lppHesperusShrineOptions [text]"
+  },
+  {
+   "i": 29,
+   "en": "Traffic control gives you its blessing and your shuttle descends toward the unforgiving surface of Hesperus.\r\n\r\nThe planet is riven by glaciers like a network of scars on the battered hide of some ancient beast. Your flight path takes you toward one great canyon filled with a chaos of ice and stone, then a child-branch over which walls of dark rock loom. Now and again you spot the crumbling remains of industry, and among them the occasional lights of Knight-chartered enterprises and monastic communities.",
+   "ctx": "data/campaign/rules.csv lppHesperusShrineVisitAgain1 [text]"
+  },
+  {
+   "i": 30,
+   "en": "At your request, the attending subcurate leads you through a brief ceremonial hand-washing, then down a long gallery.\r\n\r\nThe flow of the curate's robe doesn't quite touch the floor, a welded field of armored plates weathered into intricate patterns by the varied atmospheres of a score of worlds on which the Knights have fought and died. Niches along the walls are occupied by empty helmets.",
+   "ctx": "data/campaign/rules.csv lppHesperusShrineDoVisit [text]"
+  },
+  {
+   "i": 31,
+   "en": "The shrine is a grand tomb set in an enormous airshaft. The industrial viscera has been transformed into a baroque sculpture of thousands of edged weapons aligned like feathers of a wing, rays of gleaming serrated metal boldly thrust in killing arcs through the vast space.\r\n\r\nIn the center, surrounded by a galaxy of flickering candles, lie the lead-lined caskets of a squad of martyred Knights. The manner of their deaths, the subcurate explains in reverent whispers, left their bodies unidentifiable and infused with radioactive material which would kill a direct observer even to this day.\r\n\r\nYou are left in a prayer-niche to contemplate the horror.",
+   "ctx": "data/campaign/rules.csv lppHesperusShrineVisit1 [text]"
+  },
+  {
+   "i": 32,
+   "en": "In the next niche over, a young knight-initiate gives you a challenging look. His head is freshly shaved; he must be very new to the order.\r\n\r\n\"You're not a Knight,\" he says quietly, making a show of looking over your uniform. \"Nor one of us. Not really. Why are you here, spacer?\"",
+   "ctx": "data/campaign/rules.csv lppHesperusShrineVisit2 [text]"
+  },
+  {
+   "i": 33,
+   "en": "Your introspection seems to throw the initiate off. You can see the thought work across his face- are you making fun of me? But it is quickly dismissed, and you are filed under 'not a threat'.",
+   "ctx": "data/campaign/rules.csv lppHesperusInitiateReplyAgnostic [text]"
+  },
+  {
+   "i": 34,
+   "en": "\"Right,\" he sticks his chest out a little more, categorizing you safely within his teleology. \"I'm sworn to protect your lot, you know.\"",
+   "ctx": "data/campaign/rules.csv lppHesperusInitiateReplyFaithful [text]"
+  },
+  {
+   "i": 35,
+   "en": "He takes a moment to parse your response. You can see it work across his face- are you making fun of me? But the thought is dismissed, and you are filed under 'not a threat'.",
+   "ctx": "data/campaign/rules.csv lppHesperusInitiateReplyAtheistic [text]"
+  },
+  {
+   "i": 36,
+   "en": "\"I'm a knight, sworn and-\" he catches himself raising his voice, looks nervously to check for shrine attendants, \"-and a member of the order. I'll die in service of my sacred duty.\"\r\n\r\nHe nods brusquely at the trio of lead-lined coffins at the center of the shrine. \"Like they did, if I have to. I'm not scared.\"",
+   "ctx": "data/campaign/rules.csv lppHesperusInitiateReplyCynical [text]"
+  },
+  {
+   "i": 37,
+   "en": "He seems satisfied, just, with your apparent acceptance of his declaration. Out of the corner of your eye you see him turn back toward the center of the shrine, sigh, and resume what you assume to be an initiation-vigil.\r\n\r\nTime will have to test him and tell if he will actually be any good as a Knight of Ludd.",
+   "ctx": "data/campaign/rules.csv lppHesperusInitiateReplyCynicalA [text]"
+  },
+  {
+   "i": 38,
+   "en": "You see his jaw clench, and quick anger rise in his posture. You wonder briefly at how the shrine attendants would react to a Knight-initiate assaulting a visitor, but out of the corner of your eye you can see the young man steady himself, then turn and lock his gaze toward the center of the shrine, maintaining control and mumbling prayer.\r\n\r\nHe may actually have what it takes to become a good Knight of Ludd one day.",
+   "ctx": "data/campaign/rules.csv lppHesperusInitiateReplyCynicalB [text]"
+  },
+  {
+   "i": 39,
+   "en": "Your grim delivery sinks the thought into the young man. You can see it in his eyes, and his pale scalp; yes, fear.\r\n\r\nIn that fear, he seems to forget trying to get a rise out of you and locks his gaze toward the center of the shrine, mumbling a prayer.\r\n\r\nHe might actually have what it takes to become a good Knight of Ludd one day.",
+   "ctx": "data/campaign/rules.csv lppHesperusInitiateReplyCynicalD [text]"
+  }
+ ]
+}

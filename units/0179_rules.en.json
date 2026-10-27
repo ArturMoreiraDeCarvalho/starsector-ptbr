@@ -1,0 +1,241 @@
+{
+ "chunk": 179,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"Good,\" he says. \"I am of similar mind. Nonetheless,\" he puts a hand to his chest, \"Here too am I, entertaining her envoy.\"\r\n\r\n\"Tell Baird I accept,\" he says.",
+   "ctx": "data/campaign/rules.csv gaATGdaudMeeting13c [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"She will be receiving additional demands. She won't like them. She will accept.\"\r\n\r\nHe turns, pacing. \"The Gates are the question behind the entire Hegemony, are they not? Is the Domain out there waiting to reward those who kept faith, blindly loyal for generations?\" \r\n\r\nHe stops. \"Or was there some grand catastrophe, and nothing awaits us but ruins and the dead? Or will monsters from Ludd's own nightmares pour out to devour us all- unless we are armed and steadfast, ready to meet their threat?\"",
+   "ctx": "data/campaign/rules.csv gaATGdaudMeeting14 [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"Captain, I need to know if we are history's fools or heroes. Not few among my comrades would say it is disloyal, even cowardly, to ask the question.\"\r\n\r\nHe faces you. \"I think it is cowardly not to.\"\r\n\r\n\"All my busy helpers will be back in a moment, so make it quick. Did that Yaribay blueblood want anything important?\"",
+   "ctx": "data/campaign/rules.csv gaATGdaudMeeting15 [text]"
+  },
+  {
+   "i": 4,
+   "en": "Daud glances at his datapad, \"You've got 20 seconds, captain. Any last words?\"",
+   "ctx": "data/campaign/rules.csv gaATGdaudMeetingHub1 [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"I'll listen to what he has to say,\" Daud says, and offers his datapad. You upload the cryptokeys.\r\n\r\n\"I trust the Yaribays to do what is best for the Yaribays,\" he says, tapping at the datapad to accept your upload. \"Maybe that'll be enough.\"\r\n\r\nHe looks over to hull 0451, \"Or maybe it won't.\"",
+   "ctx": "data/campaign/rules.csv gaATGdaudMeetingHubA1 [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"You do a lot worth knowing about,\" Daud shoots back. \"I speak from experience when I say it's not a life I can recommend without reservation.\"",
+   "ctx": "data/campaign/rules.csv gaATGdaudMeetingHubB1 [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Of course he does. Gens Yaribay is only a minor stakeholder in the shipyards of Kazeron, and holds major cross-faction investments.\"\r\n\r\nDaud smiles coolly, \"But I will take the 'good word' of Baird's knee-breaker under advisement.\"",
+   "ctx": "data/campaign/rules.csv gaATGdaudMeetingHubC1 [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"Take it to the complaints department,\" Daud pops a thumb at the Eagle-class cruiser behind him.",
+   "ctx": "data/campaign/rules.csv gaATGdaudMeetingHubD1 [text]"
+  },
+  {
+   "i": 9,
+   "en": "Daud smirks, shaking his head.\r\n\r\n\"Is 'measuring up' really what's important right now?\" he says, not asks.",
+   "ctx": "data/campaign/rules.csv gaATGdaudMeetingHubD2 [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"Not negotiable,\" Daud says icily. \"You've been out there. You've seen what happened - twice. It won't happen again.\"",
+   "ctx": "data/campaign/rules.csv gaATGdaudMeetingHubE1 [text]"
+  },
+  {
+   "i": 11,
+   "en": "He raises an eyebrow at you. \"Succinct.\"",
+   "ctx": "data/campaign/rules.csv gaATGdaudMeetingHubEndEarly [text]"
+  },
+  {
+   "i": 12,
+   "en": "Baikal Daud taps his datapad, dropping the privacy field.\r\n\r\nAs if on cue, the High Hegemon's small entourage returns with a babble of worries over how he'll look on the holo-cast, the need to review talking points for the speech, and his uniform... \r\n\r\nSecurity Chief Rivas looms, corralling you from the gantry utility room and back through the security checkpoints to your shuttle.",
+   "ctx": "data/campaign/rules.csv gaATGdaudMeetingHubEnd [text]"
+  },
+  {
+   "i": 13,
+   "en": "A silent ring of adamantine material, derelict of a former age.\r\n\r\nYou query the status of the Gate scanning package and your sensors officer gives you a quick head-shake. Their station interface is spotted with amber warning messages.\r\n\r\n\"Captain, there's some kind of interference coming from the nearby Hegemony fleet. The scanner can't make a lock.\"",
+   "ctx": "data/campaign/rules.csv gaATGhegGateOpenDialog [text]"
+  },
+  {
+   "i": 14,
+   "en": "As the Hegemony fleet maneuvers to match, your sensors officer reports, \"Lots of strangely equipped logistics ships. It's not a cache or resupply, they're just milling around. Getting some funny signals on the hyperspace manifold. It looks like some of the early Galatia Academy efforts to probe the Gates.\"\r\n\r\nThe Hegemony appears to be trying to join the race, though they're far behind.",
+   "ctx": "data/campaign/rules.csv gaATGhegFleetEncounter [text]"
+  },
+  {
+   "i": 15,
+   "en": "The Hegemony $rank appears before you. \r\n\r\n\"Citizen!\" $heOrShe barks, \"This is a special naval operation zone - stay clear, or you will be fired upon.\"",
+   "ctx": "data/campaign/rules.csv gaATGhegFleetDialog [text]"
+  },
+  {
+   "i": 16,
+   "en": "The Hegemony $rank appears before you. \r\n\r\n\"Citizen!\" $heOrShe barks, \"I'm expecting that scan data. Get to it!\"",
+   "ctx": "data/campaign/rules.csv gaATGhegFleetDialog3 [text]"
+  },
+  {
+   "i": 17,
+   "en": "An appalled look manages to sneak through the Hegemony $rank's martial facade.\r\n\r\n\"Hegemony naval operations are strictly confidential,\" $heOrShe says. \"Citizen.\"",
+   "ctx": "data/campaign/rules.csv gaATGhegFleetWhat1 [text]"
+  },
+  {
+   "i": 18,
+   "en": "The Hegemony $rank's officious facade cracks for a moment. $HeOrShe looks shocked that you'd even make such a demand.\r\n\r\n\"Your request is absolutely denied,\" $heOrShe spits. \"Citizen.\"\r\n",
+   "ctx": "data/campaign/rules.csv gaATGhegFleetMove1 [text]"
+  },
+  {
+   "i": 19,
+   "en": "$HisOrHer face hardens. \"Threatening an officer of the Hegemony is a crime, captain. Count yourself lucky that I have a more important mission than teaching you some respect.\"\r\n\r\n$HeOrShe cuts the comms.",
+   "ctx": "data/campaign/rules.csv gaATGhegFleetMove2 [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"Transmit your commission codes, please,\" $heOrShe says, the imperious tone relaxing slightly. \"Captain.\"\r\n\r\nYou do, and they are confirmed. \r\n\r\nThe Hegemony $rank's demeanor changes dramatically.\r\n\r\n\"I apologize for the harsh tone, captain,\" $heOrShe says, \"Command is really breathing down my neck on this one. It's all strictly need-to-know from those egg-heads in the tech ministry.\" $HeOrShe shakes $hisOrHer head, and the meaning is clear: those meddling scientists clearly don't appreciate the grit and operational flexibility required by true military officers.",
+   "ctx": "data/campaign/rules.csv gaATGhegFleetCom1 [text]"
+  },
+  {
+   "i": 21,
+   "en": "$Rank $personLastName blinks, and thinks for a moment. \"If you were to speculate at our purpose, I cannot confirm or deny the veracity of anything you say.\"\r\n\r\n\"You may of course... speak freely, captain,\" $heOrShe says deliberately.",
+   "ctx": "data/campaign/rules.csv gaATGhegFleetCom2 [text]"
+  },
+  {
+   "i": 22,
+   "en": "You summarize the story of the Gate research from Tomas Kallichore's failed Galatia experiment onward, leaving out inconvenient details about your own involvement. You tell of Tri-Tachyon's secret research, and the High Hegemon's tacit approval of the Galatia Academy resuming the project.\r\n\r\nThe Hegemony $rank's face freezes as you speak, and remains unnaturally still, you sense, through sheer effort of will.\r\n\r\n\"An interesting story, captain.\" $HeOrShe blinks rapidly, \"What is your point in telling it?\"",
+   "ctx": "data/campaign/rules.csv gaATGhegFleetCom3 [text]"
+  },
+  {
+   "i": 23,
+   "en": "There's a very long pause. \"You do have a commission. I am indeed empowered to integrate your forces into a Hegemony operation on an ad-hoc basis, if conditions deem it necessary.\"\r\n\r\nAnd more quietly, $rank $personLastName says \"Daud, Rao, and the rest pushed the rules much further than this back in the Second AI War... $playerName, I am activating you as an auxiliary asset to this operation.\"",
+   "ctx": "data/campaign/rules.csv gaATGhegFleetCom4 [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"Regular forces will withdraw to a safe distance, then I am ordering you to perform your scan of this Gate. Upon completion, you will transmit your data to my flagship.\"\r\n\r\n$HeOrShe stands up a little straighter, \"Are my orders understood, Captain $playerName?\"",
+   "ctx": "data/campaign/rules.csv gaATGhegFleetCom5 [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"Then the mission is a go. Please proceed, captain.\" says the Hegemony $rank with a little smile, and cuts the comm.",
+   "ctx": "data/campaign/rules.csv gaATGhegFleetCom6 [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"Excuse me, citizen?\" You sense $rank $personLastName reaching for the disconnect button.",
+   "ctx": "data/campaign/rules.csv gaATGhegFleetStory1 [text]"
+  },
+  {
+   "i": 27,
+   "en": "$HeOrShe blinks. \"I cannot confirm or deny any speculation concerning the nature of this confidential operation.\"",
+   "ctx": "data/campaign/rules.csv gaATGhegFleetStory2 [text]"
+  },
+  {
+   "i": 28,
+   "en": "You summarize the story of the Gate research from Tomas Kallichore's failed Galatia experiment onward, leaving out inconvenient details about your own involvement. You speak of Tri-Tachyon's secret research, and the High Hegemon's tacit approval of the Galatia Academy resuming the project.\r\n\r\nThe Hegemony $rank's face freezes as you speak, and remains unnaturally still, you sense, through sheer effort of will.\r\n\r\n\"Interesting story, captain.\" $HeOrShe blinks rapidly, \"What is your point in telling it?\"",
+   "ctx": "data/campaign/rules.csv gaATGhegFleetStory3 [text]"
+  },
+  {
+   "i": 29,
+   "en": "There's a very long pause. \"There exist provisions to integrate non-naval forces into a Hegemony operation on an ad-hoc basis. If conditions deem it absolutely necessary to achieve strategic goals.\"\r\n\r\nAnother pause. \"High Hegemon Baikal Daud opened the armories to civilian fleets during the Siege of Chicomoztoc.\" And more quietly, \"And then Rao's antics at Ratatosk...\"\r\n\r\nThe Hegemony $rank winks, then nails you with a stern look. \"Captain, I am officially activating you as an auxiliary asset to this operation.\"",
+   "ctx": "data/campaign/rules.csv gaATGhegFleetStory4 [text]"
+  },
+  {
+   "i": 30,
+   "en": "After the scan is completed you order your comms officer to transmit a copy of the data to the nearby Hegemony fleet using the operational frequency provided. \r\n\r\nWith only one good data set, it's not like they'll have a major leg-up on Gate research compared to the Galatia Academy. Or Tri-Tachyon, for that matter.",
+   "ctx": "data/campaign/rules.csv gaATGhegFleetScanTransmit3 [text]"
+  },
+  {
+   "i": 31,
+   "en": "A silent ring of adamantine material, derelict of a former age.\r\n\r\nYour sensors officer calls for your attention. \"Captain, there's some kind of hyperwave interference coming from the nearby Tri-Tachyon fleet. Our scanner can't make a lock while they're... doing whatever they're doing.\"",
+   "ctx": "data/campaign/rules.csv gaATGttScanGate [text]"
+  },
+  {
+   "i": 32,
+   "en": "Before you open comms, your sensors officer calls your attention and links their display to yours. \"Captain, look at how they're modulating their drive fields. They've got their own version of a Gate scanner. Slower than ours, maybe, but similar principles.\" \r\n\r\nClearly, Tri-Tachyon has a parallel Gate research initiative.",
+   "ctx": "data/campaign/rules.csv gaATGttScanFleet [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"A fine day, captain,\" says the Tri-Tachyon $post. \"We're just going about our lawful business. If you don't mind, please keep your drive field set to a minimum, thank you.\"",
+   "ctx": "data/campaign/rules.csv gaATGttScanFleetOpenComm [text]"
+  },
+  {
+   "i": 34,
+   "en": "$personLastName looks at you with politely restrained surprise. \"I'm sorry,\" $heOrShe says unapologetically, \"But we must turn down your request. We are attending to Tri-Tachyon business and I would ask that you, instead, move your fleet clear of the Gate.\"\r\n\r\n$HeOrShe crosses $hisOrHer arms and awaits your response.",
+   "ctx": "data/campaign/rules.csv gaATGttScanFleet1 [text]"
+  },
+  {
+   "i": 35,
+   "en": "\"Tri-Tachyon business,\" $heOrShe says. \"A standard survey. You are of course familiar with Tri-Tachyon's line of proprietary star charts, the TriStar Smart Navigation Suite? It is important to provide up-to-date data on potential navigational hazards to our customers.\"\r\n\r\n\"Now, we need you to remove your fleet from the vicinity because, ah, your drive fields will interfere with our proprietary sensor suite.\"",
+   "ctx": "data/campaign/rules.csv gaATGttScanFleet2 [text]"
+  },
+  {
+   "i": 36,
+   "en": "\"Indeed,\" $heOrShe says evasively. \"We ah, need to make absolutely sure of that. Our customers demand no less.\"",
+   "ctx": "data/campaign/rules.csv gaATGttScanFleet21 [text]"
+  },
+  {
+   "i": 37,
+   "en": "The Tri-Tachyon $rank looks like $heOrShe is gritting $hisOrHer perfect teeth.\r\n\r\n\"I've told you what we're doing, and time is money. What is it you want, captain?\"",
+   "ctx": "data/campaign/rules.csv gaATGttScanFleet22 [text]"
+  },
+  {
+   "i": 38,
+   "en": "$HeOrShe looks at you for a moment, calculating, then taps something on $hisOrHer console. Turning the comms record off? \r\n\r\n\"We could arrange something. No need to go through the TriStar Smart Navigation Suite. Direct data from me to you, direct payment from you to me.\" $HeOrShe smiles with undisguised avarice. \"$gaATG_ttScanCost credits, let's say. Deal?\"",
+   "ctx": "data/campaign/rules.csv gaATGttScanFleet23 [text]"
+  },
+  {
+   "i": 39,
+   "en": "\"Thanks,\" $heOrShe says flatly.",
+   "ctx": "data/campaign/rules.csv gaATGttScanFleet2end [text]"
+  },
+  {
+   "i": 40,
+   "en": "$personLastName performs the data transfer with admirable customer service.\r\n\r\n\"A pleasure doing business with you, captain,\" $heOrShe says before terminating the comm link.",
+   "ctx": "data/campaign/rules.csv gaATGttScanFleet2accept [text]"
+  },
+  {
+   "i": 41,
+   "en": "$personLastName shrugs, \"That's the price. The offer stands if you change your mind.\"",
+   "ctx": "data/campaign/rules.csv gaATGttScanFleet2decline [text]"
+  },
+  {
+   "i": 42,
+   "en": "The Tri-Tachyon $post watches you for a moment, calculating. You can feel the cold anger radiating from $hisOrHer seemingly impassive visage.\r\n\r\n$HeOrShe turns and calmly says to $hisOrHer bridge. \"Tactical, go to orange.\"\r\n\r\nBack to you, $heOrShe says $hisOrHer challenge, \"If you're making a move, do it now. We're ready.\"",
+   "ctx": "data/campaign/rules.csv gaATGttScanFleet3strong [text]"
+  },
+  {
+   "i": 43,
+   "en": "The Tri-Tachyon $post notes your fleet powering up weapons, and nods. \r\n\r\n\"This could have been easy, captain,\" $heOrShe says, \"But we'll do it your way.\"\r\n\r\nThe comm like terminates with a snap.",
+   "ctx": "data/campaign/rules.csv gaATGttScanFleet3attack [text]"
+  },
+  {
+   "i": 44,
+   "en": "\"I thought so,\" the Tri-Tachyon $post says. \"Go find your own Gate, captain.\"\r\n\r\nThe comm link terminates with a snap.",
+   "ctx": "data/campaign/rules.csv gaATGttScanFleet3backDown [text]"
+  },
+  {
+   "i": 45,
+   "en": "The Tri-Tachyon $post watches you for a moment, calculating. You can feel the cold anger radiating from $hisOrHer seemingly impassive visage.\r\n\r\n\"Nav, set course away from here,\" $heOrShe turns and speaks calmly to $hisOrHer bridge. \"We need to preserve company assets from brigandage.\"\r\n\r\n$HeOrShe turns back to you, \"I won't forget this, captain. The company won't, either.\"\r\n\r\nThe link terminates with a snap.",
+   "ctx": "data/campaign/rules.csv gaATGttScanFleet3weak [text]"
+  },
+  {
+   "i": 46,
+   "en": "\"Direct data from me to you, direct payment from you to me.\" $HeOrShe smiles with undisguised avarice. \"$gaATG_ttScanCost\r\n credits, let's say. Deal?\"",
+   "ctx": "data/campaign/rules.csv gaATGttScanFleet4 [text]"
+  },
+  {
+   "i": 47,
+   "en": "A silent ring of adamantine material, derelict of a former age.\r\n\r\nYou use your command interface to query the status of the Gate scanning instrument package. The target-finder hangs as it tries to lock on to the anomaly at the center of the Gate's ring. ABORT, RETRY, FAIL? it asks in bold amber letters.\r\n\r\n\"Captain, there's a fleet of civilian ships right on top of the Gate,\" your sensors officer says, shaking their head. \"There's just too much interference.\"",
+   "ctx": "data/campaign/rules.csv gaATGluddicScanGate [text]"
+  }
+ ]
+}

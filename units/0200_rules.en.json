@@ -1,0 +1,161 @@
+{
+ "chunk": 200,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "As your $shipOrFleet prepares to de-orbit, you plug the datachip into a secure terminal to see what Provost Baird decided to risk your life for. It is encrypted, of course, and the routine ICE-breaker doesn't crack it. Rarely does, but one must be thorough.\r\n\r\nYou think for only a moment before inputting the secure comm frequency given to you by Sebestyen to contact this 'researcher'. The crypto unfolds, leaving you with a tiny code package that seems to want to interface with a standard Domain hyperdrive kernel. You call your navigation officer over to consult.",
+   "ctx": "data/campaign/rules.csv gaTJinvestigateChip [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"It appears to 'tune' the hyperdrive field,\" they explain. \"And if this does what it says it does, it would be able to create the effect of a sort of pseudo jump-point around the ship itself.\" The excitement in their voice is palpable, \"Theoretically an entire fleet could launch itself into hyperspace from ... anywhere!\" \r\n\r\nYou react without surprise to this development, thanking the officer for the input.\r\n\r\n\"Um, yes, $PlayerSirOrMadam,\" they say uncertainly. \"I'll return to my station and await your orders.\"\r\n\r\nYou upload a copy of the datachip's contents to your personal TriPad. Just in case.",
+   "ctx": "data/campaign/rules.csv gaTJinvestigateChip2 [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"Captain! Thank you for returning- \" Sebestyen freezes, then lowers his voice, \"-for returning the ah, researcher. Provost Baird will be very pleased. She's restarting the hyperspace- um, well, I shouldn't ruin it. I'm sure there'll be a proper announcement when they're all ready.\"",
+   "ctx": "data/campaign/rules.csv gaTJMissionReturn [text]"
+  },
+  {
+   "i": 4,
+   "en": "Your sensors officer frowns at a blinking indicator. \"Captain, there appears to be a faint signal coming from low orbit.\"\r\n\r\nThey pull a detailed scan of the transmission source to the primary bridge display, an orbital nav grid overlaid with icons and telemetry.\r\n\r\n\"The transmission is very weak. We only picked it up as the survey array ran through its calibration cycle. It looks like an automated instrument package deployed in low orbit. Power source is degraded. It's got to have been here for a while.\"",
+   "ctx": "data/campaign/rules.csv gaIntro2surveyOpen [text]"
+  },
+  {
+   "i": 5,
+   "en": "Your sensors officer activates the audio output: a garbled loop, wailing in and out of coherence. A recorded voice? \r\n\r\n\"The transmitter must be damaged. But with a little work,\" a hint of pride enters their voice, \"There.\"\r\n\r\n\"-ment of the Galatia Academy. If found, I implore you to return the data core to the academy for a reward of 18,000 credits authorized by Provost Tomas Kallichore. Message will repeat.\"",
+   "ctx": "data/campaign/rules.csv gaIntro2start2 [text]"
+  },
+  {
+   "i": 6,
+   "en": "Your ops chief oversees a retrieval mission by-the-book, staging approach-and-scan to maximize safety in the event of environmental or technological hazards. The salvor team is used to your chief's attention to detail and within the hour place the instrument package data core in an EM-sealed crate.",
+   "ctx": "data/campaign/rules.csv gaIntro2retrieval [text]"
+  },
+  {
+   "i": 7,
+   "en": "Cursory inspection by your technology officer - to make sure this isn't some kind of bomb or rogue AI core - reveals a data core packed to its limit with compressed telemetry streams. \r\n\r\n\"It's a... a lot of data,\" they say, scrolling through vast columns of numbers.",
+   "ctx": "data/campaign/rules.csv gaIntro2inspect [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"Well,\" your technology officer's brow furrows, \"Recordings. Sensor logs. Detecting, um.\" They pause the data-feed, examining some of the numbers. \"Some kind of... field strength?\"\r\n\r\nYou are beginning to get the impression that your tech officer doesn't know what this device was measuring.",
+   "ctx": "data/campaign/rules.csv gaIntro2what [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"$PlayerSirOrMadam. Yes, of course.\" Is that the hint of a blush? The reprimand is made, so you push no further.",
+   "ctx": "data/campaign/rules.csv gaIntro2sayso [text]"
+  },
+  {
+   "i": 10,
+   "en": "It doesn't matter what's on this data core, corrupted or not, so long as the Galatia Academy pays the credits promised for its return. You order the crate secured in the cargo hold until your $shipOrFleet next finds itself in the Galatia system.",
+   "ctx": "data/campaign/rules.csv gaIntro2leaveWithCore [text]"
+  },
+  {
+   "i": 11,
+   "en": "At the mention of \"Kallichore\" the junior agent goes suddenly pale and touches their ear, stammering something about an urgent request as they turn and leave.\r\n\r\nWith a sigh, you check the public comms terminal nearby. No entry under the name \"Kallichore\". After your query, the display locks into a Hegemony COMSEC warning.",
+   "ctx": "data/campaign/rules.csv gaIntro2returnStart2 [text]"
+  },
+  {
+   "i": 12,
+   "en": "You open comms to your flagship and delegate the task of finding out what's going on to your comms officer.\r\n\r\nIn short order they manage to navigate the lower echelons of graduate students to finally speak with someone in a position of authority. \r\n\r\nThe active comms link is routed to your personal interface.",
+   "ctx": "data/campaign/rules.csv gaIntro2returnStart3 [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"Academician Elek, at your service. Captain... ?\"\r\n\r\nThe academician draws out your presumed title like you've forgotten to serve him biscuits with his tea. You're certain your comms officer would have mentioned your name.",
+   "ctx": "data/campaign/rules.csv gaIntro2returnElek1 [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"Oh, one of those. Of course. Your secretary should have just said so.\" The academician pauses, \"But then this would have been Provost Kallichore, would it not? He's not the provost anymore, no no.\" \r\n\r\nElek's voice deepens with practiced gravitas, \"Not after what happened...\"",
+   "ctx": "data/campaign/rules.csv gaIntro2returnElek2b [text]"
+  },
+  {
+   "i": 15,
+   "en": "Elek leans back, slipping into his professorial role. \"The provost - Kallichore that is - quite overstepped the bounds of his office, in my opinion. The Hegemony agreed and cracked down rather dramatically. Oppression and tyranny ran rampant in the halls of enlightenment! Troopers stomping down the corridors of our fine academy, can you believe!\"\r\n\r\n\"Now, I'm a mere specialist in the planetary sciences - some would say preeminent in my field - so of course I had nothing to do with Kallichore's jump-point experiments. But.\" He pauses, taking a moment to look up to the heavens.\r\n\r\n\"I had my suspicions. Particularly of those amongst my colleagues who wouldn't hesitate to breach the ethos we uphold as members of this academy. And that's exactly what I told the Hegemony officer who interrogated me! The thick-headed brute said he'd review my list of names, but per my observations I speculate that he quite ignored my insight. It is as stars tossed in the mud, I tell you! I present the gift of knowledge and-\" ",
+   "ctx": "data/campaign/rules.csv gaIntro2returnElekWhat1 [text]"
+  },
+  {
+   "i": 16,
+   "en": "Elek rambles away, giving you no clear answers about what happened.\r\n\r\nInstead, Academician Elek seems to have a list of complaints against his colleagues, the Hegemony officers who didn't cooperate in Elek's efforts to sell out his colleagues, and against both the previous and current provost, neither of whom holds - or held - a correct appreciation for 'The Academy'.\r\n\r\nYou sigh, and use your captain-voice to pry a few words into a pause as Elek is finally forced to take a breath.",
+   "ctx": "data/campaign/rules.csv gaIntro2returnElekWhat2 [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"Oh.\" Elek looks at you blankly for a moment.\r\n\r\n\"I suppose there is that. Hmm, I don't recall that particular account being frozen. Have your secretary or whomever send the data core to the Planetology Department, if you would be so kind.\"",
+   "ctx": "data/campaign/rules.csv gaIntro2returnElekStillReward [text]"
+  },
+  {
+   "i": 18,
+   "en": "The edge in your voice seems to shake the academician. \r\n\r\n\"Oh.\" Elek looks at you blankly for a moment. \"Please! Don't do that, the data is very valuable. Which, um, I suppose there is a reward. That account wasn't frozen, after all. Have your secretary or whatever send the datacore to the Planetology Department, if you would be so kind.\"",
+   "ctx": "data/campaign/rules.csv gaIntro2returnElekDumpIt [text]"
+  },
+  {
+   "i": 19,
+   "en": "You would, and you do. \r\n\r\nAcademician Elek authorizes release of the reward credits to you, via the bursar's office, with surprising alacrity.",
+   "ctx": "data/campaign/rules.csv gaIntro2returnElekReward [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"Captain!\" Sebestyen looks pleased to see you. Come to think of it, he always seems pleased to see you. \r\n\r\n\"I'm told you recovered, um,\" he taps at something on his desk. \"This um, oh, the data core. That project belongs to... here it is, Academician Elek in planetology.\" \r\n\r\nFar be it from Sebestyen to criticize anyone directly, you detect an unusual drop in positivity in Sebestyen's tone when referring to this 'Elek'. It's not that he's being unkind, just... less kind.",
+   "ctx": "data/campaign/rules.csv gaIntro2returnSebStart [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"Captain!\" Sebestyen looks pleased to see you. Come to think of it, he always seems pleased to see you. \"I'm told you recovered, um,\" he taps at something on his desk.\r\n\r\n\"This um, oh, the data core. That project belongs to... here it is, Academician Elek in planetology.\" \r\n\r\nFar be it from Sebestyen to criticize anyone directly, you detect an unusual drop in positivity in Sebestyen's tone when referring to this 'Elek'. It's not that he's being unkind, just... less kind.",
+   "ctx": "data/campaign/rules.csv gaIntro2returnSeb1 [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"Oh yes, of course,\" Sebestyen says. \"There was a separate account allotment for data recovery rewards budgeted into the project's, um, budget. So regardless of who is, um, the current provost or not, you are set to be paid. I just need to send this form, and-\" he taps his desk interface decisively.\r\n\r\n\"Done. The funds should be released to your account now. Good find, captain!\"",
+   "ctx": "data/campaign/rules.csv gaIntro2returnSeb2 [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"I, uh.\" Sebestyen is caught by your directness. \"...Academician Elek?\"",
+   "ctx": "data/campaign/rules.csv gaIntro2returnSeb3 [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"I, uh,\" Sebestyen begins, then speaks more quietly, \"Of... it, it isn't appropriate for me to speak poorly of any of the faculty of this institution. Being of course that I'm the liaison for Provost Baird's special, um.\"\r\n\r\nHe trails off, then tries a new tack.\r\n\r\n\"It's important that I be aware of the sensitivities of individuals within the academy, of course. And without. And how they might feel about... well, Academician Elek. He might be described by some - not me, of course - as having an, um.\" \r\n\r\nSebestyn reaches for a dark place within his psyche to find the words, then says \"An off-putting manner.\"",
+   "ctx": "data/campaign/rules.csv gaIntro2returnSeb4 [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"I mean.\" Sebestyen looks troubled. \"Yes? Of course the individuals who feel, um, off-put don't see it as a small issue at all, which complicates the liaising between the uh, departments in question.\"",
+   "ctx": "data/campaign/rules.csv gaIntro2returnSeb5 [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"Please, captain,\" he says. \"You don't need to apologize. My job is to liaison, and Provost Baird picked me because I, I exceed expectations!\" \r\n\r\nSebestyen seems to surprise himself a bit with this self-assessment and, steeling himself, proceeds. \"I can deal with Elek, don't worry. It is after all,\" he looks into the middle distance, jaw tight, \"My job.\"\r\n",
+   "ctx": "data/campaign/rules.csv gaIntro2returnSeb6 [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"Um.\" Sebestyen turns a new shade of red. \"Of course I don't, uh, I wouldn't use such a strong word with regard to... how about that reward for recovering the data core? $gaIntro2_credits credits, wasn't it?\" \r\n\r\nHe starts tapping desperately at his interface.",
+   "ctx": "data/campaign/rules.csv gaIntro2returnSeb7 [text]"
+  },
+  {
+   "i": 28,
+   "en": "A pack of young officers relax, downing a higher tier of drinks amid rolls of laughter at one or another bon mot.\r\n\r\nOne of them glances at you, his head turning just a degree as recognition crosses his face. He calls out, lifting a drink.\r\n\r\n\"Ah, you there! $playerName, is it not?\"\r\n\r\nHe puts on a glowing smile and approaches. His friends examine you, elbowing one another as if this is the set-up to some jape.",
+   "ctx": "data/campaign/rules.csv soeMeetCaspianStart1 [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"Of course, captain. You're all the talk amongst the officer corps,\" his arm makes a languid motion that doesn't quite encompass his drinking-cadre, who find this hilarious.",
+   "ctx": "data/campaign/rules.csv soeMeetCaspian1greet1 [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"Not yet, dear captain. See, you're all the talk amongst the officer corps,\" his arm makes a languid motion that doesn't quite encompass his drinking-cadre, who find this hilarious.",
+   "ctx": "data/campaign/rules.csv soeMeetCaspian1greet3 [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"One hears you've won not a few skirmishes with pirate scum and the like. In service to the Hegemony, hear, hear!\" He raises his glass in a partial salute.\r\n\r\nThen he looks to each side, performatively checking for snoops, before leaning in to speak more quietly, \"One even hears that old man Daud himself invited you for a personal meeting. Didn't get any of that mozzie hive-dirt on you did he? Ha-ha.\"",
+   "ctx": "data/campaign/rules.csv soeMeetCaspian1 [text]"
+  }
+ ]
+}

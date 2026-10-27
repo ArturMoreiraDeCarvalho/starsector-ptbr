@@ -1,0 +1,166 @@
+{
+ "chunk": 173,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"Good shift, captain,\" the Tri-Tachyon $rank says crisply. \"Long-range sensors recently detected a certain Ziggurat-class TTS Xenorphica in your fleet; this is property of the Tri-Tachyon Corporation.\"\r\n\r\n$HisOrHer eyes flick down, reading from a screen \"Let this statement be notice that the Tri-Tachyon Corporation considers legitimate all appropriate and necessary means to recover property belonging to said company, including use of militarized force, employment of mercenaries or privateers, et cetera.\"",
+   "ctx": "data/campaign/rules.csv gaPZTriTachEncounterNoZig [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"Good shift, captain,\" the Tri-Tachyon $rank says crisply. \"You possess property belonging to the Tri-Tachyon Corporation.\"\r\n\r\n$HisOrHer eyes flick down, reading from a screen \"Let this statement be notice that the Tri-Tachyon Corporation considers legitimate all appropriate and necessary means to recover property belonging to said company, including use of militarized force, employment of mercenaries or privateers, et cetera.\"",
+   "ctx": "data/campaign/rules.csv gaPZTriTachEncounterOnlyZig [text]"
+  },
+  {
+   "i": 3,
+   "en": "The Tri-Tachyon $rank looks back at you directly, without emotion. \"Consider this ample warning.\"\r\nThe comms cut. The Tri-Tachyon logo spins while a synthesized voice asks you to submit feedback on your customer experience. ",
+   "ctx": "data/campaign/rules.csv gaPZTriTachEncounterInitialCont [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"We are well aware of the rights of salvage, captain,\" $heOrShe says, jaw tightening \"But the Company views these as exceptional circumstances. A great deal of proprietary research has gone into that hull, and the Company expects to make good on its investment.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_ttHubSal [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"Gladly,\" says the Tri-Tachyon $rank with vicious satisfaction. The comms go dark.",
+   "ctx": "data/campaign/rules.csv gaPZ_ttHubPryStronger [text]"
+  },
+  {
+   "i": 6,
+   "en": "The Tri-Tachyon $rank swallows uncomfortably, then says \"That won't be necessary. We are running a business, not a slaughterhouse.\"\r\n\r\n$HeOrShe pauses for a moment, unsure of how to proceed, then speaks. \"You're making a terrible mistake, captain,\" $heOrShe says. \"If that's what it comes to- a word of advice: the Tri-Tachyon Corporation is bigger than you, it's bigger than any person. It's bigger than all people, because it forms something greater than the sum of its components, human and otherwise.\"\r\n\r\n\"You'll never win.\" And with that, the Tri-Tachyon $rank cuts the comms as $hisOrHer fleet moves to disengage.",
+   "ctx": "data/campaign/rules.csv gaPZ_ttHubPryWeaker [text]"
+  },
+  {
+   "i": 7,
+   "en": "The Tri-Tachyon $rank seems caught cold, and pauses to swallow uncomfortably.\r\n\r\n\"I don't, um. The Tri-Tachyon Corporation makes no admission of responsibility or guilt in any matter covered by the cycle 194 Treaty of Crom Cruach,\" $heOrShe say automatically. \"This conversation does not confirm or deny any speculation on your part as to the nature of the Tri-Tachyon property in question.\"\r\n\r\nA cough. \"I must reiterate my demand: return the TTS Xenorphica.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_ttHubThreat [text]"
+  },
+  {
+   "i": 8,
+   "en": "The Tri-Tachyon $rank's face seems to freeze in place as you explain that, in your opinion, the technology on this ship definitely appears to break the Treaty of Crom Cruach, which ended the 2nd AI War. That is, it would if it were developed by Tri-Tachyon. \r\n\r\nAnd if the Hegemony Ministry of Technology Standards hypothetically received your survey of a Tri-Tachyon black site, the so-called \"Alpha Site\", where such technology was developed.\r\n\r\nHypothetically.\r\n\r\n\"We'll be in touch,\" the $rank hisses. The comm cuts to a Tri-Tachyon logo.",
+   "ctx": "data/campaign/rules.csv gaPZ_ttHubThreat1 [text]"
+  },
+  {
+   "i": 9,
+   "en": "The Tri-Tachyon $rank smiles, \"Now we're talking business, captain.\" $HeOrShe quickly consults a TriPad, then says \"I'm prepared to offer $entity.ttZigBuyPrice credits as a 'consulting fee' in assisting in the recovery of the TTS Xenomorphica.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_ttHubPay [text]"
+  },
+  {
+   "i": 10,
+   "en": "Once you signal agreement, the Tri-Tachyon officer is all cheer. $HeOrShe transfers the lordly sum of credits to you in exchange for the command codes of the Ziggurat-class hull.\r\n\r\n$Rank $PersonName looks at you over the top of $hisOrHer TriPad, \"Your discretion in this matter is assumed, of course,\" and gives another flinty smile. \"It's been a pleasure doing business with you, captain.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_ttHubPayAccept [text]"
+  },
+  {
+   "i": 11,
+   "en": "The Tri-Tachyon $rank seems caught off guard by your ready agreement.\r\n\r\n\"I, I mean of course. The Tri-Tachyon Corporation thanks you for your cooperation in this matter. We shall of course arrange for a token payment for the recovery of company property - ah, of $entity.ttZigLowBuyPrice credits.\" $HeOrShe looks at you over the top of a TriPad, \"Your discretion in this matter is assumed, of course.\"\r\n \r\nThe transfer of executive command functions proceeds smoothly.",
+   "ctx": "data/campaign/rules.csv gaPZ_ttHubAccept [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"Captain,\" the Luddic $rank glances down, reading something \"Captain $playerName. I greet you in the spirit of Ludd's peace, and may blessings be upon you.\"",
+   "ctx": "data/campaign/rules.csv gaPZLCEncounterComm [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"Our order's long-range signal intercept conclave has recently detected a ship of, ah, unusual provenance in operation under your command. The Bishop-Admiral meditated upon this matter, and has concluded that the appearance of this... form... is a matter of great spiritual unease. 'The locusts will hatch from the temple of the Adversary', to quote from the revelations of Ludd, blessings be.",
+   "ctx": "data/campaign/rules.csv gaPZLCEncounterNoZig [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"Our order's signal intercept conclave has detected a ship of, ah, unusual provenance in operation under your command. The Bishop-Admiral meditated upon this matter, and has concluded that the appearance of this... form... is a matter of great spiritual unease. 'The locusts will hatch from the temple of the Adversary', to quote from the revelations of Ludd, blessings be.",
+   "ctx": "data/campaign/rules.csv gaPZLCEncounterHasZig [text]"
+  },
+  {
+   "i": 15,
+   "en": "The Knight of Ludd looks at you in earnest, and says \"We will watch you closely, with hammer in one hand and sword in the other.\" The words lack overt aggression; more a statement of duty than a threat.",
+   "ctx": "data/campaign/rules.csv GAPZLCEndPart [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"That is it,\" the Luddic $rank looks down at you suspiciously. \"It concerns me - and my order - that you are so little troubled by this machine. When I look upon its face, I confess that I see nought but some spawn of the twin evils of Mammon and Moloch; a hollow child of the Tri-Tachyon Corporation. But,\" $heOrShe raises a power-armor gauntleted hand, \"It is not my place to pass that judgment. Yet.\"\r\n\r\n\"The Bishop-Admiral will be receiving my report. I will pray for you, captain. Fare you well on your path.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_lcWhy [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"Good,\" the Luddic $rank nods. \"It reassures me that you seem not a soul totally lost to the machine. Though I fear no good will come of that... thing.\"\r\n\r\n\"I will pray for you, captain. Fare you well on your path.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_lcSerious [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"I will pray for you, captain,\" the Knight says with some concern in $hisOrHer voice. \"Fare you well on your path, and stray not into evil, and...\"",
+   "ctx": "data/campaign/rules.csv gaPZ_lcReceived [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"Captain $playerName. I am Lieutenant Finlay Siyavong of the Persean League Fleet Intelligence Service. It is so very interesting to finally meet you.\" ",
+   "ctx": "data/campaign/rules.csv GAPZSiyavongGreetingA [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"Captain $playername.\" You are greeted once again by Finlay Siyavong of the Persean League Fleet Intelligence Service. \"It is so interesting to meet you again,\" he says with a small smile.",
+   "ctx": "data/campaign/rules.csv GAPZSiyavongGreetingB [text]"
+  },
+  {
+   "i": 21,
+   "en": "He nods politely toward you, \"What an unusual ship you are operating.\"",
+   "ctx": "data/campaign/rules.csv GAPZSiyavongGreetingContA [text]"
+  },
+  {
+   "i": 22,
+   "en": "He nods politely toward you, \"I heard that you've been operating a very unusual ship. Quite unique, in fact.\"",
+   "ctx": "data/campaign/rules.csv GAPZSiyavongGreetingContB [text]"
+  },
+  {
+   "i": 23,
+   "en": "Siyavong shrugs, perfectly innocuous.",
+   "ctx": "data/campaign/rules.csv gaPZ_siya1 [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"No game. I'm having a friendly conversation with you, pursuing a matter of special interest to Fleet Intelligence. Don't believe the holovids, captain - a friendly conversation is often the most powerful tool in an intelligence officer's arsenal.\"\r\n\r\n\"It looks to Fleet Intelligence like a capital-sized phase-capable ship. Theoretically impossible. And yet,\" he extends the palm of his hand, indicating your $shipOrFleet. \"And that's its least interesting quality, if my sources are to be believed.\"  \r\n\r\nSiyavong folds his hands together. \"If you would indulge me, captain, I'm most curious about where you found such a thing. In your own words, if you would be so kind.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_siyaWhatGame [text]"
+  },
+  {
+   "i": 25,
+   "en": "Siyavong smiles as innocuously as he is able. \"It looks to Fleet Intelligence like a capital-sized phase-capable ship. Theoretically impossible. And yet,\" he extends the palm of his hand, indicating your $shipOrFleet. \"And that's its least interesting quality, if my sources are to be believed.\"  \r\n\r\nSiyavong folds his hands together. \"If you would indulge me, captain, I'm most curious about where you found such a thing. In your own words, if you would.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_siya3 [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"Of course, captain.\" Siyavong's smile takes on a subtle aspect of strain now. \"If you do not want to cooperate with Fleet Intelligence, that is your personal choice and we have no, ah, legal objection.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_siyaBusiness [text]"
+  },
+  {
+   "i": 27,
+   "en": "A shocked expression crosses Siyavong's face, \"Captain! I hope that you would think better of me. I simply want to ensure that you are well aware of your legal rights in Persean League controlled volume; the League charter guarantees your right to operate starships and engage freely in commerce so long as you respect the laws of navigation and so on.\"\r\n\r\n\"So, please. I believe I have interrupted your journey - do carry on. I'm sure we will meet each other again very soon, and I would love to continue our little chat.\"\r\n\r\n\"Good day, captain,\" and with that he closes the comms somewhat abruptly. You get the distinct feeling that Fleet Intelligence is going to be keeping a close eye on you.",
+   "ctx": "data/campaign/rules.csv gaPZ_siyaThreat [text]"
+  },
+  {
+   "i": 28,
+   "en": "Siyavong becomes intent, leaning forward, his attention focused on you now like a targeting laser. He keeps his tone casual, \"Fascinating. And what did the Tri-Tachyon Corporation think about this?\"",
+   "ctx": "data/campaign/rules.csv gaPZ_siya4 [text]"
+  },
+  {
+   "i": 29,
+   "en": "Siyavong looks suitably impressed as you tell him about the secret Tri-Tachyon black site hidden beyond a nascent gravity well jump-point, and your discovery that everyone was dead, and there was a strange ship in orbit.\r\n\r\n\"This magnificent ship of yours, a Ziggurat-class hull I believe? Wonderful. You said it was strange- I am so very interested by these things, $playerName, won't you tell me more about these strange ah, 'motes' was it?\"",
+   "ctx": "data/campaign/rules.csv gaPZ_siyaSite [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"Oh, how funny,\" Siyavong gives a little chuckle. \"It just felt like the right word to describe the phenomena. Just one of those little coincidences, I suppose.\"\r\n\r\n\"But captain,\" he says apologetically, \"I interrupted your story. I apologize. You were saying about the motes?\"",
+   "ctx": "data/campaign/rules.csv gaPZ_siyaMote [text]"
+  },
+  {
+   "i": 31,
+   "en": "Siyavong's smile doesn't quite reach his eyes. \"Why captain, that's such a strong word. Loaded with negative implications, that - no, I understand why you would feel the way you do, and it is a valid response.\"\r\n\r\n\"I am a citizen of the League. I would not be so proud if I did not value my freedom, my independence, would I? And we share this admirable quality, you and I.\"\r\n\r\n\"Oh,\" Siyavong pretends to look at his datapad, \"I do believe I have interrupted your journey and taken much of your time with my carrying on. I'm sure we will meet each other again very soon, and I would love to continue our little chat.\"\r\n\r\n\"Good day, captain,\" and with that he closes the comms somewhat abruptly. You get the distinct feeling that Fleet Intelligence is going to be keeping a close eye on you.",
+   "ctx": "data/campaign/rules.csv gaPZ_siyaSpying [text]"
+  },
+  {
+   "i": 32,
+   "en": "Siyavong acts as a perfect listener, responding with appropriate awe at the compounded mysteries of the Motes and what little you know of the Mote induction devices. \r\n\r\nAs you wind down, Siyavong pretends to look at his datapad, \"Oh! I do believe I have interrupted your journey and taken much of your time with my carrying on. I'm sure we will meet each other again very soon, and I would love to continue our little chat.\"\r\n\r\n\"Good day, captain,\" and with that he closes the comms somewhat abruptly. You get the distinct feeling that Fleet Intelligence is going to be keeping a close eye on you.",
+   "ctx": "data/campaign/rules.csv gaPZ_siyaExplain [text]"
+  }
+ ]
+}

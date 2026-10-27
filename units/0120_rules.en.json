@@ -1,0 +1,251 @@
+{
+ "chunk": 120,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "He gives you a funny look.\r\n\r\n\"Sedge. On Chalcedon.\" He raises his eyebrows, \"In the back? Surely you will not begrudge my caution.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensAskSidearm [text]"
+  },
+  {
+   "i": 2,
+   "en": "Virens' mouth draws a thin line. \"He is... was... not a polite man, nor pleasant. Driven, however. Quite driven.\"\r\n\r\nVirens looks thoughtfully at his tea like something is wrong with it, something ineffable.",
+   "ctx": "data/campaign/rules.csv LKEvirensPoliteSedge [text]"
+  },
+  {
+   "i": 3,
+   "en": "He nods, and says \"He is not a polite man, nor pleasant. Driven, however. Quite driven.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensPoliteSedgeDidntShoot [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"Sedge shot the man who set up the meeting in front of you.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensPoliteSedgeMoreA [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"I am told that Sedge became... agitated. He was quick to anger, and quick to demonstrate that anger.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensPoliteSedgeMoreB [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"I knew Sedge to be crude, and to be cruel.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensPoliteSedgeMoreC [text]"
+  },
+  {
+   "i": 7,
+   "en": "Virens looks thoughtfully at his tea like something is wrong with it, something ineffable.",
+   "ctx": "data/campaign/rules.csv LKEvirensPoliteSedgeMoreD [text]"
+  },
+  {
+   "i": 8,
+   "en": "Virens meets your eyes, \"Though you are my guest here, and perhaps because you are my guest, I feel that I must demand an answer from you.\" \r\n\r\n\"So I ask you this, $playerName. Why did you kill him?\"",
+   "ctx": "data/campaign/rules.csv LKEvirensWhyKillSedge [text]"
+  },
+  {
+   "i": 9,
+   "en": "Virens is a perceptive and cultured man. The truth will serve.",
+   "ctx": "data/campaign/rules.csv LKEvirensWhyKillSedgeTruths [text]"
+  },
+  {
+   "i": 10,
+   "en": "You need Virens to cooperate. Perhaps a lie will help...",
+   "ctx": "data/campaign/rules.csv LKEvirensWhyKillSedgeLies [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"I concede that he has, to my knowledge, killed many,\" Virens says. \"And with little hesitation. By the other hand, he did speak with you; he seemed to me not a man to waste his time with talk when intent upon killing.\" \r\n\r\n\"To that point,\" he picks up his teacup. \"The deed is done. Sedge is not mine to avenge, so put any worry of that from your mind.\"\r\n\r\n\"You see, I am a man who does hesitate. Thoughtless action,\" he shakes his head. \"But there are times for killing. And, after hesitation - and thought - I see that it be done.\"\r\n\r\nVirens smiles unreassuringly.",
+   "ctx": "data/campaign/rules.csv LKEvirensKillSedgeKilledMe [text]"
+  },
+  {
+   "i": 12,
+   "en": "He stares straight at you. \"You did not steal my tea.\"\r\n\r\n\"So,\" he trails off, giving a one-shoulder shrug, tea steady in his other hand. \"No.\"\r\n\r\nJust the hint of an unexpected smile lingers.",
+   "ctx": "data/campaign/rules.csv LKEvirensKillSedgeKilledMe2b [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"The thought had crossed my mind,\" he admits. \"But I think it would bring much trouble. And... I want to see what happens.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensKillSedgeKilledMe2 [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"I as well,\" he says.",
+   "ctx": "data/campaign/rules.csv LKEvirensKillSedgeKilledMe3 [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"You killed a man over a cup of tea?\" Virens' composure cracks for a moment in sheer disbelief.",
+   "ctx": "data/campaign/rules.csv LKEvirensKillSedgeTea [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"I understand that Sedge could be rude, yes, and even offensive. But,\" he shakes his head. \"Death is not a thing to administer lightly.\"\r\n\r\nYou are certain he has made such administrations himself.",
+   "ctx": "data/campaign/rules.csv LKEvirensKillSedgeTea2 [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"It is easy to dislike a great many people in a great many circumstances,\" Virens says. \"Sedge, perhaps, easier to dislike than most, I must admit.\"\r\n\r\n\"Still. Death is not a thing to administer lightly.\"\r\n\r\nYou are certain he has made such administrations himself.",
+   "ctx": "data/campaign/rules.csv LKEvirensKillSedgeDidntLike [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"I see,\" Virens says coldly. \"It would be consistent to level the same charge against myself, yes?\"\r\n\r\nHe looks at you with expectant challenge.",
+   "ctx": "data/campaign/rules.csv LKEvirensKillSedgeAntiAntiTech [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"Then I shall await your judgment in good spirit,\" he says. \"Though you must understand, it is only God whose judgment for which I truly fear and hope.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensKillSedgeAntiAntiTechA [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"Then I shall await your wrath in good spirit,\" he says calmly. \"Though you must understand, it is only God whose judgment for which I truly fear and hope.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensKillSedgeAntiAntiTechB [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"Do I?\" He looks away, brow wrinkling. \"Then I feel perhaps I am failing at something.\" \r\n\r\nHe turns back to you, \"Nonetheless, it is only God whose judgment for which I truly fear and hope.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensKillSedgeAntiAntiTechC [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"You are not wrong in that,\" Virens says. \r\n\r\n\"And he died as he lived: through a seemingly random act of wanton violence.\"\r\n\r\nYou detect more than a hint of criticism in these words.",
+   "ctx": "data/campaign/rules.csv LKEvirensKillSedgeBrute [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"Yes. But think of what you've created, back on Chalcedon.\"\r\n\r\nVirens leans forward, \"A hero, blessed martyr,\" he whispers. \"Shot in the back by a spacer coward. Sedge now walks beside Ludd, and the children of Chalcedon will walk in his footsteps.\"\r\n\r\nHe leans back again. \"You've made what was once an inconvenience an immortal, captain.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensKillSedgeBrute2A [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"Think of what you've created, back on Chalcedon.\"\r\n\r\nVirens leans forward, \"A hero, blessed martyr,\" he whispers. \"Shot in the back by a spacer coward. Sedge now walks beside Ludd, and the children of Chalcedon will walk in his footsteps.\"\r\n\r\nHe leans back again. \"It may be that you've made a whole new generation of raiders and killers, captain.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensKillSedgeBrute2B [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"No. But they choose,\" Virens says.",
+   "ctx": "data/campaign/rules.csv LKEvirensKillSedgeBrute2B-A [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"So they shall,\" Virens agrees.",
+   "ctx": "data/campaign/rules.csv LKEvirensKillSedgeBrute2B-B [text]"
+  },
+  {
+   "i": 27,
+   "en": "He sighs. \"Mairaath, yes. We're told many things of Mairaath. But think of what you've created, back on Chalcedon.\"\r\n\r\nVirens leans forward, \"A hero, blessed martyr,\" he whispers. \"Shot in the back by a spacer coward. Sedge now walks beside Ludd, and the children of Chalcedon will walk in his footsteps.\"\r\n\r\nHe leans back again. \"It may be that you've made a whole new generation of raiders and killers, captain.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensKillSedgeBrute2C [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"No,\" he says, \"I cannot.\"\r\n\r\n\"But I will not rehash this old argument now. Remember, it is you who came to me, in my home, to ask me for a favor.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensKillSedgeBrute2C2 [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"Ah.\" Virens leans back, examining you coolly. \"Am I next?\"",
+   "ctx": "data/campaign/rules.csv LKEvirensKillSedgePather [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"Ah,\" Virens leans back, examining you coolly.\r\n\r\n\"It will take a great deal of blood indeed to wash all that is impure from the Path, and indeed from the Sector entirely.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensKillSedgePurity [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"Your faith burns bright. Perhaps too bright for me, a simple man, to face unblinking.\" Virens adjusts his posture, uncomfortable perhaps.\r\n\r\n\"Let us speak of other things.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensKillSedgePurity2bL [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"It is easy to dislike a great many people in a great many circumstances,\" Virens says. \"Sedge, perhaps, easier to dislike than most, I must admit.\"\r\n\r\n\"Still. Death is not a thing to administer lightly.\"\r\n\r\nWith these words, you would be certain he has made such administrations, did not his position imply already such was the case.",
+   "ctx": "data/campaign/rules.csv LKEvirensKillSedgeDidntLikeL [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"You are not wrong in that,\" Virens says. \"He died as he lived, through a seemingly random act of wanton violence.\"\r\n\r\nYou detect more than a hint of criticism in these words.",
+   "ctx": "data/campaign/rules.csv LKEvirensKillSedgeBruteL [text]"
+  },
+  {
+   "i": 34,
+   "en": "\"You use this word 'ally'. It is, I think, too strong a word for what was between he and I.\"\r\n\r\nVirens switches his teacup to his other hand, \"Nor shall I deny the association, not once or thrice. The Path can be a twisted thing, captain, and ever am I surprised by the company with whom I walk.\"\r\n\r\n\"I apologize for nothing but for providing you with an unsatisfactory answer.\" He pours more tea, \"My wife always said I was a middling host.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensAskSedgeAlly [text]"
+  },
+  {
+   "i": 35,
+   "en": "\"Yes,\" Virens pauses, studying you. \"I know.\"\r\n\r\n\"I have met this man, Bornanew, and I know where he is.\" He leaves the statement hanging.",
+   "ctx": "data/campaign/rules.csv LKEvirensLookingBornanew [text]"
+  },
+  {
+   "i": 36,
+   "en": "With a small, amused nod Virens acknowledges that you've left the gap in conversation for him, not you, to fill.\r\n\r\n\"I feel that I have some responsibility to Bornanew, you see.\" Virens flicks a nonexistent speck from his teacup. \"Not for him in particular, but for courtesy, shall we say. My meeting with him was brief, and we have had no business or acquaintance since.\" ",
+   "ctx": "data/campaign/rules.csv LKEvirensLookingBornanewWait [text]"
+  },
+  {
+   "i": 37,
+   "en": "\"I may,\" says Virens.\r\n\r\n\"I feel that I have some responsibility to Bornanew.\" He flicks a nonexistent speck from his teacup. \"Not for any particular loyalty. For the general principle. My meeting with Bornanew was brief, and we have had no business or acquaintance since.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensLookingBornanewWhere [text]"
+  },
+  {
+   "i": 38,
+   "en": "\"He did, however, tell me why he was sent here. And by who.\" Virens looks for your reaction.\r\n\r\n\"I would not wish to direct you to him if your intentions were... unkind.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensLookingBornanew2 [text]"
+  },
+  {
+   "i": 39,
+   "en": "Virens pulls back, frowning.\r\n\r\n\"Am I to understand that as a threat, or merely a jest made in very poor taste?\"",
+   "ctx": "data/campaign/rules.csv LKEvirensIntentionsC [text]"
+  },
+  {
+   "i": 40,
+   "en": "He gives you a look that contains not a hint of amusement.",
+   "ctx": "data/campaign/rules.csv LKEvirensIntentionsCjokeResp [text]"
+  },
+  {
+   "i": 41,
+   "en": "He gives you a look. He seems more distant from you, somehow.",
+   "ctx": "data/campaign/rules.csv LKEvirensIntentionsCjobResp [text]"
+  },
+  {
+   "i": 42,
+   "en": "Virens leans back, rubbing his chin.\r\n\r\n\"Captain,\" he begins, \"Whatever you make of my home, this settlement... Mazalot is a polity of the Persean League. Their fleets will hound you to the ends of the Persean Sector.\"\r\n\r\n\"I say this to make sure, very very sure, you know what you are threatening to do. So you will see why it is not necessary.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensThreatenWithMarines [text]"
+  },
+  {
+   "i": 43,
+   "en": "\"Because I think you should speak with Bornanew yourself,\" he says. \"I shall have my man give you the coordinates.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensThreatenWithMarines2 [text]"
+  },
+  {
+   "i": 44,
+   "en": "\"I see,\" Virens says, looking out into the courtyard. Thinking, for a long minute. He turns back and deliberately sips some tea.\r\n\r\n\"I think you should speak with Bornanew yourself,\" he says. \"I shall have my man give you the coordinates.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensEndingA1 [text]"
+  },
+  {
+   "i": 45,
+   "en": "\"Wayward?\" He gives a soft laugh. \"You can be diplomatic when you wish it.\"\r\n\r\n\"The Church is not all one thing. And do you think this man, this Jethro Bornanew, will help that part of the Church which seeks a dominion of orthodoxy to overcome all the Faithful, and the Sector besides?\"\r\n\r\n\"Of that, I am not sure.\" His mouth moves toward an amused smile, but doesn't quite get there. \"Burn bright, captain.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensEndingOptAResp1 [text]"
+  },
+  {
+   "i": 46,
+   "en": "\"I speak true, $playerBrotherOrSister, when I say that I do not know what Path has been set for us by Providence.\"\r\n\r\n\"But I do know that the Church is not all of one thing. And do you think this man, this Jethro Bornanew, will help that part of the Church which seeks a dominion of orthodoxy to overcome all the Faithful, and the Sector besides?\"\r\n\r\n\"Of that I am especially unsure.\" His mouth moves toward a smile of amusement, but doesn't quite get there. \"Burn bright, captain.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensEndingOptBResp1 [text]"
+  },
+  {
+   "i": 47,
+   "en": "\"I felt you would not wish to hear of 'the Path'. But if you wish, I will tell you briefly of the Path.\"\r\n\r\nHe looks down, frowning. \"The Path is not all alike. In some places, the Path provides something that nothing else will. Not Kazeron, not the Hegemony, certainly not the Mazalot Unification Authority.\"\r\n\r\nHe looks up, changed; there is a sad fervor in his eyes that you did not see before. \"We were lost. And then the Word found us. Ludd's message shines bright in the dark of space, in the shadow of the powerful. Not even the Church can contain it.\"\r\n\r\n\"THAT is the Path.\" He nearly shouts, standing. Then takes a deep breath, and a moment to smooth his fine clothing.  ",
+   "ctx": "data/campaign/rules.csv LKEvirensEndingOptCResp1 [text]"
+  },
+  {
+   "i": 48,
+   "en": "His lip curls in an ironic smile while his eyes narrow just slightly; some repressed anger, even rage.\r\n\r\n\"You know little of the Path, spacer. The Path provides something that nothing else will. Not Kazeron, not the Hegemony, certainly not the Mazalot Unification Authority.\"\r\n\r\nHe sets his teacup down firmly. There is a sad fervor in his eyes that you did not see before. \"Ludd's message shines bright in the dark of space, in the shadow beneath the boot of power. Not even the Church can contain it.\"\r\n\r\nHe takes a deep breath, and smooths his fine clothing.",
+   "ctx": "data/campaign/rules.csv LKEvirensEndingOptDResp1 [text]"
+  },
+  {
+   "i": 49,
+   "en": "He stands to see you off.\r\n\r\n\"The Path is not all one thing, spacer, nor is the Church. Remember that.\"",
+   "ctx": "data/campaign/rules.csv LKEvirensEndingOptEResp1 [text]"
+  }
+ ]
+}

@@ -1,0 +1,306 @@
+{
+ "chunk": 47,
+ "cat": "data",
+ "items": [
+  {
+   "i": 1,
+   "en": "Converts frontal shields to omni-directional. Reduces the shield's arc by %s.",
+   "ctx": "data/hullmods/hull_mods.csv adaptiveshields [desc]"
+  },
+  {
+   "i": 2,
+   "en": "Increases the command point recovery rate by %s when installed on the flagship.",
+   "ctx": "data/hullmods/hull_mods.csv operations_center [desc]"
+  },
+  {
+   "i": 3,
+   "en": "Reduces the phase cloak's activation cost to %s. Increases the soft flux dissipation and weapon recharge rate by %s while phased.\r\n\r\nWhen suffering critical damage that would otherwise destroy or disable the ship, able to initiate an emergency dive deep into p-space. The ship counts as retreated and will emerge into normal space when combat is over, suffering an additional penalty to combat readiness equal to %s its deployment cost. The ship must have enough combat readiness to cover this cost to initiate the dive.\r\n\r\nDue to the immense distortions in p-space caused by such a maneuver, only one ship per battle - regardless of which side it's on - is able to perform it.",
+   "ctx": "data/hullmods/hull_mods.csv phase_anchor [desc]"
+  },
+  {
+   "i": 4,
+   "en": "Reduces the casualties suffered by fighter pilots by %s.",
+   "ctx": "data/hullmods/hull_mods.csv recovery_shuttles [desc]"
+  },
+  {
+   "i": 5,
+   "en": "Increases the ship's hull integrity by %s. If disabled, the ship will not break apart and is almost always recoverable after the battle.",
+   "ctx": "data/hullmods/hull_mods.csv reinforcedhull [desc]"
+  },
+  {
+   "i": 6,
+   "en": "Decreases the amount of EMP damage taken from weapons such as Ion Cannons by %s. Also increases the ship's flux dissipation rate while venting by %s.",
+   "ctx": "data/hullmods/hull_mods.csv fluxbreakers [desc]"
+  },
+  {
+   "i": 7,
+   "en": "Disabling safety protocols increases the ship's top speed in combat by %s/%s/%s (depending on ship size, with a corresponding increase in acceleration) and allows the zero-flux engine boost to take effect regardless of flux level. The flux dissipation rate, including that of additional vents, is increased by a factor of %s.\r\n\r\nReduces the peak performance time by a factor of %s, prevents the use of active venting, and drastically reduces weapon ranges past %s units.\r\n\r\nCan not be installed on civilian or capital ships.",
+   "ctx": "data/hullmods/hull_mods.csv safetyoverrides [desc]"
+  },
+  {
+   "i": 8,
+   "en": "Reduces the amount of soft flux raised shields generate per second by %s. Does not affect the hard flux generated as a result of shields taking damage.",
+   "ctx": "data/hullmods/hull_mods.csv stabilizedshieldemitter [desc]"
+  },
+  {
+   "i": 9,
+   "en": "Increases the ship's top speed in combat by %s/%s/%s/%s su/second, depending on hull size.\r\n\r\nInterferes with weapons targeting and other vulnerable systems, reducing non-missile weapon range by %s and increasing the fighter replacement time by %s.",
+   "ctx": "data/hullmods/hull_mods.csv unstable_injector [desc]"
+  },
+  {
+   "i": 10,
+   "en": "Increases maximum crew capacity by %s/%s/%s/%s, depending on hull size, or by %s, whichever is higher.\r\n\r\nFor civilian-grade hulls, also increases maintenance supply use by %s.",
+   "ctx": "data/hullmods/hull_mods.csv additional_berthing [desc]"
+  },
+  {
+   "i": 11,
+   "en": "Increases maximum burn level by %s.",
+   "ctx": "data/hullmods/hull_mods.csv augmentedengines [desc]"
+  },
+  {
+   "i": 12,
+   "en": "Increases maximum fuel capacity by %s/%s/%s/%s, depending on hull size, or by %s, whichever is higher.\r\n\r\nFor civilian-grade hulls, also increases maintenance supply use by %s.",
+   "ctx": "data/hullmods/hull_mods.csv auxiliary_fuel_tanks [desc]"
+  },
+  {
+   "i": 13,
+   "en": "Reduces supply use for maintenance, fuel use, and minimum crew required by %s.\r\n\r\nIncreases the combat readiness recovery and repair rates by %s. The per-day supply consumption for CR recovery is increased to account for the increased recovery rate, but the total supply cost remains the same.",
+   "ctx": "data/hullmods/hull_mods.csv efficiency_overhaul [desc]"
+  },
+  {
+   "i": 14,
+   "en": "Increases maximum cargo capacity by %s/%s/%s/%s, depending on hull size, or by %s, whichever is higher.\r\n\r\nFor civilian-grade hulls, also increases maintenance supply use by %s.",
+   "ctx": "data/hullmods/hull_mods.csv expanded_cargo_holds [desc]"
+  },
+  {
+   "i": 15,
+   "en": "Increases the durability of the ship's engines by %s, and the ship's hull integrity by %s.\r\n\r\nThe ship's sensor profile is also reduced by %s.",
+   "ctx": "data/hullmods/hull_mods.csv insulatedengine [desc]"
+  },
+  {
+   "i": 16,
+   "en": "Removes the penalties from a civilian-grade hull, and increases maximum burn level by %s.\r\n\r\nIncreases minimum crew required by %s.",
+   "ctx": "data/hullmods/hull_mods.csv militarized_subsystems [desc]"
+  },
+  {
+   "i": 17,
+   "en": "Originally developed by Diktat engineers after spending cycles dealing with the unique conditions of the inner Askonia system. Decreases the effect operating in a solar corona has on combat readiness by %s; also has the same effect against storms in deep hyperspace.\r\n\r\nIn combat, reduces energy damage taken by %s.",
+   "ctx": "data/hullmods/hull_mods.csv solar_shielding [desc]"
+  },
+  {
+   "i": 18,
+   "en": "Reduces the heavy machinery and supplies required to perform surveys by %s/%s/%s/%s depending on hull size, down to a minimum of %s for each.",
+   "ctx": "data/hullmods/hull_mods.csv surveying_equipment [desc]"
+  },
+  {
+   "i": 19,
+   "en": "Gives all point-defense weapons the ability to identify - and ignore - decoy flares. In addition, all weapons get the best possible target leading, regardless of combat readiness, all damage to missiles and fighters is increased by %s, and beam weapon range is increased by %s units.",
+   "ctx": "data/hullmods/hull_mods.csv terminator_core [desc]"
+  },
+  {
+   "i": 20,
+   "en": "Handles %s of the flux dissipation of all attached modules. If modules are lost during battle, the extra flux dissipation is redistributed among the remaining modules. Up to %s of this extra dissipation applies to hard flux.",
+   "ctx": "data/hullmods/hull_mods.csv shared_flux_sink [desc]"
+  },
+  {
+   "i": 21,
+   "en": "Mines attack enemy ships during battle.",
+   "ctx": "data/hullmods/hull_mods.csv stealth_minefield [desc]"
+  },
+  {
+   "i": 22,
+   "en": "Once per combat, when the fighter replacement rate reaches %s, the fighter launch bays are switched over to operate from a \"B-Deck\".\r\n\r\nStandby fighters are launched to rapidly bring the wings back up to full strength, and the fighter replacement rate is set to %s.",
+   "ctx": "data/hullmods/hull_mods.csv bdeck [desc]"
+  },
+  {
+   "i": 23,
+   "en": "Fighter replacement rate does not go down when fighters are lost.",
+   "ctx": "data/hullmods/hull_mods.csv chassis_storage [desc]"
+  },
+  {
+   "i": 24,
+   "en": "An autoforge inside the ship periodically fully reloads the magazines of all missile weapons.",
+   "ctx": "data/hullmods/hull_mods.csv missile_reload [desc]"
+  },
+  {
+   "i": 25,
+   "en": "Commonly found on ships that can't always rely on shields to protect their cargo from cosmic radiation. Only a few tweaks are needed to have the shielding confound long-range cargo scans, reducing the probability of contraband being detected.",
+   "ctx": "data/hullmods/hull_mods.csv shielded_holds [desc]"
+  },
+  {
+   "i": 26,
+   "en": "Increases the resources gained from salvaging abandoned stations, derelicts, floating hulks, and other such by %s/%s/%s/%s, depending on hull size. Only affects the recovery of common resources such as fuel and supplies, and not rare items like blueprints. In addition, %s of the bonus applies to post-battle salvage.",
+   "ctx": "data/hullmods/hull_mods.csv repair_gantry [desc]"
+  },
+  {
+   "i": 27,
+   "en": "The ship is able to run a low-grade phase field for extended periods of time, reducing its effective sensor profile by %s.",
+   "ctx": "data/hullmods/hull_mods.csv phasefield [desc]"
+  },
+  {
+   "i": 28,
+   "en": "Allows the ship to dissipate hard flux at %s of the normal rate while shields are on.",
+   "ctx": "data/hullmods/hull_mods.csv fluxshunt [desc]"
+  },
+  {
+   "i": 29,
+   "en": "Increases sensor profile by %s. Reduces sensor strength by %s.",
+   "ctx": "data/hullmods/hull_mods.csv civgrade [desc]"
+  },
+  {
+   "i": 30,
+   "en": "Increases the monthly maintenance supply cost by %s.",
+   "ctx": "data/hullmods/hull_mods.csv high_maintenance [desc]"
+  },
+  {
+   "i": 31,
+   "en": "<tooltip created in the script>",
+   "ctx": "data/hullmods/hull_mods.csv coherer [desc]"
+  },
+  {
+   "i": 32,
+   "en": "The ship's performance suffers from competing design priorities, with multiple bleeding-edge projects integrated too late in the design cycle.\r\n\r\nThe ship's flux dissipation and capacity, even the nominal base values, are reduced by %s.\r\n\r\nThe range of ballistic weapons is reduced by %s, the rate of fire of missile weapons is reduced by %s, and the flux generation of energy weapons is increased by %s.\r\n\r\nOn the plus side, extra nanoforge capacity can be brought online more easily, allowing the installation of a %s despite the ship already having a fighter bay, increasing the number of operational fighter bays to %s.",
+   "ctx": "data/hullmods/hull_mods.csv design_compromises [desc]"
+  },
+  {
+   "i": 33,
+   "en": "Improves the maximum burn level of the slowest ship in the fleet by 1. Multiple tugs can not be used to speed up the same ship by more than 1.\r\n\r\nCan not be used in combat.",
+   "ctx": "data/hullmods/hull_mods.csv tow_cable [desc]"
+  },
+  {
+   "i": 34,
+   "en": "Stabilizes the fleet's drive bubble, increasing the maximum burn of the fleet by %s. The effect of multiple stabilizers is cumulative.\r\n\r\nIncreases the ship's sensor profile by %s.",
+   "ctx": "data/hullmods/hull_mods.csv drive_field_stabilizer [desc]"
+  },
+  {
+   "i": 35,
+   "en": "Close support weapons and counter-measures for ground defenses. Increases the effective strength of planetary raids by %s, up to the total number of marines in the fleet.",
+   "ctx": "data/hullmods/hull_mods.csv ground_support [desc]"
+  },
+  {
+   "i": 36,
+   "en": "The ship systems require excessive maintenance and do not stand up well under the rigours of prolonged engagements.\r\n\r\nIncreases the rate of in-combat CR decay after peak performance time runs out by %s.",
+   "ctx": "data/hullmods/hull_mods.csv delicate [desc]"
+  },
+  {
+   "i": 37,
+   "en": "Reduces the ordnance point cost of large ballistic weapons by %s.",
+   "ctx": "data/hullmods/hull_mods.csv hbi [desc]"
+  },
+  {
+   "i": 38,
+   "en": "The ship has a huge hangar and a commensurate small fleet of support craft.\r\n\r\nThe number of fighter bays added by Converted Hangar is increased by %s, and its performance matches that of a dedicated fighter bay - all of the penalties and modifiers, including those to the ship's deployment cost, are negated.",
+   "ctx": "data/hullmods/hull_mods.csv vast_hangar [desc]"
+  },
+  {
+   "i": 39,
+   "en": "Reduces most negative effects of d-mods by %s. If disabled or destroyed in combat, the ship has a %s chance to avoid new d-mods, and is almost always recoverable after the battle.\r\n\r\nIn addition, the supply cost to recover from deployment - and to effect repairs if the ship is disabled - is reduced by %s.",
+   "ctx": "data/hullmods/hull_mods.csv rugged [desc]"
+  },
+  {
+   "i": 40,
+   "en": "This ship is fully automated, and does not require - and can not take on - any human crew.",
+   "ctx": "data/hullmods/hull_mods.csv automated [desc]"
+  },
+  {
+   "i": 41,
+   "en": "Extends the range of ballistic and energy weapons by %s. The range of point-defense weapons is only extended by %s.\r\n\r\nPrecludes the installation of a Dedicated Targeting Core or an Integrated Targeting Unit.",
+   "ctx": "data/hullmods/hull_mods.csv advancedcore [desc]"
+  },
+  {
+   "i": 42,
+   "en": "Extends the range of ballistic and energy weapons by %s. The range of point-defense weapons is only extended by %s.\r\n\r\nAlso increases target-leading accuracy and greatly increases in-combat sensor range.",
+   "ctx": "data/hullmods/hull_mods.csv supercomputer [desc]"
+  },
+  {
+   "i": 43,
+   "en": "Reduces phase cloak cooldown by %s.",
+   "ctx": "data/hullmods/hull_mods.csv ex_phase_coils [desc]"
+  },
+  {
+   "i": 44,
+   "en": "An experimental modification allowing high-frequency motes to be warped in by the rift core on board the ship.",
+   "ctx": "data/hullmods/hull_mods.csv high_frequency_attractor [desc]"
+  },
+  {
+   "i": 45,
+   "en": "An ancient design intended to stop micro-meteorites through sheer volume of material in place, before the advent of \"spaced\" armor.\r\n\r\nReduces the effective armor strength for the damage reduction calculation to %s of its actual value. However, ships of this design tend to carry extremely heavy armor.",
+   "ctx": "data/hullmods/hull_mods.csv ablative_armor [desc]"
+  },
+  {
+   "i": 46,
+   "en": "Much of the damage that takes weapons offline is to external control runs and power conduits. This ship's weapons are engineered to operate more independently, reducing their exposure to damage by %s and reducing the EMP damage taken by the ship overall by %s.",
+   "ctx": "data/hullmods/hull_mods.csv distributed_fire_control [desc]"
+  },
+  {
+   "i": 47,
+   "en": "This ship's cargo hold has been converted to house a pair of fighter bays. The improvised manufactory that produces fighter chassis is unreliable, and most components have minor defects. Fighter speed reduced by %s, and damage taken increased by %s.",
+   "ctx": "data/hullmods/hull_mods.csv converted_bay [desc]"
+  },
+  {
+   "i": 48,
+   "en": "During an inspection of an early prototype, the Supreme Executor was heard to comment unfavorably on exposed conduits running along the passageways, and the danger these must pose to the brave and loyal crew under combat conditions. \r\n\r\nThe new chief designer, a loyal officer appointed by the Supreme Executor himself, instructed the forge-programmers to make accommodations for the installation of special blast-proof insulated paneling produced by Sindria itself.\r\n\r\nIf the passages are a bit narrower, conduits prone to overheating, and flush-set panels somewhat unwieldy to access, the official readiness reports include no criticism of the changes. Everyone agrees in both public and - as the Internal Security Ministry can attest - in private, that the stark grandeur of the Lion's Guard fleet is breathtaking.\r\n\r\nCrew casualties in combat are increased by %s. The base flux dissipation rate is reduced by %s, and the repair rate for disabled weapons and engines is reduced by %s.",
+   "ctx": "data/hullmods/hull_mods.csv andrada_mods [desc]"
+  },
+  {
+   "i": 49,
+   "en": "The main body of this structure is vast and is, for practical purposes, capable of absorbing any amount of damage from conventional weapons without being destroyed.",
+   "ctx": "data/hullmods/hull_mods.csv vastbulk [desc]"
+  },
+  {
+   "i": 50,
+   "en": "This structure constantly rotates around its axis.",
+   "ctx": "data/hullmods/hull_mods.csv axialrotation [desc]"
+  },
+  {
+   "i": 51,
+   "en": "This structure rotates around its anchor attachment point. For station modules only.",
+   "ctx": "data/hullmods/hull_mods.csv anchorrotation [desc]"
+  },
+  {
+   "i": 52,
+   "en": "Reduced explosion radius and damage.",
+   "ctx": "data/hullmods/hull_mods.csv reduced_explosion [desc]"
+  },
+  {
+   "i": 53,
+   "en": "Always detaches from parent structure when destroyed.",
+   "ctx": "data/hullmods/hull_mods.csv always_detaches [desc]"
+  },
+  {
+   "i": 54,
+   "en": "Never detaches from parent structure when destroyed.",
+   "ctx": "data/hullmods/hull_mods.csv never_detaches [desc]"
+  },
+  {
+   "i": 55,
+   "en": "Weapon fire costs no flux. Used on fighters for fine-grained control of effective shield hitpoints.",
+   "ctx": "data/hullmods/hull_mods.csv no_weapon_flux [desc]"
+  },
+  {
+   "i": 56,
+   "en": "Weapons on other modules of a station will avoid firing through this module, even though the shots would go over it and not hit.",
+   "ctx": "data/hullmods/hull_mods.csv do_not_fire_through [desc]"
+  },
+  {
+   "i": 57,
+   "en": "Spawns shard ships when ship is disabled/destroyed.",
+   "ctx": "data/hullmods/hull_mods.csv shard_spawner [desc]"
+  },
+  {
+   "i": 58,
+   "en": "Sets DO_NOT_BACK_OFF AIFlag",
+   "ctx": "data/hullmods/hull_mods.csv do_not_back_off [desc]"
+  },
+  {
+   "i": 59,
+   "en": "Hidden hullmod for managing the special properties of Threat ships. Description created in script.",
+   "ctx": "data/hullmods/hull_mods.csv threat_hullmod [desc]"
+  },
+  {
+   "i": 60,
+   "en": "A swarm of Threat fragments roils around the ship, providing a regenerating supply of fragments for fragment-based weapons.\r\n\r\nThe base number of fragments is %s/%s/%s/%s, and replacement fragments are launched %s/%s/%s/%s times a second, depending on hull size.\r\n\r\nThis hullmod is required for fragment weapons to function, if the hullmod is not present or there are not enough fragments in the swarm, fragment weapons will be disabled.",
+   "ctx": "data/hullmods/hull_mods.csv fragment_swarm [desc]"
+  }
+ ]
+}

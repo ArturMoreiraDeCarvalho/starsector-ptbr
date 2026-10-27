@@ -1,0 +1,161 @@
+{
+ "chunk": 111,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"Perhaps.\" The attendant cools a little, \"As Ludd said, 'To hold faith in your heart, wholly and truly, invites small cruelties of the tongue's lash.'\"\r\n\r\n\"And do you know what Ludd said next?,\" they ask, rhetorically, \"'Let faith be your armor; let walls of devotion build you a citadel, and there we shall be always in spiritual union.'\"\r\n\r\nThe attendant seems satisfied with the unassailability of this statement, and wishing to hurry you along before things get more awkward, adds \"Is there anything else I may assist you with?\"",
+   "ctx": "data/campaign/rules.csv lppJangalaAttendantFoolish [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"Yes, that is true.\" The attendant cools a little, questioning your motives. \"We try to discourage, ah, sightseers. It disturbs the worship, you see.\"",
+   "ctx": "data/campaign/rules.csv lppJangalaattendantUnprotected [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"Yes, of course. I can show you to the washing station where we ask that all, pilgrim or no, partake of a simple cleansing before visiting the interior shrine.\"\r\n\r\nThe attendant starts to shuffle you along into a group of devotees.",
+   "ctx": "data/campaign/rules.csv lppJangalaattendantVisit [text]"
+  },
+  {
+   "i": 4,
+   "en": "The attendant looks you over skeptically. \r\n\r\n\"You are sure of this? You desire this with full knowledge of what exposure to Jangala entails?\" \r\n\r\nThe attendant brings your attention to a row of pamphlets in a tasteful wooden stand displaying what, at a glance, appear to be a selection of truly unholy skin conditions.",
+   "ctx": "data/campaign/rules.csv lppJangalaattendantVisitOutside [text]"
+  },
+  {
+   "i": 5,
+   "en": "The attendant looks at you with new respect.\r\n\r\n\"You are sure of this, pilgrim? You desire this with full knowledge of what exposure to Jangala entails, and choose to take this holy suffering upon your body?\"",
+   "ctx": "data/campaign/rules.csv lppJangalaattendantVisitOutsideB [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"Would it not be 'foolish', captain, to expose yourself to the outside?\" the attendant says, somehow keeping peevishness out of their tone if not words.\r\n\r\nAs if on cue - or perhaps because they were hovering nearby the whole time - a curate (you presume) of the shrine steps up to you and the attendant, robes not quite resplendent but conveying a sense of care and craft that belies a higher status in the Church.",
+   "ctx": "data/campaign/rules.csv lppJangalaattendantVisitOutsideC [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"That's quite enough, my child,\" the curate says with iron concealed beneath soft words, \"Perhaps you should undertake a prayer of contrition in the chapel while I speak with the captain.\"\r\n\r\nAbashed, the attendant bows and flees. The curate turns to you and says, \"Please accept my apologies. I shall personally show you the way to the inner shrine.\"",
+   "ctx": "data/campaign/rules.csv lppJangalaattendantVisitOutsideC2 [text]"
+  },
+  {
+   "i": 8,
+   "en": "You are led past heavy curtains. The murmur of pilgrims is muted, and all artificial light shut out.\r\n\r\nYour eyes adjust to the shrine-chamber, taking in rows of silhouetted pilgrims kneeling before polished panes of diamond-matrix, illuminated by the sickly yellow-green cloud cover from without. \r\n\r\nBeyond the windows, you see overgrown human figures - a statue garden. The forms blister with growths, crawling with tendrils, sprouting the fruiting bodies of alien life. One moves; not the wind, but another pilgrim, exposed and outdoors. There are people out there, you realize with a start, wearing only light robes. Easily overtaken by the overgrowth.",
+   "ctx": "data/campaign/rules.csv lppJangalaVisitShrine [text]"
+  },
+  {
+   "i": 9,
+   "en": "At their feet, more forms come into focus; covered by a quilt of mosses and mycelium, or whatever alien equivalent, which obscures the feet of the statues. Bones. Or are they fallen branches and overgrown rocks? The final wish for some terminally-devoted fanatics, or your imagination set loose?\r\n\r\nThe green churns not quite imperceptibly in the course of the minutes you watch, all-consuming, ferociously regenerative, a cycle of life that could be born of Earth or an alien world.",
+   "ctx": "data/campaign/rules.csv lppJangalaVisitShrine2 [text]"
+  },
+  {
+   "i": 10,
+   "en": "You are led past heavy curtains which mute the murmur of pilgrims and shut out all artificial light. Pilgrims kneel in the shrine-chamber, silhouetted before the glowing panes to without lit by that sickly yellow-green cloud cover.\r\n\r\nBeyond, you see the statue garden. The forms blister with growths, crawling with tendrils, sprouting fruiting bodies of xenolife. Among them are pilgrims, exposed in only light robes. Easily overtaken by the overgrowth. At their feet, covered by a quilt of mosses and mycelium or alien equivalents, are bones. Or are they fallen branches, overgrown rocks? The final wish for terminally-devoted fanatics, or your imagination?\r\n\r\nThe green churns not quite imperceptibly in the course of the minutes you watch, all-consuming, ferociously regenerative, a cycle of life that could be born of Earth or an alien world.",
+   "ctx": "data/campaign/rules.csv lppJangalaShrineVisitAgain [text]"
+  },
+  {
+   "i": 11,
+   "en": "The air hits you in the environmental lock, warm and wet, like high-G shock foam. You step out alone, for this is how it is done.\r\n\r\nOozing nets hang from the shrine complex; rhizomes sprouting luridly colored bulbs that glow in what passes for sunlight. Dust, or tiny bugs, or spores float about, moving in swirls against the heavy and languid air.",
+   "ctx": "data/campaign/rules.csv lppJangalaVisitOutside2 [text]"
+  },
+  {
+   "i": 12,
+   "en": "You reach up and loose your mask, drawing in breath from Jangala. Shallowly at first, then deeper. The smells of spice and rot and ammonia and fresh greens. Whatever may come, you know it won't instantly kill you, and anything that happens is reversible. Is that a tingle, a catch in your throat?\r\n\r\nHave faith.\r\n\r\nYou follow the short trail you were told of. It seems nearly overgrown, feelers and tendrils brush against you.\r\n\r\nThere are others. Maskless pilgrims, tears streaming from their red eyes and mucus from their noses, skin blotchy, white robes rapidly discolored by alien emissions. They meet your eyes, smile and nod in camaraderie, making the signs of Ludd for you.",
+   "ctx": "data/campaign/rules.csv lppJangalaOutsideMaskOff [text]"
+  },
+  {
+   "i": 13,
+   "en": "There are overgrown human figures - a statue garden. The forms blister with growths, crawling with tendrils, sprouting the fruiting bodies of alien life.\r\n\r\nOne moves; not the wind, but another pilgrim, the growths taking hold. How long does this take, hours? Days?\r\n\r\nIt becomes distracting, hard to focus. You feel like you might die, but the feeling reaches a plateau, a sea of pain and irritation. You allow yourself to float in a buzzing atonal headache, itchiness, torment.\r\n\r\nAnd something more.",
+   "ctx": "data/campaign/rules.csv lppJangalaOutsideMaskOff1 [text]"
+  },
+  {
+   "i": 14,
+   "en": "The green churns imperceptibly, all-consuming, ferociously regenerative, a cycle of life that could be born of Earth or an alien world. \r\n\r\nAnd you are within it, for all of its horror and comfort.",
+   "ctx": "data/campaign/rules.csv lppJangalaOutsideMaskOff2 [text]"
+  },
+  {
+   "i": 15,
+   "en": "You follow the short trail you were told of; it seems nearly overgrown. You follow it, feelers and tendrils brushing against you.\r\n\r\nThere are others. Maskless pilgrims, tears streaming from their red eyes and mucus from their noses, skin blotchy, white robes rapidly discolored by alien emissions.\r\n\r\nYou breathe shallowly. Is your skin hotter, dryer; wetter? Is that itch something taking hold? Whatever may come, you know it won't instantly kill you, and anything that happens is reversible. Have faith.   ",
+   "ctx": "data/campaign/rules.csv lppJangalaOutsideMaskOn [text]"
+  },
+  {
+   "i": 16,
+   "en": "Beyond, you see the statue garden. The forms blister with growths, crawling with tendrils, sprouting fruiting bodies of xenolife. Among them are pilgrims, exposed in their light robes. Easily overtaken by the overgrowth. How long does it take- hours, days?\r\n\r\nAt their feet, covered by a quilt of mosses and mycelium or alien equivalents, are bones. Or are they fallen branches, overgrown rocks? The final wish for terminally-devoted fanatics, or your imagination?",
+   "ctx": "data/campaign/rules.csv lppJangalaOutsideMaskOn2 [text]"
+  },
+  {
+   "i": 17,
+   "en": "The green churns not quite imperceptibly in the course of your stay, all-consuming, ferociously regenerative, a cycle of life that could be born of Earth or an alien world.",
+   "ctx": "data/campaign/rules.csv lppJangalaOutsideMaskOn3 [text]"
+  },
+  {
+   "i": 18,
+   "en": "You undergo a routine decontamination in a stained yet clean chamber built for that purpose. After an oddly-smelling shower, the flicker of lasers, and another round of antixenols, you are given back your clothing. Everything is abrasively dry and smells of disinfectant.",
+   "ctx": "data/campaign/rules.csv lppJangalaShrineExteriorLeave [text]"
+  },
+  {
+   "i": 19,
+   "en": "Breathing feels strange, still. You have to think about each breath, filling your lungs, then emptying them.",
+   "ctx": "data/campaign/rules.csv lppJangalaShrineExteriorLeaveB [text]"
+  },
+  {
+   "i": 20,
+   "en": "The air hits you, warm and wet, like high-G shock foam. You step out and follow the short trail; it seems nearly overgrown. You follow it, leaves and feelers brushing against you.\r\n\r\nYou find the statue gardens, the forms blistering with growth, crawling with tendrils, sprouting fruiting bodies of xenolife. Among them are pilgrims, exposed in their light robes. Easily overtaken by the overgrowth. How long does it take- hours, days?\r\n\r\nAt their feet, covered by a quilt of mosses and mycelium or alien equivalents, are bones. Or fallen branches, overgrown rocks. Or the final wish for terminally-devoted fanatics.\r\n\r\nThe green churns not quite imperceptibly in the course of your stay, all-consuming, ferociously regenerative, a cycle of life that could be born of Earth or an alien world.",
+   "ctx": "data/campaign/rules.csv lppJangalaShrineVisitAgainOutside [text]"
+  },
+  {
+   "i": 21,
+   "en": "You make your way toward the landing pads, past pilgrims queuing for the charity cafeteria, regrouping before or after visiting the shrine, and otherwise stowing their humble possessions.",
+   "ctx": "data/campaign/rules.csv lppJangalaShrineLeave [text]"
+  },
+  {
+   "i": 22,
+   "en": "You are just beginning to make your way toward the shuttle bay when you receive a ping from your nav officer: the request to land has been denied by traffic control.\r\n\r\nStrange. This should be perfectly routine.",
+   "ctx": "data/campaign/rules.csv lppHesperusShrineFirstTime1 [text]"
+  },
+  {
+   "i": 23,
+   "en": "You put in the order to have a shuttle prepared for a flight to the surface.\r\n\r\n\"Captain,\" your Nav officer reports, \"Traffic control is denying your flight request.\"",
+   "ctx": "data/campaign/rules.csv lppHesperusShrineVisitNoWait [text]"
+  },
+  {
+   "i": 24,
+   "en": "Nav routes your comm-link to the local system network, and after what feels like a longer than necessary wait, the link finally establishes a connection.",
+   "ctx": "data/campaign/rules.csv lppHesperausGetMeExcubitor [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"Affirmative,\" Nav says. A moments pause. \"Captain, I have traffic control on comms.\"\r\n\r\nNav patches you into the comm-loop, and a young-looking Luddic Knight, probably an initiate, appears before you.",
+   "ctx": "data/campaign/rules.csv lppHesperusShrineFirstTime1a [text]"
+  },
+  {
+   "i": 26,
+   "en": "Nav patches you into the link, and a young-looking Luddic Knight - or maybe an initiate - appears before you.",
+   "ctx": "data/campaign/rules.csv lppHesperusShrineFirstTime1b [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"Blessed for the day, Captain,\" they just manage to hide the quaver in their voice. \"With apologies, your request to land has been denied.\" \r\n\r\nAs you draw breath to reply, the initiate's eyes flick to a notification and go wide.\r\n\r\n\"Apologies, Captain ... I mean, respectfully. I... the Excubitor Orbis wishes to speak with you,\" they say without stumbling on the title. Practice, you're sure.\r\n\r\n\"Transferring link.\"",
+   "ctx": "data/campaign/rules.csv lppHesperusShrineFirstTime2 [text]"
+  },
+  {
+   "i": 28,
+   "en": "The Excubitor Orbis appears before you.\r\n\r\n\"Captain $playerName,\" he says by way of greeting, a stern gaze already fixed on you.\r\n\r\nThe moment draws longer. He is the image of poise, perfectly content to wait for you to speak. A wrinkle appears, then disappears, by a mouth which appears fixed permanently on the precipice of a frown.",
+   "ctx": "data/campaign/rules.csv lppHesperusShrineFirstTime3 [text]"
+  },
+  {
+   "i": 29,
+   "en": "The silence extends, uncomfortably. He blinks, slowly.\r\n\r\nHe's really doing this. Some kind of test, or challenge. Are you going to let him win?\r\n\r\nHe isn't giving up. He continues to stare, absurdly, saying nothing. You notice the subtlest flicker in the image as the display corrects for signal fluctuation.",
+   "ctx": "data/campaign/rules.csv lppHesperusExcubitorWait1 [text]"
+  },
+  {
+   "i": 30,
+   "en": "You've played this game before, with Gargoyle. You know how to win. Stay strong.",
+   "ctx": "data/campaign/rules.csv lppHesperusExcubitorWaitAside [text]"
+  },
+  {
+   "i": 31,
+   "en": "The hum of your ship grows in your ears, the sense of inhabiting your own body in a can hurtling around a gravity well, the incomprehensible webs of influence keeping you both in this place and in the constant dynamism of crisis.\r\n\r\nLower and higher dimensions twist and vibrate, a web conspiring to hold you up - or back - falling and clinging just so. Your technologies tap these invisible quirks of physics to keep you warm, to keep your feet on the ground, to keep the air flowing follow a rhythm, a meter. It is like music, in fact. If you listen carefully...\r\n\r\nIt would be impossible to speak, now.",
+   "ctx": "data/campaign/rules.csv lppHesperusExcubitorWait2 [text]"
+  }
+ ]
+}

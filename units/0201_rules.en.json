@@ -1,0 +1,186 @@
+{
+ "chunk": 201,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"Come now,\" he says with a wounded look. \"It's a grand old tradition to grumble about the top brass. I'm simply having a bit of a laugh with a new friend of mine. And-\" he speaks louder now, \"And a new friend of the Hegemony, from bottom to top!\"\r\n\r\nHis entourage cheers to this.",
+   "ctx": "data/campaign/rules.csv soeMeetCaspian2 [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"We are all but comrades-in-arms, you and I. But where are my manners? Caspian Sang, reporting for duty.\" He half-salutes with his drink again, the liquid in the glass approaching but not quite escaping the rim. You catch one of Sang's drinking companions snickering, though it is unclear who the target is.\r\n\r\n\"Although...\" He puts a finger on his chin, pantomiming deep thought, \"...perhaps I should count you as, at best, an auxiliary comrade. Does your Hegemony commission pay splendidly well? No need to answer of course, friend. It is the business,\" this word he emphasizes, \"of none but yourself.\"\r\n\r\n\"And old man Daud, of course,\" he adds with a wink.",
+   "ctx": "data/campaign/rules.csv soeMeetCaspian3 [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"Hardly, my good captain!\" He nods reassuringly to his drinking-partners, putting on a show for them. \"Surely it is mine.\"",
+   "ctx": "data/campaign/rules.csv soeMeetCaspianPleasure [text]"
+  },
+  {
+   "i": 4,
+   "en": "Sang stands up straight, as if at attention. \"And the restoration of the Domain!\" he shouts, earning a round of ayes and table-pounding from his drinking companions.",
+   "ctx": "data/campaign/rules.csv soeMeetCaspianPay [text]"
+  },
+  {
+   "i": 5,
+   "en": "Sang's face is overcome with shock and delight; he's found one that fights back. He clutches his chest as if stabbed, his drinking companions hooting and calling at your riposte.\r\n\r\n\"Where did you come from, captain?\" he says, flicking spilled drink from his off-hand, \"Ludd curse me but the Hegemony can use such talent.\"",
+   "ctx": "data/campaign/rules.csv soeMeetCaspianBattles [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"And in you, it seems he found it.\" Sang speaks lightly, his drinking-partners hooting and calling behind him, but you sense a blade's edge in his words.",
+   "ctx": "data/campaign/rules.csv soeMeetCaspianBetter [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"I tell you what, I have just the notion.\" He decisively quaffs his drink, then proceeds.\r\n\r\n\"A most spectacular notion. In light of Daud's declaration that you're as much an officer as us, it would only be proper to provide you an opportunity to share an anecdote or two of your wisdom with the cream of the navy, don't you think?\"\r\n\r\n\"House Rao - surely you know the family - is holding the grand ball of this season on Eventide. I shall place your name upon the guest list by invitation of the humble House Sang. Now does that not sound absolutely first-rate? You'll be the talk of the season, I'm sure of it.\"",
+   "ctx": "data/campaign/rules.csv soeMeetCaspian4 [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"Most excellent, auxiliary-captain,\" Sang says with a smirk.",
+   "ctx": "data/campaign/rules.csv soeMeetCaspian4accept [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"Don't think too long, auxiliary-captain,\" Sang says with a smirk. \"It's decisive action that's brought you to these lofty heights.\"",
+   "ctx": "data/campaign/rules.csv soeMeetCaspian4maybe [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"The offer stands until you miss all the fun, auxiliary-captain,\" Sang says with a smirk.",
+   "ctx": "data/campaign/rules.csv soeMeetCaspian4decline [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"Come to Eventide. And bring that razor wit, for you'll need it.\"\r\n\r\nWith an affected bow, Sang returns to his table. The other young officers whisper and continue to cast wayward looks in your direction.",
+   "ctx": "data/campaign/rules.csv soeMeetCaspian5 [text]"
+  },
+  {
+   "i": 12,
+   "en": "Despite Sang's singular attempts at charm, you consider that this might be a good opportunity to meet some people of real influence in the Hegemony.",
+   "ctx": "data/campaign/rules.csv soeMeetCaspian6 [text]"
+  },
+  {
+   "i": 13,
+   "en": "Your comms officer notifies you of an incoming message for you, personally. You confirm your identity and access the file. The crest of House Rao of Eventide fills your display, evoking martial tradition, long-held wealth, and prestige.\r\n\r\n\"You are cordially invited to the grand seasonal ball at the spring estate of House Rao...\"",
+   "ctx": "data/campaign/rules.csv soeArriveEventide [text]"
+  },
+  {
+   "i": 14,
+   "en": "You have been invited to the grand seasonal ball to be held at the estate of House Rao. ",
+   "ctx": "data/campaign/rules.csv soeArriveBallAgain [text]"
+  },
+  {
+   "i": 15,
+   "en": "With a quick tap you delete the invitation forever.\r\n\r\nYou, attending a ball with a bunch of fancy aristocrats? With that insufferable Caspian Sang? No good could come of it.",
+   "ctx": "data/campaign/rules.csv soeDeleteInvite [text]"
+  },
+  {
+   "i": 16,
+   "en": "As you don your best apparel as a shuttle is prepared, and you consider your primary goal, which is to...",
+   "ctx": "data/campaign/rules.csv soeArriveToBall [text]"
+  },
+  {
+   "i": 17,
+   "en": "Your shuttle follows a course to the surface authorized by the datakey attached to your invitation to the grand spring ball of Eventide.\r\n\r\nYou watch as the sprawling spires and annexes of House Rao's spring manor rise on the horizon from a fertile, protected valley. The battlements of vast storm clouds stream beyond distant ridgelines by some quirk of geography which channels airflow around this eye of calm.",
+   "ctx": "data/campaign/rules.csv soeHouseRao1 [text]"
+  },
+  {
+   "i": 18,
+   "en": "Your shuttle descends through shafts of light reflected from orbital mirrors. You observe that on this occasion the Raos have arranged for artful placement of the mirrors to provide dramatic mirrorsets in several vistas viewable from the manor.\r\n\r\nUpon landing you are intercepted and greeted by a human servitor in a crimson and silver house uniform. Your pilots and bodyguards, meanwhile, are directed toward a utilitarian waiting area stocked with ample refreshment.",
+   "ctx": "data/campaign/rules.csv soeHouseRao2 [text]"
+  },
+  {
+   "i": 19,
+   "en": "You are led to a bulbous lift with no visible control interface. As soon as the doors close, it begins a smooth ascent toward the spires of the manor while the servitor makes soothing inquiries about your trip. \r\n\r\nThere is no perceptible change in subjective gravity as the lift accelerates upward; the agrav plates here are very finely tuned indeed.",
+   "ctx": "data/campaign/rules.csv soeHouseRao3 [text]"
+  },
+  {
+   "i": 20,
+   "en": "The servitor whisks you past soaring windows blazing with the light of mirrorset to a grand set of doors. They signal for you to wait for just a moment, following some opaque choreography of the event. Within a minute, it is your time. \r\n\r\nThe grand doors swing open with the silent gravity of the celestial spheres, sweeping you into the ballroom of House Rao.",
+   "ctx": "data/campaign/rules.csv soeHouseRao4 [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"$playerName,\" your name rings through the great hall. A brief pause, then \"Commissioned auxiliary officer of the Hegemony Navy.\"\r\n\r\nA few heads turn to take you in. There, a dismissive brow raise, there a too-quick flick of the eyes. The attendees seem little bothered to match your name to a face.\r\n\r\nResplendent brass of the Hegemony Navy dominate the crowd, though there are a smattering from the Legion as well as the various ministries spun off from the naval hierarchy. ",
+   "ctx": "data/campaign/rules.csv soeHouseRao5 [text]"
+  },
+  {
+   "i": 22,
+   "en": "Less overt but as numerous are civilians in suit, dress, and robe that generally but not as a rule evoke the martial character of Hegemony rule. Despite the political climate, you even recognize the characteristic fashions of several other major factions, religions, and independent megacorporations; diplomats, business execs, holo-actors, priests, and even a cluster bearing the garb of tenured Galatia Academy academicians.\r\n\r\nNow you can get to doing what you came here for.",
+   "ctx": "data/campaign/rules.csv soeHouseRao6 [text]"
+  },
+  {
+   "i": 23,
+   "en": "Your eyes roam over the crowd, looking for the push and pull of influence. You note the figures of vast power moving through the space, attracting satellites and disturbing orbits. There, a space marshall of the reserve fleet; there, the prime executor of Eventide's planetary government. There, the chief operations officer of a major military contractor.\r\n\r\n\"$PlayerSirOrMadam.\" A human servitor interrupts your train of thought, offering a tray filled with delicate glasses of something effervescent.",
+   "ctx": "data/campaign/rules.csv soeHouseRaoSchmooze1 [text]"
+  },
+  {
+   "i": 24,
+   "en": "You merely begin to look the slightest bit thirsty when a human servitor appears as if from an unlikely hyperspace jump.\r\n\r\n\"$PlayerSirOrMadam.\" They offer a tray filled with delicate glasses of something effervescent.",
+   "ctx": "data/campaign/rules.csv soeHouseRaoParty1 [text]"
+  },
+  {
+   "i": 25,
+   "en": "Your eyes roam over the crowd, focusing on the younger groups of cadets when you hear from behind you that unmistakably insipid laugh. Like a combat targeting lock, your attention spins toward the source.\r\n\r\nHe's just left his pack of social remorae and is already on an approach vector. Noticing you notice him, he instantly deploys a grin of dubious conviviality.\r\n\r\n\"$PlayerSirOrMadam.\" An oblivious human servitor appears beside you offering a tray filled with delicate glasses of something effervescent.",
+   "ctx": "data/campaign/rules.csv soeHouseRaoRevenge1 [text]"
+  },
+  {
+   "i": 26,
+   "en": "Your eyes roam over the crowd, observing the push and pull of influence. Figures of vast power and influence move through the space, attracting satellites and disturbing orbits. There, a space marshall of the Hegemony navy; there, the prime executor of Eventide's planetary government.\r\n\r\n\"$PlayerSirOrMadam.\" A human servitor appears beside you, offering a tray filled with delicate glasses of something effervescent.",
+   "ctx": "data/campaign/rules.csv soeHouseRaoUnsure1 [text]"
+  },
+  {
+   "i": 27,
+   "en": "You hear a familiar and not entirely welcome voice pierce the murmur of conversation and soft music.",
+   "ctx": "data/campaign/rules.csv soeSangAppearsDrink [text]"
+  },
+  {
+   "i": 28,
+   "en": "You hear a familiar and not entirely welcome voice pierce through the murmur of conversation and soft music.",
+   "ctx": "data/campaign/rules.csv soeSangAppearsNoDrink [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"Why captain,\" Caspian Sang oozes up to you. His uniform is as newly pressed and his smile as insincere as at your last meeting. \"I see you've already found your commission payment,\" he indicates your untouched beverage, \"The bounty of our fine hosts' noblesse oblige so soon plundered, eh.\"\r\n\r\nYou smell the spirits on his breath as he continues to speak. \"But I give you too little credit. You serve the Hegemony, do you not? Give a little show of it now and pass me the top-up, will you?\"\r\n\r\nOver Caspian's shoulder you see his gang of minions tittering.",
+   "ctx": "data/campaign/rules.csv soeTakeDrink [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"Why captain,\" Caspian Sang oozes up to you, nearly emptied glass in hand. \"I would expect a commissioned pirate - my apologies, privateer - to start by plundering our fine hosts' noblesse oblige.\" \r\n\r\nHe offers his drink to you, \"Please, take mine.\" You can smell the spirits on his breath. \"Do your duty to the Hegemony and fetch me a top-up.\"\r\n\r\nOver Caspian's shoulder you see his gang of minions tittering.",
+   "ctx": "data/campaign/rules.csv soeNoDrink [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"Yes, captain, you have.\" The cruel spark in Caspian's eye grows. \"By showing up. It was a test, you see, and you failed. You don't know your place. Not yet.\"\r\n\r\nHe licks his lips. This is just the opening salvo.",
+   "ctx": "data/campaign/rules.csv soeSangRound2yesYouHave [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"No, captain-auxiliary, you weren't.\" The cruel spark in Caspian's eye grows. \"You don't truly belong here, you see. I was testing you, and you failed because you don't know your place. Not yet.\"\r\n\r\nHe licks his lips. This is just the opening salvo.",
+   "ctx": "data/campaign/rules.csv soeSangRound2someoneElse [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"No, captain-auxiliary, you weren't.\" The cruel spark in Caspian's eye grows. \"Try as you might, you'll never be one of us. You don't belong here. I was testing you, and you failed because you don't know your place. Not yet.\"\r\n\r\nHe licks his lips. This is just the opening salvo.",
+   "ctx": "data/campaign/rules.csv soeSangRound2enjoyDrink [text]"
+  },
+  {
+   "i": 34,
+   "en": "A mirthless smile grows on his face, and he turns to nod in acknowledgement to his minions, who cheer the exchange.\r\n\r\n\"You finally admit you're not one of us.\" The cruel spark in Caspian's eye grows. \"And try as you might, you'll never be one of us. You don't belong here, you see. I was testing you, and you failed by showing your face.\"\r\n\r\nHe licks his lips. This is just the opening salvo.",
+   "ctx": "data/campaign/rules.csv soeSangRound2auxiliaries [text]"
+  },
+  {
+   "i": 35,
+   "en": "Caspian is caught completely off guard. He sputters, wiping his face.\r\n\r\nA small circle of the crowd around you has gone silent. Now they're looking at you.\r\n\r\n\"That was a big mistake, $playerName,\" he says, his voice gone cold.",
+   "ctx": "data/campaign/rules.csv soeSangRound2throwDrink [text]"
+  },
+  {
+   "i": 36,
+   "en": "Caspian is caught completely off guard as you land a solid blow. He trips on his uniform's scabbard and topples to the ground.\r\n\r\nA widening circle of the crowd has gone silent; now they are all looking at you.\r\n\r\nHe looks up at you looking like a cornered animal, giddy in fear and delight. \"You just made such a mistake, $playerName,\" he says quietly, wiping blood from his nose.",
+   "ctx": "data/campaign/rules.csv soeSangRound2punchFace [text]"
+  }
+ ]
+}

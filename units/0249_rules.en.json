@@ -1,0 +1,166 @@
+{
+ "chunk": 249,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"The Church proposes to cooperate with your organization in imposing certain... immigration controls. It need not be heavy-handed, it's simply a matter of implementing certain procedures and permissions. By ensuring that a correct process is followed, certain outcomes can be, ah, favored.\"\r\n\r\n$HeOrShe speaks pleasantly and easily of this manipulation. Perhaps the Church is learning tricks from the Hegemony bureaucracy.",
+   "ctx": "data/campaign/rules.csv lcMakeDealProposal0 [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"In this matter, the Church would ensure that only those who cannot be, hmm, persuaded from a secular path will find their way to your colonies.\" \r\n\r\n\"It would reduce gross numbers, yes, but there are those among the Faithful who become excitable about ideas which result in heretical thinking. For you, this could lead to problems. For the Church? Tending to our flock is a holy calling.\" $HeOrShe smiles blandly.\r\n\r\n\"The active role of the Knights of Ludd, of course, would shift to a more internal posture once we agree to these shared terms.\"",
+   "ctx": "data/campaign/rules.csv lcMakeDealProposal1 [text]"
+  },
+  {
+   "i": 3,
+   "en": "The Luddics have a traditional saying, something about a choice between the Hammer and a root vegetable. It's the sort of nonsense one comes up with after spending too long in the dirt.\r\n\r\nRegardless, their demand is clear: fight or deal.",
+   "ctx": "data/campaign/rules.csv lcMakeDealProposal1secular [text]"
+  },
+  {
+   "i": 4,
+   "en": "You understand that you are given only shallow insight into currents of the Archcurate Council, but it is clear that there is a drive to set the inquisition of the Knights inward rather than outward. You are but an axis upon which official policy might be turned.\r\n\r\nWhat would Ludd make of this?",
+   "ctx": "data/campaign/rules.csv lcMakeDealProposal1faithful [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"It'll all be settled once you confirm the concordat, of course,\" $heOrShe adds pleasantly.",
+   "ctx": "data/campaign/rules.csv lcMakeDealProposal2 [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"Truly, it is a blessed day,\" $heOrShe puts $hisOrHer hands together in a show of piety and says a quick thanks to the Creator.\r\n\r\nDespite a wrapping of overwrought religiosity, the terms of the agreement are relatively straightforward. You and $Post $PersonName submit visual representations of your endorsement to be inscribed upon the hard-copy of the concordat. This document will then be reproduced by hand and submitted to several different Church archives in some kind of bizarre analog security arrangement.",
+   "ctx": "data/campaign/rules.csv lcMakeDealSelConfirm [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"This, ah,\" $heOrShe is rapidly flipping through a book, and even deigns to reference an old datapad with a look of concern.\r\n\r\n\"This, this comes as a surprise, $playerSirOrMadam. I will say on behalf of the Church of Galactic Redemption that we have found the agreement to be quite satisfactory, and your present doubts... they are troubling, but pray hear well my assurance, they are baseless.\"\r\n\r\n\"Besides,\" $hisOrHer voice darkens, \"if you were to simply break a holy concordant, it would be seen as an act of grave faithlessness. I'm afraid there would be no returning from such an act, and your reputation amongst officials of the Church...\" $HeOrShe shakes $hisOrHer head, as if such things ought not be put into words.",
+   "ctx": "data/campaign/rules.csv lcBreakDealSel [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"I see.\" The $post looks deflated, perhaps unhappy to become the bearer of bad news to whichever gang of archcurates thought it would be a good idea to sending the Knights of Ludd to meddle in your affairs.\r\n\r\n\"I... I shall pray for you,\" $heOrShe says indifferently.",
+   "ctx": "data/campaign/rules.csv lcBreakDealConfirmSel [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"Blessed day, captain... $playerName. Of course.\" The $post, acting like $heOrShe has done you a favor by remembering your name, puts $hisOrHer hands together and gives a little nod.\r\n \r\n\"We work here on a holy mission to protect the Faithful, to bring the lost flock of $KOLT_target back under the wing of the Church of Galactic Redemption, that their bodies and souls might be given the care and love of the Mother Church.\"\r\n\r\n\"It is their will, you will find. And it is the will of Providence that the Church see to their protectors. We are but a conduit for this sacred task.\"",
+   "ctx": "data/campaign/rules.csv KOLTHolyArmadaComms [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"Blessed day, captain $playerName,\" the $post says with all the self-assurance of someone who knows $heOrShe is backed by God.\r\n\r\n\"We are on a holy mission to ensure the protection of all the Faithful of $KOLT_target. It is the sacred duty of the Knights of Ludd to bring $KOLT_target under the protection of the Church of Galactic Redemption, and we shall gladly die to see it done.\"\r\n\r\n$HeOrShe looks at you with a combination of pity and scorn.",
+   "ctx": "data/campaign/rules.csv KOLTHolyArmadaCommsHostile [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"We hear your request,\" $hisOrHer face is impassive. \"And by sacred oath, we must deny it.\"",
+   "ctx": "data/campaign/rules.csv KOLTHolyArmadaCommsA [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"We hear your demand,\" $hisOrHer face is impassive. \"We reject your accusations of piracy and insurrection. We are sworn by sacred oath to bring the Faithful into the protection of the Church of Galactic Redemption. Only death may release a Knight of Ludd from their sacred duty.\"",
+   "ctx": "data/campaign/rules.csv KOLTHolyArmadaCommsB [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"Mayhap with an official of the Church,\" $heOrShe says, making a show of thinking it over. \"My remit, however, allows only your submission or defeat.\"\r\n\r\n$HeOrShe lifts $hisOrHer chin slightly.\r\n\r\n\"Choose.\"",
+   "ctx": "data/campaign/rules.csv KOLTHolyArmadaCommsBhasty [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"So be it,\" the $post says. \"We shall meet in battle. May you discover mercy in eternity that you knew not in life.\"\r\n\r\n$HeOrShe reaches for the comms-cutoff.",
+   "ctx": "data/campaign/rules.csv KOLTHolyArmadaCommsBdeath [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"If you are of the Faith, $playerBrotherOrSister, then place your faith in the will of the Church of Galactic Redemption and surrender this world unto the authority which shepherds Ludd's word upon the galaxy.\"",
+   "ctx": "data/campaign/rules.csv KOLTHolyArmadaCommsC [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"If you truly serve the Church, my $playerBrotherOrSister, then place your faith in the will of the Church of Galactic Redemption and surrender this world unto the authority which shepherds Ludd's word upon the galaxy.\"",
+   "ctx": "data/campaign/rules.csv KOLTHolyArmadaCommsD [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"It is you who is the heretic, $playerBrotherOrSister, and I shall pray for you,\" $heOrShe says stonily.",
+   "ctx": "data/campaign/rules.csv KOLTHolyArmadaCommsE [text]"
+  },
+  {
+   "i": 18,
+   "en": "Your words catch the $post quite off guard, and $hisOrHer sense of pious superiority falters for a moment.\r\n\r\n\"You... really?\" $HeOrShe says, then recovers. \"I mean, if your heart is turned, then we would rejoice and claim $KOLT_target in Ludd's name for the Church of Galactic Redemption. Is this truly your desire?\"",
+   "ctx": "data/campaign/rules.csv kolt_handoverSel [text]"
+  },
+  {
+   "i": 19,
+   "en": "The Knights bows $hisOrHer head, hands together. \"Thank Providence for this miracle, thank Ludd for carrying the word of God, thank the holy Pneuma that our quest is attained.\"\r\n\r\nNo thanks for you, of course.\r\n\r\nSeconds are called in and arrangements made to between your chief administrative officers and clerks of the Church to handle the takeover. As you each give confirmations, you see a strange sight: genuine giddiness just hidden beneath the Knight's armor of self-serious martial piety.\r\n\r\nAnd the deed is done - or, at least, initiated. The Church has much work to do to integrate $KOLT_target into its loose theocracy.",
+   "ctx": "data/campaign/rules.csv kolt_handoverConfirmSel [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"Responding to such foolishness is beneath a Knight,\" the $post says, chin upturned. \"May you discover a dignity in eternity that you know not now.\"\r\n\r\n$HeOrShe reaches for the comms-cutoff.",
+   "ctx": "data/campaign/rules.csv kolt_handoverCancelSel [text]"
+  },
+  {
+   "i": 21,
+   "en": "The comms flicker to display the Sindrian Diktat $Post. $HeOrShe greets you with a sneer.\r\n\r\n\"We shall not allow itinerant space trash to continue meddling in the affairs of the Sindrian Diktat. Your like has no place in the great Andradan future of the Persean Sector! Prepare to be destroyed!\"",
+   "ctx": "data/campaign/rules.csv sdRaiderComms [text]"
+  },
+  {
+   "i": 22,
+   "en": "Your question short-circuits $hisOrHer building tirade. $HeOrShe sputters, then recovers.\r\n\r\n\"The fuel, you fool! You are using indirect coward's tactics in a feeble attempt to undermine the beating heart of the Sindrian war-machine by undercutting the fuel market. Don't think we can't see your every move.\"\r\n\r\n\"Now.\" $HeOrShe stands stiffly, \"By the authority of the Supreme Executor, I will bomb your pitiable fuel production operation and I will bomb the population of vagabonds, criminals, and degenerates you've gathered to run it; I will leave only ash. Glory to the Sindrian Diktat!\"",
+   "ctx": "data/campaign/rules.csv sdRaiderCommsAskHow [text]"
+  },
+  {
+   "i": 23,
+   "en": "$HeOrShe looks conflicted, and leans in. \"Perhaps you are not without hope, captain. This demonstration of Diktat power is made because you have dared - however ignorantly, however inadvertently - to interfere with Sindrian exports. Fuel is the heart of Sindria's economy, and your attempts to compete in fuel production are a threat, a hostile act, however feeble.\" $HeOrShe pauses to let you consider the depths of your betrayal. \"Now you see, captain.\"\r\n\r\n$HeOrShe shakes $hisOrHer head, almost regretful. Then speaks loudly, \"I have my orders. And I have the clarity of vision to see my orders carried out to their end, no matter what the cost! If I die, the Sindrian Diktat will live on! Glory to the Supreme Executor!\"\r\n\r\nThe $post is standing and saluting the abstract gaze of Philip Andrada, putting on quite a show for $hisOrHer bridge officers.",
+   "ctx": "data/campaign/rules.csv sdRaiderCommsAskCommission [text]"
+  },
+  {
+   "i": 24,
+   "en": "After a crackle of static the comms come to shuddering stability. The Sindrian Diktat $post looks upon you imperiously. \r\n\r\n\"Hailing independent fleet! We are-\" $HeOrShe is interrupted by a subordinate officer leaning into view and whispering something.\r\n\r\n$HeOrShe puts on a knowing look, simmering with hostility. \"Of course, Captain $PlayerName. We know full well of you and your methods.\"",
+   "ctx": "data/campaign/rules.csv sdPunExComms [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"Yes, your methods,\" $heOrShe says. \"The natural respite of the degenerate spacer: underhanded deception; poisoning; lies.\"",
+   "ctx": "data/campaign/rules.csv sdPunExCommsA [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"Even now you squirm and lie, like all you worldless spacers. I, however, am armed and armored by the unconquerable ideology of the Andradan Movement, the wisdom of the Supreme Executor himself! I see through you; I see my enemy and I know where to direct my righteous hatred.\" $HeOrShe tips $hisOrHer slowly toward you as $heOrShe speaks.",
+   "ctx": "data/campaign/rules.csv sdPunExCommsB [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"Then you deny nothing. Look at you, spacer; you have no people, you have no homeland; your blood thins and weakens in the vacuum. You subsist on lies and deception. Your ideology is poison.\"",
+   "ctx": "data/campaign/rules.csv sdPunExCommsC [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"You employ cowardly, indirect tactics in a feeble attempt to undermine the power of the Sindrian Diktat! You're waging a secret economic war on the beating heart of the Sindrian economy by undercutting the fuel market. Don't think we can't see your aims.\"\r\n\r\n\"Now.\" $HeOrShe stands up more stiffly, \"I have been tasked by the authority of the Supreme Executor to put your meddling to an end.\" ",
+   "ctx": "data/campaign/rules.csv sdPunExComms2 [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"Of course not,\" $heOrShe says with a look of disgust. \"And of course that is what you'd think - spacers like you have no notion of the honor and glory of the Andradan Movement that gives meaning to history itself!\"\r\n\r\n\"Your scheming attempt to undermine the true expression of Philip Andrada's transcendent vision will be met by the military might of the Sindrian Diktat.\"",
+   "ctx": "data/campaign/rules.csv sdPunExSayProfits [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"I shall bomb your pitiable fuel production operation to dust. I shall bomb your population of vagabonds and criminals to dust. I shall destroy everything that stands against the glory of the Sindrian Diktat!\"",
+   "ctx": "data/campaign/rules.csv sdPunExSayStopMe [text]"
+  },
+  {
+   "i": 31,
+   "en": "The Diktat $Post looks appalled, and spits $hisOrHer words. \"There will be no... deal.\"\r\n\r\n\"I shall follow my orders or find glorious death in the service of Supreme Executor Philip Andrada.\" $HeOrShe raises $hisOrHer chin, \"And my orders are to bomb your pitiful fuel production operation into dust. Only the authority of the Supreme Executor can countermand these orders. Your destruction is as good as inevitable.\"\r\n\r\n$HeOrShe gives some signal to $hisOrHer bridge crew, and the comms cut out.",
+   "ctx": "data/campaign/rules.csv sdPunExSayDeal [text]"
+  },
+  {
+   "i": 32,
+   "en": "After a crackle of static the comms come to shuddering stability. The Sindrian Diktat $Post looks upon you imperiously. \r\n\r\n\"Hailing the fleet of $PlayerName. I come with the authority of the Supreme Executor to put an end to your cowardly economic warfare upon the Sindrian Diktat!\"",
+   "ctx": "data/campaign/rules.csv sdPunExCommsHostile [text]"
+  }
+ ]
+}

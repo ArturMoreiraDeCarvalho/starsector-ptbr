@@ -1,0 +1,291 @@
+{
+ "chunk": 80,
+ "cat": "desc",
+ "items": [
+  {
+   "i": 1,
+   "en": "Volturn was envisioned as a planet of agriculture and leisure to service the now annihilated capital city-moon, Opis. Refugees from the Askonia Crisis have swelled the population of Volturn many-fold, surpassing even the numbers of Sindria and filling the floating arcologies, resort-cruisers, and terraforming barges with makeshift housing. An economy of light industry and aquaculture prevails, many products having been derived from the processing of sea-life genetically modified to flourish in the world-ocean. A Diktat garrison maintains uneasy rule over a world of stinking algae farms and floating slums, the hotbeds of resistance movements, esoteric cults, and criminal syndicates.",
+   "ctx": "data/strings/descriptions.csv planet_volturn/CUSTOM [text3]"
+  },
+  {
+   "i": 2,
+   "en": "Far from Askonia's primary, Umbra is a frozen world of methane and ammonia where water-ice is like rock and may be found in mountainous outcroppings and boulders. A thin atmosphere of volatiles is formed on the starward side of the planet only to freeze again on the dark side. Most craters are filled in over time as this \"snow\" is deposited. There is some mining of heavier materials from the poor, rocky mantle buried many kilometers beneath the glacial crust. Habitats are burrowed deeply; life on Umbra is harsh and few would willingly choose to live here permanently. A trickle of idealistic out-of-system volunteers brings much-needed hope - and essential supplies.",
+   "ctx": "data/strings/descriptions.csv planet_umbra/CUSTOM [text3]"
+  },
+  {
+   "i": 3,
+   "en": "A ring of defense drones around the stattion.",
+   "ctx": "data/strings/descriptions.csv drone_station_lt/SHIP_SYSTEM [text3]"
+  },
+  {
+   "i": 4,
+   "en": "Increases the damage taken by the target ship. Generates a significant amount of flux when used.",
+   "ctx": "data/strings/descriptions.csv entropyamplifier/SHIP_SYSTEM [text3]"
+  },
+  {
+   "i": 5,
+   "en": "Interferes with the target ship's drive field, disabling some engines.",
+   "ctx": "data/strings/descriptions.csv interdictor/SHIP_SYSTEM [text3]"
+  },
+  {
+   "i": 6,
+   "en": "Teleports a heavy proximity mine to the target area. Each mine deals 2000 High Explosive damage in an area. Can be used while phased.",
+   "ctx": "data/strings/descriptions.csv mine_strike/SHIP_SYSTEM [text3]"
+  },
+  {
+   "i": 7,
+   "en": "Teleports a heavy proximity mine to the target area. Each mine deals 2000 High Explosive damage in an area.",
+   "ctx": "data/strings/descriptions.csv mine_strike_station/SHIP_SYSTEM [text3]"
+  },
+  {
+   "i": 8,
+   "en": "Energy motes deal heavy EMP damage to ships and obliterate fighters and missiles.",
+   "ctx": "data/strings/descriptions.csv mote_control/SHIP_SYSTEM [text3]"
+  },
+  {
+   "i": 9,
+   "en": "Briefly overloads a nearby enemy ship.",
+   "ctx": "data/strings/descriptions.csv acausaldisruptor/SHIP_SYSTEM [text3]"
+  },
+  {
+   "i": 10,
+   "en": "Speeds up the flow of time on board the ship. Generates a significant amount of flux when used.",
+   "ctx": "data/strings/descriptions.csv temporalshell/SHIP_SYSTEM [text3]"
+  },
+  {
+   "i": 11,
+   "en": "Launches flares to confuse the guidance systems of nearby enemy missiles.",
+   "ctx": "data/strings/descriptions.csv flarelauncher/SHIP_SYSTEM [text3]"
+  },
+  {
+   "i": 12,
+   "en": "Launches flares to confuse the guidance systems of nearby enemy missiles. The flares are fast and actively track the missiles.",
+   "ctx": "data/strings/descriptions.csv flarelauncher_active/SHIP_SYSTEM [text3]"
+  },
+  {
+   "i": 13,
+   "en": "Provides a massive speed boost at the expense of being unable to turn or use shields. Collisions can cause a flameout while the system is active.",
+   "ctx": "data/strings/descriptions.csv burndrive/SHIP_SYSTEM [text3]"
+  },
+  {
+   "i": 14,
+   "en": "Provides a brief boost to maneuverability and top speed.",
+   "ctx": "data/strings/descriptions.csv maneuveringjets/SHIP_SYSTEM [text3]"
+  },
+  {
+   "i": 15,
+   "en": "Provides a massive increase to top speed and a slight maneuverability boost.",
+   "ctx": "data/strings/descriptions.csv plasmajets/SHIP_SYSTEM [text3]"
+  },
+  {
+   "i": 16,
+   "en": "Reloads all missile weapons quickly. Generates flux when used.",
+   "ctx": "data/strings/descriptions.csv fastmissileracks/SHIP_SYSTEM [text3]"
+  },
+  {
+   "i": 17,
+   "en": "Reduces the damage taken by shields to a minimum, but generates hard flux while active.",
+   "ctx": "data/strings/descriptions.csv fortressshield/SHIP_SYSTEM [text3]"
+  },
+  {
+   "i": 18,
+   "en": "Briefly increases the damage dealt by all energy weapons.",
+   "ctx": "data/strings/descriptions.csv highenergyfocus/SHIP_SYSTEM [text3]"
+  },
+  {
+   "i": 19,
+   "en": "Supercharges one of the Terminator drones and sends it after a target. The drone deals 1200 Energy damage and 600 EMP damage on impact, and charging it generates 600 flux.",
+   "ctx": "data/strings/descriptions.csv drone_strike/SHIP_SYSTEM [text3]"
+  },
+  {
+   "i": 20,
+   "en": "Explodes a shaped antimatter charge behind the ship, propelling it forward at extreme speed.",
+   "ctx": "data/strings/descriptions.csv orion_device/SHIP_SYSTEM [text3]"
+  },
+  {
+   "i": 21,
+   "en": "Explodes a massive antimatter charge behind the ship, causing the ship to leap forward.",
+   "ctx": "data/strings/descriptions.csv nova_burst/SHIP_SYSTEM [text3]"
+  },
+  {
+   "i": 22,
+   "en": "Fires a large number of flak canisters with variable-timed proximity fuses all around the ship. Each canister deals 200 High Explosive damage in an area and is targeted to avoid friendly fire.",
+   "ctx": "data/strings/descriptions.csv canister_flak/SHIP_SYSTEM [text3]"
+  },
+  {
+   "i": 23,
+   "en": "Teleports the ship a short distance in the direction it's traveling. The system can store up to three charges at once.",
+   "ctx": "data/strings/descriptions.csv displacer/SHIP_SYSTEM [text3]"
+  },
+  {
+   "i": 24,
+   "en": "Teleports the ship a short distance in the direction it's traveling. The system can store up to two charges at once.",
+   "ctx": "data/strings/descriptions.csv displacer_degraded/SHIP_SYSTEM [text3]"
+  },
+  {
+   "i": 25,
+   "en": "Deploys a large number of laser-armed defensive drones.",
+   "ctx": "data/strings/descriptions.csv drone_pd/SHIP_SYSTEM [text3]"
+  },
+  {
+   "i": 26,
+   "en": "Deploys several defensive drones armed with light machine guns.",
+   "ctx": "data/strings/descriptions.csv drone_pd_x2/SHIP_SYSTEM [text3]"
+  },
+  {
+   "i": 27,
+   "en": "Deploys several combat-modified drones armed with mining lasers. Drones have long operating range.",
+   "ctx": "data/strings/descriptions.csv drone_borer/SHIP_SYSTEM [text3]"
+  },
+  {
+   "i": 28,
+   "en": "Deploys a pair of drones that improve the ship's weapon and sensor range. Each drone is also armed with an ion cannon.",
+   "ctx": "data/strings/descriptions.csv drone_sensor/SHIP_SYSTEM [text3]"
+  },
+  {
+   "i": 29,
+   "en": "Provides a flux cost reduction and a brief boost to the rate of fire of all ballistic weapons.",
+   "ctx": "data/strings/descriptions.csv ammofeed/SHIP_SYSTEM [text3]"
+  },
+  {
+   "i": 30,
+   "en": "Generates lightning arcs that quickly knock out enemy missiles, weapons, and engines within range. Mostly negated by shields.",
+   "ctx": "data/strings/descriptions.csv emp/SHIP_SYSTEM [text3]"
+  },
+  {
+   "i": 31,
+   "en": "Moves the ship into an alternate dimension where time passes more quickly. Ship can not be hit by any weapons; builds up hard flux while active.",
+   "ctx": "data/strings/descriptions.csv phasecloak/SHIP_SYSTEM [text3]"
+  },
+  {
+   "i": 32,
+   "en": "Deploys a single highly advanced drone. The drone will be slowly rebuilt if it's destroyed.",
+   "ctx": "data/strings/descriptions.csv drone_terminator/SHIP_SYSTEM [text3]"
+  },
+  {
+   "i": 33,
+   "en": "Activates certain ship systems on targeted friendly ships. When targeting an enemy, deals EMP damage. Can hit, and briefly overloads phased targets.",
+   "ctx": "data/strings/descriptions.csv energy_lash/SHIP_SYSTEM [text3]"
+  },
+  {
+   "i": 34,
+   "en": "Teleports the ship a short distance in the direction it's traveling. The system is only charged when the ship is hit by an Energy Lash.",
+   "ctx": "data/strings/descriptions.csv displacer_threat/SHIP_SYSTEM [text3]"
+  },
+  {
+   "i": 35,
+   "en": "Increases the ship's top speed, flux dissipation, and charge regeneration rate, as well as overall aggressiveness. The system is only activated when the ship is hit by an Energy Lash.",
+   "ctx": "data/strings/descriptions.csv incursion_mode/SHIP_SYSTEM [text3]"
+  },
+  {
+   "i": 36,
+   "en": "Increases the ship's top speed and forces it to back off while firing all available weapons. The ship will vent at the end of the maneuver, and all of its ammo and charge using weapons, including missiles, will be reloaded. The system is only activated when the ship is hit by an Energy Lash.",
+   "ctx": "data/strings/descriptions.csv extraction_protocol/SHIP_SYSTEM [text3]"
+  },
+  {
+   "i": 37,
+   "en": "Extends the range of non-PD fragment weapons and rapidly fires them. The system is only activated when the ship is hit by an Energy Lash, and has a long cooldown.",
+   "ctx": "data/strings/descriptions.csv fragment_volley/SHIP_SYSTEM [text3]"
+  },
+  {
+   "i": 38,
+   "en": "Launches a construction swarm that will build a new Threat unit. Reduces the ship's combat readiness.",
+   "ctx": "data/strings/descriptions.csv construction_swarm/SHIP_SYSTEM [text3]"
+  },
+  {
+   "i": 39,
+   "en": "The vortex moves through n-space, following the curvature of local space-time, gradually destabilizing, and eventually exploding to deal 2000 Energy damage in a large area.",
+   "ctx": "data/strings/descriptions.csv shrouded_vortex/SHIP_SYSTEM [text3]"
+  },
+  {
+   "i": 40,
+   "en": "The mottled curve of the planet turns below you. The lighter regolith is pocked with ancient impact craters, the darker lava seas less densely marked but riven nonetheless by evidence of their own cataclysmic creation.",
+   "ctx": "data/strings/descriptions.csv barren-bombarded/PLANET [text3]"
+  },
+  {
+   "i": 41,
+   "en": "Initially a center of xenobiological study and tourism, exploitation followed discovery and millions of square kilometers were razed then covered by plantations tended by massive robotic harvesters.  But it is no paradise for humans, requiring biofilter masks and a decontamination process for surface visits. The riotous native jungle must be held back to this day by periodic orbital burns from Jangala Station.",
+   "ctx": "data/strings/descriptions.csv planet_jangala/CUSTOM [text3]"
+  },
+  {
+   "i": 42,
+   "en": "Formed of a vast tiered structure, the first ancient fueling and repair gantries are hidden among corroded industrial hangars that lie in the shadow of a huge ring of laboratories and associated support systems. Higher still, commercial concourses, metroplex districts, and many-winged shipyards are all watched over by a command & control spire bristling with communications arrays and weapon pods.",
+   "ctx": "data/strings/descriptions.csv station_jangala/CUSTOM [text3]"
+  },
+  {
+   "i": 43,
+   "en": "In better times Asharu was a model terraforming prospect: A solar shade lowered the surface temperature while ice launched from the moons of Barad left shining vapor trails to fall as rain from the skies. Alas the chaos of the Collapse halted the ice and suspected Luddic sabotage destroyed the shade. Investment dried up and now only few hardy lifeforms (including a handful of human settlers) cling to existence in the sheltering mountains between the vast dunes that are slowly retaking the foundations of cities never built.",
+   "ctx": "data/strings/descriptions.csv planet_asharu/CUSTOM [text3]"
+  },
+  {
+   "i": 44,
+   "en": "Centuries of stripped starship hulls rest on the long-cold lava seas and regolith plains of this barren world. Some especially radioactive reactor cores are left in quarantined pits that glow with detectable radiation ticking on long-range scans. Workers employed by the industrial operations live in vast crater-arcologies, underground cities ringed by glittering solar arrays and spurs of transport tubes leading to outlying processing facilities and material yards.",
+   "ctx": "data/strings/descriptions.csv planet_agreus/CUSTOM [text3]"
+  },
+  {
+   "i": 45,
+   "en": "Heavy weapon emplacements conspicuously track and ping all incoming ships, the equivalent of a firearm held at the ready. Reception on Nomios is elegant, muted, and polite; an antiseptic mask over business spoken of through implication.",
+   "ctx": "data/strings/descriptions.csv planet_nomios/CUSTOM [text3]"
+  },
+  {
+   "i": 46,
+   "en": "The influence of martial utility has thoroughly infiltrated the station. Even civilian traffic control speaks in the chopped parlance of the Hegemony Navy. You spot the rolling gait of gas-miners and navy crew alike in the subdued public concourse, which is as clean-swept as a barracks.",
+   "ctx": "data/strings/descriptions.csv station_arcadia/CUSTOM [text3]"
+  },
+  {
+   "i": 47,
+   "en": "Crew and workers on leave from the nearby Ragnar Complex and Tri-Tach projects supports a rowdy nightlife and black market. Volatiles mining is encouraged by development grants given to ensure a stable foundation for the Hegemony's fuel supply.",
+   "ctx": "data/strings/descriptions.csv planet_raesvelg/CUSTOM [text3]"
+  },
+  {
+   "i": 48,
+   "en": "For all the humanity ground down by the machinery of industrial extraction on Skathi, Tri-Tachyon does manage to skim from the top a small percent overperformers who display the exceptional talent and the will required to climb the corporate ladder.",
+   "ctx": "data/strings/descriptions.csv planet_skathi/CUSTOM [text3]"
+  },
+  {
+   "i": 49,
+   "en": "Nicknamed \"The Tomb\", broken arcs of hangars and gantries clutch row upon row of mothballed hulks awaiting inspection. Most are dark, lit only by inspection crews and the welding torches of armorers removing materiel. Hidden near the center of the shadow armada lies a stack of hab-rings populated by civilian contractors, navy crew, marines, and Hegemony administration.",
+   "ctx": "data/strings/descriptions.csv station_ragnar/CUSTOM [text3]"
+  },
+  {
+   "i": 50,
+   "en": "A ruling class of Tri-Tachyon executives and managers oversee a tiny polity, more a company town, built from a cut-throat web of shell corporations. The desperate and greedy in equal measure are attracted from nearby systems by the high pay. The costs, however, often prove higher.",
+   "ctx": "data/strings/descriptions.csv station_mimir/CUSTOM [text3]"
+  },
+  {
+   "i": 51,
+   "en": "An old, dry world that has a much smaller percentage of water in its atmosphere than terran standard. No active plate tectonics; highly eroded mountains and silted shallow seas. The atmosphere and magnetic field protect the surface from stellar radiation. The most accessible mineral resources were mined in a flurry of rapacious industrialism shortly after discovery.",
+   "ctx": "data/strings/descriptions.csv planet_tartessus/CUSTOM [text3]"
+  },
+  {
+   "i": 52,
+   "en": "Ad-holos sprout around the landing bays proclaiming joyful, tasteless wickedness available for travelers who wish to decompress, for even here the moral framework of the Church rules, albeit profitably inverted. Even the Faithful benefit, for those who do visit here on business or proselytization can make a great demonstration of denying the fleshpots of Baetis.",
+   "ctx": "data/strings/descriptions.csv planet_baetis/CUSTOM [text3]"
+  },
+  {
+   "i": 53,
+   "en": "Monasteries cling to particularly sublime rifts, promontories of volcanic shields, or the occasional pluton that's forced its way through the world-wrapping crust of ice. These forbid outside visitors - particularly the unfaithful - without dispensation from the Knights. However, by authority of the reigning Presbyter Orbis, a number of special economic zones built on the shifting floes transmit civilian landing beacons to call outside traders to port.",
+   "ctx": "data/strings/descriptions.csv planet_hesperus/CUSTOM [text3]"
+  },
+  {
+   "i": 54,
+   "en": "Paranoid whispers of military comms echo around Ceyx; subsurface citadels and fortifications betray their presence by the invisible glow of heat-dissipation nets blooming outward across the scarred moon's surface like targeting grids.",
+   "ctx": "data/strings/descriptions.csv planet_ceyx/CUSTOM [text3]"
+  },
+  {
+   "i": 55,
+   "en": "Too small to force major factions to recognize its claim over the entire Disk, Nova Maxios nonetheless considers itself the successor-polity to the Maxios Charter.\r\n\r\nTraffic control enforced by the small militia-navy is firm but polite. Independent spacers are welcomed as cousins in the admittedly crude hulls and concourses of Nova Maxios.",
+   "ctx": "data/strings/descriptions.csv station_new_maxios/CUSTOM [text3]"
+  },
+  {
+   "i": 56,
+   "en": "Populated mostly by retired pirates, exiled radicals, and wealthier refugees, it is widely known that cargo containers have their IDs wiped and re-tagged here so that they may be safely re-circulated into the legitimate economy of the Core Worlds.\r\n\r\nThe cocktail bar \"Level 25\" is said to have the finest drinks in the local volume.",
+   "ctx": "data/strings/descriptions.csv station_tse_enterprise/CUSTOM [text3]"
+  },
+  {
+   "i": 57,
+   "en": "Traffic control seems to spend its time trading crude jokes with pirate raiders when not trying to bully bribes out of docking vessels. An artful arrangement of gutted starship hulls festoons the station, and closer examination reveals vacuum-desiccated remains attached using asteroid-miners' pitons. The messaging is unambiguous.",
+   "ctx": "data/strings/descriptions.csv station_kantas_den/CUSTOM [text3]"
+  }
+ ]
+}

@@ -1,0 +1,1256 @@
+{
+ "chunk": 19,
+ "cat": "jar",
+ "items": [
+  {
+   "i": 1,
+   "en": "Clean Disengage",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/O$2.class"
+  },
+  {
+   "i": 2,
+   "en": "If your forces inflict sufficient losses on the enemy, you will be able to disengage without being pursued after the conclusion of this engagement, even if your forces retreat and the enemy wins the engagement.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/O$2.class"
+  },
+  {
+   "i": 3,
+   "en": "Only applicable in campaign battles, not missions or simulations.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/O$2.class"
+  },
+  {
+   "i": 4,
+   "en": "The enemy fleet is already attempting to disengage, and you will be able to end the encounter without any further hostilities after the conclusion of this engagement.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/O$2.class"
+  },
+  {
+   "i": 5,
+   "en": "Your fleet is already attempting to disengage, and will be able to end the encounter without any further pursuit after the conclusion of this engagement.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/O$2.class"
+  },
+  {
+   "i": 6,
+   "en": "Your forces need to destroy, disable, or force to retreat %s deployment points worth of enemy ships. Points so far: %s.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/O$2.class"
+  },
+  {
+   "i": 7,
+   "en": "Your forces will be able to disengage without being pursued after the conclusion of this engagement.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/O$2.class"
+  },
+  {
+   "i": 8,
+   "en": "Deployment Pts",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/O.class"
+  },
+  {
+   "i": 9,
+   "en": "Full Retreat!",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/O.class"
+  },
+  {
+   "i": 10,
+   "en": "Standing Orders",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/O.class"
+  },
+  {
+   "i": 11,
+   "en": "Design type: ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/O0Oo.class"
+  },
+  {
+   "i": 12,
+   "en": "Replacement chassis",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/O0Oo.class"
+  },
+  {
+   "i": 13,
+   "en": "A colony that's unstable for too long runs the risk of becoming decivilized.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/Objectsuper$1.class"
+  },
+  {
+   "i": 14,
+   "en": "A more stable colony produces larger fleets with well-maintained ships.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/Objectsuper$1.class"
+  },
+  {
+   "i": 15,
+   "en": "A stable colony is also more resistant to raids and invasions, and has less black market activity.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/Objectsuper$1.class"
+  },
+  {
+   "i": 16,
+   "en": "Economic factors:",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/Objectsuper$1.class"
+  },
+  {
+   "i": 17,
+   "en": "Other factors:",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/Objectsuper$1.class"
+  },
+  {
+   "i": 18,
+   "en": "Stability: %s",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/Objectsuper$1.class"
+  },
+  {
+   "i": 19,
+   "en": "The colony's stability is a measure of the strength of the local government and its ability to effectively muster and leverage the resources of the colony.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/Objectsuper$1.class"
+  },
+  {
+   "i": 20,
+   "en": " per hull.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/Objectsuper$2.class"
+  },
+  {
+   "i": 21,
+   "en": "Fleet Size & Ship Quality",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/Objectsuper$2.class"
+  },
+  {
+   "i": 22,
+   "en": "Fleet size: %s",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/Objectsuper$2.class"
+  },
+  {
+   "i": 23,
+   "en": "Ship quality: %s, an average of %s ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/Objectsuper$2.class"
+  },
+  {
+   "i": 24,
+   "en": "d-mod",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/Objectsuper$2.class"
+  },
+  {
+   "i": 25,
+   "en": "d-mods",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/Objectsuper$2.class"
+  },
+  {
+   "i": 26,
+   "en": "Ground Defenses",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/Objectsuper$3.class"
+  },
+  {
+   "i": 27,
+   "en": "Ground defense strength: %s",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/Objectsuper$3.class"
+  },
+  {
+   "i": 28,
+   "en": "The strength of the ground defenses affects the effectiveness of raids and other ground operations against the colony. It also increases the amount of fuel required to bombard it.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/Objectsuper$3.class"
+  },
+  {
+   "i": 29,
+   "en": "- high prices on",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/Oooo$2.class"
+  },
+  {
+   "i": 30,
+   "en": "- low prices on",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/Oooo$2.class"
+  },
+  {
+   "i": 31,
+   "en": "- prices on",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/Oooo$2.class"
+  },
+  {
+   "i": 32,
+   "en": "No local demand",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/Oooo$2.class"
+  },
+  {
+   "i": 33,
+   "en": "None for sale locally",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/Oooo$2.class"
+  },
+  {
+   "i": 34,
+   "en": "Price/unit",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/Oooo$2.class"
+  },
+  {
+   "i": 35,
+   "en": "Units for sale",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/Oooo$2.class"
+  },
+  {
+   "i": 36,
+   "en": ">3 months ago",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/Oooo.class"
+  },
+  {
+   "i": 37,
+   "en": " point to recover, grants ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2$1.class"
+  },
+  {
+   "i": 38,
+   "en": "% bonus XP",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2$1.class"
+  },
+  {
+   "i": 39,
+   "en": "Deployment points",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2$1.class"
+  },
+  {
+   "i": 40,
+   "en": "Deployment recovery cost (supplies)",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2$1.class"
+  },
+  {
+   "i": 41,
+   "en": "Disabled or destroyed",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2$1.class"
+  },
+  {
+   "i": 42,
+   "en": "Mothballed, can not be deployed",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2$1.class"
+  },
+  {
+   "i": 43,
+   "en": "Not combat-ready, can not be deployed",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2$1.class"
+  },
+  {
+   "i": 44,
+   "en": "Ready for deployment",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2$1.class"
+  },
+  {
+   "i": 45,
+   "en": "Risks hull damage and critical malfunctions",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2$1.class"
+  },
+  {
+   "i": 46,
+   "en": "Risks malfunctions during deployment",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2$1.class"
+  },
+  {
+   "i": 47,
+   "en": "Special modifications: ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2$1.class"
+  },
+  {
+   "i": 48,
+   "en": "This d-mod - a result of near-permanent damage suffered by the hull - can only be removed with a full restoration at a dockyard.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2$12.class"
+  },
+  {
+   "i": 49,
+   "en": "This enhanced hullmod is built into the hull - it can not be removed and does not cost any ordnance points.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2$12.class"
+  },
+  {
+   "i": 50,
+   "en": "This hullmod is built into the hull - it can not be removed and does not cost any ordnance points.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2$12.class"
+  },
+  {
+   "i": 51,
+   "en": "This s-mod has been built into this ship - it can not be removed and does not cost any ordnance points.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2$12.class"
+  },
+  {
+   "i": 52,
+   "en": "built into",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2$12.class"
+  },
+  {
+   "i": 53,
+   "en": "enhanced",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2$12.class"
+  },
+  {
+   "i": 54,
+   "en": "s-mod",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2$12.class"
+  },
+  {
+   "i": 55,
+   "en": "Base value: ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2$15.class"
+  },
+  {
+   "i": 56,
+   "en": "Price: ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2$15.class"
+  },
+  {
+   "i": 57,
+   "en": "Sells for: ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2$15.class"
+  },
+  {
+   "i": 58,
+   "en": "Ability: ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2$3.class"
+  },
+  {
+   "i": 59,
+   "en": "Affects: %s",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2$3.class"
+  },
+  {
+   "i": 60,
+   "en": "Affects: %s and %s",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2$3.class"
+  },
+  {
+   "i": 61,
+   "en": "Hull mod: ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2$3.class"
+  },
+  {
+   "i": 62,
+   "en": "Mastery",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2$3.class"
+  },
+  {
+   "i": 63,
+   "en": "Press %s to open Codex",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2$3.class"
+  },
+  {
+   "i": 64,
+   "en": "This skill is permanent and can not be reassigned",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2$3.class"
+  },
+  {
+   "i": 65,
+   "en": "This skill is permanent and can not be reassigned once learned",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2$3.class"
+  },
+  {
+   "i": 66,
+   "en": "per aptitude level",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2$3.class"
+  },
+  {
+   "i": 67,
+   "en": "per skill level",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2$3.class"
+  },
+  {
+   "i": 68,
+   "en": "Crew capacity (skeleton crew required)",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2$4.class"
+  },
+  {
+   "i": 69,
+   "en": "Personnel Report",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2$4.class"
+  },
+  {
+   "i": 70,
+   "en": "Supplies/day consumed by personnel",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2$4.class"
+  },
+  {
+   "i": 71,
+   "en": "Total skeleton crew needed",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2$4.class"
+  },
+  {
+   "i": 72,
+   "en": "Fuel Report",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2$6.class"
+  },
+  {
+   "i": 73,
+   "en": "Fuel capacity (used per light year)",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2$6.class"
+  },
+  {
+   "i": 74,
+   "en": "Total fuel used per light year",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2$6.class"
+  },
+  {
+   "i": 75,
+   "en": "Travel range (light years)",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2$6.class"
+  },
+  {
+   "i": 76,
+   "en": "Fleet Points",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2$7.class"
+  },
+  {
+   "i": 77,
+   "en": "Logistics Report",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2$8.class"
+  },
+  {
+   "i": 78,
+   "en": "Maximum burn: ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2$9.class"
+  },
+  {
+   "i": 79,
+   "en": "Unidentified Contact",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2$9.class"
+  },
+  {
+   "i": 80,
+   "en": "avoiding ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2$9.class"
+  },
+  {
+   "i": 81,
+   "en": "avoiding abyssal hyperspace",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2$9.class"
+  },
+  {
+   "i": 82,
+   "en": "avoiding contact",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2$9.class"
+  },
+  {
+   "i": 83,
+   "en": "disengaging from ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2$9.class"
+  },
+  {
+   "i": 84,
+   "en": "engaging",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2$9.class"
+  },
+  {
+   "i": 85,
+   "en": "\n\nPress and hold ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2.class"
+  },
+  {
+   "i": 86,
+   "en": "  %s open Codex",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2.class"
+  },
+  {
+   "i": 87,
+   "en": "  None",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2.class"
+  },
+  {
+   "i": 88,
+   "en": " (Utility)",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2.class"
+  },
+  {
+   "i": 89,
+   "en": " for a quick video feed that lasts for as long as the key is pressed.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2.class"
+  },
+  {
+   "i": 90,
+   "en": " in fleet",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2.class"
+  },
+  {
+   "i": 91,
+   "en": ", including carriers and militarized civilian ships",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2.class"
+  },
+  {
+   "i": 92,
+   "en": "All mods ever saved with:",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2.class"
+  },
+  {
+   "i": 93,
+   "en": "Can only transfer command to combat-ready ships.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2.class"
+  },
+  {
+   "i": 94,
+   "en": "Currently enabled mods:",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2.class"
+  },
+  {
+   "i": 95,
+   "en": "Mods last saved with:",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2.class"
+  },
+  {
+   "i": 96,
+   "en": "This save is using a regular mod that is no longer enabled. It is unlikely to load properly until that mod is re-enabled.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2.class"
+  },
+  {
+   "i": 97,
+   "en": "all colonies",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2.class"
+  },
+  {
+   "i": 98,
+   "en": "all combat ships",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2.class"
+  },
+  {
+   "i": 99,
+   "en": "all fighters",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2.class"
+  },
+  {
+   "i": 100,
+   "en": "all ships",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2.class"
+  },
+  {
+   "i": 101,
+   "en": "all ships with fighter bays",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2.class"
+  },
+  {
+   "i": 102,
+   "en": "fighters from piloted ship",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2.class"
+  },
+  {
+   "i": 103,
+   "en": "fleet",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2.class"
+  },
+  {
+   "i": 104,
+   "en": "governed colony",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2.class"
+  },
+  {
+   "i": 105,
+   "en": "piloted ship",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2.class"
+  },
+  {
+   "i": 106,
+   "en": "regular",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2.class"
+  },
+  {
+   "i": 107,
+   "en": "total conversion",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2.class"
+  },
+  {
+   "i": 108,
+   "en": "unknown",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2.class"
+  },
+  {
+   "i": 109,
+   "en": "utility",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2.class"
+  },
+  {
+   "i": 110,
+   "en": "    ... and %s other items.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2Expandable.class"
+  },
+  {
+   "i": 111,
+   "en": "    ... and %s other ships.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2Expandable.class"
+  },
+  {
+   "i": 112,
+   "en": "   None",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2Expandable.class"
+  },
+  {
+   "i": 113,
+   "en": " ... and %s more",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2Expandable.class"
+  },
+  {
+   "i": 114,
+   "en": "Only %s ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2Expandable.class"
+  },
+  {
+   "i": 115,
+   "en": "Requires %s and does not grant any bonus experience.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2Expandable.class"
+  },
+  {
+   "i": 116,
+   "en": "Requires %s and grants %s bonus experience for each point.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2Expandable.class"
+  },
+  {
+   "i": 117,
+   "en": "Requires a %s and does not grant any bonus experience.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2Expandable.class"
+  },
+  {
+   "i": 118,
+   "en": "Requires a %s and grants %s bonus experience.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2Expandable.class"
+  },
+  {
+   "i": 119,
+   "en": "Resources: required (available)",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2Expandable.class"
+  },
+  {
+   "i": 120,
+   "en": "The following resources are required for your fleet to run a full survey of ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2Expandable.class"
+  },
+  {
+   "i": 121,
+   "en": "this planet",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2Expandable.class"
+  },
+  {
+   "i": 122,
+   "en": "Markets",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/StarSystemTooltipFactory$1.class"
+  },
+  {
+   "i": 123,
+   "en": "Because the fleet has ships with flight decks, there are %s fighter chassis available to replace losses in combat (%s CR per chassis).",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/String$1.class"
+  },
+  {
+   "i": 124,
+   "en": "The fleet has no ships with a flight deck, so no replacement fighter chassis are available.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/String$1.class"
+  },
+  {
+   "i": 125,
+   "en": "The wing has its full complement of %s fighters.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/String$1.class"
+  },
+  {
+   "i": 126,
+   "en": "The wing only has %s (out of %s) fighters remaining.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/String$1.class"
+  },
+  {
+   "i": 127,
+   "en": "There are no fighter chassis available to replace losses in combat (%s CR per chassis). Because the fleet has ships with flight decks, replacements will become available as the wing recovers CR.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/String$1.class"
+  },
+  {
+   "i": 128,
+   "en": "Wing Status",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/String$1.class"
+  },
+  {
+   "i": 129,
+   "en": "    None",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/W$1.class"
+  },
+  {
+   "i": 130,
+   "en": " (fully integrated, can not be removed)",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/W$1.class"
+  },
+  {
+   "i": 131,
+   "en": " (permanently assigned)",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/W$1.class"
+  },
+  {
+   "i": 132,
+   "en": " (right-click to unassign)",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/W$1.class"
+  },
+  {
+   "i": 133,
+   "en": " (you)",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/W$1.class"
+  },
+  {
+   "i": 134,
+   "en": " left on their contract.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/W$1.class"
+  },
+  {
+   "i": 135,
+   "en": "Administrative skills",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/W$1.class"
+  },
+  {
+   "i": 136,
+   "en": "Combat-related skills",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/W$1.class"
+  },
+  {
+   "i": 137,
+   "en": "Command",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/W$1.class"
+  },
+  {
+   "i": 138,
+   "en": "If no officer is assigned, this vessel will behave as if under the command of an officer with ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/W$1.class"
+  },
+  {
+   "i": 139,
+   "en": "Install AI Core",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/W$1.class"
+  },
+  {
+   "i": 140,
+   "en": "Install an AI core from your cargo in this ship. The ship will benefit from the AI core's skills.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/W$1.class"
+  },
+  {
+   "i": 141,
+   "en": "Monthly salary: %s",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/W$1.class"
+  },
+  {
+   "i": 142,
+   "en": "Monthly salary: %s (unassigned, reduced to %s)",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/W$1.class"
+  },
+  {
+   "i": 143,
+   "en": "Personality: ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/W$1.class"
+  },
+  {
+   "i": 144,
+   "en": "This behavior can be modifed by opening the Command tab, going to the Doctrine & blueprints subtab, and changing the Aggression setting.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/W$1.class"
+  },
+  {
+   "i": 145,
+   "en": "This officer is a mercenary with %s ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/W$1.class"
+  },
+  {
+   "i": 146,
+   "en": "This officer is a mercenary with a contract that's about to expire. They may wish to leave next time the fleet is in port.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/W$1.class"
+  },
+  {
+   "i": 147,
+   "en": "mercenary",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/W$1.class"
+  },
+  {
+   "i": 148,
+   "en": "one of the following personalities",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/W$1.class"
+  },
+  {
+   "i": 149,
+   "en": "the following personality",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/W$1.class"
+  },
+  {
+   "i": 150,
+   "en": "command frequency open",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/a.class"
+  },
+  {
+   "i": 151,
+   "en": "giving orders",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/a.class"
+  },
+  {
+   "i": 152,
+   "en": " [off]",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/null.class"
+  },
+  {
+   "i": 153,
+   "en": " [on]",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/null.class"
+  },
+  {
+   "i": 154,
+   "en": "Approximate number of deployment points to aim for when generating and selecting a group of opposing ships to deploy.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/null.class"
+  },
+  {
+   "i": 155,
+   "en": "Generate group",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/null.class"
+  },
+  {
+   "i": 156,
+   "en": "Group deployment",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/null.class"
+  },
+  {
+   "i": 157,
+   "en": "Select a group of available opposing ships to deploy based on the number of deployment points and the doctrine of the selected faction.\n\nPressing the button multiple times re-rolls the selection.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/null.class"
+  },
+  {
+   "i": 158,
+   "en": "Fleet points available for enemy deployment. Larger fleet gets more points than their opponent.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/oO0O$1.class"
+  },
+  {
+   "i": 159,
+   "en": "%s will increase the available deployment points, but only up to %s of the battle size. You currently have the maximum possible deployment points.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/oO0O$2.class"
+  },
+  {
+   "i": 160,
+   "en": "%s, and certain skills, will increase the available deployment points, but only up to %s of the battle size. You currently have %s bonus deployment points from skills and objectives.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/oO0O$2.class"
+  },
+  {
+   "i": 161,
+   "en": "Controlling battlefield objectives",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/oO0O$2.class"
+  },
+  {
+   "i": 162,
+   "en": "Deployment Points",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/oO0O$2.class"
+  },
+  {
+   "i": 163,
+   "en": "Required to deploy ships. The side more able of engaging on its terms gets more points. This is determined at the start of the engagement by the presence of capable officers in command of combat-ready ships. The number and size of the ships involved is also a small contributing factor.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/oO0O$2.class"
+  },
+  {
+   "i": 164,
+   "en": "The base battle size is %s points. It is increased by %s points due to the presence of an orbital station. The base battle size can be adjusted in gameplay settings. The larger side gets at most %s of the battle size in deployment points, which for the current battle size is up to %s points.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/oO0O$2.class"
+  },
+  {
+   "i": 165,
+   "en": "The maximum battle size is %s points. It can be adjusted in gameplay settings. The larger side gets at most %s of the battle size in deployment points, which for the current battle size is up to %s points.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/oO0O$2.class"
+  },
+  {
+   "i": 166,
+   "en": "This is a simulation battle, and each side can deploy up to the maximum of %s points.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/oO0O$2.class"
+  },
+  {
+   "i": 167,
+   "en": "You can always deploy at least one ship, regardless of its point cost.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/oO0O$2.class"
+  },
+  {
+   "i": 168,
+   "en": "Your forces can currently deploy ships worth up to %s points total, which is %s of battle size. The enemy can deploy up to %s points, which is %s.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/oO0O$2.class"
+  },
+  {
+   "i": 169,
+   "en": "capable officers in command of combat-ready ships",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/oO0O$2.class"
+  },
+  {
+   "i": 170,
+   "en": "      Destroy ships in battle\nto unlock them for simulation",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/oO0O.class"
+  },
+  {
+   "i": 171,
+   "en": " seconds",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/oO0O.class"
+  },
+  {
+   "i": 172,
+   "en": " supplies",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/oO0O.class"
+  },
+  {
+   "i": 173,
+   "en": "<<< Hide advanced options",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/oO0O.class"
+  },
+  {
+   "i": 174,
+   "en": "Allies",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/oO0O.class"
+  },
+  {
+   "i": 175,
+   "en": "Combat time: ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/oO0O.class"
+  },
+  {
+   "i": 176,
+   "en": "Deploy opposing ships for simulation",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/oO0O.class"
+  },
+  {
+   "i": 177,
+   "en": "No allied ships deployed",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/oO0O.class"
+  },
+  {
+   "i": 178,
+   "en": "No ships deployed",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/oO0O.class"
+  },
+  {
+   "i": 179,
+   "en": "Opponents",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/oO0O.class"
+  },
+  {
+   "i": 180,
+   "en": "Projected deployment recovery cost: ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/oO0O.class"
+  },
+  {
+   "i": 181,
+   "en": "Select ships from other categories\n                  to add them here",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/oO0O.class"
+  },
+  {
+   "i": 182,
+   "en": "Show advanced options >>>",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/oO0O.class"
+  },
+  {
+   "i": 183,
+   "en": "Danger: ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/oOOO.class"
+  },
+  {
+   "i": 184,
+   "en": "Auto:",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/ooOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.class"
+  },
+  {
+   "i": 185,
+   "en": "Fleet points:",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/ooOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.class"
+  },
+  {
+   "i": 186,
+   "en": "Fleet points: %d/%d",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/ooOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.class"
+  },
+  {
+   "i": 187,
+   "en": "Reinforce...",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/ooOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.class"
+  },
+  {
+   "i": 188,
+   "en": "Fire support weapons free",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/oooO.class"
+  },
+  {
+   "i": 189,
+   "en": "Strike weapons free",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/oooO.class"
+  },
+  {
+   "i": 190,
+   "en": "Finishing all repairs on this %s will take %s days.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/private$1.class"
+  },
+  {
+   "i": 191,
+   "en": "Hull Integrity & Repairs",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/private$1.class"
+  },
+  {
+   "i": 192,
+   "en": "Hull integrity: %s. Armor: %s.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/private$1.class"
+  },
+  {
+   "i": 193,
+   "en": "No repairs - out of supplies.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/private$1.class"
+  },
+  {
+   "i": 194,
+   "en": "Repairs on this %s are currently suspended.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/private$1.class"
+  },
+  {
+   "i": 195,
+   "en": "The average hull integrity for this %s is %s. The average armor integrity is %s.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/private$1.class"
+  },
+  {
+   "i": 196,
+   "en": "This %s is not undergoing repairs because it is mothballed.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/impl/private$1.class"
+  },
+  {
+   "i": 197,
+   "en": "Full Assault!",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/intnew.class"
+  },
+  {
+   "i": 198,
+   "en": "Full Assault!   (on)",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/intnew.class"
+  },
+  {
+   "i": 199,
+   "en": "Clear ability slot",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/AbilityPickerDialog.class"
+  },
+  {
+   "i": 200,
+   "en": "Clear this ability slot",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/AbilityPickerDialog.class"
+  },
+  {
+   "i": 201,
+   "en": "Default",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/AbilityPickerDialog.class"
+  },
+  {
+   "i": 202,
+   "en": "Select an ability for this slot.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/AbilityPickerDialog.class"
+  },
+  {
+   "i": 203,
+   "en": "Select an ability to switch this slot to when your fleet is in hyperspace.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/AbilityPickerDialog.class"
+  },
+  {
+   "i": 204,
+   "en": "Total crew on board, and number of crew required to operate all ships at maximum readiness.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/FleetMemberRecoveryDialog$1.class"
+  },
+  {
+   "i": 205,
+   "en": "Available supplies, and projected supply cost to repair all recovered ships along with ships in your fleets that already need repairs or combat readiness recovery.\n\nInexact due to uncertain condition of recovered ships. Supplies will be consumed gradually as ships undergo repairs and recovery.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/FleetMemberRecoveryDialog$2.class"
+  },
+  {
+   "i": 206,
+   "en": "The amount of bonus experience depends on the deployment recovery cost of the ship - less expensive ships grant more bonus experience. Recovering ships that were already in your fleet always grants full bonus experience.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/FleetMemberRecoveryDialog$7.class"
+  },
+  {
+   "i": 207,
+   "en": " for recovery",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/FleetMemberRecoveryDialog.class"
+  },
+  {
+   "i": 208,
+   "en": " ships",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/FleetMemberRecoveryDialog.class"
+  },
+  {
+   "i": 209,
+   "en": " ships exceeded, supply consumption will be increased and burn level reduced",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/FleetMemberRecoveryDialog.class"
+  },
+  {
+   "i": 210,
+   "en": "Difficult recovery",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/FleetMemberRecoveryDialog.class"
+  },
+  {
+   "i": 211,
+   "en": "Difficult recovery - requires ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/FleetMemberRecoveryDialog.class"
+  },
+  {
+   "i": 212,
+   "en": "Fleet size limit of ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/FleetMemberRecoveryDialog.class"
+  },
+  {
+   "i": 213,
+   "en": "Made exceptional efforts to recover ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/FleetMemberRecoveryDialog.class"
+  },
+  {
+   "i": 214,
+   "en": "Not enough story points",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/FleetMemberRecoveryDialog.class"
+  },
+  {
+   "i": 215,
+   "en": "RECOVER",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/FleetMemberRecoveryDialog.class"
+  },
+  {
+   "i": 216,
+   "en": "Recover",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/FleetMemberRecoveryDialog.class"
+  },
+  {
+   "i": 217,
+   "en": "Select ships to recover",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/FleetMemberRecoveryDialog.class"
+  },
+  {
+   "i": 218,
+   "en": "Selected ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/FleetMemberRecoveryDialog.class"
+  },
+  {
+   "i": 219,
+   "en": "Standard recovery",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/FleetMemberRecoveryDialog.class"
+  },
+  {
+   "i": 220,
+   "en": "crew available",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/FleetMemberRecoveryDialog.class"
+  },
+  {
+   "i": 221,
+   "en": "needed for ongoing repairs",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/FleetMemberRecoveryDialog.class"
+  },
+  {
+   "i": 222,
+   "en": "needed for ships in fleet",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/FleetMemberRecoveryDialog.class"
+  },
+  {
+   "i": 223,
+   "en": "supplies available",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/FleetMemberRecoveryDialog.class"
+  },
+  {
+   "i": 224,
+   "en": "to crew recovered ships",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/FleetMemberRecoveryDialog.class"
+  },
+  {
+   "i": 225,
+   "en": "to repair recovered ships (over time)",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/FleetMemberRecoveryDialog.class"
+  },
+  {
+   "i": 226,
+   "en": "Right-click to assign another ability",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/H$3.class"
+  },
+  {
+   "i": 227,
+   "en": "Click to assign an ability",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/H.class"
+  },
+  {
+   "i": 228,
+   "en": "Crew/Cargo",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/L.class"
+  },
+  {
+   "i": 229,
+   "en": "Completely destroyed",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/N.class"
+  },
+  {
+   "i": 230,
+   "en": "Deployed in last engagement",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/N.class"
+  },
+  {
+   "i": 231,
+   "en": "Held in reserve",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/N.class"
+  },
+  {
+   "i": 232,
+   "en": "Retreated from last engagement",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/N.class"
+  },
+  {
+   "i": 233,
+   "en": "destroyed",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/N.class"
+  },
+  {
+   "i": 234,
+   "en": "  Available missions",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/O0Oo.class"
+  },
+  {
+   "i": 235,
+   "en": "  Organizational & aggregate listings",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/O0Oo.class"
+  },
+  {
+   "i": 236,
+   "en": "  Personnel listings",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/O0Oo.class"
+  },
+  {
+   "i": 237,
+   "en": "Comm Directory - ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/O0Oo.class"
+  },
+  {
+   "i": 238,
+   "en": "Missions - ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/O0Oo.class"
+  },
+  {
+   "i": 239,
+   "en": "No available listings",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/O0Oo.class"
+  },
+  {
+   "i": 240,
+   "en": "No available postings",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/O0Oo.class"
+  },
+  {
+   "i": 241,
+   "en": ", Contact",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/O0oo.class"
+  },
+  {
+   "i": 242,
+   "en": "Contact",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/O0oo.class"
+  },
+  {
+   "i": 243,
+   "en": "Your forces",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/Objectsuper.class"
+  },
+  {
+   "i": 244,
+   "en": "SELECT",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/OoOoOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.class"
+  },
+  {
+   "i": 245,
+   "en": "Hazard rating: ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/Q.class"
+  },
+  {
+   "i": 246,
+   "en": "Lock",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/X.class"
+  },
+  {
+   "i": 247,
+   "en": "next",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/X.class"
+  },
+  {
+   "i": 248,
+   "en": "prev",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/X.class"
+  },
+  {
+   "i": 249,
+   "en": "Selected",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/_.class"
+  },
+  {
+   "i": 250,
+   "en": "Accept",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/c.class"
+  }
+ ]
+}

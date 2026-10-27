@@ -1,0 +1,236 @@
+{
+ "chunk": 203,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "On a bench before you lies a dueling kit: hardened boots, gloves, and helmet. A neatly folded jumpsuit of material smart enough to allow only what it judges to be non-lethal jabs and cuts comes with a suite of embedded medical sensors to automatically perform first-aid upon injury. \"Deaths are very rare,\" a minor aristocrat assures you as he hands a scabbard to Neriene Rao.\r\n\r\nShe waves him back toward the gawkers with an annoyed look. There are fewer gathered around you, and fewer uniforms, than those egging on Cardona and Sang.\r\n\r\n\"This is stupid,\" she says, drawing the sword a handswidth and examining the edge. \"You don't have to go through with it.\"",
+   "ctx": "data/campaign/rules.csv soeDuelPrepare4 [text]"
+  },
+  {
+   "i": 2,
+   "en": "Neriene pauses a moment, then says \"Before you go through with this, would you like to take a few practice swings to warm up?\"",
+   "ctx": "data/campaign/rules.csv soeDuelPrepTutorialAsk [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"Well.\" Neriene considers her words carefully. \"I think Cardona has been drinking, so that'll help.\"",
+   "ctx": "data/campaign/rules.csv soeDuelTutorialEnd [text]"
+  },
+  {
+   "i": 4,
+   "en": "Neriene sighs, \"It doesn't matter what those children think. I just can't believe grandmother is allowing this to go on. Emboldening people like Cardona is going to cause trouble.\"",
+   "ctx": "data/campaign/rules.csv soeDuelPrepCoward [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"It's, um. Complicated. Political.\" She doesn't like to talk about it, you think. \r\n\r\n\"There are those in the Hegemony that think they - we, I mean; those whose families came from the officers of the Fourteenth Battlegroup - that we're somehow better than everyone else. It's ridiculous.\"",
+   "ctx": "data/campaign/rules.csv soeDuelPrepCoward2 [text]"
+  },
+  {
+   "i": 6,
+   "en": "She hands you the scabbard with the sword, \"This was given to me by my father.\" \r\n\r\n\"But it doesn't have any sentimental value.\" She gives you a quick look, \"I never cared for swordplay.\"",
+   "ctx": "data/campaign/rules.csv soeDuelPrepSword [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"One that has no place in a civilized society,\" she says. \"But I suppose we aren't quite that, are we.\"\r\n\r\nShe looks toward one of the mirrorsets.",
+   "ctx": "data/campaign/rules.csv soeDuelPrepQuaint [text]"
+  },
+  {
+   "i": 8,
+   "en": "Neriene looks doubtful as she hands you the scabbard. \r\n\r\nYou draw the blade in a single movement and demonstrate a lunge or two. The crowd gathering around you cheers and calls boasts toward the other end of the loggia.\r\n\r\n\"Those idiots might have made a bigger mistake than I thought,\" she admits with an impressed look.",
+   "ctx": "data/campaign/rules.csv soeDuelPrepStudied [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"If you're sure,\" she says.\r\n\r\nAs you begin to step away, she adds \"And... give him hell!\"",
+   "ctx": "data/campaign/rules.csv soeDuelPrepReady [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"Good,\" she says, and drops the scabbard onto the pile of dueling kit.",
+   "ctx": "data/campaign/rules.csv soeDuelPrepLeave [text]"
+  },
+  {
+   "i": 11,
+   "en": "The crowd jeers. Neriene gives the closest hecklers a killing look; they quickly discover that they were less enthusiastic about this duel than they had thought. Her status as a member of House Rao and host of the ball does not shield you from general disdain, however, and she quickly leads you through a discreet servants' access lift and back to your shuttle's pad.",
+   "ctx": "data/campaign/rules.csv soeDuelLeaveGo [text]"
+  },
+  {
+   "i": 12,
+   "en": "The staff is efficient; your entourage is summoned without requiring your intervention, though they seem to have been interrupted in the middle of a meal, wiping hands and one guard popping an anti-inebriant.\r\n\r\nShuttle prepped, Neriene sees you off from the launch pad.\r\n\r\n\"Well,\" she says uncomfortably, \"I apologize for... for everything. We're not all clannish brutes.\"",
+   "ctx": "data/campaign/rules.csv soeDuelPrepLeave2 [text]"
+  },
+  {
+   "i": 13,
+   "en": "She nods, accepting your words, her face still grim. \"Until a better time, captain.\" She turns away before you can reply, heading toward the manor complex.",
+   "ctx": "data/campaign/rules.csv soeDuelPrepLeaveWontHold [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"No, I suppose not,\" she says, the start of a smile on her face. \"Until a better time, captain,\" she says then turns away before you can reply, heading toward the manor complex.",
+   "ctx": "data/campaign/rules.csv soeDuelPrepLeaveBravado [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"I'd like that,\" she says, the start of a smile on her face. She looks like she is about to say more, but instead nods quickly and turns away before you can reply, heading toward the manor complex.",
+   "ctx": "data/campaign/rules.csv soeDuelPrepLeaveDatingSim [text]"
+  },
+  {
+   "i": 16,
+   "en": "She looks hurt, opens her mouth to speak, then closes it and quickly turns away, heading toward the manor complex.",
+   "ctx": "data/campaign/rules.csv soeDuelPrepLeaveRude [text]"
+  },
+  {
+   "i": 17,
+   "en": "Dressed in dueling gear and wielding Neriene's sword, you are led to one end of a columned loggia that seems to hang over the valley below. \r\n\r\nMagnus Cardona steps forward, and the crowds withdraw.",
+   "ctx": "data/campaign/rules.csv soeDuelPrepDone [text]"
+  },
+  {
+   "i": 18,
+   "en": "The watching crowd emits a sound of collective sympathetic pain as Cardona falls to the floor with a crack. A tense silence follows.\r\n\r\nSang and his minions look horrified. The onlookers behind them watch, frozen and unsure.",
+   "ctx": "data/campaign/rules.csv soeFightWin [text]"
+  },
+  {
+   "i": 19,
+   "en": "Something large and unseen turns on an invisible fulcrum toward a tipping point, a threshold of critical mass igniting a state change.\r\n\r\nSomeone begins to cheer, then others, with a rising wave of applause and shouts. It is agreed, then, that today we may cheer for the outsider.",
+   "ctx": "data/campaign/rules.csv soeFightWin2 [text]"
+  },
+  {
+   "i": 20,
+   "en": "You find yourself lifted onto the shoulders of excitable revelers who were not your friend only minutes ago. You are carried bodily back into the grand hall, where pressurized potables are uncapped.\r\n\r\nPlaced at the head table like a king, you are presented to those gathered as some kind of cult-object, the avatar of victory, honor, or some other notions that will likely make a lot less sense tomorrow when everyone sobers up.",
+   "ctx": "data/campaign/rules.csv soeFightWin3 [text]"
+  },
+  {
+   "i": 21,
+   "en": "The thought crosses your mind that Neriene's sword is no longer in your hand. You hope someone ensured that it was safely stowed. You catch sight of Neriene's face; she is trying to push through the crowd. She looks at once joyful and concerned.\r\n\r\nAugusta Rao looks on from afar, her expression aloof.",
+   "ctx": "data/campaign/rules.csv soeFightWin4 [text]"
+  },
+  {
+   "i": 22,
+   "en": "Later - how much later you don't care to consider just yet - you stand unsteadily before your shuttle. The manor staff are efficient; your entourage has been summoned. Some look like they've been woken from sleep, and you note one guard stealthily popping an anti-inebriant. They keep their tone professional, but you can tell that they are glowing with pride. Word of your victory obviously spread quickly through the waiting flight crews.\r\n\r\nNeriene appears to see you off from the launch pad. She is well composed despite the excesses of the ball.\r\n\r\n\"You've made some friends tonight,\" Neriene says with a hint of a smile, which fades. \"And some enemies.\"",
+   "ctx": "data/campaign/rules.csv soeFightWin5 [text]"
+  },
+  {
+   "i": 23,
+   "en": "She nods, the hint of a smile returning. \"Maybe.\" She turns away before you can reply, and walks back toward the manor complex.",
+   "ctx": "data/campaign/rules.csv soeFightWinMaybe [text]"
+  },
+  {
+   "i": 24,
+   "en": "Her brow furrows. \"And your friends, I suppose,\" she says, and turns away.\r\n\r\nShe starts back toward the manor complex before you can reply.",
+   "ctx": "data/campaign/rules.csv soeFightWinBravado [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"I'd like that,\" she says, the smile returning.\r\n\r\nShe looks like she might say more but instead nods and turns away, heading back toward the manor complex before you can reply.",
+   "ctx": "data/campaign/rules.csv soeFightWinDatingSim [text]"
+  },
+  {
+   "i": 26,
+   "en": "She nods toward the distant storm clouds, thoughtful, \"I can't say I blame you. Perhaps we shall meet again in a more... civilized context.\"\r\n\r\nWith that, she turns away and heads toward the manor complex.",
+   "ctx": "data/campaign/rules.csv soeFightWinNeverAgain [text]"
+  },
+  {
+   "i": 27,
+   "en": "She looks shocked, \"You actually think I-\" she interrupts herself, holding her palm toward you, her expression hardening.\r\n\r\nNeriene opens her mouth to speak, then closes it and quickly turns away, heading back toward the manor complex.",
+   "ctx": "data/campaign/rules.csv soeFightWinRude [text]"
+  },
+  {
+   "i": 28,
+   "en": "You slowly awaken. You feel distinctly unwell; there is no pain, but instead the wrongness of separated flesh. \r\n\r\nA portable automedic beeps beside you, cold tubes running into your body. A vaguely Neriene Rao-shaped figure asks you something.",
+   "ctx": "data/campaign/rules.csv soeFightLose [text]"
+  },
+  {
+   "i": 29,
+   "en": "You're leaning against a bench, you think, with someone's uniform jacket behind your head. Tall windows glow in the twilight, the blurred forms of revelers moving within.\r\n\r\nThe mirrors have been allowed to set, leaving the sky glowing darkly in deepest blue.",
+   "ctx": "data/campaign/rules.csv soeFightLose1 [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"Come on, let's get you back to your shuttle.\"\r\n\r\nNeriene pulls you to your feet. Your head spins for a moment, then the automedic whirrs. A sense of fragile wellness fills you.\r\n\r\nShe gingerly leads you to a discreet servants' access lift and back to your shuttle's pad.",
+   "ctx": "data/campaign/rules.csv soeFightLose2 [text]"
+  },
+  {
+   "i": 31,
+   "en": "The manor staff are efficient; your entourage has been summoned. They keep their tone professional, but you can tell that their mood is cautious. Word of your loss obviously spread quickly through the waiting flight crews.\r\n\r\nNeriene sees you off from the launch pad.\r\n\r\n\"Well,\" she says uncomfortably, \"I apologize for... for everything. We're not all clannish brutes.\"",
+   "ctx": "data/campaign/rules.csv soeFightLose3 [text]"
+  },
+  {
+   "i": 32,
+   "en": "She nods grimly, accepting your words.\r\n\r\n\"Until a better time, captain.\" She turns away before you can reply, heading toward the manor complex.",
+   "ctx": "data/campaign/rules.csv soeFightLoseWontHold [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"Me too,\" she says with the start of a smile.\r\n\r\n\"Until next time, captain,\" she says, turning back toward the manor complex before you can reply.",
+   "ctx": "data/campaign/rules.csv soeFightLoseParty [text]"
+  },
+  {
+   "i": 34,
+   "en": "Her brow furrows. \"At the academy we were taught to avoid battle on terms set by the enemy.\" \r\n\r\nShe looks like she might say more, but decides against it. With a shake of her head she turns away before you can respond, heading back toward the manor complex.",
+   "ctx": "data/campaign/rules.csv soeFightLoseBravado [text]"
+  },
+  {
+   "i": 35,
+   "en": "\"I'd like that,\" she says, her smile finally returning.\r\n\r\nShe looks like she might say more but instead nods quickly and turns away before you can reply, heading back toward the manor complex.",
+   "ctx": "data/campaign/rules.csv soeFightLoseDatingSim [text]"
+  },
+  {
+   "i": 36,
+   "en": "Your comms officer establishes a connection to the fusion lamp's governor, then switches the command terminal to your display interface.\r\n\r\n\"Welcome, [CUSTOMER NAME]! Please review the spectrum customization options for your Fabrique Orbitale [PRODUCT NAME] below. If you require assistance from a customer service expedition, please contact [COMMS ID CORRUPTED].\"",
+   "ctx": "data/campaign/rules.csv fusionLampBeginPlayer [text]"
+  },
+  {
+   "i": 37,
+   "en": "Your comms officer tries to establish a connection to the fusion lamp's governor interface, but the terminal is secured. Each failed login dumps the display feed back to an advertisement for the \"Fabrique Orbitale Plasma Dynamo\".\r\n\r\nBronzed, athletic sophisticates lounge in the midst of an unlikely display of glassware in primitive-chic luxury as several suns set on some watery horizon; the suns' glows flare to fill the screen with a rising fanfare, which crescendos, then fades to the Fabrique Orbitale logo and its distinctive orbiting-O. \r\n\r\nYou terminate the feed.",
+   "ctx": "data/campaign/rules.csv fusionLampBeginNonPlayer [text]"
+  },
+  {
+   "i": 38,
+   "en": "\"Please consult your Fabrique Orbitale Orbital Fusion Lamp Non-AI Classified Expert System Manual Agent (tm) for instructions on how to reconfigure the Orbital Fusion Lamp Product (tm) for other industrial and military applications.\"\r\n\r\nYour breath catches at the words \"military applications\", but there is no more information forthcoming. And, needless to say, you're not in possession of a Fabrique Orbitale Orbital Fusion Lamp Non-AI Classified Expert System Manual Agent (tm).",
+   "ctx": "data/campaign/rules.csv fusionLampHelp [text]"
+  },
+  {
+   "i": 39,
+   "en": "\"Please enjoy the multitude of color options provided to ensure optimal comfort and health to your [COLONISTS / EMPLOYEES / CUSTOMERS / OTHER].\"\r\n\r\nAfter a moment's contemplation, you decide to set the color to...",
+   "ctx": "data/campaign/rules.csv fusionLampColorOptions [text]"
+  },
+  {
+   "i": 40,
+   "en": "Thank you for using the Fabrique Orbitale Color Selector (tm)!",
+   "ctx": "data/campaign/rules.csv fusionLampOrange [text]"
+  },
+  {
+   "i": 41,
+   "en": "\"It's good to see you, captain.\" says $personName.\r\nOR\r\n\"Greetings, captain.\" says $personName, \"Shall we discuss business?\"",
+   "ctx": "data/campaign/rules.csv contactDefaultGreeting [text]"
+  },
+  {
+   "i": 42,
+   "en": "\"This is $personName,\" $heOrShe says crisply, \"Comm line is open.\"\r\nOR\r\n\"Comms open, $personName speaking. What is your query?\"\r\nOR\r\n\"Line's open. State your request.\"",
+   "ctx": "data/campaign/rules.csv contactGreetingSoldier [text]"
+  },
+  {
+   "i": 43,
+   "en": "\"Blessings be upon you,\" $heOrShe says, making a sign of $hisOrHer faith.\r\nOR\r\n\"Blessings of Ludd be upon you, captain.\"\r\nOR\r\n\"It looks like Providence has brought us together once more, captain.\"",
+   "ctx": "data/campaign/rules.csv contactGreetingFaithful [text]"
+  },
+  {
+   "i": 44,
+   "en": "\"Oh hullo,\" says $personName, \"What's the plan?\"\r\nOR\r\n\"Bright stars and cool jets, capt'n,\" $heOrShe says.",
+   "ctx": "data/campaign/rules.csv contactGreetingSpacer [text]"
+  },
+  {
+   "i": 45,
+   "en": "\"Oh, it's the space captain, how delightful\" says $personName. \"Speaking with you is always so colorful.\"",
+   "ctx": "data/campaign/rules.csv contactGreetingAristo [text]"
+  },
+  {
+   "i": 46,
+   "en": "\"Greetings once more captain,\" says $personName as $heOrShe pulls up a datapad, \"Let me just pull up my agenda and we can proceed.\"",
+   "ctx": "data/campaign/rules.csv contactGreetingOfficial [text]"
+  }
+ ]
+}

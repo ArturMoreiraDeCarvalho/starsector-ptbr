@@ -1,0 +1,181 @@
+{
+ "chunk": 140,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "The rogue subcurate's shouts are quelled by the horrified faces of her apprentices.\r\n\r\n\"I had it under control!\" she says, not quite pleading. \"It would never have been necessary if the Knights attended their duties. They're lax, lax and blind!\"\r\n\r\nShouts, and running steps. A doctor arrives to take over from the Knight-Captain, who, shaken, stands back from the bloody scene illuminated in a ray of sunlight. Shocked apprentices are recruited to help carry Bornanew elsewhere; some kind of on-site infirmary.",
+   "ctx": "data/campaign/rules.csv BFFIarrestShotBornCaught [text]"
+  },
+  {
+   "i": 2,
+   "en": "The Knight-Captain spots you, finally, and approaches. His arms are red to the elbows, his robes turn and spattered with the blood of his brother Knight.\r\n\r\n\"Come now, sister,\" he says coldly. \"Be not careless with your words, for the Inquisitors shall hear all of it. All of it.\"",
+   "ctx": "data/campaign/rules.csv BFFIarrestShotBornCaught2 [text]"
+  },
+  {
+   "i": 3,
+   "en": "You know it is over when the Knight-Captain goes quiet and still. His forearms are red with blood. Everywhere, blood, alit by the shaft of sunlight. Pale faces of apprentices look on, horrified.\r\n\r\nBornanew's body, weakened by Sedge's brutal attack, simply cannot hold out. In a matter of seconds, his life is spilled out of him onto the floor of the scriptorium.\r\n\r\n\"I had it under control,\" Keepfaith says, not quite pleading now. \"It would never have been necessary if the Knights attended their duties. They're lax, lax and blind!\"\r\n\r\nNo one is listening.",
+   "ctx": "data/campaign/rules.csv BFFIarrestShotBornDeadCaught [text]"
+  },
+  {
+   "i": 4,
+   "en": "You know it is over when the Knight-Captain goes quiet and still. His forearms are red with blood. Everywhere, blood, alit by the shaft of sunlight. Pale faces of apprentices look on, horrified.\r\n\r\nBornanew's body, weakened by Sedge's brutal attack, simply cannot hold out. In a matter of seconds, his life is spilled out of him onto the floor of the scriptorium.\r\n\r\nDistant calls and shouts - a doctor arrives, too late.\r\n\r\nSubcurate Keepfaith is nowhere to be seen.",
+   "ctx": "data/campaign/rules.csv BFFIarrestShotBornDead [text]"
+  },
+  {
+   "i": 5,
+   "en": "You shove into Bornanew, your speed making up for his mass, tumbling him away from the barrel of the gun. \r\n\r\nA shot erupts from the carbine.\r\n\r\nLater, you watch a recording of the incident and see your blood anoint an arc of junior assistants of the scriptoria. A fine rain of droplets stains their papers and books.\r\n\r\nIn the moment, however, the world has become indistinct. A feeling like the familiar drift of zero-g overcomes you.",
+   "ctx": "data/campaign/rules.csv BFFIarrestShotShove0 [text]"
+  },
+  {
+   "i": 6,
+   "en": "You fall back, ears buzzing, your eyes brought into line with the mural on the ceiling. Painted clouds and stars dance above you, attached to interlocking toothed wheels. The turning spheres of creation, the orbits and movements of celestial mechanics given literal form.\r\n\r\nIt's funny to you, the spacer, but you cannot laugh.\r\n\r\nYour body is not responding to your commands. Your ship is adrift. Fluxed out. Vent.\r\n\r\nDarkness.",
+   "ctx": "data/campaign/rules.csv BFFIarrestShotShove1 [text]"
+  },
+  {
+   "i": 7,
+   "en": "* * *\r\n\r\nThe cadre of Luddic Knights guarding the Cathedral of Holy Exodus defer to Bornanew's authority.\r\n\r\nKeepfaith is delivered to your shuttle, restrained, and now - away from her small kingdom - is timid but glowering.\r\n\r\n\"I will be absolved,\" she says. \"You shall witness my righteousness before the end.\"\r\n\r\nBornanew shakes his head but does not reply. One of your guards switches on the dampening field so that you will not be troubled by Keepfaith's words.",
+   "ctx": "data/campaign/rules.csv BFFIarrestOutro1 [text]"
+  },
+  {
+   "i": 8,
+   "en": "You return to your $shipOrFleet. After the rogue subcurate is placed in the brig you meet with Bornanew in a briefing room.",
+   "ctx": "data/campaign/rules.csv BFFIarrestOutro2 [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"We must take her to Hesperus,\" he says. \"To the Knight Inquisitors and their justice.\"\r\n\r\nHe stares out at a display of starry space, subdued.\r\n\r\n\"I shall submit my evidence, then the Inquisitors will question her before a quorum of authority determined by the severity of her crime. I suspect more than one archcurate shall be required.\"",
+   "ctx": "data/campaign/rules.csv BFFIarrestOutro3 [text]"
+  },
+  {
+   "i": 10,
+   "en": "He turns to you.\r\n\r\n\"Pleased? That is difficult. What we have uncovered is deeply concerning. As for my penance,\" he grimaces. \"You have not met the Excubitor Orbis of Hesperus.\"\r\n\r\nHe turns back to the stars.",
+   "ctx": "data/campaign/rules.csv BFFIarrestOutroAskPenance [text]"
+  },
+  {
+   "i": 11,
+   "en": "He turns to you.\r\n\r\n\"Pleased? That is difficult. What we have uncovered is deeply concerning. As for my penance,\" he grimaces. \"The Excubitor Orbis of Hesperus would have me punished for the sins he imagines of the Reverend Archcurate Jaspis, and others who do not fully agree with him besides, I am sure. There will be little wordly relief within his domain. But to there I must return.\"\r\n\r\nHe turns back to the stars.",
+   "ctx": "data/campaign/rules.csv BFFIarrestOutroAskPenanceBB [text]"
+  },
+  {
+   "i": 12,
+   "en": "He turns to you.\r\n\r\n\"Pleased? That is difficult. What we have uncovered is deeply concerning. As for my penance,\" he grimaces. \"You have met Excubitor Orbis Oak, yes?\"",
+   "ctx": "data/campaign/rules.csv BFFIarrestOutroAskPenanceB [text]"
+  },
+  {
+   "i": 13,
+   "en": "He nods, then turns back to the stars.",
+   "ctx": "data/campaign/rules.csv BFFIarrestOutroAskPenUnderstand [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"Maybe,\" he says. He is quiet for a moment, nods, then turns back to the stars.",
+   "ctx": "data/campaign/rules.csv BFFIarrestOutroAskPenForgive [text]"
+  },
+  {
+   "i": 15,
+   "en": "You dream of stars, but they flit and dance in the tapestry of the night to music you can't quite hear.",
+   "ctx": "data/campaign/rules.csv BFFIarrestCurateEndGotShot [text]"
+  },
+  {
+   "i": 16,
+   "en": "* * *\r\n\r\nYou awake to the familiar hum of your flagship, in orbit.\r\n\r\nFor a moment, your mind drifts without context. A machine chirps helpfully somewhere.\r\n\r\nYour vision is a blur, slowly resolving like a bad comm-link signal running poorly-adjusted inference algorithms.\r\n\r\nThere's a human-shaped blob. The details come rushing back.",
+   "ctx": "data/campaign/rules.csv BFFIarrestOutroPCshot [text]"
+  },
+  {
+   "i": 17,
+   "en": "The shape leans forward and turns into Bornanew.\r\n\r\n\"Yes, captain,\" he says. \"And you are alive, thank Providence. And your medical team, of course.\"",
+   "ctx": "data/campaign/rules.csv BFFIarrestOutroPCshotA [text]"
+  },
+  {
+   "i": 18,
+   "en": "At least, that's what you try to say. What leaves your mouth is an indeterminate mush of phonemes.\r\n\r\nThe shape leans forward and turns into Bornanew.\r\n\r\n\"You've been shot,\" he says. \"Try not to move.\"",
+   "ctx": "data/campaign/rules.csv BFFIarrestOutroPCshotB [text]"
+  },
+  {
+   "i": 19,
+   "en": "At least, that's what you try to say. What leaves your mouth is an indetermine mush of phonemes.\r\n\r\nThe shape leans forward and turns into Bornanew.\r\n\r\n\"Good morning, captain,\" he says. \"By local reference, anyway.\"",
+   "ctx": "data/campaign/rules.csv BFFIarrestOutroPCshotC [text]"
+  },
+  {
+   "i": 20,
+   "en": "The shape leans forward and turns into Bornanew.\r\n\r\n\"It's just me. Jethro,\" he says. \"Good morning captain. By ah, local reference, anyway.\"",
+   "ctx": "data/campaign/rules.csv BFFIarrestOutroPCshotArroyoA [text]"
+  },
+  {
+   "i": 21,
+   "en": "The shape leans forward and turns into Bornanew.\r\n\r\n\"It's just me. Jeth... um, Jeff,\" he says. \"Good morning captain. By ah, local reference, anyway.\"",
+   "ctx": "data/campaign/rules.csv BFFIarrestOutroPCshotArroyoAj [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"Knight-Captain Larix applied first aid to you.\" Bornanew speaks softly. \"I do think he saved your life.\" \r\n\r\nHe leans back. \"And I, I managed to catch Keepfaith before she could flee. She's in the brig, now. And no longer a subcurate. The Reverend Archcurate of the Cathedral of Holy Exodus - Bywater, his name is - was quite distraught about the shooting. He revoked her curateship.\"\r\n\r\nHe pauses a moment to let everything sink in.",
+   "ctx": "data/campaign/rules.csv BFFIarrestOutroPCshot2 [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"Please, not yet,\" he says. \"Be at ease.\"\r\n\r\n\"Keepfaith should be given over to the Knight-Inquisitors, on Hesperus. She still must be investigated for her crimes and put before a quorum of appropriate authority for judgement.\" He pauses. \"Her other crimes, I mean. We have a score of witnesses for the shooting, and...\"\r\n\r\nHe trails off, knowing little need be said of that just now. Another voice speaks, from outside the room - the medical recovery bay.",
+   "ctx": "data/campaign/rules.csv BFFIarrestOutroPCshot3 [text]"
+  },
+  {
+   "i": 24,
+   "en": "Bornanew nods at some instruction then, standing up, looks back to you.\r\n\r\n\"Thank you, captain. For my life, again.\"",
+   "ctx": "data/campaign/rules.csv BFFIarrestOutroPCshot4 [text]"
+  },
+  {
+   "i": 25,
+   "en": "You are of little use in the search, being unfamiliar with the cathedral. The Knight-Captain whose name you almost forgot to ask - \"Larix,\" he said, \"Knight-Captain Dejan Larix\" before shouting orders to a hastily assembled squad of Knight-Novices, all obviously far younger than Bornanew.\r\n\r\nBornanew, for one, is stabilized in the infirmary, part of the sprawling church infrastructure spilling from the cathedral. ",
+   "ctx": "data/campaign/rules.csv BFFIarrestOutroEscape [text]"
+  },
+  {
+   "i": 26,
+   "en": "* * *\r\n\r\nYou are nearly forgotten in the chaos. Before long, a meek apprentice directs you to the offices of the Luddic Knights where you make a statement and discuss the incident with the Knight-Captain. You only just remember to ask him his name. \r\n\r\n\"Larix,\" he says, \"Knight-Captain Dejan Larix\" before shouting orders to a hastily assembled squad of Knight-novices, all obviously far younger than Bornanew.\r\n\r\nWho, for one, is stabilized in the infirmary, part of the sprawling church infrastructure spilling from the cathedral. ",
+   "ctx": "data/campaign/rules.csv BFFIarrestOutroCaught [text]"
+  },
+  {
+   "i": 27,
+   "en": "The resident physician is more practical than traditional, and sees fit to consult with your own chief medical officer. A patient transfer is arranged, and even a special dispensation (granted by the embarrassed archcurate) to land a shuttle on a field near to the Cathedral of Holy Exodus.\r\n\r\nThe implicit use of technologies which would be awkward to employ on Church grounds to save Bornanew's life is left unsaid.",
+   "ctx": "data/campaign/rules.csv BFFIarrestOutroInjured [text]"
+  },
+  {
+   "i": 28,
+   "en": "The cadre of Luddic Knights guarding the Cathedral of Holy Exodus defer to Bornanew's authority, despite his unconsciousness.\r\n\r\nKeepfaith, just Cedra now that her subcurateship has been summarily revoked by order of the archcurate, is delivered to you flagship. She is restrained, and now - away from her small kingdom - timid, though still glowering.\r\n\r\n\"I will be absolved,\" she says hoarsely. \"You shall witness my righteousness before the end.\"\r\n\r\nOne of your guards closes the brig door, its weight silent.",
+   "ctx": "data/campaign/rules.csv BFFIarrestOutroInjured2 [text]"
+  },
+  {
+   "i": 29,
+   "en": "The cadre of Luddic Knights guarding the Cathedral of Holy Exodus defer to Bornanew's authority, despite his unconsciousness.\r\n\r\nKeepfaith, just Cedra now that her subcurateship has been summarily revoked by order of the archcurate, is nowhere to be found. You can only speculate that she called upon her Pather contacts for assistance.",
+   "ctx": "data/campaign/rules.csv BFFIarrestOutroInjured2escape [text]"
+  },
+  {
+   "i": 30,
+   "en": "It is some time before Bornanew regains consciousness.\r\n\r\nYour chief medical officer hovers nearby, giving you a stern look. You know you will not be allowed to overtrouble their patient.",
+   "ctx": "data/campaign/rules.csv BFFIarrestOutroInjured3 [text]"
+  },
+  {
+   "i": 31,
+   "en": "Bornanew is pale, his breathing shallow. \"To Hesperus,\" he says. \"To the Knights of Ludd.\"\r\n\r\n\"Inquisitors,\" he whispers, then carefully turns his head toward a display of starry space and the orb of Tartessus. \"Justice.\" \r\n\r\nHe closes his eyes. Mouth open, still breathing.\r\n\r\nYou feel a movement in the air. Your chief medical officer hovers meaningfully, waiting for you to choose to leave, now.",
+   "ctx": "data/campaign/rules.csv BFFIarrestOutroInjured4 [text]"
+  },
+  {
+   "i": 32,
+   "en": "Bornanew is pale, his breathing shallow. \"To Hesperus,\" he says. \"To the Knights of Ludd.\"\r\n\r\n\"Excubitor Orbis,\" he whispers, then carefully turns his head toward a display of starry space and the orb of Tartessus. \"Penance.\" \r\n\r\nHe closes his eyes. Mouth open, still breathing.\r\n\r\nYou feel a movement in the air. Your chief medical officer hovers meaningfully, waiting for you to choose to leave, now.",
+   "ctx": "data/campaign/rules.csv BFFIarrestOutroInjured4escape [text]"
+  },
+  {
+   "i": 33,
+   "en": "Later, back on your flagship in orbit, you find instructions on Bornanew's cheap datapad.\r\n\r\n\"If you hear these words, then I am returned to the arms of Providence,\" it begins.\r\n\r\nYou are to take his mortal remains to Hesperus, to the Knights of Ludd, so that it may rest with the fellow-walkers he knew for only a short time.",
+   "ctx": "data/campaign/rules.csv BFFIarrestOutroDead [text]"
+  },
+  {
+   "i": 34,
+   "en": "* * *\r\n\r\nYou are nearly forgotten in the chaos. Before long, a meek apprentice directs you to the offices of the Luddic Knights where you make a statement and discuss the incident with the Knight-Captain. You only just remember to ask him his name. \r\n\r\n\"Larix,\" he says, \"Knight-Captain Dejan Larix\" before shouting orders to a hastily assembled squad of Knight-novices, all obviously far younger than Bornanew is.\r\n\r\nThan Bornanew was.",
+   "ctx": "data/campaign/rules.csv BFFIarrestOutroDead2caught [text]"
+  },
+  {
+   "i": 35,
+   "en": "The Knight-Captain helped organize a search for Keepfaith.\r\n\r\nYou had almost forgotten to ask his name - \"Larix,\" he said, drained of emotion. \"Dejan Larix.\"\r\n\r\n\"For the small moment I knew him, I knew he was a good man. A good Knight. Damned but that it had to be my hand...\" he trailed off then, hiding his eyes.\r\n\r\nYou left him to return to your shuttle.",
+   "ctx": "data/campaign/rules.csv BFFIarrestOutroDead2 [text]"
+  }
+ ]
+}

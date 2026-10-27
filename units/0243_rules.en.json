@@ -1,0 +1,171 @@
+{
+ "chunk": 243,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"More's the pity,\" the pirate says coldly, drawing the line of a tear down $hisOrHer face.\r\n\r\nThe comms cut to a distorted skull overlaid on scenes of ultraviolence; a common affectation of dedicated, professional pirates.",
+   "ctx": "data/campaign/rules.csv affkDeclineSel2 [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"Of course you will,\" $heOrShe says, \"For when Kanta demands blood, she will have blood. One way or another.\"",
+   "ctx": "data/campaign/rules.csv affkAcceptSelA [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"I am certain,\" $heOrShe says, \"That Kanta will herself be most pleased by the blood and ruin you create for her.\"",
+   "ctx": "data/campaign/rules.csv affkAcceptSelB [text]"
+  },
+  {
+   "i": 4,
+   "en": "Kanta's minion transfers you the relevant data to perform the operation: a cursory nav entry providing no useful tactical info, a quick skim tells you. Your approach is all up to you. It would definitely be prudent to launch the attack with your transponder off, for starters...\r\n\r\n$HeOrShe bares $hisOrHer protruding diamond canines - a hot look among certain crowds, you're sure. \"Remember to have fun,\" $heOrShe says, then cuts the link.",
+   "ctx": "data/campaign/rules.csv affkAcceptSel [text]"
+  },
+  {
+   "i": 5,
+   "en": "The comm-link flickers as it establishes the connection. Some error codes flash by, something about outdated protocols and unauthorized modifications.\r\n\r\nThe pirate $rank appears, arms crossed. \"Captain $playerName. I bring you greetings from the Warlord Kanta. She has been watching your career and is pleased that you are prospering under her protection agreement.\"",
+   "ctx": "data/campaign/rules.csv KantaFavorCourierHailFailed [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"Nothing,\" $heOrShe says. \"Yet.\" \r\n\r\nThe pirate flashes a sharp-toothed smile, diamond canines flashing, then hits the comms cutoff.",
+   "ctx": "data/campaign/rules.csv KantaFavorCourierHailFailedA [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Yes,\" $heOrShe says, unamused at your flippant remark, \"You should be thankful. You have been spared the Warlord Kanta's thirst for blood and ruin. For now.\" \r\n\r\n$HeOrShe leans in, \"When that thirst awakens, you will provide her with what she demands.\" The pirate flashes a sharp-toothed smile, diamond canines flashing, \"One way, or another.\"\r\n\r\n$HeOrShe hits the comms cutoff.",
+   "ctx": "data/campaign/rules.csv KantaFavorCourierHailFailedB [text]"
+  },
+  {
+   "i": 8,
+   "en": "$marketName fills your bridge tactical display, a spatter of hollowed icons representing dead targets. The last one blinks out. This should make the Warlord Kanta happy, if she is even capable of that emotion anymore.\r\n\r\nYou wave a hand to collapse the tactical display, and it winks out obediently. The holomatrix snows then reforms a navigational overview, your $shipOrFleet holding station in the center.",
+   "ctx": "data/campaign/rules.csv affkBombardmentFinished [text]"
+  },
+  {
+   "i": 9,
+   "en": "The comms flicker and spit, resolving into the grinning image of $post.\r\n\r\n\"Well, well, well,\" $heOrShe drawls. \"An independent proprietor has come to my humble outpost. Whatever for?\" $HeOrShe puts on a perplexed look, \"I've heard that it's dangerous out here.\"",
+   "ctx": "data/campaign/rules.csv pirateStationKingGreeting [text]"
+  },
+  {
+   "i": 10,
+   "en": "The comms flicker and spit, resolving into the frowning image of $post.\r\n\r\n\"The prey crawls before me,\" $heOrShe says, glaring. \"Why should we believe what it has to say?\"",
+   "ctx": "data/campaign/rules.csv pirateSKGreetingUntrusted [text]"
+  },
+  {
+   "i": 11,
+   "en": "The comms flicker and spit, resolving into the scowling image of $post.\r\n\r\n\"Look at you, prey. Writhing and lying and tricking to escape from our trap.\"\r\n\r\n\"We'll bleed you dry,\" $heOrShe hisses. ",
+   "ctx": "data/campaign/rules.csv pirateSKGreetingUntrustedBad [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"So we do, so we do. It is pleasing that you've decided to be civilized about it,\" the pirate puts on a self-satisfied smile.\r\n\r\n\"The fringe is dangerous!\" $heOrShe explains, \"And my people hungry. I propose that you provide me with 10% of the gross income of your colony. I shall see that my compatriots, ah, protect your trade lanes and rein in the desperate scavengers who might feel enticed to raid for much-needed supplies.\"",
+   "ctx": "data/campaign/rules.csv pirateStationKingBusinessSel [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"So we do, so we do.\" The pirate does not smile. \"And yet. You say 'business', but I'm no fool - I've heard of your treachery. Call me a pirate, but I rob and kill honestly.\"\r\n\r\n$HeOrShe continues without considering $himOrHerself to have made any kind of contradiction, \"I am also known for my forgiving moods. So I shall offer you a chance to repair your reputation: give me 10% of the gross income from your colony. My compatriots will protect your trade lanes and rein in the desperate scavengers who might feel enticed to raid for much-needed supplies.\"\r\n\r\n$HeOrShe puts on a conciliatory grin.",
+   "ctx": "data/campaign/rules.csv pirateStationKingBusinessSelUntrusted [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"Business? You're a liar, captain. I'd respect if you shot me in the back, but only if you did it honestly. This?\" $HeOrShe shakes $hisOrHer head in disgust, apparently, at your duplicity.\r\n\r\n\"I'll not be your next fool. The only business there is to do between us will be done through ships of war.\"",
+   "ctx": "data/campaign/rules.csv pirateStationKingBusinessSelUntrustedBad [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"Come now,\" $heOrShe says. \"I respect that you... ended our previous, ah, agreement to my face. You aren't a coward, I'll give you that much.\"\r\n\r\n$HeOrShe sighs, shaking $hisOrHer head. \"Coward or not, you also aren't to be trusted.\" $HeOrShe spreads $hisOrHer hands, acting the thoughtful administrator. \"I have people to care for. How can I do that if tomorrow you might come to me and tell me our deal is off? That's no way to deal.\"",
+   "ctx": "data/campaign/rules.csv pirateStationKingBusinessSelEndedFaceToFace [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"I'm afraid my compatriots will accept no less. In my position, I must... provide. A king who does not provide...\" \r\n\r\nA note of legitimate worry seems to have entered $hisOrHer voice. $HeOrShe tries to cover it by re-asserting a smug smile, but it is half-hearted at best.\r\n\r\n\"Come now; as the king of a gang yourself - whatever you want to call it - you understand. We are all shackled in a great chain from high to low and low to high. The weak must pledge what strength they have to the powerful so that they are not crushed.\"",
+   "ctx": "data/campaign/rules.csv pirateSKtooMuchReasonable [text]"
+  },
+  {
+   "i": 17,
+   "en": "$HeOrShe shrugs, smile wavering.",
+   "ctx": "data/campaign/rules.csv pirateSKtooMuchReasonableA [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"I, um.\" $HeOrShe realizes that $heOrShe has walked into a trap of $hisOrHer own making - and coughs, lamely.\r\n\r\n\"And possibly even among possible equals, each must contribute what they are best able, don't you agree? A few credits for protection, it's a fair trade.\"",
+   "ctx": "data/campaign/rules.csv pirateSKtooMuchReasonableC [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"And an admirable fleet it is,\" $heOrShe admits, giving a moment of dainty applause. \"But greater empires than yours have sent fleets to sweep away the rubbish, yes?\"\r\n\r\n$HeOrShe leans closer to the comm-interface, smile gone. \"Believe me, captain, I have no desire for this to come to a fight. My crews... they have expectations. If I do not meet them, they will toss me out the airlock and find someone who will.\"\r\n\r\n$HeOrShe sits back. \"Heavy is the crown,\" $heOrShe mutters grimly.",
+   "ctx": "data/campaign/rules.csv pirateSKtooMuchFleet [text]"
+  },
+  {
+   "i": 20,
+   "en": "The pirate snorts and crosses $hisOrHer arms. \"Listening.\"\r\n\r\nYou pull up the report prepared by your quartermaster and begin reading the executive summary, taking care to enunciate the large numbers describing the credits moving through your properties.\r\n\r\nIt takes little to inflame the pirate's greed. You pause dramatically and look over your TriPad; $personName licks $hisOrHer lips and says \"You have yourself a deal.\"",
+   "ctx": "data/campaign/rules.csv psk_acceptStorySel [text]"
+  },
+  {
+   "i": 21,
+   "en": "$HeOrShe shakes $hisOrHer head as if sad, \"I tried, didn't I. It'd be such a shame if something happened to your lovely little colony.\"",
+   "ctx": "data/campaign/rules.csv pirateStationKingDeclineSel [text]"
+  },
+  {
+   "i": 22,
+   "en": "The pirate pulls a bottle of something from behind $hisOrHer comms console, and lifts it up.\r\n\r\n\"To our mutual betterment!\" $heOrShe declares, then takes a long glug. $HeOrShe slams the bottle on the console, and wipes $hisOrHer mouth with $hisOrHer sleeve, not quite suppressing a belch.\r\n\r\nAnd with that it seems that your 'arrangement' is sealed.",
+   "ctx": "data/campaign/rules.csv pirateStationKingAcceptSel [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"Oh!\" $HeOrShe actually jumps a bit with the shock of your pronouncement, but quickly tries to play it cool. \"More's the pity. This'll be a black mark on my otherwise perfect day. But,\" $heOrShe shrugs, \"I get it. Gotta look out for number one. If you don't, you look like easy prey.\"\r\n\r\n$HeOrShe thumps $hisOrHer chest, almost managing to hide the tremble in $hisOrHer hands. \"Point made, message received. Now, will you reconsider?\"",
+   "ctx": "data/campaign/rules.csv psk_cancelDealSel [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"Wisely done, captain.\" $HeOrShe tries to conceal $hisOrHer relief. \"Why fight when our arrangement means we can each spend more time enjoying the better things in life?\"\r\n\r\n$HeOrShe flicks a grubby bottle of something stashed beside the comms console, making a distinct 'ting' sound.",
+   "ctx": "data/campaign/rules.csv psk_cancelDealNeverMidn [text]"
+  },
+  {
+   "i": 25,
+   "en": "$HeOrShe goes still. \"I, I think we understand one another, $playerName.\"\r\n\r\n\"My raiders will be hunting you. Don't bore them, now.\" The $post makes a toothy and joyless grimace.",
+   "ctx": "data/campaign/rules.csv psk_cancelDealConfirm [text]"
+  },
+  {
+   "i": 26,
+   "en": "The link snaps to life.\r\n\r\n\"Hailing suspicious fleet operating in non-chartered volume,\" the League $Post looks down at you like they've caught a small-time ore-smuggler. \"This task force acts in the legitimate interest of the Persean League to regulate safe travel and freedom of commerce per interfactional law.\"\r\n\r\n$HeOrShe raises $hisOrHer chin another couple degrees, \"As the apparent representative of a non-League entity and non-signatory to the Persean Sector commercial standards accord, you are hereby ordered to stand down your weapons. Prepare to be boarded.\"\r\n\r\nDictum concluded, $heOrShe sneers. \"We're here to make sure you're civilized, spacer. Open up.\"",
+   "ctx": "data/campaign/rules.csv plEnforcerComms [text]"
+  },
+  {
+   "i": 27,
+   "en": "The link snaps to life.\r\n\r\n\"Hailing suspicious fleet operating in non-chartered volume,\" the League $Post stares officiously at you. \"This task force acts in the legitimate interest of the Persean League to regulate safe travel and freedom of commerce per interfactional law.\"\r\n\r\n$HeOrShe raises $hisOrHer chin a couple degrees, \"As the apparent representative of a non-League entity and non-signatory to the Persean Sector commercial standards accord, you are hereby ordered to stand down your weapons. Prepare to be boarded for standard inspection.\"",
+   "ctx": "data/campaign/rules.csv plEnforcerCommsWeaker [text]"
+  },
+  {
+   "i": 28,
+   "en": "The inspection teams are not gentle, tearing open hatches, rummaging through carefully organized stocks, and running active scans directly through sensitive equipment clusters.\r\n\r\nComplaints from your $shipOrFleet's officers are met by stony bureaucratic obfuscation. \"Claim forms may be submitted to seek recompense for 'regrettably unavoidable' damage incurred during inspection\", but \"one shouldn't expect a response from the investigatory body for at least a cycle\".",
+   "ctx": "data/campaign/rules.csv plEnforcerComplySel [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"You're free to go, spacer,\" the League $Post sniffs dismissively. \"Don't let me catch you out here again.\"",
+   "ctx": "data/campaign/rules.csv plEnforcerComplySel2 [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"Do you have something to hide?\" $HisOrHer tone grows dismissive, \"Captain.\"\r\n\r\n\"Attempting to avoid a legitimate commerce regulation inspection per interfactional law is highly suspicious. Is it drugs? Illegally harvested organs? We'll find out.\"\r\n\r\nThe League $Post speaks aside, \"Prepare the boarding parties. Give orders to be especially... thorough. We're dealing with some prime space-scum.\"",
+   "ctx": "data/campaign/rules.csv plEnforcerRefuseSel [text]"
+  },
+  {
+   "i": 31,
+   "en": "The League $Post's face freezes for a moment. Then $heOrShe speaks.\r\n\r\n\"You seem like an upstanding independent operator.\" $HeOrShe nods, the very image of reasonable authority. \"I'm going to let you go with a warning. There are some bad folks out here, captain. Someone has to keep them in line.\"\r\n\r\n$HeOrShe produces a strained smile. \"You're free to go.\"",
+   "ctx": "data/campaign/rules.csv plEnforcerRefusePlayerStrongerSel [text]"
+  },
+  {
+   "i": 32,
+   "en": "$HisOrHer eyebrows raise. \"You would need to speak with a prominent representative of the League Council on Kazeron about membership. As a member, of course, you would not be subject to random commerce safety inspections unless exceptional conditions were met.\"\r\n\r\n\"We have real rights, you know,\" $heOrShe says. A believer, it appears. \"Unlike some factions.\"",
+   "ctx": "data/campaign/rules.csv plEnforcerJoinLeagueSel [text]"
+  },
+  {
+   "i": 33,
+   "en": "A smile actually breaks across the League $Post's face. \"I had a good feeling about you, captain. I must apologize for my... assertive words. As an independent authority yourself, I am sure you understand fully the need to stand up to those factions which would trample our rights in the name of some dead empire or backward religion.\"\r\n\r\n$HeOrShe gives some hand-signal to someone off-image. \"You're free to go, of course. You'll find the shipyards of Kazeron an excellent place to refit and replenish. There's no finer works in the Sector, if you ask me.\"\r\n\r\n\"Burn bright! I'll welcome you to the League on our next meeting.\"",
+   "ctx": "data/campaign/rules.csv plEnforcerJoinLeagueGoodSel [text]"
+  }
+ ]
+}

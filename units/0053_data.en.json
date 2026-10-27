@@ -1,0 +1,351 @@
+{
+ "chunk": 53,
+ "cat": "data",
+ "items": [
+  {
+   "i": 1,
+   "en": "Several bombs were found and defused in key Sindrian industrial centers. Facilities all over the planet have been shut down and searched for bombs. A Diktat official announced the assembly of a special taskforce to find the perpetrators.",
+   "ctx": "data/campaign/reports.csv sindria_terrorists/start2/news/ [summary]"
+  },
+  {
+   "i": 2,
+   "en": "A series of bombings targeting Diktat administration offices has taken place on Sindria. A statement released by Diktat officials promised that the terrorists would be brought swift justice.",
+   "ctx": "data/campaign/reports.csv sindria_terrorists/start3/news/ [summary]"
+  },
+  {
+   "i": 3,
+   "en": "Several explosions rocked the upper levels of major hive cities; terrorist leaders have released a holovid statement saying that the bombings will continue until certain political prisoners held on Cruor are released by Diktat authorities. ",
+   "ctx": "data/campaign/reports.csv sindria_terrorists/continued1/news/ [summary]"
+  },
+  {
+   "i": 4,
+   "en": "Terrorist gunmen stormed a Diktat naval recruitment center today. All were killed in a firefight that raged for hours, leading to scores of civilian casualties. Diktat officials have condemned the cowardly act.",
+   "ctx": "data/campaign/reports.csv sindria_terrorists/continued2/news/ [summary]"
+  },
+  {
+   "i": 5,
+   "en": "A terrorist safehouse was stormed by security forces but found abandoned. Diktat Intelligence officials claim that they have found evidence which will help track down the terrorists.",
+   "ctx": "data/campaign/reports.csv sindria_terrorists/concluding1/news/ [summary]"
+  },
+  {
+   "i": 6,
+   "en": "A terrorist henchman was captured and interrogated by Diktat intelligence. Officials state that the hunt for the terrorist leaders is nearing an end.",
+   "ctx": "data/campaign/reports.csv sindria_terrorists/concluding2/news/ [summary]"
+  },
+  {
+   "i": 7,
+   "en": "Several terrorist safehouses were raided by Diktat security forces in a sudden early morning operation. Improperly stored munitions detonated, say officials, leaving no survivors.",
+   "ctx": "data/campaign/reports.csv sindria_terrorists/end1/news/ [summary]"
+  },
+  {
+   "i": 8,
+   "en": "Diktat security forces have captured terrorist leaders attempting to flee Sindria. Officials have stated that after they are intergated by Diktat Intelligence there will be a swift trial and public execution.",
+   "ctx": "data/campaign/reports.csv sindria_terrorists/end2/news/ [summary]"
+  },
+  {
+   "i": 9,
+   "en": "Increased food prices and reduced stability $onOrAt $market if the shortage occurs.",
+   "ctx": "data/campaign/reports.csv food_shortage/possible/player_intel/ [assessment]"
+  },
+  {
+   "i": 10,
+   "en": "Relief fleet likely to be sent from a nearby star system; intercepting it will extend the shortage and further destabilize $market.\n\nSelling food on black market will increase post-shortage unrest.",
+   "ctx": "data/campaign/reports.csv food_shortage/likely/hegemony_internal/HOSTILE [assessment]"
+  },
+  {
+   "i": 11,
+   "en": "Delivering enough food to $market quickly will reduce the duration and impact of the shortage.",
+   "ctx": "data/campaign/reports.csv food_shortage/likely/hegemony_internal/FRIENDLY [assessment]"
+  },
+  {
+   "i": 12,
+   "en": "Increased food prices $onOrAt $market.\n\nStability reduced by $stabilityPenalty.\n\nApproximately $neededFood units of food needed to end shortage.\nRelief fleet likely to be sent from a nearby star system.\n\nIncreased reputation impact from selling food. Selling food on black market will increase post-shortage unrest.",
+   "ctx": "data/campaign/reports.csv food_shortage/start/news/ [assessment]"
+  },
+  {
+   "i": 13,
+   "en": "Increased food prices $onOrAt $market.\n\nStability reduced by $stabilityPenalty.\n\nApproximately $neededFood units of food needed to end shortage.\n\nRelief fleet likely to be sent from a nearby star system.\n\nIncreased reputation impact from selling food. Selling food on black market will increase post-shortage unrest.",
+   "ctx": "data/campaign/reports.csv food_shortage/start/hegemony_public/HOSTILE [assessment]"
+  },
+  {
+   "i": 14,
+   "en": "Fleet is carrying enough food to end the shortage.\n\nIf the fleet does not arrive as expected, the situation at $market will destabilize further.",
+   "ctx": "data/campaign/reports.csv food_shortage/warning_relief/player_intel/ [assessment]"
+  },
+  {
+   "i": 15,
+   "en": "Unrest increased by $stabilityPenaltyRelief.",
+   "ctx": "data/campaign/reports.csv food_shortage/relief_unavailable/news/ [assessment]"
+  },
+  {
+   "i": 16,
+   "en": "Unrest increased by $stabilityPenaltyEnd.\n\nFood prices $onOrAt $market are back to their normal levels.",
+   "ctx": "data/campaign/reports.csv food_shortage/end_relief_arrived/news/ [assessment]"
+  },
+  {
+   "i": 17,
+   "en": "Unrest increased by $stabilityPenaltyExpire.\nFood prices $onOrAt $market are back to their normal levels.",
+   "ctx": "data/campaign/reports.csv food_shortage/end_expired/news/ [assessment]"
+  },
+  {
+   "i": 18,
+   "en": "Unrest increased by $stabilityPenaltyEnd.\nFood prices $onOrAt $market are back to their normal levels.",
+   "ctx": "data/campaign/reports.csv food_shortage/end_player/news/ [assessment]"
+  },
+  {
+   "i": 19,
+   "en": "Unrest increased by $stabilityPenaltyEndBlack.\n\nFood prices $onOrAt $market are back to their normal levels.",
+   "ctx": "data/campaign/reports.csv food_shortage/end_player_black/news/ [assessment]"
+  },
+  {
+   "i": 20,
+   "en": "No unrest increase $onOrAt $market.\n\nFood prices $onOrAt $market are back to their normal levels.",
+   "ctx": "data/campaign/reports.csv food_shortage/end_player_fast/news/ [assessment]"
+  },
+  {
+   "i": 21,
+   "en": "If the investigation finds you involved in the smuggling, $theMarketFaction will become inhospitable towards you.\n\n$InvestigatorPost $investigatorName is charged with carrying out the investigation. You may be able to influence the outcome by contacting $invHimOrHer.\n\nThe investigation will last for $duration.",
+   "ctx": "data/campaign/reports.csv investigation_smuggling/start_smuggling/secure_comm/ [assessment]"
+  },
+  {
+   "i": 22,
+   "en": "Relationship with $theMarketFaction is unaffected.",
+   "ctx": "data/campaign/reports.csv investigation_smuggling/clear_smuggling/player_intel_always/ [assessment]"
+  },
+  {
+   "i": 23,
+   "en": "Bribe to $InvestigatorPost $investigatorName was effective.\n\nRelationship with $theMarketFaction is unaffected.",
+   "ctx": "data/campaign/reports.csv investigation_smuggling/clear_smuggling_bribe/player_intel_always/ [assessment]"
+  },
+  {
+   "i": 24,
+   "en": "$TheMarketFaction may become hostile towards you as a result of the investigation.\n\n$InvestigatorPost $investigatorName $onOrAt $market is charged with carrying out the investigation. You may be able to influence the outcome by contacting $invHimOrHer.\n\nThe investigation will last for $duration.",
+   "ctx": "data/campaign/reports.csv investigation_goodrep/start_goodrep/secure_comm/ [assessment]"
+  },
+  {
+   "i": 25,
+   "en": "Comm sniffer at $name is no longer operational.",
+   "ctx": "data/campaign/reports.csv investigation_comm_sniffer/start_comm_sniffer/player_intel_always/ [assessment]"
+  },
+  {
+   "i": 26,
+   "en": "Prices likely to revert to norm within two months.\n\nThe following commodities are affected:\n$commoditySummary\n\nSelect \"prices\" and switch to the map tab for details.",
+   "ctx": "data/campaign/reports.csv trade_disruption/report_td/news/ [assessment]"
+  },
+  {
+   "i": 27,
+   "en": "Stability reduced by $smugglingPenalty.",
+   "ctx": "data/campaign/reports.csv trade_disruption/report_smuggling/news/ [assessment]"
+  },
+  {
+   "i": 28,
+   "en": "Stability reduced by $smugglingPenalty.\n\nYour recent actions have contributed to the situation.",
+   "ctx": "data/campaign/reports.csv trade_disruption/report_smuggling_player/news/ [assessment]"
+  },
+  {
+   "i": 29,
+   "en": "Your activity initially reported by parties at $hostileMarket.\n\nSmuggling (if any) had less of an impact than open trade.",
+   "ctx": "data/campaign/reports.csv rep_tracker/trade_negative/player_intel_always/ [assessment]"
+  },
+  {
+   "i": 30,
+   "en": "Gained $xpGain experience.",
+   "ctx": "data/campaign/reports.csv rep_tracker/trade_xp_gain/player_intel_always/ [assessment]"
+  },
+  {
+   "i": 31,
+   "en": "News of the battle initially picked up by parties at $market.",
+   "ctx": "data/campaign/reports.csv rep_tracker/battle_rep_positive/secure_comm/ [assessment]"
+  },
+  {
+   "i": 32,
+   "en": "$priceList",
+   "ctx": "data/campaign/reports.csv trade_info/prices_market/player_intel_always/ [assessment]"
+  },
+  {
+   "i": 33,
+   "en": "Will last for $daysLeft days.\n\nAmount paid depends on ships destroyed (starting at $baseBounty credits for a frigate), standing with $theMarketFaction may also improve.\n\nShips must be destroyed or disabled in-system or nearby in hyperspace.\n\nPayment delivered via secure comm channel through a nearby comm relay.\n",
+   "ctx": "data/campaign/reports.csv system_bounty/start/news/ [assessment]"
+  },
+  {
+   "i": 34,
+   "en": "Will last for $daysLeft days.\n\nLikely triggered by $enemyFaction activity in the system.\n\nAmount paid depends on ships destroyed (starting at $baseBounty credits for a frigate), standing with $theMarketFaction may also improve.\n\nShips must be destroyed or disabled in-system or nearby in hyperspace.\n\nPayment delivered via secure comm channel through a nearby comm relay.\n",
+   "ctx": "data/campaign/reports.csv system_bounty/start_with_faction/news/ [assessment]"
+  },
+  {
+   "i": 35,
+   "en": "$bountyCredits credits gained.\n\n$market will continue to offer the bounty for $daysLeft day(s).",
+   "ctx": "data/campaign/reports.csv system_bounty/bounty_payment/secure_comm/ [assessment]"
+  },
+  {
+   "i": 36,
+   "en": "No bounty payment due to $theMarketFaction being $factionStanding towards you.\n\n$market will continue to offer the bounty for $daysLeft day(s).",
+   "ctx": "data/campaign/reports.csv system_bounty/bounty_no_payment/player_intel_always/ [assessment]"
+  },
+  {
+   "i": 37,
+   "en": "No bounty payment or relationship improvement due to $theMarketFaction being $factionStanding towards you.\n\n$market will continue to offer the bounty for $daysLeft day(s).",
+   "ctx": "data/campaign/reports.csv system_bounty/bounty_no_rep/player_intel_always/ [assessment]"
+  },
+  {
+   "i": 38,
+   "en": "No more bounty payments will be made.",
+   "ctx": "data/campaign/reports.csv system_bounty/end/news/ [assessment]"
+  },
+  {
+   "i": 39,
+   "en": "Improves the chances of accurately predicting future events in the star system.",
+   "ctx": "data/campaign/reports.csv comm_sniffer/report/player_comm_sniffer/ [assessment]"
+  },
+  {
+   "i": 40,
+   "en": "$bountyCredits credit reward, delivered via secure comm channel through a nearby comm relay.\n\nOffered for $daysLeft days.\n\n$targetDesc\n\nRumored to be $hideoutCrumb.",
+   "ctx": "data/campaign/reports.csv person_bounty/start_pirate/news/ [assessment]"
+  },
+  {
+   "i": 41,
+   "en": "$bountyCredits credit reward delivered via secure comm channel through a nearby comm relay.\n\nOffered for $daysLeft days.\n\n$targetDesc\n\nRumored to be $hideoutCrumb.",
+   "ctx": "data/campaign/reports.csv person_bounty/start_deserter/news/ [assessment]"
+  },
+  {
+   "i": 42,
+   "en": "$bountyCredits credits gained.",
+   "ctx": "data/campaign/reports.csv person_bounty/bounty_payment_end/secure_comm/ [assessment]"
+  },
+  {
+   "i": 43,
+   "en": "No bounty payment due to $theFaction being $factionStanding towards you.",
+   "ctx": "data/campaign/reports.csv person_bounty/bounty_no_payment_end/player_intel_always/ [assessment]"
+  },
+  {
+   "i": 44,
+   "en": "No bounty payment or relationship improvement due to $theFaction being $factionStanding towards you.",
+   "ctx": "data/campaign/reports.csv person_bounty/bounty_no_rep_end/player_intel_always/ [assessment]"
+  },
+  {
+   "i": 45,
+   "en": "The bounty is no longer on offer.",
+   "ctx": "data/campaign/reports.csv person_bounty/other_end/news/ [assessment]"
+  },
+  {
+   "i": 46,
+   "en": "No rewards are likely forthcoming.",
+   "ctx": "data/campaign/reports.csv test_mission/start/player_intel_always/ [assessment]"
+  },
+  {
+   "i": 47,
+   "en": "Base payment is $perUnit per unit.\n\n$market is controlled by $marketFaction authorities.\n\n$contactName $contactDetail.",
+   "ctx": "data/campaign/reports.csv market_procurement/posting/posting/ [assessment]"
+  },
+  {
+   "i": 48,
+   "en": "$daysLeft to complete the delivery.\n\n$rewardCredits reward ($perUnit per unit).\n\n$market is controlled by $marketFaction authorities.\n\n$contactName $contactDetail.",
+   "ctx": "data/campaign/reports.csv market_procurement/accept/secure_comm/ [assessment]"
+  },
+  {
+   "i": 49,
+   "en": "$daysLeft to complete the delivery.\n\n$rewardCredits reward ($perUnit per unit).\n\n$bonusCredits bonus if delivered within $bonusDays.\n\n$market is controlled by $marketFaction authorities.\n\n$contactName $contactDetail.",
+   "ctx": "data/campaign/reports.csv market_procurement/accept_bonus/secure_comm/ [assessment]"
+  },
+  {
+   "i": 50,
+   "en": "$actualReward gained.",
+   "ctx": "data/campaign/reports.csv market_procurement/success/player_intel_always/ [assessment]"
+  },
+  {
+   "i": 51,
+   "en": "$actualReward gained, including $bonusCredits bonus.",
+   "ctx": "data/campaign/reports.csv market_procurement/success_bonus/player_intel_always/ [assessment]"
+  },
+  {
+   "i": 52,
+   "en": "$locationHint",
+   "ctx": "data/campaign/reports.csv analyze_entity/posting/posting/ [assessment]"
+  },
+  {
+   "i": 53,
+   "en": "$rewardCredits gained.",
+   "ctx": "data/campaign/reports.csv analyze_entity/success/player_intel_always/ [assessment]"
+  },
+  {
+   "i": 54,
+   "en": "$surveyInfo",
+   "ctx": "data/campaign/reports.csv survey_planet/posting/posting/ [assessment]"
+  },
+  {
+   "i": 55,
+   "en": "Use \"Go Dark\" to avoid detection, and \"Emergency Burn\" to get away if you are seen.",
+   "ctx": "data/campaign/reports.csv tutorial_mission/sneak_start/player_intel_always/ [assessment]"
+  },
+  {
+   "i": 56,
+   "en": "Go to Pontus, head out towards the asteroid belt, and then use an Active Sensor Burst to locate the probe. \n\nApproach and salvage it, or pound it into scrap and scavenge through the resulting debris field.\n\nIt's likely that you will have to overcome some automated defenses first.",
+   "ctx": "data/campaign/reports.csv tutorial_mission/salvage_core_start/player_intel_always/ [assessment]"
+  },
+  {
+   "i": 57,
+   "en": "Bounty starts at $baseBounty credits for an enemy frigate and goes up for larger ships.\n\nWill be annulled if the commission holder's reputation with $theFaction drops below neutral.\n",
+   "ctx": "data/campaign/reports.csv faction_commission/accept/secure_comm/ [assessment]"
+  },
+  {
+   "i": 58,
+   "en": "May accept another commission when standing improves.",
+   "ctx": "data/campaign/reports.csv faction_commission/annul/secure_comm/ [assessment]"
+  },
+  {
+   "i": 59,
+   "en": "Your actions may cause open hostilities between $theFaction and $theOtherFaction.",
+   "ctx": "data/campaign/reports.csv faction_commission/rep_drop_hostile/secure_comm/ [assessment]"
+  },
+  {
+   "i": 60,
+   "en": "$TheOtherFaction will become hostile to you, as you hold a $commissionFaction commission.\n\nYour standing with $theOtherFaction will be mostly restored after hostilities conclude.",
+   "ctx": "data/campaign/reports.csv faction_hostility/warning/secure_comm/ [assessment]"
+  },
+  {
+   "i": 61,
+   "en": "Open hostilities are over.",
+   "ctx": "data/campaign/reports.csv faction_hostility/end/news/ [assessment]"
+  },
+  {
+   "i": 62,
+   "en": "Decreased production $onOrAt $market.",
+   "ctx": "data/campaign/reports.csv civil_disorder/possible1/player_intel/ [assessment]"
+  },
+  {
+   "i": 63,
+   "en": "Increased signs of civil disorder $onOrAt $market.",
+   "ctx": "data/campaign/reports.csv civil_disorder/possible2/news/ [assessment]"
+  },
+  {
+   "i": 64,
+   "en": "Production will likely soon return to normal levels.",
+   "ctx": "data/campaign/reports.csv civil_disorder/ending1/news/ [assessment]"
+  },
+  {
+   "i": 65,
+   "en": "Production is back to normal levels.",
+   "ctx": "data/campaign/reports.csv civil_disorder/end1/news/ [assessment]"
+  },
+  {
+   "i": 66,
+   "en": "Likely decreased production on Sindria.",
+   "ctx": "data/campaign/reports.csv sindria_terrorists/likely/sindrian_diktat_internal/ [assessment]"
+  },
+  {
+   "i": 67,
+   "en": "Decreased production on Sindria.",
+   "ctx": "data/campaign/reports.csv sindria_terrorists/start1/news/ [assessment]"
+  },
+  {
+   "i": 68,
+   "en": "Production on Sindria will soon return to normal levels.",
+   "ctx": "data/campaign/reports.csv sindria_terrorists/concluding1/news/ [assessment]"
+  },
+  {
+   "i": 69,
+   "en": "Production levels return to normal on Sindria.",
+   "ctx": "data/campaign/reports.csv sindria_terrorists/end1/news/ [assessment]"
+  }
+ ]
+}

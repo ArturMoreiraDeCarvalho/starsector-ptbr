@@ -1,0 +1,166 @@
+{
+ "chunk": 265,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "Elek stares at you, the spark of recognition failing to ignite.\r\n\r\n\"I'm afraid I don't recall,\" he says. \"What, may I ask, is the purpose of your visit?\"",
+   "ctx": "data/campaign/rules.csv gaDHOvisitElekIntro2 [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"Oh yes, of course. You should have simply said so.\"\r\n\r\nHe rushes out of his holodisplay to pick up a datapad, then places himself behind a large desk, waving you toward a chair. Unfortunately it is occupied by a battered datacore, the sort used in long-range probes.\r\n\r\n\"Now then,\" he taps at his datapad, failing to notice your obstacle.\r\n\r\n\"The mystery concerns a very old dataset which has been in the Galatia Academy archives for somewhat more than two hundred cycles. I stumbled upon it in the course of my studies - well, in fact, I was discussing the old archives with... a friend, a wealthy patron of the sciences. A comment they made reminded me of its existence.\"",
+   "ctx": "data/campaign/rules.csv gaDHOvisitElekIntro3 [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"As it happens, this dataset is a recording of telemetry from a Domain-era sensor array out on what we now call the Fringe. It was somewhat more civilized back when this data was captured, though not perhaps by much.\"\r\n\r\nElek chuckles softly at his wit.\r\n\r\n\"As for the dataset, we only really have a complete sourcing header. Our copy is mostly corrupted due to anomalous  degradation during hyperwave transmission and then over 200 cycles of low-priority storage.\"\r\n\r\nHe shakes his head with deep disappointment at the mistakes made by someone else.",
+   "ctx": "data/campaign/rules.csv gaDHOvisitElekIntro4 [text]"
+  },
+  {
+   "i": 4,
+   "en": "He either doesn't notice or doesn't acknowledge your signal.",
+   "ctx": "data/campaign/rules.csv gaDHOvisitElekIntro5b [text]"
+  },
+  {
+   "i": 5,
+   "en": "He snaps out of his reverie and looks at the chair.\r\n\r\n\"So it does,\" he says. \"Please don't touch it.\"",
+   "ctx": "data/campaign/rules.csv gaDHOvisitElekIntro5c [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"In any event,\" Elek cradles his hands, looking into an imagined middle-distance. \"This patron and, ah, friend offered to fund a project to recover an intact copy of the data.\"\r\n\r\n\"From the source.\" He smiles, quite pleased with himself. \"An expedition shall be made to the original sensor array! Your name came up, captain.\"",
+   "ctx": "data/campaign/rules.csv gaDHOvisitElekIntro6 [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"When put like that, yes.\" He stands, placing his hands together behind his back, and begins pacing.\r\n\r\n\"I shall provide you with a scientific hardware package my students have prepared. It is far from simple, I assure you of that! Have your technicians attach it to the sensor array and it will carry out the necessary operations.\"\r\n\r\n\"That's not all, however.\" He pauses to look at you with a sly smile.",
+   "ctx": "data/campaign/rules.csv gaDHOvisitElekIntro7 [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"Mm? That's 'Academician Elek', if you please. And of course you haven't agreed, I haven't explained the task fully. Now where was I...\"",
+   "ctx": "data/campaign/rules.csv gaDHOvisitElekIntro8b [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"I propose that once you acquire the data and my algorithm extracts the targeting coordinates, you then travel to the indicated location which lies at the heart of all of this effort. Explore what is to be explored, find what is to be found. You will bring back no mere long-range scan, but a thorough investigation!\"\r\n\r\n\"Think of the science, think of the glory! And,\" he winks, \"You must be thinking of that 'vast fortune'. I do believe that Director Gla... that my 'friend' will be more than delighted by this fait accompli.\"",
+   "ctx": "data/campaign/rules.csv gaDHOvisitElekIntro8 [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"Indeed,\" He looks at you brightly. \"Though I'm certain mere credits shall pale in comparison to the illumination of the unknown. Knowledge, after all, is the greatest treasure.\"\r\n\r\nElek waves a hand, \"Don't misunderstand me. I may be a man whose domain is of the mind, but I appreciate that those such as yourself have baser concerns. Trust that you will be rewarded! This project is funded by an excellent patron of the sciences for whom I vouch for quite entirely.\"",
+   "ctx": "data/campaign/rules.csv gaDHOvisitElekHubSelA [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"I, I don't know,\" he sputters. \"I'm sure it's plenty. 20,000 credits maybe?\"",
+   "ctx": "data/campaign/rules.csv gaDHOvisitElekHubSelA2 [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"Excellent!\" Elek beams, apparently fully ignorant of the true cost of fleet logistics.",
+   "ctx": "data/campaign/rules.csv gaDHOvisitElekHubSelA2a [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"It does?\" Elek is taken aback. \"I was sure that was enough. Maybe it was 50,000?\"",
+   "ctx": "data/campaign/rules.csv gaDHOvisitElekHubSelA2b [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"Um, I'm sure, that uh,\" he stammers, looking annoyed.\r\n\r\n\"I'm sure my patron will cover all expenses,\" he declares finally. \"We are, after all, dealing with Tri-\"\r\n\r\nHis mouth shuts and he looks intently at you. Hoping that you didn't hear the obvious. ",
+   "ctx": "data/campaign/rules.csv gaDHOvisitElekHubSelA4b [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"I, um. Don't be absurd! I could have been starting to say any number of words.\"\r\n\r\nHe doesn't look confident.",
+   "ctx": "data/campaign/rules.csv gaDHOvisitElekHubSelA5a [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"Fine.\" He sighs, rolling his eyes. \"I'm sure it'll be... no problem.\"",
+   "ctx": "data/campaign/rules.csv gaDHOvisitElekHubSelA5b [text]"
+  },
+  {
+   "i": 17,
+   "en": "He rolls his eyes and lets out a long sigh.\r\n\r\n\"Fine, fine. I'm... sure it won't be a problem. Probably.\"\r\n\r\n\"That's a lot of credits.\" He looks at you accusingly. \"It should be spent on primary research, not gilding rocket ships, but.\" He holds up a hand, as if to contain the outburst he presumes will come. \"I will hold my tongue. If the expedition is as much of a success as I believe it will be, the dear price shall be worth it.\"",
+   "ctx": "data/campaign/rules.csv gaDHOvisitElekHubSelA6a [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"Whyever not? Say what you will about business ethics, they're unmatched in their commitment to advancing unrestricted basic research. And Director Glamor-Rotanev has a particular understanding of the importance of...\"\r\n\r\nHe stops, and licks his lips, seeming to realize that he's giving even more away.\r\n\r\n\"Let's agree on 200,000 credits, yes?\" He looks at you accusingly. \"It should be spent on primary research, not gilding rocket ships, but.\" He holds up a hand, as if to contain the outburst he presumes will come. \"I shall hold my tongue, and so will you. If the expedition is as much of a success as I believe it will be, the dear price shall be worth it and I'm certain that... that my patron will pay.\"",
+   "ctx": "data/campaign/rules.csv gaDHOvisitElekHubSelA6b [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"Um, I'm sure, that uh,\" he stammers, looking annoyed.\r\n\r\n\"I'm sure my patron will cover all expenses,\" he declares finally. \"We are, after all, dealing with Tri-\"\r\n\r\nHe pauses, recovering his composure. \"We are, as I mentioned, dealing with a patron who can mobilize great wealth to fund the sciences.\"",
+   "ctx": "data/campaign/rules.csv gaDHOvisitElekHubSelA4bKnow [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"Whyever not? Say what you will about business ethics, they're unmatched in their commitment to advancing unrestricted basic research. And Director Glamor-Rotanev has a particular understanding of the importance of...\"\r\n\r\nHe stops, seeming to realize for once that he's belaboring the point.\r\n\r\n\"Let's agree on 200,000 credits, yes?\" He looks at you accusingly. \"It should be spent on primary research, not gilding rocket ships, but.\" He holds up a hand, as if to contain the outburst he presumes will come. \"I shall hold my tongue, and so will you. If the expedition is as much of a success as I believe it will be, the dear price shall be worth it and I'm certain that... that my patron will pay.\"",
+   "ctx": "data/campaign/rules.csv gaDHOvisitElekHubSelZGRc [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"Mm,\" he frowns, carefully maintaining a thoughtful expression.\r\n\r\n\"They have asked me not to reveal their identity. I believe, if anything, the humility they show in not taking public credit for their contributions to this great academy - and my department in particular - are a sign of dedication to pure scientific advancement. Truly, it is a noble undertaking.\"",
+   "ctx": "data/campaign/rules.csv gaDHOvisitElekAskPatron [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"You're too kind, $playerSirOrMadam.\" Elek smiles, quite pleased with himself. \"I believe that Director- that my patron expressed a similar sentiment.\"\r\n\r\nHe looks up and away, \"Not that I have not had to make sacrifices. Great sacrifices, indeed. It is a lonely calling at times, but I hearten myself with the knowledge that I am enriching the...\"\r\n\r\nDespite your attempt at winning his favor, he's lost the thread and taken a whole new course. Eventually he drifts off into what looks like thoughtful silence.",
+   "ctx": "data/campaign/rules.csv gaDHOvisitElekAskPatron2a [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"A not unreasonable request,\" Elek says, making a show of thinking over your words.\r\n\r\n\"You will, after all, be bound bodily to the project more than any other, even if you do not possess the theoretical background to fully understand its importance. I suppose it is the least I could do. After all, girding with knowing of the greater purposes you serve might enhance and embolden your spirit of exploration...\"",
+   "ctx": "data/campaign/rules.csv gaDHOvisitElekAskPatron2b [text]"
+  },
+  {
+   "i": 24,
+   "en": "Something breaks in his expression.\r\n\r\n\"Zunya Glamor-Rotanev, the Director of Special Acquisitions for the Tri-Tachyon corporation, in fact, is the patron of my project. She is a woman of great vision, far greater than I would have expected from such a lofty position in an ostensibly profit-driven enterprise.\"\r\n\r\n\"By revealing this to you, captain, I am trusting in your discretion,\" he says with a solemn nod.",
+   "ctx": "data/campaign/rules.csv gaDHOvisitElekAskPatron3 [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"An excellent question.\" Elek taps at his datapad, and turns toward his holodisplay.\r\n\r\nThe spinning moons have disappeared to be replaced by a map of the Persean Sector, a broad swath of stars. The Core Worlds are highlighted, the fringe stars somewhat dimmed.\r\n\r\n\"Here you see - or do not see, for it is in the crudest sense a sort of absence - the Orion-Persean Abyss. It is far from a nothingness, however. And it is that not-nothingness with which we are concerned.\"",
+   "ctx": "data/campaign/rules.csv gaDHOvisitElekHubSelC [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"Correct, dear captain!\" Elek sounds pleased that you have followed the trajectory of his lesson.\r\n\r\n\"There are indeed planets to be found there. Cold, dark, and alone; bereft of their parent stars, flung into the sparse wastes between the arms of our galaxy.\"",
+   "ctx": "data/campaign/rules.csv gaDHOvisitElekHubSelC2a [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"Pah,\" Elek waves a dismissal.\r\n\r\n\"I shan't fully enumerate the errors in your statement. It is enough that there are indeed planets to be found there. Cold, dark, and alone; bereft of their parent stars, flung into the sparse wastes between the arms of our galaxy.\"",
+   "ctx": "data/campaign/rules.csv gaDHOvisitElekHubSelC2b [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"I theorize that it is one of these planets our sensor array was targeting.\"\r\n\r\nHis tone grows less heated. \"Or, rather, an unknown energetic event involving or concerning one such planet. We are not certain exactly which, however, and it is exceedingly difficult - and expensive - to perform any kind of broad analysis of these wayward children from afar. And with our sadly reduced means compared to the grand days of the old Domain... alas, alack.\"",
+   "ctx": "data/campaign/rules.csv gaDHOvisitElekHubSelC2c [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"Excellent. I'll have the hardware package transferred to your $shipOrFleet immediately,\" he taps at a datapad, connecting comms and reels off some imperious orders at some poor support staff.\r\n\r\n\"Off you go! We made the package installation idiot-proof. So I'm sure you...r technicians will be capable of installing it.\"",
+   "ctx": "data/campaign/rules.csv gaDHOvisitElekAccept [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"Good.\"\r\n\r\nHe turns back to his holodisplay and begins arranging moons again.\r\n\r\n\"I await your return, captain,\" he says over his shoulder.",
+   "ctx": "data/campaign/rules.csv gaDHOvisitElekAccept2a [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"The attached specifications will...\" Elek pauses, then squints at you.\r\n\r\n\"I see. You're engaging in a bit of jocularity. Well, I can't exactly disapprove of high spirits at the outset of the expedition provided you mind the technical details.\"\r\n\r\nHe turns back to his holodisplay and begins re-arranging moons. \"I await your return, captain,\" he says over his shoulder.",
+   "ctx": "data/campaign/rules.csv gaDHOvisitElekAccept2b [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"Excellent, we'll start by...\" He pauses, processing your words.\r\n\r\n\"What? Don't be ridiculous,\" Elek huffs irritably. \"Take the time to think it through, captain. I'm sure reason will win out eventually.\"\r\n\r\n\"Or, at least, greed,\" he says more quietly as he turns back to his holodisplay in a huff and begins arranging moons, a clear indication that he believes the conversation is over.",
+   "ctx": "data/campaign/rules.csv gaDHOvisitElekNotInterested [text]"
+  }
+ ]
+}

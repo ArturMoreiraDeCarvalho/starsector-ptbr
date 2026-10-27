@@ -1,0 +1,1256 @@
+{
+ "chunk": 5,
+ "cat": "jar",
+ "items": [
+  {
+   "i": 1,
+   "en": "Java 7 is the only supported version of Java. Trying to use version: [",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/StarfarerLauncher.class"
+  },
+  {
+   "i": 2,
+   "en": "Maximum anti-aliasing samples: ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/StarfarerLauncher.class"
+  },
+  {
+   "i": 3,
+   "en": "See allowAnyJavaVersion in settings.json if you really want to do this, ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/StarfarerLauncher.class"
+  },
+  {
+   "i": 4,
+   "en": "Starting Starsector 0.98a-RC8 launcher",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/StarfarerLauncher.class"
+  },
+  {
+   "i": 5,
+   "en": "but it's probably a bad idea. Random crashes, incompatibility with other mods, etc may result.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/StarfarerLauncher.class"
+  },
+  {
+   "i": 6,
+   "en": "Cut comm link",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/A/E.class"
+  },
+  {
+   "i": 7,
+   "en": "Persuade",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/A/E.class"
+  },
+  {
+   "i": 8,
+   "en": "Surrender",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/A/E.class"
+  },
+  {
+   "i": 9,
+   "en": "Threaten",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/A/E.class"
+  },
+  {
+   "i": 10,
+   "en": "Hidden",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/BaseCampaignEntity.class"
+  },
+  {
+   "i": 11,
+   "en": "Hidden ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/BaseCampaignEntity.class"
+  },
+  {
+   "i": 12,
+   "en": "unknown location",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/BaseLocation$LocationToken.class"
+  },
+  {
+   "i": 13,
+   "en": " Nebula",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/BaseLocation.class"
+  },
+  {
+   "i": 14,
+   "en": " Star System",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/BaseLocation.class"
+  },
+  {
+   "i": 15,
+   "en": "Nebula",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/BaseLocation.class"
+  },
+  {
+   "i": 16,
+   "en": "Star System",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/BaseLocation.class"
+  },
+  {
+   "i": 17,
+   "en": "System",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/BaseLocation.class"
+  },
+  {
+   "i": 18,
+   "en": "nebula",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/BaseLocation.class"
+  },
+  {
+   "i": 19,
+   "en": "star system",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/BaseLocation.class"
+  },
+  {
+   "i": 20,
+   "en": "system",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/BaseLocation.class"
+  },
+  {
+   "i": 21,
+   "en": "Asteroid",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignAsteroid.class"
+  },
+  {
+   "i": 22,
+   "en": "Apr",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignClock.class"
+  },
+  {
+   "i": 23,
+   "en": "April",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignClock.class"
+  },
+  {
+   "i": 24,
+   "en": "Aug",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignClock.class"
+  },
+  {
+   "i": 25,
+   "en": "August",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignClock.class"
+  },
+  {
+   "i": 26,
+   "en": "Dec",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignClock.class"
+  },
+  {
+   "i": 27,
+   "en": "December",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignClock.class"
+  },
+  {
+   "i": 28,
+   "en": "Feb",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignClock.class"
+  },
+  {
+   "i": 29,
+   "en": "February",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignClock.class"
+  },
+  {
+   "i": 30,
+   "en": "Jan",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignClock.class"
+  },
+  {
+   "i": 31,
+   "en": "January",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignClock.class"
+  },
+  {
+   "i": 32,
+   "en": "Jul",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignClock.class"
+  },
+  {
+   "i": 33,
+   "en": "July",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignClock.class"
+  },
+  {
+   "i": 34,
+   "en": "Jun",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignClock.class"
+  },
+  {
+   "i": 35,
+   "en": "June",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignClock.class"
+  },
+  {
+   "i": 36,
+   "en": "Mar",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignClock.class"
+  },
+  {
+   "i": 37,
+   "en": "March",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignClock.class"
+  },
+  {
+   "i": 38,
+   "en": "May",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignClock.class"
+  },
+  {
+   "i": 39,
+   "en": "Nov",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignClock.class"
+  },
+  {
+   "i": 40,
+   "en": "November",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignClock.class"
+  },
+  {
+   "i": 41,
+   "en": "Oct",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignClock.class"
+  },
+  {
+   "i": 42,
+   "en": "October",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignClock.class"
+  },
+  {
+   "i": 43,
+   "en": "Sep",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignClock.class"
+  },
+  {
+   "i": 44,
+   "en": "September",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignClock.class"
+  },
+  {
+   "i": 45,
+   "en": "Going through jump-point",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignEngine$2.class"
+  },
+  {
+   "i": 46,
+   "en": "Hyperspace",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignEngine.class"
+  },
+  {
+   "i": 47,
+   "en": " World",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignPlanet.class"
+  },
+  {
+   "i": 48,
+   "en": " world",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignPlanet.class"
+  },
+  {
+   "i": 49,
+   "en": " local volume, being tracked by nearby ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignState.class"
+  },
+  {
+   "i": 50,
+   "en": " patrol",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignState.class"
+  },
+  {
+   "i": 51,
+   "en": "Autosave",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignState.class"
+  },
+  {
+   "i": 52,
+   "en": "Breaking orbit",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignState.class"
+  },
+  {
+   "i": 53,
+   "en": "Cargo",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignState.class"
+  },
+  {
+   "i": 54,
+   "en": "Character",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignState.class"
+  },
+  {
+   "i": 55,
+   "en": "Copies of campaign data in memory: ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignState.class"
+  },
+  {
+   "i": 56,
+   "en": "Eventually, your cryopod is picked up by a passing trader.\n\nNot one to be discouraged easily, you eventually claw your way back to the spacelanes, if only just.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignState.class"
+  },
+  {
+   "i": 57,
+   "en": "Fleet",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignState.class"
+  },
+  {
+   "i": 58,
+   "en": "Food for thought: the RNG may know that you're playing a pirated copy of the game. Let the paranoia begin!",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignState.class"
+  },
+  {
+   "i": 59,
+   "en": "Forcing garbage collection",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignState.class"
+  },
+  {
+   "i": 60,
+   "en": "Gained %s credits",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignState.class"
+  },
+  {
+   "i": 61,
+   "en": "Gained 25000 credits",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignState.class"
+  },
+  {
+   "i": 62,
+   "en": "Game paused",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignState.class"
+  },
+  {
+   "i": 63,
+   "en": "Game resumed",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignState.class"
+  },
+  {
+   "i": 64,
+   "en": "Holding station in ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignState.class"
+  },
+  {
+   "i": 65,
+   "en": "If you're enjoying the game, please consider supporting its development: www.fractalsoftworks.com",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignState.class"
+  },
+  {
+   "i": 66,
+   "en": "In ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignState.class"
+  },
+  {
+   "i": 67,
+   "en": "Laying in a course for ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignState.class"
+  },
+  {
+   "i": 68,
+   "en": "Laying in an intercept course for ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignState.class"
+  },
+  {
+   "i": 69,
+   "en": "Lost %s credits",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignState.class"
+  },
+  {
+   "i": 70,
+   "en": "Manifestation",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignState.class"
+  },
+  {
+   "i": 71,
+   "en": "Map",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignState.class"
+  },
+  {
+   "i": 72,
+   "en": "Memory leak detected!\n\nPlease use \"Save Copy\" to make a copy of your current save and restart the game application. Otherwise there is a risk of a crash when trying to save.\n\n(Copies of campaign data in memory: ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignState.class"
+  },
+  {
+   "i": 73,
+   "en": "Officers",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignState.class"
+  },
+  {
+   "i": 74,
+   "en": "Ok",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignState.class"
+  },
+  {
+   "i": 75,
+   "en": "Orbiting ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignState.class"
+  },
+  {
+   "i": 76,
+   "en": "Outposts",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignState.class"
+  },
+  {
+   "i": 77,
+   "en": "Quickload disabled in iron mode",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignState.class"
+  },
+  {
+   "i": 78,
+   "en": "Sensors: ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignState.class"
+  },
+  {
+   "i": 79,
+   "en": "Some automated ships in your fleet still remain operational, but they're unable to find your command pod.\n\nAfter a while, you're picked up by a system patrol and taken back to civilization. Eventually, you acquire another craft and are able to ply the space lanes once again.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignState.class"
+  },
+  {
+   "i": 80,
+   "en": "Speeding up time",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignState.class"
+  },
+  {
+   "i": 81,
+   "en": "The previous memory leak warning was a false alarm",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignState.class"
+  },
+  {
+   "i": 82,
+   "en": "Your fleet is scattered, and you yourself barely escape in the command pod.\n\nAfter a while, you're picked up by a passing salvage fleet and taken back to civilization. Eventually, you acquire another couple of craft and are able to ply the space lanes once again.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CampaignState.class"
+  },
+  {
+   "i": 83,
+   "en": " (maximum)",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CharacterStats.class"
+  },
+  {
+   "i": 84,
+   "en": " bonus XP used)",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CharacterStats.class"
+  },
+  {
+   "i": 85,
+   "en": " bonus experience",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CharacterStats.class"
+  },
+  {
+   "i": 86,
+   "en": " bonus experience from ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CharacterStats.class"
+  },
+  {
+   "i": 87,
+   "en": " experience",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CharacterStats.class"
+  },
+  {
+   "i": 88,
+   "en": " experience (",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CharacterStats.class"
+  },
+  {
+   "i": 89,
+   "en": " points spent earlier",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CharacterStats.class"
+  },
+  {
+   "i": 90,
+   "en": " skill ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CharacterStats.class"
+  },
+  {
+   "i": 91,
+   "en": " to spend",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CharacterStats.class"
+  },
+  {
+   "i": 92,
+   "en": "Gained ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CharacterStats.class"
+  },
+  {
+   "i": 93,
+   "en": "Used ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CharacterStats.class"
+  },
+  {
+   "i": 94,
+   "en": "You have ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CharacterStats.class"
+  },
+  {
+   "i": 95,
+   "en": "You have advanced to level ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CharacterStats.class"
+  },
+  {
+   "i": 96,
+   "en": "point",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CharacterStats.class"
+  },
+  {
+   "i": 97,
+   "en": "points",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/CharacterStats.class"
+  },
+  {
+   "i": 98,
+   "en": "Unknown",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/Faction.class"
+  },
+  {
+   "i": 99,
+   "en": "are",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/Faction.class"
+  },
+  {
+   "i": 100,
+   "en": "has",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/Faction.class"
+  },
+  {
+   "i": 101,
+   "en": "have",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/Faction.class"
+  },
+  {
+   "i": 102,
+   "en": "the ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/Faction.class"
+  },
+  {
+   "i": 103,
+   "en": "Under your control",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/OOoO$1.class"
+  },
+  {
+   "i": 104,
+   "en": "A huge orbital station with a dockyard and large stockpiles of weapons and supplies.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/OOoO.class"
+  },
+  {
+   "i": 105,
+   "en": "Friendly",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/OOoO.class"
+  },
+  {
+   "i": 106,
+   "en": "Hostile",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/OOoO.class"
+  },
+  {
+   "i": 107,
+   "en": "Nascent Gravity Well",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/OOoO.class"
+  },
+  {
+   "i": 108,
+   "en": "Neutral",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/OOoO.class"
+  },
+  {
+   "i": 109,
+   "en": "The hyperspace distortion from an in-system entity that's not massive enough to create a jump-point.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/OOoO.class"
+  },
+  {
+   "i": 110,
+   "en": "Unidentified Entity",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/OOoO.class"
+  },
+  {
+   "i": 111,
+   "en": "Unidentified sensor contact. If it's a fleet, it's running with its transponder turned off.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/OOoO.class"
+  },
+  {
+   "i": 112,
+   "en": " Gravity Well",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/StarSystem.class"
+  },
+  {
+   "i": 113,
+   "en": " system",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/StarSystem.class"
+  },
+  {
+   "i": 114,
+   "en": ", Fringe Jump-point",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/StarSystem.class"
+  },
+  {
+   "i": 115,
+   "en": "Fringe Jump-point",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/StarSystem.class"
+  },
+  {
+   "i": 116,
+   "en": "hyperspace",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/StarSystem.class"
+  },
+  {
+   "i": 117,
+   "en": "the fringe of the ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/StarSystem.class"
+  },
+  {
+   "i": 118,
+   "en": " OpenGL Engine",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/String.class"
+  },
+  {
+   "i": 119,
+   "en": " Series",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/String.class"
+  },
+  {
+   "i": 120,
+   "en": " series",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/String.class"
+  },
+  {
+   "i": 121,
+   "en": "Dedicated VRAM: ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/String.class"
+  },
+  {
+   "i": 122,
+   "en": "Device name: ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/String.class"
+  },
+  {
+   "i": 123,
+   "en": "Driver version: ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/String.class"
+  },
+  {
+   "i": 124,
+   "en": "Free VRAM: ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/String.class"
+  },
+  {
+   "i": 125,
+   "en": "If running with mods, consider disabling some of them",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/String.class"
+  },
+  {
+   "i": 126,
+   "en": "Maximum VRAM: ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/String.class"
+  },
+  {
+   "i": 127,
+   "en": "Unidentified graphics device detected: ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/String.class"
+  },
+  {
+   "i": 128,
+   "en": "VRAM information not available for Intel graphics devices",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/String.class"
+  },
+  {
+   "i": 129,
+   "en": "Vendor: ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/String.class"
+  },
+  {
+   "i": 130,
+   "en": "Warning: VRAM low, may result in game instability and poor performance!",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/String.class"
+  },
+  {
+   "i": 131,
+   "en": "A lack of proper planning caused an accident that resulted in",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/B.class"
+  },
+  {
+   "i": 132,
+   "en": "A lack of supplies to perform emergency maintenance caused an accident that resulted in",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/B.class"
+  },
+  {
+   "i": 133,
+   "en": "A lack of supplies to perform priority maintenance caused an accident that resulted in",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/B.class"
+  },
+  {
+   "i": 134,
+   "en": "A lack of supplies to perform routine maintenance caused an accident that resulted in",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/B.class"
+  },
+  {
+   "i": 135,
+   "en": "Lack of supplies",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/B.class"
+  },
+  {
+   "i": 136,
+   "en": "Low logistics rating",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/B.class"
+  },
+  {
+   "i": 137,
+   "en": "Procure additional supplies, or scuttle one of your ships for supplies if no better means are available.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/B.class"
+  },
+  {
+   "i": 138,
+   "en": "Reduce the supply expenditure. Selling or mothballing extra ships and suspending repairs or reducing the supplies spent on them are both good ways to so.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/B.class"
+  },
+  {
+   "i": 139,
+   "en": "The chaotic logistical situation in the fleet caused an accident that resulted in",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/B.class"
+  },
+  {
+   "i": 140,
+   "en": " collapsed",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/C.class"
+  },
+  {
+   "i": 141,
+   "en": " developed a slow leak",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/C.class"
+  },
+  {
+   "i": 142,
+   "en": " exploded",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/C.class"
+  },
+  {
+   "i": 143,
+   "en": " required emergency maintenance",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/C.class"
+  },
+  {
+   "i": 144,
+   "en": " suffered a catastrophic failure",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/C.class"
+  },
+  {
+   "i": 145,
+   "en": " suffered an unknown problem",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/C.class"
+  },
+  {
+   "i": 146,
+   "en": ", resulting in",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/C.class"
+  },
+  {
+   "i": 147,
+   "en": "A jury-rigged containment field",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/C.class"
+  },
+  {
+   "i": 148,
+   "en": "A makeshift fuel cell",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/C.class"
+  },
+  {
+   "i": 149,
+   "en": "A valve's magnetic seal",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/C.class"
+  },
+  {
+   "i": 150,
+   "en": "Dispose of excess fuel, or acquire more ships to increase you fleet's fuel capacity",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/C.class"
+  },
+  {
+   "i": 151,
+   "en": "Fuel capacity exceeded",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/C.class"
+  },
+  {
+   "i": 152,
+   "en": " resulted in",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/E.class"
+  },
+  {
+   "i": 153,
+   "en": "A fighter wing making an emergency landing to address a fire control malfunction",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/E.class"
+  },
+  {
+   "i": 154,
+   "en": "A mix-up at the mini-fac producing dormant fighter chassis",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/E.class"
+  },
+  {
+   "i": 155,
+   "en": "An error in the CSP schedule, compounded by multiple fighter wings being prepared for duty,",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/E.class"
+  },
+  {
+   "i": 156,
+   "en": "Reduce the number of fighters in your fleet, or acquire more ships with hangar space",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/E.class"
+  },
+  {
+   "i": 157,
+   "en": " depressurized, causing a high-speed collision and resulting in",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/K.class"
+  },
+  {
+   "i": 158,
+   "en": " depressurized, scattering high-velocity shrapnel and resulting in",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/K.class"
+  },
+  {
+   "i": 159,
+   "en": " required emergency maintenance, resulting in",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/K.class"
+  },
+  {
+   "i": 160,
+   "en": " suffered a catastrophic depressurization, scattering high-velocity debris in the path of your fleet and resulting in",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/K.class"
+  },
+  {
+   "i": 161,
+   "en": "'s magnetic coupling has failed, causing a high-speed collision and resulting in",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/K.class"
+  },
+  {
+   "i": 162,
+   "en": "A jury-rigged cargo container",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/K.class"
+  },
+  {
+   "i": 163,
+   "en": "A makeshift cargo container",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/K.class"
+  },
+  {
+   "i": 164,
+   "en": "An improvised cargo container",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/K.class"
+  },
+  {
+   "i": 165,
+   "en": "Cargo capacity exceeded",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/K.class"
+  },
+  {
+   "i": 166,
+   "en": "Dispose of excess cargo, or acquire more ships to increase your fleet's cargo capacity",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/K.class"
+  },
+  {
+   "i": 167,
+   "en": "Makeshift cargo capacity",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/K.class"
+  },
+  {
+   "i": 168,
+   "en": "a loss of cargo",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/O0oO.class"
+  },
+  {
+   "i": 169,
+   "en": "a loss of crew",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/O0oO.class"
+  },
+  {
+   "i": 170,
+   "en": "a loss of fuel",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/O0oO.class"
+  },
+  {
+   "i": 171,
+   "en": "a loss of marines",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/O0oO.class"
+  },
+  {
+   "i": 172,
+   "en": "a loss of supplies",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/O0oO.class"
+  },
+  {
+   "i": 173,
+   "en": "lost cargo",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/O0oO.class"
+  },
+  {
+   "i": 174,
+   "en": "lost crew",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/O0oO.class"
+  },
+  {
+   "i": 175,
+   "en": "lost fuel",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/O0oO.class"
+  },
+  {
+   "i": 176,
+   "en": "lost marines",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/O0oO.class"
+  },
+  {
+   "i": 177,
+   "en": "lost supplies",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/O0oO.class"
+  },
+  {
+   "i": 178,
+   "en": "Procure additional supplies, or scuttle one of your ships for supplies if no better means are available",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/OO0O.class"
+  },
+  {
+   "i": 179,
+   "en": "An unknown accident occurred, resulting in",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/OOoO.class"
+  },
+  {
+   "i": 180,
+   "en": "Critical maintenance tasks were left undone in a coordination mixup, causing ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/OOoO.class"
+  },
+  {
+   "i": 181,
+   "en": "Fleet too large for command ability",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/OOoO.class"
+  },
+  {
+   "i": 182,
+   "en": "Important maintenance tasks were left undone in a coordination mixup, causing ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/OOoO.class"
+  },
+  {
+   "i": 183,
+   "en": "Scuttle excess ships, or increase your command rating to be able to control a larger fleet effectively",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/OOoO.class"
+  },
+  {
+   "i": 184,
+   "en": "Your command staff produced an incorrect set of logistical support requirements, causing some routine maintenance tasks to be left undone and resulting in",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/OOoO.class"
+  },
+  {
+   "i": 185,
+   "en": "a brief shutdown of a ship's reactor containment field and resulting in",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/OOoO.class"
+  },
+  {
+   "i": 186,
+   "en": "a flicker in a ship's fore radiation screens and resulting in",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/OOoO.class"
+  },
+  {
+   "i": 187,
+   "en": "a shutdown of a ship's reactor containment field and resulting in",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/OOoO.class"
+  },
+  {
+   "i": 188,
+   "en": "a spot failure of a ship's artificial gravity generator and resulting ina life support system malfunction and resulting in",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/OOoO.class"
+  },
+  {
+   "i": 189,
+   "en": "a temporary failure of a ship's artificial gravity generator and resulting ina major life support system malfunction and resulting in",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/OOoO.class"
+  },
+  {
+   "i": 190,
+   "en": "the fore radiation screens of a ship to shut off and resulting in",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/OOoO.class"
+  },
+  {
+   "i": 191,
+   "en": " and ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/Oo0OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.class"
+  },
+  {
+   "i": 192,
+   "en": ", and ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/Oo0OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.class"
+  },
+  {
+   "i": 193,
+   "en": "Critical accident: ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/Oo0OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.class"
+  },
+  {
+   "i": 194,
+   "en": "Major accident: ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/Oo0OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.class"
+  },
+  {
+   "i": 195,
+   "en": "Minor accident: ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/Oo0OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.class"
+  },
+  {
+   "i": 196,
+   "en": "No accident (",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/Oo0OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.class"
+  },
+  {
+   "i": 197,
+   "en": "nothing lost",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/Oo0OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.class"
+  },
+  {
+   "i": 198,
+   "en": "0% combat readiness",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/OooO.class"
+  },
+  {
+   "i": 199,
+   "en": "A lack of maintenance and the consequent lack of combat readiness has caused an accident that has resulted in ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/OooO.class"
+  },
+  {
+   "i": 200,
+   "en": "Take steps to restore the combat readiness of your ships as soon as possible. Ships at zero combat readiness continue to be in danger of suffering accidents, unless they're already being repaired.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/OooO.class"
+  },
+  {
+   "i": 201,
+   "en": " CR",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/ShipLoss.class"
+  },
+  {
+   "i": 202,
+   "en": " losing ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/ShipLoss.class"
+  },
+  {
+   "i": 203,
+   "en": "a loss of a ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/ShipLoss.class"
+  },
+  {
+   "i": 204,
+   "en": "a loss of the ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/ShipLoss.class"
+  },
+  {
+   "i": 205,
+   "en": "damage to a ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/ShipLoss.class"
+  },
+  {
+   "i": 206,
+   "en": "damage to the ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/ShipLoss.class"
+  },
+  {
+   "i": 207,
+   "en": "damaged fighter wing",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/ShipLoss.class"
+  },
+  {
+   "i": 208,
+   "en": "damaged ship",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/ShipLoss.class"
+  },
+  {
+   "i": 209,
+   "en": "lost ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/ShipLoss.class"
+  },
+  {
+   "i": 210,
+   "en": "lost fighter wing",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/ShipLoss.class"
+  },
+  {
+   "i": 211,
+   "en": "lost ship",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/ShipLoss.class"
+  },
+  {
+   "i": 212,
+   "en": "reduced CR",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/ShipLoss.class"
+  },
+  {
+   "i": 213,
+   "en": "reduced CR for ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/ShipLoss.class"
+  },
+  {
+   "i": 214,
+   "en": "reduced CR for the ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/ShipLoss.class"
+  },
+  {
+   "i": 215,
+   "en": "Accident Report",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/String.class"
+  },
+  {
+   "i": 216,
+   "en": "Critical",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/String.class"
+  },
+  {
+   "i": 217,
+   "en": "Likely cause:",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/String.class"
+  },
+  {
+   "i": 218,
+   "en": "Major",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/String.class"
+  },
+  {
+   "i": 219,
+   "en": "Recommendation:",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/String.class"
+  },
+  {
+   "i": 220,
+   "en": "Severity:",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/String.class"
+  },
+  {
+   "i": 221,
+   "en": "A makeshift life support system ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/do.class"
+  },
+  {
+   "i": 222,
+   "en": "A vacuum-tight seal in a makeshift crew compartment ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/do.class"
+  },
+  {
+   "i": 223,
+   "en": "An improvised habitat ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/do.class"
+  },
+  {
+   "i": 224,
+   "en": "Offload excess crew, or acquire more ships to increase your fleet's personnel capacity",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/do.class"
+  },
+  {
+   "i": 225,
+   "en": "Personnel capacity exceeded",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/do.class"
+  },
+  {
+   "i": 226,
+   "en": "depressurized",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/do.class"
+  },
+  {
+   "i": 227,
+   "en": "developed a slow leak in the off hours",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/do.class"
+  },
+  {
+   "i": 228,
+   "en": "failed after exposure to an unexpected burst of radiation",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/do.class"
+  },
+  {
+   "i": 229,
+   "en": "required emergency maintenance",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/do.class"
+  },
+  {
+   "i": 230,
+   "en": "suffered a brief malfunction",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/do.class"
+  },
+  {
+   "i": 231,
+   "en": "suffered a catastrophic depressurizationexploded",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/do.class"
+  },
+  {
+   "i": 232,
+   "en": "suffered an extended shutdownfailed unexpectedly",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/accidents/do.class"
+  },
+  {
+   "i": 233,
+   "en": "Heading to resupply at ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ai/CampaignFleetAI.class"
+  },
+  {
+   "i": 234,
+   "en": "Repaired at station",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ai/CampaignFleetAI.class"
+  },
+  {
+   "i": 235,
+   "en": "Unable to resupply, no resupply location set",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ai/CampaignFleetAI.class"
+  },
+  {
+   "i": 236,
+   "en": "Executing search pattern",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ai/TacticalModule.class"
+  },
+  {
+   "i": 237,
+   "en": "Moving slowly",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ai/TacticalModule.class"
+  },
+  {
+   "i": 238,
+   "en": " from ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/AdminPickerDialog.class"
+  },
+  {
+   "i": 239,
+   "en": " to ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/AdminPickerDialog.class"
+  },
+  {
+   "i": 240,
+   "en": "Administrators: ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/AdminPickerDialog.class"
+  },
+  {
+   "i": 241,
+   "en": "Can only move admins under your command",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/AdminPickerDialog.class"
+  },
+  {
+   "i": 242,
+   "en": "Finish",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/AdminPickerDialog.class"
+  },
+  {
+   "i": 243,
+   "en": "Manage administrators",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/AdminPickerDialog.class"
+  },
+  {
+   "i": 244,
+   "en": "No administrators employed",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/AdminPickerDialog.class"
+  },
+  {
+   "i": 245,
+   "en": "Removed 1 ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/AdminPickerDialog.class"
+  },
+  {
+   "i": 246,
+   "en": "Returned 1 ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/AdminPickerDialog.class"
+  },
+  {
+   "i": 247,
+   "en": "Select administrator for ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/AdminPickerDialog.class"
+  },
+  {
+   "i": 248,
+   "en": "Storage",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/AdminPickerDialog.class"
+  },
+  {
+   "i": 249,
+   "en": "cargo",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/AdminPickerDialog.class"
+  },
+  {
+   "i": 250,
+   "en": "Maximum number of credits worth of production that can be put on this order.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/CustomProductionPanel$1.class"
+  }
+ ]
+}

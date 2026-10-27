@@ -1,0 +1,231 @@
+{
+ "chunk": 262,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "The chaos begins to spread outward, crew and locals alike staring, and those drunkest and angriest standing. A couple executives in the back roll their eyes and activate a privacy field as their bodyguards step out of the shadows to protect their small pocket of peace.\r\n\r\nYou hear your name shouted like a curse, and a makeshift missile shatters on the support column behind you, cracking a vidpanel into fractal nonsense.\r\n\r\nYour bodyguards form a human shield to cover your path to the exit. Stumbling into the corridor outside, you can hear alarms and the buzz of surveillance drones which signal the rapid approach of one or another of the corpo security franchises. There'll be no quiet business done in this bar for the shift, that much is clear.",
+   "ctx": "data/campaign/rules.csv BarLRE1tritachyon [text]"
+  },
+  {
+   "i": 2,
+   "en": "The chaos spreads outward, crew and locals alike staring, and those drunkest - clearly, this bar doesn't only serve tea and small-beer - and angriest standing.\r\n\r\nYou hear your name called like a curse, and a makeshift missile smashes against a samovar behind you. It tips, slowly, and falls to the ground with a crash. A small wave of hot water washes over your boots, and a cloud of steam envelopes you.\r\n\r\nYour bodyguards form a human wall to cover your path toward the exit. Stumbling outside, you can hear the ringing of alarm bells which signal the rapid approach of the local MuniSec squad led by a Knight of Ludd. There'll be no quiet business done in this bar for the rest of the shift, that much is clear.",
+   "ctx": "data/campaign/rules.csv BarLRE1church [text]"
+  },
+  {
+   "i": 3,
+   "en": "A server appears by your side, a glass of what looks exactly like your favorite drink on a silver tray.\r\n\r\n\"Compliments of the house.\"",
+   "ctx": "data/campaign/rules.csv BarOwnColFreeDrink0 [text]"
+  },
+  {
+   "i": 4,
+   "en": "The server nods and politely disappears. A sip reveals that it is perfectly to your taste.",
+   "ctx": "data/campaign/rules.csv BarOwnColFreeDrink0A [text]"
+  },
+  {
+   "i": 5,
+   "en": "You take the drink and the server politely disappears. A sip reveals that it is perfectly to your taste.",
+   "ctx": "data/campaign/rules.csv BarOwnColFreeDrink0B [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"Technically yes, $playerSirOrMadam, though your organization leases to the proprietor. Who, by the way, extends their compliments.\"",
+   "ctx": "data/campaign/rules.csv BarOwnColFreeDrink0C [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Of course, $playerSirOrMadam. I'll see that the price of the drink is subtracted from the facility fees.\"\r\n\r\nWith that, the server politely disappears. You examine the drink you just bought, then take a sip. It is, in a word, perfect.\r\n",
+   "ctx": "data/campaign/rules.csv BarOwnColFreeDrink0D [text]"
+  },
+  {
+   "i": 8,
+   "en": "The server nods and politely disappears.",
+   "ctx": "data/campaign/rules.csv BarOwnColFreeDrink0E [text]"
+  },
+  {
+   "i": 9,
+   "en": "The clink of teacups is suddenly overcome by a shout and a crash.\r\n\r\n\"Demon! Servant of Moloch, follower of Mammon!\" A disheveled figure with a scraggly beard leaps on a table, leveling a pistol toward you, \"I walk the Path! I strike at you with the Hammer of-\"",
+   "ctx": "data/campaign/rules.csv lpBarAssassin0 [text]"
+  },
+  {
+   "i": 10,
+   "en": "A series of dull cracks signals your guards' suppressed low-penetration fire and the assassin falls like a ragdoll.\r\n\r\nThe samovar behind him, indented by a through-shot, leaks a steady patter of hot water into a growing pool of blood on the table.",
+   "ctx": "data/campaign/rules.csv lpBarAssassin1 [text]"
+  },
+  {
+   "i": 11,
+   "en": "Local MuniSec holds you, your guards, and a few witnesses until a mid-rank Knight of Ludd can make a ruling on the situation. The case for self-defense is clear-cut - witnesses swear holy oaths to this - and the licensing of your protective weapons is accepted.\r\n\r\n\"A child, led astray,\" the Knight says gruffly as the would-be assassin is wrapped in a simple shroud and taken away. Their eyes turn to you, \"Your pride sows wrath, and it bears this bloody fruit.\"\r\n\r\nAfter a pointed silence, they say, \"You and yours; go now. What's here is done.\"\r\n\r\n\"...So I pray,\" the Knight mutters as you turn away.",
+   "ctx": "data/campaign/rules.csv lpBarAssassin2 [text]"
+  },
+  {
+   "i": 12,
+   "en": "Player set to have met Brother Cotton, and to have sat down with him (indicating that they will talk to Pathers)",
+   "ctx": "data/campaign/rules.csv lpLKEtestSetting1set [text]"
+  },
+  {
+   "i": 13,
+   "en": "Player set to have radicalized Ned Boot, the Initiate met at the Hesperus Shrine",
+   "ctx": "data/campaign/rules.csv lpLKEtestSetting2set [text]"
+  },
+  {
+   "i": 14,
+   "en": "Player Luddic attitude set to Pather",
+   "ctx": "data/campaign/rules.csv lpLKEtestSetting3set [text]"
+  },
+  {
+   "i": 15,
+   "en": "Player Luddic attitude set to Faithful",
+   "ctx": "data/campaign/rules.csv lpLKEtestSetting4set [text]"
+  },
+  {
+   "i": 16,
+   "en": "Player Luddic attitude set to Atheist",
+   "ctx": "data/campaign/rules.csv lpLKEtestSetAtheist [text]"
+  },
+  {
+   "i": 17,
+   "en": "Player Luddic attitude set to Cynical",
+   "ctx": "data/campaign/rules.csv lpLKEtestSetCynical [text]"
+  },
+  {
+   "i": 18,
+   "en": "Player set to have acquired Loke via a Raid on Epiphany",
+   "ctx": "data/campaign/rules.csv lpLKEtestSetting5set [text]"
+  },
+  {
+   "i": 19,
+   "en": "Set player to have met Brother Cotton and to have received his Book of Ludd (normally done during Project Ziggurat). Also set that player has sat with Cotton (to indicate that player doesn't 1000 percent hate Pathers)",
+   "ctx": "data/campaign/rules.csv devGotCottonBookSet2 [text]"
+  },
+  {
+   "i": 20,
+   "en": "DEV jump to Jaspis convo",
+   "ctx": "data/campaign/rules.csv lkeDevStart1 [text]"
+  },
+  {
+   "i": 21,
+   "en": "made ZGR visible, set it so player received invite to meet her",
+   "ctx": "data/campaign/rules.csv ttDevMakeZGRvisible2 [text]"
+  },
+  {
+   "i": 22,
+   "en": "DEV \r\nSet met arroyo to true, and added as potential contact\r\n\r\nNOTE: you have to \"Develop Contact\" with him still!",
+   "ctx": "data/campaign/rules.csv ttDevMakeArroyoContactOption2 [text]"
+  },
+  {
+   "i": 23,
+   "en": "Set player encountered Weird and Dweller to TRUE",
+   "ctx": "data/campaign/rules.csv ttDevGiveDwellerLootSel [text]"
+  },
+  {
+   "i": 24,
+   "en": "Set player encountered Weird and Threat to TRUE",
+   "ctx": "data/campaign/rules.csv ttDevGiveThreatLootSel [text]"
+  },
+  {
+   "i": 25,
+   "en": "You try to establish a comm link, but your request is denied.",
+   "ctx": "data/campaign/rules.csv bqfsIgnoringComms [text]"
+  },
+  {
+   "i": 26,
+   "en": "$HeOrShe glances at a secondary display, checking your $shipOrFleet ID.\r\n\r\n\"This isn't a charity, spacer,\" $heOrShe says, turning back to you. \"I'd only even consider your request if you held a $faction commission. And you don't. So don't waste my time.\"",
+   "ctx": "data/campaign/rules.csv bqfsAskedForSuppliesFirstNo [text]"
+  },
+  {
+   "i": 27,
+   "en": "$HeOrShe glances at a secondary display, checking your $shipOrFleet ID.\r\n\r\n\"Charity may be a virtue, spacer,\" $heOrShe says, \"but I'd only even consider your request if you were actually in need - and commissioned in service of the Church of Galactic Redemption.\"\r\n\r\n\"Mind you that greed is a vice, so pray on that as you move along.\"",
+   "ctx": "data/campaign/rules.csv bqfsAskedForSuppliesFirstNoLuddic [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"Hmm,\" the $post looks over a secondary display, casually tapping through a few reports.",
+   "ctx": "data/campaign/rules.csv bqfsAskedForSupplies [text]"
+  },
+  {
+   "i": 29,
+   "en": "The $post gives you a strange look, then glances at a secondary display. Then, looking slightly alarmed, back at you.\r\n\r\n\"Wait, are you-\" $HisOrHer eyes dart to the display. \"You're $playerName! Get yourself off of my comm-link.\"\r\n\r\n$HeOrShe mashes at the cut-off button.",
+   "ctx": "data/campaign/rules.csv bqfsAskedForSuppliesHostile [text]"
+  },
+  {
+   "i": 30,
+   "en": "Something comes up, $hisOrHer eyes narrow, expression growing harder. More tapping. Then $heOrShe turns to you, frowning.",
+   "ctx": "data/campaign/rules.csv bqfsAskedForSuppliesScam [text]"
+  },
+  {
+   "i": 31,
+   "en": "Something comes up, $hisOrHer eyes narrow, expression growing harder. More tapping. Then $heOrShe turns to you, frowning.\r\n\r\n\"You don't become the $post without having seen a few tricks over the cycles. I just didn't expect a captain bearing a $faction commission to attempt the old cargo dump on me.\"\r\n\r\n$HeOrShe sighs, shaking his or her head. \"I'm flagging your commission ID for a cycle. Now get off my comms.\"",
+   "ctx": "data/campaign/rules.csv bqfsAskedForSuppliesScam2generic [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"I'm a $post for the Hegemony, not some two-credit League world. I've seen the old dump-the-cargo done by an upstart who thinks they're more clever than the system before, and I will again. You should be hauled before a court martial. But lucky you, I've got enough bureaucratic make-work, so I'm going to pretend this was one big, stupid mistake.\"\r\n\r\n$HeOrShe sighs, shaking his or her head. \"I'm flagging your commission ID for a cycle. Now get off my comms.\"",
+   "ctx": "data/campaign/rules.csv bqfsAskedForSuppliesScamHeg [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"I see your trick, captain, and while I admire your drive to maximize profit, I cannot respect that you're too incompetent to dump your supplies further afield before requesting assistance. You understand that if I was found misappropriating Tri-Tachyon property, they'd bond me into debt-service? I've got wealth, but not much. It'd be life.\"\r\n\r\n$HeOrShe sighs, shaking his or her head. \"I'm flagging your commission ID for a cycle. Now get off my comms.\"",
+   "ctx": "data/campaign/rules.csv bqfsAskedForSuppliesScamTT [text]"
+  },
+  {
+   "i": 34,
+   "en": "\"I may walk with Ludd, but you don't become the $post by taking every spacer's word on faith alone. I'd hoped a captain commissioned by the Church would never attempt a cargo dump scam on me, but here you are.\"\r\n\r\n$HeOrShe sighs, shaking his or her head. \"I'm flagging your commission for a cycle, that you might reflect and pray for forgiveness. Now remove your sinning face from my comms.\"",
+   "ctx": "data/campaign/rules.csv bqfsAskedForSuppliesScamChurch [text]"
+  },
+  {
+   "i": 35,
+   "en": "\"I'm no gens-get, captain; I earned my position by serving from Laicaille to Salamanca and I didn't become $post because I'm a fool. I just didn't expect a League captain to attempt the old smuggler's dump on me.\"\r\n\r\n$HeOrShe sighs, shaking his or her head. \"I'm flagging your commission ID for a cycle. Now get off my comms.\"",
+   "ctx": "data/campaign/rules.csv bqfsAskedForSuppliesScamLeague [text]"
+  },
+  {
+   "i": 36,
+   "en": "\"You don't become the $post here without knowing a few tricks employed by terrorists and smugglers. I'd have expected if you'd pledged to the Sindrian Diktat you'd know better than to attempt the old cargo dump scam. Stars beyond, you'd get us both sent to Cruor!\"\r\n\r\n$HeOrShe sighs, shaking his or her head. \"I'm flagging your commission ID for a cycle. You'd best hope the Spider doesn't take an interest. Now get off my comms.\"",
+   "ctx": "data/campaign/rules.csv bqfsAskedForSuppliesScamSD [text]"
+  },
+  {
+   "i": 37,
+   "en": "\"Hmm. Your $shipOrFleet is in decent shape, but your readiness has suffered. Seeing as how you bear a $faction commission, it looks like I might be able to justify providing you with assistance.\"\r\n\r\n$HeOrShe gives you a severe look. \"Are you sure you want to call this in now? A commissioned captain is only authorized to receive emergency supplies once per cycle.\"",
+   "ctx": "data/campaign/rules.csv bqfsAskedForSuppliesAcceptA [text]"
+  },
+  {
+   "i": 38,
+   "en": "The $post simply nods.",
+   "ctx": "data/campaign/rules.csv bqfsAskedForSuppliesAcceptAbort [text]"
+  },
+  {
+   "i": 39,
+   "en": "\"It looks like your $shipOrFleet has taken some hits. Seeing as how you bear a $faction commission, it looks like I can justify providing you with assistance.\"",
+   "ctx": "data/campaign/rules.csv bqfsAskedForSuppliesAcceptB [text]"
+  },
+  {
+   "i": 40,
+   "en": "\"Your $shipOrFleet has taken some serious damage. You have a $faction commission and this is a clear case of need, so I shall provide you with emergency supplies.\"",
+   "ctx": "data/campaign/rules.csv bqfsAskedForSuppliesAcceptC [text]"
+  },
+  {
+   "i": 41,
+   "en": "\"Looks like you've got a handle on your $shipOrFleet's upkeep. I'll not give supplies away for them to end up on the black market.\"\r\n\r\n$HeOrShe holds up one rough hand, \"Not accusing you, captain. It's simply a matter of policy that I must justify any emergency supply transfer. If I can't prove they're used to serve $faction interests, then I have to answer for the expense.\"",
+   "ctx": "data/campaign/rules.csv bqfsAskedForSuppliesDecline [text]"
+  },
+  {
+   "i": 42,
+   "en": "$HeOrShe back looks to you, perplexed. \"You own your own planet and you've come to me begging for supplies?\"\r\n\r\n\"I'll count this as a joke in poor taste, $playerSirOrMadam.\"\r\n\r\n$HeOrShe doesn't look amused, and doesn't manage to imbue $hisOrHer words with quite the tone of respect $hisOrHer words alone would imply.",
+   "ctx": "data/campaign/rules.csv bqfsASkedForSuppliesDeclineColony [text]"
+  },
+  {
+   "i": 43,
+   "en": "You make the arrangements, and before the passing of a workshift, a small batch of emergency supplies is transferred to your $shipOrFleet for repairs.\r\n\r\n\"The funds you receive from $theFaction are meant to cover operational expenses,\" $personName says brusquely. \"Your commission ID will be flagged for one full cycle due to this emergency supply transfer, so don't make a habit of not having a backup plan.\"",
+   "ctx": "data/campaign/rules.csv bqfsAskedForSuppliesAccept2 [text]"
+  },
+  {
+   "i": 44,
+   "en": "Your salvors spread out through the $nameInText in teams under the gruff direction of your Ops Chief. Salvage is rapidly identified, assessed, logged, and tagged with trackers, when appropriate, for follow-up teams to extract.\r\n\r\nComputers and datastores are accessed via disposable interfacers, rough and quick hardware jobs that send back any information they can lift from poorly shielded databanks. Back on your $shipOrFleet, your tech teams crack security and decrypts anything they can, forwarding useful information - maps, cargo manifests, engineering diagrams - back to the salvors to use.",
+   "ctx": "data/campaign/rules.csv salSMOLstart [text]"
+  },
+  {
+   "i": 45,
+   "en": "These teams are experts at rapidly reconstructing the relevant events of a starship or space station's demise; such a narrative provides useful information about dangers and valuables.\r\n\r\nHere, comms logs and surveillance gives meaning to the evidence of scattered damage caused by light firearms - local security was in the process of a major crackdown on a drug smuggling operation, and in an explosive confrontation appears to have caused a blowout of the primary hab section. This seems to have tipped the state of the station, already precarious, into a full evacuation.\r\n\r\nThe rest of the story is mere salvage for your waiting holds.",
+   "ctx": "data/campaign/rules.csv salSMOLstory1 [text]"
+  }
+ ]
+}

@@ -1,0 +1,116 @@
+{
+ "chunk": 169,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "Arroyo seems genuinely amused when he answers the comms, \"Ah, $playername! My ruthless blackmailer returns,\" he pauses for a moment and chuckles to himself while scrolling through a datapad.\r\n\r\n\"You should see the things they're saying about me, you'd think they caught me on holo in the High Hegemon's private quarters having a-\" he looks up, \"... Business, yes, of course.\" He tosses the datapad to the side. \r\n\r\n\"You wanted the file on Kelise Astraia.\" He grins, \"I didn't even have to bribe the admin at Culann Starforge for this. Would you believe that we worked together a few cycles ago? There's a story there, but let me tell you about your weapons engineer.\"",
+   "ctx": "data/campaign/rules.csv gaPZReturnToArroyo [text]"
+  },
+  {
+   "i": 2,
+   "en": "Arroyo takes on the distant look of a cyberaug interfacing with the hypernet. With a nod, Arroyo summons a personnel file to overlay your comms-link, summarizing the life and career of Kelise Astraia.\r\n\r\n\"A bit of an eccentric, our Kelise,\" Arroyo says, \"But you can get the details later. Relevant bit is here: looks here like she was contracting on the side for a Tri-Tach black project - one of them anyway - and was asked to go on-site full-time. Left a convincing resignation and booked a starship, the 'Hamatsu'. Venture-class. That one's made more than a few trips out of the core worlds; scavenging, special ops. A few jobs for the Company here and there.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_returnArroyo1 [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"Let's see. It looks like Astraia requested special modifications.\" Arroyo raises an eyebrow, \"Expensive ones. I'm guessing some of this is a little extra to keep things quiet. No specs on these modifications, however. Lazy work by whoever was doing this data-gathering.\"\r\n\r\n\"Looks like the ship left the Hybrasil system and turned its transponder off sometime before jumping out. Doesn't necessarily mean anything, but... \" Arroyo considers for a moment, then pages the file ahead. ",
+   "ctx": "data/campaign/rules.csv gaPZ_returnArroyo2 [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"They didn't want to be followed,\" says Arroyo, looking somewhere off-comms, \"I would assume the flight plan logged with the port authority is worthless. Someone has to know something though. Hmm.\" Data scrolls on his desk display.\r\n\r\n\"The Hamatsu is owned by one Callisto Ibrahim.\" he looks up at you, \"Heard of her? No? Bit of a reputation. My former partner hired her once a while back. She lied up and down on her credentials,\" he shrugs. \"But it worked out. Respect the con. Anyway, she's operating a few small fleets out of Agreus in the Arcadia system these days.\"\r\n\r\nArroyo's eye twitches in a certain way and the display records disappear.",
+   "ctx": "data/campaign/rules.csv gaPZ_returnArroyo3 [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"Well, $playername, that was fun. I've forwarded the files. If I were you, I'd try to get some information out of Ibrahim. She seems like someone who knows how to do business if the pay is right.\"\r\n\r\nArroyo sits back, \"Now I have a reputation to obscure, if you don't mind. Good luck finding your engineer. Remember: I don't want to hear any more about this. The last thing I need is to get some Company director on my case because you're stepping on their pet black project.\" \r\n\r\nWith that, he terminates the link, leaving you with a spinning Tri-Tachyon logo.",
+   "ctx": "data/campaign/rules.csv gaPZ_returnArroyo4 [text]"
+  },
+  {
+   "i": 6,
+   "en": "You buy drinks freely, targeting those patrons wearing the expensive professional clothing that serves as an unofficial uniform for junior Tri-Tachyon executives. Most attempt to 'network' with you, pitching unlikely business schemes as you nod and try to steer the conversation back toward a certain ordnance engineer.\r\n\r\nEventually you get a hit, of sorts.",
+   "ctx": "data/campaign/rules.csv gaPZ_keliseBarEvent [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"You're trying to poach talent aren't you,\" a smile and a wink from the smarmy suit, \"You with one of the big Kazeron gens? Don't have to tell me. Anyway, it's easy - you just need credits. Talk to the administrator at Culann Starforge, show them you're serious. Everyone has an angle.\"\r\n\r\n\"Now, like I was saying, my product will completely redefine the paradigm, max-sizing next generation innovation...\" \r\n\r\nYou pretend to receive an urgent notice on your datapad, finish your drink, and escape.",
+   "ctx": "data/campaign/rules.csv gaPZ_keliseBarEvent1 [text]"
+  },
+  {
+   "i": 8,
+   "en": "The Tri-Tachyon comms logo resolves rapidly to the smiling administrator of Culann Starforge.\r\n\r\n\"Greetings Captain $playerName!\" $HeOrShe glances at a secondary display, \"Your net worth is admirable. On behalf of the Tri-Tachyon Corporation, I would like to welcome you to Culann Starforge.\"\r\n\r\n$HisOrHer perfect smile grows slightly larger. \"We supply a variety of alloys to both private firms and major polities. Or perhaps you're a supplier in the ore trade?\"",
+   "ctx": "data/campaign/rules.csv gaPZTalkCulannAdmin [text]"
+  },
+  {
+   "i": 9,
+   "en": "You inquire about Kelise Astraia. The administrator's smile glows slightly less wide and a touch of confusion grows on $hisOrHer face. \"A former employee you say? Well, the Tri-Tachyon Corporation has top-line privacy guidelines when it comes to discussion of human assets.\" $HisOrHer gaze drifts to the side, \"However... \"\r\n\r\nThis privacy guideline sounds flexible. $HeOrShe seems to be waiting for you to make an offer.",
+   "ctx": "data/campaign/rules.csv gaPZ_adminAstraia1 [text]"
+  },
+  {
+   "i": 10,
+   "en": "You activate your personal datapad and load up Tri-Tachyon's insipid professional networking service. While making light small-talk with $personName, you find $hisOrHer public profile and add $himOrHer as a connection, swiftly assigning the maximum level endorsement across all notable skills.\r\n\r\n\"Oh captain, how very kind of you,\" says $personName, \"Now that we're professionally acquainted, I'd be more than willing to perform a quick consultation in the matter of the former employee of interest... though my fees are not trivial.\"\r\n\r\nBribery it is, then.",
+   "ctx": "data/campaign/rules.csv gaPZ_adminAstraia2a [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"$gaPZ_culannBribe credits. Upfront, to my account via, ah, this UID,\" the administrator says as your datapad pings softly to alert you of the receipt of payment information. $personName smiles brightly again and awaits your response.",
+   "ctx": "data/campaign/rules.csv gaPZ_adminAstraia3a [text]"
+  },
+  {
+   "i": 12,
+   "en": "$personName cuts you off before you can finish even an attempt to negotiate, \"My fee structure is quite generous, captain, and offered with our special professional connection in mind.\" The smile remains, but $hisOrHer eyes tell you that you're skirting close to an event horizon.",
+   "ctx": "data/campaign/rules.csv gaPZ_adminAstraia4aNeg [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"Wonderful,\" says the administrator as you see $hisOrHer eyes read the transfer confirmation. \"Let me just pull up the file on Kelise Astraia... ah, here it is,\" $heOrShe says with suspiciously little delay. \r\n\r\nA personnel file overlays your comms-link, displaying details of the life and employment of Kelise Astraia.\r\n\r\n\"Not an ideal employee, mmm,\" says $name, reading the file. \"Insubordination. Sloppy infosec. Failure to consistently engage with company morale programs,\" $heOrShe glances back at you, gauging your interest. \"But that's not what you're looking for, is it, captain. You want to find her. I am correct, yes?\"\r\n\r\nThe file scrolls by quickly, manipulated by a combination of the administrator's hands flying over a virtual interface and subtle use of cyberaugs.",
+   "ctx": "data/campaign/rules.csv gaPZ_adminAstraia4a [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"Judging by the credits transfers from 'unknown source', I would suppose that employee 379490509 was contracting on the side for a black project from elsewhere in the Company. Not one of mine. Hm.\" This seems to annoy the administrator. \"If I had to guess, that's why she resigned so suddenly and- oh, look at this.\"\r\n\r\nA noisy holo from a navigation sat pops up showing a weathered Venture-class hull. \"It's called the 'Hamatsu'. Surveys, scavenging, ... other jobs. Astraia booked the entire ship and requested some kind of modification installed.\" The administrator is frowning now, an unusual expression for $himOrHer. \"No details. I'll have to have a word with the portmaster for allowing this to proceed without filing a copy with the Company.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_adminAstraia5 [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"The Hamatsu finished modifications then made to leave the Hybrasil system but turned its transponder off before jumping out.\" $HeOrShe considers this for a moment, then pages the file ahead. \r\n\r\n\"Ah. Owned by Callisto Ibrahim.\" $heOrShe looks up at you, \"Heard of her? No? Bit of a reputation. A few junior partners in the Company hired her for a job a while back. She falsified credentials but delivered admirably in the end. She's now operating a few,\" a derisive sniff, \"small fleets out of Agreus in the Arcadia system.\"\r\n\r\nThe administrator looks at you now, unsmiling. \"If I were you and I wanted to find Kelise Astraia, I would talk to Ibrahim. She'll do business.\" A pause, \"Like we are.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_adminAstraia6 [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"And now you have your lead, so I believe I have earned my fee. I thank you for bringing this little loose end to my attention. Now I have some calls to make.\" $HeOrShe smiles again at you, entirely falsely. \"You never know who you can trust.\"\r\n\r\n\"Pleasure doing business, captain. Profitable ventures to you.\" And with that, $heOrShe closes the comms.",
+   "ctx": "data/campaign/rules.csv gaPZ_adminAstraia7 [text]"
+  },
+  {
+   "i": 17,
+   "en": "The comms flicker and stabilize, the serious face of a Luddic Knight appears before you, dotted by holo-snow.\r\n\r\n\"You are here, just as Brother Cotton foretold,\" $heOrShe says, \"I meet you $playername, and in my right hand I hold the hammer of Ludd, and in my left hand I wield the sword. Will you repent and turn from the path of evil to follow the blessed Path of Ludd?\"\r\n\r\nThere seems to be some barely-restrained expectation behind $hisOrHer words, a slow anger distilled over years into a force more pure by far.",
+   "ctx": "data/campaign/rules.csv gaPZKnightOpenComm [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"Your worship of the twin evils Moloch and Mammon is not unseen by the Path, $playername. A wheeled eye spins, and it is fiery, and it is filled with judgment.\"\r\n\r\n\"Know that servants of Moloch can be bought. You consort with betrayers; those with no faith in their heart will sell their erstwhile comrades. Do you think Tri-Tachyon only provides information to your ilk? They know no loyalty but that of blooded silver.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_rk1 [text]"
+  },
+  {
+   "i": 19,
+   "en": "Your comms officer snaps the holofeed off, the knight's face hanging like a specter in the air for just a moment of bluish afterimage. Your bridge crew coordinates your $shipOrFleet's muster to combat-ready status.",
+   "ctx": "data/campaign/rules.csv gaPZ_rkEnd [text]"
+  },
+  {
+   "i": 20,
+   "en": "The knight's face is stony. \"Prove your devotion now. Unburden your soul of Mammon's shackles. Transfer $gaPZ_rkTithe credits in tithe to the Path of Ludd. Immediately.\"\r\n\r\n$HeOrShe pauses, then says smugly \"Remember that it is a sin to swear false oaths, $playername.\" The Knight brow furrows just a little, like $heOrShe knows your answer already, savoring that $heOrShe has caught you in a lie.",
+   "ctx": "data/campaign/rules.csv gaPZ_rkFollowPath [text]"
+  },
+  {
+   "i": 21,
+   "en": "At last the knight smiles, and it is a smile of cold fury. \"Evil will always betray itself, you see? Your heart is polluted with greed, and pride, and deceit. In Ludd's name I shall strike you down, hammer and sword.\"\r\n\r\nThe comm-line goes dark. The knight's face hangs in the air like a specter for just a moment of bluish afterimage.",
+   "ctx": "data/campaign/rules.csv gaPZ_rkHaggle [text]"
+  },
+  {
+   "i": 22,
+   "en": "A console chimes, and the rogue knight looks almost surprised, and definitely a little disappointed. \"You have... chosen,\" $heOrShe says haltingly, \"But I am still not sure if the path in your heart truly leads toward the Path, or if this is the deceit of a coward who will give anything to save their own miserable life from judgment.\"\r\n\r\nThe Knight looks stoic once more, \"It is not for me to decide now if your soul can be redeemed- it is not for any of us. But the worldly concern of your Path? That is a burden chosen by Brother Cotton. Find him. If the light of Ludd truly illuminates the Path before you, you will know how.\" $HeOrShe looks away, annoyed, \"Then you can be his problem.\"\r\n\r\nWith that, the rogue knight snaps the comms-line dark. $HisOrHer face hangs in the air for just a moment as a bluish afterimage before fading to nothing.",
+   "ctx": "data/campaign/rules.csv gaPZ_rkAgree [text]"
+  }
+ ]
+}

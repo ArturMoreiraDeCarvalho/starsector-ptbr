@@ -1,0 +1,146 @@
+{
+ "chunk": 199,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "The pirates' fingers slither over a datapad as $heOrShe confirms the credits transfer.\r\n\r\n\"You'll find your friend in the box,\" $heOrShe says without looking up again. \r\n\r\nThe comms snap off.\r\n\r\nYour logistics officer reports a pickup ping from a seemingly abandoned loading bay. You fear the worst as you dispatch a small shuttle to make the pickup, but you do indeed find a very unhappy academician of the Galatia Academy sealed in a crate with a small life-support unit. Given food, rest, and a shower, they'll be fine.",
+   "ctx": "data/campaign/rules.csv gaRRPirateAccept2 [text]"
+  },
+  {
+   "i": 2,
+   "en": "You laugh, as though the pirate has told a hilarious joke. $HeOrShe looks confused at first, then with growing anger and disgust at being left out of some joke.\r\n\r\nWiping away a tear, you compliment the audacity of raising the price so blatantly, and observe that you would expect no less from ruthless space-scum of $hisOrHer caliber. Particularly when dealing with shiny-clean academics, who would get lost on the way to the head if they didn't have their datapad to lead them.",
+   "ctx": "data/campaign/rules.csv gaRRPirateBluff [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"We, of course, are different animals,\" you explain as you smile ruthlessly back at the pirate.\r\n\r\n$HeOrShe quickly comes around to the idea that you're an up-and-coming force, someone willing to do what it takes. And if they want to stay relevant, they're going to have to foster a good working relationship with you. Wouldn't want to end up spaced out of several different airlocks, right?\r\n\r\nThe first step toward this brighter future is, naturally, reducing the proposed ransom to something more reasonable, like $gaRR_costVeryLow. It's important that money exchanges hands to signal mutual respect, but to ask too much would be a poor investment \"In our future as business partners,\" you explain.",
+   "ctx": "data/campaign/rules.csv gaRRPirateBluff1 [text]"
+  },
+  {
+   "i": 4,
+   "en": "You order the much smaller payment of $gaRR_costVeryLow to the cowed pirate who can barely tear $hisOrHer eyes from $hisOrHer cracked datapad until the incoming credits can be confirmed.\r\n\r\nYour logistics officer reports a pickup ping from a seemingly abandoned loading bay. You fear the worst as you dispatch a small shuttle to make the pickup, but you do indeed find a very unhappy academician of the Galatia Academy sealed in a crate with a small life-support unit. Given food, rest, and a shower, they'll be fine.\r\n\r\nThe pirate speaks, relieved to see you've confirmed that the kidnapped academician is alive, \"Captain, I'm-\"",
+   "ctx": "data/campaign/rules.csv gaRRPirateBluff2 [text]"
+  },
+  {
+   "i": 5,
+   "en": "You turn your back and snap the comms off with a flick.",
+   "ctx": "data/campaign/rules.csv gaRRPirateBluff3c [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"Oh, captain! The $gaRR_department Department wanted me to give you their thanks for returning academician- uh, well, you won't remember the name, but they're all very pleased to get back to work on the- uh, well, I shouldn't really say.\"\r\n\r\nSebestyen looks nervously around, then clears his throat. \"Trust me, they're very pleased. And it's due to you. Good job!\"",
+   "ctx": "data/campaign/rules.csv gaRRMissionReturn [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Ah, uh, captain.\" Sebestyen stammers awkwardly at you for a moment. \"T-The, um, bursar's office contacted me, and um, they're taking back the credits allocated to you for the ransom payment. They tell me that the situation has been resolved?\"",
+   "ctx": "data/campaign/rules.csv gaRRMissionReturnPlayerOwes [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"Provost Baird put in a request for the extraction of a, um, researcher? From er ... a heavily guarded Tri-Tachyon black site in the outer Sector. Also I'm not supposed to tell you where it is before you accept the mission.\" Sebestyen looks up at you awkwardly, \"For reasons.\" ",
+   "ctx": "data/campaign/rules.csv gaTJBlurb [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"Yes! Okay.\" Sebestyen clears his throat nervously.\r\n\r\n\"The provost said I shouldn't... um, I can't tell you the location of the target system until after you accept. So.\" He trails off, and re-aligns the datapad on his desk, as if that might help. Everything set to order, he has no choice but to continue speaking.\r\n\r\n\"This mission requires... discretion. As I'm sure you know, there are many - technically - unclaimed systems outside the core worlds. If some polity were to make an official claim, they'd have to establish a charter and, well, this would - technically - give the Domain jurisdiction. Of course without the Domain around, the Hegemony has claimed successor status and has therefore stepped into the role of...\"",
+   "ctx": "data/campaign/rules.csv gaTJMissionText [text]"
+  },
+  {
+   "i": 10,
+   "en": "Sebestyen notices you drifting. \r\n\r\n\"I'm sorry captain, what I mean to say is that the Tri-Tachyon corporation considers the site in question to be outside the jurisdiction of, er... anyone. And it is therefore within their rights to establish ah, a secret research base. And defend them however they see fit. The Hegemony disagrees.\"\r\n\r\n\"And so um,\" Sebestyen pinches his eyes shut for a moment, \"They hire these mercenaries and, and they shoot anything that comes near. It's terrible!\"",
+   "ctx": "data/campaign/rules.csv gaTJMissionText1 [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"Oh! I was just getting to that. Well, the previous provost, Tomas Kallichore, he worked closely with Tri-Tachyon. There was some pretty exciting research, actually, and... sorry, the mission: an academician from the Galatia Academy is still stationed at one of these secret research bases and... Provost Baird wants them back.\"\r\n\r\n\"But this academician was never there in the first place, technically. Legally speaking. Because it was all a big secret.\"\r\n\r\nSebestyen looks pained at the logic of these politics, \"So Tri-Tachyon isn't, um, cooperating. Do you see?\"",
+   "ctx": "data/campaign/rules.csv gaTJMissionText2 [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"No no no, it's not kidnapping!\" Sebestyen seems sick at the thought, \"The researcher wants to come home, $gaTJ_heOrShe managed to get some communications out and we've set up a whole system... er.\"",
+   "ctx": "data/campaign/rules.csv gaTJMissionText3a [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"Yes, exactly!\" Sebestyen seems relieved at your understanding. \"The researcher wants to come home, $gaTJ_heOrShe managed to get some communications out and we've set up a whole system... er.\"",
+   "ctx": "data/campaign/rules.csv gaTJMissionText3b [text]"
+  },
+  {
+   "i": 14,
+   "en": "He looks around, \"Please, don't tell anyone I told you that part. Um. So if you can help, Provost Baird has insisted that you receive $gaTJ_reward credits. I'm authorized to provide more information if you accept.\"",
+   "ctx": "data/campaign/rules.csv gaTJMissionText3 [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"Wonderful,\" Academician Sebestyen looks relieved.\r\n\r\n\"The research base is on the planet $gaTJ_planetName in the $gaTJ_systemName system, which is $gaTJ_dist light-years from here.\"\r\n\r\n\"You'll want to avoid the, er, mercenary patrols. We believe they'll be guarding all of the jump-points, so if you can find a large gravity well to jump to, that could get you safely in-system. Then go to where the research base is hidden and contact Academician $gaTJ_researcherName through the coded frequency that I'll provide. $gaTJ_HeOrShe should be able to shut down the base's security for long enough to get aboard your ship.\"",
+   "ctx": "data/campaign/rules.csv gaTJMissionText4 [text]"
+  },
+  {
+   "i": 16,
+   "en": "Sebestyen re-reads his datapad with a concerned look, then adds \"There's... a way to get back to hyperspace without using a jump-point. It might be useful.\" \r\n\r\nHe looks up at you, perhaps wondering if you'll think him insane, \"It's not a joke. Before the Hegemony arrested so many of our top hyperspace researchers after the, ah, big incident, one of them - Academician Scylla Coureuse - was working on this theory, and we were very close to finding an application for a sort of Transverse Jump which could move a ship directly to hyperspace from normal space.\" \r\n\r\nHe puts down the datapad, looking worried, \"Theoretically.\"",
+   "ctx": "data/campaign/rules.csv gaTJMissionText5 [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"You- what?\" Sebestyen looks stunned, processing your statement.\r\n\r\n\"I suppose, of course... There were rumors, anecdotes... um, do you mind providing some of your navigational logs? The data would be quite fascinating and, and...\"",
+   "ctx": "data/campaign/rules.csv gaTJMissionTextHaveTJ1 [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"Wonderful,\" he smiles, \"This could confirm the uh- right, you have things to do. Where were we...\"",
+   "ctx": "data/campaign/rules.csv gaTJMissionTextHaveTJyes [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"Um,\" he looks abashed. \"Of course. Where were we...\" ",
+   "ctx": "data/campaign/rules.csv gaTJMissionTextHaveTJno [text]"
+  },
+  {
+   "i": 20,
+   "en": "Academician Sebestyen sits up a little straighter, \"Yes! I'll transmit all the necessary information, captain. Good luck.\" \r\n\r\nHe puts down, then picks up his datapad. \"And please be careful,\" he adds.",
+   "ctx": "data/campaign/rules.csv gaTJMissionText6 [text]"
+  },
+  {
+   "i": 21,
+   "en": "Your $shipOrFleet approaches $entityName. There is no outward sign of a Tri-Tachyon research base. \r\n\r\n\"Captain,\" your sensors officer brings your attention to a cluster of weak neutrino sources in the southern hemisphere. \"Wouldn't have caught it if we didn't know what to look for.\"",
+   "ctx": "data/campaign/rules.csv gaTJPlanetInteraction [text]"
+  },
+  {
+   "i": 22,
+   "en": "A nearby hostile fleet is tracking your movements, making a rescue operation inadvisable.",
+   "ctx": "data/campaign/rules.csv gaTJPrintHostilesText [text]"
+  },
+  {
+   "i": 23,
+   "en": "Almost immediately a worried face appears, dripping sweat. \"Stars beyond,\" $gaTJ_heOrShe exclaims, \"You actually came! I am Academician $gaTJ_researcherName and I'm ready to leave. Right now.\" \r\n\r\n$gaTJ_HeOrShe laughs, sounding just a little unhinged, \"It's been - rads and ruin, a long long time. I've pulled a copy of all the base archives, and,\" $gaTJ_heOrShe grins and holds up a small datachip, \"The little secret Baird wants so badly. The EMP is about to go off, so don't panic when you detect it. I've hidden a shuttle in a shielded bay and I'll meet you in orbit soon. Just remember- \" \r\n\r\nA frantic alarm sounds behind $gaTJ_himOrHer. The researcher looks over $gaTJ_hisOrHer shoulder, \"Ludd's hells-\" \r\n\r\nThe signal cuts out.",
+   "ctx": "data/campaign/rules.csv gaTJPlanetContact [text]"
+  },
+  {
+   "i": 24,
+   "en": "The EMP goes off like a flashbulb on your bridge holodisplay of the planet below. All stations set to high alert, you wait tense minutes for any sign of Baird's informant.\r\n\r\n\"There!\" shouts your tactical officer.\r\n\r\nThe bridge display zooms in to a small energy source that just made low orbit - a tiny cargo shuttle without even a closed cockpit. Visual scans can just make out a suited figure riding on its light chassis, weak thrusters pushing a course toward intercept.",
+   "ctx": "data/campaign/rules.csv gaTJPlanetContact2 [text]"
+  },
+  {
+   "i": 25,
+   "en": "A space ops team ushers the freed academician into a debriefing chamber. \"Captain,\" $gaTJ_heOrShe says with panic in $gaTJ_hisOrHer eyes, \"There's no time. They got a signal out before the comms went down. I've got this,\" $gaTJ_heOrShe fumbles with a pouch on $gaTJ_hisOrHer vacuum rig, pulling out the datachip from earlier.\r\n\r\n\"It's a software patch. Roots and modifies hyperdrive field software. Then, on command, you can engage Transverse Jump. Jump from normal to hyperspace,\" a manic gleam comes into $gaTJ_researcherName's eyes, \"Anywhere.\"",
+   "ctx": "data/campaign/rules.csv gaTJPlanetContact3 [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"You... what?\" $gaTJ_researcherName looks at you, confused. \"I've heard rumors. Just spacers' stories, I thought. There's no way you could tune the hyperdrive field that accurately on manual control. And if you made one mistake...\" \r\n\r\n$gaTJ_HeOrShe shakes $gaTJ_hisOrHer head, forlorn in the conclusion that $gaTJ_heOrShe has been rescued by a captain whose primary reactor is missing some shielding.\r\n\r\nYou take the datachip from $gaTJ_researcherName's trembling hand. Provost Baird wants this thing, so she'll get it. You order the academician to be seen to quarters - and watched - as you return to the bridge to decide whether to Transverse Jump directly to hyperspace or deal with the incoming mercs the old-fashioned way.",
+   "ctx": "data/campaign/rules.csv gaTJPlanetContactHaveTJ [text]"
+  },
+  {
+   "i": 27,
+   "en": "You take the datachip from the escapee's trembling hand.\r\n\r\n\"Yes, yes,\" $gaTJ_researcherName says, \"Use this and we can escape. Those mercs, captain, they're the expensive ones. No mere pirates, they're... \" $gaTJ_heOrShe shudders, \"They're cruel. And they have the best ships money can buy. You have to get us out of here.\"\r\n\r\nYou order the academician to be seen to quarters - and watched - as you return to the bridge.",
+   "ctx": "data/campaign/rules.csv gaTJPlanetContactTakeChip [text]"
+  },
+  {
+   "i": 28,
+   "en": "A look of fear crosses the escapee's face, \"Captain! But you must. Please, just take it,\" $gaTJ_heOrShe moves forward, trying to push the datachip into your hands. And freezes as your bodyguards' sidearms appear.\r\n\r\n\"The merc fleets- they'll be coming for you now,\" $gaTJ_researcherName pleads. \"They won't negotiate, captain. You have to get us out of here,\" \r\n\r\nYou wave your bodyguards down and take the chip. Provost Baird wants this thing, so it must be worth something. You order the academician to be seen to quarters - and watched - as you return to the bridge.",
+   "ctx": "data/campaign/rules.csv gaTJPlanetContactTakeNN [text]"
+  }
+ ]
+}

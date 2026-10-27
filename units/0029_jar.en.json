@@ -1,0 +1,856 @@
+{
+ "chunk": 29,
+ "cat": "jar",
+ "items": [
+  {
+   "i": 1,
+   "en": "Fuel exports increased",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/DiktatFuelBonusScript.class"
+  },
+  {
+   "i": 2,
+   "en": "Proven stable source (due to outcome of Diktat conflict)",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/DiktatFuelBonusScript.class"
+  },
+  {
+   "i": 3,
+   "en": "    - Colonies receive %s accessibility",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/EstablishedPolityScript.class"
+  },
+  {
+   "i": 4,
+   "en": "Established Polity gained",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/EstablishedPolityScript.class"
+  },
+  {
+   "i": 5,
+   "en": "Actions that postpone a crisis often have unintended consequences and cause their own problems in the long run. Ultimately, crises can not be avoided, and must instead be dealt with and exploited for the opportunities they provide.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HABlowbackFactor$1.class"
+  },
+  {
+   "i": 6,
+   "en": "Points remaining: %s",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HABlowbackFactor$1.class"
+  },
+  {
+   "i": 7,
+   "en": "Will contribute %s of the points per month to event progress, and will also increase the value that progress is reset to after a crisis.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HABlowbackFactor$1.class"
+  },
+  {
+   "i": 8,
+   "en": "Blowback",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HABlowbackFactor.class"
+  },
+  {
+   "i": 9,
+   "en": "High Command",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HAColonyDefensesFactor$1.class"
+  },
+  {
+   "i": 10,
+   "en": "Infrastructure",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HAColonyDefensesFactor$1.class"
+  },
+  {
+   "i": 11,
+   "en": "Military Base",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HAColonyDefensesFactor$1.class"
+  },
+  {
+   "i": 12,
+   "en": "Multiplier",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HAColonyDefensesFactor$1.class"
+  },
+  {
+   "i": 13,
+   "en": "Patrol HQ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HAColonyDefensesFactor$1.class"
+  },
+  {
+   "i": 14,
+   "en": "The presence of military infrastructure slows down event progress, but does not actually stop or reverse it. The highest level military structure present on any of your colonies determines the multiplier.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HAColonyDefensesFactor$1.class"
+  },
+  {
+   "i": 15,
+   "en": "You have a %s at %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HAColonyDefensesFactor$1.class"
+  },
+  {
+   "i": 16,
+   "en": "Military infrastructure",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HAColonyDefensesFactor.class"
+  },
+  {
+   "i": 17,
+   "en": "Defensive measures taken by your colonies.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HADefensiveMeasuresFactor$1.class"
+  },
+  {
+   "i": 18,
+   "en": "Based on the size and stability of the largest colony under your control. If multiple colonies have the same size, the one with higher stability is used.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HADefensiveMeasuresFactor$2.class"
+  },
+  {
+   "i": 19,
+   "en": "Biggest colony: %s, size: %s, stability: %s",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HADefensiveMeasuresFactor$2.class"
+  },
+  {
+   "i": 20,
+   "en": "A Patrol HQ reduces monthly progress by %s points. A Military Base and a High Command reduce progress by %s and %s the colony's size, respectively. Only the highest-scoring colony is used, building multiple military bases has no effect.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HADefensiveMeasuresFactor$3.class"
+  },
+  {
+   "i": 21,
+   "en": "Based on the size the largest colony under your control that has a Patrol HQ, a Military Base, or a High Command.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HADefensiveMeasuresFactor$3.class"
+  },
+  {
+   "i": 22,
+   "en": "Best military colony: %s, size: %s, score: %s points",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HADefensiveMeasuresFactor$3.class"
+  },
+  {
+   "i": 23,
+   "en": "    High Command",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HADefensiveMeasuresFactor.class"
+  },
+  {
+   "i": 24,
+   "en": "    Increased defenses",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HADefensiveMeasuresFactor.class"
+  },
+  {
+   "i": 25,
+   "en": "    Military base",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HADefensiveMeasuresFactor.class"
+  },
+  {
+   "i": 26,
+   "en": "    Military infrastructure",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HADefensiveMeasuresFactor.class"
+  },
+  {
+   "i": 27,
+   "en": "    Patrol HQ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HADefensiveMeasuresFactor.class"
+  },
+  {
+   "i": 28,
+   "en": "Defensive measures",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HADefensiveMeasuresFactor.class"
+  },
+  {
+   "i": 29,
+   "en": "A tactical bombardment of Hersperus - the military stronghold of the Knights of Ludd - has severely disrupted the efforts of the Luddic Church to pressure your colonies.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HAHersperusTacBombardmentFactor$1.class"
+  },
+  {
+   "i": 30,
+   "en": "Tactical bombardment of Hesperus",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HAHersperusTacBombardmentFactor.class"
+  },
+  {
+   "i": 31,
+   "en": "A tactical bombardment of Kazeron - the nerve center and military hub of the Persean League - has severely disrupted its efforts to bring pressure on your colonies.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HAKazeronTacBombardmentFactor$1.class"
+  },
+  {
+   "i": 32,
+   "en": "Tactical bombardment of Kazeron",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HAKazeronTacBombardmentFactor.class"
+  },
+  {
+   "i": 33,
+   "en": "You've recently reached an understanding with the Luddic Path.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HALuddicPathDealFactor$1.class"
+  },
+  {
+   "i": 34,
+   "en": "Deal made with Luddic Path",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HALuddicPathDealFactor.class"
+  },
+  {
+   "i": 35,
+   "en": "A Luddic Path base that was supporting Pather cells at your colonies was destroyed by your fleet.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HAPatherBaseDestroyedFactor$1.class"
+  },
+  {
+   "i": 36,
+   "en": "Luddic Path base destroyed",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HAPatherBaseDestroyedFactor.class"
+  },
+  {
+   "i": 37,
+   "en": "A pirate base that was supporting pirate activity at your colonies was destroyed by your fleet.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HAPirateBaseDestroyedFactor$1.class"
+  },
+  {
+   "i": 38,
+   "en": "Pirate base destroyed",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HAPirateBaseDestroyedFactor.class"
+  },
+  {
+   "i": 39,
+   "en": "You've recently made a deal with a pirate king in control of a nearby station.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HAPirateKingDealFactor$1.class"
+  },
+  {
+   "i": 40,
+   "en": "Deal made with pirate king",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HAPirateKingDealFactor.class"
+  },
+  {
+   "i": 41,
+   "en": "Hostile ships destroyed by your fleet in or near one of the star systems with your colonies.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HAShipsDestroyedFactor$1.class"
+  },
+  {
+   "i": 42,
+   "en": "Hostile ships destroyed",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HAShipsDestroyedFactor.class"
+  },
+  {
+   "i": 43,
+   "en": "Destroying hostile ships in or near one of the star systems with your colonies will reduce event progress.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HAShipsDestroyedFactorHint$1.class"
+  },
+  {
+   "i": 44,
+   "en": "However, your membership in the Persean League makes it politically difficult for the Hegemony to pursue the matter.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HegemonyAICoresActivityCause$1.class"
+  },
+  {
+   "i": 45,
+   "en": "The Hegemony considers the use of %s illegal, though it is unlikely to take much notice of what goes on at colonies of size %s or smaller.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HegemonyAICoresActivityCause$1.class"
+  },
+  {
+   "i": 46,
+   "en": "politically difficult",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HegemonyAICoresActivityCause$1.class"
+  },
+  {
+   "i": 47,
+   "en": "AI core use",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HegemonyAICoresActivityCause.class"
+  },
+  {
+   "i": 48,
+   "en": "Fleets investigating your AI core use can sometimes be found in your space, not overtly hostile, but harassing your shipping and generally acting in a high-handed way.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HegemonyHostileActivityFactor$1.class"
+  },
+  {
+   "i": 49,
+   "en": "The Hegemony considers the use of AI cores illegal and will not tolerate it even outside the volume of the core worlds.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HegemonyHostileActivityFactor$1.class"
+  },
+  {
+   "i": 50,
+   "en": "    - You may be able to discuss the situation with the High Hegemon on Chicomoztoc",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HegemonyHostileActivityFactor$2.class"
+  },
+  {
+   "i": 51,
+   "en": "Major Hegemony defeat!",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HegemonyHostileActivityFactor$2.class"
+  },
+  {
+   "i": 52,
+   "en": "Hegemony",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HegemonyHostileActivityFactor.class"
+  },
+  {
+   "i": 53,
+   "en": "Hegemony AI inspection",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HegemonyHostileActivityFactor.class"
+  },
+  {
+   "i": 54,
+   "en": "Hegemony AI inspection averted",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HegemonyHostileActivityFactor.class"
+  },
+  {
+   "i": 55,
+   "en": "If this inspection is defeated by military means, the Hegemony is likely to escalate the conflict, although only up to a point.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HegemonyHostileActivityFactor.class"
+  },
+  {
+   "i": 56,
+   "en": "If this massive inspection force - a declaration of war in all but name - is defeated, the Hegemony is likely to reconsider the viability of their approach.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HegemonyHostileActivityFactor.class"
+  },
+  {
+   "i": 57,
+   "en": "The %s has no functional military bases",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HegemonyHostileActivityFactor.class"
+  },
+  {
+   "i": 58,
+   "en": "Upcoming Hegemony AI inspection targeting %s",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HegemonyHostileActivityFactor.class"
+  },
+  {
+   "i": 59,
+   "en": "You've received intel that the Hegemony is planning an AI inspection targeting %s. If the inspection arrives at your colony, your options would include open hostilities with the Hegemony, or the loss of at least some of your AI cores.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HegemonyHostileActivityFactor.class"
+  },
+  {
+   "i": 60,
+   "en": "crisis",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HegemonyHostileActivityFactor.class"
+  },
+  {
+   "i": 61,
+   "en": "escalate the conflict",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HegemonyHostileActivityFactor.class"
+  },
+  {
+   "i": 62,
+   "en": "loss of at least some of your AI cores",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HegemonyHostileActivityFactor.class"
+  },
+  {
+   "i": 63,
+   "en": "open hostilities",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HegemonyHostileActivityFactor.class"
+  },
+  {
+   "i": 64,
+   "en": "reconsider",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HegemonyHostileActivityFactor.class"
+  },
+  {
+   "i": 65,
+   "en": "up to a point",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HegemonyHostileActivityFactor.class"
+  },
+  {
+   "i": 66,
+   "en": "Hostile activity",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HostileActivity.class"
+  },
+  {
+   "i": 67,
+   "en": "Click to open map",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HostileActivityEventIntel$1.class"
+  },
+  {
+   "i": 68,
+   "en": "Only available when event progress is below %s points.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HostileActivityEventIntel$2.class"
+  },
+  {
+   "i": 69,
+   "en": "There's no crisis on the horizon right now. When this stage is reached, event progress will be reset to a lower value.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HostileActivityEventIntel$3.class"
+  },
+  {
+   "i": 70,
+   "en": "Take certain actions to precipitate a crisis more quickly. Sets event progress to %s points.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HostileActivityEventIntel$6.class"
+  },
+  {
+   "i": 71,
+   "en": "A crisis is virtually inevitable at some point, and hostile fleets continually probe your defenses, but where there is danger, there is often opportunity.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HostileActivityEventIntel.class"
+  },
+  {
+   "i": 72,
+   "en": "Colony Crises",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HostileActivityEventIntel.class"
+  },
+  {
+   "i": 73,
+   "en": "Danger level of the stronger fleets likely to be found in the system. Approximate, there may be exceptions. Does not include hostile fleets that may be present there for other reasons.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HostileActivityEventIntel.class"
+  },
+  {
+   "i": 74,
+   "en": "Escalate crisis",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HostileActivityEventIntel.class"
+  },
+  {
+   "i": 75,
+   "en": "Escalated colony crisis",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HostileActivityEventIntel.class"
+  },
+  {
+   "i": 76,
+   "en": "Low-level pirate activity continues, but aside from that, there are no major crises on the horizon.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HostileActivityEventIntel.class"
+  },
+  {
+   "i": 77,
+   "en": "Primary threats",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HostileActivityEventIntel.class"
+  },
+  {
+   "i": 78,
+   "en": "Star system with hostile activity, and the name (or number) of your colonies found there.\n\nUp to four of the hardest-hit systems are listed here.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HostileActivityEventIntel.class"
+  },
+  {
+   "i": 79,
+   "en": "The most dangerous types of threats likely to be found in the system. Not comprehensive, and does not include hostile fleets that may be present there for other reasons.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/HostileActivityEventIntel.class"
+  },
+  {
+   "i": 80,
+   "en": "You've recently gained Kanta's protection, and it's had a chilling effect on hostile activity in and around your systems.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/KantasProtectionOneTimeFactor$1.class"
+  },
+  {
+   "i": 81,
+   "en": "Kanta's protection gained",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/KantasProtectionOneTimeFactor.class"
+  },
+  {
+   "i": 82,
+   "en": "You have %s, which is enough to dissuade most pirates from attacking your interests.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/KantasProtectionPirateActivityCause2$1.class"
+  },
+  {
+   "i": 83,
+   "en": "Kanta's protection",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/KantasProtectionPirateActivityCause2.class"
+  },
+  {
+   "i": 84,
+   "en": "Warlord Kanta, the feared pirate queen, is not pleased with you. Lesser pirates see attacking your interests as a way to curry favor with her.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/KantasWrathPirateActivityCause2$1.class"
+  },
+  {
+   "i": 85,
+   "en": "Kanta's wrath",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/KantasWrathPirateActivityCause2.class"
+  },
+  {
+   "i": 86,
+   "en": "A large community of the faithful - not under their direct control, and with potential to emerge as a major cultural center - is a growing source of concern to the Church. \"Protector\" fleets operated by the Knights of Ludd can be found in your systems, ostensibly there to protect the interests of the local Luddic population.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/LuddicChurchHostileActivityFactor$1.class"
+  },
+  {
+   "i": 87,
+   "en": "%s is tactically bombarded",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/LuddicChurchHostileActivityFactor.class"
+  },
+  {
+   "i": 88,
+   "en": "If the expedition is defeated, the Luddic faithful leaving the Church worlds will feel more secure, resulting in increased immigration, stability, and productivity, and the Luddic Church will likely abandon further efforts of this sort.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/LuddicChurchHostileActivityFactor.class"
+  },
+  {
+   "i": 89,
+   "en": "Impending Luddic Church takeover operation",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/LuddicChurchHostileActivityFactor.class"
+  },
+  {
+   "i": 90,
+   "en": "Knights of Ludd ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/LuddicChurchHostileActivityFactor.class"
+  },
+  {
+   "i": 91,
+   "en": "Luddic Church expedition",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/LuddicChurchHostileActivityFactor.class"
+  },
+  {
+   "i": 92,
+   "en": "Luddic Church takeover averted",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/LuddicChurchHostileActivityFactor.class"
+  },
+  {
+   "i": 93,
+   "en": "Luddic Majority",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/LuddicChurchHostileActivityFactor.class"
+  },
+  {
+   "i": 94,
+   "en": "Luddic forces",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/LuddicChurchHostileActivityFactor.class"
+  },
+  {
+   "i": 95,
+   "en": "You make an agreement with the Church",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/LuddicChurchHostileActivityFactor.class"
+  },
+  {
+   "i": 96,
+   "en": "You've received intel that the Knights of Ludd, under the aegis of the Luddic Church, are planning an operation to take over one of your colonies that has a Luddic Majority population.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/LuddicChurchHostileActivityFactor.class"
+  },
+  {
+   "i": 97,
+   "en": "increased immigration, stability, and productivity",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/LuddicChurchHostileActivityFactor.class"
+  },
+  {
+   "i": 98,
+   "en": "take over one of your colonies",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/LuddicChurchHostileActivityFactor.class"
+  },
+  {
+   "i": 99,
+   "en": "Event progress value is based on the number and size of colonies with the \"Luddic Majority\" condition.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/LuddicChurchStandardActivityCause$1.class"
+  },
+  {
+   "i": 100,
+   "en": "Negotiating",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/LuddicChurchStandardActivityCause$1.class"
+  },
+  {
+   "i": 101,
+   "en": "Negotiating with the Luddic Church about controlling the immigration of the faithful to your colonies is likely to get this harassment to stop. If left unchecked, this low-grade conflict will eventually come to a head and is likely to be resolved one way or another.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/LuddicChurchStandardActivityCause$1.class"
+  },
+  {
+   "i": 102,
+   "en": "Colonies with a Luddic Majority",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/LuddicChurchStandardActivityCause.class"
+  },
+  {
+   "i": 103,
+   "en": "Pather agreement",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/LuddicPathAgreementHostileActivityCause2.class"
+  },
+  {
+   "i": 104,
+   "en": "Advanced technology and artificial intelligence are anathema to the Luddic Path.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/LuddicPathHostileActivityFactor$1.class"
+  },
+  {
+   "i": 105,
+   "en": "Most of the Pather fleets are small, engaging in reconnaissance and demanding tithes from unwary travellers, but occasionaly a larger raiding force will make an appearance.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/LuddicPathHostileActivityFactor$1.class"
+  },
+  {
+   "i": 106,
+   "en": "An agreement is reached with the Luddic Path",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/LuddicPathHostileActivityFactor.class"
+  },
+  {
+   "i": 107,
+   "en": "It's possible that you might reach some kind of understanding with the Pathers, provided you find the right people to talk to.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/LuddicPathHostileActivityFactor.class"
+  },
+  {
+   "i": 108,
+   "en": "Luddic Path",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/LuddicPathHostileActivityFactor.class"
+  },
+  {
+   "i": 109,
+   "en": "Luddic Path attack",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/LuddicPathHostileActivityFactor.class"
+  },
+  {
+   "i": 110,
+   "en": "Luddic Path attack averted",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/LuddicPathHostileActivityFactor.class"
+  },
+  {
+   "i": 111,
+   "en": "Luddic Path cells disrupted",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/LuddicPathHostileActivityFactor.class"
+  },
+  {
+   "i": 112,
+   "en": "Signs of a Luddic Path attack targeting %s",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/LuddicPathHostileActivityFactor.class"
+  },
+  {
+   "i": 113,
+   "en": "The Luddic Path cells on %s are disrupted",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/LuddicPathHostileActivityFactor.class"
+  },
+  {
+   "i": 114,
+   "en": "There are signs of an impending Luddic Path attack targeting %s. If the attack is successful, the colony will suffer a catastrophic saturation bombardment.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/LuddicPathHostileActivityFactor.class"
+  },
+  {
+   "i": 115,
+   "en": "This attack represents a significant resource investment by the Pathers. If it is defeated, Luddic Path cells Sector-wide will be disrupted and Pathers will take less interest in your operations in the future.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/LuddicPathHostileActivityFactor.class"
+  },
+  {
+   "i": 116,
+   "en": "You've %s a signficant amount to the Pathers, and their fleets and ground-based cells should leave your colonies alone for another %s ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/LuddicPathHostileActivityFactor.class"
+  },
+  {
+   "i": 117,
+   "en": "You've reached an understanding with the Pathers, and their fleets and ground-based cells should leave your colonies alone in the future, barring unexpected events.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/LuddicPathHostileActivityFactor.class"
+  },
+  {
+   "i": 118,
+   "en": "catastrophic saturation bombardment",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/LuddicPathHostileActivityFactor.class"
+  },
+  {
+   "i": 119,
+   "en": "disrupted",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/LuddicPathHostileActivityFactor.class"
+  },
+  {
+   "i": 120,
+   "en": "find the right people",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/LuddicPathHostileActivityFactor.class"
+  },
+  {
+   "i": 121,
+   "en": "less interest",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/LuddicPathHostileActivityFactor.class"
+  },
+  {
+   "i": 122,
+   "en": "tithed",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/LuddicPathHostileActivityFactor.class"
+  },
+  {
+   "i": 123,
+   "en": "understanding",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/LuddicPathHostileActivityFactor.class"
+  },
+  {
+   "i": 124,
+   "en": "A large independent polity is a tantalizing prize for the Persean League, and they will go quite far in exerting pressure for you to join them. League \"enforcer\" fleets prowl your systems, ostensibly to protect the League's interests in \"unclaimed territory\".",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/PerseanLeagueHostileActivityFactor$1.class"
+  },
+  {
+   "i": 125,
+   "en": "If the blockading force is defeated, your colonies will be viewed as a more stable trading partner, resulting in increased accessibility, and the Persean League will likely abandon further efforts to strong-arm you and be more open to negotiation.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/PerseanLeagueHostileActivityFactor.class"
+  },
+  {
+   "i": 126,
+   "en": "Impending Persean League blockade",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/PerseanLeagueHostileActivityFactor.class"
+  },
+  {
+   "i": 127,
+   "en": "Persean League blockade",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/PerseanLeagueHostileActivityFactor.class"
+  },
+  {
+   "i": 128,
+   "en": "Persean League blockade averted",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/PerseanLeagueHostileActivityFactor.class"
+  },
+  {
+   "i": 129,
+   "en": "You go to %s and make an agreement about joining the League",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/PerseanLeagueHostileActivityFactor.class"
+  },
+  {
+   "i": 130,
+   "en": "You've received intel that the Persean League is planning a lengthy blockade of one of your systems. Colonies in that system will suffer a major accessibility penalty for as long as the blockade lasts.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/PerseanLeagueHostileActivityFactor.class"
+  },
+  {
+   "i": 131,
+   "en": "increased accessibility",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/PerseanLeagueHostileActivityFactor.class"
+  },
+  {
+   "i": 132,
+   "en": "major accessibility penalty",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/PerseanLeagueHostileActivityFactor.class"
+  },
+  {
+   "i": 133,
+   "en": "    - Lasts for %s days",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/PiracyRespiteScript.class"
+  },
+  {
+   "i": 134,
+   "en": "    - Reduced shipping disruptions",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/PiracyRespiteScript.class"
+  },
+  {
+   "i": 135,
+   "en": "Piracy Respite expired",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/PiracyRespiteScript.class"
+  },
+  {
+   "i": 136,
+   "en": "Piracy Respite gained",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/PiracyRespiteScript.class"
+  },
+  {
+   "i": 137,
+   "en": " instead of providing a reduction in progress",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/PirateBasePirateActivityCause2$1.class"
+  },
+  {
+   "i": 138,
+   "en": " within range of a pirate base located ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/PirateBasePirateActivityCause2$1.class"
+  },
+  {
+   "i": 139,
+   "en": "Assuming current colony income levels, this agreement costs you %s per month. If it was not in effect, this base would contribute %s points of event progress per month",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/PirateBasePirateActivityCause2$1.class"
+  },
+  {
+   "i": 140,
+   "en": "Dealing with the base",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/PirateBasePirateActivityCause2$1.class"
+  },
+  {
+   "i": 141,
+   "en": "This results in a greater volume of pirate ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/PirateBasePirateActivityCause2$1.class"
+  },
+  {
+   "i": 142,
+   "en": "You have an agreement with ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/PirateBasePirateActivityCause2$1.class"
+  },
+  {
+   "i": 143,
+   "en": "Your ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/PirateBasePirateActivityCause2$1.class"
+  },
+  {
+   "i": 144,
+   "en": "fleets preying on trade. %s should address this.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/PirateBasePirateActivityCause2$1.class"
+  },
+  {
+   "i": 145,
+   "en": "harass your colonies or shipping.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/PirateBasePirateActivityCause2$1.class"
+  },
+  {
+   "i": 146,
+   "en": "in a nearby system",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/PirateBasePirateActivityCause2$1.class"
+  },
+  {
+   "i": 147,
+   "en": "systems",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/PirateBasePirateActivityCause2$1.class"
+  },
+  {
+   "i": 148,
+   "en": "the base commander, and fleets from this base do not, as a rule, ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/PirateBasePirateActivityCause2$1.class"
+  },
+  {
+   "i": 149,
+   "en": "Hidden pirate base near your ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/PirateBasePirateActivityCause2.class"
+  },
+  {
+   "i": 150,
+   "en": "Pirate base in the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/PirateBasePirateActivityCause2.class"
+  },
+  {
+   "i": 151,
+   "en": "colonies",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/PirateBasePirateActivityCause2.class"
+  },
+  {
+   "i": 152,
+   "en": "colony",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/PirateBasePirateActivityCause2.class"
+  },
+  {
+   "i": 153,
+   "en": "Having %s, however, should be enough dissuade most pirates from attacking your interests.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/PirateHostileActivityFactor$1.class"
+  },
+  {
+   "i": 154,
+   "en": "However, you have %s, which is enough dissuade most pirates from attacking your interests.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/PirateHostileActivityFactor$1.class"
+  },
+  {
+   "i": 155,
+   "en": "Piracy follows interstellar civilization almost without exception.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/PirateHostileActivityFactor$1.class"
+  },
+  {
+   "i": 156,
+   "en": "You've %s, and it's not the sort of thing you can do over.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/PirateHostileActivityFactor$1.class"
+  },
+  {
+   "i": 157,
+   "en": "lost Kanta's protection",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/PirateHostileActivityFactor$1.class"
+  },
+  {
+   "i": 158,
+   "en": "A pirate raid will be launched against one of your star systems.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/PirateHostileActivityFactor$2.class"
+  },
+  {
+   "i": 159,
+   "en": "Pirate raid",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/PirateHostileActivityFactor$2.class"
+  },
+  {
+   "i": 160,
+   "en": "If the raid is defeated, your colonies will gain increased accessibility for several cycles.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/PirateHostileActivityFactor.class"
+  },
+  {
+   "i": 161,
+   "en": "If the raid is defeated, your colonies will permanently gain increased accessibility.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/PirateHostileActivityFactor.class"
+  },
+  {
+   "i": 162,
+   "en": "If the raid is defeated, your colonies will suffer less shipping disruptions from piracy for the foreseeable future.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/PirateHostileActivityFactor.class"
+  },
+  {
+   "i": 163,
+   "en": "Pirate raid averted",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/PirateHostileActivityFactor.class"
+  },
+  {
+   "i": 164,
+   "en": "Pirates",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/PirateHostileActivityFactor.class"
+  },
+  {
+   "i": 165,
+   "en": "Rumors of pirate raid",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/PirateHostileActivityFactor.class"
+  },
+  {
+   "i": 166,
+   "en": "There are rumors that a pirate raid targeting your colonies may be organized in the near future. If the raid is successful, the targeted colonies will suffer from reduced stability.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/PirateHostileActivityFactor.class"
+  },
+  {
+   "i": 167,
+   "en": "less shipping disruptions",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/PirateHostileActivityFactor.class"
+  },
+  {
+   "i": 168,
+   "en": "reduced stability",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/PirateHostileActivityFactor.class"
+  },
+  {
+   "i": 169,
+   "en": "Remnant fleets have been sighted in your space.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/RemnantHostileActivityFactor$1.class"
+  },
+  {
+   "i": 170,
+   "en": "Defeating the attack fleet would only put off the problem, but destroying the Remnant Nexus will end the threat for good.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/RemnantHostileActivityFactor.class"
+  }
+ ]
+}

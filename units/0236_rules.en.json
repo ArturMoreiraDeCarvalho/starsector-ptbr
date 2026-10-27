@@ -1,0 +1,191 @@
+{
+ "chunk": 236,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"A Heggie,\" $heOrShe scowls. \"Of course! I knew it from the start.\"\r\n\r\n\"But we are a practical movement, $heOrShe adds thoughtfully, \"and we will work with a hostile authoritarian power if it serves the Revolution.\"",
+   "ctx": "data/campaign/rules.csv sdtuUmbraTrickVIPOptionA2 [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"Well,\" $heOrShe says. \"Let me welcome you to the United Front of the Askonian Resistance. All of us anti-Diktat factions don't always get along, that's for sure. But at least we know who our enemy is.\"",
+   "ctx": "data/campaign/rules.csv sdtuUmbraTrickVIPOptionB2 [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"That... makes sense, yes,\" $heOrShe slowly nods. \"Well, I am glad to meet you, comrade. We shall further the Revolution together!\"",
+   "ctx": "data/campaign/rules.csv sdtuUmbraTrickVIPOptionD2 [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"Huh. I guess you're not from a cell I've heard of. But that's good OPSEC.\" $HeOrShe slowly nods.\r\n\r\n\"Well, I am glad to meet you, comrade. We shall further the Revolution together!\"",
+   "ctx": "data/campaign/rules.csv sdtuUmbraTrickVIPOptionD2IK [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"Oh, you're from the Self Defense Covenant? We may not see eye-to-eye on all matters, but we welcome your part in the resistance against the common enemy.\"\r\n\r\n\"And um, blessings upon you?\" $HeOrShe says awkwardly.",
+   "ctx": "data/campaign/rules.csv sdtuUmbraTrickVIPOptionF2 [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"Ah, the League.\" $HeOrShe raises $hisOrHer chin, \"A militaristic federation of exploiters. But less odious than the Diktat by far; we shall accept your assistance, citizen Siyavong\" $heOrShe says magnanimously.\" ",
+   "ctx": "data/campaign/rules.csv sdtuUmbraTrickVIPOptionG2 [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Finlay Siyavong? Ha!\"\r\n\r\nYou can hear the aristocrat in her laugh. It is bitter, and a skill for pointed cruelty lurks there.\r\n\r\n\"I've met him, you fool. You're not Siyavong. You're a liar. Who sent you, Macario?\"",
+   "ctx": "data/campaign/rules.csv sdtuUmbraTrickVIPOpt2imoinu [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"I don't care, liar. Die in vacuum.\"\r\n\r\nShe slams the cut-off.\r\n\r\nIf you're going to pull off this trick on one of the ARC leaders, you'd better do it quick, before Imoinu warns them.",
+   "ctx": "data/campaign/rules.csv sdtuUmbraTrickVIPOpt2imoinu2 [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"Of course. I appreciate your dedication to the cause. I'll have the traitor turned over to you, but... they really should properly be ours to subject to revolutionary justice.\"\r\n\r\n$HeOrShe puts on a generous tone, \"But we're for building bridges. For the United Front, right? So will come the day we will ask you for a favor, and we will expect it to be returned. For the Front.\"\r\n\r\n\"I trust,\" $heOrShe says grimly, \"that you will see them to an appropriate end?\"",
+   "ctx": "data/campaign/rules.csv sdtuUmbraTrickVIPending1 [text]"
+  },
+  {
+   "i": 10,
+   "en": "Arrangements are made, and the agent - the strong-jawed image of the perfect Lion's Guard recruit - is bound, gagged and quietly transferred to your $shipOrFleet in a volatiles tank modified for smuggling human passengers.",
+   "ctx": "data/campaign/rules.csv sdtuUmbraTrickVIPending2 [text]"
+  },
+  {
+   "i": 11,
+   "en": "The comms connection flickers, then resolves.\r\n\r\n\"This fleet operates by command of the Askonia Revolutionary Council. The wealth of exploiters is designated for redistribution to fund the cause of sector liberation!\"",
+   "ctx": "data/campaign/rules.csv sdtuARCfleetGreetingA [text]"
+  },
+  {
+   "i": 12,
+   "en": "The comms connection flickers, then resolves.\r\n\r\n\"Clear signal, comrade-captain. We're ARC-aligned, just about to set off on an operation.\"\r\n\r\n$HeOrShe leans in with a conspiratorial grin. \"Been hearing rumors about a shake-up in the Sindies' officer corps... might be a good opportunity to, ah, redistribute some wealth around here. The more of us are raiding, the fewer they catch, right?\"",
+   "ctx": "data/campaign/rules.csv sdtuARCfleetGreetingA2 [text]"
+  },
+  {
+   "i": 13,
+   "en": "The comms connection flickers, then resolves.\r\n\r\n\"In the name of the Askonia Revolutionary Council, you are to face justice for your service to Sindrian Diktat imperialism and exploiters generally!\"\r\n\r\n\"Lower your shields! Peaceful cooperation with the redistribution of exploited wealth shall be taken into account when you face the revolutionary tribunal.\"",
+   "ctx": "data/campaign/rules.csv sdtuARCfleetGreetingB [text]"
+  },
+  {
+   "i": 14,
+   "en": "The comms connection flickers, then resolves.\r\n\r\n\"In the name of the Askonia Revolutionary Council, we greet you. We were in the middle of a wealth redistribution operation when we received a high-priority alert from our comrades on Umbra. It seems that a mercenary working for the Sindrian exploiters has been causing trouble.\"\r\n\r\n\"I'm sure I can count on you to inform us if your sensors find anything.\" $HeOrShe glances at another screen, impatient, but friendly. \"We've got to get back to it. Bright burns.\"",
+   "ctx": "data/campaign/rules.csv sdtuARCfleetGreetingB2 [text]"
+  },
+  {
+   "i": 15,
+   "en": "You approach $name and consider the double-agent you picked up from Umbra. This would not be an inappropriate place for them to start a new life.",
+   "ctx": "data/campaign/rules.csv sdtuUmbraReleaseArcAgent [text]"
+  },
+  {
+   "i": 16,
+   "en": "You see the agent off in a shuttle. \"Thank you, captain,\" they say.\r\n\r\n\"Burn bright.\"",
+   "ctx": "data/campaign/rules.csv sdtuUmbraReleaseArcAgentLet [text]"
+  },
+  {
+   "i": 17,
+   "en": "They accept your offer gladly, and with a skillset which can only be described as 'eclectic', your purser believes a useful position can be found in your $shipOrFleet.",
+   "ctx": "data/campaign/rules.csv sdtuUmbraReleaseArcAgentJob [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"No,\" the former agent says with a melancholic smile. \"It's best if I do this on my own.\"\r\n\r\n\"But I thank you, captain,\" they say, turning toward the shuttle. \"Burn bright.\"",
+   "ctx": "data/campaign/rules.csv sdtuUmbraReleaseArcAgentJobB [text]"
+  },
+  {
+   "i": 19,
+   "en": "After a short wait, Macario's image appears.\r\n\r\n\"Oh captain, so thoughtful of you to stop by,\" he says icily. \"Do go check up on Horacio Caden, will you? I've been so worried about him.\"\r\n\r\n\"Until then?\" He says this like it's a question, but it isn't, because he's already killed the link.",
+   "ctx": "data/campaign/rules.csv sdtuMacarioNeedToTalkCaden [text]"
+  },
+  {
+   "i": 20,
+   "en": "Horacio Caden, Guard High Deputy Executor of the Sindrian Diktat appears before you, looking satisfied with himself.",
+   "ctx": "data/campaign/rules.csv sdtuCadenAngryGreeting [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"Independent fleet captain!\" he roars, standing, \"You have crossed the will of the Supreme Executor.\"\r\n\r\nLooking down at the comms, his voice lowered and gravelly, Caden adopts a practiced pose of menace and authority.\r\n\r\n\"A grave error, soon corrected.\"",
+   "ctx": "data/campaign/rules.csv sdtuCadenGreeting [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"You! A captain pledged to the Sindrian Diktat auxiliary!\" he roars, standing, \"Your actions are unbelievable! Crossing the will of the Supreme Executor?\" Looking down at the comms, his voice lowered and gravelly, Caden adopts a practiced pose of menace and authority. \"A grave error, soon corrected.\"",
+   "ctx": "data/campaign/rules.csv sdtuCadenGreetingSD [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"Heed well, foreign terrorist and agitator!\" he roars, standing, \"I expected no less than this treachery from the simpering and decadent Hegemony!\"\r\n\r\nLooking down at the comms, his voice lowered and gravelly, Caden adopts a practiced pose of menace and authority. \"A grave error, soon corrected.\"",
+   "ctx": "data/campaign/rules.csv sdtuCadenGreetingHeg [text]"
+  },
+  {
+   "i": 24,
+   "en": "He turns, as if you're not worth addressing, \"You have captured an asset pledged to my authority. Surrender them immediately and I might contemplate leniency at the dictation of your punishment.\"",
+   "ctx": "data/campaign/rules.csv sdtuCadenTalk1 [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"What? Treachery in my sacred Guard?\" Caden shouts, turning red. He takes a deep breath, consciously composing himself.\r\n\r\n\"Despite my doubts about his commitment to Andradan ideals,\" he says in a more level tone, \"I must admit that the Chief High Inspector-General is adept at rooting out sedition. Glory to the Chief High Inspector-General!\"",
+   "ctx": "data/campaign/rules.csv sdtuCadenAgentMacario1 [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"First, surrender the agent to my fleet,\" he adjusts his uniform after all the exertion.\r\n\r\n\"Then transmit this 'proof'. My staff shall provide me with an executive overview so that I may lay the appropriate punishment upon this traitor.\"\r\n\r\n\"I expect it will be severe,\" he adds, as if there was any question.",
+   "ctx": "data/campaign/rules.csv sdtuCadenAgentMacario2 [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"Then do so, spacer!\" Caden shouts. \"The swift sword of justice does not rest easy in the Sindrian Diktat!\"\r\n\r\n\"Demonstrate your loyalty; transfer the agent to my fleet and I shall judge the situation and produce appropriate action.\" He lowers his voice dramatically, \"Severe if necessary.\"",
+   "ctx": "data/campaign/rules.csv sdtuCadenAgentLoyal1 [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"I am the Guard High Deputy Executor of the Sindrian Diktat, spacer!\" Caden shouts, turning red. \"I do not need a... favor.\" He spits the hated word.\r\n\r\n\"Nonetheless, I shall judge the right of your claim. Demonstrate your loyalty now! Surrender this agent and explain yourself!\"\r\n\r\nHe adjusts his uniform after all the exertion. \"Quickly, now. The swift sword of justice does not rest easy in the Sindrian Diktat.\"",
+   "ctx": "data/campaign/rules.csv sdtuCadenAgentFavor1 [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"Ha! See now the quality of loyalty the decadent Hegemony inspires!\" Caden seems to address his bridge crew, holding his arm out like a showman demonstrating wares.\r\n\r\n\"You have chosen correctly, spacer, to bring this alleged traitor to me. The swift sword of justice does not rest long in the Sindrian Diktat!\" \r\n\r\nHe adjusts his uniform after all the exertion. \"Now; surrender this agent. Then I shall judge the situation and take appropriately decisive action.\"",
+   "ctx": "data/campaign/rules.csv sdtuCadenAgentTraitor1b [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"A bold accusation from spacer trash!\" Caden shouts, waving a fist. \"But then perhaps you have heard how I despise traitors to our Glorious Movement!\"\r\n\r\n\"You have chosen correctly, spacer, to bring this alleged traitor to me. The swift sword of justice does not rest long in the Sindrian Diktat!\" \r\n\r\nHe adjusts his uniform after all the exertion. \"Now; surrender this agent. Then I shall judge the situation and take appropriately decisive action.\"",
+   "ctx": "data/campaign/rules.csv sdtuCadenAgentTraitor1 [text]"
+  },
+  {
+   "i": 31,
+   "en": "You hold a legitimate agent of the Askonian resistance. Turning them over to either Caden or Macario would only assist the Sindrian Diktat's repression.\r\n\r\nOn the other hand, emphasizing that Macario overstepped his authority might drive a wedge between him and Caden. \r\n\r\n\"Do not test my patience, spacer!\" Caden is turning red again, \"Here, I am the representative of the Supreme Executor's ultimate and unassailable will! To oppose my demand is tantamount to an attack on the state - degenerate terrorism, sedition, treason, corruption of the public corpus!\"",
+   "ctx": "data/campaign/rules.csv sdtuCadenAgentMacarioLie [text]"
+  },
+  {
+   "i": 32,
+   "en": "You hold an agent of the Askonian resistance, and promised their safety in exchange for cooperation.\r\n\r\nIf Caden believes Macario has the agent, and Macario believes Caden does, then considering how little they appear to trust one another... \r\n\r\n\"Do not test my patience, spacer!\" Caden's shout interrupts your thoughts. He's turning red again.\r\n\r\n\"Here, I alone represent the Supreme Executor's ultimate and unassailable will! To oppose my demand is tantamount to an attack on the state - degenerate terrorism, sedition, treason, corruption of the public corpus!\"",
+   "ctx": "data/campaign/rules.csv sdtuCadenAgentMacarioLieB [text]"
+  },
+  {
+   "i": 33,
+   "en": "Macario, of course, doesn't seem to particularly care about the fate of this agent. But his overstepping of authority might drive a wedge between him and Caden if you could put the idea in Caden's head. \r\n\r\n\"Do not test my patience, spacer!\" Caden is turning redder again, \"Here I am the representative of the Supreme Executor's ultimate will! To oppose my demand is tantamount to an attack on the state - degenerate terrorism, sedition, and treason!\"",
+   "ctx": "data/campaign/rules.csv sdtuCadenAgentMacario [text]"
+  },
+  {
+   "i": 34,
+   "en": "\"Is that what Macario told you?\" he says, leaping on the suggestion, \"That my authority does not reign second to the Supreme Executor alone?\"",
+   "ctx": "data/campaign/rules.csv sdtuCadenAgentMacarioSecondLie [text]"
+  },
+  {
+   "i": 35,
+   "en": "Caden turns away, fuming.\r\n\r\n\"The presumption of that two-faced traitor! He should not push me, for if I but willed it he would be executed on the spot.\"\r\n\r\n\"Spacer!\" Caden is back, redder than ever. \"Your ignorance is pitiable, so I shall correct it: in our great tower of authority Philip Andrada sits at the apex.\"\r\n\r\nHe raises a hand, fingers pinched, as if showing you a model.",
+   "ctx": "data/campaign/rules.csv sdtuCadenAgentMacarioSecondLie1 [text]"
+  },
+  {
+   "i": 36,
+   "en": "\"Beneath him is the Guard High Deputy Executor - myself - at the head of the personal guard of Philip Andrada, sworn to protect him in body and spirit; to uphold his transcendent Andradan ideology; to purge traitors and their degenerate thoughts from the universe!\"\r\n\r\n\"Dolos Macario is a mere bureaucrat, one of many who operate the ministries of the Supreme Executor's machinery of state. I'm afraid his excessive contact with terrorists and degenerates has given him impure imaginings regarding his position in our Great Movement. It is my duty to correct his errors.\"\r\n\r\nCaden is marching back and forth on his bridge, the receptors and comms interpretation software struggling to maintain a steady positioning of the image.",
+   "ctx": "data/campaign/rules.csv sdtuCadenAgentMacarioSecondLie2 [text]"
+  },
+  {
+   "i": 37,
+   "en": "\"The agent you have detained is under MY authority. And if they weren't, they would be by my decree in the name of the Supreme Executor.\"\r\n\r\nCaden stops, and looks directly into the comms. \"Now. Transfer the prisoner to my fleet.\"",
+   "ctx": "data/campaign/rules.csv sdtuCadenAgentMacarioSecondLie3 [text]"
+  }
+ ]
+}

@@ -1,0 +1,191 @@
+{
+ "chunk": 71,
+ "cat": "desc",
+ "items": [
+  {
+   "i": 1,
+   "en": "A large and relatively massive planet in close orbit of its primary, stellar wind has whisked away lighter elements leaving carbon and sulphur dioxides to dominate the atmosphere. The death-shroud of poisonous gas creates a runaway greenhouse effect which, in addition to the crushing gravity, ensures extremely inhospitable surface conditions.",
+   "ctx": "data/strings/descriptions.csv planet_gelan/CUSTOM [text1]"
+  },
+  {
+   "i": 2,
+   "en": "Mairaath was devastated by a coordinated Luddic Path operation in cycle 82 which turned its awesome orbital station-cities into weapons thrown against the fantastically terraformed surface. What remains is a charred and broken world, the carefully nurtured weather patterns of the great Mayasuran terraforming cabal transformed into nightmarish storms that circle the globe, forever stirring the ashes of a murdered world.",
+   "ctx": "data/strings/descriptions.csv planet_mairaath/CUSTOM [text1]"
+  },
+  {
+   "i": 3,
+   "en": "An example of one of the countless thousands of robot probe ships sent out into the galaxy by the Domain to find new resources to exploit, planets to colonize, and explore the unknown. Some variants are produced by automated motherships. This specimen appears to be inactive; pitted by small impacts, its hull displays iridescence from fearsome radiation scarring. This probe's manufacture could well date to a thousand cycles ago.",
+   "ctx": "data/strings/descriptions.csv derelict_probe/CUSTOM [text1]"
+  },
+  {
+   "i": 4,
+   "en": "An automated survey ship from a long-past wave of Domain exploration. Thousands of ships like this were sent in waves, some independent, others attached to (or manufactured by) similarly automated motherships following the first wave of robot probes. This apparently unresponsive hulk has been ravaged by centuries of exposure to charged particles and high velocity impacts from interstellar dust.",
+   "ctx": "data/strings/descriptions.csv derelict_surveyship/CUSTOM [text1]"
+  },
+  {
+   "i": 5,
+   "en": "One of the legendary survey motherships, the quiet automated workhorse of the Domain exploration and colonization effort. This is in essence a von Neumann probe, as the survey motherships contain autoforge capacity to manufacture a suite of smaller survey ships and the supplies required to perform its ongoing mission. This specimen is burned and battered by its centuries of service to the Domain, a drifting forgotten hulk.",
+   "ctx": "data/strings/descriptions.csv derelict_mothership/CUSTOM [text1]"
+  },
+  {
+   "i": 6,
+   "en": "A massive, automated starship tasked to carry the Gates used to establish near-instantaneous connections between star systems. After travelling countless lonely cycles, the Gate would be emplaced in a new system and activated to spew forth an explosion of newcomers seeking resources, data, and experiences to feed the grand culture and economy of the Domain.",
+   "ctx": "data/strings/descriptions.csv derelict_gatehauler/CUSTOM [text1]"
+  },
+  {
+   "i": 7,
+   "en": "Seeds promising worlds with a suite of lifeforms to kick-start the processes which maintain a Terran environment, from hardy lichens to simple algae up through cryopod drops which release more advanced lifeforms as planetary conditions improve. The seedship will leave the world to gather new materials from small asteroids, manufacture a new terraforming starter kit, and move on to the next target.",
+   "ctx": "data/strings/descriptions.csv derelict_seedship/CUSTOM [text1]"
+  },
+  {
+   "i": 8,
+   "en": "This is one of the massive vessels of legend which transported millions of human emigrants from the core systems of the Domain out into the great frontiers stretching from the Sagittarius Arm across the Orion Spur. Judging by the weak but stable EM read on the sensors, many of the sleeper caskets remain viable even after so many hundreds of cycles here on the wild shores of Perseus.",
+   "ctx": "data/strings/descriptions.csv derelict_cryosleeper/CUSTOM [text1]"
+  },
+  {
+   "i": 9,
+   "en": "This class of megastructure once powered the unfathomable industrial might of the Domain, putting the human civilization well toward Kardashev type II status. It is capable of extracting energy on an astronomical scale directly from the linked star. Losing control of an active coronal hypershunt without following proper shut-down procedures can prove disastrous.",
+   "ctx": "data/strings/descriptions.csv coronal_tap/CUSTOM [text1]"
+  },
+  {
+   "i": 10,
+   "en": "A clutch of cargo pods drifting through space. These may contain valuable goods that can be recovered, or even cryo-frozen crew that can be rescued.",
+   "ctx": "data/strings/descriptions.csv cargo_pods/CUSTOM [text1]"
+  },
+  {
+   "i": 11,
+   "en": "A clutch of cryopods drifting through space. These likely contain cryo-frozen crew that can be rescued.",
+   "ctx": "data/strings/descriptions.csv cryopods/CUSTOM [text1]"
+  },
+  {
+   "i": 12,
+   "en": "A cache of supplies, weapons, or other equipment, drifting and forgotten - until now.",
+   "ctx": "data/strings/descriptions.csv supply_cache/CUSTOM [text1]"
+  },
+  {
+   "i": 13,
+   "en": "A cache hidden in a deep well inside a large asteroid, with no indication of what might be found inside.",
+   "ctx": "data/strings/descriptions.csv hidden_cache/CUSTOM [text1]"
+  },
+  {
+   "i": 14,
+   "en": "These drifting cargo pods give peculiar readings unique to the spacecraft armaments.",
+   "ctx": "data/strings/descriptions.csv weapon_cache/CUSTOM [text1]"
+  },
+  {
+   "i": 15,
+   "en": "Destroyed in the attack on Mairaath of Cycle 82, this cold wreckage of the former astropolis remains in orbit in a cloud of its own debris.",
+   "ctx": "data/strings/descriptions.csv mairaath_station1/CUSTOM [text1]"
+  },
+  {
+   "i": 16,
+   "en": "Formerly one of the three astropoli of Mairaath, this station was rammed by a Prometheus-class fuel carrier and torn from orbit on a trail of fusion fire and radioactive dust. It has since been taken over by scavengers and made into a pirate haven.",
+   "ctx": "data/strings/descriptions.csv mairaath_station2/CUSTOM [text1]"
+  },
+  {
+   "i": 17,
+   "en": "Civic center of the Zagan system, Mazalot is nonetheless a poor and unstable polity known for a series of authoritarian governments that alternately pander to and oppress the majority Luddic population. The planet itself is a story of successful terraforming, albeit water-poor. Emplacing and sustaining orbital infrastructure is inconvenient due to an exceptionally strong magnetic field. This has done little to stabilize the independent-minded populace.",
+   "ctx": "data/strings/descriptions.csv planet_mazalot/CUSTOM [text1]"
+  },
+  {
+   "i": 18,
+   "en": "This cold, quiet world of stony plateaus riven by sleeping glaciers has been fortified by the Persean League to protect its AM-fuel facility. Production was never brought to full capacity however due to lack of capital investment post-Collapse. A policy of free trade was instituted to appease civilian operators despite objections by whatever the latest government of Mazalot happens to be.",
+   "ctx": "data/strings/descriptions.csv planet_yesod/CUSTOM [text1]"
+  },
+  {
+   "i": 19,
+   "en": "No matter who rules Mazalot, there is money to be made on Ilm in the factories and on the ice-fields whose exports feed capital into this poor system. The youth of Mazalot come here to work, and to send their paychecks home, and many stray from the path of Ludd. In spite of this, Ilm manages to avoid purges and war because no matter who rules on Mazalot, there is money to be made on Ilm.",
+   "ctx": "data/strings/descriptions.csv planet_ilm/CUSTOM [text1]"
+  },
+  {
+   "i": 20,
+   "en": "A thick nitrogen smog rains hydrocarbons on withered mountains of water-ice that stud Salamanca. At their feet, the stained hab domes disperse armored workers herding robot-drones which maintain the organics extractors and refineries. All industry here is ruled - from behind appropriate fronts - by an ousted Mazalotian regime/criminal cartel.",
+   "ctx": "data/strings/descriptions.csv planet_salamanca/CUSTOM [text1]"
+  },
+  {
+   "i": 21,
+   "en": "The metal-rich core of a former gas giant whose body was blasted away in some ancient celestial catastrophe, Kazeron is rich in exotic heavy metals. Although unterraformable, this made it a prime spot for the Domain to emplace a cluster of autofactories to feed the Persean frontier's need for ships, equipment, and heavy machinery.",
+   "ctx": "data/strings/descriptions.csv planet_kazeron/CUSTOM [text1]"
+  },
+  {
+   "i": 22,
+   "en": "A barren world notable for a cluster of unusually active hyper-volcanoes, the Grettir. A thin atmosphere is regenerated entirely through volcanism.",
+   "ctx": "data/strings/descriptions.csv planet_eldfell/CUSTOM [text1]"
+  },
+  {
+   "i": 23,
+   "en": "The Thule system is riddled with prospectors and small-time miners who've escaped the oppressive power-mongering of Kazeron's aristocratic stratocracy to search for independence among the ore and volatiles of the many ring systems. Sometimes these free-agents band together and turn to richer prizes - thus have the Thulian Raiders plagued Kazeron for nearly as long as the system has been inhabited by humans.",
+   "ctx": "data/strings/descriptions.csv station_thulian_raiders/CUSTOM [text1]"
+  },
+  {
+   "i": 24,
+   "en": "A supermassive terrestrial world, the crushingly high gravity of Horn prevents both human habitation and economical resource extraction. Not that there would be much desirable anyway on this world of violent quakes, massive slumbering calderas, and endless ash plains pock-marked by meteor impacts.",
+   "ctx": "data/strings/descriptions.csv planet_horn/CUSTOM [text1]"
+  },
+  {
+   "i": 25,
+   "en": "A remnant, perhaps, from the early and violent cycles of the formation of Horn, the moon Athulf is of like composition and provides convenient access to the ores and heavy metals inaccessible on its sullen parent. Humanity availed itself of the gift thus presented from the early days of Domain colonization of the Sector.",
+   "ctx": "data/strings/descriptions.csv planet_athulf/CUSTOM [text1]"
+  },
+  {
+   "i": 26,
+   "en": "This small ocean-moon is the political center of the system, seat of the King of Westernesse, and representative to the League. The five great floating arcologies of Fikenhild glitter night and day, and are notable for hosting a couple dozen highly competitive holo-entertainment studios.",
+   "ctx": "data/strings/descriptions.csv planet_fikenhild/CUSTOM [text1]"
+  },
+  {
+   "i": 27,
+   "en": "Categorized as a secondary terraforming candidate by the first surveys of the system, Suddene is a desert world lacking a closed hydrological cycle. The seas formed during pre-Collapse terraforming are slowly seeping into deep aquifers, becoming smaller, saltier, and toxic to each succeeding meta-generation of genemod krill. Estimates put total ecological collapse at only a century or two off. Natives of Suddene are typically portrayed as fatalistic romantics in Fikenhild's holo-novels.",
+   "ctx": "data/strings/descriptions.csv planet_suddene/CUSTOM [text1]"
+  },
+  {
+   "i": 28,
+   "en": "A cold and forbidding world, Ailmar nonetheless was selected for seeding by an early sporeship due to extant volcanism. When humans arrived in the Westernesse system, they found a world of lifeless highlands worn smooth by ice-storms. But life found small valleys and canyons, and even forests of genmod larch-6 clustered in volcanic provinces. Living is tough on Ailmar, but it is a world alive despite hardship.",
+   "ctx": "data/strings/descriptions.csv planet_ailmar/CUSTOM [text1]"
+  },
+  {
+   "i": 29,
+   "en": "A small and cold but just-habitable world deemed insignificant enough by Domain colonization planners to harbor a fuel production facility. Otherwise notable for exotic volatiles captured from its primary and the fluorescing pseudo-algaes which live within the cracks of vast storm-swept ice-fields that dominate the surface of Madeira.",
+   "ctx": "data/strings/descriptions.csv planet_madeira/CUSTOM [text1]"
+  },
+  {
+   "i": 30,
+   "en": "A hot gas giant primarily composed of hydrogen and helium gases, though due to proximity to its primary star the upper cloud layers of Satanazes are formed of carbon monoxide and alkali metals resulting in a dark, glowering appearance.",
+   "ctx": "data/strings/descriptions.csv planet_satanazes/CUSTOM [text1]"
+  },
+  {
+   "i": 31,
+   "en": "Canaria is an ice giant cloaked in thin clouds of water, ammonia and methane. Within the depths, gravity generates enough pressure to form a core of metallic hydrogen. The planet rests in an unusual point of gravitational stability in the L4 of Antillia, the minor partner of the Tyle binary system.",
+   "ctx": "data/strings/descriptions.csv planet_canaria/CUSTOM [text1]"
+  },
+  {
+   "i": 32,
+   "en": "An ancient world spotted with stumps of ancient volcanoes worn by hot, dry winds into a world-ocean of sand. A few underground aquifers remain to feed at least one small, salty sea and the rare chasm sheltering wisps of vegetation.",
+   "ctx": "data/strings/descriptions.csv planet_cibola/CUSTOM [text1]"
+  },
+  {
+   "i": 33,
+   "en": "An enormous cloud of particles formed from gases of the interstellar medium or material shed by the death throes of stars. Perturbations caused by gravity and radiation create areas of greater density that may slowly gather mass to someday birth new celestial bodies. This region of space is filled with recently formed, quick-burning stars and is less likely to harbor naturally life-sustaining worlds.",
+   "ctx": "data/strings/descriptions.csv nebula_center_young/PLANET [text1]"
+  },
+  {
+   "i": 34,
+   "en": "An enormous cloud of particles formed from gases of the interstellar medium or material shed by the death throes of stars. Perturbations caused by gravity and radiation create areas of greater density that may slowly gather mass to someday birth new celestial bodies.",
+   "ctx": "data/strings/descriptions.csv nebula_center_average/PLANET [text1]"
+  },
+  {
+   "i": 35,
+   "en": "An enormous cloud of particles formed from gases of the interstellar medium or material shed by the death throes of stars. Perturbations caused by gravity and radiation create areas of greater density that may slowly gather mass to someday birth new celestial bodies. This region of space is older, filled with stable, slower-burning stars that are more likely to harbor naturally life-sustaining worlds.",
+   "ctx": "data/strings/descriptions.csv nebula_center_old/PLANET [text1]"
+  },
+  {
+   "i": 36,
+   "en": "Yama scored only marginal viability on the Eridani-Utopia Corporation survey charts, but the nearby fuel facility on Nachiketa prompted terraforming and colonization. It remains a subpar world, in lingering decline after the devastation of the First AI War.",
+   "ctx": "data/strings/descriptions.csv planet_yama/CUSTOM [text1]"
+  },
+  {
+   "i": 37,
+   "en": "This world was selected by Domain bureaucrats as a site for one of the Persean Sector's AM fuel production facilities due to having no outstanding value apart from existing on a convenient axis of expansion into further frontiers. Industry and port facilities followed the boost in starship traffic, growing like barnacles from the massive armored, half-buried fuel plant. A major confrontation during the First AI War saw these surrounding port facilities devastated due to a tactical purge of AM reserves; the Hegemony secured victory, but crippled the industry and infrastructure of Nachiketa.",
+   "ctx": "data/strings/descriptions.csv planet_nachiketa/CUSTOM [text1]"
+  }
+ ]
+}

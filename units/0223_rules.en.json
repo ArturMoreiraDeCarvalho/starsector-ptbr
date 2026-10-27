@@ -1,0 +1,216 @@
+{
+ "chunk": 223,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "The comms cut. As your shuttle makes a hasty return to your $shipOrFleet, your tactical officer sends an urgent signal.\r\n\r\n\"Captain. Looks like Kanta's Den sent out a broadcast alert; calling in all nearby pirate fleets to our $shipOrFleet drive signature. Advise prep for hostiles.\"",
+   "ctx": "data/campaign/rules.csv kdTrafficControlRevisitMurder3 [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"Uhhh, confirm that, shuttle. Negative to request,\" traffic control says, \"Incoming shuttle cleared for, uh, landing at bay 12. Proceed.\"",
+   "ctx": "data/campaign/rules.csv kantasDenTrafficAlready [text]"
+  },
+  {
+   "i": 3,
+   "en": "You transfer a fractional credit over to the thug running traffic control, enough to cover a generous meal or a round of cheap drinks.\r\n\r\n\"Eh, here's one to brighten today,\" control says enthusiastically, \"Me, I like going halfsies with the fry, bit-a each. Shuttle, you're cleared to land at munitions bay 12.\"",
+   "ctx": "data/campaign/rules.csv kantasDenTrafficControlBribe [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"Uhh,\" says control, \"You mean the portboss? Or, er, station king? Or you mean t-the...\"",
+   "ctx": "data/campaign/rules.csv kantasDenTrafficControlBullyA [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"Um, copy that shuttle,\" the comms crackle, \"Uh, hold. Um, please.\"",
+   "ctx": "data/campaign/rules.csv kantasDenTrafficControlBullyB [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"Here's some truth to chew on: you're not talkin' to Kanta. Only family gets in. Or maybe if you're lord-and-master of your own corner of this dead Domain doing real high-credits business. Maybe.\"\r\n\r\n\"Understand?\"",
+   "ctx": "data/campaign/rules.csv kantasDenFirstVisitStationKingOptF [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"No,\" $heOrShe spits, presumably on $hisOrHer own control console, \"Last thing I need is some heggie bootlicking narc dropping ground-dirt in my fine station.\"",
+   "ctx": "data/campaign/rules.csv kdStationKingSparA [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"Oh, got some lip on you have ya?\" $HeOrShe spits, presumably on $hisOrHer own control console.\r\n\r\n\"Watch yourself, bootlicker. I could have you stripped down for parts before the shift is out.\"",
+   "ctx": "data/campaign/rules.csv kdStationKingSparB [text]"
+  },
+  {
+   "i": 9,
+   "en": "You hit the send command and the token is transmitted. Instantly you see the pirate's face change expression.\r\n\r\n\"Oh. Family, huh? Didn't recognize your face, cap. You don't got the family look; but ha-ha, the Kantas' they are everywhere 'eh? Ludd's hells, you should have said something before I go off broadsiding you.\"\r\n\r\n\"You know the drill. The warlord doesn't like comms, so we'll have to make you an appointment with the court. Get your boots on-station and I'll have someone meet you.\"",
+   "ctx": "data/campaign/rules.csv kdSKgaATGSentToken1 [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"Yeah, who're you?\" $personName snarls before bothering to glance at a grimy datapad. \r\n\r\n\"Ah,\" $hisOrHer demeanor shifts hostility down several levels. \"You again. Right, right.\"",
+   "ctx": "data/campaign/rules.csv kdStationKingIntroRevisit [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"Yeah, yeah. That'll be $kpBribeAmount credits,\" $heOrShe says. \"For, ah, administrative expenses.\"",
+   "ctx": "data/campaign/rules.csv kdStationKingAudienceNormal [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"Um,\" the pirate chews on something while appearing to examine you.\r\n\r\n\"You already paid up. It's all arranged. Though uh, if you don't remember... you wanna pay again?",
+   "ctx": "data/campaign/rules.csv kdKPAudienceAlreadyArranged [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"Yeah, uh. I am once again asking for $kpBribeAmount credits for...\" $heOrShe thinks for a moment. \"Administrative expenses. Yeah, that was it.\"",
+   "ctx": "data/campaign/rules.csv kdStationKingAudienceRepeat [text]"
+  },
+  {
+   "i": 14,
+   "en": "Kanta's Station King grins as the transfer comes through.\r\n\r\n\"Anyone gives you trouble? Tell 'em I said you're seeing the Warlord 'cause I said so.\"\r\n\r\n$HeOrShe gives you a nod that's probably meant to be equal parts intimidating and reassuring. ",
+   "ctx": "data/campaign/rules.csv kdKPAudienceAcceptSel [text]"
+  },
+  {
+   "i": 15,
+   "en": "You leave four guards and the pilot with your shuttle. Two more guards follow you. A pirate enforcer gives you an unpleasant look and steps directly into your path.\r\n\r\nSurprisingly, they begin with what sounds like an attempt at a conciliatory tone, \"Look friend, Kanta won't be seeing you this time. The warlord only speaks when there's real big business to talk. If you're not family or lord an' master of your own planet, might as well give up.\" \r\n\r\nThey smile crookedly, \"Give the bars a visit, get destroyed, have some fun. Market's open, or the docks.\"",
+   "ctx": "data/campaign/rules.csv kdLandingDenied [text]"
+  },
+  {
+   "i": 16,
+   "en": "You leave four guards and the pilot with your shuttle. Two more guards follow you. A pirate enforcer gives you an unpleasant look and steps directly into your path.\r\n\r\nThey begin in a surprisingly conciliatory tone, \"Look friend, Kanta won't be seeing you this time. The warlord only speaks when there's real big business to talk. If you're not family or lord an' master of your own planet, might as well give up.\" \r\n\r\n\"Give the bars a visit, get destroyed, have some fun. Market's open, or the docks. I won't even make trouble about your transponder being on.\" They smile crookedly.",
+   "ctx": "data/campaign/rules.csv kdLandingDeniedTransponder [text]"
+  },
+  {
+   "i": 17,
+   "en": "They put on a regretful look. \"Like I said, it's only happening if you're family or overlord of your own little corner of the corpse of the Sector. Them's the rules.\"",
+   "ctx": "data/campaign/rules.csv kdLandingDeniedMust [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"Naw, friend.\" They glance over a shoulder at a squad of heavily armed ruffians lounging around an enormous armored door inscribed with a skull motif.\r\n\r\n\"But they will.\"",
+   "ctx": "data/campaign/rules.csv kdLandingDeniedStopMe [text]"
+  },
+  {
+   "i": 19,
+   "en": "You step away and take in the concourse as if you never meant to talk to Kanta anyway. The pirate makes no comment.",
+   "ctx": "data/campaign/rules.csv kdLandingDeniedOther [text]"
+  },
+  {
+   "i": 20,
+   "en": "You leave four guards and the pilot at your shuttle. Two more guards follow you, and the lanky pirate lieutenant sent to meet you nods that this is correct.\r\n\r\nYou're led through a primary access corridor toward the center of the station. You adjust quickly to disjointed agrav fields, an effect you suspect is intentional as ranks of pirates of all shapes and ages eye you for weakness, murmuring crude comments and jostling for prestige.",
+   "ctx": "data/campaign/rules.csv devKDlandingFirstTime [text]"
+  },
+  {
+   "i": 21,
+   "en": "You leave four guards and the pilot at your shuttle. Two more guards follow you, and the pirate lieutenant sent to meet you nods that this is correct.\r\n\r\nYou're led through a primary access corridor toward the center of the station. You adjust quickly to disjointed agrav fields, an effect you suspect is intentional as ranks of pirates of all shapes and ages eye you for weakness, murmuring crude comments and jostling for prestige.",
+   "ctx": "data/campaign/rules.csv kdLandingFirstTime [text]"
+  },
+  {
+   "i": 22,
+   "en": "You can almost pick out a pattern of relations in their faces - this is a family business - and in their anarchic uniforms. They're bedecked in prizes, modified combat armor plated with gold and gems, stolen high-end vacsuits redone in off-brand colors, Tri-Tachyon neck-scarves crudely knotted; ostentatious luxury wear. They wear their wealth on the outside, the more garish the better.",
+   "ctx": "data/campaign/rules.csv kdKantaFirstIntro1 [text]"
+  },
+  {
+   "i": 23,
+   "en": "Past pitted blast doors hung with crimson skull-banners, a large bay opens. The lingering acrid scent of energy weapon discharge hangs in the air, almost but not quite concealing the odor of rotting meat.\r\n\r\nYou're brought before what can only be described as a throne, tastelessly backlit in blood-red for maximum effect. The caps, badges, and insignia of various naval officers are impaled on fused blossoms of trophy weapons. You recognize kit from all of the polities of the Persean Sector.",
+   "ctx": "data/campaign/rules.csv kdKantaFirstIntro2 [text]"
+  },
+  {
+   "i": 24,
+   "en": "Above all is the hissing, thrumming figure of Warlord Jorien Kanta, more machine now than human. Her face is a mask. What skin you can see is leathery like the rad scarring of old spacers.\r\n\r\nA synthesized voice booms from the throne, \"Submit before Kanta!\"",
+   "ctx": "data/campaign/rules.csv kdKantaFirstIntro3 [text]"
+  },
+  {
+   "i": 25,
+   "en": "Before her a strange, small man hunches. He wears some parody of a doctor's surgical garb.\r\n\r\n\"You had best kneel,\" the doctor hisses.",
+   "ctx": "data/campaign/rules.csv kdKantaFirstIntro4 [text]"
+  },
+  {
+   "i": 26,
+   "en": "If a broken atmo scrubber could laugh, it might sound like the noise that comes from Kanta. \r\n\r\n\"A kneeler!\" she shouts. Her guards remain relaxed. \"We see you know who is strong here. Know your place. Kanta will watch over you.\"\r\n\r\nThe doctor grimaces bloodlessly.",
+   "ctx": "data/campaign/rules.csv kdKantaFirstIntro4kneel [text]"
+  },
+  {
+   "i": 27,
+   "en": "If a broken atmo scrubber could laugh, it might sound like the noise that comes from Kanta. \r\n\r\n\"A stander!\" she shouts. You note that her guards remain relaxed. \"We like you. A heggie would kneel in the mud because all they know is following and groveling. You stand like a spacer.\"\r\n\r\nHer head tracks you. \"Kanta will hear you.\"",
+   "ctx": "data/campaign/rules.csv kdKantaFirstIntro4stand [text]"
+  },
+  {
+   "i": 28,
+   "en": "The small doctor steps forward and clears his throat, and says \"I am Doctor Cydonia, personal assistant to the warlord.\" ",
+   "ctx": "data/campaign/rules.csv kdKantaFirstIntro5 [text]"
+  },
+  {
+   "i": 29,
+   "en": "Two guards accompany you onto the station while the rest wait with the shuttle. This is how it is done here.\r\n\r\nYou're led by one of Kanta's lieutenants toward the center of the station, adjusting to the disjointed agrav fields. Pirates of all shapes and ages eye you for weakness; they're bedecked in prizes, modified combat armor plated with gold and gems, stolen high-end vacsuits, knotted neck-scarves, ostentatious luxury wear.\r\n\r\nThey wear their spoils, the more garish the better.",
+   "ctx": "data/campaign/rules.csv kdLandingRevisit [text]"
+  },
+  {
+   "i": 30,
+   "en": "Past pitted blast doors hung with crimson skull-banners, a large bay opens. The lingering acrid scent of energy weapon discharge hangs in the air, almost but not quite concealing the odor of rotting meat.\r\n\r\nYou're brought before Kanta's throne, tastelessly backlit in blood-red. The caps, badges, and insignia of various naval officers are impaled on fused blossoms of trophy weapons. Above all is the hissing, thrumming figure of Warlord Jorien Kanta, more machine now than human. Her face is a mask. What skin you can see is space-cured leather.\r\n\r\nThe maybe-doctor, Cydonia, lurks near the base of her throne. He steps forward, \"Behold!\" he shrieks, \"The court of Warlord Kanta, queen by blood-conquest, is in session!\"",
+   "ctx": "data/campaign/rules.csv kdLandingRevisit2 [text]"
+  },
+  {
+   "i": 31,
+   "en": "Cydonia nods stiff-necked, the tiniest hint of a bow, then addresses you before the entire court: \"You bear a token of Kanta's kin, Nashyan, who is of the outer family! But Nashyan never gave you this token- I checked.\"\r\n\r\nNow the guards react, leveling their weapons. Not training them on you yet.",
+   "ctx": "data/campaign/rules.csv kdKantaFirstIntroRouteToGAATG [text]"
+  },
+  {
+   "i": 32,
+   "en": "After a short wait, your connection request is accepted.\r\n\r\n\"Yes, what? Is it important?\" Kato barely looks up from his datapad.",
+   "ctx": "data/campaign/rules.csv DardanKatoDefaultGreeting [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"You're quite finished? I'm a very busy man.\" Kato frowns as his datapad chimes.",
+   "ctx": "data/campaign/rules.csv DardanKatoDefaultGreeting2 [text]"
+  },
+  {
+   "i": 34,
+   "en": "Dardan lets out a sigh.\r\n\r\n\"I already know about her little crusade. I'd thank you not to mention her- unless she's finally decided to do the right thing and return to the Gens?\"\r\n\r\nHe barely waits before he says \"Didn't think so.\"",
+   "ctx": "data/campaign/rules.csv DardanKatoAskImoinu2 [text]"
+  },
+  {
+   "i": 35,
+   "en": "\"Like I said,\" he says, his tone of voice making it clear he is quite finished with this conversation.",
+   "ctx": "data/campaign/rules.csv DardanKatoAskImoinuOptA [text]"
+  },
+  {
+   "i": 36,
+   "en": "He gives you a wretched look. \"Tell me you didn't.\"\r\n\r\n\"No,\" he holds up a hand. \"Don't tell me at all. I don't want to know. Drop it. We're not talking about this.\"",
+   "ctx": "data/campaign/rules.csv DardanKatoAskImoinuOptB [text]"
+  },
+  {
+   "i": 37,
+   "en": "\"By the bloody stars, please and thank-you,\" he mutters under his breath,",
+   "ctx": "data/campaign/rules.csv DardanKatoAskImoinuOptC [text]"
+  },
+  {
+   "i": 38,
+   "en": "\"I have not yet heard from High Hegemon Daud. I presume you are still to make contact using the credentials I have provided, as per our agreement.\" \r\n\r\nHe looks you over in a manner that could be interpreted somewhat uncharitably, and says \"I shall wait with the greatest patience.\"",
+   "ctx": "data/campaign/rules.csv YaribayFollowupNotDone [text]"
+  },
+  {
+   "i": 39,
+   "en": "\"I am pleased to say that I have been in contact with our mutual friend,\" Horus says with a wink. \"As with all good things, it will take time to enjoy the fruits of this effort.\"\r\n\r\n\"It seems I was right to trust you. Perhaps we shall have future dealings? Ah, and did I mention that despite the eroded morals of our youth, the Yaribay name is proving its academic prowess in this latest generation? Well, let me tell you...\"\r\n\r\nYou manage to extricate yourself fairly quickly from hearing too many tales of the Yaribay offspring's latest success at the Galatia Academy.",
+   "ctx": "data/campaign/rules.csv YaribayFollowup1 [text]"
+  },
+  {
+   "i": 40,
+   "en": "\"Unfortunately I have not yet received word from... our mutual friend,\" Horus says, his brow creased. \"Perhaps it is simply a matter of time. Like all good things, one must suppose.\"",
+   "ctx": "data/campaign/rules.csv YaribayFollowup2 [text]"
+  },
+  {
+   "i": 41,
+   "en": "\"Our Prime Demarchon.\" He slowly exhales, expression kept quite politic. \"You've met him? I suppose congratulations are in order.\"",
+   "ctx": "data/campaign/rules.csv HYaribayAskReynardHub [text]"
+  },
+  {
+   "i": 42,
+   "en": "\"Our Prime Demarchon.\" He exhales, expression kept quite politic.",
+   "ctx": "data/campaign/rules.csv HYaribayAskReynardHubAgain [text]"
+  }
+ ]
+}

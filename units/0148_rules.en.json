@@ -1,0 +1,151 @@
+{
+ "chunk": 148,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "A tiny shuttle with a jury-rigged shield generator darts through a spot failure in the shield. A landing at the primary control center is achieved without incident and the crew is able to deactivate the shield entirely upon breaching the facility. Follow-up shuttles with heavier equipment launch quickly thereafter, and soon the salvage operation is in full swing.",
+   "ctx": "data/campaign/rules.csv psi_exploreFacility [text]"
+  },
+  {
+   "i": 2,
+   "en": "Scattered, broken domes dot the planet's surface, perchance holding lost caches of valuable materials.",
+   "ctx": "data/campaign/rules.csv salRuins_scattered [text]"
+  },
+  {
+   "i": 3,
+   "en": "Widespread ruins, blips from radiation sources, and the distinctive burred radar-ping of foamed cerametal structures can be found across $marketName, evidence of a small but concerted colonization effort dating to the late expansion period of the Domain.",
+   "ctx": "data/campaign/rules.csv salRuins_widespread [text]"
+  },
+  {
+   "i": 4,
+   "en": "Ruined cities can be found across the surface of $marketName, spilling from their broken hearts pitted roadways and crumbling magrail lines to the skeletons of factories, aquaponics domes, and comm-towers.",
+   "ctx": "data/campaign/rules.csv salRuins_extensive [text]"
+  },
+  {
+   "i": 5,
+   "en": "$marketName is covered in vast ruins; cities, factories, mines, farms, homes. The dead are in dread abundance, entwined with salvageable materials, goods, tools, and weapons. This world is a tomb for the hubris of the Domain's project of galactic colonization and hegemony. ",
+   "ctx": "data/campaign/rules.csv salRuins_vast [text]"
+  },
+  {
+   "i": 6,
+   "en": "The ruins on the surface of $marketName have been stripped of anything easily accessible, and further exploitation requires a permanent presence.",
+   "ctx": "data/campaign/rules.csv salRuins_alreadyExplored [text]"
+  },
+  {
+   "i": 7,
+   "en": "Scattered, sinking buoyant platforms dot the clouds of $marketName, perchance holding lost caches of valuable materials.",
+   "ctx": "data/campaign/rules.csv salRuinsGG_scattered [text]"
+  },
+  {
+   "i": 8,
+   "en": "Low-orbit platforms blip with radiation sources and the distinctive burred radar-ping of foamed cerametal can be found widespread through the clouds of $marketName, evidence of a small but concerted colonization effort dating to the late expansion period of the Domain.",
+   "ctx": "data/campaign/rules.csv salRuinsGG_widespread [text]"
+  },
+  {
+   "i": 9,
+   "en": "Ruined buoyant cities and factories can be seen in the clouds of $marketName, slowly sinking into the crushing depths, trailing kilometers of tether. Low-orbit factories, ring-habs, and comm-relays slowly succumb to atmospheric drag and occasionally but dramatically burn a line across the swirling face of the planet.",
+   "ctx": "data/campaign/rules.csv salRuinsGG_extensive [text]"
+  },
+  {
+   "i": 10,
+   "en": "The clouds of $marketName are filled with the vast ruins of buoyant sky-cities, dead jewels of farms, habitats, and transport hubs trailing on near-invisible tethers. Low-orbit factories, hab-rings, and power transmitters sparkle in the twilight, a steady slew of debris catching in the atmosphere and burning lines on the face of the planet. The dead are in dread abundance, entwined with salvageable materials, goods, tools, and weapons. This world is a stormy tomb for the hubris of the Domain's project of galactic colonization and hegemony.",
+   "ctx": "data/campaign/rules.csv salRuinsGG_vast [text]"
+  },
+  {
+   "i": 11,
+   "en": "The ruins in low orbit of $marketName have been stripped of anything easily accessible. Further exploitation of abandoned buoyant structures requires a permanent presence.",
+   "ctx": "data/campaign/rules.csv salRuinsGG_alreadyExplored [text]"
+  },
+  {
+   "i": 12,
+   "en": "A nearby hostile fleet is tracking your movements, making exploration of the planet impossible.",
+   "ctx": "data/campaign/rules.csv salRuins_hostileNearby [text]"
+  },
+  {
+   "i": 13,
+   "en": "While long-term exploitation of the resources in these ruins requires a colony, a salvage team can conduct a search for anything of immediate value.",
+   "ctx": "data/campaign/rules.csv salRuins_noHostileNearby [text]"
+  },
+  {
+   "i": 14,
+   "en": "Your $shipOrFleet approaches a lonely clutch of shielded cargo containers drifting through space. They bear no ID-badge, no insignia, no reactive transponders.\r\n\r\nA steady stream of high-energy neutrinos from one particular container spinning outward from the main cluster washes over your sensors in time with its rotation; some sleeping chamber of exotic matter must have given out over the cycles - decades? - since it was left here.",
+   "ctx": "data/campaign/rules.csv zig_cacheOpenDialog [text]"
+  },
+  {
+   "i": 15,
+   "en": "An autonomous warning beacon has been left emitting a distorted wail between official channels.\r\n\r\nYour comms officer reports an easily-defeated software intrusion attempt by what remains of the beacon's security systems.",
+   "ctx": "data/campaign/rules.csv zig_beaconOpenDialog [text]"
+  },
+  {
+   "i": 16,
+   "en": "The capital-class construct appears to be a phase ship due to presenting features common to the type, though its design is otherwise exotic. \r\n\r\nThere also appear to be small, bright EM sources, \"-Only partially overlapping the visual spectrum,\" your sensors officer reports. They periodically appear and dissipate in a volume encompassing the mysterious ship. Your bridge crew murmurs speculation between their stations: a new form of shielding? microsat thruster bursts? Your sensors officer shakes their head. \r\n\r\nYour attention strays as the impression of something not unlike distant music insinuates itself into your consciousness; as if a chorus was singing at some great distance, their voices brought to you by a chance gust of wind. When you attempt to focus on the music the impression slips away. You become suddenly aware that your bridge crew is staring expectantly, waiting for your next command.",
+   "ctx": "data/campaign/rules.csv zig_encounterDescScanned [text]"
+  },
+  {
+   "i": 17,
+   "en": "The capital-class construct appears to be a phase ship due to presenting features common to the type, though its design is otherwise exotic.\r\n\r\nThere also appear to be small, bright EM sources, \"-Only partially overlapping the visual spectrum,\" your sensors officer reports. They periodically appear and dissipate in a volume encompassing the mysterious ship. Your bridge crew murmurs speculation between their stations: a new form of shielding? microsat thruster bursts? Your sensors officer shakes their head.\r\n\r\nYou order a high-resolution scan performed, and the raw data placed into secure storage.",
+   "ctx": "data/campaign/rules.csv zig_encounterDesc1 [text]"
+  },
+  {
+   "i": 18,
+   "en": "Your attention strays as the impression of something not unlike distant music insinuates itself into your consciousness; as if a chorus was singing at some great distance, their voices brought to you by a chance gust of wind. When you attempt to focus on the music the impression slips away.\r\n\r\nYou become suddenly aware that your bridge crew is staring expectantly, waiting for your next command.",
+   "ctx": "data/campaign/rules.csv zig_encounterDesc2 [text]"
+  },
+  {
+   "i": 19,
+   "en": "A final terrific explosion blanks the external visual pickups. A few seconds later, backups are extruded through the hull.\r\n\r\nYour sensors officer reports in a hushed voice that no escape pods were detected leaving the ship at any point.",
+   "ctx": "data/campaign/rules.csv zig_afterDefeating [text]"
+  },
+  {
+   "i": 20,
+   "en": "The broken phase vessel, now quite dormant, is drifting through space.",
+   "ctx": "data/campaign/rules.csv zig_wreckDetails [text]"
+  },
+  {
+   "i": 21,
+   "en": "Salvage teams dock their drone-shuttles at various entry points along the massive vessel's hull. At the precise moment the go-order is given, all telemetry feeds from the shuttles simultaneously blank out.\r\n\r\nYour bridge officers initiate fallback procedures with practiced speed, contacting subordinates, performing checks and reinitializations to establish precisely where the systems fault occurred - and determine if it was a hostile act. Several agonizing minutes later, the salvage teams' data-feed and comms snap back to life.\r\n\r\n\"Captain!\" Your tactical officer salutes, then launches into a status report, \"Someone or something just tried to send a power core collapse signal to the shuttles' computers. Fortunately the security package caught it in time, but they had to perform a full systems shutdown and manually switch to backups; that's why their telemetry cut off. All salvage teams are now reporting all-green and are standing by.\"",
+   "ctx": "data/campaign/rules.csv zig_exploreSabotage [text]"
+  },
+  {
+   "i": 22,
+   "en": "Your tactical officer rapidly taps a few buttons; holodisplays flicker through status updates.\r\n\r\n\"If the shuttle power cores were overloaded simultaneously, well, with the shuttles so close to the wreck? The hull would have likely been damaged past any hope of recovery. In addition to killing the salvor crews, of course. But I don't think that was their goal; there are easier ways to kill salvage crews.\" \r\n\r\nAs you indicate to your operations chief to ready the salvage teams for a second attempt, your tactical officer adds, \"It comes to mind that what we just experienced was an attempt at an old Tri-Tach trick from the Second AI War. They left black-box EW traps to keep the Hegemony from recovering intel and tech from disabled hulls. And it worked. For a while, anyway. I'm just glad we kept that legacy commsec package installed.\"",
+   "ctx": "data/campaign/rules.csv zig_alphaContinueOpt [text]"
+  },
+  {
+   "i": 23,
+   "en": "You dismiss your tactical officer and ponder the situation as the call-and-return proceeds between your command crew and the salvage teams waiting at standby. Reports trickle up through the hierarchy, from junior officers in after-action/sim analyst teams to your bridge crew. A picture begins to form that has too many gaps for your liking: The core-collapse signal appears to have originated not exactly in, but uncomfortably near to a secure cargo bay holding an Alpha Core. The core was shielded in complete isolation at the time, and it denies any responsibility as effortlessly as it offers you its service and advice during this crisis, if you would be so kind as to open up a small data-link. You curtly terminate the secured comm-channel and order the AI put back in isolated lock-down.\r\n\r\nYour comms officer reports that there is uncertainty whether the AI was involved, or if the signal was sent from that location to throw suspicion onto the core. Both possibilities have troubling implications. In the meantime, however, your ops chief calls in, requesting the order to enter the wreck.",
+   "ctx": "data/campaign/rules.csv zig_alphaContinueOpt2 [text]"
+  },
+  {
+   "i": 24,
+   "en": "Your salvage teams dock shuttles at various entry points along the vessel's massive hull.",
+   "ctx": "data/campaign/rules.csv zig_exploreNoSabotage [text]"
+  },
+  {
+   "i": 25,
+   "en": "After a few tense minutes, reports start to come in - the vessel is heavily damaged, and though of exotic design, it is theoretically recoverable.\r\n\r\nYour operations chief reports that for all of the fancy hull features, it is clear that this ship requires crew to operate. But there are no traces of a crew, not even a single body caught in the battle damage, and the escape pods are all in their berths.\r\n\r\nThe operation proceeds with telemetry feeds, salvors' reports, and authorization orders flowing around you, through the bridge of your flagship. You catch yourself listening for that unheard music in a quiet moment, and shake your head just as a comms request from your technology officer appears, bringing you back from your reverie. You accept as a matter of course.",
+   "ctx": "data/campaign/rules.csv zig_exploreDescription [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"$PlayerSirOrMadam, if I understand half of these systems, this ship is truly one of a kind,\" your technology officer speaks with genuine excitement.\r\n\r\n\"I've found a device that appears to generate and control - I'm not sure that either is the right word, really - these ... swarming motes, the EM anomalies. The device appears to have two stages, the first as I've described, and what appears to be a later addition which is, unfortunately, damaged beyond repair.\"\r\n\r\n\"Judging by the complexity of the components and the bizarre discharge pattern... this is the work of a team of specialists doing bleeding-edge work. It's amazing! A device like this, it's simply unheard of nowadays. Except,\" Tech looks abashed suddenly, \"Rumors. You know, people talk.\"",
+   "ctx": "data/campaign/rules.csv zig_exploreDescriptionContinue [text]"
+  },
+  {
+   "i": 27,
+   "en": "Your technology officer clears their throat, then continues \"I think I can get the main part of this device working again, though I can't claim to understand why it works. Not at all. The ship itself will be fit to fly, too, if we do the usual repairs. Should we proceed with recovery?\"",
+   "ctx": "data/campaign/rules.csv zig_exploreDescriptionContinue2 [text]"
+  },
+  {
+   "i": 28,
+   "en": "A disposable navigation satellite set to a decaying orbit identifies the radiation-ravaged rock below as \"Alpha Site\".\r\n\r\nA scan of the surface reveals an expansive research facility spilling out of a mid-sized crater. The shield array apparently failed spectacularly some time ago, leaving the ruins awash in heavy radiation. Any material salvage operation would be unprofitable.\r\n\r\nHowever, you might be able to send a salvage team down for a short period to see if any intel can be found about the purpose of this facility. Someone clearly put a lot of resources toward building it in a most inhospitable environment, far from prying eyes. Someone with something valuable to hide.",
+   "ctx": "data/campaign/rules.csv zig_alphaSite [text]"
+  },
+  {
+   "i": 29,
+   "en": "A small satellite on a decaying orbit identifies the radiation-ravaged rock below as \"Alpha Site\". You estimate it doesn't have much time left until it crashes into the planet - a couple of cycles, at the very most.\r\n\r\nOn a whim, you pull up the recording of your first visit here.",
+   "ctx": "data/campaign/rules.csv zig_alphaSiteAlreadyExplored [text]"
+  }
+ ]
+}

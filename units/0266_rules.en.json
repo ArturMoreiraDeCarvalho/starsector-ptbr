@@ -1,0 +1,296 @@
+{
+ "chunk": 266,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "You return to the academy concourse.  A junior academy agent - a different one - greets you in a landing lounge with promotional paraphernalia in hand.",
+   "ctx": "data/campaign/rules.csv gaDHOvisitElekEnd [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"Good.\"\r\n\r\nHe turns his attention away, and you see a holographic moon spin past his head.\r\n\r\n\"I await your return, captain,\" he says over his shoulder.",
+   "ctx": "data/campaign/rules.csv gaDHOvisitElekAgainAccept2a [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"The attached specifications will...\" Elek pauses, then squints.\r\n\r\n\"I see. You're engaging in a bit of jocularity. Well, I can't exactly disapprove of high spirits at the outset of an expedition provided you mind the technical details.\"\r\n\r\nHe turns away and begins re-arranging holographic moons that have been floating around him. \"I await your return, captain,\" he says over his shoulder.",
+   "ctx": "data/campaign/rules.csv gaDHOvisitElekAgainAccept2b [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"Very well. I'll simply find an adventurer who is interested in the advancement of human knowledge, to say nothing of wealth and glory.\"\r\n\r\n\"Good day.\" He hits the cut-off, and you're left with the logo of the Galatia Academy Planetology Department.",
+   "ctx": "data/campaign/rules.csv gaDHOvisitElekAgainDecline [text]"
+  },
+  {
+   "i": 5,
+   "en": "Your $shipOrFleet approaches the $nameInText.",
+   "ctx": "data/campaign/rules.csv gaDHOarrayStart [text]"
+  },
+  {
+   "i": 6,
+   "en": "Your operations chief oversees the installation with their usual methodical precision and discipline.\r\n\r\nThe hardware is interfaced with a secure computing environment on your flagship, and your tech team stands by to oversee the results.",
+   "ctx": "data/campaign/rules.csv gaDHOarray2 [text]"
+  },
+  {
+   "i": 7,
+   "en": "The telemetry streams across space to your flagship by the flicker of the discreet little comms laser your ops team installed.\r\n\r\nYour technology officer confirms that while the data isn't perfect, it has a vastly lower corruption rate than Elek's copy from the Galatia Academy archive.",
+   "ctx": "data/campaign/rules.csv gaDHOarray3 [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"We have a fix on where they were looking,\" Tech says proudly as they transfer you the coordinates.\r\n\r\n\"It would appear to be a minor planet in the Abyss. No star, no nebulae; no primary but itself.\"",
+   "ctx": "data/campaign/rules.csv gaDHOarray4 [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"Well, $playerSirOrMadam, nothing about the rock itself.\"\r\n\r\n\"The Domain Explorarium ordered a non-routine survey of the volume. We don't know what they were looking for, but the survey program found... well, it appears as though something happened, something violent. A series of high-energy events over a short period of time a little over 200 cycles ago. A starless rock is, um, very unlikely to produce such effects naturally.\"\r\n\r\nThey pause, then speak tentatively. \"A battle, maybe? We can't say for sure. I don't know what would be worth fighting over out there. Or even looking for.\"",
+   "ctx": "data/campaign/rules.csv gaDHOarray5 [text]"
+  },
+  {
+   "i": 10,
+   "en": "There's only one way to find out.\r\n\r\nAnd it's best done with plenty of extra supplies and fuel. Every spacer knows that the Abyss is not to be trifled with. Of those foolish captains who attempt to find their fortune there, the few who return are often starving, having to mothball ships for fuel and supplies during the long crawl back to the Core Worlds.",
+   "ctx": "data/campaign/rules.csv gaDHOarrayEnd [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"$PlayerSirOrMadam,\" your sensors officer says. \"There's a, a large ship in orbit. I mean no presumption, but I think you're going to want to get a closer look. The long-range readings are... unusual.\"",
+   "ctx": "data/campaign/rules.csv gaDHOnamelessRock2 [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"Got a long-range hit...\" Sensors reports. \"Something is approaching our orbit. Without maneuvers we have one shift? Two? Half a day, max.\"",
+   "ctx": "data/campaign/rules.csv gaDHO_mk1explore8interruptA [text]"
+  },
+  {
+   "i": 13,
+   "en": "Academician Elek could not have possibly known his sensor data would lead to... this.",
+   "ctx": "data/campaign/rules.csv gaDHO_mk1explore8interrupt2a [text]"
+  },
+  {
+   "i": 14,
+   "en": "You can only speculate what Tri-Tachyon thought they were setting you up to find using him as a front. It might be nice to find out.",
+   "ctx": "data/campaign/rules.csv gaDHO_mk1explore8interrupt3a [text]"
+  },
+  {
+   "i": 15,
+   "en": "You can only speculate what Director Glamor-Rotanev and Tri-Tachyon thought they were setting you up to find using him as a front. It might be nice to find out.",
+   "ctx": "data/campaign/rules.csv gaDHO_mk1explore8interrupt3b [text]"
+  },
+  {
+   "i": 16,
+   "en": "You can only speculate what his 'patron' thought they were setting you up to find, using him as a front. It might be nice to find out. If you make it out of this alive, a pointed word with Elek about the identity of his patron might be in order.",
+   "ctx": "data/campaign/rules.csv gaDHO_mk1explore8interrupt3c [text]"
+  },
+  {
+   "i": 17,
+   "en": "It's too big, too dangerous for him to have stumbled upon himself. And based on what you know from the sensor array data, it was originally someone elses' project entirely... around 200 cycles ago.\r\n\r\nSomeone long dead. Probably.",
+   "ctx": "data/campaign/rules.csv gaDHO_mk1explore8interrupt3d [text]"
+  },
+  {
+   "i": 18,
+   "en": "This Academician Elek of the Galatia Academy could not have possibly known his sensor data would lead to... this. Could he?\r\n\r\nYou might be justified to ask him with an urgency proportional to the magnitude of the situation you now find yourself in.\r\n\r\nOnly if you manage to survive this 'Threat' and make it back to the Core Worlds, of course.",
+   "ctx": "data/campaign/rules.csv gaDHO_mk1explore8interrupt2b [text]"
+  },
+  {
+   "i": 19,
+   "en": "Your sensors officer finally suppresses the new detector's alerts, then turns to you. The Onslaught Mk.I rotates threateningly in the primary display, an avatar of ancient violence.\r\n\r\n\"What are your orders, $playerSirOrMadam?\" they ask.",
+   "ctx": "data/campaign/rules.csv gaDHO_mk1explore8interruptOut [text]"
+  },
+  {
+   "i": 20,
+   "en": "Academician Elek could not have possibly known his sensor data would lead to... this. Could he?\r\n\r\nIt's too big, too dangerous for a pretentious, if bombastic, academic like Elek to have stumbled upon himself. And based on what you know from the sensor array data, it was someone elses' project entirely around 200 cycles ago.\r\n\r\nSomeone long dead. Probably.",
+   "ctx": "data/campaign/rules.csv gaDHO_mk1explore8interruptC [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"Greetings! Captain $PlayerName.\" Academician Elek is as pleased to see you as you've ever seen.\r\n\r\n\"I trust your expedition was a success. Please, do me the favor of summarizing your findings while you transmit the data you've collected.\"\r\n\r\nHe taps at something, and your comms ping softly to notify you that Elek has opened a datastream for you. He looks at you expectantly.",
+   "ctx": "data/campaign/rules.csv gaDHOendingStart [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"What?\" He lets out an impatient huff. \"I already paid you for recovering the data from the sensor array.\"",
+   "ctx": "data/campaign/rules.csv gaDHOendingRewardFirstB [text]"
+  },
+  {
+   "i": 23,
+   "en": "Elek raises his eyebrows and gives you a skeptical look.",
+   "ctx": "data/campaign/rules.csv gaDHOendingRewardFirstBnm [text]"
+  },
+  {
+   "i": 24,
+   "en": "He lets out an impatient huff.",
+   "ctx": "data/campaign/rules.csv gaDHOendingRewardFirst [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"Yes, yes, of course. Credits, always about the...\" he mutters to himself as he taps and swipes at his datapad.",
+   "ctx": "data/campaign/rules.csv gaDHOendingAskReward [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"Here we are,\" he says, raising his eyebrows at you. \"What I would have paid the other freelancer I hired had they returned. And promptly surrendered the research data that would be useless to anyone but me.\"\r\n\r\nYour TriPad pings softly as Elek gives you a cold look.",
+   "ctx": "data/campaign/rules.csv gaDHOendingAskRewardDefault [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"Here we are. The payment.\"\r\n\r\nYour TriPad pings softly.",
+   "ctx": "data/campaign/rules.csv gaDHOendingAskReward20k [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"Here we are,\" he says, raising his eyebrows at you.\r\n\r\nYour TriPad pings softly.",
+   "ctx": "data/campaign/rules.csv gaDHOendingAskReward50k [text]"
+  },
+  {
+   "i": 29,
+   "en": "He lets out a breath, then meets your eyes. \"A princely sum. I hope the value of your data will be its equal.\"\r\n\r\nHis finger hovers over the confirmation for a full second before he presses it down. Your TriPad pings softly to itself.",
+   "ctx": "data/campaign/rules.csv gaDHOendingAskReward100k [text]"
+  },
+  {
+   "i": 30,
+   "en": "He sighs melodramatically, then his eyes meet yours, \"This had better be worth it.\"\r\n\r\nHis finger hovers over the confirmation for two full seconds before he presses it. Your TriPad pings softly as if it were rather pleased with itself.",
+   "ctx": "data/campaign/rules.csv gaDHOendingAskReward200k [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"What?\" He looks appalled. \"Stars above, you spacers... we'll discuss it after I review the data you collected. It is only logical to establish the degree of hazard before I make some potentially spurious additional payment.\"\r\n\r\n\"Speaking of precisely that,\" he taps his datapad impatiently.",
+   "ctx": "data/campaign/rules.csv gaDHOendingAskRewardHazard [text]"
+  },
+  {
+   "i": 32,
+   "en": "Academician Elek seems to pick up on the tone in your voice, for once.\r\n\r\n\"Yes? Very well, do elaborate.\" He places his hands together in a well-practiced pose of attentive contemplation.",
+   "ctx": "data/campaign/rules.csv gaDHOendingFoundFirst [text]"
+  },
+  {
+   "i": 33,
+   "en": "You tell Elek about finding the sensor array, processing the data, then travelling into the Abyss. Elek nods along, fascinated enough to only interrupt occasionally to correct some pedantic detail or other.",
+   "ctx": "data/campaign/rules.csv gaDHOendingFoundFirst0a [text]"
+  },
+  {
+   "i": 34,
+   "en": "You tell Elek about travelling into the Abyss to the coordinates, to the rogue planet. Elek nods along, fascinated enough to only interrupt occasionally about some phenomenon or other.",
+   "ctx": "data/campaign/rules.csv gaDHOendingFoundFirst0b [text]"
+  },
+  {
+   "i": 35,
+   "en": "He goes quiet when you get to the Onslaught Mk.I - and begins shaking his head as you describe the Threat.\r\n\r\n\"No, this is terribly unlikely,\" he says. \"The imaginings of some absurd holo-novel. Which of my students put you up to this jape?\"",
+   "ctx": "data/campaign/rules.csv gaDHOendingFoundFirst1 [text]"
+  },
+  {
+   "i": 36,
+   "en": "\"Excellent,\" says Elek, confirming the transmission request with a tap. \"Tell me, what did you find? What's behind all the excitement 200 cycles ago?\"",
+   "ctx": "data/campaign/rules.csv gaDHOendingDataFirst [text]"
+  },
+  {
+   "i": 37,
+   "en": "Elek turns his attention to the datapad. \"It's coming through,\" he says, confirming the transmission request with a tap.",
+   "ctx": "data/campaign/rules.csv gaDHOendingDataTransferSus [text]"
+  },
+  {
+   "i": 38,
+   "en": "Elek turns his attention to his datapad. \"It's coming through,\" he says, confirming the transmission request with a tap.",
+   "ctx": "data/campaign/rules.csv gaDHOendingDataTransferCurt [text]"
+  },
+  {
+   "i": 39,
+   "en": "You tell Elek about finding the sensor array, processing the data, then travelling into the Abyss. Elek nods along, fascinated enough to only interrupt occasionally about some phenomenon or other.",
+   "ctx": "data/campaign/rules.csv gaDHOendingGiveSummaryStartA [text]"
+  },
+  {
+   "i": 40,
+   "en": "He goes quiet when you get to the Onslaught Mk.I - and begins shaking his head as you describe the Threat.",
+   "ctx": "data/campaign/rules.csv gaDHOendingGiveSummaryMid [text]"
+  },
+  {
+   "i": 41,
+   "en": "\"No, this is terribly unlikely\" he says. \"The imaginings of some absurd holo-novel. Which of my students put you up to this jape?\"",
+   "ctx": "data/campaign/rules.csv gaDHOendingGiveSumEnd [text]"
+  },
+  {
+   "i": 42,
+   "en": "Elek gives an amused huff, as if at a student giving an excuse for not completing coursework by his deadline.",
+   "ctx": "data/campaign/rules.csv gaDHOendingGiveSumEndNoData [text]"
+  },
+  {
+   "i": 43,
+   "en": "\"I, I don't see how this can be,\" he says. \"It's like the imaginings of some absurd holo-novel. If, if it were true, my patron... the provost, Hegemony COMSEC...\"",
+   "ctx": "data/campaign/rules.csv gaDHOendingGiveSumEndBelieves [text]"
+  },
+  {
+   "i": 44,
+   "en": "He gives you an unconvinced look. \"I'm not angry, I'm... disappointed,\" he says.",
+   "ctx": "data/campaign/rules.csv gaDHOendingFoundFirst2a [text]"
+  },
+  {
+   "i": 45,
+   "en": "Elek gives an amused huff, as if at student giving an excuse for not completing coursework by his deadline.\r\n\r\n\"I'm not angry,\" he says. \"I'm disappointed.\"",
+   "ctx": "data/campaign/rules.csv gaDHOendingFoundFirst2b [text]"
+  },
+  {
+   "i": 46,
+   "en": "\"I'm not angry,\" he says. \"I'm disappointed. That's your story? I'd need some very good data indeed if I am to believe a word of it.\"\r\n\r\nHe taps his datapad, opening a stream for you, then fixes you with a skeptical glare.\r\n\r\n\"I say, $playerSirOrMadam - prove yourself.\"",
+   "ctx": "data/campaign/rules.csv gaDHOendingFoundFirst2c [text]"
+  },
+  {
+   "i": 47,
+   "en": "Elek begins shuffling through your data, accessing his larger holodisplay with his datapad. Images, charts, holoclips start appearing around him. You watch his face turn from exasperated skepticism to simply fearful.\r\n\r\nHe slaps his datapad, and the holos disappear.\r\n\r\nHe turns to you, struggling to maintain his composure. \"Th-thank you captain, for-\"",
+   "ctx": "data/campaign/rules.csv gaDHOendingHeBelieves2 [text]"
+  },
+  {
+   "i": 48,
+   "en": "He touches his forehead. \"Your hazard pay!\"\r\n\r\nElek remembered. He must be truly out of sorts.",
+   "ctx": "data/campaign/rules.csv gaDHOendingHeBelieves3a [text]"
+  },
+  {
+   "i": 49,
+   "en": "He touches his forehead. \"Your hazard pay!\"",
+   "ctx": "data/campaign/rules.csv gaDHOendingHeBelieves3aAbyss [text]"
+  },
+  {
+   "i": 50,
+   "en": "\"If...\" He gives you an odd look. \"If you say so.\"",
+   "ctx": "data/campaign/rules.csv gaDHOendingHeBelieves3aAbyssNo [text]"
+  },
+  {
+   "i": 51,
+   "en": "He touches his forehead. \"Your payment!\"",
+   "ctx": "data/campaign/rules.csv gaDHOendingHeBelieves3b [text]"
+  },
+  {
+   "i": 52,
+   "en": "\"I... I suppose it is.\"\r\n\r\nElek briefly attempts a sad smile before giving up.",
+   "ctx": "data/campaign/rules.csv gaDHOendingHeBelieves3bNo [text]"
+  },
+  {
+   "i": 53,
+   "en": "With trembling hand, he taps at his datapad. He looks relieved when the payment confirms - your TriPad gives a corresponding satisfied chirp.",
+   "ctx": "data/campaign/rules.csv gaDHOendingHeBelievesPay2 [text]"
+  },
+  {
+   "i": 54,
+   "en": "\"There. We can put this all... behind us. I'll handle it. My patron... it's going to be fine.\" He manages a sickly smile. ",
+   "ctx": "data/campaign/rules.csv gaDHOendingHeBelievesPay3 [text]"
+  },
+  {
+   "i": 55,
+   "en": "He lets out an upset noise, but no objection as he taps again at his datapad, hands shaking. He has to perform the command twice before getting it right.\r\n\r\n\"Yes... there. Good-day, captain. Please keep this... I'll take care of everything.\"",
+   "ctx": "data/campaign/rules.csv gaDHOendingHazard0 [text]"
+  },
+  {
+   "i": 56,
+   "en": "He lets out an upset noise, but no objection as he taps again at his datapad, hands shaking. He has to perform the command twice before getting it right.\r\n\r\n\"Yes... there. Now. Tell me about your discovery. I've certainly paid dearly for it.\"",
+   "ctx": "data/campaign/rules.csv gaDHOendingHazard0noSum [text]"
+  },
+  {
+   "i": 57,
+   "en": "He looks sick, the affect of the confident academic completely shot.\r\n\r\nPerhaps there is some knowledge that the academician would have been happier to have never learned.\r\n\r\nElek cuts the comms.",
+   "ctx": "data/campaign/rules.csv gaDHOendingHeBelievesOut [text]"
+  },
+  {
+   "i": 58,
+   "en": "He looks sick, the affect of the confident academic completely shot. Elek sits down at his desk to stare at his blank datapad.\r\n\r\nIgnoring you.",
+   "ctx": "data/campaign/rules.csv gaDHOendingHeBelievesOutAbyss [text]"
+  }
+ ]
+}

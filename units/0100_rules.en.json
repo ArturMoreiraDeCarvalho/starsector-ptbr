@@ -1,0 +1,246 @@
+{
+ "chunk": 100,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "You are known to have performed work for Provost Baird of the Galatia Academy.",
+   "ctx": "data/campaign/rules.csv relLevelIndieBaird [text]"
+  },
+  {
+   "i": 2,
+   "en": "Your exploits are legendary and inspire scores of imitators. Your underworld connections and influence are enviable, giving access to black markets and hired guns; a river of hot goods, drugs, and armaments are available at your whim.",
+   "ctx": "data/campaign/rules.csv relLevelCooperativePirates [text]"
+  },
+  {
+   "i": 3,
+   "en": "You've proven useful to some of the leaders of the various criminal enterprises in the Sector. Harassing you may be more trouble than it's worth to a pirate who wants to breathe something more substantial than vacuum.",
+   "ctx": "data/campaign/rules.csv relLevelFriendlyPirates [text]"
+  },
+  {
+   "i": 4,
+   "en": "Pirates respect your swagger, and are inclined to respect the notoriety you've gained in the underworld that allows you to throw your weight around a little to get what you want.",
+   "ctx": "data/campaign/rules.csv relLevelWelcomingPirates [text]"
+  },
+  {
+   "i": 5,
+   "en": "You've been around pirates, smugglers, and other criminals often enough, and know how to act so they treat you as one of their own. The benefits of this comradeliness are dubious at best, of course, because they're known to gun one another down if enough credits are on the line.",
+   "ctx": "data/campaign/rules.csv relLevelFavorablePirates [text]"
+  },
+  {
+   "i": 6,
+   "en": "You've been around pirates, smugglers, and criminals long enough to know how to conduct business with them. That doesn't mean they won't attack if the opportunity presents itself, of course.",
+   "ctx": "data/campaign/rules.csv relLevelNeutralPirates [text]"
+  },
+  {
+   "i": 7,
+   "en": "Pirates are generally only suspicious towards you, which is a far sight better than the loathing they hold for most 'legitimate' space-captains. This doesn't mean they won't attack you if the credits are good, of course. Pirates are pirates, after all. ",
+   "ctx": "data/campaign/rules.csv relLevelSuspiciousPirates [text]"
+  },
+  {
+   "i": 8,
+   "en": "Pirates will keep their weapons warm around your $shipOrFleet, and view you with distrust. This is more than can be said for how they view their fellows much of the time, so it's not as if hostility is insurmountable if a large number of credits or sufficient intimidation is in play.",
+   "ctx": "data/campaign/rules.csv relLevelInhospitablePirates [text]"
+  },
+  {
+   "i": 9,
+   "en": "Although you are not utterly despised, pirates are more than willing to attack if they believe you have credits or cargo to plunder.\r\nOr if they're bored.",
+   "ctx": "data/campaign/rules.csv relLevelHostilePirates [text]"
+  },
+  {
+   "i": 10,
+   "en": "Many pirates fear you, but few respect anything but your powerful fleet. Pirate bases are not willing to trade openly with you to avoid being seen as 'collaborators'. Pirates will attack you if they catch you in a moment of weakness. ",
+   "ctx": "data/campaign/rules.csv relLevelHostilePiratesFleet [text]"
+  },
+  {
+   "i": 11,
+   "en": "You are scorned as mere prey and despised as a lackey serving the fat, rich factions of the Persean Sector.",
+   "ctx": "data/campaign/rules.csv relLevelVengefulPirates [text]"
+  },
+  {
+   "i": 12,
+   "en": "You are hated by Pirates; they use a holo of your face for target-practice. No doubt there is a brash young pirate assembling a kill-fleet to ambush you to secure the immortality of their name, if not person, in the lawless shadows of the Persean Sector.",
+   "ctx": "data/campaign/rules.csv relLevelVengefulPiratesFleet [text]"
+  },
+  {
+   "i": 13,
+   "en": "You have paid off Warlord Kanta to ensure that pirates - mostly - don't attack your colonies.",
+   "ctx": "data/campaign/rules.csv relLevelPiratesKantasProtection [text]"
+  },
+  {
+   "i": 14,
+   "en": "You had, and lost, Warlord Kanta's protection over your holdings.",
+   "ctx": "data/campaign/rules.csv relLevelPiratesKantasProtectionNo [text]"
+  },
+  {
+   "i": 15,
+   "en": "You are the one who spaced Kanta's clone of Loke.",
+   "ctx": "data/campaign/rules.csv relLevelPiratesKilledLoke [text]"
+  },
+  {
+   "i": 16,
+   "en": "You are considered an exemplar of the Andradan Ideal. Patrol officers know that their careers, and perhaps lives, depend on making your life as pleasant as possible. A rather grand holo-version of you is featured in propaganda segments extolling your embodiment of the values the Supreme Executor forges in the worthy.",
+   "ctx": "data/campaign/rules.csv relLevelCooperativeDiktat [text]"
+  },
+  {
+   "i": 17,
+   "en": "You've been flagged for official treatment as a trusted supporter of the Andradan Movement, a friend and ally of Sindrian Diktat authority. Minor functionaries know that their careers and possibly lives depend on easing your business with Diktat-controlled volumes.",
+   "ctx": "data/campaign/rules.csv relLevelFriendlyDiktat [text]"
+  },
+  {
+   "i": 18,
+   "en": "Your name is spoken well of among some of the high-level officials in the various ministries of the Sindrian Diktat, and it is clear that there is some kind of official note attached to your record. Local patrol commanders and port authority officers alike know what's good for their careers and make a point of treating you politely and efficiently.",
+   "ctx": "data/campaign/rules.csv relLevelWelcomingDiktat [text]"
+  },
+  {
+   "i": 19,
+   "en": "You have been flagged as a known quantity in the records kept by the Sindrian Diktat security apparatus. Officials tend to view you favorably, though don't go out of their way to make life easy. At best, you might be sold some low-grade surplus military equipment, or avoid being the target of an investigation if a more convenient scapegoat is available.",
+   "ctx": "data/campaign/rules.csv relLevelFavorableDiktat [text]"
+  },
+  {
+   "i": 20,
+   "en": "You're not generally well known by the Sindrian Diktat security apparatus. If you keep your head down and your mouth shut, you'll probably be fine unless some Lion's Guard officer wants to make an example out of someone.",
+   "ctx": "data/campaign/rules.csv relLevelNeutralDiktat [text]"
+  },
+  {
+   "i": 21,
+   "en": "Though you have not been declared a state enemy, it is clear that you have been flagged by the Sindrian Diktat security apparatus. Port officials view you with distrust, fulfilling procedural requests slowly and singling you out for unnecessary inspections and checks.",
+   "ctx": "data/campaign/rules.csv relLevelSuspiciousDiktat [text]"
+  },
+  {
+   "i": 22,
+   "en": "The Sindrian Diktat security apparatus has flagged you as a suspected terrorist, though has not yet issued a shoot-on-sight order. Diktat-controlled ports will refuse to trade with you, and patrols seem to make it their mission to make your life miserable.",
+   "ctx": "data/campaign/rules.csv relLevelInhospitableDiktat [text]"
+  },
+  {
+   "i": 23,
+   "en": "You have joined the ranks of those declared enemies of the state. The Sindrian Diktat navy has authorization to engage your fleet, and traders are prohibited from dealing with you for fear of being declared supporters of terrorism.",
+   "ctx": "data/campaign/rules.csv relLevelHostileDiktat [text]"
+  },
+  {
+   "i": 24,
+   "en": "You have been declared a state enemy by the Sindrian Diktat and seen as a deranged terrorist against the Andradan Movement. Uncharitably modified holos of you performing crimes and sordid acts have appeared in official propaganda broadcasts.",
+   "ctx": "data/campaign/rules.csv relLevelVengefulDiktat [text]"
+  },
+  {
+   "i": 25,
+   "en": "There are rumors that you're a double or triple-agent working for - or against? - Dolos Macario.",
+   "ctx": "data/campaign/rules.csv relLevelDiktatSDTU [text]"
+  },
+  {
+   "i": 26,
+   "en": "The board of directors considers you an exemplar of the corporation's core values as well as a key strategic partner. VPs use management methods based on the growth-focused synergies you inspire. Vast investment capital and technical expertise are made available through your Tri-Tachyon connections.",
+   "ctx": "data/campaign/rules.csv relLevelCooperativeTriTachyon [text]"
+  },
+  {
+   "i": 27,
+   "en": "A smiling holo of you appears in the Tri-Tachyon quarterly corporate report as an example of a key partner in various enterprises. You are given special perks and priority access to facilities owned or operated by Tri-Tachyon and its subsidiaries.",
+   "ctx": "data/campaign/rules.csv relLevelFriendlyTriTachyon [text]"
+  },
+  {
+   "i": 28,
+   "en": "The Tri-Tachyon Customer and Client Service Smart Database assigns you priority docking and a complimentary fruit and flower arrangement at every port controlled by Tri-Tachyon or one of its subsidiaries. Even if this is automated by a technically non-sentient sub-AI system, it is a sign that the Tri-Tachyon corporation values your ongoing business relationship.",
+   "ctx": "data/campaign/rules.csv relLevelWelcomingTriTachyon [text]"
+  },
+  {
+   "i": 29,
+   "en": "Due to your status as a valued partner, the standard oxygen and agrav convenience fee has been waived for your visits to Tri-Tachyon or subsidiary owned facilities.",
+   "ctx": "data/campaign/rules.csv relLevelFavorableTriTachyon [text]"
+  },
+  {
+   "i": 30,
+   "en": "The Tri-Tachyon Customer and Client Service Smart Database, a Domain certified equivalent sub-gamma AI system dedicated to tracking potential competition, has not tagged your profile for special treatment or caution.",
+   "ctx": "data/campaign/rules.csv relLevelNeutralTriTachyon [text]"
+  },
+  {
+   "i": 31,
+   "en": "Your profile with the Tri-Tachyon Customer and Client Service Smart Database has been algorithmically tagged as \"potential risk\" resulting in additional small \"security fees\" and delays when docking at facilities owned or operated by Tri-Tachyon or its subsidiaries.",
+   "ctx": "data/campaign/rules.csv relLevelSuspiciousTriTachyon [text]"
+  },
+  {
+   "i": 32,
+   "en": "A Tri-Tachyon sub-AI (alleged) tracks your movements through the Sector, and when docked at a wholly owned or subsidiary facility, you are followed by an indiscreet security drone. Employees of the corporation treat you with suspicion, performing additional checks to avoid risk to their quarterly bonus.  ",
+   "ctx": "data/campaign/rules.csv relLevelInhospitableTriTachyon [text]"
+  },
+  {
+   "i": 33,
+   "en": "Employees of Tri-Tachyon have been given the opportunity to earn a substantial increase to their quarterly performance bonus if they manage to kill you or, failing that, destroy your ability to cause further harm to the interests of the Company. A truly astronomical bribe might get you back in their good books.",
+   "ctx": "data/campaign/rules.csv relLevelHostileTriTachyon [text]"
+  },
+  {
+   "i": 34,
+   "en": "Tri-Tachyon has assigned an AI core to theorycrafting your destruction and set aside a mercenary fund to see it done. Your name has its own byline, in red, in quarterly corporate reports and a rather uglier version of you features in procedurally-generated children's adutainment holos.",
+   "ctx": "data/campaign/rules.csv relLevelVengefulTriTachyon [text]"
+  },
+  {
+   "i": 35,
+   "en": "A special department has taken an interest in how you have found so many AI cores.",
+   "ctx": "data/campaign/rules.csv relLevelTriTachyonCores [text]"
+  },
+  {
+   "i": 36,
+   "en": "Truly, you walk upon the Path. It is not a Path of peace, and it marches ceaselessly toward the end-time, which is soon. Your fellow Walkers will keep Faith with you, whether into the blessed martyrdom of battle or into the great unknown that is God's plan, revealed only to the prophets such as Ludd and, some say, Brother Cotton.",
+   "ctx": "data/campaign/rules.csv relLevelCooperativePather [text]"
+  },
+  {
+   "i": 37,
+   "en": "You are a fellow Walker on the Path. Your name is passed between secret Watchers who hold the Faith secretly in every port, every fleet, and maintain a network of information built on human trust and heart. These Watchers would aid you in unexpected ways at unexpected times.",
+   "ctx": "data/campaign/rules.csv relLevelFriendlyPather [text]"
+  },
+  {
+   "i": 38,
+   "en": "Your name is spoken of well among the secret cells and far-flung sects that make up the Luddic Path. Those few worlds controlled by Path-aligned polities welcome your trade, and will do their best to ensure that some excitable fanatic doesn't try to attack you.",
+   "ctx": "data/campaign/rules.csv relLevelWelcomingPather [text]"
+  },
+  {
+   "i": 39,
+   "en": "Your name is spoken occasionally in the secret networks of the Luddic Path, and it is spoken of with tentative trust and praise. Still, the Path is a loose association and some fanatic might still get the wrong idea and try to extort a tithe from you, or worse.",
+   "ctx": "data/campaign/rules.csv relLevelFavorablePather [text]"
+  },
+  {
+   "i": 40,
+   "en": "You are not considered a great evil by the Luddic Path, though that won't stop them from demanding \"tithes\" or destroying your \"sinful technology\" if a fanatical group of militants becomes inspired to take worldly action.",
+   "ctx": "data/campaign/rules.csv relLevelNeutralPather [text]"
+  },
+  {
+   "i": 41,
+   "en": "You are known among some Luddic Path as one who may be open to the wisdom of Ludd's true teachings. Or you may not, for you are still of the Tribe of Moloch, and it is known that Ludd would not frown upon your destruction.",
+   "ctx": "data/campaign/rules.csv relLevelSuspiciousPather [text]"
+  },
+  {
+   "i": 42,
+   "en": "The Watchers of the Path are everywhere, and they whisper that you might not be so lost a soul as once you appeared. Nonetheless, excitable Pather fleetmasters may still attempt to extract tithes from you using threat of destruction in the Holy Vacuum.",
+   "ctx": "data/campaign/rules.csv relLevelInhospitablePather [text]"
+  },
+  {
+   "i": 43,
+   "en": "To the Luddic Path you are considered a minion of Moloch and slave to demonic technology. You are a witless ally of Mammon, striving in this sin-filled world not for love of God but for only the hedonic lucre of miserable unbelievers blind to Ludd's Revelation.",
+   "ctx": "data/campaign/rules.csv relLevelHostilePather [text]"
+  },
+  {
+   "i": 44,
+   "en": "Pather-aligned priests rail against you in their sermons; they call you a wrathful AI-conjured homunculus. Your destruction is a holy duty. It's only a matter of time before some fanatic takes a shot at you in a bar, or a Pather fleetmaster jumps at the opportunity for martyrdom.",
+   "ctx": "data/campaign/rules.csv relLevelVengefulPather [text]"
+  },
+  {
+   "i": 45,
+   "en": "Causing you harm has been declared proscribed by the Luddic Path due to an act of great service to their cause.",
+   "ctx": "data/campaign/rules.csv relLevelPatherPK [text]"
+  },
+  {
+   "i": 46,
+   "en": "Causing you harm has been declared proscribed by the Luddic Path due to an act of great service to their cause. You are also known to have traded words with Brother Cotton.",
+   "ctx": "data/campaign/rules.csv relLevelPatherPKAndCotton [text]"
+  },
+  {
+   "i": 47,
+   "en": "It is known that you traded words with Brother Cotton - and lived.",
+   "ctx": "data/campaign/rules.csv relLevelPatherCotton [text]"
+  },
+  {
+   "i": 48,
+   "en": "Truly, you walk with Ludd. Even the most pious curates concede that your worldly actions have bolstered the Faith, and they pray for your wellbeing. The Knights of Ludd put great trust in your handling of technology for righteous cause. Even heretical sects admire your conduct, despite their departures from Church canon.",
+   "ctx": "data/campaign/rules.csv relLevelCooperativeLuddic [text]"
+  }
+ ]
+}

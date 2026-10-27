@@ -1,0 +1,136 @@
+{
+ "chunk": 158,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"Ah,\" Adonya looks rather pleased now, \"You fancy spies with your titles and gadgets didn't figure her out?\" She laughs, \"And now you've got to ask an old woman for help? Oh don't worry,\" she says, setting her tea down, \"I'll tell you, captain.\"\r\n \r\n\"Elissa Zal. Such a nice girl. Could have been the best thing that ever happened to Scylla. But,\" she shakes her head, \"an offer from the Galatia Academy came first. Full scholarship from the office of the Provost. Sikar was thrilled; his little scientist got the chance he never had.\"\r\n\r\nShe trails off, with a sad look.",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildAdonyaB2 [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"Oh, let me think,\" Adonya says. \"No... no, it's been so many years.\" She gives you a sly smile, \"But we could ask.\" \r\n\r\n\"TriHome,\" she says loudly. An expectant chime sounds from the holo-vid entertainment system as the King of Westernesse is muted. \"Comms id for Elissa Zal, please.\r\n\r\n\"Searching,\" says TriHome, then a pause. \"No Elissa Zal found in local system.\"\r\n\r\nAdonya looks disappointed, and mutters \"Stupid thing.\" She looks at you again, \"Do you need more tea, dear?\"\r\n\r\nIt feels about like the time you should leave, though you surreptitiously add the name \"Elissa Zal\" to your list of persons-of-interest.",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildAdonyaB3 [text]"
+  },
+  {
+   "i": 3,
+   "en": "You interrupt Adonya's critique of one of the King's 'water-brained' advisors to compliment the view from the balcony. Adonya takes the bait and invites you to have your tea outdoors. The holovid's volume is reduced to a muttered cacophony as you step into the high sea air.\r\n\r\nBanks of windows and balconies flow across the facing towers. Drones buzz in ordered lines, diverting to deliver packages or attend to cleaning. Adonya explains the generous terms of her lease compared to those offered by other towers and asks if you've considered retiring to Fikenhild. You smile and nod, turning this way and that for the thousands of cameras that are probably capturing your image. If anyone is watching, they will know you were here.",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildAdonyaC [text]"
+  },
+  {
+   "i": 4,
+   "en": "Having completed what you came here for, you make your apologies to Adonya Coureuse as you move to leave, assuring her that you will find Scylla and see that she is safe. And yes, you will absolutely comms if any new information comes up.\r\n\r\nThe door softly closes behind you, leaving your ears free of the holovid's incessant murmur - and the endless probing questions from Adonya. Reaching for your datapad, you discover that you're still holding a cup of cold tea. You carefully set it in front of the door before leaving.",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildAdonyaLeave [text]"
+  },
+  {
+   "i": 5,
+   "en": "You take a transport line outbound to the Kay-arco exurbs, a sprawling network of floating municipalities jostling in the sea at the base of the mighty half-submerged arcology. The monorail track gleams in the sun, a straight line toward the horizon like a hardpoint-mounted particle lance shot through a nebula.\r\n\r\nThe train breaks through a cloudbank, and you feel the subtle pull of deceleration fighting with the agrav field effect as you approach your target: a modular suburban conglomeration. You glance at your TriPad to recall the name of the place, 'Seabank Oasis'.",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildBione1 [text]"
+  },
+  {
+   "i": 6,
+   "en": "You buzz at the doorway to one of the outer compounds, the green hint of lawn showing through the translucent vitreous strip at the top of the wall. After a short delay, a commsplate activates and a tired-looking woman appears in holo. You ask if you are speaking with Bione Lata, and would she mind answering some questions about Scylla Coureuse.\r\n\r\nShe looks behind her, then lowers her voice to reply. \"Yes. Didn't someone already come by to ask about her? I haven't seen Scylla in years, like I said. Look, I don't have much time for this.\"",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildBione2 [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Okay. Like I said, I don't know what she got mixed up with. When I knew Sy, she... worked hard. Good grades. No, great grades. Unless she thought the teacher was wrong, and then,\" Bione smiles now, \"She wouldn't stand down.\"\r\n\r\n\"And I don't know, she was pretty serious with Elissa - um, Elissa Zal, like I told the other agent. Something happened, I don't know what. She hung out in the lower city more, with that Cavin guy. Got into all kinds of trouble. Then-\" You hear the thin wail of an infant from both the commsplate and over the compound wall. \"I really have to go now- goodbye agent... whatever your name is.\"",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildBioneAstart [text]"
+  },
+  {
+   "i": 8,
+   "en": "Elissa Zal. This name is a new connection. You make a quick note on your TriPad.",
+   "ctx": "data/campaign/rules.csv gaFCQuestionBioneElissaZal [text]"
+  },
+  {
+   "i": 9,
+   "en": "The commsplate clicks off, replacing Bione's face with the dancing Seabank Oasis mascot, which reminds you that unregistered guests will be asked to leave the exurb at the end of the workshift.",
+   "ctx": "data/campaign/rules.csv gaFCQuestionBioneAend [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"Oh, um, that was a couple weeks ago. Finlay?\" She thinks for a moment.\r\n\r\n\"Oh, you mean Agent Siyavong with Fleet intelligence. Finlay was his first name. You must be from Munisec, right?\"",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildBioneB [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"That makes sense, League departments never coordinate with domestic services, do they. Well, it's not my fault you people never talk to each other. Agent Siyavong left a commskey.\"\r\n\r\n\"Here,\" she taps at something, and an id glyph appears. As you use your TriPad to pull the contact info, you hear the thin wail of an infant from both the commsplate and over the compound wall. \"I really have to go now- goodbye agent, um, didn't catch your name- sorry!\"\r\n\r\nThe commsplate clicks off, replacing Bione's face with the dancing Seabank Oasis mascot. You glance at the new comms contact on your TriPad, one Finlay Siyavong.",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildBioneB2 [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"Oh, um, that was a couple weeks ago. He was very nice, well dressed.\" She smiles, then tries to hide it. \"Agent Finlay... Finlay Siyavong. He was with Fleet Intelligence. You're from Fleet too, right?\" \r\n\r\nYou make a noncommittal motion that could be interpreted quite broadly.\r\n\r\n\"He asked a lot of questions. Can't you just ask him? I really am right in the middle of- \" You hear the thin wail of an infant from both the commsplate and over the compound wall. \"I have to go now. Sorry agent. Goodbye.\"\r\n\r\nThe commsplate shuts off, replacing Bione's face with the dancing Seabank Oasis mascot. An agent Finlay Siyavong. Probably working for the Persean League's intelligence service. Interesting.",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildBioneC [text]"
+  },
+  {
+   "i": 13,
+   "en": "You take a step back and speak with your loud, carrying 'commander voice': first you assure Bione that you're simply following up on 'the agency's' previous visit, and that she is speaking to $playerName, by the way. You carefully enunciate your name so that there's no confusion about how to input it into a search query, whether by voice or text.\r\n\r\nPacing in front of the commsplate, you mention Scylla Coureuse again, but speak mostly about yourself and the patriotic importance of being forthright with officials. A neighbor pokes their head out a window from the next unit over with an upset look at the noise, but retreats as soon as you make eye contact.\r\n\r\nYou have such a show going that it takes a moment for you to realize that Bione's voice coming through the tinny commsplate is trying to get your attention.",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildBioneD [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"Hello! Um, $playerFirstName was it? Can you keep it down? My-\" You hear the thin wail of an infant from both the commsplate and over the compound wall.\r\n\r\nBione's look hardens; you've done it this time. \"...I really have to go. Good bye.\"\r\n\r\nThe commsplate shuts off, replacing Bione's face with the dancing Seabank Oasis mascot. It reminds you to keep your voice down while visiting the exurb community, and won't you have a nice day.\r\n\r\nYou nod, and turn around just in time to catch a different neighbor watching you with a look of consternation, datapad ready to call in a complaint.",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildBioneD2 [text]"
+  },
+  {
+   "i": 15,
+   "en": "You turn back toward the monorail line, subvocalizing an update to your mission notes. A fog bank rolls in, dimming the bright sun.",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildBioneLeave [text]"
+  },
+  {
+   "i": 16,
+   "en": "The transit lift descends into the subsurface districts of Kay-arco. The air thickens with mildew and century-old machine lubricant. You pass through structural tunnels filled with cheap tenements, gray market retailers, and fringe ideologies.\r\n\r\nYour TriPad's directions lead you to an address where Cavin Pharoh held what the event notice called a 'militant consciousness happening'. Along an anonymous stretch of shuttered depot-fronts you discover a secure door flanked by decaying polymer agitation prints. Chemmed out sleepers lie in entryways. It feels like the right place.",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildCavinStart [text]"
+  },
+  {
+   "i": 17,
+   "en": "As you raise your hand to knock, the commsplate by the door sputters to life and speaks.\r\n\r\n\"You've made your point, $playerName.\" \r\n\r\nAn officious voice, though distorted by the damaged commsplate. It signals an elite education and the relaxed authority which comes naturally to its speaker. \r\n\r\n\"You want us to know you're looking for Scylla Coureuse and you're going to shout it from every street corner on Fikenhild until we acknowledge it.\"",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildCavinStartInterrupt [text]"
+  },
+  {
+   "i": 18,
+   "en": "As you raise your hand to knock, the commsplate by the door sputters to life and speaks.\r\n\r\n\"You've made your point, Demarchon $playerName.\" \r\n\r\nAn officious voice, though distorted by the damaged commsplate. It signals an elite education and the relaxed authority which comes naturally to its speaker. \r\n\r\n\"You want us to know you're looking for Scylla Coureuse and you're going to shout it from every street corner on Fikenhild until we acknowledge it.\"",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildCavinStartInterruptPL [text]"
+  },
+  {
+   "i": 19,
+   "en": "As you raise your hand to knock, the commsplate by the door sputters to life and speaks.\r\n\r\n\"Demarchon $playerName. I apologize for delaying my response the inquiry you made through official channels.\" \r\n\r\nAn officious voice, though distorted by the damaged commsplate. It signals an elite education and the relaxed authority which comes naturally to its speaker. \r\n\r\n\"You're looking for someone quite specific, and I should like to assist you.\"",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildCavinStartInterruptPL2 [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"You presume correctly, captain.\" The voice sounds almost impressed.",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildSiyavongInterruptA [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"You presume correctly, demarchon.\" The voice sounds almost impressed.",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildSiyavongInterruptA-PL [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"You have a way of insisting, captain.\" The voice sounds a touch annoyed.",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildSiyavongInterruptB [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"You have a way of insisting, demarchon.\" The voice sounds just a touch annoyed.",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildSiyavongInterruptB-PL [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"For good reason,\" the voice says patiently.",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildSiyavongInterruptC [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"We should bring this conversation to a more discreet setting,\" the voice continues. \"I'll transmit my comms ID for you to contact. Leave this nest of anarchists be. Come back topside and let us speak face to face about our mutual interest.\" \r\n\r\nThe commsplate sputters and dies with a lingering crackle as your datapad pings. It looks like you finally attracted the official attention you were looking for.",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildSiyavongInterruptEnd [text]"
+  },
+  {
+   "i": 26,
+   "en": "The damaged commsplate by the door speaks with a crackle, \"-re you MuniSec? We do not consent to a search! Not without-\", then some muffled words, and a second voice interrupts, \"Shut up. I'll handle it.\" \r\n\r\nHidden bolts withdraw and a man steps out. He's put on a sour scowl for you and is dressed in a mix of dirtsider approximation of spacer gear mixed with the accoutrement of some local counterculture fashion. He pulls the door closed and with a lowered voice says \"Ignore that. Is she in more trouble? This is about the whole Galatia thing isn't it?\"",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildCavinKnock [text]"
+  }
+ ]
+}

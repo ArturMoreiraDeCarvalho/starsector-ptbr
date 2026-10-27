@@ -1,0 +1,176 @@
+{
+ "chunk": 134,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"Yes, that's it!\" Pond cries, \"They said they'd do terrible things if I didn't cooperate! Torture, murder, terrible things. Pathers will do anything!\"\r\n\r\n\"Pather heretics,\" Bornanew says, his voice icy. \"You do know, Ulmus Pond, how we Knights deal with Pather heretics?\" Bornanew stands and reaches into his satchel.\r\n\r\nPond goes paler, somehow. \"N-no, no. I'll confess! I'll do penance, I'll pray! I'll tell you whatever you want. Tell him!\" He looks to you.",
+   "ctx": "data/campaign/rules.csv BFFIulmusTalkPcGood3 [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"There was... a Walker of the Path,\" Pond sputters. \"The Luddic Path.\"\r\n\r\n\"He told me to talk to Menes, to, to make the offer. He said a Mammonite couldn't resist an object of such unique quality. And- and I was to arrange transport from the Fringe. Make it appear legitimate. Set the documents straight.\"\r\n\r\nBornanew draws his cheap datapad from his satchel, the screen already set to a map of the greater Persean Sector.",
+   "ctx": "data/campaign/rules.csv BFFIulmusTalkPcGood4 [text]"
+  },
+  {
+   "i": 3,
+   "en": "Bornanew gives you a warning look. Pond simply deflates, looking utterly lost. \"There was... a Walker,\" he sputters. \"Of the Luddic Path.\"\r\n\r\n\"He told me to talk to Menes, to, to make the offer. He said a Mammonite couldn't resist an object of such unique quality. And- and I was to arrange transport from the Fringe. Make it appear legitimate. Set the documents straight.\"\r\n\r\nBornanew draws his cheap datapad from his satchel, the screen already set to a map of the greater Persean Sector.",
+   "ctx": "data/campaign/rules.csv BFFIulmusTalkPcGood4b [text]"
+  },
+  {
+   "i": 4,
+   "en": "Bornanew sighs deeply, dropping his previous countenance, and looks at you with almost a sadness in his eyes. \"This is not as we agreed. I ask now that you stand aside and allow me to complete this unsavory task.\"\r\n\r\nWith that, his face goes blank and he turns, seizing Pond by the neck with one hand and lifting him off the cot with a choked sound.",
+   "ctx": "data/campaign/rules.csv BFFIulmusTalkPcWrong1 [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"What, it seems, I must,\" he says flatly.",
+   "ctx": "data/campaign/rules.csv BFFIulmusTalkPcWrong2a [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"Ulmus,\" he growls and, with his other hand Bornanew lifts his cheap datapad to within reach of Pond's flailing arms. The screen is already set to a map of the greater Persean Sector.\r\n\r\n\"Show us where the glove came from. Then you may breathe.\"",
+   "ctx": "data/campaign/rules.csv BFFIulmusTalkPcWrong2 [text]"
+  },
+  {
+   "i": 7,
+   "en": "Bornanew's datapad trembles in Pond's hands. He cannot designate a star system until Bornanew concedes by lowering him back onto the cot.\r\n\r\nGasping and choking, Pond marks a system. It is difficult to make out his words. Something about \"pather\".\r\n\r\n\"This Pather, Ulmus,\" Bornanew says, glancing at the datapad then placing it in his satchel. \"Tell us his name.\"\r\n\r\nTears stream down Ulmus' face; the man looks deflated, and absolutely defeated. Then he looks up and his eyes go wide.\r\n\r\n\"Sedge!\" he rasps.",
+   "ctx": "data/campaign/rules.csv BFFIulmusTalkPcWrong3a [text]"
+  },
+  {
+   "i": 8,
+   "en": "Bornanew's datapad trembles in Pond's hands. He cannot designate a star system until Bornanew concedes by lowering him back onto the cot.\r\n\r\nGasping and choking, Pond marks a system. It is difficult to make out his words. Something about \"pather\".\r\n\r\n\"This Pather, Ulmus,\" Bornanew says, glancing at the datapad then placing it in his satchel. \"Tell us his name.\"\r\n\r\nTears stream down Ponds' face; the man looks deflated, and absolutely defeated. \"Sedge,\" he rasps, finally.\r\n\r\nBornanew shoots a look at you.",
+   "ctx": "data/campaign/rules.csv BFFIulmusTalkPcWrong3b [text]"
+  },
+  {
+   "i": 9,
+   "en": "Bornanew's datapad trembles in Pond's hands. He cannot designate a star system until Bornanew holds the pad steady for him.\r\n\r\n\"This Pather, Ulmus,\" Bornanew says, glancing at the datapad then placing it in his satchel. The threat retreats from his voice. \"Tell us his name.\"\r\n\r\nTears stream down Ulmus' face; the man looks deflated, and absolutely defeated. Then he looks up and his eyes go wide.\r\n\r\n\"Sedge!\"",
+   "ctx": "data/campaign/rules.csv BFFIulmusSedgeIntro [text]"
+  },
+  {
+   "i": 10,
+   "en": "Wrestling Sedge shows you his broken smile.\r\n\r\n\"Captain $playerFirstName, again. And again the man with too much faith, Bornanew. Jethro Bornanew. See?\"\r\n\r\nSedge's pistol is unwavering.\r\n\r\n\"This time I remember for you.\"",
+   "ctx": "data/campaign/rules.csv BFFIulmusSedge1 [text]"
+  },
+  {
+   "i": 11,
+   "en": "Wrestling Sedge shows you his broken smile.\r\n\r\n\"Captain $playerFirstName! It is good to see you. And again the man with too much faith, Bornanew. Jethro Bornanew. See?\"\r\n\r\nSedge's pistol is unwavering.\r\n\r\n\"This time I remember for you. But,\" he frowns, \"unlucky for me to find you on this path.\"",
+   "ctx": "data/campaign/rules.csv BFFIulmusSedge1b [text]"
+  },
+  {
+   "i": 12,
+   "en": "You and Sedge exchange a look as muffled pops and screams sound from the surrounding structures, echoing strangely down the lightwell beyond the translucent plastic panel that passes for a window. He makes a dissatisfied grunt.",
+   "ctx": "data/campaign/rules.csv BFFIulmusSedge2a [text]"
+  },
+  {
+   "i": 13,
+   "en": "Sedge makes a dissatisfied grunt. Muffled pops and screams sound from the surrounding structures, echoing strangely down the lightwell beyond the translucent plastic panel that passes for a window. ",
+   "ctx": "data/campaign/rules.csv BFFIulmusSedge2b [text]"
+  },
+  {
+   "i": 14,
+   "en": "Sedge makes a grunt which sounds like agreement. Muffled pops and screams sound from the surrounding structures, echoing strangely down the lightwell beyond the translucent plastic panel that passes for a window. ",
+   "ctx": "data/campaign/rules.csv BFFIulmusSedge2c [text]"
+  },
+  {
+   "i": 15,
+   "en": "As your hand moves toward your belt, Sedge's pistol twitches at your center of mass. He meets your eyes, his gleaming with fearless intensity, and gives a tiny shake of his head. Muffled pops and screams sound from the surrounding structures, echoing strangely down the lightwell beyond the translucent plastic panel that passes for a window.  ",
+   "ctx": "data/campaign/rules.csv BFFIulmusSedge2d [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"Because I must do this.\" Sedge's pistol twitches toward your center of mass. \"It is the Path.\"\r\n\r\nMuffled pops and screams sound from the surrounding structures, echoing strangely down the lightwell beyond the translucent plastic panel that passes for a window.  ",
+   "ctx": "data/campaign/rules.csv BFFIulmusSedge2e [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"The Path cannot bend. Not now,\" he says gruffly. His gun twitches at Ulmus Pond and makes a grinding shriek like a tool dropped into a rotary engine.",
+   "ctx": "data/campaign/rules.csv BFFIulmusSedge3 [text]"
+  },
+  {
+   "i": 18,
+   "en": "Ulmus' blood splatters across the window panel, turning the room a muddy red. In that moment, Bornanew launches himself at Sedge.",
+   "ctx": "data/campaign/rules.csv BFFIulmusSedge3b [text]"
+  },
+  {
+   "i": 19,
+   "en": "The pistol grinds again, catching Bornanew mid-leap.\r\n\r\nHis massive body, twitching and bleeding, crashes into Sedge's legs, setting the Pather off-balance.",
+   "ctx": "data/campaign/rules.csv BFFIulmusSedge4 [text]"
+  },
+  {
+   "i": 20,
+   "en": "In one smooth motion you draw your sidearm and place a shot in Sedge's head.\r\n\r\nWith a sigh, his body slides back against the wall, his eyes blank, his expression caught in a look of dumb surprise.",
+   "ctx": "data/campaign/rules.csv BFFIulmusSedge5 [text]"
+  },
+  {
+   "i": 21,
+   "en": "In one smooth motion you draw a grenade, sliding a finger along just-so to set yield to minimum, and gently toss it toward Sedge's head. You see the beginning of a confused start on his face before the flash, and a loud clap uncomfortable almost to the point of pain.\r\n\r\nSedge slides back against the wall, his face caught in the eternal surprise of death. Blood begins to trickle from his nose, his eyes, his ears, his mouth. The skin of his face blooms red. It will look like a bloated purple mass in only minutes.",
+   "ctx": "data/campaign/rules.csv BFFIulmusSedge5grenade [text]"
+  },
+  {
+   "i": 22,
+   "en": "In one smooth motion you draw and activate your ceramic vibroknife, sweeping it in an arc which intersects Sedge's throat. There is no resistance.\r\n\r\nWith a wet sigh, his body slides back against the wall, his face down, his eyes staring blankly up at you, his expression caught in a look of dumb surprise.",
+   "ctx": "data/campaign/rules.csv BFFIulmusSedge5knife [text]"
+  },
+  {
+   "i": 23,
+   "en": "In one smooth motion you raise your hand and activate the poison spray, angling upward and away from the bleeding body of Bornanew. A misting of the air disappears in a blink as if it were never there.\r\n\r\nWith a wet cough and a whining, choking sound, Sedge's body slides back against the wall. His eyes blink once at you, expression caught in a look of dumb surprise.",
+   "ctx": "data/campaign/rules.csv BFFIulmusSedge5spray [text]"
+  },
+  {
+   "i": 24,
+   "en": "In one smooth motion you draw the false fingertip of the monomolecular wire and throw it in an arc which intersects Sedge's neck. There is no resistance.\r\n\r\nWith a wet sigh, his body slides back against the wall, his head askew. His eyes blink once at you, expression caught in a look of dumb surprise.",
+   "ctx": "data/campaign/rules.csv BFFIulmusSedge5wire [text]"
+  },
+  {
+   "i": 25,
+   "en": "In one smooth motion you draw your sword and sweep it in an arc intersecting Sedge's throat.\r\n\r\nWith a wet sigh, his body slides back against the wall, his face down, his eyes staring blankly up at you, his expression caught in a look of dumb surprise.",
+   "ctx": "data/campaign/rules.csv BFFIulmusSedge5sword [text]"
+  },
+  {
+   "i": 26,
+   "en": "In a motion born of long hours of training, your leg snaps toward Sedge at the speed of thought. It meets the center of his head with full force, cracking his head back in a violent jerk.\r\n\r\nA single shudder passes through his body, from his thick neck, already purpling from devastated bone and tissue, to his booted feet. His head slumps to the side at an unnatural angle, blood running from what remains of his nose, and his mouth and eyes.",
+   "ctx": "data/campaign/rules.csv BFFIulmusSedge5none [text]"
+  },
+  {
+   "i": 27,
+   "en": "Bornanew lives, by a thread.\r\n\r\nIn the moments since the exchange, a time hollowed out by violence and filled with the fleeting intensity of adrenaline, your security team appears.\r\n\r\nFinding you unhurt, they attach stabilization packs and trauma strips to the fallen Knight. He's left an incredible pool of blood in the cheap apartment. It drips down the narrow stairs.\r\n\r\nThe other two bodies lie dead.\r\n\r\nIt is unclear how fully Ulmus Pond was exploited by or truly believed in the Pather cause, but his loyalty - if he ever had any - died with him.",
+   "ctx": "data/campaign/rules.csv BFFIulmusSedge6 [text]"
+  },
+  {
+   "i": 28,
+   "en": "You carry Bornanew's leather satchel to the shuttle. Your team carries his unconscious body. \r\n\r\nAs it lifts, he is laid across several seats. The designated medic keeps close watch over the small ad-hoc network of medical machines.\r\n\r\nBornanew's datapad opens to your touch, allowing you to access the coordinates given by Ulmus Pond. And a recording of the brief interrogation. $global.jethroName planned for the possibility of his incapacitation, or death. And gave you access to his work.",
+   "ctx": "data/campaign/rules.csv BFFIulmusSedge7 [text]"
+  },
+  {
+   "i": 29,
+   "en": "A medical team rushes past you, to Bornanew, as you step out onto your flagship. \r\n\r\nHe'll live, you are assured. But it'll hurt; this is left unsaid by your flagship's chief medical officer.\r\n\r\nIt is quite clear to you now that this is a Pather conspiracy, and they will kill to keep it from unravelling. Your next step is to the source of the fake relic: a lonely orbit on the fringe of the Persean Sector.\r\n\r\nIn the $bffi_patherStationSystem.",
+   "ctx": "data/campaign/rules.csv BFFIulmusSedge8 [text]"
+  },
+  {
+   "i": 30,
+   "en": "Bornanew's datapad trembles in Pond's hands. He cannot designate a star system until Bornanew holds the pad steady for him. A target.\r\n\r\n\"This Pather, Ulmus,\" Bornanew says, glancing at the datapad then placing it in his satchel. The threat retreats from his voice. \"Tell us his name.\"\r\n\r\nTears stream down Ponds' face; the man looks deflated, and absolutely defeated. \"Sedge,\" he says.\r\n\r\nBornanew shoots a look at you.",
+   "ctx": "data/campaign/rules.csv BFFIulmusNoSedgeOutro0 [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"This was before,\" Pond says. \"His people are still... they're everywhere. They'll kill me.\"\r\n\r\nHe looks at you hopefully. \"You've got to help me.\"",
+   "ctx": "data/campaign/rules.csv BFFIpondNoSedgeOutro2goodguy [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"This was before,\" Pond says. \"His people are still... they're everywhere. They'll kill me.\"\r\n\r\nHe looks at Bornanew hopefully. \"You said you'd keep me safe. As a Knight.\"\r\n\r\n$global.jethroName closes his eyes and sighs.",
+   "ctx": "data/campaign/rules.csv BFFIpondNoSedgeOutro2badguy [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"This,\" Pond coughs violently, holding his throat, \"-before. Pathers... everywhere. Kill me.\"\r\n\r\nHe looks at you fearfully after a glance at Bornanew. \"... help me.\"",
+   "ctx": "data/campaign/rules.csv BFFIpondNoSedgeOutro2choke [text]"
+  },
+  {
+   "i": 34,
+   "en": "Bornanew looks at you, then to Pond. Then speaks.\r\n\r\n\"I shall bring you to an agent of the Knights of Ludd. You shall confess all your sins, beginning first with that of heresy. They shall assign your penance.\"",
+   "ctx": "data/campaign/rules.csv BFFIpondNoSedgeOutro2knightsA [text]"
+  }
+ ]
+}

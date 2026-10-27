@@ -1,0 +1,481 @@
+{
+ "chunk": 44,
+ "cat": "data",
+ "items": [
+  {
+   "i": 1,
+   "en": "The transplutonic deposits glimmering with unbelievable density on the sensor-grid evoke portents of a power which could forge mighty war-fleets to burn worlds to ash -- or an eon of splendour and wealth for a polity of crystal towers as existed in the pre-collapse cycles of the Domain.",
+   "ctx": "data/campaign/market_conditions.csv rare_ore_ultrarich [desc]"
+  },
+  {
+   "i": 2,
+   "en": "The trace volatiles found here barely warrant harvesting.",
+   "ctx": "data/campaign/market_conditions.csv volatiles_trace [desc]"
+  },
+  {
+   "i": 3,
+   "en": "Diffuse volatiles can be found here, and may be sufficient for industrial extraction.",
+   "ctx": "data/campaign/market_conditions.csv volatiles_diffuse [desc]"
+  },
+  {
+   "i": 4,
+   "en": "Abundant volatiles may be economically extracted from $market.",
+   "ctx": "data/campaign/market_conditions.csv volatiles_abundant [desc]"
+  },
+  {
+   "i": 5,
+   "en": "$Market is a world-sized wellspring of volatiles - rich, deep, and potent.",
+   "ctx": "data/campaign/market_conditions.csv volatiles_plentiful [desc]"
+  },
+  {
+   "i": 6,
+   "en": "$Market is nearly barren of organics reserves, though some extraction is possible.",
+   "ctx": "data/campaign/market_conditions.csv organics_trace [desc]"
+  },
+  {
+   "i": 7,
+   "en": "Economically exploitable reserves of organics can be found on $market.",
+   "ctx": "data/campaign/market_conditions.csv organics_common [desc]"
+  },
+  {
+   "i": 8,
+   "en": "A river of wealth flows beneath the surface of $market - for those that would find and tap it.",
+   "ctx": "data/campaign/market_conditions.csv organics_abundant [desc]"
+  },
+  {
+   "i": 9,
+   "en": "Reservoirs of valuable organics burst through the surface of $market in gouts over deep, dark pools that promise oceans of wealth to be found just below.",
+   "ctx": "data/campaign/market_conditions.csv organics_plentiful [desc]"
+  },
+  {
+   "i": 10,
+   "en": "Terran plant life grows only stunted and wearily here. It would require farmers with talent equal to their desperation to make these lands bear fruit.",
+   "ctx": "data/campaign/market_conditions.csv farmland_poor [desc]"
+  },
+  {
+   "i": 11,
+   "en": "A robust terran-compatible biosphere allows agricultural cultivation to take place on $market.",
+   "ctx": "data/campaign/market_conditions.csv farmland_adequate [desc]"
+  },
+  {
+   "i": 12,
+   "en": "The fields of $market promise a rich harvest to reward the farmers that work these fertile lands.",
+   "ctx": "data/campaign/market_conditions.csv farmland_rich [desc]"
+  },
+  {
+   "i": 13,
+   "en": "$Market is a veritable Eden; flowering, riotous, lush, and luminous with plant life. Branches hang low, laden with fruit; fields of golden grain shimmer in the herbaceous breeze.",
+   "ctx": "data/campaign/market_conditions.csv farmland_bountiful [desc]"
+  },
+  {
+   "i": 14,
+   "en": "This planet has an array of solar shades or mirrors in orbit, judiciously positioned to bring its surface conditions closer to terran norms.",
+   "ctx": "data/campaign/market_conditions.csv solar_array [desc]"
+  },
+  {
+   "i": 15,
+   "en": "Base ModSpec",
+   "ctx": "data/campaign/special_items.csv modspec [name]"
+  },
+  {
+   "i": 16,
+   "en": "Corrupted Nanoforge",
+   "ctx": "data/campaign/special_items.csv corrupted_nanoforge [name]"
+  },
+  {
+   "i": 17,
+   "en": "Pristine Nanoforge",
+   "ctx": "data/campaign/special_items.csv pristine_nanoforge [name]"
+  },
+  {
+   "i": 18,
+   "en": "Orbital Fusion Lamp",
+   "ctx": "data/campaign/special_items.csv orbital_fusion_lamp [name]"
+  },
+  {
+   "i": 19,
+   "en": "Hypershunt Tap",
+   "ctx": "data/campaign/special_items.csv coronal_portal [name]"
+  },
+  {
+   "i": 20,
+   "en": "Autonomous Mantle Bore",
+   "ctx": "data/campaign/special_items.csv mantle_bore [name]"
+  },
+  {
+   "i": 21,
+   "en": "Catalytic Core",
+   "ctx": "data/campaign/special_items.csv catalytic_core [name]"
+  },
+  {
+   "i": 22,
+   "en": "Soil Nanites",
+   "ctx": "data/campaign/special_items.csv soil_nanites [name]"
+  },
+  {
+   "i": 23,
+   "en": "Biofactory Embryo",
+   "ctx": "data/campaign/special_items.csv biofactory_embryo [name]"
+  },
+  {
+   "i": 24,
+   "en": "Fullerene Spool",
+   "ctx": "data/campaign/special_items.csv fullerene_spool [name]"
+  },
+  {
+   "i": 25,
+   "en": "Plasma Dynamo",
+   "ctx": "data/campaign/special_items.csv plasma_dynamo [name]"
+  },
+  {
+   "i": 26,
+   "en": "Cryoarithmetic Engine",
+   "ctx": "data/campaign/special_items.csv cryoarithmetic_engine [name]"
+  },
+  {
+   "i": 27,
+   "en": "Combat Drone Replicator",
+   "ctx": "data/campaign/special_items.csv drone_replicator [name]"
+  },
+  {
+   "i": 28,
+   "en": "Dealmaker Holosuite",
+   "ctx": "data/campaign/special_items.csv dealmaker_holosuite [name]"
+  },
+  {
+   "i": 29,
+   "en": "Low Tech Blueprint Package",
+   "ctx": "data/campaign/special_items.csv low_tech_package [name]"
+  },
+  {
+   "i": 30,
+   "en": "Midline Blueprint Package",
+   "ctx": "data/campaign/special_items.csv midline_package [name]"
+  },
+  {
+   "i": 31,
+   "en": "High Tech Blueprint Package",
+   "ctx": "data/campaign/special_items.csv high_tech_package [name]"
+  },
+  {
+   "i": 32,
+   "en": "Missile Blueprint Package",
+   "ctx": "data/campaign/special_items.csv missile_package [name]"
+  },
+  {
+   "i": 33,
+   "en": "Pirate Blueprint Package",
+   "ctx": "data/campaign/special_items.csv pirate_package [name]"
+  },
+  {
+   "i": 34,
+   "en": "Luddic Path Blueprint Package",
+   "ctx": "data/campaign/special_items.csv LP_package [name]"
+  },
+  {
+   "i": 35,
+   "en": "Luddic Church Blueprint Package",
+   "ctx": "data/campaign/special_items.csv LC_package [name]"
+  },
+  {
+   "i": 36,
+   "en": "XIV Battlegroup Blueprint Package",
+   "ctx": "data/campaign/special_items.csv XIV_package [name]"
+  },
+  {
+   "i": 37,
+   "en": "Hegemony Auxiliary Blueprints",
+   "ctx": "data/campaign/special_items.csv heg_aux_package [name]"
+  },
+  {
+   "i": 38,
+   "en": "Base Ship Blueprint",
+   "ctx": "data/campaign/special_items.csv ship_bp [name]"
+  },
+  {
+   "i": 39,
+   "en": "Base Weapon Blueprint",
+   "ctx": "data/campaign/special_items.csv weapon_bp [name]"
+  },
+  {
+   "i": 40,
+   "en": "Base Fighter Blueprint",
+   "ctx": "data/campaign/special_items.csv fighter_bp [name]"
+  },
+  {
+   "i": 41,
+   "en": "Base Industry Blueprint",
+   "ctx": "data/campaign/special_items.csv industry_bp [name]"
+  },
+  {
+   "i": 42,
+   "en": "Janus Device",
+   "ctx": "data/campaign/special_items.csv janus [name]"
+  },
+  {
+   "i": 43,
+   "en": "Planetkiller",
+   "ctx": "data/campaign/special_items.csv planetkiller [name]"
+  },
+  {
+   "i": 44,
+   "en": "Topographic Data",
+   "ctx": "data/campaign/special_items.csv topographic_data [name]"
+  },
+  {
+   "i": 45,
+   "en": "Wormhole Anchor",
+   "ctx": "data/campaign/special_items.csv wormhole_anchor [name]"
+  },
+  {
+   "i": 46,
+   "en": "Wormhole Scanner",
+   "ctx": "data/campaign/special_items.csv wormhole_scanner [name]"
+  },
+  {
+   "i": 47,
+   "en": "Fragment Fabricator",
+   "ctx": "data/campaign/special_items.csv fragment_fabricator [name]"
+  },
+  {
+   "i": 48,
+   "en": "Threat Processing Unit",
+   "ctx": "data/campaign/special_items.csv threat_processing_unit [name]"
+  },
+  {
+   "i": 49,
+   "en": "Shrouded Substrate",
+   "ctx": "data/campaign/special_items.csv shrouded_substrate [name]"
+  },
+  {
+   "i": 50,
+   "en": "Shrouded Thunderhead",
+   "ctx": "data/campaign/special_items.csv shrouded_thunderhead [name]"
+  },
+  {
+   "i": 51,
+   "en": "Shrouded Mantle",
+   "ctx": "data/campaign/special_items.csv shrouded_mantle [name]"
+  },
+  {
+   "i": 52,
+   "en": "Shrouded Lens",
+   "ctx": "data/campaign/special_items.csv shrouded_lens [name]"
+  },
+  {
+   "i": 53,
+   "en": "Domain Restricted",
+   "ctx": "data/campaign/special_items.csv corrupted_nanoforge [tech/manufacturer]"
+  },
+  {
+   "i": 54,
+   "en": "Eridani-Utopia Terraforming",
+   "ctx": "data/campaign/special_items.csv mantle_bore [tech/manufacturer]"
+  },
+  {
+   "i": 55,
+   "en": "Ko Combine",
+   "ctx": "data/campaign/special_items.csv catalytic_core [tech/manufacturer]"
+  },
+  {
+   "i": 56,
+   "en": "Exodyne Biotech",
+   "ctx": "data/campaign/special_items.csv biofactory_embryo [tech/manufacturer]"
+  },
+  {
+   "i": 57,
+   "en": "Mbaye-Gogol",
+   "ctx": "data/campaign/special_items.csv dealmaker_holosuite [tech/manufacturer]"
+  },
+  {
+   "i": 58,
+   "en": "Threat",
+   "ctx": "data/campaign/special_items.csv fragment_fabricator [tech/manufacturer]"
+  },
+  {
+   "i": 59,
+   "en": "Shrouded Dweller",
+   "ctx": "data/campaign/special_items.csv shrouded_substrate [tech/manufacturer]"
+  },
+  {
+   "i": 60,
+   "en": "A collection of notes, guidelines, and practical examples that enable one to adapt and apply this modification to various hulls.",
+   "ctx": "data/campaign/special_items.csv modspec [desc]"
+  },
+  {
+   "i": 61,
+   "en": "A powerful and versatile manufacturing \"black box\", capable of building itself out to an industrial scale, given the necessary raw materials and human assistance.\r\n\r\nThis one has seen better days, and is incapable of reliably producing defect-free components. Nonetheless, having access to a nanoforge at all is a step up as far as starship construction goes.",
+   "ctx": "data/campaign/special_items.csv corrupted_nanoforge [desc]"
+  },
+  {
+   "i": 62,
+   "en": "A powerful and versatile manufacturing \"black box\", capable of building itself out to an industrial scale, given the necessary raw materials and human assistance.\r\n\r\nThis one is good as new, at least according to its on-board diagnostics. In practice, getting defect-free starship components is still a challenge given the overall state of manufacturing in the Sector, but this nanoforge is as good as it gets.",
+   "ctx": "data/campaign/special_items.csv pristine_nanoforge [desc]"
+  },
+  {
+   "i": 63,
+   "en": "A specialized nanoforge, loaded with firmware and seed nano-tech to build itself out into a Synchrotron that allows industrial-scale antimatter production.",
+   "ctx": "data/campaign/special_items.csv synchrotron [desc]"
+  },
+  {
+   "i": 64,
+   "en": "A miniaturized, variable-output fusion reactor capable of providing ample light and heat to a planet.\r\n\r\nSafe operation requires prodigious quantities of volatiles. If the demand is not met, the reactor suffers from potentially hazardous instability, which may lead to an uncontrolled surge in output. Litigation over whether this device is of inherently unsafe design or simply used unsafely were ongoing in Domain courts at the time of the Collapse.",
+   "ctx": "data/campaign/special_items.csv orbital_fusion_lamp [desc]"
+  },
+  {
+   "i": 65,
+   "en": "A miniaturized wormhole interface which can be activated to tap into a nearby coronal hypershunt, providing a colony with virtually unlimited power.\r\n\r\nOperation requires industrial quantities of transplutonics, which are at first used to open the wormhole, and then - once the power drawn becomes self-sustaining - is consumed in a complicated ablative process which maintains wormhole stability. Any interruption in supply requires a full shutdown of the tap.",
+   "ctx": "data/campaign/special_items.csv coronal_portal [desc]"
+  },
+  {
+   "i": 66,
+   "en": "While it is believed there are no functional control override units remaining in the Sector, the bore itself is capable of independent - if sometimes unpredictable - operation. Automatic-mode failsafes preclude its use on habitable worlds.",
+   "ctx": "data/campaign/special_items.csv mantle_bore [desc]"
+  },
+  {
+   "i": 67,
+   "en": "Vastly improves the effectiveness of refining operations by way of a surprising quirk of osmosis physics. Operation requires access to vacuum on a scale difficult to achieve on planets with significant atmospheric pressure.",
+   "ctx": "data/campaign/special_items.csv catalytic_core [desc]"
+  },
+  {
+   "i": 68,
+   "en": "Enables soil enrichment and recovery at a rate far beyond that at which unaided natural processes perform. Domain Nanite Safety Regulation 4324, subsection 81 prohibits use on worlds with transplutonic ore or volatiles deposits, and unfortunately the built-in failsafe appears to be functional.",
+   "ctx": "data/campaign/special_items.csv soil_nanites [desc]"
+  },
+  {
+   "i": 69,
+   "en": "A dizzying array of consumer goods can be grown rather than manufactured. The fully-extruded biofactory only thrives in the delicate balance of sunlight, soil nutrients, and atmospheric conditions a habitable world can provide. Attempts to mimic these conditions in artificial environments always fail, causing the factory to sicken, presumably due to a genetically encoded failsafe.",
+   "ctx": "data/campaign/special_items.csv biofactory_embryo [desc]"
+  },
+  {
+   "i": 70,
+   "en": "An ultra-strong carbon nanomesh cable that is key to the construction of a space elevator. Greatly improves the efficiency of logistics between the surface of a planet and low orbit.",
+   "ctx": "data/campaign/special_items.csv fullerene_spool [desc]"
+  },
+  {
+   "i": 71,
+   "en": "The superconductor-flanged centerpiece of an industrial system which creates a planetary-scale plasma net that enables efficient, spectacular extraction of volatiles from the atmosphere of a suitable gas giant.",
+   "ctx": "data/campaign/special_items.csv plasma_dynamo [desc]"
+  },
+  {
+   "i": 72,
+   "en": "A quantum computer that violates the second law of thermodynamics by getting colder instead of hotter while performing computations.\r\n\r\nA massive, planet-wide network of tendrils - ending in heatsinks - extrudes itself, using heat to fuel growth and continued computation. The hotter the planet surface, the more effective the computation engine. The unrivaled processing capacity is a boon to logistical and strategic planning.",
+   "ctx": "data/campaign/special_items.csv cryoarithmetic_engine [desc]"
+  },
+  {
+   "i": 73,
+   "en": "Mass-produces a number of drone variants, all suited to various tasks related to planetary defense against raids and invasions, as well as local security actions.\r\n\r\nIts use was banned by the Domain many cycles prior to the Collapse, so it's surprising to find a working example in the Persean Sector.",
+   "ctx": "data/campaign/special_items.csv drone_replicator [desc]"
+  },
+  {
+   "i": 74,
+   "en": "Generates an interactive environment designed to stimulate negotiations with prospective business partners. Additionally, the self-adapting microemotion smart sensor systems built into such high-end VR suites  allow real-time tracking of the veracity of expression, providing a technically ethical advantage in business dealings to the facility operator.  \r\n\r\nThe built-in marketing materials are keen to emphasize that this is not an AI, but merely a sophisticated weighted network in full compliance with the relevant Domain regulations.",
+   "ctx": "data/campaign/special_items.csv dealmaker_holosuite [desc]"
+  },
+  {
+   "i": 75,
+   "en": "Enables heavy industry to construct the more common ship hulls, weapons, and fighter LPCs from the \"low tech\" school of design.",
+   "ctx": "data/campaign/special_items.csv low_tech_package [desc]"
+  },
+  {
+   "i": 76,
+   "en": "Enables heavy industry to construct the more common ship hulls, weapons, and fighter LPCs from the \"midline\" school of design.",
+   "ctx": "data/campaign/special_items.csv midline_package [desc]"
+  },
+  {
+   "i": 77,
+   "en": "Enables heavy industry to construct the more common ship hulls, weapons, and fighter LPCs from the \"high tech\" school of design.",
+   "ctx": "data/campaign/special_items.csv high_tech_package [desc]"
+  },
+  {
+   "i": 78,
+   "en": "Enables heavy industry to construct a range of the more common missile weapons.",
+   "ctx": "data/campaign/special_items.csv missile_package [desc]"
+  },
+  {
+   "i": 79,
+   "en": "A collection of hacks, after-market modification specs, and partially successful attempts at corrupted blueprint recovery. Enables heavy industry to construct the low quality but combat-capable hulls more commonly used by pirates and other undesirables.",
+   "ctx": "data/campaign/special_items.csv pirate_package [desc]"
+  },
+  {
+   "i": 80,
+   "en": "A collection of hacks and after-market modification specs that enables heavy industry to construct the hulls more commonly used by members of the Luddic Path.",
+   "ctx": "data/campaign/special_items.csv LP_package [desc]"
+  },
+  {
+   "i": 81,
+   "en": "A collection of hacks and after-market modification specs that enables heavy industry to construct hulls bearing Luddic Church markings. Since the modifications are cosmetic in nature, the hulls produced are otherwise pristine.",
+   "ctx": "data/campaign/special_items.csv LC_package [desc]"
+  },
+  {
+   "i": 82,
+   "en": "A set of blueprints that enable heavy industry to produce the near-legendary hulls employed by the Hegemony-founding XIV Battlegroup. The continued existence - and location - of these blueprints is subject of many rumors.",
+   "ctx": "data/campaign/special_items.csv XIV_package [desc]"
+  },
+  {
+   "i": 83,
+   "en": "A collection of modified blueprints that bring several civilian craft up to mil-spec or simply add Hegemony markings. Created shortly after the Collapse, some of these blueprints improve hull performance without the increased incidence of d-mods associated with later blueprint hacking efforts.",
+   "ctx": "data/campaign/special_items.csv heg_aux_package [desc]"
+  },
+  {
+   "i": 84,
+   "en": "Enables heavy industry to construct ship hulls described by this blueprint.",
+   "ctx": "data/campaign/special_items.csv ship_bp [desc]"
+  },
+  {
+   "i": 85,
+   "en": "Enables heavy industry to construct ship weapons described by this blueprint.",
+   "ctx": "data/campaign/special_items.csv weapon_bp [desc]"
+  },
+  {
+   "i": 86,
+   "en": "Enables heavy industry to construct fighter LPCs described by this blueprint.",
+   "ctx": "data/campaign/special_items.csv fighter_bp [desc]"
+  },
+  {
+   "i": 87,
+   "en": "Contains the technological specifications needed to construct a planet-side industry or structure.",
+   "ctx": "data/campaign/special_items.csv industry_bp [desc]"
+  },
+  {
+   "i": 88,
+   "en": "This is the first generation Janus Device created by Elissa Zal based on the theories developed by Scylla Coureuse, among others.\r\n\r\nWhile integrated with a hyperdrive this device allows a hyperwave pulse tuned to the unique resonant signatures of two Gates to be transmitted into a Gate aperture. After a tremendous energy input which requires a great quantity of fuel to generate, a temporary link between those Gates is created. One ship or fleet may then transit the Gate network.",
+   "ctx": "data/campaign/special_items.csv janus [desc]"
+  },
+  {
+   "i": 89,
+   "en": "A specialized warhead capable of sundering a world. Operating principles are only dimly understood and are thought to involve utilizing the world's spin and some form of resonance.\r\n\r\nThis one is safed and requires authorization codes, possibly long-lost, to become anything more than a complicated, but completely inert piece of machinery.",
+   "ctx": "data/campaign/special_items.csv planetkiller [desc]"
+  },
+  {
+   "i": 90,
+   "en": "This secure TriPad contains a recent database which holds detailed scans and analyses of the hyperspace topography in the Persean Sector, organized according to traditional guidelines set by the Domain Explorarium. Data such as this is an essential element to successful expeditions outside the core worlds.",
+   "ctx": "data/campaign/special_items.csv topographic_data [desc]"
+  },
+  {
+   "i": 91,
+   "en": "Unfamiliar to the contemporary Persean Sector, this technology saw use by the Domain Explorarium during an era of greatness long past. Can be used to create a wormhole terminus at a stable location.\r\n\r\nInitial activation requires antimatter in the form of starship fuel. Requires at least one other active and synchronized terminus to use.",
+   "ctx": "data/campaign/special_items.csv wormhole_anchor [desc]"
+  },
+  {
+   "i": 92,
+   "en": "A Domain-era artifact which allows a fleet to navigate a natural wormhole, following its many twists, turns, and shifts through higher dimensions. A fleet entering a wormhole without a scanner would never be seen again, at least not as a coherent collection of baryonic matter.\r\n\r\nThe operating principles can only be dimly guessed at given the present state-of-the-art in the Persean Sector.",
+   "ctx": "data/campaign/special_items.csv wormhole_scanner [desc]"
+  },
+  {
+   "i": 93,
+   "en": "Unfamiliar technology which nonetheless shares design principles with ancient Domain engineering standards. Various self-modifying adapters accept energy and forge-stock input. There is no command interface. Attempts to interfere with workings provoke aggressive cannibalizing self-repair mechanisms; a major attempt to dismantle the unit would risk self-destruction.\r\n\r\nThis is clearly a fabricator, because when the inputs are fed, it produces Fragment units, each of which is formed of a unique arrangement of fractal components but which is functionally similar, with slight allowance for scale. Simple on an individual level, the fragments exhibit sophisticated emergent behavior in groups.",
+   "ctx": "data/campaign/special_items.csv fragment_fabricator [desc]"
+  },
+  {
+   "i": 94,
+   "en": "A basic, modular computational unit. These seem to be employed in large numbers to support the various functions of Threat vessels. Not fully understood, but clearly well below the threshold for being considered an artificial intelligence of any level.",
+   "ctx": "data/campaign/special_items.csv threat_processing_unit [desc]"
+  },
+  {
+   "i": 95,
+   "en": "Anomalous exotic matter held in semi-stable stasis using makeshift containment units. It is recommended to employ hazardous material handling protocols class 6, 7, 9, and 13. Cursory investigation suggests applications in energy projection.",
+   "ctx": "data/campaign/special_items.csv shrouded_substrate [desc]"
+  }
+ ]
+}

@@ -1,0 +1,1256 @@
+{
+ "chunk": 275,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"How about I take on some of your crew instead?\"\r",
+   "ctx": "dstr_aidOptions"
+  },
+  {
+   "i": 2,
+   "en": "\"I'm sorry, we don't have enough to spare right now.\"",
+   "ctx": "dstr_aidOptions"
+  },
+  {
+   "i": 3,
+   "en": "\"Certainly.\"\r",
+   "ctx": "dstr_takeCrewNotEnoughRoom"
+  },
+  {
+   "i": 4,
+   "en": "\"Ok, ok! You can have the fuel.\"\r",
+   "ctx": "dstr_denyTurnHostileSel"
+  },
+  {
+   "i": 5,
+   "en": "\"Give it your best shot, why don't you.\"",
+   "ctx": "dstr_denyTurnHostileSel"
+  },
+  {
+   "i": 6,
+   "en": "\"We'll be grateful for anything you can spare.\"\r",
+   "ctx": "dcall_aidOptions"
+  },
+  {
+   "i": 7,
+   "en": "\"It was a mistake - we don't actually need help.\"\r",
+   "ctx": "dcall_aidOptions"
+  },
+  {
+   "i": 8,
+   "en": "\"We didn't issue a distress call.\"",
+   "ctx": "dcall_aidOptions"
+  },
+  {
+   "i": 9,
+   "en": "Offer to pay [$distressPaymentC]\r",
+   "ctx": "dcall_paymentOptions"
+  },
+  {
+   "i": 10,
+   "en": "Thank $himOrHer profusely, but offer no payment",
+   "ctx": "dcall_paymentOptions"
+  },
+  {
+   "i": 11,
+   "en": "\"I could use a refresher on recent events.\"\r",
+   "ctx": "tut_mainContactBegin"
+  },
+  {
+   "i": 12,
+   "en": "\"Yeah, we all know the situation is less than ideal. Now, where do I fit in?\"",
+   "ctx": "tut_mainContactBegin"
+  },
+  {
+   "i": 13,
+   "en": "\"Alright - now, where do I fit in?\"",
+   "ctx": "tut_mainGetDataInfo1"
+  },
+  {
+   "i": 14,
+   "en": "\"Why me?\"\r",
+   "ctx": "tut_mainGetDataInfo2"
+  },
+  {
+   "i": 15,
+   "en": "\"What's in it for me?\"",
+   "ctx": "tut_mainGetDataInfo2"
+  },
+  {
+   "i": 16,
+   "en": "\"What's the plan?\"",
+   "ctx": "tut_mainGetDataWhyMe"
+  },
+  {
+   "i": 17,
+   "en": "\"And if they do notice me?\"",
+   "ctx": "tut_mainGetDataGoDark"
+  },
+  {
+   "i": 18,
+   "en": "\"Very well.\"",
+   "ctx": "tut_mainGetDataEBurn"
+  },
+  {
+   "i": 19,
+   "en": "\"Where is it, and why hasn't it been salvaged before?\"",
+   "ctx": "tut_mainContactProbe1"
+  },
+  {
+   "i": 20,
+   "en": "\"I'll see what I can do.\"",
+   "ctx": "tut_mainContactProbe3"
+  },
+  {
+   "i": 21,
+   "en": "\"And you've said their forces are significant?\"",
+   "ctx": "tut_mainContactCore1"
+  },
+  {
+   "i": 22,
+   "en": "\"What alternative is that?\"",
+   "ctx": "tut_mainContactCore2"
+  },
+  {
+   "i": 23,
+   "en": "\"Thank you. I'll return with the ships.\"",
+   "ctx": "tut_mainContactCore3"
+  },
+  {
+   "i": 24,
+   "en": "\"Speaking of weapons...\"",
+   "ctx": "tut_mainContactReturnShips"
+  },
+  {
+   "i": 25,
+   "en": "\"I take it you've got the stabilization algorithm, then?\"",
+   "ctx": "tut_mainContactReturnShips1"
+  },
+  {
+   "i": 26,
+   "en": "\"It's good to know you're already working on a Plan B.\"",
+   "ctx": "tut_mainContactReturnShips2"
+  },
+  {
+   "i": 27,
+   "en": "\"Copy that. I'll be back here when the job's done.\"",
+   "ctx": "tut_mainContactReturnShips3"
+  },
+  {
+   "i": 28,
+   "en": "\"Ok, I'll consider my options.\"",
+   "ctx": "tut_mainContactStabilized3"
+  },
+  {
+   "i": 29,
+   "en": "\"What do I do now?\"",
+   "ctx": "tut_janContactReport"
+  },
+  {
+   "i": 30,
+   "en": "\"Thanks, I'll think about it.\"",
+   "ctx": "tut_janContactReport3"
+  },
+  {
+   "i": 31,
+   "en": "Accept the connection request\r",
+   "ctx": "RACA_init"
+  },
+  {
+   "i": 32,
+   "en": "Order the AI core removed from power\r",
+   "ctx": "RACA_init"
+  },
+  {
+   "i": 33,
+   "en": "Leave the AI core in control and let things be",
+   "ctx": "RACA_init"
+  },
+  {
+   "i": 34,
+   "en": "Demand the AI disclose its physical location and allow itself to be disconnected\r",
+   "ctx": "RACA_answer"
+  },
+  {
+   "i": 35,
+   "en": "Ask why the core is no longer in the bunker\r",
+   "ctx": "RACA_answer"
+  },
+  {
+   "i": 36,
+   "en": "\"There's a certain amount of pressure on me to stop using AI technology.\"\r",
+   "ctx": "RACA_demand"
+  },
+  {
+   "i": 37,
+   "en": "Confirm the order\r",
+   "ctx": "RACA_force"
+  },
+  {
+   "i": 38,
+   "en": "Leave the AI core in control and let things be\r",
+   "ctx": "RACA_force"
+  },
+  {
+   "i": 39,
+   "en": "Remove the AI core [dev mode only]",
+   "ctx": "RACA_force"
+  },
+  {
+   "i": 40,
+   "en": "Construct a makeshift comm relay",
+   "ctx": "stable_buildRelayOpt"
+  },
+  {
+   "i": 41,
+   "en": "Construct a makeshift sensor array",
+   "ctx": "stable_buildArrayOpt"
+  },
+  {
+   "i": 42,
+   "en": "Construct a makeshift nav buoy",
+   "ctx": "stable_buildBuoyOpt"
+  },
+  {
+   "i": 43,
+   "en": "Deploy a wormhole anchor",
+   "ctx": "stable_deployWormholeOpt"
+  },
+  {
+   "i": 44,
+   "en": "Select wormhole anchor\r",
+   "ctx": "stabel_buildWormhole"
+  },
+  {
+   "i": 45,
+   "en": "Hack",
+   "ctx": "cob_hackOpt"
+  },
+  {
+   "i": 46,
+   "en": "Overload the array to emit a neutrino burst, uncovering nearby slipstreams",
+   "ctx": "cob_neutrinoBurstOpt"
+  },
+  {
+   "i": 47,
+   "en": "Introduce false readings into the data feed",
+   "ctx": "cob_resetOpt"
+  },
+  {
+   "i": 48,
+   "en": "Install a comm sniffer",
+   "ctx": "cob_snifferOpt"
+  },
+  {
+   "i": 49,
+   "en": "Break it for salvage",
+   "ctx": "cob_sabOpt"
+  },
+  {
+   "i": 50,
+   "en": "Take control of the $shortName",
+   "ctx": "cob_controlOpt"
+  },
+  {
+   "i": 51,
+   "en": "Claim the $shortName and bring it online",
+   "ctx": "cob_controlOpt2"
+  },
+  {
+   "i": 52,
+   "en": "Offer to pay for charts of local hyperspace and slipstream routes",
+   "ctx": "scavBuyHTDataOpt"
+  },
+  {
+   "i": 53,
+   "en": "Transfer the payment\r",
+   "ctx": "scavBuyHTDataSel1"
+  },
+  {
+   "i": 54,
+   "en": "Transfer the payment anyway\r",
+   "ctx": "scavBuyHTDataSel2"
+  },
+  {
+   "i": 55,
+   "en": "Transfer over $ttli_repaymentAmount to repay the loan",
+   "ctx": "ttli_payLoanOpt"
+  },
+  {
+   "i": 56,
+   "en": "Calmly explain that you're going to need more time to repay the loan",
+   "ctx": "ttli_extendLoanOpt"
+  },
+  {
+   "i": 57,
+   "en": "Tell $himOrHer that you're not going to pay back the credits you owe",
+   "ctx": "ttli_notPayingOpt"
+  },
+  {
+   "i": 58,
+   "en": "\"Sorry, wrong contact. I'll get back to you soon.\"",
+   "ctx": "ttli_neverMindOpt"
+  },
+  {
+   "i": 59,
+   "en": "View the recorded message",
+   "ctx": "ttli_noRepaymentNextMarketOpen"
+  },
+  {
+   "i": 60,
+   "en": "Place the Tri-Tachyon case into the shielded crate and send it off as soon as possible\r",
+   "ctx": "saic_openDialog"
+  },
+  {
+   "i": 61,
+   "en": "Take the AI core for yourself\r",
+   "ctx": "saic_openDialog"
+  },
+  {
+   "i": 62,
+   "en": "Loot the rest of the cache",
+   "ctx": "saic_giveCoreSel"
+  },
+  {
+   "i": 63,
+   "en": "Offload sufficient resources to repair the structure\r",
+   "ctx": "cTap_printEffect"
+  },
+  {
+   "i": 64,
+   "en": "Convince $himOrHer to extend the contract\r",
+   "ctx": "mercs_leavingOptions"
+  },
+  {
+   "i": 65,
+   "en": "Wish $himOrHer well in $hisOrHer future endeavors\r",
+   "ctx": "mercs_leavingOptions"
+  },
+  {
+   "i": 66,
+   "en": "Tell $himOrHer off for $hisOrHer disloyalty",
+   "ctx": "mercs_leavingOptions"
+  },
+  {
+   "i": 67,
+   "en": "Barter with $personName then consider the price\r",
+   "ctx": "psi_pilotGreeting"
+  },
+  {
+   "i": 68,
+   "en": "\"Forget it.\" Cut the comm-link",
+   "ctx": "psi_pilotGreeting"
+  },
+  {
+   "i": 69,
+   "en": "Barter with $personName, then consider the price\r",
+   "ctx": "psi_pilotGreetingTalkedTo"
+  },
+  {
+   "i": 70,
+   "en": "Pay $psi_credits for the location of the mysterious red planet\r",
+   "ctx": "psi_pilotBarter"
+  },
+  {
+   "i": 71,
+   "en": "Decline the offer",
+   "ctx": "psi_pilotBarter"
+  },
+  {
+   "i": 72,
+   "en": "Send a salvage team down to the facility\r",
+   "ctx": "psi_beatDefenders"
+  },
+  {
+   "i": 73,
+   "en": "Pick through the salvage",
+   "ctx": "psi_exploreFacility"
+  },
+  {
+   "i": 74,
+   "en": "Explore the ruins",
+   "ctx": "salRuins_scattered"
+  },
+  {
+   "i": 75,
+   "en": "\"Whoever tried this, what did they hope to accomplish?\"",
+   "ctx": "zig_exploreSabotage"
+  },
+  {
+   "i": 76,
+   "en": "Order the exploration to proceed",
+   "ctx": "zig_alphaContinueOpt2"
+  },
+  {
+   "i": 77,
+   "en": "Replay the recording\r",
+   "ctx": "zig_alphaSiteAlreadyExplored"
+  },
+  {
+   "i": 78,
+   "en": "\"What's going on?\"\r",
+   "ctx": "gaOpenDialogDuringTutorial"
+  },
+  {
+   "i": 79,
+   "en": "Thank the officer and sign off.",
+   "ctx": "gaOpenDialogDuringTutorial"
+  },
+  {
+   "i": 80,
+   "en": "\"Why, what did he do?\"",
+   "ctx": "gaDuringTutorialMoreInfo1"
+  },
+  {
+   "i": 81,
+   "en": "Just smile and nod\r",
+   "ctx": "gaMeetHegLieutenantOnCoatlSel"
+  },
+  {
+   "i": 82,
+   "en": "\"You're right. Totally irresponsible.\"\r",
+   "ctx": "gaMeetHegLieutenantOnCoatlSel"
+  },
+  {
+   "i": 83,
+   "en": "\"Maybe the risk was worth it.\"",
+   "ctx": "gaMeetHegLieutenantOnCoatlSel"
+  },
+  {
+   "i": 84,
+   "en": "Take a look around the bar",
+   "ctx": "gaMeetHegLtCoatl4"
+  },
+  {
+   "i": 85,
+   "en": "Request a meeting with the provost",
+   "ctx": "gaAddOptionMeetProvost"
+  },
+  {
+   "i": 86,
+   "en": "Ask about the Galatia Academy",
+   "ctx": "gaAddOptionInfodump"
+  },
+  {
+   "i": 87,
+   "en": "\"The new what?\"\r",
+   "ctx": "goToGA_barEvent"
+  },
+  {
+   "i": 88,
+   "en": "\"Oh, the Galatia Academy has a new chief executive?\"",
+   "ctx": "goToGA_barEvent"
+  },
+  {
+   "i": 89,
+   "en": "Raise a glass\r",
+   "ctx": "goToGA_barEvent1a"
+  },
+  {
+   "i": 90,
+   "en": "Set it down on the bar",
+   "ctx": "goToGA_barEvent1a"
+  },
+  {
+   "i": 91,
+   "en": "Return to the bar",
+   "ctx": "goToGA_barEvent4"
+  },
+  {
+   "i": 92,
+   "en": "Follow the junior academy agent",
+   "ctx": "gaRequestMeeting"
+  },
+  {
+   "i": 93,
+   "en": "Play it cool. Eyes forward.\r",
+   "ctx": "gaRequestMeeting2"
+  },
+  {
+   "i": 94,
+   "en": "Smile and wink at them. You're special and know it.",
+   "ctx": "gaRequestMeeting2"
+  },
+  {
+   "i": 95,
+   "en": "\"Knowledge is good for its own sake.\"\r",
+   "ctx": "gaRequestMeeting4noTutorial"
+  },
+  {
+   "i": 96,
+   "en": "\"Knowledge uplifts the human spirit.\"\r",
+   "ctx": "gaRequestMeeting4noTutorial"
+  },
+  {
+   "i": 97,
+   "en": "\"Knowledge can also be very profitable.\"\r",
+   "ctx": "gaRequestMeeting4noTutorial"
+  },
+  {
+   "i": 98,
+   "en": "\"Knowledge brings us closer to the Creator.\"\r",
+   "ctx": "gaRequestMeeting4noTutorial"
+  },
+  {
+   "i": 99,
+   "en": "\"I'm interested. What do you need done?\" (accept)\r",
+   "ctx": "gaRequestMeeting5a"
+  },
+  {
+   "i": 100,
+   "en": "\"Thanks, but I have other priorities right now.\" (decline)",
+   "ctx": "gaRequestMeeting5a"
+  },
+  {
+   "i": 101,
+   "en": "\"Actually, I really did want to create a scholarship.\"",
+   "ctx": "gaRequestMeeting5b"
+  },
+  {
+   "i": 102,
+   "en": "Ask about the stipend you're receiving",
+   "ctx": "gaRequestMeeting5c"
+  },
+  {
+   "i": 103,
+   "en": "Shut off comms",
+   "ctx": "bairdIntroGreeting"
+  },
+  {
+   "i": 104,
+   "en": "Take a shuttle to meet with Provost Baird",
+   "ctx": "gaBairdShuttleOption"
+  },
+  {
+   "i": 105,
+   "en": "Enter the inner office",
+   "ctx": "bairdIntro1"
+  },
+  {
+   "i": 106,
+   "en": "\"And what is this 'great work'?\"",
+   "ctx": "bairdIntro3"
+  },
+  {
+   "i": 107,
+   "en": "\"Tell me more.\"",
+   "ctx": "bairdIntroHubA1"
+  },
+  {
+   "i": 108,
+   "en": "Let her continue her speech",
+   "ctx": "bairdIntroHubA2"
+  },
+  {
+   "i": 109,
+   "en": "\"What do you need me for?\"",
+   "ctx": "bairdIntroHubB1"
+  },
+  {
+   "i": 110,
+   "en": "\"Point made. What do you need me for?\"",
+   "ctx": "bairdIntroHubB2"
+  },
+  {
+   "i": 111,
+   "en": "\"And why should I help you?\"",
+   "ctx": "bairdIntroHubC"
+  },
+  {
+   "i": 112,
+   "en": "\"I guess we'll just have to see.\"",
+   "ctx": "bairdIntroHubD"
+  },
+  {
+   "i": 113,
+   "en": "\"What do you need done?\"\r",
+   "ctx": "bairdIntroHubTellMeMore"
+  },
+  {
+   "i": 114,
+   "en": "\"I'm not willing to sacrifice all sense of morality for your 'future'.\"\r",
+   "ctx": "bairdIntroHubTellMeMore"
+  },
+  {
+   "i": 115,
+   "en": "\"I'm willing to do whatever it takes to safeguard the future.\"\r",
+   "ctx": "bairdIntroHubTellMeMore"
+  },
+  {
+   "i": 116,
+   "en": "\"And what if I don't want to help you?\"",
+   "ctx": "bairdIntroHubTellMeMore"
+  },
+  {
+   "i": 117,
+   "en": "\"How can I get the Kallichore Archive from the Hegemony?\"\r",
+   "ctx": "bairdIntro7"
+  },
+  {
+   "i": 118,
+   "en": "\"Do you have any leads on this Scylla Coureuse?\"",
+   "ctx": "bairdIntro7"
+  },
+  {
+   "i": 119,
+   "en": "\"Rayan Arroyo. Got it.\"\r",
+   "ctx": "bairdIntroArchive2"
+  },
+  {
+   "i": 120,
+   "en": "\"You want me to blackmail a Tri-Tachyon executive?\"\r",
+   "ctx": "bairdIntroArchive2"
+  },
+  {
+   "i": 121,
+   "en": "Take the diplomatic path\r",
+   "ctx": "bairdIntroScylla2"
+  },
+  {
+   "i": 122,
+   "en": "Take the exploration path",
+   "ctx": "bairdIntroScylla2"
+  },
+  {
+   "i": 123,
+   "en": "\"I'm sure it will.\"\r",
+   "ctx": "bairdIntroScylla3"
+  },
+  {
+   "i": 124,
+   "en": "\"Will I be blackmailing Coureuse for you?\"",
+   "ctx": "bairdIntroScylla3"
+  },
+  {
+   "i": 125,
+   "en": "How can I get the Kallichore Archive from the Hegemony?",
+   "ctx": "bairdIntro_archiveCheckOutro2"
+  },
+  {
+   "i": 126,
+   "en": "\"So that's all?\"\r",
+   "ctx": "bairdIntro_outro1"
+  },
+  {
+   "i": 127,
+   "en": "\"So what is 'the project'?\"",
+   "ctx": "bairdIntro_outro1"
+  },
+  {
+   "i": 128,
+   "en": "\"I'm told you can help me solve a problem.\"\r",
+   "ctx": "gaKAArroyoGreeting"
+  },
+  {
+   "i": 129,
+   "en": "\"Provost Anahita Baird.\"",
+   "ctx": "gaKAArroyoGreeting"
+  },
+  {
+   "i": 130,
+   "en": "Close comms",
+   "ctx": "gaKAArroyoGreetingIgnoreCall"
+  },
+  {
+   "i": 131,
+   "en": "Take a shuttle to Rayan Arroyo's chalet on the surface",
+   "ctx": "gaKAArroyoVisitOption"
+  },
+  {
+   "i": 132,
+   "en": "\"I need to break into the datavault of the Ministry of Technology Standards.\"\r",
+   "ctx": "gaKAArroyoVisit3"
+  },
+  {
+   "i": 133,
+   "en": "\"No small-talk? What about the tour?\"",
+   "ctx": "gaKAArroyoVisit3"
+  },
+  {
+   "i": 134,
+   "en": "\"I need to break into the datavault of the Ministry of Technology Standards.\"",
+   "ctx": "gaKAArroyoVisitTour"
+  },
+  {
+   "i": 135,
+   "en": "\"I'm serious, Arroyo.\"\r",
+   "ctx": "gaKAArroyoVisitBreakIn"
+  },
+  {
+   "i": 136,
+   "en": "Laugh with him",
+   "ctx": "gaKAArroyoVisitBreakIn"
+  },
+  {
+   "i": 137,
+   "en": "Decline\r",
+   "ctx": "gaKAArroyoVisitAMoment2"
+  },
+  {
+   "i": 138,
+   "en": "Have a drink",
+   "ctx": "gaKAArroyoVisitAMoment2"
+  },
+  {
+   "i": 139,
+   "en": "\"Can you tell me more about this 'Gargoyle'?\"",
+   "ctx": "gaKAArroyoVisitGargoyleOpt"
+  },
+  {
+   "i": 140,
+   "en": "\"What's Baird got on you anyway?\"",
+   "ctx": "gaKAArroyoVisitBairdWhatOpt"
+  },
+  {
+   "i": 141,
+   "en": "\"I have a job for you. I was told you're the best.\"",
+   "ctx": "gaKAGargoyleGreeting1"
+  },
+  {
+   "i": 142,
+   "en": "\"Yes, I believe so.\"\r",
+   "ctx": "gaKAGargoyleGreeting3"
+  },
+  {
+   "i": 143,
+   "en": "\"Not really.\"\r",
+   "ctx": "gaKAGargoyleGreeting3"
+  },
+  {
+   "i": 144,
+   "en": "\"Can you hack into the datavault of a Hegemony Ministry?\"",
+   "ctx": "gaKAGargoyleGreeting3"
+  },
+  {
+   "i": 145,
+   "en": "\"Hold on- just one, actually.\" (explain the mission)",
+   "ctx": "gaKAGargoyleCanYou"
+  },
+  {
+   "i": 146,
+   "en": "\"Do you need some time?\"\r",
+   "ctx": "gaKAGargoyleCont4"
+  },
+  {
+   "i": 147,
+   "en": "\"Can it even be done?\"",
+   "ctx": "gaKAGargoyleCont4"
+  },
+  {
+   "i": 148,
+   "en": "Take a shuttle to visit Gargoyle's storage unit",
+   "ctx": "gaKANewMaxiosOption"
+  },
+  {
+   "i": 149,
+   "en": "\"Who are all these people?\"\r",
+   "ctx": "gaKANewMaxiosVisit2"
+  },
+  {
+   "i": 150,
+   "en": "Install Gargoyle's hack device on the Aztlan Relay\r",
+   "ctx": "gaKA_relayObjectInteraction"
+  },
+  {
+   "i": 151,
+   "en": "\"Wait, who is after you?\"",
+   "ctx": "gaKAGargoyle2WhoIsAfterYou"
+  },
+  {
+   "i": 152,
+   "en": "\"Do you have the Kallichore Archive?\"",
+   "ctx": "gaKAGargoyle2DoYouHaveArchive"
+  },
+  {
+   "i": 153,
+   "en": "\"What if I just leave you here?\"",
+   "ctx": "gaKAGargoyle2WhatIfIJustLeaveYou"
+  },
+  {
+   "i": 154,
+   "en": "Order a shuttle to pick up Gargoyle",
+   "ctx": "gaKAGargoyle2OrderAShuttle"
+  },
+  {
+   "i": 155,
+   "en": "\"These are exceptional inspection terms. Do you have a warrant?\"\r",
+   "ctx": "gaKAPatrol1"
+  },
+  {
+   "i": 156,
+   "en": "\"I do not accept those terms, $rank.\"\r",
+   "ctx": "gaKAPatrol1"
+  },
+  {
+   "i": 157,
+   "en": "Weasel your way out of this with an extravagant lie\r",
+   "ctx": "gaKAPatrol1"
+  },
+  {
+   "i": 158,
+   "en": "You don't have time for this, cut the comms\r",
+   "ctx": "gaKAPatrol1"
+  },
+  {
+   "i": 159,
+   "en": "Power up weapons",
+   "ctx": "gaKAPatrol1"
+  },
+  {
+   "i": 160,
+   "en": "\"I must insist upon a legal warrant.\"\r",
+   "ctx": "gaKAPatrolWarrant"
+  },
+  {
+   "i": 161,
+   "en": "\"Admiral Orcus Rao, Ragnar fleet command.\"",
+   "ctx": "gaKAPatrolLie2"
+  },
+  {
+   "i": 162,
+   "en": "\"Good hunting. $SirOrMadam.\"",
+   "ctx": "gaKAPatrolLie4"
+  },
+  {
+   "i": 163,
+   "en": "\"What will you do if the Hegemony suspects you're behind the hack?\"",
+   "ctx": "GAKABairdHubA"
+  },
+  {
+   "i": 164,
+   "en": "\"So what do you think of Gargoyle?\"",
+   "ctx": "GAKABairdHubB"
+  },
+  {
+   "i": 165,
+   "en": "\"Not really. The pay is good.\"\r",
+   "ctx": "gaKAReturnToAcademy10b"
+  },
+  {
+   "i": 166,
+   "en": "Say nothing. You won't fall for this again.",
+   "ctx": "gaKAReturnToAcademy10b2"
+  },
+  {
+   "i": 167,
+   "en": "\"I want to talk about your intentions with this technology.\"\r",
+   "ctx": "gaKAReturnToAcademy13b"
+  },
+  {
+   "i": 168,
+   "en": "\"I found Gargoyle. There may be some expenses.\"",
+   "ctx": "GAKARayanArroyo_GET_HACK_HARDWARE"
+  },
+  {
+   "i": 169,
+   "en": "Tell Baird about Gargoyle's plan to hack a Hegemony relay",
+   "ctx": "GAKABairdGreeting_GET_HACK_HARDWARE"
+  },
+  {
+   "i": 170,
+   "en": "Tell Baird about the installation of the hack device",
+   "ctx": "GAKABairdGreeting_RETREIVE_ARCHIVE"
+  },
+  {
+   "i": 171,
+   "en": "\"Do you think Baird can be trusted?\"",
+   "ctx": "gaKACoureuseBairdOpt"
+  },
+  {
+   "i": 172,
+   "en": "\"Has Gargoyle been helpful?\"",
+   "ctx": "gaKACoureuseGargoyleOpt"
+  },
+  {
+   "i": 173,
+   "en": "\"Your friend Cavin doesn't seem like the type that would ever work for Baird.\"",
+   "ctx": "gaKACoureuseCavinOpt"
+  },
+  {
+   "i": 174,
+   "en": "\"Have you been in contact with Elissa Zal lately?\"",
+   "ctx": "gaKACoureuseZalOpt"
+  },
+  {
+   "i": 175,
+   "en": "\"The alternative?\"",
+   "ctx": "gaKACoureuseBairdOptSel"
+  },
+  {
+   "i": 176,
+   "en": "\"I was wondering if you shared his... views.\"\r",
+   "ctx": "gaKACoureuseAskAbtCavin1"
+  },
+  {
+   "i": 177,
+   "en": "\"He seems... unreliable. You were close, once.\"\r",
+   "ctx": "gaKACoureuseAskAbtCavin1"
+  },
+  {
+   "i": 178,
+   "en": "\"I apologize, it is not my business.\"",
+   "ctx": "gaKACoureuseAskAbtCavin1"
+  },
+  {
+   "i": 179,
+   "en": "\"I suppose not.\"\r",
+   "ctx": "gaKACoureuseAskAbtCavinA"
+  },
+  {
+   "i": 180,
+   "en": "\"That's a question, not an answer.\"",
+   "ctx": "gaKACoureuseAskAbtCavinA"
+  },
+  {
+   "i": 181,
+   "en": "Ask what's going on\r",
+   "ctx": "GAKA_TTStart"
+  },
+  {
+   "i": 182,
+   "en": "Follow the Tri-Tachyon agent",
+   "ctx": "GAKA_TTStart"
+  },
+  {
+   "i": 183,
+   "en": "Follow the agent\r",
+   "ctx": "gaKA_ttAskSel"
+  },
+  {
+   "i": 184,
+   "en": "\"No, thank you. I was just leaving.\"",
+   "ctx": "gaKA_ttAskSel"
+  },
+  {
+   "i": 185,
+   "en": "\"What business might that be?\"\r",
+   "ctx": "gaKA_ttFollowSel"
+  },
+  {
+   "i": 186,
+   "en": "\"I don't appreciate being spied on.\"",
+   "ctx": "gaKA_ttFollowSel"
+  },
+  {
+   "i": 187,
+   "en": "\"Are you making me an offer?\"\r",
+   "ctx": "gaKA_ttBusinessSel"
+  },
+  {
+   "i": 188,
+   "en": "\"I don't appreciate being spied on.\"\r",
+   "ctx": "gaKA_ttBusinessSel"
+  },
+  {
+   "i": 189,
+   "en": "\"Point taken. Thanks for the drink.\" (leave)",
+   "ctx": "gaKA_ttBusinessSel"
+  },
+  {
+   "i": 190,
+   "en": "\"Is this about Baird and the Galatia Academy? Or Gargoyle? Arroyo maybe?\"\r",
+   "ctx": "gaKA_ttAppreciateSel"
+  },
+  {
+   "i": 191,
+   "en": "\"I'm sure I didn't see anything, officer.\"",
+   "ctx": "gaKA_hegDidntSeeOpt"
+  },
+  {
+   "i": 192,
+   "en": "\"You got me. I hacked the Aztlan Relay.\"",
+   "ctx": "gaKA_hegHackedOpt"
+  },
+  {
+   "i": 193,
+   "en": "\"Patriotism, huh. What's with the goon squad?\"",
+   "ctx": "gaKA_hegGoonsOpt"
+  },
+  {
+   "i": 194,
+   "en": "\"What's with the goon squad?\"",
+   "ctx": "gaKA_hegGoonsOpt2"
+  },
+  {
+   "i": 195,
+   "en": "\"Sounds like Tri-Tachyon beat you again.\"",
+   "ctx": "gaKA_hegTriTachOpt"
+  },
+  {
+   "i": 196,
+   "en": "\"Am I under arrest, or can I go?\"",
+   "ctx": "gaKA_hegArrestOpt"
+  },
+  {
+   "i": 197,
+   "en": "\"Sorry about that.\"\r",
+   "ctx": "gaKA_hegTriTachSel"
+  },
+  {
+   "i": 198,
+   "en": "Tell Baird you want to change your approach to the Coureuse mission",
+   "ctx": "GAFCBairdGreeting_INVESTIGATE_FIKENHILD"
+  },
+  {
+   "i": 199,
+   "en": "\"I'd like to take the exploration path.\"\r",
+   "ctx": "GAFCBairdSwitchToProbes"
+  },
+  {
+   "i": 200,
+   "en": "\"Never mind.\"\r",
+   "ctx": "GAFCBairdSwitchToProbes"
+  },
+  {
+   "i": 201,
+   "en": "\"I'd like to take the diplomatic path.\"\r",
+   "ctx": "GAFCBairdSwitchToFikenhild"
+  },
+  {
+   "i": 202,
+   "en": "Shuttle to the surface to pursue the list of Coureuse associates",
+   "ctx": "gaFCFikenhildOption"
+  },
+  {
+   "i": 203,
+   "en": "Visit Adonya Coureuse in the overcity",
+   "ctx": "gaFCFikenhildHubOption1"
+  },
+  {
+   "i": 204,
+   "en": "Visit Bione Lata in the exurbs",
+   "ctx": "gaFCFikenhildHubOption2"
+  },
+  {
+   "i": 205,
+   "en": "Visit Cavin Pharoh in the undercity",
+   "ctx": "gaFCFikenhildHubOption3"
+  },
+  {
+   "i": 206,
+   "en": "\"I'm looking for someone by the name of Scylla Coureuse.\"",
+   "ctx": "gaFCFikenhildBotherAdministrator"
+  },
+  {
+   "i": 207,
+   "en": "\"I am a demarch of the Persean League, $post, not some random 'operator'.\"",
+   "ctx": "gaFCFikenhildBotherVIPoptA1"
+  },
+  {
+   "i": 208,
+   "en": "\"I bear a commission of the Persean League, $post. I'm not some random 'operator'.\"",
+   "ctx": "gaFCFikenhildBotherVIPoptB1"
+  },
+  {
+   "i": 209,
+   "en": "\"I am a demarch of the Persean League and would appreciate some cooperation.\"",
+   "ctx": "gaFCFikenhildBotherVIPoptA2"
+  },
+  {
+   "i": 210,
+   "en": "\"I bear a commission of the Persean League. I believe that falls under 'military'.\"",
+   "ctx": "gaFCFikenhildBotherVIPoptB2"
+  },
+  {
+   "i": 211,
+   "en": "\"I understand your position and won't trouble you further.\"",
+   "ctx": "gaFCFikenhildBotherVIPoptC"
+  },
+  {
+   "i": 212,
+   "en": "\"You don't sound very delighted, $post.\"",
+   "ctx": "gaFCFikenhildBotherVIPoptD"
+  },
+  {
+   "i": 213,
+   "en": "\"Unless?\"",
+   "ctx": "gaFCfikenhildBotherVIPoptAsel2"
+  },
+  {
+   "i": 214,
+   "en": "\"Yes.\" (lie)\r",
+   "ctx": "gaFCFikenhildBotherVIPoptA3"
+  },
+  {
+   "i": 215,
+   "en": "\"Not quite so important as that. Thank you.\"",
+   "ctx": "gaFCFikenhildBotherVIPoptA3"
+  },
+  {
+   "i": 216,
+   "en": "\"I'm looking for Scylla Coureuse.\"",
+   "ctx": "gaFCFikenhildBotherPM"
+  },
+  {
+   "i": 217,
+   "en": "\"Coureuse is a person. An academician of the Galatia Academy. Or she was.\"",
+   "ctx": "gaFCFikenhildBotherPM2"
+  },
+  {
+   "i": 218,
+   "en": "\"Coureuse. But never mind, thank you.\"\r",
+   "ctx": "gaFCFikenhildBotherPM3"
+  },
+  {
+   "i": 219,
+   "en": "\"... Have you seen the name Coureuse? Or heard of her?\"",
+   "ctx": "gaFCFikenhildBotherQM2"
+  },
+  {
+   "i": 220,
+   "en": "\"Thank you for your time.\"\r",
+   "ctx": "gaFCFikenhildBotherQM3"
+  },
+  {
+   "i": 221,
+   "en": "\"Thanks. You've been very helpful.\" (sarcastic)\r",
+   "ctx": "gaFCFikenhildBotherQM3"
+  },
+  {
+   "i": 222,
+   "en": "Make your excuses and return to the bar\r",
+   "ctx": "gaFCAskAroundFikenhildBar1"
+  },
+  {
+   "i": 223,
+   "en": "\"A secret AI masterminding an invasion of the core worlds?\"",
+   "ctx": "gaFCAskAroundFikenhildBar1"
+  },
+  {
+   "i": 224,
+   "en": "\"Ludd and the AIs were working together?\"",
+   "ctx": "gaFCAskAroundFikenhildBar2"
+  },
+  {
+   "i": 225,
+   "en": "\"Our leaders are actually robots?\"",
+   "ctx": "gaFCAskAroundFikenhildBar3"
+  },
+  {
+   "i": 226,
+   "en": "Order another round for the spacer",
+   "ctx": "gaFCAskAroundFikenhildBar4"
+  },
+  {
+   "i": 227,
+   "en": "\"Who was it that was asking about Scylla before me?\"\r",
+   "ctx": "gaFCFikenhildAdonya3"
+  },
+  {
+   "i": 228,
+   "en": "\"Do you know where I can find Scylla?\"\r",
+   "ctx": "gaFCFikenhildAdonya3"
+  },
+  {
+   "i": 229,
+   "en": "Just make sure you're seen by any observers",
+   "ctx": "gaFCFikenhildAdonya3"
+  },
+  {
+   "i": 230,
+   "en": "Time to leave",
+   "ctx": "gaFCFikenhildAdonyaA"
+  },
+  {
+   "i": 231,
+   "en": "\"Who is Elissa?\"",
+   "ctx": "gaFCFikenhildAdonyaB"
+  },
+  {
+   "i": 232,
+   "en": "\"Do you have a comms id for Elissa Zal?\"",
+   "ctx": "gaFCFikenhildAdonyaB2"
+  },
+  {
+   "i": 233,
+   "en": "Return to the transport hub",
+   "ctx": "gaFCFikenhildAdonyaLeave"
+  },
+  {
+   "i": 234,
+   "en": "\"Can you tell me about Scylla herself?\"",
+   "ctx": "GAFCQuestionBioneAgentName1"
+  },
+  {
+   "i": 235,
+   "en": "\"Who exactly came by before and questioned you?\"",
+   "ctx": "GAFCQuestionBioneAgentName2"
+  },
+  {
+   "i": 236,
+   "en": "\"Tell me about this 'Agent Finlay' who spoke with you.\"",
+   "ctx": "GAFCQuestionBioneAgentName3"
+  },
+  {
+   "i": 237,
+   "en": "Make a noncommittal motion, possibly a nod",
+   "ctx": "gaFCFikenhildBioneB"
+  },
+  {
+   "i": 238,
+   "en": "See what she wants",
+   "ctx": "gaFCFikenhildBioneD"
+  },
+  {
+   "i": 239,
+   "en": "Go back to the transport hub",
+   "ctx": "gaFCFikenhildBioneLeave"
+  },
+  {
+   "i": 240,
+   "en": "Knock on the door",
+   "ctx": "gaFCFikenhildCavinKnock2"
+  },
+  {
+   "i": 241,
+   "en": "\"Agent Finlay Siyavong, right?\"",
+   "ctx": "gaFCCavinInterruptOptions1"
+  },
+  {
+   "i": 242,
+   "en": "\"About time you noticed.\"",
+   "ctx": "gaFCCavinInterruptOptions2"
+  },
+  {
+   "i": 243,
+   "en": "\"You don't sound like Cavin Pharoh.\"",
+   "ctx": "gaFCCavinInterruptOptions3"
+  },
+  {
+   "i": 244,
+   "en": "Leave - you got what you need\r",
+   "ctx": "gaFCFikenhildSiyavongInterruptEnd"
+  },
+  {
+   "i": 245,
+   "en": "Knock on the door anyway",
+   "ctx": "gaFCFikenhildSiyavongInterruptEnd"
+  },
+  {
+   "i": 246,
+   "en": "\"I assume you're Cavin Pharoh?\"",
+   "ctx": "gaFCFikenhildCavinKnock"
+  },
+  {
+   "i": 247,
+   "en": "\"Who else was asking questions about Coureuse?\"",
+   "ctx": "gaFCFikenhildCavinHubResponse1"
+  },
+  {
+   "i": 248,
+   "en": "\"I want to help Scylla. Do you know where she is?\"",
+   "ctx": "gaFCFikenhildCavinHubResponse2"
+  },
+  {
+   "i": 249,
+   "en": "\"You know that the Fleet intel spies have your commsplate hacked, right?\"",
+   "ctx": "gaFCFikenhildCavinHubResponse3"
+  },
+  {
+   "i": 250,
+   "en": "\"I was told Elissa could help me find Scylla. Know where she is?\" (lie)",
+   "ctx": "gaFCFikenhildCavinHubResponse4"
+  }
+ ]
+}

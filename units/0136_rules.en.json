@@ -1,0 +1,171 @@
+{
+ "chunk": 136,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "He raises a skeptical eyebrow at you, but nods, hands clasped.\r\n\r\n\"I'd like nothing more, captain. Truly.\"",
+   "ctx": "data/campaign/rules.csv BFFIpsaConHubBlastCb [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"In truth, it is not,\" he says. \"I shan't ask the impossible.\" \r\n\r\nHe clasps his hands together. \"I trust you will achieve what you must, how you must.\"",
+   "ctx": "data/campaign/rules.csv BFFIpsaConHubBlastCb-bb [text]"
+  },
+  {
+   "i": 3,
+   "en": "He raises a skeptical eyebrow at you, but nods, hands clasped.",
+   "ctx": "data/campaign/rules.csv BFFIpsaConHubBlastCc [text]"
+  },
+  {
+   "i": 4,
+   "en": "Bornanew lowers his head for just a moment, mumbling a short prayer to himself, then leaves the bridge to you and your officers.",
+   "ctx": "data/campaign/rules.csv BFFIpsaConHubOptEResp [text]"
+  },
+  {
+   "i": 5,
+   "en": "Bornanew is conscious, you are told. You chief medical officer warns you against unnecessary stress; the healing process is fragile.",
+   "ctx": "data/campaign/rules.csv BFFIpsApproachBornMedbay [text]"
+  },
+  {
+   "i": 6,
+   "en": "You decide to let Bornanew rest. You've got this.\r\n\r\nAll you need to do is beg, trick, or force the Pathers to reveal the source of their scan of the original glove. That glove has somehow remained, presumably untouched, in the vault of the Holy Cathedral of Exodus back on Tartessus this whole time.\r\n\r\nPathers are not known for keeping good digital records, but to nanoforge a copy of the glove, they would have had to. There may be metadata still in the computer systems connected to the nanoforge.\r\n\r\nOr someone who simply knows the answers which you seek.",
+   "ctx": "data/campaign/rules.csv BFFIpsApproachYourself [text]"
+  },
+  {
+   "i": 7,
+   "en": "The attending medtech gives you a stern look as you step into the medbay despite the fact that you are the captain of the $shipOrFleet.\r\n\r\nBornanew's face is pale and bloated. His abdomen is covered in bandages and trailing tubes connected to a suite of murmuring autodocs.\r\n\r\n\"$playerFirstName,\" he says. \"I appear to live.\" He takes a breath. \"And to you I owe thanks. Captain, I mean. Apologies.\"",
+   "ctx": "data/campaign/rules.csv BFFIstationMedConsultStart [text]"
+  },
+  {
+   "i": 8,
+   "en": "It looks like he tries to shrug, and fails.\r\n\r\n\"It was... it was...\" he trails off, and closes his eyes. \"I was terrified, captain. A coward. And yet, what else could be done?\"\r\n\r\nHe opens his eyes. \"It may be that is enough for a Knight.\" He shifts slightly, under the bandages and tubes. \"The machines, drugs. They take the pain away. It still hurts.\"",
+   "ctx": "data/campaign/rules.csv BFFIstationMedConPain [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"I have,\" he says. \"And shall again, 'til they tire of it.\"",
+   "ctx": "data/campaign/rules.csv BFFIstationMedConThank [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"Ah. Then Ulmus told us true.\" A flicker of a smile crosses Bornanew's face.\r\n\r\n\"We must... destroy the nanoforge. And find out who the mole is, in the cathedral. Tartessus.\" He closes his eyes and takes a slow breath.",
+   "ctx": "data/campaign/rules.csv BFFIstationMedConWhatDo1 [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"They are... as human and fallible as any of us. To convince them, would be a miracle.\" He looks at you skeptically.\r\n\r\n\"If... that fails. Acquire hard data. The scan of the original glove, the metadata may tell us. Comms buffers. Archives. All useful.\" He looks at you, \"I have a list of suspects. A mole in the Holy Cathedral of Exodus. Need evidence. Who to... put to inquisition.\" \r\n\r\nDefensive, he adds, \"The rumors... slander. Mostly.\" His eyes are closed, his breathing shallow. \"And... destroy the forge. Must be destroyed.\"",
+   "ctx": "data/campaign/rules.csv BFFIstationMedConIntendA [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"The Pathers' reputation... they are as human as any. Not all heretical zealots. Fallible, fearful.\" He looks at you skeptically.\r\n\r\n\"I have a list of suspects. A mole in the Holy Cathedral of Exodus. Need evidence. Who to... put to inquisition. Acquire hard data. The scan of the original glove, the metadata may tell us. Comms buffers. Archives. All useful.\" \r\n\r\nHe looks at you. \"Inquisition... the rumors. Slander. Mostly.\" His eyes are closed, his breathing shallow. \"And... destroy the forge. Must be destroyed.\"",
+   "ctx": "data/campaign/rules.csv BFFIstationMedConIntendB [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"No!\" He speaks a little too forcefully; a blinking light turns yellow.\r\n\r\n\"Risky... need acquire hard data. Scan of the original glove, the metadata. Comms buffers. Archives.\" He takes a deep breath then looks at you, \"I have a list of suspects. A mole in the Holy Cathedral of Exodus. Need evidence. Who to... put to inquisition.\" \r\n\r\nHe pauses, then says, \"Inquisitors. The rumors... slander. Mostly.\" His eyes are closed, his breathing shallow. \"And... destroy the forge. Must be destroyed.\"",
+   "ctx": "data/campaign/rules.csv BFFIstationMedConIntendC [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"$PlayerSirOrMadam.\" Your chief medical officer appears behind you. \"The patient needs rest. I must insist.\"",
+   "ctx": "data/campaign/rules.csv BFFIstationMedConOutro1 [text]"
+  },
+  {
+   "i": 15,
+   "en": "Your med chief's face is crossed by a network of fine wrinkles, evidence of many cycles of service. They say nothing, but turn their head at a small and precise angle.\r\n\r\nBornanew's breathing is slow, regular. His eyes closed. Unconscious.",
+   "ctx": "data/campaign/rules.csv BFFIstationMedConOutro2a [text]"
+  },
+  {
+   "i": 16,
+   "en": "The expression on your med chief's face doesn't change, but the network of fine wrinkles tells of sufficient cycles of service such that they will stand firm against your overstep of authority.\r\n\r\n\"Nonetheless,\" your chief medical officer says, turning their head a small and precise angle.\r\n\r\nBornanew's breathing is slow, regular. His eyes closed. Unconscious.",
+   "ctx": "data/campaign/rules.csv BFFIstationMedConOutro2b [text]"
+  },
+  {
+   "i": 17,
+   "en": "You leave Bornanew to the stern care of your chief medical officer.",
+   "ctx": "data/campaign/rules.csv BFFIstationMedConsultOut [text]"
+  },
+  {
+   "i": 18,
+   "en": "Your comms request is denied with a burst of obsolete EW malware.",
+   "ctx": "data/campaign/rules.csv BFFIpatherStationTalkIgnore [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"A Mammonite's lie, I expect.\" $HisOrHer faces twists with contempt. \"Look at you, spacer, so far from the light of the Path.\"",
+   "ctx": "data/campaign/rules.csv BFFIstationBuyer1 [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"Questions?\" $HeOrShe smirks, eyes scanning some intel report. \"What questions might a Molochian have? How to more completely suborn the human soul? How to extract ever increasing lucre from sin?\"",
+   "ctx": "data/campaign/rules.csv BFFIstationConfront1 [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"A walker, so you claim. Aye, you are known to us. A minion of the so-called 'Church' which is naught but a shadow of the domain wearing a mask of twisted piety.\"\r\n\r\n$HeOrShe almost looks pitying. \"Are you so far gone, so blind to the light, that you cannot see it?\"",
+   "ctx": "data/campaign/rules.csv BFFIstationConcerns1 [text]"
+  },
+  {
+   "i": 22,
+   "en": "The Pather's face twists with anger. \"Then burn with the rest, Molochian!\" $HeOrShe disappears in a haze of compression artifacts.\r\n\r\nThe link plays a crackling buzz of a suppressed electronic warfare signal for a moment before your comms officer, considerately, shuts it off for you.",
+   "ctx": "data/campaign/rules.csv BFFIstationTalkOutA [text]"
+  },
+  {
+   "i": 23,
+   "en": "The Pather's face twists with anger.  \"Then burn with the rest, Molochian!\" $heOrShe says, then disappears in a haze of compression artifacts.\r\n\r\nThe link plays a crackling buzz of a suppressed electronic warfare signal for a moment before your comms officer, considerately, shuts it off for you.",
+   "ctx": "data/campaign/rules.csv BFFIstationTalkOutB [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"Question me not!\" True anger flashes across $hisOrHer eyes. \"What know you of verity? You are blind to God, blind to the Word, you worship only credits and power. This I see full well!\" \r\n\r\n\"Would you have me submit to the creeping decay of the Church's heresy? Submit to the Knight-Inquisitors that I might be tortured into false confession?\"\r\n\r\n$HeOrShe pauses, breathing heavily for a moment, then more quietly says, \"I was not made for such skulduggery. It is a Mammonite's trade.\" The words come more softly now. \"Will you now fight or no? Better to die a martyr than a hypocrite.\"",
+   "ctx": "data/campaign/rules.csv BFFIstationTalk1honesty [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"So you accuse me of sin, Molochian?\" Anger flashes across $hisOrHer eyes. \"What choice have I? Submit to the creeping decay of the Church's heresy? Submit to the Knight-Inquisitors that I be tortured into false confession?\"\r\n\r\n\"Question not my piety, nor devotion. Give me arms, or none, and I shall face you or your brutes of the so-called Knights of Ludd to the end of my blood!\"\r\n\r\n$HeOrShe pauses a moment, almost overcome, to breathe heavily.\r\n\r\n\"I was not made for such skulduggery.\" The words come softly now. \"It is a Mammonite's trade. But what choice is given?\" $HeOrShe glares at you. \"Will you make me a martyr now, or no?\"",
+   "ctx": "data/campaign/rules.csv BFFIstationTalk1sin [text]"
+  },
+  {
+   "i": 26,
+   "en": "True anger flashes through  $hisOrHer eyes. \"What choice have I? Shall I submit to the creeping decay of the Church's heresy? Submit to the Knight-Inquisitors that I might be tortured into false confession? It is they who slowly tear apart the Faith, not I! It is they who scorn the Word, not I!\"\r\n\r\n\"Question not my piety, nor my devotion! Give me arms, or none, and I shall face you and your brutes of the so-called Knights of Ludd to the end of my blood!\" $HeOrShe pauses a moment, almost overcome, to breathe heavily. \"I was not made for such skulduggery.\" The words come more softly now. \"It is a Mammonite's trade. But what choice is given? Will you make me a martyr now, or no?\"",
+   "ctx": "data/campaign/rules.csv BFFIstationTalk1blind [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"So you have,\" $heOrShe admits. \"I had thought that not possible - and assured it was not by Brother Sedge.\"\r\n\r\nThe Pather looks away. \"That man would have told me anything to get his way, I think. And if somehow I didn't agree... I give thanks that it did not come to that.\"",
+   "ctx": "data/campaign/rules.csv BFFIstationTalk2tracked [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"We're all given our place,\" $heOrShe says, both annoyed and discouraged. \"The Path is not easy, nor does it provide comfort. For that, we were given the Word.\"\r\n\r\n$HisOrHer eyes are searching, $hisOrHer devotion to this aspect of the cause obviously wavering. \"Sedge was strong, and many followed him. Besides, he was backed by-\" $HeOrShe catches $himOrHerself. \"Backed by a better Walker by far, blessed be his Path.\"\r\n\r\n\"Well, it's done now, isn't it? That scheme is dead, and you bring here the technology of death.\"",
+   "ctx": "data/campaign/rules.csv BFFIstationTalk2fight [text]"
+  },
+  {
+   "i": 29,
+   "en": "$HisOrHer eyes narrow. \"It doesn't matter now; I hear he was murdered, shot in the back by some spacer mercenary who is more machine than flesh.\"\r\n\r\n\"Merciful Providence forgive me,\" $hisOrHer tone softens slightly, \"for to speak ill of the dead, and a martyr to our cause at that, but. The man was a beast and I am better pleased to find him on the other side of the infinite.\" ",
+   "ctx": "data/campaign/rules.csv BFFIstationTalk2sedge [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"Mind, do hide your forked tongue.\" The Pather has a mean smile. \"I see your obvious ploy, to turn me from the Path. But as is said by teachers wiser than I, 'the devil will lie by the truth itself'.\" $HeOrShe makes a show of looking you over through the comms.\r\n\r\n\"Nonetheless. I do find myself free of his... customs of leadership.\"",
+   "ctx": "data/campaign/rules.csv BFFIstationTalk2sedgeA [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"Hah!\" The Pather has a mean smile. \"An obvious boast, typical of a Molochian.\" $HeOrShe makes a show of looking at you through the comms, \"You couldn't have taken Sedge. He was a greater warrior than you or I, by far.\"\r\n\r\n\"Nonetheless, I weep not to be free of his... leadership.\"",
+   "ctx": "data/campaign/rules.csv BFFIstationTalk2sedgeB [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"Hah!\" The Pather has a mean smile. \"An obvious boast, typical of a Molochian.\" $HeOrShe makes a show of looking at you through the comms, \"You couldn't have taken Sedge... except by cowardly ambush, or some other deception. He was a greater warrior than you or I, by far.\"\r\n\r\n\"Nonetheless, I weep not to be free of his... leadership.\"",
+   "ctx": "data/campaign/rules.csv BFFIstationTalk2sedgeBZ [text]"
+  },
+  {
+   "i": 33,
+   "en": "You explain that no devotion or zealotry, however righteous, can overcome the power of your $shipOrFleet, or the others that would follow if you failed to win the day.\r\n\r\nIs $heOrShe so loyal to Sedge's plan that $heOrShe is willing to die for it - even after it's fallen apart? Besides, a schism across the whole of the ecumene of the Luddic faith would lead to a sectarian war which could see millions of Faithful dead. And not even for the cause of the Path, but for a falsehood!\r\n\r\n$HeOrShe has a choice, you explain. Call it a Molochian bargain. Either this is a major loss of personnel, materiel, and the station, or it can be a minor loss of certain assets - for a failed barbaric scheme $heOrShe doesn't even really believe in.",
+   "ctx": "data/campaign/rules.csv BFFIpsRuseNiceSetup [text]"
+  }
+ ]
+}

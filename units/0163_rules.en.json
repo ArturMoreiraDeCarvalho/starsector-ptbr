@@ -1,0 +1,166 @@
+{
+ "chunk": 163,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "You assemble your senior officers to discuss the matter of secret comms bursts directed at the Isirah System. A preliminary scan of the Groombridge Habitat rotates slowly in the holoprojector's display. \r\n\r\n\"Why here? I mean, rhetorically speaking,\" your nav officer says, \"Because the only reason to relay signals from here to Laicaille is if your signals were coming from a hidden hypercomm relay.\"\r\n\r\nYour comms officer raises a hand, and at your nod speaks, \"It's unconventional. But Groombridge is uninhabited, so no one would complain about hyperwave wash.\"\r\n\r\nYour ops chief speaks next, \"The reactor shootin' rads like it is, no one would look too close. No scavengers.\" ",
+   "ctx": "data/campaign/rules.csv gaFCGroombridgeSearchB1 [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"Rad-armored drones,\" your ops chief says. \"One-way trip. If a relay is in there, it'd have a damn strong rad-shield, so we'll know what to look for.\"",
+   "ctx": "data/campaign/rules.csv gaFCGroombridgeSearchB2 [text]"
+  },
+  {
+   "i": 3,
+   "en": "At the turn of the next shift, the armored drones are prepared and your ops chief oversees their deployment. You follow their progress through the projection of Groombridge Habitat, filling in fuzzy volumes - shielded from your scans or too radioactive to get a good read - with sharp details. An anomalous shielded mass is found soon enough in a damaged work bay in close proximity to the deadly core of the station.  \r\n\r\nTech and comms begin discussing how to breach and hack the relay; your ops chief growls an interruption, \"If I were them, I'd rig it to blow if it got looked at funny.\" The other officers go quiet.\r\n\r\nSensors speaks up, \"We just have to intercept an in-system signal, right? Assuming it's tightcast, we could deploy a, um, cloud of detectors.\" Your ops chief looks at your sensors officer and sighs.",
+   "ctx": "data/campaign/rules.csv gaFCGroombridgeSearchB3 [text]"
+  },
+  {
+   "i": 4,
+   "en": "Within hours of establishing a makeshift detection cloud, the relay sends a comms squirt. The whiff of an outbound signal is projected by your navigator on your flagship bridge main holodisplay, the line points toward Laicaille Habitat. Not quite, but close enough. Maybe a relay in a close orbit.\r\n\r\nThis is the sort of tech Coureuse is familiar with, and even if it is arguably circumstantial, it's a weird enough setup that you can probably scare the authorities at Laicaille with the revelation.\r\n\r\nGhosties indeed. ",
+   "ctx": "data/campaign/rules.csv gaFCGroombridgeSearchB4 [text]"
+  },
+  {
+   "i": 5,
+   "en": "The pirate boss looks annoyed as soon as $heOrShe turns to the comm feed. \"You again.\"",
+   "ctx": "data/campaign/rules.csv gaFCKapteynAdminGreetAgain [text]"
+  },
+  {
+   "i": 6,
+   "en": "$HeOrShe looks you over, licks $hisOrHer lips, and thinks the question over for a moment. \r\n\r\n\"Might know someone by the name, might not. Why should I tell you?\"",
+   "ctx": "data/campaign/rules.csv gaFCKapteynBossBother1 [text]"
+  },
+  {
+   "i": 7,
+   "en": "The pirate boss leans forward. \"You have my attention, good captain.\"\r\n\r\n\"If you could come up with... let's say $gaFC_kapteynBribeCost reasons why I should help you out, it might be that I'd be so inclined.\"",
+   "ctx": "data/campaign/rules.csv gaFCKapteynBossBribeStart [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"No she didn't. Get lost.\" \r\n\r\nThe pirate boss slaps at the comms console and the line disconnects, leaving you staring at static over nothing.",
+   "ctx": "data/campaign/rules.csv gaFCKapteynBossKantaAppeal [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"You've got a way with words, you know that?\" $personName says with a conspiratorial smile, flashing gold teeth, \"Very persuasive.\"",
+   "ctx": "data/campaign/rules.csv gaFCKapteynBossAppeal [text]"
+  },
+  {
+   "i": 10,
+   "en": "The pirate boss frowns, then reaches for $hisOrHer console. \"One moment, captain.\"\r\n\r\nThe comm feed blanks to an ancient holding pattern for the Eridani-Utopia Corporation.",
+   "ctx": "data/campaign/rules.csv gaFCKapteynBossAppeal2 [text]"
+  },
+  {
+   "i": 11,
+   "en": "The feed flips back on. $personName is examining a datapad in $hisOrHer hands and looking much more relaxed.\r\n\r\n\"Ah, $playername. I knew I'd heard that name somewhere. Yeah, alright. You've done some things for us. So I could do a thing for you. Just you don't forget it when the goings get tough, and be sure to tell good like-minded folks that $personName is a friend to all freedom-loving individuals who've been put on the wrong side of the law.\"",
+   "ctx": "data/campaign/rules.csv gaFCKapteynBossAppealSuccess2 [text]"
+  },
+  {
+   "i": 12,
+   "en": "The feed flips back on. $personName is examining a datapad in $hisOrHer hands. \r\n\r\n\"Very funny, captain... $playerName. Because it looks to me more like if you'd got yourself the chance, you'd turn me in to the closest League fleet for a handful of credits and a pat on the head.\" $HeOrShe drops the datapad with a clatter.\r\n\r\n\"If that's how it is, that's how it is. I don't expect anything more, and I'll shoot you down myself if you step out of line on my station. But don't pretend to be my friend when you're nothing but a fawning bootlicker when an official patrol comes sniffing around.\"",
+   "ctx": "data/campaign/rules.csv gaFCKapteynBossAppealFailure [text]"
+  },
+  {
+   "i": 13,
+   "en": "The pirate boss slaps at the comms console and the line disconnects, leaving you staring at static.",
+   "ctx": "data/campaign/rules.csv gaFCKapteynBossAppealFailure2 [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"I may have heard something from someone. It's my business, right, knowing who's making the moves in the Isirah system, and to who.\" \r\n\r\n$HeOrShe leans close to the comms pick-up, and speaks quietly \"Word is the Persean League started asking a lot of questions about someone named 'Coureuse', and that was because the Hegemony started asking around first.\"",
+   "ctx": "data/campaign/rules.csv gaFCKapteynBossInfoDump1 [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"And then just about all at once the League snitches all stopped asking about Coureuse. That tells me, $firstName, it looks like someone found who they were looking for. It also tells me they're not a real experienced operation. Leave it to the League, right? Appointing offices by influence more than ability. I'd never abide by that.\" \r\n\r\n\"Anyway, shortly after that a unit of top pay-grade League agents fresh from Kazeron set up shop on Laicaille Habitat.\"",
+   "ctx": "data/campaign/rules.csv gaFC_kapteynBossInfoDump2 [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"Now, being a curious individual and a friend of the friendless, I was on the lookout for a League crackdown on our legitimate business operations. But it didn't come. Just the same-old same-old. 'So what're those spies doing on Laicaille?', I asked myself.\"\r\n\r\n\"I paid a real professional surveillance contractor and they got me list of names, rented properties, and schedule of activities. Looks like they've got some fancy safehouse set-up.\" The Pirate boss taps a datapad and your comms ping to alert you to an incoming file. \"You've bought yourself a copy of the data, my friend.\"",
+   "ctx": "data/campaign/rules.csv gaFC_kapteynBossInfoDump3 [text]"
+  },
+  {
+   "i": 17,
+   "en": "$HeOrShe leans back, putting on a casual act. \"Me, I just ask questions. Maybe you're looking for answers, maybe you'll find one. Maybe it'll teach those League goons a bit of humility.\" The pirate smiles broadly at this thought.\r\n\r\n\"Just don't forget who helped you along, right?\"",
+   "ctx": "data/campaign/rules.csv gaFC_kapteynBossInfoDump4 [text]"
+  },
+  {
+   "i": 18,
+   "en": "You ask around about the missing academician, buying moderately priced drinks to lubricate the flow of information. This is a spacer bar, and though spacers try to look out for one another, you're finding little in the way of leads, mostly shrugs and apologies.\r\n\r\n\"I'm sorry you're having trouble finding your friend,\" says an off-shift dockworker in a utilitarian vacsuit liner. \"I shall pray for your reunion.\"",
+   "ctx": "data/campaign/rules.csv gaFCAskAroundLaicailleBar1 [text]"
+  },
+  {
+   "i": 19,
+   "en": "The dockworker's expression shuts down instantly. \"I am not a 'Pather', $playerSirOrMadam. I do follow the teachings of the Church of Galactic Redemption and I'd thank you not to make bigoted assumptions. We are not all fanatics and terrorists.\"\r\n\r\nThey stand, leaving an untouched drink. \"Blessings of Ludd be upon all souls, both large and small,\" they say, and stomp away.",
+   "ctx": "data/campaign/rules.csv gaFCAskLaicailleBarPather [text]"
+  },
+  {
+   "i": 20,
+   "en": "The station technicians, in grungy Laicaille Habitat jumpsuits, respond well to your offer to buy them a round and listen to their troubles. You mention having had comms disruption in an ion storm once and ask what sort of trouble they're having.\r\n\r\n\"It's strange,\" says the big one, \"There's no real pattern to it. Every few shifts, it just goes zap. Lots of noise gumming up some of the orbital beacons. Bossman makes us go out and check the beacon, and it's nothing. Lotta fooling around for no reason, I say.\"\r\n\r\n\"Not no ion storm either, we'd know that,\" says the smaller partner. \"Ain't no natural wossit.\" ",
+   "ctx": "data/campaign/rules.csv gaFCAskAroundLaicailleBar2 [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"Ghosties,\" says the big one, eyes wide.\r\n\r\nThe smaller one sighs and mumbles under their breath \"...Ludd's sake...\"\r\n\r\nThe big one looks annoyed, \"No, let me tell it. I told you I wouldn't run your ear about it anymore, but the captain here asked nicely.\"",
+   "ctx": "data/campaign/rules.csv gaFCAskAroundLaicailleBar3 [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"It's all them people that died in Groombridge when the reactor went critical,\" the big one says. \"No, not went critical. Was made critical. 'Cause it was murder.\"\r\n\r\n\"They got no peace, see, 'cause it wasn't a clean death and there's no justice. So they're calling out for someone to help. That's what it is, a signal from Groombridge.\"\r\n\r\nThe small one speaks up quietly, \"...can't know that.\"",
+   "ctx": "data/campaign/rules.csv gaFCAskAroundLaicailleBar4 [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"Directional receiver.\" The big one looks proud.\r\n\r\n\"Yeah, but,\" the small one interjects, \"I gotta remind you to reset the alignment origin on that thing half the time when we're out checking beacons. The noise could be from anywhere, could be anything. Some pulsar or something.\"",
+   "ctx": "data/campaign/rules.csv gaFCAskAroundLaicailleBar5 [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"Well, no,\" the small one sputters, \"I'm just saying as an example. Anyway,\" they check their datapad, \"We gotta get back on-shift. Bottoms-up!\"\r\n\r\nThe techs finish their drinks, give you their regards, and head out. You don't find their mixture of work and intemperance particularly reassuring, but maybe there is something weird going on at Groombridge Habitat. If someone really is sending secret encrypted signals...",
+   "ctx": "data/campaign/rules.csv gaFCAskAroundLaicailleBar6 [text]"
+  },
+  {
+   "i": 25,
+   "en": "You ask around about the missing academician, buying moderately priced drinks to lubricate the flow of information. This is a pirate bar, and despite their well-known enthusiasm for free booze, pirates are loathe to speak openly to anyone asking too many questions.\r\n\r\nA shady character at the bar wearing an expensive but worn-looking coat accepts your drink. \"They think you're the Sector's dumbest undercover cop, you know.\"\r\n\r\n\"But I know you're not,\" $gaFC_KBAheOrShe takes a long sip. \"A cop, that is. I saw your $shipOrFleet come in, ran some queries. It's my business, you know.\"",
+   "ctx": "data/campaign/rules.csv gaFCAskAroundKapteynBar1 [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"Knowing things. Selling that knowledge.\"",
+   "ctx": "data/campaign/rules.csv gaFCAskAroundKapteynBar2 [text]"
+  },
+  {
+   "i": 27,
+   "en": "$gaFC_KBAHeOrShe smiles slyly, \"Indeed you have.\"\r\n\r\n\"Problem is, I've sold that knowledge and my customer might take issue if I were to distribute it without respect for our, ah, understanding of the exclusive utility of that knowledge. My customer is very important around here, if you catch my meaning. Now, if you were to approach that customer directly to work something out, you might come away with something useful.\"",
+   "ctx": "data/campaign/rules.csv gaFCAskAroundKapteynBar3 [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"Well then captain! I am glad to have been of service.\"",
+   "ctx": "data/campaign/rules.csv gaFCAskAroundKapteynBarKnow [text]"
+  },
+  {
+   "i": 29,
+   "en": "$gaFC_KBAHeOrShe shrugs. \"It's long-term planning, y'see. If you show up asking questions, it confirms that my customer made a wise purchase. Comes up they need to find something out, they come back to me.\"\r\n\r\n\"Long-term planning, my friend. That's the difference between these deadbeat pirate lackeys and myself. I'm going to big places.\"",
+   "ctx": "data/campaign/rules.csv gaFCAskAroundKapteynBarProfit [text]"
+  },
+  {
+   "i": 30,
+   "en": "$gaFC_KBAHeOrShe gives an ironic salute, and says \"Look me up, captain. I'll be around if you want to do business.\" $gaFC_KBAHeOrShe turns away and sips $gaFC_KBAhisOrHer drink.",
+   "ctx": "data/campaign/rules.csv gaFCAskAroundKapteynBarDone [text]"
+  },
+  {
+   "i": 31,
+   "en": "$gaFC_KBAHeOrShe sighs. \"Maybe. Look, this is a business. It's ... I'll need something more if I'm going to tell you this. $gaFC_kapteynBarBribeCost credits.\"\r\n\r\n$gaFC_KBAHeOrShe taps at $gaFC_KBAhisOrHer datapad and holds it out for you to confirm the transaction with your own.",
+   "ctx": "data/campaign/rules.csv gaFCAskAroundKapteynBarMore [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"Now you didn't hear this from me - because I don't mess with Pathers. They're all crazy. Don't care about credits one bit. Or they do, demanding tithes for this or that infraction against their Ludd-bedamned rules, but I just can't get a read on 'em.\"\r\n\r\n\"There's a cell of them infiltrating Laicaille Habitat. Going after Coureuse, I gathered. Nothing else there worth the trouble.\"",
+   "ctx": "data/campaign/rules.csv gaFCKapteynBarBribe [text]"
+  }
+ ]
+}

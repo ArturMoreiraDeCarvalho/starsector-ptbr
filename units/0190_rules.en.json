@@ -1,0 +1,121 @@
+{
+ "chunk": 190,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "Your sensors officer reports that an ejected cargo pod floating in a spray of post-battle debris contains something that matches the mission target specifications. A salvage team quickly secures the object in your hold.",
+   "ctx": "data/campaign/rules.csv gaDAFleetWithWidgetDefeated [text]"
+  },
+  {
+   "i": 2,
+   "en": "The comms open and before you stands the pirate leader. \"What do you want, scavenger?\" $heOrShe says with contempt.\r\n\r\n\"This is our cache and if you know what's best you'll be burning along to find some shiny bits out elsewhere to grub at.\"",
+   "ctx": "data/campaign/rules.csv gaDAPirateOpenComm [text]"
+  },
+  {
+   "i": 3,
+   "en": "You explain to the pirate captain that you know exactly what they've found, and it's only really useful to a bunch of bookish academics. Despite being useless dirt-worms, they'll give good credits for certain pieces of garbage that you find in a long-standing arrangement. If the Pirates sell it to you now it'll save them a long trip to the core worlds. And having to deal with the most condescending fools in the entire Sector.\r\n\r\n$HeOrShe considers your words, then says \"You make some good points, captain. I do hate it when worthless mud-boots try to talk down to me. And,\" $heOrShe gives you a fierce look, \"I don't need another mass murder charge on my bounty just for some piece of junk.\" \r\n\r\nAfter some additional implied threats and a bit of negotiation on your part,  the pirate captain offers to sell you what they found for $gaDA_piratePayment credits.",
+   "ctx": "data/campaign/rules.csv gaDAPirateOfferToBuy [text]"
+  },
+  {
+   "i": 4,
+   "en": "You cut the comm link after explaining to the pirate captain that you wouldn't make enough on the deal to cover your expenses. The rapport you've established during the negotiation seems to incline $himOrHer to let you go, at least for the moment.",
+   "ctx": "data/campaign/rules.csv gaDAPirateBuyDeclinePolite [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"Oh, I see how it is,\" the pirate captain snarls, raising a gauntleted fist. \"If you were going to make me kill you anyway, why'd you waste precious atmo with all that chum talk?\"\r\n\r\nThe comms snap to static; you speculate that you don't hear the fist slam on the pirate's console because the link cut out just before the shock reverberated to the pickups. Yes, that explains it. You turn to find that your tactical officer has just finished sending a combat alert to the $shipOrFleet.",
+   "ctx": "data/campaign/rules.csv gaDADeclineBuyAggro [text]"
+  },
+  {
+   "i": 6,
+   "en": "The pirate captain cries out in a panic, $hisOrHer contemptuous airs dispelled in a moment. \"Wait! We’re just doing business here, I can compromise!\" $HeOrShe sweats, visibly calculating for a moment, \"How about $gaDA_piratePaymentLow credits for this piece of junk? Be reasonable, captain, we can make this work for both of us.\"",
+   "ctx": "data/campaign/rules.csv gaDADeclineBuyAggroStronger [text]"
+  },
+  {
+   "i": 7,
+   "en": "The pirate captain laughs heartily, but you detect just a note of panic underlying the bravado. \"Oh, well done. I thought we were the pirates here, but no it is you. I admire you, captain.\"\r\n\r\nA pause for drama, \"And I admire your powerful fleet even more. Some of my comrades-of-the-void,\" $heOrShe looks around, appearing to address $hisOrHer crew, \"would consider surrendering our loot a cowardly act. But I'll be the coward who lives every time over a fight I know I can't win. Unless we have any volunteers who would like to suit up and take them on? No?\"\r\n\r\nWith this, $heOrShe smiles then strikes a bow as the comms close. A moment later your tactical officer reports that a cargo drone has been dispatched from the pirate fleet.",
+   "ctx": "data/campaign/rules.csv gaDAThreatenToAttack [text]"
+  },
+  {
+   "i": 8,
+   "en": "The pirate captain laughs heartily with unfeigned bravado. \"Oh, well done. I thought we were the pirates here, but no, I think it must be you. I admire your spirit, captain.\" A pause for drama, \"May it haunt the stars only briefly.\"\r\n\r\n$HeOrShe executes a half spin, raises $hisOrHer arm like a conductor, and brings it down. The connection terminates.\r\n\r\nYour tactical officer reports, \"Hostiles closing, sir.\"",
+   "ctx": "data/campaign/rules.csv gaDAThreatenToAttackFail [text]"
+  },
+  {
+   "i": 9,
+   "en": "The blood drains from the pirate captain's face. \"She ... did? But she said ... all was forgiven. She said it was balanced out, she said I made it up to her.\" $HeOrShe seems really worried. Better lay it on.",
+   "ctx": "data/campaign/rules.csv gaDAKantaSentMe [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"... Then,\" the pirate, almost in tears, completes your sentence, \"... she must want me alive for some reason. And I'm only useful to her if I'm alive, right?\" A deep breath. \"That makes sense. I owe her still. I always will. But she'll see how loyal I am, right? You'll tell her I'm loyal?\" The pirate looks to you, pleading.",
+   "ctx": "data/campaign/rules.csv gaDAKantaSentMe1 [text]"
+  },
+  {
+   "i": 11,
+   "en": "You manage to extricate yourself from comms link-up with the blubbering pirate captain just as your operations chief confirms that a cargo drone has delivered a package from the lead pirate ship.",
+   "ctx": "data/campaign/rules.csv gaDAKantaSentMe1a [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"Yes, yes. Yes yes yes. That might work. And- yes, if I give you whatever this stupid thing is, you’ll do this? Tell her you saw me die?\" The pirate captain looks to you, pleading.",
+   "ctx": "data/campaign/rules.csv gaDAKantaSentMe2 [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"Wonderful!\" $HeOrShe looks as though an enormous weight has lifted off $hisOrHer shoulders. \"Thank you for ... for this opportunity. Freedom! At last!\"\r\n\r\nOnly the promise that you'll make up a good story about how they went out guns ablaze gets the pirate captain off the comms. You sigh, and just then your operations chief pings your attention to note that a cargo drone has delivered a package from the lead pirate ship.",
+   "ctx": "data/campaign/rules.csv gaDAKantaSentMe2a [text]"
+  },
+  {
+   "i": 14,
+   "en": "You've caught up with the scavengers who took the $gaDA_widgetNoArticle. You glance at the tactical report in the tense moments before comms link-up. They're an armed fleet, but not heavily, and you're far from the core worlds. If you were to attack this fleet and prevail, you are unlikely to face serious repercussions from any major faction, or even the independent polities. \r\n\r\nStill. No matter how tight the infosec or how loyal the crew, dark rumors always swirl in the wake of bloodthirsty captains. The incoming comms request light blinks at you.",
+   "ctx": "data/campaign/rules.csv gaDAScavFleetEncounter [text]"
+  },
+  {
+   "i": 15,
+   "en": "An image of $personName, commander of the independent scavenger fleet, coalesces before you. In just a look, you can see in $hisOrHer eyes that you both understand the stakes in meeting a stranger in the dark volume outside the core worlds. \r\n\r\n\"Bright stars, captain,\" $heOrShe says in greeting. \"What brings you to this humble orbit?\"",
+   "ctx": "data/campaign/rules.csv gaDAScavOpenComm [text]"
+  },
+  {
+   "i": 16,
+   "en": "You begin to negotiate, a game you both know, and argue that if they sell this item of unknown provenance to you now, you can help them avoid a long trip back to the core worlds, at which point they'd only have to waste more time and fuel shopping around to find the right buyer. Captain $personLastName counters, \"It is clear that you have a buyer in mind. Why not divulge their comms ID for a cash payment?\" You shake your head, and explain that the exclusive relationship you have is worth more than the one job. \r\n\r\nThe negotiation goes back and forth, both parties acknowledging the commercial interest of the other by various points, until the independent captain comes to a price for the $gaDA_widgetNoArticle.\r\n\r\n\"I think $gaDA_scavPayment credits is more than fair,\" $heOrShe says with that touch of finality which signals that this negotiation is at its end.",
+   "ctx": "data/campaign/rules.csv gaDAScavBuy [text]"
+  },
+  {
+   "i": 17,
+   "en": "The scavenger captain folds $hisOrHer arms and gives the smallest of nods to someone off-screen. \"I see,\" $heOrShe says, \"We're going to do it like that. Well, let's not waste time. Time is money, and fighting is a good way for everyone to lose a lot of both.\"\r\n\r\n\"You can pay me $gaDA_scavPaymentHigh credits for my work, and then I will surrender to you this 'thing'. Or you can try to attack my fleet and waste a lot more money than that sum. My tactical projections do not estimate a great chance of victory for your $shipOrFleet.\"\r\n\r\n\"So, how's it going to be?\"",
+   "ctx": "data/campaign/rules.csv gaDAScavThreatenScavStronger [text]"
+  },
+  {
+   "i": 18,
+   "en": "The scavenger captain folds $hisOrHer arms and gives the smallest of nods to someone off-screen. \"I see,\" $heOrShe says, \"We're going to do it like that. Well, let's not waste time. Time is money, and fighting is a good way for everyone to lose a lot of both.\"\r\n\r\n$HeOrShe seems remarkably detached during this exchange. You realize that $heOrShe sees your threat and $hisOrHer loss as simply a matter of business. \"I accept your terms. Please be ready to receive a cargo drone. Now if you'll excuse me captain, we have work to do.\" \r\n\r\nThe comms snap off rather abruptly. Your display reports a cargo drone with the package is incoming.",
+   "ctx": "data/campaign/rules.csv gaDAScavThreatenScavWeaker [text]"
+  },
+  {
+   "i": 19,
+   "en": "You order the credits transfer. The scavenger unfolds $hisOrHer arms and makes a small motion to a subordinate. \r\n\r\n\"A profitable exchange for all, I trust. Until next time, captain,\" $heOrShe says with a small, all-business smile.\r\n\r\nYou close the comms. Your logistics officer reports that a disposable cargo drone has delivered the package.",
+   "ctx": "data/campaign/rules.csv gaDAScavNormalScavPayText [text]"
+  },
+  {
+   "i": 20,
+   "en": "You order the credits transfer. The scavenger unfolds $hisOrHer arms and makes a small motion to a subordinate. \r\n\r\n\"Until next time, captain,\" $heOrShe says, locking $hisOrHer gaze on you through the comms-line. You could swear that under that all-business facade $heOrShe is burning your face into long-term memory.\r\n\r\nYou close the comms and receive a report from your logistics officer that a disposable cargo drone has delivered the package.",
+   "ctx": "data/campaign/rules.csv gaDAScavThreatenScavPayText [text]"
+  },
+  {
+   "i": 21,
+   "en": "The scavenger blinks. \"Yes, my name is in the comms IDs we exchanged when this line was opened.\"\r\n\r\nIt's coming back to you now. Some minor report while in dock a ways back, you're not sure why you read so deeply into the neighboring vessels ownership status and history of public contract affiliations. Just something to pass the time while cargo is moved, perhaps.\r\n\r\nYou explain, referencing the details you now recall, that they are the $personName who is serving a long-term contract for the Provenance Supply Stock Combine, registered with the good ol' APCC- the Agreus Provisional Commerce Concordat. And it's a good thing you found them now rather than having them find out about it when they got back to Nortia.\r\n\r\n\"Find out what,\" $heOrShe says in flat anticipation of bad news.",
+   "ctx": "data/campaign/rules.csv gaDAScavBluff1 [text]"
+  },
+  {
+   "i": 22,
+   "en": "$HeOrShe looks worried. \"The investigation?\"\r\n\r\nYou shake your head as you tell of the scandal and subsequent legal action that has toppled most of the board of directors of the PSSC after the APCC was tipped off about funds being shuffled between certain providers of 'ghost capital' in a scheme involving heavy weapons smuggled into Pather space leveraged off prime Eventide real estate. The rot goes deep, and with interfactional diplomatic pressure, the Concordat will see more heads roll in the upcoming cycle, that's for sure.\r\n\r\nThe captain looks more and more like a spaced corpse as you lay it on.",
+   "ctx": "data/campaign/rules.csv gaDAScavBluff2 [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"The... \", $heOrShe can't even bring $himOrHerself to say it.\r\n\r\n\"Yes,\" you confirm regretfully. The sum of property owned by the PSSC- and leased, covenant-bonded, indentured, or contracted elements thereof, are all forfeit to the APCC to be sold off to pay for the enormous fees and fines. And rights to that property that is still, as they say, 'in-transit' has been sold off in an anonymous auction.\r\n\r\nAll in all, it's a good thing you got here first to tip them off about the mess. Why, they could have found themselves adrift in a life-pod and missing every redundant organ if an unsavory repossessor found them first. With this warning, they can scrub their transponder ID, sell everything they're carrying on the black market, then buy citizenship on any independent polity they want with seed capital leftover for whatever venture comes next.  ",
+   "ctx": "data/campaign/rules.csv gaDAScavBluff3 [text]"
+  }
+ ]
+}

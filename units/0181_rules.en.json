@@ -1,0 +1,156 @@
+{
+ "chunk": 181,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "The initial salvage team finds the hull in relatively good condition for a derelict ship.\r\n\r\nThe salvor's reports trickle in. A makeshift instrument package has been added to one of the Apogee's sensor bulbs. It has certain features that resemble the Gate scanner provided to you by Coureuse though this one is damaged beyond repair. A cursory sweep of weapons and shields indicates that whatever attack crippled this ship, it must have come as a surprise: the weapons are unfired, and the shield capacitors lack any trace of recent flux build-up.\r\n\r\nYour ops chief scowls, \"Mark me, it's treachery when you see it like this. Couldn't tell you who did it. Sensor logs are scrubbed down to the crystal. Registry says the ship was hired out of Madeira, crew of mixed civie spacers.\"",
+   "ctx": "data/campaign/rules.csv gaATGgateScanDerelictWreckOpen1 [text]"
+  },
+  {
+   "i": 2,
+   "en": "A silent ring of adamantine material, derelict of a former age.\r\n\r\nYou query the status of the Gate scanning package and your sensors officer gives you a quick head-shake. Their station interface is spotted with amber warning messages.\r\n\r\n\"Captain, there's interference coming from... some kind of microsat in the middle of the Gate. The scanner can't make a lock.\"",
+   "ctx": "data/campaign/rules.csv gaATGscanJammerOpenDialog [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"An active scan picked it up once the Gate scanner, uh, told us where to look. It's very small, but somehow it's causing interference in the hyperspace manifold. Here, I can-\" your sensors office taps a few controls and the Gate takes over the bridge display. An icon blinks near the center of the Gate.\r\n\r\nYour sensors officer zooms in a subdisplay of visual EM. It's a dark, small shape, slowly rotating. Like a piece of space junk- with a power source.",
+   "ctx": "data/campaign/rules.csv gaATGscanJammer1 [text]"
+  },
+  {
+   "i": 4,
+   "en": "Your order the microsat destroyed. Tactical maintains a professional face but you can almost hear the grin in their response, \"Aye, captain.\"\r\n\r\nAll stations are set to yellow alert. Weapons lock on target. ",
+   "ctx": "data/campaign/rules.csv gaATGscanJammerDestroy1 [text]"
+  },
+  {
+   "i": 5,
+   "en": "The microsat disappears into a rapidly expanding cloud of energetic particles. You could swear you felt an imperceptible tremble through the hull of your flagship, and then nothing. \r\n\r\nYour bridge officers hold their breath in anticipation of some reaction; a signal, an attack, a response. As the seconds tick away, there is nothing, and the tension eases.\r\n\r\nYour sensors officer signals for your attention, \"Captain. We've got a lock from the Gate scanner. Can proceed at your order, $playerSirOrMadam.\"",
+   "ctx": "data/campaign/rules.csv gaATGscanJammerDestroy2 [text]"
+  },
+  {
+   "i": 6,
+   "en": "At your command, your ops chief starts grumbling orders to the on-duty salvage teams. You watch as a pair of drones launch, figures in hardsuits dangling from hand-rails on the trailing drone.\r\n\r\nThe occupied drone halts at one Gate diameter from the microsat, leaving the other to recover the microsat via a remote operation.\r\n\r\nAt final approach, a manipulator arm is extended, and the clamps squeeze together in perfect time with the microsat's own slow rotation.\r\n\r\nA burst of light fuzzes the display feed.",
+   "ctx": "data/campaign/rules.csv gaATGscanJammerRecover1 [text]"
+  },
+  {
+   "i": 7,
+   "en": "The display stutters and reforms. Your ops chief never even flinched. \"Self-destruct charge,\" they report.\r\n\r\nIt's a standard operation from there. The salvage team manages to collect most of the pieces of microsat, and you view the assembled collection laid out in a small workspace off the primary cargo bay. \r\n\r\n\"Generic parts, more or less. Could be anyone who built it,\" your ops chief explains. \"Unusual design to do what it does though. Y'know, to jam the Gate scanning what's-it,\" their eyes flicker to your tech officer, daring them to try to explain Coureuse's latest iteration on unified hyperfield theory again.",
+   "ctx": "data/campaign/rules.csv gaATGscanJammerRecover2 [text]"
+  },
+  {
+   "i": 8,
+   "en": "You're left only to speculate. At least the device itself is no longer blocking your scan.\r\n\r\nYour sensors officer signals for your attention, \"Captain. We've got a lock from the Gate scanner. Can proceed at your order, $playerSirOrMadam.\"",
+   "ctx": "data/campaign/rules.csv gaATGscanJammerRecover3 [text]"
+  },
+  {
+   "i": 9,
+   "en": "A silent ring of adamantine material, derelict of a former age.\r\n\r\nThere's a chime. \"Wait,\" your sensors officer says, \"There's a hypercomm pulse, uh, source near the Gate, some kind of microsat.\"\r\n\r\nYour bridge crew quickly identifies a bogey hidden on the opposite side of the Gate and center it in the primary display. Before you can give a follow-up order there's a small flash of light, leaving only a rapidly expanding cloud of debris.\r\n\r\nYour comms officer reports, \"That was a coded pulse, very short. Probably a tactical scan of this $shipOrFleet. Then it self-destructed. Whoever left that microsat knows exactly who we are.\"",
+   "ctx": "data/campaign/rules.csv gaATGscanTripwireAlarm [text]"
+  },
+  {
+   "i": 10,
+   "en": "Your sensors officer speaks, \"Captain, you should know that they've been hitting us with some esoteric scanner sweeps ever since we entered proximity of the Gate. They probably don't think we know about it, but,\" they say with a hint of pride, \"I caught some funny-looking background radiation.\"",
+   "ctx": "data/campaign/rules.csv gaATGscavScanEncounter [text]"
+  },
+  {
+   "i": 11,
+   "en": "The scavenger fleet's captain smiles unconvincingly as the comm image resolves.\r\n\r\n\"Greetings starfarer!\" $heOrShe says, thick with bonhomie. \"Seen any good pickings around here? It's been a bit sparse for us, ha-ha, maybe we could use a tip or two.\"",
+   "ctx": "data/campaign/rules.csv gaATGscavScanDialog [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"Too bad, too bad,\" $heOrShe says. A moments awkward pause, $heOrShe licks $hisOrHer lips, then says, \"So, um. Is there anything I can do for you, captain?\"",
+   "ctx": "data/campaign/rules.csv gaATGscavScanDialog1 [text]"
+  },
+  {
+   "i": 13,
+   "en": "A long pause. Reluctantly the 'scavenger' concedes.\r\n\r\n\"Of course, of course. Captain. Guess you found something my scanners didn't 'eh? Well, that's the luck of the draw, like they say, and maybe it just isn't my day.\"\r\n\r\n\"Burn bright, my friend,\" $heOrShe concludes, and reaches for $hisOrHer comm cut-off.",
+   "ctx": "data/campaign/rules.csv gaATGscavScanDialog11 [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"Oh, how wonderful! We'll have to burn on over there just as soon as I'm done my sweep here.\" $heOrShe smiles nervously, \"You're too kind, captain. I'm sorry that I can't offer any good finds in return.\"",
+   "ctx": "data/campaign/rules.csv gaATGscavScanDialog2 [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"Just, ah. Being sure, right? Might have missed something on the first sweep. And don't think I don't appreciate your help, captain. Just, um.\" \r\n\r\n$HeOrShe takes a second to think of an excuse, then finds it. \"Ah, among us scavengers, see, it's so much better to find your own score than someone elses' leavings, no offense meant captain. Isn't that right?\"",
+   "ctx": "data/campaign/rules.csv gaATGscavScanDialog21 [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"Ha-ha,\" that fake laugh again. A drop of sweat wobbles on the scavenger's forehead. \r\n\r\n\"I suppose, um. If you insist, captain, I'll be on your way. I should count myself lucky that I have you looking out for my good fortune, eh?\"\r\n\r\n\"Burn bright, my friend,\" $heOrShe concludes shakily, and reaches for $hisOrHer comm cut-off.",
+   "ctx": "data/campaign/rules.csv gaATGscavScanDialog22 [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"What, that old thing? Ha-ha.\" $HisOrHer strained fake laugh is somewhat grating upon repeat, you discover. \r\n\r\n\"Well you know it is. We're all old hands at scavenging here, aren't we, fellow spacer? Sometimes you find lots of little wrecks around these Gates back from, y'know.\" $HeOrShe trails off. \r\n\r\nThen begins to speak again as you fail to fill $hisOrHer silence. \"Need to double and triple check to be sure, isn't that right? Maybe someone missed something out here and that'll be my lucky day,\" $heOrShe says. \"So um. Did you need anything?\"",
+   "ctx": "data/campaign/rules.csv gaATGscavScanDialog3 [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"The Gate? Ha-ha ha-ha, oh Captain $playerName, you're a treasure.\" $HisOrHer fake laughter settles down quite quickly, and you see a drop of sweat wobble on $hisOrHer brow.\r\n\r\n\"Well, you know us spacers. Always telling stories about the Gates, isn't that right. Watch your back around an empty Gate, they say. Maybe it's just my, my what'sit, unconscious mind.\"",
+   "ctx": "data/campaign/rules.csv gaATGscavScanDialog31 [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"I uh- of course, captain. It's in the comm link metadata of course. No offense intended, just being polite. We're all friends here, isn't that right, looking out for one another. Spacers got to stick together, that's what I always say.\"",
+   "ctx": "data/campaign/rules.csv gaATGscavScanDialog32 [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"Ha-ha. Oh, captain. Myself, naturally. Well and uh, I've got an investor or two back on...\" $heOrShe is visibly reaching for an answer, \"Back on...\" \r\n\r\nIt comes to $himOrHer. \"Nomios, of course. Partners, right. Equal shares and whatnot. All on the up-and-up. Um, how about you?\"",
+   "ctx": "data/campaign/rules.csv gaATGscavScanDialog4 [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"The automated transmitter returns worked perfectly. It's-,\" a series of expressions crosses Coureuse's face, and she begins to speak in half-starts at least three times before giving up. Instead, she laughs. \"It's amazing, captain,\" she says, her eyes tracking back to the holo display, focusing back on the data.\r\n\r\n\"I have... so much to do,\" she says, distracted.",
+   "ctx": "data/campaign/rules.csv gaATGreturnSomeScansToCoureuse [text]"
+  },
+  {
+   "i": 22,
+   "en": "Coureuse looks up from her console, a cloud of holo data shifting to adjust to her gaze, \"Oh, it's you! The research team, ah, we're processing the data you've collected from the Gates.\"\r\n\r\n\"We've- we can't really talk about it until Provost Baird gives the go-ahead,\" she says. \"But between you and me, the results are... exciting, but there are risks.\" ",
+   "ctx": "data/campaign/rules.csv gaATGreturnScansToCoureuseStart [text]"
+  },
+  {
+   "i": 23,
+   "en": "She looks off grimly, somewhere beyond her terminal's pick-up. \"I shouldn't talk about it. Like this. I'll raise my concerns in the meeting with Provost Baird. Hopefully she listens.\"",
+   "ctx": "data/campaign/rules.csv gaATGreturnScansToCoureuse1 [text]"
+  },
+  {
+   "i": 24,
+   "en": "As the comms display resolves, Baird is glancing over some status report blinking in her holodisplay. After a fraction of a second, she dismisses it with a flick.\r\n\r\n\"It is absolutely essential that we secure High Hegemon Baikal Daud's approval,\" she says, \"At least covertly, before we begin the experimentation phase. Everything is contingent on the ability to proceed without political interference.\"\r\n\r\n\"I trust you'll make good time, captain,\" she concludes, then terminates the commlink without letting you get a word in.",
+   "ctx": "data/campaign/rules.csv gaATGtalkToBairdNeedDeal [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"That is what this academy has always lacked - a willingness to move past observation to use our knowledge to act upon the world. Get me Daud's cooperation, captain. Then we'll write history.\"\r\n\r\nThe provost terminates the commlink without letting you get a word in.",
+   "ctx": "data/campaign/rules.csv gaATGtalkToBairdNeedDeal2 [text]"
+  },
+  {
+   "i": 26,
+   "en": "The comm display resolves and Baird speaks, \"You're back. Good. I have already heard from an agent working on behalf of High Hegemon Daud. His revised terms are,\" the provost suppresses some emotion, \"Small-minded.\"\r\n\r\nBaird taps at her desk console, the light flickering in her spectacles. \"I see that the hyperspace physics team has not reported completion of the six Gate scans.\"",
+   "ctx": "data/campaign/rules.csv gaATGtalkToBairdNeedScans [text]"
+  },
+  {
+   "i": 27,
+   "en": "She turns to face you, \"Without this data, we cannot tune the Janus prototype. Coordinate your efforts with Coureuse; get me those scans.\"\r\n\r\nThe provost terminates the commlink without letting you get a single word in.",
+   "ctx": "data/campaign/rules.csv gaATGtalkToBairdNeedScans2 [text]"
+  },
+  {
+   "i": 28,
+   "en": "Baird taps at her desk console. \"With the Gate scans completed and Daud's assurance that the Hegemony will not interfere, we may proceed to the implementation phase.\"\r\n\r\nThe provost allows herself a small smile as she turns to you. \"This is Scylla's moment, of course. Let me link her in.\"",
+   "ctx": "data/campaign/rules.csv gaATGtalkToBairdGotScansAndDeal [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"Provost Baird. Captain $playerName,\" Coureuse greets you. \r\n\r\n\"Explain the Janus Device,\" Baird says, \"For the captain here.\"",
+   "ctx": "data/campaign/rules.csv gaATGjanusPrototype0 [text]"
+  },
+  {
+   "i": 30,
+   "en": "She looks nervous. \"The prototype device,\" she begins, \"Yes. In the um broad strokes, to scan for the Gate aperture, we direct a self-modifying phased hyperwave pulse which causes a resonation in lower dimensions which-\" \r\n\r\nShe looks up from the projected schematic and notices she's losing her audience. \"Let's skip ahead to the application section.\" The schematics flicker through several labyrinthine arrangements and settle on an action flowchart. \"Here we are.\"\r\n\r\n\"The principle of the Janus prototype is similar to the scanner, but far more energetic. By tuning the pulse to the unique resonant signature of a particular Gate aperture, one might - theoretically - activate that link. A second input would then target a known Gate egress, though avoiding destructive interference in the Calabi-Yau manifold is tricky...\"",
+   "ctx": "data/campaign/rules.csv gaATGjanusPrototype1 [text]"
+  }
+ ]
+}

@@ -1,0 +1,126 @@
+{
+ "chunk": 68,
+ "cat": "desc",
+ "items": [
+  {
+   "i": 1,
+   "en": "The military branch of Luddic Church of Galactic Redemption, modeled on monastic warrior societies from previous millennia. In areas of Church domination they are authorized to enforce Technological Correctness as well as ensuring, through force, that virtue is promoted and vice chastised. In areas outside Church domination, when able, they covertly impose the same.",
+   "ctx": "data/strings/descriptions.csv knights_of_ludd/FACTION [text1]"
+  },
+  {
+   "i": 2,
+   "en": "The Luddic Path is a loosely associated category of radical, decentralized, apocalyptic sects of Luddism that claim a truer interpretation of Ludd's Message. They view the Church as compromised and corrupt, putting worldly ego and comforts before the True Luddic Path in these, the end-times. The war of Armageddon is NOW and the lines are drawn! Only through forceful righteous action shall Good destroy Evil, and only through violence will the abomination of humanity's hubris and rebellion against God be swept aside in a final act of redemption. Or so they claim. The Luddic Path necessarily finds itself at odds with nearly all other factions in the Sector.",
+   "ctx": "data/strings/descriptions.csv luddic_path/FACTION [text1]"
+  },
+  {
+   "i": 3,
+   "en": "Not technically a unified faction but more a loose category of bandits, brigands, deserters, looters, soldiers of fortune, mercenaries, and free captains that share a common belligerence with the established powers of the Sector. Many pirates are runaways from the mainstream Sector society - usually oppressed by the status quo, stowaways from core worlds. Most pirate captains would hardly call themselves such, rather seeing themselves as challengers to the inept rule of the Hegemony or the League, seeking vengeance for the wrongs caused by such a misled society and taking what they can take through their cleverness and audacity. These captains can be characterized by their insatiable thirst for freedom and glory. Naturally, they give little thought to those that carry an official identification beacon, reserving their magnanimity for their fellow-travelers - other pirates.",
+   "ctx": "data/strings/descriptions.csv pirates/FACTION [text1]"
+  },
+  {
+   "i": 4,
+   "en": "The Sindrian Diktat is a polity founded in a relatively recent Hegemony military intervention in the Askonia system led by Admiral Philip Andrada, formerly of the Hegemony Navy. Andrada's Hegemony psych profile describes him as \"intelligent, charismatic, yet prone to narcissistic excess\". In his words, the Diktat was \"formed in the crucible of the Askonia Crisis and with it a new people: a race of humans with emboldened spirit and clarity of purpose; stronger, possessing the will and determination to overcome the divisions and petty parliamentary politics that bred only chaos when tested by the collapse of the Gate System.\" Considered by the Sector at large to be a military dictatorship.",
+   "ctx": "data/strings/descriptions.csv sindrian_diktat/FACTION [text1]"
+  },
+  {
+   "i": 5,
+   "en": "An abandoned orbital staging area for the Asharu terraforming project. Castoff bulk-carrier segments welded between a honeycomb of emptied fuel tanks once formed concourses teeming with engineers and colonists. The hangars stand empty but for a few slumped, stripped hulks. Passive energy collectors and tertiary life-support modules keep the station functioning and in orbit, barely. No one would expect to find anything of value here.",
+   "ctx": "data/strings/descriptions.csv asharu_platform/CUSTOM [text1]"
+  },
+  {
+   "i": 6,
+   "en": "A pirate base where \"adventurers\", freebooters, mercenaries and other such scum and villainy gather. Usually a small outpost hiding in the dark places between the spheres of major factions' interest. Here there are no laws, but an unwritten code of bravado and posturing maintains a tense peace so deals can be made, information traded, and spoils sold to unscrupulous traders.",
+   "ctx": "data/strings/descriptions.csv pirate_base_generic/CUSTOM [text1]"
+  },
+  {
+   "i": 7,
+   "en": "The thick, icy crust of this world is fed by cryovolcanoes that dot the surface. These frozen wastes are scored by mass-driver gantries from a time when the volatile elements of this world were extracted on a massive scale to feed terraforming efforts elsewhere in-system. Some of the old equipment has been appropriated by scattered bands of independent miners who scratch out a meager living between the glaciers of ammonia-ice.",
+   "ctx": "data/strings/descriptions.csv planet_barad_a/CUSTOM [text1]"
+  },
+  {
+   "i": 8,
+   "en": "Originally built by Eridani-Utopia to coordinate volatiles extraction for massive terraforming projects, the station was abandoned post-collapse as crew and corporate officers fled to more civilized polities. The station has since been taken over by \"adventurers\", freebooters, and mercenaries avoiding the watchful eye and heavy hand of the Hegemony.",
+   "ctx": "data/strings/descriptions.csv pirate_base_barad/CUSTOM [text1]"
+  },
+  {
+   "i": 9,
+   "en": "The value of Achaman Station is as a relatively safe port of call for the various inhabitants of Guayota's Disk to interact with traders from the Sector at-large, who otherwise rarely risk the pirates and difficult navigation of the Disk. The Tri-Tachyon Corporation, as 'caretaker' of the station, is well-situated to exploit its value handily - and do. It is often said that everything is for sale at Achaman Station.",
+   "ctx": "data/strings/descriptions.csv station_achaman_enterprise/CUSTOM [text1]"
+  },
+  {
+   "i": 10,
+   "en": "A planetary strip-mine, the tortured crust of Tibicena is strewn with huge examples of mining equipment, a veritable open-vacuum museum documenting the adaptation of Persean industry to the limitations of the local Sector supply chains.",
+   "ctx": "data/strings/descriptions.csv planet_tibicena/CUSTOM [text1]"
+  },
+  {
+   "i": 11,
+   "en": "The Hegemony is a martial successor state to the Domain formed by a ‘lost legion’ trapped in a backwater system by the collapse of the Domain gate network. Built upon a creative interpretation of protocols which indefinitely extends Domain-style martial law, the founders of the Hegemony believed that the overriding cause of restoring the Domain and therefore stability, peace, and prosperity to the Sector and indeed the entire galaxy must come before certain niceties of human rights. The survival of humanity is at stake and it is only the discipline of the Hegemony military that protects worlds where some semblance of the normalcy of human civilization can be nurtured. Anything that threatens the Great Cause must be neutralized; if a few activists must be discouraged for the greater good, so be it.\r\n\r\nCivilian hierarchies exist to govern the planets and stations under Hegemony rule but are entirely subordinate to the military. The specifics of civilian organization varies between worlds, as was Domain policy. When in doubt, the Hegemony applies a modified Domain-era colonial charter to dictate political organization. This standard-charter civilian hierarchy is generally elected, however as per martial law valid candidates must be approved by the local military authority. Exceptional times require exceptional measures, yet still the Hegemony fosters the flickering flame of galactic democracy under the same principles that founded the Domain.\r\n ",
+   "ctx": "data/strings/descriptions.csv hegemony/FACTION [text1]"
+  },
+  {
+   "i": 12,
+   "en": "The most powerful megacorporation in the Persean Sector after the fall of the Gates, the Tri-Tachyon Corporation specialized in cutting-edge AI development (notably violating the Domain ban on autonomous alpha+ level AI in several cases) and exotic high-power devices including hyperdrives, power generators, energy converters, force fields, and of course armaments. Since the Collapse, Tri-Tachyon has diversified its operations and insinuated its investments and applied technologies throughout the Persean Sector. Even hostile factions, justifiably paranoid of hardwired backdoors, are forced to use standard Tri-Tachyon products like the ubiquitous TriPad PDA. \r\n\r\nFrom a certain perspective, the Tri-Tachyon corporate charter's peculiar self-modifying algorithmic features might be viewed as an abstract form of AI which employs human corporate officers as integral components, though this philosophical argument was never resolved with enough force to convict the company of additional tech-ban violations.",
+   "ctx": "data/strings/descriptions.csv tritachyon/FACTION [text1]"
+  },
+  {
+   "i": 13,
+   "en": "An alliance formed to counter Hegemony domination of the Sector. Members of the League don’t necessarily agree on all issues, domestic or otherwise, and may even come into armed conflict with one another. But the League is united when it comes to the Hegemony who they consider to be illegitimately enforcing martial law in the name of the Domain, a dead political entity. The League, by its laws, unites against other external threats such as particularly meddlesome megacorporations, warlords, and the Luddic Path. \r\n\r\nThe Persean League is not intrinsically egalitarian or for individual freedom as-such – the purpose of the League is freedom of the constituent polities with any matters of internal politics of those polities to be left to their own devices. While the Domain might have intervened against the domestic policies of the worlds it ruled, the League specifically forbids such intervention.",
+   "ctx": "data/strings/descriptions.csv persean/FACTION [text1]"
+  },
+  {
+   "i": 14,
+   "en": "Not a unified faction as such, the Independents are a loose category of polities and free agents unified more by a lack of association with a major faction than any shared qualities. Independent worlds and the spacers who call them home often share reputation data, trade generously among themselves, and will readily cooperate to perform short-term security and military actions to better protect what freedom they have maintained by working together. Equally likely, trust can break down, and Independents will suspiciously deny each other favors, compete viciously, and turn a blind eye to the misfortune of neighbors.",
+   "ctx": "data/strings/descriptions.csv independent/FACTION [text1]"
+  },
+  {
+   "i": 15,
+   "en": "One of the first planets targeted for colonization in the Persean Sector, Chicomoztoc was selected to become a center of industry, host to a nexus of huge nanoforges. Only a marginal terraforming candidate upon discovery, rapid early industry and later war has left the atmosphere choked with complex sulphur compounds, organics refining by-products, and a concerning but manageable dusting of actinides.",
+   "ctx": "data/strings/descriptions.csv planet_chicomoztoc/CUSTOM [text1]"
+  },
+  {
+   "i": 16,
+   "en": "Eventide is a nearly tidally-locked world that was found to otherwise be an ideal candidate for terraforming. Just one day passes on Eventide per year, or near enough, leading to extreme winter-night and summer-day with mild twilight periods between. Judicious employment of stellar mirrors and shades allows ideal conditions to prevail in large pockets of carefully maintained territory where the majority of the population is settled in leased urban cantons surrounded by vast aristocratic estate-plantations.",
+   "ctx": "data/strings/descriptions.csv planet_eventide/CUSTOM [text1]"
+  },
+  {
+   "i": 17,
+   "en": "This barren moon of Tlalocan is wormed through with tunnels, bunkers, hangars, silos, and batteries; it forms a key Hegemony military base which controls the Aztlan system without being so close to Chicomoztoc as to get caught up in the local politics.",
+   "ctx": "data/strings/descriptions.csv planet_coatl/CUSTOM [text1]"
+  },
+  {
+   "i": 18,
+   "en": "Built around the core of a seedship from the first great migration wave to the Sector, Coatl Bastion has changed roles and names more times than any outsider cares to review. At present it hosts the Hegemony military C3 center and training facilities for the Aztlan system.",
+   "ctx": "data/strings/descriptions.csv station_coatl/CUSTOM [text1]"
+  },
+  {
+   "i": 19,
+   "en": "This entire moon of rocky-ice bears scars visible from orbit due to exploitation. It has traditionally been chartered to one megacorporation or another to feed the industrial maw of Chicomoztoc, which always hungers yet is never satisfied.",
+   "ctx": "data/strings/descriptions.csv planet_zorrah/CUSTOM [text1]"
+  },
+  {
+   "i": 20,
+   "en": "A crematory world laid to waste by a planet-killer weapon, the ashes of the millions of dead are still suspended in the atmosphere by planet-wide storms fed by anthropogenic volcanism.",
+   "ctx": "data/strings/descriptions.csv planet_hanan_pacha/CUSTOM [text1]"
+  },
+  {
+   "i": 21,
+   "en": "This moon still bears the scars of war. The domes of its major metropolitan center are ripped open, the ejecta of debris still scattered in radiating patterns laid bare to hard vacuum. ",
+   "ctx": "data/strings/descriptions.csv planet_killa/CUSTOM [text1]"
+  },
+  {
+   "i": 22,
+   "en": "A captured body from the outer system with a thick, toxic atmosphere, this moon is named both for its quick orbit and an amusingly shaped basin in the southern hemisphere.",
+   "ctx": "data/strings/descriptions.csv planet_viscacha/CUSTOM [text1]"
+  },
+  {
+   "i": 23,
+   "en": "A habitable if cold world terraformed post-Collapse by stranded elements of the Eridani-Utopia Corporation using in-place infrastructure and stockpiles. The appeal of Qaras never quite matched the radiance of Hanan Pacha until the latter was shockingly razed during the Second AI War.",
+   "ctx": "data/strings/descriptions.csv planet_qaras/CUSTOM [text1]"
+  },
+  {
+   "i": 24,
+   "en": "A lonely, ancient world which early robot probes of the Sector quickly determined was not formed in the Hybrasil system, but rather captured by Hybrasil some hundreds of millions of years ago. Donn was flagged as low-to-moderate interest due to easily accessible concentrations of heavy metals.",
+   "ctx": "data/strings/descriptions.csv planet_donn/CUSTOM [text1]"
+  }
+ ]
+}

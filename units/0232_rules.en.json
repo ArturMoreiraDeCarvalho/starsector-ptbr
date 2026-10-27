@@ -1,0 +1,181 @@
+{
+ "chunk": 232,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"Why, it is because you work for the enemy, the Hegemony!\"\r\n\r\n\"The Diktat has always been a knife to their throat. Small, yes, but with a keen edge, a ruthlessness that the best of the officer corps could recognize, and those too craven to commit to Philip's vision look upon with jealousy. The children of Eventide wish they could dispense with the cloying ideology of the Domain and exercise a power truer and purer.\"\r\n\r\n\"And among us, there are now cowards who cringe from heroic destiny. You will sniff them out because you look like the possibility of defection.\" ",
+   "ctx": "data/campaign/rules.csv sdtuMacReasonHegemony [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"The answer is sheer power. You have an impressive independent fleet and no tremendously strong connection to any significant faction.\"\r\n\r\n\"Do you understand how that makes strategic planners fearful? Your motives are... erratic. You could do anything. It's perfect.\"",
+   "ctx": "data/campaign/rules.csv sdtuMacReasonPowerful [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"You begin to understand,\" says Macario. \"Good.\"\r\n\r\n\"I shall provide you with a file. It concerns an officer under Deputy Star Marshal Hyder's command who she has ordered to meet with a smuggler to purchase armaments. This is, of course, treason.\"\r\n\r\n\"Hyder believes she must circumvent the bureaucracy to maintain the condition of the Defense Armada. She is correct; the Lion's Guard takes the lion's share,\" he makes a strange, suppressed noise at his own joke, \"-of the military procurement budget. This provides us an opening; leverage.\"",
+   "ctx": "data/campaign/rules.csv sdtuSafehouseWrap1 [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"Confront this officer. Arrest them. Or kill them if they resist, even destroy the fleet and keep the smuggled weapons, I don't care. I shall ensure after the fact that you are seen as, at worst, performing an accidental service to the Diktat.\"\r\n\r\n\"The purpose of this is to draw out Hyder. I shall ensure that she knows you were behind the interception. She will want to confront and eliminate you herself due to the sensitive nature of the matter.\"\r\n\r\nMacario is having fun; you can tell. He lives for this.",
+   "ctx": "data/campaign/rules.csv sdtuSafehouseWrap2 [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"This is your opening. Explain yourself as acting upon my orders for the Diktat, or representing a weapon supplier seeking to replace her previous contact. I'm sure you'll come up with something good. The point is, you'll have her attention, and you'll have her compromised.\"\r\n\r\n\"Find out her intentions; if she is willing to engage in open treason, or if pushed, will she side with myself: the legitimate authority in the upcoming struggle. Her rivalry with Caden and the Lion's Guard is well known, so that may be a good axis upon which to turn her.\"",
+   "ctx": "data/campaign/rules.csv sdtuSafehouseWrap3 [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"You're welcome to try,\" Macario says smugly. \"Without an opening, however, you will get nothing. I know how she works.\" ",
+   "ctx": "data/campaign/rules.csv sdtuSafehouseWrapAnswer1 [text]"
+  },
+  {
+   "i": 7,
+   "en": "Macario looses a breathy laugh.\r\n\r\n\"A fine and obvious suggestion, dear captain, but she hates me. That stubborn old woman won't have her mind changed by me, much less open her heart.\"",
+   "ctx": "data/campaign/rules.csv sdtuSafehouseWrapAnswer2 [text]"
+  },
+  {
+   "i": 8,
+   "en": "Macario produces a rictus of a smile.\r\n\r\n\"Play your part, captain. You will find the rewards incalculable.\"",
+   "ctx": "data/campaign/rules.csv sdtuSafehouseWrapAnswer3 [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"And throw the Sindrian Diktat into civil war? With her in command of the System Defense Armada?\" Macario rolls his eyes, \"Listen to yourself.\"\r\n\r\n\"Timing,\" he hisses, \"The time must be correct.\"",
+   "ctx": "data/campaign/rules.csv sdtuSafehouseWrapAnswer4 [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"You don't know her like I do, captain. She is a capable admiral, a brilliant logistician, and a dreadful politician. She loathes contradiction, inefficiency, and above all lies. When she must participate in such squalid affairs, she will be put off-balance and seek stability. Provide it.\"\r\n\r\nMacario looks pleased with himself. \"It is trivial to manipulate her. I trust, with my help, you are capable of it.\"",
+   "ctx": "data/campaign/rules.csv sdtuSafehouseWrapAnswer5 [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"Ah,\" Macario raises a finger. \"Just one thing, captain.\"\r\n\r\n\"You've been very, very bad,\" he wags his finger, scolding you. \"I'll arrange matters to allow you to operate in Diktat space. But you must promise to behave. You'll behave?\" \r\n\r\nHe doesn't wait for an answer, \"Good.\"",
+   "ctx": "data/campaign/rules.csv sdtuSafehouseEndInterrupt [text]"
+  },
+  {
+   "i": 12,
+   "en": "Stepping back onto what passes for a street, you look up at one of the ubiquitous flickering holos of Philip Andrada, Supreme Executor of the Sindrian Diktat. You try to imagine the Lion of Sindria drooling and mindless, deep in some bunker-clinic, surrounded by increasingly panicked doctors.\r\n\r\nMacario seems like a man who turns his capable subordinates into tools and his ambitious subordinates into corpses. But if you play along, for now, he readily provides generous rewards - and access to the heart of the Sindrian Diktat's upcoming power struggle.",
+   "ctx": "data/campaign/rules.csv sdtuSafehouseEnd [text]"
+  },
+  {
+   "i": 13,
+   "en": "An idle thought prompts you to check the holorec's memory. It's been remote hacked; your feed has been replaced by an old Andrada propaganda experience. Macario's little joke, you suppose.",
+   "ctx": "data/campaign/rules.csv sdtuSafehouseHolorecCheck [text]"
+  },
+  {
+   "i": 14,
+   "en": "This fleet is transmitting the transponder code provided by Macario. It is commanded by the 'traitor' you must arrest or kill.",
+   "ctx": "data/campaign/rules.csv sdtuTraitorPatrolDialog [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"You.\" $HisOrHer eyes narrow, already suspicious.\r\n\r\n\"I would not expect to see you again after making such outrageous and, dare I say, illegal claims. I could order your arrest already on suspicion of terrorist activities.\"",
+   "ctx": "data/campaign/rules.csv sdtuPatrolAgainSaidArrestOpen [text]"
+  },
+  {
+   "i": 16,
+   "en": "This time $heOrShe is ready.\r\n\r\n\"You return! I hereby declare you a criminal and traitor for the crimes of falsifying official documents, threatening an officer, and attempting to undermine the authority of the Supreme Executor.\"\r\n\r\n\"A death in space is better than you deserve, terrorist scum.\" $HeOrShe looks over $hisOrHer should and gives a wave. The comms cut out and the opposing fleet maneuvers to an attack posture.",
+   "ctx": "data/campaign/rules.csv sdtuPatrolAgainDidWarrantOpen [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"Absurd!\" $HeOrShe shouts, annoyed. \"I should have you arrested for claiming false authority and making a mockery of the Sindrian Diktat!\"",
+   "ctx": "data/campaign/rules.csv sdtuTraitorPatrolUnderArrest1 [text]"
+  },
+  {
+   "i": 18,
+   "en": "You watch the blood drain from $hisOrHer face. $HeOrShe knows that $heOrShe might have a very big problem.\r\n\r\n\"What is the meaning of this? You speak outrageous mockery and claim false authority! I should have you arrested for that alone.\"",
+   "ctx": "data/campaign/rules.csv sdtuTraitorPatrolSoldOut1 [text]"
+  },
+  {
+   "i": 19,
+   "en": "Now you see true fear fall across $hisOrHer face. Macario's reputation doing its work.\r\n\r\n\"This... this could be faked. It must be a fake,\" the Diktat $rank's eyes dart around, looking for some escape. \"Why would he send you?\" ",
+   "ctx": "data/campaign/rules.csv sdtuTraitorPatrolWarrantReaction [text]"
+  },
+  {
+   "i": 20,
+   "en": "A series of emotions flood across $hisOrHer face. Despair, betrayal, sadness. Anger, then rage.\r\n\r\n\"No,\" $heOrShe growls, then cuts the comms. \r\n\r\nThe opposing fleet assumes an aggressive posture.",
+   "ctx": "data/campaign/rules.csv sdtuTraitorPatrolDemandSurrenderA [text]"
+  },
+  {
+   "i": 21,
+   "en": "$HeOrShe laughs cruelly. \"You would make such a demand, from that puny $shipOrFleet?\"\r\n\r\n\"It is I who will see your fleet burn! I hereby declare you a criminal and traitor for the crimes of falsifying official documents, threatening an officer, and attempting to undermine the authority of the Supreme Executor.\"\r\n\r\n\"A death in space is better than you deserve, terrorist scum.\" $HeOrShe looks over $hisOrHer should and gives a wave. The comms cut out and the opposing fleet maneuvers to an attack posture.",
+   "ctx": "data/campaign/rules.csv sdtuTraitorPatrolDemandSurrenderB [text]"
+  },
+  {
+   "i": 22,
+   "en": "$PersonRank $PersonName hears out your offer, and reluctantly agrees. Better a life on the run than a death in one of Macario's INTSEC torture sites.\r\n\r\nIn short order, a credits transfer comes in, and an officer-class escape pod is launched from the opposing flagship toward your $shipOrFleet.\r\n\r\nYour comms officer interrupts as you oversee the 'rescue' operation.\r\n\r\n\"Captain. We have incoming priority comms from the Sindrian Diktat fleet.\"",
+   "ctx": "data/campaign/rules.csv sdtuPatrolForAPrice [text]"
+  },
+  {
+   "i": 23,
+   "en": "Just what you needed, another Diktat officer.\r\n\r\n\"Rogue fleet,\" the upjumped lieutenant barks - a poor sign for your chances of coming to an understanding.\r\n\r\n\"You have picked up the escape pod of a traitor who has abandoned their post, an act of treason against the will of the Supreme Executor. Surrender the traitor now or prepare to be boarded!\"\r\n\r\nYour tactical officer pings you, alerting you to the fact that the Diktat patrol's disposition appears to be in disarray.",
+   "ctx": "data/campaign/rules.csv sdtuPatrolForAPrice2 [text]"
+  },
+  {
+   "i": 24,
+   "en": "The comm link is cut from the other end. It seems like they're not in the mood to talk.",
+   "ctx": "data/campaign/rules.csv sdtuPatrolForAPrice3b [text]"
+  },
+  {
+   "i": 25,
+   "en": "The former CO of the Sindrian Diktat fleet seems to have jumped ship without unlocking executive override. It'll take them a while to reassert control; Andrada learned from his own lessons when it came to mutinies.\r\n\r\nDisengaging would be trivial.\r\n\r\nAfter all, if this reaction is anything to go by, you're going to have a pressing engagement with Deputy Star Marshal Hyder.",
+   "ctx": "data/campaign/rules.csv sdtuPatrolForAPrice3d [text]"
+  },
+  {
+   "i": 26,
+   "en": "You have your comms officer transmit your appeal on all channels: $PersonRank $PersonName is a traitor in the eyes of the Supreme Executor as per the warrant provided to you by his Chief High Inspector, Dolos Macario. \r\n\r\nAnyone who assists this arrest will be doing their duty to the Sindrian Diktat. Anyone who interferes will be branded a traitor and abettor of terrorism to be dealt with as INTSEC sees fit.\r\n\r\nWith each word, you can watch $PersonRank $PersonName on a muted comm feed growing more enraged - and more unsure. In perfect silence, you see $himOrHer looking around wildly, shouting words you cannot hear, then arms from out-of-scene grab $himOrHer.\r\n\r\nThe comm-feed cuts out for a moment.",
+   "ctx": "data/campaign/rules.csv sdtuPatrolConvinceMutiny [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"This is the second-in-command now assuming control of this fleet in light of the previous commander's treason,\" they almost manage to hide their smirk at the usurpation of their superior officer.\r\n\r\n\"We shall now transfer the traitor to your authority to return to INTSEC for questioning, trial, and execution. Glory to the Lion of Sindria! Death to traitors!\"\r\n\r\nThey salute.",
+   "ctx": "data/campaign/rules.csv sdtuPatrolConvinceMutiny2 [text]"
+  },
+  {
+   "i": 28,
+   "en": "The second-in-command is good to their word, and their former commanding officer is handed over to you, not in chains, but held by a set of thick plastic restraints, stripped of uniform insignia, and dulled by sedatives.\r\n\r\nYou have them secured in the brig.\r\n\r\nNow to have a difficult conversation with Deputy Star Marshal Hyder.",
+   "ctx": "data/campaign/rules.csv sdtuPatrolConvinceMutiny3 [text]"
+  },
+  {
+   "i": 29,
+   "en": "Your sensors officer reports an officer-class escape pod floating in a spray of debris. A quick jaunt by a salvage crew confirms that the escape pod holds Macario's \"traitor\". You order them secured in the brig.\r\n\r\nThere is also an intact cargo pod containing an advanced weapon system - part of the shipment being smuggled under Hyder's orders.",
+   "ctx": "data/campaign/rules.csv sdtuTraitorPatrolDefeated [text]"
+  },
+  {
+   "i": 30,
+   "en": "The former Sindrian Diktat fleet commander looks miserable and unsteady in a borrowed jumpsuit. They mumble some words of thanks and disappear into the human jetsam of the Persean Sector.\r\n\r\nWhether they end up dead by the hand of a Diktat reprisal-assassin, crewing a pirate vessel, or joined up with some odd sect of Luddics, you have fulfilled a promise.",
+   "ctx": "data/campaign/rules.csv sdtuReleaseOfficer [text]"
+  },
+  {
+   "i": 31,
+   "en": "Oxana Hyder appears on the comms, already seething.",
+   "ctx": "data/campaign/rules.csv sdtuHyderAngryGreeting [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"You have kidnapped an officer of the Sindrian Diktat, an officer under my command. I offer you this one chance to stand down and surrender honorably before your fleet is destroyed.\"",
+   "ctx": "data/campaign/rules.csv SDTUHyderTalkRound1Text1 [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"You attacked a flotilla of the Sindrian Diktat navy and kidnapped the commanding officer - an officer acting under my direct orders. I offer you this one chance to stand down and surrender honorably before your fleet is destroyed.\"",
+   "ctx": "data/campaign/rules.csv SDTUHyderTalkRound1Text2 [text]"
+  },
+  {
+   "i": 34,
+   "en": "\"How far the Hegemony has fallen, if the Auxiliary has come to this,\" she adds under her breath.",
+   "ctx": "data/campaign/rules.csv SDTUHyderTalkStartHeg [text]"
+  },
+  {
+   "i": 35,
+   "en": "\"Following orders,\" Hyder grits her teeth, \"even secret orders, from the highest authority of the navy to ensure the effective operation of military assets is not treason.\" Disgust fully enters her voice now, \"No matter how Macario tries to twist the truth.\"\r\n\r\n\"Half of the so-called 'intelligence operations' performed under his authority could well be called treason, but I don't make it my business to meddle as he does.\"",
+   "ctx": "data/campaign/rules.csv sdtuHyderOfficerSmuggling [text]"
+  }
+ ]
+}

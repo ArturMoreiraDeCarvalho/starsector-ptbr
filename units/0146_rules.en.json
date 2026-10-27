@@ -1,0 +1,256 @@
+{
+ "chunk": 146,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "According to the embedded documentation, a newly-deployed wormhole anchor requires many months to fully calibrate the nascent wormhole to its new position in spacetime. Attempting to traverse the wormhole early consistently results in unambiguous disaster.",
+   "ctx": "data/campaign/rules.csv WormholeInstabilityInfoNormal [text]"
+  },
+  {
+   "i": 2,
+   "en": "According to the embedded documentation, a newly-deployed wormhole anchor will generally require many months to fully calibrate the nascent wormhole with its new position in spacetime. Attempting to traverse the wormhole early consistently results in unambiguous disaster and forms of particles of particular interest to theoretical physicists.\r\n \r\nIn this case, however, the work has already been done: the calibration data from the cache you discovered will allow this wormhole anchor to stabilize itself almost immediately.",
+   "ctx": "data/campaign/rules.csv WormholeInstabilityInfoCalibrated [text]"
+  },
+  {
+   "i": 3,
+   "en": "A look of relief passes over your nav officer as control over the hyperdrive is returned; a quick status query checks out green on all subsystems.\r\n\r\nThe wormhole anchor has been successfully deployed.",
+   "ctx": "data/campaign/rules.csv WormholeDeploymentFinished [text]"
+  },
+  {
+   "i": 4,
+   "en": "A nearby hostile fleet is tracking your movements, making interfering with this $shortName impossible.",
+   "ctx": "data/campaign/rules.csv cob_disableOpts [text]"
+  },
+  {
+   "i": 5,
+   "en": "A nearby $faction fleet is tracking your movements, making interfering with this $shortName impossible.",
+   "ctx": "data/campaign/rules.csv cob_disableOpts2 [text]"
+  },
+  {
+   "i": 6,
+   "en": "You do not have the resources required to proceed.",
+   "ctx": "data/campaign/rules.csv cob_confirmOptsBurstNo [text]"
+  },
+  {
+   "i": 7,
+   "en": "The $shortName can be overloaded to emit a neutrino burst directly into hyperspace, providing valuable topographical readings and detecting slipstreams within $COB_burstRange light-years.",
+   "ctx": "data/campaign/rules.csv cob_neutrinoBurst [text]"
+  },
+  {
+   "i": 8,
+   "en": "Breaking the $shortName down for salvage will recover some of the resources used in its original construction and will allow another structure to be built at this location.",
+   "ctx": "data/campaign/rules.csv cob_salvageMakeshift [text]"
+  },
+  {
+   "i": 9,
+   "en": "Breaking the $shortName down for salvage will recover some of the resources used in its original construction.\r\n\r\nIt's an irreplaceable Domain artifact, with a quality that nothing currently capable of being built in the Sector can match.",
+   "ctx": "data/campaign/rules.csv cob_salvageDomain [text]"
+  },
+  {
+   "i": 10,
+   "en": "$TheFaction will certainly regard such an attack on vital infrastructure as an act of war, but given the makeshift nature of the structure, it's doubtful blame would be assigned to you with full certainty.",
+   "ctx": "data/campaign/rules.csv cob_salvageOtherOwned [text]"
+  },
+  {
+   "i": 11,
+   "en": "$TheFaction will certainly regard such an attack on vital infrastructure as an act of war.",
+   "ctx": "data/campaign/rules.csv cob_salvageOtherOwnedDomain [text]"
+  },
+  {
+   "i": 12,
+   "en": "$TheFaction has no presence in this system, and destroying this $shortName will have no impact on your standing.",
+   "ctx": "data/campaign/rules.csv cob_ownedButNoImpact [text]"
+  },
+  {
+   "i": 13,
+   "en": "Taking control of the $shortName will grant your in-system fleets and colonies the benefits it provides.",
+   "ctx": "data/campaign/rules.csv cob_takeControlPrompt [text]"
+  },
+  {
+   "i": 14,
+   "en": "$TheFaction will certainly regard such a takeover of vital infrastructure as an act of war.",
+   "ctx": "data/campaign/rules.csv cob_takeControlWarning [text]"
+  },
+  {
+   "i": 15,
+   "en": "$TheFaction has no presence in this system, and taking control of this $shortName will have no impact on your standing.",
+   "ctx": "data/campaign/rules.csv cob_ownedButNoImpactControl [text]"
+  },
+  {
+   "i": 16,
+   "en": "Hacking $aOrAn $shortName will surreptitiously provide your fleets with the same benefits as the faction that currently controls it.\r\n\r\nThe hack will eventually be picked up and cleared out by maintenance subroutines, but should remain effective for at least three months.",
+   "ctx": "data/campaign/rules.csv cob_hackPrompt [text]"
+  },
+  {
+   "i": 17,
+   "en": "Introducing false readings into the outbound data feed is likely to distract patrols and similar fleets by making them chase what isn't actually there.\r\n\r\nEventually, the firmware auto-calibration routines will clean out the corruption, but the process will take at least a month.",
+   "ctx": "data/campaign/rules.csv cob_resetPrompt [text]"
+  },
+  {
+   "i": 18,
+   "en": "Installing a comm sniffer will give you access to local intel as if you were in this star system.\r\n\r\nThe comm sniffer will remain active until it is detected and cleared out by the comm network's maintenance subroutines. The odds of this happening increase drastically when comm sniffers are installed on multiple relays in the network.",
+   "ctx": "data/campaign/rules.csv cob_hackPrompt2 [text]"
+  },
+  {
+   "i": 19,
+   "en": "Uninstalling this comm sniffer will reduce the overall detectability of your other sniffers by the comm network maintenance protocols.",
+   "ctx": "data/campaign/rules.csv cob_hackPrompt3 [text]"
+  },
+  {
+   "i": 20,
+   "en": "The operation is successful, and your sensors officer is poring over the incoming data in short order. Any nearby slipstreams will now be visible on the map.",
+   "ctx": "data/campaign/rules.csv cob_neutrinoBurstDescPre [text]"
+  },
+  {
+   "i": 21,
+   "en": "Your crews quickly complete a physical takeover of the structure, removing automated safeguards and installing black-box transmitters tuning its output frequency to your transponder codes.",
+   "ctx": "data/campaign/rules.csv cob_controlDesc [text]"
+  },
+  {
+   "i": 22,
+   "en": "Your crews quickly complete an assessment of the structure. Replacing several common burned-out components seems to bring the $shortName back to operational status.",
+   "ctx": "data/campaign/rules.csv cob_controlDesc2 [text]"
+  },
+  {
+   "i": 23,
+   "en": "A quick scan on the maintenance shortwave reveals several common vulnerabilities to choose from, and the sniffer script is uploaded within a few minutes.",
+   "ctx": "data/campaign/rules.csv cob_snifferDesc [text]"
+  },
+  {
+   "i": 24,
+   "en": "A soft chime from the comms console indicates the sniffer is installed and fully operational.",
+   "ctx": "data/campaign/rules.csv cob_snifferDesc2 [text]"
+  },
+  {
+   "i": 25,
+   "en": "A soft chime from the comms console indicates the sniffer is offline.",
+   "ctx": "data/campaign/rules.csv cob_snifferDesc3 [text]"
+  },
+  {
+   "i": 26,
+   "en": "A quick scan on the maintenance shortwave reveals several common vulnerabilities to choose from. Your comms officer installs the data-collection script, and confirms receipt of telemetry from the $shortName.",
+   "ctx": "data/campaign/rules.csv cob_hackDesc [text]"
+  },
+  {
+   "i": 27,
+   "en": "A quick scan on the maintenance shortwave reveals several common vulnerabilities to choose from. Your comms officer uploads the virus, which you elect not to question the provenance of.",
+   "ctx": "data/campaign/rules.csv cob_resetDesc [text]"
+  },
+  {
+   "i": 28,
+   "en": "You discuss the data the scavenger has available in the roundabout telling-but-not-telling these sorts of negotiations entail, and eventually settle on a price of $ht_dataCost credits.\r\n\r\nThe dataset includes the locations of all slipstreams within $ht_dataRange lights of your current location, and useful information about hyperspace topography.",
+   "ctx": "data/campaign/rules.csv scavBuyHTDataSel1 [text]"
+  },
+  {
+   "i": 29,
+   "en": "You discuss the data the scavenger has available in the roundabout way these sorts of negotiations entail, eventually settling on a price of $ht_dataCost credits. The dataset includes the locations of all slipstreams within $ht_dataRange lights of your current location.\r\n\r\nYou've recently acquired hypertopographic data not too far from your current hyperspace location, so this new data would not meaningfully contribute to your overall charts.",
+   "ctx": "data/campaign/rules.csv scavBuyHTDataSel2 [text]"
+  },
+  {
+   "i": 30,
+   "en": "The $post nods approval as your payment is transferred, and immediately executes the datastream to transfer the agreed-upon hyperspace and slipstream data.",
+   "ctx": "data/campaign/rules.csv buyHTDataConfirmSel [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"It's good to share what we know out here, ya never know what ghosties are hiding nor where,\" $heOrShe says, nodding as your payment is transferred. \"And I don't mind the credits,\" $heOrShe adds with a wink, then executes the datastream to transfer the agreed-upon hyperspace and slipstream data.",
+   "ctx": "data/campaign/rules.csv buyHTDataConfirmSelSpacer [text]"
+  },
+  {
+   "i": 32,
+   "en": "The $post nods approval as your payment is transferred, and says \"May your path be blessed and, by Providence, be a safer one hereon.\" \r\n\r\n$HeOrShe executes the datastream to transfer the agreed-upon hyperspace and slipstream data.",
+   "ctx": "data/campaign/rules.csv buyHTDataConfirmSelFaithful [text]"
+  },
+  {
+   "i": 33,
+   "en": "The $post nods approval as your payment is transferred, \"A fine move, my good captain,\" $heOrShe says, then executes the datastream to transfer the agreed-upon hyperspace and slipstream data.",
+   "ctx": "data/campaign/rules.csv buyHTDataConfirmSelAristo [text]"
+  },
+  {
+   "i": 34,
+   "en": "The $post nods approval as your payment is transferred, and says \"A wise choice, my... friend. One can never be too careful out here. \"\r\n\r\nAfter a slightly long pause and a strange smile $heOrShe executes the datastream to transfer the agreed-upon hyperspace and slipstream data.",
+   "ctx": "data/campaign/rules.csv buyHTDataConfirmSelVillain [text]"
+  },
+  {
+   "i": 35,
+   "en": "\"A good deal,\" the $post says as your payment is transferred. $HeOrShe immediately executes the datastream to transfer the agreed-upon hyperspace and slipstream data.\r\n\r\n\"Pleasure doing business with you,\" $heOrShe adds.",
+   "ctx": "data/campaign/rules.csv buyHTDataConfirmSelBusiness [text]"
+  },
+  {
+   "i": 36,
+   "en": "$HeOrShe takes your denial in good spirit and asks if there is anything else you wished to discuss.",
+   "ctx": "data/campaign/rules.csv buyHTDataNeverMindSel [text]"
+  },
+  {
+   "i": 37,
+   "en": "\"Now don't be blaming me if you get lost out here,\" $heOrShe says with good humor.",
+   "ctx": "data/campaign/rules.csv buyHTDataNeverMindSelSpacer [text]"
+  },
+  {
+   "i": 38,
+   "en": "\"Providence provides for those that provide for themselves, you know.\" $heOrShe says charitably.",
+   "ctx": "data/campaign/rules.csv buyHTDataNeverMindSelFaithful [text]"
+  },
+  {
+   "i": 39,
+   "en": "\"Pity,\" $heOrShe says. \"Now you be careful out here; you wouldn't want to get eaten by ghosts.\"",
+   "ctx": "data/campaign/rules.csv buyHTDataNeverMindSelVillain [text]"
+  },
+  {
+   "i": 40,
+   "en": "\"I hate missing out on a profitable deal, but I respect your position,\" $heOrShe says.",
+   "ctx": "data/campaign/rules.csv buyHTDataNeverMindSelBusiness [text]"
+  },
+  {
+   "i": 41,
+   "en": "You take a shuttle down to the main concourse and quickly find a likely-looking establishment.",
+   "ctx": "data/campaign/rules.csv bar_shuttleDescGeneric [text]"
+  },
+  {
+   "i": 42,
+   "en": "As you enter the bar you are buffeted by the human white-noise of conversation and revelry. Ad-holos buzz softly from ceiling-mounted units, shining garish highlights through glasses and bottles as spacer crews mingle with merchants and locals trading drinks for rumor, jobs, and opportunities.",
+   "ctx": "data/campaign/rules.csv bar_descGeneric [text]"
+  },
+  {
+   "i": 43,
+   "en": "As you enter the bar you are buffeted by the white-noise of conversation. A spacer at a cheap table looks at you and shock crosses their face. They nudge the merchant on the seat beside, and point. A hush falls over the bar. The ad-holos buzz softly, shining garish highlights through glasses.\r\n\r\nSeveral groups rise and leave, glaring acidly; one spacer spits at your feet, muttering curses. Your guards' hands find their weapons, but nothing more is necessary. You enter the bar, quieter than you found it; most drinkers do their best to pretend they didn't see you.",
+   "ctx": "data/campaign/rules.csv bar_descGenericInfamous [text]"
+  },
+  {
+   "i": 44,
+   "en": "As you enter the bar you are buffeted by the white-noise of conversation. A spacer at a cheap table looks at you with a double-take of recognition. They elbow their drinking companions, stand, and aggressively - unsteadily - approach you. At three meters they halt as they just now spot your guards, who have made themselves less inconspicuous.\r\n\r\n\"You! You can't go doing what you're doing,\" the spacer finds words are preferable now to a physical altercation. \"Throwing i-pulses at the hyperspace beasties and the ghosties. It's bad luck. Bad, bad luck going shoutin' at things yer not meant to!\" They've begun shouting at you, which you feel violates the generalized principle. \"-'ll be the death of us all!\"\r\n\r\nThe spacer's comrades, eyeing you, pull their loud companion back toward a quiet corner. A few onlookers make corrupted motions of Luddic blessing; spacer signs against ill-omen.",
+   "ctx": "data/campaign/rules.csv bar_descLeviathanCalvesPulsed [text]"
+  },
+  {
+   "i": 45,
+   "en": "The lounge is adorned on all surfaces in richly gilt geometrics; black marble columns underlit by cool light-tubes seem to hang effortlessly in the air. Corporate climbers, either slick Tri-Tachyon careerists or wannabes in crisp suits, negotiate deals while buying one another increasingly unlikely cocktails. A few spacers engage in subdued drinking in the low seats, glancing uneasily at what is either abstract art or some kind of holo-projection rig looming from the ceiling.",
+   "ctx": "data/campaign/rules.csv bar_descTriTach [text]"
+  },
+  {
+   "i": 46,
+   "en": "The space is dark and filled with shouts, sweat, and pulsing music. Every wall and surface is pitted and stained by rough spacers banging their mugs and laughing as a couple of pirate crews posture for a fight. You can only assume that one of the heavily augmented bouncers will spoil the fun before weapons are drawn. Gangers and pirate captains watch the scene smugly from smoke-filled booths at the back.",
+   "ctx": "data/campaign/rules.csv bar_descPirate [text]"
+  },
+  {
+   "i": 47,
+   "en": "You enter the crowded, well-lit space and take in the rows of taps adorning the wall under bottles from every one of the Core Worlds - and a few from elsewhere. Merchant-captains mingle with off-duty officers at the bar, served efficiently by the uniformed staff. In one corner, a pack of navy cadets shout and sing, desperately enjoying their last work-shift of freedom.",
+   "ctx": "data/campaign/rules.csv bar_descHegemony [text]"
+  },
+  {
+   "i": 48,
+   "en": "You enter the bar, leaving the noisome propaganda broadcasts of the throughway behind. Off-duty laborers drink away their ration credits dutifully at benches set beneath Diktat insignia. In one corner a cadre of finely dressed officer-bureaucrats calls for another round. Even here, a larger-than-life holo of the Lion of Sindria looks down on you as you decide what to do.",
+   "ctx": "data/campaign/rules.csv bar_descDiktat [text]"
+  },
+  {
+   "i": 49,
+   "en": "As you enter the bar, you sense a lively tension between the crews from across the League worlds. Dour Kazeronians in fine uniforms drink spirits while proud but poor Mayasurans down pints of rice-beer. A crew of Tylians trade rounds and boasts with a couple Zaganian bridge officers who are making a poor example of Luddic temperance. Glowing displays show media feeds from all the worlds of the League, and their speakers contribute to a dull roar of human white noise.",
+   "ctx": "data/campaign/rules.csv bar_descPerseanLeague [text]"
+  },
+  {
+   "i": 50,
+   "en": "You duck past notices encouraging temperance and restraint as you enter the bar. Someone is playing a stringed instrument in an alcove. A row of handworked samovars suggests that tea is served as often as the weak grain-brew favored by the crew of rough-looking laborers at the bar. Many of the patrons at tables or booths seem to be off-worlders or local unbelievers huddling in the closest analog to a den of sin that can be found.",
+   "ctx": "data/campaign/rules.csv bar_descLuddicChurch [text]"
+  }
+ ]
+}

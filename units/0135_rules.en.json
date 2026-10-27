@@ -1,0 +1,196 @@
+{
+ "chunk": 135,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "Bornanew looks at you, then to Pond. Then he speaks.\r\n\r\n\"I shall bring you to an agent of the Knights of Ludd. You shall confess all your sins, beginning first with that of heresy. They shall assign your penance, and it will be as harsh as you deserve.\"\r\n\r\n\"But you will live.\"",
+   "ctx": "data/campaign/rules.csv BFFIpondNoSedgeOutro2knightsB [text]"
+  },
+  {
+   "i": 2,
+   "en": "Pond looks stricken, but he nods. \"Yes, I... I'll do that. Menes. He is a kind man.\"",
+   "ctx": "data/campaign/rules.csv BFFIpondNoSedgeOutro2menesFool [text]"
+  },
+  {
+   "i": 3,
+   "en": "Pond looks stricken, but he nods. \"Yes, I... I'll do that. Menes will understand why I had to do... what I had to do.\"",
+   "ctx": "data/campaign/rules.csv BFFIpondNoSedgeOutro2menesKind [text]"
+  },
+  {
+   "i": 4,
+   "en": "Pond looks stricken, but he nods. \"Yes.\" Another cough. \"Menes, kind.\"",
+   "ctx": "data/campaign/rules.csv BFFIpondNoSedgeOutro2menesFoolB [text]"
+  },
+  {
+   "i": 5,
+   "en": "Pond looks stricken, but he nods. \"Yes. Menes.\" Another cough. \"Will understand.\"",
+   "ctx": "data/campaign/rules.csv BFFIpondNoSedgeOutro2menesKindB [text]"
+  },
+  {
+   "i": 6,
+   "en": "Bornanew looks at you, then to Pond. His expression softens, just a little.\r\n\r\n\"Captain,\" he says. \"They will kill him for his failure. And not well. Let me turn him over to the Knights. They will offer him a path to redemption, harsh though it may be.\"",
+   "ctx": "data/campaign/rules.csv BFFIpondNoSedgeOutro2dealA [text]"
+  },
+  {
+   "i": 7,
+   "en": "Bornanew looks at you, then to Pond.\r\n\r\nThere's an edge in his expression that you had not seen before.",
+   "ctx": "data/campaign/rules.csv BFFIpondNoSedgeOutro2dealB [text]"
+  },
+  {
+   "i": 8,
+   "en": "Bornanew places his hands together, and turns back to Pond.",
+   "ctx": "data/campaign/rules.csv BFFIpondNoSedgeOutro2badEb [text]"
+  },
+  {
+   "i": 9,
+   "en": "Pond nods, tears streaming down his face. He seems not to know what to do, and simply sits there slumped like a ragdoll, his mouth half-open.\r\n\r\nYou leave him in his cheap apartment, stepping over the ruined door. Bornanew pauses a moment to lean it against the hollow door frame like an insufficient apology.",
+   "ctx": "data/campaign/rules.csv BFFIulmusNoSedgeOutro2 [text]"
+  },
+  {
+   "i": 10,
+   "en": "Pond nods, tears streaming down his face. He sits slumped like a ragdoll, mouth half-open, until Bornanew pulls him to his feet.\r\n\r\n\"Move, walker.\" Bornanew's voice is his own again. \"The path of redemption is not easy, but it is as Ludd would ask.\"\r\n\r\nYou follow Pond from his cheap apartment, stepping over the ruined door. He gives you and Bornanew one last look, his face drained of emotion, then disappears down one of the labyrinthine alleyways of the settlement.",
+   "ctx": "data/campaign/rules.csv BFFIulmusNoSedgeOutro2menes [text]"
+  },
+  {
+   "i": 11,
+   "en": "Pond nods, tears streaming down his face. He sits slumped like a ragdoll, mouth half-open, until Bornanew pulls him to his feet.\r\n\r\n\"Move, walker.\" Bornanew's voice is his own again. \"The path of redemption is not easy, but it is as Ludd would ask.\"\r\n\r\nYou follow Pond from his cheap apartment, stepping over the ruined door. Bornanew makes a brief comms request, and soon a pair of furtive, hooded figures collect Pond from your custody.",
+   "ctx": "data/campaign/rules.csv BFFIulmusNoSedgeOutro2knights [text]"
+  },
+  {
+   "i": 12,
+   "en": "Bornanew watches him go, then stands with you for a quiet moment. Water drips, and the wind moans a low keen through the top of the settlement. \r\n\r\nHe taps at his datapad, and yours pings with incoming coordinates.\r\n\r\n\"I suspect this sect of the Path will not surrender their secrets without a fight,\" he says. \"They have invested much in this conspiracy.\"",
+   "ctx": "data/campaign/rules.csv BFFIulmusNoSedgeOutro3 [text]"
+  },
+  {
+   "i": 13,
+   "en": "You look at your TriPad, reading the coordinates given up by Ulmus Pond.",
+   "ctx": "data/campaign/rules.csv BFFIulmusNoSedgeOutro4 [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"I pray we find our answers,\" Bornanew says as you return to the shuttle. \"And I fear now that the Pathers know that we know their aims.\"\r\n\r\nYou secure yourself in your seat as the access hatch seals itself. The shuttle begins to lift toward orbit.",
+   "ctx": "data/campaign/rules.csv BFFIulmusNoSedgeOutro5 [text]"
+  },
+  {
+   "i": 15,
+   "en": "Bornanew does not reply.",
+   "ctx": "data/campaign/rules.csv BFFIulmusNoSedgeOutro6a [text]"
+  },
+  {
+   "i": 16,
+   "en": "Your sensors' officer runs a continuous passive sweep. A certain voluminous and outwardly nondescript station section is putting out a great deal of waste heat. It's not confirmation, but it could suggest an industrial size nanoforge operating at low throughput.",
+   "ctx": "data/campaign/rules.csv BFFIstationApproach [text]"
+  },
+  {
+   "i": 17,
+   "en": "Bornanew joins you on your flagship's bridge. Tactical gives him a skeptical look.",
+   "ctx": "data/campaign/rules.csv BFFIpsApproachConsultStart [text]"
+  },
+  {
+   "i": 18,
+   "en": "He bows his head, hands clasped.",
+   "ctx": "data/campaign/rules.csv BFFIpsApproachConsultStartA [text]"
+  },
+  {
+   "i": 19,
+   "en": "He raises an eyebrow, then takes in your bridge crew.",
+   "ctx": "data/campaign/rules.csv BFFIpsApproachConsultStartB [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"Captain,\" he says. \"We are here to find out who gave the Luddic Path a detailed scan of the original glove.\" He nods toward the display of the station, \"There will be comms buffers and, somewhere, a datacore of the glove scan - with metadata.\" The display bristles with weapons emplacements highlighted by tactical overlays.\r\n\r\n\"And we are here to eliminate their ability to produce another false relic.\" He looks distant, and speaks \"'Hammer in one hand, sword in the other, I pray to see it done.'\"",
+   "ctx": "data/campaign/rules.csv BFFIpsApproachConsultStartC [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"Carefully,\" Bornanew says, turning to you. \"As ever. Violence is among the tools of the Knight, but it must be that: a tool, not an end unto itself, 'lest it fill my heart with wrath, my soul with hate, to thereafter leave no home for love of the Creator, nor the Word.'\"\r\n\r\nIs that part of a credo of the Knights of Ludd? It isn't one you've heard before.",
+   "ctx": "data/campaign/rules.csv BFFIpsaConHubOptRespA1 [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"Decisively,\" Bornanew says, turning to you. \"You have taught me that much. Violence is among a Knight's tools, and I must not cower from its use.\"\r\n\r\n\"A marine raid to seize datastores, comms buffers, and prisoners. Then the nanoforge and all of its support equipment should be destroyed.\"",
+   "ctx": "data/campaign/rules.csv BFFIpsaConHubOptRespA1bb [text]"
+  },
+  {
+   "i": 23,
+   "en": "Bornanew gives you a weary look.\r\n\r\n\"You may jest, and I understand your need.\" He turns back to the tactical display. \"However I shan't close my eyes to the nature of my duty; you have taught me that much. Violence is among a Knight's tools, and I must not cower from its use.\"\r\n\r\n\"Consider: a marine raid to seize datastores, comms buffers, and prisoners. Then, you have demolitions experts? The nanoforge and all of its support equipment must be destroyed.\" ",
+   "ctx": "data/campaign/rules.csv BFFIpsaConHubOptRespA2bb [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"You cannot truly know until you ask,\" says Bornanew, choosing to entertain your presumed levity. \"The Creator gave even the Path free will, and I would accept peaceable surrender if given.\"\r\n\r\nHe turns to you. \"And violence is among the tools of a Knight, but it must be that: a tool, not an end unto itself, 'lest it fill my heart with wrath, my soul with hate, to thereafter leave no home for love of the Creator, nor the Word.'\"\r\n\r\n\"Consider: a marine raid to seize datastores and comms buffers. Then,\" he examines the tactical display, \"you have demolitions experts? The nanoforge and all of its support equipment must be destroyed.\"",
+   "ctx": "data/campaign/rules.csv BFFIpsaConHubOptRespA2 [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"Perhaps,\" says Bornanew. \"But do not let the fearsome reputation sown by the Luddic Path blind you to what they truly are - human. Fearful and fallible as you or I.\"\r\n\r\n\"They might be convinced to reveal something. Or if you can acquire comms buffers, they may prove illuminating.\" He looks at you, \"I believe there is a mole, an agent loyal to the Path within the Holy Cathedral of Exodus with access to the vaults. I need to narrow down my list of suspects.\"\r\n\r\n\"To say nothing of destroying this nanoforge and any data on the glove held in datacores.\" He considers a moment, then says \"Metadata from the scan of the glove may be useful, also.\"",
+   "ctx": "data/campaign/rules.csv BFFIpsaConHubOptRespA3 [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"Of that I admit I have little doubt.\" Bornanew gives you a weary look.\r\n\r\nHe turns back to the tactical display. \"I shan't close my eyes to the nature of my duty; you have taught me that much. Violence is among a Knight's tools, and I must not cower from its use.\"\r\n\r\n\"Consider: a marine raid to seize datastores, comms buffers, and prisoners. Then... you have demolitions experts? The nanoforge and all of its support equipment must be destroyed.\"",
+   "ctx": "data/campaign/rules.csv BFFIpsaConHubOptRespA3bb [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"I apologize for dissembling,\" he looks down for a moment, then back to you. \"Talk? Perhaps,\" he says.\r\n\r\n\"Don't let the fearsome reputation of the Luddic Path blind you to what they are - as human and fallible as you or I. We were given free will, and I would accept peaceable surrender if it were given.\"\r\n\r\n\"That is unlikely, however. Consider: a marine raid to seize datastores and comms buffers. Then... you have demolitions experts? The nanoforge itself must be destroyed.\" ",
+   "ctx": "data/campaign/rules.csv BFFIpsaConHubRespCarefully [text]"
+  },
+  {
+   "i": 28,
+   "en": "He thinks for a moment.\r\n\r\n\"I pray it is so. It would require some exceptional ruse or the charisma of a pr- no, let me not blaspheme by saying it. But you understand that it is, as I believe spacers say, 'a long shot'.\"",
+   "ctx": "data/campaign/rules.csv BFFIpsaConHubTalk [text]"
+  },
+  {
+   "i": 29,
+   "en": "He thinks for a moment, a dark look threatening to grow.\r\n\r\n\"I pray it is so. But these are heretics, poisoned by a false Word and a dark Path. It would require some exceptional ruse or the charisma of a pr- no, let me not blaspheme by saying it. But you understand that it is, as I believe spacers say, 'a long shot'.\"\r\n\r\nHe contemplates the tactical display for a moment. \"As well, there is something to be said for the element of surprise.\"",
+   "ctx": "data/campaign/rules.csv BFFIpsaConHubTalkB [text]"
+  },
+  {
+   "i": 30,
+   "en": "Bornanew lets out a breath.\r\n\r\n\"You must not,\" he looks worried. \"Setting aside... objections of the heart, complete destruction would almost certainly destroy the evidence required to identify the agent of the Path who has infiltrated the Cathedral of Holy Exodus.\"",
+   "ctx": "data/campaign/rules.csv BFFIpsaConHubBlast [text]"
+  },
+  {
+   "i": 31,
+   "en": "Bornanew takes a long breath. His eyes are dark, reflecting red pinpoints from the display.\r\n\r\n\"Doubtless such destruction would send an uncompromising message to these heretics who attempt to sew schism in the fields of the Mother Church. But.\" He raises his hand as if to grasp at his argument. \"Total obliteration poses a serious risk of destroying the evidence needed to track down the agent of the Path who has infiltrated the Cathedral of Holy Exodus. We need those data stores.\"\r\n\r\nHe pauses, then turns to you. \"Find the data first, through a marine raid, or some subterfuge. Then destroy the station. All would be served justice thus.\"",
+   "ctx": "data/campaign/rules.csv BFFIpsaConHubBlastbb [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"Did you?\" he asks.\r\n\r\n\"You have made virtue of using a swift and strong hand in such matters. A Knight must learn to harden his heart when the situation calls for such... efficacy.\"",
+   "ctx": "data/campaign/rules.csv BFFIpsaConHubBlastLen [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"Indeed.\" He casts his gaze up and far away. \"I thought her harsh, before. Cynicism of age. But I see now with the eyes of a man.\"\r\n\r\n\"And I, for my part, made the choice to trust you.\" He looks to you.\r\n\r\n\"So, captain, the path is yours. I shall follow.\" He clasps his hands together, bowing his head slightly.",
+   "ctx": "data/campaign/rules.csv BFFIpsaConHubBlastBBjasp [text]"
+  },
+  {
+   "i": 34,
+   "en": "He raises an eyebrow at your noncommittal response, but nods acceptance, hands clasped.",
+   "ctx": "data/campaign/rules.csv BFFIpsaConHubBlastA [text]"
+  },
+  {
+   "i": 35,
+   "en": "\"I do,\" he says. \"They are merely human, as are we all. Despite a history written in blood, I do not find that our species thrives on hatred.\"",
+   "ctx": "data/campaign/rules.csv BFFIpsaConHubBlastB [text]"
+  },
+  {
+   "i": 36,
+   "en": "He nods acceptance, thankful, with hands clasped.",
+   "ctx": "data/campaign/rules.csv BFFIpsaConHubBlastBa [text]"
+  },
+  {
+   "i": 37,
+   "en": "\"Perhaps. Though alongside their fear, you will earn their hate, and confirm in their minds all they say of you,\" he says. \"You may well leave eternal enemies in your wake.\"\r\n\r\n\"Or corpses, I suppose,\" he adds grimly.",
+   "ctx": "data/campaign/rules.csv BFFIpsaConHubBlastC [text]"
+  },
+  {
+   "i": 38,
+   "en": "\"Indeed.\" He casts his gaze up and far away. \"Let not the sins of our mothers...\" he says quietly, then looks back to you.\r\n\r\n\"Take my words not as judgment, but as a personal... a prayer, I suppose. Whatever her words, whatever her actions, she did choose to entrust her support to me in this, my task. And I, for my part, chose to trust you.\"\r\n\r\n\"So, captain, the path is yours.\" He drops his gaze and clasps his hands together.",
+   "ctx": "data/campaign/rules.csv BFFIpsaConHubBlastCa [text]"
+  }
+ ]
+}

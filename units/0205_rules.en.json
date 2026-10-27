@@ -1,0 +1,181 @@
+{
+ "chunk": 205,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "$HeOrShe brushes off $hisOrHer coat, muttering \"They don't know who they've-\" then smiles suddenly as you approach. \r\n\r\n\"Finally, someone reasonable.\" $HeOrShe pulls you aside as if you're old business partners, and says quietly \"I'm looking for $proCom_quantity units of $proCom_commodityName. Delivered here, as soon as possible, don't care how it gets done so long as it gets done, understand? I'm willing to pay $proCom_pricePerUnit per unit, isn't that generous? It's because I respect what you're capable of.\" \r\n\r\n$HeOrShe rolls $hisOrHer eyes at the group nearby, shrugging with one shoulder \"Some people, they have no respect. They'll learn. What do you say?\"",
+   "ctx": "data/campaign/rules.csv proComTextLocalBarUnderworld [text]"
+  },
+  {
+   "i": 2,
+   "en": "$HeOrShe looks up with a flicker of hope as you approach, \"You're a starship captain, right?\"\r\n\r\n$HeOrShe taps at a TriPad, \"I need $proCom_quantity units of $proCom_commodityName delivered to $proCom_marketName, $proCom_dist light-years away. You'd be paid above market rates, $proCom_pricePerUnit per unit for $proCom_totalPrice total on delivery to $proCom_personPost $proCom_personName. Are you interested?\"",
+   "ctx": "data/campaign/rules.csv proComTextRemoteBar [text]"
+  },
+  {
+   "i": 3,
+   "en": "You approach the $manOrWoman as $heOrShe glares icily, muttering \"-big mistake,\" then turns to you with a cool smile. \"Ah, captain.\" $HisOrHer eye twitches, the tell of a black market ocular implant, \"Your $shipOrFleet just arrived, yes? Let's talk.\" \r\n\r\n$HeOrShe raises two fingers at the bartender, \"I need $proCom_quantity units of $proCom_commodityName delivered to $proCom_marketName. $proCom_dist light-years away. I won't ask or answer any questions. It's full payment above market rate- $proCom_pricePerUnit per unit, for $proCom_totalPrice total on delivery to the contact,  $proCom_personName. They'll pay. And don't mention my name.\"\r\n\r\n$HisOrHer cool smile returns just as the bartender arrives with two small, potent drinks. \"Do we have a deal?\"",
+   "ctx": "data/campaign/rules.csv proComTextRemoteBarUnderworld [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"Yes, hello.\" $HeOrShe appears to be busy browsing a shipping manifest on an adjacent display, \"I'm expecting a cargo of $proCom_quantity units of $proCom_commodityName. To be paid for,\" $hisOrHer eyes turn to you. \"Upon delivery. In full.\"\r\nOR\r\n\"I'm expecting a delivery of $proCom_commodityName, $proCom_quantity units, exact.\" $HeOrShe idly reads from a datapad. \"That's the deal.\"",
+   "ctx": "data/campaign/rules.csv proComDeliverGreetingNotEnough [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"You're here to deliver $proCom_quantity units of $proCom_commodityName? This manifest says you can't fulfill the shipment.\"\r\n\r\n$HeOrShe drops the datapad to $hisOrHer desk with, you sense, more force than necessary. \r\n\r\n\"So why are you here?\" $heOrShe asks.\r\nOR\r\n\"I'm expecting a cargo of exactly $proCom_quantity units of $proCom_commodityName.\" $HeOrShe says, reading from a datapad. \"Delivery in full.\" $HeOrShe looks up, finally, \"That's the deal.\"",
+   "ctx": "data/campaign/rules.csv proComDeliverGreetingNotEnoughUW [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"Ah, you must be $playerName. We've been expecting you.\" $personName reads a datapad, \"And I believe- yes, it says here you're delivering $proCom_quantity units of $proCom_commodityName. Is that correct?\"",
+   "ctx": "data/campaign/rules.csv proComDeliverGreeting [text]"
+  },
+  {
+   "i": 7,
+   "en": "$personName looks you over nervously. \"You have the goods. And they're ready to be offloaded - as agreed, $proCom_quantity units at $proCom_pricePerUnit per?\"\r\nOR\r\n$personName eyes you suspiciously, \"You're $playerName? I thought you'd look different.\" $HisOrHer eyes flick over to a secondary display, \"It says here you've got the cargo, all $proCom_quantity units. We'll go ahead with the agreed $proCom_pricePerUnit per unit. I'll provide you with a drop-off point.\"",
+   "ctx": "data/campaign/rules.csv proComDeliverGreetingUnderworld [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"Thank you, this cargo of $proCom_commodityName is more important than you might think.\"\r\nOR\r\n\"I knew we could count on you. Thank you for the shipment.\"\r\nOR\r\n\"Good work, you've really saved us a lot of trouble.\"\r\nOR\r\n\"This was handled perfectly, captain. I'll be sure to put in a good word for you.\"",
+   "ctx": "data/campaign/rules.csv proComDeliverCompleted [text]"
+  },
+  {
+   "i": 9,
+   "en": "$HeOrShe nods, \"The boss will be pleased.\"\r\nOR\r\n\"Good. Very good,\" $heOrShe looks more relieved than the situation calls for. \"You have no idea how important this was.\"\r\nOR\r\n\"Okay, it's done.\" $HeOrShe seems to key in some kind of confirmation on an off-brand datapad, then looks back up at you. \"This never happened.\"",
+   "ctx": "data/campaign/rules.csv proComDeliverCompletedUnderworld [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"Oh, captain,\" the pirate $personRank looks almost apologetic. \"It's about the $proCom_commodityName procurement you've taken on. A minor matter,\" $heOrShe waggles a hand as if it's not quite important enough to explain, but $heOrShe will indulge you, \"But there is a competitor who hired me to send a message about the risks of doing business with that particular individual.\"",
+   "ctx": "data/campaign/rules.csv PROCOMPirateHail [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"I have an old freighter that's just taking up hangar space. Perhaps you could use it.\"",
+   "ctx": "data/campaign/rules.csv hmdfBlurb [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"Father has demanded I rid myself of an old freighter I've been meaning to fix up, he says it's taking up valuable space in his orbital hangar. I think he's being tremendously unfair. Perhaps you could take it?\"",
+   "ctx": "data/campaign/rules.csv hmdfBlurbAristo [text]"
+  },
+  {
+   "i": 13,
+   "en": "At a corner table a spacer in a dirty uniform is quietly drowning $hmdf_hisOrHer sorrows.",
+   "ctx": "data/campaign/rules.csv hmdfBlurbBar [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"I've got a $hmdf_hullClass freighter. I won't... I won't be needing it any more.\" $HeOrShe looks at you with reddened eyes that suggest sorrows which require quite a lot of drowning.\r\n\r\n\"I can sell it to you for $hmdf_price credits,\" $heOrShe says, then looks down at $hisOrHer half-empty drink. \"It was good to me, once.\"",
+   "ctx": "data/campaign/rules.csv hmdfOfferTextBar [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"It's a vintage $hmdf_hullClass freighter, and I was told by the seller that it's seen some real adventures. Terribly exciting, I feel, and it'd have made a fabulous conversation piece once I got it fixed up. There's always something coming up, however.\"\r\n\r\n\"I suppose I ought to make you pay for it to 'develop my business sense', as father put it. How much does a freighter cost, anyway. $hmdf_price credits, perhaps?\"",
+   "ctx": "data/campaign/rules.csv hmdfOfferTextContactAristo [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"This $hmdf_hullClass freighter has seen some light-years, but it'll fly. Would be a waste to simply scrap it. I can sell it to you for $hmdf_price credits.\"",
+   "ctx": "data/campaign/rules.csv hmdfOfferTextContact [text]"
+  },
+  {
+   "i": 17,
+   "en": "The spacer taps a few buttons on a greasy TriPad so you can see the freighter's schematics. \r\n\r\n\"Got a few light-years on 'er, for sure. But it'll burn bright and true,\" $heOrShe says wistfully.",
+   "ctx": "data/campaign/rules.csv hmdfBarLookAtFreighter [text]"
+  },
+  {
+   "i": 18,
+   "en": "$personName taps a few buttons to pull up the freighter schematics for your examination.\r\n\r\n\"I was thinking to augment the engines and install black market safety overrides to compel some utterly thrilling burn speeds. Don't tell father my plan, he'd be simply wroth.\"",
+   "ctx": "data/campaign/rules.csv hmdfLookAtFreighterAristo [text]"
+  },
+  {
+   "i": 19,
+   "en": "$personName taps a few buttons to pull up the freighter schematics for your examination. \"For me, it's just taking up space, which is why I'm offering a reasonable price.\"",
+   "ctx": "data/campaign/rules.csv hmdfLookAtFreighter [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"I trust you, captain,\" $heOrShe says carefully, \"There's a sensitive matter regarding the facilities of a long-time competitor of mine...\" \r\nOR\r\n\"We've built up a good rapport, I think,\" $heOrShe says, watching you carefully. \"I have a sensitive matter to discuss regarding the facilities of a... competitor.\"",
+   "ctx": "data/campaign/rules.csv dcomBlurb [text]"
+  },
+  {
+   "i": 21,
+   "en": "A $dcom_manOrWoman in an expensive business suit is clutching a TriPad with what seems like barely-restrained rage. Just staring into space.",
+   "ctx": "data/campaign/rules.csv dcomBlurbBar [text]"
+  },
+  {
+   "i": 22,
+   "en": "You exude understanding. If someone needed to vent a little flux, why, you'd be the perfect audience. It takes only halfway through a light drink before you have the angry $manOrWoman opening up about $hisOrHer problems. \r\n\r\nYou murmur vague agreement at the injustice done to honest folk, the irony of laws used as a shield by dishonest actors. Someone could do something, maybe.",
+   "ctx": "data/campaign/rules.csv dcomOfferTextBar [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"It'd be a rational response. Proportional, even,\" $heOrShe says intensely, $hisOrHer rage now the deathly cold of a cryovolcano. \"If their warehouse $dcom_marketOnOrAt $dcom_marketName was raided by an unassociated third party,\" $heOrShe smiles vengefully, lifting a drink in a salute to you, \"I could arrange $dcom_reward credits to find their way into your account if that happened. I'll provide all the necessary tactical details, of course.\"\r\n\r\nA quick review of $hisOrHer TriPad suggests that you'd need around $dcom_marines marines to carry off the operation. You note that it lies within $dcom_marketFactionArticle $dcom_marketFaction logistics zone, so performing such a raid may anger the local authorities. Even taking stealth measures may not entirely avert suspicion.",
+   "ctx": "data/campaign/rules.csv dcomOfferTextBar2 [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"If my competitor's warehouse $dcom_marketOnOrAt $dcom_marketName was raided by some third party,\" $heOrShe nods at you, $hisOrHer meaning clear \"I would arrange for $dcom_reward credits to be transferred to your account.\"\r\n\r\n\"My tacticians' analysis suggests that $dcom_marines marines would be sufficient.\" $HeOrShe pauses a moment, then adds \"And I would suggest going in quietly; this is $dcom_marketFactionArticle $dcom_marketFaction logistics zone and my intent is to send a message, not a broadcast.\"",
+   "ctx": "data/campaign/rules.csv dcomOfferTextContact [text]"
+  },
+  {
+   "i": 25,
+   "en": "You review a ground-level feed from a marine's suit cam. Flashbulbs of demolition charges stutter then after half a breath a heavy roll of thunder catches up with the photons.\r\n\r\nWith the raid completed and proof uploaded to a secure darknet address, your datapad pings softly to indicate that an anonymous payment has been received.",
+   "ctx": "data/campaign/rules.csv DCOMRaidFinished [text]"
+  },
+  {
+   "i": 26,
+   "en": "The mercenary $personRank looks very pleased, and perhaps a touch overconfident as the comms display stabilizes. \r\n\r\n\"Tsk, tsk,\" $heOrShe says. \"One can't expect to raid the holdings of major business concerns $dcom_marketOnOrAt $dcom_marketName and not have to deal with the consequences.\" $HeOrShe smiles, satisfied, as $heOrShe motions to someone off-display. The tell-tale glint of combat alerts appear in $hisOrHer eyes.",
+   "ctx": "data/campaign/rules.csv DCOMMercHail [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"I'd like to set up an economic arrangement with a reliable colonial producer of $cpm_commodityName covering a period of several cycles.\"\r\nOR\r\n\"I'm looking to invest in a colony which can produce $cpm_commodityName reliably for several cycles.\"",
+   "ctx": "data/campaign/rules.csv cpmBlurb [text]"
+  },
+  {
+   "i": 28,
+   "en": "A $cpm_manOrWoman in a business suit sits in a private booth thoughtfully perusing a top-line TriPad alongside a bottle of something expensive.",
+   "ctx": "data/campaign/rules.csv cpmBlurbBar [text]"
+  },
+  {
+   "i": 29,
+   "en": "A $cpm_manOrWoman in a private booth thoughtfully peruses a top-line TriPad alongside a bottle of something expensive. Definitely a rich smuggler.",
+   "ctx": "data/campaign/rules.csv cpmBlurbBarPirate [text]"
+  },
+  {
+   "i": 30,
+   "en": "You approach the private booth, doing your best to look both important and well-connected. It seems to work; the $cpm_manOrWoman looks up from $hisOrHer TriPad and motions for you to join $himOrHer.\r\n\r\n\"Captain $playerName. Please, sit.\" $heOrShe gives a small smile at catching you off-guard, and pours a tiny glass of something decadent from the bottle. \"I've heard so much about your accomplishments. It's all very enterprising. Bravo.\"\r\n\r\n$HeOrShe raises the tiny glass, \"To opportunity,\" sips, then places the glass down beside $hisOrHer TriPad. \"I have a proposal for you. An opportunity.\"",
+   "ctx": "data/campaign/rules.csv cpmOfferTextBar [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"I need a steady supply of $cpm_needed units of $cpm_commodityName from a reliable colonial administrator. My organization would expect first delivery within $cpm_missionCycles cycles. Once established, I would arrange for monthly payments of $cpm_monthlyPayment credits over $cpm_contractCycles cycles, for a total of $cpm_totalPayment credits.\"\r\n\r\n$HeOrShe slides $hisOrHer TriPad across the table for your review. It states the terms of the contract as described. \"I believe this arrangement could benefit both of us for a long time.\"",
+   "ctx": "data/campaign/rules.csv cpmOfferTextBar2 [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"I need a steady supply of $cpm_needed units of $cpm_commodityName from a reliable colonial administrator. I would expect full production brought online within $cpm_missionCycles cycles. Once established, I would arrange for monthly payments of $cpm_monthlyPayment credits over $cpm_contractCycles cycles, for a total of $cpm_totalPayment credits.\"\r\n\r\n\"This could prove quite lucrative if you could guarantee the stable supply chain our operation requires,\" $heOrShe says.",
+   "ctx": "data/campaign/rules.csv cpmOfferTextContact [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"I need someone I can count on to arrange for a colonial producer of $cpm_commodityName over a period of several cycles.\"",
+   "ctx": "data/campaign/rules.csv cpmBlurbUW [text]"
+  },
+  {
+   "i": 34,
+   "en": "A $cpm_manOrWoman sits alone in a private booth, flanked by discreet bodyguards. There is a sinister vibe to their bearing.",
+   "ctx": "data/campaign/rules.csv cpmBlurbBarUW [text]"
+  },
+  {
+   "i": 35,
+   "en": "You approach the private booth, doing your best to look both important and well-connected. It seems to work; the $cpm_manOrWoman waves back $hisOrHer bodyguards and motions for you to join $himOrHer.\r\n\r\n\"Is it Captain $playerName? Of course it is.\" $HeOrShe pours $himOrHerself something from the fabulously expensive bottle at the center of the table. \"My informants have told me so much about you. Your accomplishments,\" $hisOrHer eyebrows lift, \"Your exploits. I admire your pursuit of power. No, don't deny it,\" $heOrShe says, swirling $hisOrHer glass, \"You do it well, and that is why we are speaking.\"\r\n\r\n$HeOrShe empties $hisOrHer glass, then says \"I would very much like us to work together.\"",
+   "ctx": "data/campaign/rules.csv cpmOfferTextBarUW [text]"
+  }
+ ]
+}

@@ -1,0 +1,1076 @@
+{
+ "chunk": 274,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"Easy $global.jethroName. Ulmus only had good intentions I'm sure.\"",
+   "ctx": "BFFIulmusTalkPcBad"
+  },
+  {
+   "i": 2,
+   "en": "\"No, I think Ulmus is behind it. We should do an active scan on his brain.\"\r",
+   "ctx": "BFFIulmusTalkPcBad1a"
+  },
+  {
+   "i": 3,
+   "en": "\"Perhaps you're right, he does look pretty innocent.\"",
+   "ctx": "BFFIulmusTalkPcBad1a"
+  },
+  {
+   "i": 4,
+   "en": "\"So you admit you 'helped' Menes buy a fake relic from the Pathers!\"",
+   "ctx": "BFFIulmusTalkPcBad2a"
+  },
+  {
+   "i": 5,
+   "en": "\"Ulmus is behind it. We should perform an active scan on his brain.\"\r",
+   "ctx": "BFFIulmusTalkPcBad1b"
+  },
+  {
+   "i": 6,
+   "en": "\"On second thought, I don't think Ulmus had anything to do with it.\"",
+   "ctx": "BFFIulmusTalkPcBad1b"
+  },
+  {
+   "i": 7,
+   "en": "\"Ah... yes, that's right. We really should try the brain-interfacer.\"\r",
+   "ctx": "BFFIulmusTalkPcBad2b"
+  },
+  {
+   "i": 8,
+   "en": "\"'Brain-interfacer'? What is this nonsense $global.jethroName?\"",
+   "ctx": "BFFIulmusTalkPcBad2b"
+  },
+  {
+   "i": 9,
+   "en": "\"Yet you ran. Right back to your Pather masters on Chalcedon.\"",
+   "ctx": "BFFIulmusTalkPcBad3a"
+  },
+  {
+   "i": 10,
+   "en": "\"But you ran, Ulmus. Right back to your Pather masters here on Chalcedon.\"",
+   "ctx": "BFFIulmusTalkPcBad3b"
+  },
+  {
+   "i": 11,
+   "en": "\"If, and only if, $global.jethroName, he helps us. Otherwise he goes to the Inquisitors.\"",
+   "ctx": "BFFIulmusTalkPcBad4a"
+  },
+  {
+   "i": 12,
+   "en": "\"Show him, Ulmus. It's us or the Inquisitors.\"",
+   "ctx": "BFFIulmusTalkPcBad6a"
+  },
+  {
+   "i": 13,
+   "en": "\"Easy $global.jethroName. Ulmus only had good intentions I'm sure.\"\r",
+   "ctx": "BFFIulmusTalkPcGood0"
+  },
+  {
+   "i": 14,
+   "en": "\"Why wait for them? My techs can simply open up his brain...\"",
+   "ctx": "BFFIulmusTalkPcGood0"
+  },
+  {
+   "i": 15,
+   "en": "\"I apologize, Ulmus. It was a joke. I believe you.\"\r",
+   "ctx": "BFFIulmusTalkPcGood1b"
+  },
+  {
+   "i": 16,
+   "en": "\"$global.jethroName, look, we're going to have to switch this up.\"\r",
+   "ctx": "BFFIulmusTalkPcGood1b"
+  },
+  {
+   "i": 17,
+   "en": "\"No. I, uh, believe Ulmus only ever had good intentions. Right?\"\r",
+   "ctx": "BFFIulmusTalkSwitch1"
+  },
+  {
+   "i": 18,
+   "en": "\"Yes. I'm sure you can handle it.\"",
+   "ctx": "BFFIulmusTalkSwitch1"
+  },
+  {
+   "i": 19,
+   "en": "\"They must have threatened you, Ulmus. You wouldn't hurt anybody.\"\r",
+   "ctx": "BFFIulmusTalkPcGood2"
+  },
+  {
+   "i": 20,
+   "en": "\"Knight Bornanew is right. You're guilty and deserve punishment.\"",
+   "ctx": "BFFIulmusTalkPcGood2"
+  },
+  {
+   "i": 21,
+   "en": "\"We want to help. Tell us who did this to you, Ulmus.\"\r",
+   "ctx": "BFFIulmusTalkPcGood3b"
+  },
+  {
+   "i": 22,
+   "en": "\"The Knights punish heretics. Forgiveness is for God.\"",
+   "ctx": "BFFIulmusTalkPcGood3b"
+  },
+  {
+   "i": 23,
+   "en": "\"Show him, Ulmus. Who's behind this. Where.\"\r",
+   "ctx": "BFFIulmusTalkPcGood4"
+  },
+  {
+   "i": 24,
+   "en": "\"This is how you make it out of here alive, Ulmus. Show him.\"",
+   "ctx": "BFFIulmusTalkPcGood4"
+  },
+  {
+   "i": 25,
+   "en": "\"Um, $global.jethroName?\"\r",
+   "ctx": "BFFIulmusTalkPcWrong1"
+  },
+  {
+   "i": 26,
+   "en": "\"$global.jethroName! What are you doing?\"",
+   "ctx": "BFFIulmusTalkPcWrong1"
+  },
+  {
+   "i": 27,
+   "en": "Turn around, slowly",
+   "ctx": "BFFIulmusTalkPcWrong3a"
+  },
+  {
+   "i": 28,
+   "en": "\"Wrestling Sedge. But he's dead.\"\r",
+   "ctx": "BFFIulmusTalkPcWrong3b"
+  },
+  {
+   "i": 29,
+   "en": "\"I recall handling that problem already.\"",
+   "ctx": "BFFIulmusTalkPcWrong3b"
+  },
+  {
+   "i": 30,
+   "en": "Subvocalize a call to your security team\r",
+   "ctx": "BFFIulmusSedge1"
+  },
+  {
+   "i": 31,
+   "en": "\"We were just having a chat with Mister Pond here.\"\r",
+   "ctx": "BFFIulmusSedge1"
+  },
+  {
+   "i": 32,
+   "en": "\"Sedge. I should have shot you when I had the chance.\"\r",
+   "ctx": "BFFIulmusSedge1"
+  },
+  {
+   "i": 33,
+   "en": "Draw your weapon",
+   "ctx": "BFFIulmusSedge1"
+  },
+  {
+   "i": 34,
+   "en": "\"Unlucky? Why?\"\r",
+   "ctx": "BFFIulmusSedge1b"
+  },
+  {
+   "i": 35,
+   "en": "Draw your weapon and stop Sedge ",
+   "ctx": "BFFIulmusSedge4"
+  },
+  {
+   "i": 36,
+   "en": "Check on Bornanew",
+   "ctx": "BFFIulmusSedge5"
+  },
+  {
+   "i": 37,
+   "en": "\"Go to Menes. Confess. He's fool enough to forgive you.\"\r",
+   "ctx": "BFFIpondNoSedgeOutro2opts"
+  },
+  {
+   "i": 38,
+   "en": "\"Go to Menes. Confess. He's kind enough to forgive you.\"\r",
+   "ctx": "BFFIpondNoSedgeOutro2opts"
+  },
+  {
+   "i": 39,
+   "en": "\"$global.jethroName, will the Knights take this man?\"\r",
+   "ctx": "BFFIpondNoSedgeOutro2opts"
+  },
+  {
+   "i": 40,
+   "en": "\"You did this to yourself. Now deal with it.\"",
+   "ctx": "BFFIpondNoSedgeOutro2opts"
+  },
+  {
+   "i": 41,
+   "en": "\"Get out of here. And if you don't tell Menes, I will.\"",
+   "ctx": "BFFIpondNoSedgeOutro2menesFool"
+  },
+  {
+   "i": 42,
+   "en": "\"As you like, $global.jethroName. Pond is your responsibility.\"\r",
+   "ctx": "BFFIpondNoSedgeOutro2dealA"
+  },
+  {
+   "i": 43,
+   "en": "\"No. Pond earned his own fate and I'll have it no other way.\"",
+   "ctx": "BFFIpondNoSedgeOutro2dealA"
+  },
+  {
+   "i": 44,
+   "en": "\"We're done.\" (leave)",
+   "ctx": "BFFIpondNoSedgeOutro2dealB"
+  },
+  {
+   "i": 45,
+   "en": "\"We're going to the $bffi_patherStationSystem.\"",
+   "ctx": "BFFIulmusNoSedgeOutro4"
+  },
+  {
+   "i": 46,
+   "en": "\"Fear not, $global.jethroName. My $shipOrFleet will be ready.\"\r",
+   "ctx": "BFFIulmusNoSedgeOutro5"
+  },
+  {
+   "i": 47,
+   "en": "\"When I end this, $global.jethroName, it is the Path that shall fear me.\"",
+   "ctx": "BFFIulmusNoSedgeOutro5"
+  },
+  {
+   "i": 48,
+   "en": "Nod acknowledgement\r",
+   "ctx": "BFFIpsApproachConsultStart"
+  },
+  {
+   "i": 49,
+   "en": "\"$global.jethroName. I welcome your counsel.\"\r",
+   "ctx": "BFFIpsApproachConsultStart"
+  },
+  {
+   "i": 50,
+   "en": "\"We're going to break these Pathers wide open.\"",
+   "ctx": "BFFIpsApproachConsultStart"
+  },
+  {
+   "i": 51,
+   "en": "\"So, how do you think we should approach this one?\"",
+   "ctx": "BFFIpsaConHubOptA0"
+  },
+  {
+   "i": 52,
+   "en": "\"Shall we ask nicely how they did it?\"",
+   "ctx": "BFFIpsaConHubOptA1"
+  },
+  {
+   "i": 53,
+   "en": "\"These are fanatics. They'd sooner die than talk.\"",
+   "ctx": "BFFIpsaConHubOptA2"
+  },
+  {
+   "i": 54,
+   "en": "\"'Carefully,\" isn't enough. You suggest we talk to them?\"",
+   "ctx": "BFFIpsaConHubOptCarefully"
+  },
+  {
+   "i": 55,
+   "en": "\"I shall proceed with the operation.\"",
+   "ctx": "BFFIpsaConHubOptE"
+  },
+  {
+   "i": 56,
+   "en": "\"We could simply blast this station apart and sift the wreckage for datastores and prisoners.\"",
+   "ctx": "BFFIpsaConHubOptC"
+  },
+  {
+   "i": 57,
+   "en": "\"You've given me a lot to think about.\"\r",
+   "ctx": "BFFIpsaConHubBlast"
+  },
+  {
+   "i": 58,
+   "en": "\"You suggest that leniency will prompt cooperation? From Pathers?\"\r",
+   "ctx": "BFFIpsaConHubBlast"
+  },
+  {
+   "i": 59,
+   "en": "\"Archcurate Jaspis seems less forgiving of Pathers than you.\"\r",
+   "ctx": "BFFIpsaConHubBlast"
+  },
+  {
+   "i": 60,
+   "en": "\"If I do not prove absolute domination of my enemy, they will not fear me.\"",
+   "ctx": "BFFIpsaConHubBlast"
+  },
+  {
+   "i": 61,
+   "en": "\"I shall consider this.\"\r",
+   "ctx": "BFFIpsaConHubBlastbb"
+  },
+  {
+   "i": 62,
+   "en": "\"I expected more talk of leniency from you, $global.jethroName.\"\r",
+   "ctx": "BFFIpsaConHubBlastbb"
+  },
+  {
+   "i": 63,
+   "en": "\"I believe that Archcurate Jaspis would approve of this 'message'.\"",
+   "ctx": "BFFIpsaConHubBlastbb"
+  },
+  {
+   "i": 64,
+   "en": "\"I shall do as you ask - so far as is possible.\"\r",
+   "ctx": "BFFIpsaConHubBlastB"
+  },
+  {
+   "i": 65,
+   "en": "\"If they force me to, I will do what is necessary.\"\r",
+   "ctx": "BFFIpsaConHubBlastB"
+  },
+  {
+   "i": 66,
+   "en": "\"Archcurate Jaspis seems less forgiving of Pathers than you.\"",
+   "ctx": "BFFIpsaConHubBlastB"
+  },
+  {
+   "i": 67,
+   "en": "\"I'll just win the battle without hurting anyone, is that what you want?\"\r",
+   "ctx": "BFFIpsaConHubBlastC"
+  },
+  {
+   "i": 68,
+   "en": "\"If they force me to, I will do what is necessary.\"",
+   "ctx": "BFFIpsaConHubBlastC"
+  },
+  {
+   "i": 69,
+   "en": "Consult with $global.jethroName\r",
+   "ctx": "BFFIpsApproachBornMedbay"
+  },
+  {
+   "i": 70,
+   "en": "Handle this one yourself",
+   "ctx": "BFFIpsApproachBornMedbay"
+  },
+  {
+   "i": 71,
+   "en": "TODO continue",
+   "ctx": "BFFIstationMedConsultStart"
+  },
+  {
+   "i": 72,
+   "en": "\"$global.jethroName. That was a brave thing you did on Chalcedon.\"",
+   "ctx": "BFFIstationMedConsultOptA"
+  },
+  {
+   "i": 73,
+   "en": "\"$global.jethroName. That was a stupid thing you did on Chalcedon.\"",
+   "ctx": "BFFIstationMedConsultOptB"
+  },
+  {
+   "i": 74,
+   "en": "\"You should thank the medical team, they're the ones that saved you.\"",
+   "ctx": "BFFIstationMedConsultOptC"
+  },
+  {
+   "i": 75,
+   "en": "\"We're in the $bffi_patherStationSystem. There's a Pather base.\"",
+   "ctx": "BFFIstationMedConsultOptD"
+  },
+  {
+   "i": 76,
+   "en": "\"I intend to negotiate with the Pather in charge here.\"\r",
+   "ctx": "BFFIstationMedConWhatDo1"
+  },
+  {
+   "i": 77,
+   "en": "\"I intend to send a marine raid. Seize datastores, destroy the forge.\"\r",
+   "ctx": "BFFIstationMedConWhatDo1"
+  },
+  {
+   "i": 78,
+   "en": "\"I intend to attack directly. Destroy the station.\"",
+   "ctx": "BFFIstationMedConWhatDo1"
+  },
+  {
+   "i": 79,
+   "en": "\"Of course.\"\r",
+   "ctx": "BFFIstationMedConOutro1"
+  },
+  {
+   "i": 80,
+   "en": "\"I will decide when he needs rest, doctor.\"",
+   "ctx": "BFFIstationMedConOutro1"
+  },
+  {
+   "i": 81,
+   "en": "\"I've come a long way looking to purchase something... unique.\" (lie)",
+   "ctx": "BFFIpatherStationTalkBuyer"
+  },
+  {
+   "i": 82,
+   "en": "\"Your nanoforge assembled a very interesting item. I have questions.\"",
+   "ctx": "BFFIpatherStationTalkConfront"
+  },
+  {
+   "i": 83,
+   "en": "\"I come as fellow-walker of the Faith... I have grave concerns.\"",
+   "ctx": "BFFIpatherStationTalkFaithful"
+  },
+  {
+   "i": 84,
+   "en": "\"Light or no, I am honest. You sow false relics to cause war among the Faithful.\"",
+   "ctx": "BFFIstationTalkHubBuyer"
+  },
+  {
+   "i": 85,
+   "en": "\"You speak of sin while you sow false relics to cause war among the Faithful?\"",
+   "ctx": "BFFIstationTalkHubConfront"
+  },
+  {
+   "i": 86,
+   "en": "\"Blind am I, and faithless? I see you sow false relics to cause war among the Faithful.\"",
+   "ctx": "BFFIstationTalkHubConcerns"
+  },
+  {
+   "i": 87,
+   "en": "\"If it is an honest fight you want, then why the false relics scheme?\"",
+   "ctx": "BFFIstationTalkHubObjection2"
+  },
+  {
+   "i": 88,
+   "en": "\"Why are you so willing to violate the tenets of your faith for Wrestling Sedge?\"",
+   "ctx": "BFFIstationTalkHubObjection3"
+  },
+  {
+   "i": 89,
+   "en": "\"Your 'skulduggery' is undone anyway. I found your relic and tracked it to here.\"",
+   "ctx": "BFFIstationTalkHubObjection1"
+  },
+  {
+   "i": 90,
+   "en": "\"We seek not your death, but to stop a scheme that will itself kill countless Faithful.\" (explain)",
+   "ctx": "BFFIstationTalkSPsetupA"
+  },
+  {
+   "i": 91,
+   "en": "\"I can destroy you. Choose to lose all - or make a deal, and lose little.\" (explain)",
+   "ctx": "BFFIstationTalkSPsetupB"
+  },
+  {
+   "i": 92,
+   "en": "\"You're a hopeless fanatic. There is no reasoning with you.\"",
+   "ctx": "BFFIstationTalkHubOutA"
+  },
+  {
+   "i": 93,
+   "en": "\"Your heresy has twisted your faith. There is no reasoning with you.\" (cut the comms)",
+   "ctx": "BFFIstationTalkHubOutB"
+  },
+  {
+   "i": 94,
+   "en": "\"Then praise the Path! You're free of the beast and his schemes.\"\r",
+   "ctx": "BFFIstationTalk2sedge"
+  },
+  {
+   "i": 95,
+   "en": "\"It is I who shot Sedge. Though I'm less machine than you'd hope.\"",
+   "ctx": "BFFIstationTalk2sedge"
+  },
+  {
+   "i": 96,
+   "en": "\"It is I who killed Sedge. After he murdered the man I was speaking to.\"",
+   "ctx": "BFFIstationTalk2sedgeZ"
+  },
+  {
+   "i": 97,
+   "en": "Propose terms",
+   "ctx": "BFFIpsRuseNiceSetup"
+  },
+  {
+   "i": 98,
+   "en": "\"I truly hoped that would have gone better.\"\r",
+   "ctx": "BFFIpsTalkFailStart"
+  },
+  {
+   "i": 99,
+   "en": "\"Good. Now we can do this my way.\"",
+   "ctx": "BFFIpsTalkFailStart"
+  },
+  {
+   "i": 100,
+   "en": "\"Accept my terms. It is the Path of least harm for all.\"",
+   "ctx": "BFFIpsRuseOpenNice"
+  },
+  {
+   "i": 101,
+   "en": "Carry out the ruse to seize datastores and destroy the nanoforge",
+   "ctx": "BFFIpsRuseNiceOption"
+  },
+  {
+   "i": 102,
+   "en": "\"I have given the Path a great gift, and that deal has held.\"",
+   "ctx": "BFFIpsRuseNiceFopt"
+  },
+  {
+   "i": 103,
+   "en": "\"Let's make it easy. I'll give you 50,000 credits to assist your relocation.\"",
+   "ctx": "BFFIpsRuseNiceAopt"
+  },
+  {
+   "i": 104,
+   "en": "\"I have walked the Pilgrim's Path. We may not see eye-to-eye, but I am a fellow walker.\"",
+   "ctx": "BFFIpsRuseNiceBopt"
+  },
+  {
+   "i": 105,
+   "en": "\"I have walked the Path. I support your cause, in the end, even if you don't believe it.\"",
+   "ctx": "BFFIpsRuseNiceCopt"
+  },
+  {
+   "i": 106,
+   "en": "\"I have been merciful in my actions, whatever you think of my beliefs.\"",
+   "ctx": "BFFIpsRuseNiceDopt"
+  },
+  {
+   "i": 107,
+   "en": "\"Surely my humanitarian reputation precedes me.\"",
+   "ctx": "BFFIpsRuseNiceEopt"
+  },
+  {
+   "i": 108,
+   "en": "\"My patience is spent. There can be no deal, and that's on you.\" (cut comms)",
+   "ctx": "BFFIpsRuseNiceOutA"
+  },
+  {
+   "i": 109,
+   "en": "\"Your heresy has corrupted you too far. I pray the infinite accepts you.\" (cut comms)",
+   "ctx": "BFFIpsRuseNiceOutB"
+  },
+  {
+   "i": 110,
+   "en": "\"Those are the terms. My wrath is great and won't be long contained.\"",
+   "ctx": "BFFIpsRuseOpenMean"
+  },
+  {
+   "i": 111,
+   "en": "\"My capital ships will break your station apart. You have no chance of victory.\"",
+   "ctx": "BFFIpsRuseMeanAopt"
+  },
+  {
+   "i": 112,
+   "en": "\"I killed Wrestling Sedge, and I would kill you without remorse. The choice is yours.\"",
+   "ctx": "BFFIpsRuseMeanBopt"
+  },
+  {
+   "i": 113,
+   "en": "\"You know of me. My reputation for ruthlessness precedes me.\"",
+   "ctx": "BFFIpsRuseMeanCopt"
+  },
+  {
+   "i": 114,
+   "en": "\"I am a great enemy known to all Pathers. How could you doubt my threat?\"",
+   "ctx": "BFFIpsRuseMeanDopt"
+  },
+  {
+   "i": 115,
+   "en": "\"Trust that I am mercenary. I'm avoiding a fight to save credits.\"",
+   "ctx": "BFFIpsRuseMeanEopt"
+  },
+  {
+   "i": 116,
+   "en": "\"My patience with you is spent.\" (cut comms)",
+   "ctx": "BFFIpsRuseMeanOutA"
+  },
+  {
+   "i": 117,
+   "en": "\"I cannot deal with a mad heretic. Pray now for a quick death.\" (cut comms)",
+   "ctx": "BFFIpsRuseMeanOutB"
+  },
+  {
+   "i": 118,
+   "en": "Assemble your officers to plan a raid to capture the nanoforge",
+   "ctx": "BFFIaddStationRaidOption"
+  },
+  {
+   "i": 119,
+   "en": "\"$global.jethroName. What is it?\"",
+   "ctx": "BFFIpsDestroyed0a"
+  },
+  {
+   "i": 120,
+   "en": "\"So this Keepfaith is your Pather mole?\"",
+   "ctx": "BFFIpsDestroyed2"
+  },
+  {
+   "i": 121,
+   "en": "Order it done",
+   "ctx": "BFFIpsDestroyed5"
+  },
+  {
+   "i": 122,
+   "en": "\"What have you found?\"",
+   "ctx": "BFFIpsDestroyedBornMed0"
+  },
+  {
+   "i": 123,
+   "en": "\"Clean up some representative samples for me.\"",
+   "ctx": "BFFIpsDestroyedBornMed1"
+  },
+  {
+   "i": 124,
+   "en": "Go to the medbay",
+   "ctx": "BFFIpsDestroyedBornMed2"
+  },
+  {
+   "i": 125,
+   "en": "\"Over the what?\"",
+   "ctx": "BFFIpsDestroyedBornMed3"
+  },
+  {
+   "i": 126,
+   "en": "\"So this Keepfaith is your Pather mole.\"",
+   "ctx": "BFFIpsDestroyedBornMed4"
+  },
+  {
+   "i": 127,
+   "en": "\"Get some rest. We're going to Tartessus.\"",
+   "ctx": "BFFIpsDestroyedBornMed5"
+  },
+  {
+   "i": 128,
+   "en": "> DEV - BFFI skip to confrontation with Keepfaith",
+   "ctx": "BFFIarrestOptionDev"
+  },
+  {
+   "i": 129,
+   "en": "> DEV - BFFI set Bornanew was shot by Sedge",
+   "ctx": "BFFIarrestOptionDev2"
+  },
+  {
+   "i": 130,
+   "en": "Shuttle down to the cathedral with $global.jethroName",
+   "ctx": "BFFIarrestOption"
+  },
+  {
+   "i": 131,
+   "en": "Board what passes for transport on Tartessus",
+   "ctx": "BFFIarrestCurate1"
+  },
+  {
+   "i": 132,
+   "en": "\"Are you telling me there is going to be trouble?\"",
+   "ctx": "BFFIidolTalkHubOptB"
+  },
+  {
+   "i": 133,
+   "en": "\"So what's wrong with the 'Mundanians'?\"",
+   "ctx": "BFFIidolTalkHubOptC"
+  },
+  {
+   "i": 134,
+   "en": "\"What distinguishes the Ineffablist doctrine?\"",
+   "ctx": "BFFIidolTalkHubOptD"
+  },
+  {
+   "i": 135,
+   "en": "\"'Idolators', huh. And what do they call you?\"",
+   "ctx": "BFFIidolTalkHubOptE"
+  },
+  {
+   "i": 136,
+   "en": "\"You fight over this? It sounds interminable.\"",
+   "ctx": "BFFIidolTalkHubOptF"
+  },
+  {
+   "i": 137,
+   "en": "\"So you're just going to walk in, unarmed, and make an arrest?\"\r",
+   "ctx": "BFFIidolTalkOpposition"
+  },
+  {
+   "i": 138,
+   "en": "\"You mention this now? We should have prepared.\"\r",
+   "ctx": "BFFIidolTalkOpposition"
+  },
+  {
+   "i": 139,
+   "en": "\"Opposition? Shall I call in a squad of marines?\"\r",
+   "ctx": "BFFIidolTalkOpposition"
+  },
+  {
+   "i": 140,
+   "en": "\"Not to worry. I'm prepared.\" (pat your weapon)",
+   "ctx": "BFFIidolTalkOpposition"
+  },
+  {
+   "i": 141,
+   "en": "\"With your injury... you're sure you want to do this?\"\r",
+   "ctx": "BFFIidolTalkOppositionInjured"
+  },
+  {
+   "i": 142,
+   "en": "\"So you're just going to walk in, unarmed, to arrest a curate?\"\r",
+   "ctx": "BFFIidolTalkOppositionInjured"
+  },
+  {
+   "i": 143,
+   "en": "\"I'll, um, follow your lead.\"\r",
+   "ctx": "BFFIarrestOppo2"
+  },
+  {
+   "i": 144,
+   "en": "\"Must it? You're putting a lot of faith in others choosing to cooperate.\"\r",
+   "ctx": "BFFIarrestOppo2"
+  },
+  {
+   "i": 145,
+   "en": "\"I'll protect the two of us, then. If it comes to it.\"\r",
+   "ctx": "BFFIarrestOppo2"
+  },
+  {
+   "i": 146,
+   "en": "\"I mean no offense, but you're a bit crazy, you know that?\"",
+   "ctx": "BFFIarrestOppo2"
+  },
+  {
+   "i": 147,
+   "en": "\"I'll follow your lead.\"\r",
+   "ctx": "BFFIarrestOppo2bb"
+  },
+  {
+   "i": 148,
+   "en": "\"I'll protect the two of us, then.\"\r",
+   "ctx": "BFFIarrestOppo2bb"
+  },
+  {
+   "i": 149,
+   "en": "Enter the Cathedral of Holy Exodus",
+   "ctx": "BFFIarrestEnter"
+  },
+  {
+   "i": 150,
+   "en": "Steady...",
+   "ctx": "BFFIarrest4"
+  },
+  {
+   "i": 151,
+   "en": "Watch him work",
+   "ctx": "BFFIarrest5"
+  },
+  {
+   "i": 152,
+   "en": "Make no sudden movements\r",
+   "ctx": "BFFIarrest13"
+  },
+  {
+   "i": 153,
+   "en": "Draw your own weapon\r",
+   "ctx": "BFFIarrest13"
+  },
+  {
+   "i": 154,
+   "en": "Push Bornanew aside",
+   "ctx": "BFFIarrest13"
+  },
+  {
+   "i": 155,
+   "en": "Push Bornanew aside\r",
+   "ctx": "BFFIarrest13bb"
+  },
+  {
+   "i": 156,
+   "en": "Make no sudden movements",
+   "ctx": "BFFIarrest13bb"
+  },
+  {
+   "i": 157,
+   "en": "Help Bornanew\r",
+   "ctx": "BFFIarrestShotBorn1"
+  },
+  {
+   "i": 158,
+   "en": "Restrain the subcurate",
+   "ctx": "BFFIarrestShotBorn1"
+  },
+  {
+   "i": 159,
+   "en": "\"Find her!\"",
+   "ctx": "BFFIarrestShotBornEscape2"
+  },
+  {
+   "i": 160,
+   "en": "Float upward",
+   "ctx": "BFFIarrestShotShove0"
+  },
+  {
+   "i": 161,
+   "en": "Sleep dreamless and cold",
+   "ctx": "BFFIarrestShotShove1"
+  },
+  {
+   "i": 162,
+   "en": "\"What now?\"",
+   "ctx": "BFFIarrestOutro2"
+  },
+  {
+   "i": 163,
+   "en": "\"Are you not pleased? Won't your penance be complete?\"\r",
+   "ctx": "BFFIarrestOutro3"
+  },
+  {
+   "i": 164,
+   "en": "Leave him to his thoughts",
+   "ctx": "BFFIarrestOutro3"
+  },
+  {
+   "i": 165,
+   "en": "\"Yes. I understand your concern.\"\r",
+   "ctx": "BFFIarrestOutroAskPenanceB"
+  },
+  {
+   "i": 166,
+   "en": "\"Maybe he'll be in a forgiving mood after you deliver a traitor and the false relic.\"",
+   "ctx": "BFFIarrestOutroAskPenanceB"
+  },
+  {
+   "i": 167,
+   "en": "Leave $global.jethroName to his thoughts",
+   "ctx": "BFFIarrestOutroAskPenUnderstand"
+  },
+  {
+   "i": 168,
+   "en": "\"$global.jethroName?\"\r",
+   "ctx": "BFFIarrestOutroPCshot"
+  },
+  {
+   "i": 169,
+   "en": "\"I feel like I've been shot.\"\r",
+   "ctx": "BFFIarrestOutroPCshot"
+  },
+  {
+   "i": 170,
+   "en": "\"...did you catch her?\"\r",
+   "ctx": "BFFIarrestOutroPCshot"
+  },
+  {
+   "i": 171,
+   "en": "\"...Arroyo?\"",
+   "ctx": "BFFIarrestOutroPCshot"
+  },
+  {
+   "i": 172,
+   "en": "Attempt to speak",
+   "ctx": "BFFIarrestOutroPCshot2"
+  },
+  {
+   "i": 173,
+   "en": "Do not attempt to speak",
+   "ctx": "BFFIarrestOutroPCshot3"
+  },
+  {
+   "i": 174,
+   "en": "Sleep for a while",
+   "ctx": "BFFIarrestOutroPCshot4"
+  },
+  {
+   "i": 175,
+   "en": "Return to your $shipOrFleet in orbit",
+   "ctx": "BFFIarrestOutroInjured"
+  },
+  {
+   "i": 176,
+   "en": "\"I have Subcurate Cedra Keepfaith aboard my $shipOrFleet.\"",
+   "ctx": "BFFIdeliverOakOption"
+  },
+  {
+   "i": 177,
+   "en": "\"I have returned with Novice Bornanew to complete his penance.\"",
+   "ctx": "BFFIoakDestroyedEarly"
+  },
+  {
+   "i": 178,
+   "en": "\"Novice Bornanew is dead. I have his body. And his murderer.\"",
+   "ctx": "BFFIoakBornanewDead"
+  },
+  {
+   "i": 179,
+   "en": "\"Novice Bornanew is dead. I have returned with his body.\"",
+   "ctx": "BFFIoakBornanewDeadEscaped"
+  },
+  {
+   "i": 180,
+   "en": "Deliver Cedra Keepfaith into custody of the Knights of Ludd.",
+   "ctx": "BFFIdeliverOakResp"
+  },
+  {
+   "i": 181,
+   "en": "Take Bornanew down to the Knights of Ludd.",
+   "ctx": "BFFIdeliverOakRespNoKF"
+  },
+  {
+   "i": 182,
+   "en": "Deliver Bornanew's body into custody of the Knights of Ludd.",
+   "ctx": "BFFIdeliverOakRespBornDead"
+  },
+  {
+   "i": 183,
+   "en": "Deliver Bornanew and Keepfaith into custody of the Knights of Ludd.",
+   "ctx": "BFFIdeliverOakRespBornDeadB"
+  },
+  {
+   "i": 184,
+   "en": "Board a shuttle",
+   "ctx": "BFFIdeliverOakResp2"
+  },
+  {
+   "i": 185,
+   "en": "Deliver Cedra Keepfaith into custody of the Knights of Ludd",
+   "ctx": "BFFIdeliverOptionKeepfaith"
+  },
+  {
+   "i": 186,
+   "en": "Shuttle down to deliver Bornanew to the Knights of Ludd",
+   "ctx": "BFFIdeliverOptionReturnEarly"
+  },
+  {
+   "i": 187,
+   "en": "Shuttle down to deliver Bornanew back to the Knights of Ludd",
+   "ctx": "BFFIdeliverOptionBornAliveEscaped"
+  },
+  {
+   "i": 188,
+   "en": "Shuttle down to deliver Bornanew's body to the Knights of Ludd",
+   "ctx": "BFFIdeliverOptionBornDeadEscaped"
+  },
+  {
+   "i": 189,
+   "en": "Shuttle down to deliver Bornanew's body and the prisoner to the Knights",
+   "ctx": "BFFIdeliverOptionBornDeadCaptured"
+  },
+  {
+   "i": 190,
+   "en": "Enter the hangar",
+   "ctx": "BFFIdeliverToOak2"
+  },
+  {
+   "i": 191,
+   "en": "Simply nod\r",
+   "ctx": "BFFIdeliverToOak3bornLives"
+  },
+  {
+   "i": 192,
+   "en": "\"Excubitor Orbis.\"",
+   "ctx": "BFFIdeliverToOak3bornLives"
+  },
+  {
+   "i": 193,
+   "en": "\"He died bravely. Confronting the traitor in the cathedral.\"\r",
+   "ctx": "BFFIdeliverToOakBody1"
+  },
+  {
+   "i": 194,
+   "en": "\"One of your Knight-Captains lost control of his weapon.\"\r",
+   "ctx": "BFFIdeliverToOakBody1"
+  },
+  {
+   "i": 195,
+   "en": "\"If we'd done it my way, he'd still be alive.\"",
+   "ctx": "BFFIdeliverToOakBody1"
+  },
+  {
+   "i": 196,
+   "en": "Look to $global.jethroName",
+   "ctx": "BFFIdeliverToOakKeepfaith2a"
+  },
+  {
+   "i": 197,
+   "en": "Order the glove brought forward",
+   "ctx": "BFFIdeliverToOakKeepfaith2b"
+  },
+  {
+   "i": 198,
+   "en": "Watch",
+   "ctx": "BFFIdeliverGloveCheck1"
+  },
+  {
+   "i": 199,
+   "en": "\"We've delivered the false relic and destroyed its source.\"\r",
+   "ctx": "BFFIproblemCheckOut"
+  },
+  {
+   "i": 200,
+   "en": "\"I believe this fulfills Novice Bornanew's 'quest' of penance.\"\r",
+   "ctx": "BFFIproblemCheckOut"
+  },
+  {
+   "i": 201,
+   "en": "\"$global.jethroName. We done here?\"",
+   "ctx": "BFFIproblemCheckOut"
+  },
+  {
+   "i": 202,
+   "en": "Turn and leave",
+   "ctx": "BFFIproblemCheckOutDead"
+  },
+  {
+   "i": 203,
+   "en": "\"I'm working with Novice Bornanew. For his penance, the matter of a false relic...\"",
+   "ctx": "BFFIaskJaspisOpt"
+  },
+  {
+   "i": 204,
+   "en": "Run the sensor package\r",
+   "ctx": "aem_runSensorPackageOption"
+  },
+  {
+   "i": 205,
+   "en": "\"I'd like to be commissioned by $theFaction\"",
+   "ctx": "cmsn_askForCommissionOpt"
+  },
+  {
+   "i": 206,
+   "en": "\"I'd like to resign my $faction commission\"",
+   "ctx": "cmsn_resignCommissionOpt"
+  },
+  {
+   "i": 207,
+   "en": "Accept $factionAOrAn $faction commission\r",
+   "ctx": "cmsn_meetsCriteria2"
+  },
+  {
+   "i": 208,
+   "en": "\"Perhaps I'm not quite ready for this.\"",
+   "ctx": "cmsn_meetsCriteria2"
+  },
+  {
+   "i": 209,
+   "en": "\"Yes, I'm sure.\"\r",
+   "ctx": "cmsn_resignShowOptions"
+  },
+  {
+   "i": 210,
+   "en": "\"Never mind, I've reconsidered.\"",
+   "ctx": "cmsn_resignShowOptions"
+  },
+  {
+   "i": 211,
+   "en": "\"I'd like to turn in these AI cores that I've acquired...\"",
+   "ctx": "aiCores_turnInOption"
+  },
+  {
+   "i": 212,
+   "en": "\"Never mind, I don't actually have any.\"",
+   "ctx": "aiCores_neverMindOption"
+  },
+  {
+   "i": 213,
+   "en": "\"Sounds reasonable - we'll provide the fuel.\"\r",
+   "ctx": "dstr_aidOptions"
+  },
+  {
+   "i": 214,
+   "en": "\"No need for payment - I'm not one to gouge someone when they're down.\"\r",
+   "ctx": "dstr_aidOptions"
+  }
+ ]
+}

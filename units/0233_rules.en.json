@@ -1,0 +1,256 @@
+{
+ "chunk": 233,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "Hyder looks at you for a moment, her opinion perhaps shifting.\r\n\r\n\"I appreciate your honesty. It is more than I would expect from one of Macario's creatures.\"",
+   "ctx": "data/campaign/rules.csv sdtuHyderOfficerScheme [text]"
+  },
+  {
+   "i": 2,
+   "en": "Hyder looks at you for a moment, her opinion perhaps shifting.\r\n\r\n\"I appreciate your honesty. It is the least I would expect from a bearer of a Hegemony commission. I can't say I understand why you are playing at being one of Macario's creatures.\"",
+   "ctx": "data/campaign/rules.csv sdtuHyderOfficerSchemeHeg [text]"
+  },
+  {
+   "i": 3,
+   "en": "She frowns. Then, instead of denying your claim, says \"Typical of Macario. He mistakes cruelty for discipline and fear for obedience. He's a sad prototype of the Diktat's 'new man'.\"\r\n\r\nHyder looks at you for a moment, her opinion perhaps shifting. It's easy to see that she hates Macario, and easy to re-align her anger away from yourself.\r\n\r\n\"You are correct to conduct yourself honestly, despite the appearance of the circumstances,\" she says.",
+   "ctx": "data/campaign/rules.csv sdtuHyderOfficerShot [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"He conducts himself without a shred of honor while wrapped in the banner of the Supreme Executor. He twists the words of Philip Andrada to serve his own degenerate desires.\" She pauses, seething.",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk1DServeHeg [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"He would in an instant,\" she spits, \"if it served his next degenerate scheme.\"",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk1WordsAsTreason [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"Then I would demand you re-evaluate your perception of his goals,\" Hyder says haughtily.",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk1GoalsNotMethods [text]"
+  },
+  {
+   "i": 7,
+   "en": "She continues, \"Macario says what is useful to himself. Observe the results of his actions: paranoia, inefficiency, and lawlessness.\" ",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk1Results [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"A commander should never abandon their command,\" Hyder states this like cold fact. \"Never.\"\r\n\r\n\"Dereliction of duty is treason enough. Better to face Macario's machinations with an honorable death than let his lies and subterfuge corrupt our sacred duty.\" ",
+   "ctx": "data/campaign/rules.csv sdtuHyderOfficerForAPrice [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"A crew's duty is to follow the orders of a superior officer. That officer assumes moral responsibility for failure. Disobedience requires court-martial for the grave crime of mutiny.\"\r\n\r\n\"It is better to face Macario's machinations with an honorable death than allow his subterfuge to corrupt sacred duty.\" ",
+   "ctx": "data/campaign/rules.csv sdtuHyderOfficerMutiny [text]"
+  },
+  {
+   "i": 10,
+   "en": "Her eyes narrow. \"They are. And seeing as you are presently within the legal and ethical volume of the Sindrian Diktat, you must respect our laws.\"",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk1JustJob [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"He did,\" she admits, and without hesitation continues: \"Nonetheless, my officer failed their mission and their position. An officer who delivers defeat to their commander must face that fact honorably, not discard their uniform and duty to flee like a coward. To that point.\"",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk1Harsh [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"Your command-instinct to look to the wellbeing of the crew is admirable,\" she concedes.\r\n\r\nThen her eyes narrow, \"But beware over-indulgence in mercy; it will make you weak. As Andrada said, 'A true leader understands that victory is bought with casualties'.\"\r\n\r\n\"So: if the greatest good is to uphold the law, then this crew shall serve that cause by providing an example of its execution.\"",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk1HarshCrew [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"Then we stand together on this matter of honor,\" she says with a nod.",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk1Unacceptable2 [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"Speaking of the law.\" Hyder crosses her arms. \"You have an officer subordinate to my command. I will take them into custody to deal with per naval court-martial.\"",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalkRound2startLaw [text]"
+  },
+  {
+   "i": 15,
+   "en": "Hyder crosses her arms. \"You have an officer subordinate to my command. I will take them into custody to deal with per a naval court-martial.\"",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalkRound2start [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"Good,\" Hyder says, then gives orders to a subordinate to begin the process of prisoner transfer.",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk2Transfer [text]"
+  },
+  {
+   "i": 17,
+   "en": "You had made a deal to set the officer free on the first independent world you visited. They will view you poorly for this breach of trust, but then, they are simply one rogue Sindrian Diktat officer with very few friends in the Persean Sector.\r\n\r\nIf it is any consolation, Hyder's court-martial is likely to be a less cruel fate than whatever Macario had in mind.",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk2TransferPromise [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"I see,\" Hyder says flatly.\r\n\r\n\"I offer this: your objection will be recorded, then you will transfer the prisoner. I shall assume responsibility for the question of jurisdiction. This will fulfill your obligation and leave the matter to the law of the Sindrian Diktat.\"",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk2ToMacario [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"I see,\" Hyder says flatly. \"I appreciate that, as an officer, you are bound to keep your word. However the law of the ruling polity of a volume overrides your personal promise.\"\r\n\r\n\"I offer this: your objection will be recorded, then you will transfer the prisoner. This will fulfill your honorable obligation as well as uphold the law.\"",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk2Promised [text]"
+  },
+  {
+   "i": 20,
+   "en": "Hyder looks thoughtful. \"Then we find ourselves at an impasse, captain, with each sworn to uphold their highest duty and loyalty.\" \r\n\r\nA pause, then she continues, \"Your conviction is undeniable, captain. Let us table the matter.\"\r\n\r\nIt sounds like she's going to let you get away with the prisoner, without admitting it. Interesting. Best play along.",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk2Promised3A [text]"
+  },
+  {
+   "i": 21,
+   "en": "Hyder's expression hardens. \"Does your oath of commission to the Sindrian Diktat mean nothing? You gave your word then.\"",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk2Promised3B [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"Interesting.\" She looks away for a moment, thinking another thought, but quickly returns focus to you.\r\n\r\n\"Your conviction is undeniable, captain, and that is worth something. Let us table the matter.\"\r\n\r\nIt sounds like she's going to let you get away with the prisoner, without admitting it. Interesting. Best play along.",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk2Promised3B2 [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"I see,\" Hyder says flatly. \"I appreciate that, as an officer, you were bound to keep your word. However the law of the ruling polity of a volume overrides your personal promise.\"\r\n\r\nShe closes her eyes for a moment, sighs, then says \"Provide me with a report of your last sighting of the officer in question. I shall consider this the least acceptable diligence in upholding our law.\"",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk2PromisedB [text]"
+  },
+  {
+   "i": 24,
+   "en": "Hyder looks displeased. \"Then we find ourselves at an impasse, captain, with each sworn to uphold what each believes to be their duty.\" \r\n\r\nA pause, then she continues, \"Your conviction is as undeniable as it is misplaced, captain. Let us table the matter.\"\r\n\r\nIt sounds like she's going to let you get away with it without admitting it. Interesting. Best play along.",
+   "ctx": "data/campaign/rules.csv sdtuHyderReleasedInsist2 [text]"
+  },
+  {
+   "i": 25,
+   "en": "Hyder's expression hardens. \"Does your oath of commission to the Sindrian Diktat mean nothing? You gave your word then. What of now?\"",
+   "ctx": "data/campaign/rules.csv sdtuHyderReleaseInsistCom1 [text]"
+  },
+  {
+   "i": 26,
+   "en": "She looks at you, calculating something that doesn't please her.",
+   "ctx": "data/campaign/rules.csv sdtuHyderReleaseInsistCom1b [text]"
+  },
+  {
+   "i": 27,
+   "en": "You order your comms officer to write a brief report fulfilling the letter of Hyder's demands, and it is quickly sent off.\r\n\r\n\"I deem this sufficient,\" Hyder says after giving her datapad a quick glance.",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk2ReleasedInfoB [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"I see,\" Hyder says flatly.",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk2Battle [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"I find difficulty in accepting your word in this matter, as you did not fight a battle with our patrol fleet while this officer was in command.\" \r\n\r\n\"I would be terribly disappointed if I discovered you were lying.\"",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk2BattleCheckA [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"Indeed,\" says Hyder. \r\n\r\nYou can see on her face that she believes you are lying and is choosing not to call you out on it in this moment. Macario was right- she would not make a good politician.",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk2BattleLieA [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"I see,\" Hyder says flatly. \"I appreciate that, as an officer, you are bound to keep your word. However the law of the ruling polity of a volume overrides the necessity to uphold your word.\"\r\n\r\n\"I offer this: your objection will be recorded, then you will transfer the prisoner. This will fulfill your honorable obligation as well as uphold the law.\"",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk2BattleLieB [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"So you are a creature of Macario,\" says Hyder, her anger suppressed neatly under an officious demeanor. \"I will take this matter all the way to the office of the Supreme Executor, if I must.\"\r\n\r\nShe takes a deep breath.",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk2PrisonerToMacarioFinal [text]"
+  },
+  {
+   "i": 33,
+   "en": "Hyder closes her eyes and rubs the bridge of her nose; it seems that she does not enjoy the prospect of lie and counter-lie.\r\n\r\n\"Typical Macario,\" she says finally, her anger now - mostly - directed away from yourself. \"No more games! Transfer the prisoner to my custody so that a proper court-martial may proceed.\"\r\n\r\nShe fixes you with her glare. \"Do this by the proper order of things, each in its place. This is the way of the Sindrian Diktat.\"",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk2BattleLieC [text]"
+  },
+  {
+   "i": 34,
+   "en": "Hyder closes her eyes and rubs the bridge of her nose; it seems that she does not enjoy the prospect of lie and counter-lie.\r\n\r\n\"Typical Macario,\" she says finally, her anger now - mostly - directed away from yourself.\r\n\r\n\"Tell Macario,\" she spits his name out like a rotten piece of food, \"that my loyalty to the Supreme Executor is unquestionable. And that I shall be making a report of his waste of naval resources to my superior.\"",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk2BattleLieC2 [text]"
+  },
+  {
+   "i": 35,
+   "en": "\"Although dissatisfying, I shall accept your word as an officer that this is the truth.\"",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk2BattleCheckB [text]"
+  },
+  {
+   "i": 36,
+   "en": "\"Now then, I believe our business is concluded for the present,\" she says.\r\n\r\n\"Tell Macario,\" she spits his name out like a rotten piece of food, \"that my loyalty to the Supreme Executor is unquestionable. And that I shall be making a report of his waste of naval resources to my superior.\"",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk3Start [text]"
+  },
+  {
+   "i": 37,
+   "en": "She pauses as she reaches toward the comms shut-off. \"What is it, captain.\"\r\n\r\nMacario was right about one thing, at least: Hyder is not difficult to read.",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk3Start2 [text]"
+  },
+  {
+   "i": 38,
+   "en": "It feels like she trusts you. Or, at least, she respects the impression you have made so far and would like someone to trust.",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk3judgment1 [text]"
+  },
+  {
+   "i": 39,
+   "en": "You've made a mixed impression; it feels like she doesn't quite trust you, but she is operating in a nest of vipers and wants to trust someone, somehow.",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk3judgment2 [text]"
+  },
+  {
+   "i": 40,
+   "en": "She doesn't trust you. And she would like nothing more than to have an ally who she trusts and respects after operating alone in the regimented chaos of the Sindrian Diktat bureaucracy. You have only the briefest opening here.",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk3judgment3 [text]"
+  },
+  {
+   "i": 41,
+   "en": "She doesn't trust you. She doesn't like you. She thinks you're working for Macario, or at least working to be on his level. At least your position is clear.",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk3judgment4 [text]"
+  },
+  {
+   "i": 42,
+   "en": "\"I have little patience for this,\" she says. \"Choose your words carefully.\"",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk3Answers1 [text]"
+  },
+  {
+   "i": 43,
+   "en": "\"Enough,\" she says. \"Make your report back to Macario. And consider your words carefully.\"\r\n\r\nThe comms cut.",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk3Answers1End [text]"
+  },
+  {
+   "i": 44,
+   "en": "\"Silence yourself!\" she almost snarls. \"Speak no more treason to me.\"",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk3HegemonyA [text]"
+  },
+  {
+   "i": 45,
+   "en": "She looks at you for a long, long moment.\r\n\r\n\"I am, to them, a traitor. Do you know the justice a traitor-in-combat is served? Execution, by will of the commanding officer.\" She pauses, watching you. \"There is good reason this is so.\"\r\n\r\nWhich, you note, is not really an answer to your question.",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk3HegemonyB [text]"
+  },
+  {
+   "i": 46,
+   "en": "\"And you'll help him do it, I'm sure,\" she says acidly. \"You test Fate's love for irony when you gloat for Macario before he's claimed victory.\"",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk3MacarioA [text]"
+  },
+  {
+   "i": 47,
+   "en": "\"And yet he has not,\" Hyder says fiercely. \"If he could fuel starships and feed their crews with lies alone, he would. But he cannot.\"",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk3MacarioB [text]"
+  },
+  {
+   "i": 48,
+   "en": "\"And yet has not,\" Hyder says fiercely. \"He knows that he can't run the navy on threats and lies.\"\r\n\r\n\"I give my officers and my crew something to believe. With me, they will find strength in honor, duty, and discipline. These are concepts Macario cannot comprehend, and despite his misallocation of resources, we are stronger than he can imagine. Philip Andrada knew this.\"",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk3MacarioC [text]"
+  },
+  {
+   "i": 49,
+   "en": "Hyder smoothly hits the privacy field switch, blinks, then faces you.",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk3WhySmugglePrivacy [text]"
+  },
+  {
+   "i": 50,
+   "en": "\"The details of military arms procurement by the Sindrian Diktat navy is a matter of polity security,\" Hyder says with flat yet somehow seething affect. \"It is not the business of an outsider. Or of meddlesome worms like Macario.\"",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk3WhySmuggleA [text]"
+  }
+ ]
+}

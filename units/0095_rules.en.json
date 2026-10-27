@@ -1,0 +1,106 @@
+{
+ "chunk": 95,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"You find some interesting stuff out there if you don't mind me saying so, captain.\"\r\n\r\nShe nods approvingly. \"Thank you for the subsidy. I'll be sure to enjoy myself once I wrap up this miserable Asher contract.\"",
+   "ctx": "data/campaign/rules.csv oyaTanaica_vambraceOneslaught4 [text]"
+  },
+  {
+   "i": 2,
+   "en": "Senior Engineer Tanaica sends you on your way back to orbit with no more farewell than a succinct \"Right then.\"",
+   "ctx": "data/campaign/rules.csv oyaTanaica_vambraceOut1 [text]"
+  },
+  {
+   "i": 3,
+   "en": "It can't be denied any longer.\r\n\r\nYou're stuck in deep space near an obscure celestial object having foolishly jumped in before ensuring your $shipOrFleet could jump back out.\r\n\r\nThe bridge officers are very carefully avoiding an outright panic, assigning makework maintenance duties and shutting down speculation. Still, you can't help but notice questioning glances - spacers will follow almost any order, but this is a serious blunder. \r\n\r\nYour navigation officer appears to be having a heated intra-ship comms discussion with your engineering chief. You catch key phrases, \"too dangerous\", \"theoretically impossible\", \"worked once\".",
+   "ctx": "data/campaign/rules.csv StrandedInDeepSpaceStart [text]"
+  },
+  {
+   "i": 4,
+   "en": "Navigation, deeply embarrassed to be caught mid-argument, salutes and explains.\r\n\r\nIt appears that a senior technician on hyperdrive duty is insisting on speaking with you. They have some kind of crazy idea about getting back into hyperspace and have somehow convinced your chief engineer that it's viable.",
+   "ctx": "data/campaign/rules.csv StrandedInDeepSpace0 [text]"
+  },
+  {
+   "i": 5,
+   "en": "Ancient and rad-scarred, the senior technician is senior indeed, likely having more space experience than any other crew or officer in your service. The old spacer produces a minimum viable salute. \"$PlayerSirOrMadam. All respect, but you've done a real dirt-boot screw-up putting the $shipOrFleet out in a nothing-nowhere gravwell.\"\r\n\r\nYour navigation officer inhales to begin a reprimand, but the spacer burns ahead, \"Good news is I've seen it possible to jump direct to hyperspace. Risky, though,\" they say, looking down. \"Risky.\"\r\n\r\n\"But,\" a crooked smile appears, \"Better'n having to eat the officers, aye?\"",
+   "ctx": "data/campaign/rules.csv StrandedInDeepSpace1 [text]"
+  },
+  {
+   "i": 6,
+   "en": "The legendary smuggler captain who showed this trick to the senior tech made them promise never to tell a soul about it. But seeing as how she died some forty cycles previously, and given the current situation, the old spacer is willing to bend the spirit of the agreement slightly to get out of this mess.\r\n\r\nA modification to the hyperdrive field software will allow you to perform a kind of Transverse Jump directly to hyperspace from normal space. It's also useful for jumping through sub-viable jump-points which are inaccessible when making hyperjumps within Domain-approved parameters. \r\n\r\nNav looks aghast and Engineering is shaking their head as they review the proposed modifications on a beaten-up TriPad.",
+   "ctx": "data/campaign/rules.csv StrandedInDeepSpace2 [text]"
+  },
+  {
+   "i": 7,
+   "en": "Your navigation officer sighs, looking distraught.\r\n\r\n\"Theoretically,\" they say, rubbing their eyes.\r\n\r\n\"It's extremely unorthodox. This... this inverted resonance stacking notion,\" they poke at an arcane diagram which rotates along axes somewhat north of four dimensions, arcs and lines jittering with non-euclidean enthusiasm through the mere three-dimensional space of the holo.\r\n\r\n\"It shouldn't work. The math appears to give the correct solution, but to get there...\"",
+   "ctx": "data/campaign/rules.csv StrandedInDeepSpace3a [text]"
+  },
+  {
+   "i": 8,
+   "en": "Your chief engineer stops shaking their head to answer.\r\n\r\n\"Well. Our field generators weren't designed for this, but it should fall - just - within failure limits. We'll have to go to combat agrav, stow everything and everyone.\"\r\n\r\nA sigh, as if giving up, then, \"If it doesn't work, we're all dead and it'll be so quick we won't even know it. If it works, it's going to hurt. Expect a significant hit to operational readiness. And we'll need repairs.\"\r\n\r\nA thoughtful look, \"Of course, assuming it works, with the telemetry to calibrate from...\"\r\n\r\nYour navigation officer looks stricken at the thought.",
+   "ctx": "data/campaign/rules.csv StrandedInDeepSpace3b [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"$PlayerSirOrMadam,\" they all respond. The old spacer grins unevenly once more to your senior officers' frowns.",
+   "ctx": "data/campaign/rules.csv StrandedInDeepSpace3c [text]"
+  },
+  {
+   "i": 10,
+   "en": "With the automated defenses cleared, your salvors are free to crack open the enormous zero-G vaults of the cache. Power is provided to dead conduits, fused circuits replaced with temporary fittings, and the great doors persuaded to loosen their mechanical restraints.\r\n\r\nAt first, it appears to be empty. A colossal tomb, never filled. Then probe-mounted radar starts to build a picture in your bridge display while suit lights pile their beams into the space, catching drifts of dust and gas set afloat by the re-opening. Spars gleam in the dark, revealing trifold radial symmetry.\r\n\r\n\"$PlayerSirOrMadam,\" your tech officer says, attention fixed not on the suit cams or bridge display but on technical specs scrolling through a display already overfull with diagrams and documents. \"You have to see this.\"",
+   "ctx": "data/campaign/rules.csv limboWormholeCacheBegin [text]"
+  },
+  {
+   "i": 11,
+   "en": "It's old. Very old. But the queries sent by your salvors' interfacers are returning green. For the most part.\r\n\r\n\"It's a wormhole anchor,\" your tech officer explains, excitement palpable. \"Loaded with calibration data, and fuel to power whatever it was going to do. This was prepped to deploy at the nearby, um, point of stability. The automation went into standby at some point, and... here it is.\"",
+   "ctx": "data/campaign/rules.csv limboWormholeCacheBegin2 [text]"
+  },
+  {
+   "i": 12,
+   "en": "The enormous zero-G vaults of the cache lie open, its depths black with portent like a colossal tomb.\r\n\r\nThe ancient wormhole anchor waits at its center, the flicker and caress of status queries returning green, mostly. It is still primed for use at the nearby stable location, but the shipment of transplutonics its automated systems were waiting for were never delivered.",
+   "ctx": "data/campaign/rules.csv limboWormholeCacheBeginAgain [text]"
+  },
+  {
+   "i": 13,
+   "en": "Your $shipOrFleet approaches $entityName.\r\n\r\nThe ice giant spins below your $shipOrFleet, lit only by the barest light of the galaxy, warmed only by the internal pressure of gravity and the barest flicker of atomic decay. Unlikely to form naturally in interstellar space, this planet must have been thrown from its home system by some cataclysmic interaction in aeons past. Adrift, it is doomed to shrink and cool toward the interstellar medium over billions of cycles.",
+   "ctx": "data/campaign/rules.csv gh_namelessIceGiant [text]"
+  },
+  {
+   "i": 14,
+   "en": "Your $shipOrFleet approaches the $entityName.\r\n\r\nIt is a Leviathan from out of time, at once familiar from its many and varied depictions in the secondary culture of the post-Collapse Persean Sector.\r\n\r\nBut to see it here in the proverbial flesh, it is the alien force of the Domain's power reified before you, looming like a blackened emperor slumped dead - but dreaming still - on a throne of stars.\r\n\r\nYou feel the weight of history pressing upon your chest, a tone like a distant ringing. You are frozen for an unconscious moment as if your mind was held in the gaze of a god; and in the next instant it is nothing but the buzz of power conduits and low thrum of agrav within the drive bubble, usually relegated to a filter of unperception by your subconscious.\r\n\r\nYou adjust your uniform and turn to your bridge officers.",
+   "ctx": "data/campaign/rules.csv gateHaulerStart1 [text]"
+  },
+  {
+   "i": 15,
+   "en": "Your $shipOrFleet approaches the $entityName.\r\n\r\nBefore you is a Leviathan from out of time, at once familiar from its many and varied depictions in the secondary culture of the post-Domain Persean Sector. You can feel the magisterial force upon you; your officers and crew are hushed, humbled and reverent, as if they have found themselves before the corpse of a thunderous and cruel god who once ruled the skies. To awaken it, to touch the divine, must fall somewhere between sacrilege and sanctification.",
+   "ctx": "data/campaign/rules.csv gateHaulerStart2 [text]"
+  },
+  {
+   "i": 16,
+   "en": "It is no simple task to appraise a Gate Hauler, for the ship is truly massive.\r\n\r\nYour officers, however, have the tools, ancient datafiles, and a trained and ready crew. Known variants of Gate Hauler design are pulled up on a shared display to match to the example which looms over your $shipOrFleet. Your operations chief oversees the deployment of salvors to key points in coordination with targeted sensor sweeps.\r\n\r\nMeanwhile, your tech officer and chief engineer review the deep archive containing flight statistics on thousands of recorded Gate Hauler deployments in order to anticipate the results of in-transit damage and subsequent self-repair protocols.",
+   "ctx": "data/campaign/rules.csv gh_exploreSel [text]"
+  },
+  {
+   "i": 17,
+   "en": "Ops orders the salvors to prioritize a data connection, and it's soon online via ancient protocols. Walls of amber error codes glow in your tech officer's interface. \r\n\r\nYou have part of an answer soon enough: The functioning of the Gate Hauler's enormous but primitive Alcubierre drive system was massively disrupted mid-transit. The ship's automation could not ascertain the cause of the discontinuity and so, to protect the literally astronomical value of its cargo, forced the ship into an automatic failsafe mode.\r\n\r\nMost of the remaining fuel was dumped and the rest used to slow into an orbit of the most accessible nearby mass concentration: this lonely ice giant. The maneuver took the better part of a century.\r\n\r\nStandard procedure would have the Domain send a well-supplied expedition of Gate engineers to reset the primary systems and send the Hauler back on its journey, albeit many hundreds of cycles behind schedule.",
+   "ctx": "data/campaign/rules.csv gh_exploreSel2 [text]"
+  },
+  {
+   "i": 18,
+   "en": "The ancient records note that Gate Haulers would carry a standard complement of automated survey, extraction, and refining drones in the case of lost-contact. The documents seem to imply the ability to procure new sources of fuel and materials effectively at vast distances from the fail-safe point, though at the scale implied, this process would be inefficient at superluminal speeds even via hyperspace - assuming use of baseline Domain frontier technology.\r\n\r\nYour officers conclude that, typical to the Domain, the publically available descriptions seem to elide certain key technologies and capabilities.\r\n\r\nIn any event, your survey turned up none of this - aside from the undeployed Gate itself, of course, held tight by the many-limbed face of the great starship.",
+   "ctx": "data/campaign/rules.csv gh_exploreSel3a [text]"
+  },
+  {
+   "i": 19,
+   "en": "The ancient records note that Gate Haulers would carry a standard complement of automated survey, extraction, and refining drones in the case of lost-contact. The documents seem to imply the ability to procure new sources of fuel and materials effectively at vast distances from the fail-safe point, though at the scale implied, this process would be inefficient at superluminal speeds even via hyperspace - assuming use of baseline Domain frontier technology.\r\n\r\nYou can only conclude that this particular self-recovery effort ended with the drone expedition sent to the Limbo system, and it was to use obscure Explorarium wormhole technology to resupply the Gate Hauler so that it could continue its mission. \r\n\r\nIn any event, your search has turned up no additional technological treasures - aside from the undeployed Gate itself, of course, held tight in the many-limbed face of the great starship.",
+   "ctx": "data/campaign/rules.csv gh_exploreSel3b [text]"
+  },
+  {
+   "i": 20,
+   "en": "The details accumulate, each senior officer manipulating the shared display as reports are given. Finally, your chief engineer clears the holo back to a slowly rotating false-lit overview of the entire vast starship. They suppress a brief smile as they clear their throat.\r\n\r\n\"$PlayerSirOrMadam.\" A pause for anticipation, a rare indulgence by your habitually practical chief engineer. \"I have the pleasure to report that it is possible to re-activate the Gate Hauler. It could be targeted to a known system within the Persean Sector at your command.\"\r\n\r\nIt just needs transplutonics. A lot of transplutonics. Unlike familiar starship engines, the Gate Hauler doesn't use the standard Domain AM fuel package. Once a critical mass of transplutonics is achieved, the Gate Hauler will be able to operate for at least a thousand cycles with functionally unlimited range within the bounds of the Persean Sector.",
+   "ctx": "data/campaign/rules.csv gh_exploreSel4 [text]"
+  }
+ ]
+}

@@ -1,0 +1,146 @@
+{
+ "chunk": 216,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "Some time later, a polite, slightly embarrassed junior logistics technician from your crew gently knocks and informs you that the cargo is fully loaded.\r\n\r\nYou act as if you've had much more than you actually imbibed and make your excuses and promises as you pretend-stumble back to your transport shuttle.\r\n\r\nOnce the doors close, you stand up straight, dropping the act. The junior logistics technician does her best not to look too relieved.",
+   "ctx": "data/campaign/rules.csv rsomAvoidCombatOutDrink [text]"
+  },
+  {
+   "i": 2,
+   "en": "You manage to decline repeated offers to share a bottle of 'the good stuff' while the boss iterates Diego's many failings. You nod and agree in vague but enthusiastic terms, performing your emotional support role with aplomb. \r\n\r\nSome time later, a polite, slightly embarrassed junior logistics technician knocks on the open doorway - there's no door - of the utility nook that passes for the boss's office to inform you that the cargo is fully loaded.\r\n\r\nHe insists on personally escorting you, a little unsteadily, to your shuttle's airlock and shakes your hand before you step inside. \"It's people like you that make this job worth it, cap. Solid, trustworthy. Willing to step up.\"\r\n\r\nThe door seals with a thunk you feel through your boots; finally, relief.",
+   "ctx": "data/campaign/rules.csv rsomAvoidCombatOutSober [text]"
+  },
+  {
+   "i": 3,
+   "en": "It's not quite the bloody job your contact $rsom_contactName had in mind, but such a shocking display of incompetence is sure to cause a shake-up in whichever criminal enterprise this lot is - or, soon, was - involved with.\r\n\r\nAnd now you've got a hold full of hot $rsom_product to unload.",
+   "ctx": "data/campaign/rules.csv rsomAvoidCombatOutro [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"I need some $smug_commodityName moved to $smug_marketName. Discreetly.\"\r\nOR\r\n\"I need to move some $smug_commodityName to $smug_marketName- without the involvement of the authorities.\"",
+   "ctx": "data/campaign/rules.csv smugBlurb [text]"
+  },
+  {
+   "i": 5,
+   "en": "At the bar a shady $smug_manOrWoman bothers disinterested starship captains with an off-brand datapad.",
+   "ctx": "data/campaign/rules.csv smugBlurbBar [text]"
+  },
+  {
+   "i": 6,
+   "en": "As you approach, the $smug_manOrWoman leaves $hisOrHer current prospect mid-pitch, shifting $hisOrHer attention to you.\r\n\r\n\"You there, captain. Yes, you know an honest face when you see one!\" $HeOrShe gives a crooked smile, \"Just look here,\" $heOrShe shoves the flickering display of the datapad into your hands: a cargo manifest consisting mostly of low-grade construction materials stored in a warehouse in a completely different system.\r\n\r\n$HeOrShe leans in, and speaks quietly, motioning as if explaining the datapad's contents, \"You help me move $smug_quantity units of $smug_commodityName to $smug_marketName, a quick hop of $smug_dist light-years. Then I pay you $smug_reward credits. No need to involve the authorities, no inspections, no tariffs. Easy money, right?\"",
+   "ctx": "data/campaign/rules.csv smugOfferTextBar [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"I need $smug_quantity units of $smug_commodityName moved to $smug_marketName, which is $smug_dist light-years away. Your discretion is key; the local authorities cannot know about the shipment. You'll be paid $smug_reward credits on delivery.\"",
+   "ctx": "data/campaign/rules.csv smugOfferTextContact [text]"
+  },
+  {
+   "i": 8,
+   "en": "You order the cargo of $smug_commodityName dropped off at an abandoned spacedock, far from prying eyes. Your flagship soon receives acknowledgement of the delivery from a disposable commsat.\r\nOR\r\nA converted surface-to-orbit passenger transport pulls alongside your $shipOrFleet's orbit after you give the planned signal. The cargo of $smug_commodityName is quickly transferred by robot drones running without nav transponders, then the transport pulls away.",
+   "ctx": "data/campaign/rules.csv smug_checkCompletionCont [text]"
+  },
+  {
+   "i": 9,
+   "en": "Making the $smug_commodityName delivery requires coming in with your transponder turned off, and without attracting the attention of patrols.",
+   "ctx": "data/campaign/rules.csv smug_checkCompletionNotSneaking [text]"
+  },
+  {
+   "i": 10,
+   "en": "You do not have enough $smug_commodityName to complete the delivery.",
+   "ctx": "data/campaign/rules.csv smug_notEnough [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"STRATCOM wants to call in a favor. Seems they want $dhi_industry $dhi_marketOnOrAt $dhi_marketName disrupted as part of some bigger operation.\"",
+   "ctx": "data/campaign/rules.csv dhiBlurb [text]"
+  },
+  {
+   "i": 12,
+   "en": "You recognize a high ranking officer of $TheFaction in a private booth- and it looks like they recognized you, because an adjutant is sent over to invite you over for 'a word'.",
+   "ctx": "data/campaign/rules.csv dhiBlurbBar [text]"
+  },
+  {
+   "i": 13,
+   "en": "You follow the adjutant to the private booth; they give a salute and redeploy toward the bar.\r\n\r\n\"Captain.\" $Rank $personName greets you without flourish. \"Please, do sit. Make yourself comfortable\" $HeOrShe motions toward a pitcher of cool, clear water. $HeOrShe is always on-duty from the looks of it.\r\n\r\n\"STRATCOM requires an irregular force to disrupt the $dhi_industry $dhi_marketOnOrAt $dhi_marketName for at least $dhi_disruptDays days.\" A few flicks on a datapad and a holo-map floats above the table. The intel is comprehensive: estimated garrison stats and deployment disposition. \"The target is $dhi_dist light-years away. The special operations office has agreed to pay $dhi_reward credits if you can complete this mission.\"\r\n\r\nYou examine the data and estimate that roughly $dhi_marines marines would be required to pull off this operation. The $faction $rank watches you make your calculations, patiently awaiting your response.",
+   "ctx": "data/campaign/rules.csv dhiOfferTextBar [text]"
+  },
+  {
+   "i": 14,
+   "en": "You follow the adjutant to the private booth; they salute awkwardly and retreat to the bar.\r\n\r\n\"Captain.\" $personName greets you without flourish. \"Please, sit. Make yourself comfortable\" $HeOrShe is more formal and sober than most pirates you've encountered. There's a current of barely-suppressed rage beneath the polite words; this one is driven by some abstract notion. Ideology, perhaps. Or vengeance.\r\n\r\n\"The Warlord requires disruption of the $dhi_industry $dhi_marketOnOrAt $dhi_marketName for at least $dhi_disruptDays days.\" A flicks on the datapad summons a map, and specifications. The intel is comprehensive: estimated garrison stats and deployment disposition. \"The target is $dhi_dist light-years away. I have arranged payment of $dhi_reward credits if you complete this mission.\"\r\n\r\nYou examine the data and estimate that roughly $dhi_marines marines would be required to pull off this operation. The $faction $rank watches you make your calculations, awaiting your response.",
+   "ctx": "data/campaign/rules.csv dhiOfferTextBarPirate [text]"
+  },
+  {
+   "i": 15,
+   "en": "$HeOrShe pulls up a shared display. The intel is comprehensive: estimated garrison stats and a deployment disposition report. \"We require an irregular force to disrupt $dhi_industry $dhi_marketOnOrAt $dhi_marketName for at least $dhi_disruptDays days.\" A flick of the display and a map is overlaid. \"Target $dhi_dist light-years away. Special operations has allocated $dhi_reward credits as payment upon mission completion.\"\r\n\r\nYou examine the intel report and estimate that roughly $dhi_marines marines would be required to carry off this operation. The $faction $rank watches you make your calculation, patiently awaiting your response.",
+   "ctx": "data/campaign/rules.csv dhiOfferTextContact [text]"
+  },
+  {
+   "i": 16,
+   "en": "You feel almost imperceptible vibrations as the assault shuttles return to your $shipOrFleet, their work complete. You listen for a moment to the open broad-comm channel; the line crackles and squeals with the last gasps of electronic warfare distorted through chaff and the warp of fresh plumes of charged particles. It's a familiar sound; you can almost smell it. \r\n\r\nTactical has casualty reports prepared for review. You acknowledge with a nod and shut off the comms.",
+   "ctx": "data/campaign/rules.csv DHIRaidFinished [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"I propose a large task, and for it I offer a suitably large reward: I require disruption of the $dsp_industry $dsp_marketOnOrAt $dsp_marketName.\"",
+   "ctx": "data/campaign/rules.csv dspBlurb [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"Now that we trust one another, it would serve my plans to sew chaos $dsp_marketOnOrAt $dsp_marketName. Would you be so kind as to disrupt the $dsp_industry there for me? I will reward you handsomely.\"",
+   "ctx": "data/campaign/rules.csv dspBlurb_villain [text]"
+  },
+  {
+   "i": 19,
+   "en": "Some kind of underworld boss lounges in a booth, judging by their motley cordon of augjacks staring down any that dare stray near. No good can come of this.",
+   "ctx": "data/campaign/rules.csv dspBlurbBar [text]"
+  },
+  {
+   "i": 20,
+   "en": "As you approach, one of the cybermodded thugs steps in your way, a big metal smile at finally having a challenger to beat down. One of your bodyguards, subtly shadowing you just for such an occasion, steps up. \r\n\r\nYours has better augs and training. Theirs, the brash scars of black-market mod infections and a fatal desire to prove that they can't be faced down. \r\n\r\nFrom the booth, a soft clapping begins. \"A good show, very well done. Though I adore bloodsport, I've only barely touched my first drink.\" Then, to the thug, \"You! Stand down- and you, captain. Join me.\"",
+   "ctx": "data/campaign/rules.csv dspOfferTextBar [text]"
+  },
+  {
+   "i": 21,
+   "en": "$personName loves talking about $himOrHerself, and is quite content to do so without input from another party, be they one of the attendant thugs or yourself.\r\n\r\nThe conversation, such as it is, eventually comes around to the stand-off between your respective bodyguards. \"I see you run a tight operation, captain,\" $heOrShe says, barely sipping $hisOrHer potent drink. \r\n\r\nA second glass of it sits before you, politely sipped and otherwise ignored. \"Good guards, admirably professional. Well paid?\" $HeOrShe lifts an eyebrow, and proceeds before you can respond. \"I could use some of that. You see- most freebooters, brigands, pirates if you like; they're sloppy. They make a mess of things, it's all bang and noise and no follow-through.\"\r\n\r\n\"Now you,\" $heOrShe says, \"Could do something for me.\"",
+   "ctx": "data/campaign/rules.csv dspOfferTextBar2 [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"I could use your ground game. Bring the $dsp_industry $dsp_marketOnOrAt $dsp_marketName offline for at least $dsp_disruptDays days. That's $dsp_dist light-years away - you know the one. No massacres, no terror bombing, just business. Keep it clean. More profit had when the target sees the wisdom of peaceable cooperation, right?\"\r\n\r\n$HeOrShe makes a face, as if deeply considering $hisOrHer offer. \"$dsp_reward credits for the job.\"\r\n\r\nYou estimate that you'd need around $dsp_marines marines to carry off this operation.",
+   "ctx": "data/campaign/rules.csv dspOfferTextBar3 [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"Like I said,\" $heOrShe says, \"I require operation of the $dsp_industry $dsp_marketOnOrAt $dsp_marketName, $dsp_dist light-years away, disrupted for at least-\" $heOrShe furrows $hisOrHer brow, considering. Then, with cold indifference, says \"$dsp_disruptDays days. That should do it. If you carry out this task for me, I would reward you with $dsp_reward credits.\"\r\n\r\n\"So you can make an informed decision, here's tac-intel.\" $HeOrShe taps $hisOrHer datapad and soon you have a very competent recon overview on $dsp_marketName. You estimate that you'd need around $dsp_marines marines to carry off this raid.",
+   "ctx": "data/campaign/rules.csv dspOfferTextContact [text]"
+  },
+  {
+   "i": 24,
+   "en": "The task is done to $dsp_personName's specifications, and whatever blackmail or intimidation it was intended to underline is surely moving forward.",
+   "ctx": "data/campaign/rules.csv dspRaidFinished [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"STRATCOM needs an irregular force to perform a tactical bombardment of $tabo_marketName; I thought you might make a good candidate to run this op.\"",
+   "ctx": "data/campaign/rules.csv taboBlurb [text]"
+  },
+  {
+   "i": 26,
+   "en": "A high-ranking officer in crisp uniform meets your eyes from a private booth. Their adjutant approaches you, \"My superior would consult with you on a matter of some discretion. $PlayerSirOrMadam. At your leisure.\"",
+   "ctx": "data/campaign/rules.csv taboBlurbBar [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"Captain $playerName,\" $heOrShe says with a cool nod as you approach. \"Your reputation precedes you.\"\r\n\r\n$HeOrShe sips something transparent from a small crystal glass then taps $hisOrHer datapad; a privacy field blurs and muffles the surroundings.\r\n\r\n\"I require a well-led but irregular force willing to perform a tactical bombardment of $tabo_marketName, $tabo_dist light-years away. If this operation were performed to mission parameters, $tabo_reward credits could be routed to your account.\"\r\n\r\nGlass in one hand, the $faction $rank taps $hisOrHer datapad again and slides it toward you. The display shows garrison numbers, defense parameters, and detailed intelligence. You politely survey the report and estimate that you'd need around $tabo_fuel fuel to carry out the proposed bombardment. The $rank is watching you, and as you look up raises an eyebrow. \"Are you in?\"",
+   "ctx": "data/campaign/rules.csv taboOfferTextBar [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"I've been ordered to contract an irregular fleet to perform a tactical bombardment of $tabo_marketName, $tabo_dist light-years away. I've seen your work captain, and I believe you could perform this mission admirably,\" $heOrShe says, \"And we've allocated $tabo_reward credits to cover your expenses.\" \r\n\r\n$HeOrShe taps $hisOrHer datapad and a shared intel briefing appears in your display. You briefly review maps and intel together and come to estimate that you would need around $tabo_fuel fuel to carry out the bombardment according to mission parameters.\r\n\r\n$rank $personLastName swipes away the last of the tactical breakdowns and looks to you, \"So, what do you say?\"",
+   "ctx": "data/campaign/rules.csv taboOfferTextContact [text]"
+  }
+ ]
+}

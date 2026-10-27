@@ -1,0 +1,161 @@
+{
+ "chunk": 248,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "Arroyo puts his hands over his face, leans back, and exhales deeply. It looks like he has a splitting headache.\r\n\r\nHe doesn't seem to want to talk about honor.",
+   "ctx": "data/campaign/rules.csv ttArroyoProblems5honorD [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"What of it?\" he says, exasperated, then catches himself. \"No, don't give me a speech about law. I don't care, and no one else cares. Just stop.\"\r\n\r\n\"I should have charged you that executive consulting fee,\" he mutters.",
+   "ctx": "data/campaign/rules.csv ttArroyoProblems5law [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"Hopeless,\" he says, exasperated. \"Did you hear a word I said? I can't believe I called this 'fun'.\"\r\n\r\n\"I should have charged you that executive consulting fee,\" he mutters.",
+   "ctx": "data/campaign/rules.csv ttArroyoProblems5killing [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"We Knights of Ludd greet you; blessed are we to serve as guardians of the Faithful in this volume, protecting those who cannot protect themselves.\"\r\n\r\n\"Lest those meek who benefit from our holy travail fall into greater hardship or worse, we Knights require of you a simple, voluntary tithe of $SP_supplies supplies to support our Good Works.\"",
+   "ctx": "data/campaign/rules.csv lcSacredProtectorsComms [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"We Knights of Ludd greet you; blessed are we to be serving as guardians of the Faithful of this volume who cannot protect themselves.\"\r\n\r\n\"Pray us that you come here to assist... in your way.\" There's a just-detectable quaver in the $post's voice. $HeOrShe perhaps realizes that the Knights are somewhat overstepping their rights here.\r\n\r\n\"We pray that your $shipOrFleet, mighty as it is, may drive away those who would trouble and assail the defenseless Faithful.\"",
+   "ctx": "data/campaign/rules.csv lcSacredProtectorsCommsWeaker [text]"
+  },
+  {
+   "i": 6,
+   "en": "The Knight appears to be taken aback. \"Only an unbeliever could be so godlessly cynical,\" $heOrShe exclaims, looking at you with a mix of pity and disgust.\r\n\r\n\"I will pray for you, captain,\" $heOrShe says, recovering $hisOrHer composition. \"After you give us your tithe.\"",
+   "ctx": "data/campaign/rules.csv LCP_cynical [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Ah, uh.\" The $post looks uncomfortable, glancing aside as a subordinate whispers a confirmation to $himOrHer.\r\n\r\n\"...Of course, yes. We are blessed that you walk with us. Given your commitment to the Mother Church, surely you understand the necessity of the tithe.\"",
+   "ctx": "data/campaign/rules.csv LCP_butHaveCom [text]"
+  },
+  {
+   "i": 8,
+   "en": "The Knight holds still for a long, uncomfortable moment. You're in the midst of pondering whether to check that the comms feed hasn't frozen when $heOrShe lets out a sigh.\r\n\r\n\"I will pray for you, captain. That you will not stray from the path, that you will embody virtue, that in the future you will choose right action over the self.\"\r\n\r\n$HeOrShe snaps the comms off, leaving you with the fading image of a rather unknightly expression.",
+   "ctx": "data/campaign/rules.csv LCP_butHaveCom2 [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"Indeed, our scans indicate that you do not possess supplies enough to make a worthy tithe. Unfortunate, but understandable. We would not demand a pauper like yourself give up what is needed for survival.\" \r\n\r\nThe Knight makes a very slight bow. \"You have our pity. And for you we shall pray, $playerBrotherOrSister.\"",
+   "ctx": "data/campaign/rules.csv LCP_notEnoughSel [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"Indeed, our scans indicate that you do not possess supplies enough to make a worthy tithe. We would not demand a pauper like yourself give up what is needed for survival.\" \r\n\r\nThe Knight makes a very slight bow. \"You have our pity. And for you we shall pray, $playerBrotherOrSister.\"\r\n\r\n\"In the meantime, you and I are alike blessed to witness a miracle: abundant supplies simply floating in space nearby. We shall take of them to serve our Good Work, and praise the Creator for this stroke of providence.\"",
+   "ctx": "data/campaign/rules.csv LCP_notEnoughSelPods [text]"
+  },
+  {
+   "i": 11,
+   "en": "The Knight is only slightly taken aback by your brazen untruth.\r\n\r\n\"If.\" A significant pause, \"If that be,\" $heOrShe begins, \"then surely we would be best suited to deliver-\"",
+   "ctx": "data/campaign/rules.csv LCP_notEnoughLieSel [text]"
+  },
+  {
+   "i": 12,
+   "en": "You interrupt the Knight's skeptical counter-proposal with a heartfelt story: A popular congregation on Tartessus, most of a guild-village of impoverished farmers and handcrafters, underwent a period of prayer and privation in order to collect a donation to ameliorate the suffering Faithful of far-flung worlds.\r\n\r\nTold of their show of piety, you traveled to their village and you made to them a personal promise before the congregation - led by the humble curate who, blind and aged, convinced you to see this charity delivered by your own hand. Although it sounds unreasonable it is by that very unreasonableness you demonstrate your devotion.\r\n\r\nFaith, after all, falls beyond the realm of the merely rational.",
+   "ctx": "data/campaign/rules.csv LCP_notEnoughLieSel2 [text]"
+  },
+  {
+   "i": 13,
+   "en": "The Knight, overcome by your barrage of words and moved by your devotion, is haltingly forced to concede that your holy quest may well be as valid as $hisOrHer own, owing to the circumstances.\r\n\r\n\"I, ah, shall pray for you, and for this congregation on Tartessus,\" the Knight says,\"-That their charity will serve Good Cause and inspire many more acts of Faith.\"",
+   "ctx": "data/campaign/rules.csv LCP_notEnoughLieSel3 [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"Tithing is, of course, a matter of personal conscience.\"\r\n\r\nThe Knight's tone grows dark, \"However, we claim right of 'induced charity' in this matter, as the lives of Faithful are in present danger.\" $HisOrHer eyes go hard. \"Sooner would we die than allow our flock harm. Indeed, it would be dreadful sin to withhold food from the starving, shelter from the freezing, and succor from the ill.\"\r\n\r\n$HeOrShe gazes slightly upward, eyes unfocused. \"Let Ludd's hammer find my one hand, and the sword the other; I will do righteous battle to defend the Faithful.\"\r\n\r\nThe Knight's threat is far from subtle.",
+   "ctx": "data/campaign/rules.csv LCP_notHappeningSel [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"But thou must,\" $heOrShe says.",
+   "ctx": "data/campaign/rules.csv LCP_notHappeningSelFaithful [text]"
+  },
+  {
+   "i": 16,
+   "en": "As the cargo transfer is confirmed, the Knight calmly puts $hisOrHer hands together, the very picture of piety.\r\n\r\n\"Your charity is a beacon of hope in a world of inequity,\" the $post says. \"The Knights appreciate your pious, selfless generosity.\"",
+   "ctx": "data/campaign/rules.csv LCP_complySel [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"Regretfully, I see no possibility for such an accord to be approved with a-\" $heOrShe catches $himOrHerself. \"With one who is engaged in direct hostilities against the Church of Galactic Redemption.\" \r\n\r\n\"The Knights have a holy mission! Hammer in one hand, sword in the other, I pray they see it done,\" $heOrShe says fiercely.\r\n\r\nMeanwhile, the $post's hand appears to have wandered toward a secondary console and is frantically tapping what you assume is some kind of alert signal.",
+   "ctx": "data/campaign/rules.csv lcMakeDealHostile [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"Your reputation has spread like... like a plague, $playerSirOrMadam.\" The $post looks disgusted as $heOrShe speaks, \"Were the Knights inclined to negotiate, they would know better than to deal with an oathbreaker like you. You hold nothing sacred, not even your own word.\"\r\n\r\n\"Hammer in one hand, sword in the other, I pray the Knights see their work done,\" $heOrShe says fiercely.\r\n\r\nMeanwhile, the $post's hand appears to have wandered toward a secondary console and is frantically tapping what you assume is some kind of alert signal.",
+   "ctx": "data/campaign/rules.csv lcMakeDealTakeoverUntrustworthy [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"Ah.\" $HeOrShe folds $hisOrHer hands together, altogether too serene. \"Yes, I recall that we've had contact about this very issue with you, unfortunately without resolution upon that previous occasion.\"\r\n\r\n\"I pray this blessed day that we may come to a constructive compromise which sees to the bodily and spiritual security of all parties.\"",
+   "ctx": "data/campaign/rules.csv lcMakeDealSelAgain [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"Our proposal is thus: the Church of Galactic Redemption and your organization collaborate to impose immigration controls to limit the flow of the Faithful to your colonies. The Church will tend to its flock, and the Knights of Ludd will cease their interventions in your affairs.\"\r\n\r\n\"Once you agree to the concordat, of course.\" $HeOrShe smiles hopefully, but perhaps not sincerely.",
+   "ctx": "data/campaign/rules.csv lcMakeDealSelAgainReview [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"Ah.\" $HeOrShe folds $hisOrHer hands together, altogether too serene.\r\n\r\n\"The Knights of Ludd perform a holy mission to protect the Faithful and, yes, they are eager to demonstrate their faith. However, we should not allow Pride to breed Wrath, yes?\"\r\n\r\n\"A compromise, a concordat, could resolve this situation.\"",
+   "ctx": "data/campaign/rules.csv lcMakeDealSel [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"There is not 'no reason' for this situation, $playerSirOrMadam,\" $heOrShe says, with a look of strained patience. \"A growing number of the Faithful have traveled to your holdings, and you have allowed them to work and settle.\"\r\n\r\n\"The Church tends to its flock.\"",
+   "ctx": "data/campaign/rules.csv lcMakeDealIntroA [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"It is not quite so simple as that,\" $heOrShe says with a look of strained patience. \"A growing number of the Faithful have traveled to new-founded colonies, and you have allowed them to work and settle there.\"\r\n\r\n\"Protection of the Faithful is the foremost duty of the Knights of Ludd.\"",
+   "ctx": "data/campaign/rules.csv lcMakeDealIntroB [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"It is not quite so simple as that,\" $heOrShe says with a look of strained patience. \"A growing number of the Faithful have traveled to new-founded colonies - you have allowed them to work and settle within your holdings.\r\n\r\n\"It is the duty of the Knights of Ludd to protect the Faithful in body and spirit alike.\"",
+   "ctx": "data/campaign/rules.csv lcMakeDealIntroC [text]"
+  },
+  {
+   "i": 25,
+   "en": "$HeOrShe reaches for a book - paper - and begins to cite population statistics. Between this and what you recall from your own stats, you get the implication that certain key labor pools have been leaving worlds under Luddic control for a new life in the colonies.\r\n\r\nIn particular, yours. And that's a problem for them.",
+   "ctx": "data/campaign/rules.csv lcMakeDealIntro2 [text]"
+  },
+  {
+   "i": 26,
+   "en": "The $post forms a thin, unamused smile.\r\n\r\n\"Such a strictly secular perspective blinds you to the spiritual bounty of Ludd's vision - and to the duties it entails. I cannot open your eyes for you; I can but ask.\"\r\n\r\n\"And if my asking falls upon deaf ears, then I shall wait; time may ruin yet the wall of pride which girds your heart,\" $heOrShe says, hands together, eyes darting upwards.\r\n\r\nNow $heOrShe's quoting some holy book; an obfuscating tactic. You are unsurprised to find that a representative of the Church will not openly admit the basis of their labor policies.",
+   "ctx": "data/campaign/rules.csv LCmakeDealTurnips [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"Certainly,\" the $post says, frowning. \"And can not even a righteous walker be led astray by deception? Or their own fallen nature?\"\r\n\r\n$HeOrShe shakes $hisOrHer head, an attempt to dispel this sophistry. \"Regardless, I shall not debate matters of canon with you; that is for the curates. My concern lies in the duty of the Church to tend its flock. Particularly,\" $heOrShe gives you an impatient look, \"in regard to spiritual matters.\"",
+   "ctx": "data/campaign/rules.csv LCmakeDealFreeWill [text]"
+  },
+  {
+   "i": 28,
+   "en": "Despite $hisOrHer best attempts, a distinct look of consternation crosses the $post's face.\r\n\r\n\"Whatever the hardship, whatever deceptive whispers attempt to lead the Faithful astray, the Church of Galactic Redemption was founded in Ludd's name to see to their spiritual health.\"\r\n\r\n$HeOrShe eyes take on a steely aspect now, \"And it shall, be it by one means - or another.\"",
+   "ctx": "data/campaign/rules.csv LCmakeDealProvide [text]"
+  },
+  {
+   "i": 29,
+   "en": "A distinct look of consternation crosses the $post's face despite $hisOrHer best attempts.\r\n\r\n\"I shan't entertain your implication, nor be provoked into an argument of dogma. Take up your spiritual fight with a curate; I am here to make a worldly agreement.\"",
+   "ctx": "data/campaign/rules.csv LCmakeDealPath [text]"
+  },
+  {
+   "i": 30,
+   "en": "$HeOrShe clears $hisOrHer throat, and calmly sets aside the book of statistics. \"It is not a demand, it is a compromise.\"\r\n\r\n$HeOrShe holds up a hand in anticipation of an objection. \"Allow me my words. I will be quick about it.\"",
+   "ctx": "data/campaign/rules.csv lcMakeDealProposalAbrupt0 [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"The Church would cooperate with your organization to set in place certain immigration controls. Nothing heavy-handed; we believe these measures would be most easily accepted if we work together.\"\r\n\r\n\"There are Faithful who have been swayed by heretical notions. We would... correct them. It is the duty of the Church, after all, to tend to its flock.\" $HeOrShe smiles blandly.\r\n\r\n\"By dealing with heretical elements, the Church would ensure that these miscontents don't begin to conspire with extremists within your colonies - or within your industries. The Knights, of course, would be recalled to take up a more, ah, internally-oriented posture. The spiritual and secular security of all would be enhanced.",
+   "ctx": "data/campaign/rules.csv lcMakeDealProposalAbrupt1 [text]"
+  }
+ ]
+}

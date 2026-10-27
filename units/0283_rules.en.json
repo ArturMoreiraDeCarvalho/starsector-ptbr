@@ -1,0 +1,986 @@
+{
+ "chunk": 283,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"If it helps, it was Macario's idea. At least after he shot the man who thought it up first.\"",
+   "ctx": "SDTUHyderTalkRound1Option3"
+  },
+  {
+   "i": 2,
+   "en": "\"If it helps, they abandoned their command to flee Macario.\"",
+   "ctx": "SDTUHyderTalkRound1Option4"
+  },
+  {
+   "i": 3,
+   "en": "\"The crew mutinied and handed the officer over without a fight.\"",
+   "ctx": "SDTUHyderTalkRound1Option5"
+  },
+  {
+   "i": 4,
+   "en": "\"So you don't approve of Macario's methods.\"\r",
+   "ctx": "sdtuHyderTalk1Responses"
+  },
+  {
+   "i": 5,
+   "en": "\"He might interpret your own words as treason.\"\r",
+   "ctx": "sdtuHyderTalk1Responses"
+  },
+  {
+   "i": 6,
+   "en": "\"I approve of his goals, if not his methods.\"",
+   "ctx": "sdtuHyderTalk1Responses"
+  },
+  {
+   "i": 7,
+   "en": "\"Look, I just did the job. Your laws and your ethics are your business.\"",
+   "ctx": "sdtuHyderTalk1OfficerResponsesA"
+  },
+  {
+   "i": 8,
+   "en": "\"That seems harsh. It is Macario who manufactured the dilemma.\"",
+   "ctx": "sdtuHyderTalk1OfficerResponsesB"
+  },
+  {
+   "i": 9,
+   "en": "\"You're right, a true officer would stand by their position, even unto death.\"",
+   "ctx": "sdtuHyderTalk1OfficerResponsesF"
+  },
+  {
+   "i": 10,
+   "en": "\"You're right, a true officer would stand by their position, even unto death.\" (lie)",
+   "ctx": "sdtuHyderTalk1OfficerResponsesG"
+  },
+  {
+   "i": 11,
+   "en": "\"The crew merely intended to uphold the law; it is Macario who manufactured the dilemma.\"",
+   "ctx": "sdtuHyderTalk1OfficerResponsesC"
+  },
+  {
+   "i": 12,
+   "en": "\"You're right. Mutiny is absolutely unacceptable in a warfleet.\"",
+   "ctx": "sdtuHyderTalk1OfficerResponsesD"
+  },
+  {
+   "i": 13,
+   "en": "\"You're right. Mutiny is absolutely unacceptable in a warfleet.\" (lie)",
+   "ctx": "sdtuHyderTalk1OfficerResponsesE"
+  },
+  {
+   "i": 14,
+   "en": "\"I will transfer them to your custody immediately.\"",
+   "ctx": "sdtuHyderTalkRound2OptionsB"
+  },
+  {
+   "i": 15,
+   "en": "\"Macario issued the arrest warrant. I will take the officer to him.\"",
+   "ctx": "sdtuHyderTalkRound2OptionsC"
+  },
+  {
+   "i": 16,
+   "en": "\"I promised to release this officer on an independent world.\"",
+   "ctx": "sdtuHyderTalkRound2OptionsD"
+  },
+  {
+   "i": 17,
+   "en": "\"I promised to release them on an independent world, and I did.\"",
+   "ctx": "sdtuHyderTalkRound2OptionsD2"
+  },
+  {
+   "i": 18,
+   "en": "\"Unfortunately, they were killed in battle.\" (lie)",
+   "ctx": "sdtuHyderTalkRound2OptionsE"
+  },
+  {
+   "i": 19,
+   "en": "\"I accept. I'll have the prisoner sent to you immediately.\"\r",
+   "ctx": "sdtuHyderTalk2ToMacario"
+  },
+  {
+   "i": 20,
+   "en": "\"I must insist. This is Macario's prisoner.\"",
+   "ctx": "sdtuHyderTalk2ToMacario"
+  },
+  {
+   "i": 21,
+   "en": "\"Then, with objection, I shall transfer the prisoner to your custody.\"\r",
+   "ctx": "sdtuHyderTalk2Promised"
+  },
+  {
+   "i": 22,
+   "en": "\"I must insist. If my words mean nothing, then I am nothing.\"\r",
+   "ctx": "sdtuHyderTalk2Promised"
+  },
+  {
+   "i": 23,
+   "en": "\"I must insist. If my words mean nothing, then I am nothing.\" (lie)",
+   "ctx": "sdtuHyderTalk2Promised"
+  },
+  {
+   "i": 24,
+   "en": "\"You are right, that loyalty is higher. I will order the transfer.\" \r",
+   "ctx": "sdtuHyderTalk2Promised3B"
+  },
+  {
+   "i": 25,
+   "en": "\"I would be a coward and a liar if I did not follow my judgment. I accept all consequences.\"",
+   "ctx": "sdtuHyderTalk2Promised3B"
+  },
+  {
+   "i": 26,
+   "en": "\"I shall do so.\"\r",
+   "ctx": "sdtuHyderTalk2PromisedB"
+  },
+  {
+   "i": 27,
+   "en": "\"I must insist on not doing so. If my word means nothing, then I am nothing.\"\r",
+   "ctx": "sdtuHyderTalk2PromisedB"
+  },
+  {
+   "i": 28,
+   "en": "\"I must insist on not doing so. If my word means nothing, then I am nothing.\" (lie)",
+   "ctx": "sdtuHyderTalk2PromisedB"
+  },
+  {
+   "i": 29,
+   "en": "\"You are right, the oath I swore is more important. I will make the report.\" \r",
+   "ctx": "sdtuHyderReleaseInsistCom1"
+  },
+  {
+   "i": 30,
+   "en": "\"I would be a coward if I did not follow my judgment. I accept all consequences.\"",
+   "ctx": "sdtuHyderReleaseInsistCom1"
+  },
+  {
+   "i": 31,
+   "en": "\"I stand by my word. As an officer.\"\r",
+   "ctx": "sdtuHyderTalk2BattleCheckA"
+  },
+  {
+   "i": 32,
+   "en": "\"With apologies, I promised to release this officer on an independent world.\"\r",
+   "ctx": "sdtuHyderTalk2BattleCheckA"
+  },
+  {
+   "i": 33,
+   "en": "\"With apologies, Macario also told me to lie about this to gauge your reaction.\" (lie)",
+   "ctx": "sdtuHyderTalk2BattleCheckA"
+  },
+  {
+   "i": 34,
+   "en": "\"I shall transfer the prisoner to your custody.\"\r",
+   "ctx": "sdtuHyderTalk2BattleLieB"
+  },
+  {
+   "i": 35,
+   "en": "\"I will transfer them to your custody immediately.\"\r",
+   "ctx": "sdtuHyderTalk2BattleLieC"
+  },
+  {
+   "i": 36,
+   "en": "\"Macario issued the arrest warrant. I will take the prisoner to him.\"",
+   "ctx": "sdtuHyderTalk2BattleLieC"
+  },
+  {
+   "i": 37,
+   "en": "\"There's just one more thing...\"",
+   "ctx": "sdtuHyderTalk2BattleLieC2"
+  },
+  {
+   "i": 38,
+   "en": "\"Would you return to the Hegemony? I could talk to someone...\"",
+   "ctx": "sdtuHyderTalk3OptionsHeg"
+  },
+  {
+   "i": 39,
+   "en": "\"Who should lead the Sindrian Diktat when Andrada is dead? You?\"",
+   "ctx": "sdtuHyderTalk3OptionsJ"
+  },
+  {
+   "i": 40,
+   "en": "\"Shouldn't you be Grand Star Marshal if the current one is incapacitated?\"",
+   "ctx": "sdtuHyderTalk3OptionsG"
+  },
+  {
+   "i": 41,
+   "en": "\"And when is the last time you met with Andrada?\"",
+   "ctx": "sdtuHyderTalk3OptionsH"
+  },
+  {
+   "i": 42,
+   "en": "\"'Under Andrada.' So Andrada is incapacitated?\"",
+   "ctx": "sdtuHyderTalk3OptionsI"
+  },
+  {
+   "i": 43,
+   "en": "\"You 'would'? And when is the last time you met with Andrada?\"",
+   "ctx": "sdtuHyderTalk3OptionsI2"
+  },
+  {
+   "i": 44,
+   "en": "\"With Philip Andrada as good as gone, what are you loyal to now?\"",
+   "ctx": "sdtuHyderTalk3OptionsA"
+  },
+  {
+   "i": 45,
+   "en": "\"Your superior is incapacitated in a clinic on Sindria, so... who do you report to?\"",
+   "ctx": "sdtuHyderTalk3OptionsB"
+  },
+  {
+   "i": 46,
+   "en": "\"Why does the Deputy Star Marshal of the Sindrian Diktat need to smuggle weapons?",
+   "ctx": "sdtuHyderTalk3OptionsC"
+  },
+  {
+   "i": 47,
+   "en": "\"Glory to the Sindrian Diktat.\"",
+   "ctx": "sdtuHyderTalk3OptionsE"
+  },
+  {
+   "i": 48,
+   "en": "\"Until we meet again.\"",
+   "ctx": "sdtuHyderTalk3OptionsF"
+  },
+  {
+   "i": 49,
+   "en": "\"But he won't. Or can't.\"",
+   "ctx": "sdtuHyderTalkBossPromotionOpt1"
+  },
+  {
+   "i": 50,
+   "en": "\"So why hasn't he? How long has it been?\"",
+   "ctx": "sdtuHyderTalkBossPromotionOpt2"
+  },
+  {
+   "i": 51,
+   "en": "\"He is not well, is he.\"",
+   "ctx": "sdtuGyderTalk3BossTalkAndradaB"
+  },
+  {
+   "i": 52,
+   "en": "\"How about the Lion's Guard? Could Caden lead?\"\r",
+   "ctx": "sdtuHyderTalk3Leadership"
+  },
+  {
+   "i": 53,
+   "en": "\"Sometimes the best leaders are those who don't want the position. Consider it.\"\r",
+   "ctx": "sdtuHyderTalk3Leadership"
+  },
+  {
+   "i": 54,
+   "en": "\"How about me?\"\r",
+   "ctx": "sdtuHyderTalk3Leadership"
+  },
+  {
+   "i": 55,
+   "en": "\"Let us talk of other things.\"",
+   "ctx": "sdtuHyderTalk3Leadership"
+  },
+  {
+   "i": 56,
+   "en": "\"I have your traitorous officer ready to transfer.\"",
+   "ctx": "sdtuPostHyderPrisonerOptA"
+  },
+  {
+   "i": 57,
+   "en": "\"I promised to let the prisoner go free on an independent world.\"",
+   "ctx": "sdtuPostHyderPrisonerOptB"
+  },
+  {
+   "i": 58,
+   "en": "\"I transferred the prisoner to Hyder's custody.\" (lie)",
+   "ctx": "sdtuPostHyderPrisonerOptC"
+  },
+  {
+   "i": 59,
+   "en": "\"Unfortunately the prisoner died between capture and the present.\" (lie)",
+   "ctx": "sdtuPostHyderPrisonerOptD"
+  },
+  {
+   "i": 60,
+   "en": "Don't mention the prisoner.",
+   "ctx": "sdtuPostHyderPrisonerOptE"
+  },
+  {
+   "i": 61,
+   "en": "\"I assure you that I did.\"\r",
+   "ctx": "sdtuPostHyderPrisonerRespC"
+  },
+  {
+   "i": 62,
+   "en": "\"Can you be absolutely certain about what I did and didn't do?\"\r",
+   "ctx": "sdtuPostHyderPrisonerRespC"
+  },
+  {
+   "i": 63,
+   "en": "\"Fine. I'll transfer the prisoner.\"",
+   "ctx": "sdtuPostHyderPrisonerRespC"
+  },
+  {
+   "i": 64,
+   "en": "\"Well, she hates you.\"",
+   "ctx": "sdtuPostHyderReportA"
+  },
+  {
+   "i": 65,
+   "en": "\"I offered to arrange for her defection back to the Hegemony.\"",
+   "ctx": "sdtuPostHyderReportHeg"
+  },
+  {
+   "i": 66,
+   "en": "\"She says you've conspired to hold back her promotion to Grand Star Marshal.\"",
+   "ctx": "sdtuPostHyderReportB"
+  },
+  {
+   "i": 67,
+   "en": "\"She doesn't believe Caden can successfully lead the Sindrian Diktat.\"",
+   "ctx": "sdtuPostHyderReportC"
+  },
+  {
+   "i": 68,
+   "en": "\"She doesn't want to lead the Sindrian Diktat.\"",
+   "ctx": "sdtuPostHyderReportD"
+  },
+  {
+   "i": 69,
+   "en": "\"She blames you for the navy's supply problems.\"",
+   "ctx": "sdtuPostHyderReportE"
+  },
+  {
+   "i": 70,
+   "en": "\"That's all I have to say.\"",
+   "ctx": "sdtuPostHyderReportF"
+  },
+  {
+   "i": 71,
+   "en": "Consider some lies to tell Macario",
+   "ctx": "sdtuPostHyderReportLies"
+  },
+  {
+   "i": 72,
+   "en": "Consider some truths to tell Macario",
+   "ctx": "sdtuPostHyderLiesOptionA"
+  },
+  {
+   "i": 73,
+   "en": "\"If it comes to it, Hyder would back Caden's leadership.\" (lie)",
+   "ctx": "sdtuPostHyderLiesOptionB"
+  },
+  {
+   "i": 74,
+   "en": "\"Hyder will back you as leader, though she is reluctant.\" (lie)",
+   "ctx": "sdtuPostHyderLiesOptionC"
+  },
+  {
+   "i": 75,
+   "en": "\"She thinks that no one could lead the Sindrian Diktat but herself.\" (lie)",
+   "ctx": "sdtuPostHyderLiesOptionD"
+  },
+  {
+   "i": 76,
+   "en": "\"I believe that Hyder wants to defect to the Hegemony.\" (lie)",
+   "ctx": "sdtuPostHyderLiesOptionE"
+  },
+  {
+   "i": 77,
+   "en": "\"She said you would fuel starships and feed crews with only lies, if you could.\"",
+   "ctx": "sdtuPostHyderHatesYouOptA"
+  },
+  {
+   "i": 78,
+   "en": "\"She said you cannot comprehend the concepts of honor, duty, and discipline.\"",
+   "ctx": "sdtuPostHyderHatesYouOptB"
+  },
+  {
+   "i": 79,
+   "en": "\"She called you a meddlesome worm.\"",
+   "ctx": "sdtuPostHyderHatesYouOptC"
+  },
+  {
+   "i": 80,
+   "en": "\"She said you've allowed the Volturnian Resistance to continue because you're incompetent and distracted.\"",
+   "ctx": "sdtuPostHyderHatesYouOptD"
+  },
+  {
+   "i": 81,
+   "en": "\"She says that half of the operations you authorize are treasonous.\"",
+   "ctx": "sdtuPostHyderHatesYouOptE"
+  },
+  {
+   "i": 82,
+   "en": "\"I'm just being thorough.\"",
+   "ctx": "sdtuPostHyderHatesYouOptF"
+  },
+  {
+   "i": 83,
+   "en": "\"She didn't really answer. Just something about treason and execution.\"\r",
+   "ctx": "sdtuPostHyderHegemonyOut"
+  },
+  {
+   "i": 84,
+   "en": "\"Yes.\" (lie)",
+   "ctx": "sdtuPostHyderHegemonyOut"
+  },
+  {
+   "i": 85,
+   "en": "\"Confront Caden with his double-agent. Right.\"\r",
+   "ctx": "sdtuPostHyderMission2"
+  },
+  {
+   "i": 86,
+   "en": "\"So this agent is working for the Resistance?\"\r",
+   "ctx": "sdtuPostHyderMission2"
+  },
+  {
+   "i": 87,
+   "en": "\"How long have you known about this?\"",
+   "ctx": "sdtuPostHyderMission2"
+  },
+  {
+   "i": 88,
+   "en": "End",
+   "ctx": "sdtuPostHyderMission2a"
+  },
+  {
+   "i": 89,
+   "en": "Prepare a raid to extract Caden's agent",
+   "ctx": "sdtuAddUmbraRaidOption"
+  },
+  {
+   "i": 90,
+   "en": "\"I need to find an agent working for the Sindrian Diktat.\"\r",
+   "ctx": "sdtuUmbraAdmin"
+  },
+  {
+   "i": 91,
+   "en": "Pretend to be capturing a triple-agent to assist the Resistance",
+   "ctx": "sdtuUmbraAdmin"
+  },
+  {
+   "i": 92,
+   "en": "Explain the true situation\r",
+   "ctx": "sdtuUmbraAskAgentQM2"
+  },
+  {
+   "i": 93,
+   "en": "Explain as if they were a triple-agent (lie)\r",
+   "ctx": "sdtuUmbraAskAgentQM2"
+  },
+  {
+   "i": 94,
+   "en": "\"Um, never mind actually.\"",
+   "ctx": "sdtuUmbraAskAgentQM2"
+  },
+  {
+   "i": 95,
+   "en": "\"They're burned, Imoinu. This way still gets a win for the ARC and the United Front.\"",
+   "ctx": "sdtuUmbraAskAgentQM3"
+  },
+  {
+   "i": 96,
+   "en": "\"And they'll come to no harm.\"\r",
+   "ctx": "sdtuUmbraAskAgentQM4"
+  },
+  {
+   "i": 97,
+   "en": "\"And they'll definitely come to no harm.\" (lie)",
+   "ctx": "sdtuUmbraAskAgentQM4"
+  },
+  {
+   "i": 98,
+   "en": "\"And I need this agent. To get into Macario's favor, infiltrate his schemes.\"",
+   "ctx": "sdtuUmbraTrickVIPimoinuB"
+  },
+  {
+   "i": 99,
+   "en": "\"For the United Front!\"",
+   "ctx": "sdtuUmbraTrickVIPimoinuB2"
+  },
+  {
+   "i": 100,
+   "en": "\"Trust me. I've helped the ARC before, just ask Imoinu.\"",
+   "ctx": "sdtuUmbraTrickVIPOptionZ"
+  },
+  {
+   "i": 101,
+   "en": "\"I'm secretly a Hegemony agent working to undermine the Diktat.\" (lie)",
+   "ctx": "sdtuUmbraTrickVIPOptionA"
+  },
+  {
+   "i": 102,
+   "en": "\"Myself. And I hate the Sindrian Diktat.\"",
+   "ctx": "sdtuUmbraTrickVIPOptionB"
+  },
+  {
+   "i": 103,
+   "en": "\"Myself. And I hate the Sindrian Diktat.\" (lie)",
+   "ctx": "sdtuUmbraTrickVIPOptionC"
+  },
+  {
+   "i": 104,
+   "en": "\"A deep-cover ARC cell you've never heard of.\" (lie)",
+   "ctx": "sdtuUmbraTrickVIPOptionD"
+  },
+  {
+   "i": 105,
+   "en": "\"I am of the Luddic faith and I fight our common enemy.\" (lie)",
+   "ctx": "sdtuUmbraTrickVIPOptionE"
+  },
+  {
+   "i": 106,
+   "en": "\"I am of the Luddic faith and I fight our common enemy.\"",
+   "ctx": "sdtuUmbraTrickVIPOptionF"
+  },
+  {
+   "i": 107,
+   "en": "\"Persean League fleet intelligence. My real name is 'Siyavong'.\" (lie)",
+   "ctx": "sdtuUmbraTrickVIPOptionG"
+  },
+  {
+   "i": 108,
+   "en": "\"Glad to hear it. Now about this agent...\"",
+   "ctx": "sdtuUmbraTrickVIPOptionZsel"
+  },
+  {
+   "i": 109,
+   "en": "\"Very open-minded of you. So about this agent...\"",
+   "ctx": "sdtuUmbraTrickVIPOptionA2"
+  },
+  {
+   "i": 110,
+   "en": "\"Thank you. So about this agent...\"",
+   "ctx": "sdtuUmbraTrickVIPOptionB2"
+  },
+  {
+   "i": 111,
+   "en": "\"So, about this triple-agent serving the forces of reaction...\"",
+   "ctx": "sdtuUmbraTrickVIPOptionD2"
+  },
+  {
+   "i": 112,
+   "en": "\"And upon you. Now about this agent...\"",
+   "ctx": "sdtuUmbraTrickVIPOptionF2"
+  },
+  {
+   "i": 113,
+   "en": "\"Your broad-mindedness is a virtue. Now about this agent...\"",
+   "ctx": "sdtuUmbraTrickVIPOptionG2"
+  },
+  {
+   "i": 114,
+   "en": "\"Funny you should ask...\"",
+   "ctx": "sdtuUmbraTrickVIPOpt2imoinu"
+  },
+  {
+   "i": 115,
+   "en": "\"Naturally.\"",
+   "ctx": "sdtuUmbraTrickVIPending1"
+  },
+  {
+   "i": 116,
+   "en": "Let them off here\r",
+   "ctx": "sdtuUmbraReleaseArcAgent"
+  },
+  {
+   "i": 117,
+   "en": "Offer them a job",
+   "ctx": "sdtuUmbraReleaseArcAgent"
+  },
+  {
+   "i": 118,
+   "en": "\"Macario discovered that your agent was a traitor. I have proof.\"",
+   "ctx": "sdtuCadenAgentC"
+  },
+  {
+   "i": 119,
+   "en": "\"I am nothing but loyal to the Supreme Executor. I can prove it!\"",
+   "ctx": "sdtuCadenAgentA"
+  },
+  {
+   "i": 120,
+   "en": "\"Your agent was a traitor, working for the rebels of Umbra.\"",
+   "ctx": "sdtuCadenAgentB"
+  },
+  {
+   "i": 121,
+   "en": "\"I'm doing you a favor by rooting out treason. I have proof!\"",
+   "ctx": "sdtuCadenAgentD"
+  },
+  {
+   "i": 122,
+   "en": "\"I am nothing but loyal to the Supreme Executor. I can prove it!\" (lie)",
+   "ctx": "sdtuCadenAgentE"
+  },
+  {
+   "i": 123,
+   "en": "\"I am not acting under Hegemony authority. Your agent is a traitor.\"",
+   "ctx": "sdtuCadenAgentF"
+  },
+  {
+   "i": 124,
+   "en": "\"Macario ordered the arrest. I've already delivered the agent to him.\" (lie)",
+   "ctx": "sdtuCadenDemandOptD"
+  },
+  {
+   "i": 125,
+   "en": "Transfer the agent",
+   "ctx": "sdtuCadenDemandOptA"
+  },
+  {
+   "i": 126,
+   "en": "\"Macario ordered the arrest, so I must deliver the agent to him.\"",
+   "ctx": "sdtuCadenDemandOptB"
+  },
+  {
+   "i": 127,
+   "en": "\"Macario ordered the arrest, so I will deliver the traitor to him.\" (lie)",
+   "ctx": "sdtuCadenDemandOptC"
+  },
+  {
+   "i": 128,
+   "en": "\"But... Macario said only his authority was second to the Supreme Executor...\" (lie)\r",
+   "ctx": "sdtuCadenAgentMacarioLieB"
+  },
+  {
+   "i": 129,
+   "en": "\"Treason it is, I guess. Death to Andrada! Death to all oppressors!\"",
+   "ctx": "sdtuCadenAgentMacarioLieB"
+  },
+  {
+   "i": 130,
+   "en": "\"But... Macario said only his authority was second to the Supreme Executor...\" (lie)",
+   "ctx": "sdtuCadenDemand2OptB"
+  },
+  {
+   "i": 131,
+   "en": "Transfer the agent\r",
+   "ctx": "sdtuCadenAgentMacarioSecondLie3"
+  },
+  {
+   "i": 132,
+   "en": "\"But 'Andrada' is only a name now, isn't it.\"\r",
+   "ctx": "sdtuCadenAgentMacarioSecondLie3"
+  },
+  {
+   "i": 133,
+   "en": "\"I said I'm transferring the agent - in Andrada's name.\"\r",
+   "ctx": "sdtuCadenConfrontAndrada"
+  },
+  {
+   "i": 134,
+   "en": "\"I said Andrada is braindead, isn't he. So where's your authority come from now?\"",
+   "ctx": "sdtuCadenConfrontAndrada"
+  },
+  {
+   "i": 135,
+   "en": "\"Macario is ensuring the loyalty of key figures for... the future.\"\r",
+   "ctx": "sdtuCadenAgentAsks"
+  },
+  {
+   "i": 136,
+   "en": "\"Macario is manipulating you. He wants to control you.\"\r",
+   "ctx": "sdtuCadenAgentAsks"
+  },
+  {
+   "i": 137,
+   "en": "\"Macario is simply doing his job through me. Purging traitors for the Supreme Executor.\"\r",
+   "ctx": "sdtuCadenAgentAsks"
+  },
+  {
+   "i": 138,
+   "en": "\"I'm just a freelancer. I get paid and don't ask questions.\"",
+   "ctx": "sdtuCadenAgentAsks"
+  },
+  {
+   "i": 139,
+   "en": "\"Nothing. Your loyalty to the Lion is obviously beyond reproach.\"\r",
+   "ctx": "sdtuCadenMacLoyalty1"
+  },
+  {
+   "i": 140,
+   "en": "\"As I said. Macario suspects you of deviation, and favors Hyder.\" (lie)\r",
+   "ctx": "sdtuCadenMacLoyalty1"
+  },
+  {
+   "i": 141,
+   "en": "\"As I said. Macario believes he will rule the Diktat with you as his puppet.\"",
+   "ctx": "sdtuCadenMacLoyalty1"
+  },
+  {
+   "i": 142,
+   "en": "\"He thinks he's smarter than you.\"\r",
+   "ctx": "sdtuCadenMacPuppet1"
+  },
+  {
+   "i": 143,
+   "en": "\"You're right. He's crazy.\"",
+   "ctx": "sdtuCadenMacPuppet1"
+  },
+  {
+   "i": 144,
+   "en": "\"You seem pretty confident that you will be the next Supreme Executor...\"",
+   "ctx": "sdtuCadenExecRepliesA"
+  },
+  {
+   "i": 145,
+   "en": "\"Yes sir! I already have my copy of 'Quotations from the Supreme Executor'.\"",
+   "ctx": "sdtuCadenExecRepliesB"
+  },
+  {
+   "i": 146,
+   "en": "\"Yes sir! I already have my copy of 'Quotations from the Supreme Executor'.\" (sarcastic)",
+   "ctx": "sdtuCadenExecRepliesC"
+  },
+  {
+   "i": 147,
+   "en": "\"So why are you channeling supplies away from Hyder's navy?\"",
+   "ctx": "sdtuCadenAskSupplies"
+  },
+  {
+   "i": 148,
+   "en": "\"A word of warning. Hyder and the navy won't back you.\"",
+   "ctx": "sdtuCadenHyderBackWarn"
+  },
+  {
+   "i": 149,
+   "en": "\"I have reason to believe that Hyder intends to become Supreme Executor.\" (lie)",
+   "ctx": "sdtuCadenHyderExec"
+  },
+  {
+   "i": 150,
+   "en": "\"When the time comes, I will help you against Macario.\"",
+   "ctx": "sdtuCadenPledgeVsMacario"
+  },
+  {
+   "i": 151,
+   "en": "\"When the time comes, I will help you against Macario.\" (lie)",
+   "ctx": "sdtuCadenPledgeVsMacarioLie"
+  },
+  {
+   "i": 152,
+   "en": "\"Um, glory to the Sindrian Diktat?\"",
+   "ctx": "sdtuCadenEndGloryB"
+  },
+  {
+   "i": 153,
+   "en": "\"She does. Hyder could make a play for Supreme Executorship.\"\r",
+   "ctx": "sdtuCadenHyderBackWarn1"
+  },
+  {
+   "i": 154,
+   "en": "\"Macario. He only really believes in himself.\"",
+   "ctx": "sdtuCadenHyderBackWarn1"
+  },
+  {
+   "i": 155,
+   "en": "\"He trusts you. You have nothing to worry about.\"\r",
+   "ctx": "sdtuMacarioPostCadenGreeting"
+  },
+  {
+   "i": 156,
+   "en": "\"He trusts you. You have nothing to worry about.\" (lie)\r",
+   "ctx": "sdtuMacarioPostCadenGreeting"
+  },
+  {
+   "i": 157,
+   "en": "\"He doesn't trust you...\"\r",
+   "ctx": "sdtuMacarioPostCadenGreeting"
+  },
+  {
+   "i": 158,
+   "en": "\"He doesn't trust you...\" (lie)",
+   "ctx": "sdtuMacarioPostCadenGreeting"
+  },
+  {
+   "i": 159,
+   "en": "\"Caden told me you were raised by Luddics.\"",
+   "ctx": "sdtuPostCadenTrustOptsA"
+  },
+  {
+   "i": 160,
+   "en": "\"I told Caden that Hyder wants to become Supreme Executor.\"",
+   "ctx": "sdtuPostCadenTrustOptsB"
+  },
+  {
+   "i": 161,
+   "en": "\"I told Caden that I would support him becoming Supreme Executor.\"",
+   "ctx": "sdtuPostCadenTrustOptsC"
+  },
+  {
+   "i": 162,
+   "en": "\"Hyder has been in contact with Caden.\" (lie)",
+   "ctx": "sdtuPostCadenNoTrustOptsB"
+  },
+  {
+   "i": 163,
+   "en": "\"I told Caden that Hyder supports you taking the office of Supreme Executor.\"",
+   "ctx": "sdtuPostCadenNoTrustOptsC"
+  },
+  {
+   "i": 164,
+   "en": "\"Caden seemed to have the idea that you've overstepped your authority.\"",
+   "ctx": "sdtuPostCadenNoTrustOptsD"
+  },
+  {
+   "i": 165,
+   "en": "\"He got it into his head that you intend to treat him as a puppet.\"",
+   "ctx": "sdtuPostCadenNoTrustOptsE"
+  },
+  {
+   "i": 166,
+   "en": "\"I told him you are committed to taking down his rivals, particularly Hyder.\"",
+   "ctx": "sdtuPostCadenTrustLieOptsB"
+  },
+  {
+   "i": 167,
+   "en": "\"I told him that you secretly admire his ideological commitment.\"",
+   "ctx": "sdtuPostCadenTrustLieOptsC"
+  },
+  {
+   "i": 168,
+   "en": "\"I told him you embody the Andradan virtues and possess unquestionable loyalty.\"",
+   "ctx": "sdtuPostCadenTrustLieOptsD"
+  },
+  {
+   "i": 169,
+   "en": "\"Hyder has his backing for Supreme Executor. So he said.\"",
+   "ctx": "sdtuPostCadenNoTrustLieOptsB"
+  },
+  {
+   "i": 170,
+   "en": "\"He thinks you are unreliable in terms of loyalty to the, uh, ideology of Philip Andrada.\"",
+   "ctx": "sdtuPostCadenNoTrustLieOptsC"
+  },
+  {
+   "i": 171,
+   "en": "\"He's latched onto the idea that you want to become Supreme Executor.\"",
+   "ctx": "sdtuPostCadenNoTrustLieOptsD"
+  },
+  {
+   "i": 172,
+   "en": "Let him talk.\r",
+   "ctx": "sdtuPostCadenInterruption"
+  },
+  {
+   "i": 173,
+   "en": "\"My favors don't come cheap.\"\r",
+   "ctx": "sdtuPostCadenInterruption"
+  },
+  {
+   "i": 174,
+   "en": "\"Beg? Oh, please proceed.\"",
+   "ctx": "sdtuPostCadenInterruption"
+  },
+  {
+   "i": 175,
+   "en": "\"What's so important about this information?\"\r",
+   "ctx": "sdtuPostCadenEnd"
+  },
+  {
+   "i": 176,
+   "en": "Inspect the core",
+   "ctx": "sdtuDebrisOpen"
+  },
+  {
+   "i": 177,
+   "en": "View the metadata",
+   "ctx": "sdtuDebrisData0"
+  },
+  {
+   "i": 178,
+   "en": "\"What happened to Perseus?\"",
+   "ctx": "sdtuDebrisData2"
+  },
+  {
+   "i": 179,
+   "en": "\"Or someone died.\"",
+   "ctx": "sdtuDebrisData3"
+  },
+  {
+   "i": 180,
+   "en": "\"You are in Sindrian Diktat space! I give the orders here.\"",
+   "ctx": "sdtuMercOptionsB"
+  },
+  {
+   "i": 181,
+   "en": "\"What are you doing?\"",
+   "ctx": "sdtuMercOptionsC"
+  },
+  {
+   "i": 182,
+   "en": "\"I was expecting to meet a ship or fleet here.\"",
+   "ctx": "sdtuMercOptionsD"
+  },
+  {
+   "i": 183,
+   "en": "\"I must investigate that debris field.\"",
+   "ctx": "sdtuMercOptionsF"
+  },
+  {
+   "i": 184,
+   "en": "\"I'll just be going now.\"",
+   "ctx": "sdtuMercOptionsG"
+  },
+  {
+   "i": 185,
+   "en": "\"I'll be on my way, then.\"\r",
+   "ctx": "sdtuMercReact1debris"
+  },
+  {
+   "i": 186,
+   "en": "\"Then use force to stop me.\"",
+   "ctx": "sdtuMercReact1debris"
+  },
+  {
+   "i": 187,
+   "en": "\"What are you doing?\"\r",
+   "ctx": "sdtuMercHegReact1"
+  },
+  {
+   "i": 188,
+   "en": "\"I was expecting to meet a ship or fleet here.\"\r",
+   "ctx": "sdtuMercHegReact1"
+  },
+  {
+   "i": 189,
+   "en": "\"Who are you working for?\"\r",
+   "ctx": "sdtuMercHegReact1"
+  },
+  {
+   "i": 190,
+   "en": "\"I'll be on my way, then.\"",
+   "ctx": "sdtuMercHegReact1"
+  },
+  {
+   "i": 191,
+   "en": "\"May I assume that this fact changes your disposition?\"",
+   "ctx": "sdtuMercGreetingGotDebrisHeg"
+  },
+  {
+   "i": 192,
+   "en": "\"Burn bright.\"",
+   "ctx": "sdtuMercGreetingGotDebrisHeg2"
+  },
+  {
+   "i": 193,
+   "en": "\"Explain your meaning- why Ragnar Complex?\"\r",
+   "ctx": "sdtuMercGreetingGotDebrisHeg2b"
+  },
+  {
+   "i": 194,
+   "en": "\"What happened to Perseus?\"\r",
+   "ctx": "sdtuMacarioNewsEnd"
+  },
+  {
+   "i": 195,
+   "en": "\"Who are these seven Andradas?\"\r",
+   "ctx": "sdtuMacarioNewsEnd"
+  },
+  {
+   "i": 196,
+   "en": "\"Are these the heirs of Andrada? Only six left.\"\r",
+   "ctx": "sdtuMacarioNewsEnd"
+  }
+ ]
+}

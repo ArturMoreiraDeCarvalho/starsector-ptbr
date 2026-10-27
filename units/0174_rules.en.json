@@ -1,0 +1,121 @@
+{
+ "chunk": 174,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"Oh, captain. I am disappointed to end our little discussion so soon,\" he says, looking legitimately let down. \"But I understand,\" he continues, magnanimously, \"You have business to attend to and I'm certain it cannot wait. We all have our demands. Such is the way of the world, is it not?\"\r\n\r\n\"Good day, captain. I'm sure we will meet each other again very soon, and I would love to continue our little chat.\" \r\n\r\nWith that he closes the comms somewhat abruptly. You get the distinct feeling that Fleet Intelligence is going to be keeping a close eye on you.",
+   "ctx": "data/campaign/rules.csv gaPZ_siya5 [text]"
+  },
+  {
+   "i": 2,
+   "en": "You order the main display turned on, and the Diktat officer appears, already barking orders. \"You have entered Sindrian Diktat space while operating an illegal class of starship. Power down your engines!\"\r\n\r\n\"By the power vested in me by the authority of Philip Andrada, the Diktat Supreme Executor, I-\" a drop of sweat finds its way down $hisOrHer face,\"-I declare that this ship is now property of the Sindrian Diktat. You shall stand down all weapon systems and shields then transfer command protocols to my flagship.\"",
+   "ctx": "data/campaign/rules.csv gaPZDiktatEncounterStandard [text]"
+  },
+  {
+   "i": 3,
+   "en": "You order the main display turned on. The Diktat officer appears, already barking orders. \"You have entered Sindrian Diktat space as a known operator of an, an unregistered class of starship, the so-called Ziggurat-class hull. By order of Supreme Executor Andrada, victory-be-his-alone, we claim the right to perform a thorough scan of all anomalous ship systems to ascertain their propriety in the interest of the security of the Sindrian Diktat.\"",
+   "ctx": "data/campaign/rules.csv gaPZDiktatEncounterNoZig [text]"
+  },
+  {
+   "i": 4,
+   "en": "The Diktat $rank's jaw tightens.\r\n\r\n\"Of course. I know that,\" $heOrShe spits. \"But if you did, we would have the right to perform a thorough stop-and-scan, and even board, and- \" $heOrShe trails off, realizing the impotence of these statements.\r\n\r\n\"We're watching you. Closely. Be on your way now, captain. Long live the Lion of Sindria!\"\r\n\r\nThe comms-link snaps off, leaving you with a holding signal.",
+   "ctx": "data/campaign/rules.csv gaPZDiktatEncounterNoZig2 [text]"
+  },
+  {
+   "i": 5,
+   "en": "You order the main display turned on. The Diktat officer appears, already barking orders. \"You have entered Sindrian Diktat space while operating an unregistered class of starship! We claim right to perform a thorough scan of all ship systems, and said scan shall begin- now,\" $heOrShe waves a command to an underling.\r\n\r\nYour sensors officer whispers a report to you, \"Captain, they're performing an active scan. Trying to see everything. But this ship?\" They give the hint of a smile, \"Doesn't give up secrets easily.\"",
+   "ctx": "data/campaign/rules.csv gaPZDiktatEncounterOnlyZig [text]"
+  },
+  {
+   "i": 6,
+   "en": "A bead of sweat finds its way down the Diktat $post's face as $hisOrHer eyes are clearly taking in the results on another screen. \"... Yes, good, good. We have everything we need to... ah, ascertain that your starship is approved for interstellar commerce. You may proceed, captain. Victory to Sindria!\"\r\n\r\nThe Diktat $rank signs off in a rush to report back, you assume, to the Diktat intelligence ministry. You rest assured that your bridge crew is confident that the peculiar technologies of the Ziggurat-class are safe from a mere scan-at-distance patrol stop.",
+   "ctx": "data/campaign/rules.csv gaPZDiktatEncounterOnlyZig2 [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"This is entirely necessary,\" the $rank says. \"You have sworn loyalty to Supreme Executor Andrada. Prove that loyalty now by submitting to his will.\"\r\n\r\nThe Diktat officer's tone softens just a touch, \"I understand, captain, that it feels like you will be setting aside a great achievement - capture of a secret weapon beyond imagination. But you know as well as I that all greatness can only come through following the Lion's vision of the future. You must execute the betrayer in your heart and surrender to him. It's the only way.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_diktatCom [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"A wise choice,\" $heOrShe says, smiling. \"This will bring strength to our great work. Perhaps we may end the stalemate with the degenerate Hegemony!\"\r\n\r\nYou order your crew and marines to stand down, point defense envelope deactivated, and the transfer of executive command functions to the Sindrian Diktat XO.\r\n\r\n\"Glory to the Sindrian Diktat. Glory to Admiral Andrada!\" $Rank $personName salutes, then says \"I will see that the Lion hears of your loyalty, captain,\" then signs off, leaving you with only the crest of the Sindrian Diktat navy.",
+   "ctx": "data/campaign/rules.csv gaPZ_diktatComAccept [text]"
+  },
+  {
+   "i": 9,
+   "en": "The Diktat $rank's tone goes ice-cold. \"To refuse is betrayal. I hereby rescind your commission, effective immediately. Yours is the blood of a traitor, not worthy to be spilled in the name of the Lion.\"\r\n\r\n\"You have one last chance to live. Accept once and for all that all you possess may be forfeit to the great cause if Supreme Executor Admiral Andrada declares it. Surrender the Ziggurat-class hull immediately or I shall give the order to open fire on your $shipOrFleet.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_diktatComRefuse [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"So be it.\" The Diktat $rank turns their back to you and exclaims, \"Let this traitor's death be an example to you all!\"\r\n\r\nThe comm are cut, leaving you with the crest of the Sindrian Diktat. Your tactical officer's console has lit up with red alerts.",
+   "ctx": "data/campaign/rules.csv gaPZ_diktatComRefuseAgain [text]"
+  },
+  {
+   "i": 11,
+   "en": "Once you signal agreement, the Diktat officer's anger cools into loathing. $HeOrShe accepts the command codes of the Ziggurat-class hull with curt acknowledgement.\r\n\r\n\"That was the first smart move you've made today.\" The Diktat $rank turns their back to you and exclaims, \"Let this be an example to you all! Never let your faith in our great leader waver. We pledge our blood to the Lion and his great movement, forever!\"\r\n\r\nThe comm link closes on their cheers, leaving you with the crest of the Sindrian Diktat.",
+   "ctx": "data/campaign/rules.csv gaPZ_diktatComAcceptAfterRefuse [text]"
+  },
+  {
+   "i": 12,
+   "en": "The Diktat $rank's tone goes ice-cold. \"You are demanding credits in return for doing your duty? Pathetic.\" \r\n\r\n\"I hereby rescind your commission, effective immediately. Yours is the blood of a traitor, not worthy to be spilled in the name of the Lion.\"\r\n\r\n\"You have one last chance to live. Accept once and for all that all you possess may be forfeit to the great cause if Supreme Executor Admiral Andrada declares it. Surrender the Ziggurat-class hull immediately or I shall give the order to open fire on your $shipOrFleet.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_diktatComComp [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"You may not refuse an order given by the Lion of Sindria,\" the Diktat $rank sneers. \"We will take your ship one way or another. It belongs to the Supreme Executor, Admiral Andrada, now.\"\r\n\r\nThis demand is somewhat extraordinary and would certainly not hold atmo under the laws of interfactional commerce. If you defended yourself from the unwarranted seizure of a starship, the Sindrian Diktat would be on shaky grounds declaring you a pirate.\r\n\r\n\"Transfer command protocols to my flagship,\" $HeOrShe demands again.",
+   "ctx": "data/campaign/rules.csv gaPZ_diktatIfRefuse [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"Are you refusing an order given by the Lion of Sindria?\" The Diktat $rank looks at you coldly. \"Disobedience is death.\"\r\n\r\n\"Transfer command protocols to my flagship,\" $HeOrShe demands again.",
+   "ctx": "data/campaign/rules.csv gaPZ_diktatDefend [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"You are an agitator and a terrorist,\" declares the $rank. \"For disobeying Supreme Executor Admiral Andrada, I sentence you to death! You have no chance to survive. Treasure your last moments alive.\"\r\n\r\nThe comm are cut, leaving you with the crest of the Sindrian Diktat. Your tactical officer's console has lit up with red alerts.",
+   "ctx": "data/campaign/rules.csv gaPZ_diktatDisobedience [text]"
+  },
+  {
+   "i": 16,
+   "en": "You order your Ziggurat-class ship to shift into phase-space, dumping passive flux into extra dimensions via whatever strange principle the Mote inducers influence.\r\n\r\nSuch a maneuver is only possible outside of combat as it requires most systems, including life support, to be operated at only the barely survivable minimum. ",
+   "ctx": "data/campaign/rules.csv gaPZ_diktatVanish [text]"
+  },
+  {
+   "i": 17,
+   "en": "A look of irritation and distress crosses the Diktat $rank's face.\r\n\r\n$HeOrShe crosses $hisOrHer arms, \"Our MILINT is well aware of phase capabilities, captain. Order that ship out of phase and surrender its command codes. Immediately!\"\r\n\r\n$HeOrShe takes a deep breath, and says in a lower voice, \"We can wait you out. A ship can't stay phased for more than a few minutes.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_diktatVanish1 [text]"
+  },
+  {
+   "i": 18,
+   "en": "The Diktat $rank is both right and wrong. The Ziggurat-class cannot remain in phase space like this forever. But it can last a while, far longer than most phase-hulls. And you know that the Diktat $rank has little idea of the extent of its capabilities.\r\n\r\nAfter nearly an hour, the Diktat $rank re-opens the comm channel.",
+   "ctx": "data/campaign/rules.csv gaPZ_diktatVanish2 [text]"
+  },
+  {
+   "i": 19,
+   "en": "$HeOrShe looks agitated, \"You, you cannot simply disappear and expect the orders of the Lion of Sindria to go away, Captain $playerName. I know the ship is still out there,\" a worried twitch of $hisOrHer eyes upward tells you $heOrShe is unsure of this. \"We will be watching you. Very closely.\"\r\n\r\nThe comm link closes with a brief flash of the crest of the Lion's Guard.",
+   "ctx": "data/campaign/rules.csv gaPZ_diktatVanish3 [text]"
+  },
+  {
+   "i": 20,
+   "en": "The Diktat $rank's tone goes cold. \"You are demanding credits for following orders? Pathetic. And entirely expected of the degenerate so-called civilization that has fallen outside the light of the Lion of Sindria.\" \r\n\r\n\"There will be no compensation. You have one last chance to survive: accept once and for all that all you possess may be forfeit to the great cause if Supreme Executor Admiral Andrada declares it. Surrender the Ziggurat-class hull immediately or I shall give the order to open fire on your $shipOrFleet.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_diktatComp [text]"
+  },
+  {
+   "i": 21,
+   "en": "You order command codes surrendered to the Diktat $rank. Your personnel and cargo are evacuated in short order as a Diktat skeleton crew - and Lion's Guard marines, and technicians, and intelligence officers - shuttle in to take control of the Ziggurat-class ship.\r\n\r\nThe Diktat $rank nods, not quite a salute. \"Your loyalty to the Sindrian Diktat will not go unnoticed. After I personally deliver this unique hull to the Lion Andrada, I will be sure to mention your cooperation in the affair. May this achievement bring final victory to our great struggle!\"\r\n\r\nThe comms cut, leaving you with only a Diktat holding signal.",
+   "ctx": "data/campaign/rules.csv gaPZ_diktatSurrender [text]"
+  },
+  {
+   "i": 22,
+   "en": "The Diktat $rank appears in your comm display, outwardly calm.\r\n\r\n\"Captain $playerName. I hope I find you well? I understand you've been involved in a, ah, misunderstanding recently.\" The $rank straightens $hisOrHer uniform, clearly uncomfortable. \"I have been ordered to make a statement.\" \r\n\r\n$HeOrShe lifts a datapad from out of view and begins reading.\r\n\r\n\"From the office of the Chief High Inspector, the Sindrian Diktat would like to acknowledge that your previous encounter with our special self-defense forces over the matter of a, hmm, starship expropriation order was, ah...\"\r\n\r\n$HeOrShe looks away, speaking, \"The officer in question acted rashly, without clarifying their orders with High Command. The Sindrian Diktat considers the incident to be the rogue action of a deep-cover terrorist sympathizer whose goal was to undermine the authority and glory of our leader, Supreme Executor Admiral Andrada.\"",
+   "ctx": "data/campaign/rules.csv gaPZDiktatEncounterComm2 [text]"
+  },
+  {
+   "i": 23,
+   "en": "The Diktat $rank looks back up at you.\r\n\r\n\"Rest assured captain, the conspirators of this officer have been found, tried, and executed by our fine intelligence services. Order is restored to the Sindrian Diktat. Glory to Andrada, Lion of Sindria!\" \r\n\r\n$HeOrShe clears $hisOrHer throat after the speech, then says, \"You and your $shipOrFleet are free to go now, captain. The Sindrian Diktat will ensure order and stability so that no other such incidents disrupt the flow of trade in this volume.\"\r\n\r\n\"Good day, captain. Your discretion in this matter is acknowledged.\" The comms cut out to the crest of the Sindrian Diktat.",
+   "ctx": "data/campaign/rules.csv gaPZ_diktatSecondCont [text]"
+  }
+ ]
+}

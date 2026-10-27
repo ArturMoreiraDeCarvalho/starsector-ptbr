@@ -1,0 +1,1201 @@
+{
+ "chunk": 40,
+ "cat": "jar",
+ "items": [
+  {
+   "i": 1,
+   "en": "It's likely that you will have to overcome some automated defenses first.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialMissionIntel.class"
+  },
+  {
+   "i": 2,
+   "en": "Make sure you have enough fuel to make the trip successfully.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialMissionIntel.class"
+  },
+  {
+   "i": 3,
+   "en": "Recover at least %s ships at Tetra",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialMissionIntel.class"
+  },
+  {
+   "i": 4,
+   "en": "Retrieve AI core from derelict probe beyond the orbit of Pontus",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialMissionIntel.class"
+  },
+  {
+   "i": 5,
+   "en": "Return to Ancyra and contact ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialMissionIntel.class"
+  },
+  {
+   "i": 6,
+   "en": "Return to Ancyra and report your success",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialMissionIntel.class"
+  },
+  {
+   "i": 7,
+   "en": "Sneak into ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialMissionIntel.class"
+  },
+  {
+   "i": 8,
+   "en": "Stabilize the inner-system jump-point",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialMissionIntel.class"
+  },
+  {
+   "i": 9,
+   "en": "The Derinkuyu leadership will surely soon be toppled by rank-and-file miners eager to get on the right side of the law once again.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialMissionIntel.class"
+  },
+  {
+   "i": 10,
+   "en": "There's a Domain-era survey probe outside the orbit of Pontus. If salvaged, it's likely to yield a gamma AI core, which should be sufficient for the task.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialMissionIntel.class"
+  },
+  {
+   "i": 11,
+   "en": "Use %s to avoid detection, and %s to get away if you are seen.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialMissionIntel.class"
+  },
+  {
+   "i": 12,
+   "en": "Use the hyperwave sequence produced by the AI core to stabilize the inner-system jump-point.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialMissionIntel.class"
+  },
+  {
+   "i": 13,
+   "en": "You have delivered the report and your standing with the Hegemony has increased substantially.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialMissionIntel.class"
+  },
+  {
+   "i": 14,
+   "en": "You receive a tight-beam communication from the system's main inhabited world, Ancyra.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialMissionIntel.class"
+  },
+  {
+   "i": 15,
+   "en": "You will have to defeat the pirates guarding it first.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialMissionIntel.class"
+  },
+  {
+   "i": 16,
+   "en": "detailing the recent events to the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialMissionIntel.class"
+  },
+  {
+   "i": 17,
+   "en": "to acquire the raw jump-point readings.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialMissionIntel.class"
+  },
+  {
+   "i": 18,
+   "en": "A pirate fleet is approaching! First you'll spot it as a sensor contact, then as an unidentified fleet, and then - when it gets very close - you'll see its true colors.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialPirateApproachesDialogPluginImpl.class"
+  },
+  {
+   "i": 19,
+   "en": "Don't worry - the pirate ship is a shoddy rust bucket, and if you do lose, you can press %s to quick-load.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialPirateApproachesDialogPluginImpl.class"
+  },
+  {
+   "i": 20,
+   "en": "Even so, combat can be expensive, especially if there's no bounty on the enemy you fight. Deploying ships into battle reduces their combat readiness, and recovering CR consumes supplies. Battle damage can cost even more supplies to repair.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialPirateApproachesDialogPluginImpl.class"
+  },
+  {
+   "i": 21,
+   "en": "However, fighting is often necessary to survive. Wait for the pirate fleet to approach, then defeat them!",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialPirateApproachesDialogPluginImpl.class"
+  },
+  {
+   "i": 22,
+   "en": "Exit to main menu",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialRespawnDialogPluginImpl.class"
+  },
+  {
+   "i": 23,
+   "en": "Load last save",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialRespawnDialogPluginImpl.class"
+  },
+  {
+   "i": 24,
+   "en": " is pretty far away, and it'll take a while to get there at this rate.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialSustainedBurnDialogPluginImpl.class"
+  },
+  {
+   "i": 25,
+   "en": " more quickly.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialSustainedBurnDialogPluginImpl.class"
+  },
+  {
+   "i": 26,
+   "en": "Activate %s to get to ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialSustainedBurnDialogPluginImpl.class"
+  },
+  {
+   "i": 27,
+   "en": "The %s ability is useful for long-distance travel. Activating it will briefly stop the fleet and reduce its acceleration to a minimum, but the maximum burn level will be much higher. A sustained burn can be interrupted by other fleets activating an interdiction pulse.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialSustainedBurnDialogPluginImpl.class"
+  },
+  {
+   "i": 28,
+   "en": "You can also press and hold %s to speed up time.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialSustainedBurnDialogPluginImpl.class"
+  },
+  {
+   "i": 29,
+   "en": ", both to ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialTransponderDialogPluginImpl.class"
+  },
+  {
+   "i": 30,
+   "en": ", which is controlled by the Hegemony - ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialTransponderDialogPluginImpl.class"
+  },
+  {
+   "i": 31,
+   "en": "Activate the %s before getting closer to ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialTransponderDialogPluginImpl.class"
+  },
+  {
+   "i": 32,
+   "en": "Keeping your transponder on is a crippling disadvantage in hostile space, but as we're getting closer to port and we'd like to dock there, it's a good idea to turn it on.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialTransponderDialogPluginImpl.class"
+  },
+  {
+   "i": 33,
+   "en": "Since turning it on and off has major consequences, it requires a double-tap to turn on or off - once to prime, and once more to confirm.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialTransponderDialogPluginImpl.class"
+  },
+  {
+   "i": 34,
+   "en": "Turning on the transponder makes your fleet highly visible, and everyone seeing it will know who you are - unlike that pirate fleet you fought earlier, which had to be very close to positively identify.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialTransponderDialogPluginImpl.class"
+  },
+  {
+   "i": 35,
+   "en": "While in Hegemony space, a fleet is required by law to identify itself by keeping its transponder turned on. This is a view shared by most, though not all, major factions.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialTransponderDialogPluginImpl.class"
+  },
+  {
+   "i": 36,
+   "en": "Your fleet is getting closer to ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialTransponderDialogPluginImpl.class"
+  },
+  {
+   "i": 37,
+   "en": "a major militaristic faction in the Sector.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialTransponderDialogPluginImpl.class"
+  },
+  {
+   "i": 38,
+   "en": "avoid unwanted attention from patrols and to receive docking clearance.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialTransponderDialogPluginImpl.class"
+  },
+  {
+   "i": 39,
+   "en": "double-tap",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialTransponderDialogPluginImpl.class"
+  },
+  {
+   "i": 40,
+   "en": "Fortunately, there's a debris field nearby. Move up into it and activate your %s ability to search it for useful cargo.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialWelcomeDialogPluginImpl.class"
+  },
+  {
+   "i": 41,
+   "en": "If you don't acquire more supplies, your fleet will suffer through a slow but ultimately fatal decline.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialWelcomeDialogPluginImpl.class"
+  },
+  {
+   "i": 42,
+   "en": "Make sure to take all of the supplies and any other valuable cargo, but feel free to leave the cheap and bulky metals behind.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialWelcomeDialogPluginImpl.class"
+  },
+  {
+   "i": 43,
+   "en": "Scavenging requires Heavy Machinery, but there is some in your cargo holds.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialWelcomeDialogPluginImpl.class"
+  },
+  {
+   "i": 44,
+   "en": "To get your fleet moving, click on empty space in the direction you want to move.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialWelcomeDialogPluginImpl.class"
+  },
+  {
+   "i": 45,
+   "en": "Welcome to the Persean Sector! Your fleet is in the middle of nowhere and critically low on supplies.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/tutorial/TutorialWelcomeDialogPluginImpl.class"
+  },
+  {
+   "i": 46,
+   "en": "Entering slipstream",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/velfield/SlipstreamEntityPlugin.class"
+  },
+  {
+   "i": 47,
+   "en": "Fleets traveling inside a slipstream use %s less fuel for the distance covered.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/velfield/SlipstreamTerrainPlugin2.class"
+  },
+  {
+   "i": 48,
+   "en": "In addition, traveling at burn levels above %s is even more fuel-efficient. For example, a fleet traveling at burn %s will consume half as much fuel for the distance it covers.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/velfield/SlipstreamTerrainPlugin2.class"
+  },
+  {
+   "i": 49,
+   "en": "Inside slipstream",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/velfield/SlipstreamTerrainPlugin2.class"
+  },
+  {
+   "i": 50,
+   "en": "Most slipstreams are temporary, and in recent memory their ebb and flow has been unusually synchronized with the standard Domain cycle.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/velfield/SlipstreamTerrainPlugin2.class"
+  },
+  {
+   "i": 51,
+   "en": "These fuel use reductions are not reflected by the fuel range indicator on the map.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/velfield/SlipstreamTerrainPlugin2.class"
+  },
+  {
+   "i": 52,
+   "en": "half",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/velfield/SlipstreamTerrainPlugin2.class"
+  },
+  {
+   "i": 53,
+   "en": "Automated Mining Station",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/world/Limbo.class"
+  },
+  {
+   "i": 54,
+   "en": "Mothballed Equipment Cache",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/world/Limbo.class"
+  },
+  {
+   "i": 55,
+   "en": "Test Wormhole Cache",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/world/Limbo.class"
+  },
+  {
+   "i": 56,
+   "en": "Deep Space",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/world/NamelessRock.class"
+  },
+  {
+   "i": 57,
+   "en": "Nameless Rock",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/world/NamelessRock.class"
+  },
+  {
+   "i": 58,
+   "en": "Alpha Site",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/world/TTBlackSite.class"
+  },
+  {
+   "i": 59,
+   "en": "UNKNOWN ENTRY",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/codex/CodexDataV2$1.class"
+  },
+  {
+   "i": 60,
+   "en": "(Fighter)",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/codex/CodexDataV2$11.class"
+  },
+  {
+   "i": 61,
+   "en": "Module",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/codex/CodexDataV2$16.class"
+  },
+  {
+   "i": 62,
+   "en": "Ship system",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/codex/CodexDataV2$17.class"
+  },
+  {
+   "i": 63,
+   "en": "Skill",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/codex/CodexDataV2$18.class"
+  },
+  {
+   "i": 64,
+   "en": "Ability",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/codex/CodexDataV2$19.class"
+  },
+  {
+   "i": 65,
+   "en": "Illustration",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/codex/CodexDataV2$23.class"
+  },
+  {
+   "i": 66,
+   "en": "Special item",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/codex/CodexDataV2$24.class"
+  },
+  {
+   "i": 67,
+   "en": "Gas giant",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/codex/CodexDataV2$28.class"
+  },
+  {
+   "i": 68,
+   "en": "Planet",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/codex/CodexDataV2$28.class"
+  },
+  {
+   "i": 69,
+   "en": "Star",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/codex/CodexDataV2$28.class"
+  },
+  {
+   "i": 70,
+   "en": "Planetary condition",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/codex/CodexDataV2$29.class"
+  },
+  {
+   "i": 71,
+   "en": "Spacer's manual description test.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/codex/CodexDataV2$3.class"
+  },
+  {
+   "i": 72,
+   "en": "AI core",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/codex/CodexDataV2.class"
+  },
+  {
+   "i": 73,
+   "en": "Abilities",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/codex/CodexDataV2.class"
+  },
+  {
+   "i": 74,
+   "en": "All aptitudes",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/codex/CodexDataV2.class"
+  },
+  {
+   "i": 75,
+   "en": "All damage",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/codex/CodexDataV2.class"
+  },
+  {
+   "i": 76,
+   "en": "Beam",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/codex/CodexDataV2.class"
+  },
+  {
+   "i": 77,
+   "en": "Blueprint packages",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/codex/CodexDataV2.class"
+  },
+  {
+   "i": 78,
+   "en": "Codex categories",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/codex/CodexDataV2.class"
+  },
+  {
+   "i": 79,
+   "en": "Colony items",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/codex/CodexDataV2.class"
+  },
+  {
+   "i": 80,
+   "en": "D-mods",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/codex/CodexDataV2.class"
+  },
+  {
+   "i": 81,
+   "en": "Gallery",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/codex/CodexDataV2.class"
+  },
+  {
+   "i": 82,
+   "en": "Habitable",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/codex/CodexDataV2.class"
+  },
+  {
+   "i": 83,
+   "en": "Hullmods",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/codex/CodexDataV2.class"
+  },
+  {
+   "i": 84,
+   "en": "Industries",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/codex/CodexDataV2.class"
+  },
+  {
+   "i": 85,
+   "en": "Intrinsic",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/codex/CodexDataV2.class"
+  },
+  {
+   "i": 86,
+   "en": "Piloted ship",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/codex/CodexDataV2.class"
+  },
+  {
+   "i": 87,
+   "en": "Ship systems",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/codex/CodexDataV2.class"
+  },
+  {
+   "i": 88,
+   "en": "Skills",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/codex/CodexDataV2.class"
+  },
+  {
+   "i": 89,
+   "en": "Spacer's Manual",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/codex/CodexDataV2.class"
+  },
+  {
+   "i": 90,
+   "en": "Special items",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/codex/CodexDataV2.class"
+  },
+  {
+   "i": 91,
+   "en": "Stars & planets",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/codex/CodexDataV2.class"
+  },
+  {
+   "i": 92,
+   "en": "Stations",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/codex/CodexDataV2.class"
+  },
+  {
+   "i": 93,
+   "en": "Structures",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/codex/CodexDataV2.class"
+  },
+  {
+   "i": 94,
+   "en": "_Energy",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/codex/CodexDataV2.class"
+  },
+  {
+   "i": 95,
+   "en": "%s new Codex ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/codex/CodexUpdateIntel.class"
+  },
+  {
+   "i": 96,
+   "en": "Codex Update",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/codex/CodexUpdateIntel.class"
+  },
+  {
+   "i": 97,
+   "en": "New Codex entries available.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/codex/CodexUpdateIntel.class"
+  },
+  {
+   "i": 98,
+   "en": "New entries",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/codex/CodexUpdateIntel.class"
+  },
+  {
+   "i": 99,
+   "en": "entries",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/codex/CodexUpdateIntel.class"
+  },
+  {
+   "i": 100,
+   "en": "entry",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/codex/CodexUpdateIntel.class"
+  },
+  {
+   "i": 101,
+   "en": "% less energy damage",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/AcausalDisruptorStats.class"
+  },
+  {
+   "i": 102,
+   "en": "NO TARGET",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/AcausalDisruptorStats.class"
+  },
+  {
+   "i": 103,
+   "en": "OUT OF RANGE",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/AcausalDisruptorStats.class"
+  },
+  {
+   "i": 104,
+   "en": "System Disruption!",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/AcausalDisruptorStats.class"
+  },
+  {
+   "i": 105,
+   "en": "n / a to fighters",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/BaseBattleObjectiveEffect.class"
+  },
+  {
+   "i": 106,
+   "en": "n / a to frigates",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/BaseBattleObjectiveEffect.class"
+  },
+  {
+   "i": 107,
+   "en": "faster CR degradation",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/BattleCreationPluginImpl$1.class"
+  },
+  {
+   "i": 108,
+   "en": "reduced peak time",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/BattleCreationPluginImpl$1.class"
+  },
+  {
+   "i": 109,
+   "en": " missle speed / range",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/BattleCreationPluginImpl$2.class"
+  },
+  {
+   "i": 110,
+   "en": "Abyssal hyperspace",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/BattleCreationPluginImpl$2.class"
+  },
+  {
+   "i": 111,
+   "en": "abyssal",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/BattleCreationPluginImpl$2.class"
+  },
+  {
+   "i": 112,
+   "en": " Fighter losses can not be replaced due to the lack of a ship with proper facilities (i.e. a flight deck).",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/CRPluginImpl.class"
+  },
+  {
+   "i": 113,
+   "en": " fighter chassis are ready to replace combat losses.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/CRPluginImpl.class"
+  },
+  {
+   "i": 114,
+   "en": " offline",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/CRPluginImpl.class"
+  },
+  {
+   "i": 115,
+   "en": " sec",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/CRPluginImpl.class"
+  },
+  {
+   "i": 116,
+   "en": "Autofire accuracy",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/CRPluginImpl.class"
+  },
+  {
+   "i": 117,
+   "en": "Basic maintenance",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/CRPluginImpl.class"
+  },
+  {
+   "i": 118,
+   "en": "Combat Readiness ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/CRPluginImpl.class"
+  },
+  {
+   "i": 119,
+   "en": "Damage dealt",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/CRPluginImpl.class"
+  },
+  {
+   "i": 120,
+   "en": "Fighter bays offline",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/CRPluginImpl.class"
+  },
+  {
+   "i": 121,
+   "en": "Fighter refit time",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/CRPluginImpl.class"
+  },
+  {
+   "i": 122,
+   "en": "Malfunction risk",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/CRPluginImpl.class"
+  },
+  {
+   "i": 123,
+   "en": "Missile magazines",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/CRPluginImpl.class"
+  },
+  {
+   "i": 124,
+   "en": "Serious",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/CRPluginImpl.class"
+  },
+  {
+   "i": 125,
+   "en": "Shields offline",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/CRPluginImpl.class"
+  },
+  {
+   "i": 126,
+   "en": "Speed & maneuverability",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/CRPluginImpl.class"
+  },
+  {
+   "i": 127,
+   "en": "The %s benefits from improved combat performance.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/CRPluginImpl.class"
+  },
+  {
+   "i": 128,
+   "en": "The %s has standard combat performance.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/CRPluginImpl.class"
+  },
+  {
+   "i": 129,
+   "en": "The %s is not ready for combat and can not be deployed in battle.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/CRPluginImpl.class"
+  },
+  {
+   "i": 130,
+   "en": "The %s suffers from degraded performance and runs the risk of permanent and damaging malfunctions if deployed.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/CRPluginImpl.class"
+  },
+  {
+   "i": 131,
+   "en": "The %s suffers from degraded performance and runs the risk of weapon and engine malfunctions during combat.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/CRPluginImpl.class"
+  },
+  {
+   "i": 132,
+   "en": "The %s suffers from degraded performance during combat.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/CRPluginImpl.class"
+  },
+  {
+   "i": 133,
+   "en": "Very poor",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/CRPluginImpl.class"
+  },
+  {
+   "i": 134,
+   "en": "combat stresses",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/CRPluginImpl.class"
+  },
+  {
+   "i": 135,
+   "en": "crew skill bonus",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/CRPluginImpl.class"
+  },
+  {
+   "i": 136,
+   "en": "crew understrength",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/CRPluginImpl.class"
+  },
+  {
+   "i": 137,
+   "en": "degraded performance",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/CRPluginImpl.class"
+  },
+  {
+   "i": 138,
+   "en": "degrading readiness",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/CRPluginImpl.class"
+  },
+  {
+   "i": 139,
+   "en": "improved performance",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/CRPluginImpl.class"
+  },
+  {
+   "i": 140,
+   "en": "malfunction risk: ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/CRPluginImpl.class"
+  },
+  {
+   "i": 141,
+   "en": "missiles not fully loaded",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/CRPluginImpl.class"
+  },
+  {
+   "i": 142,
+   "en": "peak active performance",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/CRPluginImpl.class"
+  },
+  {
+   "i": 143,
+   "en": "remaining time: ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/CRPluginImpl.class"
+  },
+  {
+   "i": 144,
+   "en": "standard performance",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/CRPluginImpl.class"
+  },
+  {
+   "i": 145,
+   "en": "25%% faster command point recovery\n\n+%d bonus deployment points\nup to a maximum of ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/CommRelayEffect.class"
+  },
+  {
+   "i": 146,
+   "en": "% less damage taken",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/CryofluxTransducerStats.class"
+  },
+  {
+   "i": 147,
+   "en": "% less flux generated",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/CryofluxTransducerStats.class"
+  },
+  {
+   "i": 148,
+   "en": "% faster repairs",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/DamperFieldOmegaStats.class"
+  },
+  {
+   "i": 149,
+   "en": "NO DRONES",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/DroneStrikeStats.class"
+  },
+  {
+   "i": 150,
+   "en": "% more damage taken",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/EntropyAmplifierStats$1.class"
+  },
+  {
+   "i": 151,
+   "en": "% more damage to target",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/EntropyAmplifierStats.class"
+  },
+  {
+   "i": 152,
+   "en": "Amplified Entropy!",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/EntropyAmplifierStats.class"
+  },
+  {
+   "i": 153,
+   "en": "Drive Interdicted!",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/InterdictorArrayStats.class"
+  },
+  {
+   "i": 154,
+   "en": "lidar array - passive",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/LidarArrayStats.class"
+  },
+  {
+   "i": 155,
+   "en": "projectile speed +",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/LidarArrayStats.class"
+  },
+  {
+   "i": 156,
+   "en": "rate of fire +",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/LidarArrayStats.class"
+  },
+  {
+   "i": 157,
+   "en": "weapon range +",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/LidarArrayStats.class"
+  },
+  {
+   "i": 158,
+   "en": "weapon recoil -",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/LidarArrayStats.class"
+  },
+  {
+   "i": 159,
+   "en": "+%d%% top speed\n%d%% base total maximum\n+%d bonus deployment points\nup to a maximum of ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/NavBuoyEffect.class"
+  },
+  {
+   "i": 160,
+   "en": "phase coil stress",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/PhaseCloakStats.class"
+  },
+  {
+   "i": 161,
+   "en": "phase coils stable",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/PhaseCloakStats.class"
+  },
+  {
+   "i": 162,
+   "en": "time flow altered",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/PhaseCloakStats.class"
+  },
+  {
+   "i": 163,
+   "en": "top speed at 100%",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/PhaseCloakStats.class"
+  },
+  {
+   "i": 164,
+   "en": "improved maneuverability",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/PlasmaJetsStats.class"
+  },
+  {
+   "i": 165,
+   "en": "REALITY DISRUPTED",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/RealityDisruptorChargeGlow$RDRepairRateDebuff.class"
+  },
+  {
+   "i": 166,
+   "en": "+%d%% ECM rating\nreduces enemy weapon range\nby half of the total ECM rating\n%d%% maximum reduction\n\n+%d bonus deployment points\nup to a maximum of ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/SensorArrayEffect.class"
+  },
+  {
+   "i": 167,
+   "en": "x fighter damage",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/TargetingFeedStats.class"
+  },
+  {
+   "i": 168,
+   "en": "Stunned!",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/dweller/BaseDwellerShipCreator.class"
+  },
+  {
+   "i": 169,
+   "en": "Can not be installed on a phase ship",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/dweller/HumanShipShroudedHullmod.class"
+  },
+  {
+   "i": 170,
+   "en": "Crew casualties in combat are increased by %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/dweller/HumanShipShroudedHullmod.class"
+  },
+  {
+   "i": 171,
+   "en": "Incompatible with Fragment Swarm",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/dweller/HumanShipShroudedHullmod.class"
+  },
+  {
+   "i": 172,
+   "en": "Attacks / sec",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/dweller/ShroudedLensHullmod.class"
+  },
+  {
+   "i": 173,
+   "en": "Flux / sec",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/dweller/ShroudedLensHullmod.class"
+  },
+  {
+   "i": 174,
+   "en": "Ship size",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/dweller/ShroudedLensHullmod.class"
+  },
+  {
+   "i": 175,
+   "en": "The \"lens\" (in the loosest sense of the word) focuses on nearby objects, seemingly at random. Deals %s damage and generates %s flux.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/dweller/ShroudedLensHullmod.class"
+  },
+  {
+   "i": 176,
+   "en": "The rate of fire depends on the size of the ship the hullmod is installed on. Can not be turned off during combat operations, and continues to function even if the ship is venting flux or overloaded.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/dweller/ShroudedLensHullmod.class"
+  },
+  {
+   "i": 177,
+   "en": "Fires rift lightning bolts at locations recently hit by this ship's weapons.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/dweller/ShroudedThunderheadHullmod.class"
+  },
+  {
+   "i": 178,
+   "en": "Flux cost",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/dweller/ShroudedThunderheadHullmod.class"
+  },
+  {
+   "i": 179,
+   "en": "The amount of damage and the flux generated depend on the size of the ship the hullmod is installed on. The probability of a bolt being fired increases with the number of hits landed over the previous %s seconds. Bolts are not triggered by weapons dealing soft flux damage, such as beams.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/dweller/ShroudedThunderheadHullmod.class"
+  },
+  {
+   "i": 180,
+   "en": "LOW CR",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/threat/ConstructionSwarmSystemScript.class"
+  },
+  {
+   "i": 181,
+   "en": "LOW DP",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/threat/ConstructionSwarmSystemScript.class"
+  },
+  {
+   "i": 182,
+   "en": "LOW FRAGMENTS",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/threat/ConstructionSwarmSystemScript.class"
+  },
+  {
+   "i": 183,
+   "en": "Low emission drives",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/threat/DisposableThreatFleetManager.class"
+  },
+  {
+   "i": 184,
+   "en": "Phase Field Disruption!",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/threat/EnergyLashSystemScript.class"
+  },
+  {
+   "i": 185,
+   "en": "Requires Fragment Swarm hullmod",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/threat/FragmentCoordinatorHullmod.class"
+  },
+  {
+   "i": 186,
+   "en": "FRAGMENTS: ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/threat/FragmentSwarmHullmod.class"
+  },
+  {
+   "i": 187,
+   "en": "Fragment swarm",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/threat/FragmentSwarmHullmod.class"
+  },
+  {
+   "i": 188,
+   "en": "Incompatible with Shrouded hullmods",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/threat/FragmentSwarmHullmod.class"
+  },
+  {
+   "i": 189,
+   "en": "firing fragments",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/threat/FragmentVolleySystemScript.class"
+  },
+  {
+   "i": 190,
+   "en": "x fragment range",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/threat/FragmentVolleySystemScript.class"
+  },
+  {
+   "i": 191,
+   "en": "REQ: FRAGMENT SWARM",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/threat/FragmentWeapon.class"
+  },
+  {
+   "i": 192,
+   "en": " flux dissipation",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/threat/IncursionModeSystemScript.class"
+  },
+  {
+   "i": 193,
+   "en": "rapid charge regen",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/threat/IncursionModeSystemScript.class"
+  },
+  {
+   "i": 194,
+   "en": "SWARMS ACTIVE: ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/threat/SwarmLauncherEffect.class"
+  },
+  {
+   "i": 195,
+   "en": "cruising",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/threat/ThreatFleetBehaviorScript.class"
+  },
+  {
+   "i": 196,
+   "en": "Sensor profile reduced to %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/threat/ThreatHullmod.class"
+  },
+  {
+   "i": 197,
+   "en": "Target leading accuracy increased to maximum for all weapons, including missiles. Effect of enemy ECM rating reduced by %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/threat/ThreatHullmod.class"
+  },
+  {
+   "i": 198,
+   "en": "Threat hulls have a number of shared properties.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/threat/ThreatHullmod.class"
+  },
+  {
+   "i": 199,
+   "en": "Weapon and engine damage taken is reduced by %s. EMP damage taken is reduced by %s. In addition, repairs of damaged but functional weapons and engines can continue while they are under fire.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/combat/threat/ThreatHullmod.class"
+  },
+  {
+   "i": 200,
+   "en": "Can only be installed on phase ships",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/hullmods/AdaptivePhaseCoils.class"
+  },
+  {
+   "i": 201,
+   "en": "Incompatible with Phase Anchor",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/hullmods/AdaptivePhaseCoils.class"
+  },
+  {
+   "i": 202,
+   "en": "Can only be installed on civilian-grade hulls with Militarized Subsystems",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/hullmods/AssaultPackage.class"
+  },
+  {
+   "i": 203,
+   "en": "Can only install one combat package on a civilian-grade hull",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/hullmods/AssaultPackage.class"
+  },
+  {
+   "i": 204,
+   "en": "Automated ship penalty",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/hullmods/Automated.class"
+  },
+  {
+   "i": 205,
+   "en": "Automated ships usually require specialized equipment and expertise to maintain, resulting in a maximum combat readiness penalty of %s. This penalty can be offset by a fleet commander skilled in the use of automated ships.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/hullmods/Automated.class"
+  },
+  {
+   "i": 206,
+   "en": "However, this ship was automated in a fashion that does not require special expertise to maintain. Some of the techniques used are poorly understood, likely dating to an earlier period.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/hullmods/Automated.class"
+  },
+  {
+   "i": 207,
+   "en": "does not require special expertise",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/hullmods/Automated.class"
+  },
+  {
+   "i": 208,
+   "en": "Affects hybrid weapons (those that can fit into both ballistic and energy slots) of all sizes.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/hullmods/BallisticRangefinder.class"
+  },
+  {
+   "i": 209,
+   "en": "Affects small and medium ballistic weapons.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/hullmods/BallisticRangefinder.class"
+  },
+  {
+   "i": 210,
+   "en": "Ballistic weapon range",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/hullmods/BallisticRangefinder.class"
+  },
+  {
+   "i": 211,
+   "en": "Can only be installed on destroyer-class hulls and larger",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/hullmods/BallisticRangefinder.class"
+  },
+  {
+   "i": 212,
+   "en": "Greatly benefits hybrid weapons",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/hullmods/BallisticRangefinder.class"
+  },
+  {
+   "i": 213,
+   "en": "Hybrid weapon range",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/hullmods/BallisticRangefinder.class"
+  },
+  {
+   "i": 214,
+   "en": "Interactions with other modifiers",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/hullmods/BallisticRangefinder.class"
+  },
+  {
+   "i": 215,
+   "en": "Largest b. slot",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/hullmods/BallisticRangefinder.class"
+  },
+  {
+   "i": 216,
+   "en": "Medium wpn",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/hullmods/BallisticRangefinder.class"
+  },
+  {
+   "i": 217,
+   "en": "Range cap",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/hullmods/BallisticRangefinder.class"
+  },
+  {
+   "i": 218,
+   "en": "Ship has no ballistic weapon slots",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/hullmods/BallisticRangefinder.class"
+  },
+  {
+   "i": 219,
+   "en": "Since the base range is increased, this modifier - unlike most other flat modifiers - is increased by percentage modifiers from other hullmods and skills.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/hullmods/BallisticRangefinder.class"
+  },
+  {
+   "i": 220,
+   "en": "Small / Medium",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/hullmods/BallisticRangefinder.class"
+  },
+  {
+   "i": 221,
+   "en": "Small wpn",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/hullmods/BallisticRangefinder.class"
+  },
+  {
+   "i": 222,
+   "en": "The range bonus is based on the size of the largest ballistic slot, and the increased base range is capped, but still subject to other modifiers.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/hullmods/BallisticRangefinder.class"
+  },
+  {
+   "i": 223,
+   "en": "Utilizes targeting data from the ship's largest ballistic slot to benefit certain weapons, extending the base range of typical ballistic weapons to match similar but larger weapons. Greatly benefits hybrid weapons. Point-defense weapons are unaffected.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/hullmods/BallisticRangefinder.class"
+  },
+  {
+   "i": 224,
+   "en": "base range",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/hullmods/BallisticRangefinder.class"
+  },
+  {
+   "i": 225,
+   "en": "ship's largest ballistic slot",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/hullmods/BallisticRangefinder.class"
+  },
+  {
+   "i": 226,
+   "en": " non-built-in \"Logistics\" hullmods for this hull",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/hullmods/BaseLogisticsHullMod.class"
+  },
+  {
+   "i": 227,
+   "en": " non-built-in \"Logistics\" hullmods per hull",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/hullmods/BaseLogisticsHullMod.class"
+  },
+  {
+   "i": 228,
+   "en": "Logistics",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/hullmods/BaseLogisticsHullMod.class"
+  },
+  {
+   "i": 229,
+   "en": "Maximum of ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/hullmods/BaseLogisticsHullMod.class"
+  },
+  {
+   "i": 230,
+   "en": "four",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/hullmods/BaseLogisticsHullMod.class"
+  },
+  {
+   "i": 231,
+   "en": "one",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/hullmods/BaseLogisticsHullMod.class"
+  },
+  {
+   "i": 232,
+   "en": "three",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/hullmods/BaseLogisticsHullMod.class"
+  },
+  {
+   "i": 233,
+   "en": "two",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/hullmods/BaseLogisticsHullMod.class"
+  },
+  {
+   "i": 234,
+   "en": " negated on this ship.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/hullmods/ConvertedHangar.class"
+  },
+  {
+   "i": 235,
+   "en": "Can not be installed on a frigate",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/hullmods/ConvertedHangar.class"
+  },
+  {
+   "i": 236,
+   "en": "Converts the ship's standard shuttle hangar to house a fighter bay. The improvised flight deck, its crew, and the related machinery all function at a pace below that of a dedicated carrier.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/hullmods/ConvertedHangar.class"
+  },
+  {
+   "i": 237,
+   "en": "Deployment cost: %s",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/hullmods/ConvertedHangar.class"
+  },
+  {
+   "i": 238,
+   "en": "Increases fighter refit time by %s, and the fighter replacement rate both decays and recovers %s more slowly. In addition, bombers returning to rearm (or fighters returning for repairs) take %s of their base refit time to relaunch, where normally it takes under a second. ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/hullmods/ConvertedHangar.class"
+  },
+  {
+   "i": 239,
+   "en": "Increases the minimum crew by %s to account for pilots and flight crews. Increases the ship's deployment points and supply cost to recover from deployment by %s for every %s ordnance points spent on fighters, or by at least %s point. This comes with a proportional increase in combat readiness lost per deployment.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/hullmods/ConvertedHangar.class"
+  }
+ ]
+}

@@ -1,0 +1,141 @@
+{
+ "chunk": 152,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"Indeed,\" says Baird, looking at you closely. \"Her trepidation is a rational response to previous events; the investigations, arrests, the show-trial of Kallichore. But conditions have changed, and she is needed if we are to escape from stagnant local maxima.\"\r\n\r\nBaird turns to the window. \"I will call, Scylla will answer,\" she says. A proclamation?",
+   "ctx": "data/campaign/rules.csv bairdIntroScylla4b [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"Find the Kallichore Archive. Find Scylla Coureuse. Once you have accomplished both of these missions, the project can proceed to the next phase.\"\r\n\r\nBaird smiles, \"And that's when things get exciting.\"",
+   "ctx": "data/campaign/rules.csv bairdIntro_outro1 [text]"
+  },
+  {
+   "i": 3,
+   "en": "Baird's smile does not reach her eyes. \"You'll see.\"",
+   "ctx": "data/campaign/rules.csv bairdIntro_outroProject [text]"
+  },
+  {
+   "i": 4,
+   "en": "She turns to her desk display and starts inputting a command sequence, done with you for now.\r\n\r\n\"Good day, captain,\" she says without looking up, \"You may check in with me via comms for additional analysis as the operation develops, though I expect you to use your initiative.\"\r\n\r\n\"Oh, and I've re-authorized Academician Sebestyen with mission assignment access for your file. Carrying out his little jobs might be a good cover for your real work, and allows us to funnel additional credits to you.\"\r\n\r\nYou feel the subtle movement of air as the doors open silently behind you. Mirror-masked guards flank a junior agent who waits to escort you back to your shuttle.",
+   "ctx": "data/campaign/rules.csv bairdIntro_outro2 [text]"
+  },
+  {
+   "i": 5,
+   "en": "Your comms officer connects your personal terminal to the local network. You activate the audio suppression field around your command station and enter the comms ID provided to you by Provost Baird. The animated logo of some Tri-Tachyon sub-department makes a half rotation before the call is answered.\r\n\r\n\"Arroyo here. Who's talking to me?\" Rayan Arroyo looks you over as if examining a starship hull for scratches. He seems to find something he doesn't quite approve of in you. \r\n\r\n\"Who gave you my comms ID?\" he demands.",
+   "ctx": "data/campaign/rules.csv gaKAArroyoGreeting [text]"
+  },
+  {
+   "i": 6,
+   "en": "Your call connects to an automated receiver. The animated logo of a Tri-Tachyon subsidiary spins endlessly on your display. After half a minute and the second time a voice tells you that your patience is appreciated, you conclude that your call is being ignored.\r\n\r\nArroyo wants to discuss business in-person.",
+   "ctx": "data/campaign/rules.csv gaKAArroyoGreetingIgnoreCall [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Solve a problem.\" He says this as if it's a matter far beneath the worth of his attention.\r\n\r\n\"I don't solve problems, buddy. I pay people to solve problems for me. You got problems? Go talk to the shipyard and get your oxygen leak fixed. I don't care about your problem unless your problem is seven or eight figs of cash in an account that you need put to work.\"\r\n\r\nHe's starting to shout. You get the impression that he enjoys this sort of upbraiding. \r\n\r\n\"Done wasting my time? Now tell me who gave you my number because I'm going to fire them right after I cut this link.\"",
+   "ctx": "data/campaign/rules.csv gaKAArroyoProblemSel [text]"
+  },
+  {
+   "i": 8,
+   "en": "For just a moment, you think you see a wave of panic cross Arroyo's face. It's replaced by a cocky grin, \"Oh, of course, of course- the Galatia Academy endowment fund. How could I forget?\"\r\n\r\n\"Here,\" he taps at something and your comms displays an incoming set of coordinates with the code of a landing beacon. \r\n\r\n\"Take a shuttle down. We can touch base about the fund. I'm sure the Provost has exciting plans and I want to hear all about them-\" He lifts his eyes upward for a moment and lowers them again to look directly at you. \"In person.\"",
+   "ctx": "data/campaign/rules.csv gaKAArroyoProvostSel [text]"
+  },
+  {
+   "i": 9,
+   "en": "He carries on as if this was all perfectly expected. \"Ever been planetside? Doesn't count if it's just the arcologies. I'll give you a tour of my chalet. Spectacular views, you'll love it. See you soon.\"\r\n\r\nHe closes the connection before you can respond.",
+   "ctx": "data/campaign/rules.csv gaKAArroyoProvostSel2 [text]"
+  },
+  {
+   "i": 10,
+   "en": "Your shuttle descends into the young atmosphere of Eochu Bres, through towering battlements of clouds. A spray of rain is cast over your viewport, and it is wiped clean in a blink by the heat and speed of your descent.\r\n\r\nThe flight path soon deviates from the general approach corridor which has been ticking off minor use-fees from the Tri-Tachyon owned flight control: general volume access fee, priority flight lane fee, service fee, customer satisfaction insurance charge, advertisement bypass fee - you swipe the notifications off and focus on the landscape.",
+   "ctx": "data/campaign/rules.csv gaKAArroyoVisitStart [text]"
+  },
+  {
+   "i": 11,
+   "en": "Leaving behind the Tri-Tach arcologies, diamonds growing atop the detritus of tiered slums. Over pipelines, a steel-blue bay, jagged fjords interrupted by ice-jams and landslides. Up and over a great crumbling escarpment like a black wave that fills the horizon; you cross a landscape of oddly-hued tundra spotted with thousands of milky-green lakes.\r\n\r\nA new range of mountains rises on the horizon, torn in half by catastrophic workings of the terraformers, and beyond is a chaos of steep valleys populated by dwarf pine and thin white waterfalls. The nav system sounds a tone indicating imminent arrival, and you see Arroyo's private chalet: a small compound of radical geometric architecture surrounded by low outbuildings.\r\n\r\nYour shuttle approaches an ellipsoid landing pad that appears to hang in the thin air over a gorge.",
+   "ctx": "data/campaign/rules.csv gaKAArroyoVisit1 [text]"
+  },
+  {
+   "i": 12,
+   "en": "A human and a robotic servant greet you placidly as you arrive and lead you inside to a grand parlor done in dark geometric style. Gold inlay gleams in onyx tabletops, and the polished granite floor is set with tastefully patterned jewel-tone carpets placed slightly askew.\r\n\r\nThe view from the flawless sweep of diamond-matrix bay window is, as Arroyo promised, spectacular.",
+   "ctx": "data/campaign/rules.csv gaKAArroyoVisit2 [text]"
+  },
+  {
+   "i": 13,
+   "en": "Rayan Arroyo is sitting at one of the bars. He acknowledges your entrance with a nod as the servants disappear. He taps his datapad with two fingers. You hear the soft signal loss ping from your datapad and your sidearm-hand twitches instinctively.\r\n\r\nArroyo acknowledges this with the rise of one perfectly groomed eyebrow. \"Calm down. Just making sure no one's listening.\" He flips through a series of null readouts on a datapad and, satisfied, sets it aside.\r\n\r\n\"So Baird is calling in another installment. What will that be, Captain $playerName?\"",
+   "ctx": "data/campaign/rules.csv gaKAArroyoVisit3 [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"No,\" he says. He makes a show of looking around, \"But it's nice isn't it?\" \r\n\r\n\"Now I could be doing anything other than talking to you right now, so let's make it quick. You know you're getting something thanks to our mutual 'friend'. What is it?\"",
+   "ctx": "data/campaign/rules.csv gaKAArroyoVisitTour [text]"
+  },
+  {
+   "i": 15,
+   "en": "As soon as you say it, a smile grows on Arroyo's face. He starts laughing, and takes his time as it builds and falls. He laughs like he's strapped to a madman's rocket, with no escape. So why not enjoy the ride?",
+   "ctx": "data/campaign/rules.csv gaKAArroyoVisitBreakIn [text]"
+  },
+  {
+   "i": 16,
+   "en": "He slaps the onyx bar-top one last time and puts his head in his hands.\r\n\r\n\"Of course.\" He looks out on the vista of saw-tooth mountains for a moment, then speaks with unusual passivity: \"I'd just hate to start a third AI war.\"",
+   "ctx": "data/campaign/rules.csv gaKAArroyoVisitSerious [text]"
+  },
+  {
+   "i": 17,
+   "en": "As you start laughing, it seems to sap something from Arroyo's mania. You trail it off, leaving an awkward silence.\r\n\r\nHe puts his head in his hands.",
+   "ctx": "data/campaign/rules.csv gaKAArroyoVisitLaugh [text]"
+  },
+  {
+   "i": 18,
+   "en": "He slaps the onyx bar-top one last time and puts his head in his hands.",
+   "ctx": "data/campaign/rules.csv gaKAArroyoVisitAMoment [text]"
+  },
+  {
+   "i": 19,
+   "en": "He sighs and pours something from a crystal decanter into a glass, empties it. \"To a deal that gets worse all the time!\" \r\n\r\nThen pours another. He considers a moment, notices you, and tilts the decanter to offer you a drink.",
+   "ctx": "data/campaign/rules.csv gaKAArroyoVisitAMoment2 [text]"
+  },
+  {
+   "i": 20,
+   "en": "He shrugs, and sips his second drink. \"Stick to Baird. You'll find your vice to cope,\" he says.",
+   "ctx": "data/campaign/rules.csv gaKAArroyoVisitDrinkNo [text]"
+  },
+  {
+   "i": 21,
+   "en": "Arroyo pours another, passes you the tumbler, and clinks his glass into yours, hard. \"And Anahita Baird!\" he shouts.",
+   "ctx": "data/campaign/rules.csv gaKAArroyoVisitDrinkYes [text]"
+  },
+  {
+   "i": 22,
+   "en": "He slams down an empty glass. \"I know someone who can do it. They're a pain in the ass but, this is key, they're crazy enough to do a job as stupid as the one you're proposing. A hacker called Gargoyle - the real one, not one of the wannabes. We've done business before. Here's the comms ID.\" Rayan pulls a datakey from a pocket, waves it over his datapad, and after a couple taps pushes it toward you.\r\n\r\n\"If you get any pushback, if Gargoyle throws a little tantrum, just give it back. It's all about the drama, but in the end you're already in with a job as stupid as this.\" He holds a hand up, \"And by the way, you really did not need to go and tell me your true objective. The last thing I want is Hegemony counterint crawling all over my operation. Or, worse, some vampire from the Company board smelling blood.\"",
+   "ctx": "data/campaign/rules.csv gaKAArroyoVisit4 [text]"
+  },
+  {
+   "i": 23,
+   "en": "He gives you a look. \"No. Who cares. Doesn't matter. Most of anything you'll hear about Gargoyle is made up, and half of that is true. So don't bother trying.\"\r\n\r\nHe leans back, looking elsewhere, content to talk to himself some more. \"What's important is that Gargoyle always gets the job done. My theory is it's some kind of obsessive brain thing,\" he twirls a hand at his head to demonstrate. \"Probably implanted a cybermod the wrong way around and got an AI instead of a frontal lobe.\"\r\n\r\n\"Have fun with that one,\" he says with a smirk.",
+   "ctx": "data/campaign/rules.csv gaKAArroyoVisitGargoyle [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"What Baird's got is a good investment, and the longer she waits-\" he waves at the luxurious surroundings; the career of Rayan Arroyo \"-the more interest she'll collect.\"\r\n\r\nA shrug. \"It's done well enough for me. We all make deals to get ahead, and I've seen worse. Done worse to others. Plus, I'm an asset now. You can't simply snuff an asset owned by a bigger player.\" \r\n\r\nHe turns and stares directly at you, \"And you're an asset now, too. Hypothetical question- what's she got on you?\" He gives a cold smile. \"I hope you know.\"",
+   "ctx": "data/campaign/rules.csv gaKAArroyoVisitBairdWhat [text]"
+  },
+  {
+   "i": 25,
+   "en": "You've got what you needed from Rayan Arroyo, and with no signal on his part that you can discern, his human and robot servants appear once more.\r\n\r\n\"I won't say it's been a pleasure, but if you ever have more credits than you know what to do with or, hmm, a truly exceptional business opportunity, let's trade cryptokeys now so you don't have to track space-dust on my carpet again.\" \r\n\r\nHe taps his datapad and offers it, and you perform the mundane ritual which will ensure that anyone who wants to crack your mutual comms will, at least, have to put some effort into the task.",
+   "ctx": "data/campaign/rules.csv gaKAArroyoVisitLeave0 [text]"
+  },
+  {
+   "i": 26,
+   "en": "Your shuttle reverses the previous route, down from the highlands, across the plateau of lakes. You spot factory-crawlers disgorging pipe and monorail pylons across the landscape, leaving long tracked trails of torn red dirt.\r\n\r\nAcross the rocky chaos, and the small cold sea, and over the mountainous slums crowned by glittering spires. Navigation pings and comms noise grows to a small roar over the heart of Tri-Tachyon, and your shuttle returns you to orbit.",
+   "ctx": "data/campaign/rules.csv gaKAArroyoVisitLeave1 [text]"
+  },
+  {
+   "i": 27,
+   "en": "After connecting to the local network, you enter the comms ID for Gargoyle then pause at the prompt to initiate the call. You look over to your comms officer and they nod, ready to act.\r\n\r\nAs soon as you execute the command, the electronic warfare console lights up like fleet action in a nebula. Comms wrangles the infosec systems with cool efficiency, coordinating active response with nav, sensors, and engineering stations. \r\n\r\nAfter perhaps half a minute the storm breaks, the alarms quiet, and your primary display resolves from a mesmerizing fractal battleground to a heavily augmented face grinning impishly.",
+   "ctx": "data/campaign/rules.csv gaKAGargoyleGreeting [text]"
+  }
+ ]
+}

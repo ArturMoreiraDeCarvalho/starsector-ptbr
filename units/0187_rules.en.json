@@ -1,0 +1,226 @@
+{
+ "chunk": 187,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "You enter Provost Baird's office and she greets you with uncharacteristic warmth.\r\n\r\n\"Come in, come in. Make yourself comfortable,\" she says. You note a bottle of something rare and four crystal glasses on her desk.\r\n\r\nShe taps at her console interface, \"I wanted to show you this before the announcement went public. With,\" she adds with sarcastic reverence, \"approval from the High Hegemon.\"\r\n\r\nWith a flicker, the holoprojector beams an image into the large central volume of the office: your flagship triumphantly exiting a Gate, drive aglow, hyperspace bubble rendered in visible EM as a victorious golden aura.",
+   "ctx": "data/campaign/rules.csv gaATGlastReturnVictory4 [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"And this little show is only the first step, captain. A link between two Gates is momentous, but it means that so much more is possible: if we can open one Gate, then we can scale the technology to open more. It will take nearly unimaginable energy - and the resources of a Sector-spanning empire.\"\r\n\r\nBaird brings her hands together, staring at the holo, and taps her fingers as if to let off excess energy. \"Though the factions of this Sector are weak, the bones of the Domain are scattered all around us. Academician Simisola has located a derelict coronal tap which could provide the energy required to - theoretically, mind - open permanent links in the Gate network. And if what Coureuse's theories imply are true...\" \r\n\r\nThe provost's attention returns to the world around her. \"Where is Scylla? She was to report here after securing the schematics.\"",
+   "ctx": "data/campaign/rules.csv gaATGlastReturnVictory5 [text]"
+  },
+  {
+   "i": 3,
+   "en": "She taps a key on her desk-console, a touch of annoyance in her voice \"Sebestyen. Have Coureuse and- yes, and Zal. Have them sent in.\" She shakes her head and gives you a see-what-we-must-deal-with look.\r\n\r\nAs she turns away, the comms unit chimes. She turns back, \"What is it, Alviss? ... Is she on the station or not? Stop stammering, it's a simple yes or no question. ... I see.\"\r\n\r\nShe taps at the comms, the triumph draining from her expression.",
+   "ctx": "data/campaign/rules.csv gaATGlastReturnWhereAreThey [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"Security, find me Academician Scylla Coureuse. And her- and Elissa Zal. ... Yes, immediately. Top priority.\"\r\n\r\nAnother tap, \"And get me that insipid hacker. Yes, I mean Gargoyle. No, just on comms.\"",
+   "ctx": "data/campaign/rules.csv gaATGlastReturnWhereAreThey2 [text]"
+  },
+  {
+   "i": 5,
+   "en": "With Baird's attention thoroughly, and increasingly furiously, focused elsewhere, you pour yourself a glass, sample the fumes, and sip. Some kind of brandy. Eventide, judging by the label - a stylized arc of solar mirrors over a celestial orb.\r\n\r\nA fine vintage; subtle, powerful, unexpected. You're beginning to suspect that this might be the highlight of the rest of this day.",
+   "ctx": "data/campaign/rules.csv gaATGlastReturnGargoyle1b [text]"
+  },
+  {
+   "i": 6,
+   "en": "Gargoyle's face appears, projected over the expansive desk. \"Where are they,\" Baird demands, \"By Ludd's seven hells I will sell you piece by piece to Tri-Tach if you lie to me.\"\r\n\r\nThe hacker goes very still. Staring at the hissing crack in a bulkhead threatening to collapse into vacuum. \"I do not know,\" Gargoyle says deliberately. \"I did not assist them in... in some scheme. Though perhaps I did, though they never said it was their intention. I simply... provided tools they requested. Codes, programs. Advice.\"\r\n\r\n\"So you helped them!\" Baird shouts. \"For the protection I provided, asking the High Hegemon himself to overlook your crimes, you repay me with this treachery?\"",
+   "ctx": "data/campaign/rules.csv gaATGlastReturnGargoyle1 [text]"
+  },
+  {
+   "i": 7,
+   "en": "Gargoyle holds up a hand, \"No, you- look, I admit I suspected something, but I didn't ask. You gave me explicit instructions to fulfill any request, anything, made by Scylla.\" \r\n\r\nYou can tell the hacker is repressing an impish smile, \"I have the recording. 'Do anything Coureuse says,' you said, 'And I don't want you to ask any more inane questions.' I believe those were your exact words.\"",
+   "ctx": "data/campaign/rules.csv gaATGlastReturnGargoyle2 [text]"
+  },
+  {
+   "i": 8,
+   "en": "Baird slams her hand on the console, terminating the link.\r\n\r\nHer personal comms chime, then chimes again. She picks it up. \"Speak.\"",
+   "ctx": "data/campaign/rules.csv gaATGbairdBetrayal1 [text]"
+  },
+  {
+   "i": 9,
+   "en": "She listens for a moment, then clicks off the comms without replying.\r\n\r\nHer hand trembling, she removes her spectacles, and you hear a small snap.",
+   "ctx": "data/campaign/rules.csv gaATGbairdBetrayal2 [text]"
+  },
+  {
+   "i": 10,
+   "en": "She turns away, body rigid.\r\n\r\n\"Have you a knife for me too, captain?\"",
+   "ctx": "data/campaign/rules.csv gaATGbairdBetrayal3 [text]"
+  },
+  {
+   "i": 11,
+   "en": "Baird stares out the window, broken spectacles dangling from her hand.\r\n\r\nAn opened Gate, your $shipOrFleet poised triumphant in flight from the cascading hyper-vortices of its great maw, spins slowly and silently from the holoprojector.",
+   "ctx": "data/campaign/rules.csv gaATGbairdEndingHub [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"Don't waste my air on sentiment,\" Baird spits. \"You are clearly not the foremost hyperspace theoretician in the Persean Sector.\"",
+   "ctx": "data/campaign/rules.csv gaATGbairdEndingBelieve [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"Yes,\" says Baird without emotion.",
+   "ctx": "data/campaign/rules.csv gaATGbairdEndingWork [text]"
+  },
+  {
+   "i": 14,
+   "en": "Baird turns slowly to give you a look. Her eyes are red. She turns back to the window.",
+   "ctx": "data/campaign/rules.csv gaATGbairdEndingWanted [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"No,\" she answers, gazing out the window.",
+   "ctx": "data/campaign/rules.csv gaATGbairdEndingHistory [text]"
+  },
+  {
+   "i": 16,
+   "en": "For a moment, Baird says nothing. Then, with the scorn of raw, biting vacuum-\r\n\r\n\"Get out.\"",
+   "ctx": "data/campaign/rules.csv gaATGbairdEndingReap [text]"
+  },
+  {
+   "i": 17,
+   "en": "She sighs. \"Sebestyen,\" she says wearily. \"Will handle it.\"",
+   "ctx": "data/campaign/rules.csv gaATGbairdEndingPay [text]"
+  },
+  {
+   "i": 18,
+   "en": "The heavy wooden doors give at your touch, and you step through, surprising the guards in mirror-faced helmets. The waiting room of courtiers eyes you spitefully. What business does some upstart rocket jockey have that's more important than securing their legacy?\r\n\r\n* * *\r\n\r\nYou step through the airlock doors into the shuttle bay, the very stars at your fingertips.",
+   "ctx": "data/campaign/rules.csv gaATGconclusion [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"Oh! Captain, yes, of course,\" Sebestyen says, flustered.\r\n\r\n\"I just, I- you know, with everything going on at the end there. Security, the shouting, the uh. Yes, getting you paid, let's see,\" he taps nervously at his console.\r\n\r\n\"Finance... contracts... $playerLastName... Yes, there you are.\" He manages a smile, \"And there you go.\"\r\n\r\n\"Um,\" he begins.",
+   "ctx": "data/campaign/rules.csv gaATGpostSebestyenGetPaid2 [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"I- I just wanted to say thank you,\" he says. \"For um, it's been an honor to be a part of- of making history. I guess.\"",
+   "ctx": "data/campaign/rules.csv gaATGpostSebestyenGetPaid3 [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"T- thank you. I mean, yes,\" he's clearly blushing now. \"Good bye.\"\r\n\r\nHe manages to hit the comm-link cutoff on his second try.",
+   "ctx": "data/campaign/rules.csv gaATGpostSebestyenGetPaid3b [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"I, uh. Yeah. I won't.\" Sebestyen attempts his best devil-may care spacer nod.\r\n\r\nIt could use some work.\r\n\r\n\"C-catch you around. Captain,\" he says, and manages to hit the comm-link cutoff on his second try.",
+   "ctx": "data/campaign/rules.csv gaATGpostSebestyenGetPaid3c [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"Um, nothing captain,\" he says quickly. \"Don't mean to take any more of your time. Good day. Captain.\"\r\n\r\nHe manages to hit the comm-link cutoff on his second try.",
+   "ctx": "data/campaign/rules.csv gaATGpostSebestyenGetPaid4 [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"Ah, um. Yes.\" Sebestyen looks incredibly uncomfortable.\r\n\r\n\"It's been... difficult,\" he says. \"For us all, I'm sure.\" \r\n\r\nHe coughs, and his eyes roam like he's looking for an escape pod.",
+   "ctx": "data/campaign/rules.csv gaATGpostSebestyenProvost2 [text]"
+  },
+  {
+   "i": 25,
+   "en": "He looks at you for a long moment, then simply says \"Thank you.\"",
+   "ctx": "data/campaign/rules.csv gaATGpostSebestyenGoodJob [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"W-well, she's been under a lot of pressure. And,\" he doesn't meet your eye as he speaks. \"She just, just doesn't have time to think about people's feelings so much when, when there are such big problems, and things.\"\r\n\r\n\"That's just how, um, great people are sometimes,\" he concludes quietly.",
+   "ctx": "data/campaign/rules.csv gaATGpostSebestyenBairdBad [text]"
+  },
+  {
+   "i": 27,
+   "en": "Sebestyen looks up at you, unsure.\r\n\r\n\"M-maybe not,\" he says, unsure. Then seems to realize who he's talking to. \"Captain.\"\r\n\r\n\"Um, is there anything else I can help you with?\"",
+   "ctx": "data/campaign/rules.csv gaATGpostSebestyenBairdBadA [text]"
+  },
+  {
+   "i": 28,
+   "en": "Sebestyen nods. \r\n\r\n\"So, um. Captain. Is there anything else I can help you with?\"",
+   "ctx": "data/campaign/rules.csv gaATGpostSebestyenBairdBadB [text]"
+  },
+  {
+   "i": 29,
+   "en": "Sebestyen nods, his relief plain on his face.",
+   "ctx": "data/campaign/rules.csv gaATGpostSebestyenBairdBadC [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"Yes, yes that'd be good,\" he says quickly.",
+   "ctx": "data/campaign/rules.csv gaATGpostSebestyenSomethingElse [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"Naw. We've got too much to offer one another,\" Gargoyle says casually. \"Me: peerless skill, wit, and resourcefulness. Her: boundless ambition exceeded only by her resentment.\"",
+   "ctx": "data/campaign/rules.csv gaATGpostGargoyleAsk2 [text]"
+  },
+  {
+   "i": 32,
+   "en": "The hacker ticks off an additional finger, \"Me: the dirt, from both near and afar.\" \r\n\r\nAnother finger, \"Her: credits, legitimacy, and if not forgiveness then a clear head about the value of an asset despite personal feelings about said asset.\"\r\n\r\n\"I'll be fine,\" Gargoyle says, waving a hand dismissively. \"I must say though, I am touched that you're so concerned about my well-being.\"",
+   "ctx": "data/campaign/rules.csv gaATGpostGargoyleAsk3 [text]"
+  },
+  {
+   "i": 33,
+   "en": "The comms connect after a moment.\r\n\r\n\"Oh, hello, it's you!\" Your contact almost looks surprised that you're calling, but manages to launch into an upbeat introduction.\r\n\r\n\"My name is Alviss Sebestyen. The new provost - that is, Provost Baird - assigned me to be your liaison with the academy. I hope you're as excited to work with me as I am to be working with you!\"",
+   "ctx": "data/campaign/rules.csv asebFirstTimeGreeting [text]"
+  },
+  {
+   "i": 34,
+   "en": "He can't help but put on a glowing smile.",
+   "ctx": "data/campaign/rules.csv asebNiceToMeetYou [text]"
+  },
+  {
+   "i": 35,
+   "en": "\"Right, yes, um.\" He seems nervous to be meeting a real-life space captain. You wonder idly how he even got this position. \r\n\r\n\"...different departments within the Galatia Academy tell me what they need done, then I coordinate with freelancers like yourself to procure, uh, the necessary services. Oh, and I run jobs by the finance office. We have to make sure you get paid; that's very important.\"\r\n\r\n\"At any time there may be various jobs open to you, you just have to check with me. Or sometimes there might be no jobs if they’re all fulfilled.\" He reads something on a tablet, \"But um, it looks like Provost Baird wants you to have first priority. She must like you.\"\r\n\r\nYou're not so sure of this.",
+   "ctx": "data/campaign/rules.csv asebMeetDo [text]"
+  },
+  {
+   "i": 36,
+   "en": "\"Welcome back captain, it's good to see you!\" Sebestyen says cheerfully.",
+   "ctx": "data/campaign/rules.csv asebDefaultGreeting [text]"
+  },
+  {
+   "i": 37,
+   "en": "He taps at a datapad. \"Let me look at what we’ve got lined up for you today... \"",
+   "ctx": "data/campaign/rules.csv asebMHOpenText [text]"
+  },
+  {
+   "i": 38,
+   "en": "\"Oh, that's too bad. It looks like there aren’t any current requests,\" he says. He sounds genuinely sorry for you, but manages to perk up, \"Maybe next time?\"",
+   "ctx": "data/campaign/rules.csv asebNoMissions [text]"
+  },
+  {
+   "i": 39,
+   "en": "\"I have just the one request here. $mh_firstInlineBlurb\", he looks to you expectantly, \"It's yours if you want it.\"",
+   "ctx": "data/campaign/rules.csv asebOneMission [text]"
+  },
+  {
+   "i": 40,
+   "en": "\"So those sound nice. Interested in anything?\"",
+   "ctx": "data/campaign/rules.csv asebMultipleMissionsPost [text]"
+  },
+  {
+   "i": 41,
+   "en": "He looks a bit crestfallen, but makes an effort to put on a smile. \"Do let me know if you change your mind!\"\r\nOR\r\n\"Oh,\" he says, disappointed for a moment. But he quickly cheers up, \"Maybe something else?\"\r\nOR\r\n\"Um, of course. I understand completely.\" Sebestyen rapidly scans his datapad, \"Let's see what else there is here... \"\r\nOR\r\n\"Great! You can- \" he seems to realize that you declined the mission after a moment.\r\n\r\n\"You don't want to do it? Oh. Okay. Well. Maybe,\" he taps his datapad on his desk, \"Maybe we can find something else for you?\"",
+   "ctx": "data/campaign/rules.csv asebMissionDeclineGeneric [text]"
+  },
+  {
+   "i": 42,
+   "en": "\"Great! Is there anything else I can do for you today?\"\r\nOR\r\n\"Wonderful! I'll transmit the relevant information.\"\r\nOR\r\n\"Good to hear. I'll make sure you have everything you need.\"\r\nOR\r\n\"Always a pleasure to work with you, captain.\"\r\nOR\r\n\"Glad to hear it! Is there anything else you need?\"",
+   "ctx": "data/campaign/rules.csv asebMissionAcceptGeneric [text]"
+  },
+  {
+   "i": 43,
+   "en": "You open comms to Academician $personLastName.",
+   "ctx": "data/campaign/rules.csv asebMissionReturnGreeting [text]"
+  },
+  {
+   "i": 44,
+   "en": "Sebestyen jumps as if he just realized something.\r\n\r\n\"Captain! You might, ah, I've been authorized to provide you with a Neutrino Detector for the mission. Um, a technical crew is transferring the necessary equipment to your flagship, and,\" he taps his datapad, \"I've sent your sensors officer the documentation.\"\r\n\r\n\"We've found the Neutrino Detector very helpful for pinpointing interesting, um, all sorts of things while surveying distant systems. Power sources show up especially well, though sometimes you get a false signal. Oh, and one more thing! We haven't figured out a way to quite close the regenerative loop on the plasma reflector uh... and just be sure to stock extra volatiles in your cargo bay to keep the detector running.\"",
+   "ctx": "data/campaign/rules.csv asebGivePlayerNDetectorOnAccept [text]"
+  }
+ ]
+}

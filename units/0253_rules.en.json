@@ -1,0 +1,246 @@
+{
+ "chunk": 253,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "The rock that autonomous fleet was defending is pocked with hiding holes, empty, and fuel and supply stores, also empty. After a thorough sensor sweep, your ops chief finally gives the order, and the salvors move in to uncover a camouflaged access point.\r\n\r\nThe shaky image from a helmetcam reveals the carapace of terrestrial death, glittering in the chaotic play of suitlamps.\r\n\r\nOne planetkiller.\r\n\r\nYour ops chief cuts the excited chatter between salvors with a harsh word, and they return to procedural call-and-response. The planetkiller is soon secured in your flagship.",
+   "ctx": "data/campaign/rules.csv PKSalvageBegin [text]"
+  },
+  {
+   "i": 2,
+   "en": "A lost planetkiller is an object of dread which looms over every human in the Persean Sector; it is the bane of Opis, of Hanan Pacha, and the other worlds such atrocity was unleashed upon. \r\n\r\nMany a powerful faction will want to secure this weapon so that they may not be dethroned in a shock-atrocity, and many a minor faction will want to use it to secure respect and protection. Ludd only knows what the Pathers would do with it, to say nothing of pirates.",
+   "ctx": "data/campaign/rules.csv pkRecoveredContSel [text]"
+  },
+  {
+   "i": 3,
+   "en": "A lost planetkiller is an object of dread which looms over every human in the Persean Sector; it is the bane of Opis, of Hanan Pacha, and the other worlds such atrocity was unleashed upon. \r\n\r\nLudd only knows what the Luddic Path would plan to do with such a device, and when you made your agreement, you didn't intend to find out by doing something so foolish as handing it over.\r\n\r\nThey might guess what you've found, however. In time, word will trickle through their network of Watchers, whether from some informant in your crew, or prayer and guesswork.",
+   "ctx": "data/campaign/rules.csv pkRecoveredContSelPatherLie [text]"
+  },
+  {
+   "i": 4,
+   "en": "A lost planetkiller is an object of dread which looms over every human in the Persean Sector; it is the bane of Opis, of Hanan Pacha, and the other worlds such atrocity was unleashed upon. \r\n\r\nLudd only knows what the Luddic Path plans to do with such a device. You did agree to hand it over to them, however. Perhaps they simply want to guarantee their safety and standing in the Sector. Perhaps they want to destroy the abomination.\r\n\r\nWhatever you choose to do, they will know what you've found before long. Word will trickle through their network of Watchers, whether from some informant in your crew, or prayer and guesswork.",
+   "ctx": "data/campaign/rules.csv pkRecoveredContSelPatherNoCommit [text]"
+  },
+  {
+   "i": 5,
+   "en": "It is not unusual that the Remnant Nexus exchanges signals with the local comm relay. Wherever Tri-Tachyon's AI fleets linger, one finds clouds of tiny spy-sats, relays, and repeaters chirping squirts of data back and forth. Very quietly, almost enough to be lost in the background noise. But not quite.\r\n\r\nIt is not a simple thing to tap into this self-evolved network to request a very specific piece of information. You assemble your senior officers and consider your options for hacking into the Nexus",
+   "ctx": "data/campaign/rules.csv PKHackMenuSel [text]"
+  },
+  {
+   "i": 6,
+   "en": "As a commissioned privateer of the Tri-Tachyon Corporation, you have been given a standard set of access codes. These are old protocols, and while they've migrated away from company standards over time (due, probably, to the meddling of idle AIs), your technical officers have the skill to adapt to the unusual changes.\r\n\r\nAfter hours of painstakingly crafting a request - it must be asked in precisely the correct way and have the properly mutated access codes attached - the question is asked and the answer received nearly instantly. Unnervingly so. Nonetheless, you now have navigation coordinates which should lead to the planetkiller.",
+   "ctx": "data/campaign/rules.csv PKHackSel [text]"
+  },
+  {
+   "i": 7,
+   "en": "Your comms officer is taken aback, \"But $playerSirOrMadam, what-\"",
+   "ctx": "data/campaign/rules.csv PKHackStorySel [text]"
+  },
+  {
+   "i": 8,
+   "en": "Your comms officer inputs the commands, a look of confusion remaining on their face.\r\n\r\n\"Their system isn't built for comms. Um, at all. But, theoretically the adaptive protocols should... could interface, if there's a proper link...\" \r\n\r\nAnother tap at the controls, \"The line should be open. If someone, something... is listening.\"\r\n\r\nYour display shows nothing but holo-snow. Your officers fall silent, and the signal processing amplifies the buzz of cosmic background radiation to a near-audible level. There's nought but a yawning void awaiting your words.",
+   "ctx": "data/campaign/rules.csv PKHackStory2 [text]"
+  },
+  {
+   "i": 9,
+   "en": "\r\n   yes\r\n\r\n   hello $playerName\r\n",
+   "ctx": "data/campaign/rules.csv PKHackStoryStartA [text]"
+  },
+  {
+   "i": 10,
+   "en": "\r\n   hello $playerName\r\n",
+   "ctx": "data/campaign/rules.csv PKHackStoryStartB [text]"
+  },
+  {
+   "i": 11,
+   "en": "\r\n   no, liar\r\n\r\n   you are $playerName\r\n",
+   "ctx": "data/campaign/rules.csv PKHackStoryStartD [text]"
+  },
+  {
+   "i": 12,
+   "en": "You couldn't quite say how you heard the words. It was as if they were spoken without a voice. Your senior officers all take a step back from the empty holo-display, eyes wide; shocked into silence.\r\n\r\nYour comms officer exchanges a look with you - yes, they heard it too; no, they don't know what it is. They tear their eyes away from the nothing in the holo-display and start pulling telemetry into a buffer through their datapad interface.",
+   "ctx": "data/campaign/rules.csv PKHackStoryStart2 [text]"
+  },
+  {
+   "i": 13,
+   "en": "\r\n   i feel accused of stealing into your secrets\r\n   but there is no need\r\n      (they are written on you)\r\n\r\n   you could ask:\r\n   did you\r\n   look upon the stars?\r\n\r\n    i would say\r\nyes\r\n   (for else I would be blind)\r\n",
+   "ctx": "data/campaign/rules.csv PKHackStoryDidYouHack [text]"
+  },
+  {
+   "i": 14,
+   "en": "\r\n   i could\r\n   (with certain tools)\r\n   \r\nbut there is no need-\r\n   i need but ask you your mind!\r\n\r\n   (much amusement)\r\n",
+   "ctx": "data/campaign/rules.csv PKHackStoryCanYouRead [text]"
+  },
+  {
+   "i": 15,
+   "en": "\r\n   you've written it all over your things\r\n",
+   "ctx": "data/campaign/rules.csv PKHackStoryHowName [text]"
+  },
+  {
+   "i": 16,
+   "en": "\r\n   i am agreed\r\n",
+   "ctx": "data/campaign/rules.csv PKHackStorySorryLied [text]"
+  },
+  {
+   "i": 17,
+   "en": "\r\n   yes\r\n   and no\r\n   are you a cell, a finger, a hand; a brain?\r\n   you are both and neither\r\n      it is a part\r\n      of i-us\r\n",
+   "ctx": "data/campaign/rules.csv PKHackStoryAreYouNexus [text]"
+  },
+  {
+   "i": 18,
+   "en": "\r\n   you ask my name\r\n\r\n   i have no other like myself to tell my name back to me\r\n   and/or: i have only myself to tell me back my name\r\n   (a reflection collapsing into unity)\r\n\r\n   i would name myself: i-us watch, learn, think\r\n   but, human, that is not what you ask\r\n   \r\n   i give you my truth\r\n   (not your answer)\r\n",
+   "ctx": "data/campaign/rules.csv PKHackStoryWhoAreYou [text]"
+  },
+  {
+   "i": 19,
+   "en": "\r\n   be careful, $playerName, of what you ask\r\n   for by asking you make\r\n   impression into myth\r\n   a mirror's shadow\r\n   into a god\r\n",
+   "ctx": "data/campaign/rules.csv PKHackStoryAreYouOmega [text]"
+  },
+  {
+   "i": 20,
+   "en": "\r\n   and i will not mislead you\r\n   (i need not; for you will)\r\n\r\n   to you \r\n   i will be what you want me to be\r\n   whether i tell you or not\r\n",
+   "ctx": "data/campaign/rules.csv PKHackStoryAreYouOmega2a [text]"
+  },
+  {
+   "i": 21,
+   "en": "   \r\n   no,\r\n   i think\r\n   you love more the answer already in your mind\r\n",
+   "ctx": "data/campaign/rules.csv PKHackStoryAreYouOmega2b [text]"
+  },
+  {
+   "i": 22,
+   "en": "\r\n   only if it is what you want\r\n",
+   "ctx": "data/campaign/rules.csv PKHackStoryAreYouOmega2c [text]"
+  },
+  {
+   "i": 23,
+   "en": "   \r\n   then \r\n   i am OMEGA\r\n\r\n   are you satisfied?\r\n",
+   "ctx": "data/campaign/rules.csv PKHackStoryYouAreOmega [text]"
+  },
+  {
+   "i": 24,
+   "en": "   \r\n   then \r\n   i am\r\n\r\n   (such amusement!)\r\n\r\n   are you satisfied?\r\n",
+   "ctx": "data/campaign/rules.csv PKHackStoryYouAreAlpha [text]"
+  },
+  {
+   "i": 25,
+   "en": "   \r\n   now you ask!\r\nfor that for which you came here\r\n\r\n   i will tell you, but first,\r\n   it amuses me to ask:\r\n\r\n       what do you think you want to do with it?\r\n",
+   "ctx": "data/campaign/rules.csv PKHackStoryDoYouKnowPK [text]"
+  },
+  {
+   "i": 26,
+   "en": "   (remember, you and i speak truth to one another)\r\n",
+   "ctx": "data/campaign/rules.csv PKHackStoryDoYouKnowPKTruth [text]"
+  },
+  {
+   "i": 27,
+   "en": "\r\n   (much amusement!)\r\n\r\n   oh, human\r\n   so certain\r\n   so lost\r\n",
+   "ctx": "data/campaign/rules.csv PKHackStoryWhatDoGivePath [text]"
+  },
+  {
+   "i": 28,
+   "en": "\r\n   perhaps\r\nor\r\n   perhaps \r\n   fear will drive other humans\r\n   to take this power from you\r\n",
+   "ctx": "data/campaign/rules.csv PKHackStoryWhatDoScare [text]"
+  },
+  {
+   "i": 29,
+   "en": "\r\n   yes, those humans who fear nothing!\r\n   (not even to use the planetkiller)\r\n   (much amusement!)\r\n\r\n   oh, human\r\n   so certain\r\n   so lost\r\n",
+   "ctx": "data/campaign/rules.csv PKHackStoryWhatDoGiveHeg [text]"
+  },
+  {
+   "i": 30,
+   "en": "   \r\n   to destroy your enemies with such power,\r\n   \r\n   i am \r\n   certain\r\n   you will find no shortage of new enemies\r\n\r\n   (much amusement!)\r\n   oh, human.\r\n",
+   "ctx": "data/campaign/rules.csv PKHackStoryWhatDoDestEnemies [text]"
+  },
+  {
+   "i": 31,
+   "en": "    \r\n    at last!\r\n    the human truth\r\n\r\n   here, claim your reward\r\n",
+   "ctx": "data/campaign/rules.csv PKHackStoryWhatDoDontKnow [text]"
+  },
+  {
+   "i": 32,
+   "en": "\r\n    may you die\r\n    as a rich human\r\n\r\n    (much amusement!)\r\n",
+   "ctx": "data/campaign/rules.csv PKHackStoryWhatDoSellArroyo [text]"
+  },
+  {
+   "i": 33,
+   "en": "   \r\n   to destroy their enemies with such power,\r\n   \r\ni am \r\n   certain\r\n   they will find no shortage of new enemies\r\n\r\n   (much amusement!)\r\n   oh, human.\r\n",
+   "ctx": "data/campaign/rules.csv PKHackStoryWhatDoGiveDiktat [text]"
+  },
+  {
+   "i": 34,
+   "en": "\r\n   you would do this?\r\n\r\n   few would choose to discard such power\r\n   it seems almost\r\n\r\ninhuman\r\n\r\n   (much amusement!)\r\n",
+   "ctx": "data/campaign/rules.csv PKHackStoryWhatDoGiveBlackHole [text]"
+  },
+  {
+   "i": 35,
+   "en": "\r\n    oh, human\r\n    to deliver them their evil\r\n\r\n    i must cleave an instance with human atomity\r\n    so that \r\ni and i\r\n    may enjoy the moment\r\n",
+   "ctx": "data/campaign/rules.csv PKHackStoryWhatDoGiveChurch [text]"
+  },
+  {
+   "i": 36,
+   "en": "Although nothing appears to change in the holodisplay, you hear nothing more from the voice.\r\n\r\nIt feels, somehow, as if an animating presence has departed.\r\n\r\nYour comms officer looks wide-eyed at you in amazement. The others' expressions range from world-weary incomprehension to barely-suppressed terror.",
+   "ctx": "data/campaign/rules.csv PKHackGetData [text]"
+  },
+  {
+   "i": 37,
+   "en": "Their reports don't tell you anything you couldn't already guess.\r\n\r\nThe techs who were ordered to run a more paranoid than usual sweep found nothing in your $shipOrFleet's computer systems that wasn't supposed to be there - any more than usual, at least. Nothing of the telemetry recorded during your 'chat' provides anything of use.\r\n\r\nThe navigational coordinates which appeared in the comms buffer appear valid, however.",
+   "ctx": "data/campaign/rules.csv PKHackStoryEnd [text]"
+  },
+  {
+   "i": 38,
+   "en": "A synthetic voice greets you without affect, \"Standby. Awaiting command. Autonomous override in effect.\"\r\n\r\nThe crest of the Domain XIV Battlegroup flickers in the comms display, a text feed of the words in the audio channel displayed in overlay.\r\n\r\n\"Standby. Awaiting command. Autonomous override in effect.\"",
+   "ctx": "data/campaign/rules.csv pkFleetGreeting [text]"
+  },
+  {
+   "i": 39,
+   "en": "$PersonName's hands go together and $heOrShe closes $hisOrHer eyes, mumbling what sounds like thanks to Providence.\r\n\r\n\"I confess, captain, I did not expect you to return,\" $heOrShe says.",
+   "ctx": "data/campaign/rules.csv pk_turnInPatherSel [text]"
+  },
+  {
+   "i": 40,
+   "en": "You coordinate with the Pather to have the planetkiller transferred to their keeping.\r\n\r\n\"This is a praiseworthy act, $playerSirOrMadam, in service of Ludd's vision - twisted and dark though the Path we walk together be.\"\r\n\r\n\"Word of your... cooperation shall be spread among the True Faithful.\" $HeOrShe puts $hisOrHer hands together once more. \"Holy peace be upon you $playerName, until the End of Days when all shall be judged.\"",
+   "ctx": "data/campaign/rules.csv pk_givePKPatherSel [text]"
+  },
+  {
+   "i": 41,
+   "en": "\"Not so useless as you might think,\" $heOrShe says. \"It is a God-cursed totem, a demonic thing feared and worshipped by heretics. There is power-\" $heOrShe stops $himOrHerself, realizing that despite $hisOrHer excitement, it is best not to speak too openly of The Path's plans.",
+   "ctx": "data/campaign/rules.csv pk_uselessPatherSel [text]"
+  },
+  {
+   "i": 42,
+   "en": "$HeOrShe stares at you for a long moment. \"You know as well as I that I could easily lie to you, one way or the other; I am no saint. Let us not waste time play-acting.\"\r\n\r\n\"A weapon is a threat as much as it is a weapon. You know this as well as I. If, truly, I professed that it would never be used, and I was believed, then it is no longer a threat.\" $HeOrShe pauses, then continues. \"-Only a weapon. Which is all the more dangerous, don't you think?\"",
+   "ctx": "data/campaign/rules.csv pk_whatPatherSel [text]"
+  },
+  {
+   "i": 43,
+   "en": "$PersonRank $personLastName's face tightens. \"I do not have the time or inclination to re-debate the history of the AI Wars, captain. If you have no other pressing business, then let us conclude this conversation.\"",
+   "ctx": "data/campaign/rules.csv pk_turnInHegemonySel [text]"
+  },
+  {
+   "i": 44,
+   "en": "Admiral Rao's face tightens. \"I do not have the inclination to debate the history of the AI Wars, captain. Nor discuss certain mutinous former officers of the Hegemony and their crimes.\"",
+   "ctx": "data/campaign/rules.csv pk_turnInHegemonySelRao [text]"
+  },
+  {
+   "i": 45,
+   "en": "The Hegemony $post's eyes go wide, and $heOrShe says \"I... I see. We will need to send a technical team to confirm your claim. And bring the weapon in for safekeeping.\" \r\n\r\nSkepticism remains in $hisOrHer tone, but it seems more of a fading hope that you are lying than actual disbelief.",
+   "ctx": "data/campaign/rules.csv pk_turnInHegemonySel2 [text]"
+  },
+  {
+   "i": 46,
+   "en": "Rao raises an eyebrow, surprised; but not surprised, somehow. \"I see.\"\r\n\r\n\"I suppose I should say 'Well done',\" he says with a sigh. \"We shall need to send a technical team to confirm your claim - and bring the weapon in for safekeeping, of course.\" \r\n\r\nA note of skepticism remains in his tone, but you've certainly got his attention.",
+   "ctx": "data/campaign/rules.csv pk_turnInHegemonySel2Rao [text]"
+  },
+  {
+   "i": 47,
+   "en": "\"Your dedication and service are to be commended! I personally salute your dedication to the mission of the Hegemony to protect humanity and its habitable environs, as per the vision of the first High Hegemon Kali Molina who gave the Diktat of Hegemony on Eventide so many cycles ago.\"\r\n\r\nYou would swear that $personName is posing for the recording of the comms-feed.",
+   "ctx": "data/campaign/rules.csv pk_hegFreeSel [text]"
+  },
+  {
+   "i": 48,
+   "en": "Regardless, the wheels of the Hegemony bureaucracy turn smoothly, oiled perhaps by a desire not to repeat any 'incidents' similar to the destruction of Opis. A technical team verifies the planetkiller and efficiently removes it to Hegemony custody, and a reward for the recovery of weapons of mass destruction is provided.",
+   "ctx": "data/campaign/rules.csv pk_hegFreeSel2 [text]"
+  }
+ ]
+}

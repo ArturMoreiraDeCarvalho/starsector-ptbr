@@ -1,0 +1,651 @@
+{
+ "chunk": 45,
+ "cat": "data",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"This self-sustaining action produces massive energy differentials which are periodically discharged toward its, um, target. I'd never have said a storm could be evil, but now...\"\r\n\r\n- intercepted audio log, speaker unknown",
+   "ctx": "data/campaign/special_items.csv shrouded_thunderhead [desc]"
+  },
+  {
+   "i": 2,
+   "en": "\"We can't store energy forever in this theoretical, pretend-plasma. It'll have to go somewhere.\"\r\n\r\n\"-Invert the polarity of the flux converters and flicker the drive field. Boom, a gentle bump to local time-space. By which I mean the ship itself.\"\r\n\r\n\"If it works.\"",
+   "ctx": "data/campaign/special_items.csv shrouded_mantle [desc]"
+  },
+  {
+   "i": 3,
+   "en": "\"Spin it up during combat maneuvers, adjusting the frequency of the 'probes' adapted from drive-field stabilizers. It would create hyperspace fractures which would cause terrible damage to n-space structures. Starships, for instance.\"",
+   "ctx": "data/campaign/special_items.csv shrouded_lens [desc]"
+  },
+  {
+   "i": 4,
+   "en": "Open\r\nMarket",
+   "ctx": "data/campaign/submarkets.csv open_market [name]"
+  },
+  {
+   "i": 5,
+   "en": "Black\r\nMarket",
+   "ctx": "data/campaign/submarkets.csv black_market [name]"
+  },
+  {
+   "i": 6,
+   "en": "Resource\r\nStockpiles",
+   "ctx": "data/campaign/submarkets.csv local_resources [name]"
+  },
+  {
+   "i": 7,
+   "en": "The open market. Only legal goods may be traded here, and transactions are subject to tariffs. More goods are available when stability is high.\r\n\r\nSelling enough of a commodity will temporarily resolve a shortage.",
+   "ctx": "data/campaign/submarkets.csv open_market [desc]"
+  },
+  {
+   "i": 8,
+   "en": "The black market. Anything and everything can be bought or sold, and there are no tariffs. More goods are available when stability is low.\r\n\r\nSelling enough of a commodity will temporarily resolve a shortage.\r\n\r\nBlack market transactions may catch the eye of authorities, resulting in cargo scans and reduced faction standing, unless the trades are carried out with the transponder turned off.\r\n\r\nEngaging in legitimate trade as a \"cover\" also reduces the probability of attracting the attention of authorities.",
+   "ctx": "data/campaign/submarkets.csv black_market [desc]"
+  },
+  {
+   "i": 9,
+   "en": "Storage space for ships and cargo.",
+   "ctx": "data/campaign/submarkets.csv storage [desc]"
+  },
+  {
+   "i": 10,
+   "en": "Trade with $theFaction military base.\r\n\r\nWeapons and other military hardware can be bought and sold here even if they're illegal on the open market. A commission and better standing with $theFaction results in higher-grade hardware being available.\r\n\r\nWill buy locally illegal goods as part of a no-questions-asked buyback program.\r\n\r\nSelling enough of a commodity will temporarily resolve a shortage.",
+   "ctx": "data/campaign/submarkets.csv generic_military [desc]"
+  },
+  {
+   "i": 11,
+   "en": "Leadership",
+   "ctx": "data/characters/skills/aptitude_data.csv leadership [name]"
+  },
+  {
+   "i": 12,
+   "en": "Technology",
+   "ctx": "data/characters/skills/aptitude_data.csv technology [name]"
+  },
+  {
+   "i": 13,
+   "en": "Skills that improve the combat performance of your flagship.",
+   "ctx": "data/characters/skills/aptitude_data.csv combat [description]"
+  },
+  {
+   "i": 14,
+   "en": "Skills that improve the combat performance of your fleet and officers.",
+   "ctx": "data/characters/skills/aptitude_data.csv leadership [description]"
+  },
+  {
+   "i": 15,
+   "en": "A mix of skills that benefit exploration, stealth, and certain aspects your fleet and officers' combat performance.",
+   "ctx": "data/characters/skills/aptitude_data.csv technology [description]"
+  },
+  {
+   "i": 16,
+   "en": "Skills that improve the efficiency and resilience of your fleet, and make it easier to recover from losses.",
+   "ctx": "data/characters/skills/aptitude_data.csv industry [description]"
+  },
+  {
+   "i": 17,
+   "en": "Helmsmanship",
+   "ctx": "data/characters/skills/skill_data.csv helmsmanship [name]"
+  },
+  {
+   "i": 18,
+   "en": "Combat Endurance",
+   "ctx": "data/characters/skills/skill_data.csv combat_endurance [name]"
+  },
+  {
+   "i": 19,
+   "en": "Impact Mitigation",
+   "ctx": "data/characters/skills/skill_data.csv impact_mitigation [name]"
+  },
+  {
+   "i": 20,
+   "en": "Damage Control",
+   "ctx": "data/characters/skills/skill_data.csv damage_control [name]"
+  },
+  {
+   "i": 21,
+   "en": "Field Modulation",
+   "ctx": "data/characters/skills/skill_data.csv field_modulation [name]"
+  },
+  {
+   "i": 22,
+   "en": "Point Defense",
+   "ctx": "data/characters/skills/skill_data.csv point_defense [name]"
+  },
+  {
+   "i": 23,
+   "en": "Target Analysis",
+   "ctx": "data/characters/skills/skill_data.csv target_analysis [name]"
+  },
+  {
+   "i": 24,
+   "en": "Ballistic Mastery",
+   "ctx": "data/characters/skills/skill_data.csv ballistic_mastery [name]"
+  },
+  {
+   "i": 25,
+   "en": "Systems Expertise",
+   "ctx": "data/characters/skills/skill_data.csv systems_expertise [name]"
+  },
+  {
+   "i": 26,
+   "en": "Missile Specialization",
+   "ctx": "data/characters/skills/skill_data.csv missile_specialization [name]"
+  },
+  {
+   "i": 27,
+   "en": "Tactical Drills",
+   "ctx": "data/characters/skills/skill_data.csv tactical_drills [name]"
+  },
+  {
+   "i": 28,
+   "en": "Coordinated Maneuvers",
+   "ctx": "data/characters/skills/skill_data.csv coordinated_maneuvers [name]"
+  },
+  {
+   "i": 29,
+   "en": "Wolfpack Tactics",
+   "ctx": "data/characters/skills/skill_data.csv wolfpack_tactics [name]"
+  },
+  {
+   "i": 30,
+   "en": "Crew Training",
+   "ctx": "data/characters/skills/skill_data.csv crew_training [name]"
+  },
+  {
+   "i": 31,
+   "en": "Fighter Uplink",
+   "ctx": "data/characters/skills/skill_data.csv fighter_uplink [name]"
+  },
+  {
+   "i": 32,
+   "en": "Carrier Group",
+   "ctx": "data/characters/skills/skill_data.csv carrier_group [name]"
+  },
+  {
+   "i": 33,
+   "en": "Officer Training",
+   "ctx": "data/characters/skills/skill_data.csv officer_training [name]"
+  },
+  {
+   "i": 34,
+   "en": "Officer Management",
+   "ctx": "data/characters/skills/skill_data.csv officer_management [name]"
+  },
+  {
+   "i": 35,
+   "en": "Best of the Best",
+   "ctx": "data/characters/skills/skill_data.csv best_of_the_best [name]"
+  },
+  {
+   "i": 36,
+   "en": "Support Doctrine",
+   "ctx": "data/characters/skills/skill_data.csv support_doctrine [name]"
+  },
+  {
+   "i": 37,
+   "en": "Force Concentration",
+   "ctx": "data/characters/skills/skill_data.csv force_concentration [name]"
+  },
+  {
+   "i": 38,
+   "en": "Sensors",
+   "ctx": "data/characters/skills/skill_data.csv sensors [name]"
+  },
+  {
+   "i": 39,
+   "en": "Gunnery Implants",
+   "ctx": "data/characters/skills/skill_data.csv gunnery_implants [name]"
+  },
+  {
+   "i": 40,
+   "en": "Energy Weapon Mastery",
+   "ctx": "data/characters/skills/skill_data.csv energy_weapon_mastery [name]"
+  },
+  {
+   "i": 41,
+   "en": "Electronic Warfare",
+   "ctx": "data/characters/skills/skill_data.csv electronic_warfare [name]"
+  },
+  {
+   "i": 42,
+   "en": "Flux Regulation",
+   "ctx": "data/characters/skills/skill_data.csv flux_regulation [name]"
+  },
+  {
+   "i": 43,
+   "en": "Cybernetic Augmentation",
+   "ctx": "data/characters/skills/skill_data.csv cybernetic_augmentation [name]"
+  },
+  {
+   "i": 44,
+   "en": "Phase Coil Tuning",
+   "ctx": "data/characters/skills/skill_data.csv phase_corps [name]"
+  },
+  {
+   "i": 45,
+   "en": "Special Modifications",
+   "ctx": "data/characters/skills/skill_data.csv special_modifications [name]"
+  },
+  {
+   "i": 46,
+   "en": "Neural Link",
+   "ctx": "data/characters/skills/skill_data.csv neural_link [name]"
+  },
+  {
+   "i": 47,
+   "en": "Automated Ships",
+   "ctx": "data/characters/skills/skill_data.csv automated_ships [name]"
+  },
+  {
+   "i": 48,
+   "en": "Bulk Transport",
+   "ctx": "data/characters/skills/skill_data.csv bulk_transport [name]"
+  },
+  {
+   "i": 49,
+   "en": "Salvaging",
+   "ctx": "data/characters/skills/skill_data.csv salvaging [name]"
+  },
+  {
+   "i": 50,
+   "en": "Field Repairs",
+   "ctx": "data/characters/skills/skill_data.csv field_repairs [name]"
+  },
+  {
+   "i": 51,
+   "en": "Ordnance Expertise",
+   "ctx": "data/characters/skills/skill_data.csv ordnance_expert [name]"
+  },
+  {
+   "i": 52,
+   "en": "Polarized Armor",
+   "ctx": "data/characters/skills/skill_data.csv polarized_armor [name]"
+  },
+  {
+   "i": 53,
+   "en": "Containment Procedures",
+   "ctx": "data/characters/skills/skill_data.csv containment_procedures [name]"
+  },
+  {
+   "i": 54,
+   "en": "Makeshift Equipment",
+   "ctx": "data/characters/skills/skill_data.csv makeshift_equipment [name]"
+  },
+  {
+   "i": 55,
+   "en": "Industrial Planning",
+   "ctx": "data/characters/skills/skill_data.csv industrial_planning [name]"
+  },
+  {
+   "i": 56,
+   "en": "Derelict Operations",
+   "ctx": "data/characters/skills/skill_data.csv derelict_contingent [name]"
+  },
+  {
+   "i": 57,
+   "en": "Hull Restoration",
+   "ctx": "data/characters/skills/skill_data.csv hull_restoration [name]"
+  },
+  {
+   "i": 58,
+   "en": "Omega EW",
+   "ctx": "data/characters/skills/skill_data.csv omega_ecm [name]"
+  },
+  {
+   "i": 59,
+   "en": "Space Operations",
+   "ctx": "data/characters/skills/skill_data.csv space_operations [name]"
+  },
+  {
+   "i": 60,
+   "en": "Ground Operations",
+   "ctx": "data/characters/skills/skill_data.csv planetary_operations [name]"
+  },
+  {
+   "i": 61,
+   "en": "Colony Management",
+   "ctx": "data/characters/skills/skill_data.csv colony_management [name]"
+  },
+  {
+   "i": 62,
+   "en": "Strike Commander",
+   "ctx": "data/characters/skills/skill_data.csv strike_commander [name]"
+  },
+  {
+   "i": 63,
+   "en": "Ranged Specialization",
+   "ctx": "data/characters/skills/skill_data.csv ranged_specialization [name]"
+  },
+  {
+   "i": 64,
+   "en": "Shield Modulation",
+   "ctx": "data/characters/skills/skill_data.csv shield_modulation [name]"
+  },
+  {
+   "i": 65,
+   "en": "Phase Mastery",
+   "ctx": "data/characters/skills/skill_data.csv phase_mastery [name]"
+  },
+  {
+   "i": 66,
+   "en": "Reliability Engineering",
+   "ctx": "data/characters/skills/skill_data.csv reliability_engineering [name]"
+  },
+  {
+   "i": 67,
+   "en": "Weapon Drills",
+   "ctx": "data/characters/skills/skill_data.csv weapon_drills [name]"
+  },
+  {
+   "i": 68,
+   "en": "Auxiliary Support",
+   "ctx": "data/characters/skills/skill_data.csv auxiliary_support [name]"
+  },
+  {
+   "i": 69,
+   "en": "It sings when you push the mix just right, like, [humming]. Everything is right in the world, from the stars down to your bones. Coming off a shift, it’s like I just woke up. [laughing] Words can't tell it.",
+   "ctx": "data/characters/skills/skill_data.csv helmsmanship [description]"
+  },
+  {
+   "i": 70,
+   "en": "Through calamity, the Fourteenth endured. \r\nThrough hegemony, the Domain endures. \r\nThrough duty, humanity shall endure.",
+   "ctx": "data/characters/skills/skill_data.csv combat_endurance [description]"
+  },
+  {
+   "i": 71,
+   "en": "The maneuver produced an oblique impact angle, dissipating the shell's momentum into the ferrofoam applique. It was the unfortunate timing of the resulting shock which brought about Spacer York's tragic end during an otherwise routine heavy equipment transfer.",
+   "ctx": "data/characters/skills/skill_data.csv impact_mitigation [description]"
+  },
+  {
+   "i": 72,
+   "en": "What's lost is lost. Let those compartments burn away, focus your efforts on what will see us through the next hour.",
+   "ctx": "data/characters/skills/skill_data.csv damage_control [description]"
+  },
+  {
+   "i": 73,
+   "en": "Few have a talent for what I like to think of as 'active tuning'. I find musicians make the best fields officers.",
+   "ctx": "data/characters/skills/skill_data.csv field_modulation [description]"
+  },
+  {
+   "i": 74,
+   "en": "Me, I don't take with them lasers and the like. Puts on a hell of a lightshow, ya'sure, but nothing stops incoming blips like the wall of DU from a good Vulcan matrix.",
+   "ctx": "data/characters/skills/skill_data.csv point_defense [description]"
+  },
+  {
+   "i": 75,
+   "en": "A machine-assisted human mind is capable of intuiting effective solutions despite conflicting sensor data and contradictory tactical directives. The targeting computer alone can never truly replace a warrior.",
+   "ctx": "data/characters/skills/skill_data.csv target_analysis [description]"
+  },
+  {
+   "i": 76,
+   "en": "What's it stopped the Tri-Tach plot? (Guns!)\r\nWhat was it that ol' Ludd forgot? (Guns!)\r\nWha’ve we got that they have not? (Big, big, guns!)",
+   "ctx": "data/characters/skills/skill_data.csv ballistic_mastery [description]"
+  },
+  {
+   "i": 77,
+   "en": "No, I don't think it's a contradiction. It's a, uh, spiritual journey. You're tested. And it's like they say, the Devil is in the details.",
+   "ctx": "data/characters/skills/skill_data.csv systems_expertise [description]"
+  },
+  {
+   "i": 78,
+   "en": "My colleagues don’t appreciate their whimsy. You get all these little spaceships to break all the rules with because there's no need to survive the landing.",
+   "ctx": "data/characters/skills/skill_data.csv missile_specialization [description]"
+  },
+  {
+   "i": 79,
+   "en": "Perfect.\r\nNow do it again.",
+   "ctx": "data/characters/skills/skill_data.csv tactical_drills [description]"
+  },
+  {
+   "i": 80,
+   "en": "Sir- incoming hostiles burning hard. Big ones. Count two. No, three. More... there's too many! High energy read. Contact in six.",
+   "ctx": "data/characters/skills/skill_data.csv coordinated_maneuvers [description]"
+  },
+  {
+   "i": 81,
+   "en": "A fleet that acts with one mind makes those pretty formations so beloved by senior desk officers a wallowing beast begging to have its throat slit. Cut loose the hounds that we may be wolves again.",
+   "ctx": "data/characters/skills/skill_data.csv wolfpack_tactics [description]"
+  },
+  {
+   "i": 82,
+   "en": "I know your type. Signed the contract with dirt on your boots, all ready to play spacer. Watched too many Hegemony warprop holos, didn't you. Get this now: courage is not competence. Playing hero will get us all killed. Careful, mindful work is what gets the job done.",
+   "ctx": "data/characters/skills/skill_data.csv crew_training [description]"
+  },
+  {
+   "i": 83,
+   "en": "The fighter jocks spin legends around themselves, but they're just the tip of a spear which I alone command.",
+   "ctx": "data/characters/skills/skill_data.csv fighter_uplink [description]"
+  },
+  {
+   "i": 84,
+   "en": "The stats tell us they'll be evaporated in a wall of flak before a half dozen missions, but we still want to be 'em. Once they're in the cockpit they're the only ones of all us who have control over their own destiny.",
+   "ctx": "data/characters/skills/skill_data.csv carrier_group [description]"
+  },
+  {
+   "i": 85,
+   "en": "They may be a 'rag-tag gang of merchants, smugglers, and pirates', but if you give them something to fight for, I think they might surprise you.",
+   "ctx": "data/characters/skills/skill_data.csv officer_training [description]"
+  },
+  {
+   "i": 86,
+   "en": "The outlook was grim, so I promised the merc captains double combat bonus. With all the casualties I only had to pay out to half of them. Worked out fine.",
+   "ctx": "data/characters/skills/skill_data.csv officer_management [description]"
+  },
+  {
+   "i": 87,
+   "en": "What we have, Artemisia, is something that cannot be bought.",
+   "ctx": "data/characters/skills/skill_data.csv best_of_the_best [description]"
+  },
+  {
+   "i": 88,
+   "en": "Not every cadet has talent, skill, or even two brain cells to rub together, but by hell and radiation they'll graduate with discipline.",
+   "ctx": "data/characters/skills/skill_data.csv support_doctrine [description]"
+  },
+  {
+   "i": 89,
+   "en": "When I provide victory at the time and place of my choosing history shall absolve me of the sacrifice of a planet or two.",
+   "ctx": "data/characters/skills/skill_data.csv force_concentration [description]"
+  },
+  {
+   "i": 90,
+   "en": "Spend enough time out here and it becomes second nature. It's how I move when I dream. Not all of us get that. Lots do.",
+   "ctx": "data/characters/skills/skill_data.csv navigation [description]"
+  },
+  {
+   "i": 91,
+   "en": "I see you, little fish!",
+   "ctx": "data/characters/skills/skill_data.csv sensors [description]"
+  },
+  {
+   "i": 92,
+   "en": "Over time the augmented reality presented by implants may become difficult to distinguish from normal sensory input. The psych officer shall regularly check gunners for signs of Augment Dissociative Disorder by the following criteria...",
+   "ctx": "data/characters/skills/skill_data.csv gunnery_implants [description]"
+  },
+  {
+   "i": 93,
+   "en": "The eye of an angel was found in the small places, hidden there by merciful God in the first moments of creation. Thus its secrets were laid bare for the ignorant and cruel to loose terrible, fiery wrath. We lament.",
+   "ctx": "data/characters/skills/skill_data.csv energy_weapon_mastery [description]"
+  },
+  {
+   "i": 94,
+   "en": "err. 401 // connection refused [try again?]\r\nerr. 401 // connection refused [try again?]\r\nerr. 401 // connection refused [try again?]",
+   "ctx": "data/characters/skills/skill_data.csv electronic_warfare [description]"
+  },
+  {
+   "i": 95,
+   "en": "WARNING: By changing these settings user waives responsibility of Tri-Tachyon Corporation for any resulting equipment damage, injury, death, or otherwise anomalous spacetime effect or effects. Do you wish to continue?",
+   "ctx": "data/characters/skills/skill_data.csv flux_regulation [description]"
+  },
+  {
+   "i": 96,
+   "en": "Don't listen to those weepy crypto-Luddics on the ethics board; the rejection rate is nowhere near what the rumors imply.",
+   "ctx": "data/characters/skills/skill_data.csv cybernetic_augmentation [description]"
+  },
+  {
+   "i": 97,
+   "en": "Tri-Tachyon pries open holy creation daily, and at each desecration our wholesale damnation looms. Our path is burden; our path is suffering. We shall face them with faith that the only redemption is final judgment.",
+   "ctx": "data/characters/skills/skill_data.csv phase_corps [description]"
+  },
+  {
+   "i": 98,
+   "en": "The Domainers, oh, they designed to last, it's true. But all that soft living, you can tell they were scared to really push these things to their limits.",
+   "ctx": "data/characters/skills/skill_data.csv special_modifications [description]"
+  },
+  {
+   "i": 99,
+   "en": "Why should a captain go down with their ship? The Tri-Tachyon corporation does not waste top talent.",
+   "ctx": "data/characters/skills/skill_data.csv neural_link [description]"
+  },
+  {
+   "i": 100,
+   "en": "[REDACTED]",
+   "ctx": "data/characters/skills/skill_data.csv automated_ships [description]"
+  },
+  {
+   "i": 101,
+   "en": "You can no more escape the economy than you can escape gravity. It surrounds us, contains us, uplifts us. It bound the galaxy together once, and will again.",
+   "ctx": "data/characters/skills/skill_data.csv bulk_transport [description]"
+  },
+  {
+   "i": 102,
+   "en": "It makes me feel very small, like we're vermin plundering the cities of fallen angels.\r\nIt also makes me rich.",
+   "ctx": "data/characters/skills/skill_data.csv salvaging [description]"
+  },
+  {
+   "i": 103,
+   "en": "There's no one within twenty lights that hasn't got crossbones etched on their hull. We have only our skill and whatever we find in that debris field to get us out of here.",
+   "ctx": "data/characters/skills/skill_data.csv field_repairs [description]"
+  },
+  {
+   "i": 104,
+   "en": "The weak fear the spiritual potency of the killing machine. The strong instinctually recognize its beauty.",
+   "ctx": "data/characters/skills/skill_data.csv ordnance_expert [description]"
+  },
+  {
+   "i": 105,
+   "en": "The pre-Collapse manuals say never to do this. ... No, I don't know. Haven't had any problems so far.",
+   "ctx": "data/characters/skills/skill_data.csv polarized_armor [description]"
+  },
+  {
+   "i": 106,
+   "en": "Check each seal three times true so that Death does not come for you.",
+   "ctx": "data/characters/skills/skill_data.csv containment_procedures [description]"
+  },
+  {
+   "i": 107,
+   "en": "I guess we left the spares in orbit. It'll be fine ... [static] ... just watch.",
+   "ctx": "data/characters/skills/skill_data.csv makeshift_equipment [description]"
+  },
+  {
+   "i": 108,
+   "en": "A barren but promising world well-situated to become the center of culture and industry of Magec. SIE models project vast investment in resource exploitation from Guayota’s Disk.",
+   "ctx": "data/characters/skills/skill_data.csv industrial_planning [description]"
+  },
+  {
+   "i": 109,
+   "en": "They think we're trash, the execs and admirals in their shiny starships. They threw us away the second it went bad. But it's us the Sector got built on and it's us that'll cut 'em down.",
+   "ctx": "data/characters/skills/skill_data.csv derelict_contingent [description]"
+  },
+  {
+   "i": 110,
+   "en": "There's no hull a true spacer can't make home.",
+   "ctx": "data/characters/skills/skill_data.csv hull_restoration [description]"
+  },
+  {
+   "i": 111,
+   "en": "A limitless machine given every datum, every human thought to combine and recombine into variants beyond count. Ask, and an appropriate answer is produced.\r\nYet I find myself not satisfied that being fooled proves such a grandiose proposition.",
+   "ctx": "data/characters/skills/skill_data.csv hypercognition [description]"
+  },
+  {
+   "i": 112,
+   "en": "The same stars are seen in the sky of every world.",
+   "ctx": "data/characters/skills/skill_data.csv space_operations [description]"
+  },
+  {
+   "i": 113,
+   "en": "The mud? I don't mind it. Spacers always carry on about mud.\r\nIt's the blood I can't stand.",
+   "ctx": "data/characters/skills/skill_data.csv planetary_operations [description]"
+  },
+  {
+   "i": 114,
+   "en": "Where there is life, that is the throne of God, and all that is good can be found there.",
+   "ctx": "data/characters/skills/skill_data.csv colony_management [description]"
+  },
+  {
+   "i": 115,
+   "en": "You will fly and it will be a storm like they've never known. You are a thunderbolt come to split the sky itself!",
+   "ctx": "data/characters/skills/skill_data.csv strike_commander [description]"
+  },
+  {
+   "i": 116,
+   "en": "See this firing solution? It'll make the defensive algorithms overreact at just the wrong time. The catch is, they've got to see it coming.",
+   "ctx": "data/characters/skills/skill_data.csv ranged_specialization [description]"
+  },
+  {
+   "i": 117,
+   "en": "Few have a talent for what I like to think of as 'active tuning'. I find musicians make the best shield officers.",
+   "ctx": "data/characters/skills/skill_data.csv shield_modulation [description]"
+  },
+  {
+   "i": 118,
+   "en": "I'm not getting back on that ship, not never.",
+   "ctx": "data/characters/skills/skill_data.csv phase_mastery [description]"
+  },
+  {
+   "i": 119,
+   "en": "In the end, by time and rads, my body will die. My comrades will return me to the stars that made me, and my ship will go on.",
+   "ctx": "data/characters/skills/skill_data.csv reliability_engineering [description]"
+  },
+  {
+   "i": 120,
+   "en": "What's it stopped the Tri-Tach plot? (Guns!)\r\nWhat was it ol' Ludd forgot? (Guns!)\r\nWhat’ve we got that they have not? (Big, big, guns!)",
+   "ctx": "data/characters/skills/skill_data.csv weapon_drills [description]"
+  },
+  {
+   "i": 121,
+   "en": "No reserves? Look around you! There are a thousand space-capable ships in the civilian docks and a billion citizens in the arcologies. We need only open the stockpiles and give them weapons before the invasion arrives.",
+   "ctx": "data/characters/skills/skill_data.csv auxiliary_support [description]"
+  },
+  {
+   "i": 122,
+   "en": "Nachiketa Portside Interview Project, Ep.3",
+   "ctx": "data/characters/skills/skill_data.csv helmsmanship [author]"
+  },
+  {
+   "i": 123,
+   "en": "Admiral Kali Molina, the Declaration of Hegemony, c49",
+   "ctx": "data/characters/skills/skill_data.csv combat_endurance [author]"
+  },
+  {
+   "i": 124,
+   "en": "Thule skirmish of c120.03.08, AAR submitted by Navarch Zhou",
+   "ctx": "data/characters/skills/skill_data.csv impact_mitigation [author]"
+  },
+  {
+   "i": 125,
+   "en": "Navarch Tethys, final address to the crew of the PLS Astelene Key",
+   "ctx": "data/characters/skills/skill_data.csv damage_control [author]"
+  },
+  {
+   "i": 126,
+   "en": "Ardis Soloman, leaked data submitted to COMSEC redaction algorithm",
+   "ctx": "data/characters/skills/skill_data.csv field_modulation [author]"
+  },
+  {
+   "i": 127,
+   "en": "\"Lower Deck Heroes\", a HEGCOM serial",
+   "ctx": "data/characters/skills/skill_data.csv point_defense [author]"
+  },
+  {
+   "i": 128,
+   "en": "\"On Space Combat, XXII ed.\", from Domain Battlegroup XIV library ",
+   "ctx": "data/characters/skills/skill_data.csv target_analysis [author]"
+  },
+  {
+   "i": 129,
+   "en": "drinking song of the Hegemony navy",
+   "ctx": "data/characters/skills/skill_data.csv ballistic_mastery [author]"
+  }
+ ]
+}

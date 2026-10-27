@@ -1,0 +1,136 @@
+{
+ "chunk": 214,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "A very well-dressed $manOrWoman is regaling the subdued bartender with complaints about a missed transport of some kind.",
+   "ctx": "data/campaign/rules.csv AVIPTblurbBar [text]"
+  },
+  {
+   "i": 2,
+   "en": "You manage to insert yourself into the $manOrWoman's field of attention with a friendly greeting. The bartender gives you a thankful nod behind $hisOrHer back.\r\n\r\n\"These people, these space-pilots, are so addled by rocket fuel and zero-g that they simply cannot comprehend respectful! Customer! Service!\"\r\n\r\nEach of these three words is accompanied by an open handed slap on the bar. You watch as a small splash leaps over the rim of an otherwise untouched drink at each impact.",
+   "ctx": "data/campaign/rules.csv AVIPTtextBar1 [text]"
+  },
+  {
+   "i": 3,
+   "en": "You put on a look of stern and stoic authority, that look your bridge officers whisper about as your 'captain face' when they think you can't hear them.\r\n\r\nThis seems to do the trick.\r\n\r\nThis individual - wealthy, important, and well-connected, by their own description - paid $avipt_reward credits upfront for priority transport within $avipt_timelimit days to $avipt_marketName, but the ship left port early last night without a word for reasons you cannot fathom. This is 'a shocking disgrace' which 'besmirches the already dubious name of all space-captainry'.\r\n\r\nYou nod, your expression suitably grim at hearing of such terrible treatment.",
+   "ctx": "data/campaign/rules.csv AVIPTtextBar2 [text]"
+  },
+  {
+   "i": 4,
+   "en": "Your offer manages to stop the $manOrWoman from talking at you for several seconds as $heOrShe considers your demeanor and your offer. \r\n\r\n\"I accept,\" $heOrShe says with the enunciation of royalty, \"Though I shall only be paying after we arrive at $avipt_marketName. And I shall require some of your crew to handle my luggage. I need not remind you that these are my valuable personal goods, not crates of... of common space-bolts to be tossed about by half-drunken dockworkers.\"\r\n\r\nAs you confirm final details over a free round from the bartender, you consider which of your junior officers to assign to babysitting duty...",
+   "ctx": "data/campaign/rules.csv AVIPTtextBarAccept [text]"
+  },
+  {
+   "i": 5,
+   "en": "You stand as if at attention, give the alleged VIP a formal farewell, and march to the other end of the bar without a backward glance. \r\n\r\n$HeOrShe is too confused by your formality to express outrage until it is too late and you are well out of range.\r\n\r\nFrom the corner of your eye, you can see the well-dressed $manOrWoman slowly start working $himOrHerself into another, slightly different rage.",
+   "ctx": "data/campaign/rules.csv AVIPTtextBarDecline [text]"
+  },
+  {
+   "i": 6,
+   "en": "The VIP stares at you, appalled at your manners. Behind, the bartender is doing an admirable job suppressing a grin. \r\n\r\nThe well-dressed $manOrWoman, confronted directly, seems to be at a complete loss. $HisOrHer mouth opens, then closes, opens again - and then $heOrShe storms out of the bar. \r\n\r\nThere's a pause as your ears adjust to the relatively muted din of the establishment before cheers and hurrahs erupt from the other patrons.",
+   "ctx": "data/campaign/rules.csv AVIPTtextBarDeclineRude [text]"
+  },
+  {
+   "i": 7,
+   "en": "You're unable to safely deliver your very important passenger right now.",
+   "ctx": "data/campaign/rules.csv AVIPTcompletedButNoDocking [text]"
+  },
+  {
+   "i": 8,
+   "en": "You meet the VIP on the way out the airlock to a waiting private shuttle. It seems the politick thing to do, especially because the promised payment just cleared.\r\n\r\n\"The commander here,\" $heOrShe indicates the officer you assigned to the VIP (an officer-trainee, in fact, who drew the short straw and was given a fancy uniform), \"Performed acceptably, such that I might endorse a commendation.\"\r\n\r\nWith that, $heOrShe says merely, \"Captain,\" then turns on $hisOrHer heel and exits the ship, the small fleet of $hisOrHer luggage wheeling itself behind obediently. The airlock seals mercifully shut.",
+   "ctx": "data/campaign/rules.csv AVIPTcheckCompletionCont [text]"
+  },
+  {
+   "i": 9,
+   "en": "A table of tattooed marine mercenaries bearing mil-grade cybermods are drinking alarming amounts of liquor.",
+   "ctx": "data/campaign/rules.csv MOTRblurbBar [text]"
+  },
+  {
+   "i": 10,
+   "en": "You prove yourself worthy of association by partaking in a round of 'Atmo Drops', a drink centered around consuming eye-watering liquor as quickly as possible.\r\n\r\nThe mercs are drunk, for sure, but composed enough to speak around the details of why they're being investigated by local authorities.\r\n\r\nAfter a couple of the mercs head up to order a round of 'Orbital Bombardments' their leader pulls you aside and sketches out a proposal. \"We've got $motr_numberOfMarines suits, experienced operators. We can fight in vac or atmo, one to five gee.\" He smirks at the look you give, \"Okay, three. Four if it's quick and there's a bonus.\" A scarred hand dismisses this, \"Details!\"\r\n\r\n\"What matters is I'll offer our contract for $motr_priceText credits. Practically charity, isn't it? Put us to work, or sell it off elsewhere, doesn't matter to me if you can get us outta this fix. What'dya say?\"",
+   "ctx": "data/campaign/rules.csv MOTRstart [text]"
+  },
+  {
+   "i": 11,
+   "en": "Some clever device provided by the mercs convinces the port authority automated scanners that two particular cargo containers are half-filled with mildly radioactive silicate gravel and nothing else.\r\n\r\nYour logistics officer sneaks them aboard your $shipOrFleet without inconvenience.",
+   "ctx": "data/campaign/rules.csv MOTRaccept [text]"
+  },
+  {
+   "i": 12,
+   "en": "With a word, any objections from the port authority disappear and your logistics officer arranges to have the mercs, looking worse from the night of drinking, board your $shipOrFleet the next morning.",
+   "ctx": "data/campaign/rules.csv MOTRplayerColonyAccept [text]"
+  },
+  {
+   "i": 13,
+   "en": "You prove yourself worthy of association by partaking in a round of 'Atmo Drops', a drink centered around consuming eye-watering liquor as quickly as possible.\r\n\r\nThe mercs are drunk, for sure, but maintain their composure enough to speak around the details of why they're being investigated by local authorities - your local authorities.\r\n\r\nAfter a couple of the mercs head up to order a round of 'Orbital Bombardments' their leader pulls you aside and sketches out a proposal. \"We've got $motr_numberOfMarines suits, experienced operators. Be a shame if we couldn't see action, instead got locked up.\"\r\n\r\n\"I'll offer our contract for $motr_priceText credits. Practically charity, isn't it? Put us to work, or sell it off elsewhere, doesn't matter to me. After all,\" $heOrShe winks, \"You're the boss around here, yeah? You can get us out of this fix.\"",
+   "ctx": "data/campaign/rules.csv MOTRstartPlayerColony [text]"
+  },
+  {
+   "i": 14,
+   "en": "$HeOrShe gives a wary smile.\r\n\r\n\"I can't do that, boss. I look after my squad, one and all, and they look after me. S'how it works.\"\r\n\r\n$HisOrHer hand picks up an empty glass, as if to drink, pauses, then sets it back down.\r\n\r\n\"If you feel like you have to call MuniSec, then call MuniSec. Won't hold it against you.\"",
+   "ctx": "data/campaign/rules.csv MOTRplayerColonyAskWhy [text]"
+  },
+  {
+   "i": 15,
+   "en": "You give the order through your personal comms unit. A security squad will be there soon. \r\n\r\nThe merc leader sighs, looking remarkably accepting of $hisOrHer fate.\r\n\r\n\"Let us have this one last round?\"",
+   "ctx": "data/campaign/rules.csv MOTRplayerColonyNarc [text]"
+  },
+  {
+   "i": 16,
+   "en": "The band of rogue marines perform their last 'orbital drop' and are still cheering as security officers file into the bar.\r\n\r\nThere are alarmed looks, and hands reach toward hidden weapons, but they are stayed with a small motion from the merc leader.\r\n\r\n\"End of the line, my hardies. Go easy. We had a good run, and maybe we'll get out there once more.\"",
+   "ctx": "data/campaign/rules.csv MOTRplayerColonyNarcAllow [text]"
+  },
+  {
+   "i": 17,
+   "en": "Security officers file into the bar. There are alarmed looks exchanged between the mercs, and scarred hands reach toward hidden weapons. \r\n\r\nThey are stayed with a small motion from the merc leader, who gives you one last sad look.\r\n\r\n\"End of the line, my hardies. Go easy; we had a good run.\"",
+   "ctx": "data/campaign/rules.csv MOTRplayerColonyNarcNo [text]"
+  },
+  {
+   "i": 18,
+   "en": "You wake up the next day in the break room of the local security post, the lights dimmed for your benefit. You have no particular memory of how you got there. How many more rounds was it with the mercs, one? Three?\r\n\r\nA senior munisec officer stands at stiff attention as you stumble out the door mumbling into your comms to arrange pickup.",
+   "ctx": "data/campaign/rules.csv MOTRplayerColonyDrink [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"I need a datacore swapped with one from some ruins on a planet out on the Fringe, an easy job.\"",
+   "ctx": "data/campaign/rules.csv rdsmBlurb [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"Our partnership has been productive,\" $heOrShe says, \"I trust you can handle the simple requirements of this task.\" \r\n\r\n$HeOrShe taps at a datapad, summoning a starmap. \"There is an abandoned $rdsm_target on $rdsm_planetName in the $rdsm_systemName, $rdsm_dist light-years away. It was once property of the $rdsm_megacorpName megacorporation, not that it's mattered for 200 cycles.\"\r\n\r\n\"I will provide you with a datacore and a precise diagram of the $rdsm_target. Exchange my datacore for the one you will find per my specifications. Make it look natural, like it's been untouched since the Collapse.\" \r\n\r\n\"If there's anything else around to plunder in the colony, have at it. My only concern is that the datacore is in place and the one you find is returned here to me. You'll be paid $rdsm_reward credits when you return to me with the datacore.\"",
+   "ctx": "data/campaign/rules.csv rdsmOfferTextContact [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"Our partnership has been productive,\" $heOrShe says, \"I trust you can handle the simply requirements of this task.\" \r\n\r\n$HeOrShe taps at a datapad, summoning a starmap. \"There is an abandoned $rdsm_target on $rdsm_planetName in $rdsm_systemName, $rdsm_dist light-years away. It was once property of the $rdsm_megacorpName megacorporation, not that it's mattered for 200 cycles.\"\r\n\r\n\"I will provide you with a datacore and a precise diagram of the $rdsm_target. Exchange my datacore for the one you will find per my specifications. Make it look natural, like it's been untouched since the Collapse.\" \r\n\r\n\"If there's anything else around to plunder in the colony, have at it. My only concern is that the my datacore is in place and the one you find is returned here to me. And one more thing...\"",
+   "ctx": "data/campaign/rules.csv rdsmOfferTextContactDeciv [text]"
+  },
+  {
+   "i": 22,
+   "en": "$HeOrShe smiles carnivorously, \"Yes, of course. You'll be paid $rdsm_reward credits when you return and deliver the datacore.\"\r\n\r\n\"You should be aware, however, that there have been reports of decivs on $rdsm_marketName. They may be... hostile. I recommend bringing at least $rdsm_marinesReq to ensure the safety of your operation.\"",
+   "ctx": "data/campaign/rules.csv rdsmOfferTextContactDeciv2b [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"You should be aware, however, that there have been reports of decivs on $rdsm_marketName. They may be... hostile.\" $HeOrShe smiles rather carnivorously, then says \"I recommend bringing at least $rdsm_marinesReq to ensure the safety of your operation.\"\r\n\r\n\"You'll be paid $rdsm_reward credits when you return to me with the datacore.\"",
+   "ctx": "data/campaign/rules.csv rdsmOfferTextContactDeciv2 [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"I should think you'd know better than to ask,\" $heOrShe produces a thin smile. \"Perhaps you fear some risk to your $shipOrFleet and reputation? I didn't take you for a coward, but I'll indulge you this once.\"\r\n\r\n\"I have intel which suggests that the datacore contains specifications for an obscure industrial process which is marginally more effective than common methods. Without specialized knowledge, its value is difficult to recognize. Equally difficult is finding a buyer who is in a position to make good use of this alternative process. The stars have aligned for me, however, and I am willing to share a portion of my anticipated profits for your service.\"\r\n\r\n\"Satisfied?\"",
+   "ctx": "data/campaign/rules.csv rdsmOfferAsk1 [text]"
+  },
+  {
+   "i": 25,
+   "en": "$HeOrShe rolls $hisOrHer eyes. \"So that the process contained therein appears to be a new invention,\" $heOrShe says slowly, as if to a simple child.\r\n\r\n\"The swapped core will soon be discovered by a scavenger who will find that it contains the common-knowledge process rather than the unique one actually developed by $rdsm_megacorpName. This will create substantial evidence to 'prove' that the process is a unique discovery, which will make it much more profitable to patent in the polities across the Sector that bother with that sort of thing.\"\r\n\r\n\"It comes down to credits, $playerName. From your perspective, $rdsm_reward credits. And that's all that should concern you. Understand?\"",
+   "ctx": "data/campaign/rules.csv rdsmOfferAsk2 [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"You don't quit, do you?\"\r\n\r\n$HeOrShe sighs. \"My buyer will simply declare that they faked this hypothetical second discovery to undermine the patent.\"",
+   "ctx": "data/campaign/rules.csv rdsmOfferAsk3 [text]"
+  }
+ ]
+}

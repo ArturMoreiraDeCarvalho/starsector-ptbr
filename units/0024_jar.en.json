@@ -1,0 +1,1256 @@
+{
+ "chunk": 24,
+ "cat": "jar",
+ "items": [
+  {
+   "i": 1,
+   "en": "hot or extreme heat",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/ItemEffectsRepo.class"
+  },
+  {
+   "i": 2,
+   "en": "no atmosphere",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/ItemEffectsRepo.class"
+  },
+  {
+   "i": 3,
+   "en": "no extreme tectonic activity",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/ItemEffectsRepo.class"
+  },
+  {
+   "i": 4,
+   "en": "no extreme weather",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/ItemEffectsRepo.class"
+  },
+  {
+   "i": 5,
+   "en": "no transplutonic ore deposits",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/ItemEffectsRepo.class"
+  },
+  {
+   "i": 6,
+   "en": "no volatiles deposits",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/ItemEffectsRepo.class"
+  },
+  {
+   "i": 7,
+   "en": "not a gas giant",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/ItemEffectsRepo.class"
+  },
+  {
+   "i": 8,
+   "en": "not habitable",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/ItemEffectsRepo.class"
+  },
+  {
+   "i": 9,
+   "en": " launched by %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/MilitaryBase.class"
+  },
+  {
+   "i": 10,
+   "en": " launched increased by %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/MilitaryBase.class"
+  },
+  {
+   "i": 11,
+   "en": "Increases fleet size by %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/MilitaryBase.class"
+  },
+  {
+   "i": 12,
+   "en": "Increases the number of ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/MilitaryBase.class"
+  },
+  {
+   "i": 13,
+   "en": "Number of ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/MilitaryBase.class"
+  },
+  {
+   "i": 14,
+   "en": "Requires a functional spaceport",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/MilitaryBase.class"
+  },
+  {
+   "i": 15,
+   "en": "heavy patrols",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/MilitaryBase.class"
+  },
+  {
+   "i": 16,
+   "en": "medium patrols",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/MilitaryBase.class"
+  },
+  {
+   "i": 17,
+   "en": ": %s units. Reduced colony growth.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/Mining.class"
+  },
+  {
+   "i": 18,
+   "en": "Mining: drug shortage",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/Mining.class"
+  },
+  {
+   "i": 19,
+   "en": "Requires resource deposits",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/Mining.class"
+  },
+  {
+   "i": 20,
+   "en": " Station",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/OrbitalStation.class"
+  },
+  {
+   "i": 21,
+   "en": "Increases stability by %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/OrbitalStation.class"
+  },
+  {
+   "i": 22,
+   "en": "Increases station combat effectiveness.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/OrbitalStation.class"
+  },
+  {
+   "i": 23,
+   "en": "Stability increased by %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/OrbitalStation.class"
+  },
+  {
+   "i": 24,
+   "en": "Station combat readiness: %s",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/OrbitalStation.class"
+  },
+  {
+   "i": 25,
+   "en": "Can not be built at a gas giant",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/PlanetaryShield.class"
+  },
+  {
+   "i": 26,
+   "en": "The nearest coronal tap is located in the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/PopulationAndInfrastructure$CoronalTapFactor.class"
+  },
+  {
+   "i": 27,
+   "en": "a coronal portal located here to connect to it.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/PopulationAndInfrastructure$CoronalTapFactor.class"
+  },
+  {
+   "i": 28,
+   "en": "range at a portal can connect to a tap is %s light-years.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/PopulationAndInfrastructure$CoronalTapFactor.class"
+  },
+  {
+   "i": 29,
+   "en": " colony",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/PopulationAndInfrastructure.class"
+  },
+  {
+   "i": 30,
+   "en": " fleet doctrine",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/PopulationAndInfrastructure.class"
+  },
+  {
+   "i": 31,
+   "en": "All demand supplied in-faction",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/PopulationAndInfrastructure.class"
+  },
+  {
+   "i": 32,
+   "en": "All demand supplied out-of-faction; no upkeep reduction",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/PopulationAndInfrastructure.class"
+  },
+  {
+   "i": 33,
+   "en": "Base value for a size ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/PopulationAndInfrastructure.class"
+  },
+  {
+   "i": 34,
+   "en": "Colony hazard rating",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/PopulationAndInfrastructure.class"
+  },
+  {
+   "i": 35,
+   "en": "Demand supplied in-faction (",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/PopulationAndInfrastructure.class"
+  },
+  {
+   "i": 36,
+   "en": "Domestic goods demand met",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/PopulationAndInfrastructure.class"
+  },
+  {
+   "i": 37,
+   "en": "Luxury goods demand met",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/PopulationAndInfrastructure.class"
+  },
+  {
+   "i": 38,
+   "en": "Maximum number of industries exceeded",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/PopulationAndInfrastructure.class"
+  },
+  {
+   "i": 39,
+   "en": "No active comm relay in-system",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/PopulationAndInfrastructure.class"
+  },
+  {
+   "i": 40,
+   "en": "No spaceport",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/PopulationAndInfrastructure.class"
+  },
+  {
+   "i": 41,
+   "en": "demand met",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/PopulationAndInfrastructure.class"
+  },
+  {
+   "i": 42,
+   "en": "total growth: ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/PopulationAndInfrastructure.class"
+  },
+  {
+   "i": 43,
+   "en": "Cross-faction imports",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/ShipQuality.class"
+  },
+  {
+   "i": 44,
+   "en": "Accessibility bonus: %s",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/Spaceport.class"
+  },
+  {
+   "i": 45,
+   "en": "Accessibility increased by %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/Spaceport.class"
+  },
+  {
+   "i": 46,
+   "en": "Accessibility penalty: %s",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/Spaceport.class"
+  },
+  {
+   "i": 47,
+   "en": "Hyperspace topography",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/Spaceport.class"
+  },
+  {
+   "i": 48,
+   "en": "Increases accessibility by %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/Spaceport.class"
+  },
+  {
+   "i": 49,
+   "en": "Population growth: %s",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/Spaceport.class"
+  },
+  {
+   "i": 50,
+   "en": "Slipstream detection range: %s light-years",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/Spaceport.class"
+  },
+  {
+   "i": 51,
+   "en": "Slipstream detection requires functional Spaceport",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/Spaceport.class"
+  },
+  {
+   "i": 52,
+   "en": "Finds increased by %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/TechMining.class"
+  },
+  {
+   "i": 53,
+   "en": "In addition to extracting basic resources, there's also a chance to find blueprints and other rare items. Anything found will be delivered to the designated production gathering point.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/TechMining.class"
+  },
+  {
+   "i": 54,
+   "en": "Increases finds by %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/TechMining.class"
+  },
+  {
+   "i": 55,
+   "en": "Requires ruins",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/TechMining.class"
+  },
+  {
+   "i": 56,
+   "en": "The extensive ruins here offer the opportunity for valuable finds.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/TechMining.class"
+  },
+  {
+   "i": 57,
+   "en": "The scattered ruins here offer only a slight chance of finding something valuable, though one never knows what might be located given enough time.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/TechMining.class"
+  },
+  {
+   "i": 58,
+   "en": "The vast ruins here offer incredible potential for valuable finds.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/TechMining.class"
+  },
+  {
+   "i": 59,
+   "en": "The widespread ruins here offer a solid chance of finding something valuable, given time.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/TechMining.class"
+  },
+  {
+   "i": 60,
+   "en": "These ruins are largely untapped.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/TechMining.class"
+  },
+  {
+   "i": 61,
+   "en": "These ruins have been combed through, though the chance for a few new finds still remains.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/TechMining.class"
+  },
+  {
+   "i": 62,
+   "en": "These ruins have been comprehensively combed over multiple times, and there is little chance of a new valuable find.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/TechMining.class"
+  },
+  {
+   "i": 63,
+   "en": "These ruins have been stripped of easy pickings, but the more difficult areas remain, filled with promise.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/TechMining.class"
+  },
+  {
+   "i": 64,
+   "en": "Adds an independent 'Open Market' that the colony's owner is able to trade with. A low-level semi-permanent bounty on all hostile fleets may be posted as well.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/TradeCenter.class"
+  },
+  {
+   "i": 65,
+   "en": "Colony income increased by %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/TradeCenter.class"
+  },
+  {
+   "i": 66,
+   "en": "Colony income: %s",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/TradeCenter.class"
+  },
+  {
+   "i": 67,
+   "en": "Increases colony income by %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/TradeCenter.class"
+  },
+  {
+   "i": 68,
+   "en": "As long as demand is met, allows the colony to stockpile fuel, supplies, and crew, even if it does not produce them locally. The stockpile levels exceed those generated by equivalent local production.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/Waystation.class"
+  },
+  {
+   "i": 69,
+   "en": "Greatly increases stockpiles.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/Waystation.class"
+  },
+  {
+   "i": 70,
+   "en": "Increases the range at which slipstreams are detected around the colony by %s, once the capability to do so is available.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/Waystation.class"
+  },
+  {
+   "i": 71,
+   "en": "Derelict Structure",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/enc/AbyssalRogueStellarObjectDireHintsEPEC.class"
+  },
+  {
+   "i": 72,
+   "en": "returning to ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/enc/OutsideSystemRemnantEPEC.class"
+  },
+  {
+   "i": 73,
+   "en": "uploading encrypted data",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/enc/OutsideSystemRemnantEPEC.class"
+  },
+  {
+   "i": 74,
+   "en": "laying in wait",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/enc/SlipstreamLuddicPathEPEC.class"
+  },
+  {
+   "i": 75,
+   "en": "waiting",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/enc/SlipstreamScavengerEPEC.class"
+  },
+  {
+   "i": 76,
+   "en": "Press LEFT to move backwards.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/eventide/DuelTutorialPanel.class"
+  },
+  {
+   "i": 77,
+   "en": "Press RIGHT to move forward.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/eventide/DuelTutorialPanel.class"
+  },
+  {
+   "i": 78,
+   "en": "Press SPACE to attack.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/eventide/DuelTutorialPanel.class"
+  },
+  {
+   "i": 79,
+   "en": "Press UP to block or parry. A skilled fighter can also execute a quick attack, or a \"riposte\", by attacking immediately after deflecting their opponent's attack.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/eventide/DuelTutorialPanel.class"
+  },
+  {
+   "i": 80,
+   "en": "SPACE",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/eventide/DuelTutorialPanel.class"
+  },
+  {
+   "i": 81,
+   "en": "Your health is in the top left of the screen.\n\nMake a few practice moves, then press ESCAPE to continue.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/eventide/DuelTutorialPanel.class"
+  },
+  {
+   "i": 82,
+   "en": "skilled fighter",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/eventide/DuelTutorialPanel.class"
+  },
+  {
+   "i": 83,
+   "en": " hostilities",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/FactionHostilityEvent.class"
+  },
+  {
+   "i": 84,
+   "en": " hostilities - over",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/FactionHostilityEvent.class"
+  },
+  {
+   "i": 85,
+   "en": "Making factions hostile: %s -> %s",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/FactionHostilityEvent.class"
+  },
+  {
+   "i": 86,
+   "en": "Starting hostility event: %s -> %s",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/FactionHostilityEvent.class"
+  },
+  {
+   "i": 87,
+   "en": "commission",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/FactionHostilityEvent.class"
+  },
+  {
+   "i": 88,
+   "en": " (over)",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/FoodShortageEvent.class"
+  },
+  {
+   "i": 89,
+   "en": " Ended by player",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/FoodShortageEvent.class"
+  },
+  {
+   "i": 90,
+   "en": " Ended by player black market trade",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/FoodShortageEvent.class"
+  },
+  {
+   "i": 91,
+   "en": " Ended by player within 7 days",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/FoodShortageEvent.class"
+  },
+  {
+   "i": 92,
+   "en": " Ended by relief fleet arrival",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/FoodShortageEvent.class"
+  },
+  {
+   "i": 93,
+   "en": " Expired",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/FoodShortageEvent.class"
+  },
+  {
+   "i": 94,
+   "en": " Failed to spawn relief fleet",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/FoodShortageEvent.class"
+  },
+  {
+   "i": 95,
+   "en": " No relief market found",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/FoodShortageEvent.class"
+  },
+  {
+   "i": 96,
+   "en": " Relief aborted, fleet returning to ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/FoodShortageEvent.class"
+  },
+  {
+   "i": 97,
+   "en": " Sending relief fleet from ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/FoodShortageEvent.class"
+  },
+  {
+   "i": 98,
+   "en": " Starting food shortage",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/FoodShortageEvent.class"
+  },
+  {
+   "i": 99,
+   "en": " Unrest +",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/FoodShortageEvent.class"
+  },
+  {
+   "i": 100,
+   "en": " after delivering food relief to ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/FoodShortageEvent.class"
+  },
+  {
+   "i": 101,
+   "en": " unrest at ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/FoodShortageEvent.class"
+  },
+  {
+   "i": 102,
+   "en": ", food needed: ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/FoodShortageEvent.class"
+  },
+  {
+   "i": 103,
+   "en": ", max duration: ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/FoodShortageEvent.class"
+  },
+  {
+   "i": 104,
+   "en": ", stockpile mult: ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/FoodShortageEvent.class"
+  },
+  {
+   "i": 105,
+   "en": "Food shortage - ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/FoodShortageEvent.class"
+  },
+  {
+   "i": 106,
+   "en": "Possible food shortage - ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/FoodShortageEvent.class"
+  },
+  {
+   "i": 107,
+   "en": "delivering food relief from ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/FoodShortageEvent.class"
+  },
+  {
+   "i": 108,
+   "en": "in the coming months",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/FoodShortageEvent.class"
+  },
+  {
+   "i": 109,
+   "en": "likely",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/FoodShortageEvent.class"
+  },
+  {
+   "i": 110,
+   "en": "loading food from ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/FoodShortageEvent.class"
+  },
+  {
+   "i": 111,
+   "en": "offloading food at ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/FoodShortageEvent.class"
+  },
+  {
+   "i": 112,
+   "en": "within a couple of weeks",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/FoodShortageEvent.class"
+  },
+  {
+   "i": 113,
+   "en": "within a few days",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/FoodShortageEvent.class"
+  },
+  {
+   "i": 114,
+   "en": "within a month",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/FoodShortageEvent.class"
+  },
+  {
+   "i": 115,
+   "en": "within a week",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/FoodShortageEvent.class"
+  },
+  {
+   "i": 116,
+   "en": " at priority ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/InvestigationEvent.class"
+  },
+  {
+   "i": 117,
+   "en": "Investigation outcome: ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/InvestigationEvent.class"
+  },
+  {
+   "i": 118,
+   "en": "Reporting investigation stage ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/InvestigationEvent.class"
+  },
+  {
+   "i": 119,
+   "en": "Starting investigation with suffix \"%s\" at %s. Delay: %f, dur: %f",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/InvestigationEvent.class"
+  },
+  {
+   "i": 120,
+   "en": "Aborting comm sniffer invesitgation on ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/InvestigationEventCommSniffer.class"
+  },
+  {
+   "i": 121,
+   "en": "Comm sniffer investigation - ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/InvestigationEventCommSniffer.class"
+  },
+  {
+   "i": 122,
+   "en": " ties investigation - ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/InvestigationEventGoodRepWithOther.class"
+  },
+  {
+   "i": 123,
+   "en": "Starting faction investigation at %s, %s -> %s",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/InvestigationEventGoodRepWithOther.class"
+  },
+  {
+   "i": 124,
+   "en": "Smuggling investigation - ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/InvestigationEventSmugglingV2.class"
+  },
+  {
+   "i": 125,
+   "en": "Starting smuggling investigation at %s",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/InvestigationEventSmugglingV2.class"
+  },
+  {
+   "i": 126,
+   "en": ", level: ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/OfficerManagerEvent.class"
+  },
+  {
+   "i": 127,
+   "en": "Added officer at ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/OfficerManagerEvent.class"
+  },
+  {
+   "i": 128,
+   "en": "Leveling up ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/OfficerManagerEvent.class"
+  },
+  {
+   "i": 129,
+   "en": "Picking initial skill: ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/OfficerManagerEvent.class"
+  },
+  {
+   "i": 130,
+   "en": "Recent unrest at ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/RecentUnrestEvent.class"
+  },
+  {
+   "i": 131,
+   "en": "Recent unrest at null market",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/RecentUnrestEvent.class"
+  },
+  {
+   "i": 132,
+   "en": " due to trade with enemy (",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/RepTrackerEvent.class"
+  },
+  {
+   "i": 133,
+   "en": " due to trade/smuggling",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/RepTrackerEvent.class"
+  },
+  {
+   "i": 134,
+   "en": " for a rep change (",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/RepTrackerEvent.class"
+  },
+  {
+   "i": 135,
+   "en": " with ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/RepTrackerEvent.class"
+  },
+  {
+   "i": 136,
+   "en": "Change caused by black-market trade",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/RepTrackerEvent.class"
+  },
+  {
+   "i": 137,
+   "en": "Change caused by trade with enemies",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/RepTrackerEvent.class"
+  },
+  {
+   "i": 138,
+   "en": "Change caused by trade with faction",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/RepTrackerEvent.class"
+  },
+  {
+   "i": 139,
+   "en": "Gained experience from profitable trades",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/RepTrackerEvent.class"
+  },
+  {
+   "i": 140,
+   "en": "Not enough trade/smuggling with ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/RepTrackerEvent.class"
+  },
+  {
+   "i": 141,
+   "en": "Sending rep change of ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/RepTrackerEvent.class"
+  },
+  {
+   "i": 142,
+   "en": " updates",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/TradeInfoUpdateEvent.class"
+  },
+  {
+   "i": 143,
+   "en": "): weight ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/TradeInfoUpdateEvent.class"
+  },
+  {
+   "i": 144,
+   "en": "Adding ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/TradeInfoUpdateEvent.class"
+  },
+  {
+   "i": 145,
+   "en": "Picked ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/TradeInfoUpdateEvent.class"
+  },
+  {
+   "i": 146,
+   "en": "Picking ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/TradeInfoUpdateEvent.class"
+  },
+  {
+   "i": 147,
+   "en": "Picking market updates",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/TradeInfoUpdateEvent.class"
+  },
+  {
+   "i": 148,
+   "en": "Price information updated for: ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/TradeInfoUpdateEvent.class"
+  },
+  {
+   "i": 149,
+   "en": "Trade info update",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/TradeInfoUpdateEvent.class"
+  },
+  {
+   "i": 150,
+   "en": "Custom Fleet Name",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/fleets/CustomFleets.class"
+  },
+  {
+   "i": 151,
+   "en": "doing something",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/fleets/CustomFleets.class"
+  },
+  {
+   "i": 152,
+   "en": " around the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/fleets/DisposableFleetManager.class"
+  },
+  {
+   "i": 153,
+   "en": " the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/fleets/DisposableFleetManager.class"
+  },
+  {
+   "i": 154,
+   "en": "patrolling",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/fleets/DisposableFleetManager.class"
+  },
+  {
+   "i": 155,
+   "en": "raiding",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/fleets/DisposableFleetManager.class"
+  },
+  {
+   "i": 156,
+   "en": "traveling to the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/fleets/DisposableFleetManager.class"
+  },
+  {
+   "i": 157,
+   "en": "other commodities",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/fleets/EconomyFleetAssignmentAI$EconomyRouteData.class"
+  },
+  {
+   "i": 158,
+   "en": "ship hulls",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/fleets/EconomyFleetAssignmentAI$EconomyRouteData.class"
+  },
+  {
+   "i": 159,
+   "en": "delivering ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/fleets/EconomyFleetAssignmentAI.class"
+  },
+  {
+   "i": 160,
+   "en": "loading ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/fleets/EconomyFleetAssignmentAI.class"
+  },
+  {
+   "i": 161,
+   "en": "orbiting ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/fleets/EconomyFleetAssignmentAI.class"
+  },
+  {
+   "i": 162,
+   "en": "preparing for a voyage to ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/fleets/EconomyFleetAssignmentAI.class"
+  },
+  {
+   "i": 163,
+   "en": "traveling to ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/fleets/EconomyFleetAssignmentAI.class"
+  },
+  {
+   "i": 164,
+   "en": "unloading ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/fleets/EconomyFleetAssignmentAI.class"
+  },
+  {
+   "i": 165,
+   "en": "Recent incoming shipment lost",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/fleets/EconomyFleetRouteManager.class"
+  },
+  {
+   "i": 166,
+   "en": "traveling",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/fleets/MercAssignmentAIV2.class"
+  },
+  {
+   "i": 167,
+   "en": "approaching ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/fleets/PatrolAssignmentAI.class"
+  },
+  {
+   "i": 168,
+   "en": "patrolling around ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/fleets/PatrolAssignmentAI.class"
+  },
+  {
+   "i": 169,
+   "en": "patrolling around the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/fleets/PatrolAssignmentAI.class"
+  },
+  {
+   "i": 170,
+   "en": "patrolling the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/fleets/PatrolAssignmentAI.class"
+  },
+  {
+   "i": 171,
+   "en": "performing customs inspection",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/fleets/PatrolAssignmentAI.class"
+  },
+  {
+   "i": 172,
+   "en": "preparing for patrol duty",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/fleets/PatrolAssignmentAI.class"
+  },
+  {
+   "i": 173,
+   "en": "standing down from patrol duty",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/fleets/PatrolAssignmentAI.class"
+  },
+  {
+   "i": 174,
+   "en": "defending ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/fleets/PatrolAssignmentAIV4.class"
+  },
+  {
+   "i": 175,
+   "en": "guarding ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/fleets/PatrolAssignmentAIV4.class"
+  },
+  {
+   "i": 176,
+   "en": "standing down",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/fleets/PatrolAssignmentAIV4.class"
+  },
+  {
+   "i": 177,
+   "en": "Lion's Guard Grand Armada",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/fleets/PersonalFleetHoracioCaden.class"
+  },
+  {
+   "i": 178,
+   "en": "Askonia System Defense Armada",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/fleets/PersonalFleetOxanaHyder.class"
+  },
+  {
+   "i": 179,
+   "en": "disembarking pilgrims at ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/fleets/PilgrimageFleetAssignmentAI.class"
+  },
+  {
+   "i": 180,
+   "en": "disembarking pilgrims at shrine on ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/fleets/PilgrimageFleetAssignmentAI.class"
+  },
+  {
+   "i": 181,
+   "en": "embarking pilgrims for return voyage to ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/fleets/PilgrimageFleetAssignmentAI.class"
+  },
+  {
+   "i": 182,
+   "en": "preparing for pilgrimage to shrine on ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/fleets/PilgrimageFleetAssignmentAI.class"
+  },
+  {
+   "i": 183,
+   "en": "returning pilgrims to ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/fleets/PilgrimageFleetAssignmentAI.class"
+  },
+  {
+   "i": 184,
+   "en": "taking pilgrims to shrine on ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/fleets/PilgrimageFleetAssignmentAI.class"
+  },
+  {
+   "i": 185,
+   "en": "Core Worlds Armada",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/fleets/SDFHegemony.class"
+  },
+  {
+   "i": 186,
+   "en": "All-League Aegis",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/fleets/SDFLeague.class"
+  },
+  {
+   "i": 187,
+   "en": "Armada of the Ecumene",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/fleets/SDFLuddicChurch.class"
+  },
+  {
+   "i": 188,
+   "en": "Capital Assurance Reserve",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/fleets/SDFTriTachyon.class"
+  },
+  {
+   "i": 189,
+   "en": "orbiting Galatia Academy",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/fleets/misc/MiscAcademyFleetCreator.class"
+  },
+  {
+   "i": 190,
+   "en": "preparing for voyage to Galatia Academy",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/fleets/misc/MiscAcademyFleetCreator.class"
+  },
+  {
+   "i": 191,
+   "en": "returned from voyage to Galatia Academy",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/fleets/misc/MiscAcademyFleetCreator.class"
+  },
+  {
+   "i": 192,
+   "en": "traveling to Galatia Academy",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/fleets/misc/MiscAcademyFleetCreator.class"
+  },
+  {
+   "i": 193,
+   "en": "Drive field drain!",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/ghosts/GBIRemoraDrain.class"
+  },
+  {
+   "i": 194,
+   "en": "investigating anomalous readings",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/ghosts/types/EncounterTricksterGhost.class"
+  },
+  {
+   "i": 195,
+   "en": "investigating sensor ghost",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/ghosts/types/EncounterTricksterGhost.class"
+  },
+  {
+   "i": 196,
+   "en": "Blueprints",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/graid/BlueprintGroundRaidObjectivePluginImpl.class"
+  },
+  {
+   "i": 197,
+   "en": "Blueprints that enable heavy industry to construct ships, ship weapons, and fighter LPCs. Availability based on the scale of the biggest blueprint-using industry at the colony.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/graid/BlueprintGroundRaidObjectivePluginImpl.class"
+  },
+  {
+   "i": 198,
+   "en": "The value of the recovered blueprints can vary wildly.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/graid/BlueprintGroundRaidObjectivePluginImpl.class"
+  },
+  {
+   "i": 199,
+   "en": "Recent raid",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/graid/CommodityGroundRaidObjectivePluginImpl.class"
+  },
+  {
+   "i": 200,
+   "en": " It will take at least %s days for normal operations to resume.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/graid/DisruptIndustryRaidObjectivePluginImpl.class"
+  },
+  {
+   "i": 201,
+   "en": " operations.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/graid/DisruptIndustryRaidObjectivePluginImpl.class"
+  },
+  {
+   "i": 202,
+   "en": "The raid was successful in disrupting ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/graid/DisruptIndustryRaidObjectivePluginImpl.class"
+  },
+  {
+   "i": 203,
+   "en": "Ship weapons, fighter LPCs, and hullmod specs. Availability is based on the \"",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/graid/ShipWeaponsGroundRaidObjectivePluginImpl.class"
+  },
+  {
+   "i": 204,
+   "en": "The colony faction's doctrine affects the number of weapons vs fighter LPCs acquired. Higher ship quality increases the probability of finding modspecs..",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/graid/ShipWeaponsGroundRaidObjectivePluginImpl.class"
+  },
+  {
+   "i": 205,
+   "en": "This colony does not have heavy industry or a military presence and has no access to high-tier ship equipment.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/graid/ShipWeaponsGroundRaidObjectivePluginImpl.class"
+  },
+  {
+   "i": 206,
+   "en": "This colony has a military presence and high-tier equipment may be found.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/graid/ShipWeaponsGroundRaidObjectivePluginImpl.class"
+  },
+  {
+   "i": 207,
+   "en": "This colony has heavy industry and high-tier equipment may be found.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/graid/ShipWeaponsGroundRaidObjectivePluginImpl.class"
+  },
+  {
+   "i": 208,
+   "en": ". While much of the superstructure ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/graid/SolarArrayGroundRaidObjectivePluginImpl.class"
+  },
+  {
+   "i": 209,
+   "en": "Destroy the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/graid/SolarArrayGroundRaidObjectivePluginImpl.class"
+  },
+  {
+   "i": 210,
+   "en": "Functionally destroy the solar array orbiting ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/graid/SolarArrayGroundRaidObjectivePluginImpl.class"
+  },
+  {
+   "i": 211,
+   "en": "the current state-of-the-art in the Sector.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/graid/SolarArrayGroundRaidObjectivePluginImpl.class"
+  },
+  {
+   "i": 212,
+   "en": "would remain intact, repairing the damage inflicted would be far beyond ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/graid/SolarArrayGroundRaidObjectivePluginImpl.class"
+  },
+  {
+   "i": 213,
+   "en": " have posted a reward for running a custom sensor package on ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/AnalyzeEntityMissionIntel.class"
+  },
+  {
+   "i": 214,
+   "en": "%s received",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/AnalyzeEntityMissionIntel.class"
+  },
+  {
+   "i": 215,
+   "en": "%s reward",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/AnalyzeEntityMissionIntel.class"
+  },
+  {
+   "i": 216,
+   "en": "Analyze ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/AnalyzeEntityMissionIntel.class"
+  },
+  {
+   "i": 217,
+   "en": "Faction: ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/AnalyzeEntityMissionIntel.class"
+  },
+  {
+   "i": 218,
+   "en": "authorities",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/AnalyzeEntityMissionIntel.class"
+  },
+  {
+   "i": 219,
+   "en": "concerns",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/AnalyzeEntityMissionIntel.class"
+  },
+  {
+   "i": 220,
+   "en": "to complete",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/AnalyzeEntityMissionIntel.class"
+  },
+  {
+   "i": 221,
+   "en": " (size %s, %s)",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/BaseIntelPlugin.class"
+  },
+  {
+   "i": 222,
+   "en": " ago.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/BaseIntelPlugin.class"
+  },
+  {
+   "i": 223,
+   "en": "Are you sure you want to permanently delete this fleet log entry?",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/BaseIntelPlugin.class"
+  },
+  {
+   "i": 224,
+   "en": "Delete log entry",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/BaseIntelPlugin.class"
+  },
+  {
+   "i": 225,
+   "en": "Log entry added ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/BaseIntelPlugin.class"
+  },
+  {
+   "i": 226,
+   "en": "Log entry added less than a day ago.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/BaseIntelPlugin.class"
+  },
+  {
+   "i": 227,
+   "en": "cycles",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/BaseIntelPlugin.class"
+  },
+  {
+   "i": 228,
+   "en": "month",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/BaseIntelPlugin.class"
+  },
+  {
+   "i": 229,
+   "en": "months",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/BaseIntelPlugin.class"
+  },
+  {
+   "i": 230,
+   "en": " - Abandoned",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/BaseMissionIntel.class"
+  },
+  {
+   "i": 231,
+   "en": " - Completed",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/BaseMissionIntel.class"
+  },
+  {
+   "i": 232,
+   "en": " - Failed",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/BaseMissionIntel.class"
+  },
+  {
+   "i": 233,
+   "en": " - Terminated",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/BaseMissionIntel.class"
+  },
+  {
+   "i": 234,
+   "en": " - Withdrawn",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/BaseMissionIntel.class"
+  },
+  {
+   "i": 235,
+   "en": " is no longer being offered.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/BaseMissionIntel.class"
+  },
+  {
+   "i": 236,
+   "en": " posting may be withdrawn at any time unless it's accepted.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/BaseMissionIntel.class"
+  },
+  {
+   "i": 237,
+   "en": " will commit you to completing it. ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/BaseMissionIntel.class"
+  },
+  {
+   "i": 238,
+   "en": " without a penalty.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/BaseMissionIntel.class"
+  },
+  {
+   "i": 239,
+   "en": ", but will suffer ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/BaseMissionIntel.class"
+  },
+  {
+   "i": 240,
+   "en": "Accepting this ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/BaseMissionIntel.class"
+  },
+  {
+   "i": 241,
+   "en": "Failing to complete it within the required timeframe will result in a reputation penalty ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/BaseMissionIntel.class"
+  },
+  {
+   "i": 242,
+   "en": "It's been less than a day, and you can still abandon this ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/BaseMissionIntel.class"
+  },
+  {
+   "i": 243,
+   "en": "This ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/BaseMissionIntel.class"
+  },
+  {
+   "i": 244,
+   "en": "You can abandon this ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/BaseMissionIntel.class"
+  },
+  {
+   "i": 245,
+   "en": "You have abandoned this ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/BaseMissionIntel.class"
+  },
+  {
+   "i": 246,
+   "en": "You have accepted this ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/BaseMissionIntel.class"
+  },
+  {
+   "i": 247,
+   "en": "You have completed this ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/BaseMissionIntel.class"
+  },
+  {
+   "i": 248,
+   "en": "You have failed this ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/BaseMissionIntel.class"
+  },
+  {
+   "i": 249,
+   "en": "a reputation penalty with ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/BaseMissionIntel.class"
+  },
+  {
+   "i": 250,
+   "en": "with ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/BaseMissionIntel.class"
+  }
+ ]
+}

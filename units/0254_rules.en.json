@@ -1,0 +1,206 @@
+{
+ "chunk": 254,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "The reward is transferred to your accounts, and there is an implication that you may be placed in the running for some kind of service medal.\r\n\r\nThe planetkiller, one assumes, shall rest in a secret arsenal somewhere.",
+   "ctx": "data/campaign/rules.csv pk_hegFreeSel3 [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"You are to be commended for your dedication and service, $playerName!\"\r\n\r\n\"As a commissioned auxiliary, you have pledged yourself to the cause of the Hegemony, but I would like to take this moment to personally salute your dedication to protecting humanity and its habitable environs according to the vision of the first High Hegemon, Kali Molina, who gave the Diktat of Hegemony on Eventide so many cycles ago.\"\r\n\r\n$HeOrShe, in fact, salutes you.\r\n\r\nYou would swear that $personName is putting on a show for the recording of the comms-feed.",
+   "ctx": "data/campaign/rules.csv pk_hegFreeSelCommission [text]"
+  },
+  {
+   "i": 3,
+   "en": "The wheels of the Hegemony bureaucracy turn smoothly, oiled perhaps by a desire not to repeat any 'incidents' similar to the destruction of Opis.\r\n\r\nA technical team verifies the planetkiller and efficiently removes it to Hegemony custody, and a reward for the recovery of weapons of mass destruction is provided.",
+   "ctx": "data/campaign/rules.csv pk_hegFreeSelCommission2 [text]"
+  },
+  {
+   "i": 4,
+   "en": "A reward above and beyond your commission payment is transferred to your accounts, and there is an implication that you may be placed in the running for some kind of service medal.\r\n\r\nThe planetkiller shall rest in a secret arsenal somewhere. One assumes.\r\n\r\n\"For the Restoration!\" $heOrShe  says triumphantly. \"And burn bright, captain.\"",
+   "ctx": "data/campaign/rules.csv pk_hegFreeSelCommission3 [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"Of course,\" the $rank grits $hisOrHer teeth. \"It is... policy... to incentivize the safety of all citizens within Hegemony space.\"\r\n\r\n\"I shall have to confirm your exceptional,\" $heOrShe lets the word sink in, \"request with a superior officer. Of course.\"",
+   "ctx": "data/campaign/rules.csv pk_hegPaySel [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"Of course,\" the $rank grits $hisOrHer teeth. \"It is official policy to incentivize the safety of all citizens within Hegemony space.\"\r\n\r\n\"I shall have to confirm your exceptional,\" $heOrShe lets the word sink in, \"request with Central Command. Of course.\"",
+   "ctx": "data/campaign/rules.csv pk_hegPaySelAdmiral [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Naturally, citizen.\" Your backing down seems to put $himOrHer into a better mood; $heOrShe clears $hisOrHer throat, putting a bit of unpleasantness behind $himOrHer.",
+   "ctx": "data/campaign/rules.csv pk_hegPaySelBackOut [text]"
+  },
+  {
+   "i": 8,
+   "en": "Although $PersonRank $personName seems personally displeased with your mercenary demand, $hisOrHer superior appears to have no objections.\r\n\r\nThe wheels of the Hegemony bureaucracy turn smoothly, oiled perhaps by a desire not to repeat any 'incidents' similar to the destruction of Opis. ",
+   "ctx": "data/campaign/rules.csv pk_hegPaySel2 [text]"
+  },
+  {
+   "i": 9,
+   "en": "Although $PersonRank $personName seems personally displeased with your mercenary demand, Central Command appears to have no objections.\r\n\r\nThe wheels of the Hegemony bureaucracy turn smoothly, oiled perhaps by a desire not to repeat any 'incidents' similar to the destruction of Opis. ",
+   "ctx": "data/campaign/rules.csv pk_hegPaySel2Admiral [text]"
+  },
+  {
+   "i": 10,
+   "en": "The Hegemony tech-team verifies your claim of having possession of a planetkiller, and when the credits-transfer comes in, they remove the weapon from your $shipOrFleet.\r\n\r\n\"If all citizens were as dutiful as you, $playerSirOrMadam, I would soon be out my operating budget,\" $personName says coolly. \"Good day.\"",
+   "ctx": "data/campaign/rules.csv pk_hegPaySel3 [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"This again.\" He gives you a cold look, \"I hope you haven't been peddling this forbidden Domain-era weapon of mass destruction responsible for billions of deaths to anyone else before coming crawling back to me.\"\r\n\r\nHe's ice-cold.\r\n\r\n\"Right?\"",
+   "ctx": "data/campaign/rules.csv pk_turnInArroyoSel1again [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"No,\" he says. \"And we're not having this conversation about you selling me a weapon of mass destruction.\"",
+   "ctx": "data/campaign/rules.csv pk_turnInArroyoSel1againNotFirst [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"You already made that joke,\" he says. \"It wasn't funny the first time.\"",
+   "ctx": "data/campaign/rules.csv pk_turnInArroyoSel1againJoke [text]"
+  },
+  {
+   "i": 14,
+   "en": "Arroyo is, naturally, taken aback at your claim.\r\n\r\n\"You serious?\" He looks at you, assessing.",
+   "ctx": "data/campaign/rules.csv pk_turnInArroyoSel1 [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"Hilarious.\"\r\n\r\nHe doesn't smile.",
+   "ctx": "data/campaign/rules.csv pk_turnInArroyoSel1joke [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"Thanks.\"\r\n\r\nHe doesn't sound thankful.",
+   "ctx": "data/campaign/rules.csv pk_turnInArroyoSel1jokeAgain [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"Good thinking, $playerName.\"\r\n\r\nHe lifts his eyes, staring at nothing; considering his options. If anything, he seems stressed out by your offer.\r\n\r\n\"I can do 300,000 credits,\" he finally says. \"And, though this should not need saying, I need you to keep your mouth absolutely shut about this. It's a good thing you came to me first.\"\r\n\r\nHe blinks.\r\n\r\n\"You did come to me first, right?\"",
+   "ctx": "data/campaign/rules.csv pkTurnInArroyoSel2 [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"Good.\"\r\n\r\nHe sighs. \"300,000 credits. Deal?\"",
+   "ctx": "data/campaign/rules.csv pkTurnInArroyoSel3 [text]"
+  },
+  {
+   "i": 19,
+   "en": "He puts his face into his palm, taking a deep breath.\r\n\r\n\"You idiot,\" he says with a sigh.\r\n\r\n\"I can do 150,000. That's my best offer for a hot item.\"",
+   "ctx": "data/campaign/rules.csv pkTurnInArroyoSel4 [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"Too bad,\" he says. \"You'll just have to find someone else to buy your forbidden Domain-era weapon of mass destruction responsible for billions of deaths.\"",
+   "ctx": "data/campaign/rules.csv pkTurnInArroyoMore [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"Good luck selling your forbidden Domain-era weapon of mass destruction responsible for billions of deaths,\" he says. His tone feels insincere to you, somehow.",
+   "ctx": "data/campaign/rules.csv pkTurnInArroyoNoDeal [text]"
+  },
+  {
+   "i": 22,
+   "en": "You make the arrangements, delivering an anonymous package - without a customs scan, easily avoided with a token bribe - to a robotic warehouse run by a shell-company owned by a shell-company of a shell-company owned by Rayan Arroyo.\r\n\r\nThe credits are good.\r\n\r\n\"Never talk to me about this ever again,\" he says as a good-bye.",
+   "ctx": "data/campaign/rules.csv pkTurnInArroyoSel [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"Good luck,\" he says without much sincerity you can detect.",
+   "ctx": "data/campaign/rules.csv pkTurnInArroyoNoDeal2 [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"Ah,\" $heOrShe puts on an expensive-looking smile. \"I'm very sorry to say that we don't have any available for sale right now, but if you'd like to submit your contact information for the waitlist...\"\r\n\r\n\"We also have a dazzling range of lower-yield weapons, including AM-catalyzed fusion devices with a proven track record in both civilian and private military contractor applications. I'd be more than happy to provide you with a catalog, including our Tri-Tachyon holo experience featuring a hand-curated selection of some of our most popular items.\"",
+   "ctx": "data/campaign/rules.csv pk_turnInTTSel [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"Oh!\" $heOrShe exclaims, \"Please accept my apologies, $playerSirOrMadam. It is not often that we find a, a supplier of such items.\"\r\n\r\n$HeOrShe taps at something on a TriPad, and the cheerful business-persona turns its glow down a notch or three.\r\n\r\n\"If what you say is true - and we shall have to have a technician, ah, inspect the item before any payment is made - then rest assured that we shall deal with utmost secrecy. It's nothing more than Tri-Tachyon's guarantee to respect the privacy of our valued partners.\"",
+   "ctx": "data/campaign/rules.csv pk_turnInTTSel2 [text]"
+  },
+  {
+   "i": 26,
+   "en": "The expensive smiles appears once more, a part of a mask.\r\n\r\n\"I'm very sorry to say that such an arrangement will be impossible, $playerSirOrMadam. You must understand, of course, that we owe our shareholders - and I include myself among that esteemed group - we owe our shareholders quantifiable reports on investments and profits.\"\r\n\r\n\"An open-ended promise of that magnitude is, well...\" $heOrShe searches for the word, and with a small look of disgust, finds it. \"Unbusinesslike.\"",
+   "ctx": "data/campaign/rules.csv pk_ttFreeSel [text]"
+  },
+  {
+   "i": 27,
+   "en": "$PersonName is eager to do business - presumably they will negotiate a finder's fee with the relevant VP for this find - and with Tri-Tachyon's deep pockets, it is not difficult to negotiate for a half million credits payment.\r\n\r\nA small team of elite techs is shuttled to your $shipOrFleet to inspect the planetkiller. Your technical officer can barely refrain from asking questions about their advanced diagnostic tools, but the work is soon done and the deal confirmed.\r\n\r\nYou receive a small fortune, and the planetkiller disappears into the machinery of the Tri-Tachyon Corporation. ",
+   "ctx": "data/campaign/rules.csv pk_ttPaySel [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"Here you are,\" $heOrShe says brightly, tapping at a TriPad. \"I hope you'll choose to do business with us soon.\"",
+   "ctx": "data/campaign/rules.csv pkTurnInTTCatalog [text]"
+  },
+  {
+   "i": 29,
+   "en": "$HeOrShe barely raises an eyebrow, \"And what is that?\"",
+   "ctx": "data/campaign/rules.csv PKGiveToDiktat2 [text]"
+  },
+  {
+   "i": 30,
+   "en": "The Diktat $Rank gives you a funny look.\r\n\r\n\"Spacers,\" $heOrShe says under $hisOrHer breath.",
+   "ctx": "data/campaign/rules.csv PKGiveToDiktat2nm [text]"
+  },
+  {
+   "i": 31,
+   "en": "That seems to get $hisOrHer attention. \"I see,\" $heOrShe says, eyes narrowed. \"You shall surrender the alleged planetkiller device to my custody for... confirmation of your claims. It is, of course, illegal to possess such a weapon without the direct authorization of the Supreme Executor.\"\r\n\r\n\"This matter is quite delicate, you surely understand,\" $heOrShe says in a lower voice. \"Imagine a repeat of the Opis Incident - the rebel terrorists blew up their own moon to vex Admiral Andrada's authority!\"\r\n\r\nIn a conciliatory tone, $heOrShe adds, \"I'll ensure you receive compensation, of course. 10,000 credits.",
+   "ctx": "data/campaign/rules.csv PKGiveToDiktat3 [text]"
+  },
+  {
+   "i": 32,
+   "en": "You comply with the $rank's request, allowing a technical team to board your $shipOrFleet to inspect and remove the planetkiller.\r\n\r\nThe Diktat $rank beams. \"The Lion is generous to those that serve his Great Movement and I- you, are sure to be recognized for your small contribution to his Final Victory.\"\r\n\r\nWith a final satisfied grin, $heOrShe turns to shut off the comms, halts, then touches $hisOrHer forehead. \"I almost forgot- your reward.\" A tap at a datapad. \"See? Both of us may be rewarded by service to the Supreme Executor.\"",
+   "ctx": "data/campaign/rules.csv pk_diktatComplySel [text]"
+  },
+  {
+   "i": 33,
+   "en": "You comply enthusiastically to the $rank's request, welcoming a technical team to board your $shipOrFleet to inspect and remove the planetkiller.\r\n\r\nThe Diktat $rank follows your lead to espouse enthusiastic admiration for the Supreme Executor. \"The Lion is generous to those who serve his Great Movement and Eternal Vision! You and I are sure to be recognized and rewarded,\" here, $heOrShe gives a wink, \"for our contributions to his Final Victory. Ah, let's just double that reward; the Movement serves those who serve it, don't you agree?\" \r\n\r\n$HeOrShe produces a satisfied smile, leaving this hanging as a rhetorical question as $heOrShe signs off to see the planetkiller turned over to some secret arsenal or other.",
+   "ctx": "data/campaign/rules.csv pk_diktatComplyHappySel [text]"
+  },
+  {
+   "i": 34,
+   "en": "\"Outrageous!\" $heOrShe shouts, \"I should have you arraigned for subversion for even suggesting such a thing! You... you are personally betraying the Supreme Executor's vision!\"\r\n\r\nThe Diktat $Rank takes a breath, then summons as much menace as they are capable of; \"Surrender the planetkiller. Immediately.\"",
+   "ctx": "data/campaign/rules.csv pk_diktatCreditsSel [text]"
+  },
+  {
+   "i": 35,
+   "en": "\"Your selfishness and greed will not be forgotten, $playerName.\"",
+   "ctx": "data/campaign/rules.csv pk_diktatCreditsSel2 [text]"
+  },
+  {
+   "i": 36,
+   "en": "The Diktat $Rank's face turns an odd shade of red, and $heOrShe breathes heavily. But something in your words seems to take. \r\n\r\n\"I must consult my superior,\" $heOrShe says through gritted teeth, then slams the comms-hold.\r\n\r\nYou take a minute to watch the crest of the Sindrian Diktat spinning over implausible propaganda-holos of the Lion of Sindria's greatest victories.",
+   "ctx": "data/campaign/rules.csv pk_executorInsistSel [text]"
+  },
+  {
+   "i": 37,
+   "en": "An image of soldiers in power armor marching to the cheers of the 'liberated' citizens of Volturn is interrupted by the cowed-looking Diktat $Rank.\r\n\r\n\"My superior approved your... request,\" $heOrShe says, looking like $heOrShe ate something rotten. \"It'll take one week to make the arrangements. Return to me then to complete the trade.\"\r\n\r\n\"I will add that, against my personal wishes, nearby patrols have received the... suggestion... to tolerate your presence.\"\r\n\r\nWith that said, $heOrShe slams the comms shutoff.",
+   "ctx": "data/campaign/rules.csv pk_executorInsistSel2 [text]"
+  },
+  {
+   "i": 38,
+   "en": "An image of soldiers marching to the cheers of the 'liberated' citizens of Volturn is interrupted by the cowed-looking Diktat $Rank.\r\n\r\n\"My superior approved your... your demeaning extortion,\" $heOrShe says with a face like $heOrShe has eaten something rotten. \"It'll take one week to make the arrangements. Return then to complete the trade.\"\r\n\r\n\"I will add that, against my personal recommendation that you be arrested and executed as a terrorist, nearby patrols have received the... suggestion... to tolerate your presence.\"\r\n\r\nWith that said, $heOrShe slams the comms shutoff.",
+   "ctx": "data/campaign/rules.csv pk_executorSpecialSel [text]"
+  },
+  {
+   "i": 39,
+   "en": "\"You,\" $heOrShe says with a truly ugly sneer that tells you everything about $hisOrHer opinion.\r\n\r\n\"It's not ready.\"\r\n\r\nThe Sindrian Diktat $Rank slams the comms-cutoff.",
+   "ctx": "data/campaign/rules.csv PKDiktatExecutorNotReady [text]"
+  },
+  {
+   "i": 40,
+   "en": "\"It's ready,\" $heOrShe says, sneering. \"The Executor-class battleship, a thing of beauty and vision that you will never understand.\"\r\n\r\n$HeOrShe slams a comms-cutoff, leaving a confused but unquestioningly loyal junior officer to make the actual arrangements. A technical team takes possession of the planetkiller and remove it from your $shipOrFleet into the custody of the Sindrian Diktat.\r\n\r\nAndrada only knows what will be done with it.",
+   "ctx": "data/campaign/rules.csv PKDiktatExecutorReady [text]"
+  }
+ ]
+}

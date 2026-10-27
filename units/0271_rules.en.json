@@ -1,0 +1,1131 @@
+{
+ "chunk": 271,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"So quick to start a fight? You've only just signed up.\"",
+   "ctx": "lppHesperusInitiateResponseCynical"
+  },
+  {
+   "i": 2,
+   "en": "\"I seek a Path not so different from yours.\"",
+   "ctx": "lppHesperusInitiateResponsePather"
+  },
+  {
+   "i": 3,
+   "en": "Nod and make an appropriately serious face\r",
+   "ctx": "lppHesperusInitiateReplyCynical"
+  },
+  {
+   "i": 4,
+   "en": "\"I can tell.\"\r",
+   "ctx": "lppHesperusInitiateReplyCynical"
+  },
+  {
+   "i": 5,
+   "en": "\"You should be. That death is hell I would not wish upon my worst enemy.\"",
+   "ctx": "lppHesperusInitiateReplyCynical"
+  },
+  {
+   "i": 6,
+   "en": "\"I've met him. His views are... unique.\"\r",
+   "ctx": "lppHesperusInitiateReplyPatherA"
+  },
+  {
+   "i": 7,
+   "en": "\"I've met him. Brother Cotton is a true visionary.\"\r",
+   "ctx": "lppHesperusInitiateReplyPatherA"
+  },
+  {
+   "i": 8,
+   "en": "\"Yes. He's a snake that puts on a polite mask to charm people.\"",
+   "ctx": "lppHesperusInitiateReplyPatherA"
+  },
+  {
+   "i": 9,
+   "en": "\"No. But I'd like to.\"\r",
+   "ctx": "lppHesperusInitiateReplyPatherB"
+  },
+  {
+   "i": 10,
+   "en": "\"No. But I'd like to. Then do what must be done.\"\r",
+   "ctx": "lppHesperusInitiateReplyPatherB"
+  },
+  {
+   "i": 11,
+   "en": "\"No. I have my own Path to follow.\"",
+   "ctx": "lppHesperusInitiateReplyPatherB"
+  },
+  {
+   "i": 12,
+   "en": "\"Yes.\"\r",
+   "ctx": "lppHesperusInitiateContinue1"
+  },
+  {
+   "i": 13,
+   "en": "\"No.\" (lie)",
+   "ctx": "lppHesperusInitiateContinue1"
+  },
+  {
+   "i": 14,
+   "en": "\"I've given your proposal some thought. I will find your missing agent.\"",
+   "ctx": "lkeJaspisMissionOfferOption"
+  },
+  {
+   "i": 15,
+   "en": "\"I want to talk about your proposal, about the missing agent.\"",
+   "ctx": "lkeJaspisMissionInfoOption"
+  },
+  {
+   "i": 16,
+   "en": "\"You mentioned payment for the job.\"",
+   "ctx": "lkeJaspisInfoAsk1"
+  },
+  {
+   "i": 17,
+   "en": "\"What if I can't find him? What if he is dead?\"",
+   "ctx": "lkeJaspisInfoAsk2"
+  },
+  {
+   "i": 18,
+   "en": "\"This could be dangerous. I need more details.\"",
+   "ctx": "lkeJaspisInfoAsk3"
+  },
+  {
+   "i": 19,
+   "en": "Ask about something else",
+   "ctx": "lkeJaspisInfoAsk4"
+  },
+  {
+   "i": 20,
+   "en": "\"What was his last known position?\"",
+   "ctx": "lkeJaspisStart2"
+  },
+  {
+   "i": 21,
+   "en": "\"Then I will find Bornanew.\"",
+   "ctx": "lkeJaspisStartHubOp1"
+  },
+  {
+   "i": 22,
+   "en": "\"I can promise only to try.\"",
+   "ctx": "lkeJaspisStartHubOp1b"
+  },
+  {
+   "i": 23,
+   "en": "\"Can you tell me more about his mission?\"",
+   "ctx": "lkeJaspisStartHubOp3"
+  },
+  {
+   "i": 24,
+   "en": "\"Can you tell me more about Bornanew?\"",
+   "ctx": "lkeJaspisStartHubOp6"
+  },
+  {
+   "i": 25,
+   "en": "\"You sound... a little bloodthirsty when it comes to the Path.\"",
+   "ctx": "lkeJaspisStartHubOp2"
+  },
+  {
+   "i": 26,
+   "en": "\"Is this about Brother Cotton?\"",
+   "ctx": "lkeJaspisStartHubOp5"
+  },
+  {
+   "i": 27,
+   "en": "\"He is acting as your spy.\"\r",
+   "ctx": "lkeJaspisStartHisMission"
+  },
+  {
+   "i": 28,
+   "en": "\"Is it possible he turned on you?\"",
+   "ctx": "lkeJaspisStartHisMission"
+  },
+  {
+   "i": 29,
+   "en": "\"I accept your view of him, but you must consider the possibility.\"\r",
+   "ctx": "lkeJaspisStartHisMission2"
+  },
+  {
+   "i": 30,
+   "en": "\"Then he may be... in trouble.\"\r",
+   "ctx": "lkeJaspisStartHisMission2"
+  },
+  {
+   "i": 31,
+   "en": "Speak of other matters",
+   "ctx": "lkeJaspisStartHisMission2"
+  },
+  {
+   "i": 32,
+   "en": "\"You don't know that he's dead.\"\r",
+   "ctx": "lkeJaspisStartBornanew2"
+  },
+  {
+   "i": 33,
+   "en": "\"... Again?\"\r",
+   "ctx": "lkeJaspisStartBornanew2"
+  },
+  {
+   "i": 34,
+   "en": "\"And you still want me to deliver your 'message' to Cotton.\"",
+   "ctx": "lkeJaspisStartCottonB"
+  },
+  {
+   "i": 35,
+   "en": "\"I'm looking for a man named Jethro Bornanew.\"",
+   "ctx": "lkeChalcedonVIPoptsHostile1"
+  },
+  {
+   "i": 36,
+   "en": "\"I'm looking for a Path recruiter.\"",
+   "ctx": "lkeChalcedonVIPoptsHostile2"
+  },
+  {
+   "i": 37,
+   "en": "\"And I shall send my marines to kill and burn if you don't give me what I want.\"",
+   "ctx": "lkeChalcedonVIPoptsHostile3"
+  },
+  {
+   "i": 38,
+   "en": "\"And I will bomb your pathetic cult from orbit if I don't get what I want.\"",
+   "ctx": "lkeChalcedonVIPoptsHostile4"
+  },
+  {
+   "i": 39,
+   "en": "\"This is a terrible misunderstanding! It's not what it looks like.\"",
+   "ctx": "lkeChalcedonVIPoptsHostile5"
+  },
+  {
+   "i": 40,
+   "en": "\"I want Jethro Bornanew.\"",
+   "ctx": "lkeChalcedonThreatGo2b"
+  },
+  {
+   "i": 41,
+   "en": "\"Make him use comms. An exception. For me.\"\r",
+   "ctx": "LKEchalcedonThreatGo4"
+  },
+  {
+   "i": 42,
+   "en": "\"Gee, that's too bad...\" (reach for controls)\r",
+   "ctx": "LKEchalcedonThreatGo4"
+  },
+  {
+   "i": 43,
+   "en": "\"A meeting, then.\"",
+   "ctx": "LKEchalcedonThreatGo4"
+  },
+  {
+   "i": 44,
+   "en": "\"I'm looking for someone who may have joined the Path.\"",
+   "ctx": "lkeChalcedonVIPFriendlyResp1"
+  },
+  {
+   "i": 45,
+   "en": "\"I'm looking for someone who recruits for the Path.\"",
+   "ctx": "lkeChalcedonVIPFriendlyResp2"
+  },
+  {
+   "i": 46,
+   "en": "\"Look, he had to talk to someone, right? A recruiter?\"",
+   "ctx": "lkeChalcedonVIPFriendlyResp2b"
+  },
+  {
+   "i": 47,
+   "en": "\"He came here to join the Luddic Path. His name is Jethro Bornanew.\"",
+   "ctx": "lkeChalcedonVIPFriendlyResp2c"
+  },
+  {
+   "i": 48,
+   "en": "\"I'm searching for Jethro Bornanew.\"",
+   "ctx": "lkeChalcedonVIPFriendlyResp3"
+  },
+  {
+   "i": 49,
+   "en": "\"Yours as well.\"\r",
+   "ctx": "lkeChalcedonLookingRecruiterB"
+  },
+  {
+   "i": 50,
+   "en": "\"I simply want to talk.\"\r",
+   "ctx": "lkeChalcedonLookingRecruiterC"
+  },
+  {
+   "i": 51,
+   "en": "\"I promise, I mean no ill-will. You have friends in the Church.\"\r",
+   "ctx": "lkeChalcedonLookingRecruiterC"
+  },
+  {
+   "i": 52,
+   "en": "\"I promise, I mean no ill-will. You have friends in the Church.\" (lie)",
+   "ctx": "lkeChalcedonLookingRecruiterC"
+  },
+  {
+   "i": 53,
+   "en": "\"You know what I mean. I'm looking for a person. A recruiter.\"\r",
+   "ctx": "lkeChalcedonLookingRecruiterD"
+  },
+  {
+   "i": 54,
+   "en": "\"I understand, but I'm looking for someone to talk to.\"\r",
+   "ctx": "lkeChalcedonLookingRecruiterD"
+  },
+  {
+   "i": 55,
+   "en": "\"Are you being intentionally dense? Just give me a straight answer.\"",
+   "ctx": "lkeChalcedonLookingRecruiterD"
+  },
+  {
+   "i": 56,
+   "en": "\"It is not my intention to cause you trouble, I'm simply looking for a man.\"\r",
+   "ctx": "lkeChalcedonLookingRecruiterD2"
+  },
+  {
+   "i": 57,
+   "en": "\"Perhaps a donation would help jog your memory?\"\r",
+   "ctx": "lkeChalcedonLookingRecruiterD2"
+  },
+  {
+   "i": 58,
+   "en": "Cut the comms",
+   "ctx": "lkeChalcedonLookingRecMad1"
+  },
+  {
+   "i": 59,
+   "en": "\"Who should I ask?\"",
+   "ctx": "lkeChalcedonLookingBornanewA2a"
+  },
+  {
+   "i": 60,
+   "en": "\"Who should I ask?\"\r",
+   "ctx": "lkeChalcedonLookingBornanewA2b"
+  },
+  {
+   "i": 61,
+   "en": "\"... Is it Brother Cotton?\"",
+   "ctx": "lkeChalcedonLookingBornanewA2b"
+  },
+  {
+   "i": 62,
+   "en": "\"So who should I ask?\"",
+   "ctx": "lkeChalcedonLookingBornanewA3b"
+  },
+  {
+   "i": 63,
+   "en": "\"Hey, that was my tea!\"",
+   "ctx": "lkeAskChalcedonBarStartB"
+  },
+  {
+   "i": 64,
+   "en": "\"I'm searching for a man called Jethro Bornanew.\"",
+   "ctx": "lkeChalcedonAskBarOptC"
+  },
+  {
+   "i": 65,
+   "en": "Thank him for his time and leave.",
+   "ctx": "lkeChalcedonAskBarOptD"
+  },
+  {
+   "i": 66,
+   "en": "\"I'm after information, not killing. It's just talk.\"\r",
+   "ctx": "lkeChalcedonAskBarRespB"
+  },
+  {
+   "i": 67,
+   "en": "\"Agreed.\"\r",
+   "ctx": "lkeChalcedonAskBarRespC"
+  },
+  {
+   "i": 68,
+   "en": "\"It's just talk, how about 1000?\"\r",
+   "ctx": "lkeChalcedonAskBarRespC"
+  },
+  {
+   "i": 69,
+   "en": "Decline and leave",
+   "ctx": "lkeChalcedonAskBarRespC"
+  },
+  {
+   "i": 70,
+   "en": "Keep the party going\r",
+   "ctx": "lkeChalcedonAskBarMeetingSet"
+  },
+  {
+   "i": 71,
+   "en": "Make some excuse and leave",
+   "ctx": "lkeChalcedonAskBarMeetingSet"
+  },
+  {
+   "i": 72,
+   "en": "Need t'find the lav...",
+   "ctx": "lkeChalcedonBarDrinkLotsMore"
+  },
+  {
+   "i": 73,
+   "en": "Draw your sarm. Side-arm, tha'sit. Draw your sidearm.",
+   "ctx": "lkeChalcedonBarDrinkLotsMore2b"
+  },
+  {
+   "i": 74,
+   "en": "Step through the door\r",
+   "ctx": "lkeChalcedonBarReturnNextDay2bar"
+  },
+  {
+   "i": 75,
+   "en": "Prepare your sidearm, then step through the door\r",
+   "ctx": "lkeChalcedonBarReturnNextDay2bar"
+  },
+  {
+   "i": 76,
+   "en": "Call your bodyguards, then step through the door",
+   "ctx": "lkeChalcedonBarReturnNextDay2bar"
+  },
+  {
+   "i": 77,
+   "en": "Step through the door",
+   "ctx": "lkeChalcedonBarReturnNextDay2b"
+  },
+  {
+   "i": 78,
+   "en": "React",
+   "ctx": "lkeChalcedonBarReturnNextDay4"
+  },
+  {
+   "i": 79,
+   "en": "\"Why did you kill him?\"",
+   "ctx": "lkeChalcedonBarSedgeOptKill2"
+  },
+  {
+   "i": 80,
+   "en": "\"And who are you?\"",
+   "ctx": "lkeChalcedonBarSedgeOptB"
+  },
+  {
+   "i": 81,
+   "en": "\"You're the recruiter.\"",
+   "ctx": "lkeChalcedonBarSedgeOptC"
+  },
+  {
+   "i": 82,
+   "en": "\"I'm looking for a man called Jethro Bornanew.\"",
+   "ctx": "lkeChalcedonBarSedgeOptA"
+  },
+  {
+   "i": 83,
+   "en": "Show a picture of Jethro Bornanew, \"Recognize him?\"",
+   "ctx": "lkeChalcedonBarSedgeOptA2"
+  },
+  {
+   "i": 84,
+   "en": "\"You drank my tea.\"",
+   "ctx": "lkeChalcedonBarSedgeOptD"
+  },
+  {
+   "i": 85,
+   "en": "\"You can't just drink people's tea.\"",
+   "ctx": "lkeChalcedonBarSedgeOptD2"
+  },
+  {
+   "i": 86,
+   "en": "Signal for something stronger from the proprietor.",
+   "ctx": "lkeChalcedonBarSedgeOptE"
+  },
+  {
+   "i": 87,
+   "en": "\"They're afraid. So might-makes-right and terror rules. You think this is righteous?\"",
+   "ctx": "lkeChalcedonBarSedgeSmashA"
+  },
+  {
+   "i": 88,
+   "en": "\"They respect you. Because you are willing to do what needs to be done.\"",
+   "ctx": "lkeChalcedonBarSedgeSmashB"
+  },
+  {
+   "i": 89,
+   "en": "\"How can you murder a man in cold blood and think yourself righteous?\"",
+   "ctx": "lkeChalcedonSedgeOptMurder"
+  },
+  {
+   "i": 90,
+   "en": "\"You murder because you feel like its right? That's insane.\"",
+   "ctx": "lkeChalcedonSedgeOptFaithA"
+  },
+  {
+   "i": 91,
+   "en": "\"What you say about faith alone, not deeds, it... makes sense.\"",
+   "ctx": "lkeChalcedonSedgeOptFaithB"
+  },
+  {
+   "i": 92,
+   "en": "\"You do what you want and think faith makes it good? That's insane.\"",
+   "ctx": "lkeChalcedonSedgeOptFaithC"
+  },
+  {
+   "i": 93,
+   "en": "\"What you say about following faith alone, it... makes sense.\"",
+   "ctx": "lkeChalcedonSedgeOptFaithD"
+  },
+  {
+   "i": 94,
+   "en": "Change the subject\r",
+   "ctx": "lkeAskSedgeMurder"
+  },
+  {
+   "i": 95,
+   "en": "\"I expect some worldly authority will judge you, and not well.\" \r",
+   "ctx": "lkeAskSedgeMurder"
+  },
+  {
+   "i": 96,
+   "en": "\"How much blood must you spill to be allowed into Heaven?\"\r",
+   "ctx": "lkeAskSedgeMurder"
+  },
+  {
+   "i": 97,
+   "en": "\"What good deeds of yours outweigh such casual murder?\"\r",
+   "ctx": "lkeAskSedgeMurder"
+  },
+  {
+   "i": 98,
+   "en": "\"You killed an evil man? Then I spoke too soon.\"",
+   "ctx": "lkeAskSedgeMurder"
+  },
+  {
+   "i": 99,
+   "en": "\"To finding lost things.\" \r",
+   "ctx": "lkeChalcedonBarSedgeRespE"
+  },
+  {
+   "i": 100,
+   "en": "\"Are you allowed to drink this?\"\r",
+   "ctx": "lkeChalcedonBarSedgeRespE"
+  },
+  {
+   "i": 101,
+   "en": "\"Got a prayer for this?\"",
+   "ctx": "lkeChalcedonBarSedgeRespE"
+  },
+  {
+   "i": 102,
+   "en": "\"That led me to you. Will you shoot me as well?\"",
+   "ctx": "LKEchalcedonSedgeKillRespsA"
+  },
+  {
+   "i": 103,
+   "en": "\"I could kill you.\"",
+   "ctx": "LKEchalcedonSedgeKillRespsB"
+  },
+  {
+   "i": 104,
+   "en": "\"I could have you killed.\"",
+   "ctx": "LKEchalcedonSedgeKillRespsC"
+  },
+  {
+   "i": 105,
+   "en": "\"Yes, you did him a mercy.\"",
+   "ctx": "LKEchalcedonSedgeKillRespsD"
+  },
+  {
+   "i": 106,
+   "en": "\"He drank too much anyway.\"",
+   "ctx": "LKEchalcedonSedgeKillRespsE"
+  },
+  {
+   "i": 107,
+   "en": "\"Mazalot? Why?\"",
+   "ctx": "lkeSedgeShowPic2"
+  },
+  {
+   "i": 108,
+   "en": "Watch him leave",
+   "ctx": "lkeSedgeEndShootNo"
+  },
+  {
+   "i": 109,
+   "en": "Shoot him in the back",
+   "ctx": "lkeSedgeEndShootA"
+  },
+  {
+   "i": 110,
+   "en": "Grab your sidearm and shoot Sedge in the back",
+   "ctx": "lkeSedgeEndShootB1"
+  },
+  {
+   "i": 111,
+   "en": "Shoot Sedge in the back",
+   "ctx": "lkeSedgeEndShootB2"
+  },
+  {
+   "i": 112,
+   "en": "Have one of your guards shoot him in the back",
+   "ctx": "lkeSedgeEndShootC"
+  },
+  {
+   "i": 113,
+   "en": "Check to make sure he is dead",
+   "ctx": "lkeSedgeEndBarShoot"
+  },
+  {
+   "i": 114,
+   "en": "\"I'm not going to stop my search.\"",
+   "ctx": "lkePatherFleetRespA"
+  },
+  {
+   "i": 115,
+   "en": "\"If that is what the Path demands, I will cease.\" (lie)",
+   "ctx": "lkePatherFleetRespB"
+  },
+  {
+   "i": 116,
+   "en": "\"I serve the Faith, and I search for a servant of the Faith. What would battle serve?\"",
+   "ctx": "lkePatherFleetRespC"
+  },
+  {
+   "i": 117,
+   "en": "\"I wish to serve the Path; finding Bornanew will serve the cause we share.\"",
+   "ctx": "lkePatherFleetRespD"
+  },
+  {
+   "i": 118,
+   "en": "\"Finding Bornanew will serve the Path. Have faith.\"",
+   "ctx": "lkePatherFleetRespE"
+  },
+  {
+   "i": 119,
+   "en": "\"What else did Brother Cotton say? Is that all?\"",
+   "ctx": "lkePatherFleetRespF"
+  },
+  {
+   "i": 120,
+   "en": "\"I need to contact Brother Cotton. I have something for him.\"",
+   "ctx": "lkePatherFleetRespG"
+  },
+  {
+   "i": 121,
+   "en": "\"You demand what your puny fleet cannot impose. Flee now.\"",
+   "ctx": "lkePatherFleetRespH"
+  },
+  {
+   "i": 122,
+   "en": "\"You talk a lot. Sure you're up for this?\"",
+   "ctx": "lkePatherFleetRespI"
+  },
+  {
+   "i": 123,
+   "en": "\"Stand down, $brotherOrSister. I am following the orders of Livewell Cotton.\"",
+   "ctx": "lkePatherFleetRespK"
+  },
+  {
+   "i": 124,
+   "en": "\"We are no fools. Save your strength, $brotherOrSister.\"\r",
+   "ctx": "LKEpatherFleetServeFaith"
+  },
+  {
+   "i": 125,
+   "en": "\"You would be a fool, and a heretic besides, to stand in my way.\"",
+   "ctx": "LKEpatherFleetServeFaith"
+  },
+  {
+   "i": 126,
+   "en": "\"Yes, over tea. Would that we all could serve the Path with such grace and charm.\"",
+   "ctx": "LKEpatherFleetSPOpt"
+  },
+  {
+   "i": 127,
+   "en": "\"It must; truly we are blessed to walk aside him.\"",
+   "ctx": "LKEpatherFleetSPOpt2"
+  },
+  {
+   "i": 128,
+   "en": ">> (dev) LKE testing menu",
+   "ctx": "lkeDevMazMenuOption"
+  },
+  {
+   "i": 129,
+   "en": "set $player.gotYaribayCredentials true",
+   "ctx": "LKEmazTestSetting1"
+  },
+  {
+   "i": 130,
+   "en": "set $player.metSiyavong true",
+   "ctx": "LKEmazTestSetting2"
+  },
+  {
+   "i": 131,
+   "en": "Test Bornanew end convo",
+   "ctx": "LKEmazTestSetting3"
+  },
+  {
+   "i": 132,
+   "en": "\"Your administrator, Dardan Kato, seems to have a low opinion of 'Luddies'.\"",
+   "ctx": "LKEmazalotAskPortmasterDardan"
+  },
+  {
+   "i": 133,
+   "en": "\"I'm looking for a man who may be involved in the Luddic Path.\"",
+   "ctx": "LKEmazalotAskPortmasterPath"
+  },
+  {
+   "i": 134,
+   "en": "\"This is very important. His name is Jethro Bornanew.\"",
+   "ctx": "LKEmazalotAskPMresp1"
+  },
+  {
+   "i": 135,
+   "en": "\"I share your desire to both respect the Faith... and handle this matter quietly. With your help.\"",
+   "ctx": "LKEmazalotAskPMresp2"
+  },
+  {
+   "i": 136,
+   "en": "\"I have credentials from Gens Yaribay. Horus Yaribay personally asked me to investigate this matter.\" (lie)",
+   "ctx": "LKEmazalotAskPMresp3"
+  },
+  {
+   "i": 137,
+   "en": "\"I am pursuing this matter for an archcurate of the Church.\"",
+   "ctx": "LKEmazalotAskPMresp4"
+  },
+  {
+   "i": 138,
+   "en": "\"I understand. Let us speak of other things.\"",
+   "ctx": "LKEmazalotAskPMresp5"
+  },
+  {
+   "i": 139,
+   "en": "\"Kato, Yaribay, what difference does it make?\"\r",
+   "ctx": "LKEmazalotAskPMYaribay"
+  },
+  {
+   "i": 140,
+   "en": "\"Yaribay wants to find Jethro Bornanew. He may be involved with Pathers.\"",
+   "ctx": "LKEmazalotAskPMYaribay"
+  },
+  {
+   "i": 141,
+   "en": "\"I'm looking for Jethro Bornanew. He may be involved with the Path.\"\r",
+   "ctx": "LKEmazalotAskPMYaribayA1"
+  },
+  {
+   "i": 142,
+   "en": "\"Is there some kind of problem?\"",
+   "ctx": "LKEmazalotAskPMYaribayA1"
+  },
+  {
+   "i": 143,
+   "en": "\"Jethro. Jethro Bornanew.\"\r",
+   "ctx": "LKEmazalotAskPMYaribayB1"
+  },
+  {
+   "i": 144,
+   "en": "\"Jethro Bornanew must be found. If not by me, another will come.\"",
+   "ctx": "LKEmazalotAskPMchurchResp2"
+  },
+  {
+   "i": 145,
+   "en": "\"I understand. I won't tell the administrator.\" (lie)",
+   "ctx": "LKEmazalotAskPMchurchResp3"
+  },
+  {
+   "i": 146,
+   "en": "\"I understand. I won't tell the administrator.\"",
+   "ctx": "LKEmazalotAskPMchurchResp4"
+  },
+  {
+   "i": 147,
+   "en": "\"I'm looking for whoever is in charge of the Luddic Path around here.\"",
+   "ctx": "LKEmazalotAskQuartermaster2"
+  },
+  {
+   "i": 148,
+   "en": "\"I need to make contact with the Luddic Path on Mazalot.\"\r",
+   "ctx": "LKEmazQMTryYaribay"
+  },
+  {
+   "i": 149,
+   "en": "\"You know what, forget I said anything about Yaribay.\"",
+   "ctx": "LKEmazQMTryYaribay"
+  },
+  {
+   "i": 150,
+   "en": "\"I'm afraid not. I have to protect your identity.\"\r",
+   "ctx": "LKEmazQMTryYaribayA"
+  },
+  {
+   "i": 151,
+   "en": "\"Sure.\" (lie)",
+   "ctx": "LKEmazQMTryYaribayA"
+  },
+  {
+   "i": 152,
+   "en": "\"Thank you for your service.\"",
+   "ctx": "LKEmazQMTryYaribayA3b"
+  },
+  {
+   "i": 153,
+   "en": "\"Sounds serious. I'll keep my nose clean.\"\r",
+   "ctx": "LKEmazalotAskQMPath"
+  },
+  {
+   "i": 154,
+   "en": "\"'Worth it'? So you know what the Path will pay for collaboration?\"",
+   "ctx": "LKEmazalotAskQMPath"
+  },
+  {
+   "i": 155,
+   "en": "\"I'm on a mission on behalf of an archcurate of the Church of Galactic Redemption.\"",
+   "ctx": "LKEmazalotAskAdminChurch"
+  },
+  {
+   "i": 156,
+   "en": "\"I'm working for Horus Yaribay. Of Gens Yaribay. You know them?\"",
+   "ctx": "LKEmazalotAskAdministrator3"
+  },
+  {
+   "i": 157,
+   "en": "\"You help me, then Yaribay owes you one. Deal?\"\r",
+   "ctx": "LKEmazDKTellAboutYaribay"
+  },
+  {
+   "i": 158,
+   "en": "\"For the good of the League, I am asking for your help.\"\r",
+   "ctx": "LKEmazDKTellAboutYaribay"
+  },
+  {
+   "i": 159,
+   "en": "\"I'm sure Gens Yaribay will make some kind of concession.\"\r",
+   "ctx": "LKEmazDKTellAboutYaribay"
+  },
+  {
+   "i": 160,
+   "en": "\"I have credentials from Gens Yaribay. Horus Yaribay personally asked me to investigate this matter.\" (lie)\r",
+   "ctx": "LKEmazAdminAskBornanew2yar"
+  },
+  {
+   "i": 161,
+   "en": "Say nothing",
+   "ctx": "LKEmazAdminAskBornanew2yar"
+  },
+  {
+   "i": 162,
+   "en": "\"So help me. Who runs the Path around here?\"",
+   "ctx": "LKEmazAdminAskBornanew1b"
+  },
+  {
+   "i": 163,
+   "en": "\"Where can I find Nile Virens?\"",
+   "ctx": "LKEmazAdminAskBornanewPL1"
+  },
+  {
+   "i": 164,
+   "en": "\"You can count on me.\"\r",
+   "ctx": "LKEmazAdminAskBornanewPL2"
+  },
+  {
+   "i": 165,
+   "en": "\"...We'll see. Thank you for you cooperation.\"",
+   "ctx": "LKEmazAdminAskBornanewPL2"
+  },
+  {
+   "i": 166,
+   "en": "\"That's right. Know anything about Jethro Bornanew?\"\r",
+   "ctx": "LKEmazalotAskAdminBugged"
+  },
+  {
+   "i": 167,
+   "en": "\"Isn't 'Luddie' a bit derogatory?\"\r",
+   "ctx": "LKEmazalotAskAdminBugged"
+  },
+  {
+   "i": 168,
+   "en": "\"We prefer the word 'Faithful' or 'Walker'. 'Follower of Ludd' can work, if you like.\"",
+   "ctx": "LKEmazalotAskAdminBugged"
+  },
+  {
+   "i": 169,
+   "en": "\"Yes, I am searching for an agent of the Church. He came here.\"",
+   "ctx": "LKEmazAdminTellChurch"
+  },
+  {
+   "i": 170,
+   "en": "\"I'm looking for someone. Having trouble finding the right path.\"",
+   "ctx": "LKEaskMazalotBarStart"
+  },
+  {
+   "i": 171,
+   "en": "\"I'm looking for someone. Having trouble finding the right... path.\"",
+   "ctx": "LKEaskMazalotBarStartB"
+  },
+  {
+   "i": 172,
+   "en": "\"Just info? Let's call it 1,000 credits.\"\r",
+   "ctx": "LKEaskMazalotBar2"
+  },
+  {
+   "i": 173,
+   "en": "\"I'm in a hurry, how's 3,000 credits?\"\r",
+   "ctx": "LKEaskMazalotBar2"
+  },
+  {
+   "i": 174,
+   "en": "\"Sorry, friend. Tap's run dry.\" (leave)",
+   "ctx": "LKEaskMazalotBar2"
+  },
+  {
+   "i": 175,
+   "en": "Transfer the credits\r",
+   "ctx": "LKEaskMazalotBarOffer1k"
+  },
+  {
+   "i": 176,
+   "en": "\"Before we continue, allow me to show you my diplomatic credentials from Gens Yaribay.\"",
+   "ctx": "lkeMazBarAgentOptYaribay"
+  },
+  {
+   "i": 177,
+   "en": "\"Agent, you should know that I am a commissioned privateer of the Persean League Fleet.\"",
+   "ctx": "lkeMazBarAgentOptLeague"
+  },
+  {
+   "i": 178,
+   "en": "\"Agent, I am acting on behalf of an archcurate of the Church of Galactic Redemption.\"",
+   "ctx": "lkeMazBarAgentOptArchcurate"
+  },
+  {
+   "i": 179,
+   "en": "\"My name is Finlay Siyavong of Fleet Intelligence and I have questions for you.\"",
+   "ctx": "lkeMazBarAgentOptSiyavong"
+  },
+  {
+   "i": 180,
+   "en": "\"6,000 credits, then?\"",
+   "ctx": "lkeMazBarAgentOptBribe"
+  },
+  {
+   "i": 181,
+   "en": "Punch the MUA agent in the face and make a break for it",
+   "ctx": "lkeMazBarAgentOptPunch"
+  },
+  {
+   "i": 182,
+   "en": "\"Who runs the Path around here? I need information.\"",
+   "ctx": "lkeMazBarAgentRespYaribay"
+  },
+  {
+   "i": 183,
+   "en": "Leave without a word\r",
+   "ctx": "lkeMazBarAgentHelp1"
+  },
+  {
+   "i": 184,
+   "en": "\"Your assistance will be noted in the after action report.\"",
+   "ctx": "lkeMazBarAgentHelp1"
+  },
+  {
+   "i": 185,
+   "en": "\"I'm not sure this aligns with Administrator Kato's policies. Perhaps we should comms him and ask?\"",
+   "ctx": "lkeMazBarAgentFineKatoOption"
+  },
+  {
+   "i": 186,
+   "en": "(raise your voice) \"I would think that the MUA would cooperate with a Church investigation into Pather activity.\"",
+   "ctx": "lkeMazBarAgentFineLoudOption"
+  },
+  {
+   "i": 187,
+   "en": "Pay the fine",
+   "ctx": "lkeMazBarAgentFineFineOption"
+  },
+  {
+   "i": 188,
+   "en": "Maintain eye contact\r",
+   "ctx": "lkeMazBarAgentKatoThreat"
+  },
+  {
+   "i": 189,
+   "en": "Turn back to the bar",
+   "ctx": "lkeMazBarFineEyeContactEO3"
+  },
+  {
+   "i": 190,
+   "en": "Punch the MUA agent in the face and make a break for it\r",
+   "ctx": "lkeMazBarFineEyeContact"
+  },
+  {
+   "i": 191,
+   "en": "\"Hold on. I paid for information - I expect to get it.\"",
+   "ctx": "lkeMazBarAgentRespBribe2"
+  },
+  {
+   "i": 192,
+   "en": "\"Shall we call up Dardan Kato and explain the bribe I just paid?\"",
+   "ctx": "lkeMazBarAgentRespBribe3a"
+  },
+  {
+   "i": 193,
+   "en": "\"Shall we call up the administrator and explain the bribe I just paid?\"",
+   "ctx": "lkeMazBarAgentRespBribe3b"
+  },
+  {
+   "i": 194,
+   "en": "\"Of course. Good day, officer.\"",
+   "ctx": "lkeMazBarAgentRespBribe3c"
+  },
+  {
+   "i": 195,
+   "en": "Slip out the back door",
+   "ctx": "lkeMazBarAgentRespPunch"
+  },
+  {
+   "i": 196,
+   "en": "Get back to your $shipOrFleet",
+   "ctx": "lkeMazBarAgentRespPunch2"
+  },
+  {
+   "i": 197,
+   "en": "Berate the officer",
+   "ctx": "lkeMazBarAgentRespSiyavong"
+  },
+  {
+   "i": 198,
+   "en": "Keep berating",
+   "ctx": "lkeMazBarAgentRespSiyavong2"
+  },
+  {
+   "i": 199,
+   "en": "Continue berating",
+   "ctx": "lkeMazBarAgentRespSiyavong3"
+  },
+  {
+   "i": 200,
+   "en": "\"Your cooperation will be noted.\"",
+   "ctx": "lkeMazBarAgentRespSiyavong4"
+  },
+  {
+   "i": 201,
+   "en": "\"What is it?\"",
+   "ctx": "LKEmazalotFreebieAdvance0"
+  },
+  {
+   "i": 202,
+   "en": "\"And?\"",
+   "ctx": "LKEmazalotFreebieAdvance1"
+  },
+  {
+   "i": 203,
+   "en": "Someone like me",
+   "ctx": "LKEmazalotFreebieAdvance2"
+  },
+  {
+   "i": 204,
+   "en": "Have your comms officer babysit the link request\r",
+   "ctx": "lkeVirensCommGreeting"
+  },
+  {
+   "i": 205,
+   "en": "Close the comms interface",
+   "ctx": "lkeVirensCommsFirstWait"
+  },
+  {
+   "i": 206,
+   "en": "\"He's invited me for tea, hasn't he.\"",
+   "ctx": "lkeVirensComms2"
+  },
+  {
+   "i": 207,
+   "en": "Take a shuttle down to meet with Nile Virens",
+   "ctx": "LKEshuttleToVirens"
+  },
+  {
+   "i": 208,
+   "en": "Hand over your sidearm\r",
+   "ctx": "LKEshuttleToVirens2a"
+  },
+  {
+   "i": 209,
+   "en": "\"Don't worry, I'm not here to shoot anyone.\"\r",
+   "ctx": "LKEshuttleToVirens2a"
+  },
+  {
+   "i": 210,
+   "en": "\"I will not surrender my sidearm.\"\r",
+   "ctx": "LKEshuttleToVirens2a"
+  },
+  {
+   "i": 211,
+   "en": "\"You'll have to take it from my cold, dead hands.\"\r",
+   "ctx": "LKEshuttleToVirens2a"
+  },
+  {
+   "i": 212,
+   "en": "Sit and drink\r",
+   "ctx": "LKEvirensStart0a"
+  },
+  {
+   "i": 213,
+   "en": "Remain standing",
+   "ctx": "LKEvirensStart0a"
+  },
+  {
+   "i": 214,
+   "en": "\"Why did you invite me here?\"",
+   "ctx": "LKEvirensConvOptB"
+  },
+  {
+   "i": 215,
+   "en": "\"Why did you take my sidearm?\"",
+   "ctx": "LKEvirensConvOptC"
+  },
+  {
+   "i": 216,
+   "en": "\"You're a lot more polite than Sedge.\"",
+   "ctx": "LKEvirensConvOptD"
+  },
+  {
+   "i": 217,
+   "en": "\"How does a man like you ally yourself with a man like Sedge?\"",
+   "ctx": "LKEvirensConvOptE"
+  },
+  {
+   "i": 218,
+   "en": "Sit and take a cup of tea",
+   "ctx": "LKEvirensConvOptF"
+  },
+  {
+   "i": 219,
+   "en": "\"He would have killed me without hesitation, given the chance.\"\r",
+   "ctx": "LKEvirensAskWhyKillSedgeTruOpts"
+  },
+  {
+   "i": 220,
+   "en": "\"I didn't like him. That's why.\"\r",
+   "ctx": "LKEvirensAskWhyKillSedgeTruOpts"
+  },
+  {
+   "i": 221,
+   "en": "\"He drank my tea. It was my. Tea.\"\r",
+   "ctx": "LKEvirensAskWhyKillSedgeTruOpts"
+  },
+  {
+   "i": 222,
+   "en": "\"His anti-technological terrorism is a threat to the future of the Persean Sector.\"\r",
+   "ctx": "LKEvirensAskWhyKillSedgeTruOpts"
+  },
+  {
+   "i": 223,
+   "en": "\"He was a brute who ruled through terror.\"\r",
+   "ctx": "LKEvirensAskWhyKillSedgeTruOpts"
+  },
+  {
+   "i": 224,
+   "en": "\"Because he's a Pather. It's what all Pathers deserve.\"\r",
+   "ctx": "LKEvirensAskWhyKillSedgeTruOpts"
+  },
+  {
+   "i": 225,
+   "en": "\"His manner and actions pollute the purity of the Path.\"\r",
+   "ctx": "LKEvirensAskWhyKillSedgeTruOpts"
+  }
+ ]
+}

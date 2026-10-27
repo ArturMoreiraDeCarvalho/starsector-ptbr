@@ -1,0 +1,161 @@
+{
+ "chunk": 252,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "The problem is that all the competition is driving prices down - and this cartel of mercs decided to cut a deal with some pirates to solve the problem.\r\n\r\nIt's the perfect trap, really: a stream of under-prepared prey gets fed to the pirates, enhancing their reputation. The supply of mercs taking low-ball contracts is reduced, driving up the prices of the old guard cartel. And, best of all, it's deniable: if the pirates are destroyed, so are the cartel's partners in their conspiracy.",
+   "ctx": "data/campaign/rules.csv PSKMercOptionsStory2 [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"Bring only enough materiel to complete the job,\" $heOrShe finishes for you. \"Otherwise you're burning net profit to bring extra warships not needed for the fight. Yes, I'm a professional and have done the calculations.\"\r\n\r\nThe merc pauses for a moment, thinking over what you've said.\r\n\r\n\"Very clever,\" $heOrShe says, seeming to regard you more as a comrade now than an interloper. \"Naturally this cartel will deny it if confronted. Almost wish I'd thought of the scheme myself,\" a ruthless grin appears, \"But I'll settle for the higher rates resulting from their cull of the herd.\"\r\n\r\n\"Thanks for the tip, captain. There's another job on the docket that I liked better anyway.\"",
+   "ctx": "data/campaign/rules.csv PSKMercOptionsStory3 [text]"
+  },
+  {
+   "i": 3,
+   "en": "$HeOrShe takes your words in for a moment, thinking.\r\n\r\n\"Wide is the chasm between us,\" $heOrShe says. \"You know our aims, and our resolve. We know of the madness which drives you to construct ever larger shrines to Moloch. Alas, if but our prayers were answered! If but your heart was not deaf to Ludd's Word.\"\r\n\r\n\"At an impasse, we resort to holy war. But perhaps you and I could explore an alternative - I am not without compromise, despite the lies you've been told.\"",
+   "ctx": "data/campaign/rules.csv PKPatherComStart [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"Nor we with a defiler of Creation,\" $heOrShe says calmly. \"But you know that's not always true.\"",
+   "ctx": "data/campaign/rules.csv PKPatherComDontNegotiate [text]"
+  },
+  {
+   "i": 5,
+   "en": "A hint of a smile crosses $hisOrHer lips. \"We understand one another.\"\r\n\r\n\"There is little we want from you; not credits, not ships. However,\" $heOrShe pauses deliberately. \"There is something.\"\r\n\r\n\"It would persuade me, and others of like mind in my organization, to set aside the purification of your industries... until Armageddon, of course, when our armies will meet yours in final battle. But until that glorious day you could enjoy your trinkets and idols.\"",
+   "ctx": "data/campaign/rules.csv PKPathRecoverMission1 [text]"
+  },
+  {
+   "i": 6,
+   "en": "$HeOrShe gives a nod, \"One planetkiller weapon.\"",
+   "ctx": "data/campaign/rules.csv PKPathRecoverMission2 [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"I see by your face that you know of these abominations; that unholy craft of the Domain, murderer of Opis and its billions; and Hanan Pacha, and countless others.\"\r\n\r\n\"I know where one may be found. Bring it to me and our holy war against you shall end.\" $HeOrShe lowers $hisOrHer head just a little, \"Until the end of the world.\"",
+   "ctx": "data/campaign/rules.csv PKPathRecoverMission3 [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"That as which was foretold by Ludd,\" $heOrShe says. \"There are a number of signs which were prophesied. Some, but not all, have come to pass.\" ",
+   "ctx": "data/campaign/rules.csv PKPatherAskEndOfWorld [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"This should be an easy deal for you, captain. As an unbeliever, you do not know the rightful fear - and glorious anticipation - of Armageddon.\"",
+   "ctx": "data/campaign/rules.csv PKPatherAskEndOfWorldA [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"Revealing our stratagems is not part of the deal,\" $heOrShe says.\r\n\r\nThe Pather won't say, of course.\r\n\r\nThey could very well be trying to make you party to the Path's greatest atrocity since the destruction of the world of Mairaath. Where would they use a PK, Chicomoztoc? Culann? Kazeron?\r\n\r\nMillions would die, and the strategic keystone of a major faction reduced to ash.",
+   "ctx": "data/campaign/rules.csv PKPatherAskWhatDo [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"Some have tried.\" $HeOrShe pauses, eyes lost for just a moment. \"They did not return.\"\r\n\r\nWherever it is, it must be very dangerous or somehow beyond the technical capacity of the Luddic Path to retrieve.\r\n\r\nSo it's probably well-guarded.",
+   "ctx": "data/campaign/rules.csv PKPatherAskWhyYouNot [text]"
+  },
+  {
+   "i": 12,
+   "en": "$HisOrHer lip quirks, something like amusement. \"The Persean Sector is filled with slaves of Mammon. They would sell even their family for mere lucre. A cold lead to a planetkiller, one they believe is hidden behind the claws and teeth of their own AI abominations?\"\r\n\r\n\"That is a whisper easily bought.\"",
+   "ctx": "data/campaign/rules.csv PKPatherAskHowInfo [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"Then think, and return if you find wisdom,\" $heOrShe says, and drums $hisOrHer fingers a couple times on the comms-console.\r\n\r\n\"Perhaps a braver, or greedier, heretic will accept my offer first. Perhaps not.\"",
+   "ctx": "data/campaign/rules.csv PKPatherSayThink [text]"
+  },
+  {
+   "i": 14,
+   "en": "$HeOrShe nods without surprise or consternation. \"Then the holy war shall continue.\"",
+   "ctx": "data/campaign/rules.csv PKPatherSayNo [text]"
+  },
+  {
+   "i": 15,
+   "en": "The Pather taps something on a datapad, opening a shared dataspace. \"There's a den of abominations - what you would call a Remnant Nexus - which contains data about a Hegemony fleet that had a planetkiller. It is in the $pk_nexusSystemName.\" \r\n\r\n$HeOrShe holds up a hand in anticipation of your questions. \"We have confirmed that this Tri-Tachyon source is reliable; their details match Hegemony records concerning a strategic data breach, and a subsequent fleet lost during the first AI War.\"\r\n\r\n\"Don't look so surprised, captain,\" $heOrShe says, chidingly. \"Faith in Ludd's Word does not contradict worldly expertise.\"",
+   "ctx": "data/campaign/rules.csv PKPatherRecoverMissionSel [text]"
+  },
+  {
+   "i": 16,
+   "en": "The Pather taps something on an old datapad, then pauses. And carefully looks at you.\r\n\r\n\"Something in my spirit hesitates. Why should that be?\" $HeOrShe slowly puts the datapad down. \"How did you, a slave to Moloch, come to speak with me so readily? Is this a ruse to use the information so-revealed to ourselves for your own ends? Or for Tri-Tachyon? The Hegemony?\"\r\n\r\nYou can see $hisOrHer expression turning from distrust to disgust. \"I won't be your dupe, your fool, your means of finding the tool of the defiler!\" $HeOrShe stands, shouting, \"Begone from here!\"",
+   "ctx": "data/campaign/rules.csv PKPatherRecoverMissionSelGenFail [text]"
+  },
+  {
+   "i": 17,
+   "en": "As long as the Pathers don't use the planetkiller on you, then it's not your problem. Maybe they'll just throw it into a black hole, who can say?",
+   "ctx": "data/campaign/rules.csv PKPatherSayYes [text]"
+  },
+  {
+   "i": 18,
+   "en": "It would be madness to actually give the planetkiller to the Pather. But if the lead is good, you could remove it from their potential grasp - and decide for yourself where it should end up.",
+   "ctx": "data/campaign/rules.csv PKPatherSayYesLie [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"I shall pray for your safe return,\" $heOrShe says without irony.",
+   "ctx": "data/campaign/rules.csv pkPatherMissionBeginReal [text]"
+  },
+  {
+   "i": 20,
+   "en": "$PersonName's eyes narrow, fully aware that you now know their lead on the planetkiller and have no stated intent to fulfill the proposed deal.\r\n\r\n\"I shall pray for you,\" $heOrShe says without apparent irony.",
+   "ctx": "data/campaign/rules.csv pkPatherRcoverMissionAbortSel [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"$PlayerSirOrMadam!\" \r\n\r\nYour comms officer calls for your attention with an excited look, \"I'm picking up an anomalous signal, it's an open channel. Just a carrier signal, a low-grade military fallback standard. Very faint and lossy. We're really only picking this up because of the MILAUX package installed in our comms system to help integrate with Hegemony fleet actions.\"\r\n\r\n\"Shall I open a link?\" Their hands don't quite tremble over the controls. Whatever is using this frequency is either Hegemony or has some of their less secure emergency codes.",
+   "ctx": "data/campaign/rules.csv pkCacheDefenderPreEmpt [text]"
+  },
+  {
+   "i": 22,
+   "en": "Your comms officer tags the faint carrier wave which is using an obscure Hegemony signal standard. Someone - or perhaps no one - has been waiting for a response for quite some time.\r\n \r\n\"Shall I open a link?\" your comms officer asks, mostly keeping their excitement over a mystery signal under control. Mostly.",
+   "ctx": "data/campaign/rules.csv pkCacheDefenderPreEmpt2 [text]"
+  },
+  {
+   "i": 23,
+   "en": "Comms opens the link. Your sensors and tactical officers start flickering interfaces on their control consoles, and they exchange a look.\r\n\r\nTactical begins with a report, \"SIGINT matches... almost... with previous encounters with autonomous Domain warships.\"\r\n\r\n\"I think,\" your comms officer jumps in, \"I think I can convince their governing routines to stand-down from aggressive guard mode. We've got part of a very old Domain codeset in the Hegemony MILAUX package, meant to help auxiliaries avoid getting blasted by auto-defenses. We can't order a complete stand-down though; they didn't give us everything.\"",
+   "ctx": "data/campaign/rules.csv pk_investigateSel [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"It's strange, $playerSirOrMadam,\" your tactical officer says, eyes flicking between displays. \"They're using protocols newer than Domain-era, but certainly not recent Hegemony. It looks like something out of... the First AI War, I'd say.\"\r\n\r\nWhich could suggest something dangerous, and potentially more sophisticated than the current standard of Persean Sector military technology.",
+   "ctx": "data/campaign/rules.csv pkAlmost [text]"
+  },
+  {
+   "i": 25,
+   "en": "Your comms officer gives a sanguine \"Aye $playerSirOrMadam!\" and starts transmitting. Your tactical officer turns to their station with a grim look.\r\n\r\nYou're not held long in suspense, for a fraction of a second after transmission an acknowledgment ping flashes on your comms officer's console. The asteroid blooms, casting undetected bogeys from itself in glowing icons on the tactical display. The bogeys form up into a standard patrol formation with inhuman synchronization.\r\n\r\nIt would have been a spectacular ambush to walk into.",
+   "ctx": "data/campaign/rules.csv pk_proceedSel [text]"
+  },
+  {
+   "i": 26,
+   "en": "Hull-ids come in; combat-scarred XIV Battlegroup hulls, repaired without orbital dockyards. A veteran fleet, for sure. Between the fact that they've been hidden here for many cycles and your SIGINT, it is clear that humans do not command these ships.\r\n\r\nBut now the way is clear. Tactical mutters to sensors about keeping an eye on the automated swarm.",
+   "ctx": "data/campaign/rules.csv pk_proceedSel2 [text]"
+  },
+  {
+   "i": 27,
+   "en": "Your ops chief oversees the operation with familiar gruffness and wariness.\r\n\r\nThe salvors use a cloud of microdrones to cast a sensor net over the asteroid, coordinating with your $shipOrFleet's technicians to map density anomalies. There are faster methods, but this is the best way to find the surprises that tend to be left to protect far-flung caches.\r\n\r\nThe rock is spotted with hiding holes, empty, and fuel and supply stores, also empty. No surprise fusion mines or pinhead AM traps. Ops finally gives the order, and the salvors move in to uncover the camouflaged access point.",
+   "ctx": "data/campaign/rules.csv pk_salvageSel [text]"
+  },
+  {
+   "i": 28,
+   "en": "The shaky image from a salvor's helmetcam reveals the carapace of terrestrial death, glittering in the chaotic play of suitlamps.\r\n\r\nOne planetkiller.\r\n\r\nYour ops chief cuts the excited chatter between salvors with a harsh word, and they return to procedural call-and-response. The planetkiller is soon secured in your flagship.",
+   "ctx": "data/campaign/rules.csv pk_salvageSel2 [text]"
+  },
+  {
+   "i": 29,
+   "en": "Your $shipOrFleet maneuvers closer to the asteroid.\r\n\r\nYour sensors officer gives a shout of alarm - bogeys are spilling out of the asteroid, clouds of loosely-piled regolith and stealth-sheath panels spinning away as they are caught by thruster-bursts. The angular forms of Domain XIV Battlegroup hulls appear, veteran ships judging by the obvious field repairs. The IDs are automatically tagged and collated into the tactical display.\r\n\r\nYou have no time to ask why a ghost fleet from the First AI War has ambushed you.",
+   "ctx": "data/campaign/rules.csv pkCacheDefenderDesc [text]"
+  },
+  {
+   "i": 30,
+   "en": "Data recovery from a Tri-Tachyon war-AI nexus is laborious due to the unusual hardware and the AI-designed data architecture which seems to delight in confounding idiosyncrasies. \r\n\r\n\"I've heard speculation that it's like art to them,\" your tech officer says, noticing your attention. \"To the AIs, I mean. Like poetry expressed through mathematics.\"\r\n\r\nYou know what to look for, however, which makes the often unprofitably onerous data analysis yield results more quickly.",
+   "ctx": "data/campaign/rules.csv PKNexusDefeated [text]"
+  },
+  {
+   "i": 31,
+   "en": "Data recovery from the AI war-nexus is laborious due to the unusual hardware and confoundingly idiosyncratic data architecture. \r\n\r\nYour tech officer stumbles on their words from excitement and exhaustion. \"A detachment from this nexus encountered a Hegemony fleet. Broke them in minutes, a terrible defeat. Tri-Tachyon had intel protocols; they'd assign AIs to trawl captured datastores then feed that back to more AIs and- ah. There's a planetkiller device.\"\r\n\r\nYour tech officer is wide-eyed. \"The weapon. A planetkiller,\" they repeat with the excited morbidity of a child who, maybe, glimpsed a dead body. \"The Hegemony fleet cached it in an asteroid. We got the name of the system it's in!\"",
+   "ctx": "data/campaign/rules.csv PKNexusDefeatedNoMission [text]"
+  }
+ ]
+}

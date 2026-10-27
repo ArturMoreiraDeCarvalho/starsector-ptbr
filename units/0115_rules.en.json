@@ -1,0 +1,221 @@
+{
+ "chunk": 115,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"It is not. Please,\" $heOrShe says nervously, \"Be mindful of mentioning our brother so freely.\"",
+   "ctx": "data/campaign/rules.csv lkeChalcedonLookingBornanewA3b [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"He will approach you at a spacer bar on the surface, if you are alone. I shall give you the address. He will be able to... help you.\"\r\n\r\n\"I pray that your Path will be filled with righteous glory, captain.\"",
+   "ctx": "data/campaign/rules.csv lkeChalcedonLookingBornanewA3 [text]"
+  },
+  {
+   "i": 3,
+   "en": "The very ghost of a frown appears on $hisOrHer face.\r\n\r\n\"I'm afraid that I know no one by that name, captain. And if I did...\" $heOrShe shrugs, almost but not quite apologetic.\r\n\r\nIt is clear that one should not simply ask about a potential member of the Path and expect to receive a straight answer.",
+   "ctx": "data/campaign/rules.csv lkeChalcedonLookingBornanewB [text]"
+  },
+  {
+   "i": 4,
+   "en": "You have a meeting scheduled with a Mammonite to talk with a third party who might know something about Jethro Bornanew, but it is not yet the agreed upon time.",
+   "ctx": "data/campaign/rules.csv lkeAskChalcedonBarPromptWaiting [text]"
+  },
+  {
+   "i": 5,
+   "en": "A simple, steaming cup of tea is placed before you with a subtle hint from the proprietor that you need but ask and something much stronger will arrive in a teapot.\r\n\r\nBefore you can make a proper assessment of the colorful figures who tend to populate this sort of establishment, a man sits next to you with casual self-assurance, takes your tea, and downs the entire cup in one go.",
+   "ctx": "data/campaign/rules.csv lkeAskChalcedonBarStartB [text]"
+  },
+  {
+   "i": 6,
+   "en": "You take your time, drinking tea and asking around, eventually finding yourself at a table with a 'Mammon's man'; a free agent who interfaces between Pathers and the outside world while despised by both.\r\n\r\nWell aware that he will sell any useful information you let slip to Pathers or Pather-hunters, you say...",
+   "ctx": "data/campaign/rules.csv lkeAskChalcedonBarStart [text]"
+  },
+  {
+   "i": 7,
+   "en": "The Mammonite chuckles darkly, shaking his head. \"Captain $playerFirstName. This is Chalcedon; everyone maybe has joined the Path. You must be more specific, much more.\"\r\n\r\nAt your hesitation, he continues, \"You must trust me, just a little, yes? If you don't tell me what you need, then I cannot provide.\"",
+   "ctx": "data/campaign/rules.csv lkeChalcedonAskBarRespA [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"Looking for.\" He raises his eyebrows. \"There are many ways of looking for a person, you know. Some look to talk; some to deal.\"\r\n\r\nHe pours another dram of a foul black market distillate into a teacup. The fumes shimmer as they evaporate.\r\n\r\n\"Some look to kill.\" He eyes you for a moment, holding the teacup, then pours it down his throat, coughs, and slams the cup back on the table. \"I mention because that? That would cost more.\"",
+   "ctx": "data/campaign/rules.csv lkeChalcedonAskBarRespB [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"Jethro Bornanew,\" the Mammonite repeats as if writing it to permanent memory.\r\n\r\n\"A name is good. Very specific. I can make inquiries.\" He smiles, then holds up a finger for the proprietor's attention - another round - then points it at you - you're paying.\r\n\r\n\"I will set up a meeting with a... friend.\" He gives you a look, \"Not a good friend, not too close. Just a talking friend. Good business, you know.\"\r\n\r\n\"5,000 credits. You're a big captain, with a big $shipOrFleet. It's nothing, yes?\"",
+   "ctx": "data/campaign/rules.csv lkeChalcedonAskBarRespC [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"Good, good!\" the Mammonite laughs and holds up a finger for the proprietor's attention - another round - then points it at you - you're paying.\r\n\r\n\"I can set up a meeting, you and... a friend.\" He gives you a look, \"Not a good friend, not too close. Just a talking friend. Good business, you know.\"\r\n\r\n\"5,000 credits. You're a big captain, with a big $shipOrFleet. It's nothing, yes?\"",
+   "ctx": "data/campaign/rules.csv lkeChalcedonAskBarRespD [text]"
+  },
+  {
+   "i": 11,
+   "en": "The Mammonite laughs, then stands up to shout for the whole teahouse, \"This one, tough negotiator! Watch out, credits are hidden behind Fortress Shield. No one gets in!\" \r\n\r\nOther spacers stare, some murmuring disapproval, others laughing.\r\n\r\nHe sits, rattling the tea-set, and grins at you. \"3,000 credits. Is spacelane robbery, but I like you.\"",
+   "ctx": "data/campaign/rules.csv lkeChalcedonBarOffer1k [text]"
+  },
+  {
+   "i": 12,
+   "en": "The Mammonite laughs, and calls out to you, almost pleading. \"Wait, wait! 2,000 credits. Final offer. It is charity, almost! Very Luddic!\"",
+   "ctx": "data/campaign/rules.csv lkeChalcedonBarBribeWalk [text]"
+  },
+  {
+   "i": 13,
+   "en": "The Mammonite laughs, and calls out to you. \"Wait, wait,\" and stands up to shout for the whole teahouse, \"This one, tough negotiator! Watch out, credits are hidden behind Fortress Shield. No one gets in!\" \r\n\r\nOther spaces stare, some murmuring disapproval, others laughing.\r\n\r\nThe Mammonite sits, rattling the tea-set, and grins at you. \"2,000 credits. Is spacelane robbery, but I like you.\"",
+   "ctx": "data/campaign/rules.csv lkeChalcedonBarBribeWalkB [text]"
+  },
+  {
+   "i": 14,
+   "en": "You transfer the credits to the sticky datapad offered by your new friend.",
+   "ctx": "data/campaign/rules.csv lkeChalcedonBarBribe5k [text]"
+  },
+  {
+   "i": 15,
+   "en": "You sit back down and transfer the credits.",
+   "ctx": "data/campaign/rules.csv lkeChalcedonBarBribe2k [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"I will make inquiries, and you will wait and come back after one day for a good answer.\"\r\n\r\nHe pounds a drumroll on the table and laughs as a pot of 'tea' arrives. \"Tonight, we drink and celebrate!\"",
+   "ctx": "data/campaign/rules.csv lkeChalcedonAskBarMeetingSet [text]"
+  },
+  {
+   "i": 17,
+   "en": "You drink with the Mammonite, who indeed makes for a good drinking partner. He has many stories, and matches you for tales of scrapes with irate Pathers, pirates, and patrols.\r\n\r\nThe Mammonite raises a hand to summon the proprietor again. Another pot of 'tea'?",
+   "ctx": "data/campaign/rules.csv lkeChalcedonBarDrinkLots [text]"
+  },
+  {
+   "i": 18,
+   "en": "One pot turns into two, then three.\r\n\r\nThe night spins. A blur of sound and the light - another drink, bottoms of! - teahouse lanterns, doubling, tripling.",
+   "ctx": "data/campaign/rules.csv lkeChalcedonBarDrinkLotsMore [text]"
+  },
+  {
+   "i": 19,
+   "en": "You're wrapping up your visit to the charmingly quaint facilities when you are grabbed from behind, a dark hood pulled over your head.\r\n\r\nYou're dragged through a doorway, somewhere with dank; close air; then out into cold night. There's a thrum of raindrops on awnings.",
+   "ctx": "data/campaign/rules.csv lkeChalcedonBarDrinkLotsMore2 [text]"
+  },
+  {
+   "i": 20,
+   "en": "Sharp, low words are exchanged between your kidnappers - and muffled cursing from beside you. Sounds like the Mammonite.\r\n\r\nYou're pretty sure you're not as worse for the drink as he is. Pretty sure. Hard to tell with your head in a bag.",
+   "ctx": "data/campaign/rules.csv lkeChalcedonBarDrinkLotsMore2b [text]"
+  },
+  {
+   "i": 21,
+   "en": "You fumble for your sidearm, and find your holster empty. They must have grabbed it.",
+   "ctx": "data/campaign/rules.csv lkeChalcedonBarDrinkLotsMore3b [text]"
+  },
+  {
+   "i": 22,
+   "en": "A gunshot, barely muffled by the sack on your head, claps your eardrums.\r\n\r\nYou don't hear the Mammonite cursing anymore. The cold shock of dread sobers you.",
+   "ctx": "data/campaign/rules.csv lkeChalcedonBarDrinkLotsMore3 [text]"
+  },
+  {
+   "i": 23,
+   "en": "More low talking. You're dragged a short distance, then lifted to your feet.\r\n\r\n\"We should speak, face to face. You- let the good $playerBrotherOrSister see.\"\r\n\r\nThe hood comes off.",
+   "ctx": "data/campaign/rules.csv lkeChalcedonBarDrinkLotsMore4 [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"Been told you've been asking questions,\" the man says with a cheap smile. A tooth is missing, another cracked to a point. He smells of mildew, and sweat.\r\n\r\n\"I'm Sedge.\" He graciously waves a hand to show you the dismal alley you find yourself in, toward the slumped form sitting in a puddle of its own blood. \"Welcome to my Path.\"",
+   "ctx": "data/campaign/rules.csv lkeChalcedonBarDrinkLotsMore5 [text]"
+  },
+  {
+   "i": 25,
+   "en": "It's the next day. You see the Mammonite as you walk in and he greets you from the bar - a little worse for the wear after a night of drinking, it seems. \r\n\r\n\"Yes, hello captain! You must come meet my friend!\"\r\n\r\nHe stands - unsteadily - and leads you through a door in the back of the bar.",
+   "ctx": "data/campaign/rules.csv lkeChalcedonBarReturnNextDay1 [text]"
+  },
+  {
+   "i": 26,
+   "en": "You step into a storage room. Broken furniture is stacked in a corner. Dim light from a stick-on glowplate has decayed into a sickly yellow-green gradient.\r\n\r\n\"He's just through here. Come, come,\" the Mammonite says, beckoning, and steps through a door to the outside.",
+   "ctx": "data/campaign/rules.csv lkeChalcedonBarReturnNextDay2 [text]"
+  },
+  {
+   "i": 27,
+   "en": "You unholster your sidearm, check its status, and hold it close but readied.",
+   "ctx": "data/campaign/rules.csv lkeChalcedonBarReturnNextDay2b [text]"
+  },
+  {
+   "i": 28,
+   "en": "You give a quiet order to your bodyguards to circle around to your position, confident in their ability to take control of the situation with their specialized training and equipment.",
+   "ctx": "data/campaign/rules.csv lkeChalcedonBarReturnNextDay2c [text]"
+  },
+  {
+   "i": 29,
+   "en": "You step through the door.\r\n\r\nDaylight, a rare gap in the storms, washes our your vision for a moment.",
+   "ctx": "data/campaign/rules.csv lkeChalcedonBarReturnNextDay3 [text]"
+  },
+  {
+   "i": 30,
+   "en": "A gunshot claps your eardrums.",
+   "ctx": "data/campaign/rules.csv lkeChalcedonBarReturnNextDay4 [text]"
+  },
+  {
+   "i": 31,
+   "en": "Almost without thinking, you fall to the side to remove yourself from a potential sweep of fire. Tactical chatter whispers in your ear; calm tones. No one is aiming a weapon at you, but your bodyguards can drop anyone nearby at a word.\r\n\r\nThe closest shape is a shadow; a figure; a man. Not aiming anything at you. Looking at you, hands open and raised part-way.",
+   "ctx": "data/campaign/rules.csv lkeChalcedonBarReturnNextDay5a [text]"
+  },
+  {
+   "i": 32,
+   "en": "Almost without thinking, you fall to the side with your sidearm raised and ready at the closest shape - a shadow; a figure; a man. Not aiming at you. Looking at you, hands open and raised part-way.",
+   "ctx": "data/campaign/rules.csv lkeChalcedonBarReturnNextDay5b [text]"
+  },
+  {
+   "i": 33,
+   "en": "Almost without thinking, you fall to the side to remove yourself from a potential sweep of fire. The closest shape before you is a shadow; a figure; a man. Not aiming at you. Looking at you, hands open and raised part-way.",
+   "ctx": "data/campaign/rules.csv lkeChalcedonBarReturnNextDay5c [text]"
+  },
+  {
+   "i": 34,
+   "en": "\"Been told you've been asking questions,\" the man says with a cheap smile. A tooth is missing, another cracked to a point. He smells of mildew, and sweat.\r\n\r\n\"I'm Sedge.\" He graciously waves a hand to show you the dismal alley you find yourself in, toward the slumped Mammonite sitting in a puddle of their own blood. \"Welcome to my Path.\"",
+   "ctx": "data/campaign/rules.csv lkeChalcedonBarReturnNextDay6 [text]"
+  },
+  {
+   "i": 35,
+   "en": "You seat yourself. A simple, steaming tea is placed before you with a subtle hint from the proprietor that you need but ask and something much stronger will arrive in a teapot.\r\n\r\nBefore you can make a proper assessment of the colorful figures who tend to populate a spacer bar, a man sits next to you with casual self-assurance, grabs your cup of tea, and downs the entire cup in one go.",
+   "ctx": "data/campaign/rules.csv lkeChalcedonBarSedge0 [text]"
+  },
+  {
+   "i": 36,
+   "en": "You would have thought the tea to be uncomfortably hot, but the man seems unfazed as he swishes it around his mouth and swallows.\r\n\r\n\"Been told you've been asking questions,\" he says with a cheap smile. A tooth is missing, another cracked to a point. He smells of mildew, and sweat.\r\n\r\n\"I'm Sedge,\" he says.",
+   "ctx": "data/campaign/rules.csv lkeChalcedonBarSedge1 [text]"
+  },
+  {
+   "i": 37,
+   "en": "Sedge shakes his head, \"You understand nothing. Mammon and Moloch live in your heart and in your mind.\"\r\n\r\n\"Righteousness is not a scale to be weighed, good deed against evil. Humanity is a being of sin, cursed by the desecration of the Garden of Earth. Nothing will save you but to follow the Path. It is faith that I follow, it is faith that shows me the way, it is faith alone that is salvation.\"\r\n\r\n\"I do as I do because I follow the Path. The true Path ends in Heaven. Faith reveals this.\"",
+   "ctx": "data/campaign/rules.csv lkeAskSedgeSmashA [text]"
+  },
+  {
+   "i": 38,
+   "en": "Sedge nods. \"I have what they do not: faith in the Path. I follow where it leads without fear, without question. Faith alone reveals the righteous Path.\r\n\r\n\"True faith terrifies the faithless.\" He leans back, his look softening. He is not boastful, but absolutely earnest. \"You see how these little spacers, the Hegemony, the Church-liars, all of them; how they fear us.\"",
+   "ctx": "data/campaign/rules.csv lkeAskSedgeSmashB [text]"
+  },
+  {
+   "i": 39,
+   "en": "\"It is a good thing you are not God,\" Sedge cracks a new smile, \"Because then I would be in big trouble.\"",
+   "ctx": "data/campaign/rules.csv lkeSedgeFaithA [text]"
+  },
+  {
+   "i": 40,
+   "en": "\"Sense is not faith,\" Sedge says, correcting you. \"But maybe you are still finding the Path.\"\r\n\r\nHe pauses, then adds, \"Maybe we talk more someday, $playerBrotherOrSister, after your business with me.\"",
+   "ctx": "data/campaign/rules.csv lkeSedgeFaithB [text]"
+  },
+  {
+   "i": 41,
+   "en": "Sedge's eyes narrow at you. \"You say, to kill a man is not righteous? You don't know that Mammonite. I do. But,\" Sedge grunts, \"I need not explain my path to you. God will judge.\"",
+   "ctx": "data/campaign/rules.csv lkeAskSedgeMurder [text]"
+  },
+  {
+   "i": 42,
+   "en": "Sedge shrugs. \"My path will end. Not today, I think.\"",
+   "ctx": "data/campaign/rules.csv lkeAskSedgeMurderB [text]"
+  },
+  {
+   "i": 43,
+   "en": "Sedge shakes his head, \"You don't understand. You think that way? It shows you worship Mammon and Moloch in your heart and you don't know it.\"\r\n\r\n\"Righteousness is not a scale to be weighed, good deed against evil. Humanity is a being of sin, cursed by the desecration of the Garden of Earth. Nothing will save you but to follow the Path. It is faith that I follow, it is faith that shows me the way, it is faith alone that is salvation.\"\r\n\r\n\"I do as I do because I follow the Path, not because I think I can buy-,\" he pauses to spit toward the slumped corpse, \"-my way into Heaven.\"",
+   "ctx": "data/campaign/rules.csv lkeAskSedgeMurderD [text]"
+  }
+ ]
+}

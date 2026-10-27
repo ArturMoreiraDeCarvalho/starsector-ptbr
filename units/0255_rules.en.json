@@ -1,0 +1,171 @@
+{
+ "chunk": 255,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"Begone from here!\" $HeOrShe shouts, then hits the comms shut-off.",
+   "ctx": "data/campaign/rules.csv PKGiveToChurchAgain [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"There is little to say,\" $PersonName says, frowning. \"They are an abomination to all that is holy and good. Their mere existence is a crime against humanity and God alike.\"",
+   "ctx": "data/campaign/rules.csv pk_turnInChurchSel [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"What?!\" $HeOrShe draws back in shock, \"I pray that you are merely a liar making a joke in poor taste. If indeed you did possess such a demonic artifact, I would implore you to take it far from this place and destroy it, immediately! Or, or, the Knights will deal with you!\"\r\n\r\n\"Speak not to me,\" $heOrShe says, face red, then slams the comms shut-off.",
+   "ctx": "data/campaign/rules.csv PKTurnInChurchSel [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"Yes. Good.\" $HeOrShe examines you suspiciously. \"Was there something you wished to discuss?\"",
+   "ctx": "data/campaign/rules.csv PKTurnInChurchAvoid [text]"
+  },
+  {
+   "i": 5,
+   "en": "As a commissioned militant of the Church of Galactic Redemption, you have been given a set of codes allowing you to more easily coordinate with both fellow militants of the Church and the Knights of Ludd.\r\n\r\nUsing this access to link in to the Knights' comms network earns your comms officer a rebuke from a Knight-novice who appears to be practically a teenager.",
+   "ctx": "data/campaign/rules.csv pkHandInHesperus2 [text]"
+  },
+  {
+   "i": 6,
+   "en": "The Knight-novice is easily cowed by your authority - and, it appears, the content of your admonishment triggers some kind of oversight. \r\n\r\nThe image flickers, and a grizzled Knight-captain appears. Without greeting, he says \"He wishes to speak with you. Pray bide a moment.\"\r\n\r\nThe connection flickers to static, then to a simple holding pattern. The technology of the Knights of Ludd is crude but reliable",
+   "ctx": "data/campaign/rules.csv pkHandInHesperus3 [text]"
+  },
+  {
+   "i": 7,
+   "en": "After nearly two minutes, the connection flickers into life once again.\r\n\r\nAccording to your comm-link metadata it is the Excubitor Orbis of Hesperus who has appeared before you, \r\n\r\n\"I am Gideon Oak,\" he says, his stern gaze fixed on you.\r\n\r\nThen he waits, patient as stone.",
+   "ctx": "data/campaign/rules.csv pkHandInHesperus4 [text]"
+  },
+  {
+   "i": 8,
+   "en": "He silently considers you, and your words. \r\n\r\nThe moment draws uncomfortably long before he, evidently, decides that he believes you. \r\n\r\n\"Know that this must be kept from the Hegemony,\" he says slowly. \"They claim unholy inheritance of the old Domain and would be loathe to see us destroy a piece of it.\"",
+   "ctx": "data/campaign/rules.csv pkHandInHesperus5 [text]"
+  },
+  {
+   "i": 9,
+   "en": "A squad of Knights led by an inquisitor-captain shuttles to your $shipOrFleet, examines the planetkiller device, speaks a prayer against evil, then takes it back with them.\r\n\r\n\"You have done well to keep faith with the Faithful, $playerName,\" the Excubitor Orbis says. \"Bless you for your deed.\"\r\n\r\nHe does not smile, but there is a just-detectable warmth to his expression nonetheless.",
+   "ctx": "data/campaign/rules.csv pkHandInHesperus6 [text]"
+  },
+  {
+   "i": 10,
+   "en": "This collection of makeshift gantries is barely worth description as a 'dockyard', though it has obviously served as a one-off site to perform rapid work on a flotilla of large starships.",
+   "ctx": "data/campaign/rules.csv PKSentinelDockyardOpen [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"Hegemony, I'd wager. Old work,\" your ops chief says with a grunt. \"First AI War.\"\r\n\r\nYour sensors officer asks for some evidence for that conclusion,  but ops just shakes their head and says something about their \"gut\".\r\n\r\nSensors runs an additional sweep, then calls for your attention, \"$PlayerSirOrMadam, there are some abandoned ships in the gantries. Look to be XIV Battlegroup vintage.\"",
+   "ctx": "data/campaign/rules.csv PKSentinelDockyardFollowupA [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"Hegemony. Old work,\" your ops chief says with a grunt. \"First AI War, I'd wager.\"\r\n\r\nThis is where the crews that settled on Sentinel must have salvaged elements of their fleet - and converted others.\r\n\r\nYour sensors officer runs a scan, then calls for your attention, \"$PlayerSirOrMadam, there are some abandoned ships in the debris. Look to be Battlegroup XIV vintage.\"",
+   "ctx": "data/campaign/rules.csv PKSentinelDockyardFollowupB [text]"
+  },
+  {
+   "i": 13,
+   "en": "You receive a disturbing post-battle report from your tech officer: the command and control centers of the XIV Battlegroup ships you fought appear to have been modified to enable complete control of all systems by AI cores.\r\n\r\nIt doesn't look like Tri-Tachyon work, either. This was done by the Hegemony.",
+   "ctx": "data/campaign/rules.csv PK14thDefeated [text]"
+  },
+  {
+   "i": 14,
+   "en": "The bitterly cold surface of $fullName rolls beneath you, the poles locked in endless winter. Only lucky arrangements of weather produce marginal habitability in small regions.\r\n\r\nAnd indeed, there is a weak radio signal detectable in the midst of just such a conjunction. It transmits a weak transponder signal in Hegemony-standard protocol; an old code, but it checks out.\r\n\r\nA sensor sweep reveals a tiny settlement with signs of primitive industry and agriculture.",
+   "ctx": "data/campaign/rules.csv PKSentinelInteraction [text]"
+  },
+  {
+   "i": 15,
+   "en": "Your standard comms request gives no return. If there is a comms network, or even an emergency survival unit on the surface, it's either damaged or can't make a connection.  \r\n\r\nYour comms officer tries more unconventional workarounds, from a suite of ancient standards used to ping drifting Domain-era relics to the latest suite of underworld methods that would earn a stern look from any honest customs officer; lossy but easily mistaken for background noise by sensor grids. All attempts are fruitless.\r\n\r\n\"$PlayerSirOrMadam. We might have to make contact the old fashioned way,\" your comms officer reports apologetically.",
+   "ctx": "data/campaign/rules.csv pkSentinelTryComms [text]"
+  },
+  {
+   "i": 16,
+   "en": "You step off the shuttle, the frosty ground crunching beneath your boots. Your envirosuit has no trouble keeping you completely comfortable despite the biting wind.\r\n\r\nThe settlement is about a kilometer off. You've landed at a polite distance, on a rocky plateau, to avoid disturbing some muddy gray fields of some kind of agricultural effort.",
+   "ctx": "data/campaign/rules.csv pkSentinelSel [text]"
+  },
+  {
+   "i": 17,
+   "en": "A party of the inhabitants wearing masks and hoods meet you halfway.\r\n\r\nTheir guards, at the back, hold weapons slung; standard Domain-fab carbines. Their clothing is repurposed utility forgecloth, the type used to line cargo bays and maintenance conduits. They wear adornments denoting status made of worn but well-polished military insignia; winged phoenixes and stars. Hegemony crew survivors. And they've been here for a long time, from the looks of it.\r\n\r\nA leader steps forward, pulling off her goggles. \"Did we win?\" she asks.",
+   "ctx": "data/campaign/rules.csv pkSentinel0 [text]"
+  },
+  {
+   "i": 18,
+   "en": "The leader exchanges glances with her companions, taking in the implication of your words.\r\n\r\nYou are invited to their settlement, to continue your conversation out of the cold. These castaways have not forgotten hospitality, in their manner. \r\n\r\nOr, perhaps, their leader - an elder by the name of Alo Skiron called \"commander\" by her lieutenants - knows the wisdom of controlling the spread of potentially explosive news from the outside Sector.",
+   "ctx": "data/campaign/rules.csv pkSentinel1 [text]"
+  },
+  {
+   "i": 19,
+   "en": "You are led to a cluster of neat, low structures; earthworks and hull panels spotted with forgeglass and chimney. The streets are clean and the citizenry uniformed by job role. Despite fixing you with open stares, they do not falter in their assignments.\r\n\r\nCommander Skiron welcomes you and your party into a central meeting hall. It is warm, and festooned with Hegemony paraphernalia: uniforms, weapons, etched insignia from supply-case lids. The hand-worked reverence brings to mind a Luddic shrine that has undergone conversion to worship a martial god.\r\n\r\nYou pretend to sip a wretched yeast-derived ersatz tea - coffee maybe? - given to you by Skiron's attendants.",
+   "ctx": "data/campaign/rules.csv pkSentinel2 [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"You come from the Core Worlds, yes?\" Skiron asks, \"We must get back in contact with our proper chain of command. The protocols command it.\" \r\n\r\nBehind her, attendants and guards all mumble something in unison. You think you catch the word 'protocols'. ",
+   "ctx": "data/campaign/rules.csv pkSentinel3 [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"Will you bring word of us to the Persean Hegemony of the Fourteenth Battlegroup? They must have survived, yes? The Protocols promise that you will be rewarded, and we, saved.\"\r\n\r\n(Behind her, in unison, you hear intoned the words \"Reward and Salvation,\" in not quite the sing-song of group prayer.)\r\n\r\nNow you can see the strange gleam in Skiron's eyes, as if she is looking up at the unwitting savior from her religion. And at the same time, something like fear, even panic, under the mania; you are an outsider.\r\n\r\nThey don't have outsiders here.",
+   "ctx": "data/campaign/rules.csv pkSentinel4 [text]"
+  },
+  {
+   "i": 22,
+   "en": "Skiron's face is impassive. \"The Protocols prohibit sharing intel without strategic purpose,\" she says. \"But you may ask.\"",
+   "ctx": "data/campaign/rules.csv PKSentinelHubQuestionsInA [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"The Protocols allow for conditional intel-sharing,\" Skiron says, giving you a hesitant look. \"Your own candor is appreciated. So ask.\"",
+   "ctx": "data/campaign/rules.csv PKSentinelHubQuestionsInB [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"It is Protocol to share intel with allies,\" Skiron gives you a comradely nod. \"Ask, and we shall provide.\"",
+   "ctx": "data/campaign/rules.csv PKSentinelHubQuestionsInC [text]"
+  },
+  {
+   "i": 25,
+   "en": "You consider certain discoveries you've made. Skiron's adherence to 'Protocols' suggests that she may not be forthcoming, but perhaps she will spill some detail when presented with hard facts.",
+   "ctx": "data/campaign/rules.csv PKSentinelHubConfInA [text]"
+  },
+  {
+   "i": 26,
+   "en": "You consider certain discoveries you've made established. Although open to a certain amount of information-sharing, you suspect that you'll get little information of immediate value out of Skiron due to her adherence to 'the Protocols'.",
+   "ctx": "data/campaign/rules.csv PKSentinelHubConfInB [text]"
+  },
+  {
+   "i": 27,
+   "en": "You consider certain discoveries you've made established. Skiron seems to trust your Hegemony commission, so she might be willing to fill in some gaps about what exactly happened if you present her with intel you already possess.",
+   "ctx": "data/campaign/rules.csv PKSentinelHubConfInC [text]"
+  },
+  {
+   "i": 28,
+   "en": "You pull up your Hegemony credentials on your TriPad and offer them to Skiron for confirmation.\r\n\r\nShe gives you a deliberate look, then turns her gaze to the screen. She taps in some codewords and mutters passphrases which your credentials respond to approvingly. Skiron pauses for a moment, then coming to a decision passes your TriPad back to you with the care one would give to an irreplaceable artifact.",
+   "ctx": "data/campaign/rules.csv PKSentinelShowHegCom [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"It is not unimaginable that Tri-Tachyon, or some AI, has broken our security. But. I believe you to be who you say you are, Captain $PlayerName, Auxiliary to the Hegemony Navy.\"\r\n\r\nShe doesn't quite smile, but a moment of tension has broken. Her guards relax slightly at her words, and her lieutenants exchange a grin.\r\n\r\n(\"Praise Command,\" you hear someone say.)",
+   "ctx": "data/campaign/rules.csv PKSentinelShowHegCom2 [text]"
+  },
+  {
+   "i": 30,
+   "en": "One of your guards passes you the satchel with datapads pre-loaded with current affairs primers.\r\n\r\nUsed by salvors on the Fringe, these are kept up-to-date for a reasonable subscription fee and statistically proven to ensure an efficient transition into contemporary society for temporal refugees including cryo-sleepers, decivs, and castaways.\r\n\r\nSkiron and the others treat your datapads like holy artifacts, touching them delicately. They know, haltingly, how to use the interfaces but it is clear that they have been cut off from sophisticated nanoforge output for a long, long time.",
+   "ctx": "data/campaign/rules.csv PKSentinelGiveDatapads [text]"
+  },
+  {
+   "i": 31,
+   "en": "You and a handful of senior officers take in their quiet discussion and reactions to the current state of affairs; their linguistic drift is no worse than any cryo-case you've met before.\r\n\r\n\"We thank you for this intel, captain,\" Skiron says, handing a datapad back to you. \"Much has changed, but it brings me great satisfaction to know that Command awaits us.\"\r\n\r\n(\"Command is Salvation,\" they say together, behind her.)",
+   "ctx": "data/campaign/rules.csv PKSentinelGiveDatapads2 [text]"
+  },
+  {
+   "i": 32,
+   "en": "Commander Skiron considers her answer before speaking.\r\n\r\n\"We are descended from the crews of a Hegemony flotilla active during the Great AI War. None of the original crew survive for it has been over a hundred cycles since planetfall. We have maintained continuity of command,\" she touches the crest attached to her 'uniform', \"As per Hegemony cut-off protocols. The Protocols are survival.\"\r\n\r\n(\"The Protocols are Life,\" they intone behind Skiron.)",
+   "ctx": "data/campaign/rules.csv PKSentinelAskWhereFromNotTrust [text]"
+  },
+  {
+   "i": 33,
+   "en": "Moving delicately away from the subject of Protocols, you inquire about the details of the lost crews' survival.\r\n\r\nSkiron speaks in general terms about building infrastructure to survive the elements, the hardships they faced - long winters, shortfalls of food, and maintaining discipline. Though she expands on few of the details citing \"tactical concerns\", it is clear this is the sort of story which is the grist of countless genre holodramas.\r\n\r\nYou definitely get the feeling that Skiron is holding something back.",
+   "ctx": "data/campaign/rules.csv PKSentinelAskWhereFromNotTrust2 [text]"
+  }
+ ]
+}

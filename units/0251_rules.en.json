@@ -1,0 +1,211 @@
+{
+ "chunk": 251,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "The comms stabilize and the Hegemony $Post appears before you, straight-backed and stern-faced.\r\n\r\n\"Citizen! This non-chartered volume is now the subject of an active operation to investigate the possible use of forbidden AI technologies. I invoke full martial use-of-force protocol per Hegemony diktat. Power down your $shipOrFleet's weapons, shields, and engines and prepare to receive inspectors from the Ministry of Technology Standards.\"\r\n\r\n$HeOrShe tips $hisOrHer head down very slightly. \"You are thanked in advance for your imminent cooperation with our investigation.\"",
+   "ctx": "data/campaign/rules.csv hegInvestigatorComms [text]"
+  },
+  {
+   "i": 2,
+   "en": "The link snaps to life.\r\n\r\n\"Citizen! This non-chartered volume has been designated for active investigation into the possible use of forbidden AI technology.\" The Hegemony $Post stares officiously at you as $heOrShe speaks, \"I am authorized to use all necessary force under law of the Human Domain per the emergency martial authority of the Hegemony to ensure the safety of the Persean Sector.\"\r\n\r\n$HeOrShe raises $hisOrHer chin a couple degrees. \"We've heard some strange rumors about this system, captain.\" Is that a drop of sweat? \"And, er, I request your voluntary compliance with a standard technological inspection of your $shipOrFleet. For your own safety.\"",
+   "ctx": "data/campaign/rules.csv hegInvestigatorCommsWeaker [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"The rogue AI menace, captain,\" $heOrShe says with utter self-assurance. \"Uncontrolled artificial intelligence led to the death of billions of human beings. We won't allow that to happen again.\"\r\n\r\n\"Now,\" $hisOrHer tone grows harsh, \"submit your $shipOrFleet to inspection.\"",
+   "ctx": "data/campaign/rules.csv hegInvestigatorQstrongSel [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"The rogue AI menace, captain,\" $heOrShe says, quite earnest and now self-assured. \"Uncontrolled artificial intelligence led to the death of billions of human beings. We cannot allow that to happen again.\"\r\n\r\n\"Captain,\" $heOrShe says. \"I have orders to root out these... things. From every crack on every planetary body, from every niche in every ship. I've heard of captains who were paid to smuggle AI cores. And of those who were tricked, whether by an unscrupulous dealer or,\" $hisOrHer voice is almost a whisper, \"perhaps by the core itself, manipulating our comms and banking, somehow.\"\r\n\r\n\"I have orders, $playerSirOrMadam.\" The Hegemony $Post seems to meet your eyes through the comms. \"Let me carry them out. For the Hegemony, for humanity.\"",
+   "ctx": "data/campaign/rules.csv hegInvestigatorQweakSel [text]"
+  },
+  {
+   "i": 5,
+   "en": "The $post's expression hardens.\r\n\r\n\"A planet-killer is as much a tool, and it is for good reason that only the Hegemony - as legitimate successor of the authority of the Human Domain - may legally caretake such devices.\"\r\n\r\n\"Regardless,\" $heOrShe waves a hand dismissively, \"I am not here to have a debate. I reiterate my request to inspect your $shipOrFleet, citizen.\"",
+   "ctx": "data/campaign/rules.csv hegInevestigatorRespAItoolSelWeak [text]"
+  },
+  {
+   "i": 6,
+   "en": "The $post's expression hardens further.\r\n\r\n\"A planet-killer is as much a tool, and it is for good reason that only the Hegemony as legitimate successor of the authority of the Human Domain may legally caretake such devices.\"\r\n\r\n$HeOrShe swipes a dismissive hand. \"There will be no debate. I reiterate my order: submit to inspection.\"",
+   "ctx": "data/campaign/rules.csv hegInevestigatorRespAItoolSel [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Then we agree,\" $heOrShe says, though judging by $hisOrHer expression $heOrShe is not pleased to discover common ground with you.\r\n\r\n\"Now submit to inspection so that this threat may be contained with all due force.\"",
+   "ctx": "data/campaign/rules.csv hegInevestigatorRespAIthreatSel [text]"
+  },
+  {
+   "i": 8,
+   "en": "Judging by $hisOrHer expression, the $post lacks an appreciation for your philosophical position.\r\n\r\n\"A human sympathizer with genocidal machines.\" $HisOrHer words erupt like weapons-fire. \"You disgust me.\"",
+   "ctx": "data/campaign/rules.csv hegInevestigatorRespAIrightsSel [text]"
+  },
+  {
+   "i": 9,
+   "en": "Judging by $hisOrHer expression, the $post lacks an appreciation for your philosophical position on this subject.\r\n\r\n\"I cannot believe you would choose to sympathize with genocidal machines.\" $HisOrHer words are tight; disgust mixed with self-restraint. \"I shall pretend I didn't hear those words, captain.\"",
+   "ctx": "data/campaign/rules.csv hegInevestigatorRespAIrightsSelWk [text]"
+  },
+  {
+   "i": 10,
+   "en": "The inspection teams are not gentle, tearing open hatches, rummaging through carefully organized stocks, and running active scans directly through sensitive equipment clusters despite the objections of your technical crew.\r\n\r\nComplaints from your $shipOrFleet's officers are met by stony non-apologies and bureaucratic obfuscation. Your officers are told that claim forms may be submitted to seek recompense for \"regrettably unavoidable\" damage incurred during inspection, but \"one shouldn't expect a response from the investigatory body for at least a cycle\".",
+   "ctx": "data/campaign/rules.csv hegInvestigatorComplySelWk [text]"
+  },
+  {
+   "i": 11,
+   "en": "The damage is, thankfully, mostly superficial. Your crews have a significant mess to clean up, however.\r\n\r\n\"I thank you for your cooperation despite the ah, inevitable friction of the process, captain,\" the Hegemony $Post says. \"Every citizen must endure for our collective safety.\"",
+   "ctx": "data/campaign/rules.csv hegInvestigatorComplySel2Wk [text]"
+  },
+  {
+   "i": 12,
+   "en": "The inspection teams are vandalous, seeming to act with active malice as they tear open hatches, rummage through carefully organized stocks, and run high-powered scans directly through sensitive equipment clusters despite the objections of your technical crew.\r\n\r\nComplaints from your $shipOrFleet's officers are met by stony obfuscation. The best your chief engineer gets besides the threat of indefinite incarceration is the suggestion that a claim form may be submitted to seek recompense for \"regrettably unavoidable\" damage incurred during inspection, but \"one shouldn't expect a response from the investigatory body for at least a cycle\".",
+   "ctx": "data/campaign/rules.csv hegInvestigatorComplySel [text]"
+  },
+  {
+   "i": 13,
+   "en": "Your crews are left to clean up a tremendous mess and perform what repairs they must. The damage is, thankfully, mostly superficial.\r\n\r\n\"You're free to go, spacer,\" the Hegemony $Post sniffs dismissively. \"Don't let me catch you out here again.\"",
+   "ctx": "data/campaign/rules.csv hegInvestigatorComplySel2 [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"Do you have something to hide?\" $HisOrHer tone grows contemptuous, \"Citizen.\"\r\n\r\n\"Attempting to evade a legitimate technological regulation inspection per Domain law is highly suspicious and itself a crime. Even tertiary meddling with AI technology is strictly controlled for very good reason - billions of dead would speak to that, but...\" $HeOrShe gives you a look of merciless irony.\r\n\r\nThe Hegemony $Post speaks aside, \"Prepare the boarding parties. Give orders to be especially... thorough. We're dealing with prime space-scum.\"",
+   "ctx": "data/campaign/rules.csv hegInvestigatorRefuseSel [text]"
+  },
+  {
+   "i": 15,
+   "en": "The Hegemony $Post's face freezes for a moment. Then $heOrShe speaks.\r\n\r\n\"You appear to be an upstanding citizen.\" $HeOrShe nods, the very image of reasonable authority - not an outgunned bully at all. \"I'm going to let you go with a warning. There are some bad folks out here, captain, meddling in dangerous tech. Someone has to protect what's left of humanity from them.\"\r\n\r\n$HeOrShe produces a strained smile. \"You're free to go.\"",
+   "ctx": "data/campaign/rules.csv hegInvestigatorPlayerStrongerSel [text]"
+  },
+  {
+   "i": 16,
+   "en": "Caught off-guard for a moment, the cadet's arm twitches as they run some query. Their face then freezes solidly into its place in the chain of command.\r\n\r\n\"Affirmative, $playerSirOrMadam. Received and thank-you, $playerSirOrMadam. Please maintain link. This comms out.\"\r\n\r\nThe display flickers back to the crest of the Hegemony.",
+   "ctx": "data/campaign/rules.csv heg_talkAboutInspectionsStart [text]"
+  },
+  {
+   "i": 17,
+   "en": "The man himself appears shockingly quickly for a request that must have had to climb the chain of command.\r\n\r\nAppropriately, now that you think about it, just about as far as Daud himself did to become High Hegemon.",
+   "ctx": "data/campaign/rules.csv hegTalkAboutInspectionsDaud1 [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"$playerName,\" he says.\r\n\r\nHe doesn't look like he's in a mood to appreciate your observation.",
+   "ctx": "data/campaign/rules.csv hegTalkAboutInspectionsDaud1first [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"$playerName,\" he says. \"You've been busy.\"\r\n\r\nHe doesn't look happy to see you again, nor like he's in a mood to appreciate your observation.",
+   "ctx": "data/campaign/rules.csv hegTalkAboutInspectionsDaud1met [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"You're not really here to talk about that,\" he says. \"Not yet.\"",
+   "ctx": "data/campaign/rules.csv hegTalkInspectDaudBaird1 [text]"
+  },
+  {
+   "i": 21,
+   "en": "The High Hegemon's expression remains fixed as he ignores your taunt.\r\n\r\n\"You're here about the fleet operations we carried out against your colonial interests.\"",
+   "ctx": "data/campaign/rules.csv hegTalkInspectDaudEagle1 [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"Yes,\" he says. \"Yes we do.\"",
+   "ctx": "data/campaign/rules.csv hegTalkInspectDaud1 [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"Congratulations are in order,\" he says with not a hint of elation. \"You've successfully adjusted the expectations of the previously dissenting members of the Strategic Assembly.\"\r\n\r\nHe puts on an officious tone, speaking as if reading from an intra-organizational memorandum.\r\n\r\n\"The Hegemony will recognize your holdings as legitimate charter colonies in accordance with the frontier development policy of the Human Domain. You will be recognized as the official executive agent given exceptional charge for the stability, well-being, and growth of these chartered colonies.\"",
+   "ctx": "data/campaign/rules.csv hegTalkInspectDaud2 [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"You get victory, captain. And we get to pretend the Hegemony won,\" Daud says evenly.\r\n\r\n\"All nice and legal. The Hegemony will act as though this was all a misunderstanding. This new arrangement will have been part of the plan all along.\"",
+   "ctx": "data/campaign/rules.csv hegTalkInspectDaudPretend [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"Don't be a proud fool, captain,\" Daud says icily, dropping the official act. \"I've dealt with them enough.\"\r\n\r\nHe takes a deep breath.\r\n\r\n\"Recognize when you're being offered victory, and accept it.\"",
+   "ctx": "data/campaign/rules.csv hegTalkInspectDaudDictate [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"I didn't ask it of you,\" he says. \"We'll handle the lies and propaganda.\"",
+   "ctx": "data/campaign/rules.csv hegTalkInspectDaudVictoryA [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"That, the Hegemony will not, cannot do.\"\r\n\r\n\"If it would, if it could,\" as Daud speaks, he seems to age by tens of cycles, \"I would not be the High Hegemon. This would not be the Hegemony.\"",
+   "ctx": "data/campaign/rules.csv hegTalkInspectDaudVictoryB [text]"
+  },
+  {
+   "i": 28,
+   "en": "High Hegemon Baikal Daud looks aside. He seems to actually think about it, and, after a moment, he returns his gaze returns to you.\r\n\r\n\"No.\"",
+   "ctx": "data/campaign/rules.csv hegTalkInspectDaudVictoryC [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"You've been given your victory, captain.\" Daud gives you a judicious look. \"If you're serious about carving your own polity out of the Persean Sector, you're going to have to learn when to accept it.\"",
+   "ctx": "data/campaign/rules.csv hegTalkInspectDaudVictoryD [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"You will recall what I said about victory,\" Daud says, \"And taking it when it is given.\"",
+   "ctx": "data/campaign/rules.csv hegTalkInspectDaudVictoryD2 [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"Absolute conquest, total annihilation? Those are the fever-dreams of madmen, and I hope by my life that such notions are never again imposed upon the Persean Sector.\"",
+   "ctx": "data/campaign/rules.csv hegTalkInspectDaudVictoryD3 [text]"
+  },
+  {
+   "i": 32,
+   "en": "Daud nods, then closes his eyes looking tired.",
+   "ctx": "data/campaign/rules.csv hegTalkInspectDaudVictoryE [text]"
+  },
+  {
+   "i": 33,
+   "en": "Daud nods, then closes his eyes, looking tired.\r\n\r\n\"That doesn't matter. It's already done.\"",
+   "ctx": "data/campaign/rules.csv hegTalkInspectDaudVictoryF [text]"
+  },
+  {
+   "i": 34,
+   "en": "The High Hegemon says nothing more. He looks at you for a moment, then reaches for something.\r\n\r\nThe comm-link terminates, leaving you with the crest of the Persean Hegemony of the Fourteenth Battlegroup, declared by the Eventide Diktat in cycle 49.",
+   "ctx": "data/campaign/rules.csv heg_talkAboutInspectionsEnd [text]"
+  },
+  {
+   "i": 35,
+   "en": "\"Comms open to captain of independent $shipOrFleet.\" The mercenary $rank looks you over in a cold assessment. \r\n\r\n\"Be advised: stay clear of our operational volume. We are in the process of fulfilling a private contract to destroy the nearby pirate station.\"\r\n\r\n\"You may now go,\" the merc flicks a hand dismissively. \"We shall see to the safety of this and nearby systems.\"",
+   "ctx": "data/campaign/rules.csv pskMercGreeting [text]"
+  },
+  {
+   "i": 36,
+   "en": "\"Indeed,\" $heOrShe says. \"When necessity calls for force, matters are best left to an expert - such as myself.\"",
+   "ctx": "data/campaign/rules.csv PSKMercOptionsNoncommitalSel [text]"
+  },
+  {
+   "i": 37,
+   "en": "You dispense with the pleasantries.",
+   "ctx": "data/campaign/rules.csv PSKMercOptionsAttackSel [text]"
+  },
+  {
+   "i": 38,
+   "en": "\"I see,\" $heOrShe says, scrolling through a display, doing some mental calculation. \"I see very well that you shall appeal to brute force of numbers to dissuade me from my contract.\"\r\n\r\n\"A crude bargaining tactic, but,\" $heOrShe slaps away a datapad, presumably containing $hisOrHer tactical officer's report. \"Effective nonetheless. Good day, $playerSirOrMadam. I will be sure to keep you in my thoughts.\"",
+   "ctx": "data/campaign/rules.csv PSKMercOptionsThreatenSel [text]"
+  },
+  {
+   "i": 39,
+   "en": "\"I will do you the favor of interpreting your words as a joke,\" $heOrShe says. \"And not a very good one.\"\r\n\r\n\"I'll waste no more time with you.\" $HeOrShe nods to someone and the link freezes, the data stream cut without even a termination code.",
+   "ctx": "data/campaign/rules.csv PSKMercOptionsThreatenWeakerSel [text]"
+  },
+  {
+   "i": 40,
+   "en": "\"Oh? Do tell.\" $HeOrShe looks both offended and just a little bit intrigued. As if $heOrShe wants to see what pathetic excuse you come up with so that $heOrShe may reject it.",
+   "ctx": "data/campaign/rules.csv PSKMercOptionsStorySel [text]"
+  },
+  {
+   "i": 41,
+   "en": "You explain that this particular group of pirates has had their threat deliberately under-rated by a conspiracy of mercenary companies. Black Quiver, Ilm's Orphans, Panoply Allied, Tactistar; they're all in on it, including the pirates.\r\n\r\nMercenary contracts aren't paying what they used to, you explain, as of course $heOrShe probably knows. They think they can get top-quality work - you indicate $personName's fleet - for prices that barely turn a profit once the fuel, supplies, and crew wages are paid out post-operation. You see $himOrHer nodding along.",
+   "ctx": "data/campaign/rules.csv PSKMercOptionsStory1 [text]"
+  }
+ ]
+}

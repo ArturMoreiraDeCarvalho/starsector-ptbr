@@ -1,0 +1,256 @@
+{
+ "chunk": 116,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "Sedge nods. \"My Path crossed his, and his was to end.\"",
+   "ctx": "data/campaign/rules.csv lkeAskSedgeMurderE [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"Mm.\" Sedge looks away, making a show of thinking it over, turning your cup - his now - over and over in his hands. \"No, I do not recall a Jethro.\"",
+   "ctx": "data/campaign/rules.csv lkeChalcedonBarSedgeRespA [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"Mm.\" Sedge looks away, making a show of thinking it over. \"No, do not recall a Jethro.\"\r\n\r\nThe pooling blood is caught by a small stream of run-off and begins to wash a red streak down the alley.",
+   "ctx": "data/campaign/rules.csv lkeChalcedonBarSedgeRespA2 [text]"
+  },
+  {
+   "i": 4,
+   "en": "He makes an expression of mock confusion. \"I just said. I am Sedge.\"\r\n\r\nHe drops the look. \"But you want to know who I am to the Path. Who I am to this world, to people who might come here. Who I am to you. Who am I to what you are looking for.\"\r\n\r\nHe corrects himself, holding up a finger, \"Whom you are looking for.\"",
+   "ctx": "data/campaign/rules.csv lkeChalcedonBarSedgeRespB [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"People find me. Those who seek the Path,\" he looks at you, the mask of casual ease drawing away to show you the ice-cold, self-assured fervor in his eyes.\r\n\r\n\"I judge if their path leads true. If it does,\" he shrugs. Merely the casual business of building an interstellar terrorism network.",
+   "ctx": "data/campaign/rules.csv lkeChalcedonBarSedgeRespB2 [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"Is that what I am?\" He pauses a moment, then nods, \"It is more, people find me. Those who seek the Path.\"\r\n\r\nThe mask of casual ease draws away to show you the ice-cold, self-assured fervor in his eyes. \"I judge if their path leads true. If it does,\" he shrugs; merely the casual business of building an interstellar network of terrorism.",
+   "ctx": "data/campaign/rules.csv lkeChalcedonBarSedgeRespC [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Why say such a thing? It is done,\" Sedge says.\r\n\r\n\"Maybe you want it back?\" He smiles.",
+   "ctx": "data/campaign/rules.csv lkeChalcedonBarSedgeRespTea [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"I can because I do,\" he says. The smile sublimes away like ice in vacuum.\r\n\r\n\"I see you don't understand, spacer.\"\r\n\r\nHe keeps his gaze pinned on you as he swipes his hand across the table, sending cup and teapot flying to smash against a neighboring drinking-party. They raise a shout of offense.",
+   "ctx": "data/campaign/rules.csv lkeChalcedonBarSedgeRespTea2 [text]"
+  },
+  {
+   "i": 9,
+   "en": "A scrape of chairs on floor, and the shouts are quickly hushed by the outraged party's companions. Conversation dies in the room, and everyone at nearby tables takes in the situation. Upon seeing Sedge, they start to quietly file out of the teahouse.\r\n\r\nSoon, you are left nearly alone.\r\n\r\nSedge moves his hand through a slow arc, a mockery of blessing, to indicate those who left the room, \"They understand.\"\r\n\r\nAnother pot of tea and two new cups appear, the proprietor quickly retreating with a crunch of ceramic underfoot.",
+   "ctx": "data/campaign/rules.csv lkeChalcedonBarSedgeRespTea3 [text]"
+  },
+  {
+   "i": 10,
+   "en": "You signal the proprietor, who glances at the back of Sedge's head with a questioning look- really? With him right there? You confirm your order with a firm nod.\r\n\r\nSoon enough the teapot arrives, smelling of liquor. Two cups are almost dropped and the proprietor retreats.\r\n\r\nSedge watches the whole procedure with his crooked smile, sets the two cups in place, fills them from the pot. He lifts his cup and looks at you expectantly.",
+   "ctx": "data/campaign/rules.csv lkeChalcedonBarSedgeRespE [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"And may we recognize truth on the Path of Providence,\" he adds, \"and not turn away.\"\r\n\r\nThen he downs the spirit.",
+   "ctx": "data/campaign/rules.csv lkeChalcedonBarSedgeCheersA [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"God will forgive me,\" he says, giving the cup a waggle.",
+   "ctx": "data/campaign/rules.csv lkeChalcedonBarSedgeCheersB [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"May we recognize truth on the Path of Providence,\" he says, \"and not turn away.\"\r\n\r\nThen he downs the spirit.",
+   "ctx": "data/campaign/rules.csv lkeChalcedonBarSedgeCheersC [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"That?\" Sedge looks down, as if at a stone on the ground.\r\n\r\n\"That got careless. That forgot that one does not speak easily of the Path. The Path is sacred. It does not belong in the mouth of a decadent heathen.\"\r\n\r\nHis eyes flick downward again, \"Like that.\"",
+   "ctx": "data/campaign/rules.csv lkeChalcedonSedgeRespKill [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"No.\" He smiles again. \"You are welcome here, with blessed peace and the hospitality of my people.\"",
+   "ctx": "data/campaign/rules.csv LKEchalcedonSedgeKillOptA [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"Yes.\" He smiles again. \"But, $playerBrotherOrSister, you would not find what you're looking for.\"",
+   "ctx": "data/campaign/rules.csv LKEchalcedonSedgeKillOptB [text]"
+  },
+  {
+   "i": 17,
+   "en": "He smiles again. \"You are welcome here, with blessed peace and the hospitality of my people.\"",
+   "ctx": "data/campaign/rules.csv LKEchalcedonSedgeKillOptD [text]"
+  },
+  {
+   "i": 18,
+   "en": "You draw out your TriPad and activate the Jethro Bornanew file. There is a holo from before he left.",
+   "ctx": "data/campaign/rules.csv lkeSedgeShowPicA [text]"
+  },
+  {
+   "i": 19,
+   "en": "You slowly draw your TriPad and activate the Jethro Bornanew file. There is a holo from before he left.",
+   "ctx": "data/campaign/rules.csv lkeSedgeShowPicB [text]"
+  },
+  {
+   "i": 20,
+   "en": "Sedge leans over to examine it.\r\n\r\n\"Ah.\" He speaks without hesitation, \"Yes, I remember now. He went to Mazalot.\"",
+   "ctx": "data/campaign/rules.csv lkeSedgeShowPic2 [text]"
+  },
+  {
+   "i": 21,
+   "en": "Sedge considers his words for a moment. Sucking spittle through his tooth-gap.\r\n\r\n\"That man, his faith is true.\" Sedge swishes again. \"But he... did not know his Path.\"",
+   "ctx": "data/campaign/rules.csv lkeSedgeShowPic3 [text]"
+  },
+  {
+   "i": 22,
+   "en": "Sedge stands back suddenly, looking away down the alley.\r\n\r\n\"That a man could believe, truly, and not know his Path? I did not like to see that. I told him he had no place with us.\" \r\n\r\nHe speaks without meeting your eyes, \"I was told he worked for a time, then bought passage to Mazalot.\"\r\n\r\n\"I hope they see what I saw, too. That... he is unfit.\"",
+   "ctx": "data/campaign/rules.csv lkeSedgeShowPic4a [text]"
+  },
+  {
+   "i": 23,
+   "en": "Sedge stands, suddenly, a look of concern on his face.\r\n\r\n\"That a man could believe, truly, and not know his Path? I did not like to see that. I told him, he had no place with us.\"\r\n\r\n\"I was told he worked for a time, then bought passage to Mazalot,\" he says. \"I hope they see what I saw, too. That he is unfit.\"",
+   "ctx": "data/campaign/rules.csv lkeSedgeShowPic4b [text]"
+  },
+  {
+   "i": 24,
+   "en": "You would swear that Sedge is upset. \r\n\r\n\"No more questions,\" he spits. \"We are done.\"\r\n\r\nHe walks away.",
+   "ctx": "data/campaign/rules.csv lkeSedgeEnd1 [text]"
+  },
+  {
+   "i": 25,
+   "en": "You spot your sidearm on the ground, next to the Mammonite's cooling body.",
+   "ctx": "data/campaign/rules.csv lkeSedgeEndShootB1 [text]"
+  },
+  {
+   "i": 26,
+   "en": "You draw and fire. The shot reverberates in the small space, a sharp crack that rattles ceramicware.\r\n\r\nSedge drops like a bag of meat.\r\n\r\nThere are shouts and screams from patrons. Chaos, and flight. The room empties out, the proprietor ducks behind the bar.",
+   "ctx": "data/campaign/rules.csv lkeSedgeEndBarShoot [text]"
+  },
+  {
+   "i": 27,
+   "en": "You draw and fire. The shot reverberates in the small space, a sharp crack that rattles ceramicware.\r\n\r\nSedge drops like a bag of meat.\r\n\r\nThe proprietor ducks behind the bar and scrabbles out some back door.",
+   "ctx": "data/campaign/rules.csv lkeSedgeEndBarShootB [text]"
+  },
+  {
+   "i": 28,
+   "en": "You draw and fire. The shot reverberates in the alley, a sharp crack.\r\n\r\nSedge drops like a bag of meat.\r\n\r\nSilence follows the echoing shot, broken only by retreating footsteps as his thugs flee the scene.",
+   "ctx": "data/campaign/rules.csv lkeSedgeEndShoot [text]"
+  },
+  {
+   "i": 29,
+   "en": "You speak a sharp word into your comms and within seconds an echoing crack shoots down the alley.\r\n\r\nSedge drops like a bag of meat.\r\n\r\nHis thugs disappear. Tactical chatter from your guards - equipped with the best - tracks their flight from the spot.",
+   "ctx": "data/campaign/rules.csv lkeSedgeEndGuardShoot [text]"
+  },
+  {
+   "i": 30,
+   "en": "His sightless eyes stare up at a paper lantern slowly spinning in the rafters, casting a warm and murky light.\r\n\r\nHe is smiling. And dead.",
+   "ctx": "data/campaign/rules.csv lkeSedgeEndShoot2bar [text]"
+  },
+  {
+   "i": 31,
+   "en": "His sightless eyes stare up at a translucent awning, rain spatter distorting a murky light.\r\n\r\nHe is smiling. And dead.",
+   "ctx": "data/campaign/rules.csv lkeSedgeEndShoot2outside [text]"
+  },
+  {
+   "i": 32,
+   "en": "You leave his body to return to your $shipOrFleet. The Path will know what to do with it.\r\n\r\nThey are sure to come after you, if they weren't before.",
+   "ctx": "data/campaign/rules.csv lkeSedgeEndShootEnd [text]"
+  },
+  {
+   "i": 33,
+   "en": "The proprietor, who was pretending to polish a samovar, releases an audible sigh of relief before giving you an accusing look. You suspect service will not be enthusiastic for you in this establishment in the future.\r\n\r\nYou have a lead: Mazalot.",
+   "ctx": "data/campaign/rules.csv lkeSedgeEnd2Inside [text]"
+  },
+  {
+   "i": 34,
+   "en": "Sedge disappears down a side-alley, and his thugs with him. You are left in the dipping alley with a corpse.\r\n\r\nAnd a lead: Mazalot.",
+   "ctx": "data/campaign/rules.csv lkeSedgeEnd2Outside [text]"
+  },
+  {
+   "i": 35,
+   "en": "The commlink opens with a shudder, error codes flashing from ancient protocols begrudgingly converted to current standards.\r\n\r\nThe Pather captain stares you down. \"$playername,\" $heOrShe begins.",
+   "ctx": "data/campaign/rules.csv lkePatherFleetOpenComm [text]"
+  },
+  {
+   "i": 36,
+   "en": "\"You are known to us. You have spoken in support of the Path that is necessary and righteous to faithful walkers,\" $heOrShe smiles grimly for a moment, then drops it.\r\n\r\n\"So if you truly wish to serve the Path, cease your search. Do not pry into our operations, do not ask after one or another 'missing' recruit.\"",
+   "ctx": "data/campaign/rules.csv lkePatherFleetStartLikePath [text]"
+  },
+  {
+   "i": 37,
+   "en": "\"You are known to us. You shed blood for the Faith on Jangala by the Hegemony's cruel hand.\" $HeOrShe smiles grimly, \"Yes, we know of you.\"\r\n\r\n$HeOrShe drops the smile, and continues. \"Serve the Path again: cease your search. Do not pry into our operations, do not ask after one or another 'missing' recruit.\"",
+   "ctx": "data/campaign/rules.csv lkePatherFleetStartJangSup [text]"
+  },
+  {
+   "i": 38,
+   "en": "\"I was told to cut you from the sky, to burn your fleet and scatter your ashes to the blessed vacuum.\" $HeOrShe smiles grimly, \"But then I received a message. Brother Cotton believes that Providence has sung of your role in the final battle.\"\r\n\r\n$HeOrShe shakes $hisOrHer head, dropping the smile. \"I know not what to make of this. Nonetheless, I... ask... that you cease your search for this 'missing' recruit.\" $HeOrShe sighs, recognizing how pathetic this sounds. \r\n\r\n\"Ask yourself,\" $heOrShe pleads, \"Who do you serve by this action? What lies at the end of this Path?\"",
+   "ctx": "data/campaign/rules.csv lkePatherFleetStartCotton [text]"
+  },
+  {
+   "i": 39,
+   "en": "\"You tread a dangerous path, $playerBrotherOrSister. I was sent here to cut you from the sky and scatter your ashes to the blessed vacuum. I pray that this shall not be necessary.\" ",
+   "ctx": "data/campaign/rules.csv lkePatherFleetFaithOption [text]"
+  },
+  {
+   "i": 40,
+   "en": "\"I will cut you from the sky, burn your fleet and scatter your ashes to the blessed vacuum.\" $HeOrShe smiles grimly, \"This is where your path ends, for you have asked forbidden questions and searched for forbidden things.\"",
+   "ctx": "data/campaign/rules.csv lkePatherFleetDefault [text]"
+  },
+  {
+   "i": 41,
+   "en": "\"But you must,\" $heOrShe says, almost perplexed. \"I shall attack if you do not desist.\"",
+   "ctx": "data/campaign/rules.csv LKEpatherFleetNotStopping [text]"
+  },
+  {
+   "i": 42,
+   "en": "\"But you must,\" $heOrShe says unhappily.",
+   "ctx": "data/campaign/rules.csv LKEpatherFleetNotStoppingB [text]"
+  },
+  {
+   "i": 43,
+   "en": "\"I did not speak with Brother Cotton directly. A message was relayed,\" $heOrShe looks at you with curiosity and concern as $heOrShe speaks.\r\n\r\n\"My Path is to obey, so I obey.\"",
+   "ctx": "data/campaign/rules.csv LKEpatherFleetAskCottonSay [text]"
+  },
+  {
+   "i": 44,
+   "en": "\"I... it is not my place.\" $HeOrShe rubs $hisOrHer forehead nervously. \"I will... report your words to my superior. I can promise nothing.\"",
+   "ctx": "data/campaign/rules.csv LKEpatherFleetAskCottonContact [text]"
+  },
+  {
+   "i": 45,
+   "en": "\"I but asked,\" $heOrShe says, distressed. \"And I shall not disobey Brother Cotton's orders. If you will not listen to my words, then I beg you pray. Pray! And listen for the song of the angels, because you will hear no more from me.\"\r\n\r\n$HeOrShe cuts the comms.",
+   "ctx": "data/campaign/rules.csv LKEpatherFleetThreatNope [text]"
+  },
+  {
+   "i": 46,
+   "en": "The Pather shakes $hisOrHer head; grim, determined. \r\n\r\n\"In that, you are mistaken. I prayed that our Paths would align, and a fellow $playerBrotherOrSister could walk with me. But here it ends for you- in God's holy vacuum.\"\r\n\r\nThe comms are cut.",
+   "ctx": "data/campaign/rules.csv LKEpatherFleetThreatA [text]"
+  },
+  {
+   "i": 47,
+   "en": "The Pather shakes $hisOrHer head; grim, determined.\r\n\r\n\"I obey, and I obey unto a righteous death in God's holy vacuum.\"\r\n\r\nThat said, $heOrShe cuts the comms.",
+   "ctx": "data/campaign/rules.csv LKEpatherFleetThreatB [text]"
+  },
+  {
+   "i": 48,
+   "en": "\"Well decided, $playerBrotherOrSister. We share Faith, if not our Path, but that is enough. We must do all in our worldly and spiritual power to halt that so-called church's perversion of Ludd's teachings.\"\r\n\r\n$HeOrShe holds $hisOrHer hands together, \"Blessed be this day; may your Path lead you to righteous glory.\"",
+   "ctx": "data/campaign/rules.csv LKEpatherFleetCeaseLie [text]"
+  },
+  {
+   "i": 49,
+   "en": "\"Well decided, $playerBrotherOrSister. We share Faith and a Path, and that must be enough. We must do all in our worldly and spiritual power to halt that so-called church's perversion of Ludd's teachings.\"\r\n\r\n$HeOrShe holds $hisOrHer hands together, \"Blessed be this day; may your Path lead you to righteous glory.\"",
+   "ctx": "data/campaign/rules.csv LKEpatherFleetCeaseLie2 [text]"
+  },
+  {
+   "i": 50,
+   "en": "\"I pray that I could believe you,\" $HeOrShe holds $hisOrHer hands together for a moment, \"But you are not of the Faith, nor of the Path. What value is the word of one who so denies the light of Ludd?\"\r\n\r\n$HeOrShe lets $hisOrHer hands drop. \"Nothing. It is worth nothing. Even the truth, if indeed it is truth, is a lie in your heretic's mouth.\"",
+   "ctx": "data/campaign/rules.csv LKEpatherFleetCeaseLie3 [text]"
+  }
+ ]
+}

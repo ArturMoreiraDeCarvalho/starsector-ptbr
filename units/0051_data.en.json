@@ -1,0 +1,1161 @@
+{
+ "chunk": 51,
+ "cat": "data",
+ "items": [
+  {
+   "i": 1,
+   "en": "Archcurate",
+   "ctx": "data/world/factions/default_ranks.json posts.archcurate.name"
+  },
+  {
+   "i": 2,
+   "en": "Heretic",
+   "ctx": "data/world/factions/default_ranks.json posts.heretic.name"
+  },
+  {
+   "i": 3,
+   "en": "Curate Sacraria",
+   "ctx": "data/world/factions/default_ranks.json posts.shrinePriest.name"
+  },
+  {
+   "i": 4,
+   "en": "Excubitor Orbis",
+   "ctx": "data/world/factions/default_ranks.json posts.excubitorOrbis.name"
+  },
+  {
+   "i": 5,
+   "en": "Initiate",
+   "ctx": "data/world/factions/default_ranks.json posts.initiate.name"
+  },
+  {
+   "i": 6,
+   "en": "Novice",
+   "ctx": "data/world/factions/default_ranks.json posts.novice.name"
+  },
+  {
+   "i": 7,
+   "en": "Pilgrim",
+   "ctx": "data/world/factions/default_ranks.json posts.pilgrim.name"
+  },
+  {
+   "i": 8,
+   "en": "A Fistful of Credits",
+   "ctx": "data/missions/afistfulofcredits/descriptor.json title"
+  },
+  {
+   "i": 9,
+   "en": "Ambush",
+   "ctx": "data/missions/ambush/descriptor.json title"
+  },
+  {
+   "i": 10,
+   "en": "Coral Nebula",
+   "ctx": "data/missions/coralnebula/descriptor.json title"
+  },
+  {
+   "i": 11,
+   "en": "Dire Straits",
+   "ctx": "data/missions/direstraits/descriptor.json title"
+  },
+  {
+   "i": 12,
+   "en": "Forlorn Hope",
+   "ctx": "data/missions/forlornhope/descriptor.json title"
+  },
+  {
+   "i": 13,
+   "en": "For the Greater Ludd",
+   "ctx": "data/missions/forthegreaterlud/descriptor.json title"
+  },
+  {
+   "i": 14,
+   "en": "Hornet's Nest",
+   "ctx": "data/missions/hornetsnest/descriptor.json title"
+  },
+  {
+   "i": 15,
+   "en": "It's a Trap!",
+   "ctx": "data/missions/m2/descriptor.json title"
+  },
+  {
+   "i": 16,
+   "en": "Nebula Ambush",
+   "ctx": "data/missions/m3/descriptor.json title"
+  },
+  {
+   "i": 17,
+   "en": "Nothing Personal",
+   "ctx": "data/missions/nothingpersonal/descriptor.json title"
+  },
+  {
+   "i": 18,
+   "en": "Predator or Prey?",
+   "ctx": "data/missions/predatororprey/descriptor.json title"
+  },
+  {
+   "i": 19,
+   "en": "Random Battle",
+   "ctx": "data/missions/randombattle1/descriptor.json title"
+  },
+  {
+   "i": 20,
+   "en": "Sinking the Bismar",
+   "ctx": "data/missions/sinkingthebismarck/descriptor.json title"
+  },
+  {
+   "i": 21,
+   "en": "The Last Hurrah",
+   "ctx": "data/missions/thelasthurrah/descriptor.json title"
+  },
+  {
+   "i": 22,
+   "en": "The Wolf Pack",
+   "ctx": "data/missions/thewolfpack/descriptor.json title"
+  },
+  {
+   "i": 23,
+   "en": "Turning the Tables",
+   "ctx": "data/missions/turningthetables/descriptor.json title"
+  },
+  {
+   "i": 24,
+   "en": "Derelict",
+   "ctx": "data/world/factions/derelict.faction displayName"
+  },
+  {
+   "i": 25,
+   "en": "the derelict",
+   "ctx": "data/world/factions/derelict.faction displayNameWithArticle"
+  },
+  {
+   "i": 26,
+   "en": "Domain Exploration Derelict",
+   "ctx": "data/world/factions/derelict.faction displayNameLong"
+  },
+  {
+   "i": 27,
+   "en": "the Domain Exploration Derelict",
+   "ctx": "data/world/factions/derelict.faction displayNameLongWithArticle"
+  },
+  {
+   "i": 28,
+   "en": "the Shrouded Dweller",
+   "ctx": "data/world/factions/dweller.faction displayNameWithArticle"
+  },
+  {
+   "i": 29,
+   "en": "the Hegemony",
+   "ctx": "data/world/factions/hegemony.faction displayNameWithArticle"
+  },
+  {
+   "i": 30,
+   "en": "independent",
+   "ctx": "data/world/factions/independent.faction displayName"
+  },
+  {
+   "i": 31,
+   "en": "the independents",
+   "ctx": "data/world/factions/independent.faction displayNameWithArticle"
+  },
+  {
+   "i": 32,
+   "en": "independents",
+   "ctx": "data/world/factions/independent.faction displayNameLong"
+  },
+  {
+   "i": 33,
+   "en": "the Knights of Ludd",
+   "ctx": "data/world/factions/knights_of_ludd.faction displayNameWithArticle"
+  },
+  {
+   "i": 34,
+   "en": "the Lion's Guard",
+   "ctx": "data/world/factions/lions_guard.faction displayNameWithArticle"
+  },
+  {
+   "i": 35,
+   "en": "the Luddic Church",
+   "ctx": "data/world/factions/luddic_church.faction displayNameWithArticle"
+  },
+  {
+   "i": 36,
+   "en": "Church of Galactic Redemption",
+   "ctx": "data/world/factions/luddic_church.faction displayNameLong"
+  },
+  {
+   "i": 37,
+   "en": "the Church of Galactic Redemption",
+   "ctx": "data/world/factions/luddic_church.faction displayNameLongWithArticle"
+  },
+  {
+   "i": 38,
+   "en": "the Luddic Path",
+   "ctx": "data/world/factions/luddic_path.faction displayNameWithArticle"
+  },
+  {
+   "i": 39,
+   "en": "mercenaries",
+   "ctx": "data/world/factions/mercenary.faction displayNameWithArticle"
+  },
+  {
+   "i": 40,
+   "en": "Omega",
+   "ctx": "data/world/factions/omega.faction displayName"
+  },
+  {
+   "i": 41,
+   "en": "the Omega",
+   "ctx": "data/world/factions/omega.faction displayNameWithArticle"
+  },
+  {
+   "i": 42,
+   "en": "the Persean League",
+   "ctx": "data/world/factions/persean_league.faction displayNameWithArticle"
+  },
+  {
+   "i": 43,
+   "en": "pirates",
+   "ctx": "data/world/factions/pirates.faction displayName"
+  },
+  {
+   "i": 44,
+   "en": "the pirates",
+   "ctx": "data/world/factions/pirates.faction displayNameWithArticle"
+  },
+  {
+   "i": 45,
+   "en": "Your",
+   "ctx": "data/world/factions/player.faction displayName"
+  },
+  {
+   "i": 46,
+   "en": "refugees",
+   "ctx": "data/world/factions/poor.faction displayName"
+  },
+  {
+   "i": 47,
+   "en": "the refugees",
+   "ctx": "data/world/factions/poor.faction displayNameWithArticle"
+  },
+  {
+   "i": 48,
+   "en": "Remnants",
+   "ctx": "data/world/factions/remnants.faction displayName"
+  },
+  {
+   "i": 49,
+   "en": "the remnant",
+   "ctx": "data/world/factions/remnants.faction displayNameWithArticle"
+  },
+  {
+   "i": 50,
+   "en": "AI Remnants",
+   "ctx": "data/world/factions/remnants.faction displayNameLong"
+  },
+  {
+   "i": 51,
+   "en": "the AI Remnants",
+   "ctx": "data/world/factions/remnants.faction displayNameLongWithArticle"
+  },
+  {
+   "i": 52,
+   "en": "scavengers",
+   "ctx": "data/world/factions/scavengers.faction displayName"
+  },
+  {
+   "i": 53,
+   "en": "the scavengers",
+   "ctx": "data/world/factions/scavengers.faction displayNameWithArticle"
+  },
+  {
+   "i": 54,
+   "en": "the Sindrian Diktat",
+   "ctx": "data/world/factions/sindrian_diktat.faction displayNameWithArticle"
+  },
+  {
+   "i": 55,
+   "en": "sleeper",
+   "ctx": "data/world/factions/sleeper.faction displayName"
+  },
+  {
+   "i": 56,
+   "en": "the sleeper",
+   "ctx": "data/world/factions/sleeper.faction displayNameWithArticle"
+  },
+  {
+   "i": 57,
+   "en": "the Threat",
+   "ctx": "data/world/factions/threat.faction displayNameWithArticle"
+  },
+  {
+   "i": 58,
+   "en": "the Tri-Tachyon Corporation",
+   "ctx": "data/world/factions/tritachyon.faction displayNameLongWithArticle"
+  },
+  {
+   "i": 59,
+   "en": "After the Second AI War, many corrupted blueprints became available, sourced by salvagers willing to risk the star systems abandoned by Tri-Tachyon. Many of these were sold to disreputable elements such as black marketeers and pirates, who promptly put them back into service producing low quality but combat-capable ships.",
+   "ctx": "data/hulls/skins/afflictor_d_pirates.skin descriptionPrefix"
+  },
+  {
+   "i": 60,
+   "en": "Modified for operations in the Askonia system under orders from Supreme Executor Philip Andrada, this hull includes integrated solar shielding as well as a peculiar internal cladding provided by an industrial conglomerate out of Sindria itself. That the chief designer, appointed by the Supreme Executor for his many cycles of loyal service, sits on the board of that conglomerate is simply an example of the unity and efficiency of the Sindrian Polity.",
+   "ctx": "data/hulls/skins/brawler_LG.skin descriptionPrefix"
+  },
+  {
+   "i": 61,
+   "en": "Fanatics of the Luddic Path have made this ship their own, stripping out all unnecessary furnishing and transforming it into a haphazard vehicle of holy war.",
+   "ctx": "data/hulls/skins/brawler_pather.skin descriptionPrefix"
+  },
+  {
+   "i": 62,
+   "en": "This ship has been thoroughly overhauled by the Tri-Tachyon corporation. Tri-Tachyon compliant software patches have been installed which are fully integrated with TriPad (R) status monitoring protocols, high-spec flux conduit upgrades performed, and weapon attachment points refurbished for mounting advanced energy weapons.",
+   "ctx": "data/hulls/skins/brawler_tritachyon.skin descriptionPrefix"
+  },
+  {
+   "i": 63,
+   "en": "Ships that would be decommissioned in quieter times now see widespread use throughout the Sector. The hull designation for such ships is usually tagged with a \\\"D\\\", for \\\"damaged\\\" or \\\"defective\\\".",
+   "ctx": "data/hulls/skins/buffalo_d.skin descriptionPrefix"
+  },
+  {
+   "i": 64,
+   "en": "This ship is on the Hegemony auxiliary list and as such its systems have been upgraded to military standard and a rigorous schedule of servicing enforced with the expectation that it can be pressed into military service during emergencies.",
+   "ctx": "data/hulls/skins/buffalo_hegemony.skin descriptionPrefix"
+  },
+  {
+   "i": 65,
+   "en": "This ship has been given Luddic Church markings. Systems modifications are otherwise superficial.",
+   "ctx": "data/hulls/skins/buffalo_luddic_church.skin descriptionPrefix"
+  },
+  {
+   "i": 66,
+   "en": "This ship has been heavily modified - and poorly maintained - by its pirate crew.",
+   "ctx": "data/hulls/skins/buffalo_pirates.skin descriptionPrefix"
+  },
+  {
+   "i": 67,
+   "en": "This ship has been given Tri-Tachyon markings. Systems modifications are otherwise superficial.",
+   "ctx": "data/hulls/skins/buffalo_tritachyon.skin descriptionPrefix"
+  },
+  {
+   "i": 68,
+   "en": "Built to the specifications of the 14th Domain Battlegroup which founded the Hegemony, this vessel is a prime example of the Domain Navy's 'decisive battle' doctrine, particularly exhibited by a series of radical structural modifications performed using pre-Collapse industrial technology.",
+   "ctx": "data/hulls/skins/dominator_xiv.skin descriptionPrefix"
+  },
+  {
+   "i": 69,
+   "en": "This Falcon's propulsion system has been given impractical yet showy 'improvements' by some enthusiastic pirate crew; the patchwork of engine components, somehow persuaded to work toward ungainly common purpose, conform to zero safety standards.",
+   "ctx": "data/hulls/skins/falcon_p.skin descriptionPrefix"
+  },
+  {
+   "i": 70,
+   "en": "Fanatics of the Luddic Path have made this ship their own, stripping out all unnecessary trimmings and transforming it into a haphazard vehicle of holy war.",
+   "ctx": "data/hulls/skins/hound_luddic_path.skin descriptionPrefix"
+  },
+  {
+   "i": 71,
+   "en": "An unmodified original civilian model in pristine stock condition, this ship is a collector's item from a more civilized age.",
+   "ctx": "data/hulls/skins/kite_original.skin descriptionPrefix"
+  },
+  {
+   "i": 72,
+   "en": "Fanatics of the Luddic Path have crudely modified this ship, overloading the engines and power systems then replacing the original ballistic turret mount with a massive missile launcher, the better to execute bold alpha-strikes upon capital ships and cruisers.",
+   "ctx": "data/hulls/skins/manticore_pather.skin descriptionPrefix"
+  },
+  {
+   "i": 73,
+   "en": "Upgraded with a mine teleportation system.",
+   "ctx": "data/hulls/skins/module_hightech_attack_minelayer.skin descriptionPrefix"
+  },
+  {
+   "i": 74,
+   "en": "A series of ill-advised modifications have been made to militarize this normally-harmless hull. Whether it's more dangerous to its crew or its enemies remains a point of contention at dockside bars, but these modification are often favored by pirates seeking to create the impression of overwhelming firepower.",
+   "ctx": "data/hulls/skins/mudskipper2.skin descriptionPrefix"
+  },
+  {
+   "i": 75,
+   "en": "A series of ambitious modifications have been made to this Venture in some dark shipyard on the outer rim. The hangar space and ore bays have been replaced by a hardpoint capable of mounting an enormous missile launcher, munitions storage, and a largely reliable generic autoloader system. The fact that this missile launcher is rear-facing has inspired a great number of colorful nicknames for this hull variant by crew and foe alike.",
+   "ctx": "data/hulls/skins/venture_p.skin descriptionPrefix"
+  },
+  {
+   "i": 76,
+   "en": "This ship has been given Hegemony markings. Systems modifications are otherwise superficial.",
+   "ctx": "data/hulls/skins/wolf_hegemony.skin descriptionPrefix"
+  },
+  {
+   "i": 77,
+   "en": "Level 1",
+   "ctx": "data/characters/skills/advanced_countermeasures.skill effectGroups.0.name"
+  },
+  {
+   "i": 78,
+   "en": "Level 2",
+   "ctx": "data/characters/skills/advanced_countermeasures.skill effectGroups.1.name"
+  },
+  {
+   "i": 79,
+   "en": "Level 3",
+   "ctx": "data/characters/skills/advanced_countermeasures.skill effectGroups.2.name"
+  },
+  {
+   "i": 80,
+   "en": "Balanced",
+   "ctx": "data/variants/apogee_Balanced.variant displayName"
+  },
+  {
+   "i": 81,
+   "en": "Attack",
+   "ctx": "data/variants/astral_Attack.variant displayName"
+  },
+  {
+   "i": 82,
+   "en": "Siege",
+   "ctx": "data/variants/bastillon_Standard.variant displayName"
+  },
+  {
+   "i": 83,
+   "en": "Commandeered",
+   "ctx": "data/variants/brawler_Starting.variant displayName"
+  },
+  {
+   "i": 84,
+   "en": "Fighter Support",
+   "ctx": "data/variants/buffalo2_Fighter_Support.variant displayName"
+  },
+  {
+   "i": 85,
+   "en": "EMP Hardened",
+   "ctx": "data/variants/cerberus/cerberus_Hardened.variant displayName"
+  },
+  {
+   "i": 86,
+   "en": "Overdriven",
+   "ctx": "data/variants/cerberus/cerberus_Overdriven.variant displayName"
+  },
+  {
+   "i": 87,
+   "en": "Shielded",
+   "ctx": "data/variants/cerberus/cerberus_Shielded.variant displayName"
+  },
+  {
+   "i": 88,
+   "en": "DEM Escort",
+   "ctx": "data/variants/champion/champion_DEMEscort.variant displayName"
+  },
+  {
+   "i": 89,
+   "en": "Escort",
+   "ctx": "data/variants/champion/champion_Escort.variant displayName"
+  },
+  {
+   "i": 90,
+   "en": "DEM",
+   "ctx": "data/variants/conquest/conquest_DEM.variant displayName"
+  },
+  {
+   "i": 91,
+   "en": "PD",
+   "ctx": "data/variants/defender_PD.variant displayName"
+  },
+  {
+   "i": 92,
+   "en": "Anti-CV",
+   "ctx": "data/variants/dominator/dominator_AntiCV.variant displayName"
+  },
+  {
+   "i": 93,
+   "en": "FTR Support",
+   "ctx": "data/variants/dominator/dominator_Fighter_Support.variant displayName"
+  },
+  {
+   "i": 94,
+   "en": "Rocket",
+   "ctx": "data/variants/dominator/dominator_Outdated.variant displayName"
+  },
+  {
+   "i": 95,
+   "en": "Close Support",
+   "ctx": "data/variants/enforcer/enforcer_CS.variant displayName"
+  },
+  {
+   "i": 96,
+   "en": "Outdated",
+   "ctx": "data/variants/eradicator/eradicator_Outdated.variant displayName"
+  },
+  {
+   "i": 97,
+   "en": "Torpedo Bomber",
+   "ctx": "data/variants/fighters/dagger_Bomber.variant displayName"
+  },
+  {
+   "i": 98,
+   "en": "Rocket Bomber",
+   "ctx": "data/variants/fighters/khopesh_Bomber.variant displayName"
+  },
+  {
+   "i": 99,
+   "en": "Kinetic Bomber",
+   "ctx": "data/variants/fighters/longbow_Support.variant displayName"
+  },
+  {
+   "i": 100,
+   "en": "Auxiliary",
+   "ctx": "data/variants/fighters/mining_drone_Standard.variant displayName"
+  },
+  {
+   "i": 101,
+   "en": "Support Fighter",
+   "ctx": "data/variants/fighters/sarissa_Fighter.variant displayName"
+  },
+  {
+   "i": 102,
+   "en": "Assault Fighter",
+   "ctx": "data/variants/fighters/warthog_Fighter.variant displayName"
+  },
+  {
+   "i": 103,
+   "en": "Fire Support",
+   "ctx": "data/variants/gryphon/gryphon_FS.variant displayName"
+  },
+  {
+   "i": 104,
+   "en": "Tutorial",
+   "ctx": "data/variants/hammerhead/hammerhead_Tutorial.variant displayName"
+  },
+  {
+   "i": 105,
+   "en": "Stock",
+   "ctx": "data/variants/kite/kite_Stock.variant displayName"
+  },
+  {
+   "i": 106,
+   "en": "CGR Standard",
+   "ctx": "data/variants/lasher/lasher_luddic_church_Standard.variant displayName"
+  },
+  {
+   "i": 107,
+   "en": "Automated",
+   "ctx": "data/variants/legion/legion_xiv_Automated.variant displayName"
+  },
+  {
+   "i": 108,
+   "en": "Hellbore",
+   "ctx": "data/variants/mudskipper2_Hellbore.variant displayName"
+  },
+  {
+   "i": 109,
+   "en": "Shieldbreaker",
+   "ctx": "data/variants/omega/aspect_Shieldbreaker.variant displayName"
+  },
+  {
+   "i": 110,
+   "en": "Shock",
+   "ctx": "data/variants/omega/aspect_Shock.variant displayName"
+  },
+  {
+   "i": 111,
+   "en": "Armorbreaker",
+   "ctx": "data/variants/omega/facet_Armorbreaker.variant displayName"
+  },
+  {
+   "i": 112,
+   "en": "Disruptor",
+   "ctx": "data/variants/omega/tesseract_Disruptor.variant displayName"
+  },
+  {
+   "i": 113,
+   "en": "EW",
+   "ctx": "data/variants/omen_PD.variant displayName"
+  },
+  {
+   "i": 114,
+   "en": "Ancient",
+   "ctx": "data/variants/onslaught/onslaught_mk1_Ancient.variant displayName"
+  },
+  {
+   "i": 115,
+   "en": "Super",
+   "ctx": "data/variants/prometheus_Super.variant displayName"
+  },
+  {
+   "i": 116,
+   "en": "Experimental",
+   "ctx": "data/variants/scarab/scarab_Experimental.variant displayName"
+  },
+  {
+   "i": 117,
+   "en": "Test",
+   "ctx": "data/variants/stations/platform1_Test.variant displayName"
+  },
+  {
+   "i": 118,
+   "en": "Damaged",
+   "ctx": "data/variants/stations/remnant_station2_Damaged.variant displayName"
+  },
+  {
+   "i": 119,
+   "en": "Type 200",
+   "ctx": "data/variants/threat/assault_unit_Type200.variant displayName"
+  },
+  {
+   "i": 120,
+   "en": "Type 201",
+   "ctx": "data/variants/threat/assault_unit_Type201.variant displayName"
+  },
+  {
+   "i": 121,
+   "en": "Construction",
+   "ctx": "data/variants/threat/attack_swarm_Construction.variant displayName"
+  },
+  {
+   "i": 122,
+   "en": "Reclamation",
+   "ctx": "data/variants/threat/attack_swarm_Reclamation.variant displayName"
+  },
+  {
+   "i": 123,
+   "en": "Type 450",
+   "ctx": "data/variants/threat/fabricator_unit_Type450.variant displayName"
+  },
+  {
+   "i": 124,
+   "en": "Type 350",
+   "ctx": "data/variants/threat/hive_unit_Type350.variant displayName"
+  },
+  {
+   "i": 125,
+   "en": "Type 250",
+   "ctx": "data/variants/threat/overseer_unit_Type250.variant displayName"
+  },
+  {
+   "i": 126,
+   "en": "Type 100",
+   "ctx": "data/variants/threat/skirmish_unit_Type100.variant displayName"
+  },
+  {
+   "i": 127,
+   "en": "Type 101",
+   "ctx": "data/variants/threat/skirmish_unit_Type101.variant displayName"
+  },
+  {
+   "i": 128,
+   "en": "Type 300",
+   "ctx": "data/variants/threat/standoff_unit_Type300.variant displayName"
+  },
+  {
+   "i": 129,
+   "en": "Type 301",
+   "ctx": "data/variants/threat/standoff_unit_Type301.variant displayName"
+  },
+  {
+   "i": 130,
+   "en": "Type 302",
+   "ctx": "data/variants/threat/standoff_unit_Type302.variant displayName"
+  },
+  {
+   "i": 131,
+   "en": "Possible food shortage $onOrAt $market",
+   "ctx": "data/campaign/reports.csv food_shortage/possible/player_intel/ [subject]"
+  },
+  {
+   "i": 132,
+   "en": "Likely food shortage $onOrAt $market",
+   "ctx": "data/campaign/reports.csv food_shortage/likely/player_intel/ [subject]"
+  },
+  {
+   "i": 133,
+   "en": "Food shortage $onOrAt $market",
+   "ctx": "data/campaign/reports.csv food_shortage/start/news/ [subject]"
+  },
+  {
+   "i": 134,
+   "en": "Critical food shortage $onOrAt $market",
+   "ctx": "data/campaign/reports.csv food_shortage/start/hegemony_public/HOSTILE [subject]"
+  },
+  {
+   "i": 135,
+   "en": "Alleged food shortage $onOrAt $market",
+   "ctx": "data/campaign/reports.csv food_shortage/start/hegemony_public/SELF [subject]"
+  },
+  {
+   "i": 136,
+   "en": "Food shortage $onOrAt $market: relief being organized on $reliefMarket",
+   "ctx": "data/campaign/reports.csv food_shortage/warning_relief/player_intel/ [subject]"
+  },
+  {
+   "i": 137,
+   "en": "Food shortage $onOrAt $market: relief sent from $reliefMarket",
+   "ctx": "data/campaign/reports.csv food_shortage/relief_sent/news/ [subject]"
+  },
+  {
+   "i": 138,
+   "en": "Food shortage $onOrAt $market: conditions worsen",
+   "ctx": "data/campaign/reports.csv food_shortage/relief_unavailable/news/ [subject]"
+  },
+  {
+   "i": 139,
+   "en": "Food shortage $onOrAt $market: relief fleet turned back",
+   "ctx": "data/campaign/reports.csv food_shortage/relief_aborted/news/ [subject]"
+  },
+  {
+   "i": 140,
+   "en": "Food shortage $onOrAt $market: relief fleet arrived",
+   "ctx": "data/campaign/reports.csv food_shortage/end_relief_arrived/news/ [subject]"
+  },
+  {
+   "i": 141,
+   "en": "Food shortage $onOrAt $market: relief fleet lost",
+   "ctx": "data/campaign/reports.csv food_shortage/relief_lost/news/ [subject]"
+  },
+  {
+   "i": 142,
+   "en": "Food shortage $onOrAt $market over",
+   "ctx": "data/campaign/reports.csv food_shortage/end_expired/news/ [subject]"
+  },
+  {
+   "i": 143,
+   "en": "Smuggling investigation $onOrAt $market",
+   "ctx": "data/campaign/reports.csv investigation_smuggling/start_smuggling/secure_comm/ [subject]"
+  },
+  {
+   "i": 144,
+   "en": "Smuggling investigation $onOrAt $market - cleared",
+   "ctx": "data/campaign/reports.csv investigation_smuggling/clear_smuggling/player_intel_always/ [subject]"
+  },
+  {
+   "i": 145,
+   "en": "Smuggling investigation $onOrAt $market - convicted",
+   "ctx": "data/campaign/reports.csv investigation_smuggling/player_guilty_smuggling/player_intel_always/ [subject]"
+  },
+  {
+   "i": 146,
+   "en": "$MarketFaction investigation of your ties to $OtherFaction",
+   "ctx": "data/campaign/reports.csv investigation_goodrep/start_goodrep/secure_comm/ [subject]"
+  },
+  {
+   "i": 147,
+   "en": "$MarketFaction investigation of your ties to $OtherFaction - cleared",
+   "ctx": "data/campaign/reports.csv investigation_goodrep/clear_goodrep/player_intel_always/ [subject]"
+  },
+  {
+   "i": 148,
+   "en": "$MarketFaction investigation of your ties to $OtherFaction - convicted",
+   "ctx": "data/campaign/reports.csv investigation_goodrep/player_guilty_goodrep/player_intel_always/ [subject]"
+  },
+  {
+   "i": 149,
+   "en": "Lost contact with comm sniffer at $name",
+   "ctx": "data/campaign/reports.csv investigation_comm_sniffer/start_comm_sniffer/player_intel_always/ [subject]"
+  },
+  {
+   "i": 150,
+   "en": "Comm sniffer at $name traced back to you",
+   "ctx": "data/campaign/reports.csv investigation_comm_sniffer/player_guilty_comm_sniffer/player_intel_always/ [subject]"
+  },
+  {
+   "i": 151,
+   "en": "Trade disrupted $onOrAt $market in the $marketSystem system",
+   "ctx": "data/campaign/reports.csv trade_disruption/report_td/news/ [subject]"
+  },
+  {
+   "i": 152,
+   "en": "Smuggling activity $onOrAt $market in the $marketSystem system",
+   "ctx": "data/campaign/reports.csv trade_disruption/report_smuggling/news/ [subject]"
+  },
+  {
+   "i": 153,
+   "en": "Standing with $theFaction improved due to trade",
+   "ctx": "data/campaign/reports.csv rep_tracker/trade_rep/player_intel_always/ [subject]"
+  },
+  {
+   "i": 154,
+   "en": "Standing with $theFaction reduced due to smuggling",
+   "ctx": "data/campaign/reports.csv rep_tracker/smuggling_rep/player_intel_always/ [subject]"
+  },
+  {
+   "i": 155,
+   "en": "Standing with $theHostileFaction reduced due to trade with $pickedMarket",
+   "ctx": "data/campaign/reports.csv rep_tracker/trade_negative/player_intel_always/ [subject]"
+  },
+  {
+   "i": 156,
+   "en": "Trade experience",
+   "ctx": "data/campaign/reports.csv rep_tracker/trade_xp_gain/player_intel_always/ [subject]"
+  },
+  {
+   "i": 157,
+   "en": "Standing with $theFaction improved",
+   "ctx": "data/campaign/reports.csv rep_tracker/rep_decay_positive/player_intel_always/ [subject]"
+  },
+  {
+   "i": 158,
+   "en": "$Faction secure comm access granted",
+   "ctx": "data/campaign/reports.csv rep_tracker/comm_access_granted/player_intel_always/ [subject]"
+  },
+  {
+   "i": 159,
+   "en": "$Faction secure comm access revoked",
+   "ctx": "data/campaign/reports.csv rep_tracker/comm_access_revoked/player_intel_always/ [subject]"
+  },
+  {
+   "i": 160,
+   "en": "$market price update",
+   "ctx": "data/campaign/reports.csv trade_info/prices_market/player_intel_always/ [subject]"
+  },
+  {
+   "i": 161,
+   "en": "Local price update",
+   "ctx": "data/campaign/reports.csv trade_info/prices_local/player_intel_always/ [subject]"
+  },
+  {
+   "i": 162,
+   "en": "Price update",
+   "ctx": "data/campaign/reports.csv trade_info/prices_sniffer/player_intel_always/ [subject]"
+  },
+  {
+   "i": 163,
+   "en": "Customs inspection",
+   "ctx": "data/campaign/reports.csv customs_inspection/player_evaded/player_intel_always/ [subject]"
+  },
+  {
+   "i": 164,
+   "en": "Bounty likely to be offered by $market",
+   "ctx": "data/campaign/reports.csv system_bounty/likely/player_intel/ [subject]"
+  },
+  {
+   "i": 165,
+   "en": "Bounty offered by $market",
+   "ctx": "data/campaign/reports.csv system_bounty/start/news/ [subject]"
+  },
+  {
+   "i": 166,
+   "en": "Bounty payment from $market: $bountyCredits credits",
+   "ctx": "data/campaign/reports.csv system_bounty/bounty_payment/secure_comm/ [subject]"
+  },
+  {
+   "i": 167,
+   "en": "Assessment re: bounty from $market",
+   "ctx": "data/campaign/reports.csv system_bounty/bounty_no_payment/player_intel_always/ [subject]"
+  },
+  {
+   "i": 168,
+   "en": "Bounty offered by $market over",
+   "ctx": "data/campaign/reports.csv system_bounty/end/news/ [subject]"
+  },
+  {
+   "i": 169,
+   "en": "Comm sniffer data",
+   "ctx": "data/campaign/reports.csv comm_sniffer/report/player_comm_sniffer/ [subject]"
+  },
+  {
+   "i": 170,
+   "en": "$bountyCredits credit bounty posted by $theFaction on $targetName",
+   "ctx": "data/campaign/reports.csv person_bounty/start_pirate/news/ [subject]"
+  },
+  {
+   "i": 171,
+   "en": "Bounty payment from $theFaction: $bountyCredits credits",
+   "ctx": "data/campaign/reports.csv person_bounty/bounty_payment_end/secure_comm/ [subject]"
+  },
+  {
+   "i": 172,
+   "en": "Assessment re: $targetName bounty",
+   "ctx": "data/campaign/reports.csv person_bounty/bounty_no_payment_end/player_intel_always/ [subject]"
+  },
+  {
+   "i": 173,
+   "en": "Bounty on $targetName over",
+   "ctx": "data/campaign/reports.csv person_bounty/other_end/news/ [subject]"
+  },
+  {
+   "i": 174,
+   "en": "Test mission accepted",
+   "ctx": "data/campaign/reports.csv test_mission/start/player_intel_always/ [subject]"
+  },
+  {
+   "i": 175,
+   "en": "Test mission completed success",
+   "ctx": "data/campaign/reports.csv test_mission/end_success/player_intel_always/ [subject]"
+  },
+  {
+   "i": 176,
+   "en": "Test mission completed failure",
+   "ctx": "data/campaign/reports.csv test_mission/end_failure/player_intel_always/ [subject]"
+  },
+  {
+   "i": 177,
+   "en": "Acquire $quantity units of $commodity and deliver to $market within $daysLeft for a $rewardCredits payment.",
+   "ctx": "data/campaign/reports.csv market_procurement/posting/posting/ [subject]"
+  },
+  {
+   "i": 178,
+   "en": "Acquire $quantity units of $commodity and deliver to $market within $daysLeft for a $rewardCredits payment. $bonusCredits bonus for delivery within $bonusDays.",
+   "ctx": "data/campaign/reports.csv market_procurement/posting_bonus/posting/ [subject]"
+  },
+  {
+   "i": 179,
+   "en": "Accepted: acquire $quantity unit(s) of $commodity and deliver to $market",
+   "ctx": "data/campaign/reports.csv market_procurement/accept/secure_comm/ [subject]"
+  },
+  {
+   "i": 180,
+   "en": "Completed: $quantity unit(s) of $commodity delivered to $market",
+   "ctx": "data/campaign/reports.csv market_procurement/success/player_intel_always/ [subject]"
+  },
+  {
+   "i": 181,
+   "en": "Failed: failed to deliver $quantity unit(s) of $commodity to $market in time",
+   "ctx": "data/campaign/reports.csv market_procurement/failure/player_intel_always/ [subject]"
+  },
+  {
+   "i": 182,
+   "en": "Run provided sensor package on $entityName in $systemName within $daysLeft for $rewardCredits payment.",
+   "ctx": "data/campaign/reports.csv analyze_entity/posting/posting/ [subject]"
+  },
+  {
+   "i": 183,
+   "en": "Accepted: run sensor package on $entityName in $systemName",
+   "ctx": "data/campaign/reports.csv analyze_entity/accept/secure_comm/ [subject]"
+  },
+  {
+   "i": 184,
+   "en": "Failed: run sensor package on $entityName in $systemName",
+   "ctx": "data/campaign/reports.csv analyze_entity/failure/player_intel_always/ [subject]"
+  },
+  {
+   "i": 185,
+   "en": "Completed: run sensor package on $entityName in $systemName",
+   "ctx": "data/campaign/reports.csv analyze_entity/success/player_intel_always/ [subject]"
+  },
+  {
+   "i": 186,
+   "en": "Run a full survey on $planetName in $systemName within $daysLeft for $rewardCredits payment.",
+   "ctx": "data/campaign/reports.csv survey_planet/posting/posting/ [subject]"
+  },
+  {
+   "i": 187,
+   "en": "Accepted: run a full survey on $planetName in $systemName",
+   "ctx": "data/campaign/reports.csv survey_planet/accept/secure_comm/ [subject]"
+  },
+  {
+   "i": 188,
+   "en": "Failed: run a full survey on $planetName in $systemName",
+   "ctx": "data/campaign/reports.csv survey_planet/failure/player_intel_always/ [subject]"
+  },
+  {
+   "i": 189,
+   "en": "Completed: run a full survey on $planetName in $systemName",
+   "ctx": "data/campaign/reports.csv survey_planet/success/player_intel_always/ [subject]"
+  },
+  {
+   "i": 190,
+   "en": "Secure communication from Ancyra",
+   "ctx": "data/campaign/reports.csv tutorial_mission/start/secure_comm/ [subject]"
+  },
+  {
+   "i": 191,
+   "en": "Acquire jump-point data at Derinkuyu",
+   "ctx": "data/campaign/reports.csv tutorial_mission/sneak_start/player_intel_always/ [subject]"
+  },
+  {
+   "i": 192,
+   "en": "Return to Ancyra with the data",
+   "ctx": "data/campaign/reports.csv tutorial_mission/sneak_end/player_intel_always/ [subject]"
+  },
+  {
+   "i": 193,
+   "en": "Salvage an AI core from a derelict",
+   "ctx": "data/campaign/reports.csv tutorial_mission/salvage_core_start/player_intel_always/ [subject]"
+  },
+  {
+   "i": 194,
+   "en": "Return to Ancyra with the AI core",
+   "ctx": "data/campaign/reports.csv tutorial_mission/salvage_core_end/player_intel_always/ [subject]"
+  },
+  {
+   "i": 195,
+   "en": "Recover derelict ships around Tetra",
+   "ctx": "data/campaign/reports.csv tutorial_mission/ship_recovery_start/player_intel_always/ [subject]"
+  },
+  {
+   "i": 196,
+   "en": "Return to Ancyra and outfit the recovered ships",
+   "ctx": "data/campaign/reports.csv tutorial_mission/ship_recovery_end/player_intel_always/ [subject]"
+  },
+  {
+   "i": 197,
+   "en": "Deliver report to Jangala in the Corvus system",
+   "ctx": "data/campaign/reports.csv tutorial_mission/deliver_message/player_intel_always/ [subject]"
+  },
+  {
+   "i": 198,
+   "en": "Report delivered",
+   "ctx": "data/campaign/reports.csv tutorial_mission/end/player_intel_always/ [subject]"
+  },
+  {
+   "i": 199,
+   "en": "Required for most military market purchases, and pays a small bounty on enemies of the faction, which will become hostile to the holder of the commission.",
+   "ctx": "data/campaign/reports.csv faction_commission/posting/posting/ [subject]"
+  },
+  {
+   "i": 200,
+   "en": "$Faction commission accepted",
+   "ctx": "data/campaign/reports.csv faction_commission/accept/secure_comm/ [subject]"
+  },
+  {
+   "i": 201,
+   "en": "$otherFaction is now hostile",
+   "ctx": "data/campaign/reports.csv faction_commission/become_hostile/secure_comm/ [subject]"
+  },
+  {
+   "i": 202,
+   "en": "Payment from $theFaction: $bountyCredits credits",
+   "ctx": "data/campaign/reports.csv faction_commission/bounty_payment/secure_comm/ [subject]"
+  },
+  {
+   "i": 203,
+   "en": "Commision with $theFaction annulled",
+   "ctx": "data/campaign/reports.csv faction_commission/annul/secure_comm/ [subject]"
+  },
+  {
+   "i": 204,
+   "en": "$Faction notice re: hostilies with $theOtherFaction",
+   "ctx": "data/campaign/reports.csv faction_commission/rep_drop_hostile/secure_comm/ [subject]"
+  },
+  {
+   "i": 205,
+   "en": "Impending hostilities between $theOneFaction and $theTwoFaction",
+   "ctx": "data/campaign/reports.csv faction_hostility/warning/secure_comm/ [subject]"
+  },
+  {
+   "i": 206,
+   "en": "Open hostilities between $theOneFaction and $theTwoFaction",
+   "ctx": "data/campaign/reports.csv faction_hostility/start/news/ [subject]"
+  },
+  {
+   "i": 207,
+   "en": "Armistice between $theOneFaction and $theTwoFaction",
+   "ctx": "data/campaign/reports.csv faction_hostility/end/news/ [subject]"
+  },
+  {
+   "i": 208,
+   "en": "Possible civil disorder $onOrAt $market",
+   "ctx": "data/campaign/reports.csv civil_disorder/possible1/player_intel/ [subject]"
+  },
+  {
+   "i": 209,
+   "en": "Likely civil disorder $onOrAt $market",
+   "ctx": "data/campaign/reports.csv civil_disorder/likely/player_intel/ [subject]"
+  },
+  {
+   "i": 210,
+   "en": "Civil disorder $onOrAt $market",
+   "ctx": "data/campaign/reports.csv civil_disorder/start1/news/ [subject]"
+  },
+  {
+   "i": 211,
+   "en": "Possible terrorist attacks on Sindria",
+   "ctx": "data/campaign/reports.csv sindria_terrorists/likely/sindrian_diktat_internal/ [subject]"
+  },
+  {
+   "i": 212,
+   "en": "Terrorist attacks on Sindria",
+   "ctx": "data/campaign/reports.csv sindria_terrorists/start1/news/ [subject]"
+  },
+  {
+   "i": 213,
+   "en": "Terrorist attacks ending on Sindria",
+   "ctx": "data/campaign/reports.csv sindria_terrorists/concluding1/news/ [subject]"
+  },
+  {
+   "i": 214,
+   "en": "Terrorist attacks on Sindria stopped.",
+   "ctx": "data/campaign/reports.csv sindria_terrorists/end1/news/ [subject]"
+  },
+  {
+   "i": 215,
+   "en": "Analysis of the intelligence gained from intercepted comms and other sources suggests that a food shortage is likely to occur $onOrAt $market within a few weeks.",
+   "ctx": "data/campaign/reports.csv food_shortage/possible/player_intel/ [summary]"
+  },
+  {
+   "i": 216,
+   "en": "Analysis of the intelligence gained from intercepted comms and other sources suggests that a food shortage is all but certain to occur $onOrAt $market within a few weeks.",
+   "ctx": "data/campaign/reports.csv food_shortage/likely/player_intel/ [summary]"
+  },
+  {
+   "i": 217,
+   "en": "This report indicates that a food shortage is all but certain to occur $onOrAt $market, and advises units in the area on what steps could be taken to maximize its impact.",
+   "ctx": "data/campaign/reports.csv food_shortage/likely/hegemony_internal/HOSTILE [summary]"
+  },
+  {
+   "i": 218,
+   "en": "This report indicates that a food shortage is all but certain to occur $onOrAt $market, and advises units to stand by to provide assistance.",
+   "ctx": "data/campaign/reports.csv food_shortage/likely/hegemony_internal/FRIENDLY [summary]"
+  },
+  {
+   "i": 219,
+   "en": "The report discusses the food shortage $onOrAt $market and provides a balanced perspective, but fails to pinpoint a specific cause. The most likely culprit appears to be a cascading error in a deteriorating logistics system.",
+   "ctx": "data/campaign/reports.csv food_shortage/start/news/ [summary]"
+  },
+  {
+   "i": 220,
+   "en": "The report indicates the food shortage $onOrAt $market is unusually severe, and accuses $theMarketFaction administration of precipitating a humanitarian crisis.",
+   "ctx": "data/campaign/reports.csv food_shortage/start/hegemony_public/HOSTILE [summary]"
+  },
+  {
+   "i": 221,
+   "en": "The report flatly denies any rumours of a food shortage $onOrAt $market, and encourages responsible citizens to do their part by reporting anyone suspected of spreading malicious rumours.",
+   "ctx": "data/campaign/reports.csv food_shortage/start/hegemony_public/SELF [summary]"
+  },
+  {
+   "i": 222,
+   "en": "Comm traffic analysis indicates that a relief fleet is being organized at $reliefMarket in $reliefSystem and will be sent to $market in the near future.",
+   "ctx": "data/campaign/reports.csv food_shortage/warning_relief/player_intel/ [summary]"
+  },
+  {
+   "i": 223,
+   "en": "The report indicates that a relief fleet is being organized at $reliefMarket in $reliefSystem, and is likely to get underway within a few weeks.",
+   "ctx": "data/campaign/reports.csv food_shortage/warning_relief/hegemony_internal,\ntritachyon_internal,\nsindrian_diktat_internal/HOSTILE [summary]"
+  },
+  {
+   "i": 224,
+   "en": "The report indicates that a relief fleet is being organized at $reliefMarket in $reliefSystem, and is likely to get underway within a few days. Nearby units are advised to ensure the fleet arrives to its destination safely.",
+   "ctx": "data/campaign/reports.csv food_shortage/warning_relief/hegemony_internal,\ntritachyon_internal,\nsindrian_diktat_internal/FRIENDLY [summary]"
+  },
+  {
+   "i": 225,
+   "en": "A relief fleet is underway from $reliefMarket in the $reliefSystem system, and should arrive in $marketSystem $eta.",
+   "ctx": "data/campaign/reports.csv food_shortage/relief_sent/news/ [summary]"
+  },
+  {
+   "i": 226,
+   "en": "While there was speculation early on that a neighboring world might be able to send relief, it appears no such aid is forthcoming.",
+   "ctx": "data/campaign/reports.csv food_shortage/relief_unavailable/news/ [summary]"
+  },
+  {
+   "i": 227,
+   "en": "The relief fleet from $reliefMarket was attacked on its way to $market, suffered major losses, and was forced to turn back. The food shortage contniues unabated.",
+   "ctx": "data/campaign/reports.csv food_shortage/relief_aborted/news/ [summary]"
+  },
+  {
+   "i": 228,
+   "en": "The relief fleet from $reliefMarket has arrived, and the food shortage $onOrAt $market is over.",
+   "ctx": "data/campaign/reports.csv food_shortage/end_relief_arrived/news/ [summary]"
+  },
+  {
+   "i": 229,
+   "en": "The relief fleet from $reliefMarket did not arrive at its destination, and the food shortage contniues unabated.",
+   "ctx": "data/campaign/reports.csv food_shortage/relief_lost/news/ [summary]"
+  },
+  {
+   "i": 230,
+   "en": "The report indicates that the food shortage $onOrAt $market is now over. Various factors, including strict rationing, riot-suppression measures, and the arrival of several independent traders, are all credited with ending the shortage.",
+   "ctx": "data/campaign/reports.csv food_shortage/end_expired/news/ [summary]"
+  },
+  {
+   "i": 231,
+   "en": "The report indicates that the food shortage $onOrAt $market is now over. The arrival of a relief fleet commaned by $playerName is credited with ending the shortage, though a local administrator was quick to point out his own contributions.",
+   "ctx": "data/campaign/reports.csv food_shortage/end_player/news/ [summary]"
+  }
+ ]
+}

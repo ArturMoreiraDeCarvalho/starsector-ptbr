@@ -1,0 +1,181 @@
+{
+ "chunk": 258,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "$HeOrShe makes a brief sign of prayer, \"Blessings be upon you, fellow walker-of-the-path. I carry pilgrims seeking spiritual contemplation at a holy shrine.\"",
+   "ctx": "data/campaign/rules.csv shrineFleetConvOptionSelFriend [text]"
+  },
+  {
+   "i": 2,
+   "en": "$HeOrShe nods, acceding.",
+   "ctx": "data/campaign/rules.csv shrineFleetConvOutEnd [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"Indeed. Purely secular interest, I'm sure.\"\r\n\r\n$HeOrShe raises both hands in placation. \"I mean no offense, of course. Though you do not count yourself among the faithful, I appreciate your interest in our beliefs - and I won't deny some small joy in the possibility that your interest may bring you closer to Ludd, one way or another.\"\r\n\r\n\"I am not here to proselytize, but I shall answer your inquiries faithfully.\" $HeOrShe smiles to $himOrHerself.",
+   "ctx": "data/campaign/rules.csv shrineFleetConvShrineQuestA1 [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"Indeed? Then I welcome you in the spirit of Ludd,\" $heOrShe makes a sign of devotion, \"May Providence provide you with a bright path alongside those I shepherd to the spiritual betterment they, too, seek.\"",
+   "ctx": "data/campaign/rules.csv shrineFleetConvShrineQuestB1 [text]"
+  },
+  {
+   "i": 5,
+   "en": "$name shakes $hisOrHer head with a patient smile.\r\n\r\n\"I like to think of the reward as a spiritual bounty. Most pilgrims are simple people; those who cannot pay their own way have their passage paid by the Church, or by the charitable offerings of the more prosperous among the Faithful.\"\r\n\r\n\"Of course, from time to time, one encounters a new convert who is accustomed to a more... worldly lifestyle. They tend to favor less humble accommodations than my fleet offers. You might find such characters seeking passage in a spacer bar.\"",
+   "ctx": "data/campaign/rules.csv shrineConvJobResponse [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"Each shrine is built to venerate the holy ideals taught to us by the prophet Ludd. Each is dedicated to a particular passage, concept, or in memoriam of an event. It's... \"\r\n\r\n$HeOrShe catches $himOrHerself, \"... Well, it can get complex. One of the clergy attending to the shrine can best explain their meaning and assist pilgrims in applying that meaning to their own spiritual journey.\"",
+   "ctx": "data/campaign/rules.csv shrineConvShrineDetailsResponse [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"We are travelling to the dead world of Killa.\"",
+   "ctx": "data/campaign/rules.csv shrineConvShrineResponseKilla [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"We're travelling to Volturn, though it is... a troubled place.\"",
+   "ctx": "data/campaign/rules.csv shrineConvShrineResponseVolturn [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"We are travelling to Jangala.\"",
+   "ctx": "data/campaign/rules.csv shrineConvShrineResponseJangala [text]"
+  },
+  {
+   "i": 10,
+   "en": "$HeOrShe looks troubled. \r\n\r\n\"The last I heard they had instituted some kind of 'temporary lockdown' in the name of 'public safety',\" $heOrShe says, then gets a defiant look. \"Andrada means to repress the Faith. He would stamp us out, if he could. If,\" $heOrShe repeats, \"he could.\"",
+   "ctx": "data/campaign/rules.csv shrineConvAskVolturn [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"To humans, yes. Eventually. My understanding is that because we can't live there, and yet it is full of life, is a lesson in humility and acceptance.\"\r\n\r\n\"I hear, there are certain extremists of the faithful who willingly expose themselves to the xeno-life without a mask. No medications, nothing.\" $HeOrShe leans back, looking equally appalled and delighted.\r\n\r\n\"I could never do that! The stories one hears, mercy of blessed Ludd...\"",
+   "ctx": "data/campaign/rules.csv shrineConvAskJangala [text]"
+  },
+  {
+   "i": 12,
+   "en": "$HeOrShe seems to remember $hisOrHer role, taking on a more professional countenance, \"But that is idle talk, and you know what is said of idleness. Where were we...\"",
+   "ctx": "data/campaign/rules.csv shrineConvAskJangala2 [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"Ah.\" $HeOrShe thinks for a moment. \"I suppose that seeing as we are among friends and faithful, we may speak openly of such things.\"\r\n\r\n$HisOrHer warmth fades, replaced by a solemn tone. \"The shrine of Killa commemorates those murdered by the abhorrent and unholy 'planet-killer' device, and indeed is dedicated to all of those murdered in wars of wrath.\"\r\n\r\n\"It is... a grim reminder, a warning, a place of grief. One all too often forgotten.\" $HeOrShe goes quiet for a moment.",
+   "ctx": "data/campaign/rules.csv shrineConvAskKillaFriendly [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"Um,\" $name looks at you strangely. \"It's really all in the name: Planet-killer.\"\r\n\r\n\"It is a terrible thing, and I prefer not to speak of it lightly.\"",
+   "ctx": "data/campaign/rules.csv shrineConvAskKillaPK [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"I'm sorry, captain,\" $name says, looking uncomfortable. \"The shrine... it is a sacred place, and obscure by design. I am a fleet commander foremost, so it is not my place to start you on such a weighty pilgrimage. You must speak to one of the clergy entrusted with care for the shrines.\"\r\n\r\n\"Perhaps on Gilead, or Jangala?\" $heOrShe adds apologetically, trailing off.",
+   "ctx": "data/campaign/rules.csv shrineConvAskKillaVisit [text]"
+  },
+  {
+   "i": 16,
+   "en": "$HeOrShe thinks for a moment, the speaks in a solemn tone. \"The shrine of Killa commemorates those murdered by the abhorrent and unholy 'planet-killer' device. It is dedicated to all of those murdered in wars of wrath.\"\r\n\r\n\"It is... a grim reminder, a warning, a place of grief. One all too often forgotten.\" $HeOrShe goes quiet for a moment.",
+   "ctx": "data/campaign/rules.csv shrineConvAskKilla [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"Um. Let us speak of other things,\" $heOrShe says.",
+   "ctx": "data/campaign/rules.csv shrineConvAskKillaEnd [text]"
+  },
+  {
+   "i": 18,
+   "en": "The comm link buzzes and solidifies. $TheFactionLong $personRank looks upon you with loathing.\r\n\r\n\"I look now upon the face of a miserable villain who violates holy peace, who attacks defenseless pilgrims,\" $heOrShe seethes. \"For what? To steal their crumbs?\" $HeOrShe takes a deep breath, $hisOrHer anger threatening to disrupt $hisOrHer composure entirely.\r\n\r\n\"I consider your cruel opportunism a personal affront to my honor as a warrior. My orders are to hunt you down and destroy you, but know that I consider this a duel between an officer and an unscrupulous coward.\"\r\n\r\n\"Prepare your $shipOrFleet for combat, captain,\" $heOrShe spits. \"Let us see how you do in a fair fight.\"",
+   "ctx": "data/campaign/rules.csv PilgrimRevengeHail [text]"
+  },
+  {
+   "i": 19,
+   "en": "$HeOrShe looks surprised for a moment, but recovers quickly. \"Ah, of course. Our mission profile is logged in our transponder code.\"\r\n\r\n\"The Galatia Academy is the foremost institution of learning and research in the Persean Sector. It's affiliated with no particular faction so that knowledge can be preserved and new discoveries shared by all.\"\r\n\r\n$HeOrShe is almost abashed at this show of idealism, \"At least, that's the idea. There's always political back-and-forth, but it really is a neutral ground for a good cause. I'm proud to run these jobs.\"",
+   "ctx": "data/campaign/rules.csv academyFleetConvOptionSel [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"Well. Ah. It's in the Galatia system.\" $HeOrShe does an admirable job trying not to sound condescending, \"In orbit around Pontus. Beautiful views, if you ask me. But I'm a sucker for ring systems.\"",
+   "ctx": "data/campaign/rules.csv academyFleetConvWhere [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"The Academy operates only a small contingent of dedicated research ships, especially after the ISS Enki incident,\" $heOrShe says, \"So they will contract out transport jobs to freelancers like myself.\"",
+   "ctx": "data/campaign/rules.csv academyFleetConvJob [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"Ah,\" $hisOrHer eyes dart around, but find no way to avoid an uncomfortable subject.\r\n\r\n\"It was during the Second AI War, you see. 12, 13 cycles ago? A Galatia Academy research flotilla stumbled onto a secret Hegemony project in the Tia-Taxet system. Between war paranoia, phase-raiders, and the general hyperwave comms breakdown... \", $heOrShe closes $hisOrHer eyes, \"The Hegemony attacked. No Academy ships survived. Incredible loss. Survivors, some. I spoke with one on Syrinx, in fact. They ended up in a prison-hab for the rest of the war.\"\r\n\r\n\"It doesn't get talked about much, at least in the Hegemony. But even the Academy didn't push as hard as they could have for reparations... \" $HeOrShe trails off, then looks up. \"Anyway, that's in the past.\" ",
+   "ctx": "data/campaign/rules.csv academyFleetConvEnki [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"Oh, well enough. Not top-rate, not bottom. I'll give you a little tip,\" $heOrShe winks. \"The real reward is the connections you make. You got the big doers-and-sayers from every faction wanting to send their best and brightest to the Galatia Academy. I'll introduce myself personally, 'As captain, I will see to your child's absolute safety', and so on. They love that.\"\r\n\r\n\"Then,\" $heOrShe says with emphasis, \"You get jobs from those big-money big-influence folks.\"",
+   "ctx": "data/campaign/rules.csv academyFleetConvPay [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"Any time,\" $heOrShe says, pleased to pass on some spacer wisdom. \"Speaking of time, I think it's about mine to burn on. Safe travels, captain.\"",
+   "ctx": "data/campaign/rules.csv academyFleetConvPay1 [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"As you will,\" $heOrShe says, rolling $hisOrHer eyes. \"I guess you know where you're going, then. A good day to you, captain,\" $heOrShe concludes, intentionally using a dirtsider farewell.",
+   "ctx": "data/campaign/rules.csv academyFleetConvPay2 [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"Comms open and receiving,\" says $Post $name. \"We're just out here looking for a lost bit o' Mairaath's glory days.\"\r\nOR\r\n\"Scanned and identified. Maintaining distance and heading.\"\r\n\r\nThe $post looks you over, and decides to make smalltalk. \"It gets me down, seeing Mairaath like this.\"",
+   "ctx": "data/campaign/rules.csv greetingsScavMairaathNeutral [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"Comms open and receiving,\" says $Post $name. \"We're running trade here, the Mairaath route. And yes, there's still something worth buying and selling.\"\r\nOR\r\n\"Hail received,\" says the $post. \"Maintaining course. It's still worth running the Mairaath route, and I'd do it even if it weren't.\"",
+   "ctx": "data/campaign/rules.csv greetingsTradeMairaathNeutral [text]"
+  },
+  {
+   "i": 28,
+   "en": "$HeOrShe looks at you for a long moment, a touch of amusement hiding sadness.\r\n\r\n\"I suppose if you're not from around here, you'd have to have it told.\"\r\n\r\n\"Used to be, Mairaath was a wonder of the Persean Sector. Three great cities in orbit, the Astropoli, and below a wonder of terraforming biotechnology.\" Bitterness enters $hisOrHer voice now, \"Some Pathers took offense to people living long and well and without fear of the dark, so... \"",
+   "ctx": "data/campaign/rules.csv greetingsMairaathQ1A1 [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"They blew it up,\" $heOrShe says, stone-faced. \"The mad fanatics, they blew it up. Most terrible act of terrorism the Sector has ever had inflicted, if you ask me. Tens of millions dead, all the dreams and world turned to ash. The real miracle is anyone survived.\" $HeOrShe indicates $himOrHerself, \"My ancestors did, somehow.\"\r\n\r\n\"Mayasuran until the end. And beyond the end, because not even the end of our world could kill us all off. Might be living off the scraps, but we're still living.\"\r\n\r\n$HeOrShe is proud, still, despite Mairaath's lost glory.",
+   "ctx": "data/campaign/rules.csv greetingsMairaathQ1A2 [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"Contact. Comms open,\" says $Rank $name. \"We are ever-watchful in defense of holy Gilead.\"",
+   "ctx": "data/campaign/rules.csv greetingsLuddicPatrolCanaan [text]"
+  },
+  {
+   "i": 31,
+   "en": "$HeOrShe blinks. \"Why, the Prophet Ludd was called to Gilead, in the Persean Sector, in a divine vision. Ludd came and touched the earth of Gilead and declared it a gift of providence, and thereupon called all the faithful to turn it into a garden world, a living example of the sacred balance of life, a place of pilgrimage.\"\r\n\r\n\"Believer or no,\" $heOrShe says earnestly, \"you would be welcomed to visit the shrine on Gilead and see for yourself.\"",
+   "ctx": "data/campaign/rules.csv greetingsLuddicPatrolCanaanQ1A [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"Reading you clear, super-green all 'round,\" says $Post $name. \"Don't worry, we're just doing honest business. Not touching a thing on Gilead, no $playerSirOrMadam!\"  ",
+   "ctx": "data/campaign/rules.csv greetingsScavengerCanaan [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"Oh now, you don't start too,\" $heOrShe says. \"I didn't mean anything by it.\" \r\n\r\nA long pause, then $heOrShe says, \"Ah, you were asking for real. Well, it's the Luddic holy world, isn't it? They're very strict about who goes there and what they get up to. You don't want to mess around with the Knights of Ludd, they couldn't tell a joke from a declaration of war.\"\r\n\r\n\"Keep your nose clean around them and their world, that's all I'm saying.\" $HeOrShe nods, \"Free bit of advice.\"",
+   "ctx": "data/campaign/rules.csv greetingsScavengerCanaanQ1A [text]"
+  },
+  {
+   "i": 34,
+   "en": "\"Sometimes I ponder what my life would be in the Domain - an uncollapsed Domain, that is,\" $heOrShe says, contemplative. \"A glittering sea of living worlds, each filled with history.\"\r\n\r\n\"Though I suspect someone who went needling around asking uncomfortable questions might get into a spot of trouble, eh?\" $HeOrShe gives an unacademic snort. \"I've managed to produce enough of that - trouble, I mean - for myself in the here-and-now. If you don't anger the institutions you're not doing good work, I think.\"",
+   "ctx": "data/campaign/rules.csv HistorianBackstoryBlurb00 [text]"
+  },
+  {
+   "i": 35,
+   "en": "\"Oh 'Infernium', yes yes. It's a bit of Luddic vernacular, refers to antimatter starship fuel. Though what they really mean,\" and here $heOrShe stresses the word, \"is rather more.\"\r\n\r\n\"In certain texts the term encompasses all AM applications, or even all high-energy processes. 'The get of Mammon and Belial', one creative firebrand called it. I like that one; I've always enjoyed the dramatic rhetoric of Luddic folk-preaching tradition.\"",
+   "ctx": "data/campaign/rules.csv HistorianBackstoryBlurb01 [text]"
+  }
+ ]
+}

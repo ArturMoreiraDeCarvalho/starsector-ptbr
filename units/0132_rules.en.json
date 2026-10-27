@@ -1,0 +1,196 @@
+{
+ "chunk": 132,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"A nanoforge engineer could tell us where this came from,\" he says. \"Who made it. When, and where. By that truth, we can judge the answers we receive from those we... interview.\" His last word is muted by the shuttle's maneuverings.\r\n\r\n\"The Church operates a nanoforge on the planet Asher, in the Canaan system. The engineers there will cooperate with the authority I bear, and despite mostly being nonbelievers, their discretion is already paid for by the Church. Our inquiry will be safe.\"\r\n\r\nHe pauses, and looks away. \"So far as anything is, in the Church.\"",
+   "ctx": "data/campaign/rules.csv BFFIpartyOutro3horus [text]"
+  },
+  {
+   "i": 2,
+   "en": "Bornanew assists your comms officer in navigating through various levels of Church bureaucracy.\r\n\r\nBefore long, you have the senior nanoforge engineer of Asher on a comms-link.",
+   "ctx": "data/campaign/rules.csv BFFItalkToEngineer0 [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"Yes, hello? Uh, good day? I was told there was an investigation.\" \r\n\r\nShe seems to examine you through the link. \"You don't look much like a Knight of Ludd.\"",
+   "ctx": "data/campaign/rules.csv BFFItalkToEngineer1 [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"I see.\" $PersonName takes a moment more to examine you, humming to herself.\r\n\r\n\"Forensic material analysis. Skilled work.\" $HeOrShe frowns. \"It won't be cheap.\"\r\n\r\nShe looks at some other display and starts tapping at an input. \"You'll have to bring the sample down, of course.\"",
+   "ctx": "data/campaign/rules.csv BFFItalkToEngineer2 [text]"
+  },
+  {
+   "i": 5,
+   "en": "Bornanew's authority - that of the Archcurate Sophronia Jaspis, in truth - is as good with the local traffic authority as it is with the Manufactoria Guild bureaucrats.\r\n\r\nYour shuttle descends into the atmosphere of Asher. The view shades toward a warm, murky gray as you descend through the stratospheric fines perpetually refreshed by towering dust storms. The display blots out entirely and switches to a false-rendering as you enter the lower atmosphere.\r\n\r\nThere is no hazard; the storms are impressive in scale but low in mass due to the deathly thin atmosphere.",
+   "ctx": "data/campaign/rules.csv BFFItalkToEngShuttle [text]"
+  },
+  {
+   "i": 6,
+   "en": "Senior Engineer Tanaica places the glove and its containment vessel onto a shelf which retracts into the towering white casing of the analysis suite. Transparent panes, probably diamond-matrix, reveal arcane inner workings.\r\n\r\nShe hits a command to evacuate the atmo from the sample slot, and sets a manipulator to extract the glove and place it on the scanning bed. All of this she performs with a casual ease born of practice. She speaks as she taps away at the control interface.\r\n\r\n\"If it came from a high-quality nanoforge like what the Heggies or League's got, this might not tell us much.\" \r\n\r\nSome kind of protective barrier shunts down, hiding the glove from view. A holo of the glove emerges from a display unit, gaining resolution until a doppelganger rotates in the air before you.",
+   "ctx": "data/campaign/rules.csv BFFItalkToEngineer4 [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Hm. Good output, this. But I'm thinking not good-perfect. Ludd...ics,\" her eyes dart at Bornanew, \"No offense, but they don't go in for training much native talent. S'why you lot pay me.\"\r\n\r\n\"Anyway, when you get into really delicate products, your forge quality starts to matter. A work-rated vac-glove though?\" She rolls her eyes. \"This better be good.\"\r\n\r\nThe analysis suite is making some kind of humming sound, and there's a clunk. The engineer doesn't react, so neither do you. Her display erupts with numbers and icons, then something she does pulls a cutaway from the holo-glove, which scales as the rest of it disappears. \r\n\r\nAnother segmentation of scale iterates, then another.",
+   "ctx": "data/campaign/rules.csv BFFItalkToEngineer5 [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"We can see signs of what we call 'drift' here,\" she says. A colored indicator ring flashes around an orderly pattern of small-scale structures deep within the glove, the representation of individual atoms, perhaps, just visible like the grain of sandstone.\r\n\r\n\"These defects are unique to the faults in an individual nanoforge. More or less.\" \r\n\r\n\"Like a fingerprint,\" Bornanew says.\r\n\r\n\"No.\" The engineer shrugs. \"But sure, if you like.\"",
+   "ctx": "data/campaign/rules.csv BFFItalkToEngineer6 [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"Someone's been naughty,\" she says, sounding more delighted than upset. \"The glove is new, but the model is old. A closed-source pre-Collapse template. There are fabrication-rights codes embedded in its structure.\"\r\n\r\nWith a tap, another colored indicator ring flashes on a sheared-square section of material containing a complex pattern. \"Tells the forge not to make unauthorized copies.\"\r\n\r\n\"Closed products from the Domain-era tend to be far higher quality than forges running post-Collapse hacks.\" She smiles, \"This isn't that, but it's close. Tells us two things.\"",
+   "ctx": "data/campaign/rules.csv BFFItalkToEngineer7 [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"One, this was made by an industrial-grade Domain-era forge. Heavy industry stuff. Bit of a waste to use it to make a glove,\" she glances at you, \"If you ask me.\"\r\n\r\n\"Two, either this forge is loaded with valid fabrication rights and it's damaged, or it's been hacked to bypass the embedded copy protections. And it's damaged. I mean, stars and ruin, look at this mess,\" she zooms in on the 'drift' patterns while making a disgusted look.\r\n\r\n$global.jethroName speaks up now, \"Three, we're dealing with a sophisticated forgery operation.\"\r\n\r\nThe engineer shoots a look back at him, \"Neat.\"",
+   "ctx": "data/campaign/rules.csv BFFItalkToEngineer8 [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"Right,\" she manipulates the interface again.\r\n\r\nThe drift-pattern from the glove remains locked, and she brings up similar - but distinct - examples of patterns in an expanding grid. Small labels show a string of glyphs, most of which contain the names of industrial combines, shipyards, and polities known to you. Some you recognize as dating to the Collapse. Others are unfamiliar.\r\n\r\n\"This is the drift library we've got here on Asher. Useful stuff, but other factions got better.\"",
+   "ctx": "data/campaign/rules.csv BFFItalkToEngineer9 [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"Exactly,\" she's pleased that you put it together. \"Got bad news though, cap. Your glove doesn't match anything in this library.\"",
+   "ctx": "data/campaign/rules.csv BFFItalkToEngineer10 [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"Could be,\" she admits. \"Takes a clever setup and a talented operator though. If this is fake drift, then it goes real high up. Don't know who'd be capable of it that'd waste that kind of effort on a glove.\"",
+   "ctx": "data/campaign/rules.csv BFFItalkToEngineer11a [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"Maybe, maybe not,\" she says.\r\n\r\n\"The Church doesn't put much into material analysis. What you'd do, ideally, is collect statistically significant samples, run scans on every new product that shows up, put anything interesting through a detailed scan like this, build a library. It's not cheap,\" she says wistfully.\r\n\r\n\"But here they're mostly interested in making sure their hyperdrives work to min-spec. The Church of No-fun.\" She looks at Bornanew, \"Sorry.\"\r\n\r\nHe nods, untroubled.",
+   "ctx": "data/campaign/rules.csv BFFItalkToEngineer11b [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"That's all I got, captain,\" she says, reversing the specimen insertion procedure and returning your containment vessel. \"Good mystery. Hope it doesn't get you shot.\"\r\n\r\nShe hands the vessel to Bornanew, then claps her hands together. \"That'll be 10,000 credits.\"",
+   "ctx": "data/campaign/rules.csv BFFItalkToEngineer12 [text]"
+  },
+  {
+   "i": 16,
+   "en": "She looks between you and Bornanew.\r\n\r\n\"Didn't you tell your captain about the fee?\" She asks.\r\n\r\nYou'd swear, Bornanew is almost blushing.",
+   "ctx": "data/campaign/rules.csv BFFItalkToEngineer13a [text]"
+  },
+  {
+   "i": 17,
+   "en": "You transfer the credits to Senior Engineer Tanaica's accounts while $global.jethroName holds the vessel.\r\n\r\nPresumably she'll forward payment for lab expenses to the Church-approved Manufactoria Guild.",
+   "ctx": "data/campaign/rules.csv BFFItalkToEngineer13b [text]"
+  },
+  {
+   "i": 18,
+   "en": "You transfer the credits to Senior Engineer Tanaica's accounts while $global.jethroName holds the vessel.\r\n\r\nPresumably she'll forward payment for lab expenses to the Church-approved Manufactoria Guild. Or not.",
+   "ctx": "data/campaign/rules.csv BFFItalkToEngineer13bMerc [text]"
+  },
+  {
+   "i": 19,
+   "en": "His neutral expression flickers.\r\n\r\n\"I... yes, the captain is correct. You are paid to serve the Church, and this,\" he hefts the ersatz reliquary, \"is business of the Church.\"\r\n\r\n\"Right you are,\" says Senior Engineer Tanaica through a tight smile. \"Good day, captain.\"\r\n\r\nHer eyes flick at Bornanew. \"Novice.\"",
+   "ctx": "data/campaign/rules.csv BFFItalkToEngineer13corruption [text]"
+  },
+  {
+   "i": 20,
+   "en": "Bornanew's tone was righteous, but without heart. You suspect he was not going to make an issue of the 'payment' until you brought it up.\r\n\r\nAs you return to your shuttle he gives you a look- guilt?\r\n\r\n\"Such things are not uncommon even in the shadow of the Church,\" he says. \"And elsewhere. I'm sure you well know.\"\r\n\r\nBornanew returns his attention to his datapad. He's making his 'thinking face'.\"",
+   "ctx": "data/campaign/rules.csv BFFItalkToEngineer13corruption2 [text]"
+  },
+  {
+   "i": 21,
+   "en": "He recovers quickly. \"I, of course,\" he awkwardly hands the ersatz reliquary to you then draws an off-brand datapad from his robes. Engineer $personLastName blinks at it.\r\n\r\n\"I can pay from the, uh, accounts of The Reverend Archcurate Sophronia Jaspis... here.\"",
+   "ctx": "data/campaign/rules.csv BFFItalkToEngineer13c [text]"
+  },
+  {
+   "i": 22,
+   "en": "You return to your shuttle. \r\n\r\nBornanew's attention is uncharacteristically focused on his datapad. He's making his 'thinking face'.",
+   "ctx": "data/campaign/rules.csv BFFItpostEngJethroTalk1 [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"Ulmus Pond,\" he says. Then looks up at you.\r\n\r\n\"That strange little man from Menes Yaribay's party. Obviously an agent for the Luddic Path. That the Path would have eyes and influence on Menes is no surprise. But if he's the one that supplied the glove...\"\r\n\r\n\"We need to get to him,\" he says. \"Confront him. Compel him to talk.\"",
+   "ctx": "data/campaign/rules.csv BFFItpostEngJethroTalk2 [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"Ulmus Pond,\" he says. Then looks up at you. \"He's a Pather agent,\" Bornanew says as if it were the most obvious thing in the world.\r\n\r\n\"We spoke briefly at Menes' party,\" he explains. \"The circumstantial evidence is convincing enough, but it was his heretical understanding of theology which I found truly damning.\"\r\n\r\n\"We need to get to him,\" he says. \"Confront him. Compel him to talk.\"",
+   "ctx": "data/campaign/rules.csv BFFItpostEngJethroTalk2know [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"Guess so,\" he replies. \"We may not wish to draw any attention from Menes, of course...\"\r\n\r\nThe shuttle docks with your flagship.",
+   "ctx": "data/campaign/rules.csv BFFItpostEngJethroTalk3 [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"Guess so,\" he replies. \"But perhaps... Menes' might not be pleased to see us show up.\"\r\n\r\nThe shuttle docks with your flagship.",
+   "ctx": "data/campaign/rules.csv BFFItpostEngJethroTalk3didRaid [text]"
+  },
+  {
+   "i": 27,
+   "en": "You step off the shuttle.",
+   "ctx": "data/campaign/rules.csv BFFItpostEngJethroTalk4 [text]"
+  },
+  {
+   "i": 28,
+   "en": "The comms signal hits a holding signal and waits. And waits. You have your comms officer take over to watch the link and make a few inquiries.\r\n\r\nWithin minutes, a comms request alert appears. It's Bornanew on an internal link.",
+   "ctx": "data/campaign/rules.csv BFFIulmusPondGreeting [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"Captain,\" he says. \"I apologize for the interruption.\"\r\n\r\n\"Ulmus Pond is not on Olinadu.\"",
+   "ctx": "data/campaign/rules.csv BFFIulmusPondNotHere [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"The Knights have... sources,\" he says carefully. \"I am sworn not to reveal them.\"",
+   "ctx": "data/campaign/rules.csv BFFIulmusPondNotHere2 [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"Yes.\" Bornanew clears his throat.\r\n\r\n\"The word is that he has fled to Chalcedon on a tramp freighter, a smuggler, known to move materiel for the Luddic Path.\"",
+   "ctx": "data/campaign/rules.csv BFFIulmusPondNotHere3 [text]"
+  },
+  {
+   "i": 32,
+   "en": "He turns his head. \"He might, if he had to. But I suspect that Ulmus is not an innocent man.\"",
+   "ctx": "data/campaign/rules.csv BFFIulmusPondNotHere4a [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"I pray that if we move quickly, we can find him on Chalcedon.\"",
+   "ctx": "data/campaign/rules.csv BFFIulmusPondNotHere4b [text]"
+  },
+  {
+   "i": 34,
+   "en": "\"He would be - have been - well placed as a bridge for some element of the Luddic Path to influence Menes Yaribay. He would be the source of the relic.\"",
+   "ctx": "data/campaign/rules.csv BFFIupNotHereWhatRole [text]"
+  },
+  {
+   "i": 35,
+   "en": "\"I cannot,\" he says. \"But I assure you they are as reliable as any heretic, guilty soul, or criminal.\" His look softens, \"Do trust that I am not simply asking around a spacer bar for a lead.\"\r\n\r\nA moment, then he gives a nod, almost a bow. \"Um. I do not condemn your methods. Your directness has oft proven effectual.\"",
+   "ctx": "data/campaign/rules.csv BFFIupNotHereSourcesA [text]"
+  },
+  {
+   "i": 36,
+   "en": "\"It could be either.\" Bornanew folds his hands together. \"But we must look first where the light of truth shines brightest, dim though it may be, or known only by distinction against the shadow of deceit.\"",
+   "ctx": "data/campaign/rules.csv BFFIupNotHereSourcesB [text]"
+  },
+  {
+   "i": 37,
+   "en": "\"It is always possible.\" Bornanew meets your eyes, steady. \"The Knights pursue heretics and criminals as routine, and my inquiries were worded to imply my interest lay not upon Ulmus Pond himself, nor the Menes situation. Though, of course, you and I are already known to be associated with both.\"\r\n\r\n\"Expediency anticipates risk. I beg you trust my judgment in this matter.\"",
+   "ctx": "data/campaign/rules.csv BFFIupNotHereIntentions [text]"
+  },
+  {
+   "i": 38,
+   "en": "Nav responds instantly to your orders.\r\n\r\nBornanew's image flickers with compression-grain from his cheap datapad.\r\n\r\n\"I pray that Ulmus Pond's hasty flight has not unwittingly forewarned heretic militants...\"",
+   "ctx": "data/campaign/rules.csv BFFIulmusPondNotHereOut [text]"
+  }
+ ]
+}

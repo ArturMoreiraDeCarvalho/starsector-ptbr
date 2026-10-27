@@ -1,0 +1,131 @@
+{
+ "chunk": 153,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"You were ready for me!\" Gargoyle says too sweetly to be true before turning to an imagined audience, \"The rocket jockey put together enough brains to deal with my little 'hello'!\" Gargoyle bounces back and applauds, \"Well done!\"\r\n\r\n\"So you know who I am. Tell me, why did Rayan give you my comms ID? More presents, bribes, begging? Did he finally get in trouble with that junta of puppeteering vampires he desperately wishes were his friends? ...On the run from the law and needs a rep wipe?\"\r\n\r\nA thoughtful pause. \"Do you always make that face when you meet new people?\"",
+   "ctx": "data/campaign/rules.csv gaKAGargoyleGreeting1 [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"A job? Uh, no,\" Gargoyle gags theatrically. \"If I ever do a day of 'work' I want you to throw me out the airlock, then throw that airlock into a black hole.\"\r\n\r\nThe hacker lounges back carelessly, \"But... still listening. Because you told me I'm the best, and I am. That was nice. But I'm not sure you really understand what it is I do.\" \r\n\r\nA hand studded with interface nodules waves and your display fills with news clips - industrial shutdowns, suspected sabotage, databases hacked, political comms leaked, credits missing, ghost fleets.",
+   "ctx": "data/campaign/rules.csv gaKAGargoyleGreeting2 [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"What I do,\" Gargoyle sits up, looking serious at last. \"Is magic.\" \r\n\r\n\"An institution, a polity, a warship, a fleet, the Hegemony! The Luddic Church! The Tri-Tachyon Mega-credits-sucking Corporation! These are machines made of people, and these people don't understand their own machines. Or,\" a mock-pondering tone, \"other people, come to think of it. The oneness of these holy constructs is mass delusion!\"\r\n\r\n\"But I,\" Gargoyle taps a head-mounted dataport, \"I understand. Simply,\" a finger pokes at you from the display, \"Press there. There, then there, and the bubble pops. Push on the right place at the wrong time and the mighty become a sad joke. A gust of wind, a fart of fancy, a flimsy shell that's cracked. Understand?\"",
+   "ctx": "data/campaign/rules.csv gaKAGargoyleGreeting3 [text]"
+  },
+  {
+   "i": 4,
+   "en": "Gargoyle stares at you, slack-jawed. \"Nuh you don't. You're just pretending because you think you need to look tough and smart in front of your minions. It's so obvious.\"\r\n\r\nGargoyle turns away, \"Why do I even bother. Stick to driving your rocketship, Captain $playerFirstName. Pew pow blam! Take that, space pirates! Simple. Direct. Unsophisticated. Artless.\"\r\n\r\nA dramatic sigh, \"What a waste of time. Why are we even talking. Why do anything.\"",
+   "ctx": "data/campaign/rules.csv gaKAGargoyleYes [text]"
+  },
+  {
+   "i": 5,
+   "en": "Gargoyle stares forlornly, resting chin on hands. \"I am wasted on you, $playerFirstName. I'm trying, I really am. Give me something to work with. Please? Otherwise I may just freeze myself for a thousand cycles. Maybe something interesting will have happened by then.\"",
+   "ctx": "data/campaign/rules.csv gaKAGargoyleNotReally [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"I love it!\" Gargoyle shouts, sitting up. \"A glorious scheme, practically neon-black! Which one? All of them at once? Hmm,\" visor and cybermods start flickering with activity.",
+   "ctx": "data/campaign/rules.csv gaKAGargoyleCanYou [text]"
+  },
+  {
+   "i": 7,
+   "en": "You explain to Gargoyle the scope of the mission, and the target - the Kallichore Archive, the personal data store of former Provost Tomas Kallichore which the Hegemony Ministry of Technology Standards seized from the Galatia Academy in the wake of some kind of botched hyperspace experiment. \r\n\r\nYou also explain, in terms which avoid any implication of an employer-employee hierarchy, that Rayan Arroyo will be providing funding for the operation.",
+   "ctx": "data/campaign/rules.csv gaKAGargoyleExplain [text]"
+  },
+  {
+   "i": 8,
+   "en": "As you talk, the comms display with Gargoyle becomes crowded with virtualized half-written lists, reference panels, and code snippets. The hacker leaps from idea to idea, rejecting and accepting contingencies several steps ahead - or adjacent, perhaps - from whatever you are actually saying. The visual chaos is somewhat distracting.",
+   "ctx": "data/campaign/rules.csv gaKAGargoyleCont4 [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"It might be tough. I'm going to need to pass some credits along to a couple friends for some special tricks. Hmm. Do we go all out? Rayan is buying snacks... I think we do. Yes.\"\r\n\r\n\"Here's how it's gonna happen- I've got a friend who will make you a little package. It should be ready by the time you get to Nova Maxios. In the Magec system, know it? You pick that up, then do fancy flying and whatever else it takes to install it in the Hegemony comms relay in the Aztlan system.\"",
+   "ctx": "data/campaign/rules.csv gaKAGargoyleCont5 [text]"
+  },
+  {
+   "i": 10,
+   "en": "A thoughtful pause, then, \"For the relay? Go in quiet to do the relay. Park your fleet. Maybe run a lone phase ship for the job, if your ego is capable of surviving away from your big boy toys for a few shifts. Or - this is fun - hack the sensor array and give the Heggies some ghosts to chase.\"\r\n\r\n\"Anyway, the installation itself is easy,\" the hacker continues nonchalantly. \"Any work-drone you've got on staff should be able to figure out which end goes where.\"",
+   "ctx": "data/campaign/rules.csv gaKAGargoyleCont5b [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"The real trick comes after: gotta break the Hegemony crypto. That'll be yours truly who's got a little trick I've been saving from a couple cycles ago for just the right moment.\" Gargoyle holds cable-trailing arms up in a premature display of triumph. \"It will be glorious!\" Then sits back down.\r\n\r\n\"Right, so. After you install the hack device on the comm relay, come back here and you can thank me personally when I hand you a copy of the decrypted data. And friend-Rayan has my list of demands,\" a button tap, \"Now.\"",
+   "ctx": "data/campaign/rules.csv gaKAGargoyleCont6 [text]"
+  },
+  {
+   "i": 12,
+   "en": "Another button tap, and there's a ping on your datapad as Gargoyle sends you the address of a small holding facility near the main port-ring of Nova Maxios, as well as the number of a particular storage unit. \"It'll be there,\" Gargoyle says with a smile that seems to imply you're not in on a joke.\r\n\r\n\"Now I have a lot to do before this is ready, so go along! COMSEC is going to completely blow its top when we pull this off, ha-ha!\"\r\n\r\nGargoyle turns to another display, attention focused, cyber augments flickering at an increasing rate as the comm line disconnects on you almost as an afterthought.",
+   "ctx": "data/campaign/rules.csv gaKAGargoyleCont7 [text]"
+  },
+  {
+   "i": 13,
+   "en": "You take a shuttle to the main spaceport concourse, leading a landing party of bodyguards and techs.\r\n\r\nThe reception lounge ceilings are low, the old tube lights flickering. But the New Maxioans are proud of their makeshift polity; some locals catch your crew eyeing a dripping life support conduit and smile, nudging one another.",
+   "ctx": "data/campaign/rules.csv gaKANewMaxiosVisit0 [text]"
+  },
+  {
+   "i": 14,
+   "en": "The address given to you by Gargoyle leads you to a run-down logistics ring that looks to be used mostly by failing tramp freighters and smugglers. You ask a young desk clerk where to find the unit number Gargoyle provided.\r\n\r\n\"Um, oh yes, you must be Captain... R. Boring?\" the clerk squints at the desk terminal nervously - you log away this little joke from Gargoyle as you maintain impeccable composure - \"I was told you'd be arriving for your cargo just a few minutes ago. Please, come right this way.\"",
+   "ctx": "data/campaign/rules.csv gaKANewMaxiosVisit0b [text]"
+  },
+  {
+   "i": 15,
+   "en": "The clerk starts to lead you through a back door, a light bulkhead lock, then freezes: a pallid man in a featureless gray uniform stands on the other side, a spot of gray on the darkness beyond.\r\n\r\n\"Mister Loke, sir,\" the clerk stutters, \"I wasn't expecting, um, if I'd been told-\" \r\n\r\nThe man - Mister Loke you presume - smiles blandly and says \"I will show the captain the way.\"\r\n\r\nLoke simply stops paying attention to the clerk, shifting his attention to you, still smiling. He nods encouragingly and turns to walk into the darkness beyond the portal.",
+   "ctx": "data/campaign/rules.csv gaKANewMaxiosVisit1 [text]"
+  },
+  {
+   "i": 16,
+   "en": "Mister Loke leads you past rows of sealed storage units, into a loading bay. Your footsteps produce a dull metallic echo. Something that smells of organic compounds is leaking.\r\n\r\nStill smiling blandly, Loke stops and with the wave of his hand unlocks a storage unit. He speaks softly to you, \"When she heard of this, Jorien told me she thought it was very funny. She wanted me to come and make sure you got what the Gargoyle asked Elissa to make for you.\r\n\r\nHis watery eyes stare at the storage unit, \"It must be a nice thing.\"",
+   "ctx": "data/campaign/rules.csv gaKANewMaxiosVisit2 [text]"
+  },
+  {
+   "i": 17,
+   "en": "Instead of answering, he gives you a respectful nod, and says \"Goodbye,\" then walks away into the shadows of the warehouse.\r\n\r\nYou shake your head and turn your attention to the storage unit. Inside you find a single standard shipping crate. You motion the techs forward, and they approach with various handheld scanners; you are in no hurry to be the butt of another of Gargoyle's 'jokes'.",
+   "ctx": "data/campaign/rules.csv gaKANewMaxiosVisit3 [text]"
+  },
+  {
+   "i": 18,
+   "en": "The lead tech starts reporting. \"Power source. Anomalous neutrinos. And um, minor hyperwave phase distortion?\" \r\n\r\nThe entire crew of technicians take an unconscious step back. Hyperwave phasing technology has a poor reputation. And it's never been known to fit in so small a package and remain stable.\r\n\r\nAn hour later, as you are finishing your second hot drink at a nearby cafe, the techs give the all-clear through your datapad, concluding that as strange as this device is - seemingly a hand-built one-off hyperwave transmitter of some kind - it should pose no immediate danger.\r\n\r\nYou order it removed to your flagship.",
+   "ctx": "data/campaign/rules.csv gaKANewMaxiosVisit4 [text]"
+  },
+  {
+   "i": 19,
+   "en": "On the shuttle ride back to your $shipOrFleet you ponder tactics for inserting this device into the Aztlan Hyperwave Relay without being spotted by a Hegemony patrol. A small, fast detachment could do it. Or phase ships, using their fields to lower sensor profile. Or with a little luck you could find a quiet moment between patrol rotations...\r\n\r\nThe intercom crackles, \"Captain, we've arrived.\" ",
+   "ctx": "data/campaign/rules.csv gaKANewMaxiosVisit5 [text]"
+  },
+  {
+   "i": 20,
+   "en": "Your $shipOrFleet was recently detected - or is currently being tracked by - a nearby fleet, making a covert installation of the hack impossible.",
+   "ctx": "data/campaign/rules.csv gaKA_relayPrintHostilesText [text]"
+  },
+  {
+   "i": 21,
+   "en": "Your $shipOrFleet approaches $name.",
+   "ctx": "data/campaign/rules.csv gaKA_relayObjectInteraction [text]"
+  },
+  {
+   "i": 22,
+   "en": "You give the go-order to your ops chief, who starts speaking in a low voice to the hand-picked squad of veteran salvage techs that are already crossing to the relay on a cargo drone.\r\n\r\nThe entire operation is carried out swiftly and according to the drills. A few quick cuts with low-EM tools, bulkhead section removed, Gargoyle's device secured in place. Parasite microdrones in the chassis will finish attaching key connections; taps into fiber lines, mostly. The bulkhead is sealed and the team withdraws with a few puffs of cold gas thrusters as silently as they approached.",
+   "ctx": "data/campaign/rules.csv gaKA_relayInstallHack0 [text]"
+  },
+  {
+   "i": 23,
+   "en": "Shortly, your comms officer confirms a short burst indicating that Gargoyle's device is operational.\r\n\r\nDespite Gargoyle's cavalier attitude toward the entire enterprise, your comms and tech officers speculate that a hack this intrusive will be discovered very quickly indeed. It would be best to make a hasty escape while you remain undetected.",
+   "ctx": "data/campaign/rules.csv gaKA_relayInstallHack1 [text]"
+  },
+  {
+   "i": 24,
+   "en": "You wonder, too, if the Hegemony will trace the hack back to Gargoyle's hideout. A Tri-Tachyon controlled polity is unlikely to cooperate quickly with any Hegemony investigation.\r\n\r\nBut then the investigation might not be 'official', and less an investigation than a black ops snatch squad. \r\n\r\nYou should retrieve the archive from Gargoyle quickly.",
+   "ctx": "data/campaign/rules.csv gaKA_relayInstallHack2 [text]"
+  },
+  {
+   "i": 25,
+   "en": "You enter the comms ID for Gargoyle and nod to your comms officer who stands ready for whatever surprises Gargoyle thinks would be amusing to send through comms.\r\n\r\nNo tricks this time. The display instantly resolves into a familiar face with an unfamiliar expression: fear.",
+   "ctx": "data/campaign/rules.csv gaKAGargoyle2Greeting [text]"
+  }
+ ]
+}

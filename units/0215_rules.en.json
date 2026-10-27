@@ -1,0 +1,146 @@
+{
+ "chunk": 215,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"I will arrange for the prompt discovery of the datacore you leave behind by an unknowing scavenger,\" $heOrShe snaps, patience nearly at an end. \"Obviously.\"\r\n\r\n\"Enough chatter. Are you in or out?\"",
+   "ctx": "data/campaign/rules.csv rdsmOfferAsk4 [text]"
+  },
+  {
+   "i": 2,
+   "en": "Your sensors officer reports that a high-powered scan of the coordinates provided shows the $rdsm_megacorpName $rdsm_target is long abandoned, but appears to be in relatively good shape.",
+   "ctx": "data/campaign/rules.csv rdsmStandardPlanetInteraction [text]"
+  },
+  {
+   "i": 3,
+   "en": "Your sensors officer reports that a high-powered scan of the coordinates provided shows the $rdsm_megacorpName $rdsm_target is long abandoned, but appears relatively intact.\r\n\r\nHowever, there is also a fresh burnt-out shuttle in a nearby landing complex. On the obvious approach path is the scar of a debris field, apparently created by the low-velocity impact of a second shuttle. Nearby ruins show signs of some light orbital bombardment, likely retaliatory.\r\n\r\nIt appears as though a lightly-equipped scavenger attempted this operation once before and was caught off guard by the local decivs. Your sensors officer coordinates targeted scans with Tactical to estimate hostile combat capabilities.",
+   "ctx": "data/campaign/rules.csv rdsmDecivInteractionRaid [text]"
+  },
+  {
+   "i": 4,
+   "en": "Your marines provide security while a small salvage team carefully accesses the $rdsm_megacorpName $rdsm_target and swaps out the specified data core.",
+   "ctx": "data/campaign/rules.csv rdsmFinishedRaid [text]"
+  },
+  {
+   "i": 5,
+   "en": "You order a small salvage team deployed.\r\n\r\nUnder the close watch of your operations chief, they access the $rdsm_target and exchange the new datacore for the old.",
+   "ctx": "data/campaign/rules.csv rdsmPlanetGetData [text]"
+  },
+  {
+   "i": 6,
+   "en": "You order a few cargo crates loaded with supplies then rigged with visual-audio-radio emergency beacons and disposable landing rockets.\r\n\r\nIt's an old trick when dealing with decivs, but it usually works. Whether they accept the supplies as payment, bribery, or simply relatively high tech goods in an environment largely cut off from interstellar commerce, the value of these crates is literally astronomical.\r\n\r\nYou watch a cluster of crates shrink to spots, then disappear into the face of $name.",
+   "ctx": "data/campaign/rules.csv rdsmPlanetGetDataDistraction [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Drop telemetry reads successful surface contact,\" your sensors officer reports, who taps at their console then mumbles something into another comms channel. \"Confirmed by $shipOrFleet instruments.\"\r\n\r\nTactical signals acknowledgement, then says \"Mission is go.\" \r\n\r\nThe landing shuttles glitter with a burst of propulsion then drop in silent formation toward the surface. The cargo drop was close enough to the target zone to distract any decivs present, but far enough - hopefully - to clear or persuade away any active resistance.\r\n\r\nWithin minutes, shuttles report unimpeded landing. Salvor crews deploy immediately through the settling dust cloud, only lightly armed to ensure maximum operational speed.",
+   "ctx": "data/campaign/rules.csv rdsmPlanetGetDataDistraction1 [text]"
+  },
+  {
+   "i": 8,
+   "en": "The small salvage team accesses the $rdsm_megacorpName $rdsm_target, cutting through sealed locks and blasting weak points as needed. Their work is sloppy, even crude, compared to your ops chief's usual standards - intentionally so. The physical evidence of your crews' intrusion is meant to appear to be the work of local decivs' random plundering rather than a targeted job.\r\n\r\nObjective found, your salvors swap out the specified data core and install the fake. They carefully create the appearance of random tampering, plundering a few obvious modular and interface components that would be of interest to cut-off decivs, then re-dust the scene.\r\n\r\nFrom orbit, your sensors officer spots movement in nearby terrain; armed locals. The salvors perform a quick evac before they can bring heavy weapons to bear and, aside from a few light energy weapon burns on the shuttle plating, there's no harm done.",
+   "ctx": "data/campaign/rules.csv rdsmPlanetGetDataDistraction2 [text]"
+  },
+  {
+   "i": 9,
+   "en": "$PersonName's eyes light up. \"Excellent work, captain!\"\r\n\r\nYou give orders for delivery of the core while $heOrShe transfers you your reward.",
+   "ctx": "data/campaign/rules.csv rdsmreturnToContact2 [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"A rival has established a secret outpost to move a large quantity of $rsom_product. I'd like you to ruin their plans for me.\"",
+   "ctx": "data/campaign/rules.csv RSOMblurb [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"You've earned a degree of my trust,\" $heOrShe says. \"I would ask you to help me send a,\" $heOrShe chuckles, \"very important message.\"\r\n\r\n\"One of my rivals has established a staging point, a secret outpost, on the planet $rsom_planetName in the $rsom_systemName, which is $rsom_dist light-years away. They've stashed a lot of $rsom_product there, awaiting transport. I'm not sure where they got it all, maybe an old cache, or it's a transit point from some other supplier. What I do know,\" $heOrShe growls, \"is that they're severely undercutting the prices we've all worked so hard to keep at sustainable levels.\"\r\n\r\n\"Raid the outpost. Plunder the $rsom_product. Sell the loot at whatever black market you like - at market rate. It will be your payment.\"\r\n\r\n\"My source suggests that the outpost will be lightly defended. $rsom_marinesReq marines should be sufficient to neutralize the protection.\"",
+   "ctx": "data/campaign/rules.csv RSOMofferTextContact [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"My rival only dabbles in starships, so little to worry about there. But, yes, there are concealed batteries. They may not stop a proper warfleet, but they're an inconvenience.\" \r\n\r\n\"My, ah, source on this intel was 'convinced' to provide codes you will use to bypass their IFF.\" A slow, toothy smile builds on $hisOrHer face. \"Use their codes. They'll think you're doing a pickup as you drop the shuttle cargo doors and marines pour fire into the unsuspecting fools.\"\r\n\r\n$HeOrShe gets a distant, pleased look as $heOrShe imagines the slaughter. ",
+   "ctx": "data/campaign/rules.csv RSOMofferTextContact2 [text]"
+  },
+  {
+   "i": 13,
+   "en": "$HisOrHer expression cools. \"I trust my methods, captain,\" $heOrShe says.\r\n\r\n\"You can trust me, as you have in the past. You will be rewarded. Just as you have in the past.\"",
+   "ctx": "data/campaign/rules.csv RSOMofferAsk1 [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"Then decline my generous offer,\" the $post says testily.\r\n\r\n\"If you're afraid of a little risk, I'll find someone who is up for the job.\"",
+   "ctx": "data/campaign/rules.csv RSOMofferAsk2 [text]"
+  },
+  {
+   "i": 15,
+   "en": "The planet below appears to lack any settlements or open comms transmissions. You have your comms officer do a broad transmission of the IFF codes, and a simple ping of approval is returned.\r\n\r\nThe source of the ping is an outcrop overlooking a plausibly natural-looking plateau. You couldn't ask for a more perfect site to land a shuttle, nor one more exposed to weapon emplacements which would be concealed in the surrounding bluffs.",
+   "ctx": "data/campaign/rules.csv rsomStandardPlanetInteraction [text]"
+  },
+  {
+   "i": 16,
+   "en": "A flight of shuttles is deployed, armed lightly enough to show respect to the smugglers but without being outwardly conspicuous. What appears to be a motley logistics crew with token guards approach the armored doors of the hidden base, hauling their basic cargo-moving tools: robotic lifts and agrav-fitted pallets, the usual.\r\n\r\nUpon entrance, at the signal, weapons-fire erupts from the entire party. False air tanks conceal light arms and single-shot anti-armor tubes; utility panniers are stuffed with grenades and miniature assault drones. All are loosed in a few seconds of blinding violence which catch the smugglers completely off-guard.\r\n\r\nAfter the initial shock comes the grind, and your marines pay for lack of heavy armor as they face recessed auto-turrets and not more than a few heavily armed criminals hiding in the worm-tunnels which loop through and around the rotten stone.",
+   "ctx": "data/campaign/rules.csv rsomFinishedRaid [text]"
+  },
+  {
+   "i": 17,
+   "en": "It was the bloody job your contact $rsom_contactName had in mind. Such a shocking display of incompetence is sure to cause a shake-up in whichever criminal enterprise this lot is - was, rather - involved with.\r\n\r\nAnd now you've got a hold full of hot $rsom_product to unload.",
+   "ctx": "data/campaign/rules.csv rsomDidRaidOutro [text]"
+  },
+  {
+   "i": 18,
+   "en": "To ensure everything goes smoothly, you take personal command of the lead transport shuttle.\r\n\r\nThere's a mere flicker of targeting lasers and a sweep or two of radar. Nothing to worry about, you calmly assure your pilot, who looks to be breaking out in sweat.\r\n\r\nYour landing is met by little more than a large, armored cargo-hatch opening from under an overhang; an invitation.",
+   "ctx": "data/campaign/rules.csv rsomAvoidCombat [text]"
+  },
+  {
+   "i": 19,
+   "en": "Your party is armed and armored, but respectfully - these are underworld criminals who wish to be considered dangerous - but not indecently. Over-icing the cake, as it were, would appear suspicious; there's a delicate balance to navigate when it comes to these things, you explain to your nervous crew. You take care not to mention the recessed autoturrets that have been tracking your shuttle.\r\n\r\nConfidence is the word.",
+   "ctx": "data/campaign/rules.csv rsomAvoidCombat2 [text]"
+  },
+  {
+   "i": 20,
+   "en": "The local boss left in charge of this depressing cave has the pale, antsy look of an underling who has been cooped up for too long with little to do but gamble and use.\r\n\r\nHe wipes a greasy lock of hair from his forehead and looks at you suspiciously. His stinking underlings finger their short, brutish guns.\r\n\r\n\"You're not Skinny Diego,\" he says.\r\n\r\n\"I was told Diego was doing the pickup. Where's Diego?\"",
+   "ctx": "data/campaign/rules.csv rsomAvoidCombat3 [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"Diego said that?\" His beady little eyes scrunch up, his hands tense. \"Diego hates my guts. He'd never say that.\"",
+   "ctx": "data/campaign/rules.csv rsomAvoidCombat4a [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"Yeah?\" He licks his lips, taking a moment to revel in a growing anger.\r\n\r\n\"Diego can eat rads and burn in vacuum, for all I care. Think's he's too fancy to come out here and do a bit of grunt work? Just like Diego.\"\r\n\r\nHe jabs a finger at you, \"You can tell him I said that, too. I don't even care.\"",
+   "ctx": "data/campaign/rules.csv rsomAvoidCombat5a [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"It is, isn't it,\" the man says slowly.\r\n\r\nHe looks at you with a new sense of self-confidence.\r\n\r\n\"You're not afraid to get your hands dirty, are you cap,\" he says with a gleam in his eye. Or maybe it's a pre-hangover glaze, judging from his shaky posture. \"I had a good feeling about you as soon as I saw you weren't Diego.\"",
+   "ctx": "data/campaign/rules.csv rsomAvoidCombat6a [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"An accident? How? Where?\" The man's hands tense. \"Diego never has accidents. He's careful.\"\r\n\r\nA thought congeals, slowly but surely.\r\n\r\n\"Well. I suppose he's not that careful. But he's lucky, always lucky. What happened?\"",
+   "ctx": "data/campaign/rules.csv rsomAvoidCombat4b [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"Unless...\" the man looks at you, strung along on your words. He takes a few moments to pick up on your implication.\r\n\r\nTo help him understand, you give a concerned look and dart your eyes around. Then, in low words, you explain that perhaps it should be discussed later. 'Accidents' like that don't just happen without someone wanting them to happen, and who knows if there aren't more snakes in the organization? Someone must be making a move - but we can't let them know that we know, much less let them know we know they know we know.\r\n\r\nThe boss nods along, now looking at even his own crew suspiciously.",
+   "ctx": "data/campaign/rules.csv rsomAvoidCombat5b [text]"
+  },
+  {
+   "i": 26,
+   "en": "He takes you to a grubby office, a utility nook really, overlooking the main bay as your crews get to work loading the $rsom_product.\r\n\r\nA bottle of something strong and cheap appears, and you do your part in pretending to drink it as you fill his head with paranoid half-truths built on details he reveals. ",
+   "ctx": "data/campaign/rules.csv rsomAvoidCombat6b [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"A disagreement?\" The man looks more than shocked; appalled. \"But Diego's his own brother, his blood. He'd never cut Diego out of a job. Never! Never ever.\"\r\n\r\nHe looks unsteady, physically unwell, as if what was solid hullplate turned out to be little more than ration-wrappings.\r\n\r\n\"What could be so terrible? Diego, Diego...\" He shakes his head, almost in tears.",
+   "ctx": "data/campaign/rules.csv rsomAvoidCombat4c [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"Of course, of course,\" the boss says, putting a hand on your shoulder. Now that you can smell the metabolic byproducts - and spillage - of hard, bad liquor, you would suppose that he has a hangover to drink away.\r\n\r\n\"I've right forgot my welcome, haven't I. Come, come! I've got a bottle open. It's good stuff. Put your crew to work loading and we can talk about what happened. Stars above, Diego...\" he shakes his head, wanting to disbelieve, but unable.",
+   "ctx": "data/campaign/rules.csv rsomAvoidCombat5c [text]"
+  }
+ ]
+}

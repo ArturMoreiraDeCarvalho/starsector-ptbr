@@ -1,0 +1,1256 @@
+{
+ "chunk": 279,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "Give them the supplies and fuel\r",
+   "ctx": "gaProbeOfferAid"
+  },
+  {
+   "i": 2,
+   "en": "Deny them aid",
+   "ctx": "gaProbeOfferAid"
+  },
+  {
+   "i": 3,
+   "en": "Probably nothing. Exchange pleasantries and sign off.\r",
+   "ctx": "gaProbeScavCommBefore"
+  },
+  {
+   "i": 4,
+   "en": "Request that they transfer the probe's instrument package to you. Immediately.",
+   "ctx": "gaProbeScavCommBefore"
+  },
+  {
+   "i": 5,
+   "en": "Ask if the probe's transponder was active when this \"salvage\" took place",
+   "ctx": "gaProbeConfront"
+  },
+  {
+   "i": 6,
+   "en": "\"Immediately transfer the instrument package to my ship.\"",
+   "ctx": "gaProbeConfront1"
+  },
+  {
+   "i": 7,
+   "en": "Confront them about the probe\r",
+   "ctx": "gaProbeScavCommAfter"
+  },
+  {
+   "i": 8,
+   "en": "\"I'm sorry to hear it. Burn bright.\"",
+   "ctx": "gaProbeScavCommAfter"
+  },
+  {
+   "i": 9,
+   "en": "Explain \"how it works\" to the scavenger",
+   "ctx": "gaProbeConfrontAfter1"
+  },
+  {
+   "i": 10,
+   "en": "Ask about the VIP transport",
+   "ctx": "gaVIPBlurbOfferOption"
+  },
+  {
+   "i": 11,
+   "en": "\"Threats?\"",
+   "ctx": "gaVIPBlurbMissionTextBasic"
+  },
+  {
+   "i": 12,
+   "en": "Without comment, let him finish",
+   "ctx": "gaVIPBlurbMissionTextKanta"
+  },
+  {
+   "i": 13,
+   "en": "Agree to give up the VIP passenger\r",
+   "ctx": "gaVIPPirateOpenComm"
+  },
+  {
+   "i": 14,
+   "en": "\"Only if you pay $gaVIP_piratePayment credits. Up-front.\"\r",
+   "ctx": "gaVIPPirateOpenComm"
+  },
+  {
+   "i": 15,
+   "en": "Bluff the pirate by saying you're working for Warlord Kanta",
+   "ctx": "gaVIPPirateOpenComm"
+  },
+  {
+   "i": 16,
+   "en": "Confirm the deal\r",
+   "ctx": "gaVIPPirateDemandPayment"
+  },
+  {
+   "i": 17,
+   "en": "\"Actually, no.\" ",
+   "ctx": "gaVIPPirateDemandPayment"
+  },
+  {
+   "i": 18,
+   "en": "\"What crime have they committed?\"",
+   "ctx": "gaVIPMercOption1"
+  },
+  {
+   "i": 19,
+   "en": "\"By what authority?\"",
+   "ctx": "gaVIPMercOption2"
+  },
+  {
+   "i": 20,
+   "en": "\"Or else what?\"",
+   "ctx": "gaVIPMercOption3"
+  },
+  {
+   "i": 21,
+   "en": "Agree to surrender the VIP",
+   "ctx": "gaVIPMercOption5"
+  },
+  {
+   "i": 22,
+   "en": "Send a fake and con the merc for credits",
+   "ctx": "gaVIPMercOption6"
+  },
+  {
+   "i": 23,
+   "en": "\"So they've committed no crime. Got it.\"",
+   "ctx": "gaVIPMercOption1Sel"
+  },
+  {
+   "i": 24,
+   "en": "\"So you have no warrant. Got it.\"",
+   "ctx": "gaVIPMercOption2Sel"
+  },
+  {
+   "i": 25,
+   "en": "\"Or else nothing. Got it.\"",
+   "ctx": "gaVIPMercOption3Sel"
+  },
+  {
+   "i": 26,
+   "en": "Transfer the VIP to the merc's ship\r",
+   "ctx": "gaVIPMercAgree"
+  },
+  {
+   "i": 27,
+   "en": "\"Hold on, we haven't discussed my payment.\"",
+   "ctx": "gaVIPMercAgree"
+  },
+  {
+   "i": 28,
+   "en": "\"I must have misspoke. Passenger transfer incoming.\" (back down)\r",
+   "ctx": "gaVIPMercVIPPayment"
+  },
+  {
+   "i": 29,
+   "en": "\"I require a portion of the reward for my trouble.\" (negotiate)\r",
+   "ctx": "gaVIPMercVIPPayment"
+  },
+  {
+   "i": 30,
+   "en": "\"I must have misspoke. Go suck vacuum.\" (refuse)",
+   "ctx": "gaVIPMercVIPPayment"
+  },
+  {
+   "i": 31,
+   "en": "Agree to the terms\r",
+   "ctx": "gaVIPMercVIPPaymentNegotiate"
+  },
+  {
+   "i": 32,
+   "en": "Refuse the terms",
+   "ctx": "gaVIPMercVIPPaymentNegotiate"
+  },
+  {
+   "i": 33,
+   "en": "\"I am sure it will be an unforgettable meeting. Comms out.\"",
+   "ctx": "gaVIPConMerc4"
+  },
+  {
+   "i": 34,
+   "en": "\"Good, you're here.\"\r",
+   "ctx": "gaVIPRevengeOpenComm"
+  },
+  {
+   "i": 35,
+   "en": "\"I'll see you in hell. Save a place for me when you get there.\"\r",
+   "ctx": "gaVIPRevengeOpenComm"
+  },
+  {
+   "i": 36,
+   "en": "\"What else would she say, given that the fact of this \"betrayal\" is public knowledge?\"",
+   "ctx": "gaVIPRevengeTrick1"
+  },
+  {
+   "i": 37,
+   "en": "\"Kanta won't hear a word. Burn bright.\"",
+   "ctx": "gaVIPRevengeTrick3b"
+  },
+  {
+   "i": 38,
+   "en": "Ask about transporting scientists to the research outpost in $gaOp_systemName",
+   "ctx": "gaOpOfferOption"
+  },
+  {
+   "i": 39,
+   "en": "Scan the surface for the Galatia Academy research outpost\r",
+   "ctx": "gaOpStandardPlanetInteraction"
+  },
+  {
+   "i": 40,
+   "en": "Confront the AI via comms (negotiate)\r",
+   "ctx": "gaOpPlanetRogueAIMainMenu"
+  },
+  {
+   "i": 41,
+   "en": "Perform an orbital strike to destroy the AI despite any human cost\r",
+   "ctx": "gaOpPlanetRogueAIMainMenu"
+  },
+  {
+   "i": 42,
+   "en": "Load the arranged shuttle with marines to verify the situation, then capture or destroy the AI\r",
+   "ctx": "gaOpPlanetRogueAIMainMenu"
+  },
+  {
+   "i": 43,
+   "en": "Leave. This wasn't in your contract.",
+   "ctx": "gaOpPlanetRogueAIMainMenu"
+  },
+  {
+   "i": 44,
+   "en": "Attempt to negotiate a release of the prisoners\r",
+   "ctx": "gaOpPlanetRogueAIConfront1"
+  },
+  {
+   "i": 45,
+   "en": "Close the comms and consider alternatives",
+   "ctx": "gaOpPlanetRogueAIConfront1"
+  },
+  {
+   "i": 46,
+   "en": "Accept the terms and make arrangements for the exchange\r",
+   "ctx": "gaOpPlanetRogueAINegotiate3"
+  },
+  {
+   "i": 47,
+   "en": "Convince the AI to surrender\r",
+   "ctx": "gaOpPlanetRogueAINegotiate3"
+  },
+  {
+   "i": 48,
+   "en": "Close the comms and consider other options",
+   "ctx": "gaOpPlanetRogueAINegotiate3"
+  },
+  {
+   "i": 49,
+   "en": "\"AI? I will bring you to omega.\"",
+   "ctx": "gaOpPlanetRogueAINegConvince"
+  },
+  {
+   "i": 50,
+   "en": "\"You may fire when ready.\"\r",
+   "ctx": "gaOpPlanetRogueAIStrike"
+  },
+  {
+   "i": 51,
+   "en": "Reconsider your options",
+   "ctx": "gaOpPlanetRogueAIStrike"
+  },
+  {
+   "i": 52,
+   "en": "Clear your throat",
+   "ctx": "gaOpMissionReturnDestroyed"
+  },
+  {
+   "i": 53,
+   "en": "Ask about purchasing technology from pirates",
+   "ctx": "gaBAOfferOptionPirate"
+  },
+  {
+   "i": 54,
+   "en": "Ask about purchasing technology from a Pather",
+   "ctx": "gaBAOfferOptionPather"
+  },
+  {
+   "i": 55,
+   "en": "\"I do?\"",
+   "ctx": "gaBAMissionTextPather"
+  },
+  {
+   "i": 56,
+   "en": "Ask about a certain piece of technology\r",
+   "ctx": "gaBAPatherGreeting"
+  },
+  {
+   "i": 57,
+   "en": "Accept and pay $gaBA_costHigh credits\r",
+   "ctx": "GABAPatherMainOptions"
+  },
+  {
+   "i": 58,
+   "en": "\"That wasn't the deal.\" (confront)\r",
+   "ctx": "GABAPatherMainOptions"
+  },
+  {
+   "i": 59,
+   "en": "Bluff to pay a lower amount\r",
+   "ctx": "GABAPatherMainOptions"
+  },
+  {
+   "i": 60,
+   "en": "Keep $himOrHer talking while you send a marine raid\r",
+   "ctx": "GABAPatherMainOptions"
+  },
+  {
+   "i": 61,
+   "en": "Accept and pay the original ransom of $gaBA_costNormal credits\r",
+   "ctx": "gaBAPatherConfront"
+  },
+  {
+   "i": 62,
+   "en": "Decline and cut the comm link\r",
+   "ctx": "gaBAPatherConfront"
+  },
+  {
+   "i": 63,
+   "en": "Decline, but trace the comms for a target for a marine raid\r",
+   "ctx": "gaBAPatherConfront"
+  },
+  {
+   "i": 64,
+   "en": "\"Or I trace your comms and glass your compound from orbit.\" (threaten)",
+   "ctx": "gaBAPatherConfront"
+  },
+  {
+   "i": 65,
+   "en": "Accept and pay the smaller ransom of $gaBA_costVeryLow credits\r",
+   "ctx": "gaBAPatherThreaten"
+  },
+  {
+   "i": 66,
+   "en": "Decline, but trace the comms for a target for a marine raid",
+   "ctx": "gaBAPatherThreaten"
+  },
+  {
+   "i": 67,
+   "en": "Negotiate a lower amount\r",
+   "ctx": "GABAPirateMainOptions"
+  },
+  {
+   "i": 68,
+   "en": "\"Or I trace your comms and reduce your compound to slag.\" (threaten)",
+   "ctx": "gaBAPirateConfront"
+  },
+  {
+   "i": 69,
+   "en": "\"Absolutely.\" (lie)\r",
+   "ctx": "gaBAPirateBluff2"
+  },
+  {
+   "i": 70,
+   "en": "\"I imagine you'll receive the reward you deserve.\" (truth)\r",
+   "ctx": "gaBAPirateBluff2"
+  },
+  {
+   "i": 71,
+   "en": "Shrug and order your comms officer to close the call",
+   "ctx": "gaBAPirateBluff2"
+  },
+  {
+   "i": 72,
+   "en": "Decline, close comms\r",
+   "ctx": "pwiOpenComm"
+  },
+  {
+   "i": 73,
+   "en": "Bluff to get rid of the pirate\r",
+   "ctx": "pwiOpenComm"
+  },
+  {
+   "i": 74,
+   "en": "Accept, and eject the technology package",
+   "ctx": "pwiOpenComm"
+  },
+  {
+   "i": 75,
+   "en": "\"We'll see.\"",
+   "ctx": "pwiBluff"
+  },
+  {
+   "i": 76,
+   "en": "Bluff to get rid of the Pather\r",
+   "ctx": "pwi2OpenComm"
+  },
+  {
+   "i": 77,
+   "en": "Decline the deal",
+   "ctx": "ttwiOpenComm"
+  },
+  {
+   "i": 78,
+   "en": "Ask about the kidnapped researcher",
+   "ctx": "gaRROfferOptionPirate"
+  },
+  {
+   "i": 79,
+   "en": "Ask about the imprisoned researcher",
+   "ctx": "gaRROfferOptionChurch"
+  },
+  {
+   "i": 80,
+   "en": "\"Cannibals?\"\r",
+   "ctx": "gaRRMissionTextPirate"
+  },
+  {
+   "i": 81,
+   "en": "\"Pirates?\"",
+   "ctx": "gaRRMissionTextPirate"
+  },
+  {
+   "i": 82,
+   "en": "\"Pirates.\"",
+   "ctx": "gaRRMissionTextPirateCannibals"
+  },
+  {
+   "i": 83,
+   "en": "\"If I find some other way to free the researcher, can I keep the ransom credits?\"",
+   "ctx": "gaRRMissionTextPirate1"
+  },
+  {
+   "i": 84,
+   "en": "\"Don't worry, I can be very persuasive.\"",
+   "ctx": "gaRRMissionTextPirate2"
+  },
+  {
+   "i": 85,
+   "en": "\"If I free the researcher without paying, do I keep the ransom credits?\"",
+   "ctx": "gaRRMissionTextChurch1"
+  },
+  {
+   "i": 86,
+   "en": "Ask about a certain prisoner associated with the Galatia Academy\r",
+   "ctx": "gaRRChurchGreeting"
+  },
+  {
+   "i": 87,
+   "en": "Pay $gaRR_costNormal credits for the academician's release\r",
+   "ctx": "gaRRChurchGreeting2"
+  },
+  {
+   "i": 88,
+   "en": "Negotiate to avoid paying\r",
+   "ctx": "gaRRChurchGreeting2"
+  },
+  {
+   "i": 89,
+   "en": "Accept the higher amount and pay $gaRR_costHigh credits\r",
+   "ctx": "GARRPirateMainOptions"
+  },
+  {
+   "i": 90,
+   "en": "Accept and pay the original ransom of $gaRR_costNormal credits\r",
+   "ctx": "gaRRPirateConfront"
+  },
+  {
+   "i": 91,
+   "en": "Accept and pay the smaller ransom of $gaRR_costVeryLow credits\r",
+   "ctx": "gaRRPirateThreaten"
+  },
+  {
+   "i": 92,
+   "en": "Ask about the Tri-Tachyon black site extraction mission",
+   "ctx": "gaTJOfferOption"
+  },
+  {
+   "i": 93,
+   "en": "\"Watch out for mercs, got it. The mission?\"",
+   "ctx": "gaTJMissionText1"
+  },
+  {
+   "i": 94,
+   "en": "\"You want me to kidnap a researcher from a secret Tri-Tachyon base?\"\r",
+   "ctx": "gaTJMissionText2"
+  },
+  {
+   "i": 95,
+   "en": "\"You want me to 'rescue' a researcher from a secret Tri-Tachyon base?\"",
+   "ctx": "gaTJMissionText2"
+  },
+  {
+   "i": 96,
+   "en": "\"Oh, I know how to do that.\"",
+   "ctx": "gaTJMissionText5reponse1"
+  },
+  {
+   "i": 97,
+   "en": "\"That sounds useful.\" ",
+   "ctx": "gaTJMissionText5reponse2"
+  },
+  {
+   "i": 98,
+   "en": "\"I'll have my nav officer provide everything you need.\"\r",
+   "ctx": "gaTJMissionTextHaveTJ1"
+  },
+  {
+   "i": 99,
+   "en": "\"I don't think we have time for that.\"\r",
+   "ctx": "gaTJMissionTextHaveTJ1"
+  },
+  {
+   "i": 100,
+   "en": "Send a coded burst on the frequency provided by Sebestyen\r",
+   "ctx": "gaTJStandardPlanetInteraction"
+  },
+  {
+   "i": 101,
+   "en": "\"No need. I already know how to do that.\"",
+   "ctx": "gaTJPlanetContact4response1"
+  },
+  {
+   "i": 102,
+   "en": "Take the datachip\r",
+   "ctx": "gaTJPlanetContact4response2"
+  },
+  {
+   "i": 103,
+   "en": "\"That won't be necessary.\"\r",
+   "ctx": "gaTJPlanetContact4response2"
+  },
+  {
+   "i": 104,
+   "en": "Investigate the datachip",
+   "ctx": "gaTJPlanetContactTakeChip"
+  },
+  {
+   "i": 105,
+   "en": "\"And the signal?\"",
+   "ctx": "gaIntro2surveyOpen"
+  },
+  {
+   "i": 106,
+   "en": "Order the data core retrieved",
+   "ctx": "gaIntro2surveyOpenAgain"
+  },
+  {
+   "i": 107,
+   "en": "Order the data core retrieved\r",
+   "ctx": "gaIntro2start2"
+  },
+  {
+   "i": 108,
+   "en": "Leave it be",
+   "ctx": "gaIntro2start2"
+  },
+  {
+   "i": 109,
+   "en": "Inspect the data\r",
+   "ctx": "gaIntro2retrieval"
+  },
+  {
+   "i": 110,
+   "en": "Just take the core",
+   "ctx": "gaIntro2retrieval"
+  },
+  {
+   "i": 111,
+   "en": "\"What is it?\"\r",
+   "ctx": "gaIntro2inspect"
+  },
+  {
+   "i": 112,
+   "en": "\"Good. Then the Academy will pay me for its recovery.\"",
+   "ctx": "gaIntro2inspect"
+  },
+  {
+   "i": 113,
+   "en": "\"If you don't know, just say so.\"\r",
+   "ctx": "gaIntro2what"
+  },
+  {
+   "i": 114,
+   "en": "Ask about returning a datacore to Provost Kallichore",
+   "ctx": "gaIntro2returnStart"
+  },
+  {
+   "i": 115,
+   "en": "Accept the comms request",
+   "ctx": "gaIntro2returnStart3"
+  },
+  {
+   "i": 116,
+   "en": "\"I've recovered a data core. The provost authorized a reward.\"\r",
+   "ctx": "gaIntro2returnElek1"
+  },
+  {
+   "i": 117,
+   "en": "\"My name is $playerName. I'm returning a data core for the provost's reward.\"\r",
+   "ctx": "gaIntro2returnElek1"
+  },
+  {
+   "i": 118,
+   "en": "\"What happened?\"\r",
+   "ctx": "gaIntro2returnElek2b"
+  },
+  {
+   "i": 119,
+   "en": "\"So is there still a reward?\"\r",
+   "ctx": "gaIntro2returnElek2b"
+  },
+  {
+   "i": 120,
+   "en": "\"Is there a reward or should I dump this data core into this gas giant we're orbiting?\"\r",
+   "ctx": "gaIntro2returnElek2b"
+  },
+  {
+   "i": 121,
+   "en": "\"Let us discuss the reward.\"\r",
+   "ctx": "gaIntro2returnElekWhat2"
+  },
+  {
+   "i": 122,
+   "en": "\"Is there a reward or do I dump this data core into the gas giant we're orbiting?",
+   "ctx": "gaIntro2returnElekWhat2"
+  },
+  {
+   "i": 123,
+   "en": "Send the data core over",
+   "ctx": "gaIntro2returnElekStillReward"
+  },
+  {
+   "i": 124,
+   "en": "\"The reward is still good?\"\r",
+   "ctx": "gaIntro2returnSebStart"
+  },
+  {
+   "i": 125,
+   "en": "\"What's wrong with Academician Elek?\"",
+   "ctx": "gaIntro2returnSebStart"
+  },
+  {
+   "i": 126,
+   "en": "\"What's wrong with Academician Elek?\"\r",
+   "ctx": "gaIntro2returnSeb1"
+  },
+  {
+   "i": 127,
+   "en": "\"I get the impression that this person isn't universally liked.\"\r",
+   "ctx": "gaIntro2returnSeb3"
+  },
+  {
+   "i": 128,
+   "en": "\"Never mind. The reward is still good?\"\r",
+   "ctx": "gaIntro2returnSeb3"
+  },
+  {
+   "i": 129,
+   "en": "\"Off-putting? That's it?\"",
+   "ctx": "gaIntro2returnSeb4"
+  },
+  {
+   "i": 130,
+   "en": "\"I'm sorry that Elek makes your job more difficult.\"\r",
+   "ctx": "gaIntro2returnSeb5"
+  },
+  {
+   "i": 131,
+   "en": "\"How much do you hate Elek?\"\r",
+   "ctx": "gaIntro2returnSeb5"
+  },
+  {
+   "i": 132,
+   "en": "\"So how about that reward?\"",
+   "ctx": "gaIntro2returnSeb5"
+  },
+  {
+   "i": 133,
+   "en": "\"So how about that reward.\"",
+   "ctx": "gaIntro2returnSeb6"
+  },
+  {
+   "i": 134,
+   "en": "DEV start Princess of Persea mission",
+   "ctx": "devSOEstartOption"
+  },
+  {
+   "i": 135,
+   "en": "\"The one and only.\"\r",
+   "ctx": "soeMeetCaspianStart1"
+  },
+  {
+   "i": 136,
+   "en": "\"Do you know me?\"\r",
+   "ctx": "soeMeetCaspianStart1"
+  },
+  {
+   "i": 137,
+   "en": "\"Do I know you?\"",
+   "ctx": "soeMeetCaspianStart1"
+  },
+  {
+   "i": 138,
+   "en": "\"I have no comment on such speculation.\"\r",
+   "ctx": "soeMeetCaspian1"
+  },
+  {
+   "i": 139,
+   "en": "\"I don't know what you're talking about.\"\r",
+   "ctx": "soeMeetCaspian1"
+  },
+  {
+   "i": 140,
+   "en": "\"What do you mean by that?\"\r",
+   "ctx": "soeMeetCaspian1"
+  },
+  {
+   "i": 141,
+   "en": "\"Are you insulting the Hegemon?\"",
+   "ctx": "soeMeetCaspian1"
+  },
+  {
+   "i": 142,
+   "en": "\"The pleasure is mine, I'm sure.\"\r",
+   "ctx": "soeMeetCaspian3"
+  },
+  {
+   "i": 143,
+   "en": "\"The pay is irrelevant. I stand for the Hegemony.\"\r",
+   "ctx": "soeMeetCaspian3"
+  },
+  {
+   "i": 144,
+   "en": "\"I win battles for you lot. The pay is so you feel like you're helping.\"\r",
+   "ctx": "soeMeetCaspian3"
+  },
+  {
+   "i": 145,
+   "en": "\"Daud deserves better than you.\"",
+   "ctx": "soeMeetCaspian3"
+  },
+  {
+   "i": 146,
+   "en": "\"I wouldn't miss it for the world.\"\r",
+   "ctx": "soeMeetCaspian4"
+  },
+  {
+   "i": 147,
+   "en": "\"I must decline your generous invitation.\"\r",
+   "ctx": "soeMeetCaspian4"
+  },
+  {
+   "i": 148,
+   "en": "Immediately take a shuttle to the Rao estate\r",
+   "ctx": "soeArriveEventide"
+  },
+  {
+   "i": 149,
+   "en": "Take care of other business first\r",
+   "ctx": "soeArriveEventide"
+  },
+  {
+   "i": 150,
+   "en": "Delete the invitation",
+   "ctx": "soeArriveEventide"
+  },
+  {
+   "i": 151,
+   "en": "Take a shuttle to the Rao estate\r",
+   "ctx": "soeArriveBallAgain"
+  },
+  {
+   "i": 152,
+   "en": "Make useful connections in the Hegemony officer corps\r",
+   "ctx": "soeArriveToBall"
+  },
+  {
+   "i": 153,
+   "en": "It's a party! Just have a good time\r",
+   "ctx": "soeArriveToBall"
+  },
+  {
+   "i": 154,
+   "en": "Find a way to disgrace Caspian Sang\r",
+   "ctx": "soeArriveToBall"
+  },
+  {
+   "i": 155,
+   "en": "Keep an open mind and watch for opportunities\r",
+   "ctx": "soeArriveToBall"
+  },
+  {
+   "i": 156,
+   "en": "Enter the ballroom",
+   "ctx": "soeHouseRao4"
+  },
+  {
+   "i": 157,
+   "en": "Introduce yourself to someone important",
+   "ctx": "soeHouseRaoGoalSchmooze"
+  },
+  {
+   "i": 158,
+   "en": "Get the party started! Step 1- find a drink",
+   "ctx": "soeHouseRaoGoalParty"
+  },
+  {
+   "i": 159,
+   "en": "Scan the crowd for the insufferable Caspian Sang",
+   "ctx": "soeHouseRaoGoalRevenge"
+  },
+  {
+   "i": 160,
+   "en": "Get a feel for the room before taking any action",
+   "ctx": "soeHouseRaoGoalUnsure"
+  },
+  {
+   "i": 161,
+   "en": "Take a glass\r",
+   "ctx": "soeHouseRaoSchmooze1"
+  },
+  {
+   "i": 162,
+   "en": "Wave them away",
+   "ctx": "soeHouseRaoSchmooze1"
+  },
+  {
+   "i": 163,
+   "en": "\"I didn't come here to spar with you, Sang.\"",
+   "ctx": "soeSangRound1reply1"
+  },
+  {
+   "i": 164,
+   "en": "\"Pardon me, I was about to speak with someone else.\"",
+   "ctx": "soeSangRound1reply2"
+  },
+  {
+   "i": 165,
+   "en": "\"Cool your flux ace, I'm just trying to enjoy a drink.\"",
+   "ctx": "soeSangRound1reply3"
+  },
+  {
+   "i": 166,
+   "en": "\"Do you always call the auxiliaries to get anything done, lieutenant?\"",
+   "ctx": "soeSangRound1reply4"
+  },
+  {
+   "i": 167,
+   "en": "\"Sang, have I offended you somehow?\"",
+   "ctx": "soeSangRound1reply5"
+  },
+  {
+   "i": 168,
+   "en": "Throw the drink in his face",
+   "ctx": "soeSangRound1reply6"
+  },
+  {
+   "i": 169,
+   "en": "Punch his stupid face",
+   "ctx": "soeSangRound1reply7"
+  },
+  {
+   "i": 170,
+   "en": "\"I am. It's a pleasure to meet you.\"\r",
+   "ctx": "soeIntroNeriene1drink"
+  },
+  {
+   "i": 171,
+   "en": "\"I am.\"\r",
+   "ctx": "soeIntroNeriene1drink"
+  },
+  {
+   "i": 172,
+   "en": "\"I am. Caspian was just leaving.\"",
+   "ctx": "soeIntroNeriene1drink"
+  },
+  {
+   "i": 173,
+   "en": "\"House Rao. As in, the owners of this estate.\"\r",
+   "ctx": "soeIntroNeriene3"
+  },
+  {
+   "i": 174,
+   "en": "\"House Rao. As in, Admiral Orcus Rao, the Hero of Raesvelg.\"\r",
+   "ctx": "soeIntroNeriene3"
+  },
+  {
+   "i": 175,
+   "en": "\"You don't seem too excited about this ball.\"",
+   "ctx": "soeIntroNeriene3"
+  },
+  {
+   "i": 176,
+   "en": "\"Why are you covering for me?\"\r",
+   "ctx": "soeIntroNeriene3punch"
+  },
+  {
+   "i": 177,
+   "en": "\"Does Admiral Orcus Rao agree with you?\"",
+   "ctx": "soeNerieneAskEstate"
+  },
+  {
+   "i": 178,
+   "en": "\"Is your, uh, Granduncle Orcus here?\"",
+   "ctx": "soeNerieneAskOrcus"
+  },
+  {
+   "i": 179,
+   "en": "\"Then why are you here?\"\r",
+   "ctx": "soeNerieneNotExcited"
+  },
+  {
+   "i": 180,
+   "en": "\"Does the Admiral Orcus Rao agree with you?\"",
+   "ctx": "soeNerieneNotExcited"
+  },
+  {
+   "i": 181,
+   "en": "\"Shall we?\"\r",
+   "ctx": "soeDanceStarting1b"
+  },
+  {
+   "i": 182,
+   "en": "\"I don't dance.\"\r",
+   "ctx": "soeDanceStarting1b"
+  },
+  {
+   "i": 183,
+   "en": "\"Um. Where can a space captain get a fresh drink around here?\"\r",
+   "ctx": "soeDanceStarting1b"
+  },
+  {
+   "i": 184,
+   "en": "Try very hard to initiate a Transverse Jump",
+   "ctx": "soeDanceStarting1b"
+  },
+  {
+   "i": 185,
+   "en": "\"No. I'm going to leave now.\"",
+   "ctx": "soeDanceStarting2c"
+  },
+  {
+   "i": 186,
+   "en": "Put the drink down\r",
+   "ctx": "soeDanceStarting2d"
+  },
+  {
+   "i": 187,
+   "en": "Chug the drink and leave the glass\r",
+   "ctx": "soeDanceStarting2d"
+  },
+  {
+   "i": 188,
+   "en": "\"Um. I'm going to leave now.\"",
+   "ctx": "soeDanceStarting2d"
+  },
+  {
+   "i": 189,
+   "en": "\"I was trying to initiate a Transverse Jump.\"\r",
+   "ctx": "soeDanceStarting2g"
+  },
+  {
+   "i": 190,
+   "en": "\"Would you care to dance?\"\r",
+   "ctx": "soeDanceStarting2g"
+  },
+  {
+   "i": 191,
+   "en": "\"What would you like to do?\"\r",
+   "ctx": "soeDanceStarting2g"
+  },
+  {
+   "i": 192,
+   "en": "\"My reputation?\"\r",
+   "ctx": "soeDanceStarting2e"
+  },
+  {
+   "i": 193,
+   "en": "Board and order return to orbit",
+   "ctx": "soeDanceEscape3"
+  },
+  {
+   "i": 194,
+   "en": "\"I was hoping to talk with someone important.\"\r",
+   "ctx": "soeDanceRound3"
+  },
+  {
+   "i": 195,
+   "en": "\"I just can't turn down an invitation to a good party.\"\r",
+   "ctx": "soeDanceRound3"
+  },
+  {
+   "i": 196,
+   "en": "\"It really was to prove Sang wrong, somehow.\"\r",
+   "ctx": "soeDanceRound3"
+  },
+  {
+   "i": 197,
+   "en": "\"Hard to say. It felt like I ought to be here.\"\r",
+   "ctx": "soeDanceRound3"
+  },
+  {
+   "i": 198,
+   "en": "\"For you, of course.\"",
+   "ctx": "soeDanceRound3"
+  },
+  {
+   "i": 199,
+   "en": "\"No, Caspian managed that all on his own.\"\r",
+   "ctx": "soeDuelIntro1a"
+  },
+  {
+   "i": 200,
+   "en": "\"Who, me?\"\r",
+   "ctx": "soeDuelIntro1a"
+  },
+  {
+   "i": 201,
+   "en": "\"Why don't we all have a drink and calm down.\"",
+   "ctx": "soeDuelIntro1a"
+  },
+  {
+   "i": 202,
+   "en": "\"Caspian has such a punchable face, it couldn't be helped.\"\r",
+   "ctx": "soeDuelIntro1b"
+  },
+  {
+   "i": 203,
+   "en": "\"I accept.\"",
+   "ctx": "soeDuelResponseAccept"
+  },
+  {
+   "i": 204,
+   "en": "\"Too scared to fight me yourself, Caspian?\"",
+   "ctx": "soeDuelResponseScared"
+  },
+  {
+   "i": 205,
+   "en": "\"Is this legal?\"",
+   "ctx": "soeDuelResponseLegal"
+  },
+  {
+   "i": 206,
+   "en": "\"I prefer space combat.\"",
+   "ctx": "soeDuelResponseSpace"
+  },
+  {
+   "i": 207,
+   "en": "\"No, thank you.\"",
+   "ctx": "soeDuelResponseNo"
+  },
+  {
+   "i": 208,
+   "en": "\"On second thought, I accept.\"\r",
+   "ctx": "soeDuelNo"
+  },
+  {
+   "i": 209,
+   "en": "\"Your crude tradition proves nothing. Good-bye.\" \r",
+   "ctx": "soeDuelNo"
+  },
+  {
+   "i": 210,
+   "en": "\"Barbarian? You're the one threatening guests with oversized cutlery.\"\r",
+   "ctx": "soeDuelNo"
+  },
+  {
+   "i": 211,
+   "en": "\"I'm ready to fight.\"",
+   "ctx": "soeDuelPrepResponseBeginDuel"
+  },
+  {
+   "i": 212,
+   "en": "\"I won't have them think me a coward.\"",
+   "ctx": "soeDuelPrepResponseCoward"
+  },
+  {
+   "i": 213,
+   "en": "\"What do you mean by people like Cardona?\"",
+   "ctx": "soeDuelPrepResponseCoward2"
+  },
+  {
+   "i": 214,
+   "en": "\"Charming traditions you have here.\"",
+   "ctx": "soeDuelPrepResponseQuaint"
+  },
+  {
+   "i": 215,
+   "en": "Just take the sword",
+   "ctx": "soeDuelPrepResponseSword"
+  },
+  {
+   "i": 216,
+   "en": "\"I have studied the blade.\" (easier fight)",
+   "ctx": "soeDuelPrepResponseStudied"
+  },
+  {
+   "i": 217,
+   "en": "Take a few practice swings (sword tutorial)",
+   "ctx": "soeDuelPrepTutorialDo"
+  },
+  {
+   "i": 218,
+   "en": "\"You're right, this is stupid. I'm leaving.\"",
+   "ctx": "soeDuelPrepResponseLeave"
+  },
+  {
+   "i": 219,
+   "en": "\"I won't hold their actions against you.\"\r",
+   "ctx": "soeDuelPrepLeave2"
+  },
+  {
+   "i": 220,
+   "en": "\"I've survived worse. It's no hull breach, for instance.\"\r",
+   "ctx": "soeDuelPrepLeave2"
+  },
+  {
+   "i": 221,
+   "en": "\"I enjoyed the dance. We should do it again.\"\r",
+   "ctx": "soeDuelPrepLeave2"
+  },
+  {
+   "i": 222,
+   "en": "\"Don't. They just showed me what you really are.\"",
+   "ctx": "soeDuelPrepLeave2"
+  },
+  {
+   "i": 223,
+   "en": "Fight",
+   "ctx": "soeDuelPrepDone"
+  },
+  {
+   "i": 224,
+   "en": "\"Fun party. See you around, maybe.\"\r",
+   "ctx": "soeFightWin5"
+  },
+  {
+   "i": 225,
+   "en": "\"And now my enemies know what's waiting for them.\"\r",
+   "ctx": "soeFightWin5"
+  },
+  {
+   "i": 226,
+   "en": "\"I hope to count you among those friends.\"\r",
+   "ctx": "soeFightWin5"
+  },
+  {
+   "i": 227,
+   "en": "\"I'm never coming to one of these balls ever again.\"\r",
+   "ctx": "soeFightWin5"
+  },
+  {
+   "i": 228,
+   "en": "\"I can't believe you convinced me to take part in that debauched bloodsport.\"\r",
+   "ctx": "soeFightWin5"
+  },
+  {
+   "i": 229,
+   "en": "\"Fun party. Glad I survived it.\"\r",
+   "ctx": "soeFightLose3"
+  },
+  {
+   "i": 230,
+   "en": "\"Now they know I won't back down. I won that much.\"\r",
+   "ctx": "soeFightLose3"
+  },
+  {
+   "i": 231,
+   "en": "Adjust the lamp's visible emission range\r",
+   "ctx": "fusionLampMainOptions"
+  },
+  {
+   "i": 232,
+   "en": "Help\r",
+   "ctx": "fusionLampMainOptions"
+  },
+  {
+   "i": 233,
+   "en": "Factory-default orange\r",
+   "ctx": "fusionLampColorOptions"
+  },
+  {
+   "i": 234,
+   "en": "Foreboding red, like Askonia\r",
+   "ctx": "fusionLampColorOptions"
+  },
+  {
+   "i": 235,
+   "en": "Actinic blue, like Isirah\r",
+   "ctx": "fusionLampColorOptions"
+  },
+  {
+   "i": 236,
+   "en": "Incandescent white, like Hybrasil\r",
+   "ctx": "fusionLampColorOptions"
+  },
+  {
+   "i": 237,
+   "en": "Comfortable yellow, like Corvus\r",
+   "ctx": "fusionLampColorOptions"
+  },
+  {
+   "i": 238,
+   "en": "Calming green, like no star in the galaxy\r",
+   "ctx": "fusionLampColorOptions"
+  },
+  {
+   "i": 239,
+   "en": "Ask about the surplus $cheapCom_commodityName",
+   "ctx": "cheapComOfferOption"
+  },
+  {
+   "i": 240,
+   "en": "Talk to the concerned $cheapCom_manOrWoman in a cheap business suit",
+   "ctx": "cheapComOfferOptionBar"
+  },
+  {
+   "i": 241,
+   "en": "Pick up the $cheapCom_commodityName\r",
+   "ctx": "cheapComPickupGreeting"
+  },
+  {
+   "i": 242,
+   "en": "Ask about the $proCom_commodityName procurement",
+   "ctx": "proComOfferOption"
+  },
+  {
+   "i": 243,
+   "en": "Talk to the $proCom_manOrWoman who looks disappointed by the commodity traders",
+   "ctx": "proComOfferOptionBar"
+  },
+  {
+   "i": 244,
+   "en": "Talk to the $proCom_manOrWoman who looks disappointed by the seedy-looking traders",
+   "ctx": "proComOfferOptionBarUnderworld"
+  },
+  {
+   "i": 245,
+   "en": "Deliver the $proCom_commodityName\r",
+   "ctx": "proComDeliverGreeting"
+  },
+  {
+   "i": 246,
+   "en": "\"This isn't personal? That's a relief.\"\r",
+   "ctx": "PROCOMPirateHail"
+  },
+  {
+   "i": 247,
+   "en": "Ask about the old freighter",
+   "ctx": "hmdfOfferOption"
+  },
+  {
+   "i": 248,
+   "en": "Talk to the hard-drinking spacer",
+   "ctx": "hmdfOfferOptionBar"
+  },
+  {
+   "i": 249,
+   "en": "Ask for detailed info on the freighter\r",
+   "ctx": "hmdfOfferTextBar"
+  },
+  {
+   "i": 250,
+   "en": "Buy the freighter for $hmdf_price credits\r",
+   "ctx": "hmdfBarLookAtFreighter"
+  }
+ ]
+}

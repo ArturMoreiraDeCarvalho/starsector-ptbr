@@ -1,0 +1,286 @@
+{
+ "chunk": 123,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"I feel that I must,\" he says. \"In one sense, his death is due to my choices, though I had no way of knowing it.\"\r\n\r\n\"It is true also that he was, by all accounts - and indeed in my judgment - an evil man. His faith twisted in upon itself. It shielded him from remorse for his... actions.\"",
+   "ctx": "data/campaign/rules.csv LKEjethroWhatSedgeKilledB [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"I cannot do that,\" he says.\r\n\r\n\"I do concede that he was, by all accounts and indeed my judgment, an evil man. His faith, it was twisted in upon itself. It shielded him from remorse for his... actions.\"",
+   "ctx": "data/campaign/rules.csv LKEjethroWhatSedgeKilledC [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"I cannot do that,\" he says.",
+   "ctx": "data/campaign/rules.csv LKEjethroWhatSedgeKilledCb [text]"
+  },
+  {
+   "i": 4,
+   "en": "He nods hesitantly, and says \"Then I will speak no further on this matter.\"",
+   "ctx": "data/campaign/rules.csv LKEjethroWhatSedgeKilled2A [text]"
+  },
+  {
+   "i": 5,
+   "en": "He gives you a skeptical look, \"That worries me all the more.\"",
+   "ctx": "data/campaign/rules.csv LKEjethroWhatSedgeKilled2B [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"Your words are a cold comfort, captain.\"",
+   "ctx": "data/campaign/rules.csv LKEjethroWhatSedgeKilled3B [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"The Reverend Archcurate,\" he says automatically.\r\n\r\n\"Sorry,\" he adds quickly. \"Habit. They really drill it into you in the Church. Archcurate Jaspis... told me I could call her Sophronia, as if I was family.\"\r\n\r\n\"She wants to change the path of the Faith, I believe. She believes I can help her do it.\"",
+   "ctx": "data/campaign/rules.csv LKEjethroWhy [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"So was Ludd,\" he says, and laughs. \r\n\r\n\"Ah,\" he catches himself, and wipes his eyes. \"Forgive me my blasphemy. I do not believe I am Ludd; I do not hear God's word in the songs of angels.\"",
+   "ctx": "data/campaign/rules.csv LKEjethroWhyOptAResp [text]"
+  },
+  {
+   "i": 9,
+   "en": "He sighs deeply. \"Was it necessary?\"",
+   "ctx": "data/campaign/rules.csv LKEjethroWhyOptBResp [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"Gilead,\" he says, staring at the graves.",
+   "ctx": "data/campaign/rules.csv LKEjethroWhyOptBRespNotImp [text]"
+  },
+  {
+   "i": 11,
+   "en": "He looks at you uneasily, but says nothing.",
+   "ctx": "data/campaign/rules.csv LKEjethroWhyOptBRespYes [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"I see,\" he looks at you uneasily.",
+   "ctx": "data/campaign/rules.csv LKEjethroWhyOptBRespNo [text]"
+  },
+  {
+   "i": 13,
+   "en": "He shrugs. \"The Reverend Archcurate does. And that was enough to bring you here, for me.\"\r\n\r\nHe glances over at you, \"I don't care to speculate about how many credits she's wasting on me.\"",
+   "ctx": "data/campaign/rules.csv LKEjethroWhyOptDResp [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"Yes,\" he says and glances at you. Expecting some news of Jaspis' health, maybe. He turns away again.\r\n\r\n\"Time comes for us all. I expect she sees that. She wants to leave behind a world... that's better, I think.\"",
+   "ctx": "data/campaign/rules.csv LKEjethroWhyOptEResp [text]"
+  },
+  {
+   "i": 15,
+   "en": "He grunts acknowledgement, looking down at the brightly painted graves.",
+   "ctx": "data/campaign/rules.csv LKEjethroWhyOptERespA [text]"
+  },
+  {
+   "i": 16,
+   "en": "He doesn't respond. Just looks down at the brightly painted graves.",
+   "ctx": "data/campaign/rules.csv LKEjethroWhyOptERespB [text]"
+  },
+  {
+   "i": 17,
+   "en": "He quickly turns to stare at you with a strange intensity. \"I-,\" he begins, and his words catch in his throat. He breathes heavily for a moment, almost unsteady on his feet.\r\n\r\n\"No,\" he says. \"I'm coming with you to Gilead. It's what I have to do.\"",
+   "ctx": "data/campaign/rules.csv LKEjethroDeadHopeless [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"No,\" he says, then \"Yes, I mean. I'm fine. Just, the answer is no. I'm coming with you to Gilead. It's what I have to do.\"",
+   "ctx": "data/campaign/rules.csv LKEjethroDeadHopelessA [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"No,\" he says. \"The answer is no. I'm coming with you to Gilead. It's what I have to do.\"",
+   "ctx": "data/campaign/rules.csv LKEjethroDeadHopelessB [text]"
+  },
+  {
+   "i": 20,
+   "en": "He quickly turns to stare at you with a strange intensity. \"I-,\" he begins, and his words catch in his throat. He breathes heavily for a moment, almost unsteady on his feet.",
+   "ctx": "data/campaign/rules.csv LKEjethroDead [text]"
+  },
+  {
+   "i": 21,
+   "en": "After a moment, he lets a breath out, and then almost - but not quite - casually wipes a sleeve across his face. His eyes are red, you see.\r\n\r\n\"Yes. Yes, I am well. Is your offer serious? You would do this thing for me?\"",
+   "ctx": "data/campaign/rules.csv LKEjethroDead1a [text]"
+  },
+  {
+   "i": 22,
+   "en": "He lets a breath out, and then almost casually wipes a sleeve across his face. His eyes are red, you see.\r\n\r\n\"Forgive me,\" he clears his throat. \"Is your offer serious? You would do this thing for me?\"",
+   "ctx": "data/campaign/rules.csv LKEjethroDead1b [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"No,\" he says with a sudden ferocity.\r\n\r\nHe catches himself, then begins again, more calmly, \r\n\"And no, forget about all of that. I'm coming with you to Gilead. I have to.\"",
+   "ctx": "data/campaign/rules.csv LKEjethroDead3a [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"Of course,\" he says quietly. \"I have a duty; I made a promise.\"",
+   "ctx": "data/campaign/rules.csv LKEjethroDead3b [text]"
+  },
+  {
+   "i": 25,
+   "en": "He looks, struck silent, at the light coming through the trees.\r\n\r\n\"Let someone else walk my path.\"\r\n\r\nHe turns to you. \"I accept. Tell Jaspis... tell her... I should write something, maybe...\"",
+   "ctx": "data/campaign/rules.csv LKEjethroDeadOut1 [text]"
+  },
+  {
+   "i": 26,
+   "en": "He sighs, covering his face with his hands. \"I can't do this. I'm sorry.\"\r\n\r\n\"I have a duty. I made a promise. It's what I have to do.\"",
+   "ctx": "data/campaign/rules.csv LKEjethroDeadOut2a [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"But...\" he falls silent.\r\n\r\nIn a long minute, he appears to accept your words.",
+   "ctx": "data/campaign/rules.csv LKEjethroDeadOut2b [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"This is it then,\" he turns and looks at you once more.",
+   "ctx": "data/campaign/rules.csv LKEjethroDeadOut3 [text]"
+  },
+  {
+   "i": 29,
+   "en": "You walk from the graves, from the dry grove, and return to your shuttle, and it returns you to your $shipOrFleet.\r\n\r\nJethro Bornanew - the man who was once called Jethro Bornanew - is a free man now. Free of his oath, free of schemes; free to live his next life, whatever it may be.",
+   "ctx": "data/campaign/rules.csv LKEjethroDeadOut3c [text]"
+  },
+  {
+   "i": 30,
+   "en": "You walk from the graves, from the dry grove. Your marine squad falls in like spirits of the desert summoned to material form.\r\n\r\nJethro Bornanew - the man who was once called Jethro Bornanew - is a free man now. Free of his oath, free of schemes; free to live his next life, whatever it may be.",
+   "ctx": "data/campaign/rules.csv LKEjethroDeadOut3cMarines [text]"
+  },
+  {
+   "i": 31,
+   "en": "Finding a body to substitute for Bornanew is not difficult. One that appears to have died a violent death, but at least a quick death?\r\n\r\nShot in the back by a Pather seems likely, but too dramatic. An accident, then; even easier. A thruster malfunction at the docks. Over in a split second, and no one really to blame except slipshod safety/control measures. One of those unhappy little events that Providence provides to bring an unexpected end to the path of life... and which burns away obvious identifying features.\r\n\r\nThe Reverend Archcurate will accept a closed-casket burial, you think.",
+   "ctx": "data/campaign/rules.csv LKEjethroDeadOut4 [text]"
+  },
+  {
+   "i": 32,
+   "en": "You and Bornanew walk from the graves, from the dry grove.\r\n\r\n\"There's nothing here I need,\" Bornanew says as you pause before the dying farmstead. \"I am prepared to leave.\"\r\n\r\nThe shuttle returns you to your $shipOrFleet.",
+   "ctx": "data/campaign/rules.csv LKEjethroLetsGoThen [text]"
+  },
+  {
+   "i": 33,
+   "en": "You walk with Bornanew from the graves, from the grove. The marine squad falls in like spirits of the desert summoned to material form.\r\n\r\n\"There's nothing here I need,\" Bornanew says as you pause before the dying farmstead. \"I am prepared to leave.\"\r\n\r\nThe shuttle returns to your $shipOrFleet.",
+   "ctx": "data/campaign/rules.csv LKEjethroLetsGoThenMarines [text]"
+  },
+  {
+   "i": 34,
+   "en": "\"And.\" Her tone is flinty; she is not unperceptive.",
+   "ctx": "data/campaign/rules.csv LKEreturnToGileadDeadJaspis2 [text]"
+  },
+  {
+   "i": 35,
+   "en": "\"I understand,\" she says. A wall of ice, betrayed only by a glint in her eyes.\r\n\r\n\"Have him sent down. I shall compel the Knights to make the correct arrangements.\"\r\n\r\nShe pauses, taking a deep breath.",
+   "ctx": "data/campaign/rules.csv LKEreturnToGileadDeadJaspis3 [text]"
+  },
+  {
+   "i": 36,
+   "en": "\"Captain. You have provided me... closure. You shall receive your compensation. May Providence guide us, may God forgive us.\"\r\n\r\nShe closes the link somewhat abruptly, sending you to a CGR standby mode which is quickly picked up by an aide who arranges the credits transfer, and a flight path for the shuttle to deliver the body.",
+   "ctx": "data/campaign/rules.csv LKEreturnToGileadDeadJaspis4 [text]"
+  },
+  {
+   "i": 37,
+   "en": "After a long, long moment she speaks.\r\n\r\n\"I understand,\" she says, a wall of ice.\r\n\r\n\"Was the notion his, or yours?\"",
+   "ctx": "data/campaign/rules.csv LKEreturnToGileadDeadJaspis5 [text]"
+  },
+  {
+   "i": 38,
+   "en": "She nods, slowly, with the weight of her years.",
+   "ctx": "data/campaign/rules.csv LKEreturnToGileadDeadJaspis5a [text]"
+  },
+  {
+   "i": 39,
+   "en": "\"Perhaps it does not,\" she says in bitter agreement.",
+   "ctx": "data/campaign/rules.csv LKEreturnToGileadDeadJaspis5c [text]"
+  },
+  {
+   "i": 40,
+   "en": "\"You have failed to fulfill the terms of our agreement.\"",
+   "ctx": "data/campaign/rules.csv LKEreturnToGileadDeadJaspis6 [text]"
+  },
+  {
+   "i": 41,
+   "en": "\"It is not,\" she says sharply. \"But it is all I have, so upon it I shall subsist.\"\r\n\r\nA long pause, and then, \"You shall receive your credits.\"",
+   "ctx": "data/campaign/rules.csv LKEreturnToGileadDeadJaspis6a [text]"
+  },
+  {
+   "i": 42,
+   "en": "She closes the link abruptly, sending you to a CGR standby mode. An instant later, a secretary activates the comms to arrange for the credits transfer in a terse transaction.",
+   "ctx": "data/campaign/rules.csv LKEreturnToGileadDeadJaspis6a2 [text]"
+  },
+  {
+   "i": 43,
+   "en": "\"What a joyous world is yours,\" Jaspis says, \"where all may be free as they like with little concern of the evil permitted reign by their dereliction of God-given necessity.\"\r\n\r\nA pause, then, \"You shall receive your credits.\"",
+   "ctx": "data/campaign/rules.csv LKEreturnToGileadDeadJaspis6b [text]"
+  },
+  {
+   "i": 44,
+   "en": "\"No. Leave him. Free will was given to us by God that we would use it, and err.\"\r\n\r\nA pause, then, \"You shall receive the credits.\"",
+   "ctx": "data/campaign/rules.csv LKEreturnToGileadDeadJaspis6c [text]"
+  },
+  {
+   "i": 45,
+   "en": "She gives you a surprisingly fierce look through old, blind eyes.\r\n\r\n\"No. Leave the matter closed. We shall not speak again.\"\r\n\r\nShe closes the link.",
+   "ctx": "data/campaign/rules.csv LKEreturnToGileadDeadJaspis6d [text]"
+  },
+  {
+   "i": 46,
+   "en": "\"Heavens rejoice!\" A ray of unselfconscious joy breaks through the Archcurate's well-tended walls.\r\n\r\n\"You must bring him here, I must see him,\" she pauses, then laughs at herself. \"You know what I mean. Come now, I shall have the Knights forgo their accustomed rigidity.\"",
+   "ctx": "data/campaign/rules.csv LKEreturnToGileadJaspis2 [text]"
+  },
+  {
+   "i": 47,
+   "en": "She cuts her end of the comm-link with unusual speed, leaving you with a static holding image provided by the Church: a human silhouette descending to Gilead on a beam of light.\r\n\r\nAn implausible image at best.",
+   "ctx": "data/campaign/rules.csv LKEreturnToGileadJaspis3 [text]"
+  },
+  {
+   "i": 48,
+   "en": "Your shuttle is given an unusually expedient flight path to the complex housing Jaspis' office.\r\n\r\nBornanew watches the green world of Gilead grow below you.",
+   "ctx": "data/campaign/rules.csv LKEendingStart [text]"
+  },
+  {
+   "i": 49,
+   "en": "He smiles, acknowledging the absurdity of your statement.\r\n\r\n\"Mazalot wasn't all bad. There was a sort of freedom there that can't be found on Gilead, though much danger as well.\"\r\n\r\nHe turns back to the view, \"I did miss the green.\" ",
+   "ctx": "data/campaign/rules.csv LKEendingStartA [text]"
+  },
+  {
+   "i": 50,
+   "en": "He smiles politely.\r\n\r\n\"Apprehensive, I confess. I believe I shall be punished by the Knights, though the Reverend Archurate may try to shield me. I shall ask her not to. An oath is an oath.\"\r\n\r\n\"I suspect there will be much silent contemplation and scrubbing of floors.\" He looks thoughtful, \"They do like that sort of thing. I don't mind it.\"\r\n\r\nHe turns back to the face of Gilead.",
+   "ctx": "data/campaign/rules.csv LKEendingStartB [text]"
+  },
+  {
+   "i": 51,
+   "en": "You are met on the landing pad by a solemn Luddic Knight and attending Knight Initiate. The Knight's frown deepens noticeably as they take in Bornanew. \r\n\r\nKnight Ailanthus leads you to Archcurate Jaspis' office in otherwise judgmental silence. Bornanew takes this treatment in stride, enjoying the gardens and fresh air.",
+   "ctx": "data/campaign/rules.csv LKEendingJaspisStart [text]"
+  },
+  {
+   "i": 52,
+   "en": "As you enter Jaspis' office, Knight Ailanthus inhales to announce you - and the Archcurate interrupts. \r\n\r\n\"Jethro, here you are!\" she says, \"Providence provides!\" Knight Ailanthus lets out a cough, and Jaspis responds by waving them away.\r\n\r\n\"As well, I must attest, by way of the efforts of the good captain whose footsteps I hear also,\" she says, smiling, \"For lest we forget, the Path of the righteous will not walk upon itself, is that not so?\"",
+   "ctx": "data/campaign/rules.csv LKEendingJaspis1 [text]"
+  },
+  {
+   "i": 53,
+   "en": "Bornanew takes Jaspis' small, frail hand in his own.\r\n\r\n\"Yes, of course. Please, Mother Sophronia, you must not get too excited. It is just me, and I have caused you much distress.\"\r\n\r\n\"Yes and truly, \" she says, shaking Bornanew off. \"And for it you've already decided to undergo some senseless display of penance, I doubt not. An unseemly habit learnt from the Knights.\"\r\n\r\n\"Captain,\" she turns toward you. \"You must grow tired of this, so I shall be succinct: you have my deepest gratitude. My secretary shall see that you receive your payment.\"\r\n\r\nShe aims herself at the doorway, \"Degory, attend!\"",
+   "ctx": "data/campaign/rules.csv LKEendingJaspis2 [text]"
+  },
+  {
+   "i": 54,
+   "en": "As you leave with Degory, you hear Jaspis address Bornanew.\r\n\r\n\"The balance of power is changed; both I and the Faith's future have need of you. But...\"\r\n\r\n\"Why 'Jeff'?\" she asks.\r\n\r\nYou don't hear his reply.",
+   "ctx": "data/campaign/rules.csv LKEendingWrapup1a [text]"
+  },
+  {
+   "i": 55,
+   "en": "Bornanew puts his hands together and nods his head.\r\n\r\nBlind to his response, Jaspis begins to address him, \"The balance of power is changed; both I and the Faith's future have need of you...\"",
+   "ctx": "data/campaign/rules.csv LKEendingWrapup1b [text]"
+  },
+  {
+   "i": 56,
+   "en": "The soft-spoken secretary, Degory, produces an incongruous datapad from her robes and conducts the transfer of the Archcurate's payment to your accounts. She then summons the grim-faced Knight Ailanthus to escort you to your waiting shuttle. \r\n\r\nYour return to orbit is uneventful.",
+   "ctx": "data/campaign/rules.csv LKEendingWrapup2 [text]"
+  }
+ ]
+}

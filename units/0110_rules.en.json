@@ -1,0 +1,166 @@
+{
+ "chunk": 110,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "The $faction $rank shakes $hisOrHer head. \"Appreciate the patriotic gesture, citizen, but we'll handle this. Got to be delicate,\" $heOrShe says with annoyance, \"It's very... political.\"",
+   "ctx": "data/campaign/rules.csv lppJangalaProtestMarinesHelp [text]"
+  },
+  {
+   "i": 2,
+   "en": "Suddenly the $rank does a double-take. \"$playerName? That's you, isn't it? Commissioned Auxiliary, right? Had an alert come through when you entered orbit.\"",
+   "ctx": "data/campaign/rules.csv lppJangalaProtestMarinesHelpHegDT [text]"
+  },
+  {
+   "i": 3,
+   "en": "$HeOrShe seems to think it over for a second, then glances at a small datapad. \r\n\r\n\"Tell you what; get your marines here in three minutes and subsume to my command, here's the comm-code. I want min-force, zero fire and flash; weapons locked to my authorization.\"",
+   "ctx": "data/campaign/rules.csv lppJangalaProtestMarinesHelpHeg [text]"
+  },
+  {
+   "i": 4,
+   "en": "You coordinate a joint response, a squad of your marines able to quickly deploy on the dock-side and coordinate with the Hegemony gendarmerie on the opposite end of the protest. A steady advance breaks the protest line apart with minimal use of force - the Luddics' fists, hammers, and signs useless against power-armored troops.\r\n\r\n$Rank $personName is busy coordinating arrests in the aftermath but manages to catch your eye and give a quick half-salute as you leave toward the commercial promenade.",
+   "ctx": "data/campaign/rules.csv lppJangalaProtestMarinesHelpHeg2l [text]"
+  },
+  {
+   "i": 5,
+   "en": "The $rank nods, distractedly. \"As you will, captain.\"",
+   "ctx": "data/campaign/rules.csv lppJangalaProtestMarinesHelpHegNo [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"Not here,\" $heOrShe says, eyes not leaving the protestors. \"On the surface. For appreciating the local plant-life. Don't understand why, you wouldn't believe how toxic the stuff is. Detox after exposure is like a week of hangover compressed down into a day or two.\"\r\n\r\n$HeOrShe shakes $hisOrHer head. \"At least that's what it felt like for me. Guess they like suffering. Luddics for you. Top brass says we gotta humor 'em. Politics, right?\"\r\n\r\nA burst of coded garble comes through the comms, and the $post gives a short response. \"Gendarmerie will be here soon if you want to stay for the show,\" $heOrShe says.",
+   "ctx": "data/campaign/rules.csv lppJangalaProtestInfo [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Look, sorry about all of this,\" $heOrShe indicates the protest. \"Tell you what- I can route you and your crew through secure access so you don't have to wait on the circus.\"",
+   "ctx": "data/campaign/rules.csv lppJangalaProtestInfoHegCom [text]"
+  },
+  {
+   "i": 8,
+   "en": "The $rank nods, and returns to the comms with more professional focus now; the gendarmerie can't be far off. ",
+   "ctx": "data/campaign/rules.csv lppJangalaProtestInfoHegComWait [text]"
+  },
+  {
+   "i": 9,
+   "en": "The $rank waves a cadet over, giving them instructions to lead you, your guards, and a few of your crew given shore leave - who are looking increasingly impatient - through an alternate route to the commercial promenade.",
+   "ctx": "data/campaign/rules.csv lppJangalaProtestInfoHegCom2 [text]"
+  },
+  {
+   "i": 10,
+   "en": "You calmly approach the Luddic protestors, asking to speak to an organizer. They are reluctant to identify a leader who would make an obvious target for MuniSec guards, but soon enough you are recognized by one of the better-dressed Luddics. It appears that your reputation precedes you.\r\n\r\nThey enthusiastically vouch for you, \"a true friend of the Church\", and manage to persuade the protestors to clear a path for you and your landing party.\r\n\r\nAs you step into the commercial promenade, past merchants and spacers annoyed at your special treatment, you begin to hear amplified orders to disperse from the Hegemony gendarmerie.",
+   "ctx": "data/campaign/rules.csv lppJangalaProtestChurch1 [text]"
+  },
+  {
+   "i": 11,
+   "en": "You step forward, proclaiming that you wish to join the protest. At first the Luddics are disbelieving, but as you turn to face the bewildered MuniSec guards and take up the Luddic chant-prayer, a small cheer erupts.\r\n\r\nYou see $PersonRank $personLastName shake $hisOrHer head in disbelief.",
+   "ctx": "data/campaign/rules.csv lppJangalaProtestJoin [text]"
+  },
+  {
+   "i": 12,
+   "en": "Later, you compare bruises and cuts with your fellow protestors. Your bodyguards, reacting admirably to the unusual situation, managed to shield you from the worst of the gendarmes' beatings, pacification gas, and restraint foam. But you took your hits and have proven yourself to these Luddic pilgrims. You take the opportunity to explain that-",
+   "ctx": "data/campaign/rules.csv lppJangalaProtestJoin2 [text]"
+  },
+  {
+   "i": 13,
+   "en": "The pilgrims welcome you as a respectable outsider, pledging hospitality if you visit their homesteads and congregations.\r\n\r\nThey tell you of the shrine of Jangala, and of being exposed to the toxic xenolife - far more painful, they claim, than anything MuniSec could do to them.\r\n\r\nYour name is called from the commsplate.",
+   "ctx": "data/campaign/rules.csv lppJangalaProtestJoinSupport [text]"
+  },
+  {
+   "i": 14,
+   "en": "The pilgrims welcome you as one of their own, pledging their hospitality if you visit their homesteads, and promising a seat for you at the front of their congregation's service to welcome returning pilgrims.\r\n\r\nThey tell you of the shrine of Jangala, and of being exposed to the toxic xenolife - far more painful, they claim, than anything MuniSec can do to them.\r\n\r\nYour name is called from the commsplate.",
+   "ctx": "data/campaign/rules.csv lppJangalaProtestJoinFaith [text]"
+  },
+  {
+   "i": 15,
+   "en": "Most of the protestors are alarmed by your rhetoric, glancing nervously toward unseen observation devices and drawing away from your corner of the holding cell. Though a couple younger pilgrims and one much older, with scars to show his commitment, remain near you, eyes daring the others to speak their criticism aloud.\r\n\r\n\"We hear you, $playerBrotherOrSister. The end of the Path is near,\" he whispers, and tells you of the Jangala Shrine, of mortification of the flesh through exposure to the xenolife - worse than anything MuniSec could hope to inflict.\r\n\r\nYour name is called from the commsplate.",
+   "ctx": "data/campaign/rules.csv lppJangalaProtestJoinPather [text]"
+  },
+  {
+   "i": 16,
+   "en": "The Luddic protestors are confused and even a little alarmed by your explanation - it seems they've been locked in with a crazy person. They physically draw away from your corner of the holding cell until your name is called through the commsplate.",
+   "ctx": "data/campaign/rules.csv lppJangalaProtestJoinWeird [text]"
+  },
+  {
+   "i": 17,
+   "en": "It's $rank $personName again, $hisOrHer demeanor cold and martial.\r\n\r\n\"The rules are simple, captain,\" $heOrShe says, ice-cold, \"And we've been very, very lenient with you. But there seems to be a failure to communicate, so let me explain in very small words how it works around here.\"\r\n\r\nA guard sets a plastic tray of your personal belongings on the battered table of the processing room. The Hegemony $rank continues, slowly; each word given emphasis. \"Pay your tariffs. Don't disrupt business.\"\r\n\r\n$HeOrShe turns and motions at some guards, \"Now get out of my sight.\"",
+   "ctx": "data/campaign/rules.csv lppJangalaProtestWrapup2 [text]"
+  },
+  {
+   "i": 18,
+   "en": "You are shoved, squinting, into the bright light of the plaza outside of the municipal security processing center. \r\n\r\nDignity largely unbruised, you secure your sidearm (cellmag confiscated), run a quick check on your personal datapad, and give a nod to your second officer - who has been waiting patiently with two hot drinks.",
+   "ctx": "data/campaign/rules.csv lppJangalaProtestWrapup3 [text]"
+  },
+  {
+   "i": 19,
+   "en": "You order a small squad of your own marines, armaments and munitions removed due to port regulations, on a fast shuttle from your $shipOrFleet.\r\n\r\nThe marines, in full power armor, form a vanguard before you and simply march into the protesting Luddics.",
+   "ctx": "data/campaign/rules.csv lppJangalaProtestMarines [text]"
+  },
+  {
+   "i": 20,
+   "en": "The protestors' line is easily broken by your armored marines, as are not a few limbs. The MuniSec guards manage to exploit the situation and corral the protesters - now crying, screaming, and shouting abuse at you in particular - into ineffective huddles.\r\n\r\nThe Hegemony officer overseeing the official response looks not simply annoyed, but livid.",
+   "ctx": "data/campaign/rules.csv lppJangalaProtestMarines2 [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"I should have you arrested!\" $heOrShe shouts, then, ignoring your armored marines - who dare not touch a Hegemony officer on their own station - gets close to your face, \"Your little stunt just gave them a propaganda holo that'll recruit hundreds of Pather terrorists,\" $heOrShe seethes. \r\n\r\n\"Get your goons out of my sight before I call in the real marines.\"",
+   "ctx": "data/campaign/rules.csv lppJangalaProtestMarines3 [text]"
+  },
+  {
+   "i": 22,
+   "en": "As you step onto the commercial promenade you see both crew and locals pointing and staring. Some hold datapad, recording holos...",
+   "ctx": "data/campaign/rules.csv lppJangalaProtestMarines4 [text]"
+  },
+  {
+   "i": 23,
+   "en": "Your shuttle descends toward verdant continents crowned by lethargically churning storm systems. The orbital burn lasers flicker from the spark of Jangala station, invisible until they cut lines of plasma through the atmosphere.\r\n\r\nYou pass through blinding cloud cover, the light taking on a sickly hue of green. Your viewport is streaked with marching droplets of spore-laden water as the shuttle slows to drop softly onto the landing pad nearly lost in the overgrowth of Jangalan foliage.",
+   "ctx": "data/campaign/rules.csv lppJangalaVisitAgain [text]"
+  },
+  {
+   "i": 24,
+   "en": "The verdant continents of Jangala sprawl beneath you, crowned by huge weather systems churning lethargic and magisterial. \r\n\r\nSearing lines of orbital burn lasers flick out from Jangala station, invisible until they cut slashes of plasma through the thick atmosphere. Burn-glow competes with rampaging electrical storms to illuminate the mountainous cloud formations from below.",
+   "ctx": "data/campaign/rules.csv lppJangalaFirstVisit1 [text]"
+  },
+  {
+   "i": 25,
+   "en": "The hum of your shuttle changes pitch as it hits the edge of true atmosphere, passing quickly into cloud cover. Beyond the viewpanes human-eye visibility is reduced to nearly zero. As the shuttle fires retros for landing, dipping well below the speed of sound by the demand of both nav regs and good manners, your viewport begins to collect marching droplets of moisture.  \r\n\r\nThe droplets have an odd ochre coloration, and the clouds above a sickly green tinge. You've heard of this effect; fine-grained spore-analogs in the atmosphere.",
+   "ctx": "data/campaign/rules.csv lppJangalaFirstVisit2 [text]"
+  },
+  {
+   "i": 26,
+   "en": "A quick datapad search reveals that, statistically, human activity within the Jangalan biosphere is relatively safe so long as proper air filtration and decontamination procedures are followed. Detox meds for accidental exposures are readily available, though may have unpleasant side effects.\r\n\r\nThere are reports of individuals whose poor luck and lack of contingency planning combined with vehicle malfunction during truly abysmal weather has resulted in cases of long term exposure to Jangala's biosphere for days, weeks, and in one case more than a standard month. The resulting growths and infections appear to result in a singularly tortuous manner of death.",
+   "ctx": "data/campaign/rules.csv lppJangalaFirstVisit2b [text]"
+  },
+  {
+   "i": 27,
+   "en": "-At least, judging by the holos available on the public infonet, which are indeed gruesome.\r\n\r\nA cynical part of you wonders if the authorities allow distribution of these graphic accounts to promote protocol compliance.",
+   "ctx": "data/campaign/rules.csv lppJangalaFirstVisit2c [text]"
+  },
+  {
+   "i": 28,
+   "en": "Your shuttle descends to the landing pad, the Jangalan foliage encroaching through its own ashes to reclaim the space.\r\n\r\nYou pop a standard dose of antixenols and re-examine the quality of your breathing mask as the access tunnel takes a moment to perform a self-cleaning cycle on exposed surfaces. The air feels no different, yet.\r\n\r\nMaybe a little warmer, a little heavier with moisture.",
+   "ctx": "data/campaign/rules.csv lppJangalaFirstVisit3 [text]"
+  },
+  {
+   "i": 29,
+   "en": "The reception lounge is filled with parties of Luddic pilgrims in traditional handweave led by subcurates in ritual hand-washing. A glance upward reveals the true cleansing: a battery of air-purification units caught in a tangle of murmuring ducts.\r\n\r\nFoliage presses itself almost sensually against the outer viewports, letting in only dim light. The plant life seems to twitch, liquids oozing over the panes from cracks in bladders and tubules, leaving rivulets cutting across flaking encrustations. Between the zeal of the foliage and hand-crafted charm of Luddic engineering, the place feels distinctly worrisome compared to the environmental containment you are accustomed to.",
+   "ctx": "data/campaign/rules.csv lppJangalaShrineDesc1 [text]"
+  },
+  {
+   "i": 30,
+   "en": "One of the shrine's attendants instantly recognizes that you're not one of the usual pilgrims and intercepts you, making remarkable speed despite wearing awkward-looking novice's robes.\r\n\r\nThe attendant smiles piously, hands held together. \"How might we assist you?\"",
+   "ctx": "data/campaign/rules.csv lppJangalaShrineDesc2Revisit [text]"
+  },
+  {
+   "i": 31,
+   "en": "One of the shrine's attendants scurries to meet you.\r\n\r\n\"The complex is kept overpressurized,\" they say, following your gaze, \"so if there were a breach, there would be plenty of time to find and seal the leak.\"\r\n\r\nThe attendant creates what must be intended to be a reassuring smile. \"How might we assist you?\"",
+   "ctx": "data/campaign/rules.csv lppJangalaShrineDesc2 [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"Bringing oneself before the sacred is not a matter of convenience,\" the attendant says serenely. \"That we must travail so to worship here confers upon the act an extraordinary sense of self-reflection, I believe.\"",
+   "ctx": "data/campaign/rules.csv lppJangalaShrineDifficult [text]"
+  }
+ ]
+}

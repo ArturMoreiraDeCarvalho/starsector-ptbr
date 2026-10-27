@@ -1,0 +1,126 @@
+{
+ "chunk": 257,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"I have not yet learned of a war won on conscience, captain. You must find that we have little time for that on the Far Fringe.\"\r\n\r\n\"Regardless,\" Skiron says, sweeping a hand as if to clear away such talk, \"It is done. Weapons are tools, and by extension, so are those that wield them. The Persean Hegemony has taken both conscript and volunteer. Would any military seeking victory turn from a useful tool?\" She leaves the question hanging and potent.\r\n\r\n\"It is Command that shall judge us - and our ancestors - for what we have accomplished and for what we have failed.\"\r\n\r\nShe looks to one of the huge XIV Battlegroup crests etched into a scarred hullplate. \"I believe we each know where we stand. I thank you for coming here.\"",
+   "ctx": "data/campaign/rules.csv PKSentinelConfrontAIRespF2 [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"There are still Luddics among us who agree with you,\" she says. \"And they understand full well that toleration is a contingent state of affairs. Has that been forgotten in the Core?\"\r\n\r\n\"Regardless,\" Skiron says, sweeping a hand as if to clear away such talk, \"It is done. Weapons are tools, and by extension, so are those that wield them. The Persean Hegemony has taken both conscript and volunteer. Would any who truly seek victory turn from a useful tool?\" She leaves the question hanging.\r\n\r\n\"It is Command that shall judge us - and our ancestors - for what we have accomplished and for what we have failed.\"\r\n\r\nShe looks to one of the huge XIV Battlegroup crests etched into a scarred hullplate. \"I believe we each know where we stand. I thank you for coming here.",
+   "ctx": "data/campaign/rules.csv PKSentinelConfrontAIRespG2 [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"Then you agree with the decision my ancestors made.\" Skiron seems no more pleased at this revelation than anything you've said.\r\n\r\n\"And that decision was not made without dissent,\" she adds. \"Even mutiny.\" Her eyes go hard and cold as the barren landscape of Sentinel. \r\n\r\n\"War sows a deadly crop,\" Skiron says after a time, turning her gaze to a crest of the XIV Battlegroup etched into a battered hull-plate. \"And bears bitter fruit to those who survive.\"\r\n\r\n\"I believe we each know where we stand. I thank you for coming here.\"",
+   "ctx": "data/campaign/rules.csv PKSentinelConfrontAIRespH2 [text]"
+  },
+  {
+   "i": 4,
+   "en": "Skiron gives you another of her blank looks; wrestling with the demands of Protocols. After a moment's consideration, compassion eases her expression.\r\n\r\n\"Protocol forbids me to reveal intel,\" Skiron says, \"But it is known fact that our ancestors came here to fight Tri-Tachyon's AI warfleets. They are not... limited, as we are, by the human lifespan.\"\r\n\r\nHer gaze goes upward for a moment, toward the fearful skies.",
+   "ctx": "data/campaign/rules.csv PKSentinelAskDangerVague [text]"
+  },
+  {
+   "i": 5,
+   "en": "One of her lieutenants uses the lull to speaks up, \"A cycle ago, the lights in the sky-\"\r\n\r\n\"We don't know what those were!\" Skiron shouts to silence the lieutenant, and rewards them with a look that promises disciplinary action. \r\n\r\nShe turns back to you, composed. \"There may be someone, or something, still out there and operational. Our sensors are not sophisticated,\" she taps next to her eye.\r\n\r\n\"That is all we can say.\"",
+   "ctx": "data/campaign/rules.csv PKSentinelAskDangerVague2 [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"Yes... yes, we saw lights in the sky about a cycle ago.\" Skiron says.\r\n\r\n\"We don't have advanced instrumentation, so we could not identify the opposed forces. We're pretty sure from the visible drive spectra - and weapons-blink - that it wasn't a Tri-Tachyon warfleet.\"",
+   "ctx": "data/campaign/rules.csv PKSentinelAskDangerSpecific [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Um,\" she looks cowed. \"So we believe. None of the elder-crew still live. But they told stories of such conflicts as seen from distant worlds, and... we have training manuals. And holos, though most have broken down by now.\"\r\n\r\n\"But we have trained in accordance with The Protocols!\" she says, rallying. \"Our data is limited, it is true, but we have recorded all observations and movements in great detail.\" (\"The Protocols are Truth,\" they say behind her.) \r\n\r\n\"Our interpretation suggests a mix of low to mid-tech warships were engaged in combat, with occasional flashes of higher-energy spectra.\" She looks proud, but nervous, as she delivers these details.\r\n\r\n\"Whoever - whatever - it was, they did not contact us.\"",
+   "ctx": "data/campaign/rules.csv PKSentinelAskDangerSpecific2 [text]"
+  },
+  {
+   "i": 8,
+   "en": "Commander Skiron smiles, \"That would be much appreciated, Captain $playerName. With their help, we can solve many problems, and maintain an outpost worthy of Command. The Protocols will guide us until Command establishes contact.\"\r\n\r\n(\"The Protocols will guide us,\" they repeat behind her.)\r\n\r\nYou give orders to your senior officers to make it so. Some trained crew and communication equipment will fill in the most glaring gaps in the colony's infrastructure, bringing it up to a level considered at least marginally civilized by the standards of the Persean Sector.",
+   "ctx": "data/campaign/rules.csv PKSentinelCrewSel [text]"
+  },
+  {
+   "i": 9,
+   "en": "As you walk back through the settlement, under the subtle stares of Skiron's workcrews, you note how easily a few technicians with light equipment could upgrade the comms and infrastructure to the bare minimum of space-faring civilization.",
+   "ctx": "data/campaign/rules.csv PKSentinelOutSequenceInterrupt [text]"
+  },
+  {
+   "i": 10,
+   "en": "Commander Skiron halts, and looks around with a half-smile, \"That would be much appreciated, Captain $playerName. With their help, we can maintain an outpost worthy of Command. The Protocols will guide us until Command establishes contact.\"\r\n\r\n(\"The Protocols will guide us,\" they repeat softly behind her.)\r\n\r\nYou issue orders through comms to your senior officers to make it so.",
+   "ctx": "data/campaign/rules.csv PKSentinelCrewSelAlt [text]"
+  },
+  {
+   "i": 11,
+   "en": "You are escorted to the rim of the rocky plateau where your shuttle awaits. Skiron reminds you again to return to Hegemony space and tell 'Command' about Sentinel.\r\n\r\nAbout to step aboard, you notice a stark white fragment of bone in a gravelly rill. You pause in your step; it must be a fibula, or tibia. Maybe. You suspect that the Protocols would demand orderly containment of the honored dead.\r\n\r\nSo, this?\r\n\r\nWhatever it was, it was done many cycles ago.",
+   "ctx": "data/campaign/rules.csv PKSentinelOutSequence [text]"
+  },
+  {
+   "i": 12,
+   "en": "You are escorted to the rim of the rocky plateau where your shuttle awaits. Skiron reminds you again to return to Hegemony space and tell 'Command' about Sentinel.\r\n\r\nThe fragment of bone you saw in cold gravel the first time you left this world is missing. Or perhaps this is just a similar-looking ditch on a monotonously bleak world.",
+   "ctx": "data/campaign/rules.csv PKSentinelOutSequenceAgain [text]"
+  },
+  {
+   "i": 13,
+   "en": "The bitterly cold surface of $fullName rolls beneath you, the poles locked in endless winter. Only lucky arrangements of weather produce marginal habitability in small regions.\r\n\r\nThe settlement of XIV Battlegroup castaways emits a weak radio signal just-detectable in the midst of such a conjunction.",
+   "ctx": "data/campaign/rules.csv PKSentinelInteractionAgain [text]"
+  },
+  {
+   "i": 14,
+   "en": "You land at a polite distance, on a rocky plateau, and are again met by an armed party led by Commander Alo Skiron. She says a formal greeting and invites you to take refreshment and speak in the central meeting hall of the colony.",
+   "ctx": "data/campaign/rules.csv pkSentinelVisitAgain1 [text]"
+  },
+  {
+   "i": 15,
+   "en": "It is warm inside, and bedecked with uniforms, weapons, and insignia like a reverent shrine to the XIV Battlegroup-era Hegemony.\r\n\r\nYou pretend to sip a wretched yeast-derived brew.",
+   "ctx": "data/campaign/rules.csv pkSentinelVisitAgain2 [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"Have you brought word of our survival to Command?\" Skiron asks, trying very hard not to convey her impatience. \"It is essential that we report our intel, and receive orders.\"\r\n\r\n(\"Duty is Survival; Command is Salvation,\" her attendants murmur behind her.)",
+   "ctx": "data/campaign/rules.csv pkSentinelVisitAgain3 [text]"
+  },
+  {
+   "i": 17,
+   "en": "The $post nods along with surprise and concern as you tell $himOrHer about the lost crew forming a colony on Sentinel and surviving for over 100 cycles while maintaining 'Protocol'.\r\n\r\n\"You did the right thing,\" $heOrShe says when you tell of how you left crew to assist the thin-stretched colonists. \"I'll bring this to the Strategic Assembly immediately. I expect we'll dispatch relief and reinforcements.\" $HeOrShe quirks a comradely grin, \"Got more Tachy tricks to root out on the Fringe, eh? It'll be good hunting for the fleets. Wish I could go myself.\"\r\n\r\n\"Right,\" $heOrShe says, \"I must make my report. Excellent work, citizen.\"",
+   "ctx": "data/campaign/rules.csv PKTellAboutSentinelSelLetfCrew [text]"
+  },
+  {
+   "i": 18,
+   "en": "The $post nods along with surprise and concern as you tell $himOrHer about the lost crew forming a colony on Sentinel and surviving for over 100 cycles while maintaining 'Protocol'.\r\n\r\n\"I must bring this matter to the Strategic Assembly immediately. I expect we'll dispatch relief and reinforcements.\"\r\n\r\n\"Right,\" $heOrShe says, \"I must make my report. Good work, citizen.\"",
+   "ctx": "data/campaign/rules.csv PKTellAboutSentinelSel [text]"
+  },
+  {
+   "i": 19,
+   "en": "The $post nods along with surprise and concern as you tell $himOrHer about the lost crew forming a colony on Sentinel and surviving for over 100 cycles while maintaining 'Protocol'.\r\n\r\n\"You did the right thing,\" $heOrShe says when you tell of how you left crew to assist the thin-stretched colonists, and brought certain medically infirm for treatment in the Core Worlds. \r\n\r\n\"Have them off-loaded; my adjutant will make the arrangements. I'll bring this to the Strategic Assembly immediately. I expect we'll dispatch relief and reinforcements.\" $HeOrShe quirks a comradely grin, \"Got more Tachy tricks to root out on the Fringe, eh? It'll be good hunting for the fleets. Wish I could go myself.\"\r\n\r\n\"Right,\" $heOrShe says, \"I must make my report. Excellent work, citizen.\"",
+   "ctx": "data/campaign/rules.csv PKTellAboutSentinelSelLetfCrew2 [text]"
+  },
+  {
+   "i": 20,
+   "en": "The $post nods along with surprise and concern as you tell $himOrHer about the lost crew forming a colony on Sentinel and surviving for over 100 cycles while maintaining 'Protocol'.\r\n\r\n\"You did the right thing,\" $heOrShe says when you tell of how you have transported select medical cases from the thin-stretched colonists.\r\n\r\n\"Have them off-loaded; my adjutant will make the arrangements. I must bring this matter to the Strategic Assembly immediately. I expect we'll dispatch relief and reinforcements as soon as possible.\"\r\n\r\n\"Right,\" $heOrShe says, \"I must make my report. Good work, citizen.\"",
+   "ctx": "data/campaign/rules.csv PKTellAboutSentinelSel2 [text]"
+  },
+  {
+   "i": 21,
+   "en": "$HeOrShe goes still. \"I see,\" $heOrShe says. \"That is a troubling allegation. Though if what you say is true, it was done over a hundred cycles ago.\"\r\n\r\nThe $rank sighs. \"I shall include it in my report. Rest assured that we shall get to the bottom of this matter, citizen. In the meantime, I advise that you keep speculation about what you think you saw to yourself.\"\r\n\r\nA pause, then, \"We would not want to get COMSEC involved, I am sure. Imagine the bureaucracy,\" $heOrShe tries to lighten the threat with an unconvincing smile as $heOrShe reaches for the comms cut-off. \"I must go.\"",
+   "ctx": "data/campaign/rules.csv PKTellAboutSentinelAIFleet [text]"
+  },
+  {
+   "i": 22,
+   "en": "$HeOrShe goes still. \"I see,\" $heOrShe says. \"That is a troubling allegation. Though if what you say is true, it was done over a hundred cycles ago.\"\r\n\r\nThe $rank sighs. \"I shall include it in my report. Rest assured that we shall get to the bottom of this matter, auxiliary. In the meantime, as per the conditions of your condition, I suggest that you keep speculation about what you think you saw to yourself.\"\r\n\r\nA pause, then, \"We would not want to get COMSEC involved, am I right? Imagine the bureaucracy,\" $heOrShe tries to lighten the threat with an unconvincing smile as $heOrShe reaches for the comms cut-off. \"I must go.\"",
+   "ctx": "data/campaign/rules.csv PKTellAboutSentinelAIFleetHegCom [text]"
+  },
+  {
+   "i": 23,
+   "en": "$HeOrShe fixes you with desperate eyes. \"Please, $playerSirOrMadam, show mercy. I carry simple pilgrims who have nothing of value.\"",
+   "ctx": "data/campaign/rules.csv shrineFleetConvOptionSelAtrocities [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"I am but the captain, though I have made the pilgrimage myself several times,\" $heOrShe says.\r\n\r\n\"The pilgrims I shepherd seek spiritual contemplation of galactic redemption at a holy shrine built according to the teaching of Ludd.\"\r\n\r\n$HeOrShe pauses, then with a charitable look says \"All are welcome on this pilgrimage.\"",
+   "ctx": "data/campaign/rules.csv shrineFleetConvOptionSelNeutral [text]"
+  }
+ ]
+}

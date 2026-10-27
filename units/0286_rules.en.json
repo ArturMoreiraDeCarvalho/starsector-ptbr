@@ -1,0 +1,1186 @@
+{
+ "chunk": 286,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"I have a planetkiller weapon to give into the custody of the Knights of Ludd.\"",
+   "ctx": "pkHandInHesperusMetOak"
+  },
+  {
+   "i": 2,
+   "en": "Open a coded comms channel to discuss the planetkiller weapon with the Knights of Ludd",
+   "ctx": "pkHandInHesperus"
+  },
+  {
+   "i": 3,
+   "en": "Take over the comms and emphasize the importance of your mission",
+   "ctx": "pkHandInHesperus2"
+  },
+  {
+   "i": 4,
+   "en": "Wait to speak with whoever 'he' is",
+   "ctx": "pkHandInHesperus3"
+  },
+  {
+   "i": 5,
+   "en": "\"I have a planetkiller weapon to give into the custody of the Knights of Ludd.\"\r",
+   "ctx": "pkHandInHesperus4"
+  },
+  {
+   "i": 6,
+   "en": "\"I understand. I will transfer the planetkiller now.\"\r",
+   "ctx": "pkHandInHesperus5"
+  },
+  {
+   "i": 7,
+   "en": "Hail the signal on comms",
+   "ctx": "PKSentinelInteractionA"
+  },
+  {
+   "i": 8,
+   "en": "Take a shuttle down to investigate\r",
+   "ctx": "PKSentinelInteractionB"
+  },
+  {
+   "i": 9,
+   "en": "DEV set found PK\r",
+   "ctx": "PKSentinelInteractionDEV"
+  },
+  {
+   "i": 10,
+   "en": "DEV set encountered XIV fleet\r",
+   "ctx": "PKSentinelInteractionDEV"
+  },
+  {
+   "i": 11,
+   "en": "DEV set defeated XIV fleet\r",
+   "ctx": "PKSentinelInteractionDEV"
+  },
+  {
+   "i": 12,
+   "en": "DEV set found Gantries\r",
+   "ctx": "PKSentinelInteractionDEV"
+  },
+  {
+   "i": 13,
+   "en": "DEV test nexus hack dialog",
+   "ctx": "PKSentinelInteractionDEV"
+  },
+  {
+   "i": 14,
+   "en": "Approach the settlement",
+   "ctx": "pkSentinelSel"
+  },
+  {
+   "i": 15,
+   "en": "\"The First AI War or the Second?\"",
+   "ctx": "pkSentinel0"
+  },
+  {
+   "i": 16,
+   "en": "\"Mm, it's good.\"",
+   "ctx": "pkSentinel2"
+  },
+  {
+   "i": 17,
+   "en": "Show them your Hegemony commission credentials",
+   "ctx": "PKSentinelHubShowHegCommission"
+  },
+  {
+   "i": 18,
+   "en": "Catch her up on the current history of the Sector",
+   "ctx": "PKSentinelHubShowDataPads"
+  },
+  {
+   "i": 19,
+   "en": "\"I would like to ask you some questions.\"",
+   "ctx": "PKSentinelHubQuestionsIn"
+  },
+  {
+   "i": 20,
+   "en": "Confront Skiron with something you know",
+   "ctx": "PKSentinelHubConfrontIn"
+  },
+  {
+   "i": 21,
+   "en": "Make arrangements to take on medical cases for treatment in Hegemony space",
+   "ctx": "pkSentinelHubMedicalCases"
+  },
+  {
+   "i": 22,
+   "en": "\"I could leave 100 crew; specialists to assist your colony.\" ",
+   "ctx": "pkSentinelHubLeaveCrew"
+  },
+  {
+   "i": 23,
+   "en": "\"I feel that there is some danger here that you are not telling me about.\"",
+   "ctx": "PKSentinelHubQAskDangerVague"
+  },
+  {
+   "i": 24,
+   "en": "\"Can you tell me anything about active Tri-Tachyon AI war fleets?\"",
+   "ctx": "PKSentinelHubQAskDangerSpecific"
+  },
+  {
+   "i": 25,
+   "en": "\"Can you tell me about these 'Protocols'?\"",
+   "ctx": "PKSentinelHubQAskProtocols"
+  },
+  {
+   "i": 26,
+   "en": "\"Tell me, how did your people come to live in this place?\"",
+   "ctx": "PKSentinelHubQHowLiveHere"
+  },
+  {
+   "i": 27,
+   "en": "\"What happened to your starships?\"",
+   "ctx": "PKSentinelHubQAskWarfleet"
+  },
+  {
+   "i": 28,
+   "en": "\"Do you want to stay here?\"",
+   "ctx": "PKSentinelHubQAskStayHere"
+  },
+  {
+   "i": 29,
+   "en": "Talk about something else",
+   "ctx": "PKSentinelHubQBack"
+  },
+  {
+   "i": 30,
+   "en": "\"I found your gantries in orbit. But no fleet.\"",
+   "ctx": "PKSentinelHubConfGantry"
+  },
+  {
+   "i": 31,
+   "en": "\"I encountered your fleet. It was under autonomous control.\"",
+   "ctx": "PKSentinelHubConfFoundFleet"
+  },
+  {
+   "i": 32,
+   "en": "\"Look. I know your fleet was modified for AI core control. I have evidence.\"",
+   "ctx": "PKSentinelHubConfFleetAI"
+  },
+  {
+   "i": 33,
+   "en": "\"I found the planetkiller your fleet left behind.\"",
+   "ctx": "PKSentinelHubConfPK"
+  },
+  {
+   "i": 34,
+   "en": "\"It was fully armed and operational.\"",
+   "ctx": "PKSentinelAskAboutStarshipsHeg"
+  },
+  {
+   "i": 35,
+   "en": "\"Your settlement is smaller than what could be built from an entire fleet of salvage.\"",
+   "ctx": "PKSentinelAskAboutStarshipsHeg2"
+  },
+  {
+   "i": 36,
+   "en": "\"I was attacked by that fleet. Your ancestors left a deadly trap.\"",
+   "ctx": "PKSentinelConfrontAIRespA"
+  },
+  {
+   "i": 37,
+   "en": "\"The truth must be told, no matter how uncomfortable.\"",
+   "ctx": "PKSentinelConfrontAIRespB"
+  },
+  {
+   "i": 38,
+   "en": "\"I'm willing to keep it quiet. For the greater good.\"",
+   "ctx": "PKSentinelConfrontAIRespC"
+  },
+  {
+   "i": 39,
+   "en": "\"I'm willing to keep it quiet. For adequate compensation.\"",
+   "ctx": "PKSentinelConfrontAIRespD"
+  },
+  {
+   "i": 40,
+   "en": "\"The use of AIs in war is a crime under Hegemony's law.\"",
+   "ctx": "PKSentinelConfrontAIRespE"
+  },
+  {
+   "i": 41,
+   "en": "\"Forcing AIs to fight your war is unconscionable.\"",
+   "ctx": "PKSentinelConfrontAIRespF"
+  },
+  {
+   "i": 42,
+   "en": "\"AI is an abomination unto God.\"",
+   "ctx": "PKSentinelConfrontAIRespG"
+  },
+  {
+   "i": 43,
+   "en": "\"It was the right thing to do. AIs are a powerful tool.\"",
+   "ctx": "PKSentinelConfrontAIRespH"
+  },
+  {
+   "i": 44,
+   "en": "\"Weapons-blink? There was a battle?\"",
+   "ctx": "PKSentinelAskDangerSpecific"
+  },
+  {
+   "i": 45,
+   "en": "Keep walking.\r",
+   "ctx": "PKSentinelOutSequenceInterrupt"
+  },
+  {
+   "i": 46,
+   "en": "\"I could leave 100 crew here; specialists to help your colony survive.\"",
+   "ctx": "PKSentinelOutSequenceInterrupt"
+  },
+  {
+   "i": 47,
+   "en": "Return to orbit",
+   "ctx": "PKSentinelOutSequence"
+  },
+  {
+   "i": 48,
+   "en": "Take a shuttle down\r",
+   "ctx": "PKSentinelInteractionAgain"
+  },
+  {
+   "i": 49,
+   "en": "\"There's a lost fringe colony, Sentinel, that you ought to know about...\" (explain)",
+   "ctx": "PKTellAboutSentinel"
+  },
+  {
+   "i": 50,
+   "en": "\"There was also the matter of a planetkiller weapon...\"",
+   "ctx": "PKTellAboutSentinelOutOptA"
+  },
+  {
+   "i": 51,
+   "en": "\"I also discovered that the original flotilla modified their fleet to accept AI core control.\"",
+   "ctx": "PKTellAboutSentinelOutOptB"
+  },
+  {
+   "i": 52,
+   "en": "\"I'd like to know more about your pilgrimage.\"",
+   "ctx": "shrineFleetConvOption"
+  },
+  {
+   "i": 53,
+   "en": "\"Is there good money in running pilgrims?\"",
+   "ctx": "shrineFleetConvAskAboutJob"
+  },
+  {
+   "i": 54,
+   "en": "\"Tell me about the shrine you are travelling to.\"",
+   "ctx": "shrineFleetConvAskShrineDetails"
+  },
+  {
+   "i": 55,
+   "en": "\"I've been visiting the shrines. Just visiting.\"",
+   "ctx": "shrineFleetConvAskShrineQuestA"
+  },
+  {
+   "i": 56,
+   "en": "\"I too am on a pilgrimage of sorts.\"",
+   "ctx": "shrineFleetConvAskShrineQuestB"
+  },
+  {
+   "i": 57,
+   "en": "\"We shall see.\"",
+   "ctx": "shrineFleetConvHostile2"
+  },
+  {
+   "i": 58,
+   "en": "\"What? I'm no monster.\"",
+   "ctx": "shrineFleetConvHostile3"
+  },
+  {
+   "i": 59,
+   "en": "\"Enough talk of shrines.\"",
+   "ctx": "shrineFleetConvOutHostile"
+  },
+  {
+   "i": 60,
+   "en": "\"Killa is a ruin. How can there be a shrine?\"",
+   "ctx": "shrineConvShrineResponseKilla"
+  },
+  {
+   "i": 61,
+   "en": "\"Volturn? The Sindrian Diktat allows you to visit the shrine?\"",
+   "ctx": "shrineConvShrineResponseVolturn"
+  },
+  {
+   "i": 62,
+   "en": "\"A shrine on Jangala? Isn't the biosphere toxic?\"",
+   "ctx": "shrineConvShrineResponseJangala"
+  },
+  {
+   "i": 63,
+   "en": "\"... Stories?\"\r",
+   "ctx": "shrineConvAskJangala"
+  },
+  {
+   "i": 64,
+   "en": "\"Can you tell me how to find it?\"\r",
+   "ctx": "shrineConvAskKillaFriendly"
+  },
+  {
+   "i": 65,
+   "en": "\"Tell me more about this 'planet-killer'.\"\r",
+   "ctx": "shrineConvAskKillaFriendly"
+  },
+  {
+   "i": 66,
+   "en": "\"What is this 'Galatia Academy?'\"",
+   "ctx": "academyFleetConvOption"
+  },
+  {
+   "i": 67,
+   "en": "\"Does the Academy pay well for transport jobs?\"",
+   "ctx": "academyFleetConvOption2"
+  },
+  {
+   "i": 68,
+   "en": "\"Does the Academy pay well for transport jobs?\"\r",
+   "ctx": "academyFleetConvOptionSel"
+  },
+  {
+   "i": 69,
+   "en": "\"Where is the Galatia Academy?\"\r",
+   "ctx": "academyFleetConvOptionSel"
+  },
+  {
+   "i": 70,
+   "en": "Say your farewells and cut the comm link",
+   "ctx": "academyFleetConvOptionSel"
+  },
+  {
+   "i": 71,
+   "en": "\"How's the pay?\"\r",
+   "ctx": "academyFleetConvJob"
+  },
+  {
+   "i": 72,
+   "en": "\"What happened to the ISS Enki?\"\r",
+   "ctx": "academyFleetConvJob"
+  },
+  {
+   "i": 73,
+   "en": "\"So how's the pay?\"\r",
+   "ctx": "academyFleetConvEnki"
+  },
+  {
+   "i": 74,
+   "en": "\"Smart. Thanks for the tip.\"\r",
+   "ctx": "academyFleetConvPay"
+  },
+  {
+   "i": 75,
+   "en": "\"Seems obvious.\"\r",
+   "ctx": "academyFleetConvPay"
+  },
+  {
+   "i": 76,
+   "en": "\"What happened to Mairaath?\"",
+   "ctx": "greetingsScavMairaathQ1"
+  },
+  {
+   "i": 77,
+   "en": "\"Why wouldn't it be worth doing the Mairaath route?\"",
+   "ctx": "greetingsTradeMairaathQ1"
+  },
+  {
+   "i": 78,
+   "en": "\"So... ?\"",
+   "ctx": "greetingsMairaathQ1A1"
+  },
+  {
+   "i": 79,
+   "en": "\"What makes Gilead so holy?\"",
+   "ctx": "greetingsLuddicPatrolCanaanQ1"
+  },
+  {
+   "i": 80,
+   "en": "\"Wait, why can't you touch Gilead?\"",
+   "ctx": "greetingsScavengerCanaanQ1"
+  },
+  {
+   "i": 81,
+   "en": "On Own Colony free drink event",
+   "ctx": "DevBarOOCtest"
+  },
+  {
+   "i": 82,
+   "en": "High rep bar event test",
+   "ctx": "DevBarHREtest"
+  },
+  {
+   "i": 83,
+   "en": "Low rep bar event test",
+   "ctx": "DevBarLREtest"
+  },
+  {
+   "i": 84,
+   "en": "Player met everyone who gives unique HRE anecdote",
+   "ctx": "DevBarSetMetEveryone"
+  },
+  {
+   "i": 85,
+   "en": "Join them for a round and bask in adulation \r",
+   "ctx": "BarHighRepEvent0"
+  },
+  {
+   "i": 86,
+   "en": "Graciously calm them down\r",
+   "ctx": "BarHighRepEvent0"
+  },
+  {
+   "i": 87,
+   "en": "Sternly nod an acknowledgement and get on with your business\r",
+   "ctx": "BarHighRepEvent0"
+  },
+  {
+   "i": 88,
+   "en": "This is altogether too much. Leave immediately.",
+   "ctx": "BarHighRepEvent0"
+  },
+  {
+   "i": 89,
+   "en": "The stage is yours, why not use it? Give a speech!\r",
+   "ctx": "BarHighRepEventJoin1"
+  },
+  {
+   "i": 90,
+   "en": "Keep it humble and low-key",
+   "ctx": "BarHighRepEventJoin1"
+  },
+  {
+   "i": 91,
+   "en": "Focus on the local VIPs and tell some flattering anecdotes\r",
+   "ctx": "BarHighRepEventSpeech0"
+  },
+  {
+   "i": 92,
+   "en": "Compliment the crowd and make a connection with the crews\r",
+   "ctx": "BarHighRepEventSpeech0"
+  },
+  {
+   "i": 93,
+   "en": "You're the star! Talk about yourself",
+   "ctx": "BarHighRepEventSpeech0"
+  },
+  {
+   "i": 94,
+   "en": "Look around the bar",
+   "ctx": "BarHREHumble2"
+  },
+  {
+   "i": 95,
+   "en": "Might as well join them for a round\r",
+   "ctx": "BarHRE0calm"
+  },
+  {
+   "i": 96,
+   "en": "This is too much; wave politely as you leave",
+   "ctx": "BarHRE0calm"
+  },
+  {
+   "i": 97,
+   "en": "\"Um. Thank you.\"\r",
+   "ctx": "BarOwnColFreeDrink0"
+  },
+  {
+   "i": 98,
+   "en": "Take the drink\r",
+   "ctx": "BarOwnColFreeDrink0"
+  },
+  {
+   "i": 99,
+   "en": "\"Don't I own 'the house'?\"\r",
+   "ctx": "BarOwnColFreeDrink0"
+  },
+  {
+   "i": 100,
+   "en": "\"No thanks. I'm, uh, not thirsty.\"",
+   "ctx": "BarOwnColFreeDrink0"
+  },
+  {
+   "i": 101,
+   "en": "\"I wish to pay like any other customer. I insist.\"\r",
+   "ctx": "BarOwnColFreeDrink0C"
+  },
+  {
+   "i": 102,
+   "en": "Get down",
+   "ctx": "lpBarAssassin0"
+  },
+  {
+   "i": 103,
+   "en": "Get back up",
+   "ctx": "lpBarAssassin1"
+  },
+  {
+   "i": 104,
+   "en": ">> (dev) LC mission testing menu",
+   "ctx": "lcDevMenuOption"
+  },
+  {
+   "i": 105,
+   "en": ">> (dev) LC mission testing menu 2",
+   "ctx": "lcDevMenuOption2"
+  },
+  {
+   "i": 106,
+   "en": "give me a PK",
+   "ctx": "LCDEVgivePK"
+  },
+  {
+   "i": 107,
+   "en": "give me 3 ethos mercy",
+   "ctx": "LCDEVgiveMercy"
+  },
+  {
+   "i": 108,
+   "en": "give me 3 ethos humanitarian",
+   "ctx": "LCDEVgiveHumanitarian"
+  },
+  {
+   "i": 109,
+   "en": "set Gideon Oak visible",
+   "ctx": "LCDEVshowOak"
+  },
+  {
+   "i": 110,
+   "en": "set Sedge shot Bornanew",
+   "ctx": "LCDEVsedgeShotJeff"
+  },
+  {
+   "i": 111,
+   "en": "open Bornanew BFIN testing menu",
+   "ctx": "LCDEVbornanew"
+  },
+  {
+   "i": 112,
+   "en": "Player met Cotton and sat to have tea",
+   "ctx": "lpLKEtestSetting1"
+  },
+  {
+   "i": 113,
+   "en": "Skip to gaATG_epiphanyAskKidnapPolite",
+   "ctx": "lpLKEtestSetting2b"
+  },
+  {
+   "i": 114,
+   "en": "Player has luddicEthosPather",
+   "ctx": "lpLKEtestSetting3"
+  },
+  {
+   "i": 115,
+   "en": "Player has luddicEthosFaithful",
+   "ctx": "lpLKEtestSetting4"
+  },
+  {
+   "i": 116,
+   "en": "set player as luddicEthosAtheist",
+   "ctx": "lpLKEtestSettingAtheistOpt"
+  },
+  {
+   "i": 117,
+   "en": "set player as luddicEthosCynical",
+   "ctx": "lpLKEtestSettingCynicalOpt"
+  },
+  {
+   "i": 118,
+   "en": "Brother Cotton gave player his Book of Ludd (and met, and had tea)",
+   "ctx": "devGotCottonBookSet"
+  },
+  {
+   "i": 119,
+   "en": "DEV start LKE mission",
+   "ctx": "lkeDevStartOption"
+  },
+  {
+   "i": 120,
+   "en": ">> (dev) TT test options menu",
+   "ctx": "ttDevMenuOption"
+  },
+  {
+   "i": 121,
+   "en": "set ZGR visible and player received invite",
+   "ctx": "ttDevMakeZGRvisible"
+  },
+  {
+   "i": 122,
+   "en": "set Rayan Arroyo as met, and as potential contact",
+   "ctx": "ttDevMakeArroyoContactOption"
+  },
+  {
+   "i": 123,
+   "en": "Set encountered Dweller and give special items",
+   "ctx": "ttDevGiveDwellerLootOpt"
+  },
+  {
+   "i": 124,
+   "en": "Set encountered Threat and give special items",
+   "ctx": "ttDevGiveThreatLootOpt"
+  },
+  {
+   "i": 125,
+   "en": "DEV unset resupply counter",
+   "ctx": "bqfsAskForSuppliesOptionDEV"
+  },
+  {
+   "i": 126,
+   "en": "\"Do you have any supplies to spare?\"",
+   "ctx": "bqfsAskForSuppliesOptionFirst"
+  },
+  {
+   "i": 127,
+   "en": "\"I need supplies. Badly.\"\r",
+   "ctx": "bqfsAskedForSuppliesAcceptA"
+  },
+  {
+   "i": 128,
+   "en": "\"No, I'll do without.\"",
+   "ctx": "bqfsAskedForSuppliesAcceptA"
+  },
+  {
+   "i": 129,
+   "en": "Interrupting the tirade to inform them that you are the sole executive authority on this $shipOrFleet.\r",
+   "ctx": "salSRBWstartB"
+  },
+  {
+   "i": 130,
+   "en": "Thanking them for emphasizing procedure, but to be mindful of their tone in front of crew.\r",
+   "ctx": "salSRBWstartB"
+  },
+  {
+   "i": 131,
+   "en": "Making a crack about 'containment procedures' and visiting spacer bars which made the crew laugh.",
+   "ctx": "salSRBWstartB"
+  },
+  {
+   "i": 132,
+   "en": "\"Ops, what caused this?\"",
+   "ctx": "salSRBWstory1"
+  },
+  {
+   "i": 133,
+   "en": "\"Any sign of what they were trying to do?\"",
+   "ctx": "salSRRSstart"
+  },
+  {
+   "i": 134,
+   "en": "\"Comms, anything to report?\"",
+   "ctx": "salOHOGstart"
+  },
+  {
+   "i": 135,
+   "en": "\"Ops, it's your turn.\"",
+   "ctx": "salOHOGstory1"
+  },
+  {
+   "i": 136,
+   "en": "\"'Where there is life, that is the throne of God...'\"",
+   "ctx": "salOHOGstory3resp1"
+  },
+  {
+   "i": 137,
+   "en": "\"We shall leave this place as it is. No salvage.\"\r",
+   "ctx": "salOHOGstory3luddic"
+  },
+  {
+   "i": 138,
+   "en": "\"You may proceed with the operation.\"",
+   "ctx": "salOHOGstory3luddic"
+  },
+  {
+   "i": 139,
+   "en": "\"I think there's been some kind of mistake.\"\r",
+   "ctx": "threatCommLinkFirst"
+  },
+  {
+   "i": 140,
+   "en": "\"Proceed.\"",
+   "ctx": "mk1_explore0"
+  },
+  {
+   "i": 141,
+   "en": "\"Patch it through to my TriPad.\"",
+   "ctx": "gaDHOhookStartDev"
+  },
+  {
+   "i": 142,
+   "en": "Ask where you could find the office of Cornelius Elek",
+   "ctx": "gaDHOvisitElekStart"
+  },
+  {
+   "i": 143,
+   "en": "\"He sent me a personal invitation.\"",
+   "ctx": "gaDHOvisitElekStart2"
+  },
+  {
+   "i": 144,
+   "en": "\"I found his... experiment in the Fringe. I'm returning it to him.\"",
+   "ctx": "gaDHOvisitElekStart2b"
+  },
+  {
+   "i": 145,
+   "en": "Enter",
+   "ctx": "gaDHOvisitElekStart4"
+  },
+  {
+   "i": 146,
+   "en": "\"I'm $playerName. We've spoken before. I returned your datacore.\"",
+   "ctx": "gaDHOvisitElekIntroMet"
+  },
+  {
+   "i": 147,
+   "en": "\"I'm $playerName. You invited me to see you.\"",
+   "ctx": "gaDHOvisitElekIntro"
+  },
+  {
+   "i": 148,
+   "en": "\"You sent a message about doing a job.\"\r",
+   "ctx": "gaDHOvisitElekIntro2"
+  },
+  {
+   "i": 149,
+   "en": "\"You sent a message about 'an old mystery'. I'd like to help solve it.\"\r",
+   "ctx": "gaDHOvisitElekIntro2"
+  },
+  {
+   "i": 150,
+   "en": "\"You sent me a message. I was interested in the 'vast fortune'.\"",
+   "ctx": "gaDHOvisitElekIntro2"
+  },
+  {
+   "i": 151,
+   "en": "\"This chair has a datacore in it.\"\r",
+   "ctx": "gaDHOvisitElekIntro4"
+  },
+  {
+   "i": 152,
+   "en": "Cough pointedly and look toward the chair\r",
+   "ctx": "gaDHOvisitElekIntro4"
+  },
+  {
+   "i": 153,
+   "en": "\"Find the sensor array, extract the data. Sounds simple.\"",
+   "ctx": "gaDHOvisitElekIntro6"
+  },
+  {
+   "i": 154,
+   "en": "\"I haven't agreed to anything yet, Elek.\"",
+   "ctx": "gaDHOvisitElekIntro7"
+  },
+  {
+   "i": 155,
+   "en": "\"Why is this data so important? What did this sensor array find?\"",
+   "ctx": "gaDHOvisitElekHubOptC"
+  },
+  {
+   "i": 156,
+   "en": "\"In your message, you mentioned a reward. The words 'vast fortune' were used.\"",
+   "ctx": "gaDHOvisitElekHubOptA"
+  },
+  {
+   "i": 157,
+   "en": "\"I didn't get a clear answer about this reward. How much is it?\"",
+   "ctx": "gaDHOvisitElekHubOptA2"
+  },
+  {
+   "i": 158,
+   "en": "\"Who exactly is this 'friend' of yours?\"",
+   "ctx": "gaDHOvisitElekHubOptB"
+  },
+  {
+   "i": 159,
+   "en": "\"I'm not interested right now.\"",
+   "ctx": "gaDHOvisitElekHubOptDecline"
+  },
+  {
+   "i": 160,
+   "en": "\"I told you, I'm not working for Tri-Tachyon.\"",
+   "ctx": "gaDHOvisitElekHubOptDeclineTT"
+  },
+  {
+   "i": 161,
+   "en": "\"Are you sure? Sounds low for a trip to the Fringe, much less the Abyss.\"\r",
+   "ctx": "gaDHOvisitElekHubSelA2"
+  },
+  {
+   "i": 162,
+   "en": "\"Uh, thank you. That seems... sufficient.\"\r",
+   "ctx": "gaDHOvisitElekHubSelA2"
+  },
+  {
+   "i": 163,
+   "en": "\"That's absurdly, even insultingly low.\"",
+   "ctx": "gaDHOvisitElekHubSelA2"
+  },
+  {
+   "i": 164,
+   "en": "\"100,000 would be the baseline. And a large hazard fee for the Abyss.\"\r",
+   "ctx": "gaDHOvisitElekHubSelA3"
+  },
+  {
+   "i": 165,
+   "en": "\"Tri-Tachyon is backing your project?\"\r",
+   "ctx": "gaDHOvisitElekHubSelA4b"
+  },
+  {
+   "i": 166,
+   "en": "\"Glad to hear it. I expect more than 100,000 credits, plus hazard.\"",
+   "ctx": "gaDHOvisitElekHubSelA4b"
+  },
+  {
+   "i": 167,
+   "en": "\"So it is Tri-Tachyon. They can afford at least 200,000 credits, plus hazard.\"\r",
+   "ctx": "gaDHOvisitElekHubSelA5a"
+  },
+  {
+   "i": 168,
+   "en": "\"I won't work for Tri-Tachyon.\"",
+   "ctx": "gaDHOvisitElekHubSelA5a"
+  },
+  {
+   "i": 169,
+   "en": "\"Glad to hear it. I expect more than 100,000 credits, plus hazard.\"\r",
+   "ctx": "gaDHOvisitElekHubSelA4bKnow"
+  },
+  {
+   "i": 170,
+   "en": "\"Tri-Tachyon can afford at least 200,000 credits, plus hazard.\"\r",
+   "ctx": "gaDHOvisitElekHubSelA4bKnow"
+  },
+  {
+   "i": 171,
+   "en": "\"More noble, by far, is your willingness to take up this cause.\" (lie)\r",
+   "ctx": "gaDHOvisitElekAskPatron"
+  },
+  {
+   "i": 172,
+   "en": "\"As I am key to this expedition, I'd like to know more of your patron and my benefactor.\"",
+   "ctx": "gaDHOvisitElekAskPatron"
+  },
+  {
+   "i": 173,
+   "en": "Nod enthusiastically as if you are entranced by his words",
+   "ctx": "gaDHOvisitElekAskPatron2b"
+  },
+  {
+   "i": 174,
+   "en": "\"So... there's something in the Abyss.\"\r",
+   "ctx": "gaDHOvisitElekHubSelC"
+  },
+  {
+   "i": 175,
+   "en": "\"Aren't you a planetologist? This seems outside your field.\"",
+   "ctx": "gaDHOvisitElekHubSelC"
+  },
+  {
+   "i": 176,
+   "en": "\"I'm sure we'll manage.\"\r",
+   "ctx": "gaDHOvisitElekAccept"
+  },
+  {
+   "i": 177,
+   "en": "\"Wait, which end goes in the sensor array again?\"",
+   "ctx": "gaDHOvisitElekAccept"
+  },
+  {
+   "i": 178,
+   "en": "\"I gave your proposal some more thought. I accept.\"\r",
+   "ctx": "gaDHOvisitElekAgain"
+  },
+  {
+   "i": 179,
+   "en": "\"I gave your proposal some more thought. I decline.\"",
+   "ctx": "gaDHOvisitElekAgain"
+  },
+  {
+   "i": 180,
+   "en": "Install the hardware package to read the array's datastores\r",
+   "ctx": "gaDHOarrayStart"
+  },
+  {
+   "i": 181,
+   "en": "\"Activate the system.\"",
+   "ctx": "gaDHOarray2"
+  },
+  {
+   "i": 182,
+   "en": "\"What are we looking at?\"",
+   "ctx": "gaDHOarray3"
+  },
+  {
+   "i": 183,
+   "en": "\"What's so interesting about a nameless rock?\"",
+   "ctx": "gaDHOarray4"
+  },
+  {
+   "i": 184,
+   "en": "\"First, I want to talk about what I found. It was... hazardous.\"",
+   "ctx": "gaDHOendingStartOptsA"
+  },
+  {
+   "i": 185,
+   "en": "\"Transmitting data now...\" ",
+   "ctx": "gaDHOendingStartOptsB"
+  },
+  {
+   "i": 186,
+   "en": "\"Let's talk about payment first. Then the data.\"",
+   "ctx": "gaDHOendingStartOptsC"
+  },
+  {
+   "i": 187,
+   "en": "\"Then I went to the Abyss. I'm due hazard pay.\"\r",
+   "ctx": "gaDHOendingRewardFirstB"
+  },
+  {
+   "i": 188,
+   "en": "\"You're right, we made no additional agreement.\"",
+   "ctx": "gaDHOendingRewardFirstB"
+  },
+  {
+   "i": 189,
+   "en": "\"Correct. Transferring data now.\"",
+   "ctx": "gaDHOendingAskRewardPostOptA"
+  },
+  {
+   "i": 190,
+   "en": "\"Plus 25% for hazard.\"",
+   "ctx": "gaDHOendingAskRewardPostOptB"
+  },
+  {
+   "i": 191,
+   "en": "Tell him about the Onslaught Mk.I and the Threat",
+   "ctx": "gaDHOendingAskRewardPostOptC"
+  },
+  {
+   "i": 192,
+   "en": "\"Well? What do you think of the data?\"",
+   "ctx": "gaDHOendingAskRewardPostOptD"
+  },
+  {
+   "i": 193,
+   "en": "\"My combat recordings and sensor data prove it. Transmitting now.\"\r",
+   "ctx": "gaDHOendingFoundFirst1"
+  },
+  {
+   "i": 194,
+   "en": "\"My combat recordings and sensor data prove it. I'll transmit after payment.\"  ",
+   "ctx": "gaDHOendingFoundFirst1"
+  },
+  {
+   "i": 195,
+   "en": "\"Now, about hazard pay.\"",
+   "ctx": "gaDHOendingDataTransferOptHaz"
+  },
+  {
+   "i": 196,
+   "en": "\"Now, about payment.\"",
+   "ctx": "gaDHOendingDataTransferOptB"
+  },
+  {
+   "i": 197,
+   "en": "\"Have a look. There's your proof.\"",
+   "ctx": "gaDHOendingDataTransferOptC"
+  },
+  {
+   "i": 198,
+   "en": "\"Just look at the data.\"",
+   "ctx": "gaDHOendingFoundFirst2a"
+  },
+  {
+   "i": 199,
+   "en": "Transfer the data",
+   "ctx": "gaDHOendingFoundFirst2c"
+  },
+  {
+   "i": 200,
+   "en": "\"That won't be necessary. I'm satisfied with my profits.\"",
+   "ctx": "gaDHOendingHeBelieves3a"
+  },
+  {
+   "i": 201,
+   "en": "\"That won't be necessary. Knowledge is it's own reward.\"",
+   "ctx": "gaDHOendingHeBelieves3b"
+  },
+  {
+   "i": 202,
+   "en": "\"That's good, thank you.\"\r",
+   "ctx": "gaDHOendingHeBelievesPay3"
+  },
+  {
+   "i": 203,
+   "en": "\"... And the hazard pay.\"",
+   "ctx": "gaDHOendingHeBelievesPay3"
+  },
+  {
+   "i": 204,
+   "en": "Tell him about what you found",
+   "ctx": "gaDHOendingHazOutTangent"
+  },
+  {
+   "i": 205,
+   "en": "\"Look at my $shipOrFleet. The Onslaught Mk.I is in orbit.\"",
+   "ctx": "gaDHOendingWrapUpOptsB"
+  },
+  {
+   "i": 206,
+   "en": "\"I've been entirely honest with you, Elek.\"",
+   "ctx": "gaDHOendingWrapUpOptsA"
+  },
+  {
+   "i": 207,
+   "en": "\"Hold on- we're not done 'til I get paid.\"\r",
+   "ctx": "gaDHOendingWrapUp3a"
+  },
+  {
+   "i": 208,
+   "en": "\"I will forgo payment. Advancement of knowledge is wealth enough.\"",
+   "ctx": "gaDHOendingWrapUp3a"
+  },
+  {
+   "i": 209,
+   "en": "Investigate the modifications\r",
+   "ctx": "gaDHOjustFoundArrayStart"
+  },
+  {
+   "i": 210,
+   "en": "\"Ops, deploy your teams.\"",
+   "ctx": "gaDHOjustFoundArray0"
+  },
+  {
+   "i": 211,
+   "en": "\"How can you tell?\"",
+   "ctx": "gaDHOjustFoundArray2"
+  },
+  {
+   "i": 212,
+   "en": "\"What are they looking for and what did they find?\"",
+   "ctx": "gaDHOjustFoundArray3"
+  },
+  {
+   "i": 213,
+   "en": "\"What was Elek looking for and what this find?\"",
+   "ctx": "gaDHOjustFoundArray3e2"
+  },
+  {
+   "i": 214,
+   "en": "\"Some nameless rock, huh. Let's have the coordinates.\"",
+   "ctx": "gaDHOjustFoundArray4"
+  },
+  {
+   "i": 215,
+   "en": "Talk to Academician Elek at the Galatia Academy first\r",
+   "ctx": "gaDHOjustFoundArray5"
+  },
+  {
+   "i": 216,
+   "en": "Why wait? Go straight to the coordinates in the Abyss",
+   "ctx": "gaDHOjustFoundArray5"
+  },
+  {
+   "i": 217,
+   "en": "\"I'm $playerName. I found your modified sensor array on the Fringe.\"",
+   "ctx": "gaDHOabyssEndElekIntro"
+  },
+  {
+   "i": 218,
+   "en": "\"I don't know about that. But I went into the Abyss, where it scanned.\"\r",
+   "ctx": "gaDHOabyssEndElekIntro2"
+  },
+  {
+   "i": 219,
+   "en": "\"I don't know anything about that. I just found the array.\"\r",
+   "ctx": "gaDHOabyssEndElekIntro2"
+  },
+  {
+   "i": 220,
+   "en": "\"They probably didn't make it. I'm sorry.\"\r",
+   "ctx": "gaDHOabyssEndElekIntro2"
+  },
+  {
+   "i": 221,
+   "en": "\"If they're not back yet, they're probably dead.\"",
+   "ctx": "gaDHOabyssEndElekIntro2"
+  },
+  {
+   "i": 222,
+   "en": "\"Yes. It worked. It gave me coordinates in the Abyss and I went there.\"\r",
+   "ctx": "gaDHOabyssEndElekAltIntro3"
+  },
+  {
+   "i": 223,
+   "en": "\"Yes. I think this is a good time to discuss payment.\"",
+   "ctx": "gaDHOabyssEndElekAltIntro3"
+  },
+  {
+   "i": 224,
+   "en": "\"Right. It worked, gave me coordinates in the Abyss, and I went there.\"\r",
+   "ctx": "gaDHOabyssEndIntroPayment"
+  },
+  {
+   "i": 225,
+   "en": "\"Fine. We can talk about MY discovery first. Then payment.\"\r",
+   "ctx": "gaDHOabyssEndIntroPayment"
+  },
+  {
+   "i": 226,
+   "en": "\"It's MY discovery. And we'll talk about payment if you want any part in it.\"",
+   "ctx": "gaDHOabyssEndIntroPayment"
+  },
+  {
+   "i": 227,
+   "en": "Tell him about the Onslaught Mk.I",
+   "ctx": "gaDHOabyssEndFoundFirst"
+  },
+  {
+   "i": 228,
+   "en": "Transmit the data",
+   "ctx": "gaDHOabyssEndFoundFirst2"
+  },
+  {
+   "i": 229,
+   "en": "\"Good. Transferring data now.\"",
+   "ctx": "gaDHOabyssEndRewardPaidA"
+  },
+  {
+   "i": 230,
+   "en": "\"No, this is business. And I took on great risk to see it done.\"\r",
+   "ctx": "gaDHOabyssEndElekMyDiscovery"
+  },
+  {
+   "i": 231,
+   "en": "\"Yes, it is. And if you don't pay me, you'll never get your precious data.\"",
+   "ctx": "gaDHOabyssEndElekMyDiscovery"
+  },
+  {
+   "i": 232,
+   "en": "\"That's a failure's rate. I DID return, and from the Abyss. 100k.\"",
+   "ctx": "gaDHOabyssEndElekMyDiscovery3"
+  },
+  {
+   "i": 233,
+   "en": "\"Correct. Transferring data now.\"\r",
+   "ctx": "gaDHOabyssEndElekMyDiscovery4a"
+  },
+  {
+   "i": 234,
+   "en": "Transfer the data\r",
+   "ctx": "gaDHOabyssEndAskRewardHazOptD"
+  },
+  {
+   "i": 235,
+   "en": "\"I found your modified sensor array on the Fringe.\"",
+   "ctx": "gaDHOvisitElekIntro2z"
+  },
+  {
+   "i": 236,
+   "en": "\"Yes. And it worked. It gave me coordinates for something in the Abyss.\"\r",
+   "ctx": "gaDHOvisitElekAltIntro3"
+  }
+ ]
+}

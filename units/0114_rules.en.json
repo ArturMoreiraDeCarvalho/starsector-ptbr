@@ -1,0 +1,176 @@
+{
+ "chunk": 114,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "There is no recognition on $hisOrHer face; nonetheless, $personName spits a retort: \"For what, to murder? You'll get no man from us.\"",
+   "ctx": "data/campaign/rules.csv LKEchalVIPdemandBornanew [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"For what,\" $heOrShe spits, \"To murder? We'll not hand one of our own to you.\"",
+   "ctx": "data/campaign/rules.csv LKEchalVIPdemandRecruiter [text]"
+  },
+  {
+   "i": 3,
+   "en": "You explain that while you were indeed at the protest on Jangala Station on that fated day, it is not all as it appears. \r\n\r\nThe holos that leaked out were manipulated by secret Hegemony AI cores which substituted your face for that of a Hegemony officer on the scene. The cowards are trying to deflect blame away from themselves! It is obvious that the long-term goal of the Hegemony is to stamp out all spiritual belief, the better to assert AI-led control over the population and turn all humans into mere machines, cogs in a new Domain; a mechanistic galaxy-straddling Moloch built in defiance of God's creation!",
+   "ctx": "data/campaign/rules.csv lkeChalcedonVIPoptHostileSP1a [text]"
+  },
+  {
+   "i": 4,
+   "en": "You explain that while marines under your command were indeed deployed on that fateful day on Epiphany, you were in fact trying to stop an Hegemony black-ops raid being run through the pirate Warlord Kanta. It was the subsequent black propaganda/cover-up that placed you at the center of the action.\r\n\r\nKanta is, of course, a hollowed-out shell controlled by an AI core; an abomination in the eyes of all followers of Ludd but indeed the very image of the Hegemony's ultimate goal for all humanity in the Persean Sector: machine-slaves to false AI-gods tasked with building a new Domain; a mechanistic galaxy-straddling Moloch to defy the very nature of God's creation!",
+   "ctx": "data/campaign/rules.csv lkeChalcedonVIPoptHostileSP1b [text]"
+  },
+  {
+   "i": 5,
+   "en": "Your voice breaks with emotion as you explain the depths of conspiracy set by the AIs to pit human against human, and of your victimhood has turned you toward, for the first time, reconsidering the goals and ideals of the Luddic Path. \r\n\r\nYou can tell from the horror on $personPost's face, and subsequent affirmation - they're right, about everything - that the arc of your story is too enticing not to take root. Though absurd, it feels right, and plays to a deep-rooted sense of persecution.",
+   "ctx": "data/campaign/rules.csv lkeChalcedonVIPoptHostileSP2 [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"Please, fellow $playerBrotherOrSister, let us begin anew,\" $heOrShe says. \"My name is $personName, and we walk with Blessed Ludd.\"\r\n\r\n$HeOrShe brings $hisOrHer hands together and says a short prayer, then looks back up to you.\r\n\r\n\"You have come here to Chalcedon looking for something. Tell me now, how many I assist?\"",
+   "ctx": "data/campaign/rules.csv lkeChalcedonVIPoptHostileSP3 [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Truly, you are a devil of the Domain returned from hell to torment us anew,\" $heOrShe says, spitting.\r\n\r\n$HeOrShe looks down, letting out a shuddering sigh, then looks back to you. Shame is on $hisOrHer face.",
+   "ctx": "data/campaign/rules.csv lkeChalcedonThreatGo1 [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"I speak truth when I tell you that I know no man by the name Jethro Bornanew. I can... it is not simple. We have some computer records, but only for what is truly necessary. Those who walk the Path do not wish their names to be written in the book of Moloch.\"\r\n\r\n\"But, but. I can ask. Make inquiries for you. Just... you can stay on the comms, yes? I will find your man.\"",
+   "ctx": "data/campaign/rules.csv lkeChalcedonThreatGo2a [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"You want a recruiter? I don't understand. Any recruiter? Tell me true what you want that you may take your hellfire far away from my home.\"",
+   "ctx": "data/campaign/rules.csv lkeChalcedonThreatGo2b [text]"
+  },
+  {
+   "i": 10,
+   "en": "The Pather stays on the comms, trying to appease your ruthlessness. $HeOrShe makes calls to various contacts in the loose collection of fragmentary sects, religious militias, and warlords that makes up the planetary administration. \r\n\r\nIt's all quite tedious, but within an hour or so $personName gets a hit - someone has indeed heard the name Jethro Bornanew and knows that he spoke to a recruiter by the unlikely name of Wrestling Sedge.",
+   "ctx": "data/campaign/rules.csv LKEchalcedonThreatGo3 [text]"
+  },
+  {
+   "i": 11,
+   "en": "$PersonName looks stricken as they explain the hitch in this discovery.\r\n\r\n\"Sedge. He won't talk to you. He... doesn't use comms.\"",
+   "ctx": "data/campaign/rules.csv LKEchalcedonThreatGo4 [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"I... look, I can't,\" $heOrShe says, sweating. \"Sedge's flock is armed and, and he's... taken with the pneuma. He doesn't fear death. He kills those who anger him. But wait, wait.\"",
+   "ctx": "data/campaign/rules.csv LKEchalcedonThreatSedgeA [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"Wait, wait!\" $heOrShe shouts, sweating.",
+   "ctx": "data/campaign/rules.csv LKEchalcedonThreatSedgeB [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"Yes,\" $heOrShe breaks into a desperate grin, \"A meeting. Exactly.\"",
+   "ctx": "data/campaign/rules.csv LKEchalcedonThreatSedgeC [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"Sedge agreed to meet you. I don't know why, but he suggested it. At a spacer bar, even. Neutral ground, yes? He said he wanted to speak with you. I don't understand it, but he's... he's taken with the pneuma. He does not fear death.\"\r\n\r\n\"It's all I can do. Please. I'll transmit the location to you now.\"",
+   "ctx": "data/campaign/rules.csv LKEchalcedonThreatSedge2 [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"Blessed is our way,\" $heOrShe says, \"on this Path together, $playerBrotherOrSister.\"\r\n\r\nThe $personPost smiles, \"Yes, we have heard of you. Good things; godly things.\"",
+   "ctx": "data/campaign/rules.csv lkeChalcedonVIPstartPather [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"Blessed peace upon you,\" $heOrShe begins with a tone of skepticism. \"I cannot but wonder what brings one who walks with the Church among us who are so far from Gilead.\" $HeOrShe makes a quick reassuring smile, \"I seek no fight, mind; you are spoken well of... by some.\"",
+   "ctx": "data/campaign/rules.csv lkeChalcedonVIPstartChurch [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"You joined the faithful in resisting, albeit symbolically, the Hegemony oppressors who desecrate the holy world of Jangala. It is a small thing, and surely inadequate, but,\" $heOrShe smiles, \"Your first step on the Path won't stomp our enemies out all at once.\"",
+   "ctx": "data/campaign/rules.csv lkeChalcedonVIPreason1 [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"I am told that Brother Cotton would like you to be told of his kind regards.\" $HeOrShe lifts an eyebrow, \"I shan't ask why, though it does make one curious.\"",
+   "ctx": "data/campaign/rules.csv lkeChalcedonVIPreason3 [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"And a young Knight Initiate - former Initiate, I should say - spoke well of your simple words on Hesperus which set him on a new Path.\"",
+   "ctx": "data/campaign/rules.csv lkeChalcedonVIPreason2 [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"It is said that you walk with us. Perhaps not quite on the same Path, but close enough that we might pray together with truth in our hearts.\"",
+   "ctx": "data/campaign/rules.csv lkeChalcedonVIPreasonDefault [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"Are you looking to join the Luddic Path? It may be easier than you think.\" \r\n\r\n$HeOrShe gives an annoyed look, \"So I hear, I mean. This isn't the place to have such a discussion. There's a spacer bar on the surface, I'll give you the address. Go there. Someone there will be able to... help you.\"\r\n\r\n$HeOrShe smiles, \"I pray that your Path will be filled with righteous glory, captain.\"",
+   "ctx": "data/campaign/rules.csv lkeChalcedonLookingRecruiterB [text]"
+  },
+  {
+   "i": 23,
+   "en": "$HeOrShe gives a half-hearted chuckle. \"How am I to answer that? If I give you a name, am I signing a death-warrant? Will the Knights of Ludd come through their door to seize another 'heretic' for the noose?\"",
+   "ctx": "data/campaign/rules.csv lkeChalcedonLookingRecruiterC [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"Then talk!\" $heOrShe says, annoyed. \"But not to me. I have work to do, and you've distracted me enough.\"\r\n\r\n$HeOrShe turns away, and gives you a perfunctory \"Blessed day.\"\r\n\r\nThe link cuts from the other end.",
+   "ctx": "data/campaign/rules.csv lkeChalcedonLookingRecruiterC2a [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"Yes,\" $heOrShe nods along to your words. \"It is true that many in the Church long for a truer expression of Ludd's teachings unhindered by that corrupt bureaucracy. You wouldn't believe-\"\r\n\r\n$PersonName catches $himOrHerself and gives a little cough. \"Regardless, this is not the place for such talk. There's a spacer bar on the surface, I'll give you the address. Go there. Someone there will be able to... help you.\"\r\n\r\n\"I pray that your Path will be filled with righteous glory, captain.\"",
+   "ctx": "data/campaign/rules.csv lkeChalcedonLookingRecruiterC2b [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"Blessed is the day,\" $personName says, looking at you skeptically. \"What brings you to our humble world?\"\r\nOR\r\n\"Peace of Ludd upon you,\" $personName says, somewhat hastily. \"Why has Providence set our humble world on your Path?\"\r\nOR\r\n\"Blessings of Ludd,\" $personName says, examining you. \"Pray tell what brings you and your $shipOrFleet to Chalcedon?\"\r\nOR\r\n\"May Providence favor this day and peace see its end,\" $personName says, looking you over. \"What path brings you to our stormy home, captain?\"\r\nOR\r\n\"We thank Providence for this day and its peace,\" says $personName, holding $hisOrHer hands together piously. \"How may I be of help, captain?\"",
+   "ctx": "data/campaign/rules.csv lkeChalcedonVIPstartNeutral [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"Ah.\" $HeOrShe keeps looking at you.\r\n\r\n\"If I am understanding your intention, that might not be so easy. The Path is joined with the heart, the immortal spirit, not some number or identification file.\"\r\nOR\r\n\"Someone?\" $HeOrShe smiles in not wholly sincere apology.\r\n\r\n\"There are many people who come to Chalcedon, some who stay, some who go. Some who find that for which they search, and many who do not.\"",
+   "ctx": "data/campaign/rules.csv lkeChalcedonLookingSomeoneA [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"You may not like this, but I speak truly: the best recruiter for the Path is the Hegemony's brutality toward the Faithful, the Tri-Tachyon mercenary-assassins who cut down our children, the ravages of the Domain you can see all around us.\"\r\nOR\r\n\"The brutal suppression of our Faith recruits for the Path, captain. Those who ravage Creation and build false idols to assault God's domain - it is they recruit for the Path.\"",
+   "ctx": "data/campaign/rules.csv lkeChalcedonLookingRecruiterD [text]"
+  },
+  {
+   "i": 29,
+   "en": "The very ghost of a frown appears on $hisOrHer face.\r\n\r\n\"I'm afraid I don't know what you're talking about, captain. And if I did...\" $heOrShe shrugs, almost, but not quite apologetic.\r\nOR\r\n\"Surely I wouldn't know anything about that,\" $heOrShe says quickly.\r\n\r\nA new furrow appears in $hisOrHer brow, and $heOrShe adds, more quietly, \"Such an association could be... dangerous.\"",
+   "ctx": "data/campaign/rules.csv lkeChalcedonLookingRecruiterD2 [text]"
+  },
+  {
+   "i": 30,
+   "en": "$PersonName folds $hisOrHer hands, a tense smile appearing on $hisOrHer face.\r\n\r\n\"What do you think of us, really. Ignorant fanatics, fearful of machines, fleeing before your might? Your arrogance astounds me.\"\r\n\r\nThe $personPost taps something on a control console.\r\nOR\r\n\"You may not see it, but I am trying to help you.\"\r\n\r\nSomething tenses in $hisOrHer expression. \"If your eyes were not shut to Ludd's light, you might understand. But the false flame of pride, of power, leads you astray.\"\r\n\r\nThe $personPost taps something on a control console.",
+   "ctx": "data/campaign/rules.csv lkeChalcedonLookingRecD2c [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"Captain,\" the voice of your comms officer quietly speaks in your ear, \"They've sent some kind of coded signal. Nearby Pather fleets will be alerted to our position.\"\r\n\r\nYou acknowledge the report and turn your attention back to the Pather on the comms link - and find that the connection has been terminated.",
+   "ctx": "data/campaign/rules.csv lkeChalcedonLookingRecMad1 [text]"
+  },
+  {
+   "i": 32,
+   "en": "$HisOrHer expression hardens noticeably. \"I'm very sorry, captain, but all the credits in the Sector won't save my soul.\"\r\n\r\n$HeOrShe turns away, giving you a perfunctory \"Blessed day,\" before cutting the comm-link.\r\nOR\r\nA deep frown grows on $hisOrHer face. \"I am not to be bought and sold like a cache of supplies, captain.\"\r\n\r\n$HeOrShe turns to cut the comms, added a \"Ludd save you,\" before hitting the termination command.",
+   "ctx": "data/campaign/rules.csv lkeChalcedonLookingRecOutA [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"I'm very sorry, captain, but I have much work to do.\"\r\n\r\n$HeOrShe turns away, giving you a perfunctory \"Blessed day.\"\r\n\r\nThe link cuts from the other end.",
+   "ctx": "data/campaign/rules.csv lkeChalcedonLookingRecOutB [text]"
+  },
+  {
+   "i": 34,
+   "en": "\"I'm afraid that I know no one by that name, captain.\" $HeOrShe shrugs apologetically.\r\n\r\n\"If you are looking for a member of the Path, that will not be easy. It is, as I'm sure you know, a kinship of people, not numbers and indices. You must know someone who trusts you and knows the one for whom you look.\"\r\n\r\n\"So forgive me, but I do not have your answer. But... \" $heOrShe smiles coyly, \"I may know who to ask.\"\r\nOR\r\n\"I know not that name, $playerSirOrMadam,\" $heOrShe says. \"We do not believe in indexing people with the beast's number. To find someone, you must know someone, and you must build a bridge of trust. This is the Luddic way.\"\r\n\r\n\"So,\" $heOrShe nods, conceding something, \"while I have no answer for you, I may know someone who does.\"",
+   "ctx": "data/campaign/rules.csv lkeChalcedonLookingBornanewA [text]"
+  }
+ ]
+}

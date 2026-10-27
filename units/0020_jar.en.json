@@ -1,0 +1,1256 @@
+{
+ "chunk": 20,
+ "cat": "jar",
+ "items": [
+  {
+   "i": 1,
+   "en": "Post:",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/nullsuper.class"
+  },
+  {
+   "i": 2,
+   "en": "Rank:",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/nullsuper.class"
+  },
+  {
+   "i": 3,
+   "en": "You decide to...",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/o0Oo.class"
+  },
+  {
+   "i": 4,
+   "en": "Don't show this again",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/oOOo.class"
+  },
+  {
+   "i": 5,
+   "en": "Character +",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/newui/thissuper.class"
+  },
+  {
+   "i": 6,
+   "en": "travel speed",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/ui/ooooOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.class"
+  },
+  {
+   "i": 7,
+   "en": "Saving...",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/util/do.class"
+  },
+  {
+   "i": 8,
+   "en": "Saving screenshot to %s...",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/util/return.class"
+  },
+  {
+   "i": 9,
+   "en": "Defending",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/FleetAssignment.class"
+  },
+  {
+   "i": 10,
+   "en": "Delivering crew to",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/FleetAssignment.class"
+  },
+  {
+   "i": 11,
+   "en": "Delivering fuel to",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/FleetAssignment.class"
+  },
+  {
+   "i": 12,
+   "en": "Delivering marines to",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/FleetAssignment.class"
+  },
+  {
+   "i": 13,
+   "en": "Delivering personnel to",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/FleetAssignment.class"
+  },
+  {
+   "i": 14,
+   "en": "Delivering resources to",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/FleetAssignment.class"
+  },
+  {
+   "i": 15,
+   "en": "Delivering supplies to",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/FleetAssignment.class"
+  },
+  {
+   "i": 16,
+   "en": "Following",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/FleetAssignment.class"
+  },
+  {
+   "i": 17,
+   "en": "Holding",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/FleetAssignment.class"
+  },
+  {
+   "i": 18,
+   "en": "Intercepting",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/FleetAssignment.class"
+  },
+  {
+   "i": 19,
+   "en": "Orbiting",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/FleetAssignment.class"
+  },
+  {
+   "i": 20,
+   "en": "Patrolling system",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/FleetAssignment.class"
+  },
+  {
+   "i": 21,
+   "en": "Raiding",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/FleetAssignment.class"
+  },
+  {
+   "i": 22,
+   "en": "Resupplying at",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/FleetAssignment.class"
+  },
+  {
+   "i": 23,
+   "en": "Returning to",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/FleetAssignment.class"
+  },
+  {
+   "i": 24,
+   "en": "Standing down",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/FleetAssignment.class"
+  },
+  {
+   "i": 25,
+   "en": "Travelling",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/FleetAssignment.class"
+  },
+  {
+   "i": 26,
+   "en": "Very High",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/PersonImportance.class"
+  },
+  {
+   "i": 27,
+   "en": "Very Low",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/PersonImportance.class"
+  },
+  {
+   "i": 28,
+   "en": "Favorable",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/RepLevel.class"
+  },
+  {
+   "i": 29,
+   "en": "Inhospitable",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/RepLevel.class"
+  },
+  {
+   "i": 30,
+   "en": "Suspicious",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/RepLevel.class"
+  },
+  {
+   "i": 31,
+   "en": "Vengeful",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/RepLevel.class"
+  },
+  {
+   "i": 32,
+   "en": "Welcoming",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/RepLevel.class"
+  },
+  {
+   "i": 33,
+   "en": "Last month's debt",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/econ/MonthlyReport.class"
+  },
+  {
+   "i": 34,
+   "en": "Stockpiles drawn by your fleet",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/econ/MonthlyReport.class"
+  },
+  {
+   "i": 35,
+   "en": "Stockpiles used to counter shortages",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/econ/MonthlyReport.class"
+  },
+  {
+   "i": 36,
+   "en": "hulls",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/impl/items/BaseSpecialItemPlugin$1.class"
+  },
+  {
+   "i": 37,
+   "en": " (known)",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/impl/items/BaseSpecialItemPlugin.class"
+  },
+  {
+   "i": 38,
+   "en": "... and %s other ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/impl/items/BaseSpecialItemPlugin.class"
+  },
+  {
+   "i": 39,
+   "en": "Can not remove item",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/impl/items/BaseSpecialItemPlugin.class"
+  },
+  {
+   "i": 40,
+   "en": " Blueprint",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/impl/items/FighterBlueprintItemPlugin.class"
+  },
+  {
+   "i": 41,
+   "en": ": blueprint already known",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/impl/items/FighterBlueprintItemPlugin.class"
+  },
+  {
+   "i": 42,
+   "en": "Acquired blueprint: ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/impl/items/FighterBlueprintItemPlugin.class"
+  },
+  {
+   "i": 43,
+   "en": "Already known",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/impl/items/FighterBlueprintItemPlugin.class"
+  },
+  {
+   "i": 44,
+   "en": "Fighters:",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/impl/items/FighterBlueprintItemPlugin.class"
+  },
+  {
+   "i": 45,
+   "en": "Right-click to learn",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/impl/items/FighterBlueprintItemPlugin.class"
+  },
+  {
+   "i": 46,
+   "en": "Installed in:",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/impl/items/GenericSpecialItemPlugin.class"
+  },
+  {
+   "i": 47,
+   "en": "Requires:",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/impl/items/GenericSpecialItemPlugin.class"
+  },
+  {
+   "i": 48,
+   "en": " integrated - can transit active gates",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/impl/items/JanusDevicePlugin.class"
+  },
+  {
+   "i": 49,
+   "en": " with your fleet",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/impl/items/JanusDevicePlugin.class"
+  },
+  {
+   "i": 50,
+   "en": "Right-click to integrate the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/impl/items/JanusDevicePlugin.class"
+  },
+  {
+   "i": 51,
+   "en": " - Modspec",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/impl/items/ModSpecItemPlugin.class"
+  },
+  {
+   "i": 52,
+   "en": ": already known",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/impl/items/ModSpecItemPlugin.class"
+  },
+  {
+   "i": 53,
+   "en": "Acquired hull mod: ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/impl/items/ModSpecItemPlugin.class"
+  },
+  {
+   "i": 54,
+   "en": "Effect",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/impl/items/ModSpecItemPlugin.class"
+  },
+  {
+   "i": 55,
+   "en": " fighter blueprints",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/impl/items/MultiBlueprintItemPlugin.class"
+  },
+  {
+   "i": 56,
+   "en": " ship blueprints",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/impl/items/MultiBlueprintItemPlugin.class"
+  },
+  {
+   "i": 57,
+   "en": " weapon blueprints",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/impl/items/MultiBlueprintItemPlugin.class"
+  },
+  {
+   "i": 58,
+   "en": "Acquired ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/impl/items/MultiBlueprintItemPlugin.class"
+  },
+  {
+   "i": 59,
+   "en": "All blueprints in package already known",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/impl/items/MultiBlueprintItemPlugin.class"
+  },
+  {
+   "i": 60,
+   "en": "Ship hulls:",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/impl/items/MultiBlueprintItemPlugin.class"
+  },
+  {
+   "i": 61,
+   "en": "Weapons:",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/impl/items/MultiBlueprintItemPlugin.class"
+  },
+  {
+   "i": 62,
+   "en": "Right-click to analyze the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/impl/items/ShroudedHullmodItemPlugin.class"
+  },
+  {
+   "i": 63,
+   "en": "Right-click to manufacture a weapon",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/impl/items/ShroudedSubstratePlugin.class"
+  },
+  {
+   "i": 64,
+   "en": " integrated - can transit wormholes",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/impl/items/WormholeScannerPlugin.class"
+  },
+  {
+   "i": 65,
+   "en": "Discovered: ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/listeners/CoreDiscoverEntityPlugin.class"
+  },
+  {
+   "i": 66,
+   "en": "This option shows a rule-driven interaction dialog. In this case, the dialog targets the Asharu Terraforming Platform and fires the OpenInteractionDialog trigger to start the interaction.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/campaign/listeners/TestIndustryOptionProvider.class"
+  },
+  {
+   "i": 67,
+   "en": "They will lose the elite effects of the following skills:",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/characters/SkillsChangeOfficerEffect$1.class"
+  },
+  {
+   "i": 68,
+   "en": "They will lose the following skills:",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/characters/SkillsChangeOfficerEffect$1.class"
+  },
+  {
+   "i": 69,
+   "en": "This officer has the following skills:",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/characters/SkillsChangeOfficerEffect$1.class"
+  },
+  {
+   "i": 70,
+   "en": "Extending the contract beyond that will require a %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/characters/SkillsChangeOfficerEffect$2.class"
+  },
+  {
+   "i": 71,
+   "en": "This officer's pay will be increased from %s to %s per month, and they will want to leave after %s days, when their contract expires.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/characters/SkillsChangeOfficerEffect$2.class"
+  },
+  {
+   "i": 72,
+   "en": " lose excess elite skill effects",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/characters/SkillsChangeOfficerEffect.class"
+  },
+  {
+   "i": 73,
+   "en": " lose excess skills",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/characters/SkillsChangeOfficerEffect.class"
+  },
+  {
+   "i": 74,
+   "en": " lose excess skills and elite skill effects",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/characters/SkillsChangeOfficerEffect.class"
+  },
+  {
+   "i": 75,
+   "en": "), will...",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/characters/SkillsChangeOfficerEffect.class"
+  },
+  {
+   "i": 76,
+   "en": ", commanding the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/characters/SkillsChangeOfficerEffect.class"
+  },
+  {
+   "i": 77,
+   "en": ", unassigned, will...",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/characters/SkillsChangeOfficerEffect.class"
+  },
+  {
+   "i": 78,
+   "en": "Be relieved of command, and",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/characters/SkillsChangeOfficerEffect.class"
+  },
+  {
+   "i": 79,
+   "en": "Be relieved of command, and unable to be assigned command of a ship",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/characters/SkillsChangeOfficerEffect.class"
+  },
+  {
+   "i": 80,
+   "en": "Become a mercenary, drawing higher pay on a new contract",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/characters/SkillsChangeOfficerEffect.class"
+  },
+  {
+   "i": 81,
+   "en": "Become unable to be assigned command of a ship",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/characters/SkillsChangeOfficerEffect.class"
+  },
+  {
+   "i": 82,
+   "en": "Officers whose skills that exceed the new limits will have their excess skills removed, or become mercenaries on a temporary contract. Officers that already had those kinds of skills when acquired will not be affected.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/characters/SkillsChangeOfficerEffect.class"
+  },
+  {
+   "i": 83,
+   "en": "excess skills removed",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/characters/SkillsChangeOfficerEffect.class"
+  },
+  {
+   "i": 84,
+   "en": "Excess ordnance points",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/characters/SkillsChangeRemoveExcessOPEffect.class"
+  },
+  {
+   "i": 85,
+   "en": "Ships using more than their maximum ordnance points will have vents, capacitors, hullmods, and other equipment removed to bring them under the limit.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/characters/SkillsChangeRemoveExcessOPEffect.class"
+  },
+  {
+   "i": 86,
+   "en": "vents, capacitors, hullmods, and other equipment removed",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/characters/SkillsChangeRemoveExcessOPEffect.class"
+  },
+  {
+   "i": 87,
+   "en": "), will lose its built-in...",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/characters/SkillsChangeRemoveSmodsEffect.class"
+  },
+  {
+   "i": 88,
+   "en": "If only one s-mod is being removed, and the ship is currently in your fleet, you can select which s-mod to remove. S-mods you did not build into a ship will not be removed, even if the ship is over the limit.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/characters/SkillsChangeRemoveSmodsEffect.class"
+  },
+  {
+   "i": 89,
+   "en": "S-mods",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/characters/SkillsChangeRemoveSmodsEffect.class"
+  },
+  {
+   "i": 90,
+   "en": "Ships that you've built s-mods into that now have more than their maximum number of s-mods will have the cheapest s-mods removed.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/characters/SkillsChangeRemoveSmodsEffect.class"
+  },
+  {
+   "i": 91,
+   "en": "cheapest s-mods removed",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/characters/SkillsChangeRemoveSmodsEffect.class"
+  },
+  {
+   "i": 92,
+   "en": "Excess vents and capacitors",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/characters/SkillsChangeRemoveVentsCapsEffect.class"
+  },
+  {
+   "i": 93,
+   "en": "Ships that have more than the new maximum number of flux vents and capacitors will have the excess vents and capacitors removed.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/characters/SkillsChangeRemoveVentsCapsEffect.class"
+  },
+  {
+   "i": 94,
+   "en": "excess vents and capacitors removed",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/characters/SkillsChangeRemoveVentsCapsEffect.class"
+  },
+  {
+   "i": 95,
+   "en": " %s to install.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/combat/BaseHullMod.class"
+  },
+  {
+   "i": 96,
+   "en": " at a colony with a spaceport or an orbital station",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/combat/BaseHullMod.class"
+  },
+  {
+   "i": 97,
+   "en": " bonus",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/combat/BaseHullMod.class"
+  },
+  {
+   "i": 98,
+   "en": " penalty",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/combat/BaseHullMod.class"
+  },
+  {
+   "i": 99,
+   "en": "Aside from removing its ordnance point cost, this hullmod gains no extra effect from being built into the hull using a story point.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/combat/BaseHullMod.class"
+  },
+  {
+   "i": 100,
+   "en": "Can only be ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/combat/BaseHullMod.class"
+  },
+  {
+   "i": 101,
+   "en": "Cheap hullmods have stronger effects.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/combat/BaseHullMod.class"
+  },
+  {
+   "i": 102,
+   "en": "Cheaper hullmods have stronger effects, more expensive hullmods may have penalties.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/combat/BaseHullMod.class"
+  },
+  {
+   "i": 103,
+   "en": "Requires ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/combat/BaseHullMod.class"
+  },
+  {
+   "i": 104,
+   "en": "Requires item: ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/combat/BaseHullMod.class"
+  },
+  {
+   "i": 105,
+   "en": "S-mod bonus",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/combat/BaseHullMod.class"
+  },
+  {
+   "i": 106,
+   "en": "S-mod penalty",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/combat/BaseHullMod.class"
+  },
+  {
+   "i": 107,
+   "en": "This effect only applies if this built-in hullmod is enhanced using a %s. Doing this does not count against the maximum number of s-mods a ship can have.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/combat/BaseHullMod.class"
+  },
+  {
+   "i": 108,
+   "en": "This effect only applies if this hullmod is built into the hull using a story point. ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/combat/BaseHullMod.class"
+  },
+  {
+   "i": 109,
+   "en": "Using item: ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/combat/BaseHullMod.class"
+  },
+  {
+   "i": 110,
+   "en": "installed",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/combat/BaseHullMod.class"
+  },
+  {
+   "i": 111,
+   "en": "removed",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/combat/BaseHullMod.class"
+  },
+  {
+   "i": 112,
+   "en": "100% vs shields, armor, and hull",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/combat/DamageType.class"
+  },
+  {
+   "i": 113,
+   "en": "200% vs armor, 50% vs shields",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/combat/DamageType.class"
+  },
+  {
+   "i": 114,
+   "en": "200% vs shields, 50% vs armor",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/combat/DamageType.class"
+  },
+  {
+   "i": 115,
+   "en": "25% vs shields and armor, 100% vs hull",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/combat/DamageType.class"
+  },
+  {
+   "i": 116,
+   "en": "High Explosive",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/combat/DamageType.class"
+  },
+  {
+   "i": 117,
+   "en": "Kinetic",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/combat/DamageType.class"
+  },
+  {
+   "i": 118,
+   "en": "Composite",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/combat/WeaponAPI$WeaponType.class"
+  },
+  {
+   "i": 119,
+   "en": "Decorative",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/combat/WeaponAPI$WeaponType.class"
+  },
+  {
+   "i": 120,
+   "en": "Hybrid",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/combat/WeaponAPI$WeaponType.class"
+  },
+  {
+   "i": 121,
+   "en": "Launch Bay",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/combat/WeaponAPI$WeaponType.class"
+  },
+  {
+   "i": 122,
+   "en": "Station Module",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/combat/WeaponAPI$WeaponType.class"
+  },
+  {
+   "i": 123,
+   "en": "Synergy",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/combat/WeaponAPI$WeaponType.class"
+  },
+  {
+   "i": 124,
+   "en": "Universal",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/combat/WeaponAPI$WeaponType.class"
+  },
+  {
+   "i": 125,
+   "en": "Gas giants",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/PlanetSearchData$1.class"
+  },
+  {
+   "i": 126,
+   "en": "Show gas giants.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/PlanetSearchData$1.class"
+  },
+  {
+   "i": 127,
+   "en": "Show non-gas-giant planets and stations.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/PlanetSearchData$1.class"
+  },
+  {
+   "i": 128,
+   "en": "Show stars and black holes.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/PlanetSearchData$1.class"
+  },
+  {
+   "i": 129,
+   "en": "Stars",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/PlanetSearchData$1.class"
+  },
+  {
+   "i": 130,
+   "en": "Claimed",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/PlanetSearchData$2.class"
+  },
+  {
+   "i": 131,
+   "en": "Colonization is inadvisable.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/PlanetSearchData$2.class"
+  },
+  {
+   "i": 132,
+   "en": "Populated",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/PlanetSearchData$2.class"
+  },
+  {
+   "i": 133,
+   "en": "Show populated planets.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/PlanetSearchData$2.class"
+  },
+  {
+   "i": 134,
+   "en": "Show uninhabited and unclaimed planets.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/PlanetSearchData$2.class"
+  },
+  {
+   "i": 135,
+   "en": "Show uninhabited planets that are in a system claimed by a faction.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/PlanetSearchData$2.class"
+  },
+  {
+   "i": 136,
+   "en": "Unclaimed",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/PlanetSearchData$2.class"
+  },
+  {
+   "i": 137,
+   "en": "Show fully surveyed planets.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/PlanetSearchData$3.class"
+  },
+  {
+   "i": 138,
+   "en": "Show planets that have not been fully surveyed.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/PlanetSearchData$3.class"
+  },
+  {
+   "i": 139,
+   "en": "Surveyed",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/PlanetSearchData$3.class"
+  },
+  {
+   "i": 140,
+   "en": "Do not filter out any planets based on their hazard rating.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/PlanetSearchData$4.class"
+  },
+  {
+   "i": 141,
+   "en": "Only show planets with a hazard rating of %s or lower.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/PlanetSearchData$4.class"
+  },
+  {
+   "i": 142,
+   "en": "Do not filter out any planets based on the number of stable locations in the star system they are in.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/PlanetSearchData$5.class"
+  },
+  {
+   "i": 143,
+   "en": "Only show planets with %s or more stable locations in the star system they're in, including locations already in use by objectives or similar.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/PlanetSearchData$5.class"
+  },
+  {
+   "i": 144,
+   "en": "Stable locations",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/PlanetSearchData$5.class"
+  },
+  {
+   "i": 145,
+   "en": " to be present.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/PlanetSearchData$MarketConditionData.class"
+  },
+  {
+   "i": 146,
+   "en": "Require ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/PlanetSearchData$MarketConditionData.class"
+  },
+  {
+   "i": 147,
+   "en": " be present on the planet.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/PlanetSearchData$ResourceDepositsData.class"
+  },
+  {
+   "i": 148,
+   "en": " not required",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/PlanetSearchData$ResourceDepositsData.class"
+  },
+  {
+   "i": 149,
+   "en": " on the planet, both are acceptable.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/PlanetSearchData$ResourceDepositsData.class"
+  },
+  {
+   "i": 150,
+   "en": " or better.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/PlanetSearchData$ResourceDepositsData.class"
+  },
+  {
+   "i": 151,
+   "en": "Disregard the presence or absence of ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/PlanetSearchData$ResourceDepositsData.class"
+  },
+  {
+   "i": 152,
+   "en": "Require that no ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/PlanetSearchData$ResourceDepositsData.class"
+  },
+  {
+   "i": 153,
+   "en": "Any",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/PlanetSearchData.class"
+  },
+  {
+   "i": 154,
+   "en": "Atmo",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/PlanetSearchData.class"
+  },
+  {
+   "i": 155,
+   "en": "Cold",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/PlanetSearchData.class"
+  },
+  {
+   "i": 156,
+   "en": "Dark",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/PlanetSearchData.class"
+  },
+  {
+   "i": 157,
+   "en": "Farmland",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/PlanetSearchData.class"
+  },
+  {
+   "i": 158,
+   "en": "Hab",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/PlanetSearchData.class"
+  },
+  {
+   "i": 159,
+   "en": "Heat",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/PlanetSearchData.class"
+  },
+  {
+   "i": 160,
+   "en": "Ore",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/PlanetSearchData.class"
+  },
+  {
+   "i": 161,
+   "en": "Organics",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/PlanetSearchData.class"
+  },
+  {
+   "i": 162,
+   "en": "Ruins",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/PlanetSearchData.class"
+  },
+  {
+   "i": 163,
+   "en": "Tect",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/PlanetSearchData.class"
+  },
+  {
+   "i": 164,
+   "en": "Transplutonic ore",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/PlanetSearchData.class"
+  },
+  {
+   "i": 165,
+   "en": "Volatiles",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/PlanetSearchData.class"
+  },
+  {
+   "i": 166,
+   "en": "Wthr",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/PlanetSearchData.class"
+  },
+  {
+   "i": 167,
+   "en": "Experienced",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/PlayerFleetPersonnelTracker$PersonnelRank.class"
+  },
+  {
+   "i": 168,
+   "en": " marines",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/PlayerFleetPersonnelTracker.class"
+  },
+  {
+   "i": 169,
+   "en": "These marines are mostly regulars and have seen some combat, but are not, overall, accustomed to your style of command.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/PlayerFleetPersonnelTracker.class"
+  },
+  {
+   "i": 170,
+   "en": "These marines are veterans of many ground operations under your leadership; the command structure is well established and highly effective.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/PlayerFleetPersonnelTracker.class"
+  },
+  {
+   "i": 171,
+   "en": "You've led these marines on several operations, and the experience gained by both parties is beginning to show concrete benefits.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/PlayerFleetPersonnelTracker.class"
+  },
+  {
+   "i": 172,
+   "en": "\n\nDoes not affect AI cores or automated ships.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 173,
+   "en": "\n\nDoes not affect omega cores.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 174,
+   "en": "\n\nFor the selected category, uses a broader set of weapons than is available to most factions.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 175,
+   "en": "\n\nOnly affects automated ships.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 176,
+   "en": "      None",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 177,
+   "en": " The AI cores used are limited to the total number and type of cores in your cargo (and storage, if docked).",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 178,
+   "en": ", if possible",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 179,
+   "en": "A beta core on every opposing ship",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 180,
+   "en": "A gamma core on every opposing ship",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 181,
+   "en": "A mix of AI cores on some of the opposing ships, based on the number and size of opponents deployed.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 182,
+   "en": "AI cores",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 183,
+   "en": "AI cores in cargo & storage",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 184,
+   "en": "AI cores will be integrated into opposing ships, increasing each core's level by 1.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 185,
+   "en": "Aggression / behavior",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 186,
+   "en": "All ships",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 187,
+   "en": "All ships, level 5",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 188,
+   "en": "All ships, level 6",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 189,
+   "en": "Alpha cores on all ships",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 190,
+   "en": "An alpha core on every opposing ship",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 191,
+   "en": "An omega core on every opposing ship.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 192,
+   "en": "Behavior",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 193,
+   "en": "Beta cores on all ships",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 194,
+   "en": "Civilian ships",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 195,
+   "en": "Cores already in use in simulation",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 196,
+   "en": "Cores available to deploy",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 197,
+   "en": "Default (steady)",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 198,
+   "en": "Default aggression level for the selected faction.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 199,
+   "en": "Default number and level of officers for the selected faction.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 200,
+   "en": "DevMode stuff",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 201,
+   "en": "Do nothing",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 202,
+   "en": "Faction default",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 203,
+   "en": "Five d-mods on all opposing ships.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 204,
+   "en": "Gamma cores on all ships",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 205,
+   "en": "Integrate AI cores",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 206,
+   "en": "Level 5 officers on all opposing ships.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 207,
+   "en": "Level 6 officers on all opposing ships.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 208,
+   "en": "Many s-mods",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 209,
+   "en": "Maximum d-mods",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 210,
+   "en": "Maximum level officers on all opposing ships.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 211,
+   "en": "No AI cores in cargo (or storage, if docked).",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 212,
+   "en": "No AI cores on any opposing ships.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 213,
+   "en": "No d-mods",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 214,
+   "en": "No d-mods on any opposing ships.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 215,
+   "en": "No officers on any opposing ships.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 216,
+   "en": "Omega cores on all ships",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 217,
+   "en": "One or two s-mods on all opposing ships.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 218,
+   "en": "Opposing ships have randomized loadouts when this setting is enabled.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 219,
+   "en": "Opposing ships will behave normally.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 220,
+   "en": "Opposing ships will not move, but will otherwise behave normally.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 221,
+   "en": "Opposing ships will not move, but will use shields/phase cloak/other defenses and defensive ship systems, if any.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 222,
+   "en": "Opposing ships will not move, use shields, fire weapons, or take any other actions.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 223,
+   "en": "Randomized loadouts",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 224,
+   "en": "Requires a Beta Core or better in your cargo.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 225,
+   "en": "Requires a Gamma Core or better in your cargo.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 226,
+   "en": "Requires an Alpha Core in your cargo.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 227,
+   "en": "Ship quality",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 228,
+   "en": "Some",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 229,
+   "en": "Some d-mods",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 230,
+   "en": "Some officers, up to level 5.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 231,
+   "en": "Some s-mods",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 232,
+   "en": "Stationary",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 233,
+   "en": "Stationary, defenses only",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 234,
+   "en": "Two or three s-mods on all opposing ships.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 235,
+   "en": "Two to four d-mods on all opposing ships.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 236,
+   "en": "aggression level",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 237,
+   "en": "officer",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/SimulatorPluginImpl.class"
+  },
+  {
+   "i": 238,
+   "en": "Alpha Core",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/AICoreAdminPluginImpl.class"
+  },
+  {
+   "i": 239,
+   "en": " of %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/AbandonMarketPluginImpl.class"
+  },
+  {
+   "i": 240,
+   "en": "Abandoning %s, a size %s colony, requires %s in evacuation expenses. Shutting down all operations will generate %s credits, for a net ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/AbandonMarketPluginImpl.class"
+  },
+  {
+   "i": 241,
+   "en": "Can only abandon colonies of size %s or smaller.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/AbandonMarketPluginImpl.class"
+  },
+  {
+   "i": 242,
+   "en": "This action can not be undone. All items in storage and in use by industries will be lost.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/AbandonMarketPluginImpl.class"
+  },
+  {
+   "i": 243,
+   "en": "You have %s credits.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/AbandonMarketPluginImpl.class"
+  },
+  {
+   "i": 244,
+   "en": "cost",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/AbandonMarketPluginImpl.class"
+  },
+  {
+   "i": 245,
+   "en": "payout",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/AbandonMarketPluginImpl.class"
+  },
+  {
+   "i": 246,
+   "en": " more light-years)",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/AbyssalLightBonus.class"
+  },
+  {
+   "i": 247,
+   "en": "Abyssal light (for ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/AbyssalLightBonus.class"
+  },
+  {
+   "i": 248,
+   "en": "Increased burn level for %s light-years",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/AbyssalLightBonus.class"
+  },
+  {
+   "i": 249,
+   "en": "Increased sensor range for %s light-years",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/AbyssalLightBonus.class"
+  },
+  {
+   "i": 250,
+   "en": " is single-minded and determined. ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/BaseAICoreOfficerPluginImpl.class"
+  }
+ ]
+}

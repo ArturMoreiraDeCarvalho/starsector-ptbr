@@ -1,0 +1,151 @@
+{
+ "chunk": 218,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "$PersonName looks you over silently for a moment, then nods, seemingly satisfied.\r\n\r\n\"I don't want any questions, it's a simple task. Deliver this item to the specified location in $ddro_systemName, $ddro_dist light-years away. Don't be seen making the drop, and don't tell anyone about it. The reward is $ddro_reward credits.\" $HeOrShe taps at $hisOrHer datapad and your display is overlaid with $ddro_aOrAnThing. \r\n\r\n\"That is all there is to it. Do you accept my terms?\"",
+   "ctx": "data/campaign/rules.csv ddroOfferTextContact1 [text]"
+  },
+  {
+   "i": 2,
+   "en": "Your $shipOrFleet was recently detected - or is currently being tracked by - a nearby fleet, and dropping off the item at the specified location is extremely inadvisable.",
+   "ctx": "data/campaign/rules.csv ddroPrintHostilesText [text]"
+  },
+  {
+   "i": 3,
+   "en": "Your nav officer reports that your $shipOrFleet has arrived at the coordinates provided by $ddro_personName. The $ddro_thing is held gently in a cargo drone's manipulator arms, ready for deployment.\r\n\r\nThe go-button flashes softly on your command interface.",
+   "ctx": "data/campaign/rules.csv ddroObjectInteraction [text]"
+  },
+  {
+   "i": 4,
+   "en": "The bay doors open, and the cargo drone extends its arms. Then, gently, its manipulators release.\r\n\r\nIt is now done. Whatever 'it' is.",
+   "ctx": "data/campaign/rules.csv ddroObjectScan [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"One of my informants has relayed to me the location of $sitm_aOrAnItem. I would share this information with you for a reasonable price.\"",
+   "ctx": "data/campaign/rules.csv sitmBlurb1 [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"One of my infiltrators has relayed to me the location of $sitm_aOrAnItem. I have no need of this in my current plans, so I have magnanimously decided to share this opportunity for a very reasonable price.\"",
+   "ctx": "data/campaign/rules.csv sitmBlurb1_villain [text]"
+  },
+  {
+   "i": 7,
+   "en": "A flashily-dressed $manOrWoman wearing a partial salvor's rig festooned with shining trophies pushes past you and buys a round for the entire bar.",
+   "ctx": "data/campaign/rules.csv sitmBlurbBar1 [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"I'm celebrating!\" $HeOrShe leans close, \"A new find.\" $HeOrShe lifts $hisOrHer drink and turns, grinning, \"Drink, drink! To my good fortune!\" Enthusiasm for this self-toast is only moderate, though a crew of spacers well into their off-shift shouts encouragement.\r\n\r\n$HeOrShe downs the drink while the spacers hoot, then turns back to you. \"You look like you know your way through a jump-point,\" $heOrShe says, lowering $hisOrHer voice once more. \"I know the location of $sitm_aOrAnItem, and so could you for the price of $sitm_price credits. Just need to hop over with your $shipOrFleet and take it. I'd go myself, but I have too much love for civilization.\" \r\n\r\n$HeOrShe taps $hisOrHer empty drink, looking for the bartender. \"Interested?\" $heOrShe asks casually.",
+   "ctx": "data/campaign/rules.csv sitmOfferTextBar1 [text]"
+  },
+  {
+   "i": 9,
+   "en": "You pay, and the $manOrWoman makes some excuse to leave. As you examine the coordinates, the bartender arrives with the second drink, and sighs. \"Word of advice friend, this isn't the first time $heOrShe has pulled that display. I reckon you're not the only one with a treasure map.\"",
+   "ctx": "data/campaign/rules.csv sitmContactMissionAcceptBar [text]"
+  },
+  {
+   "i": 10,
+   "en": "$HeOrShe considers something for a moment, then relents, \"I should also warn you that this informant, they are not completely reliable. Don't take me wrong, I am confident in the validity of the information provided - it is more that they have a way of selling the same data to multiple interested parties. So if you accept, be prepared to deal with other treasure-hunters.\" \r\n\r\n\"So let's call it $sitm_price credits for the location data. Very reasonable. What do you say?\"",
+   "ctx": "data/campaign/rules.csv sitmOfferTextContact1 [text]"
+  },
+  {
+   "i": 11,
+   "en": "$HeOrShe considers something for a moment, then relents, \"I do wish for you to continue being useful to me in the future, so I will give you a warning - heed it well. I have already sold this information to several other interested parties in order to maximize my profits. If you accept, be prepared to deal with these other treasure-seekers.\" $HeOrShe smiles in anticipation, \"It will be far from the core worlds; you could burn their fleets from the sky, plunder their supplies, and none would be the wiser.\" \r\n\r\n\"$sitm_price credits for the location data. Very reasonable. Will you choose to participate in this most dangerous game?\"",
+   "ctx": "data/campaign/rules.csv sitmOfferTextContact1_villain [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"This find is going to be mine, and mine alone! You'll stay away if...\" the scavenger searches for the right words, then surprises $himOrHerself \"If- if you know what's good for you!\"\r\n\r\nThe comm link is cut abruptly while you're still considering what to say.",
+   "ctx": "data/campaign/rules.csv SITMScavWarning [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"I told you, I warned you,\" the scavenger sputters. \"You had to- to try me after I told you. I told you! You're going to regret it\"\r\n\r\nThe comm link is cut again before you can say anything. This scavenger is not much for two-way conversations.",
+   "ctx": "data/campaign/rules.csv SITMScavAttack [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"Whatever the scavs find, it'll be mine. Maybe I'll pay them a few credits,\" $heOrShe says, \"Maybe if I'm feeling generous,\" $heOrShe says with an ugly smile. The merc pauses, watching you.\r\n\r\n\"You, on the other hand, need to get out of here... for your own health!\"\r\n\r\n$HeOrShe says this with smug sincerity, apparently confident that it'll have you turn around and flee at max burn. The comm link is abruptly terminated while you're still taking in $hisOrHer delivery of this threat.",
+   "ctx": "data/campaign/rules.csv SITMMercWarning [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"I told you to leave unless you wanted to have a very bad time,\" the merc says, annoyed and upset that you didn't listen. \"Now I have to blast you because no one will take me seriously if I don't. And don't you start, you did this to yourself.\"\r\n\r\n$HeOrShe cuts the comm link before you can reply.",
+   "ctx": "data/campaign/rules.csv SITMMercAttack [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"Foul tool of Moloch!\" the Pather spits, \"Why must you meddle in things which ought be forgotten, did the prophet Ludd die in vain for fools like you?\"\r\n\r\n$HeOrShe takes a deep breath. \"Holy vacuum show you mercy, for I shan't.\"",
+   "ctx": "data/campaign/rules.csv SITMPatherHail [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"Foul slave of Mammon!\" spits the Pather. \"Did not Providence hide this evil from humanity? Now comes you, plundering for demon-artifacts, digging and despoiling for... for profane wealth?\"\r\n\r\n$HeOrShe takes a deep breath. \"Ludd forgive me my wrath.\"",
+   "ctx": "data/campaign/rules.csv HistorianPatherHail [text]"
+  },
+  {
+   "i": 18,
+   "en": "The comms-link crackles to life. \"Greetings, star-farer!\" $Rank $personName grimaces regretfully, \"Bad news: you possess something my superiors desire and now you must surrender it to me.\"\r\n\r\nYou realize that $heOrShe is talking about $entity.fwt_thingDesc.\r\n\r\n\"Now, is this going to be easy or hard? Think, now,\" $heOrShe says with false charitably, \"But don't take too long, please.\"\r\n\r\nThe demand is outright robbery and any law-abiding faction would be embarrassed to condemn you for defending yourself, if you chose to do so.",
+   "ctx": "data/campaign/rules.csv fwtOpenCommGenericAggroNoPay [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"Bright stars, captain. I regret to inform you that my visit is not merely social,\" $heOrShe looks genuinely regretful. \"I hate doing this, but I shall make it quick so that we may move on with our lives once this small awkwardness is finished.\" \r\n\r\n$Rank $personName clears $hisOrHer throat, \"You have something my superior wants. I'm sure you know what it is. Hand it over now and I'll give you the $entity.fwt_payment credits my employers have generously set aside for this transaction.\" \r\n\r\nYou realize that $heOrShe is, of course, talking about $entity.fwt_thingDesc.\r\n\r\n$HeOrShe releases a breath, \"That wasn't so bad, right? And you'll be paid for your trouble. Quite a deal.\" $HeOrShe taps $hisOrHer console idly, then looks up and adds \"I shudder to consider having to kill you.\" ",
+   "ctx": "data/campaign/rules.csv fwtOpenCommGenericAggroPay [text]"
+  },
+  {
+   "i": 20,
+   "en": "The comms-link crackles to life. \"Bright stars and steady burns, captain! It's your lucky day,\" $heOrShe says with a conviction you feel like you can't trust, \"You've found something very special that my, ah, superiors have been looking for. They've sent me all the way out here to pay you $entity.fwt_payment credits for handing it over to me for safekeeping.\"\r\n\r\nYou realize that $heOrShe is talking about $entity.fwt_thingDesc.\r\n\r\n\"The cost of fuel these days, why, I'm doing you a favor.\" $HeOrShe pauses, then says \"This is an opportunity that can profit us both. I hope you can see that.\"",
+   "ctx": "data/campaign/rules.csv fwtOpenCommGenericNoAggroPay [text]"
+  },
+  {
+   "i": 21,
+   "en": "The $faction $personRank looks more than a little surprised that you accepted $hisOrHer terms.\r\n\r\n\"Well. Good.\" $HeOrShe nods. \"An unexpected but wise decision.\" $HeOrShe seems unsure of what else to say at this point, then shrugs and snaps the comms off.\r\n\r\nYou consider your next move.",
+   "ctx": "data/campaign/rules.csv fwt_acceptSelNoPay [text]"
+  },
+  {
+   "i": 22,
+   "en": "The $faction $personRank looks pleased as $heOrShe transmits payment.\r\n\r\n\"Excellent! Great. Good doing business with you, $playerName.\" You exchange a few hollow pleasantries and cut the comm link.",
+   "ctx": "data/campaign/rules.csv fwt_acceptSelPay [text]"
+  },
+  {
+   "i": 23,
+   "en": "The display flickers with holo-snow before resolving into a swaggering pirate captain.\r\n\r\n\"Ah look at you there, what a fine $shipOrFleet. A little birdie told me you have $fwt_thingDesc and come next shift I'm going to be the one a-holding $fwt_itOrThem. Do you see my meaning, captain? It'd be a crying shame if anything happened to your fine $shipOrFleet.\"\r\n\r\n$HeOrShe pretends to be pondering deeply, \"Now, 'way I see this going, are you gonna make the smart choice and hand $fwt_itOrThem over all peaceful-like, or are you gonna be sucking vacuum after I blow your $shipOrFleet out of orbit? Think, now, think.\"",
+   "ctx": "data/campaign/rules.csv fwtOpenCommPirates [text]"
+  },
+  {
+   "i": 24,
+   "en": "Your stare bores into the pirate like twin tachyon lances as you bellow your words, \"You dare claim property of the Warlord Kanta?\"\r\n\r\nThe blood drains from the pirate captain's face. \"She... but... by, stars and blood. Captain, please accept my apologies! I would never... she doesn't need to hear of this, isn't that right? Please- please accept a token of $fwt_piratePayment credits for this unfortunate delay.\"\r\n\r\n$HeOrShe is almost pleading now, \"So, captain. Captain, you won't mention this little incident?\"",
+   "ctx": "data/campaign/rules.csv fwtPirateBluff [text]"
+  },
+  {
+   "i": 25,
+   "en": "The pirate nods grimly, \"Yes... yes of course.\" $HeOrShe studies you, attempting to divine if you'll tell Kanta of $hisOrHer transgression.\r\n\r\nAnd if so, what steps might be taken to change one's name and appearance. Then, perhaps, the wisdom of crewing on a long salvage expedition on the fringe of the Persean Sector far, far away from anyone with the name 'Kanta'.\r\n\r\nYou take this cue to terminate the comms and roll your eyes at the pirate's cowardice.",
+   "ctx": "data/campaign/rules.csv fwtPirateBluff1 [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"So you're just giving $fwt_itOrThem to me?\" The pirate captain still looks skeptical. \"Good, I suppose. Smart move. Very economical.\" $heOrShe mutters while confirming the handover on a battered datapad.\r\n\r\n\"That's that then, captain. No battle, no glory...\" $heOrShe looks away wistfully, \"It's these new times, I tell you. All business, no adventure, why back in-\" \r\n\r\nThe link is terminated on the other end without fanfare.",
+   "ctx": "data/campaign/rules.csv fwtAcceptPirates [text]"
+  },
+  {
+   "i": 27,
+   "en": "The comms flicker with snow, and as the $faction $rank begins to speak you realize it's due to ill-maintained equipment of the Pather flagship. \r\n\r\n\"The blessed Path led me to you. Will you suffer the hammer and the sword? Or will you repent - by surrendering $entity.fwt_theThing, which you carry to no good end?\"\r\n\r\n\"Don't think me a mere fanatic, captain,\" $heOrShe says. \"I pray for heretic and apostate alike each day, and I pray now that I may destroy $entity.fwt_TheThing in cleansing vacuum rather the hellfire-death of your flagship. Accept my mercy.\"",
+   "ctx": "data/campaign/rules.csv fwtOpenCommPatherAggroNoPay [text]"
+  },
+  {
+   "i": 28,
+   "en": "You shock the Pather by seeming to accept $hisOrHer words at face value. Truly, $heOrShe prays for you?\r\n\r\nYou get the Pather explaining exactly how you've stumbled into a path of sin and how you might yet be saved. You nod, serious and appearing conflicted.\r\n\r\nMeanwhile, your fingers type out precise instructions to your operations chief.",
+   "ctx": "data/campaign/rules.csv fwtBluffPather [text]"
+  },
+  {
+   "i": 29,
+   "en": "Sounding almost in tears, you make a show of repenting, accepting a transmission of Luddic Path holovids - speeches by a Brother Cotton figure prominently in the files.\r\n\r\n\"It is time,\" the Pather says, \"To take your first step.\" You nod, then turn and give the order to eject $entity.fwt_theThing so that it may be cleansed in the holy vacuum.\r\n\r\nA blip drifts across the tactical display; the Pather blasts it into a spray of exotic particles.",
+   "ctx": "data/campaign/rules.csv fwtBluffPather1 [text]"
+  }
+ ]
+}

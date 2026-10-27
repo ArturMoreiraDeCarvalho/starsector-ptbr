@@ -1,0 +1,186 @@
+{
+ "chunk": 65,
+ "cat": "desc",
+ "items": [
+  {
+   "i": 1,
+   "en": "This planet is dry as bone and swirling with dust, stellar radiation mercilessly beats the surface. The life-sustaining water of this world has dissipated over the aeons due to a weak magnetic field.",
+   "ctx": "data/strings/descriptions.csv desert/PLANET [text1]"
+  },
+  {
+   "i": 2,
+   "en": "A deathly dry world, the surface exhibits the warm hue of oxidized iron compounds. A thin atmosphere prevails on worlds of this class, the predominant carbon dioxide stirred occasionally into planet-wide dust storms. Icecaps of atmospheric CO2 may form and sublime with the turn of the seasons.",
+   "ctx": "data/strings/descriptions.csv barren-desert/PLANET [text1]"
+  },
+  {
+   "i": 3,
+   "en": "An inhospitable, dry world that has a much smaller percentage of water in its atmosphere than the terran standard. Nonetheless, an atmosphere and magnetic field protect the surface from stellar radiation permitting a small biosphere to slowly eke out an existence here.",
+   "ctx": "data/strings/descriptions.csv arid/PLANET [text1]"
+  },
+  {
+   "i": 4,
+   "en": "A terran-extreme variant world with a nitrogen-oxygen atmosphere maintained by a relatively subdued biosphere that exists largely within the oceans that undergo periodic thaw periods. The surface is very cold indeed, but it is human-viable if precautions are observed. Carbon dioxide may freeze out of the atmosphere at the poles during the local winter.",
+   "ctx": "data/strings/descriptions.csv tundra/PLANET [text1]"
+  },
+  {
+   "i": 5,
+   "en": "A frozen wasteland covered with volcanoes that erupt ammonia or more rarely, water instead of magma.",
+   "ctx": "data/strings/descriptions.csv cryovolcanic/PLANET [text1]"
+  },
+  {
+   "i": 6,
+   "en": "A rocky-metallic husk-world, its shattered landscape is a record of a violent history. Kilometers-deep chasms rive the surface and craters pit lava-fields beneath inert volcanoes that dwarf any of those on Old Earth. Planets like this are valued for mining operations. There is no significant ecology and only trace atmosphere.",
+   "ctx": "data/strings/descriptions.csv rocky_metallic/PLANET [text1]"
+  },
+  {
+   "i": 7,
+   "en": "Capital of the Sindrian Diktat and home to millions of citizens living in underground hive-cities. Centuries of mining has wormed through the crust of Sindria while recent autarky programs have fostered a crude base of heavy industry. Vast energies captured by a series of solar arrays launched from subsurface mass drivers are used to power one of the Sector’s few AM fuel production facilities where antimatter is created via hellish physics, then trapped in fullerene shells carefully mixed with heavy hydrogens and actinides into the relatively stable fuel pellets on which interstellar civilization relies.",
+   "ctx": "data/strings/descriptions.csv planet_sindria/CUSTOM [text1]"
+  },
+  {
+   "i": 8,
+   "en": "A gas giant world of immense mass, the crushingly-deep atmosphere is coloured by abundant ammonia and sulphide compounds. Vast electrical storms can sometimes be seen on the night-side of this world. Salus is somewhat smaller and has relatively sedate radiation fields compared to those of Jupiter of Old Earth's system.",
+   "ctx": "data/strings/descriptions.csv planet_salus/CUSTOM [text1]"
+  },
+  {
+   "i": 9,
+   "en": "An unstable world rocked by quakes and eruptions. Where the surface is not covered by seas of cooled lava, it is dominated by rough peaks and scattered supervolcanoes which eject toxic gases to form a tenuous and corrosive atmosphere. This is not a place welcoming to any kind of permanent settlement.",
+   "ctx": "data/strings/descriptions.csv rocky_unstable/PLANET [text1]"
+  },
+  {
+   "i": 10,
+   "en": "Cruor will always be a backwater due to its protean surface, broken and re-broken by the tidal forces of Salus. Under Diktat rule, Cruor is a world of temporary mining and prison operations. The free population is made of contractors and technicians from Volturn seeking their fortune off-world. Desperately bored workers burn their wages by partaking of the myriad vices provided by a lively black market quietly tolerated by the Diktat governor. ",
+   "ctx": "data/strings/descriptions.csv planet_cruor/CUSTOM [text1]"
+  },
+  {
+   "i": 11,
+   "en": "A primitive atmosphere covers a world-ocean hundreds of kilometers deep. Its waters teem with primitive life and vast algae-analog mats can be seen by instruments from space. A core of water-ice over a rocky mantle is created by the terrific pressure of the sea.",
+   "ctx": "data/strings/descriptions.csv water/PLANET [text1]"
+  },
+  {
+   "i": 12,
+   "en": "Volturn possesses a thick atmosphere over a world-sea which has been seeded with re-engineered Terra-type life forms that have largely displaced the relatively primitive native organisms which once formed vast drifting colonial mats. The human population lives in a diverse range of floating habitats and subsists largely on farming and processing complex organic compounds.",
+   "ctx": "data/strings/descriptions.csv planet_volturn/CUSTOM [text1]"
+  },
+  {
+   "i": 13,
+   "en": "A frozen world of methane and ammonia, water-ice is like rock and may be found in mountainous outcroppings and boulders. A thin atmosphere of volatiles is formed on the starward side of the planet only to freeze again on the dark side. Most craters are filled in over time as this \"snow\" is deposited.",
+   "ctx": "data/strings/descriptions.csv rocky_ice/PLANET [text1]"
+  },
+  {
+   "i": 14,
+   "en": "Seat of the Askonian Revolutionary Council, a local faction of Antis. Conditions are unforgiving under harsh emergency regulations. Economic activity outwardly consists of mining volatiles and reprocessing tailings from the abandoned core-boring project, but the ARC has also allowed what might be termed \"pirates\" to operate from Umbra due to independent traders being scared away by \"emergency expropriations\". Small numbers of refugees came to Umbra, straining local infrastructure, to join the revolution or hoping to find their way elsewhere.",
+   "ctx": "data/strings/descriptions.csv planet_umbra/CUSTOM [text1]"
+  },
+  {
+   "i": 15,
+   "en": "A G2 type primary sequence star, estimated age is five billion years. Surface temperature is only about six thousand degrees, while core temperature could well exceed fifteen million degrees.",
+   "ctx": "data/strings/descriptions.csv star_yellow/PLANET [text1]"
+  },
+  {
+   "i": 16,
+   "en": "Slightly cooler and smaller than Old Earth's sun, this class K star most resembles Alpha Centauri B. It is particularly stable, burning on the lower end of the main sequence for tens of billions of years and thus considered a likely host to life-bearing and terraformable planets.",
+   "ctx": "data/strings/descriptions.csv star_orange/PLANET [text1]"
+  },
+  {
+   "i": 17,
+   "en": "A very high temperature and luminosity O-type star. Although extraordinarily massive this star is short-lived due to the hellish rate at which it fuses its constituent elements. It will quickly, for a star, explode as a supernova which may briefly outshine entire galaxies before transforming into a black hole or neutron star. The energies unleashed from the star's raging fusion heart erupt in powerful stellar winds that will strip the atmosphere from closely orbiting planets - and the hull from any starships that linger nearby.",
+   "ctx": "data/strings/descriptions.csv star_blue_giant/PLANET [text1]"
+  },
+  {
+   "i": 18,
+   "en": "An O-type star of extreme temperature, luminosity, mass, and volume. The supergiant star is sufficiently massive that it transitions smoothly from burning hydrogen to helium and onward. It is among the brightest candles, burning quickest and brightest before exploding as a supernova which may briefly outshine entire galaxies, bathing entire sectors in deadly radiation. The energies unleashed from the star's raging fusion heart erupt in powerful stellar winds that will strip the atmosphere from closely orbiting planets - and the hull from any starships that linger nearby.",
+   "ctx": "data/strings/descriptions.csv star_blue_supergiant/PLANET [text1]"
+  },
+  {
+   "i": 19,
+   "en": "This brown dwarf is a sub-stellar primary mass which has not reached sufficient temperature to fuse hydrogen, though it radiates appreciable electromagnetic radiation due to gravitational compression. Smaller brown dwarfs are categorized with massive gas giants on a somewhat muddled spectrum rather than with a definitive threshold. The magnetic fields of the brown dwarf are powerful and potentially tumultuous compared to small planets.",
+   "ctx": "data/strings/descriptions.csv star_browndwarf/PLANET [text1]"
+  },
+  {
+   "i": 20,
+   "en": "This is a star that lived, died in nova, and now lives again as an extraordinarily small, hot, dense mass whose volume is maintained by the strong nuclear force rather than rote electromagnetism. Although massing up to three Solar masses, the neutron star's radius is equivalent to barely that of Old Earth. Rapidly spinning neutron stars may emit intense beams of electromagnetic radiation; these are known as pulsars. A wise starship captain would do well to avoid them.  ",
+   "ctx": "data/strings/descriptions.csv star_neutron/PLANET [text1]"
+  },
+  {
+   "i": 21,
+   "en": "The result of the apocalyptic collapse of a massive star. No object can escape from the black hole, nor light itself. The black hole does however emit detectable Hawking radiation due to poorly-understood quantum effects. No information can be detected beyond the event horizon with any device known to exist in the Sector. The intense gravity of the black hole rips and tears nearby objects into an accretion disc which inevitably spirals into the gravitational abyss. Extremely dangerous.",
+   "ctx": "data/strings/descriptions.csv black_hole/PLANET [text1]"
+  },
+  {
+   "i": 22,
+   "en": "A giant class K star which has depleted its hydrogen fuel and has reached sufficient temperature, due to sufficient mass, to fuse helium. Technically a kind of red giant, this star is more massive and hotter-burning than more common examples. Resembles the star Aldebaran known to classical pre-Domain astronomy.",
+   "ctx": "data/strings/descriptions.csv star_orange_giant/PLANET [text1]"
+  },
+  {
+   "i": 23,
+   "en": "A supergiant star in a late phase of its mayfly-short stellar life, this class M star has the largest volume of all known stellar types. It has exhausted its core's supply of hydrogen, transitioning smoothly to the fusion of helium, and is likely to proceed onward through the elements up to iron before creating a supernova. Although extraordinarily massive, the outer envelope of the star is extremely sparse and has a relatively low temperature, providing its characteristic hue. This star is casting off its constituent matter at a rapid rate and will form a spectacular nebula. Betelgeuse and Antares are examples of red supergiants known to classical pre-Domain astronomy.",
+   "ctx": "data/strings/descriptions.csv star_red_supergiant/PLANET [text1]"
+  },
+  {
+   "i": 24,
+   "en": "A low-to-medium mass star in a late phase of stellar evolution, a red giant has exhausted the supply of hydrogen in its core and switched to hydrogen fusion in a shell around the now-helium core instead. While the star itself is huge, the outer envelope has a lower temperature, giving the star its characteristic hue.",
+   "ctx": "data/strings/descriptions.csv star_red_giant/PLANET [text1]"
+  },
+  {
+   "i": 25,
+   "en": "A class M main sequence star, small and exceedingly common. These relatively cool stars often mass only a fraction of Old Earth's sun. ",
+   "ctx": "data/strings/descriptions.csv star_red_dwarf/PLANET [text1]"
+  },
+  {
+   "i": 26,
+   "en": "The beginning of the end for most stars, the white dwarf was once a red giant not massive enough to fuse carbon. Extremely dense and slowly radiating away its heat as it no longer undergoes fusion reactions, its volume is supported against gravitational collapse only by electron degeneracy pressure. ",
+   "ctx": "data/strings/descriptions.csv star_white/PLANET [text1]"
+  },
+  {
+   "i": 27,
+   "en": "A ring of defense drones around the station.",
+   "ctx": "data/strings/descriptions.csv drone_station_lt/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 28,
+   "en": "Temporarily increases the damage taken by the target ship. Generates a significant amount of flux when used.\r\n\r\nThe duration of the effect is in the reference frame of the source ship; if it phases or otherwise experiences an altered time rate, the duration of the effect will be likewise affected for outside observers.",
+   "ctx": "data/strings/descriptions.csv entropyamplifier/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 29,
+   "en": "Interferes with the target ship's drive field, disabling some engines.\r\n\r\nGenerally does not cause a flameout when used against a ship with its engines fully operational, but may do so depending on the engine configuration, as it will always knock out at least one active engine.",
+   "ctx": "data/strings/descriptions.csv interdictor/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 30,
+   "en": "Teleports a heavy phase mine to the target area. The mine will slowly track nearby enemy ships and explodes a few seconds after its proximity trigger is activated. Can be used while phased.",
+   "ctx": "data/strings/descriptions.csv mine_strike/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 31,
+   "en": "Teleports a heavy phase mine to the target area. The mine will slowly track nearby enemy ships and explodes a few seconds after its proximity trigger is activated.",
+   "ctx": "data/strings/descriptions.csv mine_strike_station/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 32,
+   "en": "Energy motes deal heavy EMP damage to ships and obliterate fighters and missiles. Using the system creates a temporary attractor point for the motes. The motes automatically target nearby missiles and fighters unless an attractor point is set on an enemy ship.",
+   "ctx": "data/strings/descriptions.csv mote_control/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 33,
+   "en": "Briefly overloads a nearby enemy ship.\r\n\r\nExploits weakly acausal principles poorly understood even before the Collapse. In the present day, the effects may as well be magic.",
+   "ctx": "data/strings/descriptions.csv acausaldisruptor/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 34,
+   "en": "Speeds up the flow of time on board the ship. Generates a significant amount of flux when used.\r\n\r\nResearch on prolonged exposure to the effect was described as 'worrying' and quietly halted.",
+   "ctx": "data/strings/descriptions.csv temporalshell/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 35,
+   "en": "Briefly activates an energy field that mitigates incoming damage at the cost of disabling weapons and shields.",
+   "ctx": "data/strings/descriptions.csv damper/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 36,
+   "en": "Briefly activates an entropy-dampening field that halves all damage taken and all flux generated, and rapidly repairs all disabled engines and weapons. Disables shields.",
+   "ctx": "data/strings/descriptions.csv damper_omega/SHIP_SYSTEM [text1]"
+  }
+ ]
+}

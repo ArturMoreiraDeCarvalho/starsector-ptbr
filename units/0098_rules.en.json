@@ -1,0 +1,211 @@
+{
+ "chunk": 98,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"Hostile vessel, be advised, linecast to system patrol craft has already been dispatched, reinforcements are en route. You are advised to power down weapon systems and disengage. Over.\"\r\nOR\r\n\"Belligerent contact! Be advised that firing upon a Hegemony vessel is considered an act of insurrection and you'll be hunted down!\" The Hegemony $personRank is sweating. \"When they're done with you, you'll be sold in black markets on worlds across the Sector, I swear it.\"\r\nOR\r\n\"We give our lives for the restoration of the Domain and all humanity.\" $HeOrShe pauses for a moment as if to say something more, then cuts the comm.",
+   "ctx": "data/campaign/rules.csv greetingHegemonyHostileWeaker [text]"
+  },
+  {
+   "i": 2,
+   "en": "The Hegemony $personRank looks grim but defiant. \"We will fight you to the last,\" $heOrShe says.\r\nOR\r\n\"We fight and we die for the Domain; for humanity.\" The comm-line cuts out.",
+   "ctx": "data/campaign/rules.csv greetingHegemonyHostileWeakerDefiant [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"By authority of the High Hegemon Administrator, you are ordered to take hyperspace drives offline, disable weapons and surrender. Over.\"\r\nOR\r\n\"Resistance to Hegemony authority is an act of insurrection and shall be punished accordingly. Surrender now or be met with force.\"",
+   "ctx": "data/campaign/rules.csv greetingHegemonyHostileStronger [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"You have been scanned and identified, citizen. If nothing is amiss, we shall be on our way.\"\r\nOR\r\nThe Hegemony $personRank looks impatient. \"Is there an emergency to report? No? Then carry on, citizen.\"",
+   "ctx": "data/campaign/rules.csv greetingHegemonyNeutral [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"Identity confirmed. Please accept my greetings on behalf of the Company.\"\r\nOR\r\n\"Sorry friend, this Tri-Tachyon vessel is on a classified mission. Burn bright.\"\r\nOR\r\n\"Greetings on behalf of the Tri-Tachyon Corporation! Please state your business so that we may assist in meeting your needs -- for a reasonable fee, of course.\"\r\nOR\r\n\"Comm open. Oh, do you have the latest Tri-Tachyon catalogue of executive spaceflight accessories? I'll have a customer service representative upload a copy immediately.\"\r\n\r\nYour comms officer's console pings.\r\nOR\r\n\"Hi, I'd like to add you to my professional network on TriLink.\"",
+   "ctx": "data/campaign/rules.csv greetingTTFriendly [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"Attention. Your vessel has been scanned and identified as hostile to the Tri-Tachyon Corporation. Further attempts at aggression will be recorded.\"\r\nOR\r\n\"Any attempt to hinder or damage this Tri-Tachyon owned and operated vessel will result in legal consequences.\" The Tri-Tachyon $personRank looks nervous. \"Trust me, these people don't mess around, you really ought to leave me alone.\"",
+   "ctx": "data/campaign/rules.csv greetingTTHostileWeaker [text]"
+  },
+  {
+   "i": 7,
+   "en": "The Tri-Tachyon $personRank looks grim but defiant. \"Corporate regulation 313.33, section A, states that combat-capable vessels must defend themselves in a vigorous manner at all times,\" $heOrShe says.",
+   "ctx": "data/campaign/rules.csv greetingTTHostileWeakerDefiant [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"Attention. Your vessel has been scanned and identified as hostile to the Tri-Tachyon Corporation. Prepare for annihilation.\"\r\nOR\r\n\"On behalf of the Tri-Tachyon Corporation I would like to thank you for providing this opportunity to prove the superiority of our branded line of space defense products.\"\r\nOR\r\n\"On behalf of the Tri-Tachyon Corporation it is my duty to inform you that this engagement will be recorded. As a presumed belligerent engaged in destruction of wholly owned Company property, you automatically refuse all rights to distribution and profit-sharing.\" The Tri-Tachyon $personRank grins and cuts the comm-link.",
+   "ctx": "data/campaign/rules.csv greetingTTHostileStronger [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"On behalf of the Tri-Tachyon corporation, it is my pleasure to inform you that your $shipOrFleet has been scanned and its tactical loadout evaluated.\"\r\n\r\nThe $post drones in a pleasant corporate monotone. \"Have you considered purchasing a Tri-Tachyon upgrade package? Visit the nearest Tri-Tachyon shipyard to find out more.\" \r\n\r\n\"Please maintain your distance... and have a nice day.\"\r\nOR\r\n\"Greetings on behalf of the Tri-Tachyon corporation!\" The $post produces a cheerful, if hollow, smile.\r\n\r\n\"Feel free to admire our ships which are equipped with the latest in Tri-Tachyon space defense products and software, but please maintain a safe distance. The Company takes property damage very seriously.\"",
+   "ctx": "data/campaign/rules.csv greetingTTNeutral [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"On behalf of Tri-Tachyon, it is my pleasure to...\"\r\n\r\nThe $post halts $hisOrHer cheerfully plastic greeting. \r\n\r\n\"Captain.\" $HisOrHer eyes dart to another display, \"... $playerLastName. Please accept my greetings on behalf of the Tri-Tachyon corporation. I...\"",
+   "ctx": "data/campaign/rules.csv TTpatrolWeirdMods0 [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"Yes, quite alright,\" $heOrShe says. \"It's just I've never...\"",
+   "ctx": "data/campaign/rules.csv TTpatrolWeirdMods1a [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"No, not at all. Nothing to worry about. I think. I mean, no, but...\"",
+   "ctx": "data/campaign/rules.csv TTpatrolWeirdMods1b [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"A bribe? Ah, no, not at all. Nothing like that, captain. It's- well, you see...\"",
+   "ctx": "data/campaign/rules.csv TTpatrolWeirdMods1c [text]"
+  },
+  {
+   "i": 14,
+   "en": "$HeOrShe pauses, then begins again.\r\n\r\n\"Your $shipOrFleet features some unusual modifications.\" $HeOrShe glances at a secondary display. \"Very unusual.\"\r\n\r\n$HisOrHer eyes dart back to stare through the comm-link.",
+   "ctx": "data/campaign/rules.csv TTpatrolWeirdMods2 [text]"
+  },
+  {
+   "i": 15,
+   "en": "$HeOrShe pauses, then begins again.\r\n\r\n\"You appear to be operating a very unusual ship, captain.\" $HeOrShe looks, wide-eyed in disbelief, at a secondary display.\r\n\r\n$HisOrHer eyes dart back to stare through the comm-link.",
+   "ctx": "data/campaign/rules.csv TTpatrolWeirdMods2OMKI [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"Yes. And... yes.\" $HeOrShe clears $hisOrHer throat.",
+   "ctx": "data/campaign/rules.csv TTpatrolWeirdMods3a [text]"
+  },
+  {
+   "i": 17,
+   "en": "A look of deep consternation crosses the $post's face. The answer is clearly 'no', but $heOrShe seems unable to say so. After several agonized seconds, $heOrShe manages to produce a response.\r\n\r\n\"I've... never seen anything like it.\"",
+   "ctx": "data/campaign/rules.csv TTpatrolWeirdMods3b [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"I don't... no, no trouble.\" $HeOrShe clears $hisOrHer throat.",
+   "ctx": "data/campaign/rules.csv TTpatrolWeirdMods3c [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"...Yes,\" $heOrShe says. \"Yes, I suppose it is.\"",
+   "ctx": "data/campaign/rules.csv TTpatrolWeirdMods3OMKI [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"There's a message I am supposed to deliver.\" $HeOrShe looks at $hisOrHer secondary display.\r\n\r\n\"Tri-Tachyon's Director of Special Acquisitions, Zunya Glamor-Rotanev, would like to invite you to a meeting. On Eochu Bres.\"\r\n\r\n$HeOrShe looks back to you. \"'At your earliest convenience', it says. And something about a reward.\"",
+   "ctx": "data/campaign/rules.csv TTpatrolWeirdMods4 [text]"
+  },
+  {
+   "i": 21,
+   "en": "$HeOrShe looks aside again. \"My apologies, I wasn't meant to tell you that part. The reward is for me.\"\r\n\r\nA smile breaks through $hisOrHer nervous demeanor. \"-For finding you. I should thank you, Captain $playerLastName.\"\r\n\r\n\"So... Thank you.\"",
+   "ctx": "data/campaign/rules.csv TTpatrolWeirdMods5a [text]"
+  },
+  {
+   "i": 22,
+   "en": "$HeOrShe looks skeptical. \"You don't... You haven't heard of Director Glamor-Rotanev? Hmm.\"\r\n\r\nThe $post takes a conflicted moment to think.\r\n\r\n\"Let's just say it's above my pay grade.\"",
+   "ctx": "data/campaign/rules.csv TTpatrolWeirdMods5b [text]"
+  },
+  {
+   "i": 23,
+   "en": "$HeOrShe pretends to cough, then says \"I'll send you the attached address. Good luck.\"",
+   "ctx": "data/campaign/rules.csv TTpatrolWeirdMods6 [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"Greetings friend, all is well? Good to hear it. Glory to the Lion of Sindria!\"\r\nOR\r\n\"Comms open, friendly. Course acknowledged; safe jumps. Victory to the Diktat!\"\r\nOR\r\n\"Line established, ID-confirmed. Hail and hoy, doing Saturn-Delta standard. If you run into any extremists out here, just send us their position and the Diktat will take care of it.\"",
+   "ctx": "data/campaign/rules.csv greetingDiktatFriendly [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"We've linecast to system patrol craft and they've already been dispatched; reinforcements are en route. You are advised to disengage, hostile.\"\r\nOR\r\n\"You won't get away with this. You'll rot on Cruor with the rest of the degenerates.\"\r\nOR\r\nThe Diktat $personRank stares toward some unfocused point. \"Duty is sacrifice. I give my life for the Lion of Sindria.\"",
+   "ctx": "data/campaign/rules.csv greetingDiktatHostileWeaker [text]"
+  },
+  {
+   "i": 26,
+   "en": "The Diktat $personRank looks grim but defiant. \"We will fight you to the last,\" $heOrShe says, and cuts the transmission.\r\nOR\r\n\"The great work will go on, with or without me.\" $HisOrHer expression hardens. \"For the Lion!\" \r\n\r\nThe comm blinks off.",
+   "ctx": "data/campaign/rules.csv greetingDiktatHostileWeakerDefiant [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"By authority of the Sindrian Diktat, you are ordered to take drives offline, disable weapons, and surrender. Failure to execute will be considered an act of aggression. Out.\"\r\n\r\nThe Diktat $personRank's gloating face is replaced by a Diktat crest before the image fades.\r\nOR\r\n\"There is no place for degenerate scum in our glorious future.\" $PersonRank $personName turns aside and says \"Lieutenant, do try to avoid taking prisoners this time.\"\r\n\r\nThe comm-line goes black.\r\nOR\r\n\"We'll cleanse the Sector of your kind, and not even history will remember you.\"\r\nOR\r\nThe Diktat $personRank sneers, \"So are you a terrorist, a pirate, or a degenerate? No matter. If you're lucky, you'll die choking vacuum. If not, there's Cruor.\" ",
+   "ctx": "data/campaign/rules.csv greetingDiktatHostileStronger [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"You've been scanned, maintain distance. Interference in military affairs will be considered an act of insurrection.\"\r\n\r\nThe Diktat $personRank gives a perfunctory salute, saying \"Victory to the Diktat!\" before moving to cut the transmission.\r\nOR\r\nThe Diktat $personRank looks impatient. \"Is there a problem? No? Then move along, citizen.\"\r\nOR\r\n\"Comms on protocol Saturn-Delta established. If you have information leading to ARCists or ANTIs, submit to your local information officer for possible reward.\"",
+   "ctx": "data/campaign/rules.csv greetingDiktatNeutral [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"The blessing of Ludd be upon you.\"\r\nOR\r\n\"Blessings of the stars and pneuma, friend.\"\r\nOR\r\n\"Safe travels, friend, and blessing of Ludd be upon you.\"",
+   "ctx": "data/campaign/rules.csv greetingLCFriendly [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"We follow the way of Ludd. Though the righteous suffer the lash, our reward will be everlasting grace.\"\r\nOR\r\n\"Do your unholy work then, servant of Mammon. When it is our time, Ludd will guide our souls to peace.\"",
+   "ctx": "data/campaign/rules.csv greetingLCHostileWeaker [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"We follow the path of Ludd amidst persecution. Yea, the righteous will suffer the lash and our reward will be everlasting grace.\" The Luddic $personRank seems to be talking not to you anymore, but perhaps to $hisOrHer god.\r\nOR\r\n\"Are you so corrupted by the false machine gods? Choose wisely your course; there is still time for redemption.\"",
+   "ctx": "data/campaign/rules.csv greetingLCHostileWeakerDefiant [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"Submit, repent, and your sinful technologies will be smashed; Resist, and only God's holy vacuum will show you mercy.\"\r\nOR\r\n\"Servant of the machine! Submit now, repent, and perhaps even you will find redemption. Otherwise the only mercy you shall find will be in God's holy vacuum.\"",
+   "ctx": "data/campaign/rules.csv greetingLCHostileStronger [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"Contact; Do not interfere in our righteous mission.\"\r\nOR\r\n\"Contact - please maintain distance. Blessing of Ludd, traveler.\"",
+   "ctx": "data/campaign/rules.csv greetingLCNeutral [text]"
+  },
+  {
+   "i": 34,
+   "en": "\"Greetings fellow walker. Blessings of Ludd be upon you.\"",
+   "ctx": "data/campaign/rules.csv greetingLPFriendly [text]"
+  },
+  {
+   "i": 35,
+   "en": "\"We follow the way of Ludd amidst persecution. Yea, the righteous will suffer the lash and our reward will be everlasting grace.\"",
+   "ctx": "data/campaign/rules.csv greetingLPHostileWeaker [text]"
+  },
+  {
+   "i": 36,
+   "en": "\"We follow the Path of Ludd amidst persecution. Yea, the righteous will suffer the lash and our reward will be everlasting grace.\"\r\nOR\r\n\"Slave of Mammon! You cannot stand in the Path of Ludd; we follow unwavering toward redemption in fated death.\"",
+   "ctx": "data/campaign/rules.csv greetingLPHostileWeakerDefiant [text]"
+  },
+  {
+   "i": 37,
+   "en": "\"Submit, repent, and your sinful technologies will be smashed; Resist, and only God's holy vacuum will show you mercy.\"",
+   "ctx": "data/campaign/rules.csv greetingLPHostileStronger [text]"
+  },
+  {
+   "i": 38,
+   "en": "\"Do not interfere in our righteous mission, for we walk the Path of Ludd.\"",
+   "ctx": "data/campaign/rules.csv greetingLPNeutral [text]"
+  },
+  {
+   "i": 39,
+   "en": "\"Submit and repent! Your use of sinful technologies may be forgiven, for a tithe of $entity.LP_titheDGS credits.\r\n\r\nResist, and only God's holy vacuum will show you mercy.\"\r\nOR\r\n\"Servant of Moloch! Redemption is not out of reach even for you. A tithe of $entity.LP_titheDGS credits may set you upon the first step of the Path of Ludd.\"\r\n\r\n\"Forswear this penance and be met with annihilation, cursed by Ludd in the next life. The choice is yours.\"",
+   "ctx": "data/campaign/rules.csv LPTithePre [text]"
+  },
+  {
+   "i": 40,
+   "en": "The $rank's eyes light up at the suggestion of a larger 'tithe'. Struggling to maintain the fiction that this blackmail is a strictly religious matter, $heOrShe declares that $LP_megaTitheDGS credits could persuade Pather raiders to leave all of your colonies - but not fleets - alone for $LP_megaTitheDuration days.\r\n\r\n\"My brothers and sisters who have taken up arms are zealous, after all. Righteous passion drives them toward the field of battle, and credits are poor fare compared to the feast of divine justice,\" $heOrShe explains with the barest hint of apology.",
+   "ctx": "data/campaign/rules.csv payMegaTitheSel [text]"
+  },
+  {
+   "i": 41,
+   "en": "\"My thanks to Providence!\" the $rank exclaims, then calls back to $hisOrHer bridge crew, \"Persecution proves our devotion! The unbelievers now beg us to share our blessings.\" $HeOrShe turns back, troubled, \"Um. However. My standing is... limited. It is not my place to welcome you to the fold under our hammer and sword, no matter the tithe you offer unto our holy war. You will have to speak with a shepherd of greater authority than I at one of our gathering-places in the fringe worlds.\" \r\n\r\n\"Of course,\" $heOrShe is abashed now, \"I cannot tell you where a station of the Luddic Path is located. I am pledged before Providence to secrecy and it would be a sin to swear false oath. That path must be yours to discover.\"\r\n\r\n\"I suggest you pray for revelation,\" $heOrShe says earnestly.",
+   "ctx": "data/campaign/rules.csv payMegaTitheOtherSel [text]"
+  }
+ ]
+}

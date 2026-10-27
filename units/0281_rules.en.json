@@ -1,0 +1,1111 @@
+{
+ "chunk": 281,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "Drop it off in a stable orbit\r",
+   "ctx": "ddroObjectInteraction"
+  },
+  {
+   "i": 2,
+   "en": "Ask about the location of the $sitm_item",
+   "ctx": "sitmOfferOption1"
+  },
+  {
+   "i": 3,
+   "en": "Thank the flashily-dressed $manOrWoman for the drink",
+   "ctx": "sitmOfferOptionBar1"
+  },
+  {
+   "i": 4,
+   "en": "\"It comes with free will, I just can't help myself.\"\r",
+   "ctx": "SITMPatherHail"
+  },
+  {
+   "i": 5,
+   "en": "\"Forgiveness doesn't pay the bills.\"\r",
+   "ctx": "HistorianPatherHail"
+  },
+  {
+   "i": 6,
+   "en": "Decline, close comms, and power up weapons\r",
+   "ctx": "fwtOpenCommGenericAggroNoPay"
+  },
+  {
+   "i": 7,
+   "en": "Hand over $entity.fwt_theThing",
+   "ctx": "fwtOpenCommGenericAggroNoPay"
+  },
+  {
+   "i": 8,
+   "en": "Hand over $entity.fwt_theThing in exchange for a payment",
+   "ctx": "fwtOpenCommGenericAggroPay"
+  },
+  {
+   "i": 9,
+   "en": "Accept the deal, and hand over $entity.fwt_theThing",
+   "ctx": "fwtOpenCommGenericNoAggroPay"
+  },
+  {
+   "i": 10,
+   "en": "Hand over $fwt_theThing",
+   "ctx": "fwtOpenCommPirates"
+  },
+  {
+   "i": 11,
+   "en": "Accept, and hand over $entity.fwt_theThing",
+   "ctx": "fwtOpenCommPatherAggroNoPay"
+  },
+  {
+   "i": 12,
+   "en": "Accept, and hand over $entity.fwt_theThing in exchange for a payment",
+   "ctx": "fwtOpenCommMercAggroPay"
+  },
+  {
+   "i": 13,
+   "en": "Eject the $entity.fwt_theThing",
+   "ctx": "fwtOpenCommRemnantAggroNoPay"
+  },
+  {
+   "i": 14,
+   "en": "Eject the $entity.fwt_theThing in exchange for payment",
+   "ctx": "fwtOpenCommRemnantAggroPay"
+  },
+  {
+   "i": 15,
+   "en": "Accept the commerce protocol and eject the $entity.fwt_theThing",
+   "ctx": "fwtOpenCommRemnantNoAggroPay"
+  },
+  {
+   "i": 16,
+   "en": "Offer heavy armaments for the insurgency",
+   "ctx": "standfastResponseOfferArms"
+  },
+  {
+   "i": 17,
+   "en": "Transfer 10 heavy armaments\r",
+   "ctx": "standfastOfferingEnough"
+  },
+  {
+   "i": 18,
+   "en": "Download the holo experience",
+   "ctx": "defaultDaudHolo"
+  },
+  {
+   "i": 19,
+   "en": "\"I'd like to meet the High Hegemon.\"",
+   "ctx": "defaultDaudInquiry"
+  },
+  {
+   "i": 20,
+   "en": "DEV make Tseen Ke appear",
+   "ctx": "DevTseenKeAppear"
+  },
+  {
+   "i": 21,
+   "en": "\"What's your impression of Admiral Orcus Rao?\"",
+   "ctx": "TseenKeAskRao"
+  },
+  {
+   "i": 22,
+   "en": "\"What do you think of the High Hegemon, Baikal Daud?\"",
+   "ctx": "TseenKeAskDaud"
+  },
+  {
+   "i": 23,
+   "en": "\"Ha-ha, of course not.\" (stare intently)",
+   "ctx": "TseenKeAskDaudOptA"
+  },
+  {
+   "i": 24,
+   "en": "\"Do they really send INTSEC to check on your loyalty?\"",
+   "ctx": "TseenKeAskDaudOptB"
+  },
+  {
+   "i": 25,
+   "en": "\"No, I'm really interested in your perspective on the man.\"",
+   "ctx": "TseenKeAskDaudOptC"
+  },
+  {
+   "i": 26,
+   "en": "\"It's not my place to judge.\"\r",
+   "ctx": "TseenKeAskDaudOptD"
+  },
+  {
+   "i": 27,
+   "en": "\"He's practical. Knows how to keep his feet on the deck.\"\r",
+   "ctx": "TseenKeAskDaudOptD"
+  },
+  {
+   "i": 28,
+   "en": "\"He should be bolder. The Hegemony has great power, he should use it!\"\r",
+   "ctx": "TseenKeAskDaudOptD"
+  },
+  {
+   "i": 29,
+   "en": "\"I think he's in over his head. Maybe it's his background, maybe his character.\"\r",
+   "ctx": "TseenKeAskDaudOptD"
+  },
+  {
+   "i": 30,
+   "en": "\"Honestly, I could do a better job as High Hegemon.\"\r",
+   "ctx": "TseenKeAskDaudOptD"
+  },
+  {
+   "i": 31,
+   "en": "\"Someone like Orcus Rao should be in charge. He knows when to bend the rules.\"",
+   "ctx": "TseenKeAskDaudOptD"
+  },
+  {
+   "i": 32,
+   "en": "\"You don't think sacrifices are ever necessary?\"",
+   "ctx": "TseenKeAskDaudOpC"
+  },
+  {
+   "i": 33,
+   "en": "\"What's a war hero doing in this backwater outpost?\"",
+   "ctx": "raoWarHero"
+  },
+  {
+   "i": 34,
+   "en": "DEV >> Rao options",
+   "ctx": "RaoDevOption"
+  },
+  {
+   "i": 35,
+   "en": "set player.gaKAbluffedViaOrcusRao = true\r",
+   "ctx": "RaoDevOptionHubA"
+  },
+  {
+   "i": 36,
+   "en": "set global.sdtuHintedRaoInvolvement = true\r",
+   "ctx": "RaoDevOptionHubA"
+  },
+  {
+   "i": 37,
+   "en": "jump to SDTU 'Merc on Askonia fringe'\r",
+   "ctx": "RaoDevOptionHubA"
+  },
+  {
+   "i": 38,
+   "en": "set player.metStandfast = true 0\r",
+   "ctx": "RaoDevOptionHubA"
+  },
+  {
+   "i": 39,
+   "en": "set player.mostLuddicEthosFaithful = true 0\r",
+   "ctx": "RaoDevOptionHubA"
+  },
+  {
+   "i": 40,
+   "en": "set player.gaveStandfastGuns++\r",
+   "ctx": "RaoDevOptionHubA"
+  },
+  {
+   "i": 41,
+   "en": "go to options page 2\r",
+   "ctx": "RaoDevOptionHubA"
+  },
+  {
+   "i": 42,
+   "en": "go to options page 3\r",
+   "ctx": "RaoDevOptionHubA"
+  },
+  {
+   "i": 43,
+   "en": "return to Orcus Rao",
+   "ctx": "RaoDevOptionHubA"
+  },
+  {
+   "i": 44,
+   "en": "set player did Daud-Yaribay connection AND good heg rep\r",
+   "ctx": "RaoDevOptionHubB"
+  },
+  {
+   "i": 45,
+   "en": "set player's colony (fake) is member of Persean League\r",
+   "ctx": "RaoDevOptionHubB"
+  },
+  {
+   "i": 46,
+   "en": "set player is paying off Hannan personally\r",
+   "ctx": "RaoDevOptionHubB"
+  },
+  {
+   "i": 47,
+   "en": "set Studied The Blade to true\r",
+   "ctx": "RaoDevOptionHubB"
+  },
+  {
+   "i": 48,
+   "en": "set player.metNeriene to true\r",
+   "ctx": "RaoDevOptionHubB"
+  },
+  {
+   "i": 49,
+   "en": "go to options page 1\r",
+   "ctx": "RaoDevOptionHubB"
+  },
+  {
+   "i": 50,
+   "en": "go to options page 3",
+   "ctx": "RaoDevOptionHubB"
+  },
+  {
+   "i": 51,
+   "en": "DEV set player was nice to Neriene\r",
+   "ctx": "RaoDevOptionHubC"
+  },
+  {
+   "i": 52,
+   "en": "DEV set player was mean to Neriene\r",
+   "ctx": "RaoDevOptionHubC"
+  },
+  {
+   "i": 53,
+   "en": "DEV set player was neither to Neriene\r",
+   "ctx": "RaoDevOptionHubC"
+  },
+  {
+   "i": 54,
+   "en": "DEV lost duel\r",
+   "ctx": "RaoDevOptionHubC"
+  },
+  {
+   "i": 55,
+   "en": "DEV won duel\r",
+   "ctx": "RaoDevOptionHubC"
+  },
+  {
+   "i": 56,
+   "en": "DEV left duel\r",
+   "ctx": "RaoDevOptionHubC"
+  },
+  {
+   "i": 57,
+   "en": "go to options page 2",
+   "ctx": "RaoDevOptionHubC"
+  },
+  {
+   "i": 58,
+   "en": "\"What in the worlds are you talking about?\"\r",
+   "ctx": "raoGreetingFastOne"
+  },
+  {
+   "i": 59,
+   "en": "\"Yes, I think a medal would be in order.\"",
+   "ctx": "raoGreetingFastOne"
+  },
+  {
+   "i": 60,
+   "en": "\"Oh, I remember now.\"\r",
+   "ctx": "raoFastOneA"
+  },
+  {
+   "i": 61,
+   "en": "\"That must have been a different $playerName.\"",
+   "ctx": "raoFastOneA"
+  },
+  {
+   "i": 62,
+   "en": "\"When did I ever lie to the Hegemony?\" (feign innocence)\r",
+   "ctx": "raoFastOneB"
+  },
+  {
+   "i": 63,
+   "en": "\"Is this about that fleet looking for Gargoyle after I left Tse Franchise Station?\"",
+   "ctx": "raoFastOneB"
+  },
+  {
+   "i": 64,
+   "en": "Withhold comment\r",
+   "ctx": "raoFastOneB2b"
+  },
+  {
+   "i": 65,
+   "en": "\"Well. Sorry.\"\r",
+   "ctx": "raoFastOneB2b"
+  },
+  {
+   "i": 66,
+   "en": "\"Don't blame them too much, I can be pretty convincing when I want to be.\"",
+   "ctx": "raoFastOneB2b"
+  },
+  {
+   "i": 67,
+   "en": "Let him get to his point, whatever it is\r",
+   "ctx": "raoFastOneCa"
+  },
+  {
+   "i": 68,
+   "en": "\"That'd be the High Hegemon, Baikal Daud.\"",
+   "ctx": "raoFastOneCa"
+  },
+  {
+   "i": 69,
+   "en": "\"Yes?\"",
+   "ctx": "raoFastOneSpeak"
+  },
+  {
+   "i": 70,
+   "en": "\"I met your... niece. Grandniece? Neriene Rao. On Eventide.\"",
+   "ctx": "raoMetNeriene"
+  },
+  {
+   "i": 71,
+   "en": "\"And easily. Those brutes did not realize that I had studied the blade.\"",
+   "ctx": "raoNerieneOptsWonBlade"
+  },
+  {
+   "i": 72,
+   "en": "\"It was a shame to lose... for I have studied the blade.\"",
+   "ctx": "raoNerieneOptsLostBlade"
+  },
+  {
+   "i": 73,
+   "en": "\"No. I've had worse.\"",
+   "ctx": "raoNerieneOptsLostB"
+  },
+  {
+   "i": 74,
+   "en": "\"No. I've had worse.\" (lie)",
+   "ctx": "raoNerieneOptsLostA"
+  },
+  {
+   "i": 75,
+   "en": "\"Just my pride, perhaps. But don't worry, it's more than recovered.\"",
+   "ctx": "raoNerieneOptsLostC"
+  },
+  {
+   "i": 76,
+   "en": "\"What matters is I stood to their insults and fought. My honor is intact.\"",
+   "ctx": "raoNerieneOptsLostD"
+  },
+  {
+   "i": 77,
+   "en": "\"They chose to make me their enemy long before that night.\"",
+   "ctx": "raoNerieneOptsWonA"
+  },
+  {
+   "i": 78,
+   "en": "\"I simply defended my honor against some thugs.\"",
+   "ctx": "raoNerieneOptsWonB"
+  },
+  {
+   "i": 79,
+   "en": "\"Someone had to put those aristocratic bullies in their place.\"",
+   "ctx": "raoNerieneOptsWonC"
+  },
+  {
+   "i": 80,
+   "en": "\"I did not go to House Rao to start a brawl, sir.\"",
+   "ctx": "raoNerieneOptsLeftA"
+  },
+  {
+   "i": 81,
+   "en": "\"Did I? It was a cowardly exit.\"",
+   "ctx": "raoNerieneOptsLeftB"
+  },
+  {
+   "i": 82,
+   "en": "\"It was looked upon poorly, but I had to think of Neriene.\"",
+   "ctx": "raoNerieneOptsLeftC"
+  },
+  {
+   "i": 83,
+   "en": "\"It's a stupid tradition anyway. Who fights with oversized knives in this age?\"",
+   "ctx": "raoNerieneOptsLeftD"
+  },
+  {
+   "i": 84,
+   "en": "\"The Strategic Assembly of the Hegemony? That could be inconvenient.\"\r",
+   "ctx": "raoNerieneSelWonC"
+  },
+  {
+   "i": 85,
+   "en": "\"I'm not worried about the Strategic Assembly.\"",
+   "ctx": "raoNerieneSelWonC"
+  },
+  {
+   "i": 86,
+   "en": "\"I'll keep that in mind.\"\r",
+   "ctx": "raoNerieneSelWonC2a"
+  },
+  {
+   "i": 87,
+   "en": "\"What's a 'pawn'?\"",
+   "ctx": "raoNerieneSelWonC2a"
+  },
+  {
+   "i": 88,
+   "en": "\"I'll watch my back.\"\r",
+   "ctx": "raoNerieneSelWonC2b"
+  },
+  {
+   "i": 89,
+   "en": "\"I'll be sure to decline the next invitation to House Rao's seasonal ball.\"\r",
+   "ctx": "raoNerieneSelWonC2b"
+  },
+  {
+   "i": 90,
+   "en": "\"'Perhaps'? I'm counting on it!\"",
+   "ctx": "raoNerieneSelWonC2b"
+  },
+  {
+   "i": 91,
+   "en": "\"Hadi, naturally. I'm a little old-school that way.\"\r",
+   "ctx": "raoNerieneSelWonD"
+  },
+  {
+   "i": 92,
+   "en": "\"Andreas, of course. The flexibility is paramount.\"\r",
+   "ctx": "raoNerieneSelWonD"
+  },
+  {
+   "i": 93,
+   "en": "\"The Jung-Sook, actually. I believe it's been unfairly discounted.\"",
+   "ctx": "raoNerieneSelWonD"
+  },
+  {
+   "i": 94,
+   "en": "\"The duel.\"",
+   "ctx": "raoNerieneSelWonD3"
+  },
+  {
+   "i": 95,
+   "en": "\"Then she spoke to you... about me?\"\r",
+   "ctx": "raoNerieneSelLeftA2a"
+  },
+  {
+   "i": 96,
+   "en": "\"Not my concern.\"",
+   "ctx": "raoNerieneSelLeftA2a"
+  },
+  {
+   "i": 97,
+   "en": "\"Bad words?\"\r",
+   "ctx": "raoNerieneSelLeftA2b"
+  },
+  {
+   "i": 98,
+   "en": "\"She spoke to you about... that evening?\"\r",
+   "ctx": "raoNerieneSelLeftA2c"
+  },
+  {
+   "i": 99,
+   "en": "\"A merc on the Askonia fringe told me to visit Ragnar. I assume that means you.\"",
+   "ctx": "raoAskDiktatMerc"
+  },
+  {
+   "i": 100,
+   "en": "\"I think they were working for you. And under orders not to say so.\"",
+   "ctx": "raoAskDiktatMerc2"
+  },
+  {
+   "i": 101,
+   "en": "\"What? The Hegemony regularly employs mercenaries.\"\r",
+   "ctx": "raoAskDiktatMerc3"
+  },
+  {
+   "i": 102,
+   "en": "\"If it's a fight against the Diktat, I want to be a part of it.\"\r",
+   "ctx": "raoAskDiktatMerc3"
+  },
+  {
+   "i": 103,
+   "en": "\"Looks like someone is losing their bonus. Anyway, I want in.\"\r",
+   "ctx": "raoAskDiktatMerc3"
+  },
+  {
+   "i": 104,
+   "en": "\"Clearly you don't take this very seriously.\"",
+   "ctx": "raoAskDiktatMerc3"
+  },
+  {
+   "i": 105,
+   "en": "\"Right. I don't have time for this.\"",
+   "ctx": "raoAskDiktatMerc4d"
+  },
+  {
+   "i": 106,
+   "en": "\"Because you'll pay me well, and on time. You were a freelancer, you know the life.\"",
+   "ctx": "raoAskDiktatMerc4optsA"
+  },
+  {
+   "i": 107,
+   "en": "\"They're mutineers. They undermine the restoration of the Domain, the Hegemony's purpose.\"",
+   "ctx": "raoAskDiktatMerc4optsB"
+  },
+  {
+   "i": 108,
+   "en": "\"They're brutal oppressors, enemies of freedom and life. It's a just cause.",
+   "ctx": "raoAskDiktatMerc4optsC"
+  },
+  {
+   "i": 109,
+   "en": "\"They're systematically killing the Faithful, they closed the Shrine of Volturn. My duty is to resist.\"",
+   "ctx": "raoAskDiktatMerc4optsD"
+  },
+  {
+   "i": 110,
+   "en": "\"Because they're falling apart. They're going to lose and I like being on the winning side.\"",
+   "ctx": "raoAskDiktatMerc4optsE"
+  },
+  {
+   "i": 111,
+   "en": "\"He... recruited me into his scheme and one thing led to another. I'm not really sure.\"",
+   "ctx": "RaoAskDiktatDolosOptsA"
+  },
+  {
+   "i": 112,
+   "en": "\"He paid me in credits and hardware for some jobs. I have no loyalty to him.\"",
+   "ctx": "RaoAskDiktatDolosOptsB"
+  },
+  {
+   "i": 113,
+   "en": "\"I gained his trust in order to sabotage and betray him. To help you, the Hegemony.\"",
+   "ctx": "RaoAskDiktatDolosOptsC"
+  },
+  {
+   "i": 114,
+   "en": "\"To bring the Diktat down from the inside. Are you going to help or not?\"",
+   "ctx": "RaoAskDiktatDolosOptsD"
+  },
+  {
+   "i": 115,
+   "en": "\"I figure I could take over the Sindrian Diktat if I played this right.\"",
+   "ctx": "RaoAskDiktatDolosOptsE"
+  },
+  {
+   "i": 116,
+   "en": "\"I'm not answering that.\"",
+   "ctx": "RaoAskDiktatDolosOptsF"
+  },
+  {
+   "i": 117,
+   "en": "\"I think you might have work for me.\"",
+   "ctx": "RaoLookingForWorkOption"
+  },
+  {
+   "i": 118,
+   "en": "\"And what do you have in mind?\"",
+   "ctx": "RaoPitchTestSDTU"
+  },
+  {
+   "i": 119,
+   "en": "\"Who is Dolos?\"\r",
+   "ctx": "RaoPitchDiktatCom2a"
+  },
+  {
+   "i": 120,
+   "en": "\"Look, I just take Diktat money. I'm a merc. Like you were.\"\r",
+   "ctx": "RaoPitchDiktatCom2a"
+  },
+  {
+   "i": 121,
+   "en": "\"I take it that's a 'no', then.\"",
+   "ctx": "RaoPitchDiktatCom2a"
+  },
+  {
+   "i": 122,
+   "en": "\"I just take Diktat money. I'm a mercenary. Like you were.\"\r",
+   "ctx": "RaoPitchDiktatCom2b"
+  },
+  {
+   "i": 123,
+   "en": "\"You're a worm compared to the genius of Dolos Macario!\"\r",
+   "ctx": "RaoPitchDiktatCom2b"
+  },
+  {
+   "i": 124,
+   "en": "\"I take it that's a 'no'.\"",
+   "ctx": "RaoPitchDiktatCom2b"
+  },
+  {
+   "i": 125,
+   "en": "\"My membership in the Persean League is my business.\"\r",
+   "ctx": "RaoPitchLeagueHannan"
+  },
+  {
+   "i": 126,
+   "en": "\"Reynard is insufferable, but I could not get a better deal.\"\r",
+   "ctx": "RaoPitchLeagueHannan"
+  },
+  {
+   "i": 127,
+   "en": "\"Reynard is a great man. I follow him gladly.\"",
+   "ctx": "RaoPitchLeagueHannan"
+  },
+  {
+   "i": 128,
+   "en": "\"I don't need to explain myself to you.\"\r",
+   "ctx": "RaoPitchLeagueHannanB"
+  },
+  {
+   "i": 129,
+   "en": "\"I have a plan to get out of it. You'll see.\"\r",
+   "ctx": "RaoPitchLeagueHannanB"
+  },
+  {
+   "i": 130,
+   "en": "\"Is the Hegemony offering its protection against the League?\"",
+   "ctx": "RaoPitchLeagueHannanB"
+  },
+  {
+   "i": 131,
+   "en": "\"I'm sure I couldn't say.\"\r",
+   "ctx": "RaoPitchLeagueYaribay"
+  },
+  {
+   "i": 132,
+   "en": "\"Horus Yaribay, you mean. And his desire for unification with the Hegemony.\"\r",
+   "ctx": "RaoPitchLeagueYaribay"
+  },
+  {
+   "i": 133,
+   "en": "\"I'm not sure I want to get involved in such a scheme just now.\"",
+   "ctx": "RaoPitchLeagueYaribay"
+  },
+  {
+   "i": 134,
+   "en": "\"Speculate if you like, I have nothing to say.\"\r",
+   "ctx": "RaoPitchLeagueYaribayMum"
+  },
+  {
+   "i": 135,
+   "en": "\"Hypothetically, I would require the consent of the third party before discussing anything.\"\r",
+   "ctx": "RaoPitchLeagueYaribayMum"
+  },
+  {
+   "i": 136,
+   "en": "\"What'd you have in mind?\"\r",
+   "ctx": "RaoPitchLeagueYaribay2"
+  },
+  {
+   "i": 137,
+   "en": "\"Thank you for the offer, but perhaps not just now.\"",
+   "ctx": "RaoPitchLeagueYaribay2"
+  },
+  {
+   "i": 138,
+   "en": "\"Thank you for the offer, but perhaps not just now.\"\r",
+   "ctx": "RaoPitchChurchMaybe"
+  },
+  {
+   "i": 139,
+   "en": "\"You disrespect the Faith with such comments.\"",
+   "ctx": "RaoPitchChurchMaybe"
+  },
+  {
+   "i": 140,
+   "en": "\"What sort of work do you need done?\"",
+   "ctx": "RaoPitchHubOptA"
+  },
+  {
+   "i": 141,
+   "en": "\"You show little respect for your fellow officers of the Hegemony.\"",
+   "ctx": "RaoPitchHubOptB"
+  },
+  {
+   "i": 142,
+   "en": "\"What are these 'unique circumstances'? What is your goal?\"",
+   "ctx": "RaoPitchHubOptC"
+  },
+  {
+   "i": 143,
+   "en": "\"Is this about taking down the Sindrian Diktat?\"",
+   "ctx": "RaoPitchHubOptD"
+  },
+  {
+   "i": 144,
+   "en": "\"Why is it personal with Andrada?\"",
+   "ctx": "RaoPitchHubOptE"
+  },
+  {
+   "i": 145,
+   "en": "\"I'm not so sure about this.\"",
+   "ctx": "RaoPitchHubOptG"
+  },
+  {
+   "i": 146,
+   "en": "\"So, ah. Do you still follow 'the Protocols'?\"",
+   "ctx": "skironAskProtocols"
+  },
+  {
+   "i": 147,
+   "en": "Consider your military options\r",
+   "ctx": "gaATGkantasDenHostileOverride1"
+  },
+  {
+   "i": 148,
+   "en": "\"I want to talk to Kanta.\"",
+   "ctx": "kdPortmasterAskForKanta"
+  },
+  {
+   "i": 149,
+   "en": "DEV set player killed Loke true",
+   "ctx": "kdDevSetKilledLoke1"
+  },
+  {
+   "i": 150,
+   "en": "DEV set player bluffed Kanta",
+   "ctx": "kdDevSetBluffedKanta1"
+  },
+  {
+   "i": 151,
+   "en": "DEV set player HAD Kanta protection",
+   "ctx": "kdDevSetHadKantaProtection"
+  },
+  {
+   "i": 152,
+   "en": "DEV toggle Kanta's Protection",
+   "ctx": "kdDevToggleKantaProtection"
+  },
+  {
+   "i": 153,
+   "en": "Take a shuttle to meet Kanta",
+   "ctx": "kantasDenVisitOptionGAATG"
+  },
+  {
+   "i": 154,
+   "en": "Take a shuttle down to meet Kanta",
+   "ctx": "kantasDenVisitOptionKP"
+  },
+  {
+   "i": 155,
+   "en": "\"Your boss already gave me the go-ahead. Shall we comms them about the delay?\"",
+   "ctx": "kdTrafficControlOptionA"
+  },
+  {
+   "i": 156,
+   "en": "\"Let's make it easy, friend. Do you like your fry red or green?\"",
+   "ctx": "kdTrafficControlOptionB"
+  },
+  {
+   "i": 157,
+   "en": "\"I'm here to see your boss.\"",
+   "ctx": "kdTrafficControlOptionC"
+  },
+  {
+   "i": 158,
+   "en": "\"Cut the shakedown. I'm here for Kanta.\"",
+   "ctx": "kdTrafficControlOptionD"
+  },
+  {
+   "i": 159,
+   "en": "Dock at Kanta's Den",
+   "ctx": "kantasDenTrafficAlready"
+  },
+  {
+   "i": 160,
+   "en": "\"Let someone important know that I'm here to see Warlord Kanta.\"",
+   "ctx": "kantasDenTrafficControlBribe"
+  },
+  {
+   "i": 161,
+   "en": "\"Warlord Kanta.\"",
+   "ctx": "kantasDenTrafficControlBullyA"
+  },
+  {
+   "i": 162,
+   "en": "DEV Send the digital token given to you by Gargoyle",
+   "ctx": "devKDfirstVisitA"
+  },
+  {
+   "i": 163,
+   "en": "DEV \"I want to arrange an audience with Warlord Kanta. It concerns my colonies.\"",
+   "ctx": "devKDfirstVisitB"
+  },
+  {
+   "i": 164,
+   "en": "Send the digital token given to you by Gargoyle",
+   "ctx": "kantasDenFirstVisitStationKingOptA"
+  },
+  {
+   "i": 165,
+   "en": "\"I want to arrange an audience with Warlord Kanta. It concerns my colonies.\"",
+   "ctx": "kantasDenFirstVisitStationKingOptB"
+  },
+  {
+   "i": 166,
+   "en": "\"Would it help if I said 'please'?\"",
+   "ctx": "kantasDenFirstVisitStationKingOptC"
+  },
+  {
+   "i": 167,
+   "en": "\"I'm not a desk pilot trying to look big on comms, I'll tell you that much.\"",
+   "ctx": "kantasDenFirstVisitStationKingOptD"
+  },
+  {
+   "i": 168,
+   "en": "Take a shuttle to Kanta's Den",
+   "ctx": "kdSKnowStartShuttle"
+  },
+  {
+   "i": 169,
+   "en": "\"This is... piracy. I'll make the transfer now.\"\r",
+   "ctx": "kdStationKingAudienceNormal"
+  },
+  {
+   "i": 170,
+   "en": "\"This is... piracy, again. I'll make the transfer now.\"\r",
+   "ctx": "kdStationKingAudienceRepeat"
+  },
+  {
+   "i": 171,
+   "en": "\"I really must speak with Kanta.\"\r",
+   "ctx": "kdLandingDenied"
+  },
+  {
+   "i": 172,
+   "en": "\"Are you going to stop me?\"\r",
+   "ctx": "kdLandingDenied"
+  },
+  {
+   "i": 173,
+   "en": "See what else can be bought on Kanta's Den",
+   "ctx": "kdLandingDenied"
+  },
+  {
+   "i": 174,
+   "en": "DEV do landing first time override",
+   "ctx": "devKDlandingVisitOverride"
+  },
+  {
+   "i": 175,
+   "en": "Keep on walking",
+   "ctx": "devKDlandingFirstTime"
+  },
+  {
+   "i": 176,
+   "en": "Kneel\r",
+   "ctx": "kdKantaFirstIntro4"
+  },
+  {
+   "i": 177,
+   "en": "Stand",
+   "ctx": "kdKantaFirstIntro4"
+  },
+  {
+   "i": 178,
+   "en": "\"I believe I met your sister on Umbra.\"",
+   "ctx": "DardanKatoAskImoinu"
+  },
+  {
+   "i": 179,
+   "en": "\"My impression was that she wishes to stay where she is.\"",
+   "ctx": "DardanKatoAskImoinuOptsA"
+  },
+  {
+   "i": 180,
+   "en": "\"I gave her material support for the ARC. She seems capable of looking after herself.\"",
+   "ctx": "DardanKatoAskImoinuOptsB"
+  },
+  {
+   "i": 181,
+   "en": "\"Heard from our mutual friend yet?\"",
+   "ctx": "YaribayFollowup"
+  },
+  {
+   "i": 182,
+   "en": "\"I'd like to talk about Reynard Hannan.\"",
+   "ctx": "HYaribayTalkAboutReynardOption"
+  },
+  {
+   "i": 183,
+   "en": "\"I can see why he's the man who leads the Persean League.\"",
+   "ctx": "HYaribayAskReynardA"
+  },
+  {
+   "i": 184,
+   "en": "\"He's an insufferable egotist.\"",
+   "ctx": "HYaribayAskReynardB"
+  },
+  {
+   "i": 185,
+   "en": "\"What do you think of Reynard Hannan?\"",
+   "ctx": "HYaribayAskReynardC"
+  },
+  {
+   "i": 186,
+   "en": "\"How can you let that man run the League like it's his own fiefdom?\"",
+   "ctx": "HYaribayAskReynardD"
+  },
+  {
+   "i": 187,
+   "en": "DEV unhide Horus Yaribay",
+   "ctx": "DevHYaribayUnhideOption"
+  },
+  {
+   "i": 188,
+   "en": "\"I have business with Reynard Hannan.\"\r",
+   "ctx": "RHannanGreeting"
+  },
+  {
+   "i": 189,
+   "en": "\"DEV No, really, I must insist.\"",
+   "ctx": "RHannanMessageHubDEV"
+  },
+  {
+   "i": 190,
+   "en": "\"I'm looking for Scylla Coureuse. I believe she is on Laicaille Habitat.\"",
+   "ctx": "RHannanMsgGAFC"
+  },
+  {
+   "i": 191,
+   "en": "\"I would like to speak with the Prime Demarchon about joining the Persean League.\"",
+   "ctx": "RHannanMsgJoinLeagueOpt"
+  },
+  {
+   "i": 192,
+   "en": "\"I would like to offer my services to Reynard Hannan. My reputation should speak for itself.\"",
+   "ctx": "RHannanMsgOfferServicesOpt"
+  },
+  {
+   "i": 193,
+   "en": "\"I have important information concerning the Gates to discuss with the Prime Demarchon.\"",
+   "ctx": "RHannanMsgDiscussFutureOptA"
+  },
+  {
+   "i": 194,
+   "en": "\"I wish to discuss a delicate matter concerning Horus Yaribay.\"",
+   "ctx": "RHannanMsgHorusYaribayOpt"
+  },
+  {
+   "i": 195,
+   "en": "\"Why are League fleets harassing my colonies?\"",
+   "ctx": "RHannanWhyHarassingOpt"
+  },
+  {
+   "i": 196,
+   "en": "\"Of course not, I'm no fool. What's your game, Hannan?\"\r",
+   "ctx": "RHannanWhyHarassing1"
+  },
+  {
+   "i": 197,
+   "en": "\"I would rather like to believe that the ideals of the League meant something.\"\r",
+   "ctx": "RHannanWhyHarassing1"
+  },
+  {
+   "i": 198,
+   "en": "\"I absolutely believe in freedom. What you're doing is not it.\"",
+   "ctx": "RHannanWhyHarassing1"
+  },
+  {
+   "i": 199,
+   "en": "\"Consider it noted.\"\r",
+   "ctx": "RHannanWhyHarassing2"
+  },
+  {
+   "i": 200,
+   "en": "\"I'll join - to vote you out of office.\"\r",
+   "ctx": "RHannanWhyHarassing2"
+  },
+  {
+   "i": 201,
+   "en": "\"The waste of human life is unbelievably cynical.\"",
+   "ctx": "RHannanWhyHarassing2"
+  },
+  {
+   "i": 202,
+   "en": "\"I left a message with your secretary. Have you given it thought?\"",
+   "ctx": "RHannanMsgFollowup"
+  },
+  {
+   "i": 203,
+   "en": "\"I left some messages with your secretary. Have you given them thought?\"",
+   "ctx": "RHannanMsgFollowupMany"
+  },
+  {
+   "i": 204,
+   "en": "\"Do you even read your messages?\"",
+   "ctx": "RHannanMsgFollowupDoYouEven"
+  },
+  {
+   "i": 205,
+   "en": "\"I inquired about joining the Persean League.\"",
+   "ctx": "RHannanMsgFollowupJoinLeague"
+  },
+  {
+   "i": 206,
+   "en": "\"I said I would offer my services to Gens Hannan.\"",
+   "ctx": "RHannanMsgFollowupOfferServices"
+  },
+  {
+   "i": 207,
+   "en": "\"I have important information to discuss concerning the future of the Persean Sector itself!\"",
+   "ctx": "RHannanMsgFollowupDiscussFuture"
+  },
+  {
+   "i": 208,
+   "en": "\"This information is very important, it concerns the Gate system and the Galatia Academy.\" (explain)",
+   "ctx": "RHannanMsgFollowupDiscussFuture2"
+  },
+  {
+   "i": 209,
+   "en": "\"I wish to discuss... a delicate matter involving Horus Yaribay's activities.\"",
+   "ctx": "RHannanMsgFollowupHorusYaribay"
+  },
+  {
+   "i": 210,
+   "en": "\"Never mind.\" (back)",
+   "ctx": "RHannanMsgFollowupNeverMind"
+  },
+  {
+   "i": 211,
+   "en": "\"...Yes.\"\r",
+   "ctx": "RHannanMsgFollowHorusYaribay"
+  },
+  {
+   "i": 212,
+   "en": "\"Um. No?\"\r",
+   "ctx": "RHannanMsgFollowHorusYaribay"
+  },
+  {
+   "i": 213,
+   "en": "\"It's more complex than that.\"",
+   "ctx": "RHannanMsgFollowHorusYaribay"
+  },
+  {
+   "i": 214,
+   "en": "\"I want to talk to Artemisia Sun.\"\r",
+   "ctx": "defaultSunGreeting"
+  },
+  {
+   "i": 215,
+   "en": "\"Let me speak to a human.\"\r",
+   "ctx": "defaultSunGreeting"
+  },
+  {
+   "i": 216,
+   "en": "\"Have you had any dealing with Zunya Glamor-Rotanev?\"",
+   "ctx": "RayanArroyoAskAboutZGRoptB"
+  },
+  {
+   "i": 217,
+   "en": "\"I found a dead ship. Full of recordings of hatred for this Glamor-Rotanev.\"",
+   "ctx": "ArroyoAskAboutZGRoptE"
+  },
+  {
+   "i": 218,
+   "en": "\"She told me you didn't have the 'killer instinct for senior leadership'.\"",
+   "ctx": "ArroyoAskAboutZGRoptB"
+  },
+  {
+   "i": 219,
+   "en": "\"Not... exactly.\"",
+   "ctx": "ArroyoAskAboutZGRoptA"
+  },
+  {
+   "i": 220,
+   "en": "\"I, uh, couldn't say. I was interested in your impression of her.\"",
+   "ctx": "ArroyoAskAboutZGRoptC"
+  },
+  {
+   "i": 221,
+   "en": "\"You know what? Never mind.\"",
+   "ctx": "ArroyoAskAboutZGRoptD"
+  }
+ ]
+}

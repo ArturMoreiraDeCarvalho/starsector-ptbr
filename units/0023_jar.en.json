@@ -1,0 +1,1256 @@
+{
+ "chunk": 23,
+ "cat": "jar",
+ "items": [
+  {
+   "i": 1,
+   "en": "Drive field polarity reversed",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/ReversePolarityToggle.class"
+  },
+  {
+   "i": 2,
+   "en": "Going against the current is less efficient and results in the slipstream current's effect being reduced by %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/ReversePolarityToggle.class"
+  },
+  {
+   "i": 3,
+   "en": "Reverse Polarity",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/ReversePolarityToggle.class"
+  },
+  {
+   "i": 4,
+   "en": "Reverse the polarity of the drive field, causing the fleet to travel against the current of slipstreams.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/ReversePolarityToggle.class"
+  },
+  {
+   "i": 5,
+   "en": "Use inside slipstreams",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/ReversePolarityToggle.class"
+  },
+  {
+   "i": 6,
+   "en": "When used outside a slipstream, incurs no cost, penalty, or risk of ship damage.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/ReversePolarityToggle.class"
+  },
+  {
+   "i": 7,
+   "en": "Pick through a debris field looking for anything of value.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/ScavengeAbility.class"
+  },
+  {
+   "i": 8,
+   "en": "Scavenging",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/ScavengeAbility.class"
+  },
+  {
+   "i": 9,
+   "en": "Your fleet is inside a debris field and can begin scavenging.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/ScavengeAbility.class"
+  },
+  {
+   "i": 10,
+   "en": "Your fleet is inside a debris field, but it contains nothing of value.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/ScavengeAbility.class"
+  },
+  {
+   "i": 11,
+   "en": "Your fleet is not currently inside a debris field.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/ScavengeAbility.class"
+  },
+  {
+   "i": 12,
+   "en": "**A fleet is considered slow-moving at a burn level of half that of its slowest ship.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/SensorBurstAbility.class"
+  },
+  {
+   "i": 13,
+   "en": "Active sensor burst",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/SensorBurstAbility.class"
+  },
+  {
+   "i": 14,
+   "en": "Increases sensor range by %s* units and increases the range at which the fleet can be detected by %s* units. The fleet is only able to %s** while the ability is active.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/SensorBurstAbility.class"
+  },
+  {
+   "i": 15,
+   "en": "Turn off engines to reduce interference and link all sensors in the fleet into a single network.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/SensorBurstAbility.class"
+  },
+  {
+   "i": 16,
+   "en": "Increases the maximum burn level by %s, at the expense of lower acceleration, especially in the direction of the fleet's movement. Also increases the range at which the fleet can be detected by %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/SustainedBurnAbility.class"
+  },
+  {
+   "i": 17,
+   "en": "Out of fuel.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/SustainedBurnAbility.class"
+  },
+  {
+   "i": 18,
+   "en": "Sustained burn",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/SustainedBurnAbility.class"
+  },
+  {
+   "i": 19,
+   "en": "Switch the drives of all ships in the fleet to a mode suited for long-distance travel. The fleet has to stop briefly to make the switch-over. ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/SustainedBurnAbility.class"
+  },
+  {
+   "i": 20,
+   "en": "The burn level increase does not apply to flat burn bonuses, such as those from Nav Buoys or tugs.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/SustainedBurnAbility.class"
+  },
+  {
+   "i": 21,
+   "en": " The cost is incurred both when activating and deactivating the ability.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/ToggleAbilityWithCost.class"
+  },
+  {
+   "i": 22,
+   "en": " of all ships, costing up to %s supplies to recover.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/ToggleAbilityWithCost.class"
+  },
+  {
+   "i": 23,
+   "en": "educes the combat readiness",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/ToggleAbilityWithCost.class"
+  },
+  {
+   "i": 24,
+   "en": "educes the combat readiness ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/ToggleAbilityWithCost.class"
+  },
+  {
+   "i": 25,
+   "en": "onsumes %s fuel and reduces the combat readiness",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/ToggleAbilityWithCost.class"
+  },
+  {
+   "i": 26,
+   "en": "onsumes %s fuel.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/ToggleAbilityWithCost.class"
+  },
+  {
+   "i": 27,
+   "en": "onsumes %s light ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/ToggleAbilityWithCost.class"
+  },
+  {
+   "i": 28,
+   "en": " hostile.\n\n",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/TransponderAbility.class"
+  },
+  {
+   "i": 29,
+   "en": "Activating the transponder will reveal your identity - use again to confirm",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/TransponderAbility.class"
+  },
+  {
+   "i": 30,
+   "en": "Are you sure you want to do this?",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/TransponderAbility.class"
+  },
+  {
+   "i": 31,
+   "en": "In most places, running with the transponder off will attract the attention of nearby patrols, although several factions and certain free ports allow it. Having the transponder off does not grant perfect anonymity.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/TransponderAbility.class"
+  },
+  {
+   "i": 32,
+   "en": "Transponder on",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/TransponderAbility.class"
+  },
+  {
+   "i": 33,
+   "en": "Transponder primed - use again to activate",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/TransponderAbility.class"
+  },
+  {
+   "i": 34,
+   "en": "Transponder shutdown initiated - use again to deactivate",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/TransponderAbility.class"
+  },
+  {
+   "i": 35,
+   "en": "Transponder status also affects the reputation changes from combat and trade. With it turned off, you might be able to trade with otherwise inhospitable factions.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/TransponderAbility.class"
+  },
+  {
+   "i": 36,
+   "en": "Transponders transmit identifying information to all fleets within range.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/TransponderAbility.class"
+  },
+  {
+   "i": 37,
+   "en": "Turning the transponder on will reveal your identity and make ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/TransponderAbility.class"
+  },
+  {
+   "i": 38,
+   "en": "When the transponder is on, your fleet can be detected at longer range and full information on its composition is available at maximum range.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/TransponderAbility.class"
+  },
+  {
+   "i": 39,
+   "en": "Your identity is revealed and linked to your recent hostile actions!",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/abilities/TransponderAbility.class"
+  },
+  {
+   "i": 40,
+   "en": "%s hazard rating",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/BaseHazardCondition.class"
+  },
+  {
+   "i": 41,
+   "en": "%s accessibility.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/Blockaded.class"
+  },
+  {
+   "i": 42,
+   "en": "Closed immigration",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/ClosedImmigration.class"
+  },
+  {
+   "i": 43,
+   "en": "Comm relay",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/CommRelayCondition.class"
+  },
+  {
+   "i": 44,
+   "en": "Makeshift comm relay",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/CommRelayCondition.class"
+  },
+  {
+   "i": 45,
+   "en": "%s population growth (based on colony size)",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/DecivilizedSubpop.class"
+  },
+  {
+   "i": 46,
+   "en": "%s stability",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/DecivilizedSubpop.class"
+  },
+  {
+   "i": 47,
+   "en": "Decivilized subpopulation",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/DecivilizedSubpop.class"
+  },
+  {
+   "i": 48,
+   "en": "Dissident population",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/Dissident.class"
+  },
+  {
+   "i": 49,
+   "en": "Established Polity",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/EstablishedPolity.class"
+  },
+  {
+   "i": 50,
+   "en": "League development programs",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/EstablishedPolity.class"
+  },
+  {
+   "i": 51,
+   "en": "You've proven the independence and strength of your colonies by defeating a Persean League force sent against you, and are viewed as a stable trading partner.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/EstablishedPolity.class"
+  },
+  {
+   "i": 52,
+   "en": "Your colonies are recently joined members of the Persean League, resulting in an increased flow of commerce.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/EstablishedPolity.class"
+  },
+  {
+   "i": 53,
+   "en": "Food shortage",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/FoodShortage.class"
+  },
+  {
+   "i": 54,
+   "en": "%s accessibility (maximum of %s, reached after %s days)",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/FreeMarket.class"
+  },
+  {
+   "i": 55,
+   "en": "%s population growth (maximum of %s, reached after %s days)",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/FreeMarket.class"
+  },
+  {
+   "i": 56,
+   "en": "%s stability (maximum of %s, reached after %s days)",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/FreeMarket.class"
+  },
+  {
+   "i": 57,
+   "en": "Colony does not require the transponder to be turned on for open trade. All commodities are legal to trade.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/FreeMarket.class"
+  },
+  {
+   "i": 58,
+   "en": "Colony gets income from smuggled exports.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/FreeMarket.class"
+  },
+  {
+   "i": 59,
+   "en": "Free port",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/FreeMarket.class"
+  },
+  {
+   "i": 60,
+   "en": "Increased accessibility (maximum of %s, reached after %s days)",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/FreeMarket.class"
+  },
+  {
+   "i": 61,
+   "en": "Increased population growth (maximum of %s, reached after %s days)",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/FreeMarket.class"
+  },
+  {
+   "i": 62,
+   "en": "Reduced stability (maximum of %s, reached after %s days)",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/FreeMarket.class"
+  },
+  {
+   "i": 63,
+   "en": "Requires a spaceport to have any effect",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/FreeMarket.class"
+  },
+  {
+   "i": 64,
+   "en": "Headquarters",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/Headquarters.class"
+  },
+  {
+   "i": 65,
+   "en": "%s accessibility",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/HighGravity.class"
+  },
+  {
+   "i": 66,
+   "en": "High gravity",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/HighGravity.class"
+  },
+  {
+   "i": 67,
+   "en": "Refugee population",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/LargeRefugeePopulation.class"
+  },
+  {
+   "i": 68,
+   "en": "Low gravity",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/LowGravity.class"
+  },
+  {
+   "i": 69,
+   "en": " are Luddic faithful. ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/LuddicMajority.class"
+  },
+  {
+   "i": 70,
+   "en": " feeling securely out from under the direct ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/LuddicMajority.class"
+  },
+  {
+   "i": 71,
+   "en": "%s population growth",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/LuddicMajority.class"
+  },
+  {
+   "i": 72,
+   "en": "%s production for Farming, Light Industry, and similar",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/LuddicMajority.class"
+  },
+  {
+   "i": 73,
+   "en": "A majority of the population of ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/LuddicMajority.class"
+  },
+  {
+   "i": 74,
+   "en": "Dardan Kato's \"policies\"",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/LuddicMajority.class"
+  },
+  {
+   "i": 75,
+   "en": "Deal made with Luddic Church to curtail immigration",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/LuddicMajority.class"
+  },
+  {
+   "i": 76,
+   "en": "For colonies outside the core, it may also result in increased population growth, from Luddic immigrants seeking to escape the sometimes oppressive influence of the Luddic Church.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/LuddicMajority.class"
+  },
+  {
+   "i": 77,
+   "en": "Luddic immigration (Luddic majority)",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/LuddicMajority.class"
+  },
+  {
+   "i": 78,
+   "en": "Luddic majority",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/LuddicMajority.class"
+  },
+  {
+   "i": 79,
+   "en": "The bonus is doubled due to the faithful ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/LuddicMajority.class"
+  },
+  {
+   "i": 80,
+   "en": "The colony has heavy industrial facilities (",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/LuddicMajority.class"
+  },
+  {
+   "i": 81,
+   "en": "The colony has military facilities (",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/LuddicMajority.class"
+  },
+  {
+   "i": 82,
+   "en": "The colony has no suitable employment for the faithful, such as farming or light industry",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/LuddicMajority.class"
+  },
+  {
+   "i": 83,
+   "en": "The colony is a free port",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/LuddicMajority.class"
+  },
+  {
+   "i": 84,
+   "en": "The colony is not habitable",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/LuddicMajority.class"
+  },
+  {
+   "i": 85,
+   "en": "The following factors result in these bonuses being negated, and, unless addressed, will result in the \"Luddic Majority\" condition being removed if the colony increases in size:",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/LuddicMajority.class"
+  },
+  {
+   "i": 86,
+   "en": "The following factors result in these bonuses being negated:",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/LuddicMajority.class"
+  },
+  {
+   "i": 87,
+   "en": "This may result in a substantial boost ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/LuddicMajority.class"
+  },
+  {
+   "i": 88,
+   "en": "doubled",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/LuddicMajority.class"
+  },
+  {
+   "i": 89,
+   "en": "influence of the Luddic Church.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/LuddicMajority.class"
+  },
+  {
+   "i": 90,
+   "en": "negated",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/LuddicMajority.class"
+  },
+  {
+   "i": 91,
+   "en": "to stability and productivity.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/LuddicMajority.class"
+  },
+  {
+   "i": 92,
+   "en": "Organized crime",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/OrganizedCrime.class"
+  },
+  {
+   "i": 93,
+   "en": "Outpost",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/Outpost.class"
+  },
+  {
+   "i": 94,
+   "en": " (with Kanta's Protection)",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/PiracyRespite.class"
+  },
+  {
+   "i": 95,
+   "en": " remaining).",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/PiracyRespite.class"
+  },
+  {
+   "i": 96,
+   "en": "%s accessibility (%s ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/PiracyRespite.class"
+  },
+  {
+   "i": 97,
+   "en": "Kanta's Protection",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/PiracyRespite.class"
+  },
+  {
+   "i": 98,
+   "en": "You've defeated a large armada sent against your colonies, and pirates are wary of attacking trade fleets serving them, resulting in a greatly reduced number of shipping disruptions.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/PiracyRespite.class"
+  },
+  {
+   "i": 99,
+   "en": "Your colonies have %s, and pirates are wary of attacking trade fleets serving them lest they attract her wrath. Shipping disruptions from piracy are virtually eliminated.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/PiracyRespite.class"
+  },
+  {
+   "i": 100,
+   "en": "Your colonies have %s, resulting in an increased accessibility bonus.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/PiracyRespite.class"
+  },
+  {
+   "i": 101,
+   "en": "%s stability. Goes down by one point every three months.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/RecentUnrest.class"
+  },
+  {
+   "i": 102,
+   "en": "A penalty to stability that goes down by %s point every three months.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/RecentUnrest.class"
+  },
+  {
+   "i": 103,
+   "en": "Recent contributing factors:",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/RecentUnrest.class"
+  },
+  {
+   "i": 104,
+   "en": "Recent unrest",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/RecentUnrest.class"
+  },
+  {
+   "i": 105,
+   "en": "Regional capital",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/RegionalCapital.class"
+  },
+  {
+   "i": 106,
+   "en": " production (",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/ResourceDepositsCondition.class"
+  },
+  {
+   "i": 107,
+   "en": "Base value for colony size",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/ResourceDepositsCondition.class"
+  },
+  {
+   "i": 108,
+   "en": "No bonuses or penalties to ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/ResourceDepositsCondition.class"
+  },
+  {
+   "i": 109,
+   "en": "%s stability.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/RogueAICore.class"
+  },
+  {
+   "i": 110,
+   "en": "Rogue AI core",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/RogueAICore.class"
+  },
+  {
+   "i": 111,
+   "en": " have suffered losses, ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/ShippingDisruption.class"
+  },
+  {
+   "i": 112,
+   "en": "Shipping Disruption",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/ShippingDisruption.class"
+  },
+  {
+   "i": 113,
+   "en": "The local availability of some commodities has been reduced by trade fleet losses. Provided no further losses occur, commodity availability should return to normal levels within at most three months.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/ShippingDisruption.class"
+  },
+  {
+   "i": 114,
+   "en": "Trade fleets launched from ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/ShippingDisruption.class"
+  },
+  {
+   "i": 115,
+   "en": "Trade fleets lost",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/ShippingDisruption.class"
+  },
+  {
+   "i": 116,
+   "en": "resulting in a temporary accessibility penalty of %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/ShippingDisruption.class"
+  },
+  {
+   "i": 117,
+   "en": ".\n\nIncreases food production by %s (Farming).",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/SolarArray.class"
+  },
+  {
+   "i": 118,
+   "en": "Counters the effects of ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/SolarArray.class"
+  },
+  {
+   "i": 119,
+   "en": "Stealth minefields",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/StealthMinefields.class"
+  },
+  {
+   "i": 120,
+   "en": "Trade center",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/TradeCenter.class"
+  },
+  {
+   "i": 121,
+   "en": "    - %s refunded",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 122,
+   "en": "    - Construction aborted",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 123,
+   "en": "    - Construction completed",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 124,
+   "en": "    - Construction started",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 125,
+   "en": " - Industry",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 126,
+   "en": " - Structure",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 127,
+   "en": " currently assigned. ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 128,
+   "en": " left",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 129,
+   "en": " points required to make an additional improvement.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 130,
+   "en": " shortage",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 131,
+   "en": " to build.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 132,
+   "en": " to build. You have %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 133,
+   "en": " to finish building.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 134,
+   "en": " to upgrade. You have %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 135,
+   "en": " until return to normal function.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 136,
+   "en": "%s and %s ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 137,
+   "en": "%s refunded for downgrade.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 138,
+   "en": "*Shown production and demand values are already adjusted based on current market size and local conditions.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 139,
+   "en": "AI Core assigned",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 140,
+   "en": "Alpha Core assigned",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 141,
+   "en": "Alpha core",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 142,
+   "en": "Alpha-level AI core currently assigned. ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 143,
+   "en": "Alpha-level AI core. ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 144,
+   "en": "Beta Core assigned",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 145,
+   "en": "Beta core",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 146,
+   "en": "Beta-level AI core currently assigned. ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 147,
+   "en": "Beta-level AI core. ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 148,
+   "en": "Building: ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 149,
+   "en": "Can not be built",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 150,
+   "en": "Click to manage",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 151,
+   "en": "Click to manage or upgrade",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 152,
+   "en": "Click to remove or adjust position in queue",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 153,
+   "en": "Currently queued for construction. Does not have any impact on the colony.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 154,
+   "en": "Currently under construction and not producing anything or providing other benefits.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 155,
+   "en": "Demand & effects",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 156,
+   "en": "Disrupted: ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 157,
+   "en": "Each improvement made at a colony doubles the number of ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 158,
+   "en": "Gamma Core assigned",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 159,
+   "en": "Gamma core",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 160,
+   "en": "Gamma-level AI core currently assigned. ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 161,
+   "en": "Gamma-level AI core. ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 162,
+   "en": "Improvements",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 163,
+   "en": "Improvements made",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 164,
+   "en": "Improving ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 165,
+   "en": "Increases production by %s ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 166,
+   "en": "Increases production by %s unit.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 167,
+   "en": "Make improvements...",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 168,
+   "en": "Market income multiplier",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 169,
+   "en": "Market upkeep multiplier",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 170,
+   "en": "Maximum number of industries reached",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 171,
+   "en": "Monthly income: %s",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 172,
+   "en": "Monthly upkeep: %s",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 173,
+   "en": "No AI core currently assigned. Click to assign an AI core from your cargo.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 174,
+   "en": "No effect.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 175,
+   "en": "No items installed",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 176,
+   "en": "Operations disrupted! %s ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 177,
+   "en": "Production increased by %s ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 178,
+   "en": "Reduces demand by %s unit.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 179,
+   "en": "Reduces upkeep cost by %s. Reduces demand by %s unit.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 180,
+   "en": "Reduces upkeep cost by %s. Reduces demand by %s unit. ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 181,
+   "en": "Requires %s more ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 182,
+   "en": "Stability bonus: %s",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 183,
+   "en": "Stability penalty: %s",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 184,
+   "en": "Upgrading: ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 185,
+   "en": "Various shortages",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 186,
+   "en": "shortage",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class"
+  },
+  {
+   "i": 187,
+   "en": " currently installed. ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseInstallableItemEffect.class"
+  },
+  {
+   "i": 188,
+   "en": "Requires: ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/BaseInstallableItemEffect.class"
+  },
+  {
+   "i": 189,
+   "en": " away, allowing ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/Cryorevival$CryosleeperFactor.class"
+  },
+  {
+   "i": 190,
+   "en": " away. The maximum ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/Cryorevival$CryosleeperFactor.class"
+  },
+  {
+   "i": 191,
+   "en": "Cryosleeper",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/Cryorevival$CryosleeperFactor.class"
+  },
+  {
+   "i": 192,
+   "en": "Domain-era Cryosleeper within range",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/Cryorevival$CryosleeperFactor.class"
+  },
+  {
+   "i": 193,
+   "en": "Only show planets within %s light-years of a Domain-era Cryosleeper. Colonies within range can build a %s and benefit from hugely increased population growth.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/Cryorevival$CryosleeperFactor.class"
+  },
+  {
+   "i": 194,
+   "en": "The nearest cryosleeper is located in the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/Cryorevival$CryosleeperFactor.class"
+  },
+  {
+   "i": 195,
+   "en": "a Cryorevival Facility built here to operate at %s effectiveness.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/Cryorevival$CryosleeperFactor.class"
+  },
+  {
+   "i": 196,
+   "en": "light-year",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/Cryorevival$CryosleeperFactor.class"
+  },
+  {
+   "i": 197,
+   "en": "light-years",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/Cryorevival$CryosleeperFactor.class"
+  },
+  {
+   "i": 198,
+   "en": "range at which sleepers can be safely brought over for revival is %s light-years.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/Cryorevival$CryosleeperFactor.class"
+  },
+  {
+   "i": 199,
+   "en": "%s growth bonus multiplier based on met demand. If any demand is unmet, the maximum bonus is reduced by %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/Cryorevival.class"
+  },
+  {
+   "i": 200,
+   "en": "%s population growth.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/Cryorevival.class"
+  },
+  {
+   "i": 201,
+   "en": ", growth bonus multiplier: %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/Cryorevival.class"
+  },
+  {
+   "i": 202,
+   "en": "Alpha core (",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/Cryorevival.class"
+  },
+  {
+   "i": 203,
+   "en": "Distance to nearest cryosleeper: %s ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/Cryorevival.class"
+  },
+  {
+   "i": 204,
+   "en": "If any demand is unmet, the maximum growth bonus is reduced by %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/Cryorevival.class"
+  },
+  {
+   "i": 205,
+   "en": "Increases population growth by %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/Cryorevival.class"
+  },
+  {
+   "i": 206,
+   "en": "Population growth increased by %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/Cryorevival.class"
+  },
+  {
+   "i": 207,
+   "en": "Population growth: %s (max for colony size: %s)",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/Cryorevival.class"
+  },
+  {
+   "i": 208,
+   "en": "Requires in-system cryosleeper",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/Cryorevival.class"
+  },
+  {
+   "i": 209,
+   "en": "Requires farmland",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/Farming.class"
+  },
+  {
+   "i": 210,
+   "en": "Certain Domain-era artifacts might be installed here to improve the colony. Only one such artifact may be installed at an industry at a time.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/GenericInstallableItemPlugin.class"
+  },
+  {
+   "i": 211,
+   "en": "Install item...",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/GenericInstallableItemPlugin.class"
+  },
+  {
+   "i": 212,
+   "en": "Manage item...",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/GenericInstallableItemPlugin.class"
+  },
+  {
+   "i": 213,
+   "en": "No item currently installed",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/GenericInstallableItemPlugin.class"
+  },
+  {
+   "i": 214,
+   "en": "No suitable items available",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/GenericInstallableItemPlugin.class"
+  },
+  {
+   "i": 215,
+   "en": "No suitable items available in storage",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/GenericInstallableItemPlugin.class"
+  },
+  {
+   "i": 216,
+   "en": "Select item to install for ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/GenericInstallableItemPlugin.class"
+  },
+  {
+   "i": 217,
+   "en": "Uninstall item",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/GenericInstallableItemPlugin.class"
+  },
+  {
+   "i": 218,
+   "en": "Ground defenses increased by %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/GroundDefenses.class"
+  },
+  {
+   "i": 219,
+   "en": "Increases ground defenses by %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/GroundDefenses.class"
+  },
+  {
+   "i": 220,
+   "en": " - low stability",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/HeavyIndustry.class"
+  },
+  {
+   "i": 221,
+   "en": "*Quality bonus only applies for the largest ship producer in the faction.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/HeavyIndustry.class"
+  },
+  {
+   "i": 222,
+   "en": "Orbital works",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/HeavyIndustry.class"
+  },
+  {
+   "i": 223,
+   "en": "Ship quality: %s",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/HeavyIndustry.class"
+  },
+  {
+   "i": 224,
+   "en": " volatiles shortage",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/ItemEffectsRepo$1$1.class"
+  },
+  {
+   "i": 225,
+   "en": "Adds demand for %s units of volatiles.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/ItemEffectsRepo$1$1.class"
+  },
+  {
+   "i": 226,
+   "en": "Counters",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/ItemEffectsRepo$1$1.class"
+  },
+  {
+   "i": 227,
+   "en": "Increases heat on non-cold planets. ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/ItemEffectsRepo$1$1.class"
+  },
+  {
+   "i": 228,
+   "en": "Increases farming production by %s units.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/ItemEffectsRepo$1$10.class"
+  },
+  {
+   "i": 229,
+   "en": "Increases size of fleets launched by colony by %s for hot worlds, and ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/ItemEffectsRepo$1$11.class"
+  },
+  {
+   "i": 230,
+   "en": "by %s for worlds with extreme heat.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/ItemEffectsRepo$1$11.class"
+  },
+  {
+   "i": 231,
+   "en": "Colony's ground defenses increased by %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/ItemEffectsRepo$1$12.class"
+  },
+  {
+   "i": 232,
+   "en": "Colony's income increased by %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/ItemEffectsRepo$1$13.class"
+  },
+  {
+   "i": 233,
+   "en": "%s units of transplutonics is fully met.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/ItemEffectsRepo$1$14.class"
+  },
+  {
+   "i": 234,
+   "en": "Increases the maximum number of industries at a colony by %s when demand for ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/ItemEffectsRepo$1$14.class"
+  },
+  {
+   "i": 235,
+   "en": " On habitable worlds, causes pollution which becomes permanent.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/ItemEffectsRepo$1$2.class"
+  },
+  {
+   "i": 236,
+   "en": "Increases ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/ItemEffectsRepo$1$2.class"
+  },
+  {
+   "i": 237,
+   "en": "Increases ship and weapon production quality by %s. ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/ItemEffectsRepo$1$2.class"
+  },
+  {
+   "i": 238,
+   "en": "heavy industry ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/ItemEffectsRepo$1$2.class"
+  },
+  {
+   "i": 239,
+   "en": "production by %s unit.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/ItemEffectsRepo$1$2.class"
+  },
+  {
+   "i": 240,
+   "en": "production by %s units.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/ItemEffectsRepo$1$3.class"
+  },
+  {
+   "i": 241,
+   "en": "Increases fuel production output by %s units.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/ItemEffectsRepo$1$4.class"
+  },
+  {
+   "i": 242,
+   "en": " production by %s units.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/ItemEffectsRepo$1$5.class"
+  },
+  {
+   "i": 243,
+   "en": "Increases light industry production by %s units.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/ItemEffectsRepo$1$7.class"
+  },
+  {
+   "i": 244,
+   "en": "Increases refining production by %s units.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/ItemEffectsRepo$1$8.class"
+  },
+  {
+   "i": 245,
+   "en": "Increases colony accessibility by %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/ItemEffectsRepo$1$9.class"
+  },
+  {
+   "i": 246,
+   "en": " light-years",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/ItemEffectsRepo.class"
+  },
+  {
+   "i": 247,
+   "en": "cold or extreme cold",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/ItemEffectsRepo.class"
+  },
+  {
+   "i": 248,
+   "en": "coronal hypershunt within ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/ItemEffectsRepo.class"
+  },
+  {
+   "i": 249,
+   "en": "gas giant",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/ItemEffectsRepo.class"
+  },
+  {
+   "i": 250,
+   "en": "habitable",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/impl/ItemEffectsRepo.class"
+  }
+ ]
+}

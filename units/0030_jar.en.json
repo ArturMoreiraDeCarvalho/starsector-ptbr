@@ -1,0 +1,1116 @@
+{
+ "chunk": 30,
+ "cat": "jar",
+ "items": [
+  {
+   "i": 1,
+   "en": "Impending Remnant attack",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/RemnantHostileActivityFactor.class"
+  },
+  {
+   "i": 2,
+   "en": "Remnant",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/RemnantHostileActivityFactor.class"
+  },
+  {
+   "i": 3,
+   "en": "Remnant Nexus",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/RemnantHostileActivityFactor.class"
+  },
+  {
+   "i": 4,
+   "en": "Remnant attack",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/RemnantHostileActivityFactor.class"
+  },
+  {
+   "i": 5,
+   "en": "Remnant attack averted",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/RemnantHostileActivityFactor.class"
+  },
+  {
+   "i": 6,
+   "en": "The %s is destroyed",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/RemnantHostileActivityFactor.class"
+  },
+  {
+   "i": 7,
+   "en": "There are signs of activity at a Remnant Nexus in your system. Intel evaluates a high probability of an attack fleet being assembled to saturation-bombard ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/RemnantHostileActivityFactor.class"
+  },
+  {
+   "i": 8,
+   "en": "end the threat",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/RemnantHostileActivityFactor.class"
+  },
+  {
+   "i": 9,
+   "en": "remnant forces",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/RemnantHostileActivityFactor.class"
+  },
+  {
+   "i": 10,
+   "en": "saturation-bombard",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/RemnantHostileActivityFactor.class"
+  },
+  {
+   "i": 11,
+   "en": " threatened by a Remnant Nexus located in the system. ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/RemnantNexusActivityCause$1.class"
+  },
+  {
+   "i": 12,
+   "en": " to other dangers.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/RemnantNexusActivityCause$1.class"
+  },
+  {
+   "i": 13,
+   "en": "%s should address all these concerns.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/RemnantNexusActivityCause$1.class"
+  },
+  {
+   "i": 14,
+   "en": "Destroying the Nexus",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/RemnantNexusActivityCause$1.class"
+  },
+  {
+   "i": 15,
+   "en": "Even when relatively dormant, the Remnant fleets are a constant thorn in your side, wasting defensive resources and exposing your ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/RemnantNexusActivityCause$1.class"
+  },
+  {
+   "i": 16,
+   "en": "This results in a greater risk of trade fleets being attacked, and eventual ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/RemnantNexusActivityCause$1.class"
+  },
+  {
+   "i": 17,
+   "en": "existential danger for your ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/RemnantNexusActivityCause$1.class"
+  },
+  {
+   "i": 18,
+   "en": "Remnant Nexus in the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/RemnantNexusActivityCause.class"
+  },
+  {
+   "i": 19,
+   "en": "Sindrian raider fleets have been sighted in your space, attacking trade fleets regardless of their factional allegiance.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/SindrianDiktatHostileActivityFactor$1.class"
+  },
+  {
+   "i": 20,
+   "en": "You've attracted the attention of the Sindrian Diktat.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/SindrianDiktatHostileActivityFactor$1.class"
+  },
+  {
+   "i": 21,
+   "en": "Diktat",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/SindrianDiktatHostileActivityFactor.class"
+  },
+  {
+   "i": 22,
+   "en": "Fuel production on %s is significantly disrupted",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/SindrianDiktatHostileActivityFactor.class"
+  },
+  {
+   "i": 23,
+   "en": "If the attack is defeated the Diktat will likely abandon further efforts against you, and your ability to export fuel will be improved.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/SindrianDiktatHostileActivityFactor.class"
+  },
+  {
+   "i": 24,
+   "en": "Impending Sindrian Diktat attack",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/SindrianDiktatHostileActivityFactor.class"
+  },
+  {
+   "i": 25,
+   "en": "Sindrian Diktat attack",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/SindrianDiktatHostileActivityFactor.class"
+  },
+  {
+   "i": 26,
+   "en": "Sindrian Diktat attack averted",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/SindrianDiktatHostileActivityFactor.class"
+  },
+  {
+   "i": 27,
+   "en": "You go to %s and make an agreement with the Diktat",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/SindrianDiktatHostileActivityFactor.class"
+  },
+  {
+   "i": 28,
+   "en": "You've received intel that the Sindrian Diktat is planning an attack to saturation-bombard your fuel production facilities.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/SindrianDiktatHostileActivityFactor.class"
+  },
+  {
+   "i": 29,
+   "en": "export fuel",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/SindrianDiktatHostileActivityFactor.class"
+  },
+  {
+   "i": 30,
+   "en": "improved",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/SindrianDiktatHostileActivityFactor.class"
+  },
+  {
+   "i": 31,
+   "en": "Event progress is based on maximum fuel production. %s below %s per colony should be enough to divert the Diktat's attention.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/SindrianDiktatStandardActivityCause$1.class"
+  },
+  {
+   "i": 32,
+   "en": "Knocking the Diktat out of the fuel production game is also an option. Much of their fuel production depends on a Domain-era Synchrotron Core installed in their production facilities on Sindria.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/SindrianDiktatStandardActivityCause$1.class"
+  },
+  {
+   "i": 33,
+   "en": "Reducing production levels ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/SindrianDiktatStandardActivityCause$1.class"
+  },
+  {
+   "i": 34,
+   "en": "Synchrotron Core",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/SindrianDiktatStandardActivityCause$1.class"
+  },
+  {
+   "i": 35,
+   "en": "Your colony production of fuel is high enough for the Sindrian Diktat - which depends on its own fuel production for much of its economy - to take notice.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/SindrianDiktatStandardActivityCause$1.class"
+  },
+  {
+   "i": 36,
+   "en": "Competing fuel production",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/SindrianDiktatStandardActivityCause.class"
+  },
+  {
+   "i": 37,
+   "en": " located in the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/StandardLuddicPathActivityCause2$1.class"
+  },
+  {
+   "i": 38,
+   "en": "Active Pather cells on some of your colonies are being supported by a Pather base",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/StandardLuddicPathActivityCause2$1.class"
+  },
+  {
+   "i": 39,
+   "en": "Dealing with this base",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/StandardLuddicPathActivityCause2$1.class"
+  },
+  {
+   "i": 40,
+   "en": "Pather cells on some of your colonies have been disrupted, reducing the Pather interest contribution from these colonies to event progress.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/StandardLuddicPathActivityCause2$1.class"
+  },
+  {
+   "i": 41,
+   "en": "Use of advanced technology and AI cores attracts the attention of Pathers.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/StandardLuddicPathActivityCause2$1.class"
+  },
+  {
+   "i": 42,
+   "en": "advanced technology",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/StandardLuddicPathActivityCause2$1.class"
+  },
+  {
+   "i": 43,
+   "en": "will reduce the level of Pather fleet actvity.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/StandardLuddicPathActivityCause2$1.class"
+  },
+  {
+   "i": 44,
+   "en": "Technology and AI core use",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/StandardLuddicPathActivityCause2.class"
+  },
+  {
+   "i": 45,
+   "en": "Event progress value is based on the number and size of colonies under your control. Requires one size %s colony, or at least %s colonies with one being at least size %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/StandardPerseanLeagueActivityCause$1.class"
+  },
+  {
+   "i": 46,
+   "en": "Going to Kazeron and negotiating to join the League is likely to get this harassment to stop. If left unchecked, this low-grade conflict will eventually come to a head and is likely to be resolved one way or another.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/StandardPerseanLeagueActivityCause$1.class"
+  },
+  {
+   "i": 47,
+   "en": "join the League",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/StandardPerseanLeagueActivityCause$1.class"
+  },
+  {
+   "i": 48,
+   "en": "Colony presence and size",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/StandardPerseanLeagueActivityCause.class"
+  },
+  {
+   "i": 49,
+   "en": "Any colony, especially one outside the core, attracts some degree of piracy. %s and %s colonies attract more pirates.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/StandardPirateActivityCause2$1.class"
+  },
+  {
+   "i": 50,
+   "en": "Event progress value is based on the size and stability of the largest colony under your control. If multiple colonies have the same size, the one with higher stability is used.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/StandardPirateActivityCause2$1.class"
+  },
+  {
+   "i": 51,
+   "en": "Larger",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/StandardPirateActivityCause2$1.class"
+  },
+  {
+   "i": 52,
+   "en": "less stable",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/StandardPirateActivityCause2$1.class"
+  },
+  {
+   "i": 53,
+   "en": "Colony presence and instability",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/StandardPirateActivityCause2.class"
+  },
+  {
+   "i": 54,
+   "en": "Independent-flagged commerce raiders - little more than sanctioned pirates - have been sighted in your space, attacking trade fleets regardless of their factional allegiance.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/TriTachyonHostileActivityFactor$1.class"
+  },
+  {
+   "i": 55,
+   "en": "Your independent polity has become enough of a presence in the Sector to start cutting into the profit margins of the Tri-Tachyon Corporation.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/TriTachyonHostileActivityFactor$1.class"
+  },
+  {
+   "i": 56,
+   "en": " disrupted",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/TriTachyonHostileActivityFactor.class"
+  },
+  {
+   "i": 57,
+   "en": "Disrupted industries ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/TriTachyonHostileActivityFactor.class"
+  },
+  {
+   "i": 58,
+   "en": "If the mercenary attack is defeated, it will go a long way towards convincing the Tri-Tachyon Corporation to abandon its anti-competitive efforts.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/TriTachyonHostileActivityFactor.class"
+  },
+  {
+   "i": 59,
+   "en": "Impending Tri-Tachyon mercenary attack",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/TriTachyonHostileActivityFactor.class"
+  },
+  {
+   "i": 60,
+   "en": "The %s is convinced that its efforts are unprofitable",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/TriTachyonHostileActivityFactor.class"
+  },
+  {
+   "i": 61,
+   "en": "Tri-Tachyon",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/TriTachyonHostileActivityFactor.class"
+  },
+  {
+   "i": 62,
+   "en": "Tri-Tachyon Corporation",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/TriTachyonHostileActivityFactor.class"
+  },
+  {
+   "i": 63,
+   "en": "Tri-Tachyon mercenary attack",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/TriTachyonHostileActivityFactor.class"
+  },
+  {
+   "i": 64,
+   "en": "Tri-Tachyon mercenary attack averted",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/TriTachyonHostileActivityFactor.class"
+  },
+  {
+   "i": 65,
+   "en": "You've dealt with the mercenary attack sent against you, and this has considerably cooled the enthusiasm for continued aggression. Commerce-raiding continues, but the event progress value is reduced by %s, and no further large-scale attacks are likely to be mounted.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/TriTachyonHostileActivityFactor.class"
+  },
+  {
+   "i": 66,
+   "en": "You've received intel that the Tri-Tachyon Corporation is allocating funds to hire and equip a mercenary company to raid and disrupt your industrial base.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/TriTachyonHostileActivityFactor.class"
+  },
+  {
+   "i": 67,
+   "en": "abandon its anti-competitive efforts",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/TriTachyonHostileActivityFactor.class"
+  },
+  {
+   "i": 68,
+   "en": "raid and disrupt your industrial base",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/TriTachyonHostileActivityFactor.class"
+  },
+  {
+   "i": 69,
+   "en": "%s are also possible.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/TriTachyonStandardActivityCause$1.class"
+  },
+  {
+   "i": 70,
+   "en": "Event progress is based on the maximum production of each commodity. %s below %s per colony, or reducing the scope of the competition to a single commodity, should be enough to divert Tri-Tachyon's attention.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/TriTachyonStandardActivityCause$1.class"
+  },
+  {
+   "i": 71,
+   "en": "Reciprocal solutions",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/TriTachyonStandardActivityCause$1.class"
+  },
+  {
+   "i": 72,
+   "en": "Reducing production levels",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/TriTachyonStandardActivityCause$1.class"
+  },
+  {
+   "i": 73,
+   "en": "The Tri-Tachyon Corporation's base of power is in the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/TriTachyonStandardActivityCause$1.class"
+  },
+  {
+   "i": 74,
+   "en": "Your colony production of certain commodities that the Tri-Tachyon corporation has an interest in is high enough to be viewed as competition.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/TriTachyonStandardActivityCause$1.class"
+  },
+  {
+   "i": 75,
+   "en": "single commodity",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/TriTachyonStandardActivityCause$1.class"
+  },
+  {
+   "i": 76,
+   "en": "Competing exports",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/TriTachyonStandardActivityCause.class"
+  },
+  {
+   "i": 77,
+   "en": "Abyssal Light",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HTAbyssalLightFactor$1.class"
+  },
+  {
+   "i": 78,
+   "en": "Disrupting an %s can provide insight into the topography of surrounding abyssal hyperspace.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HTAbyssalLightFactor$1.class"
+  },
+  {
+   "i": 79,
+   "en": "Disrupted abyssal light",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HTAbyssalLightFactor.class"
+  },
+  {
+   "i": 80,
+   "en": "A close-range scan of a black hole provides insight into the topography of the surrounding area in hyperspace.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HTBlackHoleFactor$1.class"
+  },
+  {
+   "i": 81,
+   "en": "Black hole scanned",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HTBlackHoleFactor.class"
+  },
+  {
+   "i": 82,
+   "en": " scanned (",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HTFactorTracker.class"
+  },
+  {
+   "i": 83,
+   "en": ", no new topographic data acquired",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HTFactorTracker.class"
+  },
+  {
+   "i": 84,
+   "en": "Black hole already scanned at long range",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HTFactorTracker.class"
+  },
+  {
+   "i": 85,
+   "en": "Black hole already scanned at short range",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HTFactorTracker.class"
+  },
+  {
+   "i": 86,
+   "en": "Black hole scanned at long range (",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HTFactorTracker.class"
+  },
+  {
+   "i": 87,
+   "en": "Black hole scanned at short range (",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HTFactorTracker.class"
+  },
+  {
+   "i": 88,
+   "en": "Center of binary system",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HTFactorTracker.class"
+  },
+  {
+   "i": 89,
+   "en": "Center of star system already scanned",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HTFactorTracker.class"
+  },
+  {
+   "i": 90,
+   "en": "Center of starless nebula",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HTFactorTracker.class"
+  },
+  {
+   "i": 91,
+   "en": "Center of trinary system",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HTFactorTracker.class"
+  },
+  {
+   "i": 92,
+   "en": "Gas giant already scanned",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HTFactorTracker.class"
+  },
+  {
+   "i": 93,
+   "en": "Gas giant scanned (",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HTFactorTracker.class"
+  },
+  {
+   "i": 94,
+   "en": "Ion storm already scanned",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HTFactorTracker.class"
+  },
+  {
+   "i": 95,
+   "en": "Ion storm scanned (",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HTFactorTracker.class"
+  },
+  {
+   "i": 96,
+   "en": "Magnetic field already scanned",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HTFactorTracker.class"
+  },
+  {
+   "i": 97,
+   "en": "Magnetic field scanned",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HTFactorTracker.class"
+  },
+  {
+   "i": 98,
+   "en": "Neutron star already scanned",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HTFactorTracker.class"
+  },
+  {
+   "i": 99,
+   "en": "Neutron star scanned (",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HTFactorTracker.class"
+  },
+  {
+   "i": 100,
+   "en": "Pulsar beam already scanned",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HTFactorTracker.class"
+  },
+  {
+   "i": 101,
+   "en": "Pulsar beam scanned (",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HTFactorTracker.class"
+  },
+  {
+   "i": 102,
+   "en": "Stellar conflux",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HTFactorTracker.class"
+  },
+  {
+   "i": 103,
+   "en": "Sensor readings gathered in hyperspace while traveling at a burn level above %s are particularly useful in providing insight into the non-Euclidian properties of hyperspace. Traveling at higher speeds produces even more valuable readings.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HTHighBurnFactor$1.class"
+  },
+  {
+   "i": 104,
+   "en": "High burn sensor readings",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HTHighBurnFactor.class"
+  },
+  {
+   "i": 105,
+   "en": "A neutrino burst emitted from an overloaded sensor array, revealing nearby slipstreams and providing useful topography readings.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HTNeutrinoBurstFactor$1.class"
+  },
+  {
+   "i": 106,
+   "en": "Neutrino burst emitted",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HTNeutrinoBurstFactor.class"
+  },
+  {
+   "i": 107,
+   "en": "A scan of the right entity or location can provide insight into the topography of surrounding hyperspace. The target usually needs to be massive enough to produce a significant gravity well, produce a high energy discharge, or be exotic or unusual in some other way.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HTNonASBScanFactor$1.class"
+  },
+  {
+   "i": 108,
+   "en": "Active Sensor Burst",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HTScanFactor$1.class"
+  },
+  {
+   "i": 109,
+   "en": "An %s of the right entity or location can provide insight into the topography of surrounding hyperspace. The target usually needs to be massive enough to produce a significant gravity well, produce a high energy discharge, or be exotic or unusual in some other way.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HTScanFactor$1.class"
+  },
+  {
+   "i": 110,
+   "en": "Topographic data and sensor readings bought from a fellow traveller, far out in the black.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HTScavengerDataFactor$1.class"
+  },
+  {
+   "i": 111,
+   "en": "Bought topographic data",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HTScavengerDataFactor.class"
+  },
+  {
+   "i": 112,
+   "en": "Recovered topographic data. Possibly out of date, but still valuable.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HTTopographicDataFactor$1.class"
+  },
+  {
+   "i": 113,
+   "en": "Topographic data found",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HTTopographicDataFactor.class"
+  },
+  {
+   "i": 114,
+   "en": "Generate Slipsurge",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HyperspaceTopographyEventIntel$1.class"
+  },
+  {
+   "i": 115,
+   "en": "Hyperfield optimization",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HyperspaceTopographyEventIntel$1.class"
+  },
+  {
+   "i": 116,
+   "en": "Slipstream detection",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HyperspaceTopographyEventIntel$1.class"
+  },
+  {
+   "i": 117,
+   "en": "Slipstream navigation",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HyperspaceTopographyEventIntel$1.class"
+  },
+  {
+   "i": 118,
+   "en": "Topographic data",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HyperspaceTopographyEventIntel$1.class"
+  },
+  {
+   "i": 119,
+   "en": " (hyperspace topography)",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HyperspaceTopographyEventIntel.class"
+  },
+  {
+   "i": 120,
+   "en": " arrays)",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HyperspaceTopographyEventIntel.class"
+  },
+  {
+   "i": 121,
+   "en": " ly (max: ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HyperspaceTopographyEventIntel.class"
+  },
+  {
+   "i": 122,
+   "en": "%s ability unlocked",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HyperspaceTopographyEventIntel.class"
+  },
+  {
+   "i": 123,
+   "en": "A batch of topographic data that can be sold for a considerable number of credits.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HyperspaceTopographyEventIntel.class"
+  },
+  {
+   "i": 124,
+   "en": "Able to detect slipstreams near your spaceports",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HyperspaceTopographyEventIntel.class"
+  },
+  {
+   "i": 125,
+   "en": "Allows a Spaceport to detect nearby slipstreams. Detection range increased for %s. Claimed sensor arrays within %s light-years provide extra detection range: %s ly for Domain-era arrays, and %s ly for makeshift ones. Up to %s sensor arrays can be used.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HyperspaceTopographyEventIntel.class"
+  },
+  {
+   "i": 126,
+   "en": "Base detection range",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HyperspaceTopographyEventIntel.class"
+  },
+  {
+   "i": 127,
+   "en": "Claimed sensor arrays within ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HyperspaceTopographyEventIntel.class"
+  },
+  {
+   "i": 128,
+   "en": "Detailed sensor readings greatly aid hyperspace navigation. There are many ways of acquiring this data, including using in-system sensor arrays, using an Active Sensor Burst near interesting phenomena, traveling through hyperspace at a very high burn level, or simply buying the data from scavengers.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HyperspaceTopographyEventIntel.class"
+  },
+  {
+   "i": 129,
+   "en": "Event progress will be reset to between %s and %s points when this outcome is reached.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HyperspaceTopographyEventIntel.class"
+  },
+  {
+   "i": 130,
+   "en": "Fuel use while traveling inside slipstreams reduced by %s. This reduction is multiplicative with the baseline fuel use reduction for traveling inside a slipstream.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HyperspaceTopographyEventIntel.class"
+  },
+  {
+   "i": 131,
+   "en": "Fuel use while traversing slipstreams reduced by %s",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HyperspaceTopographyEventIntel.class"
+  },
+  {
+   "i": 132,
+   "en": "Hyperspace Topography",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HyperspaceTopographyEventIntel.class"
+  },
+  {
+   "i": 133,
+   "en": "Maximum burn increased by %s while in hyperspace",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HyperspaceTopographyEventIntel.class"
+  },
+  {
+   "i": 134,
+   "en": "Maximum burn increased by %s while in hyperspace.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HyperspaceTopographyEventIntel.class"
+  },
+  {
+   "i": 135,
+   "en": "Topographic data gained",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HyperspaceTopographyEventIntel.class"
+  },
+  {
+   "i": 136,
+   "en": "Unlocks the %s ability, which allows your fleet to create powerful, short-lived slipstreams useful for rapid travel.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HyperspaceTopographyEventIntel.class"
+  },
+  {
+   "i": 137,
+   "en": "Unlocks the %s ability, which allows your fleet to travel against the current of slipstreams.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HyperspaceTopographyEventIntel.class"
+  },
+  {
+   "i": 138,
+   "en": "larger colonies",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ht/HyperspaceTopographyEventIntel.class"
+  },
+  {
+   "i": 139,
+   "en": "Ships belonging to commerce raider fleets sent to harass your colonies by the Tri-Tachyon Corporation, destroyed by your fleet.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ttcr/TTCRCommerceRaidersDestroyedFactor$1.class"
+  },
+  {
+   "i": 140,
+   "en": "Commerce raiders destroyed",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ttcr/TTCRCommerceRaidersDestroyedFactor.class"
+  },
+  {
+   "i": 141,
+   "en": "Disrupted non-military industrial operations on Tri-Tachyon colonies, through raids or bombardment. More effective and longer lasting disruptions result in more event progress points.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ttcr/TTCRIndustryDisruptedFactor$1.class"
+  },
+  {
+   "i": 142,
+   "en": "Repeatedly disrupting the same industry will have no additional effect.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ttcr/TTCRIndustryDisruptedFactor$1.class"
+  },
+  {
+   "i": 143,
+   "en": "Industries on Tri-Tachyon colonies disrupted",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ttcr/TTCRIndustryDisruptedFactorHint.class"
+  },
+  {
+   "i": 144,
+   "en": "A mercenary company was sent to disrupt your industrial base, but you've successfully bribed them to attack a Tri-Tachyon system instead.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ttcr/TTCRMercenariesBribedFactor$1.class"
+  },
+  {
+   "i": 145,
+   "en": "Bribed mercenaries sent to attack you",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ttcr/TTCRMercenariesBribedFactor.class"
+  },
+  {
+   "i": 146,
+   "en": "A mercenary company was sent to disrupt your industrial base, but you've successfully defeated the attack.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ttcr/TTCRMercenariesDefeatedFactor$1.class"
+  },
+  {
+   "i": 147,
+   "en": "Defeated mercenaries sent to attack you",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ttcr/TTCRMercenariesDefeatedFactor.class"
+  },
+  {
+   "i": 148,
+   "en": "Ships belonging to trade fleets and smugglers shipping goods to or from a Tri-Tachyon colony, regardless of their faction, destroyed by your fleet.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ttcr/TTCRTradeFleetsDestroyedFactor$1.class"
+  },
+  {
+   "i": 149,
+   "en": "Trade fleet ships destroyed",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ttcr/TTCRTradeFleetsDestroyedFactor.class"
+  },
+  {
+   "i": 150,
+   "en": "Bounty posted",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ttcr/TriTachyonCommerceRaiding$1.class"
+  },
+  {
+   "i": 151,
+   "en": "Success!",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ttcr/TriTachyonCommerceRaiding$1.class"
+  },
+  {
+   "i": 152,
+   "en": "Several bounty hunters were recently hired to eliminate you",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ttcr/TriTachyonCommerceRaiding.class"
+  },
+  {
+   "i": 153,
+   "en": "Several bounty hunters were recently hired to eliminate you. You are likely to encounter them in the coming months. Resolving the matter with Tri-Tachyon before then is unlikely to make a difference in this; a contract is a contract.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ttcr/TriTachyonCommerceRaiding.class"
+  },
+  {
+   "i": 154,
+   "en": "The %s needs to be convinced that continued investment in acting against your interests is unprofitable in the long term. If you are able to send this message without becoming openly hostile - or smooth any ruffled feathers afterwards - this may even mark you as someone whose understanding of business realities makes them worth working with.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ttcr/TriTachyonCommerceRaiding.class"
+  },
+  {
+   "i": 155,
+   "en": "Tri-Tachyon Commerce Raiding",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ttcr/TriTachyonCommerceRaiding.class"
+  },
+  {
+   "i": 156,
+   "en": "You've convinced the %s to stop attacking your interests.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ttcr/TriTachyonCommerceRaiding.class"
+  },
+  {
+   "i": 157,
+   "en": "You've convincied Tri-Tachyon to stop attacking your interests",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ttcr/TriTachyonCommerceRaiding.class"
+  },
+  {
+   "i": 158,
+   "en": "worth working with",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ttcr/TriTachyonCommerceRaiding.class"
+  },
+  {
+   "i": 159,
+   "en": " are actively hostile, but will not directly attack colonies ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/BlockadeFGI.class"
+  },
+  {
+   "i": 160,
+   "en": " are not nominally hostile, but will harass shipping and ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/BlockadeFGI.class"
+  },
+  {
+   "i": 161,
+   "en": " is likely to be fully effective",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/BlockadeFGI.class"
+  },
+  {
+   "i": 162,
+   "en": " is likely to only be partially effective",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/BlockadeFGI.class"
+  },
+  {
+   "i": 163,
+   "en": " is unlikely to be effective",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/BlockadeFGI.class"
+  },
+  {
+   "i": 164,
+   "en": " will last for approximately %s ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/BlockadeFGI.class"
+  },
+  {
+   "i": 165,
+   "en": ", causing a %s accessibility penalty ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/BlockadeFGI.class"
+  },
+  {
+   "i": 166,
+   "en": "Assessment",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/BlockadeFGI.class"
+  },
+  {
+   "i": 167,
+   "en": "actively hostile",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/BlockadeFGI.class"
+  },
+  {
+   "i": 168,
+   "en": "attempt to maintain control over the system's jump-points.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/BlockadeFGI.class"
+  },
+  {
+   "i": 169,
+   "en": "attempt to maintain control over the system's jump-points. If a defended planet ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/BlockadeFGI.class"
+  },
+  {
+   "i": 170,
+   "en": "blockade",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/BlockadeFGI.class"
+  },
+  {
+   "i": 171,
+   "en": "blockading forces",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/BlockadeFGI.class"
+  },
+  {
+   "i": 172,
+   "en": "for all %s colonies in the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/BlockadeFGI.class"
+  },
+  {
+   "i": 173,
+   "en": "happens to be near a jump-point, however, the situation is apt to get hot very quickly.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/BlockadeFGI.class"
+  },
+  {
+   "i": 174,
+   "en": "in the system and will instead ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/BlockadeFGI.class"
+  },
+  {
+   "i": 175,
+   "en": "more ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/BlockadeFGI.class"
+  },
+  {
+   "i": 176,
+   "en": "not nominally hostile",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/BlockadeFGI.class"
+  },
+  {
+   "i": 177,
+   "en": "of",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/BlockadeFGI.class"
+  },
+  {
+   "i": 178,
+   "en": "bombarding",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/FGRaidAction$FGRaidParams.class"
+  },
+  {
+   "i": 179,
+   "en": "moving to bombard",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/FGRaidAction$FGRaidParams.class"
+  },
+  {
+   "i": 180,
+   "en": "raiding system",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/FGRaidAction.class"
+  },
+  {
+   "i": 181,
+   "en": "traveling to rendezvous point",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/FGTravelAction.class"
+  },
+  {
+   "i": 182,
+   "en": "waiting at rendezvous point",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/FGTravelAction.class"
+  },
+  {
+   "i": 183,
+   "en": " - Aborted",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/FleetGroupIntel.class"
+  },
+  {
+   "i": 184,
+   "en": " - Defeated",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/FleetGroupIntel.class"
+  },
+  {
+   "i": 185,
+   "en": " - Successful",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/FleetGroupIntel.class"
+  },
+  {
+   "i": 186,
+   "en": " are ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/FleetGroupIntel.class"
+  },
+  {
+   "i": 187,
+   "en": " is imminent",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/FleetGroupIntel.class"
+  },
+  {
+   "i": 188,
+   "en": " nebula",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/FleetGroupIntel.class"
+  },
+  {
+   "i": 189,
+   "en": " until arrival",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/FleetGroupIntel.class"
+  },
+  {
+   "i": 190,
+   "en": " until departure",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/FleetGroupIntel.class"
+  },
+  {
+   "i": 191,
+   "en": " until fleet deployment",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/FleetGroupIntel.class"
+  },
+  {
+   "i": 192,
+   "en": " until return",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/FleetGroupIntel.class"
+  },
+  {
+   "i": 193,
+   "en": "Arrival at ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/FleetGroupIntel.class"
+  },
+  {
+   "i": 194,
+   "en": "Arrived at ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/FleetGroupIntel.class"
+  },
+  {
+   "i": 195,
+   "en": "Departed for ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/FleetGroupIntel.class"
+  },
+  {
+   "i": 196,
+   "en": "Departure imminent",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/FleetGroupIntel.class"
+  },
+  {
+   "i": 197,
+   "en": "Estimated %s ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/FleetGroupIntel.class"
+  },
+  {
+   "i": 198,
+   "en": "Fleet Group Movement",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/FleetGroupIntel.class"
+  },
+  {
+   "i": 199,
+   "en": "Fleet deployment imminent",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/FleetGroupIntel.class"
+  },
+  {
+   "i": 200,
+   "en": "However, all colonies ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/FleetGroupIntel.class"
+  },
+  {
+   "i": 201,
+   "en": "Operating in the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/FleetGroupIntel.class"
+  },
+  {
+   "i": 202,
+   "en": "Return to ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/FleetGroupIntel.class"
+  },
+  {
+   "i": 203,
+   "en": "Returning to ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/FleetGroupIntel.class"
+  },
+  {
+   "i": 204,
+   "en": "The defending fleets are evenly matched",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/FleetGroupIntel.class"
+  },
+  {
+   "i": 205,
+   "en": "The defending fleets are outmatched",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/FleetGroupIntel.class"
+  },
+  {
+   "i": 206,
+   "en": "The defending fleets are superior",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/FleetGroupIntel.class"
+  },
+  {
+   "i": 207,
+   "en": "The defending forces are evenly matched",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/FleetGroupIntel.class"
+  },
+  {
+   "i": 208,
+   "en": "The defending forces are outmatched",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/FleetGroupIntel.class"
+  },
+  {
+   "i": 209,
+   "en": "The defending forces are superior",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/FleetGroupIntel.class"
+  },
+  {
+   "i": 210,
+   "en": "The following colonies ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/FleetGroupIntel.class"
+  },
+  {
+   "i": 211,
+   "en": "evenly matched",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/FleetGroupIntel.class"
+  },
+  {
+   "i": 212,
+   "en": "fleets",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/FleetGroupIntel.class"
+  },
+  {
+   "i": 213,
+   "en": "outmatched",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/FleetGroupIntel.class"
+  },
+  {
+   "i": 214,
+   "en": "owing to their orbital defenses.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/FleetGroupIntel.class"
+  },
+  {
+   "i": 215,
+   "en": "projected to be %s and likely comprised of %s ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/FleetGroupIntel.class"
+  },
+  {
+   "i": 216,
+   "en": "superior",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/FleetGroupIntel.class"
+  },
+  {
+   "i": 217,
+   "en": " against ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/GenericRaidFGI.class"
+  },
+  {
+   "i": 218,
+   "en": " are withdrawing",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/GenericRaidFGI.class"
+  },
+  {
+   "i": 219,
+   "en": " are withdrawing.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/GenericRaidFGI.class"
+  },
+  {
+   "i": 220,
+   "en": " have been defeated and any ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/GenericRaidFGI.class"
+  },
+  {
+   "i": 221,
+   "en": " have been defeated and scatter",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/GenericRaidFGI.class"
+  },
+  {
+   "i": 222,
+   "en": " have failed to achieve their objective",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/group/GenericRaidFGI.class"
+  }
+ ]
+}

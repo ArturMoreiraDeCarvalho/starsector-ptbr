@@ -1,0 +1,201 @@
+{
+ "chunk": 175,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "You are led to a dark place behind the bar.\r\n\r\nIn the neon twilight of blinking atmo duct monitor status lights you make out at least two large armed guards by the door.\r\n\r\nYour guide has disappeared. One of the guards taps at the door, and after a moment, opens it and holds out a hand indicating that you should enter.",
+   "ctx": "data/campaign/rules.csv gaKA_cotton2 [text]"
+  },
+  {
+   "i": 2,
+   "en": "It is a storage room. A couple folding chairs are set at a drooping table. Bright patterns crawl across an old lighting tube. A pot of tea steams between two simple cups.\r\n\r\nYou recognize the Pather terrorist sitting in one of the chairs.",
+   "ctx": "data/campaign/rules.csv GAPZCottonConvMet [text]"
+  },
+  {
+   "i": 3,
+   "en": "It is a storage room. A couple folding chairs are set at a drooping table. Bright patterns crawl across an old lighting tube. A pot of tea steams between two simple cups.\r\n\r\nA Pather terrorist sits in one of the chairs.",
+   "ctx": "data/campaign/rules.csv GAPZCottonConvNotMet [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"Well if it isn't Captain $playername.\" Brother Livewell Cotton beams a smile at you, \"I am so glad to see you again in good health by the grace of sweet Ludd.\" \r\n\r\nWith a small motion he offers you his hand to shake in greeting.",
+   "ctx": "data/campaign/rules.csv GAPZCottonGreet1 [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"Brother Livewell Cotton, at your service and pleased to meet you, Captain $playername. With blessings of Ludd and all that naturally.\"\r\n\r\nHe winks at this, then offers a hand for you to shake.",
+   "ctx": "data/campaign/rules.csv GAPZCottonGreet2 [text]"
+  },
+  {
+   "i": 6,
+   "en": "His smile widens slightly as you shake his hand, \"A pleasure. Call me Livewell if you like, and I'll thank you for the sentiment.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_cottonShake [text]"
+  },
+  {
+   "i": 7,
+   "en": "He maintains his smile as he shrugs, \"Have it your way. Whatever blood's between us, never hurt anyone to be kind.\" He points with his untaken hand, \"Ludd said that last bit once, you know, blessings be.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_cottonNoShake [text]"
+  },
+  {
+   "i": 8,
+   "en": "A pause, then a dark look crosses Cotton's face.\r\n\r\n\"Captain, I must declare that it is grim tidings indeed that bring me to begging audience with you. We do see there that you operate a truly unholy creation, this 'Ziggurat'-class starship. For it is born of the womb of Tri-Tachyon greed, the product of meddling in places that human hand ought not reach.\"",
+   "ctx": "data/campaign/rules.csv GAPZCottonShakeCont [text]"
+  },
+  {
+   "i": 9,
+   "en": "A pause, then a dark look crosses Cotton's face.\r\n\r\n\"Captain, I must declare that it is grim tidings indeed that bring me to begging audience with you. We have seen you operating a truly unholy creation, a 'Ziggurat'-class starship. For it is born of the womb of Tri-Tachyon greed, the product of meddling in places that human hand ought not reach.\" \r\n\r\nHe meets your look, \"Now don't look surprised captain, there are many eyes and ears upon the daisy that stands so tall as you do. And you stand tall indeed.\"",
+   "ctx": "data/campaign/rules.csv GAPZCottonShakeCont2 [text]"
+  },
+  {
+   "i": 10,
+   "en": "Cotton looks troubled for a moment, holds a finger up, and says \"Now that, it is just what I'm saying. 'Many eyes and ears'. I did speak with this knight-errant about you, and we spoke of... concerns. But I did not tell him to kill you and that is the truth.\"\r\n\r\nHe looks over at the table as if he just remembered something.",
+   "ctx": "data/campaign/rules.csv gaPZ_cottonKnight [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"Oh, captain,\" he looks apologetic. \"I'll return to your question in just a moment, for I've quite entirely forgotten my manners.\"",
+   "ctx": "data/campaign/rules.csv FireBest GAPZCottonSelCont [text]"
+  },
+  {
+   "i": 12,
+   "en": "Brother Cotton stands, and pulls out the other folding chair for you. \"I've brought some fine tea, grown by a good friend. Won't you sit and share a cup with me?\"\r\n\r\nHe pauses, noting your hesitation. \"Do sit. You're my guest here in this humble place. And it would be rude to poison a guest,\" he gives a faux-serious look, \"And a sin, besides.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_cottonCont2 [text]"
+  },
+  {
+   "i": 13,
+   "en": "As you raise the cup, Cotton says \"Do be careful, it is hot.\"\r\n\r\nHe sips tea as well and, looking pleased with himself, asks \"Now where was I?\"",
+   "ctx": "data/campaign/rules.csv gaPZ_cottonSit [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"You know what, let us stand. It's a damned poor chair anyway - ah, Creator forgive,\" he makes a sign of penance for his curse.\r\n\r\nHe stands behind his chair, and pours himself a steaming cup of tea, which he holds in both hands. \"Now where was I?\"",
+   "ctx": "data/campaign/rules.csv gaPZ_cottonStand [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"A warning. Yes, it is a warning.",
+   "ctx": "data/campaign/rules.csv gaPZ_cottonCont3A [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"I am asking you to open not only your eyes, but your heart.\" He lifts a fist to his own chest, \"I know, it is a sugary turn of words, but Ludd taught us to be true in our speech in the hope that our soul might shine through the clouds.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_cottonCont3B [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"A threat? No, no captain. It is a warning.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_cottonCont3C [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"I am concerned for your soul, captain. The end-times are upon us, and it is up to each of us where we look for guidance. Is it into the pit of Mammon, a promise of gold and hollow power? You carry the fruit of Moloch's tree in your $shipOrFleet, captain. What will grow from its seed, I wonder. And I fear.\" \r\n\r\n\"This is, as foretold by Ludd, another sign of the Apocalypse. I see what you think upon your face- was not the collapse of the Domain's Gates the Apocalypse?\" \r\n\r\nCotton seems to balance rhetorical points with himself, \"Yes, and no. It was merely the beginning.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_cottonCont3 [text]"
+  },
+  {
+   "i": 19,
+   "en": "He sets his teacup down, and his voice rises. He once was a street-preacher, you realize, and likely did well at it.\r\n\r\n\"The ocean shall shatter and hang in the sky, mixed with blood. The locusts will hatch from the temple of the Adversary. The doom-bringer shall step through the empty door. And,\" he halts the sermon, smiles, almost abashed, \"It goes on like that. I do say, the poetry of the Word takes me, but I shan't bore you if it isn't your interest.\" \r\n\r\nHe picks his teacup up again, and says \"All was foretold by Ludd. It's written, here.\" He lifts a hand to his heart once again, and you notice now that there's a small book in a pocket there. The holy book of Ludd. \"The question for us, poor and flawed children of creation, do we look to the light for guidance?\"",
+   "ctx": "data/campaign/rules.csv gaPZ_cottonCont4 [text]"
+  },
+  {
+   "i": 20,
+   "en": "Brother Cotton grimaces, \"I am perhaps not doing so good a job at this as I had prayed. Let me speak with absolute candor, Captain $playerName.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_cottonConvert [text]"
+  },
+  {
+   "i": 21,
+   "en": "Brother Cotton looks almost relieved, \"Then you are beginning to understand. By Ludd's light...\" he looks up, and whispers something to himself. Then looks back at you. \"Listen now, please.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_cottonSomething [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"This Ziggurat, what it will bring... it is my greatest fear and, I confess, my greatest hope. It is clear to me that you hold the tool of the Adversary that will end the world.\"\r\n\r\nHe pauses now, and stares intently at you, then nods. \"I am not asking you to set it down, exactly,\" he pauses, trying to find the words, \"It is the tool of evil, yes, but imagine a smallarm set within reach of a child. I am asking-\" he closes his eyes now, \"-that when it comes time for you to decide what you will need to do, you follow the Path of light.\"",
+   "ctx": "data/campaign/rules.csv GAPZCottonSelCont3 [text]"
+  },
+  {
+   "i": 23,
+   "en": "His eyes open, and his gaze locks on yours. \"The word is the Path, and the Path is the light. Once you see the Path, you will have no need to think or question. Just ... take the next step.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_cottonThink [text]"
+  },
+  {
+   "i": 24,
+   "en": "His eyes open, \"You must learn, my friend.\"\r\n\r\nHe takes his small Book of Ludd and places it deliberately in your hands, and pats it. \"The word is the Path, and the Path is the light. Once you see it, you will have no need of questions.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_cottonLight [text]"
+  },
+  {
+   "i": 25,
+   "en": "His eyes open, \"Faith simplifies such doubts. Your 'complexities' are the whispering demon of... of all of this,\" his arm reaches out, to take in the Sector in a sweep, \"The world Moloch and Mammon have built! It sits on your shoulder, in your TriPad, your cyberlink, and whispers uncertainty in your soul.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_cottonComplexity [text]"
+  },
+  {
+   "i": 26,
+   "en": "His eyes open, and his gaze locks on yours. \"The word is the Path, and the Path is the light. Take the next step. If you have faith, you will know.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_cottonTrust [text]"
+  },
+  {
+   "i": 27,
+   "en": "He speaks quietly, feverishly, wide-eyed, \"They call me a murderer, a terrorist. But no doubt dwells in my soul, captain. None at all.\"",
+   "ctx": "data/campaign/rules.csv GAPZCottonSelCont4 [text]"
+  },
+  {
+   "i": 28,
+   "en": "The energy seems to leave Brother Cotton now, and he looks almost sad as he performs a half-bow, \"I should probably go now, Captain $playerName, before the local security forces wake up.\"\r\n\r\n\"I thank you for your time, until our paths cross once more. Choose the light.\"\r\n\r\nAnd with that, he slips out the door, leaving you with two cups, a pot of tea, and a set of cheap autofab furniture.",
+   "ctx": "data/campaign/rules.csv gaPZ_cottonCont5 [text]"
+  },
+  {
+   "i": 29,
+   "en": "The domestic security officer - station chief, you read on the placard on the desk in front of you - looks nauseous.\r\n\r\n\"-the most wanted Pather terrorist mastermind in the entire Persean Sector... in my jurisdiction... drinking a cup of tea?\"",
+   "ctx": "data/campaign/rules.csv gaPZ_cottonTeacup [text]"
+  },
+  {
+   "i": 30,
+   "en": "Brother Cotton's teacup sits placidly in a transparent aluminum evidence container on the station chief's desk. The DNA analysis glows accusingly on the TriPad next to it.\r\n\r\n\"I-\", the station chief swallows, holds a moment, then begins to speak again, \"Please keep this to yourself. Our... investigation will notify you if we need any clarifications to your statement. Please, um, see yourself out.\" \r\n\r\nThe chief focuses on breathing slowly, staring dumbly at the TriPad, then the cup, then back.",
+   "ctx": "data/campaign/rules.csv gaPZ_cottonTeacup2 [text]"
+  },
+  {
+   "i": 31,
+   "en": "You return to the bar.",
+   "ctx": "data/campaign/rules.csv gaPZ_cottonReturnToBar [text]"
+  },
+  {
+   "i": 32,
+   "en": "Dev start for GA ATG testing.\r\n\r\nRemember to leave then return to the Galatia Academy.",
+   "ctx": "data/campaign/rules.csv gaATGdevstart2 [text]"
+  },
+  {
+   "i": 33,
+   "en": "done",
+   "ctx": "data/campaign/rules.csv gaDevSetBairdVisible2 [text]"
+  },
+  {
+   "i": 34,
+   "en": "done\r\n\r\nGo dock at any non-pirate/Pather/Church world over size 3 with your transponder on.",
+   "ctx": "data/campaign/rules.csv gaDevStartGADHO2 [text]"
+  },
+  {
+   "i": 35,
+   "en": "As your $shipOrFleet follows the automated traffic control signals into a parking orbit, your comms officer calls for your attention.\r\n \r\n\"Captain, I have an Academician Sebestyen on-link. He says it's urgent.\"",
+   "ctx": "data/campaign/rules.csv gaATGIntro [text]"
+  },
+  {
+   "i": 36,
+   "en": "Sebestyen appears, looking anxious, which is not unusual.\r\n\r\n\"Captain $playerName! Whoever I just spoke with- well there's something to be said for common courtesy, and- oh, I should say. Hello! I hope you are well?\"\r\n\r\nBefore you can answer, he continues \"I apologize, but Provost Baird wants to meet with you and it's, um, important. That is to say, ah, this pertains to your previous involvement in a... study at the Galatia Academy.\" He pauses for a moment to let this sink in. \"So do please come meet with the Provost at your earliest convenience. Thank you captain.\"\r\n\r\nSebestyen shuts off the comms without his usual attempts at small-talk.",
+   "ctx": "data/campaign/rules.csv gaATGIntro1 [text]"
+  },
+  {
+   "i": 37,
+   "en": "You enter Provost Baird's office and the thick wooden doors close softly behind you.\r\n\r\n\"Captain,\" Baird says, turning to you from her desk. \"Good. Sit. We have much to discuss.\"\r\n\r\nGoing by past experience, you feel that this will be more of a lecture than a discussion.",
+   "ctx": "data/campaign/rules.csv gaATGIntro3 [text]"
+  },
+  {
+   "i": 38,
+   "en": "Baird turns back to her desk, ignoring your small rebellion.",
+   "ctx": "data/campaign/rules.csv gaATGIntro4b [text]"
+  },
+  {
+   "i": 39,
+   "en": "\"We've rebuilt the theoretical work held in the Kallichore Archive. Academician Coureuse's research now supersedes those developments.\"\r\n\r\n\"The Mote induction device from the Project Ziggurat hull you discovered and scanned was key, for it demonstrates truly unorthodox hyperphysics. Tri-Tachyon's use of AI has made a breakthrough, though I suspect that the human element of Tri-Tachyon has only rudimentary theoretical understanding of what they've created.\"\r\n\r\n\"We're ahead of them in that respect, captain, so it shall be we who reap the ultimate prize. However.\"",
+   "ctx": "data/campaign/rules.csv gaATGIntro4 [text]"
+  }
+ ]
+}

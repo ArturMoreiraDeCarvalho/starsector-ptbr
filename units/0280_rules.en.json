@@ -1,0 +1,1116 @@
+{
+ "chunk": 280,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "Ask about the 'sensitive matter'",
+   "ctx": "dcomOfferOption"
+  },
+  {
+   "i": 2,
+   "en": "Carefully approach the angry $dcom_manOrWoman in the expensive suit",
+   "ctx": "dcomOfferOptionBar"
+  },
+  {
+   "i": 3,
+   "en": "\"Someone should do something, maybe.\"\r",
+   "ctx": "dcomOfferTextBar"
+  },
+  {
+   "i": 4,
+   "en": "\"If that's so, sending you was a mistake.\"\r",
+   "ctx": "DCOMMercHail"
+  },
+  {
+   "i": 5,
+   "en": "Ask about becoming a supplier of $cpm_commodityName",
+   "ctx": "cpmOfferOption"
+  },
+  {
+   "i": 6,
+   "en": "Approach the thoughtful-looking business$cpm_manOrWoman in the private booth",
+   "ctx": "cpmOfferOptionBar"
+  },
+  {
+   "i": 7,
+   "en": "Approach the thoughtful-looking smuggler in the private booth",
+   "ctx": "cpmOfferOptionBarPirate"
+  },
+  {
+   "i": 8,
+   "en": "\"What kind of opportunity?\"\r",
+   "ctx": "cpmOfferTextBar"
+  },
+  {
+   "i": 9,
+   "en": "Approach the sinister $cpm_manOrWoman in the private booth",
+   "ctx": "cpmOfferOptionBarUW"
+  },
+  {
+   "i": 10,
+   "en": "\"I'm happy for you, truly.\"\r",
+   "ctx": "CPMPirateHail"
+  },
+  {
+   "i": 11,
+   "en": "Ask about the surplus nanoforge production opportunity.",
+   "ctx": "cpcOfferOption1"
+  },
+  {
+   "i": 12,
+   "en": "Ask about the surplus military-grade nanoforge production opportunity",
+   "ctx": "cpcOfferOption2"
+  },
+  {
+   "i": 13,
+   "en": "Ask about the military-grade arms procurement opportunity",
+   "ctx": "cpcOfferOption4"
+  },
+  {
+   "i": 14,
+   "en": "Talk to the well-dressed $cpc_manOrWoman who needs to sell production slots",
+   "ctx": "cpcOfferOptionBar1"
+  },
+  {
+   "i": 15,
+   "en": "Talk to the $cpc_manOrWoman in uniform about selling you those military nanoforge production slots",
+   "ctx": "cpcOfferOptionBar2"
+  },
+  {
+   "i": 16,
+   "en": "Talk to the arms dealer about buying illegal weapons",
+   "ctx": "cpcOfferOptionBar4"
+  },
+  {
+   "i": 17,
+   "en": "Make a selection from your own blueprints\r",
+   "ctx": "cpcOfferTextContact1"
+  },
+  {
+   "i": 18,
+   "en": "See what blueprints they have available\r",
+   "ctx": "cpcOfferTextContact2"
+  },
+  {
+   "i": 19,
+   "en": "Make a selection\r",
+   "ctx": "cpcOfferTextContact4"
+  },
+  {
+   "i": 20,
+   "en": "Examine the TriPad\r",
+   "ctx": "cpcOfferTextBar4"
+  },
+  {
+   "i": 21,
+   "en": "\"Is this a bad time?\"\r",
+   "ctx": "cpcOfferTextBarCoilGun"
+  },
+  {
+   "i": 22,
+   "en": "\"Idiots. Me? Can't stand 'em.\"\r",
+   "ctx": "cpcOfferTextBarCoilGun"
+  },
+  {
+   "i": 23,
+   "en": "\"Have a moment to discuss business?\"\r",
+   "ctx": "cpcOfferTextBarCoilGun"
+  },
+  {
+   "i": 24,
+   "en": "Take a step back, and look around again",
+   "ctx": "cpcOfferTextBarCoilGun"
+  },
+  {
+   "i": 25,
+   "en": "\"Sure. So are you selling any ra- coilguns?\"\r",
+   "ctx": "cpcOfferTextBarCoilGun2"
+  },
+  {
+   "i": 26,
+   "en": "\"Absolutely! It's vital to correct people about these things.\"\r",
+   "ctx": "cpcOfferTextBarCoilGun2"
+  },
+  {
+   "i": 27,
+   "en": "\"I, uh, prefer to let the experts sort it out.\"",
+   "ctx": "cpcOfferTextBarCoilGun2"
+  },
+  {
+   "i": 28,
+   "en": "Ask about the special pirate fleet bounty",
+   "ctx": "psbOfferOption"
+  },
+  {
+   "i": 29,
+   "en": "Talk to the $psb_manOrWoman haranguing the official about the increased pirate raids",
+   "ctx": "psbOfferOptionBar"
+  },
+  {
+   "i": 30,
+   "en": "Ask about the $sShip_hullSize",
+   "ctx": "sShipOfferOption"
+  },
+  {
+   "i": 31,
+   "en": "Talk to the $sShip_rank at the private table",
+   "ctx": "sShipOfferOptionBar"
+  },
+  {
+   "i": 32,
+   "en": "Examine the ship's specifications on the datapad\r",
+   "ctx": "sShipOfferTextBar"
+  },
+  {
+   "i": 33,
+   "en": "Ask for detailed info on the ship\r",
+   "ctx": "sShipOfferTextContact"
+  },
+  {
+   "i": 34,
+   "en": "Buy the $sShip_hullSize for $sShip_price credits\r",
+   "ctx": "sShipBarLookAtFreighter"
+  },
+  {
+   "i": 35,
+   "en": "Ask about deploying the observation package",
+   "ctx": "ssatOfferOption"
+  },
+  {
+   "i": 36,
+   "en": "Ask about the spysat deployment",
+   "ctx": "ssatOfferOptionUW"
+  },
+  {
+   "i": 37,
+   "en": "Walk over to the shadowy booth to join the $ssat_manOrWoman with perfect posture",
+   "ctx": "ssatOfferOptionBar"
+  },
+  {
+   "i": 38,
+   "en": "Join the nondescript $ssat_manOrWoman in the shadowy booth",
+   "ctx": "ssatOfferOptionBarUW"
+  },
+  {
+   "i": 39,
+   "en": "Deploy the spysat\r",
+   "ctx": "ssatObjectInteraction"
+  },
+  {
+   "i": 40,
+   "en": "Ask about the 'atypical extraction' mission involving a major faction",
+   "ctx": "extrOfferOption1"
+  },
+  {
+   "i": 41,
+   "en": "Ask about the 'unconventional extraction' mission involving pirates",
+   "ctx": "extrOfferOption2"
+  },
+  {
+   "i": 42,
+   "en": "Ask about the 'unconventional extraction' mission involving Pathers",
+   "ctx": "extrOfferOption3"
+  },
+  {
+   "i": 43,
+   "en": "Talk to the $extr_manOrWoman who ordered the cadet to apprehend you",
+   "ctx": "extrOfferOptionBar1"
+  },
+  {
+   "i": 44,
+   "en": "Ignore it and head to the bar",
+   "ctx": "extr_barIntercept"
+  },
+  {
+   "i": 45,
+   "en": "Cooperate with the voice and pay the credits\r",
+   "ctx": "extr_barPickUp"
+  },
+  {
+   "i": 46,
+   "en": "Close the connection and head to the bar",
+   "ctx": "extr_barPickUp"
+  },
+  {
+   "i": 47,
+   "en": "\"Wait, how did you recognize me?\"",
+   "ctx": "extr_barStoryOptionHubB"
+  },
+  {
+   "i": 48,
+   "en": "\"How'd my 'friend' get here?\"",
+   "ctx": "extr_barStoryOptionHubC"
+  },
+  {
+   "i": 49,
+   "en": "Ask about what's available on the bounty docket",
+   "ctx": "mcbOfferOption"
+  },
+  {
+   "i": 50,
+   "en": "Talk to the $mcb_manOrWoman from the military offering bounties",
+   "ctx": "mcbOfferOptionBar"
+  },
+  {
+   "i": 51,
+   "en": "Ask about one of the other targets",
+   "ctx": "MCBShowBountyShowShips"
+  },
+  {
+   "i": 52,
+   "en": "\"I'd prefer a more manageable target.\"\r",
+   "ctx": "mcbGoBackSel"
+  },
+  {
+   "i": 53,
+   "en": "\"Whatever you've got works for me.\"\r",
+   "ctx": "mcbGoBackSel"
+  },
+  {
+   "i": 54,
+   "en": "\"I can handle a more challenging target.\"\r",
+   "ctx": "mcbGoBackSel"
+  },
+  {
+   "i": 55,
+   "en": "\"Maybe another time.\" (decline)",
+   "ctx": "mcbGoBackSel"
+  },
+  {
+   "i": 56,
+   "en": "Ask about taking on one of the bounty jobs",
+   "ctx": "ucbOfferOption"
+  },
+  {
+   "i": 57,
+   "en": "Approach the $ucb_manOrWoman contracting out underworld bounties",
+   "ctx": "ucbOfferOptionBar"
+  },
+  {
+   "i": 58,
+   "en": "Decline - maybe another time",
+   "ctx": "ucbGoBackSel"
+  },
+  {
+   "i": 59,
+   "en": "View the report",
+   "ctx": "LOCRMremoveBecauseColony"
+  },
+  {
+   "i": 60,
+   "en": "Hail the signal coming from the surface",
+   "ctx": "LOCRMstartOption"
+  },
+  {
+   "i": 61,
+   "en": "\"What were you mining? Was there a survey?\"",
+   "ctx": "LOCRMhubOptWhatMining"
+  },
+  {
+   "i": 62,
+   "en": "\"Who left you here? What company?\"",
+   "ctx": "LOCRMhubOptWhoLeftYou"
+  },
+  {
+   "i": 63,
+   "en": "\"I can take you to my own colony. I could use honest workers.\"",
+   "ctx": "LOCRMhubOptMyColony"
+  },
+  {
+   "i": 64,
+   "en": "Offer to transport the miners back to civilization",
+   "ctx": "LOCRMhubOptTransport"
+  },
+  {
+   "i": 65,
+   "en": "\"I can't transport you now, but I promise I'll be back.\"",
+   "ctx": "LOCRMhubOptLeavePromise"
+  },
+  {
+   "i": 66,
+   "en": "\"Um. Ion storm! Comms uh, breaking up...\"",
+   "ctx": "LOCRMhubOptBreakingUp"
+  },
+  {
+   "i": 67,
+   "en": "\"Um. It's another ion storm! Comms uh, breaking up...\"",
+   "ctx": "LOCRMhubOptBreakingUpAgain"
+  },
+  {
+   "i": 68,
+   "en": "\"Sorry, I have urgent business to attend to.\"",
+   "ctx": "LOCRMhubOptNoCanDo"
+  },
+  {
+   "i": 69,
+   "en": "\"You do what you need to do to make a living, I understand.\"\r",
+   "ctx": "LOCRMaskWhoLeftYou"
+  },
+  {
+   "i": 70,
+   "en": "\"That's a good attitude, you have to accept your place in the world.\"\r",
+   "ctx": "LOCRMaskWhoLeftYou"
+  },
+  {
+   "i": 71,
+   "en": "\"That's outrageous! They left you to die out here!\"",
+   "ctx": "LOCRMaskWhoLeftYou"
+  },
+  {
+   "i": 72,
+   "en": "Shuttle the rescued miners to $name\r",
+   "ctx": "LOCRMoffloadMiners"
+  },
+  {
+   "i": 73,
+   "en": "Not yet",
+   "ctx": "LOCRMoffloadMiners"
+  },
+  {
+   "i": 74,
+   "en": "Connect comms to the signal from the surface",
+   "ctx": "LOCRPstartOption"
+  },
+  {
+   "i": 75,
+   "en": "\"What are you doing on this... rock?\"",
+   "ctx": "LOCRPhubAskWhyHere"
+  },
+  {
+   "i": 76,
+   "en": "\"Are you pirates?\"",
+   "ctx": "LOCRPhubAskArePirate"
+  },
+  {
+   "i": 77,
+   "en": "\"So who's this Fenius?\"",
+   "ctx": "LOCRPhubAskFenius"
+  },
+  {
+   "i": 78,
+   "en": "\"So who's this Marlowe?\"",
+   "ctx": "LOCRPhubAskMarlowe"
+  },
+  {
+   "i": 79,
+   "en": "\"It's 'Luddic Faithful', not 'Luddie.\"",
+   "ctx": "LOCRPhubLuddicCorrection"
+  },
+  {
+   "i": 80,
+   "en": "\"Tell me about Old Marlowe's treasure.\"",
+   "ctx": "LOCRPhubAskTreasure"
+  },
+  {
+   "i": 81,
+   "en": "Offer to transport them... to prison",
+   "ctx": "LOCRPhubOfferToPrison"
+  },
+  {
+   "i": 82,
+   "en": "\"About going to prison? I'm telling you, not asking.\"",
+   "ctx": "LOCRPhubOfferToPrison2"
+  },
+  {
+   "i": 83,
+   "en": "Offer to transport them to a pirate world",
+   "ctx": "LOCRPhubOfferToPirate"
+  },
+  {
+   "i": 84,
+   "en": "Offer to transport them to a pirate world (lie)",
+   "ctx": "LOCRPhubOfferToPirateLie"
+  },
+  {
+   "i": 85,
+   "en": "Offer them a place in your own fleet",
+   "ctx": "LOCRPhubOfferToColony"
+  },
+  {
+   "i": 86,
+   "en": "\"Not at all, I'm sure.\"",
+   "ctx": "LOCRPwhoIsFenius"
+  },
+  {
+   "i": 87,
+   "en": "\"Yuck.\"",
+   "ctx": "LOCRPwhoIsMarlowe"
+  },
+  {
+   "i": 88,
+   "en": "\"Then it's a deal.\"\r",
+   "ctx": "LOCRPofferForFenius"
+  },
+  {
+   "i": 89,
+   "en": "\"I'll deal with Fenius as I see fit.\"\r",
+   "ctx": "LOCRPofferForFenius"
+  },
+  {
+   "i": 90,
+   "en": "\"How do I know I can trust you?\"\r",
+   "ctx": "LOCRPofferForFenius"
+  },
+  {
+   "i": 91,
+   "en": "\"I'll think about it.\"",
+   "ctx": "LOCRPofferForFenius"
+  },
+  {
+   "i": 92,
+   "en": "\"So you're... honest pirates.\"\r",
+   "ctx": "LOCRPareYouPirates"
+  },
+  {
+   "i": 93,
+   "en": "\"So you're pirates.\"\r",
+   "ctx": "LOCRPareYouPirates"
+  },
+  {
+   "i": 94,
+   "en": "\"So you're not pirates.\"",
+   "ctx": "LOCRPareYouPirates"
+  },
+  {
+   "i": 95,
+   "en": "\"This one.\" (prepare a raid)\r",
+   "ctx": "LOCRPofferToPrison2"
+  },
+  {
+   "i": 96,
+   "en": "\"Mind your tone. I'm the one with warships in orbit.\"",
+   "ctx": "LOCRPofferToPrison2"
+  },
+  {
+   "i": 97,
+   "en": "\"Yes, I will require that you live in accordance with Luddic principles.\"\r",
+   "ctx": "LOCRPofferWorkLuddic"
+  },
+  {
+   "i": 98,
+   "en": "\"No, my crew is free to practice their own beliefs. Or lack thereof.\"",
+   "ctx": "LOCRPofferWorkLuddic"
+  },
+  {
+   "i": 99,
+   "en": "\"Yes, yes... I'll send shuttles down to pick you up.\" (prepare the brig)",
+   "ctx": "LOCRPtransportHubShuttlesLie"
+  },
+  {
+   "i": 100,
+   "en": "\"Good. I'll have shuttles sent down.\"",
+   "ctx": "LOCRPtransportHubShuttles"
+  },
+  {
+   "i": 101,
+   "en": "\"Unfortunately, I don't have enough room.\"",
+   "ctx": "LOCRPtransportHubNoRoom"
+  },
+  {
+   "i": 102,
+   "en": "\"I'm reconsidering my options.\"",
+   "ctx": "LOCRPtransportHubReconsider"
+  },
+  {
+   "i": 103,
+   "en": "Shuttle the marooned pirates to $name\r",
+   "ctx": "LOCRPoffloadPirates"
+  },
+  {
+   "i": 104,
+   "en": "No, tell them it'll be the next stop at a suitable port.",
+   "ctx": "LOCRPoffloadPirates"
+  },
+  {
+   "i": 105,
+   "en": "Shuttle the marooned pirates to $name",
+   "ctx": "LOCRPoffloadPiratesNext"
+  },
+  {
+   "i": 106,
+   "en": "Shuttle the pirates to $name",
+   "ctx": "LOCRPoffloadPiratesLuddic"
+  },
+  {
+   "i": 107,
+   "en": "Inquire about turning a crew of pirates over to official custody",
+   "ctx": "LOCRPoffloadPiratesToPrisonA"
+  },
+  {
+   "i": 108,
+   "en": "\"An agent of the Church hired me to find you.\"",
+   "ctx": "LOCRLFmissionFoundOpt"
+  },
+  {
+   "i": 109,
+   "en": "\"I shall bring word of you to my contact, to the Church.\"",
+   "ctx": "LOCRLFmissionBringNews"
+  },
+  {
+   "i": 110,
+   "en": "\"I could bring word of you to my contact, to the Church...\"",
+   "ctx": "LOCRLFmissionBringNewsMaybe"
+  },
+  {
+   "i": 111,
+   "en": "\"What are you doing out on the fringe?\"",
+   "ctx": "LOCRLaskWhatDoingOpt"
+  },
+  {
+   "i": 112,
+   "en": "\"How can you crawl back to the Church when there is a Path more righteous?\"",
+   "ctx": "LOCRLsayLuddicOpt"
+  },
+  {
+   "i": 113,
+   "en": "\"You have strayed far, $brotherOrSister, but the Church is rich in mercy\"",
+   "ctx": "LOCRLsayChurchOpt"
+  },
+  {
+   "i": 114,
+   "en": "\"How many of you need transport?\"",
+   "ctx": "LOCRLhubAskHowManyOpt"
+  },
+  {
+   "i": 115,
+   "en": "\"Can you pay for passage?\"",
+   "ctx": "LOCRLhubAskPaymentOpt"
+  },
+  {
+   "i": 116,
+   "en": "Offer to transport them to a Luddic Church world",
+   "ctx": "LOCRLhubOfferTransportOpt"
+  },
+  {
+   "i": 117,
+   "en": "Transport them to a Luddic Church world, for forgiveness",
+   "ctx": "LOCRLhubOfferTransportChurchOpt"
+  },
+  {
+   "i": 118,
+   "en": "Transport them to the Luddic Path, to start anew",
+   "ctx": "LOCRLhubOfferTransportPathOpt"
+  },
+  {
+   "i": 119,
+   "en": "Leave them for the Church to deal with.",
+   "ctx": "LOCRLFhubLeaveThemMission"
+  },
+  {
+   "i": 120,
+   "en": "Make an excuse and cut the comms",
+   "ctx": "LOCRLhubCutCommsOpt"
+  },
+  {
+   "i": 121,
+   "en": "\"I see. That is an unfortunate course of events.\"",
+   "ctx": "LOCRLjudgeOptionA"
+  },
+  {
+   "i": 122,
+   "en": "\"I'm afraid that this all sounds like brazen heresy.\"",
+   "ctx": "LOCRLjudgeOptionB"
+  },
+  {
+   "i": 123,
+   "en": "\"So you rubes got tricked until someone did the sensible thing and murdered the conman.\"",
+   "ctx": "LOCRLjudgeOptionC"
+  },
+  {
+   "i": 124,
+   "en": "\"You're far from the true Path. Thank Ludd what had to be done was done.\"",
+   "ctx": "LOCRLjudgeOptionD"
+  },
+  {
+   "i": 125,
+   "en": "\"I take no pleasure in observing that your faith blinded you.\"",
+   "ctx": "LOCRLjudgeOptionE"
+  },
+  {
+   "i": 126,
+   "en": "\"It's a good thing someone finally stood up and murdered the scum, eh?\"",
+   "ctx": "LOCRLjudgeOptionF"
+  },
+  {
+   "i": 127,
+   "en": "\"Know that I follow the Path. It may well lead not where the Church preaches.\"\r",
+   "ctx": "LOCRLFbringNews1"
+  },
+  {
+   "i": 128,
+   "en": "\"You have a question?\"\r",
+   "ctx": "LOCRLFbringNews1"
+  },
+  {
+   "i": 129,
+   "en": "\"The Church will tend to its flock.\"\r",
+   "ctx": "LOCRLFbringNews1"
+  },
+  {
+   "i": 130,
+   "en": "\"I don't know what the Church intends, if that is what you wanted to ask.\"",
+   "ctx": "LOCRLFbringNews1"
+  },
+  {
+   "i": 131,
+   "en": "\"I don't know what the Church intends, if that is what you wish to ask.\"",
+   "ctx": "LOCRLFbringNews1path"
+  },
+  {
+   "i": 132,
+   "en": "\"Truly, I don't know what the Church intends.\"\r",
+   "ctx": "LOCRLFbringNews1respA"
+  },
+  {
+   "i": 133,
+   "en": "\"I could only assume so. Heresy is a serious crime.\"",
+   "ctx": "LOCRLFbringNews1respA"
+  },
+  {
+   "i": 134,
+   "en": "\"Yes, I will take you to the Path. There you will discover true faith.\"\r",
+   "ctx": "LOCRLsayPather"
+  },
+  {
+   "i": 135,
+   "en": "\"No, we're just discussing faith. Just words.\"",
+   "ctx": "LOCRLsayPather"
+  },
+  {
+   "i": 136,
+   "en": "Shuttle the rescued heretics to $name\r",
+   "ctx": "LOCRLoffloadToChurch"
+  },
+  {
+   "i": 137,
+   "en": "Shuttle the rescued Luddics to $name\r",
+   "ctx": "LOCRLoffloadToChurchSecular"
+  },
+  {
+   "i": 138,
+   "en": "Inquire about offloading a community of Luddic heretics",
+   "ctx": "LOCRLoffloadToPath"
+  },
+  {
+   "i": 139,
+   "en": "\"I'll have them loaded on shuttles immediately.\"\r",
+   "ctx": "LOCRLoffloadToPath1"
+  },
+  {
+   "i": 140,
+   "en": "\"Show mercy, $brotherOrSister. They were good-intentioned but misled.\"",
+   "ctx": "LOCRLoffloadToPath1"
+  },
+  {
+   "i": 141,
+   "en": "Inquire about turning over a community of heretics",
+   "ctx": "LOCRLoffloadToKnights"
+  },
+  {
+   "i": 142,
+   "en": "\"Show mercy, Knight. They are good-intentioned but misled.\"",
+   "ctx": "LOCRLoffloadToKnights1"
+  },
+  {
+   "i": 143,
+   "en": "\"What does the Church need done outside the core worlds?\"",
+   "ctx": "locrlfOfferOption"
+  },
+  {
+   "i": 144,
+   "en": "Ask if the $locrlf_manOrWoman trying to take secret notes could use some help",
+   "ctx": "locrlfOfferOptionBar"
+  },
+  {
+   "i": 145,
+   "en": "\"The Church is giving you more than $locrlf_rewardAmount credits for the job, aren't they.\"\r",
+   "ctx": "locrlfOfferTextBarAgain"
+  },
+  {
+   "i": 146,
+   "en": "\"I found the missing heretics.\"",
+   "ctx": "locrlfReturnContact"
+  },
+  {
+   "i": 147,
+   "en": "\"I found the missing heretics. They're all dead.\" (lie)",
+   "ctx": "locrlfReturnContactLie"
+  },
+  {
+   "i": 148,
+   "en": "\"That's all there is to it.\"",
+   "ctx": "locrlfReturnStartLie"
+  },
+  {
+   "i": 149,
+   "en": "\"Also, the heretics are on board my $shipOrFleet. I intend to return them to the Church.\"",
+   "ctx": "locrlfReturnHubOptsA"
+  },
+  {
+   "i": 150,
+   "en": "\"Also, the heretics are on board my $shipOrFleet. I intend to take them to a world of the Luddic Path.\"",
+   "ctx": "locrlfReturnHubOptsB"
+  },
+  {
+   "i": 151,
+   "en": "\"The repentant heretics are on board my $shipOrFleet. I intend to return them to the Church.\"",
+   "ctx": "locrlfReturnHubOptsC"
+  },
+  {
+   "i": 152,
+   "en": "Cut the commlink",
+   "ctx": "locrlfReturnHubOptsD"
+  },
+  {
+   "i": 153,
+   "en": "Approach the pilgrim wearing fine Luddic robes",
+   "ctx": "lptOfferOptionBar1"
+  },
+  {
+   "i": 154,
+   "en": "Approach the Luddic pilgrim wearing ragged robes",
+   "ctx": "lptOfferOptionBar2"
+  },
+  {
+   "i": 155,
+   "en": "Try to calm the well-dressed $manOrWoman bothering the bartender",
+   "ctx": "AVIPToptionBar"
+  },
+  {
+   "i": 156,
+   "en": "Perform an act of leadership\r",
+   "ctx": "AVIPTtextBar1"
+  },
+  {
+   "i": 157,
+   "en": "Disengage while you still can",
+   "ctx": "AVIPTtextBar1"
+  },
+  {
+   "i": 158,
+   "en": "Offer to transport the VIP for the same fee\r",
+   "ctx": "AVIPTtextBar2"
+  },
+  {
+   "i": 159,
+   "en": "Try to withdraw from the conversation\r",
+   "ctx": "AVIPTtextBar2"
+  },
+  {
+   "i": 160,
+   "en": "Explain to the VIP that they probably deserved this",
+   "ctx": "AVIPTtextBar2"
+  },
+  {
+   "i": 161,
+   "en": "Avert your eyes before you are forced to re-engage",
+   "ctx": "AVIPTtextBarDecline"
+  },
+  {
+   "i": 162,
+   "en": "Join the table of tattooed mercs and see if their contract is up",
+   "ctx": "MOTRoptionBar"
+  },
+  {
+   "i": 163,
+   "en": "Buy the mercenary marine contract and sneak them off $entity.name\r",
+   "ctx": "MOTRstart"
+  },
+  {
+   "i": 164,
+   "en": "Decline the proposal, but stay for an 'Orbital Bombardment' to soften the blow\r",
+   "ctx": "MOTRstart"
+  },
+  {
+   "i": 165,
+   "en": "Buy the contract. You're the boss, after all.",
+   "ctx": "MOTRplayerColonyOptA"
+  },
+  {
+   "i": 166,
+   "en": "\"I have a duty here. I'm going to need to know why you're in trouble.\"",
+   "ctx": "MOTRplayerColonyOptB"
+  },
+  {
+   "i": 167,
+   "en": "Call security to have the mercs locked up.",
+   "ctx": "MOTRplayerColonyOptC"
+  },
+  {
+   "i": 168,
+   "en": "Decline the proposal, but stay for an 'Orbital Bombardment' to soften the blow\"",
+   "ctx": "MOTRplayerColonyOptD"
+  },
+  {
+   "i": 169,
+   "en": "Allow it\r",
+   "ctx": "MOTRplayerColonyNarc"
+  },
+  {
+   "i": 170,
+   "en": "Don't allow it",
+   "ctx": "MOTRplayerColonyNarc"
+  },
+  {
+   "i": 171,
+   "en": "Ask about the 'easy' datacore swap job",
+   "ctx": "rdsmOfferOption"
+  },
+  {
+   "i": 172,
+   "en": "\"What's on this datacore that's so important?\r",
+   "ctx": "rdsmOfferTextContact"
+  },
+  {
+   "i": 173,
+   "en": "\"Payment?\"\r",
+   "ctx": "rdsmOfferTextContactDeciv"
+  },
+  {
+   "i": 174,
+   "en": "\"Why do a swap, why not just take the datacore?\"\r",
+   "ctx": "rdsmOfferTextContactDeciv2b"
+  },
+  {
+   "i": 175,
+   "en": "\"But what if someone finds another copy of $rdsm_megacorpName's process?\"\r",
+   "ctx": "rdsmOfferAsk2"
+  },
+  {
+   "i": 176,
+   "en": "\"And that hypothetical second copy of the process was recovered before the fake datacore was found...\"",
+   "ctx": "rdsmOfferAsk3"
+  },
+  {
+   "i": 177,
+   "en": "\"I have the $rdsm_megacorpName datacore for you.\"",
+   "ctx": "rdsmreturnToContact"
+  },
+  {
+   "i": 178,
+   "en": "Ask about ruining $hisOrHer rival's secret outpost",
+   "ctx": "RSOMofferOption"
+  },
+  {
+   "i": 179,
+   "en": "\"Any hostile fleets to look out for? Ground batteries?\"\r",
+   "ctx": "RSOMofferTextContact"
+  },
+  {
+   "i": 180,
+   "en": "\"And you trust this, ah, source?\"\r",
+   "ctx": "RSOMofferTextContact2"
+  },
+  {
+   "i": 181,
+   "en": "\"It's not about trust, it's about the lies a 'source' might provide. It could be a trap.\"\r",
+   "ctx": "RSOMofferAsk1"
+  },
+  {
+   "i": 182,
+   "en": "Make preparations for a raid\r",
+   "ctx": "rsomRaidOptions"
+  },
+  {
+   "i": 183,
+   "en": "Talk your way in, and out, of the secret outpost\r",
+   "ctx": "rsomRaidOptions"
+  },
+  {
+   "i": 184,
+   "en": "Boldly enter",
+   "ctx": "rsomAvoidCombat"
+  },
+  {
+   "i": 185,
+   "en": "Show them how it's done",
+   "ctx": "rsomAvoidCombat2"
+  },
+  {
+   "i": 186,
+   "en": "\"Diego couldn't make it, friend. He told me to give you his regards.\" (lie)\r",
+   "ctx": "rsomAvoidCombat3"
+  },
+  {
+   "i": 187,
+   "en": "\"I'm afraid Diego had a little accident. Boss is getting me to fill in.\" (lie)\r",
+   "ctx": "rsomAvoidCombat3"
+  },
+  {
+   "i": 188,
+   "en": "\"Diego and the boss had a disagreement, so now I'm your Diego.\" (lie)",
+   "ctx": "rsomAvoidCombat3"
+  },
+  {
+   "i": 189,
+   "en": "\"Between you and me, I think he meant it ironically, like.\"",
+   "ctx": "rsomAvoidCombat4a"
+  },
+  {
+   "i": 190,
+   "en": "\"Gladly! It's about time someone told Diego how it is.\"",
+   "ctx": "rsomAvoidCombat5a"
+  },
+  {
+   "i": 191,
+   "en": "\"Me, uh, too. Now then! There's work to do...\"",
+   "ctx": "rsomAvoidCombat6a"
+  },
+  {
+   "i": 192,
+   "en": "\"Ever seen a cheap agrav plate overload? Should fail-safe. Unless...\"",
+   "ctx": "rsomAvoidCombat4b"
+  },
+  {
+   "i": 193,
+   "en": "\"Let's get the cargo loading. I'll fill you in.\"",
+   "ctx": "rsomAvoidCombat5b"
+  },
+  {
+   "i": 194,
+   "en": "\"It's bad. Couldn't tell it... not without a drink.\"",
+   "ctx": "rsomAvoidCombat4c"
+  },
+  {
+   "i": 195,
+   "en": "Order your crew to work. And gird your liver.",
+   "ctx": "rsomAvoidCombat5c"
+  },
+  {
+   "i": 196,
+   "en": "Ask about the discreet smuggling operation",
+   "ctx": "smugOfferOption"
+  },
+  {
+   "i": 197,
+   "en": "Find out what the shady $smug_manOrWoman with the off-brand datapad is bothering people about",
+   "ctx": "smugOfferOptionBar"
+  },
+  {
+   "i": 198,
+   "en": "Ask about disrupting the $dhi_industry $dhi_marketOnOrAt $dhi_marketName",
+   "ctx": "dhiOfferOption"
+  },
+  {
+   "i": 199,
+   "en": "Join the high-ranking officer for 'a word'",
+   "ctx": "dhiOfferOptionBar"
+  },
+  {
+   "i": 200,
+   "en": "Ask about the $dsp_industry disruption operation",
+   "ctx": "dspOfferOption"
+  },
+  {
+   "i": 201,
+   "en": "See what kind of trouble you can get into with the underworld boss in the booth",
+   "ctx": "dspOfferOptionBar"
+  },
+  {
+   "i": 202,
+   "en": "Ask about the tactical bombardment mission",
+   "ctx": "taboOfferOption"
+  },
+  {
+   "i": 203,
+   "en": "Join the crisply uniformed officer who wishes to 'consult' with you",
+   "ctx": "taboOfferOptionBar"
+  },
+  {
+   "i": 204,
+   "en": "\"Understandable, if inconvenient.\"\r",
+   "ctx": "TABOPatrolHail1"
+  },
+  {
+   "i": 205,
+   "en": "\"Have you actually read any of Ludd's sermons?\"\r",
+   "ctx": "TABOPatrolHailLuddicPath"
+  },
+  {
+   "i": 206,
+   "en": "\"That'd make it the best deal I ever got from Tri-Tachyon.\"\r",
+   "ctx": "TABOPatrolHailTriTachyon"
+  },
+  {
+   "i": 207,
+   "en": "\"I must admit, I still think I'll get away with it.\"\r",
+   "ctx": "TABOPatrolHailPirates"
+  },
+  {
+   "i": 208,
+   "en": "Ask about the $seco_faction security codes",
+   "ctx": "secoOfferOption"
+  },
+  {
+   "i": 209,
+   "en": "Strike up a conversation with the shifty $seco_manOrWoman fiddling with a cybermod jack",
+   "ctx": "secoOfferOptionBar"
+  },
+  {
+   "i": 210,
+   "en": "Buy the security codes\r",
+   "ctx": "secoOfferTextBar"
+  },
+  {
+   "i": 211,
+   "en": "Mutter something about operational infosec\r",
+   "ctx": "SECOPatrolHail"
+  },
+  {
+   "i": 212,
+   "en": "Ask about the plan to steal a military ship",
+   "ctx": "hijackOfferOption"
+  },
+  {
+   "i": 213,
+   "en": "Chat with the tough-looking $hijack_manOrWoman wearing the powered armor undersuit",
+   "ctx": "hijackOfferOptionBar"
+  },
+  {
+   "i": 214,
+   "en": "\"Do tell.\"\r",
+   "ctx": "hijackOfferTextBar"
+  },
+  {
+   "i": 215,
+   "en": "Ask for detailed info on the target vessel\r",
+   "ctx": "hijackOfferTextBar2"
+  },
+  {
+   "i": 216,
+   "en": "Ask for detailed info on the military vessel\r",
+   "ctx": "hijackOfferTextContact"
+  },
+  {
+   "i": 217,
+   "en": "Agree\r",
+   "ctx": "hijackBarLookAtFreighter"
+  },
+  {
+   "i": 218,
+   "en": "Ask about 'resolving' the incarceration",
+   "ctx": "jabrOfferOption1"
+  },
+  {
+   "i": 219,
+   "en": "Approach the $jabr_manOrWoman smoking in the dark corner",
+   "ctx": "jabrOfferOptionBar1"
+  },
+  {
+   "i": 220,
+   "en": "Bribe the smiling patron to acquire the prisoner\r",
+   "ctx": "jabrBarEventSel"
+  },
+  {
+   "i": 221,
+   "en": "Ask about the secret package delivery",
+   "ctx": "ddroOfferOption1"
+  },
+  {
+   "i": 222,
+   "en": "Find out what the rakish $ddro_manOrWoman at the end of the bar is up to",
+   "ctx": "ddroOfferOptionBar1"
+  }
+ ]
+}

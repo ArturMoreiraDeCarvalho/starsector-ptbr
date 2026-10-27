@@ -1,0 +1,231 @@
+{
+ "chunk": 142,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "A pair of your bodyguards step forward, carrying the sample case between them.\r\n\r\nThey place the container on the hangar floor and without rush or flourish unlatch the cover and withdraw it to reveal the false relic, the upthrust work-glove which was never touched by Ludd.",
+   "ctx": "data/campaign/rules.csv BFFIdeliverGloveCheckBornDead [text]"
+  },
+  {
+   "i": 2,
+   "en": "Oak turns his head ever so slightly. \"Destroy it,\" he rumbles.\r\n\r\nThe clerk mutters into her cuff.",
+   "ctx": "data/campaign/rules.csv BFFIdeliverGloveCheck1 [text]"
+  },
+  {
+   "i": 3,
+   "en": "Oak is content to remain silent as technicians of the Knights wheel out a heavy crucible of sorts, festooned with tubes and patterned heat-dispersal tiles. They halt it several meters from you, then scurry over to retrieve the glove - still in its open sample case - and place the whole lot carefully into the blackened interior. They slowly lower and then seal the heavy top-cover then adjust some knobs and switches. The lead tech looks to the Excubitor Orbis.\r\n\r\nHe gives a tiny nod.\r\n\r\nA dull roar sounds from the device, like a torrential waterfall behind a hardened airlock. Indentations in the tiled carapace begin to glow; you can feel the radiated heat on your exposed skin.",
+   "ctx": "data/campaign/rules.csv BFFIdeliverGloveCheck2 [text]"
+  },
+  {
+   "i": 4,
+   "en": "The clerk shuffles nervously, flipping open a notebook, pausing a moment, then flipping it closed. She looks at the Excubitor Orbis.\r\n\r\nHe nods at her, then looks back to you.",
+   "ctx": "data/campaign/rules.csv BFFIproblemCheckNone [text]"
+  },
+  {
+   "i": 5,
+   "en": "The clerk clears her throat.\r\n\r\n\"Excubitor Orbis,\" her eyes dart at you and Bornanew. \"$playerSirOrMadam. Novice.\"\r\n\r\n\"There is a matter of the Demarch of Olinadu. A Menes Yaribay? He claims he was promised payments for the, um, purchase of a relic.\"\r\n\r\nYou hadn't thought Oak could look any more displeased.",
+   "ctx": "data/campaign/rules.csv BFFIproblemCheckFundingLie [text]"
+  },
+  {
+   "i": 6,
+   "en": "The clerk coughs, \"We, ah,\" she flips a page on a paper notebook.\r\n\r\n\"While the Church does not recognize the purchase of,  um,\" her eyes flicker to the crucible, which has stopped glowing, but ticks away as it cools. \"The object in question. However, due to the promise made by a... representative,\" she looks quickly at Bornanew, then away. \"It was proposed that a... polite settlement with Mister Yaribay be made using the reward credits originally authorized by the Reverend Archcurate Jaspis...\"\r\n\r\n\"Do it,\" says the Excubitor Orbis.\r\n\r\nYou can't quite see if Bornanew is blushing, because his head is bowed toward Oak.",
+   "ctx": "data/campaign/rules.csv BFFIproblemCheckFundingLie2 [text]"
+  },
+  {
+   "i": 7,
+   "en": "The clerk coughs, \"We, ah,\" she flips a page on a paper notebook.\r\n\r\n\"While the Church does not recognize the purchase of,  um,\" her eyes flicker to the crucible, which has stopped glowing, but ticks away as it cools. \"The object in question. However, due to the promise made by a... representative,\" she looks quickly at Bornanew, then away. \"It was proposed that a... polite settlement with Mister Yaribay be made using the reward credits originally authorized by the Reverend Archcurate Jaspis...\"\r\n\r\n\"Do it,\" says the Excubitor Orbis.",
+   "ctx": "data/campaign/rules.csv BFFIproblemCheckFundingLie2dead [text]"
+  },
+  {
+   "i": 8,
+   "en": "The clerk clears her throat.\r\n\r\n\"Excubitor Orbis,\" her eyes dart at you and Bornanew. \"$playerSirOrMadam. Novice.\"\r\n\r\n\"There is a matter of the Demarch of Olinadu. A Menes Yaribay? He claims damages from an... incident. He claims that a valuable object was stolen during a violent raid on his personal compound. And, um, there is a list of potential suspects...\"\r\n\r\nYou hadn't thought Oak could look any more displeased.",
+   "ctx": "data/campaign/rules.csv BFFIproblemCheckRaided [text]"
+  },
+  {
+   "i": 9,
+   "en": "The clerk coughs, \"We, ah,\" she flips a page on a paper notebook.\r\n\r\n\"While the Church does not recognize the legitimacy of, um,\" her eyes flicker to the crucible, which has stopped glowing, but ticks away as it cools. \"The object in question. It was proposed that a... polite settlement of affairs with Mister Yaribay be made using the reward credits originally authorized by the Reverend Archcurate Jaspis for...\"\r\n\r\n\"Do it,\" says the Excubitor Orbis.\r\n\r\nYou can't quite see if Bornanew is blushing, because his head is bowed toward Oak.",
+   "ctx": "data/campaign/rules.csv BFFIproblemCheckRaided2 [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"I t-think that's everything,\" the clerk says, looking between you and Oak.\r\n\r\nExcubitor Orbis Gideon Oak exhales, meeting your gaze. Then, without a word, he turns away and begins walking back to the far doorway casting its long wedge of light into the armored hangar.\r\n\r\nAfter a respectful pause, the clerk and guards rush to follow.",
+   "ctx": "data/campaign/rules.csv BFFIproblemCheckOutDead [text]"
+  },
+  {
+   "i": 11,
+   "en": "Oak ignores you.\r\n\r\n\"The novice still wears a crown of pride,\" Oak says toward Bornanew. \"Still he has much to repent.\"\r\n\r\nBornanew turns slightly aside, keeping his eyes toward the Excubitor Orbis. \"I shall be staying here a while, I think,\" he says softly.",
+   "ctx": "data/campaign/rules.csv BFFIoutro1a [text]"
+  },
+  {
+   "i": 12,
+   "en": "Oak ignores you.\r\n\r\n\"The novice still wears a crown of pride,\" Oak says toward Bornanew. \"Still he has much to repent.\"\r\n\r\nBornanew's look hardens. He matches the remorseless gaze of the Excubitor Orbis with his own. \"If it be so by Providence,\" he says.",
+   "ctx": "data/campaign/rules.csv BFFIoutro1aBB [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"No,\" says Oak. \"The novice still wears a crown of pride. He has much to repent.\"\r\n\r\nBornanew turns aside and says quietly to you, \"I shall be staying here a while, I think.\"",
+   "ctx": "data/campaign/rules.csv BFFIoutro1b [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"No,\" says Oak. \"The novice still wears a crown of pride. He has much to repent.\"\r\n\r\nBornanew does not turn aside from Gideon Oak, matching his remorseless look with his own. \"The Excubitor Orbis believes there is much sin for which I must pay. I shall be staying here, as it pleases him.\"\r\n\r\nOak, for his part, looks very much less than pleased at Bornanew's commentary. His clerk looks mortified.",
+   "ctx": "data/campaign/rules.csv BFFIoutro1bBB [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"Yes,\" says Bornanew, still caught in a staring-contest with Oak. \"You are. I shall be staying here a while, I think.\"\r\n\r\nThe world's smallest smile makes a new crease on the Excubitor Orbis' face as he turns to you.\r\n\r\n\"Novice Bornanew owes you much. But still he wears a crown of pride. Still he must repent.\"",
+   "ctx": "data/campaign/rules.csv BFFIoutro1c [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"But I have a feeling that our paths shall cross again,\" $global.jethroName says, pulling his simple bundle of possessions onto his shoulder.\r\n\r\nBornanew follows his fellow Knights to the doorway casting its long wedge of light into the armored hangar.",
+   "ctx": "data/campaign/rules.csv BFFIoutro2 [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"Our paths shall cross again,\" $global.jethroName says, eyes in shadow. He pulls his simple bundle of possessions onto his shoulder. \"Hammer in one hand, sword in the other.\"\r\n\r\nOak, ever displeased, turns his back without further comment and begins marching to the far end of the hangar. After a moment, the other Knights, and Bornanew, follow.\r\n\r\nThey shrink to silhouettes in the long wedge of light cast into the armored hangar, then disappear.",
+   "ctx": "data/campaign/rules.csv BFFIoutro2BB [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"But I have a feeling that our paths shall cross again,\" $global.jethroName says, pulling his simple bundle of possessions onto his shoulder.\r\n\r\nBornanew, limping slightly, follows his fellow Knights to the doorway casting its long wedge of light into the armored hangar.",
+   "ctx": "data/campaign/rules.csv BFFIoutro2injured [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"Our paths shall cross again,\" $global.jethroName says, eyes in shadow. He pulls his simple bundle of possessions onto his shoulder. \"Hammer in one hand, sword in the other.\"\r\n\r\nOak, ever displeased, turns his back without further comment and begins marching to the far end of the hangar. After a moment, the other Knights, and Bornanew - limping slightly - follow.\r\n\r\nThey shrink to silhouettes in the long wedge of light cast into the armored hangar, then disappear.",
+   "ctx": "data/campaign/rules.csv BFFIoutro2injuredBB [text]"
+  },
+  {
+   "i": 20,
+   "en": "Your shuttle returns you to your $shipOrFleet.\r\n\r\nA ping from your TriPad indicates a funds transfer.",
+   "ctx": "data/campaign/rules.csv BFFIoutro3 [text]"
+  },
+  {
+   "i": 21,
+   "en": "Your shuttle returns you to your $shipOrFleet.",
+   "ctx": "data/campaign/rules.csv BFFIoutro3noPayA [text]"
+  },
+  {
+   "i": 22,
+   "en": "She holds up a hand to stop you from speaking further.\r\n\r\n\"My trust, and my prayers, are with Jethro. He will do what need be done, and if he trusts you, then I pray that you honor him.\"",
+   "ctx": "data/campaign/rules.csv BFFIaskJaspis1 [text]"
+  },
+  {
+   "i": 23,
+   "en": "Your $shipOrFleet gets within range of the $nameInText that you've been contracted to run a black-box sensor package on.\r\n\r\nHowever, a hostile fleet is tracking your movements, leaving you no time to stop and run the sensor package.",
+   "ctx": "data/campaign/rules.csv aem_runSensorPackageOptionHostile [text]"
+  },
+  {
+   "i": 24,
+   "en": "Your $shipOrFleet gets within range of the $nameInText that you've been contracted to run a black-box sensor package on.",
+   "ctx": "data/campaign/rules.csv aem_runSensorPackageOption [text]"
+  },
+  {
+   "i": 25,
+   "en": "You tap a button to execute the black-box sensor package and wait for it to finish. On completion, it provides an escrow key that authorizes the agreed-upon payment to be transferred to your account.\r\n\r\nPresumably, it will transmit the scan results on a secure channel when you're near a comm relay, and then delete itself from your systems.",
+   "ctx": "data/campaign/rules.csv aem_runSensorPackageOptionSel [text]"
+  },
+  {
+   "i": 26,
+   "en": "It's the planet you've been contracted to run a full survey on.",
+   "ctx": "data/campaign/rules.csv spm_planetApproach [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"Well,\" $Rank $personLastName looks at you for a long moment. \"That might be difficult.\"\r\n\r\n\"Due to the fact that you hold primary executive authority over a polity which itself holds a form of membership status in the Persean League, you cannot resign your commission until that status is revoked. In fact,\" $heOrShe twitches subtly, apparently performing an infonet query, \"It would be illegal, barring certain extreme conditions.\"",
+   "ctx": "data/campaign/rules.csv cmsn_hasLeagueMembership [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"Is this some kind of joke? If you are who you say you are, you're on several $faction wanted lists.\"",
+   "ctx": "data/campaign/rules.csv CMSNTextRejectHostile_default [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"You're already commissioned by $theOtherCommissionFaction. You'll have to resign that commission before you can be commissioned by $theFaction.\"",
+   "ctx": "data/campaign/rules.csv CMSNTextHasOther_default [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"I'm sorry, but you don't meet our criteria for receiving a commission.\"",
+   "ctx": "data/campaign/rules.csv CMSNTextUnsuited_default [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"Hmm, yes, you're a suitable candidate.\r\n\r\nAccepting a commission is a serious matter. You will be required to fight enemies of $theFaction, wherever they may be found.\r\n\r\nYou'll be able to resign your commission at any time, though I don't imagine doing so would win you any friends.\"",
+   "ctx": "data/campaign/rules.csv CMSNTextSuitedPart1_default [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"So, how about it? Still want to sign on?\"",
+   "ctx": "data/campaign/rules.csv CMSNTextSuitedPart2_default [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"Excellent! Welcome to the service.\"",
+   "ctx": "data/campaign/rules.csv CMSNTextWelcomePart1_default [text]"
+  },
+  {
+   "i": 34,
+   "en": "\"Anything else I can do for you?\"",
+   "ctx": "data/campaign/rules.csv CMSNTextWelcomePart2_default [text]"
+  },
+  {
+   "i": 35,
+   "en": "\"Yes, not everyone has it in them to uphold the values of $theFaction to such a high standard. No shame in it.\r\n\r\nAnything else I can do for you?\"",
+   "ctx": "data/campaign/rules.csv CMSNTextChangeMind_default [text]"
+  },
+  {
+   "i": 36,
+   "en": "\"Are you sure? $TheFaction needs people it can rely on, and turning your back like this won't be easily forgotten.\"",
+   "ctx": "data/campaign/rules.csv CMSNResignAskToConfirm_default [text]"
+  },
+  {
+   "i": 37,
+   "en": "\"I can see there's no changing your mind. Well, at least you had the courtesy to tender your resignation in person.\"",
+   "ctx": "data/campaign/rules.csv CMSNResignConfirmed_default [text]"
+  },
+  {
+   "i": 38,
+   "en": "\"A good decision. We can use people like you.\"",
+   "ctx": "data/campaign/rules.csv CMSNResignCancelled_default [text]"
+  },
+  {
+   "i": 39,
+   "en": "\"Is this some kind of joke? If you are truly whom you claim to be, you've been condemned in multiple writs by the Most Holy Presbyteriat.\"",
+   "ctx": "data/campaign/rules.csv CMSNTextRejectHostile_luddic [text]"
+  },
+  {
+   "i": 40,
+   "en": "\"You're already commissioned by $theOtherCommissionFaction. The heart holds but one faith; until you resign that commission, it would be quite unthinkable to be commissioned by the Church.\"",
+   "ctx": "data/campaign/rules.csv CMSNTextHasOther_luddic [text]"
+  },
+  {
+   "i": 41,
+   "en": "\"I am sorry, but you are not worthy of receiving a commission from the Church.\"",
+   "ctx": "data/campaign/rules.csv CMSNTextUnsuited_luddic [text]"
+  },
+  {
+   "i": 42,
+   "en": "\"Hmm, yes, you have proven your faith through good works.\r\n\r\nAccepting a commission is a serious matter. You will be required to fight enemies of the Church wherever they may be found; to uphold the Eleven Virtues; to condemn and abhor vice.\r\n\r\nYour commission may be resigned at any time, though it would be a very poor sign of faith in the Church. And in terms of worldly matters, it would be considered a black mark indeed by Ludd's faithful.\"",
+   "ctx": "data/campaign/rules.csv CMSNTextSuitedPart1_luddic [text]"
+  },
+  {
+   "i": 43,
+   "en": "\"Will you accept this righteous mantle with the blessings of Ludd?\"",
+   "ctx": "data/campaign/rules.csv CMSNTextSuitedPart2_luddic [text]"
+  },
+  {
+   "i": 44,
+   "en": "\"Praise be to the spirit of the stars! I am blessed to be the first to welcome you to this righteous service.\"",
+   "ctx": "data/campaign/rules.csv CMSNTextWelcomePart1_luddic [text]"
+  },
+  {
+   "i": 45,
+   "en": "\"I shall not detain you from your holy work, but please do not hesitate to ask if there is anything I can do for you.\"",
+   "ctx": "data/campaign/rules.csv CMSNTextWelcomePart2_luddic [text]"
+  }
+ ]
+}

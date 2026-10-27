@@ -1,0 +1,389 @@
+{
+
+	"fleetInteractionDialog":{
+		# Available tokens:
+		#
+		# $faction  faction of other fleet ("Hegemony", "Tri-Tachyon", "Pirate", etc)
+		# $fleetName name of other fleet ("Scout", "Security Detachment", etc)
+		# $firstName first name of other fleet's commander
+		# $lastName last name of other fleet's commander
+		# $fleetOrShip "fleet", "ship" if only one ship in fleet, "fighter wing" if only one fighter wing (and nothing else)
+		# $repairedShipList list of names of the ships that were successfully repaired after being disabled
+		# $crewLost Approximate number of crew lost during the last engagement, i.e. "4", "around 100", or "no". 
+		# $marinesLost Approximate number of marines lost during the last engagement, i.e. "4", "around 100", or "no". 
+		# $crewRecovered Number of crew recovered after winning the entire encounter. 
+		# $marinesRecovered Number of marines recovered after winning the entire encounter.
+		# $numLifeSigns Approximate number of crew + marines on ship about to be boarded. Can also be "no".
+		# $boardingTaskForceShips List of names of the ships in the boarding task force.
+		# $boardingCrewLost
+		# $boardingEnemyCrewLost
+		# $boardingMarinesLost
+		# $boardingEnemyMarinesLost
+		# $boardableShipName "ISS Something or Other"
+		# $boardingTaskForceShipName "ISS Something or Other", name of the first ship in the boarding task force
+		# $creditsLooted
+		# $flagship On flagship selection
+		# $crashMothballList
+		# battles with allies
+		# Tokens:
+		# $alliedFactionAndTheirAllies "Hegemony forces and their allies"
+		# $enemyFactionAndTheirAllies "Hegemony forces and their allies"
+		# $yourForcesWereOrYourSideWas	 
+	
+		"initialWithStationVsLargeFleet":"A $fleetOrShip ($faction) manobra para se manter sob a proteção da estação, permitindo que sua frota recue. No entanto, suas forças provavelmente serão perseguidas durante a retirada.",
+		"initialAggressive":"A $fleetOrShip ($faction) manobra para impedir que você recue com facilidade.",
+		"initialDisengage":"A $fleetOrShip ($faction) está tentando recuar.",
+		"initialCareful":"A $fleetOrShip ($faction) mantém distância com cuidado, pronta para recuar em caso de hostilidades.",
+		"initialNeutral":"A $fleetOrShip ($faction) assume uma postura neutra.",
+		"initialHoldVsStrongerEnemy":"A $fleetOrShip ($faction) parece pronta para lutar apesar de enfrentar forças superiores, mas provavelmente não vai forçar o confronto.",
+		"initialAggressiveSide":"As forças de $enemyFactionAndTheirAllies manobram para impedir que você recue com facilidade.",
+		"initialDisengageSide":"As forças de $enemyFactionAndTheirAllies estão tentando recuar.",
+		"initialCarefulSide":"As forças de $enemyFactionAndTheirAllies mantêm distância com cuidado, prontas para recuar em caso de hostilidades.",
+		"initialNeutralSide":"As forças de $enemyFactionAndTheirAllies assumem uma postura neutra.",
+		"initialHoldVsStrongerEnemySide":"As forças de $enemyFactionAndTheirAllies parecem prontas para lutar apesar de enfrentarem forças superiores, mas provavelmente não vão forçar o confronto.",
+	
+		"initialKnows":"Ela sabe quem você é porque o transponder da sua $playerFleetOrShip está ligado.",
+		"initialKnowsTOff":"Há indícios de que ela sabe quem você é, apesar do transponder da sua $playerFleetOrShip estar desligado, provavelmente por ter visto você recentemente.",
+		"initialKnowsUnique":"Apesar do transponder da sua $playerFleetOrShip estar desligado, ela parece saber quem você é - provavelmente por causa de naves notáveis na sua frota.",
+		"initialKnowsUniqueSide":"Apesar do transponder da sua $playerFleetOrShip estar desligado, ela parece saber quem você é - provavelmente por causa de naves notáveis na sua frota.",
+		"initialDoesntKnow":"Ela não parece ter certeza de quem você é. Qualquer hostilidade terá um impacto reduzido na sua reputação.",
+		"initialKnowsSide":"Eles sabem quem você é porque o transponder da sua $playerFleetOrShip está ligado.",
+		"initialKnowsTOffSide":"Há indícios de que eles sabem quem você é, apesar do transponder da sua $playerFleetOrShip estar desligado, provavelmente por terem visto você recentemente.",
+		"initialDoesntKnowSide":"Eles não parecem ter certeza de quem você é. Qualquer hostilidade terá um impacto reduzido na sua reputação.",
+		
+		"battleDefeat":"$yourForcesWereOrYourSideWas derrotado(s) no último combate.",
+		"battleTotalDefeat":"$yourForcesWereOrYourSideWas completamente derrotado(s) no último combate.",
+		"battleVictory":"$yourForcesWereOrYourSideWas vitorioso(s) no último combate.",
+		"battleTotalVictory":"$yourForcesWereOrYourSideWas capaz(es) de obter uma vitória completa no último combate.",
+		"battleFleetLost":"Todas as suas naves foram destruídas no último combate.",
+		
+		"friendlyFireRepLoss":"Houve incidentes graves de fogo amigo ao longo do encontro.",
+		
+		"pursuitAutoresolve":"Suas forças partem em perseguição, conforme ordenado.",
+		"pursuitVictoryNoLosses":"As forças inimigas em retirada conseguiram recuar sem perder nenhuma nave.",
+		"pursuitVictoryLosses":"As forças inimigas em retirada conseguiram recuar, mas não sem sofrer perdas.",
+		"pursuitTotalVictory":"Nenhuma nave inimiga conseguiu escapar.",
+		"pursuitDefeat":"As forças inimigas conseguiram virar o jogo e impor uma derrota às suas forças.",
+		"pursuitTotalDefeat":"Numa reviravolta surpreendente, as forças inimigas em retirada conseguiram virar o jogo e obter uma vitória esmagadora.",
+		
+		"escapeDefeat":"$yourForcesWereOrYourSideWas capaz(es) de se desvencilhar do inimigo.",
+		"escapeTotalDefeat":"Nenhuma nave do seu lado conseguiu escapar.",
+		"escapeVictory":"$yourForcesWereOrYourSideWas capaz(es) de virar o jogo contra o inimigo perseguidor e impor-lhe uma derrota.",
+		"escapeTotalVictory":"$yourForcesWereOrYourSideWas capaz(es) de virar o jogo contra o inimigo perseguidor e esmagá-lo por completo.",
+		
+		"engagementMutualDestruction":"As naves dos dois lados foram reduzidas a sucata.",
+		"mutualDestructionRepairs":"Mas nem tudo está perdido. Você assume o comando da $boardableShipName, organizando equipes de reparo e priorizando a recuperação da propulsão básica e do suporte de vida. Seus esforços dão certo e, algumas horas depois, vocês conseguem partir.",
+		
+		"enemyHarass":"As forças inimigas assediam suas naves durante a retirada, causando muita desordem, mas no fim não forçam uma batalha.",
+		"enemyUnableToPursue":"As naves inimigas não conseguem perseguir, permitindo que suas forças se retirem sem mais incidentes.",
+		"enemyDecidesNotToPursue":"As naves inimigas não fazem menção de perseguir, permitindo que suas forças se retirem sem mais incidentes.",
+		"enemyPursuit":"A frota inimiga persegue suas forças.",
+		
+		"playerRecovery":"$yourForcesWereOrYourSideWas capaz(es) de recuperar um pouco de prontidão de combate, pois controla(m) o espaço de batalha e o combate foi limitado.",
+		"enemyRecovery":"As forças inimigas conseguem recuperar um pouco de prontidão de combate, pois controlam o espaço de batalha e o combate foi limitado.",
+		"bothRecovery":"Os dois lados conseguem recuperar um pouco de prontidão de combate ao se retirarem após um combate limitado e caótico.",
+		
+		"enemyCleanDisengage":"A frota adversária consegue recuar sem problemas, pois suas forças não têm condições de persegui-la.",
+		"enemyCleanDisengageSide":"A frota adversária consegue recuar sem problemas, pois as forças do seu lado não têm condições de persegui-la.",
+		
+		# in playerUnableToPursue, the player can still harass the escaping ships, so it's not a "clean" disengagement.
+		"playerUnableToPursue":"Parece que a frota adversária vai conseguir recuar sem que você possa forçar um combate.",
+		"playerUnableToPursueNoReadyShips":"Nenhuma das suas naves está em condições de perseguir.",
+		"playerUnableToPursueStoodDown":"Suas naves estão concentradas em recuperar a prontidão de combate e não conseguem perseguir.",
+		
+		"playerDisruptedEnemy":"Apesar de terem recuado no último combate, suas forças desorganizaram o inimigo e podem recuar sem serem perseguidas.",
+		"enemyDisruptedPlayer":"Apesar da vitória no último combate, suas forças sofreram perdas suficientes para não conseguirem perseguir o inimigo enquanto ele recua.",
+		"enemyDisruptedPlayerSide":"Apesar da vitória no último combate, as forças do seu lado sofreram perdas suficientes para não conseguirem perseguir o inimigo enquanto ele recua.",
+		"cleanDisengageOpportunity":"Após uma vitória tática, suas forças têm a oportunidade de se desvencilhar do inimigo sem problemas.",
+		
+		#"playerTooLargeToDisengage":"Your fleet is too large to be able to disengage effectively unless the opposing forces are already in disarray.",
+		#"playerTooLargeCanFightToDisengage":"Engaging the opponent and destroying, disabling, or forcing enough of their ships to retreat will allow your fleet to disengage without being pursued.",
+		#"highlightTooLarge":"too large to be able to disengage",
+		#"highlightCanFight":"disengage without being pursued",
+		"playerTooLargeToDisengage":"Sua frota é grande demais para conseguir recuar com facilidade. Enfrentar o inimigo e destruir, incapacitar ou forçar a retirada de naves suficientes permitirá que sua frota recue sem ser perseguida.",
+		"highlightTooLarge":"grande demais para conseguir recuar",
+		"highlightDisengage":"recue sem ser perseguida",
+		
+		
+		"highlghtDisruptedEnemy":"recue sem ser perseguida",
+		"highlightDisruptedPlayer":"não conseguirem perseguir",
+		"highlightCleanDisengage":"se desvencilhar do inimigo sem problemas",
+		
+		
+		"playerLetGo":"Suas naves não fazem menção de perseguir, permitindo que as forças inimigas se retirem sem mais incidentes.",
+		"playerHarass":"Suas forças assediam as naves inimigas durante a retirada, causando muita desordem, mas no fim não forçam uma batalha.",
+		
+		
+		"engageForce":"Você ordena uma série de manobras que deixam o comandante inimigo com cada vez menos opções.",
+		"engagePursuit":"A frota adversária tenta recuar, mas não vai conseguir escapar sem lutar.",
+		"engageMutual":"A frota adversária avança para entrar em combate.",
+		"pursue":"Suas forças perseguem o inimigo e conseguem se aproximar o bastante para forçar uma batalha.",
+		
+		"postBattleAggressive":"A $fleetOrShip ($faction) manobra para um novo combate.",
+		"postBattleDisengage":"A $fleetOrShip ($faction) manobra para recuar.",
+		"postBattleNeutral":"A $fleetOrShip ($faction) assume uma postura neutra.",
+		"postBattleHoldVsStrongerEnemy":"A $fleetOrShip ($faction) parece pronta para lutar apesar de enfrentar forças superiores, mas provavelmente não vai forçar o confronto.",
+		
+		"postBattleAggressiveSide":"As forças de $enemyFactionAndTheirAllies manobram para um novo combate.",
+		"postBattleDisengageSide":"As forças de $enemyFactionAndTheirAllies manobram para recuar.",
+		"postBattleNeutralSide":"As forças de $enemyFactionAndTheirAllies assumem uma postura neutra.",
+		"postBattleHoldVsStrongerEnemySide":"As forças de $enemyFactionAndTheirAllies parecem prontas para lutar apesar de enfrentarem forças superiores, mas provavelmente não vão forçar o confronto.",
+		
+		"cutComm":"Você corta a comunicação e avalia as opções táticas disponíveis.",
+	
+		"repairReport":"As equipes de resgate conseguiram restaurar os sistemas básicos de $repairedShipList.",
+		"casualtyReport":"Relatórios preliminares indicam que $crewLost tripulantes e $marinesLost fuzileiros foram perdidos no último combate.",
+		"recoveryReport":"Após a batalha, $crewRecovered tripulantes e $marinesRecovered fuzileiros foram resgatados de cápsulas de fuga e compartimentos intactos nos destroços.",
+
+		#
+		# BOARDING ENEMY SHIP
+		#
+		"enemyShipBoardable":"Suas forças se preparam para iniciar as operações de resgate quando, de repente, os sistemas de uma nave inimiga voltam a funcionar. Uma varredura rápida detecta $numLifeSigns sinal(is) de vida a bordo.",
+		"engageBoardableDisabled":"Suas forças atacam a nave inimiga, e alguns disparos bem colocados a neutralizam rapidamente.",
+		"engageBoardableDestroyed":"Suas forças atacam a nave inimiga. Uma explosão enorme apaga as telas logo após alguns disparos atingirem o casco danificado, e quando a imagem volta, tudo o que resta é uma nuvem de destroços se expandindo lentamente.",
+		"engageBoardableEscaped":"Suas forças avançam contra a nave inimiga, mas a tripulação consegue religar o campo de propulsão no último momento e escapa.",
+		"letBoardableGo":"Suas forças recuam e deixam a nave inimiga escapar.",
+		"boardingTaskForceSelectedOneShip":"Ao receber as ordens, $boardingTaskForceShips avança para se aproximar da nave inimiga.",
+		"boardingTaskForceSelectedMultiple":"Ao receberem as ordens, $boardingTaskForceShips avançam para se aproximar da nave inimiga.",
+		
+		"boardingApproachDock":"Uma acoplagem rígida com o casco inimigo é estabelecida, e as equipes de assalto rapidamente anulam os sistemas de segurança das eclusas e abrem acessos temporários com explosivos nas seções enfraquecidas do casco.",
+		"boardingApproachLaunch":"As equipes de assalto são lançadas a cerca de um quilômetro de distância e se aproximam do casco em ondas, usando propulsores pessoais para frear na aproximação final. Os defensores podem atirar livremente nas forças de desembarque até que equipes suficientes pousem para avançar para dentro do casco.",
+		
+		"boardingOutcomeSelfDestruct":"Quando suas equipes de assalto começam a vencer a resistência dentro da nave inimiga, ela se autodestrói. A maioria dos homens e mulheres do grupo de abordagem morre na explosão.",
+		"boardingOutcomeShipLost":"A $boardingTaskForceShipName foi destruída.", 
+		"boardingOutcomeShipDamaged":"A $boardingTaskForceShipName sofreu danos graves.",
+		"boardingOutcomeTaskForceLost":"Toda a força-tarefa acoplada à nave inimiga foi destruída.", 
+		"boardingOutcomeTaskForceLostPartial":"Algumas das naves acopladas à nave inimiga quando ela explodiu foram destruídas, enquanto as demais sofreram danos graves.", 
+		"boardingOutcomeTaskForceDamaged":"Felizmente, nenhuma das naves da força-tarefa foi destruída.",
+		 
+		"boardingOutcomeSuccess":"Depois de superar toda a resistência organizada e vasculhar cada compartimento, o comandante do grupo de abordagem informa que a nave inimiga está sob controle e pronta para receber uma tripulação de presa.",
+		"boardingOutcomeTooDamaged":"Depois de superar toda a resistência organizada e vasculhar cada compartimento, o comandante do grupo de abordagem informa que a nave inimiga está sob controle. Infelizmente, os danos colaterais da luta destruíram os sistemas centrais da nave sem possibilidade de reparo.",
+		"boardingOutcomeEscape":"As forças inimigas entrincheiradas conseguem conter suas equipes de assalto por tempo suficiente para terminar os reparos dos motores e escapar.",
+		"boardingCleanEscapeMissedLaunch":"No último momento, a nave inimiga recupera a propulsão e consegue alterar a trajetória o suficiente para evitar a maioria dos atacantes, ganhando tempo para escapar. Após um esforço de resgate, $boardingCrewLost tripulantes e $boardingMarinesLost fuzileiro(s) continuam desaparecidos.",
+		
+		"boardingNoMarines":"Você não tem fuzileiros disponíveis para operações de abordagem. Sem ajudar muito, um sistema automático informa que uma abordagem teria zero chance de sucesso.",
+		"boardingProjection":"Você tem $marines fuzileiro(s) disponível(is). Segundo simulações feitas por uma IA de nível gama, uma operação de abordagem teria $boardingSuccessChance de chance de sucesso.",
+		
+		"boardingCasualtyReport":"Uma avaliação pós-combate indica que $boardingMarinesLost fuzileiro(s) foram perdidos durante a luta.",  
+		
+		#
+		# BEING BOARDED (limited to ship being engaged and shot down or not, at the moment)
+		#
+		"friendlyShipBoardable":"A tripulação de uma das suas naves incapacitadas fez reparos suficientes para que os sistemas críticos voltassem a funcionar. Se ela conseguir recuperar a propulsão, talvez possa voltar à sua frota.",
+		"engageFriendlyBoardableDisabled":"Infelizmente, naves inimigas se aproximam e fazem alguns disparos bem colocados para eliminar qualquer chance disso.",
+		"engageFriendlyBoardableDestroyed":"Infelizmente, naves inimigas se aproximam e abrem fogo antes que os reparos possam ser concluídos. Um disparo perdido deve ter rompido o campo de contenção do reator - a nave explode, deixando para trás um campo de destroços que se expande lentamente.",
+		"engageFriendlyBoardableEscaped":"Antes que o inimigo possa se aproximar, os reparos dos motores são concluídos e a nave escapa para voltar à sua frota.",
+		"engageFriendlyBoardableLetGo":"As forças inimigas recuam e deixam a nave terminar os reparos e voltar, mancando, para a sua frota.",
+		
+		"lastFriendlyShipRepairs":"Você assume o comando da $boardableShipName, organizando rapidamente equipes de reparo. Se ela conseguir recuperar a propulsão, talvez você consiga escapar.",
+		"lastFriendlyBoardableDisabled":"Infelizmente, naves inimigas se aproximam e fazem alguns disparos bem colocados para eliminar qualquer chance disso.",
+		"lastFriendlyBoardableDestroyed":"Infelizmente, naves inimigas se aproximam e abrem fogo antes que os reparos possam ser concluídos. Um disparo perdido deve ter rompido o campo de contenção do reator - a nave explode, deixando para trás um campo de destroços que se expande lentamente.",
+		"lastFriendlyBoardableEscaped":"Antes que o inimigo possa se aproximar, os reparos dos motores são concluídos e você consegue escapar!",
+		"lastFriendlyBoardableLetGo":"As forças inimigas recuam e deixam sua nave terminar os reparos e partir, mancando.",
+
+		"finalOutcomeNoShipsLeft":"A última coisa de que você se lembra é a súbita aceleração enquanto a cápsula de fuga em que você está se afasta da sua nave condenada.",
+		
+		#
+		# OTHER
+		#
+		"creditsLootedReport":"As equipes de resgate conseguem recuperar $creditsLooted crédito(s) de núcleos de CPU ainda ativos nos destroços.",
+		"selectedFlagship":"Você transfere o comando para a $flagship para o próximo combate.",
+		"noSalvageReport":"Não há nada para resgatar.",
+		"noSalvageReportPlayerDidNothing":"Sua $playerFleetOrShip não participa das operações de resgate por causa da sua contribuição limitada durante o encontro.",
+		"salvageReportPlayer":"Sua $playerFleetOrShip pode participar das operações de resgate graças às suas contribuições durante o encontro.",
+		
+		#
+		# CRASH MOTHBALLING
+		#
+		"crashMothballSelectedOneShip":"Você ordena que $crashMothballList desligue todos os sistemas de combate para evitar o risco de falhas durante a batalha. A tripulação da nave direciona todos os recursos disponíveis para manter os motores funcionando da forma mais estável possível.",
+		"crashMothballSelectedMultiple":"Você ordena que $crashMothballList desliguem todos os sistemas de combate para evitar o risco de falhas durante a batalha. As tripulações das naves direcionam todos os recursos disponíveis para manter os motores funcionando da forma mais estável possível.",
+		"tooltipCrashMothball":"Algumas das suas naves estão com baixa prontidão de combate e podem sofrer falhas durante a batalha.\n\nOs sistemas de combate delas podem ser desligados para evitar falhas e permitir que as naves usem a velocidade máxima para escapar.",
+		"tooltipCrashMothballUnavailable":"Todas as suas naves estão prontas para o combate e não correm risco de sofrer falhas.",
+		
+		#
+		# TOOLTIPS
+		#
+		"tooltipPursue":"Força uma batalha em que as forças em retirada tentam escapar.",
+		"tooltipPursueAutoresolve":"Ordena que seu imediato conduza a perseguição. Não traz riscos às suas naves, mas provavelmente é menos eficaz do que comandar a perseguição você mesmo.",
+		"tooltipPursueLostLast":"Suas forças foram derrotadas no último combate e não podem perseguir.",
+		"tooltipPursueStoodDown":"Suas forças recuaram após o último combate e não podem perseguir.",
+		"tooltipPursueSeriousLosses":"Suas forças sofreram perdas graves no último combate e não podem perseguir.",
+		"tooltipPursueTooSlow":"A frota inimiga é rápida demais para suas forças alcançarem.",
+		
+		"tooltipNoReadyShips":"Nenhuma das suas naves está pronta para o combate.",
+		"tooltipNoPersonnel":"Não há fuzileiros disponíveis.",
+		
+		"tooltipHarassRetreat":"Reduz a prontidão de combate de todas as naves em retirada como se tivessem sido mobilizadas em combate.\n\nTambém deixa sua frota mais lenta por um tempo, pois suas forças precisam se reorganizar após o assédio.",
+		"tooltipHarassRetreatUnavailable":"Não é possível assediar as forças em retirada, seja por ter recuado ou por não ter nenhuma nave pronta para o combate.",
+		
+		"tooltipLetThemGoNoPenalty":"Deixa a outra frota partir em paz.\n\nSua frota não precisa se reorganizar após o encontro e não fica mais lenta.",
+		"tooltipLetThemGo":"Deixa a outra frota partir em paz.\n\nSua frota não precisa se reorganizar após o encontro e não fica mais lenta.",
+		"tooltipEngage":"Ataca a frota adversária.\n\nSe você causar dano suficiente antes de recuar, poderá se retirar sem ser perseguido.",
+		"tooltipCleanDisengage":"Encerra a batalha sem risco de ser assediado pela frota adversária.\n\nComo o inimigo continua no controle do espaço de batalha, você não poderá fazer operações de resgate.\n\nSe sua frota não tiver feito nenhuma ação hostil, recuar não prejudicará sua reputação com a facção adversária.",
+		"tooltipHarrassableDisengage":"Encerra a batalha sem risco de perseguição. A frota adversária ainda pode assediar sua retirada.\n\nComo o inimigo continua no controle do espaço de batalha, você não poderá fazer operações de resgate.\n\nSe sua frota não tiver feito nenhuma ação hostil, recuar não prejudicará sua reputação com a facção adversária.",
+		"tootipAttemptToDisengage":"Tenta se retirar da batalha. A frota adversária pode perseguir e forçar uma batalha, ou pode deixar você ir.\n\nComo o inimigo continua no controle do espaço de batalha, você não poderá fazer operações de resgate.\n\nSe sua frota não tiver feito nenhuma ação hostil, recuar - sem danificar nenhuma nave perseguidora - causará o menor prejuízo possível à sua reputação com a facção adversária.",
+		
+		"tooltipBoardingAction":"Organiza uma ação de abordagem. Exige fuzileiros e provavelmente resultará em grandes perdas de pessoal.",
+		"tooltipEngageBoardable":"Ataca a nave antes que ela tenha chance de concluir os reparos.\n\nHá uma chance de a nave ser totalmente destruída.",
+		"tooltipLetShipGo":"Deixa a nave inimiga terminar os reparos de emergência e se retirar.",
+		"tooltipHardDockBoarding":"As naves designadas para a força-tarefa de abordagem se aproximam da nave inimiga e acoplam a ela.\n\nOferece as melhores chances de combate às equipes de assalto e alta probabilidade de sucesso.\n\nSe a nave abordada se autodestruir, as naves envolvidas na abordagem sofrerão danos pesados e poderão ser destruídas.",
+		"tooltipLaunchBoarding":"A força-tarefa de abordagem mantém uma distância segura e lança equipes de assalto equipadas com propulsores pessoais.\n\nDá aos defensores uma vantagem considerável e mais chance de escapar, mas não arrisca as naves da força-tarefa de abordagem.",
+		"tooltipAboutBoardingAction":"Chama de volta a força-tarefa e cancela a abordagem, permitindo que a nave inimiga se retire.", 
+		"tooltipSelectorMarines":"Selecione o número de fuzileiros designados para a força de assalto.",
+		"tooltipSelectorCrew":"Selecione o número de tripulantes designados para a força de assalto.",
+		"tooltipSelectFlagship":"Selecione a nave que você controlará diretamente no próximo combate.",
+		
+		"ongoingBattleEncounter":"Você se depara com uma batalha em andamento.",
+		"ongoingBattleShareIFF":"As forças de $alliedFactionAndTheirAllies transmitem seus códigos IFF, o que permite que você entre na batalha do lado delas, se quiser.",
+		"ongoingBattleNoJoin":"Nenhum dos lados confia em você o bastante para compartilhar códigos IFF ou lutar ao seu lado, e você não pode entrar na batalha por nenhum deles.",
+		"ongoingBattleNoJoinTransponder":"Nenhum dos lados confia em você o bastante para compartilhar códigos IFF, mas isso provavelmente mudará se você voltar com o transponder ligado.",
+		#"playerOutFirstEscapeWin":"Your forces leave the battlespace before all of your allies, who are nonetheless able to rout the enemy forces.",
+		#"playerOutFirstEscapeLoss":"Your forces leave the battlespace before all of your allies, who are able to escape shortly thereafter.",
+		#"playerOutFirstEngageWin":"Your forces retreat from the battlespace before your allies, who are nonetheless able to win the engagement.",
+		#"playerOutFirstEngageLoss":"Your forces retreat from the battlespace before all of your allies and have an opportunity to leave in relative safety, despite your allies being defeated shortly thereafter.",
+		#"playerOutFirstPursuitWin":"Your forces retreat from the battlespace before your allies, who are nonetheless able to chase off the retreating enemy forces.",
+		#"playerOutFirstPursuitLoss":"Your forces retreat from the battlespace before your allies, and the enemy side is able to turn the tables and defeat them shortly thereafter.",
+		"playerOutFirstEscapeWin":"Suas forças deixam o espaço de batalha antes de todos os seus aliados, que mesmo assim conseguem pôr as forças inimigas em fuga.",
+		"playerOutFirstEscapeLoss":"Suas forças deixam o espaço de batalha antes de todos os seus aliados, que conseguem escapar logo depois.",
+		"playerOutFirstEngageWin":"Suas forças se retiram do espaço de batalha antes dos seus aliados, que mesmo assim conseguem vencer o combate.",
+		"playerOutFirstEngageLoss":"Suas forças se retiram do espaço de batalha antes de todos os seus aliados e têm a oportunidade de partir com relativa segurança.",
+		"playerOutFirstPursuitWin":"Suas forças se retiram do espaço de batalha antes dos seus aliados.",
+		"playerOutFirstPursuitLoss":"Suas forças se retiram do espaço de batalha antes dos seus aliados.",
+		"ongoingBattleEngage":"As forças de $alliedFactionAndTheirAllies avançam para enfrentar as forças de $enemyFactionAndTheirAllies.",
+		"ongoingBattleStation":"As forças de $alliedFactionAndTheirAllies mantêm posição contra as forças de $enemyFactionAndTheirAllies.",
+		"ongoingBattlePursue":"As forças de $alliedFactionAndTheirAllies perseguem as forças em retirada de $enemyFactionAndTheirAllies.",
+		"ongoingBattleHarass":"As forças de $alliedFactionAndTheirAllies assediam as forças em retirada de $enemyFactionAndTheirAllies, causando muita desordem, mas no fim não forçam uma batalha.",
+		"ongoingBattleLetGo":"As forças de $alliedFactionAndTheirAllies deixam as forças de $enemyFactionAndTheirAllies partirem sem mais incidentes.",
+		"ongoingBattleDisengage":"As forças de $alliedFactionAndTheirAllies estão tentando se desvencilhar das forças de $enemyFactionAndTheirAllies.",
+		#"ongoingBattleJoinEnemyWillFlee":"Your forces join the battle, and the now-outclassed $enemyFactionAndTheirAllies attempt to disengage.",
+		#"ongoingBattleJoinAlliesWillFight":"Your forces join the battle, and encouraged by this turn of events, the $alliedFactionAndTheirAllies turn to engage the enemy.",
+		#"ongoingBattleJoinTurnTables":"Your forces join the battle, shifting the balance drastically. The $alliedFactionAndTheirAllies turn to engage the $enemyFactionAndTheirAllies which, in turn, attempt to disengage.",
+	},
+
+
+	"jumpPointInteractionDialog":{
+		# Available tokens:
+		#
+		# $fleetOrShip "fleet", "ship" if only one ship in fleet, "fighter wing" if only one fighter wing (and nothing else)
+		
+		"approach":"Sua $fleetOrShip se aproxima do ponto de salto.",
+		"starAnchor":"Saltar através do buraco de minhoca gerado pelo campo gravitacional da estrela é uma grande proeza de navegação. Só os mais habilidosos sequer pensariam em tentar, e mesmo assim os resultados são imprevisíveis.",
+		"starAnchorUnusable":"Você não pode usar este ponto de salto.",
+		"noFuel":"Sua $fleetOrShip está sem combustível e não pode saltar.",
+		"noExits":"O ponto de salto não parece ter nenhuma saída funcional e, na prática, é inutilizável.",
+	},
+	
+	
+	"planetInteractionDialog":{
+		# Available tokens:
+		#
+		# $fleetOrShip "fleet", "ship" if only one ship in fleet, "fighter wing" if only one fighter wing (and nothing else)
+		# $planetName
+		"approach":"Sua $fleetOrShip se aproxima de $planetName.",
+	},
+	
+
+	"campaignHelp":{
+		"chmNewgame_text":"Bem-vindo à campanha de Starsector!\n\nVocê pode pressionar F5 para salvar rapidamente e F9 para carregar rapidamente.\n\nEvite enfrentar frotas muito maiores que a sua, ou que tenham naves maiores, e lembre-se de que o jogo ainda está em desenvolvimento, então bugs podem acontecer de vez em quando.\n\nBoa sorte!",
+		"chmNewgame_dismiss":"Fechar",
+		
+		"chmNewgameIron_text":"Bem-vindo à campanha de Starsector!\n\nComo você está jogando no modo de ferro, só poderá salvar o jogo ao sair e não poderá carregar outro jogo sem antes sair (e salvar) o jogo atual.\n\nEvite enfrentar frotas muito maiores que a sua, ou que tenham naves maiores, e lembre-se de que o jogo ainda está em desenvolvimento, então bugs podem acontecer de vez em quando.\n\nBoa sorte!",
+		"chmNewgameIron_dismiss":"Fechar",
+		
+		"chmDeployCritCR_text":"Algumas das naves marcadas para mobilização estão com a prontidão de combate perigosamente baixa (abaixo de 20%).\n\nLevar os sistemas dessas naves a níveis de potência de combate provavelmente causará falhas críticas - causando dano, desativando algumas armas e motores durante a batalha e provocando novas falhas críticas durante a mobilização.\n\nCorrer esses riscos - que incluem a destruição completa de uma nave - costuma ser uma medida de último recurso.",
+		"chmDeployCritCR_action":"Prosseguir com a mobilização",
+		"chmDeployCritCR_dismiss":"Reconsiderar",
+		
+		"chmDeployLowCR_text":"Algumas das naves marcadas para mobilização estão com a prontidão de combate baixa (abaixo de 40%).\n\nSeus sistemas de armas e motores provavelmente sofrerão falhas e ficarão temporariamente desativados durante o uso prolongado.",
+		"chmDeployLowCR_action":"Prosseguir com a mobilização",
+		"chmDeployLowCR_dismiss":"Reconsiderar",
+		
+		"chmDeployCostsCR_text":"Você pode escolher quais naves mobilizar no início de cada batalha e mobilizar reforços ao longo dela.\n\nMobilizar uma nave reduz sua prontidão de combate em um valor fixo. Além disso, as naves começam a perder prontidão de combate gradualmente quando o tempo de desempenho máximo acaba.\n\nRecuperar a prontidão de combate leva tempo e consome suprimentos valiosos.",
+		"chmDeployCostsCR_dismiss":"Fechar",
+		
+		"chmWeaponGroups_text":"Você alterou o equipamento da nave, mas não ajustou os grupos de armas.\n\nAs armas serão atribuídas automaticamente a grupos quando você mobilizar a nave para o combate, mas é uma boa ideia fazer isso manualmente.",
+		"chmWeaponGroups_action":"Ajustar grupos de armas",
+		"chmWeaponGroups_dismiss":"Deixa pra lá",
+		
+		#"chmOpenTrade_text":"In the cargo/trade screen, you can:\n\n- Left-click to pick up a stack\n- Shift-click to pick up items from a stack one at a time\n- Shift-click and hold, then drag to pick up a specific quantity\n- Control-click to transfer an entire stack without picking it up\n- Hold down Alt and move the mouse to transfer multiple stacks quickly",
+		"chmOpenTrade_text":"Na tela de carga/comércio, você pode:\n\n- Clicar com o botão esquerdo para pegar uma pilha\n- Shift+clique para pegar itens de uma pilha um por vez\n- Shift+clique e segurar, depois arrastar para pegar uma quantidade específica\n- Ctrl+clique para transferir uma pilha inteira sem pegá-la",
+		"chmOpenTrade_dismiss":"Fechar",
+		
+		"chmHyperStorm_text":"Sua frota foi atingida por uma tempestade de hiperespaço! Uma das suas naves sofreu dano e teve a prontidão de combate reduzida.\n\nOs raios da tempestade também podem tirar sua frota do curso, mas a \"Propulsão de Emergência\" ajuda sua frota a voltar ao curso com mais facilidade e permite atravessar tempestades.",
+		"chmHyperStorm_dismiss":"Fechar",
+	
+		"chmShipPurchase_text":"Parabéns, você acabou de comprar uma nave nova!\n\nEla não tem armas nem modificações instaladas, então é uma boa ideia equipá-la.\n\nVocê também precisa garantir que tem pessoal suficiente para tripulá-la.",
+		"chmShipPurchase_action":"Abrir a tela de reequipamento",
+		"chmShipPurchase_dismiss":"Fechar",
+		
+		"chmWingPurchase_text":"Parabéns, você acabou de comprar uma nova ala de caças!\n\nA prontidão de combate de uma ala de caças representa o número de chassis de reposição disponíveis, mas eles só podem ser usados se houver na sua frota uma nave com convés de voo.\n\nNovos caças decolarão de um convés de voo próximo para repor as perdas sofridas em combate. Enquanto sua frota tiver uma nave com instalações de reparo adequadas (ou seja, um convés de voo), uma ala de caças não pode ser totalmente perdida, mesmo que sua prontidão de combate chegue a zero.",
+		"chmWingPurchase_dismiss":"Fechar",
+		
+		"chmRefitOnStation_text":"Ao reequipar uma nave atracada em uma estação espacial, você pode instalar tanto as armas do seu porão de carga quanto as que estão à venda na estação.\n\nDesfazer as alterações no equipamento da nave (ou simplesmente desinstalar as armas compradas) reembolsa os créditos gastos, mas só se você não tiver saído da tela de reequipamento.",
+		"chmRefitOnStation_dismiss":"Fechar",
+		
+		"chmLootOverCapacity_text":"Atenção: você está pegando mais itens de resgate do que sua frota consegue carregar.\n\nIsso aumentará muito o consumo diário de suprimentos e reduzirá a velocidade de viagem.\n\nRecomenda-se pegar menos itens ou ir até uma estação próxima para vender o excedente.",
+		"chmLootOverCapacity_dismiss":"Fechar",
+		
+		"chmOverCargoCapacity_text":"Sua frota está carregando mais carga do que tem capacidade.\n\nIsso aumentará muito o consumo diário de suprimentos e reduzirá a velocidade de viagem.\n\nRecomenda-se descartar parte da carga agora ou ir rapidamente a uma estação para vender o excedente. Você pode descartar carga na tela de tripulação/carga.",
+		"chmOverCargoCapacity_action":"Abrir a tela de tripulação/carga",
+		"chmOverCargoCapacity_dismiss":"Fechar",
+		
+		"chmOverFuelCapacity_text":"Sua frota está carregando mais combustível do que tem capacidade.\n\nIsso aumentará muito o consumo diário de suprimentos e reduzirá a velocidade de viagem.\n\nRecomenda-se descartar parte do combustível agora ou ir rapidamente a uma estação para vender o excedente. Você pode descartar combustível na tela de tripulação/carga.",
+		"chmOverFuelCapacity_action":"Abrir a tela de tripulação/carga",
+		"chmOverFuelCapacity_dismiss":"Fechar",
+		
+		"chmOverCrewCapacity_text":"Sua frota está carregando mais pessoal do que tem capacidade.\n\nIsso aumentará muito o consumo diário de suprimentos e reduzirá a velocidade de viagem.\n\nRecomenda-se ir até um mercado próximo para deixá-los lá.",
+		"chmOverCrewCapacity_action":"Abrir a tela de tripulação/carga",
+		"chmOverCrewCapacity_dismiss":"Fechar",
+		
+		"chmLowFuel_text":"Sua frota está com pouco combustível.\n\nSe o combustível acabar no hiperespaço, ela vai derivar em direção ao sistema estelar mais próximo e pode ficar presa se você não conseguir mais combustível lá.",
+		"chmLowFuel_dismiss":"Fechar",
+		
+		"chmLowSupplies_text":"Sua frota está com poucos suprimentos.\n\nSe os suprimentos acabarem, todos os reparos param e as naves começam a perder prontidão de combate com o tempo. Depois de mais de alguns dias sem suprimentos, a frota passa a correr risco de acidentes que vão de leves (como a perda de parte da carga) a críticos (perder uma nave).\n\nRecomenda-se conseguir mais suprimentos o mais rápido possível.\n\nPara reduzir o consumo de suprimentos, você pode suspender os reparos em andamento. Como último recurso, você pode afundar uma das suas naves para obter mais suprimentos.\n\nOs comandos para isso estão na tela da frota.",
+		"chmLowSupplies_action":"Abrir a tela da frota",
+		"chmLowSupplies_dismiss":"Fechar",
+		
+		"chmNotEnoughCrew_text":"Sua frota não tem pessoal suficiente para tripular totalmente todas as suas naves.\n\nIsso reduz a prontidão de combate e a recuperação de prontidão das naves afetadas.\n\nVocê pode concentrar a tripulação disponível em naves específicas desativando algumas naves na tela da frota. Recomenda-se contratar mais tripulantes em uma estação espacial próxima o quanto antes.",
+		"chmNotEnoughCrew_action":"Abrir a tela da frota",
+		"chmNotEnoughCrew_dismiss":"Fechar",
+		
+		"chmSomeLowCR_text":"Algumas naves da sua frota estão com baixa prontidão de combate (abaixo de 40%).\n\nSeus sistemas de armas e motores provavelmente sofrerão falhas e ficarão temporariamente desativados durante o uso prolongado, deixando-as menos eficazes em combate.\n\nRecomenda-se deixar essas naves se recuperarem antes de usá-las em combate. As naves recuperam prontidão de combate com o tempo, e estações amigas oferecem um jeito rápido de fazer isso e realizar reparos, além de contratar mais tripulantes se necessário.\n\nVocê pode verificar a prontidão de combate das suas naves na tela da frota.",
+		"chmSomeLowCR_action":"Abrir a tela da frota",
+		"chmSomeLowCR_dismiss":"Fechar",
+		
+		"chmSomeCritCR_text":"Algumas naves da sua frota estão com a prontidão de combate perigosamente baixa (abaixo de 20%).\n\nMobilizar essas naves em combate provavelmente causará falhas críticas - causando dano, desativando algumas armas e motores durante a batalha e provocando novas falhas críticas durante a mobilização.\n\nRecomenda-se deixar essas naves se recuperarem antes de usá-las em combate. As naves recuperam prontidão de combate com o tempo, e estações amigas oferecem um jeito rápido de fazer isso e realizar reparos, além de contratar mais tripulantes se necessário.\n\nVocê pode verificar a prontidão de combate das suas naves na tela da frota.",
+		"chmSomeCritCR_action":"Abrir a tela da frota",
+		"chmSomeCritCR_dismiss":"Fechar",
+		
+		"chmAllCritCR_text":"Todas as naves da sua frota estão com a prontidão de combate perigosamente baixa (abaixo de 20%).\n\nMobilizar essas naves em combate provavelmente causará falhas críticas - causando dano, desativando algumas armas e motores durante a batalha e provocando novas falhas críticas durante a mobilização.\n\nRecomenda-se deixar sua frota se recuperar antes de entrar em combate. As naves recuperam prontidão de combate com o tempo, e estações amigas oferecem um jeito rápido de fazer isso e realizar reparos, além de contratar mais tripulantes se necessário.\n\nVocê pode verificar a prontidão de combate das suas naves na tela da frota.",
+		"chmAllCritCR_action":"Abrir a tela da frota",
+		"chmAllCritCR_dismiss":"Fechar",
+		
+		"chmSupplyUseAfterBattle_text":"O consumo de suprimentos da sua frota acabou de subir!\n\nRecuperar a prontidão de combate gasta ao mobilizar naves custa suprimentos, assim como reparar danos de batalha.\n\nPara reduzir o uso de suprimentos, os reparos e a recuperação de CR das naves podem ser suspensos na tela da frota.",
+		"chmSupplyUseAfterBattle_action":"Abrir a tela da frota",
+		"chmSupplyUseAfterBattle_dismiss":"Fechar",
+		
+		"chmRiskOfAccidents_text":"Algumas naves da sua frota correm risco de sofrer acidentes por estarem com 0% de prontidão de combate.\n\nAcidentes podem danificar ou até destruir uma nave.\n\nRecomenda-se desativar essas naves ou deixá-las recuperar a prontidão de combate o quanto antes.",
+		"chmRiskOfAccidents_dismiss":"Fechar",
+		
+		"chmEnteredHyper_text":"Sua frota entrou no hiperespaço!\n\nNaves viajando pelo hiperespaço gastam combustível de acordo com a distância percorrida. Frotas que ficam sem combustível derivam em direção ao sistema estelar mais próximo e podem ficar presas lá.",
+		"chmEnteredHyper_dismiss":"Fechar",
+	
+		"chmRefitCRLoss_text":"Reequipar uma nave no espaço faz com que ela perca um pouco de prontidão de combate.\n\nA perda depende da extensão das alterações e é indicada pela parte escurecida da barra de prontidão de combate.\n\nReequipar em um mercado ou estação não reduz a prontidão de combate.",
+		"chmRefitCRLoss_dismiss":"Fechar",
+	},
+	
+	
+	
+		
+}
+
+
+
+
+
+
+
+
+

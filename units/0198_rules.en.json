@@ -1,0 +1,116 @@
+{
+ "chunk": 198,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "Academician Sebestyen looks up, apparently reassured by this. \"So you'll do it?\"",
+   "ctx": "data/campaign/rules.csv gaRRMissionTextPirate3 [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"Well uh, what happened is Academician $gaRR_researcherName from $gaRR_department was on a research mission, possibly near volumes patrolled by the Luddic- I mean, the Church of Galactic Redemption and was kidna- er, interred by the Knights of Ludd.\"\r\n\r\n\"They're, um.\" Sebestyen ponders for a moment, \"Enthusiastic about enforcing certain prescripts. Between you and me, their understanding of theory is a bit loose at best, so there can be... misunderstandings. We- that is, the $gaRR_department department - was assured that the project was cleared by the exarch liaison who runs a shrine here on the Academy Station.\"",
+   "ctx": "data/campaign/rules.csv gaRRMissionTextChurch [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"So um. We're not sure what went wrong. This might be an inter- um, inter-departmental conflict within the Church?\" Sebestyen stops himself and looks again at his datapad.\r\n\r\n\"Right! We need a representative - that'll be you - to travel to $gaRR_marketName and make arrangements with the representative from the Knights of Ludd. It was, um, hinted that a tithe of $gaRR_costNormal credits would smooth things over, so the finance department will give you that cash up-front. Your payment for performing the mission itself would be $gaRR_reward credits.\"",
+   "ctx": "data/campaign/rules.csv gaRRMissionTextChurch1 [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"Um.\" This concept flusters the Academician somewhat, \"Oh, stars. I, uh, let me check.\" \r\n\r\nJudging by the illumination on his face, Sebestyen has pulled up a thick block of legal text, which he proceeds to scroll rapidly for a minute, speed-reading legal clauses.\r\n\r\n\"Technically,\" he smiles brightly, \"the funds are released to you as 'working capital appropriated to hiree' - that's you - 'pursuant to recovering deliverables listed in addendum A'. So it looks like, yes, you would be able to keep the extra funds if you can complete the job without using them. Hopefully not by, um. Um.\" he looks queasy, and closes his eyes, and takes a deep breath.",
+   "ctx": "data/campaign/rules.csv gaRRMissionTextChurch2 [text]"
+  },
+  {
+   "i": 5,
+   "en": "The comms open on a Knight of Ludd bearing the handweave and wooden sigil of a knight-captain. \"Blessings of Ludd be upon you,\" $heOrShe says, looking you over with obvious suspicion. $HeOrShe nonetheless maintains a civil tone.\r\n\r\n\"How may I serve, $playerBrotherOrSister?\"",
+   "ctx": "data/campaign/rules.csv gaRRChurchGreeting [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"Ah, you're from the Academy. Or not quite- they hired you, is that right?\" $HeOrShe gives you just a glance, \"It is.\"\r\n\r\n\"First, I would like to assure you that the individual on whose behalf you are petitioning the Knights has been treated well, though considering their crimes, has been confined to a guest dormitory and had technological privileges... limited.\"\r\n\r\nThe Knight flips a page in some kind of real-paper notebook, reading. \"I see here that this academician was caught with a number of... devices, 'research equipment', they say. These devices have been destroyed.\" $HeOrShe looks up to see how you react, then nods to $himOrHerself.",
+   "ctx": "data/campaign/rules.csv gaRRChurchGreeting1 [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"You're here on behalf of the Academy. You, who appear to wish to count yourself among the Faithful.\" $HeOrShe does not look impressed. \"You walk a treacherous Path, $playerBrotherOrSister.\"\r\n\r\n$HisOrHer eyes turn down toward some kind of real-paper notebook, \"Accept now my assurance you that the individual on whose behalf you are petitioning the Knights has been treated well. Though considering their crimes, has been confined to a guest dormitory and had technological privileges... limited.\"\r\n\r\nThe Knight flips a page, eyes scanning the text. \"I see here that this academician was caught with a number of devices, 'research equipment', they claim. These devices have been destroyed.\" $HeOrShe looks up to see how you react, then nods to $himOrHerself.",
+   "ctx": "data/campaign/rules.csv gaRRChurchGreeting1faithful [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"We understand the need for stable relations between our respective institutions,\" $heOrShe says, \"and the mother Church has emphasized this point very precisely to our order. Excubitor Orbis Oak has agreed to waive the usual procedures in place of a generous donation to the Church.\"\r\n\r\n\"I trust you have brought the Academy's silver?\" $HeOrShe gives just the hint of a wry smile.",
+   "ctx": "data/campaign/rules.csv gaRRChurchGreeting2 [text]"
+  },
+  {
+   "i": 9,
+   "en": "The $post nods. \"You may transfer the credits to the port exchanger. Just tell them the sum is to be delivered to the Knights of Ludd.\"\r\n\r\nYou nod, and motion for your logistics officer to take care of the transaction.\r\n\r\n\"Which leaves us with your wayward academician,\" $heOrShe sighs. \"We shall have them escorted to the outsiders' concourse immediately for your pick-up.\"",
+   "ctx": "data/campaign/rules.csv gaRRChurchAccept1 [text]"
+  },
+  {
+   "i": 10,
+   "en": "The Knight claps $hisOrHer notebook shut. \"-Which concludes our business,\" $heOrShe says, and pauses as if considering $hisOrHer words. \r\n\r\n\"I will pray for you, captain. And please, prevail upon the Academy to be more... considerate. Providence guide you.\"",
+   "ctx": "data/campaign/rules.csv gaRRChurchAccept2 [text]"
+  },
+  {
+   "i": 11,
+   "en": "You dispatch a shuttle to pick up the released academician. Once on-board, they appear in good health and once away from the brooding Knights of Ludd, complain bitterly about lost data- \"Those fanatics smashed my new TriPad. Simply barbaric! And it can't be my imagination, but I suspect that they hardly bathe down there.\"\r\n\r\nYou nod politely and motion for your security chief to escort the academician to their quarters so you can avoid them on the long trip back to the Galatia Academy.",
+   "ctx": "data/campaign/rules.csv gaRRChurchAccept3 [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"$BrotherOrSister,\" you begin, a touch of the cadence of a concourse-preacher you once heard coming to you as if from nowhere, \"I feel like you don't fully approve of what is happening here.\"\r\n\r\nBefore the Knight can object to you prying into business not your own, you raise a hand to gently stop $himOrHer. You explain that you understand that it is not your place to ask why they are in this position, but as a fellow member of the faith, you empathize with the moral struggle of having to answer to both the institution and one's own God-given conscience.\r\n\r\nYou speak softly, building rapport with Knight $personLastName, who is nodding now. Truly, you explain, it is tragic that tawdry worldly affairs tarnish the beautiful spiritual journey mapped out by the prophet Ludd - but such is the fallen world.",
+   "ctx": "data/campaign/rules.csv gaRRChurchBluff [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"That's just the thing, $playerFirstName. I- that is, we- anyone, really, is caught between higher ideals, the transcendent glory that drives us to rise above all of-\" a violent hand motion \"-this! ... And the spiritual compromise required to exercise even a measure of power in this world. With the office comes power to do some good, I realize, but.\" $HeOrShe sighs deeply, looking off to the side.\r\n\r\n\"But with that good also comes evil, and each time this... I feel it eat away at my soul, just a bite. But after years and years, who have I become? When it is my day to join the stars, will I be the $manOrWoman who once was filled with the light of Creation, who was so inspired to swear to serve as a Knight of Ludd?\"\r\n\r\n\"Or will I hold an accounting-book filled with my own cowardly compromises at the end? Heavy enough to weigh down my soul.\" $HisOrHer face hardens as $heOrShe comes to some decision.",
+   "ctx": "data/campaign/rules.csv gaRRChurchBluff1 [text]"
+  },
+  {
+   "i": 14,
+   "en": "With a sweep of the arm, the knight throws the paper notebooks from $hisOrHer desk. You wince at this treatment of a genuinely hand-crafted object. \"Hear this, captain: I won't allow myself to sink into slow spiritual death by these whispering wormwood corruptions. Was not Ludd a martyr!?\"\r\n\r\nKnight $personLastName looks directly at you, with fire in $hisOrHer eyes. \r\n\r\n\"Take this researcher. Tell them of when Ludd freed the prisoners, tell them of mercy, and of how the sacred can be found even in those who seem most lost.\" $HeOrShe stands, and jabs a key on a battered console that was spared $hisOrHer burst of wrath.\r\n\r\n\"Blessings of Ludd be upon you, $playerName. Now I have work to do.\" The comms shut off.",
+   "ctx": "data/campaign/rules.csv gaRRChurchBluff2 [text]"
+  },
+  {
+   "i": 15,
+   "en": "You are left unsure of how you feel about inspiring this newfound conviction by way of your admittedly modest deception. Your logistics officer clears their throat and motions to the main display- a passenger request pickup has been received from a small shuttle bay. Your wayward researcher.\r\n\r\nA shuttle is dispatched, returning with the flustered academician. All that remains is to return them to the Galatia Academy.",
+   "ctx": "data/campaign/rules.csv gaRRChurchBluff3 [text]"
+  },
+  {
+   "i": 16,
+   "en": "The comms signal struggles to establish through the ill-maintained local network. It takes seconds for the patchy decryption artifacts to spasmodically resolve into the face of the pirate you were instructed to contact.\r\n\r\nYou perform a perfunctory greeting, and the pirate smiles without warmth. \"Ah, you're here for the Academy's lost child. We shall both be pleased to see the last of one another,\" $heOrShe rolls $hisOrHer eyes, \"-it's the questions! So many questions.\"",
+   "ctx": "data/campaign/rules.csv gaRRPirateGreeting [text]"
+  },
+  {
+   "i": 17,
+   "en": "The pirate claps $hisOrHer hands and looks back to you with all the eagerness of a lamprey. \"You have my money, yes? $gaRR_costHigh credits, to my comms ID, and you can have your big wet scientist back.\"",
+   "ctx": "data/campaign/rules.csv GARRPirateMainOptions [text]"
+  },
+  {
+   "i": 18,
+   "en": "You haggle, argue, and stall by quibbling over payment and delivery details. While speaking, you give the ready-signal via your datapad to your tactical officer. They have already been briefed for an extraction operation. \r\n\r\nRegardless of the particular crimes of your contact, there are likely to be serious reputation consequences with the local authorities for starting a firefight within this polity.",
+   "ctx": "data/campaign/rules.csv gaRRPiratePreRaid [text]"
+  },
+  {
+   "i": 19,
+   "en": "A thud and a bang carry through the pirate's commline as the image goes fuzzy for a moment. $HeOrShe looks back at you, eyes wide with panic and anger, \"You conniving clone of-\"\r\n\r\nThe comms go dark. You switch the display to the tactical feed from your marines just as they report success.",
+   "ctx": "data/campaign/rules.csv gaRRPirateRaidFinishedPirate [text]"
+  },
+  {
+   "i": 20,
+   "en": "The pirates' fingers slither over a datapad as $heOrShe confirms the credits transfer.\r\n\r\n\"Very, very good,\" $heOrShe says without looking up, \"You'll find your friend in the box.\"\r\n\r\nThe comms snap off.\r\n\r\nYour logistics officer reports a pickup ping from a seemingly abandoned loading bay. You fear the worst as you dispatch a small shuttle to make the pickup, but you do indeed find a very unhappy academician of the Galatia Academy sealed in a crate with a small life-support unit. Given food, rest, and a shower, they'll be fine.",
+   "ctx": "data/campaign/rules.csv gaRRPirateAccept1 [text]"
+  },
+  {
+   "i": 21,
+   "en": "The pirate $personLastName reels back a half-step, looking hurt. \"That wasn't- captain, captain. Are you new to this? That must be it.\" The pirate produces a long, wheezing sigh.\r\n\r\n\"I can see you're just going to make trouble over this. It isn't my job to educate you in how the world works out here, and if this is how you act, you're going to have a,\" $heOrShe looks you over, and sneers, \"-a long, painful education.\"\r\n\r\n\"So. I give up. Let it be $gaRR_costNormal credits then, I don't care. Take this screeching egg-head away, I beg you.\"",
+   "ctx": "data/campaign/rules.csv gaRRPirateConfront [text]"
+  },
+  {
+   "i": 22,
+   "en": "The pirate's eyes go wide. $HeOrShe quickly glances to someone off-screen and gives a little shake of the head, then returns $hisOrHer attention back to you.\r\n\r\n\"Rude. Just rude. You would threaten me with this? Here?\" the pirate stomps back and forth, \"You don't know who I know. I know pirate-bosses that will chew you up into little pieces. You have no idea who I work for.\"\r\n\r\n\"$gaRR_costVeryLow credits. If you can't pay that much, then I might as well throw myself out the airlock now. At least I'll go in one piece. My bosses wouldn't be so kind.\"",
+   "ctx": "data/campaign/rules.csv gaRRPirateThreaten [text]"
+  }
+ ]
+}

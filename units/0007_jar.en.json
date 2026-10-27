@@ -1,0 +1,1256 @@
+{
+ "chunk": 7,
+ "cat": "jar",
+ "items": [
+  {
+   "i": 1,
+   "en": "Items",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/OutpostListPanel.class"
+  },
+  {
+   "i": 2,
+   "en": "Location",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/OutpostListPanel.class"
+  },
+  {
+   "i": 3,
+   "en": "Location, relative to your fleet's current position. Mouse over for distance/travel time/fuel costs.\n\nSorts by distance to your current location.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/OutpostListPanel.class"
+  },
+  {
+   "i": 4,
+   "en": "Management bonus",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/OutpostListPanel.class"
+  },
+  {
+   "i": 5,
+   "en": "Mismanagement penalty",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/OutpostListPanel.class"
+  },
+  {
+   "i": 6,
+   "en": "Name",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/OutpostListPanel.class"
+  },
+  {
+   "i": 7,
+   "en": "Net income",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/OutpostListPanel.class"
+  },
+  {
+   "i": 8,
+   "en": "Net monthly income or expenses.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/OutpostListPanel.class"
+  },
+  {
+   "i": 9,
+   "en": "No colonies or in-use rented storage",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/OutpostListPanel.class"
+  },
+  {
+   "i": 10,
+   "en": "Planetary/local conditions. Does not include conditions added by human activity.\n\nSorts by number of conditions.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/OutpostListPanel.class"
+  },
+  {
+   "i": 11,
+   "en": "Size",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/OutpostListPanel.class"
+  },
+  {
+   "i": 12,
+   "en": "St.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/OutpostListPanel.class"
+  },
+  {
+   "i": 13,
+   "en": "Total administrators:",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/OutpostListPanel.class"
+  },
+  {
+   "i": 14,
+   "en": "Waystations under personal control:",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/OutpostListPanel.class"
+  },
+  {
+   "i": 15,
+   "en": "Cost to produce a hull of this ship type. The hull will not have any weapons or fighter LPCs mounted.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/ShipBlueprintBrowser$1.class"
+  },
+  {
+   "i": 16,
+   "en": "Production cost. Does not include outfitting the ship with weapons and fighters.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/ShipBlueprintBrowser$1.class"
+  },
+  {
+   "i": 17,
+   "en": "Production cost. Includes outfitting the ship with weapons and fighters.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/ShipBlueprintBrowser$1.class"
+  },
+  {
+   "i": 18,
+   "en": "The cost of weapons and fighters installed on the ship will be deducted once it's produced and does not count against the monthly production capacity.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/ShipBlueprintBrowser$1.class"
+  },
+  {
+   "i": 19,
+   "en": "All sizes",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/ShipBlueprintBrowser.class"
+  },
+  {
+   "i": 20,
+   "en": "Capitals",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/ShipBlueprintBrowser.class"
+  },
+  {
+   "i": 21,
+   "en": "Civilian",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/ShipBlueprintBrowser.class"
+  },
+  {
+   "i": 22,
+   "en": "Cruisers",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/ShipBlueprintBrowser.class"
+  },
+  {
+   "i": 23,
+   "en": "Destroyers",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/ShipBlueprintBrowser.class"
+  },
+  {
+   "i": 24,
+   "en": "Frigates",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/ShipBlueprintBrowser.class"
+  },
+  {
+   "i": 25,
+   "en": "Hull name. Mouse over the icon for a detailed tooltip with its stats.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/ShipBlueprintBrowser.class"
+  },
+  {
+   "i": 26,
+   "en": "Hull size.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/ShipBlueprintBrowser.class"
+  },
+  {
+   "i": 27,
+   "en": "No matching ship hull blueprints",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/ShipBlueprintBrowser.class"
+  },
+  {
+   "i": 28,
+   "en": "Phase ships",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/ShipBlueprintBrowser.class"
+  },
+  {
+   "i": 29,
+   "en": "Prioriziting a ship will make it more likely to be used in your faction's fleets.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/ShipBlueprintBrowser.class"
+  },
+  {
+   "i": 30,
+   "en": "Ship hull blueprint",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/ShipBlueprintBrowser.class"
+  },
+  {
+   "i": 31,
+   "en": "Ship type - warship, carrier, phase ship, or civilian.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/ShipBlueprintBrowser.class"
+  },
+  {
+   "i": 32,
+   "en": "ship blueprints",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/ShipBlueprintBrowser.class"
+  },
+  {
+   "i": 33,
+   "en": "Ballistic",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/WeaponBlueprintBrowser.class"
+  },
+  {
+   "i": 34,
+   "en": "Energy",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/WeaponBlueprintBrowser.class"
+  },
+  {
+   "i": 35,
+   "en": "Large",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/WeaponBlueprintBrowser.class"
+  },
+  {
+   "i": 36,
+   "en": "Medium",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/WeaponBlueprintBrowser.class"
+  },
+  {
+   "i": 37,
+   "en": "Missile",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/WeaponBlueprintBrowser.class"
+  },
+  {
+   "i": 38,
+   "en": "No matching weapon blueprints",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/WeaponBlueprintBrowser.class"
+  },
+  {
+   "i": 39,
+   "en": "Prioriziting a weapon will make it more likely to be used by your faction's fleets.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/WeaponBlueprintBrowser.class"
+  },
+  {
+   "i": 40,
+   "en": "Small",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/WeaponBlueprintBrowser.class"
+  },
+  {
+   "i": 41,
+   "en": "The originator of the design (such as a corporation or a faction), or \"Common\" for designs found in use throughout the Sector.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/WeaponBlueprintBrowser.class"
+  },
+  {
+   "i": 42,
+   "en": "Weapon blueprint",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/WeaponBlueprintBrowser.class"
+  },
+  {
+   "i": 43,
+   "en": "Weapon name. Mouse over the icon for a detailed tooltip with its stats.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/WeaponBlueprintBrowser.class"
+  },
+  {
+   "i": 44,
+   "en": "Weapon size.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/WeaponBlueprintBrowser.class"
+  },
+  {
+   "i": 45,
+   "en": "Weapon type - ballistic, energy, or missile.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/WeaponBlueprintBrowser.class"
+  },
+  {
+   "i": 46,
+   "en": "weapon blueprints",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/WeaponBlueprintBrowser.class"
+  },
+  {
+   "i": 47,
+   "en": "No colonies",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/int.class"
+  },
+  {
+   "i": 48,
+   "en": "Select gathering point",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/int.class"
+  },
+  {
+   "i": 49,
+   "en": "Common",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/oOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.class"
+  },
+  {
+   "i": 50,
+   "en": " (size ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/ooOO.class"
+  },
+  {
+   "i": 51,
+   "en": " (civilian)",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/while.class"
+  },
+  {
+   "i": 52,
+   "en": " class",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/while.class"
+  },
+  {
+   "i": 53,
+   "en": "-class",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/while.class"
+  },
+  {
+   "i": 54,
+   "en": "Capital",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/while.class"
+  },
+  {
+   "i": 55,
+   "en": "Carrier",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/while.class"
+  },
+  {
+   "i": 56,
+   "en": "Cruiser",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/while.class"
+  },
+  {
+   "i": 57,
+   "en": "Destroyer",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/while.class"
+  },
+  {
+   "i": 58,
+   "en": "Frigate",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/while.class"
+  },
+  {
+   "i": 59,
+   "en": "Phase",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/while.class"
+  },
+  {
+   "i": 60,
+   "en": "Warship",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/while.class"
+  },
+  {
+   "i": 61,
+   "en": "A food shortage on Asharu in the Corvus star system has caused widespread starvation. Food prices have gone up, and there is talk of a relief fleet being organized in a nearby star system.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/CommMessage.class"
+  },
+  {
+   "i": 62,
+   "en": "Bulletin",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/CommMessage.class"
+  },
+  {
+   "i": 63,
+   "en": "Emergency Bulletin",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/CommMessage.class"
+  },
+  {
+   "i": 64,
+   "en": "Excess organics inventory on New Maxios station",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/CommMessage.class"
+  },
+  {
+   "i": 65,
+   "en": "Food shortage on Asharu",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/CommMessage.class"
+  },
+  {
+   "i": 66,
+   "en": "Food shortage on Sindria",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/CommMessage.class"
+  },
+  {
+   "i": 67,
+   "en": "Hegemony Broadcast Service",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/CommMessage.class"
+  },
+  {
+   "i": 68,
+   "en": "Increased pirate activity",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/CommMessage.class"
+  },
+  {
+   "i": 69,
+   "en": "Independent News Network",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/CommMessage.class"
+  },
+  {
+   "i": 70,
+   "en": "Industrial equipment shortage on Cruor",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/CommMessage.class"
+  },
+  {
+   "i": 71,
+   "en": "News",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/CommMessage.class"
+  },
+  {
+   "i": 72,
+   "en": "News Report",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/CommMessage.class"
+  },
+  {
+   "i": 73,
+   "en": "Log",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/D.class"
+  },
+  {
+   "i": 74,
+   "en": "No messages matching selected criteria",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/D.class"
+  },
+  {
+   "i": 75,
+   "en": "Prices",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/D.class"
+  },
+  {
+   "i": 76,
+   "en": "Received",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/D.class"
+  },
+  {
+   "i": 77,
+   "en": " star system)",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/E.class"
+  },
+  {
+   "i": 78,
+   "en": "From: ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/E.class"
+  },
+  {
+   "i": 79,
+   "en": "No message selected",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/E.class"
+  },
+  {
+   "i": 80,
+   "en": "Factions",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/F.class"
+  },
+  {
+   "i": 81,
+   "en": "Intel",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/F.class"
+  },
+  {
+   "i": 82,
+   "en": "Planets",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/F.class"
+  },
+  {
+   "i": 83,
+   "en": " days ago",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/L.class"
+  },
+  {
+   "i": 84,
+   "en": "1 month ago",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/L.class"
+  },
+  {
+   "i": 85,
+   "en": "1 week ago",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/L.class"
+  },
+  {
+   "i": 86,
+   "en": "2 months ago",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/L.class"
+  },
+  {
+   "i": 87,
+   "en": "2 weeks ago",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/L.class"
+  },
+  {
+   "i": 88,
+   "en": "3 months ago",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/L.class"
+  },
+  {
+   "i": 89,
+   "en": "3 weeks ago",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/L.class"
+  },
+  {
+   "i": 90,
+   "en": "Just received",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/L.class"
+  },
+  {
+   "i": 91,
+   "en": "Over 3 months ago",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/L.class"
+  },
+  {
+   "i": 92,
+   "en": "Today",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/L.class"
+  },
+  {
+   "i": 93,
+   "en": "Cycle",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/O0oO.class"
+  },
+  {
+   "i": 94,
+   "en": "Message categories",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/O0oO.class"
+  },
+  {
+   "i": 95,
+   "en": "Month",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/O0oO.class"
+  },
+  {
+   "i": 96,
+   "en": "Only last message/event/system",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/O0oO.class"
+  },
+  {
+   "i": 97,
+   "en": "Show finished events/missions",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/O0oO.class"
+  },
+  {
+   "i": 98,
+   "en": "Show messages and events for the last...",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/O0oO.class"
+  },
+  {
+   "i": 99,
+   "en": "Week",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/O0oO.class"
+  },
+  {
+   "i": 100,
+   "en": "Date:",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/oo0O.class"
+  },
+  {
+   "i": 101,
+   "en": "Delivered by:",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/oo0O.class"
+  },
+  {
+   "i": 102,
+   "en": "Location:",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/oo0O.class"
+  },
+  {
+   "i": 103,
+   "en": "Time received:",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/oo0O.class"
+  },
+  {
+   "i": 104,
+   "en": "Time sent:",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/oo0O.class"
+  },
+  {
+   "i": 105,
+   "en": "Type:",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/oo0O.class"
+  },
+  {
+   "i": 106,
+   "en": "    - %s base reward per frigate",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/v2/D.class"
+  },
+  {
+   "i": 107,
+   "en": "    - %s days ago",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/v2/D.class"
+  },
+  {
+   "i": 108,
+   "en": "    - %s days once accepted",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/v2/D.class"
+  },
+  {
+   "i": 109,
+   "en": "    - %s days remaining",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/v2/D.class"
+  },
+  {
+   "i": 110,
+   "en": "    - %s reward",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/v2/D.class"
+  },
+  {
+   "i": 111,
+   "en": "    - %s reward, %s days remaining",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/v2/D.class"
+  },
+  {
+   "i": 112,
+   "en": "    - No effect on pirate activity",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/v2/D.class"
+  },
+  {
+   "i": 113,
+   "en": "    - No effect on ship quality",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/v2/D.class"
+  },
+  {
+   "i": 114,
+   "en": "    - No effect on stability",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/v2/D.class"
+  },
+  {
+   "i": 115,
+   "en": "    - Offered by ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/v2/D.class"
+  },
+  {
+   "i": 116,
+   "en": "    - Scan derelict to complete mission",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/v2/D.class"
+  },
+  {
+   "i": 117,
+   "en": "Abandoning or not completing the mission after accepting it will result in a reputation penalty.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/v2/D.class"
+  },
+  {
+   "i": 118,
+   "en": "Analyze Derelict - Archibald's Star",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/v2/D.class"
+  },
+  {
+   "i": 119,
+   "en": "Are you sure you want to abandon this mission?",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/v2/D.class"
+  },
+  {
+   "i": 120,
+   "en": "Are you sure?",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/v2/D.class"
+  },
+  {
+   "i": 121,
+   "en": "Derelict Survey Ship Discovered",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/v2/D.class"
+  },
+  {
+   "i": 122,
+   "en": "Personal Bounty - Lara Ingvald",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/v2/D.class"
+  },
+  {
+   "i": 123,
+   "en": "Report your findings to a Hegemony officer",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/v2/D.class"
+  },
+  {
+   "i": 124,
+   "en": "Sector Decay - Minimal",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/v2/D.class"
+  },
+  {
+   "i": 125,
+   "en": "Something is Rotten in the Den",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/v2/D.class"
+  },
+  {
+   "i": 126,
+   "en": "Speak with Kanta",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/v2/D.class"
+  },
+  {
+   "i": 127,
+   "en": "System Bounty - Corvus",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/v2/D.class"
+  },
+  {
+   "i": 128,
+   "en": "No items matching all selected tags",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/v2/EventsPanel.class"
+  },
+  {
+   "i": 129,
+   "en": "Create",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/v2/OOoO.class"
+  },
+  {
+   "i": 130,
+   "en": "Create intel map marker",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/v2/OOoO.class"
+  },
+  {
+   "i": 131,
+   "en": "Description",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/v2/OOoO.class"
+  },
+  {
+   "i": 132,
+   "en": "Include entity description in intel item",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/v2/OOoO.class"
+  },
+  {
+   "i": 133,
+   "en": "Location: ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/v2/OOoO.class"
+  },
+  {
+   "i": 134,
+   "en": "Log Entry: ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/v2/OOoO.class"
+  },
+  {
+   "i": 135,
+   "en": "Marker name, required",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/v2/OOoO.class"
+  },
+  {
+   "i": 136,
+   "en": "Open after creating",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/v2/OOoO.class"
+  },
+  {
+   "i": 137,
+   "en": "Open the intel screen with the newly created log entry selected after dismissing this dialog.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/v2/OOoO.class"
+  },
+  {
+   "i": 138,
+   "en": "Optional description, can be left blank",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/v2/OOoO.class"
+  },
+  {
+   "i": 139,
+   "en": "Save",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/v2/OOoO.class"
+  },
+  {
+   "i": 140,
+   "en": "Title",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/v2/OOoO.class"
+  },
+  {
+   "i": 141,
+   "en": "This intel is always tagged \"important\".",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/v2/super$1.class"
+  },
+  {
+   "i": 142,
+   "en": "Toggle whether this intel is tagged \"important\". [%s]",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/v2/super$1.class"
+  },
+  {
+   "i": 143,
+   "en": "New!",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/v2/super.class"
+  },
+  {
+   "i": 144,
+   "en": "via ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/comms/while.class"
+  },
+  {
+   "i": 145,
+   "en": "\tBuying at: ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/econ/CommodityOnMarket.class"
+  },
+  {
+   "i": 146,
+   "en": "\tSelling for: ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/econ/CommodityOnMarket.class"
+  },
+  {
+   "i": 147,
+   "en": "\tStockpile: ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/econ/CommodityOnMarket.class"
+  },
+  {
+   "i": 148,
+   "en": " credits per unit\n",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/econ/CommodityOnMarket.class"
+  },
+  {
+   "i": 149,
+   "en": "Recent trade/events",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/econ/CommodityOnMarket.class"
+  },
+  {
+   "i": 150,
+   "en": "Base value",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/econ/Market.class"
+  },
+  {
+   "i": 151,
+   "en": "Market: <b>",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/econ/Market.class"
+  },
+  {
+   "i": 152,
+   "en": "at",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/econ/Market.class"
+  },
+  {
+   "i": 153,
+   "en": "on",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/econ/Market.class"
+  },
+  {
+   "i": 154,
+   "en": " volume",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/econ/reach/CommodityMarketData.class"
+  },
+  {
+   "i": 155,
+   "en": " volume (in-faction)",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/econ/reach/CommodityMarketData.class"
+  },
+  {
+   "i": 156,
+   "en": "Adjusting market share",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/econ/reach/CommodityMarketData.class"
+  },
+  {
+   "i": 157,
+   "en": "Desired ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/econ/reach/CommodityMarketData.class"
+  },
+  {
+   "i": 158,
+   "en": "Global shortage (max production source has ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/econ/reach/CommodityMarketData.class"
+  },
+  {
+   "i": 159,
+   "en": "Hostilities with other factions",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/econ/reach/CommodityMarketData.class"
+  },
+  {
+   "i": 160,
+   "en": "In-faction shortage (max in-faction production source has ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/econ/reach/CommodityMarketData.class"
+  },
+  {
+   "i": 161,
+   "en": "Insufficient accessibility",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/econ/reach/CommodityMarketData.class"
+  },
+  {
+   "i": 162,
+   "en": "Isolation from other colonies",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/econ/reach/CommodityMarketData.class"
+  },
+  {
+   "i": 163,
+   "en": "Local production",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/econ/reach/CommodityMarketData.class"
+  },
+  {
+   "i": 164,
+   "en": "Proximity to other colonies",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/econ/reach/CommodityMarketData.class"
+  },
+  {
+   "i": 165,
+   "en": "import",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/econ/reach/CommodityMarketData.class"
+  },
+  {
+   "i": 166,
+   "en": "smuggling",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/econ/reach/CommodityMarketData.class"
+  },
+  {
+   "i": 167,
+   "en": "Engaged in battle",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/fleet/Battle.class"
+  },
+  {
+   "i": 168,
+   "en": "Fleet ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/fleet/Battle.class"
+  },
+  {
+   "i": 169,
+   "en": "Not enough crew to keep all ships combat-ready",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/fleet/CampaignFleet.class"
+  },
+  {
+   "i": 170,
+   "en": "Out of supplies",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/fleet/CampaignFleet.class"
+  },
+  {
+   "i": 171,
+   "en": "Over carrying capacity or max number of ships",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/fleet/CampaignFleet.class"
+  },
+  {
+   "i": 172,
+   "en": "Patrol",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/fleet/CampaignFleet.class"
+  },
+  {
+   "i": 173,
+   "en": "Tactistar",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/fleet/CampaignFleet.class"
+  },
+  {
+   "i": 174,
+   "en": "Unable to continue ongoing repairs",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/fleet/CampaignFleet.class"
+  },
+  {
+   "i": 175,
+   "en": "Drive field stabilization",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/fleet/FleetData.class"
+  },
+  {
+   "i": 176,
+   "en": " capacity and is using an extra %s supplies per day",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/fleet/NoFuelDriftScript.class"
+  },
+  {
+   "i": 177,
+   "en": " ships and is using an extra %s supplies per day",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/fleet/NoFuelDriftScript.class"
+  },
+  {
+   "i": 178,
+   "en": "Your fleet has more than ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/fleet/NoFuelDriftScript.class"
+  },
+  {
+   "i": 179,
+   "en": "Your fleet is out of fuel and begins to drift towards the nearest gravity well",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/fleet/NoFuelDriftScript.class"
+  },
+  {
+   "i": 180,
+   "en": "Your fleet is over ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/fleet/NoFuelDriftScript.class"
+  },
+  {
+   "i": 181,
+   "en": "crew",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/fleet/NoFuelDriftScript.class"
+  },
+  {
+   "i": 182,
+   "en": "fuel",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/fleet/NoFuelDriftScript.class"
+  },
+  {
+   "i": 183,
+   "en": " - repairs completed",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/fleet/RepairTracker.class"
+  },
+  {
+   "i": 184,
+   "en": " ships)",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/fleet/RepairTracker.class"
+  },
+  {
+   "i": 185,
+   "en": "Lack of supplies for maintenance",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/fleet/RepairTracker.class"
+  },
+  {
+   "i": 186,
+   "en": "Repairs completed (",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/fleet/RepairTracker.class"
+  },
+  {
+   "i": 187,
+   "en": "Free look off",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/int.class"
+  },
+  {
+   "i": 188,
+   "en": "Free look on",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/int.class"
+  },
+  {
+   "i": 189,
+   "en": "Allocated JVM RAM: ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ooOO.class"
+  },
+  {
+   "i": 190,
+   "en": "Consider restarting Starsector, and/or increasing your RAM allocation by editing the starsector.sh file",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ooOO.class"
+  },
+  {
+   "i": 191,
+   "en": "Consider restarting Starsector, and/or increasing your RAM allocation by editing the vmparams file",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ooOO.class"
+  },
+  {
+   "i": 192,
+   "en": "Free JVM RAM: ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ooOO.class"
+  },
+  {
+   "i": 193,
+   "en": "Free system RAM: ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ooOO.class"
+  },
+  {
+   "i": 194,
+   "en": "JVM stack size: ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ooOO.class"
+  },
+  {
+   "i": 195,
+   "en": "Maximum allocable JVM RAM: ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ooOO.class"
+  },
+  {
+   "i": 196,
+   "en": "Total pagefile: ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ooOO.class"
+  },
+  {
+   "i": 197,
+   "en": "Total system RAM: ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ooOO.class"
+  },
+  {
+   "i": 198,
+   "en": "Warning: JVM RAM not allocated to maximum at start, this is not recommended as it may result in game instability!",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ooOO.class"
+  },
+  {
+   "i": 199,
+   "en": "Warning: Low system RAM remaining, may result in poor performance due to possible pagefile usage",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ooOO.class"
+  },
+  {
+   "i": 200,
+   "en": "Warning: Maximum JVM RAM allocation exceeds half of system RAM, this is not recommended as it may result in game instability and poor system performance!",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ooOO.class"
+  },
+  {
+   "i": 201,
+   "en": "Warning: low RAM remaining, may result in game instability!",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/ooOO.class"
+  },
+  {
+   "i": 202,
+   "en": "Autosave creates a new save slot and can be turned off from the settings menu.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/save/B.class"
+  },
+  {
+   "i": 203,
+   "en": "Loading...",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/save/B.class"
+  },
+  {
+   "i": 204,
+   "en": "new save slot",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/save/B.class"
+  },
+  {
+   "i": 205,
+   "en": "turned off",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/save/B.class"
+  },
+  {
+   "i": 206,
+   "en": "Stabilizing economy...",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/save/CampaignGameManager$2.class"
+  },
+  {
+   "i": 207,
+   "en": "\nSee starsector.log for details.\n\nIt's possible that the save game is from an incompatible version, or was created with mods that are now disabled.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/save/CampaignGameManager.class"
+  },
+  {
+   "i": 208,
+   "en": "Autosaving...",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/save/CampaignGameManager.class"
+  },
+  {
+   "i": 209,
+   "en": "Error loading",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/save/CampaignGameManager.class"
+  },
+  {
+   "i": 210,
+   "en": "Error saving game",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/save/CampaignGameManager.class"
+  },
+  {
+   "i": 211,
+   "en": "Error saving game. See starsector.log for details.\n\nError message: [",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/save/CampaignGameManager.class"
+  },
+  {
+   "i": 212,
+   "en": "File deletion failed. Your current save may be corrupted.\n\nPlease try saving to an empty slot using the \"Save As\" option from the campaign menu - this should create a valid save file.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/save/CampaignGameManager.class"
+  },
+  {
+   "i": 213,
+   "en": "File rename failed. Your current save may be corrupted.\n\nPlease try saving to an empty slot using the \"Save As\" option from the campaign menu - this should create a valid save file.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/save/CampaignGameManager.class"
+  },
+  {
+   "i": 214,
+   "en": "Finished loading",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/save/CampaignGameManager.class"
+  },
+  {
+   "i": 215,
+   "en": "Finished saving",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/save/CampaignGameManager.class"
+  },
+  {
+   "i": 216,
+   "en": "Finished!",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/save/CampaignGameManager.class"
+  },
+  {
+   "i": 217,
+   "en": "Game loaded",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/save/CampaignGameManager.class"
+  },
+  {
+   "i": 218,
+   "en": "Game saved",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/save/CampaignGameManager.class"
+  },
+  {
+   "i": 219,
+   "en": "Generating sector...",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/save/CampaignGameManager.class"
+  },
+  {
+   "i": 220,
+   "en": "Initializing...",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/save/CampaignGameManager.class"
+  },
+  {
+   "i": 221,
+   "en": "Loading ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/save/CampaignGameManager.class"
+  },
+  {
+   "i": 222,
+   "en": "Loading stage 10",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/save/CampaignGameManager.class"
+  },
+  {
+   "i": 223,
+   "en": "Loading stage 10 (exception)",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/save/CampaignGameManager.class"
+  },
+  {
+   "i": 224,
+   "en": "Loading stage 11",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/save/CampaignGameManager.class"
+  },
+  {
+   "i": 225,
+   "en": "Loading stage 11 (exception)",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/save/CampaignGameManager.class"
+  },
+  {
+   "i": 226,
+   "en": "Loading stage 12",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/save/CampaignGameManager.class"
+  },
+  {
+   "i": 227,
+   "en": "Loading stage 12 (exception)",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/save/CampaignGameManager.class"
+  },
+  {
+   "i": 228,
+   "en": "Loading stage 13",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/save/CampaignGameManager.class"
+  },
+  {
+   "i": 229,
+   "en": "Loading stage 13 (exception)",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/save/CampaignGameManager.class"
+  },
+  {
+   "i": 230,
+   "en": "Loading stage 14",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/save/CampaignGameManager.class"
+  },
+  {
+   "i": 231,
+   "en": "Loading stage 14 (exception)",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/save/CampaignGameManager.class"
+  },
+  {
+   "i": 232,
+   "en": "Loading stage 15",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/save/CampaignGameManager.class"
+  },
+  {
+   "i": 233,
+   "en": "Loading stage 15 (exception)",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/save/CampaignGameManager.class"
+  },
+  {
+   "i": 234,
+   "en": "Loading stage 16",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/save/CampaignGameManager.class"
+  },
+  {
+   "i": 235,
+   "en": "Loading stage 16 (exception)",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/save/CampaignGameManager.class"
+  },
+  {
+   "i": 236,
+   "en": "Loading stage 17",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/save/CampaignGameManager.class"
+  },
+  {
+   "i": 237,
+   "en": "Loading stage 18",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/save/CampaignGameManager.class"
+  },
+  {
+   "i": 238,
+   "en": "Loading stage 19",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/save/CampaignGameManager.class"
+  },
+  {
+   "i": 239,
+   "en": "Loading stage 2",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/save/CampaignGameManager.class"
+  },
+  {
+   "i": 240,
+   "en": "Loading stage 20",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/save/CampaignGameManager.class"
+  },
+  {
+   "i": 241,
+   "en": "Loading stage 21",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/save/CampaignGameManager.class"
+  },
+  {
+   "i": 242,
+   "en": "Loading stage 22",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/save/CampaignGameManager.class"
+  },
+  {
+   "i": 243,
+   "en": "Loading stage 23",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/save/CampaignGameManager.class"
+  },
+  {
+   "i": 244,
+   "en": "Loading stage 24",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/save/CampaignGameManager.class"
+  },
+  {
+   "i": 245,
+   "en": "Loading stage 25",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/save/CampaignGameManager.class"
+  },
+  {
+   "i": 246,
+   "en": "Loading stage 26",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/save/CampaignGameManager.class"
+  },
+  {
+   "i": 247,
+   "en": "Loading stage 27",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/save/CampaignGameManager.class"
+  },
+  {
+   "i": 248,
+   "en": "Loading stage 28",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/save/CampaignGameManager.class"
+  },
+  {
+   "i": 249,
+   "en": "Loading stage 29",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/save/CampaignGameManager.class"
+  },
+  {
+   "i": 250,
+   "en": "Loading stage 3",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/save/CampaignGameManager.class"
+  }
+ ]
+}

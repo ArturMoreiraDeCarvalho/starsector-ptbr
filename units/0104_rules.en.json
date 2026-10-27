@@ -1,0 +1,236 @@
+{
+ "chunk": 104,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"Then you may rest certain that you have come to the right place,\" the curate says warmly.",
+   "ctx": "data/campaign/rules.csv lppHookCurateStartPilgrimage [text]"
+  },
+  {
+   "i": 2,
+   "en": "The curate nods. \"A fair rebuke. It is simply that you do not look like a pilgrim to me. I should not be so rigid of mind.\"",
+   "ctx": "data/campaign/rules.csv lppHookCurateHowKnow [text]"
+  },
+  {
+   "i": 3,
+   "en": "The curate nods. \"Each person finds expression of spirit in their own way. That is the beauty of the gift of consciousness. Or,\" $heOrShe adds with a wink, \"Its evolution, as you may prefer.\"",
+   "ctx": "data/campaign/rules.csv lppHookCurateAgnosticOut [text]"
+  },
+  {
+   "i": 4,
+   "en": "$HeOrShe clears $hisOrHer throat, then gives a practiced speech: \"Taken together, these shrines form the Pilgrim's Path. It is not merely a linear path through space. Though of course,\" $heOrShe takes a patient tone, \"In secular use the name has been given to the major shipping lanes between Church and Hegemony-controlled volumes.\" \r\n\r\nThe curate continues, \"The Pilgrim's Path is a spiritual journey unique to each individual as they explore and discover their faith through our shared teachings, the holy Word gifted to us by the Creator who touched the prophet Ludd. The faithful are encouraged to make a pilgrimage at least once in their life, if they are able.\"",
+   "ctx": "data/campaign/rules.csv lppHookCurateInfoDump [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"Gilead, Jangala, Hesperus... a handful,\" $heOrShe says with a pause, eyes searching. \"Some have been lost over the years; Opis of course. And others sanctified anew. Here of course; Beholder Station orbiting Kumari Aru, though militant elements frequent the volume. And Volturn, though the present authorities are fickle about access.\"\r\n\r\n\"There... was, or possibly is, a shrine on Killa. It is a dangerous place however, to say nothing of the system's infestation of pirates.\"",
+   "ctx": "data/campaign/rules.csv lppHookCurateHowManyA [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"Gilead, Jangala, Hesperus... a handful,\" $heOrShe says with a pause, eyes searching. \"Some have been lost over the years; Opis of course. And others sanctified anew. There is Beholder Station orbiting Kumari Aru, though militant elements frequent there. And Volturn, though the present authorities are fickle about access.\"\r\n\r\n\"There... was, or possibly is, a shrine on Killa. It is a dangerous place however, to say nothing of the system's infestation of pirates.\"",
+   "ctx": "data/campaign/rules.csv lppHookCurateHowManyB [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Ye... es,\" the curate says, eyeing you skeptically.\r\n\r\n\"I'm sure,\" $heOrShe continues charitably, \"that charging a nominal fare for fuel, air, and foodstuff would not be wholly out of line. The faithful would not expect you to beggar yourself to provide safe transport.\"",
+   "ctx": "data/campaign/rules.csv lppHookCurateCredits [text]"
+  },
+  {
+   "i": 8,
+   "en": "The curate smiles at your words. \"Yes, to do so would be a praiseworthy service.\"",
+   "ctx": "data/campaign/rules.csv lppHookCurateCharity [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"Might you indeed,\" the curate says with a small smile. \"Even to a secular visitor they represent wonders both beautiful and terrible of human and natural aspects of Creation.\"\r\n\r\n\"Some unbelievers, I am told, have inadvertently found their faith while walking the Pilgrim's Path.\" $HeOrShe shrugs coyly, \"Providence works in ways most mysterious.\"",
+   "ctx": "data/campaign/rules.csv lppHookCurateVisit [text]"
+  },
+  {
+   "i": 10,
+   "en": "The curate lets a broad smile appear. \"Then let me be first to welcome you on your first step on the Pilgrim's Path. You will experience wonders both beautiful and terrible, great and small, of human and natural aspects of Creation.\"\r\n\r\n\"Some unbelievers, I am told, have inadvertently found their faith while walking the Pilgrim's Path.\" $HeOrShe shrugs, \"Providence works in ways mysterious to us.\"",
+   "ctx": "data/campaign/rules.csv lppHookCuratePilgrimage [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"To those ends, if indeed this is your intended venture, I should provide you with coordinates of all the known shrines of the Pilgrim's Path. Though... some shrines have been lost. Opis, of course, is no more. There was, or possibly is, a shrine on Killa. It is possessed of many dangers, I hear, even beyond that system's infestation of pirates. Nonetheless, ah-\"",
+   "ctx": "data/campaign/rules.csv lppHookCurateCredits2 [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"Before you go, captain, I beg you indulge me. I would 'upload' to you the coordinates for all of the known shrines of the Pilgrim's Path. Perhaps you will follow this fascination?\"\r\n\r\n$HeOrShe fumbles with a battered off-brand datapad, clearly uncomfortable with its use.",
+   "ctx": "data/campaign/rules.csv lppHookCurateFascinating [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"Here, captain, let me 'upload' to you the coordinates for all of the known shrines of the Pilgrim's Path.\"\r\n\r\n$HeOrShe fumbles with a battered off-brand datapad, clearly uncomfortable with its use.",
+   "ctx": "data/campaign/rules.csv lppHookCurateShrineCoordinates1 [text]"
+  },
+  {
+   "i": 14,
+   "en": "After a moment, you point out the correct sequence of commands for transferring the nav data.",
+   "ctx": "data/campaign/rules.csv lppHookCurateUpload [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"My thanks,\" $heOrShe says humbly.",
+   "ctx": "data/campaign/rules.csv lppHookCurateUpload2 [text]"
+  },
+  {
+   "i": 16,
+   "en": "$PersonPost $personName nods in acknowledgement as you take the first step on whatever path you might follow.",
+   "ctx": "data/campaign/rules.csv lppHookCurateSeeyaAgnostic [text]"
+  },
+  {
+   "i": 17,
+   "en": "$PersonPost $personName motions a sign of blessing as you take your first step on this Pilgrim's Path.",
+   "ctx": "data/campaign/rules.csv lppHookCurateSeeyaFaithful [text]"
+  },
+  {
+   "i": 18,
+   "en": "$PersonPost $personName gives you a strange look as you walk away, as if $heOrShe knows not what path you might take.",
+   "ctx": "data/campaign/rules.csv lppHookCurateSeeyaCynical [text]"
+  },
+  {
+   "i": 19,
+   "en": "$PersonPost $personName gives you a strange look as you walk away, as if $heOrShe has concern for the path you might take.",
+   "ctx": "data/campaign/rules.csv lppHookCurateSeeyaPather [text]"
+  },
+  {
+   "i": 20,
+   "en": "The curate freezes, suddenly wary. \"Ah.\"\r\n\r\n$HeOrShe lets a breath out. \"Now there's a name I have not heard in a very long time.\"\r\n\r\nBefore you can speak, the curate continues \"It's nothing untoward. I do tend to this shrine and my transient flock, but I am not a hermit. Of course I have heard of Cotton. And met him on one occasion. I made my report to the Knights long ago and that was the end of it.\"\r\n\r\n\"I hesitate to ask, but must: why do you inquire so?\"",
+   "ctx": "data/campaign/rules.csv lppHookCurateCottonAsk [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"And were you to find him?\"",
+   "ctx": "data/campaign/rules.csv lppHookCurateCottonLooking [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"Well. Whatever your intentions, I would counsel you to walk a path far from 'Brother' Cotton,\" the curate says flatly.\r\n\r\nThe curate brushes off $hisOrHer robes. \"If it pleases you,\" $heOrShe does not meet your eyes, \"I shall attend to the other pilgrims now.\"",
+   "ctx": "data/campaign/rules.csv lppHookCurateCottonWontSay [text]"
+  },
+  {
+   "i": 23,
+   "en": "The curate looks tired, but considers this response. \r\n\r\n\"Would he tell you anything you did not already believe?\" $HeOrShe sits down on a bench with a sigh. \"You need not answer that. And I would prefer you did not.\"\r\n\r\n\"People come to this shrine seeking answers. I have found that most who come here already have the answers they seek; truly what they seek is permission to accept that which they already know.\"",
+   "ctx": "data/campaign/rules.csv lppHookCurateCottonTalk [text]"
+  },
+  {
+   "i": 24,
+   "en": "The curate stands, and brushes off $hisOrHer robe. \"If it pleases you,\" the curate does not meet your eyes, \"I shall attend to the other pilgrims now.\"",
+   "ctx": "data/campaign/rules.csv lppHookCurateCottonTalk2 [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"I would counsel you against that path,\" the curate says flatly.\r\n\r\nThe curate brushes off $hisOrHer robes. \"If it pleases you,\" $heOrShe does not meet your eyes, \"I shall attend to the other pilgrims now.\"",
+   "ctx": "data/campaign/rules.csv lppHookCurateCottonJoin [text]"
+  },
+  {
+   "i": 26,
+   "en": "The curate sighs, rubbing $hisOrHer eyes as if a sharp headache had just come upon $himOrHer, then speaks.\r\n \r\n\"I could not say if you would find the finality you seek on that particular path.\"",
+   "ctx": "data/campaign/rules.csv lppHookCurateCottonKill [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"He's not the first of his kind, nor will he be the last, nor is he the only,\" $heOrShe says with a pained voice.\r\n\r\n\"If it pleases you,\" the curate does not meet your eyes, \"I shall attend to the other pilgrims now.\"",
+   "ctx": "data/campaign/rules.csv lppHookCurateCottonKill2a [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"As you say,\" the curate concedes without meeting your eyes.\r\n\r\n\"If it pleases you,\" the curate does not meet your eyes, \"I shall attend to the other pilgrims now.\"",
+   "ctx": "data/campaign/rules.csv lppHookCurateCottonKill2b [text]"
+  },
+  {
+   "i": 29,
+   "en": "The flight in your return shuttle is uneventful, yet you are keenly aware of the thin envelope of technology protecting you from the ravages of vacuum and radiation.",
+   "ctx": "data/campaign/rules.csv lppHookShrineLeave [text]"
+  },
+  {
+   "i": 30,
+   "en": "The attendant receives your request with only the subtlest disapproval. To your surprise, a subcurate approaches to escort you to the shrine's viewing chamber.\r\n\r\nA vast, dim gallery opens upon a hundred-meter diamond plate window allowing a full view of the glory of Kumari Aru. Here, pilgrims quietly contemplate the miracle of Creation, taking in the sublime and terrible beauty of the gas giant looming below. Storm systems the size of a standard terrestrial world churn with slow majesty, inner-lit with green-violet sheet lightning, teeming with xenolife.\r\n\r\nDoes something incomprehensible look up from the lee of a dark cloudbank at the bright point in that alien sky?",
+   "ctx": "data/campaign/rules.csv lppBeholderShrineVisit [text]"
+  },
+  {
+   "i": 31,
+   "en": "You exit the sanctum, still pondering what you saw and, perhaps, felt.",
+   "ctx": "data/campaign/rules.csv lppBeholderShrineLeave1 [text]"
+  },
+  {
+   "i": 32,
+   "en": "You've made a contribution recently so providing another at this time might be viewed as an unseemly act of pride.",
+   "ctx": "data/campaign/rules.csv lppBeholderShrineOfferingAlreadyMade [text]"
+  },
+  {
+   "i": 33,
+   "en": "You inquire with the subcurate about the possibility of contributing to the maintenance of this holy site. With a warm smile, the subcurate explains that an offering of 10 units of supplies would do much to assist the Church in its observance of sacred duties.",
+   "ctx": "data/campaign/rules.csv lppBeholderShrineOfferingEnough [text]"
+  },
+  {
+   "i": 34,
+   "en": "You inquire with the subcurate about the possibility of contributing to the maintenance of this holy site. An offering of 10 units of supplies would do much to assist the Church in its observance of sacred duties. Unfortunately you do not have enough supplies on hand.\r\n\r\nThe subcurate gives a sad smile. \"I see that your intent is good. Perhaps you would like to partake of the charity meal we offer each shift?\"",
+   "ctx": "data/campaign/rules.csv lppBeholderShrineOfferingNotEnough [text]"
+  },
+  {
+   "i": 35,
+   "en": "$player.luddicAttitudeFaithful",
+   "ctx": "data/campaign/rules.csv lppGileadMissionEndDevA2 [text]"
+  },
+  {
+   "i": 36,
+   "en": "$player.luddicAttitudeAgnostic",
+   "ctx": "data/campaign/rules.csv lppGileadMissionEndDevB2 [text]"
+  },
+  {
+   "i": 37,
+   "en": "$player.luddicAttitudeAtheistic",
+   "ctx": "data/campaign/rules.csv lppGileadMissionEndDevC2 [text]"
+  },
+  {
+   "i": 38,
+   "en": "$player.luddicAttitudeCynical",
+   "ctx": "data/campaign/rules.csv lppGileadMissionEndDevD2 [text]"
+  },
+  {
+   "i": 39,
+   "en": "$player.luddicAttitudePather",
+   "ctx": "data/campaign/rules.csv lppGileadMissionEndDevE2 [text]"
+  },
+  {
+   "i": 40,
+   "en": "It is well known that pilgrims of the Luddic faith travel here from across the Persean Sector to visit the holy shrine of Gilead. The shrine is said to be built where Ludd kissed the ground after first stepping onto the surface of the planet.",
+   "ctx": "data/campaign/rules.csv lppGileadShrineVisitFirstTime [text]"
+  },
+  {
+   "i": 41,
+   "en": "Deorbiting to the surface of Gilead is strictly overseen by the Knights of Ludd; your shuttle must queue behind a flotilla of lumbering transports and haulers filled with approved industrial goods.\r\n\r\nThis provides you with time to contemplate the face of Gilead; its continents, once fringed only by alien algae-equivalents, were seeded with Earth-life by a far-roving sporeship of the second wave of human expansion. The Eridani-Utopia Terraforming megacorp followed and its vast machines stabilized the climate and ecological processes. Ludd came then, pulled down the machines, and the believers who followed maintained the world as a garden-wilderness of astounding richness. Truly, it is a gem of the Persean Sector.\r\n\r\nYour shuttle receives a ping from traffic control: permission to descend.",
+   "ctx": "data/campaign/rules.csv lppGileadShrineVisitStart [text]"
+  },
+  {
+   "i": 42,
+   "en": "The landing bay, one of a score or so allocated to outsiders, is packed with parties of Luddic pilgrims dressed in traditional handweave led by robed attendants.",
+   "ctx": "data/campaign/rules.csv lppGileadShrineStartHub [text]"
+  },
+  {
+   "i": 43,
+   "en": "Deorbiting to the surface of Gilead is overseen by the Knights of Ludd, and their traffic control is characteristically strict. Your shuttle queues behind a flotilla of lumbering transports and haulers.\r\n\r\nThe face of Gilead is filled with green continents, seeded with Earth-life by sporeship and climate-stabilized by Eridani Utopia's vast terraforming machines. Then Ludd came and the Faithful turned the world into a garden-wilderness of astounding richness; it is a gem of the Persean Sector.\r\n\r\nYour shuttle receives a ping from traffic control: permission to descend.",
+   "ctx": "data/campaign/rules.csv lppGileadShrineVisitAgain [text]"
+  },
+  {
+   "i": 44,
+   "en": "Deorbiting to the surface of Gilead is overseen by the Knights of Ludd, and their traffic control is typically strict. Your shuttle queues behind a flotilla of lumbering transports and hauler",
+   "ctx": "data/campaign/rules.csv lppGileadShrineVisitAgainEnd [text]"
+  },
+  {
+   "i": 45,
+   "en": "The face of Gilead is painted with fragile green continents and glittering blue oceans. Ludd came here and the original Faithful, undiluted by the Church hierarchy, liberated the world from Eridani Utopia's terraforming machines. In place of a sprawl of private fortress-plantations and crowded resort playgrounds for the rich, a garden-wilderness of astounding richness bloomed. It is a gem of the Persean Sector.",
+   "ctx": "data/campaign/rules.csv lppGileadShrineVisitAgainEndB1 [text]"
+  },
+  {
+   "i": 46,
+   "en": "The face of Gilead is painted with fragile green continents and glittering blue oceans. Ludd came here, saw Eridani Utopia's vast terraforming machines and designs for profit, and led the first Faithfulto liberate the world. In place of sprawling private fortress-plantations and crowded resort compounds, a garden-wilderness of astounding richness was cultivated. It is a gem of the Persean Sector.",
+   "ctx": "data/campaign/rules.csv lppGileadShrineVisitAgainEndB2 [text]"
+  }
+ ]
+}

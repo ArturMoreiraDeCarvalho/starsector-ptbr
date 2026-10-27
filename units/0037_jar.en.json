@@ -1,0 +1,946 @@
+{
+ "chunk": 37,
+ "cat": "jar",
+ "items": [
+  {
+   "i": 1,
+   "en": "Any ships that aren't recovered will be scuttled, and any fitted weapons and fighter LPCs will be retrieved.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/ShipRecoverySpecial.class"
+  },
+  {
+   "i": 2,
+   "en": "Close-range scans of the debris field reveal ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/ShipRecoverySpecial.class"
+  },
+  {
+   "i": 3,
+   "en": "Closer inspection reveals ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/ShipRecoverySpecial.class"
+  },
+  {
+   "i": 4,
+   "en": "If not recovered, the ship will be scuttled, and any fitted weapons and fighter LPCs will be retrieved.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/ShipRecoverySpecial.class"
+  },
+  {
+   "i": 5,
+   "en": "Recoverable ships",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/ShipRecoverySpecial.class"
+  },
+  {
+   "i": 6,
+   "en": "Salvage crews boarding the wreck discover that many essential systems are undamaged and the ship could be restored to basic functionality.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/ShipRecoverySpecial.class"
+  },
+  {
+   "i": 7,
+   "en": "Salvage crews report ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/ShipRecoverySpecial.class"
+  },
+  {
+   "i": 8,
+   "en": "Some time later, you hear back from your chief engineer, who mumbles about being a miracle worker to someone offscreen before noticing you've picked up the call.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/ShipRecoverySpecial.class"
+  },
+  {
+   "i": 9,
+   "en": "Take a look at the chief engineer's report and make a decision",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/ShipRecoverySpecial.class"
+  },
+  {
+   "i": 10,
+   "en": "The crew chief also reports that the hull has undergone %s, which appear to have survived its present state.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/ShipRecoverySpecial.class"
+  },
+  {
+   "i": 11,
+   "en": "There are also indications that it has some sort of cargo on board.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/ShipRecoverySpecial.class"
+  },
+  {
+   "i": 12,
+   "en": "Your crews find some securely stowed cargo during the recovery operation.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/ShipRecoverySpecial.class"
+  },
+  {
+   "i": 13,
+   "en": "a ship",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/ShipRecoverySpecial.class"
+  },
+  {
+   "i": 14,
+   "en": "floating near",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/ShipRecoverySpecial.class"
+  },
+  {
+   "i": 15,
+   "en": "several ships",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/ShipRecoverySpecial.class"
+  },
+  {
+   "i": 16,
+   "en": "special modifications",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/ShipRecoverySpecial.class"
+  },
+  {
+   "i": 17,
+   "en": "Attempt to open the pod",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/SleeperPodsSpecial.class"
+  },
+  {
+   "i": 18,
+   "en": "Attempt to open the pods",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/SleeperPodsSpecial.class"
+  },
+  {
+   "i": 19,
+   "en": "One by one, the pods begin to open as the thawing process completes. Most of the occupants come through alive, if somewhat dazed.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/SleeperPodsSpecial.class"
+  },
+  {
+   "i": 20,
+   "en": "One by one, the pods begin to open as the thawing process completes. Unfortunately, it's been too long, or something went wrong along the way, and there are no survivors - at least, not with any brain activity.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/SleeperPodsSpecial.class"
+  },
+  {
+   "i": 21,
+   "en": "The thawing process completes, and the pod opens. It contains an experienced officer, who joins you out of gratitude for being rescued.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/SleeperPodsSpecial.class"
+  },
+  {
+   "i": 22,
+   "en": "The thawing process completes, and the pod opens. It contains an experienced planetary administrator, who joins you out of gratitude for being rescued.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/SleeperPodsSpecial.class"
+  },
+  {
+   "i": 23,
+   "en": "While making a preliminary assessment, your salvage crews find a single occupied sleeper pod still running on backup power.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/SleeperPodsSpecial.class"
+  },
+  {
+   "i": 24,
+   "en": "While making a preliminary assessment, your salvage crews find some occupied mil-grade sleeper pods still running on backup power.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/SleeperPodsSpecial.class"
+  },
+  {
+   "i": 25,
+   "en": "While making a preliminary assessment, your salvage crews find some occupied sleeper pods still running on backup power.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/SleeperPodsSpecial.class"
+  },
+  {
+   "i": 26,
+   "en": " The world is notable for ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/SurveyDataSpecial.class"
+  },
+  {
+   "i": 27,
+   "en": " located ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/SurveyDataSpecial.class"
+  },
+  {
+   "i": 28,
+   "en": "The $shortName's memory banks are partially accessible, and contain full survey data for ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/SurveyDataSpecial.class"
+  },
+  {
+   "i": 29,
+   "en": "While exploring $aOrAn $nameInText, your crews found partially accessible memory banks that contain full survey data for ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/SurveyDataSpecial.class"
+  },
+  {
+   "i": 30,
+   "en": "Your salvage crews find a functional memory bank in the debris. It contains full survey data for ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/SurveyDataSpecial.class"
+  },
+  {
+   "i": 31,
+   "en": "being habitable.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/SurveyDataSpecial.class"
+  },
+  {
+   "i": 32,
+   "en": "having ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/SurveyDataSpecial.class"
+  },
+  {
+   "i": 33,
+   "en": "located ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/SurveyDataSpecial.class"
+  },
+  {
+   "i": 34,
+   "en": "Your salvage crews find a partially-accessible data core that contains hyperspace topography data. The data is well out of date, but that makes it particularly valuable in extrapolating current trends.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/TopographicDataSpecial.class"
+  },
+  {
+   "i": 35,
+   "en": "As your salvage crews begin their work, a transmitter hidden somewhere planetside sends out an encrypted, broadwave signal. Whatever destination it's meant for, it has to be nearby.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/TransmitterTrapSpecial.class"
+  },
+  {
+   "i": 36,
+   "en": "As your salvage crews begin their work, a transmitter inside the $shortName sends out an encrypted, broadwave signal. Whatever destination it's meant for, it has to be nearby.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/TransmitterTrapSpecial.class"
+  },
+  {
+   "i": 37,
+   "en": "Your salvage crews discover a transmitter set to send a signal when tripped by an alarm system, but it doesn't appear to be functional. Closer examination indicates it was probably set many cycles ago.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/TransmitterTrapSpecial.class"
+  },
+  {
+   "i": 38,
+   "en": "Your salvage crews discover a transmitter set to send a signal when tripped by an alarm system. The alarm went off as intended, but the transmitter was fried by a power surge before it could do its job.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/rulecmd/salvage/special/TransmitterTrapSpecial.class"
+  },
+  {
+   "i": 39,
+   "en": " (profit per unit: ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/shared/PlayerTradeProfitabilityData.class"
+  },
+  {
+   "i": 40,
+   "en": " xp for selling ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/shared/PlayerTradeProfitabilityData.class"
+  },
+  {
+   "i": 41,
+   "en": "Player accrued ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/shared/PlayerTradeProfitabilityData.class"
+  },
+  {
+   "i": 42,
+   "en": "Wormhole Terminus ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/shared/WormholeManager.class"
+  },
+  {
+   "i": 43,
+   "en": "wormhole terminus ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/shared/WormholeManager.class"
+  },
+  {
+   "i": 44,
+   "en": "-50% kinetic damage taken by armor",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/AdvancedCountermeasures$Level1.class"
+  },
+  {
+   "i": 45,
+   "en": "-25% high-explosive damage taken by shields",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/AdvancedCountermeasures$Level2.class"
+  },
+  {
+   "i": 46,
+   "en": "+50% damage to fighters",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/AdvancedCountermeasures$Level3A.class"
+  },
+  {
+   "i": 47,
+   "en": "+50% damage to missiles",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/AdvancedCountermeasures$Level3B.class"
+  },
+  {
+   "i": 48,
+   "en": "    - Choose enough skills in lower tiers to unlock the next tier\n    - It's possible to skip a tier by taking more skills in lower tiers instead\n    - Reaching the top tier requires 4 skill points, plus 1 more to take one of the top skills\n    - Taking the second top tier skill requires an additional 2 points spent in lower tier skills\n    - Skills that only affect the piloted ship can be made \"elite\" at the cost of a ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/AptitudeDesc$Level0.class"
+  },
+  {
+   "i": 49,
+   "en": " point\n",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/AptitudeDesc$Level0.class"
+  },
+  {
+   "i": 50,
+   "en": "Skills that have been made elite in the past can be re-made elite at no cost\n",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/AptitudeDesc$Level0.class"
+  },
+  {
+   "i": 51,
+   "en": " for a Beta Core, and ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/AutomatedShips$Level0.class"
+  },
+  {
+   "i": 52,
+   "en": " for a Gamma Core. ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/AutomatedShips$Level0.class"
+  },
+  {
+   "i": 53,
+   "en": " for an Alpha Core, ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/AutomatedShips$Level0.class"
+  },
+  {
+   "i": 54,
+   "en": "*The total \"automated ship points\" are equal to the deployment points cost of all automated ships in the fleet, with a multiplier for installed AI cores - ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/AutomatedShips$Level0.class"
+  },
+  {
+   "i": 55,
+   "en": "Due to safety interlocks, ships with AI cores do not contribute to the deployment point distribution.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/AutomatedShips$Level0.class"
+  },
+  {
+   "i": 56,
+   "en": "do not contribute to the deployment point distribution",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/AutomatedShips$Level0.class"
+  },
+  {
+   "i": 57,
+   "en": " skill",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/AutomatedShips$Level1.class"
+  },
+  {
+   "i": 58,
+   "en": "+%s combat readiness (maximum: %s); ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/AutomatedShips$Level1.class"
+  },
+  {
+   "i": 59,
+   "en": "offsets built-in ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/AutomatedShips$Level1.class"
+  },
+  {
+   "i": 60,
+   "en": "partially ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/AutomatedShips$Level1.class"
+  },
+  {
+   "i": 61,
+   "en": "Automated ships can only be captained by AI cores",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/AutomatedShips$Level2.class"
+  },
+  {
+   "i": 62,
+   "en": "Enables the recovery of some automated ships, such as derelict drones",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/AutomatedShips$Level2.class"
+  },
+  {
+   "i": 63,
+   "en": "% damage dealt by ballistic weapons",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BallisticMastery$Level1.class"
+  },
+  {
+   "i": 64,
+   "en": "% ballistic weapon range",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BallisticMastery$Level2.class"
+  },
+  {
+   "i": 65,
+   "en": "% ballistic projectile speed",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BallisticMastery$Level3.class"
+  },
+  {
+   "i": 66,
+   "en": "The total deployment points of all the ships in your fleet.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BaseSkillEffectDescription$1.class"
+  },
+  {
+   "i": 67,
+   "en": "The total deployment points of all the combat ships in your fleet.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BaseSkillEffectDescription$2.class"
+  },
+  {
+   "i": 68,
+   "en": "The total deployment points of all the automated ships in your fleet, with additional points for ships controlled by AI cores.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BaseSkillEffectDescription$3.class"
+  },
+  {
+   "i": 69,
+   "en": "The total deployment points of all the non-civilian phase ships in your fleet.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BaseSkillEffectDescription$4.class"
+  },
+  {
+   "i": 70,
+   "en": "The total deployment points of all the ships in your fleet that have the \"Militarized Subsystems\" hullmod.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BaseSkillEffectDescription$5.class"
+  },
+  {
+   "i": 71,
+   "en": "The total number of fighter bays in your fleet. Both empty and filled fighter bays are counted. Built-in fighter bays can be removed from a ship by installing the \"Converted Fighter Bay\" hullmod.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BaseSkillEffectDescription$6.class"
+  },
+  {
+   "i": 72,
+   "en": "And %s other ships with a smaller contribution.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BaseSkillEffectDescription$7.class"
+  },
+  {
+   "i": 73,
+   "en": "Certain skills will have reduced effects if this value exceeds a skill-specific threshold; see the specific skill for details. Mothballed ships are not counted towards the total.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BaseSkillEffectDescription$7.class"
+  },
+  {
+   "i": 74,
+   "en": "Ships contributing to this value:",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BaseSkillEffectDescription$7.class"
+  },
+  {
+   "i": 75,
+   "en": "Skills using this value:",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BaseSkillEffectDescription$7.class"
+  },
+  {
+   "i": 76,
+   "en": " for fleet",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BaseSkillEffectDescription.class"
+  },
+  {
+   "i": 77,
+   "en": " for ships with Militarized Subsystems for fleet",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BaseSkillEffectDescription.class"
+  },
+  {
+   "i": 78,
+   "en": " for ships with Militarized Subsystems, your fleet's total is %s",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BaseSkillEffectDescription.class"
+  },
+  {
+   "i": 79,
+   "en": ", your fleet's total is %s",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BaseSkillEffectDescription.class"
+  },
+  {
+   "i": 80,
+   "en": "Automated ships",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BaseSkillEffectDescription.class"
+  },
+  {
+   "i": 81,
+   "en": "Combat ship ordnance points",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BaseSkillEffectDescription.class"
+  },
+  {
+   "i": 82,
+   "en": "Combat ships",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BaseSkillEffectDescription.class"
+  },
+  {
+   "i": 83,
+   "en": "Maximum at %s or less fighter bays in fleet",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BaseSkillEffectDescription.class"
+  },
+  {
+   "i": 84,
+   "en": "Maximum at %s or less fighter bays in fleet, your fleet has %s ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BaseSkillEffectDescription.class"
+  },
+  {
+   "i": 85,
+   "en": "Maximum at %s or less total ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BaseSkillEffectDescription.class"
+  },
+  {
+   "i": 86,
+   "en": "Maximum at %s or less total automated ship points* for fleet",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BaseSkillEffectDescription.class"
+  },
+  {
+   "i": 87,
+   "en": "Maximum at %s or less total automated ship points* in fleet",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BaseSkillEffectDescription.class"
+  },
+  {
+   "i": 88,
+   "en": "Maximum at %s or less total automated ship points* in fleet, your fleet has %s ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BaseSkillEffectDescription.class"
+  },
+  {
+   "i": 89,
+   "en": "Maximum at %s or less total automated ship points*, your fleet's total is %s ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BaseSkillEffectDescription.class"
+  },
+  {
+   "i": 90,
+   "en": "Maximum at %s or less total combat phase ship ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BaseSkillEffectDescription.class"
+  },
+  {
+   "i": 91,
+   "en": "Maximum at %s or less total combat phase ship ordnance points in fleet",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BaseSkillEffectDescription.class"
+  },
+  {
+   "i": 92,
+   "en": "Maximum at %s or less total combat phase ship ordnance points in fleet, your fleet has %s ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BaseSkillEffectDescription.class"
+  },
+  {
+   "i": 93,
+   "en": "Maximum at %s or less total combat ship ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BaseSkillEffectDescription.class"
+  },
+  {
+   "i": 94,
+   "en": "Maximum at %s or less total combat ship ordnance points in fleet",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BaseSkillEffectDescription.class"
+  },
+  {
+   "i": 95,
+   "en": "Maximum at %s or less total combat ship ordnance points in fleet, your fleet has %s ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BaseSkillEffectDescription.class"
+  },
+  {
+   "i": 96,
+   "en": "Maximum at %s or less total ordnance points for ships with Militarized Subsystems",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BaseSkillEffectDescription.class"
+  },
+  {
+   "i": 97,
+   "en": "Maximum at %s or less total ordnance points for ships with Militarized Subsystems, your fleet has %s ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BaseSkillEffectDescription.class"
+  },
+  {
+   "i": 98,
+   "en": "Maximum at %s or less total ordnance points in fleet",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BaseSkillEffectDescription.class"
+  },
+  {
+   "i": 99,
+   "en": "Maximum at %s or less total ordnance points in fleet, your fleet has %s ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BaseSkillEffectDescription.class"
+  },
+  {
+   "i": 100,
+   "en": "Militarized ship ordnance points",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BaseSkillEffectDescription.class"
+  },
+  {
+   "i": 101,
+   "en": "Militarized ships",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BaseSkillEffectDescription.class"
+  },
+  {
+   "i": 102,
+   "en": "Phase ship ordnance points",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BaseSkillEffectDescription.class"
+  },
+  {
+   "i": 103,
+   "en": "Total ordnance points",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BaseSkillEffectDescription.class"
+  },
+  {
+   "i": 104,
+   "en": "deployment point cost",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BaseSkillEffectDescription.class"
+  },
+  {
+   "i": 105,
+   "en": "fighter bay",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BaseSkillEffectDescription.class"
+  },
+  {
+   "i": 106,
+   "en": "fighter bays",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BaseSkillEffectDescription.class"
+  },
+  {
+   "i": 107,
+   "en": "*The base maximum number of permanent hullmods you're able to build into a ship is ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BestOfTheBest$Level0.class"
+  },
+  {
+   "i": 108,
+   "en": " more permanent hullmod* into ships",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BestOfTheBest$Level1.class"
+  },
+  {
+   "i": 109,
+   "en": "Able to build ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BestOfTheBest$Level1.class"
+  },
+  {
+   "i": 110,
+   "en": "% of the battle size, even if holding no objectives",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BestOfTheBest$Level2.class"
+  },
+  {
+   "i": 111,
+   "en": "Deployment points bonus from objectives is at least ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BestOfTheBest$Level2.class"
+  },
+  {
+   "i": 112,
+   "en": " (maximum: %s)",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BulkTransport$BaseCapacityModifierEffect.class"
+  },
+  {
+   "i": 113,
+   "en": " in fleet, your fleet has %s base ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BulkTransport$BaseCapacityModifierEffect.class"
+  },
+  {
+   "i": 114,
+   "en": "Maximum at %s or less base ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BulkTransport$BaseCapacityModifierEffect.class"
+  },
+  {
+   "i": 115,
+   "en": "Personnel capacity",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BulkTransport$Level3.class"
+  },
+  {
+   "i": 116,
+   "en": "Increases the burn level of all non-militarized civilian-grade ships by ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BulkTransport$Level4.class"
+  },
+  {
+   "i": 117,
+   "en": "-20% crew lost due to fighter losses in combat",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/CarrierCommand$Level1.class"
+  },
+  {
+   "i": 118,
+   "en": "-20% damage taken",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/CarrierCommand$Level2.class"
+  },
+  {
+   "i": 119,
+   "en": "20% faster fighter replacements",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/CarrierCommand$Level3.class"
+  },
+  {
+   "i": 120,
+   "en": "+%s faster fighter replacement rate (maximum: %s)",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/CarrierGroup$Level1.class"
+  },
+  {
+   "i": 121,
+   "en": "+%s ship top speed (maximum: %s)",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/CarrierGroup$Level1.class"
+  },
+  {
+   "i": 122,
+   "en": "Effect increased by %s for ships with officers, including flagship",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/CarrierGroup$Level1.class"
+  },
+  {
+   "i": 123,
+   "en": " and to personally govern ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/ColonyManagement$Level0.class"
+  },
+  {
+   "i": 124,
+   "en": " exceeded at the cost of a stability penalty.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/ColonyManagement$Level0.class"
+  },
+  {
+   "i": 125,
+   "en": "At a base level, able to manage up to ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/ColonyManagement$Level0.class"
+  },
+  {
+   "i": 126,
+   "en": "The maximum number of colonies governed personally can be",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/ColonyManagement$Level0.class"
+  },
+  {
+   "i": 127,
+   "en": "administrator",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/ColonyManagement$Level0.class"
+  },
+  {
+   "i": 128,
+   "en": "administrators",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/ColonyManagement$Level0.class"
+  },
+  {
+   "i": 129,
+   "en": " additional colony",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/ColonyManagement$Level1.class"
+  },
+  {
+   "i": 130,
+   "en": "Able to personally govern ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/ColonyManagement$Level1.class"
+  },
+  {
+   "i": 131,
+   "en": " additional administrator",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/ColonyManagement$Level2.class"
+  },
+  {
+   "i": 132,
+   "en": "Able to manage ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/ColonyManagement$Level2.class"
+  },
+  {
+   "i": 133,
+   "en": " seconds peak operating time",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/CombatEndurance$Level1.class"
+  },
+  {
+   "i": 134,
+   "en": "% combat readiness degradation rate after peak performance time runs out",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/CombatEndurance$Level2.class"
+  },
+  {
+   "i": 135,
+   "en": "% maximum combat readiness",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/CombatEndurance$Level3.class"
+  },
+  {
+   "i": 136,
+   "en": "Combat Endurance skill",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/CombatEndurance$Level3.class"
+  },
+  {
+   "i": 137,
+   "en": "When below %s hull, repair %s per second; total repair is the higher of %s points or %s of maximum hull",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/CombatEndurance$Level4.class"
+  },
+  {
+   "i": 138,
+   "en": "% cp recovery rate",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/CommRelayScript.class"
+  },
+  {
+   "i": 139,
+   "en": "command network",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/CommRelayScript.class"
+  },
+  {
+   "i": 140,
+   "en": "+3 command points",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/CommandAndControl$Level1A.class"
+  },
+  {
+   "i": 141,
+   "en": "50% faster command point recovery",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/CommandAndControl$Level1B.class"
+  },
+  {
+   "i": 142,
+   "en": "5% maximum bonus from Coordinated Maneuvers",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/CommandAndControl$Level3A.class"
+  },
+  {
+   "i": 143,
+   "en": "5% maximum bonus from Electronic Warfare",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/CommandAndControl$Level3B.class"
+  },
+  {
+   "i": 144,
+   "en": "-%s crew lost due to hull damage in combat (maximum: %s)",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/ContainmentProcedures$Level1.class"
+  },
+  {
+   "i": 145,
+   "en": "The \"Emergency Burn\" ability no longer reduces combat readiness",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/ContainmentProcedures$Level2.class"
+  },
+  {
+   "i": 146,
+   "en": "% fuel salvaged",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/ContainmentProcedures$Level3.class"
+  },
+  {
+   "i": 147,
+   "en": " reduced by %s, or %s units",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/ContainmentProcedures$Level4.class"
+  },
+  {
+   "i": 148,
+   "en": "Reduces fuel consumption by %s or %s units, whichever is lower",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/ContainmentProcedures$Level4.class"
+  },
+  {
+   "i": 149,
+   "en": "Your fleet has a base fuel consumption of %s, which ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/ContainmentProcedures$Level4.class"
+  },
+  {
+   "i": 150,
+   "en": "would be",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/ContainmentProcedures$Level4.class"
+  },
+  {
+   "i": 151,
+   "en": "+%s fuel production",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/ContainmentProcedures$Level5.class"
+  },
+  {
+   "i": 152,
+   "en": "*The total nav rating for the deployed ships of the fleet increases the top speed of all ships in the fleet, up to a maximum of ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/CoordinatedManeuvers$Level0.class"
+  },
+  {
+   "i": 153,
+   "en": ". Does not apply to fighters.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/CoordinatedManeuvers$Level0.class"
+  },
+  {
+   "i": 154,
+   "en": "+%s to nav rating* of fleet for deployed frigates, +%s for destroyers, +%s for larger hulls",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/CoordinatedManeuvers$Level1A.class"
+  },
+  {
+   "i": 155,
+   "en": "+%s command points",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/CoordinatedManeuvers$Level1B.class"
+  },
+  {
+   "i": 156,
+   "en": "+%s to command point recovery rate from deployed frigates, +%s from destroyers",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/CoordinatedManeuvers$Level1C.class"
+  },
+  {
+   "i": 157,
+   "en": "% top speed",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/CoordinatedManeuversScript.class"
+  },
+  {
+   "i": 158,
+   "en": "Coordinated Maneuvers: ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/CoordinatedManeuversScript.class"
+  },
+  {
+   "i": 159,
+   "en": "Nav Buoy",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/CoordinatedManeuversScript.class"
+  },
+  {
+   "i": 160,
+   "en": "+%s maximum combat readiness for combat ships (maximum: %s)",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/CrewTraining$Level1.class"
+  },
+  {
+   "i": 161,
+   "en": "Crew Training skill",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/CrewTraining$Level1.class"
+  },
+  {
+   "i": 162,
+   "en": "+%s seconds peak operating time for combat ships (maximum: %s)",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/CrewTraining$Level2.class"
+  },
+  {
+   "i": 163,
+   "en": "\n*The base maximum number of elite skills per officer is ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/CyberneticAugmentation$Level0.class"
+  },
+  {
+   "i": 164,
+   "en": " to maximum number of elite skills* for officers under your command",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/CyberneticAugmentation$Level1.class"
+  },
+  {
+   "i": 165,
+   "en": "Reduces the weapon range penalty due to superior enemy Electronic Warfare by up to %s percentage points",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/CyberneticAugmentation$Level2.class"
+  },
+  {
+   "i": 166,
+   "en": "all ships with officers, including flagship",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/CyberneticAugmentation$Level2.class"
+  },
+  {
+   "i": 167,
+   "en": "%s damage dealt and %s damage taken (%s for each elite skill you have)",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/CyberneticAugmentation$Level3.class"
+  },
+  {
+   "i": 168,
+   "en": "The damage-dealt bonus is doubled for the flagship",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/CyberneticAugmentation$Level3.class"
+  },
+  {
+   "i": 169,
+   "en": "all ships with officers (but not AI cores), including flagship",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/CyberneticAugmentation$Level3.class"
+  },
+  {
+   "i": 170,
+   "en": "If lost in combat, ship is almost always recoverable",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/DamageControl$Level1.class"
+  },
+  {
+   "i": 171,
+   "en": "% crew lost due to hull damage in combat",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/DamageControl$Level2.class"
+  },
+  {
+   "i": 172,
+   "en": "% faster in-combat weapon and engine repairs",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/DamageControl$Level3.class"
+  },
+  {
+   "i": 173,
+   "en": "% hull damage taken",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/DamageControl$Level4.class"
+  },
+  {
+   "i": 174,
+   "en": "% of hull and armor damage taken repaired after combat ends, at no cost",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/DamageControl$Level5.class"
+  },
+  {
+   "i": 175,
+   "en": ", single-hit hull damage above %s points has the portion above %s reduced by %s",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/DamageControl$Level6.class"
+  },
+  {
+   "i": 176,
+   "en": "At most once every ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/DamageControl$Level6.class"
+  },
+  {
+   "i": 177,
+   "en": "% damage dealt to hull",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/DamageControl$Level7.class"
+  },
+  {
+   "i": 178,
+   "en": "Repairs of damaged but functional weapons and engines can continue while they are under fire*",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/DamageControl$Level8.class"
+  },
+  {
+   "i": 179,
+   "en": "\n\n*Normally, a damaged but functional module will not be repaired until 5 seconds have passed without it taking damage.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/DamageControl$Level8Desc.class"
+  },
+  {
+   "i": 180,
+   "en": "-25% flux generated by active shields and phase cloak",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/DefensiveSystems$Level1.class"
+  },
+  {
+   "i": 181,
+   "en": "-20% damage taken by shields",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/DefensiveSystems$Level2A.class"
+  },
+  {
+   "i": 182,
+   "en": "-25% phase cloak cooldown",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/DefensiveSystems$Level2B.class"
+  },
+  {
+   "i": 183,
+   "en": "10% hard flux dissipation while shields are active",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/DefensiveSystems$Level3A.class"
+  },
+  {
+   "i": 184,
+   "en": "Phase cloak time acceleration increased from 3× to 4×",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/DefensiveSystems$Level3B.class"
+  },
+  {
+   "i": 185,
+   "en": " d-mods.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/DerelictContingent$Level0.class"
+  },
+  {
+   "i": 186,
+   "en": "*Maximum effect reached at ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/DerelictContingent$Level0.class"
+  },
+  {
+   "i": 187,
+   "en": "(D) hull deployment cost reduction also applies to maintenance cost",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/DerelictContingent$Level1.class"
+  },
+  {
+   "i": 188,
+   "en": "(D) hull deployment cost reduction also applies to maintenance cost, but maximum CR is reduced by %s per d-mod*",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/DerelictContingent$Level1.class"
+  }
+ ]
+}

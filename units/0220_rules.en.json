@@ -1,0 +1,286 @@
+{
+ "chunk": 220,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"How about yourself, captain?\" He turns the question around with cheerful bluster.\r\n\r\n\"Are you up or down on the Old Man? Not like we get a vote on it, ha-ha.\"",
+   "ctx": "data/campaign/rules.csv TseenKeAskDaudOptD [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"Let's leave the old man alone,\" he says. \"He's got enough problems.\"",
+   "ctx": "data/campaign/rules.csv TseenKeAskDaudOptF [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"Ha... ha.\"\r\n\r\nHis half-hearted chuckle dies into an awkward silence.\r\n\r\n\"Captain, you're not... no,\" he shakes his head. \"You were saying something about the Hegemon?\"",
+   "ctx": "data/campaign/rules.csv TseenKeAskDaudSelA [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"They, uh...\" He glances to the side.\r\n\r\n\"Well, not like that. INTSEC does... I believe track certain queries, communications, and so on to combat, you know, the usual sort of thing. Terrorists, mutiny, treason...\"\r\n\r\nHe trails off with a distant look. Then shakes his head.\r\n\r\n\"They're a bunch of grim sticks, that's a truth for you. But they're not going to bother battering my hatch for making a joke or two. If they did, half the brass and all the hands'd be traitors, ha-ha.\"",
+   "ctx": "data/campaign/rules.csv TseenKeAskDaudSelB [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"Ah, he's my Hegemon!\" He thumps his chest for emphasis.\r\n\r\n\"Old Man Daud came up from the bottom of Chicomoztoc and climbed all the way to the top. Didn't matter what the aristos on Eventide thought, there was a war on, and he went about winning it. Not on his lonesome, of course, but it was him that saved the big Mozzy. Without Mozzy, there's no Hegemony. Without Mozzy, there's no Persean Sector, no future at all. That's not something to shake your head at.\"",
+   "ctx": "data/campaign/rules.csv TseenKeAskDaudSelC [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"Oh, ho- you're a diplomat now, are you? Suit yourself.\"",
+   "ctx": "data/campaign/rules.csv TseenKeAskDaudOpA [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Aye, that's right!\" Caliban thumps his console. \"That's why he's the old man! None of those flighty notions aristos and academicians love dreaming up.\"",
+   "ctx": "data/campaign/rules.csv TseenKeAskDaudOpB [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"Well...\" Caliban rubs his head. \"You're right on that, the Hegemony- we've got the guns, the best minds to aim 'em, and the best hands to fire 'em!\"\r\n\r\n\"And,\" he grins, \"If they're not the best, no matter. We've got more of all of 'em than anyone else in the big Mozzy alone!\"\r\n\r\n\"As for the old man...\" He settles down a little as your subtle criticism of Daud sinks in. \"See, even if we've got more than anyone, he cares about us, right? He won't throw us away. The aristos might be inclined, but we're his people.\"",
+   "ctx": "data/campaign/rules.csv TseenKeAskDaudOpC [text]"
+  },
+  {
+   "i": 9,
+   "en": "He sits back, puffs his cheeks out and blows air. As if to dispense with the heavy implications.\r\n\r\n\"That's above my pay-grade, captain. And I'm thankful for it.\" A grim look crosses his face. \"If Daud asks it, I'll do it. That much I'll say.\"",
+   "ctx": "data/campaign/rules.csv TseenKeAskDaudOpC2 [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"Captain,\" Caliban shakes his head. \"I don't think that's fair to the old man.\"\r\n\r\n\"Now, you're entitled to your opinion on the matter, don't get me wrong. That's part of the Hegemony, we can have our own thoughts and our words- within reasonable limits considering the emergency of course.\"\r\n\r\n\"But Daud? He's given everything and made the best of a bad situation, and,\" he pre-emptively raises a hand to ward off any objections. \"He's done it under pressure.\"",
+   "ctx": "data/campaign/rules.csv TseenKeAskDaudOpD [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"Ha-ha! Could you now? I've heard that said often enough in the mess over one thing or another.\"\r\n\r\n\"Those are easy words when there's a logistics mixup or you're on the short end of command policy,\" Caliban says, taking on a philosophical tone. \"But to be up there and have to make the call that's most right for all the millions? The higher you are, the more someone's always on the short end of your decision.\"",
+   "ctx": "data/campaign/rules.csv TseenKeAskDaudOpE [text]"
+  },
+  {
+   "i": 12,
+   "en": " \"Lot of stress, that. No right decision, sometimes. It makes enemies no matter what you do, sometimes.\" He shakes his head. \"No, I'm best pleased where Command decides I should be. My problems are small and I can set 'em aside after a liter of beer and get a good sleep.\"\r\n\r\n\"Hear me, captain,\" he looks at you more seriously. \"You don't want that.\"",
+   "ctx": "data/campaign/rules.csv TseenKeAskDaudOpE2 [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"Ohhh, well now...\" He rubs his chin. \"He's a bit of a fancy lad, is Admiral Rao. Though not a bad one, not bad.\"\r\n\r\n\"Maybe when it's the old man's time to step aside,\" Caliban speaks with a shrug. \"Rao wouldn't be so bad, maybe.\"",
+   "ctx": "data/campaign/rules.csv TseenKeAskDaudOpF [text]"
+  },
+  {
+   "i": 14,
+   "en": "After a short wait spent watching propaganda blurbs scroll past the crest of the Hegemony navy, the comm-link connects you with the office of Admiral Rao.\r\n\r\n\"So,\" the hero of the Siege of Raesvelg looks you over. \"What's a freelancer doing at this backwater outpost?\"",
+   "ctx": "data/campaign/rules.csv defaultRaoGreeting [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"Hmm,\" he looks you over through the comm-link.\r\n\r\n\"That's nice. Go talk to someone who wants to deal with the bureaucracy to make it happen.\"",
+   "ctx": "data/campaign/rules.csv defaultRaoCommission2 [text]"
+  },
+  {
+   "i": 16,
+   "en": "He blows some air out through his nostrils, barely a laugh.\r\n\r\n\"Trading tired banter with you, it appears.\" He makes a show of checking a secondary display- for the time, perhaps.\r\n\r\n\"I am busy, if you can believe it. Perhaps you had something useful, or at least interesting to say?\"",
+   "ctx": "data/campaign/rules.csv raoWarHero1 [text]"
+  },
+  {
+   "i": 17,
+   "en": "RaoDevOptionHub1",
+   "ctx": "data/campaign/rules.csv RaoDevOptionHubA [text]"
+  },
+  {
+   "i": 18,
+   "en": "RaoDevOptionHub2",
+   "ctx": "data/campaign/rules.csv RaoDevOptionHubB [text]"
+  },
+  {
+   "i": 19,
+   "en": "RaoDevOptionHub3",
+   "ctx": "data/campaign/rules.csv RaoDevOptionHubC [text]"
+  },
+  {
+   "i": 20,
+   "en": "player.gaKAbluffedViaOrcusRao = true\r\ndone (but just for this dialog, it'll end once you close)",
+   "ctx": "data/campaign/rules.csv raoDevOptionHubA1 [text]"
+  },
+  {
+   "i": 21,
+   "en": "$global.sdtuHintedRaoInvolvement = true\r\ndone (but just for this dialog, it'll end once you close)",
+   "ctx": "data/campaign/rules.csv raoDevOptionHubA2 [text]"
+  },
+  {
+   "i": 22,
+   "en": "player.metStandfast set to true 0\r\ndone (but just for this dialog, it'll end once you close it)",
+   "ctx": "data/campaign/rules.csv raoDevOptionHubA4 [text]"
+  },
+  {
+   "i": 23,
+   "en": "player.mostLuddicEthosFaithful= true 0\r\ndone (but just for this dialog, it'll end once you close it)",
+   "ctx": "data/campaign/rules.csv raoDevOptionHubA5 [text]"
+  },
+  {
+   "i": 24,
+   "en": "player.gaveStandfastGuns++",
+   "ctx": "data/campaign/rules.csv raoDevOptionHubA6 [text]"
+  },
+  {
+   "i": 25,
+   "en": "player set to have given Daud the Yaribay contact\r\nalso PC is now good friends w/ Hegemony",
+   "ctx": "data/campaign/rules.csv raoDevOptionHubB1 [text]"
+  },
+  {
+   "i": 26,
+   "en": "player.isLeagueMember = true 0\r\ndone (but just for this dialog, it'll end once you close)",
+   "ctx": "data/campaign/rules.csv raoDevOptionHubB2 [text]"
+  },
+  {
+   "i": 27,
+   "en": "player.payingHouseHannan = true 0\r\ndone (but just for this dialog, it'll end once you close)",
+   "ctx": "data/campaign/rules.csv raoDevOptionHubB3 [text]"
+  },
+  {
+   "i": 28,
+   "en": "DEV set player.bladeSkill = true 0",
+   "ctx": "data/campaign/rules.csv raoDevOptionHubB4 [text]"
+  },
+  {
+   "i": 29,
+   "en": "DEV set player.metNeriene = true 0",
+   "ctx": "data/campaign/rules.csv raoDevOptionHubB5 [text]"
+  },
+  {
+   "i": 30,
+   "en": "DEV set player.soe_wasNiceToNeriene = true 0\r\nDEV unset player.soe_wasRudeToNeriene",
+   "ctx": "data/campaign/rules.csv raoDevOptionHubC1 [text]"
+  },
+  {
+   "i": 31,
+   "en": "DEV set player.soe_wasRudeToNeriene = true 0\r\nDEV unset player.soe_wasNiceToNeriene",
+   "ctx": "data/campaign/rules.csv raoDevOptionHubC2 [text]"
+  },
+  {
+   "i": 32,
+   "en": "DEV unset player.soe_wasRudeToNeriene\r\nDEV unset player.soe_wasNiceToNeriene",
+   "ctx": "data/campaign/rules.csv raoDevOptionHubC3 [text]"
+  },
+  {
+   "i": 33,
+   "en": "DEV set player.soe_lostDuel = true 0 ",
+   "ctx": "data/campaign/rules.csv raoDevOptionHubC4 [text]"
+  },
+  {
+   "i": 34,
+   "en": "DEV set player.soe_wonDuel = true 0",
+   "ctx": "data/campaign/rules.csv raoDevOptionHubC5 [text]"
+  },
+  {
+   "i": 35,
+   "en": "did \r\nunset player.soe_lostDuel\r\nunset player.soe_wonDuel",
+   "ctx": "data/campaign/rules.csv raoDevOptionHubC6 [text]"
+  },
+  {
+   "i": 36,
+   "en": "The link opens with a surprisingly brief wait for an officer of Rao's rank. He appears with the hint of an amused smile.\r\n\r\n\"$PlayerName! I see you've carried out my orders to the letter. Great work,\" he says, seemingly earnest.\r\n\r\n\"Perhaps I should award you a medal for your service?\"",
+   "ctx": "data/campaign/rules.csv raoGreetingFastOne [text]"
+  },
+  {
+   "i": 37,
+   "en": "His eyes glitter frostily.\r\n\r\n\"I'm talking about a liar.\" His finger flicks to point at you.\r\n\r\n\"The one with the gall to open a comm link to my face after I received a most fascinating report from one of our fleet commanders about an encounter during an emergency intercept near Tse Franchise Station.\"",
+   "ctx": "data/campaign/rules.csv raoFastOneA [text]"
+  },
+  {
+   "i": 38,
+   "en": "\"No.\" His amused tone has grown a touch of frost.\r\n\r\nHe looks aside as he speaks. \"I think not. They don't give medals for lying in the Hegemony...\"\r\n\r\nThen he holds a finger to his lips, thoughtfully. \"No, that's not true. Not at all. They don't give medals for lying TO the Hegemony.\"\r\n\r\nHe smiles again, turning back to you.",
+   "ctx": "data/campaign/rules.csv raoFastOneB [text]"
+  },
+  {
+   "i": 39,
+   "en": "He breaks out in a hearty laugh, taking a moment before he rubs his eyes. \r\n\r\n\"Yes, yes, very good.\" Rao lets his hands fall deliberately to his console.\r\n\r\n\"You lied when you encountered the absolute oaf in command of the fleet ordered to intercept you, transporting a hacker wanted by the Hegemony, away from Tse Franchise Station.\"",
+   "ctx": "data/campaign/rules.csv raoFastOneB2a [text]"
+  },
+  {
+   "i": 40,
+   "en": "\"It is, yes,\" he says. \"And the absolute oaf in command who believed your ruse.\"",
+   "ctx": "data/campaign/rules.csv raoFastOneB2b [text]"
+  },
+  {
+   "i": 41,
+   "en": "He waves the thought away, then takes in a deep breath, quiet now, and drums his fingers on his console. Staring at you. Assessing.\r\n\r\n\"Let us speak plainly,\" he says.",
+   "ctx": "data/campaign/rules.csv raoFastOneCd [text]"
+  },
+  {
+   "i": 42,
+   "en": "\"Don't apologize for winning,\" he says. \"It's unbecoming.\"\r\n\r\nRao takes in a deep breath, quiet now, and drums his fingers on his console. Staring at you. Assessing.\r\n\r\n\"Let us speak plainly,\" he says.",
+   "ctx": "data/campaign/rules.csv raoFastOneCe [text]"
+  },
+  {
+   "i": 43,
+   "en": "He snorts at that.\r\n\r\nRao takes a quiet moment then drums his fingers on his console. Staring at you. Assessing.\r\n\r\n\"Let us speak plainly,\" he says.",
+   "ctx": "data/campaign/rules.csv raoFastOneCc [text]"
+  },
+  {
+   "i": 44,
+   "en": "\"I'm glad to hear it, captain,\" he says. \"Now we may speak plainly.\"\r\n\r\n\"From captain to... what have they made me, an $rank? My, it makes you wonder who's in charge, doesn't it.\"",
+   "ctx": "data/campaign/rules.csv raoFastOneCa [text]"
+  },
+  {
+   "i": 45,
+   "en": "\"One should think,\" he says pointedly. \"But never mind- what I mean to say is that you played the ruse well.\"\r\n\r\n\"Better than a puffed-up uniform of the sort Eventide seems to spawn each cycle would. You remind me a bit of myself when I was younger and didn't have to sit at a desk.\"",
+   "ctx": "data/campaign/rules.csv raoFastOneCa2 [text]"
+  },
+  {
+   "i": 46,
+   "en": "Rao laughs, though there's more of an edge...\r\n\r\nYou take a moment to try to form a judgement - if he really thinks this is funny, he can't be too angry, right? Or is he one of those officers that keeps others off guard with calculated shifts in mood? From what you know - mostly holodocs - Rao has a cunning streak and a bit of a mixed reputation among the more respectable segments of the Hegemony.\r\n\r\nRao takes in a deep breath, quiet now, and drums his fingers on his console. Staring at you. Assessing.\r\n\r\n\"Let us speak plainly,\" he says.",
+   "ctx": "data/campaign/rules.csv raoFastOneCb [text]"
+  },
+  {
+   "i": 47,
+   "en": "\"You played it well,\" he says.\r\n\r\n\"Outsmarted a puffed-up uniform of the sort Eventide seems to spawn more of each cycle. You remind me a bit of myself when I was younger and didn't have to sit at a desk.\"\r\n\r\nHe pauses a moment, studying you. \"I had the thought...\"",
+   "ctx": "data/campaign/rules.csv raoFastOneSpeak [text]"
+  },
+  {
+   "i": 48,
+   "en": "\"She's a promising young woman.\" His voice fills with pride. \"She's got the talent, I think.\" ",
+   "ctx": "data/campaign/rules.csv raoMetNeriene2 [text]"
+  },
+  {
+   "i": 49,
+   "en": "He pauses. \r\n\r\n\"I trust you weren't hurt too badly? The night of the ball.\"",
+   "ctx": "data/campaign/rules.csv raoMetNeriene3Lost [text]"
+  },
+  {
+   "i": 50,
+   "en": "\"You made some enemies that night with your display during the ball, I think.\"",
+   "ctx": "data/campaign/rules.csv raoMetNeriene3Won [text]"
+  },
+  {
+   "i": 51,
+   "en": "\"You avoided a bit of trouble that night of the ball, I think. Mostly.\"",
+   "ctx": "data/campaign/rules.csv raoMetNeriene3Left [text]"
+  },
+  {
+   "i": 52,
+   "en": "He raises an eyebrow.\r\n\r\n\"Well. It's a mark on the Rao name that it came to that. Augusta let things get out of hand.\"\r\n\r\nOrcus Rao sighs, and looking distant, says \"I cannot apologize for her, as she's never sought my council in the matter of 'her' house.\"",
+   "ctx": "data/campaign/rules.csv raoNerieneSelLostA [text]"
+  },
+  {
+   "i": 53,
+   "en": "\"I do believe Augusta let things get out of hand, but she never sought my council in the matters of 'her' house. So I can't very well apologize for her- it's a mark on the Rao name.\"",
+   "ctx": "data/campaign/rules.csv raoNerieneSelLostB [text]"
+  },
+  {
+   "i": 54,
+   "en": "A smile appears. \"I am glad to hear it.\"\r\n\r\nThe smile fades. \"But it is a mark on the Rao name that it came to that. Augusta let things get out of hand.\"\r\n\r\nOrcus Rao sighs, and looking distant, says \"I cannot apologize for her, as she's never sought my council in the matter of 'her' house.\"",
+   "ctx": "data/campaign/rules.csv raoNerieneSelLostC [text]"
+  },
+  {
+   "i": 55,
+   "en": "\"That you did,\" he says approvingly. \"Some would say you were foolish, but it was an act of bravery to face a blooding as you did.\"\r\n\r\nHe looks aside, troubled. \"Still, it is a mark on the Rao name that it came to that. Augusta let things get out of hand. I cannot apologize for her, as she's never sought my council in the matter of 'her' house...\"",
+   "ctx": "data/campaign/rules.csv raoNerieneSelLostD [text]"
+  },
+  {
+   "i": 56,
+   "en": "\"Mm. I suppose the fact that it wasn't truly a personal matter is little consolation for the provocation which Augusta allowed in 'our' family home.\"\r\n\r\nOrcus Rao sighs, and looks distant for a moment. \"But I won't apologize for her. She's never sought my council in the matters of 'her' house...\"",
+   "ctx": "data/campaign/rules.csv raoNerieneSelWonA [text]"
+  }
+ ]
+}

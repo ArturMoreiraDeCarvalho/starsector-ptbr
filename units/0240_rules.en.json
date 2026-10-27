@@ -1,0 +1,241 @@
+{
+ "chunk": 240,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "Your quick-thinking bridge crew has provided a fake manifest on your behalf, of course.\r\n\r\nOf course they would have a plausible but misleading pre-generated crew and passenger manifest ready for just such a situation. If you offered it with enough confidence - and very little delay - it might just work.\r\n\r\nYou wait with saintly patience as the Diktat officer has an underling run the fake manifest through the latest Diktat search and verification algorithms.",
+   "ctx": "data/campaign/rules.csv anhDiktatPatrolBluff2 [text]"
+  },
+  {
+   "i": 2,
+   "en": "The old man goes calmly to the shuttle for transfer.\r\n\r\n\"Your service to the Supreme Executor will be noted in the official records,\" the Diktat $personRank says as if $heOrShe is reading a script for $hisOrHer bridge crew. \"Your loyalty to the Great Movement is commended, and the reward for turning in a known terrorist will now be transferred to your accounts.\"\r\n\r\n$PersonRank $personLastName performs a bizarre salute and shouts something about \"final victory\"; your comms officer manages to extract you from the comms-link without further exchange.",
+   "ctx": "data/campaign/rules.csv anhDiktatPatrolMixedEnd [text]"
+  },
+  {
+   "i": 3,
+   "en": "You have the old man and the kid transferred to the Sindrian Diktat flagship. They even want the robot \"for evidence\", so you have that old piece of junk sent as well.\r\n\r\n\"Your service to the Supreme Executor will be noted in the official records,\" $personRank $personLastName says like $heOrShe is reading a script for $hisOrHer bridge crew. \"Your loyalty to the Great Movement is commended, and your reward for turning in a known terrorist and his accomplice will now be transferred.\"\r\n\r\n$HeOrShe performs a bizarre salute and shouts something about \"final victory\"; your comms officer manages to extract you from the comm-link without further engagement.",
+   "ctx": "data/campaign/rules.csv anhDiktatPatrolBothEnd [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"We shall take no prisoners!\" the Diktat officer shouts, \"Those who harbor terrorists are themselves terrorists, and will be treated as-\"\r\n\r\nThe link cuts out. Your comms officer gives you an apologetic look.",
+   "ctx": "data/campaign/rules.csv anhDiktatPatrolHostileEnd [text]"
+  },
+  {
+   "i": 5,
+   "en": "You hear an angry call of \"Run it again!\" that perhaps was not intended to get picked up by comms. It takes a few more minutes. \r\n\r\n\"Very well,\" the Diktat officer says with what sounds like clenched teeth, \"Your manifest has been verified. Technically.\"\r\n\r\nWith a sharp motion, $heOrShe signals to $hisOrHer comms to cut the link.",
+   "ctx": "data/campaign/rules.csv anhDiktatPatrolBluffEnd [text]"
+  },
+  {
+   "i": 6,
+   "en": "And that's the end of it. You start to wonder how things might have gone differently if you'd carried out the job and snuck what was clearly some kind of former military officer and his protege into contact with a faction of the Askonian underground... \r\n\r\nYou call to navigation to lay in a new course.",
+   "ctx": "data/campaign/rules.csv anhDiktatPatrolQuestEnd [text]"
+  },
+  {
+   "i": 7,
+   "en": "You receive a comms transmission from an obviously illicit orbital repeater which provides directions to a dropoff point for the old man, the kid, and their robot. And the promise of anonymous payment.\r\n\r\nAs they walk down the shuttle's ramp, the kid exclaims, \"Wow, a planet made entirely of water!\"",
+   "ctx": "data/campaign/rules.csv anhCheckCompletion [text]"
+  },
+  {
+   "i": 8,
+   "en": "The kid manages not to look disappointed at this revelation.",
+   "ctx": "data/campaign/rules.csv anhCheckCompletion2 [text]"
+  },
+  {
+   "i": 9,
+   "en": "You receive a comms transmission from an obviously illicit orbital repeater which provides directions to a dropoff point for the kid, and their robot. And the promise of payment.\r\n\r\nThe kid walks sullenly down the shuttle's ramp, his loyal robot trundling behind. As he steps onto the rolling deckplates of Volturn, he looks back.\r\n\r\n\"Take care of yourself, I guess,\" he says. \"That's what you're best at, isn't it.\"",
+   "ctx": "data/campaign/rules.csv anhCheckCompletionOnlyKid [text]"
+  },
+  {
+   "i": 10,
+   "en": "He looks like he's going to take the bait, but the robot bleeps at him, defusing his anger.",
+   "ctx": "data/campaign/rules.csv anhCheckCompletionOnlyKidReroute [text]"
+  },
+  {
+   "i": 11,
+   "en": "The kids gives you a look, a mix of sadness and a checked rage that you can tell will risk boiling over for a long time to come.\r\n\r\nHe turns to his robot. \"Com'on, let's go,\" he says.",
+   "ctx": "data/campaign/rules.csv anhCheckCompletionOnlyKid2 [text]"
+  },
+  {
+   "i": 12,
+   "en": "You're unable to safely deliver your passengers to Volturn right now.",
+   "ctx": "data/campaign/rules.csv anhCompletedButNoDocking [text]"
+  },
+  {
+   "i": 13,
+   "en": "The old man smiles and simply says, \"Thank you, my friend,\" then turns up the hood of his robe and leads the strange party into the underworld of Volturn.",
+   "ctx": "data/campaign/rules.csv anhCompleteDelivery [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"Oh, you're one of those? Easy! Just go kill some Sindies,\" with a laugh, $heOrShe mimes shooting a pistol.\r\n\r\n\"Any questions?\"",
+   "ctx": "data/campaign/rules.csv umbraWarbossHelpFight1 [text]"
+  },
+  {
+   "i": 15,
+   "en": "After a short wait and a burst of static the makeshift comms network of Umbra finally relays you through.\r\n\r\n\"Death to Andrada,\" she says as a greeting. \"What do you want?\"",
+   "ctx": "data/campaign/rules.csv ImoinuUmbraGreeting [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"Back again.\" She gives you a look. \"Did you forget something?\"\r\nOR\r\n\"Didn't you just comms?\" She looks annoyed. \"Out with it.\"",
+   "ctx": "data/campaign/rules.csv ImoinuUmbraGreeting2 [text]"
+  },
+  {
+   "i": 17,
+   "en": "After a short wait and a burst of static the makeshift comms network of Umbra finally relays you through.\r\n\r\n\"Death to Andrada,\" she says as a greeting. \"Captain $playerName, it's good to see you.\"",
+   "ctx": "data/campaign/rules.csv ImoinuUmbraGreetingSupplied [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"Back again.\" She gives you a look. \"Can I help you with something?\"\r\nOR\r\n\"Didn't you just comms?\" She raises an eyebrow.\r\n\r\n\"Well, out with it.\"",
+   "ctx": "data/campaign/rules.csv ImoinuUmbraGreetingSupplied2 [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"$playerName the liar.\" She scowls. \"Didn't I tell you to suck vacuum?\"",
+   "ctx": "data/campaign/rules.csv ImoinuUmbraGreetingsLiar [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"The liar returns.\" She sniffs, and somehow looks down at you through the comms.\r\n\r\n\"Back to waste my time.\"",
+   "ctx": "data/campaign/rules.csv ImoinuUmbraGreetingsLiarAgain [text]"
+  },
+  {
+   "i": 21,
+   "en": "After a short wait and a burst of static the makeshift comms network of Umbra finally relays you through.\r\n\r\n\"Death to Andrada,\" she says as a greeting. Her eyes narrow as she takes you in.\r\n\r\n\"Aren't you... you're $playerName!\"\r\n\r\nShe doesn't sound pleased to see you.",
+   "ctx": "data/campaign/rules.csv ImoinuUmbraGreetingSDcom [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"No,\" she says deadpan. \"Not good.\"",
+   "ctx": "data/campaign/rules.csv ImoinuUmbraGreetingSDcomB [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"No,\" she says deadpan. \"I have not.\"",
+   "ctx": "data/campaign/rules.csv ImoinuUmbraGreetingSDcomC [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"You're a bloody-booted minion of the Diktat and I'll have you spaced for your crimes the moment I get the chance.\"\r\n\r\nHer dimissal is backed by the arrogance of a gens-heir.\r\n\r\nAnd is made complete as she slams the comms shut-off.",
+   "ctx": "data/campaign/rules.csv ImoinuKatoSDcomConfront2 [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"What about him?\" She watches you carefully.",
+   "ctx": "data/campaign/rules.csv ImoinuKatoUmbraSayAndrada1 [text]"
+  },
+  {
+   "i": 26,
+   "en": "She frowns, considering your claim.\r\n\r\n\"Could be. We don't think there's been a legitimate holo-cast from him for at least a cycle.\"\r\n\r\nShe shifts the tilt of her head. \"But this raises two questions. One, why should we believe anything that comes from that ghoul Macario's mouth? Two, and this is the more pressing question to me, why in the name of Old Earth are you having personal conversations with Dolos Macario, Andrada's chief torturer and spymaster?\"",
+   "ctx": "data/campaign/rules.csv ImoinuKatoUmbraSayAndrada2 [text]"
+  },
+  {
+   "i": 27,
+   "en": "You barely get half the words out before Imoinu speaks forcefully over you.\r\n\r\n\"I don't care about Macario's lies! Answer my question. How are you talking to him?\"",
+   "ctx": "data/campaign/rules.csv ImoinuKatoUmbraSayAndrada3 [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"A merc.\" Imoinu crosses her arms. \"So you only believe in credits. Good for you.\"\r\n\r\n\"Did Macario hire you to spread his lies for him? Don't bother answering.\"",
+   "ctx": "data/campaign/rules.csv ImoinuUmbraMacarioHubSelA [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"And I suppose you're acting as a double agent to take them down from the inside, somehow.\"\r\n\r\nShe considers you, though from her face it is clear that her opinion of your methods and their chance of success is not high.\r\n\r\n\"Okay.\" She crosses her arms. \"I don't think that changes anything.\"",
+   "ctx": "data/campaign/rules.csv ImoinuUmbraMacarioHubSelB [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"And I suppose you're acting as a double agent to take them down from the inside, somehow.\"\r\n\r\nShe considers you, though from her face it is clear that her opinion of your methods and their chance of success is not high.\r\n\r\n\"Okay.\" She crosses her arms. \"I appreciate... the ARC and the United Front appreciate your contribution to the cause.\"",
+   "ctx": "data/campaign/rules.csv ImoinuUmbraMacarioHubSelBhelped [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"Sure. Okay.\" She crosses her arms and gives you an incredulous look.\r\n\r\n",
+   "ctx": "data/campaign/rules.csv ImoinuUmbraMacarioHubSelD [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"No you're not.\" Imoinu crosses her arms. \"You're as much a liar as Macario.\"",
+   "ctx": "data/campaign/rules.csv ImoinuUmbraMacarioHubSelE [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"No you're not.\" Imoinu crosses her arms. \"You already used that line on us and it was a lie the first time.\"\r\n\r\n\"Did Macario hire you to spread his lies for him? Don't bother answering.\"",
+   "ctx": "data/campaign/rules.csv ImoinuUmbraMacarioHubSelEb [text]"
+  },
+  {
+   "i": 34,
+   "en": "\"A Luddic, huh.\" She has an odd expression, a crease in her brow. Like there's some deep-seated disgust that she's trying to hide.\r\n\r\n\"Well. Blessings to you, I guess,\" she says awkwardly. \"I don't know whether to believe you or not. You should probably connect with Standfast and the VSDC. Anyway...\"",
+   "ctx": "data/campaign/rules.csv ImoinuUmbraMacarioHubSelG [text]"
+  },
+  {
+   "i": 35,
+   "en": "\"Finlay Siyavong? Ha!\"\r\n\r\nYou can hear the aristocrat in her laugh. It is bitter, and a potential for sharp cruelty hides there.\r\n\r\n\"I've met him, you fool. You're not Finlay Siyavong. You're a liar.\"",
+   "ctx": "data/campaign/rules.csv ImoinuUmbraMacarioHubSelH [text]"
+  },
+  {
+   "i": 36,
+   "en": "\"If what you say is true about Andrada, then it's probably good news. Probably. But practically speaking it doesn't change the situation. Holos can be faked. It's the entire basis of the Diktat propaganda machine.\"\r\n\r\nShe shrugs. \"Besides, the Sindrian Diktat lives on, run by Andrada's underlings. The worlds of Askonia are still held under the boot of the oppressor. The fight must go on.\"",
+   "ctx": "data/campaign/rules.csv ImoinuKatoUmbraSayAndrada4 [text]"
+  },
+  {
+   "i": 37,
+   "en": "\"And even if you weren't lying about Andrada, practically speaking it doesn't change the situation. Holos can be faked. It's the entire basis of the Diktat propaganda machine.\"\r\n\r\nShe shrugs. \"The Sindrian Diktat lives on, run by Andrada's underlings in his name. The worlds of Askonia are still held under the boot of the oppressor. The fight must go on.\"",
+   "ctx": "data/campaign/rules.csv ImoinuKatoUmbraSayAndrada4b [text]"
+  },
+  {
+   "i": 38,
+   "en": "\"Yeah, what of it?\"\r\n\r\nShe sticks her chin up, striking what is intended to be a defiant expression.\r\n\r\n\"I'm here to fight the brutal oppressions and liberate the Askonian System!\"",
+   "ctx": "data/campaign/rules.csv ImoinuKatoUmbraAskWhat2 [text]"
+  },
+  {
+   "i": 39,
+   "en": "She looks at you suspiciously for a long moment.\r\n\r\n\"For a 'supporter', your words reek of defeatism. We need material support, not misplaced admonition.\"",
+   "ctx": "data/campaign/rules.csv ImoinuKatoUmbraOptBackOffSel [text]"
+  },
+  {
+   "i": 40,
+   "en": "\"A pathetic attempt to ingratiate yourself after your previous blunder. Your ruse wouldn't work on a child.\" Her eyes narrow.\r\n\r\n\"Tell me, are you another freelancer hired by my grandmother to come admonish me? Tell her she's wasted her credits.\"",
+   "ctx": "data/campaign/rules.csv ImoinuKatoUmbraOptBackOffSelLiar [text]"
+  },
+  {
+   "i": 41,
+   "en": "\"We have nothing to talk about,\" she snaps, then hits the comms cut-off.",
+   "ctx": "data/campaign/rules.csv ImoinuKatoUmbraOptThrowAwaySel [text]"
+  },
+  {
+   "i": 42,
+   "en": "\"That's right,\" she says. \"Now did you have anything useful to say, or are we done?\"",
+   "ctx": "data/campaign/rules.csv ImoinuKatoUmbraOptNotMySel [text]"
+  },
+  {
+   "i": 43,
+   "en": "\"He is.\" She looks taken aback, but quickly recovers her composure.\r\n\r\n\"You met him? He's still on Mazalot suppressing the Luddics for the gens, I suppose.\"",
+   "ctx": "data/campaign/rules.csv ImoinuKatoUmbraDardan1 [text]"
+  },
+  {
+   "i": 44,
+   "en": "\"You don't say!\"\r\n\r\nShe laughs. You can hear the echo of long-running sibling conflict.\r\n\r\n\"Of course he's angry. He's there on behalf of the gens to hammer the Luddic faithful into compliant citizens of the League! The only tools he can imagine are force and fear because he thinks the Luddics are irrational sub-humans. Like stupid, simple animals.\"\r\n\r\nShe shakes her head, \"He can't help but fail.\"",
+   "ctx": "data/campaign/rules.csv ImoinuKatoUmbraDardanOptAsel [text]"
+  },
+  {
+   "i": 45,
+   "en": "\"Dardan, helpful?\" She scoffs. \"Doesn't sound like him.\"\r\n\r\n\"He's there on behalf of the gens to hammer the Luddic faithful into compliant citizens of the League! The only tools he can imagine are force and fear because he thinks the Luddics are irrational sub-humans. Like stupid, simple animals.\"\r\n\r\nShe shakes her head, \"He can't help but fail.\"",
+   "ctx": "data/campaign/rules.csv ImoinuKatoUmbraDardanOptBsel [text]"
+  },
+  {
+   "i": 46,
+   "en": "\"You don't say!\"\r\n\r\nShe laughs. You can hear the echo of long-running sibling conflict.\r\n\r\n\"Of course he's unhappy. He's there on behalf of the gens to hammer the Luddic faithful into compliant citizens of the League! The only tools he can imagine are force and fear because he thinks the Luddics are irrational sub-humans. Like stupid, simple animals.\"\r\n\r\nShe shakes her head, \"He can't help but fail.\"",
+   "ctx": "data/campaign/rules.csv ImoinuKatoUmbraDardanOptCsel [text]"
+  },
+  {
+   "i": 47,
+   "en": "\"Of course they object,\" she says. \"They're part of an aristocratic elite whose position is predicated on the extractive exploitation of the masses.\"\r\n\r\n A hint of a smile appears. \"And I've chosen to fight everything they stand for.\"",
+   "ctx": "data/campaign/rules.csv ImoinuKatoUmbraObject1 [text]"
+  }
+ ]
+}

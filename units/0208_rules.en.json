@@ -1,0 +1,121 @@
+{
+ "chunk": 208,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "The proprietor looks up as soon as you step into the dim tube-lit interior. \"Hey!\" You tense, at the tone. \"You can't just let your friend sleep here, I'm not running a hotel yeah?\" This must be $extr_barOwner.\r\n\r\n$extr_barOwner pulls you toward a dark end of the bar where a figure appears to be passed out drunk; a rad-reflective hood has fallen over their face. You pull it back, and it is indeed your extraction target. Looking a little pale, unconscious, and drooling, but the face matches your intel.\r\n\r\n\"I don't want any trouble, maybe your friend's on chems, I don't ask questions. But see, I took care of 'em right? No call to municipal. Now you take your friend and go now. Go, get out!\" He tries to shoo you toward the door as you lift the slack body.",
+   "ctx": "data/campaign/rules.csv extr_barStoryOption2 [text]"
+  },
+  {
+   "i": 2,
+   "en": "$extr_barOwner rolls his eyes, \"Your other friend showed me your holo, said look, my other friend the space captain is coming to pick this one up.\"\r\n\r\n\"Now you get going, I don't want people thinking my drinks are bad or maybe $extr_barOwner runs a place with no class. Go, go!\"",
+   "ctx": "data/campaign/rules.csv extr_barStoryOption3a [text]"
+  },
+  {
+   "i": 3,
+   "en": "$extr_barOwner sighs loudly, \"I tell you, then you go right? Now here's what I tell you: I didn't see anything. I'm running a spacer bar, not a children's creche. People come in, people go out. I don't look too close, I don't ask important questions, it's 'good run?', or 'price of fuel ain't what it was eh?'. That's the business.\"\r\n\r\n\"We made a deal, now you're leaving. Out, out!\"",
+   "ctx": "data/campaign/rules.csv extr_barStoryOption3b [text]"
+  },
+  {
+   "i": 4,
+   "en": "Outside the bar you pass the unconscious form to one of your bodyguards, whose subtle augments make carrying the limp form a matter of casual ease.\r\n\r\nThe automedic on the shuttle back reports that the agent was heavily and expertly sedated.\r\n\r\nReturned to consciousness in secure quarters on your flagship, the agent is suspicious and uncooperative until you give the confirmation phrase you were provided. Calmer now, they have no explanation for how they ended up in $extr_barName.\r\n\r\nMaybe it doesn't matter; you just have to get them back, get your pay, and the job is done.",
+   "ctx": "data/campaign/rules.csv extr_barStoryOption3 [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"Impressive work, captain,\" the $faction $post says. \"I'm told that you've helped us perform quite a coup on the intel front. The analysts are terribly excited.\"",
+   "ctx": "data/campaign/rules.csv extrMissionReturn1 [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"You've done some good work, captain,\" the $faction $rank says. \"Our agent... will recover.\"\r\n\r\n$HeOrShe leans back, eyes focusing on something abstract. \"The pirates on the other hand, with the intel we've gained on their organization, their movements, their patsies in the civil service - we shall bring them the swift justice they've earned.\"",
+   "ctx": "data/campaign/rules.csv extrMissionReturn2 [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Good work captain,\" the $faction $rank says, \"I must admit that I was not fully convinced that our agent could be safely extracted. The Pathers... it's never a proper stand-up battle with them.\" $HeOrShe shakes $hisOrHer head.\r\n\r\n\"Intel tells me our agent will provide information that shall let us roll up a great number of Pather infiltrator rings. No details of course, you know how this business is. I need not tell you how many lives you've saved.\"",
+   "ctx": "data/campaign/rules.csv extrMissionReturn3 [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"Some new targets have come up on the docket,\" $heOrShe says with a sigh. \"If you took a contract to handle one of these bounties, it might just get the brass off my case.\"",
+   "ctx": "data/campaign/rules.csv mcbBlurb [text]"
+  },
+  {
+   "i": 9,
+   "en": "A military officer is holding court at one of the nicer tables; you watch a merc captain approach for a perfunctory exchange of words and mutual tap of datapads. They appear to be acting as some kind of system patrol liaison contracting out bounties.",
+   "ctx": "data/campaign/rules.csv mcbBlurbBar [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"We've got a few options here,\" $post $personLastName says, pulling up a shared display with a table of intel reports.\r\n\r\n\"We've got an op timeslot coming up for an HK squadron that'll handle whatever you don't, so it's really your pick of the bunch. What sort of job do you think you can handle?\"",
+   "ctx": "data/campaign/rules.csv mcbOfferTextContact [text]"
+  },
+  {
+   "i": 11,
+   "en": "You approach and the $rank $personLastName gives you a perfunctory nod. \"Captain,\" $heOrShe says, all business.\r\n\r\n\"I have several assignments on the docket,\" $heOrShe looks down, scrolling $hisOrHer datapad. A coffee, black, certainly no sugar, is cooling on the table beside $hisOrHer hand. \"What sort of job can you handle?\"",
+   "ctx": "data/campaign/rules.csv mcbOfferTextBar [text]"
+  },
+  {
+   "i": 12,
+   "en": "$HeOrShe taps on one of the entries to enlarge the report. A face scowls at you from an arrest record holo.\r\n\r\n\"This one's a pirate hiding out in the $bcb_systemName, that's $bcb_dist light-years away. Had a falling out with an associate who talked. That gave us enough to confirm the intel.\"\r\n\r\n\"The reward is $bcb_reward credits and you'd have $bcb_days days to carry out the job. How about it?\"",
+   "ctx": "data/campaign/rules.csv CBPirate [text]"
+  },
+  {
+   "i": 13,
+   "en": "$HeOrShe taps on one of the entries to enlarge the report. A face scowls at you from an arrest record holo.\r\n\r\n\"This charming individual believes they're some kind of pirate.\" $PersonName gets a carnivorous look in $hisOrHer eyes, \"$bcb_TargetHeOrShe stole from me. This is unacceptable.\" $HeOrShe leans back, casually, \"The lost credits are irrelevant, of course. What's important is the message such brigandage sends. We can't simply have pirates stealing the hard-earned wealth from those who rightfully possess it.\"\r\n\r\n\"The target is hiding in the $bcb_systemName which is $bcb_dist light-years distant. I shall reward you with $bcb_reward credits once you have put down the menace and I shall give you $bcb_days days to do so. Are we agreed?\"",
+   "ctx": "data/campaign/rules.csv CBPirateAristo [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"Ah, this one is a piece of work,\" $heOrShe brings up a case file. \"Luddic Path operative. Connected to a few bombings, piracy, the usual. $bcb_TargetHeOrShe is hiding out in the $bcb_systemName, that's a $bcb_dist light-year hop.\"\r\n\r\n\"A few of the local syndics pitched in, so the job's reward is $bcb_reward credits. You'd have $bcb_days days to take $bcb_targetHimOrHer out. Interested?\"",
+   "ctx": "data/campaign/rules.csv CBPather1 [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"Ah, this one, yes,\" $heOrShe pulls up an intel file. \"An adherent of the so-called 'Luddic Path'. Believes we'd all be better off smashing our computers and living in caves or some nonsense. You wouldn't believe the damage they cause when they can bring themselves to apply technology to meet their goals. This one is hiding out in the $bcb_systemName, $bcb_dist light-years away, and has caused great personal offense.\"\r\n\r\n\"I shall provide a reward of $bcb_reward credits for taking care of this fanatic. You'd have $bcb_days days to complete the mission.\"",
+   "ctx": "data/campaign/rules.csv CBPather1Aristo [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"This one is a sensitive matter,\" $heOrShe goes quiet for a moment. \r\n\r\n\"One of our... former knights has broken their vows to join a sect of the so-called Luddic Path. A heretic recently confessed, confirming our intel on the betrayer. They're hiding out in the $bcb_systemName, $bcb_dist light-years from here.\"\r\n\r\n\"The Church has granted an indulgence for this execution in consideration of the heinous crimes and heretical acts committed in the name of the prophet. A recompense of $bcb_reward credits is offered as well. It would be expected that the job be complete within $bcb_days days. Do you accept?\"",
+   "ctx": "data/campaign/rules.csv CBPather2LuddicChurch [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"I'd take this one on myself if I had a warfleet to command,\" $heOrShe makes an expression like $heOrShe bit into something sour, \"$bcb_targetName is a betrayer, a deserter from $thePersonFaction. An example has to be made. We know $bcb_targetHeOrShe is hiding out in the $bcb_systemName, which is $bcb_dist light-years from here.\"\r\n\r\n\"There's a reward of $bcb_reward credits and it'd need to be done within $bcb_days days. Are you up for it?\"",
+   "ctx": "data/campaign/rules.csv CBDeserter [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"This one I admit I would relish to take on myself if I was back in my fleet command days. A deserter, a mutineer,\" $heOrShe sneers, \"Call it what you like, a turncoat from $thePersonFaction is hiding out in the $bcb_systemName, just $bcb_dist light-years away.\"\r\n\r\n\"There's a reward of $bcb_reward credits and it'd need to be done within $bcb_days days. Are you up for putting down a traitor?\"",
+   "ctx": "data/campaign/rules.csv CBDeserterSoldier [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"This task troubles my soul.\" $Rank $personName looks more angry than troubled. $HeOrShe takes a deep breath. \"I must pray for forgiveness; wrath is unbecoming to spiritual health.\"\r\n\r\n\"Let me proceed. We have been betrayed; a turncoat from $thePersonFaction has stolen ships and spread mutiny. We have good intel that $bcb_targetHeOrShe is hiding in the $bcb_systemName, $bcb_dist light-years from here, awaiting some kind of rendezvous.\"\r\n\r\n\"They must be intercepted within $bcb_days days. Your payment would be $bcb_reward credits and my personal thanks. Will you perform this service?\"",
+   "ctx": "data/campaign/rules.csv CBDeserterFaithful [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"This one,\" $heOrShe focuses the briefing, \"Is not for the faint of heart. An elite mercenary... well, you don't need to know the details. Let's just say $bcb_targetHeOrShe made the wrong people very, very unhappy. $bcb_TargetHeOrShe is hiding out in the $bcb_systemName - that's $bcb_dist light-years away.\"\r\n\r\n\"The reward is $bcb_reward credits - lots of hazard pay - and with good reason. Don't take $bcb_targetHimOrHer lightly. Time to complete is $bcb_days days.\" \r\n\r\n$HeOrShe looks at you with grim resolution. \"Just so you know, you'd not be the first to try this job. Never heard back from the other guy. There's no shame if you want to stay away from this one.\"",
+   "ctx": "data/campaign/rules.csv CBMerc [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"This one requires some discretion.\" You note the glow of REDACTED blocks peppered across the briefing as $personName scrolls through details. \"A fleet of Domain-era derelict drone warships was spotted in the $bcb_systemName, $bcb_dist light-years from here.\"\r\n\r\n\"They're usually dormant, guarding some probe that fell off the records. Catches surveyors by surprise. This is different.\" $HeOrShe looks grim. \"A fleet of these things wandering off on their own is, frankly, terrifying. They're not supposed to have independent hyperspace capability or much in the way of fuel capacity, for that matter.\"\r\n\r\n\"Whatever this swarm is up to, it needs to be stopped. The reward is $bcb_reward credits - higher than normal, both for the hazard and for your discretion.\" $Post $personLastName smiles with black humor, \"Wouldn't want to alarm the citizens, ha-ha.\"\r\n\r\n\"You'll take it, right? We need to conclude the matter within $bcb_days days.\"",
+   "ctx": "data/campaign/rules.csv CBDerelict [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"This one requires some discretion.\" You note the glow of REDACTED blocks peppered across the briefing as $personName scrolls through details. \"A fleet of Remnant drone warships was spotted in the $bcb_systemName, only $bcb_dist light-years from here.\"\r\n\r\n\"These things are left over from one of the AI Wars - some pencilneck decided they weren't worth the cost of cleaning up. But this fleet is more active than usual so there's been some concern from up the chain of command.\" $HeOrShe skewers you with a look, \"Way up.\"\r\n\r\n\"Whatever they're up to, some important people will sleep better if it's stopped. The reward is $bcb_reward credits - higher than normal, both for the hazard and for your discretion. Command wants this done within $bcb_days days.\"",
+   "ctx": "data/campaign/rules.csv CBRemnant [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"I speak in strict confidence,\" $heOrShe looks sternly at you. \"A long range patrol spotted a fleet of Remnant drone warships in the $bcb_systemName, $bcb_dist light-years distant. That patrol didn't make it back.\"\r\n\r\n\"We did find an intel drop left by that patrol, and in it we found this.\" $Rank $personLastName pulls up a grainy image, little more than a silhouette in false color. An angular shape. \"It's unlike anything we've got on the AI War leftovers. Analysis shows no similarities in component profiles, so it's not even some kind of hack-job.\" With a swipe the $rank dismisses the image. \r\n\r\n\"Take it out. The reward is $bcb_reward credits. If that seems high, it's because you'd be dealing with something unusual. Unusual means risky, and STRATCOM thinks an unusual problem could use an unusual solution, thus-\" $heOrShe indicates you with an open palm. \"Are you in?\"",
+   "ctx": "data/campaign/rules.csv CBRemnantPlus [text]"
+  }
+ ]
+}

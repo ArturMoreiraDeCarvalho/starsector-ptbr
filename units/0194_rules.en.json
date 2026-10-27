@@ -1,0 +1,146 @@
+{
+ "chunk": 194,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "The mercenary glares at you, face unmoving, with timeless hatred. It's like staring down the barrel of a Tachyon Lance.\r\n\r\n\"You are protecting an individual with intimate knowledge of the workings of the greatest criminal empire the Persean Sector has known, captain. I suggest you do the right thing.\"",
+   "ctx": "data/campaign/rules.csv gaVIPMercOption3Sel [text]"
+  },
+  {
+   "i": 2,
+   "en": "The mercenary captain looks even more annoyed than before, but manages to restrain $hisOrHer anger. \"Captain. I say again, transfer the suspect into my custody immediately or face the consequences.\"",
+   "ctx": "data/campaign/rules.csv gaVIPReturnToHub [text]"
+  },
+  {
+   "i": 3,
+   "en": "Finally, the dam breaks. The last you see of the merc, $heOrShe roars with anger and fist raised - then the comms link goes to static.\r\n\r\nYou turn to your officer at the communications console and confirm that the entire conversation has been recorded. As you well know, if the mercenary attacks, you are within the rights generally recognized across the Sector to defend yourself with deadly force.\r\n\r\nThe combat alert sounds. \"Captain,\" your tactical officer says, \"They're moving to attack.\"",
+   "ctx": "data/campaign/rules.csv gaVIPReturnToHubGoHostile [text]"
+  },
+  {
+   "i": 4,
+   "en": "The merc's lip curls into a sneer as you state your refusal to cooperate.\r\n\r\n\"Worthless ingrate. Amateur. Mudworm up-start trash.\" $HeOrShe spits invectives, enraged. \"I'll watch you gas out in vacuum soon, I swear it.\" The comms snap off in a burst of static.\r\n\r\nYou turn to the officer at the communications console and confirm that the entire conversation has been recorded. As you well know, if the mercenary attacks, you are within the rights generally recognized across the Sector to defend yourself with deadly force.\r\n\r\n\"Captain,\" your tactical officer says, \"They're withdrawing.\"",
+   "ctx": "data/campaign/rules.csv gaVIPMercRefuse [text]"
+  },
+  {
+   "i": 5,
+   "en": "The merc lifts $hisOrHer chin up a few degrees. \"Very good, captain. I shall expect immediate transfer of the pris- passenger to my flagship.\"",
+   "ctx": "data/campaign/rules.csv gaVIPMercAgree [text]"
+  },
+  {
+   "i": 6,
+   "en": "As the shuttle leaves your $shipOrFleet bearing some obscure relative of the Warlord Kanta, you consider how you're going to break the news to the Galatia Academy.\r\n\r\nYou also try not to consider how Kanta is going to feel about the whole situation. Rumor has it she's rather protective of family, no matter how distant the relation.",
+   "ctx": "data/campaign/rules.csv gaVIPMercTransferVIP [text]"
+  },
+  {
+   "i": 7,
+   "en": "$HisOrHer head immediately levels with the display, giving a look as though you had spit in $hisOrHer face. An eyebrow raises.\r\n\r\n\"Excuse me?\"",
+   "ctx": "data/campaign/rules.csv gaVIPMercVIPPayment [text]"
+  },
+  {
+   "i": 8,
+   "en": "Negotiating with the mercenary captain is as enjoyable as pulling teeth; $hisOrHer arrogance is simply mind-numbing. But you manage to get the merc to agree to pay you $gaVIP_mercPayment credits upfront for your release of the VIP.",
+   "ctx": "data/campaign/rules.csv gaVIPMercVIPPaymentNegotiate [text]"
+  },
+  {
+   "i": 9,
+   "en": "Thinking quickly, you inform the mercenary captain that the passenger - a dangerous criminal, just as $heOrShe said - is being transported in a secured cargo container holding a single cryosleep unit. Therefore it will take some time to make the transfer due to the extra security arrangements you've made, but you emphatically agree that the proper authorities are best situated to bring the Kanta gang to justice.\r\n\r\nThe merc nods solemnly as you speak more of meting out justice and respecting authority. $HeOrShe gives a small salute as you sign off the comms to \"personally oversee the transfer\".",
+   "ctx": "data/campaign/rules.csv gaVIPConMerc [text]"
+  },
+  {
+   "i": 10,
+   "en": "Taking your hint during the comms call, your logistics officer and operations chief have already begun rigging a standard cargo container with an extra cryo pod.\r\n\r\nAs you enter the cargo bay your ops chief speaks, \"Don't we need a body?\"\r\n\r\nEveryone looks at each other. No one says anything.\r\n\r\n\"Fine,\" the chief grumbles, \"I guess this'll just have to do.\"",
+   "ctx": "data/campaign/rules.csv gaVIPConMerc1 [text]"
+  },
+  {
+   "i": 11,
+   "en": "Pod secured, your team scrambles the crypto on multiple locks: the cryopod itself, an interior crate packed into the cargo container with hastily-sprayed damage control foam, and on the heavy latches of the cargo container itself. The ruse won't hold up to sustained effort for long, but it should be enough to distract the merc long enough for you to put some light-years between you and them.\r\n\r\nYou return to the bridge having worked up a bit of a sweat, and comms the mercenary captain to inform $himOrHer that the secured prisoner will be on their way via cargo drone in just a moment. Now to the matter of the shared reward...",
+   "ctx": "data/campaign/rules.csv gaVIPConMerc2 [text]"
+  },
+  {
+   "i": 12,
+   "en": "Through an impressive display of flattery and feigned esprit de corps, you talk the merc into an up-front payment of $gaVIP_mercPayment credits. \r\n\r\nAfter all, as you explain, \"We are knights errant to this chaotic age. It is captains like you that uphold a code of honor higher than that of mere freebooters and through armed struggle demonstrate practical virtues that might again grow in the dry heart of the outcast Persean Sector.\" \r\n\r\nThe merc captain nods emphatically to your words. Your TriPad pings behind your back as incoming funds are automatically accepted.",
+   "ctx": "data/campaign/rules.csv gaVIPConMerc3 [text]"
+  },
+  {
+   "i": 13,
+   "en": "Your dealings completed, the merc offers not even a smile, and says \"Burn bright, captain. I shall see you again soon, I hope.\"\r\n\r\nYour nav officer begins to disengage your $shipOrFleet from the mercenaries at a leisurely burn, following previous orders.",
+   "ctx": "data/campaign/rules.csv gaVIPConMerc4 [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"Captain $playerName I presume,\" the mercenary commander says coolly. $HeOrShe knows who you are, of course. \r\n\r\n\"The Warlord Kanta sends her regards.\"\r\n\r\n$HeOrShe nods an order to some underling, then moves with unhurried contempt to close the connection.",
+   "ctx": "data/campaign/rules.csv gaVIPRevengeOpenComm [text]"
+  },
+  {
+   "i": 15,
+   "en": "The mercenary commander actually looks indignant, raising a hand to halt what you presume is the attack order.\r\n\r\n\"You sold out one of Kanta's kin. But\"- $heOrShe grinds out, with apparent difficulty- \"you forgot about it? There must be no greater fool than you in the entire Sector.\"\r\n\r\nThe comm link snaps closed before you have a chance to respond.",
+   "ctx": "data/campaign/rules.csv gaVIPRevengeWhy [text]"
+  },
+  {
+   "i": 16,
+   "en": "Thrown off-guard by your reaction, $heOrShe struggles to regain the initiative, \"No, you're to be made an example- \" \r\n\r\nYou interrupt and explain that you're working for Kanta- deep undercover. Who would be foolish enough to sell the Warlord's kin without her express instructions? You don't even want to speculate how they angered the Warlord, but what would the Kanta clan be without a firm hand at its head? \r\n\r\nIn fact, you're on your way to carry out the second part of this task- the less said the better. And, you glance idly at a datapad, it is $hisOrHer fleet, right on time, which is to provide resupply at this stage of the operation.",
+   "ctx": "data/campaign/rules.csv gaVIPRevengeTrick [text]"
+  },
+  {
+   "i": 17,
+   "en": "$HeOrShe sputters, and finally regains composure enough to speak. \"My instructions were very clear. Intercept a kin-seller at these coordinates, eliminate.\" You detect the merest hint of uncertainty in $hisOrHer voice.",
+   "ctx": "data/campaign/rules.csv gaVIPRevengeTrick1 [text]"
+  },
+  {
+   "i": 18,
+   "en": "$HeOrShe pauses, eyes flickering back and forth as if trying to read your face for a bluff. Thinking. \"I think... I see now. If we fought, the winner would receive updated instructions. Conditional messages hidden in comm systems.\" It's working. \"I've heard stories about the Warlord arranging these kinds of... tests.\"\r\n\r\nYou keep quiet, letting $himOrHer talk $himOrHerself into it.\r\n\r\n\"-And whoever prevailed would be well supplied, whether the supplies are handed over or picked from the wreckage. They would be the better captain. More aggressive; more ruthless. A stronger fleet.\"",
+   "ctx": "data/campaign/rules.csv gaVIPRevengeTrick2 [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"But that's me, isn't it?\" $HeOrShe grins, and it's not a pleasant thing to see as this ruse takes an unexpected turn. \"I am curious about what this mission is, but I suppose that'll have to wait until after you're dead.\"\r\n\r\nYou find yourself staring at static as the comm link is abruptly terminated. Your comms officer gives you a sympathetic shrug.",
+   "ctx": "data/campaign/rules.csv gaVIPRevengeTrick3a [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"And between us, it's just in doubt enough that neither of us wants to chance it, eh?\" $HeOrShe grins with unexpected camaraderie. \r\n\r\n\"Scum like us gotta stick together, right? I'll transfer the supplies and lay low for a while if you can keep quiet. You go on, and next time we meet you can buy me and mine a few rounds to make up for today.\"",
+   "ctx": "data/campaign/rules.csv gaVIPRevengeTrick3b [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"The $gaOp_department Department needs a small team of scientists transported to a research outpost in the $gaOp_systemName system.\"",
+   "ctx": "data/campaign/rules.csv gaOpBlurb [text]"
+  },
+  {
+   "i": 22,
+   "en": "Sebestyen quickly skims his datapad. \"This one is pretty standard, it's just... well, the research outpost on $gaOp_planetName is pretty remote I guess? That's why the $gaOp_department Department wants a, uh, an expert like you to handle transport.\"\r\n\r\n\"Yes, so $gaOp_planetName is in the $gaOp_systemName system, about $gaOp_dist light-years away.\" The academician pauses for a moment, thinking about just how far away this is.\r\n\r\n\"Um. Right, you just need to drop off the half dozen or so researchers. They have budget for, oh, $gaOp_reward credits as payment. What do you think?\"",
+   "ctx": "data/campaign/rules.csv gaOpMissionText [text]"
+  },
+  {
+   "i": 23,
+   "en": "You order a scan of the coordinates provided by Academician Sebestyen and a faint power source is detected. Your comms officer transmits a coded greeting to the position, receiving confirmation from a friendly transponder, and you open contact with the small, hidden research outpost operated by the Galatia Academy.\r\n\r\nThe research team you've brought to this lonely planet is quickly transported to the surface by shuttle. The leader of the outpost thanks you and says, \"Please give our regards to Provost Baird. We, ah, appreciate this opportunity she's given us to-\", $gaOp_leaderHeOrShe licks $gaOp_leaderHisOrHer lips, considering $gaOp_leaderHisOrHer words. \"- We just, ah, appreciate it very much and look forward to the completion of our research. Thank you.\"\r\n\r\nThe comms signal terminates.",
+   "ctx": "data/campaign/rules.csv gaOpPlanetBasic [text]"
+  },
+  {
+   "i": 24,
+   "en": "You order a scan of the coordinates provided by Academician Sebestyen.\r\n\r\nNo stable power source is detected. Comms attempts to transmit the coded greeting provided in Academician Sebestyen's mission package, but there is no transponder response. You order an active-sweep of the surface; this is a less subtle approach which can reveal search targets to nearby ships, but you deem this an acceptable risk. \r\n\r\nIn moments, your sensors officer reports, \"Located the outpost. It doesn't look good, captain.\"",
+   "ctx": "data/campaign/rules.csv gaOpPlanetDestroyed [text]"
+  },
+  {
+   "i": 25,
+   "en": "A pirate raid destroyed this outpost. An observation drone reveals specimens and material scattered between the main airlock and landing pad. It looks like everything of value was looted and the hab bulkheads breached and vandalized. Members of the research team are nowhere to be found; the lack of bodies is hopeful, at least. You order the complete site survey attached to the encrypted mission file.",
+   "ctx": "data/campaign/rules.csv gaOpPlanetDestroyedContPirates [text]"
+  },
+  {
+   "i": 26,
+   "en": "Pathers hit this outpost, and not too long ago from the looks of it. An observation drone reveals that research equipment was piled outside the base and slagged by a combination of explosives and hand-weapons. Any useful supplies have been looted. One poor soul- the research lead, judging by the nearby ID fob- is found executed in the central annex amid scrawled Pather slogans. You shut off the grim display once the relevant site survey is complete.",
+   "ctx": "data/campaign/rules.csv gaOpPlanetDestroyedContPathers [text]"
+  },
+  {
+   "i": 27,
+   "en": "A massive energy discharge seems to have destroyed the primary laboratory space from the inside. Drifts of hot radioactive debris are spewed outward like the fingers of a malevolent hand. There are no survivors. With readings like this, you reflect that even if you did find any of the bodies they would have to be collected by drones and placed in lead-lined caskets.",
+   "ctx": "data/campaign/rules.csv gaOpPlanetDestroyedContOther1 [text]"
+  },
+  {
+   "i": 28,
+   "en": "The outpost was hit by an orbital strike by someone with access to fairly heavy weapons, judging by the still-cooling lava at the bottom of the crater. A single stray telemetry repeater from some piece of equipment thrown by the blast remains operational, ticking away a null data set into the night. You order detailed scans of the site attached to the mission file, though you can't see what value they might have.",
+   "ctx": "data/campaign/rules.csv gaOpPlanetDestroyedContOther2 [text]"
+  }
+ ]
+}

@@ -1,0 +1,281 @@
+{
+ "chunk": 101,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "The Luddic Faithful of the Church count you as a friend, made welcome in their lands and trusted in dealings. You are allowed to self-moderate unsubtle use of technologies without need for the heavy hand of the Knights of Ludd to guide you toward righteousness.",
+   "ctx": "data/campaign/rules.csv relLevelFriendlyLuddic [text]"
+  },
+  {
+   "i": 2,
+   "en": "The Church welcomes you to the volumes they control, and their Knights of Ludd watch you with less suspicion than most spacers. You know to make the expected signs of respect, and modestly hide those technologies which cause offense to the most conservative Faithful.",
+   "ctx": "data/campaign/rules.csv relLevelWelcomingLuddic [text]"
+  },
+  {
+   "i": 3,
+   "en": "You are greeted by the Faithful with a warmth of neighborliness, nothing more. You know the words and the signs that offer respect to the Church of Galactic Redemption, and for that many, but not all, of them return that respect. ",
+   "ctx": "data/campaign/rules.csv relLevelFavorableLuddic [text]"
+  },
+  {
+   "i": 4,
+   "en": "You know enough about the beliefs and practices of the Luddic Church to avoid obvious gaffes, and they know how to deal with outsiders well enough to politely conduct business with you.",
+   "ctx": "data/campaign/rules.csv relLevelNeutralLuddic [text]"
+  },
+  {
+   "i": 5,
+   "en": "You are seen as a typical spacer; dismissive of Ludd's revelation and scornful of the Church. Your use of high technology is considered reckless, filling a hollow in your soul with false comforts of the material world. Some among the Faithful pity you, others distrust you.",
+   "ctx": "data/campaign/rules.csv relLevelSuspiciousLuddic [text]"
+  },
+  {
+   "i": 6,
+   "en": "Curates of the Church of Galactic Redemption offer you as example of one led far astray from Ludd's revelation; one lost in the machine; perhaps not yet lost to Moloch, but an unwitting servant to evil. The Knights look wary upon you, and subject you to unnecessary delays and investigation.",
+   "ctx": "data/campaign/rules.csv relLevelInhospitableLuddic [text]"
+  },
+  {
+   "i": 7,
+   "en": "The Church considers you a minion of Moloch, a slave to demonic technology. You are a witless ally of Mammon, striving only for the hedonic lucre of miserable unbelievers blind to Ludd's Revelation. Yea, you are an agent of evil and must be treated with as such.",
+   "ctx": "data/campaign/rules.csv relLevelHostileLuddic [text]"
+  },
+  {
+   "i": 8,
+   "en": "The Luddic Church portrays you as a wrathful corruptor, sinful and unrepentant, a desecrator of that which is holy and good. The Knights of Ludd have assigned an Inquisitor to your case; even some curates have suggested that it might not be a sin to kill you. It's only a matter of time before some fanatic makes an attempt.",
+   "ctx": "data/campaign/rules.csv relLevelVengefulLuddic [text]"
+  },
+  {
+   "i": 9,
+   "en": "You are known to have pilgrimaged to, or at least visited, the shrines of the Pilgrim's Path.",
+   "ctx": "data/campaign/rules.csv relLevelLuddicShrines [text]"
+  },
+  {
+   "i": 10,
+   "en": "You are upheld as a friend, ally, and patriot of the League (and the gens); an example held high for those building a new, free system of federated polities among the stars to counter those who would recast the chains of Domain hegemony.",
+   "ctx": "data/campaign/rules.csv relLevelCooperativeLeague [text]"
+  },
+  {
+   "i": 11,
+   "en": "You are given friendly welcome by agents of the Persean League, including fleet, customs, and intelligence services. The great gens of Kazeron favor you in matters of business and easily forgive minor indiscretions.",
+   "ctx": "data/campaign/rules.csv relLevelFriendlyLeague [text]"
+  },
+  {
+   "i": 12,
+   "en": "Your name is known and welcomed among the worlds of the Persean League - and the gens of Kazeron - including the shared Fleet. You are considered a safe operator, made welcome in matters of business and easily forgiven for minor indiscretions.",
+   "ctx": "data/campaign/rules.csv relLevelWelcomingLeague [text]"
+  },
+  {
+   "i": 13,
+   "en": "You are considered a reliable operator among the worlds of the Persean League and by their shared navy. The gens of Kazeron even welcome you in matters of business, though you are still considered an outsider.",
+   "ctx": "data/campaign/rules.csv relLevelFavorableLeague [text]"
+  },
+  {
+   "i": 14,
+   "en": "Officials of the Persean League consider you to be an independent operator with a set of League-guaranteed commerce rights within their controlled volume. You can trade and travel freely so long as you use a transponder, respect tariffs, and adhere to commodity restrictions.",
+   "ctx": "data/campaign/rules.csv relLevelNeutralLeague [text]"
+  },
+  {
+   "i": 15,
+   "en": "Officials of the Persean League consider you to be an independent operator with a set of League-guaranteed commerce rights within their controlled volume. Your noteworthy independent fleet makes some smaller members wary and others respectful.",
+   "ctx": "data/campaign/rules.csv relLevelNeutralLeagueFleet [text]"
+  },
+  {
+   "i": 16,
+   "en": "Officials of the Persean League consider you to be an independent operator with a set of League-guaranteed commerce rights within their controlled volume. Controlling your own colony has made you notable as a potential partner.",
+   "ctx": "data/campaign/rules.csv relLevelNeutralLeaguePlanet [text]"
+  },
+  {
+   "i": 17,
+   "en": "You have been tagged as a person of interest by the Persean League federal apparatus, subject to additional inspection and verification upon port entry. The gens of Kazeron are hesitant to deal with you preferring to do necessary business through intermediaries.",
+   "ctx": "data/campaign/rules.csv relLevelSuspiciousLeague [text]"
+  },
+  {
+   "i": 18,
+   "en": "The PLFIS has flagged you as an involved party in suspicious and/or criminal activity. You are denied permission to trade in League world markets, and patrols will treat you as a potential threat, though they do not have shoot-on-sight orders from Fleet command. Yet.",
+   "ctx": "data/campaign/rules.csv relLevelInhospitableLeague [text]"
+  },
+  {
+   "i": 19,
+   "en": "Patrols of the Persean League have orders to 'engage at opportunity' if your fleet is spotted, considering you no better than a pirate. Markets of League Worlds are closed to you, and it is rumored that the gens of Kazeron are cooking up plans to be rid of your nuisance once and for all.",
+   "ctx": "data/campaign/rules.csv relLevelHostileLeague [text]"
+  },
+  {
+   "i": 20,
+   "en": "You are a scourge of the spaceways, declared enemy of the Persean League and its free citizens. More concerning, however, is that the great gens of Kazeron are willing to put aside their differences to pool resources to hunt you down.",
+   "ctx": "data/campaign/rules.csv relLevelVengefulLeague [text]"
+  },
+  {
+   "i": 21,
+   "en": "You are rumored to be an agent for Gens Yaribay of Kazeron.",
+   "ctx": "data/campaign/rules.csv relLevelLeagueYaribay [text]"
+  },
+  {
+   "i": 22,
+   "en": "You are well known to the Hegemony, and admired. Officers respect your steadfastness and civilian personnel appreciative of your honest dealing. Functionaries learn that not every rule applies to you, and that you are trusted with restricted military hardware.",
+   "ctx": "data/campaign/rules.csv relLevelFriendlyHegemony [text]"
+  },
+  {
+   "i": 23,
+   "en": "Your integrity is known in the Hegemony bureaucracy, earning you respect from officers and the welcome of civilian personnel. There is willingness to sell you certain restricted materiel and forgo some of the more tedious inspections.",
+   "ctx": "data/campaign/rules.csv relLevelWelcomingHegemony [text]"
+  },
+  {
+   "i": 24,
+   "en": "You have earned a begrudging respect from the Hegemony bureaucracy. Officers tend to be less strict with you, though this has few practical implications. At best you might be sold low-grade surplus equipment and avoid being the target of a quota-meeting investigation.",
+   "ctx": "data/campaign/rules.csv relLevelFavorableHegemony [text]"
+  },
+  {
+   "i": 25,
+   "en": "Your meeting with the High Hegemon is a topic of speculation among the higher ranks.",
+   "ctx": "data/campaign/rules.csv relLevelHegemonyDaud [text]"
+  },
+  {
+   "i": 26,
+   "en": "You receive a long-range comm burst from the $faction $otherFleetName directing your $shipOrFleet to come to and prepare for a customs inspection.\r\n\r\nThe message contains a standard legal-code attachment detailing the various penalties for evading customs agents, transporting contraband, and other related offenses.\r\n\r\nIt's as likely as not that this is nothing more than a legalized shakedown, but it has the weight of $faction authority behind it.",
+   "ctx": "data/campaign/rules.csv ciLongRangeCommBurst [text]"
+  },
+  {
+   "i": 27,
+   "en": "$PersonRank $personName looks up from $hisOrHer console briefly. \"Stand by while we scan your cargo. We'll continue this conversation once the scan is complete.\"",
+   "ctx": "data/campaign/rules.csv customsInspectionConvStart [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"Oh? That's something you're going to regret.\"\r\n\r\nThe comm link is cut before you have a chance to respond.",
+   "ctx": "data/campaign/rules.csv customsInspectionDisagree [text]"
+  },
+  {
+   "i": 29,
+   "en": "After a long wait, your terminal chimes softly and displays the scan results transmitted by the $faction $otherFleetName.",
+   "ctx": "data/campaign/rules.csv customsInspectionWaitFinished [text]"
+  },
+  {
+   "i": 30,
+   "en": "$PersonRank $personName looks up from $hisOrHer console. \"Looks like everything checks out. The toll and inspection fees come to a total of $tollAmount credits.\"",
+   "ctx": "data/campaign/rules.csv customsInspectionResultToll [text]"
+  },
+  {
+   "i": 31,
+   "en": "$PersonRank $personName looks pleased. \"Well, well. Look what we have here! We'll be confiscating all the contraband, of course. The toll, inspection fees, and the fine for possession of illegal goods with intent to sell come to a total of $tollAmount credits.\"",
+   "ctx": "data/campaign/rules.csv customsInspectionResultTollFine [text]"
+  },
+  {
+   "i": 32,
+   "en": "$personName looks at the report, looks at you, looks at the report again, and cuts off the comm link without saying a word. Your scanners detect the signatures of weapons powering up.",
+   "ctx": "data/campaign/rules.csv customsInspectionResultTollFineHostile [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"Thank you for your cooperation.\" $personRank $personName nods and cuts the comm link.",
+   "ctx": "data/campaign/rules.csv optionPayCIToll [text]"
+  },
+  {
+   "i": 34,
+   "en": "\"Thank you for your cooperation. It will be noted in your file.\" $personRank $personName nods and cuts the comm link.",
+   "ctx": "data/campaign/rules.csv optionPayCIFine [text]"
+  },
+  {
+   "i": 35,
+   "en": "$personName glares at you, but, for whatever reason, doesn't press the issue. After a couple of seconds of silence, you cut the comm link.",
+   "ctx": "data/campaign/rules.csv optionRefuseCITollPassRep [text]"
+  },
+  {
+   "i": 36,
+   "en": "\"That's something you're going to regret.\"\r\n\r\nThe comm link is cut before you have a chance to respond.",
+   "ctx": "data/campaign/rules.csv optionRefuseCIToll [text]"
+  },
+  {
+   "i": 37,
+   "en": "$personName looks at you carefully, and, for whatever reason, doesn't press the issue. After a couple of seconds of silence, you cut the comm link.",
+   "ctx": "data/campaign/rules.csv optionRefuseCIFinePassRep [text]"
+  },
+  {
+   "i": 38,
+   "en": "\"That's something you're going to regret very, very much.\"\r\n\r\nThe comm link is cut before you have a chance to respond.",
+   "ctx": "data/campaign/rules.csv optionRefuseCIFine [text]"
+  },
+  {
+   "i": 39,
+   "en": "\"That's very unfortunate. Your failure to pay will be noted in your file.\"",
+   "ctx": "data/campaign/rules.csv optionCantAffordToll [text]"
+  },
+  {
+   "i": 40,
+   "en": "\"That's very unfortunate. I'm certain you're still planning on promptly surrendering the contraband, correct?\"",
+   "ctx": "data/campaign/rules.csv optionCantAffordFine [text]"
+  },
+  {
+   "i": 41,
+   "en": "The port authority refuses your $shipOrFleet docking clearance until the customs inspection is resolved. Making contact with any underground parties willing to trade is also impossible due to the patrol breathing down your neck.",
+   "ctx": "data/campaign/rules.csv marketPostOpenCustomsInProgress [text]"
+  },
+  {
+   "i": 42,
+   "en": "Your most recent occupation was as...",
+   "ctx": "data/campaign/rules.csv initNewGameChoices [text]"
+  },
+  {
+   "i": 43,
+   "en": "In addition, your fleet includes...",
+   "ctx": "data/campaign/rules.csv ngcPickSecondShip [text]"
+  },
+  {
+   "i": 44,
+   "en": "Select the campaign difficulty level. \"Easy\" is recommended for a first-time player.",
+   "ctx": "data/campaign/rules.csv ngcDifficulty [text]"
+  },
+  {
+   "i": 45,
+   "en": "You transmit the comms ID and wait for the system to establish a connection.",
+   "ctx": "data/campaign/rules.csv convDefault [text]"
+  },
+  {
+   "i": 46,
+   "en": "After a short wait, your connection request is accepted.\r\n\r\n\"Hello. What do you want?\"",
+   "ctx": "data/campaign/rules.csv convDefaultGreeting [text]"
+  },
+  {
+   "i": 47,
+   "en": "After a short wait, your connection request is denied.",
+   "ctx": "data/campaign/rules.csv defaultGreetingIgnore [text]"
+  },
+  {
+   "i": 48,
+   "en": "After a short wait, your connection request is accepted.\r\n\r\n\"Comms open, state your request.\"\r\nOR\r\nThe comms resolve to show $Post $personLastName sitting stiffly. \r\n\r\n\"Channel clear, go ahead.\",",
+   "ctx": "data/campaign/rules.csv convDefaultGreetingSoldier [text]"
+  },
+  {
+   "i": 49,
+   "en": "After a short wait, your connection request is accepted.\r\n\r\n\"Blessings be upon you. How may I assist?\"\r\nOR\r\nThe comms resolve to show $personName, who brings $hisOrHer hands together in greeting.\r\n\r\n\"Providence provides. What may I offer you this day?\"",
+   "ctx": "data/campaign/rules.csv convDefaultGreetingFaithful [text]"
+  },
+  {
+   "i": 50,
+   "en": "After a short wait, your connection request is accepted.\r\n\r\n\"Bless this day, for it brings us one closer to Armageddon.\"\r\nOR\r\nThe comms resolve to show $personName, who brings $hisOrHer hands together in greeting.\r\n\r\n\"Blessed be our Path, and righteous our hatred of sin,\" $heOrShe says, then looks up.\r\nOR\r\nThe connection cycles, glitches, and finally resolves through whatever aging equipment the $post is using.\r\n\r\n$HeOrShe looks up, \"With hammer and fiery sword, I greet you.\"\r\nOR\r\nAfter a short wait, your connection request is accepted despite a series of protocol mismatch warnings.\r\n\r\n\"Praise these end-times, with hammer in hand!\" the $post says in greeting.",
+   "ctx": "data/campaign/rules.csv convDefaultGreetingPather [text]"
+  },
+  {
+   "i": 51,
+   "en": "After a short wait, your connection request is accepted.\r\n\r\n\"Aye, what's your business?\"\r\nOR\r\nThe comms visuals resolve after several attempts, though with occasional flickers. $PersonName seems to be using an old or rad-damaged comms unit.\r\n\r\n\"Bright stars and long burns. How can I be helping?\"",
+   "ctx": "data/campaign/rules.csv convDefaultGreetingSpacer [text]"
+  },
+  {
+   "i": 52,
+   "en": "After a short wait, your connection request is accepted.\r\n\r\n\"Salutations dear captain. What brings you to me?\"\r\nOR\r\nAfter a short wait, your connection request is accepted.\r\n\r\n\"Why hello, aren't you just a character.\" $HeOrShe looks at you expectantly. \"Did I hire you for something or other?\"\r\nOR\r\nThe comms resolve to $personName's face - distracted by something off-display. \"Oh you've interrupted- well, fine, fine. The damage is done.\"\r\n\r\n\"You!\" This, said to someone off-display, \"You can finish up later, I must take this.\"\r\n\r\n$PersonName turns to you finally, \"-Well go on, what could be so important?\"",
+   "ctx": "data/campaign/rules.csv convDefaultGreetingAristo [text]"
+  },
+  {
+   "i": 53,
+   "en": "After a short wait, your connection request is accepted.\r\n\r\n\"This is $Post $personName. How may I be of service?\"",
+   "ctx": "data/campaign/rules.csv convDefaultGreetingOfficial [text]"
+  },
+  {
+   "i": 54,
+   "en": "After a short wait, your connection request is accepted.\r\n\r\n\"Welcome, welcome! What business do you have with me today?\"",
+   "ctx": "data/campaign/rules.csv convDefaultGreetingBusiness [text]"
+  },
+  {
+   "i": 55,
+   "en": "After a short wait, your connection request is accepted.\r\n\r\n\"Greetings. I'm very busy, so just tell me what you want.\"",
+   "ctx": "data/campaign/rules.csv convDefaultGreetingScientist [text]"
+  }
+ ]
+}

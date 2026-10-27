@@ -1,0 +1,171 @@
+{
+ "chunk": 160,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"The Warlord Leonis, cycle 47? Invaded the Isirah system? Blood and conquest?\"\r\n\r\nHer image rolls its eyes at you, \"Look, if Scylla asks, tell her I tried my best to make it out like I was giving you a mysterious riddle and not just tell you right out loud where to find her.\"",
+   "ctx": "data/campaign/rules.csv gaFCZalLeonisWho [text]"
+  },
+  {
+   "i": 2,
+   "en": "Her image smiles mysteriously, \"I didn't say it.\"",
+   "ctx": "data/campaign/rules.csv gaFCZalLeonisIsirah [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"Oh, one more thing- when you find her, be sure to bring her a block of Sub-Kay brand alamang. Make sure it's blue-bar, the good stuff. You can only really get it on Fikenhild. She says everything else belongs in a recycling tank.\"",
+   "ctx": "data/campaign/rules.csv gaFCZalAlamang [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"Yup.\" Her image smiles, delighted to give you such a poor answer.\r\n\r\n\"Look, she doesn't tell me her exact location. And besides, it changes. I just make sure she can get a signal out of the system for... well, that's for Sy to tell you. If she wants.\"\r\n\r\n\"Good luck sowing chaos, Captain.\"\r\n\r\nThe image of Elissa Zal flickers and degenerates into a mosaic of corrupted compression algorithm artifacts.",
+   "ctx": "data/campaign/rules.csv gaFCZalAllYouGet [text]"
+  },
+  {
+   "i": 5,
+   "en": "You disconnect the comms, wondering at what exactly is going on with what seems to be an unofficial hyperwave comm relay. Any answers, it seems, are to be found in the Isirah system.\r\n\r\nAnd before you forget, you ping your quartermaster with instructions to pick up a block of this special krill paste.",
+   "ctx": "data/campaign/rules.csv gaFCZalLeave [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"Captain $playerName.\" His tone is respectful, perhaps with a note of amusement.\r\n\r\n\"Finally, we may speak directly. Finlay Siyavong, at your service.\"",
+   "ctx": "data/campaign/rules.csv GAFCSiyavongFikenhildGreet1 [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Demarchon $playerName.\" His tone is respectful, perhaps with a note of amusement.\r\n\r\n\"Finally, we may speak directly. Finlay Siyavong, at your service.\"",
+   "ctx": "data/campaign/rules.csv GAFCSiyavongFikenhildGreet1PL [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"$playerName. I am Finlay Siyavong; finally we may speak directly. And discreetly.\" He lowers his head, his expression hardening, \"A skill, alongside tact, which you would do well to practice.\"\r\n\r\nHe looks aside, \"You have a way of complicating matters, such as a certain surveillance operation in the Kay-arco undercity. Let me emphasize- \" he stops himself. \"No, let us speak to the matter at hand.\"",
+   "ctx": "data/campaign/rules.csv GAFCSiyavongFikenhildGreet2 [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"Demarchon $playerName. I am Finlay Siyavong; finally we may speak directly. And discreetly.\" He lowers his head, his expression hardening somewhat, \"A skill, alongside tact, which I would expect a demarchon of the League would better appreciate.\"\r\n\r\nHe looks aside. \"There's a risk of complicating matters. Such as a certain surveillance operation in the Kay-arco undercity. Let me emphasize- \" he stops himself.\r\n\r\n\"No, I apologize. I shall speak only to the matter at hand.\"",
+   "ctx": "data/campaign/rules.csv GAFCSiyavongFikenhildGreet2PL [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"I am Finlay Siyavong, though you have made it quite clear that you know this already and are eager to display that knowledge in front of persons of interest to the Service.\" \r\n\r\n\"Let me be clear. The League guarantees certain rights to intersystem merchants, though it is a stretch to ascribe you even that status considering your 'colorful' record. Even if you display no respect for this institution and my explicit requests from you, I cannot simply lock you up.\" He folds his arms, and leans back. \"As much as I would like to.\"\r\n\r\n\"But we have a more important matter to discuss, don't we $playerName.\"",
+   "ctx": "data/campaign/rules.csv GAFCSiyavongFikenhildGreet3 [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"I am Finlay Siyavong, though you have made it quite clear that you know this already and are eager to display that knowledge to persons of interest to the Service.\" \r\n\r\n\"Let me be clear. As demarchon you are given a certain leeway. And even if you display zero respect for our shared institutions and my explicit requests not to divulge confidential information, I cannot simply lock you up.\" He folds his arms, and leans back. \"As much as I would like to.\"\r\n\r\n\"But we have a more important matter to discuss, don't we Demarchon $playerName.\"",
+   "ctx": "data/campaign/rules.csv GAFCSiyavongFikenhildGreet3PL [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"I am as you see, a representative of the Persean League Fleet Intelligence Service.\" Siyavong spreads his hands, as if showing he means no harm. \"I work on behalf of the defense and security of the freedoms enjoyed by the constituents of the Persean League.\"\r\n\r\n\"But we are speaking today because of you, captain. You've been somewhat indiscreet in your search for an asset who is of interest to the Service.\"",
+   "ctx": "data/campaign/rules.csv GAFCSiyavongFikenhildWhatDo [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"I am as you see, a representative of the Persean League Fleet Intelligence Service.\"\r\n\r\nSiyavong spreads his hands, as if showing he means no harm. \"I work on behalf of the defense and security of the freedoms enjoyed by the constituents of the Persean League, which includes yourself and your organization.\"\r\n\r\n\"But we are speaking today because of you, captain, demarchon. You've been somewhat indiscreet in your search for an asset who is of interest to the Service and the League.\"",
+   "ctx": "data/campaign/rules.csv GAFCSiyavongFikenhildWhatDoMem [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"Yes, we've been watching you for some time.\" Siyavong lifts a datapad and makes a show of reading it. \"You've enjoyed a rather fascinating career lately, captain. You seem to have a knack for finding trouble, and for trouble finding you.\" \r\n\r\nHe puts down the datapad. \"It's provided much fodder for the analysts.\"  \r\n\r\n\"To be perfectly honest,\" he says, and smiles just a little, \"I had hoped I would not find it necessary to speak with you so directly. But you've forced my hand, so here we are.\"",
+   "ctx": "data/campaign/rules.csv GAFCSiyavongFikenhildLongEnough [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"Ah. It took some time for the message to get through the... not quite the proper channels, of course...\" Siyavong puts on a sly look for a moment. \"I wouldn't say I expected you to reach out so directly, but perhaps I should have.\"\r\n\r\nHe lifts a datapad and taps its face. \"You've enjoyed a fascinating career lately, demarchon. You have a knack for finding trouble, and for trouble finding you. It's provided much fodder for the analysts.\"  \r\n\r\nHe sets the datapad down.\r\n\r\n\"To be perfectly honest,\" he begins, with an ironic hint of smile, \"I had hoped we wouldn't have to speak at all. It'd be cleaner. But my hand was forced and here we are.\"",
+   "ctx": "data/campaign/rules.csv GAFCSiyavongFikenhildLongEnoPLb [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"Yes, we've been watching you for some time.\" Siyavong lifts a datapad and makes a show of reading it. \"You've enjoyed a rather fascinating career lately, demarchon. You seem to have a knack for finding trouble, and for trouble finding you.\" \r\n\r\nHe puts down the datapad. \"It's provided much fodder for the analysts.\"  \r\n\r\n\"To be perfectly honest,\" he says, and smiles just a little, \"I had hoped I would not find it necessary to speak with you so directly. But you've forced my hand, so here we are.\"",
+   "ctx": "data/campaign/rules.csv GAFCSiyavongFikenhildLongEnoPL [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"A rather direct question to ask an agent of the service, don't you think?\" Agent Siyavong seems genuinely amused. \"But that is the heart of the matter, and your profile suggests a certain propensity for, shall we say, direct thinking.\"\r\n\r\n\"Let me answer you with a question,\" he says, leaning in.\r\n\r\n\"Why should you know where Scylla Coureuse is?\"",
+   "ctx": "data/campaign/rules.csv GAFCSiyavongFikenhildWhereScylla [text]"
+  },
+  {
+   "i": 18,
+   "en": "He drops the smile and shifts the tilt of his head.\r\n\r\nThe pause lengthens, but he isn't saying anything.",
+   "ctx": "data/campaign/rules.csv GAFCSiyavongFikenhildHubB [text]"
+  },
+  {
+   "i": 19,
+   "en": "Agent Siyavong gives a short, strange bark of laughter. \"Oh, indeed,\" he says. \r\n\r\nHe pauses for a moment, examining you. \"You're not serious.\"",
+   "ctx": "data/campaign/rules.csv GAFCSiyavongFikenhildHelp [text]"
+  },
+  {
+   "i": 20,
+   "en": "He looks at you, curiously, his brow creased. \"Interesting,\" he says to himself, \"Direct.\"\r\n\r\n\"Is that really what you believe?\" he muses, then waves the question away, \"No need to respond to that. You've given me much to think about. Meanwhile - there's important business to get to: saving Scylla Coureuse.\" He grins like this is a shared joke.\r\n\r\n\"Coureuse is in the Isirah system, of course. I will provide you-\" he pauses dramatically as he taps something out on his desk console; your TriPad pings, \"-with a plausible-looking data intercept of a communication between her and Mr. Cavin Pharoh.\"",
+   "ctx": "data/campaign/rules.csv GAFCSiyavongFikenhildSerious [text]"
+  },
+  {
+   "i": 21,
+   "en": "Agent Siyavong looks like he's having fun; now you're playing his game.\r\n\r\n\"Of course, captain. Coureuse is in the Isirah system. I will provide you-\" he pauses dramatically as he taps something out on his desk console; your TriPad pings, \"-with a plausible-looking data intercept of a communication between her and Mr. Cavin Pharoh.\" \r\n\r\n\"It'll show Provost Baird that you worked hard for it,\" he says with a wink.",
+   "ctx": "data/campaign/rules.csv GAFCSiyavongFikenhildSortOf2 [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"I didn't tell you anything.\"\r\n\r\nHe makes a gesture toward you. \"You intercepted a communication, remember? Besides, Isirah- well, it's not a big place. I'm sure you'll put the pieces together.\"",
+   "ctx": "data/campaign/rules.csv GAFCSiyavongFikenhildJustTellingMe [text]"
+  },
+  {
+   "i": 23,
+   "en": "Siyavong's smile widens, \"If I didn't, did you just confirm it?\"",
+   "ctx": "data/campaign/rules.csv GAFCSiyavongFikenhildHowKnowBaird [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"Quite,\" he folds his hands in a businesslike manner, \"So?\"",
+   "ctx": "data/campaign/rules.csv GAFCSiyavongFikenhildNo [text]"
+  },
+  {
+   "i": 25,
+   "en": "Agent Siyavong looks like he's having fun; now you're playing his game.\r\n\r\n\"Well, $playerName, I happen to be one of these other people. She is important- or, more precisely, she could be important if she is given the correct opportunity.\"\r\n\r\nHe leans in, and says softly, \"There are those who would like her to remain insignificant. Possibly forever. I think... we should not let it be that way. I suspect your 'other person' agrees with me on this point, if little else.\"",
+   "ctx": "data/campaign/rules.csv GAFCSiyavongFikenhildOtherPeople [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"Coureuse is in the Isirah system, of course. I will provide you-\" he pauses dramatically as he taps something out on his desk console. Your TriPad pings, \"-with a plausible-looking data intercept of a communication between her and Mr. Cavin Pharoh to 'prove' the success of your search here.\"\r\n\r\nHe puts his hands together, not quite hiding his grin. \"Provost Baird will be pleased, I'm sure.\"",
+   "ctx": "data/campaign/rules.csv GAFCSiyavongFikenhildOtherPeople2 [text]"
+  },
+  {
+   "i": 27,
+   "en": "Agent Siyavong blinks, and frowns as if he didn't expect you to simply come out and say it.\r\n\r\n\"I must admit that your forthrightness is somewhat disturbing.\"\r\n\r\n\"I advise you to be mindful of who you share your words with,\" he says sternly, \"Particularly in consideration of what you're about to learn.\"",
+   "ctx": "data/campaign/rules.csv GAFCSiyavongFikenhildBaird [text]"
+  },
+  {
+   "i": 28,
+   "en": "Siyavong pauses, showing no emotion or movement at all. You almost wonder if the comms feed has frozen, then he speaks. \"I am interested, captain. Shall we make it a trade? Zal's comms ID for the location of Scylla Coureuse?\r\n\r\nHe smiles now.",
+   "ctx": "data/campaign/rules.csv GAFCSiyavongFikenhildContactZal [text]"
+  },
+  {
+   "i": 29,
+   "en": "Siyavong studies his TriPad. \"Fascinating,\" he says, then looks up, setting it aside.",
+   "ctx": "data/campaign/rules.csv GAFCSiyavongFikenhildZal [text]"
+  },
+  {
+   "i": 30,
+   "en": "Agent Siyavong blinks, frowning at your directness\r\n\r\n\"You are forthright, captain. I'm afraid, with apologies, that the report heirarchy doesn't quite work like that. You may, of course, submit an official request to the FIS through proper channels. Though I hear there's something of a backlog.\"\r\n\r\nHis smirk is almost deniable. He lets you wait for just a moment before this would register as insolence, then continues.\r\n\r\n\"Nonetheless, as I'm sure you're aware, we in the League pride ourselves on a certain spirit of dynamism and cooperation which sets us apart from, say, the Hegemony.\"",
+   "ctx": "data/campaign/rules.csv GAFCSiyavongMeLeague [text]"
+  },
+  {
+   "i": 31,
+   "en": "Siyavong puts on a dutifully, if not quite friendly, expression at your sudden display of patriotism.",
+   "ctx": "data/campaign/rules.csv GAFCSiyavongMeLeague2a [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"Direct to the last,\" Siyavong says to himself, patience not quite frayed. Not quite.",
+   "ctx": "data/campaign/rules.csv GAFCSiyavongMeLeague2b [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"Coureuse is in the Isirah system. I will provide you-\" he pauses dramatically as he taps something into his control interface; your TriPad pings, \"with a plausible-looking data intercept of a communication between her and Mr. Cavin Pharoh.\" \r\n\r\n\"It'll show Provost Baird that you worked hard for it,\" he says with a wink.",
+   "ctx": "data/campaign/rules.csv GAFCSiyavongFikenhildCoureuseIsirah [text]"
+  }
+ ]
+}

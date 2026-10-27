@@ -1,0 +1,171 @@
+{
+ "chunk": 92,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "Engineering smirks at Tech.\r\n\r\n\"It is essentially unstable, if left alone,\" Tech admits. \"Without containment, it will,\" a pause, searching for the word. \r\n\r\n\"Fade away? No, withdraw. Slowly. The process is non-linear, and appears to accelerate, given time. Although it's hard to measure exact terms of mass, volume, or... output. It all just becomes... less.\"",
+   "ctx": "data/campaign/rules.csv shroudedSubstrateOptSelD [text]"
+  },
+  {
+   "i": 2,
+   "en": "Tech looks to Engineering, who can barely suppress a grin despite a previous air of skepticism. Your chief engineer nods, and flips a TriPad around.\r\n\r\n\"It's pretty simple, $playerSirOrMadam. Scale up the testing rig using modified common equipment to produce outputs in the combat application range. A robust chassis is not difficult. We're already equipped to repair modular components of most weapon systems using microforged components and existing supply stocks.\" \r\n\r\nThey pause, looking into the workbay once more. \"The key is this 'substrate'. It provides the core, the... amplification, the transformation.\"",
+   "ctx": "data/campaign/rules.csv shroudedSubstrateOptSelE [text]"
+  },
+  {
+   "i": 3,
+   "en": "Tech speaks up, \"Using sensor data recorded during our encounter with the, um, hostile entities, we believe it is possible to reliably reproduce certain effects which have been observed.\"\r\n\r\nThe schematics scrolling before you are complex, but you recognize the conduits and capacitors common to energy weapon mounts. And something strange at the center of each design, some beating heart which does not belong within these human creations.\r\n\r\nYou trust your officers enough not to ask if the projected power outputs are an error - you've already seen what these things are capable of.",
+   "ctx": "data/campaign/rules.csv shroudedSubstrateOptSelE2 [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"$PlayerSirOrMadam,\" they say once more in unison.\r\n\r\nShrouded Substrate available: $player.shroudedSubstrateAvailable unit(s).",
+   "ctx": "data/campaign/rules.csv shroudedSubstrateOptSelF [text]"
+  },
+  {
+   "i": 5,
+   "en": "You consult with your technical officer and engineering chief in a small briefing room overlooking a workbay adapted to store and analyze the unusual specimens you've found. They are poring over schematics, deep in an argument over implementation details. You are pleased to note that their disagreement plays out within a foundation built of professional respect.  \r\n\r\nThey notice you and, in unison, say \"$PlayerSirOrMadam.\"\r\n\r\nShrouded Substrate available: $player.shroudedSubstrateAvailable unit(s).",
+   "ctx": "data/campaign/rules.csv shroudedSubstrateWasAnalyzed [text]"
+  },
+  {
+   "i": 6,
+   "en": "Your technical officer and chief engineer pore over the schematics, arguing over implementation details. You are pleased to note that their disagreement plays out within a foundation built of professional respect.  \r\n\r\nShrouded Substrate available: $player.shroudedSubstrateAvailable unit(s).",
+   "ctx": "data/campaign/rules.csv SubstrateWeaponsPicked [text]"
+  },
+  {
+   "i": 7,
+   "en": "You find your technology officer and chief engineer in deep discussion over one of the unusual specimens held in the \"special salvage' bay.",
+   "ctx": "data/campaign/rules.csv ShroudedHullmodItemRCMantle1a [text]"
+  },
+  {
+   "i": 8,
+   "en": "You find your technology officer and chief engineer in another discussion over one of the unusual specimens held in the \"special salvage' bay.",
+   "ctx": "data/campaign/rules.csv ShroudedHullmodItemRCMantle1b [text]"
+  },
+  {
+   "i": 9,
+   "en": "Engineering is frowning, manipulating a diagram of a ship with abrupt flicks at the interface. \"It'd have to be anchored to the flux grid. Only way to keep it wrapped close enough to the hull geometry.\"\r\n\r\n\"Precisely,\" Tech says. \"To keep the exotic material from diminishing! It will draw energy from incoming projectiles, storing it in the, um... meta-plasma?\"\r\n\r\nEngineering snorts dismissively.\r\n\r\n\"Merely a working term,\" Tech says defensively.",
+   "ctx": "data/campaign/rules.csv ShroudedHullmodItemRCMantle2 [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"We can't store energy forever in this theoretical, pretend-plasma,\" Engineering says. \"It'll have to go somewhere.\"\r\n\r\n\"Invert the polarity of the flux converters and flicker the drive field. Boom, a gentle bump to local time-space.\" Tech looks self-satisfied. \"Um, by which I mean the ship itself.\"\r\n\r\n\"You hope it's a gentle bump.\" Engineering frowns, pulling up agrav inertial suppression timing charts. \"If it works.\"",
+   "ctx": "data/campaign/rules.csv ShroudedHullmodItemRCMantle3 [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"It'll work,\" Tech says.",
+   "ctx": "data/campaign/rules.csv ShroudedHullmodItemRCMantle4a [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"It'll work,\" Tech says. \"Remember last time?\"",
+   "ctx": "data/campaign/rules.csv ShroudedHullmodItemRCMantle4b [text]"
+  },
+  {
+   "i": 13,
+   "en": "Both jump to attention, having been so involved in their argument that neither noticed you approach.\r\n\r\n\"$PlayerSirOrMadam, yes $playerSirOrMadam,\" they say, saluting.",
+   "ctx": "data/campaign/rules.csv ShroudedHullmodItemRCMantle5 [text]"
+  },
+  {
+   "i": 14,
+   "en": "You consider the undeniable possibility that the Luddic faith would view any use of this technology as literally demonic. You could be declared a heretical outlaw and hunted by the Knights of Ludd and Luddic Path alike.",
+   "ctx": "data/campaign/rules.csv ShroudedHullmodItemRCMantle6 [text]"
+  },
+  {
+   "i": 15,
+   "en": "You find your technology officer and chief engineer in another deep discussion over one of the unusual specimens held in the \"special salvage' bay.",
+   "ctx": "data/campaign/rules.csv ShroudedHullmodItemRCTH1b [text]"
+  },
+  {
+   "i": 16,
+   "en": "Tech is spinning a dazzlingly complex holo-mockup filled with arcing lines and arcane symbols. \r\n\r\n\"A cloud of the exotic material could be held within a sort of flickered hyperspace gradient... Theoretically, it would build up charge as outgoing projectiles traverse the 'imbued' field gradient and... theoretically, that extra charge could be sustained then directed at nearby hostiles.\"",
+   "ctx": "data/campaign/rules.csv ShroudedHullmodItemRCTH2 [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"Theoretically.\" Engineering's arms are crossed below a very skeptical look.\r\n\r\n\"To operate during combat... hmm. Modifications would have to be made. Shield emitters, drive field, inertial suppression... I'll need to perform some tests.\"\r\n\r\nEngineering finally notices you observing their talk and stands to attention. \"With your approval, $PlayerSirOrMadam.\"",
+   "ctx": "data/campaign/rules.csv ShroudedHullmodItemRCTH3 [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"This 'lens' - a working term, of course - does not operate in normal space as-such.\"\r\n\r\nTech is deep in lecture mode over an arcane holo-diagram. You can tell they've been talking for some minutes from Engineering's impatient eye roll.\r\n\r\n\"It could be emplaced deep within the hull, in a specially stabilized cradle - for safety,\" Tech continues.\r\n\r\nEngineering appears pained at describing this proposal as 'safe'.",
+   "ctx": "data/campaign/rules.csv ShroudedHullmodItemRCL2 [text]"
+  },
+  {
+   "i": 19,
+   "en": "Tech proceeds without acknowledging any objection.\r\n\r\n\"-spin it up during combat maneuvers, adjusting the frequency of the 'probes' adapted from drive-field stabilizers. It would create hyperspace fractures which would cause terrible damage to n-space structures. Starships, for instance. Now, for obvious reasons, the theoretical range is infinite...\"",
+   "ctx": "data/campaign/rules.csv ShroudedHullmodItemRCL3 [text]"
+  },
+  {
+   "i": 20,
+   "en": "Both jump at your words, standing to attention. \"$PlayerSirOrMadam!\" they say in uncharacteristic unison.\r\n\r\nEngineering takes the opportunity to finally get a word in. \"Accuracy decreases in... interestingly, a sharp harmonic progression. But this means anything beyond mid-range combat parameters will effectively create an energetic burst at a random spot somewhere within the n-space universe.\" They side-eye Tech. \"Just another blip of cosmic background radiation.\"\r\n\r\nTech looks like they might say something, but no words come. Engineering fills the silence again. \"Practically, it could only target reasonably nearby hostiles.\"",
+   "ctx": "data/campaign/rules.csv ShroudedHullmodItemRCL4 [text]"
+  },
+  {
+   "i": 21,
+   "en": "Your $shipOrFleet approaches $entityName.\r\n\r\nThe huge planet spins languidly below your $shipOrFleet, deep in a cryosleep of its own between the far-flung stars of the galaxy. Gravitational compression and the barest trickle of radioactive decay warm the interior well above the interstellar medium, feeding active weather systems which slowly churn across the cold face of the world.\r\n\r\n\"$PlayerSirOrMadam, I-\" your sensors officer pulls up the live feed from a sensor subsuite. This gets the attention of Tactical.\r\n\r\nAfter a moment, even you can see it: a disruption, a gout of sudden turbulence like a dozen giant hurricanes turning over.",
+   "ctx": "data/campaign/rules.csv abyssalGasGiantTurbulence [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"Massive storm system. Sudden heat anomaly, um, relatively speaking. Some kind of upwelling,\" your sensors officer responds, rapid-fire. You know they don't like not having a clear answer.\r\n\r\n\"Powering up gravimetrics. If there's something hiding under those clouds, that'll show it.\"\r\n\r\nThey tap at their console, calibrating a new subsuite of the $shipOrFleet sensor network. The minutes tick by as the systems self-adjust to the planet, the estimated accuracy of readings steadily rising on the shared display. The readout sharpens, clarifies, begins to map the mass-density of $entityName.\r\n\r\nAt the same time, the anomaly subsides, leaving storm-cells the size of moons spinning through the atmosphere.",
+   "ctx": "data/campaign/rules.csv abyssalGasGiantTurbulence2 [text]"
+  },
+  {
+   "i": 23,
+   "en": "Sensors looks increasingly agitated, rapidly switching between sensor interfaces to collate telemetry.\r\n\r\n\"Captain, I cannot ascertain the cause. A huge burst of energy was released into the atmosphere, an upwelling like... the mass readings don't show any unexpected structures or objects, natural or otherwise.\"\r\n\r\nTactical frowns, ever suspicious, and says \"This happens just when our $shipOrFleet arrives? I don't like it.\"",
+   "ctx": "data/campaign/rules.csv abyssalGasGiantTurbulence3 [text]"
+  },
+  {
+   "i": 24,
+   "en": "Your orders are acknowledged and carried out; your sensors officer keeps their team at high alert, and all others are at the ready.\r\n\r\nBelow, $entityName spins complacently, its shadow-side occasionally lit with patches of lightning as titanic atmospheric currents do battle.",
+   "ctx": "data/campaign/rules.csv abyssalGasGiantTurbulence4 [text]"
+  },
+  {
+   "i": 25,
+   "en": "Your $shipOrFleet approaches $entityName.\r\n\r\nUpon your return, your sensors officer is determined not to be caught off-guard again. The sensor net is set to high intensity and the gravimetric suite is loaded with the previously collected calibration data.\r\n\r\nThere's no sign of unusual turbulence; just the crawl of atmospheric bands, lightning storms flickering where their edges meet like battling fleets in a far-off nebula.",
+   "ctx": "data/campaign/rules.csv abyssalGasGiantTurbulenceRevisit [text]"
+  },
+  {
+   "i": 26,
+   "en": "Your $shipOrFleet approaches $entityName.\r\n\r\nA preliminary surface scan reveals certain inconsistencies in expected mass-densities for this category of planetoid.\r\n\r\nYour sensors officer orders additional sweeps, at higher power and resolution. A picture of the situation starts to come together: large deposits of useful elements have been extracted and the dig-sites, whether surface deposits or deep veins, have been carefully returned to something approximating their natural state. Shafts have been infilled, tailings spread evenly and packed over the extraction fields.\r\n\r\nSensors consults with your operations chief, who did a stint in fringe mining earlier in their career. Ops looks grim.",
+   "ctx": "data/campaign/rules.csv abyssalPlanetoidMiningOp [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"Don't look right, $playerSirOrMadam,\" Ops says, turning a weathered face to you.\r\n\r\n\"Aye, could've been an indie miner or scav. Could've. But there's nothing- no temporary works, no pillaring, no tread tracks. Should be dead power cells and ration wrappers scattered like stars in the dark. Ain't nothing.\"\r\n\r\nOps scowls. \"No one cleans up like this, not even Tachy autominers. No profit in it. Especially not out here.\"",
+   "ctx": "data/campaign/rules.csv abyssalPlanetoidMiningOp2 [text]"
+  },
+  {
+   "i": 28,
+   "en": "Your $shipOrFleet approaches $entityName.\r\n\r\nThe faint signs of a massive mining operation remain and are just as suspiciously neat as before, as tidy as a penitent Luddic rock-gardener. Sensor records do not show any significant changes since the last scan. ",
+   "ctx": "data/campaign/rules.csv abyssalPlanetoidMiningOpRevisit [text]"
+  },
+  {
+   "i": 29,
+   "en": "Your $shipOrFleet approaches $aOrAn $nameInText.",
+   "ctx": "data/campaign/rules.csv GS_AI_CORES_open [text]"
+  },
+  {
+   "i": 30,
+   "en": "The outside hull is oddly pristine, as if sent on a long journey fresh from the forge without personalized outfitting and customization.\r\n\r\nYour salvors breach the exterior and find a different story: crudely anchored power conduits and coolant tubes have been rigged haphazardly through the shafts and corridors of the ship. Safety doors are stuck open and hatches cut through to provide access to serpentine bundles of cable. It's not high-quality work; the occasional powered-down maintenance drone, stupid automatic things meant to assist human technicians, suggests the obvious culprits.\r\n\r\nYour salvors must make numerous cuts to clear access to core ship systems. It is not dangerous, merely inconvenient. It is near the true centerpoint of the hull volume that they find a trio of AI cores, two gammas and a beta from the looks of the casings. They are unpowered, the coolant congealed in its pipes.",
+   "ctx": "data/campaign/rules.csv GS_AI_CORES_cont1Sel [text]"
+  },
+  {
+   "i": 31,
+   "en": "What looked to be a valuable if legally problematic find is a bust, however: the AI cores are hollowed out, as if perfect spheres of nothingness appeared where once cybernetic superintelligence dwelled.\r\n\r\nThe computer memory of the ship proper has no answers; it was overridden from the start and appears to be convinced that it's still in its forge-cradle.",
+   "ctx": "data/campaign/rules.csv GS_AI_CORES_cont2Sel [text]"
+  },
+  {
+   "i": 32,
+   "en": "Your salvors detect a very weak energy shield still active, despite main power loss. It is oddly fluctuating, as if tuned to a frequency which would be of no use in combat.\r\n\r\nIt is a simple matter to disrupt and breach the shield with standard civilian EM probe-and-shield kit, and the salvors do so handily.",
+   "ctx": "data/campaign/rules.csv GS_TRI_TACHYON_cont1Sel [text]"
+  },
+  {
+   "i": 33,
+   "en": "A search reveals that this is, or rather was, a Tri-Tachyon flagged vessel. \r\n\r\nThe crew is dead. What's left of the young executive with lead authority over the operation is still in his luxuriously outfitted personal cabin; such incidents involving the untimely discharge of an engineering-grade plasma cutter are not unknown in poorly managed repair docks, but when they occur in a ship's executive suite, pointed questions are raised.\r\n\r\nThe last survivor, suited against the apparent life support failure, is found near the jury-rigged power generator that was spliced into the ship's shield-grid. The suit's safeties were overridden and its atmo mix of oxygen reduced to zero.\r\n\r\nIt would have been a painless slide into unconsciousness and, soon enough, death.",
+   "ctx": "data/campaign/rules.csv GS_TRI_TACHYON_cont2Sel [text]"
+  }
+ ]
+}

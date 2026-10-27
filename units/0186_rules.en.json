@@ -1,0 +1,236 @@
+{
+ "chunk": 186,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"The music did not return. So that was my one moment, I thought. It had confirmed my righteous calling, and that was enough. For years I 'heard' nothing. I expected nothing.\" \r\n\r\n\"Then, one day not too long ago,\" he speaks haltingly, looking troubled. \"It, it did visit upon me again.\" \r\n\r\nHis voice is soft now, \"That was the day I was told you were to come here. What am I to make of that?\"",
+   "ctx": "data/campaign/rules.csv gaATGmeetCottonEnd1 [text]"
+  },
+  {
+   "i": 2,
+   "en": "Brother Cotton stands, \"I cannot say whether it is a choir of angels or a host of demons,\" he says. \"I fear not pain, death, or judgment. But I do fear to stray from the Path.\"\r\n\r\nHe adjusts his coat; one of his minions opens the door, and the clink and murmur of the teahouse returns.\r\n\r\n\"My people have already brought the abomination to your shuttle,\" and as if on cue you feel an urgent buzz from your comms.\r\n\r\n\"Go there now, with Ludd's peace,\" he says.",
+   "ctx": "data/campaign/rules.csv gaATGmeetCottonEnd2 [text]"
+  },
+  {
+   "i": 3,
+   "en": "Once outside the teahouse, you duck into a dark corner where the local vice squad is unlikely to spot you engaging in flagrant use of technology. You confirm via comms that the clone Loke has indeed been handed over to your waiting shuttle crew.\r\n\r\nYou return to your shuttle, and get the full but short story from your nervous guards: a squad of Pathers appeared, shoved a strange man into their hands, then left.",
+   "ctx": "data/campaign/rules.csv gaATGmeetCottonEnd3 [text]"
+  },
+  {
+   "i": 4,
+   "en": "Inside, a couple confused-looking marines are watching clone Loke eat a simple meal of space rations wrapped in foil. \r\n\r\nAs you approach, Loke looks at you curiously, dropping the foil packet. With a bland smile he says \"Ludd blesses you. Together we will walk on the Path.\"\r\n\r\nYou tell the marines to let him finish his lunch before escorting him to the brig for safekeeping.",
+   "ctx": "data/campaign/rules.csv gaATGmeetCottonEnd4 [text]"
+  },
+  {
+   "i": 5,
+   "en": "Loke smiles, some green thing from the ration still stuck in his teeth.\r\n\r\n\"Yes. I will go to Jorien,\" he says excitedly. \"I will tell her about the Path! She will like it.\"",
+   "ctx": "data/campaign/rules.csv gaATGmeetCottonEndAskLokeA [text]"
+  },
+  {
+   "i": 6,
+   "en": "Loke looks around, pausing a moment to take in the dusty blast-shields of the landing bay through a window. \"No,\" he says. \"It's cold.\"",
+   "ctx": "data/campaign/rules.csv gaATGmeetCottonEndAskLokeB [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"I...\" Loke's brow wrinkles around the grotesque scar on his forehead. \"I... want....\" \r\n\r\nHe bites his own lip, and cries out in pain. Anger rises on his face and he stomps the foil wrapper he dropped, as if to punish the thing.\r\n\r\nThe moment passes, and slowly his breathing returns to normal. His eyes wander over the ground, then back to you. \"We will go to space now?\" he asks.",
+   "ctx": "data/campaign/rules.csv gaATGmeetCottonEndAskLokeC [text]"
+  },
+  {
+   "i": 8,
+   "en": "Your nav officer calls your attention to the bridge display of the local volume; what passes for traffic control around Kanta's Den appears to be non-operational. A comms request blinks suddenly.\r\n\r\nWarlord Kanta appears, a masked face atop a throne draped with the trophies of raids and conquest. ",
+   "ctx": "data/campaign/rules.csv gaATGreturnLokeStart [text]"
+  },
+  {
+   "i": 9,
+   "en": "Beside her, of course, is 'doctor' Cydonia, who begins to speak. \"Ah, so captain, do-\" \r\n\r\n\"Do you return our dear Loke?\" Kanta booms over him.",
+   "ctx": "data/campaign/rules.csv gaATGreturnLokeStart2 [text]"
+  },
+  {
+   "i": 10,
+   "en": "Kanta breaks into a titanium smile. \r\n\r\n\"Good, good,\" says Cydonia, rushing to get a word in. \"The warlord is much pleased with your work.\"",
+   "ctx": "data/campaign/rules.csv gaATGreturnLokeFirst [text]"
+  },
+  {
+   "i": 11,
+   "en": "Kanta laughs inhumanly.\r\n\r\n\"Ah,\" says the doctor, licking his lips. \"I'm afraid it isn't quite so simple as that. You've not pleased the great warlord Kanta sufficiently for her to simply give you her prize tinker.\"",
+   "ctx": "data/campaign/rules.csv gaATGreturnLokeSendZal1 [text]"
+  },
+  {
+   "i": 12,
+   "en": "Tactical whispers in your ear, \"Captain, detected stealth mines arming. Sparse envelopment of $shipOrFleet. Damage outlook - checking - moderate. They want to show they can hit us.\"\r\n\r\nKanta's voice rolls from the comms, \"Kanta wields, and it is Kanta who orders. If... we give you a gift, it will be only at our pleasure. You must learn.\"\r\n\r\n\"Yes, yes,\" Cydonia agrees, \"You must learn. Kanta has for you another task: complete it without complaint then perhaps you may win back her favor... after, after such an outrageous-\"",
+   "ctx": "data/campaign/rules.csv gaATGreturnLokeBetrayal3 [text]"
+  },
+  {
+   "i": 13,
+   "en": "Zal joins the line, interrupting Cydonia.\r\n\r\n\"-I've decided to take Captain $playerName up on that deal,\" Zal says. Her voice sounds close, as if she is speaking from inside a vacsuit. \"Captain, I'm outside your flagship now if you would please open the bay doors.\"\r\n\r\nShock washes over Cydonia, \"Impossible!\" he says, and turns to some minion, \"Check Zal's quarters! Now!\"",
+   "ctx": "data/campaign/rules.csv gaATGreturnLokeZalShows [text]"
+  },
+  {
+   "i": 14,
+   "en": "Kanta's voice roars painfully across the comms, \"Call my fleets! Destroy th-\" \r\n\r\nHer cybernetic visage crackles in a wash of static.",
+   "ctx": "data/campaign/rules.csv gaATGreturnLokeZalShows2 [text]"
+  },
+  {
+   "i": 15,
+   "en": "Zal's image flickers, then holds steady. \r\n\r\n\"I took the liberty of injecting one of Gargoyle's tricks into their network.\" She smirks. \"Would you mind letting me on board? It won't take them long to get a signal out. This volume is going to be swarming with pirates very soon, to say nothing of the stealth mine network.\"",
+   "ctx": "data/campaign/rules.csv gaATGreturnLokeZal2 [text]"
+  },
+  {
+   "i": 16,
+   "en": "After a tense minute, security reports that they've brought Zal aboard - along with a large equipment case. At your orders, your security chief provides her with a ship's comm unit.\r\n\r\n\"I owe you one,\" Zal says, \"And I think I can repay you shortly. But first you're going to want to get out of the stealth mine network.\"\r\n\r\n\"I think you have something Kanta values more than taking revenge on you. Or me.\"",
+   "ctx": "data/campaign/rules.csv gaATGreturnLokeZal3 [text]"
+  },
+  {
+   "i": 17,
+   "en": "Security confirms your order.",
+   "ctx": "data/campaign/rules.csv gaATGreturnLokeAirlock1a [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"Captain,\" your tactical officer reports, \"The stealth mines have disarmed. We're clear to disengage.\"",
+   "ctx": "data/campaign/rules.csv gaATGreturnLokeGateRunStart1 [text]"
+  },
+  {
+   "i": 19,
+   "en": "Zal speaks up, \"Kanta will call her fleets. They usually loiter in nearby hyperspace. They'll come through the jump-points, then straight for us.\"\r\n\r\n\"We've got a way to get out of the Magec system without a fight,\" and you hear a smile in her voice. \"In the equipment case I brought on board: a fully operational Janus Device.\"",
+   "ctx": "data/campaign/rules.csv gaATGreturnLokeGateRun [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"Course locked in. Captain,\" navigation responds, a little nervous.",
+   "ctx": "data/campaign/rules.csv gaATGreturnLokeGateRunA [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"It won't be,\" says Zal. \"I promise. And besides, if it was? Imagine the hammer that would fall on Kanta.\"",
+   "ctx": "data/campaign/rules.csv gaATGreturnLokeGateRunB [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"$ShipOrFleet ready to burn,\" says navigation.",
+   "ctx": "data/campaign/rules.csv gaATGreturnLokeEnd [text]"
+  },
+  {
+   "i": 23,
+   "en": "Before you hangs the Gate, the vast and potent derelict of a former age.",
+   "ctx": "data/campaign/rules.csv gaATGMagecGate [text]"
+  },
+  {
+   "i": 24,
+   "en": "You have scanned this Gate and discovered the rhythm of the secret heart of the thing, hidden in a slip of space.",
+   "ctx": "data/campaign/rules.csv gaATGMagecGateHaveScanned [text]"
+  },
+  {
+   "i": 25,
+   "en": "Your command interface lights up. 'EXECUTE SCAN' blinks expectantly. The Gate awaits, as cold as a tomb.",
+   "ctx": "data/campaign/rules.csv gaATGMagecGateOptScan [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"You'll need to scan the Gate,\" Zal says softly on your comm-feed. \"And then...\"",
+   "ctx": "data/campaign/rules.csv gaATGMagecGateOptZalScan1 [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"With your permission, captain,\" Zal says over internal comms, \"I'll jury-rig the Janus Device into your flagship's hyperdrive.\"",
+   "ctx": "data/campaign/rules.csv gaATGMagecGateOptJanus1 [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"The Janus Device is ready,\" your navigation officer reports. \"We can traverse the Gate, $playerSirOrMadam. At your order.\"",
+   "ctx": "data/campaign/rules.csv gaATGMagecGateOptUse1 [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"On it,\" she says.\r\n\r\nIt takes mere minutes before your chief engineer reports that integration of the Janus Device into your hyperdrive system is complete.",
+   "ctx": "data/campaign/rules.csv gaATGMagecGateJanus [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"Then,\" Zal says, \"I give you my working Janus Device. I can hook it up to your flagship's hyperdrive. Then we can travel through the Gates to the Galatia system.\"",
+   "ctx": "data/campaign/rules.csv gaATGMagecGateAndThen [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"We'll see,\" Zal says.",
+   "ctx": "data/campaign/rules.csv gaATGMagecGateBaird [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"Yeah,\" Zal says, \"It's- let's just focus on getting through this alive.\"",
+   "ctx": "data/campaign/rules.csv gaATGMagecGateScylla [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"Captain,\" Zal says, \"I'll try to be brief. First: Scylla was sending me the Galatia Academy's schematics and experimental data all along. Including the results of the failed prototype test.\"\r\n\r\n\"Second: The Academy didn't have access to my, I'll admit, considerable and unique skills. And Kanta- those pirates can buy, cheat, and steal some fine gear on short notice.\"\r\n\r\n\"Third, and I'm not going to apologize, but Scylla and I held back the working device. It was my idea for leverage over Baird.\"",
+   "ctx": "data/campaign/rules.csv gaATGMagecGateExplode [text]"
+  },
+  {
+   "i": 34,
+   "en": "\"If this doesn't work, captain, then I've been wrong about everything and... Scylla has been wrong about everything. I trust her.\" \r\n\r\nShe hesitates, then says \"With my life.\"",
+   "ctx": "data/campaign/rules.csv gaATGMagecGateExplode2a [text]"
+  },
+  {
+   "i": 35,
+   "en": "\"You didn't though,\" she says impatiently, \"Let's focus on the present crisis. You've got the Gate there in front of you. Use it.\"",
+   "ctx": "data/campaign/rules.csv gaATGMagecGateExplode2b [text]"
+  },
+  {
+   "i": 36,
+   "en": "\"There will be time for that later,\" she says impatiently. \"If this doesn't work, captain, then Scylla and I have been wrong about everything. I trust her.\" \r\n\r\nShe hesitates, then says \"With my life.\"",
+   "ctx": "data/campaign/rules.csv gaATGMagecGateExplode2c [text]"
+  },
+  {
+   "i": 37,
+   "en": "Your command display shows the hyperspace manifold. It is calm and cool.\r\n\r\nThe scan begins, a line of disruption flaring between your flagship and the Gate. Spirals and ripples spill and surge in non-Newtonian bursts from a point at the center of the Gate. No, not a point - a circle, a sphere, a torus and inverted funnel; then some geometry that does not parse. You hear the faint music.\r\n\r\n\"Captain,\" your sensors officer reports, \"The scan is complete.\"",
+   "ctx": "data/campaign/rules.csv gaATGMagecGateDoScan [text]"
+  },
+  {
+   "i": 38,
+   "en": "The hyperspace manifold pulses coolly, then again, warmer. It is working. Your officers operate with collective cool, but you can feel their tension. You are about to do what no one has done for over two hundred cycles.\r\n\r\nA distant keening touches your mind. You instantly review your command status displays: no hyperspace alarm, no system alerts; no one else reacts as if anything is wrong. It's just in your head. An animal in pain; you try to concentrate on the sound and it slips away.\r\n\r\nYou hear the thrum of life support, the rumble of engines, the soft chorus of the bridge consoles' feedback and your officers' humanity. Everyone is watching the pulsing of the Gate.",
+   "ctx": "data/campaign/rules.csv gaATGMagecGateUse [text]"
+  },
+  {
+   "i": 39,
+   "en": "\"Captain $playerName,\" Baird says. \"We observed your $shipOrFleet come through the Gate.\"\r\n\r\n\"It was magnificent.\" She takes a deep breath, looking up and away for a moment, then back to you. \"History has leapt forward for the first time in two hundred cycles.\"\r\n\r\n\"Scylla,\" the provost says suddenly, \"She should hear this so she knows why I had to do all that I did. I'll link her in.\"",
+   "ctx": "data/campaign/rules.csv gaATGlastReturnStart1 [text]"
+  },
+  {
+   "i": 40,
+   "en": "\"Captain,\" Baird greets you, in her way. \"We've been hearing the strangest rumors over hypercomms,\" she says expectantly.",
+   "ctx": "data/campaign/rules.csv gaATGlastReturnStart2 [text]"
+  },
+  {
+   "i": 41,
+   "en": "Coureuse joins the call, alert and expectant. \r\n\r\n\"Captain!\" she says, \"And uh, provost. We've all been watching the feeds and- I've been in contact with Elissa. Thank you, thank you captain.\"\r\n\r\nThe provost raises an eyebrow. Prompted, Coureuse explains \"Elissa built a working Janus device and gave it to the captain. She's brought us the full schematics.\"\r\n\r\n\"I should like to meet this Elissa Zal,\" the provost says evenly. ",
+   "ctx": "data/campaign/rules.csv gaATGlastReturnIntroCoureuse [text]"
+  },
+  {
+   "i": 42,
+   "en": "\"Hello provost,\" Zal says, \"Finally we speak. I've heard so, so much about you.\"\r\n\r\nIt is a small thing, but you watch as Baird suppresses first shock, then a flash of anger at her comms being joined without invitation.",
+   "ctx": "data/campaign/rules.csv gaATGlastReturnIntroZal [text]"
+  },
+  {
+   "i": 43,
+   "en": "\"Elissa Zal,\" Baird says. You can almost feel her judging through the comm-link. \"This is all very... surprising,\" she says, off balance. \"Academician Coureuse. Zal. We have much to discuss, but first get those schematics to the hyperspace labs.\"\r\n\r\n\"And captain,\" the provost addresses you now, \"If you would come directly to my office. We ought not discuss details of the next stage on comms.\"",
+   "ctx": "data/campaign/rules.csv gaATGlastReturnIntroInvite [text]"
+  },
+  {
+   "i": 44,
+   "en": "You take your shuttle to the Galatia Academy. Elissa Zal sits across from you, smiling to herself.",
+   "ctx": "data/campaign/rules.csv gaATGlastReturnOffice1 [text]"
+  },
+  {
+   "i": 45,
+   "en": "Zal meets your eyes. \"Always,\" she says.",
+   "ctx": "data/campaign/rules.csv gaATGlastReturnVictory2 [text]"
+  },
+  {
+   "i": 46,
+   "en": "Zal rolls her eyes at you and fails to suppress a smile.",
+   "ctx": "data/campaign/rules.csv gaATGlastReturnVictory3 [text]"
+  }
+ ]
+}

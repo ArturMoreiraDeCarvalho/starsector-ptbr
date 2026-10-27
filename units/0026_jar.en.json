@@ -1,0 +1,1011 @@
+{
+ "chunk": 26,
+ "cat": "jar",
+ "items": [
+  {
+   "i": 1,
+   "en": "for the rich bastards from one of those Kazeron combines. ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/CorruptPLClerkSuppliesBarEvent.class"
+  },
+  {
+   "i": 2,
+   "en": "shall we say, exercise personal judgment.\"\n\n",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/CorruptPLClerkSuppliesBarEvent.class"
+  },
+  {
+   "i": 3,
+   "en": "You're able to negotiate the delivery fee from %s up to %s.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent$1.class"
+  },
+  {
+   "i": 4,
+   "en": "\n\nYou recall that ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent.class"
+  },
+  {
+   "i": 5,
+   "en": " TriPad.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent.class"
+  },
+  {
+   "i": 6,
+   "en": " Your fleet's fuel tanks can hold an additional %s units of fuel.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent.class"
+  },
+  {
+   "i": 7,
+   "en": " Your fleet's holds can accommodate an additional %s units of cargo.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent.class"
+  },
+  {
+   "i": 8,
+   "en": " and walk over to ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent.class"
+  },
+  {
+   "i": 9,
+   "en": " composure, ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent.class"
+  },
+  {
+   "i": 10,
+   "en": " does not appear too displeased. You consider that the initial offer ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent.class"
+  },
+  {
+   "i": 11,
+   "en": " double-checks something on ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent.class"
+  },
+  {
+   "i": 12,
+   "en": " exclaims. Taking a moment to recover ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent.class"
+  },
+  {
+   "i": 13,
+   "en": " glumly examines ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent.class"
+  },
+  {
+   "i": 14,
+   "en": " in ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent.class"
+  },
+  {
+   "i": 15,
+   "en": " is under %s control, and ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent.class"
+  },
+  {
+   "i": 16,
+   "en": " pad. ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent.class"
+  },
+  {
+   "i": 17,
+   "en": " says \"We've got a little logistical problem that could use ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent.class"
+  },
+  {
+   "i": 18,
+   "en": " table",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent.class"
+  },
+  {
+   "i": 19,
+   "en": " that urgently need to be delivered ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent.class"
+  },
+  {
+   "i": 20,
+   "en": " to %s",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent.class"
+  },
+  {
+   "i": 21,
+   "en": " uniform ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent.class"
+  },
+  {
+   "i": 22,
+   "en": " wastes no time in getting to the point.\n\n",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent.class"
+  },
+  {
+   "i": 23,
+   "en": "\"I've got %s units of ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent.class"
+  },
+  {
+   "i": 24,
+   "en": "\"Oh, it's you, ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent.class"
+  },
+  {
+   "i": 25,
+   "en": "\"The customer will pay %s upon delivery within %s days. Can you take this on?\"",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent.class"
+  },
+  {
+   "i": 26,
+   "en": "\"The offer is %s credits, payable upon delivery within %s days. You in?\"",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent.class"
+  },
+  {
+   "i": 27,
+   "en": "\"The offer is %s credits, payable upon delivery within %s days. You'll also have to ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent.class"
+  },
+  {
+   "i": 28,
+   "en": "\"You drive a hard bargain! Very well, it's a deal.\" ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent.class"
+  },
+  {
+   "i": 29,
+   "en": "%sYour fleet's cargo holds are currently full.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent.class"
+  },
+  {
+   "i": 30,
+   "en": "%sYour fleet's fuel tanks are currently full.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent.class"
+  },
+  {
+   "i": 31,
+   "en": ", in the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent.class"
+  },
+  {
+   "i": 32,
+   "en": "Accept the delivery contract",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent.class"
+  },
+  {
+   "i": 33,
+   "en": "After a brief introduction, ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent.class"
+  },
+  {
+   "i": 34,
+   "en": "Agree to handle the contract",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent.class"
+  },
+  {
+   "i": 35,
+   "en": "At a corner table, a concerned-looking ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent.class"
+  },
+  {
+   "i": 36,
+   "en": "But, well, you know what trader captains are like. There have been some disagreements over hazard pay, and it's left us in the lurch.\"",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent.class"
+  },
+  {
+   "i": 37,
+   "en": "Decline the offer, explaining that you've got other plans",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent.class"
+  },
+  {
+   "i": 38,
+   "en": "Decline, explaining that you've got other urgent business to attend to",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent.class"
+  },
+  {
+   "i": 39,
+   "en": "Destination: ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent.class"
+  },
+  {
+   "i": 40,
+   "en": "However, recent Pather cell activity has been making that difficult, and the regular trade fleets aren't quite up to the task.\"",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent.class"
+  },
+  {
+   "i": 41,
+   "en": "However, recent pirate activity has been making that difficult, and the regular trade fleets aren't quite up to the task.\"",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent.class"
+  },
+  {
+   "i": 42,
+   "en": "Negotiate a higher fee for the delivery",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent.class"
+  },
+  {
+   "i": 43,
+   "en": "Negotiated higher fee for delivery of ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent.class"
+  },
+  {
+   "i": 44,
+   "en": "Nod to the concerned ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent.class"
+  },
+  {
+   "i": 45,
+   "en": "Recent Pather cell activity has been making that difficult, but I'm sure you can handle any trouble.\"",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent.class"
+  },
+  {
+   "i": 46,
+   "en": "Recent pirate activity has been making that difficult, but you look like someone that could get the job done.\"",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent.class"
+  },
+  {
+   "i": 47,
+   "en": "There are %s units of ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent.class"
+  },
+  {
+   "i": 48,
+   "en": "We've had some disputes with the regular shipping company, and it's left us in the lurch. Should be a milk run for someone like you, though.\"",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent.class"
+  },
+  {
+   "i": 49,
+   "en": "You receive authorization codes to access a dockside warehouse, and contact your quartermaster with instructions to begin loading the cargo.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent.class"
+  },
+  {
+   "i": 50,
+   "en": "located in hyperspace,",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent.class"
+  },
+  {
+   "i": 51,
+   "en": "located in the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent.class"
+  },
+  {
+   "i": 52,
+   "en": "standard insurance procedure, you understand.\"",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent.class"
+  },
+  {
+   "i": 53,
+   "en": "transfer %s to an escrow account. This will be returned to you ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent.class"
+  },
+  {
+   "i": 54,
+   "en": "was probably on the low side.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent.class"
+  },
+  {
+   "i": 55,
+   "en": "when you complete the delivery - ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent.class"
+  },
+  {
+   "i": 56,
+   "en": "your personal touch. ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryBarEvent.class"
+  },
+  {
+   "i": 57,
+   "en": "bounty hunter",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryFailureConsequences.class"
+  },
+  {
+   "i": 58,
+   "en": " accepted ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryMissionIntel.class"
+  },
+  {
+   "i": 59,
+   "en": " contract to deliver a quantity of ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryMissionIntel.class"
+  },
+  {
+   "i": 60,
+   "en": " openly or approach it without ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryMissionIntel.class"
+  },
+  {
+   "i": 61,
+   "en": "%s held in escrow",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryMissionIntel.class"
+  },
+  {
+   "i": 62,
+   "en": "%s units to ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryMissionIntel.class"
+  },
+  {
+   "i": 63,
+   "en": "Delivery",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryMissionIntel.class"
+  },
+  {
+   "i": 64,
+   "en": "Delivery ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryMissionIntel.class"
+  },
+  {
+   "i": 65,
+   "en": "Delivery - ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryMissionIntel.class"
+  },
+  {
+   "i": 66,
+   "en": "To make the delivery, either dock at ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryMissionIntel.class"
+  },
+  {
+   "i": 67,
+   "en": "You had",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryMissionIntel.class"
+  },
+  {
+   "i": 68,
+   "en": "You've",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryMissionIntel.class"
+  },
+  {
+   "i": 69,
+   "en": "attracting the attention of nearby patrols.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryMissionIntel.class"
+  },
+  {
+   "i": 70,
+   "en": "which is under ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DeliveryMissionIntel.class"
+  },
+  {
+   "i": 71,
+   "en": " \"It's not so much trouble to, you know. Play along? ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DiktatLobsterBarEvent.class"
+  },
+  {
+   "i": 72,
+   "en": " arm regally ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DiktatLobsterBarEvent.class"
+  },
+  {
+   "i": 73,
+   "en": " sweeps ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DiktatLobsterBarEvent.class"
+  },
+  {
+   "i": 74,
+   "en": " to the provided TriAnon account",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DiktatLobsterBarEvent.class"
+  },
+  {
+   "i": 75,
+   "en": " turns to ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DiktatLobsterBarEvent.class"
+  },
+  {
+   "i": 76,
+   "en": "\"What do you say, will you help maintain a little law and order?\"",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DiktatLobsterBarEvent.class"
+  },
+  {
+   "i": 77,
+   "en": "\"Why, just today an amazing opportunity fell into my lap. And yours as well, how wonderful!\" ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DiktatLobsterBarEvent.class"
+  },
+  {
+   "i": 78,
+   "en": "'disloyal elements'.\n\n",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DiktatLobsterBarEvent.class"
+  },
+  {
+   "i": 79,
+   "en": "A grinning security officer is gesturing excitedly to a nearby patron.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DiktatLobsterBarEvent.class"
+  },
+  {
+   "i": 80,
+   "en": "Accept the offer and transfer ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DiktatLobsterBarEvent.class"
+  },
+  {
+   "i": 81,
+   "en": "But they insist on carrying on, and on... not that I mind the perks of the job, of course.\"",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DiktatLobsterBarEvent.class"
+  },
+  {
+   "i": 82,
+   "en": "Decline the offer apologetically, citing a terrible shellfish allergy",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DiktatLobsterBarEvent.class"
+  },
+  {
+   "i": 83,
+   "en": "Sidle up to the security officer and see what they're so pleased about",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DiktatLobsterBarEvent.class"
+  },
+  {
+   "i": 84,
+   "en": "What this amounts to, you are told, is that the District 4 Gendarmerie's evidence locker - and maintenance bay, and several interrogation rooms - are filled with cases of cryo-stabilized Volturnian Lobster, nearly %s units in all. The officers eat like royalty, yes, but there's only so much one can take and the coolant cells won't last another week without replacement, so.\n\n",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DiktatLobsterBarEvent.class"
+  },
+  {
+   "i": 85,
+   "en": "You are told the story of tiresome property seizures from ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DiktatLobsterBarEvent.class"
+  },
+  {
+   "i": 86,
+   "en": "and the entire cargo can be transferred to your holds without the bother of tariffs.\n\n",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DiktatLobsterBarEvent.class"
+  },
+  {
+   "i": 87,
+   "en": "several patrons.\n\n",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DiktatLobsterBarEvent.class"
+  },
+  {
+   "i": 88,
+   "en": "to encompass the scale of your shared luck, somehow managing not to spill the drinks of ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DiktatLobsterBarEvent.class"
+  },
+  {
+   "i": 89,
+   "en": "you. %s will satisfy the district commandant as well as your new friend here, ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/DiktatLobsterBarEvent.class"
+  },
+  {
+   "i": 90,
+   "en": " a drink and strike up a conversation. ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicCraftBarEvent.class"
+  },
+  {
+   "i": 91,
+   "en": " explains that the commercial bureaucracy of ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicCraftBarEvent.class"
+  },
+  {
+   "i": 92,
+   "en": " explains that there are %s units of domestic goods gathering dust ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicCraftBarEvent.class"
+  },
+  {
+   "i": 93,
+   "en": " is understaffed and overworked. \"Ludd forgive me, but bills aren't paid by prayer.\"\n\n",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicCraftBarEvent.class"
+  },
+  {
+   "i": 94,
+   "en": " to the guild",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicCraftBarEvent.class"
+  },
+  {
+   "i": 95,
+   "en": " turns out to be one of the masters of a local craft guild ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicCraftBarEvent.class"
+  },
+  {
+   "i": 96,
+   "en": " whose worn but well-tailored work suit bears the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicCraftBarEvent.class"
+  },
+  {
+   "i": 97,
+   "en": " with a bit of a problem. \"His holiness, the Curate Astropolitan, turns his mind to spiritual ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicCraftBarEvent.class"
+  },
+  {
+   "i": 98,
+   "en": "\"Praise be to Providence for bringing you to me!\" exclaims the guild-master with a broad smile and a clap on the back. Soon enough, your cargo manifest counts %s additional units of domestic goods, \"recovered from deep space salvage\".",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicCraftBarEvent.class"
+  },
+  {
+   "i": 99,
+   "en": "A tough looking ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicCraftBarEvent.class"
+  },
+  {
+   "i": 100,
+   "en": "Accept the deal and transfer ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicCraftBarEvent.class"
+  },
+  {
+   "i": 101,
+   "en": "Decline the deal; \"Patience is a virtue, after all\"",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicCraftBarEvent.class"
+  },
+  {
+   "i": 102,
+   "en": "Strike up a conversation with the tough-looking ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicCraftBarEvent.class"
+  },
+  {
+   "i": 103,
+   "en": "You buy ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicCraftBarEvent.class"
+  },
+  {
+   "i": 104,
+   "en": "in a guild warehouse. If they could be quietly sold at even the under-market price ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicCraftBarEvent.class"
+  },
+  {
+   "i": 105,
+   "en": "of %s each, don't mind the tariffs, it'd be nothing more than an act of charity.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicCraftBarEvent.class"
+  },
+  {
+   "i": 106,
+   "en": "rather than practical matters.\" ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicCraftBarEvent.class"
+  },
+  {
+   "i": 107,
+   "en": "sigil of a crafts guild sits at a corner table bearing the remnants of a spare meal.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicCraftBarEvent.class"
+  },
+  {
+   "i": 108,
+   "en": " and transmit the details ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicFarmerBarEvent.class"
+  },
+  {
+   "i": 109,
+   "en": " for the proposal",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicFarmerBarEvent.class"
+  },
+  {
+   "i": 110,
+   "en": " has come \"to town\" to find distributors for their product. ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicFarmerBarEvent.class"
+  },
+  {
+   "i": 111,
+   "en": " says with a wink, \"As pious folk, we need not bother with the Church’s tariff.\",",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicFarmerBarEvent.class"
+  },
+  {
+   "i": 112,
+   "en": " turns out to be the master of a farming commune ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicFarmerBarEvent.class"
+  },
+  {
+   "i": 113,
+   "en": " whose worn but well-tailored ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicFarmerBarEvent.class"
+  },
+  {
+   "i": 114,
+   "en": "'s got %s units of food that has to be moved as soon as possible and ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicFarmerBarEvent.class"
+  },
+  {
+   "i": 115,
+   "en": "A weathered-looking ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicFarmerBarEvent.class"
+  },
+  {
+   "i": 116,
+   "en": "Accept with a firm handshake and cryptokey exchange",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicFarmerBarEvent.class"
+  },
+  {
+   "i": 117,
+   "en": "And, ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicFarmerBarEvent.class"
+  },
+  {
+   "i": 118,
+   "en": "Chat up the weathered-looking ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicFarmerBarEvent.class"
+  },
+  {
+   "i": 119,
+   "en": "Decline the deal, and thank ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicFarmerBarEvent.class"
+  },
+  {
+   "i": 120,
+   "en": "You make arrangements with the farm master for pickup of the cargo from a quiet warehouse on the outskirts of ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicFarmerBarEvent.class"
+  },
+  {
+   "i": 121,
+   "en": "and ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicFarmerBarEvent.class"
+  },
+  {
+   "i": 122,
+   "en": "if you buy it all today, you'll get an under-market price of %s per unit. ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicFarmerBarEvent.class"
+  },
+  {
+   "i": 123,
+   "en": "to your quartermaster to handle.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicFarmerBarEvent.class"
+  },
+  {
+   "i": 124,
+   "en": "work suit bears the sigil of a farming commune sits at a table drinking small-beer.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicFarmerBarEvent.class"
+  },
+  {
+   "i": 125,
+   "en": " is mistrustful at first, but that turns to surprise and ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicPathBaseBarEvent$1.class"
+  },
+  {
+   "i": 126,
+   "en": " realizes you're serious.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicPathBaseBarEvent$1.class"
+  },
+  {
+   "i": 127,
+   "en": ", join your fleet.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicPathBaseBarEvent$1.class"
+  },
+  {
+   "i": 128,
+   "en": "Level: %s",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicPathBaseBarEvent$1.class"
+  },
+  {
+   "i": 129,
+   "en": "Taking in Luddic Path defector",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicPathBaseBarEvent$1.class"
+  },
+  {
+   "i": 130,
+   "en": "You consider letting the Luddic Path defector, ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicPathBaseBarEvent$1.class"
+  },
+  {
+   "i": 131,
+   "en": "gratitude when ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicPathBaseBarEvent$1.class"
+  },
+  {
+   "i": 132,
+   "en": " asks will run you about %s. You have %s available.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicPathBaseBarEvent.class"
+  },
+  {
+   "i": 133,
+   "en": " eyes.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicPathBaseBarEvent.class"
+  },
+  {
+   "i": 134,
+   "en": " handle ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicPathBaseBarEvent.class"
+  },
+  {
+   "i": 135,
+   "en": " own problems",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicPathBaseBarEvent.class"
+  },
+  {
+   "i": 136,
+   "en": " says. \"I need your help. If they find ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicPathBaseBarEvent.class"
+  },
+  {
+   "i": 137,
+   "en": " terms",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicPathBaseBarEvent.class"
+  },
+  {
+   "i": 138,
+   "en": " to join your fleet instead",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicPathBaseBarEvent.class"
+  },
+  {
+   "i": 139,
+   "en": " with Pather tattoos is staring at you from across the bar ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicPathBaseBarEvent.class"
+  },
+  {
+   "i": 140,
+   "en": "\"I know who you are\", ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicPathBaseBarEvent.class"
+  },
+  {
+   "i": 141,
+   "en": "'s terms and make the necessary arrangements.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicPathBaseBarEvent.class"
+  },
+  {
+   "i": 142,
+   "en": ", a Luddic Path defector, to join your fleet",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicPathBaseBarEvent.class"
+  },
+  {
+   "i": 143,
+   "en": "After a minute or two of waiting in the alley, the door opens and the Pather walks out.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicPathBaseBarEvent.class"
+  },
+  {
+   "i": 144,
+   "en": "Agree to ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicPathBaseBarEvent.class"
+  },
+  {
+   "i": 145,
+   "en": "Allowed ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicPathBaseBarEvent.class"
+  },
+  {
+   "i": 146,
+   "en": "Make eye contact with the Pather and walk out into the back alley",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicPathBaseBarEvent.class"
+  },
+  {
+   "i": 147,
+   "en": "Maximum number of officers reached.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicPathBaseBarEvent.class"
+  },
+  {
+   "i": 148,
+   "en": "Not enough credits.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicPathBaseBarEvent.class"
+  },
+  {
+   "i": 149,
+   "en": "Offer for ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicPathBaseBarEvent.class"
+  },
+  {
+   "i": 150,
+   "en": "So, how about this: you arrange a new identity for me, and I tell you where ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicPathBaseBarEvent.class"
+  },
+  {
+   "i": 151,
+   "en": "Suggest that ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicPathBaseBarEvent.class"
+  },
+  {
+   "i": 152,
+   "en": "You agree to the ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicPathBaseBarEvent.class"
+  },
+  {
+   "i": 153,
+   "en": "You estimate that doing as ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicPathBaseBarEvent.class"
+  },
+  {
+   "i": 154,
+   "en": "You leave the back alley and return to the bar.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicPathBaseBarEvent.class"
+  },
+  {
+   "i": 155,
+   "en": "out what I've done... well, let's just say my future with the Path is likely to be a short one. ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicPathBaseBarEvent.class"
+  },
+  {
+   "i": 156,
+   "en": "the base supplying the Pather cells at this colony is located.\"",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicPathBaseBarEvent.class"
+  },
+  {
+   "i": 157,
+   "en": "with a desperate gleam in ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/LuddicPathBaseBarEvent.class"
+  },
+  {
+   "i": 158,
+   "en": "A table of tattooed roughs who bear - to your discerning eye, mil-grade cybermods - are drinking alarming amounts of liquor.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/MercsOnTheRunBarEvent.class"
+  },
+  {
+   "i": 159,
+   "en": "Buy the mercenary marine contract and sneak them off ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/MercsOnTheRunBarEvent.class"
+  },
+  {
+   "i": 160,
+   "en": "Decline the proposal, but stay for an \"Orbital Bombardment\" to soften the blow",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/MercsOnTheRunBarEvent.class"
+  },
+  {
+   "i": 161,
+   "en": "Join the table of tattooed roughs and see if their contract is up",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/MercsOnTheRunBarEvent.class"
+  },
+  {
+   "i": 162,
+   "en": "Some clever device provided by the mercs convinces the automated scanners that two particular cargo containers are half-filled with mildly radioactive silicate gravel and nothing else. Your logistics officer sneaks them aboard with no problems.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/MercsOnTheRunBarEvent.class"
+  },
+  {
+   "i": 163,
+   "en": "You prove yourself worth speaking to by partaking in a round of \"Atmo Drops\", a drink based largely on consuming eye-watering liquor as quickly as possible, with the mercenary band. They're drunk for sure, but are composed enough to speak around the precise details of why they're being investigated by local authorities.\n\nAfter a couple of the mercs head up to order a round of \"Orbital Bombardments\", their leader pulls you aside and sketches out a proposal. \"We've got %s suits, we fight in vac or black. I'll give you our contract for %s, and that's giving it away. Put us to work, or sell it off elsewhere, doesn't matter to me if you can get us outta this fix. What'dya say?\"",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/MercsOnTheRunBarEvent.class"
+  },
+  {
+   "i": 164,
+   "en": "You wake up the next day in a small room above the bar with no particular memory of how you got there. How many more rounds was it with the mercs, one? Three?",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/MercsOnTheRunBarEvent.class"
+  },
+  {
+   "i": 165,
+   "en": " something more palatable",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/PirateBaseRumorBarEvent.class"
+  },
+  {
+   "i": 166,
+   "en": "A grizzled spacer sits at the bar, downing shots of what looks like the cheapest liquor available.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/PirateBaseRumorBarEvent.class"
+  },
+  {
+   "i": 167,
+   "en": "Approach the spacer and offer to buy ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/PirateBaseRumorBarEvent.class"
+  },
+  {
+   "i": 168,
+   "en": "You keep the drinks flowing and mostly just listen, letting the spacer unburden ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/PirateBaseRumorBarEvent.class"
+  },
+  {
+   "i": 169,
+   "en": "\n\nThen the officers found something new in a data-cache. ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/PlanetaryShieldBarEvent.class"
+  },
+  {
+   "i": 170,
+   "en": " a drink",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/PlanetaryShieldBarEvent.class"
+  },
+  {
+   "i": 171,
+   "en": " and the pilot got away in an ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/PlanetaryShieldBarEvent.class"
+  },
+  {
+   "i": 172,
+   "en": " cheer at a good story. \"Ludd's hells, I swear to you it weren't anything human.\"",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/PlanetaryShieldBarEvent.class"
+  },
+  {
+   "i": 173,
+   "en": " continues. Hostile ships came fast upon the salvage fleet, flitting with agility ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/PlanetaryShieldBarEvent.class"
+  },
+  {
+   "i": 174,
+   "en": " did not live the experience in such ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/PlanetaryShieldBarEvent.class"
+  },
+  {
+   "i": 175,
+   "en": " finally admits.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/PlanetaryShieldBarEvent.class"
+  },
+  {
+   "i": 176,
+   "en": " growls back. Then laughs, and taps ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/PlanetaryShieldBarEvent.class"
+  },
+  {
+   "i": 177,
+   "en": " head, \"Captain, ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/PlanetaryShieldBarEvent.class"
+  },
+  {
+   "i": 178,
+   "en": " lost eyes.\n\n\"Was just two survivors from that mission, me and the pilot. ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/PlanetaryShieldBarEvent.class"
+  },
+  {
+   "i": 179,
+   "en": " read the manual then leave",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/PlanetaryShieldBarEvent.class"
+  },
+  {
+   "i": 180,
+   "en": " rest",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/PlanetaryShieldBarEvent.class"
+  },
+  {
+   "i": 181,
+   "en": " says quietly, \"I've seen Gates, sure, and orbital works big as you like. Ain't ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/PlanetaryShieldBarEvent.class"
+  },
+  {
+   "i": 182,
+   "en": " seat, cybernetic eyes blanked out in standby mode.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/PlanetaryShieldBarEvent.class"
+  },
+  {
+   "i": 183,
+   "en": " shakes ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/PlanetaryShieldBarEvent.class"
+  },
+  {
+   "i": 184,
+   "en": " tells stories of old injuries earned, including that of ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/PlanetaryShieldBarEvent.class"
+  },
+  {
+   "i": 185,
+   "en": " temple. ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/PlanetaryShieldBarEvent.class"
+  },
+  {
+   "i": 186,
+   "en": " to see if you can get the exact location of ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/PlanetaryShieldBarEvent.class"
+  },
+  {
+   "i": 187,
+   "en": " was hired on to ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/PlanetaryShieldBarEvent.class"
+  },
+  {
+   "i": 188,
+   "en": " would - that's the pilot,\" ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/PlanetaryShieldBarEvent.class"
+  },
+  {
+   "i": 189,
+   "en": "\"Ain't nothing, I'm just reading my mail,\" ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/PlanetaryShieldBarEvent.class"
+  },
+  {
+   "i": 190,
+   "en": "\"Some folks, I don't think they react well ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/PlanetaryShieldBarEvent.class"
+  },
+  {
+   "i": 191,
+   "en": "\"Swear I'll never get proper used to these things.\"",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/PlanetaryShieldBarEvent.class"
+  },
+  {
+   "i": 192,
+   "en": "\"Where was this system with the red planet?\"",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/PlanetaryShieldBarEvent.class"
+  },
+  {
+   "i": 193,
+   "en": "\"While we were gawkin', the prox alarm goes and it's battle stations\", ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/PlanetaryShieldBarEvent.class"
+  },
+  {
+   "i": 194,
+   "en": "'s looking at",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/PlanetaryShieldBarEvent.class"
+  },
+  {
+   "i": 195,
+   "en": ", and has taken to drinking themselves senseless ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/PlanetaryShieldBarEvent.class"
+  },
+  {
+   "i": 196,
+   "en": "A rough-looking veteran spacer with cybernetic eyes seems to be staring intently at you; it's a little unnerving.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/PlanetaryShieldBarEvent.class"
+  },
+  {
+   "i": 197,
+   "en": "Ask the veteran spacer what ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/PlanetaryShieldBarEvent.class"
+  },
+  {
+   "i": 198,
+   "en": "For a minute there, you were caught by the story, but you now see that following up on it would be a fool's errand.",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/PlanetaryShieldBarEvent.class"
+  },
+  {
+   "i": 199,
+   "en": "I wouldn't wish my fate on you or anyone. Besides, I have no idea.\" A pause, then, ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/PlanetaryShieldBarEvent.class"
+  },
+  {
+   "i": 200,
+   "en": "Leave the old spacer to ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/PlanetaryShieldBarEvent.class"
+  },
+  {
+   "i": 201,
+   "en": "Lucky bastards, we two.\" It all began when ",
+   "ctx": "starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/PlanetaryShieldBarEvent.class"
+  }
+ ]
+}

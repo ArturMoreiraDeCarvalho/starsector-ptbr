@@ -1,0 +1,1256 @@
+{
+ "chunk": 277,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"I can't commit to that.\"",
+   "ctx": "gaPZ_calHamatsu4"
+  },
+  {
+   "i": 2,
+   "en": "\"Wait! Who are you working for?\"\r",
+   "ctx": "gaPZmercOpenComm"
+  },
+  {
+   "i": 3,
+   "en": "\"Stop! I can pay you off.\"\r",
+   "ctx": "gaPZmercOpenComm"
+  },
+  {
+   "i": 4,
+   "en": "Cut comm link and prepare for combat",
+   "ctx": "gaPZmercOpenComm"
+  },
+  {
+   "i": 5,
+   "en": "Investigate the instrument platform\r",
+   "ctx": "gaPZRelayInteractionStart"
+  },
+  {
+   "i": 6,
+   "en": "\"What've you found, chief?\"",
+   "ctx": "gaPZ_investigateRelay"
+  },
+  {
+   "i": 7,
+   "en": "See what your sensors officer has found",
+   "ctx": "gaPZ_baseRuinsOpt"
+  },
+  {
+   "i": 8,
+   "en": "Investigate the hidden structures",
+   "ctx": "gaPZ_baseRuins1"
+  },
+  {
+   "i": 9,
+   "en": "\"I've given your ship, the Hamatsu, to Kanta.\"\r",
+   "ctx": "callistoGaveHamatsuToKantaOpt"
+  },
+  {
+   "i": 10,
+   "en": "\"Uh. Kanta seems to have your ship, the Hamatsu.\"",
+   "ctx": "callistoGaveHamatsuToKantaOpt"
+  },
+  {
+   "i": 11,
+   "en": "Tell Ibrahim about finding the Hamatsu",
+   "ctx": "gaRH_noHamatsuOption"
+  },
+  {
+   "i": 12,
+   "en": "\"... Are you talking about your starship?\"",
+   "ctx": "gaRH_noHamatsu"
+  },
+  {
+   "i": 13,
+   "en": "\"I'll keep it in mind.\"",
+   "ctx": "gaRH_noHamatsu1"
+  },
+  {
+   "i": 14,
+   "en": "Transfer the Hamatsu to Ibrahim's control\r",
+   "ctx": "gaRH_withHamatsu"
+  },
+  {
+   "i": 15,
+   "en": "\"Sorry, I intend to keep the ship.\"",
+   "ctx": "gaRH_withHamatsu"
+  },
+  {
+   "i": 16,
+   "en": "\"My mind is made up. Good bye.\"",
+   "ctx": "gaRH_no"
+  },
+  {
+   "i": 17,
+   "en": "\"That's unexpected.\"\r",
+   "ctx": "gaPZ_return0"
+  },
+  {
+   "i": 18,
+   "en": "\"I never intended to give it up.\"\r",
+   "ctx": "gaPZ_return0"
+  },
+  {
+   "i": 19,
+   "en": "\"Great! Thanks.\"\r",
+   "ctx": "gaPZ_return0"
+  },
+  {
+   "i": 20,
+   "en": "\"Is that a phase coil?\"",
+   "ctx": "gaPZ_return3"
+  },
+  {
+   "i": 21,
+   "en": "\"What's that supposed to mean?\"\r",
+   "ctx": "gaPZ_gargoylePost"
+  },
+  {
+   "i": 22,
+   "en": "\"Maybe she's coming around.\"\r",
+   "ctx": "gaPZ_gargoylePost"
+  },
+  {
+   "i": 23,
+   "en": "\"I think she likes me.\"",
+   "ctx": "gaPZ_gargoylePost"
+  },
+  {
+   "i": 24,
+   "en": "\"Figured what out?\"\r",
+   "ctx": "paPZ_gargPostMaybe"
+  },
+  {
+   "i": 25,
+   "en": "\"Baird's using me, I know.\"",
+   "ctx": "paPZ_gargPostMaybe"
+  },
+  {
+   "i": 26,
+   "en": "\"Super neat.\"\r",
+   "ctx": "gaPZ_gargoylePostDistraction"
+  },
+  {
+   "i": 27,
+   "en": "\"Not really, no.\"",
+   "ctx": "gaPZ_gargoylePostDistraction"
+  },
+  {
+   "i": 28,
+   "en": "Tell Baird about the Hamatsu hyperdrive modifications",
+   "ctx": "gaPZ_tellBairdAstraia"
+  },
+  {
+   "i": 29,
+   "en": "Tell Baird about finding the cleared Tri-Tach base site",
+   "ctx": "gaPZ_tellBairdRuins"
+  },
+  {
+   "i": 30,
+   "en": "Tell Coureuse about the Hamatsu hyperdrive modifications",
+   "ctx": "gaPZ_tellCoureuseHamatsu"
+  },
+  {
+   "i": 31,
+   "en": "\"It's a Transverse Jump device, right?\"",
+   "ctx": "gaPZ_tellCoureuseMods"
+  },
+  {
+   "i": 32,
+   "en": "\"So about the Hamatsu.\"",
+   "ctx": "gaPZ_tellCoureuseMods2"
+  },
+  {
+   "i": 33,
+   "en": "Consider your options",
+   "ctx": "gaPZHegemonyEncounterStandard"
+  },
+  {
+   "i": 34,
+   "en": "Appeal on the basis of your Hegemony commission",
+   "ctx": "GAPZHegHub1"
+  },
+  {
+   "i": 35,
+   "en": "Let the Hegemony go through with their scan",
+   "ctx": "GAPZHegHub2"
+  },
+  {
+   "i": 36,
+   "en": "Deny the Hegemony access to your Ziggurat-class ship",
+   "ctx": "GAPZHegHub3"
+  },
+  {
+   "i": 37,
+   "en": "Make the Ziggurat disappear",
+   "ctx": "GAPZHegHub4"
+  },
+  {
+   "i": 38,
+   "en": "Accept, allow the fake scan to proceed\r",
+   "ctx": "gaPZ_hegHub1a"
+  },
+  {
+   "i": 39,
+   "en": "Deny, it's the principle of the thing",
+   "ctx": "gaPZ_hegHub1a"
+  },
+  {
+   "i": 40,
+   "en": "Wait as the scan proceeds",
+   "ctx": "gaPZ_hegHub2"
+  },
+  {
+   "i": 41,
+   "en": "Ask which ship they wanted scanned again",
+   "ctx": "gaPZ_hegHubVanish"
+  },
+  {
+   "i": 42,
+   "en": "Wait it out",
+   "ctx": "gaPZ_hegHubVanish1"
+  },
+  {
+   "i": 43,
+   "en": "\"Are we quite finished here?\"",
+   "ctx": "gaPZ_hegHubVanish2"
+  },
+  {
+   "i": 44,
+   "en": "\"Haven't you heard of salvage rights?\"",
+   "ctx": "GAPZTTHub1"
+  },
+  {
+   "i": 45,
+   "en": "\"You're going to have to pry it from my cold, dead hands.\"",
+   "ctx": "GAPZTTHub2"
+  },
+  {
+   "i": 46,
+   "en": "\"What does the Hegemony think of this flying treaty violation?\"",
+   "ctx": "GAPZTTHub3"
+  },
+  {
+   "i": 47,
+   "en": "\"How about payment? Perhaps a finder's fee?\"",
+   "ctx": "GAPZTTHub4"
+  },
+  {
+   "i": 48,
+   "en": "\"I'll transfer command protocols at once.\" (accept)",
+   "ctx": "GAPZTTHub5"
+  },
+  {
+   "i": 49,
+   "en": "Threaten to give the Hegemony access to the Ziggurat hull",
+   "ctx": "gaPZ_ttHubThreat"
+  },
+  {
+   "i": 50,
+   "en": "Decline",
+   "ctx": "gaPZ_ttHubPay"
+  },
+  {
+   "i": 51,
+   "en": "\"Is that it? Why did you stop me?\"\r",
+   "ctx": "GAPZLCEndPart"
+  },
+  {
+   "i": 52,
+   "en": "\"I will take your warning seriously.\"\r",
+   "ctx": "GAPZLCEndPart"
+  },
+  {
+   "i": 53,
+   "en": "\"Message received. I'll be on my way now.\"",
+   "ctx": "GAPZLCEndPart"
+  },
+  {
+   "i": 54,
+   "en": "\"Oh, so now you know who I am again?\"",
+   "ctx": "GAPZSiyavongHub1"
+  },
+  {
+   "i": 55,
+   "en": "\"What, that old thing?\"",
+   "ctx": "GAPZSiyavongHub2"
+  },
+  {
+   "i": 56,
+   "en": "\"I'm not sure I follow, lieutenant. I operate many ships.\"",
+   "ctx": "GAPZSiyavongHub3"
+  },
+  {
+   "i": 57,
+   "en": "\"Isn't it? I found it in orbit of a Tri-Tachyon black site.\"",
+   "ctx": "GAPZSiyavongHub4"
+  },
+  {
+   "i": 58,
+   "en": "\"It's nice to meet you, lieutenant. I'll just be on my way.\"",
+   "ctx": "GAPZSiyavongHub5"
+  },
+  {
+   "i": 59,
+   "en": "\"What game are you playing this time?\"\r",
+   "ctx": "gaPZ_siya1"
+  },
+  {
+   "i": 60,
+   "en": "\"I'm simply operating my fleet. Nothing illegal in the Persean League.\"\r",
+   "ctx": "gaPZ_siya1"
+  },
+  {
+   "i": 61,
+   "en": "\"I would prefer not to discuss business.\"\r",
+   "ctx": "gaPZ_siyaWhatGame"
+  },
+  {
+   "i": 62,
+   "en": "\"I found it in orbit of a Tri-Tachyon black site.\"\r",
+   "ctx": "gaPZ_siyaWhatGame"
+  },
+  {
+   "i": 63,
+   "en": "\"Is that a threat?\"\r",
+   "ctx": "gaPZ_siyaBusiness"
+  },
+  {
+   "i": 64,
+   "en": "\"It was nice chatting with you, lieutenant. I'll just be on my way.\"",
+   "ctx": "gaPZ_siyaBusiness"
+  },
+  {
+   "i": 65,
+   "en": "Explain about the Alpha Site\r",
+   "ctx": "gaPZ_siya4"
+  },
+  {
+   "i": 66,
+   "en": "\"I don't recall using the word 'mote' with you.\"\r",
+   "ctx": "gaPZ_siyaSite"
+  },
+  {
+   "i": 67,
+   "en": "Explain what little you know about the motes\r",
+   "ctx": "gaPZ_siyaSite"
+  },
+  {
+   "i": 68,
+   "en": "\"Have you been spying on me?\"\r",
+   "ctx": "gaPZ_siyaMote"
+  },
+  {
+   "i": 69,
+   "en": "Explain about the motes\r",
+   "ctx": "gaPZ_siyaMote"
+  },
+  {
+   "i": 70,
+   "en": "\"I don't appear to have an example of this ship class in my fleet.\"",
+   "ctx": "gaPZDiktatEncounterNoZig"
+  },
+  {
+   "i": 71,
+   "en": "\"This is unnecessary. I am commissioned by the Sindrian Diktat.\"",
+   "ctx": "GAPZDiktatHub1"
+  },
+  {
+   "i": 72,
+   "en": "\"And if I refuse?\"",
+   "ctx": "GAPZDiktatHub2"
+  },
+  {
+   "i": 73,
+   "en": "\"My fleet will defend itself if you attempt to seize my ship.\"",
+   "ctx": "GAPZDiktatHub3"
+  },
+  {
+   "i": 74,
+   "en": "Hide the Ziggurat from them",
+   "ctx": "GAPZDiktatHub4"
+  },
+  {
+   "i": 75,
+   "en": "\"How about some kind of compensation?\"",
+   "ctx": "GAPZDiktatHub5"
+  },
+  {
+   "i": 76,
+   "en": "\"As you wish.\" (surrender the Ziggurat-class hull)",
+   "ctx": "GAPZDiktatHub6"
+  },
+  {
+   "i": 77,
+   "en": "Refuse\r",
+   "ctx": "gaPZ_diktatCom"
+  },
+  {
+   "i": 78,
+   "en": "\"How about compensation?\"",
+   "ctx": "gaPZ_diktatCom"
+  },
+  {
+   "i": 79,
+   "en": "Refuse again",
+   "ctx": "gaPZ_diktatComRefuse"
+  },
+  {
+   "i": 80,
+   "en": "\"Death it is.\"\r",
+   "ctx": "gaPZ_diktatDefend"
+  },
+  {
+   "i": 81,
+   "en": "\"Let's talk about this.\"",
+   "ctx": "gaPZ_diktatDefend"
+  },
+  {
+   "i": 82,
+   "en": "Ask for clarification on which ship you are to surrender",
+   "ctx": "gaPZ_diktatVanish"
+  },
+  {
+   "i": 83,
+   "en": "\"Are we finished here?\"",
+   "ctx": "gaPZ_diktatVanish2"
+  },
+  {
+   "i": 84,
+   "en": "Follow\r",
+   "ctx": "gaPZ_cotton"
+  },
+  {
+   "i": 85,
+   "en": "Don't follow",
+   "ctx": "gaPZ_cotton"
+  },
+  {
+   "i": 86,
+   "en": "Enter\r",
+   "ctx": "gaKA_cotton2"
+  },
+  {
+   "i": 87,
+   "en": "Return to the bar instead ",
+   "ctx": "gaKA_cotton2"
+  },
+  {
+   "i": 88,
+   "en": "Shake his hand\r",
+   "ctx": "GAPZCottonGreet1"
+  },
+  {
+   "i": 89,
+   "en": "Dont shake his hand",
+   "ctx": "GAPZCottonGreet1"
+  },
+  {
+   "i": 90,
+   "en": "\"Didn't you send some rogue Luddic Knight to attack me?\"\r",
+   "ctx": "GAPZCottonShakeContOptions1"
+  },
+  {
+   "i": 91,
+   "en": "\"What are you asking?\"\r",
+   "ctx": "GAPZCottonShakeContOptions1"
+  },
+  {
+   "i": 92,
+   "en": "\"Is this a threat?\"\r",
+   "ctx": "GAPZCottonShakeContOptions1"
+  },
+  {
+   "i": 93,
+   "en": "\"Is this a warning?\"",
+   "ctx": "GAPZCottonShakeContOptions1"
+  },
+  {
+   "i": 94,
+   "en": "Remain standing  ",
+   "ctx": "gaPZ_cottonCont2"
+  },
+  {
+   "i": 95,
+   "en": "\"Are you trying to convert me into a Pather?\"\r",
+   "ctx": "gaPZ_cottonCont4"
+  },
+  {
+   "i": 96,
+   "en": "\"What's your point?\"\r",
+   "ctx": "gaPZ_cottonCont4"
+  },
+  {
+   "i": 97,
+   "en": "\"I think there may be something to what you are saying.\"",
+   "ctx": "gaPZ_cottonCont4"
+  },
+  {
+   "i": 98,
+   "en": "\"I'll... think about what you've said.\"\r",
+   "ctx": "GAPZCottonSelCont3"
+  },
+  {
+   "i": 99,
+   "en": "\"What does 'the Path of light' even mean?\"\r",
+   "ctx": "GAPZCottonSelCont3"
+  },
+  {
+   "i": 100,
+   "en": "\"I'm not sure you're taking into consideration the complexity of the situation.\"\r",
+   "ctx": "GAPZCottonSelCont3"
+  },
+  {
+   "i": 101,
+   "en": "\"Trust me, I will.\"",
+   "ctx": "GAPZCottonSelCont3"
+  },
+  {
+   "i": 102,
+   "en": "Take his teacup to check the DNA match with local security forces\r",
+   "ctx": "gaPZ_cottonCont5"
+  },
+  {
+   "i": 103,
+   "en": ">> (dev) GA test options",
+   "ctx": "gaDevMenuOption"
+  },
+  {
+   "i": 104,
+   "en": "Return",
+   "ctx": "gaDevMenuOptionClose"
+  },
+  {
+   "i": 105,
+   "en": "DEV start gaATG",
+   "ctx": "gaATGdevstart"
+  },
+  {
+   "i": 106,
+   "en": "DEV Set gaATG_missionComplete",
+   "ctx": "gaATGdevComplete"
+  },
+  {
+   "i": 107,
+   "en": "DEV test cotton gaPZ convo",
+   "ctx": "gaPZdevCottonTest"
+  },
+  {
+   "i": 108,
+   "en": "DEV start GA missions with Baird",
+   "ctx": "gaDevStartBairdMissions"
+  },
+  {
+   "i": 109,
+   "en": "Set Baird and Sebestyen visible",
+   "ctx": "gaDevSetBairdVisible"
+  },
+  {
+   "i": 110,
+   "en": "Start gaDHO Detect Hyperspace Oddity",
+   "ctx": "gaDevStartGADHO"
+  },
+  {
+   "i": 111,
+   "en": "\"Put him on.\"",
+   "ctx": "gaATGIntro"
+  },
+  {
+   "i": 112,
+   "en": "Sit down, get comfortable\r",
+   "ctx": "gaATGIntro3"
+  },
+  {
+   "i": 113,
+   "en": "\"So I go to Chicomoztoc and ask to see the High Hegemon?\"",
+   "ctx": "gaATGIntro6"
+  },
+  {
+   "i": 114,
+   "en": "\"I'm technically a demarchon of the League. I could speak with Daud.\"",
+   "ctx": "gaATGIntroHub1optionPL"
+  },
+  {
+   "i": 115,
+   "en": "\"What's the Yaribay faction?\"  ",
+   "ctx": "gaATGIntroHub1option1"
+  },
+  {
+   "i": 116,
+   "en": "\"What's your take on Gens Yaribay?\"  ",
+   "ctx": "gaATGIntroHub1option1PL"
+  },
+  {
+   "i": 117,
+   "en": "\"Why would this Yaribay person help me? Or you?\"",
+   "ctx": "gaATGIntroHub1option2"
+  },
+  {
+   "i": 118,
+   "en": "\"Why would Gens Yaribay help you?\"",
+   "ctx": "gaATGIntroHub1option2PL"
+  },
+  {
+   "i": 119,
+   "en": "\"Why can't you talk directly to the Hegemon?\"",
+   "ctx": "gaATGIntroHub1option3"
+  },
+  {
+   "i": 120,
+   "en": "\"Get credentials from Yaribay, talk to the Hegemon. Got it.\"",
+   "ctx": "gaATGIntroHub1option4"
+  },
+  {
+   "i": 121,
+   "en": "\"What exactly is it you want me to do?\"\r",
+   "ctx": "gaATGgetScannerStart2"
+  },
+  {
+   "i": 122,
+   "en": "Clear your throat impatiently",
+   "ctx": "gaATGgetScannerStart2"
+  },
+  {
+   "i": 123,
+   "en": "\"Fascinating. How will I be assisting in these new discoveries?\"\r",
+   "ctx": "gaATGgetScanner2b"
+  },
+  {
+   "i": 124,
+   "en": "\"Okay, calm down. I need to know how to carry out my mission.\"",
+   "ctx": "gaATGgetScanner2b"
+  },
+  {
+   "i": 125,
+   "en": "\"Looks simple enough.\"",
+   "ctx": "gaATGgetScanner3"
+  },
+  {
+   "i": 126,
+   "en": "\"The next step?\"",
+   "ctx": "gaATGgetScanner4"
+  },
+  {
+   "i": 127,
+   "en": "\"Great, time to scan some Gates.\"\r",
+   "ctx": "gaATGgetScanner5"
+  },
+  {
+   "i": 128,
+   "en": "\"What was that you were saying?\"",
+   "ctx": "gaATGgetScanner5"
+  },
+  {
+   "i": 129,
+   "en": "\"Elissa Zal, right? From Westernesse?\"",
+   "ctx": "gaATGgetScannerMoreOptionB"
+  },
+  {
+   "i": 130,
+   "en": "\"Elissa Zal, the ah friend of yours? And Cavin Pharoh.\"",
+   "ctx": "gaATGgetScannerMoreOptionC"
+  },
+  {
+   "i": 131,
+   "en": "\"Elissa Zal. She got me to bring you that... uh, potent krill paste.\"",
+   "ctx": "gaATGgetScannerMoreOptionD"
+  },
+  {
+   "i": 132,
+   "en": "\"I am $playerName, a demarchon of the League.\"",
+   "ctx": "gaATGcontactYaribayStartOptB"
+  },
+  {
+   "i": 133,
+   "en": "Explain that you are acting as Provost Baird's representative",
+   "ctx": "gaATGcontactYaribayStartOptA"
+  },
+  {
+   "i": 134,
+   "en": "\"I'm here on behalf of Provost Baird, in fact.\"",
+   "ctx": "gaATG_contactYaribay1PL"
+  },
+  {
+   "i": 135,
+   "en": "\"I wouldn't say I'm an associate. We had only a passing acquaintance.\"\r",
+   "ctx": "gaATG_contactYaribay1PL_didBFFI"
+  },
+  {
+   "i": 136,
+   "en": "\"I cleaned up the mess he made with the Church, yes. Someone had to.\"\r",
+   "ctx": "gaATG_contactYaribay1PL_didBFFI"
+  },
+  {
+   "i": 137,
+   "en": "\"I need diplomatic credentials from you. I need to talk to High Hegemon Daud.\"\r",
+   "ctx": "gaATGcontactYaribay1"
+  },
+  {
+   "i": 138,
+   "en": "\"The provost has a message, if you're ready to hear it.\"",
+   "ctx": "gaATGcontactYaribay1"
+  },
+  {
+   "i": 139,
+   "en": "Send Baird's recorded message",
+   "ctx": "gaATGcontactYaribay2a"
+  },
+  {
+   "i": 140,
+   "en": "\"Of course. You have nothing to worry about.\"\r",
+   "ctx": "gaATGcontactYaribay4"
+  },
+  {
+   "i": 141,
+   "en": "\"I don't need to be reminded to follow the rules.\"",
+   "ctx": "gaATGcontactYaribay4"
+  },
+  {
+   "i": 142,
+   "en": "\"How can you be sure the High Hegemon wants to talk to you?\"",
+   "ctx": "gaATGcontactYaribayHubA"
+  },
+  {
+   "i": 143,
+   "en": "\"Do you really believe the League can reconcile with the Hegemony?\"",
+   "ctx": "gaATGcontactYaribayHubB"
+  },
+  {
+   "i": 144,
+   "en": "\"I don't imagine the Yaribay outlook is popular on Kazeron.\"",
+   "ctx": "gaATGcontactYaribayHubC"
+  },
+  {
+   "i": 145,
+   "en": "\"I'm off to see the High Hegemon.\"",
+   "ctx": "gaATGcontactYaribayHubD"
+  },
+  {
+   "i": 146,
+   "en": "\"I'll be sure to put in a good word for you with the Hegemon.\" \r",
+   "ctx": "gaATGcontactYaribayA1"
+  },
+  {
+   "i": 147,
+   "en": "\"It seems to matter to lots of people. Otherwise we wouldn't have flags.\"\r",
+   "ctx": "gaATGcontactYaribayA1"
+  },
+  {
+   "i": 148,
+   "en": "\"Does this compromise involve you retaining the wealth of gens Yaribay?\"",
+   "ctx": "gaATGcontactYaribayA1"
+  },
+  {
+   "i": 149,
+   "en": "\"I try not to get involved in local politics.\"\r",
+   "ctx": "gaATGcontactYaribayC1"
+  },
+  {
+   "i": 150,
+   "en": "\"Certainly. It's a noble goal.\"\r",
+   "ctx": "gaATGcontactYaribayC1"
+  },
+  {
+   "i": 151,
+   "en": "\"This Sector hasn't done much for me lately.\"",
+   "ctx": "gaATGcontactYaribayC1"
+  },
+  {
+   "i": 152,
+   "en": "\"What's this about lieutenant?\"\r",
+   "ctx": "gaATGsiyavongQuestioning1"
+  },
+  {
+   "i": 153,
+   "en": "\"I don't have to tell you anything.\"",
+   "ctx": "gaATGsiyavongQuestioning1"
+  },
+  {
+   "i": 154,
+   "en": "\"Just work. Horus Yaribay made me his envoy to the Hegemony.\"\r",
+   "ctx": "gaATGsiyavongQuestioning3"
+  },
+  {
+   "i": 155,
+   "en": "\"That conversation was private. Good day, lieutenant.\"\r",
+   "ctx": "gaATGsiyavongQuestioning3"
+  },
+  {
+   "i": 156,
+   "en": "\"Oh, Baird is blackmailing Horus Yaribay so she can negotiate a deal with the High Hegemon.\"",
+   "ctx": "gaATGsiyavongQuestioning3"
+  },
+  {
+   "i": 157,
+   "en": "\"You're chasing conspiracies, lieutenant.\"\r",
+   "ctx": "gaATGsiyavongQuestioning5"
+  },
+  {
+   "i": 158,
+   "en": "\"Nothing to do with it. But I'd keep an eye on Horus Yaribay if I were you.\"\r",
+   "ctx": "gaATGsiyavongQuestioning5"
+  },
+  {
+   "i": 159,
+   "en": "\"If what you're implying were the case, it would be private. Good day, lieutenant.\"\r",
+   "ctx": "gaATGsiyavongQuestioning5"
+  },
+  {
+   "i": 160,
+   "en": "\"I'm genuinely trying to help the League, lieutenant.\"\r",
+   "ctx": "gaATGsiyavongQuestioning8"
+  },
+  {
+   "i": 161,
+   "en": "\"I feel like you're not taking this seriously.\"\r",
+   "ctx": "gaATGsiyavongQuestioning8"
+  },
+  {
+   "i": 162,
+   "en": "\"I haven't figured it all out yet, but I will soon.\"\r",
+   "ctx": "gaATGsiyavongQuestioning8"
+  },
+  {
+   "i": 163,
+   "en": "\"If you don't want to listen, then we're done here.\"",
+   "ctx": "gaATGsiyavongQuestioning8"
+  },
+  {
+   "i": 164,
+   "en": "\"I am an envoy from Gens Yaribay of Kazeron. Transmitting credentials now.\"",
+   "ctx": "gaATGdaudMeetingSetup"
+  },
+  {
+   "i": 165,
+   "en": "Shuttle to the naval shipyard to meet the High Hegemon",
+   "ctx": "gaATGdaudMeetingOption"
+  },
+  {
+   "i": 166,
+   "en": "Dock at the shipyard",
+   "ctx": "gaATGdaudMeeting1"
+  },
+  {
+   "i": 167,
+   "en": "Hand over your sidearm",
+   "ctx": "gaATGdaudMeeting2"
+  },
+  {
+   "i": 168,
+   "en": "Follow Rivas",
+   "ctx": "gaATGdaudMeeting4"
+  },
+  {
+   "i": 169,
+   "en": "\"High Hegemon Daud.\"\r",
+   "ctx": "gaATGdaudMeeting6"
+  },
+  {
+   "i": 170,
+   "en": "\"I thought you'd be taller.\"",
+   "ctx": "gaATGdaudMeeting6"
+  },
+  {
+   "i": 171,
+   "en": "\"That's what I wanted to talk to you about.\"\r",
+   "ctx": "gaATGdaudMeeting8"
+  },
+  {
+   "i": 172,
+   "en": "\"Working on it.\"\r",
+   "ctx": "gaATGdaudMeeting8"
+  },
+  {
+   "i": 173,
+   "en": "\"No, not yet.\"",
+   "ctx": "gaATGdaudMeeting8"
+  },
+  {
+   "i": 174,
+   "en": "\"No, not yet.\"\r",
+   "ctx": "gaATGdaudMeeting8a"
+  },
+  {
+   "i": 175,
+   "en": "\"While we're here, maybe we can revisit our terms...\"",
+   "ctx": "gaATGdaudMeeting8a"
+  },
+  {
+   "i": 176,
+   "en": "\"I like it. Looks toward something better.\"\r",
+   "ctx": "gaATGdaudMeeting9c"
+  },
+  {
+   "i": 177,
+   "en": "\"Not really my style.\"\r",
+   "ctx": "gaATGdaudMeeting9c"
+  },
+  {
+   "i": 178,
+   "en": "\"I don't know. Were you expecting a poet?\"\r",
+   "ctx": "gaATGdaudMeeting9c"
+  },
+  {
+   "i": 179,
+   "en": "\"Laying it on a bit thick, isn't it?\"",
+   "ctx": "gaATGdaudMeeting9c"
+  },
+  {
+   "i": 180,
+   "en": "Upload Baird's documents",
+   "ctx": "gaATGdaudMeeting11"
+  },
+  {
+   "i": 181,
+   "en": "\"Yes, implicitly.\"\r",
+   "ctx": "gaATGdaudMeeting12"
+  },
+  {
+   "i": 182,
+   "en": "\"I'm reserving judgment.\"\r",
+   "ctx": "gaATGdaudMeeting12"
+  },
+  {
+   "i": 183,
+   "en": "\"No. Not at all.\"",
+   "ctx": "gaATGdaudMeeting12"
+  },
+  {
+   "i": 184,
+   "en": "\"Horus Yaribay gave me cryptokeys to pass to you.\"",
+   "ctx": "gaATGdaudMeetingHubOptionA"
+  },
+  {
+   "i": 185,
+   "en": "\"You seem to know a lot about what I do.\"",
+   "ctx": "gaATGdaudMeetingHubOptionB"
+  },
+  {
+   "i": 186,
+   "en": "\"I want to put in a good word for Horus Yaribay. He desires peaceful reconciliation.\"",
+   "ctx": "gaATGdaudMeetingHubOptionC"
+  },
+  {
+   "i": 187,
+   "en": "\"I believe the trade tariffs are too high. Especially for me.\"",
+   "ctx": "gaATGdaudMeetingHubOptionD"
+  },
+  {
+   "i": 188,
+   "en": "\"Nice cruiser. I've got bigger.\"",
+   "ctx": "gaATGdaudMeetingHubOptionD2"
+  },
+  {
+   "i": 189,
+   "en": "\"The Hegemony AI Inspectors are too aggressive. Perhaps something could be done?\"",
+   "ctx": "gaATGdaudMeetingHubOptionE"
+  },
+  {
+   "i": 190,
+   "en": "\"That's everything I wanted to talk about.\"",
+   "ctx": "gaATGdaudMeetingHubOptionEnd"
+  },
+  {
+   "i": 191,
+   "en": "\"I bear a Hegemony commission, $rank\"",
+   "ctx": "gaATGhegFleetDialogHub1"
+  },
+  {
+   "i": 192,
+   "en": "\"What's the special operation for?\"",
+   "ctx": "gaATGhegFleetDialogHub2"
+  },
+  {
+   "i": 193,
+   "en": "\"I need you to move your fleet away from the Gate.\"",
+   "ctx": "gaATGhegFleetDialogHub3"
+  },
+  {
+   "i": 194,
+   "en": "\"I am prepared to use force if you do not withdraw.\"",
+   "ctx": "gaATGhegFleetDialogHub3b"
+  },
+  {
+   "i": 195,
+   "en": "\"Your operation will fail without my help.\"",
+   "ctx": "gaATGhegFleetDialogHub4"
+  },
+  {
+   "i": 196,
+   "en": "\"What if I told you what was really going on here.\"\r",
+   "ctx": "gaATGhegFleetCom1"
+  },
+  {
+   "i": 197,
+   "en": "\"Well, keep up the good work, $rank. Hegemony-strong!\"",
+   "ctx": "gaATGhegFleetCom1"
+  },
+  {
+   "i": 198,
+   "en": "Explain about the Gate scans\r",
+   "ctx": "gaATGhegFleetCom2"
+  },
+  {
+   "i": 199,
+   "en": "\"Never mind. Keep up the good work. Hegemony-strong!\"",
+   "ctx": "gaATGhegFleetCom2"
+  },
+  {
+   "i": 200,
+   "en": "\"Your scan won't work. Mine will. I'll do the scan and give you my data.\"",
+   "ctx": "gaATGhegFleetCom3"
+  },
+  {
+   "i": 201,
+   "en": "\"$Rank?\"",
+   "ctx": "gaATGhegFleetCom4"
+  },
+  {
+   "i": 202,
+   "en": "\"Yes $rank. I will carry them out immediately.\"",
+   "ctx": "gaATGhegFleetCom5"
+  },
+  {
+   "i": 203,
+   "en": "\"I know about the Gate scans.\"",
+   "ctx": "gaATGhegFleetStory1"
+  },
+  {
+   "i": 204,
+   "en": "Explain that you are scanning Gates as well\r",
+   "ctx": "gaATGhegFleetStory2"
+  },
+  {
+   "i": 205,
+   "en": "\"Never mind. Keep up the good work.\"",
+   "ctx": "gaATGhegFleetStory2"
+  },
+  {
+   "i": 206,
+   "en": "\"Your scan won't work. Mine will. I'll do the scan and give you my data.\"\r",
+   "ctx": "gaATGhegFleetStory3"
+  },
+  {
+   "i": 207,
+   "en": "\"Actually, never mind. Let's talk about something else.\"",
+   "ctx": "gaATGhegFleetStory3"
+  },
+  {
+   "i": 208,
+   "en": "\"An auxiliary? Sure, yes.\"",
+   "ctx": "gaATGhegFleetStory4"
+  },
+  {
+   "i": 209,
+   "en": "\"I will carry them out immediately.\"",
+   "ctx": "gaATGhegFleetStory5"
+  },
+  {
+   "i": 210,
+   "en": "\"Please move your fleet clear of the Gate.\"",
+   "ctx": "gaATGttScanFleetHub1"
+  },
+  {
+   "i": 211,
+   "en": "\"What is a Tri-Tachyon fleet doing out here?\"",
+   "ctx": "gaATGttScanFleetHub2"
+  },
+  {
+   "i": 212,
+   "en": "\"Leave the vicinity of the Gate or I shall open fire.\"",
+   "ctx": "gaATGttScanFleetHub3"
+  },
+  {
+   "i": 213,
+   "en": "\"About purchasing that data ...\"",
+   "ctx": "gaATGttScanFleetHub4"
+  },
+  {
+   "i": 214,
+   "en": "\"I was just leaving, actually.\"",
+   "ctx": "gaATGttScanFleetHub5"
+  },
+  {
+   "i": 215,
+   "en": "\"Sounds like a precise survey. And this Gate has been inert for 200 cycles.\"\r",
+   "ctx": "gaATGttScanFleet2"
+  },
+  {
+   "i": 216,
+   "en": "\"Safety first, that's what I always say. Good luck with the survey.\"",
+   "ctx": "gaATGttScanFleet2"
+  },
+  {
+   "i": 217,
+   "en": "\"I can't help but wonder about the nature of this survey.\"\r",
+   "ctx": "gaATGttScanFleet21"
+  },
+  {
+   "i": 218,
+   "en": "\"Perhaps I could purchase a copy of your 'very precise' survey results.\"\r",
+   "ctx": "gaATGttScanFleet22"
+  },
+  {
+   "i": 219,
+   "en": "\"Sorry, I just like to be sure. Good luck with the survey.\"",
+   "ctx": "gaATGttScanFleet22"
+  },
+  {
+   "i": 220,
+   "en": "Attack\r",
+   "ctx": "gaATGttScanFleet3strong"
+  },
+  {
+   "i": 221,
+   "en": "Back down",
+   "ctx": "gaATGttScanFleet3strong"
+  },
+  {
+   "i": 222,
+   "en": "\"What is this 'holy vigil'?\"",
+   "ctx": "gaATGluddicScanHub1"
+  },
+  {
+   "i": 223,
+   "en": "\"Look, you can come right back after I'm done the scan.\"",
+   "ctx": "gaATGluddicScanHub21"
+  },
+  {
+   "i": 224,
+   "en": "\"Perhaps some kind of charitable donation could help?\"",
+   "ctx": "gaATGluddicScanHub22"
+  },
+  {
+   "i": 225,
+   "en": "\"This is impossible. Enjoy your 'vigil'.\"",
+   "ctx": "gaATGluddicScanHub23"
+  },
+  {
+   "i": 226,
+   "en": "\"As a servant of the Church, I have a proposal.\"",
+   "ctx": "gaATGluddicScanHub4a"
+  },
+  {
+   "i": 227,
+   "en": "\"As a servant of the faith, I have a proposal.\"",
+   "ctx": "gaATGluddicScanHub4b"
+  },
+  {
+   "i": 228,
+   "en": "\"As a, um, servant of the faith, I have a proposal.\"",
+   "ctx": "gaATGluddicScanHub4"
+  },
+  {
+   "i": 229,
+   "en": "\"Move from the Gate or I shall open fire.\"",
+   "ctx": "gaATGluddicScanHub5"
+  },
+  {
+   "i": 230,
+   "en": "\"Thank you, but I have, uh, worldly obligations.\"\r",
+   "ctx": "gaATGluddicScan1"
+  },
+  {
+   "i": 231,
+   "en": "\"I'd rather not.\"\r",
+   "ctx": "gaATGluddicScan1"
+  },
+  {
+   "i": 232,
+   "en": "\"This sounds like a complete waste of time.\"",
+   "ctx": "gaATGluddicScan1"
+  },
+  {
+   "i": 233,
+   "en": "\"Hold vigil from my flagship while your flock makes repairs nearby.\"",
+   "ctx": "gaATGluddicScan3"
+  },
+  {
+   "i": 234,
+   "en": "Provide 50 supplies and go forward with the scan\r",
+   "ctx": "gaATGluddicScan31"
+  },
+  {
+   "i": 235,
+   "en": "Discuss other options",
+   "ctx": "gaATGluddicScan31"
+  },
+  {
+   "i": 236,
+   "en": "\"Tactical, arm weapons.\"\r",
+   "ctx": "gaATGluddicScan5"
+  },
+  {
+   "i": 237,
+   "en": "\"No, I would not.\"",
+   "ctx": "gaATGluddicScan5"
+  },
+  {
+   "i": 238,
+   "en": "\"Does not knowledge provide value to all humanity and, by generous corollary, you?\"\r",
+   "ctx": "gaATGpirateScanFleetHello"
+  },
+  {
+   "i": 239,
+   "en": "\"Why pay when I can blast your fleet into dust?\"\r",
+   "ctx": "gaATGpirateScanFleetHello"
+  },
+  {
+   "i": 240,
+   "en": "\"I was just leaving. Enjoy your Gate.\"",
+   "ctx": "gaATGpirateScanFleetHello"
+  },
+  {
+   "i": 241,
+   "en": "\"I come to do science and pursue applications for new discoveries.\"\r",
+   "ctx": "gaATGpirateScanReason"
+  },
+  {
+   "i": 242,
+   "en": "\"You misunderstand... \" (explain)\"\r",
+   "ctx": "gaATGpirateScanReason2"
+  },
+  {
+   "i": 243,
+   "en": "Wait for it",
+   "ctx": "gaATGpirateScanReason3"
+  },
+  {
+   "i": 244,
+   "en": "\"Exactly!\"",
+   "ctx": "gaATGpirateScanReason4"
+  },
+  {
+   "i": 245,
+   "en": "\"Close enough.\"",
+   "ctx": "gaATGpirateScanReason5"
+  },
+  {
+   "i": 246,
+   "en": "\"A microsat?\"\r",
+   "ctx": "gaATGscanJammerOpenDialog"
+  },
+  {
+   "i": 247,
+   "en": "\"Looks suspicious. Abort scan.",
+   "ctx": "gaATGscanJammerOpenDialog"
+  },
+  {
+   "i": 248,
+   "en": "Blow it up\r",
+   "ctx": "gaATGscanJammer1"
+  },
+  {
+   "i": 249,
+   "en": "Send a team to recover the microsat",
+   "ctx": "gaATGscanJammer1"
+  },
+  {
+   "i": 250,
+   "en": "\"Fire.\"",
+   "ctx": "gaATGscanJammerDestroy1"
+  }
+ ]
+}

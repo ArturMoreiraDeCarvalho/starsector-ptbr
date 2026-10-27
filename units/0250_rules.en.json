@@ -1,0 +1,131 @@
+{
+ "chunk": 250,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"Of course you feign ignorance of your acts - spacers like you have no notion of honor and glory, or of the Andradan Movement which propels the living spirit of history.\" A look of disgust grows on $hisOrHer face. \"Your scheming attempt to undermine the true expression of Philip Andrada's transcendent  vision will be met by the military might of the Sindrian Diktat.\"\r\n\r\n\"I shall bomb your pitiable fuel production operation to dust. I shall bomb your population of vagabonds and criminals to dust. I shall destroy everything that stands against the authority of the Supreme Executor!\"",
+   "ctx": "data/campaign/rules.csv sdPunExSayEconWar [text]"
+  },
+  {
+   "i": 2,
+   "en": "After a crackle, the comms stabilize. The Sindrian Diktat $Post looks upon you imperiously. \r\n\r\n\"Hailing independent fleet! We-\" $HeOrShe is interrupted by a subordinate leaning into view and whispering.\r\n\r\n$HeOrShe puts on a knowing look. \"Of course. Captain $PlayerName. Your loyalty to the vision of the Supreme Executor shall now be tested - stand aside as we carry out our orders.\"",
+   "ctx": "data/campaign/rules.csv sdPunExCommsSDcom [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"I am to remove your pitiable fuel production operation. I am to remove the population of vagabonds, criminals, and degenerates you've gathered,\" $heOrShe says, voice flat. \"Why you've been allowed to retain your commission after carrying out meddlesome economic warfare - consciously or not - against the heart of Sindrian industry is not for me to question.\"\r\n\r\n\"This situation offers you a glorious opportunity - consign your 'colony' and its slipshod fuel operation to the flames I shall deliver. Burn away your degenerate spacer profiteering! Leave in its place nothing but austere commitment to the Lion of Sindria and his transcendent  Movement!\"",
+   "ctx": "data/campaign/rules.csv sdPunExCommsSDcomWhatOrders [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"I shall be more than glad to provide an apology once my orders have been executed,\" $heOrShe says, unperturbed. \"Why you've been allowed to retain your commission after carrying out meddlesome economic warfare - consciously or not - against the heart of Sindrian industry is not for me to question.\"\r\n\r\n\"This situation offers you a glorious opportunity - consign your 'colony' and its slipshod fuel operation to the flames I shall deliver. Burn away your degenerate spacer profiteering! Leave in its place nothing but austere commitment to the Lion of Sindria and his transcendent  Movement!\"",
+   "ctx": "data/campaign/rules.csv sdPunExCommsSDcomApology [text]"
+  },
+  {
+   "i": 5,
+   "en": "$HisOrHer eyes narrow. \"You understand nothing, spacer. If it were up to me, you would be stripped of your commission and sent to Cruor.\"\r\n\r\n\"Lucky for you,\" says the $post, \"It is not. In the meantime, I shall proceed with the cleansing operation.\"\r\n\r\n\"Glory to the Sindrian Diktat!\" $heOrShe cries, making a salute.",
+   "ctx": "data/campaign/rules.csv sdPunExCommsSDcomCompete [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"Good,\" says the $post. \"I shall proceed with the cleansing operation.\"\r\n\r\n\"Glory to the Sindrian Diktat!\" $heOrShe cries, making a salute.",
+   "ctx": "data/campaign/rules.csv sdPunExCommsSDcomSubmit [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Good,\" says the $post. \"I shall proceed with the cleansing operation.\"\r\n\r\n\"Glory to the Sindrian Diktat!\" $heOrShe calls, making a salute.",
+   "ctx": "data/campaign/rules.csv sdPunExCommsSDcomSubmitLie [text]"
+  },
+  {
+   "i": 8,
+   "en": "Surely the Philip Andrada that bent history to his will is not behind this venal farce. There must be some rot in the organization for it to come to this. A purge must come, and soon. But how to navigate loyalty to the true vision of Andrada when bad actors work in his name?",
+   "ctx": "data/campaign/rules.csv sdPunExCommsSDcomLiarPoint [text]"
+  },
+  {
+   "i": 9,
+   "en": "You know full well that the Philip Andrada who bent history to his will is not behind this venal farce. Who has set you up for failure - Macario? Hyder? Some flunky seeking to carve out a position of influence from the economic ministry, perhaps?",
+   "ctx": "data/campaign/rules.csv sdPunExCommsSDcomLiarPointB [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"You're an open enemy of the Sindrian Diktat, and an itinerant spacer degenerate besides.\" $HeOrShe leans back, looking disgusted. \"Plead as you might, there will be no merciful outcome for... elements... carrying out open, terroristic war against the Andradan movement.\"\r\n\r\n\"I trust that system patrols have already reported your position to High Command and, as we speak, the mighty warfleets of the Supreme Executor are making their approach,\" $heOrShe says, examining a fingernail. \"I have time to wait. Do you?\"",
+   "ctx": "data/campaign/rules.csv SDMakeDealHostile [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"I see truly what you are: spacer trash. You'll lie to me, you'll lie to anyone and say anything to save your own skin. You'll sell anyone for your ill-gained profiteering off Andradan greatness. I despise your kind, $playerName.\"\r\n\r\n\"However.\" $HeOrShe smiles cruelly. \"There is a place for you in the glorious future forged by the Sindrian Diktat.\" \r\n\r\n\"You will become a justly vanquished enemy; a bit of vermin, stomped out. You will be extinguished by the might of Supreme Executor Philip Andrada's perfect vision for our future.\"\r\n\r\n\"Make the most of your remaining time, spacer. Inevitability approaches.\"",
+   "ctx": "data/campaign/rules.csv SDMakeDealUntrustworthy [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"Ah,\" the $post puts on a cruel smile. \"So you begin to understand the power of the Andradan Movement.\"\r\n\r\n\"It is my opinion that the greater Sector would be provided with a point of instruction were you to be squashed like an insect. However the Supreme Executor has ordered that you be shown mercy - his wisdom and vision far surpass my own, of course, and I bow to his authority: You will submit half of the profit from your fuel sales to the Sindrian Diktat in exchange for the right to exist.\"\r\n\r\n\"You won't get a better deal than that, captain,\" $heOrShe says indifferently. $HeOrShe picks up a stylus and begins to twirl it around as you consider the extortionate terms of the agreement.",
+   "ctx": "data/campaign/rules.csv SDMakeDealSel [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"Of course, of course,\" the $post forms the pretense of a smile while tapping some input. \"I'm familiar with your situation, let's see... yes, a most inconvenient situation.\"\r\n\r\n$HisOrHer eyes dart up from $hisOrHer console. As $heOrShe speaks, $heOrShe shakes $hisOrHer head. \"You really messed up, captain. You should know better than to put yourself in the path of the Supreme Executor's vision.\"\r\n\r\nMore tapping.\r\n\r\n\"I'm surprised you weren't already brought in by the Chief High Inspector-General over this matter. Though I hear he's been busy with... well, anyway, let's get you sorted out.\"",
+   "ctx": "data/campaign/rules.csv SDMakeDealSelCom [text]"
+  },
+  {
+   "i": 14,
+   "en": "$Rank $personLastName looses a single strange bark of a laugh. Then pauses.\r\n\r\n\"You're serious? Oh my, oh captain.\" $HeOrShe retrieves a perfect white kerchief from a pocket and wipes at $hisOrHer right eye.\r\n\r\n\"I refer of course to Chief High Inspector-General Dolos Macario. He roots out traitors, terrorists... all sorts of degenerate scum who oppose the glorious vision of Supreme Executor Philip Andrada. No one escapes his web, captain.\" $HeOrShe blinks rapidly, then dabs $hisOrHer eye again.\r\n\r\n\"No one.\"\r\n\r\nBack to tapping on the interface.",
+   "ctx": "data/campaign/rules.csv SDMakeDealSelCom2spiderWho [text]"
+  },
+  {
+   "i": 15,
+   "en": "The $post looses a single strange bark of a laugh. Then pauses.\r\n\r\n\"Why, rooting out traitors, I imagine. And terrorists like Pathers and Antis... all sorts of degenerate scum who oppose the glorious vision of Supreme Executor Philip Andrada.\" $HeOrShe blinks rapidly, then dabs $hisOrHer eye with a white kerchief.\r\n\r\n\"Pardon me. Something in the atmo. I'll have to have a word with Life Support.\"",
+   "ctx": "data/campaign/rules.csv SDMakeDealSelCom2spider [text]"
+  },
+  {
+   "i": 16,
+   "en": "The $post freezes, eyes fixed on you. For a long moment.\r\n\r\n\"Of course,\" $heOrShe says, finally, then gives an awkward little cough. \"Where were we? Oh yes, your little problem.\"",
+   "ctx": "data/campaign/rules.csv SDMakeDealSelCom2spiderSDTU [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"Good news, captain. It appears as though the Supreme Executor - or one of his appointed Executor-Justices, I'm sure - was in a generous mood when your case came up.\" $HeOrShe taps $hisOrHer interface.\r\n\r\n\"You haven't been personally flagged for execution,\" $heOrShe looks up. \"That's good!\" $HeOrShe looks back down.\r\n\r\n\"You will submit half of the profit from your fuel sales to the Sindrian Diktat in exchange for the right to exist.\"\r\n\r\n$HeOrShe sits back, satisfied. \"If you'll just send over your cryptokey, I'll go ahead and signal your agreement immediately.\"",
+   "ctx": "data/campaign/rules.csv SDMakeDealSelCom2 [text]"
+  },
+  {
+   "i": 18,
+   "en": "$HeOrShe gives a charitable little laugh, as if you made an embarrassing joke. Then pauses.\r\n\r\n\"You're serious? Oh, captain.\" $HeOrShe shakes $hisOrHer head. \"You... understand that this order is stamped with the ID of the office of the Supreme Executor of the Sindrian Diktat?\" \r\n\r\n$HeOrShe begins to look a little concerned.\r\n\r\n\"You must comply.\"",
+   "ctx": "data/campaign/rules.csv SDMakeDealSelComNegotiate [text]"
+  },
+  {
+   "i": 19,
+   "en": "$HeOrShe looks confused.\r\n\r\n\"I'm not sure I understand, captain. You bear a commission of the Sindrian Diktat. You MUST submit to the authority of the Supreme Executor. There's no question here.\"",
+   "ctx": "data/campaign/rules.csv SDMakeDealSelComMaybeNo [text]"
+  },
+  {
+   "i": 20,
+   "en": "$HeOrShe holds up a hand, looking alarmed now.\r\n\r\n\"No. You cannot reject the deal. Do you understand your words? Do you understand the significance of this? To contradict the will of the Supreme Executor is the definition of treason.\"\r\n\r\nThe $post takes a deep breath.\r\n\r\n\"Captain. I was trying to be kind. But you appear not to understand, so I shall speak plainly: You WILL accept the deal as ordered. You will make no more outbursts. You will utter no more degradations against the authority of the Supreme Executor of the Sindrian Diktat.\"\r\n\r\n\"You will signal your acceptance of the deal, as ordered. Now.\"",
+   "ctx": "data/campaign/rules.csv SDHAmakeDealSelComReject [text]"
+  },
+  {
+   "i": 21,
+   "en": "The $post's voice goes ice-cold. \"Your words are treason. I hereby rescind your commission, effective immediately.\"\r\n\r\n\"Flee from this place now, traitor. Flee before your precious $shipOrFleet is shot from the sky. The iron will of the Lion of Sindria, his immortal supremacy, will never be cowed by meddlesome spacer trash like you!\"\r\n\r\nThe comms are cut without further ceremony.",
+   "ctx": "data/campaign/rules.csv SDHAmakeDealSelComReject2 [text]"
+  },
+  {
+   "i": 22,
+   "en": "The stylus stops spinning, the $post's eyes turn to you. $HeOrShe looks almost confused.\r\n\r\n\"There is no negotiation with the will of the Supreme Executor.\"\r\n\r\n$HeOrShe puts the stylus down. \"The Lion has shown such restraint with upstarts like you. Of course, in my heart, I know his long-term vision will produce the best possible world for all of us - those who have a part in his vision, that is - but... there's nothing I desire more than to turn degenerate scum like you into ash.\" $HeOrShe stares at you for a long moment, unblinking.",
+   "ctx": "data/campaign/rules.csv SDAttemptNegotiation [text]"
+  },
+  {
+   "i": 23,
+   "en": "The $post sighs, disappointed.\r\n\r\n\"Very well. If you insist, I will submit your agreement to High Command. Your people will be provided with account IDs for the payments and so forth.\" $HeOrShe gives a dismissive wave, \"Good day, captain.\"\r\n\r\nThis may cut deeply into your profit margins, but the full saturation bombing the Diktat fleets promise to unleash would be even less profitable.",
+   "ctx": "data/campaign/rules.csv SDMakeDealSelConfirm [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"You- you can't do that!\" The Diktat $Post looks quickly around for a moment, as if there might be some information that would make sense of your statement.\r\n\r\nFinding none, $heOrShe settles back to look at you with a look of shock, edging toward anger. \"Don't be a fool, you'll be made to regret this. You cannot cross the will of the Supreme Executor, not without grave punishment. You'll never be forgiven. He'll make an example of you. If you don't die in space, he'll send you to Cruor. If you try to hide, the Spider will find you. That's how it works.\"\r\n\r\n\"There's still time,\" $heOrShe says in a low voice. \"I'll pretend you never said anything.\"",
+   "ctx": "data/campaign/rules.csv SDBreakDealSel [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"You're mad!\" $HeOrShe says, nearly shouting. \"Our mighty fleets, the, the Sindrian Diktat will stomp out your colonies and burn your memory from history! We'll-\"\r\n\r\nYou watch as a drop of spittle flies through the air, a testament to the good quality of the holo's resolution. The $post is working up quite a lather and appears to have nothing else useful to say.",
+   "ctx": "data/campaign/rules.csv SDBreakDealConfirmSel [text]"
+  }
+ ]
+}

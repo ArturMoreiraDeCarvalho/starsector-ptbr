@@ -1,0 +1,1256 @@
+{
+ "chunk": 6,
+ "cat": "jar",
+ "items": [
+  {
+   "i": 1,
+   "en": "The maximum order value is %s, but you only have %s credits available.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/CustomProductionPanel$1.class"
+  },
+  {
+   "i": 2,
+   "en": "Total value of the current custom order.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/CustomProductionPanel$2.class"
+  },
+  {
+   "i": 3,
+   "en": "\" commodity.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/CustomProductionPanel$3.class"
+  },
+  {
+   "i": 4,
+   "en": "Industrial production your colonies can divert to handle custom equipment orders. Based on each colony's production of the \"",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/CustomProductionPanel$3.class"
+  },
+  {
+   "i": 5,
+   "en": "Production capacity is also limited by the availability of credits. If your net monthly income is negative, production will be reduced if you do not have enough credits on hand to cover the shortfall.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/CustomProductionPanel$3.class"
+  },
+  {
+   "i": 6,
+   "en": "Total production capacity: %s",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/CustomProductionPanel$3.class"
+  },
+  {
+   "i": 7,
+   "en": "Production costs are deducted from your monthly income on the month that the items are delivered to the designated gathering point.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/CustomProductionPanel$4.class"
+  },
+  {
+   "i": 8,
+   "en": "Total value of your current custom order. If an order's value exceeds the production capacity, it will take several months to fulfill. Larger items may also take longer to finish.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/CustomProductionPanel$4.class"
+  },
+  {
+   "i": 9,
+   "en": "Custom-produced ships, weapons, and fighter LPCs will be delivered to this colony near the end of each month and placed in storage.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/CustomProductionPanel$5.class"
+  },
+  {
+   "i": 10,
+   "en": "Will also receive an additional quantity of supplies, fuel, and crew, based on the cost of the order.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/CustomProductionPanel$5.class"
+  },
+  {
+   "i": 11,
+   "en": "Production cost.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/CustomProductionPanel$6.class"
+  },
+  {
+   "i": 12,
+   "en": " items, control-click to add/remove maximum amount.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/CustomProductionPanel$7.class"
+  },
+  {
+   "i": 13,
+   "en": "Click to add/remove one item, shift-click to add/remove ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/CustomProductionPanel$7.class"
+  },
+  {
+   "i": 14,
+   "en": "Left-click to remove, right-click to add.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/CustomProductionPanel$7.class"
+  },
+  {
+   "i": 15,
+   "en": "Mouse over icon for detail about the item.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/CustomProductionPanel$7.class"
+  },
+  {
+   "i": 16,
+   "en": "%s can be built at any colony, while a %s can be found as salvage in the abandoned systems outside the core worlds.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/CustomProductionPanel.class"
+  },
+  {
+   "i": 17,
+   "en": "Cancel",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/CustomProductionPanel.class"
+  },
+  {
+   "i": 18,
+   "en": "Clear orders",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/CustomProductionPanel.class"
+  },
+  {
+   "i": 19,
+   "en": "Clear production orders totalling ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/CustomProductionPanel.class"
+  },
+  {
+   "i": 20,
+   "en": "Confirm",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/CustomProductionPanel.class"
+  },
+  {
+   "i": 21,
+   "en": "Cost",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/CustomProductionPanel.class"
+  },
+  {
+   "i": 22,
+   "en": "Current order value",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/CustomProductionPanel.class"
+  },
+  {
+   "i": 23,
+   "en": "Custom order",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/CustomProductionPanel.class"
+  },
+  {
+   "i": 24,
+   "en": "Fighters",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/CustomProductionPanel.class"
+  },
+  {
+   "i": 25,
+   "en": "Heavy Industry",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/CustomProductionPanel.class"
+  },
+  {
+   "i": 26,
+   "en": "Item",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/CustomProductionPanel.class"
+  },
+  {
+   "i": 27,
+   "en": "Item description.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/CustomProductionPanel.class"
+  },
+  {
+   "i": 28,
+   "en": "Item goes over maximum order value",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/CustomProductionPanel.class"
+  },
+  {
+   "i": 29,
+   "en": "Maximum order value",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/CustomProductionPanel.class"
+  },
+  {
+   "i": 30,
+   "en": "Nanoforge",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/CustomProductionPanel.class"
+  },
+  {
+   "i": 31,
+   "en": "No",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/CustomProductionPanel.class"
+  },
+  {
+   "i": 32,
+   "en": "No production orders",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/CustomProductionPanel.class"
+  },
+  {
+   "i": 33,
+   "en": "Production capacity per month",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/CustomProductionPanel.class"
+  },
+  {
+   "i": 34,
+   "en": "Production gathering point",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/CustomProductionPanel.class"
+  },
+  {
+   "i": 35,
+   "en": "Production plan",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/CustomProductionPanel.class"
+  },
+  {
+   "i": 36,
+   "en": "Putting blueprints into production requires a colony with %s (industry). Production quality can be improved by acquiring a %s (item).",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/CustomProductionPanel.class"
+  },
+  {
+   "i": 37,
+   "en": "Qty",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/CustomProductionPanel.class"
+  },
+  {
+   "i": 38,
+   "en": "Quantity selected for production. Left-click to remove, right-click to add.\n\nClick to add/remove one item, shift-click to add/remove ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/CustomProductionPanel.class"
+  },
+  {
+   "i": 39,
+   "en": "Reset",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/CustomProductionPanel.class"
+  },
+  {
+   "i": 40,
+   "en": "Ship hulls",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/CustomProductionPanel.class"
+  },
+  {
+   "i": 41,
+   "en": "Show on map",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/CustomProductionPanel.class"
+  },
+  {
+   "i": 42,
+   "en": "Total order value",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/CustomProductionPanel.class"
+  },
+  {
+   "i": 43,
+   "en": "View blueprints",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/CustomProductionPanel.class"
+  },
+  {
+   "i": 44,
+   "en": "Weapons",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/CustomProductionPanel.class"
+  },
+  {
+   "i": 45,
+   "en": "Yes",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/CustomProductionPanel.class"
+  },
+  {
+   "i": 46,
+   "en": "You can still view the blueprints you've acquired, but orders to begin production will have no effect.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/CustomProductionPanel.class"
+  },
+  {
+   "i": 47,
+   "en": "Colonies",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/F.class"
+  },
+  {
+   "i": 48,
+   "en": "Custom production",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/F.class"
+  },
+  {
+   "i": 49,
+   "en": "Doctrine & blueprints",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/F.class"
+  },
+  {
+   "i": 50,
+   "en": "Income",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/F.class"
+  },
+  {
+   "i": 51,
+   "en": "Orders",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/F.class"
+  },
+  {
+   "i": 52,
+   "en": "All designs",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/FighterBlueprintBrowser.class"
+  },
+  {
+   "i": 53,
+   "en": "All types",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/FighterBlueprintBrowser.class"
+  },
+  {
+   "i": 54,
+   "en": "Bomber",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/FighterBlueprintBrowser.class"
+  },
+  {
+   "i": 55,
+   "en": "Design type",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/FighterBlueprintBrowser.class"
+  },
+  {
+   "i": 56,
+   "en": "Fighter",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/FighterBlueprintBrowser.class"
+  },
+  {
+   "i": 57,
+   "en": "Fighter blueprint",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/FighterBlueprintBrowser.class"
+  },
+  {
+   "i": 58,
+   "en": "Fighter name. Mouse over the icon for a detailed tooltip with its stats.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/FighterBlueprintBrowser.class"
+  },
+  {
+   "i": 59,
+   "en": "Fighter type - bomber, interceptor, heavy fighter, etc.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/FighterBlueprintBrowser.class"
+  },
+  {
+   "i": 60,
+   "en": "Interceptor",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/FighterBlueprintBrowser.class"
+  },
+  {
+   "i": 61,
+   "en": "No matching fighter blueprints",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/FighterBlueprintBrowser.class"
+  },
+  {
+   "i": 62,
+   "en": "Other",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/FighterBlueprintBrowser.class"
+  },
+  {
+   "i": 63,
+   "en": "Prioriziting a fighter will make it more likely to be used by your faction's fleets.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/FighterBlueprintBrowser.class"
+  },
+  {
+   "i": 64,
+   "en": "The originator of the design (such as a corporation or a faction), or, for more common designs, its general classification.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/FighterBlueprintBrowser.class"
+  },
+  {
+   "i": 65,
+   "en": "Type",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/FighterBlueprintBrowser.class"
+  },
+  {
+   "i": 66,
+   "en": "Hullmod spec",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/HullmodBlueprintBrowser.class"
+  },
+  {
+   "i": 67,
+   "en": "No matching modspecs",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/HullmodBlueprintBrowser.class"
+  },
+  {
+   "i": 68,
+   "en": "\n\nAsterisks (*) indicate values that are below the top level. Values without asterisks are directly applied to your credit balance; values with asterisks are included in those.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/IntelIncomePanel.class"
+  },
+  {
+   "i": 69,
+   "en": "Collapse all",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/IntelIncomePanel.class"
+  },
+  {
+   "i": 70,
+   "en": "Expand all",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/IntelIncomePanel.class"
+  },
+  {
+   "i": 71,
+   "en": "Expand top",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/IntelIncomePanel.class"
+  },
+  {
+   "i": 72,
+   "en": "Fleet Location",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/IntelIncomePanel.class"
+  },
+  {
+   "i": 73,
+   "en": "Income minus upkeep, in credits. ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/IntelIncomePanel.class"
+  },
+  {
+   "i": 74,
+   "en": "Item description",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/IntelIncomePanel.class"
+  },
+  {
+   "i": 75,
+   "en": "Monthly income, in credits. ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/IntelIncomePanel.class"
+  },
+  {
+   "i": 76,
+   "en": "Monthly upkeep, in credits. ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/IntelIncomePanel.class"
+  },
+  {
+   "i": 77,
+   "en": "Net",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/IntelIncomePanel.class"
+  },
+  {
+   "i": 78,
+   "en": "Net income for last month",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/IntelIncomePanel.class"
+  },
+  {
+   "i": 79,
+   "en": "No data for last month",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/IntelIncomePanel.class"
+  },
+  {
+   "i": 80,
+   "en": "Unpaid debt",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/IntelIncomePanel.class"
+  },
+  {
+   "i": 81,
+   "en": "Upkeep",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/IntelIncomePanel.class"
+  },
+  {
+   "i": 82,
+   "en": "Your expenses have exceeded both your income and your available credits.\n\nIf this continues for more than a month, some crew may leave next time you're in port, and other undertakings requiring credit expenditures may fail.\n\nShutting down industries on colonies you control is a quick way to both reduce your expenses and get back most of the credits used to establish them.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/IntelIncomePanel.class"
+  },
+  {
+   "i": 83,
+   "en": ": level",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 84,
+   "en": "A balanced composition with an adequate number of escorts for the larger ships.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 85,
+   "en": "A large number of officers with high-level training.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 86,
+   "en": "A large number of officers with the best possible training.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 87,
+   "en": "Aggression",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 88,
+   "en": "Carriers",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 89,
+   "en": "Carriers dominate the composition of any combat force.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 90,
+   "en": "Carriers make up the majority of a combat force.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 91,
+   "en": "Carriers usually make up about half of a combat force.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 92,
+   "en": "Few carriers, if any, are found in a combat force.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 93,
+   "en": "Few officers, with slightly better training.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 94,
+   "en": "Few phase ships, if any, are found in a combat force.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 95,
+   "en": "Few warships, if any, are found in a combat force.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 96,
+   "en": "Few, unremarkable officers.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 97,
+   "en": "Fleet composition & doctrine",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 98,
+   "en": "Fleet size increased by %s.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 99,
+   "en": "Fleet size is at base level.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 100,
+   "en": "How much fleet size is favored as part of the faction's fleet doctrine.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 101,
+   "en": "How much ship quality is favored as part of the faction's fleet doctrine. Affects the average number of d-mods and the probability of high-quality weapons being available.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 102,
+   "en": "How much the number and quality of officers is favored as part of the faction's fleet doctrine.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 103,
+   "en": "Hull mods",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 104,
+   "en": "More\nships",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 105,
+   "en": "More focus on larger ships, with fewer frigates mixed in.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 106,
+   "en": "Mostly frigates and destroyers, with few larger ships.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 107,
+   "en": "Mostly larger ships, with as many capitals as possible, at the expense of smaller escorts.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 108,
+   "en": "Mostly smaller ships, but without as much focus on frigates.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 109,
+   "en": "No doctrine setting advocates the employment of timid officers, but they may occasionally be found for hire.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 110,
+   "en": "Officer\nquality",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 111,
+   "en": "Personality type of ship captains. Affects officers for the fleets created by your faction, as well as ships without officers, including the ones in your fleet. Does not affect officers you've hired.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 112,
+   "en": "Phase\nships",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 113,
+   "en": "Phase ships dominate the composition of any combat force.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 114,
+   "en": "Phase ships make up the majority of a combat force.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 115,
+   "en": "Phase ships usually make up about half of a combat force.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 116,
+   "en": "Possible personality types:",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 117,
+   "en": "Preference for more smaller ships, or fewer larger ones.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 118,
+   "en": "Ship\nquality",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 119,
+   "en": "Ship\nsize",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 120,
+   "en": "Ship hull and weapon quality increased by %s.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 121,
+   "en": "Ship hull and weapon quality is at base level.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 122,
+   "en": "Ships that rely on a fighter contingent to perform in combat.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 123,
+   "en": "Ships that rely on a phase cloak for defense.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 124,
+   "en": "Ships that rely on standard weapons, shields, and armor to perform in combat.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 125,
+   "en": "Some officers, with adequate training.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 126,
+   "en": "Typical heavy patrol",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 127,
+   "en": "Usually at least some carriers as part of a combat force.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 128,
+   "en": "Usually at least some phase ships as part of a combat force.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 129,
+   "en": "Usually at least some warships as part of a combat force.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 130,
+   "en": "Warships",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 131,
+   "en": "Warships dominate the composition of any combat force.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 132,
+   "en": "Warships make up the majority of a combat force.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 133,
+   "en": "Warships usually make up about half of a combat force.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 134,
+   "en": "Without these, your colonies will use barely-spaceworthy junk exported by other factions. The \"typical\" fleet composition shown reflects this.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 135,
+   "en": "You can still view the blueprints you've acquired, but prioritizing them will have no effect.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 136,
+   "en": "gen imported",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 137,
+   "en": "re-generate",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 138,
+   "en": "run sim",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class"
+  },
+  {
+   "i": 139,
+   "en": "Left-click to add, right-click to remove.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/L$1.class"
+  },
+  {
+   "i": 140,
+   "en": "Production cost does not include outfitting the ship with weapons and fighters - the cost for those is charged separately when the ships are delivered, and does not count against the monthly production capacity.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/L$1.class"
+  },
+  {
+   "i": 141,
+   "en": "Production cost includes outfitting the ship with weapons and fighters. Uses the best ship production quality from your colonies, and assumes a maximum \"ship quality\" doctrine setting.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/L$1.class"
+  },
+  {
+   "i": 142,
+   "en": "Ship will not be outfitted with weapons and fighters.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/L$1.class"
+  },
+  {
+   "i": 143,
+   "en": "Uses the best ship production quality from your colonies, and assumes a maximum \"ship quality\" doctrine setting.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/L$1.class"
+  },
+  {
+   "i": 144,
+   "en": "Left-click to toggle whether the item is prioritized.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/L$2.class"
+  },
+  {
+   "i": 145,
+   "en": " all",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/L.class"
+  },
+  {
+   "i": 146,
+   "en": " all  (",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/L.class"
+  },
+  {
+   "i": 147,
+   "en": " all matching",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/L.class"
+  },
+  {
+   "i": 148,
+   "en": " when learned",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/L.class"
+  },
+  {
+   "i": 149,
+   "en": "Auto-",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/L.class"
+  },
+  {
+   "i": 150,
+   "en": "Deprioritize",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/L.class"
+  },
+  {
+   "i": 151,
+   "en": "Prioritize",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/L.class"
+  },
+  {
+   "i": 152,
+   "en": "Prioritized",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/L.class"
+  },
+  {
+   "i": 153,
+   "en": "Prioritized?",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/L.class"
+  },
+  {
+   "i": 154,
+   "en": "Select",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/L.class"
+  },
+  {
+   "i": 155,
+   "en": "Unselect",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/L.class"
+  },
+  {
+   "i": 156,
+   "en": ". Its current stability is %s.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$1.class"
+  },
+  {
+   "i": 157,
+   "en": "A size %s %s colony located ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$1.class"
+  },
+  {
+   "i": 158,
+   "en": "Income modifiers:",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$1.class"
+  },
+  {
+   "i": 159,
+   "en": "Industries & structures",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$1.class"
+  },
+  {
+   "i": 160,
+   "en": "Upkeep modifiers:",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$1.class"
+  },
+  {
+   "i": 161,
+   "en": "in hyperspace",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$1.class"
+  },
+  {
+   "i": 162,
+   "en": "in the ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$1.class"
+  },
+  {
+   "i": 163,
+   "en": " is %s. ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$2.class"
+  },
+  {
+   "i": 164,
+   "en": " the population growth rate by ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$2.class"
+  },
+  {
+   "i": 165,
+   "en": ". The growth penalty increases with colony size.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$2.class"
+  },
+  {
+   "i": 166,
+   "en": "Hazard Rating",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$2.class"
+  },
+  {
+   "i": 167,
+   "en": "The following contributing factors were identified:",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$2.class"
+  },
+  {
+   "i": 168,
+   "en": "The hazard rating at ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$2.class"
+  },
+  {
+   "i": 169,
+   "en": "The hazard rating results in a %s upkeep multiplier, and ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$2.class"
+  },
+  {
+   "i": 170,
+   "en": "The hazard rating results in a %s upkeep multiplier.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$2.class"
+  },
+  {
+   "i": 171,
+   "en": "increases",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$2.class"
+  },
+  {
+   "i": 172,
+   "en": "reduces",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$2.class"
+  },
+  {
+   "i": 173,
+   "en": "Exports: %s",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$3.class"
+  },
+  {
+   "i": 174,
+   "en": "Hazard pay: %s",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$3.class"
+  },
+  {
+   "i": 175,
+   "en": "Income & Upkeep",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$3.class"
+  },
+  {
+   "i": 176,
+   "en": "Income multiplier: %s",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$3.class"
+  },
+  {
+   "i": 177,
+   "en": "Industry and structure upkeep: %s",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$3.class"
+  },
+  {
+   "i": 178,
+   "en": "Local income: %s",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$3.class"
+  },
+  {
+   "i": 179,
+   "en": "Monthly Income & Upkeep",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$3.class"
+  },
+  {
+   "i": 180,
+   "en": "Shortage countering: %s",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$3.class"
+  },
+  {
+   "i": 181,
+   "en": "The net monthly income for this colony is %s.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$3.class"
+  },
+  {
+   "i": 182,
+   "en": "The net monthly upkeep for this colony is %s.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$3.class"
+  },
+  {
+   "i": 183,
+   "en": "Upkeep multiplier: %s",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$3.class"
+  },
+  {
+   "i": 184,
+   "en": "    ... and other considerations",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$5.class"
+  },
+  {
+   "i": 185,
+   "en": "\"Free Port\" status\n",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$5.class"
+  },
+  {
+   "i": 186,
+   "en": "Certain industries and structures\n",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$5.class"
+  },
+  {
+   "i": 187,
+   "en": "Factors that can affect population growth:",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$5.class"
+  },
+  {
+   "i": 188,
+   "en": "For a size %s colony, this translates into a %s monthly growth rate.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$5.class"
+  },
+  {
+   "i": 189,
+   "en": "Growth Rate",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$5.class"
+  },
+  {
+   "i": 190,
+   "en": "Growth point total: %s",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$5.class"
+  },
+  {
+   "i": 191,
+   "en": "Hazard pay\n",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$5.class"
+  },
+  {
+   "i": 192,
+   "en": "The colony's accessibility\n",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$5.class"
+  },
+  {
+   "i": 193,
+   "en": "The planet's hazard rating\n",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$5.class"
+  },
+  {
+   "i": 194,
+   "en": "The population growth rate is the percentage, per month, that a colony will progress towards a size increase. If the rate is negative, progress will be lost, but colony size will not be reduced even if progress reaches zero. The primary driver of colony growth is immigration.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$5.class"
+  },
+  {
+   "i": 195,
+   "en": "This colony has reached its maximum size.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$5.class"
+  },
+  {
+   "i": 196,
+   "en": "Colony Size",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$6.class"
+  },
+  {
+   "i": 197,
+   "en": "Colony size determines the base income and upkeep from all industries and structures, and the base production level for industries like Farming and Mining.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$6.class"
+  },
+  {
+   "i": 198,
+   "en": "Colony size is an approximate measure of the population level. A colony one size larger has many times the population.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$6.class"
+  },
+  {
+   "i": 199,
+   "en": "It also affects the strength and number of patrols and military fleets launched by the colony.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$6.class"
+  },
+  {
+   "i": 200,
+   "en": "Population breakdown (dev mode only):",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$6.class"
+  },
+  {
+   "i": 201,
+   "en": "Post-Collapse, lacking easy access to both population and resources, the maximum size a colony can reach in a reasonable time is %s.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$6.class"
+  },
+  {
+   "i": 202,
+   "en": "A colony with high accessibility is able to import and export more goods, and can claim a greater market share for any commodities it produces and exports.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$7.class"
+  },
+  {
+   "i": 203,
+   "en": "Accessibility",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$7.class"
+  },
+  {
+   "i": 204,
+   "en": "Accessibility: %s",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$7.class"
+  },
+  {
+   "i": 205,
+   "en": "Effects",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$7.class"
+  },
+  {
+   "i": 206,
+   "en": "Market share of exports multiplied by %s",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$7.class"
+  },
+  {
+   "i": 207,
+   "en": "Other imports and exports limited to %s units",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$7.class"
+  },
+  {
+   "i": 208,
+   "en": "Same-faction imports and exports limited to %s units",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$7.class"
+  },
+  {
+   "i": 209,
+   "en": "The same-faction export bonus does not increase market share or income from exports.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$7.class"
+  },
+  {
+   "i": 210,
+   "en": " is a size %s %s colony located ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$8.class"
+  },
+  {
+   "i": 211,
+   "en": " production & availability",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$8.class"
+  },
+  {
+   "i": 212,
+   "en": "Available: %s",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$8.class"
+  },
+  {
+   "i": 213,
+   "en": "Can be bought for %s and sold for %s per unit, assuming a batch of %s units traded.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$8.class"
+  },
+  {
+   "i": 214,
+   "en": "Colony accessibility",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$8.class"
+  },
+  {
+   "i": 215,
+   "en": "Excess stockpiles: %s units.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$8.class"
+  },
+  {
+   "i": 216,
+   "en": "Local deficit: %s units.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$8.class"
+  },
+  {
+   "i": 217,
+   "en": "Maximum demand: %s",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$8.class"
+  },
+  {
+   "i": 218,
+   "en": "No local demand.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$8.class"
+  },
+  {
+   "i": 219,
+   "en": "Commodity",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory.class"
+  },
+  {
+   "i": 220,
+   "en": "Market share",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory.class"
+  },
+  {
+   "i": 221,
+   "en": "No exports",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory.class"
+  },
+  {
+   "i": 222,
+   "en": " colonies",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/OooO.class"
+  },
+  {
+   "i": 223,
+   "en": "(size ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/OooO.class"
+  },
+  {
+   "i": 224,
+   "en": ", including ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/OooO.class"
+  },
+  {
+   "i": 225,
+   "en": "?\n\nThis decision is irreversible.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/OooO.class"
+  },
+  {
+   "i": 226,
+   "en": "Are you sure you want to dismiss ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/OooO.class"
+  },
+  {
+   "i": 227,
+   "en": "Assign",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/OooO.class"
+  },
+  {
+   "i": 228,
+   "en": "Assigned to govern ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/OooO.class"
+  },
+  {
+   "i": 229,
+   "en": "Maximum number of administrators exceeded",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/OooO.class"
+  },
+  {
+   "i": 230,
+   "en": "Monthly salary: ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/OooO.class"
+  },
+  {
+   "i": 231,
+   "en": "Personally governing ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/OooO.class"
+  },
+  {
+   "i": 232,
+   "en": "Unassigned",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/OooO.class"
+  },
+  {
+   "i": 233,
+   "en": "Unassigned (reduced salary)",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/OooO.class"
+  },
+  {
+   "i": 234,
+   "en": "Station",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/OutpostItemRow.class"
+  },
+  {
+   "i": 235,
+   "en": "Having more than the maximum number results in a stability penalty for all your colonies, while having less results in a stability bonus. The penalty or bonus is %s for each colony over or under the limit.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/OutpostListPanel$1.class"
+  },
+  {
+   "i": 236,
+   "en": "Number of colonies under your personal control, and the maximum. Does not include colonies governed by administrators or AI cores.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/OutpostListPanel$1.class"
+  },
+  {
+   "i": 237,
+   "en": "Colonies under administrator control do not count for or suffer from this penalty.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/OutpostListPanel$2.class"
+  },
+  {
+   "i": 238,
+   "en": "Having more than the maximum number of colonies under your personal control results in a stability penalty for all your colonies, while having less results in a stability bonus. The penalty or bonus is %s for each colony over or under the limit.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/OutpostListPanel$2.class"
+  },
+  {
+   "i": 239,
+   "en": "Stability penalty or bonus (if any) based on the number of colonies under your personal control.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/OutpostListPanel$2.class"
+  },
+  {
+   "i": 240,
+   "en": "AI cores and special items in use by any industries.\n\nSorts by total number of AI cores and items, regardless of type.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/OutpostListPanel.class"
+  },
+  {
+   "i": 241,
+   "en": "Admin",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/OutpostListPanel.class"
+  },
+  {
+   "i": 242,
+   "en": "Administrator in charge of the colony, if any.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/OutpostListPanel.class"
+  },
+  {
+   "i": 243,
+   "en": "Administrators in use:",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/OutpostListPanel.class"
+  },
+  {
+   "i": 244,
+   "en": "Colonies under AI core control:",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/OutpostListPanel.class"
+  },
+  {
+   "i": 245,
+   "en": "Colonies under personal control",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/OutpostListPanel.class"
+  },
+  {
+   "i": 246,
+   "en": "Colonies under personal control:",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/OutpostListPanel.class"
+  },
+  {
+   "i": 247,
+   "en": "Colony name.\n\nSorts colonies by date established.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/OutpostListPanel.class"
+  },
+  {
+   "i": 248,
+   "en": "Colony size.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/OutpostListPanel.class"
+  },
+  {
+   "i": 249,
+   "en": "Colony's stability.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/OutpostListPanel.class"
+  },
+  {
+   "i": 250,
+   "en": "Conditions",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/campaign/command/OutpostListPanel.class"
+  }
+ ]
+}

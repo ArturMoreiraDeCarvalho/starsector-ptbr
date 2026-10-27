@@ -1,0 +1,22 @@
+CATEGORY gm_cat_ui|manual_ui|Interface|game_mechanics
+
+CURRENT_CATEGORY gm_cat_ui
+
+BEGIN gm_basic_ui|Conhecendo seu TriPad
+ICON manual_tripad
+==Listas com rolagem==
+A barra de rolagem fica maior quando seu mouse se aproxima dela, para facilitar o clique. Você também pode segurar {{Shift}} enquanto usa a roda do mouse para rolar mais rápido.
+
+ ==Campos de entrada==
+Você pode pressionar {{Ctrl-Backspace}} para apagar uma palavra, e {{Shift-Backspace}} para limpar todo o campo de entrada.
+
+==Etiquetas==
+Você pode usar {{Ctrl-Click}} para selecionar várias etiquetas, ou para desmarcar uma etiqueta sem afetar o restante da seleção.
+
+==Inteligência==
+Você pode pressionar {{Ctrl-S}} para salvar o conjunto atual de etiquetas, e {{Q}} para selecioná-las novamente. Você também pode pressionar {{Shift-Q}} para adicionar o conjunto salvo de etiquetas à sua seleção atual. Isso só funciona para as etiquetas da tela de {{Inteligência}}.
+
+==Códice==
+Você pode pressionar {{F2}} em qualquer lugar para abrir o Códice. Em muitos casos, como na tela de reequipamento ou ao olhar uma dica de ferramenta, o Códice será aberto automaticamente na entrada certa.
+
+END

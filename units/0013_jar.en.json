@@ -1,0 +1,1256 @@
+{
+ "chunk": 13,
+ "cat": "jar",
+ "items": [
+  {
+   "i": 1,
+   "en": "Light-years",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/Z$1.class"
+  },
+  {
+   "i": 2,
+   "en": "Navigation data",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/Z$1.class"
+  },
+  {
+   "i": 3,
+   "en": "Unidentified Fleet",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/float.class"
+  },
+  {
+   "i": 4,
+   "en": "Your fleet",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/float.class"
+  },
+  {
+   "i": 5,
+   "en": "Unidentified Sensor Contact",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/ifsuper.class"
+  },
+  {
+   "i": 6,
+   "en": "Explored",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/o0OO.class"
+  },
+  {
+   "i": 7,
+   "en": "Full survey data",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/oOOo.class"
+  },
+  {
+   "i": 8,
+   "en": "Preliminary survey data",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/oOOo.class"
+  },
+  {
+   "i": 9,
+   "en": "System unexplored",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/A/oOOo.class"
+  },
+  {
+   "i": 10,
+   "en": " learned elite ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/B.class"
+  },
+  {
+   "i": 11,
+   "en": "Level up!",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/B.class"
+  },
+  {
+   "i": 12,
+   "en": "Not now",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/B.class"
+  },
+  {
+   "i": 13,
+   "en": "Select skill to learn",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/B.class"
+  },
+  {
+   "i": 14,
+   "en": "Select skill to make elite",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/B.class"
+  },
+  {
+   "i": 15,
+   "en": "skill",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/B.class"
+  },
+  {
+   "i": 16,
+   "en": "skills",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/B.class"
+  },
+  {
+   "i": 17,
+   "en": " / day",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/C.class"
+  },
+  {
+   "i": 18,
+   "en": "no fuel",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/C.class"
+  },
+  {
+   "i": 19,
+   "en": "Maximum number of officers you can have under your command.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/CaptainPickerDialog$1.class"
+  },
+  {
+   "i": 20,
+   "en": "Mercenary officers on limited-duration contracts do not count against this limit.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/CaptainPickerDialog$1.class"
+  },
+  {
+   "i": 21,
+   "en": "Can only move officers under your command",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/CaptainPickerDialog.class"
+  },
+  {
+   "i": 22,
+   "en": "Manage officers",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/CaptainPickerDialog.class"
+  },
+  {
+   "i": 23,
+   "en": "Officers: ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/CaptainPickerDialog.class"
+  },
+  {
+   "i": 24,
+   "en": "Select AI core to put in charge of ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/CaptainPickerDialog.class"
+  },
+  {
+   "i": 25,
+   "en": "Select captain for the ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/CaptainPickerDialog.class"
+  },
+  {
+   "i": 26,
+   "en": "Skill change effects",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/D.class"
+  },
+  {
+   "i": 27,
+   "en": "Administrator name:",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/O.class"
+  },
+  {
+   "i": 28,
+   "en": "Name:",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/O.class"
+  },
+  {
+   "i": 29,
+   "en": "Officer name:",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/O.class"
+  },
+  {
+   "i": 30,
+   "en": "Your name:",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/O.class"
+  },
+  {
+   "i": 31,
+   "en": "halted",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/O0oo$1.class"
+  },
+  {
+   "i": 32,
+   "en": "stored",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/O0oo$1.class"
+  },
+  {
+   "i": 33,
+   "en": " days",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/O0oo$2.class"
+  },
+  {
+   "i": 34,
+   "en": "finishing repairs",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/O0oo$2.class"
+  },
+  {
+   "i": 35,
+   "en": "out of supplies",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/O0oo$2.class"
+  },
+  {
+   "i": 36,
+   "en": "/day",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/O0oo$o.class"
+  },
+  {
+   "i": 37,
+   "en": "replacement chassis:",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/O0oo$o.class"
+  },
+  {
+   "i": 38,
+   "en": "Number of d-mods this ship has.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/OOoOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO$1.class"
+  },
+  {
+   "i": 39,
+   "en": "Number of built in mods this ship has. Only counts mods custom built in after the ship was produced.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/OOoOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO$2.class"
+  },
+  {
+   "i": 40,
+   "en": "\n\nYou will also receive %s bonus experience based on the s-mods you've built into this hull.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/OOoOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO$o$2.class"
+  },
+  {
+   "i": 41,
+   "en": "Can not be sold here.\n\n",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/OOoOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO$o$2.class"
+  },
+  {
+   "i": 42,
+   "en": "Unavailable for purchase.\n\n",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/OOoOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO$o$2.class"
+  },
+  {
+   "i": 43,
+   "en": "fighter wing",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/OOoOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO$o$2.class"
+  },
+  {
+   "i": 44,
+   "en": "s-mods",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/OOoOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO$o$2.class"
+  },
+  {
+   "i": 45,
+   "en": "ship",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/OOoOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO$o$2.class"
+  },
+  {
+   "i": 46,
+   "en": "Bought %s for %d credits",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/OOoOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.class"
+  },
+  {
+   "i": 47,
+   "en": "Buy for %s credits?\n\n(Space to confirm, Esc to cancel.)",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/OOoOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.class"
+  },
+  {
+   "i": 48,
+   "en": "Buying ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/OOoOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.class"
+  },
+  {
+   "i": 49,
+   "en": "Can not put last ship into storage.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/OOoOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.class"
+  },
+  {
+   "i": 50,
+   "en": "Can not scuttle last ship.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/OOoOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.class"
+  },
+  {
+   "i": 51,
+   "en": "Can not sell last ship.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/OOoOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.class"
+  },
+  {
+   "i": 52,
+   "en": "Can't sell the last ship in your fleet",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/OOoOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.class"
+  },
+  {
+   "i": 53,
+   "en": "Can't transfer command or assign an officer to a fighter wing!",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/OOoOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.class"
+  },
+  {
+   "i": 54,
+   "en": "Can't transfer the last ship in your fleet",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/OOoOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.class"
+  },
+  {
+   "i": 55,
+   "en": "Sell for %s credits?\n\n(Space to confirm, Esc to cancel.)",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/OOoOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.class"
+  },
+  {
+   "i": 56,
+   "en": "Selling ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/OOoOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.class"
+  },
+  {
+   "i": 57,
+   "en": "Sold %s for %d credits",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/OOoOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.class"
+  },
+  {
+   "i": 58,
+   "en": "This ship can not be scuttled.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/OOoOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.class"
+  },
+  {
+   "i": 59,
+   "en": "level ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/OOoo.class"
+  },
+  {
+   "i": 60,
+   "en": "no supplies",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/Objectnew$12.class"
+  },
+  {
+   "i": 61,
+   "en": " bonus experience, ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/Oo0O.class"
+  },
+  {
+   "i": 62,
+   "en": "Please confirm your orders.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/Oo0O.class"
+  },
+  {
+   "i": 63,
+   "en": "Scuttling ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/Oo0O.class"
+  },
+  {
+   "i": 64,
+   "en": "Scuttling the ship will destroy it and yield the following resources:",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/Oo0O.class"
+  },
+  {
+   "i": 65,
+   "en": "You will also receive ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/Oo0O.class"
+  },
+  {
+   "i": 66,
+   "en": "based on the s-mods you've built into this hull. Please confirm your orders.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/Oo0O.class"
+  },
+  {
+   "i": 67,
+   "en": " Aptitude",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/P.class"
+  },
+  {
+   "i": 68,
+   "en": "Learn base level of skill",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/P.class"
+  },
+  {
+   "i": 69,
+   "en": "Make skill elite",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/P.class"
+  },
+  {
+   "i": 70,
+   "en": "Supplies",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/class$O0.class"
+  },
+  {
+   "i": 71,
+   "en": "Marines",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/class$Oo.class"
+  },
+  {
+   "i": 72,
+   "en": "Range:",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/class$o.class"
+  },
+  {
+   "i": 73,
+   "en": "Usage:",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/class$o.class"
+  },
+  {
+   "i": 74,
+   "en": "per ly",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/class$o.class"
+  },
+  {
+   "i": 75,
+   "en": "Crew",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/class$o0.class"
+  },
+  {
+   "i": 76,
+   "en": "Credits: ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/class.class"
+  },
+  {
+   "i": 77,
+   "en": " elite ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/interface.class"
+  },
+  {
+   "i": 78,
+   "en": " point",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/interface.class"
+  },
+  {
+   "i": 79,
+   "en": "Adjust personality",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/interface.class"
+  },
+  {
+   "i": 80,
+   "en": "Elite skill",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/interface.class"
+  },
+  {
+   "i": 81,
+   "en": "Elite: ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/interface.class"
+  },
+  {
+   "i": 82,
+   "en": "No story points remaining",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/interface.class"
+  },
+  {
+   "i": 83,
+   "en": "Officer already has elite level of this skill",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/interface.class"
+  },
+  {
+   "i": 84,
+   "en": "Requires a %s per skill made elite and does not grant any bonus experience.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/interface.class"
+  },
+  {
+   "i": 85,
+   "en": "Retrained ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/interface.class"
+  },
+  {
+   "i": 86,
+   "en": "Retraining an officer requires a %s and grants %s bonus experience.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/interface.class"
+  },
+  {
+   "i": 87,
+   "en": "Select elite skills",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/interface.class"
+  },
+  {
+   "i": 88,
+   "en": "Select skills to make elite",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/interface.class"
+  },
+  {
+   "i": 89,
+   "en": "This officer can only have ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/interface.class"
+  },
+  {
+   "i": 90,
+   "en": "This officer is set in their ways and not very amenable to your influence in this area.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/interface.class"
+  },
+  {
+   "i": 91,
+   "en": "This officer started with ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/interface.class"
+  },
+  {
+   "i": 92,
+   "en": "CR",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/interfacesuper.class"
+  },
+  {
+   "i": 93,
+   "en": "Hull",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/interfacesuper.class"
+  },
+  {
+   "i": 94,
+   "en": "Click to change your name.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k$2.class"
+  },
+  {
+   "i": 95,
+   "en": " point.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k$4.class"
+  },
+  {
+   "i": 96,
+   "en": "Reassigning your skills requires a ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k$4.class"
+  },
+  {
+   "i": 97,
+   "en": "You do not have any skills to reassign.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k$4.class"
+  },
+  {
+   "i": 98,
+   "en": " point instead of a skill point.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k$5.class"
+  },
+  {
+   "i": 99,
+   "en": " when you level up. In total, ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k$5.class"
+  },
+  {
+   "i": 100,
+   "en": "%s skill points will be available after you reach the maximum level.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k$5.class"
+  },
+  {
+   "i": 101,
+   "en": "Learning a skill requires one skill point. Some skills can be made \"elite\" after they are learned, this requires a ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k$5.class"
+  },
+  {
+   "i": 102,
+   "en": "You will gain %s skill ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k$5.class"
+  },
+  {
+   "i": 103,
+   "en": "You've reached the maximum level and will not gain any more skill points.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k$5.class"
+  },
+  {
+   "i": 104,
+   "en": " point entirely.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k$6.class"
+  },
+  {
+   "i": 105,
+   "en": " point\", eventually compensating ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k$6.class"
+  },
+  {
+   "i": 106,
+   "en": " points",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k$6.class"
+  },
+  {
+   "i": 107,
+   "en": " points ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k$6.class"
+  },
+  {
+   "i": 108,
+   "en": " points enables you to take actions that are in some way exceptional.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k$6.class"
+  },
+  {
+   "i": 109,
+   "en": " points grant bonus experience, which doubles your experience gain ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k$6.class"
+  },
+  {
+   "i": 110,
+   "en": " points over the course of each level. ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k$6.class"
+  },
+  {
+   "i": 111,
+   "en": "Bonus experience",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k$6.class"
+  },
+  {
+   "i": 112,
+   "en": "In addition, you will continue to gain ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k$6.class"
+  },
+  {
+   "i": 113,
+   "en": "Some of the bonus experience is granted immediately, while the remainder is gained on reaching the maximum level.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k$6.class"
+  },
+  {
+   "i": 114,
+   "en": "Some uses of ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k$6.class"
+  },
+  {
+   "i": 115,
+   "en": "The less long-term or impactful the use, the more bonus experience it grants. %s bonus experience means \"enough to earn an extra ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k$6.class"
+  },
+  {
+   "i": 116,
+   "en": "The range of effects includes making permanent modifications to ships, improving the effects of skills, officer customization, and getting dialog options that are not otherwise available, such as disengaging unscathed from a battle you do not want.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k$6.class"
+  },
+  {
+   "i": 117,
+   "en": "Using ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k$6.class"
+  },
+  {
+   "i": 118,
+   "en": "You will gain %s ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k$6.class"
+  },
+  {
+   "i": 119,
+   "en": "after reaching the maximum level.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k$6.class"
+  },
+  {
+   "i": 120,
+   "en": "bonus experience",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k$6.class"
+  },
+  {
+   "i": 121,
+   "en": "for the use of the ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k$6.class"
+  },
+  {
+   "i": 122,
+   "en": "until it's used up.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k$6.class"
+  },
+  {
+   "i": 123,
+   "en": " lower tier ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k.class"
+  },
+  {
+   "i": 124,
+   "en": " point and will not grant bonus experience.\n\n",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k.class"
+  },
+  {
+   "i": 125,
+   "en": " point to make elite",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k.class"
+  },
+  {
+   "i": 126,
+   "en": " point.\n\n",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k.class"
+  },
+  {
+   "i": 127,
+   "en": "Admins",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k.class"
+  },
+  {
+   "i": 128,
+   "en": "Elite skills that are unassigned can be re-made elite later without requiring another ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k.class"
+  },
+  {
+   "i": 129,
+   "en": "Hullmods granted by reassigned skills will remain, but active abilities will be removed. Some skills may have other effects when reassigned.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k.class"
+  },
+  {
+   "i": 130,
+   "en": "Learned elite ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k.class"
+  },
+  {
+   "i": 131,
+   "en": "Level ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k.class"
+  },
+  {
+   "i": 132,
+   "en": "Reassign",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k.class"
+  },
+  {
+   "i": 133,
+   "en": "Reassign skills...",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k.class"
+  },
+  {
+   "i": 134,
+   "en": "Reassigned ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k.class"
+  },
+  {
+   "i": 135,
+   "en": "Reassigning your skills uses a ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k.class"
+  },
+  {
+   "i": 136,
+   "en": "Requires a ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k.class"
+  },
+  {
+   "i": 137,
+   "en": "Requires a skill point to learn",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k.class"
+  },
+  {
+   "i": 138,
+   "en": "Requires at least ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k.class"
+  },
+  {
+   "i": 139,
+   "en": "Select instead of ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k.class"
+  },
+  {
+   "i": 140,
+   "en": "Skill points",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k.class"
+  },
+  {
+   "i": 141,
+   "en": "Some of the skills you are about to learn are permanent and can not be reassigned once confirmed.\n\n",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k.class"
+  },
+  {
+   "i": 142,
+   "en": "Some skills are permanent and can not be reassigned.\n\n",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k.class"
+  },
+  {
+   "i": 143,
+   "en": "Spend a ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k.class"
+  },
+  {
+   "i": 144,
+   "en": "Spend a skill point to learn",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k.class"
+  },
+  {
+   "i": 145,
+   "en": "Start game",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k.class"
+  },
+  {
+   "i": 146,
+   "en": "The random seed used to generate this Sector. Using this seed will result in this Sector being generated in a new game.\n\nTo do so, copy & paste this seed in the new game dialog.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k.class"
+  },
+  {
+   "i": 147,
+   "en": "Was learned at an elite level in the past and can be re-made elite at no cost",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k.class"
+  },
+  {
+   "i": 148,
+   "en": "copy",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k.class"
+  },
+  {
+   "i": 149,
+   "en": "permanent",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k.class"
+  },
+  {
+   "i": 150,
+   "en": "skill point",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/k.class"
+  },
+  {
+   "i": 151,
+   "en": " (fixed)",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/null.class"
+  },
+  {
+   "i": 152,
+   "en": "Fixed level",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/null.class"
+  },
+  {
+   "i": 153,
+   "en": "Maximum level reached",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/null.class"
+  },
+  {
+   "i": 154,
+   "en": "Maximum number of skills this AI core can have at a time.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/o0OoOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO$2.class"
+  },
+  {
+   "i": 155,
+   "en": "Select skills for ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/o0OoOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.class"
+  },
+  {
+   "i": 156,
+   "en": "Skills: ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/o0OoOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.class"
+  },
+  {
+   "i": 157,
+   "en": "Importance: ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/o0oO.class"
+  },
+  {
+   "i": 158,
+   "en": " points in certain ways.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/oO0o$1.class"
+  },
+  {
+   "i": 159,
+   "en": " points so far. This is enough to gain ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/oO0o$1.class"
+  },
+  {
+   "i": 160,
+   "en": " when this bonus XP is used up.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/oO0o$1.class"
+  },
+  {
+   "i": 161,
+   "en": " when you level up.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/oO0o$1.class"
+  },
+  {
+   "i": 162,
+   "en": "%s additional ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/oO0o$1.class"
+  },
+  {
+   "i": 163,
+   "en": "%s out of %s experience gained towards next level.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/oO0o$1.class"
+  },
+  {
+   "i": 164,
+   "en": "%s out of %s experience gained.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/oO0o$1.class"
+  },
+  {
+   "i": 165,
+   "en": "After reaching the maximum level, bonus experience %s your experience gains instead.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/oO0o$1.class"
+  },
+  {
+   "i": 166,
+   "en": "After reaching the maximum level, bonus experience increases your experience gains by %s instead.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/oO0o$1.class"
+  },
+  {
+   "i": 167,
+   "en": "Current level: %s (maximum).",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/oO0o$1.class"
+  },
+  {
+   "i": 168,
+   "en": "Current level: %s, maximum is %s.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/oO0o$1.class"
+  },
+  {
+   "i": 169,
+   "en": "You have %s bonus experience. Bonus experience doubles your experience gains until it's used up, and is acquired by using ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/oO0o$1.class"
+  },
+  {
+   "i": 170,
+   "en": "You will gain %s additional bonus experience on reaching the maximum level, based on your use of ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/oO0o$1.class"
+  },
+  {
+   "i": 171,
+   "en": "quadruples",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/oO0o$1.class"
+  },
+  {
+   "i": 172,
+   "en": "triples",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/oO0o$1.class"
+  },
+  {
+   "i": 173,
+   "en": "Integrate the AI core into the ship, increasing its level by %s and granting it an additional skill. After being integrated, the core can not be removed by any means short of scuttling the ship.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/ooo0$1.class"
+  },
+  {
+   "i": 174,
+   "en": "Must be assigned to a ship to be integrated with it",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/ooo0$1.class"
+  },
+  {
+   "i": 175,
+   "en": " each.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/ooo0$2.class"
+  },
+  {
+   "i": 176,
+   "en": "Officer already has ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/ooo0$2.class"
+  },
+  {
+   "i": 177,
+   "en": "Select a skill to raise to the elite level. Officers in your fleet can have a maximum of %s elite ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/ooo0$2.class"
+  },
+  {
+   "i": 178,
+   "en": "Change the officer's elite skills and personality.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/ooo0$3.class"
+  },
+  {
+   "i": 179,
+   "en": "Mentor an officer, increasing their experience gain and giving them a wider range of skills to choose from, as well as optionally influencing their personality. Can only be done with an officer below maximum level.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/ooo0$4.class"
+  },
+  {
+   "i": 180,
+   "en": " ago. ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/ooo0$6.class"
+  },
+  {
+   "i": 181,
+   "en": "The minimum contract duration - before the mercenary may try to leave - ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/ooo0$6.class"
+  },
+  {
+   "i": 182,
+   "en": "Their pay is higher than that of a normal officer, but they do not count against the normal officer limit.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/ooo0$6.class"
+  },
+  {
+   "i": 183,
+   "en": "This officer is a mercenary, hired for a limited duration contract %s ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/ooo0$6.class"
+  },
+  {
+   "i": 184,
+   "en": "is %s days. If there's a credit shortfall at the end of a month, ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/ooo0$6.class"
+  },
+  {
+   "i": 185,
+   "en": "they may try to leaver earlier.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/ooo0$6.class"
+  },
+  {
+   "i": 186,
+   "en": "    - Doubles the rate of their experience gain",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/ooo0$8.class"
+  },
+  {
+   "i": 187,
+   "en": "    - Increases the range of skills available to choose from",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/ooo0$8.class"
+  },
+  {
+   "i": 188,
+   "en": "Mentored ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/ooo0$8.class"
+  },
+  {
+   "i": 189,
+   "en": "Mentoring ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/ooo0$8.class"
+  },
+  {
+   "i": 190,
+   "en": "Take this officer under your wing, providing guidance and helping them develop their professional skills.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/ooo0$8.class"
+  },
+  {
+   "i": 191,
+   "en": "Your influence can also cause them to be more cautious or aggressive in battle.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/ooo0$8.class"
+  },
+  {
+   "i": 192,
+   "en": "    - Can not be removed by any means short of scuttling the ship",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/ooo0$9.class"
+  },
+  {
+   "i": 193,
+   "en": "    - Increases the AI core's level by %s and grants an additional skill",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/ooo0$9.class"
+  },
+  {
+   "i": 194,
+   "en": " into ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/ooo0$9.class"
+  },
+  {
+   "i": 195,
+   "en": "Fully integrate this AI core into the ship, giving it improved access to all subsystems.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/ooo0$9.class"
+  },
+  {
+   "i": 196,
+   "en": "Integrated ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/ooo0$9.class"
+  },
+  {
+   "i": 197,
+   "en": "Integrating ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/ooo0$9.class"
+  },
+  {
+   "i": 198,
+   "en": " (level ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/ooo0.class"
+  },
+  {
+   "i": 199,
+   "en": " is fully integrated with its ship and can not be removed",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/ooo0.class"
+  },
+  {
+   "i": 200,
+   "en": " is permanently assigned to their ship",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/ooo0.class"
+  },
+  {
+   "i": 201,
+   "en": ")?\n\nThis decision is irreversible.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/ooo0.class"
+  },
+  {
+   "i": 202,
+   "en": ", assigned to the ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/ooo0.class"
+  },
+  {
+   "i": 203,
+   "en": ", fully integrated with the ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/ooo0.class"
+  },
+  {
+   "i": 204,
+   "en": ", maximum number of officers exceeded",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/ooo0.class"
+  },
+  {
+   "i": 205,
+   "en": ", permanently assigned to the ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/ooo0.class"
+  },
+  {
+   "i": 206,
+   "en": ", unassigned",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/ooo0.class"
+  },
+  {
+   "i": 207,
+   "en": "Can't assign command of the only ship in the fleet to an officer!",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/ooo0.class"
+  },
+  {
+   "i": 208,
+   "en": "Can't transfer command to a fighter wing!",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/ooo0.class"
+  },
+  {
+   "i": 209,
+   "en": "Change skills",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/ooo0.class"
+  },
+  {
+   "i": 210,
+   "en": "Commanding from the ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/ooo0.class"
+  },
+  {
+   "i": 211,
+   "en": "Fearless",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/ooo0.class"
+  },
+  {
+   "i": 212,
+   "en": "Fully integrate...",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/ooo0.class"
+  },
+  {
+   "i": 213,
+   "en": "Make skills elite...",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/ooo0.class"
+  },
+  {
+   "i": 214,
+   "en": "Mentor...",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/ooo0.class"
+  },
+  {
+   "i": 215,
+   "en": "Mercenary",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/ooo0.class"
+  },
+  {
+   "i": 216,
+   "en": "Retrain...",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/ooo0.class"
+  },
+  {
+   "i": 217,
+   "en": "maximum number of officers exceeded",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/ooo0.class"
+  },
+  {
+   "i": 218,
+   "en": "Hangar",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/privatesuper$o.class"
+  },
+  {
+   "i": 219,
+   "en": "Accident risk",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/privatesuper.class"
+  },
+  {
+   "i": 220,
+   "en": "Extreme",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/privatesuper.class"
+  },
+  {
+   "i": 221,
+   "en": "High",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/privatesuper.class"
+  },
+  {
+   "i": 222,
+   "en": "Low",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/privatesuper.class"
+  },
+  {
+   "i": 223,
+   "en": "Personnel",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/privatesuper.class"
+  },
+  {
+   "i": 224,
+   "en": "Supplies/day",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/privatesuper.class"
+  },
+  {
+   "i": 225,
+   "en": "Travel speed",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/privatesuper.class"
+  },
+  {
+   "i": 226,
+   "en": " - currently installed",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/refit/FighterPickerDialog.class"
+  },
+  {
+   "i": 227,
+   "en": "Buy Illegal",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/refit/FighterPickerDialog.class"
+  },
+  {
+   "i": 228,
+   "en": "Buy Legal",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/refit/FighterPickerDialog.class"
+  },
+  {
+   "i": 229,
+   "en": "Currently installed - hold Ctrl to compare",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/refit/FighterPickerDialog.class"
+  },
+  {
+   "i": 230,
+   "en": "From ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/refit/FighterPickerDialog.class"
+  },
+  {
+   "i": 231,
+   "en": "No fighters matching filter",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/refit/FighterPickerDialog.class"
+  },
+  {
+   "i": 232,
+   "en": "Owned",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/refit/FighterPickerDialog.class"
+  },
+  {
+   "i": 233,
+   "en": "Show all fighter types other than interceptors or bombers.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/refit/FighterPickerDialog.class"
+  },
+  {
+   "i": 234,
+   "en": "Show bombers.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/refit/FighterPickerDialog.class"
+  },
+  {
+   "i": 235,
+   "en": "Show fighters for sale on legal markets.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/refit/FighterPickerDialog.class"
+  },
+  {
+   "i": 236,
+   "en": "Show fighters for sale on the black market.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/refit/FighterPickerDialog.class"
+  },
+  {
+   "i": 237,
+   "en": "Show fighters you own.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/refit/FighterPickerDialog.class"
+  },
+  {
+   "i": 238,
+   "en": "Show interceptors.",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/refit/FighterPickerDialog.class"
+  },
+  {
+   "i": 239,
+   "en": "currently installed",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/refit/FighterPickerDialog.class"
+  },
+  {
+   "i": 240,
+   "en": "from your cargo holds",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/refit/FighterPickerDialog.class"
+  },
+  {
+   "i": 241,
+   "en": "Built-in",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/refit/L.class"
+  },
+  {
+   "i": 242,
+   "en": "Dock",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/refit/L.class"
+  },
+  {
+   "i": 243,
+   "en": " (custom)",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/refit/ManageVariantsDialog$Oo.class"
+  },
+  {
+   "i": 244,
+   "en": " (stock)",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/refit/ManageVariantsDialog$Oo.class"
+  },
+  {
+   "i": 245,
+   "en": "Rename",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/refit/ManageVariantsDialog$Oo.class"
+  },
+  {
+   "i": 246,
+   "en": "custom",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/refit/ManageVariantsDialog$Oo.class"
+  },
+  {
+   "i": 247,
+   "en": " variants",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/refit/ManageVariantsDialog.class"
+  },
+  {
+   "i": 248,
+   "en": "Available ",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/refit/ManageVariantsDialog.class"
+  },
+  {
+   "i": 249,
+   "en": "Current:",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/refit/ManageVariantsDialog.class"
+  },
+  {
+   "i": 250,
+   "en": "Enter new variant name",
+   "ctx": "starfarer_obf.jar:com/fs/starfarer/coreui/refit/ManageVariantsDialog.class"
+  }
+ ]
+}

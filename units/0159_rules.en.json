@@ -1,0 +1,176 @@
+{
+ "chunk": 159,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"Yeah. Obviously.\" He looks you over. \"You're not MuniSec or Fleet. You a merc? Or some kinda spy? Your friend was already sniffing around here. We told him to go lick boots on Kazeron.\"\r\n\r\nCavin crosses his arms impatiently and looks off down the arco-tube, making every effort to show that he doesn't want to talk. \"Well?\"",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildCavinIntro1 [text]"
+  },
+  {
+   "i": 2,
+   "en": "Cavin considers you for a moment. \"So you're not working with him huh?\" He slaps the commsplate, \"Hear that, vat-pig? Not Fleet. You lose.\"\r\n\r\nHe turns back to you. \"Uh... let'see, it was Finlay. Agent Finlay something. He tried to appeal to my 'patriotism as a citizen of the League' and flashed his FleetInt ID at me. Ha! What a soulless minion of orthodoxy.\" \r\n\r\nFleetInt- he means the Persean League intelligence apparatus. Interesting.",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildCavinA [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"I don't know what you're playing at, uh, captain whatever your name is. You shouldn't be talking to me. It's dangerous.\" He puffs out his chest a bit at this, eager to bear the label 'dangerous'. \r\n\r\n\"Look, a free bit of advice. If you know what's good for you - and Scylla - you'd get off this planet. So don't come back looking for me, okay?\"\r\n\r\nCavin slaps the commsplate, unlatching the door bolts. He turns back to you for a moment, but thinks better of it and disappears into the structure.",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildCavinA2 [text]"
+  },
+  {
+   "i": 4,
+   "en": "Cavin raises his chin, defiant. \"I'd like to believe that. I told Scylla she couldn't sell out to the Galatia Academy without... making compromises.\" He says the word like it's a curse. \"They'd either get in her head, or, or... \" his jaw clenches.\r\n\r\nHe takes a breath, looks down, then continues quietly, \"She thought she was onto something bigger than all this, you know. Change the world. Get us out of a closing trap. The Persean Sector, I mean, and all the wars and ruin. I don't know if I believe it. But if anyone could come up with, with something, I don't know what, it'd be Scylla.\"",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildCavinB [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"I gotta go. You shouldn't be talking to me. If anyone knows where she is, maybe it's Elissa.\"\r\n\r\nHe looks around, then puts his body between you and the commsplate, and holds out a knockoff datapad displaying a comms ID glyph. He stays silent, but his look is almost pleading. You quickly scan the glyph with your TriPad, which makes a satisfied chime.",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildCavinB2 [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"It's not my place to say, but Elissa might know something. Ask her. Just ... don't come back here.\" Cavin slaps the commsplate, unlatching the door bolts. \r\n\r\nHe turns back to you for a moment, but thinks better of it and disappears into the structure.",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildCavinB3 [text]"
+  },
+  {
+   "i": 7,
+   "en": "At your words, Cavin turns to look at the commsplate in horror. It crackles- Cavin pulls back with a start as it speaks in the second voice you heard, not the officious Fleet agent.\r\n\r\n\"I told you they're watching us! I told you!\"\r\n\r\n\"Shut up!\" Cavin pounds the commsplate with a fist, \"And stop listening in, creep!\" He turns back to you. \"Who are you anyway? Why would you tell me this?\"",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildCavinC [text]"
+  },
+  {
+   "i": 8,
+   "en": "Cavin looks at you, confused. \"Hey, I don't know what you're playing at. I don't know any agent or whatever-\" The commsplate crackles an interruption, \"I told you they were a spy, Cavin! I win!\"\r\n\r\nHe pounds the commsplate behind him, \"They're not fleet, idiot!\" And back to you, \"I don't want any part of this. Tell your friend Finlay to go lick boots on Kazeron.\"  ",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildCavinC2 [text]"
+  },
+  {
+   "i": 9,
+   "en": "The commsplate crackles, \"Yeah, tell 'em Cavin! Go suck vacuum fashy-worm!\"\r\n\r\nCavin slaps the commsplate and the bolts withdraw. Cavin backs into the doorway. \"Don't come looking for me again. I won't be here.\"\r\n\r\nThe door slams shut, sending a ripple through the polymer agit-prints surrounding the door. A flurry of plastic flakes flit to the ground. ",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildCavinC3 [text]"
+  },
+  {
+   "i": 10,
+   "en": "Cavin looks at you, puzzled. \"You know about Elissa? Who- \" he looks down the street behind you almost unconsciously. \"No, don't tell me.\"\r\n\r\n\"I gotta go. You shouldn't be talking to me. I- If anyone knows where Scylla is, maybe it's Elissa.\" He looks around, puts his body between you and the commsplate, and holds out a knockoff datapad with a comms ID glyph displayed. He nods to you in earnest. You quickly scan the glyph and your TriPad makes a satisfied chime to itself.",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildCavinD [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"Seriously,\" Cavin says, \"Don't come back here.\" \r\n\r\nHe slaps the commsplate, unlatching the door bolts. He turns back to you for a moment, but thinks better of it and disappears into the structure.\r\n",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildCavinD2 [text]"
+  },
+  {
+   "i": 12,
+   "en": "You clear your throat and then speak rather too loudly, \"Cavin Pharoh. I know that you are an associate of Scylla Coureuse. I would like you to answer some questions for my investigation, please\"\r\n\r\nThe commsplate behind Cavin crackles and speaks, \"Cavin! I told you they were a FleetSec agent, I told you! Don't tell them anything!\"",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildCavinE [text]"
+  },
+  {
+   "i": 13,
+   "en": "Cavin goes pale, looking like a trapped animal. He smacks the commsplate behind him and hisses \"Shut up!\" then turns back to you, \"And you- shut up too! I don't... I don't know you, I don't know anything. Don't talk to me!\" Back to the commsplate, \"Open up, this is some kind of crazy person.\"\r\n\r\nThe bolts withdraw and Cavin backs into the doorway. \"Stay away from me!\" he shouts one last time before the door slams shut sending a ripple through the polymer agit-prints surrounding the door. A flurry of plastic flakes flit to the ground.",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildCavinE2 [text]"
+  },
+  {
+   "i": 14,
+   "en": "You turn from the dismal portico. It seems like it is time to make a call to one Finlay Siyavong.",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildCavinLeave1 [text]"
+  },
+  {
+   "i": 15,
+   "en": "You turn from the dismal portico, considering your last option. Elissa Zal was the closest to Scylla, it seems, and has made herself very difficult to find. It's time to make a call.",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildCavinLeave2 [text]"
+  },
+  {
+   "i": 16,
+   "en": "You turn away from the dismal portico, considering your options. Elissa Zal was the closest to Scylla, it seems, and has made herself very difficult to find. Finlay Siyavong was asking a lot of questions about Scylla, so he may know something. It's time to make a call.",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildCavinLeave2b [text]"
+  },
+  {
+   "i": 17,
+   "en": "As you start to turn away from the dismal portico, the commsplate crackles one more time. It speaks. \"You've made your point, $playerName.\" \r\n\r\nAn officious voice, though distorted by the damaged commsplate. It signals an elite education and a relaxed authority that comes naturally to its speaker. \r\n\r\n\"You want us to know you're looking for Scylla Coureuse and you're going to shout it from every street corner on Fikenhild until we acknowledge it.\"",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildCavinLeave3 [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"You presume correctly, Demarchon $PlayerName.\" The voice sounds almost impressed.",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildCavinLeaveInterruptA-PL [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"You have a way of insisting, demarchon.\" The voice sounds a touch annoyed.",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildCavinLeaveInterruptB-PL [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"We should speak more in a discreet setting. I'll transmit my comms ID for you to contact. Leave this nest of anarchists be. Come back topside, and let us talk about our mutual interest.\"\r\n\r\nThe commsplate sputters and dies with a lingering crackle as your datapad pings. It looks like you finally attracted the attention you were looking for.",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildCavinLeave3End [text]"
+  },
+  {
+   "i": 21,
+   "en": "Your bodyguards silently take flanking positions four meters behind you, one to each side, as you walk back through the moldering undercity toward the civic lift.",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildCavinLeaveEnd [text]"
+  },
+  {
+   "i": 22,
+   "en": "The line opens only begrudgingly, after several frame-resets as several automated forwarding services connect and encryption protocols settle.\r\n\r\n\"$playerName,\" Zal says when the feed finally stabilizes, \"I thought you might contact me.\"\r\n\r\nHer speech and video are out of sync, and patchy. You wonder if she's even in the local volume of Fikenhild, or if she's got some kind of jerry-rigged hyperwave comms set up. Or if this is some kind of generated persona.",
+   "ctx": "data/campaign/rules.csv gaFCZalFirstGreeting_INVESTIGATE_FIKENHILD2 [text]"
+  },
+  {
+   "i": 23,
+   "en": "Zal smirks, and before she appears to speak, her voice says \"By the way, this is a recording. I have certain... commitments.\"\r\n\r\n\"It is my understanding that League intel has you on your way to meet Sylla for their own reasons. I would advise you not to trust their intentions. If you must go through with it, leave poor Cavin out. He's,\" the image pauses thoughtfully somewhat before the audio catches up, \"He's a good kid.\"",
+   "ctx": "data/campaign/rules.csv gaFCZalRecording3 [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"Oh,\" the halting image of Zal smiles widely, \"If I could ask one favor from you? When you find Sy, be sure to bring her a block of Sub-Kay brand alamang. It's um, krill paste. Make sure it's blue-bar, the good stuff. You can only really get it on Fikenhild. She says everything else belongs in a recycling tank.\"\r\n\r\n\"That's it.\" The voice goes quiet before the image, which looks at you for a moment, then down, then the image of Elissa Zal flickers and degenerates into a mosaic of corrupted compression algorithm artifacts.",
+   "ctx": "data/campaign/rules.csv gaFCZalRecording4 [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"$PlayerSirOrMadam?\" your quartermaster asks through a comm link. You tell them what to do and, used to strange orders, they assure you that it will be done before you deorbit.",
+   "ctx": "data/campaign/rules.csv gaFCZalRecordingGetTheKrillPaste [text]"
+  },
+  {
+   "i": 26,
+   "en": "You disconnect the comms, wondering at what exactly is going on with Elissa Zal and what seems to be an unofficial hyperwave comm relay. Any answers, it seems, are to be found in the Isirah system.",
+   "ctx": "data/campaign/rules.csv gaFCZalRecordingEnd [text]"
+  },
+  {
+   "i": 27,
+   "en": "The line opens only begrudgingly, after several frame-resets as several automated forwarding services connect and encryption protocol settles.\r\n\r\n\"$playerName,\" Zal says when the feed finally stabilizes, \"Cavin told me to expect you.\"\r\n\r\nHer speech and video are out of sync, and patchy. You wonder if she's even in the local volume of Fikenhild, or if she's got some kind of jerry-rigged hyperwave comms set up. Or if this is some kind of generated persona.",
+   "ctx": "data/campaign/rules.csv gaFCZalFirstGreeting_INVESTIGATE_FIKENHILD [text]"
+  },
+  {
+   "i": 28,
+   "en": "Zal smirks, and before she appears to speak, her voice says \"Yes, a lot of people are looking for Scylla. But you found me instead. Cavin Pharoh trusted you for some reason.\"",
+   "ctx": "data/campaign/rules.csv gaFCZalLookingForScylla [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"Do you like it?\" Zal smiles, and begins speaking before the image catches up, \"It's one of my little projects.\"",
+   "ctx": "data/campaign/rules.csv gaFCZalInterestingComms [text]"
+  },
+  {
+   "i": 30,
+   "en": "The image of Zal sighs, \"If it wasn't, how else would I?\" She holds up a finger- \"That's all you get. No details. It's important to practice good infosec, you know?\"",
+   "ctx": "data/campaign/rules.csv gaFCZalInterestingCommsA [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"Not this particular system.\" The image of Zal makes a half-smile, then holds up a finger- \"That's all you get. No details. It's important to practice good infosec, you know?\"",
+   "ctx": "data/campaign/rules.csv gaFCZalInterestingCommsB [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"What are you, a philosopher?\" The image of Zal rolls her eyes at you, \"You're talking to me, aren't you? Is that not enough?\" She holds up a finger- \"You'll get no details from me. It's important to practice good infosec, you know?\"",
+   "ctx": "data/campaign/rules.csv gaFCZalInterestingCommsC [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"Speaking of bad infosec: Cavin Pharoh. He trusted you for some reason.\"\r\n\r\nHer desynced image appears to study you. \"I don't see why.\"",
+   "ctx": "data/campaign/rules.csv gaFCZalDontSeeWhy [text]"
+  },
+  {
+   "i": 34,
+   "en": "\"I think it's because of what I see in you as well.\" Zal rubs her chin, as if contemplating. \"I think Cavin saw... disruption. Not chaos, exactly, but change. Yeah.\" \r\n\r\nThe image of Zal flickers slightly.\r\n\r\n\"Captain, I've decided that I will help you. Now I did make a promise to Scylla, so... let's just say that if I were you, I'd follow in the path of Leonis.\"",
+   "ctx": "data/campaign/rules.csv gaFCZalDontSeeWhy2 [text]"
+  }
+ ]
+}

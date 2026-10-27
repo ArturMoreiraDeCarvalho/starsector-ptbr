@@ -1,0 +1,24 @@
+CATEGORY gm_cat_other|generic|Outros|game_mechanics
+
+CURRENT_CATEGORY gm_cat_other
+
+BEGIN gm_techs|Tipos de tecnologia
+Os níveis tecnológicos de certas naves - {{Baixa Tecnologia}}, {{Intermediária}} e {{Alta Tecnologia}} - não representam uma progressão de qualidade. São apenas abordagens de projeto diferentes para o combate, e nenhuma é melhor que as outras. Naves mais poderosas costumam ter um custo maior em pontos de implantação.
+
+COLOR Low Tech
+==Baixa Tecnologia==
+RESET
+Muito blindadas, lentas, usando uma mistura de armas balísticas e de mísseis. Escudos mais fracos. {{rel:codex_system_burndrive|Propulsão de Queima}}, um sistema de nave comum de baixa tecnologia, oferece apenas mobilidade para a frente e permite que as naves persigam e punam inimigos mais rápidos, mas não ajuda muito a recuar de uma situação ruim. Naves maiores costumam ser vulneráveis a ataques pelo flanco e precisam de apoio para serem eficazes.
+
+COLOR Midline
+==Intermediária==
+RESET
+Em geral, blindagem, escudos e mobilidade medianos. Usando uma mistura de armas balísticas, de energia e de mísseis. As armas de energia se limitam principalmente a feixes; embora as naves possam montar outras armas de energia, geralmente lhes falta a dissipação de fluxo necessária para usá-las bem. Frequentemente dependem de naves especializadas trabalhando juntas para maximizar sua eficácia.
+
+COLOR High Tech
+==Alta Tecnologia==
+RESET
+Rápidas, com escudos fortes e blindagem mais fraca. Usam uma mistura de armas de energia e de mísseis, com dissipação de fluxo suficiente para suportar uma gama maior de energias. As armas de energia tendem a ter alcance menor, o que é compensado pela maior velocidade máxima das naves. Costumam depender de táticas de atacar e recuar e, em geral, prosperam em um ambiente de batalha mais caótico.
+
+Tudo isso são generalizações, e existem exceções.  
+END

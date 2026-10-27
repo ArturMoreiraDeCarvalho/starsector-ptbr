@@ -1,0 +1,76 @@
+{
+ "chunk": 61,
+ "cat": "desc",
+ "items": [
+  {
+   "i": 1,
+   "en": "A fearsome ship whose top tier engines provide great speed and maneuverability for a destroyer. Multiple energy weapon slots allow for a plethora of tactical possibilities. Its best-in-class performance is matched by a demanding logistical profile that has led some fleet commanders to eschew its use in favor of ships which can be deployed more frequently and cheaply.\r\n\r\nThe Medusa is one of the most respected destroyers in the Sector due to its association with black ops and elite pirates, and the few spacers who have crewed aboard a Medusa can attest to its technological sophistication.\r\n\r\nMedusa-class blueprints are few in number and are closely guarded by their owners; pirates have acquired a Medusa-class hull only a handful of times and the results were inevitably drastic, though short-term, threat to local patrols and subsequent reduction in small to medium intrasystem shipping volume. Such events are considered a tremendous nuisance, particularly accounting for increased insurance premiums. Many trade combines will simply call for their fleets to wait for the pirates to run down their new toy's combat readiness so that local authorities can remove the problem once and for all.",
+   "ctx": "data/strings/descriptions.csv medusa/SHIP [text1]"
+  },
+  {
+   "i": 2,
+   "en": "An advanced fast-attack light destroyer from the same design team as the near-ubiquitous Wolf, the Shrike's advanced propulsion system is designed to selectively vent plasma in a 'microburn' maneuver. This allows the Shrike to dart into tactical opportunities as they arise, strike, and escape before a proper counter-attack is mounted. Shields, armor, and sustained flux capacity are somewhat underwhelming due to the need to build a light yet economical hull which prioritizes attack speed, leading to the Shrike gaining the reputation as a glass cannon best entrusted to skilled captains.\r\n\r\nCertain unique structural elements in the plasma venting system are known to, with wear, corrode in oxygen-rich atmospheres, so care must be taken to re-apply ceramopolymer coating at each hull servicing.",
+   "ctx": "data/strings/descriptions.csv shrike/SHIP [text1]"
+  },
+  {
+   "i": 3,
+   "en": "The Mule is a rugged and reliable combat-capable freighter which built its reputation on the sparsely-patrolled frontiers of the Domain. Post-collapse, the appeal of the Mule-class has only grown due to the cycles of chaos wracking the Persean Sector, elevating the need for strong armor and powerful weapons to otherwise thrifty traders, scavengers, and prospectors.\r\n\r\nThe original design officially designated its medium turret mount as a 'gimbaled mining utility attachment point', and even Domain operators from time past knew to read between the lines: without an escort, the Mule-class packs enough of a kick to make pirates think twice before attacking. Of course this also means that the Mule has become the ideal vehicle for a down-on-its-luck or merely opportunistic civilian crew to themselves turn pirate.",
+   "ctx": "data/strings/descriptions.csv mule/SHIP [text1]"
+  },
+  {
+   "i": 4,
+   "en": "A derived class, based on the Buffalo freighter. The modifications include the addition of military grade power generators, heavier armor, and maneuvering thrusters as well as the removal of the Mk. I shield emitter and the majority of the cargo holds.\r\n\r\nThe Sector is violent and unpredictable, and conflicts often flare up over the smallest resource or perceived slight. In such situations military-grade ships are sometimes not available quickly enough. Thus, resourceful engineers turn to hull modifications in order to be able to meet the demand for war materiel.\r\n\r\nThe base hull of this destroyer is a standard Buffalo-class freighter, however due to the scope of the hull conversion, the Buffalo Mk. II is considered a separate class. The result is a fighting ship which can hold its own and fight back hard, especially if properly screened from strikes and heavier hulls. The unorthodox weapons configuration often leads to unique fleet formations, and hull modifications often mean that no two Buffalo Mk. IIs are quite the same.\r\n\r\nThe tactics employed by a Buffalo Mk. II captain will vary as much as his hull configuration, but rarely involve standing toe-to-toe with anything heavier than a frigate due to the lack of a shield generator and energy weapon emplacements. The combat plans usually involve a one hit wonder stratagem that never works on the same enemy twice, which is perfectly fine with the crew of the Buffalo Mk. II.",
+   "ctx": "data/strings/descriptions.csv buffalo2/SHIP [text1]"
+  },
+  {
+   "i": 5,
+   "en": "The Valkyrie is a standard destroyer-sized troop transport with enough room to carry two companies of marines. Tactically it is weak for its size, only able to defend itself at short ranges from missiles and fighters.\r\n\r\nAs an atmosphere-capable combat dropship with ground support weapon mounts designed to operate during re-entry and when grounded, the Valkyrie is often used to deploy heavy infantry support for tech raids on decivilized worlds. \r\n\r\nThe ability to deliver large amounts of troops directly to ground targets while providing fire support prompted Hegemony bureaucrats to designate the hull as \"restricted\" for sale to third parties. Naturally, news of the restriction made it to the general public cycles before it came into effect, launching ill-fated speculation in the future prices of this class. Thus, overproduction and the hull's limited options made the speculators' betting largely moot, the only net result is that now, due to oversupply, it is just as easy to obtain a Valkyrie ship as before news of the Hegemony ban ever became public.",
+   "ctx": "data/strings/descriptions.csv valkyrie/SHIP [text1]"
+  },
+  {
+   "i": 6,
+   "en": "Tarsus-class ships are well known as perhaps the most flexible and durable freighters in the Sector. \r\n\r\nThe secret to their reliability is that they were intended by Domain designers as hazard duty ships, presumably to supply frontiers and those front line fleets send to quash the ever-present rumbling of insurrection on the far reaches of the Domain.\r\n\r\nAlmost unmatched among civilian ships in bulkhead structural density and armor rating, Tarsus-class freighters are entrusted with important hauls and usually travel in convoys, a further buttress to the safety they afford to their crew and cargo.\r\n\r\nMinimal weapon mounts permit the ship to mount a nominal PD weapons package. Rarely, Tarsus-class ships are outfitted with combat oriented hull or armor boosting modifications, which make them more difficult to maintain.",
+   "ctx": "data/strings/descriptions.csv tarsus/SHIP [text1]"
+  },
+  {
+   "i": 7,
+   "en": "A common freighter, found in convoys or alone, used to haul all manner of goods across the Sector. Has a single fighter bay to bolster defenses.\r\n\r\nThe design of the Gemini-class freighter is highly modular, enabling the ship to serve in a variety of roles in and out of combat. The entire cargo container is designed around a quick release mechanism which enables the main hull of the ship to quickly call to port, detach its full cargo section, and swap it for another Gemini-type container in the span of minutes. In addition, multiple medium weapon mounts make the Gemini a viable long-range fire support platform. The flight deck is tiny, originally envisioned for mining drone repair or hazardous mining operations. Modern use in the Sector extends flight deck facilities to all fighter types.\r\n\r\nWhile impressive in a blueprint, the lack of empty, compatible Gemini-type containers in the Sector makes the actual usefulness of the quick-release mechanism negligible. The modularity, a great boon in times past, is also more prone to wear and tear, and is thus more expensive to maintain - most working examples of the mechanisms have been welded solid. Nonetheless, a decent overall profile, the flight deck, a flexible power core and good shields make the Gemini a good choice for cargo hauling, if the cost can be weathered.",
+   "ctx": "data/strings/descriptions.csv gemini/SHIP [text1]"
+  },
+  {
+   "i": 8,
+   "en": "A tiny, nimble personnel-transfer shuttle just sufficient to transport the senior bridge officers of any ship in the Sector.",
+   "ctx": "data/strings/descriptions.csv shuttlepod/SHIP [text1]"
+  },
+  {
+   "i": 9,
+   "en": "The go-to choice for medium cargo hauling in the Sector, the Buffalo-class freighter exemplifies the \"Load-n-Pray\" principle prevalent in Sector shipping.\r\n\r\nSporting just a single small weapon emplacement, the hull of the ship is no more than a large engine with a tiny crew quarters section and cargo grapplers. A captain taking this ship out without a convoy rarely gets to make the same mistake twice. Incapable of anything resembling a combat maneuver, the lateral thrusters on Buffalo-class ships are designed to merely enable it to dock when (and if) it reaches its destination.\r\n\r\nThe ship engines are the greatest contributor to hull cost, which, while low, is still within the norms for a medium freighter. The greatest contributing factor to its ubiquity is the fact that the blueprint for this ship is usually hardcoded into every orbital shipyard's blueprint database.",
+   "ctx": "data/strings/descriptions.csv buffalo/SHIP [text1]"
+  },
+  {
+   "i": 10,
+   "en": "The Enforcer-class ships commonly serve in system or convoy defense roles. The design features good armor and multiple ballistic hardpoints, while shield performance is somewhat underwhelming. \r\n\r\nThe blueprints of the ship call for many components similar to those found in the Onslaught-class battleships, suggesting that the designs were created during a similar period of military expansion in the Domain. The Enforcer-class features similar no-nonsense weapon system design choices, tough bulkheads, and is well regarded by its crews.\r\n\r\nTough to beat in a destroyer to destroyer fight, the Enforcer rarely takes part in larger battles due to the common view that its low speed makes it a liability. Nonetheless, Hegemony order of battle doctrines mandate an attached Enforcer squadron as a screen for Onslaught-class battleships. The logistical ease with which shared components can be used by both ship types is exactly the type of detail that excites Hegemony logistics bureaucrats.",
+   "ctx": "data/strings/descriptions.csv enforcer/SHIP [text1]"
+  },
+  {
+   "i": 11,
+   "en": "The Condor-class sees heavy service in the Sector as this carrier-converted freighter is, for many independent polities, the easiest way to procure fighter capability for their organization. Even with limited flight deck space, the Condor gets the job done, relying on its tough armor, excellent bulkhead strength, and a respectable (for a light carrier) weapons package.\r\n\r\nThis light carrier design is derived from Tarsus-class freighters modified by desperate scavengers and pirates. The conversion process was once an involved and complex affair requiring space dock facilities, but nowadays any hull-capable forge that will accept a stock Tarsus spec will, with the addition of a custom modchip, get you something just as good.\r\n\r\nSome in the Sector argue that even the Domain, with all their technological know-how, relied on similar conversions to make more efficient use of a merchant fleet during times of escalated hostilities on the voluminous galactic frontier. Others point out that it is unclear how ubiquitous this approach was - there could have been fleets of Condors roaming Domain space, but there is scarce hard evidence one way or the other. Such data was all lost in the Collapse.",
+   "ctx": "data/strings/descriptions.csv condor/SHIP [text1]"
+  },
+  {
+   "i": 12,
+   "en": "An advanced yet fragile destroyer harkening from the ascendant \"Cruiser School\" era of the mid-to-late Human Domain, the Sunder class was designed to provide a heavy firepower supplement during long-range combined fleet actions of the thinly spread Domain Armada.\r\n\r\nBest used as part of a mixed task force with escorts, the Sunder has powerful forward-facing weapons but limited defensive capabilities which leave it vulnerable to strike craft and flanking assaults by fast-moving frigates.",
+   "ctx": "data/strings/descriptions.csv sunder/SHIP [text1]"
+  },
+  {
+   "i": 13,
+   "en": "A midline destroyer from the golden age of the Domain, the Hammerhead is respected for its staying power in battle as well as its ballistic capabilities.",
+   "ctx": "data/strings/descriptions.csv hammerhead/SHIP [text1]"
+  },
+  {
+   "i": 14,
+   "en": "A medium tanker with enough fuel capacity to support a larger fleet. Tanker duty is often considered punitive in the Hegemony - there's little opportunity for distinction, and less chance of survival should direct contact with the enemy occur.",
+   "ctx": "data/strings/descriptions.csv phaeton/SHIP [text1]"
+  }
+ ]
+}

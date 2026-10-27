@@ -1,0 +1,106 @@
+{
+ "chunk": 56,
+ "cat": "desc",
+ "items": [
+  {
+   "i": 1,
+   "en": "A triple-barreled cannon that fires a burst of standardized shells at medium range. It is most effective versus enemy shields.\r\n\r\nMedium caliber, triple-barreled autocannon, typically deployed with medium-bore ammunition. Electrically primed firing fuses ensure precise fire counts. A great fire support weapon, it is typically fitted on destroyer and cruiser class ships. A battery of heavy autocannons with a proper firing solution may pose a serious threat to capital ships. \r\n\r\nAdditional mass necessity to accommodate the complex autoloader and cooling systems results in a very poor turn rate, however.",
+   "ctx": "data/strings/descriptions.csv heavyac/WEAPON [text1]"
+  },
+  {
+   "i": 2,
+   "en": "A specialized weapon designed to overload and disable enemy systems from afar. The high-velocity duranium slug is also effective against shields.\r\n\r\nThe hypervelocity driver uses a 2-stage process to accelerate a duranium slug with a magnetized iron-cobalt core to a very high velocity. A chemical charge accelerates the slug first, then the magnetic coils take over, accelerating the slug further and stabilizing its flight. The slug is highly charged by the time it reaches the target, generating a significant amount of electromagnetic interference on the ship it impacts.",
+   "ctx": "data/strings/descriptions.csv hveldriver/WEAPON [text1]"
+  },
+  {
+   "i": 3,
+   "en": "A dual-mount of the Light Needler with a heavier base, this advanced weapon system is capable of quickly overwhelming shield projectors.\r\n\r\nThe Heavy Needler is an advanced weapon that fires small flechette rounds. An improvement upon the Light Needler, it features better feed and cooling systems, which enable an even greater rate of fire. Projectiles are identical to the light version: caseless ammunition tungsten-jacketed flechettes.",
+   "ctx": "data/strings/descriptions.csv heavyneedler/WEAPON [text1]"
+  },
+  {
+   "i": 4,
+   "en": "A long-range weapon designed to overload the target's shields. The heavy kinetic slug it fires is also effective against all but the heaviest armor.\r\n\r\nUses magnetic coils to accelerate a large ultra-dense composite slug to relativistic speeds. Usually rated at the hundreds of giga-amperes range, rarely exceeding one tera-ampere. And unlike most ballistic weapons, has a very high flux load when fired. Turrets mounted with this system have an extremely poor turn rate. \r\n\r\nVery effective weapon whose usefulness is limited by the low reactor power of ships that typically feature large ballistic weapon mounts. ",
+   "ctx": "data/strings/descriptions.csv gauss/WEAPON [text1]"
+  },
+  {
+   "i": 5,
+   "en": "A large ballistic gun system with good operational range, its high-explosive shaped-charge shells are designed to tear apart heavy armor. The raw damage output may also serve to overwhelm weaker shield emitters.\r\n\r\nThe Hephaestus Assault Gun is a truly devastating weapon platform named for an Old Earth deity associated with a distant predecessor to the nanoforge. A typical chassis features two L/89 barrels that trade off firing armor-destroying rounds at a high rate of fire. Electromagnetic ejector, powered feed system, and nanocoolants allow the weapon to fire for extended periods limited only by flux pool.\r\n\r\nA tradition exists among Hegemony officers to comment upon the thump-thump of the Hephaestus recoil as \"The heartbeat of the Hegemony Navy\", to which the crew responds with a hearty \"Ooh-rah!\". Several drinking games with a similar theme albeit more crudely expressed are endured by portside bars much to the annoyance of proprietors due to the stomping and inevitable broken drinking vessels.",
+   "ctx": "data/strings/descriptions.csv hephag/WEAPON [text1]"
+  },
+  {
+   "i": 6,
+   "en": "An imposing medium range autocannon which is used most effectively against shields, the Mark IX may also serve admirably to obliterate unarmored hull. A two-barrel designed and unique double-loader system allow the output of a large volume of heavy caliber projectile fire.\r\n\r\nThe Mark IX blueprints were first re-discovered by the Persean Sector in a drifting derelict captured in the gravity well of Penelope's Star. After a hasty examination of the files by an unqualified assessor - historical reports deemed the Mark IX obsolete due to poor performance against the heavily armored warships which were favored in that era - the blueprint was auctioned off and purchased by a small mercenary organization known as Tactistar, a military contractor which was then a subsidiary of the Ko Combine, and forgotten. After some cycles enough surplus capital was found to finally build a test a prototype for weapon trials. The Mark IX was generally unexceptional, considered overly large and mediocre against armored targets. Nonetheless, raw damage output was impressive and secondary trials showed devastating effect when employed against shielded targets.\r\n\r\nAfterward, the Mark IX did not remain secret for long. Tactistar Combine profitably sold manufacturing rights throughout the Persean Sector and soon repurchased itself from its ever-ponderous parent corporation.",
+   "ctx": "data/strings/descriptions.csv mark9/WEAPON [text1]"
+  },
+  {
+   "i": 7,
+   "en": "A sophisticated medium-range gun system that delivers superior damage alongside a significant EMP payload.\r\n\r\nThe Mjolnir is technically a magneto-gravitic projector rather than a cannon as traditionally understood. Each munition contains a small amount of exotic condensed matter and an isolated microsingularity which combine destructively upon impact, channeling energy through a temporary gravitic lens. The local effect results in devastation of ordinary matter and the release of a powerful electromagnetic pulse (EMP) which disables weapons and systems within the targeted ship.",
+   "ctx": "data/strings/descriptions.csv mjolnir/WEAPON [text1]"
+  },
+  {
+   "i": 8,
+   "en": "Fires a withering hail of kinetic projectiles that easily overwhelm most shield projectors.\r\n\r\nThe Storm Needler is a large ballistic weapon system which fires caseless small-bore flechette ammunition. Having reached the practical limits of medium sized cooling systems, the designers of caseless ammunition blazed a path into larger weapons with the Storm Needler's advanced nano coolant recyclers, per-barrel magnetized rifling, and automated operation. An intelligent autoloader unpacks and loads just the right amount of ammunition from the magazines, allowing for prolonged operation provided the host ship has adequate flux capacity.",
+   "ctx": "data/strings/descriptions.csv multineedler/WEAPON [text1]"
+  },
+  {
+   "i": 9,
+   "en": "A huge cannon which fires slow-moving plasma-charged projectiles. Rounds are highly effective versus armor and obliterate any hull structure left underneath.\r\n\r\nA feared weapon platform, rarely deployed due to the complexity involved in manufacturing a built-up barrel that can safely fire enormous high-explosive shaped charge rounds. When such a shell impacts a target, the Neumann effect causes the warhead to propel a jet of molten metal into the target's armor, vaporizing a small area, causing hull breaches, depressurization, and extensive internal damage from the spall.",
+   "ctx": "data/strings/descriptions.csv hellbore/WEAPON [text1]"
+  },
+  {
+   "i": 10,
+   "en": "A single unguided torpedo of devastating yield with a powerful on-board engine.\r\n\r\nThe quintessential strike weapon, a single Reaper torpedo is a large self-propelled, armored, unguided delivery system for an enriched AM-catalyzed nuclear warhead. The science behind the surprisingly compact detonator is poorly understood in the Sector though widely speculated to be based on physics classified as secret by Domain authority. What is known is that three or four of these slipping through PD arcs are enough to destroy even the largest capital ship.",
+   "ctx": "data/strings/descriptions.csv reaper/WEAPON [text1]"
+  },
+  {
+   "i": 11,
+   "en": "A rack of advanced guided torpedoes. The payload is smaller than usual to make room for the advanced guidance package and maneuvering system's reaction mass.\r\n\r\nThe Atropos torpedo is a large guided torpedo with an extended range. Each rack mounts two torpedoes which can be fired separately, allowing strike captains maximum flexibility. The AM-catalyzed nuclear warhead typically used in torpedo warheads is missing here as baryonic interference from the detonator would foul the guidance systems. It is replaced by a smaller, yet still potent chemical charge.",
+   "ctx": "data/strings/descriptions.csv atropos/WEAPON [text1]"
+  },
+  {
+   "i": 12,
+   "en": "A single advanced, guided torpedo. The payload is smaller than usual to make room for the advanced guidance package and maneuvering system's reaction mass.\r\n\r\nThe Atropos torpedo is a large guided torpedo with an extended range. The AM-catalyzed nuclear warhead typically used in torpedo warheads is missing here as baryonic interference from the detonator would foul the guidance systems. It is replaced by a smaller, yet still potent chemical charge.\r\n\r\nThis mount features only a single torpedo.",
+   "ctx": "data/strings/descriptions.csv atropos_single/WEAPON [text1]"
+  },
+  {
+   "i": 13,
+   "en": "A short range guided missile launcher. The missiles are designed to intercept agile targets, and are primarily effective against small craft such as frigates and fighters.\r\n\r\nLaunches bursts of small missiles. A simple infrared system provides effective tracking while chemical microthrusters provide exceptional maneuverability. Evolutionary targeting algorithms honed over centuries of real-world application allow the missiles to lead the target - they rarely miss and are very hard to avoid.",
+   "ctx": "data/strings/descriptions.csv swarmer/WEAPON [text1]"
+  },
+  {
+   "i": 14,
+   "en": "A short range guided missile launcher. The missiles are designed to intercept and destroy enemy fighters.",
+   "ctx": "data/strings/descriptions.csv swarmer_fighter/WEAPON [text1]"
+  },
+  {
+   "i": 15,
+   "en": "Fires a spread of unguided rockets that cover a wide arc. Typically used to strip away enemy armor once shields are down.\r\n\r\nMedium to long-range rockets launched from a small pod that fires five missiles per salvo in a narrow spread to improve the odds of hitting. Rockets are small and unguided, with the extra space being taken up by a larger warhead and improved propulsion systems, as well as thicker armor. \r\n\r\nPerforms well against larger targets due to the higher chance of striking with multiple rockets. A rocket attack is often used as a screen before a torpedo strike to reduce the effectiveness of Point Defense systems. Takes several seconds to reload after a salvo.",
+   "ctx": "data/strings/descriptions.csv annihilator/WEAPON [text1]"
+  },
+  {
+   "i": 16,
+   "en": "Fires a salvo of unguided rockets. Typically used to strip away enemy armor once shields are down.",
+   "ctx": "data/strings/descriptions.csv annihilator_fighter/WEAPON [text1]"
+  },
+  {
+   "i": 17,
+   "en": "Fires a stream of unguided rockets. Useful for dealing with enemy armor, or - due to having no flux cost - applying sustained pressure.\r\n\r\nFeatures the same medium to long-range rockets found on smaller launchers. Rockets are unguided, with the extra space being taken up by a larger warhead and improved propulsion systems, as well as thicker armor. \r\n\r\nPerforms well against larger targets due to the higher chance of striking with multiple rockets. A rocket attack is often used as a screen before a torpedo strike to reduce the effectiveness of Point Defense systems. ",
+   "ctx": "data/strings/descriptions.csv annihilatorpod/WEAPON [text1]"
+  },
+  {
+   "i": 18,
+   "en": "Homes in on the target's engines and disables them with a powerful EMP burst. A combat-rated autoloader system ensures usefulness in protracted engagements.\r\n\r\nThe Salamander missile is a specialized weapon with two design considerations. The first is an extremely advanced tracking/targeting mechanism which enables it to home in on enemy engines, whilst avoiding all other potential impact points and Point Defense threats. \r\n\r\nThe second is a special warhead design which, instead of attempting to destroy the target with kinetic or explosive force, generates targeted electromagnetic fields of high magnitude. When such a field is created in the proximity of unshielded engines and hull components, it will quickly knock out all their electronics, rendering them useless until repaired.",
+   "ctx": "data/strings/descriptions.csv heatseeker/WEAPON [text1]"
+  },
+  {
+   "i": 19,
+   "en": "Homes in on the target's engines and disables them with a powerful EMP burst. A combat-rated autoloader system ensures usefulness in protracted engagements.\r\n\r\nAn externally mounted pod replaces the more common missile racks and allows two missiles to be fired almost simultaneously. An autoloader extracts, arms and primes the next salvo of two missiles after a short wait.\r\n\r\nThe Salamander missile is a specialized weapon with two design considerations. The first is an extremely advanced tracking/targeting mechanism which enables it to home in on enemy engines, whilst avoiding all other potential impact points and Point Defense threats. \r\n\r\nThe second is a special warhead design which, instead of attempting to destroy the target with kinetic or explosive force, generates targeted electromagnetic fields of high magnitude. When such a field is created in the proximity of unshielded engines and hull components, it will quickly knock out all their electronics, rendering them useless until repaired.",
+   "ctx": "data/strings/descriptions.csv salamanderpod/WEAPON [text1]"
+  },
+  {
+   "i": 20,
+   "en": "Medium range, high payload guided missile rack. Devastating against ships with downed shields.\r\n\r\nThree-racked medium range missiles. An excellent propulsion system delivers a large warhead to the target at sublight speeds. Sacrificing maneuverability for speed and warhead size, the medium range missile is one of the highest yield non strike weapons employed in the Sector. One hit is almost fatal to frigate-sized ships.\r\n\r\nThis weapon system features a firing rack that houses multiple missiles.",
+   "ctx": "data/strings/descriptions.csv harpoon/WEAPON [text1]"
+  }
+ ]
+}

@@ -1,0 +1,361 @@
+{
+ "chunk": 2,
+ "cat": "ui",
+ "items": [
+  {
+   "i": 1,
+   "en": "Some of your ships suffer from low combat readiness and could experience malfunctions during battle.\\n\\nTheir combat systems can be powered down to avoid malfunctions and allow the ships to make their best speed to escape.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.tooltipCrashMothball"
+  },
+  {
+   "i": 2,
+   "en": "All of your ships are ready for combat and do not run the risk of suffering malfunctions.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.tooltipCrashMothballUnavailable"
+  },
+  {
+   "i": 3,
+   "en": "Forces a battle in which the disengaging forces attempt to get away.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.tooltipPursue"
+  },
+  {
+   "i": 4,
+   "en": "Orders your second-in-command to handle the pursuit. Offers no risk to your ships, but likely less effective than commanding the pursuit yourself.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.tooltipPursueAutoresolve"
+  },
+  {
+   "i": 5,
+   "en": "Your forces were defeated in the last engagement and are unable to pursue.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.tooltipPursueLostLast"
+  },
+  {
+   "i": 6,
+   "en": "Your forces stood down after the last engagement and are unable to pursue.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.tooltipPursueStoodDown"
+  },
+  {
+   "i": 7,
+   "en": "Your forces took serious losses in the last engagement and are unable to pursue.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.tooltipPursueSeriousLosses"
+  },
+  {
+   "i": 8,
+   "en": "The enemy fleet is too fast for your forces to catch up to.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.tooltipPursueTooSlow"
+  },
+  {
+   "i": 9,
+   "en": "None of your ships are combat-ready.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.tooltipNoReadyShips"
+  },
+  {
+   "i": 10,
+   "en": "There are no marines available.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.tooltipNoPersonnel"
+  },
+  {
+   "i": 11,
+   "en": "Reduces the combat readiness of all disengaging ships as if they were deployed into combat.\\n\\nAlso slows down your fleet for a while as your forces require time to reorganize after the harassing action.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.tooltipHarassRetreat"
+  },
+  {
+   "i": 12,
+   "en": "Unable to harass the retreating forces either due to standing down or not having any combat-ready ships.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.tooltipHarassRetreatUnavailable"
+  },
+  {
+   "i": 13,
+   "en": "Lets the other fleet leave in peace.\\n\\nYour fleet does not need to reorganize after the encounter and is not slowed down.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.tooltipLetThemGoNoPenalty"
+  },
+  {
+   "i": 14,
+   "en": "Attack the opposing fleet.\\n\\nIf you inflict enough damage before retreating, you will be able to disengage without being pursued.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.tooltipEngage"
+  },
+  {
+   "i": 15,
+   "en": "Ends the battle with no risk of being harried by the opposing fleet.\\n\\nAs the enemy remains in control of the battlespace, you won't be able to conduct any salvage operations.\\n\\nIf your fleet hasn't taken any hostile actions, disengaging will not do any damage to your standing with the opposing faction.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.tooltipCleanDisengage"
+  },
+  {
+   "i": 16,
+   "en": "Ends the battle without any risk of pursuit. The opposing fleet may still harry your retreat.\\n\\nAs the enemy remains in control of the battlespace, you won't be able to conduct any salvage operations.\\n\\nIf your fleet hasn't taken any hostile actions, disengaging will not do any damage to your standing with the opposing faction.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.tooltipHarrassableDisengage"
+  },
+  {
+   "i": 17,
+   "en": "Attempt to retreat from battle. The opposing fleet may pursue and force a battle, or may let you go.\\n\\nAs the enemy remains in control of the battlespace, you won't be able to conduct any salvage operations.\\n\\nIf your fleet hasn't taken any hostile actions, disengaging - without damaging any pursuing ships - will do the least damage to your standing with the opposing faction.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.tootipAttemptToDisengage"
+  },
+  {
+   "i": 18,
+   "en": "Organize a boarding action. Requires marines and likely to result in serious personnel losses.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.tooltipBoardingAction"
+  },
+  {
+   "i": 19,
+   "en": "Attack the ship before it has a chance to complete repairs.\\n\\nThere is a chance that the ship will be destroyed entirely.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.tooltipEngageBoardable"
+  },
+  {
+   "i": 20,
+   "en": "Let the enemy ship finish emergency repairs and withdraw.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.tooltipLetShipGo"
+  },
+  {
+   "i": 21,
+   "en": "Ships assigned to the boarding task force approach the enemy ship and dock with it.\\n\\nOffers the best combat odds to the assault teams and a high chance of success.\\n\\nIf the ship being boarded self-destructs, the ships involved in the boarding action will take heavy damage and may be destroyed.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.tooltipHardDockBoarding"
+  },
+  {
+   "i": 22,
+   "en": "The boarding task force maintains a safe distance and launches assault teams equipped with personal propulsion systems.\\n\\nGives the defenders a significant combat advantage and a higher chance to get away, but does not risk the ships in the boarding task force.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.tooltipLaunchBoarding"
+  },
+  {
+   "i": 23,
+   "en": "Recall the task force and cancel the boarding action, allowing the enemy ship to withdraw.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.tooltipAboutBoardingAction"
+  },
+  {
+   "i": 24,
+   "en": "Select the number of marines to assign to the assault force.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.tooltipSelectorMarines"
+  },
+  {
+   "i": 25,
+   "en": "Select the number of crew to assign to the assault force.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.tooltipSelectorCrew"
+  },
+  {
+   "i": 26,
+   "en": "Select the ship you will directly control in the upcoming engagement.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.tooltipSelectFlagship"
+  },
+  {
+   "i": 27,
+   "en": "You encounter an ongoing battle.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.ongoingBattleEncounter"
+  },
+  {
+   "i": 28,
+   "en": "The $alliedFactionAndTheirAllies transmit their IFF codes, which allow you to join the battle on their side if you decide to do so.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.ongoingBattleShareIFF"
+  },
+  {
+   "i": 29,
+   "en": "Neither side trusts you enough to share IFF codes or fight alongside, and you're unable to join the battle on either side.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.ongoingBattleNoJoin"
+  },
+  {
+   "i": 30,
+   "en": "Neither side trusts you enough to share IFF codes, but that's likely to change if you come back with your transponder turned on.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.ongoingBattleNoJoinTransponder"
+  },
+  {
+   "i": 31,
+   "en": "Your forces leave the battlespace before all of your allies, who are nonetheless able to rout the enemy forces.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.playerOutFirstEscapeWin"
+  },
+  {
+   "i": 32,
+   "en": "Your forces leave the battlespace before all of your allies, who are able to escape shortly thereafter.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.playerOutFirstEscapeLoss"
+  },
+  {
+   "i": 33,
+   "en": "Your forces retreat from the battlespace before your allies, who are nonetheless able to win the engagement.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.playerOutFirstEngageWin"
+  },
+  {
+   "i": 34,
+   "en": "Your forces retreat from the battlespace before all of your allies and have an opportunity to leave in relative safety.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.playerOutFirstEngageLoss"
+  },
+  {
+   "i": 35,
+   "en": "Your forces retreat from the battlespace before your allies.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.playerOutFirstPursuitWin"
+  },
+  {
+   "i": 36,
+   "en": "The $alliedFactionAndTheirAllies are moving in to engage the $enemyFactionAndTheirAllies.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.ongoingBattleEngage"
+  },
+  {
+   "i": 37,
+   "en": "The $alliedFactionAndTheirAllies are holding their ground against the $enemyFactionAndTheirAllies.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.ongoingBattleStation"
+  },
+  {
+   "i": 38,
+   "en": "The $alliedFactionAndTheirAllies are pursuing the retreating $enemyFactionAndTheirAllies.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.ongoingBattlePursue"
+  },
+  {
+   "i": 39,
+   "en": "The $alliedFactionAndTheirAllies harass the retreating $enemyFactionAndTheirAllies, causing much disruption, but ultimately do not force a battle.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.ongoingBattleHarass"
+  },
+  {
+   "i": 40,
+   "en": "The $alliedFactionAndTheirAllies let the $enemyFactionAndTheirAllies go without further incident.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.ongoingBattleLetGo"
+  },
+  {
+   "i": 41,
+   "en": "The $alliedFactionAndTheirAllies are attempting to disengage from the $enemyFactionAndTheirAllies.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.ongoingBattleDisengage"
+  },
+  {
+   "i": 42,
+   "en": "Your $fleetOrShip approaches the jump point.",
+   "ctx": "data/strings/strings.json jumpPointInteractionDialog.approach"
+  },
+  {
+   "i": 43,
+   "en": "Jumping in through the wormhole generated by the star's gravity field is quite a feat of navigation. Only the most skilled would even consider attempting it, and even then, the results are unpredictable.",
+   "ctx": "data/strings/strings.json jumpPointInteractionDialog.starAnchor"
+  },
+  {
+   "i": 44,
+   "en": "You are unable to use this jump point.",
+   "ctx": "data/strings/strings.json jumpPointInteractionDialog.starAnchorUnusable"
+  },
+  {
+   "i": 45,
+   "en": "Your $fleetOrShip has no fuel remaining and is unable to make a jump.",
+   "ctx": "data/strings/strings.json jumpPointInteractionDialog.noFuel"
+  },
+  {
+   "i": 46,
+   "en": "The jump point does not appear to have any functional exits and is effectively unusable.",
+   "ctx": "data/strings/strings.json jumpPointInteractionDialog.noExits"
+  },
+  {
+   "i": 47,
+   "en": "Your $fleetOrShip approaches $planetName.",
+   "ctx": "data/strings/strings.json planetInteractionDialog.approach"
+  },
+  {
+   "i": 48,
+   "en": "Welcome to the Starsector campaign!\\n\\nYou can press F5 to quicksave and F9 to quickload.\\n\\nTry to avoid taking on fleets much bigger than yours, or ones that have bigger ships, and please remember that it's a work-in-progress so bugs will occasionally happen.\\n\\nGood luck!",
+   "ctx": "data/strings/strings.json campaignHelp.chmNewgame_text"
+  },
+  {
+   "i": 49,
+   "en": "Dismiss",
+   "ctx": "data/strings/strings.json campaignHelp.chmNewgame_dismiss"
+  },
+  {
+   "i": 50,
+   "en": "Welcome to the Starsector campaign!\\n\\nSince you're playing in iron mode, you'll only be able to save the game when you exit, and won't be able to load another game without exiting (and saving) your current game first.\\n\\nTry to avoid taking on fleets much bigger than yours, or ones that have bigger ships, and please remember that it's a work-in-progress so bugs will occasionally happen.\\n\\nGood luck!",
+   "ctx": "data/strings/strings.json campaignHelp.chmNewgameIron_text"
+  },
+  {
+   "i": 51,
+   "en": "Some of the ships marked for deployment are at dangerously low combat readiness (below 20%).\\n\\nBringing the systems on these ships to combat power levels is likely to cause critical malfunctions - dealing damage, disabling some weapons and engines for the duration of the battle, and causing further critical malfunctions during the deployment.\\n\\nRunning these risks - which include the outright destruction of a ship - is usually a measure of last resort.",
+   "ctx": "data/strings/strings.json campaignHelp.chmDeployCritCR_text"
+  },
+  {
+   "i": 52,
+   "en": "Proceed with the deployment",
+   "ctx": "data/strings/strings.json campaignHelp.chmDeployCritCR_action"
+  },
+  {
+   "i": 53,
+   "en": "Reconsider",
+   "ctx": "data/strings/strings.json campaignHelp.chmDeployCritCR_dismiss"
+  },
+  {
+   "i": 54,
+   "en": "Some of the ships marked for deployment are at low combat readiness (below 40%).\\n\\nTheir weapon systems and engines are likely to suffer malfunctions and become temporarily disabled during sustained use.",
+   "ctx": "data/strings/strings.json campaignHelp.chmDeployLowCR_text"
+  },
+  {
+   "i": 55,
+   "en": "You can select which ships to deploy at the beginning of each battle, and deploy reinforcements as the battle goes on.\\n\\nDeploying a ship reduces its combat readiness by a fixed amount. In addition, ships will begin to gradually lose combat readiness after their peak readiness time runs out.\\n\\nRecovering combat readiness takes time and consumes valuable supplies.",
+   "ctx": "data/strings/strings.json campaignHelp.chmDeployCostsCR_text"
+  },
+  {
+   "i": 56,
+   "en": "You've made changes to the ship's loadout, but have not adjusted the weapon groups.\\n\\nWeapons will be automatically assigned to groups when you deploy the ship for combat, but it's a good idea to make the assignments manually.",
+   "ctx": "data/strings/strings.json campaignHelp.chmWeaponGroups_text"
+  },
+  {
+   "i": 57,
+   "en": "Adjust weapon groups",
+   "ctx": "data/strings/strings.json campaignHelp.chmWeaponGroups_action"
+  },
+  {
+   "i": 58,
+   "en": "Never mind",
+   "ctx": "data/strings/strings.json campaignHelp.chmWeaponGroups_dismiss"
+  },
+  {
+   "i": 59,
+   "en": "In the cargo/trade screen, you can:\\n\\n- Left-click to pick up a stack\\n- Shift-click to pick up items from a stack one at a time\\n- Shift-click and hold, then drag to pick up a specific quantity\\n- Control-click to transfer an entire stack without picking it up",
+   "ctx": "data/strings/strings.json campaignHelp.chmOpenTrade_text"
+  },
+  {
+   "i": 60,
+   "en": "Your fleet has been hit by a hyperspace storm! One of your ships has taken damage and its combat readiness has been reduced.\\n\\nStorm strikes can also knock your fleet off course, but an \\\"Emergency Burn\\\" lets your fleet to get back on course more easily and allows it to punch through storms.",
+   "ctx": "data/strings/strings.json campaignHelp.chmHyperStorm_text"
+  },
+  {
+   "i": 61,
+   "en": "Congratulations, you just bought a new ship!\\n\\nIt doesn't have any weapons or hullmods installed, so it's a good idea to get it outfitted.\\n\\nYou'll also need to make sure you have enough personnel to crew it.",
+   "ctx": "data/strings/strings.json campaignHelp.chmShipPurchase_text"
+  },
+  {
+   "i": 62,
+   "en": "Open the refit screen",
+   "ctx": "data/strings/strings.json campaignHelp.chmShipPurchase_action"
+  },
+  {
+   "i": 63,
+   "en": "Congratulations, you just bought a new fighter wing!\\n\\nFighter wing combat readiness represents the number of replacement fighter chassis available, but these can only be used if you have a ship with a flight deck in your fleet.\\n\\nNew fighters will take off from a nearby flight deck to replace any losses taken in combat. As long as your fleet has a ship with proper repair facilities (i.e. a flight deck), a fighter wing can not be completely lost, even if its combat readiness is reduced to zero.",
+   "ctx": "data/strings/strings.json campaignHelp.chmWingPurchase_text"
+  },
+  {
+   "i": 64,
+   "en": "When refitting a ship while docked at a space station, you can mount both the weapons in your cargo hold and the ones available for purchase at the station.\\n\\nUndoing the changes to the ship's loadout (or simply unmounting the purchased weapons) will refund the credits used, but only if you haven't navigated away from the refit screen.",
+   "ctx": "data/strings/strings.json campaignHelp.chmRefitOnStation_text"
+  },
+  {
+   "i": 65,
+   "en": "Warning: you're taking more salvage than your fleet has the capacity to carry.\\n\\nThis will result in greatly increased daily supply consumption and a reduced travel speed.\\n\\nIt's recommended that you either take less salvage or head for a nearby station to sell off the excess.",
+   "ctx": "data/strings/strings.json campaignHelp.chmLootOverCapacity_text"
+  },
+  {
+   "i": 66,
+   "en": "Your fleet is carrying more cargo than it has capacity for.\\n\\nThis will result in greatly increased daily supply consumption and a reduced travel speed.\\n\\nIt's recommended that you either jettison some of the cargo now or head to a station quickly so you can sell off the excess. You can jettison cargo from the crew/cargo screen.",
+   "ctx": "data/strings/strings.json campaignHelp.chmOverCargoCapacity_text"
+  },
+  {
+   "i": 67,
+   "en": "Open the crew/cargo screen",
+   "ctx": "data/strings/strings.json campaignHelp.chmOverCargoCapacity_action"
+  },
+  {
+   "i": 68,
+   "en": "Your fleet is carrying more fuel than it has capacity for.\\n\\nThis will result in greatly increased daily supply consumption and a reduced travel speed.\\n\\nIt's recommended that you either jettison some of the fuel now or head to a station quickly so you can sell off the excess. You can jettison fuel from the crew/cargo screen.",
+   "ctx": "data/strings/strings.json campaignHelp.chmOverFuelCapacity_text"
+  },
+  {
+   "i": 69,
+   "en": "Your fleet is carrying more personnel than it has capacity for.\\n\\nThis will result in greatly increased daily supply consumption and a reduced travel speed.\\n\\nIt's recommended that you head to a nearby market so you can drop them off there.",
+   "ctx": "data/strings/strings.json campaignHelp.chmOverCrewCapacity_text"
+  },
+  {
+   "i": 70,
+   "en": "Your fleet is running low on fuel.\\n\\nIf it runs out of fuel in hyperspace, it will drift towards the nearest star system and may become stranded if you're not able to acquire more fuel there.",
+   "ctx": "data/strings/strings.json campaignHelp.chmLowFuel_text"
+  },
+  {
+   "i": 71,
+   "en": "Your fleet is running low on supplies.\\n\\nIf it runs out of supplies, all repairs will stop and ships will start to lose combat readiness over time. After more than a couple of days without supplies, the fleet begins to run the risk of accidents that range from minor (such as the loss of some cargo) to critical (losing a ship).\\n\\nIt's recommended that you acquire more supplies as quickly as possible.\\n\\nTo reduce supply consumption, you can suspend any ongoing ship repairs. A last resort way to get more supplies is to scuttle one of your ships.\\n\\nThe commands to do so are available on the fleet screen.",
+   "ctx": "data/strings/strings.json campaignHelp.chmLowSupplies_text"
+  }
+ ]
+}

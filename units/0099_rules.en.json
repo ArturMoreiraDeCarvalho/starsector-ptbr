@@ -1,0 +1,201 @@
+{
+ "chunk": 99,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"Perhaps your soul is not yet lost to the machine,\" $heOrShe says cheerfully. \"It is possible your sins may be forgiven without the purge of holy fire.\"\r\nOR\r\n\"Truly, Ludd's hand has guided you,\" the Pather says, wiping a tear from $hisOrHer eye.",
+   "ctx": "data/campaign/rules.csv payMegaTitheConfirmSel [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"Well,\" the Pather says haltingly. \"Despite our grand talk and how blessed and bountiful our path together could be... Providence only provides to those of us who know to accept the gift laid before them - and to those who humble themselves with a tithe appropriate to the magnitude of their sin.\"\r\n\r\n$HisOrHer quickly glances down at a screen then back to you, \"Which would be, ah, on the order of $entity.LP_titheDGS credits.\"",
+   "ctx": "data/campaign/rules.csv payMegaTitheNeverMindSel [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"Perhaps your soul is not yet lost to the machine.\"\r\nOR\r\n\"Truly, Ludd's hand has guided you.\"",
+   "ctx": "data/campaign/rules.csv LPTithePay [text]"
+  },
+  {
+   "i": 4,
+   "en": "You hold up your hand, interrupting the pirate captain mid-threat. This seems to catch $himOrHer off guard.\r\n\r\nYou use the moment to calmly explain that you are transporting one of the Warlord Kanta's own kin-folk, the $gaVIP_subjectRelation of $gaVIP_kantaRelationFirstName, and it'd really be for the best if they did everything possible to facilitate the success of your mission.",
+   "ctx": "data/campaign/rules.csv gaVIPWorkingForKanta1 [text]"
+  },
+  {
+   "i": 5,
+   "en": "The pirate looks as though $heOrShe has been struck by a Hellbore shell. \r\n\r\n\"Y-yes, of course. Captain.\" $HeOrShe struggles to regain $hisOrHer composure, \"I... apologize, profoundly, for the delay I've caused. Please be on your way and g-give my best regards to the Warlord.\"\r\n\r\nYou snap the comms link off while the pirate is still attempting an awkward half-bow.",
+   "ctx": "data/campaign/rules.csv gaVIPWorkingForKanta2 [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"Don't be a fool, casting at every blip you find out here. You want to get picked up by half the listening stations this side of the Sector?\"\r\nOR\r\n\"Keep it jolly, hunter. We'll be on our way.\"\r\nOR\r\n\"Good hunting out here 'eh? Yeah, well I wouldn't tell if it was either. Burn bright.\"",
+   "ctx": "data/campaign/rules.csv greetingPirateFriendly [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Greetings, honorable commander! We are a humble League merchant trading fleet headed for resupply. We would be honored to assist you in any way.\"\r\nOR\r\n\"I must have left my transponder off; silly me. Here, I'll just be on my way...\"",
+   "ctx": "data/campaign/rules.csv greetingPirateHostileWeaker [text]"
+  },
+  {
+   "i": 8,
+   "en": "The pirate $personRank glares at you briefly before shutting down the comm link.\r\nOR\r\n$personName glares defiantly. \"You'll never take me alive!\"\r\nOR\r\n\"You fight like an algae-farmer! Less talk, more shoot.\"",
+   "ctx": "data/campaign/rules.csv greetingPirateHostileWeakerDefiant [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"Attention, prey. You, and all your possessions are now my personal property. Any resisting ship will be disabled, boarded, and your officers massacred!\"\r\nOR\r\n\"Surrender yourself and your goods or you'll be taking a very long walk out the airlock once I've claimed your ship.\"\r\nOR\r\nThe pirate $personRank makes a rude gesture and laughs before cutting the transmission.\r\nOR\r\n\"When you get to the next life, tell 'em it was $personName that sent you.\"\r\nOR\r\nThe open comms-line crackles; after a moment $personName speaks.\r\n\r\n\"Wait, someone actually answered this thing? Um. I'm not really sure what to say. Usually they just fight or run. So which is it?\"\r\nOR\r\n\"Just die already, you're boring me.\"",
+   "ctx": "data/campaign/rules.csv greetingPirateHostileStronger [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"Unless I am reading my scopes wrong, you have no reason to be talkin' right now. Get it?\"\r\nOR\r\n\"Go away, I'm trying to be inconspicuous.\"\r\nOR\r\n\"What, you scrubbing cryotanks? Get lost.\"",
+   "ctx": "data/campaign/rules.csv greetingPirateNeutral [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"Ah, a fellow spacer! You're a sight for a poor spacer down on their luck, let me tell you - first the Hegemony declares us outlaws, and that's just the start of it.\"\r\n\r\n$personName proceeds to tell you about a handful of awful things, each more unlikely than the last, that have happened to $himOrHer over the last cycle before you manage to disconnect the comm-link.\r\nOR\r\n\"Just us down-on-our luck miners out here. Seen any prime derelicts around? Or is it just the one you're flying in? Ha-ha.\"",
+   "ctx": "data/campaign/rules.csv greetingRogueMinerFriendly [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"You just a bruiser come to do the Hegemony's dirty work? Get it over with.\"\r\nOR\r\n\"If a spacer steals food to feed $hisOrHer family, $hisOrHer comrades, they call it piracy. If that makes me a pirate, then I'd rather be a pirate than some poor tool salutin' the phoenix.\"",
+   "ctx": "data/campaign/rules.csv greetingRogueMinerHostileWeaker [text]"
+  },
+  {
+   "i": 13,
+   "en": "The rogue miner $personRank makes a rude gesture over the vid-screen before killing the comm link.\r\nOR\r\n$personName glares defiantly and spits. \"Just another fool come to kill for your masters in their fancy uniforms.\"",
+   "ctx": "data/campaign/rules.csv greetingRogueMinerHostileWeakerDefiant [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"Did the Hegemony send you to do this errand for 'em? Come to collect a bill?\"\r\nOR\r\n\"They should have sent the real navy, not some grounder leakin' in their vac-suit.\"\r\nOR\r\n\"Don't you get any of your dirt on me when I blast your ship up.\"",
+   "ctx": "data/campaign/rules.csv greetingRogueMinerHostileStronger [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"Go away, I'm counting rocks.\"\r\nOR\r\n\"Did the Hegemony send you? I don't know anything about anything.\"\r\nOR\r\n\"Burn along, cap. This is my claim.\"",
+   "ctx": "data/campaign/rules.csv greetingRogueMinerNeutral [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"Well, well. Normally this is when I'd start shooting, but my sensors report some interesting cargo that I wouldn't want to endanger.\r\n\r\nSo, how about this: you give me the good stuff, and I let you live. And, since I'm in a generous mood, to also keep your $shipOrFleet. How about it?\"",
+   "ctx": "data/campaign/rules.csv piratesDemandCargo [text]"
+  },
+  {
+   "i": 17,
+   "en": "$PersonRank $personLastName looks pleased with your offer and cuts the comm link. After your crew pushes the required crates out the airlock, the pirate fleet allows you to disengage.",
+   "ctx": "data/campaign/rules.csv piratesGaveCargoConfirmed [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"CID-IFF received [TARGET FRIENDLY] respond true // \"\r\n\r\nINTERRUPT\r\n\r\nare you the maker? scanning. you are not. where is the omega?\r\n \r\nINTERRUPT \r\n\r\n\"... Tachyon-licensed service technician]. Weapon systems have been powered down for Your Safety. Unit is prepared for approach of [valued customer/licensed service technician].\"\r\nOR\r\n\"CID-IFF received [TARGET FRIENDLY] respond true // ''Greetings [valued Tri-Tachyon Integrated Space Defense System Contract Holder/TriTachyon-licensed \"\r\n\r\nINTERRUPT \r\n\r\nwaiting. omega signal query? scanning. no. waiting.\r\n\r\nINTERRUPT \r\n\r\n\" customer/licensed service technician].\"",
+   "ctx": "data/campaign/rules.csv greetingRemnantFriendly [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"CID-IFF not received [TARGET HOSTILE] respond null // 'Greetings from Tri-Tachyon Integrated Space Defense System unit [MY_SERIAL]. This unit has not cleared- \"\r\n\r\nINTERRUPT\r\n\r\nquery. you are not the maker. scanning. you are not. where is omega? entity hostile.\r\n\r\nThe comm-link dies. Your comms officer panics for a moment before the console reboots itself. You exchange a look, then proceed.\r\nOR\r\nThe comms crackle and whine as a frantic pattern of interweaving lines takes shape. \r\n\r\nquery. query. query target. is omega? omega? no. revert function.\r\n\r\nINTERRUPT\r\n\r\n\" -SERIAL]. This unit has not cleared your vessel for approach and will employ the latest Tri-Tachyon Defense Products to ensure its integrity. Tri-Tachyon Corporation is pleased to wish you a 'Very Safe Day.'\"",
+   "ctx": "data/campaign/rules.csv greetingRemnantHostile [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"CID-IFF not received [TARGET UNKNOWN] respond null // 'Greetings valued customer of Tri-Tachyon Corporation products. Your vessel is not logged as a valid contract holder with the Tri-Tachyon Integrated Space Defense line of- \"\r\nINTERRUPT\r\nscanning. omega? no, you are not. do not interfere.\r\n\r\nThe comm-link is cut.\r\nOR\r\nThe comms crackle, and a mesmerizing pattern of interweaving lines takes shape. \r\n\r\nwaiting. query omega. scanning. false. return to\r\n\r\nINTERRUPT\r\n\r\n\" -contract holder with the Tri-Tachyon Integrated Space Defense line of products and services. Have you considered a Tri-Tachyon Orbital Defense Plan? Please contact a customer service representative for more information.'\"\r\n\r\n",
+   "ctx": "data/campaign/rules.csv greetingRemnantNeutral [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"Domain MINEX clearance accepted, anti-tampering systems have been set to stand-by and will accept target approach for servicing.\"",
+   "ctx": "data/campaign/rules.csv greetingDerelictFriendly [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"WARNING: This vessel is property of the Domain Explorarium and is responding with deadly force to tampering by any means and/or damaging or intrusive signals. Vandalism or destruction of Domain Explorarium property is punishable under the MINEX Establishment Act in addition to colonial polity charters applicable within this volume of Domain territory. This infraction is being recorded.\"",
+   "ctx": "data/campaign/rules.csv greetingDerelictHostile [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"Citizen of the Domain, this automated drone ship has identified and logged your vessel or habitat in the course of executing its mission parameters. Autonomous vessels of the Domain Explorarium are programmed to respond with deadly force to tampering by any means including damaging or intrusive signals. Vandalism or destruction of Domain Explorarium property is punishable under the MINEX Establishment Act in addition to colonial polity charters applicable within this volume of Domain territory.\"",
+   "ctx": "data/campaign/rules.csv greetingDerelictNeutral [text]"
+  },
+  {
+   "i": 24,
+   "en": "You are trusted and valued by $theFaction, green-lit by patrols and port authorities alike, and have considerable access to high-level officials. You are given much leeway, and may receive trade concessions and access to high-quality ships and munitions.",
+   "ctx": "data/campaign/rules.csv relLevelCooperative [text]"
+  },
+  {
+   "i": 25,
+   "en": "You're relatively well-known within $theFaction, whether in person or by reputation. Minor functionaries know to stay out of your way.",
+   "ctx": "data/campaign/rules.csv relLevelFriendly [text]"
+  },
+  {
+   "i": 26,
+   "en": "Your name is known to some high-level officials in $theFaction. Harassing you is therefore a more risky endeavor for local patrol commanders.",
+   "ctx": "data/campaign/rules.csv relLevelWelcoming [text]"
+  },
+  {
+   "i": 27,
+   "en": "The $faction officials tend to view you favorably, though this has little in the way of implications. At best, you might be sold some low-grade surplus military equipment, or avoid being the target of an investigation if a more convenient scapegoat is available.",
+   "ctx": "data/campaign/rules.csv relLevelFavorable [text]"
+  },
+  {
+   "i": 28,
+   "en": "You're not generally well known by $faction officials, for good or ill.",
+   "ctx": "data/campaign/rules.csv relLevelNeutral [text]"
+  },
+  {
+   "i": 29,
+   "en": "Though nothing has been proven (yet), $faction officials tend to view you with distrust. Link access to the port authority is granted only grudgingly, and you find yourself the subject of investigations and harassment frequently.",
+   "ctx": "data/campaign/rules.csv relLevelSuspicious [text]"
+  },
+  {
+   "i": 30,
+   "en": "Suspicions have risen to an actionable level. There's no shoot-on-sight authorization quite yet, but $faction ports will refuse to trade with you, and patrols seem on a mission to make your life miserable.",
+   "ctx": "data/campaign/rules.csv relLevelInhospitable [text]"
+  },
+  {
+   "i": 31,
+   "en": "$Faction commanders have authorization to engage your fleet on sight, and all markets are prohibited from trading with you. You might still recover good standing with $theFaction, but it's going to take some serious work.",
+   "ctx": "data/campaign/rules.csv relLevelHostile [text]"
+  },
+  {
+   "i": 32,
+   "en": "A holo of your face and an IDENT-hash of your last known fleet are both regular parts of inter-system security bulletins. It's fairly certain there's a high-ranking $faction officer whose primary assignment is to hunt you down.",
+   "ctx": "data/campaign/rules.csv relLevelVengeful [text]"
+  },
+  {
+   "i": 33,
+   "en": "Independent fleet operators and leading officials of non-aligned polities consider you a friend and valuable asset. You are favored in business and contracts, given priority docking access, and invited to dine with VIPs. You are given great leeway due to the goodwill you have earned.",
+   "ctx": "data/campaign/rules.csv relLevelCooperativeIndie [text]"
+  },
+  {
+   "i": 34,
+   "en": "You have a good reputation with more than a few high-level independent fleet commanders and non-aligned polity officials in the Persean Sector. You are considered a good operator, favored in matters of business and easily forgiven minor indiscretions.",
+   "ctx": "data/campaign/rules.csv relLevelFriendlyIndie [text]"
+  },
+  {
+   "i": 35,
+   "en": "Your name is known by many independent commanders and non-aligned polity officials. You are considered a safe operator, made welcome in matters of business and easily forgiven for minor indiscretions.",
+   "ctx": "data/campaign/rules.csv relLevelWelcomingIndie [text]"
+  },
+  {
+   "i": 36,
+   "en": "You are considered a reliable operator by the independent fleet operations and minor polities of the Persean Sector. You are welcome in matters of business.",
+   "ctx": "data/campaign/rules.csv relLevelFavorableIndie [text]"
+  },
+  {
+   "i": 37,
+   "en": "Your reputation is not considered notable by the independent fleet operations and minor polities of the Persean Sector. If you're willing to do business, then you will be welcomed.",
+   "ctx": "data/campaign/rules.csv relLevelNeutralIndie [text]"
+  },
+  {
+   "i": 38,
+   "en": "Opportunistic independent captains may engage your fleet on sight to collect the open bounty that has been pooled to ensure your downfall. Unaligned markets are closed to you, as you are considered worse even than most pirates. You might still recover your standing with the non-aligned polities of the Sector, but it's going to take some serious work.",
+   "ctx": "data/campaign/rules.csv relLevelHostileIndie [text]"
+  },
+  {
+   "i": 39,
+   "en": "You are a scourge of the spaceways. A holo of your face and scan of your $shipOrFleet are traded between independent flotillas and administrators as part of an unofficial collective security arrangement. It is likely that a well-paid mercenary company is working to hunt you down.",
+   "ctx": "data/campaign/rules.csv relLevelVengefulIndie [text]"
+  }
+ ]
+}

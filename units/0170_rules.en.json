@@ -1,0 +1,146 @@
+{
+ "chunk": 170,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"Hello, this is Callisto Ibrahim of Ibrahim Interstellar Transport and Salvage.\" \r\n\r\nShe frowns and looks you over, assessing, \"If you're looking for work I've got all the pilots I need right now, but I can take your comms ID in case something comes up.\"",
+   "ctx": "data/campaign/rules.csv gaPZCallistoTalk [text]"
+  },
+  {
+   "i": 2,
+   "en": "She narrows her eyes.\r\n\r\n\"Is this about Kelise Astraia? It is, isn't it.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_calHamatsu [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"Don't even get me started.\" Ibrahim seethes, \"She chartered my ship for some hush-hush salvage operation. Supposedly,\" she stresses that word with disbelief, \"And she comes in demanding highly unusual modifications with potentially dangerous hyperdrive field interactions!\"\r\n\r\n\"Well, I got her to throw in a fair chunk of hazard pay, a rush fee, and a bit more to keep quiet about it like she wanted.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_calHamatsu1b [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"Yeah,\" she scowls, \"Because disappearing with my favorite starship is a pretty big breach of contract. I'll tell whoever I damn well please. For all I know she ran my Hamatsu into a black hole in some Tri-Tachyon boondoggle search for a more efficient drive field to license back to us poor spacers just trying to get by.\" \r\n\r\nIbrahim takes a couple deep breaths, then turns to you, a little calmer. \"What's your interest in all this?\"",
+   "ctx": "data/campaign/rules.csv gaPZ_calHamatsu2 [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"I'll tell you what; I want to find her too. There'll be something in it for you if you can get me anything to go on. I'd go looking myself, but,\" Ibrahim waves a hand through the air; business, bureaucracy, other commitments.\r\n\r\n\"Better yet, find the Hamatsu and bring it back to me,\" she closes her eyes, looking pained, \"in one piece, I hope. I've got a lot of memories in that old piece of space-junk.\"\r\n\r\n\"Let me get you started. My captain on the Hamatsu sent an encrypted flight plan before they left spacedock, after finishing the modifications.\" She taps at a desk console.",
+   "ctx": "data/campaign/rules.csv gaPZ_calHamatsu3 [text]"
+  },
+  {
+   "i": 6,
+   "en": "A hyperspace nav overlay appears, \"Hybrasil is here. The Hamatsu fueled up and planned to travel to $gaPZ_relaySystem. Whether they made it, I don't know. Outer Fringe, no hypercomm coverage. They could have changed course. That rad-addled Tri-Tach engineer was tight-lipped about her intentions and ensured that the contract had my captain bound to follow changes in flight plan by her order.\"\r\n\r\nIbrahim swipes the display away, and it is replaced by a schematic of the Hamatsu, with certain additions to the drive field inductors highlighted. \"These are the modifications she had done. If we're agreed that you'll find the Hamatsu for me, captain... \"\r\n\r\nShe looks to you, waiting for an answer.",
+   "ctx": "data/campaign/rules.csv gaPZ_calHamatsu4 [text]"
+  },
+  {
+   "i": 7,
+   "en": "Ibrahim nods, frowning. \"It would mean a lot.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_calHamatsu5a [text]"
+  },
+  {
+   "i": 8,
+   "en": "Ibrahim nods. \"I would not expect it. I only ask that you try.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_calHamatsu5b [text]"
+  },
+  {
+   "i": 9,
+   "en": "Ibrahim looks at you, frowning. After what feels like a half minute of thought, she finally sighs and says \"I'll take a chance with you, captain. It's not like any faction authorities are going to help me with this one.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_calHamatsu5c [text]"
+  },
+  {
+   "i": 10,
+   "en": "She returns her focus to the schematics, zooming in.\r\n\r\n\"I've had my techs have a look. It seems to be an addition, an enhancement, to the drive field. Press a button and it pumps in a lot of energy all at once, pushes the envelope into a strange harmonic. Theoretically it won't do anything hazardous to the ship, but messing with the default settings of the hyperdrive is never a good way to stay in this business.\"\r\n\r\n\"Or alive.\"",
+   "ctx": "data/campaign/rules.csv GAPZCallisttoCont [text]"
+  },
+  {
+   "i": 11,
+   "en": "Ibrahim shakes her head, \"I figured, Tri-Tachyon engineer? Maybe she knows what she's doing and I could get a cut in on it. What a fool I was. Anyway, I've sent you the schematics in case it helps with the search.\"\r\n\r\n\"That's all I have, captain,\" she says, not hopeful, but not resigned. \"All I can say is burn hard, burn bright.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_calHamatsu6 [text]"
+  },
+  {
+   "i": 12,
+   "en": "The comms open and you are faced with a dead-eyed mercenary captain.\r\n\r\n\"$PlayerName,\" $heOrShe says, \"You have been looking in places that you should not be looking. Talking to people you should not be talking to. Asking questions that you should not be asking. Your death will be a lesson for others.\"\r\n\r\n$HeOrShe moves with unconcerned deliberation to switch off the comms.",
+   "ctx": "data/campaign/rules.csv gaPZmercOpenComm [text]"
+  },
+  {
+   "i": 13,
+   "en": "The merc pauses at your words, and you see a wave of consternation pass over $hisOrHer face at your lack of understanding. $HeOrShe reproaches you, \"The Company of course. The only one that matters.\"\r\n\r\nTri-Tachyon, naturally.",
+   "ctx": "data/campaign/rules.csv gaPZ_mercWait [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"You could pay me $playerName, all the credits in the Sector,\" $heOrShe says in near-monotone, \"But you do not understand: I am a weapon. I have been bought, aimed, and fired toward you. Nothing can change that.\"\r\n\r\nThe merc reaches for the comms-disconnect switch again. \"Good-bye, captain.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_mercPay [text]"
+  },
+  {
+   "i": 15,
+   "en": "At first scan, this appears to be a utilitarian probe or instrument platform of the sort used for commercial navigation signaling, staking mining claims, and intra-system comm relays. \r\n\r\nCloser approach reveals a crumbled mass of stealth cladding torn from the hull and drifting in near orbit. Whoever put this platform here did not want it to be found - but a small meteor swarm or, perhaps, light weapons fire thwarted their efforts. Radiation sensors indicate a damaged nuclear battery within. No significant artificial EM activity is apparent.",
+   "ctx": "data/campaign/rules.csv gaPZRelayInteractionStart [text]"
+  },
+  {
+   "i": 16,
+   "en": "Your bridge display focuses on figures in hardsuits deploying from a work-drone to swarm the probe, equipment cases and feed-lines trailing. Your operations chief grumbles over the comms, enforcing strict call-and-response procedure in accordance with safety protocols.\r\n\r\nThe salvage team soon discovers a nonstandard miniaturized hypercommunications relay core at the center of the probe's structure. Your ops chief turns from the console to give you that look which says this salvage job just got a lot more interesting.",
+   "ctx": "data/campaign/rules.csv gaPZ_investigateRelay [text]"
+  },
+  {
+   "i": 17,
+   "en": "Your ops chief leads you through a live compilation of the salvor's investigation: The hypercomm core is formed from once-carefully arranged loops of dense superconducting material, now bent and punctured by small impacts, its delicate conduits seared by radiation.\r\n\r\nThe sophisticated post-Collapse engineering is junked but its presence indicates the involvement of a major power-player in Sector politics.",
+   "ctx": "data/campaign/rules.csv gaPZ_investigateRelay1 [text]"
+  },
+  {
+   "i": 18,
+   "en": "On a hunch, you summon schematics of the Galatia Academy probe relays you recovered while searching for Scylla Coureuse. Understanding the implication of your request, your bridge officers pull copies to their personal workstations and begin looking for analogous structures. \r\n\r\nWithin minutes they come to the conclusion that the architecture is wildly different, though the underlying principles are similar. \"If I were to guess, espionage got early-stage specs, then this gadget was developed in parallel,\" your sensors officer says. Interesting.\r\n\r\nYou nod, then return the bridge display to an external view of the instrument platform. Salvors have re-attached shielded equipment cases to cargo drones, their work complete.",
+   "ctx": "data/campaign/rules.csv gaPZ_investigateRelay2A [text]"
+  },
+  {
+   "i": 19,
+   "en": "After the salvage team returns, their attendant cargo drone packed with recovered data cores, your technicians get to work pulling data from damaged memory.\r\n\r\nThe results are scrambled. Mostly. \r\n\r\nYour techs manage to find a few archives frozen in unencrypted temporary memory: logistics requests for basic supplies, fuel, construction material typical of remote outposts. Your comms officer proudly presents you with two mentions of the surname \"Astraia\" - presumably Kelise Astraia - in the comm logs and, even better, the last target of this comm-link: a seemingly insignificant point in hyperspace.",
+   "ctx": "data/campaign/rules.csv gaPZ_investigateRelay2B [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"It looks like she was in the core worlds, at the other end of these requests,\" your comm officer reports. This confirms that the black project was operating in this system, and Kelise Astraia was involved. And what of the destination of the Hamatsu and Astraia's current location?\r\n\r\nThe hyperspace coordinates beckon.",
+   "ctx": "data/campaign/rules.csv gaPZ_investigateRelay3 [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"Captain, there's something you should see.\" Your sensors officer calls attention to their display, zoomed to a portion of the planet's surface.",
+   "ctx": "data/campaign/rules.csv gaPZ_baseRuinsOpt [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"Here, here, and here. Fusion scorch. Says heavy lifters, a big operation. But why? There's no settlement, no facilities, no mining. Except-\" they pull up the visualization of a graduated radar scan of the vast slope of scree adjacent to the lifter-scorch, \"Surface is sharp fragments, even distribution gradient. Suggests intentional demolition debris, and recent. And,\" with a smile, \"-then it gets good.\" \r\n\r\nThe view is overlaid with a deep radar scan. The shapes are blurry, but there are distinct rectilinear forms beneath the debris. \r\n\r\nYour sensors officer sits back, and not without a little pride says \"I'd say someone's hiding something, captain.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_baseRuins1 [text]"
+  },
+  {
+   "i": 23,
+   "en": "You order the hidden structures investigated. Deep scans are run, and salvor teams along with heavy equipment are shuttled to the surface, overseen by your ops chief.\r\n\r\nThe digging is easy; deep scans from orbit direct the work toward the most promising sites. Salvage crews burrow through the loose material, shoring up the working face with temporary structural foam.",
+   "ctx": "data/campaign/rules.csv gaPZ_baseRuins2 [text]"
+  },
+  {
+   "i": 24,
+   "en": "After significant progress is made, your ops chief gives you an overview of the situation: whoever covered this place up, they were thorough. Most of what's left are concrete foundations and paving made from local material, a few embedded foametal slabs with sheared-off anchor-points, and a smattering of garbage in small cracks and rifts.",
+   "ctx": "data/campaign/rules.csv gaPZ_baseRuins3 [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"We can tell it's mostly of recent make- talking decades, not centuries. Probably younger,\" your ops chief explains, waving a four-fingered hand through the display holo. \"You can see we excavated the structure with the density anomalies here,\" they give a bright spot in the display a solid jab, \"-looks like a few cheap crawler-drones were left to collect and dump rubbish in a slag-pit. Then they drove themselves in before setting off the demo-charges on the cliff face.\" \r\n\r\nYour ops chief steps back and nods respectfully, \"Pro cleanup. No stray datacores, no shiny baubles. Rarely see anyone bother putting in this much effort. S'all I've got, captain.\" \r\n\r\nYour ops chief gives a gruff salute and leaves you to ponder the diagram of the hidden base wormed now with several barren salvage tunnels.\r\n\r\nTri-Tachyon. They can afford to be thorough when they want to be, and they are when it matters.",
+   "ctx": "data/campaign/rules.csv gaPZ_baseRuins4 [text]"
+  },
+  {
+   "i": 26,
+   "en": "The lifeless Hamatsu drifts before your $shipOrFleet, its broken body sectioned into your bridge display by a variety of sensors.\r\n\r\nYour tactical officer brings your attention to an unusual distribution of burned patches, as if the Hamatsu was struck by exotic energy weapons from many angles, all at once.",
+   "ctx": "data/campaign/rules.csv gaPZ_hamatsuWreckOpen [text]"
+  },
+  {
+   "i": 27,
+   "en": "The initial salvage team sweep finds what's left of Kelise Astraia, identified through the biometric data in her Tri-Tachyon personnel record. She is quite deceased. A large cache of credits is found in her quarters in a shielded case.\r\n\r\nThe holds of the Hamatsu are packed with supplies and fuel, much of it recoverable. The law of salvage rules, even here.\r\n\r\nYou recall that Callisto Ibrahim mentioned an affinity for the Hamatsu. If you returned this leaky tomb of a hull to her, you could expect a reward. Ship captains sometimes get funny ideas about their first real command, but if Ibrahim is willing to pay...",
+   "ctx": "data/campaign/rules.csv gaPZ_hamatsuWreckOpen1 [text]"
+  },
+  {
+   "i": 28,
+   "en": "Salvage crews boarding the wreck discover that many essential systems are undamaged and the ship could be restored to basic functionality.\r\n\r\nYou recall that Callisto Ibrahim mentioned an affinity for the Hamatsu. If you returned this leaky tomb of a hull to her, you could expect a reward. Ship captains sometimes get funny ideas about their first real command, but if Ibrahim is willing to pay...",
+   "ctx": "data/campaign/rules.csv gaPZ_hamatsuWreckOpen2 [text]"
+  }
+ ]
+}

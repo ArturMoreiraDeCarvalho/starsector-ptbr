@@ -1,0 +1,19 @@
+{
+	"baseHullId":"kite",
+	"skinHullId":"kite_d",
+	"hullName":"Kite (D)",
+	"descriptionId":"kite",  # optional
+	"descriptionPrefix":"Naves que seriam desativadas em tempos mais tranquilos hoje têm uso generalizado por todo o Setor. A designação de casco desses navios costuma ser marcada com um \"D\", de \"danificado\" ou \"defeituoso\".",
+	"restoreToBaseHull":true,
+	"spriteName":"graphics/ships/aeroshuttle/aeroshuttle_d.png",
+	"removeHints":[CIVILIAN],
+	"baseValueMult":.65,
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":["degraded_engines","comp_armor","faulty_grid"],
+	"tags":["hide_in_codex"],
+	"builtInWeapons":{
+    },
+}

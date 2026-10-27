@@ -1,0 +1,226 @@
+{
+ "chunk": 212,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "Your comms officer reports that the comms signal from the surface is still active.\r\n\r\nYour sensors officer confirms that there is still some kind of unregistered colony site, complete with decorative earthworks, underground habitation, and a feeble attempt at agriculture.",
+   "ctx": "data/campaign/rules.csv LOCRLstartAgain [text]"
+  },
+  {
+   "i": 2,
+   "en": "Your comms officer reports the comms signal from the rogue Luddic sect on the surface is still active.",
+   "ctx": "data/campaign/rules.csv LOCRLstartAgainContacted [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"-llo? Oh, oh blessings of Ludd! Thank Providence you're receiving! We are a community of, of faithful settlers who were... led astray from the true Church of Galactic Redemption.\"\r\n\r\n$HeOrShe clasps $hisOrHer hands together. \"We wish now to repent, and to return, and beg the holy Church for forgiveness.\"",
+   "ctx": "data/campaign/rules.csv LOCRLcontact1 [text]"
+  },
+  {
+   "i": 4,
+   "en": "With a crackle, the comms sync into a working connection.\r\n\r\n\"Blessing of Ludd, you have returned!\" $PersonRank $personLastName clasps $hisOrHer hands together in thanks.\r\n\r\n\"This penance we suffer is harsh and hungry, $playerSirOrMadam. We beg of you, will you do us the charity of transporting to a world of the Church so that we may repent our heresy?\"",
+   "ctx": "data/campaign/rules.csv LOCRLcontact1again [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"We were followers of, a, a...\"\r\n\r\nRealizing that $heOrShe is falling over $hisOrHer words, $heOrShe takes a moment to collect $himOrHerself, and begins again.\r\n\r\n\"We believed a new revelation had been given, like that revealed unto Ludd. Our false prophet claimed to hear a choir of angels, and the song told him that a great cleansing would fall upon the Sector. A war between angels and demons to end the world. Any who did not follow our exodus would be destroyed by the wrath of God.\"",
+   "ctx": "data/campaign/rules.csv LOCRLaskWhatDoing [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"So we followed him, a handful of hundreds, to this place.\"\r\n\r\n\"Though this world is rich, it was not... it is no paradise. And the demands of our false prophet became... bizarre. Unreasonable. Impious. He grew wroth at any questioning, claiming the angels commanded him, and then. Um.\"\r\n\r\n\"There was an accident.\" $PersonRank $PersonName looks aside, avoiding the gaze of the comms, \"He is... I pray that his restless spirit might find a peace now which it did not know in life.\"",
+   "ctx": "data/campaign/rules.csv LOCRLaskWhatDoing2 [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Oh, I... I see.\" $HisOrHer contenance shifts between relief and worry. \"The Church, they- we are repentant! I swear it, even before you arrived.\" \r\n\r\n\"The false prophet who, who seduced us - his proclamations became bizarre. Unreasonable. Impious. He grew wroth at any questioning, claiming the angels commanded him, and then. Um.\"\r\n\r\n\"There was an accident.\" $PersonRank $PersonName looks aside, avoiding the gaze of the comms, \"He is... I pray that his restless spirit might find a peace now which it did not know in life.\"",
+   "ctx": "data/campaign/rules.csv LOCRLFsayLookingFor [text]"
+  },
+  {
+   "i": 8,
+   "en": "$PersonRank $personLastName bows slightly, hands clasped. \"Yes. Our poor fortune is punishment for our foolishness, and faithlessness.\"",
+   "ctx": "data/campaign/rules.csv LOCRLjudgeResponseA [text]"
+  },
+  {
+   "i": 9,
+   "en": "$PersonRank $personLastName looks only more defeated by your words.\r\n\r\n\"It is true,\" $heOrShe chokes out, not quite a sob. \"We have been punished for our faithlessness.\"",
+   "ctx": "data/campaign/rules.csv LOCRLjudgeResponseB [text]"
+  },
+  {
+   "i": 10,
+   "en": "$PersonRank $personLastName bristles at your words, but represses $hisOrHer instinct to react with anger.\r\n\r\n\"We were fools, yes,\" $heOrShe says, eyes downcast. \"But it was... it was an accident. A terrible accident, nothing more.\"\r\n\r\n$HisOrHer voice cracks with desperation, clinging to an agreed-upon truth.",
+   "ctx": "data/campaign/rules.csv LOCRLjudgeResponseC [text]"
+  },
+  {
+   "i": 11,
+   "en": "$PersonRank $personLastName shifts uncomfortably at your words.\r\n\r\n\"It was an accident. A terrible accident, nothing more.\" $HisOrHer voice cracks with desperation, clinging to an agreed-upon truth. \"We're not murderers! We seek only the peace of Ludd. And, and to atone.\"",
+   "ctx": "data/campaign/rules.csv LOCRLjudgeResponseD [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"Pride!\" The word bursts from $PersonRank $personLastName.\r\n\r\n\"It was pride that blinded us. A false revelation made us feel above all others, blessed with special knowledge. Had we but kept the true faith...\" \r\n\r\n$HeOrShe shakes $hisOrHer head. \"We have been punished for straying from the Church and seek now to repent.\"",
+   "ctx": "data/campaign/rules.csv LOCRLjudgeResponseE [text]"
+  },
+  {
+   "i": 13,
+   "en": "$PersonRank $personLastName looks horrified. \"We're not... no... it was an accident! A terrible accident, nothing more.\"\r\n\r\n$HisOrHer voice cracks with desperation, clinging to an agreed-upon truth.\r\n\r\n\"We seek only the peace of Ludd. And, and to atone.\"",
+   "ctx": "data/campaign/rules.csv LOCRLjudgeResponseF [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"For that, ah, we would be most blessed and thankful to you. We shall pray for forgiveness,\" $heOrShe says solemnly, \"And await the judgment of the Church.\"\r\n\r\n$PersonName looks like $heOrShe badly wants to ask you something, and is considering if $heOrShe should.",
+   "ctx": "data/campaign/rules.csv LOCRLFbringNews1 [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"The Church! Yes for that, ah, we would be most blessed and thankful to you. We shall pray for forgiveness,\" $heOrShe says solemnly, \"And await the mercy of the Church.\"\r\n\r\n$PersonName looks like $heOrShe badly wants to ask you something, and is considering if $heOrShe should.",
+   "ctx": "data/campaign/rules.csv LOCRLFbringNews1path [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"Do you know what is intended for us?\" $HeOrShe looks at you fearfully, \"Will the Knight Inquisitors be sent?\"",
+   "ctx": "data/campaign/rules.csv LOCRLFbringNews1respA [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"I... I see, $playerSirOrMadam.\"",
+   "ctx": "data/campaign/rules.csv LOCRLFbringNewsRespPather [text]"
+  },
+  {
+   "i": 18,
+   "en": "$HeOrShe bows with uneasy acceptance, hands held together.",
+   "ctx": "data/campaign/rules.csv LOCRLFbringNews1respA-A [text]"
+  },
+  {
+   "i": 19,
+   "en": "$HeOrShe bows with fearful acceptance, hands held together. Not quite shaking.",
+   "ctx": "data/campaign/rules.csv LOCRLFbringNews1respA-C [text]"
+  },
+  {
+   "i": 20,
+   "en": "$HeOrShe bows in acceptance, hands held together.",
+   "ctx": "data/campaign/rules.csv LOCRLFbringNews1respB [text]"
+  },
+  {
+   "i": 21,
+   "en": "$HeOrShe bows in acceptance, embarrassed that you saw $hisOrHer intent so easily.",
+   "ctx": "data/campaign/rules.csv LOCRLFbringNews1respC [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"The...\" $heOrShe hesitates before saying the words. \"The Path.\"\r\n\r\n\"You represent the Luddic Path?\" $heOrShe blinks, rubbing $hisOrHer eyes. \"They have a... strong reputation. Despite what the Church says, it seems like the Path is everywhere.\"\r\n\r\n\"Um,\" $PersonRank $personLastName looks to you nervously. \"Do I understand correctly your... offer?\"",
+   "ctx": "data/campaign/rules.csv LOCRLsayPather [text]"
+  },
+  {
+   "i": 23,
+   "en": "Grim-faced, $heOrShe clasps $hisOrHer hands and bows in submission.\r\n\r\n\"Anything to free us of this false paradise.\"",
+   "ctx": "data/campaign/rules.csv LOCRLsayPatherYes [text]"
+  },
+  {
+   "i": 24,
+   "en": "$HeOrShe sputters, \"Of course. Just words. I didn't mean to imply...\"\r\n\r\n$HeOrShe clears $hisOrHer throat nervously, letting $hisOrHer words trail off.",
+   "ctx": "data/campaign/rules.csv LOCRLsayPatherNo [text]"
+  },
+  {
+   "i": 25,
+   "en": "You explain that although you have no spiritual or secular power within the Church of Galactic Redemption, you could perhaps provide transport to a place where they could atone for their heresy. \r\n\r\n\"Yes,\" $heOrShe looks hopefully at you. \"We seek to repent, and keep to the true faith.\"",
+   "ctx": "data/campaign/rules.csv LOCRLsayChurch [text]"
+  },
+  {
+   "i": 26,
+   "en": "You explain that you are commissioned by the Church of Galactic Redemption, and although the powers you are granted are worldly in nature, perhaps - provided the former heretics act in good faith - you could ensure a righteous outcome. \r\n\r\nYes,\" $heOrShe looks hopefully at you. \"We seek to repent, and keep to the true faith.\"",
+   "ctx": "data/campaign/rules.csv LOCRLsayChurchCom [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"There are 198 of us remaining, captain.\"",
+   "ctx": "data/campaign/rules.csv LOCRLaskHowMany [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"There are 198 of us remaining, captain.\"\r\n\r\nThe $manOrWoman looks up, hopefully. \"Some of us have spacefaring experience and, and other useful trades. We could work as crew during the journey back to the core worlds. If it helps.\"",
+   "ctx": "data/campaign/rules.csv LOCRLaskHowManyB [text]"
+  },
+  {
+   "i": 29,
+   "en": "Your $shipOrFleet has $player.crewRoomStr spare crew berths. This would be sufficient to transport this lost sect.",
+   "ctx": "data/campaign/rules.csv LOCRLaskHowManyCa [text]"
+  },
+  {
+   "i": 30,
+   "en": "Your $shipOrFleet has $player.crewRoomStr spare crew berths. There is not enough room to transport the lost sect.\r\n\r\nSeeing your hesitation, $heOrShe adds, \"The ship that brought us to this place, it's... we stripped it for supplies, but we've seen the hull in orbit. Or so we believe.\"",
+   "ctx": "data/campaign/rules.csv LOCRLaskHowManyCb [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"We, um. Our former... the false prophet, he said we must be rid of the sin of Mammon before our exodus.\" $HeOrShe looks down, abashed, \"Perhaps we acted with unreasonable haste when we gave up all of our credits.\"\r\n\r\nThe $manOrWoman looks up, hopefully. \"Some of us have spacefaring experience and useful trades. We could work as crew during the journey back to the core worlds. If it helps.\"",
+   "ctx": "data/campaign/rules.csv LOCRLaskPaymentA [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"Blessings of Ludd upon you, $playerSirOrMadam!\" the Luddic $personRank says, effusing about redemption and the like. You manage to offload $himOrHer to an adjutant 'to make arrangements'.\r\n\r\nOps gruffly coordinates shuttles with the planetside heretics. They are a thin and subdued group, nearly starving despite the lush landscape of $entity.name due to their former prophet's lack of preparation.\r\n\r\nIf nothing else, perhaps the Church will appreciate the return of a lost flock.",
+   "ctx": "data/campaign/rules.csv LOCRLofferTransport [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"Blessings of Ludd upon you, $playerSirOrMadam!\" the Luddic $personRank cries out, and wipes away tears of relief.\r\n\r\nYou have your officers make the arrangements, coordinating with the planetside heretics. They are a thin and subdued group, nearly starving despite the lush landscape of $entity.name due to their former prophet's lack of preparation.\r\n\r\nThe Church will surely take in these refugees, with mercy and love, provided they repent.",
+   "ctx": "data/campaign/rules.csv LOCRLofferTransportChurch [text]"
+  },
+  {
+   "i": 34,
+   "en": "\"Blessings of Ludd upon you, $playerSirOrMadam,\" the Luddic $personRank says grimly, perhaps anticipating the new path upon which $heOrShe has set $hisOrHer very first step.\r\n\r\nYou have your officers make the arrangements, coordinating with the planetside heretics. They are a thin and subdued group, nearly starving despite the lush landscape of $entity.name due to their former prophet's lack of preparation.\r\n\r\nThe Path will take them. The Path knows well of faith betrayed.",
+   "ctx": "data/campaign/rules.csv LOCRLofferTransportPath [text]"
+  },
+  {
+   "i": 35,
+   "en": "You've arrived at a colony controlled by the Church of Galactic Redemption suitable for offloading the Luddic heretics you rescued from the fringe.",
+   "ctx": "data/campaign/rules.csv LOCRLoffloadToChurch [text]"
+  },
+  {
+   "i": 36,
+   "en": "As promised, you allow the heretics to disembark. Their shuttles are met by a serene curate backed by a pair of frowning Knights of Ludd.\r\n\r\nThe curate welcomes the refugees with prayer and blessings as they bow, hands clasped, and fall to their knees in repentance.\r\n\r\nWhat was lost is now found, as if returned from death and born again to be embraced by the merciful Faith.",
+   "ctx": "data/campaign/rules.csv LOCRLoffloadToChurch2 [text]"
+  },
+  {
+   "i": 37,
+   "en": "As promised, you allow the lost heretics to disembark. Their shuttles are met by a serene curate backed by a pair of frowning Knights of Ludd. The curate welcomes the refugees as they bow, hands clasped, or fall to their knees in repentance.\r\n\r\nThough the Church now shows a face of reconciliation, the Knight-Inquisitors will surely come later for a full accounting of their sin.",
+   "ctx": "data/campaign/rules.csv LOCRLoffloadToChurchSecular2 [text]"
+  },
+  {
+   "i": 38,
+   "en": "You've arrived at a colony controlled by the Luddic Path suitable for offloading the heretics you rescued from the fringe.",
+   "ctx": "data/campaign/rules.csv LOCRLoffloadToPathMarket [text]"
+  },
+  {
+   "i": 39,
+   "en": "The somewhat unconventional body that passes for the port authority has some pointed questions as you arrange for the offloading of nearly two hundred heretics from the fringe.\r\n\r\nYou iterate rapidly up the chain of authority and find yourself speaking to the equivalent of the top civilian administrator.",
+   "ctx": "data/campaign/rules.csv LOCRLoffloadToPathMarket2 [text]"
+  },
+  {
+   "i": 40,
+   "en": "\"Heretics?\" $Post $personLastName sits up as you explain, intent upon the challenge of bringing more of the Faithful to the true Path of Ludd.\r\n\r\n\"They have been so very lost,\" $heOrShe shakes $hisOrHer head as $heOrShe speaks, \"First by the corruption and weakness of the Church, then by the demonic rantings of a madman.\"\r\n\r\n\"You have done the right thing, $playerBrotherOrSister, to bring them to us. Their first few steps on the Path will be painful, but we shall be at their side to guide them and provide spiritual strength.\"",
+   "ctx": "data/campaign/rules.csv LOCRLoffloadToPath1 [text]"
+  },
+  {
+   "i": 41,
+   "en": "The Pather nods. \"This step is best done quickly.\"",
+   "ctx": "data/campaign/rules.csv LOCRLoffloadToPath2harsh [text]"
+  },
+  {
+   "i": 42,
+   "en": "The Pather doesn't quite sigh. \"Let the compassion you feel now fuel your dedication to an ultimate Good, greater than the small pains they - and we - must carry.\"\r\n\r\n$HisOrHer voice fills with conviction. \"In the end, Ludd's promise awaits us all.\"",
+   "ctx": "data/campaign/rules.csv LOCRLoffloadToPath2mercy [text]"
+  },
+  {
+   "i": 43,
+   "en": "The matter resolves to a simple business of logistics.\r\n\r\nSome of your subordinates are awkward in dealing with Pathers but soon discover that when it comes to practical need the Path knows there are times to set high-minded spiritual demands aside in the interest of expedience.",
+   "ctx": "data/campaign/rules.csv LOCRLoffloadToPath3 [text]"
+  },
+  {
+   "i": 44,
+   "en": "\"Heretics you say?\" The Knight sits up even more rigidly, somehow, to meet this challenge to $hisOrHer militant faith. \"Yes, they are a problem which falls under our purview.\"\r\n\r\n\"I shall have a novice collect a full witnessing on the situation from your subordinates so that the inquisitors may make a full, and just, accounting of their heresy.\" $HeOrShe raises an eyebrow, \"Presuming your cooperation, of course. For which you would have the thanks of both myself and of the Knights of Ludd.\"",
+   "ctx": "data/campaign/rules.csv LOCRLoffloadToKnights1 [text]"
+  }
+ ]
+}

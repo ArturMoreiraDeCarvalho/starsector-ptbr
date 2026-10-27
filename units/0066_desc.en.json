@@ -1,0 +1,286 @@
+{
+ "chunk": 66,
+ "cat": "desc",
+ "items": [
+  {
+   "i": 1,
+   "en": "Launches flares that distract the guidance systems of incoming missiles and PD weapons. Any missile hitting a flare will be destroyed.",
+   "ctx": "data/strings/descriptions.csv flarelauncher/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 2,
+   "en": "Launches flares that distract the guidance systems of incoming missiles and PD weapons. The flares also track missiles and any missile impacting a flare will be destroyed.",
+   "ctx": "data/strings/descriptions.csv flarelauncher_active/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 3,
+   "en": "Launches flares that interfere with point-defenses, attracting their fire.",
+   "ctx": "data/strings/descriptions.csv flarelauncher_fighter/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 4,
+   "en": "Temporarily engages a primary burn on the system travel drive of the ship. Provides a massive speed boost for a fixed time at the expense of being able to use shields. The ship runs the risk of full engine flameout on any significant collision.",
+   "ctx": "data/strings/descriptions.csv burndrive/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 5,
+   "en": "Engages a low-grade primary burn on the system travel drive of the ship. This burn can be maintained indefinitely.",
+   "ctx": "data/strings/descriptions.csv combat_burn/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 6,
+   "en": "Engages extra thrusters to greatly improve the ship's maneuverability. Also provides a slight boost to the ship's top speed.",
+   "ctx": "data/strings/descriptions.csv maneuveringjets/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 7,
+   "en": "Provides a brief but extreme boost to top speed, along with a slight maneuverability boost.",
+   "ctx": "data/strings/descriptions.csv plasmajets/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 8,
+   "en": "Provides a brief engine boost, propelling the ship forward at an extreme velocity.",
+   "ctx": "data/strings/descriptions.csv microburn/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 9,
+   "en": "Additional servos and ordnance conveyors allow the ship to quickly reload missile weapons. Activating the system generates significant flux.",
+   "ctx": "data/strings/descriptions.csv fastmissileracks/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 10,
+   "en": "Redirects all power from the weapon systems to shields, greatly increasing the efficiency at which damage is absorbed. This process generates hard flux at a steady rate even if the shields are not taking any fire.",
+   "ctx": "data/strings/descriptions.csv fortressshield/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 11,
+   "en": "Briefly increases the damage dealt by all energy weapons. The capacitor array stores multiple charges, which are slowly regenerated.",
+   "ctx": "data/strings/descriptions.csv highenergyfocus/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 12,
+   "en": "Supercharges one of the Terminator drones with a brief energy transfer. The drone tracks a nearby target like a missile, dealing massive damage on impact.",
+   "ctx": "data/strings/descriptions.csv drone_strike/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 13,
+   "en": "Greatly increases the range, rate of fire, and accuracy of hardpoint weapons while temporarily standing down turrets and all beam weapons. When not in use, provides a smaller passive boost to the range of all weapons.",
+   "ctx": "data/strings/descriptions.csv lidararray/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 14,
+   "en": "Deploys a shaped antimatter charge behind the ship. The explosion applies force to a massive push-plate, which absorbs the shock and spreads the resulting acceleration over a timeframe where it can be handled by the ship's inertial compensators. The ship is briefly propelled forward at a rate very few more \"advanced\" technologies can hope to match.",
+   "ctx": "data/strings/descriptions.csv orion_device/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 15,
+   "en": "A version of Orion Device freed from the constraints imposed by human frailty. Explodes a massive antimatter charge behind the ship, causing the ship to leap forward.",
+   "ctx": "data/strings/descriptions.csv nova_burst/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 16,
+   "en": "Fires a large number of flak canisters with variable-timed proximity fuses all around the ship.",
+   "ctx": "data/strings/descriptions.csv canister_flak/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 17,
+   "en": "The ship instantly teleports to any desired nearby location.",
+   "ctx": "data/strings/descriptions.csv phaseteleporter/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 18,
+   "en": "Teleports the ship a short distance in the direction it's traveling. The system slowly builds up to three charges which can then be expended in short order.",
+   "ctx": "data/strings/descriptions.csv displacer/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 19,
+   "en": "Teleports the ship a short distance in the direction it's traveling. The system slowly builds up to two charges which can then be expended in short order.",
+   "ctx": "data/strings/descriptions.csv displacer_degraded/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 20,
+   "en": "Deploys a large number of laser-armed defensive drones. The drones can be ordered to closely guard the ship or roam freely around it.",
+   "ctx": "data/strings/descriptions.csv drone_pd/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 21,
+   "en": "Deploys several defensive drones armed with light machine guns. The drones can be ordered to closely guard the ship or roam freely around it.",
+   "ctx": "data/strings/descriptions.csv drone_pd_x2/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 22,
+   "en": "Deploys several combat-modified mining drones. The drones are highly autonomous and capable of operating far from the mothership.",
+   "ctx": "data/strings/descriptions.csv drone_borer/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 23,
+   "en": "Deploys a pair of drones whose on-board sensors improve the ship's weapon and sensor range. Each drone is also armed with an ion cannon.",
+   "ctx": "data/strings/descriptions.csv drone_sensor/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 24,
+   "en": "Activates an advanced - but jamming-prone - mechanism for quickly delivering ammo to the ship's ballistic weapon emplacements. The mechanism must be re-calibrated and cooled before it can be used again.",
+   "ctx": "data/strings/descriptions.csv ammofeed/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 25,
+   "en": "Activates an EMP generator. Nearby missiles, fighters, weapon emplacements and engines of enemy ships are all targeted and can be disabled in short order.\r\n\r\nUnfortunately, on-board weapon systems must be shut down to provide power for this device. The EMP pulses are also not very effective against enemy shields.",
+   "ctx": "data/strings/descriptions.csv emp/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 26,
+   "en": "Temporarily moves the ship into an alternate dimension known as p-space. The ship can still be detected by its phase coil emissions, but can not be hit by any weapons. Flux can not be dissipated in p-space, resulting in a constant buildup that forces the ship to come back to normal space eventually. Subjective time passes more quickly for the ship and its crew while in p-space.\r\n\r\nThe phase cloak generator is large and has significant power requirements, and so generally replaces shields as a ship's primary means of defense.",
+   "ctx": "data/strings/descriptions.csv phasecloak/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 27,
+   "en": "Deploys a single advanced drone that features a phase cloak, a modified phase skimmer, and an arsenal of weapons that would be impressive even on a heavy fighter.\r\n\r\nEven more impressive is the mini-fac that's capable of producing replacement drones in combat, ensuring that the host ship is not without escort for long.\r\n\r\nThe drone also possesses an aggressive delta-level AI personality that allows it to roam much farther from the mothership than most other drone systems - that are either entirely on remote-control, or feature a sub-gamma personality at best.\r\n\r\nThis design is also unique in that it was created through the cooperation of two rival corporations. Fabrique Orbitale provided the chassis and system designs, while Tri-Tachyon experts were responsible for the controlling AI.",
+   "ctx": "data/strings/descriptions.csv drone_terminator/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 28,
+   "en": "Deploys reserve fighters that can fight for a short time before returning to the carrier, temporarily doubling the number of fighters in the wing.",
+   "ctx": "data/strings/descriptions.csv reservewing/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 29,
+   "en": "Sends real-time targeting data to fighter wings from this carrier, temporarily increasing their damage.",
+   "ctx": "data/strings/descriptions.csv targetingfeed/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 30,
+   "en": "Teleports all fighters back to the carrier, allowing them to be quickly refitted and relaunched.",
+   "ctx": "data/strings/descriptions.csv recalldevice/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 31,
+   "en": "Fires a voltaic arc at the targeted ship, powering and activating certain ship systems.\r\n\r\nWhen targeting an enemy ship, deals EMP damage. Can hit, and briefly overloads phased targets.",
+   "ctx": "data/strings/descriptions.csv energy_lash/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 32,
+   "en": "Teleports the ship a short distance in the direction it's traveling.",
+   "ctx": "data/strings/descriptions.csv displacer_threat/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 33,
+   "en": "Increases the ship's top speed, flux dissipation, and charge regeneration rate, as well as overall aggressiveness.",
+   "ctx": "data/strings/descriptions.csv incursion_mode/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 34,
+   "en": "Increases the ship's top speed and forces it to back off while firing all available weapons. The ship will vent at the end of the maneuver, and all of its ammo and charge using weapons, including missiles, will be reloaded.",
+   "ctx": "data/strings/descriptions.csv extraction_protocol/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 35,
+   "en": "Extends the range of non-PD fragment weapons and rapidly fires them.",
+   "ctx": "data/strings/descriptions.csv fragment_volley/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 36,
+   "en": "Launches a construction swarm that will build a new Threat unit.",
+   "ctx": "data/strings/descriptions.csv construction_swarm/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 37,
+   "en": "The projection lunges through n-space, away from danger or towards prey.",
+   "ctx": "data/strings/descriptions.csv convulsive_lunge/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 38,
+   "en": "\"The eye looks upon ruin.\"",
+   "ctx": "data/strings/descriptions.csv darkened_gaze/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 39,
+   "en": "The projection expels a large volume of shrouded substrate, confusing targeting systems and blocking lines of fire, then pulls back quickly behind the screen.",
+   "ctx": "data/strings/descriptions.csv tenebrous_expulsion/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 40,
+   "en": "The vortex moves through n-space, following the curvature of local space-time and gradually destabilizing. When destabilized, it will explode, dealing massive damage in an area round it.",
+   "ctx": "data/strings/descriptions.csv shrouded_vortex/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 41,
+   "en": "This otherwise unremarkable point in the surrounding vast emptiness is a local minimum in the star system's hyperwave field. The relative lack of interference makes it uniquely suited for the placement of hyperwave-tech-using structures.",
+   "ctx": "data/strings/descriptions.csv stable_location/CUSTOM [text1]"
+  },
+  {
+   "i": 42,
+   "en": "A Domain-era technology used primarily on the frontier, this is a hyperwave communications array which transmits and receives data between star systems at faster-than-light speeds. The rapidly pulsing hyperwaves suitable for FTL data transmission have been shown to damage DNA so these relays are always stationed away from habitats.",
+   "ctx": "data/strings/descriptions.csv comm_relay/CUSTOM [text1]"
+  },
+  {
+   "i": 43,
+   "en": "An imitation of the Domain-era counterpart, constructed using what passes for the state of the art in the Sector. Nonetheless, a makeshift comm relay is capable of facilitating faster-than-light comms between star systems, even if the transmission speeds are less than ideal and the occasional phantom comm streams picked up give nightmares to even the most seasoned operators.",
+   "ctx": "data/strings/descriptions.csv comm_relay_makeshift/CUSTOM [text1]"
+  },
+  {
+   "i": 44,
+   "en": "A Domain-era technology, this is a super-high-resolution passive monitoring array with a transmitter capable of real-time, faster-than-light data transmission within the star system. The data is used to supplement the regular sensor readings made by fleets.",
+   "ctx": "data/strings/descriptions.csv sensor_array/CUSTOM [text1]"
+  },
+  {
+   "i": 45,
+   "en": "Built using the best technology available in the Sector, a makeshift sensor array is nonetheless capable of passively monitoring the entire star system and has a transmitter capable of real-time, faster-than-light data transmission to friendly fleets within. The data is a useful supplement to the regular sensor readings made by fleets.",
+   "ctx": "data/strings/descriptions.csv sensor_array_makeshift/CUSTOM [text1]"
+  },
+  {
+   "i": 46,
+   "en": "A Domain-era technology, a nav buoy monitors the in-system hyperfield and is capable of transmitting its findings to friendly fleets in-system. The data readings are pristine and of great use in configuring drive fields.",
+   "ctx": "data/strings/descriptions.csv nav_buoy/CUSTOM [text1]"
+  },
+  {
+   "i": 47,
+   "en": "Built using the best technology available in the Sector, a nav buoy monitors the in-system hyperfield and is capable of transmitting its findings to friendly fleets in-system. The data is often somewhat unreliable but still useful in making on-the-fly drive field adjustments.",
+   "ctx": "data/strings/descriptions.csv nav_buoy_makeshift/CUSTOM [text1]"
+  },
+  {
+   "i": 48,
+   "en": "An orbital station constructed as a custom campaign entity with a \"station\" tag.",
+   "ctx": "data/strings/descriptions.csv test_station/CUSTOM [text1]"
+  },
+  {
+   "i": 49,
+   "en": "A lifeless rocky world, the battered surface tells an aeons-long story of intermittent meteor bombardment. What atmosphere there is clings to the scarred crust in near-vacuum. There is no significant magnetic field or tectonic activity. Deep regolith prevails, crossed by lava channels and spotted by ancient lava seas formed by especially large impacts.",
+   "ctx": "data/strings/descriptions.csv barren-bombarded/PLANET [text1]"
+  },
+  {
+   "i": 50,
+   "en": "Barren and highly irradiated, this planet is not only devoid of life but is a harsh environment even to hardened robotic operations due to the awesome energies inflicted upon its surface. Any habitat would have to be constructed deeply indeed for anyone mad enough to live here.",
+   "ctx": "data/strings/descriptions.csv irradiated/PLANET [text1]"
+  },
+  {
+   "i": 51,
+   "en": "Jewel of the Corvus system, Jangala possesses a lush native biosphere. The world's farms and seas, often hidden by the churning cyclones of megastorms, are a major source of organic feedstock, food products, and exotic xenobiological materials. Considered holy by most Luddic sects.",
+   "ctx": "data/strings/descriptions.csv planet_jangala/CUSTOM [text1]"
+  },
+  {
+   "i": 52,
+   "en": "Orbiting megacity, naval yard, and port; the unquestioned cosmopolitan center of civilization and culture in the Corvus system as well as the seat of the Hegemony military district encompassing the local systems. Heavy commercial and naval traffic swarm the station at all times.",
+   "ctx": "data/strings/descriptions.csv station_jangala/CUSTOM [text1]"
+  },
+  {
+   "i": 53,
+   "en": "A desert planet, product of an abortive terraforming project from before the Collapse. Populated by a few fiercely independent settlers, criminals, and oddballs. The Hegemony technically claims dominion over Asharu but maintains no permanent administration, sending patrols only to chase down pirates or impose heavy but infrequent tariffs on what little commercial activities remain.",
+   "ctx": "data/strings/descriptions.csv planet_asharu/CUSTOM [text1]"
+  },
+  {
+   "i": 54,
+   "en": "A major center of shipbreaking in this region of the Sector, hulks are consigned to scrapping here by the Hegemony Navy and many other clients from among the Sector core worlds. The Ko Combine has purchased the rights to planetary administration under their corporate charter and has rebuilt their fortune on employing novel recycling techniques, ship-reconstruction, and (some say) scraping intelligence from dead pseudo-AI cores.",
+   "ctx": "data/strings/descriptions.csv planet_agreus/CUSTOM [text1]"
+  },
+  {
+   "i": 55,
+   "en": "Dirty ammonia snow falls in fits and flurries from the thin atmosphere of Nomios. The drifts are small and mostly cleared from the habitats' armored landing-bay doors by battered crawler drones. This planet's facilities are operated by the ruling bureaucracy, a secretive fragment of the Mbaye-Gogol directorate which claims to have survived since the Collapse - in mind rather than body, if the rumors are true.",
+   "ctx": "data/strings/descriptions.csv planet_nomios/CUSTOM [text1]"
+  },
+  {
+   "i": 56,
+   "en": "A giant planet composed of a large proportion of heavier volatiles than the more massive classical hydrogen-dominated gas giants. High winds sweep ammonia clouds over great storms and upwellings of hydrocarbons from the gradual transition to water-ammonia seas that lay atop exotic ices formed by the extreme pressure and high gravity.",
+   "ctx": "data/strings/descriptions.csv planet_syrinx/CUSTOM [text1]"
+  }
+ ]
+}

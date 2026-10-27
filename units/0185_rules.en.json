@@ -1,0 +1,186 @@
+{
+ "chunk": 185,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "The lead heavy's resolve wavers, and he turns to his left. The backup pulls out a chunky device, a handmade comms unit, and mumbles a query. It emits a scratchy, distorted response. \r\n\r\nWhatever was said, it must have been good news. The heavies visibly relax and the leader, now more suspicious than hostile, says \"Brother Cotton would parlay. Be here to meet. After next shift.\"",
+   "ctx": "data/campaign/rules.csv gaATGepiphanyBarTalk1 [text]"
+  },
+  {
+   "i": 2,
+   "en": "Their leader nods warily and the pack retreats to their own table. You can feel their eyes on your back.",
+   "ctx": "data/campaign/rules.csv gaATGepiphanyBarEndWait [text]"
+  },
+  {
+   "i": 3,
+   "en": "You station yourself in a nice, solid corner; back to the wall, good sightlines to exits. Your guards unobtrusively follow suit.\r\n\r\nThe tea arrives shortly and the server makes no smalltalk, eager to not give the impression that they have any association with you.",
+   "ctx": "data/campaign/rules.csv gaATGepiphanyBarEndWait2a [text]"
+  },
+  {
+   "i": 4,
+   "en": "You buy a round for the Pather heavies and they eye you as they order something else, leaving your gifts untouched.\r\n\r\nYou station yourself in a nice, solid corner; back to the wall, good sightlines to exits. Your guards unobtrusively follow suit.",
+   "ctx": "data/campaign/rules.csv gaATGepiphanyBarEndWait2b [text]"
+  },
+  {
+   "i": 5,
+   "en": "You note the change of shift as chronometers and tastefully obsolete datapads notify the working regulars - miners and spacer crew, mostly - to finish their drinks and stumble off to their assignments.\r\n\r\nThe proprietor sets down a bottle and approaches you. \"Hear me, I beg,\" she says. \"I've nothing to do with him or his. You... you can't refuse them here, captain.\"\r\n\r\nShe glances toward the table with the heavies. They're watching you both, very closely. \"I was told- the back room. He's waiting now. I- I saw nothing today.\"",
+   "ctx": "data/campaign/rules.csv gaATGepiphanyBarEndWait3 [text]"
+  },
+  {
+   "i": 6,
+   "en": "The private room is austere, dim but for the spot of a paper lantern cast on the figure sitting facing you. He raises his face as you enter and holds a hand out to welcome you to sit. The sparse decor and furniture have the solid hand-made quality of true Luddic crafts and you know the set could be sold for a good price on any number of the core worlds.",
+   "ctx": "data/campaign/rules.csv gaATGmeetCottonStart2 [text]"
+  },
+  {
+   "i": 7,
+   "en": "Brother Livewell Cotton stands and smiles as you enter. \"Captain $playerName,\" he says, \"It was my pleasure to hear that our paths would cross again.\"\r\n\r\nHe gives you a knowing look, \"I pray you have meditated upon our previous discussion.\"",
+   "ctx": "data/campaign/rules.csv gaATGmeetCottonMetYes [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"Captain $playerName. I am Brother Livewell Cotton and I'm pleased to greet you. With the blessings of Ludd's peace and all that, naturally.\" He winks and offers a hand.",
+   "ctx": "data/campaign/rules.csv gaATGmeetCottonMetNo [text]"
+  },
+  {
+   "i": 9,
+   "en": "He maintains his smile. \"As you'll do. Whatever blood's between us, it never hurt anyone to be kind in a small way.\" He points with his untaken hand \"Ludd said that last bit once, you know, blessings be.\"\r\n\r\nThen he brings his hands together, an unconscious return to prayer.",
+   "ctx": "data/campaign/rules.csv gaATGmeetCottonNoShake [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"Won't you join me for tea? I offer it to you, my guest, with the safety and hospitality that I've been blessed to provide.\"\r\n\r\nHe notes your hesitation and sits first. \"Come along in your own time. I'm no scorpion, I do assure you.\"",
+   "ctx": "data/campaign/rules.csv gaATGmeetCottonTea [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"Welcome to it.\" He slaps one of his legs, \"This one'll raise complaint if I stand, so I'll beg your pardon for taking leisure where I can.\"",
+   "ctx": "data/campaign/rules.csv gaATGmeetCottonTeaStand [text]"
+  },
+  {
+   "i": 12,
+   "en": "He grins, \"Then I shall content myself with the cheer of your face.\"",
+   "ctx": "data/campaign/rules.csv gaATGmeetCottonTeaNever [text]"
+  },
+  {
+   "i": 13,
+   "en": "You sit with Brother Cotton, notorious Pather terrorist.",
+   "ctx": "data/campaign/rules.csv gaATGmeetCottonTeaSit [text]"
+  },
+  {
+   "i": 14,
+   "en": "Cotton arranges two plain cups, and tests the temperature of the teapot.\r\n\r\n\"Now I do know why you are here. It's no great coup of the secret-whisperers-and-listeners why the warlord Jorien Kanta has been sending a most diverse company of ne'er-do-wells to bring myself to an untimely end and, be it convenient, claim back her ungodly creation.\"\r\n\r\nHe pauses, then adds, \"Though I must offer my apologies; I most assuredly except yourself from the company of those ne'er-do-wells.\"",
+   "ctx": "data/campaign/rules.csv gaATGmeetCottonTeaHubStart [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"I did. And you told that knight that you would repent and to prove it you paid them many credits.\" He looks at you, and asks in an unassuming tone, \"Is that why you're really here? To repent?\"",
+   "ctx": "data/campaign/rules.csv gaATGmeetCottonTeaKnightA [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"Indeed I did so,\" he nods, as this is a mere philosophical point. \"And now here you are, your path brought together with mine. The means of Blessed Providence seem so mercurial to the eyes of us mortals, do they not?\"",
+   "ctx": "data/campaign/rules.csv gaATGmeetCottonTeaKnightB [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"You may not find satisfaction from that query, captain,\" Cotton says. \"But I shall answer.\"",
+   "ctx": "data/campaign/rules.csv gaATGmeetCottonKnightExplanation [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"Indeed,\" Cotton says, drawing out the word, his tone carefully controlled. \"I will pray upon the meaning of your words, captain. This I promise.\"",
+   "ctx": "data/campaign/rules.csv gaATGmeetCottonKnightRepent [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"Indeed,\" Cotton says, drawing out the word, his tone carefully controlled. \"Mind you, it is not mine to give as-such; absolution is for all humanity who do so chose.\"",
+   "ctx": "data/campaign/rules.csv gaATGmeetCottonKnightRepentB [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"Do pardon me for contradicting my guest,\" says Cotton, \"But I do not hold lightly my decision then or now.\" ",
+   "ctx": "data/campaign/rules.csv gaATGmeetCottonKnightFunny [text]"
+  },
+  {
+   "i": 21,
+   "en": "He leans back, meeting your eyes, as if he believes it important to face someone whose death he ordered.\r\n\r\n\"You did appear then to be an enemy of our righteous cause. In war, we battle our enemies. That is all. I did not then fully understand your significance, which... was revealed to me only recently.\"",
+   "ctx": "data/campaign/rules.csv gaATGmeetCottonTeaKnight2 [text]"
+  },
+  {
+   "i": 22,
+   "en": "He pauses, looking almost shy for a moment, then says \"That... we will speak of that before we are done here.\"",
+   "ctx": "data/campaign/rules.csv gaATGmeetCottonTeaKnight3 [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"Tell true, if I met you with hammer and fiery sword, would you prevail?\" Cotton nods generously, \"Might be you do. Then what would my brothers and sisters have died for? The clone?\"\r\n\r\nHe takes a moment to sip his tea, and finding it hot, blows on the cup.\r\n\r\n\"It serves our holy war that Kanta not forget that the Path is all around her, ephemeral and indomitable. Killing is not victory.\" He smiles wryly, \"Not always.\"",
+   "ctx": "data/campaign/rules.csv gaATGmeetCottonTeaTea [text]"
+  },
+  {
+   "i": 24,
+   "en": "Cotton sets his tea down, smile gone.\r\n\r\n\"I confess to you that I did not always seek victory over killing. Given battle, I chose to destroy my enemy over defeating them. In time, Ludd's spirit showed me the true Path. I humbly submit and step away from that younger man's rage when it serves our holy war.\"",
+   "ctx": "data/campaign/rules.csv gaATGmeetCottonTeaPeace [text]"
+  },
+  {
+   "i": 25,
+   "en": "Cotton raises an eyebrow at this challenge and sets his tea down with a sad smile. \r\n\r\n\"A younger man than I once was thought he might nourish his soul if only he could kill every heretic that stood before him.\"\r\n\r\n\"What he found was not strength, but pride. And he- he would have killed you before you had spoken those words. On the landing pad, perhaps; a bomb in a cargo container. Or on the street, with his hands, had it come to it. That man was as blind as his enemies.\"",
+   "ctx": "data/campaign/rules.csv gaATGmeetCottonTeaFutile [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"Yes.\" Cotton sets his tea down, eyes hard.\r\n\r\n\"Yes I do. I did not don the blood-stained mantle of leadership lightly. It was to be my Path. And I shall walk without averting my eyes from the truth of my deeds. Ludd's revelation is pain!\" He slams a hand on the table, rattling the dishware. \"Ludd chose the Path not because it was easy, or kind, or without suffering!\"\r\n\r\nHe speaks in almost a whisper, \"The prophet chose because it was Good.\"",
+   "ctx": "data/campaign/rules.csv gaATGmeetCottonTeaDie [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"Hegemony tacticians and the thinking machines alike make the same mistake: they think that we who walk the Path can be defeated if we are measured, tracked, and numbered. Our beautiful holy war is not a mathematical calculation, but the soul of humanity. What we fight for cannot be held in databanks and logbooks.\"\r\n\r\nHe looks at you carefully. \"I am certain that now is not our time to do battle,\" he says. \"We walk a path, you and I, and here it crosses but does not end. I know not but that I must have faith.\"\r\n\r\nHe sips his tea. \"It's good now. You should have some.\"",
+   "ctx": "data/campaign/rules.csv gaATGmeetCottonTeaWar [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"You know the histories, of the great and terrible Warlord Onesimos Loke, yes? Once a grand officer of the Domain...\" Cotton looks distant, \"The Knights of Ludd stood then with the Hegemony. Standing with Pride against Wrath. Was that the Path?\"\r\n\r\n\"This abomination is a sad copy of Onesimos Loke concocted by so-called 'doctor' Cydonia. He is a sick man, and to please Kanta for reasons I do not understand, he made a sick joke of the miracle of life.\"",
+   "ctx": "data/campaign/rules.csv gaATGmeetCottonUngodly [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"I had thought its death would be a demonstration, just as a healer excises a cancer. But as I held a gun to its head, my hand was stayed. I felt this was not the Path. Did I pity the thing? It is rare indeed that I do not find moral clarity in the execution of a heretic or abomination.\" \r\n\r\nCotton shakes his head, disturbed that he did not want to execute a man.\r\n\r\n\"I gave it into the care of some siblings of the faith. They taught it prayer from the Book. It appears to think, and to feel. I wonder if this is a lesson in humility. Imagine, to look upon the Creator's work and then this bloodless thing...\"",
+   "ctx": "data/campaign/rules.csv gaATGmeetCottonUngodly2 [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"Yes, yes. Cydonia. Some mercy. You have met him, I know. Is he not strange? I cannot imagine a more wretched creature - excepting his creation, the Loke-thing. Cydonia is a liar to the end of space, and even the sacred becomes sin when it has left his hands.\"\r\n\r\n\"If you find occasion to bring his life to an end, I do believe it would be a good and righteous deed.\" \r\n\r\nCotton sips tea.",
+   "ctx": "data/campaign/rules.csv gaATGmeetCottonCydonia [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"If the Loke-thing started less than human, Kanta has lowered herself to that sorry state by her debauched pursuit of wrath and immortality.\"\r\n\r\nBrother Cotton takes another slow sip of tea, \"She is a malfunction of the machinery of the Hegemony; an obsolete hazard to be cleared away like the stealth-mines she's wrapped around her fortress.\"",
+   "ctx": "data/campaign/rules.csv gaATGmeetCottonCydonia2 [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"What now sits on Kanta's throne of blood and gold is abject to the teachings of blessed Ludd,\" he taps his fingers on his teacup. \"Though a warrior cannot be ignorant of his enemies, I confess that I am not inclined to gaze too deeply into that monstrous abyss. Shall I debate an AI core, shall I ponder its heart? No, because it has no heart, no soul. It is a thing.\"\r\n\r\n\"Kanta wants her abomination. This is all I need to know.\" Cotton meets your eyes, \"And you will be the one to give the abomination back to her.\"",
+   "ctx": "data/campaign/rules.csv gaATGmeetCottonClone [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"Yes,\" he says, his eyes unblinking. \"It has no path here. Its presence is raising questions which ought not be asked. So you will take it from my people and go.\"",
+   "ctx": "data/campaign/rules.csv gaATGmeetCottonClone2 [text]"
+  },
+  {
+   "i": 34,
+   "en": "Brother Livewell Cotton nods, and to your surprise simply says, \"Then you shall.\"",
+   "ctx": "data/campaign/rules.csv gaATGmeetCottonWish [text]"
+  },
+  {
+   "i": 35,
+   "en": "Brother Cotton nods in agreement, and to your surprise says \"You are indeed.\"",
+   "ctx": "data/campaign/rules.csv gaATGmeetCottonTaking [text]"
+  },
+  {
+   "i": 36,
+   "en": "\"By both of us, I tell you true.\"\r\n\r\n\"I have prayed long on this matter,\" he says, bringing his hands together as if in demonstration. \"Once, long ago, I was in a prison cell. I heard a music like... like the holy pneuma, from afar. A choir of angels.\"\r\n\r\n\"My heart leapt, to be touched so. Eagerly, I listened closer and in not a blink it was gone. For just a moment I was touched by grace. Do you understand? My life turned on that point; I found the Path.\"",
+   "ctx": "data/campaign/rules.csv gaATGmeetCottonExpected [text]"
+  }
+ ]
+}

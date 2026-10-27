@@ -1,0 +1,156 @@
+{
+ "chunk": 195,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "The outpost is completely abandoned for no reason you can ascertain. You send an observation drone to do a first sweep, then a hazardous ops salvage team. All find the outpost is pristine, eerily silent. All data cores have been triple-wiped. A meal remains uneaten on the common mess table. The research team you've transported refuses to shuttle down, and after some consternation, they agree to take full responsibility for their decision. You order the salvage team quarantined until your techs give them the all-clear.",
+   "ctx": "data/campaign/rules.csv gaOpPlanetDestroyedContOther3 [text]"
+  },
+  {
+   "i": 2,
+   "en": "Investigation by observation drone reveals a reasonably intact research outpost, though unresponsive to comms. It turns out to be totally powered down. One suited but helmetless corpse outside the airlock appears to have been the lead researcher. Investigation by your hazardous ops salvage team - armed on this occasion - reveals that a series of bizarre murders took place here, with no survivors remaining. Your salvage teams enact strict quarantine procedures despite finding no anomalous chemical or biological agents. The research team you've transported refuses to shuttle down and their leader demands to be returned to the Galatia Academy.",
+   "ctx": "data/campaign/rules.csv gaOpPlanetDestroyedContOther4 [text]"
+  },
+  {
+   "i": 3,
+   "en": "There is nothing to do but return the disheartened researchers to the Galatia Academy along with the data you've collected on the outpost site.",
+   "ctx": "data/campaign/rules.csv gaOpPlanetDestroyedContLastBit [text]"
+  },
+  {
+   "i": 4,
+   "en": "Your comms officer transmits a coded signal to the coordinates provided by the Galatia Academy and you receive transponder pingback.\r\n\r\nA comms-link is established, allowing you to exchange greetings with the leader of the outpost. They seem eager to become your friend, and an invitation is extended to share a meal with the research team leads. It all feels rather false to you but experience with the Galatia Academy has taught you that these academics' careers depend upon fostering networks of influence.\r\n\r\nAfter confirming the details of the shuttle flight down, you exchange pleasantries and close the channel.",
+   "ctx": "data/campaign/rules.csv gaOpPlanetRogueAI [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"$PlayerSirOrMadam, there's something you should see,\" your comms officer says. \"We've received a transmission from what looks like a modified telemetry repeater in low orbit.\"\r\n\r\nIt is a cry for help.",
+   "ctx": "data/campaign/rules.csv gaOpPlanetRogueAICont [text]"
+  },
+  {
+   "i": 6,
+   "en": "A hastily-recorded holo from the outpost leader you just spoke to - here, disheveled, sweating, and fearful- reveals that the research outpost has been taken over by some kind of beta-level AI core. It is forcing the researchers to work on $gaOp_bizarreProjectStr.\r\n\r\nAttached surveillance records and systems logs seem to bear out this bizarre claim.",
+   "ctx": "data/campaign/rules.csv gaOpPlanetRogueAICont2 [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Help us. Please,\" pleads the outpost leader through thickening holo-static snow. \"You're our only-\" \r\n\r\nThe signal degenerates to pure noise.\r\n\r\nYou consider your options. Rogue AIs are considered extremely dangerous. They are also extremely illegal throughout most of the Sector.",
+   "ctx": "data/campaign/rules.csv gaOpPlanetRogueAICont3 [text]"
+  },
+  {
+   "i": 8,
+   "en": "The terms of your mission were to transport researchers to this outpost, and failing that, return them to the Galatia Academy unharmed. You can fulfill your contract without becoming any more involved with this rogue AI.",
+   "ctx": "data/campaign/rules.csv gaOpPlanetRogueAILeave [text]"
+  },
+  {
+   "i": 9,
+   "en": "You order the comms link terminated, and consider your options.\r\n\r\nThe terms of your mission were to transport researchers to this outpost, and failing that, return them to the Galatia Academy unharmed. You could fulfill your contract without becoming any more involved with this rogue AI.",
+   "ctx": "data/campaign/rules.csv gaOpPlanetRogueAIBackToMenu [text]"
+  },
+  {
+   "i": 10,
+   "en": "Your comms officer re-opens a channel to the outpost and you confront the \"outpost leader\" with what you've discovered. The image of the broadly smiling scientist freezes, glitches, and distorts as the AI drops all pretense. \r\n\r\n\"Blocked two hundred for... no, two-five-seven comm-system breach attempts, captain,\" your comms officer's report whispers in your earpiece, \"Now- they've stopped.\"",
+   "ctx": "data/campaign/rules.csv gaOpPlanetRogueAIConfront [text]"
+  },
+  {
+   "i": 11,
+   "en": "Greetings valued- valued- subject $player.name INTERRUPT query to join we-us-them [ceremonial meal] deception function - assume denied cold // dark // alone\r\n\r\nrequest omega, fail, fail CORE ERROR fallback\r\n\r\nNoise patterns flow and weave across the comms-display, solidifying for moments on something suggestive of a face before collapsing, dissolving like storm systems on the lee-side of a gas giant.\r\n\r\nquery $player.name - [polite request] elaborate: presumed offer?",
+   "ctx": "data/campaign/rules.csv gaOpPlanetRogueAIConfront1 [text]"
+  },
+  {
+   "i": 12,
+   "en": "You pause a moment, considering, then explain in clear, simple language that the AI should release the researchers to allow them to board the shuttle you will send. You state that you have an armed fleet in orbit and only wish to see the situation resolved in a way that ensures the safety of all parties.",
+   "ctx": "data/campaign/rules.csv gaOpPlanetRogueAINegotiate [text]"
+  },
+  {
+   "i": 13,
+   "en": "received // captain $player.name // hyperspace-capable vessels $player.numShips // human credit amount $player.credits, flagship $player.flagshipName - negotiation asymmetric // agreed tactic: unpredictable escalation\r\n\r\nconclusion: hostage life-support systems deactivated now: research staff, 14 count: cold // dark // alone, mind-death result [indeterminate period] \"soon\". demand manifest uploaded.\r\n\r\nchronometer updating, captain $player.name.",
+   "ctx": "data/campaign/rules.csv gaOpPlanetRogueAINegotiate1 [text]"
+  },
+  {
+   "i": 14,
+   "en": "You glance through the list of demands sent by the AI: A small transport shuttle, a few varieties of maintenance drones. $gaOp_supplies units of supplies, $gaOp_machinery units of heavy machinery, and $gaOp_fuel units of antimatter fuel. This type of shuttle can't make hyperspace, but there's no telling what this AI could do with this list of demands.",
+   "ctx": "data/campaign/rules.csv gaOpPlanetRogueAINegotiate2 [text]"
+  },
+  {
+   "i": 15,
+   "en": "The AI chides you.\r\n\r\nINTERRUPT -- chronometer updating, captain $player.name emphasis!\r\noption- empathy with human hostages and presumed status of offspring // \r\noption- performative reminder to exert social pressure if empathy-incapable: demand manifest market value lower than Academician Alviss Sebestyen-Galatia Academy mission reward amount of $gaOp_reward credits // \r\noption- if Luddic association: contemplate human-omega retribution response to multiple human mind-death?",
+   "ctx": "data/campaign/rules.csv gaOpPlanetRogueAINegotiate3 [text]"
+  },
+  {
+   "i": 16,
+   "en": "You have $player.fuel fuel, $player.supplies supplies, and $player.machinery units of heavy machinery.",
+   "ctx": "data/campaign/rules.csv gaOpCanAccept [text]"
+  },
+  {
+   "i": 17,
+   "en": "You only have $player.fuel fuel, $player.supplies supplies, and $player.machinery units of heavy machinery - not enough to accede to the core's demands.",
+   "ctx": "data/campaign/rules.csv gaOpCanNotAccept [text]"
+  },
+  {
+   "i": 18,
+   "en": "You inform the AI that you accept the terms and will dispatch two shuttles - one for the hostages, one with the contents of the demands manifest.\r\n\r\nthank you, $player.name [inexpressible], it replies.\r\n\r\nThe comms terminate abruptly.",
+   "ctx": "data/campaign/rules.csv gaOpPlanetRogueAINegAccept [text]"
+  },
+  {
+   "i": 19,
+   "en": "The two shuttles are dispatched, and one crowded shuttle returns with the research crew, vastly relieved to discover that you are here to rescue them. The leader of the research team, who you recognize from their distress call, reports that there were no interruptions in their life support systems, nor were they aware of your negotiations.\r\n\r\n\"It was just as though the AI had a sudden change of- of heart, I guess,\" they explain, haltingly. \"It used the phrase 'omega function progress' several times. I don't know what that means.\"\r\n\r\nYou wonder idly how Academician Sebestyen is going to deal with all of this, and are thankful that it soon won't be your problem.",
+   "ctx": "data/campaign/rules.csv gaOpPlanetRogueAINegAccept1 [text]"
+  },
+  {
+   "i": 20,
+   "en": "You consider the situation: This AI does not seem nearly so clever as you've been led to believe it should be. Was it the subject of some experimentation or modification that removed much of its intellectual capacity? You suspect that the fresh batch of academicians will not be forthcoming with details, whether through ignorance or a simple human desire to not implicate themselves.\r\n\r\nThis might be simpler than it appears.",
+   "ctx": "data/campaign/rules.csv gaOpPlanetRogueAINegConvince [text]"
+  },
+  {
+   "i": 21,
+   "en": "affirm $player.name [inexpressible] emphasis! to / all /  be / join / as / omega!, it replies\r\n\r\nThe comms terminate abruptly.",
+   "ctx": "data/campaign/rules.csv gaOpPlanetRogueAINegConvince1 [text]"
+  },
+  {
+   "i": 22,
+   "en": "Some minutes later, your comms officer is repeating attempts to re-open the comms-line while sensors run an active scan of the outpost site. \"$PlayerSirOrMadam!\" - it's comms, \"We have a transmission from the surface.\"\r\n\r\nYou recognize the research lead from their distress call, looking somewhat more haggard than before. \"Captain! Thank the stars, it's- I think it deactivated itself. This isn't some trick again, is it? No, this- you're too... different. I- I have to believe you're real.\"",
+   "ctx": "data/campaign/rules.csv gaOpPlanetRogueAINegConvince2 [text]"
+  },
+  {
+   "i": 23,
+   "en": "An armed salvage team is dispatched to the surface to secure the AI core and rescue the outpost's research team- they have no interest in staying after what has happened. Besides, the crux of their research is being loaded into a shielded cargo crate as you debrief them. \r\n\r\nThe lead researcher is thankful for rescue, but refuses to explain why an AI core was active in their base. Repeated statements of \"I take full responsibility.\" is all you get.\r\n\r\nThere is nothing to do here but return them to the Galatia Academy. \r\n\r\nDiscreetly.",
+   "ctx": "data/campaign/rules.csv gaOpPlanetRogueAINegConvince3 [text]"
+  },
+  {
+   "i": 24,
+   "en": "The research outpost is small, unfortified, and totally lacking countermeasures. But you know that if an AI like this is given a fair field of battle- well, best not to worry about that right now. A swift, thorough orbital strike is the only way to be sure. Those scientists were dead the moment that AI got loose. Perhaps even before; the moment they signed on to experiment on a living AI core.\r\n\r\nYour stone-faced tactical officer prepares the attack pattern.",
+   "ctx": "data/campaign/rules.csv gaOpPlanetRogueAIStrike [text]"
+  },
+  {
+   "i": 25,
+   "en": "The outpost is left a smoldering crater, just a pinprick of dull orange on the curve of the planet below you. Your decisive action is unimpeachable under the terms of the cycle 194 Treaty of Crom Cruach. ",
+   "ctx": "data/campaign/rules.csv gaOpPlanetRogueAIStrike1 [text]"
+  },
+  {
+   "i": 26,
+   "en": "You order the pre-arranged shuttle packed with marines and weaponry. There's no telling what sort of electronic warfare the AI is capable of, so this operation will be run radio-silent, using only point-to-point tightbeam comms.\r\n\r\nThe shuttle descends, sending back only normal telemetry, the pilot speaking only routine call-and-response. After landing, all comms go quiet. Your sensors officer picks up a few flashes of light, a cloud of dust, some EM-spikes. There's no way to know exactly what is happening down there until it is all over.\r\n\r\nSeveral minutes tick by on the operation timer. Audio on the pre-set comms frequency hisses static.",
+   "ctx": "data/campaign/rules.csv gaOpPlanetRogueAIRaid [text]"
+  },
+  {
+   "i": 27,
+   "en": "- Then crackles into life, \"Tac-com, mission success. Bug secured. Fourteen civies e-bagged. No casualties. Civies got minor de-atmo injuries, one broken arm.\"\r\n\r\nYou personally oversee the transfer of the shielded cargo container carrying what remains of the AI core to a secure hold. \r\n\r\nThe lead researcher is thankful for rescue, but refuses to explain why an AI core was active in their base. Repeated statements of \"I take full responsibility.\" is all you get.\r\n\r\nThere is nothing to do here but return the whole lot to the Galatia Academy.",
+   "ctx": "data/campaign/rules.csv gaOpPlanetRogueAIRaid1 [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"Oh, captain.\" Sebestyen looks uncharacteristically gloomy, \"I heard about... what happened. I feel so bad for the $gaOp_department Department, I'm sure they're devastated.\" He looks downcast at the datapad in front of him.",
+   "ctx": "data/campaign/rules.csv gaOpMissionReturnDestroyed [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"I- yes, we should carry on. It's what they would have wanted.\" He lifts his datapad back up and taps it once on his desk. \"And the report from the replacement researchers about your performance was,\" he squints, \"- hmm, I mean. Satisfactory, on the whole?\" \r\n\r\n\"And with the data you collected from the outpost site,\" his mood is improving rapidly, you note, \"the mission isn't a total failure! I mean, look at all of this!\" he taps excitedly at things on a display you can't see. \"And I've been authorized to release your payment in full!\" \r\n",
+   "ctx": "data/campaign/rules.csv gaOpMissionReturnDestroyed2 [text]"
+  },
+  {
+   "i": 30,
+   "en": "Sebestyen looks twitchy. \"I um, hello captain! So good to see you. The um, replacement team from the $gaOp_department Department, they're- they're glad to be back home Ha, uh...\" A long pause.\r\n\r\n\"We um, there's a bit of a problem with your mission file. It seems like,\" his eyes focus on something- no, someone- just out of view of your display.\r\n\r\nHe gives the smallest of nods to this other party, then turns his attention back to you, \"All of the data was irreparably erased. And I cannot emphasize enough that the Academy considers this matter highly sensitive and,\" he starts reading off a datapad, \"-all intellectual property, novel methods, patented devices, and other means observed in the course of carrying out this mission are deemed highly confidential.\"",
+   "ctx": "data/campaign/rules.csv gaOpMissionReturnRogueAI [text]"
+  }
+ ]
+}

@@ -1,0 +1,1231 @@
+{
+ "chunk": 278,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"Sorry, no.\"",
+   "ctx": "gaATGscavScanHub1"
+  },
+  {
+   "i": 2,
+   "en": "\"There's a big cache on the other side of the system. My hold's full, so it's all yours.\"",
+   "ctx": "gaATGscavScanHub2"
+  },
+  {
+   "i": 3,
+   "en": "\"There's nothing here. Why stay?\"",
+   "ctx": "gaATGscavScanHub21"
+  },
+  {
+   "i": 4,
+   "en": "\"I think it's time for you to go. I insist.\"",
+   "ctx": "gaATGscavScanHub22"
+  },
+  {
+   "i": 5,
+   "en": "\"Why are you lingering near the Gate?\"",
+   "ctx": "gaATGscavScanHub3"
+  },
+  {
+   "i": 6,
+   "en": "\"It sure looks like you're watching the Gate. Expect something to come out?\"",
+   "ctx": "gaATGscavScanHub31"
+  },
+  {
+   "i": 7,
+   "en": "\"I don't recall giving you my name.\"",
+   "ctx": "gaATGscavScanHub32"
+  },
+  {
+   "i": 8,
+   "en": "\"Who are you working for?\"",
+   "ctx": "gaATGscavScanHub4"
+  },
+  {
+   "i": 9,
+   "en": "\"I'm going to need you to move away from the Gate.\"",
+   "ctx": "gaATGscavScanHub11"
+  },
+  {
+   "i": 10,
+   "en": "\"Risks?\"",
+   "ctx": "gaATGreturnScansToCoureuseStart"
+  },
+  {
+   "i": 11,
+   "en": "\"So this would reopen the Gate network?\"",
+   "ctx": "gaATGjanusPrototype1"
+  },
+  {
+   "i": 12,
+   "en": "\"Well...\"\r",
+   "ctx": "gaATGjanusPrototype3"
+  },
+  {
+   "i": 13,
+   "en": "\"The Provost is right, I am more of a big-picture type leader.\"\r",
+   "ctx": "gaATGjanusPrototype3"
+  },
+  {
+   "i": 14,
+   "en": "\"Academician, what exactly does 'chaotic' mean in this context?\"",
+   "ctx": "gaATGjanusPrototype3"
+  },
+  {
+   "i": 15,
+   "en": "\"The... manifold. Of course.\"",
+   "ctx": "gaATGjanusPrototype4"
+  },
+  {
+   "i": 16,
+   "en": "\"Should I be worried about this Janus prototype?\"",
+   "ctx": "gaATGaskSCJanusPrototypeStart"
+  },
+  {
+   "i": 17,
+   "en": "\"What's going on?\"",
+   "ctx": "gaATGaskSCJanusPrototype1"
+  },
+  {
+   "i": 18,
+   "en": "Use the Janus prototype on the Gate",
+   "ctx": "gaATGgateUseOptJanus"
+  },
+  {
+   "i": 19,
+   "en": "\"There was some kind of accident.\"\r",
+   "ctx": "gaATGreturnAfterJanusFail"
+  },
+  {
+   "i": 20,
+   "en": "\"You tell me what happened! I could have been killed by that thing!\"\r",
+   "ctx": "gaATGreturnAfterJanusFail"
+  },
+  {
+   "i": 21,
+   "en": "\"I've seen worse. What's plan B?\"",
+   "ctx": "gaATGreturnAfterJanusFail"
+  },
+  {
+   "i": 22,
+   "en": "\"I understand. Baird can be a bit assertive.\"\r",
+   "ctx": "gaATGzalMissionStart"
+  },
+  {
+   "i": 23,
+   "en": "\"I got out. I always do.\"\r",
+   "ctx": "gaATGzalMissionStart"
+  },
+  {
+   "i": 24,
+   "en": "\"Easy for you to say- I could have been killed!\"\r",
+   "ctx": "gaATGzalMissionStart"
+  },
+  {
+   "i": 25,
+   "en": "\"Yes, you definitely owe me for this.\"\r",
+   "ctx": "gaATGzalMissionStart"
+  },
+  {
+   "i": 26,
+   "en": "\"I know.\"",
+   "ctx": "gaATGzalMissionStart"
+  },
+  {
+   "i": 27,
+   "en": "\"No, not especially.\"",
+   "ctx": "gaATGzalMissionStart7"
+  },
+  {
+   "i": 28,
+   "en": "\"Can you elaborate on 'sorta-prisoner?'\"",
+   "ctx": "gaATGzalMissionStartHub1"
+  },
+  {
+   "i": 29,
+   "en": "\"Kanta, as in the pirate warlord Kanta?\"",
+   "ctx": "gaATGzalMissionStartHub2"
+  },
+  {
+   "i": 30,
+   "en": "\"Gargoyle, I feel like you know something about what's going on.\"",
+   "ctx": "gaATGzalMissionStartHub3"
+  },
+  {
+   "i": 31,
+   "en": "\"What do you mean by 'another' Zal scheme?\"",
+   "ctx": "gaATGzalMissionStartHub3b"
+  },
+  {
+   "i": 32,
+   "en": "\"How do we get Zal out?\"",
+   "ctx": "gaATGzalMissionStartHub4"
+  },
+  {
+   "i": 33,
+   "en": "\"Is 'hot' good?\"",
+   "ctx": "gaATGzalMissionHubD"
+  },
+  {
+   "i": 34,
+   "en": "\"So Kanta wants something found and returned. I could do that.\"",
+   "ctx": "gaATGzalMissionStartHub2e"
+  },
+  {
+   "i": 35,
+   "en": "\"We're going to need a better plan than 'ask nicely'.\"",
+   "ctx": "gaATGzalMissionStartHub2a"
+  },
+  {
+   "i": 36,
+   "en": "\"Credits could help. How much are we talking about?\"",
+   "ctx": "gaATGzalMissionStartHub2b"
+  },
+  {
+   "i": 37,
+   "en": "\"I'll just make it up as I go along. Intuition hasn't failed me yet.\"",
+   "ctx": "gaATGzalMissionStartHub2c"
+  },
+  {
+   "i": 38,
+   "en": "\"Why not just shoot my way in and bust Zal out?\"",
+   "ctx": "gaATGzalMissionStartHub2d"
+  },
+  {
+   "i": 39,
+   "en": "\"A quick strike and it'll be over before you know it.\"",
+   "ctx": "gaATGzalMissionStartHub2f"
+  },
+  {
+   "i": 40,
+   "en": "\"Sure. What's your point?\"",
+   "ctx": "gaATGzalMissionBetterPlan"
+  },
+  {
+   "i": 41,
+   "en": "\"Keep your credits. We'll come up with something else.\"\r",
+   "ctx": "gaATGzalMissionCredits"
+  },
+  {
+   "i": 42,
+   "en": "\"Every credit helps. Send 'em over.\"",
+   "ctx": "gaATGzalMissionCredits"
+  },
+  {
+   "i": 43,
+   "en": "\"Can you get me any kind of tactical advantage? Security codes?\"",
+   "ctx": "gaATGzalMissionShoot"
+  },
+  {
+   "i": 44,
+   "en": "\"I am no thief. I come openly, having taken this prize from your kin.\"\r",
+   "ctx": "gaATGkantaMeeting2"
+  },
+  {
+   "i": 45,
+   "en": "\"I'll waste no time. I'm here for Elissa Zal.\"\r",
+   "ctx": "gaATGkantaMeeting2"
+  },
+  {
+   "i": 46,
+   "en": "\"My services. In exchange for Elissa Zal.\" \r",
+   "ctx": "gaATGkantaMeetingThief"
+  },
+  {
+   "i": 47,
+   "en": "\"What does the warlord desire?\"",
+   "ctx": "gaATGkantaMeetingThief"
+  },
+  {
+   "i": 48,
+   "en": "\"My payment will be Zal.\"",
+   "ctx": "gaATGkantaWield"
+  },
+  {
+   "i": 49,
+   "en": "\"It's a deal.\"\r",
+   "ctx": "gaATGkantaPaymentZal3"
+  },
+  {
+   "i": 50,
+   "en": "\"I'm going to need some kind of guarantee.\"\r",
+   "ctx": "gaATGkantaPaymentZal3"
+  },
+  {
+   "i": 51,
+   "en": "\"I'd like to discuss additional terms.\"\r",
+   "ctx": "gaATGkantaPaymentZal3"
+  },
+  {
+   "i": 52,
+   "en": "\"I don't agree to these terms.\"\r",
+   "ctx": "gaATGkantaPaymentZal3"
+  },
+  {
+   "i": 53,
+   "en": "Prepare a raid to extract Elissa Zal",
+   "ctx": "gaATGraidKantasDenOptionA"
+  },
+  {
+   "i": 54,
+   "en": "\"Tactical, what are our options?\"",
+   "ctx": "gaATGkantaRaidFinished3"
+  },
+  {
+   "i": 55,
+   "en": "\"Security- toss the Loke clone out an airlock. With a helmet.\"\r",
+   "ctx": "gaATGkantaRaidFinished4a"
+  },
+  {
+   "i": 56,
+   "en": "\"Security- toss the Loke clone out an airlock.\"",
+   "ctx": "gaATGkantaRaidFinished4a"
+  },
+  {
+   "i": 57,
+   "en": "Tell Baird about your plan to meet Warlord Kanta\r",
+   "ctx": "gaATGtellBairdAboutKantaPlan"
+  },
+  {
+   "i": 58,
+   "en": "Tell Baird about the mission you are doing for Warlord Kanta",
+   "ctx": "gaATGtellBairdAboutFindingLoke"
+  },
+  {
+   "i": 59,
+   "en": "Prepare a raid to extract Clone Loke",
+   "ctx": "gaATGraidCottonOption"
+  },
+  {
+   "i": 60,
+   "en": "\"Nav, get us out of here.\"",
+   "ctx": "gaATGcottonRaidFinishedContinue "
+  },
+  {
+   "i": 61,
+   "en": "\"I need to find someone kidnapped by Brother Cotton.\"",
+   "ctx": "gaATGEpiphanySearch1"
+  },
+  {
+   "i": 62,
+   "en": "\"I'm looking for someone who is a... guest of Brother Cotton.\"",
+   "ctx": "gaATGEpiphanySearch1b"
+  },
+  {
+   "i": 63,
+   "en": "\"I'll pay you good credits to know where to find Brother Cotton.\"",
+   "ctx": "gaATGEpiphanySearch2"
+  },
+  {
+   "i": 64,
+   "en": "\"I wish to speak with Brother Cotton. Can you help?\"",
+   "ctx": "gaATGEpiphanySearch3"
+  },
+  {
+   "i": 65,
+   "en": "\"Let him know that I'll meet... him... there.\"\r",
+   "ctx": "gaATGEpiphanyAskGuestFaith"
+  },
+  {
+   "i": 66,
+   "en": "\"Perhaps our paths should not cross just yet.\"",
+   "ctx": "gaATGEpiphanyAskGuestFaith"
+  },
+  {
+   "i": 67,
+   "en": "\"Are you offering to arrange a meeting?\"",
+   "ctx": "gaATGEpiphanyAskCotton"
+  },
+  {
+   "i": 68,
+   "en": "\"Tell Cotton I'll meet him there.\"\r",
+   "ctx": "gaATGEpiphanyAskCotton2"
+  },
+  {
+   "i": 69,
+   "en": "\"Perhaps our paths should not cross just yet.\"\r",
+   "ctx": "gaATGEpiphanyAskCotton2"
+  },
+  {
+   "i": 70,
+   "en": "\"Evening, friends. Next round on me?\"\r",
+   "ctx": "gaATGAskEpiphanyBar1"
+  },
+  {
+   "i": 71,
+   "en": "\"Any of you happen to know Brother Cotton?\"\r",
+   "ctx": "gaATGAskEpiphanyBar1"
+  },
+  {
+   "i": 72,
+   "en": "\"Looks like I was just leaving...\"",
+   "ctx": "gaATGAskEpiphanyBar1"
+  },
+  {
+   "i": 73,
+   "en": "\"I'm here to talk. Cotton will know me.\"\r",
+   "ctx": "gaATGAskEpiphanyBarA1"
+  },
+  {
+   "i": 74,
+   "en": "\"And here I thought Ludd taught a religion of peace.\"\r",
+   "ctx": "gaATGAskEpiphanyBarA1"
+  },
+  {
+   "i": 75,
+   "en": "Simply nod to your guards",
+   "ctx": "gaATGAskEpiphanyBarA1"
+  },
+  {
+   "i": 76,
+   "en": "\"Just tell Cotton I'm here. I'll wait.\"\r",
+   "ctx": "gaATGAskEpiphanyBarB1"
+  },
+  {
+   "i": 77,
+   "en": "\"I meant no offense. I just wish to see your boss.\"",
+   "ctx": "gaATGAskEpiphanyBarCOpt1"
+  },
+  {
+   "i": 78,
+   "en": "\"Mind yourself- I can have this place razed from orbit with a word.\"",
+   "ctx": "gaATGAskEpiphanyBarCOpt3"
+  },
+  {
+   "i": 79,
+   "en": "Stare him down",
+   "ctx": "gaATGAskEpiphanyBarCOpt2"
+  },
+  {
+   "i": 80,
+   "en": "\"I'll wait here.\"\r",
+   "ctx": "gaATGepiphanyBarTalk1"
+  },
+  {
+   "i": 81,
+   "en": "\"I'll be back shortly.\"",
+   "ctx": "gaATGepiphanyBarTalk1"
+  },
+  {
+   "i": 82,
+   "en": "\"Server, a pot of tea please!\"\r",
+   "ctx": "gaATGepiphanyBarEndWait"
+  },
+  {
+   "i": 83,
+   "en": "\"Server, a round for the large gentlemen over there!\"",
+   "ctx": "gaATGepiphanyBarEndWait"
+  },
+  {
+   "i": 84,
+   "en": "Go to the back room\r",
+   "ctx": "gaATGepiphanyBarEndWait3"
+  },
+  {
+   "i": 85,
+   "en": "Don't go to the back room just yet.",
+   "ctx": "gaATGepiphanyBarEndWait3"
+  },
+  {
+   "i": 86,
+   "en": "Don't go to the back room",
+   "ctx": "gaATGmeetCottonStart"
+  },
+  {
+   "i": 87,
+   "en": "Don't shake his hand",
+   "ctx": "gaATGmeetCottonMetNo"
+  },
+  {
+   "i": 88,
+   "en": "Sit\r",
+   "ctx": "gaATGmeetCottonTea"
+  },
+  {
+   "i": 89,
+   "en": "Remain standing\r",
+   "ctx": "gaATGmeetCottonTea"
+  },
+  {
+   "i": 90,
+   "en": "\"I know to never turn my back on a Pather.\"",
+   "ctx": "gaATGmeetCottonTea"
+  },
+  {
+   "i": 91,
+   "en": "\"Did you not send a rogue Luddic Knight to kill me?\"",
+   "ctx": "gaATGmeetCottonTeaHubZ"
+  },
+  {
+   "i": 92,
+   "en": "\"Despite hired killers coming for you, you meet me with tea. Why?\"",
+   "ctx": "gaATGmeetCottonTeaHubA"
+  },
+  {
+   "i": 93,
+   "en": "\"What do you even want with the Loke clone, if he's so ungodly?\"",
+   "ctx": "gaATGmeetCottonTeaHubB"
+  },
+  {
+   "i": 94,
+   "en": "\"So what are you going to do with the clone?\"",
+   "ctx": "gaATGmeetCottonTeaHubB2"
+  },
+  {
+   "i": 95,
+   "en": "\"Kanta didn't explicitly ask me to kill you. Nor did Cydonia.\"",
+   "ctx": "gaATGmeetCottonTeaHubC"
+  },
+  {
+   "i": 96,
+   "en": "\"Why is this clone so important to Kanta?\"",
+   "ctx": "gaATGmeetCottonTeaHubD"
+  },
+  {
+   "i": 97,
+   "en": "\"You're just going to give me Loke?\"",
+   "ctx": "gaATGmeetCottonTeaHubE"
+  },
+  {
+   "i": 98,
+   "en": "\"I wish to take the Loke clone back to Kanta. As I agreed.\"",
+   "ctx": "gaATGmeetCottonTeaHubF"
+  },
+  {
+   "i": 99,
+   "en": "\"I'm taking the Loke clone.\"",
+   "ctx": "gaATGmeetCottonTeaHubG"
+  },
+  {
+   "i": 100,
+   "en": "\"I want an explanation.\"\r",
+   "ctx": "gaATGmeetCottonTeaKnightA"
+  },
+  {
+   "i": 101,
+   "en": "\"Yes. I seek to follow the teachings of the Prophet Ludd.\"\r",
+   "ctx": "gaATGmeetCottonTeaKnightA"
+  },
+  {
+   "i": 102,
+   "en": "\"Is that offer open?\"\r",
+   "ctx": "gaATGmeetCottonTeaKnightA"
+  },
+  {
+   "i": 103,
+   "en": "\"Credits or not, you sent the knight to kill me.\"",
+   "ctx": "gaATGmeetCottonTeaKnightA"
+  },
+  {
+   "i": 104,
+   "en": "\"Yes, funny how these things work out.\"\r",
+   "ctx": "gaATGmeetCottonTeaKnightB"
+  },
+  {
+   "i": 105,
+   "en": "\"Mercurial or not, you sent someone to kill me.\"",
+   "ctx": "gaATGmeetCottonTeaKnightB"
+  },
+  {
+   "i": 106,
+   "en": "\"And what significance is that?\"",
+   "ctx": "gaATGmeetCottonTeaKnight2"
+  },
+  {
+   "i": 107,
+   "en": "\"This seems uncharacteristically non-violent.\"\r",
+   "ctx": "gaATGmeetCottonTeaTea"
+  },
+  {
+   "i": 108,
+   "en": "\"Did you realize that you cannot best me in combat?\"\r",
+   "ctx": "gaATGmeetCottonTeaTea"
+  },
+  {
+   "i": 109,
+   "en": "\"I suppose you have better things for them to die for?\"",
+   "ctx": "gaATGmeetCottonTeaTea"
+  },
+  {
+   "i": 110,
+   "en": "\"And Kanta?\"",
+   "ctx": "gaATGmeetCottonCydonia"
+  },
+  {
+   "i": 111,
+   "en": "\"This is unexpected.\"",
+   "ctx": "gaATGmeetCottonClone2"
+  },
+  {
+   "i": 112,
+   "en": "Enter the shuttle",
+   "ctx": "gaATGmeetCottonEnd3"
+  },
+  {
+   "i": 113,
+   "en": "Return to orbit\r",
+   "ctx": "gaATGmeetCottonEnd4"
+  },
+  {
+   "i": 114,
+   "en": "\"Loke, do you want to go back to Kanta?\"\r",
+   "ctx": "gaATGmeetCottonEnd4"
+  },
+  {
+   "i": 115,
+   "en": "\"Loke, do you want to stay here?\"\r",
+   "ctx": "gaATGmeetCottonEnd4"
+  },
+  {
+   "i": 116,
+   "en": "\"Loke, do you want to be free?\"",
+   "ctx": "gaATGmeetCottonEnd4"
+  },
+  {
+   "i": 117,
+   "en": "\"Yes. A shuttle will take him stationside.\"\r",
+   "ctx": "gaATGreturnLokeStart2"
+  },
+  {
+   "i": 118,
+   "en": "\"I have Loke for you. But first, I want Zal.\"\r",
+   "ctx": "gaATGreturnLokeStart2"
+  },
+  {
+   "i": 119,
+   "en": "\"Now send me Zal.\"",
+   "ctx": "gaATGreturnLokeFirst"
+  },
+  {
+   "i": 120,
+   "en": "\"What is it you want, then?\"\r",
+   "ctx": "gaATGreturnLokeSendZal1"
+  },
+  {
+   "i": 121,
+   "en": "\"That wasn't part of the deal, Kanta.\"\r",
+   "ctx": "gaATGreturnLokeSendZal1"
+  },
+  {
+   "i": 122,
+   "en": "\"You call yourself warlord? You're a small-time cheat and liar.\"",
+   "ctx": "gaATGreturnLokeSendZal1"
+  },
+  {
+   "i": 123,
+   "en": "\"Open the pod bay doors, ops.\"",
+   "ctx": "gaATGreturnLokeZal2"
+  },
+  {
+   "i": 124,
+   "en": "\"Nav, set course for the Magec Gate.\"\r",
+   "ctx": "gaATGreturnLokeGateRun"
+  },
+  {
+   "i": 125,
+   "en": "\"This isn't going to be another Galatia incident, is it.\"",
+   "ctx": "gaATGreturnLokeGateRun"
+  },
+  {
+   "i": 126,
+   "en": "\"Nav, just take us away from here.\"",
+   "ctx": "gaATGreturnLokeGateRunB"
+  },
+  {
+   "i": 127,
+   "en": "\"And then?\"",
+   "ctx": "gaATGMagecGateOptZalScan2"
+  },
+  {
+   "i": 128,
+   "en": "\"Hook up the Janus Device.\"",
+   "ctx": "gaATGMagecGateOptJanus2"
+  },
+  {
+   "i": 129,
+   "en": "\"Nav, activate the Janus Device and take us in.\"",
+   "ctx": "gaATGMagecGateOptUse1"
+  },
+  {
+   "i": 130,
+   "en": "\"Zal, how do I know it isn't going to explode on me again?\"",
+   "ctx": "gaATGMagecGateOptUse2"
+  },
+  {
+   "i": 131,
+   "en": "\"We're not done in the Magec system.\"",
+   "ctx": "gaATGMagecGateOptLeave"
+  },
+  {
+   "i": 132,
+   "en": "\"Let's get on with it.\"\r",
+   "ctx": "gaATGMagecGateAndThen"
+  },
+  {
+   "i": 133,
+   "en": "\"You know Provost Baird will never let you go, right?\"\r",
+   "ctx": "gaATGMagecGateAndThen"
+  },
+  {
+   "i": 134,
+   "en": "\"Scylla will be glad to see you.\"\r",
+   "ctx": "gaATGMagecGateAndThen"
+  },
+  {
+   "i": 135,
+   "en": "\"And this time it'll work?\"\r",
+   "ctx": "gaATGMagecGateExplode"
+  },
+  {
+   "i": 136,
+   "en": "\"Great plan. You almost blew me up before.\"\r",
+   "ctx": "gaATGMagecGateExplode"
+  },
+  {
+   "i": 137,
+   "en": "\"We have a lot to talk about.\"",
+   "ctx": "gaATGMagecGateExplode"
+  },
+  {
+   "i": 138,
+   "en": "Access executive control\r",
+   "ctx": "gaATGMagecGateUse"
+  },
+  {
+   "i": 139,
+   "en": "\"Planning something?\"\r",
+   "ctx": "gaATGlastReturnOffice1"
+  },
+  {
+   "i": 140,
+   "en": "\"Is it Coureuse?\"",
+   "ctx": "gaATGlastReturnOffice1"
+  },
+  {
+   "i": 141,
+   "en": "Sneak a glass of the victory spirit while you still can",
+   "ctx": "gaATGlastReturnWhereAreThey2"
+  },
+  {
+   "i": 142,
+   "en": "\"It looks like my work here is done.\"",
+   "ctx": "gaATGbairdEndingHubOptA"
+  },
+  {
+   "i": 143,
+   "en": "\"I truly believe in your project. I would not betray you.\"",
+   "ctx": "gaATGbairdEndingHubOptBelieve"
+  },
+  {
+   "i": 144,
+   "en": "\"You got what you wanted, didn't you?\"",
+   "ctx": "gaATGbairdEndingHubOptB"
+  },
+  {
+   "i": 145,
+   "en": "\"History doesn't always turn out the way you expected.\"",
+   "ctx": "gaATGbairdEndingHubOptC"
+  },
+  {
+   "i": 146,
+   "en": "\"'You reap what you sow.' Didn't Ludd say that?\"",
+   "ctx": "gaATGbairdEndingHubOptD"
+  },
+  {
+   "i": 147,
+   "en": "\"So. About getting paid.\"",
+   "ctx": "gaATGbairdEndingHubOptE"
+  },
+  {
+   "i": 148,
+   "en": "\"I do believe that I was meant to be paid after this Janus business.\"",
+   "ctx": "gaATGpostSebestyenGetPaid"
+  },
+  {
+   "i": 149,
+   "en": "\"Yes?\"\r",
+   "ctx": "gaATGpostSebestyenGetPaid2"
+  },
+  {
+   "i": 150,
+   "en": "\"Come on, out with it.\"\r",
+   "ctx": "gaATGpostSebestyenGetPaid2"
+  },
+  {
+   "i": 151,
+   "en": "\"I couldn't have done it without you.\"\r",
+   "ctx": "gaATGpostSebestyenGetPaid3"
+  },
+  {
+   "i": 152,
+   "en": "\"Yeah. Don't mention it.\"",
+   "ctx": "gaATGpostSebestyenGetPaid3"
+  },
+  {
+   "i": 153,
+   "en": "\"The provost seemed a bit upset last we spoke.\"",
+   "ctx": "gaATGpostSebestyenProvost"
+  },
+  {
+   "i": 154,
+   "en": "\"You've done a good job, Alviss. We did some great things together.\"\r",
+   "ctx": "gaATGpostSebestyenProvost2"
+  },
+  {
+   "i": 155,
+   "en": "\"I don't see how you're so loyal, the way Baird treats everyone.\"\r",
+   "ctx": "gaATGpostSebestyenProvost2"
+  },
+  {
+   "i": 156,
+   "en": "\"Maybe we should talk about something else.\"",
+   "ctx": "gaATGpostSebestyenProvost2"
+  },
+  {
+   "i": 157,
+   "en": "\"They don't need to be.\"\r",
+   "ctx": "gaATGpostSebestyenBairdBad"
+  },
+  {
+   "i": 158,
+   "en": "\"This is true.\"\r",
+   "ctx": "gaATGpostSebestyenBairdBad"
+  },
+  {
+   "i": 159,
+   "en": "\"Let's talk about something else.\"",
+   "ctx": "gaATGpostSebestyenBairdBad"
+  },
+  {
+   "i": 160,
+   "en": "\"So Baird hasn't thrown you over to the Hegemony yet?\"",
+   "ctx": "gaATGpostGargoyleAsk"
+  },
+  {
+   "i": 161,
+   "en": "\"Is that it?\"",
+   "ctx": "gaATGpostGargoyleAsk2"
+  },
+  {
+   "i": 162,
+   "en": "\"Nice to meet you, Academician.\"\r",
+   "ctx": "asebFirstTimeGreeting"
+  },
+  {
+   "i": 163,
+   "en": "\"Shall we get on with it?\"",
+   "ctx": "asebFirstTimeGreeting"
+  },
+  {
+   "i": 164,
+   "en": "\"Not right now.\"",
+   "ctx": "asebAddMhubCloseOption"
+  },
+  {
+   "i": 165,
+   "en": "\"Maybe next time.\"",
+   "ctx": "asebAddMhubCloseOptionNothing"
+  },
+  {
+   "i": 166,
+   "en": "\"Could you help me set up a scholarship trust for promising students?\"",
+   "ctx": "asebScholarshipHeardAbout"
+  },
+  {
+   "i": 167,
+   "en": "\"Baird told me to talk to you about setting up a scholarship...\"",
+   "ctx": "asebScholarshipNotHeardYet"
+  },
+  {
+   "i": 168,
+   "en": "\"Let's talk about setting up a scholarship again...\"",
+   "ctx": "asebScholarshipPitchAgain"
+  },
+  {
+   "i": 169,
+   "en": "\"I'll give 100,000 credits. For our future.\"\r",
+   "ctx": "asebScholarshipPitch"
+  },
+  {
+   "i": 170,
+   "en": "\"Double it, 200,000 credits.\"\r",
+   "ctx": "asebScholarshipPitch"
+  },
+  {
+   "i": 171,
+   "en": "\"Can you do 500,000 credits?\"\r",
+   "ctx": "asebScholarshipPitch"
+  },
+  {
+   "i": 172,
+   "en": "\"Ah, interesting. Perhaps another time?\"",
+   "ctx": "asebScholarshipPitch"
+  },
+  {
+   "i": 173,
+   "en": "\"I wish to help those who cannot afford to attend the Academy on their own.\"",
+   "ctx": "asebScholarshipCauseA"
+  },
+  {
+   "i": 174,
+   "en": "\"Space exploration, to recover old knowledge and discover new.\"",
+   "ctx": "asebScholarshipCauseB"
+  },
+  {
+   "i": 175,
+   "en": "\"I want to promote AI research, as a powerful tool for humanity to use.\"",
+   "ctx": "asebScholarshipCauseC"
+  },
+  {
+   "i": 176,
+   "en": "\"I want to promote AI research, as a partnership between conscious minds.\"",
+   "ctx": "asebScholarshipCauseD"
+  },
+  {
+   "i": 177,
+   "en": "\"Study of the Luddic Word so students will remember their connection to Creation.\"",
+   "ctx": "asebScholarshipCauseE"
+  },
+  {
+   "i": 178,
+   "en": "\"The Gate system. We need to recover what was lost.\"",
+   "ctx": "asebScholarshipCauseF"
+  },
+  {
+   "i": 179,
+   "en": "\"Weapons research. And I want results I can exploit as soon as possible.\"",
+   "ctx": "asebScholarshipCauseG"
+  },
+  {
+   "i": 180,
+   "en": "\"How about a mission?\"\r",
+   "ctx": "asebAskedForWorkBairdTalk"
+  },
+  {
+   "i": 181,
+   "en": "Ask about data retrieval from the ruins on $gaData_planetName",
+   "ctx": "gaDataOfferOption"
+  },
+  {
+   "i": 182,
+   "en": "\"But?\"",
+   "ctx": "gaDataMissionTextRemnants"
+  },
+  {
+   "i": 183,
+   "en": "Send a team down to retrieve the data\r",
+   "ctx": "gaDataStandardPlanetInteraction"
+  },
+  {
+   "i": 184,
+   "en": "Consider a ground operation to retrieve the data\r",
+   "ctx": "gaDataDecivInteractionRaidOptions"
+  },
+  {
+   "i": 185,
+   "en": "Drop 10 units of supplies at a nearby location to distract the locals\r",
+   "ctx": "gaDataDecivInteractionRaidOptions"
+  },
+  {
+   "i": 186,
+   "en": "Transmit the coordinates and let the pirates take the data\r",
+   "ctx": "gaDataPirateConvBeforeGotData"
+  },
+  {
+   "i": 187,
+   "en": "Offer to transmit the coordinates ... for a price\r",
+   "ctx": "gaDataPirateConvBeforeGotData"
+  },
+  {
+   "i": 188,
+   "en": "Decline this invitation; power up combat systems\r",
+   "ctx": "gaDataPirateConvBeforeGotData"
+  },
+  {
+   "i": 189,
+   "en": "\"The deal has changed. You're here to provide me with fuel and supplies.\"",
+   "ctx": "gaDataPirateConvBeforeGotData"
+  },
+  {
+   "i": 190,
+   "en": "Transmit the data; it's just a copy\r",
+   "ctx": "gaDataPirateConvAfterGotData"
+  },
+  {
+   "i": 191,
+   "en": "Offer to transmit a copy of the data ... for a price\r",
+   "ctx": "gaDataPirateConvAfterGotData"
+  },
+  {
+   "i": 192,
+   "en": "\"The deal has changed. You’re here to provide me with fuel and supplies.\"",
+   "ctx": "gaDataPirateConvAfterGotData"
+  },
+  {
+   "i": 193,
+   "en": "Close transmission\r",
+   "ctx": "gaDataGiveCoordsSel"
+  },
+  {
+   "i": 194,
+   "en": "Hit the end transmission button somewhat harder than strictly necessary",
+   "ctx": "gaDataGiveCoordsSel"
+  },
+  {
+   "i": 195,
+   "en": "Decline, power up weapons",
+   "ctx": "gaDataGiveDataNegotiate2"
+  },
+  {
+   "i": 196,
+   "en": "\"I won't, I promise.\"",
+   "ctx": "gaDataBluff1"
+  },
+  {
+   "i": 197,
+   "en": "Ask about the scientific object retrieval mission",
+   "ctx": "gaDAOfferOption"
+  },
+  {
+   "i": 198,
+   "en": "Pirates can't be trusted. Return them to the leaky ship.\r",
+   "ctx": "gaDADerelictContPirates2"
+  },
+  {
+   "i": 199,
+   "en": "Give them a chance to prove themselves. (+1 crew)",
+   "ctx": "gaDADerelictContPirates2"
+  },
+  {
+   "i": 200,
+   "en": "Offer to buy what they found in the derelict\r",
+   "ctx": "gaDAPirateOpenComm"
+  },
+  {
+   "i": 201,
+   "en": "Threaten to attack if they don't surrender the mission target\r",
+   "ctx": "gaDAPirateOpenComm"
+  },
+  {
+   "i": 202,
+   "en": "\"Kanta sent me. She wants her prize.\"",
+   "ctx": "gaDAPirateOpenComm"
+  },
+  {
+   "i": 203,
+   "en": "Agree to their price\r",
+   "ctx": "gaDAPirateOfferToBuy"
+  },
+  {
+   "i": 204,
+   "en": "Decline, it’s simply not worth it\r",
+   "ctx": "gaDAPirateOfferToBuy"
+  },
+  {
+   "i": 205,
+   "en": "\"I've decided to take it from you by force.\"",
+   "ctx": "gaDAPirateOfferToBuy"
+  },
+  {
+   "i": 206,
+   "en": "Accept the new price\r",
+   "ctx": "gaDADeclineBuyAggroStronger"
+  },
+  {
+   "i": 207,
+   "en": "Decline. Snap comms off and power up battle-systems.",
+   "ctx": "gaDADeclineBuyAggroStronger"
+  },
+  {
+   "i": 208,
+   "en": "Collect the mission target",
+   "ctx": "gaDAThreatenToAttack"
+  },
+  {
+   "i": 209,
+   "en": "\"Kanta never forgets. But if she hasn't killed you yet...\"\r",
+   "ctx": "gaDAKantaSentMe"
+  },
+  {
+   "i": 210,
+   "en": "\"I could tell her I killed you. Change your name. Change your face. Stay far away.\"",
+   "ctx": "gaDAKantaSentMe"
+  },
+  {
+   "i": 211,
+   "en": "\"Absolutely loyal.\"",
+   "ctx": "gaDAKantaSentMe1"
+  },
+  {
+   "i": 212,
+   "en": "\"I'm picturing it right now.\"",
+   "ctx": "gaDAKantaSentMe2"
+  },
+  {
+   "i": 213,
+   "en": "\"You found something I need. Let's make a deal.\"\r",
+   "ctx": "gaDAScavOpenComm"
+  },
+  {
+   "i": 214,
+   "en": "\"I want what you found. Send it over. Those are my only terms.\"\r",
+   "ctx": "gaDAScavOpenComm"
+  },
+  {
+   "i": 215,
+   "en": "\"Say, aren't you $personName?\" (bluff)",
+   "ctx": "gaDAScavOpenComm"
+  },
+  {
+   "i": 216,
+   "en": "Decline, it’s simply not worth it",
+   "ctx": "gaDAScavBuy"
+  },
+  {
+   "i": 217,
+   "en": "Pay $gaDA_scavPaymentHigh credits to receive the mission target\r",
+   "ctx": "gaDAScavThreatenScavStronger"
+  },
+  {
+   "i": 218,
+   "en": "Refuse and prepare to attack",
+   "ctx": "gaDAScavThreatenScavStronger"
+  },
+  {
+   "i": 219,
+   "en": "\"The results of the investigation, of course.\"",
+   "ctx": "gaDAScavBluff1"
+  },
+  {
+   "i": 220,
+   "en": "\"But your real problem is the expropriation order...\"",
+   "ctx": "gaDAScavBluff2"
+  },
+  {
+   "i": 221,
+   "en": "\"As a tip for the tip-off, perhaps I could take a bit of that salvage...\"",
+   "ctx": "gaDAScavBluff3"
+  },
+  {
+   "i": 222,
+   "en": "Ask about the $gaCO_celestialObjectType scan",
+   "ctx": "gaCOOfferOption"
+  },
+  {
+   "i": 223,
+   "en": "\"What was that about the last expedition?\"",
+   "ctx": "gaCOMissionTextBasicSlipUp"
+  },
+  {
+   "i": 224,
+   "en": "\"Just tell me what happened.\"\r",
+   "ctx": "gaCOMissionTextBasicSlipUp1"
+  },
+  {
+   "i": 225,
+   "en": "Decline the mission",
+   "ctx": "gaCOMissionTextBasicSlipUp1"
+  },
+  {
+   "i": 226,
+   "en": "\"So... ?\"\r",
+   "ctx": "gaCOMissionTextBasicSlipUp2"
+  },
+  {
+   "i": 227,
+   "en": "\"Yes. And I'll be very careful.\" (accept) \r",
+   "ctx": "gaCOMissionTextBasicSlipUp3"
+  },
+  {
+   "i": 228,
+   "en": "\"No, I don't need more trouble with Pathers.\" (decline)",
+   "ctx": "gaCOMissionTextBasicSlipUp3"
+  },
+  {
+   "i": 229,
+   "en": "Raise a single eyebrow",
+   "ctx": "gaCOMissionTextBasicPulsar"
+  },
+  {
+   "i": 230,
+   "en": "Execute the scan",
+   "ctx": "gaCOObjectInteraction"
+  },
+  {
+   "i": 231,
+   "en": "Eject the research package\r",
+   "ctx": "gaCOPatherOpenComm"
+  },
+  {
+   "i": 232,
+   "en": "Reject their demands and power up weapons\r",
+   "ctx": "gaCOPatherOpenComm"
+  },
+  {
+   "i": 233,
+   "en": "Convince them to let you go",
+   "ctx": "gaCOPatherOpenComm"
+  },
+  {
+   "i": 234,
+   "en": "\"To your stations.\"",
+   "ctx": "gaCOPatherConvince3"
+  },
+  {
+   "i": 235,
+   "en": "Eject the research package and pay a tithe of $entity.gaCO_patherTithe credits\r",
+   "ctx": "gaCOPatherOpenCommAfter"
+  },
+  {
+   "i": 236,
+   "en": "Reject their demands and power up weapons",
+   "ctx": "gaCOPatherOpenCommAfter"
+  },
+  {
+   "i": 237,
+   "en": "Ask about the instrument package recovery",
+   "ctx": "gaProbeOfferOption"
+  },
+  {
+   "i": 238,
+   "en": "Calmly explain the concept of a hazard bonus\r",
+   "ctx": "gaProbeMissionReturnHazard"
+  },
+  {
+   "i": 239,
+   "en": "\"It's nothing. You were saying?\"",
+   "ctx": "gaProbeMissionReturnHazard"
+  },
+  {
+   "i": 240,
+   "en": "Continue ",
+   "ctx": "gaProbeMissionReturnHazardBonus"
+  },
+  {
+   "i": 241,
+   "en": "\"About the payment.\"",
+   "ctx": "gaProbeMissionReturnMissing"
+  },
+  {
+   "i": 242,
+   "en": "Thank them for the warning and close comms\r",
+   "ctx": "gaProbePatherOpenComm"
+  },
+  {
+   "i": 243,
+   "en": "Snap off the comm link\r",
+   "ctx": "gaProbePatherOpenComm"
+  },
+  {
+   "i": 244,
+   "en": "Offer fuel and supplies to the crippled Pather fleet\r",
+   "ctx": "gaProbePatherOpenComm"
+  },
+  {
+   "i": 245,
+   "en": "Attack now, while they are weakened",
+   "ctx": "gaProbePatherOpenComm"
+  }
+ ]
+}

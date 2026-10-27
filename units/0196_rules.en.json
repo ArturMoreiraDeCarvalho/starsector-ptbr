@@ -1,0 +1,141 @@
+{
+ "chunk": 196,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"However,\" he gives a little cough, \"the Academy recognizes your exceptional service, particularly your discretion in this matter. So the office of the bursar has seen fit to double your mission payment.\"\r\n\r\nA quick glance to the other party behind the display and then back to you.\r\n\r\n\"That's all I, uh, that's all, captain. We should discuss other matters now and not return to this subject.\"",
+   "ctx": "data/campaign/rules.csv gaOpMissionReturnRogueAI1 [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"A, um, collector of esoteric goods? on $gaBA_marketName is offering to sell an important technological object to the Academy. We need someone to make the purchase.\"",
+   "ctx": "data/campaign/rules.csv gaBABlurbPirate [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"A, um, individual possibly from the Luddic Path, um, spiritual movement on $gaBA_marketName is offering to sell an important technological object to the Academy. We need someone to make the purchase.\"",
+   "ctx": "data/campaign/rules.csv gaBABlurbPather [text]"
+  },
+  {
+   "i": 4,
+   "en": "Sebestyen puts a finger on his chin, \"'Pirate' is such a strong word, isn't it? There are all sorts of reasons, maybe, that a polity might find itself outside of um legitimate faction control. One imagines. What I mean is that, ah, we have to be diplomatic when an opportunity presents itself to acquire ah, um, a...\"\r\n\r\nSebestyen looks carefully at a datapad, then back at you. \"Ah I see- $gaBA_aOrAnItem! Just think what this could mean for research opportunities!\"",
+   "ctx": "data/campaign/rules.csv gaBAMissionTextPirate [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"... Because- well, never mind. Um, where was I- yes, so the contact is named $gaBA_contactName, they're $gaBA_onOrAt $gaBA_marketName in the $gaBA_systemName system. The Academy has allocated funds in the amount of $gaBA_costNormal credits which would be provided to you to make the purchase.\"\r\n\r\n\"Just talk to the contact, make arrangements, and return the $gaBA_item to the Galatia Academy. Simple!\" The academician taps his datapad on his desk contentedly. \r\n\r\n\"Oh right, and there's a mission reward of $gaBA_reward credits. Just,\" he leans in, looking concerned, \"you'll want to be careful. Space pirates. I've ... heard things.\" He shakes his head, as if dismissing these concerns \"But you'd be fine, right?\"",
+   "ctx": "data/campaign/rules.csv gaBAMissionTextPirate1 [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"Wow. Huh,\" the academician studies his datapad as if not quite believing it.\r\n\r\n\"So an individual who is associated with the t-the Luddic Path contacted the Academy. Their name is $gaBA_contactName, and they say they want to sell the Academy a piece of technology that they... um, found somewhere, I guess? If it really is $gaBA_aOrAnItem, then this would be an extraordinary find.\"\r\n\r\n\"But. You know...\" Sebestyen looks to you expectantly.",
+   "ctx": "data/campaign/rules.csv gaBAMissionTextPather [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"It's the Path! This goes against everything they believe. If they caught one of their own selling technology to us, can you imagine what they'd do? I mean...\"\r\n\r\nYou watch Sebestyen's imagination work across his face; fanatical torture-dungeons lie just beneath the surface.\r\n\r\nHe visibly shudders and composes himself. \"Sorry, I, yes. The details.\" He takes a deep breath. \"Okay. So the contact is $gaBA_contactName, they're $gaBA_onOrAt $gaBA_marketName in the $gaBA_systemName system. The Academy has allocated $gaBA_costNormal credits to you to make the purchase. Just talk to the contact, make arrangements, and return the $gaBA_item to the Galatia Academy!\"",
+   "ctx": "data/campaign/rules.csv gaBAMissionTextPather1 [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"And, and there's a mission reward of $gaBA_reward credits. Just,\" he leans in, looking concerned, \"you'll want to be very careful. Pathers. I've... heard things.\" \r\n\r\n\"You'll be okay, right?\"",
+   "ctx": "data/campaign/rules.csv gaBAMissionTextPather2 [text]"
+  },
+  {
+   "i": 9,
+   "en": "The comms signal struggles to establish through the ill-maintained local network. Patchy decryption artifacts glitch spasmodically to resolve into the face of the Pather contact.\r\n\r\n\"Blessings of Ludd be upon you,\" $heOrShe says, looking you over suspiciously.\r\n\r\nYou can't quite place the accent, but it seems flattened toward the Sector mean from something unfamiliar. An import from an obscure Luddic colony? Or one of those lost souls that drifts into the Persean Sector from time to time, frozen in cryosleep?\r\n\r\nUnnerved by your pause, the Pather speaks again. \"You contacted me, $playerBrotherOrSister. Is there - something - you are looking for?\"",
+   "ctx": "data/campaign/rules.csv gaBAPatherGreeting [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"Yes. Yes, I have... the technology.\" $HeOrShe says the word with odd emphasis. A curse. Or is it guilt?",
+   "ctx": "data/campaign/rules.csv gaBAPatherGreeting1 [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"Let us make arrangements. Quickly. I have heard of Knights operating in this volume and I would not care to suffer their questioning. Transfer $gaBA_costHigh credits to my comms ID and I will have the package released into your custody.\"",
+   "ctx": "data/campaign/rules.csv GABAPatherMainOptions [text]"
+  },
+  {
+   "i": 12,
+   "en": "You haggle, argue, and stall by quibbling over payment and delivery details. While speaking, you give the ready-signal via datapad to your tactical officer who has been briefed for the use of marines in an extraction operation.\r\n\r\nYou consider that no matter the criminality of your contact, there may be serious reputation consequences with the local authorities for starting a firefight within this polity.",
+   "ctx": "data/campaign/rules.csv gaBAPatherPreRaid [text]"
+  },
+  {
+   "i": 13,
+   "en": "A thud and a bang carry through the Pather's comms-line as the image goes fuzzy for a moment. $HeOrShe looks back at you with panic in $hisOrHer eyes, \"By Ludd's hammer, you're-\" -the comms line goes dark. \r\n\r\nYou switch the display to the tactical feed from your marines just as they report success.",
+   "ctx": "data/campaign/rules.csv gaBAPatherRaidFinished [text]"
+  },
+  {
+   "i": 14,
+   "en": "The Pather nods, relieved, and says, almost to $himOrHerself, \"Doing it like this will do more good than destroying some evil trinket.\" $HeOrShe looks up through the display with a fanatic's eyes once more, \"I won't thank you, captain, but I hope the stars lead you to Ludd's Path.\" \r\n\r\n$HeOrShe considers, \"Someday.\" The comms go black.\r\n\r\nYour logistics officer reports a shipping pickup ping from a local craft guild's logistics concourse. A neatly packaged crate bearing a logo for the Galatia Academy and only a few scorch-marks is soon on board your flagship.",
+   "ctx": "data/campaign/rules.csv gaBAPatherAccept1 [text]"
+  },
+  {
+   "i": 15,
+   "en": "The Pather $personLastName is taken aback, \"Do you have any idea the risk I'm taking over this evil trinket? These credits you give could never offset the violation, the desecration- \"\r\n\r\n$HeOrShe clenches a fist and stops $himOrHerself. \"I understand. We all have a spiritual connection to the Creator, and though a tool of-\" $HeOrShe stops $himOrHerself again, \"-a tool, I will respect that you want to carry out an honest deal.\"\r\n\r\n$HeOrShe sighs. \"To the letter. So, as agreed, $gaBA_costNormal credits?\"",
+   "ctx": "data/campaign/rules.csv gaBAPatherConfront [text]"
+  },
+  {
+   "i": 16,
+   "en": "The Pather takes in your threat for a moment, then replies wearily, \"So you could captain, and I would be but dust returned again to the stars.\"\r\n\r\n$HeOrShe looks up, and says \"This is punishment. For my hubris, and for my pride. And by the Creator, I deserve it.\"\r\n\r\n\"Captain. Let us come to a resolution. If I receive no payment for this thing you want so badly, then I'm as good as dead anyway. I can go no lower than $gaBA_costVeryLow credits.\"",
+   "ctx": "data/campaign/rules.csv gaBAPatherThreaten [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"$BrotherOrSister, you misunderstand the situation entirely!\" you say, letting warmth fill your voice. \"We walk the Path together.\" \r\n\r\nA look of panic crosses the Pather's face, but you quickly reassure $himOrHer that you're not here from the Knights - you're here to help.\r\n\r\n\"But how?\" asks the Pather, near tears.",
+   "ctx": "data/campaign/rules.csv gaBAPatherBluff [text]"
+  },
+  {
+   "i": 18,
+   "en": "It's simple.\r\n\r\nYou are a deep-cover Pather agent infiltrating the den of Moloch, gaining trust, but laying deep plans for long-term sabotage that could \"... bring down the spiritual carcass spreading its rot throughout the Sector!\" you explain in a voice that grows louder, filling with the fervor of a dockside preacher.",
+   "ctx": "data/campaign/rules.csv gaBAPatherBluff1 [text]"
+  },
+  {
+   "i": 19,
+   "en": "You explain that although $heOrShe has sinned egregiously here, it must have been just one more step on the Path. Your part is to take this technological artifact off their hands, subtly spoil its daemonic workings, then return it to the Galatia Academy. The fools will pay you, further funding the Pather movement.\r\n\r\n\"As for you,\" your voice takes a dark turn. You explain that even if the result is good, this trespass, this sin - the selling of technological artifacts - must be atoned for. You expect deep devotion to the cause from here on out, and the way to do that would be, first, to accept $gaBA_costVeryLow credits as payment, and second, to imply to $hisOrHer fellows that you may be a double-agent who truly serves the Path and therefore should not be harassed by raiders.",
+   "ctx": "data/campaign/rules.csv gaBAPatherBluff2 [text]"
+  },
+  {
+   "i": 20,
+   "en": "The Pather nods as you speak, a new-found purpose growing in the ruins of $hisOrHer traitorous revelation moments before. \"I will do as you ask. Blessings of Ludd be upon you!\"\r\n\r\nYou raise your hands and make the sign of the Path to match the gesture of the fanatic before you, then you terminate the comms.\r\n\r\nWithin seconds your logistics officer gets a ping from the logistics bay of a local crafts guild. A crate containing the Galatia Academy's technology package is soon on board your flagship.",
+   "ctx": "data/campaign/rules.csv gaBAPatherBluff3 [text]"
+  },
+  {
+   "i": 21,
+   "en": "The comms signal struggles to establish through the ill-maintained local network. Patchy decryption artifacts glitch spasmodically to resolve into the face of the pirate contact.\r\n\r\n\"I prefer to think of myself less as a pirate and more as a facilitator,\" $heOrShe explains after you perform a perfunctory greeting. \"There will always be an underworld. Imagine the chaos if there were no guide to assist you in navigating these dark storms and eddies.\" \r\n\r\n$HisOrHer slow smile reveals diamond teeth. \"How can I guide you today?\"",
+   "ctx": "data/campaign/rules.csv gaBAPirateGreeting [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"Ah, I've been expecting you.\" $HeOrShe seems to examine you through the display, \"A bit rougher than what I expected from the Galatia Academy, but this new direction is one I can respect.\" $HeOrShe takes a drag from a drug-particalizer.",
+   "ctx": "data/campaign/rules.csv gaBAPirateGreeting1 [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"Yes, I have your package for you. A mere, ah, finders fee of $gaBA_costHigh credits will allow me to release it into your custody.\"",
+   "ctx": "data/campaign/rules.csv GABAPirateMainOptions [text]"
+  },
+  {
+   "i": 24,
+   "en": "You haggle, argue, and stall by quibbling over payment and delivery details. While talking, you give the ready-signal via your datapad to your tactical officer. They have already been briefed for use of marines in an extraction operation. \r\n\r\nRegardless of the crimes of your contact, there are likely to be serious reputation consequences with the local authorities for starting a firefight within this polity.",
+   "ctx": "data/campaign/rules.csv gaBAPiratePreRaid [text]"
+  },
+  {
+   "i": 25,
+   "en": "A thud and a bang carry through the pirate's commline as the image goes fuzzy for a moment. $HeOrShe looks back at you, eyes wide with panic, \"You conniving clone-of-a-\" \r\n\r\nThe comms go dark.\r\n\r\nYou switch the display to the tactical feed from your marines just as they report success.",
+   "ctx": "data/campaign/rules.csv gaBAPirateRaidFinishedPirate [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"I am so very pleased that we could come to an agreeable conclusion,\" the pirate says. \"My people will arrange for a cargo transfer at once,\" $heOrShe turns away, stops mid-gesture, and looks back at the display.  \"And captain? I am so sure we shall do business again, very soon.\"\r\n\r\nThe comms image freezes on the pirate's diamond smile, dissipates halfway into a hacked Tri-Tachyon holding pattern, then blackness.\r\n\r\nYour logistics officer reports a shipping pickup ping from the local traders' concourse. A neatly packaged crate bearing a logo for the Galatia Academy (and only a few embedded jags of stray shrapnel) is soon on board your flagship. ",
+   "ctx": "data/campaign/rules.csv gaBAPirateAccept1 [text]"
+  },
+  {
+   "i": 27,
+   "en": "The pirate $personLastName is taken aback, \"Why captain, perhaps you're new to how things are done around here. We all have an angle- what's yours?\" $HeOrShe puts a finger to $hisOrHer chin in pretended contemplation, \"A no-nonsense, straight-shooter, come to carry out the deal by the letter. You'll see the Sector put right in no time!\"\r\n\r\n$HeOrShe gives a mocking look, and sighs. \"Just this once, perhaps. $gaBA_costNormal credits will do. And it's because I admire your idealism.\" \r\n\r\nYou suspect $heOrShe doesn't. Before you can respond, $heOrShe claps $hisOrHer hands and addresses you full-on once more: \"Accept my revised offer captain, or leave us both disappointed.\"",
+   "ctx": "data/campaign/rules.csv gaBAPirateConfront [text]"
+  }
+ ]
+}

@@ -1,0 +1,181 @@
+{
+ "chunk": 138,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"Cedra Keepfaith,\" he explains. \"A subcurate of the Holy Cathedral of Exodus on Tartessus, in the Eos Exodus system. She has authority over the scriptorium.\"\r\n\r\nHe sees your look, then explains. \"Books. They repair and reproduce books for the library. And,\" his voice drops, \"the vaults. She would have access.\"",
+   "ctx": "data/campaign/rules.csv BFFIpsDestroyed2 [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"She would fit,\" he says, thinking. \"My impression was that her ambitions in the Church have not been satisfied for many years, be that fair or no. She was not humble upon or meeting.\" \r\n\r\n\"These logs appear to reference correspondence with her. She turned down credits, it appears. Would gratification of spite be payment enough?\" \r\n\r\nHe turns to you, done with speculation. \"Certainly she did not act alone, but this connects her to the act. She must be arrested and taken to the Inquisitors for investigation and judgment.\"",
+   "ctx": "data/campaign/rules.csv BFFIpsDestroyed3 [text]"
+  },
+  {
+   "i": 3,
+   "en": "A junior officer pokes their head into the briefing room, \"$PlayerSirOrMadam, my apologies. The chief thought you'd want to see this.\"\r\n\r\nTwo burly salvors, still in their sweaty suit-liners, haul a crate and set it on the deckplates with a solid thump. With an impish grin, one of them looses the catches and together they pull the top-cover away.\r\n\r\nIt's filled with work-gloves. All of like chirality.",
+   "ctx": "data/campaign/rules.csv BFFIpsDestroyed4 [text]"
+  },
+  {
+   "i": 4,
+   "en": "Bornanew lets out a breath.\r\n\r\n\"I ought to have anticipated this.\" He sounds annoyed with himself. \"Costs no more to run a batch of one than of...\" He reaches in, picking up a glove, then pressing into the cargo container to feel for density. \"Five-twelve?\" He turns to you. \"Perhaps five hundred eleven, without our other hard-won specimen?\"\r\n\r\nHe wipes his hands, as if something unpleasant had got on them. \"These will need to be destroyed.\"",
+   "ctx": "data/campaign/rules.csv BFFIpsDestroyed5 [text]"
+  },
+  {
+   "i": 5,
+   "en": "It is done with swift enthusiasm by a crew monitored by your ops chief.\r\n\r\nThe last step is the capture of Bornanew's mole on Tartessus.",
+   "ctx": "data/campaign/rules.csv BFFIpsDestroyed6 [text]"
+  },
+  {
+   "i": 6,
+   "en": "A cloud of icons, sigils, words forms. Names, front companies, ships, codewords, and references to theological agitprop. Your tech officer's hands blur as they manipulate an interface invisible to you; his subtle cybermods blink rapidly. And then stop, steady.\r\n\r\n\"Captain, we may have something.\"\r\n\r\nTheir eyes refocus on the real world again, taking a moment to adapt to mundanity. \"Something for your, ah, consultant. The Knight.\"",
+   "ctx": "data/campaign/rules.csv BFFIpsDestroyedBornMed0 [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"A word. Maybe a code? A name? It comes up several times, relating to Tartessus and the template they fed into the forge.\"\r\n\r\n\"The word is 'Keepfaith'. One word. Maybe it means something special to the Ludd... ics?\"",
+   "ctx": "data/campaign/rules.csv BFFIpsDestroyedBornMed1 [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"Aye, $playerSirOrMadam,\" they reply, and their eyes become unfocused, face slack, cybermods blinking rapidly once more.\r\n\r\nYou turn, bracing yourself for a negotiation with your medical chief to allow a brief conversation with Bornanew.",
+   "ctx": "data/campaign/rules.csv BFFIpsDestroyedBornMed2 [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"Keepfaith,\" Bornanew says, repeating the last word of your question.\r\n\r\nHe leans back in his bed, his eyes darting around some internal catalogue. His notebook appears in his hands - it is impressive to have snuck an outside object past the wary eye of your senior medical officer - and he flips to a page to check something. \r\n\r\n\"Subcurate Cedra Keepfaith. Authority over the scriptorium of the Holy Cathedral of Exodus, on Tartessus, in the Eos Exodus system.\"",
+   "ctx": "data/campaign/rules.csv BFFIpsDestroyedBornMed3 [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"Apologies,\" he says, closing the notebook, then tapping its cover. \"Books. They repair and reproduce books for the library. And,\" his voice drops, \"the vaults. She would have access.\"",
+   "ctx": "data/campaign/rules.csv BFFIpsDestroyedBornMed4 [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"She would fit,\" he says, thinking. \"Her ambitions... were great, and unfulfilled.\"\r\n\r\n\"These logs show correspondence. She turned down a payment of credits from the Path.\" He takes several slow breaths. \"Would spite be payment enough for her?\"\r\n\r\n\"Didn't act alone.\" His eyes close, his breaths coming roughly now. \"But she was their access. Must be arrested. Taken to the Inquisitors.\"\r\n\r\nThe distinct sound of your chief medical officer clearing their throat sounds from the doorway.",
+   "ctx": "data/campaign/rules.csv BFFIpsDestroyedBornMed5 [text]"
+  },
+  {
+   "i": 12,
+   "en": "Set $global.bornanewWasShotBySedge to true.",
+   "ctx": "data/campaign/rules.csv BFFIarrest2dev [text]"
+  },
+  {
+   "i": 13,
+   "en": "Bornanew's credentials - in truth, those of Archcurate Jaspis - fell the meddling traffic control bureaucrats who stand in your way, one after another.\r\n\r\nA Knight-novice, of equal rank but rather lesser age than $global.jethroName, puts on a grimace as he is forced to reassign the shuttle-slot of some curate from the landing pad nearest to the Cathedral of Holy Exodus.    \r\n\r\nNearest is a relative term. On Tartessus, the Church of Galactic Redemption takes the view that spaceborn traffic is a shameful act to be hidden away from the eyes of land-dwellers. As your shuttle lands, Bornanew observes that the cathedral is somewhat over the horizon.",
+   "ctx": "data/campaign/rules.csv BFFIarrestCurate1 [text]"
+  },
+  {
+   "i": 14,
+   "en": "* * *\r\n\r\nYou step off the rickety bus, a boxy thing of agriplastic and mold-pressed wood scrap hiding a battery and motor, with a crowd of day-laborers and pilgrims.\r\n\r\nThis is not one of the major shrines of the Pilgrim's Path, of course, but the Cathedral of Holy Exodus is held in high esteem in the local system and beyond.",
+   "ctx": "data/campaign/rules.csv BFFIidolTalkIntro1 [text]"
+  },
+  {
+   "i": 15,
+   "en": "* * *\r\n\r\nYou step off the rickety bus, a boxy thing of agriplastic and mold-pressed wood scrap hiding a battery and motor, with a crowd of sweating day-laborers and pilgrims. Bornanew, still shaky on his feet as he recovers from his injuries, takes your arm as he steps down to the road.\r\n\r\nThis is not one of the major shrines of the Pilgrim's Path, of course, but the Cathedral of Holy Exodus is held in high esteem in the local system and beyond.",
+   "ctx": "data/campaign/rules.csv BFFIidolTalkIntro1Shot [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"And it is the seat of not more than a few 'divergent' notions of doctrine,\" Bornanew tells you in a low voice.\r\n\r\n\"At least according to the 'Ineffablist' school backed by the Reverend Archcurate Jaspis, among others. Here, though a minority of the Church ecumene, there is a local majority of so-called 'Mundanians'. Do not misunderstand me; they are not schismatics.\" He lets a moment of silence pass.\r\n\r\n\"Nonetheless.\"",
+   "ctx": "data/campaign/rules.csv BFFIidolTalkIntro2 [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"And it is the seat of not more than a few heretical notions of doctrine, I'm afraid,\" Bornanew tells you in a low voice.\r\n\r\n\"At least according to the 'Ineffablist' school backed by the Reverend Archcurate Jaspis, among others. Here, though a minority of the Church ecumene, there is a local majority of so-called 'Mundanians'. Do not misunderstand me, they are not schismatics. Yet.\" He lets a moment of silence pass.\r\n\r\n\"Nonetheless.\"",
+   "ctx": "data/campaign/rules.csv BFFIidolTalkHubIntroBB [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"The Mundanians,\" he continues, \"hold that Ludd's individual humanity provides a... spiritual focus. A manner of relation, a holy sympathy. Physical objects said to be associated with Ludd may play a role, hence the practice of veneration through - not of - relics. At least that is how they would describe it.\"\r\n\r\n\"The ban on venerating the worldly individual of Ludd is clear, but what of proximal objects? The Word is not so definitive.\"",
+   "ctx": "data/campaign/rules.csv BFFIidolTalkMundanianMore [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"Mundanians,\" he continues, \"hold that Ludd's individual humanity provides a... spiritual focus. A manner of relation, a holy sympathy. Physical objects said to be associated with Ludd may play a role, hence the practice of veneration through - not of - relics. At least that is how they would describe such heresy. It is the apologia of Idolators.\"\r\n\r\n\"The ban on venerating the worldly individual of Ludd is clear, but the Word is less direct on the matter of proximal objects.\"",
+   "ctx": "data/campaign/rules.csv BFFIidolTalkMundanianMoreBB [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"We consider the conscious unknowing of Ludd's secular individuality a sign of devotion and a functional virtue.\"\r\n\r\nHe gives you a look. \"Meaning we view the veneration of relics as idolatry. Some amongst us call the Mundanians 'Idolators' for their views. There are other... conflicts of practice, as well.\"",
+   "ctx": "data/campaign/rules.csv BFFIidolTalkIneffablistMore [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"We consider the conscious unknowing of Ludd's secular individuality a sign of devotion and a functional virtue. This is as the Word tells it.\"\r\n\r\nHe gives you a look. \"Meaning we view the veneration of relics as idolatry. Some amongst us call the Mundanians 'Idolators' for their views, and not without justification.\"",
+   "ctx": "data/campaign/rules.csv BFFIidolTalkIneffablistMoreBB [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"Ah.\" Bornanew looks a little embarrassed.\r\n\r\n\"They call us 'Ignorants'. For we choose to wallow in our own ignorance. From a certain point of view.\"",
+   "ctx": "data/campaign/rules.csv BFFIidolTalkIdolators [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"And, ah,\" Bornanew's brow furrows. \"Mind your use of such nomenclature. It would be inconvenient to cause offense at some inopportune moment.\"\r\n\r\n\"Besides, name-calling is unseemly for a Knight who ought hold himself to higher standards. I am sworn to face conflict directly by the truth of the path illuminated by faith.\"",
+   "ctx": "data/campaign/rules.csv BFFIidolTalkNameCallingOut [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"Best not to cast such words about thoughtlessly.\"",
+   "ctx": "data/campaign/rules.csv BFFIidolTalkNameCallingOut2 [text]"
+  },
+  {
+   "i": 25,
+   "en": "Bornanew halts for a moment, his breathing heavy.\r\n\r\n\"I beg you spare a moment, captain,\" he says self-consciously. \"It... has taken much of me.\"",
+   "ctx": "data/campaign/rules.csv BFFIidolTalkInjuredMomentA [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"You were saying... boring, yes. I suppose it is,\" he says diplomatically.\r\n\r\n\"I shan't belabor the point. I tell you this now because there may be opposition to my investigation, and to my arrest of Cedra Keepfaith.\"",
+   "ctx": "data/campaign/rules.csv BFFIidolTalkBoringInj [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"I suppose it is,\" he says diplomatically.\r\n\r\n\"I shan't belabor the point. I tell you this now because there may be opposition to my investigation, and to my arrest of Cedra Keepfaith.\"",
+   "ctx": "data/campaign/rules.csv BFFIidolTalkBoring [text]"
+  },
+  {
+   "i": 28,
+   "en": "He takes one more deep breath, then replies calmly, eyes on the path ahead.\r\n\r\n\"There was... passive opposition to my investigation. I intend to arrest Subcurate Cedra Keepfaith. Opposition may become... less passive.\"",
+   "ctx": "data/campaign/rules.csv BFFIidolTalkTroubleInj [text]"
+  },
+  {
+   "i": 29,
+   "en": "He replies calmly, eyes on the path ahead.\r\n\r\n\"There was... passive opposition to my investigation. I intend to arrest Subcurate Cedra Keepfaith. Opposition may become... less passive.\"",
+   "ctx": "data/campaign/rules.csv BFFIidolTalkTrouble [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"I suppose I am,\" he says, turning to smile and give a bow, hands together, to a group of elderly pilgrims resting under a tree.\r\n\r\n\"This must be done as Ludd would, with open hands and heart.\"",
+   "ctx": "data/campaign/rules.csv BFFIarrestOppoA [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"I am,\" he says, turning give a bow, hands together, to a group of elderly pilgrims resting under a tree. \"This must be done as Ludd would, with open hands.\"\r\n\r\n\"Besides,\" he adds with a wry smile, \"you've seen fit to remain armed.\"",
+   "ctx": "data/campaign/rules.csv BFFIarrestOppoAbb [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"I am prepared,\" he says, turning to smile and give a bow, hands together, to a group of elderly pilgrims resting under a tree.\r\n\r\n\"This must be done as Ludd would, with open hands and heart.\"",
+   "ctx": "data/campaign/rules.csv BFFIarrestOppoB [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"I am prepared,\" he says, turning to give a bow, hands together, to a group of elderly pilgrims resting under a tree. \"This must be done as Ludd would, with open hands.\"\r\n\r\n\"Besides,\" he adds with a wry smile, \"you've seen fit to remain armed.\"",
+   "ctx": "data/campaign/rules.csv BFFIarrestOppoBbb [text]"
+  },
+  {
+   "i": 34,
+   "en": "\"That will not be necessary,\" he says, turning to smile and give a bow, hands together, to a group of elderly pilgrims resting under a tree.\r\n\r\n\"In fact, that is the worst thing we could do. This must be done as Ludd would, with open hands and heart.\"",
+   "ctx": "data/campaign/rules.csv BFFIarrestOppoC [text]"
+  },
+  {
+   "i": 35,
+   "en": "\"That will not be necessary,\" he says, turning to give a bow, hands together, to a group of elderly pilgrims resting under a tree.\r\n\r\n\"My fellow Knights guard the Cathedral. I do trust that, whatever minor heresy they might be steeped in, they would not injure their brother without very good reason. This must be done as Ludd would, with open hands.\"\r\n\r\n\"Besides,\" he adds with a wry smile, \"you've seen fit to remain armed.\"",
+   "ctx": "data/campaign/rules.csv BFFIarrestOppoCbb [text]"
+  }
+ ]
+}

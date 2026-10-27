@@ -1,0 +1,316 @@
+{
+ "chunk": 225,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"My advice is, if you get involved? Watch your back. Mind yourself. Don't trust her.\"\r\n\r\nHe looks away, thinking. His hands held together in front of his mouth, not quite the form of Luddic prayer.\r\n\r\n\"Seen a few fleet operators fall right off the map. She's looking for something. Big risk. I'd bet if I knew what it was I'd say it wasn't worth it.\"",
+   "ctx": "data/campaign/rules.csv ArroyoAskAboutZGR4 [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"My advice is don't get involved. And you're not going to listen, are you.\"\r\n\r\nHe looks away, thinking. His hands held together in front of his mouth, not quite the form of Luddic prayer.\r\n\r\n\"Seen a few fleet operators fall right off the map. She's looking for something. Big risk. I'd bet if I knew what it was I'd say it wasn't worth it.\"",
+   "ctx": "data/campaign/rules.csv ArroyoAskAboutZGR4b [text]"
+  },
+  {
+   "i": 3,
+   "en": "His eyes meet yours through the link.\r\n\r\n\"We won't. I'm going to be rich, get richer, and enjoy my splendid home. You can go do something very stupid if you have to. Just hope it doesn't get us all killed.\"",
+   "ctx": "data/campaign/rules.csv ArroyoAskAboutZGR5a [text]"
+  },
+  {
+   "i": 4,
+   "en": "His eyes meet yours through the link.\r\n\r\n\"I'm going to be rich, get richer, and enjoy my splendid home. You should do the same.\"\r\n\r\nHe looks away again, presumably at achingly beautiful mountain vistas. \"But you won't.\"",
+   "ctx": "data/campaign/rules.csv ArroyoAskAboutZGR5b [text]"
+  },
+  {
+   "i": 5,
+   "en": "His eyes meet yours through the link.\r\n\r\n\"That sounds like the third worst idea I've ever heard.\"",
+   "ctx": "data/campaign/rules.csv ArroyoAskAboutZGR5c [text]"
+  },
+  {
+   "i": 6,
+   "en": "He falls back in his chair with an unhappy sound.\r\n\r\n\"Not now.\"",
+   "ctx": "data/campaign/rules.csv ArroyoAskAboutZGR6b [text]"
+  },
+  {
+   "i": 7,
+   "en": "He leans back in his chair.\r\n\r\n\"Sure.\"",
+   "ctx": "data/campaign/rules.csv ArroyoAskAboutZGR6c [text]"
+  },
+  {
+   "i": 8,
+   "en": "Your comms are routed through a secretary, either a holosim or product of uncanny cosmetic and behavior tuning, then, after a brief wait, the link blinks to Director Glamor-Rotanev.\r\n\r\n\"Captain $playerLastName,\" she says with diminishing breeziness.",
+   "ctx": "data/campaign/rules.csv ZGRgreetingDefault [text]"
+  },
+  {
+   "i": 9,
+   "en": "The Director's face creates a smile. \"He wasn't supposed to tell anyone. But this is Cornelius Elek, so I cannot be surprised.\"\r\n\r\nHer face, and tone, go blank again.\r\n\r\n\"You have something more to say about Elek. Proceed.\"",
+   "ctx": "data/campaign/rules.csv ZGRpostGADHOconfrontStart [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"Oh?\" The Director's face is immobile.",
+   "ctx": "data/campaign/rules.csv ZGRpostGADHOimplyStart [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"What made you think that, I wonder,\" she says.",
+   "ctx": "data/campaign/rules.csv ZGRpostGADHOimply2 [text]"
+  },
+  {
+   "i": 12,
+   "en": "Glamor-Rotanev creates a smile for you.\r\n\r\n\"Yes, I was admiring your new acquisition.\" Her eyes flicker oddly, and you detect what might be a rare spark of genuine amusement. \r\n\r\n\"Or perhaps I should call it your very, very old acquisition.\"",
+   "ctx": "data/campaign/rules.csv ZGRpostGADHOimply3a [text]"
+  },
+  {
+   "i": 13,
+   "en": "Glamor-Rotanev creates a smile for you.\r\n\r\n\"And you found it.\" She sounds unsurprised by the news. \"Elek was distraught, I am to understand.\"\r\n\r\nHer eyes flicker oddly, and you detect what might be a rare spark of genuine amusement.",
+   "ctx": "data/campaign/rules.csv ZGRpostGADHOimply3b [text]"
+  },
+  {
+   "i": 14,
+   "en": "Glamor-Rotanev creates a smile for you.\r\n\r\n\"And you found what he didn't know he was looking for.\" She sounds unsurprised. \"Elek was distraught, I am to understand.\"\r\n\r\nHer eyes flicker oddly, and you detect what might be a rare spark of genuine amusement.",
+   "ctx": "data/campaign/rules.csv ZGRpostGADHOimply3c [text]"
+  },
+  {
+   "i": 15,
+   "en": "Glamor-Rotanev creates a smile for you.\r\n\r\n\"I am a patron of the sciences. Didn't you hear?\"",
+   "ctx": "data/campaign/rules.csv ZGRtalkPostGADHOreturn1 [text]"
+  },
+  {
+   "i": 16,
+   "en": "She nods slowly, once.\r\n\r\n\"It will take some time, and credits, for him to become a useful asset again. It is much as any investment.\"",
+   "ctx": "data/campaign/rules.csv ZGRpostGADHOelekPrefer [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"I cannot answer, as that investment has not fully matured,\" she says. \"Which brings me to business.\"",
+   "ctx": "data/campaign/rules.csv ZGRpostGADHOelekPrefer2a [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"Your impulse to moralize is irrelevant to my interests,\" she says. \"Let us return to business.\"",
+   "ctx": "data/campaign/rules.csv ZGRpostGADHOelekPrefer2b [text]"
+  },
+  {
+   "i": 19,
+   "en": "Her eyes fix upon you through the link. \"And that business is the Onslaught Mk.I, which you found.\"",
+   "ctx": "data/campaign/rules.csv ZGRpostGADHOelekPrefer3 [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"Old records,\" she says curtly.\r\n\r\n\"The Galatia Academy doesn't know what it has, much less how to make good use of it. Their lack of self-motivation is self-evident.\"",
+   "ctx": "data/campaign/rules.csv ZGRpostGADHOelekHowKnow [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"Then this topic serves no more purpose,\" she says frostily.\r\n\r\n\"Anything else?\"",
+   "ctx": "data/campaign/rules.csv ZGRpostGADHrouteFromBuy [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"I am satisfied, $playerName.\"\r\n\r\nIt's not that her tone is warm, more that it lacks a certain otherwise ubiquitous contempt perceivable only now by its absence. \r\n\r\nPresumably temporary, of course.",
+   "ctx": "data/campaign/rules.csv ZGRpostGADHrouteFromBuy2 [text]"
+  },
+  {
+   "i": 23,
+   "en": "She makes no response.",
+   "ctx": "data/campaign/rules.csv ZGRpostGADHout [text]"
+  },
+  {
+   "i": 24,
+   "en": "Her eyes flicker oddly.\r\n\r\n\"You've revised your position?\"",
+   "ctx": "data/campaign/rules.csv ZGRomkiScanOfferRedux [text]"
+  },
+  {
+   "i": 25,
+   "en": "She leans back ever so slightly, but makes no outward response.\r\n\r\nHer expression hasn't changed, but it feels somehow more impatient.",
+   "ctx": "data/campaign/rules.csv ZGRomkiScanOfferReduxLater [text]"
+  },
+  {
+   "i": 26,
+   "en": "Her eyes flicker subtly, her expression more glazed and vacant than before.\r\n\r\n\"Very... good, captain,\" she says.",
+   "ctx": "data/campaign/rules.csv ZGRomkiScanOfferReduxScan1 [text]"
+  },
+  {
+   "i": 27,
+   "en": "Your comms are routed through a secretary, either a holosim or product of uncanny cosmetic and behavior tuning, then, after a brief wait, the link blinks to Director Glamor-Rotanev.\r\n\r\n\"Captain $playerLastName,\" she says, then pauses. \"You found something, didn't you.\"",
+   "ctx": "data/campaign/rules.csv ZGRgreetingPostWeird [text]"
+  },
+  {
+   "i": 28,
+   "en": "The comms flick into an active feed nearly instantly.\r\n\r\n\"Captain,\" Director Glamor-Rotanev greets you, simply. \"I was just admiring your new acquisition.\"\r\n\r\nHer eyes flicker oddly, and you detect what might be a rare spark of genuine amusement. \r\n\r\n\"Or perhaps it is better described as your very, very old acquisition.\"",
+   "ctx": "data/campaign/rules.csv ZGRgreetingPostWeirdOMKI [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"Excellent.\"\r\n\r\nTo your shock, her smile is nearly human. The mask is replaced almost instantly, though a slackening echo of the expression remains on her lips.\r\n\r\n\"I, and my researchers, are most eager to examine your findings. And you to be paid, no doubt.\"",
+   "ctx": "data/campaign/rules.csv ZGRpostWeirdProceed [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"It pleases me to hear that.\" She doesn't smile.\r\n\r\n\"I, and my researchers, are most eager to examine your findings. And you to be paid, no doubt.",
+   "ctx": "data/campaign/rules.csv ZGRpostWeirdProceedB [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"Something.\" She raises an eyebrow.\r\n\r\n\"It was not human or AI-derived.\" This doesn't sound like a question.",
+   "ctx": "data/campaign/rules.csv ZGRpostWeirdOptHostile [text]"
+  },
+  {
+   "i": 32,
+   "en": "Her eyes, previously distant, stare at you through the link for a several seconds before she replies.\r\n\r\n\"I am eager to reward you for your work.\" Her tone is not inviting. \"CEO Sun is in full agreement. There are extraordinary discoveries and profits to be made. I am uninterested in an obstinate parody of negotiation.\"",
+   "ctx": "data/campaign/rules.csv ZGRpostWeirdNothingLie [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"Don't act this obstinate pretense of negotiation. You $shipOrFleet has been scanned. And we knew what you found well before you arrived anyway.\" She pauses quite consciously.\r\n\r\n\"I am... most eager to reward your work.\"\r\n\r\nDespite her words, the tone is icy. \"CEO Sun is in full agreement. We may share in extraordinary discoveries and profits.\"",
+   "ctx": "data/campaign/rules.csv ZGRpostWeirdNothingLieOMKI [text]"
+  },
+  {
+   "i": 34,
+   "en": "Her expression remains frozen with disdainful impatience.",
+   "ctx": "data/campaign/rules.csv ZGRpostWeirdNothingProceed [text]"
+  },
+  {
+   "i": 35,
+   "en": "\"Tell me what you found.\"",
+   "ctx": "data/campaign/rules.csv ZGRpostWeirdNothingHostile [text]"
+  },
+  {
+   "i": 36,
+   "en": "\"It was not the 'Threat',\" she says. It doesn't sound like a question.",
+   "ctx": "data/campaign/rules.csv ZGRpostWeirdNothingDweller [text]"
+  },
+  {
+   "i": 37,
+   "en": "She blinks once.\r\n\r\n\"Tell me what you found.\"",
+   "ctx": "data/campaign/rules.csv ZGRpostWeirdNothingHostile2Know [text]"
+  },
+  {
+   "i": 38,
+   "en": "\"Fine,\" she says briskly.",
+   "ctx": "data/campaign/rules.csv ZGRtechPlayerOMKIreturn [text]"
+  },
+  {
+   "i": 39,
+   "en": "\"I am particularly interested in the hull you recovered from the Abyss. The Onslaught Mk.I is unmistakable.\"",
+   "ctx": "data/campaign/rules.csv ZGRtechPlayerOMKIbother [text]"
+  },
+  {
+   "i": 40,
+   "en": "\"My strategic predictors tagged you with reasonable odds of success,\" she says. \"I must congratulate their operators.\"",
+   "ctx": "data/campaign/rules.csv ZGRtechReturnOptFirst [text]"
+  },
+  {
+   "i": 41,
+   "en": "\"Oh?\" Her eyes give a disconcerting twitch. \"I should like to examine your discoveries.\" ",
+   "ctx": "data/campaign/rules.csv ZGRtechReturnOptAgain [text]"
+  },
+  {
+   "i": 42,
+   "en": "For a moment her brow develops a wrinkle. \"More?\" she says, and it disappears.",
+   "ctx": "data/campaign/rules.csv ZGRtechReturnOptAgainB [text]"
+  },
+  {
+   "i": 43,
+   "en": "\"I am particularly interested in the hull you recovered from the Abyss. The Onslaught Mk.I is... unmistakable.\"",
+   "ctx": "data/campaign/rules.csv ZGRtechPlayerHasOptionOMKI [text]"
+  },
+  {
+   "i": 44,
+   "en": "Glamor-Rotanev gives you a frosty look.",
+   "ctx": "data/campaign/rules.csv ZGRtechTurnInOptionSelected [text]"
+  },
+  {
+   "i": 45,
+   "en": "\"You've been most useful,\" she says ominously.",
+   "ctx": "data/campaign/rules.csv ZGRtechTurnInResponseFirst [text]"
+  },
+  {
+   "i": 46,
+   "en": "\"A marvelous find, captain,\" the Director says softly.\r\n\r\n\"This is precisely what I have been searching for. You've been... quite essential.\"\r\n\r\nHer eyes are very still, like a corpse.",
+   "ctx": "data/campaign/rules.csv ZGRtechTurnInResponseThreat [text]"
+  },
+  {
+   "i": 47,
+   "en": "\"These are exceedingly useful. We shall...\" She pauses.\r\n\r\nThen creates the approximation of a smile.\r\n\r\n\"Great things shall be made, captain. You will see.\"\r\nOR\r\n\"Excellent,\" she says placidly, eyes seemingly focused elsewhere. \"This will do much to advance my initiative.\"\r\nOR\r\nHer eyes are inhumanly still.\r\n\r\n\"We shall want more. You must bring more.\"\r\nOR\r\n\"I eagerly anticipate investigation of these artifacts.\" Her eyes twitch disconcertingly.",
+   "ctx": "data/campaign/rules.csv ZGGtechTurnInResponseThreatAgain [text]"
+  },
+  {
+   "i": 48,
+   "en": "\"These are quite... unique.\"\r\n\r\nA rare smile flits on the Director's lips.\r\n\r\n\"You must find more for me, captain.\"",
+   "ctx": "data/campaign/rules.csv ZGRtechTurnInResponseMonster [text]"
+  },
+  {
+   "i": 49,
+   "en": "\"More fascinating specimens.\" Her voice is dark.\r\n\r\n\"Our results have already proven to be most stimulating.\"\r\nOR\r\n\"Breathtaking,\" the Director of Special Acquisitions says softly.\r\n\r\nHer eyes twitch inhumanly.",
+   "ctx": "data/campaign/rules.csv ZGRtechTurnInResponseMonsterAgain [text]"
+  },
+  {
+   "i": 50,
+   "en": "She says nothing, but her eyebrow raises fractionally. It is not an invitation to continue.\r\n\r\nNonetheless.",
+   "ctx": "data/campaign/rules.csv ZGRaskQuestionsHub [text]"
+  },
+  {
+   "i": 51,
+   "en": "\"Good,\" she says.",
+   "ctx": "data/campaign/rules.csv ZGRthreatTechAskDone2 [text]"
+  },
+  {
+   "i": 52,
+   "en": "\"You've asked quite enough for today,\" she says. \"Captain.\"",
+   "ctx": "data/campaign/rules.csv ZGRthreatTechAskNone [text]"
+  },
+  {
+   "i": 53,
+   "en": "\"Research and development,\" she says. Her expression isn't quite a smirk.\r\n\r\n\"These components are obviously derived from a neglected branch of Domain-era technology. This makes them fundamentally human technology. The path to profitable exploitation is fundamentally open, albeit complex. The Tri-Tachyon corporation is ideally placed to exploit them.\"",
+   "ctx": "data/campaign/rules.csv ZGRthreatTechAskThreatDo1 [text]"
+  },
+  {
+   "i": 54,
+   "en": "\"In the simplest terms,\" her voice contains more than a hint of condescension, \"they are autonomous self-fabricating, self-modifying constructs derived from ancient Domain designs. Their intent, so far as they could be said to have intent, is destructive toward our technological base.\"\r\n\r\n\"'Why' is a more difficult question.\"\r\n\r\nHer dead eyes move oddly. \"I find it amusing that the Luddics would recoil in horror, but they could not find a better ally to their cause.\"",
+   "ctx": "data/campaign/rules.csv ZGRthreatTechAskThreatAre1 [text]"
+  },
+  {
+   "i": 55,
+   "en": "\"These are not artificial intelligences,\" she says decisively.\r\n\r\n\"Not that such distinction is necessary to Hegemony regulators. Whatever future war the Hegemony initiates, whatever new oppressions they conceive, it will be a consequence of leadership as paranoid as their masses are ignorant.\"\r\n\r\n\"Besides,\" she says, self-satisfied, \"if I am right about everything, there will be no need for a war.\"",
+   "ctx": "data/campaign/rules.csv ZGRthreatTechAskThreatAI1 [text]"
+  },
+  {
+   "i": 56,
+   "en": "\"Is a machine alive? Is a virus?\" She pauses for a fraction of a second before providing her own answer.\r\n\r\n\"I don't care.\"",
+   "ctx": "data/campaign/rules.csv ZGRthreatTechAskThreatAlive1 [text]"
+  },
+  {
+   "i": 57,
+   "en": "\"Functionally the 'Threat' phenomenon demonstrates no attempt to present a sense of selfhood, collective or otherwise. What passes for communication is hostile and garbled; the loose ends of automatic warnings and obsolete Domain decrees. If it is conscious in any form, it is impossibly solipsistic.\"\r\n\r\n\"Which is just as well,\" the Director produces a robotic half-smile. \"It will be a better tool that way.\"",
+   "ctx": "data/campaign/rules.csv ZGRthreatTechAskThreatAlive2 [text]"
+  },
+  {
+   "i": 58,
+   "en": "\"Research and development.\" \r\n\r\nThe Director releases a deliberate breath.\r\n\r\n\"We know it isn't human. We know it is powerful. The return on investment, therefore, is beyond human imagination.\"\r\n\r\nShe looks satisfied with the thought.",
+   "ctx": "data/campaign/rules.csv ZGRmonsterTechAskMonsterDo1 [text]"
+  },
+  {
+   "i": 59,
+   "en": "\"That is speculation for the research division. Or perhaps you would care to ask a philosopher? Or a curate?\" This last idea appears to amuse her, insofar as she is capable of expressing that, or any, emotion.\r\n\r\n\"My interest is in what these specimens, these phenomena, can DO. For me. Or the Company.\"\r\n\r\nShe pulls her glassy eyes back to the comm-link. \r\n\r\n\"For humanity. At least that small percentage of it willing to accept the radical and necessary future.\"",
+   "ctx": "data/campaign/rules.csv ZGRmonsterTechAskMonsterAre1 [text]"
+  },
+  {
+   "i": 60,
+   "en": "The link settles on feed of volatiles futures scrolling across the crest of the Tri-Tachyon corporation for just a moment before the comm-link connects you with a perfectly coiffed junior secretary.\r\n\r\n\"The Tri-Tachyon Corporation welcomes you to Eochu Bres. Their smile is uncannily bright. May we presume you wish to accept Director Glamor-Rotanev's invitation?\"",
+   "ctx": "data/campaign/rules.csv ZGRpreFirstVisitGreeting [text]"
+  },
+  {
+   "i": 61,
+   "en": "\"Fantastic. A priority flight path has been pre-approved for your convenience. The Tri-Tachyon Corporation is pleased to wish you a most profitable meeting with the Director of Special Acquisitions.\"\r\n\r\nThe uncanny smile re-appears, perfectly, once more. It's a little unsettling.",
+   "ctx": "data/campaign/rules.csv ZGRpreVisitResp1 [text]"
+  },
+  {
+   "i": 62,
+   "en": "\"Fantastic.\" The face maintains an uncanny smile. \"The Director is most eager to meet you.\"\r\n\r\nAn apologetic - but not guilty - expression forms. \"Unfortunately, the automated defenses of the Tri-Tachyon Corporation have flagged your ID as a hostile and your shuttle would be gunned down upon approach. Please contact customer service to resolve this misunderstanding.\"\r\n\r\n\"We hope you have a pleasant and profitable day.\"\r\n\r\nThe smile re-appears.",
+   "ctx": "data/campaign/rules.csv ZGRpreVisitResp1Hostile [text]"
+  }
+ ]
+}

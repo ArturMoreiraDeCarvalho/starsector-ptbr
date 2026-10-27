@@ -1,0 +1,186 @@
+{
+ "chunk": 133,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "Chalcedon rotates in the primary display before you.\r\n\r\nBornanew is at your side, tapping at his off-brand datapad, looking for all the worlds like a toy in his large hands.\r\n\r\n\"My sources indicate that a man matching the description of Ulmus Pond is almost certainly in a safehouse... here.\"\r\n\r\nA highlighted point appears on the globe, some logistical center in the scablands trailing like a stain from the primary spaceport.",
+   "ctx": "data/campaign/rules.csv BFFIulmusPrestart1 [text]"
+  },
+  {
+   "i": 2,
+   "en": "Bornanew watches the point as the globe obligingly comes to a gentle stop. The highlighted section detaches from the globe, which collapses away, and spreads into a tactical overview.\r\n\r\n\"He acts like a man drowning, grasping for help without concern for his rescuers.\" He turns from the globe toward you, \"In OPSEC terms, of course. He could have easily disappeared.\"\r\n\r\nA bitter smile appears, \"As once I did.\"",
+   "ctx": "data/campaign/rules.csv BFFIulmusPrestart2 [text]"
+  },
+  {
+   "i": 3,
+   "en": "Bornanew has his notebook and cheap old datapad packed in a satchel made of what looks like leather. You've heard of the primitive process the Luddics are said to use to produce the material; the skin of an animal is stripped then stewed, somehow, with its own waste products. It sounded unbearably primitive when described. Anti-Luddic misinformation, perhaps, because you don't detect the smell of feces at all.\r\n\r\n\"How shall we approach this?\" Bornanew asks. \"Like in MuniSec dramas- one of us is friendly to the subject, the other hostile?\"",
+   "ctx": "data/campaign/rules.csv BFFIulmusPrestart3 [text]"
+  },
+  {
+   "i": 4,
+   "en": "Bornanew nods. Perhaps you're imagining it, but is that relief in the set of his eyes?",
+   "ctx": "data/campaign/rules.csv BFFIulmusPrestartBornGood [text]"
+  },
+  {
+   "i": 5,
+   "en": "Bornanew nods. Perhaps you're imagining it, but you feel like a coldness comes into the set of his eyes.",
+   "ctx": "data/campaign/rules.csv BFFIulmusPrestartBornBad [text]"
+  },
+  {
+   "i": 6,
+   "en": "Your personal security team has been briefed, and are dressed as a mix of common spacers, local techs, and Luddic laborers. Their arsenal is multitude and well-concealed.",
+   "ctx": "data/campaign/rules.csv BFFIulmusPrestartLoadout1 [text]"
+  },
+  {
+   "i": 7,
+   "en": "Your own hand finds your trusty sidearm, a matte polycarbonate pistol. An ideal firearm for use in tight spaces, its mass rests securely in your holster.",
+   "ctx": "data/campaign/rules.csv BFFIulmusPrestartLoadout2a [text]"
+  },
+  {
+   "i": 8,
+   "en": "You, of course, have your clutch of devilish little grenades built to resist milliradar detection. Fearful and unexpected, they trigger with a practiced twitch from your hand.",
+   "ctx": "data/campaign/rules.csv BFFIulmusPrestartLoadout2b [text]"
+  },
+  {
+   "i": 9,
+   "en": "And you have hidden a vicious ceramic vibroknife on your person. It is not a tool to be underestimated, for when deployed by surprise it can even disable light power-armored opponents.",
+   "ctx": "data/campaign/rules.csv BFFIulmusPrestartLoadout2c [text]"
+  },
+  {
+   "i": 10,
+   "en": "You are protected by a subtler weapon, a tiny capsule of spray-poison within your cuff. Hold your breath as it is deployed with a casual wave, and the target next to you will simply die as if of a massive, unexpected heart-attack.",
+   "ctx": "data/campaign/rules.csv BFFIulmusPrestartLoadout2d [text]"
+  },
+  {
+   "i": 11,
+   "en": "You, of course, have a monomolecular wire hidden in a false fingertip, ready to deploy into an invisible cutting edge with but a short, sharp twist. It is a venerable weapon favored by assassins of a certain class.",
+   "ctx": "data/campaign/rules.csv BFFIulmusPrestartLoadout2e [text]"
+  },
+  {
+   "i": 12,
+   "en": "You, of course, need trust nothing more than your limbs. Starship combat is mass and energy applied at scale; absurdly reduced to the scale of the human body, the mechanics applied are not completely dissimilar.",
+   "ctx": "data/campaign/rules.csv BFFIulmusPrestartLoadout2f [text]"
+  },
+  {
+   "i": 13,
+   "en": "Your hand finds the hilt of your officers' sword at your side, the mass of a steel blade a comfort shared with warriors dating to the primitive conflicts of Old Earth.",
+   "ctx": "data/campaign/rules.csv BFFIulmusPrestartLoadout2g [text]"
+  },
+  {
+   "i": 14,
+   "en": "You stand with Bornanew in an uncomfortably narrow alley. The sky above sends nasty rivulets of fluid down the conduits and moldy canopies that diffuse the light into a flattening murk.\r\n\r\nYour security team is invisible, discreet in nearby alcoves and rooftops.\r\n\r\n$global.jethroName runs his hands over a door, as if feeling under it's moisture-warped surface for a clue.",
+   "ctx": "data/campaign/rules.csv BFFIulmusStart [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"Ready, captain?\" he asks. \"Remember, you're the good guy.\"",
+   "ctx": "data/campaign/rules.csv BFFIulmusStart2a [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"Ready, captain?\" he asks. \"Remember, you're the bad guy.\"",
+   "ctx": "data/campaign/rules.csv BFFIulmusStart2b [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"I am,\" he says.",
+   "ctx": "data/campaign/rules.csv BFFIulmusStart3a [text]"
+  },
+  {
+   "i": 18,
+   "en": "Bornanew takes a step back then slams a powerful leg into a worn spot, about waist-high. With a sharp crack, the entire door falls inward, crumbling hinges and locking mechanism still attached.",
+   "ctx": "data/campaign/rules.csv BFFIulmusStart3 [text]"
+  },
+  {
+   "i": 19,
+   "en": "Bornanew charges inside. You follow his steps through an entryway, plastic rain cloaks mildewing, through a prefab kitchen and wash unit stained the yellow of old teeth. A sitting area, chair toppled. There's a muffled thump from above.\r\n\r\nBornanew glances at you, his eyes giving a bounce upwards. Ulmus Pond.",
+   "ctx": "data/campaign/rules.csv BFFIulmusStart4 [text]"
+  },
+  {
+   "i": 20,
+   "en": "A moment of frantic search reveals the narrow stairwell behind a loose wall-panel.\r\n\r\nBornanew pounds up the stairs, and you follow.\r\n\r\nIn his half-second lead, Bornanew has caught Ulmus Pond in a bearhug, Pond's skinny arms still grabbing at the loosened attachment-points of a sheet of translucent plastic which lies between him and the lightwell; escape. Pond loses his grip with a cry of despair as Bornanew pulls him away.\r\n\r\nThe window panel snaps back into place.",
+   "ctx": "data/campaign/rules.csv BFFIulmusStart5 [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"Ulmus Pond,\" Bornanew roars with overbearing gusto, \"This is no season to be opening a window!\"\r\n\r\n\"Sit, I insist, before you hurt yourself! We are doubly blessed to find you so well. You must understand our fear- no answer to comms, rumors of kidnappings... Menes has been worried sick about his very good friend.\"\r\n\r\nThe bear-hug has turned into something like a side-grab as Bornanew sets Pond bodily onto the cot beside him. You're not sure if the creaking is from the cheap furniture or Pond' ribs.",
+   "ctx": "data/campaign/rules.csv BFFIulmusTalkPcBad [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"A- answers?\" Pond's eyes go wider still as he gasps for breath. \"I, um, appreciate your concern but I'm fine, here. Nothing is the matter, truly!\"\r\n\r\n\"Look at him, captain,\" Bornanew says. \"He's an innocent. He'd tell us straightaway if some ill-intentioned party were taking advantage of his good nature.\"",
+   "ctx": "data/campaign/rules.csv BFFIulmusTalkPcBad1a [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"Ulmus?\" Bornanew looks at you, shocked at the idea. \r\n\r\n\"...'active' scan?\" Ulmus manages to squeak.\r\n\r\n\"The captain would never,\" insists Bornanew. \"You're a merchant, a middleman. You just wanted to help your friend Menes find a unique object for his collection. Isn't that right?\" He gives Ulmus another squeeze.\r\n\r\n\"Y-yes, that's right,\" Ulmus says, looking between you and Bornanew. \"I, uh, I set up connections. Deals. I help people!\"",
+   "ctx": "data/campaign/rules.csv BFFIulmusTalkPcBad2a [text]"
+  },
+  {
+   "i": 24,
+   "en": "Bornanew tips his head, giving you a confused look. \r\n\r\n\"The good captain here thought someone,\" he pauses to give you a consternated expression, \"-might be taking advantage of Menes. $PlayerHeOrShe wants to eliminate all suspects.\"\r\n\r\n\"I, for one, insisted to Menes that you must be the victim of some terrible scheme, and that I would pray for you, and, better yet, as a Knight of Ludd carry out my sworn duty to protect the faithful and innocent alike.\"\r\n\r\nBornanew gives Pond a squeeze to emphasize how safe he is, now.",
+   "ctx": "data/campaign/rules.csv BFFIulmusTalkPcBad1b [text]"
+  },
+  {
+   "i": 25,
+   "en": "Bornanew tips his head, giving you a confused look.\r\n\r\n\"The captain here told me,\" he pauses to give you a consternated expression, \"-he thought you were working for Pathers, to sell Menes a fake relic to cause discord and make off with his credits. The captain told me $playerHeOrShe wanted to test an invasive brain-interfacer $playerHeOrShe found in some ruin on the fringe to discover the truth inside your head.\"\r\n\r\nPond's eyes go wide at the mention of 'brain-interface'.\r\n\r\n\"I, for one,\" Bornanew says reassuringly, \"insisted that the plan was crude and unnecessary. Surely you're the victim of a terrible scheme...\"",
+   "ctx": "data/campaign/rules.csv BFFIulmusTalkPcBad2b [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"I didn't know they were Pathers!\" Pond shouts.\r\n\r\nBornanew pretends shock at the notion, looking at Ulmus and shaking his head.\r\n\r\n\"Or that it was a fake! I swear, I'm a legitimate entrepreneur! I've been set up. I have enemies, Menes has enemies, they- they must have set me up!\"",
+   "ctx": "data/campaign/rules.csv BFFIulmusTalkPcBad3a [text]"
+  },
+  {
+   "i": 27,
+   "en": "Bornanew tips his head, giving you a confused look.\r\n\r\n\"Now's not the time to play coy, captain. Your illegal brain-interfacer,\" he stresses the words, \"which you proposed could 'scientifically prove' Pond's connection to a Pather network with only 'minimal damage'.\"\r\n\r\nPond looks rapidly between you and Bornanew, both scared and confused. \"Minimal da-\" he begins, then shifts course to avoid the subject entirely. \"I didn't know they were Pathers!\" he pleads.\r\n\r\n\"Or that it was a fake! I swear, I'm a legitimate entrepreneur. There's no need for brain-scans or, or- I've been set up! I have enemies, Menes has enemies, they- they must have set me up!\"",
+   "ctx": "data/campaign/rules.csv BFFIulmusTalkPcBad3b [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"I-I had no... you don't understand,\" Ulmus squirms.\r\n\r\nBornanew jumps in to direct Ulmus' narrative. \"He must have been threatened,\" he says. \"Blackmail! Of course. You help us find out who's really behind this! We'll make sure you're safe.\"",
+   "ctx": "data/campaign/rules.csv BFFIulmusTalkPcBad4a [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"Surely there is no need to bring them in it,\" Bornanew puts on a look of saintly compassion.\r\n\r\n\"I know in my heart that Ulmus wants to confess and be absolved of his sins, of his crimes. He wants to leave this terrible time behind him and live a good life.\"\r\n\r\nPond's eyes go teary. \"Y-yes, yes. I'll confess! I'll do penance, I'll pray! I'll tell you whatever you need. By Ludd, I beg forgiveness!\"",
+   "ctx": "data/campaign/rules.csv BFFIulmusTalkPcBad5a [text]"
+  },
+  {
+   "i": 30,
+   "en": "Pond sniffles.\r\n\r\n\"There was... a Walker of the Path. He asked me to talk to Menes, to, to, to make the offer. He said Menes couldn't resist an artifact of such quality. And- and I was to arrange transport. Then make it appear legitimate. Set the documents straight, make it look correct.\"\r\n\r\nBornanew draws his cheap datapad from his satchel, the screen already set to a map of the greater Persean Sector.",
+   "ctx": "data/campaign/rules.csv BFFIulmusTalkPcBad6a [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"Are you man, or a bit of vermin slipping out the window?\" Bornanew bellows as he lifts Pond bodily, setting him on a sagging cot. You're not sure if the creak is the cheap furniture or Pond's ribs. \r\n\r\n\"The Knights have sent me a long way,\" his voice lowers threateningly, \"to deal with you. Pray your answers are to my liking lest I deliver you unto the Knight Inquisitors. They have methods of seeking truth hidden far from God's merciful light.\"",
+   "ctx": "data/campaign/rules.csv BFFIulmusTalkPcGood0 [text]"
+  },
+  {
+   "i": 32,
+   "en": "Pond's eyes go large and pleading- with his escape closed off, you are his only salvation.\r\n\r\n\"Yes, yes,\" he speaks quickly. \"The captain has it right! Menes, he wanted something special. I'm just a middleman, a, a communicator. I just make deals!\"\r\n\r\nHe licks his lips, looking between you and Bornanew, \"Menes was so pleased, I had no idea it wasn't real. I'm no relic-dealer or, or a curate or- you have to believe me, I'm innocent!\"",
+   "ctx": "data/campaign/rules.csv BFFIulmusTalkPcGood1a [text]"
+  },
+  {
+   "i": 33,
+   "en": "Pond's eyes go large, his face pale, his breaths coming in sharp gasps.\r\n\r\nBornanew tips his head at Pond and gives you a confused and consternated look. \r\n\r\n\"No, no,\" Pond pleads at you, \"No, no need for that, I'll- you see, it wasn't me, this is all a misunderstanding. I make deals. I'm a great communicator. Menes will tell you. It was business, just business!\" ",
+   "ctx": "data/campaign/rules.csv BFFIulmusTalkPcGood1b [text]"
+  },
+  {
+   "i": 34,
+   "en": "\"You're sure?\" $global.jethroName's voice is flat.",
+   "ctx": "data/campaign/rules.csv BFFIulmusTalkSwitch1 [text]"
+  },
+  {
+   "i": 35,
+   "en": "\"You confess you knew 'it' was fake,\" Bornanew growls. \"We haven't even told you of what you are accused. You are stained with guilt!\"\r\n\r\nPond seems to shrink under Bornanew's accusations.",
+   "ctx": "data/campaign/rules.csv BFFIulmusTalkPcGood2 [text]"
+  },
+  {
+   "i": 36,
+   "en": "Bornanew gives a consternated shake of his head. Pond, terrified, looks between you and Bornanew. \r\n\r\n\"The Captain,\" Bornanew says, \"wanted to put you into protective custody. Said you wouldn't hurt anyone, you were threatened.\" Bornanew meets your eyes again and says, deliberately, \"I don't believe you.\"\r\n\r\n\"But that's it!\" Pond cries, \"They said they'd- Pathers will do anything!\"\r\n\r\n\"Pathers,\" Bornanew says, his voice icy. \"You do know, Ulmus Pond, how we Knights deal with those heretics.\" Bornanew reaches into his satchel.\r\n\r\nPond goes paler, somehow. \"N-no, no. I'll confess! I'll do penance, I'll pray! Tell him!\" He looks to you.",
+   "ctx": "data/campaign/rules.csv BFFIulmusTalkPcGood3b [text]"
+  }
+ ]
+}

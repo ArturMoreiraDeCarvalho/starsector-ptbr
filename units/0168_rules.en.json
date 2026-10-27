@@ -1,0 +1,191 @@
+{
+ "chunk": 168,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "Using one hand to slide the volume control of the holocomm unit down low, Baird keeps her gaze on you.\r\n\r\n\"We think Kelise Astraia was promoted to this 'Alpha Site',\" she says. \"Obviously there are others involved, but she's a senior ordnance engineer that's clearly connected to the project. And her infosec practices were sloppy.\"\r\n\r\n\"I want to know what Tri-Tachyon was doing at this Alpha Site. Our best lead so far is Kelise Astraia. Go to Hybrasil and find out where she disappeared to. Someone must know where she's gone, or has some evidence of her intentions. Tri-Tachyon watches everyone; someone will be willing to sell you that information.\"",
+   "ctx": "data/campaign/rules.csv gaPZIntro7 [text]"
+  },
+  {
+   "i": 2,
+   "en": "Baird turns and stares through the shaded diamond-matrix windows overlooking the annexes and concourses of the Galatia Academy. \r\n\r\n\"I'm sure that you can find her for me, captain. Just like you found Coureuse.\"",
+   "ctx": "data/campaign/rules.csv gaPZIntro8 [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"For now,\" Baird says, \"No.\"\r\n\r\n\"Coureuse's team is working on something else that came up in the Kallichore Archive but... \" Baird, back still turned, rubs her spectacles thoughtfully. \"It would be premature for you to speculate. I shall let you know when it can be put to use, captain.\"",
+   "ctx": "data/campaign/rules.csv PZIntroHub1aSel [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"I have a strong theory,\" says Provost Baird, \"But I don't want to bias your investigation.\" \r\n\r\nShe gives you a look over her shoulder, \"Judging by the resources Tri-Tachyon put into this project, it will be either a groundbreaking discovery or a vast disappointment.\"",
+   "ctx": "data/campaign/rules.csv PZIntroHub1bSel [text]"
+  },
+  {
+   "i": 5,
+   "en": "The hacker appears to speak, but is muted. Gargoyle's head gives Baird an annoyed look.\r\n\r\n\"I'm sure you can contact Gargoyle on your own time, captain,\" she says without looking at you or at the holocomm display.",
+   "ctx": "data/campaign/rules.csv PZIntroHub1cSel [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"Then you should proceed, captain,\" says the provost.\r\n\r\nYou feel the doors open behind you, a guard waiting to escort you from the office.",
+   "ctx": "data/campaign/rules.csv PZIntroHub1dSel [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"You asked! Oh, joy of joys.\" Gargoyle rocks back and forth, as if in the throes of ecstasy. \"That's all it takes: asking nicely. You know, it's not everyone that can bring themselves to do that.\" \r\n\r\nGargoyle smiles spitefully, then pauses, visibly calms down, and puts on a facade of professionalism. \"It is an honor to assist you with this mission, captain. I will do my duty to my utmost.\"",
+   "ctx": "data/campaign/rules.csv gaPZAskGargoyleKeliseSel [text]"
+  },
+  {
+   "i": 8,
+   "en": "The officer act is dropped as the hacker picks up a datapad, \"This doesn't have to be difficult. It's Tri-Tach, they'll sell anything. Just ask my buddy Arroyo! He's a Tri-Tach goon top to bottom, he'll know who to bribe.\"\r\n\r\nGargoyle tosses the datapad onto the desk, looking satisfied. \"Glad I could help, captain. I'm sure I'll prove essential to your success\".",
+   "ctx": "data/campaign/rules.csv gaPZAskGargoyleKeliseSel1 [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"Well I'll be honest too,\" says Gargoyle, \"You're very welcome for the gift of my spare time.\"\r\n\r\nWith that, the hackers' comms disconnect leaving you with a blank feed.",
+   "ctx": "data/campaign/rules.csv gaPZAskGargoyleKeliseSel2 [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"The provost doesn't think it's important to let me explain,\" Gargoyle scoffs, \"Maybe you should just fly off to Hybrasil without knowing anything but the name of one crackpot weapons engineer. No, go ahead! I'll wait. Tell me how it goes.\"\r\n\r\nThe silence draws out for nearly three seconds before Gargoyle begins ranting again.\r\n\r\n\"Imagine! Letting you con me into the data heist of a lifetime - set a nice fire under the High Hegemon's chair, didn't it! - then I decrypt the precious archive of the guy whose job she stole, and not asking what I thought of the contents? Which I read. Mostly. Can you believe it? Typical. She thinks she knows everything.\" \r\n\r\nThe hacker slumps, sulking.",
+   "ctx": "data/campaign/rules.csv paPZ_gargZigSel [text]"
+  },
+  {
+   "i": 11,
+   "en": "Gargoyle looks up at you, \"Yeah?\"",
+   "ctx": "data/campaign/rules.csv paPZ_gargZigLikeSel [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"Fine. I'm sure you'll do great and make Baird very happy and get lots of credits.\" \r\n\r\nGargoyle looks at you darkly, and says quietly, \"You'll never be like Coureuse to her, you know. You're just muscle. A tool. A killer. Once you've served your purpose?\"\r\n\r\nGargoyle turns away and flips a hand dismissively at you; the comms line goes black.",
+   "ctx": "data/campaign/rules.csv paPZ_gargZigWhineSel [text]"
+  },
+  {
+   "i": 13,
+   "en": "Silence. Gargoyle's hand starts tapping on a stray datapad.",
+   "ctx": "data/campaign/rules.csv paPZ_gargZigWaitSel [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"Ludd's commode, this is boring.\" Gargoyle sits up, \"You wanted to know about Project Ziggurat, right? Now that's a story!\"",
+   "ctx": "data/campaign/rules.csv paPZ_gargZigWait2Sel [text]"
+  },
+  {
+   "i": 15,
+   "en": "Gargoyle sits up, \"Thank-you captain. Project Ziggurat, now that's a story!\"",
+   "ctx": "data/campaign/rules.csv paPZ_gargZigValueSel [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"The logs were scrubbed pretty hard before even Kallichore got them. I mean, there are the logs between the Tri-Tach contacts and Kallichore, and then there's a whole other set of internal Tri-Tach comms. Must have had some good connections, probably a mole or three. Those execs would throw each other out the airlock in a second if they thought it'd boost their own career. And it might!\" ",
+   "ctx": "data/campaign/rules.csv paPZ_gargZigStory1 [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"Anyway,\" Gargoyle leans in, speaking with quiet drama, \"Project Ziggurat scared them. If you read between the lines,\" the hacker makes a self satisfied expression, \"The initial phase of the project utilized a handful of AI cores of various grades. Guess what? Self-deleted. Tri-Tachyon thinks they're not supposed to be able to do that, but,\" a wobbly hand gesture, \"Eh. Negotiable. Amazing what seemingly innocuous hardware can be made to do when you think outside the box.\"\r\n\r\n\"But what makes an AI delete itself?\" Gargoyle leans in closer, \"Whatever Project Ziggurat is, that's what. Spooky, right?\"",
+   "ctx": "data/campaign/rules.csv paPZ_gargZigStory2 [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"You're welcome, captain!\" Gargoyle leans back, grinning again, and flips through floating holodisplays. ",
+   "ctx": "data/campaign/rules.csv paPZ_gargZigStory3 [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"Is it you asking or Provost Baird?\" he says in a tone that says he thinks it's Baird. \"Doesn't matter,\" he slaps a hand on his desk and looks away, chewing on the problem.\r\n\r\n\"So. Tri-Tachyon employee huh? It's not terribly hard to pry data out of HR, to say nothing of franchise polity muni services. If you know who to ask, and how.\" He manages a half-smile, \"And you're me,\" then turns back to face you.\r\n\r\n\"After taking some real heat from that last misbegotten crashdown of an operation you pulled, I'm going to need a little favor before I help you help Baird.\"",
+   "ctx": "data/campaign/rules.csv gaPZAskArroyoKeliseSel [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"It's a gift, is what it is,\" he says, \"Dead easy. I just need someone else to do it. Here,\" Arroyo taps a key and a data transfer interface overlays your comm-view. He's sending an archive containing a series of comms recordings.\r\n\r\n\"This is a series of fake comms messages in which some leaky subcontractor proves that I was part of the conspiracy to hack the Hegemony relay in Aztlan. Take this to someone, I don't care who, someone semi-important in some pirate organization or other. Try Donn, or go to Qaras in the Yma system. Doesn't matter. Have them blackmail me with these messages.\"",
+   "ctx": "data/campaign/rules.csv gaPZAskArroyoKelise1 [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"Exactly!\" Arroyo grins, and says \"It'll be fun.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_arroyoAskKelise1a [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"Yes, obviously,\" Arroyo rolls his eyes.",
+   "ctx": "data/campaign/rules.csv gaPZ_arroyoAskKelise1b [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"Vindication.\" Arroyo holds his hands palms up, eyebrows raised, waiting for you to understand his scheme. After a moment, he shakes his head and sighs.",
+   "ctx": "data/campaign/rules.csv gaPZ_arroyoAskKelise1c [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"Look- they're bad fakes. I spoofed a contract ID and bid low on this junk. Didn't even send the final payment. Hegemony spies and Tri-Tachyon Partner Relations are already sniffing after me so if it looks like a junior-exec smelled blood and was coming after my operation by manufacturing dirt, well, it raises some questions about the veracity of the entire accusation. Doesn't matter how flimsy; my PR team gets an angle to work. You see?\"",
+   "ctx": "data/campaign/rules.csv gaPZ_arroyoAskKelise2 [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"Wonderful. Can't wait to see who you choose.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_arroyoAskKelise2a [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"Perfect. Doesn't matter what you think, as long as it's messy.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_arroyoAskKelise2b [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"Doesn't matter. I'm creating an information environment my people can work with, so the messier, the better.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_arroyoAskKelise2c [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"So,\" he says, tapping a few keys on his desk console \"You have the files. Go find a pirate who'll try to exploit me for all I'm worth.\" Arroyo grins.",
+   "ctx": "data/campaign/rules.csv GAPZArroyoKelise3 [text]"
+  },
+  {
+   "i": 29,
+   "en": "Arroyo barks a laugh. \"After what Gargoyle chiseled me for on your behalf? Not happening. Good-bye, captain. I'll have the Astraia files for you after some roach-eating brigand shows up on my comm trying to blackmail me.\"\r\n\r\nHe disconnects his feed, leaving you with a spinning Tri-Tachyon franchise logo.",
+   "ctx": "data/campaign/rules.csv paPZ_arroyoKeliseCredits [text]"
+  },
+  {
+   "i": 30,
+   "en": "You pitch the material to the pirate- a series of recorded comm calls between Rayan Arroyo and various parties setting up and carrying out a job to hack the Aztlan Relay. The Hegemony would pay well for this, or someone well-positioned in Tri-Tachyon. Why not dream big, why not sell it to both?\r\n\r\nAs the pirate considers your offer and you can see the logic of the situation working across $hisOrHer face.\r\n\r\n\"I'm going to make you an offer,\" $heOrShe says, a menacing smile growing on $hisOrHer face. \"Transmit everything you've got now or I have my gang blow you out of the sky.\"",
+   "ctx": "data/campaign/rules.csv gaPZ_sellFakes [text]"
+  },
+  {
+   "i": 31,
+   "en": "The pirate leans back and tries to give you a knowing smile, \"I see this isn't your first time negotiating with an intelligent operator like myself. My um, threat was simply a ruse to see if you were serious.\"\r\n\r\n\"And um, you passed the test,\" $heOrShe says, leaning forward again. \"I'm going to make you an offer and you're going to take it, because-\"",
+   "ctx": "data/campaign/rules.csv gaPZSellFakes1 [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"I accept,\" $heOrShe says without hesitation, and wipes sweat from $hisOrHer brow, \"Transferring credits now.\"",
+   "ctx": "data/campaign/rules.csv gaPZSellFakes1a [text]"
+  },
+  {
+   "i": 33,
+   "en": "With the data transfer complete, you watch as the pirate browses the blackmail material on $hisOrHer datapad with a hungry look on $hisOrHer face, \"This is ... oh yes, very good. Wait 'til they see, it'll be-\" $heOrShe seems to notice you again. \"I believe we've made a fine deal, captain. Let's never speak of this again, yes?\"\r\n\r\n$personName shuts the commlink off, mercifully.",
+   "ctx": "data/campaign/rules.csv gaPZSellFakes1b [text]"
+  },
+  {
+   "i": 34,
+   "en": "You transmit the data without bothering to put too much effort into acting scared; you have your dignity, after all.\r\n\r\nAs the transfer completes, the pirate leans back, a predatory smile on $hisOrHer face, \"Very, very interesting. It's a good thing you came to someone smart, like me.\" \r\n\r\n\"Now scram before I change my mind.\" ",
+   "ctx": "data/campaign/rules.csv gaPZSellFakes2 [text]"
+  },
+  {
+   "i": 35,
+   "en": "You pull out a personal datapad and explain that you can simply activate the EMP device attached to the memory core housing the blackmail data and they'll have no opportunity to blackmail anyone- in fact, you can spread word of their treachery in this matter. And then how many opportunities for mutual profit will show up in their orbit?\r\n\r\nThe pirate leans back and tries to give you a knowing smile, \"Say no more. I can see that you are, like me, an intelligent operator. My um, threat was simply a ruse to see if you were serious about this business,\" $heOrShe says.",
+   "ctx": "data/campaign/rules.csv gaPZSellFakes3 [text]"
+  },
+  {
+   "i": 36,
+   "en": "\"And uh, congrats. You passed,\" $heOrShe says, recovering $hisOrHer composure. \"You see before you someone who also knows all about business. And I'm going to make you an offer and you're going to take it, because- \" \r\n\r\nThe pirate rambles, explaining why you won't find anyone else willing or indeed able to put your offering to best use. It's not a very good pitch.",
+   "ctx": "data/campaign/rules.csv gaPZSellFakes3a [text]"
+  },
+  {
+   "i": 37,
+   "en": "You wait for the right moment then cut through the posturing like a sabot core through a fluxed shield envelope, arguing the pirate into a price of $gaPZ_paymentForCommFakesHigh credits for the fake blackmail material.\r\n\r\n\"By Ludd's commode, yes, I get it\" $heOrShe says finally, wiping sweat from $hisOrHer brow, \"I accept your price. Transferring credits.\"",
+   "ctx": "data/campaign/rules.csv gaPZSellFakes3b [text]"
+  }
+ ]
+}

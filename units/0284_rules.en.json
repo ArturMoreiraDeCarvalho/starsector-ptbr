@@ -1,0 +1,1041 @@
+{
+ "chunk": 284,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"I appreciate you not wasting my time. So was Perseus your doing?\"\r",
+   "ctx": "sdtuMacarioNewsEnd"
+  },
+  {
+   "i": 2,
+   "en": "\"My silence is very much for sale.\"",
+   "ctx": "sdtuMacarioNewsEnd"
+  },
+  {
+   "i": 3,
+   "en": "\"What are you loyal to, Macario?\"\r",
+   "ctx": "sdtuNewsEndOptions"
+  },
+  {
+   "i": 4,
+   "en": "\"You mentioned 'advanced spacecraft hull' in a previous conversation...\"",
+   "ctx": "sdtuNewsEndOptions"
+  },
+  {
+   "i": 5,
+   "en": "Close the comm-link",
+   "ctx": "sdtuReturnNewsEnd"
+  },
+  {
+   "i": 6,
+   "en": "DEV start \"Passage to Volturn\" / ANH",
+   "ctx": "devAnhStartOption"
+  },
+  {
+   "i": 7,
+   "en": "\"Okay, you have a deal.\"",
+   "ctx": "anhCantinaAskAccept"
+  },
+  {
+   "i": 8,
+   "en": "\"Let me guess- you need transport, no need to involve the authorities.\"",
+   "ctx": "anhCantinaAskTransport"
+  },
+  {
+   "i": 9,
+   "en": "\"I'd be careful about trusting your feelings around here, old man.\"",
+   "ctx": "anhCantinaAskFeelings"
+  },
+  {
+   "i": 10,
+   "en": "\"What's with the robot, got some kind of AI in there?\"",
+   "ctx": "anhCantinaAskRobot"
+  },
+  {
+   "i": 11,
+   "en": "\"If you're some kind of terrorist, I don't want to know.\"",
+   "ctx": "anhCantinaAskTerroristA"
+  },
+  {
+   "i": 12,
+   "en": "\"If you're some kind of terrorist, I want to know.\"",
+   "ctx": "anhCantinaAskTerroristB"
+  },
+  {
+   "i": 13,
+   "en": "\"If you're some kind of terrorist, I want to charge more.\"",
+   "ctx": "anhCantinaAskTerroristC"
+  },
+  {
+   "i": 14,
+   "en": "\"It's probably best that I not ask.\"",
+   "ctx": "anhCantinaAskTerroristD"
+  },
+  {
+   "i": 15,
+   "en": "\"The job sounds too hot for me. Find another captain.\"",
+   "ctx": "anhCantinaDenyHot"
+  },
+  {
+   "i": 16,
+   "en": "\"Not worth my time. Find someone else.\"",
+   "ctx": "ankCantinaDeny"
+  },
+  {
+   "i": 17,
+   "en": "\"Why do the authorities want you so badly?\"",
+   "ctx": "anhCantinaTransport"
+  },
+  {
+   "i": 18,
+   "en": "\"Sure, whatever.\"\r",
+   "ctx": "anhCantinaFeelings"
+  },
+  {
+   "i": 19,
+   "en": "\"I suppose they did.\"",
+   "ctx": "anhCantinaFeelings"
+  },
+  {
+   "i": 20,
+   "en": "\"I don't need to worry about it.\"\r",
+   "ctx": "anhCantinaRobot"
+  },
+  {
+   "i": 21,
+   "en": "\"Actually, I need to know if that thing is safe.\"\r",
+   "ctx": "anhCantinaRobot"
+  },
+  {
+   "i": 22,
+   "en": "\"Sure. If I need some farm equipment repaired I'll let you know.\"\r",
+   "ctx": "anhCantinaRobot2"
+  },
+  {
+   "i": 23,
+   "en": "\"I could use a junior engineer in my fleet.\"\r",
+   "ctx": "anhCantinaRobot2"
+  },
+  {
+   "i": 24,
+   "en": "\"So what's this about, old man?\"\r",
+   "ctx": "anhCantinaRobot2"
+  },
+  {
+   "i": 25,
+   "en": "\"I'll need a moment to review my passenger manifest.\" (stall)\r",
+   "ctx": "anhDiktatPatrolGreeting"
+  },
+  {
+   "i": 26,
+   "en": "\"I'm transporting a couple sand farmers. It's a charitable act.\"\r",
+   "ctx": "anhDiktatPatrolGreeting"
+  },
+  {
+   "i": 27,
+   "en": "\"You have no right to kidnap my passengers.\"\r",
+   "ctx": "anhDiktatPatrolGreeting"
+  },
+  {
+   "i": 28,
+   "en": "\"That isn't going to happen.\"\r",
+   "ctx": "anhDiktatPatrolGreeting"
+  },
+  {
+   "i": 29,
+   "en": "\"Care to explain?\"\r",
+   "ctx": "anhDiktatPatrolStall2"
+  },
+  {
+   "i": 30,
+   "en": "\"I don't want to know.\"",
+   "ctx": "anhDiktatPatrolStall2"
+  },
+  {
+   "i": 31,
+   "en": "\"I'm not handing anyone to the Diktat.\"\r",
+   "ctx": "anhDiktatPatrolStall3"
+  },
+  {
+   "i": 32,
+   "en": "\"As you wish.\"\r",
+   "ctx": "anhDiktatPatrolStall3"
+  },
+  {
+   "i": 33,
+   "en": "\"No, this ends here. I'm handing you all over.\"",
+   "ctx": "anhDiktatPatrolStall3"
+  },
+  {
+   "i": 34,
+   "en": "\"Take them away.\"",
+   "ctx": "anhDiktatPatrolStall3All"
+  },
+  {
+   "i": 35,
+   "en": "\"I have someone of interest to transfer to your flagship, officer.\"",
+   "ctx": "anhDiktatPatrolAgainOptionA"
+  },
+  {
+   "i": 36,
+   "en": "\"I have some persons of interest to transfer to your flagship, officer.\"",
+   "ctx": "anhDiktatPatrolAgainOptionB"
+  },
+  {
+   "i": 37,
+   "en": "\"I'm transporting a couple sand farmers. It's a charitable act.\"",
+   "ctx": "anhDiktatPatrolAgainOptionC"
+  },
+  {
+   "i": 38,
+   "en": "\"You have no right to kidnap my passengers.\"",
+   "ctx": "anhDiktatPatrolAgainOptionD"
+  },
+  {
+   "i": 39,
+   "en": "\"No, that isn't going to happen.\"\r",
+   "ctx": "anhDiktatPatrolRights"
+  },
+  {
+   "i": 40,
+   "en": "Allow the search",
+   "ctx": "anhDiktatPatrolRights"
+  },
+  {
+   "i": 41,
+   "en": "\"Battle stations.\"",
+   "ctx": "anhDiktatPatrolHostileEnd"
+  },
+  {
+   "i": 42,
+   "en": "\"It's just a moon, kid. With a rocky core.\"\r",
+   "ctx": "anhCheckCompletion"
+  },
+  {
+   "i": 43,
+   "en": "\"We all do what we gotta do to survive, kid.\"\r",
+   "ctx": "anhCheckCompletionOnlyKid"
+  },
+  {
+   "i": 44,
+   "en": "\"I want to help you fight the Diktat. What can I do?\"",
+   "ctx": "umbraWarbossHelpFightOption"
+  },
+  {
+   "i": 45,
+   "en": "\"Yes, that's me.\"\r",
+   "ctx": "ImoinuUmbraGreetingSDcom"
+  },
+  {
+   "i": 46,
+   "en": "\"Ah, so you've heard of me. Very good.\"\r",
+   "ctx": "ImoinuUmbraGreetingSDcom"
+  },
+  {
+   "i": 47,
+   "en": "\"Perhaps you've mistaken me for someone else.\" (lie)",
+   "ctx": "ImoinuUmbraGreetingSDcom"
+  },
+  {
+   "i": 48,
+   "en": "\"I'd like to talk about how I can help your cause.\"",
+   "ctx": "ImoinuKatoUmbraSupported"
+  },
+  {
+   "i": 49,
+   "en": "\"Aren't you Gens Kato? What are you doing on Umbra?\"",
+   "ctx": "ImoinuKatoUmbraAskWhat"
+  },
+  {
+   "i": 50,
+   "en": "\"Speaking of Andrada... I've got some good news for you.\"",
+   "ctx": "ImoinuKatoUmbraSayAndrada"
+  },
+  {
+   "i": 51,
+   "en": "\"I'm pretty sure he's braindead. Dolos Macario as much as admitted it to me.\"",
+   "ctx": "ImoinuKatoUmbraSayAndrada1"
+  },
+  {
+   "i": 52,
+   "en": "\"I think, given the circumstances, he was being relatively honest.\"",
+   "ctx": "ImoinuUmbraMacarioHubOptZ"
+  },
+  {
+   "i": 53,
+   "en": "\"I'm just a merc. He was extremely assertive about giving me a job.\"",
+   "ctx": "ImoinuUmbraMacarioHubOptA"
+  },
+  {
+   "i": 54,
+   "en": "\"I'm on a personal mission to undermine the Sindrian Diktat.\"",
+   "ctx": "ImoinuUmbraMacarioHubOptB"
+  },
+  {
+   "i": 55,
+   "en": "\"I'm on a personal mission to undermine the Sindrian Diktat.\" (lie)",
+   "ctx": "ImoinuUmbraMacarioHubOptC"
+  },
+  {
+   "i": 56,
+   "en": "\"I'm a secret Hegemony agent working to undermine the Diktat.\" (lie)",
+   "ctx": "ImoinuUmbraMacarioHubOptD"
+  },
+  {
+   "i": 57,
+   "en": "\"I'm in a deep-cover ARC cell you've never heard of working as a double agent.\" (lie)",
+   "ctx": "ImoinuUmbraMacarioHubOptE"
+  },
+  {
+   "i": 58,
+   "en": "\"I am of the Luddic faith and I'm taking them down from the inside.\" (lie)",
+   "ctx": "ImoinuUmbraMacarioHubOptF"
+  },
+  {
+   "i": 59,
+   "en": "\"I am of the Luddic faith and I'm taking them down from the inside.\"",
+   "ctx": "ImoinuUmbraMacarioHubOptG"
+  },
+  {
+   "i": 60,
+   "en": "\"I'm Persean League fleet intelligence. My real name is 'Siyavong'.\" (lie)",
+   "ctx": "ImoinuUmbraMacarioHubOptH"
+  },
+  {
+   "i": 61,
+   "en": "\"Doesn't your family, your gens, object?\"",
+   "ctx": "ImoinuKatoUmbraOptObject"
+  },
+  {
+   "i": 62,
+   "en": "\"I met Dardan. Is he your brother?\"",
+   "ctx": "ImoinuKatoUmbraOptDardan"
+  },
+  {
+   "i": 63,
+   "en": "\"I salute your dedication. It is a just cause.\"",
+   "ctx": "ImoinuKatoUmbraOptSalute"
+  },
+  {
+   "i": 64,
+   "en": "\"It seems a doomed cause. Don't you want to go home?\"",
+   "ctx": "ImoinuKatoUmbraOptDoomed"
+  },
+  {
+   "i": 65,
+   "en": "\"That's very... uh, noble of you.\"",
+   "ctx": "ImoinuKatoUmbraOptNoble"
+  },
+  {
+   "i": 66,
+   "en": "\"That's rich talk coming from a Gens baby.\"",
+   "ctx": "ImoinuKatoUmbraOptRich"
+  },
+  {
+   "i": 67,
+   "en": "\"I mean to say you're in a difficult position, but I do support your cause.\"",
+   "ctx": "ImoinuKatoUmbraOptBackOff"
+  },
+  {
+   "i": 68,
+   "en": "\"Look, you're gens Kato. You're throwing yourself away on Umbra.\"",
+   "ctx": "ImoinuKatoUmbraOptThrowAway"
+  },
+  {
+   "i": 69,
+   "en": "\"You do what you like. Forget I brought it up, it's not my business.\"",
+   "ctx": "ImoinuKatoUmbraOptNotMy"
+  },
+  {
+   "i": 70,
+   "en": "\"I truly have no idea what you're talking about.\"\r",
+   "ctx": "ImoinuKatoUmbraOptBackOffSelLiar"
+  },
+  {
+   "i": 71,
+   "en": "\"Are you telling me I could have been paid for this?\"",
+   "ctx": "ImoinuKatoUmbraOptBackOffSelLiar"
+  },
+  {
+   "i": 72,
+   "en": "\"He is. He became... rather angry at me.\"",
+   "ctx": "ImoinuKatoUmbraDardanOptA"
+  },
+  {
+   "i": 73,
+   "en": "\"He is. He was helpful.\"",
+   "ctx": "ImoinuKatoUmbraDardanOptB"
+  },
+  {
+   "i": 74,
+   "en": "\"He is. He seems unhappy in his current post.\"",
+   "ctx": "ImoinuKatoUmbraDardanOptC"
+  },
+  {
+   "i": 75,
+   "en": "\"Difficulties?\"\r",
+   "ctx": "ImoinuKatoUmbraSalute1"
+  },
+  {
+   "i": 76,
+   "en": "\"You mean, being stuck on a pirate-infested icecube with no fleet.\"",
+   "ctx": "ImoinuKatoUmbraSalute1"
+  },
+  {
+   "i": 77,
+   "en": "\"Why not go back to Kazeron and find a way to support the fight from inside the League?\"\r",
+   "ctx": "ImoinuKatoUmbraSalute2a"
+  },
+  {
+   "i": 78,
+   "en": "\"What if you go to Volturn. Help the, um, Volturn Covenant?\"",
+   "ctx": "ImoinuKatoUmbraSalute2a"
+  },
+  {
+   "i": 79,
+   "en": "\"Your grandmother hired a freelancer to talk you out of... this?\"\r",
+   "ctx": "ImoinuKantoUmbraDoomed1"
+  },
+  {
+   "i": 80,
+   "en": "\"Hold on, now...\"",
+   "ctx": "ImoinuKantoUmbraDoomed1ARClie"
+  },
+  {
+   "i": 81,
+   "en": "\"I know someone on Westernesse who might help you. Cavin Pharoh.\"",
+   "ctx": "ImoinuUmbraGoOptA"
+  },
+  {
+   "i": 82,
+   "en": "\"If you need safe transport to an independent world, I can arrange it.\"",
+   "ctx": "ImoinuUmbraGoOptC"
+  },
+  {
+   "i": 83,
+   "en": "\"I did transport an old man and a kid to Volturn. I think they're part of your resistance...\"",
+   "ctx": "ImoinuUmbraGoOptD"
+  },
+  {
+   "i": 84,
+   "en": "\"I did transport a kid and his robot to Volturn, I think they wanted to join your resistance...\"",
+   "ctx": "ImoinuUmbraGoOptE"
+  },
+  {
+   "i": 85,
+   "en": "\"Do you need armaments? Supplies? Credits?\"",
+   "ctx": "ImoinuUmbraGoOptF"
+  },
+  {
+   "i": 86,
+   "en": "\"That's all I can think of for now.\"",
+   "ctx": "ImoinuUmbraGoOptG"
+  },
+  {
+   "i": 87,
+   "en": "\"Then stay here and freeze! I can't solve all your problems for you.\"",
+   "ctx": "ImoinuUmbraGoOptH"
+  },
+  {
+   "i": 88,
+   "en": "\"I think he's maybe some kind of artist?\"\r",
+   "ctx": "imoinuUmbraGoCavin"
+  },
+  {
+   "i": 89,
+   "en": "\"I'm not sure. I just visited a slum where he was probably squatting.\"",
+   "ctx": "imoinuUmbraGoCavin"
+  },
+  {
+   "i": 90,
+   "en": "\"This one hacked a Hegemony Ministry for... it's a long story, actually.\"",
+   "ctx": "imoinuUmbraGoGargoyle"
+  },
+  {
+   "i": 91,
+   "en": "\"Gargoyle can be difficult, but I think they'll be a valuable asset to your cause.\"\r",
+   "ctx": "imoinuUmbraGoGargoyle2"
+  },
+  {
+   "i": 92,
+   "en": "\"You have no idea what you're in for.\"\r",
+   "ctx": "imoinuUmbraGoGargoyle2"
+  },
+  {
+   "i": 93,
+   "en": "\"I can't wait to hear how you get along.\"",
+   "ctx": "imoinuUmbraGoGargoyle2"
+  },
+  {
+   "i": 94,
+   "en": "Give 10 units of heavy armaments\r",
+   "ctx": "imoinuUmbraOfferHelp"
+  },
+  {
+   "i": 95,
+   "en": "Give 25,000 credits\r",
+   "ctx": "imoinuUmbraOfferHelp"
+  },
+  {
+   "i": 96,
+   "en": "Give 100 units of supplies\r",
+   "ctx": "imoinuUmbraOfferHelp"
+  },
+  {
+   "i": 97,
+   "en": "\"Maybe another time.\"",
+   "ctx": "imoinuUmbraOfferHelp"
+  },
+  {
+   "i": 98,
+   "en": "One hundred thousand credits",
+   "ctx": "kp100k"
+  },
+  {
+   "i": 99,
+   "en": "One million credits",
+   "ctx": "kp1mil"
+  },
+  {
+   "i": 100,
+   "en": "A thousand units of Volturnian Lobster",
+   "ctx": "kpLobster"
+  },
+  {
+   "i": 101,
+   "en": "A $foundWeaponName, glorious engine of destruction",
+   "ctx": "kpOmega"
+  },
+  {
+   "i": 102,
+   "en": "The ISS Hamatsu, a ship of great sentimental value to Callisto Ibrahim",
+   "ctx": "kpHamatsu"
+  },
+  {
+   "i": 103,
+   "en": "A Ziggurat-class starship, the only one of its kind",
+   "ctx": "kpZiggurat"
+  },
+  {
+   "i": 104,
+   "en": "The $foundShipName, a $foundShipClass",
+   "ctx": "kpRemnantCap"
+  },
+  {
+   "i": 105,
+   "en": "A Domain-era Combat Drone Replicator",
+   "ctx": "kpDroneReplicator"
+  },
+  {
+   "i": 106,
+   "en": "A Domain-era Dealmaker Holosuite, adaptable for medical experiments",
+   "ctx": "kpDealmaker"
+  },
+  {
+   "i": 107,
+   "en": "A corrupted Domain-era Nanoforge",
+   "ctx": "kpCorruptedForge"
+  },
+  {
+   "i": 108,
+   "en": "A Domain-era Planetkiller",
+   "ctx": "kpPlanetkiller"
+  },
+  {
+   "i": 109,
+   "en": "A pristine Domain-era Nanoforge, a true rarity",
+   "ctx": "kpPristineForge"
+  },
+  {
+   "i": 110,
+   "en": "An Orbital Fusion Lamp",
+   "ctx": "kpFusionLamp"
+  },
+  {
+   "i": 111,
+   "en": "$foundShipBPName",
+   "ctx": "kpShipBP"
+  },
+  {
+   "i": 112,
+   "en": "Compromising information on $foundContactName, $foundContactFaction $foundContactPost and trusted contact",
+   "ctx": "kpContact"
+  },
+  {
+   "i": 113,
+   "en": "A favor of her choosing, at any time in the future",
+   "ctx": "kpFavor"
+  },
+  {
+   "i": 114,
+   "en": "\"I shall take my leave to consider what sort of gift befits the pirate queen.\"",
+   "ctx": "kpGiftsLeave"
+  },
+  {
+   "i": 115,
+   "en": "\"Great. Thanks.\"",
+   "ctx": "KantaFavorCourierHailButLost"
+  },
+  {
+   "i": 116,
+   "en": "\"What does Kanta want?\"\r",
+   "ctx": "KantaFavorCourierHail"
+  },
+  {
+   "i": 117,
+   "en": "\"So that's it? Tell her 'thanks'.\"",
+   "ctx": "KantaFavorCourierHail"
+  },
+  {
+   "i": 118,
+   "en": "\"Fine. I'll do it.\" (accept)\r",
+   "ctx": "KantaFavorCourierHail2"
+  },
+  {
+   "i": 119,
+   "en": "\"It is my pleasure to fulfill the Warlord's wishes.\" (accept)\r",
+   "ctx": "KantaFavorCourierHail2"
+  },
+  {
+   "i": 120,
+   "en": "\"No, there has to be some alternative.\" (decline)\r",
+   "ctx": "KantaFavorCourierHail2"
+  },
+  {
+   "i": 121,
+   "en": "\"Are you mad? Bombard $affk_marketName? It's suicide.\" (decline)",
+   "ctx": "KantaFavorCourierHail2"
+  },
+  {
+   "i": 122,
+   "en": "Accept the mission after all\r",
+   "ctx": "affkDeclineSel"
+  },
+  {
+   "i": 123,
+   "en": "Assert that you decline Kanta's demand",
+   "ctx": "affkDeclineSel"
+  },
+  {
+   "i": 124,
+   "en": "\"We have 'business' to discuss.\"\r",
+   "ctx": "pirateStationKingGreeting"
+  },
+  {
+   "i": 125,
+   "en": "\"We have business to discuss.\"\r",
+   "ctx": "pirateSKGreetingUntrusted"
+  },
+  {
+   "i": 126,
+   "en": "\"I wish to discuss business.\"\r",
+   "ctx": "pirateSKGreetingUntrustedBad"
+  },
+  {
+   "i": 127,
+   "en": "\"You'll have 10% of the gross income of my colonies and I'll tell you why you'll accept.\"\r",
+   "ctx": "pirateStationKingBusinessSelUntrustedBad"
+  },
+  {
+   "i": 128,
+   "en": "\"10 percent is too much. Be reasonable.\"",
+   "ctx": "pirateStationKingBizOptB"
+  },
+  {
+   "i": 129,
+   "en": "\"An outrageous demand! You can see the power of my $shipOrFleet from where you sit.\"",
+   "ctx": "pirateStationKingBizOptC"
+  },
+  {
+   "i": 130,
+   "en": "Accept the deal",
+   "ctx": "pirateStationKingBizOptD"
+  },
+  {
+   "i": 131,
+   "en": "\"You justify piracy with that nonsense?\"\r",
+   "ctx": "pirateSKtooMuchReasonable"
+  },
+  {
+   "i": 132,
+   "en": "\"So you're calling me weak.\"\r",
+   "ctx": "pirateSKtooMuchReasonable"
+  },
+  {
+   "i": 133,
+   "en": "\"So you're calling me powerful.\"",
+   "ctx": "pirateSKtooMuchReasonable"
+  },
+  {
+   "i": 134,
+   "en": "\"I knew you'd see reason.\"",
+   "ctx": "psk_acceptStorySel"
+  },
+  {
+   "i": 135,
+   "en": "\"Our agreement no longer suits me.\"",
+   "ctx": "PSKCancelDealOption"
+  },
+  {
+   "i": 136,
+   "en": "\"It's over. Don't make me repeat myself.\"\r",
+   "ctx": "psk_cancelDealSel"
+  },
+  {
+   "i": 137,
+   "en": "\"Okay, let's keep the protection deal.\"",
+   "ctx": "psk_cancelDealSel"
+  },
+  {
+   "i": 138,
+   "en": "Comply with the inspection",
+   "ctx": "plEnforcerComply"
+  },
+  {
+   "i": 139,
+   "en": "\"That's nonsense, you have no such authority in this volume.\"",
+   "ctx": "plEnforcerRefuse"
+  },
+  {
+   "i": 140,
+   "en": "\"With that fleet? You're in no position to make demands.\"",
+   "ctx": "plEnforcerRefusePlayerStronger"
+  },
+  {
+   "i": 141,
+   "en": "\"Am I to understand that if I were part of the Persean League this could be avoided?\"",
+   "ctx": "plEnforcerJoinLeague"
+  },
+  {
+   "i": 142,
+   "en": "\"I was just subject to an 'inspection', don't you people talk to each other?\"",
+   "ctx": "plEnforcerAgain"
+  },
+  {
+   "i": 143,
+   "en": "Cut the comm link and power up weapons",
+   "ctx": "plEnforcerCutComms"
+  },
+  {
+   "i": 144,
+   "en": "\"I'll do that. Orderly confederation with the League makes sense.\"\r",
+   "ctx": "plEnforcerJoinLeagueSel"
+  },
+  {
+   "i": 145,
+   "en": "\"I'll consider it, $post.\"\r",
+   "ctx": "plEnforcerJoinLeagueSel"
+  },
+  {
+   "i": 146,
+   "en": "\"And submit to your bullying? Not likely.\"",
+   "ctx": "plEnforcerJoinLeagueSel"
+  },
+  {
+   "i": 147,
+   "en": "\"I am wondering exactly that. Perhaps you can explain?\"\r",
+   "ctx": "plArmadaComms"
+  },
+  {
+   "i": 148,
+   "en": "\"I demand to know why you're trying to blockade my independent colony!\"\r",
+   "ctx": "plArmadaComms"
+  },
+  {
+   "i": 149,
+   "en": "\"You're here to strong-arm me into joining the League, aren't you.\"",
+   "ctx": "plArmadaComms"
+  },
+  {
+   "i": 150,
+   "en": "\"This is piracy! You can't just blockade any system you want!\"",
+   "ctx": "PLArmadaHubOptionA"
+  },
+  {
+   "i": 151,
+   "en": "Explain where Reynard Hannan can stick the League Armada",
+   "ctx": "PLArmadaHubOptionC"
+  },
+  {
+   "i": 152,
+   "en": "\"True, strength is necessary to protect freedom... from thugs like you and your bosses on Kazeron.\"",
+   "ctx": "PLArmadaHubOptionD"
+  },
+  {
+   "i": 153,
+   "en": "\"True, strength is necessary to protect freedom... and we're stronger together.\"",
+   "ctx": "PLArmadaHubOptionE"
+  },
+  {
+   "i": 154,
+   "en": "\"You've described a protection racket... and I'll have no part in your banditry.\"",
+   "ctx": "PLArmadaHubOptionF"
+  },
+  {
+   "i": 155,
+   "en": "\"You've described a protection racket... and I want to be on the winning team.\"",
+   "ctx": "PLArmadaHubOptionG"
+  },
+  {
+   "i": 156,
+   "en": "\"I assume the question is hypothetical.\"\r",
+   "ctx": "PLArmadaThisIsPiracy"
+  },
+  {
+   "i": 157,
+   "en": "\"What of freedom, rights, and prosperity? Do those ideals mean nothing?\"\r",
+   "ctx": "PLArmadaThisIsPiracy"
+  },
+  {
+   "i": 158,
+   "en": "\"No- I'm building a new sector free of your tyranny.\"\r",
+   "ctx": "PLArmadaThisIsPiracy"
+  },
+  {
+   "i": 159,
+   "en": "\"You'll have to pluck that treasure from my cold, dead hands.\"",
+   "ctx": "PLArmadaThisIsPiracy"
+  },
+  {
+   "i": 160,
+   "en": "\"I'd like to talk to you about joining the Persean League.\"",
+   "ctx": "plReynardHannanJoinLeague"
+  },
+  {
+   "i": 161,
+   "en": "Slam the comms off\r",
+   "ctx": "plReynardHannanJoinSelNo"
+  },
+  {
+   "i": 162,
+   "en": "DEV Use mind powers to make him let you into the League\r",
+   "ctx": "plReynardHannanJoinSelNoDev"
+  },
+  {
+   "i": 163,
+   "en": "\"Go on...\"",
+   "ctx": "plReynardHannanJoinSelYesDev"
+  },
+  {
+   "i": 164,
+   "en": "\"...Show of force?\"\r",
+   "ctx": "plReynardHannanJoinSelNoPunEx"
+  },
+  {
+   "i": 165,
+   "en": "Try to negotiate to have the dues waived\r",
+   "ctx": "JoinLeagueOptions"
+  },
+  {
+   "i": 166,
+   "en": "Accept League membership on the given terms\r",
+   "ctx": "JoinLeagueOptions"
+  },
+  {
+   "i": 167,
+   "en": "\"Your system defense fleet, the pride of Kazeron, broke upon me.\"",
+   "ctx": "PLDealARgumentsDefeatedSDF"
+  },
+  {
+   "i": 168,
+   "en": "\"I defeated your blockade. You've tried to use force against me, and failed.\"",
+   "ctx": "PLDealArgumentsDefeatedBlockade"
+  },
+  {
+   "i": 169,
+   "en": "\"I defeated your punitive expedition. You've tried to use direct force against me and failed.\"",
+   "ctx": "PLDealArgumentsDefeatedPunEx"
+  },
+  {
+   "i": 170,
+   "en": "\"Perhaps a $hannanBribePercent fee directly to Gens Hannan accounts, for facilitating this agreement?\"",
+   "ctx": "PLDealArgumentsHannanCut"
+  },
+  {
+   "i": 171,
+   "en": "\"Rumor is Kazeron's pristine nanoforge is... missing. I would donate a spare I happen to have.\"",
+   "ctx": "PLDealArgumentsHannanNanoforge"
+  },
+  {
+   "i": 172,
+   "en": "\"I accept League membership on the amended terms.\"\r",
+   "ctx": "rh_continueToGoodDealSel"
+  },
+  {
+   "i": 173,
+   "en": "\"My colony is leaving the Persean League. Consider this official notice.\"",
+   "ctx": "plLeaveLeague"
+  },
+  {
+   "i": 174,
+   "en": "\"I'm pulling my colonies out of the Persean League. Consider this official notice.\"",
+   "ctx": "plLeaveLeagueMulti"
+  },
+  {
+   "i": 175,
+   "en": "\"I meant what I said. I'm done with the League.\"\r",
+   "ctx": "rh_leaveLeagueSelPermanent"
+  },
+  {
+   "i": 176,
+   "en": "\"Never mind. I've, um, reconsidered.\"",
+   "ctx": "rh_leaveLeagueSelPermanent"
+  },
+  {
+   "i": 177,
+   "en": "\"You heard me the first time - I'm done with the League.\"\r",
+   "ctx": "rh_leaveLeagueSelCanRejoin"
+  },
+  {
+   "i": 178,
+   "en": "\"Never mind. I've... misspoke.\"",
+   "ctx": "rh_leaveLeagueSelCanRejoin"
+  },
+  {
+   "i": 179,
+   "en": "\"I'm stopping the payments to Gens Hannan, effective immediately.\"",
+   "ctx": "plReynardHannanStopPaying"
+  },
+  {
+   "i": 180,
+   "en": "\"I'm not asking for help. I'm telling you the payments end. Now.\"\r",
+   "ctx": "rh_stopPayingSel"
+  },
+  {
+   "i": 181,
+   "en": "\"My decision to stop payments to Gens Hannan may have been ill-considered.\"",
+   "ctx": "plReynardHannanRestartPayments"
+  },
+  {
+   "i": 182,
+   "en": "\"Yes, I made a terrible mistake. Please accept my apologies.\" \r",
+   "ctx": "rh_restartPaymentsSel"
+  },
+  {
+   "i": 183,
+   "en": "\"Never mind, I didn't come here to beg.\"",
+   "ctx": "rh_restartPaymentsSel"
+  },
+  {
+   "i": 184,
+   "en": "\"How about I pay you half a million credits to raid the $triTachSystem instead.\"",
+   "ctx": "TTMACommandOptions1"
+  },
+  {
+   "i": 185,
+   "en": "\"I understand. A million, then?\"\r",
+   "ctx": "ttma_offerBribe1Sel"
+  },
+  {
+   "i": 186,
+   "en": "Arrange the credits transfer\r",
+   "ctx": "ttma_offerBribe2Sel"
+  },
+  {
+   "i": 187,
+   "en": "\"Burn bright, $rank.\"",
+   "ctx": "ttma_bribeConfirmSel"
+  },
+  {
+   "i": 188,
+   "en": "\"Um. I've reached an understanding with Tri-Tachyon. You can stand down.\"",
+   "ctx": "TTCR_BountyHunterOptionsButWolf"
+  },
+  {
+   "i": 189,
+   "en": "\"On the contrary, I've reached an understanding with Tri-Tachyon.\"",
+   "ctx": "TTCR_BountyHunterOptionsButPhase"
+  },
+  {
+   "i": 190,
+   "en": "\"Not necessary. I've reached an understanding with Tri-Tachyon.\"",
+   "ctx": "TTCR_BountyHunterOptionsButDer"
+  },
+  {
+   "i": 191,
+   "en": "\"How could you attack a $playerBrotherOrSister of the Faith?\"",
+   "ctx": "TTCR_BountyHunterOptionsButDer2"
+  },
+  {
+   "i": 192,
+   "en": "\"Well?\"",
+   "ctx": "ttcrBH_butSelDerelict"
+  },
+  {
+   "i": 193,
+   "en": "\"I've experienced some recent 'friction' with Tri-Tachyon. It's time we made a mutually beneficial deal.\"",
+   "ctx": "ttMakeDealOptNotContact"
+  },
+  {
+   "i": 194,
+   "en": "\"Perhaps we can work together to solve my ongoing 'problems' with Tri-Tachyon.\"",
+   "ctx": "ttMakeDealOptContact"
+  },
+  {
+   "i": 195,
+   "en": "\"Rayan, do you think you could arrange a deal to solve my ongoing 'friction' with Tri-Tachyon?\"",
+   "ctx": "ttMakeDealOptContactArroyo"
+  },
+  {
+   "i": 196,
+   "en": "\"I'd like to discuss the possibility of a deal to solve my ongoing 'friction' with Tri-Tachyon.\"",
+   "ctx": "ttMakeDealOptNotContactArroyo"
+  },
+  {
+   "i": 197,
+   "en": "Review the proposal",
+   "ctx": "ttMakeDealOptSelContact"
+  },
+  {
+   "i": 198,
+   "en": "\"I wish to submit a complaint regarding Tri-Tachyon interference in my operations.\"",
+   "ctx": "ttVIPCounterRaiding"
+  },
+  {
+   "i": 199,
+   "en": "\"So I've attracted the, ah, 'attention' of Tri-Tachyon.\"",
+   "ctx": "ttArroyoCounterRaiding"
+  },
+  {
+   "i": 200,
+   "en": "\"I come along?\"\r",
+   "ctx": "ttArroyoProblemsSel1"
+  },
+  {
+   "i": 201,
+   "en": "\"This seems to be mostly about you so far.\"\r",
+   "ctx": "ttArroyoProblemsSel1"
+  },
+  {
+   "i": 202,
+   "en": "\"My question was more about Tri-Tachyon sponsoring attacks on my fleets and colonies.\"",
+   "ctx": "ttArroyoProblemsSel1"
+  },
+  {
+   "i": 203,
+   "en": "\"I understand. Fight covertly, cut a deal. Win-win.\"\r",
+   "ctx": "ttArroyoProblemsSel4"
+  },
+  {
+   "i": 204,
+   "en": "\"I understand. Fight covertly, cut a deal. Win-win.\" (lie)\r",
+   "ctx": "ttArroyoProblemsSel4"
+  },
+  {
+   "i": 205,
+   "en": "\"I cannot let their trespasses go unanswered; it would be dishonorable.\"\r",
+   "ctx": "ttArroyoProblemsSel4"
+  },
+  {
+   "i": 206,
+   "en": "\"You describe piracy, banditry, and might-makes-right. What of interfactional law?\"\r",
+   "ctx": "ttArroyoProblemsSel4"
+  },
+  {
+   "i": 207,
+   "en": "\"Why can't we just talk it out and make a deal? Why all the killing?\"",
+   "ctx": "ttArroyoProblemsSel4"
+  }
+ ]
+}

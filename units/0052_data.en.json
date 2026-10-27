@@ -1,0 +1,451 @@
+{
+ "chunk": 52,
+ "cat": "data",
+ "items": [
+  {
+   "i": 1,
+   "en": "The report indicates that the food shortage $onOrAt $market is now over. Unfortunately, much of the food relief distribution was handled by criminal elements, strengthening their position and undermining local authorities both financially and in the eyes of the population.",
+   "ctx": "data/campaign/reports.csv food_shortage/end_player_black/news/ [summary]"
+  },
+  {
+   "i": 2,
+   "en": "The report indicates that the food shortage $onOrAt $market is now over. The timely arrival of a relief fleet commaned by $playerName is credited with ending the shortage quickly and mitigating its long-term effects.",
+   "ctx": "data/campaign/reports.csv food_shortage/end_player_fast/news/ [summary]"
+  },
+  {
+   "i": 3,
+   "en": "An encryped message from one of your contacts in $market's underworld warns you that $theMarketFaction authorities have launched an investigation into the recent smuggling activity.",
+   "ctx": "data/campaign/reports.csv investigation_smuggling/start_smuggling/secure_comm/ [summary]"
+  },
+  {
+   "i": 4,
+   "en": "The $marketFaction smuggling investigation is over, and it looks like your name was cleared - or, at least, there was no conclusive evidence to prove your involvement.",
+   "ctx": "data/campaign/reports.csv investigation_smuggling/clear_smuggling/player_intel_always/ [summary]"
+  },
+  {
+   "i": 5,
+   "en": "The $marketFaction smuggling investigation has been completed according to your \"special arrangement\" with $investigatorName, and this particular stain on your reputation has been erased.",
+   "ctx": "data/campaign/reports.csv investigation_smuggling/clear_smuggling_bribe/player_intel_always/ [summary]"
+  },
+  {
+   "i": 6,
+   "en": "The $marketFaction investigation has concluded that you were, indeed, involved in the recent smuggling activity.",
+   "ctx": "data/campaign/reports.csv investigation_smuggling/player_guilty_smuggling/player_intel_always/ [summary]"
+  },
+  {
+   "i": 7,
+   "en": "An encryped message from one of your contacts $onOrAt $market warns you that $theMarketFaction authorities have launched an investigation into your ties with $theOtherFactionLong.",
+   "ctx": "data/campaign/reports.csv investigation_goodrep/start_goodrep/secure_comm/ [summary]"
+  },
+  {
+   "i": 8,
+   "en": "The $marketFaction investigation of your ties with $theOtherFactionLong is over, and you've been cleared of acting against $marketFaction interests.",
+   "ctx": "data/campaign/reports.csv investigation_goodrep/clear_goodrep/player_intel_always/ [summary]"
+  },
+  {
+   "i": 9,
+   "en": "The $marketFaction investigation of your ties with $theOtherFactionLong has been completed according to your \"special arrangement\" with $investigatorName, and you've been cleared of acting against $marketFaction interests.",
+   "ctx": "data/campaign/reports.csv investigation_goodrep/clear_goodrep_bribe/player_intel_always/ [summary]"
+  },
+  {
+   "i": 10,
+   "en": "The $marketFaction investigation of your ties with $theOtherFactionLong has concluded that you've been acting against the interests of $theMarketFaction. It is clear that you will be treated with particular suspicion by $theMarketFaction.",
+   "ctx": "data/campaign/reports.csv investigation_goodrep/player_guilty_goodrep/player_intel_always/ [summary]"
+  },
+  {
+   "i": 11,
+   "en": "The comm sniffer you've installed on $name has stopped reporting. This is likely due to it being removed by security software. It's possible that a manual audit of the security logs will spawn an investigation into the sniffer's origin.",
+   "ctx": "data/campaign/reports.csv investigation_comm_sniffer/start_comm_sniffer/player_intel_always/ [summary]"
+  },
+  {
+   "i": 12,
+   "en": "A thorough audit of the security logs on $name has resulted in you being blamed for the security breach.",
+   "ctx": "data/campaign/reports.csv investigation_comm_sniffer/player_guilty_comm_sniffer/player_intel_always/ [summary]"
+  },
+  {
+   "i": 13,
+   "en": "Trade fleets going to or from $market are not reaching their destination in significant numbers. The report points to piracy or war as being the most likely culprits.",
+   "ctx": "data/campaign/reports.csv trade_disruption/report_td/news/ [summary]"
+  },
+  {
+   "i": 14,
+   "en": "The situation $onOrAt $market has grown less stable as a result of recent smuggling activity. The local authorities are promising a full-scale investigation.",
+   "ctx": "data/campaign/reports.csv trade_disruption/report_smuggling/news/ [summary]"
+  },
+  {
+   "i": 15,
+   "en": "The situation $onOrAt $market has grown less stable as a result of recent smuggling activity, in which you've been involved. The local authorities are promising a full-scale investigation.",
+   "ctx": "data/campaign/reports.csv trade_disruption/report_smuggling_player/news/ [summary]"
+  },
+  {
+   "i": 16,
+   "en": "There are indications that your recent trading activity at $marketList has been noted by $theFaction.",
+   "ctx": "data/campaign/reports.csv rep_tracker/trade_rep/player_intel_always/ [summary]"
+  },
+  {
+   "i": 17,
+   "en": "There are indications that your recent black-market trade with $marketList has been noted by $theFaction. There is no conclusive proof, but it's clear that your actions are being scrutinized more closely than before.",
+   "ctx": "data/campaign/reports.csv rep_tracker/smuggling_rep/player_intel_always/ [summary]"
+  },
+  {
+   "i": 18,
+   "en": "There are indications that your trade with $pickedMarket was significant enough to be noticed by $theHostileFaction, which is hostile to $theFaction.",
+   "ctx": "data/campaign/reports.csv rep_tracker/trade_negative/player_intel_always/ [summary]"
+  },
+  {
+   "i": 19,
+   "en": "Your recent trades have given you fresh insight into the workings of the economy. You've also made some valuable contacts.",
+   "ctx": "data/campaign/reports.csv rep_tracker/trade_xp_gain/player_intel_always/ [summary]"
+  },
+  {
+   "i": 20,
+   "en": "Minor slights and offenses are forgotten after a time, if not reinforced by a recent pattern of behavior.",
+   "ctx": "data/campaign/reports.csv rep_tracker/rep_decay_positive/player_intel_always/ [summary]"
+  },
+  {
+   "i": 21,
+   "en": "Your battle with the $otherFleetName was noted by $theFaction at $market.",
+   "ctx": "data/campaign/reports.csv rep_tracker/battle_rep_positive/secure_comm/ [summary]"
+  },
+  {
+   "i": 22,
+   "en": "Due to your good standing ($factionStanding), you've been granted access to internal $Faction comm channels by the authorities $onOrAt $market.",
+   "ctx": "data/campaign/reports.csv rep_tracker/comm_access_granted/player_intel_always/ [summary]"
+  },
+  {
+   "i": 23,
+   "en": "Due to your reduced standing ($factionStanding), your access to internal $Faction comm channels has been revoked.",
+   "ctx": "data/campaign/reports.csv rep_tracker/comm_access_revoked/player_intel_always/ [summary]"
+  },
+  {
+   "i": 24,
+   "en": "Tapping into the local comm net yields information on some commodities with unusual prices at $market.",
+   "ctx": "data/campaign/reports.csv trade_info/prices_market/player_intel_always/ [summary]"
+  },
+  {
+   "i": 25,
+   "en": "Tapping into local comm traffic and other available data sources has yielded price data for some commodities at in-system markets.",
+   "ctx": "data/campaign/reports.csv trade_info/prices_local/player_intel_always/ [summary]"
+  },
+  {
+   "i": 26,
+   "en": "A microburst from the comm sniffer at $relayName contains price information about some commodities in the $fromSystem star system.",
+   "ctx": "data/campaign/reports.csv trade_info/prices_sniffer/player_intel_always/ [summary]"
+  },
+  {
+   "i": 27,
+   "en": "Tapping into local comm traffic and other available data sources has yielded price data for some commodities in the $fromSystem star system.",
+   "ctx": "data/campaign/reports.csv trade_info/prices_remote/player_intel_always/ [summary]"
+  },
+  {
+   "i": 28,
+   "en": "Your evasion of the customs inspection, while successful in the short term, was noted by the $faction authorities.",
+   "ctx": "data/campaign/reports.csv customs_inspection/player_evaded/player_intel_always/ [summary]"
+  },
+  {
+   "i": 29,
+   "en": "Authorities $onOrAt $market are rumored to be considering posting a bounty on all fleets hostile to $theMarketFaction.",
+   "ctx": "data/campaign/reports.csv system_bounty/likely/player_intel/ [summary]"
+  },
+  {
+   "i": 30,
+   "en": "Authorities $onOrAt $market, fed up with constant attacks on shipping, trade disruption, and the general state of near-war, have posted a bounty on any and all fleets hostile to $theMarketFaction.",
+   "ctx": "data/campaign/reports.csv system_bounty/start/news/ [summary]"
+  },
+  {
+   "i": 31,
+   "en": "The message has an encrypted attachment that contains a payment of $bountyCredits credits.",
+   "ctx": "data/campaign/reports.csv system_bounty/bounty_payment/secure_comm/ [summary]"
+  },
+  {
+   "i": 32,
+   "en": "The message has an encrypted attachment that contains your share of the bounty, coming to $bountyCredits credits.",
+   "ctx": "data/campaign/reports.csv system_bounty/bounty_payment_share/secure_comm/ [summary]"
+  },
+  {
+   "i": 33,
+   "en": "The message contains an internal intelligence report regarding the bounty on offer from $market.",
+   "ctx": "data/campaign/reports.csv system_bounty/bounty_no_payment/player_intel_always/ [summary]"
+  },
+  {
+   "i": 34,
+   "en": "Authorities $onOrAt $market have declared the bounty period to be officially over.",
+   "ctx": "data/campaign/reports.csv system_bounty/end/news/ [summary]"
+  },
+  {
+   "i": 35,
+   "en": "An attachment contains a dump of various message traffic, both human-generated and automated, passing through the $system system.",
+   "ctx": "data/campaign/reports.csv comm_sniffer/report/player_comm_sniffer/ [summary]"
+  },
+  {
+   "i": 36,
+   "en": "$Faction authorities $onOrAt $market have posted a bounty for bringing $targetName, a notorious pirate, to justice.",
+   "ctx": "data/campaign/reports.csv person_bounty/start_pirate/news/ [summary]"
+  },
+  {
+   "i": 37,
+   "en": "$Faction authorities $onOrAt $market have posted a bounty for bringing $targetName, convicted of desertion, to justice.",
+   "ctx": "data/campaign/reports.csv person_bounty/start_deserter/news/ [summary]"
+  },
+  {
+   "i": 38,
+   "en": "The message has an encrypted attachment that contains a payment of $bountyCredits credits for bringing $targetName to justice.",
+   "ctx": "data/campaign/reports.csv person_bounty/bounty_payment_end/secure_comm/ [summary]"
+  },
+  {
+   "i": 39,
+   "en": "The message has an encrypted attachment that contains your share of the bounty, coming to $bountyCredits credits, for bringing $targetName to justice.",
+   "ctx": "data/campaign/reports.csv person_bounty/bounty_payment_share_end/secure_comm/ [summary]"
+  },
+  {
+   "i": 40,
+   "en": "The message contains an internal intelligence report regarding the bounty on $targetName.",
+   "ctx": "data/campaign/reports.csv person_bounty/bounty_no_payment_end/player_intel_always/ [summary]"
+  },
+  {
+   "i": 41,
+   "en": "Reports indicate that $targetName was killed in an incident unrelated to the bounty posting.",
+   "ctx": "data/campaign/reports.csv person_bounty/other_end/news/ [summary]"
+  },
+  {
+   "i": 42,
+   "en": "$Faction authorities $onOrAt $market have withdrawn the bounty previously posted on $targetName.",
+   "ctx": "data/campaign/reports.csv person_bounty/expire_end/news/ [summary]"
+  },
+  {
+   "i": 43,
+   "en": "You've accepted a test mission. Congratulations, I guess.",
+   "ctx": "data/campaign/reports.csv test_mission/start/player_intel_always/ [summary]"
+  },
+  {
+   "i": 44,
+   "en": "Test mission completed successfully.",
+   "ctx": "data/campaign/reports.csv test_mission/end_success/player_intel_always/ [summary]"
+  },
+  {
+   "i": 45,
+   "en": "Test mission failed.",
+   "ctx": "data/campaign/reports.csv test_mission/end_failure/player_intel_always/ [summary]"
+  },
+  {
+   "i": 46,
+   "en": "Contact $contactDesc $contactName at $market to complete the delivery.",
+   "ctx": "data/campaign/reports.csv market_procurement/posting/posting/ [summary]"
+  },
+  {
+   "i": 47,
+   "en": "Acquire $quantity units of $commodity and deliver to $market.\n\nContact $contactDesc $contactName at $market to complete the delivery.",
+   "ctx": "data/campaign/reports.csv market_procurement/accept/secure_comm/ [summary]"
+  },
+  {
+   "i": 48,
+   "en": "Mission completed successfully.",
+   "ctx": "data/campaign/reports.csv market_procurement/success/player_intel_always/ [summary]"
+  },
+  {
+   "i": 49,
+   "en": "Mission failed - deadline not met.",
+   "ctx": "data/campaign/reports.csv market_procurement/failure/player_intel_always/ [summary]"
+  },
+  {
+   "i": 50,
+   "en": "Mission will be considered completed and payment posted immediately upon running the sensor package.",
+   "ctx": "data/campaign/reports.csv analyze_entity/posting/posting/ [summary]"
+  },
+  {
+   "i": 51,
+   "en": "$rewardCredits reward, must be completed within $daysLeft.\n\nMission will be considered completed and payment posted immediately upon running the sensor package.",
+   "ctx": "data/campaign/reports.csv analyze_entity/accept/secure_comm/ [summary]"
+  },
+  {
+   "i": 52,
+   "en": "Mission will be considered completed and payment posted immediately upon survey completion.",
+   "ctx": "data/campaign/reports.csv survey_planet/posting/posting/ [summary]"
+  },
+  {
+   "i": 53,
+   "en": "$rewardCredits reward, must be completed within $daysLeft.\n\nMission will be considered completed and payment posted immediately upon survey completion.",
+   "ctx": "data/campaign/reports.csv survey_planet/accept/secure_comm/ [summary]"
+  },
+  {
+   "i": 54,
+   "en": "You receive a tight-beam communication from the system's main inhabited world, Ancyra.\n\nThe message is brief and asks you to travel there and contact $mainContactPost $mainContactName as soon as possible.",
+   "ctx": "data/campaign/reports.csv tutorial_mission/start/secure_comm/ [summary]"
+  },
+  {
+   "i": 55,
+   "en": "Contact $dataContactName at Derinkuyu Mining Station to acquire the raw jump-point readings.\n\nContact must be made with the transponder off as the miners of Derinkuyu have turned pirate and your fleet will be attacked otherwise.",
+   "ctx": "data/campaign/reports.csv tutorial_mission/sneak_start/player_intel_always/ [summary]"
+  },
+  {
+   "i": 56,
+   "en": "Return to Ancyra and contact $mainContactPost $mainContactLastName to deliver the jump-point data.",
+   "ctx": "data/campaign/reports.csv tutorial_mission/sneak_end/player_intel_always/ [summary]"
+  },
+  {
+   "i": 57,
+   "en": "Analyzing the jump-point data requires an AI Core.\n\nThere's a Domain-era survey probe outside the orbit of Pontus. If salvaged, it's likely to yield a gamma AI core, which should be sufficient for the task.",
+   "ctx": "data/campaign/reports.csv tutorial_mission/salvage_core_start/player_intel_always/ [summary]"
+  },
+  {
+   "i": 58,
+   "en": "Return to Ancyra and contact $mainContactPost $mainContactLastName to deliver the AI core.",
+   "ctx": "data/campaign/reports.csv tutorial_mission/salvage_core_end/player_intel_always/ [summary]"
+  },
+  {
+   "i": 59,
+   "en": "Go to the ship graveyard around Tetra and recover as many ships as possible.\n\nBring extra crew to man the recovered ships, and extra supplies to help restore their combat readiness.",
+   "ctx": "data/campaign/reports.csv tutorial_mission/ship_recovery_start/player_intel_always/ [summary]"
+  },
+  {
+   "i": 60,
+   "en": "Return to $mainContactPost $mainContactLastName at Ancyra for help with outfitting the recovered ships with weapons.",
+   "ctx": "data/campaign/reports.csv tutorial_mission/ship_recovery_end/player_intel_always/ [summary]"
+  },
+  {
+   "i": 61,
+   "en": "Use the hyperwave sequence produced by the AI core to stabilize the inner-system jump-point.\n\nYou will have to defeat the pirates guarding it first.",
+   "ctx": "data/campaign/reports.csv tutorial_mission/stabilize_jump_point/player_intel_always/ [summary]"
+  },
+  {
+   "i": 62,
+   "en": "Galatia's connection with hyperspace has been restored, and trade fleets are once again able to enter and leave the system.\n\nThe Derinkuyu leadership will surely soon be toppled by rank-and-file miners eager to get on the right side of the law once again.",
+   "ctx": "data/campaign/reports.csv tutorial_mission/stabilize_jump_point_done/player_intel_always/ [summary]"
+  },
+  {
+   "i": 63,
+   "en": "$MainContactRank $mainContactLastName has tasked you with delivering a report detailing the recent events to the $jangalaContactPost $jangalaContactLastName at Jangala.\n\nMake sure you have enough fuel to make the trip successfully.",
+   "ctx": "data/campaign/reports.csv tutorial_mission/deliver_message/player_intel_always/ [summary]"
+  },
+  {
+   "i": 64,
+   "en": "Bounty starts at $baseBounty credits for an enemy frigate and goes up for larger ships.\n\nWill be annulled if the commission holder's reputation with $theFaction drops below neutral.",
+   "ctx": "data/campaign/reports.csv faction_commission/posting/posting/ [summary]"
+  },
+  {
+   "i": 65,
+   "en": "Due to your accepting a commission with $theFaction, $theOtherFactionLong is now hostile towards you.",
+   "ctx": "data/campaign/reports.csv faction_commission/become_hostile/secure_comm/ [summary]"
+  },
+  {
+   "i": 66,
+   "en": "The message has an encrypted attachment that contains a payment of $bountyCredits credits for fighting enemies of $theFaction.\n\nIt references flight log data from your recent battle against $enemyDesc.",
+   "ctx": "data/campaign/reports.csv faction_commission/bounty_payment/secure_comm/ [summary]"
+  },
+  {
+   "i": 67,
+   "en": "The message is an official communique from $theFaction which annuls your commission due to a lack of good standing.",
+   "ctx": "data/campaign/reports.csv faction_commission/annul/secure_comm/ [summary]"
+  },
+  {
+   "i": 68,
+   "en": "The message is an offical communique from $theFaction, questioning your alleged hostilities with $theOtherFaction, and reminding you, in strong terms, that $theOtherFaction $otherFactionIsOrAre not an enemy of $theFaction.",
+   "ctx": "data/campaign/reports.csv faction_commission/rep_drop_hostile/secure_comm/ [summary]"
+  },
+  {
+   "i": 69,
+   "en": "You receive a warning from $theCommissionFaction that the general state of cold war with $theOtherFaction is all but certain to give way to open hostilities in a matter of weeks at the most.",
+   "ctx": "data/campaign/reports.csv faction_hostility/warning/secure_comm/ [summary]"
+  },
+  {
+   "i": 70,
+   "en": "The general state of cold war between $theOneFaction and $theTwoFaction has given way to open hostilities.\n\nHowever, major fleet actions or attacks on population centers are not expected, and most experts predict that some sort of peace agreement will be made within a cycle.",
+   "ctx": "data/campaign/reports.csv faction_hostility/start/news/ [summary]"
+  },
+  {
+   "i": 71,
+   "en": "An accord has been reached through back channels, open hostilities between $theOneFaction and $theTwoFaction have ceased, and normal trade has resumed.",
+   "ctx": "data/campaign/reports.csv faction_hostility/end/news/ [summary]"
+  },
+  {
+   "i": 72,
+   "en": "There are indicators that civil disorder is likely to occur $onOrAt $market within a few weeks.",
+   "ctx": "data/campaign/reports.csv civil_disorder/possible1/player_intel/ [summary]"
+  },
+  {
+   "i": 73,
+   "en": "A prominent intellectual $onOrAt $market released a statement critical of $rulingfaction and was arrested shortly thereafter. $rulingfaction officials have made no comment.",
+   "ctx": "data/campaign/reports.csv civil_disorder/possible2/news/ [summary]"
+  },
+  {
+   "i": 74,
+   "en": "A protest was held outside local $rulingFaction administration headquarters $onOrAt $market. The crowd was dispersed by authorities, resulting in several deaths.",
+   "ctx": "data/campaign/reports.csv civil_disorder/possible3/news/ [summary]"
+  },
+  {
+   "i": 75,
+   "en": "$faction has released a statement condemning the unnecessarily harsh $rulingFaction crackdown on protests $onOrAt $market.",
+   "ctx": "data/campaign/reports.csv civil_disorder/possible3/tritachyon_public,\nhegemony_public/HOSTILE [summary]"
+  },
+  {
+   "i": 76,
+   "en": "$faction has released a statement condemning the protests taking place $onOrAt $market, urging their leaders to turn themselves in to $rulingFaction officials.",
+   "ctx": "data/campaign/reports.csv civil_disorder/possible3/tritachyon_public,\nhegemony_public/FRIENDLY [summary]"
+  },
+  {
+   "i": 77,
+   "en": "Local $rulingfaction authorities $onOrAt $market have announced that several prominent anti-government agitators have been arrested.",
+   "ctx": "data/campaign/reports.csv civil_disorder/possible4/news/ [summary]"
+  },
+  {
+   "i": 78,
+   "en": "There are indicators that civil disorder is all but certain to occur $onOrAt $market within a few weeks.",
+   "ctx": "data/campaign/reports.csv civil_disorder/likely/player_intel/ [summary]"
+  },
+  {
+   "i": 79,
+   "en": "A general strike has broken out $onOrAt $market. $rulingfaction officials have released a statement condemning the actions of a few anti-government ringleaders. ",
+   "ctx": "data/campaign/reports.csv civil_disorder/start1/news/ [summary]"
+  },
+  {
+   "i": 80,
+   "en": "A series of bombings targeting $rulingparty facilities $onOrAt $market has taken place. An official statement was made promising that the perpetrators would be brought to justice.",
+   "ctx": "data/campaign/reports.csv civil_disorder/start2/news/ [summary]"
+  },
+  {
+   "i": 81,
+   "en": "Acts of sabotage have brought major production centers $onOrAt $market to a standstill.",
+   "ctx": "data/campaign/reports.csv civil_disorder/start3/news/ [summary]"
+  },
+  {
+   "i": 82,
+   "en": "Martial law has been declared $onOrAt $market to suppress civil disorder.",
+   "ctx": "data/campaign/reports.csv civil_disorder/ending1/news/ [summary]"
+  },
+  {
+   "i": 83,
+   "en": "$rulingfaction officials $onOrAt $market have announced raids on several opposition safehouses. The resulting shootout led to scores of casualties.",
+   "ctx": "data/campaign/reports.csv civil_disorder/ending2/news/ [summary]"
+  },
+  {
+   "i": 84,
+   "en": "Marines have been deployed to major population centers $onOrAt $market to quell the civil disorder.",
+   "ctx": "data/campaign/reports.csv civil_disorder/ending3/news/ [summary]"
+  },
+  {
+   "i": 85,
+   "en": "Talks have opened between $rulingFaction and opposition leaders $onOrAt $market.",
+   "ctx": "data/campaign/reports.csv civil_disorder/ending4/news/ [summary]"
+  },
+  {
+   "i": 86,
+   "en": "Martial law has been lifted as peace returns to $market.",
+   "ctx": "data/campaign/reports.csv civil_disorder/end1/news/ [summary]"
+  },
+  {
+   "i": 87,
+   "en": "Marines have been withdrawn from major population centers as peace returns to $market.",
+   "ctx": "data/campaign/reports.csv civil_disorder/end2/news/ [summary]"
+  },
+  {
+   "i": 88,
+   "en": "Intelligence indicates that terrorists have obtained a cache of illegal weapons and intend to use them against government targets.",
+   "ctx": "data/campaign/reports.csv sindria_terrorists/likely/sindrian_diktat_internal/ [summary]"
+  },
+  {
+   "i": 89,
+   "en": "A public monument commemorating the Lion's military victories was destroyed in a midnight bombing that was swiftly condemned by Diktat officials. A temporary curfew has been imposed in the major hive-cities and security patrols increased.",
+   "ctx": "data/campaign/reports.csv sindria_terrorists/start1/news/ [summary]"
+  }
+ ]
+}

@@ -1,0 +1,251 @@
+{
+ "chunk": 234,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"Captain. Though not without some character befitting an officer, you are an outsider and cannot be expected to understand.\"\r\n\r\n\"The Diktat has enemies within and without; if it is fighting with itself, it will never survive. I must do what I must to maintain our strength even if I am put into,\" her lip curls, \"an intolerable position.\" ",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk3WhySmuggleB [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"Captain. I shall be forthright out of respect for a fellow officer.\"\r\n\r\n\"It is,\" her lip curls in a sneer, \"Intolerable. I have not been given due authority, yet I have responsibility for the System Defense Armada.\"\r\n\r\n\"Macario, through Caden, seeks to starve my fleets and make me look incompetent. Philip Andrada would never have stood for it, if he was capable. If he wasn't beguiled by flatterers and liars. If he was the Philip Andrada I pledged myself to during the Battle of Salus!\"",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk3WhySmuggleC [text]"
+  },
+  {
+   "i": 3,
+   "en": "Hyder smoothly hits the privacy field activation switch, blinks, then faces you.",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk3BossPrivacy [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"Who told you that?\" she demands, \"Macario?\"\r\n\r\nSettling her composure, she continues. \"Regardless, the Supreme Executor sits above the senior ministry-level officers of the Sindrian Diktat. I report to him, of course.\"",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalkBossA [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"I expect Macario told you that,\" she says, eyes seemingly fixed on yours through the comms. \"Testing my resolve from every angle.\"\r\n\r\nShe looks aside for a moment, \"It is no wonder the so-called Resistance has lasted this long with the Chief High Inspector-General so committed to doing anything other than his duty.\" \r\n\r\nSettling her composure, she continues. \"Regardless, the Supreme Executor sits above the Grand Star Marshal and all ministry-level offices of the Sindrian Diktat. I would report to him, of course.\"",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalkBossB [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"I expect Macario told you that,\" she says, eyes fixed somewhere above the comms. \"Testing my loyalty from every angle he can find, I'm sure.\"\r\n\r\n\"But it is a problem. To maintain proper hierarchy of authority, the Supreme Executor should have assigned me that rank and the accompanying powers. Then I would be able to simply dictate around the supply deficit Macario and Caden conspired to create.\"\r\n\r\nStill looking elsewhere, \"But then, under Andrada, they wouldn't have dared...\"",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalkBossC [text]"
+  },
+  {
+   "i": 7,
+   "en": "Her face twitches, eyes fixed intensely on you for a moment.",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalkBossC2 [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"Yes,\" she says empathically, with the weight of a stalled career and impossible position.",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalkBossPromotionA [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"That would be correct. Not, of course, to presume.\" She looks conflicted.\r\n\r\n\"It would be... it is the responsibility of the Supreme Executor himself to assign that rank and office.\"",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalkBossPromotionB [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"A meeting of the high ministers could theoretically agree to invoke the Articles of Succession, but Macario wants to ensure that it is he who dictates the result of that meeting. And he'll drain the lifeblood of the Sindrian Diktat for as long as it takes.\" ",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalkBossPromotionOpt3 [text]"
+  },
+  {
+   "i": 11,
+   "en": "Her eyes fix on you. She doesn't like this question, not one bit.\r\n\r\n\"That is no business of yours.\"",
+   "ctx": "data/campaign/rules.csv sdtuGyderTalk3BossTalkAndrada [text]"
+  },
+  {
+   "i": 12,
+   "en": "Her eyes fix on you. She doesn't like the question.\r\n\r\n\"Too long,\" she says evenly.",
+   "ctx": "data/campaign/rules.csv sdtuGyderTalk3BossTalkAndradaB [text]"
+  },
+  {
+   "i": 13,
+   "en": "The speed at which Hyder smashes the privacy field activation switch is impressive for a woman of her years.",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk3Andrada [text]"
+  },
+  {
+   "i": 14,
+   "en": "After a long moment, she sighs.\r\n\r\n\"Whatever Macario told you, whatever you believe and think you know, the future of the Sindrian Diktat... will be determined without your meddling.\"\r\n\r\nShe sounds more tired than ever before. ",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk3Andrada2a [text]"
+  },
+  {
+   "i": 15,
+   "en": "She looks suddenly more tired than ever before.\r\n\r\n\"If the Supreme Executor was dead, we wouldn't be having this conversation. Macario would like to line his pieces up just right. And you're as good as one of them.\"",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk3Andrada2b [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"So Macario told you that much,\" she says, and sighs, looking more tired than ever before. She seems to think something over, and comes to a decision.\r\n\r\n\"The Supreme Executor isn't dead,\" she says, \"not yet.\" She almost breathes the next word, \"barely.\"\r\n\r\n\"I fear when he dies we shall be thrown into the crisis manufactured by Macario. It could undo everything we fought for.\" She rubs her face with her hands, \"Would that the good ones who followed Admiral Andrada all those years ago were not taken from us. Would that the worst did not rise to the top.\"",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk3Andrada2c [text]"
+  },
+  {
+   "i": 17,
+   "en": "She lets out a cynical laugh.\r\n\r\n\"No, not me. I am not a great man like Philip Andrada. Give me a fleet, my orders, and my cause. That is all I need to do my duty.\"\r\n\r\nShe looks up and away, \"He is... he was different. He had vision, and a surety of purpose that moved history itself by will alone.\"",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk3Leadership [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"Provided the navy did not stand in his way, provided the Supreme Executor was... dead. Then he would be the next in line.\"\r\n\r\n\"Could he lead?\" She scoffs. \"The Lion's Guard is his personal empire, his church, his cult, sucking up resources for a parade-navy. We could have made the Sindrian Diktat strong, even great, but Caden had to start a religion.\"\r\n\r\nShe looks away, \"Andrada enjoyed the... the worship. He favored Caden, and it blinded him, impaired his judgment. Caden would martyr us all to the idol he's built of Andrada. I doubt even Macario could really control him. I'm sure he thinks he can.\"",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk3LeadershipCaden [text]"
+  },
+  {
+   "i": 19,
+   "en": "She just looks at you for a long moment, unspeaking.\r\n\r\nThe comms cut to a holding pattern.",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk3LeadershipYou [text]"
+  },
+  {
+   "i": 20,
+   "en": "She just nods, distracted perhaps by the implications of your conversation.\r\n\r\nThe comms cut to a holding pattern.",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalkEndBye [text]"
+  },
+  {
+   "i": 21,
+   "en": "She just looks at you. Like staring down the barrel of a coilgun.\r\n\r\nThe comms cut to a holding pattern.",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalkEndGlory [text]"
+  },
+  {
+   "i": 22,
+   "en": "After a short wait, Macario's image appears.\r\n\r\n\"Oh captain, so thoughtful of you to stop by on a social call,\" he says icily. \"You do already have the file on the traitor, and the transponder code of their little flotilla. You have my full confidence in pulling this one off.\"\r\n\r\n\"Until then?\" He says this like it's a question, but it isn't, because he's already killed the link.",
+   "ctx": "data/campaign/rules.csv sdtuMacarioNeedToInterceptPatrol [text]"
+  },
+  {
+   "i": 23,
+   "en": "After a short wait, Macario's image appears.\r\n\r\n\"Captain, captain, captain,\" he smirks. \"I eagerly await the results of your discussion with Vice Star Mashal Hyder.\"\r\n\r\n\"Until then?\" He says this like it's a question, but it isn't, because he's already killed the link.",
+   "ctx": "data/campaign/rules.csv sdtuMacarioNeedToMeetHyder [text]"
+  },
+  {
+   "i": 24,
+   "en": "After a short wait, Macario's image appears. He looks like he is anticipating a tasty meal. \r\n\r\n\"Captain, I am so pleased to have you join me once again. Deputy Star Marshal Hyder was not too upset? You didn't offend her sense of honor too deeply? But no, I should allow you to speak.\" He winks and taps a datapad.",
+   "ctx": "data/campaign/rules.csv sdtuMacarioPostHyderGreeting [text]"
+  },
+  {
+   "i": 25,
+   "en": "You have the Diktat patrol fleet officer in your brig for Macario. Best to address old business first.",
+   "ctx": "data/campaign/rules.csv sdtuPostHyderPrisonerOpt0 [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"You do?\" Macario releases a quick breath, looking to the side, annoyed. \"Fine, fine, send them over and we'll have that loose end trimmed.\"\r\n\r\nHe taps each hand once on his desk, then brings them together and looks at you attentively. \"Now tell me about Hyder.\"",
+   "ctx": "data/campaign/rules.csv sdtuPostHyderPrisonerRespA [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"Really?\" Macario looks amused, \"How charming.\"\r\n\r\n\"Well, it doesn't hurt to give my operatives a bit of a challenge. Wouldn't want to let them go soft, eh?\"\r\n\r\nHe taps each hand once on his desk, then brings them together and looks at you attentively. \"Now tell me about Hyder.\"",
+   "ctx": "data/campaign/rules.csv sdtuPostHyderPrisonerRespB [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"Oh?\" Macario's eyebrow raises. \"But you didn't.\"",
+   "ctx": "data/campaign/rules.csv sdtuPostHyderPrisonerRespC [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"Interesting,\" he says, then leans forward. \"Don't disappoint me, captain. I think you're too smart to think I'm stupid.\"\r\n\r\nHe leans back again, and flicks his fingers. \"Have the prisoner. I don't care. They'll end up dead one way or another. We like to tidy up loose ends around here. Now, about Hyder.\"",
+   "ctx": "data/campaign/rules.csv sdtuPostHyderPrisonerRespC1 [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"You're giving up so easily.\" he says, looking hurt. Then he leans forward. \"Do as you will, captain, but do not disappoint me. You're too smart for that, aren't you?\"\r\n\r\nHe leans back again, and flicks his fingers. \"Well, do transfer the prisoner. We like to tidy up loose ends around here. Now, about Hyder.\"",
+   "ctx": "data/campaign/rules.csv sdtuPostHyderPrisonerRespC3 [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"Yes yes, very sad, accidents and so forth,\" he says impatiently. \"Tell me about Hyder.\"",
+   "ctx": "data/campaign/rules.csv sdtuPostHyderPrisonerRespD [text]"
+  },
+  {
+   "i": 32,
+   "en": "It may be to your advantage to tell Macario certain lies. He seems perceptive, so it is unlikely that you can get away with telling too many.",
+   "ctx": "data/campaign/rules.csv sdtuPostHyderReportLiesHub [text]"
+  },
+  {
+   "i": 33,
+   "en": "You've already lied once to Macario. It might test his patience to push further.",
+   "ctx": "data/campaign/rules.csv sdtuPostHyderLiesOptionLieWarning [text]"
+  },
+  {
+   "i": 34,
+   "en": "\"Yes,\" Macario says, \"I know that already.\"",
+   "ctx": "data/campaign/rules.csv sdtuPostHyderHatesYou [text]"
+  },
+  {
+   "i": 35,
+   "en": "Macario nods, thoughtfully rubbing his chin.",
+   "ctx": "data/campaign/rules.csv sdtuPostHyderHateRespA [text]"
+  },
+  {
+   "i": 36,
+   "en": "\"Hmm,\" he says, thinking. \"Continue.\"",
+   "ctx": "data/campaign/rules.csv sdtuPostHyderHateRespB [text]"
+  },
+  {
+   "i": 37,
+   "en": "Macario's eyebrows raise just a little, like he's just a tiny bit impressed by that one.",
+   "ctx": "data/campaign/rules.csv sdtuPostHyderHateRespC [text]"
+  },
+  {
+   "i": 38,
+   "en": "\"Interesting,\" he lies.",
+   "ctx": "data/campaign/rules.csv sdtuPostHyderHateRespD [text]"
+  },
+  {
+   "i": 39,
+   "en": "\"Only half?\" Macario feigns surprise, \"How charitable!\"",
+   "ctx": "data/campaign/rules.csv sdtuPostHyderHateRespE [text]"
+  },
+  {
+   "i": 40,
+   "en": "\"Of course. Well done.\" He drums his fingers impatiently.",
+   "ctx": "data/campaign/rules.csv sdtuPostHyderHateRespF [text]"
+  },
+  {
+   "i": 41,
+   "en": "\"Very good of her to notice,\" he says. \"Pity there's nothing she can do about it.\"",
+   "ctx": "data/campaign/rules.csv sdtuPostHyderPromotion [text]"
+  },
+  {
+   "i": 42,
+   "en": "\"Hmm. Yes,\" Macario leans back, tapping his fingers together. \"She is not wrong to see it. Ha! Caden. Imagine him in charge. Dress-up and parades while the worlds crumble.\"\r\n\r\n\"Not to worry,\" he says cheerfully, \"Caden will perform quite adequately as figurehead provided he's given plenty of little distractions.\"",
+   "ctx": "data/campaign/rules.csv sdtuPostHyderCaden [text]"
+  },
+  {
+   "i": 43,
+   "en": "\"Good! You can't run a polity like a battleship!\" Macario shakes his head, \"Now if she'd simply recognize that the business of ruling should be handled by someone more capable.\"",
+   "ctx": "data/campaign/rules.csv sdtuPostHyderHerLead [text]"
+  },
+  {
+   "i": 44,
+   "en": "\"At least she put it together,\" Macario checks a fingernail for dirt.\r\n\r\n\"Hyder will just have to use what she's got more effectively - and source her contraband more stealthily. I've found that many subordinates can thrive under pressure,\" he adds helpfully. \r\n\r\n\"Hmm,\" he considers, \"subject to circumstances, naturally.\"",
+   "ctx": "data/campaign/rules.csv sdtuPostHyderSupply [text]"
+  },
+  {
+   "i": 45,
+   "en": "\"Fascinating,\" he leans forward.\r\n\r\n\"She always did admire Andrada's boldness and genius. And while Caden is no Andrada, he might serve as an acceptable substitute - the alternative would be chaos. Hyder can see that, and perhaps she is capable of putting aside her personal feelings for the greater good... yes, that could be it.\"",
+   "ctx": "data/campaign/rules.csv sdtuPostHyderLieBacksCaden [text]"
+  },
+  {
+   "i": 46,
+   "en": "\"Truly?\" He leans back, rubbing his chin.\r\n\r\n\"This is an unexpected turn. As a trained military commander, perhaps Hyder recognizes - despite her personal feelings - that aligning herself with a powerful leader will lead to the best outcome.\"",
+   "ctx": "data/campaign/rules.csv sdtuPostHyderLieBacksMacario [text]"
+  },
+  {
+   "i": 47,
+   "en": "\"Hyder? Leading the Sindrian Diktat?\" He blurts out a single laugh, but his eyes are not amused.\r\n\r\n\"Nonsense, of course. But if she believes there was not another choice that could fit within her peculiar sense of ethics and psychological need for order... placing herself in what she thinks is control... yes, the motive could fit.\"\r\n\r\nHe sighs, looking up. \"Ah, but what this would cost! The question then is how much of the navy will back her - a not insignificant number of that, let us be realistic, rather plebeian force even looks up to her. She's 'strict but fair', they say.\"\r\n\r\nHe shakes his head, distracted; working out risk analyses for future schemes.",
+   "ctx": "data/campaign/rules.csv sdtuPostHyderLieWantsToLead [text]"
+  },
+  {
+   "i": 48,
+   "en": "\"Fascinating! And what did she say?\" He leans forward, attention focused. \"Did she accept?\"",
+   "ctx": "data/campaign/rules.csv sdtuPostHyderHegemonyOut [text]"
+  },
+  {
+   "i": 49,
+   "en": "\"Damnation!\" Macario pounds a fist on the table, but he can't help but continue grinning. \"Excellent work. I shall have to pursue this angle.\"\r\n\r\n\"It will be,\" he furiously rubs his hands together,\"... fun.\"",
+   "ctx": "data/campaign/rules.csv sdtuPostHyderHegemonyOut2 [text]"
+  }
+ ]
+}

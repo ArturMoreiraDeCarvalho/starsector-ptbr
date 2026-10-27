@@ -1,0 +1,251 @@
+{
+ "chunk": 222,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"You are what you do, not the lies you tell yourself.\"\r\n\r\nHe reaches for an interface, pauses, then speaks.\r\n\r\n\"Now go away.\"",
+   "ctx": "data/campaign/rules.csv RaoPitchDiktatCom3c2 [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"Hah,\" Orcus Rao says, rolling his eyes. \"We got another one.\"\r\n\r\nHe makes a shoo motion. \"Off with you.\"\r\n\r\nThe comms cut.",
+   "ctx": "data/campaign/rules.csv RaoPitchDiktatCom3d [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"You're already signed up with the Hegemony. Good. That saves me a lot of bureaucratic nonsense.\"",
+   "ctx": "data/campaign/rules.csv RaoPitchHegCom [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"As you bear the commission of the Persean League...\" He makes a half-shrug. \"I can't have you in a position of divided loyalty.\"\r\n\r\n\"Let us speak again on the matter if your situation changes.\"\r\n\r\nHis tone makes it clear that the issue is settled. For now.",
+   "ctx": "data/campaign/rules.csv RaoPitchLeagueCom [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"Seeing as you're a full, albeit junior, member of the Persean League we can't have you in a position of divided loyalty, can we.\"\r\n\r\nHe produces a little shrug. \"Let us speak again on the matter if your situation changes.\"\r\n\r\nHis tone makes it clear that the issue is settled. For now.",
+   "ctx": "data/campaign/rules.csv RaoPitchLeagueMember [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"Seeing as you're a full, albeit junior, member of the Persean League... well, we can't very well divide your loyalties.\"\r\n\r\n\"Besides,\" a fleeting smile appears. \"I see you've fallen into Reynard Hannan's orbit. An ego of that size produces a gravity well which is very difficult to escape.\"",
+   "ctx": "data/campaign/rules.csv RaoPitchLeagueHannan [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Of course.\"\r\n\r\nHe sits back, face falling into shadow.",
+   "ctx": "data/campaign/rules.csv RaoPitchLeagueHannanA [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"But you made the deal,\" Rao says impishly. \"You didn't have to.\"",
+   "ctx": "data/campaign/rules.csv RaoPitchLeagueHannanB [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"Then nothing more need be said.\"\r\n\r\nHis tone makes it clear that the conversation is over.",
+   "ctx": "data/campaign/rules.csv RaoPitchLeagueHannanBexplain [text]"
+  },
+  {
+   "i": 10,
+   "en": "Rao holds a finger to his cheek for a moment, thinking.\r\n\r\n\"It could be earned,\" he says. \"But that's up to you.\"",
+   "ctx": "data/campaign/rules.csv RaoPitchLeagueHannanBprot [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"What admirable loyalty! How Reynard earns it, I've never understood. I must study his leadership closely, for I obviously have much to learn.\" The sarcasm runs thick.\r\n\r\nRao sits back, face falling into shadow.",
+   "ctx": "data/campaign/rules.csv RaoPitchLeagueHannanC [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"Seeing as you're a full, albeit junior, member of the Persean League... we can't have you in a position of divided loyalty, can we.\"\r\n\r\nHe produces a little shrug.\r\n\r\n\"But perhaps,\" he looks aside. \"We might have a mutual friend on Kazeron?\"",
+   "ctx": "data/campaign/rules.csv RaoPitchLeagueYaribay [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"I understand. Keeping with his trust is more important than serving that goal.\" He leans back, \"It's interesting.\"",
+   "ctx": "data/campaign/rules.csv RaoPitchLeagueYaribayMum [text]"
+  },
+  {
+   "i": 14,
+   "en": "Rao raises an eyebrow, his expression amused.",
+   "ctx": "data/campaign/rules.csv RaoPitchLeagueYaribayMum2b [text]"
+  },
+  {
+   "i": 15,
+   "en": "He smiles coyly, leaving your statement deliberately unanswered.\r\n\r\n\"It is possible our work together would serve certain common goals.\"",
+   "ctx": "data/campaign/rules.csv RaoPitchLeagueYaribay2 [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"Although the Hegemony is no stranger to making common cause with the Church of Galactic Redemption...\"\r\n\r\nHe makes a half-shrug.\r\n\r\n\"You've chosen your path. I couldn't possibly distract you from your god-bothering.\"",
+   "ctx": "data/campaign/rules.csv RaoPitchChurchNo [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"The Hegemony is no stranger to making common cause with the Church of Galactic Redemption...\" He makes a half-shrug.\r\n\r\n\"I suppose,\" he says slowly, \"If you can put up with me, I can deal with your god-bothering.\"",
+   "ctx": "data/campaign/rules.csv RaoPitchChurchMaybe [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"The Hegemony is no stranger to making common cause with the Church of Galactic Redemption...\" He makes a half-shrug, then pauses to look right at you.\r\n\r\n\"It's the guns you've given Standfast,\" his words are precise, \"that convince me of your dedication.\"\r\n\r\nHe looks away, casual again. \"If you can put up with me, I can deal with your god-bothering.\"",
+   "ctx": "data/campaign/rules.csv RaoPitchChurchMaybeGuns [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"Ludd, I think, doesn't need self-appointed curates to shield the Faith from my little comments,\" he says, his eyes suddenly sharp. \"Pray on the matter. I insist.\"\r\n\r\nHe leans back, and his face falls into shadow.",
+   "ctx": "data/campaign/rules.csv RaoPitchChurchDisrespect [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"I'd like to offer you work. You don't have to salute me, and I'll make sure you're paid promptly.\"\r\n\r\nHe leans forward, his hands together. \"What do you think? Could be fun. Play your cards right, and you'll be a legend.\"",
+   "ctx": "data/campaign/rules.csv RaoPitchOffer [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"The truth makes few friends.\" Rao produces a wry smile.\r\n\r\n\"I never could stand a fool, especially when they're members of the Strategic Assembly. So,\" he holds his hand out to indicate his surroundings, Ragnar Complex.\r\n\r\n\"It's not so bad.\"",
+   "ctx": "data/campaign/rules.csv RaoPitchOptRespect [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"A proper officer of the Hegemony is taught to leap toward the enemy, blazing guns. Once the noise quiets down, they'll wait, slack-jawed, for the medals to get pinned to their uniforms.\" \r\n\r\n\"Such is the way of the Domain, which we must uphold.\"\r\n\r\nHe half-raises a finger, a quirk on his lips. \"Officially,\" he concludes.",
+   "ctx": "data/campaign/rules.csv RaoPitchOptWhatNeed [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"Baikal was kind enough to find me a place where I could get important work done. I deal with... let us call them 'unique circumstances'. And for this I find it necessary to have energetic freelancers available.\"\r\n\r\n\"I'll ensure you're paid promptly for a roster of small merc jobs.\"\r\n\r\n\"Then, perhaps something big will come up. When it does, I want to know I can count on you.\"",
+   "ctx": "data/campaign/rules.csv RaoPitchOptWhatNeed2 [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"I'm offering you the chance to be the grit that throws history off its axis.\"\r\n\r\nHe lets a sly smile fade. \"There are many bodies of power turning just now. Slowly grinding away, warships and bombings and riots and resources.\"\r\n\r\n\"The Persean Sector needs change, or it will grind what's left of us to dust.\"",
+   "ctx": "data/campaign/rules.csv RaoPitchOptTakeCircumstances [text]"
+  },
+  {
+   "i": 25,
+   "en": "A cold, quick expression passes over his face.\r\n\r\n\"Let us say that I'd be as satisfied as any Hegemony officer to cut down that pompous traitor. Setting aside even the matter of honor, I have a personal dislike of the man.\"",
+   "ctx": "data/campaign/rules.csv RaoPitchOptTakeDiktat [text]"
+  },
+  {
+   "i": 26,
+   "en": "Rao lets out a slow breath. \"That's talk for old comrades, over drink.\"\r\n\r\nHe leans back, not quite committing to a frown.\r\n\r\n\"Patience, captain.\"",
+   "ctx": "data/campaign/rules.csv RaoPitchOptPersonal [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"There's rules to break when you need to win, and there's betrayal. These are very different things, fundamentally so, captain. He and I have done the former, but he threw away his honor with the latter.\"\r\n\r\n\"We are not. the. same.\" Rao's words come out slow, and cold. \r\n",
+   "ctx": "data/campaign/rules.csv RaoPitchOptCourtMartial [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"Good,\" his approval comes with a sly smile. \"Have your people set up secure comms. We'll show the Strategic Assembly how it's done.\"",
+   "ctx": "data/campaign/rules.csv RaoPitchAccept [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"Let us speak again on the matter if your situation changes.\"\r\n\r\nHis tone makes it clear that the issue is settled. For now.",
+   "ctx": "data/campaign/rules.csv RaoPitchNopeGentle [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"Nothing more need be said.\"\r\n\r\nHis tone makes it clear that the conversation is over.",
+   "ctx": "data/campaign/rules.csv RaoPitchNopeFirm [text]"
+  },
+  {
+   "i": 31,
+   "en": "The comms-link takes a moment to establish. Skiron adjusts the feed parameters as she greets you, clearly unused to holo-comms.\r\n\r\n\"Captain. Your crew have been most helpful in establishing a colonial comms network. Have you been able to reach Command? We are most anxious to receive new orders, especially given our upgraded capacities.\"",
+   "ctx": "data/campaign/rules.csv defaultSkironGreetingNotToldYet [text]"
+  },
+  {
+   "i": 32,
+   "en": "The comms-link takes a moment to establish. Skiron adjusts the feed parameters as she greets you.\r\n\r\n\"Greetings captain. All proceeds in accordance with protocol.\"",
+   "ctx": "data/campaign/rules.csv defaultSkironGreeting [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"Of course; the Protocols are-\" She catches herself and looks just a little embarrassed. \"I mean to say, we continue to follow the principles, yes. We are receiving updated training to bring the settlement in line with current doctrine, as per the personal request of the High Hegemon.\"\r\n\r\nShe sits up just a little straighter, as if Baikal Daud is, perhaps, keeping an eye on her.",
+   "ctx": "data/campaign/rules.csv skironAskProtocols2 [text]"
+  },
+  {
+   "i": 34,
+   "en": "\"I would like to extend the thanks of myself and our colony for your technical assistance,\" Commander Skiron beams as she speaks.\r\n\r\n\"The crew you left with us are ready to return to your $shipOrFleet; my quartermaster shall coordinate transport with your subordinates,\" she says.\r\n\r\n\"Well, ah. Most of them will be returning. A few have come to... other accommodations in their time among us, and we honor their contribution to our world.\"",
+   "ctx": "data/campaign/rules.csv skironReturnCrewToPlayer2 [text]"
+  },
+  {
+   "i": 35,
+   "en": "$HeOrShe blinks at you.\r\n\r\n\"Why're you talking to me, then? Call her yourself,\" $heOrShe says with a snort.\r\nOR\r\n\"Kanta? Ha-ha, I'll just ask if she's free.\"\r\n\r\n$HeOrShe lets that hang for a moment.\r\n\r\n\"You get hit on the head? You don't just - talk - to the Warlord. Need's you a real good reason. Anyway, not up to me,\" $heOrShe crosses $hisOrHer arms. \"Ask the station king.\"\r\nOR\r\n\"Yeah? That'll have to be too bad 'cause I just do my bit, and if she wants something, someone tells me. Only goes one way.\"\r\n\r\n$HeOrShe leans back, satisfied with that explanation.\r\nOR\r\n\"Talk to the station king,\" $heOrShe says brusquely. \"Not for me to say who gets to see the pirate queen.\"",
+   "ctx": "data/campaign/rules.csv kdOtherPostAskKanta [text]"
+  },
+  {
+   "i": 36,
+   "en": "Your request cycles for a minute, then routes to a different link.",
+   "ctx": "data/campaign/rules.csv kdKantaGreetingColony [text]"
+  },
+  {
+   "i": 37,
+   "en": "The vid feed flickers to life, a wash of static and audio distortion receding as your datapad adjusts for outdated comm protocols.",
+   "ctx": "data/campaign/rules.csv kdSKConvoStart [text]"
+  },
+  {
+   "i": 38,
+   "en": "\"Yeah, who're you?\" $personName snarls. \"And what makes you think you can show your rotten vis on this line asking for big K? She's ent gonna talk to any mudboot that crawls aboard unless it's to tell 'em about their one-way trip to join the disk, ha-ha.\"",
+   "ctx": "data/campaign/rules.csv kdKantaGreetingRouteFirstTime [text]"
+  },
+  {
+   "i": 39,
+   "en": "\"Yeah, who're you?\" $personName snarls before bothering to glance at a grimy datapad. \"Ah,\" $hisOrHer demeanor shifts hostility down several levels. \"You again. Right, right.\"",
+   "ctx": "data/campaign/rules.csv kdKantaGreetingRouteRevisit [text]"
+  },
+  {
+   "i": 40,
+   "en": "\"Yeah, who're you?\" $personName snarls before bothering to glance at a grimy datapad. \r\n\r\n\"Ah,\" $heOrShe grunts, dropping the datapad with a clatter. \"I see now. You ent nothing, are you. Got a fleet, have you. Got business to talk?\"",
+   "ctx": "data/campaign/rules.csv kdSKHelloFirstTimeA [text]"
+  },
+  {
+   "i": 41,
+   "en": "\"Yeah, who're you?\" $personName snarls before bothering to glance at a grimy datapad.\r\n\r\n\"Ah,\" $heOrShe grunts, dropping the datapad with a clatter. \"I see now. You ent nothing, are you. Got a colony or two, have you. Got business to talk?\"",
+   "ctx": "data/campaign/rules.csv kdSKHelloFirstTimeB [text]"
+  },
+  {
+   "i": 42,
+   "en": "\"Yeah, who're you?\" $personName snarls before bothering to glance at a grimy datapad. $heOrShe grunts, dropping the datapad with a clatter. \"You're nothing. Why are you here, wasting my time?\"",
+   "ctx": "data/campaign/rules.csv kdSKHelloFirstTimeC [text]"
+  },
+  {
+   "i": 43,
+   "en": "The portking of Kanta's Den appears before you with all of $hisOrHer singular charm. \"You blasted, bloody rad-addled fool! You think you can vac-drop the Warlord's pet then just dance yourself back into her home? Them is some brassies you've got $playerName, but you got 'em instead of brains. I almost respect it.\"\r\n\r\n$HeOrShe spits, the projectile presumably landing on $hisOrHer own control interface, \"But only almost. Meantime, I'll be sittin' and smilin' watching all Kanta's underbosses fight for the chance to slag your flagship.\"",
+   "ctx": "data/campaign/rules.csv kdKantaGreetingRouteRevisitLoke [text]"
+  },
+  {
+   "i": 44,
+   "en": "After an exceptionally rude gesture, the comms cut out.",
+   "ctx": "data/campaign/rules.csv kdKantaGreetingRouteRevisitLoke2 [text]"
+  },
+  {
+   "i": 45,
+   "en": "The pilot goes through routine chatter with what passes for traffic control. At the point that control asks for the standard bribe for a good landing slot, you have comms control forwarded to your datapad.\r\n\r\n\"Yeh, who's this then, shuttle?\" control crackles, \"Gonna buy me lunch, or do you like waiting?\"",
+   "ctx": "data/campaign/rules.csv kdTrafficControlFirstTime [text]"
+  },
+  {
+   "i": 46,
+   "en": "The pilot goes through routine chatter with what passes for traffic control. A previous bribe means you're recognized and get you a direct comms request to the station king, no waiting.",
+   "ctx": "data/campaign/rules.csv kdTrafficControlRevisitBribe [text]"
+  },
+  {
+   "i": 47,
+   "en": "The pilot goes through routine chatter with what passes for traffic control. A previous bribe means you're recognized and given no more trouble than usual.",
+   "ctx": "data/campaign/rules.csv kdTrafficControlRevisitGeneric [text]"
+  },
+  {
+   "i": 48,
+   "en": "The pilot goes through routine chatter with what passes for traffic control, then suddenly pulls away in an evasive maneuver.\r\n\r\n\"Sorry captain,\" the pilot's voice crackles through to you. \"We, uh, have a problem. And um, incoming comms.\"",
+   "ctx": "data/campaign/rules.csv kdTrafficControlRevisitMurder [text]"
+  },
+  {
+   "i": 49,
+   "en": "The vid feed flickers to life, a wash of static and audio distortion receding as your datapad adjusts for outdated comm protocols.\r\n\r\nThe portking of Kanta's Den appears before you with all of $hisOrHer singular charm. \"You blasted, bloody rad-addled fool! You think you can vac-drop the Warlord's pet then just dance yourself back into her home? Them is some brassies you've got $playerName, but you got 'em instead of brains. I almost respect it.\"\r\n\r\n$HeOrShe spits, the projectile presumably landing on $hisOrHer own control interface, \"But only almost. Meantime, I'll be sittin' and smilin' watching all Kanta's underbosses fight for the chance to slag your flagship.\"",
+   "ctx": "data/campaign/rules.csv kdTrafficControlRevisitMurder2 [text]"
+  }
+ ]
+}

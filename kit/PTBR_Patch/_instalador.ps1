@@ -4,7 +4,8 @@
 param(
     [Parameter(Mandatory = $true)][ValidateSet("pt", "en")][string]$Acao,
     [string]$Jogo,
-    [switch]$SemPausa
+    [switch]$SemPausa,
+    [switch]$SemElevar   # só para testes: não abre o pedido de administrador
 )
 
 $ErrorActionPreference = "Stop"
@@ -171,8 +172,43 @@ if (-not $Jogo) {
 $Jogo = (Resolve-Path -LiteralPath $Jogo).ProviderPath
 Write-Host "Jogo: $Jogo"
 
-if (-not (PodeEscrever $Jogo)) {
-    Write-Host "Sem permissão para alterar a pasta do jogo. Pedindo permissão de administrador..."
+function PodeEscreverTudo([string]$jogo) {
+    # o instalador grava no jogo e no backup_original (dentro da pasta do kit); as duas pastas precisam aceitar escrita
+    if (-not (PodeEscrever $jogo)) { return $false }
+    if (-not (PodeEscrever (Join-Path $jogo "data"))) { return $false }
+    if (-not (Test-Path -LiteralPath $Bkp)) {
+        try { New-Item -ItemType Directory -Path $Bkp -Force -ErrorAction Stop | Out-Null } catch { return $false }
+    }
+    return (PodeEscrever $Bkp)
+}
+
+function VersaoCompativel([string]$jogo) {
+    # compara o jar principal com o original e com o traduzido; outro conteúdo indica outra versão do jogo
+    $jar = Join-Path $jogo "starfarer_obf.jar"
+    $atual = Hash $jar
+    $original = $null
+    if (Test-Path -LiteralPath $ArqHashes) {
+        $original = ([System.IO.File]::ReadAllText($ArqHashes, $Utf8) | ConvertFrom-Json)."starfarer_obf.jar"
+    }
+    if (-not $original) { return $true }
+    $traduzido = Join-Path $Loc "starfarer_obf.jar"
+    if ($atual -eq $original) { return $true }
+    if ((Test-Path -LiteralPath $traduzido) -and $atual -eq (Hash $traduzido)) { return $true }
+    if (Test-Path -LiteralPath (NoDisco $Bkp "starfarer_obf.jar")) { return $true }
+    return $false
+}
+
+if ($Acao -eq "pt" -and -not (VersaoCompativel $Jogo)) {
+    Write-Host ""
+    Write-Host "Este kit é para o Starsector 0.98a-RC8, e o seu jogo parece ser de outra versão"
+    Write-Host "(o arquivo starfarer_obf.jar não é o da 0.98a-RC8)."
+    Write-Host "Nada foi alterado. Procure uma versão do kit para a sua versão do jogo."
+    Sair 1
+}
+
+if (-not (PodeEscreverTudo $Jogo)) {
+    Write-Host "O Windows não deixa alterar a pasta do jogo sem permissão de administrador. Pedindo permissão..."
+    if ($SemElevar) { Write-Host "(teste: elevação desativada)"; exit 3 }
     $argumentos = @("-NoProfile", "-ExecutionPolicy", "Bypass", "-File", "`"$($MyInvocation.MyCommand.Path)`"",
         "-Acao", $Acao, "-Jogo", "`"$Jogo`"")
     try {
@@ -216,6 +252,12 @@ try {
 } catch {
     Write-Host ""
     Write-Host "Erro: $($_.Exception.Message)"
-    Write-Host "Se o jogo estiver aberto, feche-o e rode de novo."
+    if ($_.Exception -is [System.UnauthorizedAccessException]) {
+        Write-Host "O Windows negou acesso a um arquivo. Clique com o botão direito em INSTALAR.bat e escolha"
+        Write-Host "'Executar como administrador'. Se o jogo ou o launcher estiverem abertos, feche-os antes."
+    } elseif ($_.Exception -is [System.IO.IOException]) {
+        Write-Host "Um arquivo está em uso. Feche o jogo e o launcher e rode de novo."
+    }
+    Write-Host "Os arquivos já trocados têm o original guardado em backup_original; rodar de novo é seguro."
     Sair 1
 }

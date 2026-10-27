@@ -1,0 +1,33 @@
+COMO GERAR O KIT PARA UMA VERSÃO NOVA DO STARSECTOR
+
+As traduções ficam em units/ e são reaproveitadas: só os textos novos ou alterados pela versão nova
+precisam de tradução. Os passos abaixo partem de uma instalação limpa (em inglês) da versão nova.
+
+PREPARAR
+1. Instale a versão nova do jogo sem a tradução.
+2. Copie os arquivos originais para backup/ (mesma estrutura de starsector-core):
+   os .csv/.json/.txt/.java/.faction/.skill/.variant/.skin de data/, os dois jars e graphics/fonts/.
+3. Baixe o mapa de campos traduzíveis do projeto chinês para ref/para_tranz_map.json
+   (https://github.com/TruthOriginem/Starsector-Localization-CN; o mapa é atualizado a cada versão do jogo).
+4. Passe os dois jars pelo jar-string-decoupler e coloque o resultado em ref/decoupled/.
+
+EXTRAIR E TRADUZIR
+5. python -X utf8 tools/sstr.py extract       acrescenta blocos units/*.en.json só com os textos que ainda não existem
+6. python -X utf8 tools/sstr.py status        mostra o que falta traduzir (as traduções antigas são reaplicadas)
+7. python -X utf8 tools/sstr.py show N        lista o bloco N para traduzir; grave em units/NNNN_cat.pt.json
+8. python -X utf8 tools/sstr.py validate      precisa dar 0 problemas
+9. python -X utf8 tools/glossario.py          lista termos fora do GLOSSARIO.txt para revisão
+
+GERAR E TESTAR
+10. python -X utf8 tools/sstr.py build        gera build/ (dados, jars e fontes com acentos)
+11. python -X utf8 tools/sstr.py verifyjar    verificação estrutural dos jars
+12. java tools/VerifyJars.java                carrega todas as classes dos jars traduzidos
+13. Atualize a versão em kit/PTBR_Patch/README.txt, no instalador e no script Python (textos "0.98a-RC8").
+14. python -X utf8 kit/packaging/make_kit.py  gera kit/PTBR_Patch/localization e o zip
+15. python -X utf8 kit/packaging/teste_kit.py testes do instalador (precisa dar 0 falhas)
+16. Instale numa cópia do jogo, abra até o menu principal e confira o starsector.log.
+
+REGRAS QUE O JOGO IMPÕE (aprendidas na 0.98a)
+- Não use aspas curvas “ ” em rules.csv: o jogo as converte em " e quebra a contagem de aspas ("Mismatched quotes").
+- Textos de opções de diálogo não podem ter ":", porque o jogo usa ":" para separar a ordem da opção.
+- Os CSVs precisam de quebra de linha CRLF.

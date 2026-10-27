@@ -773,6 +773,9 @@ def cmd_build():
         else:
             write_text(out, val)
     print(f"build: {len(written)} data files + jars in {BUILD}")
+    # fontes com letras acentuadas (tools/fontfix.py)
+    import subprocess
+    subprocess.run([sys.executable, "-X", "utf8", os.path.join(os.path.dirname(os.path.abspath(__file__)), "fontfix.py")], check=True)
 
 
 def cmd_show():

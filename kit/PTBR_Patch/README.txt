@@ -19,6 +19,8 @@ Feche o jogo antes de começar.
 
 Se o instalador não achar o jogo, ele abre uma janela para você escolher a pasta do Starsector.
 Se o jogo estiver em Arquivos de Programas, o Windows pede permissão de administrador. Isso é normal: a pasta do jogo é protegida.
+Se mesmo assim aparecer "acesso negado", clique com o botão direito em INSTALAR.bat e escolha "Executar como administrador".
+O instalador só funciona no Starsector 0.98a-RC8; em outra versão ele avisa e não altera nada.
 
 VOLTAR AO INGLÊS
 Dê dois cliques em PTBR_Patch\DESINSTALAR.bat.
@@ -39,7 +41,7 @@ SE O SCRIPT RECUSAR ARQUIVOS
 Ele não troca um arquivo quando o conteúdo do jogo é diferente do original e da tradução, por exemplo se outra tradução ou um patch já estiver aplicado. Restaure os originais do jogo (com a cópia feita antes ou, se o jogo for da Steam, pela verificação de integridade) e rode o script de novo.
 
 LIMITAÇÕES CONHECIDAS
-- Algumas fontes do jogo (futura, ursula, arial13 e arial14) não têm acentos. Nelas, os acentos podem não aparecer ou sair errados.
+- Nove fontes do jogo não tinham letras acentuadas (arial13, arial14, futura12, futura16, insignia12, ursula12, ursula14 e ursula16). O kit inclui versões dessas fontes com os acentos desenhados à mão; eles podem ficar um pouco diferentes do resto da letra.
 - Alguns textos continuam em inglês por decisão: linhas de depuração e teste do desenvolvedor, e nomes de naves e armas.
 - A tradução foi feita com apoio de IA e ainda não passou por revisão completa. Se encontrar erros, avise.
 

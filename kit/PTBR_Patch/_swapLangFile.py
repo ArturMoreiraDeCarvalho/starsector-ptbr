@@ -95,6 +95,18 @@ def aplicar_pt(jogo):
     return trocados, recusados
 
 
+def versao_compativel(jogo):
+    """O jar principal precisa ser o original da 0.98a-RC8, o traduzido, ou já ter original guardado."""
+    original = ler_json(ORIGINAIS, {}).get("starfarer_obf.jar")
+    if not original:
+        return True
+    atual = sha256(os.path.join(jogo, "starfarer_obf.jar"))
+    traduzido = os.path.join(LOC, "starfarer_obf.jar")
+    return (atual == original
+            or (os.path.exists(traduzido) and atual == sha256(traduzido))
+            or os.path.exists(os.path.join(BKP, "starfarer_obf.jar")))
+
+
 def voltar_en(jogo):
     manifesto = ler_json(MANIFESTO, {"novos": []})
     restaurados = 0
@@ -146,7 +158,17 @@ def main():
         if not os.path.isdir(LOC):
             print("Pasta localization não encontrada.")
             return 1
-        trocados, recusados = aplicar_pt(jogo)
+        if not versao_compativel(jogo):
+            print("Este kit é para o Starsector 0.98a-RC8, e o seu jogo parece ser de outra versão")
+            print("(o arquivo starfarer_obf.jar não é o da 0.98a-RC8). Nada foi alterado.")
+            return 1
+        try:
+            trocados, recusados = aplicar_pt(jogo)
+        except PermissionError as e:
+            print("Sem permissão para gravar:", e.filename)
+            print("Rode o terminal como administrador (Windows) ou com sudo (Linux), ou mova o jogo para uma pasta sua.")
+            print("Os arquivos já trocados têm o original guardado em backup_original; rodar de novo é seguro.")
+            return 1
         print(f"{trocados} arquivo(s) traduzido(s) aplicado(s) em {jogo}")
         print("Originais guardados em backup_original (não apague essa pasta).")
         if recusados:

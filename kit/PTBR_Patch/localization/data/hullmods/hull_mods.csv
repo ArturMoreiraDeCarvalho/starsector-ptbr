@@ -162,7 +162,7 @@ Apoio Terrestre Avançado,advanced_ground_support,,,,,,,,TRUE,,0,0,0,0,com.fs.st
 Maquinário Delicado,delicate,,,,,,,,TRUE,,0,0,0,0,data.hullmods.DelicateMachinery,"Os sistemas da nave exigem manutenção excessiva e não resistem bem às agruras de combates prolongados.
 
 Aumenta a taxa de degradação de CR em combate após o fim do tempo de desempenho máximo em %s.",Aumenta a taxa de degradação de CR após o fim do tempo de pico.,,graphics/hullmods/delicate_machinery.png
-Integração Balística Pesada,hbi,,,,,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.HeavyBallisticsIntegration,Reduz o custo em pontos de artilharia de armas balísticas grandes em %s.,Reduz o custo em pontos de artilharia de armas balísticas grandes.,,graphics/hullmods/ballistics_integration.png
+Integração Balística Pesada,hbi,,,,,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.HeavyBallisticsIntegration,Reduz o custo em pontos de equipamento de armas balísticas grandes em %s.,Reduz o custo em pontos de equipamento de armas balísticas grandes.,,graphics/hullmods/ballistics_integration.png
 Hangar Vasto,vast_hangar,,,,,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.VastHangar,"A nave tem um enorme hangar e uma pequena frota de embarcações de apoio correspondente.
 
 O número de baias de caças adicionadas pelo Hangar Convertido é aumentado em %s, e seu desempenho se iguala ao de uma baia de caças dedicada - todas as penalidades e modificadores, inclusive os do custo de implantação da nave, são anulados.",Aumenta o efeito do Hangar Convertido e remove suas penalidades.,,graphics/hullmods/vast_hangar.png

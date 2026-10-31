@@ -1,5 +1,19 @@
 <p align="center">
-  <img src="imagens/banner.jpg" alt="Starsector PT-BR" width="800">
+  <a href="https://github.com/ArturMoreiraDeCarvalho/starsector-ptbr/releases/latest/download/PTBR_Patch.zip">
+    <img src="imagens/banner.jpg" alt="Starsector PT-BR: clique para baixar" width="800">
+  </a>
+</p>
+
+<p align="center">
+  Clique no banner para baixar a tradução.<br>
+  Leia a seção <a href="#como-instalar-windows">Como instalar</a> antes de começar.<br>
+  Se as fontes ficarem quebradas ou o instalador recusar arquivos, veja <a href="#problemas-conhecidos">Problemas conhecidos</a>.
+</p>
+
+<p align="center">
+  <a href="https://github.com/ArturMoreiraDeCarvalho/starsector-ptbr/releases/latest"><img src="https://img.shields.io/github/v/release/ArturMoreiraDeCarvalho/starsector-ptbr" alt="Versão"></a>
+  <a href="https://github.com/ArturMoreiraDeCarvalho/starsector-ptbr/releases"><img src="https://img.shields.io/github/downloads/ArturMoreiraDeCarvalho/starsector-ptbr/total" alt="Downloads"></a>
+  <img src="https://img.shields.io/badge/Starsector-0.98a--RC8-blue" alt="Starsector 0.98a-RC8">
 </p>
 
 <h1 align="center">Starsector em Português do Brasil</h1>
@@ -56,15 +70,17 @@ Pronto. Para **voltar ao inglês**, dê dois cliques em `PTBR_Patch\DESINSTALAR.
 
 - 23.049 textos: diálogos e eventos da campanha, missões, descrições de naves, armas, sistemas, planetas e itens, menus, dicas, habilidades e o Codex.
 - Textos de interface que ficam dentro do código do jogo (`starfarer_obf.jar` e `starfarer.api.jar`).
-- Letras acentuadas nas nove fontes do jogo que não as tinham.
+- Letras acentuadas nas oito fontes do jogo que não as tinham.
 - **Continuam em inglês, por decisão:** nomes de naves e armas, e linhas de depuração do desenvolvedor.
 
-## Limitações
+## Problemas conhecidos
 
 - Funciona só no **Starsector 0.98a-RC8**.
 - A tradução foi feita com apoio de IA e ainda não passou por revisão completa.
 - Textos de mods não são traduzidos; a compatibilidade com mods não foi testada.
-- Os acentos das nove fontes foram desenhados à mão e podem destoar um pouco da letra.
+- Os acentos das oito fontes foram montados com sinais que já existem na própria fonte, então podem destoar um pouco da letra.
+- **Fontes quebradas com o VRAM Optimizer (causa não confirmada):** se as letras ficarem embaralhadas com esse mod ativo, o cache de texturas dele pode estar guardando a versão antiga das fontes. Para testar, desative o VRAM Optimizer, ou rode o `DDSCreator.exe` dele com **Purge Metadata** e depois **ProcessMods**, e avise o resultado.
+- **Arquivos não trocados pelo instalador:** veja a tabela de dúvidas comuns acima.
 
 ## Encontrou um erro?
 

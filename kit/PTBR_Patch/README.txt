@@ -41,7 +41,7 @@ SE O SCRIPT RECUSAR ARQUIVOS
 Ele não troca um arquivo quando o conteúdo do jogo é diferente do original e da tradução, por exemplo se outra tradução ou um patch já estiver aplicado. Restaure os originais do jogo (com a cópia feita antes ou, se o jogo for da Steam, pela verificação de integridade) e rode o script de novo.
 
 LIMITAÇÕES CONHECIDAS
-- Nove fontes do jogo não tinham letras acentuadas (arial13, arial14, futura12, futura16, insignia12, ursula12, ursula14 e ursula16). O kit inclui versões dessas fontes com os acentos desenhados à mão; eles podem ficar um pouco diferentes do resto da letra.
+- Oito fontes do jogo não tinham letras acentuadas (arial13, arial14, futura12, futura16, insignia12, ursula12, ursula14 e ursula16). O kit inclui versões dessas fontes com os acentos montados a partir de sinais que já existem na própria fonte; eles podem ficar um pouco diferentes do resto da letra.
 - Alguns textos continuam em inglês por decisão: linhas de depuração e teste do desenvolvedor, e nomes de naves e armas.
 - A tradução foi feita com apoio de IA e ainda não passou por revisão completa. Se encontrar erros, avise.
 

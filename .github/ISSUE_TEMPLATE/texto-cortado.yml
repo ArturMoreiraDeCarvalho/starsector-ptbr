@@ -1,0 +1,45 @@
+name: Texto cortado ou fora do lugar
+description: Um texto que não cabe na tela, sai do botão ou sobrepõe outro.
+title: "[Cortado] "
+labels: ["texto cortado"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Alguns rótulos ficaram maiores em português e podem não caber. Um print resolve quase tudo.
+  - type: textarea
+    id: print
+    attributes:
+      label: Print da tela
+      description: Arraste a imagem para cá. Sem o print, fica difícil achar o texto certo.
+    validations:
+      required: true
+  - type: input
+    id: onde
+    attributes:
+      label: Tela ou menu
+      placeholder: "Ex.: refit, mercado, frota, Códex, configurações"
+    validations:
+      required: true
+  - type: input
+    id: texto
+    attributes:
+      label: Texto cortado
+      description: O que aparece escrito (mesmo cortado).
+  - type: dropdown
+    id: resolucao
+    attributes:
+      label: Resolução do jogo
+      options:
+        - 1280x720 ou menor
+        - 1366x768
+        - 1600x900
+        - 1920x1080
+        - 2560x1440
+        - Maior que 2560x1440
+        - Não sei
+  - type: input
+    id: versao
+    attributes:
+      label: Versão da tradução
+      placeholder: "Ex.: 1.2.0"

@@ -20,6 +20,8 @@ import hashlib
 import json
 import os
 import shutil
+import subprocess
+import sys
 import zipfile
 
 PACOTE = os.path.dirname(os.path.abspath(__file__))
@@ -159,25 +161,53 @@ def gerar_anteriores():
     return len(saida)
 
 
+def atualizar_anteriores():
+    """Roda o coletor de hashes do histórico do git (se o repositório estiver ao lado), para o instalador
+    reconhecer também a versão que acabou de ser publicada. Falha em silêncio: sem git, usa o arquivo já salvo."""
+    try:
+        r = subprocess.run([sys.executable, "-X", "utf8", os.path.join(PACOTE, "coletar_anteriores.py")],
+                           capture_output=True, text=True, encoding="utf-8", errors="replace")
+        print("coletar_anteriores:", (r.stdout.strip().splitlines() or ["sem saída"])[-1])
+    except OSError as e:
+        print("coletar_anteriores não rodou:", e)
+
+
+def gerar_sha256(zip_path):
+    """Output/PTBR_Patch.zip.sha256 no formato do sha256sum: '<hash>  PTBR_Patch.zip'."""
+    h = sha256(zip_path)
+    with open(zip_path + ".sha256", "w", encoding="ascii", newline="\n") as f:
+        f.write(f"{h}  {os.path.basename(zip_path)}\n")
+    return h
+
+
 def gerar_zip():
     os.makedirs(SAIDA, exist_ok=True)
     destino = os.path.join(SAIDA, "PTBR_Patch.zip")
     if os.path.exists(destino):
         os.remove(destino)
+    # Zip reprodutível: data fixa e permissões fixas em todas as entradas, para que a mesma versão gere sempre o
+    # mesmo SHA-256 (qualquer pessoa pode reconstruir e conferir).
     with zipfile.ZipFile(destino, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=6) as z:
         for rel in arquivos_em(PATCH):
             if rel.startswith("backup_original/") or "__pycache__/" in rel:
                 continue
-            z.write(no_disco(PATCH, rel), arcname="PTBR_Patch/" + rel)
+            info = zipfile.ZipInfo("PTBR_Patch/" + rel, date_time=(2026, 1, 1, 0, 0, 0))
+            info.compress_type = zipfile.ZIP_DEFLATED
+            info.external_attr = 0o644 << 16
+            with open(no_disco(PATCH, rel), "rb") as f:
+                z.writestr(info, f.read(), compress_type=zipfile.ZIP_DEFLATED, compresslevel=6)
     return destino
 
 
 if __name__ == "__main__":
     n = sincronizar()
     m_arq, m_lin = gerar_mescla()
+    atualizar_anteriores()
     n_ant = gerar_anteriores()
     zip_path = gerar_zip()
+    hash_zip = gerar_sha256(zip_path)
     print(n, "arquivos em localization")
     print("mescla:", m_arq, "arquivos,", m_lin, "linhas")
     print("versões anteriores reconhecidas em", n_ant, "arquivos")
+    print("sha256:", hash_zip)
     print("zip:", zip_path, os.path.getsize(zip_path), "bytes")

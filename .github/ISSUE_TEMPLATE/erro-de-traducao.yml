@@ -1,0 +1,47 @@
+name: Erro de tradução
+description: Uma frase estranha, um termo errado ou um erro de ortografia na tradução.
+title: "[Tradução] "
+labels: ["tradução"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por ajudar! Quanto mais exato o relato, mais rápido eu corrijo.
+        Se você tem só uma dúvida ou sugestão geral, o [tópico no fórum](https://fractalsoftworks.com/forum/index.php?topic=36208.0) também serve.
+  - type: input
+    id: onde
+    attributes:
+      label: Onde aparece no jogo
+      description: A tela, o menu, a missão ou o personagem.
+      placeholder: "Ex.: tela de refit, aba de modificações / diálogo com a Baird / dica de carregamento"
+    validations:
+      required: true
+  - type: textarea
+    id: ingles
+    attributes:
+      label: Texto em inglês (original)
+      description: Se você não souber, deixe em branco. Um print ajuda.
+      render: text
+  - type: textarea
+    id: portugues
+    attributes:
+      label: Texto em português (como aparece)
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: sugestao
+    attributes:
+      label: Sugestão de correção
+      description: Como você acha que deveria ficar, ou o motivo de estar errado.
+  - type: input
+    id: versao
+    attributes:
+      label: Versão da tradução
+      description: Aparece na janela do instalador e em `PTBR_Patch\MUDANCAS.txt`.
+      placeholder: "Ex.: 1.2.0"
+  - type: textarea
+    id: print
+    attributes:
+      label: Print (opcional)
+      description: Arraste a imagem para cá.

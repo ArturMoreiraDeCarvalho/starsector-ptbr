@@ -87,6 +87,23 @@ Pronto. Para **voltar ao inglês**, dê dois cliques em `PTBR_Patch\DESINSTALAR.
 **Linux / macOS:** com Python 3, rode dentro da pasta `PTBR_Patch`:
 `python3 -X utf8 _swapLangFile.py pt` (aplica) ou `... en` (volta ao inglês). Não testado.
 
+## É seguro? O que o instalador faz
+
+O `INSTALAR.bat` chama o [`_instalador.ps1`](kit/PTBR_Patch/_instalador.ps1), um script de texto que qualquer pessoa pode ler aqui no repositório. Pelo código, ele:
+
+- **copia** os arquivos da pasta `PTBR_Patch\localization` para dentro da pasta do jogo e **guarda o original** de cada um em `PTBR_Patch\backup_original`;
+- **não acessa a internet**, **não mexe no registro do Windows** e **não instala nada**;
+- só pede permissão de administrador quando o Windows não deixa escrever na pasta do jogo (comum em Arquivos de Programas). Se você recusar, nada é alterado;
+- escreve apenas na pasta do jogo e em `PTBR_Patch\backup_original`.
+
+**Conferir o download:** o SHA-256 de cada versão está nas notas do [release](https://github.com/ArturMoreiraDeCarvalho/starsector-ptbr/releases), junto com o arquivo `PTBR_Patch.zip.sha256`. No PowerShell, na pasta do download:
+
+```
+Get-FileHash .\PTBR_Patch.zip -Algorithm SHA256
+```
+
+O resultado precisa ser igual ao das notas. Se o seu antivírus reclamar de um script novo e pouco conhecido, você pode ler o `_instalador.ps1` antes de rodar, ou usar a instalação manual descrita no `README.txt` do kit, que só copia arquivos.
+
 ## O que foi traduzido
 
 - 23.049 textos: diálogos e eventos da campanha, missões, descrições de naves, armas, sistemas, planetas e itens, menus, dicas, habilidades e o Codex.

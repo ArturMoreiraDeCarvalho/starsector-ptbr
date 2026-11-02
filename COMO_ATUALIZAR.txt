@@ -22,10 +22,17 @@ GERAR E TESTAR
 10. python -X utf8 tools/sstr.py build        gera build/ (dados, jars e fontes com acentos)
 11. python -X utf8 tools/sstr.py verifyjar    verificação estrutural dos jars
 12. java tools/VerifyJars.java                carrega todas as classes dos jars traduzidos
-13. Atualize a versão em kit/PTBR_Patch/README.txt, no instalador e no script Python (textos "0.98a-RC8").
-14. python -X utf8 kit/packaging/make_kit.py  gera kit/PTBR_Patch/localization e o zip
-15. python -X utf8 kit/packaging/teste_kit.py testes do instalador (precisa dar 0 falhas)
+13. Atualize a versão em kit/PTBR_Patch/README.txt, MUDANCAS.txt, no instalador e no script Python (variável Versao / VERSAO).
+14. python -X utf8 kit/packaging/make_kit.py  gera kit/PTBR_Patch/localization, o zip e o PTBR_Patch.zip.sha256
+    (o make_kit roda sozinho o coletar_anteriores.py, que lê o histórico do git do repositório público; assim o
+    instalador reconhece a versão que está publicada. Publique a versão anterior no git ANTES de gerar a nova.)
+15. python -X utf8 kit/packaging/teste_kit.py testes do instalador (precisa dar 0 falhas; não rode junto com o make_kit)
 16. Instale numa cópia do jogo, abra até o menu principal e confira o starsector.log.
+PUBLICAR
+17. Commit e push no GitHub. Crie o release (gh release create vX.Y.Z) anexando PTBR_Patch.zip e PTBR_Patch.zip.sha256,
+    e ponha o SHA-256 nas notas. O zip é reprodutível: a mesma versão gera sempre o mesmo hash. Não troque o zip de um
+    release já publicado, porque o hash das notas deixaria de valer.
+18. Baixe o zip pelo link público e confira que o SHA-256 é o das notas.
 
 REGRAS QUE O JOGO IMPÕE (aprendidas na 0.98a)
 - Não use aspas curvas “ ” em rules.csv: o jogo as converte em " e quebra a contagem de aspas ("Mismatched quotes").

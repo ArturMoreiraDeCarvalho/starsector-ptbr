@@ -14,6 +14,7 @@
   <a href="https://github.com/ArturMoreiraDeCarvalho/starsector-ptbr/releases/latest"><img src="https://img.shields.io/github/v/release/ArturMoreiraDeCarvalho/starsector-ptbr" alt="Versão"></a>
   <a href="https://github.com/ArturMoreiraDeCarvalho/starsector-ptbr/releases"><img src="https://img.shields.io/github/downloads/ArturMoreiraDeCarvalho/starsector-ptbr/total" alt="Downloads"></a>
   <img src="https://img.shields.io/badge/Starsector-0.98a--RC8-blue" alt="Starsector 0.98a-RC8">
+  <a href="https://fractalsoftworks.com/forum/index.php?topic=36208.0"><img src="https://img.shields.io/badge/F%C3%B3rum-t%C3%B3pico%20oficial-orange" alt="Tópico no fórum"></a>
 </p>
 
 <h1 align="center">Starsector em Português do Brasil</h1>
@@ -30,6 +31,17 @@
 </p>
 
 ---
+
+## Novidades da v1.1.0
+
+- **"Pontos de equipamento"**: Ordnance Points (OP) deixou de ser "pontos de artilharia", a pedido de jogadores. O termo também cobre ventiladores, capacitores e modificações.
+- **Funciona melhor com outros mods**: se outro mod já alterou um arquivo do jogo, o instalador traduz as linhas que continuam iguais às do original e mantém as mudanças do mod. Antes, o arquivo ficava inteiro em inglês. O `DESINSTALAR.bat` devolve a versão do mod.
+- **Acentos em oito fontes** que não tinham letras acentuadas.
+- **Instalador mais seguro**: pede permissão de administrador quando a pasta do jogo é protegida, recusa outras versões do jogo sem alterar nada e mostra a versão do kit.
+
+Já tinha a v1.0.0? **Rode o `DESINSTALAR.bat` da versão antiga antes** de instalar a nova. A lista completa está em [`MUDANCAS.txt`](kit/PTBR_Patch/MUDANCAS.txt) e nos [releases](https://github.com/ArturMoreiraDeCarvalho/starsector-ptbr/releases).
+
+Comentários e dúvidas: [tópico no fórum do Starsector](https://fractalsoftworks.com/forum/index.php?topic=36208.0).
 
 ## Como instalar (Windows)
 
@@ -63,6 +75,7 @@ Pronto. Para **voltar ao inglês**, dê dois cliques em `PTBR_Patch\DESINSTALAR.
 | Arquivos "traduzidos em parte" | Outro mod já alterou esses arquivos. O instalador traduziu as linhas iguais às do original e manteve as mudanças do mod. Os textos que o mod trocou continuam em inglês. |
 | Alguns arquivos "não foram trocados" | Nenhuma linha pôde ser traduzida (por exemplo, um jar alterado por outro patch). Restaure os originais e rode de novo. |
 | Não apague a pasta `PTBR_Patch\backup_original` | É lá que ficam os arquivos originais do jogo. |
+| Vou atualizar de uma versão antiga do kit | Rode o `DESINSTALAR.bat` da versão antiga, depois extraia e instale a nova. Sem isso, o instalador novo trata a tradução antiga como se fosse outro mod. |
 
 **Linux / macOS:** com Python 3, rode dentro da pasta `PTBR_Patch`:
 `python3 -X utf8 _swapLangFile.py pt` (aplica) ou `... en` (volta ao inglês). Não testado.
@@ -86,7 +99,7 @@ Pronto. Para **voltar ao inglês**, dê dois cliques em `PTBR_Patch\DESINSTALAR.
 
 ## Encontrou um erro?
 
-Abra uma [Issue](https://github.com/ArturMoreiraDeCarvalho/starsector-ptbr/issues) com o texto em inglês, o texto em português e onde ele aparece no jogo.
+Abra uma [Issue](https://github.com/ArturMoreiraDeCarvalho/starsector-ptbr/issues) ou comente no [tópico do fórum](https://fractalsoftworks.com/forum/index.php?topic=36208.0), com o texto em inglês, o texto em português e onde ele aparece no jogo. Se um texto aparecer cortado na tela, mande um print.
 
 <details>
 <summary><b>Para quem quer contribuir com a tradução</b></summary>
@@ -100,6 +113,8 @@ Abra uma [Issue](https://github.com/ArturMoreiraDeCarvalho/starsector-ptbr/issue
 | `tools/glossario.py` | lista textos que fogem dos termos do `GLOSSARIO.txt` |
 | `tools/textos_longos.py` | lista rótulos curtos que ficaram bem maiores em português e podem cortar na tela |
 | `kit/packaging/` | monta o zip (`make_kit.py`) e testa o instalador (`teste_kit.py`) |
+| `kit/PTBR_Patch/mescla.dat` | linha original → linha traduzida, usado para traduzir em parte os arquivos que outro mod alterou (gerado pelo `make_kit.py`) |
+| `relatorios/textos_longos.txt` | rótulos que podem cortar na tela, para conferir no jogo |
 | `COMO_ATUALIZAR.txt` | passo a passo para gerar o kit de uma versão nova do jogo |
 
 Depois de editar uma tradução em `units/NNNN_<tipo>.pt.json`, rode:

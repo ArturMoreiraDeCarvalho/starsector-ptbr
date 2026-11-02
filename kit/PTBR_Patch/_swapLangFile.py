@@ -30,6 +30,8 @@ LOC = os.path.join(KIT, "localization")
 BKP = os.path.join(KIT, "backup_original")
 MANIFESTO = os.path.join(BKP, "_manifesto.json")
 ORIGINAIS = os.path.join(KIT, "hashes_originais.json")
+MESCLA = os.path.join(KIT, "mescla.dat")
+VERSAO = "1.1.0"
 
 
 def sha256(caminho):
@@ -66,15 +68,73 @@ def gravar_json(caminho, dados):
         json.dump(dados, f, ensure_ascii=False, indent=2)
 
 
+_MESCLA = None
+
+
+def carregar_mescla():
+    """mescla.dat: para cada arquivo, chave da linha original -> linha traduzida (veja make_kit.py)."""
+    global _MESCLA
+    if _MESCLA is not None:
+        return _MESCLA
+    _MESCLA = {}
+    if not os.path.exists(MESCLA):
+        return _MESCLA
+    with open(MESCLA, "rb") as f:
+        linhas = f.read().split(b"\n")
+    if linhas[0] != b"PTBR-MESCLA 1":
+        return _MESCLA
+    i = 1
+    while i < len(linhas):
+        if linhas[i].startswith(b"@"):
+            rel, n = linhas[i][1:].split(b"\t")
+            n = int(n)
+            bloco = linhas[i + 1:i + 1 + 2 * n]
+            _MESCLA[rel.decode("utf-8")] = {bloco[k].decode("ascii"): bloco[k + 1] for k in range(0, 2 * n, 2)}
+            i += 1 + 2 * n
+        else:
+            i += 1
+    return _MESCLA
+
+
+def mesclar(entrada, saida, rel):
+    """Traduz as linhas que continuam iguais às do original. Devolve quantas trocou; com 0 não grava."""
+    mapa = carregar_mescla().get(rel)
+    if not mapa:
+        return 0
+    with open(entrada, "rb") as f:
+        linhas = f.read().split(b"\n")
+    trocadas = 0
+    for j, linha in enumerate(linhas):
+        cr = linha.endswith(b"\r")
+        corpo = linha[:-1] if cr else linha
+        if not corpo:
+            continue
+        alvo = mapa.get(hashlib.sha256(corpo).hexdigest()[:16])
+        if alvo is not None:
+            linhas[j] = alvo + (b"\r" if cr else b"")
+            trocadas += 1
+    if trocadas:
+        with open(saida, "wb") as f:
+            f.write(b"\n".join(linhas))
+    return trocadas
+
+
 def aplicar_pt(jogo):
     originais = ler_json(ORIGINAIS, {})
     manifesto = ler_json(MANIFESTO, {"novos": []})
+    mesclados = list(manifesto.get("mesclados", []))
     recusados = []
+    parciais = []
     trocados = 0
     for rel in arquivos_em(LOC):
         origem = no_disco(LOC, rel)
         destino = no_disco(jogo, rel)
         guardado = no_disco(BKP, rel)
+        if rel in mesclados and os.path.exists(guardado):
+            # já foi traduzido em parte: refaz a partir da versão do outro mod guardada no backup
+            parciais.append((rel, mesclar(guardado, destino, rel)))
+            trocados += 1
+            continue
         if os.path.exists(destino):
             atual = sha256(destino)
             if atual == sha256(origem):
@@ -84,15 +144,28 @@ def aplicar_pt(jogo):
                     os.makedirs(os.path.dirname(guardado), exist_ok=True)
                     shutil.copy2(destino, guardado)  # guarda o original antes de trocar
             elif not os.path.exists(guardado):
-                recusados.append(rel)  # conteúdo desconhecido e sem original guardado
+                # alterado por outro mod: traduz só as linhas que continuam iguais às do original
+                temp = destino + ".ptbr_tmp"
+                n = mesclar(destino, temp, rel)
+                if n == 0:
+                    recusados.append(rel)
+                    continue
+                os.makedirs(os.path.dirname(guardado), exist_ok=True)
+                shutil.copy2(destino, guardado)
+                os.replace(temp, destino)
+                mesclados.append(rel)
+                parciais.append((rel, n))
+                trocados += 1
                 continue
         elif rel not in manifesto["novos"]:
             manifesto["novos"].append(rel)  # arquivo novo: a volta ao inglês remove
         os.makedirs(os.path.dirname(destino), exist_ok=True)
         shutil.copy2(origem, destino)
         trocados += 1
+    if mesclados:
+        manifesto["mesclados"] = mesclados
     gravar_json(MANIFESTO, manifesto)
-    return trocados, recusados
+    return trocados, recusados, parciais
 
 
 def versao_compativel(jogo):
@@ -118,6 +191,11 @@ def voltar_en(jogo):
             os.makedirs(os.path.dirname(destino), exist_ok=True)
             shutil.copy2(no_disco(BKP, rel), destino)
             restaurados += 1
+    for rel in manifesto.get("mesclados", []):
+        # a cópia guardada é a versão do outro mod, já devolvida ao jogo; sem ela, a próxima instalação mescla de novo
+        guardado = no_disco(BKP, rel)
+        if os.path.exists(guardado):
+            os.remove(guardado)
     removidos = 0
     for rel in manifesto["novos"]:
         destino = no_disco(jogo, rel)
@@ -128,6 +206,7 @@ def voltar_en(jogo):
         rel
         for rel in arquivos_em(LOC)
         if not os.path.exists(no_disco(BKP, rel)) and rel not in manifesto["novos"]
+        and rel not in manifesto.get("mesclados", [])
     ]
     if os.path.exists(MANIFESTO):
         os.remove(MANIFESTO)
@@ -146,6 +225,7 @@ def main():
         "--game", help="pasta starsector-core, se não estiver ao lado desta pasta"
     )
     args = parser.parse_args()
+    print(f"Tradução PT-BR do Starsector 0.98a-RC8 (kit v{VERSAO})")
 
     jogo = args.game or os.path.normpath(os.path.join(KIT, "..", "starsector-core"))
     if not os.path.isfile(os.path.join(jogo, "starfarer_obf.jar")):
@@ -163,7 +243,7 @@ def main():
             print("(o arquivo starfarer_obf.jar não é o da 0.98a-RC8). Nada foi alterado.")
             return 1
         try:
-            trocados, recusados = aplicar_pt(jogo)
+            trocados, recusados, parciais = aplicar_pt(jogo)
         except PermissionError as e:
             print("Sem permissão para gravar:", e.filename)
             print("Rode o terminal como administrador (Windows) ou com sudo (Linux), ou mova o jogo para uma pasta sua.")
@@ -171,6 +251,11 @@ def main():
             return 1
         print(f"{trocados} arquivo(s) traduzido(s) aplicado(s) em {jogo}")
         print("Originais guardados em backup_original (não apague essa pasta).")
+        if parciais:
+            print(f"{len(parciais)} arquivo(s) alterado(s) por outro mod foram traduzidos em parte:")
+            for rel, n in parciais[:30]:
+                print(f"    {rel} ({n} linhas)")
+            print("As mudanças do outro mod foram mantidas. Os textos que ele trocou continuam em inglês.")
         if recusados:
             print(f"{len(recusados)} arquivo(s) não foram trocados, porque o conteúdo é diferente do original e da tradução:")
             for rel in recusados[:30]:

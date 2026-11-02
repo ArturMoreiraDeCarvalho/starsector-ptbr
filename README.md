@@ -60,7 +60,8 @@ Pronto. Para **voltar ao inglês**, dê dois cliques em `PTBR_Patch\DESINSTALAR.
 | Aparece "acesso negado" | Clique com o botão direito em `INSTALAR.bat` e escolha **Executar como administrador**. |
 | O instalador não acha o jogo | Ele abre uma janela para você escolher a pasta do Starsector. |
 | "Este kit é para o Starsector 0.98a-RC8" | Seu jogo é de outra versão. Nada foi alterado. |
-| Alguns arquivos "não foram trocados" | Outro mod ou tradução já alterou esses arquivos. Restaure os originais e rode de novo. |
+| Arquivos "traduzidos em parte" | Outro mod já alterou esses arquivos. O instalador traduziu as linhas iguais às do original e manteve as mudanças do mod. Os textos que o mod trocou continuam em inglês. |
+| Alguns arquivos "não foram trocados" | Nenhuma linha pôde ser traduzida (por exemplo, um jar alterado por outro patch). Restaure os originais e rode de novo. |
 | Não apague a pasta `PTBR_Patch\backup_original` | É lá que ficam os arquivos originais do jogo. |
 
 **Linux / macOS:** com Python 3, rode dentro da pasta `PTBR_Patch`:
@@ -80,7 +81,8 @@ Pronto. Para **voltar ao inglês**, dê dois cliques em `PTBR_Patch\DESINSTALAR.
 - Textos de mods não são traduzidos; a compatibilidade com mods não foi testada.
 - Os acentos das oito fontes foram montados com sinais que já existem na própria fonte, então podem destoar um pouco da letra.
 - **Fontes quebradas com o VRAM Optimizer (causa não confirmada):** se as letras ficarem embaralhadas com esse mod ativo, o cache de texturas dele pode estar guardando a versão antiga das fontes. Para testar, desative o VRAM Optimizer, ou rode o `DDSCreator.exe` dele com **Purge Metadata** e depois **ProcessMods**, e avise o resultado.
-- **Arquivos não trocados pelo instalador:** veja a tabela de dúvidas comuns acima.
+- **Arquivos alterados por outro mod:** ficam traduzidos em parte. Veja a tabela de dúvidas comuns acima.
+- As mudanças de cada versão estão em [`kit/PTBR_Patch/MUDANCAS.txt`](kit/PTBR_Patch/MUDANCAS.txt).
 
 ## Encontrou um erro?
 
@@ -96,6 +98,7 @@ Abra uma [Issue](https://github.com/ArturMoreiraDeCarvalho/starsector-ptbr/issue
 | `tools/sstr.py` | extrai os textos do jogo, valida as traduções e gera o build |
 | `tools/fontfix.py` | adiciona letras acentuadas às fontes bitmap do jogo |
 | `tools/glossario.py` | lista textos que fogem dos termos do `GLOSSARIO.txt` |
+| `tools/textos_longos.py` | lista rótulos curtos que ficaram bem maiores em português e podem cortar na tela |
 | `kit/packaging/` | monta o zip (`make_kit.py`) e testa o instalador (`teste_kit.py`) |
 | `COMO_ATUALIZAR.txt` | passo a passo para gerar o kit de uma versão nova do jogo |
 

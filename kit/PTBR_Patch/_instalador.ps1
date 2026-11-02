@@ -14,7 +14,10 @@ $Loc = Join-Path $Kit "localization"
 $Bkp = Join-Path $Kit "backup_original"
 $Manifesto = Join-Path $Bkp "_manifesto.json"
 $ArqHashes = Join-Path $Kit "hashes_originais.json"
+$ArqMescla = Join-Path $Kit "mescla.dat"
+$Versao = "1.1.0"
 $Utf8 = New-Object System.Text.UTF8Encoding($false)
+$Latin1 = [System.Text.Encoding]::GetEncoding(28591)   # 1 byte = 1 caractere: preserva os bytes do arquivo
 
 function Sair([int]$codigo) {
     if (-not $SemPausa) { Write-Host ""; Read-Host "Pressione Enter para fechar" | Out-Null }
@@ -43,17 +46,83 @@ function Copiar([string]$origem, [string]$destino) {
     Copy-Item -LiteralPath $origem -Destination $destino -Force
 }
 
-function LerNovos {
+function LerManifesto([string]$campo) {
     if (-not (Test-Path -LiteralPath $Manifesto)) { return @() }
     $dados = [System.IO.File]::ReadAllText($Manifesto, $Utf8) | ConvertFrom-Json
-    @($dados.novos | Where-Object { $_ })
+    @($dados.$campo | Where-Object { $_ })
 }
 
-function GravarNovos([string[]]$novos) {
+function LerNovos { LerManifesto "novos" }
+
+function ListaJson([string[]]$itens) {
+    '[' + (@($itens | ForEach-Object { '"' + ($_ -replace '\\', '\\' -replace '"', '\"') + '"' }) -join ", ") + ']'
+}
+
+function GravarManifesto([string[]]$novos, [string[]]$mesclados) {
     if (-not (Test-Path -LiteralPath $Bkp)) { New-Item -ItemType Directory -Path $Bkp -Force | Out-Null }
-    $itens = @($novos | ForEach-Object { '"' + ($_ -replace '\\', '\\' -replace '"', '\"') + '"' })
-    $json = '{"novos": [' + ($itens -join ", ") + ']}'
-    [System.IO.File]::WriteAllText($Manifesto, $json, $Utf8)
+    $json = '{"novos": ' + (ListaJson $novos)
+    if ($mesclados.Count -gt 0) { $json += ', "mesclados": ' + (ListaJson $mesclados) }
+    [System.IO.File]::WriteAllText($Manifesto, $json + '}', $Utf8)
+}
+
+# ---------------------------------------------------------------- mescla
+# Arquivo alterado por outro mod: troca só as linhas que continuam iguais às do jogo original.
+$script:IndiceMescla = $null
+$script:LinhasMescla = $null
+$script:Sha = [System.Security.Cryptography.SHA256]::Create()
+
+function CarregarMescla {
+    if ($null -ne $script:IndiceMescla) { return }
+    $script:IndiceMescla = @{}
+    if (-not (Test-Path -LiteralPath $ArqMescla)) { return }
+    $script:LinhasMescla = $Latin1.GetString([System.IO.File]::ReadAllBytes($ArqMescla)).Split([char]10)
+    if ($script:LinhasMescla[0] -ne "PTBR-MESCLA 1") { $script:IndiceMescla = @{}; return }
+    $i = 1
+    while ($i -lt $script:LinhasMescla.Length) {
+        $l = $script:LinhasMescla[$i]
+        if ($l.StartsWith("@")) {
+            $partes = $l.Substring(1).Split([char]9)
+            $rel = $Utf8.GetString($Latin1.GetBytes($partes[0]))
+            $n = [int]$partes[1]
+            $script:IndiceMescla[$rel] = @(($i + 1), $n)
+            $i += 1 + 2 * $n
+        } else {
+            $i++
+        }
+    }
+}
+
+function ChaveLinha([string]$linha) {
+    $h = $script:Sha.ComputeHash($Latin1.GetBytes($linha))
+    ([System.BitConverter]::ToString($h, 0, 8) -replace "-", "").ToLowerInvariant()
+}
+
+function Mesclar([string]$entrada, [string]$saida, [string]$rel) {
+    # devolve quantas linhas foram traduzidas; com 0, não grava nada
+    CarregarMescla
+    if (-not $script:IndiceMescla.ContainsKey($rel)) { return 0 }
+    $ini, $n = $script:IndiceMescla[$rel]
+    $mapa = @{}
+    for ($k = 0; $k -lt $n; $k++) {
+        $mapa[$script:LinhasMescla[$ini + 2 * $k]] = $script:LinhasMescla[$ini + 2 * $k + 1]
+    }
+    $linhas = $Latin1.GetString([System.IO.File]::ReadAllBytes($entrada)).Split([char]10)
+    $trocadas = 0
+    for ($j = 0; $j -lt $linhas.Length; $j++) {
+        $l = $linhas[$j]
+        $cr = $l.EndsWith([string][char]13)
+        if ($cr) { $l = $l.Substring(0, $l.Length - 1) }
+        if ($l.Length -eq 0) { continue }
+        $chave = ChaveLinha $l
+        if ($mapa.ContainsKey($chave)) {
+            $linhas[$j] = $mapa[$chave] + $(if ($cr) { [string][char]13 } else { "" })
+            $trocadas++
+        }
+    }
+    if ($trocadas -gt 0) {
+        [System.IO.File]::WriteAllBytes($saida, $Latin1.GetBytes([string]::Join([string][char]10, $linhas)))
+    }
+    return $trocadas
 }
 
 function EhJogo([string]$pasta) {
@@ -110,7 +179,10 @@ function AplicarPt([string]$jogo) {
     }
     $novos = New-Object System.Collections.Generic.List[string]
     foreach ($n in (LerNovos)) { $novos.Add($n) }
+    $mesclados = New-Object System.Collections.Generic.List[string]
+    foreach ($n in (LerManifesto "mesclados")) { $mesclados.Add($n) }
     $recusados = New-Object System.Collections.Generic.List[string]
+    $parciais = New-Object System.Collections.Generic.List[string]
     $trocados = 0
     $lista = ArquivosEm $Loc
     $i = 0
@@ -120,6 +192,13 @@ function AplicarPt([string]$jogo) {
         $origem = NoDisco $Loc $rel
         $destino = NoDisco $jogo $rel
         $guardado = NoDisco $Bkp $rel
+        if ($mesclados.Contains($rel) -and (Test-Path -LiteralPath $guardado)) {
+            # já foi traduzido em parte: refaz a partir da versão do outro mod guardada no backup
+            $n = Mesclar $guardado $destino $rel
+            $parciais.Add(("{0} ({1} linhas)" -f $rel, $n))
+            $trocados++
+            continue
+        }
         if (Test-Path -LiteralPath $destino) {
             $atual = Hash $destino
             if ($atual -eq (Hash $origem)) {
@@ -127,7 +206,15 @@ function AplicarPt([string]$jogo) {
             } elseif ($atual -eq $originais[$rel]) {
                 if (-not (Test-Path -LiteralPath $guardado)) { Copiar $destino $guardado }
             } elseif (-not (Test-Path -LiteralPath $guardado)) {
-                $recusados.Add($rel)
+                # alterado por outro mod: traduz só as linhas que continuam iguais às do original
+                $temp = "$destino.ptbr_tmp"
+                $n = Mesclar $destino $temp $rel
+                if ($n -eq 0) { $recusados.Add($rel); continue }
+                Copiar $destino $guardado
+                Move-Item -LiteralPath $temp -Destination $destino -Force
+                $mesclados.Add($rel)
+                $parciais.Add(("{0} ({1} linhas)" -f $rel, $n))
+                $trocados++
                 continue
             }
         } elseif (-not $novos.Contains($rel)) {
@@ -136,17 +223,23 @@ function AplicarPt([string]$jogo) {
         Copiar $origem $destino
         $trocados++
     }
-    GravarNovos $novos.ToArray()
-    return @{ Trocados = $trocados; Recusados = $recusados }
+    GravarManifesto $novos.ToArray() $mesclados.ToArray()
+    return @{ Trocados = $trocados; Recusados = $recusados; Parciais = $parciais }
 }
 
 function VoltarEn([string]$jogo) {
     $novos = LerNovos
+    $mesclados = LerManifesto "mesclados"
     $restaurados = 0
     foreach ($rel in (ArquivosEm $Bkp)) {
         if ($rel -eq "_manifesto.json") { continue }
         Copiar (NoDisco $Bkp $rel) (NoDisco $jogo $rel)
         $restaurados++
+    }
+    foreach ($rel in $mesclados) {
+        # a cópia guardada é a versão do outro mod, já devolvida ao jogo; sem ela, a próxima instalação mescla de novo
+        $g = NoDisco $Bkp $rel
+        if (Test-Path -LiteralPath $g) { Remove-Item -LiteralPath $g -Force }
     }
     $removidos = 0
     foreach ($rel in $novos) {
@@ -154,14 +247,14 @@ function VoltarEn([string]$jogo) {
         if (Test-Path -LiteralPath $destino) { Remove-Item -LiteralPath $destino -Force; $removidos++ }
     }
     $semOriginal = @(ArquivosEm $Loc | Where-Object {
-        -not (Test-Path -LiteralPath (NoDisco $Bkp $_)) -and ($novos -notcontains $_)
+        -not (Test-Path -LiteralPath (NoDisco $Bkp $_)) -and ($novos -notcontains $_) -and ($mesclados -notcontains $_)
     })
     if (Test-Path -LiteralPath $Manifesto) { Remove-Item -LiteralPath $Manifesto -Force }
     return @{ Restaurados = $restaurados; Removidos = $removidos; SemOriginal = $semOriginal }
 }
 
 # ---------------------------------------------------------------- início
-Write-Host "Tradução PT-BR do Starsector 0.98a-RC8"
+Write-Host "Tradução PT-BR do Starsector 0.98a-RC8 (kit v$Versao)"
 Write-Host ""
 
 if ($Jogo) { $Jogo = NormalizarJogo $Jogo } else { $Jogo = AcharJogo }
@@ -228,6 +321,12 @@ try {
         Write-Host ""
         Write-Host ("{0} arquivo(s) traduzido(s) aplicado(s)." -f $r.Trocados)
         Write-Host "Os originais ficam em PTBR_Patch\backup_original. Não apague essa pasta."
+        if ($r.Parciais.Count -gt 0) {
+            Write-Host ""
+            Write-Host ("{0} arquivo(s) alterado(s) por outro mod foram traduzidos em parte:" -f $r.Parciais.Count)
+            $r.Parciais | Select-Object -First 30 | ForEach-Object { Write-Host "    $_" }
+            Write-Host "As mudanças do outro mod foram mantidas. Os textos que ele trocou continuam em inglês."
+        }
         if ($r.Recusados.Count -gt 0) {
             Write-Host ""
             Write-Host ("{0} arquivo(s) não foram trocados, porque o conteúdo é diferente do original e da tradução:" -f $r.Recusados.Count)

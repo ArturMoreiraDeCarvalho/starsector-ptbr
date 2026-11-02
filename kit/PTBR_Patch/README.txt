@@ -1,4 +1,5 @@
-TRADUÇÃO PT-BR DO STARSECTOR 0.98a-RC8 (KIT DE PATCH)
+TRADUÇÃO PT-BR DO STARSECTOR 0.98a-RC8 (KIT DE PATCH v1.1.0)
+As mudanças de cada versão estão em MUDANCAS.txt.
 
 O QUE É
 Este kit troca arquivos do jogo pelos arquivos traduzidos. Antes de trocar, o script guarda os originais na pasta backup_original e volta ao inglês quando você pedir. Não apague a pasta backup_original.
@@ -37,8 +38,11 @@ O instalador e o script Python usam o mesmo backup e podem ser usados no mesmo j
 INSTALAÇÃO MANUAL (SEM PYTHON)
 Antes de começar, faça uma cópia da pasta starsector-core. Depois copie o conteúdo de PTBR_Patch\localization para dentro de starsector-core, aceitando substituir os arquivos. Para voltar, use a cópia.
 
+ARQUIVOS ALTERADOS POR OUTRO MOD
+Se outro mod ou patch já alterou um arquivo do jogo, o instalador traduz só as linhas que continuam iguais às do original e mantém as mudanças do outro mod. Os textos que o outro mod trocou continuam em inglês. O instalador mostra esses arquivos como "traduzidos em parte". O DESINSTALAR.bat devolve a versão do outro mod.
+
 SE O SCRIPT RECUSAR ARQUIVOS
-Ele não troca um arquivo quando o conteúdo do jogo é diferente do original e da tradução, por exemplo se outra tradução ou um patch já estiver aplicado. Restaure os originais do jogo (com a cópia feita antes ou, se o jogo for da Steam, pela verificação de integridade) e rode o script de novo.
+Ele recusa um arquivo quando o conteúdo é diferente do original e da tradução e nenhuma linha pode ser traduzida, por exemplo um dos dois jars alterado por outro patch. Restaure os originais do jogo (com a cópia feita antes ou, se o jogo for da Steam, pela verificação de integridade) e rode o script de novo.
 
 LIMITAÇÕES CONHECIDAS
 - Oito fontes do jogo não tinham letras acentuadas (arial13, arial14, futura12, futura16, insignia12, ursula12, ursula14 e ursula16). O kit inclui versões dessas fontes com os acentos montados a partir de sinais que já existem na própria fonte; eles podem ficar um pouco diferentes do resto da letra.

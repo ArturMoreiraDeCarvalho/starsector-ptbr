@@ -181,6 +181,76 @@ def t_recusa():
     rc, _ = ps(d, "pt"); check(rc == 0, "recupera depois de restaurar"); estado(d, HL, "recuperado")
 
 
+def carregar_swap():
+    import importlib.util
+    sys.dont_write_bytecode = True  # não deixa __pycache__ dentro do kit
+    spec = importlib.util.spec_from_file_location("swap", os.path.join(KIT_SRC, "_swapLangFile.py"))
+    m = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(m)
+    return m
+
+
+def t_mescla():
+    print("\n== 4b. arquivo alterado por outro mod: tradução parcial")
+    swap = carregar_swap()
+    # a mescla aplicada ao original precisa reproduzir a tradução (exceto blocos que mudaram de tamanho)
+    tmp = os.path.join(RAIZ, "mescla_orig.tmp")
+    exatos = total = 0
+    for rel in sorted(swap.carregar_mescla()):
+        total += 1
+        n = swap.mesclar(nd(ORIG_SRC, rel), tmp, rel)
+        with open(tmp, "rb") as f:
+            obtido = f.read()
+        with open(LOC[rel], "rb") as f:
+            esperado = f.read()
+        exatos += n > 0 and obtido.rstrip(b"\r\n") == esperado.rstrip(b"\r\n")
+    os.remove(tmp)
+    check(total > 600 and exatos >= total - 25, f"mescla do original reproduz a tradução em {exatos}/{total} arquivos")
+
+    alvo = "data/strings/tips.json"
+    d = ambiente("mescla", jogo_original)
+    p = nd(os.path.join(d, "starsector-core"), alvo)
+    with open(nd(ORIG_SRC, alvo), "rb") as f:
+        linhas = f.read().split(b"\n")
+    k = next(i for i, l in enumerate(linhas) if b"ordnance" in l.lower())
+    linhas[k] = b'\t"Linha alterada por outro mod: keep me",\r' if linhas[k].endswith(b"\r") else b'\t"Linha alterada por outro mod: keep me",'
+    linhas.insert(3, b'\t"Dica nova de outro mod",')
+    modificado = b"\n".join(linhas)
+    with open(p, "wb") as f:
+        f.write(modificado)
+    rc, out = ps(d, "pt")
+    check(rc == 0 and "traduzidos em parte" in out and alvo in out, f"pt traduz em parte ({rc})")
+    with open(p, "rb") as f:
+        mesclado = f.read()
+    check(b"keep me" in mesclado and b"Dica nova de outro mod" in mesclado, "linhas do outro mod mantidas")
+    linhas_mod = set(modificado.split(b"\n"))
+    traduzidas = sum(1 for l in mesclado.split(b"\n") if l not in linhas_mod)
+    check(traduzidas > 20, f"{traduzidas} linhas traduzidas")
+    with open(nd(os.path.join(d, "PTBR_Patch", "backup_original"), alvo), "rb") as f:
+        check(f.read() == modificado, "backup guarda a versão do outro mod")
+    check(alvo in (manif(d) or {}).get("mesclados", []), "manifesto registra o arquivo mesclado")
+    e = os.path.join(RAIZ, "mescla_py.tmp")
+    swap.mesclar(nd(os.path.join(d, "PTBR_Patch", "backup_original"), alvo), e, alvo)
+    with open(e, "rb") as f:
+        check(f.read() == mesclado, "PowerShell e Python geram o mesmo arquivo")
+    os.remove(e)
+    rc, _ = ps(d, "pt")
+    with open(p, "rb") as f:
+        check(rc == 0 and f.read() == mesclado, "pt repetido refaz a mescla sem perder o outro mod")
+    rc, out = ps(d, "en")
+    with open(p, "rb") as f:
+        check(rc == 0 and f.read() == modificado, "en devolve a versão do outro mod")
+    check(alvo not in bkp(d) and "tinham original" not in out, "en limpa o backup do arquivo mesclado")
+    estado_outros = [r for r in LOC if r != alvo and sha(nd(os.path.join(d, "starsector-core"), r)) != HO[r]]
+    check(not estado_outros, f"en: outros arquivos voltam ao original {estado_outros[:3]}")
+    rc, _ = py(d, "pt")
+    with open(p, "rb") as f:
+        check(rc == 0 and f.read() == mesclado, "Python pt também traduz em parte")
+    rc, _ = py(d, "en")
+    with open(p, "rb") as f:
+        check(rc == 0 and f.read() == modificado, "Python en devolve a versão do outro mod")
+
+
 def t_versao():
     print("\n== 5. outra versão do jogo")
     d = ambiente("versao", jogo_original)
@@ -224,7 +294,9 @@ def t_zip():
         loc_zip = {n[len(pref):] for n in nomes if n.startswith(pref) and not n.endswith("/")}
         check(loc_zip == set(LOC), f"zip com {len(loc_zip)} arquivos em localization")
         check(not any("backup_original" in n for n in nomes), "zip sem backup_original")
-        for n in ("INSTALAR.bat", "DESINSTALAR.bat", "_instalador.ps1", "_swapLangFile.py", "README.txt"):
+        check(not any("__pycache__" in n for n in nomes), "zip sem __pycache__")
+        for n in ("INSTALAR.bat", "DESINSTALAR.bat", "_instalador.ps1", "_swapLangFile.py", "README.txt",
+                  "mescla.dat", "MUDANCAS.txt"):
             check("PTBR_Patch/" + n in nomes, f"zip contém {n}")
         d = os.path.join(RAIZ, "zip")
         os.makedirs(d)
@@ -241,7 +313,8 @@ if __name__ == "__main__":
         shutil.rmtree(RAIZ)
     os.makedirs(RAIZ)
     try:
-        for t in (t_kit, t_original, t_python, t_traduzido, t_recusa, t_versao, t_permissao, t_caminho, t_zip):
+        for t in (t_kit, t_original, t_python, t_traduzido, t_recusa, t_mescla, t_versao, t_permissao, t_caminho,
+                  t_zip):
             t()
     finally:
         shutil.rmtree(RAIZ, ignore_errors=True)

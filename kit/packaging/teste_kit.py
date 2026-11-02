@@ -251,6 +251,97 @@ def t_mescla():
         check(rc == 0 and f.read() == modificado, "Python en devolve a versão do outro mod")
 
 
+def registrar_anteriores(d, extras):
+    """Soma hashes de 'versões antigas' ao hashes_anteriores.json da cópia do kit usada no teste."""
+    p = os.path.join(d, "PTBR_Patch", "hashes_anteriores.json")
+    dados = {}
+    if os.path.exists(p):
+        with open(p, encoding="utf-8") as f:
+            dados = json.load(f)
+    for r, hs in extras.items():
+        dados[r] = sorted(set(dados.get(r, [])) | set(hs))
+    with open(p, "w", encoding="utf-8") as f:
+        json.dump(dados, f)
+
+
+def t_atualizacao():
+    print("\n== 4c. atualização de uma versão anterior do kit (arquivos sintéticos)")
+    escolhidos = ([r for r in sorted(LOC) if r.endswith(".csv")][:2] + ["starfarer_obf.jar", "starfarer.api.jar"]
+                  + [r for r in sorted(LOC) if r.endswith(".fnt")][:1])
+    antigos = {}
+    for r in escolhidos:
+        with open(LOC[r], "rb") as f:
+            antigos[r] = f.read() + b"\n#versao antiga"
+    hashes_antigos = {r: [hashlib.sha256(b).hexdigest()] for r, b in antigos.items()}
+
+    # (a) sem o backup_original da versão antiga
+    for nome, executar in (("ps", ps), ("py", py)):
+        d = ambiente("atual_" + nome, jogo_original)
+        jogo = os.path.join(d, "starsector-core")
+        registrar_anteriores(d, hashes_antigos)
+        for r, b in antigos.items():
+            with open(nd(jogo, r), "wb") as f:
+                f.write(b)
+        rc, out = executar(d, "pt")
+        check(rc == 0 and "eram de uma vers" in out, f"{nome}: atualiza sem backup ({rc}) {out[-250:] if rc else ''}")
+        estado(d, HL, f"{nome}: apos atualizar")
+        check(not (set(antigos) & bkp(d)), f"{nome}: tradução antiga não vira 'original' no backup")
+        check(not (manif(d) or {}).get("mesclados"), f"{nome}: não passa pela mescla")
+        rc, out = executar(d, "en")
+        ruins = [r for r in LOC if r not in antigos and sha(nd(jogo, r)) != HO[r]]
+        check(rc == 0 and not ruins, f"{nome}: en devolve os demais ao original {ruins[:3]}")
+        check(all(sha(nd(jogo, r)) == HL[r] for r in antigos), f"{nome}: arquivos atualizados seguem traduzidos")
+        check(all(r in out for r in antigos), f"{nome}: en lista os arquivos sem original")
+
+    # (b) zip novo extraído por cima da pasta antiga: o backup_original antigo continua lá
+    d = ambiente("sobre", jogo_original)
+    loc = os.path.join(d, "PTBR_Patch", "localization")
+    for r, b in antigos.items():
+        with open(nd(loc, r), "wb") as f:
+            f.write(b)
+    rc, _ = ps(d, "pt")
+    check(rc == 0, "versão antiga instalada")
+    for r in antigos:
+        shutil.copy2(LOC[r], nd(loc, r))
+    registrar_anteriores(d, hashes_antigos)
+    rc, out = ps(d, "pt")
+    check(rc == 0 and "eram de uma vers" not in out, f"por cima da pasta antiga: atualiza ({rc})")
+    estado(d, HL, "por cima: apos atualizar")
+    rc, _ = ps(d, "en")
+    check(rc == 0, "por cima: en")
+    estado(d, HO, "por cima: volta ao original")
+
+
+def t_historico():
+    print("\n== 4d. versões já publicadas (histórico do git)")
+    repo = os.path.join(os.path.dirname(RAIZ_PROJ), "starsector-ptbr-github")
+    if not os.path.isdir(os.path.join(repo, ".git")):
+        print("PULADO  repositório do GitHub não encontrado")
+        return
+    pref = "kit/PTBR_Patch/localization/"
+    commits = subprocess.run(["git", "-C", repo, "log", "--format=%h", "--", pref.rstrip("/")],
+                             capture_output=True, text=True).stdout.split()
+    check(len(commits) >= 3, f"{len(commits)} estados publicados no histórico")
+    for c in commits:
+        zpath = os.path.join(RAIZ, f"hist_{c}.zip")
+        subprocess.run(["git", "-C", repo, "archive", "--format=zip", "-o", zpath, c, pref.rstrip("/")], check=True)
+        d = ambiente("hist_" + c, jogo_original)
+        jogo = os.path.join(d, "starsector-core")
+        with zipfile.ZipFile(zpath) as z:
+            for n in z.namelist():
+                if n.endswith("/") or not n.startswith(pref):
+                    continue
+                rel = n[len(pref):]
+                if rel in LOC:
+                    with open(nd(jogo, rel), "wb") as f:
+                        f.write(z.read(n))
+        os.remove(zpath)
+        rc, out = ps(d, "pt")
+        check(rc == 0 and "n\u00e3o foram trocados" not in out and "outra vers" not in out,
+              f"estado {c}: instala sem recusar ({rc}) {out[-250:] if rc else ''}")
+        estado(d, HL, f"estado {c}: apos instalar")
+
+
 def t_versao():
     print("\n== 5. outra versão do jogo")
     d = ambiente("versao", jogo_original)
@@ -296,7 +387,7 @@ def t_zip():
         check(not any("backup_original" in n for n in nomes), "zip sem backup_original")
         check(not any("__pycache__" in n for n in nomes), "zip sem __pycache__")
         for n in ("INSTALAR.bat", "DESINSTALAR.bat", "_instalador.ps1", "_swapLangFile.py", "README.txt",
-                  "mescla.dat", "MUDANCAS.txt"):
+                  "mescla.dat", "MUDANCAS.txt", "hashes_anteriores.json"):
             check("PTBR_Patch/" + n in nomes, f"zip contém {n}")
         d = os.path.join(RAIZ, "zip")
         os.makedirs(d)
@@ -313,8 +404,8 @@ if __name__ == "__main__":
         shutil.rmtree(RAIZ)
     os.makedirs(RAIZ)
     try:
-        for t in (t_kit, t_original, t_python, t_traduzido, t_recusa, t_mescla, t_versao, t_permissao, t_caminho,
-                  t_zip):
+        for t in (t_kit, t_original, t_python, t_traduzido, t_recusa, t_mescla, t_atualizacao, t_historico, t_versao,
+                  t_permissao, t_caminho, t_zip):
             t()
     finally:
         shutil.rmtree(RAIZ, ignore_errors=True)

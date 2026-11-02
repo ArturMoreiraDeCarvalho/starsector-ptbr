@@ -1,4 +1,4 @@
-TRADUÇÃO PT-BR DO STARSECTOR 0.98a-RC8 (KIT DE PATCH v1.1.0)
+TRADUÇÃO PT-BR DO STARSECTOR 0.98a-RC8 (KIT DE PATCH v1.2.0)
 As mudanças de cada versão estão em MUDANCAS.txt.
 
 O QUE É
@@ -37,6 +37,10 @@ O instalador e o script Python usam o mesmo backup e podem ser usados no mesmo j
 
 INSTALAÇÃO MANUAL (SEM PYTHON)
 Antes de começar, faça uma cópia da pasta starsector-core. Depois copie o conteúdo de PTBR_Patch\localization para dentro de starsector-core, aceitando substituir os arquivos. Para voltar, use a cópia.
+
+ATUALIZAR DE UMA VERSÃO ANTERIOR
+Extraia o zip novo por cima da pasta PTBR_Patch antiga, aceitando substituir os arquivos, e dê dois cliques em INSTALAR.bat. A pasta backup_original é mantida, então o DESINSTALAR.bat continua voltando ao inglês.
+Se você apagou a pasta antiga, o instalador ainda reconhece a tradução das versões anteriores e atualiza os arquivos. Nesse caso os originais não estão guardados: para voltar ao inglês, use a verificação de integridade do jogo (Steam).
 
 ARQUIVOS ALTERADOS POR OUTRO MOD
 Se outro mod ou patch já alterou um arquivo do jogo, o instalador traduz só as linhas que continuam iguais às do original e mantém as mudanças do outro mod. Os textos que o outro mod trocou continuam em inglês. O instalador mostra esses arquivos como "traduzidos em parte". O DESINSTALAR.bat devolve a versão do outro mod.

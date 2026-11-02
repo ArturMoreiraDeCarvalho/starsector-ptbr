@@ -192,7 +192,7 @@ battlestation,Estação de Batalha - Baixa Tecnologia,100,120,,4,orbitalstation,
 0a5ee46326f2421b
 Voláteis Residuais,volatiles_trace,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,Os voláteis residuais encontrados aqui dificilmente justificam a colheita.,graphics/icons/markets/volatiles_trace.png,40
 0bcdbc27c97663d8
-Polidade estabelecida,established_polity,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.EstablishedPolity,,graphics/icons/markets/established_polity.png,1380
+Entidade política estabelecida,established_polity,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.EstablishedPolity,,graphics/icons/markets/established_polity.png,1380
 0d4cd0edc6c91277
 Orgânicos Abundantes,organics_abundant,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,Um rio de riqueza flui sob a superfície de $market - para quem o encontrar e explorar.,graphics/icons/markets/organics_abundant.png,38
 0e95cac1d928c507
@@ -328,7 +328,7 @@ Escuridão,dark,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardConditi
 9d230ec514bc5b32
 Depósitos Ultrarricos de Minério Raro,rare_ore_ultrarich,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,"Os depósitos transplutônicos que cintilam com densidade inacreditável na grade dos sensores evocam presságios de um poder capaz de forjar poderosas frotas de guerra para reduzir mundos a cinzas -- ou uma era de esplendor e riqueza para uma entidade política de torres de cristal, como as que existiam nos ciclos pré-Colapso do Domínio.",graphics/icons/markets/rareore_ultrarich.png,60
 9d7433047e70b58e
-Mundo Estéril Marginal,barren_marginal,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldBarrenMarginal,"Inóspitas e implacáveis, as condições externas de $market são apenas minimamente sobreviváveis para um humano com máscara de ar e equipamento de proteção, embora certos liquens de terraformação projetados considerem o ambiente tolerável.",graphics/icons/markets/barren_desert_wide.png,10
+Mundo Estéril Marginal,barren_marginal,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldBarrenMarginal,"Inóspitas e implacáveis, as condições externas de $market mal permitem a sobrevivência de um humano com máscara de ar e equipamento de proteção, embora certos líquenes de terraformação projetados considerem o ambiente tolerável.",graphics/icons/markets/barren_desert_wide.png,10
 a1985672758c2928
 Posto avançado,outpost,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Outpost,"$Market é administrado de forma muito parecida com uma guarnição ou uma grande nave estelar, com uma rígida estrutura de comando oficial. Isso melhora a estabilidade, mas exige algum pessoal para cuidar de assuntos de segurança interna.",graphics/icons/markets/outpost.png,130
 a21f3d26779f50f9
@@ -471,7 +471,7 @@ trade_disruption,report_smuggling_player,,,news,Atividade de contrabando em $mar
 26f1afd8c0211ab8
 $market é controlado pelas autoridades da $marketFaction
 2a87638a3125bb34
-rep_tracker,comm_access_revoked,,,player_intel_always,Acesso a comunicação segura de $Faction revogado,"Devido à sua reputação reduzida ($factionStanding), seu acesso aos canais internos de comunicação da $Faction foi revogado.",,,,nomap,,
+rep_tracker,comm_access_revoked,,,player_intel_always,Acesso à comunicação segura de $Faction revogado,"Devido à sua reputação reduzida ($factionStanding), seu acesso aos canais internos de comunicação da $Faction foi revogado.",,,,nomap,,
 2ae5157f1a2fbe4b
 investigation_comm_sniffer,player_guilty_comm_sniffer,,,player_intel_always,Farejador de comunicações em $name rastreado até você,Uma auditoria minuciosa dos registros de segurança de $name resultou na sua responsabilização pela violação de segurança.,,,,,,
 2ce265724efb37d2
@@ -553,7 +553,7 @@ system_bounty,likely,,,player_intel,Recompensa provavelmente oferecida por $mark
 6d51fa1081dbf69d
 Ele faz referência aos dados do registro de voo da sua recente batalha contra $enemyDesc.",$bountyCredits créditos recebidos.,,graphics/icons/intel/gain_credits.png,nomap,,
 6ebaa1dd317c408c
-rep_tracker,comm_access_granted,,,player_intel_always,Acesso a comunicação segura de $Faction concedido,"Devido à sua boa reputação ($factionStanding), você recebeu acesso aos canais internos de comunicação da $Faction concedido pelas autoridades em $market.",,,,nomap,,
+rep_tracker,comm_access_granted,,,player_intel_always,Acesso à comunicação segura de $Faction concedido,"Devido à sua boa reputação ($factionStanding), você recebeu acesso aos canais internos de comunicação da $Faction concedido pelas autoridades em $market.",,,,nomap,,
 701d0d7cf541704b
 food_shortage,likely,0.5,FRIENDLY,hegemony_internal,Provável escassez de alimentos em $market,"Este relatório indica que uma escassez de alimentos é praticamente certa de ocorrer em $market, e orienta as unidades a aguardar para prestar assistência.",Entregar comida suficiente a $market rapidamente reduzirá a duração e o impacto da escassez.,,graphics/icons/markets/food_shortage.png,,,
 718046f3c57bc305
@@ -3146,7 +3146,7 @@ gaProbeOfferOption,gaProbe_option,,,,gaProbe_start:Perguntar sobre a recuperaç�
 1299af14912dbcd6
 sdPunExCommsSDcomSubmitLie,DialogOptionSelected,$option == sdPunEx_sdComOptSubmitLie,FireBest SDpunExCommsSDcomLiarPoint,"""Bom"", diz o $post. ""Prosseguirei com a operação de limpeza.""
 129e6f87a6f3fc02
-Essa exigência é um tanto extraordinária e certamente não se sustentaria sob as leis do comércio interfaccional. Se você se defendesse da apreensão injustificada de uma nave estelar, o Diktat Sindriano estaria em terreno movediço ao declarar você um pirata.
+Essa exigência é um tanto extraordinária e certamente não se sustentaria sob as leis do comércio interfacional. Se você se defendesse da apreensão injustificada de uma nave estelar, o Diktat Sindriano estaria em terreno movediço ao declarar você um pirata.
 12a04758a3b24090
 gaATG_epiphanyBarEndWait2b:""Garçom, uma rodada para os cavalheiros grandalhões ali!""",
 12a62054cc3733ae
@@ -7416,7 +7416,7 @@ gaATGkantaRaidFinished3,DialogOptionSelected,$option == gaATG_kantaRaidFinished3
 3338e5ccb5bed077
 FireAll LPPVolturnCurateResponses2","""Assim se passa a tocha"", diz a curadora. ""Luz de chama, luz de fé.""
 333925c022397e0f
-""A Liga Perseana entrou com uma queixa no Conselho de Disputas Interfaccionais, sabia? Não esperamos muito disso, mas alguém precisa dizer alguma coisa, não é?""
+""A Liga Perseana entrou com uma queixa no Conselho de Disputas Interfacionais, sabia? Não esperamos muito disso, mas alguém precisa dizer alguma coisa, não é?""
 333d2f2170006617
 gaDHOendingLastWordB,gaDHOendingLastWord,$global.gaDHO_elekRevealedTriTachyonAsPatron,,"Está claro que Elek está enrascado demais e quer sair.
 333d65bfa320b631
@@ -11686,7 +11686,7 @@ FireBest DialogOptionSelected","""Então eu exigiria que você reavaliasse sua p
 531c92ab3dfe6b67
 bffi_menesPPinsideJob2b:""Seu chefe pode estar encobrindo a enorme falha de segurança deles.""
 532a5fd03e6877d5
-FireBest DialogOptionSelected","Os olhos do iniciado estão arregalados; ele está claramente impressionado. ""Não conte a ninguém, mas... quer dizer, você tem que admitir que o que o Cotton fez é astuto e corajoso. O... o Criador deu dons a ele, e ele os usa.""",,
+FireBest DialogOptionSelected","Os olhos do iniciado estão arregalados; ele está claramente impressionado. ""Não conte a ninguém, mas... quer dizer, você tem que admitir que aquilo que o Cotton fez é astuto e corajoso. O... o Criador deu dons a ele, e ele os usa.""",,
 532b8d00cb0c6554
 sdtuCadenHyderBackWarn1,DialogOptionSelected,$option == sdtu_cadenHyderBackWarn1,$saidHyder = true 0,"""Não?"" Caden pergunta, irritado. ""Que absurdo. Quem mais existe, afinal?""","sdtu_cadenHyderExec1:""Ela acha. Hyder poderia tentar uma jogada para ser Executor Supremo.""
 532bbd4a0b751347
@@ -12324,7 +12324,7 @@ $player.mostLuddicEthosFaithful ",,,"lke_virensEndingOptEResp1:""Você tem meu a
 5808c269d4bddd23
 Sua navete pousa numa plataforma de pouso mantida a alguma distância da fachada por uma nervura de suporte aérea. Parece impossivelmente fina, mas, ao tocar o solo, é tão sólida quanto um asteroide do tipo M coeso.",ZGR_firstVisitIntro2:Continuar,
 5812ee719c65706f
-""Deixe-me resumir para você, meu bom comandante: em, ah, dois ou três turnos, este lugar estará no fogo cruzado de um evento de criticidade interfaccional, e cada segundo espaçonauta que estiver comprando macarrão no saguão vai ser um assassino ou um espião.""",,
+""Deixe-me resumir para você, meu bom comandante: em, ah, dois ou três turnos, este lugar estará no fogo cruzado de um evento de criticidade interfacional, e cada segundo espaçonauta que estiver comprando macarrão no saguão vai ser um assassino ou um espião.""",,
 58179fb138749d41
 kdTrafficControlOptionC,KantasDenTrafficControlOptions,!$market.gotPermissionToLandFromSK,,,"kantasDen_trafficBullyA:""Estou aqui para ver seu chefe.""",
 581b326f843b7af6
@@ -17840,7 +17840,7 @@ Você troca criptochaves para facilitar comunicações seguras e combina um pont
 8142b7029b91d243
 Bornanew entra para direcionar a narrativa de Ulmus. ""Ele deve ter sido ameaçado"", diz. ""Chantagem! Claro. Ajude-nos a descobrir quem está realmente por trás disso! Vamos garantir que você esteja seguro.""","bffi_ulmusTalkBad5a:""Se, e somente se, $global.jethroName, ele nos ajudar. Caso contrário, vai para os Inquisidores.""",
 8145ba2f4d01862b
-""Se quiser denunciar um crime no espaço interfaccional, ou um crime na entidade política local envolvendo não cidadãos deste Estado-membro da Liga, posso encaminhar você ao contato apropriado.""
+""Se quiser denunciar um crime no espaço interfacional, ou um crime na entidade política local envolvendo não cidadãos deste Estado-membro da Liga, posso encaminhar você ao contato apropriado.""
 814629cf6eeebaf5
 mk1_explore6,DialogOptionSelected,$option == mk1_continue6,"AddTextSmall ""Dados de calibração do sensor obtidos"" highlight","Os registros ficam vazios por longos períodos - saltos escuros e em hibernação. Então há um aumento notável de atividade menos de 200 ciclos padrão atrás. O inimigo é identificado apenas como ""Ameaça"". Uma referência a um armazenamento de dados leva a blocos de informação corroídos pelo tempo. Mas os algoritmos de reconstrução entram em ação e, apesar de índices de confiabilidade preocupantemente baixos, costuram um conjunto de arquivos. 
 814e5d97d74e1036
@@ -25364,7 +25364,7 @@ Um dos seus muitos displays exibe um alerta que toca com urgência. Coureuse se 
 b9e33e2b883791b2
 lpp_hookCurateCottonKill:""Vou matá-lo.""
 b9ee90814119e9c6
-""Pelo menos segundo a escola 'Ineffablista', apoiada pela Reverenda Arquicuradora Jaspis, entre outros. Aqui, embora seja uma minoria da ecumene da Igreja, há uma maioria local dos chamados 'Mundanianos'. Não me entenda mal, eles não são cismáticos. Ainda não."" Ele deixa passar um momento de silêncio.
+""Pelo menos segundo a escola 'Inefabilista', apoiada pela Reverenda Arquicuradora Jaspis, entre outros. Aqui, embora seja uma minoria da ecumene da Igreja, há uma maioria local dos chamados 'Mundanianos'. Não me entenda mal, eles não são cismáticos. Ainda não."" Ele deixa passar um momento de silêncio.
 b9f41c56d6cf6a4e
 gaATGzalMissionStart6,DialogOptionSelected,$option == gaATG_zalMissionStart6,,"""Hum."" Coureuse balança a cabeça e respira fundo. ""Sobre encontrar Elissa Zal. Acho que precisamos de Gargoyle nesta conversa. Deixe-me, hum."" Ela toca no datapad.",gaATG_zalMissionStart7:Continuar,
 b9fbf37c1fda3651
@@ -25562,7 +25562,7 @@ bb8f1199fb6c3bbc
 bb93ebf7d86f529f
 HistorianBackstoryBlurb24,HistorianBackstoryBlurb,!WasHistorianBlurbShown historyBlurb24,SetHistorianBlurbShownAfterDelay historyBlurb24,"""Aqueles que acordam do criossono, colocados nele na época do Domínio, talvez sejam os mais perdidos de todos. Muitos, embora não todos, imaginavam que povoariam a extremidade distante de uma fronteira rica; aceitaram que deixariam para trás tudo o que haviam conhecido. Agora todos se veem desligados de qualquer referência, desancorados na história.""
 bb96bec9520123e6
-""Não seremos salvos por um recuo para sítios em frágeis bolas de rocha, nem por uma corrida armamentista que joga recursos preciosos nas fogueiras das disputas interfaccionais. Precisamos ir além do conhecido, desenvolver teorias que estilhacem tudo o que veio antes e aplicar novas tecnologias radicais para garantir nossa sobrevivência. Devemos alcançar mais longe e mais alto do que o Domínio jamais ousou!"" Enquanto fala, ela ergue os olhos em direção a alguma abstração. 
+""Não seremos salvos por um recuo para sítios em frágeis bolas de rocha, nem por uma corrida armamentista que joga recursos preciosos nas fogueiras das disputas interfacionais. Precisamos ir além do conhecido, desenvolver teorias que estilhacem tudo o que veio antes e aplicar novas tecnologias radicais para garantir nossa sobrevivência. Devemos alcançar mais longe e mais alto do que o Domínio jamais ousou!"" Enquanto fala, ela ergue os olhos em direção a alguma abstração. 
 bb999cc3172d9d05
 $personFaction.id == sindrian_diktat",,"""Você"", diz com um esgar realmente feio, que revela tudo sobre o que pensa de você.
 bba19f6f94e24318
@@ -28746,7 +28746,7 @@ $bffi_stage == INVESTIGATE_PATHER_STATION",FireAll MostLuddicEthosRefresh,,"bffi
 d4302985f8f1440e
 Ele expira com força. ""Não é apenas pecado roubar. Eu também jurei um voto sagrado de que nunca mais roubaria.""","BFFI_meetMenesBornOptSteal3:""Então eu roubo. Você só precisa aparecer e ser você mesmo.""",
 d43220a1e6f04ae2
-Você balança a cabeça enquanto conta do escândalo e da ação judicial subsequente que derrubaram a maior parte da diretoria da PSSC, depois que a APCC foi alertada sobre fundos sendo transferidos entre certos fornecedores de 'capital fantasma', num esquema envolvendo armas pesadas contrabandeadas para o espaço dos Caminhantes, alavancadas a partir de imóveis de primeira em Eventide. A podridão é profunda e, com a pressão diplomática interfaccional, o Concordato verá mais cabeças rolarem no próximo ciclo, disso não há dúvida.
+Você balança a cabeça enquanto conta do escândalo e da ação judicial subsequente que derrubaram a maior parte da diretoria da PSSC, depois que a APCC foi alertada sobre fundos sendo transferidos entre certos fornecedores de 'capital fantasma', num esquema envolvendo armas pesadas contrabandeadas para o espaço dos Caminhantes, alavancadas a partir de imóveis de primeira em Eventide. A podridão é profunda e, com a pressão diplomática interfacional, o Concordato verá mais cabeças rolarem no próximo ciclo, disso não há dúvida.
 d433ac1ae52e7dd8
 LKEvirensLookingBornanew2,DialogOptionSelected,$option == lke_virensLookingBornanew2,,"""Ele me disse, contudo, por que foi enviado para cá. E por quem."" Virens procura a sua reação.
 d4359e369ab3e603
@@ -31430,7 +31430,7 @@ bffi_mmBornOptsBack:""Vamos discutir outras opções.""",
 e8ffb690b3de022c
 O sorriso frio retorna no mesmo instante em que o barman chega com dois pequenos drinques potentes. ""Temos acordo?""",,
 e9008eec0cea4abd
-gaFCFikenhildBotherPM2,DialogOptionSelected,$option == gaFC_fikenhildBotherPM2,$askedAboutCoureuse = true,"""Aquilo é uma nave?"" Essa pessoa olha para o lado e toca numa superfície de controle. ""Não vejo um registro para 'Scylla Coureuse', embora às vezes os bancos de dados interfaccionais levem algum tempo para atualizar...""
+gaFCFikenhildBotherPM2,DialogOptionSelected,$option == gaFC_fikenhildBotherPM2,$askedAboutCoureuse = true,"""Aquilo é uma nave?"" Essa pessoa olha para o lado e toca numa superfície de controle. ""Não vejo um registro para 'Scylla Coureuse', embora às vezes os bancos de dados interfacionais levem algum tempo para atualizar...""
 e9011e157437d2c6
 Call $global.lke_ref updateStage","""Virens é o Caminho em Mazalot. Tudo passa por ele. Ele tem complexos na superfície. Às vezes fazemos remessas. Vou passar as localizações."" Tamborila num datapad. ""A Autoridade não consegue pegá-lo em nada disso. Ou não quer. Têm medo demais.""
 e907e2a2922c5f15
@@ -32150,7 +32150,7 @@ Os olhos se desviam da transmissão, vendo alguma visão infeliz. ""Só posso im
 ee796ccd704f4e3f
 ""Claro que não"", diz ela. ""Mas quando você fizer isso, tenho certeza de que perceberá rapidamente por que ninguém mais no Setor está preparado para lidar seriamente com esta... Ameaça. É do seu interesse trabalhar comigo.""","zgr_makePitch11:""Você diz 'quando'. Houve outra expedição que teve sucesso antes de mim?""",
 ee7ca72d4fc495e7
-SetEnabled gaTJ_get false","Uma frota hostil próxima está rastreando seus movimentos, o que torna uma operação de resgate inadvisável.",,
+SetEnabled gaTJ_get false","Uma frota hostil próxima está rastreando seus movimentos, o que torna uma operação de resgate desaconselhável.",,
 ee7dd8761ee8da43
 Recompensas em aberto sobre os piratas com fichas criminais suficientemente preocupantes foram distribuídas aos resgatadores. Os demais foram soltos para rondar as instalações de pouso, buscando empregos braçais entre as oportunidades de se contratar com naves recém-chegadas.
 ee81201f7f5abc72
@@ -33484,7 +33484,7 @@ SetTooltip locrp_raidStart ""Você não tem fuzileiros navais suficientes para e
 f8bccd67cf7b97ac
 kdStationKingIntroRevisit,DialogOptionSelected,$option == kd_stationKingIntro1,FireAll KDStationKingOptions,"""Sim, quem é você?"" $personName rosna antes de se dar ao trabalho de olhar para um datapad sujo.
 f8c0c252b0dd0bea
-""Pelo menos segundo a escola 'Ineffablista', apoiada pela Reverenda Arquicuradora Jaspis, entre outros. Aqui, embora seja uma minoria da ecumene da Igreja, há uma maioria local dos chamados 'Mundanianos'. Não me entenda mal; eles não são cismáticos."" Ele deixa passar um momento de silêncio.
+""Pelo menos segundo a escola 'Inefabilista', apoiada pela Reverenda Arquicuradora Jaspis, entre outros. Aqui, embora seja uma minoria da ecumene da Igreja, há uma maioria local dos chamados 'Mundanianos'. Não me entenda mal; eles não são cismáticos."" Ele deixa passar um momento de silêncio.
 f8c5ce557f774c8f
 sdtu_newsEndSale:""Meu silêncio está muito à venda.""",
 f8c5fe5ed09bdcae
@@ -35469,9 +35469,9 @@ Sem Fluxo de Armas,no_weapon_flux,,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.NoWeapo
 489bac0299f5e35d
 Custo de suprimentos para se recuperar da implantação reduzido em %s.",,,graphics/hullmods/structural_damage.png
 48c4804a088db7e1
-Conversão de Escudo - Omni,adaptiveshields,3,,,"shields, defensive, merc, standard",Escudos,7000,,,,3,5,8,12,data.hullmods.OmniShieldEmitter,Converte escudos frontais em omnidirecionais. Reduz o arco do escudo em %s.,"Converte o escudo frontal em omni, reduz o arco.",Anula a penalidade de arco do escudo.,graphics/hullmods/omni_shield_emitter_mod.png
+Conversão de Escudo - Omni,adaptiveshields,3,,,"shields, defensive, merc, standard",Escudos,7000,,,,3,5,8,12,data.hullmods.OmniShieldEmitter,Converte escudos frontais em onidirecionais. Reduz o arco do escudo em %s.,"Converte o escudo frontal em omni, reduz o arco.",Anula a penalidade de arco do escudo.,graphics/hullmods/omni_shield_emitter_mod.png
 4a64706cffd325dc
-Subsistemas Endurecidos,hardened_subsystems,0,,,"special, merc, standard",Especial,2500,TRUE,,,5,10,15,25,data.hullmods.HardenedSubsystems,"Aumenta o tempo de desempenho máximo das naves que sofrem degradação de desempenho devido a implantação prolongada em %s.
+Subsistemas Endurecidos,hardened_subsystems,0,,,"special, merc, standard",Especial,2500,TRUE,,,5,10,15,25,data.hullmods.HardenedSubsystems,"Aumenta o tempo de desempenho máximo das naves que sofrem degradação de desempenho devido à implantação prolongada em %s.
 4b00efb6e29e07d1
 Centro de Operações,operations_center,1,,,special,Especial,5000,,,,30,30,30,30,com.fs.starfarer.api.impl.hullmods.OperationsCenter,Aumenta a taxa de recuperação de pontos de comando em %s quando instalado na nau capitânia.,Aumenta a taxa de recuperação de pontos de comando na nave capitânia.,,graphics/hullmods/operations_center.png
 4b142c3055daac00
@@ -35551,7 +35551,7 @@ Retransmissor de Navegação,nav_relay,2,,,"engines, special, merc, standard","M
 6b1e8ae5ce4901a1
 Baia de Caças Convertida,converted_fighterbay,0,,,"req_spaceport, special, non_phase, standard","Caças, Logística, Requer atracação",3000,,,,2,4,6,10,data.hullmods.ConvertedFighterBay,"Converte as baias de caças da nave, que abrigam asas embutidas, em porões de carga improvisados, dando-lhe %s de capacidade de carga adicional e reduzindo seus requisitos de tripulação em %s por baia de caças. A redução de tripulação é limitada a um máximo de %s.",Converte baias de caças embutidas em porões de carga improvisados.,Custo mensal de manutenção reduzido em %s por baia de caças.,graphics/hullmods/converted_fighter_bay.png
 6bc016d2c8e9fbb4
-Conversão de Escudo - Frontal,frontemitter,2,,,"shields, defensive, merc, standard",Escudos,7000,,,,3,5,8,12,data.hullmods.FrontShieldEmitter,"Trava o emissor de escudo omnidirecional da nave em posição frontal e estende seu arco em %s. Como todos os emissores frontais, o escudo também se implanta duas vezes mais rápido.","Converte o escudo omni em frontal, estende o arco.",Reduz a quantidade de dano recebido pelos escudos em %s.,graphics/hullmods/front_shield_emitter.png
+Conversão de Escudo - Frontal,frontemitter,2,,,"shields, defensive, merc, standard",Escudos,7000,,,,3,5,8,12,data.hullmods.FrontShieldEmitter,"Trava o emissor de escudo onidirecional da nave em posição frontal e estende seu arco em %s. Como todos os emissores frontais, o escudo também se implanta duas vezes mais rápido.","Converte o escudo omni em frontal, estende o arco.",Reduz a quantidade de dano recebido pelos escudos em %s.,graphics/hullmods/front_shield_emitter.png
 73354d6757a0263e
 Sobreposições de Segurança,safetyoverrides,0,,,"special, engines, offensive, merc, no_build_in, standard","Especial, Motores",2500,TRUE,,,15,30,45,70,data.hullmods.SafetyOverrides,"Desativar os protocolos de segurança aumenta a velocidade máxima da nave em combate em %s/%s/%s (dependendo do tamanho da nave, com um aumento correspondente de aceleração) e permite que o impulso de motor de fluxo zero funcione independentemente do nível de fluxo. A taxa de dissipação de fluxo, incluindo a das ventilações adicionais, é aumentada em um fator de %s.
 77b8d9bc251eb4c0
@@ -35701,7 +35701,7 @@ Não Disparar Através,do_not_fire_through,,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmod
 e1312a1768604d65
 Também reduz a redução de alcance das armas causada pelo ECM inimigo em %s.","Melhora a velocidade e a orientação dos mísseis, reduz o efeito da Guerra Eletrônica inimiga.","Anula totalmente a redução de alcance de armas, e faz os mísseis da nave sempre ignorarem sinalizadores.",graphics/hullmods/eccm_package.png
 e15603e1fd556cdb
-Porões de Carga Blindados,shielded_holds,2,,,,,,,TRUE,,0,0,0,0,data.hullmods.ShieldedCargoHolds,"Comumente encontrado em naves que nem sempre podem contar com os escudos para proteger sua carga contra a radiação cósmica. Basta alguns ajustes para que a blindagem confunda varreduras de carga de longo alcance, reduzindo a probabilidade de contrabando ser detectado.",Melhora a chance de evitar a detecção de contrabando.,,graphics/hullmods/shielded_cargo_hold.png
+Porões de Carga Blindados,shielded_holds,2,,,,,,,TRUE,,0,0,0,0,data.hullmods.ShieldedCargoHolds,"Comumente encontrado em naves que nem sempre podem contar com os escudos para proteger sua carga contra a radiação cósmica. Bastam alguns ajustes para que a blindagem confunda varreduras de carga de longo alcance, reduzindo a probabilidade de contrabando ser detectado.",Melhora a chance de evitar a detecção de contrabando.,,graphics/hullmods/shielded_cargo_hold.png
 e17de2a17c9d094b
 Um adjunto de núcleo de CPU em cada míssil aumenta a velocidade máxima dos mísseis em %s e a manobrabilidade dos mísseis em %s, além de melhorar significativamente o algoritmo de orientação.
 e1887b839df052ac
@@ -41817,7 +41817,7 @@ ffee5e301753688b
 0a27f586bd08f1fd
 		"shady":{"name":"Personagem suspeito"},
 0abb04952bc696c0
-		"archcurate":{name:"Arcicurado"},
+		"archcurate":{name:"Arquicurado"},
 0be976984616e3db
 		"pensioner":{name:"Aposentado"},
 0d93ce80891ef46d

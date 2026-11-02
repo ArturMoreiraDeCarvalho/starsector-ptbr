@@ -5,6 +5,7 @@ kit/PTBR_Patch/localization           : só os arquivos traduzidos que são dife
 kit/PTBR_Patch/hashes_originais.json  : SHA-256 do original de cada arquivo do kit
 kit/packaging/Output/PTBR_Patch.zip   : o kit pronto para distribuir (sem backup_original)
 kit/PTBR_Patch/mescla.dat             : linha original -> linha traduzida, para traduzir arquivos que outro mod alterou
+kit/PTBR_Patch/hashes_anteriores.json : SHA-256 das versões já publicadas de cada arquivo (de anteriores.json)
 
 Formato do mescla.dat (binário, linhas separadas por \\n):
     PTBR-MESCLA 1
@@ -134,6 +135,30 @@ def gerar_mescla():
     return arquivos, linhas
 
 
+def gerar_anteriores():
+    """hashes_anteriores.json: SHA-256 das versões já publicadas de cada arquivo (de packaging/anteriores.json,
+    gerado por coletar_anteriores.py). Fica de fora o hash da versão atual e o do original do jogo."""
+    destino = os.path.join(PATCH, "hashes_anteriores.json")
+    fonte = os.path.join(PACOTE, "anteriores.json")
+    if not os.path.exists(fonte):
+        if os.path.exists(destino):
+            os.remove(destino)
+        return 0
+    with open(fonte, encoding="utf-8") as f:
+        todas = json.load(f)
+    with open(os.path.join(PATCH, "hashes_originais.json"), encoding="utf-8") as f:
+        originais = json.load(f)
+    saida = {}
+    for rel in arquivos_em(LOC):
+        atual = sha256(no_disco(LOC, rel))
+        antigas = [h for h in todas.get(rel, []) if h != atual and h != originais.get(rel)]
+        if antigas:
+            saida[rel] = antigas
+    with open(destino, "w", encoding="utf-8") as f:
+        json.dump(saida, f, ensure_ascii=False, indent=0)
+    return len(saida)
+
+
 def gerar_zip():
     os.makedirs(SAIDA, exist_ok=True)
     destino = os.path.join(SAIDA, "PTBR_Patch.zip")
@@ -150,7 +175,9 @@ def gerar_zip():
 if __name__ == "__main__":
     n = sincronizar()
     m_arq, m_lin = gerar_mescla()
+    n_ant = gerar_anteriores()
     zip_path = gerar_zip()
     print(n, "arquivos em localization")
     print("mescla:", m_arq, "arquivos,", m_lin, "linhas")
+    print("versões anteriores reconhecidas em", n_ant, "arquivos")
     print("zip:", zip_path, os.path.getsize(zip_path), "bytes")

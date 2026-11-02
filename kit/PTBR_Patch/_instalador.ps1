@@ -15,7 +15,8 @@ $Bkp = Join-Path $Kit "backup_original"
 $Manifesto = Join-Path $Bkp "_manifesto.json"
 $ArqHashes = Join-Path $Kit "hashes_originais.json"
 $ArqMescla = Join-Path $Kit "mescla.dat"
-$Versao = "1.1.0"
+$ArqAnteriores = Join-Path $Kit "hashes_anteriores.json"
+$Versao = "1.2.0"
 $Utf8 = New-Object System.Text.UTF8Encoding($false)
 $Latin1 = [System.Text.Encoding]::GetEncoding(28591)   # 1 byte = 1 caractere: preserva os bytes do arquivo
 
@@ -177,6 +178,12 @@ function AplicarPt([string]$jogo) {
         $obj = [System.IO.File]::ReadAllText($ArqHashes, $Utf8) | ConvertFrom-Json
         foreach ($p in $obj.PSObject.Properties) { $originais[$p.Name] = $p.Value }
     }
+    $anteriores = @{}
+    if (Test-Path -LiteralPath $ArqAnteriores) {
+        $obj = [System.IO.File]::ReadAllText($ArqAnteriores, $Utf8) | ConvertFrom-Json
+        foreach ($p in $obj.PSObject.Properties) { $anteriores[$p.Name] = @($p.Value) }
+    }
+    $atualizados = New-Object System.Collections.Generic.List[string]
     $novos = New-Object System.Collections.Generic.List[string]
     foreach ($n in (LerNovos)) { $novos.Add($n) }
     $mesclados = New-Object System.Collections.Generic.List[string]
@@ -205,6 +212,13 @@ function AplicarPt([string]$jogo) {
                 # o jogo já tem esta tradução
             } elseif ($atual -eq $originais[$rel]) {
                 if (-not (Test-Path -LiteralPath $guardado)) { Copiar $destino $guardado }
+            } elseif ((-not (Test-Path -LiteralPath $guardado)) -and $anteriores.ContainsKey($rel) -and ($anteriores[$rel] -contains $atual)) {
+                # tradução de uma versão anterior deste kit, e o backup_original dela não existe mais:
+                # atualiza direto. Não é "outro mod", então não passa pela mescla.
+                $atualizados.Add($rel)
+                Copiar $origem $destino
+                $trocados++
+                continue
             } elseif (-not (Test-Path -LiteralPath $guardado)) {
                 # alterado por outro mod: traduz só as linhas que continuam iguais às do original
                 $temp = "$destino.ptbr_tmp"
@@ -224,7 +238,7 @@ function AplicarPt([string]$jogo) {
         $trocados++
     }
     GravarManifesto $novos.ToArray() $mesclados.ToArray()
-    return @{ Trocados = $trocados; Recusados = $recusados; Parciais = $parciais }
+    return @{ Trocados = $trocados; Recusados = $recusados; Parciais = $parciais; Atualizados = $atualizados }
 }
 
 function VoltarEn([string]$jogo) {
@@ -288,6 +302,11 @@ function VersaoCompativel([string]$jogo) {
     if ($atual -eq $original) { return $true }
     if ((Test-Path -LiteralPath $traduzido) -and $atual -eq (Hash $traduzido)) { return $true }
     if (Test-Path -LiteralPath (NoDisco $Bkp "starfarer_obf.jar")) { return $true }
+    # jar traduzido por uma versão anterior deste kit
+    if (Test-Path -LiteralPath $ArqAnteriores) {
+        $ant = ([System.IO.File]::ReadAllText($ArqAnteriores, $Utf8) | ConvertFrom-Json)."starfarer_obf.jar"
+        if ($ant -and (@($ant) -contains $atual)) { return $true }
+    }
     return $false
 }
 
@@ -321,6 +340,13 @@ try {
         Write-Host ""
         Write-Host ("{0} arquivo(s) traduzido(s) aplicado(s)." -f $r.Trocados)
         Write-Host "Os originais ficam em PTBR_Patch\backup_original. Não apague essa pasta."
+        if ($r.Atualizados.Count -gt 0) {
+            Write-Host ""
+            Write-Host ("{0} arquivo(s) eram de uma versão anterior da tradução e foram atualizados." -f $r.Atualizados.Count)
+            Write-Host "Não encontrei o backup_original da versão antiga, então esses arquivos não têm original guardado:"
+            Write-Host "o DESINSTALAR.bat não consegue voltá-los ao inglês. Para isso, use a verificação de integridade"
+            Write-Host "do jogo (Steam). Na próxima atualização, extraia o zip por cima da pasta PTBR_Patch antiga."
+        }
         if ($r.Parciais.Count -gt 0) {
             Write-Host ""
             Write-Host ("{0} arquivo(s) alterado(s) por outro mod foram traduzidos em parte:" -f $r.Parciais.Count)

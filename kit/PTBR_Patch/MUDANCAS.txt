@@ -1,5 +1,15 @@
 MUDANÇAS DO KIT PT-BR
 
+v1.2.0
+- Atualizar ficou mais simples: o instalador reconhece a tradução de versões anteriores (1.0.0 e 1.1.0) mesmo
+  quando a pasta backup_original delas não existe mais, e atualiza os arquivos direto. Antes, ele tratava a
+  tradução antiga como se fosse de outro mod. O jeito mais seguro continua sendo extrair o zip por cima da pasta
+  PTBR_Patch antiga: assim o backup dos originais é mantido e o DESINSTALAR.bat volta ao inglês.
+- Revisão ortográfica automática (LanguageTool) nos textos de interface e de dados. Correções: "emuma", "reestabilize",
+  "sobreviváveis", "liquens", "Basta alguns", crase em "Acesso à comunicação" e "devido à implantação", e outros.
+- Termos unificados: "entidade política" (no lugar de "Polidade") e "onidirecional" (no lugar de "omnidirecional").
+- "Ajuste automático" virou "autoajuste" na tela de refit, e alguns rótulos de botões e colunas ficaram mais curtos.
+
 v1.1.0
 - Ordnance Points (OP) agora é "pontos de equipamento", no lugar de "pontos de artilharia".
 - Arquivos alterados por outro mod agora são traduzidos em parte, no lugar de serem recusados.

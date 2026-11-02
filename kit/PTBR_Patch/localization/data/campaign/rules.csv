@@ -6024,7 +6024,7 @@ lppHesperusInitiateReplyPatherB,LPPHesperusPatherReplies,!$player.metBrotherCott
 lpp_hesperusInitiateNotMetCottonYes:""Não. Mas gostaria. Então faça o que precisa ser feito.""
 lpp_hesperusInitiateNotMetCottonNo:""Não. Tenho meu próprio Caminho a seguir.""",
 lppHesperusInitiateCottonMaybe,DialogOptionSelected,$option == lpp_hesperusInitiateCottonMaybe,"$option = hpp_hesperusCottonOut 0
-FireBest DialogOptionSelected","Os olhos do iniciado estão arregalados; ele está claramente impressionado. ""Não conte a ninguém, mas... quer dizer, você tem que admitir que o que o Cotton fez é astuto e corajoso. O... o Criador deu dons a ele, e ele os usa.""",,
+FireBest DialogOptionSelected","Os olhos do iniciado estão arregalados; ele está claramente impressionado. ""Não conte a ninguém, mas... quer dizer, você tem que admitir que aquilo que o Cotton fez é astuto e corajoso. O... o Criador deu dons a ele, e ele os usa.""",,
 lppHesperusInitiateMetCottonYes,DialogOptionSelected,$option == lpp_hesperusInitiateMetCottonYes,"$option = hpp_hesperusCottonOut 0
 FireBest DialogOptionSelected
 $player.luddicAttitudePather++
@@ -12180,14 +12180,14 @@ Isto não é um dos grandes santuários do Caminho dos Peregrinos, claro, mas a 
 BFFIidolTalkIntro2,DialogOptionSelected,$option == bffi_idolTalkIntro2,"BeginConversation bornanew
 FireAll BFFIidolTalkHubOpts","""E aqui é a sede de não mais do que algumas noções 'divergentes' de doutrina"", diz Bornanew em voz baixa.
 
-""Pelo menos segundo a escola 'Ineffablista', apoiada pela Reverenda Arquicuradora Jaspis, entre outros. Aqui, embora seja uma minoria da ecumene da Igreja, há uma maioria local dos chamados 'Mundanianos'. Não me entenda mal; eles não são cismáticos."" Ele deixa passar um momento de silêncio.
+""Pelo menos segundo a escola 'Inefabilista', apoiada pela Reverenda Arquicuradora Jaspis, entre outros. Aqui, embora seja uma minoria da ecumene da Igreja, há uma maioria local dos chamados 'Mundanianos'. Não me entenda mal; eles não são cismáticos."" Ele deixa passar um momento de silêncio.
 
 ""Mesmo assim.""",,
 BFFIidolTalkHubIntroBB,DialogOptionSelected,"$option == bffi_idolTalkIntro2
 $global.bornanewBadBoy > 1","BeginConversation bornanew
 FireAll BFFIidolTalkHubOpts","""E aqui é a sede de não mais do que algumas noções heréticas de doutrina, infelizmente"", diz Bornanew em voz baixa.
 
-""Pelo menos segundo a escola 'Ineffablista', apoiada pela Reverenda Arquicuradora Jaspis, entre outros. Aqui, embora seja uma minoria da ecumene da Igreja, há uma maioria local dos chamados 'Mundanianos'. Não me entenda mal, eles não são cismáticos. Ainda não."" Ele deixa passar um momento de silêncio.
+""Pelo menos segundo a escola 'Inefabilista', apoiada pela Reverenda Arquicuradora Jaspis, entre outros. Aqui, embora seja uma minoria da ecumene da Igreja, há uma maioria local dos chamados 'Mundanianos'. Não me entenda mal, eles não são cismáticos. Ainda não."" Ele deixa passar um momento de silêncio.
 
 ""Mesmo assim.""",,
 BFFIidolTalkHubOptB,BFFIidolTalkHubOpts,$askedMundanian,,,"bffi_idolTalkTrouble:""Está me dizendo que vai haver problemas?""",
@@ -14896,7 +14896,7 @@ bairdIntro4,DialogOptionSelected,$option == bairdIntroC4,FireAll BairdIntroHub,"
 
 ""Não peço que você goste de mim, e não farei um apelo sentimental e hipócrita. O que peço é que reconheça, racionalmente, que estou perseguindo um curso de ação livre de demandas faccionais. Na verdade, este será o esforço principal para garantir a sobrevivência da nossa civilização contra um colapso total.""
 
-""Não seremos salvos por um recuo para sítios em frágeis bolas de rocha, nem por uma corrida armamentista que joga recursos preciosos nas fogueiras das disputas interfaccionais. Precisamos ir além do conhecido, desenvolver teorias que estilhacem tudo o que veio antes e aplicar novas tecnologias radicais para garantir nossa sobrevivência. Devemos alcançar mais longe e mais alto do que o Domínio jamais ousou!"" Enquanto fala, ela ergue os olhos em direção a alguma abstração. 
+""Não seremos salvos por um recuo para sítios em frágeis bolas de rocha, nem por uma corrida armamentista que joga recursos preciosos nas fogueiras das disputas interfacionais. Precisamos ir além do conhecido, desenvolver teorias que estilhacem tudo o que veio antes e aplicar novas tecnologias radicais para garantir nossa sobrevivência. Devemos alcançar mais longe e mais alto do que o Domínio jamais ousou!"" Enquanto fala, ela ergue os olhos em direção a alguma abstração. 
 
 Isto, você pensa, é algo em que ela acredita.",,
 bairdIntroHubA1,BairdIntroHub,!$bairdIntro_whyShould,,,"0:bairdIntro_tellMeMore:""Conte-me mais.""",
@@ -15281,7 +15281,7 @@ FireAll GAKAGargoyleHub","""Só- eu- Todo mundo!""
 
 ""Vou contar meus novos amigos"", Gargoyle começa a dobrar os dedos. ""A Hegemonia, para começar, quem quer que a COMSEC decida mandar. Espero que uma expedição oficial cause um incidente diplomático, então provavelmente capangas sombrios com armas vão se infiltrar para tentar me matar. Depois, a Tri-Tachyon, pelo menos quando estiverem avisados pela resposta desastrada da Hegemonia. E os Caminhantes, não posso esquecê-los. A Hegemonia vaza como uma brecha no casco para todos os pequenos luditas, e eles vão simplesmente adorar tudo sobre isso.""
 
-""Deixe-me resumir para você, meu bom comandante: em, ah, dois ou três turnos, este lugar estará no fogo cruzado de um evento de criticidade interfaccional, e cada segundo espaçonauta que estiver comprando macarrão no saguão vai ser um assassino ou um espião.""",,
+""Deixe-me resumir para você, meu bom comandante: em, ah, dois ou três turnos, este lugar estará no fogo cruzado de um evento de criticidade interfacional, e cada segundo espaçonauta que estiver comprando macarrão no saguão vai ser um assassino ou um espião.""",,
 gaKAGargoyle2DoYouHaveArchiveSel,DialogOptionSelected,$option == gaKA_gargoyleDoYouHave,"$askedDoYouHave = true 0
 FireAll GAKAGargoyleHub","""Não há tempo para isso! Mas-"" Gargoyle dá um sorrisinho. ""-Vejo o que você está tentando. Não se preocupe, eu tenho tudo trancado com segurança, criptografado com meu próprio suco especial, e com backup fora do local. Seria preciso um Núcleo Alfa para arrancar isso daí, e isso levaria tempo. Se você soubesse onde procurar. E você não sabe."" 
 
@@ -15948,7 +15948,7 @@ gaFCFikenhildBotherPM,PopulateOptions,"$postId == portmaster
 $market.gaFC_coureuseInvestigation
 !$askedAboutCoureuse
 !$global.gaFC_knowSiyavongContact",,,"gaFC_fikenhildBotherPM2:""Estou procurando Scylla Coureuse.""",
-gaFCFikenhildBotherPM2,DialogOptionSelected,$option == gaFC_fikenhildBotherPM2,$askedAboutCoureuse = true,"""Aquilo é uma nave?"" Essa pessoa olha para o lado e toca numa superfície de controle. ""Não vejo um registro para 'Scylla Coureuse', embora às vezes os bancos de dados interfaccionais levem algum tempo para atualizar...""
+gaFCFikenhildBotherPM2,DialogOptionSelected,$option == gaFC_fikenhildBotherPM2,$askedAboutCoureuse = true,"""Aquilo é uma nave?"" Essa pessoa olha para o lado e toca numa superfície de controle. ""Não vejo um registro para 'Scylla Coureuse', embora às vezes os bancos de dados interfacionais levem algum tempo para atualizar...""
 
 Mais toques.","gaFC_fikenhildBotherPM3:""Coureuse é uma pessoa. Uma acadêmica da Academia Galatia. Ou era.""",
 gaFCFikenhildBotherPM3,DialogOptionSelected,$option == gaFC_fikenhildBotherPM3,,"""Ah."" Essa pessoa se volta para você.
@@ -16628,7 +16628,7 @@ GAFCSiyavongStonewall1,DialogOptionSelected,$siyavongStonewall,unset $siyavongSt
 
 Siyavong observa você com uma simulação impecável de confusão educada e burocrática.
 
-""Se quiser denunciar um crime no espaço interfaccional, ou um crime na entidade política local envolvendo não cidadãos deste Estado-membro da Liga, posso encaminhar você ao contato apropriado.""
+""Se quiser denunciar um crime no espaço interfacional, ou um crime na entidade política local envolvendo não cidadãos deste Estado-membro da Liga, posso encaminhar você ao contato apropriado.""
 
 Não importa o que você tente, ele está fazendo corpo mole. E é bom nisso.",cutCommLinkNoText:Cortar o link de comunicação,
 ,,,,,,
@@ -17421,7 +17421,7 @@ $askedAboutCoureuse",,"""De novo isso."" Os olhos do arconte se desviam para o l
 ""Como eu já disse, existe um diretório público de comunicações. Isso está fora da alçada do meu escritório.""","gaFC_archonConfront:""E posso provar.""",
 gaFCArchonAskGalatia,DialogOptionSelected,$option == gaFC_archonAskGalatia,$askedGalatiaIncident = true 0,"""Hum. Sim, na verdade. Eventos recentes no sistema Galatia, certo? É perigoso o que a Academia aprontou, e embora mereçam uma reprimenda, a Hegemonia reagiu com um excesso típico."" Uma nota de indignação surge na fala.
 
-""A Liga Perseana entrou com uma queixa no Conselho de Disputas Interfaccionais, sabia? Não esperamos muito disso, mas alguém precisa dizer alguma coisa, não é?""
+""A Liga Perseana entrou com uma queixa no Conselho de Disputas Interfacionais, sabia? Não esperamos muito disso, mas alguém precisa dizer alguma coisa, não é?""
 
 O arconte examina você por um momento e então pergunta: ""Por que você quer saber?""","gaFC_archonAskCoureuse:""Estou procurando Scylla Coureuse. Ela estava envolvida.""
 gaFC_archonAskGalatia2:""Você acha que algo assim poderia acontecer aqui?""
@@ -18931,7 +18931,7 @@ gaPZ_diktatComRefuseAgain:Recusar",
 gaPZ_diktatIfRefuse,DialogOptionSelected,$option == gaPZ_diktatIfRefuse,"$gaPZ_diktatIfRefuse = true 0
 FireAll GAPZDiktatHub","""Você não pode recusar uma ordem dada pelo Leão de Sindria,"" diz o $rank do Diktat, com desprezo. ""Tomaremos sua nave de um jeito ou de outro. Agora ela pertence ao Executor Supremo, Almirante Andrada.""
 
-Essa exigência é um tanto extraordinária e certamente não se sustentaria sob as leis do comércio interfaccional. Se você se defendesse da apreensão injustificada de uma nave estelar, o Diktat Sindriano estaria em terreno movediço ao declarar você um pirata.
+Essa exigência é um tanto extraordinária e certamente não se sustentaria sob as leis do comércio interfacional. Se você se defendesse da apreensão injustificada de uma nave estelar, o Diktat Sindriano estaria em terreno movediço ao declarar você um pirata.
 
 ""Transfira os protocolos de comando para minha nau capitânia,"" exige de novo.",,
 gaPZ_diktatDefend,DialogOptionSelected,$option == gaPZ_diktatDefend,"# not set, so that the option to refuse always remains
@@ -22214,7 +22214,7 @@ Você explica, citando os detalhes que agora se lembra, que eles são o $personN
 ""Descobrir o quê?"" diz, com uma antecipação seca de más notícias.","gaDA_scavBluff2:""Os resultados da investigação, claro.""",
 gaDAScavBluff2,DialogOptionSelected,$option == gaDA_scavBluff2,,"Fica visivelmente preocupado. ""A investigação?""
 
-Você balança a cabeça enquanto conta do escândalo e da ação judicial subsequente que derrubaram a maior parte da diretoria da PSSC, depois que a APCC foi alertada sobre fundos sendo transferidos entre certos fornecedores de 'capital fantasma', num esquema envolvendo armas pesadas contrabandeadas para o espaço dos Caminhantes, alavancadas a partir de imóveis de primeira em Eventide. A podridão é profunda e, com a pressão diplomática interfaccional, o Concordato verá mais cabeças rolarem no próximo ciclo, disso não há dúvida.
+Você balança a cabeça enquanto conta do escândalo e da ação judicial subsequente que derrubaram a maior parte da diretoria da PSSC, depois que a APCC foi alertada sobre fundos sendo transferidos entre certos fornecedores de 'capital fantasma', num esquema envolvendo armas pesadas contrabandeadas para o espaço dos Caminhantes, alavancadas a partir de imóveis de primeira em Eventide. A podridão é profunda e, com a pressão diplomática interfacional, o Concordato verá mais cabeças rolarem no próximo ciclo, disso não há dúvida.
 
 O capitão parece cada vez mais um cadáver no espaço conforme você descreve.","gaDA_scavBluff3:""Mas seu verdadeiro problema é a ordem de expropriação...""",
 gaDAScavBluff3,DialogOptionSelected,$option == gaDA_scavBluff3,,"""O... "", não consegue nem dizer a palavra.
@@ -23735,7 +23735,7 @@ FireBest GATJPlanetInteraction","Sua $shipOrFleet se aproxima de $entityName. N�
 
 ""Comandante"", o oficial de sensores chama sua atenção para um aglomerado de fontes fracas de neutrinos no hemisfério sul. ""Não teríamos percebido se não soubéssemos o que procurar.""",,
 gaTJPrintHostilesText,GATJAdjustOptions,HostileFleetNearbyAndAware,"SetEnabled mktRaidNonMarket false
-SetEnabled gaTJ_get false","Uma frota hostil próxima está rastreando seus movimentos, o que torna uma operação de resgate inadvisável.",,
+SetEnabled gaTJ_get false","Uma frota hostil próxima está rastreando seus movimentos, o que torna uma operação de resgate desaconselhável.",,
 gaTJStandardPlanetInteraction,GATJPlanetInteraction,,FireBest GATJAdjustOptions,,"gaTJ_contact:Enviar um pulso codificado na frequência fornecida por Sebestyen
 defaultLeave:Sair",
 gaTJPlanetContact,DialogOptionSelected,$option == gaTJ_contact,Call $global.gaTJ_ref showResearcher,"Quase de imediato, um rosto preocupado aparece, pingando de suor. ""Estrelas além!"", exclama o pesquisador. ""Você realmente veio! Sou o acadêmico $gaTJ_researcherName e estou pronto para partir. Agora mesmo.""

@@ -31,7 +31,8 @@ BKP = os.path.join(KIT, "backup_original")
 MANIFESTO = os.path.join(BKP, "_manifesto.json")
 ORIGINAIS = os.path.join(KIT, "hashes_originais.json")
 MESCLA = os.path.join(KIT, "mescla.dat")
-VERSAO = "1.1.0"
+ANTERIORES = os.path.join(KIT, "hashes_anteriores.json")
+VERSAO = "1.2.0"
 
 
 def sha256(caminho):
@@ -123,6 +124,8 @@ def aplicar_pt(jogo):
     originais = ler_json(ORIGINAIS, {})
     manifesto = ler_json(MANIFESTO, {"novos": []})
     mesclados = list(manifesto.get("mesclados", []))
+    anteriores = ler_json(ANTERIORES, {})
+    atualizados = []
     recusados = []
     parciais = []
     trocados = 0
@@ -143,6 +146,13 @@ def aplicar_pt(jogo):
                 if not os.path.exists(guardado):
                     os.makedirs(os.path.dirname(guardado), exist_ok=True)
                     shutil.copy2(destino, guardado)  # guarda o original antes de trocar
+            elif not os.path.exists(guardado) and atual in anteriores.get(rel, []):
+                # tradução de uma versão anterior deste kit, e o backup_original dela não existe mais:
+                # atualiza direto. Não é "outro mod", então não passa pela mescla.
+                atualizados.append(rel)
+                shutil.copy2(origem, destino)
+                trocados += 1
+                continue
             elif not os.path.exists(guardado):
                 # alterado por outro mod: traduz só as linhas que continuam iguais às do original
                 temp = destino + ".ptbr_tmp"
@@ -165,7 +175,7 @@ def aplicar_pt(jogo):
     if mesclados:
         manifesto["mesclados"] = mesclados
     gravar_json(MANIFESTO, manifesto)
-    return trocados, recusados, parciais
+    return trocados, recusados, parciais, atualizados
 
 
 def versao_compativel(jogo):
@@ -177,7 +187,8 @@ def versao_compativel(jogo):
     traduzido = os.path.join(LOC, "starfarer_obf.jar")
     return (atual == original
             or (os.path.exists(traduzido) and atual == sha256(traduzido))
-            or os.path.exists(os.path.join(BKP, "starfarer_obf.jar")))
+            or os.path.exists(os.path.join(BKP, "starfarer_obf.jar"))
+            or atual in ler_json(ANTERIORES, {}).get("starfarer_obf.jar", []))  # jar de uma versão anterior do kit
 
 
 def voltar_en(jogo):
@@ -243,7 +254,7 @@ def main():
             print("(o arquivo starfarer_obf.jar não é o da 0.98a-RC8). Nada foi alterado.")
             return 1
         try:
-            trocados, recusados, parciais = aplicar_pt(jogo)
+            trocados, recusados, parciais, atualizados = aplicar_pt(jogo)
         except PermissionError as e:
             print("Sem permissão para gravar:", e.filename)
             print("Rode o terminal como administrador (Windows) ou com sudo (Linux), ou mova o jogo para uma pasta sua.")
@@ -251,6 +262,11 @@ def main():
             return 1
         print(f"{trocados} arquivo(s) traduzido(s) aplicado(s) em {jogo}")
         print("Originais guardados em backup_original (não apague essa pasta).")
+        if atualizados:
+            print(f"{len(atualizados)} arquivo(s) eram de uma versão anterior da tradução e foram atualizados.")
+            print("Não encontrei o backup_original da versão antiga, então esses arquivos não têm original guardado:")
+            print("o modo en não consegue voltá-los ao inglês. Para isso, use a verificação de integridade do jogo (Steam).")
+            print("Na próxima atualização, extraia o zip por cima da pasta PTBR_Patch antiga.")
         if parciais:
             print(f"{len(parciais)} arquivo(s) alterado(s) por outro mod foram traduzidos em parte:")
             for rel, n in parciais[:30]:

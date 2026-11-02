@@ -1,5 +1,5 @@
 Rótulos curtos que ficaram bem maiores em português (podem cortar na tela).
-Critério: inglês com até 30 letras, português 1.35x maior e pelo menos 4 letras a mais. Total: 1412.
+Critério: inglês com até 30 letras, português 1.35x maior e pelo menos 4 letras a mais. Total: 1408.
 Confira no jogo. Para encurtar, edite units/NNNN_<tipo>.pt.json no item indicado e rode
 python -X utf8 tools/sstr.py validate e build.
 
@@ -11,17 +11,9 @@ python -X utf8 tools/sstr.py validate e build.
     EN: % cp recovery rate
     PT: % de taxa de recuperação de pontos de comando
 
-[0014 #38] +23 letras (2.1x)  starfarer_obf.jar:com/fs/starfarer/coreui/refit/ModPickerDialogV3.class
-    EN: No matching hullmods
-    PT: Nenhuma modificação de casco correspondente
-
 [0015 #49] +23 letras (1.9x)  starfarer_obf.jar:com/fs/starfarer/launcher/opengl/GLLauncher.class
     EN: No code found in clipboard.
     PT: Nenhum código encontrado na área de transferência.
-
-[0014 #107] +22 letras (2.5x)  starfarer_obf.jar:com/fs/starfarer/coreui/refit/auto/G.class
-    EN: Autofit Preview
-    PT: Pré-visualização do ajuste automático
 
 [0021 #12] +22 letras (1.9x)  starfarer.api.jar:com/fs/starfarer/api/impl/campaign/BattleAutoresolverPluginImpl.class
     EN: %s can outrun other fleet
@@ -74,10 +66,6 @@ python -X utf8 tools/sstr.py validate e build.
 [0015 #142] +19 letras (1.8x)  starfarer_obf.jar:com/fs/starfarer/title/A/oOOO.class
     EN:  - dev & game design lead
     PT:  - líder de desenvolvimento e design de jogo
-
-[0014 #114] +19 letras (1.7x)  starfarer_obf.jar:com/fs/starfarer/coreui/refit/auto/G.class
-    EN: Select autofit goal variant
-    PT: Selecione a variante-alvo do ajuste automático
 
 [0023 #43] +18 letras (2.8x)  starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/CommRelayCondition.class
     EN: Comm relay
@@ -383,10 +371,6 @@ python -X utf8 tools/sstr.py validate e build.
     EN: Exit dialog
     PT: Sair da janela de diálogo
 
-[0011 #54] +14 letras (2.2x)  starfarer_obf.jar:com/fs/starfarer/campaign/ui/trade/D.class
-    EN: Armor rating
-    PT: Classificação de blindagem
-
 [0016 #38] +14 letras (2.2x)  starfarer_obf.jar:com/fs/starfarer/title/OoOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO/OoOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO$oo.class
     EN: Strafe right
     PT: Deslocar-se para a direita
@@ -402,10 +386,6 @@ python -X utf8 tools/sstr.py validate e build.
 [0015 #250] +14 letras (2.1x)  starfarer_obf.jar:com/fs/starfarer/title/OoOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO/OoOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO$oo.class
     EN: Pan view left
     PT: Mover visão para a esquerda
-
-[0014 #142] +14 letras (1.9x)  starfarer_obf.jar:com/fs/starfarer/coreui/refit/auto/new.class
-    EN: Mass autofit...
-    PT: Ajuste automático em massa...
 
 [0012 #191] +14 letras (1.9x)  starfarer_obf.jar:com/fs/starfarer/coreui/A/A.class
     EN: Show colony info
@@ -434,6 +414,10 @@ python -X utf8 tools/sstr.py validate e build.
 [0041 #52] +14 letras (1.7x)  starfarer.api.jar:com/fs/starfarer/api/impl/hullmods/NeuralInterface.class
     EN: Neural system reset
     PT: Reinicialização do sistema neural
+
+[0014 #38] +14 letras (1.7x)  starfarer_obf.jar:com/fs/starfarer/coreui/refit/ModPickerDialogV3.class
+    EN: No matching hullmods
+    PT: Nenhuma modificação correspondente
 
 [0016 #33] +14 letras (1.7x)  starfarer_obf.jar:com/fs/starfarer/title/OoOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO/OoOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO$oo.class
     EN: Show map & command UI
@@ -554,10 +538,6 @@ python -X utf8 tools/sstr.py validate e build.
 [0020 #51] +13 letras (2.4x)  starfarer.api.jar:com/fs/starfarer/api/campaign/impl/items/ModSpecItemPlugin.class
     EN:  - Modspec
     PT:  - Especificação de mod
-
-[0015 #20] +13 letras (2.2x)  starfarer_obf.jar:com/fs/starfarer/coreui/refit/wgd2/WeaponGroupDialogV2.class
-    EN: Auto-assign
-    PT: Atribuir automaticamente
 
 [0019 #72] +13 letras (2.2x)  starfarer_obf.jar:com/fs/starfarer/ui/impl/StandardTooltipV2$6.class
     EN: Fuel Report
@@ -879,6 +859,10 @@ python -X utf8 tools/sstr.py validate e build.
     EN: wormhole terminus 
     PT: terminal de buraco de minhoca 
 
+[0023 #49] +12 letras (1.7x)  starfarer.api.jar:com/fs/starfarer/api/impl/campaign/econ/EstablishedPolity.class
+    EN: Established Polity
+    PT: Entidade política estabelecida
+
 [0030 #158] +12 letras (1.7x)  starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/events/ttcr/TriTachyonCommerceRaiding.class
     EN: worth working with
     PT: vale a pena trabalhar com você
@@ -1007,6 +991,10 @@ python -X utf8 tools/sstr.py validate e build.
     EN: Select skills to make elite
     PT: Selecione habilidades para tornar elite
 
+[0014 #114] +12 letras (1.4x)  starfarer_obf.jar:com/fs/starfarer/coreui/refit/auto/G.class
+    EN: Select autofit goal variant
+    PT: Selecione a variante-alvo do autoajuste
+
 [0026 #197] +12 letras (1.4x)  starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/bar/events/PlanetaryShieldBarEvent.class
     EN: Ask the veteran spacer what 
     PT: Perguntar ao espaçonauta veterano o que 
@@ -1042,6 +1030,10 @@ python -X utf8 tools/sstr.py validate e build.
 [0031 #112] +11 letras (3.2x)  starfarer.api.jar:com/fs/starfarer/api/impl/campaign/intel/inspection/HegemonyInspectionIntel.class
     EN: %s AI 
     PT: %s núcleos de IA 
+
+[0010 #242] +11 letras (2.8x)  starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/o0Oo.class
+    EN: Polity
+    PT: Entidade política
 
 [0006 #138] +11 letras (2.6x)  starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class
     EN: run sim
@@ -1178,10 +1170,6 @@ python -X utf8 tools/sstr.py validate e build.
 [0006 #160] +11 letras (1.6x)  starfarer_obf.jar:com/fs/starfarer/campaign/command/MarketTooltipFactory$1.class
     EN: Upkeep modifiers:
     PT: Modificadores de manutenção:
-
-[0014 #108] +11 letras (1.6x)  starfarer_obf.jar:com/fs/starfarer/coreui/refit/auto/G.class
-    EN: Autofit confirmed
-    PT: Ajuste automático confirmado
 
 [0021 #127] +11 letras (1.6x)  starfarer.api.jar:com/fs/starfarer/api/impl/campaign/FleetInteractionDialogPluginImpl.class
     EN: Cut the comm link
@@ -1523,10 +1511,6 @@ python -X utf8 tools/sstr.py validate e build.
     EN: show intel
     PT: mostrar inteligência
 
-[0014 #72] +10 letras (2.0x)  starfarer_obf.jar:com/fs/starfarer/coreui/refit/Q.class
-    EN: Autofit...
-    PT: Ajuste automático...
-
 [0020 #121] +10 letras (2.0x)  starfarer.api.jar:com/fs/starfarer/api/combat/WeaponAPI$WeaponType.class
     EN: Launch Bay
     PT: Hangar de lançamento
@@ -1538,10 +1522,6 @@ python -X utf8 tools/sstr.py validate e build.
 [0038 #221] +10 letras (2.0x)  starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/SystemsExpertise$Level4.class
     EN: % cooldown
     PT: % de tempo de recarga
-
-[0010 #135] +10 letras (1.9x)  starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/cdd/CommodityDetailDialogV2.class
-    EN: Mkt percent
-    PT: Percentual de mercado
 
 [0016 #2] +10 letras (1.9x)  starfarer_obf.jar:com/fs/starfarer/title/OoOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO/OoOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO$oo.class
     EN: Pan view up
@@ -1915,10 +1895,6 @@ python -X utf8 tools/sstr.py validate e build.
     EN: Faulty Automated Systems
     PT: Sistemas Automatizados Defeituosos
 
-[0041 #85] +10 letras (1.4x)  starfarer.api.jar:com/fs/starfarer/api/plugins/impl/CoreAutofitPlugin.class
-    EN: Strip before autofitting
-    PT: Remover antes do ajuste automático
-
 [0042 #172] +10 letras (1.4x)  data/campaign/market_conditions.csv rare_ore_sparse [name]
     EN: Sparse Rare Ore Deposits
     PT: Depósitos Escassos de Minério Raro
@@ -2006,10 +1982,6 @@ python -X utf8 tools/sstr.py validate e build.
 [0006 #99] +10 letras (1.4x)  starfarer_obf.jar:com/fs/starfarer/campaign/command/J.class
     EN: Fleet size is at base level.
     PT: O tamanho da frota está no nível base.
-
-[0014 #109] +10 letras (1.4x)  starfarer_obf.jar:com/fs/starfarer/coreui/refit/auto/G.class
-    EN: Autofit confirmed, purchased 
-    PT: Ajuste automático confirmado, comprado 
 
 [0037 #65] +10 letras (1.4x)  starfarer.api.jar:com/fs/starfarer/api/impl/campaign/skills/BallisticMastery$Level3.class
     EN: % ballistic projectile speed
@@ -3275,6 +3247,10 @@ python -X utf8 tools/sstr.py validate e build.
     EN: Market size.
     PT: Tamanho do mercado.
 
+[0011 #54] +7 letras (1.6x)  starfarer_obf.jar:com/fs/starfarer/campaign/ui/trade/D.class
+    EN: Armor rating
+    PT: Índice de blindagem
+
 [0015 #180] +7 letras (1.6x)  starfarer_obf.jar:com/fs/starfarer/title/OoOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO/F.class
     EN: Battle size:
     PT: Tamanho da batalha:
@@ -3390,6 +3366,10 @@ python -X utf8 tools/sstr.py validate e build.
 [0010 #82] +7 letras (1.5x)  starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/b.class
     EN:  will refund you 
     PT:  vai reembolsar você em 
+
+[0014 #142] +7 letras (1.5x)  starfarer_obf.jar:com/fs/starfarer/coreui/refit/auto/new.class
+    EN: Mass autofit...
+    PT: Autoajuste em massa...
 
 [0024 #89] +7 letras (1.5x)  starfarer.api.jar:com/fs/starfarer/api/impl/campaign/events/FoodShortageEvent.class
     EN:  Ended by player
@@ -4742,6 +4722,10 @@ python -X utf8 tools/sstr.py validate e build.
 [0009 #55] +5 letras (1.5x)  starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/CommodityDetailDialog.class
     EN: below tenth
     PT: abaixo do décimo
+
+[0010 #135] +5 letras (1.5x)  starfarer_obf.jar:com/fs/starfarer/campaign/ui/marketinfo/cdd/CommodityDetailDialogV2.class
+    EN: Mkt percent
+    PT: Fatia de mercado
 
 [0011 #161] +5 letras (1.5x)  starfarer_obf.jar:com/fs/starfarer/class/new/return.class
     EN: STRAFE LOCK

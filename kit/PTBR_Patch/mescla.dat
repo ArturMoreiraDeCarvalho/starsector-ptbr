@@ -34659,7 +34659,7 @@ field_repairs,Reparos em Campo,1520,1,0,,Não há ninguém num raio de vinte ano
 25e6ec9dcf7dcce8
 field_modulation,Modulação de Campo,50,2,0,,"Poucos têm talento para o que eu gosto de chamar de ""sintonia ativa"". Acho que os músicos são os melhores oficiais de campo.","Ardis Soloman, dados vazados submetidos ao algoritmo de redação do COMSEC",TRUE,,,active_defenses,graphics/icons/skills/field_modulation.png,
 2679243631f23b1d
-carrier_group,Grupo de Porta-Caças,550,3,0,,"As estatísticas nos dizem que eles serão evaporados em uma parede de artilharia antiaérea antes de meia dúzia de missões, mas ainda queremos ser eles. Uma vez na cabine, são os únicos entre todos nós que têm controle sobre o próprio destino.","Projeto de Entrevista no Porto de Nachiketa, Ep.4",,TRUE,,,graphics/icons/skills/carrier_command.png,
+carrier_group,Grupo de Porta-Aviões,550,3,0,,"As estatísticas nos dizem que eles serão evaporados em uma parede de artilharia antiaérea antes de meia dúzia de missões, mas ainda queremos ser eles. Uma vez na cabine, são os únicos entre todos nós que têm controle sobre o próprio destino.","Projeto de Entrevista no Porto de Nachiketa, Ep.4",,TRUE,,,graphics/icons/skills/carrier_command.png,
 27068040208fb068
 O que temos que eles não têm? (Canhões grandes, bem grandes!)",canção de taverna da marinha da Hegemonia,TRUE,,,ballistic_weapons,graphics/icons/skills/ranged_specialization.png,
 286211ba9ee756c0
@@ -35447,7 +35447,7 @@ Equipamento de Levantamento,surveying_equipment,1,,,"special, req_spaceport, sta
 39e1fc7926dfc8ea
 Esta modificação de casco é necessária para que as armas de fragmentos funcionem; se ela não estiver presente ou não houver fragmentos suficientes no enxame, as armas de fragmentos serão desativadas.",Um enxame de fragmentos Ameaça agita-se em torno da nave.,Reduz a prontidão de combate máxima em %s e aumenta o custo de manutenção em %s.,graphics/hullmods/fragment_swarm.png
 3b675bf391fffd0f
-Porta-caças Convertido,converted_hangar,1,,,"special, non_phase, merc, standard",Caças,5000,,,,0,10,10,10,com.fs.starfarer.api.impl.hullmods.ConvertedHangar,<Tooltip criado no script>,Baia de caças improvisada para não porta-caças.,"Aumenta a taxa com que a taxa de reposição de caças se recupera em %s para cruzadores, e em %s para naves capitais. Sem efeito adicional para destróieres.",graphics/hullmods/converted_hangar.png
+Hangar Convertido,converted_hangar,1,,,"special, non_phase, merc, standard",Caças,5000,,,,0,10,10,10,com.fs.starfarer.api.impl.hullmods.ConvertedHangar,<Tooltip criado no script>,Baia de caças improvisada para não porta-aviões.,"Aumenta a taxa com que a taxa de reposição de caças se recupera em %s para cruzadores, e em %s para naves capitais. Sem efeito adicional para destróieres.",graphics/hullmods/converted_hangar.png
 3be4c408dbc26d6b
 Pacote ECCM,eccm,2,,,"offensive, defensive, merc, standard",Armas,2500,,,,5,8,15,20,data.hullmods.ECCMPackage,"Reduz a chance de os mísseis lançados pela nave serem afetados por contramedidas eletrônicas e sinalizadores em %s.
 3d3971510fa3a603
@@ -35758,7 +35758,7 @@ Anteparas Reforçadas,reinforcedhull,0,,,"defensive, merc, standard",Defesas,250
 009fc398c42f2eba
 Trident,trident,,Alta Tecnologia,,,500,25,500,,50,0,,130,150,125,30,90,50,OMNI,,180,0,1,,,3,3,,,,,,,,,,,,,,,,,,,,,,,,0,,,,106
 04ec6700a6d3cad2
-Mora,mora,Porta-caças,Baixa Tecnologia,damper,15,10000,1250,4000,4000,200,125,3,45,20,10,10,10,2000,OMNI,,150,0.4,1,,,200,300,100,60,4,15,8,125000,4,12,420,0.25,20,20,,,,,,,"CARRIER, COMBAT, NO_AUTO_ESCORT","lowtech_bp, merc, ind",,,,0.4,2,3,,410
+Mora,mora,Porta-aviões,Baixa Tecnologia,damper,15,10000,1250,4000,4000,200,125,3,45,20,10,10,10,2000,OMNI,,150,0.4,1,,,200,300,100,60,4,15,8,125000,4,12,420,0.25,20,20,,,,,,,"CARRIER, COMBAT, NO_AUTO_ESCORT","lowtech_bp, merc, ind",,,,0.4,2,3,,410
 055d7d028c91d12c
 Longbow,longbow,,Alta Tecnologia,,,300,10,100,,50,0,,200,400,300,90,180,20,OMNI,,160,0,1,,,1,1,,,,,,,,,,,,,,,,,,,,,,,,0,,,,107
 0836273b518f43f0
@@ -35814,7 +35814,7 @@ Afflictor,afflictor,Fragata de Fase,Alta Tecnologia,entropyamplifier,14,1500,400
 2df72e28707d4780
 Fulgent,fulgent,Navio de Drones,Remanescentes,highenergyfocus,12,5000,450,5000,5000,400,105,,85,75,50,30,50,500,OMNI,,150,0.4,0.6,,,0,0,80,60,2,30,10,50000,5,15,420,0.25,10,10,,,,,,,UNBOARDABLE,"remnant, auto_rec, codex_unlockable",,,,0.5,2,3,,317
 2e22a550f2cf33e4
-Drover,drover,Porta-Caças Leve,Linha Média,flarelauncher_active,11,4250,400,3000,2813,225,80,2,75,60,50,25,25,450,FRONT,,300,0.4,0.8,,,90,150,40,40,2,20,9,40000,5,15,360,0.25,12,12,,,,,,,"CARRIER, COMBAT","midline_bp, merc, ind",,,,0.5,2,3,,318
+Drover,drover,Porta-Aviões Leve,Linha Média,flarelauncher_active,11,4250,400,3000,2813,225,80,2,75,60,50,25,25,450,FRONT,,300,0.4,0.8,,,90,150,40,40,2,20,9,40000,5,15,360,0.25,12,12,,,,,,,"CARRIER, COMBAT","midline_bp, merc, ind",,,,0.5,2,3,,318
 2f426aa7b3c08c7e
 ,overseer_unit,Unidade Supervisora,Ameaça,energy_lash,25,5000,900,5000,5000,400,1000,,90,90,70,30,60,350,OMNI,,150,0.4,1.2,,,0,0,40,100,0.5,200,9,100000,100,10,,,8,8,,,,,,,UNBOARDABLE,"threat, threat_overseer, codex_unlockable, limited_tooltip_if_locked",,,,0.5,2,3,,321
 2fde979da11943c3
@@ -35844,7 +35844,7 @@ Mining Pod,mining_drone,,Baixa Tecnologia,,,600,150,150,,100,0,,125,75,75,45,90,
 40a0b01163b3f281
 ,shrouded_tendril,Tentáculo Velado,Habitante Velado,convulsive_lunge,20,15000,1,6000,6250,500,1000,,120,240,240,50,100,500,OMNI,,180,0,0.7,,,0,0,0,0,1,0,5,0,100,1,,,10,10,,,,,,,UNBOARDABLE,"dweller, dweller_reckless, no_armor_schematic, codex_unlockable, monster, limited_tooltip_if_locked, no_battle_salvage",Indisponível,shrouded_tendril_Roiling,,0,,,,323
 40cff86199fae74a
-Heron,heron,Porta-Caças Rápido,Linha Média,targetingfeed,14,6000,750,5000,6000,300,100,3,80,60,40,20,25,800,OMNI,,180,0.5,0.8,,,150,250,90,60,3,20,8,120000,3,12,360,0.25,20,20,,,,,,,CARRIER,"midline_bp, merc, ind",,,,0.5,2,3,,407
+Heron,heron,Porta-Aviões Rápido,Linha Média,targetingfeed,14,6000,750,5000,6000,300,100,3,80,60,40,20,25,800,OMNI,,180,0.5,0.8,,,150,250,90,60,3,20,8,120000,3,12,360,0.25,20,20,,,,,,,CARRIER,"midline_bp, merc, ind",,,,0.5,2,3,,407
 42ef1e57162d0467
 ,derelict_mothership_sensor_mast,Mastro de Sensores de Proa,Explorarium,,1,5000,400,3000,6250,250,32,,0,0,0,10,10,280,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE",,,,,0.7,2,2,,2106
 432cfd7e70340ee6
@@ -35896,7 +35896,7 @@ Sarissa,sarissa,,Baixa Tecnologia,canister_flak,,750,200,180,,100,0,,140,250,200
 621b7475fafa8138
 ,station_derelict_survey_mothership,Navio-Mãe de Levantamento da era do Domínio,Explorarium,,30,40000,1600,1000,2500,100,0,,30,200,200,2,2,5000,NONE,,0,0,0,,,0,0,0,0,1,0,0,500000,10,10,,,50,50,,,,,,,"STATION, UNBOARDABLE","derelict, codex_unlockable",,,,0,,,,2001
 62578560bf921803
-Astral,astral,Porta-caças,Alta Tecnologia,recalldevice,27,10000,900,12000,15000,600,270,6,30,15,10,7,4,3000,FRONT,,360,0.7,0.7,,,450,1000,250,200,10,20,7,400000,3,15,600,0.25,50,50,,,,,,,CARRIER,"rare_bp, merc",,,,0.6,2,4,,501
+Astral,astral,Porta-aviões,Alta Tecnologia,recalldevice,27,10000,900,12000,15000,600,270,6,30,15,10,7,4,3000,FRONT,,360,0.7,0.7,,,450,1000,250,200,10,20,7,400000,3,15,600,0.25,50,50,,,,,,,CARRIER,"rare_bp, merc",,,,0.6,2,4,,501
 625cdcfdf590124a
 Warthog,warthog,,Baixa Tecnologia,flarelauncher_fighter,,750,200,200,,50,0,,130,180,150,100,200,40,NONE,,0,0,0,,,2,2,,,,,,,,,,,,,,,,,,,,,,,,0,,,,110
 64637682dca7740a
@@ -35922,7 +35922,7 @@ Cerberus,cerberus,Cargueiro de Combate,Baixa Tecnologia,burndrive,5,2500,400,125
 744f11aa40013fde
 Glimmer,glimmer,Navio de Drones,Remanescentes,highenergyfocus,8,1500,200,2500,3125,250,50,,130,250,200,90,270,200,OMNI,,150,0.4,0.6,,,0,0,50,40,1,40,11,30000,5,10,360,0.25,5,5,,,,,,,UNBOARDABLE,"remnant, auto_rec, codex_unlockable",,,,0.5,2,2,,227
 74841fe64adc3ed6
-Legion,legion,Porta-Caças de Batalha,Baixa Tecnologia,burndrive,28,18000,1650,12000,12500,500,300,4,30,15,15,6,6,3500,FRONT,,180,0.4,1,,,700,1500,300,300,15,20,7,375000,3,12,720,0.25,40,40,,,,,,,"CARRIER, COMBAT, NO_AUTO_ESCORT","rare_bp, merc",,,,0.4,2,4,,507
+Legion,legion,Porta-Aviões de Batalha,Baixa Tecnologia,burndrive,28,18000,1650,12000,12500,500,300,4,30,15,15,6,6,3500,FRONT,,180,0.4,1,,,700,1500,300,300,15,20,7,375000,3,12,720,0.25,40,40,,,,,,,"CARRIER, COMBAT, NO_AUTO_ESCORT","rare_bp, merc",,,,0.4,2,4,,507
 758643135588e50b
 ,module_large1_lowtech,Módulo de Combate Pesado,Baixa Tecnologia,forgevats_station,1,20000,2000,30000,30000,1200,1000,,0,0,0,10,10,3500,FRONT,,120,0.4,1,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE",,,,,0.5,2,4,,2063
 7586faa4c76dcb7c
@@ -35942,7 +35942,7 @@ Shade,shade,Fragata de Fase,Alta Tecnologia,emp,10,1750,400,2500,3750,300,50,,16
 7eddb48709a25287
 ,standoff_unit,Unidade de Linha,Ameaça,extraction_protocol,18,18000,1700,12000,11667,700,1000,,70,70,60,15,30,500,FRONT,,150,0.4,1.2,,,0,0,120,150,0.75,200,9,150000,100,10,,,20,20,,,,,,,UNBOARDABLE,"threat, threat_combat, codex_unlockable, limited_tooltip_if_locked",,,,0.5,2,3,,418
 7f07e664cb91424e
-Condor,condor,Porta-Caças Leve,Baixa Tecnologia,fastmissileracks,9,5000,500,2200,1833,110,45,2,50,40,30,20,10,400,OMNI,,120,0.4,1.2,,,90,150,120,30,2,15,9,32000,5,10,360,0.25,10,10,,,,,,,CARRIER,"base_bp, ind",,,,0.5,2,3,,302
+Condor,condor,Porta-Aviões Leve,Baixa Tecnologia,fastmissileracks,9,5000,500,2200,1833,110,45,2,50,40,30,20,10,400,OMNI,,120,0.4,1.2,,,90,150,120,30,2,15,9,32000,5,10,360,0.25,10,10,,,,,,,CARRIER,"base_bp, ind",,,,0.5,2,3,,302
 800569ecf7edcde4
 Eradicator,eradicator,Cruzador Rápido,Baixa Tecnologia,ammofeed,13,9000,1200,9000,8000,400,150,,70,50,40,15,20,1800,OMNI,,150,0.4,1,,,120,170,100,120,4,30,9,100000,4,12,540,0.25,22,22,,,,,,,,"rare_bp, merc, ind",,,,0.5,2,4,,404.5
 823aa9c414e9b178
@@ -38731,7 +38731,7 @@ flarelauncher_fighter,SHIP_SYSTEM,"Lança chamarizes térmicos que interferem no
 9a0fc61defc7cc5b
 station_achaman_enterprise,CUSTOM,"O valor da Estação Achaman está em ser um porto de escala relativamente seguro para os vários habitantes do Disco de Guayota interagirem com comerciantes do Setor em geral, que de outra forma raramente arriscam os piratas e a navegação difícil do Disco. A Tri-Tachyon Corporation, como ""zeladora"" da estação, está bem posicionada para explorar esse valor com facilidade - e o faz. Costuma-se dizer que tudo está à venda na Estação Achaman.",,"Brilhantes transportes trazem executivos da Tri-Tach até aqui para surrupiar metais e produtos químicos brutos dos moradores locais, que recebem, em troca, o conjunto habitual de 'medicamentos' recreativos e de aprimoramento de desempenho. 
 9a1f99c689819d9b
-reservewing,SHIP_SYSTEM,"Implanta caças de reserva que podem combater por um curto período antes de retornar ao porta-aviões, dobrando temporariamente o número de caças na ala.",Porta-caças,"Implanta caças de reserva que podem combater por um curto período antes de retornar ao porta-aviões, dobrando temporariamente o número de caças na ala.",,,
+reservewing,SHIP_SYSTEM,"Implanta caças de reserva que podem combater por um curto período antes de retornar ao porta-aviões, dobrando temporariamente o número de caças na ala.",Porta-aviões,"Implanta caças de reserva que podem combater por um curto período antes de retornar ao porta-aviões, dobrando temporariamente o número de caças na ala.",,,
 9b0aa422c71c9296
 legion,SHIP,"Classificada como porta-aviões de batalha, a Legion monta uma impressionante disposição de armas pesadas, espaço de hangar e comando-controle suficientes para colocar em campo quatro alas de caças. Os modelos posteriores foram aprimorados com nanoforjas voltadas à reposição de caças, aumentando significativamente a razão combatente-apoio em implantações distantes.
 9b1b9e514ec43531
@@ -39225,7 +39225,7 @@ industrial_megafacility,GALLERY,Megainstalação Industrial,"A manufatura indust
 d351efcad9023151
 canister_flak,SHIP_SYSTEM,Dispara um grande número de cápsulas de flak com espoletas de proximidade de tempo variável em torno da nave.,Defensivo,Dispara um grande número de cápsulas de flak com espoletas de proximidade de tempo variável em torno da nave. Cada cápsula causa 200 de dano de Alto Explosivo em uma área e é direcionada para evitar fogo amigo.,200 Alto Explosivo,Cada cápsula causa {{200 Alto Explosivo}} de dano em uma área e é direcionada para evitar fogo amigo.,
 d3f341d9bc7bf597
-targetingfeed,SHIP_SYSTEM,"Envia dados de mira em tempo real para as alas de caças deste porta-aviões, aumentando temporariamente o dano delas.",Porta-caças,"Envia dados de mira em tempo real para as alas de caças deste porta-aviões, aumentando temporariamente o dano delas.",,O dano dos caças é aumentado em {{50%}}.,
+targetingfeed,SHIP_SYSTEM,"Envia dados de mira em tempo real para as alas de caças deste porta-aviões, aumentando temporariamente o dano delas.",Porta-aviões,"Envia dados de mira em tempo real para as alas de caças deste porta-aviões, aumentando temporariamente o dano delas.",,O dano dos caças é aumentado em {{50%}}.,
 d43c6afbbdcdf061
 dualflak,WEAPON,"Uma versão montada em duplo, superior e brutalmente eficaz, do Flak Cannon. Apelidado de ""The Widowmaker"" pela sua capacidade de despedaçar caças que se aproximam.
 d4415b0460305389
@@ -39455,7 +39455,7 @@ Um respeito saudável por poder de fogo intimidador em um pacote pequeno faz com
 ed99086d2c351db2
 luddic_path,FACTION,"O Caminho Luddita é uma categoria frouxamente associada de seitas luditas radicais, descentralizadas e apocalípticas, que reivindicam uma interpretação mais verdadeira da Mensagem de Ludd. Consideram a Igreja comprometida e corrupta, colocando o ego mundano e o conforto acima do verdadeiro Caminho Luddita, nestes tempos finais. A guerra do Armagedom é AGORA e as linhas estão traçadas! Somente por meio de uma ação justa e enérgica o Bem destruirá o Mal, e somente pela violência a abominação da soberba da humanidade e sua rebelião contra Deus será varrida em um ato final de redenção. Ou é o que eles afirmam. O Caminho Luddita necessariamente se vê em desacordo com quase todas as outras facções do Setor.",,,,,
 ede33bf0d704f965
-recalldevice,SHIP_SYSTEM,"Teletransporta todos os caças de volta ao porta-aviões, permitindo que sejam rapidamente reequipados e relançados.",Porta-caças,"Teletransporta todos os caças de volta ao porta-aviões, permitindo que sejam rapidamente reequipados e relançados.",,,
+recalldevice,SHIP_SYSTEM,"Teletransporta todos os caças de volta ao porta-aviões, permitindo que sejam rapidamente reequipados e relançados.",Porta-aviões,"Teletransporta todos os caças de volta ao porta-aviões, permitindo que sejam rapidamente reequipados e relançados.",,,
 ede49fedb5631208
 Nas dificuldades da vida no Setor Perseano, assim como nas dificuldades da peregrinação, os Fiéis encontravam uma espécie de paz e significado no vácuo deixado pelo Colapso.",,,,
 ee40ac471ad1fe4d
@@ -40063,9 +40063,9 @@ fc65f6f5858b0b16
 035e08a6d1c28882
 "Se seus escudos receberem dano demais, a nave entrará em sobrecarga e as armas e escudos ficarão desativados por alguns segundos.",
 046af0213dcb3c50
-"Porta-caças armados apenas com defesa de ponto e mísseis tentarão se manter longe das naves inimigas.",
+"Porta-aviões armados apenas com defesa de ponto e mísseis tentarão se manter longe das naves inimigas.",
 05a03e791b167140
-"Alguns caças podem atacar alvos além do alcance visual do porta-caças. Pressione Tab para abrir a interface de comando e marque naves distantes clicando nelas e selecionando 'Definir como Alvo'.",
+"Alguns caças podem atacar alvos além do alcance visual do porta-aviões. Pressione Tab para abrir a interface de comando e marque naves distantes clicando nelas e selecionando 'Definir como Alvo'.",
 0ac0f5d1c701ec3a
 "Um encaixe de míssil é versátil - há mísseis para praticamente todas as funções - mas os lançadores de mísseis costumam ter pouquíssima munição.",
 1d3e19dabdd95f6b
@@ -40079,7 +40079,7 @@ fc65f6f5858b0b16
 2762b909c9760dab
 "Naves com a designação (D) são versões inferiores dos cascos normais.",
 2bf0fc4385813b58
-"Pressione 'Z' para alternar entre ordenar que os caças de um porta-caças ataquem ou recuem para o porta-caças.",
+"Pressione 'Z' para alternar entre ordenar que os caças de um porta-aviões ataquem ou recuem para o porta-aviões.",
 2c7c8fd7ecea1de0
 "Ao criar grupos de armas, use Shift+clique para atribuir todas as armas do mesmo tipo.",
 315e37d462a158b7
@@ -40087,7 +40087,7 @@ fc65f6f5858b0b16
 3a0d86e446b5c781
 "Sua frota pode carregar carga, tripulação ou combustível além da capacidade máxima, ao custo de um consumo extra de suprimentos.",
 3b8f55746f19923e
-"Ordenar que os caças se reagrupem faz a taxa de reposição do porta-caças cair mais devagar e faz as alas danificadas tentarem se abrigar atrás do porta-caças.",
+"Ordenar que os caças se reagrupem faz a taxa de reposição do porta-aviões cair mais devagar e faz as alas danificadas tentarem se abrigar atrás do porta-aviões.",
 3c0b88e3c5bdd2ba
 "Modificações com baixo custo em pontos de equipamento tendem a ter bônus mais fortes quando embutidas no casco com um ponto de história. Modificações mais caras tendem a ter penalidades.",      
 3d05b480401e242a
@@ -40121,7 +40121,7 @@ fc65f6f5858b0b16
 8127b3ca898169d7
 "Aumentos percentuais são somados. Reduções percentuais geralmente são multiplicadas.",
 82717e2aed3e6b0a
-"Porta-caças param de lançar caças de reposição quando a prontidão de combate chega a 0%.",
+"Porta-aviões param de lançar caças de reposição quando a prontidão de combate chega a 0%.",
 8497f7d626259ba9
 "Você pode pressionar F2 a qualquer momento para abrir o Códex.",
 84d3097ee251e0ec
@@ -40129,7 +40129,7 @@ fc65f6f5858b0b16
 8c9826bf5d539964
 "Mais armas nem sempre é melhor - ter capacidade e dissipação de fluxo suficientes para fogo contínuo pode ser mais importante.",
 90aaf4af9885236b
-"Ao pilotar um porta-caças, seus caças escoltarão uma nave aliada se ela for marcada como alvo, e continuarão escoltando até serem chamados de volta, mesmo que o alvo seja desmarcado.",
+"Ao pilotar um porta-aviões, seus caças escoltarão uma nave aliada se ela for marcada como alvo, e continuarão escoltando até serem chamados de volta, mesmo que o alvo seja desmarcado.",
 9c4063b830f7b68a
 "Mobilizar mais naves do que o necessário pode custar mais suprimentos do que você ganha com a luta.",
 9ca045fc54ada502
@@ -40456,7 +40456,7 @@ b80e6b82c5617897
     "displayName": "Padrão",
 @data/variants/dominator/dominator_AntiCV.variant	1
 8dadd6a187cacc1d
-    "displayName": "Anti-porta-caças",
+    "displayName": "Anti-porta-aviões",
 @data/variants/dominator/dominator_Assault.variant	1
 fe4bd9d2f59b6e93
     "displayName": "Assalto",

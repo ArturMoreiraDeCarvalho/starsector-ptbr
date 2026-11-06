@@ -1,4 +1,4 @@
-TRADUÇÃO PT-BR DO STARSECTOR 0.98a-RC8 (KIT DE PATCH v1.2.0)
+TRADUÇÃO PT-BR DO STARSECTOR 0.98a-RC8 (KIT DE PATCH v1.2.1)
 As mudanças de cada versão estão em MUDANCAS.txt.
 
 O QUE É

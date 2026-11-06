@@ -32,7 +32,12 @@
 
 ---
 
-## Novidades da v1.2.0
+## Novidades da v1.2.1
+
+- **"Porta-aviões" em todo o jogo**: a interface e as dicas diziam "porta-caças" e as descrições de naves diziam "porta-aviões". Agora é sempre "porta-aviões" (35 textos).
+- **Hangar Convertido**: a modificação de casco *Converted Hangar* tinha dois nomes. Agora é "Hangar Convertido" no título e nas descrições.
+
+### v1.2.0
 
 - **Atualizar ficou simples**: o instalador reconhece a tradução das versões anteriores (1.0.0 e 1.1.0) e atualiza os arquivos direto, mesmo se você apagou a pasta antiga. Antes, ele tratava a tradução antiga como se fosse de outro mod.
 - **Revisão ortográfica automática** dos textos de interface e de dados, feita com o LanguageTool. Corrigi erros como "emuma", "reestabilize", "sobreviváveis" e crases, e unifiquei termos: "entidade política", "onidirecional" e "autoajuste" (no lugar de "ajuste automático").

@@ -1,5 +1,11 @@
 MUDANÇAS DO KIT PT-BR
 
+v1.2.1
+- "Porta-aviões" em todo o jogo. Antes, a interface e as dicas diziam "porta-caças" e as descrições de naves diziam
+  "porta-aviões". Agora é sempre "porta-aviões" (35 textos trocados).
+- A modificação de casco Converted Hangar tinha dois nomes ("Porta-caças Convertido" no título e "Hangar Convertido"
+  nas descrições). Agora é "Hangar Convertido" nos dois lugares, porque é um hangar, não um porta-aviões.
+
 v1.2.0
 - Atualizar ficou mais simples: o instalador reconhece a tradução de versões anteriores (1.0.0 e 1.1.0) mesmo
   quando a pasta backup_original delas não existe mais, e atualiza os arquivos direto. Antes, ele tratava a

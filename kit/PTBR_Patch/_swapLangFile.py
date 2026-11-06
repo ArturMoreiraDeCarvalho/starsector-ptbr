@@ -32,7 +32,7 @@ MANIFESTO = os.path.join(BKP, "_manifesto.json")
 ORIGINAIS = os.path.join(KIT, "hashes_originais.json")
 MESCLA = os.path.join(KIT, "mescla.dat")
 ANTERIORES = os.path.join(KIT, "hashes_anteriores.json")
-VERSAO = "1.2.0"
+VERSAO = "1.2.1"
 
 
 def sha256(caminho):

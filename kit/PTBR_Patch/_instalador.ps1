@@ -16,7 +16,7 @@ $Manifesto = Join-Path $Bkp "_manifesto.json"
 $ArqHashes = Join-Path $Kit "hashes_originais.json"
 $ArqMescla = Join-Path $Kit "mescla.dat"
 $ArqAnteriores = Join-Path $Kit "hashes_anteriores.json"
-$Versao = "1.2.0"
+$Versao = "1.2.1"
 $Utf8 = New-Object System.Text.UTF8Encoding($false)
 $Latin1 = [System.Text.Encoding]::GetEncoding(28591)   # 1 byte = 1 caractere: preserva os bytes do arquivo
 

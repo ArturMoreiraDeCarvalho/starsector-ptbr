@@ -1,0 +1,146 @@
+{
+ "chunk": 318,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"May Providence guide your hand,\" $heOrShe says, \"to strike our enemies with hammer and sword.\"\r\nOR\r\n\"I pray,\" $heOrShe speaks, hands together for a moment, \"that I might be blessed to facilitate our holy war in some small way.\"\r\n\r\nThat said, $heOrShe turns $hisOrHer eyes down to interface with... is that a paper book?\r\nOR\r\n\"May Providence grant you a most righteous Path,\" $heOrShe says, carefully tapping a sequence into $hisOrHer control interface.\r\nOR\r\n$PersonName gives a stern nod. \"We must be ever vigilent for righteous opportunity.\"\r\nOR\r\n\"Pray allow me but a moment,\" $heOrShe taps at $hisOrHer old datapad.\r\nOR\r\n$personName places $hisOrHer hands together and gives a small respectful bow, almost a nod before turning to tap at some interface.\r\n\r\nA soft light flickers over $hisOrHer face as $heOrShe scrolls the contents of a holodisplay.",
+   "ctx": "data/campaign/rules.csv contactMHOpenTextPA [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"Nothing right now, I'm afraid.\"\r\nOR\r\n\"Everything is settled at present. Perhaps another time?\"\r\nOR\r\n\"No, there's nothing coming up. I should have something for you next time.\"",
+   "ctx": "data/campaign/rules.csv contactNoMissions [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"What a delightful exchange. I'm sure it'll serve well, captain.\"\r\nOR\r\n\"My thanks to you, captain,\" $heOrShe smiles. \"This will make for a splendid anecdote.\"\r\nOR\r\n\"Wonderful,\" $heOrShe says. \"Providing you with opportunity has been most diverting.\"",
+   "ctx": "data/campaign/rules.csv contactPrintAcceptTextAristo [text]"
+  },
+  {
+   "i": 4,
+   "en": "$HeOrShe looks up, \"You're a trader, running a merchant fleet?\" You mumble something inconclusive. \"Oh, that's perfect,\" $heOrShe says.\r\n\r\n\"We've got a stockpile of $cheapCom_quantity units of $cheapCom_commodityName $cheapCom_marketOnOrAt $cheapCom_marketName that we need to get rid of as soon as possible - that's $cheapCom_dist light-years away. If you could help me out, I'd accept $cheapCom_pricePerUnit credits per unit, which makes it $cheapCom_totalPrice total. A real bargain, captain!\"\r\n\r\n$HeOrShe shows you $hisOrHer TriPad displaying a comms contact ID, \"Here, you'd need to speak with my associate, $cheapCom_personName to finalize the sale. I mean, if you're interested.\"",
+   "ctx": "data/campaign/rules.csv cheapComTextRemoteBar [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"I have judged it prudent to maintain a modest stockpile of $proCom_commodityName. Perhaps I could pay you to facilitate the acquisition?\"",
+   "ctx": "data/campaign/rules.csv proComBlurbAristo [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"I've an old freighter taking up precious volume in the family hangar which I'd much rather fill with a new purchase. Perhaps you'd like it?\"",
+   "ctx": "data/campaign/rules.csv hmdfBlurbAristo [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"It's a vintage $hmdf_hullClass freighter, and I was told by the seller that it'd seen some real adventures. Terribly exciting, I feel, and would have made a fabulous conversation piece had I got around to fixing it up. With my schedule, however...\"\r\n\r\n\"I suppose I ought to charge a fair price - I understand you have your pride, captain, and you would hardly accept charity. $hmdf_price credits, perhaps?\"",
+   "ctx": "data/campaign/rules.csv hmdfOfferTextContactAristo [text]"
+  },
+  {
+   "i": 8,
+   "en": "$personName taps a few buttons to pull up the freighter schematics for your examination.\r\n\r\n\"I was thinking to augment the engines and install black market safety overrides to achieve a truly impressive burn. What do you make of it?\"",
+   "ctx": "data/campaign/rules.csv hmdfLookAtFreighterAristo [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"New targets have come up from intel,\" $heOrShe says. \"I would like them handled with more initiative and discretion than my subordinates are accustomed to.\"",
+   "ctx": "data/campaign/rules.csv mcbBlurbHighImport [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"Some new targets have come up on the docket,\" $heOrShe says with a sigh. \"If you took a contract to handle one of these bounties, it might just get a senior VP off my case.\"",
+   "ctx": "data/campaign/rules.csv mcbBlurbTT [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"New targets have come up from intel\" $heOrShe says. \"I would like them handled with more initiative and discretion than my subordinates are accustomed to.\"",
+   "ctx": "data/campaign/rules.csv mcbBlurbTTHighImport [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"We've got a few options here,\" $personLastName says, pulling up a shared display with a table of intel reports.\r\n\r\n\"We've got an op timeslot coming up for an HK squadron that'll handle whatever you don't, so it's really your pick of the bunch. What sort of job do you think you can handle?\"",
+   "ctx": "data/campaign/rules.csv mcbOfferTextContact [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"We have several options,\" $personLastName says, pulling up a shared display with a table of intel reports.\r\n\r\n\"An operation timeslot for a realiable HK squadron, another merc, is coming up and they'll handle whatever you don't. You may pick any target you consider appropriate.\"",
+   "ctx": "data/campaign/rules.csv mcbOfferTextContactHighImport [text]"
+  },
+  {
+   "i": 14,
+   "en": "You approach and $Rank $personLastName gives you a perfunctory nod. \"Captain,\" $heOrShe says, all business.\r\n\r\n\"I have several assignments on the docket,\" $heOrShe looks down, scrolling $hisOrHer datapad. A coffee, black, certainly no sugar, is cooling on the table beside $hisOrHer hand. \"What sort of job can you handle?\"",
+   "ctx": "data/campaign/rules.csv mcbOfferTextBar [text]"
+  },
+  {
+   "i": 15,
+   "en": "$HeOrShe taps on one of the entries to enlarge the report. A face scowls at you from an arrest record holo.\r\n\r\n\"This charming individual believes they're some kind of pirate.\" $PersonName gets a carnivorous look in $hisOrHer eyes, \"$bcb_TargetHeOrShe stole from me. This is unacceptable.\" $HeOrShe leans back, casually, \"The lost credits are irrelevant, of course. What's important is the message such brigandage sends. We simply can't have pirates stealing wealth from those who rightfully possess it.\"\r\n\r\n\"The target is hiding in the $bcb_systemName which is $bcb_dist light-years distant. I shall reward you with $bcb_reward credits once you have put down the menace, and I shall give you $bcb_days days to do so. Are we agreed?\"",
+   "ctx": "data/campaign/rules.csv CBPirateAristo [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"Ah, this one, yes,\" $heOrShe pulls up an intel file. \"An adherent of the so-called 'Luddic Path'. Believes we'd all be better off smashing our computers and living in caves or some nonsense. You wouldn't believe the damage they cause when they can bring themselves to use real technology to meet their goals. This one is hiding out in the $bcb_systemName, $bcb_dist light-years away, and has caused great personal offense.\"\r\n\r\n\"I shall provide a reward of $bcb_reward credits for taking care of this fanatic. You'd have $bcb_days days to complete the mission.\"",
+   "ctx": "data/campaign/rules.csv CBPather1Aristo [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"Oh, delightful: another disgusting herd of space trash come to smear grime on everything they don't steal.\" $Post $personLastName frowns dramatically. \"Well, we know how to treat the criminal element here, trust me on that. I'll have my subordinate handle the mess.\"\r\n\r\n$HeOrShe has you wait as your comms are transferred to a security officer.",
+   "ctx": "data/campaign/rules.csv LOCRPimprisonPiratesAristo [text]"
+  },
+  {
+   "i": 18,
+   "en": "As promised, you allow the lost heretics to disembark. Their shuttles are met by a serene curate backed by a pair of frowning Knights of Ludd. The curate welcomes the refugees as they bow, hands clasped, or fall to their knees in repentance.\r\n\r\nThough the Church now shows a face of reconciliation, the Knight-Inquisitors will surely come later for a full accounting of their sins.",
+   "ctx": "data/campaign/rules.csv LOCRLoffloadToChurchSecular2 [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"Oh!\" $locrlf_HeOrShe jumps a bit as you speak, then looks you up and down. \"Yes, you seem like you would be quite fitting.\"\r\n\r\n\"I have,\" $locrlf_heOrShe drops $locrlf_hisOrHer voice, \"a delicate matter to discuss. An archcurate - who I shall not name - made it known to me that a flock of believers was led astray by a heretical self-proclaimed prophet.\"\r\n\r\n$locrlf_HisOrHer eyes are wide with alarm.\r\n\r\n\"Of course I would imagine this the business of the Knights, and I should be pleased to let their inquisitors deal with heretics as is their wont. But... well, it is not my place to speculate.\"",
+   "ctx": "data/campaign/rules.csv locrlfOfferTextBar [text]"
+  },
+  {
+   "i": 20,
+   "en": "You approach the pilgrim, who smiles and puts $lpt_hisOrHer hands together. From $lpt_hisOrHer confident disposition and quality clothing it is clear that $lpt_heOrShe comes from wealth somewhat at odds with Ludd's ascetic reputation.\r\n\r\n\"Blessed day. Captain, I presume?\" $lpt_heOrShe says. \"I wish to arrange transport for myself and my party to the $lpt_visitTargetName - on $lpt_entityName, of course - in the $lpt_systemName. Naturally I shall provide payment. Would $lpt_reward credits be worth a journey of $lpt_dist light-years?\"",
+   "ctx": "data/campaign/rules.csv lptOfferTextBarRich [text]"
+  },
+  {
+   "i": 21,
+   "en": "You approach the pilgrim. Finally seeing someone who looks like they want to talk, $lpt_heOrShe produces a crooked smile and puts $lpt_hisOrHer calloused hands together.\r\n\r\n\"May Ludd bless you, $playerSirOrMadam,\" $lpt_heOrShe says, bowing. \"I beg of you for passage for myself and a small party to the shrine of $lpt_entityName. We are but poor pilgrims and cannot pay, so we beg this as charity from you.\"  \r\n\r\n\"Perhaps you are already traveling to the $lpt_systemName? The $lpt_visitTargetName would be but a short detour.\" $lpt_HeOrShe looks up at you hopefully. \"We will cause no trouble, and will pray for Providence to bless you with prosperity and health.\"",
+   "ctx": "data/campaign/rules.csv lptOfferTextBarPoor [text]"
+  },
+  {
+   "i": 22,
+   "en": "Your purser reports that the pilgrims you picked up from $lpt_sourceName have been offloaded to a private shuttle and are on their way to the $lpt_visitTargetName. Their payment has forwarded to your accounts.",
+   "ctx": "data/campaign/rules.csv LPTcheckCompletionContRich [text]"
+  },
+  {
+   "i": 23,
+   "en": "The leader of the pilgrims you have transported from $lpt_sourceName insists on having the 'excellent captain' see $lpt_hisOrHer group off.\r\n\r\n\"You should visit the $lpt_visitTargetNameShort, captain,\" $lpt_heOrShe insists. \"I was once an unbeliever; the experience is quite transformational.\"\r\n\r\n\"Of course, I understand that this is a journey you must choose to undertake for yourself.\" $lpt_HeOrShe flashes a perfect smile and makes a pious gesture, then offloads to a private shuttle $lpt_heOrShe has hired to transport $lpt_himOrHer and $lpt_hisOrHer party to the shrine.",
+   "ctx": "data/campaign/rules.csv LPTcheckCompletionContRichOneOff [text]"
+  },
+  {
+   "i": 24,
+   "en": "Your purser reports that the pilgrims you picked up on $lpt_sourceName to transport to the local $lpt_visitTargetNameShort have been offloaded to a civilian shuttle. ",
+   "ctx": "data/campaign/rules.csv LPTcheckNonMarketContGeneric [text]"
+  },
+  {
+   "i": 25,
+   "en": "You follow the adjutant to the private booth; they give a salute and redeploy toward the bar.\r\n\r\n\"Captain.\" $Rank $personName greets you without flourish. \"Please, do sit. Make yourself comfortable.\" $HeOrShe motions toward a pitcher of cool, clear water. $HeOrShe is always on-duty from the looks of it.\r\n\r\n\"STRATCOM requires an irregular force to disrupt the $dhi_industry $dhi_marketOnOrAt $dhi_marketName for at least $dhi_disruptDays days.\" A few flicks on a datapad and a holo-map floats above the table. The intel is comprehensive: estimated garrison stats and deployment disposition. \"The target is $dhi_dist light-years away. The special operations office has agreed to pay $dhi_reward credits if you can complete this mission.\"\r\n\r\nYou examine the data and estimate that roughly $dhi_marines marines would be required to pull off this operation. The $faction $rank watches you make your calculations, patiently awaiting your response.",
+   "ctx": "data/campaign/rules.csv dhiOfferTextBar [text]"
+  },
+  {
+   "i": 26,
+   "en": "You follow the adjutant to the private booth; they salute awkwardly and retreat to the bar.\r\n\r\n\"Captain.\" $personName greets you without flourish. \"Please, sit. Make yourself comfortable.\" $HeOrShe is more formal and sober than most pirates you've encountered. There's a current of barely-suppressed rage beneath the polite words; this one is driven by some abstract notion. Ideology, perhaps. Or vengeance.\r\n\r\n\"The Warlord requires disruption of the $dhi_industry $dhi_marketOnOrAt $dhi_marketName for at least $dhi_disruptDays days.\" A flicks on the datapad summons a map, and specifications. The intel is comprehensive: estimated garrison stats and deployment disposition. \"The target is $dhi_dist light-years away. I have arranged payment of $dhi_reward credits if you complete this mission.\"\r\n\r\nYou examine the data and estimate that roughly $dhi_marines marines would be required to pull off this operation. The $faction $rank watches you make your calculations, awaiting your response.",
+   "ctx": "data/campaign/rules.csv dhiOfferTextBarPirate [text]"
+  },
+  {
+   "i": 27,
+   "en": "You return to the bar and share a glass of that noxious spirit that $personName is so fond of to celebrate. \r\n\r\n\"That was fun, captain! I'd steal another ship with you any day you like,\" $heOrShe says loud enough for everyone nearby to hear, though they're wise enough to pretend they didn't.",
+   "ctx": "data/campaign/rules.csv hijackOperation3Bar [text]"
+  },
+  {
+   "i": 28,
+   "en": "The comms-link crackles to life. \"Greetings, starfarer!\" $Rank $personName grimaces regretfully, \"Bad news: you possess something my superiors desire and now you must surrender it to me.\"\r\n\r\nYou realize that $heOrShe is talking about $entity.fwt_thingDesc.\r\n\r\n\"Now, is this going to be easy or hard? Think, now,\" $heOrShe says with false charitably, \"But don't take too long, please.\"\r\n\r\nThe demand is outright robbery and any law-abiding faction would be embarrassed to condemn you for defending yourself, if you chose to do so.",
+   "ctx": "data/campaign/rules.csv fwtOpenCommGenericAggroNoPay [text]"
+  }
+ ]
+}

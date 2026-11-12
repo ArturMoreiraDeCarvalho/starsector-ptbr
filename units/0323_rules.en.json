@@ -1,0 +1,196 @@
+{
+ "chunk": 323,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"Nonetheless, I consistently demonstrate a value-add to Director Glamor-Rotanev's section. So long as she is satisfied, I am satisfied to continue my work.\"\r\n\r\n\"And I'm damned good at it,\" he says, a bit of humanity slipping through his salesman's persona.",
+   "ctx": "data/campaign/rules.csv InesisAskWhatDo2a [text]"
+  },
+  {
+   "i": 2,
+   "en": "He rubs his chin, making a show of thinking this over.\r\n\r\n\"I'll tell you this.\" He raises a confident finger. \"I consistently demonstrate value-add to Director Glamor-Rotanev's section. So long as she is satisfied, I am satisfied to continue my work.\"\r\n\r\n\"And I'm damned good at it,\" he says, a bit of humanity slipping through.",
+   "ctx": "data/campaign/rules.csv InesisAskWhatDo2b [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"Excellent, excellent,\" his eyes flick rapidly.\r\n\r\n\"Director Glamor-Rotanev will be pleased, I'm sure of it.\"",
+   "ctx": "data/campaign/rules.csv InesisTechTurnInResponseFirst [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"Excellent! I'm sure we can spin up several new initiatives based on this material,\" he says.\r\nOR\r\n\"Another excellent find, captain,\" he says with a smile. \"I can't wait to tell R&D.\"\r\nOR\r\n\"Wonderful! I'm sure the analysis projections will be even more exciting than the last set.\"\r\nOR\r\n\"Excellent! R&D is eager for more samples. More than eager- desperate!\"\r\n\r\nHe produces a laugh.\r\nOR\r\n\"Fantastic! You wouldn't believe how the project-leaders in R&D fight over sample access scheduling.\" He shakes his head, smiling.\r\n\r\n\"Well, this should calm them down a bit. For a little while, anyway.\"\r\nOR\r\n\"You'll be pleased to know that we've come up with new containment procedures for delivering the samples to R&D after the little accident last time.\"\r\n\r\nSeeing your expression, he adds, \"Don't worry, despite the breach in the hab-volume, all the samples were recovered. Eventually.\"\r\n\r\nHis confident smile re-asserts itself.\r\nOR\r\n\"With more samples like this,\" he says, \"we can expect that the next quarterly status report is going to show some very exciting projections.\"\r\n\r\nHe looks up and away for a moment, smiling to himself.",
+   "ctx": "data/campaign/rules.csv InesisTechTurnInResponseDefault [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"A marvelous find, captain,\" he says. \"This is exactly what the Director has been searching for! She'll be so pleased, I'm sure of it.\"\r\n\r\nHis eyes beam with unnatural warmth.",
+   "ctx": "data/campaign/rules.csv InesisTechTurnInResponseThreat [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"Oh, these samples are quite unique, aren't they,\" he says, quite pleased. \"The containment requirements are unusual! I can't wait to see what R&D makes of it all.\"\r\n\r\nHis habitual smile is untroubled.",
+   "ctx": "data/campaign/rules.csv InesisTechTurnInResponseMonster [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Take it to Faro Inesis. Achaman. Magec system.\"\r\n\r\nShe doesn't bother to infuse her voice with even a pretense of interest.\r\n\r\n\"Next item.\"",
+   "ctx": "data/campaign/rules.csv SD7SzgrBringFiles2 [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"Take it to my strategic analyst, name is Faro Inesis. Achaman Franchise Station, Magec system.\"\r\n\r\nShe doesn't bother to infuse her voice with even a pretense of interest.\r\n\r\n\"Next item.\"",
+   "ctx": "data/campaign/rules.csv SD7SzgrBringFiles2b [text]"
+  },
+  {
+   "i": 9,
+   "en": "The Director's face creates a smile.\r\n\r\n\"He wasn't supposed to tell anyone. But this is Cornelius Elek, so I cannot be surprised.\"\r\n\r\nHer face, and tone, go blank again.\r\n\r\n\"You have something more to say about Elek. Proceed.\"",
+   "ctx": "data/campaign/rules.csv ZGRpostGADHOconfrontStart [text]"
+  },
+  {
+   "i": 10,
+   "en": "Glamor-Rotanev creates a smile for you.\r\n\r\n\"And you acquired something special indeed. Elek was distraught, I am to understand.\"\r\n\r\nHer eyes flicker oddly, and you detect what might be a rare spark of genuine amusement.",
+   "ctx": "data/campaign/rules.csv ZGRpostGADHOimply3b [text]"
+  },
+  {
+   "i": 11,
+   "en": "Her eyes fix upon you through the link. \"And that business is acquisition of additional samples from the Abyss.\"",
+   "ctx": "data/campaign/rules.csv ZGRpostGADHOelekPrefer3found [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"Old records,\" she says.\r\n\r\n\"The Galatia Academy doesn't know what it has, much less how to make good use of it. They lack appropriate motivation to exploit their own resources.\"",
+   "ctx": "data/campaign/rules.csv ZGRpostGADHOelekHowKnow [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"I should like to discuss the hull you recovered from the Abyss, the Onslaught Mk.I.\"",
+   "ctx": "data/campaign/rules.csv ZGRtechReturnDisableOMKIcheck [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"You've been most useful,\" she says ominously.\r\n\r\n\"I have an agent, an analyst; Faro Inesis, assigned to Achaman Enterprise Station in the Magec system. You may bring specimens to him as well, as proves convenient.\"\r\n\r\n\"He is fully authorized to pay you in full.\"\r\n\r\nA comms ID appears in your interface. She didn't even blink.",
+   "ctx": "data/campaign/rules.csv ZGRtechTurnInResponseFirst [text]"
+  },
+  {
+   "i": 15,
+   "en": "The link settles on feed of volatiles futures scrolling across the crest of the Tri-Tachyon corporation for just a moment before the comm-link connects you with a perfectly coiffed junior secretary.\r\n\r\n\"The Tri-Tachyon Corporation welcomes you to Eochu Bres.\" Their smile is uncannily bright. \"May we presume you wish to accept Director Glamor-Rotanev's invitation?\"",
+   "ctx": "data/campaign/rules.csv ZGRpreFirstVisitGreeting [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"Old reports noted your service to Mr. Macario - sorry, 'The Chief High Inspector' - and took has taken you for one of his pawns. But you've managed both to unseat him and follow through with his elimination. Well done.\"\r\n\r\n\"Nonetheless, you and I both know you're more and better than service to that blinkered tin-pot dictatorship. I believe your potential could be worth more than those little bribes and medals they distribute.\"\r\n\r\nHer eyebrows lift precisely. \"Don't you agree?\"",
+   "ctx": "data/campaign/rules.csv ZGRacknowledgeDiktatBalt [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"Old reports described you as a pawn of Mr. Macario, the former 'Chief High Inspector' of the Sindrian Diktat. But it seems they got you wrong.\"\r\n\r\nShe laughs like a wind chime. \"It appears that through your service to Philip's clone - Achilles, I believe it's name is - you've managed to unseat him from his position.\"\r\n\r\n\"But Achilles? I believe your potential could be worth more than his tin-pot slum-bully's bribes, medals, and chant of 'reforms'. It soothes the ears of small men with small greeds. But I,\" she smiles oddly, \"am no such man.\"",
+   "ctx": "data/campaign/rules.csv ZGRacknowledgeDiktatC [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"Old reports described you as a pawn of Mr. Macario, the former 'Chief High Inspector' of the Sindrian Diktat. But it seems they got you wrong.\"\r\n\r\nShe laughs like a wind chime. \"It appears that through your service to Philip's clone - Achilles, I believe it's name is - you've managed both to unseat him from his position and follow through with his elimination. Well done.\"\r\n\r\n\"But Achilles? I believe your potential could be worth more than his tin-pot slum-bully's bribes, medals, and chant of 'reforms'. He soothes the ears of small men with small greeds. But I,\" she smiles oddly, \"am no such man.\"",
+   "ctx": "data/campaign/rules.csv ZGRacknowledgeDiktatCalt [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"Old reports described you as a pawn of Mr. Macario, the former 'Chief High Inspector' of the Sindrian Diktat. But it seems they got you wrong.\"\r\n\r\nShe laughs like a wind chime. \"It appears that through your service to Philip's clone - Hector, I believe it's name is - you've managed to unseat him from his position.\"\r\n\r\n\"Still. Hector? Really? I believe your potential could be worth more than his tin-pot slum-bully's bribes, medals, and barely-concealed murders.\"",
+   "ctx": "data/campaign/rules.csv ZGRacknowledgeDiktatD [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"Old reports described you as a pawn of Mr. Macario, the former 'Chief High Inspector' of the Sindrian Diktat. But it seems they got you wrong.\"\r\n\r\nShe laughs like a wind chime. \"It appears that through your service to Philip's clone - Hector, I believe it's name is - you've managed both to unseat him from his position and follow through with his elimination. Well done.\"\r\n\r\n\"Still. Hector? Really? I believe your potential could be worth more than his tin-pot slum-bully's bribes, medals, and barely-concealed murders.\"",
+   "ctx": "data/campaign/rules.csv ZGRacknowledgeDiktatDalt [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"You've had a taste of working for the Company. A mundane commission, mercenary fare. Boilerplate. Busywork. We'd have automated all that sort of thing long ago, of course, if not for-\" \r\n\r\nShe pulls her gaze back down. \"I digress. You're capable of much more. Think of this as the next step.\"",
+   "ctx": "data/campaign/rules.csv ZGRacknowledgeTTcom [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"You know of the Perseus-Orion Abyss; a melodramatic name. I find spacers are a superstitious lot, excepting present company. Self-limiting mythology is best discarded if one means to ascend to the fullest of human potential.\" She looks away for a moment, making a dismissive flick with her flingers.",
+   "ctx": "data/campaign/rules.csv ZGRstartPitch4 [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"Something which threatened the Domain, presumably.\" A quick, bloodless smile. \"You'll prepare yourself for anything, I'm sure.\"",
+   "ctx": "data/campaign/rules.csv ZGRstartPitch9aNoThreat [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"I insist that you spare no expense in outfitting another expedition. Bring more fuel and supplies than you anticipate needing so that you don't embarrass yourself like the- well, never mind them. You're a winner, and we place our bets on winners.\"",
+   "ctx": "data/campaign/rules.csv ZGRstartPitch10another [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"'Was there another...'\" she says, repeating your words.\r\n\r\n\"Dozens! Some returned with nothing, others not at all. I won't conceal the fact from you. Maybe you'll find them, though don't feel compelled to render assistance on behalf of the Tri-Tachyon Corporation. These were independent contractors who accepted and assumed the risk. Then failed.\"\r\n\r\n\"If anything,\" she says quietly, \"we have grounds to sue them if they ever manage to get back to the Core Worlds.\"",
+   "ctx": "data/campaign/rules.csv ZGRstartPitch11 [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"Bring me more... samples. From the Abyss,\" she says, turning her back to you to look upon the vista of mountaintops and shining arcologies growing like crystals from the slums of Eochu Bres.\r\n\r\n\"And I'll make you glitter.\"",
+   "ctx": "data/campaign/rules.csv ZGRstartPitch12again [text]"
+  },
+  {
+   "i": 27,
+   "en": "Deputy Star Marshal Hyder appears, her face impassive. ",
+   "ctx": "data/campaign/rules.csv HyderGreetingStart [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"Contact identified, maintain course,\" she speaks to another bridge officer before turning to comms.\r\n\r\n\"Independent fleet, hear me: stay clear of our operational volume and you will not be fired upon.\"\r\n\r\nShe motions for an underling to cut the comms.\r\n\r\n\"Hyder out.\"",
+   "ctx": "data/campaign/rules.csv HyderGreetDefault [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"Hostile identified, prepare battlestations,\" she speaks to another bridge officer before turning to comms.\r\n\r\n\"Independent fleet, hear me: your opportunity for honorable surrender has passed. Prepare to be destroyed in battle.\"\r\n\r\n\"Hyder out.\" The comms snap off before you have a chance to speak.",
+   "ctx": "data/campaign/rules.csv HyderGreetDefaultHostile [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"Contact identified, maintain course,\" she speaks to another bridge officer before turning to comms.\r\n\r\n\"Commission-bearing fleet, hear me: you are directed to stay clear of our operational volume as we perform official maneuvers.\"\r\n\r\nShe motions for an underling to cut the comms.\r\n\r\n\"Hyder out.\"",
+   "ctx": "data/campaign/rules.csv HyderGreetDefaultSD [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"Captain,\" she says, unexpressive but with a carefully respectful tone. \"Please stay clear of our operational volume.\" \r\n\r\nAnd pause. \"We have nothing further to discuss at this time.\r\n\r\nShe motions for an underling to cut the comms.\r\n\r\n\"Hyder out.\"",
+   "ctx": "data/campaign/rules.csv HyderGreetDefaultTrustPostSTDU [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"Independent fleet,\" she says, not acknowledging your previous contact, \"Hear me: stay clear of our operational volume and you will not be fired upon.\"\r\n\r\n\"Hyder out.\"\r\n\r\nShe motions for an underling to cut the comms.",
+   "ctx": "data/campaign/rules.csv HyderGreetDefaultPostSTDU [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"Commission-bearing fleet,\" she says, not acknowledging your previous contact, \"Hear me: your are directed to stay clear of our operational volume as we perform official maneuvers.\"\r\n\r\n\"Hyder out.\"\r\n\r\nShe motions for an underling to cut the comms.",
+   "ctx": "data/campaign/rules.csv HyderGreetDefaultSDPostSTDU [text]"
+  },
+  {
+   "i": 34,
+   "en": "Hyder's trust is: $trust",
+   "ctx": "data/campaign/rules.csv DEVhyderMenuOptionSel [text]"
+  },
+  {
+   "i": 35,
+   "en": "Guard High Deputy Executor Caden appears; he barely looks at the comms.\r\n\r\n\"Independent fleet: maintain distance and you will not be fired upon. Hear and obey,\" he declares.\r\n\r\n\"Final victory to the Supreme Executor!\" Caden shouts with genuine enthusiasm.",
+   "ctx": "data/campaign/rules.csv defaultCadenGreeting [text]"
+  },
+  {
+   "i": 36,
+   "en": "Guard High Deputy Executor Caden appears, face red, eyes staring with blank hatred.\r\n\r\n\"You shall be extinguished by the might of the Lion's Guard!\" he shouts. \"Glory to the Sindrian Diktat, eternal victory to the Supreme Executor!\"\r\n\r\nThe comms snap off.",
+   "ctx": "data/campaign/rules.csv defaultCadenGreetHostile [text]"
+  },
+  {
+   "i": 37,
+   "en": "Guard High Deputy Executor Caden appears before you. \r\n\r\n\"Glory to the Sindrian Diktat, captain!\" he booms enthusiastically. \"It stirs the heart to see another proud follower of the Supreme Executor's vision upholding the Great Cause.\" \r\n\r\nHe blinks, perhaps realizing that he doesn't actually have anything to say to you. \"Stay strong and stay vigilant just as Supreme Executor Andrada taught us. Glory to the Sindrian Diktat!\"",
+   "ctx": "data/campaign/rules.csv defaultCadenGreetPostSDTUcom [text]"
+  },
+  {
+   "i": 38,
+   "en": "Guard High Deputy Executor Caden appears before you.\r\n\r\n\"Ah, Captain $playerName. Glory to the Sindrian Diktat!\" he booms enthusiastically. \"It stirs the heart to see a loyal follower of the Supreme Executor's vision, and,\" he leans in, \"One who will stand with me when the time comes, when strength and loyalty will be required to secure the future of the Persean Sector.\"\r\n\r\nHe leans back, satisfied. \"Stay strong and vigilant - as Supreme Executor Andrada taught us. Glory to the Sindrian Diktat!\"",
+   "ctx": "data/campaign/rules.csv defaultCadenGreetPostSDTUbacker [text]"
+  }
+ ]
+}

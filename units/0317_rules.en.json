@@ -1,0 +1,141 @@
+{
+ "chunk": 317,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "Baird slams her hand on the console, terminating the link.\r\n\r\nHer personal comms chime, then chime again. She picks it up. \"Speak.\"",
+   "ctx": "data/campaign/rules.csv gaATGbairdBetrayal1 [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"What um, um, other business would you like to talk about?\" Sebestyen asks cheerfully.\r\nOR\r\n\"I, I'm sure we have another item to discuss before wrapping up, don't we?\"\r\n\r\nSebestyen looks at you hopefully.",
+   "ctx": "data/campaign/rules.csv asebDefaultGreetingAgain [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"What a wonderful idea, captain!\" Sebestyen starts tapping away at his terminal, pulling up forms.\r\n\r\n\"I feel, um, personally,\" he says, \"that giving a chance to the brilliant up-and-coming minds of the next generation is perhaps the noblest thing someone of means can do to contribute to, to you know. Our future?\"\r\n\r\nHe clears his throat.\r\n\r\n\"So, it's only really worth doing if we can put at least 100,000 credits into a trust...\" He watches through the link to see how you react.\r\n\r\nYou have $player.creditsStrC available.",
+   "ctx": "data/campaign/rules.csv asebScholarshipPitch [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"Of course, I'm more than happy to discuss a scholarship.\" Sebestyen starts tapping away at his terminal, pulling up the required forms.\r\n\r\n\"You have the chance to provide real opportunities to the up-and-coming minds of the next generation, a truly noble cause!\"\r\n\r\nHe clears his throat. \"So, um. It's only really worth doing if we can put at least 100,000 credits into a trust...\"\r\n\r\nYou have $player.creditsStrC available.",
+   "ctx": "data/campaign/rules.csv asebScholarshipPitchAgainSel [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"Oh, um, interesting,\" he says. \"We're going to have to, um. You understand that the Hegemony has certain...\"\r\n\r\nHe coughs; a transparent excuse to not finish his sentence.\r\n\r\n\"It all comes down to the wording, don't worry.\" He taps away at the terminal for a minute. \"There. That should make everyone happy.\" He smiles.",
+   "ctx": "data/campaign/rules.csv asebScholarshipCauseCsel [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"Wow. Huh,\" the academician studies his datapad as if not quite believing it.\r\n\r\n\"So an individual who is associated with t-the Luddic Path contacted the Academy. Their name is $gaBA_contactName, and they say they want to sell the Academy a piece of technology that they... um, found somewhere, I guess? If it really is $gaBA_aOrAnItem, then this would be an extraordinary find.\"\r\n\r\n\"But. You know...\" Sebestyen looks to you expectantly.",
+   "ctx": "data/campaign/rules.csv gaBAMissionTextPather [text]"
+  },
+  {
+   "i": 7,
+   "en": "The comms-link crackles to life and the pirate captain swaggers before you. \"Greetings, starfarer. A little bird told me you have something very valuable to some people who think they're smarter than the rest of us.\" \r\n\r\n$HeOrShe pretends to be pondering deeply, \"Now, 'way I see it is, are you gonna make the smart decision to give us this pretty trinket, or are you gonna suck vacuum after I blow your $shipOrFleet out of the sky? Think, now.\"",
+   "ctx": "data/campaign/rules.csv pwiOpenComm [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"It is a long path to redemption,\" the Pather captain tells you, finally, \"And this is but the first step in your atonement. Blessings of Ludd be upon you, starfarer.\"\r\n\r\nYou cut the comms, roll your eyes, and consider your next move.",
+   "ctx": "data/campaign/rules.csv pwi2_accept1 [text]"
+  },
+  {
+   "i": 9,
+   "en": "The comms-link plays a catchy Tri-Tachyon jingle before the logo fades to show the finely-dressed Tri-Tachyon captain before you.\r\n\r\n\"Greetings, starfarer. Might I interest you in a little business proposal?\" $HeOrShe holds up a hand covered in tastefully minimalist yet glittering rings, \"Now I know you are carrying a very particular technological device in your cargo hold. Who's to say if it went missing before you even got here?\" \r\n\r\n$HeOrShe smiles, perfectly.  \r\n\r\n\"Let me offer you $entity.ttwi_credits credits to transfer it to my ship, and we'll all go home enriched.\"",
+   "ctx": "data/campaign/rules.csv ttwiOpenComm [text]"
+  },
+  {
+   "i": 10,
+   "en": "Academician Sebestyen looks up, reassured.\r\n\r\n\"So you'll do it?\"",
+   "ctx": "data/campaign/rules.csv gaRRMissionTextPirate3 [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"You're here on behalf of the Academy. You, who appear to wish to count yourself among the Faithful.\" $HeOrShe does not look impressed. \"You walk a treacherous Path, $playerBrotherOrSister.\"\r\n\r\n$HisOrHer eyes turn down toward some kind of real-paper notebook, \"Accept now my assurance that the individual on whose behalf you are petitioning the Knights has been treated well. Though considering their crimes, has been confined to a guest dormitory and had technological privileges... limited.\"\r\n\r\nThe Knight flips a page, eyes scanning the text. \"I see here that this academician was caught with a number of devices, 'research equipment', they claim. These devices have been destroyed.\" $HeOrShe looks up to see how you react, then nods to $himOrHerself.",
+   "ctx": "data/campaign/rules.csv gaRRChurchGreeting1faithful [text]"
+  },
+  {
+   "i": 12,
+   "en": "You dispatch a shuttle to pick up the freed academician.\r\n\r\nOn-board, they appear in good health and - now away from the brooding Knights of Ludd - complains bitterly about lost data.\r\n\r\n\"Those fanatics smashed my new TriPad. Simply barbaric! And it can't be my imagination, but I suspect that they hardly bathe down there.\"\r\n\r\nYou nod politely and motion for your security chief to escort the academician to their quarters so you can avoid them on the long trip back to the Galatia Academy.",
+   "ctx": "data/campaign/rules.csv gaRRChurchAccept3 [text]"
+  },
+  {
+   "i": 13,
+   "en": "Sebestyen re-reads his datapad with a concerned look, then adds \"There's... a way to get back to hyperspace without using a jump-point. It might be useful.\" \r\n\r\nHe looks up at you, perhaps wondering if you'll think him insane, \"It's not a joke. Before the Hegemony arrested so many of our top hyperspace researchers after the, ah, big incident, one of them - Academician Scylla Coureuse - was working on this theory, and we were very close to finding an application for a sort of Transverse Jump which could move a ship directly to hyperspace from normal-space.\" \r\n\r\nHe puts down the datapad, looking worried, \"Theoretically.\"",
+   "ctx": "data/campaign/rules.csv gaTJMissionText5 [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"I mean.\" Sebestyen looks troubled. \"Yes?\"\r\n\r\n\"Of course the individuals who feel, um, off-put don't see it as a small issue at all, which complicates the liaising between the uh, departments in question.\"",
+   "ctx": "data/campaign/rules.csv gaIntro2returnSeb5 [text]"
+  },
+  {
+   "i": 15,
+   "en": "Your eyes roam over the crowd, observing the push and pull of influence. Figures of vast power move through the space, attracting satellites and disturbing orbits. There, a space marshall of the Hegemony navy; there, the prime executor of Eventide's planetary government.\r\n\r\n\"$PlayerSirOrMadam.\" A human servitor appears beside you, offering a tray filled with delicate glasses of something effervescent.",
+   "ctx": "data/campaign/rules.csv soeHouseRaoUnsure1 [text]"
+  },
+  {
+   "i": 16,
+   "en": "She nods, accepting your words, her face still grim.\r\n\r\n\"Until a better time, captain.\"\r\n\r\nShe turns away before you can reply, heading toward the manor complex.",
+   "ctx": "data/campaign/rules.csv soeDuelPrepLeaveWontHold [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"No, I suppose not,\" she says, the start of a smile on her face.\r\n\r\n\"Until a better time, captain,\" she says then turns away before you can reply, heading toward the manor complex.",
+   "ctx": "data/campaign/rules.csv soeDuelPrepLeaveBravado [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"I'd like that,\" she says, the start of a smile on her face.\r\n\r\nShe looks like she is about to say more, but instead nods quickly and turns away before you can reply, heading toward the manor complex.",
+   "ctx": "data/campaign/rules.csv soeDuelPrepLeaveDatingSim [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"Oh, it's the space captain, how delightful,\" says $personName. \"Your manner of speaking is so colorful.\"\r\nOR\r\n\"Captain $playerName. Of course,\" says $personName. \"I presume you require patronage toward some ambition?\"\r\nOR\r\n\"Greetings, greetings,\" $heOrShe says, a hue of magnanimity entering $hisOrHer voice.\r\n\r\n\"It is ever so rewarding to work with someone who appreciates what I do for them.\"",
+   "ctx": "data/campaign/rules.csv contactGreetingAristo [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"Let's just see us what's in orbit then, shall we?\" $HeOrShe nods as $heOrShe speaks.\r\nOR\r\n\"Work, is it? Well I can be taking good care for you,\" $heOrShe says, tapping at $hisOrHer datapad. \"Let's us see what's on the docket.\"\r\nOR\r\n\"Aye,\" $personName says with a nod. \"I'll set you up.\"\r\n\r\nYou see light flicker over $hisOrHer face as $heOrShe scrolls through a holodisplay.\r\nOR\r\n\"Had enough ground-leave?\" $heOrShe asks with a chuckle.\r\nOR\r\n\"Ah, too much of them dirtsiders is it, looking for a job?\" $HeOrShe nods.\r\n\r\n\"Don't feel right without a steady burn under my feet, ain't that the truth- three-times locked!\"",
+   "ctx": "data/campaign/rules.csv contactMHOpenTextSR [text]"
+  },
+  {
+   "i": 21,
+   "en": "$HeOrShe nods. \"A mission? Wait one.\" $HeOrShe taps an interface.\r\nOR\r\n\"Copy,\" $heOrShe says, then taps at $hisOrHer datapad for a moment.\r\nOR\r\n$personName nods, \"Affirm.\" You see light flicker over $hisOrHer face as $heOrShe scrolls the contents of a holodisplay.",
+   "ctx": "data/campaign/rules.csv contactMHOpenTextSD [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"Pray grant me a moment,\" $heOrShe says, turning $hisOrHer eyes toward $hisOrHer console.\r\n\r\nYou hear a shuffle; is that wood-pulp paper?\r\nOR\r\n\"I may well have work for you, Providence willing.\" $HeOrShe taps at an old datapad for a moment.\r\nOR\r\n\"Ah? Of course,\" $heOrShe says. \"Let us see what tasks this day brings us, blessed may it be.\"\r\nOR\r\n\"Of course,\" $heOrShe says. Then continues with a small smile, \"Industry scours the rust of idleness, so it is said.\"",
+   "ctx": "data/campaign/rules.csv contactMHOpenTextFF [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"A job.\" $HeOrShe rubs $hisOrHer chin delicately. \"Now that's a notion.\"\r\nOR\r\n\"For pay?\" $HeOrShe feigns surprise, holds for a moment, then chitters. \"I jest, of course. I'm sure we have some 'work' you might enjoy...\"\r\nOR\r\n\"I'm sure someone-\" $heOrShe turns away. \"You there, there was a list! Yes, I want it up on the display without delay. Quick, quick!\"\r\n\r\n$HeOrShe gives you a can-you-believe-this look as, presumably, some underling calls up the requested data.\r\nOR\r\n\"Naturally! I'm more than delighted to provide.\"\r\n\r\n$PersonName turns to focus on manipulating $hisOrHer datapad and you see light flicker over $hisOrHer face as $heOrShe scrolls the contents.\r\nOR\r\n$HeOrShe puts on a magnanimous look. \"Oh, I'm sure I've got something for you to do around here. So useful, having people who... a moment...\"\r\n\r\n$PersonName's attention drifts as $heOrShe scrolls through a holodisplay. Its contents are obfuscated by comms privacy algorithms. ",
+   "ctx": "data/campaign/rules.csv contactMHOpenTextAR [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"Acknowledged. I'll pull up a summary of the docket.\" $HeOrShe taps at $hisOrHer command console and takes a moment to skim the results.\r\nOR\r\n\"Of course. Let us see what we have for you.\" $HeOrShe frowns and taps at $hisOrHer datapad.\r\nOR\r\n$personName nods. \"A moment, please.\"\r\n\r\nYou see light flicker over $hisOrHer face as $heOrShe scrolls the contents of a holodisplay.\r\nOR\r\n\"I reviewed several relevant matters upon the shift change. Let me see if your profile matches the requirements...\"\r\n\r\n$HeOrShe takes a moment to access $hisOrHer datapad.",
+   "ctx": "data/campaign/rules.csv contactMHOpenTextOF [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"Of course! There's always work to be done,\" $heOrShe says, tapping at $hisOrHer console. \"Usually, anyway...\"\r\nOR\r\n\"Excellent. I knew you were here for business. Now let's see,\" $heOrShe taps at $hisOrHer datapad.\r\nOR\r\n\"Good timing,\" $personName says with a nod. You see light flicker over $hisOrHer face. \"I was just reviewing the discretionary budget. I think I can squeeze some contract jobs in...\" \r\nOR\r\n\"There may be a profitable opportunity,\" $heOrShe looks up from $hisOrHer console to give you a quick smile. \"For both of us, I hope.\"",
+   "ctx": "data/campaign/rules.csv contactMHOpenTextBS [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"Why yes, I was just considering the possibilities.\" $HeOrShe looks thoughtful. \"Allow me to consult my notes...\"\r\nOR\r\n\"Let's see here,\" $heOrShe taps at a control console and a glowing galaxy of data erupts around $hisOrHer head.\r\n\r\n\"Oops, that's... I was in the middle of integrating the telemetry database. One moment, please.\" \r\n\r\nAfter a few furious interaction-gestures and some tapping the galaxy is reduced to something more like a manageable star system.\r\nOR\r\n\"Of course,\" $personName says with a nod. \"I'm sure we can find something interesting for you to do.\" \r\nOR\r\n\"I'll access the database at once,\" $heOrShe says. You see light flicker over $hisOrHer face as $heOrShe rapidly scrolls a holodisplay.",
+   "ctx": "data/campaign/rules.csv contactMHOpenTextSC [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"Some work, you say?\" $HeOrShe gives you an apparently meaningful look, which finishes on a sly grin. \"I should like nothing more.\"\r\nOR\r\n\"I am so glad you asked,\" $heOrShe says. Then pauses, raising an eyebrows. \r\nOR\r\n\"There is much you could do to advance my... my plans, shall we say.\"\r\n\r\n$HeOrShe decisively taps an interface then $hisOrHer face is illuminated from below by a deep red display.\r\nOR\r\n\"Why yes,\" $heOrShe says. \"Now understand well, I don't share these... these little schemes with you lightly.\"\r\n\r\nAn ironic smile flits across $hisOrHer face.\r\nOR\r\n\"I would love nothing more,\" $heOrShe says, \"than to provide you an opportunity to bring about the culmination of my plans.\"",
+   "ctx": "data/campaign/rules.csv contactMHOpenTextVN [text]"
+  }
+ ]
+}

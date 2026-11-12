@@ -20,7 +20,8 @@ public class OmniShieldEmitter extends BaseHullMod {
 		//stats.getShieldUpkeepMult().modifyMult(id, 1f - SHIELD_UPKEEP_BONUS * 0.01f);
 	}
 	
-	public void applyEffectsAfterShipCreation(ShipAPI ship, String id) {
+	//public void applyEffectsAfterShipCreation(ShipAPI ship, String id) {
+	public void applyEffectsAfterShipCreation2ndPass(ShipAPI ship, String id) {
 		ShieldAPI shield = ship.getShield();
 		if (shield != null) {
 			shield.setType(ShieldType.OMNI);

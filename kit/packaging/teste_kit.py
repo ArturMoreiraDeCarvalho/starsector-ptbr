@@ -349,8 +349,8 @@ def t_versao():
     with open(jar, "ab") as f:
         f.write(b"versao diferente")
     antes = sha(jar)
-    rc, out = ps(d, "pt"); check(rc == 1 and "0.98a-RC8" in out, "instalador recusa outra versão")
-    rc, out = py(d, "pt"); check(rc == 1 and "0.98a-RC8" in out, "Python recusa outra versão")
+    rc, out = ps(d, "pt"); check(rc == 1 and "0.98.5a-RC4" in out, "instalador recusa outra versão")
+    rc, out = py(d, "pt"); check(rc == 1 and "0.98.5a-RC4" in out, "Python recusa outra versão")
     check(sha(jar) == antes and not bkp(d), "nada foi alterado")
 
 

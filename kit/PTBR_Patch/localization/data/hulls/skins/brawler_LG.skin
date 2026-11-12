@@ -13,6 +13,8 @@
 	"removeBuiltInWeapons":[], 		# weapon slot ids
 	#"systemId":"ammofeed",
 	"ordnancePoints":47,
+	"suppliesToRecover":4,
+	"suppliesPerMonth":4,	
 	"builtInMods":["andrada_mods","solar_shielding","coherer"],
 	#"builtInMods":["andrada_mods"],
 	"builtInWeapons":{

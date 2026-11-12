@@ -54,7 +54,7 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		api.addToFleet(FleetSide.ENEMY, "astral_Strike", FleetMemberType.SHIP, "TTS August", false);
 		api.addToFleet(FleetSide.ENEMY, "medusa_Attack", FleetMemberType.SHIP, "TTS Stheno", false);
 		api.addToFleet(FleetSide.ENEMY, "medusa_Attack", FleetMemberType.SHIP, "TTS Euryale", false);
-		api.addToFleet(FleetSide.ENEMY, "medusa_Attack", FleetMemberType.SHIP, "TTS Euryale", false);
+		api.addToFleet(FleetSide.ENEMY, "medusa_Attack", FleetMemberType.SHIP, "TTS Euryale II", false);
 		api.addToFleet(FleetSide.ENEMY, "sunder_CS", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.ENEMY, "wolf_CS", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.ENEMY, "wolf_CS", FleetMemberType.SHIP, false);

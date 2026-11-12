@@ -13,14 +13,14 @@
 <p align="center">
   <a href="https://github.com/ArturMoreiraDeCarvalho/starsector-ptbr/releases/latest"><img src="https://img.shields.io/github/v/release/ArturMoreiraDeCarvalho/starsector-ptbr" alt="Versão"></a>
   <a href="https://github.com/ArturMoreiraDeCarvalho/starsector-ptbr/releases"><img src="https://img.shields.io/github/downloads/ArturMoreiraDeCarvalho/starsector-ptbr/total" alt="Downloads"></a>
-  <img src="https://img.shields.io/badge/Starsector-0.98a--RC8-blue" alt="Starsector 0.98a-RC8">
+  <img src="https://img.shields.io/badge/Starsector-0.98.5a--RC4-blue" alt="Starsector 0.98.5a-RC4">
   <a href="https://fractalsoftworks.com/forum/index.php?topic=36208.0"><img src="https://img.shields.io/badge/F%C3%B3rum-t%C3%B3pico%20oficial-orange" alt="Tópico no fórum"></a>
 </p>
 
 <h1 align="center">Starsector em Português do Brasil</h1>
 
 <p align="center">
-  Tradução gratuita do <b>Starsector 0.98a-RC8</b>: diálogos, missões, menus, descrições e Codex.<br>
+  Tradução gratuita do <b>Starsector 0.98.5a-RC4</b>: diálogos, missões, menus, descrições e Codex.<br>
   Com acentos em todas as fontes do jogo.
 </p>
 
@@ -32,7 +32,12 @@
 
 ---
 
-## Novidades da v1.2.1
+## Novidades da v1.3.0
+
+- Compatibilidade com o Starsector 0.98.5a-RC4.
+- Tradução de 1.697 textos adicionados ou alterados nesta versão; são 24.746 textos no total.
+
+### v1.2.1
 
 - **"Porta-aviões" em todo o jogo**: a interface e as dicas diziam "porta-caças" e as descrições de naves diziam "porta-aviões". Agora é sempre "porta-aviões" (35 textos).
 - **Hangar Convertido**: a modificação de casco *Converted Hangar* tinha dois nomes. Agora é "Hangar Convertido" no título e nas descrições.
@@ -83,7 +88,7 @@ Pronto. Para **voltar ao inglês**, dê dois cliques em `PTBR_Patch\DESINSTALAR.
 | O Windows pede permissão de administrador | Normal quando o jogo está em Arquivos de Programas. Clique em **Sim**. |
 | Aparece "acesso negado" | Clique com o botão direito em `INSTALAR.bat` e escolha **Executar como administrador**. |
 | O instalador não acha o jogo | Ele abre uma janela para você escolher a pasta do Starsector. |
-| "Este kit é para o Starsector 0.98a-RC8" | Seu jogo é de outra versão. Nada foi alterado. |
+| "Este kit é para o Starsector 0.98.5a-RC4" | Seu jogo é de outra versão. Nada foi alterado. |
 | Arquivos "traduzidos em parte" | Outro mod já alterou esses arquivos. O instalador traduziu as linhas iguais às do original e manteve as mudanças do mod. Os textos que o mod trocou continuam em inglês. |
 | Alguns arquivos "não foram trocados" | Nenhuma linha pôde ser traduzida (por exemplo, um jar alterado por outro patch). Restaure os originais e rode de novo. |
 | Não apague a pasta `PTBR_Patch\backup_original` | É lá que ficam os arquivos originais do jogo. |
@@ -111,14 +116,14 @@ O resultado precisa ser igual ao das notas. Se o seu antivírus reclamar de um s
 
 ## O que foi traduzido
 
-- 23.049 textos: diálogos e eventos da campanha, missões, descrições de naves, armas, sistemas, planetas e itens, menus, dicas, habilidades e o Codex.
+- 24.746 textos: diálogos e eventos da campanha, missões, descrições de naves, armas, sistemas, planetas e itens, menus, dicas, habilidades e o Codex.
 - Textos de interface que ficam dentro do código do jogo (`starfarer_obf.jar` e `starfarer.api.jar`).
 - Letras acentuadas nas oito fontes do jogo que não as tinham.
 - **Continuam em inglês, por decisão:** nomes de naves e armas, e linhas de depuração do desenvolvedor.
 
 ## Problemas conhecidos
 
-- Funciona só no **Starsector 0.98a-RC8**.
+- Funciona só no **Starsector 0.98.5a-RC4**.
 - A tradução foi feita com apoio de IA e ainda não passou por revisão completa.
 - Textos de mods não são traduzidos; a compatibilidade com mods não foi testada.
 - Os acentos das oito fontes foram montados com sinais que já existem na própria fonte, então podem destoar um pouco da letra.

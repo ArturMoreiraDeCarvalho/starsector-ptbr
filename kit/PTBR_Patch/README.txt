@@ -1,4 +1,4 @@
-TRADUÇÃO PT-BR DO STARSECTOR 0.98a-RC8 (KIT DE PATCH v1.2.1)
+TRADUÇÃO PT-BR DO STARSECTOR 0.98.5a-RC4 (KIT DE PATCH v1.3.0)
 As mudanças de cada versão estão em MUDANCAS.txt.
 
 O QUE É
@@ -7,7 +7,7 @@ Este kit troca arquivos do jogo pelos arquivos traduzidos. Antes de trocar, o sc
 O kit inclui os arquivos de dados traduzidos e os dois jars do jogo traduzidos (starfarer_obf.jar e starfarer.api.jar), que levam os textos de interface que ficam dentro do código.
 
 REQUISITOS
-- Starsector 0.98a-RC8. Outras versões não são suportadas.
+- Starsector 0.98.5a-RC4. Outras versões não são suportadas.
 - Windows 10 ou 11 para o instalador. Em Linux ou macOS, use o script Python (veja abaixo).
 
 INSTALAÇÃO (WINDOWS)
@@ -21,7 +21,7 @@ Feche o jogo antes de começar.
 Se o instalador não achar o jogo, ele abre uma janela para você escolher a pasta do Starsector.
 Se o jogo estiver em Arquivos de Programas, o Windows pede permissão de administrador. Isso é normal: a pasta do jogo é protegida.
 Se mesmo assim aparecer "acesso negado", clique com o botão direito em INSTALAR.bat e escolha "Executar como administrador".
-O instalador só funciona no Starsector 0.98a-RC8; em outra versão ele avisa e não altera nada.
+O instalador só funciona no Starsector 0.98.5a-RC4; em outra versão ele avisa e não altera nada.
 
 VOLTAR AO INGLÊS
 Dê dois cliques em PTBR_Patch\DESINSTALAR.bat.

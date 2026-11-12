@@ -1,0 +1,48 @@
+{
+    "displayName": "Restrito",
+    "fluxCapacitors": 23,
+    "fluxVents": 30,
+    "hullId": "aurora",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "targetingunit",
+        "fluxbreakers",
+        "shrouded_lens"
+    ],
+    "permaMods": [
+        "targetingunit",
+        "hardenedshieldemitter"
+    ],
+    "sMods": [
+        "targetingunit",
+        "hardenedshieldemitter"
+    ],
+    "variantId": "aurora_Restricted",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 006": "assaying_rift",
+                "WS 009": "assaying_rift"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "kineticblaster",
+                "WS 008": "pseudoparticle_jet"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "inimical_emanation",
+                "WS 004": "inimical_emanation",
+                "WS 005": "inimical_emanation"
+            }
+        }
+    ]
+}

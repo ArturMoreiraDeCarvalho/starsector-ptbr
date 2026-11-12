@@ -1,0 +1,261 @@
+{
+ "chunk": 326,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "After a short wait and a burst of static the makeshift comms network of Umbra finally relays you through.\r\n\r\n\"Death to all Andradas,\" she says as a greeting. \"What do you want?\"",
+   "ctx": "data/campaign/rules.csv ImoinuGreetDefaultSDR [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"Yeah, what is it?",
+   "ctx": "data/campaign/rules.csv ImoinuGreetPostSDR [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"Oh. $PlayerName.\" She looks tired. \"What are you here for?\"",
+   "ctx": "data/campaign/rules.csv ImoinuGreetPostSDRsad [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"Captain,\" she says in greeting, defiant as ever. \"Welcome to Askonia.\"",
+   "ctx": "data/campaign/rules.csv ImoinuGreetPostSDRhappy [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"$PlayerName,\" she says, defiant as ever.",
+   "ctx": "data/campaign/rules.csv ImoinuGreetPostSDRblowup [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"You're a bloody-booted minion of the Diktat and I'll have you spaced for your crimes the moment I get the chance.\"\r\n\r\nHer dismissal is backed by the arrogance of a gens-heir.\r\n\r\nAnd is made complete as she slams the comms shut-off.",
+   "ctx": "data/campaign/rules.csv ImoinuKatoSDcomConfront2 [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Yeah, what of it? Got another blatant lie to sell?\"\r\n\r\nShe sticks her chin up, striking what is intended to be a defiant expression.\r\n\r\n\"I'm here to fight the brutal oppressions and liberate the Askonian System!\"",
+   "ctx": "data/campaign/rules.csv ImoinuKatoUmbraAskWhat2liar [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"Yeah, maybe.\" She sounds entirely unenthusiastic.\r\n\r\n\"The Luddics get upset and preachy when you explain revolutionary consciousness to them. Don't get me wrong, they've got good people, but...\"\r\n\r\nShe shakes her head. \"I'd go crazy. Or they would.\"\r\n\r\n\"Don't get me wrong though, the ARC has a cell network on Volturn, of course. We're not as strong as the VSDC, but we're fighting too! The problem is supplies, funding...\"",
+   "ctx": "data/campaign/rules.csv ImoinuUmbraGoVolturn [text]"
+  },
+  {
+   "i": 9,
+   "en": "She considers your reply.\r\n\r\n\"Huh. For once, I don't think you're lying.\" Imoinu looks away for a moment. Her resolve hardens again. \"Whatever.\"\r\n\r\n\"And what are you really? A hired killer for execs and admirals? Profiteer from the organs harvested from the desperate masses? Go suck vacuum.\"\r\n\r\nShe slams the cut-off.",
+   "ctx": "data/campaign/rules.csv ImoinuKantoUmbraMother1liar [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"I thank you for your offer, captain, but I'm still arranging distribution of your previous contribution. It takes about a month to get everything where it needs to go.\"\r\n\r\nShe pauses, hesitant. Then explains, the frustration clear in her expression.\r\n\r\n\"The problem is if we stockpile too much materiel... it starts to 'get lost'. We work with a large number of individuals who are not... as ideologically committed to the ARC, and to the uprising, as I'd prefer.\"",
+   "ctx": "data/campaign/rules.csv imoinuUmbraOfferHelpTooSoon [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"I thank you for your offer, captain, but I'm still arranging distribution of your previous contribution. It'll take about two days to get everything where it needs to go.\"\r\n\r\nShe pauses, hesitant. Then explains, the frustration clear in her expression.\r\n\r\n\"The problem is if we stockpile too much materiel... it starts to 'get lost'. We work with a large number of individuals who are not... as ideologically committed to the ARC, and to the uprising, as I'd prefer.\"",
+   "ctx": "data/campaign/rules.csv imoinuUmbraOfferHelpTooSoonSDR [text]"
+  },
+  {
+   "i": 12,
+   "en": "She perks up. \"Yes!\"\r\n\r\n\"We need all the help we can get! Fuel, supplies and no, not credits exactly...\"\r\n\r\nImoinu looks at you, her eyes hard.\r\n\r\n\"If we're going to launch an uprising against the tyrant from every polity he's put under his boot, we're going to need weapons. Heavy weapons.\"",
+   "ctx": "data/campaign/rules.csv imoinuUmbraOfferHelpFirstTime [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"Yes!\" She perks up. \"We need all the help we can get! Fuel, supplies and no, not credits exactly...\"\r\n\r\nImoinu looks at you, eyes hard.\r\n\r\n\"We're fighting against those tyrants in every polity they've stamped their boots over. We need weapons, heavy weapons. And fuel, and supplies.\"",
+   "ctx": "data/campaign/rules.csv imoinuUmbOfferHelpFirstTimeDuring [text]"
+  },
+  {
+   "i": 14,
+   "en": "She looks at you suspiciously.\r\n\r\n\"Why? Aren't you just another bloody-handed mercenary for a choose-your-flavor imperialist?\"",
+   "ctx": "data/campaign/rules.csv imoinuUmbraOfferHelpB [text]"
+  },
+  {
+   "i": 15,
+   "en": "She looks appalled. And amused.\r\n\r\n\"Incredible. Our 'betters' are so petty. The lengths they'll go to sabotage within their own class!\"\r\n\r\nImoinu shrugs while rolling her eyes.\r\n\r\n\"Well if it means you're willing to arm the uprising, I'll take it.\"",
+   "ctx": "data/campaign/rules.csv imoinuUmbraOfferHelpBoptsAsel [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"Well,\" she's still reserved. \"I suppose it doesn't matter if the ideological basis for your motivation is unsound... weapons are weapons. And if you're willing to arm the uprising, I'll accept them.\"\r\n\r\n\"Just don't,\" an accusing finger appears, \"think I'll sell out the revolution for lucre.\"",
+   "ctx": "data/campaign/rules.csv imoinuUmbraOfferHelpBoptsBsel [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"Well,\" she's still reserved. \"I suppose it doesn't matter if your motivations are a perverse sublimination of ownerist grievance psychology... weapons are weapons. And if you're willing to arm the uprising, I'll accept them.\"\r\n\r\n\"Just don't,\" an accusing finger appears, \"think I'll sell out the revolution for lucre.\"",
+   "ctx": "data/campaign/rules.csv imoinuUmbraOfferHelpBoptsCsel [text]"
+  },
+  {
+   "i": 18,
+   "en": "She looks shocked by your words at first, but shock is quickly overcome by cynical amusement.\r\n\r\n\"I see. One of the aristocratic military caste employed by one faction of ownerist warmongers is seeking advantage over another.\"\r\n\r\n\"If it means you're going to arm the uprising,\" Imoinu says with a shrug, \"I'll take it.\"",
+   "ctx": "data/campaign/rules.csv imoinuUmbraOfferHelpBoptsDsel [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"Agreed.\" She nods, allowing a smile to slip through her well-practiced expression of revolutionary stoicism. \"I'll take your weapons.\"",
+   "ctx": "data/campaign/rules.csv imoinuUmbraOfferHelpAccepted [text]"
+  },
+  {
+   "i": 20,
+   "en": "DONE\r\n\r\nYou can now give more stuff to Imoinu.",
+   "ctx": "data/campaign/rules.csv DEVimoinuARCoffersReset2 [text]"
+  },
+  {
+   "i": 21,
+   "en": "DONE\r\n\r\n(Note that this doesn't add unrest if fired during the civil war.)",
+   "ctx": "data/campaign/rules.csv DEVimoinuFulfillAllARCoffers2 [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"The fuel you've given is already bringing in more weapons and recruits. And we're running hit-and-run operations on Diktat convoys further out than ever!\"",
+   "ctx": "data/campaign/rules.csv imoinuARCacknowledgeFuel [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"I've managed to smuggle most of the weapons to cells on Volturn and Sindria,\" she grins. \"When we rise, their bunkers and mechs will fall.\" ",
+   "ctx": "data/campaign/rules.csv imoinuARCacknowledgeWeapons [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"I've managed to smuggle most of the weapons to cells on Volturn and Sindria,\" she grins. \"The bootlickers in their bunkers and mechs are already discovering that they're not so invincible as they thought.\" ",
+   "ctx": "data/campaign/rules.csv imoinuARCacknowledgeWeaponsB [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"I got the supplies out - most of them - to comrades across the system.\" She looks quite earnest, as she speaks. \"Thanks to you, they'll be ready for the uprising.\"",
+   "ctx": "data/campaign/rules.csv imoinuARCacknowledgeSupplies [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"Thank you $playerName,\" she says.\r\n\r\n\"Fuel will allow the ARC to bring in comrades from the rest of the Core Worlds, as well as smuggle weapons and supplies.\" \r\n\r\nA feral smile grows, \"And raid the fleets of the tyrant Andrada!\"",
+   "ctx": "data/campaign/rules.csv imoinuUmbraOfferHelpFuel2 [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"Thank you $playerName,\" she says.\r\n\r\n\"Fuel will allow the ARC to bring in comrades from the rest of the Core Worlds, as well as smuggle weapons and supplies.\" \r\n\r\nA feral smile grows, \"And raid the fleets of the Andrada tyrants!\"",
+   "ctx": "data/campaign/rules.csv imoinuUmbraOfferHelpFuel2b [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"Thank you, $playerName,\" she says.\r\n\r\n\"I'll ensure these supplies get to ships carrying out ARC missions, and to the underground resistance fighters.\"",
+   "ctx": "data/campaign/rules.csv imoinuUmbraOfferHelpSupplies [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"Thank you, $playerName. We've been desperate for heavy weapons from the start - these'll allow us to hit back.\r\n\r\nA vicious smile grows, \"And hard.\" ",
+   "ctx": "data/campaign/rules.csv imoinuUmbraOfferHelpWeapons [text]"
+  },
+  {
+   "i": 30,
+   "en": "She pauses for a moment, self-conscious.",
+   "ctx": "data/campaign/rules.csv imoinuUmbraOfferHelpDoneCheckB [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"You've been an invaluable help to the resistance,\" she says, \"but there's not much more you can do for us on Umbra.\"\r\n\r\n\"If you can use any of your influence, your abilities, to advance the cause through other contacts, organizations...\"\r\n\r\n\"As for me, I've got work to do. She looks grimly determined, despite her youth. \"The general uprising of the United Front isn't going to launch itself!\"",
+   "ctx": "data/campaign/rules.csv ImoinuUmbraOfferHelpDoneCheck2 [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"You're an invaluable help to the resistance,\" she says, \"but there's not much more you can do for us on Umbra.\"\r\n\r\n\"If you can use any of your influence, your abilities, to fight for the uprising through other contacts, organizations...\"\r\n\r\n\"As for me, I've got work to do. She looks grimly determined, despite her youth. \"This war for liberation from the tyrrany of Andradas isn't going to fight itself.\"",
+   "ctx": "data/campaign/rules.csv ImoinuUmbOfferHelpDoneCheck2during [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"When the time is right,\" she grins, \"You'll be able to see the fireworks from Kazeron.\"\r\n\r\nImoinu clears her throat.\r\n\r\n\"I'd... be proud to call you my comrade, captain,\" she says. \"Thank you.\"",
+   "ctx": "data/campaign/rules.csv imoinuUmbraOfferHelpAllDone2 [text]"
+  },
+  {
+   "i": 34,
+   "en": "\"You're going to be able to see the fireworks from Kazeron,\" she says with a grin.\r\n\r\nImoinu clears her throat.\r\n\r\n\"I'd... be proud to call you my comrade, captain,\" she says. \"Thank you.\"",
+   "ctx": "data/campaign/rules.csv imoinuUmbraOfferHelpAllDone2during [text]"
+  },
+  {
+   "i": 35,
+   "en": "She nods.\r\n\r\n\"Until then.\"",
+   "ctx": "data/campaign/rules.csv imoinuUmbraOfferHelpAllDone3a [text]"
+  },
+  {
+   "i": 36,
+   "en": "She smiles.\r\n\r\n\"Death to Andradas!\"",
+   "ctx": "data/campaign/rules.csv imoinuUmbraOfferHelpAllDone3b [text]"
+  },
+  {
+   "i": 37,
+   "en": "Kanta's gauntlet slams against the side of her throne, crashing through the murmur of the court like thunder. Again she slams the throne, then once more, leaving a painful echo.\r\n\r\nWarlord Kanta speaks, like the voice of a heavy combat walker if it could speak, harmonics buzzing through your bones.\r\n\r\n\"What tribute have you brought us? What gift will sate us?\"\r\n\r\nCydonia leans in close, acidic breath wafting over you. \"The warlord's protection is not easily gained. Do not offend her with unworthy dross,\" he hisses.",
+   "ctx": "data/campaign/rules.csv kpAudienceStart [text]"
+  },
+  {
+   "i": 38,
+   "en": "The doctor's eyebrows raise, his interest obviously piqued. He looks furtively at Kanta, as if any expression by hateful domination could be gleaned from her mask-face.\r\nHe licks his lips and-\r\n\r\n\"The Lion's Blood,\" Kanta's voice rumbles like a mining drill. \"The Lion's heir. One of so few, so few remaining...\" Her voice drops several octaves, then continues as pure noise, a rumbling in your chest. Kanta's court shuffles uncomfortably.\r\n\r\nIf her ceramic-armor mask could show pleasure, that is what you think it would be doing now. And it is answer enough.\r\n\r\nAs for what nightmares await sleeping Leonidas... you put that question far from your mind.",
+   "ctx": "data/campaign/rules.csv kpLeonidas_sel [text]"
+  },
+  {
+   "i": 39,
+   "en": "\"That?\" Cydonia's face contorts into a seemingly impossible sneer. \"You can find junk like that in half the ruins in the fringe systems alone! It's a lump of technological excrement passed by the dying idiot-corpse of the Domain!\" \r\n\r\nHe's either ignorant or lying about the rarity and value of even a damaged nanoforge. Many in the crowd of pirates know it, too, by their dark expressions and grumbling - but there is only one who may question Cydonia's judgment.\r\n \r\nKanta looks on, impassive. Bored, almost, if her moods could be divined by the subtle shift and hum of her augments.",
+   "ctx": "data/campaign/rules.csv kpCorruptedForgeSel [text]"
+  },
+  {
+   "i": 40,
+   "en": "He laughs as if at some private joke then moves to close the comm link.\r\n\r\nAnd pauses.\r\n\r\n\"Oh, you were serious?\" He starts to shake his head, suppressing a smile. But not quite succeeding, because he wants you to see it. \"That's even better.\"",
+   "ctx": "data/campaign/rules.csv plReynardHannanJoinSelNo [text]"
+  },
+  {
+   "i": 41,
+   "en": "He completes the motion, leaving you to contemplate the choices which led you to this moment with the crest of Gens Hannan wrapped in the sigil of the office of Prime Demarchon.",
+   "ctx": "data/campaign/rules.csv plReynardHannanJoinSelNoMore [text]"
+  },
+  {
+   "i": 42,
+   "en": "Reynard Hannan looks at you blankly, drool starting to drip from the side of his mouth. He speaks in a robotic monotone, \"Of course, $playerName. I would be so... pleased... to help you.\"",
+   "ctx": "data/campaign/rules.csv plReynardHannanJoinSelYesDev [text]"
+  },
+  {
+   "i": 43,
+   "en": "Reynard Hannan looks upon you approvingly.\r\n\r\n\"The details are endless, but you need only be concerned with the highest level of the arrangement. It is not complex.\"",
+   "ctx": "data/campaign/rules.csv plReynardHannanJoinSelYes [text]"
+  },
+  {
+   "i": 44,
+   "en": "DEV added +1 to dealArgumentsMade, value is now: $dealArgumentsMade",
+   "ctx": "data/campaign/rules.csv RHdealArgumentDev [text]"
+  },
+  {
+   "i": 45,
+   "en": "\"Then you resign yourself to irrelevance,\" Reynard says with icy contempt.\r\n\r\nHe reaches for the comms cut-off without another word.",
+   "ctx": "data/campaign/rules.csv ReynardLeavePLconfirmSelA [text]"
+  },
+  {
+   "i": 46,
+   "en": "\"You resign yourself to irrelevance,\" Reynard spits.\r\n\r\nThe Prime Demarchon's face is frozen in a mask of contempt but for the barest twitch- and in it, somehow, the promise of revenge whether by nuclear fire or the cold of space.\r\n\r\nHe reaches for the comms cut-off without another word.",
+   "ctx": "data/campaign/rules.csv ReynardLeavePLconfirmSelB [text]"
+  },
+  {
+   "i": 47,
+   "en": "This means your arrangement with Reynard Hannan is unambiguously concluded. If you want help with the Askonia situation, you'll have to go elsewhere.",
+   "ctx": "data/campaign/rules.csv LeavePLduringSDSEblurbGeneric [text]"
+  },
+  {
+   "i": 48,
+   "en": "Your arrangement with Reynard Hannan is unambiguously concluded. If you want help with the Askonia situation, you'll have to go elsewhere.",
+   "ctx": "data/campaign/rules.csv LeavePLduringSDSEblurbReynard [text]"
+  },
+  {
+   "i": 49,
+   "en": "The question now is, do you continue and contact Achilles Andrada, perhaps to pledge support for him?",
+   "ctx": "data/campaign/rules.csv ReynardLeavePLcheckSDSEb [text]"
+  },
+  {
+   "i": 50,
+   "en": "You will speak to Achilles. Perhaps there is someone worthwhile to support in this conflict...",
+   "ctx": "data/campaign/rules.csv LeavePLcheckSDSEb2yes [text]"
+  },
+  {
+   "i": 51,
+   "en": "You pledge to yourself to find your own way through this mess.",
+   "ctx": "data/campaign/rules.csv LeavePLcheckSDSEb2no [text]"
+  }
+ ]
+}

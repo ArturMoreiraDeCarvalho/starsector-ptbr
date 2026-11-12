@@ -1,0 +1,166 @@
+{
+ "chunk": 316,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "Your ops chief leads you through a live compilation of the salvors' investigation: The hypercomm core is formed from once-carefully arranged loops of dense superconducting material, now bent and punctured by small impacts, its delicate conduits seared by radiation.\r\n\r\nThe sophisticated post-Collapse engineering is junked but its presence indicates the involvement of a major power-player in Sector politics.",
+   "ctx": "data/campaign/rules.csv gaPZ_investigateRelay1 [text]"
+  },
+  {
+   "i": 2,
+   "en": "A bead of sweat finds its way down the Diktat $post's face as $hisOrHer eyes are clearly taking in the results on another screen. \"... Yes, good, good. We have everything we need to... ah, ascertain that your starship is approved for interstellar commerce. You may proceed, captain. Victory to Sindria!\"\r\n\r\nThe Diktat $rank signs off in a rush to report back, you assume, to Diktat INTSEC. You rest assured that your bridge crew is confident that the peculiar technologies of the Ziggurat-class are safe from a mere scan-at-distance patrol stop.",
+   "ctx": "data/campaign/rules.csv gaPZDiktatEncounterOnlyZig2 [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"Yes, of course. I recall that incident.\"\r\n\r\nBaird looks over her spectacles.\r\n\r\n\"A fine mess.\"",
+   "ctx": "data/campaign/rules.csv GAATGintroAsk3daud [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"Yes.\" She puts on a small, satisfied smile.\r\n\r\n\"It'll teach Daud that he has to compromise. He wants a connection to Gens Yaribay and he's going to have to deal with me on terms I set - with you.\"",
+   "ctx": "data/campaign/rules.csv GAATGintroAsk3daudA [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"For what I think ought to be obvious reasons he will not be enthusiastic to speak with you.\"\r\n\r\nShe puts on a small, satisfied smile.\r\n\r\n\"But I'm going to teach Daud that he has to compromise. He wants a connection to Gens Yaribay and he's going to have to deal with me on terms I set - with you - to get it.\"",
+   "ctx": "data/campaign/rules.csv GAATGintroAsk3daudB [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"Yes, well done,\" Baird says facetiously. \"I hope you'll allow yourself to play the part in a slightly more subtle maneuver, however.\"\r\n\r\nShe puts on a small, satisfied smile.\r\n\r\n\"I'm going to teach Daud that he has to compromise. He wants a connection to Gens Yaribay and he's going to have to deal with me on terms I set - with you - to get it.\"",
+   "ctx": "data/campaign/rules.csv GAATGintroAsk3daudC [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Yes, of course.\" Baird smirks. \"The ministries, with their jealous fiefdoms, are not eager to repeat the circumstances which led to that conversation.\"\r\n\r\n\"What I am doing, captain, is providing you with a politically acceptable cover story. You've made enemies aplenty. Many in the Hegemony would see me - and you - imprisoned or executed for what we've done. The Luddic Church hardliners pray to make an example of the Academy again, and there are enough Faithful in Hegemony ranks that keeping secrets is difficult. Kallichore erred in providing his enemies with an excuse. Now hostile eyes watch for another slip-up.\"\r\n\r\n\"I happen to know that Baikal Daud is open-minded about my great project, though he cannot act freely. He is, after all, the High Hegemon. You of all people should understand this.\"",
+   "ctx": "data/campaign/rules.csv gaATGIntroAsk3daud [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"Yes, do I know you?\" Horus Yaribay asks impatiently, his attention clearly elsewhere.\r\n\r\n\"Have we business?\"",
+   "ctx": "data/campaign/rules.csv gaATGcontactYaribayStart [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"Provost... oh.\" His face falls.\r\n\r\n\"This must be about- I mean, tell me, whatever is this about?\" \r\n\r\nNow you've got his full attention.",
+   "ctx": "data/campaign/rules.csv gaATGcontactYaribay1 [text]"
+  },
+  {
+   "i": 10,
+   "en": "The comm line clicks to a holding pattern displaying the crest of Gens Yaribay, an elegant piscine motif echoing the Persean League's colors.\r\n\r\nYou watch Kazeron commodity futures scroll through the bottom of the display. After a couple of minutes catching up on bulk non-ferrous projections, the comm display chimes.\r\n\r\nHorus reappears, looking somewhat more collected.\r\n\r\n\"Captain. $playerName, was it? Yes of course. Provost Baird explained her proposal and I do believe that we may arrive at a mutually beneficial arrangement.\"",
+   "ctx": "data/campaign/rules.csv gaATGcontactYaribay3 [text]"
+  },
+  {
+   "i": 11,
+   "en": "Horus looks as if he is about to speak, but holds himself for a second, then thinks better of it.",
+   "ctx": "data/campaign/rules.csv gaATGcontactYaribay5aHegDef [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"I appreciate the offer, captain. Truly I do.\"\r\n\r\nHorus smiles somewhat uncomfortably.\r\n\r\n\"But given your history with the Hegemony... I'm not certain Daud will accept your, ah, good word in quite the spirit that we might hope for.\"",
+   "ctx": "data/campaign/rules.csv gaATGcontactYaribayA2daud [text]"
+  },
+  {
+   "i": 13,
+   "en": "Horus looks aside, considering.\r\n\r\n\"I suppose. But the masses can be swayed. They are fickle. And, ultimately, they will do what they must.\"",
+   "ctx": "data/campaign/rules.csv gaATGcontactYaribayA3 [text]"
+  },
+  {
+   "i": 14,
+   "en": "Horus narrows his eyes.\r\n\r\n\"Indeed. And by necessity. The permission of the elite is essential for peaceful political change. I need not justify my position to you; the argument is one of practicality, and it stands self-evident.\"",
+   "ctx": "data/campaign/rules.csv gaATGcontactYaribayA4 [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"Assimilation of the League worlds is Hegemony policy and an obvious condition of their reconstruction of the Domain, to say nothing of the foundation of their claim to legitimacy.\"\r\n\r\nYou get the sense that he is repeating an argument he has made many times before.\r\n\r\n\"Publicly the Hegemony's demand is 'unconditional'. How can they ask that, after Mayasura? They must compromise.\"\r\n\r\n\"But I understand their position. They maintain a hard face to buoy support from the masses and lower officers. And,\" he shakes his head once, \"The Luddic Church, in its way.\"",
+   "ctx": "data/campaign/rules.csv gaATGcontactYaribayB1 [text]"
+  },
+  {
+   "i": 16,
+   "en": "In moments, the crest disappears and you speak with a real officer, some kind of secretary to the High Hegemon who verifies your credentials and schedules you for a brief face-to-face meeting with Baikal Daud.\r\n\r\n\"Captain $playerName.\" They speak as if they remember your name, and do not like being reminded of it.\r\n\r\n\"The High Hegemon is a very busy man, but he has expressed an interest in speaking with an envoy of Gens Yaribay.\" But not you, they don't say. \r\n\r\n\"The arrangement is somewhat ad hoc due to scheduling,\" they say without a hint of apology. \"I assure you that it is necessary.\"",
+   "ctx": "data/campaign/rules.csv gaATGdaudMeetingSetupHegDef [text]"
+  },
+  {
+   "i": 17,
+   "en": "Rivas examines your sidearm as if it was a bomb. With the lightest touch, he has the cellmag and casing removed, handing both to the attending armorer. He stares down at you for a long minute. \r\n\r\n\"Captain $playerName,\" he says finally, as if identifying you in a perp lineup.",
+   "ctx": "data/campaign/rules.csv gaATGdaudMeeting3c [text]"
+  },
+  {
+   "i": 18,
+   "en": "Rivas turns to the ensign and says \"I'll escort the captain to see the High Hegemon.\" \r\n\r\nThe ensign begins to salute but catches themself - Rivas is not military, at least not now - then simply nods, \"Sir,\" before turning back toward the landing bay.",
+   "ctx": "data/campaign/rules.csv gaATGdaudMeeting4 [text]"
+  },
+  {
+   "i": 19,
+   "en": "Rivas leads you past a half dozen checkpoints set through the guts of the shipyard. At each checkpoint you both submit to a flicker of biometric scan, then a guard nods to Rivas and allows you both passage.\r\n\r\nFinally you enter a utilitarian vestibule.\r\n\r\nEmergency vac-suit lockers, fire suppression equipment, and safety notices line the walls. A diamond-matrix pane separates this compartment from the enclosed space-dock visible beyond - a perfect, new Eagle-class hull looms, and a gantry hangs toward its bow, festooned with ribbons and a Hegemony banner.",
+   "ctx": "data/campaign/rules.csv gaATGdaudMeeting5 [text]"
+  },
+  {
+   "i": 20,
+   "en": "Rivas steps to the side, his bulk revealing High Hegemon Baikal Daud sitting on a simple folding stool, his splendid uniform coat hanging from a rack, fussed over by a stylist and an advisor.\r\n\r\nDaud looks at you impassively then, without breaking eye contact, commands his entourage: \"Give us the room. Five minutes.\" \r\n\r\nThey leave, Rivas following after meeting your eyes one last time.",
+   "ctx": "data/campaign/rules.csv gaATGdaudMeeting6 [text]"
+  },
+  {
+   "i": 21,
+   "en": "Rivas steps to the side, his bulk revealing High Hegemon Baikal Daud sitting on a simple folding stool, his splendid uniform coat hanging from a rack, fussed over by a stylist and an advisor.\r\n\r\nDaud looks at you impassively. Without breaking eye contact he commands his entourage: \"Give us the room. Five minutes.\" \r\n\r\nThey leave, Rivas following after meeting your eyes one last time.",
+   "ctx": "data/campaign/rules.csv gaATGdaudMeeting6hegdef [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"Yes,\" he says, standing. Indeed a smaller man than you expected. \"I'm starting to appreciate Baird's sense of humor.\"\r\n\r\nHe doesn't sound particularly amused.",
+   "ctx": "data/campaign/rules.csv gaATGdaudMeeting7again [text]"
+  },
+  {
+   "i": 23,
+   "en": "His voice holds the same deep authority you recognize from before. And in-person the effect is greater; not some cheap comms-mod or propagandists' trick. You can feel why - and how - he leads the Hegemony.  \r\n\r\nDaud taps his datapad, activating a privacy field that dulls the ambient murmur of the shipyard's ventilation.\r\n\r\n\"Ground rules,\" he says. \"There's nothing to discuss about your pet colonial project. We're not here for that.\"\r\n\r\n\"Let's talk about Provost Baird,\" he says, lightening his tone only the barest detectable quantum. \"Bridged any Gates yet?\"",
+   "ctx": "data/campaign/rules.csv gaATGdaudMeeting8a [text]"
+  },
+  {
+   "i": 24,
+   "en": "Daud smirks, shaking his head.\r\n\r\n\"Is 'measuring up' really what's important right now?\" he says.",
+   "ctx": "data/campaign/rules.csv gaATGdaudMeetingHubD2 [text]"
+  },
+  {
+   "i": 25,
+   "en": "Baikal Daud taps his datapad, dropping the privacy field.",
+   "ctx": "data/campaign/rules.csv gaATGdaudMeetingHubEnd [text]"
+  },
+  {
+   "i": 26,
+   "en": "As if on cue, the High Hegemon's small entourage returns with a babble of worries over how he'll look on the holo-cast, the need to review talking points for the speech, and his uniform... \r\n\r\nSecurity Chief Rivas looms, corralling you from the gantry utility room and back through the security checkpoints to your shuttle.",
+   "ctx": "data/campaign/rules.csv gaATGdaudMeetingHubEnd2 [text]"
+  },
+  {
+   "i": 27,
+   "en": "The comm display resolves.\r\n\r\n\"You're back. Good. I have already heard from an agent working on behalf of High Hegemon Daud. His revised terms are,\" the provost suppresses some emotion, \"Small-minded.\"\r\n\r\nBaird taps at her desk console, the light flickering in her spectacles.\r\n\r\n\"I see, however, that the hyperspace physics team has not reported completion of the six Gate scans.\"",
+   "ctx": "data/campaign/rules.csv gaATGtalkToBairdNeedScans [text]"
+  },
+  {
+   "i": 28,
+   "en": "She turns to you.\r\n\r\n\"Without this data, we cannot tune the Janus prototype. Coordinate your efforts with Coureuse. Get me those scans.\"\r\n\r\nThe provost terminates the commlink without letting you get a single word in.",
+   "ctx": "data/campaign/rules.csv gaATGtalkToBairdNeedScans2 [text]"
+  },
+  {
+   "i": 29,
+   "en": "You know immediately that something is wrong. The hyperspace manifold display lights up with garish colors in violent whorls and jags, the representation's color-key glitching out on parameters beyond any anticipated scale. You hear a discordant tone - the hyperspace storm alarm, weirdly sounded here in normal-space. \r\nAnd something else.\r\n\r\nEchoing somewhere which exists only in your mind; like a wail of pain.\r\n\r\nYour sensors officer shouts a warning, \"Wavefront approaching!\"",
+   "ctx": "data/campaign/rules.csv gaATGgateJanusUseResult [text]"
+  },
+  {
+   "i": 30,
+   "en": "Kanta speaks again, raising a gauntleted arm for emphasis, \"We know the Family is safe so we will not take your blood.\"\r\n\r\n\"Not yet,\" her voice grinds like the servos of a blast-door.\r\n\r\n\"Lucky you,\" the doctor whispers, smiling, then speaks louder, \"The great Warlord is wondering, why would a thief dare show their face before mighty Kanta? The warlord makes an art of correcting those who hold the misguided belief that they may steal from her.\"\r\n\r\nHis spindly arm extends to indicate something piled in the dark around Kanta's throne; round shapes in the shadows, a glint of ivory.",
+   "ctx": "data/campaign/rules.csv gaATGkantaMeeting2 [text]"
+  },
+  {
+   "i": 31,
+   "en": "Doctor Cydonia pulls back, shocked at your directness, glancing to Kanta to gauge how he should react.\r\n\r\nHe scurries up her throne to whisper in her ear and listen. Satisfied after a short conference, the doctor stands forward to address you.\r\n\r\n\"The great warlord is intrigued by your knowledge of her queendom,\" Cydonia intones, relishing the drama. \"When the outer family and the great Kanta's watchful subjugants from all across the sector whispered about the cleverness of the Captain $playerName, their words were no mere neutrino ghosts.\"",
+   "ctx": "data/campaign/rules.csv gaATGkantaServicesForZal1 [text]"
+  },
+  {
+   "i": 32,
+   "en": "You meet a tired-looking Zal in an assault shuttle bay.\r\n\r\n\"I suppose I should thank you, captain,\" she says, wiping a thin dusting of carbon ash from her face.\r\n\r\n\"What a glorious wreck your invasion has made of everything. At least we saved the-\" she looks sharply at a pair of marines hauling a sealed case behind her, \"Careful with that! It's going to save us all.\"\r\n\r\nYour adjutant interrupts, \"Captain, we have a problem.\"",
+   "ctx": "data/campaign/rules.csv gaATGkantaRaidFinished2 [text]"
+  }
+ ]
+}

@@ -33,9 +33,9 @@ Mundo de Tundra,tundra,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldTundr
 Mundo Criovulcânico,cryovolcanic,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.WorldUninhabitable,"Um mundo congelado além do frio mais profundo: neve de metano cai sobre montanhas de gelo de água, e vulcões entram em erupção com amônia. A radiação estelar decompõe os voláteis, formando uma atmosfera de gases leves como nitrogênio e oxigênio, enquanto o hidrogênio é arrastado para o espaço. ",graphics/icons/markets/cryo_world_wide.png,10
 ,,,,,,,,
 População Dissidente,dissident,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Dissident,"$Market é um depósito de dissidentes, rebeldes, pensadores livres, artistas e outros encrenqueiros. Aumenta a demanda por armas e fuzileiros para policiar a ralé. Aumenta a disponibilidade de tripulação devido à emigração.",graphics/icons/markets/dissidents.png,139
-Sede,headquarters,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Headquarters,"$Market é um centro de comando militar e de operações logísticas para a entidade política governante. Aumenta a estabilidade do mercado.
+Sede,headquarters,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Headquarters,"$Market é um centro de comando militar e de operações logísticas da entidade política dominante. Aumenta a estabilidade do mercado.
 
-Nas frotas de $market, aumenta a qualidade e o número de oficiais.",graphics/icons/markets/headquarters.png,360
+Aumenta a qualidade e a quantidade de oficiais nas frotas de $market, fortalecendo suas forças militares.",graphics/icons/markets/headquarters.png,360
 Complexo Hidropônico,hydroponics_complex,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Hydroponics,"Instalações de produção agrícola com biosfera selada, que permitem a agricultura em órbita ou na superfície de mundos inóspitos. Exige tripulação para operar, meio de cultivo orgânico e maquinário pesado para manutenção.",graphics/icons/markets/hydroponics.png,120
 ,,,,,,,,
 População,population_1,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Population,Apenas dezenas de pessoas vivem aqui permanentemente.,graphics/icons/markets/population01.png,20
@@ -54,23 +54,23 @@ População,population_10,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Populat
 # event-related market conditions,,,,,,,,
 Escassez de Alimentos,event_food_shortage,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.FoodShortage,"Há uma falta temporária de alimentos disponíveis em $market.
 - Estabilidade reduzida em $stabilityPenalty
-- Aproximadamente $neededFood unidades de alimento necessárias para encerrar a escassez
-- Preços de alimentos aumentados devido à oferta reduzida
-- Reputação e experiência aumentadas ao vender alimentos",graphics/icons/markets/food_shortage.png,1000
+- Aproximadamente $neededFood unidades de alimentos necessárias para acabar com a escassez
+- Os preços dos alimentos aumentaram devido à redução da oferta de alimentos
+- Aumento da reputação e experiência na venda de alimentos",graphics/icons/markets/food_shortage.png,1000
 Agitação Recente,recent_unrest,show_in_codex,,TRUE,com.fs.starfarer.api.impl.campaign.econ.RecentUnrest,"$Market passou recentemente por eventos tumultuosos, com efeito duradouro sobre a estabilidade.",graphics/icons/markets/recent_unrest.png,2000
-Interrupção do Comércio,event_trade_disruption,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.TradeDisruption,"Frotas comerciais que vão a $market ou vêm de lá estão sofrendo perdas significativas. Pirataria ou guerra são os principais culpados.
+Interrupção do Comércio,event_trade_disruption,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.TradeDisruption,"As frotas comerciais que vão ou voltam de $market estão sofrendo perdas significativas. A pirataria ou a guerra são provavelmente as culpadas.
 
-As seguintes mercadorias são afetadas:
+As seguintes commodities são afetadas:
 $commoditySummary",graphics/icons/markets/trade_disruption.png,1100
-Contrabando,event_smuggling,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Smuggling,"$market está passando por um grande volume de atividade de contrabando.
+Contrabando,event_smuggling,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.Smuggling,"$market está enfrentando um grande volume de atividades de contrabando.
 
 - Estabilidade reduzida em $smugglingPenalty",graphics/icons/markets/smuggling.png,1000
 Recompensa do sistema,event_bounty,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.SystemBounty,,graphics/icons/markets/bounty.png,1000
-Núcleo de IA Desgovernado,rogue_ai_core,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.RogueAICore,"Há um núcleo de IA desgovernado operando em ou perto de $market. Seus planos e ambições de longo prazo, além da própria sobrevivência, são desconhecidos.
+Núcleo de IA Desgovernado,rogue_ai_core,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.RogueAICore,"Há um núcleo de IA desonesto operando em ou próximo a $market. Os seus planos e ambições a longo prazo, para além da sua própria sobrevivência, são desconhecidos.
 
-No mínimo, a necessidade de estar em guarda contra suas possíveis ações torna as operações do dia a dia menos eficientes e cria terreno fértil para rumores alarmantes.",graphics/icons/markets/rogue_ai.png,1200
+No mínimo, a necessidade de estar alerta contra as suas possíveis ações torna as operações quotidianas menos eficientes e cria um terreno fértil para rumores alarmantes.",graphics/icons/markets/rogue_ai.png,1200
 Administrador de Núcleo de IA (oculto),ai_core_admin,,,TRUE,com.fs.starfarer.api.impl.campaign.econ.AICoreAdmin,Condição oculta para acompanhar quando o núcleo se torna impossível de remover. Não precisa de ícone.,graphics/icons/markets/rogue_ai.png,1000
-Atividade Pirata,pirate_activity,,,TRUE,com.fs.starfarer.api.impl.campaign.intel.bases.PirateActivity,"Há sinais de que piratas estão mirando o transporte e as colônias deste sistema - desde inspetores portuários pressionados a fazer vista grossa, até inconsistências nos manifestos de carga e outras atividades criminosas em alta.
+Atividade Pirata,pirate_activity,,,TRUE,com.fs.starfarer.api.impl.campaign.intel.bases.PirateActivity,"Tem havido sinais de que os piratas estão a visar navios e colónias neste sistema - desde inspectores portuários a serem pressionados a fechar os olhos, a inconsistências nos manifestos de carga, a outras actividades criminosas crescentes.
 
 Os piratas provavelmente têm uma base em algum lugar relativamente próximo.",graphics/icons/markets/pirate_activity.png,1300
 Atividade Hostil,hostile_activity,,,TRUE,com.fs.starfarer.api.impl.campaign.intel.events.HostileActivity,,graphics/icons/markets/pirate_activity.png,1350
@@ -124,7 +124,7 @@ Irradiado,irradiated,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCo
 ,,,,,,,,
 Biosfera Hostil,inimical_biosphere,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.LCAttractorLow,"A biosfera de $market é mortal para seres humanos desprotegidos. Embora as condições sejam fascinantes para cientistas biológicos, os técnicos de superfície são prejudicados por protocolos rigorosos de quarentena ao realizar tarefas de rotina.",graphics/icons/markets/inimical_biosphere.png,30
 ,,,,,,,,
-Superfície Coberta por Água,water_surface,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,"Este é um mundo oceânico sem uma superfície sólida substancial para pousar, caminhar ou construir. As operações são complicadas pela necessidade de treinamento e equipamento especializados.",graphics/icons/markets/water_covered.png,31
+Superfície Coberta por Água,water_surface,planet_search,TRUE,,com.fs.starfarer.api.impl.campaign.econ.ResourceDepositsCondition,"Este é um mundo oceânico sem uma superfície sólida substancial para pousar, caminhar ou construir. As operações são complicadas pela necessidade de treinamento e equipamento especializados.",graphics/icons/markets/water_covered.png,31
 ,,,,,,,,
 Luz Escassa,poor_light,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,A luz da estrela principal de $market fornece apenas uma iluminação e energia frágeis a este mundo.,graphics/icons/markets/poor_light.png,32
 Escuridão,dark,,TRUE,,com.fs.starfarer.api.impl.campaign.econ.BaseHazardCondition,"A superfície de $market é escura e cheia de sombras, recebendo praticamente zero iluminação de sua estrela principal.",graphics/icons/markets/darkness.png,32

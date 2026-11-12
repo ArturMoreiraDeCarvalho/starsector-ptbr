@@ -1,0 +1,49 @@
+{
+    "displayName": "Avançado",
+    "fluxCapacitors": 18,
+    "fluxVents": 20,
+    "hullId": "medusa",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "fluxbreakers",
+        "unstable_injector",
+        "targetingunit"
+    ],
+    "permaMods": [
+        "fluxbreakers",
+        "hardenedshieldemitter"
+    ],
+    "sMods": [
+        "fluxbreakers",
+        "hardenedshieldemitter"
+    ],
+    "variantId": "medusa_Advanced",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 008": "railgun",
+                "WS 009": "railgun"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 006": "phasebeam"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 007": "kineticblaster"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "irpulse",
+                "WS 003": "irpulse"
+            }
+        }
+    ]
+}

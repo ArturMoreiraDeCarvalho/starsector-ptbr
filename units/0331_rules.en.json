@@ -1,0 +1,1256 @@
+{
+ "chunk": 331,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"Sure. So are you onboard or are you wasting my time?\"",
+   "ctx": "RaoAskDolosOptsDsel1"
+  },
+  {
+   "i": 2,
+   "en": "\"You asked. Now it's your turn. Why is Macario interested in you?\"",
+   "ctx": "RaoAskDolosOptsEsel2"
+  },
+  {
+   "i": 3,
+   "en": "\"Are you... related to Warlord Kanta?\"",
+   "ctx": "bellamyAskKantaOpt"
+  },
+  {
+   "i": 4,
+   "en": "\"Haha... ha...\"",
+   "ctx": "bellamyAskKantaSel"
+  },
+  {
+   "i": 5,
+   "en": "DEV options for Kanta's Den",
+   "ctx": "DEVkantasDenOption"
+  },
+  {
+   "i": 6,
+   "en": "Set player.metCydonia (and got comms ID) true and unhide him",
+   "ctx": "DEVkantasDenOptsA"
+  },
+  {
+   "i": 7,
+   "en": "Set player.metCydonia (and got comms ID) false and hide him",
+   "ctx": "DEVkantasDenOptsB"
+  },
+  {
+   "i": 8,
+   "en": "Set gaATG_missionCompleted (aka spaced Clone Loke with a helmet)",
+   "ctx": "DEVkantasDenOptsC"
+  },
+  {
+   "i": 9,
+   "en": "Set player killed Loke true (spaced w/o helmet)",
+   "ctx": "DEVkantasDenOptsD"
+  },
+  {
+   "i": 10,
+   "en": "add 1 to player bluffed Kanta count",
+   "ctx": "DEVkantasDenOptsE"
+  },
+  {
+   "i": 11,
+   "en": "set player HAD Kanta protection",
+   "ctx": "DEVkantasDenOptsF"
+  },
+  {
+   "i": 12,
+   "en": "toggle Kanta's Protection",
+   "ctx": "DEVkantasDenOptsG"
+  },
+  {
+   "i": 13,
+   "en": "\"I'd like to meet the Warlord Kanta.\"",
+   "ctx": "KDSKaskToMeetKanta"
+  },
+  {
+   "i": 14,
+   "en": "\"I am no thief. I come openly, having taken this prize from your kin.\"",
+   "ctx": "kdKantaAudienceHubNashA"
+  },
+  {
+   "i": 15,
+   "en": "\"My services. In exchange for Elissa Zal.\" ",
+   "ctx": "kdKantaAudienceHubNashB"
+  },
+  {
+   "i": 16,
+   "en": "\"I'll waste no time. I'm here for Elissa Zal.\"",
+   "ctx": "kdKantaAudienceHubNashD"
+  },
+  {
+   "i": 17,
+   "en": "\"I'm here for Elissa Zal.\"",
+   "ctx": "kdKantaAudienceHubNashE"
+  },
+  {
+   "i": 18,
+   "en": "\"I seek the Warlord Kanta's protection.\"",
+   "ctx": "kdKantaAudienceHubA"
+  },
+  {
+   "i": 19,
+   "en": "Say something impressive yet meaningless, then leave",
+   "ctx": "kdKantaAudienceHubLeave"
+  },
+  {
+   "i": 20,
+   "en": "Wait patiently",
+   "ctx": "FortunaKatoDefaultGreeting"
+  },
+  {
+   "i": 21,
+   "en": "\"I'd like the discuss the encrypted files I brought to you.\"",
+   "ctx": "SD7SyaribayDiscussStartOpt"
+  },
+  {
+   "i": 22,
+   "en": "\"But you do?\"\r",
+   "ctx": "SD7SyaribayDiscussStartSel"
+  },
+  {
+   "i": 23,
+   "en": "\"I will send you my full copy.\" (send the files)",
+   "ctx": "SD7SyaribayDiscussStartSel"
+  },
+  {
+   "i": 24,
+   "en": "\"I will send you my full copy.\" (send the files)\r",
+   "ctx": "SD7SyaribayDiscussStart2"
+  },
+  {
+   "i": 25,
+   "en": "\"I'm sure the Prime Demarchon has a good reason for restricting certain information.\"",
+   "ctx": "SD7SyaribayDiscussStart2"
+  },
+  {
+   "i": 26,
+   "en": "\"Good. Let us discuss other matters, then.\"\r",
+   "ctx": "SD7SyaribayDiscussStart3"
+  },
+  {
+   "i": 27,
+   "en": "\"I'm just kidding. I'll send you my full copy.\" (send the files)",
+   "ctx": "SD7SyaribayDiscussStart3"
+  },
+  {
+   "i": 28,
+   "en": "\"I am, yes.\"",
+   "ctx": "SD7SyaribayDiscussSiyOptA"
+  },
+  {
+   "i": 29,
+   "en": "\"I will, yes.\"",
+   "ctx": "SD7SyaribayDiscussSiyOptB"
+  },
+  {
+   "i": 30,
+   "en": "\"I have no intention of doing so.\"",
+   "ctx": "SD7SyaribayDiscussSiyOptD"
+  },
+  {
+   "i": 31,
+   "en": "\"I'll consider your words.\"\r",
+   "ctx": "SD7SyaribayDiscussSiySelD"
+  },
+  {
+   "i": 32,
+   "en": "\"My answer stands.\"",
+   "ctx": "SD7SyaribayDiscussSiySelD"
+  },
+  {
+   "i": 33,
+   "en": "DEV Horus Yaribay test options",
+   "ctx": "DEVYaribayOptions"
+  },
+  {
+   "i": 34,
+   "en": "set Horus Yaribay to unhidden",
+   "ctx": "DEVhorusUnhideOpt"
+  },
+  {
+   "i": 35,
+   "en": "Set PC gave Daud the cryptokey for Horus",
+   "ctx": "DEVYaribayDaudCryptokeyOpt"
+  },
+  {
+   "i": 36,
+   "en": "Set PC abused Yaribay diplomatic credentials",
+   "ctx": "DEVyaribayAbusedTrust"
+  },
+  {
+   "i": 37,
+   "en": "Start post-SDR Horus convo",
+   "ctx": "DEVhorusTestPostSDRtalkOpt"
+  },
+  {
+   "i": 38,
+   "en": "SDR make Horus supported Reynard",
+   "ctx": "DEVhorusSupportReynardOpt"
+  },
+  {
+   "i": 39,
+   "en": "SDR make Horus supported Fortuna",
+   "ctx": "DEVhorusSupportFortunaOpt"
+  },
+  {
+   "i": 40,
+   "en": "SDR make Horus supported Hegemony",
+   "ctx": "DEVhorusSupportHegemonyOpt"
+  },
+  {
+   "i": 41,
+   "en": "\"I'd like to talk about Fortuna Kato.\"",
+   "ctx": "HorusTalkAboutFortunaOption"
+  },
+  {
+   "i": 42,
+   "en": "\"On Fortuna's behalf, I ask that you support her bid to back Achilles.\"",
+   "ctx": "HorusAskFortunaSDSEsupport"
+  },
+  {
+   "i": 43,
+   "en": "\"What do you think of Fortuna's vision for the Persean League?\"",
+   "ctx": "HorusAskFortunaVisionLeagueOpt"
+  },
+  {
+   "i": 44,
+   "en": "\"Gens Kato seems... unenthusiastic about the Luddic Faith.\"",
+   "ctx": "HorusAskFortunaLuddicDardanOpt"
+  },
+  {
+   "i": 45,
+   "en": "\"Do you have an answer?\"",
+   "ctx": "SDRhorusAskFortunaBackAchilles"
+  },
+  {
+   "i": 46,
+   "en": "\"You should back the Prime Demarchon against Fortuna Kato's scheme for Achilles.\"",
+   "ctx": "SDSEyaribayAskReynardSupportOpt"
+  },
+  {
+   "i": 47,
+   "en": "\"Do it. Gens Yaribay will be rewarded for your loyalty.\"\r",
+   "ctx": "SDSEyarAskReySupportSel"
+  },
+  {
+   "i": 48,
+   "en": "\"On second thought, there's much to consider.\" (back)",
+   "ctx": "SDSEyarAskReySupportSel"
+  },
+  {
+   "i": 49,
+   "en": "\"You mentioned Reynard is backing the Sindrian Diktat. And you're opposed.\"",
+   "ctx": "HYaribayAskReynardAskonia"
+  },
+  {
+   "i": 50,
+   "en": "\"But... with Reynard, the gens. Isn't this what the League is?\"\r",
+   "ctx": "YaribayAskReynardAskonia"
+  },
+  {
+   "i": 51,
+   "en": "\"And I don't imagine the Hegemony approves.\"\r",
+   "ctx": "YaribayAskReynardAskonia"
+  },
+  {
+   "i": 52,
+   "en": "\"I understand your position.\" (back)",
+   "ctx": "YaribayAskReynardAskonia"
+  },
+  {
+   "i": 53,
+   "en": ">> (dev) Kazeron / PL options",
+   "ctx": "DEVkazeronOpts"
+  },
+  {
+   "i": 54,
+   "en": ">> (dev) PL gens vs SDR options",
+   "ctx": "DEVkazeronOptsB"
+  },
+  {
+   "i": 55,
+   "en": "set player has met all PL gens leads and unhide them",
+   "ctx": "DEVkazeronOptsMet"
+  },
+  {
+   "i": 56,
+   "en": "DEV set global.earnedYaribayTrust to true",
+   "ctx": "DEVkazeronOptsA"
+  },
+  {
+   "i": 57,
+   "en": "DEV - toggle met Finlay Siyavong\r",
+   "ctx": "DEVkazeronOptsC"
+  },
+  {
+   "i": 58,
+   "en": "DEV - place Finlay Siyavong on Kazeron and visible\r",
+   "ctx": "DEVkazeronOptsC"
+  },
+  {
+   "i": 59,
+   "en": "DEV - set player.atrocities to 2",
+   "ctx": "DEVkazeronOptsC"
+  },
+  {
+   "i": 60,
+   "en": "DEV set player.metReynardHannan true for 3 days",
+   "ctx": "DEVkazeronOptsD"
+  },
+  {
+   "i": 61,
+   "en": "DEV set player.payingHouseHannan true for 3 days",
+   "ctx": "DEVkazeronOptsE"
+  },
+  {
+   "i": 62,
+   "en": "DEV set EVERY special Reynard/PL flag to true",
+   "ctx": "DEVkazeronOptsF"
+  },
+  {
+   "i": 63,
+   "en": "set flag for Reynard promise to capture Macario",
+   "ctx": "DEVkazeronOptsG"
+  },
+  {
+   "i": 64,
+   "en": "Horus Yaribay test options",
+   "ctx": "DEVkazeronOptsHorus"
+  },
+  {
+   "i": 65,
+   "en": "move Fortuna Kato to Kazero and unhide her",
+   "ctx": "DEVkazeronOptsMoveKato"
+  },
+  {
+   "i": 66,
+   "en": "set global.sd7s_decryptViaPL to true\r",
+   "ctx": "DevKazeronOptsHubB-A"
+  },
+  {
+   "i": 67,
+   "en": "set player.sdse_yaribayToHannan to true\r",
+   "ctx": "DevKazeronOptsHubB-A"
+  },
+  {
+   "i": 68,
+   "en": "set global.sd7s_decryptViaHannan to true\r",
+   "ctx": "DevKazeronOptsHubB-A"
+  },
+  {
+   "i": 69,
+   "en": "set player.isLeagueMember to true\r",
+   "ctx": "DevKazeronOptsHubB-A"
+  },
+  {
+   "i": 70,
+   "en": "\">> dev No, really, I must insist.\"",
+   "ctx": "RHannanMessageHubDEV"
+  },
+  {
+   "i": 71,
+   "en": "\"I'd like to ask you about Faro Inesis.\"",
+   "ctx": "ArroyoAskAboutInesis"
+  },
+  {
+   "i": 72,
+   "en": "\"I just want to know if he can be trusted.\"\r",
+   "ctx": "ArroyoAskAboutInesis1"
+  },
+  {
+   "i": 73,
+   "en": "\"Correct. So how do you feel about him?\"\r",
+   "ctx": "ArroyoAskAboutInesis1"
+  },
+  {
+   "i": 74,
+   "en": "\"If it bothers you, I won't ask. Please accept my apologies.\"",
+   "ctx": "ArroyoAskAboutInesis1"
+  },
+  {
+   "i": 75,
+   "en": "\"It's like what?\"",
+   "ctx": "ArroyoAskAboutInesis2a"
+  },
+  {
+   "i": 76,
+   "en": "\"Apologizing. I'm sorry to have upset you.\"",
+   "ctx": "ArroyoAskAboutInesis2c"
+  },
+  {
+   "i": 77,
+   "en": "\"Zunya Glamor-Rotanev told me to speak with you...\"",
+   "ctx": "InesisZGRstartOpt"
+  },
+  {
+   "i": 78,
+   "en": "\"I'd like to discuss items of interest to Director Glamor-Rotanev.\"",
+   "ctx": "InesisZGRdiscussOpt"
+  },
+  {
+   "i": 79,
+   "en": "\"What exactly is it you do? For Tri-Tachyon, I mean.\"",
+   "ctx": "InesisAskWhatDoOpt"
+  },
+  {
+   "i": 80,
+   "en": "\"Um. Yes?\"\r",
+   "ctx": "InesisOfferContactStart"
+  },
+  {
+   "i": 81,
+   "en": "\"Maybe later.\"",
+   "ctx": "InesisZGRhubBack"
+  },
+  {
+   "i": 82,
+   "en": "\"I still have no idea what you do.\"\r",
+   "ctx": "InesisAskWhatDoSel"
+  },
+  {
+   "i": 83,
+   "en": "\"Are you... some kind of spy?\"",
+   "ctx": "InesisAskWhatDoSel"
+  },
+  {
+   "i": 84,
+   "en": "\"I acquired potentially critical encrypted intel about the Sindrian Diktat. It may be valuable...\"",
+   "ctx": "SD7SzgrBringFiles"
+  },
+  {
+   "i": 85,
+   "en": "\"I'm here to see Director Glamor-Rotanev.\"\r",
+   "ctx": "ZGRfirstVisitIntro3"
+  },
+  {
+   "i": 86,
+   "en": "\"I'll be sure to study it. Constantly.\" (lie)\r",
+   "ctx": "andradaOfficeBook"
+  },
+  {
+   "i": 87,
+   "en": ">> (dev) dev options for Hyder",
+   "ctx": "DEVhyderMenuOption"
+  },
+  {
+   "i": 88,
+   "en": "Increase trust\r",
+   "ctx": "DEVhyderMenuOptionSel"
+  },
+  {
+   "i": 89,
+   "en": "Lower trust\r",
+   "ctx": "DEVhyderMenuOptionSel"
+  },
+  {
+   "i": 90,
+   "en": "\"There is an urgent matter. I must speak with the Chief Inspector.\"",
+   "ctx": "SD7SmacarioUrgentMatter"
+  },
+  {
+   "i": 91,
+   "en": "\"I bring a matter of highest importance regarding the Sindrian Diktat.\"",
+   "ctx": "SD7SmacarioBringMatter"
+  },
+  {
+   "i": 92,
+   "en": "\"Tell Dolos I found the sons.\"",
+   "ctx": "SD7SmacarioFoundSons"
+  },
+  {
+   "i": 93,
+   "en": "\"I am no random 'spacer'. I've performed work for Macario.\"",
+   "ctx": "SD7SmacarioUrgentMatter2Opt"
+  },
+  {
+   "i": 94,
+   "en": "\"I am no random 'spacer'. I bear a commission of the Sindrian Diktat!\"",
+   "ctx": "SD7SmacarioUrgentMatter2OptSD"
+  },
+  {
+   "i": 95,
+   "en": "\"I need to know what you're doing. What's your goal?\"",
+   "ctx": "SD7SmacarioFoundSonsOptsA"
+  },
+  {
+   "i": 96,
+   "en": "\"I want you to leave me alone. I don't care about any of this.\"",
+   "ctx": "SD7SmacarioFoundSonsOptsB"
+  },
+  {
+   "i": 97,
+   "en": "\"I want you to pay me to forget about all of this...\"",
+   "ctx": "SD7SmacarioFoundSonsOptsC"
+  },
+  {
+   "i": 98,
+   "en": "\"Macario. We need to save the Sindrian Diktat - together.\"",
+   "ctx": "SD7SmacarioFoundSonsOptsD"
+  },
+  {
+   "i": 99,
+   "en": "\"Have you betrayed Philip Andrada? Are you behind the assassins?\"",
+   "ctx": "SD7SmacarioFoundSonsOptsE"
+  },
+  {
+   "i": 100,
+   "en": "\"I'm going to stop whatever you're doing, Dolos.\"",
+   "ctx": "SD7SmacarioFoundSonsOptsF"
+  },
+  {
+   "i": 101,
+   "en": ">> (dev) Volturn test options",
+   "ctx": "devVolturnOpenOption"
+  },
+  {
+   "i": 102,
+   "en": "unhide Moyra Standfast in comm directory and set as met",
+   "ctx": "devVolturnOptA"
+  },
+  {
+   "i": 103,
+   "en": "start conversation with Moyra Standfast",
+   "ctx": "devVolturnOptB"
+  },
+  {
+   "i": 104,
+   "en": "Set Volturn shrine as visited",
+   "ctx": "devVolturnOptC"
+  },
+  {
+   "i": 105,
+   "en": "force dialog for visiting Volturn Shrine",
+   "ctx": "devVolturnOptD"
+  },
+  {
+   "i": 106,
+   "en": "toggle market.didShrineIntro",
+   "ctx": "devVolturnOptShrineA"
+  },
+  {
+   "i": 107,
+   "en": "toggle market.didShrineIntroPostSDR",
+   "ctx": "devVolturnOptShrineB"
+  },
+  {
+   "i": 108,
+   "en": ">> (dev) SDTU The Usurpers test options",
+   "ctx": "sdOpenDevOptions"
+  },
+  {
+   "i": 109,
+   "en": "set player sdtu_toldCadenPlayerBacksHim",
+   "ctx": "sdDevOptionHubC"
+  },
+  {
+   "i": 110,
+   "en": "set sdtu_toldCadenPlayerBacksHimLie",
+   "ctx": "sdDevOptionHubC2"
+  },
+  {
+   "i": 111,
+   "en": "set player sdtu_setCadenOffAboutMacario",
+   "ctx": "sdDevOptionHubC3"
+  },
+  {
+   "i": 112,
+   "en": "set Macario gave PC an Executor as reward",
+   "ctx": "sdDevOptionHubMacExec"
+  },
+  {
+   "i": 113,
+   "en": "Hyder test options",
+   "ctx": "devSDTUhyderOptions"
+  },
+  {
+   "i": 114,
+   "en": "CHOOSE YOUR WEAPON",
+   "ctx": "devSDTUchooseWeapon"
+  },
+  {
+   "i": 115,
+   "en": "set met Hyder\r",
+   "ctx": "devSDTUhyderOptsA"
+  },
+  {
+   "i": 116,
+   "en": "Set player got Hyder's trust\r",
+   "ctx": "devSDTUhyderOptsA"
+  },
+  {
+   "i": 117,
+   "en": "set sdtu_toldCadenMacarioBacksHyder\r",
+   "ctx": "devSDTUhyderOptsA"
+  },
+  {
+   "i": 118,
+   "en": "set sdtu_toldCadenHyderBacksHyder\r",
+   "ctx": "devSDTUhyderOptsA"
+  },
+  {
+   "i": 119,
+   "en": "set sdtu_toldMacarioHyderBacksHyder\r",
+   "ctx": "devSDTUhyderOptsA"
+  },
+  {
+   "i": 120,
+   "en": "set sdtu_toldMacarioHyderWantsToDefect\r",
+   "ctx": "devSDTUhyderOptsA"
+  },
+  {
+   "i": 121,
+   "en": "set Hyder believes about ANDRADA files\r",
+   "ctx": "devSDTUhyderOptsA"
+  },
+  {
+   "i": 122,
+   "en": "back to SDTU dev options\r",
+   "ctx": "devSDTUhyderOptsA"
+  },
+  {
+   "i": 123,
+   "en": "set contacted Hyder about ANDRADA files",
+   "ctx": "devSDTUhyderOptsA"
+  },
+  {
+   "i": 124,
+   "en": "\"What do you wish done? Tell me how I may serve the Sindrian Diktat.\"",
+   "ctx": "sdtuMacrioIntroHubGalt"
+  },
+  {
+   "i": 125,
+   "en": "\"Does the Supreme Executor know about this plan?\"",
+   "ctx": "sdtuMacrioIntroHubA3sd"
+  },
+  {
+   "i": 126,
+   "en": "\"I serve the Sindrian Diktat!\"",
+   "ctx": "sdtuSafehouseWrapHubOpt0sd"
+  },
+  {
+   "i": 127,
+   "en": "\"I need to find an agent working for the Sindrian Diktat.\"",
+   "ctx": "sdtuUmbraVIPoptA"
+  },
+  {
+   "i": 128,
+   "en": "\"I'll ensure they come to no harm.\"\r",
+   "ctx": "sdtuUmbraAskAgentQM4"
+  },
+  {
+   "i": 129,
+   "en": "\"Because, despite my commission, you are using me to purge traitors.\"",
+   "ctx": "sdtuPostCadenNoTrustOptsF"
+  },
+  {
+   "i": 130,
+   "en": "\"Of course. I serve the Sindrian Diktat.\"\r",
+   "ctx": "sdtuPostCadenInterruptionOptsB"
+  },
+  {
+   "i": 131,
+   "en": "\"I serve the Sindrian Diktat. Glory to the Supreme Executor!\"\r",
+   "ctx": "sdtuNewsEndOptionsSD"
+  },
+  {
+   "i": 132,
+   "en": "\"I'd like to help your cause.\"",
+   "ctx": "ImoinuKatoUmbraSupported"
+  },
+  {
+   "i": 133,
+   "en": "\"We've had differences, but I wish to provision the ARC.\"",
+   "ctx": "ImoinuKatoUmbraAnnoyedSupport"
+  },
+  {
+   "i": 134,
+   "en": "\"The truth is Reynard Hannan wants to annoy your grandmother. So here I am.\"",
+   "ctx": "imoinuUmbraOfferHelpBoptsA"
+  },
+  {
+   "i": 135,
+   "en": "\"Maybe I am. But I want to destroy the Sindrian Diktat, too\"",
+   "ctx": "imoinuUmbraOfferHelpBoptsB"
+  },
+  {
+   "i": 136,
+   "en": "\"Perhaps, but I want to destroy Dolos Macario. Personally. For vengeance.\"",
+   "ctx": "imoinuUmbraOfferHelpBoptsC"
+  },
+  {
+   "i": 137,
+   "en": "\"Yes. And Orcus Rao ordered this bloody-handed merc to help you.\"",
+   "ctx": "imoinuUmbraOfferHelpBoptsD"
+  },
+  {
+   "i": 138,
+   "en": "\"Fine. Never mind.\" (back)",
+   "ctx": "imoinuUmbraOfferHelpBoptsNope"
+  },
+  {
+   "i": 139,
+   "en": "\"Then we're agreed.\"",
+   "ctx": "imoinuUmbraOfferHelpBoptsAsel"
+  },
+  {
+   "i": 140,
+   "en": ">> (dev) reset ARC offer timer",
+   "ctx": "DEVimoinuARCoffersReset"
+  },
+  {
+   "i": 141,
+   "en": ">> (dev) fulfill all ARC requests",
+   "ctx": "DEVimoinuFulfillAllARCoffers"
+  },
+  {
+   "i": 142,
+   "en": "Give 40 units of heavy armaments",
+   "ctx": "imoinuARCofferWeapons"
+  },
+  {
+   "i": 143,
+   "en": "Give 250 units of fuel",
+   "ctx": "imoinuARCofferFuel"
+  },
+  {
+   "i": 144,
+   "en": "Give 200 units of supplies",
+   "ctx": "imoinuARCofferSupplies"
+  },
+  {
+   "i": 145,
+   "en": "\"You're welcome. I'll be watching for those fireworks.\"\r",
+   "ctx": "imoinuUmbraOfferHelpAllDone2"
+  },
+  {
+   "i": 146,
+   "en": "\"Death to Andrada, comrade.\"",
+   "ctx": "imoinuUmbraOfferHelpAllDone2"
+  },
+  {
+   "i": 147,
+   "en": "\"Death to Andradas, comrade.\"",
+   "ctx": "imoinuUmbraOfferHelpAllDone2during"
+  },
+  {
+   "i": 148,
+   "en": "The cryosleeping body of Leonidas, clone of Philip Andrada",
+   "ctx": "kpLeonidas"
+  },
+  {
+   "i": 149,
+   "en": "DEV just add the the argument counter vs Reynard",
+   "ctx": "PLDealArgumentsHannanDEV"
+  },
+  {
+   "i": 150,
+   "en": "Yes, I will speak to Achilles\r",
+   "ctx": "ReynardLeavePLcheckSDSEb"
+  },
+  {
+   "i": 151,
+   "en": "No, I'm not doing that",
+   "ctx": "ReynardLeavePLcheckSDSEb"
+  },
+  {
+   "i": 152,
+   "en": "\"Does not the folly of saints and angels elevate the faith of a poor soul born of the fallen children of Earth?\"",
+   "ctx": "LCP_notEnoughLieSel2"
+  },
+  {
+   "i": 153,
+   "en": "\"I think you'll find my methods quite direct. Tactical, arm weapons.\"\r",
+   "ctx": "sdPunExComms2"
+  },
+  {
+   "i": 154,
+   "en": "\"You're probably an Alpha Core having fun with me.\"",
+   "ctx": "PKHackStoryOptOmega2b"
+  },
+  {
+   "i": 155,
+   "en": "Slip out of the bar",
+   "ctx": "barPAA1b"
+  },
+  {
+   "i": 156,
+   "en": "Set BFFI (False Idols) as completed",
+   "ctx": "LCDEVsetBFFIdone"
+  },
+  {
+   "i": 157,
+   "en": "Set tookLeonidas to true and unset tookLeonidasAndResolved",
+   "ctx": "DEVtibicenaResetLeo"
+  },
+  {
+   "i": 158,
+   "en": "set Rayan Arroyo as met, and potential contact (and unhide Gargoyle)",
+   "ctx": "DEVttMakeArroyoContactOption"
+  },
+  {
+   "i": 159,
+   "en": "set Faro Inesis as met and potential contact",
+   "ctx": "DEVttMakeInesisContactOption"
+  },
+  {
+   "i": 160,
+   "en": "set flag for Faro Inesis decrypted ANDRADA files (non-exclusive flag)",
+   "ctx": "DEVttMakeInesisDecryptOpt"
+  },
+  {
+   "i": 161,
+   "en": "Set Inesis is helping Hector",
+   "ctx": "DevSetInesisHelpHectorOpt"
+  },
+  {
+   "i": 162,
+   "en": "\"I'm $playerName. I tried to contact you via comms...\"",
+   "ctx": "gaDHOvisitElekIntroMetComms"
+  },
+  {
+   "i": 163,
+   "en": "\"That sounds absurdly, even insultingly low.\"",
+   "ctx": "gaDHOvisitElekHubSelA2"
+  },
+  {
+   "i": 164,
+   "en": "Why wait? Go straight to the coordinates in the Abyss\r",
+   "ctx": "gaDHOjustFoundArray5alt"
+  },
+  {
+   "i": 165,
+   "en": "Talk to Academician Elek at the Galatia Academy again",
+   "ctx": "gaDHOjustFoundArray5alt"
+  },
+  {
+   "i": 166,
+   "en": "By going to the coordinates and seeing for myself",
+   "ctx": "gaDHOjustFoundArray5alt2"
+  },
+  {
+   "i": 167,
+   "en": "\"I found your modified sensor array on the Fringe...\"",
+   "ctx": "gaDHOabyssEndElekStartComms"
+  },
+  {
+   "i": 168,
+   "en": "\"Elek. I found your sensor array. There were strange readings.\"",
+   "ctx": "gaDHOabyssEndElekStartCommsB"
+  },
+  {
+   "i": 169,
+   "en": "\"I'm $playerName, remember? I've found your sensor array on the Fringe.\"",
+   "ctx": "gaDHOvisitElekIntroRejected"
+  },
+  {
+   "i": 170,
+   "en": "\"So what is at those coordinates in the Abyss?\"",
+   "ctx": "gaDHOvisitElekAltAskHubOptA"
+  },
+  {
+   "i": 171,
+   "en": "\"You sold Jason's info to a Diktat agent.\"",
+   "ctx": "KOjoveSD7SpostAgent"
+  },
+  {
+   "i": 172,
+   "en": "\"You sold Jason's info to a Sindrian Diktat double-agent.\"",
+   "ctx": "KOjoveSD7SpostAgentSD"
+  },
+  {
+   "i": 173,
+   "en": "\"Yes. Transferring now.\" (pay)",
+   "ctx": "KOjoveOwe100kOptsPay"
+  },
+  {
+   "i": 174,
+   "en": "\"No, I'm still working on it.\"",
+   "ctx": "KOjoveOwe100kOptsB"
+  },
+  {
+   "i": 175,
+   "en": "\"No, I don't have the credits yet.\" (lie)",
+   "ctx": "KOjoveOwe100kOptsC"
+  },
+  {
+   "i": 176,
+   "en": "\"I don't intend to pay you, Jove. I got what I wanted.\"",
+   "ctx": "KOjoveOwe100kOptsD"
+  },
+  {
+   "i": 177,
+   "en": "\"I spoke too soon. You'll get your credits, Jove.\"\r",
+   "ctx": "KOjoveOwe100kOptsNeverSel"
+  },
+  {
+   "i": 178,
+   "en": "\"You heard me the first time, Jove.\"",
+   "ctx": "KOjoveOwe100kOptsNeverSel"
+  },
+  {
+   "i": 179,
+   "en": "\"I'm interested in discussing cryosanctum services...\"",
+   "ctx": "BlancAskCryosanctum"
+  },
+  {
+   "i": 180,
+   "en": "\"You'll find that I have over a million credits in my accounts.\" (share data)",
+   "ctx": "BlancCryoAccountsA"
+  },
+  {
+   "i": 181,
+   "en": "\"You'll find that I have over a half million credits in my accounts.\"",
+   "ctx": "BlancCryoAccountsB"
+  },
+  {
+   "i": 182,
+   "en": "\"You'll find that I have over a million credits in... various investments.\" (fabricate data)",
+   "ctx": "BlancCryoAccountsMilLie"
+  },
+  {
+   "i": 183,
+   "en": "\"I, ah, prefer not to reveal the financial secrets of my operation.\"",
+   "ctx": "BlancCryoAccountsC"
+  },
+  {
+   "i": 184,
+   "en": "\"I don't think I can afford your services right now.\"",
+   "ctx": "BlancCryoAccountsD"
+  },
+  {
+   "i": 185,
+   "en": "\"Apologies, Mister Blanc. This will take... a moment.\"",
+   "ctx": "BlancCryoAccountsMilLieSel"
+  },
+  {
+   "i": 186,
+   "en": "\"Indeed. I'm sure I'll be back soon.\"\r",
+   "ctx": "BlancCryoAccountsDsel"
+  },
+  {
+   "i": 187,
+   "en": "\"No, I'd like to discuss it now. So I have something to work toward.\"",
+   "ctx": "BlancCryoAccountsDsel"
+  },
+  {
+   "i": 188,
+   "en": "\"Indeed. I'm sure I'll return before long.\"\r",
+   "ctx": "BlancCryoAccountsCsel"
+  },
+  {
+   "i": 189,
+   "en": "\"Let's discuss a cryosanctum package.\"",
+   "ctx": "BlancTalkCryoPackageHub"
+  },
+  {
+   "i": 190,
+   "en": "\"I'd like to arrange long-term storage for a unique case.\" (store Leonidas in the cryosanctum)",
+   "ctx": "BlancTalkCryoLeonidas"
+  },
+  {
+   "i": 191,
+   "en": "\"Perhaps another time.\" (back)",
+   "ctx": "BlancTalkCryoHubBackOpt"
+  },
+  {
+   "i": 192,
+   "en": "Accept his terms",
+   "ctx": "BlancCryoStoreLeoHubOptA"
+  },
+  {
+   "i": 193,
+   "en": "\"Tell me more about the budget package.\"\r",
+   "ctx": "BlancTalkCryoPackageSel"
+  },
+  {
+   "i": 194,
+   "en": "\"I see you have a midline package...\"\r",
+   "ctx": "BlancTalkCryoPackageSel"
+  },
+  {
+   "i": 195,
+   "en": "\"I'm interested in the deluxe package.\"\r",
+   "ctx": "BlancTalkCryoPackageSel"
+  },
+  {
+   "i": 196,
+   "en": "\"These feel limiting. Do you have something truly exceptional to offer?\"\r",
+   "ctx": "BlancTalkCryoPackageSel"
+  },
+  {
+   "i": 197,
+   "en": "\"So you'd chop off my head?\"",
+   "ctx": "BlancTalkCryoPackageBudget"
+  },
+  {
+   "i": 198,
+   "en": "Confirm this choice\r",
+   "ctx": "BlancTalkCryoPackageBudget2"
+  },
+  {
+   "i": 199,
+   "en": "\"Let's review your other offerings...\" (back)",
+   "ctx": "BlancTalkCryoPackageBudget2"
+  },
+  {
+   "i": 200,
+   "en": "\"Tell me more of this... reversible procedure.\"",
+   "ctx": "BlancTalkCryoPackageMid"
+  },
+  {
+   "i": 201,
+   "en": "\"I'm looking for officers with some... specific qualities.\"",
+   "ctx": "personnelOfficerLookForOfficersOpt"
+  },
+  {
+   "i": 202,
+   "en": "Timid\r",
+   "ctx": "personnelOfficerLookForOfficersSel"
+  },
+  {
+   "i": 203,
+   "en": "Cautious\r",
+   "ctx": "personnelOfficerLookForOfficersSel"
+  },
+  {
+   "i": 204,
+   "en": "Steady\r",
+   "ctx": "personnelOfficerLookForOfficersSel"
+  },
+  {
+   "i": 205,
+   "en": "Aggressive\r",
+   "ctx": "personnelOfficerLookForOfficersSel"
+  },
+  {
+   "i": 206,
+   "en": "Select the skills\r",
+   "ctx": "PersonnelOfficerPersonalityPicked"
+  },
+  {
+   "i": 207,
+   "en": "Discuss sending a task force to meet your $shipOrFleet at a destination",
+   "ctx": "CallSupportFleetBeginFromBaseCom"
+  },
+  {
+   "i": 208,
+   "en": "Plan a resupply mission\r",
+   "ctx": "CSFcallInFromBaseSel"
+  },
+  {
+   "i": 209,
+   "en": "Plan the deployment of a combat task force\r",
+   "ctx": "CSFcallInFromBaseSel"
+  },
+  {
+   "i": 210,
+   "en": "\"Never mind, just reviewing combat readiness.\"",
+   "ctx": "CSFcallInFromBaseSel"
+  },
+  {
+   "i": 211,
+   "en": "\"Never mind, just testing the hardware.\"",
+   "ctx": "CallSupportFleetBeginFromRelay"
+  },
+  {
+   "i": 212,
+   "en": "Call in a small supply fleet\r",
+   "ctx": "CallSupportFleetPickSize1"
+  },
+  {
+   "i": 213,
+   "en": "Call in a medium supply fleet\r",
+   "ctx": "CallSupportFleetPickSize1"
+  },
+  {
+   "i": 214,
+   "en": "Call in a large supply fleet\r",
+   "ctx": "CallSupportFleetPickSize1"
+  },
+  {
+   "i": 215,
+   "en": "Belay the order",
+   "ctx": "CallSupportFleetPickSize1"
+  },
+  {
+   "i": 216,
+   "en": "Call in a small task force\r",
+   "ctx": "CallSupportFleetPickSize2"
+  },
+  {
+   "i": 217,
+   "en": "Call in a medium task force\r",
+   "ctx": "CallSupportFleetPickSize2"
+  },
+  {
+   "i": 218,
+   "en": "Call in a large task force\r",
+   "ctx": "CallSupportFleetPickSize2"
+  },
+  {
+   "i": 219,
+   "en": "Select a destination\r",
+   "ctx": "CallSupportFleetPickTargetSupport"
+  },
+  {
+   "i": 220,
+   "en": "Confirm your orders\r",
+   "ctx": "CallFleetTargetSelected"
+  },
+  {
+   "i": 221,
+   "en": "You made arrangements ahead of time and expect the fleet to arrive shortly\r",
+   "ctx": "CallFleetTargetSelected"
+  },
+  {
+   "i": 222,
+   "en": "\"You may begin the transfer, $rank.\"\r",
+   "ctx": "resupplyOpenComms"
+  },
+  {
+   "i": 223,
+   "en": "\"Want to make a few credits on the side? (sell)\r",
+   "ctx": "resupplyOpenCommsAlreadyGave"
+  },
+  {
+   "i": 224,
+   "en": "\"Thank you. Burn bright, $rank.\"",
+   "ctx": "csf_giveResourcesSel"
+  },
+  {
+   "i": 225,
+   "en": "\"Want to make some credits on the side? I need to offload extra cargo.\"",
+   "ctx": "csf_sellStuffOptResupplyFleet"
+  },
+  {
+   "i": 226,
+   "en": "\"Heading back to the core soon? I could sell you some cargo.\"",
+   "ctx": "csf_sellStuffOptOther"
+  },
+  {
+   "i": 227,
+   "en": "Select goods to transfer\r",
+   "ctx": "sellStuffToFleetSelSupport"
+  },
+  {
+   "i": 228,
+   "en": "\"I want you to follow my $shipOrFleet.\"",
+   "ctx": "taskForceOptionsFollow"
+  },
+  {
+   "i": 229,
+   "en": "\"Hold position at this location.\"",
+   "ctx": "taskForceOptionsStay"
+  },
+  {
+   "i": 230,
+   "en": "Make arrangements for the fleet's operating time to be extended by 60 days",
+   "ctx": "taskForceOptionsExtend"
+  },
+  {
+   "i": 231,
+   "en": ">> (dev) player colony dev/test options",
+   "ctx": "DEVplayerColonyMenuOpt"
+  },
+  {
+   "i": 232,
+   "en": "Give player Leonidas and set not resolved (to test)",
+   "ctx": "SD7SleoToOwnColonyDEV"
+  },
+  {
+   "i": 233,
+   "en": ">> (dev) Qaras / K-O Jove / player weapon test options",
+   "ctx": "DEVqarasOpt"
+  },
+  {
+   "i": 234,
+   "en": "Show K-O Jove\r",
+   "ctx": "DEVqarasOptSel"
+  },
+  {
+   "i": 235,
+   "en": "Set player chose to talk to Jove re Macario post Askonia Crisis 2\r",
+   "ctx": "DEVqarasOptSel"
+  },
+  {
+   "i": 236,
+   "en": "Set AskoniaStandoffCompleted to true so you can hunt down Macario\r",
+   "ctx": "DEVqarasOptSel"
+  },
+  {
+   "i": 237,
+   "en": "CHOOSE YOUR WEAPON\r",
+   "ctx": "DEVqarasOptSel"
+  },
+  {
+   "i": 238,
+   "en": "Set Reynard Hannan 'gift' of Macario to true\r",
+   "ctx": "DEVqarasOptSel"
+  },
+  {
+   "i": 239,
+   "en": "unset Jove away\r",
+   "ctx": "DEVqarasOptSel"
+  },
+  {
+   "i": 240,
+   "en": "Grenades\r",
+   "ctx": "DEVqarasChooseWeapon"
+  },
+  {
+   "i": 241,
+   "en": "Pistol\r",
+   "ctx": "DEVqarasChooseWeapon"
+  },
+  {
+   "i": 242,
+   "en": "Knife\r",
+   "ctx": "DEVqarasChooseWeapon"
+  },
+  {
+   "i": 243,
+   "en": "Poison Spray\r",
+   "ctx": "DEVqarasChooseWeapon"
+  },
+  {
+   "i": 244,
+   "en": "Monofiliment Wire\r",
+   "ctx": "DEVqarasChooseWeapon"
+  },
+  {
+   "i": 245,
+   "en": "None\r",
+   "ctx": "DEVqarasChooseWeapon"
+  },
+  {
+   "i": 246,
+   "en": "Sword",
+   "ctx": "DEVqarasChooseWeapon"
+  },
+  {
+   "i": 247,
+   "en": ">> (dev) retirement test options",
+   "ctx": "DEVretirementTestsOption"
+  },
+  {
+   "i": 248,
+   "en": "test retirement dialog as if via Ext Mode\r",
+   "ctx": "DEVretirementTestParent"
+  },
+  {
+   "i": 249,
+   "en": "test retirement dialog as if via Historian\r",
+   "ctx": "DEVretirementTestParent"
+  },
+  {
+   "i": 250,
+   "en": "set good rep with all factions and all misc flags\r",
+   "ctx": "DEVretirementTestParent"
+  }
+ ]
+}

@@ -1,12 +1,15 @@
 {
     "displayName": "Assalto",
-    "fluxCapacitors": 10,
+    "fluxCapacitors": 8,
     "fluxVents": 10,
     "goalVariant": true,
     "hullId": "shade",
-    "hullMods": ["fluxbreakers"],
+    "hullMods": [
+        "fluxbreakers",
+        "fluxcoil"
+    ],
     "permaMods": [],
-    "quality": 0.75,
+    "sMods": [],
     "variantId": "shade_Assault",
     "weaponGroups": [
         {

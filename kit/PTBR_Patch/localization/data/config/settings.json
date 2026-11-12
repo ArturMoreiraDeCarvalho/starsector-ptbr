@@ -89,6 +89,225 @@
 	"allCodexEntriesUnlocked":false,
 	"showLockedCodexEntries":true,
 	
+	"smallSector":false, # replacement for new-game sector size options, used when Misc.EXTENDED_MODE_ENABLED is true
+	
+	# Domain-grade Parts
+	"useDModRepairWithPartsInExtendedModeOnly":false,
+	"minDModRepairCostInParts":[1,2,4,8], # minimum applied to the default value based on ship's base value
+	"defaultDModRepairPartsBaseValueDivisor":15000, # base value of hull divided by this to get default parts/dmod  
+
+	"spacerShareEnabledExtModeOnly":true,
+	"spacerShareEnabledSpacerModeOnly":true, # replaces "an obligation from your past" when enabled
+	"jumpPayEnabledExtModeOnly":true,
+	"retirementEnabledExtModeOnly":true, # "false" value unsupported. can retire voluntarily in normal mode regardless
+	
+	"safetyOverridesExtraCrewLoss":0.4, # maximum fraction of crew lost for full peak time spent in battle
+	"allowAutomatedShipRecoveryWithoutSkill":true,
+	
+	"partsPerUnitOfSupplies":0.05, # at the max rate, at partsSavlageBaseDP or below
+	# the below stuff only matters if this is set to true - makes more parts drop for smaller fleets
+	"partsUseModifiedDropRate":false,
+	"partsSalvageBaseDP":60, # the "normal" rate is what's at 240dp, but this is the base value for the formula where it maxes out
+	"partsSalvageDPExponent":1.0,
+	"partsSalvageMinDPPerShip":10,
+	"partsReductionAtFiveDmods":0.2,
+	"partsForSaleBaseSuppliesFraction":0.1,
+	"partsForSaleBaseProductionFraction":0.2,
+	
+	########################################
+	# BEGIN EXTENDED MODE SETTINGS
+	########################################
+	
+	"ext_jumpPayMult":0, # crew salary mult, for jumping out of a populated system
+	"ext_spacerShareThresholdSalaryMonths":12,
+	"ext_spacerSharePerMonth":0.1, # set to 0 to disable
+	"ext_retirementMinCycles":25, # 0 to disable
+	"ext_retirementMaxCycles":30,
+	"ext_retirementDelayCostBase":20000,
+	"ext_retirementDelayCostPerMonth":1000,
+	"ext_retirementDelayCostMax":50000,
+	
+	"ext_shipBuyPriceMult":[5, 5, 6, 8], 	# frigate, destroyer, cruiser, capital
+	"ext_pristineShipSellPriceMult":[1, 1, 1, 1], # closely related to shipSellPriceMult (.4 currently)
+	"ext_shipSellValueIncreasePerPartUsed":5000, # up to number of parts needed to repair 5 d-mods
+	"ext_shipSellValueMultPerSMod":1, # mult is 1 + (ext_shipSellValueMultPerSMod * numSMods)
+	"ext_shipStoragePriceMult":0.5,
+	"ext_shipBuyPriceMultPerDMod":0.85,
+	"ext_weaponPriceMult":10,
+	"ext_fighterPriceMult":5,
+	"ext_hullmodPriceMult":7,
+	"ext_hullmodSellPriceMult":0.25,
+	"ext_weaponAndFighterSellPriceMult":1.5, # applied after the price mult is applied
+	"ext_blueprintSellPriceMult":0.3,
+	"ext_blueprintSellPriceMultBlackMarket":1,
+	
+	# fractions relative to normal mode
+	
+	"ext_partsForSaleFraction":2, 	# higher than normal because it's based on supplies which there is less of in ext_
+	"ext_partsPriceMult":2,			# base price:  10000
+	"ext_partsSpecialSalvageDropFraction":0.5, # only special drops from e.g. the Domain mothership etc
+	"ext_partsPerUnitOfSupplies":0.025,
+	
+	"ext_shipForSaleFraction":0.25, 
+	"ext_shipRecoverableFraction":0.2,
+	"ext_derelictShipRecoverableFraction":0.1,
+	"ext_shipRecoveryWithStoryPointsFraction":0.2,
+	
+	"ext_weaponForSaleFraction":0.2,
+	"ext_weaponDropFraction":0.1,
+	"ext_weaponSalvageDropFraction":0.2,
+	
+	"ext_fighterForSaleFraction":0.2,
+	"ext_fighterDropFraction":0.2,
+	"ext_fighterSalvageDropFraction":0.3,
+	
+	"ext_hullmodForSaleFraction":0.35,
+	"ext_hullmodDropFraction":0.25,
+	"ext_hullmodSalvageDropFraction":0.5,
+	
+	
+	"ext_specialItemSalvageDropFraction":0.5,
+	"ext_commoditySalvageDropFraction":0.3,
+	"ext_sleeperPodsSpecialCrewFraction":0.3,
+	
+	"ext_salvageCargoFractionPostCombat":0.4,
+	"salvageFuelFractionPostCombat":0.1,
+	
+	"ext_threatResourceSalvageMult":0.25,
+	"ext_aiCoreDropFraction":0.1,
+	"ext_substrateDropFraction":0.4,
+	
+	"ext_barCustomProductionMaxValueMult":3,
+	"ext_playerIndustryCustomProductionMaxValueMult":3,
+	
+	"ext_fuelCapacityMult":0.5,
+	"ext_fuelCapacityMultTanker":0.35,
+	"ext_fuelUseMult":[1, 1, 1.5, 2],	# frigate, destroyer, cruiser, capital
+	"ext_fuelUseMultCiv":[1, 1, 1, 1],	# frigate, destroyer, cruiser, capital - civilian ships
+	
+	"ext_personnelForSaleMinMultBadRep":0.25,
+	"ext_personnelForSaleMaxMultGoodRep":2,
+	
+	"ext_crewForSaleFraction":0.2,
+	"ext_suppliesForSaleFraction":0.4,
+	"ext_fuelForSaleFraction":0.6,
+	"ext_marinesForSaleFraction":0.2,
+	
+	"ext_drugsForSaleFraction":0.3,
+	"ext_organsForSaleFraction":0.3,
+	"ext_hand_weaponsForSaleFraction":0.2,
+	
+	"ext_drugsForSaleFractionFreePort":0.15,
+	"ext_organsForSaleFractionFreePort":0.15,
+	"ext_hand_weaponsForSaleFractionFreePort":0.1,
+	
+	"ext_crewForSaleFractionPlayerColony":0.5,
+	"ext_suppliesForSaleFractionPlayerColony":0.65,
+	"ext_fuelForSaleFractionPlayerColony":0.75,
+	"ext_marinesForSaleFractionPlayerColony":0.5,
+	
+	"ext_crewForSaleMilitaryMult":1.5,
+	"ext_suppliesForSaleMilitaryMult":1.2,
+	"ext_fuelForSaleMilitaryMult":1.2,
+	"ext_marinesForSaleMilitaryMult":1.5,
+	
+	"ext_localResourcesStockpileAndRateMult":0.3,
+	
+	"ext_commissionBountyMult":1,
+	"ext_commissionMonthlyIncomeMult":0.1,
+	"ext_removeGalatiaStipend":true,
+	
+	"ext_taskForceCostMult":2,
+	"ext_resupplyFleetCostMult":1.5,
+	"ext_resupplyCrewBroughtMult":0.25,
+	
+	"ext_crewPriceMult":10,				# base price:  50
+	"ext_marinesPriceMult":4,			# base price: 200
+	"ext_suppliesPriceMult":1,			# base price: 100
+	"ext_fuelPriceMult":3,				# base price:  25
+	"ext_personnelSellPriceMult":0.1,
+	
+	"ext_crewSalaryMult":3,			# base is 10
+	"ext_marineSalaryMult":3,		# base is 20
+	"ext_officerSalaryMult":1,
+	"ext_officerCombatPay":[1, 2, 4, 16],	# frigate, destroyer, cruiser, capital
+	
+	"ext_colonyGrowthRequiredMult":2,
+	"ext_corruptionThreshold":200000, 	# corruption kicks in at this colony income
+	"ext_corruptionExponent":2,			# 2 = takes 4x income to double it, 3 = 9x, etc.
+	"ext_corruptionUsesGrossIncome":true,
+
+	# compared to normal mode, also affects officer promotion candidates
+	"ext_officersAvailableFraction":0.15, 
+	"ext_cryopodOfficersFraction":0.5,
+	"ext_cryopodAdminsFraction":0.1,
+	"ext_adminAvailableFraction":0.1,
+
+	"ext_normalTariff":0.4,
+	"ext_militaryMarketTariff":0.3,
+	"ext_blackMarketTariff":0.25,
+	"ext_blackMarketTariffSneak":0,
+	"ext_militaryMarketRequiresCommission":true,
+	
+	"ext_certainWeaponCooldownsBlockPhaseCloak":true, # not actually used
+	"ext_strongerAlphaSiteDefenders":true,
+	"ext_analyzeMissionRequiresSensorStrength":true,
+	"ext_analyzeMissionSensorStrengthAboveBaseRequired":200,
+	"ext_ZGRTurnInValueMult":0.3,
+	"ext_moreDangerousMkIThreat":true,
+	"ext_extraSpacerDebtPerLevel":2000,
+	"ext_respawnFleetId":"ext_respawn",
+	"ext_deliveryMissionHighQuantityChanceMult":0.1,
+	"ext_worseHandMeDownFreighter":true,
+	"ext_worseHandMeDownFreighterPriceMult":2,
+	"ext_hijackedShipCostMult":2,
+	"ext_surplusHullPriceMult":2,
+	"ext_reduceLegionXIVSpawns":true,
+	"ext_reduceDerelictQuality":true,
+	"ext_shipForSaleQualityMod":-0.35,
+	"ext_probOfForcingBadDerelictCondition":0, # reducing the odds of good condition with ext_reduceDerelictQuality anyway 
+	"ext_cargoScanFindContrabandMult":2,
+	"ext_cargoScanNumShipsMult":4,
+	"ext_cargoScanShipDamageMult":2,
+	"ext_environmentalDamageMult":2, # hyperstorm strikes, aseroid impacts, etc
+	"ext_transverseJumpDamageMult":10, # CR damage from using Transverse Jump
+	
+	"ext_timeBasedThingsDelayFactor":3, # pirate base raids, pirate fleet time-passed-based strength increases, etc
+	
+	"ext_surveyCrewMult":1.5,
+	"ext_surveyMachineryMult":1.5,
+	"ext_surveySuppliesMult":1,
+	
+	"ext_establishColonyCrew":1000,
+	"ext_establishColonyMachinery":200,
+	"ext_establishColonySupplies":500,
+	"ext_industryCostMult":2,
+	"ext_industryBuiltTimeMult":2,
+	
+	"ext_missionRewardMinDist":10,
+	"ext_missionRewardMaxDist":32,
+	"ext_missionRewardMaxBonusFraction":0.65,
+	"ext_missionRewardBonusCap":150000,
+
+	"ext_storyPointsPerLevel":2,
+	"ext_storyPointsPerLevelAtMaxLevel":4,
+	"ext_bonusXP_cleanDisengage":0,
+	"ext_bonusXP_avoidCargoScan":0.5,
+	"ext_bonusXP_convinceOfficer":0.75,
+	"ext_bonusXP_recoverNoBonusXPDeploymentPoints":5,
+	"ext_recoveryNonOwnSPCost":[1,1,2,4],
+	"ext_recoveryNonOwnSPCostCiv":[1,1,1,2],
+	
+	
+	########################################
+	# END EXTENDED MODE SETTINGS
+	########################################
+	
+	"missionRewardMinDist":10,
+	"missionRewardMaxDist":32,
+	"missionRewardMaxBonusFraction":0.65,
+	"missionRewardBonusCap":150000,
+	
 	# values above 2-3 will likely result in poor simulation fidelity
 	"combatSpeedMult":1f,
 	
@@ -130,6 +349,7 @@
 	"compressSaveGameData":false, # smaller files, faster saving/loading, saveiles files not hand-editable
 	
 	"autosaveFeatureEnabled":true, # somewhat experimental, let's see how it goes
+	"autosaveInIronMode":false, # creates additional save slots, which isn't what you'd expect out of iron mode
 	"autosaveEnabledByDefault":true,
 	"autosaveDefaultIntervalMinutes":30f,
 	"autosaveExtraIntervalMinutesIfNotChangedLocation":[2f, 10f],
@@ -147,6 +367,8 @@
 	"3dPlanetBackgrounds":true,
 	"planetBGRightSide":true,
 	"planetBGDimOverlayAlpha":0,
+	
+	"hyperspaceWobble":true,
 	
 	"cloudColor":[255,255,255,255],
 	# replaced with UI setting in the "Gameplay" Settings tab
@@ -328,6 +550,7 @@
 	
 	"stabilityBaseValue":5,
 	
+	"accessibilityCoreBonus":0,
 	"accessibilityBaseValue":0.5, # used
 	"accessibilityNoSpaceport":-1, # used
 	"accessibilitySameFactionBonus":0.5,
@@ -417,7 +640,7 @@
 	"hegemonyPointsBeta":2,
 	"hegemonyPointsGamma":1,
 	
-	"maxHostileActivityFleetsPerSystem":11,
+	"maxHostileActivityFleetsPerSystem":7,
 	
 	# HA, max fleet counts (if not present: no limit)
 	"luddicPathMaxFleets":4,
@@ -543,15 +766,15 @@
 	
 	"baseSystemBounty":1000,
 	"minSystemBounties":0,
-	"maxSystemBounties":3,
+	"maxSystemBounties":4,
 	"baseCommerceSystemBounty":500,
 	
 	"baseCustomBounty":70000,
 	"personCustomBountyPerLevel":25000,
 	"basePersonBounty":40000,
 	"personBountyPerLevel":15000,
-	"minPersonBounties":3,
-	"maxPersonBounties":5,
+	"minPersonBounties":9,
+	"maxPersonBounties":12,
 	"personBountyNoSpawnRangeAroundPlayerLY":3,
 	
 	"pirateBaseBounty1":40000,
@@ -651,9 +874,9 @@
 	
 	"targetNumTradeFleetNotifications":15,
 
-	"factionCommissionBounty":300,
-	"factionCommissionStipendBase":20000,
-	"factionCommissionStipendPerLevel":5000,
+	"factionCommissionBounty":500,
+	"factionCommissionStipendBase":15000,
+	"factionCommissionStipendPerOfficer":3500,
 	"factionCommissionResignPenalty":0.2,
 	"factionCommissionResignPenaltyInPerson":0.1,
 	"factionCommissionRestoredRelationshipPenalty":0.1,
@@ -674,10 +897,12 @@
 	"salvageFractionCreditsMin":0.1,
 	"salvageFractionCreditsMax":0.25,
 	"salvageCargoFraction":0.75,
+	"salvageFuelFraction":0.1, # of the maximum fuel carried by the fleet, part of this would be salvaged after total destruction
 	"salvageDebrisFieldFraction":0.25,
 	"minSalvageValueForDebrisField":1000,
 	
 	"shipRecoveryDialogShowBothListsAtOnce":true,
+	"maxRecoverableShipsNormalOrStory":24, # for each of the two types, i.e. max is 2x this
 	"baseShipRecoveryChance":0.25,
 	"baseOwnShipRecoveryChance":0.5,
 	"baseRestoreCostMult":1.2,
@@ -688,6 +913,17 @@
 	"baseProbLessDModsOnRecoverableEnemyShip":0.3f,
 	"lessDModsOnRecoverableEnemyShipMultNext":0.5f,
 	"maxDModsAddedByCombat":5, # could be exceeded from always-added-on-ship-destroyed dmods
+	
+	"changeSmodsCost_CAPITAL_SHIP":250000,
+	"changeSmodsCost_CRUISER":150000,
+	"changeSmodsCost_DESTROYER":100000,
+	"changeSmodsCost_FRIGATE":75000,
+	
+	"militaryBaseSupportFleetRange":15,
+	"highCommandSupportFleetRange":10000,
+	"resupplyQuantityMult":1.5, # ought to change in tandem with the costs to maintain the rough value ratio
+	"resupplyFleetCostBase":[150000, 300000, 725000],
+	"taskForceCostBase":[2000000, 3000000, 4000000],
 	
 	#"salvageOwnWeaponProb":0.5;
 	#"salvageOwnWingProb":0.5;
@@ -765,18 +1001,22 @@
 	"colonyOverMaxPenalty":2,
 	
 	
-	# using Stats.OFFICER* instead 
-	#"officerMaxHireable":40, # at colonies throughout the Sector
-	#"officerMercFraction":0.25, # fraction of hireable officers that are mercs - fixed level, 2x salary, not subject to officer limit, require story points
-	
-	"officerBaseProb":0.1,
-	"officerProbPerColonySize":0.05,
-	"officerAdditionalBaseProb":0.1, # if rolled one officer, multiply probability by this and roll again
+	"officerMaxProb":0.9,
+	"officerBaseProb":0.2,
+	"officerProbPerColonySize":0.1, # per size above 3
+	"officerAdditionalBaseProb":0.33, # if rolled one officer, multiply probability by this and roll again
 	"officerBaseMercProb":0.25,
 	"adminBaseProb":0.05,
 	"adminProbPerColonySize":0.05,
-	"maxOfficerPromoteProb":0.1, # post-combat
-	"officerPromoteProbMult":0.2, # post-combat; multiplier applied to ratio of FP destroyed to player fleet FP
+	"maxOfficerPromoteProb":0.3, # post-combat
+	"officerPromoteProbMult":0.5, # post-combat; multiplier applied to ratio of FP destroyed to player fleet FP
+
+	"personnelOfficerMaxSkillsPatrolHQ":1,
+	"personnelOfficerMaxSkillsMilitaryBase":2,
+	"personnelOfficerMaxSkillsHighCommand":3,
+
+	"officerSkillChoicesBase":5,
+	"officerSkillChoicesMentored":8,
 	
 	"officerMercMinLevel":4,
 	"officerMercMaxLevel":6,
@@ -806,13 +1046,17 @@
 	"baseCombatShipsForMaxOfficerLevel":16, # halved when officer doctrine setting is maxed; not used for AI core using fleets
 	"officerAIMaxMercsMult":1, # maximum "over-the-limit" merc-type officers that can be added to an AI fleet, times doctrine officer setting
 	#"officerAIMercsStartingFP":100, # start adding more "merc" officers at this threshold; no longer used
-	"baseNumOfficers":8; # in a fleet w/o officer management skills
+	"baseNumOfficers":9; # in a fleet w/o officer management skills
 	
-	"crewSalary":10, # credits per crew per month
+	"shipSalaryBySize":[50, 50, 75, 150],
+	"crewSalary":5, # credits per crew per month
 	"marineSalary":20, # credits per marine per month
 	"officerSalaryBase":500, # per officer per month
 	"officerSalaryPerLevel":400, # per officer per month per level
 	
+	"officerActivateRequiresColony":true,
+	"officerSalaryInactiveMultIfRequiresColony":0.1,
+	"officerSalaryMultInPopulatedSystems":0.1,
 	
 	"baseRepairRateFrigate":10,
 	"baseRepairRateDestroyer":10,
@@ -903,10 +1147,12 @@
 	
 	"emergencyRepairsMaxDPValue":80;
 	
+	"planetExplosionWindupDur":4,
+	
 	# story point costs for things that cost more than one point
 	"historianSpecialItemBase":4, # doubles for each successive item 
 	"industryImproveBase":2,
-	"createStableLocation":2, 
+	"createStableLocation":2,
 	
 	# Bonus XP values for most story-point-using actions
 	"bonusXP":{
@@ -928,6 +1174,7 @@
 		
 		"hireMerc":1,
 		"convinceMerc":0,
+		"convinceOfficer":0.75,
 		
 		"recoverOwnedShip":1,
 		"recoverNoBonusXPDeploymentPoints":30, # 0% bonus XP at this cost or higher
@@ -997,6 +1244,13 @@
 		"lke_mazBarAgentRespSiyavong":1,
 		"lke_patherFleetSP":1,
 		"bffi_patherStationRuse":1,
+		"sd7s_toldMaeusDidntKillPericlesSP":1,
+		"sd7s_qarasAskPermKantaLie":1,
+		"sd7s_qarasJovePermWords":1,
+		"sd7s_gaEndTalkHercDontSneak":1,
+		"blanc_cryoAccountsMilLieSel":1,
+		"sd7s_herculesToRaoAsk3hegSureSP":1,
+		"sdse_hyderNeedTalkHectorSP":1,
 		
 		# other
 		"kpGiftFavor":1,
@@ -1005,6 +1259,8 @@
 		"pk_hackStory":1,
 		"LCP_notEnoughLie":1, # KoL fleet demanding supply tithe
 		"analyzeSubstrate":0,
+		"csf_instant":1,
+		"csf_extend":1,
 		
 	},
 	
@@ -1034,6 +1290,12 @@
 		"genericCombatPlugin":"com.fs.starfarer.api.impl.combat.GenericCombatPlugin",
 		"commRelayPlugin":"com.fs.starfarer.api.impl.campaign.skills.CommRelayScript",
 	},
+
+	# all the rule files that are loaded; same-ID rules within these files clash instead of overriding
+	"rules":[
+		"data/campaign/rules.csv",
+		"data/campaign/rules/askoniaCrisis2.csv",
+	],
 
 	# where rule commands called from rules.csv can be implemented.
 	# rules from multiple packages CAN NOT share the same name	
@@ -1159,6 +1421,8 @@
 			"mixed":"graphics/ui/sector_age_mixed.png",	
 			"small":"graphics/ui/sector_size_small.png",	
 			"normal":"graphics/ui/sector_size_normal.png",	
+			"normalMode":"graphics/ui/game_mode_normal.png",	
+			"extendedMode":"graphics/ui/game_mode_extended.png",	
 		},
 		"blueprint_packages":{
 			"low_tech_package":"graphics/icons/cargo/package_lowtech.png",
@@ -1209,6 +1473,7 @@
 			"cargoPods":"graphics/debris/cargo_pod_sheet1.png",
 			"campaignDerelictOverlay":"graphics/damage/ship_damage_over5.png",
 			"THEDUEL":"graphics/misc/the_duel.png",
+			#"holoAndrada":"graphics/misc/holo_andrada.png",
 			"threat_swarm_pieces":"graphics/ships/threat/threat_fragments.png",
 			"threat_swarm_glow":"graphics/fx/hit_glow.png",
 			"fragment_swarm":"graphics/damage/fragmentation.png",
@@ -1388,6 +1653,8 @@
 		"income_report":{
 			"fleet":"graphics/icons/reports/fleet24b.png",
 			"crew":"graphics/icons/reports/crew24.png",
+			"spacer_share":"graphics/icons/reports/crew24.png",
+			"postpone_retirement":"graphics/portraits/characters/doctor.png",
 			"marines":"graphics/icons/reports/marines24.png",
 			"officers":"graphics/icons/reports/officers24.png",
 			"outposts":"graphics/icons/reports/outposts24.png",
@@ -1469,6 +1736,7 @@
 			"magnus_cardona":"graphics/portraits/characters/magnus_cardona.png",
 			"robed_man":"graphics/portraits/characters/robed_man.png",
 			"dolos_macario":"graphics/portraits/characters/dolos_macario.png",
+			"dolos_macario2":"graphics/portraits/characters/dolos_macario2.png",
 			"horacio_caden":"graphics/portraits/characters/horacio_caden.png",
 			"oxana_hyder":"graphics/portraits/characters/oxana_hyder.png",
 			"curate_male":"graphics/portraits/characters/curate01.png",
@@ -1497,7 +1765,21 @@
 			"fortuna_kato":"graphics/portraits/characters/fortuna_kato.png",
 			"rivas":"graphics/portraits/characters/rivas.png",
 			"ga_recruiter":"graphics/portraits/characters/ga_recruiter.png",
-			
+			"simisola":"graphics/portraits/characters/simisola.png",
+			"hercules_andrada":"graphics/portraits/characters/hercules.png",
+			"hector_andrada":"graphics/portraits/characters/hector.png",
+			"hector_andrada2":"graphics/portraits/characters/hector2.png",
+			"achilles_andrada":"graphics/portraits/characters/achilles.png",
+			"achilles_andrada2":"graphics/portraits/characters/achilles2.png",
+			"gallu_blanc":"graphics/portraits/characters/gallu_blanc.png",
+			"maeus_moroz":"graphics/portraits/characters/maeus_moroz.png",
+			"bellamy_kanta":"graphics/portraits/characters/bellamy_kanta.png",
+			"ko_jove":"graphics/portraits/characters/ko_jove.png",
+			"benoit":"graphics/portraits/characters/benoit.png",
+			"crasis":"graphics/portraits/portrait_ai2.png",
+			"aureolin":"graphics/portraits/portrait_ai1.png",
+			"lott":"graphics/portraits/characters/lott.png",
+			"faro_inesis":"graphics/portraits/characters/faro_inesis.png",
 			
 			# unused right now
 			#"tt_fixer_MALE":"graphics/portraits/portrait_corporate03.png",
@@ -1510,6 +1792,8 @@
 			"planet_search_none":"graphics/ui/buttons/none22.png",
 			
 			"luddic_shrine":"graphics/icons/intel/luddic_shrine64.png",
+			"seven_sons":"graphics/icons/missions/seven_sons.png",
+			"seven_sons_intel":"graphics/icons/missions/seven_sons_intel.png",
 			
 			"gate_hauler":"graphics/icons/intel/gate_hauler.png",
 			"gate_inactive":"graphics/icons/intel/gate_inactive.png",
@@ -1533,6 +1817,9 @@
 			"tradeFleet_smuggling":"graphics/icons/intel/smuggling.png",
 			
 			"discovered_entity":"graphics/icons/intel/discovered_entity.png",
+			
+			"sd7s_irkalla":"graphics/icons/intel/sd7s_irkalla.png",
+			"sd7s_elysium":"graphics/icons/intel/sd7s_elysium.png",
 			
 			"beacon_low":"graphics/icons/intel/beacon_low.png",
 			"beacon_medium":"graphics/icons/intel/beacon_med.png",
@@ -1594,6 +1881,8 @@
 			"hypershunt":"graphics/icons/intel/log_coronal_tap2.png",
 			"wormhole":"graphics/icons/intel/wormhole.png",
 			
+			"support_fleet":"graphics/icons/intel/fleet_resupply.png",
+			"combat_fleet":"graphics/icons/intel/fleet_combat.png",
 			
 			"map_markers":[
 				"graphics/icons/intel/log_blue_circle.png",
@@ -1628,12 +1917,6 @@
 			"hostile_activity":"graphics/icons/markets/hostile_activity.png",
 			"hostile_activity_START":"graphics/icons/campaign/hostile_activity_start.png",
 			
-			#"hostile_activity_HA_1":"graphics/icons/campaign/hostile_activity1.png",
-			#"hostile_activity_HA_2":"graphics/icons/campaign/hostile_activity2.png",
-			#"hostile_activity_HA_3":"graphics/icons/campaign/hostile_activity3.png",
-			#"hostile_activity_HA_4":"graphics/icons/campaign/hostile_activity4.png",
-			#"hostile_activity_INCREASED_DEFENSES":"graphics/icons/campaign/increased_defenses.png",
-			
 			"luddic_majority_unhappy":"graphics/icons/markets/luddic_majority_unhappy.png",
 			
 			
@@ -1652,6 +1935,19 @@
 			"piracy_respite":"graphics/icons/campaign/respite.png",
 			"established_polity":"graphics/icons/markets/established_polity.png",
 			"new_league_member":"graphics/icons/markets/league_member.png",
+			
+			"sd_resolution":"graphics/icons/missions/supreme_executor.png",
+			"sd_resolution_imminent_attack_hector":"graphics/icons/intel/achilles_defeat_warning.png",
+			"sd_resolution_imminent_attack_achilles":"graphics/icons/intel/hector_defeat_warning.png",
+			"sd_resolution_stage":"graphics/icons/missions/supreme_executor.png",
+			
+			"sd_devastation":"graphics/icons/intel/sd_devastation.png",
+			"sd_devastation_START":"graphics/icons/intel/sd_devastation1.png",
+			"sd_devastation_LEVEL_1":"graphics/icons/intel/sd_devastation2.png",
+			"sd_devastation_LEVEL_2":"graphics/icons/intel/sd_devastation3.png",
+			"sd_devastation_LEVEL_3":"graphics/icons/intel/sd_devastation4.png",
+			"sd_devastation_LEVEL_4":"graphics/icons/intel/sd_devastation5.png",
+			"sd_devastation_FINAL":"graphics/icons/intel/sd_devastation6.png",
 		},
 		"raidObjectives":{  # icons displayed at 26x26
 			"gaData":"graphics/icons/raid_objective.png",
@@ -1871,6 +2167,12 @@
 			"coronal_tap2":"graphics/illustrations/coronal_tap2.jpg",
 			"cryosleeper_interior":"graphics/illustrations/cryosleeper_interior.jpg",
 			"generic_probe":"graphics/illustrations/generic_probe.jpg",
+			"cruor":"graphics/illustrations/cruor.jpg",
+			"base_interior":"graphics/illustrations/base_interior.jpg",
+			"distant_asteroid":"graphics/illustrations/distant_asteroid.jpg",
+			"elysium":"graphics/illustrations/elysium.jpg",
+			"marines_space_op":"graphics/illustrations/marines_space_op.jpg",
+			"committee":"graphics/illustrations/committee.jpg",
 		},
 		"ui":{
 			"generate_ship_name":"graphics/ui/random23.png",
@@ -1944,6 +2246,7 @@
 			
 			"icon_tactical_bdeck":"graphics/icons/tactical/bdeck.png",
 			"icon_tactical_reality_disruptor":"graphics/icons/tactical/reality_disrupted.png",
+			"icon_tactical_plasma_burn":"graphics/icons/hullsys/plasma_burn.png",
 			# ship status list icons end
 			
 			"icon_kinetic":"graphics/ui/icons/damagetype_kinetic.png",
@@ -2256,7 +2559,7 @@
 			
 		},
 		"weaponSkinsExcludeFromSharing":{
-		},		
+		},
 	}
 }
 

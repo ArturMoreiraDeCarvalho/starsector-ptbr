@@ -1,14 +1,18 @@
 package data.hullmods;
 
-import java.awt.Color;
 import java.util.HashMap;
 import java.util.Map;
 
+import java.awt.Color;
+
+import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.BaseHullMod;
 import com.fs.starfarer.api.combat.MutableShipStatsAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.ShipAPI.HullSize;
 import com.fs.starfarer.api.impl.campaign.ids.HullMods;
+import com.fs.starfarer.api.impl.campaign.ids.Stats;
+import com.fs.starfarer.api.ui.TooltipMakerAPI;
 import com.fs.starfarer.api.util.Misc;
 
 public class SafetyOverrides extends BaseHullMod {
@@ -30,14 +34,17 @@ public class SafetyOverrides extends BaseHullMod {
 //	}
 	
 	//private static final float PEAK_MULT = 0.3333f;
-	private static final float PEAK_MULT = 0.33f;
+	private static float PEAK_MULT = 0.33f;
 	//private static final float CR_DEG_MULT = 2f;
 	//private static final float OVERLOAD_DUR = 50f;
-	private static final float FLUX_DISSIPATION_MULT = 2f;
+	private static float FLUX_DISSIPATION_MULT = 2f;
 	//private static final float FLUX_CAPACITY_MULT = 1f;
 	
-	private static final float RANGE_THRESHOLD = 450f;
-	private static final float RANGE_MULT = 0.25f;
+	private static float RANGE_THRESHOLD = 450f;
+	private static float RANGE_MULT = 0.25f;
+	
+	private static float CREW_LOSS = Global.getSettings().getFloat("safetyOverridesExtraCrewLoss");
+	private static float SALARY_MULT = 2f;
 	
 	//private static final float RECOIL_MULT = 2f;
 	//private static final float MALFUNCTION_PROB = 0.05f;
@@ -63,8 +70,34 @@ public class SafetyOverrides extends BaseHullMod {
 		
 //		stats.getMaxRecoilMult().modifyMult(id, 1.5f);
 //		stats.getRecoilPerShotMult().modifyMult(id, RECOIL_MULT);
+		
+		if (CREW_LOSS > 0f) {
+			stats.getDynamic().getMod(Stats.SAFETY_OVERRIDES_CREW_LOSS_MOD).modifyFlat(id, CREW_LOSS);
+		}
+		if (SALARY_MULT != 1) {
+			stats.getDynamic().getStat(Stats.SHIP_CREW_SALARY_MULT).modifyMult(id, SALARY_MULT);
+		}
 	}
 	
+	
+	@Override
+	public void addPostDescriptionSection(TooltipMakerAPI tooltip, HullSize hullSize, ShipAPI ship, float width,
+			boolean isForModSpec) {
+
+		if (CREW_LOSS > 0f) {
+			if (SALARY_MULT > 0) {
+				tooltip.addPara("Crew casualties during combat are increased, even if the ship has not taken "
+						+ "any hull damage. Hazard pay increases monthly crew salaries by %s", 10f, Misc.getHighlightColor(), 
+						"" + (int) Math.round((SALARY_MULT - 1f) * 100f) + "%");
+			} else {
+				tooltip.addPara("Crew casualties during combat are increased, even if the ship has not taken "
+						+ "any hull damage.", 10f);			
+			}
+		}
+	}
+
+
+
 	public String getDescriptionParam(int index, HullSize hullSize) {
 		if (index == 0) return "" + ((Float) speed.get(HullSize.FRIGATE)).intValue();
 		if (index == 1) return "" + ((Float) speed.get(HullSize.DESTROYER)).intValue();

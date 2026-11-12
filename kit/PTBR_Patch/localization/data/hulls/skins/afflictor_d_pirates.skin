@@ -14,7 +14,7 @@
 	"spriteName":"graphics/ships/afflictor/afflictor_d_pirates.png",
 	"removeWeaponSlots":["WS 001", "WS 004"], 		# ids
 	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
-	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInMods":["missleracks"], # hullmod ids
 	"removeBuiltInWeapons":[], 		# weapon slot ids
 	"builtInWeapons":{
     },

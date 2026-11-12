@@ -1,0 +1,216 @@
+{
+ "chunk": 321,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "global.murderedCloneLoke = true",
+   "ctx": "data/campaign/rules.csv DEVkantasDenSelD [text]"
+  },
+  {
+   "i": 2,
+   "en": "added 1 to player.kantaBluffs count, it is now $player.kantaBluffs",
+   "ctx": "data/campaign/rules.csv DEVkantasDenSelEb [text]"
+  },
+  {
+   "i": 3,
+   "en": "player.everHadKantaProtection = true done",
+   "ctx": "data/campaign/rules.csv DEVkantasDenSelF [text]"
+  },
+  {
+   "i": 4,
+   "en": "The vid feed flickers to life, a wash of static and audio distortion receding as your datapad adjusts for outdated comm protocols. The portking of Kanta's Den appears before you with all of $hisOrHer singular charm.\r\n\r\n\"You blasted, bloody rad-addled fool! You think you can vac-drop the Warlord's pet then just dance yourself back into her home? Them is some brassies you've got $playerName, but you got 'em instead of brains. I almost respect it.\"\r\n\r\n$HeOrShe spits, the projectile appearing to land on $hisOrHer own control interface. \"But only almost. Meantime, I'll be sittin' and smilin' watching all Kanta's underbosses fight for the chance to slag your flagship.\"",
+   "ctx": "data/campaign/rules.csv KDSKgreetingMurderedLoke [text]"
+  },
+  {
+   "i": 5,
+   "en": "After an exceptionally rude gesture, the comms are cut.",
+   "ctx": "data/campaign/rules.csv KDSKgreetingMurderedLoke2 [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"Yeah, who're you?\" $personName snarls before glancing at a grimy datapad. \"Guess you're nobody, huh.\"",
+   "ctx": "data/campaign/rules.csv KDSKgreeting2a [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Yeah, who're you?\" $personName snarls before bothering to glance at a grimy datapad.\r\n\r\n\"Ah,\" $hisOrHer demeanor shifts hostility down several levels. \"You again. Right, right.\"",
+   "ctx": "data/campaign/rules.csv KDSKgreeting2b [text]"
+  },
+  {
+   "i": 8,
+   "en": "$PersonName gives you an imperious look. \r\n\r\n\"And just what makes you think you can show your rotten vis on my comms and ask for Queen K?\"",
+   "ctx": "data/campaign/rules.csv KDSKaskToMeetKantaSel [text]"
+  },
+  {
+   "i": 9,
+   "en": "The vid feed flickers to life, a wash of static and audio distortion receding as your datapad adjusts for outdated comm protocols.\r\n\r\n",
+   "ctx": "data/campaign/rules.csv kdSKConvoStart [text]"
+  },
+  {
+   "i": 10,
+   "en": "You leave four guards and the pilot with your shuttle. Two more guards follow you. A pirate enforcer gives you an unpleasant look and steps directly into your path.\r\n\r\nThey begin in a surprisingly conciliatory tone, \"Look friend, Kanta won't be seeing you this time. The warlord only speaks when there's real big business to talk. If you're not family or lord an' master of your own planet, might as well give up.\" \r\n\r\n\"Give the bars a visit, get destroyed, have some fun. Market's open, or the docks. I won't even make trouble about your transponder being on.\"\r\n\r\nThey smile crookedly.",
+   "ctx": "data/campaign/rules.csv kdLandingDeniedTransponder [text]"
+  },
+  {
+   "i": 11,
+   "en": "You get a regretful look.\r\n\r\n\"Like I said, it's only happening if you're family or overlord of your own little corner of the corpse of the Sector. Them's the rules.\"",
+   "ctx": "data/campaign/rules.csv kdLandingDeniedMust [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"Naw, friend.\"\r\n\r\nThey glance over a shoulder at a squad of heavily armed ruffians lounging around an enormous armored door inscribed with a skull motif.\r\n\r\n\"But they will.\"",
+   "ctx": "data/campaign/rules.csv kdLandingDeniedStopMe [text]"
+  },
+  {
+   "i": 13,
+   "en": "You can almost pick out a pattern of relations in their faces - this is a family business - and in their anarchic uniforms.\r\n\r\nThey're bedecked in prizes, modified combat armor plated with gold and gems, stolen high-end vacsuits redone in off-brand colors, Tri-Tachyon neck-scarves crudely knotted; ostentatious luxury wear.\r\n\r\nThe pirates wear their wealth on the outside, the more garish the better.",
+   "ctx": "data/campaign/rules.csv kdKantaFirstIntro1 [text]"
+  },
+  {
+   "i": 14,
+   "en": "If a broken atmo scrubber could laugh, it might sound like the noise that comes from Kanta. \r\n\r\n\"A stander!\" she shouts.\r\n\r\nYou note that her guards remain relaxed. \"We like you. A heggie would kneel in the mud because all they know is following and groveling. You stand like a spacer.\"\r\n\r\nHer head tracks you. \"Kanta will hear you.\"",
+   "ctx": "data/campaign/rules.csv kdKantaFirstIntro4stand [text]"
+  },
+  {
+   "i": 15,
+   "en": "Cydonia nods stiff-necked, the tiniest hint of a bow, then addresses you before the entire court.\r\n\r\n\"You've come crawling to her worshipfulness,\" he turns, projecting a piercing voice to all corners. \"The mighty Warlord Kanta; the predator of the Persean Sector; the font of violence from which we quench our thirst for glory,\" then spins back toward you with surprising agility.\r\n\r\n\"Why are YOU here? Too feeble to protect your own $shipOrFleet? Perhaps,\" his voice drops to almost a whisper, \"it is something else?\"",
+   "ctx": "data/campaign/rules.csv kdKantaAudienceIn [text]"
+  },
+  {
+   "i": 16,
+   "en": "Cydonia nods stiff-necked, the tiniest hint of a bow, then addresses you before the entire court.\r\n\r\n\"You've come crawling to her worshipfulness,\" he turns, projecting a piercing voice to all corners. \"The mighty Warlord Kanta; the predator of the Persean Sector; the font of violence from which we quench our thirst for glory,\" then spins back toward you with surprising agility.\r\n\r\n\"Why are YOU here? Could you not protect your own outposts? Perhaps,\" his voice drops to almost a whisper, \"it is something else?\"",
+   "ctx": "data/campaign/rules.csv kdKantaAudienceInColNoProt [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"You dare return here $playerName!\" shouts the Doctor Cydonia, spittle flying. \"You stole Zal from us! Her clever little tinkerer, her asset, her prize.\" \r\n\r\nHe seethes, nearly hyperventilating, \"H-how dare you!\"",
+   "ctx": "data/campaign/rules.csv kpAudience1StoleZal [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"You dare return here $playerName!\" shouts Doctor Cydonia. \"After daring to attack the citadel of our dear warlord! Her home, her family! You stole Zal from us! Her clever little tinkerer, her asset, her prize.\" \r\n\r\nHe seethes, nearly hyperventilating, \"H-how dare you!\"",
+   "ctx": "data/campaign/rules.csv kpAudience1StoleZalRaid [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"Captain $playerName!\" He turns, projecting a piercing voice to all corners. \"It has been heard by the many ears of our Queen that you believe your every act, from one end of the Sector to the other, is done in Kanta's name already!\"\r\n\r\n\"Did you not claim to be 'working for' our dear warlord?\" The small man strains and sweats as he accuses you. \"Did not her fear-inspiring name cross your lips... without her permission? Do you presume, captain, to know the will of our mighty-\"\r\n\r\nWith the sound of grating metal, Cydonia's tirade is cut off. The Warlord Kanta stands up on armored mechanical legs. There's a thrashing, banging sound.",
+   "ctx": "data/campaign/rules.csv kdKantaAudience1Bluffs [text]"
+  },
+  {
+   "i": 20,
+   "en": "The court murmurs, heavy boots shuffle; you hear the distinct click-clank of a heavy kinetic round being chambered; it is inadvisable weapons handling practice within a sealed environment at the best of times.\r\n\r\nThere is hatred among the pirates, you see, and Cydonia is stirring it against you.",
+   "ctx": "data/campaign/rules.csv kpAudience1StoleZal2 [text]"
+  },
+  {
+   "i": 21,
+   "en": "There is dark murmuring from the crowd of pirates as they jostle, metallic clinks and scrapes coming from their brazenly displayed weapons and combat armor.\r\n\r\nKanta's metal body hisses on her throne, patient as a landmine. Cydonia glares at you then leans over to whisper something to some pirate sergeant. The pirate makes a face as he catches himself pulling away from Cydonia.",
+   "ctx": "data/campaign/rules.csv kdKantaAudienceHubFromKPpres [text]"
+  },
+  {
+   "i": 22,
+   "en": "There is murmuring from the crowd of pirates as they jostle, metallic clinks and scrapes coming from their brazenly displayed weapons and combat armor.",
+   "ctx": "data/campaign/rules.csv kdKantaAudienceHubFromKP [text]"
+  },
+  {
+   "i": 23,
+   "en": "The comm-link connects to the office of Fortuna Kato.\r\n\r\nA liveried secretary politely takes your request for audience, then thanks you for your patience.",
+   "ctx": "data/campaign/rules.csv FortunaKatoDefaultGreeting [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"If it isn't Captain $PlayerName,\" Fortuna says, appearing at the instant you hear her voice.",
+   "ctx": "data/campaign/rules.csv FortunaKatoDefaultGreetingDefault [text]"
+  },
+  {
+   "i": 25,
+   "en": "Fortuna appears.\r\n\r\n\"$TitlePL $PlayerName. I expect to see you soon at Yesod.\"\r\n\r\n\"Perhaps we will speak further after your conversation with Achilles,\" she says.",
+   "ctx": "data/campaign/rules.csv SDSEFortunaKatoGreetingToAchilles [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"If it isn't Captain $PlayerName,\" Fortuna says, appearing at the instant you hear her voice.\r\n\r\n\"I trust Horus Yaribay is well?\"",
+   "ctx": "data/campaign/rules.csv FortunaKatoDefaultGreetingHorus [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"If it isn't Captain $PlayerName,\" Fortuna says, appearing at the instant you hear her voice. \"I trust you are attending to your own business, as I am to mine.\"",
+   "ctx": "data/campaign/rules.csv FortunaKatoDefaultGreetingNeutral [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"If it isn't Captain $PlayerName,\" Fortuna says, appearing at the instant you hear her voice.\r\n\r\n\"I trust Reynard Hannan is well?\"\r\n\r\nIt does not sound like an earnest inquiry, somehow.",
+   "ctx": "data/campaign/rules.csv FortunaKatoDefaultGreetingReynard [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"If it isn't Captain $PlayerName,\" Fortuna says, an edge already in her voice.\r\n\r\n\"I trust your newfound patron, Reynard Hannan, is well?\"\r\n\r\nShe smirks, then adds \"You will learn soon enough how well you deserve one another.\"",
+   "ctx": "data/campaign/rules.csv FortunaKatoDefaultGreetToReynardA [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"If it isn't Captain $PlayerName,\" Fortuna says, an edge already in her voice.\r\n\r\n\"I trust your newfound patron, Reynard Hannan, is paying you well?\"\r\n\r\nShe smirks, then adds \"You will learn soon enough just how you deserve one another.\"",
+   "ctx": "data/campaign/rules.csv FortunaKatoDefaultGreetToReynardB [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"If it isn't Captain $PlayerName,\" Fortuna says, a distinct edge in her voice.\r\n\r\n\"I was disappointed to hear of your support for Horus Yaribay's nearly treasonous scheme - in direct contradiction to the agreement you and I came to on Yesod.\"\r\n\r\nShe raises an eyebrow. \"Oh yes - I know about it. Horus should count himself lucky that I am so fond of him, and so patient. I shudder to think how it would look if the All-League Council were to hear of his... pursuits.\"\r\n\r\n\"Watch yourself, captain,\" she says.",
+   "ctx": "data/campaign/rules.csv FortunaKatoDefaultGreetToHorusA [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"If it isn't Captain $PlayerName,\" Fortuna says, a distinct edge in her voice.\r\n\r\n\"I was disappointed to hear of your support for Horus Yaribay's nearly treasonous scheme - in direct contradiction to the agreement you and I came to on Yesod, however purely mercenary it was.\"\r\n\r\nShe raises an eyebrow. \"Oh yes - I know about it. Horus should count himself lucky that I am so fond of him, and so patient. I shudder to think how it would look if the All-League Council were to hear of his... pursuits.\"\r\n\r\n\"Watch yourself, captain,\" she says.",
+   "ctx": "data/campaign/rules.csv FortunaKatoDefaultGreetToHorusB [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"If it isn't Captain $PlayerName,\" Fortuna says, appearing at the instant you hear her voice. Her tone contains more than a touch of acid.\r\n\r\n\"I trust Reynard Hannan is more than pleased with your conspiracy of self-serving fools.\"",
+   "ctx": "data/campaign/rules.csv FortunaKatoDefaultGreetingReynardB [text]"
+  },
+  {
+   "i": 34,
+   "en": "\"Yes, a good day to you.\"\r\n\r\nHorus Yaribay glances over you.\r\n\r\n\"I believe we just spoke, did we not? Have we further business?\"",
+   "ctx": "data/campaign/rules.csv HorusGreetingDefaultAgain [text]"
+  },
+  {
+   "i": 35,
+   "en": "\"Why $titlePL, it is you, isn't it.\"\r\n\r\nHorus Yaribay gives you a glance through the comms without quite his full attention.\r\nOR\r\nHorus Yaribay gives you a glance through the comms without quite his full attention.\r\n\r\n\"Ah, $titlePL. Have we some business?\"",
+   "ctx": "data/campaign/rules.csv HorusGreetingKnown [text]"
+  },
+  {
+   "i": 36,
+   "en": "\"$TitlePL, of course. Welcome back to Kazeron.\"\r\n\r\nHorus Yaribay looks over you through the comms.\r\nOR\r\n\"Greetings of Kazeron, $titlePL,\" Horus Yaribay says. \"Have we matters of import to discuss?\"",
+   "ctx": "data/campaign/rules.csv HorusGreetingContact [text]"
+  },
+  {
+   "i": 37,
+   "en": "\"Good day $titlePL, you have returned.\"\r\n\r\nHorus Yaribay looks over you through the comms.\r\n\r\n\"Do we have further matters to discuss?\"",
+   "ctx": "data/campaign/rules.csv HorusGreetingContactAgain [text]"
+  },
+  {
+   "i": 38,
+   "en": "He hesitates, then says, \"I have not yet heard from High Hegemon Daud. I presume you are still to make contact using the credentials I have provided, as per our agreement.\" \r\n\r\nHorus gives you another look, one that could be interpreted somewhat uncharitably. \"I shall wait with the greatest patience.\"",
+   "ctx": "data/campaign/rules.csv HorusPostGAATGnoDealNag [text]"
+  },
+  {
+   "i": 39,
+   "en": "\"Yes... yes, of course.\" He turns aside, makes a shoo motion, then returns his focus to you.\r\n\r\n\"As I understand it, a version of these so-called ANDRADA files was released to the Council of Demarchons. I am not, strictly speaking, supposed to have access to them...\"",
+   "ctx": "data/campaign/rules.csv SD7SyaribayDiscussStartSel [text]"
+  },
+  {
+   "i": 40,
+   "en": "\"As a gentleman,\" he speaks deliberately. \"I would not besmirch the good name of the Coucil of Demarchons by implying the files were leaked by one of their esteemed class.\"\r\n\r\n\"Having said that, my understanding is that certain of the files were redacted per the privilege of the Prime Demarchon's office.\"\r\n\r\nHe glances away.\r\n\r\n\"Reynard moved more quickly than I expected. I had thought the files could be introduced without objection to the council during a quiet moment...\"",
+   "ctx": "data/campaign/rules.csv SD7SyaribayDiscussStart2 [text]"
+  },
+  {
+   "i": 41,
+   "en": "\"Of course,\" he says. \"I would never suggest you do otherwise.\"",
+   "ctx": "data/campaign/rules.csv SD7SyaribayDiscussStart3 [text]"
+  },
+  {
+   "i": 42,
+   "en": "\"You have my thanks, $titlePL.\"\r\n\r\nHe nods, not quite a bow.\r\n\r\n\"As a gentleman,\" he speaks deliberately. \"I would not besmirch the good name of the Coucil of Demarchons by implying the files were leaked by one of their esteemed class.\"\r\n\r\n\"Having said that, my understanding is that certain of the files were redacted per the privilege of the Prime Demarchon's office.\"\r\n\r\nHe glances away.\r\n\r\n\"Reynard moved more quickly than I expected. I had thought the files could be introduced without objection to the council during a quiet moment...\"",
+   "ctx": "data/campaign/rules.csv SD7SyaribayDiscussStartGive [text]"
+  }
+ ]
+}

@@ -39,7 +39,7 @@ public class TiaTaxet {
 		PlanetAPI tia_star = system.initStar("tia", // unique id for this star 
 											StarTypes.ORANGE_GIANT,  // id in planets.json
 										    950f, 		  // radius (in pixels at default zoom)
-										    200); // corona radius, from star edge
+										    400); // corona radius, from star edge
 		
 		system.setLightColor(new Color(255, 230, 200)); // light color in entire system, affects all entities
 		
@@ -52,6 +52,9 @@ public class TiaTaxet {
 												0, 400, 1600, 30);
 		system.setSecondary(taxet_star);
 		system.setType(StarSystemType.BINARY_FAR);
+		
+		system.addCorona(taxet_star, 200f, 3f, 0f, 0.5f);
+		
 		/*
 		SectorEntityToken taxet_star_field = system.addTerrain(Terrain.MAGNETIC_FIELD,
 				new MagneticFieldParams(taxet_star.getRadius() + 160f, // terrain effect band width 

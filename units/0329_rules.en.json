@@ -1,0 +1,211 @@
+{
+ "chunk": 329,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"Ah, the deluxe.\" An attempt at a pleasant expression creaks into being on his face.\r\n\r\n\"This is the full-body option. We provide a custom-tuned cryosarcophagus which, I must note, is a far more sophisticated piece of equipment than the standard emergency survival tube spacefarers are familiar with. And it is not quite infinitely more reliable than the crude, mass-fabricated things many of our own ancestors were lucky enough to survive on their journey to the Persean Sector.\"\r\n\r\nYou'd swear Blanc is nearly enthusiastic about the subject.\r\n\r\n\"We guarantee a slot in our top-of-the-line cryorevival facilities and provide enhanced recuperation procedures. As we like to say, 'Your future self will feel younger than you do today'.\"\r\n\r\nHe smiles, teeth like dead ivory.",
+   "ctx": "data/campaign/rules.csv BlancTalkCryoPackageDeluxe [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"You have exceptional taste, I can tell, captain,\" Blanc says, eyes widening slightly.\r\n\r\n\"If you provide us with a budget of, perhaps, five million credits, you will be treated as though you were one of the legendary immortal monarchs of Old Earth.\"\r\n\r\n\"The custom-tuned cryosarcophagus and top-of-the-line cryomedical monitoring team - rotated and replaced throughout your stay - come without question. Your awakening, a kind of second birth, would be attended by the finest care that the investments Mbaye-Gogol has made into the future of human health can provide.\"\r\n\r\n\"Many of our Directors have themselves made a... similar decision.\"",
+   "ctx": "data/campaign/rules.csv BlancTalkCryoPackageBest [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"Very well, Captain $playerName. We shall make the arrangements...\"",
+   "ctx": "data/campaign/rules.csv BlancTalkCryoPackageBudgetSel [text]"
+  },
+  {
+   "i": 4,
+   "en": "You step off the shuttle, thrusters clicking as they cool, followed by Scylla Coureuse - with Gargoyle in tow.\r\n\r\nThe hacker's barrage of questions and suggestions has you at the limit of your patience after only a brief trip. Thankfully, Scylla Coureuse has served as an admirable buffer for their mercurial attention; she is able to speak endlessly, if haltingly, about arcane physics processes and tangents thereof.\r\n\r\n",
+   "ctx": "data/campaign/rules.csv gaKAFCreturnToAcademy2 [text]"
+  },
+  {
+   "i": 5,
+   "en": "As promised, Provost Baird is waiting with a small group of masked guards and senior advisors. Academician Sebestyen waves as your gaze drifts over him.\r\n\r\n\"It is so good to have you back with us, Scylla,\" says Baird. She turns aside, expression cool. \"And this is Gargoyle.\"",
+   "ctx": "data/campaign/rules.csv gaKAFCreturnToAcademy3 [text]"
+  },
+  {
+   "i": 6,
+   "en": "Coureuse nods to Baird's words, and looks around the reception lounge. \"It hasn't changed much,\" she says quietly.\r\n\r\nSomething in this doesn't please the provost, you think. \r\n\r\nGargoyle takes this opportunity to step into the lull, and bows grandly. \"Anahita, we meet at last!\"\r\n\r\nBaird smiles mirthlessly, then turns back to Coureuse. \"I believe you'll find that quite a lot has changed. Academician Alviss Sebestyen, please come forward- thank you. I understand that you knew Scylla back- \" at his vigorous nod, she says \"Yes, of course.\"",
+   "ctx": "data/campaign/rules.csv gaKAFCreturnToAcademy4 [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Gargoyle, meet Academician Alviss Sebestyen,\" Baird says in a tone that would not be out of place on the bridge of a Hegemony warship.\r\n\r\n\"Alviss, kindly show Gargoyle to the guest suite we've prepared, and the newly reinstated Academician Coureuse to her quarters - then to her the new laboratory. Now, please.\"\r\n\r\nShe pauses, uncharacteristically, then speaks.\r\n\r\n\"Scylla, I hope you can thrive here. Again. Please... keep an open mind.\"",
+   "ctx": "data/campaign/rules.csv gaKAFCreturnToAcademy5 [text]"
+  },
+  {
+   "i": 8,
+   "en": "With a sigh, Baird turns from them to you.\r\n\r\n\"Captain. Thank you for bringing her home,\" the provost watches the three leave the receiving lounge. Gargoyle appears to have chosen to cooperate with Sebestyen's stammering appeals; the hacker seems wholly occupied by discovering how to fluster the academician. And Coureuse is finally beginning to smile at these antics. \r\n\r\n\"With Scylla, we can begin it all again.\"\r\n\r\nBaird holds up a hand to indicate an adjoining transport pod, \"Let us remove to a more suitable setting for the continuation of our discussion.\"",
+   "ctx": "data/campaign/rules.csv gaKAFCreturnToAcademy6 [text]"
+  },
+  {
+   "i": 9,
+   "en": "Baird looks over. \"They suspect me already, of course.\"\r\n\r\n\"The Galatia Academy will appeal the original data seizure and demand the return of basic scientific research materials- which is not illegal under even old Domain law. 'This data breach only proves the danger of restricting basic research as this situation enables unsavory parties to exploit discoveries without oversight from the ecumenica'.\"\r\n\r\n\"I appreciate the irony of my objection, of course. But this is war by public relations: there is no room for scruples. I'll be exactly as cynical as they already believe me to be, and they'll believe the act because it is true.\" As Baird speaks, you find a note of satisfaction in her description of plot and counter-plot. \"Behind that truth of course,\" she continues, \"Is what really happened. Which shall be a fait accompli once they discover it, and one too embarrassing to publicize.\" ",
+   "ctx": "data/campaign/rules.csv GAKAFCBairdHubAsel [text]"
+  },
+  {
+   "i": 10,
+   "en": "You follow Provost Baird into her office, and the doors close with a notable absence of sound. She motions you to a seat in front of her desk.\r\n\r\n\"Captain, allow me to properly compensate you for your good work. You've brought me two valuable assets today.\" She taps a command and your personal datapad pings in response. \"I trust this will help cover certain of your expenses.\"\r\n\r\nBaird unlocks her desk interface and enters some commands; your personal datapad pings twice in response.",
+   "ctx": "data/campaign/rules.csv gaKAFCreturnToAcademy9 [text]"
+  },
+  {
+   "i": 11,
+   "en": "Baird taps at her interface, and the office holo-projector begins to glow. Her face illuminated by the image floating before you.\r\n\r\n\"She seems to be settling in,\" Baird says, watching what appears to be the feed from a gleaming new physics laboratory. Coureuse is being introduced by Sebestyen to various academicians, judging by their formal dress, and technicians in various states of protective garb. They look young and eager to begin work.\r\n\r\nSebestyen looks up, seeming to make eye contact with you - a subjective effect from the projector. He taps something on the datapad he's holding.",
+   "ctx": "data/campaign/rules.csv gaKAFCreturnToAcademy10 [text]"
+  },
+  {
+   "i": 12,
+   "en": "Baird's interface pings, and she taps a response.\r\n\r\nA small cluster of documents join the surveillance feed, detailed reports on Gargoyle's activities hanging in the air, including a time-table for decrypting the Kallichore Archive.\r\n\r\n\"Sebestyen is more capable than he appears. He is both persistent and meticulous, as you can see.\"",
+   "ctx": "data/campaign/rules.csv gaKAFCreturnToAcademy11 [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"Greetings $playerSirOrMadam,\" $Rank $personLastName says with a salute.\r\n\r\n\"If you require additional officers for your fleet operations I'm prepared to review some of our most promising candidates for your approval.\" ",
+   "ctx": "data/campaign/rules.csv personnelOfficerGreeting [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"Greetings $playerSirOrMadam. I've located a few promising officer candidates and provided you with their comms IDs so you can find them in the local comm directory.\"\r\n\r\nA pause, and then $heOrShe helpfully adds, \"They're ready to be interviewed at your convenience.\"",
+   "ctx": "data/campaign/rules.csv personnelOfficerGreetingTooSoon [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"Naturally,\" $heOrShe says.\r\n\r\n\"What sort of disposition did you have in mind, $playerSirOrMadam?\"",
+   "ctx": "data/campaign/rules.csv personnelOfficerLookForOfficersSel [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"Understood.\" $HeOrShe taps on a TriPad, then looks up. \r\n\r\n\"If you had particular skills in mind, I can further filter the candidate pool...\"",
+   "ctx": "data/campaign/rules.csv PersonnelOfficerPersonalityPicked [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"Excellent. I think I have a few candidates that may fulfill your requirements. I'll forward their comms IDs to your TriPad so you can find them in the local comm directory and perform interviews at your leisure.\"\r\n\r\n\"It's always a pleasure to place good talent, $playerSirOrMadam.\"",
+   "ctx": "data/campaign/rules.csv PersonnelOfficerPicksMade [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"Greetings $playerSirOrMadam,\" $personName gives you a snappy salute.\r\n\r\n\"Would you like to order deployment of a resupply mission or combat task force?\"",
+   "ctx": "data/campaign/rules.csv CSFdefaultGreeting [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"Pleasure to see you again, $playerSirOrMadam,\" $personName gives you another salute.\r\n\r\n\"Would you like to order deployment of a resupply mission or combat task force?\"",
+   "ctx": "data/campaign/rules.csv CSFdefaultGreetingAgain [text]"
+  },
+  {
+   "i": 20,
+   "en": "Your $post explains that $heOrShe can assemble a task force for either a combat or support mission profile then have the fleet dispatched to a system of your choosing. There it will meet you at the standard rendezvous: the inner system jump-point.\r\n\r\nThere are expenses to consider when assembling and outfitting such a fleet, of course.",
+   "ctx": "data/campaign/rules.csv CSFcallInFromBaseSel [text]"
+  },
+  {
+   "i": 21,
+   "en": "There's a short delay as your comms officer corrects for time-space distortion between your $shipOrFleet and your command-control center.\r\n\r\n\"Secure hyperwave link established, captain,\" comms reports. \"Encryption is green, line open. What are your orders?\"",
+   "ctx": "data/campaign/rules.csv CallSupportFleetBeginFromRelay [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"Yes $playerSirOrMadam,\" your comms officer says with a nod.",
+   "ctx": "data/campaign/rules.csv CallSupportFleetReturnCommRelay [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"Of course, $playerSirOrMadam,\" $heOrShe says with flawless professional grace.",
+   "ctx": "data/campaign/rules.csv CallSupportFleetReturnPerson [text]"
+  },
+  {
+   "i": 24,
+   "en": "You can order a support fleet to bring any needed crew, fuel, and supplies based on an assessment of your fleet's current needs prepared by your quartermaster.",
+   "ctx": "data/campaign/rules.csv CallSupportFleetPickSize1 [text]"
+  },
+  {
+   "i": 25,
+   "en": "A combat task force will assist your $shipOrFleet in battle in the target system. The fleet can be ordered to follow your own $shipOrFleet or hold a given position.",
+   "ctx": "data/campaign/rules.csv CallSupportFleetPickSize2 [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"Acknowledged, $playerSirOrMadam,\" your quartermaster salutes then defers to your navigation officer, who asks \"Where shall we meet the support fleet, captain?\"\r\n\r\nA star chart unfolds in the primary bridge display.\r\n\r\nThere's a baseline cost to send out a fleet and, of course, additional expense the further the destination is from one of your military bases.",
+   "ctx": "data/campaign/rules.csv CallSupportFleetPickTargetSupport [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"Understood, $playerSirOrMadam. Where do you want to send the task force?\" \r\n\r\nA star chart unfolds in the primary bridge display.\r\n\r\nThere's a baseline cost to send out a fleet and, of course, additional expense the further the destination is from one of your military bases.",
+   "ctx": "data/campaign/rules.csv CallSupportFleetPickTargetCombat [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"Understood, $playerSirOrMadam.\" \r\n\r\n\"Where do you want the resupply fleet to meet you, captain?\" $HeOrShe pulls up a star chart in your shared comms-display workspace.\r\n\r\nThere's a baseline cost to send out a fleet and, of course, additional expense the further the destination is from one of your military bases.",
+   "ctx": "data/campaign/rules.csv CallSupportFleetTargetSupportBase [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"Understood, $playerSirOrMadam.\" \r\n\r\n\"Where do you want to send the task force, captain?\" $heOrShe asks, pulling up a star chart in your shared comms-display workspace.\r\n\r\nThere's a baseline cost to send out a fleet and, of course, additional expense the further the destination is from one of your military bases.",
+   "ctx": "data/campaign/rules.csv CallSupportFleetTargetCombatBase [text]"
+  },
+  {
+   "i": 30,
+   "en": "You review your operations logs which contain a live projection for the arrival of $fleetTypeNameInText at the $fleetDestinationName - $fleetDays days.",
+   "ctx": "data/campaign/rules.csv CallFleetTargetSelected [text]"
+  },
+  {
+   "i": 31,
+   "en": "You review your operations logs which contain a live projection for the arrival of $fleetTypeNameInText.",
+   "ctx": "data/campaign/rules.csv csf_normalSel [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"Good to see you, $playerSirOrMadam,\" $PersonLastName says with a grin.\r\n\r\n\"We've got holds filled with everything your $shipOrFleet could possibly need. Just give the order and we'll begin cargo transfer.\"",
+   "ctx": "data/campaign/rules.csv resupplyOpenComms [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"Bright stars, $playerSirOrMadam,\" $Rank $PersonLastName says.\r\n\r\n\"We've given you all we've got, captain. You'll see us burning back to base before you know it.\"",
+   "ctx": "data/campaign/rules.csv resupplyOpenCommsAlreadyGave [text]"
+  },
+  {
+   "i": 34,
+   "en": "\"Aye captain, it'll be my pleasure,\" $heOrShe says.\r\n\r\nBefore long your primary bridge display is overwhelmed by a swarm of cargo drones and teams of their zero-g trained handlers. Your operations chief oversees this process of controlled chaos with cool efficiency and reports the transfer completed before even a single shift has elapsed. ",
+   "ctx": "data/campaign/rules.csv csf_giveResourcesSel [text]"
+  },
+  {
+   "i": 35,
+   "en": "\"I'd be more than pleased to, $playerSirOrMadam,\" says $personLastName.\r\n\r\n\"Considering you financed this operation, my overhead is low. I can offer more reasonable rates for extra cargo than your usual scavenger.\"",
+   "ctx": "data/campaign/rules.csv sellStuffToFleetSelSupport [text]"
+  },
+  {
+   "i": 36,
+   "en": "\"Why, sure, sure. Always happy to help out a fellow spacer.\"\r\n\r\n$PersonLastName makes a very understanding expression, then adds \"You'll appreciate, I'm sure, that with the price of fuel and risk of piracy, I'm forced to offer somewhat lower than market rates...\"",
+   "ctx": "data/campaign/rules.csv sellStuffToFleetSelScav [text]"
+  },
+  {
+   "i": 37,
+   "en": "$HeOrShe sucks air between $hisOrHer teeth.\r\n\r\n\"Normally I would,\" $heOrShe says. \"But I hate your guts. So, no.\"",
+   "ctx": "data/campaign/rules.csv sellStuffToFleetSelScavHostile [text]"
+  },
+  {
+   "i": 38,
+   "en": "\"Pleasure doin' business, $playerSirOrMadam.\"\r\nOR\r\n\"Good dealings, $playerSirOrMadam.\"",
+   "ctx": "data/campaign/rules.csv SellToFleetFinishedSupport [text]"
+  },
+  {
+   "i": 39,
+   "en": "\"Pleasure doin' business, captain.\"\r\nOR\r\n\"Good dealings, captain.\"",
+   "ctx": "data/campaign/rules.csv SellToFleetFinishedScav [text]"
+  },
+  {
+   "i": 40,
+   "en": "\"Comms open, $playerSirOrMadam,\" says $Rank $PersonLastName says with a salute. \r\n\r\n\"My fleet is at your command.\"",
+   "ctx": "data/campaign/rules.csv taskForceOpenComms [text]"
+  },
+  {
+   "i": 41,
+   "en": "\"Comms open, $playerSirOrMadam,\" says $Rank $PersonLastName with a salute. \r\n\r\n\"We've reached our operational limit, fleet is returning to base.\"",
+   "ctx": "data/campaign/rules.csv taskForceOpenCommsReturn [text]"
+  }
+ ]
+}

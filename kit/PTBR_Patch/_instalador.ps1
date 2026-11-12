@@ -1,4 +1,4 @@
-﻿# Instalador da tradução PT-BR do Starsector 0.98a-RC8.
+﻿# Instalador da tradução PT-BR do Starsector 0.98.5a-RC4.
 # Use INSTALAR.bat e DESINSTALAR.bat; este arquivo faz o trabalho.
 # Mesma lógica e mesmo backup do _swapLangFile.py: os dois podem ser usados no mesmo jogo.
 param(
@@ -16,7 +16,7 @@ $Manifesto = Join-Path $Bkp "_manifesto.json"
 $ArqHashes = Join-Path $Kit "hashes_originais.json"
 $ArqMescla = Join-Path $Kit "mescla.dat"
 $ArqAnteriores = Join-Path $Kit "hashes_anteriores.json"
-$Versao = "1.2.1"
+$Versao = "1.3.0"
 $Utf8 = New-Object System.Text.UTF8Encoding($false)
 $Latin1 = [System.Text.Encoding]::GetEncoding(28591)   # 1 byte = 1 caractere: preserva os bytes do arquivo
 
@@ -268,7 +268,7 @@ function VoltarEn([string]$jogo) {
 }
 
 # ---------------------------------------------------------------- início
-Write-Host "Tradução PT-BR do Starsector 0.98a-RC8 (kit v$Versao)"
+Write-Host "Tradução PT-BR do Starsector 0.98.5a-RC4 (kit v$Versao)"
 Write-Host ""
 
 if ($Jogo) { $Jogo = NormalizarJogo $Jogo } else { $Jogo = AcharJogo }
@@ -312,8 +312,8 @@ function VersaoCompativel([string]$jogo) {
 
 if ($Acao -eq "pt" -and -not (VersaoCompativel $Jogo)) {
     Write-Host ""
-    Write-Host "Este kit é para o Starsector 0.98a-RC8, e o seu jogo parece ser de outra versão"
-    Write-Host "(o arquivo starfarer_obf.jar não é o da 0.98a-RC8)."
+    Write-Host "Este kit é para o Starsector 0.98.5a-RC4, e o seu jogo parece ser de outra versão"
+    Write-Host "(o arquivo starfarer_obf.jar não é o da 0.98.5a-RC4)."
     Write-Host "Nada foi alterado. Procure uma versão do kit para a sua versão do jogo."
     Sair 1
 }

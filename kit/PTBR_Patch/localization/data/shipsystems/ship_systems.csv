@@ -29,7 +29,7 @@ Campo Amortecedor,damper,1,,,,,,,2,0.05,0.25,3,0.25,0,,,,,TRUE,,,,TRUE,TRUE,,"us
 Amortecedor de Entropia,damper_omega,1,,,,,,,2,0.05,0.25,3,0.25,0,,,,,,,,,TRUE,TRUE,,"uses_damper_ai, defensive",graphics/icons/hullsys/damper_field.png
 Concha Temporal,temporalshell,1,,,,,0.25,,,,4,10,2,10,,,,,,,,,,,,,graphics/icons/hullsys/temporal_shell.png
 Disruptor Quântico,acausaldisruptor,,,,,,0.25,,,,0.5,,1,20,,,,,,,,,,,,,graphics/icons/hullsys/quantum_disruptor.png
-Amplificador de Entropia,entropyamplifier,,,,,,0.2,,,,0.5,10,1,10,,,,,,,,,,,,offensive,graphics/icons/hullsys/entropy_amplifier.png
+Amplificador de Entropia,entropyamplifier,,,,,,1,,,,0.5,10,1,10,,,,,,,,,,,,offensive,graphics/icons/hullsys/entropy_amplifier.png
 Conjunto Interdictor,interdictor,,,,,,0.25,,,,0.5,,0.5,20,,,,,,,,,,,,,graphics/icons/hullsys/interdictor_array.png
 Ataque de Minas,mine_strike,,,,,,0.1,,5,0.2,0.25,,0.25,0,,,,,,,,,,,,offensive,graphics/icons/hullsys/mine_strike.png
 Transdutor Criofluxo,cryoflux,,,,,,0.75,,,,0.5,,0.5,,TRUE,,,,,,,,,,,restricted,graphics/icons/hullsys/quantum_disruptor.png
@@ -44,7 +44,7 @@ Conversão de Energia,energy_conversion,,,,,,0,,3,0.1,0.5,,2,0,,TRUE,,TRUE,,,,,,
 Ficção Quiral,chiral_figment,,,,,,,,,,0.5,,0.5,30,,,,,,,,,,,,restricted,graphics/icons/hullsys/interdictor_array.png
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Manto de fase,phasecloak,,,,,,,,,,0.5,,0.5,2,TRUE,,TRUE,TRUE,TRUE,,,,TRUE,,TRUE,defensive,graphics/icons/hullsys/phase_cloak.png
+Manto de fase,phasecloak,,,,,,,,,,0.5,,0.5,3,TRUE,,TRUE,TRUE,TRUE,,,,TRUE,,TRUE,defensive,graphics/icons/hullsys/phase_cloak.png
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Rasante de Fase (Drone),skimmer_drone,,,,,,0.05,,3,0.25,0.25,,0.25,,,TRUE,,TRUE,,,,,,,,,graphics/icons/hullsys/displacer.png
 Rasante de Fase Degradado,displacer_degraded,,,,,,,,2,0.067,0.25,,0.25,0,,TRUE,,TRUE,,,,,,,,,graphics/icons/hullsys/skimmer_degraded.png

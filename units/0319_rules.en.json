@@ -1,0 +1,191 @@
+{
+ "chunk": 319,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "You enter the comms ID, hand hovering over a glowing 'confirm' sigil. Your comms officer nods, ready to respond to whatever surprises Gargoyle thinks would be amusing to send through the link this time.\r\n\r\nThe display resolves from a mesmerizing fractal battleground to a familiar face grinning impishly at you.\r\n\r\n\"Ah, $playerFirstName! Are you back to find something interesting to do? I've got all sorts of wonderful ideas.\"",
+   "ctx": "data/campaign/rules.csv defaultGargoyleGreeting [text]"
+  },
+  {
+   "i": 2,
+   "en": "You speak first with some kind of secretary who politely persuades you to wait patiently.\r\n\r\nAfter a short time, the image of the Archcurate Jaspis appears. She makes little effort to look toward the comms feed as she putters around her office.\r\n\r\n\"We are blessed by the day,\" she says.",
+   "ctx": "data/campaign/rules.csv defaultJaspisGreeting [text]"
+  },
+  {
+   "i": 3,
+   "en": "The comms take some time to connect, and the transmission is patchy, as if sent through damaged or overloaded relays.\r\n\r\nNonetheless, Curate Sacraria Standfast appears. \r\n\r\n\"Look who's washed up on troubled shores,\" she says. \"How may a servant of Providence help you this day?\"",
+   "ctx": "data/campaign/rules.csv greetingStandfastDefault [text]"
+  },
+  {
+   "i": 4,
+   "en": "The comms take some time to connect, and the transmission is patchy, as if sent through damaged or overloaded relays.\r\n\r\nNonetheless, Curate Sacraria Standfast appears. \r\n\r\n\"The true believer returns,\" she says coolly. \"Come to explain a new compromise?\"",
+   "ctx": "data/campaign/rules.csv greetingStandfastSDcom [text]"
+  },
+  {
+   "i": 5,
+   "en": "The comms take some time to connect, and the transmission is patchy, as if sent through damaged or overloaded relays.\r\n\r\nNonetheless, Curate Sacraria Standfast appears. \r\n\r\n\"Blessed be the day,\" she says. Then squints.\r\n\r\n\"Who, may I ask, are you? I confess I did expect some urgent business of the Mother Church on this channel, not so much... some kind of star-farer?\"",
+   "ctx": "data/campaign/rules.csv SDRgreetingStandfastFromReynard [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"That's rather a bold assertion, captain whatever-your-name-is,\" she says, taken aback. \"To accuse an old woman of terrorism! Whatever have these worlds come to.\"\r\n\r\nAn accusing finger appears. \"I'll have you know that my congregation, such as it is - or was - is quite orthodox, thank-you very much. We don't abide heretical notions, much less Patherism here.\"",
+   "ctx": "data/campaign/rules.csv SDRstandfastIntroOptAsel [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Why by Ludd's blessed teeth would that man, of all men in the Persean Sector, send me gifts?\"\r\n\r\nShe puts on a skeptical expression.\r\n\r\n\"I'm not quite the looker I was in cycles past, I'll admit, but it seems even more unlikely to me that the Prime Demarchon of the Persean League has had a sudden crisis of faith.\"",
+   "ctx": "data/campaign/rules.csv SDRstandfastIntroOptBsel [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"Orcus Rao. One used to hear that name more often. Why the sudden charity from the forgotten 'hero'?\"\r\n\r\nShe puts on a skeptical expression.\r\n\r\n\"I'm not quite the looker I was in cycles past, I'll admit, but it seems even more unlikely to me that this unorthodox admiral of the Hegemony has had a sudden crisis of faith.\"",
+   "ctx": "data/campaign/rules.csv SDRstandfastIntroOptBselRao [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"Me? Oh,\" her hands come together, \"I truly am blessed by providence on this otherwise dark day of days.\"\r\n\r\nShe drops the pious expression somewhat abruptly.\r\n\r\n\"Come now. You'd have to be the worst Diktat spy in the system with that cover story. Who are you and what do you really want?\"",
+   "ctx": "data/campaign/rules.csv SDRstandfastIntroOptCsel [text]"
+  },
+  {
+   "i": 10,
+   "en": "She blinks once, twice. \r\n\r\n\"Well, bless me. I don't imagine that white-haired devil suddenly grew a heart, so his aim has to be manipulating one or another presumptive heir to Philip Andrada.\"\r\n\r\nShe places her hands together, and looks upward. \r\n\r\n\"What irony that I pray for sons to be less dutiful to their father's memory.\" Her eyes drop to you, through the link. \"I will not turn from what Reynard offers, provided it is without conditions.\" ",
+   "ctx": "data/campaign/rules.csv SDRstandfastIntro1sd [text]"
+  },
+  {
+   "i": 11,
+   "en": "She blinks once, twice. \r\n\r\n\"Well, bless me. I don't imagine that white-haired devil suddenly grew a heart, so it'll have to be his aim to indirectly undermine Gens Kato who's sponsored Volturn's present overlord in the form of Achilles Andrada.\"\r\n\r\nShe places her hands together, and looks upward. \r\n\r\n\"What irony that I pray for the son to be less dutiful to his father's memory.\" Her eyes drop to you, through the link. \"I will not turn from what Reynard offers, provided it is without conditions.\" ",
+   "ctx": "data/campaign/rules.csv SDRstandfastIntro1sda [text]"
+  },
+  {
+   "i": 12,
+   "en": "She blinks once, twice. \r\n\r\n\"Well, bless me. I don't imagine the Rogue of Eventide suddenly grew a heart, so his aim would have to be undermining the presumptive heirs to Philip Andrada.\"\r\n\r\nShe places her hands together, and looks upward. \r\n\r\n\"What irony that I pray for sons to be less dutiful to their father's memory.\" Her eyes drop to you, through the link. \"I will not turn from what Rao offers, provided it is without conditions.\" ",
+   "ctx": "data/campaign/rules.csv SDRstandfastIntro1Rao [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"Does he? Then, with your help, we shall do our very best, providence willing,\" she says sweetly.\r\n\r\n\"But promise me this- you'll one day visit my shrine here.\"",
+   "ctx": "data/campaign/rules.csv SDRstandfastIntro2 [text]"
+  },
+  {
+   "i": 14,
+   "en": "She nods, perhaps even bows, hands held together.",
+   "ctx": "data/campaign/rules.csv SDRstandfastIntro3a [text]"
+  },
+  {
+   "i": 15,
+   "en": "She holds your look for a moment, with a small, sad smile.\r\n\r\n\"Try.\"",
+   "ctx": "data/campaign/rules.csv SDRstandfastIntro3b [text]"
+  },
+  {
+   "i": 16,
+   "en": "She smiles, sadly.\r\n\r\n\"I will show you the way when you are ready to walk upon it,\" she says.",
+   "ctx": "data/campaign/rules.csv SDRstandfastIntro3c [text]"
+  },
+  {
+   "i": 17,
+   "en": "DONE\r\n\r\nYou can now give more stuff to Standfast.",
+   "ctx": "data/campaign/rules.csv DEVstandfastVSDCoffersReset2 [text]"
+  },
+  {
+   "i": 18,
+   "en": "DONE",
+   "ctx": "data/campaign/rules.csv DEVstandfastVSDCCoffers2 [text]"
+  },
+  {
+   "i": 19,
+   "en": "A novice escorts you back up the lift and back into the rich sea-air of Volturn.",
+   "ctx": "data/campaign/rules.csv standfastShrineLeave2 [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"The devotees of... our shrine appreciate your dedication,\" the curate says, \"but we must wait some time longer before your next contribution, perhaps a month since your last... offering. A prideful display so soon might be viewed as intemperate by certain higher powers.\"\r\n\r\n\"In the meantime,\" she looks up briefly, to the stars and heavens. \"We shall pray for you.\"",
+   "ctx": "data/campaign/rules.csv standfastVSDCofferTooSoonA [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"The... devotees of our shrine appreciate your enthusiasm,\" the curate says, \"but we must wait at least one day or so before your next contribution. A prideful display so soon might be viewed as intemperate by certain higher powers.\"\r\n\r\n\"In the meantime,\" she looks up briefly, to the stars and heavens. \"We shall pray for you.\"",
+   "ctx": "data/campaign/rules.csv standfastVSDCofferTooSoonB [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"And I would like to accept your help, with thanks and prayer.\" She dips her head for a moment.\r\n\r\n\"The Volturnian Self Defense Covenant has many needs,\" her look grows harder, more calculating. \"Though our cause is righteous, and the Faithful willing, empty hands and privation are the weapons of saints. The rest of us,\" she says wearily, \"have more worldly needs.\"\r\n\r\nShe taps at a battered datapad and a priority-sorted procurement table appears in your shared comms-space.\r\n\r\n\"Heavy weapons. Supplies. Credits.\" A smile. \"If the pneuma moves you to such charity, that is.\"",
+   "ctx": "data/campaign/rules.csv standfastVSDCofferHelpFirst [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"And I would like to accept your help, with thanks and prayer.\" She dips her head for a moment.\r\n\r\n\"The Volturnian Self Defense Covenant has many needs,\" her look grows harder, more calculating. \"Though our cause is righteous, and the Faithful willing, empty hands and privation are the weapons of saints. The rest of us,\" she says wearily, \"have more worldly needs.\"\r\n\r\nShe taps at a battered datapad and shows you a priority-sorted procurement table appears.\r\n\r\n\"Heavy weapons. Supplies. Credits.\" A smile. \"If the pneuma moves you to such charity, that is.\"",
+   "ctx": "data/campaign/rules.csv standfastVSDCofferHelpFirstShrine [text]"
+  },
+  {
+   "i": 24,
+   "en": "She dips her head. \"And I would like to accept your help, with thanks and prayer.\"",
+   "ctx": "data/campaign/rules.csv standfastVSDCofferHelp [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"The strongholds and war machines of the Diktat are no longer so inpenetrable as they once were thanks to the heavy weapons you've provided to the fighting Faithful.\"",
+   "ctx": "data/campaign/rules.csv standfastVSDCacknowledgeWeapons [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"The credits you've already provided allow us great flexibility in our operations. All and sundry must be purchased - and smuggled - to say nothing of bribing the faithless servants of Andrada.",
+   "ctx": "data/campaign/rules.csv standfastVSDCacknowledgeCredits [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"The supplies you've given to the Self Defense Covenant feed the hungry, heal the wounded, and... gives us time.\" She clasps her hands together. \"When the time is right, our righteous uprising will break open the darkness like the dawning of the sun.\"",
+   "ctx": "data/campaign/rules.csv standfastVSDCacknowledgeSupplies [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"The supplies you've given to the Self Defense Covenant will feed the hungry, heal the wounded, and give us time.\" She clasps her hands together. \"Our righteous uprising even now breaks open the darkness like the dawning of the sun.\"",
+   "ctx": "data/campaign/rules.csv standfastVSDCackSuppliesDuring [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"You have my deepest graditude, $playerName,\" she says.\r\n\r\n\"These credits open great possibilities, for all and sundry must be purchased - and smuggled - to bolster our cause.\" She pauses. \"To say nothing of bribing the faithless servants of Andrada to free our walkers and whisper to us the Lion's secrets...\"",
+   "ctx": "data/campaign/rules.csv standfastVSDCofferHelpCredits [text]"
+  },
+  {
+   "i": 30,
+   "en": "She looks down, frowning, at her battered datapad.\r\n\r\n\"It will, however, take some time to distribute these funds without attracting the attention of the Spider.\"",
+   "ctx": "data/campaign/rules.csv standfastVSDCofferHelpCredits2 [text]"
+  },
+  {
+   "i": 31,
+   "en": "She looks down, frowning, at her battered datapad.\r\n\r\nIt will take some effort, however, to distribute these funds without attracting the attention of the... new authorities.\" She sighs. \"Whatever they call one Diktat or the other, they are truly the sons of their father.\"",
+   "ctx": "data/campaign/rules.csv standfastVSDCofferHelpCredits2b [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"You are truly given by Providence,\" she says. \r\n\r\n\"These supplies will feed the hungry, heal the wounded, and... give us time.\" She clasps her hands together. \"When the time is right, our uprising will break open the darkness like the dawning of the sun. So I pray.\"\r\n\r\n\"And you, captain. Ware the Diktat patrols - a cargo transfer of this size is not easily hidden, despite the best efforts of the Faithful among the customs agents and dockworkers.\"",
+   "ctx": "data/campaign/rules.csv standfastVSDCOfferHelpSupplies2 [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"You are truly a gift of Providence,\" she says. \r\n\r\n\"These supplies shall feed the hungry, heal the wounded, and give us time.\" She clasps her hands together. \"Our uprising shall break open the darkness like the dawning of the sun. So I pray.\"\r\n\r\n\"And you, captain. Ware the Diktat patrols - whether one Diktat or the other, a shipment of this size is not easily hidden despite the best efforts of the Faithful among the customs agents and dockworkers.\"",
+   "ctx": "data/campaign/rules.csv standfastVSDCOfferHelpSupplies2b [text]"
+  },
+  {
+   "i": 34,
+   "en": "\"You give us hammer and sword alike, captain,\" she says. \"The strongholds and war machines of the Diktat shall prove less inpenetrable than the Lion might wish thanks to these heavy weapons.\"\r\n\r\n\"Take care for yourself also. A cargo transfer of this size is not easily hidden despite the best efforts of the Faithful among the customs agents and dockworkers.\"",
+   "ctx": "data/campaign/rules.csv standfastVSDCOfferHelpWeapons2 [text]"
+  },
+  {
+   "i": 35,
+   "en": "\"You provide us hammer and sword alike, captain,\" she says. \"The strongholds and war machines of the Diktat - whether by one name or another - shall prove themselves less inpenetrable than the Lion's cubs might wish thanks to these heavy weapons.\"\r\n\r\n\"Take care for yourself also. A cargo transfer of this size is not easily hidden despite the best efforts of the Faithful among the customs agents and dockworkers.\"",
+   "ctx": "data/campaign/rules.csv standfastVSDCOfferHelpWeapons2b [text]"
+  },
+  {
+   "i": 36,
+   "en": "\"You have given us all we have asked. The United Front is pledged to a general uprising when the opportunity presents itself. There are dark rumors from Sindria, from the den of the beast himself...\"\r\n\r\nHer look is of weariness, of a burden long carried and not soon relieved.\r\n\r\n\"Now, we wait - and pray. And once more, you have my thanks.\"",
+   "ctx": "data/campaign/rules.csv standfastVSDCOfferDone2 [text]"
+  },
+  {
+   "i": 37,
+   "en": "\"You have given us all we have asked. The Faithful spill their blood daily for this uprising... and spend their lives, a currency too dear to long contemplate.\" \r\n\r\nHer look is of weariness, of a burden long carried and not soon relieved.\r\n\r\n\"But we fight,\" she straightens her posture, hands together. \"And pray. You you have my thanks and blessing, captain.\"",
+   "ctx": "data/campaign/rules.csv standfastVSDCOfferDone2during [text]"
+  }
+ ]
+}

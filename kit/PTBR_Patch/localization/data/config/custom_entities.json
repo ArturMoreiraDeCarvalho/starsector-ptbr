@@ -1035,6 +1035,31 @@
 		"pluginClass":"com.fs.starfarer.api.impl.campaign.HiddenCacheEntityPlugin",
 	},
 	
+	"asteroid_base":{
+		"defaultName":"Base de Asteroides", # used if name=null in addCustomEntity()
+		"defaultRadius":35, # used if radius<0 in addCustomEntity()
+		"nameInText":"base de asteróide",
+		"shortName":"base de asteróide",
+		"aOrAn":"um",
+		"isOrAre":"é",
+		"showInCampaign":true,
+		"scaleIconSizeBasedOnDefaultRadius":false,
+		"showIconOnMap":true,
+		"scaleIconWithZoom":true,
+		"sprite":"graphics/asteroids/asteroid1.png",
+		"spriteWidth":10,
+		"spriteHeight":12,
+		"iconWidth":20,
+		"iconHeight":20,
+		"icon":"graphics/icons/asteroid_habitat.png",
+		"customDescriptionId":"asteroid_base",
+		"interactionImage":"graphics/illustrations/distant_asteroid.jpg",
+		"detectionRange":2000, # must be >0 for discoverable/discoveryXP to be used
+		"discoverable":true,
+		"discoveryXP":2500,		
+		"layers":[TERRAIN_7A],
+		"tags":["has_interaction_dialog", "asteroid_base", "neutrino_low"],
+	},
 	
 	"supply_cache":{
 		"defaultName":"Depósito de Suprimentos", # used if name=null in addCustomEntity()

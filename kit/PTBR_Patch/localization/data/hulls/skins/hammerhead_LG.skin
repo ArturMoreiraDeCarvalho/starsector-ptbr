@@ -12,7 +12,9 @@
 	"removeBuiltInMods":[], 		# hullmod ids
 	"removeBuiltInWeapons":[], 		# weapon slot ids
 	"systemId":"highenergyfocus",
-	"ordnancePoints":85,
+	#"ordnancePoints":85,
+	"suppliesToRecover":9,
+	"suppliesPerMonth":9,	
 	"builtInMods":["andrada_mods","solar_shielding","coherer"],
 	#"builtInMods":["andrada_mods"],
 	"builtInWeapons":{
@@ -23,6 +25,12 @@
 		},
 		"WS 002":{
 			"type": "ENERGY"
+		},
+		"WS 003":{
+			"type": "SYNERGY"
+		},
+		"WS 004":{
+			"type": "SYNERGY"
 		},
 	},    
 }

@@ -1,0 +1,241 @@
+{
+ "chunk": 324,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "The comms request idles, repeating. \r\n\r\nFinally, some young flunky in a perfectly pressed black uniform appears.\r\n\r\n\"Glory to Andrada, the Lion of Sindria. This is the Ministry of Internal Security, office of the Chief High Inspector-General.\"\r\n\r\nThe officer eyes you suspiciously.\r\n\r\n\"If you have subversion to report, please terminate this link and connect to the Patriotic Citizen-Security Reports section.\"",
+   "ctx": "data/campaign/rules.csv PostSD7SMacarioStart [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"Acknowledged,\" he says impatiently.\r\n\r\n\"As I explained, all subversion should be reported to an appropriate officer of the Patriotic Citizen-Security Reports section. The Chief High Inspector-General does not answer to,\" now the sneer, \"random spacers.\"",
+   "ctx": "data/campaign/rules.csv SD7SmacarioUrgentMatter1 [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"Your status has already been noted. This conversation is concluded.\"\r\n\r\nHis eyes narrow ever so slightly. As if he might say something more, but he chooses not to. Instead-\r\n\r\n\"Glory to the Sindrian Diktat.\"\r\n\r\nThe comms cut.",
+   "ctx": "data/campaign/rules.csv SD7SmacarioBringMatter2SDcom [text]"
+  },
+  {
+   "i": 4,
+   "en": "His eyes flicker, indicating something. Likely annoyance.\r\n\r\n\"Noted. If the Chief High Inspector-General wishes to contact you, you will be contacted.\" He turns away. \"This conversation is concluded.\"\r\n\r\n\"Glory to the Sindrian Diktat.\"\r\n\r\nThe comms cut.",
+   "ctx": "data/campaign/rules.csv SD7SmacarioBringMatter2 [text]"
+  },
+  {
+   "i": 5,
+   "en": "An annoyed look flashes on his face.\r\n\r\n\"Wasting my time may be seen as hindering official duties of an officer of the Ministry of Internal Security which, in turn, may be treated as an act of terroristic insubordination and-\"\r\n\r\nHe pauses, reaching for his ear. Indignant expression frozen.\r\n\r\n\"I-\" His voice catches, and he clears his throat. The blood has drained from his face.\r\n\r\n\"Acknowledged. Forwarding comms.\"",
+   "ctx": "data/campaign/rules.csv SD7SmacarioTellFoundSons [text]"
+  },
+  {
+   "i": 6,
+   "en": "A silhouette appears.\r\n\r\nMacario moves forward, revealing an amused smirk.\r\n\r\nHe moves to speak and an odd sound seems to escape from his mouth before he can contain it.\r\n\r\nA cough; a pause. He looks up and begins again.\r\n\r\n\"My, my, we've been busy busy, Captain $playerLastName. I've been watching you, of course.\"\r\n\r\nHe inhales sharply. \"Closely.\"",
+   "ctx": "data/campaign/rules.csv SD7SmacarioTellFoundSons2 [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Shh, shh.\" He hushes you, like an infant. \"Nothing you say matters. So much rotting air.\"",
+   "ctx": "data/campaign/rules.csv SD7SmacarioTellFoundSons3 [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"You lied to me, $playerName. Of course I could tell. Every time,\" his voice is thin, animated by hate. \"You fool. You insect. You pathetic, faithless spacer.\"",
+   "ctx": "data/campaign/rules.csv SD7SmacarioTellFoundSons3check [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"You will receive what you deserve...\"\r\n\r\nHe trails off, mouth hanging open. Idly, he wipes a drop of spittle with the sleeve of his uniform.\r\n\r\nThen he turns away, as if he's forgotten he was talking to you.",
+   "ctx": "data/campaign/rules.csv SD7SmacarioTellFoundSons4 [text]"
+  },
+  {
+   "i": 10,
+   "en": "The comms go dark.",
+   "ctx": "data/campaign/rules.csv SD7SmacarioTellFoundSons5 [text]"
+  },
+  {
+   "i": 11,
+   "en": "He responds with the automatic phrase, \"The Movement is its own reward.\"\r\n\r\nIf his tone does not contain warmth, at least it holds the comfort that his internal IFF has slotted you into a non-hostile category. ",
+   "ctx": "data/campaign/rules.csv sdBarRaid2thanksNice [text]"
+  },
+  {
+   "i": 12,
+   "en": "market.didShrineIntro is TRUE",
+   "ctx": "data/campaign/rules.csv devVolturnOptShrineAcheck [text]"
+  },
+  {
+   "i": 13,
+   "en": "market.didShrineIntroPostSDR is TRUE",
+   "ctx": "data/campaign/rules.csv devVolturnOptShrineBcheck [text]"
+  },
+  {
+   "i": 14,
+   "en": "market.didShrineIntro is FALSE",
+   "ctx": "data/campaign/rules.csv devVolturnOptShrineAcheck2 [text]"
+  },
+  {
+   "i": 15,
+   "en": "market.didShrineIntroPostSDR is FALSE",
+   "ctx": "data/campaign/rules.csv devVolturnOptShrineBcheck2 [text]"
+  },
+  {
+   "i": 16,
+   "en": "Done. Also set metStandfast to true.",
+   "ctx": "data/campaign/rules.csv devVolturnUnhideStandfast [text]"
+  },
+  {
+   "i": 17,
+   "en": "Starting conversation with Standfast...",
+   "ctx": "data/campaign/rules.csv devVolturnStartStandfastConv [text]"
+  },
+  {
+   "i": 18,
+   "en": "Done. You're not actually getting an Executor though, ha-ha.",
+   "ctx": "data/campaign/rules.csv devSDTUmacarioGaveExecutor [text]"
+  },
+  {
+   "i": 19,
+   "en": "set player.sdse_contactedAboutAndradaFiles to true",
+   "ctx": "data/campaign/rules.csv devSDSEhyderContactedFiles [text]"
+  },
+  {
+   "i": 20,
+   "en": "set $believesAboutSD7S to true on Hyder",
+   "ctx": "data/campaign/rules.csv devSDSEhyderBelievesAboutFiles [text]"
+  },
+  {
+   "i": 21,
+   "en": "Done. This will make Caden jealous and sandbag Hector's cause.",
+   "ctx": "data/campaign/rules.csv devSDTUtoldCadenMacarioBacksHyder [text]"
+  },
+  {
+   "i": 22,
+   "en": "Done. This MAY turn Macario against Hyder, provided you didn't give him contradictory lies",
+   "ctx": "data/campaign/rules.csv devSDTUtoldCadenHyderBacksHyder [text]"
+  },
+  {
+   "i": 23,
+   "en": "Done. Hyder now trusts the player. (both flag set and internal trust int)",
+   "ctx": "data/campaign/rules.csv devSDTUsetHyderTrust [text]"
+  },
+  {
+   "i": 24,
+   "en": "He takes a deep breath with closed eyes, then looks on you with renewed vigor. \"And you. You are an outsider, you are the perfect wedge for my plan to alter the course of history.\"\r\n\r\nHe holds a hand up to stop your reply.\r\n\r\n\"No, not yet. We must speak in the flesh,\" he taps something, and your comm-link receives coordinates - an address on Volturn. \"There is a safehouse under my personal authority. OpSec will be assured.\"\r\n\r\n$Rank Ram gives a quick nod and signs off.",
+   "ctx": "data/campaign/rules.csv sdtuRamAndThen1 [text]"
+  },
+  {
+   "i": 25,
+   "en": "He holsters his pistol and, stepping over Ram's cooling body, draws a chair from the table.\r\n\r\n\"Let us sit for a moment. All this excitement... I would very much like to have a chat with you.\"",
+   "ctx": "data/campaign/rules.csv sdtuRamSafehouse10 [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"Captain Ram was a traitor and has met the end which all traitors deserve,\" Macario leans back in the cheap folding chair, looking thoughtful. \r\n\r\n\"I am embarrassed to admit that he was also - in the broad strokes - correct in his assessment of the current state of our dear Sindrian Diktat. And his plan is a reasonable one.\"\r\n\r\n\"I have decided to enact it, with your cooperation.\"",
+   "ctx": "data/campaign/rules.csv sdtuRamSafehouse11 [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"Fascinating,\" Macario says, perhaps to himself.\r\n\r\n\"But would you die to serve the Diktat? No, no, don't speak. It is far too personal a question.\"\r\n\r\n\"Besides,\" he adds, \"I require that you live. Which is why you do.\" He produces a ghastly smile.",
+   "ctx": "data/campaign/rules.csv sdtuMacIntroAnswerCourseTrue [text]"
+  },
+  {
+   "i": 28,
+   "en": "There's a strange gleam in Macario's eyes at your words, but he seems to approve.",
+   "ctx": "data/campaign/rules.csv sdtuSafehouseEndSD [text]"
+  },
+  {
+   "i": 29,
+   "en": "This time $heOrShe is ready.\r\n\r\n\"You return! I hereby declare you a criminal and traitor for the crimes of falsifying official documents, threatening an officer, and attempting to undermine the authority of the Supreme Executor.\"\r\n\r\n\"A death in space is better than you deserve, terrorist scum.\" $HeOrShe looks over $hisOrHer shoulder and gives a wave. The comms cut out and the opposing fleet maneuvers to an attack posture.",
+   "ctx": "data/campaign/rules.csv sdtuPatrolAgainDidWarrantOpen [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"Following orders,\" Hyder grits her teeth, \"even secret orders, from the highest authority of the navy to ensure the effective operation of military assets is not treason.\"\r\n\r\nDisgust fully enters her voice now, \"No matter how Macario tries to twist the truth.\"\r\n\r\n\"Half of the so-called 'intelligence operations' performed under his authority could well be called treason, but I don't make it my business to meddle as he does.\"",
+   "ctx": "data/campaign/rules.csv sdtuHyderOfficerSmuggling [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"He conducts himself without a shred of honor while wrapped in the banner of the Supreme Executor. He twists the words of Philip Andrada to serve his own degenerate desires.\"\r\n\r\nShe pauses, seething.",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk1DServeHeg [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"Macario says what is useful to himself. Observe the results of his actions: paranoia, inefficiency, and lawlessness.\" ",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk1Results [text]"
+  },
+  {
+   "i": 33,
+   "en": "You had made a deal to set the officer free on the first independent world you visited. They will view you poorly for this breach of trust, but then, they are simply one rogue Sindrian Diktat officer with very few friends.\r\n\r\nIf it is any consolation, Hyder's court-martial is likely to be a less cruel fate than whatever Macario had in mind.",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk2TransferPromise [text]"
+  },
+  {
+   "i": 34,
+   "en": "Hyder closes her eyes and rubs the bridge of her nose; it seems that she does not enjoy the prospect of lie and counter-lie.\r\n\r\n\"Typical Macario,\" she says finally, her anger now - mostly - directed away from yourself.\r\n\r\n\"Tell Macario,\" she spits his name out like a morsel of rotten food, \"that my loyalty to the Supreme Executor is unquestionable. And that I shall be making a report of his waste of naval resources to my superior.\"",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk2BattleLieC2 [text]"
+  },
+  {
+   "i": 35,
+   "en": "She pauses as she reaches toward the comms shut-off.\r\n\r\n\"What is it, captain.\"\r\n\r\nMacario was right about one thing, at least: Hyder is not difficult to read.",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk3Start2 [text]"
+  },
+  {
+   "i": 36,
+   "en": "She looks at you for a long, long moment.\r\n\r\n\"I am, to them, a traitor. Do you know the justice a traitor-in-combat is served? Execution, by will of the commanding officer.\"\r\n\r\nShe pauses, watching you. \"There is good reason this is so.\"\r\n\r\nWhich, you note, does not answer your question.",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk3HegemonyB [text]"
+  },
+  {
+   "i": 37,
+   "en": "\"I expect Macario told you that,\" she says, eyes fixed somewhere above the comms. \"Testing my 'loyalty' from every angle, I am sure.\"\r\n\r\n\"But it is a problem. To maintain proper hierarchy of authority, the Supreme Executor should have assigned me that rank and the accompanying powers. Then I would be able to simply dictate around the supply deficit Macario and Caden conspired to create.\"\r\n\r\nStill looking elsewhere, \"But then, under Andrada, they wouldn't have dared...\"",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalkBossC [text]"
+  },
+  {
+   "i": 38,
+   "en": "\"Yes,\" she says emphatically, with the weight of a stalled career and impossible position.",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalkBossPromotionA [text]"
+  },
+  {
+   "i": 39,
+   "en": "\"That would be correct. Not, of course, to presume.\"\r\n\r\nShe looks conflicted.\r\n\r\n\"It would be... it is the responsibility of the Supreme Executor himself to assign that rank and office.\"",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalkBossPromotionB [text]"
+  },
+  {
+   "i": 40,
+   "en": "She lets out a joyless, cynical laugh.\r\n\r\n\"No, not me. I am not a great man like Philip Andrada. Give me a fleet, my orders, and my cause. That is all I need to do my duty.\"\r\n\r\nShe looks up and away, \"He is... he was different. He had vision, and a surety of purpose that moved history by will alone.\"",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk3Leadership [text]"
+  },
+  {
+   "i": 41,
+   "en": "\"Provided the navy did not stand in his way, provided the Supreme Executor was... dead. Then he would be the next in line.\"\r\n\r\n\"Could he lead?\" She scoffs. \"The Lion's Guard is his personal empire, his church, his cult, sucking up resources for a parade-navy. We could have made the Sindrian Diktat strong, even great, but Caden had to start a religion.\"\r\n\r\nShe looks away.\r\n\r\n\"Andrada enjoyed the... the worship. He favored Caden, and it blinded him, impaired his judgment. Caden would martyr us all to the idol he's built of Andrada. I doubt even Macario could really control him. I'm sure he thinks he can.\"",
+   "ctx": "data/campaign/rules.csv sdtuHyderTalk3LeadershipCaden [text]"
+  },
+  {
+   "i": 42,
+   "en": "\"Only half?\" Macario feigns surprise. \"How charitable.\"",
+   "ctx": "data/campaign/rules.csv sdtuPostHyderHateRespE [text]"
+  },
+  {
+   "i": 43,
+   "en": "\"Fascinating,\" he leans forward.\r\n\r\n\"She always did admire Andrada's boldness and genius. And while Caden is no Andrada, he might serve as an acceptable... substitute. The alternative would be chaos. Hyder can see that, and perhaps she is capable of putting aside her personal feelings for the greater good... yes, that could be it.\"",
+   "ctx": "data/campaign/rules.csv sdtuPostHyderLieBacksCaden [text]"
+  },
+  {
+   "i": 44,
+   "en": "\"Truly?\" He leans back, rubbing his chin.\r\n\r\n\"This is an unexpected turn. As a trained military commander, perhaps Hyder recognizes - despite her personal feelings - that aligning herself with a powerful leader will lead to the best outcome...\"",
+   "ctx": "data/campaign/rules.csv sdtuPostHyderLieBacksMacario [text]"
+  },
+  {
+   "i": 45,
+   "en": "\"No!\" he exclaims, \"And the Hegemony would have her?\"\r\n\r\n\"This must be Daud's work.\" He starts rubbing his hands together furiously, \"It fits, it fits. He possesses a low cunning honed during his criminal upbringing.\"\r\n\r\nHe looks up at you, his hands stopping their frenetic activity as if he just realized you could see it. \"I admire Daud, of course. To accomplish so much, arisen from the parasite class to the top of command? It is truly incredible. He chose well in making Rao his attack-hound.\"\r\n\r\nHis hands start up again, his gaze wandering. \"There is... much to do, much to think about...\"",
+   "ctx": "data/campaign/rules.csv sdtuPostHyderLieWantsToDefect [text]"
+  },
+  {
+   "i": 46,
+   "en": "\"I must admit that you've underwhelmed me, captain.\"\r\n\r\nMacario leans back, hands held together, eyes on you. \"Perhaps, stars forgive my manners, but perhaps you have not been entirely forthright?\"\r\n\r\n\"I would so hate for the potential of our little collaboration to, how to put it... there's a Luddic expression, 'die on the vine' I believe? Now there's an image.\" He smiles charmlessly.\r\n\r\n\"Speaking of, let me provide you another opportunity to demonstrate your worth.\" He pauses a moment, then adds in a not-quite-threatening tone, \"I'm sure by the end you'll agree that I can be very forgiving.\"",
+   "ctx": "data/campaign/rules.csv sdtuPostHyderUsefulnessCheckA [text]"
+  },
+  {
+   "i": 47,
+   "en": "\"To tell the truth,\" Macario pauses to suppress a strange sound, like a hiccup, \"you've been illuminating.\" \r\n\r\nHe leans back, hands grasping one another. \"You could make a reasonable agent, were you more discreet.\"\r\n\r\nHe smiles hollowly. \"Far more discreet.\"\r\n\r\n\"Happily, I have just the thing, just the thing. The level of discretion is up to you; you'll find that I supervise with a light hand, contrary to the lies told about me. If you need to raze a few habs from orbit to extract an agent, why, then I accept your professional judgment. But let me explain...\"",
+   "ctx": "data/campaign/rules.csv sdtuPostHyderUsefulnessCheckC [text]"
+  }
+ ]
+}

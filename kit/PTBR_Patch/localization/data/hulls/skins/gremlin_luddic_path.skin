@@ -7,6 +7,9 @@
 	"tags":["LP_bp"],
 	"tech":"Caminho Luddita",
 	"baseValueMult":.8,
+	"parts/dmod":2,
+	"suppliesToRecover":6,
+	"suppliesPerMonth":6,	
 	#"ordnancePoints":40,
 	"spriteName":"graphics/ships/phase/gremlin_pather.png",
 	"removeWeaponSlots":[], 		# ids

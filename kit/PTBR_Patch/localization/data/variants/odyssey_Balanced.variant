@@ -1,6 +1,6 @@
 {
     "displayName": "Equilibrado",
-    "fluxCapacitors": 34,
+    "fluxCapacitors": 30,
     "fluxVents": 50,
     "goalVariant": true,
     "hullId": "odyssey",
@@ -21,11 +21,7 @@
         {
             "autofire": false,
             "mode": "ALTERNATING",
-            "weapons": {
-                "WS 004": "pilum",
-                "WS 005": "pilum",
-                "WS 006": "pilum"
-            }
+            "weapons": {"WS 006": "pilum"}
         },
         {
             "autofire": true,
@@ -39,6 +35,14 @@
         },
         {
             "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "gravitonbeam",
+                "WS 005": "gravitonbeam"
+            }
+        },
+        {
+            "autofire": false,
             "mode": "LINKED",
             "weapons": {
                 "WS 007": "pdlaser",

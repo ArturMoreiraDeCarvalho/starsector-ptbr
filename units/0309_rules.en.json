@@ -1,0 +1,531 @@
+{
+ "chunk": 309,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "Pirate fleet non-hostile due to ARC influence",
+   "ctx": "greetingsPirateAskoniaARC2: AddTextSmall \"Pirate fleet non-hostile due to ARC influence\" highlight"
+  },
+  {
+   "i": 2,
+   "en": "A holoprojector displays a larger-than-life image of Hector Andrada, the new Supreme Executor, flanked by Diktat banners waving in simulated wind. His piercing gaze is cast toward a ventilation duct.",
+   "ctx": "flavorTextMarketDiktatHector: AddText \"A holoprojector displays a larger-than-life image of Hector Andrada, the new Supreme Executor, flanked by Dikta"
+  },
+  {
+   "i": 3,
+   "en": "The port concourse is filled with a mix of trader ships and military craft. Offloading ship captains are processed by a dour Diktat logistics officer before being allowed to proceed. Traders in crisp suits, loyalty pins displayed on each collar, pass a datapad loaded with cargo manifests amongst themselves.",
+   "ctx": "flavorTextMarketDiktatAchilles: AddText \"The port concourse is filled with a mix of trader ships and military craft. Offloading ship captains are proces"
+  },
+  {
+   "i": 4,
+   "en": "A holoprojector displays a larger-than-life image of Achilles Andrada, the new Supreme Executor, flanked by banners of the reformed Diktat waving in simulated wind. His commanding gaze is cast toward a ventilation duct.",
+   "ctx": "flavorTextMarketDiktatAchilles: AddText \"A holoprojector displays a larger-than-life image of Achilles Andrada, the new Supreme Executor, flanked by ban"
+  },
+  {
+   "i": 5,
+   "en": "A flickering holoprojector displays a larger-than-life image of Hector Andrada, the new Supreme Executor, flanked by Sindrian Diktat banners that could be waving in the sea wind. His commanding gaze is cast toward the gull-analogs circling above.",
+   "ctx": "flavorTextMarketDiktatVolturnHector: AddText \"A flickering holoprojector displays a larger-than-life image of Hector Andrada, the new Supreme Executor, flank"
+  },
+  {
+   "i": 6,
+   "en": "The main port of Volturn is built on a flotilla of huge burned-looking barges wallowing in oily water. The smell of ozone and salt assaults you as you disembark. Offloading ship captains are processed by a dour Diktat logistics officer before being allowed to proceed to the public concourse. Traders in crisp suits, Diktat pins dutifully displayed on the collar, pass around a datapad loaded with cargo manifests.",
+   "ctx": "flavorTextMarketDiktatVolturnAchilles: AddText \"The main port of Volturn is built on a flotilla of huge burned-looking barges wallowing in oily water. The smel"
+  },
+  {
+   "i": 7,
+   "en": "A flickering holoprojector displays a larger-than-life image of Achilles Andrada, the new Supreme Executor, flanked by Sindrian Diktat banners that could be waving in the sea wind. His commanding gaze is cast toward the gull-analogs circling above.",
+   "ctx": "flavorTextMarketDiktatVolturnAchilles: AddText \"A flickering holoprojector displays a larger-than-life image of Achilles Andrada, the new Supreme Executor, fla"
+  },
+  {
+   "i": 8,
+   "en": "A single, relatively powerful ship with little logistical support.",
+   "ctx": "ngcRandomStartExtLoneShip: SetTooltip ngcRandomExt1 \"A single, relatively powerful ship with little logistical support.\""
+  },
+  {
+   "i": 9,
+   "en": "A few rag-tag frigates, and possibly a capable subordinate.",
+   "ctx": "ngcRandomStartExtSmallFleet: SetTooltip ngcRandomExt2 \"A few rag-tag frigates, and possibly a capable subordinate.\""
+  },
+  {
+   "i": 10,
+   "en": "An advanced Hyperion-class frigate, in very poor shape indeed.",
+   "ctx": "ngcRandomStartExtHyperion: SetTooltip ngcRandomExt3 \"An advanced Hyperion-class frigate, in very poor shape indeed.\""
+  },
+  {
+   "i": 11,
+   "en": "A non-combat shuttle, a general lack of resources, and adherence to spacer tradition that makes it more difficult to accumulate credits. Very difficult, only intended as a challenge for the starfarer that's seen it all.",
+   "ctx": "ngcSpacerStartExt: SetTooltip ngcSpacer \"A non-combat shuttle, a general lack of resources, and adherence to spacer tradition that makes it"
+  },
+  {
+   "i": 12,
+   "en": "Say something outrageous to make them go away.",
+   "ctx": "lppHookResponseTroll: SetTooltip lpp_hookTroll \"Say something outrageous to make them go away.\""
+  },
+  {
+   "i": 13,
+   "en": "Visiting the shrine is currently impossible due to the active uprising of the Volturnian Self Defense Covenant.",
+   "ctx": "lppVolturnShrineDenied: SetTooltip lpp_volturnVisitStart \"Visiting the shrine is currently impossible due to the active uprising of the Volturni"
+  },
+  {
+   "i": 14,
+   "en": "Strikes and protests due to vigilante anti-Luddic violence",
+   "ctx": "lppJangalaProtestMarines3: MarketCMD addUnrest jangala 3 \"Strikes and protests due to vigilante anti-Luddic violence\""
+  },
+  {
+   "i": 15,
+   "en": "Ongoing protests and strikes due to vigilante raid on Luddic settlements",
+   "ctx": "DEVmazalotUnrestTest: MarketCMD addUnrest mazalot 6 \"Ongoing protests and strikes due to vigilante raid on Luddic settlements\""
+  },
+  {
+   "i": 16,
+   "en": "Ongoing strikes and protests in response to vigilante raid on Luddic settlements",
+   "ctx": "lkeVirensRaidFinishedB: MarketCMD addUnrest mazalot 8 \"Ongoing strikes and protests in response to vigilante raid on Luddic settlements\""
+  },
+  {
+   "i": 17,
+   "en": "Menes Yaribay is more likely to trust the word - and credit - of someone who is technically a fellow demarchon of the Persean League.",
+   "ctx": "BFFImmBornBuyerOptHubD: SetTooltip bffi_mmBornBuyerLeague \"Menes Yaribay is more likely to trust the word - and credit - of someone who is techn"
+  },
+  {
+   "i": 18,
+   "en": "Can not send hyperwave signal out from abyssal hypersace.",
+   "ctx": "cob_disableSupport: SetTooltip COB_support \"Can not send hyperwave signal out from abyssal hypersace.\""
+  },
+  {
+   "i": 19,
+   "en": "Requires a colony with at least a Military Base.",
+   "ctx": "cob_disableSupport2: SetTooltip COB_support \"Requires a colony with at least a Military Base.\""
+  },
+  {
+   "i": 20,
+   "en": "priority message",
+   "ctx": "oc_check: Highlight \"priority message\""
+  },
+  {
+   "i": 21,
+   "en": "Convinced officer to stay in your fleet despite command arrangement irregularities",
+   "ctx": "oc_officerAnswerSelComplainAgain: SetStoryOption oc_convinceToStay 1 convinceOfficer ui_char_spent_story_point_leadership \"Convinced officer to stay in yo"
+  },
+  {
+   "i": 22,
+   "en": "high-priority call",
+   "ctx": "mercs_leavingInitial: Highlight \"high-priority call\""
+  },
+  {
+   "i": 23,
+   "en": "Provided the VSDC with credits",
+   "ctx": "DEVstandfastVSDCCoffers2: AddTextSmall \"Provided the VSDC with credits\" highlight"
+  },
+  {
+   "i": 24,
+   "en": "Provided supplies to the VSDC",
+   "ctx": "DEVstandfastVSDCCoffers2: AddTextSmall \"Provided supplies to the VSDC\" highlight"
+  },
+  {
+   "i": 25,
+   "en": "You have given all that Standfast has asked for. She and the fighters of the VSDC now need only time.",
+   "ctx": "standfastOfferDoneCheck: SetTooltip standfastVSDC_offerHelp \"You have given all that Standfast has asked for. She and the fighters of the VSDC no"
+  },
+  {
+   "i": 26,
+   "en": "You must wait a month before making another contribution to the Volturnian resistance movement.",
+   "ctx": "standfastOfferRecentCheck: SetTooltip standfastVSDC_offerHelp \"You must wait a month before making another contribution to the Volturnian resistanc"
+  },
+  {
+   "i": 27,
+   "en": "You must wait a day or two before making another contribution to the Volturnian resistance movement.",
+   "ctx": "standfastOfferRecentCheckDuring: SetTooltip standfastVSDC_offerHelp \"You must wait a day or two before making another contribution to the Volturnian resi"
+  },
+  {
+   "i": 28,
+   "en": "You bear a commission of the Sindrian Diktat. The suggestion that you would arm rebels against the Lion of Sindria is absurd.",
+   "ctx": "standfastOfferCheckSDcom: SetTooltip standfastVSDC_offerHelp \"You bear a commission of the Sindrian Diktat. The suggestion that you would arm rebe"
+  },
+  {
+   "i": 29,
+   "en": "some time",
+   "ctx": "standfastVSDCofferTooSoonA: SetTextHighlights \"some time\""
+  },
+  {
+   "i": 30,
+   "en": "one day",
+   "ctx": "standfastVSDCofferTooSoonB: SetTextHighlights \"one day\""
+  },
+  {
+   "i": 31,
+   "en": "Requires 50 units of heavy armaments.",
+   "ctx": "standfastVSDCofferWeapons: SetTooltip standfastVSDC_offerHelpWeapons \"Requires 50 units of heavy armaments.\""
+  },
+  {
+   "i": 32,
+   "en": "Requires 100,000 credits",
+   "ctx": "standfastVSDCofferFuel: SetTooltip standfastVSDC_offerHelpCredits \"Requires 100,000 credits\""
+  },
+  {
+   "i": 33,
+   "en": "Requires 250 units of supplies.",
+   "ctx": "standfastVSDCofferSupplies: SetTooltip standfastVSDC_offerHelpSupplies \"Requires 250 units of supplies.\""
+  },
+  {
+   "i": 34,
+   "en": "You've already provided heavy armamements to the VSDC resistance fighters.",
+   "ctx": "standfastVSDCofferWeaponsDone: SetTooltip standfastVSDC_offerHelpWeapons \"You've already provided heavy armamements to the VSDC resistance fighters.\""
+  },
+  {
+   "i": 35,
+   "en": "You've already provided fuel to the VSDC resistance fighters.",
+   "ctx": "standfastVSDCofferCreditsDone: SetTooltip standfastVSDC_offerHelpCredits \"You've already provided fuel to the VSDC resistance fighters.\""
+  },
+  {
+   "i": 36,
+   "en": "You've already provided supplies to the VSDC resistance fighters.",
+   "ctx": "standfastVSDCofferSuppliesDone: SetTooltip standfastVSDC_offerHelpSupplies \"You've already provided supplies to the VSDC resistance fighters.\""
+  },
+  {
+   "i": 37,
+   "en": "VSDC insurgent activity",
+   "ctx": "VSDCduringStandoffUnrest: SDR_CMD 1 \"VSDC insurgent activity\""
+  },
+  {
+   "i": 38,
+   "en": "You do not have a Hegemony commission.",
+   "ctx": "RaoAskDolosOpts2bCheck: SetTooltip rao_askDolosCreditsB \"You do not have a Hegemony commission.\""
+  },
+  {
+   "i": 39,
+   "en": "You may not want to risk offending Reynard Hannan if you aspire to be held in his good favor.",
+   "ctx": "SD7SyaribayDiscussStart2: SetTooltip sd7s_yaribayDiscussStart3 \"You may not want to risk offending Reynard Hannan if you aspire to be held in his "
+  },
+  {
+   "i": 40,
+   "en": "Sent unredacted copy of the ANDRADA files to Horus Yaribay",
+   "ctx": "SD7SyaribayDiscussStartGive: AddTextSmall \"Sent unredacted copy of the ANDRADA files to Horus Yaribay\" highlight"
+  },
+  {
+   "i": 41,
+   "en": "Ask if the High Hegemon has made contact.",
+   "ctx": "YaribayDaudFollowup: SetTooltip yaribay_followup1 \"Ask if the High Hegemon has made contact.\""
+  },
+  {
+   "i": 42,
+   "en": "Earned the trust of Horus Yaribay",
+   "ctx": "YaribayFollowup1: AddTextSmall \"Earned the trust of Horus Yaribay\" highlight"
+  },
+  {
+   "i": 43,
+   "en": "Bring news of Horus Yaribay's agreement to Fortuna Kato",
+   "ctx": "SDRhorusAskFortunaBackAchillesB: AddTextSmall \"Bring news of Horus Yaribay's agreement to Fortuna Kato\" highlight"
+  },
+  {
+   "i": 44,
+   "en": "Additional dev options for testing Gens interactions throughout SDR",
+   "ctx": "DEVkazeronOptsB: SetTooltip dev_kazeronOptsB \"Additional dev options for testing Gens interactions throughout SDR\""
+  },
+  {
+   "i": 45,
+   "en": "Faro Inesis",
+   "ctx": "InesisTechTurnInResponseFirst: Highlight \"Faro Inesis\""
+  },
+  {
+   "i": 46,
+   "en": "Received comms ID for Faro Inesis",
+   "ctx": "InesisTechTurnInResponseFirst: AddTextSmall \"Received comms ID for Faro Inesis\" highlight"
+  },
+  {
+   "i": 47,
+   "en": "Mostly to do with Moyra Standfast and the shrine of Volturn right now.",
+   "ctx": "devVolturnOpenOption: SetTooltip sd_openDevOptions1 \"Mostly to do with Moyra Standfast and the shrine of Volturn right now.\""
+  },
+  {
+   "i": 48,
+   "en": "This will shunt you to Qaras dev options. Don't worry, you can just back out of those normally and everything will be fine.",
+   "ctx": "devSDTUchooseWeapon: SetTooltip dev_qarasChooseWeapon \"This will shunt you to Qaras dev options. Don't worry, you can just back out of those "
+  },
+  {
+   "i": 49,
+   "en": "She is technically correct, though there are provisions for the Supreme Executor to grant powers and authorities that may override the heirarchy. Does Dolos Macario bear such powers? He would not, of course, be required to tell you if he did.",
+   "ctx": "sdtuHyderTalkRound2CheckA: SetTooltip sdtu_hyderTalk2Transfer \"She is technically correct, though there are provisions for the Supreme Executor to "
+  },
+  {
+   "i": 50,
+   "en": "If Dolos Macario is technically acting under secret provisions authorized by the Supreme Executor, then his personal authority would override Hyder's objections. You are not aware of such provisions but, given your position, you would not be among the first to know of such a provision.",
+   "ctx": "sdtuHyderTalkRound2CheckA: SetTooltip sdtu_hyderTalk2ToMacario \"If Dolos Macario is technically acting under secret provisions authorized by the Su"
+  },
+  {
+   "i": 51,
+   "en": "Horatio Caden's authority is technically second only to the Supreme Executor - unless the Supreme Executor gave some order, condition, or provision to Macario which, by his will, supercedes the usual heirarchy. You would not, of course, be privy to knowledge of such orders as their secrecy is a matter of privilege for the Supreme Executor to determine.",
+   "ctx": "sdtuCadenDemandOptSDcom: SetTooltip sdtu_cadenAgentTransfer \"Horatio Caden's authority is technically second only to the Supreme Executor - unles"
+  },
+  {
+   "i": 52,
+   "en": "If Dolos Macario has been provided with secret provisions or conditional orders to exceed the normal heirarchy of authority upon which the Sindrian Diktat is built, his actions would be wholly legitimate. And, of course, it is not required by any involved party to make you privy to such secret provisions or conditions unless it was the will of the Supreme Executor.",
+   "ctx": "sdtuCadenDemandOptSDcom: SetTooltip sdtu_cadenAgentMacario \"If Dolos Macario has been provided with secret provisions or conditional orders to ex"
+  },
+  {
+   "i": 53,
+   "en": "You must wait a month before giving another contribution to the ARC.",
+   "ctx": "ImoinuKatoUmbraSupportedCheckA: SetTooltip imoinuUmbra_offerHelp \"You must wait a month before giving another contribution to the ARC.\""
+  },
+  {
+   "i": 54,
+   "en": "You must wait a couple days before giving another contribution to the ARC.",
+   "ctx": "ImoinuKatoUmbraSupportedCheckB: SetTooltip imoinuUmbra_offerHelp \"You must wait a couple days before giving another contribution to the ARC.\""
+  },
+  {
+   "i": 55,
+   "en": "two days",
+   "ctx": "imoinuUmbraOfferHelpTooSoonSDR: Highlight \"two days\""
+  },
+  {
+   "i": 56,
+   "en": "Provided the ARC with fuel",
+   "ctx": "DEVimoinuFulfillAllARCoffers2: AddTextSmall \"Provided the ARC with fuel\" highlight"
+  },
+  {
+   "i": 57,
+   "en": "Provided supplies to the ARC",
+   "ctx": "DEVimoinuFulfillAllARCoffers2: AddTextSmall \"Provided supplies to the ARC\" highlight"
+  },
+  {
+   "i": 58,
+   "en": "Provided weapons to the ARC",
+   "ctx": "DEVimoinuFulfillAllARCoffers2: AddTextSmall \"Provided weapons to the ARC\" highlight"
+  },
+  {
+   "i": 59,
+   "en": "Requires 40 units of heavy armaments.",
+   "ctx": "imoinuARCofferWeapons: SetTooltip imoinuUmbra_offerHelpWeapons \"Requires 40 units of heavy armaments.\""
+  },
+  {
+   "i": 60,
+   "en": "Requires 250 units of fuel.",
+   "ctx": "imoinuARCofferFuel: SetTooltip imoinuUmbra_offerHelpFuel \"Requires 250 units of fuel.\""
+  },
+  {
+   "i": 61,
+   "en": "Requires 200 units of supplies.",
+   "ctx": "imoinuARCofferSupplies: SetTooltip imoinuUmbra_offerHelpSupplies \"Requires 200 units of supplies.\""
+  },
+  {
+   "i": 62,
+   "en": "You've already provided heavy armamements to the ARC resistance fighters.",
+   "ctx": "imoinuARCofferWeaponsDone: SetTooltip imoinuUmbra_offerHelpWeapons \"You've already provided heavy armamements to the ARC resistance fighters.\""
+  },
+  {
+   "i": 63,
+   "en": "You've already provided fuel to the ARC resistance fighters.",
+   "ctx": "imoinuARCofferFuelDone: SetTooltip imoinuUmbra_offerHelpFuel \"You've already provided fuel to the ARC resistance fighters.\""
+  },
+  {
+   "i": 64,
+   "en": "You've already provided supplies to the ARC resistance fighters.",
+   "ctx": "imoinuARCofferSuppliesDone: SetTooltip imoinuUmbra_offerHelpSupplies \"You've already provided supplies to the ARC resistance fighters.\""
+  },
+  {
+   "i": 65,
+   "en": "ARC insurgent activity",
+   "ctx": "ARCduringStandoffUnrest: SDR_CMD addSDInsurgentActivity 1 \"ARC insurgent activity\""
+  },
+  {
+   "i": 66,
+   "en": "Provided fuel to the ARC",
+   "ctx": "imoinuUmbraOfferHelpFuel: AddTextSmall \"Provided fuel to the ARC\" highlight"
+  },
+  {
+   "i": 67,
+   "en": "Provided heavy weapons to the ARC",
+   "ctx": "imoinuUmbraOfferHelpWeapons: AddTextSmall \"Provided heavy weapons to the ARC\" highlight"
+  },
+  {
+   "i": 68,
+   "en": "Gave Leonidas Andrada to Kanta",
+   "ctx": "kpLeonidas_sel: AddTextSmall \"Gave Leonidas Andrada to Kanta\" highlight"
+  },
+  {
+   "i": 69,
+   "en": "Why waste atmo on all this talk? Cut the comms and attack now.",
+   "ctx": "sdPunExComms2: SetTooltip sdPunEx_sayDirect \"Why waste atmo on all this talk? Cut the comms and attack now.\""
+  },
+  {
+   "i": 70,
+   "en": "Fabricated financial data to impress Gallu Blanc, administrator of the Nomios cryosanctum.",
+   "ctx": "BlancCryoAccountsMilLie: SetStoryOption blanc_cryoAccountsMilLieSel 1 blanc_cryoAccountsMilLieSel general \"Fabricated financial data to impress G"
+  },
+  {
+   "i": 71,
+   "en": "You have no need to lie.",
+   "ctx": "BlancCryoAccountsMilLieNoNeed: SetTooltip blanc_cryoAccountsMilLieSel \"You have no need to lie.\""
+  },
+  {
+   "i": 72,
+   "en": "Submitted false investment portfolio",
+   "ctx": "BlancCryoAccountsMilLieSel: AddTextSmall \"Submitted false investment portfolio\" highlight"
+  },
+  {
+   "i": 73,
+   "en": "Put Leonidas into the Cryosanctum of Nomios",
+   "ctx": "BlancCryoStoreLeoAccept: AddTextSmall \"Put Leonidas into the Cryosanctum of Nomios\" highlight"
+  },
+  {
+   "i": 74,
+   "en": "Budget Package - 25,000 credits",
+   "ctx": "BlancTalkCryoPackageSel: AddTextSmall \"Budget Package - 25,000 credits\""
+  },
+  {
+   "i": 75,
+   "en": "Midline Package - 300,000 credits",
+   "ctx": "BlancTalkCryoPackageSel: AddTextSmall \"Midline Package - 300,000 credits\""
+  },
+  {
+   "i": 76,
+   "en": "Deluxe Package - 1,000,000 credits",
+   "ctx": "BlancTalkCryoPackageSel: AddTextSmall \"Deluxe Package - 1,000,000 credits\""
+  },
+  {
+   "i": 77,
+   "en": "You consider it a point of pride to have always kept your head about you.",
+   "ctx": "BlancTalkCryoPackageBudget2: SetTooltip blanc_talkCryoPackageAsel \"You consider it a point of pride to have always kept your head about you.\""
+  },
+  {
+   "i": 78,
+   "en": "You don't mind a bit of a squeeze, do you?",
+   "ctx": "BlancTalkCryoPackageMid2: SetTooltip blanc_talkCryoPackageBsel \"You don't mind a bit of a squeeze, do you?\""
+  },
+  {
+   "i": 79,
+   "en": "The future is only a cool million credits away...",
+   "ctx": "BlancTalkCryoPackageDeluxe: SetTooltip blanc_talkCryoPackageCsel \"The future is only a cool million credits away...\""
+  },
+  {
+   "i": 80,
+   "en": "You would be like a sleeping demigod of myth, awaiting the day of your calling.",
+   "ctx": "BlancTalkCryoPackageBest: SetTooltip blanc_talkCryoPackageDsel \"You would be like a sleeping demigod of myth, awaiting the day of your calling.\""
+  },
+  {
+   "i": 81,
+   "en": "five million",
+   "ctx": "BlancTalkCryoPackageBest: SetTextHighlights \"five million\""
+  },
+  {
+   "i": 82,
+   "en": "Purchased the budget Cryosanctum package",
+   "ctx": "BlancTalkCryoPackageBudgetSel: AddTextSmall \"Purchased the budget Cryosanctum package\" highlight"
+  },
+  {
+   "i": 83,
+   "en": "Purchased the midline Cryosanctum package",
+   "ctx": "BlancTalkCryoPackageMidSel: AddTextSmall \"Purchased the midline Cryosanctum package\" highlight"
+  },
+  {
+   "i": 84,
+   "en": "Purchased the deluxe Cryosanctum package",
+   "ctx": "BlancTalkCryoPackageDeluxeSel: AddTextSmall \"Purchased the deluxe Cryosanctum package\" highlight"
+  },
+  {
+   "i": 85,
+   "en": "Purchased the VIP Cryosanctum package",
+   "ctx": "BlancTalkCryoPackageBestSel: AddTextSmall \"Purchased the VIP Cryosanctum package\" highlight"
+  },
+  {
+   "i": 86,
+   "en": "Comm directory updated",
+   "ctx": "PersonnelOfficerPicksMade: AddTextSmall \"Comm directory updated\" highlight"
+  },
+  {
+   "i": 87,
+   "en": "Only one resupply fleet can be operational at a time.",
+   "ctx": "SupportFleetCheckAvailableResupply: SetTooltip csf_supplyFleet \"Only one resupply fleet can be operational at a time.\""
+  },
+  {
+   "i": 88,
+   "en": "Only one combat task force can be operational at a time.",
+   "ctx": "SupportFleetCheckAvailableTF: SetTooltip csf_taskForce \"Only one combat task force can be operational at a time.\""
+  },
+  {
+   "i": 89,
+   "en": "Called in support fleet",
+   "ctx": "CallFleetTargetSelected: SetStoryOption csf_instant 1 csf_instant ui_char_spent_story_point_leadership \"Called in support fleet\""
+  },
+  {
+   "i": 90,
+   "en": "Extended operating time of task force",
+   "ctx": "taskForceOptionsExtend: SetStoryOption csf_extend 1 csf_extend ui_char_spent_story_point_leadership \"Extended operating time of task force\""
+  },
+  {
+   "i": 91,
+   "en": "It is time to rest.",
+   "ctx": "DEVretirementTest: SetTooltip retire_gracefully \"It is time to rest.\""
+  },
+  {
+   "i": 92,
+   "en": "Surely there are doctors - cyberneticists and flesh-artists - who can extend life for a merely exorbitant price.",
+   "ctx": "DEVretirementTest: SetTooltip retire_NO:\"Surely there are doctors - cyberneticists and flesh-artists - who can extend life for a merely exo"
+  },
+  {
+   "i": 93,
+   "en": "Surely there is someone - a cyberneticist, a flesh-artist who would be willing to do unnatural things for credits. Perhaps 'Doctor' Cydonia can help for a merely exorbitant price.",
+   "ctx": "BeginRetirementCheckA: SetTooltip retire_NO:\"Surely there is someone - a cyberneticist, a flesh-artist who would be willing to do unnatural thi"
+  },
+  {
+   "i": 94,
+   "en": "You can afford to slow down a little, live the life of a dedicated politician and administrator and tend to your colony's wellbeing...\\n\\nAnd perhaps by making the right connections, raise your stature in the Persean Sector. You need not remain the overseer of some fringe upstart extraction operation forever...",
+   "ctx": "retire_optionOwn: SetTooltip retire_optColony \"You can afford to slow down a little, live the life of a dedicated politician and administr"
+  },
+  {
+   "i": 95,
+   "en": "You can afford to slow down a little, live the life of a dedicated politician and administrator and tend to your colonies wellbeing...\\n\\nAnd perhaps by making the right connections, raise your stature in the Persean Sector. You need not remain the overseer of some fringe upstart extraction operation forever...",
+   "ctx": "retire_optionOwnPlural: SetTooltip retire_optColony \"You can afford to slow down a little, live the life of a dedicated politician and administr"
+  },
+  {
+   "i": 96,
+   "en": "You would need to attain special dispensation, but after your service to the Church, it is more than possible.\\n\\nYou can imagine a garden, and beyond, a babbling brook disappearing into the forest, trees rising to a ridgeline, cloud-capped mountains over the sea beyond...",
+   "ctx": "retire_optionLuddicA: SetTooltip retire_optGilead \"You would need to attain special dispensation, but after your service to the Church, it is "
+  },
+  {
+   "i": 97,
+   "en": "Whatever its humble words, the Church would welcome the grandeur of your tithes.\\n\\nThere could be a place for you to raise bovids while watching towering clouds roll across the warm, endless skies.",
+   "ctx": "retire_optionLuddicB: SetTooltip retire_optTartessus \"Whatever its humble words, the Church would welcome the grandeur of your tithes.\\n\\nTher"
+  },
+  {
+   "i": 98,
+   "en": "With your fortune, the dangers of Qaras could be ignored, enemies bought off (or knocked off) and its opportunities enjoyed.\\n\\nWhy not build a den of hedonism that watches over the churn of the truly free - brutal, yes, but so alive!",
+   "ctx": "retire_optionQaras: SetTooltip retire_optQaras \"With your fortune, the dangers of Qaras could be ignored, enemies bought off (or knocked off"
+  },
+  {
+   "i": 99,
+   "en": "You've influence, credits, and above all credibility enough to secure a place on the one living world uncorrupted by enemies of the true Luddic Path.\\n\\nYou envision a retreat built like a bunker amidst the churn of life's cycles, a place of contemplation between the divine fury of the storm and the vibrant green of the blessed peace in its lull.",
+   "ctx": "retire_optionChalcedon: SetTooltip retire_optChalcedon \"You've influence, credits, and above all credibility enough to secure a place on the one"
+  },
+  {
+   "i": 100,
+   "en": "Tri-Tachyon has nothing but respect for individuals of your class of wealth, whatever their history or outstanding legal quibbles.\\n\\nEochu Bres is a young and growing world, and this is the perfect time to choose a piece of prime real estate to develop into a palatial chateau to match your ambitions.",
+   "ctx": "retire_optionTT: SetTooltip retire_optEochuBres \"Tri-Tachyon has nothing but respect for individuals of your class of wealth, whatever th"
+  },
+  {
+   "i": 101,
+   "en": "With a sufficiently large donation, and your obvious knowledge of recent history and a wide range of practical skills, you imagine a place could be found for you at the Galatia Academy. Baird might take some work, but Sebestyen is a miracle.\\n\\nTeaching the next generation of leaders and scientists could be fun, and perhaps you could even help advance human knowledge from the theoretical side after many long cycles spent on the practical...",
+   "ctx": "retire_optionGalatia: SetTooltip retire_optGalatia \"With a sufficiently large donation, and your obvious knowledge of recent history and a wid"
+  },
+  {
+   "i": 102,
+   "en": "You have honorably born a commission for the Hegemony and done your duty. It may be bureaucratic, but they recognize merit, practicality - and the value of a winner.\\n\\nYou could settle down to teach the next generation of officers a thing or two about applied space combat. Then you could spend evenings over a pint, swapping stories with old officers and mercs who've gone legitimate.",
+   "ctx": "retire_optionHegemonyCom: SetTooltip retire_optCoatl \"You have honorably born a commission for the Hegemony and done your duty. It may be bureaucr"
+  },
+  {
+   "i": 103,
+   "en": "The polity is significant enough not to be swept up in the machinations of Kazeronian Gens, rich enough to support your lifestyle, and stable enough that it is unlikely to see any serious crime or war.\\n\\nAnd the weather is fantastic, even if the beaches are artificial.",
+   "ctx": "retire_optionLeagueFikenhild: SetTooltip retire_optFikenhild \"The polity is significant enough not to be swept up in the machinations of Kazeronian Ge"
+  },
+  {
+   "i": 104,
+   "en": "Kazeron is the jewel of the Persean League, inhabited by the most avant-garde artists, the most learned scientists (outside the Galatia Academy, anyway), and the wealthiest traders. The possibilities are endless.\\n\\nAbove all you have Reynard Hannan's favor and blessing. With that rare privilege, all doors and possibilities are open to you.",
+   "ctx": "retire_optionLeagueKazeronHannan: SetTooltip retire_optKazeronHannan \"Kazeron is the jewel of the Persean League, inhabited by the most avant-garde artist"
+  },
+  {
+   "i": 105,
+   "en": "Kazeron is the jewel of the Persean League, inhabited by the most avant-garde artists, the most learned scientists (outside the Galatia Academy, anyway), and the wealthiest traders. The possibilities are endless.\\n\\nAnd you have Fortuna Kato's favor and blessing, which opens more doors and opportunities than most mere mortals could ever hope for...",
+   "ctx": "retire_optionLeagueKazeronKato: SetTooltip retire_optKazeronKato \"Kazeron is the jewel of the Persean League, inhabited by the most avant-garde artists,"
+  }
+ ]
+}

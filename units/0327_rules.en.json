@@ -1,0 +1,171 @@
+{
+ "chunk": 327,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"Of course you feign ignorance of your acts - spacers like you have no notion of honor and glory, or of the Andradan Movement which propels the living spirit of history.\" A look of disgust grows on $hisOrHer face. \"Your scheming attempt to undermine the true expression of Philip Andrada's transcendent vision will be met by the military might of the Sindrian Diktat.\"\r\n\r\n\"I shall bomb your pitiable fuel production operation to dust. I shall bomb your population of vagabonds and criminals to dust. I shall destroy everything that stands against the authority of the Supreme Executor!\"",
+   "ctx": "data/campaign/rules.csv sdPunExSayEconWar [text]"
+  },
+  {
+   "i": 2,
+   "en": "High Hegemon Baikal Daud looks aside. He seems to actually think about it, and, after a moment, he returns his gaze to you.\r\n\r\n\"No.\"",
+   "ctx": "data/campaign/rules.csv hegTalkInspectDaudVictoryC [text]"
+  },
+  {
+   "i": 3,
+   "en": "That seems to get $hisOrHer attention. \"I see,\" $heOrShe says, eyes narrowed. \"You shall surrender the alleged planetkiller device to my custody for... confirmation of your claims. It is, of course, illegal to possess such a weapon without the direct authorization of the Supreme Executor.\"\r\n\r\n\"This matter is quite delicate, you surely understand,\" $heOrShe says in a lower voice. \"Imagine a repeat of the Opis Incident - the rebel terrorists blew up their own moon to vex Admiral Andrada's authority!\"\r\n\r\nIn a conciliatory tone, $heOrShe adds, \"I'll ensure you receive compensation, of course. 100,000 credits.",
+   "ctx": "data/campaign/rules.csv PKGiveToDiktat3 [text]"
+  },
+  {
+   "i": 4,
+   "en": "You comply with the $rank's request, allowing a technical team to board your $shipOrFleet to inspect and remove the planetkiller.\r\n\r\nThe Diktat $rank beams. \"The Lion is generous to those that serve his Great Movement and I- you are sure to be recognized for your small contribution to his Final Victory. A weapon such as this... it will ensure the reign of the Sindrian Diktat for a thousand cycles!\"\r\n\r\nWith a final satisfied grin, $heOrShe turns to shut off the comms, halts, then touches $hisOrHer forehead. \"I almost forgot- your payment.\"\r\n\r\nA tap at a datapad. \"See? Both of us may be rewarded by service to the Supreme Executor.\"",
+   "ctx": "data/campaign/rules.csv pk_diktatComplySel [text]"
+  },
+  {
+   "i": 5,
+   "en": "You comply enthusiastically to the $rank's request, welcoming a technical team to board your $shipOrFleet to inspect and remove the planetkiller.\r\n\r\nThe Diktat $rank follows your lead to espouse enthusiastic admiration for the Supreme Executor. \"The Lion is generous to those who serve his Great Movement and Eternal Vision! A weapon such as this... it will ensure the reign of the Sindrian Diktat for a thousand cycles! You and I are sure to be recognized and rewarded,\" here, $heOrShe gives a wink, \"for our contributions to his Final Victory. Ah, let's add a little to that reward; the Movement serves those who serve it, don't you agree?\" \r\n\r\n$HeOrShe produces a satisfied smile, leaving this hanging as a rhetorical question as $heOrShe signs off to see the planetkiller turned over to some secret arsenal or other.",
+   "ctx": "data/campaign/rules.csv pk_diktatComplyHappySel [text]"
+  },
+  {
+   "i": 6,
+   "en": "You consider certain discoveries you've made. Although open to a certain amount of information-sharing, you suspect that you'll get little information of immediate value out of Skiron due to her adherence to 'the Protocols'.",
+   "ctx": "data/campaign/rules.csv PKSentinelHubConfInB [text]"
+  },
+  {
+   "i": 7,
+   "en": "You send off a quick order to your purser to coordinate intake of certain medical cases from the colony of Sentinel.\r\n\r\nTheir suffering due to gaps in technological access and the harsh environment is, upon review, appalling. Like something out of a grim historical holo about Old Earth - or a scene of the underclass on one of the poorer Core worlds.",
+   "ctx": "data/campaign/rules.csv PKSentinelTakeMedicalCases [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"Old Earth, mother Terra. From whence we came, long gone. The Luddics aren't completely wrong in their stories. Though, hm, they possess few qualms about 'improving' details to appeal to their quotidian moral framing.\"\r\n\r\n\"The historical record is far more complex than that telling, and far more difficult. Far more relatable in the end as well, I believe. Every day we survive by powerful technologies which any one of us barely understands, and which may unleash truly apocalyptic destruction. Mistakes are made, tragedy results; it's only a question of scale.\"\r\n\r\n$HeOrShe considers this for a moment, then begins mumbling a critical response to $hisOrHer own thoughts, \"But scale can indeed fundamentally change the quality of phenomena and hence the contextualization of the moral dimension, hmm, quite entirely! Hmm...\"",
+   "ctx": "data/campaign/rules.csv HistorianBackstoryBlurb07 [text]"
+  },
+  {
+   "i": 9,
+   "en": "The clatter of drinkware, the eruptions of boasting and harsh laughter, are interrupted by a commotion.\r\n\r\n\"$PlayerName!\"\r\n\r\nA skinny crewman in torn jumpsuit shouts your name and leaps on a table, kicking aside glasses and earning himself curses. His eyes are wide, his face sweaty with stims.",
+   "ctx": "data/campaign/rules.csv barPAA0 [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"Warlord Kanta sends her hate!\" \r\n\r\nThe ugly autopistol in his hand vomits a burst of low-power rounds before it jerks with an off-pitch snap - then, in in the relative quiet following the fusillade, you hear a piece of metal hit a ceiling-vent with a distinct metallic ping.",
+   "ctx": "data/campaign/rules.csv barPAA0b [text]"
+  },
+  {
+   "i": 11,
+   "en": "The would-be assassin stares alarmed at his smoking hack-fab gun, giving it a shake before resqueezing the trigger. A fruitless effort.\r\n\r\nTaking a moment to perform damage assessment, you discover that you are entirely unharmed.\r\n\r\nA couple pirates behind you were hit by the makeshift autopistol's slugs, but they are enraged rather than wounded - their armored vacsuits served them well.",
+   "ctx": "data/campaign/rules.csv barPAA1 [text]"
+  },
+  {
+   "i": 12,
+   "en": "Patrons of the bar quickly draw weapons of their own to return the promise of violence, much magnified and of far more reliable make.\r\n\r\nCrackling gunfire erupts, and the clap and flash of DEW discharge drowns out shouts and screams.\r\n\r\nThe lighting flickers and strobes, the atmo quickly filling with smoke and the shredded forgecloth which had been affixed to ceilings and walls to damp ambient sound.",
+   "ctx": "data/campaign/rules.csv barPAA1b [text]"
+  },
+  {
+   "i": 13,
+   "en": "Your bodyguards extract you from the growing chaos, out a side-door.\r\n\r\nAssembling outside you see what passes for local MuniSec: a few semi-official armed gangs, stationing themselves threateningly at corridor-intersections to stare down interlopers. They give your party of accompanying bodyguards a respectful glance, and look on - you didn't start the trouble, so you may go.\r\n\r\nDisplay of arms is no crime. The crime is the unauthorized and unprovoked (in the immediate sense) attempt on your life, for this disrespects the local ward-boss who should have been informed of the assassination ahead of time. Hungry airlocks will be fed after this incident if any collaborators (or scape-goats) can be connected to the act.",
+   "ctx": "data/campaign/rules.csv barPAA2 [text]"
+  },
+  {
+   "i": 14,
+   "en": "DONE set \"Bornanew Files False Idols\" as completed.",
+   "ctx": "data/campaign/rules.csv LCDEVsetBFFIdoneSel [text]"
+  },
+  {
+   "i": 15,
+   "en": "By the way, Arroyo isContact is true.",
+   "ctx": "data/campaign/rules.csv DEVttOptionsArroyoContactTest [text]"
+  },
+  {
+   "i": 16,
+   "en": "Set so Faro Inesis thinks he decrypted the ANDRADA files for you",
+   "ctx": "data/campaign/rules.csv DEVttMakeInesisDecrypted [text]"
+  },
+  {
+   "i": 17,
+   "en": "Done. It's as if you never did... whatever you did, and he's back in his cryotube in your hold.\r\n\r\nOr if you never did anything, here he is!",
+   "ctx": "data/campaign/rules.csv DEVtibicenaResetLeoSel [text]"
+  },
+  {
+   "i": 18,
+   "en": "DEV \r\nSet met arroyo to true, and added as potential contact\r\nSet met gargoyle to true, and unhidden\r\nNOTE: you have to \"Develop Contact\" with him still!",
+   "ctx": "data/campaign/rules.csv DEVttMakeArroyoContactOption2 [text]"
+  },
+  {
+   "i": 19,
+   "en": "Faro Inesis is unhidden on Achaman Station and is a potential contact\r\nNOTE: you have to \"Develop Contact\" with him still!",
+   "ctx": "data/campaign/rules.csv DEVttMakeInesisContactOption2 [text]"
+  },
+  {
+   "i": 20,
+   "en": "Your ops chief also remembers, it seems, for they meet your eye just briefly as they give orders for the salvor teams to adjust dispositions in response to this discovery.",
+   "ctx": "data/campaign/rules.csv salSRBWopsRespA [text]"
+  },
+  {
+   "i": 21,
+   "en": "Your ops chief also remembers, it seems, for they meet your eye just briefly as they give orders for the salvor teams to adjust dispositions in response to this discovery. As you recall, Ops didn't even smile. They never joke about procedure.\r\n\r\nNever.",
+   "ctx": "data/campaign/rules.csv salSRBWopsRespC [text]"
+  },
+  {
+   "i": 22,
+   "en": "The ancient war machine drifts, it's hull battered and scarred by aeons-old war. Power signs are minimal.",
+   "ctx": "data/campaign/rules.csv mk1_wreckDetails [text]"
+  },
+  {
+   "i": 23,
+   "en": "Your sensors officer begins a preliminary high-power scan of the dark mass as your operations chief preps salvor teams.\r\n\r\n\"$PlayerSirOrMadam, this looks... there's nothing quite like this on file, but...\" Sensors gives up on words and pulls a detailed false-color scan into the primary display.\r\n\r\nSomeone lets out a gasp. \r\n\r\nThe database assistant algorithm won't provide a positive ID, but that form is unmistakable to the human eye.\r\n\r\nThis is the Onslaught Mk.I, the ship of legend.",
+   "ctx": "data/campaign/rules.csv mk1_exploreFirstTime [text]"
+  },
+  {
+   "i": 24,
+   "en": "Cautiously, team by team, your operations chief reactivates exploration and assessment of the hulk.\r\n\r\nBafflingly crude automation is wormed throughout the ship, whispering to itself. Interfaces are built on familiar fundamental principles, but aesthetically red-shifted, seemingly from an alien culture.\r\n\r\nWhat records remain are damaged where they aren't missing entirely. The logs tell of aeons of war in the darkness between the stars. Human crew in and out of cryo, continually diminished, replaced by the augmented wounded, then the cyborg rebuilds, and then, and then... this exhausted humming, clicking thing threaded throughout the ship.",
+   "ctx": "data/campaign/rules.csv mk1_explore5 [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"Indeed,\" He looks at you brightly. \"Though I'm certain mere credits shall pale in comparison to the illumination of the unknown. Knowledge, after all, is the greatest treasure.\"\r\n\r\nElek waves a hand, \"Don't misunderstand me. I may be a man whose domain is of the mind, but I appreciate that those such as yourself have baser concerns. Trust that you will be rewarded! This project is funded by an excellent patron of the sciences for whom I vouch quite entirely.\"",
+   "ctx": "data/campaign/rules.csv gaDHOvisitElekHubSelA [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"It is?\" Elek is taken aback. \"I was sure that was enough. Maybe it was 50,000?\"",
+   "ctx": "data/campaign/rules.csv gaDHOvisitElekHubSelA2c [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"Very well. I'll simply find an adventurer who is interested in the advancement of human knowledge. To say nothing of, of, of wealth and glory!\"\r\n\r\n\"Good day!\"\r\n\r\nHe hits the cut-off, and you're left with the logo of the Galatia Academy Planetology Department.",
+   "ctx": "data/campaign/rules.csv gaDHOvisitElekAgainDecline [text]"
+  },
+  {
+   "i": 28,
+   "en": "It's too big, too dangerous for him to have stumbled upon himself. And based on what you know from the sensor array data, it was originally someone else's project entirely... around 200 cycles ago.\r\n\r\nSomeone long dead. Probably.",
+   "ctx": "data/campaign/rules.csv gaDHO_mk1explore8interrupt3d [text]"
+  },
+  {
+   "i": 29,
+   "en": "Academician Elek could not have possibly known his sensor data would lead to... this. Could he?\r\n\r\nIt's too big, too dangerous for a pretentious, if bombastic, academic like Elek to have stumbled upon himself. And based on what you know from the sensor array data, it was someone else's project entirely around 200 cycles ago.\r\n\r\nSomeone long dead. Probably.",
+   "ctx": "data/campaign/rules.csv gaDHO_mk1explore8interruptC [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"No, this is terribly unlikely,\" he says. \"The imaginings of some absurd holo-novel. Which of my students put you up to this jape?\"",
+   "ctx": "data/campaign/rules.csv gaDHOendingGiveSumEnd [text]"
+  },
+  {
+   "i": 31,
+   "en": "Elek gives an amused huff, as if at a student giving an excuse for not completing coursework by his deadline.\r\n\r\n\"I'm not angry,\" he says. \"I'm disappointed.\"",
+   "ctx": "data/campaign/rules.csv gaDHOendingFoundFirst2b [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"$PlayerSirOrMadam. It's clean.\"\r\n\r\nOps orders a start to the real work now. A senior salvage technician boots up a small, cheap interfacer which they hold out on a simple telescoping pole to probe the mod-hardware control system. Telemetry pours into the isolated computing environment set up by your technology officer's team, and they begin to interpret the results.\r\n\r\n\"Well, we think it's from the Galatia Academy,\" Tech says, eyes on an expanding visual model of the computing environment.",
+   "ctx": "data/campaign/rules.csv gaDHOjustFoundArray2 [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"Um. It's written on the equipment cases. See, here.\" They pull a zoom-panel up on their TriPad. \"It says 'property of the Galatia Academy Planetology Department by the authority of Academician Cornelius Elek...\" their words drift off as the tech team's findings begin to coalesce into comprehensible patterns.\r\n \r\nThe story comes together: this old sensor array scanned a broad swath of the Abyss for very particular signatures over 200 cycles ago. Someone installed this new hardware quite recently, and it extracted that data from the sensor array's buffers, processed it using a clever suite of algorithms concocted as, presumably, the thesis project of some bright student of the Galatia Academy.\r\n\r\nThen no one ever came back to collect the data.",
+   "ctx": "data/campaign/rules.csv gaDHOjustFoundArray3 [text]"
+  }
+ ]
+}

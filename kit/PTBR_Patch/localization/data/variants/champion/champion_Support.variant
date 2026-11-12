@@ -1,10 +1,14 @@
 {
     "displayName": "Apoio",
-    "fluxCapacitors": 27,
+    "fluxCapacitors": 17,
     "fluxVents": 30,
     "goalVariant": true,
     "hullId": "champion",
-    "hullMods": ["dedicated_targeting_core"],
+    "hullMods": [
+        "dedicated_targeting_core",
+        "missleracks",
+        "eccm"
+    ],
     "permaMods": [],
     "sMods": [],
     "variantId": "champion_Support",

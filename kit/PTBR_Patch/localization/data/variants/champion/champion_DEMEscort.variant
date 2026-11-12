@@ -1,14 +1,15 @@
 {
     "displayName": "Escolta DEM",
-    "fluxCapacitors": 10,
-    "fluxVents": 7,
+    "fluxCapacitors": 11,
+    "fluxVents": 11,
     "goalVariant": true,
     "hullId": "champion",
     "hullMods": [
         "pointdefenseai",
         "magazines",
         "targetingunit",
-        "advancedoptics"
+        "advancedoptics",
+        "hardenedshieldemitter"
     ],
     "permaMods": [],
     "sMods": [],

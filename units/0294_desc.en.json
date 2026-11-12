@@ -1,0 +1,81 @@
+{
+ "chunk": 294,
+ "cat": "desc",
+ "items": [
+  {
+   "i": 1,
+   "en": "A slow-firing, extremely high damage energy gun meant to pose a threat to the largest ships in the Sector. Can only be used at close-range.\n\nThe antimatter blaster is one of the most complicated weapons in existence. Antimatter is stored in shells that have their own powered magnetic field projector built into the casing. In order to generate a field strong enough to contain and eject the antimatter (typically positrons) the built-in capacitor must spend a considerable time charging. Once a magnetic field of the required strength is generated, the shell is breached and the antimatter is ejected toward the target, its main propellant being the Lorentz force around the muzzle of the blaster. \n\nExtremely effective versus all targets.",
+   "ctx": "data/strings/descriptions.csv amblaster/WEAPON [text1]"
+  },
+  {
+   "i": 2,
+   "en": "A short-range, short-duration beam that causes heavy damage in a burst. Capable against armor, as far as beam weapons go.\n\nThis weapon is, at base, simply a laser beam with a tripled sapphire gain medium to ensure the highest possible weaponized wavelengths. The photons are fired through a hyperdimensional filter which outputs an energy beam that exists partially in p-space. The physics of the filter are not properly understood, and in laboratory settings the p-space components of a beam exceeding 6.66 giga-watts will sometimes flicker - as if blocked. Weapon mounts never use such high energy levels to ensure reliability.",
+   "ctx": "data/strings/descriptions.csv phasebeam/WEAPON [text1]"
+  },
+  {
+   "i": 3,
+   "en": "An atypical beam weapon that is highly effective versus shields, destabilizing them and increasing damage dealt from all sources. Excellent range, but the damage per second ratio vs armor is sub-par.\n\nThe core of this weapon is a brane rift generator which follows a 500nm tracer beam. The beam prepares local space-time for the rift in addition to providing targeting feedback to manual operators. \n\nOnce the rift is open, higher-brane gravitons enter local space time en masse and persist up to 100 centiseconds. Damage to the target is caused by the resulting intense gravimetric shear. These higher-brane gravitons easily overwhelm standard energy fields.",
+   "ctx": "data/strings/descriptions.csv gravitonbeam/WEAPON [text1]"
+  },
+  {
+   "i": 4,
+   "en": "Fires repeating bolts of energy, favoring the medium-range combatant that has the flux reserves and wants to put constant pressure on the enemy.\n\nDesigned to fire pulses rather than a constant beam, with a total power output exceeding constant-operation designs. As with continuous lasers, a carbon dioxide gain medium is fed energy and produces photons at eleven microns wavelengths. \n\nGreater energy delivered in shorter time means the target is ablated, a process that causes the vaporization of small surface sections. The resulting shock waves do additional structural damage. ",
+   "ctx": "data/strings/descriptions.csv pulselaser/WEAPON [text1]"
+  },
+  {
+   "i": 5,
+   "en": "Fires bolts of energy at enemy targets. With high damage and flux costs, the heavy blaster is one of the most damaging weapons for its size.\n\nA reliable energy weapon, the Heavy Blaster uses improved high-energy gas ammunition which, when activated by a strong electric current, is converted into plasma. A guiding electron is fired along the axis of traversal beforehand, ensuring that the uncontained plasma bolt will travel in the intended direction, thanks to physics that are no longer well understood.",
+   "ctx": "data/strings/descriptions.csv heavyblaster/WEAPON [text1]"
+  },
+  {
+   "i": 6,
+   "en": "A heavier version of the PD Burst Laser, this weapon features a longer range and a greater number of built-in capacitors for higher up-front damage.\n\nAn often underestimated weapon, the heavy burst laser is actually one of the best performing beam weapons available in the Sector. A cursory examination of the gain medium and lens housing is often enough to assure even the most skeptical inspector that the technology housed within is some of the best the Domain had to offer. \n\nThe physics that create the burst effect are not understood by the highest echelons of the Hegemony Armaments Committee or even the Tri-Tachyon Hybrid Physics Division. It is theorized that a q-switched multi-phased beam could be shot through a quantum filter which would ensure entanglement and create a burst effect. This may be an explanation for the tripled lens housing, originally thought to be a failsafe system. But these are just theories. \n\nIn combat, the Heavy Burst Laser is favored by those that want to be assured that their point defense perimeter is state-of-the-art.",
+   "ctx": "data/strings/descriptions.csv heavyburst/WEAPON [text1]"
+  },
+  {
+   "i": 7,
+   "en": "One of the most devastating energy weapons known to the Persean Sector, the Plasma Cannon launches highly energetic semi-stable plasma bolts at its target. This weapon has an equally fearsome reputation among operators for overloading a warship's own flux pool.\n\nThe payload consists of a microfusion event detonated through a composite gravitic lens which focuses much of the resulting energy anaward to create what has been described mathematically as a temporary high-energy mini-universe. This theoretical explanation is considered by many serious scientists to be post-hoc justification for the purely accidental application of unknown principles. The Domain Armada Procurement Council, however, was uninterested in investigating such details and approved manufacture - the heavy hand of the Ministry of Technology Standards is ever-vigilant, after all, and their 'assistance' could have nullified the entire project. Regardless, in the few critical seconds of semi-stability, the anomalously-contained plasma is accelerated by magnetic drivers mounted on the forward pylons of the chassis toward the target with predictably destructive results.\n\nIf the projectile-anomaly is not breached by violent impact with ordinary matter-energy within its short lifetime, a higher brane will absorb the majority of the energetic plasma, causing it to vanish from our dimension forever. At least, it is so assumed.",
+   "ctx": "data/strings/descriptions.csv plasma/WEAPON [text1]"
+  },
+  {
+   "i": 8,
+   "en": "A long-range, high damage beam weapon, often mounted on support ships, or ships that need anti-armor capability on a budget.\n\nThe High Intensity Laser is a powerhouse weapon that has an energy rating well beyond the giga-watt range. To produce such power for an extended period of time, the design relies on a built-in fusion power core. This core still requires an external actuator, a role filled by a ship's reactor when firing commences. \n\nThree meticulously calibrated lens assemblies guide photons within the ignition unit, requiring seconds to build up the energy necessary to maintain a coherent beam. The gain medium is a two-staged gas-solid which is q-switched and provides a potent particle stream that can obliterate unsuspecting targets in seconds.\n\nThe extreme range at which targets can be tracked and destroyed makes the HIL excel in safely providing close support to friendly ships that are engaged in a melee. It is a favored weapon of captains that can manage the flux cost associated with operating it.",
+   "ctx": "data/strings/descriptions.csv hil/WEAPON [text1]"
+  },
+  {
+   "i": 9,
+   "en": "A collection of smaller lasers mounted together on a rotating pod with a built-in capacitor allowing extremely high burst damage against fighters and missiles.\n\nThe Paladin is a military grade PD system usually deployed on capital ships due to production cost and high flux requirements. The embedded autonomous sub-gamma targeting core and IFF system are designed to detect and destroy incoming strike munitions and fighters which have penetrated the host ship's defensive escort screen. \n\nFive separate carbon dioxide lasers of venerable design and top-of-the-line manufacture provide exceptionally focused firepower in a compact package while a clever virtual inertia counterweight system makes target tracking almost instantaneous. The prohibitive energy requirements usually allow the weapon to be activated only in short bursts, though this is usually sufficient to deal with hostiles in the target threat-category.",
+   "ctx": "data/strings/descriptions.csv guardian/WEAPON [text1]"
+  },
+  {
+   "i": 10,
+   "en": "A bulky energy weapon from an early epoch, the TPC is built directly into the Onslaught's hull to provide overwhelming frontal firepower.\n\nDesigned before modular energy weapons were universally trusted by Domain Armada procurement committees, this weapon was coded into the Onslaught's blueprint because no other hull of the time was capable of supplying required power.\n\nEven though it's outperformed by some of the later epoch modular designs, the Thermal Pulse Cannon remains an integral part of the Onslaught's arsenal.",
+   "ctx": "data/strings/descriptions.csv tpc/WEAPON [text1]"
+  },
+  {
+   "i": 11,
+   "en": "A burst-operated beam that delivers devastating damage with a cascading EMP component. The EMP arcs have a chance to pass through shields based on the target's hard flux level.\n\nA weapon so rare and powerful that it has achieved mythical status in the Sector, the Tachyon Lance uses core technology based on the principles of an experimental FTL communication system prototype, but with a twist. Instead of using the hyperdimensional properties of the tachyon particle for communication, n-brane manipulation and anti-plasma generators create a charged tachyon stream that travels in hyperspace. Minimum energy requirements are staggering and this amount of power can only be generated for a few seconds by the largest power capacitors, which are housed within the weapon system. \n\nUnlike the beams fired from normal beam weapons, the tachyon stream is not lensed or altered in any way - in fact once the initial tachyon marker is actuated the reaction takes on a life of its own, rapidly consuming the power stored in the capacitors and unleashing destruction. When normal space is exposed to such high levels of anti-plasma, a combined electromagnetic, gravitic and thermal cavitation effect shreds anything that stands in its way, while also severely damaging nearby electronics equipment.",
+   "ctx": "data/strings/descriptions.csv tachyonlance/WEAPON [text1]"
+  },
+  {
+   "i": 12,
+   "en": "\"In response to missile threats or, as we discovered, the approach of a strike-fighter squadron, certain elements or 'fragments' of the standing swarm began radiating exponentially increasing waste-heat. This was the initiating sign, as post-encounter telemetry analysis revealed, of self-destructive power core overload. These 'hot' elements use maneuvering thrusters to intercept the approaching squadron and detonate. The force of multiple micro-fusion reactors overloading and the resulting debris was quite sufficient to tear through light spacecraft armor.\"\n\n\"A tactical algorithm patch will be issued so that such behavior may be tagged as soon as it is detected by combat-integrated sensor suites.\"",
+   "ctx": "data/strings/descriptions.csv unstable_fragment/WEAPON [text1]"
+  },
+  {
+   "i": 13,
+   "en": "\"Swarming tactics ensure a percentage of attack elements penetrate target's active defensive screen. Surviving elements use their momentum to... attach, or adhere, onto the hull. Semi-autonomous tools and manipulators - one can hardly call them weapons - are deployed to dismantle bulkheads, conduits, ship systems. Recovered materials are passed back to breach sites and on to... they resembled cargo-packet drones, which attempted to return to the mothership with their spoils.\"\n\n\"Although the machines do not target human crew, those with cybernetic augments - common among spacers and, of course, Company employees and officers - were... harvested. We found it necessary to assign marines to the damage control teams.\"",
+   "ctx": "data/strings/descriptions.csv devouring_swarm/WEAPON [text1]"
+  },
+  {
+   "i": 14,
+   "en": "\"We'll zoom in and... note the distinctive structure of the arc source. Recommend use of shields and EM-hardening when matching features are identified; an updated tactical dataset is attached to this report.\"\n\n\"Operation proceeded as a strong magnetic field was detected in a member of the standing swarm... before the probe was destroyed, it mapped field lines stretching far beyond the supporting swarm element. As you can see in this final image before the telemetry cut out - let's step back by one frame, before the EM white-out...\"",
+   "ctx": "data/strings/descriptions.csv voltaic_discharge/WEAPON [text1]"
+  },
+  {
+   "i": 15,
+   "en": "\"[Returning results / abbreviated: true] from 'SPECIAL REVIEW of Research and Development of Ultradense-Matter (Exotic) Munition Delivery System'...\"\n\n\"While this committee concedes that the contractor has demonstrated the means to contain and control a neutronium payload under laboratory conditions - backed by astronomical taxpayer expense, I might add - it has not now, or ever, proven feasibility of battlefield deployment. This committee recommends that funding be withdrawn and- [raised voices, unparseable] and that further applied technological permits in this field be denied to the Tri-Tachyon Corporation pending a full audit of project expenses...\"",
+   "ctx": "data/strings/descriptions.csv neutron_torpedo/WEAPON [text1]"
+  }
+ ]
+}

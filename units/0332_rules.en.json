@@ -1,0 +1,141 @@
+{
+ "chunk": 332,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "set Luddic Faithful max (mutually exclusive)\r",
+   "ctx": "DEVretirementTestParent"
+  },
+  {
+   "i": 2,
+   "en": "set Luddic Pather max (mutually exclusive) \r",
+   "ctx": "DEVretirementTestParent"
+  },
+  {
+   "i": 3,
+   "en": "set Gens Hannan favor (mutually exclusive)\r",
+   "ctx": "DEVretirementTestParent"
+  },
+  {
+   "i": 4,
+   "en": "set Gens Kato favor (mutually exclusive)\r",
+   "ctx": "DEVretirementTestParent"
+  },
+  {
+   "i": 5,
+   "en": "set Gens Yaribay favor (mutually exclusive)\r",
+   "ctx": "DEVretirementTestParent"
+  },
+  {
+   "i": 6,
+   "en": "Choose somewhere to retire gracefully\r",
+   "ctx": "DEVretirementTest"
+  },
+  {
+   "i": 7,
+   "en": "No! It does not have to end",
+   "ctx": "DEVretirementTest"
+  },
+  {
+   "i": 8,
+   "en": "Settle down as leader of your colony",
+   "ctx": "retire_optionOwn"
+  },
+  {
+   "i": 9,
+   "en": "Settle down as leader of your colonies",
+   "ctx": "retire_optionOwnPlural"
+  },
+  {
+   "i": 10,
+   "en": "A nice farm on Gilead, perhaps",
+   "ctx": "retire_optionLuddicA"
+  },
+  {
+   "i": 11,
+   "en": "A sprawling ranch on Tartessus",
+   "ctx": "retire_optionLuddicB"
+  },
+  {
+   "i": 12,
+   "en": "A shielded penthouse on Qaras",
+   "ctx": "retire_optionQaras"
+  },
+  {
+   "i": 13,
+   "en": "A hermitage on Chalcedon, far from corrupting influences",
+   "ctx": "retire_optionChalcedon"
+  },
+  {
+   "i": 14,
+   "en": "You recall Arroyo's mountain-top chateau... why not buy your own?",
+   "ctx": "retire_optionTT"
+  },
+  {
+   "i": 15,
+   "en": "The Galatia Academy could use a new professor- Contemporary Space Combat Studies?",
+   "ctx": "retire_optionGalatia"
+  },
+  {
+   "i": 16,
+   "en": "Perhaps the Hegemony naval academy of Coatl could use a new instructor?",
+   "ctx": "retire_optionHegemonyCom"
+  },
+  {
+   "i": 17,
+   "en": "Fikenhild was nice. Perhaps a luxury suite atop an arcology...",
+   "ctx": "retire_optionLeagueFikenhild"
+  },
+  {
+   "i": 18,
+   "en": "Kazeron is a center of culture, industry, and politics...",
+   "ctx": "retire_optionLeagueKazeronHannan"
+  },
+  {
+   "i": 19,
+   "en": "Settle down as Demarchon of your colony",
+   "ctx": "retire_optionLeagueOwn"
+  },
+  {
+   "i": 20,
+   "en": "Settle down as Demarchon of your colonies",
+   "ctx": "retire_optionLeagueOwnPlural"
+  },
+  {
+   "i": 21,
+   "en": "The endless dunes of Asharu call...",
+   "ctx": "retire_optionIndieAsharu"
+  },
+  {
+   "i": 22,
+   "en": "Nova Maxios, proud and free",
+   "ctx": "retire_optionIndieNovaMaxios"
+  },
+  {
+   "i": 23,
+   "en": "Somewhere comfortable, neutral, and above all anonymous",
+   "ctx": "retire_optionNeutral"
+  },
+  {
+   "i": 24,
+   "en": "On second thought, maybe I'll comms Cydonia",
+   "ctx": "retire_optionNoCydonia"
+  },
+  {
+   "i": 25,
+   "en": "No, never mind",
+   "ctx": "retire_optionNoHistorian"
+  },
+  {
+   "i": 26,
+   "en": "Technology will make me better, stronger, faster\r",
+   "ctx": "retire_NOSel"
+  },
+  {
+   "i": 27,
+   "en": "On second thought, retirement sounds nice",
+   "ctx": "retire_NOSel"
+  }
+ ]
+}

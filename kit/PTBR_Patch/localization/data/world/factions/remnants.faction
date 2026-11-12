@@ -172,7 +172,7 @@
 	"illegalCommodities":[
 	],
 	"music":{
-		"encounter_hostile":"music_tritach_encounter_hostile",
+		"encounter_hostile":"music_remnant_encounter_hostile",
 	},	
 	#"internalComms":"hegemony_internal",
 	"portraits":{
@@ -198,6 +198,7 @@
 		"allowsTransponderOffTrade":true, # to prevent cargoscan dialog from "patrols"
 		"postsNoBounties":true,
 		"fightToTheLast":true, # order a full assault instead of retreating, in most cases
+		"noBountyForDefeating":true,
 		"simulatorData":{
 			"showInSimulator":true,
 			"standardAICores":true,

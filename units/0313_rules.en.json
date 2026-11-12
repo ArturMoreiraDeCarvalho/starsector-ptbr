@@ -1,0 +1,176 @@
+{
+ "chunk": 313,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"I'm called Simon. No one important,\" he says with a glance at you. \"Came back after the committee said things were over.\"\r\n\r\n\"That,\" he kicks a foot forward, \"was the shrine.\"\r\n\r\nHe's quiet for a moment. But he wants to tell the story.\r\n\r\n\"As I hear it, the Sindies, they shot their way in. Set demolition charges, pulled back, and blew it. Word is Faithful were sheltering in the deeps, in the old access tubes. Some VSDC, but mostly just regular walkers.\"",
+   "ctx": "data/campaign/rules.csv lppShrineRazedFirstTime3 [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"Not any who was down there, no,\" he says. \"But this whole district was full of VSDC at the height of the fighting.\"\r\n\r\n\"You looking for someone in particular?\"",
+   "ctx": "data/campaign/rules.csv lppShrineRazedFirstTime4a [text]"
+  },
+  {
+   "i": 3,
+   "en": "He gives you a look, then turns back to contemplating the missing shrine.\r\n\r\n\"Well, this is it.\"",
+   "ctx": "data/campaign/rules.csv lppShrineRazedFirstTimeLookA [text]"
+  },
+  {
+   "i": 4,
+   "en": "He gives you a look, then turns back to his contemplation.\r\n\r\n\"Standfast was her name. Don't think people are quite agreed about whether she was down there or not. When it happened. Lots of folks went away, and lots came back after the... the resolution.\"\r\n\r\nHe shrugs.",
+   "ctx": "data/campaign/rules.csv lppShrineRazedFirstTimeLookB [text]"
+  },
+  {
+   "i": 5,
+   "en": "Simon takes a deep breath, then kneels by the candles. He selects one, flicking the water away, then replaces the stub to its original position. \r\n\r\nAn igniter clicks in his hand, and he sets a tiny, wavering flame on the wick. It grows, and he withdraws the igniter.\r\n\r\nTwo flames.\r\n\r\nHe snaps it shut with practiced hand, leaving just the candle. Then pauses a moment. And puts his hand out, offering you the igniter.",
+   "ctx": "data/campaign/rules.csv lppShrineRazedFirstTime5 [text]"
+  },
+  {
+   "i": 6,
+   "en": "You follow Simon's lead, clearing the seawater out of a likely-looking candle, then clicking the igniter to give it flame; a tenuous flicker of life renewed.\r\n\r\nSimon takes the igniter back.\r\n\r\nHe watches the flames for a moment. and his eyes are brighter than before. He rubs at his face with one scarred hand. Fingers missing.",
+   "ctx": "data/campaign/rules.csv lppShrineRazedFirstTime5do [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"It is, though,\" he says. \"For those of us who lived.\"",
+   "ctx": "data/campaign/rules.csv lppShrineRazedFirstTime5dont [text]"
+  },
+  {
+   "i": 8,
+   "en": "Simon makes the igniter disappear and watches the flame for a moment. His eyes are brighter than before, and he rubs at his face with one scarred hand.",
+   "ctx": "data/campaign/rules.csv lppShrineRazedFirstTime5dontB [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"The Pneuma lives in these words,\" he says quietly.\r\n\r\nThen, almost embarassed, he signs a spacer's fare-well (\"all-secure, acceleration imminent\") and steps back toward the ruined antechamber of the shrine, leaving you to your contemplation.\r\n\r\nYou feel the muted thrum of the shifting platform through your feet, the barest roll as distant waves make their futile assault against the ruin.",
+   "ctx": "data/campaign/rules.csv lppShrineRazedDone1a [text]"
+  },
+  {
+   "i": 10,
+   "en": "He does not answer.\r\n\r\nHe stares sadly at the lonely, flickering flame.\r\n\r\nThen, almost embarassed, he signs a spacer's fare-well (\"all-secure, acceleration imminent\") and steps back toward the ruined antechamber of the shrine, leaving you to your contemplation.",
+   "ctx": "data/campaign/rules.csv lppShrineRazedDone1b [text]"
+  },
+  {
+   "i": 11,
+   "en": "Your shuttle drops to the primary landing pad of the Shrine of Volturn, a humble thing that cycled work crews and deliveries in cycles past.\r\n\r\nThe structure is not unscarred by the rough transition of this world from under the boot of the Sindrian Diktat. New repairs are few.\r\n\r\nA squad of Knights of Ludd now guard this place, and their leader steps forward, examining you somberly. His expression is severe, yet ready - a battle-hardened warrior, clearly.\r\n\r\nHe is gruffly polite and you are allowed past.",
+   "ctx": "data/campaign/rules.csv PostSDRvolturnShrineRevisit [text]"
+  },
+  {
+   "i": 12,
+   "en": "Your shuttle drops to the primary landing pad of the Shrine of Volturn, a humble thing that cycled work crews and deliveries in cycles past.\r\n\r\nThe structure is not unscarred by the rough transition of this world between competing branches of the immortal Sindrian Diktat.",
+   "ctx": "data/campaign/rules.csv PostSDRvolturnShrineRevisitStillSD [text]"
+  },
+  {
+   "i": 13,
+   "en": "The antechamber is lined with patchwork repairs, the walls a hand-built mosaic of corroded metal, ceramic, and plastic.\r\n\r\nAfter a moment you recognize that it is a mural executed in a palette of rust and ruin, a crudely rendered scene of nature - and there, Ludd, an ambigious figure suggested by a ragged silhouette. \r\n\r\nIt smells still of salt and smoke, but handweave carpeting softens the receiving hall. \r\n\r\nA minor subcurate greets you with an offer of the briny tea of Volturn.",
+   "ctx": "data/campaign/rules.csv PostSDRvolturnShrineRevisit2 [text]"
+  },
+  {
+   "i": 14,
+   "en": "You are led through the shrine, humbly rebuilt in much the same form - and there, the enormous, ragged hole still opens to the dark sea below. You can hear the waves slap against exterior bulkheads.\r\n\r\nSwarms and schools of small candles gather and flicker along the ragged portal. Prayers and memories of the lost.",
+   "ctx": "data/campaign/rules.csv PostSDRvolturnShrineRevisit3 [text]"
+  },
+  {
+   "i": 15,
+   "en": "The tea is rich with umami. Less vegetal, more briny.\r\n\r\n\"A humble local variety,\" the woman says. \"Tartessian Brown is hard to come by, what with the occupation.\"",
+   "ctx": "data/campaign/rules.csv lppVolturnCurateDrinkTea [text]"
+  },
+  {
+   "i": 16,
+   "en": "Curate Sacraria Standfast greets you with tea inside the echoing receiving hall before escorting you down to the inner shrine.\r\n\r\nYou enter the creaking, humid inspection module at the end of a modified extraction stack where the shrine is housed, against all reason. Crates and racks of weapons and ammunition are piled high, crowding the pilgrims/insurgents. Their unwashed bodies smell of sweat and smoke. They speak and pray quietly. ",
+   "ctx": "data/campaign/rules.csv lppVolturnShrineRevisit2 [text]"
+  },
+  {
+   "i": 17,
+   "en": "The small shrine's centerpiece is set in an open space under a round diamond-matrix window holding back the crushing depths of the sea. A few candles flicker among the ranks of their dead comrades.\r\n\r\nAs before, Moyra Standfast re-lights a candle from one that is burning, and offers one for you to do the same.",
+   "ctx": "data/campaign/rules.csv lppVolturnShrineRevisitTalk [text]"
+  },
+  {
+   "i": 18,
+   "en": "OK fine",
+   "ctx": "data/campaign/rules.csv DEVjangalaMakeItRainSel [text]"
+  },
+  {
+   "i": 19,
+   "en": "A quick datapad search reveals that, statistically, human activity within the Jangalan biosphere is relatively safe so long as proper air filtration and decontamination procedures are followed. Detox meds for accidental exposures are readily available, though may have unpleasant side effects.\r\n\r\nThere are reports of individuals whose poor luck and lack of contingency planning combined with vehicle malfunction during truly abysmal weather has resulted in cases of long term exposure to Jangala's biosphere for days, weeks, and in one case more than a standard month. The resulting growths and infections appear to result in a singularly torturous manner of death.",
+   "ctx": "data/campaign/rules.csv lppJangalaFirstVisit2b [text]"
+  },
+  {
+   "i": 20,
+   "en": "The hum of your ship grows in your ears, the sense of inhabiting your own body in a can hurtling around a gravity well, the incomprehensible webs of influence keeping you both in this place and in the constant dynamism of crisis.\r\n\r\nLower and higher dimensions twist and vibrate, a web conspiring to hold you up - or back - falling and clinging just so. Your technologies tap these invisible quirks of physics to keep you warm, keep you cool; your feet on the deck, the air flowing follow a rhythm, a meter. It is like music, in fact. If you listen carefully...\r\n\r\nIt would be impossible to speak, now.",
+   "ctx": "data/campaign/rules.csv lppHesperusExcubitorWait2 [text]"
+  },
+  {
+   "i": 21,
+   "en": "Sedge disappears down a side-alley, and his thugs with him. You are left in the dripping alley with a corpse.\r\n\r\nAnd a lead: Mazalot.",
+   "ctx": "data/campaign/rules.csv lkeSedgeEnd2Outside [text]"
+  },
+  {
+   "i": 22,
+   "en": "Done.",
+   "ctx": "data/campaign/rules.csv DEVmazalotUnrestTest [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"Gens Yaribay?\" $HeOrShe sits up straight, \"I, er, yes of course.\"\r\n\r\nAfter a pause, as if $heOrShe was expecting more from you, $heOrShe adds quietly, \"It was my understanding that Gens Kato was ah, most involved with the situation here on Mazalot?\"",
+   "ctx": "data/campaign/rules.csv LKEmazalotAskPMYaribay [text]"
+  },
+  {
+   "i": 24,
+   "en": "DONE (hopefully)",
+   "ctx": "data/campaign/rules.csv BFINdevSetStartStation2 [text]"
+  },
+  {
+   "i": 25,
+   "en": "Bornanew bows his head to your words. His expression is grim.\r\n\r\nMenes has not been discreet. As a celebration of his first cycle as the new demarchon of Olinadu, he invited a holodoc team for a puff-piece interview and viewing of his 'collection'. Your tactical team reviews the holos, constructing schematic of the interior of Menes' complex, inferring layout and defenses from this and other publicly available information.",
+   "ctx": "data/campaign/rules.csv BFFImmBornDoRaid [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"Captain $playerName trusts you implicitly,\" Bornanew explains, \"So as $playerHisOrHer advisor, I must act the skeptic. I assure you, Demarchon Yaribay, it brings me no pleasure to appear to question and besmirch your fine reputation.\"\r\n\r\nHe speaks with such sincerity, for just a moment you can almost believe $global.jethroName isn't lying.\r\n\r\n\"Consider it a policy of 'trust, but verify'. We trust you, of course. But what of your source? We would never wish to see you cheated, but alas, I know too well that sin which lives in the human heart... If anything, I believe your only weakness is being too kind a spirit, too generous a benefactor.\"",
+   "ctx": "data/campaign/rules.csv BFFImpBuyerHub3OptE2 [text]"
+  },
+  {
+   "i": 27,
+   "en": "Your comms officer intercepts you on the way to the medbay looking determined but apologetic.\r\n\r\n\"$PlayerSirOrMadam. The local security authority has issued a blanket order for all fleets to stay in orbit pending an investigation into an, ah, attack against the demarchon of Olinadu.\"",
+   "ctx": "data/campaign/rules.csv BFFIapRaidOutro7 [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"She would fit,\" he says, thinking. \"My impression was that her ambitions in the Church have not been satisfied for many years, be that fair or no. She was not humble upon our meeting.\" \r\n\r\n\"These logs appear to reference correspondence with her. She turned down credits, it appears. Would gratification of spite be payment enough?\" \r\n\r\nHe turns to you, done with speculation. \"Certainly she did not act alone, but this connects her to the act. She must be arrested and taken to the Inquisitors for investigation and judgment.\"",
+   "ctx": "data/campaign/rules.csv BFFIpsDestroyed3 [text]"
+  },
+  {
+   "i": 29,
+   "en": "Keepfaith lunges for the carbine. A pathetic struggle ensues, her hands locked around the Knight-Captain's, who struggles to keep the weapon under his control.\r\n\r\nBornanew simply watches until, finally, both Curate and Knight-captain tumble into a workdesk, sending papers and tools flying.",
+   "ctx": "data/campaign/rules.csv BFFIarrestNoMove0 [text]"
+  },
+  {
+   "i": 30,
+   "en": "The clerk clears her throat.\r\n\r\n\"Excubitor Orbis,\" her eyes dart at you and Bornanew. \"$playerSirOrMadam. Novice.\"\r\n\r\n\"There is a matter of the Demarchon of Olinadu. A Menes Yaribay? He claims he was promised payments for the, um, purchase of a relic.\"\r\n\r\nYou hadn't thought Oak could look any more displeased.",
+   "ctx": "data/campaign/rules.csv BFFIproblemCheckFundingLie [text]"
+  },
+  {
+   "i": 31,
+   "en": "The clerk clears her throat.\r\n\r\n\"Excubitor Orbis,\" her eyes dart at you and Bornanew. \"$playerSirOrMadam. Novice.\"\r\n\r\n\"There is a matter of the Demarchon of Olinadu. A Menes Yaribay? He claims damages from an... incident. He claims that a valuable object was stolen during a violent raid on his personal compound. And, um, there is a list of potential suspects...\"\r\n\r\nYou hadn't thought Oak could look any more displeased.",
+   "ctx": "data/campaign/rules.csv BFFIproblemCheckRaided [text]"
+  },
+  {
+   "i": 32,
+   "en": "Your $shipOrFleet gets within range of the $nameInText that you've been contracted to run a black-box sensor package on.\r\n\r\nUnfortunately, your fleet's base sensor strength is not sufficient to perform the scan to the mission's specifications.",
+   "ctx": "data/campaign/rules.csv aem_runSensorPackageOptionNoScan [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"Hmm, Fleet Intelligence has been watching you for some time it seems, and it says here that you clear the checks.\"\r\n\r\n\"Accepting a commission with the Hegemony is a serious matter, citizen. You will be required to fight enemies of the Hegemony and assist in upholding law and order where the official apparatus cannot reach. Above all, you will dedicate yourself to fighting for the restoration of the Domain over human space.\"\r\n\r\n\"I must inform you that you have the right to resign your commission at any time. And while there have been honorable circumstances for resignation in the past, between us, let me add that doing so would be considered highly suspicious by Fleet Intelligence, to say nothing of what the loyal Hegemony officer corps would think.\"",
+   "ctx": "data/campaign/rules.csv CMSNTextSuitedPart1_hegemony [text]"
+  },
+  {
+   "i": 34,
+   "en": "\"Hmm, yes,\" $hisOrHer eyes flick rapidly, accessing cybernetic implants. \"Your resume is impressive. Our human capital department has been watching you for some time now.\"\r\n\r\n\"Now understand that signing this commission contract with the Tri-Tachyon Corporation (and associated subsidiary incorporations) is a serious commitment. You will undertake that risk involved in fighting Company-designated belligerents be they pirates, anti-market terrorists, or polity-level entities which engage in illegitimate search and seizure of Company property.\"\r\n\r\n\"You will, of course, be able to resign your commission at any time without immediately financial penalty; generous terms indeed in my opinion. Were you to do so, that would mean you would be... how to put it, 'thrown to the sharks'? Competition in the Company is fierce, my friend, and if you withdraw from its legal protection, only you will be be responsible for what happens.\"",
+   "ctx": "data/campaign/rules.csv CMSNTextSuitedPart1_tritachyon [text]"
+  }
+ ]
+}

@@ -1,0 +1,221 @@
+{
+ "chunk": 289,
+ "cat": "data",
+ "items": [
+  {
+   "i": 1,
+   "en": "Domain-grade Parts",
+   "ctx": "data/campaign/commodities.csv parts [name]"
+  },
+  {
+   "i": 2,
+   "en": "Extreme Tectonic Activity",
+   "ctx": "data/campaign/market_conditions.csv extreme_tectonic_activity [name]"
+  },
+  {
+   "i": 3,
+   "en": "$Market is a center of military command and logistical operation for the ruling polity. Increases market stability.\n\nIncreases the quality and number of officers in $market's fleets.",
+   "ctx": "data/campaign/market_conditions.csv headquarters [desc]"
+  },
+  {
+   "i": 4,
+   "en": "There's a temporary lack of available food on $market.\n- Stability reduced by $stabilityPenalty\n- Approximately $neededFood units of food needed to end shortage\n- Food prices increased due to lowered food supply\n- Increased reputation and experience from selling food",
+   "ctx": "data/campaign/market_conditions.csv event_food_shortage [desc]"
+  },
+  {
+   "i": 5,
+   "en": "Trade fleets going to or from $market are taking significant losses. Piracy or war are most likely to blame.\n\nThe following commodities are affected:\n$commoditySummary",
+   "ctx": "data/campaign/market_conditions.csv event_trade_disruption [desc]"
+  },
+  {
+   "i": 6,
+   "en": "$market is experiencing a high volume of smuggling activity.\n\n- Stability reduced by $smugglingPenalty",
+   "ctx": "data/campaign/market_conditions.csv event_smuggling [desc]"
+  },
+  {
+   "i": 7,
+   "en": "There is a rogue AI core operating on or near $market. Its long-term plans and ambitions, beyond its own survival, are unknown.\n\nAt a minimum, the need to be on guard against its possible actions makes day-to-day operations less efficient and creates fertile ground for alarming rumours.",
+   "ctx": "data/campaign/market_conditions.csv rogue_ai_core [desc]"
+  },
+  {
+   "i": 8,
+   "en": "There have been signs that pirates are targeting shipping and colonies in this system - from port inspectors being pressured to turn a blind eye, to inconsistencies in cargo manifests, to other increased criminal activity.\n\nThe pirates most likely have a base somewhere relatively nearby.",
+   "ctx": "data/campaign/market_conditions.csv pirate_activity [desc]"
+  },
+  {
+   "i": 9,
+   "en": "A powerful and versatile manufacturing \"black box\", capable of building itself out to an industrial scale, given the necessary raw materials and human assistance.\n\nThis one has seen better days, and is incapable of reliably producing defect-free components. Nonetheless, having access to a nanoforge at all is a step up as far as starship construction goes.",
+   "ctx": "data/campaign/special_items.csv corrupted_nanoforge [desc]"
+  },
+  {
+   "i": 10,
+   "en": "A powerful and versatile manufacturing \"black box\", capable of building itself out to an industrial scale, given the necessary raw materials and human assistance.\n\nThis one is good as new, at least according to its on-board diagnostics. In practice, getting defect-free starship components is still a challenge given the overall state of manufacturing in the Sector, but this nanoforge is as good as it gets.",
+   "ctx": "data/campaign/special_items.csv pristine_nanoforge [desc]"
+  },
+  {
+   "i": 11,
+   "en": "A miniaturized, variable-output fusion reactor capable of providing ample light and heat to a planet.\n\nSafe operation requires prodigious quantities of volatiles. If the demand is not met, the reactor suffers from potentially hazardous instability, which may lead to an uncontrolled surge in output. Litigation over whether this device is of inherently unsafe design or simply used unsafely were ongoing in Domain courts at the time of the Collapse.",
+   "ctx": "data/campaign/special_items.csv orbital_fusion_lamp [desc]"
+  },
+  {
+   "i": 12,
+   "en": "A miniaturized wormhole interface which can be activated to tap into a nearby coronal hypershunt, providing a colony with virtually unlimited power.\n\nOperation requires industrial quantities of transplutonics, which are at first used to open the wormhole, and then - once the power drawn becomes self-sustaining - is consumed in a complicated ablative process which maintains wormhole stability. Any interruption in supply requires a full shutdown of the tap.",
+   "ctx": "data/campaign/special_items.csv coronal_portal [desc]"
+  },
+  {
+   "i": 13,
+   "en": "A quantum computer which seems to violate the second law of thermodynamics by getting colder instead of hotter while performing computations.\n\nA massive, planet-wide network of tendrils - ending in heatsinks - extrudes itself, using heat to fuel growth and continued computation. The hotter the planet surface, the more effective the computation engine. The unrivaled processing capacity is a boon to logistical and strategic planning.",
+   "ctx": "data/campaign/special_items.csv cryoarithmetic_engine [desc]"
+  },
+  {
+   "i": 14,
+   "en": "Mass-produces a number of drone variants, all suited to various tasks related to planetary defense against raids and invasions, as well as local security actions.\n\nIts use was banned by the Domain many cycles prior to the Collapse, so it's surprising to find a working example in the Persean Sector.",
+   "ctx": "data/campaign/special_items.csv drone_replicator [desc]"
+  },
+  {
+   "i": 15,
+   "en": "Generates an interactive environment designed to stimulate negotiations with prospective business partners. Additionally, the self-adapting microemotion smart sensor systems built into such high-end VR suites  allow real-time tracking of the veracity of expression, providing a technically ethical advantage in business dealings to the facility operator.  \n\nThe built-in marketing materials are keen to emphasize that this is not an AI, but merely a sophisticated weighted network in full compliance with the relevant Domain regulations.",
+   "ctx": "data/campaign/special_items.csv dealmaker_holosuite [desc]"
+  },
+  {
+   "i": 16,
+   "en": "A collection of modified blueprints that bring several civilian craft up to mil-spec or simply add Hegemony markings adapted from the XIVth Battlegroup. Some of these blueprints improve hull performance without the increased incidence of d-mods associated with later blueprint hacking efforts.",
+   "ctx": "data/campaign/special_items.csv heg_aux_package [desc]"
+  },
+  {
+   "i": 17,
+   "en": "This is the first generation Janus Device created by Elissa Zal based on the theories developed by Scylla Coureuse, among others.\n\nWhile integrated with a hyperdrive this device allows a hyperwave pulse tuned to the unique resonant signatures of two Gates to be transmitted into a Gate aperture. After a tremendous energy input which requires a great quantity of fuel to generate, a temporary link between those Gates is created. One ship or fleet may then transit the Gate network.",
+   "ctx": "data/campaign/special_items.csv janus [desc]"
+  },
+  {
+   "i": 18,
+   "en": "A specialized warhead capable of sundering a world. Operating principles are only dimly understood and are thought to involve utilizing the world's spin and some form of resonance.\n\nThis one is safed and requires authorization codes, possibly long-lost, to become anything more than a complicated, but completely inert piece of machinery.",
+   "ctx": "data/campaign/special_items.csv planetkiller [desc]"
+  },
+  {
+   "i": 19,
+   "en": "Unfamiliar to the contemporary Persean Sector, this technology saw use by the Domain Explorarium during an era of greatness long past. Can be used to create a wormhole terminus at a stable location.\n\nInitial activation requires antimatter in the form of starship fuel. Requires at least one other active and synchronized terminus to use.",
+   "ctx": "data/campaign/special_items.csv wormhole_anchor [desc]"
+  },
+  {
+   "i": 20,
+   "en": "A Domain-era artifact which allows a fleet to navigate a natural wormhole, following its many twists, turns, and shifts through higher dimensions. A fleet entering a wormhole without a scanner would never be seen again, at least not as a coherent collection of baryonic matter.\n\nThe operating principles can only be dimly guessed at given the present state-of-the-art in the Persean Sector.",
+   "ctx": "data/campaign/special_items.csv wormhole_scanner [desc]"
+  },
+  {
+   "i": 21,
+   "en": "Unfamiliar technology which nonetheless shares design principles with ancient Domain engineering standards. Various self-modifying adapters accept energy and forge-stock input. There is no command interface. Attempts to interfere with workings provoke aggressive cannibalizing self-repair mechanisms; a major attempt to dismantle the unit would risk self-destruction.\n\nThis is clearly a fabricator, because when the inputs are fed, it produces Fragment units, each of which is formed of a unique arrangement of fractal components but which is functionally similar, with slight allowance for scale. Simple on an individual level, the fragments exhibit sophisticated emergent behavior in groups.",
+   "ctx": "data/campaign/special_items.csv fragment_fabricator [desc]"
+  },
+  {
+   "i": 22,
+   "en": "\"This self-sustaining action produces massive energy differentials which are periodically discharged toward its, um, target. I'd never have said a storm could be evil, but now...\"\n\n- intercepted audio log, speaker unknown",
+   "ctx": "data/campaign/special_items.csv shrouded_thunderhead [desc]"
+  },
+  {
+   "i": 23,
+   "en": "\"We can't store energy forever in this theoretical, pretend-plasma. It'll have to go somewhere.\"\n\n\"-Invert the polarity of the flux converters and flicker the drive field. Boom, a gentle bump to local time-space. By which I mean the ship itself.\"\n\n\"If it works.\"",
+   "ctx": "data/campaign/special_items.csv shrouded_mantle [desc]"
+  },
+  {
+   "i": 24,
+   "en": "Polarized Plating",
+   "ctx": "data/characters/skills/skill_data.csv polarized_armor [name]"
+  },
+  {
+   "i": 25,
+   "en": "Through calamity, the Fourteenth endured. \nThrough hegemony, the Domain endures. \nThrough duty, humanity shall endure.",
+   "ctx": "data/characters/skills/skill_data.csv combat_endurance [description]"
+  },
+  {
+   "i": 26,
+   "en": "What's it stopped the Tri-Tach plot? (Guns!)\nWhat was it that ol' Ludd forgot? (Guns!)\nWha’ve we got that they have not? (Big, big, guns!)",
+   "ctx": "data/characters/skills/skill_data.csv ballistic_mastery [description]"
+  },
+  {
+   "i": 27,
+   "en": "Perfect.\nNow do it again.",
+   "ctx": "data/characters/skills/skill_data.csv tactical_drills [description]"
+  },
+  {
+   "i": 28,
+   "en": "The stats tell us they'll be evaporated in a wall of flak before a half dozen missions, but we still want to be 'em. Once they're in the cockpit they're the only ones of all of us who have control over their own destiny.",
+   "ctx": "data/characters/skills/skill_data.csv carrier_group [description]"
+  },
+  {
+   "i": 29,
+   "en": "err. 401 // connection refused [try again?]\nerr. 401 // connection refused [try again?]\nerr. 401 // connection refused [try again?]",
+   "ctx": "data/characters/skills/skill_data.csv electronic_warfare [description]"
+  },
+  {
+   "i": 30,
+   "en": "It makes me feel very small, like we're vermin plundering the cities of fallen angels.\nIt also makes me rich.",
+   "ctx": "data/characters/skills/skill_data.csv salvaging [description]"
+  },
+  {
+   "i": 31,
+   "en": "A limitless machine given every datum, every human thought to combine and recombine into variants beyond count. Ask, and an appropriate answer is produced.\nYet I find myself not satisfied that being fooled proves such a grandiose proposition.",
+   "ctx": "data/characters/skills/skill_data.csv hypercognition [description]"
+  },
+  {
+   "i": 32,
+   "en": "The mud? I don't mind it. Spacers always carry on about mud.\nIt's the blood I can't stand.",
+   "ctx": "data/characters/skills/skill_data.csv planetary_operations [description]"
+  },
+  {
+   "i": 33,
+   "en": "What's it stopped the Tri-Tach plot? (Guns!)\nWhat was it ol' Ludd forgot? (Guns!)\nWhat’ve we got that they have not? (Big, big, guns!)",
+   "ctx": "data/characters/skills/skill_data.csv weapon_drills [description]"
+  },
+  {
+   "i": 34,
+   "en": "Low Maintenance",
+   "ctx": "data/hullmods/hull_mods.csv low_maintenance [name]"
+  },
+  {
+   "i": 35,
+   "en": "Manual Systems",
+   "ctx": "data/hullmods/hull_mods.csv manual_systems [name]"
+  },
+  {
+   "i": 36,
+   "en": "Increases the range of ballistic and energy weapons by %s/%s for cruisers/capital ships.\r\n\r\nCannot be installed on a frigate or a destroyer, and cannot work in conjunction with Integrated Targeting Unit.\r\n\r\nMost combat ships install either an Integrated Targeting Unit or a Dedicated Targeting Core, with the exception of more specialized variants.",
+   "ctx": "data/hullmods/hull_mods.csv dedicated_targeting_core [desc]"
+  },
+  {
+   "i": 37,
+   "en": "Installs a makeshift, inefficient shield generator on the ship. The shield emitter is locked in a forward-facing position and has a %s degree arc.",
+   "ctx": "data/hullmods/hull_mods.csv frontshield [desc]"
+  },
+  {
+   "i": 38,
+   "en": "Extends the range of ballistic and energy weapons by %s/%s/%s/%s, depending on hull size. Cannot work in conjunction with Dedicated Targeting Core.\r\n\r\nMost combat ships install either an Integrated Targeting Unit or a Dedicated Targeting Core, with the exception of more specialized variants.",
+   "ctx": "data/hullmods/hull_mods.csv targetingunit [desc]"
+  },
+  {
+   "i": 39,
+   "en": "Links the flagship with another ship, allowing both ships to %s at the same time. As with \"transfer command,\" some skill effects - such as those increasing ammo capacity or combat readiness - do not apply to the other ship.\r\n\r\nAlso enables rapid switching between the linked ships without using a shuttle pod. The transfer is instant if the combined deployment points of the ships are %s or less. The destination ship must not be under the command of an officer or an AI core.",
+   "ctx": "data/hullmods/hull_mods.csv neural_interface [desc]"
+  },
+  {
+   "i": 40,
+   "en": "An augmented version of Neural Interface that works with automated ships by enabling direct control of all of the ship's systems via the link and allowing both ships to %s at the same time. As with \"transfer command,\" some skill effects - such as those increasing ammo capacity or combat readiness - do not apply to the other ship.\r\n\r\nAlso enables rapid switching between the linked ships without using a shuttle pod. The transfer is instant if the combined deployment points of the ships are %s or less. The destination ship must not be under the command of an officer or an AI core.\r\n\r\nThe complexity of the modifications increases the ship's deployment points and supply cost to recover from deployment by %s.",
+   "ctx": "data/hullmods/hull_mods.csv neural_integrator [desc]"
+  },
+  {
+   "i": 41,
+   "en": "Increases the ship's hull integrity by %s.\r\n\r\nIf disabled, the ship will not break apart and is almost always recoverable after the battle. Ships recovered after battle start with %s to %s hull integrity and combat readiness;\r\n\r\nThis effect stacks with other similar bonuses, but the combat readiness can not exceed what it would have been had the ship survived the battle.",
+   "ctx": "data/hullmods/hull_mods.csv reinforcedhull [desc]"
+  },
+  {
+   "i": 42,
+   "en": "Disabling safety protocols increases the ship's top speed in combat by %s/%s/%s (depending on ship size, with a corresponding increase in acceleration) and allows the zero-flux engine boost to take effect regardless of flux level. The flux dissipation rate, including that of additional vents, is increased by a factor of %s.\r\n\r\nReduces the peak performance time by a factor of %s, prevents the use of active venting, and drastically reduces weapon ranges past %s units.\r\n\r\nCannot be installed on civilian or capital ships.",
+   "ctx": "data/hullmods/hull_mods.csv safetyoverrides [desc]"
+  },
+  {
+   "i": 43,
+   "en": "Allows up to an extra %s/%s/%s/%s fighter pilots to be recovered after combat, depending on hull size. Not all pilots are guaranteed to be recovered.\r\n\r\nThe ship does not need to be deployed into combat to participate in fighter pilot recovery.",
+   "ctx": "data/hullmods/hull_mods.csv recovery_shuttles [desc]"
+  }
+ ]
+}

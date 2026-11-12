@@ -1,0 +1,66 @@
+{
+ "chunk": 297,
+ "cat": "desc",
+ "items": [
+  {
+   "i": 1,
+   "en": "The Valkyrie is a standard destroyer-sized troop transport with enough room to carry two companies of marines. Tactically it is weak for its size, only able to defend itself at short ranges from missiles and fighters.\n\nAs an atmosphere-capable combat dropship with ground support weapon mounts designed to operate during re-entry and when grounded, the Valkyrie is often used to deploy heavy infantry support for tech raids on decivilized worlds. \n\nThe ability to deliver large amounts of troops directly to ground targets while providing fire support prompted Hegemony bureaucrats to designate the hull as \"restricted\" for sale to third parties. Naturally, news of the restriction made it to the general public cycles before it came into effect, launching ill-fated speculation in the future prices of this class. Thus, overproduction and the hull's limited options made the speculators' betting largely moot, the only net result is that now, due to oversupply, it is just as easy to obtain a Valkyrie ship as before news of the Hegemony ban ever became public.",
+   "ctx": "data/strings/descriptions.csv valkyrie/SHIP [text1]"
+  },
+  {
+   "i": 2,
+   "en": "Tarsus-class ships are well known as perhaps the most flexible and durable freighters in the Sector. \n\nThe secret to their reliability is that they were intended by Domain designers as hazard duty ships, presumably to supply frontiers and those front line fleets sent to quash the ever-present rumbling of insurrection on the far reaches of the Domain.\n\nAlmost unmatched among civilian ships in bulkhead structural density and armor rating, Tarsus-class freighters are entrusted with important hauls and usually travel in convoys, a further buttress to the safety they afford to their crew and cargo.\n\nMinimal weapon mounts permit the ship to mount a nominal PD weapons package. Rarely, Tarsus-class ships are outfitted with combat oriented hull or armor boosting modifications, which make them more difficult to maintain.",
+   "ctx": "data/strings/descriptions.csv tarsus/SHIP [text1]"
+  },
+  {
+   "i": 3,
+   "en": "A common freighter, found in convoys or alone, used to haul all manner of goods across the Sector. Has a single fighter bay to bolster defenses.\n\nThe design of the Gemini-class freighter is highly modular, enabling the ship to serve in a variety of roles in and out of combat. The entire cargo container is designed around a quick release mechanism which enables the main hull of the ship to quickly call to port, detach its full cargo section, and swap it for another Gemini-type container in the span of minutes. In addition, multiple medium weapon mounts make the Gemini a viable long-range fire support platform. The flight deck is tiny, originally envisioned for mining drone repair or hazardous mining operations. Modern use in the Sector extends flight deck facilities to all fighter types.\n\nWhile impressive in a blueprint, the lack of empty, compatible Gemini-type containers in the Sector makes the actual usefulness of the quick-release mechanism negligible. The modularity, a great boon in times past, is also more prone to wear and tear, and is thus more expensive to maintain - most working examples of the mechanisms have been welded solid. Nonetheless, a decent overall profile, the flight deck, a flexible power core and good shields make the Gemini a good choice for cargo hauling, if the cost can be weathered.",
+   "ctx": "data/strings/descriptions.csv gemini/SHIP [text1]"
+  },
+  {
+   "i": 4,
+   "en": "The go-to choice for medium cargo hauling in the Sector, the Buffalo-class freighter exemplifies the \"Load-n-Pray\" principle prevalent in Sector shipping.\n\nSporting just a single small weapon emplacement, the hull of the ship is no more than a large engine with a tiny crew quarters section and cargo grapplers. A captain taking this ship out without a convoy rarely gets to make the same mistake twice. Incapable of anything resembling a combat maneuver, the lateral thrusters on Buffalo-class ships are designed to merely enable it to dock when (and if) it reaches its destination.\n\nThe ship engines are the greatest contributor to hull cost, which, while low, is still within the norms for a medium freighter. The greatest contributing factor to its ubiquity is the fact that the blueprint for this ship is usually hardcoded into every orbital shipyard's blueprint database.",
+   "ctx": "data/strings/descriptions.csv buffalo/SHIP [text1]"
+  },
+  {
+   "i": 5,
+   "en": "The Enforcer-class ships commonly serve in system or convoy defense roles. The design features good armor and multiple ballistic hardpoints, while shield performance is somewhat underwhelming. \n\nThe blueprints of the ship call for many components similar to those found in the Onslaught-class battleships, suggesting that the designs were created during a similar period of military expansion in the Domain. The Enforcer-class features similar no-nonsense weapon system design choices, tough bulkheads, and is well regarded by its crews.\n\nTough to beat in a destroyer to destroyer fight, the Enforcer rarely takes part in larger battles due to the common view that its low speed makes it a liability. Nonetheless, Hegemony order of battle doctrines mandate an attached Enforcer squadron as a screen for Onslaught-class battleships. The logistical ease with which shared components can be used by both ship types is exactly the type of detail that excites Hegemony logistics bureaucrats.",
+   "ctx": "data/strings/descriptions.csv enforcer/SHIP [text1]"
+  },
+  {
+   "i": 6,
+   "en": "The Condor-class sees heavy service in the Sector as this carrier-converted freighter is, for many independent polities, the easiest way to procure fighter capability for their organization. Even with limited flight deck space, the Condor gets the job done, relying on its tough armor, excellent bulkhead strength, and a respectable (for a light carrier) weapons package.\n\nThis light carrier design is derived from Tarsus-class freighters modified by desperate scavengers and pirates. The conversion process was once an involved and complex affair requiring space dock facilities, but nowadays any hull-capable forge that will accept a stock Tarsus spec will, with the addition of a custom modchip, get you something just as good.\n\nSome in the Sector argue that even the Domain, with all their technological know-how, relied on similar conversions to make more efficient use of a merchant fleet during times of escalated hostilities on the voluminous galactic frontier. Others point out that it is unclear how ubiquitous this approach was - there could have been fleets of Condors roaming Domain space, but there is scarce hard evidence one way or the other. Such data was all lost in the Collapse.",
+   "ctx": "data/strings/descriptions.csv condor/SHIP [text1]"
+  },
+  {
+   "i": 7,
+   "en": "An advanced yet fragile destroyer harkening from the ascendant \"Cruiser School\" era of the mid-to-late Human Domain, the Sunder class was designed to provide a heavy firepower supplement during long-range combined fleet actions of the thinly spread Domain Armada.\n\nBest used as part of a mixed task force with escorts, the Sunder has powerful forward-facing weapons but limited defensive capabilities which leave it vulnerable to strike craft and flanking assaults by fast-moving frigates.",
+   "ctx": "data/strings/descriptions.csv sunder/SHIP [text1]"
+  },
+  {
+   "i": 8,
+   "en": "An oddity among ships, the Monitor is the result of the line of thought that “sometimes the best defense is indeed the best defense”. Features turret mounts angled to provide wide arcs and a unique “flux shunt” modification to its power systems specially constructed to relieve flux generated by shields. Indeed, the Monitor makes up for a lack of maneuverability and firepower with the ability to withstand prolonged bombardment from enemy ordnance.\n\nThough its experimental nature is perhaps a sign of the innovation that eras of turmoil seem to inspire, whether the Monitor’s radical defensive focus is a boon or pitfall remains contentious. Several dramatic failures in convoy protection patrols were explained by Ko Combine PR representatives to be the fault of improper tactics employed by convoy commanders. Ko Combine maintains that when positioned correctly in a combat situation and supported by strike-craft - as the anvil and hammer, respectively - simulations demonstrate that the Monitor significantly enhances convoy survivability against the average pirate attack. Prominent critics remain.",
+   "ctx": "data/strings/descriptions.csv monitor/SHIP [text1]"
+  },
+  {
+   "i": 9,
+   "en": "The Cerberus is prized for providing a cost-effective balance between cargo capacity and enough combat power for its size to discourage casual piracy with the happy result of lowered insurance rates compared to standard Domain-era civilian grade freighters. The Cerberus is now widely considered to be a wise choice for independent traders in the Sector. \n\nIn times past, before the fall of the gate system when Domain authority reigned, combat-enabled freighters like the Cerberus found only niche use on the edges of the rare warzone or in especially uncivilized hinterlands of the galaxy where Domain Armada patrols were stretched thinly. The crew combat training, weapon maintenance, and mass/thrust ratio loss caused by heavier armor were viewed as causing unnecessary cost overhead. But this is a new age filled with both danger and profitable opportunities; the abilities of the Cerberus have given the hull a new life in the trade lanes.",
+   "ctx": "data/strings/descriptions.csv cerberus/SHIP [text1]"
+  },
+  {
+   "i": 10,
+   "en": "The Heron provides the strategic and tactical mobility of a cruiser with potential firepower limited only by available strike-craft. It is the perfect accompaniment to the quick-moving and hard-hitting fleet of an admiral who knows when to take the initiative, hit quickly, and withdraw while enemy forces are still responding to the threat.\n\nHistorically the Heron represented a movement in Domain Armada strategy from a heavy capital ship doctrine based on overwhelming firepower toward a focus on strike craft and support cruisers that enable sufficient firepower to be quickly focused on weak points, a strategic shift that would reverse itself as a natural reaction against tradition from each successive generation of Armada officers. This process was occurring once more in the cycles immediately preceding the fall of the gate system and, in something of a coup for the so-called “Cruiser School”, the forward-thinking Altair Exotech won the Heron design contract over the traditional manufacturer of heavy Armada warships, Orion Shipyards. \n\nHowever the doctrinal shift embodied by the Heron was interrupted by the isolation of The Fall, and as such it is not often found in core Hegemony fleets (whose officers still cling to tradition). This hull has however found great popularity among the independent worlds, megacorporations, and mercenary forces of the Sector that tend to field leaner, faster fleets.",
+   "ctx": "data/strings/descriptions.csv heron/SHIP [text1]"
+  },
+  {
+   "i": 11,
+   "en": "The Drover is a hull designed by the \"Cruiser School\"-dominated Domain Naval Procurement Committee to provide a strategically versatile (though tactically limited) fighter platform with low logistical overhead.\n\nThe contract for design of the Drover was won by Orion Shipyards, the traditional Armada ship-builder, in an effort to recover lost market share from the newer naval producers. The result was the 'flying landing strip' maligned by Domain officers as a command more fitting for a logistics bureaucrat than a fighting ship-captain. Complaints in the lower ranks were used by the old \"Capital School\" faction to send the Drover back to committee, citing insufficient firepower for the ship class to meet standard guidelines (which did not account for the strike potential of new classes of fighters). Set up to take a fall for massive overspend, the committee simply ordered the installation of four small missile hardpoints. This met the firepower requirements handily and allowed the Drover programme to proceed with only minor alteration.",
+   "ctx": "data/strings/descriptions.csv drover/SHIP [text1]"
+  },
+  {
+   "i": 12,
+   "en": "The Hermes is a small, dependable cargo hauler often converted for transport duty among poor frontier worlds. Its crew and passenger facilities are charitably described as \"robust\" but it manages to get the job done with remarkable consistency despite the primitive maintenance facilities it frequents.\n\nFactory-spec, the Hermes is armed only for \"active collision avoidance\", but its turret system is often upgraded to achieve nearly full albeit light point-defense coverage that can destroy the stray missile while escaping from active combat zones. This firepower is meager compared to dedicated combat ships so only a mad or truly desperate captain would employ the Hermes in front line combat.",
+   "ctx": "data/strings/descriptions.csv hermes/SHIP [text1]"
+  }
+ ]
+}

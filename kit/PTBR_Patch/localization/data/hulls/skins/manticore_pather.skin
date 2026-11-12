@@ -6,6 +6,7 @@
 	"descriptionPrefix":"Fanáticos do Caminho Luddita modificaram grosseiramente esta nave, sobrecarregando os motores e os sistemas de energia e substituindo a montagem de torre balística original por um lançador de mísseis maciço, para executar melhor ataques alfa ousados contra naves capitais e cruzadores.",
 	"tags":["rare_bp"],
 	"tech":"Caminho Luddita",
+	"parts/dmod":6,
 	"suppliesToRecover":14,
 	"suppliesPerMonth":14,
 	"spriteName":"graphics/ships/manticore/manticore_pather.png",
@@ -19,5 +20,4 @@
 	"removeBuiltInMods":["ballistic_rangefinder"], 		# hullmod ids
 	"removeBuiltInWeapons":[], 		# weapon slot ids
 	"builtInMods":["safetyoverrides","ill_advised"],
-    },    
 }

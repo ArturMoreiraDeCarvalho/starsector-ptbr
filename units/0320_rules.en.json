@@ -1,0 +1,296 @@
+{
+ "chunk": 320,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "After a short wait spent watching propaganda blurbs scroll past the crest of the Hegemony navy, the comm-link connects you with the office of Admiral Rao.\r\n\r\n\"So,\" the hero of the Siege of Raesvelg looks you over. \"What's a freelancer doing at this insignificant outpost?\"",
+   "ctx": "data/campaign/rules.csv defaultRaoGreeting [text]"
+  },
+  {
+   "i": 2,
+   "en": "The comm-link only holds briefly on the crest of the Hegemony navy before Admiral Rao appears.\r\n\r\n\"$TitleHeg,\" he says. \"Back around Ragnar long? I hope not.\" The hint of a smile flickers.",
+   "ctx": "data/campaign/rules.csv defaultRaoGreetingAgreed [text]"
+  },
+  {
+   "i": 3,
+   "en": "He looks you over through the comm-link.",
+   "ctx": "data/campaign/rules.csv defaultRaoCommission2b [text]"
+  },
+  {
+   "i": 4,
+   "en": "You recognize Rao's expression - the stoic face of a commanding officer who is disappointed - but more than that, angry - with a subordinate who has risked the mission through not only ignorance but poor fundamental judgment and character.\r\n\r\n\"$TitleHeg. You mingled with a Persean League spy. And then come to me to pour his lies on my desk?\"",
+   "ctx": "data/campaign/rules.csv SD7SconfrontRaoAboutKillingSelA [text]"
+  },
+  {
+   "i": 5,
+   "en": "You recognize Rao's expression - the stoic, blank face of a commanding officer who is truly angry with a subordinate who has risked the mission through more than ignorance but poor fundamental judgment and character.\r\n\r\n\"$TitlePL.\" His voice is controlled. \"I extent great leeway by even accepting your comms request. Then you pour the lies of a League spy on my desk.\"",
+   "ctx": "data/campaign/rules.csv SD7SconfrontRaoAboutKillingSelB [text]"
+  },
+  {
+   "i": 6,
+   "en": "You recognize Rao's expression - the stoic face of a commanding officer who is disappointed - but more than that, angry - with a civilian who has risked the mission through not only ignorance but poor fundamental judgment and character.\r\n\r\n\"Captain. You've mingled with a Persean League spy. Then come to me and you pour his lies onto my desk.\"",
+   "ctx": "data/campaign/rules.csv SD7SconfrontRaoAboutKillingSelC [text]"
+  },
+  {
+   "i": 7,
+   "en": "He takes a slow breath, eyes fixed on your through the link.",
+   "ctx": "data/campaign/rules.csv SD7SconfrontRaoAboutKillingOpts [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"That's a luxury we have not been able to afford for a long, long time, $titleHeg,\" he says, almost a growl.",
+   "ctx": "data/campaign/rules.csv RaoConfrontAboutKilling2aHeg [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"Then you'll be looking for a long time, $titlePL,\" he says, almost a growl.",
+   "ctx": "data/campaign/rules.csv RaoConfrontAboutKilling2aPL [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"Keep looking, spacer,\" he says, almost a growl.",
+   "ctx": "data/campaign/rules.csv RaoConfrontAboutKilling2a [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"Correct,\" he says, almost a growl.",
+   "ctx": "data/campaign/rules.csv RaoConfrontAboutKilling2b [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"Your condescension is unwelcome, spacer,\" he says, almost a growl.",
+   "ctx": "data/campaign/rules.csv RaoConfrontAboutKilling2d [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"This conversation is over.\"\r\n\r\nThe link cuts.\r\n\r\n* * *\r\n\r\nIt might be wise to wait a day or so before trying to contact Admiral Rao again.\"",
+   "ctx": "data/campaign/rules.csv RaoConfrontAboutKillingOut [text]"
+  },
+  {
+   "i": 14,
+   "en": "He blows some air out through his nostrils, barely a laugh.\r\n\r\n\"Trading tired banter with you, it appears.\" He makes a show of checking a secondary display. For the time, perhaps.\r\n\r\n\"I am busy, if you can believe it. Perhaps you had something useful, or at least interesting to say?\"",
+   "ctx": "data/campaign/rules.csv raoWarHero1 [text]"
+  },
+  {
+   "i": 15,
+   "en": "set Hyder trust to 0",
+   "ctx": "data/campaign/rules.csv raoDevOptionHubHyderNotTrust [text]"
+  },
+  {
+   "i": 16,
+   "en": "set Hyder trust to TRUE and 3",
+   "ctx": "data/campaign/rules.csv raoDevOptionHubHyderTrust [text]"
+  },
+  {
+   "i": 17,
+   "en": "Done.\r\n\r\n(Now you have to go into intel and 'accept' him as a contact.)",
+   "ctx": "data/campaign/rules.csv raoDevOptionHubMakeContact [text]"
+  },
+  {
+   "i": 18,
+   "en": "Set\r\nplayer.sd7s_tookLeonidasToOrcus = true\r\nglobal.sd7s_gaveHerculesOrcusEscape = true\r\nglobal.sd7s_toldRaoAboutFortunaAchilles = true\r\nglobal.sdse_offeredToAskRaoForHyderDefection = true\r\nglobal.sdse_uploadedAskoniaCommsHackRao = true\r\nplayer.sd7s_affirmedSupportingRaoAgainstAchilles = true",
+   "ctx": "data/campaign/rules.csv raoDevOptionHubHegSDR [text]"
+  },
+  {
+   "i": 19,
+   "en": "global.sdtu_hintedRaoInvolvement = true\r\ndone (but just for this dialog, it'll end once you close)",
+   "ctx": "data/campaign/rules.csv raoDevOptionHubA2 [text]"
+  },
+  {
+   "i": 20,
+   "en": "DEV set player.metNeriene = true",
+   "ctx": "data/campaign/rules.csv raoDevOptionHubC0 [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"No.\" His amused tone grows a touch of frost.\r\n\r\nHe looks aside as he speaks. \"I think not. They don't give medals for lying in the Hegemony...\"\r\n\r\nThen he holds a finger to his lips, thoughtfully. \"No, that's not true. Not at all. They don't give medals for lying TO the Hegemony.\"\r\n\r\nHe smiles again, turning back to you.",
+   "ctx": "data/campaign/rules.csv raoFastOneB [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"Oh, I assure you it was a wasted gesture. Neriene Rao can handle herself- with the blade, or without.\"\r\n\r\nHe looks away, smiling. It quickly fades.",
+   "ctx": "data/campaign/rules.csv raoNerieneSelLeftC [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"Neriene was a talent. Her rebellion by way of abandoning the art...\"\r\n\r\nHe looks away.\r\n\r\n\"It struck true,\" he says quietly, putting a hand on his chest. \"Anyway, you don't need an old man like me to tell you what to think. Her mind is her own business.\"",
+   "ctx": "data/campaign/rules.csv raoNerieneConvOut3 [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"Is that so,\" he says, nonchalant.\r\n\r\n\"I wonder why they would have said that.\"",
+   "ctx": "data/campaign/rules.csv raoAskDiktatMerc2 [text]"
+  },
+  {
+   "i": 25,
+   "en": "He raises an eyebrow, his affect casual.\r\n\r\n\"If I had hired this mercenary, I imagine I'd be pretty upset at how easily they gave up the identity of their employer. It's a good thing the Hegemony has an official policy forbidding the employ of mercs.\"",
+   "ctx": "data/campaign/rules.csv raoAskDiktatMerc3 [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"Hmm.\" Rao looks you over. Is that twinkle in his eye - there are no other words for it - amusement?\r\n\r\n\"Why?\"\r\n\r\nHe leaves the silence for you to fill.",
+   "ctx": "data/campaign/rules.csv raoAskDiktatMerc4b [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"Maybe he admires my fashion sense,\" he says breezily.\r\n\r\n\"Speaking of interests.\" Rao adjusts himself in his seat, posture improving dramatically to reflect the rank of admiral which he holds.\r\n\r\n\"I'm interested in why you're having such intimate conversations with Dolos Macario.\"",
+   "ctx": "data/campaign/rules.csv raoAskDiktatDolos2 [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"So you just... went along?\"\r\n\r\nHe shakes his head.",
+   "ctx": "data/campaign/rules.csv RaoAskDolosOptsAsel1 [text]"
+  },
+  {
+   "i": 29,
+   "en": "Rao holds up a hand, indicating that you should stop trying to explain yourself.\r\n\r\n\"I already know the facts, $titleHeg. I'm more interested in where you stand.\"",
+   "ctx": "data/campaign/rules.csv RaoAskDolosOptsAsel2 [text]"
+  },
+  {
+   "i": 30,
+   "en": "He nods.\r\n\r\n\"You understand why someone in my position might view such association with the Sindrian Mutiny with a bit of skepticism, I trust. I won't belabor that point.\"\r\n\r\nHe leans forwards, hands together.\r\n\r\n\"I'm familiar with the facts of the matter. For the most part, $titleHeg. I'm more interested in where you stand.\"",
+   "ctx": "data/campaign/rules.csv RaoAskDolosOptsBsel1 [text]"
+  },
+  {
+   "i": 31,
+   "en": "He nods, though there's a wary look in his eyes.",
+   "ctx": "data/campaign/rules.csv RaoAskDolosCreditsA [text]"
+  },
+  {
+   "i": 32,
+   "en": "He nods.",
+   "ctx": "data/campaign/rules.csv RaoAskDolosCreditsB [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"We work with more than a few private-enterprise auxiliaries, shall we say. Part of my job is ensuring they've a healthy respect for the terms of their contracts.\"\r\n\r\nHis implication is a threat, of course. His tone, and expression, are not unfamiliar from your occasional dealings with underworld bosses.",
+   "ctx": "data/campaign/rules.csv RaoAskDolosCredits2 [text]"
+  },
+  {
+   "i": 34,
+   "en": "\"Good,\" he says distantly.",
+   "ctx": "data/campaign/rules.csv RaoAskDolosCredits3a [text]"
+  },
+  {
+   "i": 35,
+   "en": "\"Yes,\" he says. \"I thought I made that pretty clear.\"",
+   "ctx": "data/campaign/rules.csv RaoAskDolosCredits3b [text]"
+  },
+  {
+   "i": 36,
+   "en": "He leans forward.\r\n\r\n\"Now, I believe I owe you a real answer to your question. Why is Dolos Macario interested in me?\"",
+   "ctx": "data/campaign/rules.csv RaoAskDolosCredits4 [text]"
+  },
+  {
+   "i": 37,
+   "en": "He gives a nod, though a skeptical look remains.\r\n\r\n\"I should hope you're not simply saying that because you think it'll make me like you.\"",
+   "ctx": "data/campaign/rules.csv RaoAskDolosOptsCsel1 [text]"
+  },
+  {
+   "i": 38,
+   "en": "\"It should be,\" he says with a distant look.\r\n\r\n\"Now, I believe I owe you a real answer to your question. Why is Dolos Macario interested in me?\"\r\n\r\nHe leans forward.",
+   "ctx": "data/campaign/rules.csv RaoAskDolosOptsCsel2a [text]"
+  },
+  {
+   "i": 39,
+   "en": "\"I suppose not,\" he says. \"Though the Hegemony bureaucracy might believe otherwise.\"\r\n\r\n\"Now, I believe I owe you a real answer to your question. Why is Dolos Macario interested in me?\"\r\n\r\nHe leans forward.",
+   "ctx": "data/campaign/rules.csv RaoAskDolosOptsCsel2b [text]"
+  },
+  {
+   "i": 40,
+   "en": "\"No, it doesn't hurt,\" he says, amused. \r\n\r\nHis look grows distant for a moment. \"I've discovered that with high connections you can find forgiveness in unexpected places.\" He shakes his head.\r\n\r\n\"Now, I believe I owe you a real answer to your question. Why is Dolos Macario interested in me?\"\r\n\r\nHe leans forward.",
+   "ctx": "data/campaign/rules.csv RaoAskDolosOptsCsel2c [text]"
+  },
+  {
+   "i": 41,
+   "en": "He raises an eyebrow. \"You think a lone spacer can bring down the Sindrian Diktat?\"",
+   "ctx": "data/campaign/rules.csv RaoAskDolosOptsDsel1 [text]"
+  },
+  {
+   "i": 42,
+   "en": "He laughs.\r\n\r\n\"Well, I suppose I owe a real answer to your question. Why is Macario interested in me?\"\r\n\r\nHe leans forward.",
+   "ctx": "data/campaign/rules.csv RaoAskDolosOptsDsel2a [text]"
+  },
+  {
+   "i": 43,
+   "en": "He nods.\r\n\r\n\"I suppose I owe a real answer to your question. Why is Macario interested in me?\"\r\n\r\nHe leans forward.",
+   "ctx": "data/campaign/rules.csv RaoAskDolosOptsDsel2b [text]"
+  },
+  {
+   "i": 44,
+   "en": "\"Really?\" He looks legitimately perplexed. \"An outsider with no connection to the ruling clique or official ideology swoops in and claims executive control based on... what, force alone?\"\r\n\r\nRao taps his chin, considering.\r\n\r\n\"I see where you got the idea. But warfleets aside, you do lack connections with the local elite. And you've not benefited from twenty cycles of the Hegemony propaganda machine building you up as the savior of human civilization itself.\"",
+   "ctx": "data/campaign/rules.csv RaoAskDolosOptsEsel1 [text]"
+  },
+  {
+   "i": 45,
+   "en": "\"So no.\" He shakes his head. \"I don't think so.\"\r\n\r\n\"If you were lucky you could be another Loke or Leonis. But they never built anything, they only destroyed. And how they died?\"\r\n\r\nRao gives you a look- is that how you want to end up?",
+   "ctx": "data/campaign/rules.csv RaoAskDolosOptsEsel2 [text]"
+  },
+  {
+   "i": 46,
+   "en": "\"Then you will receive no answer in return,\" he says. \"Now don't try to ask again, I don't abide a pest.\"",
+   "ctx": "data/campaign/rules.csv RaoAskDolosOptsFsel1 [text]"
+  },
+  {
+   "i": 47,
+   "en": "\"Because I am going to destroy the Sindrian Mutiny, and him with it.\"\r\n\r\nRao puts his hands together, fingers interlaced.\r\n\r\n\"Anything else?\"",
+   "ctx": "data/campaign/rules.csv RaoAskDiktatDolosYourTurnSel [text]"
+  },
+  {
+   "i": 48,
+   "en": "\"You have promise, captain, that's true. But,\" he takes on an avuncular tone, \"I don't think you've got enough experience to handle what I've got in mind.\"\r\n\r\n\"Put yourself out there, take on some jobs. We may speak again on this later.\"\r\n\r\nHis tone makes it clear that the issue is settled. For now.",
+   "ctx": "data/campaign/rules.csv RaoPitchTestTooSoon [text]"
+  },
+  {
+   "i": 49,
+   "en": "\"You have promise, captain. Especially if your captaining is anything like your swordplay. You spilled blood for honor in personal combat. That is more than most can say.\"\r\n\r\nHe pauses. \"It speaks well for you, for what I have in mind.\"",
+   "ctx": "data/campaign/rules.csv RaoPitchTestSwords [text]"
+  },
+  {
+   "i": 50,
+   "en": "\"You have promise, captain. You were brave enough to take up the sword with full knowledge of the art, fight... and lose. Your blood was spilled for honor in personal combat. That is more than most can say.\"\r\n\r\nHe pauses. \"It speaks well for you, for what I have in mind.\"",
+   "ctx": "data/campaign/rules.csv RaoPitchTestSwords2 [text]"
+  },
+  {
+   "i": 51,
+   "en": "\"The truth makes few friends.\" Rao produces a wry smile.\r\n\r\n\"I never could stand a fool, especially when that fool is an honorable member of the Strategic Assembly. So,\" he holds his hand out to indicate his surroundings, Ragnar Complex.\r\n\r\n\"It's not so bad.\"",
+   "ctx": "data/campaign/rules.csv RaoPitchOptRespect [text]"
+  },
+  {
+   "i": 52,
+   "en": "\"A proper officer of the Hegemony is taught to leap toward the enemy, blazing guns. Once the noise quiets down, they'll wait, slack-jawed, for the medals to be pinned to their uniforms.\" \r\n\r\n\"Such is the way of the Domain, which we must uphold.\"\r\n\r\nHe half-raises a finger, a quirk on his lips. \"Officially,\" he concludes.",
+   "ctx": "data/campaign/rules.csv RaoPitchOptWhatNeed [text]"
+  },
+  {
+   "i": 53,
+   "en": "\"Baikal was kind enough to find me a place where I could get important work done. I deal with... let us call them 'unique circumstances'. And for this I find it necessary to associate with energetic freelancers.\"\r\n\r\n\"I'll ensure you're paid promptly for a roster of small merc jobs.\"\r\n\r\n\"Then, perhaps something big will come up. When it does, I want to know I can count on you.\"",
+   "ctx": "data/campaign/rules.csv RaoPitchOptWhatNeed2 [text]"
+  },
+  {
+   "i": 54,
+   "en": "\"I'm offering you the chance to be the grit that throws history off its axis.\"\r\n\r\nHe lets his sly smile fade. \"There are many bodies of power turning just now. Grinding away, warships and bombings and riots and resources.\"\r\n\r\n\"The Persean Sector needs change, or it will grind what's left of us to dust.\"",
+   "ctx": "data/campaign/rules.csv RaoPitchOptTakeCircumstances [text]"
+  },
+  {
+   "i": 55,
+   "en": "\"Good,\" his approval comes with his sly smile. \"Have your people set up secure comms. We'll show the Strategic Assembly how it's done.\"",
+   "ctx": "data/campaign/rules.csv RaoPitchAccept [text]"
+  },
+  {
+   "i": 56,
+   "en": "He turns a fearsome look upon you and holds it for a moment.\r\n\r\nThen laughs at your insolence.",
+   "ctx": "data/campaign/rules.csv bellamyAskKantaSel [text]"
+  },
+  {
+   "i": 57,
+   "en": "\"It's true,\" he says with a slight smile. \"However distantly. It is a name that comes with a great deal of... undeclared cargo, let us say.\"\r\n\r\n\"I am, however, my own man.\" Bellamy shrugs. \"And I expect anyone of good manners will respect this, and not be so thick-headed as to ask if I am part of her organization. Because I am not.\"\r\n\r\nHe fixes you with a look, however indulgent, that makes it clear that this line of inquiry may be considered finished.",
+   "ctx": "data/campaign/rules.csv bellamyAskKanta2a [text]"
+  },
+  {
+   "i": 58,
+   "en": "set global.gaATG_missionCompleted true for 3 days\r\n\r\nyou've implicitly spaced Clone Loke - but you let him have a helmet.\r\n\r\nMake sure you've set metCydonia = true if testing SD7S otherwise you won't get the scene where Cydonia recognizes you",
+   "ctx": "data/campaign/rules.csv DEVkantasDenSelC [text]"
+  }
+ ]
+}

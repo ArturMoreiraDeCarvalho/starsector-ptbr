@@ -153,6 +153,7 @@
 		"fightToTheLast":true, # order a full assault instead of retreating, in most cases
 		"noAICoresFromAutomatedDefenses":true,
 		"officersOnAutomatedDefenses":true,
+		"noBountyForDefeating":true,
 		"simulatorData":{
 			"showInSimulatorDevModeOnly":true,
 			"omegaAICores":true,

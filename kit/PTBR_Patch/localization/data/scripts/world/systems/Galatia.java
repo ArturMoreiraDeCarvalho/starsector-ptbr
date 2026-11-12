@@ -383,6 +383,13 @@ public class Galatia {
 	
 	protected void addDerelict(StarSystemAPI system, SectorEntityToken focus, String variantId, 
 								ShipCondition condition, float orbitRadius, boolean recoverable) {
+		
+//		if (recoverable && Misc.isExtended() &&
+//				StarSystemGenerator.random.nextFloat() >= Misc.getDerelictRecoverableFraction()) {
+		if (Misc.isExtended()) {		
+			recoverable = false;
+		}
+		
 		DerelictShipData params = new DerelictShipData(new PerShipData(variantId, condition, 0f), false);
 		SectorEntityToken ship = BaseThemeGenerator.addSalvageEntity(system, Entities.WRECK, Factions.NEUTRAL, params);
 		ship.setDiscoverable(true);
@@ -391,7 +398,8 @@ public class Galatia {
 		ship.setCircularOrbit(focus, (float) Math.random() * 360f, orbitRadius, orbitDays);
 		
 		if (recoverable) {
-			ShipRecoverySpecialCreator creator = new ShipRecoverySpecialCreator(null, 0, 0, false, null, null);
+			boolean badCondition = Misc.isExtended() && Global.getSettings().getBoolean("ext_reduceDerelictQuality");
+			ShipRecoverySpecialCreator creator = new ShipRecoverySpecialCreator(null, 0, 0, badCondition, null, null);
 			Misc.setSalvageSpecial(ship, creator.createSpecial(ship, null));
 		}
 		

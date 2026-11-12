@@ -33,9 +33,12 @@
 		"seniorExecutive":{"name":"Executivo Sênior"},
 		"agent":{"name":"Agente"},
 		"specialAgent":{"name":"Agente Especial"},
+		"artificialIntelligence":{"name":"Inteligência Artificial"},
 		
 		"pilot":{"name":"Piloto"},
 		"unknown":{name:"Desconhecido"},
+		"criminal":{name:"Criminoso"},
+		"fugitive":{name:"Fugitivo"},
 		
 		"brother":{name:"Irmão"},
 		"sister":{name:"Irmã"},
@@ -59,6 +62,7 @@
 		"stationCommander":{"name":"Comandante de Estação"},
 		"outpostCommander":{"name":"Comandante de Posto Avançado"},
 		"portmaster":{"name":"Chefe do Porto"},
+		"personnelOfficer":{"name":"Oficial de Pessoal"},
 		
 		"intelligenceDirector":{"name":"Diretor de Inteligência"},
 		"guardLeader":{"name":"Diretor de Forças Especiais"},
@@ -94,7 +98,7 @@
 		"smuggler":{"name":"Contrabandistas"},
 		"fence":{"name":"Receptador"},
 		"armsDealer":{"name":"Traficante de Armas"},
-		
+		"underworldBoss":{"name":"Chefe do Submundo"},
 		
 		"citizen":{"name":"Cidadão"},
 		"boss":{"name":"Chefe"},
@@ -110,6 +114,8 @@
 		
 		"provost":{name:"Reitor"},
 		"academician":{name:"Acadêmico"},
+		"associate_academician":{name:"Acadêmico Associado"},
+		"assistant_academician":{name:"Acadêmico Assistente"},
 		
 		"securityChief":{name:"Chefe de Segurança"},
 		"doctor":{name:"Doutor"},
@@ -133,6 +139,12 @@
 		"initiate":{"name":"Iniciado"},
 		"novice":{"name":"Noviço"},
 		"pilgrim":{"name":"Peregrino"},
+		
+		"exile":{"name":"Exílio"},
+		
+		"gammaCore":{"name":"Núcleo Gama"},
+		"betaCore":{"name":"Núcleo Beta"},
+		"alphaCore":{"name":"Núcleo alfa"},
 		
 	},
 }

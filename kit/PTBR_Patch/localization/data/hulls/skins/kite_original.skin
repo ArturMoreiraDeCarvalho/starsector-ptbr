@@ -10,6 +10,7 @@
 	"ordnancePoints":30,
 	"fleetPoints":2,
 	"baseValueMult":1.5,
+	"salaryMult":0.25,
 	"removeWeaponSlots":["WS 001", "WS 002", "WS 003"], 		# ids
 	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
 	"removeBuiltInMods":[], 		# hullmod ids

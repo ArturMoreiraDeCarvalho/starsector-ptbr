@@ -8,6 +8,7 @@
 	"tags":["LP_bp"],
 	"tech":"Caminho Luddita",
 	"baseValueMult":0.9,
+	"parts/dmod":2,
 	"spriteName":"graphics/ships/hound/hound_luddic_path.png",
 	"removeWeaponSlots":[], 		# ids
 	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file

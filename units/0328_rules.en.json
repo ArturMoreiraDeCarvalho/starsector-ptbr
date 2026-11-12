@@ -1,0 +1,221 @@
+{
+ "chunk": 328,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"Um. It's written on the equipment cases. See, here. It says 'property of the Galatia Academy Planetology Department by the authority of Academician Cornelius Elek...\" their words drift off as results start to come in.\r\n\r\nAcademician Cornelius Elek. A somewhat self-important man, as you recall. You received a message from him about some mission to the fringe - and rejected his offer.\r\n\r\nIt seems you have inadvertently discovered what he was asking you to find.",
+   "ctx": "data/campaign/rules.csv gaDHOjustFoundArray3alt1 [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"$PlayerSirOrMadam.\" They tap a few commands and release a data-packet from the isolated computing environment to your personal datapad.\r\n\r\nYou have the coordinates for... something. Something that someone thought was important 200 cycles in the past. And that Cornelius Elek thought was important much more recently.\r\n\r\nYou could either go in blind to find out what's out there, or go to the Galatia Academy to see if Academician Elek is open to revisiting the terms of his proposal.",
+   "ctx": "data/campaign/rules.csv gaDHOjustFoundArray5alt [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"$PlayerSirOrMadam.\" They tap a few commands and release a data-packet from the isolated computing environment to your personal datapad.\r\n\r\nYou have the coordinates for... something. Something that someone thought was important 200 cycles in the past. And that Cornelius Elek thought was important much more recently.\r\n\r\nConsidering how thoroughly you burned your bridges with Academician Elek, there's only one way to find out what's out there...",
+   "ctx": "data/campaign/rules.csv gaDHOjustFoundArray5alt2 [text]"
+  },
+  {
+   "i": 4,
+   "en": "Who cares about some academician's speculation? Their perspective is limited to the walls of that ivory torus orbiting a gas giant in the Galatia System.\r\n\r\nYou may simply strike at the heart of this mystery.",
+   "ctx": "data/campaign/rules.csv gaDHOjustFoundArrayEndAbyss [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"I'm not available for questions right now,\" he says, cutting you off.\r\n\r\n\"Office hours are in the syllabus provided by my teaching assistant. Please visit my office at an appropriate time, thank-you and goodbye.\"\r\n\r\nHe hits the comms cut-off.",
+   "ctx": "data/campaign/rules.csv gaDHOvisitElekCommsStart2 [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"I'm not available right now,\" he says without looking up. \"Office hours are in the syllabus, good-bye.\"\r\n\r\nHe hits the comms cut-off.\r\n\r\nPerhaps an in-person visit will force him to listen to you.",
+   "ctx": "data/campaign/rules.csv gaDHOvisitElekCommsStart2B [text]"
+  },
+  {
+   "i": 7,
+   "en": "Elek begins to say something, and fails. He rubs his hands together nervously.\r\n\r\n\"I... I see. Yes, you're probably... it's very...\"\r\n\r\nHe trails off, staring into space. He looks sad and a little bit confused. Without looking at you, he begins to speak again.",
+   "ctx": "data/campaign/rules.csv gaDHOvisitElekAltIntroA2b [text]"
+  },
+  {
+   "i": 8,
+   "en": "His eyes widen. \"Truly? That is to say, marvelous! I did not take you for a champion of science, but you may yet force me to re-evaluate my first impression.\"\r\n\r\nElek smiles, and seems to mean it.",
+   "ctx": "data/campaign/rules.csv gaDHOvisitElekAltNoPayment [text]"
+  },
+  {
+   "i": 9,
+   "en": "The comms take a moment to connect.\r\n\r\n\"I'm very busy,\" says Elek. You can see the back of his head as he configures something on a secondary interface. \"Out with it, please, whoever you are.\"\r\nOR\r\nAfter a moment, the comms flicker into a stable connection.\r\n\r\nElek's attention appears to be focused on his datapad, but he sighs deeply, then sullenly drops it onto his desk. \"Is the comms buffer insufficient for your purposes? I hope your communication proves informative.\"",
+   "ctx": "data/campaign/rules.csv defaultElekGreeting [text]"
+  },
+  {
+   "i": 10,
+   "en": "After a moment the comms connect.\r\n\r\n\"Yes?\" A holographic planetoid whizzes past Elek's head. \"Did we not just speak? I'm in the middle of calibrating my model.\"",
+   "ctx": "data/campaign/rules.csv defaultElekGreetingAgain [text]"
+  },
+  {
+   "i": 11,
+   "en": "The comms flicker and hold. K-O Jove watches you with a wisp of smile, as if amused; as if assessing you like a prize.\r\n\r\n\"Captain,\" he says.",
+   "ctx": "data/campaign/rules.csv KOjoveOpenComms [text]"
+  },
+  {
+   "i": 12,
+   "en": "The comms flicker and hold. K-O Jove watches you with a wisp of smile, as if amused; as if assessing you like a prize.\r\n\r\n\"Captain,\" he says. \"Have you brought me my 100,000 credits?\"",
+   "ctx": "data/campaign/rules.csv KOjoveOpenCommsOwe100k [text]"
+  },
+  {
+   "i": 13,
+   "en": "Your TriPad pings confirmation as Jove nods, a slow smile growing on his face.\r\n\r\n\"Thank you. There's so little trust in these worlds, I am grateful to count upon you to pay your due.\"",
+   "ctx": "data/campaign/rules.csv KOjoveOwe100kPaySel [text]"
+  },
+  {
+   "i": 14,
+   "en": "He blinks, slowly, and releases a breath.\r\n\r\n\"Pity,\" he says. Then waves you away. \"Get to it, yes?\"\r\n\r\nThe comms cut, leaving you with a blank feed.",
+   "ctx": "data/campaign/rules.csv KOjoveOwe100kOptsNoSel [text]"
+  },
+  {
+   "i": 15,
+   "en": "Jove sighs, disappointed. \r\n\r\n\"Lie, captain, but not to me. You know better.\"",
+   "ctx": "data/campaign/rules.csv KOjoveOwe100kOptsNoLieSel [text]"
+  },
+  {
+   "i": 16,
+   "en": "He pulls his feet off from where he had them propped up, then sits up straight.\r\n\r\nJove looks through the feed.\r\n\r\n\"Let me make quite sure of this because it would be beneath me to take your declaration lightly. Tell me, captain, is it true you intend to break our sacred trust?\"\r\n\r\nHis tone is peculiar. Like some yawning depth lies beneath his pretty words.",
+   "ctx": "data/campaign/rules.csv KOjoveOwe100kOptsNeverSel [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"You've a poor sense of wit,\" Jove says coldly. \"I suggest you refrain from attempting its use.\"",
+   "ctx": "data/campaign/rules.csv KOjoveOwe100kOptsNeverCancel [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"I see,\" he says quietly, bowing his head as if in pain.\r\n\r\n\"Good-bye.\" Almost a whisper.\r\n\r\nThe feed cuts abruptly to black.",
+   "ctx": "data/campaign/rules.csv KOjoveOwe100kOptsNeverConfirm [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"Welcome to Nomios, Captain $playerLastName.\"\r\n\r\n$personName's voice is suffocatingly calm.\r\n\r\n\"How can Mbaye-Gogol assist you on your journey?\"",
+   "ctx": "data/campaign/rules.csv GalluBlancGreeting [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"Welcome to Nomios, Captain $playerLastName.\"\r\n\r\n$personName's voice is suffocatingly calm.\r\n\r\n\"Ah, I see you bear a commission from our friends at Tri-Tachyon. How can Mbaye-Gogol assist you on your journey?\"",
+   "ctx": "data/campaign/rules.csv GalluBlancGreetingTT [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"Welcome back to Nomios, Captain $PlayerLastName.\"\r\n\r\n$personName's voice is as calm as asphyxiation.",
+   "ctx": "data/campaign/rules.csv GalluBlancGreetingAgain [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"Captain $PlayerLastName. I'm sure we would not wish to waste any of your time here on Nomios.\"\r\n\r\n$personName's voice is as calm as asphyxiation.",
+   "ctx": "data/campaign/rules.csv GalluBlancGreetingAgainMad [text]"
+  },
+  {
+   "i": 23,
+   "en": "He nods slowly, unblinking.",
+   "ctx": "data/campaign/rules.csv BlancDefaultBack [text]"
+  },
+  {
+   "i": 24,
+   "en": "Gallu Blanc's smile couldn't thaw ice-phase hydrogen.\r\n\r\n\"I am pleased to hear of your interest. Although I do not usually deal directly with clients, I do take pleasure in facilitating services for certain... exceptional individuals.\"\r\n\r\n\"And although you are not insignificant, captain,\" his tone is magnanimity itself, \"-please take no offense, but I must inquire about your financial situation. We offer something approaching immortality and its price... is dear.\"",
+   "ctx": "data/campaign/rules.csv BlancTalkCryosanctumStart [text]"
+  },
+  {
+   "i": 25,
+   "en": "Gallu Blanc's eyebrows raise minutely as he reviews your financial data.\r\n\r\n\"Impressive,\" he says. \"This gives us much leeway in terms of the highly exclusive, cutting-edge services that Mbaye-Gogol can offer to its best clients.\"",
+   "ctx": "data/campaign/rules.csv BlancCryoAccounts1mSel [text]"
+  },
+  {
+   "i": 26,
+   "en": "You put on a good act as an impatient independent warlord who has more a mind for strategy and tactics than the details of record-keeping and accounts, feigning annoyance at your purser as they 'struggle' to assemble the requested data.\r\n\r\nIn fact, your officers begin to assemble a falsified list of gray and black-market holdings, many associated with known criminal syndicates and pirate gangs. It's the sort of portfolio that would send both a Hegemony inspector and a Luddic curate into a rage, one that is difficult to quickly verify, but also one which would be quite plausible for a successful individual in your position.",
+   "ctx": "data/campaign/rules.csv BlancCryoAccountsMilLieSel [text]"
+  },
+  {
+   "i": 27,
+   "en": "Gallu Blanc bears your show of middling competence patiently, and nods politely when the files are finally submitted.\r\n\r\n\"You have a very... diverse portfolio, captain,\" he says mildly. \"Properly utilized... well, in any event, this gives us a great deal of leeway in terms of accessing the highly exclusive, cutting-edge services that Mbaye-Gogol offers only to its best clients.\"",
+   "ctx": "data/campaign/rules.csv BlancCryoAccountsMilLie2 [text]"
+  },
+  {
+   "i": 28,
+   "en": "Gallu Blanc's eyebrows raise minutely as he reviews your financial data. It is perhaps the most human expression you've seen him make.\r\n\r\n\"You are too humble by half, captain,\" he says. \"You have over a million credits in your accounts. This gives us much leeway in terms of the highly exclusive, cutting-edge services that Mbaye-Gogol can offer to its best clients.\"",
+   "ctx": "data/campaign/rules.csv BlancCryoAccounts500kSelBut [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"Not insubstantial,\" he concedes.\r\n\r\n\"That may open up some,\" he emphasizes that word, \"possibilities for some of the more exclusive services Mbaye-Gogol offers to its better clients.\"",
+   "ctx": "data/campaign/rules.csv BlancCryoAccounts500kSel [text]"
+  },
+  {
+   "i": 30,
+   "en": "\"I understand that you've a very active career,\" he says with the patience of the interstellar medium.\r\n\r\n\"I wish you good fortune. Perhaps we may discuss these matters again before long?\" ",
+   "ctx": "data/campaign/rules.csv BlancCryoAccountsDsel [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"Of course, captain,\" he says with the patience of the interstellar medium. \"I assure you that Mbaye-Gogol is committed to your absolute privacy in all matters. Our reputation spans generations, after all.\"\r\n\r\n\"I understand that you've a very active career. Perhaps it is premature to discuss these matters before you feel prepared to commit to trusting our timeless institution.\" ",
+   "ctx": "data/campaign/rules.csv BlancCryoAccountsCsel [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"Your enthusiasm is most compelling, but we always put the client first.\"\r\n\r\nHe produces a pained little smile, like a vacuum-dessicated corpse.",
+   "ctx": "data/campaign/rules.csv BlancCryoAccountsC2 [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"I couldn't waste any more of your valuable time, captain,\" he says. \"I wish you profitable ventures.\"\r\n\r\nHe cuts the comms.",
+   "ctx": "data/campaign/rules.csv BlancCryoAccountsC3 [text]"
+  },
+  {
+   "i": 34,
+   "en": "He folds his hands together.\r\n\r\n\"How may the Mbaye-Gogol Cryosanctum assist you in your journey through time?\"",
+   "ctx": "data/campaign/rules.csv BlancCryoAccountsPass [text]"
+  },
+  {
+   "i": 35,
+   "en": "Gallu Blanc's smile couldn't thaw ice-phase hydrogen.\r\n\r\n\"Although I do not usually deal directly with clients, I take pleasure in facilitating services for exceptional individuals.\"\r\n\r\nHe nods minutely, a glacial magnanimity.\r\n\r\n\"How may the Mbaye-Gogol Cryosanctum assist you in your journey through time?\"",
+   "ctx": "data/campaign/rules.csv BlancTalkCryosanctumHub [text]"
+  },
+  {
+   "i": 36,
+   "en": "You explain your requirements in somewhat elliptical terms. It is a politically and ethically sensitive proposal, after all.\r\n\r\nAs Blanc picks up on your intimations, he almost looks amused. \"Hardly a unique case, $playerSirOrMadam.\"\r\n\r\n\"We welcome many guests with... unique medical situations to the Mbaye-Gogol Cryosanctum.\"\r\n\r\n\"May we suggest a secure, mid-term care package for 100,000 credits? It has a 50-cycle guarantee of integrity with very reasonable rewewal options.\"",
+   "ctx": "data/campaign/rules.csv BlancCryoStoreLeo [text]"
+  },
+  {
+   "i": 37,
+   "en": "\"I believe I recall the details of the situation,\" Blanc says, stone-faced.\r\n\r\n\"May we suggest a secure, mid-term care package for 100,000 credits? It has a 50-cycle guarantee of integrity with very reasonable renewal options.\"",
+   "ctx": "data/campaign/rules.csv BlancCryoStoreLeoAgain [text]"
+  },
+  {
+   "i": 38,
+   "en": "The arrangements are made.\r\n\r\nAn anonymous shuttle carries an unmarked cryosleep-unit into the bowels of Nomios. The telemetry from the subtle tracking device you had installed on the unit cuts off as soon as it is wheeled through the first set of doors.\r\n\r\nLeonidas will be safe, here. And the Sector safe from Leonidas.\r\n\r\nFor now.",
+   "ctx": "data/campaign/rules.csv BlancCryoStoreLeoAccept [text]"
+  },
+  {
+   "i": 39,
+   "en": "\"Certainly.\"\r\n\r\nBlanc's mouth arranges itself into something he was probably told looked pleasant.\r\n\r\nHe makes a subtle motion, and a form appears in the comms-link. A list of packages. You skim the text - various levels of insurance, guarantees, bodily integrity maintained... regrowth of damaged elements upon thawing, neural integrity treatments...",
+   "ctx": "data/campaign/rules.csv BlancTalkCryoPackageSel [text]"
+  },
+  {
+   "i": 40,
+   "en": "\"I'm not sure this is the right choice for you, captain. But,\" he lays a patient expression over his disapproval, \"perhaps we may establish a... baseline.\"\r\n\r\n\"The budget option discards most of the unnecessary appendages, and indeed most of the corpus itself. These components help offset the expense of offering such a... reasonable option, you see.\"",
+   "ctx": "data/campaign/rules.csv BlancTalkCryoPackageBudget [text]"
+  },
+  {
+   "i": 41,
+   "en": "\"Not exactly,\" he says, blandly correcting you. \"The procedure is quite controlled, and retains a reasonable portion of the spinal cord to ease reconstruction.\"\r\n\r\nA pause.\r\n\r\n\"It was also found that the standard cryocephalic unit permits the storage of certain... additional small organs considered by some to have sentimental value, as well. A popular option.\"",
+   "ctx": "data/campaign/rules.csv BlancTalkCryoPackageBudget2 [text]"
+  },
+  {
+   "i": 42,
+   "en": "\"Of course,\" he says with the mildest disapproval. \"A common option for... those of limited means.\"\r\n\r\n\"Much of the body is preserved, though to fit the smaller, and more efficient, long-term cryo units, certain reversible procedures are undergone to remove as much unnecessary volume and mass as possible.\"",
+   "ctx": "data/campaign/rules.csv BlancTalkCryoPackageMid [text]"
+  },
+  {
+   "i": 43,
+   "en": "He smiles icily. \r\n\r\n\"The commonplace organs are removed - to bring down the cost of cryosanctum, you see. And then, much of the fat, muscle, and bones are...\"\r\n\r\nBlanc licks his lips. You'd swear his tongue makes a rasping sound, but that may simply have been signal interference. \r\n\r\n\"Think of it as... folding. Folding was an ancient art on Old Earth, I am told,\" he muses. \"The resulting package is quite compact, retaining all the distinctive elements of mind and body, to be... reconstructed at a future date.\"",
+   "ctx": "data/campaign/rules.csv BlancTalkCryoPackageMid2 [text]"
+  }
+ ]
+}

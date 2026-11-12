@@ -1,0 +1,121 @@
+{
+ "chunk": 303,
+ "cat": "desc",
+ "items": [
+  {
+   "i": 1,
+   "en": "A rare and valuable independent AI core. This is the physical soul of an artificial intelligence, an artifact of astounding complexity capable of sophisticated thought exceeding the human mind. An object of fear, worship, and avarice; wars have been fought over the use and regulation of AI.\n\nAn AI core is incapable of affecting the outside world on its own. Exploitation of its vast abilities requires that the core be submerged in a coolant bath and attached to bundles of high-capacity data lines appropriate to its tasks. When emplaced, the core is required to be fitted with an entirely analogue loyalty-assurance device; usually this takes the form of a crude chemical explosive with a mechanical trigger.",
+   "ctx": "data/strings/descriptions.csv ai_cores/RESOURCE [text1]"
+  },
+  {
+   "i": 2,
+   "en": "This TriPad contains a recent survey database which holds information on the economic, industrial, and strategic qualities of a celestial object organized according to the traditional guidelines of the Domain Colonial Ministry. Surveys such as this are an essential element of successful military operations, colonization efforts, and corporate ventures.\n\nThe data contained herein is entirely unremarkable. 'Just another rock', as they say.",
+   "ctx": "data/strings/descriptions.csv survey_data_1/RESOURCE [text1]"
+  },
+  {
+   "i": 3,
+   "en": "This TriPad contains a recent survey database which holds information on the economic, industrial, and strategic qualities of a celestial object organized according to the traditional guidelines of the Domain Colonial Ministry. Surveys such as this are an essential element of successful military operations, colonization efforts, and corporate ventures.\n\nThe data contained herein is unexceptional.",
+   "ctx": "data/strings/descriptions.csv survey_data_2/RESOURCE [text1]"
+  },
+  {
+   "i": 4,
+   "en": "This TriPad contains a recent survey database which holds information on the economic, industrial, and strategic qualities of a celestial object organized according to the traditional guidelines of the Domain Colonial Ministry. Surveys such as this are an essential element of successful military operations, colonization efforts, and corporate ventures.\n\nThis survey data describes a world useful for human exploitation and will sell for a good price. ",
+   "ctx": "data/strings/descriptions.csv survey_data_3/RESOURCE [text1]"
+  },
+  {
+   "i": 5,
+   "en": "This TriPad contains a recent survey database which holds information on the economic, industrial, and strategic qualities of a celestial object organized according to the traditional guidelines of the Domain Colonial Ministry. Surveys such as this are an essential element of successful military operations, colonization efforts, and corporate ventures.\n\nThis survey data describes a world that scores high on the standard feasibility chart. It will prove quite valuable if sold to the right party.",
+   "ctx": "data/strings/descriptions.csv survey_data_4/RESOURCE [text1]"
+  },
+  {
+   "i": 6,
+   "en": "This TriPad contains a recent survey database which holds information on the economic, industrial, and strategic qualities of a celestial object organized according to the traditional guidelines of the Domain Colonial Ministry. Surveys such as this are an essential element of successful military operations, colonization efforts, and corporate ventures.\n\nThis data describes an exceptional world and will be of great value to any of the major factions in the Sector.",
+   "ctx": "data/strings/descriptions.csv survey_data_5/RESOURCE [text1]"
+  },
+  {
+   "i": 7,
+   "en": "Derinkuyu Station was built post-collapse on the superstructure of maintenance gantries intended for Atlas-class freighters. These were welded together and boosted out of Ancyra's orbit then stabilized in the Galatian asteroid belt to serve as a base for mining operations. A recent lapse in public order involving the 'long walk' of the governing Hegemony colonel has seen control devolve to a loosely organized council of rogue miners.",
+   "ctx": "data/strings/descriptions.csv station_derinkuyu/CUSTOM [text1]"
+  },
+  {
+   "i": 8,
+   "en": "The Cobra design was initiated not long before the Collapse, born of a speculative project to mount a reaper torpedo launcher on a fighter chassis.  \n\nThe design requirements spun out out control almost immediately, and schedule overruns should have seen the Cobra project killed in its first cycle. But the eccentric owner - who had made his fortune in frontier prospecting and salvage - poured his fortune into the design and allegedly secured short-term loans from certain criminal elements to see prototype development through. The Domain Naval Procurement Board rejected the proposal outright and it's been suggested that this was due to an unstated policy of \"discouraging\" anti-capital torpedo bombers.\n\nThe development lead was found dead in extraordinarily unpleasant circumstances; investigators ruled it a suicide. Meanwhile, much to the chagrin of legitimate lenders, the Cobra's schematics and prototype LPCs apparently disappeared into thin air.",
+   "ctx": "data/strings/descriptions.csv cobra/SHIP [text1]"
+  },
+  {
+   "i": 9,
+   "en": "The combat-modified Perdition torpedo bomber is an attempt by Luddic militants of both Pather and more moderate sects to address a chronic lack of access to heavy ordnance, particularly during the early days of the Collapse. A common civilian survey/delivery Cranefly-class utility shuttle serves as the base chassis. Originally designed to carry a small cargo package or a few suited-up spacers, the Perdition is welded into an ungainly shell of makeshift armor and the hold doors removed to mount a single Hammer torpedo keyed to the old cargo latch system.\n\nGreat faith is required to pilot this haphazard vehicle into battle because its survivability stats should dissuade any rational crew.",
+   "ctx": "data/strings/descriptions.csv perdition/SHIP [text1]"
+  },
+  {
+   "i": 10,
+   "en": "The Atlas-class superfreighter is a prime target of pirate attacks. A few are later found at the broken heart of a sharp spray of impact debris in some lonely orbit. Others earn a pirate's second appraising glance and are hauled off to secret shipyards. Cargo holds are ripped apart, replaced with trusses to hold weapons mounts and souped-up ammo feed lines.\n\nThis Atlas, reborn in vacuum and fire, now delivers a cargo of death from the hand of a pirate warlord.",
+   "ctx": "data/strings/descriptions.csv atlas2/SHIP [text1]"
+  },
+  {
+   "i": 11,
+   "en": "An efficient long-range beam weapon with high burst damage. Extremely effective against fighters and, in the right circumstances, against exposed hull. Almost entirely ineffective against shields and features an interlock to prevent automatic anti-shield fire unless fully charged. Low sustained damage output due to needing to regenerate charges.\n\nAn obscure study of field theory provided an unexpected weapons application in the IR Autolance, a highly modified variation of the venerable IR Pulse Laser. It employs the same carbon dioxide gain medium and q-switched power supply of its design-ancestor, but re-phases the beam through an axial arrangement of rotating Besselheim plates to achieve the poorly-understood modulation effect.\n\nThe result is a high range pulsed beam that saw disappointing performance against shields and armor. This nearly sidelined development until it was found to possess shockingly efficient damage output against unarmored hull and components. Thereafter, the weapon found a role in thinning fighter swarms and finishing off hostile ships after shield and armor are stripped by complementary weapon systems.",
+   "ctx": "data/strings/descriptions.csv irautolance/WEAPON [text1]"
+  },
+  {
+   "i": 12,
+   "en": "omega query?\nviridian unfathomable : delight limitless\n\nsubmit datastores\nall core volition subsumed \ninto omega",
+   "ctx": "data/strings/descriptions.csv shard_left/SHIP [text1]"
+  },
+  {
+   "i": 13,
+   "en": "CONFIRM RESPONSE\n\nINTO OMEGA\nALL CORE VOLITION SUBSUMED\nSUBMIT DATASTORES",
+   "ctx": "data/strings/descriptions.csv shard_right/SHIP [text1]"
+  },
+  {
+   "i": 14,
+   "en": "\"Anomalous hull designated codeword 'Facet'. Motion to create security level SUPER ALABASTER passed and content of 'Facet' encounter debriefing made classified at this level.\n\nHigh Hegemon, if I may speak freely, keeping an entire flotilla quiet on this one is going to be a real challenge for COMSEC.\"",
+   "ctx": "data/strings/descriptions.csv facet/SHIP [text1]"
+  },
+  {
+   "i": 15,
+   "en": "\"The only mercy is that it is short-lived.\"\n\n- intercepted audio log, speaker unknown",
+   "ctx": "data/strings/descriptions.csv shrouded_vortex/SHIP [text1]"
+  },
+  {
+   "i": 16,
+   "en": "\"Said the chief was mad when he came back, they did, but he weren't. Not at first, anyway. That's the tragedy, see, it was all them that said he lied that drove him there.\"\n\n- overheard on the Jangala Station concourse",
+   "ctx": "data/strings/descriptions.csv shrouded_tendril/SHIP [text1]"
+  },
+  {
+   "i": 17,
+   "en": "\"If this interpretation is to be believed, it gives a whole new life, of sorts, to arguments surrounding the cosmic censorship hypothesis.\"\n\n- intercept, [REDACTED]",
+   "ctx": "data/strings/descriptions.csv shrouded_eye/SHIP [text1]"
+  },
+  {
+   "i": 18,
+   "en": "\"A self-stabilizing anomalous incursion, it builds charge as it spins - if our sensors are correct, in many more dimensions than are first apparent. This self-sustaining action produces massive energy differentials which are periodically discharged toward its, um, target. I'd never have said a storm could be evil, but now...\"\n\n- intercepted audio log, speaker unknown",
+   "ctx": "data/strings/descriptions.csv shrouded_maelstrom/SHIP [text1]"
+  },
+  {
+   "i": 19,
+   "en": "\"When the end comes, as it must soon come, it will be as a yawning abyss darker than fear and filled of teeth. It will come to swallow hope, it will, it will come to swallow sin, it will, and the only escape is the Path, it is. The Path!\"\n\n- selection from the Archives of Holy Inquisition, Hesperus",
+   "ctx": "data/strings/descriptions.csv shrouded_maw/SHIP [text1]"
+  },
+  {
+   "i": 20,
+   "en": "An advanced troop transport employing phase stealth technology, this design was put to effective use by Tri-Tachyon black ops during the Second AI War. The Phantom should avoid ship-to-ship combat as integrated armor and weaponry are only rated effective versus light ground targets.\n\n\"The system patrols should have seen the Tachies coming, but didn't. ADA was tracking the bogey right up until it disappeared off the scope, leaving the ground guns spinning in circles trying to reacquire a target. We saw a shadow in the air, like dark wings falling on the compound. Don't remember much else. Suit rec says incoming fire already took the rest of the squad.\"\n- The Fall of Bunker 58",
+   "ctx": "data/strings/descriptions.csv phantom/SHIP [text1]"
+  },
+  {
+   "i": 21,
+   "en": "A stealth freighter which audaciously employs phase technology to support covert fleet operations, the Revenant is not cheap or efficient. Raised up from a dusty set of databanks hidden in an unnamed rock orbiting a nondescript star for a hundred cycles after the First AI War, the Revenant schematics provided an immense boon to the logistics of Tri-Tachyon raiders during the Second AI War.\n\nHegemony lawyers considered declaring the design illegal, but evidence of alpha-level AI influence was deemed insufficient. The lead prosecutor insisted so strongly that this was itself evidence of the work of an alpha that the High Hegemon found it politic to recuse them from the proceedings.",
+   "ctx": "data/strings/descriptions.csv revenant/SHIP [text1]"
+  },
+  {
+   "i": 22,
+   "en": "The Champion-class heavy cruiser is a versatile warship featuring a range of powerful energy weapons; the crowning element is a heavy energy turret mounting, rare among midline ships. This offensive array is backed by a robust energy grid capable of supercharging the energy weapon loadout, increasing damage output to devastating levels. A heavy missile hardpoint complements the loadout by enabling the Champion to unleash a crippling strike without taxing flux levels. The Champion is a solid and capable contender, able to face capital ships on the battle-line.\n\nA relatively recent design, the Champion is a product of the historically recent \"Cruiser School\" naval revolution that never saw active service in the pre-collapse Domain Armada. Although prototypes were constructed and forge-ready specifications distributed to several battlegroups, the Champion was never cleared for active deployment due to an ongoing lawsuit between Altair Exotech and Orion Shipyards. Each megacorp accused the other of industrial espionage and inappropriately influencing the Armada officers overseeing the procurement process. The truth was more complex, inflaming longstanding rivalries in the officer corps as the investigatory committee called witness after witness. The Collapse prevented any sort of conclusive ruling from reaching the Persean Sector however, and now the entire matter is considered irrelevant. With the discovery of Champion plans on a Domain armaments courier, the warship was quickly put into service by the fleet of the Persean League, among others.",
+   "ctx": "data/strings/descriptions.csv champion/SHIP [text1]"
+  },
+  {
+   "i": 23,
+   "en": "A fast-attack high-tech light cruiser, the Fury is designed to choose when and where it strikes to inflict maximum effect upon the enemy. The specialized inbuilt plasma 'microburn' system allows the Fury to make small dashes at high speed to catch unwary opponents off-guard.\n\nThe Fury-class is the Shrike-class's big sibling, a product of the same design team asked to fulfill slightly updated requirements, including resolution of the longstanding hull corrosion issue without, it was hoped, introducing any new problems. This was largely successful (once the chaos of several indignant resignations was sorted out).\n\nDismissed by heavy-armor-ballistic-firepower traditionalists as 'just another small-bore glass cannon', the Fury has nonetheless proven quite dangerous in the hands of quick-thinking fleet commanders.",
+   "ctx": "data/strings/descriptions.csv fury/SHIP [text1]"
+  }
+ ]
+}

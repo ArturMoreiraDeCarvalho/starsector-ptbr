@@ -1,0 +1,27 @@
+{
+    "displayName": "Comando",
+    "fluxCapacitors": 6,
+    "fluxVents": 0,
+    "hullId": "kite_original",
+    "hullMods": [
+        "operations_center",
+        "hardened_subsystems",
+        "militarized_subsystems",
+        "ecm",
+        "nav_relay",
+        "unstable_injector",
+        "insulatedengine"
+    ],
+    "permaMods": [
+        "operations_center",
+        "hardened_subsystems",
+        "militarized_subsystems"
+    ],
+    "sMods": [
+        "operations_center",
+        "hardened_subsystems",
+        "militarized_subsystems"
+    ],
+    "variantId": "kite_s_Command",
+    "weaponGroups": []
+}

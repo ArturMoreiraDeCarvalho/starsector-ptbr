@@ -4,7 +4,10 @@
     "fluxVents": 30,
     "goalVariant": true,
     "hullId": "champion",
-    "hullMods": ["dedicated_targeting_core"],
+    "hullMods": [
+        "dedicated_targeting_core",
+        "missleracks"
+    ],
     "permaMods": [],
     "sMods": [],
     "variantId": "champion_Assault",

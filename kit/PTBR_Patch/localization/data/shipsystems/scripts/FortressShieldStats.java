@@ -12,8 +12,8 @@ public class FortressShieldStats extends BaseShipSystemScript {
 		//stats.getShieldTurnRateMult().modifyMult(id, 1f);
 		//stats.getShieldUnfoldRateMult().modifyPercent(id, 2000);
 		
-		//stats.getShieldDamageTakenMult().modifyMult(id, 0.1f);
 		stats.getShieldDamageTakenMult().modifyMult(id, 1f - DAMAGE_MULT * effectLevel);
+		//stats.getShieldDamageTakenMult().modifyMult(id, 0.1f);
 		
 		stats.getShieldUpkeepMult().modifyMult(id, 0f);
 		
@@ -32,6 +32,7 @@ public class FortressShieldStats extends BaseShipSystemScript {
 	public StatusData getStatusData(int index, State state, float effectLevel) {
 		if (index == 0) {
 			return new StatusData("o escudo absorve 10x o dano", false);
+			//return new StatusData("shield absorbs 5x damage", false);
 		}
 //		else if (index == 1) {
 //			return new StatusData("shield upkeep reduced to 0", false);

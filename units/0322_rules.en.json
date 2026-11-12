@@ -1,0 +1,291 @@
+{
+ "chunk": 322,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"You have my thanks, $titlePL.\"\r\n\r\nHe nods, not quite a bow.",
+   "ctx": "data/campaign/rules.csv SD7SyaribayDiscussStartGiveB [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"It is essential the Council know the full truth, unbiased by the interests of... certain gens.\"\r\n\r\nHe coughs politely, then re-settles his posture.",
+   "ctx": "data/campaign/rules.csv SD7SyaribayDiscussStartGive2  [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"I trust you are coordinating with Special Agent Siyavong?\"",
+   "ctx": "data/campaign/rules.csv SD7SyaribayDiscussSiy [text]"
+  },
+  {
+   "i": 4,
+   "en": "He nods.\r\n\r\n\"You are most patriotic, $titlePL, I am sure. I hope your service renders the Persean League more just and... disentangled from certain embarassments.\"\r\n\r\n\"Now I ought let you return to your work. We shall have much to discuss upon its completion, no doubt.\"",
+   "ctx": "data/campaign/rules.csv SD7SyaribayDiscussSiySelA [text]"
+  },
+  {
+   "i": 5,
+   "en": "Horus produces a strained look.\r\n\r\n\"It is disappointing to hear you say that. If I could, I would persuade you otherwise - as a matter of patriotism toward the League, of course.\"",
+   "ctx": "data/campaign/rules.csv SD7SyaribayDiscussSiySelD [text]"
+  },
+  {
+   "i": 6,
+   "en": "He nods.\r\n\r\n\"You are most gracious, $titlePL. I hope your service renders the Persean League more just and... disentangled from certain embarassments.\"\r\n\r\n\"Now I ought let you return to your work.\"",
+   "ctx": "data/campaign/rules.csv SD7SyaribayDiscussSiySelDyes [text]"
+  },
+  {
+   "i": 7,
+   "en": "He nods.\r\n\r\n\"I won't trouble you further upon the matter, then, $titlePL.\"\r\n\r\nA pause.\r\n\r\n\"I believe that will be all?\"",
+   "ctx": "data/campaign/rules.csv SD7SyaribayDiscussSiySelDno [text]"
+  },
+  {
+   "i": 8,
+   "en": "Made horus support Reynard and unset others",
+   "ctx": "data/campaign/rules.csv DEVhorusSupportReynardSel [text]"
+  },
+  {
+   "i": 9,
+   "en": "Made horus support Fortuna and unset others",
+   "ctx": "data/campaign/rules.csv DEVhorusSupportFortunaSel [text]"
+  },
+  {
+   "i": 10,
+   "en": "Made horus support Hegemony and unset others",
+   "ctx": "data/campaign/rules.csv DEVhorusSupportHegemonySel [text]"
+  },
+  {
+   "i": 11,
+   "en": "Set player abused Yaribay diplomatic credentials!",
+   "ctx": "data/campaign/rules.csv DEVyaribayAbusedTrustSel [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"I am pleased to say that I have been in contact with our mutual friend,\" Horus says with a wink. \"As with all good things, it will take time for this effort to bear fruit.\"\r\n\r\n\"It appears I was right to trust you. Perhaps we shall have future dealings? Ah, and did I mention that despite the eroded morals of our youth, the name of Gens Yaribay is proving its academic prowess in this latest generation? Well, let me tell you...\"\r\n\r\nYou manage to extricate yourself fairly quickly from hearing too many tales of the Yaribay offspring's latest success at the Galatia Academy.",
+   "ctx": "data/campaign/rules.csv YaribayFollowup1 [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"The matriarch of Gens Kato,\" he says, a slight crease appearing between his eyebrows. \"Of course.\"",
+   "ctx": "data/campaign/rules.csv HorusAskFortunaHub [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"Fortuna Kato is a patriot of the League, I will be the first to acknowledge that,\" he says carefully.\r\n\r\n\"Though her... precise interpretation of all which is implied by that statement varies somewhat with my own views.\"\r\n\r\n\"Nonetheless, she holds ideals higher than Reynard Hannan's crude power-seeking, I think. She is not so cynical, but she is proud - and takes more than enough pride in her Gens.\"",
+   "ctx": "data/campaign/rules.csv HorusAskFortunaVisionLeague [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"Ah, so you've met Dardan Kato,\" he says. \"Demarchon of Mazalot.\"\r\n\r\n\"The Church of Galactic Redemption... yes, well, relations are complex. Particularly for Gens Kato. There's something of a family history going back to Mayasura...\"\r\n\r\nHe pauses uncomfortably. \r\n\r\n\"It is not my story to tell, so I shan't. Nonetheless, I do believe it is a weakness that certain of the Gens allow old hatreds to kindle new. Beyond a personal ugliness of manners, it produces... friction within the League, which ought accept all peoples provided they respect our common rights of polity and person.\"",
+   "ctx": "data/campaign/rules.csv HorusAskFortunaLuddicDardan [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"You mean to ask Gens Yaribay to join the Gens Kato voting block against the Prime Demarchon, of course,\" he says.\r\n\r\n\"Fortuna has made her position, and her offer, clear during ongoing unofficial negotiations.\"\r\n\r\nHe pauses, looking aside. Somewhere far away.\r\n\r\n\"I do find it... interesting, and notably intentional, that she asked you to be the messenger for this implied final proposal.\"\r\n\r\nHorus seems amused, if resigned.",
+   "ctx": "data/campaign/rules.csv SDRhorusAskFortunaBackAchilles [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"With respect for your position, $titlePL,\" he says, bowing his head ever so slightly, \"I shall be content to respond to Fortuna directly.\"\r\n\r\n\"You need not trouble yourself to repeat the inquiry in the future,\" he adds after a moment of reflection.\r\n\r\nHe didn't say it, but this sounds a lot like 'no'.",
+   "ctx": "data/campaign/rules.csv SDRhorusAskFortunaBackAchillesA [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"Yes,\" he says, returning to look at you through the link.\r\n\r\n\"You may tell Fortuna Kato that I accept her terms and proposal on behalf of Gens Yaribay,\" he says, bowing is head ever so slightly.\r\n\r\n\"I am sure you'll want to bring her the news yourself.\"",
+   "ctx": "data/campaign/rules.csv SDRhorusAskFortunaBackAchillesB [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"You truly believe I should?\"\r\n\r\nHe looks strained.\r\n\r\n\"I suppose my Gens has much to gain if Fortuna's plans fail. To be second is no shameful thing. And I must look first to the safety of Gens Yaribay... our future which is inexorably bound to Gens Hannan.\"\r\n\r\nHe pauses, then muses, \"There will always future opportunities.\"",
+   "ctx": "data/campaign/rules.csv SDSEyarAskReySupportSel [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"You speak with conviction and clarity,\" he says. \"I shall consider your counsel, $titlePL.\"",
+   "ctx": "data/campaign/rules.csv SDSEhorusSelectSideMehA [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"You speak with conviction and clarity. I shall seriously consider your counsel, $titlePL.\"",
+   "ctx": "data/campaign/rules.csv SDSEyarAskReySupportSide [text]"
+  },
+  {
+   "i": 22,
+   "en": "\"You speak with conviction and clarity. I believe... I do believe I shall do as you suggest, $titlePL.\"\r\n\r\nHe still looks uneasy, but a sense of confidence in having made a hard decision settles in his expression.",
+   "ctx": "data/campaign/rules.csv SDSEyarAskReySupportSideSDR [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"The Persean League has a rather permissive official relationship with the Sindrian Diktat, yes,\" he says. \"At Reynard's command as Prime Demarchon.\"\r\n\r\n\"It is purely cynical. And that I might at least respect if it truly did forward League interests! But to make such allowance for brutish Andradaism demonstrates a cruel hypocrisy on behalf of the ideals the Persean League and its Prime Demarchon are supposed to embody.\"\r\n\r\nHe shakes his head, irritated.",
+   "ctx": "data/campaign/rules.csv YaribayAskReynardAskonia [text]"
+  },
+  {
+   "i": 24,
+   "en": "\"No- yes, but.\"\r\n\r\nHorus catches himself and gives you a consternated look.\r\n\r\n\"Do we simply give in to base motives or do we aim to uphold an ideal? That is the question. The former bears profit and power for some, but it is a... a disease, a parasite, that will eventually kill the host. Without the League, without some common cause, what are we but pirates?\"",
+   "ctx": "data/campaign/rules.csv YaribayAskReynardAskoniaA [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"No, of course not.\"\r\n\r\nHorus crosses his arms.\r\n\r\n\"And I well understand the point you are getting at. I am no hypocrite for believing that support for the Diktat is foolish for its own sake as well as a barrier to my desire to approach a reconciliation with the Hegemony.\"",
+   "ctx": "data/campaign/rules.csv YaribayAskReynardAskoniaB [text]"
+  },
+  {
+   "i": 26,
+   "en": "Done. You're a bad person now.",
+   "ctx": "data/campaign/rules.csv DEVkazeronAtrocity [text]"
+  },
+  {
+   "i": 27,
+   "en": "Done. Set PC met:\r\n- Horus Yaribay\r\n- Reynard Hannan\r\n- Fortuna Kato",
+   "ctx": "data/campaign/rules.csv DEVkazeronOptsMetEveryone [text]"
+  },
+  {
+   "i": 28,
+   "en": "Done. This should show up at the end of the Second Askonia Crisis when Macario is discussed.\r\n\r\n(But you have to be global.sdr_proReynard as well, don't forget!) It is: $global.sdr_proReynard",
+   "ctx": "data/campaign/rules.csv DEVkazeronReynardPromiseSel [text]"
+  },
+  {
+   "i": 29,
+   "en": "Done. global.earnedYaribayTrust = true",
+   "ctx": "data/campaign/rules.csv DEVkazeronOptsYaribayTrust [text]"
+  },
+  {
+   "i": 30,
+   "en": "UNSET player.metSiyavong (effectively FALSE)",
+   "ctx": "data/campaign/rules.csv DEVkazeronSetMetSiyavongA [text]"
+  },
+  {
+   "i": 31,
+   "en": "set player.metSiyavong to TRUE",
+   "ctx": "data/campaign/rules.csv DEVkazeronSetMetSiyavongB [text]"
+  },
+  {
+   "i": 32,
+   "en": "set player.metReynardHannan = true 3",
+   "ctx": "data/campaign/rules.csv DEVkazeronSetMetReynard [text]"
+  },
+  {
+   "i": 33,
+   "en": "set player.payingHouseHannan = true 3",
+   "ctx": "data/campaign/rules.csv DEVkazeronSetPayingHannan [text]"
+  },
+  {
+   "i": 34,
+   "en": "set player.sdse_yaribayToHannan to true\r\nunset global.sd7s_decryptViaHannan",
+   "ctx": "data/campaign/rules.csv dev_KazeronOptsHubBa [text]"
+  },
+  {
+   "i": 35,
+   "en": "set global.sd7s_decryptViaHannan to true\r\nunset player.sdse_yaribayToHannan",
+   "ctx": "data/campaign/rules.csv dev_KazeronOptsHubBb [text]"
+  },
+  {
+   "i": 36,
+   "en": "\"Of course, the Prime Demarchon will be right with you.\"\r\n\r\nThe secretary taps at an interface and the image flickers; Reynard Hannan appears before you, effortlessly regal. He looks up and through the link.\r\n\r\n\"$TitlePL $playerLastName,\" he says, giving a small nod.",
+   "ctx": "data/campaign/rules.csv RHannanGreetingRealFavor [text]"
+  },
+  {
+   "i": 37,
+   "en": "After a few minutes, Reynard Hannan himself appears before you, effortlessly regal.\r\n\r\n\"$PlayerName,\" he says. The contempt in his voice is unmistakable.",
+   "ctx": "data/campaign/rules.csv RHannanGreetingReal2dislike [text]"
+  },
+  {
+   "i": 38,
+   "en": "Reynard puts a finger to his lips, his face tilting downward in thought for a moment.\r\n\r\n\"I'm afraid I don't recall any messages,\" he says with an appropriately generous air of apology... tempered by the merest hint of dismissal.\r\n\r\n\"What did you wish to discuss?\"",
+   "ctx": "data/campaign/rules.csv RHannanMsgFollowupHub [text]"
+  },
+  {
+   "i": 39,
+   "en": "He spreads his hands, ever-generous of spirit. \"You need not give me his cryptokey or anything so gauche as that. Besides, it would hurt Horus to be so betrayed.\"",
+   "ctx": "data/campaign/rules.csv RHannanMsgFollowHorusYaribayD [text]"
+  },
+  {
+   "i": 40,
+   "en": "Your comms connect. \r\n\r\n\"Arroyo here. Who's talking?\"\r\n\r\nRayan Arroyo looks you over disapprovingly, as if examining a luxury starship hull for scratches.\r\nOR\r\n\"This better be good.\"\r\n\r\nRayan Arroyo looks you over disapprovingly, then says \"Remind me to take you shopping for a proper suit. I know a guy who can do wonders.\"\r\nOR\r\nThe animated logo of some Tri-Tachyon sub-department makes half of a rotation before the call is answered. \r\n\r\n\"Arroyo. Make it quick.\"\r\n\r\nHe looks you over, with a frown. \"Oh. You. What is it?",
+   "ctx": "data/campaign/rules.csv RayanArroyoDefaultGreeting [text]"
+  },
+  {
+   "i": 41,
+   "en": "\"Okay.\" $heOrShe says, giving you a skeptical look. \"Perhaps there's a more profitable discussion we could have.\"\r\nOR\r\n$HeOrShe frowns. \"My time isn't cheap, you know.\"\r\nOR\r\n\"I should be charging by the minute,\" he says to himself.\r\nOR\r\n\"Sure,\" he says, with a skeptical look. \"What's your next pitch?\"\r\nOR\r\nHe simply sighs.",
+   "ctx": "data/campaign/rules.csv RayanArroyoDefaultBack [text]"
+  },
+  {
+   "i": 42,
+   "en": "He sighs.\r\n\r\n\"Isn't that nice. I suppose you won't let up until I tell you all about how I feel about him, is that right?\"",
+   "ctx": "data/campaign/rules.csv ArroyoAskAboutInesis1 [text]"
+  },
+  {
+   "i": 43,
+   "en": "He thinks for a moment.\r\n\r\n\"Yes and no. He'll uphold contracts and agreements, and he will tell you the truth. To the letter, at least. Maybe not the full picture, if you don't ask very carefully.\"\r\n\r\nArroyo frowns and looks away.\r\n\r\n\"But I'm not sure he... likes anything. For himself. He follows the trends and fashions, the popular holos. But it's other people's words, not his own. It's like...\"\r\n\r\nHe shakes his head.",
+   "ctx": "data/campaign/rules.csv ArroyoAskAboutInesis2a [text]"
+  },
+  {
+   "i": 44,
+   "en": "\"Fine.\" He crosses his arms and looks away.\r\n\r\n\"Runs a tight operation. Efficient. Fantastic profit margins.\"\r\n\r\n\"But I'm not sure he... likes anything. For himself, I mean. He follows the trends and fashions, the popular holos. But it's other people's words, not his own. It's like...\"\r\n\r\nHe shakes his head.",
+   "ctx": "data/campaign/rules.csv ArroyoAskAboutInesis2b [text]"
+  },
+  {
+   "i": 45,
+   "en": "Arroyo looks back at you, through the link. Uneasy.\r\n\r\nThe silence draws out.\r\n\r\n\"I don't want to talk about Inesis. Running any good schemes? You owe me at least a commodity futures tip-off, I swear.\"",
+   "ctx": "data/campaign/rules.csv ArroyoAskAboutInesis2b2 [text]"
+  },
+  {
+   "i": 46,
+   "en": "Arroyo stares. The moment draws out.\r\n\r\n\"What are you doing?\"",
+   "ctx": "data/campaign/rules.csv ArroyoAskAboutInesis2c [text]"
+  },
+  {
+   "i": 47,
+   "en": "He leans back, into shadow. His expression is hard to parse.\r\n\r\n\"Don't. I... don't like apologies.\"\r\n\r\nHe looks away, perhaps out his window at a gorgeous landscape.\r\n\r\n\"I don't want to talk about Inesis. Running any good schemes? You owe me at least a commodity futures tip-off, I swear.\"",
+   "ctx": "data/campaign/rules.csv ArroyoAskAboutInesis3 [text]"
+  },
+  {
+   "i": 48,
+   "en": "The comms snap into focus.\r\n\r\n\"Let's deal,\" Inesis says without hesitation. You get the unnerving impression that he was expecting you.",
+   "ctx": "data/campaign/rules.csv InesisGreetingDefault [text]"
+  },
+  {
+   "i": 49,
+   "en": "The comms snap open.\r\n\r\n\"Back so soon,\" Inesis says with a hint of a smile.",
+   "ctx": "data/campaign/rules.csv InesisGreetingDefaultAgain [text]"
+  },
+  {
+   "i": 50,
+   "en": "\"Captain $PlayerName.\" \r\n\r\nInesis watches you with a customer-pleasing half smile. Waiting for you to respond, apparently.",
+   "ctx": "data/campaign/rules.csv InesisOfferContactStart [text]"
+  },
+  {
+   "i": 51,
+   "en": "\"I've been thinking,\" he says.",
+   "ctx": "data/campaign/rules.csv InesisOfferContactStartA [text]"
+  },
+  {
+   "i": 52,
+   "en": "The smile strains the exact same percent as the prime rate of the Investment Bank of Eochu Bres (IBEB). If you had to guess.\r\n\r\n\"I've been thinking,\" he says. \"And you should consider my thought before you say 'no'.\"",
+   "ctx": "data/campaign/rules.csv InesisOfferContactStartC [text]"
+  },
+  {
+   "i": 53,
+   "en": "\"We could work together, you and I. I could provide you with opportunities appropriate to your core competencies. I would pay well.\"\r\n\r\nHis smile creaks upward a step.\r\n\r\n\"I believe you will find that I will be able to open certain doors for you, in the future. If certain investments... mature.\"\r\n\r\nHe blinks, once. \"Consider it. That is all.\"",
+   "ctx": "data/campaign/rules.csv InesisOfferContactStart2 [text]"
+  },
+  {
+   "i": 54,
+   "en": "\"I'm always eager to discuss high-return initiatives,\" he says with a smile.",
+   "ctx": "data/campaign/rules.csv InesisZGRhubStart [text]"
+  },
+  {
+   "i": 55,
+   "en": "\"But if you have nothing for me... perhaps another time?\"",
+   "ctx": "data/campaign/rules.csv InesisZGRhubAutoExit [text]"
+  },
+  {
+   "i": 56,
+   "en": "\"Indeed she has,\" he says with a smile.\r\n\r\n\"I am authorized to engage in limited discussion of certain key initiatives and I may offer payment in exchange for samples and artifacts of interest to Director Glamor-Rotanev.\"\r\n\r\n\"Do you have any samples or artifacts you wish to transfer to my care?\"",
+   "ctx": "data/campaign/rules.csv InesisZGRstartOptSel [text]"
+  },
+  {
+   "i": 57,
+   "en": "\"What is it I do? First, let me state that I welcome your engagement with the skillset I bring to our collaboration,\" he says. \"Such understanding is key to profitable utilization of human resources.\"\r\n\r\n\"I solve problems by developing solutions.\" A quick smile; he knows this means nothing.\r\n\r\n\"I anticipate operational inefficiencies and facilitate their aversion before negative contingencies harm the financial aims of the Tri-Tachyon corporation. My position requires the mindful application of creativity, initiative, and partnership-building.\"",
+   "ctx": "data/campaign/rules.csv InesisAskWhatDoSel [text]"
+  }
+ ]
+}

@@ -1,0 +1,146 @@
+{
+ "chunk": 315,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"My apologies,\" he grins apologetically, \"We ivory-tower academics get so lost in our own world. Everything revolves around the next paper, the next conference.\"\r\n\r\nThe senior academician waves an arm to dismiss all of that.\r\n\r\n\"The new provost. After that embarrassing incident with Provost Kallichore, the Academy has come under new leadership - bold leadership. To the new provost, Anahita Baird!\" He raises his glass in a toast.\r\n\r\nYou discover that you're holding a glass of something as well.",
+   "ctx": "data/campaign/rules.csv goToGA_barEvent1a [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"Ah, I knew you were as intelligent as you look.\" He winks.\r\n\r\n\"Yes, the academy is renewing itself! After that embarrassing incident with Provost Kallichore, the Academy has come under new leadership- bold leadership. To the new provost, Anahita Baird!\" He raises his glass in a toast. You discover that you're holding a glass of something as well.",
+   "ctx": "data/campaign/rules.csv goToGA_barEvent1b [text]"
+  },
+  {
+   "i": 3,
+   "en": "You manage to surprise Provost Baird. She is silent for several confused seconds, processing your statement.\r\n\r\n\"I see,\" she says finally, \"Um. Talk to my assistant about that. He'll make the arrangements.\"\r\n\r\nThe provost shakes her head once as if to clear the idea from her mind. \r\n\r\n\"Now, where were we.\"",
+   "ctx": "data/campaign/rules.csv gaMeetingScholarship [text]"
+  },
+  {
+   "i": 4,
+   "en": "He carries on as if this was all perfectly expected.\r\n\r\n\"Ever been planetside? Doesn't count if it's just the arcologies. I'll give you a tour of my chalet. Spectacular views, you'll love it. See you soon.\"\r\n\r\nHe closes the connection before you can respond.",
+   "ctx": "data/campaign/rules.csv gaKAArroyoProvostSel2 [text]"
+  },
+  {
+   "i": 5,
+   "en": "As soon as you say it, a smile grows on Arroyo's face.\r\n\r\nHe starts laughing, and takes his time as it builds and falls. He laughs like he's strapped to a madman's rocket, with no escape. Why not enjoy the ride?",
+   "ctx": "data/campaign/rules.csv gaKAArroyoVisitBreakIn [text]"
+  },
+  {
+   "i": 6,
+   "en": "He slams down an empty glass.\r\n\r\n\"I know someone who can do it. They're a pain in the ass but, this is key, they're crazy enough to do a job as stupid as the one you're proposing. A hacker called Gargoyle - the real one, not one of the wannabes. We've done business before. Here's a comms ID.\" Rayan pulls a datakey from a pocket, waves it over his datapad, and after a couple taps pushes it toward you.\r\n\r\n\"If you get any pushback, if Gargoyle throws a little tantrum, just give it back. It's all about the drama, but in the end you're already in with a job as stupid as this.\" He holds a hand up, \"And by the way, you really did not need to go and tell me your true objective. The last thing I want is Hegemony counterint crawling all over my operation. Or, worse, some vampire from the Company board smelling blood.\"",
+   "ctx": "data/campaign/rules.csv gaKAArroyoVisit4 [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"I love it!\" Gargoyle shouts, sitting up.\r\n\r\n\"A glorious scheme, practically neon-black! Which one? All of them at once? Hmm,\" visor and cybermods start flickering with activity.",
+   "ctx": "data/campaign/rules.csv gaKAGargoyleCanYou [text]"
+  },
+  {
+   "i": 8,
+   "en": "Mister Loke leads you past rows of sealed storage units, into a loading bay. Your footsteps produce a dull metallic echo. Something that smells of organic compounds is leaking.\r\n\r\nStill smiling blandly, Loke stops and with the wave of his hand unlocks a storage unit. He speaks softly to you, \"When she heard of this, Jorien told me she thought it was very funny. She wanted me to come and make sure you got what the Gargoyle asked Elissa to make for you.\"\r\n\r\nHis watery eyes stare at the storage unit, \"It must be a nice thing.\"",
+   "ctx": "data/campaign/rules.csv gaKANewMaxiosVisit2 [text]"
+  },
+  {
+   "i": 9,
+   "en": "* * *\r\n\r\nYou step off the shuttle, thrusters clicking as they cool, with Gargoyle in tow. The hacker's barrage of questions, suggestions, and handsiness toward any control panel or gadget within reach has you at the limit of your patience after only a brief trip.\r\n\r\nAs promised, Provost Baird is waiting with a small group of masked guards and senior advisors.\r\n\r\n\"So this is Gargoyle,\" she says.",
+   "ctx": "data/campaign/rules.csv gaKAReturnToAcademy2 [text]"
+  },
+  {
+   "i": 10,
+   "en": "Baird looks at you. \"They suspect me already, of course.\"\r\n\r\n\"The Galatia Academy will appeal the original data seizure and demand the return of basic scientific research materials- which is not illegal under even old Domain law. 'This data breach only proves the danger of restricting basic research as this situation enables unsavory parties to exploit discoveries without oversight from the ecumenica'.\"\r\n\r\n\"I appreciate the irony of my objection, of course. But this is war by public relations: there is no room for scruples. I'll be exactly as cynical as they already believe me to be, and they'll believe the act because it is true.\" As Baird speaks, you find a note of satisfaction in her description of plot and counter-plot. \"Behind that truth of course,\" she continues, \"Is what really happened. Which shall be a fait accompli once they discover it, and one too embarrassing to publicize.\" ",
+   "ctx": "data/campaign/rules.csv GAKABairdHubASel [text]"
+  },
+  {
+   "i": 11,
+   "en": "Arroyo looks even less pleased to see you after this statement.\r\n\r\n\"I see,\" he says.\r\n\r\nHe raises a gold-ringed finger, \"Don't tell me a single word. It's Gargoyle. I know very well that I don't want to know what that absurd vandal is planning. I'll pay the bills that show up, that's the deal.\" He grimaces, \"And I'll forward my invoice to Provost Baird so that ivory-torus puppetmaster can appreciate how much she's wringing me for.\"\r\n\r\n\"Now get off my comms.\"\r\n\r\nHe terminates the connection.",
+   "ctx": "data/campaign/rules.csv GAKAarroyoGargoyleExpensesSel [text]"
+  },
+  {
+   "i": 12,
+   "en": "You enter the comms ID, hand hovering over a glowing 'confirm' sigil. Your comms officer nods, ready to respond to whatever surprises Gargoyle thinks would be amusing to send through the link this time.\r\n\r\nThe display resolves from a mesmerizing fractal battleground to a familiar face grinning impishly at you. \"Oh $playerFirstName, are you having trouble finding Nova Maxios? Let me help, I'll send you a copy of Baby's First Star Chart.\" \r\n\r\nYour TriPad chimes softly.\r\n\r\n\"Go on, read it. Find 'M is for Magec'. You can figure it out! I believe in you.\" Gargoyle turns away and waves you off as your comms seem to disconnect of its own accord.",
+   "ctx": "data/campaign/rules.csv GAKAGargoyleGreeting_GET_HACK_HARDWARE [text]"
+  },
+  {
+   "i": 13,
+   "en": "You enter the comms ID, hand hovering over a glowing 'confirm' sigil. Your comms officer nods, ready to respond to whatever surprises Gargoyle thinks would be amusing to send through the link this time.\r\n\r\nThe display resolves without incident to a familiar face grinning impishly. \"Ah, Captain $playerFirstName! You must have forgotten my simple instructions.\"\r\n\r\nGargoyle counts off fingers, \"Step one, collect the device. You did that, hurray! Step two, install it on the Aztlan Relay in - pay attention now, maybe get your scowly comms officer to take a memo - in the Aztlan system. Step three, come back to me for your precious data archive.\" \r\n\r\nThe hacker waves the remaining two fingers at you in a rude gesture. \"And that's how it's done. Bye bye, busy now.\"\r\n\r\nYour comms disconnect seemingly of their own accord.",
+   "ctx": "data/campaign/rules.csv GAKAGargoyleGreeting_INSTALL_HACK [text]"
+  },
+  {
+   "i": 14,
+   "en": "As you raise your hand to knock, the commsplate by the door sputters to life and speaks.\r\n\r\n\"You've made your point, $TitlePL $playerName.\" \r\n\r\nAn officious voice, though distorted by the damaged commsplate. It signals an elite education and the relaxed authority which comes naturally to its speaker. \r\n\r\n\"You want us to know you're looking for Scylla Coureuse and you're going to shout it from every street corner on Fikenhild until we acknowledge it.\"",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildCavinStartInterrupt [text]"
+  },
+  {
+   "i": 15,
+   "en": "As you raise your hand to knock, the commsplate by the door sputters to life and speaks.\r\n\r\n\"$TitlePL $playerName. I apologize for delaying my response the inquiry you made through official channels.\" \r\n\r\nAn officious voice, though distorted by the damaged commsplate. It signals an elite education and the relaxed authority which comes naturally to its speaker. \r\n\r\n\"You're looking for someone quite specific, and I should like to assist you.\"",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildCavinStartInterruptPL [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"You presume correctly, $titlePL.\" The voice sounds almost impressed.",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildSiyavongInterruptA [text]"
+  },
+  {
+   "i": 17,
+   "en": "\"You have a way of insisting, $titlePL.\" The voice sounds a touch annoyed.",
+   "ctx": "data/campaign/rules.csv gaFCFikenhildSiyavongInterruptB [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"$TitlePL $playerName.\" His tone is respectful, perhaps with a note of amusement.\r\n\r\n\"Finally, we may speak directly,\" he says. \"Finlay Siyavong, at your service.\"",
+   "ctx": "data/campaign/rules.csv GAFCSiyavongFikenhildGreet1 [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"Yes, we've been watching you for some time.\"\r\n\r\nSiyavong lifts a datapad and makes a show of glancing at it. \"You've enjoyed a fascinating career lately, captain. You seem to have a knack for finding trouble, and for trouble finding you.\" \r\n\r\nHe puts down the datapad. \"It's provided much fodder for the analysts.\"  \r\n\r\n\"To be perfectly honest,\" he says, and smiles just a little, \"I had hoped I would not find it necessary to speak with you so directly. But you've forced my hand, so here we are.\"",
+   "ctx": "data/campaign/rules.csv GAFCSiyavongFikenhildLongEnough [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"Yes, we've been watching you for some time.\"\r\n\r\nSiyavong lifts a datapad and makes a show of glancing at it. \"You've enjoyed a fascinating career lately, demarchon. You seem to have a knack for finding trouble, and for trouble finding you.\" \r\n\r\nHe puts down the datapad. \"It's provided much fodder for the analysts.\"  \r\n\r\n\"To be perfectly honest,\" he says, and smiles just a little, \"I had hoped I would not find it necessary to speak with you so directly. But you've forced my hand, so here we are.\"",
+   "ctx": "data/campaign/rules.csv GAFCSiyavongFikenhildLongEnoPL [text]"
+  },
+  {
+   "i": 21,
+   "en": "\"A rather direct question to ask an agent of the service, don't you think?\" Siyavong seems genuinely amused. \"But that is the heart of the matter, and your profile suggests a certain propensity for, shall we say, direct thinking.\"\r\n\r\n\"Let me answer you with a question,\" he says, leaning in.\r\n\r\n\"Why should you know where Scylla Coureuse is?\"",
+   "ctx": "data/campaign/rules.csv GAFCSiyavongFikenhildWhereScylla [text]"
+  },
+  {
+   "i": 22,
+   "en": "The comms link holds for a few moments on an understated crest of some branch of the League's naval intelligence before connecting.\r\n\r\n\"Greetings, I am Special Agent Finlay Siyavong with the Persean League Fleet Intelligence Service. How may I be of assistance?\"\r\n\r\nThe man wears a crisp uniform and a knowing half-smile.",
+   "ctx": "data/campaign/rules.csv SiyavongGreetingFirst [text]"
+  },
+  {
+   "i": 23,
+   "en": "The comms link holds for a moment on the understated crest of Persean League Fleet Intelligence before connecting.\r\n\r\n\"Greetings, $TitlePL $playerLastName,\" Siyavong says. \"How may I be of assistance?\"",
+   "ctx": "data/campaign/rules.csv SiyavongGreeting [text]"
+  },
+  {
+   "i": 24,
+   "en": "The crest of Fleet Intelligence displays itself proudly for a moment, then the comms connect.\r\n\r\n\"Hello again, $titlePL,\" Siyavong says. \"Was there something else I could help you with?\"",
+   "ctx": "data/campaign/rules.csv SiyavongGreetingAgain [text]"
+  },
+  {
+   "i": 25,
+   "en": "The comms link holds for a few moments on the understated crest of Persean League Fleet Intelligence before connecting.\r\n\r\n\"Greetings, I am Lieutenant Finlay Siyavong with the Persean League Fleet Intelligence Service,\" Siyavong says. \"How may I be of assistance?\"",
+   "ctx": "data/campaign/rules.csv gaFCsiyavongGreeting [text]"
+  },
+  {
+   "i": 26,
+   "en": "The archon's eyes find the package of krill paste tucked under one of your arms (Sub-Kay brand, blue-bar special). $HeOrShe raises an eyebrow but makes no comment.",
+   "ctx": "data/campaign/rules.csv gaFCLaicaileVisitStartAlamangYes [text]"
+  },
+  {
+   "i": 27,
+   "en": "* * *\r\n\r\nYou step off the shuttle, thrusters clicking as they cool, followed by Scylla Coureuse. The scientist was quiet on the brief shuttle ride which has returned her to Galatia Academy Station after her time in hiding.\r\n\r\nAs promised, Provost Baird is waiting with a small group of masked guards and senior advisors. Academician Sebestyen waves as your gaze drifts over him.\r\n\r\n\"It is so good to have you back with us, Scylla,\" says Baird.",
+   "ctx": "data/campaign/rules.csv gaFCReturnToAcademy2 [text]"
+  },
+  {
+   "i": 28,
+   "en": "\"Some among their ranks, yes,\" a hint of smile forms on Baird's face, \"But others see that this is the way forward. The League can't pull the best and brightest from the entire Sector. The Galatia Academy can. They don't have the theoretical research and experimentation infrastructure we do. It's all practical matters with their Fleet Armamentarium; weapons, warships, heavy industry, and doling out contracts to gens-allies.\"\r\n\r\n\"Furthermore, subfactions within the League could not call an open vote on a matter so delicate as this. We merely resolved their political questions by other means,\" the provost tips her head toward you, acknowledging your role.",
+   "ctx": "data/campaign/rules.csv  gaFCReturnHubLeague [text]"
+  }
+ ]
+}

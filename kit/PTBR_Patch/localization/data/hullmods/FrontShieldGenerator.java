@@ -12,7 +12,7 @@ public class FrontShieldGenerator extends BaseHullMod {
 	
 	public static float EFFICIENCY = 1.2f;
 	public static float SHIELD_ARC = 90f;
-	public static float SPEED_MULT = 0.8f;
+//	public static float SPEED_MULT = 0.8f;
 	
 	
 //	private static Map mag = new HashMap();
@@ -34,7 +34,7 @@ public class FrontShieldGenerator extends BaseHullMod {
 	@Override
 	public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
 		//stats.getMaxSpeed().modifyFlat(id, (Float) mag.get(hullSize) * -1f);
-		stats.getMaxSpeed().modifyMult(id, SPEED_MULT);
+		//stats.getMaxSpeed().modifyMult(id, SPEED_MULT);
 	}
 
 
@@ -43,14 +43,9 @@ public class FrontShieldGenerator extends BaseHullMod {
 		if (index == 0) {
 			return "" + (int) SHIELD_ARC;
 		}
-		if (index == 1) {
-			return "" + (int) Math.round((1f - SPEED_MULT) * 100f) + "%";
-		}
-		
-//		if (index == 1) return "" + ((Float) mag.get(HullSize.FRIGATE)).intValue();
-//		if (index == 2) return "" + ((Float) mag.get(HullSize.DESTROYER)).intValue();
-//		if (index == 3) return "" + ((Float) mag.get(HullSize.CRUISER)).intValue();
-//		if (index == 4) return "" + ((Float) mag.get(HullSize.CAPITAL_SHIP)).intValue();
+//		if (index == 1) {
+//			return "" + (int) Math.round((1f - SPEED_MULT) * 100f) + "%";
+//		}
 		
 		return null;
 	}

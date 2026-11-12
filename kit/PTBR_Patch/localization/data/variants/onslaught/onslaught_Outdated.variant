@@ -1,14 +1,14 @@
 {
     "displayName": "Desatualizado",
-    "fluxCapacitors": 33,
+    "fluxCapacitors": 23,
     "fluxVents": 50,
     "hullId": "onslaught",
     "hullMods": [
         "heavyarmor",
         "armoredweapons",
-        "fluxdistributor",
         "dedicated_targeting_core",
-        "ballistic_rangefinder"
+        "ballistic_rangefinder",
+        "magazines"
     ],
     "permaMods": [],
     "sMods": [],

@@ -1,0 +1,171 @@
+{
+ "chunk": 310,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "Kazeron is the jewel of the Persean League, inhabited by the most avant-garde artists, the most learned scientists (outside the Galatia Academy, anyway), and the wealthiest traders. The possibilities are endless.\\n\\nAnd with your connections through Horus Yaribay's favor and blessing, more doors and opportunities are open to you than most...",
+   "ctx": "retire_optionLeagueKazeronYaribay: SetTooltip retire_optKazeronYaribay \"Kazeron is the jewel of the Persean League, inhabited by the most avant-garde artis"
+  },
+  {
+   "i": 2,
+   "en": "You can afford to slow down a little, live the life of a dedicated politician and administrator and tend to your colony's well-being...\\n\\nAnd perhaps by making the right connections, raise your stature in the All-League Council. The barycenter of the League need not remain locked to Kazeron forever!",
+   "ctx": "retire_optionLeagueOwn: SetTooltip retire_optDemarchon \"You can afford to slow down a little, live the life of a dedicated politician and admini"
+  },
+  {
+   "i": 3,
+   "en": "You can afford to slow down a little, live the life of a dedicated politician and administrator and tend to the well-being and development of your colonies...\\n\\nAnd perhaps, by making the right connections and alliances, raise your stature in the All-League Council. The barycenter of the League need not remain locked to Kazeron forever!",
+   "ctx": "retire_optionLeagueOwnPlural: SetTooltip retire_optDemarchon \"You can afford to slow down a little, live the life of a dedicated politician and admini"
+  },
+  {
+   "i": 4,
+   "en": "It is a place where anyone could go to disappear. No one would find you, no empire, no wronged pirate-king, no one. You would be free.\\n\\nAnd besides, you've always felt that the desert was... clean, somehow.",
+   "ctx": "retire_optionIndieAsharu: SetTooltip retire_optAsharu \"It is a place where anyone could go to disappear. No one would find you, no empire, no wron"
+  },
+  {
+   "i": 5,
+   "en": "Perhaps they're just your type - a self-made, independent, and tough people who respect those who use their wits and resources to build a fortune - and build a future.",
+   "ctx": "retire_optionIndieNovaMaxios: SetTooltip retire_optNovaMaxios \"Perhaps they're just your type - a self-made, independent, and tough people who respect"
+  },
+  {
+   "i": 6,
+   "en": "The best place for you is somewhere your past won't come looking - bearing grudges and heavy firepower, as likely as not.\\n\\nThe Persean Sector is full of greater and lesser independent captains who made (and lost) their fortune and made (or missed) their mark.\\n\\nYou'll be just one more old space-dog with a collection of tall tales that contain more truth than anyone would guess.",
+   "ctx": "retire_optionNeutral: SetTooltip retire_optNeutral \"The best place for you is somewhere your past won't come looking - bearing grudges and hea"
+  },
+  {
+   "i": 7,
+   "en": "If Warlord Kanta can do it, why can't I?",
+   "ctx": "retire_NOSel: SetTooltip retire_NOConfirm \"If Warlord Kanta can do it, why can't I?\""
+  },
+  {
+   "i": 8,
+   "en": "\"Okay,\" $heOrShe says.\r\nOR\r\n$HeOrShe nods.\r\nOR\r\n\"Sure,\" $heOrShe says.",
+   "ctx": "data/campaign/rules.csv defaultBackConv [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"Indeed,\" $heOrShe says.\r\nOR\r\n$HeOrShe nods, quite outwardly collected.\r\nOR\r\n\"Quite,\" $heOrShe says.\r\nOR\r\n$HeOrShe waves $hisOrHer hand placidly. On with it, the gesture suggests, but without a fuss.\r\nOR\r\n\"Best not tarry long on one subject,\" $heOrShe says. \"Lest it overstay its welcome.\"\r\nOR\r\n$HeOrShe nods. \"Well then?\"",
+   "ctx": "data/campaign/rules.csv defaultBackConvAristo [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"Aye,\" $heOrShe says.\r\nOR\r\n\"Aye,\" $heOrShe says. \"Channel clear.\"",
+   "ctx": "data/campaign/rules.csv defaultBackConvSpacer [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"Affirmative,\" $heOrShe says.\r\nOR\r\n\"Understood,\" $heOrShe says.\r\nOR\r\n$HeOrShe nods.",
+   "ctx": "data/campaign/rules.csv defaultBackConvSoldier [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"Affirmative,\" $heOrShe says.\r\nOR\r\n\"What else do you wish to discuss?\"\r\nOR\r\n$HeOrShe nods, taking a moment to glance at another display.",
+   "ctx": "data/campaign/rules.csv defaultBackConvScientist [text]"
+  },
+  {
+   "i": 13,
+   "en": "\"Okay.\" $heOrShe says, giving you a skeptical look. \"Perhaps there's a more profitable discussion we could have.\"\r\nOR\r\n$HeOrShe almost frowns. \"My time isn't cheap, you know.\"\r\nOR\r\n\"I could be charging by the minute,\" $heOrShe says to $himOrHerself under $hisOrHer breath.\r\nOR\r\n\"Sure,\" $heOrShe says, with a hint of skepticism.",
+   "ctx": "data/campaign/rules.csv defaultBackConvBusiness [text]"
+  },
+  {
+   "i": 14,
+   "en": "\"I see,\" $heOrShe says.\r\nOR\r\n$HeOrShe nods.\r\nOR\r\n$HeOrShe frowns.",
+   "ctx": "data/campaign/rules.csv defaultBackConvOfficial [text]"
+  },
+  {
+   "i": 15,
+   "en": "\"I see,\" $heOrShe says with a warning look.\r\nOR\r\n\"As you will,\" $heOrShe says disdainfully.\r\nOR\r\n$HeOrShe narrows $hisOrHer eyes, watching you.\r\nOR\r\n$HeOrShe nods slowly, watching you carefully.",
+   "ctx": "data/campaign/rules.csv defaultBackConvVillain [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"As you will,\" $heOrShe says.\r\nOR\r\n$HeOrShe nods, hands together.",
+   "ctx": "data/campaign/rules.csv defaultBackConvFaithful [text]"
+  },
+  {
+   "i": 17,
+   "en": "stellar shade",
+   "ctx": "data/campaign/rules.csv stellarShadeDialog [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"$PlayerSirOrMadam!\" Your sensors officer's voice is strained. \"Picking up - from the light, anomalous readings. Running systems-check...\"\r\n\r\nNavigation interrupts, \"$ShipOrFleet drive bubble warning... and holding. This is strange, I'm detecting an N-space fissure inside the volume.\"\r\n\r\nA pause as the bridge crew takes in the alerts and odd readings. Hyperspace ambushes are a known risk but they don't look like this.\r\n\r\nNonetheless, Tactical takes the initiative to activate the combat alarm to send crew to battle stations.",
+   "ctx": "data/campaign/rules.csv abyssalLight_dwellerContSelJuv [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"Aye $playerSirOrMadam! Executing.\" Sensors barks, then deftly executes a series of overrides. \r\n\r\nYour $shipOrFleet status is up on the central display - drive bubble an unsteady amber, incursions of N-space fissures marked in garish red. A blink of white as active sensors trigger and-\r\n\r\n-pressure on the drive bubble spikes, an amber flash, a cacophony of alarms...\r\n\r\n* * *\r\n\r\nA hidden blackness waiting, lurking, jolts awake. Tendrils lunge eagerly, hungrily, through fissures in the dark behind the night.",
+   "ctx": "data/campaign/rules.csv abyssalLight_maxSensorsSel [text]"
+  },
+  {
+   "i": 20,
+   "en": "\"This 'lens' - a working term, of course - does not operate in normal-space as-such.\"\r\n\r\nTech is deep in lecture mode over an arcane holo-diagram. You can tell they've been talking for some minutes from Engineering's impatient eye roll.\r\n\r\n\"It could be emplaced deep within the hull, in a specially stabilized cradle - for safety,\" Tech continues.\r\n\r\nEngineering appears pained at describing this proposal as 'safe'.",
+   "ctx": "data/campaign/rules.csv ShroudedHullmodItemRCL2 [text]"
+  },
+  {
+   "i": 21,
+   "en": "Tech proceeds without acknowledging any objection.\r\n\r\n\"-spin it up during combat maneuvers, adjusting the frequency of the 'probes' adapted from drive-field stabilizers. It would create hyperspace fractures which would cause terrible damage to normal-space structures. Starships, for instance. Now, for obvious reasons, the theoretical range is infinite...\"",
+   "ctx": "data/campaign/rules.csv ShroudedHullmodItemRCL3 [text]"
+  },
+  {
+   "i": 22,
+   "en": "Both jump at your words, standing to attention. \"$PlayerSirOrMadam!\" they say in uncharacteristic unison.\r\n\r\nEngineering takes the opportunity to finally get a word in. \"Accuracy decreases in... interestingly, a sharp harmonic progression. But this means anything beyond mid-range combat parameters will effectively create an energetic burst at a random spot somewhere within the normal-space universe.\" They side-eye Tech. \"Just another blip of cosmic background radiation.\"\r\n\r\nTech looks like they might say something, but no words come. Engineering fills the silence again. \"Practically, it could only target reasonably nearby hostiles.\"",
+   "ctx": "data/campaign/rules.csv ShroudedHullmodItemRCL4 [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"Don't look right, $playerSirOrMadam,\" Ops says, turning a weathered face to you.\r\n\r\n\"Aye, could've been an indie miner or scav. Could've. But there's nothing - no temporary works, no pillaring, no tread tracks. Should be dead power cells and ration wrappers scattered like stars in the dark. Ain't nothing.\"\r\n\r\nOps scowls. \"No one cleans up like this, not even Tachy autominers. No profit in it. Especially not out here.\"",
+   "ctx": "data/campaign/rules.csv abyssalPlanetoidMiningOp2 [text]"
+  },
+  {
+   "i": 24,
+   "en": "This is a ship of mercenary-adventurers crewed by a colorful mix of distinct personalities from worlds representative of a broad swath of the Persean Sector.\r\n\r\nThe captain was a former officer who found himself on the losing side of a minor rebellion out of the Persean League. The pilot, a racer-turned-smuggler recovered from stim addiction. Former Diktat gone renegade, present at the massacre of... scion of an Eventide officer family, overbearing mother, disowned after... the engineer, the armorer, the navigator... all irrelevant details. You skim the report faster.\r\n\r\nYou can't imagine how they managed to work together. It doesn't matter; they're all dead now.",
+   "ctx": "data/campaign/rules.csv GS_ADVENTURERS_cont2Sel [text]"
+  },
+  {
+   "i": 25,
+   "en": "The feed is degraded, patchy. The flotilla is gone; only the flagship remains, panicked voices on ship comms, in retreat from its previous course. The timeline shows a halting record of desperate damage repairs and the crews' slow realization that they cannot make it back to civilized space.\r\n\r\nIt is a death-spiral known and feared by all spacer crews.\r\n\r\nSystems break down, fuel and supplies dwindle. Morale breaks down. Then discipline. It unravels faster than usual with so many civilians.\r\n\r\nYou shut it off.",
+   "ctx": "data/campaign/rules.csv GS_ACADEMY_cont7Sel [text]"
+  },
+  {
+   "i": 26,
+   "en": "The legendary smuggler captain who showed this trick to the senior tech made them promise never to tell a soul about it. But seeing as how she died some forty cycles previously, and given the current situation, the old spacer is willing to bend the spirit of the agreement slightly to get out of this mess.\r\n\r\nA modification to the hyperdrive field software will allow you to perform a kind of Transverse Jump directly to hyperspace from normal-space. It's also useful for jumping through sub-viable jump-points which are inaccessible when making hyperjumps within Domain-approved parameters. \r\n\r\nNav looks aghast and Engineering is shaking their head as they review the proposed modifications on a beaten-up TriPad.",
+   "ctx": "data/campaign/rules.csv StrandedInDeepSpace2 [text]"
+  },
+  {
+   "i": 27,
+   "en": "Your operations chief oversees the transfer of transplutonics. Streams of cargo drones feed the unimaginably huge bulk of the Hauler; it seems strange that so little can move so much so far.\r\n\r\nWith only a little coaxing, the Gate Hauler's automation churns into something like machine-awareness; sensors report power surges throughout the hull as ancient conduits and machines self-test - some failing. Long-dormant self-repair drones begin to seethe like vermin.\r\n\r\nAnd, slowly, your $shipOrFleet's various sensors feel the growing power of the machine. Magnetic fields shudder, neutrinos begin to spill forth in earnest from reactions deep in the mass of the beast; gravitic fluctuations from the warp-pylons flutter, and your own drive bubble compensates.\r\n\r\nIt will take about a day, engineering reports, and then the Gate Hauler will be ready to receive navigational input.",
+   "ctx": "data/campaign/rules.csv gh_activateSel [text]"
+  },
+  {
+   "i": 28,
+   "en": "Your $shipOrFleet approaches $entityName.\r\n\r\nThe titanic ship lays potent before you, ancient but powerful drive fields thrumming through the membrane of spacetime. You can almost feel it through the agrav's self-correction, the drone of a god-machine. Almost.\r\n\r\nOnce provided with a destination, the Gate Hauler will travel through normal-space - a Gate cannot be moved through hyperspace. The Hauler will travel faster than lightspeed, thankfully, due to its venerable Alcubierre drive. Indeed, the Hauler will quickly accelerate to an apparent normal-space speed which your $shipOrFleet cannot match with its relatively tiny in-system drives. The journey will still take quite some time, due to travelling significantly slower than standard hyperspace permits.\r\n\r\nAfter it has arrived at the target destination, you may give the order to deploy the Gate to an unoccupied stable location.",
+   "ctx": "data/campaign/rules.csv gateHaulerStart4 [text]"
+  },
+  {
+   "i": 29,
+   "en": "A colony can never be established here due to extreme conditions.",
+   "ctx": "data/campaign/rules.csv surveyNoColonization [text]"
+  },
+  {
+   "i": 30,
+   "en": "Your $shipOrFleet approaches the abandoned station.\r\n\r\nIt's been long stripped of anything useful. You briefly consider using the vast structure for storage, but there is little doubt that a handful of stealth microsats have already noted your visit.\r\n\r\nAnything left here would be picked clean by scavengers by the time you'd returned.\r\n\r\n",
+   "ctx": "data/campaign/rules.csv abandonedStationDisallowUseExt [text]"
+  },
+  {
+   "i": 31,
+   "en": "\"By authority of the Sindrian Diktat, you are ordered to take drives offline, disable weapons, and surrender. Failure to execute will be considered an act of aggression. Out.\"\r\n\r\nThe Diktat $personRank's gloating face is replaced by a Diktat crest before the image fades.\r\nOR\r\n\"There is no place for degenerate scum in our glorious future.\" $PersonRank $personName turns aside and says \"Lieutenant, do try to avoid taking prisoners this time.\"\r\n\r\nThe comm-line goes black.\r\nOR\r\nThe comms flicker into being. \r\n\r\n\"We'll cleanse the Persean Sector of your kind,\" the $post sneers. \"You will be lost to history.\"\r\nOR\r\nThe Diktat $personRank sneers, \"So are you a terrorist, a pirate, or a degenerate? No matter. If you're lucky, you'll die choking vacuum. If not, there's Cruor.\" ",
+   "ctx": "data/campaign/rules.csv greetingDiktatHostileStronger [text]"
+  },
+  {
+   "i": 32,
+   "en": "\"You've been scanned, maintain distance. Interference in military affairs will be considered an act of insurrection.\"\r\n\r\nThe Diktat $personRank gives a perfunctory salute. \"Victory to the Diktat!\" $heOrShe says before motioning to cut the transmission.\r\nOR\r\nThe Diktat $personRank looks impatient. \"Is there a problem? No? Then move along, citizen.\"\r\nOR\r\n\"Comms on protocol Saturn-Delta established. If you have information leading to ARCists or ANTIs, submit to your local information officer for possible reward.\"",
+   "ctx": "data/campaign/rules.csv greetingDiktatNeutral [text]"
+  },
+  {
+   "i": 33,
+   "en": "The comms connection crackles into focus.\r\n\r\n\"Attention prey! Our weapons are- oh. Captain $PlayerName isn't it.\" \r\n\r\nThe pirate sighs and gives a stand-down motion to someone you can't see.\r\nOR\r\nThe comms snap into focus, fuzz out, then resolve into near-focus.\r\n\r\n\"Surrender now or-\" The pirate squints. \"Is that $PlayerName? Oh, rads.\"",
+   "ctx": "data/campaign/rules.csv greetingsPirateAskoniaARC [text]"
+  }
+ ]
+}

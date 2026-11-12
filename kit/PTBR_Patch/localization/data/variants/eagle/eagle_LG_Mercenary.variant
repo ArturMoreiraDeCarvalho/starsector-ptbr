@@ -1,0 +1,79 @@
+{
+    "displayName": "Mercenário",
+    "fluxCapacitors": 22,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "eagle_LG",
+    "hullMods": [
+        "magazines",
+        "targetingunit",
+        "hardenedshieldemitter",
+        "stabilizedshieldemitter",
+        "advancedoptics"
+    ],
+    "permaMods": [
+        "magazines",
+        "targetingunit",
+        "hardenedshieldemitter",
+        "solar_shielding"
+    ],
+    "sMods": [
+        "magazines",
+        "targetingunit",
+        "hardenedshieldemitter",
+        "solar_shielding"
+    ],
+    "suppressedMods": [
+        "andrada_mods",
+    ],
+    "variantId": "eagle_LG_Mercenary",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "mininglaser",
+                "WS 007": "hveldriver",
+                "WS 008": "hveldriver"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 001": "breach",
+                "WS 002": "breach"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 013": "heavymauler"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "mininglaser",
+                "WS 009": "gravitonbeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "irautolance",
+                "WS 006": "irautolance"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 010": "pdburst",
+                "WS 011": "pdburst",
+                "WS 012": "pdburst"
+            }
+        }
+    ]
+}

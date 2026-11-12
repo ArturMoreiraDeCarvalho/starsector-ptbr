@@ -1,44 +1,281 @@
 {
+"data/campaign/commodities.csv": [
+"8ec6ababb505cc5b1e747a4f1211d651d872586520c8658901028d5b6f6f1cd2"
+],
 "data/campaign/market_conditions.csv": [
-"7294da83dcaf064ed95fea13f363dce2e1287c419d7a313bcd39c81600d22370"
+"7294da83dcaf064ed95fea13f363dce2e1287c419d7a313bcd39c81600d22370",
+"e9bbed9a008e5f3481c24b670bff8c616e985cb4fc23c90cc416356cf2a0d5b5"
 ],
 "data/campaign/reports.csv": [
 "ff072a03df4707073eca4f7c225c28e053fe24687d46e2d6e9b2a53ff609608b"
 ],
 "data/campaign/rules.csv": [
-"37e11445316c259643da421a186554be96ac184b7b91061d397618bb93e68472"
+"37e11445316c259643da421a186554be96ac184b7b91061d397618bb93e68472",
+"712f3559a37626725ad45703f94826e56404dc28a965024d7b2efa6d232d9448"
+],
+"data/campaign/special_items.csv": [
+"98d05e6fbfd97f3106c98768c9097649cfa30d4f5bd83500e8e481b63b4cdafa"
 ],
 "data/characters/skills/skill_data.csv": [
-"2769d4f94915c0082a85aaa7d515fab87b630b42a7afe4d55faa121e8dba235b"
+"2769d4f94915c0082a85aaa7d515fab87b630b42a7afe4d55faa121e8dba235b",
+"c5adee54f987314b06a68a36ccf19be6aa1adeb3d3418d647d58427f46114544"
+],
+"data/config/custom_entities.json": [
+"d886d25d045ed8d8cbe377fc5be59a2f3d64783e860c092906f3d46e9a0133b0"
+],
+"data/config/settings.json": [
+"1209e9685f85f08ab90d776c1d07c898ec77e550064b4cd0d3239e8e62e75e7d"
+],
+"data/hullmods/FrontShieldGenerator.java": [
+"31d14a7f8d1394ec8e92301d2492f7da3e18b926c5c63957d5e553e102c2e266"
+],
+"data/hullmods/OmniShieldEmitter.java": [
+"fb4fa510881e23f3af43577afcda12f8bebde0e9293fafcb9665463a561a7aeb"
+],
+"data/hullmods/SafetyOverrides.java": [
+"c1e508f85a501d720b0b7123cca3397c0db5b8b27b4875406f102f88df4d2725"
 ],
 "data/hullmods/hull_mods.csv": [
 "22ee24b4e1ac933bfb66493ba83565d1a43d808b07210e306b150bf43a498f10",
 "410928639187f91981b8ec05a8f3bbfeba53008aff9990a0b97ec896f2017906",
+"8172d8709768a7e9d1b4bd9d63a3fe48bd14c5b3b3823a794c8b678ff6abfd3a",
 "fa01d459f1092cbf73cb1a494b691512249acbcc19de2f71a931049a432aca0e"
 ],
 "data/hulls/ship_data.csv": [
-"40c4d2f9262a7a95809b9b47b31258592adf05844804bc518fb52bb79009aedd"
+"40c4d2f9262a7a95809b9b47b31258592adf05844804bc518fb52bb79009aedd",
+"a5066105e9ced21cfe4b0343be5a22538f223d52fabacc252083451f8481ee4c"
+],
+"data/hulls/skins/afflictor_d_pirates.skin": [
+"d10ab0a3f1a47e42b8672a51bb1036ab2e50466945cc1b667281e70a6a7723fa"
+],
+"data/hulls/skins/brawler_LG.skin": [
+"48fc4e2a1051c12854bf94977acc16306f02336d7fb2ee1f263fb48ac03ea8d6"
+],
+"data/hulls/skins/brawler_pather.skin": [
+"959a67eee1316dc06bd040d585025c1d9e558be8e49da1a508290c7c5fc17b10"
+],
+"data/hulls/skins/cerberus_luddic_path.skin": [
+"3ea3300f05613506f62ab3df99ac067ad3c7807abc423a53f5599f8d08ab6fbc"
+],
+"data/hulls/skins/eagle_LG.skin": [
+"04f922b865bceec52ca27c9a09e91e7bcb37eb26c3ba17db703fdfc0a540c969"
+],
+"data/hulls/skins/falcon_LG.skin": [
+"f41d139e6834af659facd9529d082051108290388f14e1d6a4fc256faed77dc7"
+],
+"data/hulls/skins/gremlin_luddic_path.skin": [
+"7ad49e1dff20e30b868ab7cc834c252d9c5ab1a9954217c14add9a3196dbdb58"
+],
+"data/hulls/skins/hammerhead_LG.skin": [
+"06e9ac63ddf464fc4b539cc968ee7e032245519f581943e502166d8db1d8f9c9"
+],
+"data/hulls/skins/hound_luddic_path.skin": [
+"6fae14ee76499bf35f1b2a3a21b51761007c208ea07733b31ae8dbd854d506d4"
+],
+"data/hulls/skins/kite_luddic_path.skin": [
+"168bb512a3a0ae458fcd33f7d1cc385eb9685b94cd6e68b1ebdc96680a3b704b"
+],
+"data/hulls/skins/kite_original.skin": [
+"9da1cbfd6ea937c6680f5c5252436eebaca9695bf1afb8863d44a781eff8bbf3"
+],
+"data/hulls/skins/lasher_pather.skin": [
+"ecd1d7b353c70f9e2cfb59d22f199efffc21fcad8937f41eebc4df6c9b686860"
+],
+"data/hulls/skins/manticore_pather.skin": [
+"22e7c0ca93b4774111953419b8a631c0b6951c9747eec69c856c462f3e23c5bb"
+],
+"data/hulls/skins/mudskipper2.skin": [
+"9c7d154f14f0abb18a16016dfdb535090de43e982401a30de98a9ecca70bc8c1"
+],
+"data/hulls/skins/onslaught_xiv.skin": [
+"a454037389725931e84b1425ddb64981a7a54fab586e51dd48475c7eaf601abb"
+],
+"data/missions/direstraits/MissionDefinition.java": [
+"222ad9feb0b34b70749d538fcd70953008a1c4c297e68b5c60dc341142080e20"
+],
+"data/scripts/world/systems/Askonia.java": [
+"9ed6474f8f093262c83c11869aa12b8e36d9ba96c3460836802a0c0589214fd2"
+],
+"data/scripts/world/systems/Galatia.java": [
+"938d4f9c8c9c8a9f8a4f4c98d0c8adc1dbff27fb3ef73d09d6a6bf6d533bb7df"
+],
+"data/scripts/world/systems/TiaTaxet.java": [
+"90a48341445b380041b8ee88894b5e5d63f2707e13d8538fc7b65b7a300c0b2a"
+],
+"data/shipsystems/scripts/FortressShieldStats.java": [
+"b6ccea787a63cfe244ec40da9391b7dc5d6e955f0735c0f2842a3d3b52e47eef"
+],
+"data/shipsystems/scripts/MicroBurnStats.java": [
+"8c1d5cc282e258045e4f884f61821a6f98ffb9330c1347751a76321ee1e9d8da"
+],
+"data/shipsystems/ship_systems.csv": [
+"bb75387794282a45e2abd02f1a7f2d7ab033fe660cb34613925194dc8b470281"
 ],
 "data/strings/descriptions.csv": [
-"1c4b6b37b48bed512a1026744d5b53e1984ab1cd4076bcee513f3566632c4f90"
+"1c4b6b37b48bed512a1026744d5b53e1984ab1cd4076bcee513f3566632c4f90",
+"cb88db456af0925f457b2410d13c669808675e4733f0acb8a1e3da944c1cca11"
+],
+"data/strings/strings.json": [
+"25775f04170904825969df071a5ed8a676ca1d89e607540572fd19648ccb09cd"
 ],
 "data/strings/tips.json": [
 "117612c919da44e224be2fa562da612030290c1f3741027e4b1a4fc0818d3590",
 "2899001d991a7aa77487517e685ea061f2ed2c97568ba88641487bd335d0ad0f"
 ],
+"data/strings/tooltips.json": [
+"b865d6c0ddfdc1e25ef981b5bd1d9d67cd4ac02b0cbd82ce84df09aa864a1d7f"
+],
+"data/variants/afflictor_Strike.variant": [
+"928c5e40299d55dff91bd42109b4a3401e237a46647df135878f98b5931007ee"
+],
+"data/variants/apogee_Starting.variant": [
+"5908ba03b2402c82a2df563b3bf62a66f3b6497e1149bb1c614edde1f256abbb"
+],
+"data/variants/astral_Attack.variant": [
+"b616fe901ffb8d11b0825ff3c908b2f4e37ace79d5dbde99d79bfddb6118d934"
+],
+"data/variants/aurora/aurora_Support.variant": [
+"1484830fa664cbdaabe7b494d52d53f39686e3635c5df9bfc08f0eb125c081e5"
+],
+"data/variants/centurion/centurion_LG_Assault.variant": [
+"8229a786bb1833591562fb7feb7616025d188abde371794d80c4ccb90970003f"
+],
+"data/variants/champion/champion_Assault.variant": [
+"3075aa293c47b4975b47bb05ce172dd571bc636154172e9441d6808199892195"
+],
+"data/variants/champion/champion_DEMEscort.variant": [
+"658d4127c521c1d3b85cd8602cf87237d4d59dc81708c276a289694ddbbdfd0b"
+],
+"data/variants/champion/champion_Escort.variant": [
+"9ea9798f403a9bcb9e80e70955fd91a5e3b3a84788e4ad088f31bc9bcd524d55"
+],
+"data/variants/champion/champion_Strike.variant": [
+"00a8a1ec5b480f2fd95cfca2b90099722c77a7fcedc83bb2adf70cd3a0e9243b"
+],
+"data/variants/champion/champion_Support.variant": [
+"331b4462bcf674de2540cdc873cf66e29d21b4bf93274eaa2b8aa11da7b5ab1b"
+],
 "data/variants/dominator/dominator_AntiCV.variant": [
 "1921a222c8461edafc00e9d55cc53a0cb24188c5891daa6d8908bd860c4127a7"
 ],
+"data/variants/falcon/falcon_p_Strike.variant": [
+"4724f805d3d2b3b955890a6a9620571e1c727366fb104bde91cd2f4441daf385"
+],
+"data/variants/gryphon/gryphon_Standard.variant": [
+"cb5fb802c6a79df0ff657f6a180e0e3e4061fa367f98ff5968e152a86611608a"
+],
+"data/variants/invictus/invictus_Standard.variant": [
+"645f398dd0aa70628926d411bd3c6ee4e01f18c10a0fc1531623ee3214863e4e"
+],
+"data/variants/kite_hegemony_Interceptor.variant": [
+"bff80800d3166814da33c7613a9a6bd884c428c798f03a1e36e0fe8b88422ed4"
+],
+"data/variants/medusa_Attack.variant": [
+"c2d33979d01151baf639991829b8e604b60d17b2411eb103ebd86b5763bbbcb9"
+],
+"data/variants/mercury/mercury_Attack.variant": [
+"8cb2029ab927215ed9882641de6149a02e6f7969a84e7841153ede38141610db"
+],
+"data/variants/odyssey_Balanced.variant": [
+"f185e2844f394820b6a936d24be108a70e74f832fad5321e2496eca8c8aee90b"
+],
+"data/variants/onslaught/onslaught_Outdated.variant": [
+"4b907c3554956ee5d622f664d96409adff57d5db57c80ceab1a83a7f087875e0"
+],
+"data/variants/onslaught/onslaught_Standard.variant": [
+"01b8490d325368e2340516dd1880e73d34033f7d6fee6aedd953c5db4727f604"
+],
+"data/variants/paragon/paragon_Escort.variant": [
+"1153a54f9447bae43e96883ae004a88c8bccd3b6b4f2fbcba6d3bc144af2a060"
+],
+"data/variants/paragon/paragon_Raider.variant": [
+"e063aa0e98f2f9b05af311eae677634e72f43a7bd72b3adb95b70a015fae8622"
+],
+"data/variants/remnant/apex_Overdriven.variant": [
+"064c51592913c3844afd2ec7f7439853818e338db8aad96e808b82c14a1e7353"
+],
+"data/variants/remnant/glimmer_Assault.variant": [
+"73da19eee4e9cd86c64014c1e239a171f36767160fb526aa8c295618be2d255e"
+],
+"data/variants/remnant/lumen_Standard.variant": [
+"026ac27f67d8672f2636935c4f15234984013aecdbe8ed2e8e45ff202eaa8b43"
+],
+"data/variants/remnant/radiant_Standard.variant": [
+"c8497119269bdd4e9b672d696e3d98845927d8661dcfb22f172d872cc39f27e4"
+],
+"data/variants/remnant/spark_Interceptor.variant": [
+"8edce94338f530b46cf1238c9cbb27739cedb98d91a281dbc3b133db012cffa5"
+],
+"data/variants/scarab/scarab_Starting.variant": [
+"53bb4fb00aad2012eee29216b4cae19a3972fcc024f4a03ac23ba7f220b0900e"
+],
+"data/variants/shade_Assault.variant": [
+"57ea4a25b65e567a339bdbaa78666045bf72b6f364d35b6b1a19e50d92732ffa"
+],
+"data/variants/shade_d_pirates_Assault.variant": [
+"afbfe3e2d0329c4578aabb48fd0fb57f9e8c6f85c5a5c19a4e80f53e4699139f"
+],
+"data/variants/shrike_Attack.variant": [
+"ad0064f6d55ddc5f148a0b94bb399ba4006d5b97741734e39344fe8030d9ca0a"
+],
+"data/variants/shrike_p_Attack.variant": [
+"66c629778082fe9d98d4ce17acd69452180c18bcef0ff534bb669b75e4242aa5"
+],
+"data/variants/stations/merlon_Standard.variant": [
+"dbb7684a418d92ac9a7d032278a7a2e0bf422d1c51857df3dae807f9cb2472a2"
+],
+"data/variants/sunder/sunder_Assault.variant": [
+"711b7b2efab0968ea2e790487ea723d58122209062c08eff1784eebe1907ddc0"
+],
+"data/variants/venture/venture_p_Pirate.variant": [
+"adf91b3b87a13bbe010baf34896a5072695b862f81ad6032815bcc0d50fdfaee"
+],
+"data/variants/wolf/wolf_PD.variant": [
+"cf604d6868fd3ad2d70515c4d332d1071ce08d030cfab445d5ed6506e1c01043"
+],
+"data/weapons/weapon_data.csv": [
+"8ec04d1a9508d71b53630fd86d0f91cf0ebb56bba14264d1154a709d538c0a75"
+],
 "data/world/factions/default_ranks.json": [
-"24e398c4dacbc234516e6fd80d1ad31ea8ea3a5ab380e558cc4a10d6bf6df22d"
+"24e398c4dacbc234516e6fd80d1ad31ea8ea3a5ab380e558cc4a10d6bf6df22d",
+"3e2870c9f7beb3ec829da8bbdbfe69b571918ed39a05a4679d8c915e12ea96d4"
+],
+"data/world/factions/derelict.faction": [
+"442ab022b935ca0ad50cb95cd5d2462742a0fca7afe8bd0b3ef68f75d7f9fc0c"
+],
+"data/world/factions/dweller.faction": [
+"5094412503185fcc29f71fe7adf2073aec5a32b0820357b4596f8e59b90223c4"
+],
+"data/world/factions/independent.faction": [
+"d74d3ac1d47c276b9c442c0de46e7ed8d52852d07163d69818131017e604746f"
+],
+"data/world/factions/mercenary.faction": [
+"6830551774d8666473f6d635dd33dae961f3f9c1b3181ce4fdd4a60c8f40f2eb"
+],
+"data/world/factions/omega.faction": [
+"493ce232c17b73c7bcb4bc2b5d8be0a0da087a0c6e7a11f9a7ba15bbaa0d7b25"
+],
+"data/world/factions/player.faction": [
+"ef899a866056d8ff41e0999812aaba241300901240777d1a7b511d9d584fefa1"
+],
+"data/world/factions/remnants.faction": [
+"0b41d9833feb24c425875ee2bf5348ef9c91e4624c53302127818bfa632124d1"
+],
+"data/world/factions/threat.faction": [
+"17efcf1af829063b583a792d345c3ba65de1f2b6df4223279db0a7b7a09ee2f0"
+],
+"data/world/factions/tritachyon.faction": [
+"4e1ed00a8feff828f17a9272af08f19decee6191deeafa6a76ce64d92f7ef548"
 ],
 "starfarer.api.jar": [
 "1d9a79e022a366a1526a0976023f031a5c2864aaa455de04490d7643c1161f7f",
 "533781a0e25162fec0440be297abbea97e350154b230c64ba4d00134031d2791",
+"6e143eaa32e3811b1c31d2123e58f25f952a51d877259f7faec6ae86ffbe3a01",
 "fc4c84b050de962222a7a2c7bb07785188f84377fa84ee61a302a9e44d8320a6"
 ],
 "starfarer_obf.jar": [
 "6a02353751965344480b38d12279d4c6bad4ff6f4cedb4a77b1cd37922d66213",
+"70731de61ab308d6951be4f49764899cb8107105aa109e12828eded6f42edb63",
 "f238d62af01f9dd2fdefa707d322164278be10d4f881b1d909394957a79bf827",
 "f83aa55df29314001451ad5b2d3f82db59f431e516265b3e32f6262c4dbfc76f"
 ]

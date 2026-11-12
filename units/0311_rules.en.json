@@ -1,0 +1,186 @@
+{
+ "chunk": 311,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"We're not supposed to attack you. ARC business, right?\"\r\n\r\n$HeOrShe doesn't bother to hide $hisOrHer disappointment.\r\n\r\n\"Go on then. We'll just have to find another target.\"\r\nOR\r\n$HeOrShe turns and shouts over one shoulder. \"Stand down! ARC has this one tagged as a 'comrade' so we're not supposed to loot 'em.\"\r\n\r\n\"Sorry about that, cappy,\" the pirate says. \"We'll be on gettin' gone.\"",
+   "ctx": "data/campaign/rules.csv greetingsPirateAskoniaARC2 [text]"
+  },
+  {
+   "i": 2,
+   "en": "Though you have not been declared an enemy of the polity, it is clear that you have been flagged by the Sindrian Diktat security apparatus. Port officials view you with distrust, fulfilling procedural requests slowly and singling you out for unnecessary inspections and checks.",
+   "ctx": "data/campaign/rules.csv relLevelSuspiciousDiktat [text]"
+  },
+  {
+   "i": 3,
+   "en": "You have been declared an enemy of the polity by the Sindrian Diktat and seen as a deranged terrorist against the Andradan Movement. Uncharitably modified holos of you performing crimes and sordid acts have appeared in official propaganda broadcasts.",
+   "ctx": "data/campaign/rules.csv relLevelVengefulDiktat [text]"
+  },
+  {
+   "i": 4,
+   "en": "You were an early supporter of Achilles Andrada's bid to claim his father's position, and for that you are treated with respect - and given great leeway - in all official dealings.",
+   "ctx": "data/campaign/rules.csv relLevelSDAchillesMoreInfo [text]"
+  },
+  {
+   "i": 5,
+   "en": "You were an early supporter of Achilles Andrada's bid to claim his father's position, even giving material aid from your own colonial organization. For this service you are treated with respect - and given great leeway - in all official dealings.",
+   "ctx": "data/campaign/rules.csv relLevelSDAchillesMoreInfoCol [text]"
+  },
+  {
+   "i": 6,
+   "en": "You were an early supporter of Hector Andrada's bid to claim his father's position, and for that you are treated with respect - and given great leeway - in all official dealings.",
+   "ctx": "data/campaign/rules.csv relLevelSDHectorMoreInfo [text]"
+  },
+  {
+   "i": 7,
+   "en": "You were an early supporter of Hector Andrada's bid to claim his father's position, even giving material aid from your own colonial organization. For this service you are treated with respect - and given great leeway - in all official dealings.",
+   "ctx": "data/campaign/rules.csv relLevelSDHectorMoreInfoCol [text]"
+  },
+  {
+   "i": 8,
+   "en": "You are considered an exemplar of the Achillean Ideal. Patrol officers know that their careers will be served by treating you with dutiful respect. A rather grand holo-version of you is featured in the occasional propaganda segments broadcast throughout the Askonia system.",
+   "ctx": "data/campaign/rules.csv relLevelCooperativeDiktatAchilles [text]"
+  },
+  {
+   "i": 9,
+   "en": "You've been flagged for official treatment as a trusted supporter of the Achillean Reform Movement, a friend and ally of Reformed Sindrian Diktat authority. Minor functionaries know not to risk their careers by troubling your business within Diktat-controlled volumes.",
+   "ctx": "data/campaign/rules.csv relLevelFriendlyDiktatAchilles [text]"
+  },
+  {
+   "i": 10,
+   "en": "Your name is spoken well of among some of the high-level officials in the various ministries of the Reformed Sindrian Diktat, and it is clear that there is some kind of official note attached to your record. Local patrol commanders and port authority officers alike know what's good for their careers and make a point of treating you politely and efficiently.",
+   "ctx": "data/campaign/rules.csv relLevelWelcomingDiktatAchilles [text]"
+  },
+  {
+   "i": 11,
+   "en": "You have been flagged as a known quantity in the records kept by the reformed Sindrian Diktat security apparatus. Officials tend to view you favorably, though don't go out of their way to make life easy. At best, you might be sold some low-grade surplus military equipment, or avoid being the target of an investigation if it involves more than the usual bother.",
+   "ctx": "data/campaign/rules.csv relLevelFavorableDiktatAchilles [text]"
+  },
+  {
+   "i": 12,
+   "en": "The reformed Sindrian Diktat security apparatus has been ordered to give a great deal of leeway to free agents of the Persean Sector - even spacers with a colorful reputation. If you keep your head down and stick to business no one is likely to take a professional interest in your comings and goings.",
+   "ctx": "data/campaign/rules.csv relLevelNeutralDiktatAchilles [text]"
+  },
+  {
+   "i": 13,
+   "en": "Though you have not been declared an enemy of the polity, it is clear that you have been flagged by the reformed Sindrian Diktat security apparatus as a person of interest. Port officials view you with distrust, fulfilling procedural requests slowly and singling you out for unnecessary inspections and checks.",
+   "ctx": "data/campaign/rules.csv relLevelSuspiciousDiktatAchilles [text]"
+  },
+  {
+   "i": 14,
+   "en": "The Reformed Diktat security apparatus has flagged you as a suspected terrorist, though has not yet issued a shoot-on-sight order. Diktat-controlled ports will refuse to trade with you, and patrols seem to make it their mission to make your life miserable.",
+   "ctx": "data/campaign/rules.csv relLevelInhospitableDiktatAchilles [text]"
+  },
+  {
+   "i": 15,
+   "en": "You have been declared an enemy of the polity. The Reformed Sindrian Diktat navy has authorization to engage your fleet, and traders are prohibited from dealing with you for fear of being declared supporters of terrorism, piracy, or even worse: Hectorite treason.",
+   "ctx": "data/campaign/rules.csv relLevelHostileDiktatAchilles [text]"
+  },
+  {
+   "i": 16,
+   "en": "You have been declared an enemy of the polity by the Reformed Sindrian Diktat and are seen as a deranged terrorist, perhaps even guilty of spreading Hectorite treason. Uncharitably modified holos of you performing crimes and sordid acts have appeared in propaganda broadcast throughout the Askonia system.",
+   "ctx": "data/campaign/rules.csv relLevelVengefulDiktatAchilles [text]"
+  },
+  {
+   "i": 17,
+   "en": "After a short wait, your connection request is accepted.\r\n\r\n\"Comms open, state your request.\"\r\nOR\r\nThe comms resolve to show $Post $personLastName sitting stiffly. \r\n\r\n\"Channel clear, go ahead.\"",
+   "ctx": "data/campaign/rules.csv convDefaultGreetingSoldier [text]"
+  },
+  {
+   "i": 18,
+   "en": "After a short wait, your connection request is accepted.\r\n\r\n\"Comms open.\" $HeOrShe looks down, frowning. \"Not receiving a valid ident-tag. You should check your comms unit for malfunction.\"\r\nOR\r\nThe comms resolve to show $Post $personLastName sitting stiffly. \r\n\r\n\"Channel clear, go ahead... hold.\" With a frown, $heOrShe consults a datapad. \"Not receiving a confirm ping for your ident-tag. You'll want to get your comms suite checked, as you're currently against regs.\" ",
+   "ctx": "data/campaign/rules.csv convDefaultGreetingSoldierTOff [text]"
+  },
+  {
+   "i": 19,
+   "en": "After a short wait, your connection request is accepted.\r\n\r\n\"Aye, what's your business?\" $HeOrShe gives you a funny look. \"Transponder off, huh. Malfunction, sure. Do I want to know what's going on?\" \r\nOR\r\nThe comms visuals resolve after several attempts, though with occasional flickers. $PersonName seems to be using an old or rad-damaged comms unit.\r\n\r\n\"Bright stars and long burns. How can I be helping, ah...\" $HeOrShe raises an eyebrow. \"Not getting a valid ident-tag from your comms. Not going to accuse you of running dark, nope. But a bit of advice - you'll want to mind your regs if you don't want a surprise inspection.\" ",
+   "ctx": "data/campaign/rules.csv convDefaultGreetingSpacerTOff [text]"
+  },
+  {
+   "i": 20,
+   "en": "After a short wait, your connection request is accepted.\r\n\r\n\"Salutations dear captain. What brings you to me?\"\r\nOR\r\nAfter a short wait, your connection request is accepted.\r\n\r\n\"Ah, captain $playerName.\" $HeOrShe looks at you expectantly. \"Was this about something I am paying you to do?\"\r\nOR\r\nThe comms resolve to $personName's face - distracted by something off-display. \"Oh you've interrupted- well, fine, fine. The damage is done.\"\r\n\r\n\"You!\" This, said to someone off-display, \"You can finish up later, I must take this.\"\r\n\r\n$PersonName turns to you finally, \"-Well go on, what could be so important?\"",
+   "ctx": "data/campaign/rules.csv convDefaultGreetingAristo [text]"
+  },
+  {
+   "i": 21,
+   "en": "After a short wait, your connection request is accepted.\r\n\r\n\"This is $Post $personName.\"\r\n\r\nA troubled expression crosses $hisOrHer face. \"Captain, I'm afraid there's a minor malfunction in your comms suite - I'm not seeing a valid ident-tag with your full manifest. You'll want to get that fixed, I'm sure.\"",
+   "ctx": "data/campaign/rules.csv convDefaultGreetingOfficialToff [text]"
+  },
+  {
+   "i": 22,
+   "en": "After a short wait, your connection request is accepted.\r\n\r\n\"Welcome, welcome! What's the first order of business?\"\r\n\r\nA pause. \"Oh, looks like your comms' ident-tag got corrupted. Might want to check your equipment.\"",
+   "ctx": "data/campaign/rules.csv convDefaultGreetingBusinessToff [text]"
+  },
+  {
+   "i": 23,
+   "en": "After a short wait, your connection request is accepted.\r\n\r\n\"Greetings! I'm very busy, so just tell me what you want.\"\r\nOR\r\nAfter a short wait, your connection request is accepted.\r\n\r\n\"Hello, hello,\" $heOrShe says, barely looking up from amidst a jumble of diagrams and datasets floating in $hisOrHer virtual workspace. \"What do you need?\"",
+   "ctx": "data/campaign/rules.csv convDefaultGreetingScientist [text]"
+  },
+  {
+   "i": 24,
+   "en": "After a short wait, your connection request is accepted.\r\n\r\n\"Why, what a delicious little $shipOrFleet you have there captain. What brings you to my humble orbit?\"\r\n\r\nA smile flickers on $hisOrHer lips. \"And without an active transponder. Naughty, naughty.\"",
+   "ctx": "data/campaign/rules.csv convDefaultGreetingVillainToff [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"Oh, it's you,\" $heOrShe says. \"Ident-tag still not working, huh.\"\r\nOR\r\n\"Ah, did you forget something?\" $heOrShe asks. \"I'm still not getting your auto-ID. I'll have to reboot my comms system once we're done here.\"\r\nOR\r\n$HeOrShe looks up, \"Oh, hello again. Still getting an error on your comms info-tag, by the way. Might want to get that looked at.\"",
+   "ctx": "data/campaign/rules.csv convDefaultGreeting2Toff [text]"
+  },
+  {
+   "i": 26,
+   "en": "\"Yes? I expect there's something more you need.\"",
+   "ctx": "data/campaign/rules.csv convDefaultGreeting2aristo [text]"
+  },
+  {
+   "i": 27,
+   "en": "\"$PlayerSirOrMadam, yes.\" $HeOrShe gives you a glance. \"You really should get your comms looked at, it's technically a minor violation to have an inoperative ident-tag.\"",
+   "ctx": "data/campaign/rules.csv convDefaultGreeting2official [text]"
+  },
+  {
+   "i": 28,
+   "en": "The comms are cut rather abruptly.\r\nOR\r\nThe link is immediately terminated.\r\nOR\r\nThe image snaps to static, the link rudely broken before both parties' comms could acknowledge the command.",
+   "ctx": "data/campaign/rules.csv convEndRude [text]"
+  },
+  {
+   "i": 29,
+   "en": "\"Running with the transponder off in $faction space is against the-\" The $post's eyes go suddenly wide at a red flash from a secondary display.\r\n\r\n\"By the holy pneuma,\" $heOrShe gasps.",
+   "ctx": "data/campaign/rules.csv tOffPatrolOpenCommWeirdHulls [text]"
+  },
+  {
+   "i": 30,
+   "en": "You request a salvage plan, giving due consideration to the likely difficulty of your request.\r\n\r\nBefore long, you hear back from your chief engineer - mumbling something about not being a miracle worker to someone offscreen before noticing you've accepted the link request.\r\n\r\n\"$PlayerSirOrMadam.\" They have the self-awareness to look appropriately embarassed but the professionalism not to let it interrupt a report. \"With apologies, no can do. It'd take days just to catalogue all the different critical-level defects. This hull is destined for the scrappers, $playerSirOrMadam.\"",
+   "ctx": "data/campaign/rules.csv sal_forceRecoveryOptNoSel [text]"
+  },
+  {
+   "i": 31,
+   "en": "The face of Gilead is painted with fragile green continents and glittering blue oceans. Ludd came here, saw Eridani Utopia's vast terraforming machines and designs for profit, and led the first Faithful to liberate the world. In place of sprawling private fortress-plantations and crowded resort compounds, a garden-wilderness of astounding richness was cultivated. It is a gem of the Persean Sector.",
+   "ctx": "data/campaign/rules.csv lppGileadShrineVisitAgainEndB2 [text]"
+  },
+  {
+   "i": 32,
+   "en": "One such stony-faced attendant, flanked by Knights of Ludd in gleaming powered armor, meets your shuttle on the pad.\r\n\r\n\"We do not welcome those who so willfully scorn the Faith, Captain $playerName,\" the attendant says. \"Please leave now.\"\r\n\r\nThey appear unyielding and perhaps even consider standing up to you a righteous test of their devotion.",
+   "ctx": "data/campaign/rules.csv lppGileadShrineStartHubTextC [text]"
+  },
+  {
+   "i": 33,
+   "en": "\"Do you insult or laud me, I wonder,\" she says. \"Anahita Baird is a powerful woman, intelligent and proud. She also makes herself habit of knocking upon the doors of demons.\"\r\n\r\nShe sits back, cradling her teacup.\r\n\r\n\"Or I should say, rather, she sends others to knock in her place.\" The Archcurate waves a hand dismissively, \"I hold not your work for her against your character. If I may return your Janus-faced compliment: what you have done for Baird may even prove more your suitability for what is in my mind.\"",
+   "ctx": "data/campaign/rules.csv lppJaspisBaird1 [text]"
+  },
+  {
+   "i": 34,
+   "en": "With the flash of official iconography, your shuttle route permission is denied by the orbital approach authority.\r\n\r\n\"With apologies, uh, walker, the Shrine of Volturn is currently in a class-red conflict zone.\" The official is legitimately apologetic.\r\n\r\n\"There's been, er, rebel activity and we've had some AA incidents targeting civilian shuttles. We can't let anyone approach until order is re-established.\"",
+   "ctx": "data/campaign/rules.csv lppVolturnVisitDenied [text]"
+  },
+  {
+   "i": 35,
+   "en": "Your shuttle settles on the landing pad and is met by no one.\r\n\r\nRusted mount-points remain where weapons emplacements once loomed.\r\n\r\nThe small squad of Diktat conscripts that used to garrison this platform have surely been deployed elsewhere, and the official you met probably shot as a turncoat. Unless he was given a promotion and assigned to some new backwater with another squad of conscripts to bully.",
+   "ctx": "data/campaign/rules.csv lppVolturnVisitRazedSD [text]"
+  },
+  {
+   "i": 36,
+   "en": "Your shuttle settles on the landing pad and is met by no one.\r\n\r\nRusted mount-points remain where weapons emplacements once loomed. The Sindrian Diktat must have placed a garrison here.",
+   "ctx": "data/campaign/rules.csv lppVolturnVisitRazedSDfirstTime [text]"
+  }
+ ]
+}

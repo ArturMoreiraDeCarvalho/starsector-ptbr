@@ -1,13 +1,12 @@
 {
     "displayName": "Apoio de Fogo",
-    "fluxCapacitors": 35,
+    "fluxCapacitors": 25,
     "fluxVents": 50,
     "goalVariant": true,
     "hullId": "paragon",
     "hullMods": [
         "stabilizedshieldemitter",
         "hardenedshieldemitter",
-        "advancedshieldemitter",
         "advancedoptics",
         "fluxdistributor"
     ],

@@ -1,0 +1,176 @@
+{
+ "chunk": 290,
+ "cat": "data",
+ "items": [
+  {
+   "i": 1,
+   "en": "Reduces the monthly maintenance supply cost by %s.",
+   "ctx": "data/hullmods/hull_mods.csv low_maintenance [desc]"
+  },
+  {
+   "i": 2,
+   "en": "A number of crew positions are classified as low-skilled, resulting in a reducation of %s to overall crew salary for this ship.",
+   "ctx": "data/hullmods/hull_mods.csv manual_systems [desc]"
+  },
+  {
+   "i": 3,
+   "en": "The ship's performance suffers from competing design priorities, with multiple bleeding-edge projects integrated too late in the design cycle.\r\n\r\nThe ship's flux dissipation and capacity, even the nominal base values, are reduced by %s, and the effectiveness of its Temporal Shell system is reduced to %s time flow rate.\r\n\r\nThe range of ballistic weapons is reduced by %s, the rate of fire of missile weapons is reduced by %s, and the flux generation of energy weapons is increased by %s.\r\n\r\nOn the plus side, extra nanoforge capacity can be brought online more easily, allowing the installation of a %s despite the ship already having a fighter bay, increasing the number of operational fighter bays to %s.",
+   "ctx": "data/hullmods/hull_mods.csv design_compromises [desc]"
+  },
+  {
+   "i": 4,
+   "en": "Improves the maximum burn level of the slowest ship in the fleet by 1. Multiple tugs can not be used to speed up the same ship by more than 1.\r\n\r\nCannot be used in combat.",
+   "ctx": "data/hullmods/hull_mods.csv tow_cable [desc]"
+  },
+  {
+   "i": 5,
+   "en": "This ship is fully automated, and does not require - and cannot take on - any human crew.",
+   "ctx": "data/hullmods/hull_mods.csv automated [desc]"
+  },
+  {
+   "i": 6,
+   "en": "The ship will attempt to recoil (hopefully) away from danger when taking substantial hull damage.\r\n\r\nIncreases the ship's hull integrity by %s. Crew casualties in combat are increased by %s.",
+   "ctx": "data/hullmods/hull_mods.csv shrouded_mantle [desc]"
+  },
+  {
+   "i": 7,
+   "en": "Reduces weapon turn rate by %s, increases recoil by %s, and reduces the durability of all weapons by %s.\r\n\r\nSupply cost to recover from deployment reduced by %s.",
+   "ctx": "data/hullmods/hull_mods.csv damaged_mounts [desc]"
+  },
+  {
+   "i": 8,
+   "en": "Increases base range of small and medium weapons in ballistic slots.",
+   "ctx": "data/hullmods/hull_mods.csv ballistic_rangefinder [short]"
+  },
+  {
+   "i": 9,
+   "en": "Installs basic shields on shieldless ship.",
+   "ctx": "data/hullmods/hull_mods.csv frontshield [short]"
+  },
+  {
+   "i": 10,
+   "en": "Reduces fleetwide fighter pilot casualties.",
+   "ctx": "data/hullmods/hull_mods.csv recovery_shuttles [short]"
+  },
+  {
+   "i": 11,
+   "en": "Reduces maintenance cost.",
+   "ctx": "data/hullmods/hull_mods.csv low_maintenance [short]"
+  },
+  {
+   "i": 12,
+   "en": "Reduces crew salary.",
+   "ctx": "data/hullmods/hull_mods.csv manual_systems [short]"
+  },
+  {
+   "i": 13,
+   "en": "Reduces damage taken by shields and armor by %s for destroyers, and by %s for cruisers.",
+   "ctx": "data/hullmods/hull_mods.csv escort_package [sModDesc]"
+  },
+  {
+   "i": 14,
+   "en": "Increases number of fighter pilots recovered by %s.",
+   "ctx": "data/hullmods/hull_mods.csv recovery_shuttles [sModDesc]"
+  },
+  {
+   "i": 15,
+   "en": "Increases the rate of fire of the Lens by %s.",
+   "ctx": "data/hullmods/hull_mods.csv shrouded_lens [sModDesc]"
+  },
+  {
+   "i": 16,
+   "en": "General / Point Defense",
+   "ctx": "data/weapons/weapon_data.csv rift_lightning [primaryRoleStr]"
+  },
+  {
+   "i": 17,
+   "en": "Will target missiles if no other targets are in range.",
+   "ctx": "data/weapons/weapon_data.csv heavymg [customPrimary]"
+  },
+  {
+   "i": 18,
+   "en": "Paints the target and provides targeting data, increasing all hull and armor damage taken by %s / %s / %s / %s based on the number of tactical lasers hitting the target's hull or armor, with the maximum reached at 4 or more beams.",
+   "ctx": "data/weapons/weapon_data.csv taclaser [customPrimary]"
+  },
+  {
+   "i": 19,
+   "en": "Each shot deals an additional 1000 damage to armor over 10 seconds. This damage is not reduced by armor, and, when hitting fighters, can leak through to hull once armor is stripped.",
+   "ctx": "data/weapons/weapon_data.csv disintegrator [customPrimary]"
+  },
+  {
+   "i": 20,
+   "en": "Asteroid Base",
+   "ctx": "data/config/custom_entities.json asteroid_base.defaultName"
+  },
+  {
+   "i": 21,
+   "en": "asteroid base",
+   "ctx": "data/config/custom_entities.json asteroid_base.nameInText"
+  },
+  {
+   "i": 22,
+   "en": "Artificial Intelligence",
+   "ctx": "data/world/factions/default_ranks.json ranks.artificialIntelligence.name"
+  },
+  {
+   "i": 23,
+   "en": "Fugitive",
+   "ctx": "data/world/factions/default_ranks.json ranks.fugitive.name"
+  },
+  {
+   "i": 24,
+   "en": "Personnel Officer",
+   "ctx": "data/world/factions/default_ranks.json posts.personnelOfficer.name"
+  },
+  {
+   "i": 25,
+   "en": "Underworld Boss",
+   "ctx": "data/world/factions/default_ranks.json posts.underworldBoss.name"
+  },
+  {
+   "i": 26,
+   "en": "Associate Academician",
+   "ctx": "data/world/factions/default_ranks.json posts.associate_academician.name"
+  },
+  {
+   "i": 27,
+   "en": "Assistant Academician",
+   "ctx": "data/world/factions/default_ranks.json posts.assistant_academician.name"
+  },
+  {
+   "i": 28,
+   "en": "Exile",
+   "ctx": "data/world/factions/default_ranks.json posts.exile.name"
+  },
+  {
+   "i": 29,
+   "en": "Sindrian Reformers",
+   "ctx": "data/world/factions/diktat_achilles.faction displayName"
+  },
+  {
+   "i": 30,
+   "en": "the Reformed Sindrian Diktat",
+   "ctx": "data/world/factions/diktat_achilles.faction displayNameWithArticle"
+  },
+  {
+   "i": 31,
+   "en": "A series of ill-advised modifications have been made to militarize this normally-harmless hull. Whether it's more dangerous to its crew or its enemies remains a point of contention at dockside bars, but these modifications are often favored by pirates seeking to create the impression of overwhelming firepower.",
+   "ctx": "data/hulls/skins/mudskipper2.skin descriptionPrefix"
+  },
+  {
+   "i": 32,
+   "en": "Advanced",
+   "ctx": "data/variants/aurora/aurora_Advanced.variant displayName"
+  },
+  {
+   "i": 33,
+   "en": "Classified",
+   "ctx": "data/variants/aurora/aurora_Classified.variant displayName"
+  },
+  {
+   "i": 34,
+   "en": "Restricted",
+   "ctx": "data/variants/aurora/aurora_Restricted.variant displayName"
+  }
+ ]
+}

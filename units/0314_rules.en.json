@@ -1,0 +1,141 @@
+{
+ "chunk": 314,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"So, still want to sign? A touch on the notification that has just appeared on your TriPad would be sufficient.\"\r\n\r\nWith a friendly ping, the notification appears. The security implications of this are mildly worrying.",
+   "ctx": "data/campaign/rules.csv CMSNTextSuitedPart2_tritachyon [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"Excellent! Let me be the first to welcome you into contractual service to the Company.\"\r\n\r\n\"And, ah, would you mind if I added you on TriLink? I'm always looking to network with rising stars...\"",
+   "ctx": "data/campaign/rules.csv CMSNTextWelcomePart1_tritachyon [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"Ah, you're shopping around to see who gives the best offer. Am I right? Sensible. A standard Tri-Tachyon NDA applies to the details we've discussed, naturally.\"\r\n\r\n\"Anything else I can do for you today?\"",
+   "ctx": "data/campaign/rules.csv CMSNTextChangeMind_tritachyon [text]"
+  },
+  {
+   "i": 4,
+   "en": "\"Hmm. Yes, you are in good standing and none of the League world databases have tagged you with a veto.\"\r\n\r\n\"Accepting a commission from the Persean League is a serious matter. You must learn and uphold the Eight Imperatives of the League charter; you will be required to fight those who would try to force their hegemony upon the free worlds of the Persean Sector; you will take part in a new future for humanity in all its forms, free from central domination by any one polity yet acting in concert toward mutual betterment. It is a noble ideal, my friend, and much to live up to.\"\r\n\r\n\"For the sake of formality I shall inform you that you do have the right to resign your commission at any time. After resignation, the League would have no legal means to protect you from, shall we say, personal repercussions imposed by constituent members that may feel slighted. Just so you know.\"",
+   "ctx": "data/campaign/rules.csv CMSNTextSuitedPart1_persean [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"Yes, I understand. It is dangerous work, and it requires exceptional character to uphold the ideals of the League. There is no shame in turning down this commitment; after all it is for your freedom to make this decision that we fight.\"\r\n\r\n\"Is there anything else I can do for you?\"",
+   "ctx": "data/campaign/rules.csv CMSNTextChangeMind_persean [text]"
+  },
+  {
+   "i": 6,
+   "en": "\"I can see there's no changing your mind. On behalf of the League, I thank you for the service you have performed to this date and your courtesy in tendering your resignation in person.\"\r\n\r\n\"Now if you don't mind, there are a handful of forms I need to fill out to finalize this process.\"",
+   "ctx": "data/campaign/rules.csv CMSNResignConfirmed_persean [text]"
+  },
+  {
+   "i": 7,
+   "en": "\"Hmm, we've had our eye on you for some time it seems. This intelligence summary makes it clear that you're a suitable candidate for commission into the Sindrian Diktat's volunteer force.\"\r\n\r\n\"Accepting a commission into our glorious movement is a serious matter. You must pledge unwavering loyalty to our leader, Supreme Executor Admiral Andrada, and the Sindrian Diktat he commands. You will fight our enemies, cleanse the Sector of the corrupt old order, and usher in a new age for our people. If you are lucky, you may even attain the glory of giving your life for the great cause.\"\r\n\r\n\"Now it is technically possible to resign the Diktat commission, but this would reveal a deep betrayal of sacred loyalty. I pledged my blood to the Lion, and I would expect the same from you.",
+   "ctx": "data/campaign/rules.csv CMSNTextSuitedPart1_sindrian_diktat [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"You bring demon cores, seeds of Moloch!\" $HisOrHer eyes go wide.\r\n\r\n\"Aye, these abominations must be destroyed before they may spread further corruption! The blessed Path led you here because we have the tools and the knowledge to do it properly. And of course,\" $heOrShe allows a slight smile, \"your righteous devotion will not go unrewarded.\"",
+   "ctx": "data/campaign/rules.csv aiCores_turnInOptionSelPath [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"Unto holy fire we consign this evil.\"\r\n\r\n$PersonPost $personLastName says a prayer with you, and gives thanks on behalf of the local section of the Luddic Path.",
+   "ctx": "data/campaign/rules.csv aiCores_turnInResponsePath [text]"
+  },
+  {
+   "i": 10,
+   "en": "\"Must be a relief we showed instead of some pirates, eh?\"\r\n\r\n\"Now, what was it you needed?\"",
+   "ctx": "data/campaign/rules.csv dcall_openComms [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"Must be a relief we showed up, eh?\"\r\n\r\n\"Now, what was it you needed?\"",
+   "ctx": "data/campaign/rules.csv dcall_openCommsPirates [text]"
+  },
+  {
+   "i": 12,
+   "en": "Your comms officer calls for your attention.\r\n\r\n\"$PlayerSirOrMadam. There's an incoming comms request from the station commander.\"",
+   "ctx": "data/campaign/rules.csv tut_stationCommanderComms [text]"
+  },
+  {
+   "i": 13,
+   "en": "$HeOrShe sniffs. \"I was only contemplating it as a favor to you, of course.\"",
+   "ctx": "data/campaign/rules.csv buyHTDataNeverMindSelAristo [text]"
+  },
+  {
+   "i": 14,
+   "en": "You enter the bar, leaving the noisome propaganda broadcasts of the throughway behind. Off-duty laborers drink away their ration credits dutifully at benches set beneath the new Diktat insignia. In one corner a cadre of finely dressed officer-bureaucrats calls for another round.",
+   "ctx": "data/campaign/rules.csv bar_descDiktatReformer [text]"
+  },
+  {
+   "i": 15,
+   "en": "As you enter the bar you are struck by the lack of conversation and revelry. Ad-holos promoting Mbaye-Gogol cryosanctum packages buzz softly from ceiling-mounted units, shining cool highlights through glasses and bottles as subdued spacer crews mingle. A few merchant-captains hold a low conversation while ignoring the few local employees who seem mostly content to drink alone.",
+   "ctx": "data/campaign/rules.csv bar_descNomios [text]"
+  },
+  {
+   "i": 16,
+   "en": "As your $shipOrFleet moves into a close holding orbit, an executive summary of the hypershunt's specifications is helpfully presented by your TriPad's pseudo-AI assistant.\r\n\r\nThe bridge sounds an alert as a swarm of previously undifferentiated shapes detach themselves from the superstructure and begin to accelerate towards your fleet just as you finish reading, \"-and for reasons of safety, automated defense drones are no longer a standard feature.\"\r\n\r\nYour tactical officer waves for your attention, \"We're close enough to the magfield generated by the megastructure that the anticipated combat volume should be unaffected by the star's corona. Mostly. However,\" they examine their console, \"The hostiles, picking up AI War remnants, and...\" a brittleness enters their voice, \"Unknown... a couple unknown profiles. Incoming fast.\"",
+   "ctx": "data/campaign/rules.csv cTap_defenderDesc2 [text]"
+  },
+  {
+   "i": 17,
+   "en": "Your comm link buzzes angrily - it's a priority message from one of your fleet officers.",
+   "ctx": "data/campaign/rules.csv oc_check [text]"
+  },
+  {
+   "i": 18,
+   "en": "\"$PlayerSirOrMadam,\" $heOrShe begins with a stern look, \"I must respectfully inquire if you've lost confidence in my command ability.\"\r\n\r\n\"You've revoked my assignment to $reassignedShipName for a fleet action, then placed me back in command of the same vessel. This undermines my authority with subordinate officers and crew alike.\"\r\nOR\r\n\"I thank you for taking the time to personally discuss this matter,\" $heOrShe begins. \"You assigned me to $reassignedShipName, pulled me from command during battle, then re-assigned me to that same ship.\"\r\n\r\n\"$PlayerSirOrMadam, if I've let you down, I accept judgement and will take appropriate corrective action. But I cannot commit to your standards of excellence if you cannot commit me to a command.\"\r\nOR\r\n\"I wish only to serve with distinction, $playerSirOrMadam,\" $heOrShe says. \"But I cannot commit to the discipline and consistency required for successful command if you pull me from $reassignedShipName for combat, then place me back in command after it is concluded.\"\r\n\r\n\"With all due respect,\" $heOrShe says with a tone of self-justified affront, \"it makes me look bad. I am sure we both understand the importance of building a culture of respect in one's subordinates. I cannot do that if I am ordered absent for the most critical periods of leadership.\"\r\nOR\r\n\"$PlayerSirOrMadam, thank you for taking the time,\" $heOrShe begins.\r\n\r\n\"I wish to, respectfully, bring complaint regarding your order to assign me away from $reassignedShipName during an important combat action. I've put a great deal of effort into building a rapport with my junior officers and crew, and to appear to abandon them... $playerSirOrMadam, it has a negative impact on morale and readiness which does not meet my professional standards.\"",
+   "ctx": "data/campaign/rules.csv oc_officerAnswerSelFirstComplaint [text]"
+  },
+  {
+   "i": 19,
+   "en": "\"Look, $playerSirOrMadam. This has happened before and I can't do my job if you won't let me,\" $heOrShe says.\r\n\r\n\"It's not just a matter of credits, it's a matter of pride... and respect. If you can't respect me enough to lead in combat, then perhaps your organization is not the right place for my expertise.\"\r\nOR\r\n\"$PlayerSirOrMadam,\" $hisOrHer look is more than skeptical. \"I want to believe you, but I value actions over words. And with all due respect, I've heard these words from you before.\"\r\nOR\r\n\"I'm not in the business of making excuses, $playerSirOrMadam. What am I supposed to tell my subordinates? That you don't have confidence in my ability to lead them in combat?\"\r\n\r\n$HeOrShe shakes $hisOrHer head dismissively. \"I'm a professional. I cannot do my work if I am not treated as such.\"",
+   "ctx": "data/campaign/rules.csv oc_officerAnswerSelComplainAgain [text]"
+  },
+  {
+   "i": 20,
+   "en": "A nod. \"Thank you, $playerSirOrMadam. I won't let you down.\"\r\nOR\r\n\"Glad to hear it, $playerSirOrMadam,\" $heOrShe says. \"I'll let my bridge crew know you've taken a personal interest.\"\r\nOR\r\n\"I appreciate your transparency, $playerSirOrMadam.\"\r\n\r\n$HeOrShe performs a salute.\r\nOR\r\n\"Understood, $playerSirOrMadam. I'll ensure that my performance exceeds expectations.\"",
+   "ctx": "data/campaign/rules.csv oc_offerApologySel [text]"
+  },
+  {
+   "i": 21,
+   "en": "$HeOrShe nods skeptically. \"Um. Understood, $playerSirOrMadam.\"\r\nOR\r\n\"Acknowledged, playerSirOrMadam.\"\r\n\r\n$HisOrHer tone is distinctly unimpressed.\r\nOR\r\n\"I see, uh, $playerSirOrMadam,\" $heOrShe says uneasily, then performs an unenthusiastic salute.\r\nOR\r\n\"$PlayerSirOrMadam,\" $heOrShe answers robotically. You can see the disappointment in $hisOrHer eyes.",
+   "ctx": "data/campaign/rules.csv oc_savingOnCombaPaySel [text]"
+  },
+  {
+   "i": 22,
+   "en": "It takes quite some time - describing what you do as \"pleading\" would sound more undignified than the fictions all parties involved tacitly agree to maintain - but you do your best to smooth over hard feelings, rebuild trust, and some make not-quite-promises about the future which finally convince them to stick with your operation.\r\n\r\nAfter all, they could be guarding ore shipments from starving pirates. At least you present a glimpse of ambition, a glimmer of possibility, a chance at glory!\r\n\r\nThey may roll their eyes at such talk, but you can tell it sparks at something primary. These are mercenary officiers, not accountants; they live for this.",
+   "ctx": "data/campaign/rules.csv oc_convinceToStaySel [text]"
+  },
+  {
+   "i": 23,
+   "en": "There's nothing to be done but accept the resignation.\r\n\r\nThey'll go off-duty until your $shipOrFleet docks at a port of call then go their own way.",
+   "ctx": "data/campaign/rules.csv oc_letThemGoSel [text]"
+  },
+  {
+   "i": 24,
+   "en": "You cut the comm link, shake your head, and consider your options.",
+   "ctx": "data/campaign/rules.csv oc_cutCommLinkOfficerConvSel [text]"
+  },
+  {
+   "i": 25,
+   "en": "\"Ah, commander.\" $HeOrShe has put on a slightly pained expression, but is clearly willing to power through an uncomfortable conversation.\r\n\r\n\"Please accept my condolences for your current state of financial insolvency.\"\r\n\r\n\"As per the conditions set out in our agreement, I now have the option to terminate our contract - an option that I am choosing to exercise.\"",
+   "ctx": "data/campaign/rules.csv mercs_checkLeavingInDebt [text]"
+  },
+  {
+   "i": 26,
+   "en": "The capital-class construct appears to be a phase ship due to presenting features common to the type, though its design is otherwise exotic. \r\n\r\nThere also appear to be small, bright EM sources, \"-Only partially overlapping the visual spectrum,\" your sensors officer reports. They periodically appear and dissipate in a volume encompassing the mysterious ship. Your bridge crew murmurs speculation between their stations: a new form of shielding? Microsat thruster bursts? Your sensors officer shakes their head. \r\n\r\nYour attention strays as the impression of something not unlike distant music insinuates itself into your consciousness; as if a chorus was singing at some great distance, their voices brought to you by a chance gust of wind. When you attempt to focus on the music the impression slips away. You become suddenly aware that your bridge crew is staring expectantly, waiting for your next command.",
+   "ctx": "data/campaign/rules.csv zig_encounterDescScanned [text]"
+  },
+  {
+   "i": 27,
+   "en": "You start to introduce yourself, but before you get two words out Lieutenant Tseen Ke interrupts, \"Captain $playerName! Of course, how could I forget? What an operation,\" he rolls his eyes in mock-exasperation - dealing with academicians, right?\r\n\r\nHe buys you that pint - and a couple more - as he relives those memories. \"We got 'im, you know,\" he says, \"Kallichore. That's his name. Was the boss of the academy who approved that mad science experiment, almost doomed everyone in the system, can you believe that?\"",
+   "ctx": "data/campaign/rules.csv gaMeetHegLieutenantOnCoatlSel [text]"
+  }
+ ]
+}

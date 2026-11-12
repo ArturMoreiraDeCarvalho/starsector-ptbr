@@ -1,28 +1,28 @@
 id,name,order,tier,reqPoints,reqPointsPerExtraSkill,description,author,combat officer,admiral,admin,tags,icon,
 # COMBAT,,,,,,,,,,,,,
 helmsmanship,Pilotagem,10,1,0,,"Ela canta quando você ajusta a mistura na medida certa, tipo, [cantarola]. Tudo está certo no mundo, das estrelas até os seus ossos. Saindo de um turno, é como se eu tivesse acabado de acordar. [rindo] Palavras não conseguem descrever.","Projeto de Entrevista no Porto de Nachiketa, Ep.3",TRUE,,,,graphics/icons/skills/helmsmanship.png,
-combat_endurance,Resistência em Combate,20,1,0,,"Em meio à calamidade, o Décimo Quarto resistiu.
-Em meio à hegemonia, o Domínio perdura.
-Em meio ao dever, a humanidade resistirá.","Almirante Kali Molina, a Declaração da Hegemonia, c49",TRUE,,,,graphics/icons/skills/combat_endurance3.png,
+combat_endurance,Resistência em Combate,20,1,0,,"Através da calamidade, o Décimo Quarto resistiu. 
+Através da hegemonia, o Domínio perdura. 
+Através do dever, a humanidade resistirá.","Almirante Kali Molina, a Declaração da Hegemonia, c49",TRUE,,,,graphics/icons/skills/combat_endurance3.png,
 impact_mitigation,Mitigação de Impacto,30,2,0,,"A manobra produziu um ângulo de impacto oblíquo, dissipando o momento do projétil na aplicação de ferroespuma. Foi o timing infeliz do choque resultante que levou ao trágico fim do Espaçonauta York durante uma transferência de equipamento pesado, de resto rotineira.","Escaramuça de Thule, c120.03.08, relatório de ação submetido pelo Navarca Zhou",TRUE,,,,graphics/icons/skills/impact_mitigation.png,
 damage_control,Controle de Danos,40,2,0,,"O que está perdido está perdido. Deixe aqueles compartimentos queimarem, concentre seus esforços no que nos levará pela próxima hora.","Navarca Tethys, discurso final à tripulação do PLS Astelene Key",TRUE,,,,graphics/icons/skills/damage_control2.png,
 field_modulation,Modulação de Campo,50,2,0,,"Poucos têm talento para o que eu gosto de chamar de ""sintonia ativa"". Acho que os músicos são os melhores oficiais de campo.","Ardis Soloman, dados vazados submetidos ao algoritmo de redação do COMSEC",TRUE,,,active_defenses,graphics/icons/skills/field_modulation.png,
 point_defense,Defesa de Ponto,60,3,0,,"Quanto a mim, não confio em lasers e coisas assim. Faz um belo show de luzes, é verdade, mas nada detém os pontos que chegam como a parede de DU de uma boa matriz Vulcan.","""Heróis do Convés Inferior"", uma série do HEGCOM",TRUE,,,,graphics/icons/skills/advanced_countermeasures.png,
 target_analysis,Análise de Alvo,70,4,0,,Uma mente humana auxiliada por máquinas é capaz de intuir soluções eficazes apesar de dados de sensores conflitantes e diretrizes táticas contraditórias. O computador de mira sozinho jamais poderá realmente substituir um guerreiro.,"""Sobre o Combate Espacial, 22ª ed."", da biblioteca do Grupo de Batalha XIV do Domínio ",TRUE,,,,graphics/icons/skills/target_analysis2.png,
-ballistic_mastery,Maestria Balística,80,4,0,,"O que deteve a trama da Tri-Tach? (Canhões!)
-O que o velho Ludd esqueceu? (Canhões!)
-O que temos que eles não têm? (Canhões grandes, bem grandes!)",canção de taverna da marinha da Hegemonia,TRUE,,,ballistic_weapons,graphics/icons/skills/ranged_specialization.png,
+ballistic_mastery,Maestria Balística,80,4,0,,"O que impediu a trama do Tri-Tach? (Armas!)
+O que foi que o velho Ludd esqueceu? (Armas!)
+O que temos que eles não têm? (Grandes, grandes armas!)",canção de taverna da marinha da Hegemonia,TRUE,,,ballistic_weapons,graphics/icons/skills/ranged_specialization.png,
 systems_expertise,Perícia em Sistemas,90,5,4,2,"Não, acho que não é uma contradição. É, hum, uma jornada espiritual. Você é posto à prova. E é como dizem: o diabo está nos detalhes.","""Soldados de Ludd"", holodoc, entrevista com engenheiro Caminhante",TRUE,,,,graphics/icons/skills/systems_expertise.png,
 missile_specialization,Especialização em Mísseis,100,5,4,2,"Meus colegas não apreciam a sua excentricidade. Você tem todas essas pequenas naves espaciais para quebrar todas as regras, porque não é preciso sobreviver ao pouso.","Entrevista de desligamento de K. Astraia, ex-projetista de artilharia, Forja Estelar de Culann",TRUE,,,missile_weapons,graphics/icons/skills/missile_specialization2.png,
 ,,,,,,,,,,,,,
 # LEADERSHIP,,,,,,,,,,,,,
 tactical_drills,Exercícios Táticos,500,1,0,,"Perfeito.
-Agora faça de novo.","Cameron Fourth-Phobos, Campo de Tiro de Coatl",,TRUE,,,graphics/icons/skills/weapon_drills.png,
+Agora faça isso de novo.","Cameron Fourth-Phobos, Campo de Tiro de Coatl",,TRUE,,,graphics/icons/skills/weapon_drills.png,
 coordinated_maneuvers,Manobras Coordenadas,520,2,0,,"Senhor - hostis chegando em alta propulsão. Grandes. Contei dois. Não, três. Mais... são muitos! Leitura de alta energia. Contato em seis.","Arquivo de áudio do CIC da HSS Ceraon, recuperado em 189.09.13",,TRUE,,,graphics/icons/skills/coordinated_maneuvers2.png,
 wolfpack_tactics,Táticas de Alcateia,530,2,0,,"Uma frota que age com uma só mente transforma aquelas formações bonitas tão queridas pelos oficiais de gabinete em uma fera atolada na lama, implorando para ter a garganta cortada. Solte os cães de caça para que possamos voltar a ser lobos.","Senhora da Guerra Kanta, citada em ""Meu Ano com a Rainha Pirata""",,TRUE,,,graphics/icons/skills/wolfpack.png,
 crew_training,Treinamento de Tripulação,540,2,0,,"Conheço o seu tipo. Assinou o contrato com a poeira ainda nas botas, pronto para bancar o espaçonauta. Assistiu holos de propaganda de guerra da Hegemonia demais, não foi? Entenda isto agora: coragem não é competência. Bancar o herói vai nos matar a todos. Trabalho cuidadoso e atento é o que faz o serviço.","Chaiya Mimas, divisão de frota da Tri-Tachyon, introdução ao treinamento profissional",,TRUE,,,graphics/icons/skills/crew_training.png,
 fighter_uplink,Enlace de Caças,545,3,0,,"Os pilotos de caça criam lendas em torno de si mesmos, mas são apenas a ponta de uma lança que só eu comando.","Comodoro Jensulte da Marinha da Hegemonia, ~c82",,TRUE,,,graphics/icons/skills/fighter_uplink2.png,
-carrier_group,Grupo de Porta-Aviões,550,3,0,,"As estatísticas nos dizem que eles serão evaporados em uma parede de artilharia antiaérea antes de meia dúzia de missões, mas ainda queremos ser eles. Uma vez na cabine, são os únicos entre todos nós que têm controle sobre o próprio destino.","Projeto de Entrevista no Porto de Nachiketa, Ep.4",,TRUE,,,graphics/icons/skills/carrier_command.png,
+carrier_group,Grupo de Porta-Aviões,550,3,0,,"As estatísticas nos dizem que eles serão evaporados em uma parede de artilharia antiaérea antes de meia dúzia de missões, mas ainda queremos ser eles. Uma vez na cabine, eles são os únicos de todos nós que têm controle sobre seu próprio destino.","Projeto de Entrevista no Porto de Nachiketa, Ep.4",,TRUE,,,graphics/icons/skills/carrier_command.png,
 officer_training,Treinamento de Oficiais,560,4,3,,"Podem ser um ""bando heterogêneo de mercadores, contrabandistas e piratas"", mas, se você der a eles algo pelo que lutar, acho que podem surpreender você.","Navarca Nurul Park, comentário sobre a integração da marinha cibolana",,TRUE,,,graphics/icons/skills/officer_training.png,
 officer_management,Gestão de Oficiais,570,4,3,,"O cenário era sombrio, então prometi aos capitães mercenários um bônus de combate em dobro. Com todas as baixas, só precisei pagar a metade deles. Deu tudo certo.","Carson Kang, gerente da divisão de frota Valhalla, Tri-Tachyon",,TRUE,,,graphics/icons/skills/officer_management.png,
 best_of_the_best,O Melhor dos Melhores,580,5,4,2,"O que temos, Artemisia, é algo que não se pode comprar.",Orcus Rao nas negociações que encerraram a Segunda Guerra das IAs (apócrifo),,TRUE,,,graphics/icons/skills/best_of_the_best.png,
@@ -34,9 +34,9 @@ navigation,Navegação,1000,1,0,0,Passe tempo suficiente aqui fora e isso se tor
 sensors,Sensores,1010,1,0,0,"Eu vejo você, peixinho!","Buffer de comunicação da ISS Green Flash, recuperado em órbita de Beta Zuma B",,,,,graphics/icons/skills/sensors.png,
 gunnery_implants,Implantes de Artilharia,1020,2,1,0,"Com o tempo, a realidade aumentada apresentada pelos implantes pode se tornar difícil de distinguir da entrada sensorial normal. O oficial de psicologia deve verificar regularmente os artilheiros em busca de sinais de Transtorno Dissociativo de Aumento pelos seguintes critérios...",Uma Nova Estrutura de Liderança: Manual para Oficiais da Hegemonia,TRUE,,,,graphics/icons/skills/gunnery_implants.png,
 energy_weapon_mastery,Maestria em Armas de Energia,1030,2,1,0,"O olho de um anjo foi encontrado nos pequenos lugares, escondido ali por Deus misericordioso nos primeiros momentos da criação. Assim, seus segredos foram expostos para que os ignorantes e cruéis desencadeassem uma fúria terrível e ardente. Lamentamos.",Textos Sagrados de Ludd,TRUE,,,energy_weapons,graphics/icons/skills/energy_weapon_mastery.png,
-electronic_warfare,Guerra Eletrônica,1040,4,2,0,"err. 401 // conexão recusada [tentar novamente?]
-err. 401 // conexão recusada [tentar novamente?]
-err. 401 // conexão recusada [tentar novamente?]","Celadon Immeasurable, alfa",,TRUE,,,graphics/icons/skills/EW.png,
+electronic_warfare,Guerra Eletrônica,1040,4,2,0,"errar. 401 // conexão recusada [tentar novamente?]
+errar. 401 // conexão recusada [tentar novamente?]
+errar. 401 // conexão recusada [tentar novamente?]","Celadon Immeasurable, alfa",,TRUE,,,graphics/icons/skills/EW.png,
 flux_regulation,Regulação de Fluxo,1060,4,2,0,"AVISO: Ao alterar estas configurações, o usuário isenta a Tri-Tachyon Corporation de qualquer responsabilidade por danos ao equipamento, lesões, morte ou quaisquer efeitos anômalos no espaço-tempo resultantes. Deseja continuar?","Corporação Tri-Tachyon, licença padrão",,TRUE,,,graphics/icons/skills/flux_dynamics.png,
 cybernetic_augmentation,Aumento Cibernético,1080,5,4,2,Não dê ouvidos àqueles criptoluditas chorões do conselho de ética; a taxa de rejeição está longe do que os rumores sugerem.,"""Doutor"" Wyatt Cydonia (pseudônimo), interceptação do COMSEC",,TRUE,,,graphics/icons/skills/cybernetic_augmentation.png,
 phase_corps,Sintonia de Bobinas de Fase,1070,4,2,0,"A Tri-Tachyon arromba a santa criação diariamente, e a cada profanação nossa condenação em massa se aproxima. Nosso caminho é um fardo; nosso caminho é sofrimento. Nós os enfrentaremos com a fé de que a única redenção é o juízo final.","Livewell Cotton, terrorista do Caminho Luddita, sermão de c205.2.12",,TRUE,,,graphics/icons/skills/phase_corps.png,
@@ -47,11 +47,11 @@ automated_ships,Naves Automatizadas,1090,5,4,2,[REDIGIDO],COMSEC da Hegemonia,,,
 ,,,,,,,,,,,,,
 # INDUSTRY,,,,,,,,,,,,,
 bulk_transport,Transporte em Massa,1500,1,0,,"Você não pode escapar da economia mais do que pode escapar da gravidade. Ela nos cerca, nos contém, nos eleva. Certa vez, ela uniu a galáxia, e voltará a fazê-lo.","Artemisia Sun, Relatório Anual de c203",,,,,graphics/icons/skills/bulk_transport.png,
-salvaging,Resgate,1510,1,0,,"Isso me faz sentir muito pequeno, como vermes saqueando as cidades de anjos caídos.
-Isso também me deixa rico.","Zion Hurst, jornaleiro da Guilda de Resgate de Asher",,,,,graphics/icons/skills/salvaging.png,
+salvaging,Resgate,1510,1,0,,"Isso me faz sentir muito pequeno, como se fôssemos vermes saqueando as cidades dos anjos caídos.
+Também me deixa rico.","Zion Hurst, jornaleiro da Guilda de Resgate de Asher",,,,,graphics/icons/skills/salvaging.png,
 field_repairs,Reparos em Campo,1520,1,0,,Não há ninguém num raio de vinte anos-luz que não tenha ossos cruzados gravados no casco. Temos apenas nossa habilidade e o que encontrarmos naquele campo de destroços para nos tirar daqui.,"Callisto Ibrahim, registro de expedição c202.10.15",,,,,graphics/icons/skills/field_repairs.png,
 ordnance_expert,Perícia em Artilharia,1530,3,1,,Os fracos temem a potência espiritual da máquina de matar. Os fortes reconhecem instintivamente sua beleza.,Citações do Executor Supremo,TRUE,,,,graphics/icons/skills/ordnance_expert2.png,
-polarized_armor,Blindagem Polarizada,1540,3,1,,"Os manuais pré-Colapso dizem para nunca fazer isso. ... Não, eu não sei. Não tive nenhum problema até agora.","chefe de engenharia Kasi Thea-Radiative, entrevista com holocâmera oculta",TRUE,,,,graphics/icons/skills/polarized_armor.png,
+polarized_armor,Chapeamento Polarizado,1540,3,1,,"Os manuais pré-Colapso dizem para nunca fazer isso. ... Não, eu não sei. Não tive nenhum problema até agora.","chefe de engenharia Kasi Thea-Radiative, entrevista com holocâmera oculta",TRUE,,,,graphics/icons/skills/polarized_plating.png,
 containment_procedures,Procedimentos de Contenção,1550,4,2,,"Verifique cada selo três vezes, para que a Morte não venha buscar você.",Tradição espacial,,,,,graphics/icons/skills/containment_procedures.png,
 makeshift_equipment,Equipamento Improvisado,1560,4,2,,Acho que deixamos as peças de reposição em órbita. Vai ficar tudo bem... [chiado] ... é só observar.,"transcrição de backup de áudio, Jericho Wheeler, líder da equipe ""H"" da expedição",,,,,graphics/icons/skills/makeshift_equipment.png,
 industrial_planning,Planejamento Industrial,1570,4,2,,"Um mundo árido, mas promissor, bem situado para se tornar o centro da cultura e da indústria de Magec. Os modelos do SIE projetam um vasto investimento na exploração de recursos do Disco de Guayota.","Memorando de desenvolvimento estratégico da Tri-Tachyon, pré-Colapso",,,TRUE,,graphics/icons/skills/industrial_planning.png,
@@ -63,8 +63,8 @@ hull_restoration,Restauração de Casco,1580,5,4,2,Não há casco que um verdade
 ,,,,,,,,,,,,,
 # Misc non-player,,,,,,,,,,,,,
 omega_ecm,Guerra Eletrônica Ômega,10000,0,,,,,,,,npc_only,graphics/icons/skills/EW.png,
-hypercognition,Hipercognição,10001,0,,,"Uma máquina ilimitada, alimentada com cada dado e cada pensamento humano, para combinar e recombinar em variantes além da conta. Pergunte, e uma resposta adequada é produzida.
-No entanto, não me sinto satisfeito de que ser enganado comprove uma proposição tão grandiosa.","""A Longa Estrada para Gilead"", de Anônimo",,,TRUE,"npc_only, ai_core_only, codex_unlockable",graphics/icons/skills/hypercognition.png,
+hypercognition,Hipercognição,10001,0,,,"Uma máquina ilimitada que recebeu todos os dados, todos os pensamentos humanos para combinar e recombinar em variantes incontáveis. Pergunte e uma resposta apropriada será produzida.
+No entanto, não estou convencido de que ser enganado seja uma proposta tão grandiosa.","""A Longa Estrada para Gilead"", de Anônimo",,,TRUE,"npc_only, ai_core_only, codex_unlockable",graphics/icons/skills/hypercognition.png,
 ,,,,,,,,,,,,,
 ,,,,,,,,,,,,,
 ,,,,,,,,,,,,,
@@ -72,8 +72,8 @@ No entanto, não me sinto satisfeito de que ser enganado comprove uma proposiç�
 ,,,,,,,,,,,,,
 "# removed in 0.95.1a, but kept around for save compatibility",,,,,,,,,,,,,
 space_operations,Operações Espaciais,590,5,4,2,As mesmas estrelas são vistas no céu de todos os mundos.,Carta de fundação da Liga Perseana,,,,"npc_only, deprecated",graphics/icons/skills/space_ops.png,
-planetary_operations,Operações Terrestres,600,5,4,2,"A lama? Não me incomoda. Os espaçonautas sempre reclamam da lama.
-O que eu não suporto é o sangue.","Griffin Sweet, fuzileiro mercenário",,,,"npc_only, deprecated",graphics/icons/skills/planetary_ops.png,
+planetary_operations,Operações Terrestres,600,5,4,2,"A lama? Eu não me importo. Os espaçadores sempre falam sobre lama.
+É o sangue que não suporto.","Griffin Sweet, fuzileiro mercenário",,,,"npc_only, deprecated",graphics/icons/skills/planetary_ops.png,
 colony_management,Gestão de Colônias,1590,5,4,2,"Onde há vida, aí está o trono de Deus, e tudo o que é bom pode ser encontrado ali.",Textos Sagrados de Ludd,,,,"npc_only, deprecated",graphics/icons/skills/colony_management.png,
 strike_commander,Comandante de Ataque,20,1,0,,"Você vai voar, e será uma tempestade como nunca se viu. Você é um raio vindo para rachar o próprio céu!","Navarca Mars Kato, discurso às tripulações de bombardeiros do Sirocco
 ",TRUE,,,"carrier, spec, npc_only, deprecated",graphics/icons/skills/strike_commander.png,
@@ -81,9 +81,9 @@ ranged_specialization,Especialização em Alcance,60,3,0,,Vê esta solução de 
 shield_modulation,Modulação de Escudos,70,4,0,,"Poucos têm talento para o que eu gosto de chamar de ""sintonia ativa"". Acho que os músicos são os melhores oficiais de escudo.","Ardis Soloman, dados vazados submetidos ao algoritmo de redação do COMSEC",TRUE,,,"npc_only, deprecated",graphics/icons/skills/defensive_systems.png,
 phase_mastery,Maestria em Fase,80,4,0,,"Não vou voltar àquela nave, de jeito nenhum.","Registro de conselho de guerra, [REDIGIDO], datado de ~c196?",TRUE,,,"phase, spec, elite_player_only, npc_only, deprecated",graphics/icons/skills/phase_mastery.png,
 reliability_engineering,Engenharia de Confiabilidade,1530,2,0,,"No fim, com o tempo e a radiação, meu corpo vai morrer. Meus camaradas me devolverão às estrelas que me criaram, e minha nave continuará.",Tradição espacial,TRUE,,,"npc_only, deprecated",graphics/icons/skills/reliability_engineering.png,
-weapon_drills,Exercícios de Armas,500,1,0,,"O que deteve a trama da Tri-Tach? (Canhões!)
-O que o velho Ludd esqueceu? (Canhões!)
-O que temos que eles não têm? (Canhões grandes, bem grandes!)",canção de taverna da marinha da Hegemonia,,,,"npc_only, deprecated",graphics/icons/skills/weapon_drills.png,
+weapon_drills,Exercícios de Armas,500,1,0,,"O que impediu a trama do Tri-Tach? (Armas!)
+O que foi que o velho Ludd esqueceu? (Armas!)
+O que temos que eles não têm? (Grandes, grandes armas!)",canção de taverna da marinha da Hegemonia,,,,"npc_only, deprecated",graphics/icons/skills/weapon_drills.png,
 auxiliary_support,Apoio Auxiliar,510,1,0,,Sem reservas? Olhe ao seu redor! Há mil naves capazes de voo espacial nos portos civis e um bilhão de cidadãos nas arcologias. Basta abrir os estoques e dar-lhes armas antes que a invasão chegue.,Baikal Daud na Defesa de Chicomoztoc,,,,"npc_only, deprecated",graphics/icons/skills/auxiliary_support.png,
 ,,,,,,,,,,,,,
 ,,,,,,,,,,,,,

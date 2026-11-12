@@ -1,0 +1,45 @@
+{
+    "displayName": "Restrito",
+    "fluxCapacitors": 24,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "radiant",
+    "hullMods": [
+        "targetingunit",
+        "hardenedshieldemitter",
+        "shrouded_mantle",
+        "advancedoptics",
+        "fluxdistributor",
+        "fluxbreakers"
+    ],
+    "permaMods": [
+        "fluxdistributor",
+        "hardenedshieldemitter"
+    ],
+    "sMods": [
+        "fluxdistributor",
+        "hardenedshieldemitter"
+    ],
+    "variantId": "radiant_Restricted",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "abyssal_glare",
+                "WS 001": "abyssal_glare",
+                "WS 002": "abyssal_glare",
+                "WS 003": "abyssal_glare",
+                "WS 004": "abyssal_glare"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 013": "inimical_emanation",
+                "WS 014": "inimical_emanation"
+            }
+        }
+    ]
+}

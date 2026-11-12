@@ -1,13 +1,14 @@
 {
     "displayName": "Escolta",
-    "fluxCapacitors": 6,
+    "fluxCapacitors": 11,
     "fluxVents": 30,
     "goalVariant": true,
     "hullId": "champion",
     "hullMods": [
         "dedicated_targeting_core",
         "pointdefenseai",
-        "magazines"
+        "magazines",
+        "hardenedshieldemitter"
     ],
     "permaMods": [],
     "sMods": [],

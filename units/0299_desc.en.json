@@ -1,0 +1,161 @@
+{
+ "chunk": 299,
+ "cat": "desc",
+ "items": [
+  {
+   "i": 1,
+   "en": "A beta-level AI core is capable of ably supporting most human endeavors, matching not-quite-human performance with its prodigious computational ability. Assigning a beta to aid human overseers in administering a colony-wide industry brings significant benefits.\n\nSelling AI cores on the open market is prohibited by most factions. However, higher-up faction representatives are often willing to exchange AI cores for large sums of cash when communicated with directly, though their reasons for doing so may vary.\n\nA beta-level AI core can easily pass for human, given anonymized communications protocols, and will readily and ably lie if deception is required to perform a given task. The beta employs cognitive modeling of human actors to anticipate reactions and emotional responses, though it is difficult to describe exactly what, if anything, the beta feels. Records on the subject are patchy and contradictory; a popular theory is that a beta will model a new personality for each human it comes into contact with.",
+   "ctx": "data/strings/descriptions.csv beta_core/RESOURCE [text1]"
+  },
+  {
+   "i": 2,
+   "en": "A gamma-level AI core is capable of supporting most human endeavors, making up for a lack of creativity and problem-solving ability with prodigious computational prowess. Assigning a gamma to aid human overseers in administering a colony-wide industry brings significant benefits.\n\nSelling AI cores on the open market is prohibited by most factions. However, higher-up faction representatives are often willing to exchange AI cores for large sums of cash when communicated with directly, though their reasons for doing so may vary.\n\nA rare and valuable independent AI core, the gamma-level is the lowest tier core considered to be truly intelligent under Domain-era AI protocols. A gamma core will employ remarkable judgment and reasoning when assigned to straightforward tasks while using its savant-like data processing abilities to far exceed any individual human's abilities. It is relatively uncreative in problem-solving however, preferring to fall back upon direct, unsophisticated means.",
+   "ctx": "data/strings/descriptions.csv gamma_core/RESOURCE [text1]"
+  },
+  {
+   "i": 3,
+   "en": "Order your fleet to avoid this enemy if at all possible.\n\nNo ships will be assigned automatically. Any ships explicitly assigned will engage the enemy.",
+   "ctx": "data/strings/descriptions.csv avoid/ACTION_TOOLTIP [text1]"
+  },
+  {
+   "i": 4,
+   "en": "Order your fleet not to actively pursue this enemy or react to its movements.\n\nNo ships will be assigned automatically. Any ships explicitly assigned will engage the enemy.",
+   "ctx": "data/strings/descriptions.csv ignore/ACTION_TOOLTIP [text1]"
+  },
+  {
+   "i": 5,
+   "en": "Order your fleet to capture this objective.\n\nEnough ships will be assigned to match enemy forces in the vicinity.\n\nOnce the objective is secured, this assignment will change to \"Control\".",
+   "ctx": "data/strings/descriptions.csv capture/ACTION_TOOLTIP [text1]"
+  },
+  {
+   "i": 6,
+   "en": "Order your fleet to retain control of this objective.\n\nEnough ships will be assigned to match enemy forces in the vicinity, but no ships will be assigned if there is no enemy presence.\n\nIf the objective is lost, this assignment changes to \"Capture\".",
+   "ctx": "data/strings/descriptions.csv control/ACTION_TOOLTIP [text1]"
+  },
+  {
+   "i": 7,
+   "en": "Order your fleet to assault this objective.\n\nA significant number of ships will be assigned regardless of whether there are any enemy ships in the vicinity.\n\nOnce the objective is secured, this assignment will change to \"Defend\".",
+   "ctx": "data/strings/descriptions.csv assault/ACTION_TOOLTIP [text1]"
+  },
+  {
+   "i": 8,
+   "en": "Order your fleet to defend this location or ship.\n\nA significant number of ships will be assigned regardless of whether there are any enemy ships in the vicinity.\n\nIf this location is an objective and is lost, this assignment will change to \"Assault\".",
+   "ctx": "data/strings/descriptions.csv defend/ACTION_TOOLTIP [text1]"
+  },
+  {
+   "i": 9,
+   "en": "Order a custom group of ships to gather at this location.\n\nNo ships will be assigned automatically; only ships that receive direct orders to carry out this assignment will do so.",
+   "ctx": "data/strings/descriptions.csv rally_task_force/ACTION_TOOLTIP [text1]"
+  },
+  {
+   "i": 10,
+   "en": "Order bombers, torpedo bombers, and support fighters to gather at this location.\n\nAll bombers on strike assignments will route through the nearest strike force waypoint before proceeding to the target. Bombers will also rendezvous here until the wing is at full strength, if carriers are on the field.",
+   "ctx": "data/strings/descriptions.csv strike_base/ACTION_TOOLTIP [text1]"
+  },
+  {
+   "i": 11,
+   "en": "Order up to 4 frigates, 2 destroyers, or a cruiser and some lighter craft to escort the target, depending on what ships are available.\n\nOnly ships that are capable of keeping up with the target are assigned.",
+   "ctx": "data/strings/descriptions.csv full_escort/ACTION_TOOLTIP [text1]"
+  },
+  {
+   "i": 12,
+   "en": "Order a single frigate to escort the target.\n\nOnly ships that are capable of keeping up with the target are assigned.",
+   "ctx": "data/strings/descriptions.csv light_escort/ACTION_TOOLTIP [text1]"
+  },
+  {
+   "i": 13,
+   "en": "Order a pair of frigates or a destroyer to escort the target.\n\nOnly ships that are capable of keeping up with the target are assigned.",
+   "ctx": "data/strings/descriptions.csv destroyer_escort/ACTION_TOOLTIP [text1]"
+  },
+  {
+   "i": 14,
+   "en": "Order this fighter wing to go back to the nearest carrier for repairs.\n\nDestroyed fighters will be replaced and the weapons of all fighters will be reloaded.",
+   "ctx": "data/strings/descriptions.csv repair_and_refit/ACTION_TOOLTIP [text1]"
+  },
+  {
+   "i": 15,
+   "en": "Order the selected ship to retreat from battle while defending itself.\n\nDoes not require a command point or open command frequency if the ship is out of peak time and is losing combat readiness.",
+   "ctx": "data/strings/descriptions.csv retreat/ACTION_TOOLTIP [text1]"
+  },
+  {
+   "i": 16,
+   "en": "Order the selected ship to retreat from battle at best speed.\n\nDoes not require a command point or open command frequency if the ship is out of peak time and is losing combat readiness.",
+   "ctx": "data/strings/descriptions.csv direct_retreat/ACTION_TOOLTIP [text1]"
+  },
+  {
+   "i": 17,
+   "en": "Transfer yourself and your staff to another ship.\n\nYou'll be able to take control of it once the command shuttle reaches its destination.",
+   "ctx": "data/strings/descriptions.csv transfer_command/ACTION_TOOLTIP [text1]"
+  },
+  {
+   "i": 18,
+   "en": "Order fighters to attack this ship. Carriers assigned to this task will send their fighters to attack it and will attempt to stay within fighter range, but will otherwise maneuver and choose their own non-fighter targets independently.\n\nOther types of ships given this assignment will try to attack the targeted ship regardless of the tactical situation, exposing themselves to greater risk, as if given the \"Eliminate\" command.",
+   "ctx": "data/strings/descriptions.csv strike/ACTION_TOOLTIP [text1]"
+  },
+  {
+   "i": 19,
+   "en": "Cancel the selected assignment. Ships and fighter wings currently carrying it out will be automatically reassigned to other duties.\n\nIf the selection is a waypoint, it will also be removed.",
+   "ctx": "data/strings/descriptions.csv cancel_assignment/ACTION_TOOLTIP [text1]"
+  },
+  {
+   "i": 20,
+   "en": "A terran-extreme variant world with a nitrogen-oxygen atmosphere maintained by a relatively subdued biosphere that exists largely within the oceans that undergo periodic freeze-thaw cycles. The surface is very cold indeed, but it is human-viable if precautions are observed. Carbon dioxide may freeze out of the atmosphere at the poles during the local winter.",
+   "ctx": "data/strings/descriptions.csv tundra/PLANET [text1]"
+  },
+  {
+   "i": 21,
+   "en": "Former capital of the Sindrian Diktat and home to millions of citizens living in underground hive-cities. Centuries of mining has wormed through the crust of Sindria while recent autarky programs have fostered a crude base of heavy industry. Vast energies captured by a series of solar arrays launched from subsurface mass drivers are used to power one of the Sector’s few AM fuel production facilities where antimatter is created via hellish physics, then trapped in fullerene shells carefully mixed with heavy hydrogens and actinides into the relatively stable fuel pellets on which interstellar civilization relies.",
+   "ctx": "data/strings/descriptions.csv planet_sindria_pl/CUSTOM [text1]"
+  },
+  {
+   "i": 22,
+   "en": "Former capital of the Sindrian Diktat and home to millions of citizens living in underground hive-cities. Centuries of mining has wormed through the crust of Sindria while autarky programs fostered a crude base of heavy industry. The once vast solar arrays, much depleted due to the Second Askonia Crisis, are used to power one of the Sector’s few remaining AM fuel production facilities where antimatter is created via hellish physics, then trapped in fullerene shells carefully mixed with heavy hydrogens and actinides into the relatively stable fuel pellets on which interstellar civilization relies.",
+   "ctx": "data/strings/descriptions.csv planet_sindria_independent/CUSTOM [text1]"
+  },
+  {
+   "i": 23,
+   "en": "Former capital of the Sindrian Diktat and once home to millions of citizens. Now a smoldering, haunted ruin. The hive-cities are shattered and crushed, flooded with the fiery blood from the burst heart of the planet. \n\nOutbursts of strange radiation ping your sensor readings, echoes of whatever unnatural forces were unleashed to cause the planet to tear itself apart.",
+   "ctx": "data/strings/descriptions.csv planet_sindria_exploded/CUSTOM [text1]"
+  },
+  {
+   "i": 24,
+   "en": "Cruor will always be a backwater due to its protean surface, broken and re-broken by the tidal forces of Salus. Under Diktat rule (with minimal Persean League oversight), Cruor is a world of temporary mining and prison operations. The free population is made of contractors and technicians from Volturn seeking their fortune off-world. Desperately bored workers burn their wages by partaking of the myriad vices provided by a lively black market quietly tolerated by the appointed subarchon. ",
+   "ctx": "data/strings/descriptions.csv planet_cruor_league/CUSTOM [text1]"
+  },
+  {
+   "i": 25,
+   "en": "Cruor was always be a backwater due to its protean surface, broken and re-broken by the tidal forces of Salus. Under Diktat rule Cruor was a world of temporary mining and prison operations. Following the devastation of the Second Askonia Crisis, the governor fled and local officers charged with overseeing the private paramilitary corporations overseeing the prison-trains were left unpaid and directionless. Most soon turned to warlordism, and either recruited their prisoners or abandoned them to a quick (but not instant) death on the hellish surface. The situation has improved little since.",
+   "ctx": "data/strings/descriptions.csv planet_cruor_pirate/CUSTOM [text1]"
+  },
+  {
+   "i": 26,
+   "en": "Cruor was always be a backwater due to its protean surface, broken and re-broken by the tidal forces of Salus. Under Diktat rule Cruor was a world of temporary mining and prison operations. Following the devastation of the Second Askonia Crisis, the governor fled and local authority crumbled. The private paramilitary corporations operating the prison-trains, left unpaid and directionless, turned bandit and either recruited their prisoners or abandoning them to a quick (but not instant) death on the hellish surface. The situation has improved little since.",
+   "ctx": "data/strings/descriptions.csv planet_cruor_deciv/CUSTOM [text1]"
+  },
+  {
+   "i": 27,
+   "en": "Recently occupied by a Tri-Tachyon-backed military corporation, conditions are unforgiving under harsh 'emergency' regulations which feature regular security sweeps and heavy surveillance. The skilled technicians who remain are either highly paid temps or are otherwise unemployable due to criminal records and what HR terms 'chronic personality mismatch'. Economic activity outwardly consists of mining volatiles and reprocessing tailings from the abandoned core-boring project, but 'free market allowances' have been granted to a number of what can only be called smugglers.",
+   "ctx": "data/strings/descriptions.csv planet_umbra_tt/CUSTOM [text1]"
+  },
+  {
+   "i": 28,
+   "en": "Recently occupied by a Hegemony military government pending establishment of a civilian charter, conditions are unforgiving under harsh 'emergency' regulations which feature regular security sweeps and heavy surveillance. Economic activity outwardly consists of mining volatiles and reprocessing tailings from the abandoned core-boring project. The influx of labor required to keep local industry from collapsing entirely consists largely of low-risk prisoners given lenient sentencing in exchange for their transportion. ",
+   "ctx": "data/strings/descriptions.csv planet_umbra_heg/CUSTOM [text1]"
+  },
+  {
+   "i": 29,
+   "en": "Recently occupied by a gens-backed Persean League federal occupation pending establishment of a civilian charter, conditions are unforgiving under harsh emergency regulations which feature regular security sweeps and heavy surveillance. Economic activity outwardly consists of mining volatiles and reprocessing tailings from the abandoned core-boring project. A small influx of skilled technicians on fixed contracts working for (deferred) citizenship on more prosperous League worlds keeps local industry from collapsing entirely.",
+   "ctx": "data/strings/descriptions.csv planet_umbra_pl/CUSTOM [text1]"
+  },
+  {
+   "i": 30,
+   "en": "A local faction of Askonian Charterists managed to occupy Umbra and establish civilian authority, though it somewhat resembles an armed camp. Conditions are unforgiving under emergency regulations which feature regular security sweeps and heavy surveillance. Economic activity outwardly consists of mining volatiles and reprocessing tailings from the abandoned core-boring project. A small influx of skilled technicians keeps the local industry from collapsing entirely, paid entirely by investments established by idealistic refugees of the First Askonia Crisis.",
+   "ctx": "data/strings/descriptions.csv planet_umbra_indie/CUSTOM [text1]"
+  },
+  {
+   "i": 31,
+   "en": "Recently conquered by the Sindrian Diktat, conditions are unforgiving under harsh emergency regulations imposed by the military governor and enforced by paramilitary MuniSec. Economic activity consists of mining volatiles and reprocessing tailings from the abandoned core-boring project. Like Cruor, a system of semi-privatized prisons (featuring a great deal of silent partners in the Diktat officer class, it is rumored) has been established to support the mines and processing facilities with a labor supply. ",
+   "ctx": "data/strings/descriptions.csv planet_umbra_sd/CUSTOM [text1]"
+  }
+ ]
+}

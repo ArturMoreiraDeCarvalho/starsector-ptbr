@@ -8,14 +8,31 @@
 	"tags":["XIV_bp", "hist3t"],
 	"tech":"Grupo de Batalha XIV",
 	"fleetPoints":35,
-	"ordnancePoints":370,
+	"ordnancePoints":350,
+	"suppliesToRecover":45,
+	"suppliesPerMonth":45,
 	"baseValueMult":1.75,
 	"spriteName":"graphics/ships/onslaught/onslaught_hegemony.png",
 	"removeWeaponSlots":[], 		# ids
 	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
 	"removeBuiltInMods":[], 		# hullmod ids
 	"removeBuiltInWeapons":[], 		# weapon slot ids
-	"builtInMods":["fourteenth"],
+	"builtInMods":["fourteenth", "armoredweapons"],
+   	"weaponSlotChanges":{
+	   "WS 021":{
+		  "type": "COMPOSITE",
+	   },
+	   "WS 022":{
+		  "type": "COMPOSITE",
+	   },
+	   "WS 023":{
+		  "type": "COMPOSITE",
+	   },
+	   "WS 024":{
+		  "type": "COMPOSITE",
+	   },
+	},	
 	"builtInWeapons":{
      },
 }
+

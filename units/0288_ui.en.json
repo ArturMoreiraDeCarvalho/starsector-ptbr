@@ -1,0 +1,26 @@
+{
+ "chunk": 288,
+ "cat": "ui",
+ "items": [
+  {
+   "i": 1,
+   "en": "Despite retreating from the last engagement, your forces have disrupted the enemy, and have a window of opportunity to recover lost ships and disengage without being pursued.",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.playerDisruptedEnemy"
+  },
+  {
+   "i": 2,
+   "en": "recover lost ships and disengage without being pursued",
+   "ctx": "data/strings/strings.json fleetInteractionDialog.highlightDisengage"
+  },
+  {
+   "i": 3,
+   "en": "Buy this %s for %s credits.",
+   "ctx": "data/strings/tooltips.json fleetScreen.tooltipBuy.body"
+  },
+  {
+   "i": 4,
+   "en": "Sell this %s for %s credits.",
+   "ctx": "data/strings/tooltips.json fleetScreen.tooltipSell.body"
+  }
+ ]
+}

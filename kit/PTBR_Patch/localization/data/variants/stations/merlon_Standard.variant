@@ -5,7 +5,7 @@
     "hullId": "merlon",
     "hullMods": ["turretgyros"],
     "permaMods": [],
-    "quality": 0.5,
+    "sMods": [],
     "variantId": "merlon_Standard",
     "weaponGroups": [
         {
@@ -23,5 +23,6 @@
                 "WS 004": "vulcan"
             }
         }
-    ]
+    ],
+    "wings": []
 }

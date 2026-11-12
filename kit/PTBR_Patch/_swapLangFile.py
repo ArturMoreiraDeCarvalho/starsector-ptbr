@@ -32,7 +32,7 @@ MANIFESTO = os.path.join(BKP, "_manifesto.json")
 ORIGINAIS = os.path.join(KIT, "hashes_originais.json")
 MESCLA = os.path.join(KIT, "mescla.dat")
 ANTERIORES = os.path.join(KIT, "hashes_anteriores.json")
-VERSAO = "1.2.1"
+VERSAO = "1.3.0"
 
 
 def sha256(caminho):
@@ -179,7 +179,7 @@ def aplicar_pt(jogo):
 
 
 def versao_compativel(jogo):
-    """O jar principal precisa ser o original da 0.98a-RC8, o traduzido, ou já ter original guardado."""
+    """O jar principal precisa ser o original da 0.98.5a-RC4, o traduzido, ou já ter original guardado."""
     original = ler_json(ORIGINAIS, {}).get("starfarer_obf.jar")
     if not original:
         return True
@@ -226,7 +226,7 @@ def voltar_en(jogo):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Troca a tradução PT-BR e o inglês do Starsector 0.98a-RC8."
+        description="Troca a tradução PT-BR e o inglês do Starsector 0.98.5a-RC4."
     )
     parser.add_argument(
         "acao", nargs="?", choices=["pt", "en"],
@@ -236,7 +236,7 @@ def main():
         "--game", help="pasta starsector-core, se não estiver ao lado desta pasta"
     )
     args = parser.parse_args()
-    print(f"Tradução PT-BR do Starsector 0.98a-RC8 (kit v{VERSAO})")
+    print(f"Tradução PT-BR do Starsector 0.98.5a-RC4 (kit v{VERSAO})")
 
     jogo = args.game or os.path.normpath(os.path.join(KIT, "..", "starsector-core"))
     if not os.path.isfile(os.path.join(jogo, "starfarer_obf.jar")):
@@ -250,8 +250,8 @@ def main():
             print("Pasta localization não encontrada.")
             return 1
         if not versao_compativel(jogo):
-            print("Este kit é para o Starsector 0.98a-RC8, e o seu jogo parece ser de outra versão")
-            print("(o arquivo starfarer_obf.jar não é o da 0.98a-RC8). Nada foi alterado.")
+            print("Este kit é para o Starsector 0.98.5a-RC4, e o seu jogo parece ser de outra versão")
+            print("(o arquivo starfarer_obf.jar não é o da 0.98.5a-RC4). Nada foi alterado.")
             return 1
         try:
             trocados, recusados, parciais, atualizados = aplicar_pt(jogo)

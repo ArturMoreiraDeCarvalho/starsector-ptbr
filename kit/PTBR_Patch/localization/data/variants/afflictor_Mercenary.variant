@@ -1,0 +1,44 @@
+{
+    "displayName": "Mercenário",
+    "fluxCapacitors": 10,
+    "fluxVents": 3,
+    "goalVariant": true,
+    "hullId": "afflictor",
+    "hullMods": [
+        "hardened_subsystems",
+        "auxiliarythrusters",
+        "fluxcoil",
+        "phase_anchor",
+        "targetingunit"
+    ],
+    "permaMods": [
+        "hardened_subsystems",
+        "auxiliarythrusters",
+        "fluxcoil"
+    ],
+    "sMods": [
+        "hardened_subsystems",
+        "auxiliarythrusters",
+        "fluxcoil"
+    ],
+    "variantId": "afflictor_Mercenary",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "lightneedler",
+                "WS 003": "lightneedler",
+                "WS 006": "lightneedler"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "reaper",
+                "WS 004": "reaper"
+            }
+        }
+    ]
+}

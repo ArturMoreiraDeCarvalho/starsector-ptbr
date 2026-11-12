@@ -1,0 +1,111 @@
+{
+ "chunk": 300,
+ "cat": "desc",
+ "items": [
+  {
+   "i": 1,
+   "en": "Temporarily increases the damage taken by the target ship. Generates a large amount of flux when used.\n\nThe duration of the effect is in the reference frame of the source ship; if it phases or otherwise experiences an altered time rate, the duration of the effect will be likewise affected for outside observers.",
+   "ctx": "data/strings/descriptions.csv entropyamplifier/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 2,
+   "en": "Interferes with the target ship's drive field, disabling some engines.\n\nGenerally does not cause a flameout when used against a ship with its engines fully operational, but may do so depending on the engine configuration, as it will always knock out at least one active engine.",
+   "ctx": "data/strings/descriptions.csv interdictor/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 3,
+   "en": "Briefly overloads a nearby enemy ship.\n\nExploits weakly acausal principles poorly understood even before the Collapse. In the present day, the effects may as well be magic.",
+   "ctx": "data/strings/descriptions.csv acausaldisruptor/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 4,
+   "en": "Speeds up the flow of time on board the ship. Generates a significant amount of flux when used.\n\nResearch on prolonged exposure to the effect was described as 'worrying' and quietly halted.",
+   "ctx": "data/strings/descriptions.csv temporalshell/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 5,
+   "en": "Activates an EMP generator. Nearby missiles, fighters, weapon emplacements and engines of enemy ships are all targeted and can be disabled in short order.\n\nUnfortunately, on-board weapon systems must be shut down to provide power for this device. The EMP pulses are also not very effective against enemy shields.",
+   "ctx": "data/strings/descriptions.csv emp/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 6,
+   "en": "Temporarily moves the ship into an alternate dimension known as p-space. The ship can still be detected by its phase coil emissions, but can not be hit by any weapons. Flux can not be dissipated in p-space, resulting in a constant buildup that forces the ship to come back to normal space eventually. Subjective time passes more quickly for the ship and its crew while in p-space.\n\nThe phase cloak generator is large and has significant power requirements, and so generally replaces shields as a ship's primary means of defense.",
+   "ctx": "data/strings/descriptions.csv phasecloak/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 7,
+   "en": "Deploys a single advanced drone that features a phase cloak, a modified phase skimmer, and an arsenal of weapons that would be impressive even on a heavy fighter.\n\nEven more impressive is the mini-fac that's capable of producing replacement drones in combat, ensuring that the host ship is not without escort for long.\n\nThe drone also possesses an aggressive delta-level AI personality that allows it to roam much farther from the mothership than most other drone systems - that are either entirely on remote-control, or feature a sub-gamma personality at best.\n\nThis design is also unique in that it was created through the cooperation of two rival corporations. Fabrique Orbitale provided the chassis and system designs, while Tri-Tachyon experts were responsible for the controlling AI.",
+   "ctx": "data/strings/descriptions.csv drone_terminator/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 8,
+   "en": "Fires a voltaic arc at the targeted ship, powering and activating certain ship systems.\n\nWhen targeting an enemy ship, deals EMP damage. Can hit, and briefly overloads phased targets.",
+   "ctx": "data/strings/descriptions.csv energy_lash/SHIP_SYSTEM [text1]"
+  },
+  {
+   "i": 9,
+   "en": "This asteroid habitat was taken by a wildly ambitious Domain logistics officer, Colonel Kanta, during the collapse of the Maxios Charter polity not long after the fall of the Gates. She subsequently joined with the Domain successor-state Hegemony only to betray them to cut a deal with the Warlord Onesimos Loke during his invasion of the Persean Sector. After Loke was defeated, Kanta took the title of warlord for herself.\n\nThe station is protected by a cloud of stealth-mines and crude firebases. Kanta herself, now rumored to be nearly two hundred years old in waking time, heads a minor pirate dynasty and still holds tight personal control over 'the family business'.",
+   "ctx": "data/strings/descriptions.csv station_kantas_den/CUSTOM [text1]"
+  },
+  {
+   "i": 10,
+   "en": "The Ko Combine r450 \"Shepherd\" sets the standard for civilian drone tenders with unmatched reliability, low cost, and internal volume given to crew comfort. A wildly popular combat modification package has been assembled by various survivalist and pirate groups, the \"HK\" mod, which consists of specifications to up-armor the hull for combat and supercharge factory-spec systems for greater burst speed and weapon function. Even modified, the Shepherd is fragile, so as in civilian life it relies on a swarm of “Borer” utility drones to do its work.\n\nThe \"Borer\" is built on a hardy, maneuverable semi-autonomous drone chassis with shielding suitable for hazardous operations in which high radiation or physical impacts may be expected. Commonly used in mining applications, they have also found use in salvage, ordnance disposal, and even fission meltdown clean-up. The HK mod package gives specifications for altering the primary cutting beam's focus and patches the rudimentary AI with crude tactical algorithms pirated from obsolete Domain Colonial Garrison drone software. Appendices of the mod package recommend caution when employing HK-modified drones in non-combat situations.",
+   "ctx": "data/strings/descriptions.csv shepherd/SHIP [text1]"
+  },
+  {
+   "i": 11,
+   "en": "The Sindrian Diktat is a polity founded in a relatively recent Hegemony military intervention in the Askonia system led by Admiral Philip Andrada, formerly of the Hegemony Navy.\n\nAndrada's Hegemony psych profile describes him as \"intelligent, charismatic, yet prone to narcissistic excess\".\n\nIn his words, the Diktat was \"formed in the crucible of the Askonia Crisis and with it a new people: a race of humans with emboldened spirit and clarity of purpose; stronger, possessing the will and determination to overcome the divisions and petty parliamentary politics that bred only chaos when tested by the collapse of the Gate System.\" It is considered by the Sector at large to be a military dictatorship.",
+   "ctx": "data/strings/descriptions.csv sindrian_diktat/FACTION [text1]"
+  },
+  {
+   "i": 12,
+   "en": "Hector Andrada, clone-son of Philip Andrada, declared himself Supreme Executor with the backing of the Lion's Guard and intelligence ministry. Hector's reign has only amplified Philip's belligerence and paranoia with the energy and enthusiasm of youth - he promises to destroy enemies of Andradaism both internal and foreign while projecting the unconquered might of the Sindrian Diktat to the whole of the Askonia System, and perhaps beyond.",
+   "ctx": "data/strings/descriptions.csv diktat_hector/FACTION [text1]"
+  },
+  {
+   "i": 13,
+   "en": "Achilles Andrada, clone-son of Philip Andrada, declared himself Supreme Executor with the backing of Gens Kato. Achilles is viewed as a cold but practical ruler, in favor of dismantling the more extreme ideological structures of his father's empire and inviting greater ties and investment into Askonia from the rest of the Core Worlds - while maintaining strict internal discipline and public order as a matter of economic and patriotic necessity.",
+   "ctx": "data/strings/descriptions.csv diktat_achilles/FACTION [text1]"
+  },
+  {
+   "i": 14,
+   "en": "The Hegemony is a martial successor state to the Domain formed by a ‘lost legion’ trapped in a backwater system by the collapse of the Domain gate network. Built upon a creative interpretation of protocols which indefinitely extends Domain-style martial law, the founders of the Hegemony believed that the overriding cause of restoring the Domain and therefore stability, peace, and prosperity to the Sector and indeed the entire galaxy must come before certain niceties of human rights. The survival of humanity is at stake and it is only the discipline of the Hegemony military that protects worlds where some semblance of the normalcy of human civilization can be nurtured. Anything that threatens the Great Cause must be neutralized; if a few activists must be discouraged for the greater good, so be it.\n\nCivilian hierarchies exist to govern the planets and stations under Hegemony rule but are entirely subordinate to the military. The specifics of civilian organization varies between worlds, as was Domain policy. When in doubt, the Hegemony applies a modified Domain-era colonial charter to dictate political organization. This standard-charter civilian hierarchy is generally elected, however as per martial law valid candidates must be approved by the local military authority. Exceptional times require exceptional measures, yet still the Hegemony fosters the flickering flame of galactic democracy under the same principles that founded the Domain.\n ",
+   "ctx": "data/strings/descriptions.csv hegemony/FACTION [text1]"
+  },
+  {
+   "i": 15,
+   "en": "The most powerful megacorporation in the Persean Sector after the fall of the Gates, the Tri-Tachyon Corporation specialized in cutting-edge AI development (notably violating the Domain ban on autonomous alpha+ level AI in several cases) and exotic high-power devices including hyperdrives, power generators, energy converters, force fields, and of course armaments. Since the Collapse, Tri-Tachyon has diversified its operations and insinuated its investments and applied technologies throughout the Persean Sector. Even hostile factions, justifiably paranoid of hardwired backdoors, are forced to use standard Tri-Tachyon products like the ubiquitous TriPad PDA. \n\nFrom a certain perspective, the Tri-Tachyon corporate charter's peculiar self-modifying algorithmic features might be viewed as an abstract form of AI which employs human corporate officers as integral components, though this philosophical argument was never resolved with enough force to convict the company of additional tech-ban violations.",
+   "ctx": "data/strings/descriptions.csv tritachyon/FACTION [text1]"
+  },
+  {
+   "i": 16,
+   "en": "An alliance formed to counter Hegemony domination of the Sector. Members of the League don’t necessarily agree on all issues, domestic or otherwise, and may even come into armed conflict with one another. But the League is united when it comes to the Hegemony who they consider to be illegitimately enforcing martial law in the name of the Domain, a dead political entity. The League, by its laws, unites against other external threats such as particularly meddlesome megacorporations, warlords, and the Luddic Path. \n\nThe Persean League is not intrinsically egalitarian or for individual freedom as-such – the purpose of the League is freedom of the constituent polities with any matters of internal politics of those polities to be left to their own devices. While the Domain might have intervened against the domestic policies of the worlds it ruled, the League specifically forbids such intervention.",
+   "ctx": "data/strings/descriptions.csv persean/FACTION [text1]"
+  },
+  {
+   "i": 17,
+   "en": "A silent ring of adamantine material. If you know how to look - and you do, now - your sensors can detect a faint vibration from higher dimensions.\n\nIt is like a barely heard song, a door waiting to be opened.",
+   "ctx": "data/strings/descriptions.csv active_gate/CUSTOM [text1]"
+  },
+  {
+   "i": 18,
+   "en": "A large though otherwise anonymous metallic/silicate planetoid caught in the L4 point of the gas giant Salus, Nortia was once dedicated to seasonal robotic mining operations and substance abuse before being inundated with refugees during the Askonia Crisis. Once a base of Charterist rebels, the renewed Sindrian Diktat has placed the planet under a harsh occupation.",
+   "ctx": "data/strings/descriptions.csv planet_nortia_sd/CUSTOM [text1]"
+  },
+  {
+   "i": 19,
+   "en": "A large though otherwise anonymous metallic/silicate planetoid caught in the L4 point of the gas giant Salus, Nortia was once dedicated to seasonal robotic mining operations and substance abuse before being inundated with refugees during the Askonia Crisis. Once the strongest independent base of Charterist rebels in the system, a cabal of senior Tri-Tachyon executives has performed a hostile takeover - in ever sense - with political cover from the post-Second Askonia Crisis interfactional resolution.",
+   "ctx": "data/strings/descriptions.csv planet_nortia_tt/CUSTOM [text1]"
+  },
+  {
+   "i": 20,
+   "en": "A large though otherwise anonymous metallic/silicate planetoid caught in the L4 point of the gas giant Salus, Nortia was once dedicated to seasonal robotic mining operations and substance abuse before being inundated with refugees during the First Askonia Crisis. It formed the strongest independent base of Charterist rebels in the system until the Second Askonia Crisis saw that organization collapse into competing sub-factions without a coherent shared cause or, in many cases, any cause at all except self-enrichment.",
+   "ctx": "data/strings/descriptions.csv planet_nortia_pirates/CUSTOM [text1]"
+  },
+  {
+   "i": 21,
+   "en": "A large though otherwise anonymous metallic/silicate planetoid caught in the L4 point of the gas giant Salus, Nortia was once dedicated to seasonal robotic mining operations and substance abuse before being inundated with refugees during the Askonia Crisis. In the resolution of the Second Askonia Crisis the Charterist establishment agreed to join the Hegemony and accept military oversight of their polity.",
+   "ctx": "data/strings/descriptions.csv planet_nortia_heg/CUSTOM [text1]"
+  }
+ ]
+}

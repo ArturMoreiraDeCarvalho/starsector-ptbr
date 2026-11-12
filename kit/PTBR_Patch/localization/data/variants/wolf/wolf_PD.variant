@@ -14,7 +14,7 @@
     "variantId": "wolf_PD",
     "weaponGroups": [
         {
-            "autofire": false,
+            "autofire": true,
             "mode": "LINKED",
             "weapons": {"WS 004": "pulselaser"}
         },

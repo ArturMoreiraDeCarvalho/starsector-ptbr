@@ -1,0 +1,681 @@
+{
+ "chunk": 330,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "\"Affirmative, we'll match course.\"",
+   "ctx": "data/campaign/rules.csv csf_followMeSel [text]"
+  },
+  {
+   "i": 2,
+   "en": "\"Understood, we'll maintain position.\"",
+   "ctx": "data/campaign/rules.csv csf_staySel [text]"
+  },
+  {
+   "i": 3,
+   "en": "\"Aye, captain,\" $heOrShe says. \"We'll have to ration some supplies and it'll be a tight burn back to base, but we should be able to maintain similar combat readiness for another 60 days.\"",
+   "ctx": "data/campaign/rules.csv csf_extendSel [text]"
+  },
+  {
+   "i": 4,
+   "en": "Done. If you jump immediately to talking to K-O Jove, it's as if Reynard sent you here after a post-SDR conversation.",
+   "ctx": "data/campaign/rules.csv DEVqarasReynardGift [text]"
+  },
+  {
+   "i": 5,
+   "en": "Done.\r\n\r\nIf you haven't actually finished the Askonia Crisis 2, this WILL mess with things. This is ONLY to be used to test SDSW / Spiders Web",
+   "ctx": "data/campaign/rules.csv DEVqarasSetAskoniaStandoffDone [text]"
+  },
+  {
+   "i": 6,
+   "en": "What'll it be, pardner?\r\n\r\n(any previous selection will be automatically unset)",
+   "ctx": "data/campaign/rules.csv DEVqarasChooseWeapon [text]"
+  },
+  {
+   "i": 7,
+   "en": "selected GRENADES",
+   "ctx": "data/campaign/rules.csv DEVqarasChooseGrenade [text]"
+  },
+  {
+   "i": 8,
+   "en": "selected PISTOL",
+   "ctx": "data/campaign/rules.csv DEVqarasChoosePistol [text]"
+  },
+  {
+   "i": 9,
+   "en": "selected KNIFE",
+   "ctx": "data/campaign/rules.csv DEVqarasChooseKnife [text]"
+  },
+  {
+   "i": 10,
+   "en": "selected SPRAY",
+   "ctx": "data/campaign/rules.csv DEVqarasChooseSpray [text]"
+  },
+  {
+   "i": 11,
+   "en": "selected WIRE",
+   "ctx": "data/campaign/rules.csv DEVqarasChooseWire [text]"
+  },
+  {
+   "i": 12,
+   "en": "selected NONE",
+   "ctx": "data/campaign/rules.csv DEVqarasChooseNone [text]"
+  },
+  {
+   "i": 13,
+   "en": "selected SWORD",
+   "ctx": "data/campaign/rules.csv DEVqarasChooseSword [text]"
+  },
+  {
+   "i": 14,
+   "en": "Set everything for you.\r\n\r\nRemember:\r\n- faction commissions are still up to you.\r\n- Persean League membership is also up to you\r\n- having 1 or more colonies is also on you",
+   "ctx": "data/campaign/rules.csv DEVretirementFlagsA [text]"
+  },
+  {
+   "i": 15,
+   "en": "Done. Gens Hannan 4 ever.\r\nMake sure you're commission w/ PL btw",
+   "ctx": "data/campaign/rules.csv DEVretirementFlagsHannan [text]"
+  },
+  {
+   "i": 16,
+   "en": "Done. Gens Kato 4 ever.\r\nMake sure you're commission w/ PL btw",
+   "ctx": "data/campaign/rules.csv DEVretirementFlagsKato [text]"
+  },
+  {
+   "i": 17,
+   "en": "Done. Gens Yaribay 4 ever.\r\nMake sure you're commission w/ PL btw",
+   "ctx": "data/campaign/rules.csv DEVretirementFlagsYaribay [text]"
+  },
+  {
+   "i": 18,
+   "en": "It's time to face it, you are not what you once were.\r\n\r\nThe cycles wear on you. Combat maneuvers jar your creaking bones and your skin is tanned by the radiation of distant stars whose light grows dimmer in your eyes.\r\n\r\nBut the things you have seen! The works of dead empires, the fresh faces of green crew on their first op; tactical lasers glittering in the debris of forgotten battles.\r\n\r\nYou've lived a life beyond the imagination of the planet-bound. But it is a life hard-lived.",
+   "ctx": "data/campaign/rules.csv DEVretirementTest [text]"
+  },
+  {
+   "i": 19,
+   "en": "Your story could end here, starfarer. You can retire, enjoy yourself, and finally rest.\r\n\r\nThe question is, where and how?",
+   "ctx": "data/campaign/rules.csv DEVretirementTestH [text]"
+  },
+  {
+   "i": 20,
+   "en": "It's time to face it, you are not what you once were.\r\n\r\nThe cycles wear on you. Combat maneuvers jar your creaking bones and your skin is tanned by the radiation of distant stars whose light grows dimmer in your eyes.\r\n\r\nBut the things you have seen! Death to wonder; the works of dead empires and fresh faces green crew on their first op; tactical lasers glittering in the debris of forgotten battles.\r\n\r\nYou've lived a life beyond the imagination of the planet-bound. But it is a life hard-lived.",
+   "ctx": "data/campaign/rules.csv BeginRetirement [text]"
+  },
+  {
+   "i": 21,
+   "en": "Your story can end here, starfarer. It's time to enjoy your retirement.\r\n\r\nThe question is, where and how?",
+   "ctx": "data/campaign/rules.csv retire_gracefullySel [text]"
+  },
+  {
+   "i": 22,
+   "en": "Gilead.\r\n\r\nA garden world, a human world, the farthest thing from the death and cold of space. Surrounded by the blessing of life and living.",
+   "ctx": "data/campaign/rules.csv RetireGileadSel [text]"
+  },
+  {
+   "i": 23,
+   "en": "Tartessus.\r\n\r\nYou may finally rest, letting each day present you with a tapestry of sun-lit clouds over endless plains.",
+   "ctx": "data/campaign/rules.csv RetireTartessusSel [text]"
+  },
+  {
+   "i": 24,
+   "en": "Qaras.\r\n\r\nWhere you may rest upon a throne atop the rabble and riot, a place you've earned by grit, blood, and lucre.",
+   "ctx": "data/campaign/rules.csv RetireQarasSel [text]"
+  },
+  {
+   "i": 25,
+   "en": "Chalcedon.\r\n\r\nYour Path, you decide, leads into the eye of the storm. That is where peace may be found, if the divine so wills it.",
+   "ctx": "data/campaign/rules.csv RetireChalcedonSel [text]"
+  },
+  {
+   "i": 26,
+   "en": "Eochu Bres.\r\n\r\nYou envision a palace set upon the mountains in a raw, new land whose life and living is wrought by the ingenuity of humanity... and its creations.\r\n\r\nIt will be the ultimate celebration of the tool-makers, the world-shapers who claim the raw clay of the universe and produce splendor and wealth; it is all that it means to be human and more.",
+   "ctx": "data/campaign/rules.csv RetireEochuBresSel [text]"
+  },
+  {
+   "i": 27,
+   "en": "The Galatia Academy.\r\n\r\nA ray of knowledge illuminating the shadows of war, a beacon of hope and education guiding those who are honest and true. Your influence may better the minds you nurture - one small part of lifting the Persean Sector out of this dark age.",
+   "ctx": "data/campaign/rules.csv RetireGalatiaSel [text]"
+  },
+  {
+   "i": 28,
+   "en": "Coatl Academy.\r\n\r\nIf humanity is to survive this long dark era, it needs to instill discipline, honor, and excellence in those fresh-faced cadets who will one day become officers in the Hegemony navy.\r\n\r\nThey stand against chaos and warlordism. They will defend the Persean Sector from inhuman threats both known and unknown. If the Domain is to be rebuilt, it will be by their blood.\r\n\r\nYou can do your part to help them do theirs.",
+   "ctx": "data/campaign/rules.csv RetireCoatlSel [text]"
+  },
+  {
+   "i": 29,
+   "en": "Fikenhild.\r\n\r\nAn ocean of freedom and leisure - for those who, like you, can afford clear skies, endless seas, and a penthouse atop one of the five glittering arcologies.",
+   "ctx": "data/campaign/rules.csv RetireFikenhildSel [text]"
+  },
+  {
+   "i": 30,
+   "en": "Kazeron.\r\n\r\nHeart of the Persean League and the rising power of the Sector. If there is to be a future for humanity, it may very well be forged here.",
+   "ctx": "data/campaign/rules.csv RetireKazeronHannanSel [text]"
+  },
+  {
+   "i": 31,
+   "en": "You are the executive officer of your colonial apparatus, majority-owner of most key infrastructure. But you aspire to be more than a bureaucrat: what if you were a leader?\r\n\r\nNow you may dedicate yourself to this work, transforming the polity into something more than a legal entity enumerating a wage-roll of mercenaries, contractors, and desperate fortune-seekers.\r\n\r\nMass-fabricated shelters will become homes; the sprawl slumped along webs of maximum-efficiency grown outward from spaceports will become towns, communities.\r\n\r\nPerhaps one day these shining cities and their inhabitants will share a sense of purpose and being: a true polity.",
+   "ctx": "data/campaign/rules.csv RetireColonySel [text]"
+  },
+  {
+   "i": 32,
+   "en": "You are demarchon, leader of the people. More than a mere executive officer of a colonial apparatus, more than a distant majority-owner of key infrastructure and bureaucrat.\r\n\r\nNow you may dedicate yourself to this work, transforming the polity into something more than a legal entity enumerating a wage-roll of mercenaries, contractors, and desperate fortune-seekers.\r\n\r\nMass-fabricated shelters will become homes; the sprawl slumped along webs of maximum-efficiency grown outward from spaceports will become towns, communities.\r\n\r\nPerhaps one day these shining cities and their inhabitants will share a sense of purpose and being: a true polity.",
+   "ctx": "data/campaign/rules.csv RetireDemarchonSel [text]"
+  },
+  {
+   "i": 33,
+   "en": "Asharu, desert world.\r\n\r\nFew would choose to make it their home, but you are someone quite unlike most.",
+   "ctx": "data/campaign/rules.csv RetireAsharuSel [text]"
+  },
+  {
+   "i": 34,
+   "en": "Nova Maxios.\r\n\r\nWhere fate is self-made, and you are your accomplishments, not the name someone else gave you.",
+   "ctx": "data/campaign/rules.csv RetireNovaMaxiosSel [text]"
+  },
+  {
+   "i": 35,
+   "en": "Finally, a time for rest.",
+   "ctx": "data/campaign/rules.csv RetireNeutralSel [text]"
+  },
+  {
+   "i": 36,
+   "en": "You still hear the whispers of the moons, the songs of the stars. You live at such a velocity that it feels impossible to stop now.\r\n\r\nThere is no part of you that cannot be replaced; there are chems and replacements to enhance failing senses, overlaid and embedded smart-systems to assist failing memory and reaction time. Modules and modifications integrated into your body and mind. There are even dealers in lost miracles of the Domain - irreplaceable nanoscale devices, artificial machine-proteins, components only found in forgotten orbits of ruined worlds.\r\n\r\nBut they will become more and more expensive.",
+   "ctx": "data/campaign/rules.csv retire_NOSel [text]"
+  },
+  {
+   "i": 37,
+   "en": "Your story could end here, starfarer. You can retire, enjoy yourself, and finall get some rest.\r\n\r\nThe question is, where and how?",
+   "ctx": "data/campaign/rules.csv BeginRetirementOptional [text]"
+  },
+  {
+   "i": 38,
+   "en": ">> (dev) Gate testing options",
+   "ctx": "devGateOptions"
+  },
+  {
+   "i": 39,
+   "en": "A mercenary, recently acquiring a high-tech vessel (randomized start)",
+   "ctx": "ngcRandomStartExtLoneShip"
+  },
+  {
+   "i": 40,
+   "en": "A freelancer, cobbling together a modest fleet (randomized start)",
+   "ctx": "ngcRandomStartExtSmallFleet"
+  },
+  {
+   "i": 41,
+   "en": "A mechanic, taking a desperate chance and buying a broken-down Hyperion-class frigate from a client",
+   "ctx": "ngcRandomStartExtHyperion"
+  },
+  {
+   "i": 42,
+   "en": "\"A spacer. A broken-down shuttle. A lifelong obligation.\" (very hard)",
+   "ctx": "ngcSpacerStartExt"
+  },
+  {
+   "i": 43,
+   "en": "\"Look. I'm a supporter of AI rights, so...\" (truth)",
+   "ctx": "lppHookResponseProAI"
+  },
+  {
+   "i": 44,
+   "en": "\"I'm a strong supporter of AI rights.\" (provoke)",
+   "ctx": "lppHookResponseTroll"
+  },
+  {
+   "i": 45,
+   "en": "Enter the shrine",
+   "ctx": "lppVolturnVisitRazed2"
+  },
+  {
+   "i": 46,
+   "en": "\"What happened here?\"",
+   "ctx": "lppVolturnShrineRazedLeave"
+  },
+  {
+   "i": 47,
+   "en": "\"What happened? Did they escape?\"",
+   "ctx": "lppVolturnRazedAskWhat1sd"
+  },
+  {
+   "i": 48,
+   "en": "Leave this place",
+   "ctx": "lppVolturnRazedAskWhatSD2"
+  },
+  {
+   "i": 49,
+   "en": "\"Who are you? Is this the shrine?\"",
+   "ctx": "lppVolturnRazedLuddicCurate2"
+  },
+  {
+   "i": 50,
+   "en": "\"Who are you? What happened to the shrine?\"",
+   "ctx": "lppVolturnRazedLuddicCurate2revisit"
+  },
+  {
+   "i": 51,
+   "en": "\"Did anyone escape?\"\r",
+   "ctx": "lppVolturnRazedLuddicCurate3"
+  },
+  {
+   "i": 52,
+   "en": "\"So this is it?\"",
+   "ctx": "lppVolturnRazedLuddicCurate3"
+  },
+  {
+   "i": 53,
+   "en": "\"I'm not sure.\"\r",
+   "ctx": "lppVolturnRazedLuddicCurate4a"
+  },
+  {
+   "i": 54,
+   "en": "\"A curate sacraria. Who keeps the shrine.\"\r",
+   "ctx": "lppVolturnRazedLuddicCurate4a"
+  },
+  {
+   "i": 55,
+   "en": "\"No. I came for the shrine.\"",
+   "ctx": "lppVolturnRazedLuddicCurate4a"
+  },
+  {
+   "i": 56,
+   "en": "\"The curate sacraria, Moyra Standfast.\"\r",
+   "ctx": "lppVolturnRazedLuddicCurate4aRe"
+  },
+  {
+   "i": 57,
+   "en": "\"It's not my place.\"\r",
+   "ctx": "lppShrineRazedFirstTime5"
+  },
+  {
+   "i": 58,
+   "en": "Do not light a candle",
+   "ctx": "lppShrineRazedFirstTime5"
+  },
+  {
+   "i": 59,
+   "en": "\"It is not just a candle.\"\r",
+   "ctx": "lppShrineRazedFirstTime5do"
+  },
+  {
+   "i": 60,
+   "en": "\"It is just a candle.\"\r",
+   "ctx": "lppShrineRazedFirstTime5dontB"
+  },
+  {
+   "i": 61,
+   "en": "Light a candle",
+   "ctx": "lppVolturnShrineCandleOpt"
+  },
+  {
+   "i": 62,
+   "en": "DEV give me 500000 credits!",
+   "ctx": "DEVjangalaMakeItRainOpt"
+  },
+  {
+   "i": 63,
+   "en": ">> (dev) LKE Mazalot testing menu",
+   "ctx": "lkeDevMazMenuOption"
+  },
+  {
+   "i": 64,
+   "en": "Test post Virens raid unrest",
+   "ctx": "LKEmazTestOptionD"
+  },
+  {
+   "i": 65,
+   "en": "respawn pather station!!\r",
+   "ctx": "BFINdevMenu"
+  },
+  {
+   "i": 66,
+   "en": "lose sedge as contact\r",
+   "ctx": "BFINdevMenu"
+  },
+  {
+   "i": 67,
+   "en": "add sedge as potential contact\r",
+   "ctx": "BFINdevMenu"
+  },
+  {
+   "i": 68,
+   "en": "\"Surely my status as a fellow demarchon of the League means something.\"",
+   "ctx": "BFFImpBuyerHub3OptB"
+  },
+  {
+   "i": 69,
+   "en": "Contact one of your military bases to request fleet support",
+   "ctx": "cob_requestFleetSupport"
+  },
+  {
+   "i": 70,
+   "en": "\"Acknowledged. I'll avoid unnecessary re-assignments in the future.\"\r",
+   "ctx": "oc_officerAnswerSelFirstComplaint"
+  },
+  {
+   "i": 71,
+   "en": "\"Look, I was just trying to save a bit on combat pay.\"",
+   "ctx": "oc_officerAnswerSelFirstComplaint"
+  },
+  {
+   "i": 72,
+   "en": "\"Look, we're going to figure out how to make this work...\"\r",
+   "ctx": "oc_officerAnswerSelComplainAgain"
+  },
+  {
+   "i": 73,
+   "en": "Accept the resignation with grace",
+   "ctx": "oc_officerAnswerSelComplainAgain"
+  },
+  {
+   "i": 74,
+   "en": "\"Forget it.\" Cut the comm link",
+   "ctx": "psi_pilotGreeting"
+  },
+  {
+   "i": 75,
+   "en": "\"Knowledge is power.\"\r",
+   "ctx": "gaRequestMeeting4opts"
+  },
+  {
+   "i": 76,
+   "en": "\"I am a demarchon of the Persean League, $post, not some random 'operator'.\"",
+   "ctx": "gaFCFikenhildBotherVIPoptA1"
+  },
+  {
+   "i": 77,
+   "en": "\"I am a demarchon of the Persean League and would appreciate some cooperation.\"",
+   "ctx": "gaFCFikenhildBotherVIPoptA2"
+  },
+  {
+   "i": 78,
+   "en": "\"Do you have a comms ID for Elissa Zal?\"",
+   "ctx": "gaFCFikenhildAdonyaB2"
+  },
+  {
+   "i": 79,
+   "en": "\"This is the voice of Special Agent Finlay Siyavong, is it not?\"",
+   "ctx": "gaFCCavinInterruptOptions1b"
+  },
+  {
+   "i": 80,
+   "en": "Set all GA missions as completed (and met everyone, etc)",
+   "ctx": "DEVgaFinishAllMissionsOpt"
+  },
+  {
+   "i": 81,
+   "en": "\"I've met with Daud before. It was a tense conversation.\"",
+   "ctx": "gaATGIntroHub1option3daud"
+  },
+  {
+   "i": 82,
+   "en": "\"So are you sure you want me to talk to Daud?\"\r",
+   "ctx": "GAATGintroAsk3daud"
+  },
+  {
+   "i": 83,
+   "en": "\"There's no need for this gens business. I can deal with Daud directly.\"\r",
+   "ctx": "GAATGintroAsk3daud"
+  },
+  {
+   "i": 84,
+   "en": "\"Which they started. And I finished.\"",
+   "ctx": "GAATGintroAsk3daud"
+  },
+  {
+   "i": 85,
+   "en": "\"We meet again.\"\r",
+   "ctx": "gaATGdaudMeeting6hegdef"
+  },
+  {
+   "i": 86,
+   "en": "\"I thought you'd be taller in person.\"",
+   "ctx": "gaATGdaudMeeting6hegdef"
+  },
+  {
+   "i": 87,
+   "en": "\"Moyra Standfast? You lead the Luddic rebels of Volturn, right?\"",
+   "ctx": "SDRstandfastIntroOptA"
+  },
+  {
+   "i": 88,
+   "en": "\"Reynard Hannan sent me. With... gifts.\"",
+   "ctx": "SDRstandfastIntroOptB"
+  },
+  {
+   "i": 89,
+   "en": "\"Orcus Rao sent me. With... gifts.\"",
+   "ctx": "SDRstandfastIntroOptBrao"
+  },
+  {
+   "i": 90,
+   "en": "\"I've come to assist your cause. With, ah, worldly offerings.\"",
+   "ctx": "SDRstandfastIntroOptC"
+  },
+  {
+   "i": 91,
+   "en": "\"Reynard Hannan wants to supply your armed uprising.\"",
+   "ctx": "SDRstandfastIntroOptAsel"
+  },
+  {
+   "i": 92,
+   "en": "\"Orcus Rao wants to supply your armed uprising.\"",
+   "ctx": "SDRstandfastIntroOptAselRao"
+  },
+  {
+   "i": 93,
+   "en": "\"He wants you to undermine Achilles Andrada.\"",
+   "ctx": "SDRstandfastIntro1sd"
+  },
+  {
+   "i": 94,
+   "en": "\"I will.\"\r",
+   "ctx": "SDRstandfastIntro2"
+  },
+  {
+   "i": 95,
+   "en": "\"I will.\" (lie)\r",
+   "ctx": "SDRstandfastIntro2"
+  },
+  {
+   "i": 96,
+   "en": "\"I can't make that promise.\"",
+   "ctx": "SDRstandfastIntro2"
+  },
+  {
+   "i": 97,
+   "en": ">> (dev) reset VSDC offer timer",
+   "ctx": "DEVstandfastVSDCoffersReset"
+  },
+  {
+   "i": 98,
+   "en": ">> (dev) fullfill all VSDC requests",
+   "ctx": "DEVstandfastVSDCoffers"
+  },
+  {
+   "i": 99,
+   "en": "\"I'd like to contribute to your resistance movement.\"",
+   "ctx": "standfastOfferSupport"
+  },
+  {
+   "i": 100,
+   "en": "Give 50 units of heavy armaments",
+   "ctx": "standfastVSDCofferWeapons"
+  },
+  {
+   "i": 101,
+   "en": "Give 100,000 credits",
+   "ctx": "standfastVSDCofferFuel"
+  },
+  {
+   "i": 102,
+   "en": "Give 250 units of supplies",
+   "ctx": "standfastVSDCofferSupplies"
+  },
+  {
+   "i": 103,
+   "en": ">> (dev) Chicomoztoc / Daud dev options",
+   "ctx": "devChicoDevOption"
+  },
+  {
+   "i": 104,
+   "en": "set metDaud to true\r",
+   "ctx": "devChicoDevOptionSel"
+  },
+  {
+   "i": 105,
+   "en": "back",
+   "ctx": "devChicoDevOptionSel"
+  },
+  {
+   "i": 106,
+   "en": "\"Finlay Siyavong told me you could and would kill the Andrada heirs.\"",
+   "ctx": "SD7SconfrontRaoAboutKillingOpt"
+  },
+  {
+   "i": 107,
+   "en": "\"I'm only looking for the truth.\"\r",
+   "ctx": "SD7SconfrontRaoAboutKillingOpts"
+  },
+  {
+   "i": 108,
+   "en": "\"I apologize. It was an innappropriate inquiry.\"\r",
+   "ctx": "SD7SconfrontRaoAboutKillingOpts"
+  },
+  {
+   "i": 109,
+   "en": "\"So did you order the assassination of Andrada's clones?\"\r",
+   "ctx": "SD7SconfrontRaoAboutKillingOpts"
+  },
+  {
+   "i": 110,
+   "en": "\"I'm giving you a chance to deny the allegations.\"",
+   "ctx": "SD7SconfrontRaoAboutKillingOpts"
+  },
+  {
+   "i": 111,
+   "en": "\"What's a war hero doing at this insignificant outpost?\"",
+   "ctx": "raoWarHero"
+  },
+  {
+   "i": 112,
+   "en": ">> (dev) Rao test options",
+   "ctx": "RaoDevOption"
+  },
+  {
+   "i": 113,
+   "en": "make Rao offer contact status\r",
+   "ctx": "RaoDevOptionHubA"
+  },
+  {
+   "i": 114,
+   "en": "set global.sdtu_hintedRaoInvolvement = true\r",
+   "ctx": "RaoDevOptionHubA"
+  },
+  {
+   "i": 115,
+   "en": "max out Rao points for SDR\r",
+   "ctx": "RaoDevOptionHubA"
+  },
+  {
+   "i": 116,
+   "en": "make Hyder not trust player\r",
+   "ctx": "RaoDevOptionHubA"
+  },
+  {
+   "i": 117,
+   "en": "make Hyder trust player\r",
+   "ctx": "RaoDevOptionHubA"
+  },
+  {
+   "i": 118,
+   "en": "DEV set player met Neriene\r",
+   "ctx": "RaoDevOptionHubC"
+  },
+  {
+   "i": 119,
+   "en": "\"They're brutal oppressors, enemies of freedom and life. It's a just cause.\"",
+   "ctx": "raoAskDiktatMerc4optsC"
+  },
+  {
+   "i": 120,
+   "en": "\"Dolos Macario mentioned your name. Why is he interested in you specifically?\"",
+   "ctx": "raoAskDiktatDolos"
+  },
+  {
+   "i": 121,
+   "en": "\"There were credits. Experimental weapons. And implied threats. And...\"\r",
+   "ctx": "RaoAskDolosOptsAsel1"
+  },
+  {
+   "i": 122,
+   "en": "\"Mistakes were made!\"",
+   "ctx": "RaoAskDolosOptsAsel1"
+  },
+  {
+   "i": 123,
+   "en": "\"I bear a commission to the Hegemony. My loyalty should be without question.\"",
+   "ctx": "RaoAskDolosOpts2heg"
+  },
+  {
+   "i": 124,
+   "en": "\"I'll do what keeps me alive and in credits.\"",
+   "ctx": "RaoAskDolosOpts2a"
+  },
+  {
+   "i": 125,
+   "en": "\"I'll do what keeps me alive and in credits. The Hegemony is the best guarantor of both.\"",
+   "ctx": "RaoAskDolosOpts2b"
+  },
+  {
+   "i": 126,
+   "en": "\"I don't need your approval to do what is right.\"",
+   "ctx": "RaoAskDolosOpts2c"
+  },
+  {
+   "i": 127,
+   "en": "\"I'm going to bring down the Diktat. Are you going to help or not?\"",
+   "ctx": "RaoAskDolosOpts2d"
+  },
+  {
+   "i": 128,
+   "en": "\"Then we understand one another.\"\r",
+   "ctx": "RaoAskDolosCredits2"
+  },
+  {
+   "i": 129,
+   "en": "\"Is that a threat?\"",
+   "ctx": "RaoAskDolosCredits2"
+  },
+  {
+   "i": 130,
+   "en": "\"I don't need your approval to do what is right.\"\r",
+   "ctx": "RaoAskDolosOptsCsel1opts"
+  },
+  {
+   "i": 131,
+   "en": "\"Maybe a little? It never hurts to have an admiral on your side.\"\r",
+   "ctx": "RaoAskDolosOptsCsel1opts"
+  },
+  {
+   "i": 132,
+   "en": "\"I bear a commission to the Hegemony. My loyalty should be without question.\"\r",
+   "ctx": "RaoAskDolosOptsCsel1optsHegCom"
+  },
+  {
+   "i": 133,
+   "en": "\"Maybe a little. It never hurts to have an admiral on your side.\"\r",
+   "ctx": "RaoAskDolosOptsCsel1optsHegCom"
+  },
+  {
+   "i": 134,
+   "en": "\"It wouldn't be easy. That's why I need your help.\"\r",
+   "ctx": "RaoAskDolosOptsDsel1"
+  },
+  {
+   "i": 135,
+   "en": "\"No. That's why I need to work as part of something larger than myself.\"\r",
+   "ctx": "RaoAskDolosOptsDsel1"
+  }
+ ]
+}

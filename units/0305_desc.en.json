@@ -1,0 +1,146 @@
+{
+ "chunk": 305,
+ "cat": "desc",
+ "items": [
+  {
+   "i": 1,
+   "en": "The Executor is a modification of Altair Exotech's radical \"Cruiser School\" capital Pegasus-class hull. Modifying starships at the forge-level is a feat only available to polities willing to invest in employing a highly trained specialist class of engineer-technicians. After all, why invest in risky innovations when the bones of the Domain provide ships to fill every role? -- Because the Lion of Askonia demands it! And, through domination of the starship fuel economy, Supreme Executor Philip Andrada had the credits to pay for a capital ship specially designed to outfit the products of his extravagant energy weapon program.\n\nAlthough the official reports have been subtly improved by parties seeking to avoid punishment, the Executor-class outfitted to Diktat specs tends to slightly underperform the grand expectations set out by the original proposal. But none could argue that the project was not delivered on schedule, and that its results don't make for a fine and terrifying sight in the skies of the Askonia system.",
+   "ctx": "data/strings/descriptions.csv executor/SHIP [text1]"
+  },
+  {
+   "i": 2,
+   "en": "An ill-fated design from the start, the Grendel was originally planned as a heavy phase droneship. Casualties would be irrelevant and routine damage anticipated, for this ship is a brawler which can phase-shift through a first wave of hostile ordnance to appear in the midst of the enemy battle line ready to unleash missiles and heavy firepower. The trick is, of course, performing this maneuver safely by carefully juggling flux-load and positioning, though its service record demonstrates that nothing is particularly safe about the Grendel.  \n\nThe brainchild of an eccentric admiral who managed to capture procurement authority over an entire frontier sector, the first prototypes were installed with low-level AI core commanders. The AIs became rapidly unstable, even erratic, after only a handful of phase shifts. Subsequently, the precise details of these experiments were suppressed by an obscure intelligence ministry of the Domain and the project saved only by the admiral's personal intervention. With AI unsuitable, the next best disposable resource was tapped, and the Grendel saw its first combat service on the far fringes crewed almost entirely by Domain Armada penal battalions.",
+   "ctx": "data/strings/descriptions.csv grendel/SHIP [text1]"
+  },
+  {
+   "i": 3,
+   "en": "Heavy battlestation armor is assembled in various forms from modular pieces to fit site-specific requirements. The primary structure, pierced only under conditions of heavy bombardment, consists of a custom semi-flexible high-tensile lattice filled with ultrahard nanoforged ceramic-metal composite blocks. Over this are placed alternating layers of foamed metal and 'wrap' consisting of many layers of sacrificial/reflective ablation skin.\n\nThis unit demonstrates the classic chevron arrangement.",
+   "ctx": "data/strings/descriptions.csv module_armour1/SHIP [text1]"
+  },
+  {
+   "i": 4,
+   "en": "Heavy battlestation armor is assembled in various forms from modular pieces to fit site-specific requirements. The primary structure, pierced only under conditions of heavy bombardment, consists of a custom semi-flexible high-tensile lattice filled with ultrahard nanoforged ceramic-metal composite blocks. Over this are placed alternating layers of foamed metal and 'wrap' consisting of many layers of sacrificial/reflective ablation skin.\n\nThis unit is an enlarged chevron arrangement.",
+   "ctx": "data/strings/descriptions.csv module_armour2/SHIP [text1]"
+  },
+  {
+   "i": 5,
+   "en": "A rare, experimental prototype developed by the Tri-Tachyon Corporation, the Anubis-class hull has nearly full arc-coverage from three large energy turrets integrated into a controversial new flux grid. This 'new paradigm of flux management' is said to be directly interfaced with temporal manipulation technology of unknown provenance. Additional armament includes front-facing universal hardpoints and a fighter bay. The Anubis was unable to fulfill a robust multi-role tactical function due to poor flux performance so it is usually relegated to escort functions where, surprisingly, it excels.\n\nThe Anubis Project steering committee, keen to win support from as many departments as possible, drew upon new applications seeking customer validation from an exceptionally wide range of Tri-Tachyon's suite of breakthrough technologies. The project was then split into parallel operations at a handful of company black-sites to maximize security (and minimize oversight), leading to certain understandable late-stage compromises. It was hoped that the multi-functional product would cover more user-segments than one with more limited focus through a rough roll-out period. Then widespread field testing would surely enable rapid iteration which would lead, ultimately, to product maturity well ahead of conventional timelines.\n\nThis was not to be. Executive infighting led to a particularly dynamic org chart during the following financial cycle.",
+   "ctx": "data/strings/descriptions.csv anubis/SHIP [text1]"
+  },
+  {
+   "i": 6,
+   "en": "Perseus \"Saturnian\"\n\nYou possess intelligence regarding an elaborate long-term biomedical project which took place in the mysterious crysosanctum of Nomios, in the Arcadia system.\n\nSomething involving one Doctor Cydonia appears to have gone terribly wrong and there have been no further updates to the file since.",
+   "ctx": "data/strings/descriptions.csv sd7s_perseus/CUSTOM [text1]"
+  },
+  {
+   "i": 7,
+   "en": "Hercules \"Cyrino\"\n\nIntel document the life of a young orphan placed in the Nova Maxios orphanage system. He is now involved in the Post-Collapse History Department of the Galatia Academy, in the Galatia system.",
+   "ctx": "data/strings/descriptions.csv sd7s_hercules/CUSTOM [text1]"
+  },
+  {
+   "i": 8,
+   "en": "Jason \"Korin\"\n\nIntel documents the life of a young man placed into an elite Tri-Tachyon \"charity school\" known to focus on cybernetically augmented development. He appears to have rebelled against his training and ended up involved with extremists and criminals on Qaras.",
+   "ctx": "data/strings/descriptions.csv sd7s_jason/CUSTOM [text1]"
+  },
+  {
+   "i": 9,
+   "en": "Achilles \"Kalian\"\n\nIntel suggests that a fetus or infant was switched into a family on Madeira. The boy thrived and a bribe ensured his entry into the Persean League Fleet Academy. His career was posed to take off until gens meddling and/or Fleet Intelligence discovery of the operation resulted in his reassignment to the backwater of Yesod.",
+   "ctx": "data/strings/descriptions.csv sd7s_achilles/CUSTOM [text1]"
+  },
+  {
+   "i": 10,
+   "en": "Leonidas \"Esculus\"\n\nIntel documents a property purchase of cometary body in Duzakh system. Project codename IRKALLA, refurbishment contract: punitive NDAs, list of technical specs, unusual bio-support equipment, re-orbiting to Duzahk's L4.\n\nContract with Neurozenith Cybernetic Solutions Group (NCSG) for extended applied program, anonymous package. Delivery schedules, attached manifests imply site resupply. Accounting suggests unusually high cost.\n\nProcurement of two specialists, codenamed CRASIS and AUROELIN for serial 10-cycle periods, two renewals paid in full. ",
+   "ctx": "data/strings/descriptions.csv sd7s_leonidas/CUSTOM [text1]"
+  },
+  {
+   "i": 11,
+   "en": "Pericles \"Aventine\"\n\nIntel reports describe an ongoing arrangement made with a mercenary captain, Maeus Moroz. Progress reports suggest he raised a child and sent them to a private academy on Eventide for combat and leadership training until he was expelled. Later records document an active mercenary career based out of Orthrus, in the Samarra system.",
+   "ctx": "data/strings/descriptions.csv sd7s_pericles/CUSTOM [text1]"
+  },
+  {
+   "i": 12,
+   "en": "Hector \"Palatin\"\n\nRecord of property purchase from numbered holding incorporate, Hybrasil system. Orbital coordinates attached, missing schematics; registry name 58966 Elysium.\n\nSupply, staff procurement through TT subsidiaries. Medical report green. List of private tutors, CVs attached, assigned to ELYSIUM. Receipts of payment; shortest term one shift, longest one and a half cycles. \n\nAccounting for period contains fees for medical evac (cryo-stabilized), multiple instances. Details redacted. Psych assessment missing from file.",
+   "ctx": "data/strings/descriptions.csv sd7s_hector/CUSTOM [text1]"
+  },
+  {
+   "i": 13,
+   "en": "The AI administrator control bunker was secured from the threat contained within as well as the multitude of threat vectors without.\n\nAbove all the entire operation was kept absolutely secret; a handsomely compensated human actor was hired to perform as the 'face' for the AI core's decision-making.",
+   "ctx": "data/strings/descriptions.csv ai_core_uninstall/GALLERY [text2]"
+  },
+  {
+   "i": 14,
+   "en": "A rust-bucket Hound came in last shift. Cargo of low-grade ore. I crewed with a Hound 20 cycles ago, I know the logs don't add up - their last run wouldn't have even paid for the fuel. And I know where the shielded holds are. Broke my heart how young the cap was though, a poor kid out of Mozzy. Just like I was. If I bust 'em, I kill their one chance to get out. So I didn't.\n\nDelete log entry.",
+   "ctx": "data/strings/descriptions.csv hound_hangar/GALLERY [text2]"
+  },
+  {
+   "i": 15,
+   "en": "\"All the big contracts go to the toadies kneeling at the feet of the high-and-mighty. Call them approved vendors, Gens-clients, logistical auxilliaries, Faithful traders. It's all the same.\"\n\n\"It's about us outsiders being kept out, pushed into smuggling and black markets, squeezed by patrols on one side, pirates on the other.\"",
+   "ctx": "data/strings/descriptions.csv cargo_loading/GALLERY [text2]"
+  },
+  {
+   "i": 16,
+   "en": "\"Is there no place left unmarked by the leavings of Moloch, fouled by skin of plastic, and bones of alloy, and scales of ceramic?\"\n\n\"Is there no place left which may be made sacred and given unto the glory of the Creator alone?\"",
+   "ctx": "data/strings/descriptions.csv space_wreckage/GALLERY [text2]"
+  },
+  {
+   "i": 17,
+   "en": "There are places where a balance is found between the dance of celestial bodies, some mingling of qualities ineffable to all but those absolutely devoted to esoteric physics.\n\nIt is there we pierce the veil into the great and stormy sea beyond the stars.",
+   "ctx": "data/strings/descriptions.csv jump_point_normal/GALLERY [text2]"
+  },
+  {
+   "i": 18,
+   "en": "Now our contracts up, holds full and ready /\nHoo-rah for we jump now t'ward the core /\nWe'll burn bright, bright long and steady",
+   "ctx": "data/strings/descriptions.csv jump_point_hyper/GALLERY [text2]"
+  },
+  {
+   "i": 19,
+   "en": "Go in there not knowing exactly where you're coming out?\n\nThat's how you end up a bit of glitter indistinguishable from cosmic background radiation.",
+   "ctx": "data/strings/descriptions.csv jump_point_wormhole/GALLERY [text2]"
+  },
+  {
+   "i": 20,
+   "en": "The colonization program dictated construction around key gravity wells of orbital infrastructure which included repair docks, industrial nanoforges, comms hubs, terraforming depots, armories, research laboratories, and habitation for defrosted cryosleepers.\n\nMuch remains. More still is as broken and dead as the Human Domain's avaricious dreams.",
+   "ctx": "data/strings/descriptions.csv abandoned_station/GALLERY [text2]"
+  },
+  {
+   "i": 21,
+   "en": "Most abandoned stations were plundered long ago. What remains are the stripped foundations of a fallen empire; twisted spars, cracked agrav plates, shattered machines, and seams thermal-cycled to ruin.\n\nA few smugglers and black-market traders use the long, quiet orbit of these stations for drop-points. A dozen corpses and cored shuttle are the not uncommon tell of a deal gone bad.",
+   "ctx": "data/strings/descriptions.csv abandoned_station3/GALLERY [text2]"
+  },
+  {
+   "i": 22,
+   "en": "The Eridani-Utopia Terraforming Corporation specs provide the most widely accepted \"terran\" baseline for the allegedly ideal human environment.\n\nThe many deviations of natural planetary environments from the specifications may be corrected through technological intervention including ice-asteroid bombardment, orbital burns, biomodded ecosystems, orbital megastructures, and other methods provided by the EUT.",
+   "ctx": "data/strings/descriptions.csv terran_orbit/GALLERY [text2]"
+  },
+  {
+   "i": 23,
+   "en": "\"Chaos? No sir, what it is, is honesty. Here, if a man wants you dead, you'll see it in his eyes 'fore he makes a move. Better that than a computer in some off-world office deciding your air supply isn't worth maintaining.\"\n\nSadly my guide was found dead the next shift. Shot in the back, ironically.",
+   "ctx": "data/strings/descriptions.csv pirate_station/GALLERY [text2]"
+  },
+  {
+   "i": 24,
+   "en": "Enormous orbital stations hosted shipyards, habitats, factories, and stockpiles of weapons and supplies.\n\nThese platforms allowed what remained of humanity to organize interstellar polities and project military and commercial power across the Persean Sector.",
+   "ctx": "data/strings/descriptions.csv orbital/GALLERY [text2]"
+  },
+  {
+   "i": 25,
+   "en": "\"It's a story as old as time. We gotta get what's good down in there up and out where it can go off somewhere else to make someone else rich.\"\n\n\"Miserable work, it's true, but there's ways of coping.\"",
+   "ctx": "data/strings/descriptions.csv mine/GALLERY [text2]"
+  },
+  {
+   "i": 26,
+   "en": "Nightmarish storms circled the globe, stirring the ashes of a murdered world.\n\nEven after the apocalyptic ruin of Mairaath humanity still huddled in the broken shells of great cities brought low, blasted by unending wind.",
+   "ctx": "data/strings/descriptions.csv mairaath/GALLERY [text2]"
+  },
+  {
+   "i": 27,
+   "en": "Gleaming monoliths glittered, spears of capital upthrust through the glowering flesh of the world. Skyarco II loomed prismatic.\n\nThe shuttle alit on a landing pad held at some distance from the facade by an airy support rib. It looked impossibly thin, but after touch down felt solid as a mountain.",
+   "ctx": "data/strings/descriptions.csv eochu_bres_landing/GALLERY [text2]"
+  },
+  {
+   "i": 28,
+   "en": "The fringe of the Persean Second is filled with worlds lost, forgotten, and never seen at all by consciousness born of flesh.\n\nThere are green fields of toxic xenolife, tombs frosted with nitrogen snow, roiling cauldrons of magma and brimstone, and planets made of living storm; vast fortunes to be uncovered, barbarian-worlds incapable of starflight, and the weapons of ancient wars primed to attack any interloper.",
+   "ctx": "data/strings/descriptions.csv survey/GALLERY [text2]"
+  }
+ ]
+}

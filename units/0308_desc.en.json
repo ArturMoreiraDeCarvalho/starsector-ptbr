@@ -1,0 +1,61 @@
+{
+ "chunk": 308,
+ "cat": "desc",
+ "items": [
+  {
+   "i": 1,
+   "en": "Apocalyptic dust storms cloud the cruel sky, turning the sun first blood-red before rendering it a directionless glow which offers neither warmth nor comfort. \n\nThe need for absolution spills from the mines, is forged in refineries, and then is assembled in orbit. Asher's virtue of industry is yet the Church's secret shame, spoken of only circuitously in sermons given by particularly spiritual curates. ",
+   "ctx": "data/strings/descriptions.csv planet_asher/CUSTOM [text3]"
+  },
+  {
+   "i": 2,
+   "en": "Perseus \"Saturnian\" Andrada was killed in a botched operation involving \"Doctor\" Wyatt Cydonia. The goal was to perform a transfer of Philip Andrada's consciousness into a new clone-body. It was suggested that Philip Andrada's condition deteriorated too quickly for the operation to proceed as planned.",
+   "ctx": "data/strings/descriptions.csv sd7s_perseus/CUSTOM [text3]"
+  },
+  {
+   "i": 3,
+   "en": "Hector \"Cyrino\" Andrada was an assistant academician at the Galatia Academy.\n\nNow he is dead at the hand of professional assassins. You might have saved his life but chose not to warn him at the moment of the attack.",
+   "ctx": "data/strings/descriptions.csv sd7s_hercules/CUSTOM [text3]"
+  },
+  {
+   "i": 4,
+   "en": "Documents describe the acquisition of a remote asteroid named Irkalla in the Duzakh system. An unusual, highly bio-technical operation was installed involving two very highly paid anonymous contractors. The identifier attached is \"Leonidas Esculus\". ",
+   "ctx": "data/strings/descriptions.csv sd7s_leonidas/CUSTOM [text3]"
+  },
+  {
+   "i": 5,
+   "en": "You found Hector \"Palatin\" Andrada in a fortified asteroid in the Hybrasil system, 58966 Elysium.\n\nYou bombarded the asteroid until it was nothing more than a clump of radioactive rubble. If Hector was in there, he must be dead.",
+   "ctx": "data/strings/descriptions.csv sd7s_hector/CUSTOM [text3]"
+  },
+  {
+   "i": 6,
+   "en": "Documents describe the purchase of an asteroid base with pre-existing life-support and technical infrastructure in the Hybrasil system. It's been given the name Elysium, and has been operated by a rotating crew of support staff and elite private tutors. Staff turnover is high. There have been multiple emergency medical evacs. The identifier attached is \"Hector Palatin\"",
+   "ctx": "data/strings/descriptions.csv sd7s_hector/CUSTOM [text4]"
+  },
+  {
+   "i": 7,
+   "en": "The target ship takes {{30%}} more damage from all sources.",
+   "ctx": "data/strings/descriptions.csv entropyamplifier/SHIP_SYSTEM [text5]"
+  },
+  {
+   "i": 8,
+   "en": "The ship's top speed is briefly increased to approximately {{600}} su/second.\n\nAfter system deactivation, residual plasma in the engine manifolds provides greatly increased maneuverability for several seconds.",
+   "ctx": "data/strings/descriptions.csv microburn/SHIP_SYSTEM [text5]"
+  },
+  {
+   "i": 9,
+   "en": "While the system is active, hardpoint weapons receive {{100%}} increased range and {{200%}} increased rate of fire. Recoil is reduced by {{75%}}, and projectile speed is increased by {{50%}}.\n\nWhile the system is in passive mode, the range of all non-missile weapons is increased by {{35%}}.",
+   "ctx": "data/strings/descriptions.csv lidararray/SHIP_SYSTEM [text5]"
+  },
+  {
+   "i": 10,
+   "en": "Deals {{100 Energy}} and {{500 EMP}} damage per arc. The arcs can hit targets within approximately {{500}} su of the ship.\n\nIn addition, most missiles will have their guidance systems knocked out even if they are not destroyed outright.",
+   "ctx": "data/strings/descriptions.csv emp/SHIP_SYSTEM [text5]"
+  },
+  {
+   "i": 11,
+   "en": "Deals {{1500 EMP}} damage per arc to enemy ships. The system can hit targets within approximately {{1500}} su of the ship.\n\nOnly affects friendly ships if they have a {{lash-activated}} ship system.",
+   "ctx": "data/strings/descriptions.csv energy_lash/SHIP_SYSTEM [text5]"
+  }
+ ]
+}

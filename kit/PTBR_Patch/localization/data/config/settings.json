@@ -105,6 +105,7 @@
 	"allowAutomatedShipRecoveryWithoutSkill":true,
 	
 	"partsPerUnitOfSupplies":0.05, # at the max rate, at partsSavlageBaseDP or below
+	"partsDropMultFromTradeFleets":0.3, # amount of parts that trade convoys drop
 	# the below stuff only matters if this is set to true - makes more parts drop for smaller fleets
 	"partsUseModifiedDropRate":false,
 	"partsSalvageBaseDP":60, # the "normal" rate is what's at 240dp, but this is the base value for the formula where it maxes out
@@ -113,6 +114,7 @@
 	"partsReductionAtFiveDmods":0.2,
 	"partsForSaleBaseSuppliesFraction":0.1,
 	"partsForSaleBaseProductionFraction":0.2,
+	"partsFractionReturnedFromScuttling":0.75,
 	
 	########################################
 	# BEGIN EXTENDED MODE SETTINGS
@@ -131,6 +133,7 @@
 	"ext_pristineShipSellPriceMult":[1, 1, 1, 1], # closely related to shipSellPriceMult (.4 currently)
 	"ext_shipSellValueIncreasePerPartUsed":5000, # up to number of parts needed to repair 5 d-mods
 	"ext_shipSellValueMultPerSMod":1, # mult is 1 + (ext_shipSellValueMultPerSMod * numSMods)
+	"ext_shipBuyValueMultPerSMod":1, # should probably be same as above, to avoid sell/buy loops that make credits
 	"ext_shipStoragePriceMult":0.5,
 	"ext_shipBuyPriceMultPerDMod":0.85,
 	"ext_weaponPriceMult":10,
@@ -147,6 +150,7 @@
 	"ext_partsPriceMult":2,			# base price:  10000
 	"ext_partsSpecialSalvageDropFraction":0.5, # only special drops from e.g. the Domain mothership etc
 	"ext_partsPerUnitOfSupplies":0.025,
+	"ext_partsFractionReturnedFromScuttling":0.5,
 	
 	"ext_shipForSaleFraction":0.25, 
 	"ext_shipRecoverableFraction":0.2,
@@ -173,6 +177,7 @@
 	"ext_salvageCargoFractionPostCombat":0.4,
 	"salvageFuelFractionPostCombat":0.1,
 	
+	"ext_threatNonResourceDropMult":2,
 	"ext_threatResourceSalvageMult":0.25,
 	"ext_aiCoreDropFraction":0.1,
 	"ext_substrateDropFraction":0.4,
@@ -230,7 +235,7 @@
 	"ext_crewSalaryMult":3,			# base is 10
 	"ext_marineSalaryMult":3,		# base is 20
 	"ext_officerSalaryMult":1,
-	"ext_officerCombatPay":[1, 2, 4, 16],	# frigate, destroyer, cruiser, capital
+	"ext_officerCombatPay":[0.5, 1, 2, 8],	# frigate, destroyer, cruiser, capital
 	
 	"ext_colonyGrowthRequiredMult":2,
 	"ext_corruptionThreshold":200000, 	# corruption kicks in at this colony income
@@ -259,7 +264,7 @@
 	"ext_respawnFleetId":"ext_respawn",
 	"ext_deliveryMissionHighQuantityChanceMult":0.1,
 	"ext_worseHandMeDownFreighter":true,
-	"ext_worseHandMeDownFreighterPriceMult":2,
+	"ext_worseHandMeDownFreighterPriceMult":1.25,
 	"ext_hijackedShipCostMult":2,
 	"ext_surplusHullPriceMult":2,
 	"ext_reduceLegionXIVSpawns":true,
@@ -270,7 +275,7 @@
 	"ext_cargoScanNumShipsMult":4,
 	"ext_cargoScanShipDamageMult":2,
 	"ext_environmentalDamageMult":2, # hyperstorm strikes, aseroid impacts, etc
-	"ext_transverseJumpDamageMult":10, # CR damage from using Transverse Jump
+	"ext_transverseJumpDamageMult":5, # CR damage from using Transverse Jump
 	
 	"ext_timeBasedThingsDelayFactor":3, # pirate base raids, pirate fleet time-passed-based strength increases, etc
 	
@@ -735,7 +740,7 @@
 	"priorityContactMaxNumMissionsBonus":3,
 	"priorityContactMaxMissionQualityBonus":0.2,
 	"defaultPotentialContactProbability":0.25,
-	"potentialContactProbabilityAddPerFail":0.1,
+	"potentialContactProbabilityAddPerFail":0.15,
 	
 	
 	# ship weapons and fighters; need to be cheaper to sell to avoid some ship production exploits

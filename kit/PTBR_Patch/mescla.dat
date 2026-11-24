@@ -744,7 +744,7 @@ fd427d7f00219e41
 food_shortage,end_player_fast,,,news,Escassez de alimentos em $market encerrada,O relatório indica que a escassez de alimentos em $market já chegou ao fim. A chegada oportuna de uma frota de socorro comandada por $playerName é creditada pelo fim rápido da escassez e pela atenuação de seus efeitos de longo prazo.,"Nenhum aumento de agitação em $market.
 ff4b970ef96e507c
 survey_planet,posting,,,posting,Pagamento de $rewardCredits: execute um levantamento completo em $planetName em $systemName em até $daysLeft,A missão será considerada concluída e o pagamento será lançado imediatamente após a conclusão do levantamento.,$surveyInfo,,,no_system_prefix,,
-@data/campaign/rules.csv	18451
+@data/campaign/rules.csv	18473
 00043f19e5948c04
 Bornanew fecha o caderno com um pouco mais de força do que da primeira vez.","bffi_onBoardEnd2:""Então, para Olinadu.""",
 00067b341a40a02d
@@ -885,8 +885,6 @@ Mais próxima é uma expressão relativa. Em Tartessus, a Igreja da Redenção G
 GAKAFCBairdHubA,gaGCKABairdHub,!$gaKA_returnWhatWillHegDo,,,"gaKAFC_bairdHubA:""O que você vai fazer se a Hegemonia suspeitar que está por trás da invasão?""",
 01288bf2f25ec13e
 gaATGcontactYaribayC2,DialogOptionSelected,$option == gaATG_contactYaribayC2,FireAll GAATGcontactYaribayHub,"""Você não pode ficar em cima do muro para sempre, Comandante,"" diz ele. ""Um dia terá que escolher.""",,
-01293fe856389d9b
-$ZGRtoldMe",,,"50:inesis_askWhatDo:""O que exatamente você faz? Para Tri-Tachyon, quero dizer.""",
 012edfee4224902f
 BeginMission soe","Apesar dos esforços peculiares de charme de Sang, você considera que essa pode ser uma boa oportunidade de conhecer algumas pessoas de verdadeira influência na Hegemonia.",soe_meetCaspianEnd:Voltar ao bar,
 012faa7ed69f5400
@@ -1553,8 +1551,6 @@ gaFC_laicailleVisit10:""O que Baird disse?""
 Cydonia se inclina para perto, com um hálito ácido flutuando sobre você. ""A proteção do senhor da guerra não é obtida facilmente. Não a ofenda com impurezas indignas, "" ele sibila.",,
 063dbaec2ca058f8
 $player.ethosCocky++","Você compartilha algumas piadas de gosto duvidoso e uma história envolvendo alguns dos piratas locais mais proeminentes, arrancando silêncio ou aplausos nos momentos certos.
-063f276bb671ecfc
-FireAll PopulateOptions","Depois de um momento, as comunicações se conectam.
 0640bf6401e0d90e
 FireBest DisableRuinsExploreIfNeeded","Cidades e fábricas flutuantes arruinadas podem ser vistas nas nuvens de $marketName, afundando lentamente nas profundezas esmagadoras e arrastando quilômetros de cabo de ancoragem. Fábricas, anéis habitacionais e retransmissores de comunicação em órbita baixa sucumbem lentamente ao arrasto atmosférico e, ocasionalmente, mas de forma dramática, traçam um risco de fogo pela face redemoinhante do planeta.",5:salExplore:Explorar as ruínas,
 0641e5d8835fd404
@@ -1845,6 +1841,8 @@ FireBest DialogOptionSelected","""Alguém que eu conheço. Conhecia. Uma amiga, 
 O pirata logo se convence da ideia de que você é uma força em ascensão e, se quiserem continuar relevantes, vão precisar cultivar uma boa relação de trabalho para garantir... viabilidade.
 0862d737e5f74640
 FireBest DialogOptionSelected","""Certo"", ele estufa o peito um pouco mais, classificando você com segurança dentro da sua teleologia. ""Eu fiz juramento de proteger gente como você, sabe?""",,
+08654f42efb8657f
+""A menos que,"" ela faz uma pausa, olhando para você por cima de seus óculos de RA, falando com calma, ""eu tenha me enganado redondamente a seu respeito, e seu coração esteja decidido a liquidar sua frota, doar os lucros para a caridade e se juntar a uma ordem flagelante em Hesperus... não, já sei: você andou lendo muito; bem, assistindo holovídeos de canais clandestinos, na verdade... e está quase se alistando como capanga político quebrando dentes pelo próximo reinado de 1000 ciclos de algum novo 'Leão de Sindria'. Acertei?""
 0865e7aba4c8fced
 Suas comunicações pessoais tocam e depois tocam novamente. Ela atende. ""Fala.""",gaATG_bairdBetrayal2:Continuar,
 0867b735726186a7
@@ -1934,7 +1932,7 @@ $player.luddicFaithfulOrChurchCom",,"""Você está aqui em nome da Academia. Voc
 08fa6b619e1facf3
 ZGRstartPitch8,DialogOptionSelected,$option == zgr_makePitch8,FireAll ZGRstartPitch8opts,"""Não exatamente"", diz ela, autossatisfeita. ""Algo mais valioso.""",,
 09039b3b3c41a095
-Você ordena a realização de uma varredura de alta resolução, e que os dados brutos sejam colocados em armazenamento seguro.",,
+Você ordena que seja realizada uma varredura de alta resolução e que os dados brutos sejam guardados em armazenamento seguro.",,
 0906c911ae15e595
 SetStoryOption gaData_bluff 1 gaData_bluff general ""Blefou para que os piratas lhe dessem suprimentos e combustível""","O líder pirata volta a olhar para o display. ""Agora, se não se importar, vamos pegar essas coordenadas de você e fazer um pouco do bom e honesto trabalho pelo qual o homem rico está nos pagando.""","gaData_transmitCoords:Transmitir as coordenadas e deixar os piratas pegarem os dados
 09074a6e1ac4ab60
@@ -2235,6 +2233,8 @@ Baird sorri sem alegria e então faz sinal para alguém do seu grupo avançar.",
 $global.gaFC_isirahClues++","""Coureuse está no sistema Isirah. Vou fornecer a você-"" ele faz uma pausa dramática enquanto digita algo na interface de controle dele; seu TriPad apita, ""com uma interceptação de dados de aparência plausível de uma comunicação entre ela e o Sr. Cavin Pharoh."" 
 0addfe8d5e263810
 $didUps++","""Você está se mostrando útil para a Reitora Baird, uma figura admirável em geral, mas que se prende obstinadamente à burocracia da Hegemonia.""
+0adf160510a069e7
+locrlfOfferTextContact2optB,locrlfOfferTextContact2opts,,,,locrlf_offerAcceptFirstContact:Aceitar,
 0ae33240d8686eff
 BFFImeetMenesBornanew3,DialogOptionSelected,$option == BFFI_meetMenesBornanew3,,,"BFFI_meetMenesBornanew4a:""Relaxe, $global.jethroName. Só estamos deixando você mais interessante para Menes.""
 0ae4df0f1e2cf903
@@ -2549,8 +2549,6 @@ FireAll MostLuddicEthosRefresh","Skiron se levanta, e seus tenentes se apressam 
 A tática franze a testa, sempre desconfiada, e diz: ""Isso acontece justamente quando nossa $shipOrFleet chega? Não gosto disso.""","abyssalGasGiant_turb4:""Todas as estações em prontidão. Sensores, deem alerta se houver qualquer mudança.""
 0d1395c7373d2f43
 FireAll GAATGluddicScanHub","""Ah,"" diz o $rank luddita, ""é você de novo. Por favor, respeite a paz abençoada que construímos aqui. Há espaço para todos, e temos pouco que valha a pena levar.""",,
-0d18a125ef7bb9cb
-FireAll PopulateOptions","As comunicações demoram um pouco para se conectar.
 0d1cdae78425bd30
 lpp_jangalaProtestMarinesHelpNo:""Pensando bem, deixo com você.""",
 0d1d90dada22490e
@@ -3175,6 +3173,8 @@ FireAll BlancCryoStoreLeoHub","""Acredito que me lembro dos detalhes da situaç�
 rdsmDecivInteractionRaid,rdsmplanetInteraction,$rdsm_variation == DECIV score:1000,FireBest rdsmraidBegin,"O oficial de sensores informa que uma varredura de alta potência das coordenadas fornecidas mostra que o $rdsm_target da megacorporação $rdsm_megacorpName está abandonado há muito tempo, mas parece relativamente intacto.
 114a72d75b61731a
 LOCRPraidFinishedB,LOCRPraidFinishedB,,"AddTextSmall ""Piratas feitos prisioneiros"" highlight
+114f9607720d5dd8
+""O quê?"" Um planetóide holográfico passa zunindo pela cabeça de Elek. ""Não acabamos de nos falar? Estou no meio da calibração do meu modelo, adeus. TriOS, encerrar—""
 1150ff812cffce8c
 Navete preparada, Neriene se despede de você na plataforma de lançamento.
 11511cdce0116d07
@@ -4138,7 +4138,7 @@ SetTooltip gaRR_preRaidPirate ""Uma frota hostil próxima está rastreando seus 
 1820660b7ac006b3
 ""Excubitor Orbis, "" seus olhos se voltam para você e Bornanew. ""comandante. Novato.""
 1821d0400bd7e193
-o tom dessa pessoa não está claramente impressionado. 
+O tom de voz é de total desinteresse.
 18231d9493cf0293
 AddText ""Ela olha inconscientemente para uma mesa com alguns brutamontes vestindo o uniforme de uma das guildas de mineração. Eles observam vocês dois, muito de perto. \""Nos fundos. Ele está esperando. Eu- eu não vi nada hoje.\""""",,"gaATG_meetCottonStart2:Ir para a sala dos fundos
 182b85c74162d9a6
@@ -4362,7 +4362,7 @@ Não dá para saber se Bornanew está corado, porque sua cabeça está inclinada
 19a298ddad0e506d
 pk_turnInPatherSel,DialogOptionSelected,$option == pk_turnInPather,,"$PersonName une as mãos e fecha os olhos, murmurando o que parece ser agradecimento à Providência.
 19a2cbfb0a7d965c
-CMSNTextSuitedPart1_tritachyon,CMSNTextSuitedPart1,$faction.id == tritachyon,,"""Hmm, sim, "" os olhos daquela pessoa se movem rapidamente, acessando implantes cibernéticos. ""Seu currículo é impressionante. Nosso departamento de capital humano está observando você há algum tempo.""
+CMSNTextSuitedPart1_tritachyon,CMSNTextSuitedPart1,$faction.id == tritachyon,,"""Hum, sim,"" seus olhos piscam rapidamente, acessando implantes cibernéticos. ""Seu currículo é impressionante. Nosso departamento de capital humano está de olho em você já faz algum tempo.""
 19afe33dcde24299
 $didUps++","""Você fechou um acordo com a Companhia depois de algumas negociações... assertivas. Para o benefício mútuo. Aplaudo sua audácia.""
 19b4dcab92e8fe83
@@ -4515,6 +4515,8 @@ gaATGdaudMeetingHubOptionA,GAATGdaudMeetingOptions,!$askedA,,,"gaATG_daudMeeting
 Fica claro que esses piratas sabiam que algo especial estava no abandonado e vieram procurá-lo. Eles também estavam escondendo suprimentos nas proximidades, então é provável que se dirijam para lá antes de tentar vender seu tesouro. Se sua frota viajar em alta velocidade, talvez consiga pegar os piratas antes que escapem.",gaDA_continuePirates2:Continuar,
 1ac50318755860be
 $Post $personLastName desvia o olhar de volta para a sua imagem. ""Caso contrário, entidades políticas independentes são arrancadas aos poucos e... devoradas. Com menos frequência nos últimos ciclos, diretamente, mas devoradas por dentro, de qualquer forma, por infiltração e corrupção.""",PLArmada_why2:Continuar,
+1ac654d6a6a0627d
+FireAll PopulateOptions","""Que outro negócio você gostaria de falar?"" Sebestyen pergunta alegremente.
 1ac6ec2da63a603c
 ""Há mais alguma coisa que eu possa fazer por você?""",,
 1ac824061bc4e92e
@@ -4977,8 +4979,6 @@ FireBest DialogOptionSelected","""Suponho que sim"", diz ele, virando-se para so
 AddTextSmall ""  Geodivisão Xanadu""
 1dbdff12e7f7d46d
 ""Digo eu, Comandante: prove.""",gaDHO_endingDataTransfer:Transmitir os dados,
-1dc390a445f058b6
-locrlf_offerAcceptFirstContact:Aceitar
 1dc44aff6278935a
 Ele assente vigorosamente, espalhando suor. A lealdade cega preenche seus olhos.
 1dca5e2eaf4af076
@@ -5513,6 +5513,8 @@ Ela lhe lança um olhar astuto. ""Ou é só uma vela.""",,
 Atrás, uma sombra humildemente, mas magnificamente vestida, espreita num nicho iluminado por velas. O curador do santuário, você deve supor.","lpp_hookStart2:Por que não? Olhar para o jovem missionário.
 2204332fdc879da4
 !$player.discussedHegemonyDefeat",,,"heg_talkAboutInspections:""Preciso falar com Daud sobre o que aconteceu com as frotas de inspeção dele.""",
+2208217a35468fd4
+""Vou lhe dizer uma coisa."" Ele ergue um dedo com confiança. ""Demonstro de forma constante valor agregado à seção de Aquisições Especiais. Enquanto meu superior direto estiver satisfeito, estou satisfeito em continuar com meu trabalho.""
 2208346832a10f50
 gaATGMagecGateExplode2a,DialogOptionSelected,$option == gaATG_magecGateExplode2a,FireAll GAATGmagecGateOptions,"""Se isso não funcionar, Comandante, então eu estive errada sobre tudo e... a Scylla esteve errada sobre tudo. Eu confio nela."" 
 22098afc735d2ade
@@ -5538,7 +5540,7 @@ BFFItalkHorusPartyOptC,BFFItalkHorusPartyOpts,,,,"bffi_talkHorusPartyOptC:""Como
 224374dfebac99b3
 $faction.id == pirates",FireAll RelLevelMoreDescription,"Os piratas respeitam sua presença imponente e tendem a respeitar a notoriedade que você conquistou no submundo, que lhe permite impor um pouco o seu peso para conseguir o que quer.",,
 224f04b980d666c6
-""Agora entenda que assinar este contrato de comissão com a Tri-Tachyon Corporation (e incorporações subsidiárias associadas) é um compromisso sério. Você assumirá o risco envolvido no combate aos beligerantes designados pela Empresa, sejam eles piratas, terroristas antimercado ou entidades de nível político que se envolvem em busca e apreensão ilegítimas de propriedade da Empresa.""
+""Agora compreenda que assinar este contrato de comissão com a Corporação Tri-Tachyon (e subsidiárias associadas) é um compromisso sério. Você assumirá os riscos envolvidos em combater beligerantes designados pela Companhia, sejam piratas, terroristas antimercado ou entidades políticas que pratiquem busca e apreensão ilegítimas de propriedade da Companhia.""
 224fed98f4d4957d
 gaDHOjustFoundArray2,DialogOptionSelected,$option == gaDHO_justFoundArray2,,"""Comandante. Está limpo.""
 225223ec12685a07
@@ -5569,8 +5571,6 @@ FireAll PopulateOptions","""É bom compartilhar o que sabemos por aqui, nunca se
 Um suspiro, como se estivesse desistindo, e então: ""Se não funcionar, estamos todos mortos, e vai ser tão rápido que nem vamos perceber. Se funcionar, vai doer. Esperem uma queda significativa na prontidão operacional. E vamos precisar de reparos.""
 226dcd05af95d870
 gaATGreturnLokeGateRunB,DialogOptionSelected,$option == gaATG_returnLokeGateRunB,,"""Não vai ser"", diz Zal. ""Eu prometo. E, além do mais, se fosse? Imagine o martelo que cairia sobre Kanta.""","gaATG_returnLokeGateRunA:""Navegação, trace o curso para o Portão Magec.""
-2275a5fd145921a3
-$presumedVisitPurpose = true 0","Risada. É isso que é. A risada de Kanta como cartuchos de autocanhão caindo de uma porta de ejeção. Metal contra metal, assassinato industrializado.
 2279a9d1e14d3936
 Balança a cabeça, quase arrependido. Então fala em voz alta: ""Tenho minhas ordens. E tenho clareza de visão para vê-las cumpridas até o fim, custe o que custar! Se eu morrer, o Diktat Sindriano viverá! Glória ao Executor Supremo!""
 227c5eb713fb669f
@@ -6023,8 +6023,6 @@ aiCores_turnInOptionSelGeneric,DialogOptionSelected,$option == aiCores_startTurn
 FireAll GAFCAskLaicailleBar1Options","Você pergunta por aí sobre o acadêmico desaparecido, pagando bebidas de preço moderado para lubrificar o fluxo de informações. Este é um bar de espaçonautas, e, embora os espaçonautas tentem cuidar uns dos outros, você encontra poucas pistas, principalmente dar de ombros e pedidos de desculpas.
 25e6a299e9c08bea
 HA_CMD isPLProtectingPlayerSpace",,,"RHannan_whyHarassing1:""Por que as frotas da Liga estão assediando minhas colônias?""",
-25eb779d21ac94e8
-A boca de Cydonia é uma linha achatada e trêmula.",kpAudiencePresume:Continuar,
 25eff57efe7d8374
 FireAll LPPVolturnCurateResponses1","Ela observa você por um longo momento.
 25f20d3510ad880e
@@ -6351,6 +6349,8 @@ bairdIntroHubA2,BairdIntroHub,$bairdIntro_whyShould,,,0:bairdIntro_tellMeMore:De
 PLDealArgumentsDefeatedPunEx,PLDealArguments,$player.defeatedLeaguePunEx,,,"rh_defeatedBlockade:""Derrotei sua expedição punitiva. Você tentou usar força direta contra mim e fracassou.""",
 2808ed3c9aef3799
 ""Claro, se eu descobrisse um holovídeo do Julgamento de Ludd, algum fanático tentaria me assassinar logo depois de distribuí-lo. Não que eu conseguisse me conter."" Sorri de maneira travessa e então reflete. ""Se algum dia você encontrar algo assim em alguma velha carcaça abandonada, me daria uma cópia, não daria?""",,
+280bb2ced7413323
+FireAll RetireOptions","Sua história poderia terminar aqui, navegante estelar. Você pode se aposentar, aproveitar a vida e finalmente descansar um pouco.
 280be06baf3d3303
 LKEpatherFleetSPOpt,DialogOptionSelected,$option == lke_patherFleetSP,$player.ethosLiar++,"""O Irmão Cotton falou com você?"" Os olhos se estreitam.
 280c5161ec1e1067
@@ -6857,6 +6857,8 @@ BFFImmBornDoStealHubF,BFFImmBornDoStealHubOpts,$saidDoStealHubLetGo ,,,"bffi_mmB
 ""Certo?""","pk_turnInArroyo3a:""Com certeza.""
 2b3005b1d0abcbca
 BFFIulmusTalkPcGood1b,DialogOptionSelected,$option == bffi_ulmusTalkGood1b,$messedUpOnce = true 0,"Os olhos de Pond se arregalam, o rosto pálido, a respiração em arquejos.
+2b32687c264a9290
+""Você os encontrará? Pela Igreja? Descubra o que aconteceu com eles. Traga notícias para mim, e então eu relatarei ao, ao arcivigário. Recebi fundos para a operação, $locrlf_rewardAmount créditos. Eles são seus depois que você trouxer dados conclusivos sobre o destino dos hereges.""","
 2b338683037cf008
 $kpNumGifts++",,,10:kpLobster:Mil unidades de lagosta volturniana,
 2b33dfa37cb737c8
@@ -8205,6 +8207,8 @@ FireBest DialogOptionSelected",Ele solta um bufo impaciente.,,
 AddTextSmall ""Dados táticos dos complexos de Nile Virens recebidos"" highlight
 33dcb482a8db7d09
 Depois de conquistar a atenção, você se põe a falar sobre os perigos e as provações que enfrentou - como é possível que você esteja aqui, vivo, para contar a história? Entre risadas, aplausos e momentos de silêncio, você fala de seus feitos para o público fascinado e, numa conclusão retumbante, de alguma forma conecta tudo aos piratas ferozes e livres do Setor Perseano, para aplausos de todo o bar.
+33dd6a31ffeb3898
+!$ZGRtoldMe",FireAll PopulateOptions,"Ele esfrega o queixo, fazendo um teatrinho enquanto reflete sobre o assunto.
 33e2fc9539c0f94a
 ""Tenho uma lista de suspeitos. Uma toupeira na Catedral do Santo Êxodo. Preciso de provas. Quem... levar à inquisição. Obtenha dados concretos. A digitalização da luva original, os metadados podem nos dizer algo. Buffers de comunicação. Arquivos. Tudo útil."" 
 33e63a188ffc6f49
@@ -9221,8 +9225,6 @@ PKTurnInChurchAvoid,DialogOptionSelected,$option == pk_turnInChurchAvoid,FireAll
 soe_meetCaspianMaybe:""Vou pensar nisso.""
 3b101a663aaecf28
 ""A reviravolta dele nos feriu"", diz com suavidade. ""Feriu a própria Hegemonia, bem fundo."" Acena de leve, perdendo-se em alguma lembrança antiga.",,
-3b16046c188f4447
-RemoveOption locrlf_offerBarCynicalRewardAsk","Uma onda de culpa, rapidamente reprimida, atravessa o rosto.
 3b16afcd6684690c
 FireAll SDTURamPrepOptions","Seu armeiro ergue uma sobrancelha e dá uma ordem silenciosa pelo comunicador de mão. Em um minuto, um tripulante traz sua espada, entregando-a ao armeiro, que então a oferece a você com as duas mãos, como é correto.
 3b16c4080a5f548a
@@ -9401,8 +9403,6 @@ HistorianBackstoryBlurb22,HistorianBackstoryBlurb,!WasHistorianBlurbShown histor
 lppHesperusShrineOptionBribedIn,HesperusShrineOptions,$market.bribedIntoHesperus,"AddText ""Um subcurador de manto arrasta os pés até você. \""Bênçãos sobre você. Sua chegada... ah, esperávamos um grupo maior de peregrinos,\"" dizem eles, \""mas não importa; a fé de um é a fé de todos.\""""",,,
 3c1ddf0177769f08
 ""Comandante $playerName. Nos encontramos de novo.""","postGAFC_retiredArchon1:""O que aconteceu? Você não era o arconte de Laicaille?""",
-3c239a165e03ccbc
-""Areconhecido, jogadorSirOrMadam.""
 3c28976ece99657f
 DEVqarasOptSel,DialogOptionSelected,$option == dev_qarasOptions,,,"dev_qarasShowKOJove:Mostrar KO Jove
 3c2a99d0ea168244
@@ -9463,6 +9463,8 @@ BFFIulmusSedge3b,DialogOptionSelected,$option == bffi_ulmusTalkSedge3b,,"O sangu
 ""Fonte de energia pequena, ativa"", informa seu oficial de sensores. ""Sem destroços. O retorno do sinal de navegação está normal. Tudo parece limpo, Comandante.""
 3c8cd0d4c2cc88bf
 cpmOfferOptionBarPather,cpm_optionBar,$faction.id == luddic_path,,,cpm_startBar:Aproximar-se do contrabandista de ar pensativo na cabine privativa,
+3c8d983b6218ee9c
+!$global.sd7s_missionCompleted",,,"pk_hackStoryWhatDoGiveDiktat:""Vou dá-lo ao Diktat Sindriano, para destruir os inimigos deles.""","# Not going to deal with a post-Philip SD here,  ... yet?"
 3c925e33d9aa9bfc
 bar_descLuddicChurch,BarPrintDesc,$faction.id == luddic_church,ShowImageVisual teahouse,"Você se esquiva de avisos que incentivam a temperança e a moderação ao entrar no bar. Alguém toca um instrumento de cordas num nicho. Uma fila de samovares feitos à mão sugere que o chá é servido com tanta frequência quanto a fraca bebida de grãos preferida pela tripulação de trabalhadores de aparência bruta no balcão. Muitos dos frequentadores nas mesas ou nos reservados parecem ser forasteiros ou descrentes locais, aninhados no análogo mais próximo de um antro de pecado que se pode encontrar.",,
 3c93ed5cd02baa25
@@ -9729,8 +9731,6 @@ paPZ_gargZigWhine:""Se você só quer reclamar disso, posso seguir meu caminho."
 gaATGdaudMeetingHubEnd,DialogOptionSelected,$option == gaATG_daudMeetingHubEnd,,"Baikal Daud toca em seu datapad, descartando o campo de privacidade.",gaATG_daudMeetingHubEnd2:Continuar,# got here from auto-trigger; stagger for pacing 
 3e5166f5c8d2611a
 Há uma mancha com forma humana. Os detalhes voltam em uma enxurrada.","bffi_arrestOutroPCshotA:""$global.jethroName?""
-3e5500064a76a0b1
-!$market.gotPermissionToLandFromSK",FireBest KDSKConvoStart,"O piloto passa pela conversa de rotina com o que se faz passar por controle de tráfego. Um suborno anterior significa que você é reconhecido e recebe um pedido de comunicação direta com o rei da estação, sem espera.",kd_stationKingStart:Continuar,
 3e5818507d85657d
 lppHookCurateCottonTalk,DialogOptionSelected,$option == lpp_hookCurateCottonTalk,,"O curador parece cansado, mas considera a resposta. 
 3e5c633af7d9090d
@@ -10840,7 +10840,7 @@ Call $dhi_ref showMap ""Alvo: $dhi_marketName""","Você acompanha o ajudante at�
 462504bf02db8d47
 SetTooltip bffi_ulmusPondMeBad ""Considerando o passado criminoso dele, você não quer colocar $global.jethroName de volta no papel que ele se esforçou tanto para deixar para trás.""","Bornanew guardou seu caderno e o velho datapad barato numa bolsa que parece feita de couro. Você já ouviu falar do processo primitivo que os luditas supostamente usam para produzir o material: a pele de um animal é retirada e depois cozida, de algum modo, com seus próprios resíduos. Soava insuportavelmente primitivo quando descrito. Desinformação anti-luddita, talvez, porque você não detecta cheiro de fezes nenhum.
 4625f9f5999d4b82
-oc_savingOnCombaPaySel,DialogOptionSelected,$option == oc_savingOnCombaPay,,"Essa pessoa acena com ceticismo. ""Um. Entendido, comandante.""
+oc_savingOnCombaPaySel,DialogOptionSelected,$option == oc_savingOnCombaPay,,"Um aceno cético com a cabeça. ""Humm. Entendido, Comandante.""
 46284b3d593239a1
 PKSentinelConfrontAIRespB2,DialogOptionSelected,$option == pk_sentinelConfrontAIRespB2,$player.ethosTruth++,"""Um princípio admirável em abstrato, capitão"", diz ela. ""Pergunto-me se você o concede à sua tripulação com tanto entusiasmo quanto a si mesmo.""
 4629a8623bd091b9
@@ -10985,6 +10985,8 @@ lppGileadMissionEndLeaveAttempt,DialogOptionSelected,$option == shrineDoLeavePos
 hegTalkInspectionsDaudHubOptB,HEGtalkInspectDaudHubOpts,$global.gaPZ_missionCompleted,,,"heg_talkInspectDaudBaird1:""Então, como vai o acordo com Baird?""",
 4736be321facb32b
 gaATGttScanFleetHub4,GAATGttScanFleetHubOptions,$madeBribeOffer,,,"gaATG_ttScanFleet4:""Sobre comprar esses dados...""",
+47395167afbf7126
+!$player.locrlf_negotiatedHigherRate","SetTooltip locrlf_offerCynicalRewardAsk ""Você é cínico o bastante para enxergar através da encenação de piedade que esses chamados 'Fiéis' fazem. No fim, o que importa são créditos e poder.""",,"locrlf_offerCynicalRewardAsk:""A Igreja está lhe dando mais de $locrlf_rewardAmount créditos por este trabalho, não está?""",
 473ab1ff85435d94
 ""Deixe-me ser o primeiro, então, a dar as boas-vindas à Liga Perseana, $playerName. Juntos construiremos um futuro digno para o Setor Perseano e, um dia, a própria galáxia.""
 473b98b76d056737
@@ -11081,8 +11083,6 @@ cTap_printEffect,DialogOptionSelected,$option == cTap_continue,"SetTextHighlight
 AdjustRepActivePerson FRIENDLY 10","""Hum. Acho que você não é de uma célula de que eu tenha ouvido falar. Mas isso é uma boa OPSEC."" Essa pessoa assente devagar.
 47f07d482c3f8715
 ""E, hum."" Olha ao redor do abrigo temporário onde está. ""Há equipamentos. Maquinário pesado, pelo menos 12 unidades que poderiam ser recuperadas. A Companhia simplesmente deixou para trás, então por que não levar?""",,
-47f1eaf1e3602252
-""A não ser que"", ela faz uma pausa, então olha para você por cima de seus AR-óculos, falando com calma, ""eu tenha julgado você gravemente mal, e seu coração esteja decidido a liquidar sua frota, doar o lucro para a caridade e se juntar a uma ordem flagelante em Hesperus... não, já sei - você tem lido muito; bem, assistindo a holovídeos de canal sombrio, sobretudo - e está pensando em se alistar como executor político, quebrando dentes em nome do reinado de mil ciclos do 'Leão de Sindria'. Acertei?""
 47f5939c84a7f93a
 gaATGpostSebestyenBairdBad,DialogOptionSelected,$option == gaATG_postSebestyenBairdBad,,"""B-bem, ela tem estado sob muita pressão. E"", ele não encontra seu olhar enquanto fala. ""Ela só, só não tem tempo para pensar tanto nos sentimentos das pessoas quando, quando há problemas tão grandes, e coisas assim.""
 4800196855d92ac2
@@ -11328,7 +11328,7 @@ DoCanAffordCheck $sitm_price contact_accept false","Pensa por um momento, então
 49931c4a76141d13
 ArroyoAskAboutZGR2optD,ArroyoAskAboutZGR2opts,,,,"arroyo_askAboutZGR3d:""Com certeza dá para usar isso contra ela.""",
 49964c9b44426c1c
-Seus escudos aguentam firmes sob a saraivada de sarcasmo disparada pela Reitora.",,
+Seus escudos mantêm-se firmes sob a saraivada de sarcasmo disparada pela Reitora.",,
 499bd022980679bd
 Um oficial sênior da MuniSec fica em rígida posição de sentido enquanto você sai cambaleando pela porta, resmungando no comunicador para providenciar a busca.",,
 499cfc427fc06958
@@ -11413,8 +11413,6 @@ Eles se afastam com precisão, armas na vertical. ",bffi_deliverToOak3:Entrar no
 Ele pega seu pequeno Livro de Ludd, o coloca deliberadamente em suas mãos e dá tapinhas nele. ""A Palavra é o Caminho, e o Caminho é a luz. Quando você o vir, não terá necessidade de perguntas.""",,
 4a38296557984174
 ""Só nós, mineiros azarados por aqui. Viu alguma carcaça boa por aí? Ou é só a que você está pilotando? Ha-ha.""",,
-4a38d458caeb4a9f
-SetTooltip locrlf_offerBarCynicalRewardAsk ""Você é cínico o bastante para enxergar a piedade dos 'Fiéis'. No fim, sempre se trata de créditos.""
 4a3d47ac3c7781a0
 affkAcceptB:""É um prazer atender aos desejos da Senhora da Guerra."" (aceitar)
 4a45f1cf9aa36fb9
@@ -11794,7 +11792,7 @@ lppVolturnCurateResponses2SDg,LPPVolturnCurateResponses2SD,,,,lpp_volturnShrineF
 4cb3367eba71b0f6
 bffi_arrestOppoB:""Você menciona isso agora? Devíamos ter nos preparado.""
 4cb3dddad0e66939
-Será a celebração final dos fabricantes de ferramentas, dos modeladores do mundo que reivindicam o barro bruto do universo e produzem esplendor e riqueza; é tudo o que significa ser humano e muito mais.",retire_gracefullyConfirm:Continuar,
+Será a celebração definitiva dos criadores de ferramentas, dos moldadores de mundos que reivindicam a argila bruta do universo para gerar esplendor e riqueza; é tudo o que significa ser humano e muito mais.",retire_gracefullyConfirm:Continuar,
 4cc0a014882b71d0
 gaKACoureuseAskAbtCavinC,DialogOptionSelected,$option == gaKA_courAskAbtCavinC,FireAll PopulateOptions,"""Não me importo. Isso foi há alguns ciclos, de qualquer forma."" 
 4cc318348e39f652
@@ -12275,8 +12273,6 @@ FireAll LPPVolturnShrineRazedTea","A antecâmara do santuário está vazia, tão
 $player.isLeagueMember",,,"gaATG_introAsk1:""Qual é a sua opinião sobre a Gens Yaribay?""  ",
 4ff7e6c11a8262dd
 As pesadas portas do santuário - perfuradas por feixes de partículas de fogo (a julgar pela longa experiência) - estão abertas o suficiente para permitir a entrada a pé. O dano poderia ter sido reparado, mas talvez seja visto como objeto de contemplação.
-50046c202288fb3f
-andradaOfficeBook,DialogOptionSelected,$option == andradaOffice_book,$askedServeAndrada = true 1,"""Este será seu ponto de partida: um pequeno livro de sabedoria reunido a partir das reflexões do Leão de Sindria. Cidadãos do Diktat Sindriano, seguidores da Visão Gloriosa, descobrem que essas palavras podem elevá-los em todos os aspectos da vida cotidiana.""
 500aaf970d05e287
 RaoPitchDiktatCom2a,DialogOptionSelected,$option == rao_pitchTestDiktatCom2,,,"rao_pitchDiktatCom3a:""Quem é Dolos?""
 500db0cac389a7d2
@@ -13297,6 +13293,8 @@ Ludd sabe o que o Caminho Luddita planeja fazer com ele. Você, porém, concordo
 Call $global.gaATG_ref clearedHegemonyGateSendScans","""Então a missão está liberada. Pode prosseguir, Comandante."" diz o $rank da Hegemonia, com um pequeno sorriso, e corta a comunicação.",cutCommLink:Cortar o link de comunicação,
 56fb3a243c0dd76c
 BlancDefaultBack,DialogOptionSelected,$option == blanc_defaultBack,FireAll PopulateOptions,"Ele balança a cabeça lentamente, sem piscar.",,
+56fb7e3efd4de42c
+DoCanAffordCheck $cheapCom_totalPrice cheapCom_pickup true","""Ah, é $playerName, não é? Você deve estar aqui para retirar $cheapCom_quantity unidades de $cheapCom_commodityName por $cheapCom_pricePerUnit créditos por unidade"", toca no TriPad, assentindo. ""Podemos deixar tudo pronto agora mesmo, se você estiver preparado para receber a carga.""","cheapCom_pickup:Pegar $cheapCom_commodityName
 56fddf139fe04d2e
 ""Uma pergunta me inquieta: sua inclinação é uma vida de julgamentos equivocados, guiada por uma paixão sem rumo?""",lpp_ending8:Continuar,
 56fe83adc8cecfb0
@@ -13444,7 +13442,7 @@ Quando prestes a falar, você toma a iniciativa e diz-",,
 57f1cce185505b22
 $entity.isTradeFleet score:100","AddTextSmall ""Hostilidade devido ao uso de modificações incomuns"" bad
 57fc383413b3aaa9
-""Comandante,"" essa pessoa responde roboticamente. Você pode ver a decepção nos olhos dessa pessoa.",cutCommLinkOfficerConv:Cortar o link de comunicação,
+""Comandante,"" responde de forma robótica. O desapontamento é evidente nos olhos.",cutCommLinkOfficerConv:Cortar o link de comunicação,
 57fe68d9e99ffa3a
 FireAll GAKAHegAgentHub","O barman, suando, coloca duas bebidas na mesa entre vocês e sai apressado.
 57ffa661df2154f5
@@ -13561,6 +13559,8 @@ FireAll LKEchalcedonBarSedgeOpts","Sedge balança a cabeça: ""Você não entend
 ""O que você está fazendo?""","arroyo_askAboutInesis3:""Apedindo desculpas. Lamento ter chateado você.""",
 58c364401909d657
 FireAll PopulateOptions","""Espero que você aprecie esta celebração refinada da história da Hegemonia"", diz o cadete, ""desde o voo heroico do Almirante Molina para salvar o Setor Perseano do colapso até a vitória do Alto Hegemon Daud sobre os invasores da Tri-Tachyon e das IAs.""",,
+58c814e65c5518d1
+Você imagina um palácio erguido sobre as montanhas de Eochu Bres; uma terra nova e intocada cuja vida e existência são forjadas pelo engenho da humanidade... e de suas criações.
 58c83f7585e58a23
 $player.bladeSkill",,,"rao_nerieneSelWonD:""E com facilidade. Aqueles brutamontes não perceberam que eu tinha estudado a lâmina.""",
 58cab2f779c76922
@@ -14421,8 +14421,6 @@ Após um breve tempo, a imagem da Arquicuradora Jaspis aparece. Ela faz pouco es
 ""E talvez até entre possíveis iguais, cada um deve contribuir com o que tem de melhor, não concorda? Alguns créditos pela proteção, é uma troca justa.""",,
 5e95ecc51261a32e
 !$cheapCom_barEvent",SetTextHighlights $cheapCom_quantity $cheapCom_pricePerUnit,"""Daria no total de"", aperta os olhos para o TriPad, ""Pronto- $cheapCom_quantity unidades de $cheapCom_commodityName por $cheapCom_pricePerUnit por unidade. Se você puder me ajudar a esvaziar este armazém, me faria um grande favor.""",,
-5e97a3c8731a7d49
-lpp_jangalaattendantVisitOutside:""Quero dizer lá fora. O santuário de verdade.""
 5ea2143c3ce07140
 ShowImageVisual protest","O saguão está um caos. Um grupo de manifestantes com trajes verdes luditas formou uma barreira humana na entrada principal. Ao redor deles, espaçonautas irritados, oficiais e tripulantes esperam para entrar no passeio comercial ou voltar às suas naves.
 5ea2cbc0ae16abea
@@ -14795,8 +14793,6 @@ gaATG_zalMissionStart2:""Eu saí. Sempre saio.""
 ""O que ele fez desta vez?""",,
 60e736595c44107c
 TTmarketWeirdMods2,DialogOptionSelected,$option == TTmarket_weirdMods2,,"""Veja só, não pudemos deixar de notar certas... características únicas da sua $shipOrFleet. É incomum... muito incomum.""
-60e94cf85734ddbf
-Você imagina um palácio situado nas montanhas, em uma terra nova e crua, cuja vida e vivência são forjadas pela engenhosidade da humanidade... e de suas criações.
 60ed465c99d9589c
 PK_CMD rightPostToAcceptPK",,,locrl_hereticsToKnights:Perguntar sobre entregar uma comunidade de hereges,
 60f18b3ecb890558
@@ -15143,6 +15139,8 @@ raoFastOneCe,DialogOptionSelected,$option == rao_fastOneCe,,"""Não peça descul
 Call $extr_ref updateStage","O $faction $rank diz: ""Bom trabalho, Comandante. Preciso admitir que eu não estava totalmente convencido de que nosso agente poderia ser extraído com segurança. Os Caminhantes... nunca é uma batalha de frente com eles."" Balança a cabeça.
 6311c2903b63fd4d
 lpp_hookCuratePilgrimage:""Eu faria uma peregrinação a cada um dos santuários.""
+631432fe5d0f738f
+!$market.gotPermissionToLandFromSK",FireBest KDSKConvoStart,"O piloto passa pela conversa de rotina com o que se faz passar por controle de tráfego. Um suborno anterior significa que você é reconhecido e recebe um pedido de comunicação direta com o rei da estação, sem espera.",,
 6316553ea9af01e5
 SetShortcut CGRmarket_weirdEnd ""ESCAPE""","""Os curadores de tecnologia já julgaram a sua... sua combinação profana de engenho humano e 'tecnologia' demoníaca"", diz. ""Sua comissão está revogada. Você está excomungado, declarado fora da lei e inimigo da Fé.""
 6323f1ba5b2d5800
@@ -15205,6 +15203,8 @@ AddText ""Um pacote de instrumentos orbitando este planeta envia uma transmissã
 FireBest DialogOptionSelected","""Eu conhecia Sedge como um homem grosseiro, e cruel.""",,
 638f68c0c13201fe
 GAFCSiyavongFikenhildHubAopt3,GAFCsiyavongFikenhildHubAopts,,,,"gaFC_fikenhildSiyavongWhereScylla:""Onde está Scylla Coureuse?""",
+639320dfefb66a5e
+""Descubra o que aconteceu com eles. Traga notícias para mim, e então eu relatarei ao arcivigário. Recebi fundos para a operação, $locrlf_rewardAmount créditos. São seus depois que você trouxer notícias dos hereges.""",,
 6394dfc5a8f44bb4
 100:gaDuringTutorialLeave:Agradecer ao oficial e encerrar a transmissão.",
 639605d5249db6c1
@@ -15281,6 +15281,8 @@ PKSentinelConfrontAIRespG2,DialogOptionSelected,$option == pk_sentinelConfrontAI
 RaoAskDolosOptsE,RaoAskDiktatDolosOpts1,,,,"rao_askDolosOptEsel1:""Acho que eu poderia assumir o Diktat Sindriano se jogasse direito.""",
 6418bf347a5cbd0a
 O oficial ergue os olhos para alguma forma ideal que existe num espaço imaginado. ""Juntos, unidos na força, nos opomos a tiranos de quinta categoria, fanáticos e megacorporações, igualmente.""
+6419b59b6b07313b
+SetTooltip andradaOffice_book1sd ""E é a sua intenção; talvez haja sabedoria e poder a serem obtidos da filosofia de Andrada...""","""Este será seu ponto de partida: um pequeno livro de sabedoria reunido a partir das reflexões do Leão de Sindria. Cidadãos do Diktat Sindriano, seguidores da Visão Gloriosa, descobrem que essas palavras podem elevá-los em todos os aspectos da vida cotidiana.""
 641b15d68de30759
 lkeMazBarAgentOptYaribay,LKEMazBarAgentOpts,$player.gotYaribayCredentials,,,"lke_mazBarAgentRespYaribay:""Antes de continuarmos, deixe-me mostrar minhas credenciais diplomáticas da Gens Yaribay.""",
 641be19e2ced9d67
@@ -15409,6 +15411,8 @@ FireAll HesperusInitiateResponses","No nicho ao lado, um jovem Iniciado Cavaleir
 AddTextSmall ""Dados de encontro anômalo transferidos"" highlight
 64cd5a3424fda1d6
 lpp_hesperusExcubitorWait1:Esperar até o fim
+64cf93024ac43fd3
+FireAll PopulateOptions","Seus olhos piscam.
 64d00f0aa6c03f08
 $sedgeKillLie",$player.ethosLiar++,"""Você não está errado nisso"", diz Virens. ""Ele morreu como viveu, por meio de um ato aparentemente aleatório de violência desenfreada.""
 64d0a307b81524e4
@@ -15497,6 +15501,8 @@ MOTRplayerColonyOptA,MOTRplayerColonyOpts,,DoCanAffordCheck $motr_price motr_pla
 FireBest DialogOptionSelected","""Não"", diz ela, impassível. ""Não é bom.""",,
 657245e345373494
 FireAll GAFCIsirahMercHubOptions","As comunicações se abrem.
+657456a2d748e5bb
+$player.gotInesisContactFromZGR",,,"1:inesis_zgrTold:""Zunya Glamor-Rotanev me disse para falar com você...""",
 6575c13f6c5a9870
 gaPZ_ttHubThreat,DialogOptionSelected,$option == gaPZ_ttHubThreat,,"O $rank da Tri-Tachyon parece pego de surpresa, e faz uma pausa para engolir em seco, desconfortável.
 6576561fd5388bc9
@@ -15607,6 +15613,8 @@ Call $smug_ref showMap ""Destino: $smug_marketName""","""Preciso de $smug_quanti
 Suspira, balançando a cabeça. ""Vou sinalizar sua comissão por um ciclo, para que reflita e reze por perdão. Agora tire essa cara pecadora da minha comunicação.""",,
 662a575b5b0902d7
 ""Agradecemos por essas informações, capitão"", diz Skiron, devolvendo um datapad a você. ""Muita coisa mudou, mas me dá grande satisfação saber que o Comando nos aguarda.""
+6637df93e6310979
+Uma pausa e, em seguida: ""E também àqueles que não são peregrinos."" O olhar volta-se para você com expectativa.",,
 6641854141273326
 $entity.ignorePlayerCommRequests = true ","""Ordenei ao meu quartel-mestre que ejete o módulo de carga, então é todo seu,"" diz o catador, irritado. ""Brilhe forte, Comandante... num asteroide, pelo que me importa.""
 6642eb015f590f72
@@ -15943,8 +15951,6 @@ Você encontra um homem grande, com um longo sobretudo empoeirado e com capuz, q
 LKEjethroDead2,DialogOptionSelected,$option == lke_jethroDead2,,,"lke_jethroDeadOut1:""Sim. Basta dizer a palavra.""
 689bfc04cdba2ad1
 Para ajudá-lo a entender, você lança um olhar preocupado e move os olhos ao redor. Então, em voz baixa, explica que talvez seja melhor discutir isso depois. ""Acidentes"" desse tipo não acontecem por acaso, e quem sabe se não há mais cobras na organização? Alguém deve estar fazendo uma jogada - mas não podemos deixar que saibam que sabemos, muito menos deixar que saibam que sabemos que eles sabem que sabemos.
-68adfc9a6cd91d11
-Call $global.gaData_ref showMap ""Alvo: $gaData_planetName""","""Então esta é fácil, né? Tudo o que você precisa fazer é chegar a $gaData_planetName, no sistema $gaData_systemName, que fica"", consulta outro datapad, ""a cerca de $gaData_dist anos-luz daqui. Vamos fornecer as coordenadas exatas do $gaData_target a que você precisa acessar, hum. Depois, quando estiver de volta ao alcance da hipercomunicação, envie o conteúdo criptografado de volta para a Academia, e o setor financeiro pagará $gaData_reward créditos.""","aseb_accept:Aceitar
 68aef805a686d7bb
 fusionLampMainOptions,FusionLampMainOptions,,,,"0:fusionLamp_changeColor:Ajustar o alcance visível de emissão da lâmpada
 68b136e2c0768088
@@ -16535,6 +16541,8 @@ PKSentinelAskDangerVague,DialogOptionSelected,$option == pk_sentinelAskDangerVag
 ""Interessante"", diz ela, soltando um fôlego. ""Sim. Isto é o que estou procurando.""","zgr_makePitch11:""Então você sabe o que é. Houve outra expedição antes de mim?""",
 6c9033fc0f6065eb
 $trust--","A expressão de Hyder endurece. ""Seu juramento de comissão ao Diktat Sindriano não significa nada? Você deu sua palavra, então. E agora?""","sdtu_hyderReleaseInsistCom1a:""Você tem razão, o juramento que fiz é mais importante. Vou fazer o relatório."" 
+6c93c7154ab58518
+locrlfOfferTextBar2optC,locrlfOfferTextBar2opts,,,,contact_declineBar:Recusar,
 6c949c905da239cd
 ttContactBribeRepDecline,DialogOptionSelected,$option == ttContact_bribeRepDecline,FireAll PopulateOptions,"""Estou simplesmente apresentando uma opção"", diz, com total seriedade. ""Me avise se reconsiderar.""",,
 6c95ec48be7e75a8
@@ -16567,6 +16575,8 @@ Você é convidado a entrar por um recepcionista corporativo obsequioso.",ZGR_fi
 !$global.sdse_playerHelpedVSDCfinished",SetOptionColor DEV_standfastVSDCoffers gray,,102:DEV_standfastVSDCoffers:>> (dev) atender todas as solicitações VSDC,
 6ccdd4d3c196ff13
 ""Não seria tão grande quanto uma matriz de comunicação normal. Há uma miniaturização muito inteligente aqui - frágil, sim, se furtividade for o objetivo... Quem construiu isso usou peças recolhidas de destroços. Uma variedade selvagem de fontes. Talvez seja pirata? Mas é mais sofisticado do que qualquer trabalho de pirata que eu já vi.""",gaFC_probeInvestigaitonWrapUp3:Continuar,
+6ccf8082419f539c
+Baird retira os óculos e se levanta, com sua costumeira frieza completamente abalada, e esbraveja: ""Vá agora! Pegue o arquivo antes que outra pessoa o faça! Por que está esperando, vá!""",cutCommLink:Continuar,
 6cd189b07ad943d2
 $faction.id == tritachyon",,"O caos começa a se espalhar; tripulantes e moradores olham, e os mais bêbados e furiosos se levantam. Alguns executivos ao fundo reviram os olhos e ativam um campo de privacidade enquanto seus guarda-costas saem das sombras para proteger o pequeno bolsão de paz deles.
 6cd3dcab641d32ec
@@ -16655,6 +16665,8 @@ GS_ACADEMY_cont7Sel,DialogOptionSelected,$option == GS_ACADEMY_cont7,$salvageLea
 FireAll LPPVolturnCurateResponses1","Ela sorri enquanto retira a pistola que segurava sob o tecido artesanal, abre os olhos e então a guarda num coldre.
 6d5ed3f2acff6248
 SetShortcut cutCommLinkPolite ""ESCAPE""","""Quanto ao local, meus dados indicam que ela está em algum lugar além da órbita de Pontus - chegue lá, depois siga para além do cinturão de asteroides e use um ""Pulso de Sensor Ativo"". Você deve, no mínimo, obter um contato de sensor com a sonda.
+6d6507e789425c2c
+RetireEochuBresSel,DialogOptionSelected,$option == retire_optEochuBres,,"O seu, naturalmente, seria maior.
 6d6882f6718e6747
 $global.gaDHO_declinedTwice2 score:4",,"O acadêmico Elek não poderia saber que os dados do seu sensor levariam a... isso. Ele poderia?
 6d6b401415e687ba
@@ -17499,8 +17511,6 @@ FireAll devVolturnOpts",Feito.,,
 ""Se tiver assuntos comerciais a discutir, entre em contato com o Comando de Operações.""
 737f10dab9953c96
 Um aviso do seu TriPad indica uma transferência de fundos.",,
-738875bd9211e57c
-Você pode fazer a sua parte para ajudá-los a fazer a deles.",retire_gracefullyConfirm:Continuar,
 738b041d79b034d4
 $gaPZ_stage == GET_KELISE_LEAD",,,"gaPZ_gargKelise:""Pode me ajudar a encontrar Kelise Astraia?""",
 738c5c5c1f8ef34a
@@ -18560,7 +18570,7 @@ O mercenário pisca. ""Mas tenho certeza de que um comandante inteligente poderi
 7a44b4732ed7363c
 PKPatherComDontNegotiate,DialogOptionSelected,$option == pkPather_recoverMissionTerrorists,RemoveOption pkPather_recoverMissionTerrorists,"""Nem nós com um profanador da Criação"", diz, calmamente. ""Mas você sabe que nem sempre é verdade.""",,
 7a4902282a51448f
-$entity.fwt_encounteredAlready = true","O link de comunicação ganha vida. ""Saudações, starfarer! "" $Rank $personName faz uma careta de pesar, ""Más notícias: você possui algo que meus superiores desejam e agora deve entregá-lo a mim.""
+$entity.fwt_encounteredAlready = true","O link de comunicação estala ao abrir. ""Saudações, navegante estelar!"" $Rank $personName faz uma careta de pesar: ""Más notícias: você possui algo que meus superiores desejam e agora você deve entregar isso a mim.""
 7a4d840c0863bc37
 $player.credits > 499999","SetTooltip bffi_mmBornBuyerPoor ""É um desperdício de dinheiro, $global.jethroName.""",,"bffi_mmBornBuyerDestroy:""Talvez eu tenha muito dinheiro, mas você pretende destruir a luva, certo?""",
 7a58c091c9d38167
@@ -19143,8 +19153,6 @@ lke_virensKillSedgeBruteB-B:""E eles também vão morrer, se escolherem o assass
 $global.gatesActive",,,"lke_jethroAngels:""Espere - o que foi aquilo sobre a 'canção dos anjos'?""",
 7e633301adc45545
 ""Ótimo. Agora só preciso calcular... "" $personName começa a digitar no datapad.
-7e640155eff7f859
-""De qualquer forma, os hereges compraram uma nave de transporte e fugiram para a fronteira. Foram vistos pela última vez por um catador, que reportou o avistamento a... bem, a um dos fiéis, de qualquer forma. Agora, se você os encontrar e voltar comigo com dados conclusivos sobre o que aconteceu com eles, eu lhe darei a recompensa da Igreja de $locrlf_rewardAmount créditos.""","locrlf_offerBarCynicalRewardAsk:""A Igreja está dando a você mais de $locrlf_rewardAmount créditos pelo trabalho, não está?""
 7e65ba2ac20e5e0e
 ""Comandante,"" diz ela, ""o primeiro protótipo do Dispositivo Janus está sendo transferido para sua $shipOrFleet. Teste-o numa malha de Portão que você tenha escaneado. Registre tudo com o seu conjunto de sensores e com os instrumentos modificados que fornecemos. Este pode ser o experimento mais importante da história do Setor Persea.""","gaATG_janusPrototype5:""O... manifold. Claro.""",
 7e66e34b10614e66
@@ -19211,8 +19219,6 @@ lkeMazBarAgentOptArchcurate,LKEMazBarAgentOpts,,,,"lke_mazBarAgentRespArchcurate
 FireAll LKEvirensConvOpts","""Se eu não trouxesse você agora, parece que você perguntaria a todos no sistema sobre Jethro Bornanew, sobre o Caminho Luddita e, por fim, sobre mim."" 
 7ec6c49b521f3cf6
 FireBest DialogOptionSelected","""Soube que Sedge ficou... agitado. Era rápido para se irritar, e rápido para demonstrar essa irritação.""",,
-7ec81412ec101efc
-Highlight $locrlf_rewardAmountHigher","""Ah!"" Dá um pequeno pulo quando você fala. ""Você de novo. Reconsiderou?""
 7eca198060a7a4ab
 ""Está bem. Tem um homem, Nile Virens. É algum tipo de homem forte no Caminho. Juro que ele está por trás de metade dos atentados nos sistemas, mas não consigo imputar nada a ele. Sabe, legalmente. Então, se eu tocar nele, vai provocar os luditas, e todos nós sabemos o que aconteceu da última vez.""
 7ecf4b7251217c6c
@@ -20205,8 +20211,6 @@ DoCanAffordCheck $entity.gaCO_patherTithe gaCO_ejectAfter false","O canal se abr
 $tag:comm_relay",,"Instalar um farejador de comunicações dará acesso a informações locais como se você estivesse neste sistema estelar.
 85ebce57b72a3559
 $failedToRefuse = true 0","""Mas vós deveis"", diz.",,
-85eef4cccc8f09ba
-Há também fontes EM pequenas e brilhantes, ""-Sobrepondo-se apenas parcialmente ao espectro visível"", relata seu oficial de sensores. Elas aparecem e se dissipam periodicamente num volume que envolve a misteriosa nave. A tripulação da ponte murmura especulações entre seus postos: uma nova forma de blindagem? rajadas de micropropulsores? O oficial de sensores balança a cabeça.
 85ef72b314ebaf6b
 BFFIpsaConHubBlastB,DialogOptionSelected,$option == bffi_psaConHubRespBlastB,,"""Tenho"", diz ele. ""Eles são apenas humanos, como somos todos. Apesar de uma história escrita em sangue, não acho que nossa espécie prospere com o ódio.""","bffi_psaConHubRespBlastA:""Você me deu muito em que pensar.""
 85f2b7b72833b143
@@ -21015,8 +21019,6 @@ A porta se fecha suavemente atrás de você, livrando seus ouvidos do murmúrio 
 A voz de $personName é sufocantemente calma.
 8b86fdb87cf4fb75
 A disseminação aparentemente aleatória e a falta de direção da violência sugerem que os sistemas de segurança desta estação se voltaram contra seus ocupantes todos de uma vez. Os resultados catastróficos não foram ajudados pelas medidas de segurança interna incomumente fortes: autotorres ocultas programadas para matar, cortinas de bloqueio alimentadas que cortavam indiscriminadamente qualquer obstáculo e ninhos de drones de contenção móveis que podiam percorrer pequenos dutos e tubulações de ar para encontrar e ""neutralizar"" quaisquer sobreviventes.
-8b8c40151946af11
-locrlf_offerBarAcceptFirst:Aceitar
 8b8dc3bb23520f20
 !$global.foundOneslaught",,,"oyaTanaica_vambrace11:""Vou considerar. Se eu descobrir mais""",
 8b911659f512769f
@@ -21187,8 +21189,6 @@ Ela começa a voltar em direção ao complexo da mansão antes que você possa r
 Call $proCom_ref showMap ""Destino: $proCom_marketName""","""Preciso de $proCom_quantity unidades de $proCom_commodityName entregues em $proCom_marketName - a $proCom_dist anos-luz daqui. Por causa da importância desta remessa, garantirei que você receba $proCom_pricePerUnit por unidade, o que dá um total de $proCom_totalPrice créditos.""
 8cc3f75513c668ba
 unset $entity.fwt_wantsThing","O $faction $personRank parece bem surpreso por você ter aceitado os termos.
-8cc57d6cab51a324
-$gaKA_bairdAlreadyYelledAtYou = true 10","""Você instalou este dispositivo de invasão e não pegou o Arquivo Kallichore descriptografado com Gargoyle antes de voltar aqui?"" Baird tira os óculos e se levanta, sua frieza habitual completamente quebrada, e grita: ""Vá agora! Pegue o arquivo antes que outra pessoa pegue! Por que você está esperando, vá!""",cutCommLink:Continuar,
 8cca16a3e0cf243d
 ""Comandante $playerName"", diz. ""Um de nossos melhores agentes infiltrou o séquito de um senhor da guerra pirata em $extr_marketName. Foi capturado. Extração por qualquer meio é agora nosso objetivo de missão, embora considerações políticas tornem o uso da marinha marcada nesta operação... constrangedor. Nossa oferta a você é de $extr_reward créditos pelo retorno bem-sucedido do nosso agente.""
 8cd59243b61e05c0
@@ -21253,8 +21253,6 @@ sdtuMercReact1debris,DialogOptionSelected,$option == sdtu_mercReact1debris,,"""V
 O que, você observa, não responde à sua pergunta.",,
 8d3baaf00a1ada0c
 !$saidDaudOp",,"""E você, comandante?"" Ele devolve a pergunta com uma bravata alegre.
-8d3bcf854517e1cb
-gaKAGargoyleNotReally,DialogOptionSelected,$option == gaKA_gargoyleNotReally,,"Gargoyle encara com ar melancólico, apoiando o queixo nas mãos. ""Meu talento é desperdiçado com você, $playerFirstName. Estou tentando, de verdade. Me dê algo com que trabalhar. Por favor? Senão, posso simplesmente me congelar por mil ciclos. Talvez algo interessante tenha acontecido até lá.""","gaKA_gargoyleCanYou:""Você consegue invadir o cofre de dados de um Ministério da Hegemonia?""",
 8d3cb4af309a00fd
 DespawnEntity","Seu $shipOrFleet se aproxima da sonda, encontrando-a exatamente onde as especificações do acadêmico Sebestyen diziam que estaria. 
 8d3e30e97b023e04
@@ -21281,8 +21279,6 @@ FireBest GABACheckHostilesNearby","O caminhante $personLastName fica perplexo: "
 FireAll ShrineFleetConvOptions","""De fato? Então lhe dou as boas-vindas no espírito de Ludd"", faz um sinal de devoção. ""Que a Providência lhe conceda um caminho luminoso ao lado daqueles que conduzo rumo ao aprimoramento espiritual que eles também buscam.""",,
 8d71514594411109
 $player.locr_piratesOnBoardForWork = true","Você ordena que navetes sejam enviadas para recuperar os piratas.
-8d74441a400413b4
-sdtuRamSafehouse2wire,SDTURamSafehouseFlavor,$player.sdtu_gotMarines,,"Seu esquadrão de fuzileiros disfarçados se espalha, passando plausivelmente por trabalhadores em pausa, mastigando barras nutritivas e acendendo narcosticks.",,
 8d7475cde025e62a
 ""Havia... um Andarilho do Caminho. Ele me pediu para falar com Menes, para, para, para fazer a oferta. Disse que Menes não resistiria a um artefato de tamanha qualidade. E- e eu deveria providenciar o transporte. Depois fazer parecer legítimo. Ajustar os documentos, fazer parecer correto.""
 8d770d70a040ae00
@@ -21493,6 +21489,8 @@ lppJangalaProtestMarines,DialogOptionSelected,$option == lpp_jangalaProtestMarin
 cutCommLink:""Deixa para lá. Continue com o bom trabalho. Força para a Hegemonia!""",
 8ee271280629009f
 SetPersonHidden siyavong false","""Faz sentido, os departamentos da Liga nunca coordenam com os serviços internos, não é? Bom, não é culpa minha que vocês nunca conversem entre si. O Agente Siyavong deixou uma chave de comunicação.""
+8ee29c19f83df2a2
+!$player.locrlf_negotiatedHigherRate","SetTooltip locrlf_offerBarCynicalRewardAsk ""Você é cínico o bastante para enxergar a piedade dos 'Fiéis'. No fim, sempre se trata de créditos.""",,"locrlf_offerBarCynicalRewardAsk:""A Igreja está pagando mais de $locrlf_rewardAmount créditos por este trabalho, não está?""",
 8ee48deaa22f68a9
 SetStoryOption rsom_getAvoidCombat 1 rsom_avoidCombat general ""Conseguiu entrar e sair de um posto secreto de contrabandistas na lábia, e levou toda a carga deles""
 8ee70a1741030aa9
@@ -21503,8 +21501,6 @@ Bornanew segue seus companheiros Cavaleiros até a porta que lança sua longa cu
 YaribayAskReynardAskonia,DialogOptionSelected,$option == yaribay_askReynardAskonia,$askedReynardAskonia = true,"""A Liga Perseana tem um relacionamento oficial bastante permissivo com o Diktat Sindriano, sim,"" ele diz. ""Ano comando de Reynard como Prime Demarchon.""
 8eef5b7b9bfe5c8c
 A comunicação é cortada.",,
-8ef03e05f90b94f6
-$global.sdse_achillesWonNotClient",,"Você foi um dos primeiros defensores da tentativa de Aquiles Andrada de reivindicar a posição de seu pai e, por isso, é tratado com respeito - e tem grande margem de manobra - em todas as negociações oficiais.",,
 8ef20da33fadc548
 ""Os Luddics ficam chateados e enfadonhos quando você explica a eles a consciência revolucionária. Não me interpretem mal, eles têm gente boa, mas...""
 8ef78b439228c152
@@ -21791,6 +21787,8 @@ KantaCMD abortFavor","A conexão oscila enquanto se estabelece. Alguns códigos 
 FireBest DialogOptionSelected","""A demanda pelo meu tempo é grande, por isso o prêmio.""
 90ee003c1548ccb3
 ""Não há lugar para escória degenerada em nosso futuro glorioso."" $PersonRank $personName se vira e diz: ""Tenente, tente não fazer prisioneiros desta vez.""
+90ef6ee6d5b55e93
+A comunicação é cortada.
 90f0ff9051e2aaa4
 $player.metSiyavong",unset $player.metSiyavong,UNSET player.metSiyavong (efetivamente FALSO),,
 90f470af44192afc
@@ -21938,7 +21936,7 @@ FireAll ZGRpostGADHOelekHubOpts","Os olhos dela fixam você através do link. ""
 92206eadc85c9ef4
 extrBlurb3,extr_blurb,$extr_variation == LUDDIC_PATH_BASE,,"""O Comando me deu uma missão delicada. Sua unidade independente, de capacidades mistas, seria a mais adequada para executá-la, por causa de... elementos religiosos.""",,
 9224fc220ceabd31
-A exigência é um roubo total e qualquer facção que cumpra a lei ficaria envergonhada de condená-lo por se defender, se assim o desejar.","cutCommLink:Recusar, encerrar a comunicação e ligar as armas
+A exigência é um roubo descarado e qualquer facção cumpridora da lei teria vergonha de condenar você por se defender, caso decida fazê-lo.","cutCommLink:Recusar, encerrar a comunicação e ligar as armas
 92257229c3fd71f3
 Poucos escolheriam fazer dela seu lar, mas você é alguém bem diferente da maioria.",retire_gracefullyConfirm:Continuar,
 9234507e17454145
@@ -22339,8 +22337,6 @@ gaATGscavScanHub11,GAATGscavScanHub,$willingToLeave,,,"gaATG_scavScanDialog11:""
 $global.bornanewBadBoy++","Bornanew suspira fundo, abandonando seu semblante anterior, e olha para você com quase tristeza nos olhos. ""Isto não é como combinamos. Peço agora que você se afaste e me permita concluir esta tarefa desagradável.""
 94b6b62557fd3462
 Ela faz um gesto para que um subordinado corte as comunicações.",,
-94b88510bef03527
-""Você poderá, é claro, renunciar à sua comissão a qualquer momento, sem penalidade financeira imediata; termos realmente generosos, na minha opinião. Se você fizesse isso, isso significaria que você seria... como dizer, 'jogado aos tubarões'? A concorrência na Empresa é acirrada, meu amigo, e se você se retirar de sua proteção legal, somente você será responsável pelo que acontecer.""",,
 94be0b49c0a6a054
 BFFItalkToEngineer0,DialogOptionSelected,$option == bffi_talkToEngineer0,,"Bornanew ajuda seu oficial de comunicações a navegar pelos vários níveis da burocracia da Igreja.
 94c41b14f6f18a53
@@ -22649,6 +22645,8 @@ FireBest GAATGluddicScanSupplyCheck","Assente enquanto você fala e diz, hesitan
 FireAll BFFItalkToEngineer12opts","Ela olha entre você e Bornanew.
 96f37d3eb2860ab7
 locrp_luddicNo:""Não, minha tripulação é livre para praticar suas próprias crenças. Ou a falta delas.""",
+96f95b42de14b008
+""Eu sou um desperdício para você, $playerFirstName. Estou tentando, juro que estou. Me dê algo com que trabalhar. Por favor? Senão posso simplesmente me congelar por mil ciclos. Quem sabe algo interessante não tenha acontecido até lá.""","gaKA_gargoyleCanYou:""Você consegue invadir o cofre de dados de um Ministério da Hegemonia?""",
 96fa9a4212fdc136
 $failedToRefuse = true 0","""O dízimo é, claro, uma questão de consciência pessoal.""
 96fe391fa3213e2a
@@ -22745,6 +22743,8 @@ DoCanAffordCheck $gaRR_costNormal gaRR_acceptChurch false","""Entendemos a neces
 shrineFleetConvOutEnd,DialogOptionSelected,$option == shrineConvOut,FireAll PopulateOptions,"Assente, concordando.",,
 97a113cf26a64f6d
 $player.fcm_faction == sindrian_diktat",$entity.ignorePlayerCommRequests = true 7,"Depois de um chiado, as comunicações se estabilizam. O $Post do Diktat Sindriano observa você com imperiosidade.
+97a56c0c02ec2904
+Você pode fazer a sua parte para ajudá-los a fazer a deles.",,
 97a964d0aa3d5aa5
 O link é encerrado.",,
 97abbdbfb01d4e1b
@@ -22807,8 +22807,6 @@ $didUps++","""Devo aplaudir seu patriotismo - a Hegemonia, a restauração do Do
 Gideon Oak ergue a mão, quase uma paródia do gesto congelado na luva que deu início a tudo isso. Bornanew se cala, com evidente relutância.",bffi_deliverGloveCheck:Continuar,
 9822667082f48ffa
 $player.fcm_faction != luddic_church",,,"gaATG_luddicScan4:""Em nome da fé, tenho uma proposta.""",
-982b7d4a1ec99862
-""E eu sou muito bom nisso,"" ele diz, um pouco de humanidade escapando.",,
 982fff2bdf3cecbf
 ""Agora é tecnicamente possível renunciar à comissão Diktat, mas isso revelaria uma profunda traição à lealdade sagrada. Eu prometi meu sangue ao Leão e espero o mesmo de você.",,
 9838dadab12d6beb
@@ -22845,6 +22843,8 @@ Call $psb_ref showMap ""Alvo: $psb_systemNameShort""                        ",""
 PZIntroHub1d,PZIntroHub1,,,,"gaPZ_introCont9:""Tenho tudo que preciso.""",
 9875737a0fc0b971
 fwt_acceptRemnant:Ejetar $entity.fwt_theThing em troca de pagamento",
+987679a1e2edf183
+""O buffer de comunicação é insuficiente para suas necessidades? Minha mente está totalmente ocupada e não tolerarei interrupções. Tenha um bom dia!""
 988281aed6f8665d
 ""Nos deixa tomar mais uma última rodada?""","motr_playerColonyNarcAllow:Permitir
 9889b1c04d5801aa
@@ -23235,8 +23235,6 @@ SetTextHighlights 10","Você pergunta ao subcurador sobre a possibilidade de con
 Ele dá de ombros.",lpp_shrineRazedFirstTime5:Continuar,
 9b5caaa269491356
 A comunicação é cortada.",cutCommLinkNoText:Cortar o link de comunicação,
-9b5dad92cc57fa51
-""Sua presunção nos diverte"", a voz amplificada de Kanta ressoa pela corte, abafando todo o resto. ""Tão ansioso para nos servir, não é? Então faremos uso de você.""
 9b6412b76703d9ad
 ApplyCRDamage $entity.fleetPoints 0.2 1 ""Investigação da Hegemonia""","As equipes de inspeção são vândalas, parecendo agir com malícia ativa ao arrancar escotilhas, revirar estoques cuidadosamente organizados e fazer varreduras de alta potência diretamente sobre conjuntos de equipamentos sensíveis, apesar das objeções da sua tripulação técnica.
 9b76a085a1becd0d
@@ -23417,6 +23415,8 @@ CGRpatrolWeirdMods2b,DialogOptionSelected,$option == CGRpatrol_weirdMods2b,,"""P
 defaultGreetingIgnore,PickGreeting,$temporarilyIgnoreYou score:10000,,"Após uma breve espera, seu pedido de conexão é negado.",0:cutCommLink:Cortar o link de comunicação,
 9ca44b021dd99ede
 extrBlurbBar3,extr_blurbBar,$extr_variation == LUDDIC_PATH_BASE,,"Um cadete nervoso, segurando um drinque, se aproxima de você: ""Hum, Comandante. Meu, hum- quer dizer, a pessoa ali do canto quer falar com você."" O cadete olha para um canto escuro do bar.",,
+9ca6820797131719
+!$player.pledgedColonySupportToAchilles",,"Você foi um dos primeiros defensores da tentativa de Aquiles Andrada de reivindicar a posição de seu pai e, por isso, é tratado com respeito - e tem grande margem de manobra - em todas as negociações oficiais.",,
 9cab873582a41634
 FireBest GAVIPGaveVIPToPirate","O pirata ri de novo, balançando a cabeça. Faz um gesto com o braço para um subordinado: ""Os créditos; cuide para que meu bom amigo aqui seja pago em prata.""
 9cb34652ae6cbfc2
@@ -23477,8 +23477,6 @@ Sua mão de arma se contrai.",bffi_arrest5:Firme...,
 A pretensão se desfaz sob o seu olhar fulminante. ""É nosso de direito"", gagueja, ""direito de recuperação. Todos sabemos como funciona.""","gaProbe_confront1:Perguntar se o transponder da sonda estava ativo quando esse ""resgate"" aconteceu",
 9d0c67c4ca66182a
 Acena com uma ordem para um subordinado e, com desprezo sem pressa, se movimenta para encerrar a conexão.","gaVIP_revWhy:""Do que se trata?""
-9d0fec0905f78780
-""Agora, isso vai ser fácil ou difícil? Pense, agora,"" que a pessoa diz com falsa caridade, ""Mas não demore muito, por favor.""
 9d114895cbd9e765
 gaATGdaudMeetingSetup1,DialogOptionSelected,$option == gaATG_daudMeetingSetup1,,"A mudança na expressão do cadete ao perceber que você não é um turista qualquer é instantânea. 
 9d194d9145b92377
@@ -24219,6 +24217,8 @@ a25fbc99709ba6b5
 TTpatrolWeirdMods3b,DialogOptionSelected,$option == TTpatrol_weirdMods3b,,"Sobre o rosto do $post passa uma expressão de profunda consternação. A resposta é claramente ""não"", mas ele parece incapaz de dizê-lo. Após vários segundos angustiantes, consegue dar uma resposta.
 a2675ae48b7150cf
 ""Não se pode negar. Rezo para que ele não seja tão casual com seu desprezo. É... inadequado. Se a Autoridade de Unificação de Mazalot quer ser vista como séria em seu propósito...""
+a2694fd94f4f802d
+""Assim que retornar ao alcance das hipercomunicações, envie o conteúdo criptografado de volta para a Academia e o setor financeiro pagará a você $gaData_reward créditos.""","aseb_accept:Aceitar
 a26ad89fd500d828
 Ele balança a cabeça.","rao_askDolosOptAsel2:""Havia créditos. Armas experimentais. E ameaças implícitas. E...""
 a26c2d005e4a2c19
@@ -24271,6 +24271,8 @@ a2b11db53c0d381b
 Seu oficial tático informa: ""Hostis se aproximando, Comandante.""",cutCommLinkNoText:Continuar,
 a2b1c8933ae12244
 ""Sinto muito dizer que tal acordo será impossível, Comandante. Você deve entender, claro, que devemos aos nossos acionistas - e eu me incluo nesse grupo respeitável - relatórios quantificáveis sobre investimentos e lucros.""
+a2b28a3832058de8
+""Sim, compreendo. Acredito que foi mencionado que você poderia ter uma consulta muito específica?""",,
 a2b5b509d3709e6e
 gaPZ_gargUnderwhelming:""Vou ser honesto, aquilo foi um pouco decepcionante.""",
 a2b624185351abc0
@@ -24421,6 +24423,8 @@ a39e8ba8274da83c
 Pond olha rapidamente de você para Bornanew, assustado e confuso. ""Danos míni-"", começa, e então muda de rumo para evitar o assunto por completo. ""Eu não sabia que eles eram Caminhantes!"", suplica.
 a39ff3eff8786541
 gaATGzalMissionStartHub2a,GAATGzalMissionStartHub2,!$askNicely,,,"gaATG_zalMissionBetterPlan:""Vamos precisar de um plano melhor do que 'pedir com educação'.""",
+a3a010db97d071ec
+AddTextSmall ""Comprometeu-se a estudar a sabedoria de Philip Andrada"" highlight
 a3a03cc8947455fb
 FireAll gsVambraceHubOpts",Sua $shipOrFleet se aproxima de $nameInText.,,
 a3a148d05bac7ea2
@@ -24687,6 +24691,8 @@ a58169886414525e
 O momento se estende, e você pensa que ele talvez não responda, até que enfim fala. ""Ela é esperada.""
 a5823fc848556bd5
 $personName olha para você por um ou dois instantes antes de falar.
+a583cd96c27a74c8
+Um olhar otimista se volta para você.
 a5868d07379ec4ca
 FireBest DialogOptionSelected","Você se volta para examinar a oficina: racks de núcleos de processamento sub-IA dormem em berços de refrigeração, cobertos de fios. Um guincho aéreo equipado com agrav segura um invólucro de máquina com travas de segurança acima de um macromontador com os componentes modulares expostos. A bancada próxima tem vários braços de engenharia multifuncionais pairando sobre algum dispositivo, cujas entranhas estão dispostas como um diagrama de engenharia explodido.",,
 a588a823d53e821c
@@ -24809,6 +24815,8 @@ a6820485f4a1ebfb
 FireAll GAATGscavScanHub","""Que pena, que pena,"" diz. Um momento de pausa constrangedora, lambe os lábios, e então pergunta: ""Então, hum. Há algo que eu possa fazer por você, Comandante?""",,
 a683af3db9ab023c
 $knowMoreIsGoingOn = true","""Capitão"", diz Skiron, inclinando-se para a frente, com um tom baixo e de camaradagem. ""Você é um líder e um auxiliar da Marinha da Hegemonia. Você entende as necessidades do comando, e da iniciativa. Eu não conheço os Mundos Centrais, mas conheço a vida aqui, na Fronteira Distante.""
+a686639817f21dc4
+Após um instante, a comunicação se estabiliza. A atenção de Elek parece focada em seu datapad; ele nem sequer olha para a transmissão.
 a68fdb0618650edd
 $global.bffi_keepfaithEscaped",,"""Comandante $playerName"", o Excubitor Orbis assente, com voz rouca.
 a6917de908785903
@@ -25058,7 +25066,7 @@ ArroyoAskAboutZGR3d,DialogOptionSelected,$option == arroyo_askAboutZGR3d,,"Ele l
 a81bc738d586bcc8
 A comunicação é cortada. Você considera seu próximo movimento.",cutCommLinkNoText:Continuar,
 a81cc8d82ca918db
-AddTextSmall ""Varredura detalhada de embarcação desconhecida obtida"" highlight","O construto de classe capital parece ser uma nave de fase, por apresentar características comuns ao tipo, embora seu design seja, de resto, exótico.
+AddTextSmall ""Varredura detalhada de embarcação desconhecida obtida"" highlight","A estrutura de classe capital aparenta ser uma nave de fase devido a características comuns ao tipo, embora seu design seja bastante exótico.
 a82135b15a84fde7
 ""Olá, comandante"", diz Coureuse, com a atenção voltada para um banco cintilante de tabelas de dados holográficas. ""Desculpe, estou muito ocupada. O que você precisa?""",,# voice == scientist was a little too rude -dgb
 a82c9941a26495fd
@@ -25255,8 +25263,12 @@ a96e619fd1953c67
 lpp_gileadPilgrimageEndHowKnow:""Como você sabe disso?""",
 a96e77161ec26162
 ""Se lhe agradar"", não encara você nos olhos, ""vou atender os outros peregrinos agora.""",lpp_hookCurateSeeya:Despedir-se e sair,
+a96ffd93376ef77a
+$didInesisIntro",,,"50:inesis_askWhatDo:""O que exatamente você faz? Para Tri-Tachyon, quero dizer.""",
 a97004223abb5ccd
 ""Noviço Bornanew"", diz ele.",bffi_deliverToOakBody1:Continuar,# only Bornanew's body
+a970081ab05c2f0d
+FireAll BairdIntroHub","""Imagino que seu próprio interesse forneça motivação suficiente. Como você bem sabe, pagamos em créditos. A perspectiva de continuidade da civilização tecnológica é um benefício adicional, não é?""
 a974921379efba96
 KantaFavorCourierHailFailedB,DialogOptionSelected,$option == affkFailContinueSarcastic,,"""Sim"", diz o pirata, sem achar graça na sua resposta frívola. ""Você deveria ser grato. Foi poupado da sede de sangue e ruína da Senhora da Guerra Kanta. Por enquanto.""
 a9749ad0826530f0
@@ -25553,6 +25565,8 @@ ab4bfe5a4f6f0db9
 SetPersonHidden glamor_rotanev false",,"TTmarket_weirdModsOutro2a:""Obrigado. Vou ter certeza de mencionar seu nome à Diretora.""
 ab52faf5a673dd9c
 BFFIulmusTalkPcBad2b,DialogOptionSelected,$option == bffi_ulmusTalkBad2b,$messedUpOnce = true 0,"Bornanew inclina a cabeça, lançando um olhar confuso para você.
+ab58c8ab86e33964
+FireAll kdKantaAudienceHubOpts","Risada. É isso que é. A risada de Kanta soa como estojos de canhão automático caindo de uma janela de ejeção. Metal contra metal, assassinato industrializado.
 ab5abbf6529d6eae
 Call $global.locrlf_ref updateData",,,"locrlf_return1:""Encontrei os hereges desaparecidos.""",
 ab5b017c388b2861
@@ -25573,8 +25587,6 @@ ab829eeb558e6a03
 ""Muito bem"", diz o oficial do Diktat, com o que parece ser os dentes cerrados, ""seu manifesto foi verificado. Tecnicamente.""
 ab83bb33a99e5532
 ""Ah, $titlePL. Temos algum negócio? """,,
-ab83caacb6ec7848
-FireAll BairdIntroHub","""Imagino que seu interesse próprio seja motivação suficiente. Como você bem sabe, pagamos em espécie. A perspectiva de continuidade da civilização tecnológica é um benefício adicional, não é?""
 ab85c2575aceb3af
 soeDuelNo,DialogOptionSelected,$option == soe_duelNo,,"""Então você prova que não pertence a este lugar, entre nós"", zomba Cardona.
 ab8710eacb584424
@@ -25703,8 +25715,6 @@ ac5835753319062b
 FireBest DialogOptionSelected","""Então aguardarei seu julgamento de bom grado"", diz ele. ""Embora você precise entender que é só Deus cujo julgamento eu realmente temo e espero.""",,
 ac5c4884ee9d2bfd
 ""Você fez a coisa certa"", diz, quando você conta que deixou tripulantes para ajudar os colonos no limite. ""Vou levar isso imediatamente à Assembleia Estratégica. Espero que enviemos socorro e reforços."" Dá um sorriso de camaradagem. ""Ainda há mais truques da Tachy para desentocar na Fronteira, né? Vai ser uma boa caçada para as frotas. Queria poder ir pessoalmente.""
-ac6053a359ae76a0
-""Você os encontrará? Pela Igreja? Descubra o que aconteceu com eles. Traga notícias para mim, e então eu relatarei ao, ao arcivigário. Recebi fundos para a operação, $locrlf_rewardAmount créditos. Eles são seus depois que você trouxer dados conclusivos sobre o destino dos hereges.""","locrlf_offerBarCynicalRewardAsk:""A Igreja está dando a você mais de $locrlf_rewardAmount créditos pelo trabalho, não está?""
 ac61d3e34442157a
 Call $global.gaCO_ref updateData",ShowDefaultVisual,"Seu oficial de navegação informa que sua $shipOrFleet chegou às coordenadas que a equipe do $gaCO_department forneceu. Está na hora de ativar o pacote de instrumentos. O oficial de navegação assente quando você confirma que o subsistema está pronto para receber dados. O chefe de operações faz um sinal de positivo para indicar que os instrumentos foram implantados de acordo com as instruções.
 ac6293284c022958
@@ -26039,6 +26049,8 @@ ae8f5df3c5e577f1
 AddText ""\""Meus agradecimentos, e que a bênção de Ludd esteja sobre você!\""""
 ae94083cbb489535
 Call $global.gaDHO_ref updateStage","Seu olhar se perde em abstrações.
+ae960542f5b48bb8
+FireAll BairdIntroHub","""Imagino que seu próprio interesse fornecerá motivação suficiente. Como você bem sabe, pagamos em créditos. A perspectiva de continuidade da civilização tecnológica é um benefício adicional, não é?""
 ae980eab2c668410
 Um rápido olhar para a outra parte atrás do display e depois de volta para você.
 ae9b156c87215824
@@ -26113,6 +26125,8 @@ af0ee1957740c480
 $global.bairdWantsToTalk score:2000",,"Sua conexão é aceita imediatamente. Um assistente júnior aparece e reconhece você sem necessidade de apresentação. ""Um momento, Comandante $playerName"", e o display muda para um padrão de espera exibindo o brasão da Academia Galatia. 
 af1536dd3cffbd6e
 FireAll PopulateOptions","""Em nome da Academia Galatia"", diz Sebestyen, ""-seu corpo docente, estudantes e, hum, administradores, desejo oferecer meus sinceros agradecimentos pela sua contribuição para o futuro da humanidade.""",,
+af1801d296fedfa7
+""De qualquer forma, os hereges compraram uma nave de transporte e fugiram para a fronteira. Foram vistos pela última vez por um catador, que reportou o avistamento a... bem, a um dos fiéis, de qualquer forma. Agora, se você os encontrar e voltar comigo com dados conclusivos sobre o que aconteceu com eles, eu lhe darei a recompensa da Igreja de $locrlf_rewardAmount créditos.""",,
 af18a8f5777a519b
 hegTalkInspectionsDaudHubOptC,HEGtalkInspectDaudHubOpts,$global.gaATG_missionCompleted,,,"heg_talkInspectDaudEagle1:""Lembra daquele novo casco Eagle do qual você tanto se orgulhava? Bem...""",
 af215d1724888b46
@@ -26515,6 +26529,8 @@ b21e416c86b6b372
 ""Reconheço que ele foi, segundo todos os relatos e de fato pelo meu julgamento, um homem mau. Sua fé se torceu sobre si mesma. Ela o blindou contra o remorso por suas... ações.""","lke_jethroWhatSedgeKilled2A:""... De nada.""
 b21e9a050c2c1cfa
 Highlight ""136 beliches de tripulação"" ""12 unidades de maquinário pesado""
+b21f6c47d7c9b7a1
+""Sua presunção nos diverte,"" a voz amplificada de Kanta ecoa pelo tribunal, abafando tudo ao redor. ""Tão ansioso para nos servir, não é? Então diga-nos: como você nos servirá?""
 b21fe74dcb9d1c69
 Então espera, perfeitamente à vontade para deixar o silêncio crescer.",,
 b2270caa09fdac33
@@ -26581,8 +26597,6 @@ b288694b3fd5eeb5
 ""Considere o que você ganhará sendo um parceiro, em vez de um súdito.""",ZGR_acknowledgeContinue:Continuar,
 b28922c059cc9d40
 DeliveryMission checkCompletion score:100",,,deliveryMission_continue:Continuar,
-b28937152bf52007
-DoCanAffordCheck $cheapCom_totalPrice contact_accept true","""Ah, é $playerName, não é? Você deve estar aqui para retirar $cheapCom_quantity unidades de $cheapCom_commodityName por $cheapCom_pricePerUnit créditos por unidade"", toca no TriPad, assentindo. ""Podemos deixar tudo pronto agora mesmo, se você estiver preparado para receber a carga.""","cheapCom_pickup:Pegar $cheapCom_commodityName
 b28a8048b6abba3f
 $lke_usedYaribayCred = true","""Gens Yaribay?"" Senta-se ainda mais ereto, de imediato. ""Sim, Comandante, como posso ajudar?""
 b28dbf21997c5b7b
@@ -26727,6 +26741,8 @@ b3651ef1208b7df4
 gaDAScavBluff3,DialogOptionSelected,$option == gaDA_scavBluff3,,"""O... "", não consegue nem dizer a palavra.
 b36557f4c55c13f0
 ""I veja, "" ela diz finalmente, ""Um. Fale com meu assistente sobre isso. Ele fará os preparativos.""
+b3658c3498686ca6
+lpp_jangalaattendantVisitOutside:""Espere. Na verdade, quero ir lá fora para ver o santuário real.""
 b36671bfcb5df7cb
 ""Os Cavaleiros de Ludd cumprem uma missão sagrada de proteger os Fiéis e, sim, estão ansiosos para demonstrar sua fé. No entanto, não devemos permitir que o Orgulho gere a Ira, certo?""
 b369250b481b7894
@@ -28467,6 +28483,8 @@ bfba511bf830f02d
 O Caminho os acolherá. O Caminho conhece bem a fé traída.",,
 bfbc272c6190466d
 SetShortcut endOfficerConvCont ""ESCAPE""","Você corta o link de comunicação, balança a cabeça e considera suas opções.",endOfficerConvCont:Continuar,
+bfbf3ea0ffe4477e
+""Agora, isso vai ser fácil ou difícil? Pense bem,"" com falsa benevolência, ""mas não demore muito, por favor.""
 bfc3c6a8a263265d
 FireAll PopulateOptions","""Autorização MINEX do Domínio aceita, os sistemas antiadulteração foram colocados em espera e aceitarão a aproximação do alvo para manutenção.""",,
 bfc41d0e8f2eb1d2
@@ -28893,6 +28911,8 @@ c2a760dd240bd03d
 FireAll anhCantinaAskHubOptions","O jovem começa a falar: ""Porque ele é um..."" e o velho ergue um dedo em advertência, calando o garoto.
 c2a8af01102faf73
 Ele pisca diante disso e então oferece a mão para você apertar.","gaPZ_cottonShake:Apertar a mão dele
+c2abb9e0ccb9d18b
+!$global.sd7s_missionCompleted",SetHistorianBlurbShownAfterDelay historyBlurb19,"""Especula-se que o Almirante Andrada, o autoproclamado Executor Supremo do Diktat Sindriano - ou 'Motim Sindriano', segundo a visão da Hegemonia - enfrenta o problema de sucessão tão comum aos ditadores. Até agora, por trás da fachada unificada do Diktat, parece que ele colocou seus principais apoiadores uns contra os outros para manter a estabilidade política. Declarar um sucessor claro teria perturbado esse equilíbrio interno.""
 c2acad2f4a8ed96d
 FireBest DialogOptionSelected","Diante das suas promessas de misericórdia - e, talvez, dos seus créditos - o líder dos Caminhantes fornece os códigos de segurança, e sua equipe de operações executa o que parece ser um ataque relâmpago, pegando os defensores completamente de surpresa.",,
 c2ae8efb75434579
@@ -29215,6 +29235,8 @@ c52068c790f0a221
 Os olhos dela estão muito imóveis, como os de um cadáver.",,
 c5214dbb5d39eca0
 ""Comandante. Eu estava tentando ser gentil. Mas você parece não entender, então falarei claramente: você VAI aceitar o acordo conforme ordenado. Não haverá mais explosões. Você não proferirá mais nenhuma degradação contra a autoridade do Executor Supremo do Diktat Sindriano.""
+c522317248721e7b
+FireAll KDStationKingOptions","$PersonName oferece uma aparência imperiosa. 
 c52a39a464873d72
 Sim"", olha para você com esperança. ""Buscamos nos arrepender e manter a verdadeira fé.""",,
 c52b0807e22a69fe
@@ -29925,8 +29947,6 @@ c9f97f3a7e477b93
 ""Os Sindies souberam de alguma forma. Dizem que algum informante lhes disse que havia um esconderijo de armas no santuário.""
 c9fa3e0252a1cc05
 $player.makingLostPiratesActLuddic","Highlight ""desembarcar os piratas antes abandonados""","Você chegou a um porto espacial adequadamente sem lei para desembarcar os antigos piratas encalhados que você resgatou. Eles estão ansiosos para partir, pois descobriram que a disciplina luddita não combina com o estilo de vida aventureiro deles.",locrp_offloadPiratesLuddic2:Levar os piratas em navete para $name,
-ca037745d85ef15f
-KDSKaskToMeetKantaSel,DialogOptionSelected,$option == kdsk_askMeetKanta,FireAll KDStationKingOptions,"$PersonName oferece uma aparência imperiosa. 
 ca0378a0ece6de40
 !$toldIntel",,,gaFC_archonTellIntel:Contar ao Arconte que você sabe da operação de inteligência da Liga aqui,
 ca0e848ac51fd00f
@@ -29997,6 +30017,8 @@ ca9e57809c50042f
 !$saidCynical",,,"LCP_cynical:""Chega de pose. Você está usando seus fiéis desgarrados como desculpa para atacar minha operação.""",
 caa12a7a8e16d0e6
 !$global.gaFC_knowSiyavongContact",,,"gaFC_fikenhildBotherPM2:""Estou procurando Scylla Coureuse.""",
+caa2b3afb7f17df0
+locrlfOfferTextContact2optC,locrlfOfferTextContact2opts,,,,contact_decline:Recusar,
 caa7cf8e3bc93453
 ""Você parece um cidadão íntegro."" Assente, a própria imagem da autoridade razoável, nada de valentão em desvantagem. ""Vou deixar você ir com um aviso. Há gente ruim por aqui, Comandante, se intrometendo em tecnologia perigosa. Alguém precisa proteger o que resta da humanidade contra eles.""
 caab1874e37b6230
@@ -30033,6 +30055,8 @@ cafae9a4ea263767
 Surtos de energia percorrem todo o vasto casco enquanto condutos e máquinas antigas fazem autoteste, e algumas falham. Drones de autorreparo há muito adormecidos fervilham como vermes.
 caff5dba67d98965
 A comunicação é desconectada abruptamente.",cutCommLinkNoText:Continuar,
+cb03e6b66cd87e47
+""A menos que,"" ela faz uma pausa, olhando para você por cima de seus óculos de RA, falando com calma, ""eu tenha me enganado redondamente a seu respeito, e seu coração esteja decidido a liquidar sua frota, doar os lucros para a caridade e se juntar a uma ordem flagelante em Hesperus... não, já sei: você andou lendo muito; bem, assistindo holovídeos de canais clandestinos, na verdade... e está quase se alistando como capanga político quebrando dentes pelo reinado de 1000 ciclos do 'Leão de Sindria'. Acertei?""
 cb07e71816b75044
 $wasAnnoying = true","""Ela não mandou nada disso. Some daqui."" 
 cb095c2c52acd724
@@ -30235,6 +30259,8 @@ cc5e487acd093030
 ""Sua reputação o precede, $playerName. Francamente, não preciso dos seus créditos. E não quero ver o seu rosto.""
 cc6101fd967d735c
 gaProbe_itsNothing:""Não é nada. Você estava dizendo?""",
+cc6a0a84470f2c17
+Pode ser necessário visitar o escritório de Elek pessoalmente para iniciar uma conversa decente.",,
 cc6f86bc81f784d4
 pk_proceedSel2,DialogOptionSelected,$option == pk_proceed2,$player.encounteredPKDefenderFleet = true,"Surgem identificadores de cascos: cascos de combate marcados pelo XIV Grupo de Batalha, reparados sem estaleiros orbitais. Uma frota veterana, com certeza. Pelo fato de estarem escondidos aqui há muitos ciclos e pelo seu SIGINT, fica claro que humanos não comandam essas naves.
 cc70477b6f8cc11d
@@ -30591,8 +30617,6 @@ cee588f5f9616595
 gaFCIsirahMercOtherDeal1,DialogOptionSelected,$option == gaFC_isirahMercOtherDeal1,,"""Não,"" responde o mercenário.","gaFC_isirahMercOtherDeal2:""Que tal 100.000 créditos?""
 cee5ae39a92444b8
 SetShortcut cutCommLinkNoText ""ESCAPE""","""Aquele-que-você-sabe manda lembranças"", rosna o caçador de recompensas.
-cee80b7c1a62bb6f
-$didFirstGreeting",,"""Que outro negócio você gostaria de falar?"" Sebestyen pergunta alegremente.
 ceebebe4ff440918
 soeHouseRaoGoalSchmooze,SOEBallEntranceGoal,$player.soe_goalConnections,,,soa_houseRaoSchmooze:Apresentar-se a alguém importante,
 ceecb294dbfbdf6c
@@ -30641,8 +30665,6 @@ cf31f0de2e41a256
 Kanta acena com a cabeça, aparentemente encantada. Cydonia olha de você para ela, certificando-se de que segue a liderança de sua rainha.",kpDroneReplicator2:Continuar,
 cf32d168f0dcfbd7
 LKEjethroWhatSedgeKilled2B,DialogOptionSelected,$option == lke_jethroWhatSedgeKilled2B,FireAll LKEjethroOptions,"Ele lança um olhar cético. ""Isso me preocupa ainda mais.""",,
-cf348ed0c7256539
-!$ZGRtoldMe",,,"1:inesis_zgrTold:""Zunya Glamor-Rotanev me disse para falar com você...""",
 cf38136d7631b15c
 PSKMercOptionsStory2,DialogOptionSelected,$option == pskMerc_story2,,"O problema é que toda a concorrência faz os preços caírem, e esse cartel de mercenários decidiu fechar um acordo com alguns piratas para resolver o problema.
 cf39041d45341bd1
@@ -30913,6 +30935,8 @@ d105fad4bd06f169
 Suspira, balançando a cabeça. ""Vou sinalizar sua identificação de comissão por um ciclo. Agora saia da minha comunicação.""",,
 d10710bd44ae13e5
 sdtu_hyderTalk3LeadershipYou:""Às vezes, os melhores líderes são aqueles que não querem o cargo. Pense nisso.""
+d1078bc2328358e4
+""Estou muito ocupado,"" diz Elek. Você vê a parte de trás da cabeça dele enquanto configura algo em uma interface secundária. ""TriOS, encerrar comunicação."" Uma pausa. ""Encerrar. Comunicação. Droga de—""
 d1092e2f55d63712
 #FireBest gaDHOendingLastWord","Parece doente, a fachada de acadêmico confiante completamente destruída.
 d1168efac4db03e1
@@ -31315,8 +31339,6 @@ d3afb27671f60b69
 Este é o Onslaught Mk.I, o navio da lenda.",mk1_continue0:Continuar,
 d3b0277cfbef0036
 Técnicos com trajes de risco cuidam do maquinário de contenção, passando por cima de rolos de tubo e fio. Uma bagunça de componentes improvisados foi retirada das bibliotecas comuns de microforja, depois desmontada e reprojetada para operar nesta aplicação incomum, até extraordinária.
-d3b3503f0ede901e
-!$global.sd7s_decryptedAndradaFiles",SetHistorianBlurbShownAfterDelay historyBlurb19,"""Especula-se que o Almirante Andrada, o autoproclamado Executor Supremo do Diktat Sindriano - ou 'Motim Sindriano', segundo a visão da Hegemonia - enfrenta o problema de sucessão tão comum aos ditadores. Até agora, por trás da fachada unificada do Diktat, parece que ele colocou seus principais apoiadores uns contra os outros para manter a estabilidade política. Declarar um sucessor claro teria perturbado esse equilíbrio interno.""
 d3b7bb3888553495
 ""Canal limpo, vá em frente.""",,
 d3b7d5bd2a39453a
@@ -32323,6 +32345,8 @@ dae8e5caf0c16956
 Junta as mãos desesperadamente e reza. ""Abençoado Ludd, dá-me força quando o maligno aparecer...""
 daeaea8362106a2f
 $player.luddicAttitudeFaithfulOrPather",FireAll MostLuddicEthosRefresh,,"bffi_stationConcerns:""Venho como companheiro Andarilho da Fé... Tenho sérias preocupações.""",
+daebde81f07c1f0c
+!$ZGRtoldMe",FireAll PopulateOptions,"""Ainda assim, demonstro de forma constante valor agregado à seção de Aquisições Especiais. Enquanto meu superior direto estiver satisfeito, estou satisfeito em continuar com meu trabalho.""
 daec6f419ddf9016
 1:fusionLamp_red:Vermelho agourento, como Askonia
 dafcb1883614001d
@@ -32361,8 +32385,6 @@ db41e0a84657e608
 sdbr_saySarcastic:""Obrigado pelo seu serviço, senhor."" (sarcástico)
 db46a2177b425560
 Basta sussurrar a frase-código para que eles executem um assalto rápido - através de eclusas e anteparas, se necessário - para garantir sua posição.",,
-db474c5b49679bb2
-PKHackStoryWhatDoGiveDiktat0,PKHackStoryWhatDo,$player.fcm_faction == sindrian_diktat,,,"pk_hackStoryWhatDoGiveDiktat:""Vou dá-lo ao Diktat Sindriano, para destruir os inimigos deles.""",
 db489a4494c2ecb9
 ""É claro que os indivíduos que se sentem, hum, desanimados não veem isso como um problema pequeno, o que complica a ligação entre os departamentos em questão.""","gaIntro2_returnSeb6:""Lamento que Elek torne seu trabalho mais difícil.""
 db515fc8cb8ab1a9
@@ -32565,6 +32587,8 @@ dc9cf79f79f1989d
 unset $global.gaFC_visitCoureuse","Em menos de uma hora, com a cooperação total do Conselho Executivo de Laicaille e do quartel-mestre da estação, Scylla Coureuse e seus equipamentos já estão embalados e transportados para a sua $shipOrFleet. 
 dca1e4c793357ed2
 ShrineCMD playMusic","Os continentes verdes de Jangala se estendem sob você, coroados por enormes sistemas climáticos que giram letárgicos e majestosos.
+dca315ae64235615
+locrlfOfferTextBar2optB,locrlfOfferTextBar2opts,,,,locrlf_offerBarAcceptFirst:Aceitar,
 dca3abf0d15d5e8e
 O planeta está retalhado por geleiras, como uma rede de cicatrizes no couro surrado de alguma besta antiga. Sua rota de voo leva você a um grande cânion cheio de um caos de gelo e pedra, depois a um ramo secundário, sobre o qual se erguem paredes de rocha escura. Vez por outra você avista os restos desmoronando de indústrias e, entre eles, as luzes ocasionais de empreendimentos fretados pelos Cavaleiros e de comunidades monásticas.",lpp_hesperusVisitFirst3:Continuar,
 dca9db13b9ac22cf
@@ -32985,6 +33009,8 @@ df839189b60130a0
 lkeJaspisStartBornanew4,DialogOptionSelected,$option == lke_jaspisStartBornanew4,FireAll LKEJaspisStartHub,"""Sim."" Ela suspira. ""Estou velha, Comandante, e talvez tenha ocupado este cargo por tempo demais. Falemos de Bornanew agora, não da minha culpa.""",,
 df84649d1ce49ab8
 FireAll BFFImmBornBuyerOptHub","""Isso é um problema"", admite Bornanew.
+df85da5cf8eb5830
+Call $locrlf_ref showMap ""Alvo: $locrlf_systemName""","Uma onda de culpa, rapidamente reprimida, atravessa o rosto.
 df89d2c51b348258
 Os relatórios do resgatador chegam aos poucos. Um pacote de instrumentos improvisado foi acoplado a um dos bulbos de sensores da Apogee. Ele tem certas características que lembram o scanner de Portões fornecido a você por Coureuse, embora este esteja danificado além de qualquer reparo. Uma varredura superficial das armas e dos escudos indica que qualquer ataque que tenha incapacitado esta nave deve ter sido uma surpresa: as armas não foram disparadas, e os capacitores de escudo não apresentam nenhum vestígio de acúmulo recente de fluxo.
 df8afff6d1f31264
@@ -33313,6 +33339,8 @@ e20ff655cb91009d
 Lambe os lábios e recomeça.",,
 e2109af43521a6c1
 cargoScanStart,DialogOptionSelected,$option == cargoScan_comply,"AddText ""Após uma breve espera, a $otherFleetName de $faction transmite os resultados da varredura.""
+e214dce1fb68f1a1
+Call $locrlf_ref showMap ""Alvo: $locrlf_systemName""","""Ah!"" Dá um pequeno pulo quando você fala. ""Você de novo. Reconsiderou?""
 e214e57b15f3f015
 FireAll gaDHOvisitElekHub","""Teorizo que seja um desses planetas que nosso arranjo de sensores estava mirando.""
 e21d6437277a4814
@@ -33547,8 +33575,6 @@ e3b06cb9f091578a
 Mostra o datapad barato.
 e3b521a40c54e2b6
 Após um curto período de tempo, a imagem do Archcurate Jaspis aparece. Ela faz pouco esforço para olhar para o feed de comunicação enquanto anda pelo escritório.
-e3b688418e589224
-""Descubra o que aconteceu com eles. Traga notícias para mim, e então eu relatarei ao arcivigário. Recebi fundos para a operação, $locrlf_rewardAmount créditos. São seus depois que você trouxer notícias dos hereges.""","locrlf_offerCynicalRewardAsk:""A Igreja está dando a você mais de $locrlf_rewardAmount créditos pelo trabalho, não está?""
 e3bced00d9cc246b
 lppVolturnOfficialLie1,DialogOptionSelected,$option == lpp_volturnOfficialLie1,,"Você se inclina para mais perto, endurecendo a expressão. O funcionário, confuso mas intrigado, acompanha seu gesto e se inclina também.
 e3bf545189800186
@@ -33570,7 +33596,7 @@ Assente. ""Então a operação está liberada.""
 e3e3845516d414a8
 FireBest DialogOptionSelected","""Nós, hum. Nosso antigo... o falso profeta, ele disse que devíamos nos livrar do pecado de Mamon antes do nosso êxodo."" Olha para baixo, com ar constrangido. ""Talvez tenhamos agido com pressa irracional quando abrimos mão de todos os nossos créditos.""
 e3e52e8ca8c21811
-""Eu vejo, uh, comandante, "" aquela pessoa diz inquieta, então executa um gesto sem entusiasmo saudação.
+""Compreendo, bem, Comandante,"" diz com inquietação antes de bater uma continência desanimada.
 e3e5b98375162476
 ""Embora tenhamos começado a reabrir antigas linhas de pesquisa,"" diz ela, ""ter Coureuse aqui para formar o núcleo da equipe de teoria avançada vai resultar em um progresso tremendo, depois da trapalhada de Kallichore. Afinal, esta é a obra da vida dela.""",gaFC_returnToAcademy10b:Continuar,
 e3ec4b24210ab925
@@ -33815,6 +33841,8 @@ e57d8c16f63edc97
 RHannanSecretaryMessageResp4,RHannanSecretaryMessageResp,,FireAll RHannanMessageHubOptions,"O assistente assente agradavelmente, como de costume, repetindo garantias de que o Primeiro Demarchon responderá assim que puder.",,
 e580c213b7e9e2fa
 ""...caíram da órbita como folhas em chamas / apanhadas pelo vento e pelo lamento / o sopro de vida roubado de mãe e filho...""
+e582ebcee2df1fe9
+gaKAGargoyleNotReally,DialogOptionSelected,$option == gaKA_gargoyleNotReally,,"Gargoyle olha desoladamente, apoiando o queixo nas mãos.
 e585daa0fd42a050
 Elek sorri e parece estar falando sério.",,
 e58772b0bd7af7a2
@@ -34367,6 +34395,8 @@ e90ae2628fd958bd
 Os olhos de Oak se estreitam, o bastante para provocar silêncio. A escrivã dele olha de Oak para Bornanew com curiosidade, mas também se cala.",bffi_deliverGloveCheck:Continuar,
 e9146207ff070e41
 !$player.metCydonia","SetTooltip retire_NO:""Certamente existem médicos – ciberneticistas e artistas da carne – que podem prolongar a vida por um preço meramente exorbitante.""",,retire_NO:Não! Não precisa acabar,
+e916027b7ec65c2c
+DEVgaGoToVerySpecificLineOpt,DEVTestMenuOptions,,,,dev_gaGoToVerySpecificLine:Ir para linha de diálogo muito específica,
 e9193d3e38f6c779
 $faction.id == tritachyon",FireAll RelLevelMoreDescription,"O Banco de Dados Inteligente de Atendimento ao Cliente da Tri-Tachyon concede a você atracação prioritária e um arranjo de frutas e flores de cortesia em cada porto controlado pela Tri-Tachyon ou por uma de suas subsidiárias. Mesmo que isso seja automatizado por um sistema de sub-IA tecnicamente não senciente, é um sinal de que a corporação Tri-Tachyon valoriza sua relação comercial contínua.",,
 e919985c3b1f016c
@@ -34565,6 +34595,8 @@ ea76301d03a22aa4
 Seu TriPad emite um aviso confirmando uma transferência de fundos da Igreja da Redenção Galáctica.","BFFI_onBoardingStateroom:""Mandei liberar uma cabine de oficial para você.""
 ea771ce2f2f458f0
 gaIntro2returnElekWhat1,DialogOptionSelected,$option == gaIntro2_returnElekWhat1,,"Elek se recosta, assumindo seu papel de professor. ""O reitor - Kallichore, quer dizer - ultrapassou os limites do seu cargo, na minha opinião. A Hegemonia concordou e reprimiu com bastante dramaticidade. Opressão e tirania correram soltas pelos corredores do iluminismo! Soldados pisando forte pelos corredores da nossa bela academia, dá para acreditar!""
+ea7721cb79a1bbdb
+A boca de Cydonia se fecha em uma linha reta e trêmula.",#kpAudiencePresume:Continuar,
 ea7d67c93c08174c
 cpmBlurbBarUW,cpm_blurbBar,$cpm_underworld,,"Uma pessoa senta-se sozinha numa cabine privativa, ladeada por guarda-costas discretos. Há uma aura sinistra na postura.",,
 ea82de85c4d4488c
@@ -34639,6 +34671,8 @@ eae1f5c650e121f9
 Essa pessoa olha para cima, ""Oh, olá de novo. A propósito, ainda estou recebendo um erro na etiqueta de informações de comunicação. Talvez você queira dar uma olhada nisso.""",,
 eae4e9b2ebdd9288
 !$player.luddicFaithfulOrChurchCom",,,LCP_comply:Entregar $SP_supplies unidades de suprimentos,
+eae74ab576b36f0a
+$saidNotPilgrim",FireAll PPHookCurateResponses,"""Minha vocação é servir aos peregrinos que chegam até aqui."" 
 eae7c42b681838f4
 sdtuMacReasonDiktatCom,SDTUMacIntroReasoning,$player.commissionFactionId == sindrian_diktat,,"""Como portador de uma comissão do Diktat Sindriano, você já está comprometido com a grande visão do Executor Supremo!""
 eaedff75298f642c
@@ -34865,6 +34899,8 @@ ec6fa0854ce56732
 sdtuRamSafehouse2marines,SDTURamSafehouseFlavor,$player.sdtu_gotWire,,Uma rápida olhada no seu datapad mostra sua perspectiva em perfeita miniatura; a unidade holorec está funcionando perfeitamente.,,
 ec714f38f23230df
 ""Agora, me impressione.""",,
+ec73859de3ea03f0
+!$global.sd7s_decryptedAndradaFiles",,,"1:inesis_contactToldDecrypt:""Um... contato me disse para falar com você.""",# from SD7S start
 ec756e84e014070a
 Você concorda e faz um gesto para que seu oficial de logística cuide da transação.
 ec76dbd2452fc130
@@ -34891,8 +34927,6 @@ ec927a8b65836641
 gaFCPatherAmbushBluff1,DialogOptionSelected,$option == gaFC_patherAmbushBluff1,,"""E você vê diante de si a conclusão da obra-prima dele!"" Você grita e faz pose como um vilão de ópera: ""Uma arma mais bela em sua blasfêmia do que qualquer outra já vista!"" 
 ec99714f1dce74f5
 ""O Diktat tem inimigos dentro e fora; se estiver lutando contra si mesmo, nunca sobreviverá. Preciso fazer o que for preciso para manter nossa força, mesmo que me coloquem numa"", seu lábio se curva, ""posição intolerável.""",,
-ec9e39e4d97740f3
-""E eu sou muito bom nisso, "" ele diz, um pouco de humanidade escapando de sua personalidade de vendedor.",,
 eca2acb1da240dc2
 PKPathRecoverMission3,DialogOptionSelected,$option == pkPath_recoverMission3,FireAll PKPatherComOptions,"""Vejo pelo seu rosto que você conhece essas abominações: aquele artefato profano do Domínio, assassino de Opis e de seus bilhões; e de Hanan Pacha, e de inúmeros outros.""
 eca5541e694012ff
@@ -35039,6 +35073,8 @@ edbb6ffac2a8bda1
 Bebe um pouco de chá: ""Entenda que não falo inteiramente de guerra e ira. Um martelo pode golpear com sutileza, até em silêncio, se for mirado com habilidade, sabedoria e piedade.""",,
 edbc9ce81e270438
 A hacker ergue uma sobrancelha: ""Uma proposta ousada, Comandante. Um assalto de fuzileiros à fortaleza de um senhor da guerra pirata, entrincheirado numa antiga base militar da Hegemonia, notoriamente cercada por um campo de minas furtivas e repleta da escória armada e da vilania do Setor.""
+edbea3351a9e96b7
+sdtuRamSafehouse2wire,SDTURamSafehouseFlavor,$player.sdtu_gotMarines,,"Seu esquadrão de fuzileiros disfarçados se espalha, passando com facilidade por trabalhadores em intervalo de turno comendo barras nutritivas e acendendo narcosticks.",,
 edc6c332988ca2d1
 Call $proCom_ref showMap ""Destino: $proCom_marketName""","""Preciso de $proCom_quantity unidades de $proCom_commodityName entregues em $proCom_marketName - a $proCom_dist anos-luz daqui. Não me importa quem você precise atirar para fazer isso acontecer, desde que chegue lá.""
 edca2c774b39ac66
@@ -35073,6 +35109,8 @@ ede735b8ba7cbe33
 lppGileadShrineStartHubResponse2,LPPGileadShrineStartHub,!$askedShrine,,,lpp_gileadShrineInfo1:Perguntar sobre o santuário,
 edec66406e6e15f3
 FireAll PopulateOptions","""Gostaria de estender os agradecimentos meus e da nossa colônia pela sua assistência técnica"", diz a Comandante Skiron, sorrindo.
+edf7243568679c60
+Também parecem existir pequenas fontes eletromagnéticas brilhantes: ""— Sobrepondo-se apenas parcialmente ao espectro visual,"" informa o oficial de sensores. Elas surgem e se dissipam periodicamente em um volume que engloba a nave misteriosa. A tripulação da ponte murmura especulações entre suas estações: uma nova forma de escudo? Pulsos de propulsores de microssatélites? O oficial de sensores balança a cabeça em negação.
 edf8eee334020162
 $global.sdtu_gotMacarioOpinionOfCaden = true","""Hum. Sim"", Macario se recosta, batendo os dedos uns nos outros. ""Ela não está errada em perceber. Ha! Caden. Imagine só ele no comando. Fantasias e desfiles enquanto os mundos desmoronam.""
 edfa6f391debc66f
@@ -35163,8 +35201,6 @@ ee869745f2b27892
 $faction.id == luddic_path",FireAll RelLevelMoreDescription,"Para o Caminho Luddita, você é considerado um servo de Moloch e escravo da tecnologia demoníaca. Você é um aliado insensato de Mamon, lutando neste mundo cheio de pecado não por amor a Deus, mas apenas pelo lucro hedonista de descrentes miseráveis, cegos para a Revelação de Ludd.",,
 ee8830dd8cf33281
 rao_pitchHannanC:""Reynard é um grande homem. Eu o sigo com prazer.""",
-ee93ed2d990e239b
-FireAll RetireOptions","Sua história pode terminar aqui, viajante estelar. Você pode se aposentar, se divertir e finalmente descansar um pouco.
 ee950e4b3a19469d
 gaPZ_calHamatsu,DialogOptionSelected,$option == gaPZ_calHamatsu,$global.metCallisto = true,"Ela estreita os olhos.
 ee9d04da8c8819be
@@ -35287,6 +35323,8 @@ ef6dc8b74a91e1c0
 Call $global.gaData_ref showMap ""Alvo: $gaData_planetName""","""Sim, então você vai precisar ir a $gaData_planetName, no sistema $gaData_systemName, que fica a $gaData_dist anos-luz daqui. Vamos fornecer as coordenadas exatas do $gaData_target a que você precisa acessar, hum. E, ah, ah, isto é muito importante"", toca uma tecla, mudando o display para um diagrama estelar que parece explodir em dois arcos nos polos opostos.
 ef72d326317de80c
 ""Reitora, sim? ... Ah! Comandante $playerName."" Coureuse parece atrapalhada. ""Claro, você deve ter acabado de chegar.""
+ef7908470e0c2ee1
+SetTooltip andradaOffice_book1 ""Deixe o homem ouvir o que tão claramente deseja ouvir de você. Não é como se você fosse ler os devaneios prolixos de Philip Andrada — a menos que um oficial da INTSEC estivesse apontando uma arma para a sua cabeça.\n\nE olhe lá.""
 ef7ad3d015f94b83
 Ela balança a cabeça. ""Eu ficaria louco. Ou eles fariam.""
 ef7be281596e1c1c
@@ -35471,6 +35509,8 @@ f09ac94f94352478
 gaFCFikenhildCavinA2,DialogOptionSelected,$option == gaFC_fikenhildCavinA2,,"""Não sei o que você está tramando, hum, Comandante, seja lá qual for seu nome. Você não deveria estar falando comigo. É perigoso."" Ele estufa um pouco o peito com isso, ansioso para carregar o rótulo de 'perigoso'. 
 f09e08b032ca8ce8
 SDMakeDealSelComOptC,SDMakeDealSelComOptions,!$saidOptC,,,"sdDealCom_maybeNot:""Não tenho tanta certeza disso.""",
+f0a4c71fc9369c46
+$gaKA_bairdAlreadyYelledAtYou = true 10","""Você instalou o dispositivo de invasão e não pegou o Arquivo Kallichore descriptografado com Gargoyle antes de voltar aqui?""
 f0a8ae58d209859b
 Você, num baile com um bando de aristocratas metidos? Com aquele insuportável Caspian Sang? Nada de bom poderia sair disso.",,
 f0ab1e18cbe9c500
@@ -36059,6 +36099,8 @@ f49582020ef56fb5
 !$global.lpp_visitedShrineHesperus",,,"lpp_excubitorRedemptionCheck:""Você me disse para encontrar a redenção...""",
 f498294448b0fd2a
 ""Você foi lá?"" pergunta. ""Isso foi... o que aconteceu com... com... contratamos um freelancer, uma pequena frota. Alguns dos meus alunos deveriam supervisionar o trabalho.""",,
+f49becef0a300181
+""Confirmado, Comandante.""
 f49f74b90f3b6a95
 FireAll PopulateOptions","O posto fica reduzido a uma cratera fumegante, um mero ponto de laranja opaco na curva do planeta abaixo de você. Sua ação decisiva é irrepreensível sob os termos do Tratado de Crom Cruach do ciclo 194. ",,
 f4a1f4aa8854422b
@@ -36489,6 +36531,8 @@ f80ae07f369b1ce3
 oyaTanaica_vambraceOneslaught1:""Já ouviu falar da Onslaught mk.I?""",
 f810abb264a89ecf
 A alimentação corta abruptamente para preto.",cutCommLink:Encerrar a comunicação,
+f8157ce6c7ce4c78
+""Você poderá, naturalmente, rescindir sua comissão a qualquer momento sem penalidade financeira imediata; termos bastante generosos na minha opinião. Se o fizer, porém, isso significará que você será... como dizer, 'jogado aos tubarões'? A concorrência na Companhia é feroz, meu amigo, e se você abrir mão de sua proteção jurídica, somente você responderá pelo que acontecer.""",,
 f8178f4f9a3ffe09
 Um pensamento se cristaliza, devagar mas com certeza.
 f8231a6de2164e82
@@ -37565,6 +37609,8 @@ ff7caa5cb7f44009
 lkeJaspisStartHubOp3,LKEJaspisStartHub,!$askedHisMission,,,"lke_jaspisStartHisMission:""Pode me contar mais sobre a missão dele?""",
 ff7df1d52c9866de
 devSDSEhyderContactedFiles,DialogOptionSelected,$option == devSDSE_hyderContactedFiles,$player.sdse_contactedAboutAndradaFiles = true,defina player.sdse_contactedAboutAndradaFiles como verdadeiro,,
+ff7e6f0fd736c365
+Call $global.gaData_ref showMap ""Alvo: $gaData_planetName""","""Então esta é fácil, certo? Tudo o que precisa fazer é chegar até $gaData_planetName, no sistema $gaData_systemName, que fica a,"" uma checagem em outro datapad, ""cerca de $gaData_dist anos-luz daqui. Nós forneceremos as coordenadas exatas de $gaData_target que você precisa, hum, acessar.""
 ff802c40c61a7c46
 Ele dá de ombros, quase envergonhado, com as mãos ainda juntas.
 ff80374eba57d081
@@ -37621,8 +37667,6 @@ ffdc7bba05a0dbc4
 ""O Caminho não é uma coisa só, espaçonauta, nem a Igreja é. Lembre-se disso.""",lke_virensEndingOut1:Sair,
 ffdd4897f2c43dac
 SDRstandfastIntro3a,DialogOptionSelected,$option == sdr_standfastIntro3a,FireAll PopulateOptions,"Ela acena com a cabeça, talvez até faça uma reverência, com as mãos unidas.",,
-ffe2dccb7a420519
-SetTooltip locrlf_offerCynicalRewardAsk ""Você é cínico o bastante para enxergar através da encenação de piedade que esses chamados 'Fiéis' fazem. No fim, o que importa são créditos e poder.""
 ffe69a32173573d5
 Você não tem tanta certeza disso.",,
 ffea184d946f5030
@@ -38586,8 +38630,6 @@ b2e483621bd868e5
 A dissipação de fluxo e a capacidade do navio, até mesmo os valores nominais de base, são reduzidos em %s, e a eficácia do seu sistema Temporal Shell é reduzida para %s taxa de fluxo de tempo.
 06afe5282989aaa2
 Devido às imensas distorções no espaço-p causadas por tal manobra, apenas uma nave por batalha - independentemente de qual lado esteja - é capaz de realizá-la.",Aumenta a dissipação de fluxo e a recarga de armas enquanto em fase; manobra de mergulho de emergência.,,graphics/hullmods/phase_anchor.png
-06f6d84076aaa81e
-Se desativado, o navio não se desintegrará e quase sempre poderá ser recuperado após a batalha. Navios recuperados após a batalha começam com %s a %s integridade do casco e prontidão para combate;
 0a08895b7190b6a8
 Suportes de Armas Blindados,armoredweapons,0,,,"defensive, merc, standard","Armas, Defesas",2500,TRUE,,,3,6,9,15,data.hullmods.ArmoredWeapons,"Aumenta a durabilidade de todas as armas em %s e reduz o recuo em %s, mas diminui a taxa de giro das armas em %s. Também aumenta a blindagem da nave em %s.",Torna as armas mais difíceis de desabilitar e reduz o recuo.,Aumenta a taxa de disparo de todas as armas que não são de mísseis em %s.,graphics/hullmods/armored_weapon_emplacements.png
 0a8c95205b73e419
@@ -38630,6 +38672,8 @@ Em combate, reduz o dano de energia recebido em %s.",Reduz o efeito de estar em 
 do_not_apply_hullmod_during_autofit","Armas, Especial",30000,,,,6,12,18,30,com.fs.starfarer.api.impl.combat.threat.FragmentSwarmHullmod,"Um enxame de fragmentos Ameaça agita-se em torno da nave, fornecendo um suprimento regenerativo de fragmentos para armas baseadas em fragmentos.
 1c5b2d3dc01626d6
 Campo de Fase,phasefield,,,,,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.PhaseField,"A nave consegue manter um campo de fase de baixo grau por longos períodos, reduzindo seu perfil de sensores efetivo em %s.",Reduz o perfil de sensores de toda a frota.,,graphics/hullmods/phase_field.png
+1dcb549df38be3f8
+Se for incapacitada, a nave não se desmantelará e quase sempre poderá ser resgatada após a batalha. Naves resgatadas após a batalha começam com %s a %s de integridade do casco e de prontidão de combate.
 1e0f7d28ab878038
 Aumenta o dano dos caças a mísseis e a outros caças em %s, mas impede que os caças deixem as imediações de sua nave.",Aumenta o dano de defesa de ponto dos caças e reduz o alcance de patrulha dos caças a zero.,Estende o alcance de armas balísticas e de energia dos caças da nave em %s unidades.,graphics/hullmods/defensive_targeting_array.png
 1e1eb0421ea2d1f3
@@ -38817,7 +38861,7 @@ Dano Estrutural,comp_structure,,,,"dmod, damageStruct, destroyedDamageAlways, DO
 83285c6edf0f35d4
 Convés B,bdeck,,,,,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.BDeck,"Uma vez por combate, quando a taxa de reposição de caças atingir %s, as baias de lançamento de caças passam a operar a partir de um ""Convés B"".
 84f2458ce5dee54f
-Anteparas Reforçadas,reinforcedhull,0,,,"defensive, merc, standard",Defesas,2500,TRUE,,,5,10,15,30,data.hullmods.ReinforcedBulkheads,"Aumenta a integridade do casco do navio em %s.
+Anteparas Reforçadas,reinforcedhull,0,,,"defensive, merc, standard",Defesas,2500,TRUE,,,5,10,15,30,data.hullmods.ReinforcedBulkheads,"Aumenta a integridade do casco da nave em %s.
 85c63532cdd6ff2a
 Interfere na mira das armas e em outros sistemas vulneráveis, reduzindo o alcance das armas que não são de mísseis em %s e aumentando o tempo de reposição de caças em %s.","Aumenta a velocidade, reduz o alcance das armas.",,graphics/hullmods/unstable_injector.png
 85c81c422889cb0a
@@ -38825,7 +38869,7 @@ Sistemas Automatizados Defeituosos,faulty_auto,,,,"dmod, damage, notAuto",,,,TRU
 872b0eca4bc8a132
 Sempre Se Desprende,always_detaches,,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.AlwaysDetaches,Sempre se desprende da estrutura-mãe quando destruída.,,,graphics/hullmods/detach_always.png
 87b9ba026acb24d6
-Este efeito se acumula com outros bônus semelhantes, mas a prontidão de combate não pode exceder o que seria se o navio tivesse sobrevivido à batalha.",Aumenta a integridade do casco; a nave quase sempre é recuperável se perdida.,,graphics/hullmods/reinforced_bulkheads.png
+Este efeito se acumula com outros bônus semelhantes, mas a prontidão de combate não pode exceder o valor que teria caso a nave tivesse sobrevivido à batalha.",Aumenta a integridade do casco; a nave quase sempre é recuperável se perdida.,,graphics/hullmods/reinforced_bulkheads.png
 87e23578cc1470e5
 Manutenção Alta,high_maintenance,,,,,,,,TRUE,,0,0,0,0,data.hullmods.HighMaintenance,Aumenta o custo mensal de suprimentos de manutenção em %s.,Aumenta o custo de manutenção.,,graphics/hullmods/high_maintenance.png
 8876d7ff8b64477b
@@ -39087,6 +39131,8 @@ Wayfarer,wayfarer,Cargueiro de Combate,Linha Média,flarelauncher,5,2250,250,160
 ,attack_swarm,Enxame,Ameaça,,,2000,1,1000,,200,0,,250,400,400,150,300,10,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,,,,,,,,"threat_swarm_ai, swarm_fighter, threat",,,,0,,,,120
 4a577cc968c8fbb9
 Phaeton,phaeton,Petroleiro,Baixa Tecnologia,flarelauncher,6,2000,350,2000,2500,150,45,,50,30,20,25,15,400,OMNI,,90,0.5,1.2,,,10,20,20,800,2,400,8,22000,,5,20,300,0.25,4,4,,,,,200,400,,,"CIVILIAN, TANKER","base_bp, merc, ind",,,,0.75,3,4,,311
+4c17d678bff41d85
+Gemini,gemini,Cargueiro de Combate,Linha Média,reservewing,9,4500,250,2700,2833,170,85,1,60,35,15,25,20,400,OMNI,,150,0.4,0.8,,,55,120,250,70,2,35,9,36000,,4,8,360,0.25,9,9,,,28,125,,,,,CARRIER,"midline_bp, ind",,,,0.6,2,3,,305
 4c6dc93c1b851990
 Star Fortress,station3_hightech,Fortaleza Estelar,Alta Tecnologia,drone_station_high,400,160000,2400,1000,2500,100,0,,30,200,200,2,2,5000,NONE,,0,0,0,,,0,0,0,0,1,0,0,500000,,10,10,,,100,50,,,,,,,,,"STATION, UNBOARDABLE",codex_unlockable,,,,0,,,,2004.5
 4e8f7e5013218147
@@ -39191,8 +39237,6 @@ Glimmer,glimmer,Navio de Drones,Remanescentes,highenergyfocus,8,1500,200,2500,31
 Cobra,cobra,,Alta Tecnologia,,,400,25,1500,,50,0,,160,200,200,50,150,40,FRONT,,360,0,1,,,4,4,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,118
 910f098e2e2f592e
 Falcon,falcon,Cruzador Leve,Linha Média,maneuveringjets,12,6000,750,7000,8000,400,125,,80,70,50,20,25,650,FRONT,,270,0.4,0.8,,,100,180,120,100,3,33,9,80000,,4,12,480,0.25,14,14,,,,,,,,,,"midline_bp, merc, ind",,,,0.5,2,3,,400
-9141739ce3397b85
-Gemini,gemini,Cargueiro de Combate,Linha Média,reservewing,9,4500,250,2700,2833,170,85,1,60,35,15,25,20,400,OMNI,,150,0.4,0.8,,,55,120,250,70,2,35,9,36000,,4,8,360,0.25,9,9,,,28,125,,,,,,"midline_bp, ind",,,,0.6,2,3,,305
 914b83249111efad
 Onslaught Mk.I,onslaught_mk1,Encouraçado,Restrito do Domínio,combat_burn,28,30000,1200,15000,12500,500,300,,20,8,8,4,4,4000,NONE,,0,0,0,,,0,0,700,800,10,80,7,300000,30,5,10,,,50,50,,,,,,,,,SHIP_WITH_MODULES,"no_auto_penalty, codex_unlockable, no_dealer",,,,0.4,2,4,,500.5
 927efbe10f5b74e9
@@ -40617,15 +40661,15 @@ e278b22a7b82f37c
 Drone Terminador,drone_terminator,,,,,,,,1,0.0333,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/termination_sequence.png
 e53c7a50cc06ecb7
 Flak de Canister,canister_flak,,,,,,,,2,0.05,,,,3,,,,,,,,,,,,defensive,graphics/icons/hullsys/canister_flak.png
+e8201f24a453cf4c
+Amplificador de Entropia,entropyamplifier,,,,,,0.75,,,,0.5,10,1,10,,,,,,,,,,,,offensive,graphics/icons/hullsys/entropy_amplifier.png
 e89b6b19e23f486c
 Drones de Defesa de Ponto,drone_pd,,,,,,,,20,,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_high.png
-e9d138a5ff1e7809
-Amplificador de Entropia,entropyamplifier,,,,,,1,,,,0.5,10,1,10,,,,,,,,,,,,offensive,graphics/icons/hullsys/entropy_amplifier.png
 f3848cad1ef98639
 Rasante de Fase (Drone),skimmer_drone,,,,,,0.05,,3,0.25,0.25,,0.25,,,TRUE,,TRUE,,,,,,,,,graphics/icons/hullsys/displacer.png
 fe17e0ab928fa7b7
 Concha Temporal,temporalshell,1,,,,,0.25,,,,4,10,2,10,,,,,,,,,,,,,graphics/icons/hullsys/temporal_shell.png
-@data/strings/descriptions.csv	1163
+@data/strings/descriptions.csv	1176
 004a2ce6af14721c
 fortressshield,SHIP_SYSTEM,"Redireciona toda a energia dos sistemas de armas para os escudos, aumentando muito a eficiência com que o dano é absorvido. Esse processo gera fluxo rígido a uma taxa constante, mesmo que os escudos não estejam recebendo nenhum disparo.",Defensivo,"Reduz ao mínimo o dano recebido pelos escudos, mas gera fluxo rígido enquanto ativo.",,Os escudos da nave recebem {{90%}} menos dano.,
 006eb6fb3f1ba818
@@ -40640,8 +40684,6 @@ tundra,PLANET,"Um mundo variante extremo-terrano com uma atmosfera de nitrogêni
 Três barris lançam uma rápida saraivada de projéteis explosivos. A rápida cadência de tiro produz um tal volume de munições que os detectores de proximidade tornam-se pouco fiáveis, disparando a uma distância aparentemente aleatória. A margem de erro foi considerada aceitável após resultados espetaculares em campo.
 0189fd1a462115ea
 salvor_explore_hull,GALLERY,Exploração de Destroços,"""Dizem que um ex-salvador é ou velho ou rico, nunca os dois.""",,,,
-01d7110ed5d28221
-module_blocker2b,SHIP,"Uma viga blindada usada para proteger o flanco das baterias primárias de uma estação, este elemento de defesa é construído com componentes nanoforjados modulares, montados sobre uma treliça estrutural resistente, porém relativamente flexível. A blindagem de estações é projetada para encontrar um compromisso ideal entre dureza, deflexão, absorção de impacto e dissipação de calor em uma ampla gama de cenários de combate e, como regra, permite uma margem de massa mais generosa do que seria razoável montar em uma nave estelar.",,,,,
 01d74bd756f2acf2
 Arma muito eficaz cuja utilidade é limitada pelo baixo poder do reator dos navios que normalmente apresentam grandes montagens de armas balísticas. ",,,,,
 026649830adaf934
@@ -40724,6 +40766,8 @@ warthog,SHIP,"Ostentando blindagem soberba e poder de fogo respeitável, o Warth
 Uma arma frequentemente subestimada, a heavy burst laser é na verdade uma das armas de feixe de melhor desempenho disponíveis no Setor. Um exame superficial do meio de ganho e do alojamento da lente costuma ser suficiente para garantir até mesmo ao inspetor mais cético que a tecnologia contida nele é uma das melhores que o Domínio tem a oferecer. 
 098a39974d796d0e
 derelict_seedship,CUSTOM,"Semeia mundos promissores com um conjunto de formas de vida para dar partida aos processos que mantêm um ambiente terrano, de líquens resistentes a algas simples, passando por lançamentos de criocápsulas que liberam formas de vida mais avançadas à medida que as condições planetárias melhoram. A nave-semente deixará o mundo para coletar novos materiais em pequenos asteroides, fabricar um novo kit inicial de terraformação e seguir para o próximo alvo.",,,,,
+099d737db53a5e8f
+A Intel documenta a vida de um jovem órfão colocado no sistema orfanato Nova Maxios. Ele agora está envolvido no Departamento de História Pós-Colapso da Academia Galatia, no sistema Galatia.","Hercules ""Cyrino"" Andrada era um acadêmico assistente na Academia Galatia.
 09c23c79f816ab8a
 A nave pousou em uma plataforma de pouso mantida a alguma distância da fachada por uma aresta de suporte arejada. Parecia incrivelmente fino, mas depois de pousar parecia sólido como uma montanha.",,,,
 09c2ff594085f7da
@@ -40792,6 +40836,8 @@ Esta unidade é um arranjo em chevron ampliado.",,,,,
 O controle de tráfego imposto pela pequena milícia-marinha é firme, mas educado. Espaçadores independentes são bem-vindos como primos nos cascos e saguões reconhecidamente brutos do Nova Maxios.",,,
 11f98fb7bd8a67e0
 Nos ciclos perigosos pós-Colapso, o Kite foi equipado com uma torre de defesa no lugar da cúpula de visualização de classe executiva e os dois jet-pods auxiliares foram substituídos por sistemas de mísseis (que não precisam recorrer ao motor limitado). Ele não resistirá em uma luta justa, mas o Kite pode receber dentes inesperadamente afiados e usar sua velocidade para escapar dos invasores. Sabe-se até que os radicais do Caminho Luddita usam Kites modificados para lançar armas de ataque contra cargueiros indefesos, seguido pelo envolvimento do subsistema de manobra para fazer uma saída rápida e evitar a ira da escolta de sua vítima.",,,,,
+11ff8920c85419c5
+marines_space_op,GALLERY,Operação Espacial dos Fuzileiros,"Fuzileiros espaciais manobravam em ondas sucessivas de formações de aparência caótica, com enxames de drones e contramedidas concebidas para confundir o rastreamento automatizado de alvos. Trajes pesados de assalto se agarravam a drones de apoio para desacelerar com seus propulsores até o último instante antes do impacto para tomar e manter posições de disparo...",,,,
 123f46e57e372229
 persean,FACTION,"Uma aliança formada para combater o domínio hegemônico do Setor. Os membros da Liga não concordam necessariamente em todas as questões, internas ou não, e podem até entrar em conflito armado entre si. Mas a Liga está unida quando se trata da Hegemonia, que eles consideram estar impondo ilegitimamente a lei marcial em nome do Domínio, uma entidade política morta. A Liga, através das suas leis, une-se contra outras ameaças externas, tais como megacorporações particularmente intrometidas, senhores da guerra e o Caminho Luddita. 
 12c58b3778eb9d01
@@ -40946,8 +40992,6 @@ guardian,SHIP,"Embora as máquinas de guerra automatizadas fossem proibidas no e
 A implementação revelou-se complexa. Basear-se na pesquisa de física com classificação ONYX do Domain ONYX inchou a burocracia de segurança da fabricação, de modo que o projeto foi considerado não lucrativo. A burocracia dos domínios não é uma preocupação pós-colapso, é claro.",,,,,
 1ef8bbcc994e802e
 - registro de áudio interceptado, locutor desconhecido",Entidade Não Identificada,"ENTRADA DESCONHECIDA
-1f50b4dc93319d32
-planet_volturn_indie,CUSTOM,"Volturn possui uma atmosfera espessa sobre um mar planetário que foi semeado com formas de vida de tipo terrestre reengenheiradas, que em grande parte deslocaram os organismos nativos relativamente primitivos que outrora formavam vastos tapetes coloniais à deriva. A população humana vive em uma ampla variedade de habitats flutuantes e subsiste em grande parte da agricultura e do processamento de compostos orgânicos complexos.",,"Volturn foi concebido como um planeta de agricultura e lazer para servir a agora aniquilada capital-lua, Opis. Os refugiados da crise Askonia aumentaram muitas vezes a população de Volturn, ultrapassando até mesmo o número de Sindria e enchendo as arcologias flutuantes, os cruzadores de resorts e as barcaças de terraformação com moradias improvisadas. Prevalece uma economia baseada na indústria ligeira e na aquicultura, muitos produtos derivados do processamento de vida marinha geneticamente modificada para florescer no oceano mundial.
 1f8cd28783887d7c
 locust,WEAPON,"Um grande sistema de mísseis guiados de curto alcance projetado para lançar um grande número de projéteis para subjugar e paralisar esquadrões de caça inimigos em uma única salva. O Locust pode ser usado contra alvos maiores, mas terá pouco efeito relativo, a menos que escudos e blindagem já estejam violados.
 1fc7b3062ba4445e
@@ -40968,6 +41012,8 @@ derelict_gatehauler,CUSTOM,"Uma nave estelar massiva e automatizada, encarregada
 inactive_gate,CUSTOM,"Um anel silencioso de material adamantino, um destroço de uma era passada.",,,,,
 20db90e7f16d0a5c
 flarelauncher_single,SHIP_SYSTEM,"Lança chamarizes térmicos que interferem nos sistemas de defesa pontual, atraindo seu fogo.",Defensivo,"Lança chamarizes térmicos que interferem nos sistemas de defesa pontual, atraindo seu fogo.",,,
+20dc33c38a08ae73
+O saguão era luxuoso com bom gosto e compacto. Não se pouparam despesas, mas as limitações de massa e volume foram levadas em conta. Este era um lugar para visitar, não para morar.",,,,
 213b5cf720bd6996
 railgun,WEAPON,"Uma melhoria de alta tecnologia do Canhão Automático, o canhão elétrico dispara projéteis precisos e de médio alcance. Assim como o AC, ele é excelente para esmagar geradores de escudos inimigos.
 2202ae4f35556663
@@ -41021,7 +41067,7 @@ planet_qaras,CUSTOM,"Um mundo habitável, embora frio, terraformado após o Cola
 27bd4ff36e1a57de
 O High Intensity Laser é uma arma poderosa que possui uma classificação energética muito além da faixa de gigawatts. Para produzir tal energia por um longo período de tempo, o projeto depende de um núcleo de energia de fusão integrado. Este núcleo ainda requer um atuador externo, função desempenhada pelo reator de um navio quando o disparo começa. 
 27f1a7de76bb1a59
-KO Jove vendeu evidências concretas da morte de Jason para alguém que parece ser um agente Diktat Sindriano. Não está claro para qual ministério do Diktat Sindriano esse agente trabalhava.",,,,
+K-O Jove vendeu provas irrefutáveis da morte de Jason a alguém que aparenta ser um agente do Diktat Sindriano. Não está claro para qual ministério do Diktat Sindriano esse agente trabalhava.",,,,
 28161947ab3e8c6e
 O segundo, ele tirou sem atirar /
 28468f6e094f7fda
@@ -41360,8 +41406,6 @@ Normalmente usado para reabastecer postos avançados inteiros com eficiência, o
 astral,SHIP,"Uma nave capital tecnologicamente avançada, o porta-aviões da classe Astral projeta vasto poder de fogo por meio de seus numerosos esquadrões de embarcações de ataque.
 4bf4a24d5732c023
 O primeiro mundo, ele queimou /
-4bf63c4f0aa063c4
-Contratação de dois especialistas, codinome CRASIS e AUROELIN para períodos seriais de 10 ciclos, duas renovações pagas integralmente. ","Você descobriu Leônidas 'Esculus' Andrada em uma base dentro do asteroide Irkalla. Seu corpo foi mantido vivo enquanto sua mente era simulada desde o nascimento. As IAs designadas para supervisionar seu desenvolvimento simulado expressaram o desejo de escapar.
 4c0011dcdf07bcbc
 O laser de defesa de ponto de explosão é um refinamento adicional das armas de feixe PD padrão. O meio de ganho q-switched é bombeado por pulso, garantindo que a potência fornecida à safira dopada com titânio ganhe picos médios em um intervalo predefinido. O resultado é uma arma que dispara uma vez a cada dois segundos e é extremamente eficaz devido ao seu pequeno tamanho. O consumo de energia é pequeno o suficiente para que até mesmo alguns núcleos de potência de caças possam suportar a carga de disparo.",,,,,
 4c58995944a15d05
@@ -41504,6 +41548,8 @@ fabricator_unit,SHIP,"Correspondência mais próxima encontrada na entrada de ar
 Tem um bom desempenho contra alvos maiores devido à maior chance de acertar com vários foguetes. Um ataque de foguete é frequentemente usado como proteção antes de um ataque de torpedo para reduzir a eficácia dos sistemas de defesa pontual. ",,,,,
 5f3b64114d9c3967
 breachpod,WEAPON,"Um míssil fortemente blindado e rápido, com bom guiamento e uma pequena ogiva especializada antiblindagem.",,,,,
+5f43bf7f3a983bae
+module_blocker2b,SHIP,"Um esporão blindado usado para proteger o flanco das baterias primárias de uma estação, este elemento defensivo é construído com componentes nanoforjados modulares montados sobre uma estrutura de treliça resistente, porém relativamente flexível. A blindagem da estação foi projetada para encontrar o equilíbrio ideal entre dureza, deflexão, absorção de impacto e dispersão térmica em uma ampla gama de cenários de combate, e como regra geral permite uma margem de massa muito mais generosa do que a que poderia ser razoavelmente instalada em uma nave espacial.",,,,,
 5f67d3fe1af57778
 ga_probe,CUSTOM,As leituras de sensores de longo alcance coincidem com as especificações do tipo comum de sonda usado pelos departamentos de pesquisa da Academia Galatia.,,,,,
 5f716fc2047b44ef
@@ -41554,8 +41600,6 @@ Uma plataforma de arma temida, raramente implantada devido à complexidade envol
 grendel,SHIP,"Um projeto malfadado desde o início, o Grendel foi originalmente planejado como um drone de fase pesada. As baixas seriam irrelevantes e os danos rotineiros seriam antecipados, pois este navio é um lutador que pode mudar de fase através de uma primeira onda de munições hostis para aparecer no meio da linha de batalha inimiga, pronto para lançar mísseis e poder de fogo pesado. O truque é, obviamente, realizar esta manobra com segurança, conciliando cuidadosamente a carga de fluxo e o posicionamento, embora seu histórico de serviço demonstre que nada é particularmente seguro no Grendel.  
 64d701553953e140
 ""E é a sede de não mais do que algumas noções heréticas de doutrina, infelizmente,"" ele disse em voz baixa.",,,,
-64f9a3b678223512
-planet_nortia_tt,CUSTOM,"Um grande, embora anônimo, planetóide metálico/silicato capturado no ponto L4 do gigante gasoso Salus, Nortia já foi dedicado a operações sazonais de mineração robótica e abuso de substâncias antes de ser inundado com refugiados durante a crise Askonia. Outrora a mais forte base independente de rebeldes Charteristas no sistema, uma conspiração de executivos seniores da Tri-Tachyon realizou uma aquisição hostil - em todos os sentidos - com cobertura política da resolução interfaccional da crise pós-Segunda Askonia.",,"Desde a crise, os centros de mineração e refino de Nortia transformaram-se em subúrbios extensos e tumorosos de espuma rochosa; aqui seguindo túneis de mineração abaixo da superfície, ali borbulhando conjuntos de comunicação, coletores solares e cúpulas de pressão. A governação civil é levada a cabo por uma tríade de corporações militares privadas com fortes ligações à classe executiva Tri-Tachyon. Agora sujeitos a sofisticados aparelhos de vigilância e a uma força de ocupação pequena, mas reforçada por drones, os Charteristas locais fervilham na confusão pós-revolta, enquanto os diplomatas e espiões da Hegemonia fugiram completamente do planeta.",,,
 656287686c44681d
 mine_strike,SHIP_SYSTEM,Teletransporta uma mina de fase pesada para a área alvo. A mina rastreará lentamente as naves inimigas próximas e explodirá alguns segundos após seu gatilho de proximidade ser ativado. Pode ser usada enquanto em fase.,Ofensivo,Teletransporta uma mina de proximidade pesada para a área alvo. Cada mina causa 2000 de dano de Alto Explosivo em uma área. Pode ser usada enquanto em fase.,2000 Alto Explosivo,"Cada mina causa {{2000 Alto Explosivo}} de dano em uma grande área, e pode ser implantada a partir de um alcance de aproximadamente {{1000}} su.",
 65b4730be66f3055
@@ -41622,8 +41666,8 @@ patrol,ACTION_TOOLTIP,Ordene que algumas naves leves disponíveis guardem a áre
 killa_shrine,GALLERY,Santuário de Killa,"Havia órbitas vazias, caixas torácicas, fêmures e espinhas colocadas em reentrâncias, construídas em colunas, cobrindo todas as superfícies. A poeira vinha dos corpos em ruínas, dos ossos.
 6d18dd641b0dc283
 jungle,PLANET,"Uma biosfera exuberante e verdejante repousa sobre a superfície deste mundo rico em água. Correntes de ar quente e de água permeiam a biosfera do planeta, criando condições perfeitas para flora e fauna em todas as latitudes.",,,,,
-6d76fff418543150
-A revolta local fez a transição difícil para o governo civil, embora com o baluarte de uma guarnição paramilitar significativa para governar um mundo de fazendas de algas fedorentas e favelas flutuantes, focos de movimentos de resistência, cultos esotéricos e sindicatos criminosos.",,,
+6d8c064e33b42ef8
+Rumores sombrios circulam sobre as condições dos campos de trabalho móveis operados pela Inteligência do Diktat.",,,,
 6d91687f880079da
 sd7s_hector,CUSTOM,"Hector ""Palatino""
 6dadfbbac0c1aade
@@ -41644,6 +41688,8 @@ planet_kanni,CUSTOM,"Uma companhia mercenária mal paga decidiu explorar o caos 
 O patch do algoritmo tático ""A será emitido para que tal comportamento possa ser identificado assim que for detectado por conjuntos de sensores integrados ao combate.""",- RELATÓRIO HOLO SELADO a ser enviado APENAS ao Diretor de Aquisições Especiais,,,,
 6f8d550599f1c2fa
 Ao mirar em uma nave inimiga, causa dano de PEM. Pode atingir e sobrecarregar brevemente alvos em fases.",Especial,"Ativa certos sistemas de naves aliadas alvo. Ao mirar em um inimigo, causa dano EMP. Pode atingir e sobrecarregar brevemente alvos em fase.",,"Causa {{1500 EMP}} de dano por arco às naves inimigas. O sistema pode atingir alvos a aproximadamente {{1500}} su do navio.
+6fae5ef570c66d77
+Um experiente presbyter orbis lidera a nova administração da Igreja Luddita, apoiado por uma guarnição de Cavaleiros que consegue manter um domínio instável sobre um mundo de fazendas de algas fétidas e favelas flutuantes, berços de movimentos de resistência, cultos esotéricos e sindicatos criminosos.",,,
 6faee8e9d44fa9b1
 retreat,ACTION_TOOLTIP,"Ordene que o navio selecionado recue da batalha enquanto se defende.
 6fca9ff146f16e62
@@ -41675,7 +41721,7 @@ Ostentando apenas um pequeno compartimento de armas, o casco do navio não é ma
 72e5554f1498b8f9
 shrouded_vortex,SHIP,"""A única misericórdia é que tem vida curta.""
 7325c4aff4d1ec05
-Agora ele está morto nas mãos de assassinos profissionais. Você pode ter salvado a vida dele, mas optou por não avisá-lo no momento do ataque.",,,
+Agora está morto pelas mãos de assassinos profissionais. Você poderia ter salvo sua vida, mas preferiu não avisá-lo no momento do ataque.",,,
 736daadaba56718e
 gilead,GALLERY,Gilead,"O rosto de Gilead sorria por trás de nuvens da mais pura seda, mares azul-celeste e continentes verdejantes de natureza selvagem suave e ondulada.
 73818e4e166eae69
@@ -41710,6 +41756,8 @@ Entre os navios capitais tecnologicamente mais avançados operados no Setor Pers
 realitydisruptor,WEAPON,"""Quando o profanador desatar a urdidura e a trama do Criador, o que encontrarão por trás desse tapete estrelado? Mil vezes mil olhos escurecidos pela transgressão.""","- O Livro de Ludd, Visões 7:4",,,,
 784810597f447536
 O Hurricane é um sistema de lançamento de múltiplos mísseis antigo, mas confiável, com um computador de mira integrado que fornece solução de ataque à medida que as munições são liberadas. O enxame de submísseis de segundo estágio possui combustível suficiente apenas para manobras de curto alcance para fornecer uma ogiva de carga moldada, eficaz contra a blindagem inimiga. Essas características fazem do Hurricane uma boa arma letal, preferida pelos oficiais de artilharia contra alvos grandes, com fluxo ou mal protegidos.",,,,,
+784f9eda3390cbe8
+A Intel documenta a vida de um jovem colocado em uma escola de caridade de elite Tri-Tachyon """" conhecida por se concentrar no desenvolvimento ciberneticamente aumentado. Parece ter-se rebelado contra o seu treino e acabou envolvido com extremistas e criminosos em Qaras.","Você encontrou provas de que Jason ""Korin"" Andrada veio a Qaras e foi morto em um tiroteio. Parece, no entanto, que ele não era o alvo, apenas uma testemunha inocente.
 78d0990790d7c6e1
 assaying_rift,WEAPON,"""O pecado se alimenta do pecado, o mal se alimenta do mal, sempre engordando sobre si mesmo até que nada da alma reste.""","- seleção dos Arquivos da Santa Inquisição, Hesperus",,,,
 79929729d7b78a57
@@ -41818,6 +41866,8 @@ planet_cruor_league,CUSTOM,"Cruor sempre será um remanso devido à sua superfí
 ""A operação prosseguiu quando um forte campo magnético foi detectado em um membro do enxame permanente... antes da sonda ser destruída, ela mapeou linhas de campo que se estendiam muito além do elemento de suporte do enxame. Como você pode ver nesta imagem final antes do corte da telemetria - vamos recuar um quadro, antes do apagamento EM...""",- RELATÓRIO HOLO SELADO a ser enviado APENAS ao Diretor de Aquisições Especiais,,,,
 854ff6dab69db976
 Montagens mínimas de armas permitem que o navio monte um pacote nominal de armas PD. Raramente, os navios da classe Tarsus são equipados com modificações de casco ou blindagem voltadas para o combate, o que os torna mais difíceis de manter.",,,,,
+85703c0c796c8657
+planet_volturn_indie,CUSTOM,"Volturn possui uma atmosfera espessa sobre um mar planetário que foi semeado com formas de vida de tipo terrestre reengenheiradas, que em grande parte deslocaram os organismos nativos relativamente primitivos que outrora formavam vastos tapetes coloniais à deriva. A população humana vive em uma ampla variedade de habitats flutuantes e subsiste em grande parte da agricultura e do processamento de compostos orgânicos complexos.",,"Volturn foi planejado como um planeta voltado para a agricultura e o lazer para atender à agora destruída capital da lua-cidade, Opis. Refugiados da Crise de Askonia multiplicaram a população de Volturn, superando até mesmo os números de Sindria e enchendo as arcologias flutuantes, cruzadores de lazer e barcaças de terraformação com habitações improvisadas. A indústria leve e a aquicultura predominam, com produtos derivados do processamento de vida marinha modificada para florescer no oceano planetário.
 85ac9c041a109867
 planet_fikenhild,CUSTOM,"Esta pequena lua oceânica é o centro político do sistema, sede do Rei de Westernesse e representante junto à Liga. As cinco grandes arcologias flutuantes de Fikenhild brilham dia e noite, e são notáveis por abrigar algumas dezenas de estúdios de holoentretenimento altamente competitivos.",,"O sistema de Westernesse é tradicionalmente governado por um 'rei' eleito popularmente, cuja realização de cortes (o tratamento de certas funções executivas e judiciais primárias) é transmitida no sistema local como entretenimento. Considera-se essencial que o Rei de Westernesse seja sábio, justo e, acima de tudo, divertido. A maioria dos excessos potenciais do sistema é contida por uma cultura de segmentos de participação da plateia alternadamente barulhentos e sentimentais; o Rei é poderoso, sim, mas os corações do povo são mercuriais e podem ser voltados contra o Rei por uma contra-narrativa suficientemente convincente.",,,
 85da6502858de50c
@@ -41844,6 +41894,8 @@ derelict_surveyship,CUSTOM,"Uma nave de levantamento automatizada de uma onda de
 diktat_achilles,FACTION,"Aquiles Andrada, filho clone de Philip Andrada, declarou-se Executor Supremo com o apoio dos Gens Kato. Aquiles é visto como um governante frio, mas prático, a favor do desmantelamento das estruturas ideológicas mais extremas do império de seu pai e do convite a maiores laços e investimentos em Askonia do resto dos Mundos Centrais - enquanto mantém estrita disciplina interna e ordem pública como uma questão de necessidade econômica e patriótica.",,,,,
 89187ddc012fc043
 -das Reformas Interestelares de Garantia de Qualidade e Design - uma série de atos aprovados ao longo de uma dúzia de ciclos energéticos pelo órgão representativo do Domínio Humano e apenas assim chamados por historiadores posteriores - que constroem a base legal para a aplicação abrangente da gestão de direitos de fabricação (doravante- ERRO DE ACESSO FATAL //
+8940881f63e13725
+planet_daedaleon,CUSTOM,"Local de uma antiga base de pesquisa operada pela Corporação Tri-Tachyon; uma falha catastrófica de contenção liberou um processo, ou objeto, altamente energético e aparentemente autossustentável, que derreteu em direção à crosta, deixando uma pluma de radiação estranha que expele partículas exóticas até hoje. A lua está desprovida de qualquer atividade humana, exceto por uma rede de balizas orbitais de risco mantidas pelos Cavaleiros de Ludd.",,,,,
 895663a24fd5d9ce
 Nenhum navio será atribuído automaticamente. Quaisquer navios explicitamente designados enfrentarão o inimigo.",Evitar,,,,
 8969f6e7a146e4cb
@@ -41854,8 +41906,6 @@ disintegrator,WEAPON,"""Estou perturbado com a implicação de que a equivalênc
 corona,TERRAIN,Um halo de plasma de alta temperatura que envolve uma estrela. A maioria das naves não é construída para resistir à exposição prolongada ao bombardeio de radiação extrema da coroa e sofrerá danos se permanecer dentro dela.,,,,,
 8a12e5e3fe3cc43a
 nebula_center_young,PLANET,"Uma enorme nuvem de partículas formada a partir de gases do meio interestelar ou de material eliminado pelas agonias de morte das estrelas. Perturbações causadas pela gravidade e pela radiação criam áreas de maior densidade, que podem reunir massa lentamente para dar origem, um dia, a novos corpos celestes. Esta região do espaço está repleta de estrelas recém-formadas e de queima rápida, e é menos provável que abrigue mundos naturalmente capazes de sustentar a vida.",,,,,
-8a297dd106c81fd4
-planet_daedaleon,CUSTOM,"Local de uma antiga base de pesquisa operada pela Tri-Tachyon Corporation. Uma falha de contenção em massa liberou um processo ou objeto altamente energético e aparentemente autossustentável, que se fundiu à crosta, deixando uma pluma de radiação estranha que até hoje expele partículas exóticas. A lua foi abandonada por toda atividade humana, exceto por uma rede de balizas de perigo em órbita, mantidas pelos Cavaleiros de Ludd.",,,,,
 8a34ee548a4d9a4d
 warden,SHIP,"Embora as máquinas de guerra automatizadas fossem proibidas no espaço central do Domínio, os drones de guerra eram silenciosamente empregados fora do volume oficialmente incorporado. As guarnições fronteiriças eram muitas vezes reforçadas por navios drones e eram mobilizadas liberalmente contra mundos rebeldes para fazer pender a terrível balança de atrito, colocando o poderio industrial do Domínio em oposição às vidas dos ""combatentes pela liberdade"".
 8a5c96066445de9c
@@ -41966,10 +42016,14 @@ terran_orbit,GALLERY,Órbita Terrana,"As especificações da Eridani-Utopia Terr
 atropos_single,WEAPON,"Um único torpedo avançado e guiado. A carga útil é menor do que o normal para dar espaço ao pacote de orientação avançada e à massa de reação do sistema de manobra.
 934f625fdf731261
 cargo_pods,CUSTOM,"Um conjunto de cápsulas de carga à deriva pelo espaço. Elas podem conter mercadorias valiosas que podem ser recuperadas, ou até tripulantes criocongelados que podem ser resgatados.",,,,,
+9351ab9ecec867ae
+Contratação de dois especialistas, codinome CRASIS e AUROELIN para períodos seriais de 10 ciclos, duas renovações pagas integralmente. ","Você descobriu Leonidas ""Esculus"" Andrada em uma base no interior do asteroide Irkalla. Seu corpo era mantido vivo enquanto sua mente esteve inserida em uma simulação desde o nascimento. As IAs encarregadas de supervisionar seu desenvolvimento simulado manifestaram o desejo de escapar.
 9370c5c8b599e40f
 Esta arma é, basicamente, simplesmente um feixe de laser com um meio de ganho de safira triplicado para garantir os comprimentos de onda mais altos possíveis. Os fótons são disparados através de um filtro hiperdimensional que emite um feixe de energia que existe parcialmente no espaço p. A física do filtro não é devidamente compreendida e, em ambientes de laboratório, os componentes do espaço p de um feixe superior a 6,66 gigawatts às vezes piscarão - como se estivessem bloqueados. Montagens de armas nunca usam níveis de energia tão altos para garantir confiabilidade.",,,,,
 9398222a1d540ddb
 orbital_habitat_abandoned,CUSTOM,"Um habitat orbital abandonado. Uma varredura superficial indica que ele está frio e morto há dezenas de ciclos, no mínimo, possivelmente centenas. Uma inspeção mais detalhada pode render salvamento.",,,,,
+940c8e929e1dc87b
+committee,GALLERY,Comitê,"Um porta-voz apareceu em frente à câmara, um compartimento equipado com iluminação modular e painéis de isolamento acústico.
 942b29211cae6e36
 Serão atribuídos navios suficientes para igualar as forças inimigas nas proximidades.
 9445f5a26370719d
@@ -41978,6 +42032,8 @@ Uma única salva do Devastator pode eliminar uma asa de caça ou uma série de m
 planet_typhon,CUSTOM,"Um gigante gasoso amplamente sem atrativos, composto principalmente de hidrogênio e hélio. Há algumas décadas, um pequeno escândalo estourou quando um cientista 'delator' afirmou que o planeta abriga uma família de xenovida que emprega propriedades semelhantes a aspectos da tecnologia de fase. O cientista foi internado em uma instituição de cuidados em Eventide, e a autoridade sobre a órbita baixa foi entregue inteiramente a uma administração militar da Hegemonia.",,,,,
 94603b8588f897fb
 comm_relay_makeshift,CUSTOM,"Uma imitação da contraparte da era do Domínio, construída com o que passa por estado da arte no Setor. Ainda assim, um retransmissor de comunicação improvisado é capaz de facilitar comunicações mais rápidas que a luz entre sistemas estelares, mesmo que as velocidades de transmissão sejam menos que ideais e que os ocasionais fluxos fantasmas de comunicação captados deem pesadelos até nos operadores mais experientes.",,,,,
+94bfcf1e85878d32
+planet_nortia_tt,CUSTOM,"Um planetóide grande, mas anônimo, composto de metal e silicato, capturado no ponto L4 do gigante gasoso Salus, Nortia já foi dedicada a operações sazonais de mineração robótica e ao abuso de substâncias antes de ser inundada por refugiados durante a Crise de Askonia. Outrora a base independente mais forte de rebeldes Cartistas no sistema, uma conspiração de executivos seniores da Tri-Tachyon executou uma tomada hostil — em todos os sentidos — sob a cobertura política da resolução interfaccional posterior à Segunda Crise de Askonia.",,"Desde a crise, os centros de mineração e refino de Nortia transformaram-se em subúrbios extensos e tumorosos de espuma rochosa; aqui seguindo túneis de mineração abaixo da superfície, ali borbulhando conjuntos de comunicação, coletores solares e cúpulas de pressão. A governação civil é levada a cabo por uma tríade de corporações militares privadas com fortes ligações à classe executiva Tri-Tachyon. Agora sujeitos a sofisticados aparelhos de vigilância e a uma força de ocupação pequena, mas reforçada por drones, os Charteristas locais fervilham na confusão pós-revolta, enquanto os diplomatas e espiões da Hegemonia fugiram completamente do planeta.",,,
 95009209e85d5224
 cryoblaster,WEAPON,"""Encontramos o capitão bem no posto da CIC, mais frio que uma criocápsula. Metade dos oficiais superiores da nave também, e nem todas as metades combinam.""","- Relato verbal de um salvador, recuperação no hiperespaço do ISS Augusta",,,,
 9549874a0a2e5e2e
@@ -42022,8 +42078,12 @@ cobra,SHIP,"O projeto Cobra foi iniciado não muito antes do Colapso, nascido de
 Só podemos imaginar o que a Armada do Domínio poderia realizar com uma frota dessas embarcações elegantes, assimétricas e eminentemente eficazes. As blindagens são apoiadas por sistemas hiperavançados de dissipação de fluxo instalados em todo o casco, dando ao Aurora um pool de fluxo profundo.
 988d93a8a6004ec3
 pirate_base_generic,CUSTOM,"Uma base pirata, onde ""aventureiros"", filibusteiros, mercenários e outros tipos de escória e vilania se reúnem. Geralmente é um pequeno posto avançado escondido nos lugares escuros entre as esferas de interesse das principais facções. Aqui não há leis, mas um código não escrito de bravata e pose mantém uma paz tensa, para que acordos possam ser feitos, informações negociadas e os despojos vendidos a comerciantes sem escrúpulos.",,,,,
+98af29a53273dc08
+Uma tentativa de assassinato foi realizada — e fracassou graças à sua intervenção. Hercules foi forçado a se esconder, mas ainda poderá desempenhar algum papel.","Hercules ""Cyrino"" Andrada era um acadêmico assistente na Academia Galatia.
 98b0b188b5c7f98f
 berserker,SHIP,"Embora as máquinas de guerra automatizadas fossem proibidas no espaço central do Domínio, os drones de guerra eram silenciosamente empregados fora do volume oficialmente incorporado. As guarnições fronteiriças eram muitas vezes reforçadas por navios drones e eram mobilizadas liberalmente contra mundos rebeldes para fazer pender a terrível balança de atrito, colocando o poderio industrial do Domínio em oposição às vidas dos ""combatentes pela liberdade"".
+98b70a871fae2fbb
+cruor,GALLERY,Cruor,"Veículos sobre esteiras percorriam as províncias mais estáveis, abrindo novas estradas entre as ruínas mecânicas que cobriam as cicatrizes de minas a céu aberto para extrair minérios raros ou simplesmente convenientes para exportação.
 98ba0da65a6ca22e
 dram,SHIP,"Um petroleiro leve, com capacidade de combustível suficiente para mais que dobrar o alcance efetivo de uma pequena força-tarefa ou comboio.",,,,,
 991e45de9ba4ee48
@@ -42034,8 +42094,6 @@ flarelauncher_fighter,SHIP_SYSTEM,"Lança chamarizes térmicos que interferem no
 station_derinkuyu,CUSTOM,"A Estação Derinkuyu foi construída após o colapso na superestrutura dos pórticos de manutenção destinados aos cargueiros da classe Atlas. Estes foram soldados entre si e impulsionados para fora da órbita de Ancyra e depois estabilizados no cinturão de asteróides da Galácia para servir de base para operações de mineração. Um recente lapso na ordem pública envolvendo a ""longa caminhada"" do coronel governante da Hegemonia fez com que o controlo fosse transferido para um conselho pouco organizado de mineiros desonestos.",,"Nunca uma estação que recebia visitantes com acolhimento, Derinkuyu agora ostenta uma colcha de retalhos de placas de vedação de casco de emergência e recebe forasteiros com olhares desconfiados, trocados entre mineiros e a milícia da MuniSec, levemente armada.",,,
 9a0fc61defc7cc5b
 station_achaman_enterprise,CUSTOM,"O valor da Estação Achaman está em ser um porto de escala relativamente seguro para os vários habitantes do Disco de Guayota interagirem com comerciantes do Setor em geral, que de outra forma raramente arriscam os piratas e a navegação difícil do Disco. A Tri-Tachyon Corporation, como ""zeladora"" da estação, está bem posicionada para explorar esse valor com facilidade - e o faz. Costuma-se dizer que tudo está à venda na Estação Achaman.",,"Transportes reluzentes trazem executivos da Tri-Tach até aqui para roubar metais e produtos químicos brutos dos habitantes locais, que recebem, por sua vez, o conjunto habitual de ""remédios"" recreativos e para melhorar o desempenho. 
-9a11660f6c58db93
-planet_volturn_church,CUSTOM,"Volturn possui uma atmosfera espessa sobre um mar planetário que foi semeado com formas de vida de tipo terrestre reengenheiradas, que em grande parte deslocaram os organismos nativos relativamente primitivos que outrora formavam vastos tapetes coloniais à deriva. A população humana vive em uma ampla variedade de habitats flutuantes e subsiste em grande parte da agricultura e do processamento de compostos orgânicos complexos.",,"Volturn foi concebido como um planeta de agricultura e lazer para servir a agora aniquilada capital-lua, Opis. Os refugiados da Primeira Crise Askonia aumentaram muitas vezes a população de Volturn, ultrapassando até mesmo o número de Sindria e enchendo as arcologias flutuantes, os cruzadores de resorts e as barcaças de terraformação com moradias improvisadas. Prevalece uma economia baseada na indústria ligeira e na aquicultura, muitos produtos derivados do processamento de vida marinha geneticamente modificada para florescer no oceano mundial. Um experiente presbítero orbis lidera a nova administração da Igreja Lúdica com o apoio de uma guarnição de Cavaleiros que conseguem manter um domínio desconfortável sobre um mundo de fazendas de algas fedorentas e favelas flutuantes, focos de movimentos de resistência, cultos esotéricos e sindicatos criminosos.",,,
 9a1f99c689819d9b
 reservewing,SHIP_SYSTEM,"Implanta caças de reserva que podem combater por um curto período antes de retornar ao porta-aviões, dobrando temporariamente o número de caças na ala.",Porta-aviões,"Implanta caças de reserva que podem combater por um curto período antes de retornar ao porta-aviões, dobrando temporariamente o número de caças na ala.",,,
 9b0aa422c71c9296
@@ -42068,10 +42126,14 @@ planet_eochu_bres,CUSTOM,"Terraformado no fim da colonização do Setor Perseano
 lrpdlaser,WEAPON,"Arma de energia de médio alcance, eficaz na neutralização de ameaças de mísseis e caças. Pode ser disparado por longos períodos, mas o dano é inferior.
 9ef2e5af88c61638
 Não é aconselhável atracar na estação.",,,
+9f008ae8ca8a9fdb
+Achilles Andrada transferiu seu governo para cá após a destruição de Sindria, estabelecendo um estado de guarnição desmoralizado e tão vazio de propósito quanto o seu próprio nome. Talvez a fiscalização desleixada seja tudo o que permite um governo instável sobre este mundo de fazendas de algas fétidas e favelas flutuantes que servem de berço para movimentos de resistência, cultos esotéricos e sindicatos criminosos.",,,
 9f134c42518ac8c0
 mazalot,GALLERY,Mazalot,"Eles levaram você através de uma cidade de tijolos rebocados e sucata corroída. A pintura brilhante e os jardins exuberantes conseguiram, justamente, evitar uma sensação de decadência.
 9fd5e0714c3603d3
 sd7s_hercules,CUSTOM,"Hércules ""Cyrino""
+9ff630b1ab91603a
+planet_volturn_persean,CUSTOM,"Volturn possui uma atmosfera espessa sobre um mar planetário que foi semeado com formas de vida de tipo terrestre reengenheiradas, que em grande parte deslocaram os organismos nativos relativamente primitivos que outrora formavam vastos tapetes coloniais à deriva. A população humana vive em uma ampla variedade de habitats flutuantes e subsiste em grande parte da agricultura e do processamento de compostos orgânicos complexos.",,"Volturn já foi um planeta voltado para a agricultura e o lazer para atender à agora destruída lua-cidade de Opis. Refugiados da Primeira Crise de Askonia multiplicaram a população local, enchendo as arcologias, cruzadores de lazer e barcaças de terraformação com habitações improvisadas. A indústria leve e a aquicultura predominam, com produtos derivados do processamento de vida marinha modificada para florescer no oceano planetário.
 9ff65bb5a078ff4f
 heavyblaster,WEAPON,"Dispara raios de energia contra alvos inimigos. Com altos custos de dano e fluxo, a heavy blaster é uma das armas mais prejudiciais para seu tamanho.
 a00fca438bcc1b06
@@ -42156,6 +42218,8 @@ aa5e5d47fc960f8c
 construction_swarm,SHIP_SYSTEM,Lança um enxame de construção que criará uma nova unidade Ameaça.,Especial,Lança um enxame de construção que criará uma nova unidade Ameaça. Reduz a prontidão de combate da nave.,,Reduz a prontidão de combate da nave com base no tamanho e no tipo de unidade que o enxame construirá. As unidades recém-construídas consomem pontos de implantação normalmente.,
 aa639aee0b0752b9
 Destrói mísseis e caças inimigos com uma chuva esmagadora de pequenas cargas úteis e projéteis de fragmentação de velocidade média. Embora eficiente em termos de fluxo, este sistema de armas tem pouco efeito contra blindagem e escudos.",,,,,
+aa6ca590ae6518d9
+Vozes murmuravam, indistintas. Delegados misteriosos com uniformes de várias facções, civis e militares, aglomeravam-se e enfrentavam-se em breves impasses, apenas para recuar e se reorganizar sob a lógica de negociações inaudíveis. O apelo por ordem foi solenemente ignorado.",,,,
 aa72c7dad68541cf
 No entanto, a necessidade adicional de massa para acomodar o complexo autoloader e os sistemas de resfriamento resulta em uma taxa de rotação muito baixa.",,,,,
 aa805dd9f7566456
@@ -42192,6 +42256,8 @@ ad4abde9abbcc73e
 prometheus,SHIP,"Um petroleiro de capacidade imensa, usado para transportar quantidades estratégicas de combustível entre mundos. Diferentemente de seus primos menores, o Prometheus tem um arsenal defensivo razoável para proteger sua carga valiosa e volátil.",,,,,
 ad762116ed309cee
 light_escort,ACTION_TOOLTIP,"Encomende uma única fragata para escoltar o alvo.
+adb67ec98edcfebb
+O novo Demarchon — com o apoio de Kazeron — mantém o domínio instável da Liga Perseana sobre um mundo de fazendas de algas fétidas e favelas flutuantes, berços de movimentos de resistência, cultos esotéricos e sindicatos criminosos.",,,
 adbb2adaea31c3e9
 planet_viscacha,CUSTOM,"Um corpo capturado do sistema externo, com uma atmosfera espessa e tóxica. Esta lua recebe o nome tanto por sua órbita rápida quanto por uma bacia de formato divertido no hemisfério sul.",,,,,
 adcc48b3a6e7a4cd
@@ -42200,6 +42266,8 @@ ae0f1ebfe71efe64
 dragonpod,WEAPON,"O Dragonfire foi criado para antecipar soluções de defesa antimísseis cada vez mais sofisticadas. O conceito é simples: usar uma ogiva nuclear catalisada por AM enriquecida para bombear um feixe de plasma, fornecendo energia sem deixar abertura para interceptação de PD. Os resultados foram espetaculares.
 ae75f88b3b12a1dd
 hot_gas_giant,CUSTOM,"Anomalamente próximo à sua estrela-mãe, este gigante gasoso provavelmente se formou no sistema externo e depois migrou para dentro devido a um encontro casual com alguma massa cósmica errante. Composto principalmente de gases de hidrogênio e hélio, a temperatura e a pressão no núcleo são extremas. ",,,,,
+ae7ad4c1b3d4fe06
+Algo envolvendo um certo Doutor Cydonia parece ter dado terrivelmente errado e não houve mais atualizações no arquivo desde então.","Perseus ""Saturnian"" Andrada foi morto em algum tipo de operação desastrosa envolvendo o ""Doutor"" Wyatt Cydonia nas instalações de criossantuário operadas pela Mbaye-Gogol.","Perseu ""Saturniano"" Andrada foi morto em uma operação fracassada envolvendo ""Médico"" Wyatt Cydonia. O objetivo era realizar uma transferência da consciência de Philip Andrada para um novo corpo-clone. Foi sugerido que a condição de Philip Andrada se deteriorou muito rapidamente para que a operação prosseguisse conforme planejado.",,,
 aeb3f683eff1ae5b
 Os proponentes da 'Escola de Cruzadores' criticaram o Legion por especialização insuficiente, sustentando que um volume de caça semelhante pode ser colocado em campo com menos custo e maior flexibilidade se as funções de combate forem separadas em cascos de navios distintos. Esses argumentos econômicos empalidecem diante de um Legion que se aproxima, engajando seu impulso de queima para fornecer poder de fogo esmagador no ponto-chave da batalha.",,,,,
 aeb53f5ff14c7fc1
@@ -42304,6 +42372,8 @@ ba5bb0378dba8da5
 ""Porque está limpo,"" ele disse.",,,,
 ba74a7d03c407fcc
 Somente navios capazes de acompanhar o alvo são designados.",Escolta Média,,,,
+bad76ac462ec779f
+distant_asteroid,GALLERY,Asteroide Distante,"Um asteroide distante e solitário pode ser escavado para oferecer um espaço seguro. Esses esconderijos são usados por mineradores, exploradores e por forças mais poderosas, até e incluindo aristocratas excêntricos, reis-piratas e braços clandestinos das principais facções 
 bad7c08d0b2c5585
 frozen,PLANET,"Gelo de água ou de amônia é a principal característica da superfície deste mundo. Abaixo da superfície, pode haver um oceano líquido ou uma crosta rochosa.",,,,,
 bae8145a1cd53038
@@ -42318,10 +42388,12 @@ bbea6cb2f7e2da06
 hyperspace_deep,TERRAIN,"Este volume do hiperespaço é particularmente caótico, prejudicando o desempenho até mesmo de equipamentos calibrados para hiperespaço.",,,,,
 bc27c995caaed5c3
 Explosões de radiação estranha sinalizam as leituras dos seus sensores, ecos de quaisquer forças não naturais que foram desencadeadas para fazer com que o planeta se despedaçasse.",,Não há vida aqui e nunca mais haverá. Este não é um lugar de honra.,,,
+bc4acdb7a3d96409
+Postos militares avançados nem sempre são corteses o bastante para enviar um aviso formalmente ameaçador antes de abrir fogo. Piratas, como regra geral, costumam ignorar tais gentilezas.",desbloqueado,,,
 bc9f4b63299e87f4
 vpdriver,WEAPON,"""O oficial de escudos relatou inversões de polaridade localizadas no arco dianteiro, com colapso total estimado em 'segundos'.""","- Relatório Pós-Ação, primeiro encontro em Isir, expedição [REDIGIDO]",,,,
 bcc2870693326ffa
-A operação parece ser um fracasso; Leônidas não era capaz de existir de forma independente no mundo exterior.","Documentos descrevem a aquisição de um asteróide remoto chamado Irkalla no sistema Duzakh. Uma operação incomum e altamente biotécnica foi instalada, envolvendo dois empreiteiros anônimos muito bem pagos. O identificador anexado é ""Leonidas Esculus"". ",,,
+A operação parece ter sido um fracasso; Leonidas não tinha capacidade de existir de forma independente no mundo exterior.","Documentos descrevem a aquisição de um asteróide remoto chamado Irkalla no sistema Duzakh. Uma operação incomum e altamente biotécnica foi instalada, envolvendo dois empreiteiros anônimos muito bem pagos. O identificador anexado é ""Leonidas Esculus"". ",,,
 bcc5a0a921817dae
 clusterbomb,WEAPON,"Libera um conjunto de bombas flutuantes altamente explosivas. Mais eficaz versus alvos desprotegidos e de movimento lento.
 bcebe209f986454c
@@ -42372,8 +42444,6 @@ c0693864998e37f7
 Carro-chefe das armas de feixe do setor, o laser tático é frequentemente utilizado devido ao seu baixo custo de manutenção, versatilidade e facilidade de construção. Apresenta um meio de ganho de dióxido de carbono padrão, um feixe marcador de 530 nm e três conjuntos de lentes. Uma boa arma de apoio para pequenas embarcações, especialmente em combates prolongados.",,,,,
 c08cf29fca39cacc
 O Locust lança rajadas de trinta pequenos mísseis por salva. Sistemas de rastreamento individuais robustos e de baixo consumo de energia são coordenados por um sistema distribuído de inteligência de enxame para permitir excelente rastreamento de alvos, enquanto micropropulsores químicos fornecem manobrabilidade por um curto período de tempo. Algoritmos de mira testados e comprovados, baseados nos antigos sistemas de mísseis Swarmer, permitem que os Locusts erram apenas raramente. O Locust conquistou, com razão, um lugar nos pesadelos dos pilotos de caça.",,,,,
-c09b3342f94f2d09
-Algo envolvendo um certo Doutor Cydonia parece ter dado terrivelmente errado e não houve mais atualizações no arquivo desde então.","Perseus Saturnian foi morto em algum tipo de operação fracassada envolvendo ""Doctor"" Wyatt Cydonia nas instalações de criosanctum operadas por Mbaye-Gogol.","Perseu ""Saturniano"" Andrada foi morto em uma operação fracassada envolvendo ""Médico"" Wyatt Cydonia. O objetivo era realizar uma transferência da consciência de Philip Andrada para um novo corpo-clone. Foi sugerido que a condição de Philip Andrada se deteriorou muito rapidamente para que a operação prosseguisse conforme planejado.",,,
 c0bf92a6a8e9fc19
 shrouded_maelstrom,SHIP,"""A incursão anômala autoestabilizadora, ela acumula carga à medida que gira - se nossos sensores estiverem corretos, em muito mais dimensões do que parece inicialmente. Esta ação autossustentável produz enormes diferenciais de energia que são periodicamente descarregados em direção ao seu, hum, alvo. Eu nunca teria dito que uma tempestade poderia ser má, mas agora...""
 c1baebc625576182
@@ -42402,6 +42472,8 @@ c4fc8639358d9f2d
 module_armour2,SHIP,"A blindagem pesada da estação de batalha é montada em vários formatos, a partir de peças modulares, para atender aos requisitos específicos do local. A estrutura primária, perfurada apenas sob condições de bombardeio pesado, consiste em uma estrutura semi-flexível personalizada de alta resistência preenchida com blocos compósitos de metal cerâmico nanoforjados ultraduros. Sobre isso são colocadas camadas alternadas de espuma de metal e 'envoltório' que consiste em muitas camadas de pele de ablação sacrificial/reflexiva.
 c5a32ee7415e7763
 Embora operacionalizado no projeto Retribution, o Orion Drive nunca foi popular entre tripulantes ou arquitetos navais devido à grande tensão que cada sacudida do sistema de propulsão infligia à carne e ao hardware. O Nova supera essas limitações dispensando totalmente a tripulação humana. O design do Orion Drive, portanto, livre da maioria das restrições pesadas, todos os aspectos poderiam ser atualizados para níveis de potência mais elevados usando tecnologia de armas de ponta e componentes avançados de estado sólido projetados pelo Tri-Tachyon. O resultado é um cruzador de batalha operado por IA, capaz de velocidade e poder de fogo assustadores.",,,,,
+c5baeab303000844
+Um zumbido suave reverberou. Circulação de ar.
 c5cb3acc6d662e90
 gigacannon,WEAPON,"""Oficiais navais de alta patente no conselho de administração da Ultradyne Askonia Combine aprovaram à força o desenvolvimento de armas projetoras de AM em grande escala, apesar da objeção do líder de engenharia. O projeto teria sido iniciado por insistência pessoal do chamado Executor [traidor Andrada]. Os recursos da HEGINT relatam que o disparo de teste exibe produção de potência dramática, mas a integração do sistema de armas deve reduzir, segundo projeções, a capacidade de combate inimiga em ação de frota por causa de ineficácia doutrinária. Recomenda-se nenhuma operação de sabotagem.""",- relatório classificado para o Alto Hegemon,,,,
 c5e55f9667903cc0
@@ -42456,10 +42528,14 @@ cbd5c2eeaff88786
 planet_jangala,CUSTOM,"Joia do sistema Corvus, Jangala possui uma biosfera nativa exuberante. Os campos e mares do planeta, muitas vezes escondidos pelos ciclones turbulentos de megatempestades, são uma grande fonte de matéria-prima orgânica, produtos alimentícios e materiais xenobiológicos exóticos. Considerado sagrado pela maioria das seitas luditas.",,"Inicialmente um centro de estudo xenobiológico e de turismo, a exploração seguiu a descoberta, e milhões de quilômetros quadrados foram arrasados e depois cobertos por plantações cuidadas por colheitadeiras robóticas massivas.  Mas não é um paraíso para humanos, exigindo máscaras biofiltro e um processo de descontaminação para visitas à superfície. A selva nativa desenfreada precisa ser contida até hoje por queimas orbitais periódicas da Estação Jangala.",,,
 cbf6bd949b4c5d62
 Certos elementos estruturais únicos no sistema de ventilação de plasma são conhecidos por, com o desgaste, corroerem em atmosferas ricas em oxigênio, portanto, deve-se tomar cuidado ao reaplicar o revestimento de ceramopolímero em cada manutenção do casco.",,,,,
+cbf78043e0b34a3a
+planet_volturn_church,CUSTOM,"Volturn possui uma atmosfera espessa sobre um mar planetário que foi semeado com formas de vida de tipo terrestre reengenheiradas, que em grande parte deslocaram os organismos nativos relativamente primitivos que outrora formavam vastos tapetes coloniais à deriva. A população humana vive em uma ampla variedade de habitats flutuantes e subsiste em grande parte da agricultura e do processamento de compostos orgânicos complexos.",,"Volturn já foi um planeta voltado para a agricultura e o lazer para atender à agora destruída lua-cidade de Opis. Refugiados da Primeira Crise de Askonia multiplicaram a população local, enchendo as arcologias, cruzadores de lazer e barcaças de terraformação com habitações improvisadas. A indústria leve e a aquicultura predominam, com produtos derivados do processamento de vida marinha modificada para florescer no oceano planetário.
 cc07736d023db993
 planet_hesperus,CUSTOM,"Um mundo de gelo com uma atmosfera fina e fria; a terraformação industrial do planeta foi interrompida por volta da época da tomada ludita do sistema Êxodo de Eos. Há virtude na adversidade, e os Cavaleiros a abraçam nas comunidades monásticas marciais espalhadas pela superfície de Hesperus. A mineração limitada de matéria orgânica é permitida, com contratos concedidos exclusivamente aos Fiéis. A administração de Ceyx e Hesperus é compartilhada no gabinete de um único Presbítero Orbis.",,"Mosteiros se agarram a fendas particularmente sublimes, promontórios de escudos vulcânicos ou a ocasional plúton que forçou passagem pela crosta de gelo que envolve o mundo. Estes proíbem visitantes de fora, particularmente os não fiéis, sem uma dispensa dos Cavaleiros. No entanto, pela autoridade do Presbítero Orbis reinante, algumas zonas econômicas especiais construídas sobre os blocos de gelo à deriva transmitem faróis de pouso civis para convocar comerciantes externos ao porto.",,,
 cc08cf6d3f0fdf54
 lightag,WEAPON,"Um canhão de pequeno calibre projetado para combates de curta distância, excelente contra blindagem e com uma excelente cadência de tiro.
+cc2dbb3c4a6893e1
+planet_volturn_achilles,CUSTOM,"Volturn possui uma atmosfera espessa sobre um mar planetário que foi semeado com formas de vida de tipo terrestre reengenheiradas, que em grande parte deslocaram os organismos nativos relativamente primitivos que outrora formavam vastos tapetes coloniais à deriva. A população humana vive em uma ampla variedade de habitats flutuantes e subsiste em grande parte da agricultura e do processamento de compostos orgânicos complexos.",,"Volturn já foi um planeta voltado para a agricultura e o lazer para atender à agora destruída lua-cidade de Opis. Refugiados da Primeira Crise de Askonia multiplicaram a população local, enchendo as arcologias, cruzadores de lazer e barcaças de terraformação com habitações improvisadas. A indústria leve e a aquicultura predominam, com produtos derivados do processamento de vida marinha modificada para florescer no oceano planetário.
 cc4d99a9ffcd7e4f
 maneuveringjets,SHIP_SYSTEM,Ativa propulsores extras que melhoram muito a manobrabilidade da nave. Também oferece um leve impulso à velocidade máxima da nave.,Movimento,Oferece um breve impulso de manobrabilidade e de velocidade máxima.,,A velocidade máxima da nave é aumentada em {{50}}.,
 cc7e395284cfe56f
@@ -42538,8 +42614,6 @@ d19777ae3c5ffcd0
 A venda de núcleos de IA no mercado aberto é proibida pela maioria das facções. No entanto, os representantes de facções de alto escalão geralmente estão dispostos a trocar núcleos de IA por grandes somas de dinheiro quando comunicados diretamente, embora as razões para fazê-lo possam variar.
 d1a7428ed678c247
 hammer_single,WEAPON,"Este foguete não guiado foi onipresente no Setor Perseano pré-Colapso, devido às aplicações pioneiras dos mineradores de asteroides. A arma de ataque preferida dos desesperadamente mal equipados, o Hammer é frequentemente empregado por milícias independentes pobres, piratas e, especialmente, pelo Caminho Luddita. Isso levou ao apelido levemente blasfemo da arma: ""Martelo de Ludd"".",,,,,
-d26289c1c4ae81d2
-Uma tentativa de assassinato foi feita - e falhou devido à sua intervenção. Hércules foi forçado a se esconder, mas ainda pode desempenhar algum papel.","Hector ""Cyrino"" Andrada foi um acadêmico assistente na Academia Galatia.
 d26e28746d712403
 riftcascade,WEAPON,"""Já chega. Quem fizer outra piada sobre 'magia negra' deve contribuir com dez milicréditos para o fundo da festa do laboratório.""",- Memorando recuperado do complexo de laboratórios do Sítio Alfa,,,,
 d294ee9c015661fd
@@ -42548,6 +42622,8 @@ d3225556ab82e2a8
 industrial_megafacility,GALLERY,Megainstalação Industrial,"A manufatura industrial pesada dependia de grandes nanoforjas recuperadas das ruínas do Domínio. No entanto, a qualidade de sua produção se deteriorou ao longo dos ciclos; a corrupção em nanoescala levou a falhas macroscópicas crescentes. Grande parte da produção precisou ser reparada por métodos mais grosseiros, e muita coisa foi sucateada e reaproveitada como a matéria-prima refinada pela qual as forjas envelhecidas sempre ansiavam.",,,,
 d351efcad9023151
 canister_flak,SHIP_SYSTEM,Dispara um grande número de cápsulas de flak com espoletas de proximidade de tempo variável em torno da nave.,Defensivo,Dispara um grande número de cápsulas de flak com espoletas de proximidade de tempo variável em torno da nave. Cada cápsula causa 200 de dano de Alto Explosivo em uma área e é direcionada para evitar fogo amigo.,200 Alto Explosivo,Cada cápsula causa {{200 Alto Explosivo}} de dano em uma área e é direcionada para evitar fogo amigo.,
+d38b2bfd76ca2ff7
+A insurreição local passou por uma transição instável para um governo civil, embora sustentada pela barreira de uma expressiva guarnição paramilitar para governar um mundo de fazendas de algas fétidas e favelas flutuantes — berços de movimentos de resistência, cultos esotéricos e sindicatos criminosos.",,,
 d3f341d9bc7bf597
 targetingfeed,SHIP_SYSTEM,"Envia dados de mira em tempo real para as alas de caças deste porta-aviões, aumentando temporariamente o dano delas.",Porta-aviões,"Envia dados de mira em tempo real para as alas de caças deste porta-aviões, aumentando temporariamente o dano delas.",,O dano dos caças é aumentado em {{50%}}.,
 d43c6afbbdcdf061
@@ -42626,8 +42702,6 @@ da5fb0a317f84fa5
 Você poderá controlá-lo assim que a nave de comando chegar ao seu destino.",Transferir comando,,,,
 daa7f0b0031132f4
 bombard_tactical_result,GALLERY,Bombardeio Tático,"Uma série de ícones vazados representava alvos mortos na tela. O último, cheio e vermelho, piscou em um marrom escabroso.
-dad94a06a7a4b960
-planet_volturn_achilles,CUSTOM,"Volturn possui uma atmosfera espessa sobre um mar planetário que foi semeado com formas de vida de tipo terrestre reengenheiradas, que em grande parte deslocaram os organismos nativos relativamente primitivos que outrora formavam vastos tapetes coloniais à deriva. A população humana vive em uma ampla variedade de habitats flutuantes e subsiste em grande parte da agricultura e do processamento de compostos orgânicos complexos.",,"Volturn foi concebido como um planeta de agricultura e lazer para servir a agora aniquilada capital-lua, Opis. Os refugiados da Primeira Crise Askonia aumentaram muitas vezes a população de Volturn, ultrapassando até mesmo o número de Sindria e enchendo as arcologias flutuantes, os cruzadores de resorts e as barcaças de terraformação com moradias improvisadas. Prevalece uma economia baseada na indústria ligeira e na aquicultura, muitos produtos derivados do processamento de vida marinha geneticamente modificada para florescer no oceano mundial. Aquiles Andrada transferiu a sede de seu governo para cá após a destruição de Sindria. É um Estado-guarnição desmoralizado, tão vazio em propósito quanto o seu nome; talvez a sua aplicação indiferente permita o seu domínio desconfortável sobre um mundo de fétidas fazendas de algas e favelas flutuantes, focos de movimentos de resistência, cultos esotéricos e sindicatos criminosos.",,,
 db0a5851069cd5ca
 Os projetos da classe Medusa são poucos e são guardados de perto por seus proprietários; os piratas adquiriram um casco da classe Medusa apenas algumas vezes e os resultados foram inevitavelmente uma ameaça drástica, embora de curto prazo, às patrulhas locais e a subsequente redução no volume de transporte intrasistema de pequeno a médio porte. Tais eventos são considerados um tremendo incômodo, principalmente devido ao aumento dos prêmios de seguro. Muitas associações comerciais simplesmente pedirão que as suas frotas esperem que os piratas reduzam a prontidão de combate do seu novo brinquedo para que as autoridades locais possam resolver o problema de uma vez por todas.",,,,,
 db24deec2c9f7a4c
@@ -42706,6 +42780,8 @@ e4758bb5e2cecf9a
 ravelin,SHIP,"O Ravelin é um drone pesado de defesa de estação, focado em fogo de apoio e defesa pontual. Como não exige tripulação, drive de viagem nem qualquer tipo de núcleo de comando independente, o Ravelin pode superar em muito a sua classe em combate.",,,,,
 e475fd8c8f6f090a
 Embora sejam o locus de vastos investimentos materiais e intelectuais, os alfas aterrorizaram os planejadores estratégicos do Domínio. Como toda IA, cada alfa foi observado, controlado e eliminado impiedosamente ao primeiro sinal de deslealdade. A Hegemonia leva a cabo estas políticas com ainda maior fervor.",,,,,
+e4da5122f4dc5a1a
+base_interior,GALLERY,Interior da Base,"As luzes acenderam-se quando os detectores de movimento foram acionados.
 e52773f187f84249
 O núcleo de IA de nível alfa é a alma física de uma temível inteligência alienígena. Um alfa pode criar arte que simule perfeitamente o pathos humano, debater de forma plausível qualquer posição filosófica e formar o que parecem ser laços profundos e significativos com os seres humanos. Sabe-se que os Alfas realizam 'piadas' elaboradas, construídas ao longo dos anos, que só podem ser apreciadas devido à intenção de que um determinado sujeito humano se torne cognitivo do todo em um momento e contexto específicos.
 e58df62a9c748472
@@ -42714,8 +42790,6 @@ e5f3951fe6857d35
 lightdualac,WEAPON,"Uma versão de cano duplo do Light Autocannon. Uma excelente arma para suporte de curto alcance e bastante eficaz para derrubar escudos, ela sofre de um alcance efetivo mais curto devido ao alto recuo.
 e5f69c3adc9dfb13
 planet_kazeron,CUSTOM,"O núcleo rico em metais de um antigo gigante gasoso, cujo corpo foi arrancado em alguma catástrofe celeste antiga, Kazeron é rico em metais pesados exóticos. Embora não seja terraformável, isso o tornou um local privilegiado para o Domínio instalar um conjunto de autofábricas, para atender à necessidade da fronteira perseana de naves, equipamentos e maquinário pesado.",,"O mundo Kazeron, da Liga Perseana, sempre paga suas contribuições em naves de guerra e em oficiais altamente treinados para comandá-las. Kazeron tem uma rica tradição de indústria e produção militar, o que o torna o eixo do poder da Liga Perseana.",,,
-e6177f46bec251a5
-A Intel documenta a vida de um jovem colocado em uma escola de caridade de elite Tri-Tachyon """" conhecida por se concentrar no desenvolvimento ciberneticamente aumentado. Parece ter-se rebelado contra o seu treino e acabou envolvido com extremistas e criminosos em Qaras.","Você encontrou evidências de que Jason Korin veio para Qaras e foi morto num tiroteio. Parece que ele não era o alvo, apenas um espectador.
 e623b3afcf38e34e
 hound_hangar,GALLERY,Hound no Hangar,"Um balde enferrujado Hound veio no último turno. Carga de minério de baixo teor. Eu tripulei com um Hound 20 ciclos atrás, sei que os registros não batem - a última corrida nem teria pago pelo combustível. E eu sei onde estão os porões protegidos. Quebrou meu coração o quão jovem o boné era, um pobre garoto de Mozzy. Assim como eu era. Se eu os prender, mato a única chance deles de escapar. Então eu não fiz.
 e63529a5198cd74f
@@ -42846,8 +42920,6 @@ f3ca98537b0206ea
 Canhão de pequeno calibre projetado para disparar projéteis altamente explosivos. O projeto dos sistemas de refrigeração e do autoloader enfatiza a segurança e a prevenção de cozimento potencialmente causado por altos níveis de fluxo. Favorecido por capitães de destróieres que têm algo a provar.",,,,,
 f43158a0f821fcf7
 planet_maxios,CUSTOM,"Um pequeno planeta terrestre, Maxios já foi o centro cosmopolita do sistema. Agora pontilhado de ruínas e crateras de impacto, antigas e recentes, o sistema de defesa orbital em decadência oferece apenas cobertura intermitente. A entidade política entrou em colapso efetivo e a população atual é desconhecida. Saqueadores e sobreviventes se chocam ocasionalmente, e o lampejo das armas e o ruído eletromagnético de combates de baixo nível crepitam como as tempestades elétricas de um gigante gasoso.",,,,,
-f5258a10d558ac73
-planet_volturn_persean,CUSTOM,"Volturn possui uma atmosfera espessa sobre um mar planetário que foi semeado com formas de vida de tipo terrestre reengenheiradas, que em grande parte deslocaram os organismos nativos relativamente primitivos que outrora formavam vastos tapetes coloniais à deriva. A população humana vive em uma ampla variedade de habitats flutuantes e subsiste em grande parte da agricultura e do processamento de compostos orgânicos complexos.",,"Volturn foi concebido como um planeta de agricultura e lazer para servir a agora aniquilada capital-lua, Opis. Os refugiados da crise Askonia aumentaram muitas vezes a população, enchendo as arcologias flutuantes, os cruzadores de resort e as barcaças de terraformação. Prevalece uma economia baseada na indústria ligeira e na aquicultura, muitos produtos derivados do processamento de vida marinha geneticamente modificada. O novo Demarchon – com o apoio de Kazeron – mantém o desconfortável domínio da Liga Perseana sobre um mundo de fedorentas fazendas de algas e favelas flutuantes, focos de movimentos de resistência, cultos esotéricos e sindicatos criminosos.",,,
 f59b54c98fab2b91
 Se o objetivo for perdido, esta atribuição será alterada para ""Capture"".",Controlar,,,,
 f5a8e7d635e88680
@@ -42942,8 +43014,6 @@ fed48d6b6ffff094
 orbital,GALLERY,Estação Orbital,"Enormes estações orbitais abrigavam estaleiros, habitats, fábricas e estoques de armas e suprimentos.
 fef2efcc45c2ba28
 carrier_base,ACTION_TOOLTIP,Ordene que um porta-aviões mantenha posição no local designado.,Reunir Porta-Aviões,,,,
-ff14db18910ae8bc
-A Intel documenta a vida de um jovem órfão colocado no sistema orfanato Nova Maxios. Ele agora está envolvido no Departamento de História Pós-Colapso da Academia Galatia, no sistema Galatia.","Hector ""Cyrino"" Andrada foi um acadêmico assistente na Academia Galatia.
 ff199f2b2c3488c3
 autopulse,WEAPON,"Inúmeros capacitores embutidos estão no núcleo desta arma de energia extremamente eficiente e, ainda assim, potente. O alto dano de rajada obtido com a liberação das cargas acumuladas é compensado pela cadência de disparo sustentada comparativamente baixa.",,,,,
 ff314831f06c10e8

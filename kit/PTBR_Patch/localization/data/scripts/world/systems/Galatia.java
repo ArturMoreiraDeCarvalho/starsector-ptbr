@@ -386,8 +386,11 @@ public class Galatia {
 		
 //		if (recoverable && Misc.isExtended() &&
 //				StarSystemGenerator.random.nextFloat() >= Misc.getDerelictRecoverableFraction()) {
-		if (Misc.isExtended()) {		
+		if (Misc.isExtended()) {
 			recoverable = false;
+			if (condition.ordinal() < ShipCondition.BATTERED.ordinal()) {
+				condition = ShipCondition.BATTERED;
+			}
 		}
 		
 		DerelictShipData params = new DerelictShipData(new PerShipData(variantId, condition, 0f), false);
@@ -403,7 +406,7 @@ public class Galatia {
 			Misc.setSalvageSpecial(ship, creator.createSpecial(ship, null));
 		}
 		
-		if (variantId.equals("condor_Support")) {
+		if (!Misc.isExtended() && variantId.equals("condor_Support")) {
 			ship.getMemoryWithoutUpdate().set("$tutorialUseStoryPoint", true);
 		}
 	}

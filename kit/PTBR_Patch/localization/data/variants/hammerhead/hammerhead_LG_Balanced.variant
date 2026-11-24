@@ -1,10 +1,10 @@
 {
     "displayName": "Equilibrado",
-    "fluxCapacitors": 17,
+    "fluxCapacitors": 19,
     "fluxVents": 20,
     "goalVariant": true,
     "hullId": "hammerhead_LG",
-    "hullMods": [],
+    "hullMods": ["targetingunit"],
     "permaMods": [],
     "sMods": [],
     "variantId": "hammerhead_LG_Balanced",

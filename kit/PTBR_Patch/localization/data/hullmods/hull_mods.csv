@@ -79,11 +79,11 @@ Ao sofrer dano crítico que de outra forma destruiria ou desabilitaria a nave, p
 
 Devido às imensas distorções no espaço-p causadas por tal manobra, apenas uma nave por batalha - independentemente de qual lado esteja - é capaz de realizá-la.",Aumenta a dissipação de fluxo e a recarga de armas enquanto em fase; manobra de mergulho de emergência.,,graphics/hullmods/phase_anchor.png
 ,,,,,,,,,,,,,,,,,,,
-Anteparas Reforçadas,reinforcedhull,0,,,"defensive, merc, standard",Defesas,2500,TRUE,,,5,10,15,30,data.hullmods.ReinforcedBulkheads,"Aumenta a integridade do casco do navio em %s.
+Anteparas Reforçadas,reinforcedhull,0,,,"defensive, merc, standard",Defesas,2500,TRUE,,,5,10,15,30,data.hullmods.ReinforcedBulkheads,"Aumenta a integridade do casco da nave em %s.
 
-Se desativado, o navio não se desintegrará e quase sempre poderá ser recuperado após a batalha. Navios recuperados após a batalha começam com %s a %s integridade do casco e prontidão para combate;
+Se for incapacitada, a nave não se desmantelará e quase sempre poderá ser resgatada após a batalha. Naves resgatadas após a batalha começam com %s a %s de integridade do casco e de prontidão de combate.
 
-Este efeito se acumula com outros bônus semelhantes, mas a prontidão de combate não pode exceder o que seria se o navio tivesse sobrevivido à batalha.",Aumenta a integridade do casco; a nave quase sempre é recuperável se perdida.,,graphics/hullmods/reinforced_bulkheads.png
+Este efeito se acumula com outros bônus semelhantes, mas a prontidão de combate não pode exceder o valor que teria caso a nave tivesse sobrevivido à batalha.",Aumenta a integridade do casco; a nave quase sempre é recuperável se perdida.,,graphics/hullmods/reinforced_bulkheads.png
 Condutos de Fluxo Resistentes,fluxbreakers,2,,,"defensive, merc, standard","Especial, Defesas",7000,,,,3,6,9,15,data.hullmods.FluxBreakers,Reduz a quantidade de dano eletromagnético recebido de armas como os Canhões de Íons em %s. Também aumenta a taxa de dissipação de fluxo da nave durante a ventilação em %s.,"Reduz o dano EMP recebido, melhora a velocidade de ventilação.",Aumenta a taxa de dissipação de fluxo durante a ventilação em mais %s.,graphics/hullmods/resistant_flux_conduits.png
 Sobreposições de Segurança,safetyoverrides,0,,,"special, engines, offensive, merc, no_build_in, standard","Especial, Motores",2500,TRUE,,,15,30,45,70,data.hullmods.SafetyOverrides,"Desativar os protocolos de segurança aumenta a velocidade máxima da nave em combate em %s/%s/%s (dependendo do tamanho da nave, com um aumento correspondente na aceleração) e permite que o impulso do motor de fluxo zero tenha efeito independentemente do nível de fluxo. A taxa de dissipação de fluxo, incluindo a de respiradouros adicionais, é aumentada por um fator de %s.
 

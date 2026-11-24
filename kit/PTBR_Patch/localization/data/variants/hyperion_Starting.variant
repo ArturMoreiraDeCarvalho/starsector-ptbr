@@ -2,12 +2,12 @@
     "displayName": "Personalizado",
     "fluxCapacitors": 10,
     "fluxVents": 10,
-    "goalVariant": true,
     "hullId": "hyperion",
     "hullMods": [
-        "magazines",
         "fluxcoil",
-        "fluxdistributor"
+        "fluxdistributor",
+        "expanded_cargo_holds",
+        "magazines"
     ],
     "permaMods": [],
     "sMods": [],

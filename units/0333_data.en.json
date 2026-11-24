@@ -1,0 +1,16 @@
+{
+ "chunk": 333,
+ "cat": "data",
+ "items": [
+  {
+   "i": 1,
+   "en": "A mix of skills that benefit exploration, stealth, and certain aspects of your fleet and officers' combat performance.",
+   "ctx": "data/characters/skills/aptitude_data.csv technology [description]"
+  },
+  {
+   "i": 2,
+   "en": "Increases the ship's hull integrity by %s.\r\n\r\nIf disabled, the ship will not break apart and is almost always recoverable after the battle. Ships recovered after battle start with %s to %s hull integrity and combat readiness.\r\n\r\nThis effect stacks with other similar bonuses, but the combat readiness can not exceed what it would have been had the ship survived the battle.",
+   "ctx": "data/hullmods/hull_mods.csv reinforcedhull [desc]"
+  }
+ ]
+}

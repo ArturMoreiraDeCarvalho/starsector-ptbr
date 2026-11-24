@@ -2805,7 +2805,8 @@ relLevelSDAchillesMoreInfo,RelLevelMoreDescription,"$faction.id == sindrian_dikt
 $global.sdse_achillesWon
 $faction.relValue > 0
 $player.sdr_pledgedSupportAchilles
-$global.sdse_achillesWonNotClient",,"Você foi um dos primeiros defensores da tentativa de Aquiles Andrada de reivindicar a posição de seu pai e, por isso, é tratado com respeito - e tem grande margem de manobra - em todas as negociações oficiais.",,
+$global.sdse_achillesWonNotClient
+!$player.pledgedColonySupportToAchilles",,"Você foi um dos primeiros defensores da tentativa de Aquiles Andrada de reivindicar a posição de seu pai e, por isso, é tratado com respeito - e tem grande margem de manobra - em todas as negociações oficiais.",,
 relLevelSDAchillesMoreInfoCol,RelLevelMoreDescription,"$faction.id == sindrian_diktat
 $global.sdse_achillesWon
 $faction.relValue > 0
@@ -4366,7 +4367,8 @@ lppHookCurateResponse6,LPPHookCurateIntroResponses,,,,"lpp_hookCurateAdult:""É 
 lppHookCurateNope,DialogOptionSelected,$option == lpp_hookCurateNope,"EndConversation DO_NOT_FIRE
 $option = shrineDoLeave 0
 FireBest DialogOptionSelected","""Você é bem-vindo aqui"", o curador chama quando você se afasta. ""Sempre.""",,
-lppHookCurateThanks1,DialogOptionSelected,$option == lpp_hookCurateThanks1,"$option = lpp_hookCurateSegue 0
+lppHookCurateThanks1,DialogOptionSelected,$option == lpp_hookCurateThanks1,"$saidNotPilgrim = true 0
+$option = lpp_hookCurateSegue 0
 FireBest DialogOptionSelected","O curador sorri. ""Você tem minha acolhida, tenha vindo pela fé ou não.""",,
 lppHookCurateThanks,DialogOptionSelected,$option == lpp_hookCurateThanks,"$option = lpp_hookCurateSegue 0
 FireBest DialogOptionSelected","""Talvez seu interesse aqui seja puramente secular?"" O curador sorri um pouco e então diz: ""Você tem minha acolhida, venha com fé ou não.""",,
@@ -4384,6 +4386,10 @@ FireBest DialogOptionSelected","""Why not?"" The curate smiles a little. Is $heO
 lppHookCurateSegue,DialogOptionSelected,$option == lpp_hookCurateSegue,FireAll PPHookCurateResponses,"""É minha vocação servir aos peregrinos que chegam aqui."" 
 
 Uma pausa, e então: ""E também aos que não são peregrinos."" Olha para você com expectativa; o silêncio pergunta qual dos dois você é: peregrino ou não?",,
+lppHookCurateSegueNot,DialogOptionSelected,"$option == lpp_hookCurateSegue
+$saidNotPilgrim",FireAll PPHookCurateResponses,"""Minha vocação é servir aos peregrinos que chegam até aqui."" 
+
+Uma pausa e, em seguida: ""E também àqueles que não são peregrinos."" O olhar volta-se para você com expectativa.",,
 lppHookCurateResponseB1,PPHookCurateResponses,,,,"lpp_hookCurateInfoDump:""Conte-me sobre este lugar.""",
 lppHookCurateResponseB5,PPHookCurateResponses,,,,"lpp_hookCurateNotPilgrim:""Estou só de visita.""",
 lppHookCurateResponseB2,PPHookCurateResponses,,,,"lpp_hookCurateStartPilgrimage:""Gostaria de me considerar parte dos peregrinos."" ",# [show interest]
@@ -6231,7 +6237,7 @@ lpp_jangalaattendantVisit:""Não se preocupe, não pretendo sair para lá.""",
 lppJangalaattendantVisit,DialogOptionSelected,$option == lpp_jangalaattendantVisit,,"""Sim, claro. Posso levar você até a estação de lavagem, onde pedimos que todos, peregrinos ou não, façam uma limpeza simples antes de visitar o santuário interior.""
 
 O atendente começa a empurrar você, aos poucos, para dentro de um grupo de devotos.","lpp_jangalaVisitShrine:Continuar
-lpp_jangalaattendantVisitOutside:""Quero dizer lá fora. O santuário de verdade.""
+lpp_jangalaattendantVisitOutside:""Espere. Na verdade, quero ir lá fora para ver o santuário real.""
 lpp_jangalaShrineLeaveNoHook:Sair em vez disso",
 lppJangalaattendantVisitOutside,DialogOptionSelected,$option == lpp_jangalaattendantVisitOutside,"$option = lpp_jangalaattendantOutsideChoice 0
 FireBest DialogOptionSelected","O atendente examina você com ceticismo.
@@ -14047,11 +14053,11 @@ CMSNTextHasOther_tritachyon,CMSNTextHasOther,$faction.id == tritachyon,,"""Você
 
 ""Por causa da natureza do acordo padrão de não concorrência da Tri-Tachyon, você precisaria renunciar a essa comissão antes de poder assinar com a Tri-Tachyon. Volte quando suas obrigações pendentes forem dissolvidas.""",,
 CMSNTextUnsuited_tritachyon,CMSNTextUnsuited,$faction.id == tritachyon,,"""Infelizmente, nosso departamento de capital humano informa que você simplesmente não atende aos padrões que esperamos de contratados comissionados neste momento.""",,
-CMSNTextSuitedPart1_tritachyon,CMSNTextSuitedPart1,$faction.id == tritachyon,,"""Hmm, sim, "" os olhos daquela pessoa se movem rapidamente, acessando implantes cibernéticos. ""Seu currículo é impressionante. Nosso departamento de capital humano está observando você há algum tempo.""
+CMSNTextSuitedPart1_tritachyon,CMSNTextSuitedPart1,$faction.id == tritachyon,,"""Hum, sim,"" seus olhos piscam rapidamente, acessando implantes cibernéticos. ""Seu currículo é impressionante. Nosso departamento de capital humano está de olho em você já faz algum tempo.""
 
-""Agora entenda que assinar este contrato de comissão com a Tri-Tachyon Corporation (e incorporações subsidiárias associadas) é um compromisso sério. Você assumirá o risco envolvido no combate aos beligerantes designados pela Empresa, sejam eles piratas, terroristas antimercado ou entidades de nível político que se envolvem em busca e apreensão ilegítimas de propriedade da Empresa.""
+""Agora compreenda que assinar este contrato de comissão com a Corporação Tri-Tachyon (e subsidiárias associadas) é um compromisso sério. Você assumirá os riscos envolvidos em combater beligerantes designados pela Companhia, sejam piratas, terroristas antimercado ou entidades políticas que pratiquem busca e apreensão ilegítimas de propriedade da Companhia.""
 
-""Você poderá, é claro, renunciar à sua comissão a qualquer momento, sem penalidade financeira imediata; termos realmente generosos, na minha opinião. Se você fizesse isso, isso significaria que você seria... como dizer, 'jogado aos tubarões'? A concorrência na Empresa é acirrada, meu amigo, e se você se retirar de sua proteção legal, somente você será responsável pelo que acontecer.""",,
+""Você poderá, naturalmente, rescindir sua comissão a qualquer momento sem penalidade financeira imediata; termos bastante generosos na minha opinião. Se o fizer, porém, isso significará que você será... como dizer, 'jogado aos tubarões'? A concorrência na Companhia é feroz, meu amigo, e se você abrir mão de sua proteção jurídica, somente você responderá pelo que acontecer.""",,
 CMSNTextSuitedPart2_tritachyon,CMSNTextSuitedPart2,$faction.id == tritachyon,,"""Então, ainda quer assinar? Um toque na notificação que acaba de aparecer em seu TriPad seria suficiente.""
 
 Com um ping amigável, a notificação aparece. As implicações de segurança disto são ligeiramente preocupantes.",,
@@ -15075,15 +15081,15 @@ OR
 Essa pessoa faz uma saudação.
 OR
 ""Entendido, comandante. Garantirei que meu desempenho supere as expectativas.""",cutCommLinkOfficerConv:Cortar o link de comunicação,
-oc_savingOnCombaPaySel,DialogOptionSelected,$option == oc_savingOnCombaPay,,"Essa pessoa acena com ceticismo. ""Um. Entendido, comandante.""
+oc_savingOnCombaPaySel,DialogOptionSelected,$option == oc_savingOnCombaPay,,"Um aceno cético com a cabeça. ""Humm. Entendido, Comandante.""
 OR
-""Areconhecido, jogadorSirOrMadam.""
+""Confirmado, Comandante.""
 
-o tom dessa pessoa não está claramente impressionado. 
+O tom de voz é de total desinteresse.
 OR
-""Eu vejo, uh, comandante, "" aquela pessoa diz inquieta, então executa um gesto sem entusiasmo saudação.
+""Compreendo, bem, Comandante,"" diz com inquietação antes de bater uma continência desanimada.
 OR
-""Comandante,"" essa pessoa responde roboticamente. Você pode ver a decepção nos olhos dessa pessoa.",cutCommLinkOfficerConv:Cortar o link de comunicação,
+""Comandante,"" responde de forma robótica. O desapontamento é evidente nos olhos.",cutCommLinkOfficerConv:Cortar o link de comunicação,
 oc_convinceToStaySel,DialogOptionSelected,$option == oc_convinceToStay,,"Leva algum tempo - descrever o que você faz como "" suplicando"" soaria mais indigno do que as ficções que todas as partes envolvidas concordam tacitamente em manter - mas você faz o seu melhor para suavizar ressentimentos, reconstruir a confiança e alguns fazem promessas não exatamente sobre o futuro que finalmente os convencem a continuar com sua operação.
 
 Afinal, eles poderiam estar protegendo carregamentos de minério de piratas famintos. Pelo menos você apresenta um vislumbre de ambição, um vislumbre de possibilidade, uma chance de glória!
@@ -15283,11 +15289,11 @@ zig_encounterDesc1,BeginFleetEncounter,"$ziggurat score:1000
 !$printedDesc
 !$showAfterScanIntro","$printedDesc = true 0
 $fidpi_addContinue = true 0
-AddTextSmall ""Varredura detalhada de embarcação desconhecida obtida"" highlight","O construto de classe capital parece ser uma nave de fase, por apresentar características comuns ao tipo, embora seu design seja, de resto, exótico.
+AddTextSmall ""Varredura detalhada de embarcação desconhecida obtida"" highlight","A estrutura de classe capital aparenta ser uma nave de fase devido a características comuns ao tipo, embora seu design seja bastante exótico.
 
-Há também fontes EM pequenas e brilhantes, ""-Sobrepondo-se apenas parcialmente ao espectro visível"", relata seu oficial de sensores. Elas aparecem e se dissipam periodicamente num volume que envolve a misteriosa nave. A tripulação da ponte murmura especulações entre seus postos: uma nova forma de blindagem? rajadas de micropropulsores? O oficial de sensores balança a cabeça.
+Também parecem existir pequenas fontes eletromagnéticas brilhantes: ""— Sobrepondo-se apenas parcialmente ao espectro visual,"" informa o oficial de sensores. Elas surgem e se dissipam periodicamente em um volume que engloba a nave misteriosa. A tripulação da ponte murmura especulações entre suas estações: uma nova forma de escudo? Pulsos de propulsores de microssatélites? O oficial de sensores balança a cabeça em negação.
 
-Você ordena a realização de uma varredura de alta resolução, e que os dados brutos sejam colocados em armazenamento seguro.",,
+Você ordena que seja realizada uma varredura de alta resolução e que os dados brutos sejam guardados em armazenamento seguro.",,
 zig_encounterDesc2,BeginFleetEncounter2,$ziggurat score:1000,"$global.gaPZ_scannedZiggurat = true
 Call $global.gaPZ_ref updateStage
 $showAfterScanIntro = true","Sua atenção se desvia quando a impressão de algo não muito diferente de uma música distante se insinua em sua consciência; como se um coro cantasse a grande distância, com as vozes trazidas até você por uma rajada de vento casual. Quando você tenta se concentrar na música, a impressão escorrega.
@@ -15744,11 +15750,18 @@ FireAll BairdIntroHub","""Você provou ser... capaz"", diz ela.
 
 Ela baixa a voz de novo, falando diretamente com você: ""E é por isso que preciso de você.""",,
 bairdIntroHubWhyShould,DialogOptionSelected,$option == bairdIntro_whyShould,"$bairdIntro_whyShould = true 0
-FireAll BairdIntroHub","""Imagino que seu interesse próprio seja motivação suficiente. Como você bem sabe, pagamos em espécie. A perspectiva de continuidade da civilização tecnológica é um benefício adicional, não é?""
+FireAll BairdIntroHub","""Imagino que seu próprio interesse forneça motivação suficiente. Como você bem sabe, pagamos em créditos. A perspectiva de continuidade da civilização tecnológica é um benefício adicional, não é?""
 
-""A não ser que"", ela faz uma pausa, então olha para você por cima de seus AR-óculos, falando com calma, ""eu tenha julgado você gravemente mal, e seu coração esteja decidido a liquidar sua frota, doar o lucro para a caridade e se juntar a uma ordem flagelante em Hesperus... não, já sei - você tem lido muito; bem, assistindo a holovídeos de canal sombrio, sobretudo - e está pensando em se alistar como executor político, quebrando dentes em nome do reinado de mil ciclos do 'Leão de Sindria'. Acertei?""
+""A menos que,"" ela faz uma pausa, olhando para você por cima de seus óculos de RA, falando com calma, ""eu tenha me enganado redondamente a seu respeito, e seu coração esteja decidido a liquidar sua frota, doar os lucros para a caridade e se juntar a uma ordem flagelante em Hesperus... não, já sei: você andou lendo muito; bem, assistindo holovídeos de canais clandestinos, na verdade... e está quase se alistando como capanga político quebrando dentes pelo reinado de 1000 ciclos do 'Leão de Sindria'. Acertei?""
 
-Seus escudos aguentam firmes sob a saraivada de sarcasmo disparada pela Reitora.",,
+Seus escudos mantêm-se firmes sob a saraivada de sarcasmo disparada pela Reitora.",,
+bairdIntroHubWhyShouldPost2AC,DialogOptionSelected,"$option == bairdIntro_whyShould
+$global.sd7s_missionCompleted","$bairdIntro_whyShould = true 0
+FireAll BairdIntroHub","""Imagino que seu próprio interesse fornecerá motivação suficiente. Como você bem sabe, pagamos em créditos. A perspectiva de continuidade da civilização tecnológica é um benefício adicional, não é?""
+
+""A menos que,"" ela faz uma pausa, olhando para você por cima de seus óculos de RA, falando com calma, ""eu tenha me enganado redondamente a seu respeito, e seu coração esteja decidido a liquidar sua frota, doar os lucros para a caridade e se juntar a uma ordem flagelante em Hesperus... não, já sei: você andou lendo muito; bem, assistindo holovídeos de canais clandestinos, na verdade... e está quase se alistando como capanga político quebrando dentes pelo próximo reinado de 1000 ciclos de algum novo 'Leão de Sindria'. Acertei?""
+
+Seus escudos mantêm-se firmes sob a saraivada de sarcasmo disparada pela Reitora.",,
 bairdIntroHubWillSee,DialogOptionSelected,$option == bairdIntro_willSee,"$bairdIntro_willSee = true 0
 FireAll BairdIntroHub","""De fato."" Ela se recosta, interpretando sua resposta como uma retirada.",,
 bairdIntroHubTellMeMore,DialogOptionSelected,$option == bairdIntro_tellMeMore,,"""Suas tarefas não serão tão simples a partir de agora. Espero que você se adapte às circunstâncias na busca dos objetivos que apresento. E."" 
@@ -15981,6 +15994,7 @@ Call $global.gaKA_ref updateStage","Sua navete refaz a rota anterior, descendo d
 
 Atravessando o caos rochoso, o pequeno mar frio e as favelas montanhosas coroadas por torres cintilantes. Os pings de navegação e o ruído das comunicações crescem para um pequeno rugido sobre o coração da Tri-Tachyon, e sua navete devolve você à órbita.",gaKA_arroyoLeave2:Continuar,
 gaKAArroyoVisitLeave2,DialogOptionSelected,$option == gaKA_arroyoLeave2,FireAll PopulateOptions,,,
+,,,,,,
 "# Gargoyle, initial conversation",,,,,,
 gaKAGargoyleGreeting,PickGreeting,"$id == gargoyle
 $gaKA_contact score:1000","ShowPersonVisual
@@ -16011,7 +16025,9 @@ gaKAGargoyleYes,DialogOptionSelected,$option == gaKA_gargoyleYes,,"Gargoyle enca
 Gargoyle se afasta: ""Por que eu nem me dou ao trabalho. Fique pilotando sua nave-foguete, Comandante $playerFirstName. Pew pow blam! Toma essa, piratas espaciais! Simples. Direto. Sem sofisticação. Sem arte.""
 
 Um suspiro dramático: ""Que perda de tempo. Por que estamos falando? Por que fazer qualquer coisa.""","gaKA_gargoyleCanYou:""Você consegue invadir o cofre de dados de um Ministério da Hegemonia?""",
-gaKAGargoyleNotReally,DialogOptionSelected,$option == gaKA_gargoyleNotReally,,"Gargoyle encara com ar melancólico, apoiando o queixo nas mãos. ""Meu talento é desperdiçado com você, $playerFirstName. Estou tentando, de verdade. Me dê algo com que trabalhar. Por favor? Senão, posso simplesmente me congelar por mil ciclos. Talvez algo interessante tenha acontecido até lá.""","gaKA_gargoyleCanYou:""Você consegue invadir o cofre de dados de um Ministério da Hegemonia?""",
+gaKAGargoyleNotReally,DialogOptionSelected,$option == gaKA_gargoyleNotReally,,"Gargoyle olha desoladamente, apoiando o queixo nas mãos.
+
+""Eu sou um desperdício para você, $playerFirstName. Estou tentando, juro que estou. Me dê algo com que trabalhar. Por favor? Senão posso simplesmente me congelar por mil ciclos. Quem sabe algo interessante não tenha acontecido até lá.""","gaKA_gargoyleCanYou:""Você consegue invadir o cofre de dados de um Ministério da Hegemonia?""",
 gaKAGargoyleCanYou,DialogOptionSelected,$option == gaKA_gargoyleCanYou,,"""Eu adorei!"" Gargoyle grita, sentando-se.
 
 ""A esquema glorioso, praticamente preto neon! Qual deles? Todos eles de uma vez? Hmm, o visor "" e os cybermods começam a piscar com atividade.","gaKA_gargoyleExplain:""Espere - só um, na verdade."" (explicar a missão)",
@@ -16039,6 +16055,7 @@ Gargoyle se volta para outro display, com a atenção concentrada, os aumentos c
 gaKAGargoyleCont8,DialogOptionSelected,$option == gaKA_gargoyleCont8,"ShowDefaultVisual
 $global.gaKA_getHackHardware = true
 Call $global.gaKA_ref updateStage",,cutCommLinkNoText:Continuar,
+,,,,,,
 # Nova Maxios - getting the hardware,,,,,,
 gaKANewMaxiosOption,PopulateOptions,"$hasMarket
 $market.id == new_maxios
@@ -16082,6 +16099,7 @@ Call $global.gaKA_ref updateStage","Na viagem de volta à sua $shipOrFleet, voc�
 
 O interfone estala: ""Comandante, chegamos.""",gaKA_visitStorage6:Continuar,
 gaKANewMaxiosVisit6,DialogOptionSelected,$option == gaKA_visitStorage6,FireAll PopulateOptions,,,
+,,,,,,
 # Hacking Aztlan Relay,,,,,,
 gaKA_relayPrintHostilesText,OpenInteractionDialog,"$id == aztlan_relay
 $gaKA_installHack score:1000
@@ -16101,6 +16119,7 @@ Call $global.gaKA_ref updateStage","Você também se pergunta se a Hegemonia ras
 Mas então a investigação pode não ser ""oficial"", e sim menos uma investigação do que um esquadrão de sequestro de operações negras. 
 
 Você deve recuperar o arquivo com Gargoyle rapidamente.",defaultLeave:Sair,
+,,,,,,
 "# Gargoyle, retrieving archive",,,,,,
 gaKAGargoyle2Greeting,PickGreeting,"$id == gargoyle
 $gaKA_contactRetrieve score:1000",ShowPersonVisual,"Você digita o ID de comunicação de Gargoyle e faz um aceno para seu oficial de comunicações, que está pronto para qualquer surpresa que Gargoyle ache divertido enviar pelas comunicações.
@@ -16138,6 +16157,7 @@ Você ordena que Gargoyle fique confinado nos alojamentos, bem longe da ponte, e
 
 Hora de ir.",gaKA_gargoyleOrderShuttle2:Continuar,
 gaKAGargoyle2OrderAShuttleSel2,DialogOptionSelected,$option == gaKA_gargoyleOrderShuttle2,EndConversation NO_CONTINUE,,,
+,,,,,,
 # Conversation with patrol that intercepts you after you leave Magec,,,,,,
 gaKAPatrolEncounter,BeginFleetEncounter,"$gaKA_patrol score:1000
 !$gaKA_encounteredAlready
@@ -16281,8 +16301,7 @@ gaKAReturnToAcademy10a,DialogOptionSelected,$option == gaKA_return10a,"$global.g
 Call $global.gaKA_ref updateStage","""Encontre-a, comandante"", diz Baird, ""e depressa."" Ela se vira, dispensando você. ""Falaremos mais sobre o que estou construindo em outra ocasião.""
 
 Você sente as portas se abrirem em silêncio atrás de você, e percebe a presença dos guardas de máscara espelhada como um leve aumento na eletricidade estática do ambiente. Hora de ir.",gaKA_returnLeave:Sair,
-gaKAReturnToAcademyReturnLeave,DialogOptionSelected,$option == gaKA_returnLeave,"ShowDefaultVisual
-FireAll PopulateOptions",,,
+gaKAReturnToAcademyReturnLeave,DialogOptionSelected,$option == gaKA_returnLeave,EndConversation NO_CONTINUE,,,
 gaKAReturnToAcademy8Coureuse,DialogOptionSelected,"$global.foundCoureuse
 $option == gaKA_return8","ShowSecondPerson coureuse
 AddCredits 100000","Ao entrar no escritório de Baird, você nota Scylla Coureuse esperando na área de estar. Ela acena em cumprimento enquanto dobra uma estação de trabalho portátil.
@@ -16334,6 +16353,7 @@ Ela se vira de novo, dispensando você. ""Falaremos disso mais tarde.""
 Coureuse lança um olhar solidário enquanto guarda sua estação de trabalho portátil.
 
 Você sente as portas se abrirem em silêncio atrás de você, e a presença dos guardas de máscara espelhada como um leve aumento na eletricidade estática. Hora de ir.",gaKA_returnLeave:Sair,
+,,,,,,
 # Various bits of off-the-main-mission chain text for the Kallichore Archive characters,,,,,,
 # Talk to Rayan Arroyo re. Gargoyle after first contact,,,,,,
 GAKAarroyoGetHackHardware,PopulateOptions,"$id == arroyo
@@ -16395,7 +16415,9 @@ GAKABairdGreeting_RETREIVE_ARCHIVE,PopulateOptions,"$id == baird
 Call $global.gaKA_ref updateData
 $gaKA_stage == RETREIVE_ARCHIVE score:1000",,,10:gaKA_tellBaird3:Contar a Baird sobre a instalação do dispositivo de invasão,
 GAKABairdGreeting_RETREIVE_ARCHIVE_Sel,DialogOptionSelected,$option == gaKA_tellBaird3,"AdjustRepActivePerson INHOSPITABLE -5
-$gaKA_bairdAlreadyYelledAtYou = true 10","""Você instalou este dispositivo de invasão e não pegou o Arquivo Kallichore descriptografado com Gargoyle antes de voltar aqui?"" Baird tira os óculos e se levanta, sua frieza habitual completamente quebrada, e grita: ""Vá agora! Pegue o arquivo antes que outra pessoa pegue! Por que você está esperando, vá!""",cutCommLink:Continuar,
+$gaKA_bairdAlreadyYelledAtYou = true 10","""Você instalou o dispositivo de invasão e não pegou o Arquivo Kallichore descriptografado com Gargoyle antes de voltar aqui?""
+
+Baird retira os óculos e se levanta, com sua costumeira frieza completamente abalada, e esbraveja: ""Vá agora! Pegue o arquivo antes que outra pessoa o faça! Por que está esperando, vá!""",cutCommLink:Continuar,
 "# talk to Scylla Coureuse, any time after she's at the academy",,,,,,
 gaKACoureuseBairdOpt,PopulateOptions,"$id == coureuse
 $global.gaKA_missionCompleted
@@ -20037,9 +20059,16 @@ DismissDialog","Dev start for GA ATG testing.
 
 Remember to leave then return to the Galatia Academy.",,
 gaATGdevComplete,DEVTestMenuOptions,!$global.gaATG_missionCompleted ,SetOptionColor gaATG_devComplete2 gray,,gaATG_devComplete2:DEV Set gaATG_missionComplete,
-gaATGdevComplete2,DialogOptionSelected,$option == gaATG_devComplete2,$global.gaATG_missionCompleted = true,,,
 gaPZdevCottonTest,DEVTestMenuOptions,,SetOptionColor gaPZ_cottonFollow gray,,gaPZ_cottonFollow:DEV test cotton gaPZ convo,
 gaDevStartBairdMissions,DEVTestMenuOptions,!$global.gaATG_inProgress,SetOptionColor gaDev_startBairdMissions gray,,gaDev_startBairdMissions:DEV start GA missions with Baird,
+gaDevSetBairdVisible,DEVTestMenuOptions,,SetOptionColor gaDev_setBairdVisible2 gray,,gaDev_setBairdVisible2:Set Baird and Sebestyen visible,
+gaDevStartGADHO,DEVTestMenuOptions,,SetOptionColor gaDev_startGADHO gray,,gaDev_startGADHO:Start gaDHO Detect Hyperspace Oddity,
+DEVgaFinishAllMissionsOpt,DEVTestMenuOptions,,,,"dev_gaFinishAllMissions:Definir todas as missões do GA como concluídas (e conhecer todos, etc.)",
+DEVgaGoToVerySpecificLineOpt,DEVTestMenuOptions,,,,dev_gaGoToVerySpecificLine:Ir para linha de diálogo muito específica,
+DEVgaGoToVerySpecificLine,DialogOptionSelected,$option == dev_gaGoToVerySpecificLine,"BeginConversation baird
+$option = gaKA_return10a 0
+FireBest DialogOptionSelected",,,
+gaATGdevComplete2,DialogOptionSelected,$option == gaATG_devComplete2,$global.gaATG_missionCompleted = true,,,
 gaDevStartBairdMissions2,DialogOptionSelected,$option == gaDev_startBairdMissions,"$entity.acceptedProvost = true
 $player.metBaird = true
 SetPersonHidden baird false
@@ -20048,15 +20077,12 @@ $gaTTB_askedAlready = true
 $global.bairdWillTalk = true
 BeginMission gaTTB
 FireAll PopulateOptions",,,
-gaDevSetBairdVisible,DEVTestMenuOptions,,SetOptionColor gaDev_setBairdVisible2 gray,,gaDev_setBairdVisible2:Set Baird and Sebestyen visible,
 gaDevSetBairdVisible2,DialogOptionSelected,$option == gaDev_setBairdVisible2,"SetPersonHidden baird false
 SetPersonHidden sebestyen false
 RemoveOption gaDev_setBairdVisible2",done,,
-gaDevStartGADHO,DEVTestMenuOptions,,SetOptionColor gaDev_startGADHO gray,,gaDev_startGADHO:Start gaDHO Detect Hyperspace Oddity,
 gaDevStartGADHO2,DialogOptionSelected,$option == gaDev_startGADHO,$global.gaDHO_didInviteDEV = true,"done
 
 Go dock at any non-pirate/Pather/Church world over size 3 with your transponder on.",,
-DEVgaFinishAllMissionsOpt,DEVTestMenuOptions,,,,"dev_gaFinishAllMissions:Definir todas as missões do GA como concluídas (e conhecer todos, etc.)",
 DEVgaFinishAllMissionsSel,DialogOptionSelected,$option == dev_gaFinishAllMissions,"$player.metCavin = true
 $player.metZal = true
 $global.gaKA_missionCompleted = true
@@ -22510,8 +22536,7 @@ Você atravessa as portas da eclusa rumo à baía de navetes, as próprias estre
 # Attempt to talk to Baird after this mission,,,,,,
 ,,,,,,
 # - Talk to Sebestyen after - get paid!,,,,,,
-gaATGpostSebestyenGetPaid,PopulateOptions,"$isPerson
-$id == sebestyen score:1000
+gaATGpostSebestyenGetPaid,PopulateOptions,"$id == sebestyen score:1000
 $global.gaATG_missionCompleted
 !$gotGAATGpay",,,"gaATG_postSebestyenGetPaid2:""Acredito que eu deveria ter sido pago depois dessa história do Janus.""",
 gaATGpostSebestyenGetPaid2,DialogOptionSelected,$option == gaATG_postSebestyenGetPaid2,"$gotGAATGpay = true
@@ -22537,8 +22562,7 @@ Poderia melhorar um pouco.
 gaATGpostSebestyenGetPaid4,DialogOptionSelected,$option == gaATG_postSebestyenGetPaid4,,"""Hum, nada, Comandante"", diz ele, depressa. ""Não quero tomar mais do seu tempo. Bom dia. Comandante.""
 
 Consegue apertar o botão de encerrar a comunicação na segunda tentativa.",cutCommLink:Cortar o link de comunicação,
-gaATGpostSebestyenProvost,PopulateOptions,"$isPerson
-$id == sebestyen score:1000
+gaATGpostSebestyenProvost,PopulateOptions,"$id == sebestyen score:1000
 $global.gaATG_missionCompleted
 !$askedProvostUpset",,,"gaATG_postSebestyenProvost2:""A reitora parecia um pouco chateada da última vez que conversamos.""",
 gaATGpostSebestyenProvost2,DialogOptionSelected,$option == gaATG_postSebestyenProvost2,,"""Ah, hum. Sim."" Sebestyen parece tremendamente desconfortável.
@@ -22615,7 +22639,8 @@ ShowPersonVisual
 FireAll PopulateOptions","""Bem-vindo de volta, Comandante, é ótimo ver você!"" diz Sebestyen, animado.",,
 asebDefaultGreetingAgain,PickGreeting,"$id == sebestyen score:1000
 $player.metSebestyen
-$didFirstGreeting",,"""Que outro negócio você gostaria de falar?"" Sebestyen pergunta alegremente.
+$didFirstGreeting","ShowPersonVisual
+FireAll PopulateOptions","""Que outro negócio você gostaria de falar?"" Sebestyen pergunta alegremente.
 OR
 ""I, tenho certeza de que temos outro item para discutir antes de encerrar, não é?""
 
@@ -22850,7 +22875,11 @@ gaDataOfferOption,gaData_option,,,,gaData_start:Perguntar sobre a recuperação 
 gaDataMissionTextBasicOrPirates,DialogOptionSelected,"$option == gaData_start
 $gaData_variation == BASIC","$missionId = gaData
 SetTextHighlights $gaData_dist $gaData_reward
-Call $global.gaData_ref showMap ""Alvo: $gaData_planetName""","""Então esta é fácil, né? Tudo o que você precisa fazer é chegar a $gaData_planetName, no sistema $gaData_systemName, que fica"", consulta outro datapad, ""a cerca de $gaData_dist anos-luz daqui. Vamos fornecer as coordenadas exatas do $gaData_target a que você precisa acessar, hum. Depois, quando estiver de volta ao alcance da hipercomunicação, envie o conteúdo criptografado de volta para a Academia, e o setor financeiro pagará $gaData_reward créditos.""","aseb_accept:Aceitar
+Call $global.gaData_ref showMap ""Alvo: $gaData_planetName""","""Então esta é fácil, certo? Tudo o que precisa fazer é chegar até $gaData_planetName, no sistema $gaData_systemName, que fica a,"" uma checagem em outro datapad, ""cerca de $gaData_dist anos-luz daqui. Nós forneceremos as coordenadas exatas de $gaData_target que você precisa, hum, acessar.""
+
+Um olhar otimista se volta para você.
+
+""Assim que retornar ao alcance das hipercomunicações, envie o conteúdo criptografado de volta para a Academia e o setor financeiro pagará a você $gaData_reward créditos.""","aseb_accept:Aceitar
 aseb_decline:Recusar",
 gaDataMissionTextRemnants,DialogOptionSelected,"$option == gaData_start
 $gaData_variation == REMNANTS","$missionId = gaData
@@ -26166,7 +26195,7 @@ cheapComPickupGreeting,PickGreeting,"$cheapCom_hasCommodity score:1100
 Call $cheapCom_ref updateData","ShowPersonVisual
 SetTextHighlights $cheapCom_quantity $cheapCom_pricePerUnit
 ShowRemainingCapacity $cheapCom_commodityId
-DoCanAffordCheck $cheapCom_totalPrice contact_accept true","""Ah, é $playerName, não é? Você deve estar aqui para retirar $cheapCom_quantity unidades de $cheapCom_commodityName por $cheapCom_pricePerUnit créditos por unidade"", toca no TriPad, assentindo. ""Podemos deixar tudo pronto agora mesmo, se você estiver preparado para receber a carga.""","cheapCom_pickup:Pegar $cheapCom_commodityName
+DoCanAffordCheck $cheapCom_totalPrice cheapCom_pickup true","""Ah, é $playerName, não é? Você deve estar aqui para retirar $cheapCom_quantity unidades de $cheapCom_commodityName por $cheapCom_pricePerUnit créditos por unidade"", toca no TriPad, assentindo. ""Podemos deixar tudo pronto agora mesmo, se você estiver preparado para receber a carga.""","cheapCom_pickup:Pegar $cheapCom_commodityName
 cutCommLink:Cortar o link de comunicação",
 cheapComPickupOptionSel,DialogOptionSelected,$option == cheapCom_pickup,"RemoveCommodity credits $cheapCom_totalPrice
 AddCommodity $cheapCom_commodityId $cheapCom_quantity
@@ -26499,6 +26528,7 @@ DoCanAffordCheck 0 cpc_pickPlayerBP false","Quando você se aproxima, a atençã
 Desliza um TriPad surrado sobre a mesa: ""Nunca fez mal olhar.""","cpc_pickContactBP:Examinar o TriPad
 contact_declineBarNoContinue:Recusar",
 cpcOfferTextBarCoilGun,DialogOptionSelected,"$option == cpc_startBar
+!$cpc_trade
 RollProbability 0.01 score:10
 !$global.didCoilGunRant",$global.didCoilGunRant = true,"Quando você se aproxima, a pessoa bate um datapad na mesa com um pouco de brusquidão demais e solta um longo suspiro de frustração.
 
@@ -28008,20 +28038,20 @@ locrlfOfferOption,locrlf_option,,,,"locrlf_start:""O que a Igreja precisa que se
 locrlfBlurbBar,locrlf_blurbBar,,,Uma pessoa parece examinar os capitães espaciais que chegam e anotar coisas num TriPad mal escondido numa echarpe de tecido feito à mão.,,
 locrlfOfferOptionBar,locrlf_optionBar,,,,locrlf_startBar:Perguntar se a pessoa que tenta fazer anotações secretas precisa de ajuda,
 locrlfOfferTextBarAgain,DialogOptionSelected,"$option == locrlf_startBar
-$player.locrlf_gotBarBlurb","Highlight $locrlf_rewardAmount
+$player.locrlf_gotBarBlurb","$missionId = locrlf
+Highlight $locrlf_rewardAmount
 SetTooltip locrlf_offerBarCynicalRewardAsk ""Você é cínico o bastante para enxergar através da encenação de piedade que esses chamados 'Fiéis' fazem. No fim, o que importa são créditos e poder.""
-FireBest LOCRLFOfferTextBarRemoveCynical
+FireAll locrlfOfferTextBar2opts
 Call $locrlf_ref showMap ""Alvo: $locrlf_marketName""","""Ah!"" Dá um pequeno pulo quando você fala. ""Você de novo. Reconsiderou?""
 
 Baixa a voz: ""É um assunto delicado, claro. Este arcivigário quer que este rebanho desgarrado de hereges seja encontrado, e, por alguma razão, não está confiando nos Cavaleiros Inquisidores."" Suspira: ""Não cabe a mim especular sobre os afazeres da Igreja, claro.""
 
-""De qualquer forma, os hereges compraram uma nave de transporte e fugiram para a fronteira. Foram vistos pela última vez por um catador, que reportou o avistamento a... bem, a um dos fiéis, de qualquer forma. Agora, se você os encontrar e voltar comigo com dados conclusivos sobre o que aconteceu com eles, eu lhe darei a recompensa da Igreja de $locrlf_rewardAmount créditos.""","locrlf_offerBarCynicalRewardAsk:""A Igreja está dando a você mais de $locrlf_rewardAmount créditos pelo trabalho, não está?""
-locrlf_offerBarAcceptFirst:Aceitar
-contact_declineBar:Recusar",
+""De qualquer forma, os hereges compraram uma nave de transporte e fugiram para a fronteira. Foram vistos pela última vez por um catador, que reportou o avistamento a... bem, a um dos fiéis, de qualquer forma. Agora, se você os encontrar e voltar comigo com dados conclusivos sobre o que aconteceu com eles, eu lhe darei a recompensa da Igreja de $locrlf_rewardAmount créditos.""",,
 locrlfOfferTextBarAgainB,DialogOptionSelected,"$option == locrlf_startBar
 $player.locrlf_negotiatedHigherRate
 $player.locrlf_gotBarBlurb","$missionId = locrlf
-Highlight $locrlf_rewardAmountHigher","""Ah!"" Dá um pequeno pulo quando você fala. ""Você de novo. Reconsiderou?""
+Highlight $locrlf_rewardAmountHigher
+Call $locrlf_ref showMap ""Alvo: $locrlf_systemName""","""Ah!"" Dá um pequeno pulo quando você fala. ""Você de novo. Reconsiderou?""
 
 Baixa a voz: ""É um assunto delicado, claro. Este arcivigário quer que este rebanho desgarrado de hereges seja encontrado, e, por alguma razão, não está confiando nos Cavaleiros Inquisidores."" Suspira: ""Não cabe a mim especular sobre os afazeres da Igreja, claro.""
 
@@ -28036,27 +28066,29 @@ os olhos dessa pessoa estão arregalados de alarme.
 
 ""É claro que imagino que isso seja assunto dos Cavaleiros, e ficaria satisfeito em deixar seus inquisidores lidarem com os hereges como é seu costume. Mas... bem, não cabe a mim especular.""",locrlf_startBar2:Continuar,
 locrlfOfferTextBar2,DialogOptionSelected,$option == locrlf_startBar2,"Highlight $locrlf_rewardAmount
-SetTooltip locrlf_offerBarCynicalRewardAsk ""Você é cínico o bastante para enxergar a piedade dos 'Fiéis'. No fim, sempre se trata de créditos.""
-FireBest LOCRLFOfferTextBarRemoveCynical
+FireAll locrlfOfferTextBar2opts
 Call $locrlf_ref showMap ""Alvo: $locrlf_systemName""","""Estes hereges juntaram dinheiro e compraram uma velha nave de transporte, depois partiram para algum sistema da fronteira para 'recomeçar'. Talvez estejam todos mortos. Perdoe-me; que Ludd tenha misericórdia, pelo que sei. Mesmo assim, um catador não crente foi o último a vê-los, aparentemente queimando rumo a... um sistema específico.""
 
 Mostra o datapad barato.
 
-""Você os encontrará? Pela Igreja? Descubra o que aconteceu com eles. Traga notícias para mim, e então eu relatarei ao, ao arcivigário. Recebi fundos para a operação, $locrlf_rewardAmount créditos. Eles são seus depois que você trouxer dados conclusivos sobre o destino dos hereges.""","locrlf_offerBarCynicalRewardAsk:""A Igreja está dando a você mais de $locrlf_rewardAmount créditos pelo trabalho, não está?""
-locrlf_offerBarAcceptFirst:Aceitar
-contact_declineBar:Recusar",
-locrlfOfferTextBarRemoveCynical,LOCRLFOfferTextBarRemoveCynical,$player.luddicAttitudeCynical < 1,RemoveOption locrlf_offerBarCynicalRewardAsk,,,
-locrlfOfferTextBarRemoveDidAlready,LOCRLFOfferTextBarRemoveCynical,$player.locrlf_negotiatedHigherRate,RemoveOption locrlf_offerBarCynicalRewardAsk,,,
+""Você os encontrará? Pela Igreja? Descubra o que aconteceu com eles. Traga notícias para mim, e então eu relatarei ao, ao arcivigário. Recebi fundos para a operação, $locrlf_rewardAmount créditos. Eles são seus depois que você trouxer dados conclusivos sobre o destino dos hereges.""","
+
+",
 locrlfOfferBarCynicalRewardAsk,DialogOptionSelected,$option == locrlf_offerBarCynicalRewardAsk,"AdjustRep $locrlf_person INHOSPITABLE -1
-$player.locrlf_negotiatedHigherRate = true
+$player.locrlf_negotiatedHigherRate = true 30
 Highlight $locrlf_rewardAmountHigher
-RemoveOption locrlf_offerBarCynicalRewardAsk","Uma onda de culpa, rapidamente reprimida, atravessa o rosto.
+FireAll locrlfOfferTextBar2opts
+Call $locrlf_ref showMap ""Alvo: $locrlf_systemName""","Uma onda de culpa, rapidamente reprimida, atravessa o rosto.
 
 ""É... sim, bem. É meu papel cobrar uma taxa de corretagem perfeitamente razoável. Cortejar talentos é trabalho honesto, apesar do que os linha-dura ruralistas pregam.""
 
 Bate a mão no balcão, impaciente.
 
 ""Então tudo bem. Você fez o seu ponto. Vamos fazer o pagamento de $locrlf_rewardAmountHigher créditos, se é isso que é preciso.""",,
+locrlfOfferTextBar2optA,locrlfOfferTextBar2opts,"$player.luddicAttitudeCynical > 1
+!$player.locrlf_negotiatedHigherRate","SetTooltip locrlf_offerBarCynicalRewardAsk ""Você é cínico o bastante para enxergar a piedade dos 'Fiéis'. No fim, sempre se trata de créditos.""",,"locrlf_offerBarCynicalRewardAsk:""A Igreja está pagando mais de $locrlf_rewardAmount créditos por este trabalho, não está?""",
+locrlfOfferTextBar2optB,locrlfOfferTextBar2opts,,,,locrlf_offerBarAcceptFirst:Aceitar,
+locrlfOfferTextBar2optC,locrlfOfferTextBar2opts,,,,contact_declineBar:Recusar,
 locrlfOfferBarAcceptFirst,DialogOptionSelected,$option == locrlf_offerBarAcceptFirst,"Call $locrlf_ref addPersonToMarket
 $option = contact_acceptBar
 FireBest DialogOptionSelected","$locrlf_personName lhe dá as coordenadas de navegação para $locrlf_systemName, o ID de comunicação dessa pessoa, e o ID do casco da nave de transporte dos hereges, a 'CGR Light of Exultation'.",,
@@ -28065,21 +28097,21 @@ locrlfOfferTextContact,DialogOptionSelected,$option == locrlf_start,$missionId =
 
 ""Eu sei"", suspira. ""Eu também imaginaria que isso é assunto dos Cavaleiros de Ludd, e eu ficaria feliz em deixar que os inquisidores deles lidem com os hereges, como é de costume. Mas, por alguma razão, a Igreja quer resolver isso por conta própria, e não cabe a mim especular por que isso pode ser.""",locrlf_startContact2:Continuar,
 locrlfOfferTextContact2,DialogOptionSelected,$option == locrlf_startContact2,"Highlight $locrlf_rewardAmount
-SetTooltip locrlf_offerCynicalRewardAsk ""Você é cínico o bastante para enxergar através da encenação de piedade que esses chamados 'Fiéis' fazem. No fim, o que importa são créditos e poder.""
-FireBest LOCRLFOfferTextRemoveCynical
+FireAll locrlfOfferTextContact2opts
 Call $locrlf_ref showMap ""Alvo: $locrlf_systemName""","""Estes falsos crentes, hereges, juntaram dinheiro e compraram uma nave velha de transporte, depois partiram para algum sistema da fronteira para 'recomeçar', seja lá o que isso signifique. Talvez estejam todos mortos - perdoe-me, ou que Ludd os tenha, pelo que sei. Mesmo assim, um catador não crente foi o último a vê-los queimando rumo a um sistema específico.""
 
 ""Você os encontrará? Pela Igreja?""
 
-""Descubra o que aconteceu com eles. Traga notícias para mim, e então eu relatarei ao arcivigário. Recebi fundos para a operação, $locrlf_rewardAmount créditos. São seus depois que você trouxer notícias dos hereges.""","locrlf_offerCynicalRewardAsk:""A Igreja está dando a você mais de $locrlf_rewardAmount créditos pelo trabalho, não está?""
-locrlf_offerAcceptFirstContact:Aceitar
-contact_decline:Recusar",
-locrlfOfferTextRemoveCynical,LOCRLFOfferTextRemoveCynical,$player.luddicAttitudeCynical < 1,RemoveOption locrlf_offerCynicalRewardAsk,,,
-locrlfOfferTextRemoveDidAlready,LOCRLFOfferTextRemoveCynical,$player.locrlf_negotiatedHigherRate,RemoveOption locrlf_offerCynicalRewardAsk,,,
+""Descubra o que aconteceu com eles. Traga notícias para mim, e então eu relatarei ao arcivigário. Recebi fundos para a operação, $locrlf_rewardAmount créditos. São seus depois que você trouxer notícias dos hereges.""",,
+locrlfOfferTextContact2optA,locrlfOfferTextContact2opts,"$player.luddicAttitudeCynical > 1
+!$player.locrlf_negotiatedHigherRate","SetTooltip locrlf_offerCynicalRewardAsk ""Você é cínico o bastante para enxergar através da encenação de piedade que esses chamados 'Fiéis' fazem. No fim, o que importa são créditos e poder.""",,"locrlf_offerCynicalRewardAsk:""A Igreja está lhe dando mais de $locrlf_rewardAmount créditos por este trabalho, não está?""",
+locrlfOfferTextContact2optB,locrlfOfferTextContact2opts,,,,locrlf_offerAcceptFirstContact:Aceitar,
+locrlfOfferTextContact2optC,locrlfOfferTextContact2opts,,,,contact_decline:Recusar,
 locrlfOfferCynicalRewardAsk,DialogOptionSelected,$option == locrlf_offerCynicalRewardAsk,"AdjustRep $locrlf_person INHOSPITABLE -1
 $player.locrlf_negotiatedHigherRate = true
 Highlight $locrlf_rewardAmountHigher
-RemoveOption locrlf_offerBarCynicalRewardAsk","Uma onda de culpa, rapidamente reprimida, atravessa o rosto.
+FireAll locrlfOfferTextContact2opts
+Call $locrlf_ref showMap ""Alvo: $locrlf_systemName""","Uma onda de culpa, rapidamente reprimida, atravessa o rosto.
 
 ""É... sim, bem. É meu papel cobrar uma taxa de corretagem perfeitamente razoável. Cortejar talentos é trabalho honesto, apesar do que os linha-dura ruralistas pregam.""
 
@@ -29063,13 +29095,13 @@ $entity.fwt_wantsThing score:1000
 $entity.fwt_aggressive
 $entity.fwt_payment <= 0
 !$entity.ignorePlayerCommRequests","$entity.ignorePlayerCommRequests = true
-$entity.fwt_encounteredAlready = true","O link de comunicação ganha vida. ""Saudações, starfarer! "" $Rank $personName faz uma careta de pesar, ""Más notícias: você possui algo que meus superiores desejam e agora deve entregá-lo a mim.""
+$entity.fwt_encounteredAlready = true","O link de comunicação estala ao abrir. ""Saudações, navegante estelar!"" $Rank $personName faz uma careta de pesar: ""Más notícias: você possui algo que meus superiores desejam e agora você deve entregar isso a mim.""
 
-Você percebe que essa pessoa está falando sobre $entity.fwt_thingDesc.
+Você percebe que a menção é sobre $entity.fwt_thingDesc.
 
-""Agora, isso vai ser fácil ou difícil? Pense, agora,"" que a pessoa diz com falsa caridade, ""Mas não demore muito, por favor.""
+""Agora, isso vai ser fácil ou difícil? Pense bem,"" com falsa benevolência, ""mas não demore muito, por favor.""
 
-A exigência é um roubo total e qualquer facção que cumpra a lei ficaria envergonhada de condená-lo por se defender, se assim o desejar.","cutCommLink:Recusar, encerrar a comunicação e ligar as armas
+A exigência é um roubo descarado e qualquer facção cumpridora da lei teria vergonha de condenar você por se defender, caso decida fazê-lo.","cutCommLink:Recusar, encerrar a comunicação e ligar as armas
 fwt_accept:Entregar $entity.fwt_theThing",
 fwtOpenCommGenericAggroPay,OpenCommLink,"!$entity.fwt_encounteredAlready
 $entity.fwt_wantsThing score:1000
@@ -30984,7 +31016,7 @@ $player.numColonies > 0 score:100
 !$player.everHadKantaProtection",FireAll KDSKConvoStart,Seu pedido gira por um minuto e depois é direcionado a outro link.,,
 kdKantaGreetingGAATG,PickGreeting,"$id == kanta score:1000
 $market.gaATG_talkToKanta score:200",FireAll KDSKConvoStart,Seu pedido gira por um minuto e depois é direcionado a outro link.,,
-#kdSKGreeting,PickGreeting,"$market.id == kantas_den
+#kdSKGreeting,PickGreeting,"$market.id == kantas_den score:10
 $postId == stationCommander score:2",FireAll KDSKConvoStart,,,
 KDSKgreetingMurderedLoke,PickGreeting,"$market.id == kantas_den
 $postId == stationCommander score:2
@@ -31009,7 +31041,8 @@ KDSKgreeting2b,DialogOptionSelected,$option == kdsk_greeting2,FireAll PopulateOp
 KDSKaskToMeetKanta,PopulateOptions,"$market.id == kantas_den
 $postId == stationCommander 
 !$player.metKanta",,,"kdsk_askMeetKanta:""Gostaria de conhecer o Senhor da Guerra Kanta.""",
-KDSKaskToMeetKantaSel,DialogOptionSelected,$option == kdsk_askMeetKanta,FireAll KDStationKingOptions,"$PersonName oferece uma aparência imperiosa. 
+KDSKaskToMeetKantaSel,DialogOptionSelected,$option == kdsk_askMeetKanta,"$kpBribeAmount = 10,000 0
+FireAll KDStationKingOptions","$PersonName oferece uma aparência imperiosa. 
 
 ""E o que faz você pensar que pode mostrar sua aparência podre em minhas comunicações e pedir pela Rainha K?""",,
 ,,,,,,
@@ -31077,7 +31110,7 @@ kdTrafficControlOptionB,KantasDenTrafficControlOptions,!$market.gotPermissionToL
 kdTrafficControlOptionC,KantasDenTrafficControlOptions,!$market.gotPermissionToLandFromSK,,,"kantasDen_trafficBullyA:""Estou aqui para ver seu chefe.""",
 kdTrafficControlOptionD,KantasDenTrafficControlOptions,!$market.gotPermissionToLandFromSK,,,"kantasDen_trafficBullyB:""Chega de extorsão. Estou aqui por Kanta.""",
 kdTrafficControlRevisitBribe,KantasDenTrafficControlOptions,"$market.didTrafficControlBribe score:10
-!$market.gotPermissionToLandFromSK",FireBest KDSKConvoStart,"O piloto passa pela conversa de rotina com o que se faz passar por controle de tráfego. Um suborno anterior significa que você é reconhecido e recebe um pedido de comunicação direta com o rei da estação, sem espera.",kd_stationKingStart:Continuar,
+!$market.gotPermissionToLandFromSK",FireBest KDSKConvoStart,"O piloto passa pela conversa de rotina com o que se faz passar por controle de tráfego. Um suborno anterior significa que você é reconhecido e recebe um pedido de comunicação direta com o rei da estação, sem espera.",,
 kdTrafficControlRevisitGeneric,KantasDenTrafficControlOptions,"$market.didTrafficControlBribe
 $market.gotPermissionToLandFromSK","$option = kd_landing1 0
 FireBest DialogOptionSelected",O piloto passa pela conversa de rotina com o que se faz passar por controle de tráfego. Um suborno anterior significa que você é reconhecido e não tem mais problemas do que o normal.,,
@@ -31313,13 +31346,15 @@ kdKantaAudience1Bluffs,KDaudienceIntro,"$player.kantaBluffs > 0
 ""Você não afirmou estar 'trabalhando para' nosso querido senhor da guerra? "" O homenzinho se esforça e transpira enquanto acusa você. ""Seu nome inspirador de medo não passou pelos seus lábios... sem a permissão dela? Você presume, capitão, conhecer a vontade de nosso poderoso-""
 
 Com o som de metal raspando, o discurso de Cydonia é interrompido. O Warlord Kanta se apoia em pernas mecânicas blindadas. Ouve-se um som de batidas e batidas.",kp_audienceBluffs2:Continuar,
-kdKantaAudience1Bluffs2,DialogOptionSelected,$option == kp_audienceBluffs2,"$didBluffResponse = true
+kdKantaAudience1Bluffs2,DialogOptionSelected,$option == kp_audienceBluffs2,"$didBluffResponse = true 30
 $makeUseOfYou = true 0
-$presumedVisitPurpose = true 0","Risada. É isso que é. A risada de Kanta como cartuchos de autocanhão caindo de uma porta de ejeção. Metal contra metal, assassinato industrializado.
+$presumedVisitPurpose = true 0
+AdjustRepPerson cydonia VENGEFUL -2
+FireAll kdKantaAudienceHubOpts","Risada. É isso que é. A risada de Kanta soa como estojos de canhão automático caindo de uma janela de ejeção. Metal contra metal, assassinato industrializado.
 
-""Sua presunção nos diverte"", a voz amplificada de Kanta ressoa pela corte, abafando todo o resto. ""Tão ansioso para nos servir, não é? Então faremos uso de você.""
+""Sua presunção nos diverte,"" a voz amplificada de Kanta ecoa pelo tribunal, abafando tudo ao redor. ""Tão ansioso para nos servir, não é? Então diga-nos: como você nos servirá?""
 
-A boca de Cydonia é uma linha achatada e trêmula.",kpAudiencePresume:Continuar,
+A boca de Cydonia se fecha em uma linha reta e trêmula.",#kpAudiencePresume:Continuar,
 kpAudience1StoleZal2,DialogOptionSelected,$option == kp_stoleZal2,"$didZalResponse = true
 $assumeGift = true 0
 $presumedVisitPurpose = true 0
@@ -32365,17 +32400,26 @@ FireAll PopulateOptions","As comunicações se abrem.
 
 ""Volto tão cedo, "" Inesis diz com uma sugestão de sorriso.",,
 InesisZGRstartOpt,PopulateOptions,"$id == faro_inesis
-!$ZGRtoldMe",,,"1:inesis_zgrTold:""Zunya Glamor-Rotanev me disse para falar com você...""",
+!$ZGRtoldMe
+$player.gotInesisContactFromZGR",,,"1:inesis_zgrTold:""Zunya Glamor-Rotanev me disse para falar com você...""",
+SD7SInesisFromTTcontactOpt,PopulateOptions,"$id == faro_inesis
+!$didInesisIntro
+$global.sd7s_gotInesisContactFromTT
+!$player.gotInesisContactFromZGR
+!$global.sd7s_decryptedAndradaFiles",,,"1:inesis_contactToldDecrypt:""Um... contato me disse para falar com você.""",# from SD7S start
 InesisZGRdiscussOpt,PopulateOptions,"$id == faro_inesis
 $ZGRtoldMe",,,"10:inesis_zgrHubStart:""Gostaria de discutir itens de interesse do Diretor Glamor-Rotanev.""",
 InesisAskWhatDoOpt,PopulateOptions,"$id == faro_inesis
 !$whatDoYouDo
-$ZGRtoldMe",,,"50:inesis_askWhatDo:""O que exatamente você faz? Para Tri-Tachyon, quero dizer.""",
+$didInesisIntro",,,"50:inesis_askWhatDo:""O que exatamente você faz? Para Tri-Tachyon, quero dizer.""",
 InesisOfferContact,PopulateOptions,"$id == faro_inesis
 $didFirstSale
 !$offeredContactStatus","$option = inesis_offerContactStart 0
 FireBest DialogOptionSelected",,,
-,,,,,,
+SD7SInesisFromTTcontactSel,DialogOptionSelected,$option == inesis_contactToldDecrypt,"$didInesisIntro = true
+FireAll PopulateOptions","Seus olhos piscam.
+
+""Sim, compreendo. Acredito que foi mencionado que você poderia ter uma consulta muito específica?""",,
 InesisOfferContactStart,DialogOptionSelected,$option == inesis_offerContactStart,$offeredContactStatus = true,"""Capitão $PlayerName."" 
 
 Inesis observa você com um meio sorriso que agrada ao cliente. Esperando sua resposta, aparentemente.","inesis_offerContactStartA:""Sim?""
@@ -32402,6 +32446,7 @@ InesisZGRhubTurnIn,InesisZGRhubOpts,ZGRTurnIn playerHasSellableItems,,,0:zgr_tec
 InesisZGRhubBack,InesisZGRhubOpts,,,,"defaultBackConv:""Talvez mais tarde.""",
 InesisZGRhubAutoExit,InesisZGRhubOpts,!ZGRTurnIn playerHasSellableItems,FireAll PopulateOptions,"""Mas se você não tem nada para mim... talvez outra hora?""",,
 InesisZGRstartOptSel,DialogOptionSelected,$option == inesis_zgrTold,"$ZGRtoldMe = true
+$didInesisIntro = true
 FireAll InesisZGRhubOpts","""De fato ela tem,"" ele diz com um sorriso.
 
 ""Estou autorizado a participar de discussões limitadas sobre certas iniciativas importantes e posso oferecer pagamento em troca de amostras e artefatos de interesse do Diretor Glamor-Rotanev.""
@@ -32421,11 +32466,18 @@ InesisAskWhatDo2b,DialogOptionSelected,$option == inesis_askWhatDo2b,FireAll Pop
 ""Vou lhe dizer uma coisa."" Ele levanta um dedo confiante. ""I demonstra consistentemente valor agregado à seção do Diretor Glamor-Rotanev. Enquanto ela estiver satisfeita, estou satisfeito em continuar meu trabalho.""
 
 ""E eu sou muito bom nisso,"" ele diz, um pouco de humanidade escapando.",,
+InesisAskWhatDo2aNoZGR,DialogOptionSelected,"$option == inesis_askWhatDo2a
+!$ZGRtoldMe",FireAll PopulateOptions,"""Ainda assim, demonstro de forma constante valor agregado à seção de Aquisições Especiais. Enquanto meu superior direto estiver satisfeito, estou satisfeito em continuar com meu trabalho.""
+
+""E sou bom pra caramba nisso,"" diz ele, com uma ponta de humanidade escapando por trás de sua fachada de vendedor.",,
+InesisAskWhatDo2bNoZGR,DialogOptionSelected,"$option == inesis_askWhatDo2b
+!$ZGRtoldMe",FireAll PopulateOptions,"Ele esfrega o queixo, fazendo um teatrinho enquanto reflete sobre o assunto.
+
+""Vou lhe dizer uma coisa."" Ele ergue um dedo com confiança. ""Demonstro de forma constante valor agregado à seção de Aquisições Especiais. Enquanto meu superior direto estiver satisfeito, estou satisfeito em continuar com meu trabalho.""
+
+""E sou bom pra caramba nisso,"" diz ele, com um pouco de humanidade escapando.",,
 InesisTechTurnInResponseFirst,ZGRItemsTurnedIn,"$id == faro_inesis
 !$didFirstSale","$didFirstSale = true
-Highlight ""Faro Inesis""
-SetPersonHidden faro_inesis false
-AddTextSmall ""ID de comunicação recebido para Faro Inesis"" highlight
 FireAll PopulateOptions","""Excelente, excelente, "" seus olhos piscam rapidamente.
 
 ""Diretor Glamor-Rotanev ficará satisfeito, tenho certeza disso.""",,
@@ -32507,6 +32559,7 @@ SD7SzgrBringFiles2b,DialogOptionSelected,"$option == sd7s_foundIntelReport
 $id == glamor_rotanev
 $global.sd7s_decryptViaZGR
 !$player.metFaroInesis","$global.sd7s_decryptViaInesis = true
+$player.gotInesisContactFromZGR = true
 unset $global.sd7s_decryptViaZGR
 AddTextSmall ""ID de comunicação recebido para Faro Inesis"" highlight
 SetPersonHidden faro_inesis false
@@ -32795,7 +32848,8 @@ ZGRtechNeverMindOptionSelected,DialogOptionSelected,$option == zgr_techSelectCar
 ZGRtechTurnInOptionSelected,DialogOptionSelected,$option == zgr_techNeverMind,FireAll PopulateOptions,Glamor-Rotanev lhe lança um olhar gélido.,,
 ZGRtechTurnInResponseFirst,ZGRItemsTurnedIn,"$id == glamor_rotanev
 !$didFirstSale
-!$player.metFaroInesis score:3","$didFirstSale = true
+!$player.gotInesisContactFromZGR score:3","$didFirstSale = true
+$player.gotInesisContactFromZGR = true
 Highlight ""Faro Inesis""
 SetPersonHidden faro_inesis false
 AddTextSmall ""ID de comunicação recebido para Faro Inesis"" highlight
@@ -33109,7 +33163,8 @@ ZGRackChurchOptDontThink,DialogOptionSelected,$option == ZGR_ackChurchOptDontThi
 
 Sua cabeça se inclina levemente, perplexa.",ZGR_acknowledgeContinue:Continuar,
 ZGRacknowledgeDiktat,ZGRbigUps,"!$didDiktat
-$player.fcm_faction == sindrian_diktat","$didDiktat = true 0
+$player.fcm_faction == sindrian_diktat
+!$global.sd7s_missionCompleted","$didDiktat = true 0
 $didUps++","""Percebemos que o Sr. Macario - desculpe"", ri como um carrilhão, ""'O Alto Inspetor-Chefe' tomou você por um dos seus peões.""
 
 ""Você e eu sabemos que você é mais e melhor do que isso. Acredito que sua perspectiva inovadora poderia valer mais do que todo o orçamento secreto de propinas e favores desse valentão de cortiço de quinta categoria.""
@@ -33117,7 +33172,8 @@ $didUps++","""Percebemos que o Sr. Macario - desculpe"", ri como um carrilhão, 
 Suas sobrancelhas se erguem com precisão. ""Não é?""",ZGR_acknowledgeContinue:Continuar,# finished SDTU .. or Diktat com?
 ZGRacknowledgeDiktatB,ZGRbigUps,"!$didDiktat
 $player.fcm_faction == sindrian_diktat
-$player.sdtu_gotExecutorFromMacario","$didDiktat = true 0
+$player.sdtu_gotExecutorFromMacario
+!$global.sd7s_missionCompleted","$didDiktat = true 0
 $didUps++","""Percebemos que o Sr. Macario - desculpe"", ri como um carrilhão, ""'O Alto Inspetor-Chefe' tomou você por um dos seus peões.""
 
 ""Você e eu sabemos que é mais do que isso. Melhor do que isso. E acredito que sua perspectiva inovadora poderia valer mais do que todo o orçamento secreto de propinas e favores desse valentão de cortiço de quinta categoria. Aquele couraçado bobinho que ele deu a você? Um brinquedo de criança comparado ao que eu ofereço.""
@@ -33872,7 +33928,9 @@ andradaOfficeServe2,DialogOptionSelected,"$option == andradaOffice_serve2
 $player.gotAndradaBook = true","$Rank $PersonName assente com dever, e algo parecido com prazer, mas não exatamente, cruza o rosto.
 
 ""Submissão à nova visão gloriosa do Executor Supremo Almirante Philip Andrada para o futuro é o primeiro passo. Deixe-me enviar alguma literatura...""",andradaOffice_book:Continuar,
-andradaOfficeBook,DialogOptionSelected,$option == andradaOffice_book,$askedServeAndrada = true 1,"""Este será seu ponto de partida: um pequeno livro de sabedoria reunido a partir das reflexões do Leão de Sindria. Cidadãos do Diktat Sindriano, seguidores da Visão Gloriosa, descobrem que essas palavras podem elevá-los em todos os aspectos da vida cotidiana.""
+andradaOfficeBook,DialogOptionSelected,$option == andradaOffice_book,"$askedServeAndrada = true 1
+SetTooltip andradaOffice_book1 ""Deixe o homem ouvir o que tão claramente deseja ouvir de você. Não é como se você fosse ler os devaneios prolixos de Philip Andrada — a menos que um oficial da INTSEC estivesse apontando uma arma para a sua cabeça.\n\nE olhe lá.""
+SetTooltip andradaOffice_book1sd ""E é a sua intenção; talvez haja sabedoria e poder a serem obtidos da filosofia de Andrada...""","""Este será seu ponto de partida: um pequeno livro de sabedoria reunido a partir das reflexões do Leão de Sindria. Cidadãos do Diktat Sindriano, seguidores da Visão Gloriosa, descobrem que essas palavras podem elevá-los em todos os aspectos da vida cotidiana.""
 
 Se inclina para frente: ""Pessoalmente, gosto de ler algumas linhas antes de dormir e ao acordar. Acho que isso foca minha mente e alinha minha vontade à necessidade do Movimento.""
 
@@ -33881,6 +33939,7 @@ andradaOffice_book1:""I com certeza estudarei. Constantemente."" (mentira)
 andradaOffice_book1sd:""Vou estudá-lo com certeza. Constantemente.""",
 andradaOfficeBook1,DialogOptionSelected,$option == andradaOffice_book1,FireAll AndradaOfficeReplies,"""Excelente"", diz, com um aceno decisivo.",,
 andradaOfficeBook1sd,DialogOptionSelected,$option == andradaOffice_book1sd,"$player.sd_trueBeliever++
+AddTextSmall ""Comprometeu-se a estudar a sabedoria de Philip Andrada"" highlight
 FireAll AndradaOfficeReplies","""Excelente"", diz, com um aceno decisivo.",,
 andradaOfficeBook2,DialogOptionSelected,$option == andradaOffice_book2,FireAll AndradaOfficeReplies,"""Você é quem vai me agradecer, com o tempo"", diz, sem ironia.",,
 andradaOfficeServe2gotBook,DialogOptionSelected,"$option == andradaOffice_serve2
@@ -34463,7 +34522,7 @@ O regime atual permitiu que os conglomerados industriais se autorregulem, desde 
 sdtuRamSafehouse2,DialogOptionSelected,$option == sdtu_ramSafehouse2,FireAll SDTURamSafehouseFlavor,"O esconderijo de Ram fica num complexo de logística e armazenagem anexado à extremidade de um desses aglomerados industriais.
 
 O ar está espesso com o odor adocicado de petroquímicos.",sdtu_ramSafehouse3:Entrar no esconderijo,
-sdtuRamSafehouse2wire,SDTURamSafehouseFlavor,$player.sdtu_gotMarines,,"Seu esquadrão de fuzileiros disfarçados se espalha, passando plausivelmente por trabalhadores em pausa, mastigando barras nutritivas e acendendo narcosticks.",,
+sdtuRamSafehouse2wire,SDTURamSafehouseFlavor,$player.sdtu_gotMarines,,"Seu esquadrão de fuzileiros disfarçados se espalha, passando com facilidade por trabalhadores em intervalo de turno comendo barras nutritivas e acendendo narcosticks.",,
 sdtuRamSafehouse2marines,SDTURamSafehouseFlavor,$player.sdtu_gotWire,,Uma rápida olhada no seu datapad mostra sua perspectiva em perfeita miniatura; a unidade holorec está funcionando perfeitamente.,,
 sdtuRamSafehouse3,DialogOptionSelected,$option == sdtu_ramSafehouse3,"BeginConversation ram
 unset $market.sdtu_meetRamOnVolturn","Um capanga da INTSEC à paisana - óbvio pelo jeito de se portar - abre a porta, olha você de cima a baixo com desaprovação e tira sua arma do coldre antes de conduzir você por escadas de metal até um quarto interno escuro, abaixo do nível da rua.
@@ -39022,7 +39081,7 @@ ttVIPCounterRaiding,PopulateOptions,"$isPerson
 !$player.counterRaidedTriTach
 !$player.hasTriTachDeal
 !$player.brokeTriTachDeal
-$faction.id == tritachyon
+$personFaction.id == tritachyon
 !$faction.ttProblemsAsked
 $id != arroyo
 $id != sun
@@ -40410,7 +40469,8 @@ PKHackStoryWhatDoGiveHeg0,PKHackStoryWhatDo,$player.fcm_faction == hegemony,,,"p
 PKHackStoryWhatDoDestEnemies0,PKHackStoryWhatDo,,,,"pk_hackStoryWhatDoDestEnemies:""Vou usá-lo para destruir meus inimigos.""",
 PKHackStoryWhatDoDontKnow0,PKHackStoryWhatDo,,,,"pk_hackStoryWhatDoDontKnow:""Sendo franco, ainda não sei.""",
 PKHackStoryWhatDoSellArroyo0,PKHackStoryWhatDo,$global.metArroyo,,,"pk_hackStoryWhatDoSellArroyo:""Vou vendê-lo a alguém rico. Tipo Rayan Arroyo.""",
-PKHackStoryWhatDoGiveDiktat0,PKHackStoryWhatDo,$player.fcm_faction == sindrian_diktat,,,"pk_hackStoryWhatDoGiveDiktat:""Vou dá-lo ao Diktat Sindriano, para destruir os inimigos deles.""",
+PKHackStoryWhatDoGiveDiktat0,PKHackStoryWhatDo,"$player.fcm_faction == sindrian_diktat
+!$global.sd7s_missionCompleted",,,"pk_hackStoryWhatDoGiveDiktat:""Vou dá-lo ao Diktat Sindriano, para destruir os inimigos deles.""","# Not going to deal with a post-Philip SD here,  ... yet?"
 PKHackStoryWhatDoBlackHole0,PKHackStoryWhatDo,,,,"pk_hackStoryWhatDoBlackHole:""Vou jogá-lo num buraco negro para que não possa machucar ninguém.""",
 #PKHackStoryWhatDoGiveChurch0,PKHackStoryWhatDo,$player.fcm_faction == luddic_church,,,"pk_hackStoryWhatDoGiveChurch:""I'll give it to the Luddic Church so the cursed thing is properly disposed of.""",
 PKHackStoryWhatDoGivePath,DialogOptionSelected,$option == pk_hackStoryWhatDoGivePath,,"
@@ -41912,7 +41972,8 @@ HistorianBackstoryBlurb18,HistorianBackstoryBlurb,!WasHistorianBlurbShown histor
 
 ""O benefício prático de uma ordem militar permanente durante o caos pós-Colapso e as guerras seguintes precisa ser admitido, no entanto"", recosta-se na cadeira, em tom contemplativo. ""E os opositores mais vocais dentro da própria Igreja argumentam que os Cavaleiros erram em grau, e não no todo. Os opositores menos vocais? Bem, talvez não saibamos o que pensam por muitos e muitos ciclos. Os Cavaleiros cuidam disso.""",,
 HistorianBackstoryBlurb19,HistorianBackstoryBlurb,"!WasHistorianBlurbShown historyBlurb19
-!$global.sd7s_decryptedAndradaFiles",SetHistorianBlurbShownAfterDelay historyBlurb19,"""Especula-se que o Almirante Andrada, o autoproclamado Executor Supremo do Diktat Sindriano - ou 'Motim Sindriano', segundo a visão da Hegemonia - enfrenta o problema de sucessão tão comum aos ditadores. Até agora, por trás da fachada unificada do Diktat, parece que ele colocou seus principais apoiadores uns contra os outros para manter a estabilidade política. Declarar um sucessor claro teria perturbado esse equilíbrio interno.""
+!$global.sd7s_decryptedAndradaFiles
+!$global.sd7s_missionCompleted",SetHistorianBlurbShownAfterDelay historyBlurb19,"""Especula-se que o Almirante Andrada, o autoproclamado Executor Supremo do Diktat Sindriano - ou 'Motim Sindriano', segundo a visão da Hegemonia - enfrenta o problema de sucessão tão comum aos ditadores. Até agora, por trás da fachada unificada do Diktat, parece que ele colocou seus principais apoiadores uns contra os outros para manter a estabilidade política. Declarar um sucessor claro teria perturbado esse equilíbrio interno.""
 
 ""E agora"", fala devagar, esfregando o queixo, ""com a inevitável virada dos ciclos e Andrada com a saúde supostamente debilitada, ele fará um anúncio surpresa para designar um herdeiro? Haveria uma onda de prisões e, ousaria dizer, execuções, enquanto os leais e desleais ao Executor-aparente são... separados.""
 
@@ -42082,8 +42143,10 @@ BarHRESpeechBsmall2,BarHighRepCrewGain,RollProbability 0.5,AddCommodity crew 8,,
 BarHRESpeechBmed2,BarHighRepCrewGain,$player.fleetPoints >= 30,AddCommodity crew 19,,,
 BarHRESpeechBmed,BarHighRepCrewGain,"$player.fleetPoints >= 40
 RollProbability 0.5",AddCommodity crew 26,,,
-BarHRESpeechBlarge2,BarHighRepCrewGain,$player.fleetPoints >= 60 score:2,AddCommodity crew 35,,,
-BarHRESpeechBlarge,BarHighRepCrewGain,"$player.fleetPoints >= 70 score:2
+BarHRESpeechBlarge2,BarHighRepCrewGain,"!$global.extendedMode
+$player.fleetPoints >= 60 score:2",AddCommodity crew 35,,,
+BarHRESpeechBlarge,BarHighRepCrewGain,"!$global.extendedMode
+$player.fleetPoints >= 70 score:2
 RollProbability 0.5",AddCommodity crew 47,,,
 BarHRESpeechC,DialogOptionSelected,$option == barHRE_speechC,"AdjustRep faction.id COOPERATIVE 1
 $player.ethosCocky++","Você começa devagar e em voz baixa, obrigando a multidão a se calar e a silenciar uns aos outros para ouvir você.
@@ -44373,6 +44436,7 @@ Vira-se ao encerrar a comunicação.",cutCommLink:Cortar o link de comunicação
 "# Academician Cornelius Elek, generic interactions",,,,,,
 defaultElekGreeting,PickGreeting,"$id == elek
 !$contact_printedFirstReturnGreeting","ShowPersonVisual true elek
+$contact_printedFirstReturnGreeting = true 0
 FireAll PopulateOptions","As comunicações demoram um pouco para se conectar.
 
 ""Estou muito ocupado, "" diz Elek. Você pode ver a parte de trás de sua cabeça enquanto ele configura algo em uma interface secundária. ""Por favor, quem quer que você seja.""
@@ -44385,8 +44449,31 @@ $contact_printedFirstReturnGreeting","ShowPersonVisual true elek
 FireAll PopulateOptions","Depois de um momento, as comunicações se conectam.
 
 ""Sim? "" Um planetóide holográfico passa zunindo pela cabeça de Elek. ""Não acabamos de conversar? Estou calibrando meu modelo.""",,
-,,,,,,
-,,,,,,
+gaDHOelekGreeting,PickGreeting,"$id == elek
+!$contact_printedFirstReturnGreeting
+$gaDHO_answerInvite","ShowPersonVisual true elek
+$contact_printedFirstReturnGreeting = true 0
+FireAll PopulateOptions","A comunicação leva um momento para conectar.
+
+""Estou muito ocupado,"" diz Elek. Você vê a parte de trás da cabeça dele enquanto configura algo em uma interface secundária. ""TriOS, encerrar comunicação."" Uma pausa. ""Encerrar. Comunicação. Droga de—""
+
+A comunicação é cortada.
+OR
+Após um instante, a comunicação se estabiliza. A atenção de Elek parece focada em seu datapad; ele nem sequer olha para a transmissão.
+
+""O buffer de comunicação é insuficiente para suas necessidades? Minha mente está totalmente ocupada e não tolerarei interrupções. Tenha um bom dia!""
+
+A comunicação é cortada.",,
+gaDHOelekGreetingAgain,PickGreeting,"$id == elek
+$contact_printedFirstReturnGreeting
+$gaDHO_answerInvite","ShowPersonVisual true elek
+FireAll PopulateOptions","Após um instante, a comunicação se conecta.
+
+""O quê?"" Um planetóide holográfico passa zunindo pela cabeça de Elek. ""Não acabamos de nos falar? Estou no meio da calibração do meu modelo, adeus. TriOS, encerrar—""
+
+A comunicação é cortada.
+
+Pode ser necessário visitar o escritório de Elek pessoalmente para iniciar uma conversa decente.",,
 # Adonya Coureuse followup,,,,,,
 devAdonyaVisOption,PopulateOptions,"$global.isDevMode
 $market.id == fikenhild
@@ -45307,11 +45394,11 @@ Onde você pode descansar em um trono no topo da turba e da revolta, um lugar qu
 RetireChalcedonSel,DialogOptionSelected,$option == retire_optChalcedon,,"Calcedônia.
 
 Seu Caminho, você decide, leva ao centro da tempestade. É aí que a paz pode ser encontrada, se o divino assim o desejar.",retire_gracefullyConfirm:Continuar,
-RetireEochuBresSel,DialogOptionSelected,$option == retire_optEochuBres,,"Eochu Bres.
+RetireEochuBresSel,DialogOptionSelected,$option == retire_optEochuBres,,"O seu, naturalmente, seria maior.
 
-Você imagina um palácio situado nas montanhas, em uma terra nova e crua, cuja vida e vivência são forjadas pela engenhosidade da humanidade... e de suas criações.
+Você imagina um palácio erguido sobre as montanhas de Eochu Bres; uma terra nova e intocada cuja vida e existência são forjadas pelo engenho da humanidade... e de suas criações.
 
-Será a celebração final dos fabricantes de ferramentas, dos modeladores do mundo que reivindicam o barro bruto do universo e produzem esplendor e riqueza; é tudo o que significa ser humano e muito mais.",retire_gracefullyConfirm:Continuar,
+Será a celebração definitiva dos criadores de ferramentas, dos moldadores de mundos que reivindicam a argila bruta do universo para gerar esplendor e riqueza; é tudo o que significa ser humano e muito mais.",retire_gracefullyConfirm:Continuar,
 RetireGalatiaSel,DialogOptionSelected,$option == retire_optGalatia,,"A Academia Galatia.
 
 Um raio de conhecimento que ilumina as sombras da guerra, um farol de esperança e educação que orienta aqueles que são honestos e verdadeiros. Sua influência pode melhorar as mentes que você nutre - uma pequena parte para tirar o Setor Perseano desta era das trevas.",retire_gracefullyConfirm:Continuar,
@@ -45321,7 +45408,7 @@ Se a humanidade quiser sobreviver a esta longa era sombria, precisa de incutir d
 
 Eles se posicionam contra o caos e o senhorio da guerra. Eles defenderão o Setor Perseano de ameaças desumanas conhecidas e desconhecidas. Se o Domínio for reconstruído, será pelo sangue deles.
 
-Você pode fazer a sua parte para ajudá-los a fazer a deles.",retire_gracefullyConfirm:Continuar,
+Você pode fazer a sua parte para ajudá-los a fazer a deles.",,
 RetireFikenhildSel,DialogOptionSelected,$option == retire_optFikenhild,,"Fikenhild.
 
 Um oceano de liberdade e lazer - para aqueles que, como você, podem pagar por céus limpos, mares sem fim e uma cobertura no topo de uma das cinco arcologias brilhantes.",retire_gracefullyConfirm:Continuar,
@@ -45369,7 +45456,7 @@ retire_gracefullyConfirmSel,DialogOptionSelected,$option == retire_gracefullyCon
 "# from historian, can back out and also no option for rejuventation/Cydonia/etc",,,,,,
 BeginRetirementOptional,BeginRetirementOptional,,"$fromHistorian = true
 HideVisual
-FireAll RetireOptions","Sua história pode terminar aqui, viajante estelar. Você pode se aposentar, se divertir e finalmente descansar um pouco.
+FireAll RetireOptions","Sua história poderia terminar aqui, navegante estelar. Você pode se aposentar, aproveitar a vida e finalmente descansar um pouco.
 
 A questão é: onde e como?",,
 retire_neverMindSel,DialogOptionSelected,$option == retire_neverMind,"ResumeNormalMusic

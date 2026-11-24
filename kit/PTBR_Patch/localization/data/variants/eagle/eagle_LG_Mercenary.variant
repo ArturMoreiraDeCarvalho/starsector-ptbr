@@ -1,8 +1,7 @@
 {
     "displayName": "Mercenário",
-    "fluxCapacitors": 22,
-    "fluxVents": 0,
-    "goalVariant": true,
+    "fluxCapacitors": 30,
+    "fluxVents": 2,
     "hullId": "eagle_LG",
     "hullMods": [
         "magazines",
@@ -22,9 +21,6 @@
         "targetingunit",
         "hardenedshieldemitter",
         "solar_shielding"
-    ],
-    "suppressedMods": [
-        "andrada_mods",
     ],
     "variantId": "eagle_LG_Mercenary",
     "weaponGroups": [

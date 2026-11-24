@@ -16,6 +16,9 @@
 "data/campaign/special_items.csv": [
 "98d05e6fbfd97f3106c98768c9097649cfa30d4f5bd83500e8e481b63b4cdafa"
 ],
+"data/characters/skills/aptitude_data.csv": [
+"416136007a18a771068cb4775b263a195952aa2eccf31e98806839629596289a"
+],
 "data/characters/skills/skill_data.csv": [
 "2769d4f94915c0082a85aaa7d515fab87b630b42a7afe4d55faa121e8dba235b",
 "c5adee54f987314b06a68a36ccf19be6aa1adeb3d3418d647d58427f46114544"
@@ -54,14 +57,32 @@
 "data/hulls/skins/brawler_pather.skin": [
 "959a67eee1316dc06bd040d585025c1d9e558be8e49da1a508290c7c5fc17b10"
 ],
+"data/hulls/skins/buffalo_d.skin": [
+"5a285892bd756b4a89cc277b4945642b01c850274cba4f9c17b40f6b970a1788"
+],
+"data/hulls/skins/cerberus_d.skin": [
+"7d7293447225454c800ca1e201128040d6e0696f2766c54a37575776fe76b216"
+],
 "data/hulls/skins/cerberus_luddic_path.skin": [
 "3ea3300f05613506f62ab3df99ac067ad3c7807abc423a53f5599f8d08ab6fbc"
+],
+"data/hulls/skins/dominator_d.skin": [
+"519b9c1f800df2ca62165e0ded9933ea1425c85d476520240d2817ca9af73565"
 ],
 "data/hulls/skins/eagle_LG.skin": [
 "04f922b865bceec52ca27c9a09e91e7bcb37eb26c3ba17db703fdfc0a540c969"
 ],
+"data/hulls/skins/eagle_d.skin": [
+"4df07e90bb1a3e3da3e084a4ec70803ab9591fbb92a400a10b23a490db487e18"
+],
 "data/hulls/skins/falcon_LG.skin": [
 "f41d139e6834af659facd9529d082051108290388f14e1d6a4fc256faed77dc7"
+],
+"data/hulls/skins/falcon_d.skin": [
+"695f03e039aa3033b5e9b7e5cd78875991d593029cd1852d1c520ff24e2785a2"
+],
+"data/hulls/skins/falcon_p.skin": [
+"a16fac9573ef8b2d43a0ec28363e5f82e405149b83f30650c5ecb94b1ed07bef"
 ],
 "data/hulls/skins/gremlin_luddic_path.skin": [
 "7ad49e1dff20e30b868ab7cc834c252d9c5ab1a9954217c14add9a3196dbdb58"
@@ -69,14 +90,29 @@
 "data/hulls/skins/hammerhead_LG.skin": [
 "06e9ac63ddf464fc4b539cc968ee7e032245519f581943e502166d8db1d8f9c9"
 ],
+"data/hulls/skins/hammerhead_d.skin": [
+"9d8227025e2c590aaf0f1a5a7fd354e551e74e549238bd04541e61ecea15d347"
+],
+"data/hulls/skins/hermes_d.skin": [
+"e42c532caaf10726902ceb5b56e09d9ac8d5ba53eec6c05963707a9b4a88371d"
+],
+"data/hulls/skins/hound_d.skin": [
+"58c9583e096b6fbc556a39e68ed1e938343980964f2233a3d26a66fcc99d77e2"
+],
 "data/hulls/skins/hound_luddic_path.skin": [
 "6fae14ee76499bf35f1b2a3a21b51761007c208ea07733b31ae8dbd854d506d4"
+],
+"data/hulls/skins/kite_d.skin": [
+"0c00d1bdc8019bfaf3d1a4ad8e6899519efe09cfe06bddff02b5277134bc8080"
 ],
 "data/hulls/skins/kite_luddic_path.skin": [
 "168bb512a3a0ae458fcd33f7d1cc385eb9685b94cd6e68b1ebdc96680a3b704b"
 ],
 "data/hulls/skins/kite_original.skin": [
 "9da1cbfd6ea937c6680f5c5252436eebaca9695bf1afb8863d44a781eff8bbf3"
+],
+"data/hulls/skins/lasher_d.skin": [
+"6150d0043a8c68f2504ed5d989aab2b6783114f87ff47321e8ab7dd9ce358922"
 ],
 "data/hulls/skins/lasher_pather.skin": [
 "ecd1d7b353c70f9e2cfb59d22f199efffc21fcad8937f41eebc4df6c9b686860"
@@ -87,8 +123,20 @@
 "data/hulls/skins/mudskipper2.skin": [
 "9c7d154f14f0abb18a16016dfdb535090de43e982401a30de98a9ecca70bc8c1"
 ],
+"data/hulls/skins/mule_d.skin": [
+"e55f3df5883475b3c09938121a06947bebf36b829b118ca3f94f79c9bdaa631e"
+],
 "data/hulls/skins/onslaught_xiv.skin": [
 "a454037389725931e84b1425ddb64981a7a54fab586e51dd48475c7eaf601abb"
+],
+"data/hulls/skins/sunder_d.skin": [
+"4720fc8f9d7a2a0226f100d142fe01ab461075a3452e1b574ce639054b21ec5c"
+],
+"data/hulls/skins/tarsus_d.skin": [
+"b8cfd14fabcffd6fcf54961fe95569f560475f45a7a5eb74f8b17b69e1f8941c"
+],
+"data/hulls/skins/wolf_d.skin": [
+"39bc273cf0014ea94b7fb72ec36cf0d73debcc9b9e2ad5c6fa627a8ea5e0c0be"
 ],
 "data/missions/direstraits/MissionDefinition.java": [
 "222ad9feb0b34b70749d538fcd70953008a1c4c297e68b5c60dc341142080e20"
@@ -158,11 +206,26 @@
 "data/variants/dominator/dominator_AntiCV.variant": [
 "1921a222c8461edafc00e9d55cc53a0cb24188c5891daa6d8908bd860c4127a7"
 ],
+"data/variants/eagle/eagle_LG_Assault.variant": [
+"99fee23e7029e9f17b0d3dec3203046fbae0cab40fa9a0bbbf54c9f8a3e5dbb1"
+],
+"data/variants/eagle/eagle_LG_Support.variant": [
+"0254bfcf2ef59d7bb4c7bf3aa88a568f175ece6917e430cd68f6f723f1568095"
+],
+"data/variants/falcon/falcon_LG_Attack.variant": [
+"cb5399aafa1492458bfd6f9c111accc37049416a8b91952968ef7795c818ff4f"
+],
+"data/variants/falcon/falcon_LG_CS.variant": [
+"59e5ebb55d52847839dfd5133c6cd9c90e8054c41b9342aacc1a845d66ca4c5d"
+],
 "data/variants/falcon/falcon_p_Strike.variant": [
 "4724f805d3d2b3b955890a6a9620571e1c727366fb104bde91cd2f4441daf385"
 ],
 "data/variants/gryphon/gryphon_Standard.variant": [
 "cb5fb802c6a79df0ff657f6a180e0e3e4061fa367f98ff5968e152a86611608a"
+],
+"data/variants/hammerhead/hammerhead_LG_Balanced.variant": [
+"dc270cb5e2e7f36ffb3e7a2c4530037cb691f8aafea6e9404a9967260f09325c"
 ],
 "data/variants/invictus/invictus_Standard.variant": [
 "645f398dd0aa70628926d411bd3c6ee4e01f18c10a0fc1531623ee3214863e4e"

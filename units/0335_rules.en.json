@@ -1,0 +1,141 @@
+{
+ "chunk": 335,
+ "cat": "rules",
+ "items": [
+  {
+   "i": 1,
+   "en": "Let the man hear what he so obviously wants to hear from you. It's not like you're going to read the long-winded ramblings of Philip Andrada - unless an INTSEC officer was holding a gun to your head.\\n\\nEven then.",
+   "ctx": "andradaOfficeBook: SetTooltip andradaOffice_book1 \"Let the man hear what he so obviously wants to hear from you. It's not like you're going"
+  },
+  {
+   "i": 2,
+   "en": "And you mean to; perhaps there is wisdom and power to be gained from Andrada's philosophy...",
+   "ctx": "andradaOfficeBook: SetTooltip andradaOffice_book1sd \"And you mean to; perhaps there is wisdom and power to be gained from Andrada's philoso"
+  },
+  {
+   "i": 3,
+   "en": "Pledged to study the wisdom of Philip Andrada",
+   "ctx": "andradaOfficeBook1sd: AddTextSmall \"Pledged to study the wisdom of Philip Andrada\" highlight"
+  },
+  {
+   "i": 4,
+   "en": "\"It is my calling to serve the pilgrims who come here.\" \r\n\r\nA pause, then, \"And also those who are not pilgrims.\" $HeOrShe looks expectantly at you.",
+   "ctx": "data/campaign/rules.csv lppHookCurateSegueNot [text]"
+  },
+  {
+   "i": 5,
+   "en": "\"Hmm, yes,\" $hisOrHer eyes flick rapidly, accessing cybernetic implants. \"Your resume is impressive. Our human capital department has been watching you for some time now.\"\r\n\r\n\"Now understand that signing this commission contract with the Tri-Tachyon Corporation (and associated subsidiary incorporations) is a serious commitment. You will undertake that risk involved in fighting Company-designated belligerents be they pirates, anti-market terrorists, or polity-level entities which engage in illegitimate search and seizure of Company property.\"\r\n\r\n\"You will, of course, be able to resign your commission at any time without immediate financial penalty; generous terms indeed in my opinion. Were you to do so, that would mean you would be... how to put it, 'thrown to the sharks'? Competition in the Company is fierce, my friend, and if you withdraw from its legal protection, only you will be be responsible for what happens.\"",
+   "ctx": "data/campaign/rules.csv CMSNTextSuitedPart1_tritachyon [text]"
+  },
+  {
+   "i": 6,
+   "en": "$HeOrShe nods skeptically. \"Um. Understood, $playerSirOrMadam.\"\r\nOR\r\n\"Acknowledged, $playerSirOrMadam.\"\r\n\r\n$HisOrHer tone is distinctly unimpressed.\r\nOR\r\n\"I see, uh, $playerSirOrMadam,\" $heOrShe says uneasily, then performs an unenthusiastic salute.\r\nOR\r\n\"$PlayerSirOrMadam,\" $heOrShe answers robotically. You can see the disappointment in $hisOrHer eyes.",
+   "ctx": "data/campaign/rules.csv oc_savingOnCombaPaySel [text]"
+  },
+  {
+   "i": 7,
+   "en": "The capital-class construct appears to be a phase ship due to presenting features common to the type, though its design is otherwise exotic.\r\n\r\nThere also appear to be small, bright EM sources, \"-Only partially overlapping the visual spectrum,\" your sensors officer reports. They periodically appear and dissipate in a volume encompassing the mysterious ship. Your bridge crew murmurs speculation between their stations: a new form of shielding? Microsat thruster bursts? Your sensors officer shakes their head.\r\n\r\nYou order a high-resolution scan performed, and the raw data placed into secure storage.",
+   "ctx": "data/campaign/rules.csv zig_encounterDesc1 [text]"
+  },
+  {
+   "i": 8,
+   "en": "\"I imagine your self-interest would provide sufficient motivation. As you well know, we pay in credits. The prospect of the continuity of technological civilization is an added benefit, is it not?\"\r\n\r\n\"Unless,\" she pauses, then looks at you over her AR-spex, speaking evenly, \"I've gravely misjudged you, and your heart is set on liquidating your fleet, donating the proceeds to charity, and taking up with a flagellant order on Hesperus... no, I've got it- you've been doing a lot of reading; well, watching dark-channel holovids mostly- and have half a mind to enlist as a political enforcer smashing teeth in for the 1000-cycle reign of the 'Lion of Sindria'. Did I get it right?\"\r\n\r\nYour shields hold firm under the broadside of sarcasm deployed by the Provost.",
+   "ctx": "data/campaign/rules.csv bairdIntroHubWhyShould [text]"
+  },
+  {
+   "i": 9,
+   "en": "\"I imagine your self-interest will provide sufficient motivation. As you well know, we pay in credits. The prospect of the continuity of technological civilization is an added benefit, is it not?\"\r\n\r\n\"Unless,\" she pauses, then looks at you over her AR-spex, speaking evenly, \"I've gravely misjudged you, and your heart is set on liquidating your fleet, donating the proceeds to charity, and taking up with a flagellant order on Hesperus... no, I've got it- you've been doing a lot of reading; well, watching dark-channel holovids mostly- and have half a mind to enlist as a political enforcer smashing teeth in for the next 1000-cycle reign of some new 'Lion of Sindria'. Did I get it right?\"\r\n\r\nYour shields hold firm under the broadside of sarcasm deployed by the Provost.",
+   "ctx": "data/campaign/rules.csv bairdIntroHubWhyShouldPost2AC [text]"
+  },
+  {
+   "i": 10,
+   "en": "Gargoyle stares forlornly, resting chin on hands.\r\n\r\n\"I am wasted on you, $playerFirstName. I'm trying, I really am. Give me something to work with. Please? Otherwise I may just freeze myself for a thousand cycles. Maybe something interesting will have happened by then.\"",
+   "ctx": "data/campaign/rules.csv gaKAGargoyleNotReally [text]"
+  },
+  {
+   "i": 11,
+   "en": "\"You installed this hack device, and did not get the decrypted Kallichore Archive from Gargoyle before returning here?\"\r\n\r\nBaird pulls off her spectacles and stands, her usual cool quite broken, and shouts, \"Go now! Get the archive before someone else does! Why are you waiting, go!\"",
+   "ctx": "data/campaign/rules.csv GAKABairdGreeting_RETREIVE_ARCHIVE_Sel [text]"
+  },
+  {
+   "i": 12,
+   "en": "\"So this is an easy one, right? All you have to do is get to $gaData_planetName, in the $gaData_systemName system, which is,\" $heOrShe checks a different datapad, \"about $gaData_dist light-years away. We'll provide the exact coordinates of the $gaData_target you need to, um, access.\"\r\n\r\nHe looks up at you optimistically.\r\n\r\n\"Once you're back in hypercomm range, send the encrypted contents back to the Academy and the finance office will pay you $gaData_reward credits.“",
+   "ctx": "data/campaign/rules.csv gaDataMissionTextBasicOrPirates [text]"
+  },
+  {
+   "i": 13,
+   "en": "The comms-link crackles to life. \"Greetings, starfarer!\" $Rank $personName grimaces regretfully, \"Bad news: you possess something my superiors desire and now you must surrender it to me.\"\r\n\r\nYou realize that $heOrShe is talking about $entity.fwt_thingDesc.\r\n\r\n\"Now, is this going to be easy or hard? Think, now,\" $heOrShe says with false charity, \"But don't take too long, please.\"\r\n\r\nThe demand is outright robbery and any law-abiding faction would be embarrassed to condemn you for defending yourself, if you chose to do so.",
+   "ctx": "data/campaign/rules.csv fwtOpenCommGenericAggroNoPay [text]"
+  },
+  {
+   "i": 14,
+   "en": "Laughter. That's what it is. Kanta's laughter like autocannon shell-cases dropping from an ejection port. Metal on metal, industrialized murder.\r\n\r\n\"Your presumption amuses us,\" Kanta's amplified voice booms out over the court, drowning out all else. \"So eager to serve us, are you? Then tell us, how shall you serve?\"\r\n\r\nCydonia's mouth is a flat, twitching line.",
+   "ctx": "data/campaign/rules.csv kdKantaAudience1Bluffs2 [text]"
+  },
+  {
+   "i": 15,
+   "en": "His eyes flicker.\r\n\r\n\"Yes, I see. I believe it was mentioned that you might have a very particular inquiry?\"",
+   "ctx": "data/campaign/rules.csv SD7SInesisFromTTcontactSel [text]"
+  },
+  {
+   "i": 16,
+   "en": "\"Nonetheless, I consistently demonstrate a value-add to the Special Acquisitions section. So long as my direct superior is satisfied, I am satisfied to continue my work.\"\r\n\r\n\"And I'm damned good at it,\" he says, a bit of humanity slipping through his salesman's persona.",
+   "ctx": "data/campaign/rules.csv InesisAskWhatDo2aNoZGR [text]"
+  },
+  {
+   "i": 17,
+   "en": "He rubs his chin, making a show of thinking this over.\r\n\r\n\"I'll tell you this.\" He raises a confident finger. \"I consistently demonstrate value-add to the Special Acquisitions section. So long as my direct superior is satisfied, I am satisfied to continue my work.\"\r\n\r\n\"And I'm damned good at it,\" he says, a bit of humanity slipping through.",
+   "ctx": "data/campaign/rules.csv InesisAskWhatDo2bNoZGR [text]"
+  },
+  {
+   "i": 18,
+   "en": "Your disguised marine squad fans out, passing plausibly for workers on a shift-break snacking on nutrition bars and igniting narcosticks.",
+   "ctx": "data/campaign/rules.csv sdtuRamSafehouse2wire [text]"
+  },
+  {
+   "i": 19,
+   "en": "The comms take a moment to connect.\r\n\r\n\"I'm very busy,\" says Elek. You can see the back of his head as he configures something on a secondary interface. \"TriOS, end comms.\" A pause. \"End. Comms. Stupid-\"\r\n\r\nThe comms cut.\r\nOR\r\nAfter a moment, the comms flicker into a stable connection. Elek's attention appears to be focused on his datapad; he doesn't even look into the feed.\r\n\r\n\"Is the comms buffer insufficient for your purposes? My mind is fully occupied and I shall bear no interruption. Good day!\"\r\n\r\nThe comms cut.",
+   "ctx": "data/campaign/rules.csv gaDHOelekGreeting [text]"
+  },
+  {
+   "i": 20,
+   "en": "After a moment the comms connect.\r\n\r\n\"What?\" A holographic planetoid whizzes past Elek's head. \"Did we not just speak? I'm in the middle of calibrating my model, good-bye. TriOS, end-\"\r\n\r\nThe comms cut.\r\n\r\nYou may need to visit Elek's office directly in order to initiate a proper conversation.",
+   "ctx": "data/campaign/rules.csv gaDHOelekGreetingAgain [text]"
+  },
+  {
+   "i": 21,
+   "en": "Yours, of course, would be bigger.\r\n\r\nYou envision a palace set upon the mountains of Eochu Bre; a raw, new land whose life and living is wrought by the ingenuity of humanity... and of its creations.\r\n\r\nIt will be the ultimate celebration of the tool-makers, the world-shapers who claim the raw clay of the universe and produce splendor and wealth; it is all that it means to be human and more.",
+   "ctx": "data/campaign/rules.csv RetireEochuBresSel [text]"
+  },
+  {
+   "i": 22,
+   "en": "Your story could end here, starfarer. You can retire, enjoy yourself, and finally get some rest.\r\n\r\nThe question is, where and how?",
+   "ctx": "data/campaign/rules.csv BeginRetirementOptional [text]"
+  },
+  {
+   "i": 23,
+   "en": "\"Wait. I actually want to go outside to see the real shrine.\"\r",
+   "ctx": "lppJangalaattendantVisit"
+  },
+  {
+   "i": 24,
+   "en": "Go to very specific dialog line",
+   "ctx": "DEVgaGoToVerySpecificLineOpt"
+  },
+  {
+   "i": 25,
+   "en": "\"The Church is paying more than $locrlf_rewardAmount credits for the job, aren't they.\"",
+   "ctx": "locrlfOfferTextBar2optA"
+  },
+  {
+   "i": 26,
+   "en": "\"The Church is giving you more than $locrlf_rewardAmount credits for the job, aren't they.\"",
+   "ctx": "locrlfOfferTextContact2optA"
+  },
+  {
+   "i": 27,
+   "en": "\"A... contact told me to speak with you.\"",
+   "ctx": "SD7SInesisFromTTcontactOpt"
+  }
+ ]
+}
